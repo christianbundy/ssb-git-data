@@ -1,13 +1,17 @@
 {
-  "previous": "%Wre+lA+TtgKJoG8Z3/3DPTT+8uDdd1GgQEggk6uInr0=.sha256",
+  "previous": "%8M1dyBmS8JMI7jL7dQohaH2Ljg5RCzCFJqvG2xln8XI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 63,
-  "timestamp": 1519860537708,
+  "sequence": 64,
+  "timestamp": 1519860549356,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "offgrid",
+    "vote": {
+      "link": "%vJ4QOoeiZ/d4XZMtreFYB+/iT9o1YAkzoFrO99yiHBY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Yjs518V5t28byYQBcC5CN1P6zfyy7qdpGVNy/UtSQL6x4hrtOuRcCkXghJ9eAHTnSgvTGgGUu5di8ggoHPjoBA==.sig.ed25519"
+  "signature": "pdt11fWNCXmAkRoX243SAC9kg7rKc0nl4vdxmseWD8BUhn9xWOaGH2sY165SYPKUNkJbbsS1mXplFyIYyukhAg==.sig.ed25519"
 }
