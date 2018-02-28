@@ -1,13 +1,17 @@
 {
-  "previous": "%64iLN4IlOIbrWUZYH/9dHeozB/YkCIYzK6g1FFzq59g=.sha256",
+  "previous": "%VIjR3Q1virRg+GPeJwwUJxFDAtHSjrPQvA+8G5swmDg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 68,
-  "timestamp": 1519860615916,
+  "sequence": 69,
+  "timestamp": 1519861082831,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "vegan",
-    "subscribed": true
+    "type": "vote",
+    "channel": "gardening",
+    "vote": {
+      "link": "%9wpXGWzP2mQxnx2ZZQV+7WvVQlDVcUuqjzDDG5iJEbs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "T3WmbM9mYlHGuybkK0bx85p0u1vFMuEkDfA+syuAr2kdmevvjpajuRPWAw/e+HCpXsiB803elnRH0xRi4uXwAw==.sig.ed25519"
+  "signature": "Zj9d6qRDtZ70SgLeCEaAyX6C7SsdJ7EpcqlE0IM6qKGYu0riE3PkYtSg6sQLhuwb1yZtyjN2M8AI5MVVl4IICQ==.sig.ed25519"
 }
