@@ -1,13 +1,28 @@
 {
-  "previous": "%DTp3LHUewc6ZC+jSb0wyQQmqT0zodRNTRGK04qzKRRg=.sha256",
+  "previous": "%WxmO35HLPdGwWOd255nhq2oiQ9lfjH08SaaBGndTeVg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 122,
-  "timestamp": 1524758002122,
+  "sequence": 123,
+  "timestamp": 1524759027468,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@wXIn0d7W57npReOBRuapAPGE1FIhOvtdJaA5clSH2v0=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%SK8teVTMNxqcsEV7dezS6PdSHdROdHoJS5lPhQ4Y2FE=.sha256",
+    "branch": "%Jx17QbZwJkcT1zXjCRDiB655yPW76A90Zn0XdG7JFbY=.sha256",
+    "reply": {
+      "%Jx17QbZwJkcT1zXjCRDiB655yPW76A90Zn0XdG7JFbY=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%Y8wCnOWSKH/VWRg4E9fAIzOt1XsJ3XH53G3FcsdddVw=.sha256": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "Hey @Simon -- I'm also a DSA-LSC member. Are you on #mastodon as well? If you're into co-ops you may find #SocialCoop interesting.\n",
+    "mentions": [
+      {
+        "link": "#mastodon"
+      },
+      {
+        "link": "#SocialCoop"
+      }
+    ]
   },
-  "signature": "9p1oJwYGvUBOcf3toSJzkBgRrKQhtUAM9EHOO1nGLQoBRujW6xUxFIYv+fz5a+WmxrExHPP7F3+oDC9qEZ5pAg==.sig.ed25519"
+  "signature": "48KBrCun+wQsgT0TfY6X9agulNTIVbJYWbpKMYgYZ3xJ6kqCko9R4lOrwqBMPRMQDcJ2tmV0DLm6+Ih/rRMgBQ==.sig.ed25519"
 }
