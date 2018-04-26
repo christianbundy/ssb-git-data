@@ -1,13 +1,26 @@
 {
-  "previous": "%KSJ2045e/Q0syIucYyJvV5hnrC8k5A9wpIRx5IXbmCI=.sha256",
+  "previous": "%JiTNudxIUgxKzaXFjY/Gz//iBlTaGGAREDrdHksn/JI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 191,
-  "timestamp": 1524782916066,
+  "sequence": 192,
+  "timestamp": 1524783011417,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "solar",
-    "subscribed": true
+    "type": "post",
+    "root": "%SK8teVTMNxqcsEV7dezS6PdSHdROdHoJS5lPhQ4Y2FE=.sha256",
+    "branch": "%fJJS3a+WDmPx5K4PyTDE4ZSOcHTsdEjun+CJGDkKh70=.sha256",
+    "reply": {
+      "%SK8teVTMNxqcsEV7dezS6PdSHdROdHoJS5lPhQ4Y2FE=.sha256": "@q/0xxglJw8pR+/FBo9XBpIVY+BRjiW3phFW5D1nq4hs=.ed25519",
+      "%fJJS3a+WDmPx5K4PyTDE4ZSOcHTsdEjun+CJGDkKh70=.sha256": "@q/0xxglJw8pR+/FBo9XBpIVY+BRjiW3phFW5D1nq4hs=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "[@Simon](@q/0xxglJw8pR+/FBo9XBpIVY+BRjiW3phFW5D1nq4hs=.ed25519) I started out on mastodon.social too (https://mastodon.social/@christianbundy) but:\n\n- I liked the idea of co-ownership and co-governance.\n- I wanted to see what a functional \"local timeline\" looked like.\n\nIt's basically the same, except more notifications on Loomio and a few more outages. Human stuff!",
+    "mentions": [
+      {
+        "link": "@q/0xxglJw8pR+/FBo9XBpIVY+BRjiW3phFW5D1nq4hs=.ed25519",
+        "name": "Simon"
+      }
+    ]
   },
-  "signature": "UEs+MILrX1bOV7NYitXb38vbKyak5S0Ug2Y3RGRGMadOsGqcmUhRaAmkZj7goNOgazg2GqGwBwAkvuJm3PQoDw==.sig.ed25519"
+  "signature": "vHipITAKTxhO9E2SSLLCEzRG92rfgIptIKinNWrBpzjTuJy69aOy5LWnWyt3NY4XTjc8KMC5i9soO1tnEykaDA==.sig.ed25519"
 }
