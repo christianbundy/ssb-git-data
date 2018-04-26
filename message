@@ -1,13 +1,20 @@
 {
-  "previous": "%pr+ruthOSqkqUuqw/zCNnK2v/VsJlFoPPWY+KzDsGWU=.sha256",
+  "previous": "%X+2nW6l5rkISHabsL3Ub/xBczKBCIoB66ZjJ4iSf+to=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 160,
-  "timestamp": 1524761196823,
+  "sequence": 161,
+  "timestamp": 1524761277340,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@rpFhMoIhGijpoYciDNYLML6PTILC9pD8T8VReU/tNF4=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256",
+    "branch": "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256",
+    "reply": {
+      "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256": "@rpFhMoIhGijpoYciDNYLML6PTILC9pD8T8VReU/tNF4=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "Hey Jane, welcome to the Scuttleverse! I loved my [short] time spent as a nomad, where are you heading next?",
+    "mentions": []
   },
-  "signature": "9xnu1lolyWgScLsOxF3WPm3O8h8X05VZ1gElbWvBQjOQB0qDefnz5KGnUSJ3vp+Ril+sTATgprNm0JnYigvwDg==.sig.ed25519"
+  "signature": "SZ7LnB4hIfzUYPzB6vfvtn79tVGX8kAtKUDLTLh0AhSGiuaL0n+QQ2/BPMjqCswZqD1Z7Bb0qgZaz3n252boBQ==.sig.ed25519"
 }
