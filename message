@@ -1,13 +1,17 @@
 {
-  "previous": "%XfYXSosn2V6nMS9FVMhWoh5UNmWHU8TE9aWFRGX2orc=.sha256",
+  "previous": "%OVygBksgWhw6x9nzRb1jNrvIcxxacL+l6r7wFAAr69Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 186,
-  "timestamp": 1524782863484,
+  "sequence": 187,
+  "timestamp": 1524782872420,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@jX9wRdRM0z+DlRrYGy1qapRPPERQCz0inlcBCSWYx2Y=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "freesoftware",
+    "vote": {
+      "link": "%znDCGJyamL8KAT7agaay04wR41UT6wbUiF3UflQFVWk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Ua81uKzXprbHMYscvL/jsILqZBz+xnffaHXYQJqU2y7+Xkk/rXldDX+/d+CXR7ABvubcLIHtbAnl+JzayigmCA==.sig.ed25519"
+  "signature": "MYN7p8MrclnlWXkNna9rrgXs+lzamQwSeWGdJwLHteIwWjGbEoWIEokF08+ZuMaC9Pl/pCOzYOh0acLxeCMZCw==.sig.ed25519"
 }
