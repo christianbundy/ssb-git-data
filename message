@@ -1,20 +1,17 @@
 {
-  "previous": "%X+2nW6l5rkISHabsL3Ub/xBczKBCIoB66ZjJ4iSf+to=.sha256",
+  "previous": "%AwuM5e6SrzQ43gSjbNv89aCgvsOu7bApmDy3H6wbzfc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 161,
-  "timestamp": 1524761277340,
+  "sequence": 162,
+  "timestamp": 1524761311360,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256",
-    "branch": "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256",
-    "reply": {
-      "%UZgIavYRJyFZnIjmjdEWokfqg0wLmk1H5WMqL0zs0/I=.sha256": "@rpFhMoIhGijpoYciDNYLML6PTILC9pD8T8VReU/tNF4=.ed25519"
-    },
-    "channel": "new-people",
-    "recps": null,
-    "text": "Hey Jane, welcome to the Scuttleverse! I loved my [short] time spent as a nomad, where are you heading next?",
-    "mentions": []
+    "type": "vote",
+    "channel": "biohacking",
+    "vote": {
+      "link": "%qpjjlrafrUHkf5aniCADEmwIREYqccbL8V0Umma60xg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "SZ7LnB4hIfzUYPzB6vfvtn79tVGX8kAtKUDLTLh0AhSGiuaL0n+QQ2/BPMjqCswZqD1Z7Bb0qgZaz3n252boBQ==.sig.ed25519"
+  "signature": "+cRxiuDXuYzZityK1uTMXymHs52g0GarENKVlRjzNhChK9VOJX7jt2AP8wHPSnpOrRCHXmrw4kIYlDaQrFYkCg==.sig.ed25519"
 }
