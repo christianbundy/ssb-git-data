@@ -1,17 +1,20 @@
 {
-  "previous": "%eSeaZfGrsgPvvOob+Hl0d4dhsTJBIXcjG8e6s1P5neI=.sha256",
+  "previous": "%aWpZE99Gn2/S/JodsulmDHXXxwHzh2npKob8pdnSJfU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 149,
-  "timestamp": 1524759768851,
+  "sequence": 150,
+  "timestamp": 1524759804622,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%dMOqvss7BKRkJz8+bxFSYY8LWUDIMtniSKuTVgzWVro=.sha256",
+    "branch": "%dMOqvss7BKRkJz8+bxFSYY8LWUDIMtniSKuTVgzWVro=.sha256",
+    "reply": {
+      "%dMOqvss7BKRkJz8+bxFSYY8LWUDIMtniSKuTVgzWVro=.sha256": "@JmEGOUd5HzPCtiqpErAx5Wiz8JPh7uWlTSAI4vt3uz4=.ed25519"
+    },
     "channel": "electronics",
-    "vote": {
-      "link": "%dMOqvss7BKRkJz8+bxFSYY8LWUDIMtniSKuTVgzWVro=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Looks great! How long did this take to get configured?",
+    "mentions": []
   },
-  "signature": "67+j+LugsHdIQ9s4qjP5UmHzLzQdyy+KkSERCaNC7aAGjdjRSrxmpMEz2gNg1bROjc/MNCMgqhR8ZMxoPysICQ==.sig.ed25519"
+  "signature": "omH8U2/5rdEZ5TKl5vcamY1UzCuIuYtB4yY5y3Vu0rkv0zCl4sHgtahCChVXADJZk9ZwwWQ/AdFhGIxPSZ2hAw==.sig.ed25519"
 }
