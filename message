@@ -1,16 +1,21 @@
 {
-  "previous": "%UESAADPzEatCff4GOojCcLnr2V5/pjVUu1LEkBIFMLs=.sha256",
+  "previous": "%sOsuHUpQcYaqll6AYVS3kcpvK81WJbP0bGMIhFNUjJ0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 177,
-  "timestamp": 1524764658200,
+  "sequence": 178,
+  "timestamp": 1524768732765,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jjpswNuLQepMLQ98/lkBarRttyJwIBsXWQ+Md0VaiuY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%P7ovL4ud7zLZupLxzTA2NObqHiRlPcSLMZcDWlCZvr4=.sha256",
+    "branch": "%0pG1XE3HWDcNZl0tG0ZWJv2pQ0qrCxtSN12z9UQQB8k=.sha256",
+    "reply": {
+      "%P7ovL4ud7zLZupLxzTA2NObqHiRlPcSLMZcDWlCZvr4=.sha256": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
+      "%0pG1XE3HWDcNZl0tG0ZWJv2pQ0qrCxtSN12z9UQQB8k=.sha256": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "My understanding is that it would be replicated by all (since you can't skip the hash of items in a feed), but that only clients that knew what to do with the type would display it (i.e. not Patchwork).",
+    "mentions": []
   },
-  "signature": "kXT5H0SkfHHJCNiwf4Ye/mKKHfoYd61V22NCMjAGOtA8onr+6KtKaJcgjk5s5az1xp609yzBHb1ULM06DHH9CA==.sig.ed25519"
+  "signature": "/nRtWAVCzg1uxhBm+LjxTLKMkVlKqspEyFaS3B7KJk1W+2JG3PY5vIWN1Qo143n2zxjVCt3rzWvh7lc/zud2AA==.sig.ed25519"
 }
