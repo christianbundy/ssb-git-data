@@ -1,13 +1,21 @@
 {
-  "previous": "%U3bDtv8cimvssesolLWCftjlZTj4Yi3fvNE8XK6FINA=.sha256",
+  "previous": "%P9h/W9dfE/Yuuvd59bh/2Zkz+aXBwPuU95D4b6lgsyE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 196,
-  "timestamp": 1524791633346,
+  "sequence": 197,
+  "timestamp": 1524798662330,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "accounting",
-    "subscribed": true
+    "type": "post",
+    "root": "%XcyJkJUtJ90uH1qZjA6PiSJGwoIcee/Qz3Y3fCA0Aag=.sha256",
+    "branch": "%eP4q/yYEuPBrjOl0T0aRL/w+lwaTUDnwvZKA4B66g1E=.sha256",
+    "reply": {
+      "%eP4q/yYEuPBrjOl0T0aRL/w+lwaTUDnwvZKA4B66g1E=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519",
+      "%BW/N8Seh447NxlIhRlg3UcSrDdqYsAQ6h/3AxZWZwMI=.sha256": "@vkdMlsuBgzzo5eLS3LZLdqnBpZ26OauJOMIq9gQ2E7E=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "That's really interesting, I'm not sure what the trade-off between humidity and temperature would look like for my region. We're at about 50% humidity today, which is about the same as Perth.",
+    "mentions": []
   },
-  "signature": "bZjesjoZ4q3iulyxSfnMv0ea5m/e/EbGuiL4yn76gEcVnYxboJusmxHc6ly3ZqLrm5wGYrD8fS459vI/1bklDw==.sig.ed25519"
+  "signature": "n28+IlIVeZTq4eTiptxQQUtcRKtSkQ5CpHFsMUjVpTe1L/VE3OyPrYKYWnAX7gccTtGaA8DgLDqHH4fCTJZPCA==.sig.ed25519"
 }
