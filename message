@@ -1,25 +1,13 @@
 {
-  "previous": "%PQhkWzCYLISA7+ZHQFdeiVca6VP+/wz3xnGwi/h5pGI=.sha256",
+  "previous": "%2JLebYlxYcFuvhxjEOlbBGyx9gncsmch3s3NsjvGsx0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 228,
-  "timestamp": 1524935809607,
+  "sequence": 229,
+  "timestamp": 1524935846104,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%iiYfQd8KmK1fdmoWFbZF6EoouZFFmfMEFTbI6D+iIro=.sha256",
-    "branch": "%9XQd0LMltito5lnUxh8HY1XR7yU2Qabj+xmT/hnuPRw=.sha256",
-    "reply": {
-      "%iiYfQd8KmK1fdmoWFbZF6EoouZFFmfMEFTbI6D+iIro=.sha256": "@KNvdvuvM5x0gf4HjDDA4LPvs6RJK5Y9M9u1TtdQlugU=.ed25519",
-      "%9XQd0LMltito5lnUxh8HY1XR7yU2Qabj+xmT/hnuPRw=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
-    },
-    "channel": "new-people",
-    "recps": null,
-    "text": "Just to speak to how important `gossip.json` is -- I recently reinstalled my OS and only kept `secret`, which means that my data (replicated in private, previously public pubs) was inaccessible. Worse, I could follow _new_ pubs and see \"${name} followed you 1 month ago\", but nobody was able to see my posts.\n\nI spent several weeks #marooned talking to myself until I figured out that I was basically making a completely separate feed with the same private key, which is unsupported by clients.\n\nDon't forget `gossip.json`! ",
-    "mentions": [
-      {
-        "link": "#marooned"
-      }
-    ]
+    "type": "contact",
+    "contact": "@22YV3HX/BGClXH49ZebkcepqRpj7a9f5s0ddwhDSfxk=.ed25519",
+    "following": true
   },
-  "signature": "xlsqJNLiGc851reh8z1ehZjNYXZaHPSxz19JzxcMG+nMzP9d1uQrPQex2sdVZcJUAnmbHEBOEsvCfV3XJBbOBQ==.sig.ed25519"
+  "signature": "4GzI+PrjWKqtDHgYfxtdozsrst43tybdgPHHPshBKLt4vtDD+6A0ONVvIT3kFVvjuHbIr0XjGcxvsqFf8xvxAA==.sig.ed25519"
 }
