@@ -1,25 +1,17 @@
 {
-  "previous": "%eDQTSBFyZTjzZwhGsGJnyGaTkizR+bH7bcOdaF76e4w=.sha256",
+  "previous": "%sXEilRQ956RFJPtIKV8hpJ/p14L3VyIyrF4YkaetNlw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 247,
-  "timestamp": 1525044657951,
+  "sequence": 248,
+  "timestamp": 1525044740277,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%WBM0o+UEdokmCnF9nDrz5/9k95wLsZhE7S1vJ8mzyDo=.sha256",
-    "branch": "%+DqEZudVLQHACJuniFkOjlZPYsU+GCOkXNaLkDTxMug=.sha256",
-    "reply": {
-      "%WBM0o+UEdokmCnF9nDrz5/9k95wLsZhE7S1vJ8mzyDo=.sha256": "@3Izp89eg5BMpzKXPFa6JPzElYzMnbNhQ++IfChq3utc=.ed25519",
-      "%+DqEZudVLQHACJuniFkOjlZPYsU+GCOkXNaLkDTxMug=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
-    },
-    "channel": "new-people",
-    "recps": null,
-    "text": "Obligatory: you can use Matrix to bridge to other protocols (like IRC!) so you can also access the #scuttlebutt on Freenode as [#freenode_#scuttlebutt:matrix.org](https://matrix.to/#/#freenode_#scuttlebutt:matrix.org).",
-    "mentions": [
-      {
-        "link": "#scuttlebutt"
-      }
-    ]
+    "type": "vote",
+    "channel": "patchwork",
+    "vote": {
+      "link": "%UE43GPkrqWwxxOAqKuFPtb5ydQMd+8U09NZlcHy9ubk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "rW/x+zLrrKjivO9ehmnBTOtdnPAaWRlf2SdpY8wbwejbIGF8WyQrAwMyS2E1SY7XLDCddFhwNg+mxZnjb0PuBA==.sig.ed25519"
+  "signature": "Ql7dKA4rVRKB858lYr6TvBih61mDIgvQCzfukVZMGYkFvVkHpH79dGleGdhA1lgerOTF8mm/X5hxX6FfSEFIDg==.sig.ed25519"
 }
