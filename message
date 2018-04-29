@@ -1,17 +1,27 @@
 {
-  "previous": "%zi3EB8kxUkQ5IQ8CB5cucul96iNUDCaZCYFbjNg2lyI=.sha256",
+  "previous": "%evTYi7/auyhMzBfAyFsN44OU88Jwtoz/pigeyodWwO8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 241,
-  "timestamp": 1525022448661,
+  "sequence": 242,
+  "timestamp": 1525022560830,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%9GKnqcvUfkfnnLJaGSd3LE3XURSfP1R4+byHI3MwRrI=.sha256",
+    "branch": "%6xxVD2Zs+KlwwV7eyta+PJGM+ztQfTdjlAca1Zh81Ys=.sha256",
+    "reply": {
+      "%6xxVD2Zs+KlwwV7eyta+PJGM+ztQfTdjlAca1Zh81Ys=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": "patchwork",
-    "vote": {
-      "link": "%6xxVD2Zs+KlwwV7eyta+PJGM+ztQfTdjlAca1Zh81Ys=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I wonder whether you could set up a Dropbox/Syncthing-like service that kept mutex on the `.ssb` directory \nso only one application could read the symlink at a time. Sort of makes me wonder whether a federated #mastodon-like service to access the #scuttleverse would be useful (especially for less-technical folks). ",
+    "mentions": [
+      {
+        "link": "#mastodon-like"
+      },
+      {
+        "link": "#scuttleverse"
+      }
+    ]
   },
-  "signature": "IywxrQpJ7D3iTodIR4Y9G66cB9nvP5xr3DmcgyrmiKFC3WB/ovneveoztlM6kjqG/dll2lZH+9WcUl9VXYp0BA==.sig.ed25519"
+  "signature": "EdDlvhfuSIRFFfKq97/I+RKwikcmVlRFjBcTrT98BCGBCxWSCQjvIa2ldbJ/NMNBTNlkMfltdt1h87Nbl07GAA==.sig.ed25519"
 }
