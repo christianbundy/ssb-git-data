@@ -1,13 +1,17 @@
 {
-  "previous": "%8fjRSyep7tXKTenPyhKAUJVhXzwbp2sWLjZQuMpcDX4=.sha256",
+  "previous": "%LWNehPzq4YA2HNOmXVcG/B73BMcewhqhNRvOBgjocCw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 310,
-  "timestamp": 1525140078434,
+  "sequence": 311,
+  "timestamp": 1525140744461,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@A++SLmwCSwTQ2caOk+HIgvUgCnM7tCfyoF0e3g9ti8c=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "gnu/linux",
+    "vote": {
+      "link": "%dwxuh6jrezFpU6hORp82B3G9SL2E2ipAbmRvHsm7KFI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LQCEo3r0ETKoyGJsG5CPISdc6NOoQPUaVTN3jzFh7v2GHwZh/TmPR/PsPwcQEWUtUW0/YGzBcTbhk+gUBYHdAQ==.sig.ed25519"
+  "signature": "H6XYCcCv+7T0D5Fls3smqsFn4vKDWepCBRJCIf2qrzIxXypA0iBy6wChUynkCzJRnQ2mS4mlUjBqzOvqr0u0Bg==.sig.ed25519"
 }
