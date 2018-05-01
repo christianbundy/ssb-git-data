@@ -1,17 +1,21 @@
 {
-  "previous": "%hP6bfuhH69bGHb1UPCxp8WLdU8MkFZa8cfqDLgQ1eHU=.sha256",
+  "previous": "%JxvMBnO5ZFjfKbOL/Av1X1nuM4kBENGzjbxi/TqIdBc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 335,
-  "timestamp": 1525202445637,
+  "sequence": 336,
+  "timestamp": 1525208852533,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%YQWwE06sAjaXmEGgh+l3PndPg6t2yCQyIVKLmkSh/Ro=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%T2V6yO1XLKzbDlvFD/kRlv8pOIiCYQAcb0SfWqCs6N8=.sha256",
+    "branch": "%6Xcd/496H2zE0PRHBaHA00eKIpkjeRA64SKDptzqHvE=.sha256",
+    "reply": {
+      "%6Xcd/496H2zE0PRHBaHA00eKIpkjeRA64SKDptzqHvE=.sha256": "@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519",
+      "%4z5Mewucs4LvwRpMABaBNRJoCT6o24Sp98vau9oJMAw=.sha256": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519"
+    },
+    "channel": "privacy",
+    "recps": null,
+    "text": "> WhatsApp's end-to-end encryption protocol uses the exact same processes that Signal uses.\n\nI might trust this if I could build WhatsApp from source, but I'm not taking Facebook's word for it (similar to how I don't trust Microsoft's word that Skype is encrypted).\n\nI don't think we should recommend WhatsApp, Skype, Allo, or any other proprietary \"privacy\" tools that are owned and operated by surveillance companies. If you care about privacy I think it's important to be able to study what the software is doing under the hood.",
+    "mentions": []
   },
-  "signature": "BOVwSOb0KyG/B2BRIz2ecHWQrnZQNaQ4yh+IGhalsDwoaf0rp9ny3BrGsSFgM1v1mYVnPMvg0OznL5CDemyiBg==.sig.ed25519"
+  "signature": "oXWe7jUa+J+d+nNjOq3ROxl5WJg+0uALold0d4A5M2chDnunK/RVMU/SF5HpeGUoxugtSWfTixq27a/odAL1Dg==.sig.ed25519"
 }
