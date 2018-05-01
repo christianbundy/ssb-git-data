@@ -1,17 +1,21 @@
 {
-  "previous": "%LWNehPzq4YA2HNOmXVcG/B73BMcewhqhNRvOBgjocCw=.sha256",
+  "previous": "%LotdC3EeA3WmhzYYQXDOxMZzScTIk5Qn4A4gJFZBZas=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 311,
-  "timestamp": 1525140744461,
+  "sequence": 312,
+  "timestamp": 1525142670068,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256",
+    "branch": "%dwxuh6jrezFpU6hORp82B3G9SL2E2ipAbmRvHsm7KFI=.sha256",
+    "reply": {
+      "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+      "%dwxuh6jrezFpU6hORp82B3G9SL2E2ipAbmRvHsm7KFI=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519"
+    },
     "channel": "gnu/linux",
-    "vote": {
-      "link": "%dwxuh6jrezFpU6hORp82B3G9SL2E2ipAbmRvHsm7KFI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Sorry, I missed that in your original post!\n\nI actually just loaded up the Solus ISO in a VM, but it looks like maybe I got an old version? It came with a version of Firefox from last August and froze when I tried to update at package \"95 of 91\". I'll keep playing around with it, I dig the simple style and the idea of a actually-existing user-friendly OS.",
+    "mentions": []
   },
-  "signature": "H6XYCcCv+7T0D5Fls3smqsFn4vKDWepCBRJCIf2qrzIxXypA0iBy6wChUynkCzJRnQ2mS4mlUjBqzOvqr0u0Bg==.sig.ed25519"
+  "signature": "OOk3ATZCgBsHn8bSd4IfeV7GPgiWbB+apirQlArmgGypZt0CzN2SbMaqHUQnWKXDZiYLjBfYDx2IpSDwj0TvAg==.sig.ed25519"
 }
