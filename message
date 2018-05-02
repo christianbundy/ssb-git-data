@@ -1,13 +1,20 @@
 {
-  "previous": "%xzZDq56LRaYJVWLH+9ukJ4xeVdi2VyGEjtnSOI4Tq+c=.sha256",
+  "previous": "%dpKTfztJJwGK2XcsgOjkgMeUoyAa9lsLQ870fhQRHrI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 380,
-  "timestamp": 1525298743107,
+  "sequence": 381,
+  "timestamp": 1525300005384,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%aBEH/2CWkfLdNyGM2x+pqrp+6gHHORtLYwxP/mo5qn8=.sha256",
+    "branch": "%aBEH/2CWkfLdNyGM2x+pqrp+6gHHORtLYwxP/mo5qn8=.sha256",
+    "reply": {
+      "%aBEH/2CWkfLdNyGM2x+pqrp+6gHHORtLYwxP/mo5qn8=.sha256": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Apparently you can double-follow without unfollowing. Weird!",
+    "mentions": []
   },
-  "signature": "q28yO5FC6bNFmBu2WYL2lgcFL8Ds6ZeSocKUYEqErUgOZHXWcXSOpUlDiSt3ntruYoPTqUC/UdvObLUQLjBDBw==.sig.ed25519"
+  "signature": "dmB/9qe4GcDVQW8vIuAcpQoxNfmCRHjrIpMlOVsQShu/ccYz5BjVA2wVEhaan3Jp1vF5GvZfGw0TnGVroLb+Cg==.sig.ed25519"
 }
