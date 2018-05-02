@@ -1,17 +1,35 @@
 {
-  "previous": "%/tZghmAlvAD1Lp1o7YcUsC4nYCWEAjDpA/A/1khW61k=.sha256",
+  "previous": "%sZB5y4F+6d0s9u/BoakAz7HqSgD68IBcKbqUSfjL7Yk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 376,
-  "timestamp": 1525296985891,
+  "sequence": 377,
+  "timestamp": 1525297651934,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "piratebox",
-    "vote": {
-      "link": "%DI98y9SukdIcd0RW5mp9MRc0mxHziGLP/+PNUu59pO8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%LP+1fU/YXpDZrfR2S60VGLc23V6aijhX5jdoME9hHFA=.sha256",
+    "branch": [
+      "%+iB0hlSMPQQ7odsiIe4Yn2lMB99p8z9tVgB0GHVz8c0=.sha256",
+      "%Z2alDDVLOzT5s6CND8Uvs7XAdZlVLMpOlgPVLIqH5QA=.sha256"
+    ],
+    "reply": {
+      "%LP+1fU/YXpDZrfR2S60VGLc23V6aijhX5jdoME9hHFA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%Z2alDDVLOzT5s6CND8Uvs7XAdZlVLMpOlgPVLIqH5QA=.sha256": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519) I've never used CalTopo, but I often use [SARTopo](https://sartopo.com/map.html) by the same developer and I love it.\n\nI have a handful of #sar friends who use (and love) Gaia, but _most_ of the frustration I have with #osm is from trying to get around the city (#pdx, specifically). I appreciate the recommendations!",
+    "mentions": [
+      {
+        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
+        "name": "ike"
+      },
+      {
+        "link": "#sar"
+      },
+      {
+        "link": "#osm"
+      }
+    ]
   },
-  "signature": "fgXc2OXx1oG+07ThhspeoBQGrV3U3YuOoQbHZ2GeBg368dll4SkB0TbtUC9T2rk8GoZj8SFzhgLdb24F9XQIAg==.sig.ed25519"
+  "signature": "TlJGlO6p1RTpYz2mA6yBlr8KNXBbYFSsHQNV23gP2vXMvF1o6DgnUyQgBHh4BlPCeBVEnKZh43h3p1a7inSNAw==.sig.ed25519"
 }
