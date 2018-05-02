@@ -1,42 +1,17 @@
 {
-  "previous": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
+  "previous": "%niQG3in173iJc49XiciYSuUgWSwO3zgnIybOtaSmCfo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 363,
-  "timestamp": 1525284329247,
+  "sequence": 364,
+  "timestamp": 1525284366640,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
-    "branch": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
-    "reply": {
-      "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256\n\ncc: #scuttlebot #pub-help  #easy-ssb-pub  #ssb-dns #ssb-viewer #ssb-concepts ",
-    "mentions": [
-      {
-        "link": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256"
-      },
-      {
-        "link": "#scuttlebot"
-      },
-      {
-        "link": "#pub-help"
-      },
-      {
-        "link": "#easy-ssb-pub"
-      },
-      {
-        "link": "#ssb-dns"
-      },
-      {
-        "link": "#ssb-viewer"
-      },
-      {
-        "link": "#ssb-concepts"
-      }
-    ]
+    "type": "vote",
+    "channel": "myco",
+    "vote": {
+      "link": "%moMemAZh20bjsOophlM4JmYGt/ASJtaELBSl+vBNgSg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "WZgO4vDiTOna5zPRWpoD/WJftu7xg8IliRaCH2VDfbgibV24a0fMvHytW0TsqauiYU2UcgGeAKtyOcAX+aTBBQ==.sig.ed25519"
+  "signature": "OEekkOUMsIMPZvpjq7apIJCDO4THgVzHHLK4cLrlTt7SoM4sXHz+IdJm+n/h6CyQzoXp03vTOyWdXFhjgSZ2DA==.sig.ed25519"
 }
