@@ -1,25 +1,17 @@
 {
-  "previous": "%Q9uvv9b5YnL2uhwKt91Wf8LAZ1thrTibEj8hiyz9P9Q=.sha256",
+  "previous": "%/tZghmAlvAD1Lp1o7YcUsC4nYCWEAjDpA/A/1khW61k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 375,
-  "timestamp": 1525292284986,
+  "sequence": 376,
+  "timestamp": 1525296985891,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
-    "branch": "%5+PBhDMytnQJM1bFNHO6eMq8OIBebajkulMsZVPFrfc=.sha256",
-    "reply": {
-      "%5+PBhDMytnQJM1bFNHO6eMq8OIBebajkulMsZVPFrfc=.sha256": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\n\nI just tried signing up, but it looks like it requires port forwarding from the router (which I don't own/control).",
-    "mentions": [
-      {
-        "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
-        "name": "Andrei Cociuba"
-      }
-    ]
+    "type": "vote",
+    "channel": "piratebox",
+    "vote": {
+      "link": "%DI98y9SukdIcd0RW5mp9MRc0mxHziGLP/+PNUu59pO8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "odmb9s8nmpx/oVG+y8q8uL3A+tWh7tx1VUwfuDg2CB/452Od7eR6ZOtvKh4JhgmyIifh4s0mQaCFcw+4Ym9jAQ==.sig.ed25519"
+  "signature": "fgXc2OXx1oG+07ThhspeoBQGrV3U3YuOoQbHZ2GeBg368dll4SkB0TbtUC9T2rk8GoZj8SFzhgLdb24F9XQIAg==.sig.ed25519"
 }
