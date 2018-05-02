@@ -1,37 +1,21 @@
 {
-  "previous": "%SL7y1e17M9BxsfgA4jDwMr3mNwdilrbMw8h8QaLZmts=.sha256",
+  "previous": "%b+3ooEggMrWe5H2DMwL2Eg9ZzQeuCShN0NwCQfyAXZs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 368,
-  "timestamp": 1525289587601,
+  "sequence": 369,
+  "timestamp": 1525289643117,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
     "branch": "%9Lio5X5VXM0jefAzBujNDM6nJ6EheZEsOOFwCEmhxG8=.sha256",
     "reply": {
-      "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%9Lio5X5VXM0jefAzBujNDM6nJ6EheZEsOOFwCEmhxG8=.sha256": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519"
+      "%9Lio5X5VXM0jefAzBujNDM6nJ6EheZEsOOFwCEmhxG8=.sha256": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
+      "%b+3ooEggMrWe5H2DMwL2Eg9ZzQeuCShN0NwCQfyAXZs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "It looks like there was an article written about this last year that points out the need for server-side solutions:\n\n> Most networked applications, including SSB, solve this by connecting to publicly addressable servers. Sometimes P2P systems use clever techniques ([TURN](http://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT), [STUN](http://en.wikipedia.org/wiki/STUN), [ICE](http://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment)) to reduce the role of the servers, but it’s still necessary to have them.\n\nI wonder whether pubs could act as #TURN, #STUN, or #ICE servers between folks they follow. I'm thinking something like this:\n\n- Alice hosts a pub on her local network.\n- Bob wants to connect to Alice, but he can't get past Alice's router.\n- Both Alice and Bob mutually follow Carol's pub.\n- Carol offers to mediate their connection and hosts one of the above fixes.\n- Both Alice and Bob connect to Carol, who deploys TURN, and the they now have TCP connection.\n- Alice and Bob can gossip!\n\n![alice-bob-carol-router.png](&Sm3Lep/4s3nCnGlMT060ntMObbs+IXkcSYGJk1Rf0TI=.sha256)\n\n```dot\ndigraph g {\n  Bob -> Router [style=\"dashed\", label=\"fail\"];\n  Bob -> Carol -> Alice;\n  Alice -> Router -> Carol -> Bob;\n}\n```",
-    "mentions": [
-      {
-        "link": "#TURN"
-      },
-      {
-        "link": "#STUN"
-      },
-      {
-        "link": "#ICE"
-      },
-      {
-        "link": "&Sm3Lep/4s3nCnGlMT060ntMObbs+IXkcSYGJk1Rf0TI=.sha256",
-        "name": "alice-bob-carol-router.png",
-        "type": "image/png",
-        "size": 16857
-      }
-    ]
+    "text": "Is there a dynamic DNS service you can recommend? I'm sure I can just look around for one, but I'd love to hear what's working well for you.",
+    "mentions": []
   },
-  "signature": "xNpeBHjf6UQmV12E/rtQQsXddrK5zvhqXQJsVFfegHxPzOKrHj0eND/SwvED3Pyc5aVR4AM6XYe8V+joANNvDg==.sig.ed25519"
+  "signature": "ZA2JvW6FzzP7fv0sv7UEJ4cqOHw6BX0osV96x1gdAjzUScSApIyTZOCa+78e6odZ0KAJgHwx6F3qPZHzPYdhAg==.sig.ed25519"
 }
