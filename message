@@ -1,28 +1,13 @@
 {
-  "previous": "%7f6Sz0uMVezH7CIakQ50/egWtNUCyGz6RBUsqEiYXbQ=.sha256",
+  "previous": "%aiBmeRgtftuSp7e9akDnz0BBQLRKaegKRDP7WLzs/0Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 365,
-  "timestamp": 1525284763051,
+  "sequence": 366,
+  "timestamp": 1525284777258,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256",
-    "branch": "%niQG3in173iJc49XiciYSuUgWSwO3zgnIybOtaSmCfo=.sha256",
-    "reply": {
-      "%4HWQQEjvN3EQNIA8cVibgDVQNz1knfh8hC+oJCLsU8c=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%niQG3in173iJc49XiciYSuUgWSwO3zgnIybOtaSmCfo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "For extra context: I'd like to run a pub in my co-working space so that others on my WLAN have a direct connection to the #scuttleverse without actually having to sign up anywhere.\n\nThe problem is that I'd _also_ like to give out invites to others on #scuttlebutt (because running a pub sounds interesting/fun), but I don't think I can give out a working link unless I:\n\n1. Deploy a server to Digital Ocean or something (bad, I want it to exist locally), or\n2. Use a service like https://noip.com (not great, at the mercy of a for-profit), or\n3. Require that remote users install something like Tor, I2P, IPFS, Dat, or whatever (eh, not user-friendly)\n\nCan anyone suggest a non-awful way to do this? I'm sure I'm not the first person to consider doing this and I'm trying to avoid reinventing the wheel.",
-    "mentions": [
-      {
-        "link": "#scuttleverse"
-      },
-      {
-        "link": "#scuttlebutt"
-      }
-    ]
+    "type": "contact",
+    "contact": "@Wy09MuoVh+cVmMJdovyBLbLC9uFlyv847nbYHh/zbJE=.ed25519",
+    "following": true
   },
-  "signature": "sKbBVPqxdUd209mswVEUyFBRz6TWfZ/Dqc8zn2TxhhAcrtWLtWCgfQjBKXOS4/miE9LuZmrcB0HAlwcyqOvGBg==.sig.ed25519"
+  "signature": "E1wZQoLxO+C6DE7UghWC0XzhMy1sPTx8TKfn3a5X+A+Tqe0I0+cSnuEZPCIN6eB6zncdYrTz4AMXomS7kXOmDg==.sig.ed25519"
 }
