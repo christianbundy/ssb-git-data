@@ -1,24 +1,26 @@
 {
-  "previous": "%gvqA+yc7KQqfbMKnJeT1FJU1Its6Lxmy/nv5NSOvnjY=.sha256",
+  "previous": "%FXSvPVZDmdVaWDetNI5QXt9zzDYxxoMt/c60xn67RNw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 344,
-  "timestamp": 1525225698454,
+  "sequence": 345,
+  "timestamp": 1525267886295,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256",
-    "branch": [
-      "%+PWDTDYYIVdHSLUE0ffzP+OFonct1g4PbDoU8vxN1+k=.sha256",
-      "%dNZy6jll28t0QPfPPIqExOVUWzS1EMsmcEvQq86C0FQ=.sha256"
-    ],
+    "root": "%F5tyyHC2JnxjVs/zZQQ5QkiVZp9LFVIsNjJb+fG0j9M=.sha256",
+    "branch": "%9XSQtuiFjA4Bral7zqSeWZlQtTk+9oawo63CmWa3k7Q=.sha256",
     "reply": {
-      "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
-      "%+PWDTDYYIVdHSLUE0ffzP+OFonct1g4PbDoU8vxN1+k=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519"
+      "%F5tyyHC2JnxjVs/zZQQ5QkiVZp9LFVIsNjJb+fG0j9M=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+      "%9XSQtuiFjA4Bral7zqSeWZlQtTk+9oawo63CmWa3k7Q=.sha256": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519"
     },
-    "channel": "gnu/linux",
+    "channel": null,
     "recps": null,
-    "text": "Weird, I went to go verify the file I downloaded (Solus 3, Budgie) but the links for both the SHA256 and the signature appear to be broken on https://solus-project.com/download/.\n\nI clicked \"torrent\" and it sent me here: http://linuxtracker.org/?page=torrent-details&id=0c0b2b984a7aff83e4f587e8b88d0df05cf94604\n\nLooks like the link is insecure, but it at least _appears_ that they haven't patched their install media since August. Could that be right?",
-    "mentions": []
+    "text": "Hey [@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519), have you considered using [`ssb-patchwork`](https://aur.archlinux.org/packages/ssb-patchwork/)? Not sure what your requirements/restrictions are, but I'd hate to see you go.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "wDOZGXmZ0iYMaY5OEq01b/YP7lNtjH+ppNeuZebF2ye2DjCo40u8o0liqhsGE8i4Y02UJpKZsCIPRULkMBEAAA==.sig.ed25519"
+  "signature": "7Y7y83+Jb7DzGItQTe4LPAgZzzgZPnvZwgq1tf73aAt4RG4GNvlVcwJEbRAJQ3PYgbG7I/cU95XvaFUVCS34AA==.sig.ed25519"
 }
