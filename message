@@ -1,17 +1,24 @@
 {
-  "previous": "%HV2SSL4lK8IgsoawQ7R0BbSqR4rDHvX4egedxbHjMKc=.sha256",
+  "previous": "%gvqA+yc7KQqfbMKnJeT1FJU1Its6Lxmy/nv5NSOvnjY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 343,
-  "timestamp": 1525224297723,
+  "sequence": 344,
+  "timestamp": 1525225698454,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "mmt",
-    "vote": {
-      "link": "%HCykHak66OBO5xGolj7Eehr30mFdXfFhX8ho8T3Do3M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256",
+    "branch": [
+      "%+PWDTDYYIVdHSLUE0ffzP+OFonct1g4PbDoU8vxN1+k=.sha256",
+      "%dNZy6jll28t0QPfPPIqExOVUWzS1EMsmcEvQq86C0FQ=.sha256"
+    ],
+    "reply": {
+      "%DpLbqJYAlhb9QfoGUkHK0o7ooEtqk/t9prtk1PaBwSs=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+      "%+PWDTDYYIVdHSLUE0ffzP+OFonct1g4PbDoU8vxN1+k=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519"
+    },
+    "channel": "gnu/linux",
+    "recps": null,
+    "text": "Weird, I went to go verify the file I downloaded (Solus 3, Budgie) but the links for both the SHA256 and the signature appear to be broken on https://solus-project.com/download/.\n\nI clicked \"torrent\" and it sent me here: http://linuxtracker.org/?page=torrent-details&id=0c0b2b984a7aff83e4f587e8b88d0df05cf94604\n\nLooks like the link is insecure, but it at least _appears_ that they haven't patched their install media since August. Could that be right?",
+    "mentions": []
   },
-  "signature": "4Ib/ktkAJktOK/uiC7I8q8y6utuRPPV0PzM4dymKm2cudlhgDWopVnwl3BLAZSyQO60cLApol95rKvw+Z+KqDQ==.sig.ed25519"
+  "signature": "wDOZGXmZ0iYMaY5OEq01b/YP7lNtjH+ppNeuZebF2ye2DjCo40u8o0liqhsGE8i4Y02UJpKZsCIPRULkMBEAAA==.sig.ed25519"
 }
