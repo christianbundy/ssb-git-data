@@ -1,13 +1,21 @@
 {
-  "previous": "%kaM5I9XNzOHOnVdjqWmZdoHzGVmpIBF7KruaK2fB9Fw=.sha256",
+  "previous": "%42hV+rS4YsPeIkAMnM2CENknMu6x+nxfNV8ZP/YpY7A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 391,
-  "timestamp": 1525318749835,
+  "sequence": 392,
+  "timestamp": 1525355646748,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@O71isksx77Du8JQvsf91sdPwW4kPnlZgnw8IotOYxlM=.ed25519",
-    "name": "nico_lost_and_forgotten"
+    "type": "post",
+    "root": "%fR/jgqm1T+g/Wo3s7gMqwIKeqTpBhiHWrbKyTD0vAF8=.sha256",
+    "branch": "%Oq9v9Es+nGg+l1lB78NWCyOZERfEf54XIqy1NsMf9yk=.sha256",
+    "reply": {
+      "%fR/jgqm1T+g/Wo3s7gMqwIKeqTpBhiHWrbKyTD0vAF8=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+      "%Oq9v9Es+nGg+l1lB78NWCyOZERfEf54XIqy1NsMf9yk=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "Is there a recommended method for pruning `gossip.json`? Mine is getting a bit unwieldly.",
+    "mentions": []
   },
-  "signature": "W7LI3kMHh2uXLH1M4EyAS63SrA3RaWZsWPHOUTdtLgfcrF1f3TDotrTrpEwYnCOhvujfwMuFHEBfiRB0tVUCBw==.sig.ed25519"
+  "signature": "21EckhZfpMhKOlGk7rrKgVC/HW5HeBm/0EURnkQzl93bgghA2/xljlBiQQJ2hS9+1Tn8oyzCOQSjY/+/oilCBg==.sig.ed25519"
 }
