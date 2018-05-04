@@ -1,13 +1,17 @@
 {
-  "previous": "%CgK/17jK9es0udbyfGQVoa1X1QuX6nMKE4GTMA5yxdk=.sha256",
+  "previous": "%ZgqNuRsN2xit8ylOOcjRSzCxwNxVFMVrDW5hfXPckFk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 430,
-  "timestamp": 1525463820931,
+  "sequence": 431,
+  "timestamp": 1525463836364,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@Q1w9hSUpspxVVbGMuemxiOca7G0Q7FcFY5oflmkjJLk=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "unix",
+    "vote": {
+      "link": "%DpOZOrUmmiHHqAMGwXx0iw1xLDT7jaq8rKi13D0Zozo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "WDoAXZLfAwZ/ClpP39T4HW8Lh56YMDz0DgdCNRkd2kiLj3oHmT5RVJs+fPKagwzaQWtvh5QJnwi3KADkE8LQBQ==.sig.ed25519"
+  "signature": "1pFzQKXQfl8Gg6BaIaJYcYCakOAmAWigIg0ueEPXZeEQAVijFNATlrZpwyl8U13QbSa7rxtuNeoyxOVqGL5lDw==.sig.ed25519"
 }
