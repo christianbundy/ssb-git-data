@@ -1,25 +1,17 @@
 {
-  "previous": "%FOvnH4pUvv9uXiUnlz6gqYp2wxfDwexZVKiloG4b3U0=.sha256",
+  "previous": "%OGnC8RQdbw5rToKw2MPxhap4Su1SPv/HTyllmG4L1Vk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 423,
-  "timestamp": 1525455046426,
+  "sequence": 424,
+  "timestamp": 1525455454518,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%9+rkc4VUwUMGcoDUVsO5sHfrKmSyId/KJROyzgX9RQM=.sha256",
-    "branch": "%9+rkc4VUwUMGcoDUVsO5sHfrKmSyId/KJROyzgX9RQM=.sha256",
-    "reply": {
-      "%9+rkc4VUwUMGcoDUVsO5sHfrKmSyId/KJROyzgX9RQM=.sha256": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519) You can paste the key into the search and Patchwork will tell you all it knows about that profile. If you don't see anything, you need to find a friend in common or sync via a local network.",
-    "mentions": [
-      {
-        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
-        "name": "Cy"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-grants",
+    "vote": {
+      "link": "%YOYBD2q20GlJSDn0v3z6EgdS780PXApWz/JM6NCl9Nc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "yC5u6a+H5opDswf6MwZX0NT0ehPctp2dh6z/nIHRxfQ5q+hCOGpGRY4zJlcZcVTKgXy0dPRvH3AK8kYd6VEdAQ==.sig.ed25519"
+  "signature": "s2RSuyOgXjjBVlpOuJI7kemBtJmAG7EZqgrpEFbbUD2gPbjO/4xW8YUev8wAGyQQGbViYkZfn/fyFfvJIp0JBQ==.sig.ed25519"
 }
