@@ -1,17 +1,29 @@
 {
-  "previous": "%2/1RWNGGr67H/KSDQRS+JxeapGz7TwEdNbMKG08OLLM=.sha256",
+  "previous": "%PbfpcOnhz52jRJkhvpBdiSm2pNEaUVlB9M+rpv7pWsw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 449,
-  "timestamp": 1525661251997,
+  "sequence": 450,
+  "timestamp": 1525698734047,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Just watched *Hackers* for the first time, and uhh... I think I loved it?\n\n#hacktheplanet",
+    "root": "%9GKnqcvUfkfnnLJaGSd3LE3XURSfP1R4+byHI3MwRrI=.sha256",
+    "branch": [
+      "%Hymbrl4emLGwpsuXDn0JFcRRDl2ycBfPWckskjRfhN4=.sha256",
+      "%QyQCn2pbyWTwdsw6APhamMyfTMpjPoHApKBzJaeBj+A=.sha256"
+    ],
+    "reply": {
+      "%9GKnqcvUfkfnnLJaGSd3LE3XURSfP1R4+byHI3MwRrI=.sha256": "@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519",
+      "%QyQCn2pbyWTwdsw6APhamMyfTMpjPoHApKBzJaeBj+A=.sha256": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) (or others):\n\nOnce you fork your identity, is there a way to rebase the messages from the forked identity onto the main feed? I just copy and pasted my messages from my forked feed to my original feed, but I'm sure there's a better way to do it (probably with `sbot).",
     "mentions": [
       {
-        "link": "#hacktheplanet"
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
       }
     ]
   },
-  "signature": "Kq78Zj3asHI34gp+q7SmyQCqLoW4U4yZfzC7TuieipbJTixdopwWT/ozDd8VgbzXGTmUrYxzNq3eWDKG1HbLCw==.sig.ed25519"
+  "signature": "GeYhIXbjIf06UI+hJolYBCrZCzZURkYJHYBpAjFjKs4na8QyGYza9fD55HooblfHycOd9lOL2YacjS8gPF75Bg==.sig.ed25519"
 }
