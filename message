@@ -1,17 +1,26 @@
 {
-  "previous": "%s+7DHlLXefkv0NtG0Ksco3GDYbglCD+J1gyAQiBH94Y=.sha256",
+  "previous": "%xx3bVOIxn7CWkGrPjmmdIvYvNu+17fQsqIVMMllREIw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 461,
-  "timestamp": 1525805177499,
+  "sequence": 462,
+  "timestamp": 1525807276100,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "back-to-the-land",
-    "vote": {
-      "link": "%qm47CV54HCwj7i5LZuQ4xHcrRsvuwbBDPKCqqXZQd4k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PbfpcOnhz52jRJkhvpBdiSm2pNEaUVlB9M+rpv7pWsw=.sha256",
+    "branch": "%ljVp66+GG6ihIcrJ5GIpheEjFigcFJRX9HvxXpMf4Gw=.sha256",
+    "reply": {
+      "%PbfpcOnhz52jRJkhvpBdiSm2pNEaUVlB9M+rpv7pWsw=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%ljVp66+GG6ihIcrJ5GIpheEjFigcFJRX9HvxXpMf4Gw=.sha256": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nJust added it to my to-do list. I think I've seen bits and pieces, but never the whole thing.",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "yglY6+jlljRSSB6p+A/NwlqdVsZ732p7FfiAYRtmX8nPEB4JLGtREf4m/Vtmf+EUtFRBixO3sOiDiTOe4gkvCw==.sig.ed25519"
+  "signature": "HaJHpITYUBFZFqhekIBU6f66wFQh2M5enek8xMmvwMtBqdWzjnoZxeZv79e/EMASjYx4O4/sgbF9ZHn9WskbCQ==.sig.ed25519"
 }
