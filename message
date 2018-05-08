@@ -1,13 +1,32 @@
 {
-  "previous": "%UYl638jSuPaZwSJxjg40692ovl7uvbV23u7X+jz7Rhc=.sha256",
+  "previous": "%q9zccmxqdTxPIV5SZkCieMRmYWrPg7iNKXaUP0NFQrY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 466,
-  "timestamp": 1525808093094,
+  "sequence": 467,
+  "timestamp": 1525809758168,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "electronics",
-    "subscribed": true
+    "type": "post",
+    "root": "%PbfpcOnhz52jRJkhvpBdiSm2pNEaUVlB9M+rpv7pWsw=.sha256",
+    "branch": "%5O2QAFpOyT6NtJ8xxpMuqXdmcb7Imw4XNEoZnd91L+s=.sha256",
+    "reply": {
+      "%PbfpcOnhz52jRJkhvpBdiSm2pNEaUVlB9M+rpv7pWsw=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%5O2QAFpOyT6NtJ8xxpMuqXdmcb7Imw4XNEoZnd91L+s=.sha256": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519)\n\n![risc.jpg](&GbxERlqeHX0OOcocOVXLVuqweqL4653zie4uLD6kaN8=.sha256)\n\nMy favorite line in the whole goddamn movie. ",
+    "mentions": [
+      {
+        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
+        "name": "Cy"
+      },
+      {
+        "link": "&GbxERlqeHX0OOcocOVXLVuqweqL4653zie4uLD6kaN8=.sha256",
+        "name": "risc.jpg",
+        "type": "image/jpeg",
+        "size": 111690
+      }
+    ]
   },
-  "signature": "L+Gp6aq93GxEEEOUDEaeIfPYK5R77I+apn7YQBIXA7RgIhJ+qaiNu8bOe92OhguVADYrLCR87SAiauQg5LG+Dg==.sig.ed25519"
+  "signature": "Qn/e7p7rs9pXj2ceN4EHwLOR/IpcF7m9nOtRKUqC/4inf/Nt6fhd4cxnnDXGH29LIHgeUK+cmKQ3/OZBWVBPBA==.sig.ed25519"
 }
