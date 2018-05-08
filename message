@@ -1,30 +1,21 @@
 {
-  "previous": "%/dv66sYrELMGJzPocj7g73jnvdHMQdM13Cx/GRF9oZo=.sha256",
+  "previous": "%Onnk8tvnpEzXGCftoX+HPxGkQ1Q2POC7DwLgF9DSvWc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 454,
-  "timestamp": 1525794178681,
+  "sequence": 455,
+  "timestamp": 1525800844613,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%PTkOjQ3Ei0grhOucvHkfGjB02U0ZsrzaBmYmcfASbVU=.sha256",
-    "branch": "%IpJvyrU6tVNc+WP2vDrzTFyVXh/CbUCFvHY47SDdVCM=.sha256",
+    "root": "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256",
+    "branch": "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256",
     "reply": {
-      "%PTkOjQ3Ei0grhOucvHkfGjB02U0ZsrzaBmYmcfASbVU=.sha256": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-      "%IpJvyrU6tVNc+WP2vDrzTFyVXh/CbUCFvHY47SDdVCM=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+      "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256": "@8eknhbALZv4xn31LfIWJ4iBoR/shQFkqVENbprVIRYM=.ed25519",
+      "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
     },
-    "channel": "ssb",
+    "channel": null,
     "recps": null,
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) [@Luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\n\nLooks like this *just* gossiped over my way!\n\nWe're almost through the woods, the last step seems to be [getting the newest version of `level-test` released on NPM](https://github.com/Level/level-test/issues/73). Once that's done we'll be able to upgrade both `secure-scuttlebutt` and `scuttlebot`, which should remove `leveldown@1.7.2` from all of our dependency trees.",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      },
-      {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "Luandro"
-      }
-    ]
+    "text": "Just to make things a bit more complex: how does this handle manual changes suggested by `npm audit`?\n\nI spend a lot of time trying to merge fixes upstream, but it's often easier to just `npm update foo --depth 6` when a dependency of a dependency of a dependency of a dependency of a dependency of a dependency is depending on a buggy package with an update available.\n\nCascading pull requests are a pain in the ass for everyone, so being able to manually edit `package-lock.json` can actually be monumentally helpful for fixing material problems.",
+    "mentions": []
   },
-  "signature": "uspp814O+TawTQDH9d/kLZ8QbV0mcCGyOi7kT+H6Q7rCGf3MxpeBlZtLUc/UWylygB6K5uq+UH+eOfNXDNTfCg==.sig.ed25519"
+  "signature": "aV5dxrjXaCAhKDJV+mT1G8VfTK8troDjETrpGwy0hyyxLqWvwpxVFq4TxJCRB7DlCEZm9jUBJLGovdny/gedBQ==.sig.ed25519"
 }
