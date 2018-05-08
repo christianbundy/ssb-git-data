@@ -1,13 +1,17 @@
 {
-  "previous": "%w9npMCqTgAv5IPgaE/j26DPbaRYUiqjDeVQwww5wOmU=.sha256",
+  "previous": "%s+7DHlLXefkv0NtG0Ksco3GDYbglCD+J1gyAQiBH94Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 460,
-  "timestamp": 1525802112911,
+  "sequence": 461,
+  "timestamp": 1525805177499,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@FcZCT4lCttqOUhIAyxi00ix2gjYJJ2E2FFekwN4/860=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "back-to-the-land",
+    "vote": {
+      "link": "%qm47CV54HCwj7i5LZuQ4xHcrRsvuwbBDPKCqqXZQd4k=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "V54bdFNS0uDk8b1h47bcXSTU4f6FYAdUpBN82pIhZUTd3SCs/MPu3A+fkbUtG/I7fdgt8CSWFN2GZozGUOZRCA==.sig.ed25519"
+  "signature": "yglY6+jlljRSSB6p+A/NwlqdVsZ732p7FfiAYRtmX8nPEB4JLGtREf4m/Vtmf+EUtFRBixO3sOiDiTOe4gkvCw==.sig.ed25519"
 }
