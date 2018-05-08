@@ -1,21 +1,32 @@
 {
-  "previous": "%Onnk8tvnpEzXGCftoX+HPxGkQ1Q2POC7DwLgF9DSvWc=.sha256",
+  "previous": "%LCrpSOLryDWBroFPE0XNqofbIg6kc4BpjTB6eTsmLAk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 455,
-  "timestamp": 1525800844613,
+  "sequence": 456,
+  "timestamp": 1525802034315,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256",
-    "branch": "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256",
+    "root": "%l3+G4kO1LjLychwyfjxBUGi4A1Nb0aywp9SSO9IHv7M=.sha256",
+    "branch": "%ZydY/RCb8rBzDmDp1trNd/Km3q3qRnH0jq3gmSjx9LQ=.sha256",
     "reply": {
-      "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256": "@8eknhbALZv4xn31LfIWJ4iBoR/shQFkqVENbprVIRYM=.ed25519",
-      "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+      "%l3+G4kO1LjLychwyfjxBUGi4A1Nb0aywp9SSO9IHv7M=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%ZydY/RCb8rBzDmDp1trNd/Km3q3qRnH0jq3gmSjx9LQ=.sha256": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Just to make things a bit more complex: how does this handle manual changes suggested by `npm audit`?\n\nI spend a lot of time trying to merge fixes upstream, but it's often easier to just `npm update foo --depth 6` when a dependency of a dependency of a dependency of a dependency of a dependency of a dependency is depending on a buggy package with an update available.\n\nCascading pull requests are a pain in the ass for everyone, so being able to manually edit `package-lock.json` can actually be monumentally helpful for fixing material problems.",
-    "mentions": []
+    "text": "The only tech worker co-op I've found has been [Feel Train](https://feeltrain.com/), but I haven't reached out to them.\n\nI've found a _ton_ of co-op friendly folks on #mastodon, specifically https://social.coop. I've seen mentions of the PNW on there, but the only people I know for sure are local:\n\n- https://social.coop/@christianbundy: me :~)\n- https://social.coop/@jordancrane: one of my close friends, also a co-op friendly tech worker\n- https://social.coop/@rbenjamin: just met him last week, not a tech worker but _very_ knowledgeable about co-ops\n\nWe all grabbed a pint last week and talked about starting a small [co-op investment club](http://thecp.coop/), basically just trying to put a few bucks a month into in co-ops rather than banking on the success of Wall Street, but I think the most important thing is just finding like-minded people, meeting up semi-regularly, and letting cooperation take its course.\n\nI started a small (i.e. just me) LLC a few years ago that keeps me busy 9-5, but working alone seems inefficient and isn't my ideal. Most of my work is sysadmin stuff, devops, and plain old programming, but most of my clients are run-of-the-mill corporations which makes it _feel_ like a traditional 9-5 sometimes. \n\nWhat are you up to? I'm down in #pdx, by the way -- I imagine you're up in SW Washington?\n\n---\n\nNot sure if this will encrypt properly unless I @ you, so: [@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519).",
+    "mentions": [
+      {
+        "link": "#mastodon"
+      },
+      {
+        "link": "#pdx"
+      },
+      {
+        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
+        "name": "ike"
+      }
+    ]
   },
-  "signature": "aV5dxrjXaCAhKDJV+mT1G8VfTK8troDjETrpGwy0hyyxLqWvwpxVFq4TxJCRB7DlCEZm9jUBJLGovdny/gedBQ==.sig.ed25519"
+  "signature": "B2MrcZimtOmHBFuYK8EzKfmLG+381jSPNpAlPBHlS3EU+Otj3zCYXBG8wI4UYWgS8z9ZHl5l3sTpKRs38gF8CA==.sig.ed25519"
 }
