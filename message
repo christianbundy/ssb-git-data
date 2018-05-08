@@ -1,17 +1,30 @@
 {
-  "previous": "%+rd5aDXotQXrGn/x8iVY1x/DCMG7K4rNdzS1v0QmuZI=.sha256",
+  "previous": "%/dv66sYrELMGJzPocj7g73jnvdHMQdM13Cx/GRF9oZo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 453,
-  "timestamp": 1525735460412,
+  "sequence": 454,
+  "timestamp": 1525794178681,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "anticapitalism",
-    "vote": {
-      "link": "%qk87RRveJ6/d2u9qA2mqdxmBUMRyWYCIGtxrRQFstlY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PTkOjQ3Ei0grhOucvHkfGjB02U0ZsrzaBmYmcfASbVU=.sha256",
+    "branch": "%IpJvyrU6tVNc+WP2vDrzTFyVXh/CbUCFvHY47SDdVCM=.sha256",
+    "reply": {
+      "%PTkOjQ3Ei0grhOucvHkfGjB02U0ZsrzaBmYmcfASbVU=.sha256": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+      "%IpJvyrU6tVNc+WP2vDrzTFyVXh/CbUCFvHY47SDdVCM=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) [@Luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\n\nLooks like this *just* gossiped over my way!\n\nWe're almost through the woods, the last step seems to be [getting the newest version of `level-test` released on NPM](https://github.com/Level/level-test/issues/73). Once that's done we'll be able to upgrade both `secure-scuttlebutt` and `scuttlebot`, which should remove `leveldown@1.7.2` from all of our dependency trees.",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      },
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "Luandro"
+      }
+    ]
   },
-  "signature": "+gPlbAp+b7/rpWAvEDUpH7p/yfQ/T66zi5EcKZRBlFnmfWgiF6fYIbX5lGDiDPXI2m/VPTIWT55ABwpjN1ihCQ==.sig.ed25519"
+  "signature": "uspp814O+TawTQDH9d/kLZ8QbV0mcCGyOi7kT+H6Q7rCGf3MxpeBlZtLUc/UWylygB6K5uq+UH+eOfNXDNTfCg==.sig.ed25519"
 }
