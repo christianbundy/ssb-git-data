@@ -1,17 +1,21 @@
 {
-  "previous": "%GHdkvKdxvLQjuuvYOfdE3+y8nX6B+Pk0ie44Ns4TZu4=.sha256",
+  "previous": "%+kvu2BYOJzwq7jiewwh6eCOkBY3uakeOoaCB5fyLLhs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 470,
-  "timestamp": 1525824246713,
+  "sequence": 471,
+  "timestamp": 1525824311800,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%aKODHv29MRrryRZEUj6LGazq0pv6mMW99jrVGHTwLhc=.sha256",
+    "branch": "%Tu4pHLC43rwtE8fSu4UgBSiRgrb2V6adjqNHZQZPEUQ=.sha256",
+    "reply": {
+      "%aKODHv29MRrryRZEUj6LGazq0pv6mMW99jrVGHTwLhc=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+      "%Tu4pHLC43rwtE8fSu4UgBSiRgrb2V6adjqNHZQZPEUQ=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
     "channel": "back-to-the-land",
-    "vote": {
-      "link": "%6ku/njV85U0bQ/cDBThl78rFUYNoYZ60r7csklke6lk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Usually I'm full of opinions and have a strong desire to create output, but I have to say I've really enjoyed just listening to everyone's opinions and taking it all in. I don't have anything meaningful to say (yet :smiling_imp:), but I appreciate all of your thoughts.\n\nThank you.",
+    "mentions": []
   },
-  "signature": "vtWOQgtIosSECYauYuN7UuQYFD7QoRY56eqX1ml4ipSY/oA8UP1BfepSU2gq8yTgvPS0O7dXqVP6lyerjAMsCA==.sig.ed25519"
+  "signature": "yEwa6Bq0nMZg3FBTclC2zQaTf18Uhw+CCD6Iw3NYrs12hqVSJr4ye/LC/t0w0AZvOSQXddwOie7+PVTLhfRHAA==.sig.ed25519"
 }
