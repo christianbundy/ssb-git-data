@@ -1,17 +1,20 @@
 {
-  "previous": "%nivFMHe6Tfb9TmCxwXbazwMpa+gy103o4C/9Xx0J9z0=.sha256",
+  "previous": "%9Qfqo0921VvdaJa4CRlyCRsX8RiElGXTJYk3rKVSNaA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 474,
-  "timestamp": 1525925351011,
+  "sequence": 475,
+  "timestamp": 1525925451667,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "offgrid",
-    "vote": {
-      "link": "%1EawZ0iMzHlZOc2YrDD8A1qer3nK4RPLHGkhXUX+QsA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xn4Z+dvsRbd2/tCW16pUQhaQctergg/eXLcyJUE6r5w=.sha256",
+    "branch": "%xn4Z+dvsRbd2/tCW16pUQhaQctergg/eXLcyJUE6r5w=.sha256",
+    "reply": {
+      "%xn4Z+dvsRbd2/tCW16pUQhaQctergg/eXLcyJUE6r5w=.sha256": "@A8FTscQw3ubuWJzMqXBzVzJLrIUWhIqKjXW0jhzOIw8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Definitely a slower, but *generally* more intentional network. You'll see more posts by following lots of people and channels, but it's definitely not as fast-paced as ActivityPub.\n\nI'm https://social.coop/@christianbundy if you want to follow me on there. :wave: ",
+    "mentions": []
   },
-  "signature": "xG8WJOeRoCJ5hHb+MT5mSwE7mcoDFWgUYMLgs2k+8b8xDDLOfs4sfg0KNe7qnHph7CPkQTs88k9pF71Td7/KCg==.sig.ed25519"
+  "signature": "5TKCyXOM/FlTMMyVZ/DK191fvIFic7myYly3bOKXiB0VolkilsjdnnQlyOI1PY8VQ4O9PxiVrZM5HD0teUq2BQ==.sig.ed25519"
 }
