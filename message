@@ -1,16 +1,25 @@
 {
-  "previous": "%May5yzuKQ75xpfNV+tbqlWqoWR8zYiFqjQd0MFLovGs=.sha256",
+  "previous": "%Ak8mso+r2fbMegnzjMz5qDKhxKSBnAPAtoSKBZKbYtY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 487,
-  "timestamp": 1525976095047,
+  "sequence": 488,
+  "timestamp": 1525976729378,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%erLkhxa4yr7sFUHCIRrW3cEdm5R6uSeFdX9KOWk1QmI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ZlixeC0p3BN1+jShs0DxGk/MrkP+H5DocAnHewpnDYA=.sha256",
+    "branch": "%6+NoagvJmImOa5oR6yOh+Ty1ewU/xyJqOIQgo7dzFAY=.sha256",
+    "reply": {
+      "%ZlixeC0p3BN1+jShs0DxGk/MrkP+H5DocAnHewpnDYA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%6+NoagvJmImOa5oR6yOh+Ty1ewU/xyJqOIQgo7dzFAY=.sha256": "@0HIFuCSkvQxGssQvk39SPP0RIPHd68nIIlht+nveJ/U=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "That makes sense. Do you guys use it for Git branches and such as well? I've noticed that sometimes I'll use \"master\" rather than \"`master`\" out of laziness, but then I got curious what my actual policy on backticks was.\n\nI know that having a \"policy\" is a bit silly, but somehow the [obsessive] consistency feels \nreally nice. Wish I could put it into words.\n\nI had similar \"policy\" questions regarding what to call `/F?\\/?L?OSS/`, the correct name for `/(GNU[+\\/])?Linux/`, etc., but it went a bit off the rails: %FOvnH4pUvv9uXiUnlz6gqYp2wxfDwexZVKiloG4b3U0=.sha256",
+    "mentions": [
+      {
+        "link": "%FOvnH4pUvv9uXiUnlz6gqYp2wxfDwexZVKiloG4b3U0=.sha256"
+      }
+    ]
   },
-  "signature": "PKoBXWay20Vu3wEjO/i35VJRhfZztr8ejTOCtmGU5ML5wCuG9HAqf8NPUBgI8VFMuQh1v6rtLuyL+IYxKo5cBg==.sig.ed25519"
+  "signature": "96d496TTVOYVNE9B5EBXJLHXIE69caEgWLkoOjPMT4GIbMuob8PyWuXutXl4S9xfUti/hEjVNr+u//WsFxDuAg==.sig.ed25519"
 }
