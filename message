@@ -1,13 +1,17 @@
 {
-  "previous": "%7OdboGYhCDuWWwQfTPXIqKWQyk31DvhREX9fGtgm+Pc=.sha256",
+  "previous": "%9XKu5qumeMwPv5i+BKzLV1GvZggK4W4i1ezMpTaRmqg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 476,
-  "timestamp": 1525925471279,
+  "sequence": 477,
+  "timestamp": 1525925512574,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@pUiMMq5heEntnnz5rwIH3prKqlj70pn4oAtrqwi8pUo=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "farmbot",
+    "vote": {
+      "link": "%uDhcyjOX1vd6aAOFdgd0WPFUYOsf7fl4goSXDQlt1+w=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YZxdWphO/5ig0vrjZAKsDjMvHtWf3JUUaM4Xb5yCam8plc16EQogehQKHjjwEp+wWynfVCu33M3U2JDRaPpEAA==.sig.ed25519"
+  "signature": "itiP9mscp9JDl1wrKIduM4P/q0bHMkQMzhiQNkyS8Stqe7WhKe64plOiZNX45c6Qc3AlxgXvU5N0GoRDeUx2CQ==.sig.ed25519"
 }
