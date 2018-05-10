@@ -1,13 +1,17 @@
 {
-  "previous": "%2eH9A1wSrS1KawSZRhVEEjBZ4RYlidZpeU+ILJI42oo=.sha256",
+  "previous": "%nivFMHe6Tfb9TmCxwXbazwMpa+gy103o4C/9Xx0J9z0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 473,
-  "timestamp": 1525902562618,
+  "sequence": 474,
+  "timestamp": 1525925351011,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@dXOe/p6V6IW1cPGBmvBiM8+rJTWBrgAIXg7KQy5GcEg=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "offgrid",
+    "vote": {
+      "link": "%1EawZ0iMzHlZOc2YrDD8A1qer3nK4RPLHGkhXUX+QsA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "7nvfkWUekJaTB1eaDLe8gc6njoepYSzXB4yz9Xvo4gDoH8IpRtLf5YzEAYjWxhCWG6DGiyZcwj7qxwnRoDRwDw==.sig.ed25519"
+  "signature": "xG8WJOeRoCJ5hHb+MT5mSwE7mcoDFWgUYMLgs2k+8b8xDDLOfs4sfg0KNe7qnHph7CPkQTs88k9pF71Td7/KCg==.sig.ed25519"
 }
