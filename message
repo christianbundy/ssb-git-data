@@ -1,21 +1,13 @@
 {
-  "previous": "%FngA5ibe8lfr6KanEN+Im2nC0OYuIgCXeuhKwVdxPn4=.sha256",
+  "previous": "%N+UVLVL+sNNDxWb2NUrBAU5nj3wr06EDL4NsWuHQvog=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 480,
-  "timestamp": 1525964571455,
+  "sequence": 481,
+  "timestamp": 1525966964252,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YxH8fMkurBbA2waKD2xa5issrqNbLen1iN/N02BUjzQ=.sha256",
-    "branch": "%JzuxXEqqtGZ2JlExZ3EB+h+Dyx2uPljiNb/5gXH4b6E=.sha256",
-    "reply": {
-      "%YxH8fMkurBbA2waKD2xa5issrqNbLen1iN/N02BUjzQ=.sha256": "@j9z0OgEjr8XRes3KK4Vdw+uMQSIWd5It0SK9Ckt1oJ0=.ed25519",
-      "%JzuxXEqqtGZ2JlExZ3EB+h+Dyx2uPljiNb/5gXH4b6E=.sha256": "@j9z0OgEjr8XRes3KK4Vdw+uMQSIWd5It0SK9Ckt1oJ0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Welcome!\n\nBe careful not to follow/join any pubs until your entire profile is synced -- the \"follow\" action will be added to your feed, which creates a forked profile that (generally) won't be synced.\n\nInstead, copy over `~/.ssb/gossip.json` and let it sync by itself. I made this mistake for about three weeks before I realized that I'd forked my profile and that nobody could see my messages.",
-    "mentions": []
+    "type": "contact",
+    "contact": "@A8FTscQw3ubuWJzMqXBzVzJLrIUWhIqKjXW0jhzOIw8=.ed25519",
+    "following": true
   },
-  "signature": "f8ckxZ5+hs9bF5eeF8ozX3sM9bAzKTIF3zd6ZD3tL57cIJbMmWauYNpOkzBkwXNnjROl6PC/4tuVttao47DHCA==.sig.ed25519"
+  "signature": "onOEwQDZNqC/vn7XBwqesD1OpP+jFyHGK4PXDhJMtBT5n8xieURI4cjhrRY6y02KQiqZmUgWwPhi8dRiGyR0CA==.sig.ed25519"
 }
