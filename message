@@ -1,13 +1,20 @@
 {
-  "previous": "%N+UVLVL+sNNDxWb2NUrBAU5nj3wr06EDL4NsWuHQvog=.sha256",
+  "previous": "%crWLv0QySqs+509v4m27eEYwcQyxN3q59XGZsPrPjlA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 481,
-  "timestamp": 1525966964252,
+  "sequence": 482,
+  "timestamp": 1525967443338,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@A8FTscQw3ubuWJzMqXBzVzJLrIUWhIqKjXW0jhzOIw8=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%jOfnygOjBGRHfrcExsVDte+fVuG30WFsSWPmvqIg530=.sha256",
+    "branch": "%jOfnygOjBGRHfrcExsVDte+fVuG30WFsSWPmvqIg530=.sha256",
+    "reply": {
+      "%jOfnygOjBGRHfrcExsVDte+fVuG30WFsSWPmvqIg530=.sha256": "@k53z9zrXEsxytIE+38qaApl44ZJS68XvkepQ0fyJLdg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I love the idea of farmbot! But unfortunately I don't think it was me -- looks like maybe @gc on Mastodon? I double-checked and it doesn't look like he's active on Scuttlebutt:\n\nhttps://social.coop/@gc/99997922120766509\n\nSorry friend!",
+    "mentions": []
   },
-  "signature": "onOEwQDZNqC/vn7XBwqesD1OpP+jFyHGK4PXDhJMtBT5n8xieURI4cjhrRY6y02KQiqZmUgWwPhi8dRiGyR0CA==.sig.ed25519"
+  "signature": "hEcnQUurHdtzLI6+aNq250GZ7y3N5GLYnv5L+2Hb/EFCzEK0no4mJt+cFcu+foHqoU06xIPyNrGIRH5Dd4ApDQ==.sig.ed25519"
 }
