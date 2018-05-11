@@ -1,13 +1,28 @@
 {
-  "previous": "%AV546Zu1MmxWqXMcJtWmnGqSdBr1TIZVkqQRELpVs54=.sha256",
+  "previous": "%FRU8gQryENo/yAoZ9q6pwWdnGoQLWf5aOhsJwx+gklE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 496,
-  "timestamp": 1526054694346,
+  "sequence": 497,
+  "timestamp": 1526054797353,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@E+ikAh2Ksf3e63TuxslcwRC6GfKSnihEC8r8hB3glWs=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%/D8abpc8YqP0nBOJKrZhgWHlUnZ9jwuhJWQCetV1LBY=.sha256",
+    "branch": "%/D8abpc8YqP0nBOJKrZhgWHlUnZ9jwuhJWQCetV1LBY=.sha256",
+    "reply": {
+      "%/D8abpc8YqP0nBOJKrZhgWHlUnZ9jwuhJWQCetV1LBY=.sha256": "@E+ikAh2Ksf3e63TuxslcwRC6GfKSnihEC8r8hB3glWs=.ed25519"
+    },
+    "channel": "openstreetmap",
+    "recps": null,
+    "text": "[@earthling](@E+ikAh2Ksf3e63TuxslcwRC6GfKSnihEC8r8hB3glWs=.ed25519) \n\nThanks for this! Sorry for the lack of reply, it looks like you were out of my network.\n\nI've been using StreetComplete while walking, and (other than being on my phone) I love it!\n\nI'll check out that link, I'd love to link up with other people who are trying to map #portland.\n\nThanks for the suggestions!",
+    "mentions": [
+      {
+        "link": "@E+ikAh2Ksf3e63TuxslcwRC6GfKSnihEC8r8hB3glWs=.ed25519",
+        "name": "earthling"
+      },
+      {
+        "link": "#portland"
+      }
+    ]
   },
-  "signature": "NX4f91hV3WTJXtYCWp8qgZgOn0BFwkxldUtYFfTNvhjxyDfv1EuYQTWbr4FRqO39FGAuVPSqAgmcxkxZ1eVJCA==.sig.ed25519"
+  "signature": "sRMkw+xMQRyQkYeUhPDGD3bqkzG3/3sVSuY1yy1hw9PNqPzJEhEfizBozVGGLjvBgiBHARWJmbjifUhUCkI5Dw==.sig.ed25519"
 }
