@@ -1,21 +1,16 @@
 {
-  "previous": "%VSMdVfD5LvyZ+1kjQpGusStC8wGfoi7dBcTwMFpt0Xo=.sha256",
+  "previous": "%P7yKkcI8a9kNSIyRiYYXzwwaBgnDikotJ1ahLmkQejM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 503,
-  "timestamp": 1526072309454,
+  "sequence": 504,
+  "timestamp": 1526072332902,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%83GAwgHbyAjXnDiH9L6LgJxpFED2GlD4ls1HtFv6Zt0=.sha256",
-    "branch": "%7hPgCrEbHP0JXNI8FBRR5GkOj2Q681JlPoGVs+8b2aI=.sha256",
-    "reply": {
-      "%83GAwgHbyAjXnDiH9L6LgJxpFED2GlD4ls1HtFv6Zt0=.sha256": "@A8FTscQw3ubuWJzMqXBzVzJLrIUWhIqKjXW0jhzOIw8=.ed25519",
-      "%7hPgCrEbHP0JXNI8FBRR5GkOj2Q681JlPoGVs+8b2aI=.sha256": "@A8FTscQw3ubuWJzMqXBzVzJLrIUWhIqKjXW0jhzOIw8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "The only (large) exception that I'm aware of is that you can't put an image in a link. This will _not_ work:\n\n\n```\n[![alt-text](https://example.com/example.png)](https://example.com/article)\n```",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%bGLeBGYQ9xBB5AlQ+VZCOhwGX4ihB/YPLWtPWqo0JRo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Q/DM3IHHFtTDO6gw4E0KiiqWDm5F96GKmF3AR/AwUah2hJ1IRixarB1A6pAAPkf0duFNi7jL/LurxrVrg592Dw==.sig.ed25519"
+  "signature": "w5pmoSnU12H5TPpRu6UuYNZQilfExOES/zT8UGlu9EqhEKPe7CgIBd7xums3XI0BwEcsoMy7Fp+r7/et5XBwDg==.sig.ed25519"
 }
