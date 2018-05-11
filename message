@@ -1,20 +1,34 @@
 {
-  "previous": "%vGNJI0nRKci47lk/dJrtJo1ZqFXTxqXHkjBieRSI5HE=.sha256",
+  "previous": "%16fbQ1pfZUht/Zdr0zuaXZvcXmBy8QiAXVOw42Z6ieA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 499,
-  "timestamp": 1526061216476,
+  "sequence": 500,
+  "timestamp": 1526069224228,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0Iz6dZsS1dqDSQ8H34UMA4vlJjwQJ5N+hLe8Xu5E16o=.sha256",
-    "branch": "%0Iz6dZsS1dqDSQ8H34UMA4vlJjwQJ5N+hLe8Xu5E16o=.sha256",
+    "root": "%g43FCjvJLgDxPc1++JGT1lyz7WLTqHG3ESucE8WUGVQ=.sha256",
+    "branch": "%prZJt+2PYp3zlQMQagAFRHkoBRAc7N7EI520YcdSua4=.sha256",
     "reply": {
-      "%0Iz6dZsS1dqDSQ8H34UMA4vlJjwQJ5N+hLe8Xu5E16o=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+      "%g43FCjvJLgDxPc1++JGT1lyz7WLTqHG3ESucE8WUGVQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%prZJt+2PYp3zlQMQagAFRHkoBRAc7N7EI520YcdSua4=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
     },
-    "channel": "sourdough",
+    "channel": "patchwork",
     "recps": null,
-    "text": "Looks beautiful! Any specific recipe you can recommend?",
-    "mentions": []
+    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519) [@wakest](@fknQDWIbEKmJx/JoNE4L4F51lAEjwEWvaTm0rkO3fVw=.ed25519) [@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI edited it [here](https://github.com/ssbc/patchwork/blob/09a428d67b592fd0f16ed7445ee0f17255081488/index.js#L138), but it looks like `.ssb/config` is probably a more reasonable way to do it. Thanks!",
+    "mentions": [
+      {
+        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
+        "name": "Cy"
+      },
+      {
+        "link": "@fknQDWIbEKmJx/JoNE4L4F51lAEjwEWvaTm0rkO3fVw=.ed25519",
+        "name": "wakest"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      }
+    ]
   },
-  "signature": "R9gKDue6kdDVl/d0rV/chiKv7JPqATSgRW8jqU/pEMwM/IK+vN+q+qVRYrdnKTEdgeaDRFpI949XVfK3NrAeCQ==.sig.ed25519"
+  "signature": "HIE5DwFQ8Lq/iL/ofPQrZINm+C5sQdehx53EXqlmudVfnKERUPjfsJulugNQI6Nqv+/KSrAz8eruwJ2fG7qqAg==.sig.ed25519"
 }
