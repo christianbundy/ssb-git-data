@@ -1,34 +1,17 @@
 {
-  "previous": "%16fbQ1pfZUht/Zdr0zuaXZvcXmBy8QiAXVOw42Z6ieA=.sha256",
+  "previous": "%2tBk6aOBpWyD8UnsB28yYB1NGyYl71890Ba1t8hpj2I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 500,
-  "timestamp": 1526069224228,
+  "sequence": 501,
+  "timestamp": 1526069646070,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%g43FCjvJLgDxPc1++JGT1lyz7WLTqHG3ESucE8WUGVQ=.sha256",
-    "branch": "%prZJt+2PYp3zlQMQagAFRHkoBRAc7N7EI520YcdSua4=.sha256",
-    "reply": {
-      "%g43FCjvJLgDxPc1++JGT1lyz7WLTqHG3ESucE8WUGVQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%prZJt+2PYp3zlQMQagAFRHkoBRAc7N7EI520YcdSua4=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
-    },
-    "channel": "patchwork",
-    "recps": null,
-    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519) [@wakest](@fknQDWIbEKmJx/JoNE4L4F51lAEjwEWvaTm0rkO3fVw=.ed25519) [@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI edited it [here](https://github.com/ssbc/patchwork/blob/09a428d67b592fd0f16ed7445ee0f17255081488/index.js#L138), but it looks like `.ssb/config` is probably a more reasonable way to do it. Thanks!",
-    "mentions": [
-      {
-        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
-        "name": "Cy"
-      },
-      {
-        "link": "@fknQDWIbEKmJx/JoNE4L4F51lAEjwEWvaTm0rkO3fVw=.ed25519",
-        "name": "wakest"
-      },
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "Dan Hassan"
-      }
-    ]
+    "type": "vote",
+    "channel": "music",
+    "vote": {
+      "link": "%a6QsDKeGW/0vWyDfj050yAKEl3JopVwRatDnALqbbQ8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "HIE5DwFQ8Lq/iL/ofPQrZINm+C5sQdehx53EXqlmudVfnKERUPjfsJulugNQI6Nqv+/KSrAz8eruwJ2fG7qqAg==.sig.ed25519"
+  "signature": "m0D7kMGY88Y3Y1xzRi5KRekFs4csTnkRC0P4EL3LqZHNxyf85mQu5cvNzdKPABbvvS8dOPngwzw+/f9quqXmBg==.sig.ed25519"
 }
