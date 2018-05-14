@@ -1,17 +1,21 @@
 {
-  "previous": "%BuCzqjVa8zOpyoenAtlQyA/dbyZVltke9gR7CwfiB8s=.sha256",
+  "previous": "%YMK+SRck+hcmL73EQ43Hsd5twYOQlm2K060DAkZUdCc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 515,
-  "timestamp": 1526316531193,
+  "sequence": 516,
+  "timestamp": 1526316630354,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-chur",
-    "vote": {
-      "link": "%0f+5foyYVp3lWdLgi6EGRynat/ar9Q32VOOFbvk+zqQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%TbnTgNWQgo06U7mZepKKwO9KsB4hAl9f/C07d348w0A=.sha256",
+    "branch": "%kTl/M59bvRU9LIkwRdYXpk7EzerZw51eYTkqGYz7vV4=.sha256",
+    "reply": {
+      "%TbnTgNWQgo06U7mZepKKwO9KsB4hAl9f/C07d348w0A=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+      "%kTl/M59bvRU9LIkwRdYXpk7EzerZw51eYTkqGYz7vV4=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519"
+    },
+    "channel": "cryptocurrency",
+    "recps": null,
+    "text": "I'd recommend looking into [Stellar](https://www.stellar.org/) rather than Ripple.\n\nI'm not sure you can make any money speculating on it, but it's a really cool system that I think will *at least* take over the cryptocurrency exchange space.",
+    "mentions": []
   },
-  "signature": "K1s9Gi4GbwiMyqFa9QQPQ6iX0Eyx/vPxhrhzPWR2tcDaInt1tlbaDJ1GMrkcI/37t+ay/yM6YnHZqIyoe6p+Cg==.sig.ed25519"
+  "signature": "R0yPKnhxIsWSU618rKpVSEhPCY+HPjiciKl1VSJMtL+D9xFToqvTi7BMv6CwLP89t1cCmAvPxGWqJL3cRQMXBw==.sig.ed25519"
 }
