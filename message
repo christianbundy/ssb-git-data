@@ -1,21 +1,17 @@
 {
-  "previous": "%AqU+75Kz3tQ8Rmxgf4mDjrY3zAThF5Ilq2LHa1QvVXs=.sha256",
+  "previous": "%dwf2ShEFNgGIbKthnD4ivOp1GBdWUez2oPYLpORZAY0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 512,
-  "timestamp": 1526224530932,
+  "sequence": 513,
+  "timestamp": 1526274031059,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%oaw+BbKjAhvd7RLLjgmj/64mhRoD3hLr4Q0QVYJqbKs=.sha256",
-    "branch": "%wRKtHNr7dkp0CMU0r+lBHA1trFNmQYTiMeTbJRTQaKE=.sha256",
-    "reply": {
-      "%oaw+BbKjAhvd7RLLjgmj/64mhRoD3hLr4Q0QVYJqbKs=.sha256": "@k53z9zrXEsxytIE+38qaApl44ZJS68XvkepQ0fyJLdg=.ed25519",
-      "%wRKtHNr7dkp0CMU0r+lBHA1trFNmQYTiMeTbJRTQaKE=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "I enjoyed it, but I'm probably biased because I liked Donald Glover to start with.\n\n[This](https://news.ycombinator.com/item?id=17057534) was also surprisingly good.",
-    "mentions": []
+    "vote": {
+      "link": "%KC9l6H8tyzLSFgdpiyhdiQvexoLsOzEDMOgJQohca04=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "dzqbz1uajV7+ipoBp4/4j54y7cNPel4qW8pSyEAxo75mvPhI8DBCCSlXgEiMAMH2xihaQWiH8SQNTE4kL71XDA==.sig.ed25519"
+  "signature": "XUqyISkF4zlHXVhEEX5UdsBdvbPYN9U/B51STLSfdif6h0FwvfmqadkSExrCP5FOobgMWw/s7io/ApdepPk8AA==.sig.ed25519"
 }
