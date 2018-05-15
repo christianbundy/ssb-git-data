@@ -1,17 +1,32 @@
 {
-  "previous": "%JpDquNQjrx7cwX3LAPLdHYIbHCPq5i4Kbre+jKSLDZE=.sha256",
+  "previous": "%dbPAR1QiqrLpzGRP+1Zj9xhfC+wDG9rjGL75Ttuk/2U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 519,
-  "timestamp": 1526401306427,
+  "sequence": 520,
+  "timestamp": 1526412435093,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%6nZSSSaVqczVWqtLW/zmO0Ur4yRXmCMpW3v9+RcbPCA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "#Mozilla just release an interesting report on \"open source archetypes\", taking an in-depth look at how different #opensource (or #open-source?) projects work together.\n\n[MZ+OTS_OS_Archetypes_report_ext_scr.pdf](&NegkVOTruCpBCCB7Xnio0D5pZ5zuIafgp8nmrb4Lmt8=.sha256)\n\n- B2B\n  - Android\n  - Chromium\n- Multi-Vendor Infrastructure\n  - Kubernetes\n  - OpenStack\n- Rocket Ship To Mars\n  - Meteor\n  - Signal\n- Controlled Ecosystem\n  - WordPress\n  - Drupal\n- Wide Open\n  - Rust\n  - Apache HTTPD\n- Mass Market\n  - Firefox\n  - LibreOffice\n  - MediaWiki (due to Wikipedia instance)\n- Specialty Library\n  - libssl\n  - libmp4\n- Trusted Vendor\n  - MongoDB\n  - Hypothes.is\n  - Coral\n- Upstream Dependency\n  - OpenSSL\n  - WebKit\n  - *and just about every small JavaScript library on GitHub*\n- Bathwater\n\nI've only been able to skim it so far, but the #scuttlebutt community was the first thing I thought of when I started looking through the report. ",
+    "mentions": [
+      {
+        "link": "#Mozilla"
+      },
+      {
+        "link": "#opensource"
+      },
+      {
+        "link": "#open-source"
+      },
+      {
+        "link": "&NegkVOTruCpBCCB7Xnio0D5pZ5zuIafgp8nmrb4Lmt8=.sha256",
+        "name": "MZ+OTS_OS_Archetypes_report_ext_scr.pdf",
+        "type": "application/pdf",
+        "size": 452326
+      },
+      {
+        "link": "#scuttlebutt"
+      }
+    ]
   },
-  "signature": "PujP4SotWpdZizZ9l4cQGhpRfmb1nUpNupyWaQOtWc+kOyXD6SkexVrefZuMshtcYUOIjifLFT8YpXjZaznvBA==.sig.ed25519"
+  "signature": "JtAwJJgpy0e+1Yc6J3i8SFozkyfC53+Fxp9ca9PMhLcHIElzDWV1PDpAKuGrR0b2ORoU3f6IoGOfUT5pSdWdBg==.sig.ed25519"
 }
