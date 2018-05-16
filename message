@@ -1,17 +1,21 @@
 {
-  "previous": "%XvpWXIk3Y+tAMeFcDoi7NjbntwbWAbM+tzu3Jo+GBqw=.sha256",
+  "previous": "%pECCi3xs+S7ia8y3ORib8aNV+8wCU7ytI/i8NRz+QQs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 534,
-  "timestamp": 1526500000074,
+  "sequence": 535,
+  "timestamp": 1526500094080,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "nodesucks",
-    "vote": {
-      "link": "%F5Zgf4UKsUu7IAafyO6ZQPXfJeN8U6e30BQh2WxOqmI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%TQSWj35mSnasFa/esiNe5DkiS0kzPoMB9/Jj1BoiGAs=.sha256",
+    "branch": "%ZfSEPtUeZXBkGW2rao3UUd2ny0vuK2tq6gUMSUW294g=.sha256",
+    "reply": {
+      "%TQSWj35mSnasFa/esiNe5DkiS0kzPoMB9/Jj1BoiGAs=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+      "%ZfSEPtUeZXBkGW2rao3UUd2ny0vuK2tq6gUMSUW294g=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
+    },
+    "channel": "emojis",
+    "recps": null,
+    "text": ":japanese_goblin: `:undefined_is_not_a_function:`",
+    "mentions": []
   },
-  "signature": "Q50rvO/XdAm8Nzl4kjU6uPsa6nZvAbUb2A1QrtWfL5vOCZbS0EyZEG3TKrU2f8w8udlUHXHcMZ2PJgJSbE61Bw==.sig.ed25519"
+  "signature": "UmGeE3JZrGDh/l8ePFjseNVC2wFkWSx2PP4/NmE6Fh7s/z5z4JXUMFNq5VnKoME7SSnX6c/du3JxYET3ux8UAw==.sig.ed25519"
 }
