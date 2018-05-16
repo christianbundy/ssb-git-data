@@ -1,29 +1,27 @@
 {
-  "previous": "%W6o5lcCR/89ynv6aAkY92WBgQ8KDk37q+KtAmxCxAqI=.sha256",
+  "previous": "%YLRnaP0Kg35m+4I6ormIE31/lsgIS3tee9rPIM0ePgE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 524,
-  "timestamp": 1526432556630,
+  "sequence": 525,
+  "timestamp": 1526432976885,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "```\n$\n```\n\n\\*copies and pastes command from esoteric documentation\\*\n\n```\n$ $ (somelong \"command\" --hard | to | xargs -L 1 remember | awk '{print $4}' | tee docker-machine ssh default bash -c \"$@\")\n```\n\n\\* hits enter \\*\n\n\n```\nsh: command not found: $\n```\n\n:japanese_goblin: \n\nI know this is a dumb problem but it shouldn't be.\n\nLet me (re)introduce: `$`:\n\nhttps://github.com/fraction/dollar-sign\nhttps://aur.archlinux.org/packages/dollar-sign/\n\nI'm so sorry.\n\ncc: #programming #linux #arch #archlinux #bash",
+    "root": "%YLRnaP0Kg35m+4I6ormIE31/lsgIS3tee9rPIM0ePgE=.sha256",
+    "branch": "%YLRnaP0Kg35m+4I6ormIE31/lsgIS3tee9rPIM0ePgE=.sha256",
+    "reply": {
+      "%YLRnaP0Kg35m+4I6ormIE31/lsgIS3tee9rPIM0ePgE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Obligatory 20-second ASCII cast:\n\n![thumbnail](&/GUvdKzQEAl9fot9fkURoD/CLcU8PAE2kZSStpzLaao=.sha256)\n\nhttps://asciinema.org/a/kIWhgNE4HYdBMYyAbpSgktabL",
     "mentions": [
       {
-        "link": "#programming"
-      },
-      {
-        "link": "#linux"
-      },
-      {
-        "link": "#arch"
-      },
-      {
-        "link": "#archlinux"
-      },
-      {
-        "link": "#bash"
+        "link": "&/GUvdKzQEAl9fot9fkURoD/CLcU8PAE2kZSStpzLaao=.sha256",
+        "name": "thumbnail",
+        "type": "image/png",
+        "size": 42630
       }
     ]
   },
-  "signature": "ys2Rd5OsBOF9+RbdD0XnhGUQPPlx7O0rpZv4pVFIGXHWyApjR954i55HXYcaFixLKz9ti219hPNkV//seFFnBQ==.sig.ed25519"
+  "signature": "7m7q1OOCZbxhR2Va5Y1LDBndAgXmin6A+wHgxFELj62jKnBqt0IVyKmUNkC2jAoA+Vx4aRC6/yamnl3QTI6iBA==.sig.ed25519"
 }
