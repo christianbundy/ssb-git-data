@@ -1,26 +1,17 @@
 {
-  "previous": "%eRg/1raOhjRZaFtXTybEfaW1OjdqnEi2bQLCntgMLnc=.sha256",
+  "previous": "%mgt2HBLQ5I4d2/3lP8MPZ0Cb0+qeKeGKNOzE+WNVWCA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 531,
-  "timestamp": 1526440590140,
+  "sequence": 532,
+  "timestamp": 1526485788123,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%eRg/1raOhjRZaFtXTybEfaW1OjdqnEi2bQLCntgMLnc=.sha256",
-    "branch": "%mSXNZB9EFweWi03uP22GSI9PM6uXjOGFkeOILoMbC3Q=.sha256",
-    "reply": {
-      "%eRg/1raOhjRZaFtXTybEfaW1OjdqnEi2bQLCntgMLnc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%mSXNZB9EFweWi03uP22GSI9PM6uXjOGFkeOILoMbC3Q=.sha256": "@k53z9zrXEsxytIE+38qaApl44ZJS68XvkepQ0fyJLdg=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Fabián Heredia Montiel](@k53z9zrXEsxytIE+38qaApl44ZJS68XvkepQ0fyJLdg=.ed25519) \n\nDone and done, thanks!",
-    "mentions": [
-      {
-        "link": "@k53z9zrXEsxytIE+38qaApl44ZJS68XvkepQ0fyJLdg=.ed25519",
-        "name": "Fabián Heredia Montiel"
-      }
-    ]
+    "type": "vote",
+    "channel": "coffee",
+    "vote": {
+      "link": "%urp7YrhwrA4pCFCkn+8BzJOfuLUpYR61dN+04zfqT+g=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "W1IIBSAPWPzYB0Bqg2Jt8VI4vrmt1ScZKYr7zPLvaktn4dYqCgvpoi3AB/ZfNycv4Id5ncDCdi0jhDADz9Y2AA==.sig.ed25519"
+  "signature": "PV6kXGfibe7WTnlajqRddbzvedkBJ9eUIMbx7SWgBpFbL+8mgZmCFiT7RNNvI9/d6fjPhHDeVhijBJjWhVh4CA==.sig.ed25519"
 }
