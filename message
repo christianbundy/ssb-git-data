@@ -1,32 +1,21 @@
 {
-  "previous": "%dbPAR1QiqrLpzGRP+1Zj9xhfC+wDG9rjGL75Ttuk/2U=.sha256",
+  "previous": "%+YKNC3JazZnggRYrE0bC77hdtMIhNNgIv6P7YaRzp5s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 520,
-  "timestamp": 1526412435093,
+  "sequence": 521,
+  "timestamp": 1526428892289,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "#Mozilla just release an interesting report on \"open source archetypes\", taking an in-depth look at how different #opensource (or #open-source?) projects work together.\n\n[MZ+OTS_OS_Archetypes_report_ext_scr.pdf](&NegkVOTruCpBCCB7Xnio0D5pZ5zuIafgp8nmrb4Lmt8=.sha256)\n\n- B2B\n  - Android\n  - Chromium\n- Multi-Vendor Infrastructure\n  - Kubernetes\n  - OpenStack\n- Rocket Ship To Mars\n  - Meteor\n  - Signal\n- Controlled Ecosystem\n  - WordPress\n  - Drupal\n- Wide Open\n  - Rust\n  - Apache HTTPD\n- Mass Market\n  - Firefox\n  - LibreOffice\n  - MediaWiki (due to Wikipedia instance)\n- Specialty Library\n  - libssl\n  - libmp4\n- Trusted Vendor\n  - MongoDB\n  - Hypothes.is\n  - Coral\n- Upstream Dependency\n  - OpenSSL\n  - WebKit\n  - *and just about every small JavaScript library on GitHub*\n- Bathwater\n\nI've only been able to skim it so far, but the #scuttlebutt community was the first thing I thought of when I started looking through the report. ",
-    "mentions": [
-      {
-        "link": "#Mozilla"
-      },
-      {
-        "link": "#opensource"
-      },
-      {
-        "link": "#open-source"
-      },
-      {
-        "link": "&NegkVOTruCpBCCB7Xnio0D5pZ5zuIafgp8nmrb4Lmt8=.sha256",
-        "name": "MZ+OTS_OS_Archetypes_report_ext_scr.pdf",
-        "type": "application/pdf",
-        "size": 452326
-      },
-      {
-        "link": "#scuttlebutt"
-      }
-    ]
+    "root": "%KuqNQYjpGi+bWzNCYTs9oOldT7a6bM04X8Dh8Az3cyY=.sha256",
+    "branch": "%hyL7QNqmGbncOw4YFhEYGKIBagVBYQYwobUp7wMvhzw=.sha256",
+    "reply": {
+      "%KuqNQYjpGi+bWzNCYTs9oOldT7a6bM04X8Dh8Az3cyY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%hyL7QNqmGbncOw4YFhEYGKIBagVBYQYwobUp7wMvhzw=.sha256": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Yeah, I was having issues where [this wasn't running](https://github.com/raphael/linux-samus/issues/209), and eventually uninstalled when I realized [how close to vanilla the repo is](https://github.com/raphael/linux-samus/issues/211#issuecomment-388464985).\n\nI took the scripts and [repackaged them](https://aur.archlinux.org/packages/samus-scripts/), but otherwise it seems like 99.999% of the code in the repo is either completely broken or just a copy of the vanilla kernel. I've still never gotten my microphone to work though, so maybe there's still work to be done.\n\nI'm surprised to know we have the same computer, that's awesome! I've never met anyone with the same machine.",
+    "mentions": []
   },
-  "signature": "JtAwJJgpy0e+1Yc6J3i8SFozkyfC53+Fxp9ca9PMhLcHIElzDWV1PDpAKuGrR0b2ORoU3f6IoGOfUT5pSdWdBg==.sig.ed25519"
+  "signature": "aafxtayCmp7UfxykupPDqyRY6exrVtmm2ab0KsWyl8cUFzSxn7j93RJV9UFZuiyaOmLwcZ7Eyzo02un5QPdECw==.sig.ed25519"
 }
