@@ -1,17 +1,33 @@
 {
-  "previous": "%jtwU4FVs5x9H1ja9SPWv+n7ykbfh4OseCINtvHrolMU=.sha256",
+  "previous": "%h/p/TZ6OpnD5KD9En2SA5d1Y7BcCJKNeQ/SmkkwFLHo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 549,
-  "timestamp": 1527098195569,
+  "sequence": 550,
+  "timestamp": 1527098229238,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%KSxhhn3/bM+u3C7Vp0FrmO7E2Rv9+HQw1zOjmsMoi1o=.sha256",
+    "branch": [
+      "%6Hqw2eujw6RDt40H96rwWTGeQz5CQPE5IQa9hIupCOY=.sha256",
+      "%R6c3fgiCpJa2UQ6BEeafhUMP5/qM0GiDOrCKV74caSs=.sha256"
+    ],
+    "reply": {
+      "%KSxhhn3/bM+u3C7Vp0FrmO7E2Rv9+HQw1zOjmsMoi1o=.sha256": "@rIeM8dvwaK/2d/S7zvxQtPxDhDnjo+4F72kGNUdGFeU=.ed25519",
+      "%R6c3fgiCpJa2UQ6BEeafhUMP5/qM0GiDOrCKV74caSs=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519"
+    },
     "channel": "new-people",
-    "vote": {
-      "link": "%j5g79w46FChQhVz/WeuSqpN/xzEMDrlDJhLxQjVfY28=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Hey, welcome to both [@doublec](@rIeM8dvwaK/2d/S7zvxQtPxDhDnjo+4F72kGNUdGFeU=.ed25519) and [@Tom Coates](@7A2ZxHX+WyIVezulnt0FogzeUVWLq3YHmtX3r7ja4Fw=.ed25519)!\n\nLooking forward to seeing both of you around.",
+    "mentions": [
+      {
+        "link": "@rIeM8dvwaK/2d/S7zvxQtPxDhDnjo+4F72kGNUdGFeU=.ed25519",
+        "name": "doublec"
+      },
+      {
+        "link": "@7A2ZxHX+WyIVezulnt0FogzeUVWLq3YHmtX3r7ja4Fw=.ed25519",
+        "name": "Tom Coates"
+      }
+    ]
   },
-  "signature": "j+h/qRcOsx2BF1HvG6n7WcAnj+OBORHohQNztKStXGDPAyydkWf2UwiriqL2lFgF/bhrEjaq+ux6dDHe7QY+CQ==.sig.ed25519"
+  "signature": "1MG54Mvv8nTfpTsjMun6K/JXrmkNR2tTDNVhh6/Gte7Jz3amge8lvsuRuaCzSy9hDwNQFMkYXtLVQepOuMwcCw==.sig.ed25519"
 }
