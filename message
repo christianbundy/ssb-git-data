@@ -1,17 +1,25 @@
 {
-  "previous": "%u2cF7n2tL9E2v6s9HdNS4aJpJxLjbUyHEDB8BzrYLQE=.sha256",
+  "previous": "%4k3MB3+MZMohVQhvM3Qmzfyv37M8moJAN2+4tnFlQ/g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 552,
-  "timestamp": 1527722180110,
+  "sequence": 553,
+  "timestamp": 1527722625128,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "myco",
-    "vote": {
-      "link": "%sXkLPYulXqRZIHP/IIQq5uty/G8uRJKNygRFIylt0M8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ZtNJ9p+frIdTQSp++E+YzNr7PsPywjmL6ZtYYeWMxQU=.sha256",
+    "branch": "%sU7WiWRaGi57iTr8IRWW68k0kgiIGEwKu6SsOrnzNnw=.sha256",
+    "reply": {
+      "%ZtNJ9p+frIdTQSp++E+YzNr7PsPywjmL6ZtYYeWMxQU=.sha256": "@rnHK4hU2H0twEoSJ0WyWfdei0MZUv8ffNGciixM3cv0=.ed25519",
+      "%sU7WiWRaGi57iTr8IRWW68k0kgiIGEwKu6SsOrnzNnw=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "> either by following a pub which follows you back or by getting on the same local area network as another butt\n\nI may be misunderstanding, but this is what I did and it forked my feed as joining a pub creates a \"follow\" post in your feed. It seems like there are three options:\n\n1. Back up `gossip.json` and don't worry.\n2. Start a client on another computer in your LAN and follow pubs with the other computer.\n3. It isn't fun.\n  1. Move `.ssb` to `.ssb.bak`\n  2. Open your client\n  3. Follow a pub\n  4. Wait\n  5. Close your client\n  6. Copy `.ssb/gossip.json` to `.ssb.bak/gossip.json`\n  7. Delete `.ssb`\n  8. Move `.ssb.bak` to `.ssb`\n  9. Open your client\n  10. Open a bottle of whiskey\n\nThere may be a way to simplify the third option, but in my experience it isn't quite as simple as \"follow a pub\" unless you're comfortable forking your feed and getting #marooned until you figure out what's going on. Took me *way* too long.",
+    "mentions": [
+      {
+        "link": "#marooned"
+      }
+    ]
   },
-  "signature": "TGJgqby87OxE1+VgMB4YsLMcgplywEFT5wJpQk+GOtcJtK3+apUPWlRfOGMdLTCyrAqXSQnV2l1zObeeGsudCw==.sig.ed25519"
+  "signature": "PTVZDc45yniD4uuHjd6KP/unsPyu+vThYAR86cA7kyikc8agsAGYr+Kp1DCsT/4uXJRLvl2RaL9TyPOlS5STDg==.sig.ed25519"
 }
