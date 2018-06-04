@@ -1,26 +1,16 @@
 {
-  "previous": "%X32KWkk6VNBVwVklVSqlEM12V3Dm3VYAcGEyJLZmEws=.sha256",
+  "previous": "%WWfUsGFj4SSjs0WFWPiiqSqygsdd8mkQcplsSot8dfU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 563,
-  "timestamp": 1528128020272,
+  "sequence": 564,
+  "timestamp": 1528128024927,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%SjB2wR0WN/erjrQFK96LFBrFNwv8Tda/AOMdncngDL4=.sha256",
-    "branch": "%nnjbk8ZgAuI3FPVTAV0HCLsQ0fxlUk92qhx7huZt/1Y=.sha256",
-    "reply": {
-      "%SjB2wR0WN/erjrQFK96LFBrFNwv8Tda/AOMdncngDL4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%nnjbk8ZgAuI3FPVTAV0HCLsQ0fxlUk92qhx7huZt/1Y=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) Any chance you have an automagical way to migrate from GitHub to git-ssb? GitLab has a migration tool, but I'm sure there's a simple Bash `for...do` loop that can do something similar.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%ALDS5e5JXyZ901uWxJ4D1QMQY5DY4dtH+ndOfcvr69M=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "L4C44YkT9aCM9aycUu2ffGP84mfTr4+p0Ld9B8ygDMUcvw+wrZ7UKy3PdxAJzSNaMIlKjxTz0BZrN6bIX6RfAw==.sig.ed25519"
+  "signature": "zu0sJdV2MmYupIQ2AAA6Oo4Y2/364GYK/PCfm0hcLBx6GsG6/SheHzjPn/oEakOnRlbQlqVU7dFGfugWB6HcCQ==.sig.ed25519"
 }
