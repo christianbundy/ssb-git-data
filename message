@@ -1,16 +1,26 @@
 {
-  "previous": "%SjB2wR0WN/erjrQFK96LFBrFNwv8Tda/AOMdncngDL4=.sha256",
+  "previous": "%X32KWkk6VNBVwVklVSqlEM12V3Dm3VYAcGEyJLZmEws=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 562,
-  "timestamp": 1528127945899,
+  "sequence": 563,
+  "timestamp": 1528128020272,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nnjbk8ZgAuI3FPVTAV0HCLsQ0fxlUk92qhx7huZt/1Y=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SjB2wR0WN/erjrQFK96LFBrFNwv8Tda/AOMdncngDL4=.sha256",
+    "branch": "%nnjbk8ZgAuI3FPVTAV0HCLsQ0fxlUk92qhx7huZt/1Y=.sha256",
+    "reply": {
+      "%SjB2wR0WN/erjrQFK96LFBrFNwv8Tda/AOMdncngDL4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%nnjbk8ZgAuI3FPVTAV0HCLsQ0fxlUk92qhx7huZt/1Y=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) Any chance you have an automagical way to migrate from GitHub to git-ssb? GitLab has a migration tool, but I'm sure there's a simple Bash `for...do` loop that can do something similar.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
   },
-  "signature": "A9VjDKBwecOdQBx8XVizmnIyz23A/9lPvZ1wfY1KF1uaheq8bLXpYyFa62NBGX3cE2PXu4SfRsfJRG2tdV45Dw==.sig.ed25519"
+  "signature": "L4C44YkT9aCM9aycUu2ffGP84mfTr4+p0Ld9B8ygDMUcvw+wrZ7UKy3PdxAJzSNaMIlKjxTz0BZrN6bIX6RfAw==.sig.ed25519"
 }
