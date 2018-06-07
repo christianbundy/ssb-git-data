@@ -1,17 +1,25 @@
 {
-  "previous": "%H9eqL2HuYsJ+HtVJDpXq3fymt7sPk5lot34YM2Wb8wg=.sha256",
+  "previous": "%KzHnsiaa/tBy9UGp0zOEFC1ZBbILUY38B6J/187/cJ0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 574,
-  "timestamp": 1528401641936,
+  "sequence": 575,
+  "timestamp": 1528404593660,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%08TOB/PWh7uJjzh+R4G3Af4aXGqWbqrTup/gdmTJP7k=.sha256",
+    "branch": "%ZJ9MI6sQmmGTqUV91IGBDetLmkcx6eu5EqLwRG6IN+A=.sha256",
+    "reply": {
+      "%ZJ9MI6sQmmGTqUV91IGBDetLmkcx6eu5EqLwRG6IN+A=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%ZJ9MI6sQmmGTqUV91IGBDetLmkcx6eu5EqLwRG6IN+A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519)\n\n1. That's really cool, although it never actually finished loading for me. I love the style.\n2. I FOUND IT I FOUND IT I FOUND IT https://totalism.org/",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "xsqccApx63HcKwM2wZyyvwG87vTfvCybsjPtNcD9vh4MQDyLJxWoFa9jMFcES6j46tOkZPa0fnfFaCZtQk1VCg==.sig.ed25519"
+  "signature": "nQWzMEvPLjRM939YYv6emjmHeI1tev0XIdn8N82UhR4QvSrL5SzIYI7fkuYl8f7wToCRF1SEEY3q4fFU89sXCg==.sig.ed25519"
 }
