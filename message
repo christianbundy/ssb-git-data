@@ -1,20 +1,30 @@
 {
-  "previous": "%bzP+7big5BnXAnG35Fe7GRuqGPqunCwX2R1z1BaIci0=.sha256",
+  "previous": "%weqNd9Raick1yDHAX9AZbvni17ENuNQYH3/38vpVP4M=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 584,
-  "timestamp": 1528849502941,
+  "sequence": 585,
+  "timestamp": 1528914572944,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Can anyone on #cjdns and #hyperboria see me?\n\nhttp://samus.fraction.io",
+    "root": "%weqNd9Raick1yDHAX9AZbvni17ENuNQYH3/38vpVP4M=.sha256",
+    "branch": "%5XgBVy9SwezPR62fAdEsM6lBE7N3F0Q4G0+j1cp0Q3I=.sha256",
+    "reply": {
+      "%weqNd9Raick1yDHAX9AZbvni17ENuNQYH3/38vpVP4M=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%5XgBVy9SwezPR62fAdEsM6lBE7N3F0Q4G0+j1cp0Q3I=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) [@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nI'm honestly shocked that it worked. Wow.\n\nWelp, might as well run a pub too. Here are some invite codes if either of you are interested:\n\n```\nlibra.fraction.io:8008:@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519~Y5xmMFLYREyyFU5aQ9dkcGguyr2kkcpWTkAM8R8F6QE=\n```",
     "mentions": [
       {
-        "link": "#cjdns"
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
       },
       {
-        "link": "#hyperboria"
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
       }
     ]
   },
-  "signature": "F+63+QXAkMKHEtFdNRmkEC7o4uS6njfexr6EzS5Lgg2R/zJL8Nn6N3TfHNncdu4G9rhRr+ARAljuz0Tm2HKmAg==.sig.ed25519"
+  "signature": "WcTh7A0kBDTYFTp0OCCmbCU8FZKu8rC0HZFgrrRQ2A4JDGiDCK7imZe2b32ikO882M5M51cTNe8mpkJbnj/YDA==.sig.ed25519"
 }
