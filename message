@@ -1,17 +1,21 @@
 {
-  "previous": "%/YlvRR3FzZg1j7+6QppXMvYrTCSPDKJoYLRY7A1bdLM=.sha256",
+  "previous": "%MTZ+6X4eHPuahEGmI4aABks6h8nSZ9nMsMcstXQyEB4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 593,
-  "timestamp": 1529019114348,
+  "sequence": 594,
+  "timestamp": 1529019198345,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%6HjW0kVQCmRFJCko5cFcdr4rrQ8vaGViaOdJIb2IdQk=.sha256",
+    "branch": "%8GvUbyaCv7slyEIAItjyBb0X4RkKLzwu9MLJ6o2dHMQ=.sha256",
+    "reply": {
+      "%8GvUbyaCv7slyEIAItjyBb0X4RkKLzwu9MLJ6o2dHMQ=.sha256": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
+      "%K4Vk5nHlIcefXVctxpGqlzy3d5VkiA/O+g26+f+nswI=.sha256": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%8GvUbyaCv7slyEIAItjyBb0X4RkKLzwu9MLJ6o2dHMQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I don't think Enspiral has every quite clicked for me until I saw that image.  I'm sure there's some sort of friction, but that looks like a solid system. Do you know whether there are any Enspiral folks in the US?",
+    "mentions": []
   },
-  "signature": "+M6dfL7v2zms16Zm9Sfn6WoGZWKUJ7vuQTE/PApguFcGp6YlO83CAcD+PGkeMShwpaG9+yt2GzSL4XYe3uPlAw==.sig.ed25519"
+  "signature": "+uuQUDCu445Ro4IzGVQKsyTgQuOV69pdyN/2czuqQeCEdDynNxDhg9iQwS35DXfBIzhtC3jS9d65Mq6IRyvOCw==.sig.ed25519"
 }
