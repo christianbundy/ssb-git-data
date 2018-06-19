@@ -1,16 +1,25 @@
 {
-  "previous": "%9jfeb2E2khYfOScchpN1ktTsc6vLsaoD7gnQ4K/0CqQ=.sha256",
+  "previous": "%2ve13+wBd6Ai7JZBPY/Oivq+CFqE1ig36hx5tbR+fZM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 606,
-  "timestamp": 1529443209827,
+  "sequence": 607,
+  "timestamp": 1529443756679,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hwgobERfncha3QVJUp5mG82pRlXt0FKEgVfhhYOr//s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256",
+    "branch": "%hwgobERfncha3QVJUp5mG82pRlXt0FKEgVfhhYOr//s=.sha256",
+    "reply": {
+      "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256": "@N4qddLUBJq38hNdKrQnZKA+EvYEkT5ShDXIua+YgwNY=.ed25519",
+      "%hwgobERfncha3QVJUp5mG82pRlXt0FKEgVfhhYOr//s=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Anyone know if anyone is auto-publishing SSB blobs to #ipfs? It seems almost trivial. Would something like this work?\n\n```\nfor $f in ~/.ssb/blobs/sha256/**/*; do\n  ipfs add \"$f\";\ndone\n```",
+    "mentions": [
+      {
+        "link": "#ipfs"
+      }
+    ]
   },
-  "signature": "PQJh4VZoCVj9nhWDeUrfoqKvbd5ng2XUxeA41q6vW3C0eMNgchO8f3XXuoXpK04oGLYPW4ge4letx3P7TYKRAA==.sig.ed25519"
+  "signature": "6vj5ii+PGGXzMVFeL4e8Nu7qGR9PDWQL8y1/UsUlr4+Ws7jXrTryqVef3GAtYW6ZF4Bt16G5XwN1AUdHZWnRBA==.sig.ed25519"
 }
