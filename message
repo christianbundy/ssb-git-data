@@ -1,20 +1,17 @@
 {
-  "previous": "%KQSXMS2k+QMqlP7d0G1SqIHeO0l3I8VMu6sYNyHAjbA=.sha256",
+  "previous": "%oxAZOoDuMbZU5YcSIJZ+u27/9p+OQTsimWXSUT8gqLY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 602,
-  "timestamp": 1529345511958,
+  "sequence": 603,
+  "timestamp": 1529428693341,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%HZL/iAAy/KPJkbpeBl65MN77c3p0kQrLCP1s9awQ8fQ=.sha256",
-    "branch": "%HZL/iAAy/KPJkbpeBl65MN77c3p0kQrLCP1s9awQ8fQ=.sha256",
-    "reply": {
-      "%HZL/iAAy/KPJkbpeBl65MN77c3p0kQrLCP1s9awQ8fQ=.sha256": "@snp/faEAB52u3OuZaOwZ7Dc6+GTDFNuMZb8X/sDe2T8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "My favorite read on this (from Francesca Pick, who works on Cobudget):\n\nhttps://corporate-rebels.com/busting-the-myth/",
-    "mentions": []
+    "vote": {
+      "link": "%bFlxELdg6U/Y0xbMdTr7gH2clfWbh6cgRWXtUzEKLdE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "5A5l1ggkqY0bvGv1Y2qUhlUaJhzQXzHKtgM3s6YpWS5kgS0jItiD1Gpw1Xox3Z/Eddg8FNeIev1fMbeQzBQtBg==.sig.ed25519"
+  "signature": "dn7d0tQsHlqTtaGFD/eVgq26AI9Av1PmrP8TesFtCbpPsCpy+qlQ4PiqJ2WWlj3cprStnKF/tcVTtvl5Mo5QBA==.sig.ed25519"
 }
