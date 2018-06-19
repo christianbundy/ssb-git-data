@@ -1,21 +1,16 @@
 {
-  "previous": "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256",
+  "previous": "%hX8wlRmnXbPfFZUehMHCSZAAZgnzVTCB21+SsXSJv3k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 608,
-  "timestamp": 1529444222006,
+  "sequence": 609,
+  "timestamp": 1529450208816,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256",
-    "branch": "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256",
-    "reply": {
-      "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256": "@N4qddLUBJq38hNdKrQnZKA+EvYEkT5ShDXIua+YgwNY=.ed25519",
-      "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Actually I think I'm doing the thing:\n\n```\nfor f in $(find ~/.ssb/blobs/ -type f); do\n ipfs add \"$f\"\ndone\n```",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%Qw5TGiQnMdkIaM2UWEfNZeh35BRDhVRO81nGRb7xnf4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "sOfHFjuIWKfA/NZF32WX2WZhQJ0f840otYbcqLMiEH83ADPocRs7WU+3YxMLJkYjMw3PGbjsyT8ZNycWEDHMBA==.sig.ed25519"
+  "signature": "yy86/DLWYWx2MDZYGi23YsJjThY4K6Zzem8joyOkZCmydsneGQl84yzEVa1h5Ct+Fh7SyX2xqICO5CKVYq5XDQ==.sig.ed25519"
 }
