@@ -1,25 +1,21 @@
 {
-  "previous": "%2ve13+wBd6Ai7JZBPY/Oivq+CFqE1ig36hx5tbR+fZM=.sha256",
+  "previous": "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 607,
-  "timestamp": 1529443756679,
+  "sequence": 608,
+  "timestamp": 1529444222006,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256",
-    "branch": "%hwgobERfncha3QVJUp5mG82pRlXt0FKEgVfhhYOr//s=.sha256",
+    "branch": "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256",
     "reply": {
       "%ma9r977WRLAiI0Z/RhxQ6KSP+bpp++x4eWffb9nGj3M=.sha256": "@N4qddLUBJq38hNdKrQnZKA+EvYEkT5ShDXIua+YgwNY=.ed25519",
-      "%hwgobERfncha3QVJUp5mG82pRlXt0FKEgVfhhYOr//s=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+      "%mt0tdJ7nZ0VCqSOmAAfLQNJ3aySnfnL4JllWt+AvnoE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Anyone know if anyone is auto-publishing SSB blobs to #ipfs? It seems almost trivial. Would something like this work?\n\n```\nfor $f in ~/.ssb/blobs/sha256/**/*; do\n  ipfs add \"$f\";\ndone\n```",
-    "mentions": [
-      {
-        "link": "#ipfs"
-      }
-    ]
+    "text": "Actually I think I'm doing the thing:\n\n```\nfor f in $(find ~/.ssb/blobs/ -type f); do\n ipfs add \"$f\"\ndone\n```",
+    "mentions": []
   },
-  "signature": "6vj5ii+PGGXzMVFeL4e8Nu7qGR9PDWQL8y1/UsUlr4+Ws7jXrTryqVef3GAtYW6ZF4Bt16G5XwN1AUdHZWnRBA==.sig.ed25519"
+  "signature": "sOfHFjuIWKfA/NZF32WX2WZhQJ0f840otYbcqLMiEH83ADPocRs7WU+3YxMLJkYjMw3PGbjsyT8ZNycWEDHMBA==.sig.ed25519"
 }
