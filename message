@@ -1,21 +1,17 @@
 {
-  "previous": "%LbeHmqy77S3UXViLmnXToAbznrZkkJg50sxBlZqi0Xk=.sha256",
+  "previous": "%FLNPJsOUXRtj1A7WuUhmrVp/Wd9QDHYVcW0S85nMjiA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 618,
-  "timestamp": 1529601363910,
+  "sequence": 619,
+  "timestamp": 1529601402556,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%waBedF3fuzQzNnr7hA0AB8qZV7XlLJbfW7cplA8XThc=.sha256",
-    "branch": "%nYBhARvZYRzdYhP8muRToOp7WPybgBm5tWhAQ21Ae1I=.sha256",
-    "reply": {
-      "%waBedF3fuzQzNnr7hA0AB8qZV7XlLJbfW7cplA8XThc=.sha256": "@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519",
-      "%nYBhARvZYRzdYhP8muRToOp7WPybgBm5tWhAQ21Ae1I=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "> How would I spot if you are sending a lot of private messages to yourself?\n\nThis makes me wonder how easy it would be to show how much storage each user is taking up on my hard drive. I'd be interested to see how much of my blobs directory is my own content, how much is public content, and how much is private content that I'm \"hosting\" for absolutely no reason.",
-    "mentions": []
+    "type": "vote",
+    "channel": "hakland",
+    "vote": {
+      "link": "%M1hUdLirfRJqoe3yANMK02g7hn8n6GzHNCvBwITba1Y=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "QTL2+KlerdsXWtHvgGsITM2Zy28l8z9NfBJa6Z21YlvTJYb3PvmH/DhJ3cHW5KuBMJ9j5qp8ytoLUrNtAW6aBA==.sig.ed25519"
+  "signature": "Qfd3QSX9a4kZLhVcXViaCITafvaJQagEQYr548pK3wiBxP+gFqyO7vCdGKl81t8nlDH/fcChnxG50GVLIkPuBg==.sig.ed25519"
 }
