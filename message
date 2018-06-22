@@ -1,13 +1,20 @@
 {
-  "previous": "%ciWoOVwdTaRYPO88ZsgMrxx2VdPR9T+lFyCRVphD/QM=.sha256",
+  "previous": "%5fuLvKLuDJtMLjljYJQomXMVERJMwPA9TL4EnqyHHtI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 620,
-  "timestamp": 1529619327056,
+  "sequence": 621,
+  "timestamp": 1529680573079,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@KqyUyyHYCaB7j8PcxlhpT8HgGHnGAr6E1MB5Yxqcqe0=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%kb8xjkwZPTtM+WolUMVL8wIMCa5BZNO/GwNwvGk69CY=.sha256",
+    "branch": "%kb8xjkwZPTtM+WolUMVL8wIMCa5BZNO/GwNwvGk69CY=.sha256",
+    "reply": {
+      "%kb8xjkwZPTtM+WolUMVL8wIMCa5BZNO/GwNwvGk69CY=.sha256": "@Oz5q5joRgrnQJ1a8NTc4ZmPGFe00aZs8RxY7NshOyos=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "The dat:// URLs aren't SSB, they're a different protocol, so you'll need something like the Beaker browser to open them: https://beakerbrowser.com/",
+    "mentions": []
   },
-  "signature": "qM3nPmIhzz1zc+ePuIJKz9jjIkKuSpA/5Cez4Jpcb20W9EfAu/fF7Bdhhpm0thTx+p686TTvGA1M28C/RdyPBw==.sig.ed25519"
+  "signature": "fui0ARB5Ju/ydt/pGJtvRezOK6mbtOZEYWxtel+0ndrmKQhAOPID0+ghH3m7a+IRykVQ5mRvKuq7XBGeYglGCw==.sig.ed25519"
 }
