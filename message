@@ -1,21 +1,17 @@
 {
-  "previous": "%0bFcuzACuM/OnZOfX9vCLbgzMllQ7K0xjByEk3nP6sU=.sha256",
+  "previous": "%8hBXhHt3QOFqGJG0+ExttQnlKlzjeZjzSWId7kRivBc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 625,
-  "timestamp": 1529945966541,
+  "sequence": 626,
+  "timestamp": 1529950600433,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%npS8BH5XJrQBtSiUb3Rrrnl5s7nm475lPWatyDM4SLk=.sha256",
-    "branch": "%J1WOP6kuZRsy5nyz9OuAYIDkM5abyPHiuGYNtg07e6s=.sha256",
-    "reply": {
-      "%npS8BH5XJrQBtSiUb3Rrrnl5s7nm475lPWatyDM4SLk=.sha256": "@vD1oA8qZyMMTEqezuv5OYHC63ag+eabAnYD3LLpNmEw=.ed25519",
-      "%J1WOP6kuZRsy5nyz9OuAYIDkM5abyPHiuGYNtg07e6s=.sha256": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519"
-    },
-    "channel": "new-people",
-    "recps": null,
-    "text": "> ... so, do they even see my comment? or is one hop more needed for no possible communication?\n\nDepends on the client! If OP follows you then they're guaranteed to see it, most clients will show it if they follow someone who follows you, and some clients show it if they follow someone who follows someone who follows you.\n\nHell, I've had mentions that haven't showed up for weeks until they propagate through the network to me.",
-    "mentions": []
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%qNy6o3ZVoTZ4A+bQh+9S2a6P/zfJYvgDrqtXrpwEsfI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "FYECP+zgJwN7NpVkWJYkVIpNKy+9Jnhd+ITD40U6nU0IYywjTaSW+VYTBfwcBKdig1sZ4KJLIw746IJqWR0YDQ==.sig.ed25519"
+  "signature": "7ltBZKEPBqYyP0LL6pknlJzmpdw2nCk7NKSC7VnN9Xqxkw0oYpNJxaiF7hL8b1aZ3lQnpnphzTBMMMK8p/3CBA==.sig.ed25519"
 }
