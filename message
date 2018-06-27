@@ -1,16 +1,28 @@
 {
-  "previous": "%Gxv9iuJ8H0IUPxyWi+Tbc8G0giGQpatsfDj+1L+BgNQ=.sha256",
+  "previous": "%l/A3A7r51U4rmvJmk2fuI+3+9o30WUqgKyZy8AHRLOk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 635,
-  "timestamp": 1530119977227,
+  "sequence": 636,
+  "timestamp": 1530120063165,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rWNGs3bX7HmWxCImS8cKp1UVkTVZF41QxfcvqWuTABQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rzEE3HMuYtNBTI4hK7BLo5RILsAGNsGm49E8kVGouSE=.sha256",
+    "branch": "%rzEE3HMuYtNBTI4hK7BLo5RILsAGNsGm49E8kVGouSE=.sha256",
+    "reply": {
+      "%rzEE3HMuYtNBTI4hK7BLo5RILsAGNsGm49E8kVGouSE=.sha256": "@huNkh7Jy5hQKYauQlyfy8NvQh+TFNxfd3QaUXgY42ZA=.ed25519"
+    },
+    "channel": "postmarketos",
+    "recps": null,
+    "text": "[@raingloom](@huNkh7Jy5hQKYauQlyfy8NvQh+TFNxfd3QaUXgY42ZA=.ed25519) I'm sure this is a silly question, but how does #i3wm work without a keyboard? I've only used it on the desktop but I can't imagine it has a touch UI baked in (?).",
+    "mentions": [
+      {
+        "link": "@huNkh7Jy5hQKYauQlyfy8NvQh+TFNxfd3QaUXgY42ZA=.ed25519",
+        "name": "raingloom"
+      },
+      {
+        "link": "#i3wm"
+      }
+    ]
   },
-  "signature": "E05K30RiZkcEb5hh94oehfG8hVYKWUB5jWMHIAEy5muJk4uOpCkYnbEJbE002uen3kaCYeDY09/I+VySHumwCQ==.sig.ed25519"
+  "signature": "BL9b3PZSgSrA9M9HvST4DqGocTBXuLA1vCtdTgFTiXQNLTl3bcJPZiZuP9zl4xziGyyLxl4ewMSNALvrVeqbCw==.sig.ed25519"
 }
