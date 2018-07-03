@@ -1,25 +1,21 @@
 {
-  "previous": "%z35TFcCGnyWyC2T9OduwNK5k+jZAtlQy6lX13R7LPxE=.sha256",
+  "previous": "%I2Y5rHPfBolq64wBPuwUlNyc61s1JldGrcr/Gv+oEKI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 639,
-  "timestamp": 1530637656163,
+  "sequence": 640,
+  "timestamp": 1530639039037,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256",
-    "branch": "%wllFFkt7TxaDkRncr1Rb/42MvQ2bxMR7U4zOgprruFQ=.sha256",
+    "branch": "%1vSAaYyOBxglK3BlBPtzkgcCF/8a/YlQUmKzcpn22/0=.sha256",
     "reply": {
-      "%wllFFkt7TxaDkRncr1Rb/42MvQ2bxMR7U4zOgprruFQ=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+      "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256": "@Rn1AO8mX3wT/v0wRDxg0MFaYixyu2C+WSlnhC5LKKCI=.ed25519",
+      "%1vSAaYyOBxglK3BlBPtzkgcCF/8a/YlQUmKzcpn22/0=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
     },
     "channel": "ssb",
     "recps": null,
-    "text": "[@bobhaugen](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) You can encrypt the same messages for multiple keys, the only downside is that it requires ~double the size to encrypt one message for two people.",
-    "mentions": [
-      {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bobhaugen"
-      }
-    ]
+    "text": "Yep, generally that means switching to a pre-shared key so that anyone with the key (i.e. members of the group) can read any message. The upside is that messages become smaller but the downside is that you have to negotiate a new pre-shared key any time someone joins or leaves the group. Pros and cons.",
+    "mentions": []
   },
-  "signature": "fiDvTd2ALEavaq4VGEuHaYMhenCyEC3eB1Cpd//l+b9B5EmbW3pTHDaswtQgCv0eMzGZGxjOG8/aVo9wL+tIBQ==.sig.ed25519"
+  "signature": "OSa7MSeBZG0+/nv4oL2K9LQuhOMl9Wmn6kACLd6C91GYDGjQM8hRdeoFeTdF2NJeaw/88Z9sPkxLq0slEgWQBg==.sig.ed25519"
 }
