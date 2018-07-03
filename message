@@ -1,17 +1,26 @@
 {
-  "previous": "%TGNAUTlEyJNpMZq935IsPmOEeRybQiFLlLi8IANPXXs=.sha256",
+  "previous": "%7xpONNyf5GlMjASszyQUj+RyzZjg+OzwkJNclu0WOtM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 641,
-  "timestamp": 1530639361248,
+  "sequence": 642,
+  "timestamp": 1530640930193,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "transgender",
-    "vote": {
-      "link": "%CAHGK+0+pZf5gvnWaoPkYAvGWXjhvmZsCaz8+cpHAEE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256",
+    "branch": "%tGpN+PZWeaGdyybVrLjVw331cb9eoUwzH9tVUnBqeus=.sha256",
+    "reply": {
+      "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256": "@Rn1AO8mX3wT/v0wRDxg0MFaYixyu2C+WSlnhC5LKKCI=.ed25519",
+      "%tGpN+PZWeaGdyybVrLjVw331cb9eoUwzH9tVUnBqeus=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\n\nI'm sure this would be better to test in Scuttlebutt, but here are my results with GnuPG:\n\n```console\n$ gpg -ser alice |wc -c    \nHello world\n673\n$ gpg -ser alice -r bob | wc -c \nHello world\n942\n$ gpg -ser alice -r bob -r carol | wc -c\nHello world\n1215\n```\n\nLooks like it increases by 40% when you add a second person and 29% when you add a third person. You're right, definitely not \"~double\" like I said.",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      }
+    ]
   },
-  "signature": "zxaqnfH3hZl9iKaRPfqboFgg0OxhlSvYbDRL06gh8iBEYFeTYTRk4ycUrt2QZUmGAZMp3mdGZSXEpnldvxmKAg==.sig.ed25519"
+  "signature": "iQtxukE19rjKI7eZo7WWQMl6cZlg0ugO6fYSZIrj+p50SEro3MK+PWSqkT3+pVWcbHQqHHyeQ7yfDZMdtTa4Dw==.sig.ed25519"
 }
