@@ -1,26 +1,25 @@
 {
-  "previous": "%7xpONNyf5GlMjASszyQUj+RyzZjg+OzwkJNclu0WOtM=.sha256",
+  "previous": "%dCID5Dz7NVKR1xW9Uqlcct73w/KV91WDey2sDupMdkY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 642,
-  "timestamp": 1530640930193,
+  "sequence": 643,
+  "timestamp": 1530643292753,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256",
-    "branch": "%tGpN+PZWeaGdyybVrLjVw331cb9eoUwzH9tVUnBqeus=.sha256",
+    "root": "%o/3SoctS0rBAAv7K3Hd4y5GjzU818KRjJ5e5/cKcJhw=.sha256",
+    "branch": "%o/3SoctS0rBAAv7K3Hd4y5GjzU818KRjJ5e5/cKcJhw=.sha256",
     "reply": {
-      "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256": "@Rn1AO8mX3wT/v0wRDxg0MFaYixyu2C+WSlnhC5LKKCI=.ed25519",
-      "%tGpN+PZWeaGdyybVrLjVw331cb9eoUwzH9tVUnBqeus=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+      "%o/3SoctS0rBAAv7K3Hd4y5GjzU818KRjJ5e5/cKcJhw=.sha256": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519"
     },
     "channel": "ssb",
     "recps": null,
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\n\nI'm sure this would be better to test in Scuttlebutt, but here are my results with GnuPG:\n\n```console\n$ gpg -ser alice |wc -c    \nHello world\n673\n$ gpg -ser alice -r bob | wc -c \nHello world\n942\n$ gpg -ser alice -r bob -r carol | wc -c\nHello world\n1215\n```\n\nLooks like it increases by 40% when you add a second person and 29% when you add a third person. You're right, definitely not \"~double\" like I said.",
+    "text": "> IANAL, but in the three cases I reviewed, there were real crimes committed (credit card theft, shell businesses disappearing with unpaid bills) - but in two cases, I am very sure they put the wrong people in prison for decades.\n\n[@CustomDesigned](@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519) Would you mind posting links to these cases? I'm interested to see what the evidence presented is, and (if they're still imprisoned) what recourse the convicted persons might have.",
     "mentions": [
       {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
+        "link": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519",
+        "name": "CustomDesigned"
       }
     ]
   },
-  "signature": "iQtxukE19rjKI7eZo7WWQMl6cZlg0ugO6fYSZIrj+p50SEro3MK+PWSqkT3+pVWcbHQqHHyeQ7yfDZMdtTa4Dw==.sig.ed25519"
+  "signature": "1D5SnnOb38YjEenSuA7c3+5SjLZAhQedI0d92loJBXxkaGnEyIRCkA/6KuQ5S6/B29kGHpXIyvUpNhFZdBJSDg==.sig.ed25519"
 }
