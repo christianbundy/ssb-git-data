@@ -1,21 +1,17 @@
 {
-  "previous": "%I2Y5rHPfBolq64wBPuwUlNyc61s1JldGrcr/Gv+oEKI=.sha256",
+  "previous": "%TGNAUTlEyJNpMZq935IsPmOEeRybQiFLlLi8IANPXXs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 640,
-  "timestamp": 1530639039037,
+  "sequence": 641,
+  "timestamp": 1530639361248,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256",
-    "branch": "%1vSAaYyOBxglK3BlBPtzkgcCF/8a/YlQUmKzcpn22/0=.sha256",
-    "reply": {
-      "%rKpdtAOuTSJ59jd1cSlO+NidMSmnHBEO8Vw2Qoe7IPQ=.sha256": "@Rn1AO8mX3wT/v0wRDxg0MFaYixyu2C+WSlnhC5LKKCI=.ed25519",
-      "%1vSAaYyOBxglK3BlBPtzkgcCF/8a/YlQUmKzcpn22/0=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
-    },
-    "channel": "ssb",
-    "recps": null,
-    "text": "Yep, generally that means switching to a pre-shared key so that anyone with the key (i.e. members of the group) can read any message. The upside is that messages become smaller but the downside is that you have to negotiate a new pre-shared key any time someone joins or leaves the group. Pros and cons.",
-    "mentions": []
+    "type": "vote",
+    "channel": "transgender",
+    "vote": {
+      "link": "%CAHGK+0+pZf5gvnWaoPkYAvGWXjhvmZsCaz8+cpHAEE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "OSa7MSeBZG0+/nv4oL2K9LQuhOMl9Wmn6kACLd6C91GYDGjQM8hRdeoFeTdF2NJeaw/88Z9sPkxLq0slEgWQBg==.sig.ed25519"
+  "signature": "zxaqnfH3hZl9iKaRPfqboFgg0OxhlSvYbDRL06gh8iBEYFeTYTRk4ycUrt2QZUmGAZMp3mdGZSXEpnldvxmKAg==.sig.ed25519"
 }
