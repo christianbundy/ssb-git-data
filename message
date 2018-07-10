@@ -1,26 +1,17 @@
 {
-  "previous": "%GPvz5lHRyRMIsPPRJrcuS9gZ0vtDxhk3go48tRSRN/c=.sha256",
+  "previous": "%iuKUJXIyU5oPMYpM28N1J+yUj2P2t6iBeOXZ8wa58L0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 651,
-  "timestamp": 1531251813061,
+  "sequence": 652,
+  "timestamp": 1531252835354,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256",
-    "branch": "%eJyv0jltB8ZfEIfbpiwU2jT5L4QMuyh5omMxfYBG6x0=.sha256",
-    "reply": {
-      "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-      "%eJyv0jltB8ZfEIfbpiwU2jT5L4QMuyh5omMxfYBG6x0=.sha256": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519"
-    },
-    "channel": "patchwork",
-    "recps": null,
-    "text": "[@Thunder](@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519) \n\n- **Back:** `CommandOrControl` + `[` \n- **Forward:** `CommandOrControl` + `]`\n\nExplanation on why we're using both `Command` *and* `Control` as options:\n\n> On Linux and Windows, the `Command` key does not have any effect so use `CommandOrControl` which represents `Command` on macOS and `Control` on Linux and Windows to define some accelerators.\n\n> -- [Electron documentation](https://electronjs.org/docs/api/accelerator#platform-notice)",
-    "mentions": [
-      {
-        "link": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519",
-        "name": "Thunder"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%r6YUY7Om/tkNNtSYyBgum6j7r4KNIS37nqsh0mL2n3w=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "bRwzUixQhKJDTaBqhB5xkgFbh/xN7j8b/9UcI4iTEUBwJSmTwiTjxW7ZUSwuQI5SU3YblTP7oMdBi2+vWdItCw==.sig.ed25519"
+  "signature": "5bkLJFUOYReD8EpmrAHOC2tRCqGeurakFuMlPmZFA8v0bJOjS3+vK3Rkh3g8YmP6p0WCqUC4UcUfWVbdICCOCg==.sig.ed25519"
 }
