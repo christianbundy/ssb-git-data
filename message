@@ -1,32 +1,26 @@
 {
-  "previous": "%vowksVSJLrxd1oEbd2lLY8pPMKEeA/OM6i+XhdZasCQ=.sha256",
+  "previous": "%GPvz5lHRyRMIsPPRJrcuS9gZ0vtDxhk3go48tRSRN/c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 650,
-  "timestamp": 1531250809659,
+  "sequence": 651,
+  "timestamp": 1531251813061,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Reference: %GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256\n\nPatchwork for Arch Linux, [`ssb-patchwork`](https://aur.archlinux.org/packages/ssb-patchwork/), has just been upgraded to v3.10.0!\n\nInstall as usual from the Arch User Repository:\n\n```sh\ngit clone https://aur.archlinux.org/ssb-patchwork.git\ncd ssb-patchwork\nmakepkg -si\n```\n\nPlease harass me either here or on the AUR if you have any issues!\n\n#patchwork #patchwork-dev #archlinux #arch #linux",
+    "root": "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256",
+    "branch": "%eJyv0jltB8ZfEIfbpiwU2jT5L4QMuyh5omMxfYBG6x0=.sha256",
+    "reply": {
+      "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+      "%eJyv0jltB8ZfEIfbpiwU2jT5L4QMuyh5omMxfYBG6x0=.sha256": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@Thunder](@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519) \n\n- **Back:** `CommandOrControl` + `[` \n- **Forward:** `CommandOrControl` + `]`\n\nExplanation on why we're using both `Command` *and* `Control` as options:\n\n> On Linux and Windows, the `Command` key does not have any effect so use `CommandOrControl` which represents `Command` on macOS and `Control` on Linux and Windows to define some accelerators.\n\n> -- [Electron documentation](https://electronjs.org/docs/api/accelerator#platform-notice)",
     "mentions": [
       {
-        "link": "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256"
-      },
-      {
-        "link": "#patchwork"
-      },
-      {
-        "link": "#patchwork-dev"
-      },
-      {
-        "link": "#archlinux"
-      },
-      {
-        "link": "#arch"
-      },
-      {
-        "link": "#linux"
+        "link": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519",
+        "name": "Thunder"
       }
     ]
   },
-  "signature": "brEUHafZUtOYqbr1jrEsbM7X92LbjcTxmmiL8sYLJY3aIRKct4sBpDhlgS4baxr8No9TtHPBKzT9yQ1trSa/DQ==.sig.ed25519"
+  "signature": "bRwzUixQhKJDTaBqhB5xkgFbh/xN7j8b/9UcI4iTEUBwJSmTwiTjxW7ZUSwuQI5SU3YblTP7oMdBi2+vWdItCw==.sig.ed25519"
 }
