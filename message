@@ -1,17 +1,32 @@
 {
-  "previous": "%fG72PoEqe/8Na2hvrbwjlriDHEWEy8fvcKTNvVPiIT8=.sha256",
+  "previous": "%vowksVSJLrxd1oEbd2lLY8pPMKEeA/OM6i+XhdZasCQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 649,
-  "timestamp": 1531249072161,
+  "sequence": 650,
+  "timestamp": 1531250809659,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork",
-    "vote": {
-      "link": "%JnJAawNAe9F+5t0xYTuj59amUFCRtJk67flwxiKdwL4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "Reference: %GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256\n\nPatchwork for Arch Linux, [`ssb-patchwork`](https://aur.archlinux.org/packages/ssb-patchwork/), has just been upgraded to v3.10.0!\n\nInstall as usual from the Arch User Repository:\n\n```sh\ngit clone https://aur.archlinux.org/ssb-patchwork.git\ncd ssb-patchwork\nmakepkg -si\n```\n\nPlease harass me either here or on the AUR if you have any issues!\n\n#patchwork #patchwork-dev #archlinux #arch #linux",
+    "mentions": [
+      {
+        "link": "%GTc3ppAxhAIJ3dPOZU1xLFeoEQcVmutT4jXfT8w7IaU=.sha256"
+      },
+      {
+        "link": "#patchwork"
+      },
+      {
+        "link": "#patchwork-dev"
+      },
+      {
+        "link": "#archlinux"
+      },
+      {
+        "link": "#arch"
+      },
+      {
+        "link": "#linux"
+      }
+    ]
   },
-  "signature": "MuYedlcTe29BV67+N/h8DYqeHr43Uq2bH2xWebVjTuEpj5ZezXxe5lot3R4hjXMbzupZhNu3Le222aM5Y7JuBw==.sig.ed25519"
+  "signature": "brEUHafZUtOYqbr1jrEsbM7X92LbjcTxmmiL8sYLJY3aIRKct4sBpDhlgS4baxr8No9TtHPBKzT9yQ1trSa/DQ==.sig.ed25519"
 }
