@@ -1,13 +1,17 @@
 {
-  "previous": "%dprZIjGU1c7prATZy2BqZtbnPYH3mLXyCwXJ/E/8D3A=.sha256",
+  "previous": "%IMnLVKgODwdhS/3BkBb9uoZabExUF2/tlvXX5soXW+A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 654,
-  "timestamp": 1531253134216,
+  "sequence": 655,
+  "timestamp": 1531253382653,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@vgj6nE2RMnMPnE4kkGKR7VPPSgCFOgM2k4g2RSIZVxY=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "podcasts",
+    "vote": {
+      "link": "%3aBU+Sg1qdMrue48jtUv9TN03Ize2vGhWNWi16eUg6s=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "kRjx79o4/MuDH6+FiQcaoaaPgTLfKpjialcIrdj1/ak6hPgjovRQ0ZgAeuHUUzvvQ3VbmlWPZpYtkUmtvgGhDw==.sig.ed25519"
+  "signature": "1938c+1uiIPUznfycXrqSzMM/1S5t2dBqv6MEilvz5dhrDLX/oRUilpvOAS6h98Le4Z85BgVof7GbUFE2KRaBA==.sig.ed25519"
 }
