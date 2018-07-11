@@ -1,17 +1,26 @@
 {
-  "previous": "%8gD96pUetVVBQwovuQIk6afBiC4bATMMiV5qtFI2JKM=.sha256",
+  "previous": "%LUKZdByM8e36bMT+UZhDuz/X3EahCZplKYFSDpcT84E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 661,
-  "timestamp": 1531320829345,
+  "sequence": 662,
+  "timestamp": 1531321076553,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%mWAPw1JOqV7U/Ug3w/WNOGCj2FfGHGbO4Y0sO13yG7c=.sha256",
+    "branch": "%FKzF/vZa+MyIqHR9NJyPRfXjm+hZOqilaGUcnwRkilQ=.sha256",
+    "reply": {
+      "%mWAPw1JOqV7U/Ug3w/WNOGCj2FfGHGbO4Y0sO13yG7c=.sha256": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+      "%FKzF/vZa+MyIqHR9NJyPRfXjm+hZOqilaGUcnwRkilQ=.sha256": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519"
+    },
     "channel": "opensource",
-    "vote": {
-      "link": "%FKzF/vZa+MyIqHR9NJyPRfXjm+hZOqilaGUcnwRkilQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519) Thank for the quick replies!\n\nIt sounds like the Charity Public License is a human-readable take on the Apache license, is that a reasonable understanding? I'd be interested to see this go through OSI and/or SPDX, although I know the last time I saw you on the OSI mailing list it didn't look like any fun.,",
+    "mentions": [
+      {
+        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+        "name": "kemitchell"
+      }
+    ]
   },
-  "signature": "hCKfWfU5tfEoDLtpXkbeSJJsc+/u5quzRKWCN1KC+RMN8F8bpcwc5Y6rUmaXeRohRQl+tLAWzu5M6KWceeFiAQ==.sig.ed25519"
+  "signature": "LPIEhYzMyi+qv51Eqxqwk3aioib4I+202occlMUjMOtqiVyZex1c9XsXaDDZmP0yJQiOMmQ+nSPVmvvars0QBQ==.sig.ed25519"
 }
