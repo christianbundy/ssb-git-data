@@ -1,17 +1,25 @@
 {
-  "previous": "%2oomOd8nURMNKbzY6VxaT6UCdyLysp5OCRRO9ogFeB0=.sha256",
+  "previous": "%hI9UsdmQBIR9KSWO3G9P7GQVZJCqXPGXuz09FMIvZJw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 669,
-  "timestamp": 1531326033249,
+  "sequence": 670,
+  "timestamp": 1531333714989,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "opensource",
-    "vote": {
-      "link": "%xakLWuDosJChcdZeL5iW94fHQV4c+Of1v7UJkVsH5Fo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Bhq1OEqq0RLkPt9GgDpQfOLIlLWZIZmvdFF0eKcG6DM=.sha256",
+    "branch": "%m97U2axMj3qeVdQtaHUk/gY1eZTDHXS3JYKEYNW0W00=.sha256",
+    "reply": {
+      "%m97U2axMj3qeVdQtaHUk/gY1eZTDHXS3JYKEYNW0W00=.sha256": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519"
+    },
+    "channel": "chess",
+    "recps": null,
+    "text": "[@happy0](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) \n\nNote to self: read the channel name before replying to a post. :~)",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy0"
+      }
+    ]
   },
-  "signature": "gQQSUVEG5tyQct0/6NMKsGh6D3mp4Z6f9AFKDZrgnEx/QWDVy44mBTK8VTwWdSyMkL1qhVHWaNFeY3/Ohc5bBA==.sig.ed25519"
+  "signature": "q+hgCjFu9Xid7WUApKiglyJjDoTJovUGfZR4hDHxiyV2xrgzmCvmMH8Bbg/P65iFxGhms3A2SWm73XFi36vGBQ==.sig.ed25519"
 }
