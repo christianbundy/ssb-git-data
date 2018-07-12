@@ -1,13 +1,17 @@
 {
-  "previous": "%QxzhvXoFHEev3ME5yoJTwTmoNJywNppfCl0lghmYcfE=.sha256",
+  "previous": "%slSKCoISP0is+CFGUqcnlbkOcmZMQPHbYZx6lVAZlYs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 673,
-  "timestamp": 1531419299703,
+  "sequence": 674,
+  "timestamp": 1531420566832,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@RHCdibs1o7RnEOxHFq7TfDn2RXHC2yeQh7CyK0tAJyc=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "politics",
+    "vote": {
+      "link": "%+RUVUBEx7uFFaUvVD3yAxOSheqKbD0OBlLUdniFRzn8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "gYUaRVvZHALTOi3RGHBhFNVWvsJyB+9PO6Ig96Q3OXIGB13l6WKxqcduvklLTm7hw7T6MKE6ya1f9nBAuzVMAQ==.sig.ed25519"
+  "signature": "pBlCT4i3089QDy3BYGiHwO20IzMK+ShWudUGRJw8HBh4IpacdXDc/RmhptgAt82mNZrv3eV/g8EiDlZ02ej0BQ==.sig.ed25519"
 }
