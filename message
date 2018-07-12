@@ -1,16 +1,23 @@
 {
-  "previous": "%QmgKVp6t9Agv7TFAWZWE5F8P7ir/KHJIkQIqWPiRaVA=.sha256",
+  "previous": "%rYM4PkhfkOreiGUpwkkAMFfK1bfG7dwK1D8M8v5nV+Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 680,
-  "timestamp": 1531426610143,
+  "sequence": 681,
+  "timestamp": 1531426816072,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wmGQNXPlCGP5/Lf90iI8wA+C5OKxLpjJR+6np+BmwkE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "Has there been any talk on #scuttlebutt regarding post summaries, subjects, content warnings, titles, and other metadata? I'm thinking that *personally* I might like to see Reddit-style threads rather than auto-expanded posts with no user-specified metadata.\n\nNot to mention, this seems like it would be something that pushed the envelope on SSB's subjectivity, where the thread titles on my screen might be different from the one on your screen.\n\nPS: Any other #hashtags I should be using? Still feeling out the semantic #scuttleverse.",
+    "mentions": [
+      {
+        "link": "#scuttlebutt"
+      },
+      {
+        "link": "#hashtags"
+      },
+      {
+        "link": "#scuttleverse"
+      }
+    ]
   },
-  "signature": "cq79MheH7UvVfZdXWB8HpyC6wXOiboKoV4BCzvNQrVDQO22JYz4CKblpGYSuYPcOclTTpxwSjbs9/yFXg3wyDQ==.sig.ed25519"
+  "signature": "MpsmcAl03+CGKrPyAZWu/br7+eV6wFgivkCfGPnnLI/HRGcxHA02kJNzG0dSRFIk7HY2WBQ1vL4QZ63tsBaKDg==.sig.ed25519"
 }
