@@ -1,13 +1,34 @@
 {
-  "previous": "%2qpX2gV1IFCDLyL13zYo313EeXr2oPD1XHDpaYETEzM=.sha256",
+  "previous": "%xcw59hCqqQUGJy5TdwhCCOwixeorDrujwAI2ddSo3Do=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 711,
-  "timestamp": 1531522807829,
+  "sequence": 712,
+  "timestamp": 1531524471165,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@FTYuqEsXVaz+Bl4cME407PI+Ld46ARBNIM8aetnDngs=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%lMeK58Hu8s08LA6/oEn9HVl+WaZlUFrMfvBctgz2oUk=.sha256",
+    "branch": "%KveHEJJ4oYqKiw3biSLIre4TQOtLEP3ZQ32qMXmlHKM=.sha256",
+    "reply": {
+      "%lMeK58Hu8s08LA6/oEn9HVl+WaZlUFrMfvBctgz2oUk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%KveHEJJ4oYqKiw3biSLIre4TQOtLEP3ZQ32qMXmlHKM=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Reddit and Hacker News look *much* better without the forced-feeding.\n\n![Screenshot_2018-07-13 reddit the front page of the internet.png](&vCA5/pdOhrSdRwM0NetgcMBsaq8LLnYL79/rQsvqRgk=.sha256)\n\n![Screenshot_2018-07-13 Hacker News.png](&wfDMUfiLs+BCht/3vkZILjNT6mNLXIrI+XtAy36U4zM=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&vCA5/pdOhrSdRwM0NetgcMBsaq8LLnYL79/rQsvqRgk=.sha256",
+        "name": "Screenshot_2018-07-13 reddit the front page of the internet.png",
+        "type": "image/png",
+        "size": 65016
+      },
+      {
+        "link": "&wfDMUfiLs+BCht/3vkZILjNT6mNLXIrI+XtAy36U4zM=.sha256",
+        "name": "Screenshot_2018-07-13 Hacker News.png",
+        "type": "image/png",
+        "size": 17367
+      }
+    ]
   },
-  "signature": "6U9PY7bEdYaSOh7wF89EyCLkA0EWz6VDF20bkO5Xr2hVHjIWJ4oIyff1BFfpsh15JutIZLZOFl8fG2On3sasDw==.sig.ed25519"
+  "signature": "IhX+NxxlPoMDP1vIScnJfEkjX7fCMIXctkKU+mob5TvogpzcrPW21q3Uahw2blKtjHHM7GBdTGoAPzJ2dGYGCg==.sig.ed25519"
 }
