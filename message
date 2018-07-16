@@ -1,13 +1,17 @@
 {
-  "previous": "%rqpVsp9o5I0UI+hzqcBVpt5S/JvhLXRBTQvLBTbHhpU=.sha256",
+  "previous": "%3EW2muXAQk907DsaMmMQjsB9sI6v6g8OO31GfpJTsi4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 716,
-  "timestamp": 1531764767133,
+  "sequence": 717,
+  "timestamp": 1531765149119,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@hhknMruxen2tXWeQYkpKlFsm09ye5R9TrYQyKsM47kU=.ed25519",
-    "following": false
+    "type": "vote",
+    "channel": "cooking-channel",
+    "vote": {
+      "link": "%Ddr+z/anUPFdcTQNqv4sWGPw8mzoMsT/IzptYTltoBI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "7wxcnN7u8nt2CQ2tIb/w+WtobyUfhwK5ngL8tfCIL6dTYcpVzucwsNrfRd4YPHRZ/cyYr9xu0kXdHJVew/DEAw==.sig.ed25519"
+  "signature": "/aXMM/bFfifuZgXp9vKCzOB937Q2pUA22fzqIV+PeAAXFkgbQ4Q6OuInQJCmaoSBuidCBZV+XmayDGvge+0yBg==.sig.ed25519"
 }
