@@ -1,17 +1,20 @@
 {
-  "previous": "%3EW2muXAQk907DsaMmMQjsB9sI6v6g8OO31GfpJTsi4=.sha256",
+  "previous": "%tOV3tZ7Ugz/LocjkfrxtP6svMcXhujQfhnkSfGY5wYE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 717,
-  "timestamp": 1531765149119,
+  "sequence": 718,
+  "timestamp": 1531765934350,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Ddr+z/anUPFdcTQNqv4sWGPw8mzoMsT/IzptYTltoBI=.sha256",
+    "branch": "%Ddr+z/anUPFdcTQNqv4sWGPw8mzoMsT/IzptYTltoBI=.sha256",
+    "reply": {
+      "%Ddr+z/anUPFdcTQNqv4sWGPw8mzoMsT/IzptYTltoBI=.sha256": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519"
+    },
     "channel": "cooking-channel",
-    "vote": {
-      "link": "%Ddr+z/anUPFdcTQNqv4sWGPw8mzoMsT/IzptYTltoBI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I love both the idea and the design. I'm excited to see where this goes, I'm sure I'll be contributing in the future. How do you imagine these challenges will be shared? I see a view possibilities that would make discovery easier:\n\n- in this thread\n- in a channel\n- under a hashtag (cross-platform(ish))\n\n> This may or may not be legal.\n\nThat reminds me, I'm surprised I haven't seen more Food Not Bombs people around the internet. I imagine maybe when you have material work like feeding neighbors, your internet presence probably isn't super important.",
+    "mentions": []
   },
-  "signature": "/aXMM/bFfifuZgXp9vKCzOB937Q2pUA22fzqIV+PeAAXFkgbQ4Q6OuInQJCmaoSBuidCBZV+XmayDGvge+0yBg==.sig.ed25519"
+  "signature": "tLGr0x7R+GtVBA3L9eArZdctfaaldiIaPGiqwwb1sAVRWRKQTTXXCoMBinwXcU5wH2R4pbj/LJSqq6n+tyjWBQ==.sig.ed25519"
 }
