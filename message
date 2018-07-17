@@ -1,17 +1,30 @@
 {
-  "previous": "%LFI6SMr3UGJ2h7FBNCpKPTX5k2f+ByHn0cArxOrf9/0=.sha256",
+  "previous": "%lMPGzGqAotcm8kAg6wZzTc3ATfpmtU1IroCMZregcD4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 741,
-  "timestamp": 1531799050847,
+  "sequence": 742,
+  "timestamp": 1531799491715,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "solarpunk",
-    "vote": {
-      "link": "%RV5KZ1JQEFW5fER8jO5p9/yaO2kXFmrFq9gEzbETXGw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Speaking of: %KveHEJJ4oYqKiw3biSLIre4TQOtLEP3ZQ32qMXmlHKM=.sha256\n\nHow do you like Firefox on mobile? I jumped ship from Chrome OS with all Google everything, but WebKit and Blink seem like much stronger technologies than Gecko (maybe Servo + Oxidation will fix that). I'm also hesitant of the opt-out Pocket integration, which makes me wonder what the solution is (whether that's #firefox, #chromium, #dillo, or others).",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%KveHEJJ4oYqKiw3biSLIre4TQOtLEP3ZQ32qMXmlHKM=.sha256"
+      },
+      {
+        "link": "#firefox"
+      },
+      {
+        "link": "#chromium"
+      },
+      {
+        "link": "#dillo"
+      }
+    ]
   },
-  "signature": "KPSzUD34LCM5WhHDVdZDBrxzOTBGcCSDL16JIQO2O0/2uuLvlvhaWbNbMJzh4jYoyupV7H0OL55F9yxgnXCvDQ==.sig.ed25519"
+  "signature": "B219Nfpb0aa7Ok9M+tkdm+oGjvUnB1vinXkBgWM+M2JwNk4yx8MZTTZzIibv96F9jud0WQs+q2p5TVEwOi5tDg==.sig.ed25519"
 }
