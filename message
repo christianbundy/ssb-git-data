@@ -1,17 +1,21 @@
 {
-  "previous": "%F8Zfacs2BzcPLtIOAPM+0ZR5IDCnL9DFHrH0cC/v2VM=.sha256",
+  "previous": "%RLgR0AO4Ua3DDXzutqS20qmyPJsDk8kJccqbuU+1X00=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 762,
-  "timestamp": 1531951625347,
+  "sequence": 763,
+  "timestamp": 1531955099971,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "conceptart",
-    "vote": {
-      "link": "%iKhBpLP6V+/ZtAlVLc24St+3bRP1HM//9qVkey0QvYA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%XzTUX8czyYbJPQJrQJSCXRaiLfBPwUHFoCY8my4rDcs=.sha256",
+    "branch": "%SgKUiiyyGHnOEG9i19csYSyL5lCqUHSROfhHj74JMSc=.sha256",
+    "channel": "archlinux",
+    "text": "Hey [@Lucas](@QTIAJ1macmjKZH+I2DoDM5mD+R0DTqLn5gORzo8aWes=.ed25519), did you end up getting `ssb-patchwork` installed? There was a bunch of work done to get Patchwork (and its dependencies) work with Node 10, and `ssb-patchwork` on the AUR was able to update a few days ago. Let me know if there's anything I can do to help out!\n\nI have patchbay packaged as well, just haven't published to the AUR (yet (maybe)).",
+    "mentions": [
+      {
+        "link": "@QTIAJ1macmjKZH+I2DoDM5mD+R0DTqLn5gORzo8aWes=.ed25519",
+        "name": "Lucas"
+      }
+    ]
   },
-  "signature": "l7LGyWLU0UhEWvxQ6jo7BlY8VWCTvanHJCGEJPQibQWMLuju8b0043r0ahF10oGn8N36a/wBRnT+oD/VYkMcBQ==.sig.ed25519"
+  "signature": "wiAJ6lPEQkeXymfQ6QAS0XSAVeIOizUpvcNMhcGKGv/Wz5/dn8maPG0AIYrJ5kPCOWHLw9ecZcmRJdTyLNtMDg==.sig.ed25519"
 }
