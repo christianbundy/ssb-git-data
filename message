@@ -1,17 +1,25 @@
 {
-  "previous": "%LomWAFLhcz67Lhw15LL1UpSPd5n2d9yVnY4OU8XL+YI=.sha256",
+  "previous": "%fzh17jfnpucQ83vvHWqW8q8FD1l8b+6gZyQJ4VfE7sc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 780,
-  "timestamp": 1532018820784,
+  "sequence": 781,
+  "timestamp": 1532018967147,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%EcGxhkiZOsqK2xOUfo7Z5lDJ1nLQBvTXX/2vXc6WxfI=.sha256",
+    "branch": [
+      "%4Qgn3AHJXCec1by899bvyxs+L5IAwZMcUEFUYyXVeyo=.sha256",
+      "%eryaxte3tRB+eZ/sdaEKSl4M/QvBIY8kdzW089xpSDE=.sha256",
+      "%o/Ij4frl1pIRctr2GUrsTf5k/6h6QWTMspm/4RkgoMU=.sha256"
+    ],
     "channel": "ssbc-grants",
-    "vote": {
-      "link": "%GP5s1CLETrB09FK3PU+ordRzzwxijP099CdkrFTphC8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nIs there somewhere I can read more about these features? A full node in the browser makes sense to me, but I'm not completely clear on what \"delete feeds\" means.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
   },
-  "signature": "Ih+Pg9czaGWFUI6ANsx3/pY3fh6iBVrW5amCbkzz6NBJpDi20HwT5lROi59ExEV7iOsG4RERkOizAdwtz4WcDg==.sig.ed25519"
+  "signature": "MlbFckr5y06pMAVLkvwmJtkIUTQmQMS2V91/vUL7PA2PiMrWC/1OA/WYW9FuJ4c30whYrdCvmIhwF0bo2J94Bg==.sig.ed25519"
 }
