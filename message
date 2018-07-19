@@ -1,17 +1,24 @@
 {
-  "previous": "%+tgmRdaHN/PInd6wkTFYVNa8KhRYPtEx2ba8SXDII3E=.sha256",
+  "previous": "%xot3VTD9OON7Ar76hD8fQ/+ZdFhIFBRuMOy5UnnPy3Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 785,
-  "timestamp": 1532021840008,
+  "sequence": 786,
+  "timestamp": 1532022264049,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "cats",
-    "vote": {
-      "link": "%xug3roQkOpOmZ0ZGkL3np2FE6BKiQJvcj6qwFNuwxqM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%2J029kEjG1S9xGh7WpVxWF6wUDBgwaTGf2+QabNZJLw=.sha256",
+    "branch": [
+      "%CNpjhZLOT8gvh924s9PV8k8VteYQ4h89eeHeGZd80xs=.sha256",
+      "%fWdtsUg3/UKsYosHHspzbTD//IuQBK+41sgj13xj49Q=.sha256"
+    ],
+    "channel": "new-people",
+    "text": "Hey [@wrycode](@LDWPtkRroJGxJqYrE4YkQ2Mb36bV00hMz4oK8/3Qrqk=.ed25519)!\n\nAre you on the latest version of Patchwork? Last week there was a big upgrade, so hopefully some of the changes will resolve the issues you're seeing.\n\nThe \"Attach file\" is using the paperclip emoji, so you'll need a font with emoji support installed on your system. I was able to use `pacman -S noto-fonts-emoji` to fix the issue locally, but you may have another font you prefer. I've opened [a thread](https://bbs.archlinux.org/viewtopic.php?pid=1798360) to see how to package (or recommend) emojis better in `ssb-patchwork`.\n\nI'm not an expert with Scuttlebutt, but I'd be happy to work with you to resolve any issues you're having with the AUR package!",
+    "mentions": [
+      {
+        "link": "@LDWPtkRroJGxJqYrE4YkQ2Mb36bV00hMz4oK8/3Qrqk=.ed25519",
+        "name": "wrycode"
+      }
+    ]
   },
-  "signature": "i61i2iY35jJzLw4OpQTRuSCkEKXlUSqcP66/YTV1/Y0AghrAgIHe3Cj27DIhDnp4xk5iIB1I6EMCNmlA3sH9Bw==.sig.ed25519"
+  "signature": "kAflO3e9cLfT0r6xtunI5ilNsRy8i8QjeRPZW+IcZmY3p2xgc8dPDY4i2YEtYa9fkuTiHzcI31RODB2gAq2kAg==.sig.ed25519"
 }
