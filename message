@@ -1,16 +1,13 @@
 {
-  "previous": "%ekljPzSfUzBbRUNY1g4JmHIGqbWU56Efd2FgJZ/tANA=.sha256",
+  "previous": "%Ksm9NZteJfZeHp5mjQjlQfkk+7nJrqk9yUI4zaTRevo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 790,
-  "timestamp": 1532027000041,
+  "sequence": 791,
+  "timestamp": 1532044246549,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Dq2QHnW/JUiCc9rm32pJjIqlGFU7GSgoxoYcoEf3VBY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "Anyone else having trouble with the \"Reply\" and \"Quote\" links on messages? I'm on `master` (from GitHub) and both just shoot me to the top of the page as if they were `<a href=\"#\"><a/>`. Also, middle-clicking a tab with a mouse is forcing it to auto open a blank page in my browser. Maybe we're missing an event handler (or `event.preventDefault()`)?",
+    "channel": "patchbay-dev"
   },
-  "signature": "WEoLt4TH46vkIWRh/ziNnXNKNYJkZrVadxBfcWlKMWTvnhnWliOVyV2kv9er76FwcvQGUKvoWmcJSCdWXhUrDw==.sig.ed25519"
+  "signature": "QMNbF8ZBMbrc2LBQQCLFjpSDsYBwHBWGWWjBahIt67yGqpj+rIJr6tHZM41wk/DnKxlShKXncjRvDYsb7d9+Cw==.sig.ed25519"
 }
