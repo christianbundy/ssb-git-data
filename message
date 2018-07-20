@@ -1,18 +1,17 @@
 {
-  "previous": "%hIg7XPvu1PSJBP2dIPXM8/6wmP7xytDW8C3kwKhwIv4=.sha256",
+  "previous": "%0/4pIF5Em6Qmu07fAyvr8Vw/XwLZacyvfT8hP61qdEg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 806,
-  "timestamp": 1532121870053,
+  "sequence": 807,
+  "timestamp": 1532123410939,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uwDeRS8bQm3QK2fQzPV3QyRfEV69gFyxjXkw6S99IrI=.sha256",
-    "branch": [
-      "%4TO9oaZq5XsZfJoTlA2z8Qyj0RGEd59+dqUhrDSb3g0=.sha256",
-      "%60OGr62QwWLdB/157ZKUmnFp4OhKbMLknOLyIY9Sw+8=.sha256",
-      "%71zsnCJ2zAU7SkUUT0sptMfWp+ggBQirajeU7AvADNc=.sha256"
-    ],
-    "text": "Is there a name for this method of distribution? I've been trying to flesh out this idea for years, and at one point was working on a Reddit-like app where the voting worked this way: https://github.com/fraction/news"
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%QjjX/rCYW4152nlO88QOiwCFMLhYNTKXWXyyDH1pB84=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "83fqMW9ksAr4RSf2cBVI0xizhdkhBwSxCV2UxvncAxGJJlJliHUghGRdZJgFLWf3eGn1+QCmmGBDsURGa48LDw==.sig.ed25519"
+  "signature": "ip2xJvBcOsfKSPt8X0iS8KvN8Vy2r4LddPLRb3A+/xCdpbjCHSL/e0FEsQrHFHYobWit/NkElJKbIOvNTX7rAw==.sig.ed25519"
 }
