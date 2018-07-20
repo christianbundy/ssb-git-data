@@ -1,15 +1,16 @@
 {
-  "previous": "%PwRmZDdvPL1/GvRMvgNNZMehXVoRZr2csTTVTEWCOws=.sha256",
+  "previous": "%ETNB9jU3kU6y/tBUsu3qt/A1D5+9BRny+FyfqolWkDA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 801,
-  "timestamp": 1532112905542,
+  "sequence": 802,
+  "timestamp": 1532112965268,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tswCRP7ED0EyxXvJGc0tOPlBi4OtcPTtme3Cn9YUSsA=.sha256",
-    "branch": "%tswCRP7ED0EyxXvJGc0tOPlBi4OtcPTtme3Cn9YUSsA=.sha256",
-    "channel": "markdown",
-    "text": "I like [Markdown Extra's abbreviation syntax](https://michelf.ca/projects/php-markdown/extra/#abbr), and [definition list syntax](https://michelf.ca/projects/php-markdown/extra/#def-list), but unfortunately they're not supported in *all* Markdown implementations.\n\nOn the other hand, I think both are supported in:\n\n- Kramdown\n- MultiMarkdown\n- Pandoc\n- Python Markdown\n- Remarkable\n\nYou can find these extensions (and more) here: https://github.com/commonmark/CommonMark/wiki/Deployed-Extensions"
+    "type": "vote",
+    "vote": {
+      "link": "%h91rOAv0TY27gIeZggtPYljRozeTZOWU/7fRYMLijko=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "MwrKAcvfwNl+UFigmPxxtbiBPGyDtTl+n45BjXn6xgocp7S2NmNtEafHwSyuhdgJa1Y3cog4dyg1l2kkcrITAQ==.sig.ed25519"
+  "signature": "AwwNgmnxHQf+MdgYjV7aRGaDS8x+vqOfJ9zVTXTFH+ow7xWYPd7fw9AnB0hCm661xfqG+UB0FoWvQZbuD+y+Dg==.sig.ed25519"
 }
