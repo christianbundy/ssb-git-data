@@ -1,17 +1,26 @@
 {
-  "previous": "%0/4pIF5Em6Qmu07fAyvr8Vw/XwLZacyvfT8hP61qdEg=.sha256",
+  "previous": "%IltJ1SPR01OoWijQPfuEC7KA7CSlKylk3b6GLpbjCvY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 807,
-  "timestamp": 1532123410939,
+  "sequence": 808,
+  "timestamp": 1532124062344,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%WewDnrRc1ieyUz1eh/5GOs4waSqvQmYPEEEEiTMUGMM=.sha256",
+    "branch": "%OH+wp2D5s9frmuMxLTYy487e1qV4mpTedZ7Iu5GCe00=.sha256",
+    "reply": {
+      "%WewDnrRc1ieyUz1eh/5GOs4waSqvQmYPEEEEiTMUGMM=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+      "%OH+wp2D5s9frmuMxLTYy487e1qV4mpTedZ7Iu5GCe00=.sha256": "@pywb9JjJUwlMJBb33nc5fOCACbH6gN1U6O39E7uqrv8=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%QjjX/rCYW4152nlO88QOiwCFMLhYNTKXWXyyDH1pB84=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nDo you have a day job as a first responder, or do you attend some other sort of trainings? I don't think I've ever had training on how to open an airway, but I also don't do EMS as a day job. :ambulance: ",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "ip2xJvBcOsfKSPt8X0iS8KvN8Vy2r4LddPLRb3A+/xCdpbjCHSL/e0FEsQrHFHYobWit/NkElJKbIOvNTX7rAw==.sig.ed25519"
+  "signature": "UCr7MOD0l3IJLHx5SnCtcUV3hw/n0+wW66NaUpeyUVVyr5J4i/ot0GJRKLaiILUW/8EhdUCqdhTNfNqNwg50AA==.sig.ed25519"
 }
