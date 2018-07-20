@@ -1,17 +1,15 @@
 {
-  "previous": "%HfmIHCGmVIagVja+QW9B/W6O50UQ96mYM5G8H2vQZmY=.sha256",
+  "previous": "%PwRmZDdvPL1/GvRMvgNNZMehXVoRZr2csTTVTEWCOws=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 800,
-  "timestamp": 1532101694945,
+  "sequence": 801,
+  "timestamp": 1532112905542,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "invocation",
-    "vote": {
-      "link": "%O73pvYrYgd8GocMjRgCjgFGQ1zK3tU42QNq2LFVXhuA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%tswCRP7ED0EyxXvJGc0tOPlBi4OtcPTtme3Cn9YUSsA=.sha256",
+    "branch": "%tswCRP7ED0EyxXvJGc0tOPlBi4OtcPTtme3Cn9YUSsA=.sha256",
+    "channel": "markdown",
+    "text": "I like [Markdown Extra's abbreviation syntax](https://michelf.ca/projects/php-markdown/extra/#abbr), and [definition list syntax](https://michelf.ca/projects/php-markdown/extra/#def-list), but unfortunately they're not supported in *all* Markdown implementations.\n\nOn the other hand, I think both are supported in:\n\n- Kramdown\n- MultiMarkdown\n- Pandoc\n- Python Markdown\n- Remarkable\n\nYou can find these extensions (and more) here: https://github.com/commonmark/CommonMark/wiki/Deployed-Extensions"
   },
-  "signature": "Gia3TUee55cQwM7gteJrr1akRok0idpzBAgHlf44qt+FgnmAF1kjPmXfCwLAiFYZqTwnVhZuJl3FcpeaUgbbCg==.sig.ed25519"
+  "signature": "MwrKAcvfwNl+UFigmPxxtbiBPGyDtTl+n45BjXn6xgocp7S2NmNtEafHwSyuhdgJa1Y3cog4dyg1l2kkcrITAQ==.sig.ed25519"
 }
