@@ -1,20 +1,17 @@
 {
-  "previous": "%ja6dSSujF5gQ2t2cU/YRoZ1Zu2T34SmVEZqZWARJLXY=.sha256",
+  "previous": "%1zjtxsN/KS4poBBqXbppGjIq75yZcR8DX0b7g20m8Es=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 813,
-  "timestamp": 1532136046640,
+  "sequence": 814,
+  "timestamp": 1532136110491,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%MpOe7Tk/Bwy4El9brJgottDHPgMl/X9JjFL0JowRSB8=.sha256",
-    "branch": "%MpOe7Tk/Bwy4El9brJgottDHPgMl/X9JjFL0JowRSB8=.sha256",
-    "reply": {
-      "%MpOe7Tk/Bwy4El9brJgottDHPgMl/X9JjFL0JowRSB8=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519"
-    },
-    "channel": "patchwork",
-    "recps": null,
-    "text": "I'm currently using MD5 (I know!) for the `ssb-patchwork` integrity check on Arch Linux, but if you post the digest of the tarball I can switch over to SHA512 to make it super easy. Alternative, I remember that there was an issue about PGP signing releases, so that's an option too.\n\n:white_flower: ",
-    "mentions": []
+    "type": "vote",
+    "channel": "moinho-mesh",
+    "vote": {
+      "link": "%48/nGNXCMfsI/pm8WYdqvLv0pNCT2Mqb5nOqKJJQYvo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ntLfzlUVV8y76hgMasWx+ABXF/1NZGSz04Ft5sw+jiviuYzijkbEMWcQAji3v2CqCCzCjgqk6u/u2eh9+r9MDA==.sig.ed25519"
+  "signature": "lPXtxZX8EMNIzBDjvLLa5S4KhoDZ1swFV4/OGablND4K3R0umBxZ+h/NjP6AhFpbhqYrYpG5+0G56k3EE7lrAg==.sig.ed25519"
 }
