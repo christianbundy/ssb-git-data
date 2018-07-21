@@ -1,16 +1,21 @@
 {
-  "previous": "%XVbMxrpQ6XivHcLT09nTimNPuzbLBLqP34Sjux67LtI=.sha256",
+  "previous": "%MIJF/QjqC7g5k4X273v2wRdKF86uDtOtiRhPjHqigkg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 810,
-  "timestamp": 1532124285279,
+  "sequence": 811,
+  "timestamp": 1532135289539,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%aQr0aoVETPVuTsEtVr7Db+tlUj/3atbA4uS8tJk9KTM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%WewDnrRc1ieyUz1eh/5GOs4waSqvQmYPEEEEiTMUGMM=.sha256",
+    "branch": "%nsyarLIARgTY3S1L9TYHPLB/LtDwr1ckMKazRLLBQWg=.sha256",
+    "reply": {
+      "%nsyarLIARgTY3S1L9TYHPLB/LtDwr1ckMKazRLLBQWg=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+      "%6A0AOUDdg+G6CpidaPG68hO7SxTVIYjw6glJUIYjeiY=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "> The CERT group we help with is run by a town that believes it's valuable to have as many trained medical folks available as possible, and gave us the training for free along with their volunteer police.\n\nThat's really cool, are you in a large city or is it a smaller population? I'm in Portland (OR) and I'm under the impression that our CERT team doesn't get a ton of training, but I'm lucky enough to be able to do search and rescue with a neighboring county.\n\nI'll definitely see if I can find a copy of that book somewhere, I've been trying to figure out how to level up my EMS knowledge and weighing whether taking classes might be worth it. SAR trainings are great, but a lot of basic wilderness first aid is \"package and transport to a higher level of care\" unless you're already trained in EMS.",
+    "mentions": []
   },
-  "signature": "umr9G34nHc/6pQHFG7XWxDISV8+rzVkbOQWUb1sEHhbMEnbNMVg1rFhCjsMwKhfqPoZqRziaD8VKhXQjWKp6CQ==.sig.ed25519"
+  "signature": "ac6GH4QuRnztdErUZHmcYZPTCGIbFjczZpp46SNPblBMsSBkyFh73N9l8Tqw5cySlago3Gi8hx+3LlffacXzDA==.sig.ed25519"
 }
