@@ -1,16 +1,34 @@
 {
-  "previous": "%qOZwdAZHJIDXdWgecKDjQfDX6iq+lhIgMQCH3BdKKg0=.sha256",
+  "previous": "%QNPLfpkY1MQjuRKXw+TmDk+rzRqBJlDkkmV/NvIhJBk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 850,
-  "timestamp": 1532543992133,
+  "sequence": 851,
+  "timestamp": 1532544193531,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%8sngLmgcCzR7ijpZp34UXw6vMUjpI9AoqGedOPSX+E0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%svwPJjVI67gvTxU9qOrXiAR0qpRo+RqiLewqr2Nu8Qo=.sha256",
+    "branch": "%QCelwt8gs7VnKj1LgqmI46wA2pbauQc53+iunrgZYxg=.sha256",
+    "reply": {
+      "%svwPJjVI67gvTxU9qOrXiAR0qpRo+RqiLewqr2Nu8Qo=.sha256": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
+      "%QCelwt8gs7VnKj1LgqmI46wA2pbauQc53+iunrgZYxg=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@micro](@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519)\n\nI saw [@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) mention cjdns above, but I'm not sure I understand what the difference is (or why we wouldn't use something like cjdns for this use-case). For example, [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) is running 100% over an IPv6 address from cjdns.\n\nI'm sure you're more knowledgeable on this than I am, do you have any recommended reading that might help me understand this better? Thanks!",
+    "mentions": [
+      {
+        "link": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
+        "name": "micro"
+      },
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      }
+    ]
   },
-  "signature": "YWJtod/5YriNmoEtGsfGQ8RQBH2n4Cy2OBgWLT+cc4cohdk/VBk2EohOcquuuehPumnYQkK04Gc1thIpj5HuCg==.sig.ed25519"
+  "signature": "SPWen8VG3iVH3KO0L87FZn7Y4OMjhcUHmU228LvPfKqYMOANRrPtxcWhMauzyPWA67Skp4a9VBvzj3GQ8PfpCw==.sig.ed25519"
 }
