@@ -1,26 +1,17 @@
 {
-  "previous": "%eb8H2/JSil0C+Tu0VX4fCwXgbPxDDdsaQRM+aqJZcYg=.sha256",
+  "previous": "%x2sK48V0EGIVoovEhQYW305KZJp/7IwgLXPEd9Hh71g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 845,
-  "timestamp": 1532540502247,
+  "sequence": 846,
+  "timestamp": 1532540515988,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ya/H5ND8tVtqkFGcTsBa4cvsq++W9rJC2W7psXx3qUQ=.sha256",
-    "branch": "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256",
-    "reply": {
-      "%ya/H5ND8tVtqkFGcTsBa4cvsq++W9rJC2W7psXx3qUQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@jer](@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519)\n\nI've been trying to get better about that -- feel free to flag as out-of-date (or just message me) if I'm missing a release in `ssb-patchwork`. :+1: \n\nI'm planning to package and release a non-bleeding-edge package for Patchwork once a new release comes out; the last release was from back in January and doesn't play nicely with the latest Node updates.\n\nThanks for the feedback!",
-    "mentions": [
-      {
-        "link": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
-        "name": "jer"
-      }
-    ]
+    "vote": {
+      "link": "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "PxNMsZ0PhCf8oThcULTtk25p3NYOv+1VeMrLnKj3MY0aAbcqEyWTb3Ft+WxJO8gUQ4Vct9qJmlqKVs0syscXAA==.sig.ed25519"
+  "signature": "3xB3iy+ccM6i+aZgoUpe91uAdZHs+087vpjIibAWao/hI4l/7efVhlWizPtRFskRaFHhXOOf2Yigi8Hx2jqjCA==.sig.ed25519"
 }
