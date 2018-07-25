@@ -1,17 +1,21 @@
 {
-  "previous": "%x2sK48V0EGIVoovEhQYW305KZJp/7IwgLXPEd9Hh71g=.sha256",
+  "previous": "%JBmaGNSLlmB8GTBxMzBDBY/iVyrx+lqTvRwfFh2V7jw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 846,
-  "timestamp": 1532540515988,
+  "sequence": 847,
+  "timestamp": 1532541207433,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%GCqZxqV+q6kdfI5faIiUwDhYttulka2uNIdP8s2FrYY=.sha256",
+    "branch": "%bGHFBhGufo1nHmCHVm4R85zHvThhfDJZsSitAxD9tU4=.sha256",
+    "reply": {
+      "%GCqZxqV+q6kdfI5faIiUwDhYttulka2uNIdP8s2FrYY=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%bGHFBhGufo1nHmCHVm4R85zHvThhfDJZsSitAxD9tU4=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
+    },
+    "channel": "transman",
+    "recps": null,
+    "text": "> \"I’ll never call the police again\"\n\nThis is a lesson everyone learns eventually. :oncoming_police_car:\n\nReally though, I think it's important to realize that these hierarchies and expectations hurt *everyone*, and it's in all of our best interest to challenge and dismantle them. I appreciate you bringing up these issues, especially since they generally get brought up in opposition to feminist discussion rather than as another facet of the same problem. I think self-styled \"men's rights activists\" would be much more effective if they worked *with* feminists rather than against them. ",
+    "mentions": []
   },
-  "signature": "3xB3iy+ccM6i+aZgoUpe91uAdZHs+087vpjIibAWao/hI4l/7efVhlWizPtRFskRaFHhXOOf2Yigi8Hx2jqjCA==.sig.ed25519"
+  "signature": "SyUTKVmVsZF4oKQtfoJ8D71EfFOKx53cOvOhr5B8VOfaOHvf29wJ3oIk67QJ8pcGo42CCgKyFH17e3s/UEIBDw==.sig.ed25519"
 }
