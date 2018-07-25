@@ -1,26 +1,20 @@
 {
-  "previous": "%rbNi8okYzVMtQ641LqkClVubQCSTdeYu681YwI7XFBc=.sha256",
+  "previous": "%JeB+GP+EiVfccJq9O7t6tnxoVdRexvn2AFUf4D7VFKc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 856,
-  "timestamp": 1532550446854,
+  "sequence": 857,
+  "timestamp": 1532553085059,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%svwPJjVI67gvTxU9qOrXiAR0qpRo+RqiLewqr2Nu8Qo=.sha256",
-    "branch": "%EYCFfIHdk5wvk4bIA3mnBR9vlBJ8BBU48Qv5TFwdxAc=.sha256",
-    "reply": {
-      "%EYCFfIHdk5wvk4bIA3mnBR9vlBJ8BBU48Qv5TFwdxAc=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-      "%Ys1UcEGfn7yhfIXVUpJ4nfmCVTnmlQ6k/48ZA0qWxyA=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nInteresting. I imagine it has something to do with where we are in Hyperboria and what our path looks like, but I could see performance as an issue. I've also seen Tinc, which seems similar sans the public key cryptography.",
+    "text": "Anyone getting weird reply behavior in #patchbay? When I'm reading a thread and click \"Quote\" or \"Reply\" it just scrolls me to the top of the page. If I scroll to the bottom of the page I can use the reply textarea, but I don't see a way of replying to anyone except the root of a thread.\n\nCC: #patchbay-dev ",
     "mentions": [
       {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
+        "link": "#patchbay"
+      },
+      {
+        "link": "#patchbay-dev"
       }
     ]
   },
-  "signature": "sFnrK6tl4bkstP9hBEzW7Hnc5nkr+WjP2GxOXGD8CqshrIRgYci/ZPPyXvFYr5gMNhCcGjXt7z3Kv6wLqEvpBg==.sig.ed25519"
+  "signature": "WtBvB/ovSduKMcXYKou/aRL5Ju22dQGBFGlp038SX/RqBQ4+Ujxe2k8W9J2oT724iqYE4DjMqaEFE156DGc/Aw==.sig.ed25519"
 }
