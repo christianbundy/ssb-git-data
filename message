@@ -1,16 +1,29 @@
 {
-  "previous": "%pub0lfI8JpgPXPK4VKfbMUnziS6fIf6RR5hMU8Lwpw0=.sha256",
+  "previous": "%w6HBy9rfpLVPFUv9AWLR6QJ3Xa2WbIHZLPqqCo0Ic48=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 838,
-  "timestamp": 1532485627625,
+  "sequence": 839,
+  "timestamp": 1532487629300,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AAmcEmYZWRSL/BxV2UjxQ2JCywI0LpNrFFOOhvXvKNE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "Hey you. Are you using Arch Linux? Do you use the AUR? I did a thing (or two):\n\nhttps://aur.archlinux.org/packages/ssb-patchwork-git/\nhttps://aur.archlinux.org/packages/patchbay-git/\n\nI loved using the bleeding-edge versions of Patchwork and Patchbay, but the whole `cd /over/the/rainbow && npm start` thing gets old. Let me know if you have any trouble with either, I'd love some feedback.\n\n#linux #archlinux #patchbay #patchwork #git ",
+    "mentions": [
+      {
+        "link": "#linux"
+      },
+      {
+        "link": "#archlinux"
+      },
+      {
+        "link": "#patchbay"
+      },
+      {
+        "link": "#patchwork"
+      },
+      {
+        "link": "#git"
+      }
+    ]
   },
-  "signature": "4eSpr9USSsVbvrHTADvZum94ejZNgfuQ7j+ewtiFZSGFxnk3g0Eaarwr+BtTMgQSlk+oI1h15zlENMxB5y17Aw==.sig.ed25519"
+  "signature": "KkSQNLu5xNgFC+KcFl7W2FOLNwUgvaQFnTnT5Oh4g3yZOmtYznCJKnLfS1I4TkMgG6eQBewfoOoomMS0Rj3GCw==.sig.ed25519"
 }
