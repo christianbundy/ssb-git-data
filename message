@@ -1,13 +1,26 @@
 {
-  "previous": "%ZOPGI7QL3jDMBaXxyzpYjhVWGXmC/szjJG6t38GZV7w=.sha256",
+  "previous": "%eb8H2/JSil0C+Tu0VX4fCwXgbPxDDdsaQRM+aqJZcYg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 844,
-  "timestamp": 1532540331665,
+  "sequence": 845,
+  "timestamp": 1532540502247,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "emotional-anarchism",
-    "subscribed": true
+    "type": "post",
+    "root": "%ya/H5ND8tVtqkFGcTsBa4cvsq++W9rJC2W7psXx3qUQ=.sha256",
+    "branch": "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256",
+    "reply": {
+      "%ya/H5ND8tVtqkFGcTsBa4cvsq++W9rJC2W7psXx3qUQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%uyVp2HYDv6eat8BYmJKlJsvxkc+y8IgYUTgxoNXEz+U=.sha256": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jer](@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519)\n\nI've been trying to get better about that -- feel free to flag as out-of-date (or just message me) if I'm missing a release in `ssb-patchwork`. :+1: \n\nI'm planning to package and release a non-bleeding-edge package for Patchwork once a new release comes out; the last release was from back in January and doesn't play nicely with the latest Node updates.\n\nThanks for the feedback!",
+    "mentions": [
+      {
+        "link": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
+        "name": "jer"
+      }
+    ]
   },
-  "signature": "L0s7I2cGZmtZ7AwrQP8XuFilElDj+nzukSX0IucTi3jPTqb7reC0Mcw+hXdSB4mTClBno61475QvN8PEqxvRCQ==.sig.ed25519"
+  "signature": "PxNMsZ0PhCf8oThcULTtk25p3NYOv+1VeMrLnKj3MY0aAbcqEyWTb3Ft+WxJO8gUQ4Vct9qJmlqKVs0syscXAA==.sig.ed25519"
 }
