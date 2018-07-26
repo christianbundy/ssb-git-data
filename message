@@ -1,25 +1,17 @@
 {
-  "previous": "%XazDGydRyC6PTPEHiipk6SpuI7aPBhMLhalpbPcnUJc=.sha256",
+  "previous": "%DOApg07QU1zQWs/jigAy0KXcXkhcguR1rxl5oqCOYcA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 869,
-  "timestamp": 1532574877853,
+  "sequence": 870,
+  "timestamp": 1532624186714,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3aBU+Sg1qdMrue48jtUv9TN03Ize2vGhWNWi16eUg6s=.sha256",
-    "branch": "%XazDGydRyC6PTPEHiipk6SpuI7aPBhMLhalpbPcnUJc=.sha256",
-    "reply": {
-      "%XazDGydRyC6PTPEHiipk6SpuI7aPBhMLhalpbPcnUJc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": "podcasts",
-    "recps": null,
-    "text": "CC: [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\n(I think Scuttlebutt did something weird to my link above, VLC should open it just fine, or you can rename to `whatever.opus`)",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan hassan"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%29mqm13z1MBuGAcKvl8cRtY7NppfOCQSCuLsuAJwDF0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "USI1w8LGPRogJYUvjYKvMgKHcG5Kuj5NhFLtaA+PKnJ77Jhzg3xBZMBQ1Yqs/cZ4cluY/K9A3NPlBjQc6ngJBQ==.sig.ed25519"
+  "signature": "aBzPO4O7vDXiTXaJMVcfbyqijjlbboj9XYBvIYax86SEv8H73y0Pj4CXTOPZ9vUIIcUmnL6gzzxiuQgrP6gbAg==.sig.ed25519"
 }
