@@ -1,17 +1,33 @@
 {
-  "previous": "%mEdYIaGuQ5gzwpy2fhbJDCUmi5lLgbi1IB75kQOrhiM=.sha256",
+  "previous": "%ZiVRrgPpxxw8TN1BmY7CUnr7njs/v3YjC7mjYBufIRA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 871,
-  "timestamp": 1532624392795,
+  "sequence": 872,
+  "timestamp": 1532632232447,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%MOd47SYk7qVo2Xu9ZyHFjML5Sd342qC69YV+RoWGtmo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%3aBU+Sg1qdMrue48jtUv9TN03Ize2vGhWNWi16eUg6s=.sha256",
+    "branch": "%QElvS1lA8DIFg5aP95720lsWeJL8s6axrErErNWMIxA=.sha256",
+    "channel": "podcasts",
+    "text": "[@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\n> When you say you converted it - which tool did you use? ffmeg? What was the command you ran from the command line? :D Asking for a friend  :blush:\n\nSorry, didn't originally see this message! If your FFmpeg has libopus support you should be able to do it like this:\n\n```\nffmpeg -i ./ExMind_071218.mp3 -acodec libopus -b:a 6k -vbr on -compression_level 10 ./ExMind_071218.opus\n```\n\nAlternatively, you can install [`opus-tools`](https://github.com/xiph/opus-tools) (if you're on Arch Linux this should be [easy](https://www.archlinux.org/packages/community/x86_64/opus-tools/)) and do the conversion from MP3 to WAV to Opus:\n\n```\nffmpeg -i ExMind_071218.mp3 ExMind_071218.wav\nopusenc --bitrate 6 ExMind_071218.wav ExMind_071218.opus\n```\n\nThe music is completely terrible, but that's only because the compression algorithm is specifically optimized for the human voice. IMO the rest of the podcast sounds great.\n\n> is that the sound of solarpunk? as small as possible but still functional? or is that craptastic for the sake of craptastic?\n\nPersonally, I don't think there's a single sound of solarpunk. I generally keep three types of audio:\n\n- **Lossless**: I keep lossless (FLAC) versions of all of my audio on an external hard drive. The files are gigantic, but sometimes it's nice to listen to the source material. Keeping the source material also makes it painless to re-compress files when magical new compression algorithms come out.\n- **General**: My phone and laptop are small and portable, so I compromise with lossy (OGG) versions of most of my audio. The sound quality isn't perfect, but most songs still sound great with a touch of audio compression.\n- **Voice**: Most general compression algorithms are fine for most audio, but when it comes to audiobooks and podcasts that are 99% human voice I'm *personally* fine corrupting the rest of the audio to the point where music is unlistenable. I love Opus, but eventually Codec2 may have enough software support to become a contender.\n\nHere's the same podcast with Codec2:\n\n- 3200 b/s (1.4 MB): [ExMind-3200.c2](&CLosfHOTv5YGOyznvfVU3j9FPuV6zYsP9+yiGOQa0U8=.sha256) \n- 2400 b/s (1.1 MB): [ExMind-2400.c2](&V3IOO47bfUzvZyzOsWa0HXxMT05RRwEi4q8V9+9E9S4=.sha256) \n\nIf your FFmpeg was compiled with Codec2 support you should be able to convert them into whatever file format you like, otherwise you can install Codec2 and play them with:\n\n```\nc2dec 3200 ExMind-3200.c2 - | play -t raw -r 8000 -e signed-integer -b 16 -\n```\n\nJust in case you *don't* want to recompile FFmpeg or install Codec2 (:laughing:) you can get the worst of both worlds here: https://send.firefox.com/download/c4d2bbc8c9/#d76O8ZdxXuVdVo3SZ68pug\n\nThat's right -- the audio quality of a 1.4 MB file packaged up in a 56 MB file. Apparently it's tough work trying to store a pitch-perfect version of every compression artifact!",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      },
+      {
+        "link": "&CLosfHOTv5YGOyznvfVU3j9FPuV6zYsP9+yiGOQa0U8=.sha256",
+        "name": "ExMind-3200.c2",
+        "type": "application/octect-stream",
+        "size": 1411535
+      },
+      {
+        "link": "&V3IOO47bfUzvZyzOsWa0HXxMT05RRwEi4q8V9+9E9S4=.sha256",
+        "name": "ExMind-2400.c2",
+        "type": "application/octect-stream",
+        "size": 1058653
+      }
+    ]
   },
-  "signature": "Lv2TXXuPovBpOQVwA0m6BRs1CpeisFVV+zZbhvmP07mZjzMjQbh6Bn9Dxk7P+zLaved2TccE3IdxqlkIb6TaBA==.sig.ed25519"
+  "signature": "ySeE4PoNP2+nNZeBJ3uKdVVLQHZOizpWvwCzVFUNSSyCz4wlKVMnPGkCgRvVYW90//H/JdBG5HGy/ngY7FFHAg==.sig.ed25519"
 }
