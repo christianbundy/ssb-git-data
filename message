@@ -1,26 +1,21 @@
 {
-  "previous": "%l6viOK4LUxSvXjvvkh8OTzIXNAu4OL8u4kLlVj1xtxk=.sha256",
-  "sequence": 884,
+  "previous": "%TCO63d/JbvZzEzqyJCVgmRhFORqkgq+eHnEqBv/nufc=.sha256",
+  "sequence": 885,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1532657726340,
+  "timestamp": 1532657821915,
   "hash": "sha256",
   "content": {
-    "type": "poll",
+    "type": "position",
+    "version": "v1",
+    "root": "%TCO63d/JbvZzEzqyJCVgmRhFORqkgq+eHnEqBv/nufc=.sha256",
     "details": {
-      "choices": [
-        "Africa",
-        "Antarctica",
-        "Australia",
-        "Europe",
-        "North America",
-        "South America",
-        "Other"
-      ],
-      "type": "chooseOne"
+      "type": "chooseOne",
+      "choice": 4
     },
-    "title": "Where do you live?",
-    "closesAt": "2019-07-26T19:00:00.000Z",
-    "version": "v1"
+    "branch": [
+      "%TCO63d/JbvZzEzqyJCVgmRhFORqkgq+eHnEqBv/nufc=.sha256"
+    ],
+    "reason": "Portland, Oregon, Cascadia, USA (sorry), North America"
   },
-  "signature": "wjdNZczFpXBZaIy8lLHS6WS9st+NJF4q0iyXQfP0thWqJX3PL+MWKTpzz5+IhdjyNkaHKyOoCQTF8R36g3NcCw==.sig.ed25519"
+  "signature": "+nvV3FCdxIKmphrhrfLBzm2J+1qJU/FgY+I3MlGx6ksQlC8PSFcSwAnoUy3A1wBwNr/hterku6wc5qC6rZx4Ag==.sig.ed25519"
 }
