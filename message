@@ -1,17 +1,24 @@
 {
-  "previous": "%sp+EyfP2bXjkOL6POZWCmOt5oZ9UBjA6MJLXk9tH0XM=.sha256",
+  "previous": "%xviFvLx2SYAsI8AtIkzHNJD/mKKTzhE1y8rqrsf7tm0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 892,
-  "timestamp": 1532702962588,
+  "sequence": 893,
+  "timestamp": 1532703050921,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%K8bCRyFANBSgW6BqObH+1bdlCOGlOEI2XtuOf199pKM=.sha256",
+    "branch": [
+      "%iE2eH3f3OBQDkPbMP6PqeI613Va+hJfYDHaQDJfdjKs=.sha256",
+      "%qG5DUBDg87FYfl2qbPw9l0W2OWChKkPcSSMB8E2xULw=.sha256"
+    ],
     "channel": "fitness",
-    "vote": {
-      "link": "%qG5DUBDg87FYfl2qbPw9l0W2OWChKkPcSSMB8E2xULw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\n\n> So in many ways this is training for the hiking season, minus the bigger pack; for less time.\n\nI think you may have won me over, I might have to try out adding some weight to my pack in the city. :city_sunrise: :walking:   ",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      }
+    ]
   },
-  "signature": "4mxV7/rKDXkCH6PJjsCrDt2EqkWGrrQ3ogMATlNE6Q/fdK5ijnwbfCNTlrAYQEWab6939ExJ7GKCM+Le+v5EBw==.sig.ed25519"
+  "signature": "UwjQ3eqizst7XUf3o6+hESBQmRcJL9tRlaENHE3shOoNvOVoUOcAu/P295RGQTPVukMnup5VSI0wyQGLvpJyDA==.sig.ed25519"
 }
