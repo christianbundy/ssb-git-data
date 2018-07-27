@@ -1,21 +1,16 @@
 {
-  "previous": "%WtE+B79M+y3/SXYOEJD8JsI3LEcjqSYd5cJaA0hAzHg=.sha256",
-  "sequence": 897,
+  "previous": "%bJrBVkDMoan53ETtGsUcpDY9XmLE+MThP5PixrpaTXM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1532704962707,
+  "sequence": 898,
+  "timestamp": 1532704976413,
   "hash": "sha256",
   "content": {
-    "type": "position",
-    "version": "v1",
-    "root": "%wf9Qi6ScoQn035ksIEUS2+tvmAe3fZy/jUhrUf422pg=.sha256",
-    "details": {
-      "type": "chooseOne",
-      "choice": 3
-    },
-    "branch": [
-      "%Arbn67xK1Gz0EAtJ1sepfz6pRJQsw3lREQpa9edhv7s=.sha256"
-    ],
-    "reason": "Also: all cats are beautiful.\n\n(I don't know why there are two polls -- it wasn't me)"
+    "type": "vote",
+    "vote": {
+      "link": "%lJBzbg+GuhcEs9Xv+a4De6XoX/Z4BrFPgdS0Jt63tpE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "O16djcI5BTkprvFKPPN4RMHr2WvSApTx1Hba+jmDaanJH0hL6vnMIO/SQrAIIwZC4aGqDELy6/Bo6oyOYowbAQ==.sig.ed25519"
+  "signature": "LXD1tC1fXuRcwgWNk1okQcK0eVrX3k158AAbzDJ9wcfcM20xKUynCHsyuDen9m2J+5IBMVh0pkohh8veUnu9Dw==.sig.ed25519"
 }
