@@ -1,13 +1,32 @@
 {
-  "previous": "%kOL1h1XZiCYrxmv8daScgSZarf/pK3xQx4YnKPHKa+Y=.sha256",
+  "previous": "%ve08CY884OOIwBdjIjGViajVAhpxrwqJexKF1Yzu+p0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 910,
-  "timestamp": 1532718488191,
+  "sequence": 911,
+  "timestamp": 1532719307149,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
+    "branch": [
+      "%4EXe6b7vZ8/oA5dP+D9bbdg103h5XXFT31ZRHGwrvFM=.sha256",
+      "%LsZ8mnOnJWUSPnhPwUVaqXFHrgLXeQOVNpeTEyZQ4T4=.sha256"
+    ],
+    "reply": {
+      "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%LsZ8mnOnJWUSPnhPwUVaqXFHrgLXeQOVNpeTEyZQ4T4=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Just wrote a quick and dirty bot that posts current events from Wikipedia, if anyone is interested: [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) \n\nHere's a link to the current events for Thursday, July 26th: %z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256\n\nAnyone have opinions on when it should post? I don't think Wikipedia locks the current events for each day at the end of the day, so I'm planning to wait 24 hours after EOD to make sure any last-minute news is able to squeeze in.",
+    "mentions": [
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      },
+      {
+        "link": "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256"
+      }
+    ]
   },
-  "signature": "jsD4I6E2wsZqCuDgUcFhIz372ZKlRcGp83PjWf/sgDyAZQ9gVKHuTe/K26fa6XF88+XcTw5dxksGS2PmoVsQCQ==.sig.ed25519"
+  "signature": "zJT8b3wuB1Jf9Hw62pH4x1sx2r0N1voytfjLA3qzVrjCqRr6Igzvm4WHYnJU/NsfHhKfkDb0wnwtMqK+sz33DA==.sig.ed25519"
 }
