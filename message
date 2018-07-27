@@ -1,26 +1,30 @@
 {
-  "previous": "%Yefvvadf4qMaHYNju50z9Kb99tJIdiXj1xcDisQjTeA=.sha256",
+  "previous": "%sWG90JpTZA/yiuIHQCoRHmmO+aJ7gEMx5wwrWfZ82xI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 914,
-  "timestamp": 1532720086919,
+  "sequence": 915,
+  "timestamp": 1532721304273,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
-    "branch": "%nQntNqFpMUawnGJYK4/jBVsmhlq5Rrb1OzBTbI9irRk=.sha256",
+    "branch": "%nCRClYsbjo88qFbYzEgpeR6oNu7MGZeYCtnf4Txrhd0=.sha256",
     "reply": {
       "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%nQntNqFpMUawnGJYK4/jBVsmhlq5Rrb1OzBTbI9irRk=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+      "%nCRClYsbjo88qFbYzEgpeR6oNu7MGZeYCtnf4Txrhd0=.sha256": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nLooks like my solution was a bit *too* quick and dirty. I was using UTC dates everywhere except the header at the top of the post, so the news was from Wednesday but the title said Thursday because of my timezone. Just pushed a fix, thanks for pointing out the problem!",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nLooks like I had another fun bug where I was using the day of week as a date, so it was pulling info for July 4th. Fixed *that*, too. Someday I'll test my toy software before publishing it to the world. Maybe. :wink: \n\n\n[@LanceW](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nIt's currently a total mess, but you can see the source here: https://gitlab.com/christianbundy/ssb-current-events",
     "mentions": [
       {
         "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
         "name": "alanz"
+      },
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "LanceW"
       }
     ]
   },
-  "signature": "Gtd3gW57SpEKfVv7zjptYkuBInC4NbLYDhKA0T3uNpgFNXNoWIXoyOuWRB+qXsyW87ZxwTBHD4g22zYEnMD0Dw==.sig.ed25519"
+  "signature": "gkZFKRE+6XPZ1oFtI+lCshqE5J0PCHIegOMC7v5qtg1wfllcYEt/xE+45TsrC4Wye2Oai7uk2PpmzcuxzEDBAA==.sig.ed25519"
 }
