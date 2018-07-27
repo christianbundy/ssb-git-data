@@ -1,13 +1,17 @@
 {
-  "previous": "%oRuBdzTrBYUQCJ8T6MOece3SOxA4UexZ5hi+BKjgFEs=.sha256",
+  "previous": "%sp+EyfP2bXjkOL6POZWCmOt5oZ9UBjA6MJLXk9tH0XM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 891,
-  "timestamp": 1532702483960,
+  "sequence": 892,
+  "timestamp": 1532702962588,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "fitness",
+    "vote": {
+      "link": "%qG5DUBDg87FYfl2qbPw9l0W2OWChKkPcSSMB8E2xULw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "CS0MC7Qz4n4mQRAYjeyqCit/Lau3nDo0A3SCGzj/eoEVkTnPEeAMSKmaqNXCEzUzCdsyPT2lE4cnZpZCF4N1Cg==.sig.ed25519"
+  "signature": "4mxV7/rKDXkCH6PJjsCrDt2EqkWGrrQ3ogMATlNE6Q/fdK5ijnwbfCNTlrAYQEWab6939ExJ7GKCM+Le+v5EBw==.sig.ed25519"
 }
