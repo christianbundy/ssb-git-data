@@ -1,16 +1,29 @@
 {
-  "previous": "%lRQJByvHhj6RVW+7t+VF9LYdbowb45pjEoTVq1JCyb8=.sha256",
+  "previous": "%4Mm0O80k03eNCO4k4xIy8SVIPOcoauKIlgtVPsR60s0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 917,
-  "timestamp": 1532722165452,
+  "sequence": 918,
+  "timestamp": 1532722623416,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256",
-      "value": 0,
-      "expression": "Unlike"
-    }
+    "type": "post",
+    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
+    "branch": "%VoOcz6ZxqfOcUzCC163wx2BZjjXLP1TgY12zDSrM2bE=.sha256",
+    "reply": {
+      "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%VoOcz6ZxqfOcUzCC163wx2BZjjXLP1TgY12zDSrM2bE=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nSlowly but surely. Thanks for helping me iron out the [first of many] bugs! Just did another test and I think it might actually be working fine: %aJQHL5HisxR7cMfUSCXBhlRE53qHIngES6KaK5N6C0g=.sha256",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      },
+      {
+        "link": "%aJQHL5HisxR7cMfUSCXBhlRE53qHIngES6KaK5N6C0g=.sha256"
+      }
+    ]
   },
-  "signature": "uM7Zz+qUcMH3DXzOfXvcPE73eXXL0/xeAxzB60IyzGQRzC5bdBASi35pKO9ctN3AXKfuqDnjobRoYJufo0RJDQ==.sig.ed25519"
+  "signature": "DGPt83V6yIh7OApJOWSYMNlB4w4CKcgZZIzjTn7qytv1L2C8R+HcB62Xf4ku+KQus3ePxHQxKWHw0I/4xdgSCA==.sig.ed25519"
 }
