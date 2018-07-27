@@ -1,29 +1,17 @@
 {
-  "previous": "%4Mm0O80k03eNCO4k4xIy8SVIPOcoauKIlgtVPsR60s0=.sha256",
+  "previous": "%uwynNdzs5iA/IE3mz8NmlK/UUbyPnO1TnSvFO6nAlbM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 918,
-  "timestamp": 1532722623416,
+  "sequence": 919,
+  "timestamp": 1532723429279,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
-    "branch": "%VoOcz6ZxqfOcUzCC163wx2BZjjXLP1TgY12zDSrM2bE=.sha256",
-    "reply": {
-      "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%VoOcz6ZxqfOcUzCC163wx2BZjjXLP1TgY12zDSrM2bE=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nSlowly but surely. Thanks for helping me iron out the [first of many] bugs! Just did another test and I think it might actually be working fine: %aJQHL5HisxR7cMfUSCXBhlRE53qHIngES6KaK5N6C0g=.sha256",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      },
-      {
-        "link": "%aJQHL5HisxR7cMfUSCXBhlRE53qHIngES6KaK5N6C0g=.sha256"
-      }
-    ]
+    "type": "vote",
+    "channel": "solarpunk",
+    "vote": {
+      "link": "%TfLWObrkcbuOHlsi83kYt3X1/BzUjjwBXOmrx1uDYSc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "DGPt83V6yIh7OApJOWSYMNlB4w4CKcgZZIzjTn7qytv1L2C8R+HcB62Xf4ku+KQus3ePxHQxKWHw0I/4xdgSCA==.sig.ed25519"
+  "signature": "iwXunNOyIZJI9my0J6kbkXn2sukW6vIT5kqJSe0/yveIP+7Wb1E7Fz164WgMOuye+69FrHmW8aclrZIqSvJ3BA==.sig.ed25519"
 }
