@@ -1,16 +1,26 @@
 {
-  "previous": "%+6IgDagAfEalwvdwWLtlYoy3K4f1B8TLHDI2dcEelo4=.sha256",
+  "previous": "%Yefvvadf4qMaHYNju50z9Kb99tJIdiXj1xcDisQjTeA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 913,
-  "timestamp": 1532719588746,
+  "sequence": 914,
+  "timestamp": 1532720086919,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
+    "branch": "%nQntNqFpMUawnGJYK4/jBVsmhlq5Rrb1OzBTbI9irRk=.sha256",
+    "reply": {
+      "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%nQntNqFpMUawnGJYK4/jBVsmhlq5Rrb1OzBTbI9irRk=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nLooks like my solution was a bit *too* quick and dirty. I was using UTC dates everywhere except the header at the top of the post, so the news was from Wednesday but the title said Thursday because of my timezone. Just pushed a fix, thanks for pointing out the problem!",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "GlP1b/o1xg7MnVNXCPkiCktRkZu6GHFK3rl8pUNtxtQJudeE0NZSudvdnjWKUMaWYd0RW/IEaAEoGjJjnHopDQ==.sig.ed25519"
+  "signature": "Gtd3gW57SpEKfVv7zjptYkuBInC4NbLYDhKA0T3uNpgFNXNoWIXoyOuWRB+qXsyW87ZxwTBHD4g22zYEnMD0Dw==.sig.ed25519"
 }
