@@ -1,30 +1,20 @@
 {
-  "previous": "%sWG90JpTZA/yiuIHQCoRHmmO+aJ7gEMx5wwrWfZ82xI=.sha256",
+  "previous": "%qcNAne1o1+8Bye56TfqPxXNChGfhgnu8+skU/3TEI6c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 915,
-  "timestamp": 1532721304273,
+  "sequence": 916,
+  "timestamp": 1532721588712,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
-    "branch": "%nCRClYsbjo88qFbYzEgpeR6oNu7MGZeYCtnf4Txrhd0=.sha256",
+    "root": "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256",
+    "branch": "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256",
     "reply": {
-      "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%nCRClYsbjo88qFbYzEgpeR6oNu7MGZeYCtnf4Txrhd0=.sha256": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519"
+      "%z9Nr7NKZOKvurS7c/ttiIjt8L16IePQeivst6uOJSAg=.sha256": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nLooks like I had another fun bug where I was using the day of week as a date, so it was pulling info for July 4th. Fixed *that*, too. Someday I'll test my toy software before publishing it to the world. Maybe. :wink: \n\n\n[@LanceW](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nIt's currently a total mess, but you can see the source here: https://gitlab.com/christianbundy/ssb-current-events",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      },
-      {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "LanceW"
-      }
-    ]
+    "text": "**Please disregard.** This post is actually from 2018-07-04, *not* 2018-07-26. I'll publish an update ASAP.",
+    "mentions": []
   },
-  "signature": "gkZFKRE+6XPZ1oFtI+lCshqE5J0PCHIegOMC7v5qtg1wfllcYEt/xE+45TsrC4Wye2Oai7uk2PpmzcuxzEDBAA==.sig.ed25519"
+  "signature": "EHZ4717nRNeZPlLcNb+Y5RhjvPFMwBnw/dVmrY0+mvZwuRBo1HbsgdGwIlSZwzS82UX7CXYIHNsviFShaqAJCw==.sig.ed25519"
 }
