@@ -1,16 +1,28 @@
 {
-  "previous": "%G52t+WS7tar0XFhXjmW5dflzcdFgwzTrfYBJHM4C23o=.sha256",
+  "previous": "%romd5gTe0eOmi3BwIj2hqkZ0e90lGA9XVipvWvdRJzo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 931,
-  "timestamp": 1532736808474,
+  "sequence": 932,
+  "timestamp": 1532738007260,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hZyt3ZDPCnPvfAqYxnnl+/Rjtsi2kTZcDS+oJYD1/Ho=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
+    "branch": "%G52t+WS7tar0XFhXjmW5dflzcdFgwzTrfYBJHM4C23o=.sha256",
+    "reply": {
+      "%G52t+WS7tar0XFhXjmW5dflzcdFgwzTrfYBJHM4C23o=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I don't currently have the energy to write technical documentation, but I can summarize what's going on for future reference:\n\n- The bot wakes up around midnight UTC.\n- It downloads a list of current events that occurred between 24 and 48 hours ago.\n  - There will always be *at least* a 24 hour lag on the events that are published.\n  - Don't depend on this bot for instant emergency news.\n- HTML from Wikipedia is translated to Markdown.\n  - The header and footer are added for context and provenance.\n  - Relative Wikipedia links are translated to absolute URLs so that they work correctly.\n- A post is published from a secondary user on [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519)\n- It propagates around the network, sometimes over #cjdns, and arrives on your screen.\n\nFor a deeper look into the void: https://gitlab.com/christianbundy/ssb-current-events/blob/master/index.js",
+    "mentions": [
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      },
+      {
+        "link": "#cjdns"
+      }
+    ]
   },
-  "signature": "Udbf6JuIx0+59aWBNayrypqE4h7AYKQrI3JdywkNkohAp9UpJglkTSDKiwdEDh8g9bZvKPj+9ySudxfdmO66BQ==.sig.ed25519"
+  "signature": "SI+E3DrULpK/i/GU8OJ0qmiI/olNbOsfHm3tAxLesR70ReBL/8M3INbpYo5YUuo/3xN74FZMP8BD7Revn1vWAQ==.sig.ed25519"
 }
