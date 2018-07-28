@@ -1,18 +1,28 @@
 {
-  "previous": "%6KyeN2xePrl5wbkBxTj3fRcnwlYozbbNCN/OM06Yo48=.sha256",
+  "previous": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 929,
-  "timestamp": 1532736073381,
+  "sequence": 930,
+  "timestamp": 1532736795997,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Just messed with [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) more than I should have, but in about thirty seconds we'll see whether it works. Fingers crossed.",
+    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
+    "branch": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
+    "reply": {
+      "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "After seeing what I'm sure is a weird bug around [running jobs at T00:00:00Z](%WPYsj6+Hva9t2A8mzyV+nPOm+KOYHExFIsOwVP5O84Y=.sha256), I started another job to run at 00:07. I present to you, the first daily news article at midnight(ish) UTC:\n\n%hZyt3ZDPCnPvfAqYxnnl+/Rjtsi2kTZcDS+oJYD1/Ho=.sha256",
     "mentions": [
       {
-        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-        "name": "Current Events"
+        "link": "%WPYsj6+Hva9t2A8mzyV+nPOm+KOYHExFIsOwVP5O84Y=.sha256",
+        "name": "running jobs at T00undefined00Z"
+      },
+      {
+        "link": "%hZyt3ZDPCnPvfAqYxnnl+/Rjtsi2kTZcDS+oJYD1/Ho=.sha256"
       }
     ]
   },
-  "signature": "HotQ8W+9Rs75aaq7TZNP4zF3or3RWpmZH+SgUHFV9Ufil+u9JjC7StaGDnWziJ//ztgqLl64WLnrb1JO0vWPDQ==.sig.ed25519"
+  "signature": "ZyNExd7SrJv0C7GnJpXBhzqKvqGb1kcpi/fULUAb/Wxo/okVbqAr6lAIlg3ecdEoNnfVv24PpSlq2D8C24awAQ==.sig.ed25519"
 }
