@@ -1,28 +1,35 @@
 {
-  "previous": "%romd5gTe0eOmi3BwIj2hqkZ0e90lGA9XVipvWvdRJzo=.sha256",
+  "previous": "%oSwm0hZ9CqXsiZ6b9km9a+JET1+oPb3AQRCdFux5R68=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 932,
-  "timestamp": 1532738007260,
+  "sequence": 933,
+  "timestamp": 1532738737009,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
-    "branch": "%G52t+WS7tar0XFhXjmW5dflzcdFgwzTrfYBJHM4C23o=.sha256",
+    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
+    "branch": "%uwynNdzs5iA/IE3mz8NmlK/UUbyPnO1TnSvFO6nAlbM=.sha256",
     "reply": {
-      "%G52t+WS7tar0XFhXjmW5dflzcdFgwzTrfYBJHM4C23o=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%uwynNdzs5iA/IE3mz8NmlK/UUbyPnO1TnSvFO6nAlbM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%vtrC2G5ZqJD2Mn9VZ+UNa/C5rLWxZURjtGOwoLsPqQk=.sha256": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "I don't currently have the energy to write technical documentation, but I can summarize what's going on for future reference:\n\n- The bot wakes up around midnight UTC.\n- It downloads a list of current events that occurred between 24 and 48 hours ago.\n  - There will always be *at least* a 24 hour lag on the events that are published.\n  - Don't depend on this bot for instant emergency news.\n- HTML from Wikipedia is translated to Markdown.\n  - The header and footer are added for context and provenance.\n  - Relative Wikipedia links are translated to absolute URLs so that they work correctly.\n- A post is published from a secondary user on [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519)\n- It propagates around the network, sometimes over #cjdns, and arrives on your screen.\n\nFor a deeper look into the void: https://gitlab.com/christianbundy/ssb-current-events/blob/master/index.js",
+    "text": "[@Alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519)\n\nI'm glad you like it! Do you think there are any downsides of posting as #current-events? I've heard hyphens are easier for people with any voice-to-text/speech accessibility needs, but I've also seen special characters do weird things to channels.\n\nFor example, I'm *shocked* that #@#$%&*_-=+~{};: is a valid channel name, and I've been burned by #colons: often.",
     "mentions": [
       {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
+        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
+        "name": "Alanna"
       },
       {
-        "link": "#cjdns"
+        "link": "#current-events"
+      },
+      {
+        "link": "#@#$%&*_-=+~{};:"
+      },
+      {
+        "link": "#colons:"
       }
     ]
   },
-  "signature": "SI+E3DrULpK/i/GU8OJ0qmiI/olNbOsfHm3tAxLesR70ReBL/8M3INbpYo5YUuo/3xN74FZMP8BD7Revn1vWAQ==.sig.ed25519"
+  "signature": "nMwZPvbTrxOVnzxnUA/jdupWi8mCiJM/pAwAE+6e+q3btkkR1ktXPytVhsfmQUgqCmEakDbmENP3nRpf4TQVBg==.sig.ed25519"
 }
