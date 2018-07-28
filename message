@@ -1,17 +1,23 @@
 {
-  "previous": "%gTF8HNyeQLijAbv92EUYGC6dDK2XWkQRgdNuAqXn4lQ=.sha256",
+  "previous": "%eoWfZ2+zr/E8TKcswnR8WMWn8ybiEMJvo/CEHAtI/HY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 937,
-  "timestamp": 1532791980357,
+  "sequence": 938,
+  "timestamp": 1532792950495,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%jvL57fHQeKDMauqjZ+yjWL6lZkoFw5KLVHAiTzyJ92c=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%KY353LlSAP/wCLJzAqCnYxqrnWlDvbntoDRamtde1ks=.sha256",
+    "branch": [
+      "%jvL57fHQeKDMauqjZ+yjWL6lZkoFw5KLVHAiTzyJ92c=.sha256",
+      "%ogLFVOcUvlv4syataeJmxMy8hW/OlWoAcVLrmPPaAYA=.sha256",
+      "%z7HTtUFKO9+41crbacIhmfuFw8gCvJ8ta9NCJQMBxLI=.sha256"
+    ],
+    "text": "I'm a bit split on this because I have three completely distinct perspectives.\n\nI'm empathetic to the fact that some (many?) people were under the impression that SSB was private by default. I've seen a handful of #someone-should (#someoneshould) sentiments regarding documentation, but I wonder whether this is something that clients should run through when we create a profile. On the other hand, maybe a warning when making a post (like Patchwork does for private messages) would be better? I'd be happy to volunteer some time to make the messaging clearer if that's our best course of action, and I'd love input on what would work best.\n\nFrom another perspective, public Scuttlebutt can only be about as private as public Snapchat or some other service. We can say \"please don't host this on the web for Google to index\", but it's also important to me that everyone knows that it's not a long-term solution. If I can create a new profile, follow a few people, and find your posts, then those posts aren't private. There's no amount of cryptographic magic that can solve the [analog hole](https://en.wikipedia.org/wiki/Analog_hole) for Scuttlebutt.\n\nOne final note: the disparity between expectations and real-world usage makes me wonder whether there's a feature in here somewhere. Mastodon, for example, lets you choose the privacy of the post when making the post, and I wonder whether we could use a broadcast-like private post where the key is pre-shared with friends who we'd like to be able to read our posts. Instead of creating a group chat like the current private posts, I could see some utility in moving private messages to the rest of the scuttleverse. Maybe? I'd love to hear some more input here too.",
+    "mentions": [
+      {
+        "link": "#someone-should"
+      }
+    ]
   },
-  "signature": "UomxZ/oEpk9nqtqOVkkpllUHXVqDm5Xc1o0tG9u+VomR14wvoMeSDhtHUwUwkADUWA9/1YqU7D57uEg4fQufCQ==.sig.ed25519"
+  "signature": "z+mlrPjSzVN2gJ9NXG5crj6g7JUkblZN7qXu+gNDujR9R8gs34hg6i6bWzfQnqHl1IPz1J/bkuaueRAtKGjgCw==.sig.ed25519"
 }
