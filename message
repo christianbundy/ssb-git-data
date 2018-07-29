@@ -1,16 +1,26 @@
 {
-  "previous": "%chc17bmKoaF0yCY6TkzHDVcSgFSiSOem5FnOqC4FQBs=.sha256",
+  "previous": "%Ks/0Z1/CmTskzIczEKxe9j5NVXHhb4pplqdxV86ci7M=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 965,
-  "timestamp": 1532824899687,
+  "sequence": 966,
+  "timestamp": 1532825023977,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%S6nU4DVlO1FH9aGNP2681NO/1U3IGv1Ddfnp2D5ZiZU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
+    "branch": "%S6nU4DVlO1FH9aGNP2681NO/1U3IGv1Ddfnp2D5ZiZU=.sha256",
+    "reply": {
+      "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%S6nU4DVlO1FH9aGNP2681NO/1U3IGv1Ddfnp2D5ZiZU=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\nThanks! I love how easy the SSB integration was, *especially* with copy-and-paste secondary user. I'd love suggestions on how to improve (or what to work on next) if anything comes to mind.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "Dominic"
+      }
+    ]
   },
-  "signature": "LVnzCPQxoyekaLTfdf62HDV5L04UxcIeUwEZ3/6nK37lBnXvxebqNCTR3g3FyKq50d4uVuQTwvSALAK0UrgxCQ==.sig.ed25519"
+  "signature": "OP+ISV8iuWjZotwI1p1hzSIqczAmLlVxCkUPNgiI2tEnITs7YgsNa8veQSQ33FQ4ELWPr0IGI971O8QA4+7PBw==.sig.ed25519"
 }
