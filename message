@@ -1,13 +1,17 @@
 {
-  "previous": "%Nz8nlZaWH6s16gAeBIlwB2PBif9hew36VCu0hkDHQ0c=.sha256",
+  "previous": "%KCxMyGhlqULxpAjCnvOR0Artl38BKiVlSPfd91q7NtA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 983,
-  "timestamp": 1532887908829,
+  "sequence": 984,
+  "timestamp": 1532888198285,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "ssb-dev",
-    "subscribed": true
+    "type": "vote",
+    "channel": "podcasts",
+    "vote": {
+      "link": "%aHBFLYaCgsyU0C1MirOUFzSyRHNGJhpVj89PZi6dxS4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "aH2G6h+I/blf3yZDVwxXwDRWubaPAXVmvfzKzEW85+e3cPxZ/Lt0qDT56JCFyV6GPh3R7JpfdJCk/A829VHIBw==.sig.ed25519"
+  "signature": "/2F3gcQsfWXJTwFTMU+zuRCTY9EVt8BuDdslpo4TbJBg+qNvqI6IB/igCt/eMWTkXUr8zMNJ1OjfZYMu34xPBw==.sig.ed25519"
 }
