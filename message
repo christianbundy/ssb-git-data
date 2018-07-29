@@ -1,30 +1,13 @@
 {
-  "previous": "%rA4PSPNxaaxZ2FWu0vIeSREzmovebA0U6koKu+a380M=.sha256",
+  "previous": "%Y51iK1Ruyfy5VLkOAr6uj9vcsefCkUFo61qZtju/czc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 981,
-  "timestamp": 1532887337948,
+  "sequence": 982,
+  "timestamp": 1532887905146,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
-    "branch": [
-      "%tWVShcQf+3tAszM+dEqSozXiIhMLigiH6y2UWY+8cyY=.sha256",
-      "%wcShB9Ml5YxiwygccV5lF/rQZ72XYMNg1pQX8AdoKNw=.sha256"
-    ],
-    "text": "[@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519)\n\nI don't think so, it should be posting at midnight UTC. The last post ( %9YZkx2q5FCJADG+C3mWnhFrDCP3VUuhq1axAiaFmyuM=.sha256) was ~17 hours ago, so it should post another one in ~8 hours. The counter-intuitive bit is that I'm waiting 24 hours *after* the UTC day ended to post the news from that day, as Wikipedia pages can recive substantial edits even hours (or *days*) after the day has actually ended. For example, the Wikipedia page for July 27th received another edit 26 hours after the day ended (two hours after [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) posted it).\n\n\nUntil we have post editing I think we'll likely have to have *some* lag so that the last Wikipedia edits have time to get merged, but I'm not sure how long that should be. Maybe there's a more elegant solution?",
-    "mentions": [
-      {
-        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
-        "name": "rabble"
-      },
-      {
-        "link": "%9YZkx2q5FCJADG+C3mWnhFrDCP3VUuhq1axAiaFmyuM=.sha256"
-      },
-      {
-        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-        "name": "Current Events"
-      }
-    ]
+    "text": "I'm thinking I'd like to start experimenting with writing a new SSB post type to make sure I understand how everything works. I was thinking I'd just start reading through https://scuttlebot.io/, is that still the best SSB documentation?\n\nI've been trying to figure out how to help liberate the communities stuck on Reddit for *years*, and now I wonder whether this would be a good start:\n\n```\n\"content\": {\n  \"type\": \"link\",\n  \"link\": {\n    \"title\": \"The promise of radical municipalism today\",\n    \"uri\": \"http://unevenearth.org/2018/06/the-promise-of-radical-municipalism-today/\"\n  }\n}\n```\n\nPaired up with a UI to filter by votes, sort comments by votes, and (shockingly easy) a way to vote on *titles* (!), I'm thinking this might bring the magic of Scuttlebutt to communities that would otherwise be contralized and dominated by the advertisement industrial complex. \n\nAnyone have thoughts or opinions on how this might best be accomplished?",
+    "channel": "ssb-dev"
   },
-  "signature": "SLWm47CnOFWsl1eTi5r2aiccQ3h4QsDyzpO4yOr1Pno8weRqL9Qu+qRoSv3gpRv3yuxp1pCn2+GiSMedmO6wDQ==.sig.ed25519"
+  "signature": "plVbYZpv/kMHiNX96TTF0sfDyVjiOsA8pr3Njxqw/i6yoqDW3Mrc/txB0hs5CMd1YK1QmKZqPACoXrxE4v6FDA==.sig.ed25519"
 }
