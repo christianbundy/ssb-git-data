@@ -1,21 +1,26 @@
 {
-  "previous": "%oIFROyosuGLUxkZb4FcTcIeCGSJbDf3u/vQAraucs/E=.sha256",
+  "previous": "%3UCMzLbGAlwyp1uFGlRzOJ2QAbc/q2niZDkM9E1MBOM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 994,
-  "timestamp": 1532903562139,
+  "sequence": 995,
+  "timestamp": 1532903668942,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
-    "branch": "%Y51iK1Ruyfy5VLkOAr6uj9vcsefCkUFo61qZtju/czc=.sha256",
+    "root": "%+9YP+kPBUn6EfMqWOce12wDG1FAu68WCecnIMLfOZII=.sha256",
+    "branch": "%plNMrwjZTlcxZbB5Q1/kOeelGCUu3obrrhJ2eV4dk9A=.sha256",
     "reply": {
-      "%Y51iK1Ruyfy5VLkOAr6uj9vcsefCkUFo61qZtju/czc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%aeZWDnMJazNYNosHeRoSuFIHFXU3gI3eNOpHyUJG8PE=.sha256": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519"
+      "%+9YP+kPBUn6EfMqWOce12wDG1FAu68WCecnIMLfOZII=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+      "%plNMrwjZTlcxZbB5Q1/kOeelGCUu3obrrhJ2eV4dk9A=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Just for reference, I went back and took a look at the edit history for the past dozen days. I'm including the data below:\n\n- 2018-07-27: `2018-07-29T02:24:42‎` (26 hours after EOD)\n- 2018-07-26: `2018-07-29T02:18:14` (‎26 hours after EOD)\n- 2018-07-25: `2018-07-29T00:30:24‎` (72 hours after EOD)\n- 2018-07-24: `2018-07-27T08:16:40‎` (56 hours after EOD)\n- 2018-07-23: `2018-07-26T01:20:03‎` (49 hours after EOD)\n- 2018-07-22: `2018-07-25T01:29:10‎` (49 hours after EOD)\n- 2018-07-21: `2018-07-24T04:14:05‎` (52 hours after EOD)\n- 2018-07-20: `2018-07-24T12:30:05‎` (84 hours after EOD)\n- 2018-07-19: `2018-07-21T20:01:15‎` (44 hours after EOD)\n- 2018-07-18: `2018-07-22T20:59:32‎` (93 hours after EOD)\n- 2018-07-17: `2018-07-18T15:43:13‎` (15 hours after EOD)\n- 2018-07-16: `2018-07-26T17:22:54‎` (233 hours after EOD)\n\nMost of these *seem* like minor edits, but the fact that messages are immutable means that a precisely timed Wikipedia edit could control the content that makes it to the Scuttleverse. On the other hand, it's probably important to make sure that when we have mutable messages they don't show up to users by default, otherwise our feeds will be peppered with Wikipedia edits for days long past.",
-    "mentions": []
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) No problem, I love to see how everyone curates their feeds differently!",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      }
+    ]
   },
-  "signature": "vFs71aCgsVDpo913bEXPekkjqVUMFwJCAC27zfxyc9zg15Cu8/PzTm8sLest7/XL9o9dTV+bSB+lJ6OF4ic1CA==.sig.ed25519"
+  "signature": "oKx55T7qp8cHHO9KxRSuFRgPxRehZOeRERxQnzd+LpTzOqOqfYr6DFvcgAxG1Zt1p3r+/ZPwnZh2llkOdw8SDg==.sig.ed25519"
 }
