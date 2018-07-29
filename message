@@ -1,13 +1,13 @@
 {
-  "previous": "%Y51iK1Ruyfy5VLkOAr6uj9vcsefCkUFo61qZtju/czc=.sha256",
+  "previous": "%Nz8nlZaWH6s16gAeBIlwB2PBif9hew36VCu0hkDHQ0c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 982,
-  "timestamp": 1532887905146,
+  "sequence": 983,
+  "timestamp": 1532887908829,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I'm thinking I'd like to start experimenting with writing a new SSB post type to make sure I understand how everything works. I was thinking I'd just start reading through https://scuttlebot.io/, is that still the best SSB documentation?\n\nI've been trying to figure out how to help liberate the communities stuck on Reddit for *years*, and now I wonder whether this would be a good start:\n\n```\n\"content\": {\n  \"type\": \"link\",\n  \"link\": {\n    \"title\": \"The promise of radical municipalism today\",\n    \"uri\": \"http://unevenearth.org/2018/06/the-promise-of-radical-municipalism-today/\"\n  }\n}\n```\n\nPaired up with a UI to filter by votes, sort comments by votes, and (shockingly easy) a way to vote on *titles* (!), I'm thinking this might bring the magic of Scuttlebutt to communities that would otherwise be contralized and dominated by the advertisement industrial complex. \n\nAnyone have thoughts or opinions on how this might best be accomplished?",
-    "channel": "ssb-dev"
+    "type": "channel",
+    "channel": "ssb-dev",
+    "subscribed": true
   },
-  "signature": "plVbYZpv/kMHiNX96TTF0sfDyVjiOsA8pr3Njxqw/i6yoqDW3Mrc/txB0hs5CMd1YK1QmKZqPACoXrxE4v6FDA==.sig.ed25519"
+  "signature": "aH2G6h+I/blf3yZDVwxXwDRWubaPAXVmvfzKzEW85+e3cPxZ/Lt0qDT56JCFyV6GPh3R7JpfdJCk/A829VHIBw==.sig.ed25519"
 }
