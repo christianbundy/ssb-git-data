@@ -1,13 +1,30 @@
 {
-  "previous": "%2lXrTnh9Eve7aSxg1fTeimRMk3k9S9Jq0luZLfEV63U=.sha256",
+  "previous": "%rA4PSPNxaaxZ2FWu0vIeSREzmovebA0U6koKu+a380M=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 980,
-  "timestamp": 1532881972158,
+  "sequence": 981,
+  "timestamp": 1532887337948,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%SSmapr9PeIGWXvu1ugeQOja9uVM563WdpP/3n720poY=.sha256",
+    "branch": [
+      "%tWVShcQf+3tAszM+dEqSozXiIhMLigiH6y2UWY+8cyY=.sha256",
+      "%wcShB9Ml5YxiwygccV5lF/rQZ72XYMNg1pQX8AdoKNw=.sha256"
+    ],
+    "text": "[@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519)\n\nI don't think so, it should be posting at midnight UTC. The last post ( %9YZkx2q5FCJADG+C3mWnhFrDCP3VUuhq1axAiaFmyuM=.sha256) was ~17 hours ago, so it should post another one in ~8 hours. The counter-intuitive bit is that I'm waiting 24 hours *after* the UTC day ended to post the news from that day, as Wikipedia pages can recive substantial edits even hours (or *days*) after the day has actually ended. For example, the Wikipedia page for July 27th received another edit 26 hours after the day ended (two hours after [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) posted it).\n\n\nUntil we have post editing I think we'll likely have to have *some* lag so that the last Wikipedia edits have time to get merged, but I'm not sure how long that should be. Maybe there's a more elegant solution?",
+    "mentions": [
+      {
+        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
+        "name": "rabble"
+      },
+      {
+        "link": "%9YZkx2q5FCJADG+C3mWnhFrDCP3VUuhq1axAiaFmyuM=.sha256"
+      },
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      }
+    ]
   },
-  "signature": "mPcUrqN7LB/XtJC6+aFAT+bya1mq1eo5F0pWm/GJMz3PNX9e0CzoyiVMOLHlc7hj9eDwe8gBrVm7YyUFDni2Bg==.sig.ed25519"
+  "signature": "SLWm47CnOFWsl1eTi5r2aiccQ3h4QsDyzpO4yOr1Pno8weRqL9Qu+qRoSv3gpRv3yuxp1pCn2+GiSMedmO6wDQ==.sig.ed25519"
 }
