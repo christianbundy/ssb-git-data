@@ -1,16 +1,23 @@
 {
-  "previous": "%Euzv+MTP6tmNaG+o5jLX5gfatHRtqUQmFwnbb8Vwv6Y=.sha256",
+  "previous": "%v8O3ulmQBSwGYbvoCdYFlqfzUpEib5yCP55/t2SQh2k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1005,
-  "timestamp": 1532973184911,
+  "sequence": 1006,
+  "timestamp": 1532973604470,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%2e/RYfhzB9f9vH3qbvXTb5GfBd96kWw/YrfBt0nSI80=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%KY353LlSAP/wCLJzAqCnYxqrnWlDvbntoDRamtde1ks=.sha256",
+    "branch": "%kALbsZl9styWUdkswNvq8Vjjv3SxmUhvTx1noRnIXck=.sha256",
+    "text": "[@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI've been thinking about writing a client that runs #cjdns with your friends on SSB, but it seems like a ton of work. On the other hand, it would be *super* cool and keep IP leakage to only your inner circle (plus full mesh IPv6 routing).",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      },
+      {
+        "link": "#cjdns"
+      }
+    ]
   },
-  "signature": "PRdhzvXEfsixU8aGsM7ddOo7BMBW3Z8iUA6aOMHU+CuJ2oyCOkQCfXpO9SJ9eSbnW5sjiIz9BJ8wwRZhPXAqCg==.sig.ed25519"
+  "signature": "T74ciTa1Ctc4Cli/TP0fMpLhE6ip1EvV/saw67+OmKcAfFE0z4udE/bNB9rZFMsS69y4EACNJLLNDZ0J8iKJAw==.sig.ed25519"
 }
