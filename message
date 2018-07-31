@@ -1,17 +1,26 @@
 {
-  "previous": "%4UHEl2Y3aQXRm1HxQfrAR1sPe/L84vktG2UgSA3r11o=.sha256",
+  "previous": "%DEpXIw8H+vwDo3ARIA1zYm519nbYr5df668rmTRs/Yo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1026,
-  "timestamp": 1533064920919,
+  "sequence": 1027,
+  "timestamp": 1533069305232,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%D/QCFLitCd7fmAajaphkT3wbjk3ixk3QIOL9ABoQSYo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# [Evolving Floorplans](http://www.joelsimon.net/evo_floorplans.html)\n\n> Evolving Floor Plans is an experimental research project exploring speculative, optimized floor plan layouts. The rooms and expected flow of people are given to a genetic algorithm which attempts to optimize the layout to minimize walking time, the use of hallways, etc. The creative goal is to approach floor plan design solely from the perspective of optimization and without regard for convention, constructability, etc. The research goal is to see how a combination of explicit, implicit and emergent methods allow floor plans of high complexity to evolve. The floorplan is 'grown' from its genetic encoding using indirect methods such as graph contraction and emergent ones such as growing hallways using an ant-colony inspired algorithm.\n\n\n![results_bottom.jpeg](&VHhIcZo51myUhvo7r3G4j/iIusegf4D6E4P89sNriHQ=.sha256)\n\n\n![windows2x2.jpg](&Ssl1JVSQgDVWz4nVq3qCWp/zp87JJ73NCsncXLN2+IM=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&VHhIcZo51myUhvo7r3G4j/iIusegf4D6E4P89sNriHQ=.sha256",
+        "name": "results_bottom.jpeg",
+        "type": "image/jpeg",
+        "size": 710954
+      },
+      {
+        "link": "&Ssl1JVSQgDVWz4nVq3qCWp/zp87JJ73NCsncXLN2+IM=.sha256",
+        "name": "windows2x2.jpg",
+        "type": "image/jpeg",
+        "size": 917139
+      }
+    ]
   },
-  "signature": "/jYX36Q2EHA29afLGGFJP9lxHXHbTrt4S9fAOPeHnOUK6+zncq8uIPIqd+5luZUj+goWZa6ICaQOgCwepnfBAw==.sig.ed25519"
+  "signature": "x9Yb4dglNo2/CXO3HaWDEZ9KWuxeo4DYl/M5tPoAlfz6QGJj/8r9jGPAkbgq8aup4Zod0zxeVVnvdYKs5T8hAw==.sig.ed25519"
 }
