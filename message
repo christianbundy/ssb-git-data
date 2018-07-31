@@ -1,22 +1,14 @@
 {
-  "previous": "%sy7uTFOaUFyfHALttEffWEObC0MKn+Wyl9AmcffYgdI=.sha256",
+  "previous": "%oZJkD+fxdjlMotEu0McUFXuHW6xfpq0qkSKcgeQsWT0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1014,
-  "timestamp": 1532996189915,
+  "sequence": 1015,
+  "timestamp": 1532996358129,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I'm hosting a handful of services (cjdns, Syncthing, [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519), etc) on a microserver in my city instead of using a VPS. Everything has been *great* until it just locked up over SSH, which makes me wish I had a remote power switch to restart the machine.\n\nI'm sure there are industrial switches with programmable power supplies, but is there an easy DIY solution that doesn't require manual intervention? I'm thinking of setting up another microserver with access to a power toggle, so that if one locks up I can restart it via the other one. I know this is janky, but DIY solutions are *so* much more fun.",
-    "mentions": [
-      {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
-      },
-      {
-        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-        "name": "Current Events"
-      }
-    ]
+    "root": "%oZJkD+fxdjlMotEu0McUFXuHW6xfpq0qkSKcgeQsWT0=.sha256",
+    "branch": "%oZJkD+fxdjlMotEu0McUFXuHW6xfpq0qkSKcgeQsWT0=.sha256",
+    "text": "In a similar vein, is there a way to run use a DRM-like system to ensure that the owner of the machine can't tamper with the content? I might be content with a VPS if this was possible, but on the other hand: hardware access *is* root access."
   },
-  "signature": "7ppLQRkplbxNQN6fpMVZ/B2mwiG2K9nZnhDi6CfRrnB2NUfG58xc492mbReet9he6fwzK856S2SIPv5UdAsaDw==.sig.ed25519"
+  "signature": "gBDQEqAX1d05R2FSKcLI2lIiBPhZnvoTO4qRK4I4chy459lyfDdjtugnNeX8konoV9uNdYJlCWiDVEb83HMxDA==.sig.ed25519"
 }
