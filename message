@@ -1,13 +1,22 @@
 {
-  "previous": "%3wpYWsUPjWGvOPrEUnVNEN+OcbDys/IAnvArMFGpbic=.sha256",
+  "previous": "%sy7uTFOaUFyfHALttEffWEObC0MKn+Wyl9AmcffYgdI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1013,
-  "timestamp": 1532995489502,
+  "sequence": 1014,
+  "timestamp": 1532996189915,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519",
-    "name": "Zach"
+    "type": "post",
+    "text": "I'm hosting a handful of services (cjdns, Syncthing, [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519), etc) on a microserver in my city instead of using a VPS. Everything has been *great* until it just locked up over SSH, which makes me wish I had a remote power switch to restart the machine.\n\nI'm sure there are industrial switches with programmable power supplies, but is there an easy DIY solution that doesn't require manual intervention? I'm thinking of setting up another microserver with access to a power toggle, so that if one locks up I can restart it via the other one. I know this is janky, but DIY solutions are *so* much more fun.",
+    "mentions": [
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      },
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      }
+    ]
   },
-  "signature": "zkOzDEgBosb4FKAedxQfpjnqTuIKtRCNFipfFyf/+pg1rbHFAGgj9aj4+JUpju+7EvZsblP9yalKnJMpBrVYAA==.sig.ed25519"
+  "signature": "7ppLQRkplbxNQN6fpMVZ/B2mwiG2K9nZnhDi6CfRrnB2NUfG58xc492mbReet9he6fwzK856S2SIPv5UdAsaDw==.sig.ed25519"
 }
