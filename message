@@ -1,24 +1,14 @@
 {
-  "previous": "%uhloovcDvPcMhWMVyXPAeQ4cfc0WKH3KWGp4ZlZH9m8=.sha256",
+  "previous": "%87N/Wq5BK8BwaxIHBzI21v3DioLCm+5GhQCRvgxNTbw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1047,
-  "timestamp": 1533146601247,
+  "sequence": 1048,
+  "timestamp": 1533164515925,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%y6t6e0jICa5OOl0Ov5HXaDEumHGkOQmu6Ma/nQ5Pjes=.sha256",
-    "branch": "%HALsER4upjkTb53N1Sa9QanhsEKcMS6W8VK9vz0V7H4=.sha256",
-    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nDon't even get me started on it. That, *or* actual emoji versus `:emoji:`. 🙃\n\n[@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThanks, that's a great thread. Just played around with it and everything seems to look reasonable. Again, I'm sure there will be bikeshedding, but after thinking about this a bit more I think we can just do a quick find and replace:\n\n- #x -> ssb://hashtag/x\n- @x ->  ssb://feed.ed25519/x\n- %x -> ssb://msg.sha256/x\n- &x -> ssb://blob.sha256/x\n\nFor example:\n\n- ssb://hashtag.ed25519/scuttlebutt\n- ssb://feed.ed25519/-oaWWDs8g73EZFUMfW37R_ULtFEjwKN_DczvdYihjbU=\n- ssb://msg.sha256/FvFRSvn-npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL-ZqQ=\n- ssb://blob.sha256/5GEKOI_0YgTbK1WgGDQMHtWGJG6h2ferDw9D3PCDVbE=\n\nThis keeps the sigil at the front of the URL, allows us to update our algorithms in the future, and seems to be a valid URL. The only issue I can think of is when another `shsCap` is involved, but I imagine other networks might use something like `decent://` instead? Otherwise, this seems like it could save us a bunch of pain and suffering.\n\nHopefully we can eventually use [standardized hashtag identifier syntax](http://unicode.org/reports/tr31/#hashtag_identifiers) too! Our current implementation has a few interesting quirks.",
-    "mentions": [
-      {
-        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "dinosaur"
-      }
-    ]
+    "root": "%imKdceSAHiHzBg7WBL2Dy9rFCkE2Xm5DXfg2LQDI/bs=.sha256",
+    "branch": "%QDuvMDwEZQKIKBR92SgxEwFTOEcThYOU1zTyQx8tg/c=.sha256",
+    "text": "Instead of trying to find *the right* solution, let's at least enumerate our options.\n\nIt seems like there are two problems:\n\n1. We are posting and hosting content that's likely under copyright with no simple method of removal.\n2. Our content is being downloaded, indexed, and cached by people who aren't our friends.\n\nAre there any options that resolve both of the above problems? I think it's important that we don't focus on trying to find a problem that can be solved with our favorite hammer."
   },
-  "signature": "ax5JEMM87RCsi3GXfmdKe3MoiFgFS1p4bKpGGpuk2uiSnVm1ppbJOWDFNWOjuuGWbWWRmurSlmlZTRhPICBqBA==.sig.ed25519"
+  "signature": "8MV5XdRz8Ci/pho1L4ml7bsKacJ0fANBmHLq0ypzn2+9A4Im0JWOO1rebCOgpfQcFkBbx4TyswtW6qsQKaDlAQ==.sig.ed25519"
 }
