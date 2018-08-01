@@ -1,20 +1,26 @@
 {
-  "previous": "%SB/YDYA7nFQXtGMqfVFRdSFxdHQOH/lKZGJdCM2vF+g=.sha256",
+  "previous": "%FvFRSvn+npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL+ZqQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1040,
-  "timestamp": 1533138027771,
+  "sequence": 1041,
+  "timestamp": 1533140569619,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%KY353LlSAP/wCLJzAqCnYxqrnWlDvbntoDRamtde1ks=.sha256",
-    "branch": "%7KAeE4tjHBRc/sOjGq4naFqVwL9nrV5EEqCjORYXIss=.sha256",
-    "text": "[@Zajo - PAX](@hGmbTAtbEMG2e151fikzBpzFpn0khgWeqA6krDvvhSc=.ed25519) \n\nNevermind, just saw this in the Patchbay UI:\n\n> These are the other participants in this thread. Once a private thread is started you cannot add people to it.\n",
+    "text": "Has there been any talk about standardizing mentions to use a URL rather than using sigils?\n\nFor example:\n\n-  #scuttlebutt -> ssb://scuttlebutt.hashtag\n- @+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519 -> ssb://+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.feed.ed25519\n- %FvFRSvn+npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL+ZqQ=.sha256 -> ssb:///FvFRSvn+npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL+ZqQ=.msg.sha256\n- &5GEKOI/0YgTbK1WgGDQMHtWGJG6h2ferDw9D3PCDVbE=.sha256 -> ssb://5GEKOI/0YgTbK1WgGDQMHtWGJG6h2ferDw9D3PCDVbE=.blob.sha256\n\nI'm sure there's plenty of bikeshedding to be done, but after spending some time working on our Markdown implementation I'm realizing that our shorthand links currently require a handful of jank to keep everything working correctly.",
     "mentions": [
       {
-        "link": "@hGmbTAtbEMG2e151fikzBpzFpn0khgWeqA6krDvvhSc=.ed25519",
-        "name": "Zajo - PAX"
+        "link": "#scuttlebutt"
+      },
+      {
+        "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      },
+      {
+        "link": "%FvFRSvn+npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL+ZqQ=.sha256"
+      },
+      {
+        "link": "&5GEKOI/0YgTbK1WgGDQMHtWGJG6h2ferDw9D3PCDVbE=.sha256"
       }
     ]
   },
-  "signature": "CR1EN3YsZJPVZCcBTDn4cnQPGWlkAA8mCQq5QgUTfGkO8JCbDIAsQmxiy6JbbrkaETFoKErfGwFpU04B8TakAQ==.sig.ed25519"
+  "signature": "ssR20lkSAGL1o6/H1HRbJ3Xo3UoF8tfAlAbIyVwD7iIZzMSX2V4PFqemzU3r0br2sVwgXPxtQ2RdINmawronCQ==.sig.ed25519"
 }
