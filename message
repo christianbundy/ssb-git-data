@@ -1,17 +1,24 @@
 {
-  "previous": "%70CrQvv6qQa/Q9tib3DT9/RfTA5yd4jSu9sgSUbnQWQ=.sha256",
+  "previous": "%uhloovcDvPcMhWMVyXPAeQ4cfc0WKH3KWGp4ZlZH9m8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1046,
-  "timestamp": 1533145177363,
+  "sequence": 1047,
+  "timestamp": 1533146601247,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%cx4sDkZEor3BJWlF6GfwXCStXSul3fPbxlLG+MDv2yQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%y6t6e0jICa5OOl0Ov5HXaDEumHGkOQmu6Ma/nQ5Pjes=.sha256",
+    "branch": "%HALsER4upjkTb53N1Sa9QanhsEKcMS6W8VK9vz0V7H4=.sha256",
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nDon't even get me started on it. That, *or* actual emoji versus `:emoji:`. 🙃\n\n[@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThanks, that's a great thread. Just played around with it and everything seems to look reasonable. Again, I'm sure there will be bikeshedding, but after thinking about this a bit more I think we can just do a quick find and replace:\n\n- #x -> ssb://hashtag/x\n- @x ->  ssb://feed.ed25519/x\n- %x -> ssb://msg.sha256/x\n- &x -> ssb://blob.sha256/x\n\nFor example:\n\n- ssb://hashtag.ed25519/scuttlebutt\n- ssb://feed.ed25519/-oaWWDs8g73EZFUMfW37R_ULtFEjwKN_DczvdYihjbU=\n- ssb://msg.sha256/FvFRSvn-npJiXRbqUy4GqCFo2JnOaWtPxuRSnAL-ZqQ=\n- ssb://blob.sha256/5GEKOI_0YgTbK1WgGDQMHtWGJG6h2ferDw9D3PCDVbE=\n\nThis keeps the sigil at the front of the URL, allows us to update our algorithms in the future, and seems to be a valid URL. The only issue I can think of is when another `shsCap` is involved, but I imagine other networks might use something like `decent://` instead? Otherwise, this seems like it could save us a bunch of pain and suffering.\n\nHopefully we can eventually use [standardized hashtag identifier syntax](http://unicode.org/reports/tr31/#hashtag_identifiers) too! Our current implementation has a few interesting quirks.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "dinosaur"
+      }
+    ]
   },
-  "signature": "5KPVZYsan3evFOEjNBrO1dypiwiedCi6kPGam2IuTomAwKU8L+ZQ9nZmKDqGc9gjzAOE8MdYmRb9coLtvnDUCg==.sig.ed25519"
+  "signature": "ax5JEMM87RCsi3GXfmdKe3MoiFgFS1p4bKpGGpuk2uiSnVm1ppbJOWDFNWOjuuGWbWWRmurSlmlZTRhPICBqBA==.sig.ed25519"
 }
