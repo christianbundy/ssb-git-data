@@ -1,21 +1,15 @@
 {
-  "previous": "%p2L6z7nNHu8hLHfCHjqj1yh2gikLAQJDry+rwuGo2KY=.sha256",
+  "previous": "%WMpFZrRXMRQ75bB9gGQtbCTxKzgwkzsH/EQXw8iy+64=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1031,
-  "timestamp": 1533078936302,
+  "sequence": 1032,
+  "timestamp": 1533082990359,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1maIyiO6U+jEShWPTT97MedGryMameY5VyWa0Sc6QGg=.sha256",
-    "branch": "%1maIyiO6U+jEShWPTT97MedGryMameY5VyWa0Sc6QGg=.sha256",
-    "channel": "boats",
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\n\nThis is a really cool photo, I imagine yours is the one in the bottom middle with the red sail(?)? ",
-    "mentions": [
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
-      }
-    ]
+    "root": "%qenmZ6nQrWMdLL4vN4QSpp5yIpLdsJXRrZUS8gHjY7U=.sha256",
+    "branch": "%qenmZ6nQrWMdLL4vN4QSpp5yIpLdsJXRrZUS8gHjY7U=.sha256",
+    "channel": "current-events",
+    "text": "# Markdown Bug\n\nThat looks like a bug to me. How do we squash it?\n\n## Source\n\n```md\n[Cannabis in Georgia](https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country))\n```\n\n## Expected\n\n> [Cannabis in Georgia][1]\n\n## Actual\n\n> [Cannabis in Georgia](https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country))\n\n\n## ???\n\nI'm seeing this in Patchbay, but I'm going to check Patchwork too.\n\n[1]: https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country)"
   },
-  "signature": "Y/E4Pw8Qmf0XBaGq4g7aPJSmQJXSn2mP5G266CeFjtdmthI2fql/jCOX/12RMjbh+lpuiwts1Bwq8A+v0e05Bw==.sig.ed25519"
+  "signature": "lPZWJfyEZ/nyW3/yNZGe6951W/79lhqzd5av4Rei8n00qc4dMQvlbG+w5J4Q59Mp/IzlmalYsRv50SYpXfDmDA==.sig.ed25519"
 }
