@@ -1,15 +1,17 @@
 {
-  "previous": "%WMpFZrRXMRQ75bB9gGQtbCTxKzgwkzsH/EQXw8iy+64=.sha256",
+  "previous": "%uRTrki6RVyeTmjMvd421M0nfbVlYYkiVfkfnGBLfIqY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1032,
-  "timestamp": 1533082990359,
+  "sequence": 1033,
+  "timestamp": 1533084993627,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%qenmZ6nQrWMdLL4vN4QSpp5yIpLdsJXRrZUS8gHjY7U=.sha256",
-    "branch": "%qenmZ6nQrWMdLL4vN4QSpp5yIpLdsJXRrZUS8gHjY7U=.sha256",
-    "channel": "current-events",
-    "text": "# Markdown Bug\n\nThat looks like a bug to me. How do we squash it?\n\n## Source\n\n```md\n[Cannabis in Georgia](https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country))\n```\n\n## Expected\n\n> [Cannabis in Georgia][1]\n\n## Actual\n\n> [Cannabis in Georgia](https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country))\n\n\n## ???\n\nI'm seeing this in Patchbay, but I'm going to check Patchwork too.\n\n[1]: https://en.wikipedia.org/wiki/Cannabis_in_Georgia_(country)"
+    "type": "vote",
+    "channel": "patchtron",
+    "vote": {
+      "link": "%jWVFHBX7MKeSIsrffFEq1G/rldXVi3UFS2FOFbs1hR8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lPZWJfyEZ/nyW3/yNZGe6951W/79lhqzd5av4Rei8n00qc4dMQvlbG+w5J4Q59Mp/IzlmalYsRv50SYpXfDmDA==.sig.ed25519"
+  "signature": "4m30VNgSY2XNZQF70fsk531mm/W2Sxwtl37O4MKtBEqjGgWoA2izMeYKLXeC008q0JpCcshPEhf5FdsxBsdaDg==.sig.ed25519"
 }
