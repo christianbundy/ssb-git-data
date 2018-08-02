@@ -1,16 +1,12 @@
 {
-  "previous": "%yOGbCE9vMUXlijlL1pXwt5FFP7ET6ZB7E2C0dEAzm94=.sha256",
+  "previous": "%FPc6AJtfdSZqOMT+LsoKr+oPROImJt+pJVivzOAIysY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1057,
-  "timestamp": 1533226994829,
+  "sequence": 1058,
+  "timestamp": 1533228547959,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nElvtEfn66QXJuCIjbJqy0b0f3dgV5s+1j1wjzhw1SQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "I'll be surprised if this hasn't *already* been compiled, but has anyone put together a list of technologies used in SSB that *generally* aren't super common elsewhere? Off the top of my head:\n\n- pull-streams\n- hyperscript\n- mutant\n- mcss\n- depject\n\nAnything I'm missing? I'm learning a ton, but I think this is one of the first Node projects I couldn't pick up and start hacking on without learning all new infrastructure. Here's an example from one of the tabs I have open: https://github.com/ssbc/patchcore/blob/master/about/html/link.js\n\nAnyone else have (or *having*) a similar experience?"
   },
-  "signature": "CpfyKedFrKOXA9S4gS8HGzMfjq1HcPp4xZVic9Wqq3OR/lqZ26QKyffe94B8+ADr8zbSvanAHKauWr120yD0Cg==.sig.ed25519"
+  "signature": "89vk8IEU0XILafHCf56I431/eR9p5QuI4xMcShM00XmHZtKmGsmbwfhLzB5DQDl8qAOTNTWbGPntQerbUHRqAQ==.sig.ed25519"
 }
