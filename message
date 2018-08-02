@@ -1,17 +1,21 @@
 {
-  "previous": "%22Ch9kWsszE4r5+cILwN3asqBWH69X3sidxxCP5e/9M=.sha256",
+  "previous": "%5cOjEE5YmxZhw8PZKKrKdoNLdFmozU3BiWZXFpw6FmI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1062,
-  "timestamp": 1533229730536,
+  "sequence": 1063,
+  "timestamp": 1533235134552,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "osm",
-    "vote": {
-      "link": "%VciAbWoXlMTipYeknywsuEJat2Wm/vQH1RchXgdeLGA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%qXHNAiNn1MC9wufASWzFrOu/MkDBtQWJP1ruyhueBgQ=.sha256",
+    "branch": "%fUI7bGg+esQz3Qy89EqR3OXAQvFg5m+4fnP/Upn391E=.sha256",
+    "reply": {
+      "%qXHNAiNn1MC9wufASWzFrOu/MkDBtQWJP1ruyhueBgQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%fUI7bGg+esQz3Qy89EqR3OXAQvFg5m+4fnP/Upn391E=.sha256": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Absolutely, I'd love to learn more about At the risk of sounding critical, I'd also love to hear about how they compare with what others are doing. I'm going to channel [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law) and just summarize my understanding of the above technologies and their alternatives.\n\n---\n\n# Common Scuttlebutt Software\n\n## [`pull-stream`](https://github.com/pull-stream/pull-stream)\n\n> In [classic-streams](https://github.com/nodejs/node-v0.x-archive/blob/v0.8/doc/api/stream.markdown), streams push data to the next stream in the pipeline. In [new-streams](https://github.com/nodejs/node-v0.x-archive/blob/v0.10/doc/api/stream.markdown), data is pulled out of the source stream, into the destination. `pull-stream` is a minimal take on streams, pull streams work great for \"object\" streams as well as streams of raw text or binary data.\n\nThe first thing I noticed about the above intro paragraph is that both of the links resolve to documentation for unstable features in Node v0.x, which makes sense because those links were added in [March of 2013](https://github.com/pull-stream/pull-stream/commit/fe37decda981db967609bafe81968fc001cb88b0). I spent some time [learning about pull streams](https://github.com/dominictarr/pull-stream-examples/blob/master/pull.js) and it seems like they're a callback-driven take on JavaScript streams. I'd love to hear how these compare to streams in Node 10.\n\n## [HyperScript](https://github.com/hyperhype/hyperscript)\n\nWrite JavaScript, get HTML. Instead of using some *other* language like Handlebars, Pug, EJS, or whatever the cool kids are using these days. It's as easy is `h('p', 'This is a paragraph.')`. The fact that [react-hyperscript](https://github.com/mlmorg/react-hyperscript) exists makes it clear that the authors are familiar with JSX, so I'd love to hear about the pros and cons of each approach. I have strong feeling about JavaScript-adjacent languages (\\*cough\\* TypeScript) that diverge from ECMAScript and ruin tooling compatibility, so at first glance it *seems* like the problems of JSX are resolved by HyperScript.\n\n## [Micro CSS](https://github.com/mmckegg/micro-css)\n\nWhat seems to be a take on *CSS, The Good Parts* or *the `'use strict';` of CSS, this is a CSS preprocessor that forces your CSS to be more specific. Also semi-colons are now optional. Micro CSS gives you the nesting abilities of tools like SCSS and LESS but with an implicit `>`. CSS has the tendency to tie itself in knots the same way headphones do in a pocket, so I'm all for using tools to restrict its tendency for becoming a dumpster fire. As SCSS seems to have become the de facto standard for most people, I'd be curious to hear more about the ergonomics of MCSS after it's been out [for six years](https://github.com/mmckegg/micro-css/graphs/contributors).\n\n## [depject](https://github.com/depject/depject)\n\nDepject is, as the name implies, a minimal way to do dependency injection in JavaScript. On one hand, I love the philosophy of classifying opinionated software so that it can be predictably replaced when our opinions change. I think modularity is important and is a powerful tool to solve complex problems. On the other hand, depject still hasn't clicked for me. It *seems* incredibly clever, but from an outside perspective it doesn't seem simple or intuitive, so I'd *love* to hear if anyone has any good learning resources. \n\n---\n\nHuge shout out to the authors of the above software. Please correct me ~~if~~ where I'm wrong.",
+    "mentions": []
   },
-  "signature": "kORDp/Enj0L/oARflcNVRep3UumjJYnVkxD65o62Gu+FLtABnSBfnIe2EQgVR74mKpt5k0xBRIGzaJRH2iO8BA==.sig.ed25519"
+  "signature": "Y7XJALmp9+c1BDVh+6b7ecAoS+iAZKyNFq29nxNgolNslB3DtuE2FntwSvQnibS9QEj+v1zlVHjBuVF9YqZ8BQ==.sig.ed25519"
 }
