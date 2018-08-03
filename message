@@ -1,13 +1,17 @@
 {
-  "previous": "%9GOeh4RwwTnIN/nrAIXxkbtR6pq4MGdVi7IUy/4Phtg=.sha256",
+  "previous": "%cNChe5RRqvrnSQnX0roW8i6PRFYzJzqb1ukFPfO2xD0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1087,
-  "timestamp": 1533333034905,
+  "sequence": 1088,
+  "timestamp": 1533334772714,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I'm working on the AUR package for Patchbay and I just noticed that there were some 32-bit dependencies that my [automated] tooling suggested. Does Patchbay actually require `lib32-glibc` and `lib32-gcc-libs`? It seems to be running fine without them, but I also don't want to miss an edge-case.",
-    "channel": "patchbay-dev"
+    "type": "vote",
+    "channel": "ssb-clients",
+    "vote": {
+      "link": "%oVaLtNFzLlZMFNn32i1TjVhsJ0pUg+XcAFH5Ly+RgDY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "DQtu48DRguK1lcWYtet5bZGD/Hydm01Gls8AFdwZlH/1FFkm0toVIVeXgNECKIIrYS61kp15Jra0DshrDEhGAg==.sig.ed25519"
+  "signature": "pQpHNsYEGixSRr1zAOYyvbLz24up95ODmyrePoDno1YOsglVSUFz0lEzcN9yegOT3YMKXhFfQaw5ar+9s2gFAg==.sig.ed25519"
 }
