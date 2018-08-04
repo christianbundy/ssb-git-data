@@ -1,17 +1,50 @@
 {
-  "previous": "%eplRNLvHHd0KoplNIPxrr63d0Mut96DgYM/GyYyRyos=.sha256",
+  "previous": "%lErVb2nG0RNJKuJe0yzMZ2F8AvGyFm8+6PeGv+0Ls4E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1091,
-  "timestamp": 1533346087344,
+  "sequence": 1092,
+  "timestamp": 1533347447279,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%OaOu2fT5TYFHV26020zKvS4cTWrrWeJDOrSufPJK/xo=.sha256",
+    "branch": "%LGkDm3SAmb77kPGxV+gJnqBhNHGNd2Wt1dE2f7FkvDI=.sha256",
+    "reply": {
+      "%OaOu2fT5TYFHV26020zKvS4cTWrrWeJDOrSufPJK/xo=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%LGkDm3SAmb77kPGxV+gJnqBhNHGNd2Wt1dE2f7FkvDI=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": "selfie",
-    "vote": {
-      "link": "%OaOu2fT5TYFHV26020zKvS4cTWrrWeJDOrSufPJK/xo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nHey friend! I have to say, this is probably the deepest selfie I've ever seen, and I love being part of a community where we can feel comfortable showing each other our less-than-awesome feelings.\n\nI haven't had boils before, do they feel the way they look? I imagine they're puffy but tender to the touch, and go away on their own (?), but I know nothing. They *look* like the sort of thing I'd throw an ice pack on, but again, I know nothing. :alien: \n\nMental health flares, on the other hand, I can definitely relate to. Going through one myself, so I hope you know you're definitely not alone there. I'd be willing to bet others are here for you going through similar sorts of issues, and I (/we?) would love to hear you write about the way you're feeling. Somehow introspection can sometimes disarm those feelings and make them feel less \"impending\" even though they can't always resolve them completely. \n\nAnyway, I'm going to throw some \"gifs\" below. I hope you don't mind that they're MP4s. :innocent: \n\n![video:kitty.mp4](&ng0mbp/N4p7KyPs/3/OePNsNySMJr3luGORZpEuGip8=.sha256)\n\n![video:roll.mp4](&4vfyEw90+4Ce8JCpvZlwd/zFWlnMRmI2PdZulzo0eiQ=.sha256)\n\n![video:pet.mp4](&ESlA1nBWzLJBZqL0Mi+EMlfD6NDWoyin2TbP9ivO5FY=.sha256)\n\n![video:beach.mp4](&7PLyRUb6eudC7OHHzpagLcV3Td2O7N7HTSKCymKc2ac=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      },
+      {
+        "link": "&ng0mbp/N4p7KyPs/3/OePNsNySMJr3luGORZpEuGip8=.sha256",
+        "name": "video:kitty.mp4",
+        "type": "image/gif",
+        "size": 3819512
+      },
+      {
+        "link": "&4vfyEw90+4Ce8JCpvZlwd/zFWlnMRmI2PdZulzo0eiQ=.sha256",
+        "name": "video:roll.mp4",
+        "type": "video/mp4",
+        "size": 2317692
+      },
+      {
+        "link": "&ESlA1nBWzLJBZqL0Mi+EMlfD6NDWoyin2TbP9ivO5FY=.sha256",
+        "name": "video:pet.mp4",
+        "type": "image/gif",
+        "size": 2841788
+      },
+      {
+        "link": "&7PLyRUb6eudC7OHHzpagLcV3Td2O7N7HTSKCymKc2ac=.sha256",
+        "name": "video:beach.mp4",
+        "type": "video/mp4",
+        "size": 3400023
+      }
+    ]
   },
-  "signature": "vdLnNvULNUPW5FGk0BV944CEmrU5BO3LFLL21Ww6Koe8bH9pfob/NL0ACZQOHngNYs8F29ztTeXJFJX/v4ujAg==.sig.ed25519"
+  "signature": "nshPNOMuIbxWcC5nYIw+eHW++lfImWkNsrJgjh6XbzYpBn6kCtluy2O086TPUQWafkYyGNCv+tAeSGq0bxOOCA==.sig.ed25519"
 }
