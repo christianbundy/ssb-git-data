@@ -1,13 +1,17 @@
 {
-  "previous": "%mfeJyXxZFxQ9QsxDi/KUQJRAO/RRT83lbFwW1fAfv7A=.sha256",
+  "previous": "%M/v58Hc1YGgahvZTsNGW4LNUnI8PQjiKLOPwkKAgtsk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1101,
-  "timestamp": 1533401279882,
+  "sequence": 1102,
+  "timestamp": 1533401360463,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@YND2Cb9uk3ZdFyzXpaXDH5HZ9udu+qjg4MhNcynK2RE=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "scuttlebutt",
+    "vote": {
+      "link": "%x994bXlhZu8/1/x+TK/RiTTudwA/QfxK0t8LMS/eoT4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "MIHRlW2B8rEiPr2SGcwEme/Gm9wsUkagF1ZeakvgV8CmARLx3nhKJb7xqm7IjmsHpm7PRFAn84pabseLQXJpDw==.sig.ed25519"
+  "signature": "u/1vqBxVjKgLTVFw/zBk0ufr5zbxjJVz/xFlab/Gqgpt10bKfXE8y9yDcdE1sxoCjIrKWYl/D7BKld+795GYCQ==.sig.ed25519"
 }
