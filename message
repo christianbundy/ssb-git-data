@@ -1,17 +1,21 @@
 {
-  "previous": "%H05rAMAAaT03arns8S3+Wt9yPulYhw9fqodPgq0PNtY=.sha256",
+  "previous": "%b5hZMC7pQWl/a3VihTKkR4fgIwFBJCbwqQEYxA9Bfqg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1099,
-  "timestamp": 1533400905324,
+  "sequence": 1100,
+  "timestamp": 1533401075068,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "hiking",
-    "vote": {
-      "link": "%gf74oufBMEeYydaVm2vfeIP97M+egdPKJP8th6D7D9A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%3LhPRZInmubpknKtWLCBGqoFH5bo2k0wMkpi/Ik0pQ0=.sha256",
+    "branch": "%IjHA6uYL5BtuaeNgUMa84kAnCB7mucV8vbbfQsUZm2I=.sha256",
+    "channel": "patchbay",
+    "text": "[@yi](@oPxaLdSL/bB1IwYjYfg0zcCyy0u7IzD9VlaVPR7beoM=.ed25519)\n\nCan you link to the text blob so I can repro? :hammer: ",
+    "mentions": [
+      {
+        "link": "@oPxaLdSL/bB1IwYjYfg0zcCyy0u7IzD9VlaVPR7beoM=.ed25519",
+        "name": "yi"
+      }
+    ]
   },
-  "signature": "pxBbIJrnuymw20dPYQ+RXXsO8Hy5DmerrZTgChe/NPUAAsSTrmN673QbX3uPPj6qv54qUXyeDOOsmGdtognvBQ==.sig.ed25519"
+  "signature": "/ISGxd0H3Hi1LkS9ybXN3RVlHkVtZed+k62xmv4apUYppUXSRZwuIULqHXlcLjAZZ041G+BEHMhC768GXmN+BQ==.sig.ed25519"
 }
