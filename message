@@ -1,25 +1,16 @@
 {
-  "previous": "%+qrTLR44rO//Bh0R3BH7qyAM1M0rUuAc8rpDgMmdXNg=.sha256",
+  "previous": "%wIM62zPTENCsXdjGSucE/tJQ5QY+apPL3+0TNEh6Ags=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1107,
-  "timestamp": 1533441791283,
+  "sequence": 1108,
+  "timestamp": 1533441834085,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3LhPRZInmubpknKtWLCBGqoFH5bo2k0wMkpi/Ik0pQ0=.sha256",
-    "branch": "%uaub8IO+PGu/NNa2UREu/wJM/s/nRGNFFSuuS2QpOvY=.sha256",
-    "channel": "patchbay",
-    "text": "Sweet, I can reproduce the problem with &kNkjGQvUkOEC1xbaqnRDrnUQ3daN1jnA0SaNoMatkuc=.sha256 in my client as well. It looks like Patchbay is just creating an `<iframe>` to embed the raw text file, and the browser running under the hood, Chromium is auto-encoding the browser to what I *think* is [Western](https://en.wikipedia.org/wiki/ISO/IEC_8859-1). Firefox is doing the same for me.\n\nYou can resolve this issue with a [BOM](https://en.wikipedia.org/wiki/Byte_order_mark) to force the browser (or SSB client) to use the correct character encoding. Which text editor are you using? In Vim, for example, you can use `:set bomb` to ensure that the file is saved with a BOM.\n\nFor example, here's your file with a BOM: &vNyMLlGhTjfSuTtdWLD3cz4+pd6OS3RYFCm+zk1BszM=.sha256",
-    "mentions": [
-      {
-        "link": "&kNkjGQvUkOEC1xbaqnRDrnUQ3daN1jnA0SaNoMatkuc=.sha256"
-      },
-      {
-        "link": "&vNyMLlGhTjfSuTtdWLD3cz4+pd6OS3RYFCm+zk1BszM=.sha256",
-        "type": "application/octect-stream",
-        "size": 89
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%P1bKoauQhHkenzyEgNdCsk6MKGhJkZ0usPGzvnqU2MA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0QqgPqH+ZHUcDbmHvfEstPyMDTBZRoLQCjPKNxQ/odAqo1HnJkJORohAkMEL4rHY8xXKHmZGuE3yCCgpBMKjDQ==.sig.ed25519"
+  "signature": "nhzmvVqwPnhAPGnz3MUemWn023Nyx9qR87d3CsqEIJ84SR5eV6T1D+dnE1tMpMdPdwILxbmbg8f5sgwIpLOwBw==.sig.ed25519"
 }
