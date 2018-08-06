@@ -1,18 +1,13 @@
 {
-  "previous": "%jAZl3WFCokhAdhf2lYrtZ7mgvPi0vSVWFbs7suZubB4=.sha256",
-  "sequence": 1229,
+  "previous": "%XFHXzb7V0TdUGyH0oFVCfgpd1YjmkROpoD9kmLtehAQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1533584099623,
+  "sequence": 1230,
+  "timestamp": 1533584138198,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 3,
-    "root": "%9mbqzWsCKVLVMSiemLVKEHpc0sfm+IgHHwuA+coPUGM=.sha256",
-    "orig": "e2",
-    "dest": "e4",
-    "pgnMove": "e4",
-    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 0 2",
-    "branch": "%Furxz8R93AOXoobabtY4+h+TbSeFPfcHZjDeesnPqr4=.sha256"
+    "type": "post",
+    "text": "I made a small change to `ctrl/social.js` to test whether I can play a game of chess with folks who don't follow me, but now Patchbay keeps hanging after a few minutes of use for no discernable reason. I'm *hoping* it's unrelated, but I wanted to post just on the off chance that I've triggered some sort of bug.\n\nBefore:\n\n```\nreturn following.filter(function(n) {\n  return followedBy.indexOf(n) !== -1;\n});\n```\n\nAfter:\n\n```\nreturn following;\n```\n\nWas this a Bad Idea? :innocent: ",
+    "channel": "ssb-chess"
   },
-  "signature": "fLozeXR0O07Esn0RtmEmVmbkfEc8hgj8E2xVnMCmcHLR1X33W+w1TinH5uMxuZrUSrpEtKAWKP3h6afsx4NsCA==.sig.ed25519"
+  "signature": "NVCD0PJUMn6cwtyNXCkqnTYm6Bz0NHj8+R6arIFyPmEQWgOvWlwu3iCbbK1gidA7Vr8wym9n4A/7yqHzWKo1Dw==.sig.ed25519"
 }
