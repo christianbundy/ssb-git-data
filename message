@@ -1,13 +1,13 @@
 {
-  "previous": "%XFHXzb7V0TdUGyH0oFVCfgpd1YjmkROpoD9kmLtehAQ=.sha256",
+  "previous": "%SCNxi2VRBiNqrnr1Rcc2nSn1yOWRUSMFrMdEVsdjY8k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1230,
-  "timestamp": 1533584138198,
+  "sequence": 1231,
+  "timestamp": 1533584178721,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I made a small change to `ctrl/social.js` to test whether I can play a game of chess with folks who don't follow me, but now Patchbay keeps hanging after a few minutes of use for no discernable reason. I'm *hoping* it's unrelated, but I wanted to post just on the off chance that I've triggered some sort of bug.\n\nBefore:\n\n```\nreturn following.filter(function(n) {\n  return followedBy.indexOf(n) !== -1;\n});\n```\n\nAfter:\n\n```\nreturn following;\n```\n\nWas this a Bad Idea? :innocent: ",
-    "channel": "ssb-chess"
+    "type": "contact",
+    "contact": "@D26sJ/Seyc4WBcpZDi4PYcqEg+2nUb7WoTQg9NknDyg=.ed25519",
+    "following": true
   },
-  "signature": "NVCD0PJUMn6cwtyNXCkqnTYm6Bz0NHj8+R6arIFyPmEQWgOvWlwu3iCbbK1gidA7Vr8wym9n4A/7yqHzWKo1Dw==.sig.ed25519"
+  "signature": "xObjlMX05eb3SoO+frAAuRClQZrGPxCwrlVmsn4mLO2T9Iecs3RA+U6izaLIoYPKXZ4IT7IYPSEe2n7QN2kkAQ==.sig.ed25519"
 }
