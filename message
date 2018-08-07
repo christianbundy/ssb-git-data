@@ -1,22 +1,18 @@
 {
-  "previous": "%05BdFFcrA2TlL+9nHoU0yYIZIl9vZKoL3RX3cBFgWvQ=.sha256",
+  "previous": "%cT93XLm1Srpr89AUF3MBuImGlKlL8CEOJAR3ygYYsAg=.sha256",
+  "sequence": 1325,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1324,
-  "timestamp": 1533673769128,
+  "timestamp": 1533673942014,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I've opened issues on GitHub a couple weeks ago but haven't seen a reply, so I'm asking here in hopes of getting some help ( #patchbay-help ?):\n\n- [What does the Patchbay release cycle look like?](https://github.com/ssbc/patchbay/issues/212) It's been a while since we've had a new release, and while I'm *personally* fine building from source I know that isn't optimal for everyone. I'd love to volunteer some time to work on this, if that's helpful.\n- [How is Patchbay licensed?](https://github.com/ssbc/patchbay/issues/213) It looks like `package.json` says it's licensed under the GPL v3, but `README.md` specifies that it's licensed under the MIT. \n\n![hermes thank you](&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256)",
-    "channel": "patchbay-dev",
-    "mentions": [
-      {
-        "link": "#patchbay-help"
-      },
-      {
-        "link": "&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256",
-        "name": "hermes thank you"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 40,
+    "root": "%y4GiMiw04w9A7K8jMAZ0vSO6bSIeSRDjuSafnPSyJYs=.sha256",
+    "orig": "e7",
+    "dest": "f7",
+    "pgnMove": "Qf7",
+    "fen": "2kr4/p4q1p/1p1Pp1n1/4Bp1Q/4P3/4b3/PPP3PP/3RK1NR w K - 1 21",
+    "branch": "%98CIIrURC4+LADQDZKCe1Y1T4dowgnVLMkNwkE2b6Yc=.sha256"
   },
-  "signature": "YkFu4LHTOHfuzG5IEBjsvb+5817an3xRW9BpVwfzrVrUK8oUmWpM9B86SmwpnlYe4/fC6KqOvusBr/IbNVQ8Dw==.sig.ed25519"
+  "signature": "cW7iw9xVxsW1Jt1fd+2aEtBeFNrQAV7/KmJpzlJzznbDvtaPrJskbb9gWeYhWvqFHm7YsR4AZntSXC7o1G61Cw==.sig.ed25519"
 }
