@@ -1,20 +1,22 @@
 {
-  "previous": "%MWdefBpnYnhFtUwrgxuci7FYwlZCY2W8ZXnJwKhmj2g=.sha256",
-  "sequence": 1323,
+  "previous": "%05BdFFcrA2TlL+9nHoU0yYIZIl9vZKoL3RX3cBFgWvQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1533673070217,
+  "sequence": 1324,
+  "timestamp": 1533673769128,
   "hash": "sha256",
   "content": {
-    "type": "position",
-    "version": "v1",
-    "root": "%pQEdsJE2gTbCX4LjKq2YvM+6B0lmzQ07dDurH/qeHQw=.sha256",
-    "details": {
-      "type": "chooseOne",
-      "choice": 2
-    },
-    "branch": [
-      "%lUDovqRQDDOrqrlq/Ygcpt801ZAhG63VNEQbuqpNS2A=.sha256"
+    "type": "post",
+    "text": "I've opened issues on GitHub a couple weeks ago but haven't seen a reply, so I'm asking here in hopes of getting some help ( #patchbay-help ?):\n\n- [What does the Patchbay release cycle look like?](https://github.com/ssbc/patchbay/issues/212) It's been a while since we've had a new release, and while I'm *personally* fine building from source I know that isn't optimal for everyone. I'd love to volunteer some time to work on this, if that's helpful.\n- [How is Patchbay licensed?](https://github.com/ssbc/patchbay/issues/213) It looks like `package.json` says it's licensed under the GPL v3, but `README.md` specifies that it's licensed under the MIT. \n\n![hermes thank you](&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256)",
+    "channel": "patchbay-dev",
+    "mentions": [
+      {
+        "link": "#patchbay-help"
+      },
+      {
+        "link": "&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256",
+        "name": "hermes thank you"
+      }
     ]
   },
-  "signature": "W+A1S3T+mwRbFu+WgkZWHNRXYB/7s7Ret4/u5hEk7Q+TPb5A7ivmZaVzBkhnpY1RwYvCT/E2jtiA9lekAj67Bw==.sig.ed25519"
+  "signature": "YkFu4LHTOHfuzG5IEBjsvb+5817an3xRW9BpVwfzrVrUK8oUmWpM9B86SmwpnlYe4/fC6KqOvusBr/IbNVQ8Dw==.sig.ed25519"
 }
