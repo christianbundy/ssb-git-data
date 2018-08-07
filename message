@@ -1,17 +1,18 @@
 {
-  "previous": "%DJG//Yu/Rj4vMA0Z6gsB2xrJTFrXamSWe4dShcvbLSs=.sha256",
+  "previous": "%wN+7DhiT0eT9s/XL8taCtrWLNpKAsy1aAOaBuML1O7E=.sha256",
+  "sequence": 1333,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1332,
-  "timestamp": 1533678946623,
+  "timestamp": 1533679307574,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "realvegancheese",
-    "vote": {
-      "link": "%bYDx9G6XXHlELZqrPKF4XolL0xKl7R58EPKjEPIgpRw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 48,
+    "root": "%y4GiMiw04w9A7K8jMAZ0vSO6bSIeSRDjuSafnPSyJYs=.sha256",
+    "orig": "g6",
+    "dest": "e4",
+    "pgnMove": "Qxe4",
+    "fen": "2kr4/p6p/1p1Pp3/1Q2n3/4qp2/4b1P1/PPP4P/3RK1NR w K - 0 25",
+    "branch": "%SkLG3esSqqJFduti7rxMK+bIh4tcPPM6GiDNnzyHyzo=.sha256"
   },
-  "signature": "owFGnTvFEdODhLDlv+rLaF914+tCgWGjd2F0t8X/JsDp9ZkRwi1WmiSoZB7LwLwALdhkaUo6590tyPtChSy3Aw==.sig.ed25519"
+  "signature": "pRjNfX15kHDl90aIEBd9sdInxpK+ob8yinPO9ePhIo2HbUpCYZNkKWsUjGO82ba5Cu1dlr7tQ4YmpgIBzGNECg==.sig.ed25519"
 }
