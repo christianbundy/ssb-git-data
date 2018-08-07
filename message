@@ -1,17 +1,21 @@
 {
-  "previous": "%at3I2ClGfniBjsOtNu5sjd2+aKgeYPo9LEEJQiNdr+M=.sha256",
+  "previous": "%2bBFjZZ6gCBz0gDqTOhpMk4Hr0z7RL/Z0OfQ7w0Qmy0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1330,
-  "timestamp": 1533678228397,
+  "sequence": 1331,
+  "timestamp": 1533678926009,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%mqoNMIyHsBAdia/ufapVgacxdooxw6U9zhY476irpf0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cT93XLm1Srpr89AUF3MBuImGlKlL8CEOJAR3ygYYsAg=.sha256",
+    "branch": "%J8OW/2S6EouoJsuxefirOaUTDgpfsdOu+nhYRoY+9QI=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nThanks! I'll start looking around for how it's been packaged in the past. Do you mind if I ping you if I get stuck?",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "TiNbN+yCm+0+WhPeaxCW6cjSHbkWMztFrpZgdVnpQ31qQUmV8y0HHpMR0N6+UQ3eUntOKoezm0hAA3tFWTU6BA==.sig.ed25519"
+  "signature": "6Yp7A9VsbsS/2PlR0kpig+brH1C6UYaK4pFKByPCQnrQkZXeeS3xvSLnBeWYg++7cn5IcMTo0FdWzT7HA7e1Cg==.sig.ed25519"
 }
