@@ -1,26 +1,16 @@
 {
-  "previous": "%MiPH9e97qD8fAwSLACKOdPI/UCghWN18qR+/f2PwsGk=.sha256",
+  "previous": "%RQ4Xw7joyehkUQx2ZB6e3Zp6clLEgo1LgjyWX6kDi28=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1266,
-  "timestamp": 1533610785473,
+  "sequence": 1267,
+  "timestamp": 1533610816874,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jjvA9HaWi4TgRF1BMQCZMCRSfNHH35Eb8vucBjFwFAk=.sha256",
-    "branch": "%jjvA9HaWi4TgRF1BMQCZMCRSfNHH35Eb8vucBjFwFAk=.sha256",
-    "channel": "linux",
-    "text": "![pacgraph.svg](&XB+/ajEaUVwF7EowdO/qg4rVl0PvgzNcLPF4uKBB7v8=.sha256)\n\nI made a few small changes to my system.\n\n- Replaced Firefox with Epiphany (GNOME Web)\n- Repackaged `ssb-patchwork-git` and `patchbay-gig` to use the system Electron\n- Replaced `signal-desktop-bin` with `signal`, which uses the system Electron\n- Removed a handful of software I just needed for one specific thing\n\ncc: #archlinux ",
-    "mentions": [
-      {
-        "link": "&XB+/ajEaUVwF7EowdO/qg4rVl0PvgzNcLPF4uKBB7v8=.sha256",
-        "name": "pacgraph.svg",
-        "type": "image/svg+xml",
-        "size": 143983
-      },
-      {
-        "link": "#archlinux"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%AIPNp76J1DFJGV7KrpnPQCJYpJFw+Gqbd9FVKQtYiEw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "VVAx+wnmy6XUauI+pE9K4losGPaP3MLAcPgCrt6ruJbox8Dgke2z82UKUKhA5TQg6WlBmH7yTWsj/iXmj2EGAw==.sig.ed25519"
+  "signature": "zVPrIk/LOwA+n4Zb4I+bI/LdH4pOOL+htw1hA0zAmGwy20MqwSd4kkXJC+/0IH6DstoXO7rpgcS5QuDGOxZyCw==.sig.ed25519"
 }
