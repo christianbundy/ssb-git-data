@@ -1,18 +1,27 @@
 {
-  "previous": "%8C5hWmpba2Zh2oakov4qvfWMwfYbEY+t+EGiY+Geg1k=.sha256",
-  "sequence": 1336,
+  "previous": "%ZWUdjIFrW+zyBVtjrNA6fVUTqx5Jn22Qi9NqbNQe2gI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1533681255923,
+  "sequence": 1337,
+  "timestamp": 1533682101204,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 54,
-    "root": "%y4GiMiw04w9A7K8jMAZ0vSO6bSIeSRDjuSafnPSyJYs=.sha256",
-    "orig": "e4",
-    "dest": "h1",
-    "pgnMove": "Qxh1",
-    "fen": "3r4/pk1P3p/1p2p3/4n3/5b2/8/PPP1Q2P/3RK1Nq w - - 0 28",
-    "branch": "%8C5hWmpba2Zh2oakov4qvfWMwfYbEY+t+EGiY+Geg1k=.sha256"
+    "type": "post",
+    "root": "%pjAlBiVLwMom8y9pjlCCj7yeb/LYGcqLzNmhPRq59Mo=.sha256",
+    "branch": [
+      "%ZzDNjWNxp0Wn6CCsAsGHTQWAostU+VQXhM81T4gGYbE=.sha256",
+      "%r53k+PWg4EeG710AVS/NC+jJe++mskGawBA1AJbH3d8=.sha256"
+    ],
+    "text": "[@cameralibre](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519) [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nMost of the billboards in my neighborhood look like they were vandalized with paint pens, but I've seen a handful of instances where it's obvious that some watered-down paint and a fire extinguisher were used to reach inaccessible areas. I can't recommend breaking the law, but from an engineering perspective I thought it was pretty clever.",
+    "mentions": [
+      {
+        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+        "name": "cameralibre"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "ODxjw54rNurCqWga7Kf8dVBMn1441fpsx0cLYSqHgOX6nz9j9acSXSduCOrAoP/j7sfE//yxwRfglCAaUdNwCQ==.sig.ed25519"
+  "signature": "IkAJe4EtHmxMsTCXGvDUC2u67RGG1H9vmS7CicCqHn8z5imuKsLGm1gSgF3vnKjDHnuUqAB4k3BJzM89iHi2DA==.sig.ed25519"
 }
