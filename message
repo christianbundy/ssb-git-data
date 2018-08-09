@@ -1,17 +1,21 @@
 {
-  "previous": "%9RUsyF8prWL3GQcsiwvIR2EQ7RaiXmDy3oZ+3FPUobY=.sha256",
+  "previous": "%xWRTNa5kJ6Mt6WoRbG1b1X79tGJkJ8k4+ZxeuDEn0VM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1415,
-  "timestamp": 1533777106210,
+  "sequence": 1416,
+  "timestamp": 1533777698399,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebutt",
-    "vote": {
-      "link": "%ZCODq83xRs+sbU8YXxZ1MPlFP1u9i2wyIYAu6GCTqNo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cT93XLm1Srpr89AUF3MBuImGlKlL8CEOJAR3ygYYsAg=.sha256",
+    "branch": "%H7ANClvqrWu+w+9Yi2j8WV4XfduxYTuacqrxA+mDh7Y=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nNo problem at all, I know there's a ton of activity under the SSBC org on GitHub. \n\n> I think I was publishing tags in the past a lot more, and definitely would do that if we build installers (e.g. AppImage, dmg, exe). I've been meaning to do that for a while but no-one has asked so haven't prioritised.\n\nDid you have an automated way of doing this? I'd like to avoid reinventing the wheel since the current installers seem to work just fine, but if your old way doesn't work anymore I'm happy to break trail. Packaging for Arch is *much* easier for me, but I know that there aren't a ton of people who use Arch (or, more specifically, want to run `master` full-time).",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "A8KiNHNC9OgUJVSc3/Rad3ssxpwldkmYjRGNPpHgDExVm62UnSDtK5dLOu097L/UnyoP9Vu5mI8KzUEd+A2XCQ==.sig.ed25519"
+  "signature": "HgG78C1aIPRVLH93ogVb8m+zKq8zkjzvPXT4yMFGKYWlwpgmqqtyOZqJTSH9x7WnnDNvUrGZaslJa7059u/pDw==.sig.ed25519"
 }
