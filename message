@@ -1,20 +1,22 @@
 {
-  "previous": "%X3GNSibeXbSITyGFzEstengFVO7wWVMWXiT0PDPLaj8=.sha256",
+  "previous": "%Gp6/dY3W4rYyzP3o54/2975u7Y3orrVnvRraffnGvrQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1453,
-  "timestamp": 1533841490710,
+  "sequence": 1454,
+  "timestamp": 1533841531448,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "branch": "%Qu1bO+9YKs1LCOO8Fn0ri8eY+Ox06nlb0vKs/0rBLzs=.sha256",
+    "type": "edit",
+    "branch": "%Gp6/dY3W4rYyzP3o54/2975u7Y3orrVnvRraffnGvrQ=.sha256",
     "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "updated": "%Gp6/dY3W4rYyzP3o54/2975u7Y3orrVnvRraffnGvrQ=.sha256",
+    "original": "%Gp6/dY3W4rYyzP3o54/2975u7Y3orrVnvRraffnGvrQ=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nI worked on some of the Node 10 compat stuff for Patchwork/Patchbay, but this looks way eaiser -- it looks like the only dependencies that require the old leveldown are unused, so I was able to mess a bit with the dependencies and everything is looking great under Node 10. I'll push up PR in a few minutes.\n\nThis is my first time using mvd and it's working great!\n\nEDIT: and edits work too!",
     "mentions": [
       {
         "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
         "name": "ev"
       }
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nI worked on some of the Node 10 compat stuff for Patchwork/Patchbay, but this looks way eaiser -- it looks like the only dependencies that require the old leveldown are unused, so I was able to mess a bit with the dependencies and everything is looking great under Node 10. I'll push up PR in a few minutes.\n\nThis is my first time using mvd and it's working great!"
+    ]
   },
-  "signature": "lyBb/9UZkl46D+6VETod7ZBIt9KXVjoR7e+BQJxTFtIG4SXygLIm+Vz6U7Y6QB5NPuy/W84FNt03+R4Zry6/DA==.sig.ed25519"
+  "signature": "l3hWAZzELMjiQHruP8Kkvd9uKr7R5+E0BYluwqAaRj4ePqMPbkJmgv+cw8H/NdG+B+U2c3RH2xJTScNXO6QVCw==.sig.ed25519"
 }
