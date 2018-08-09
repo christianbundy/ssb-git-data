@@ -1,17 +1,18 @@
 {
-  "previous": "%3MfWgmwCpNl1nNUapKeoX+6kTBBZTWprLd8VX6ggaoM=.sha256",
+  "previous": "%kofm2TrLh0yNBSRnKT0yWrj8NaV9OsRjcHP+FRhmyfE=.sha256",
+  "sequence": 1463,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1462,
-  "timestamp": 1533844264947,
+  "timestamp": 1533844289803,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "resistcapitalism",
-    "vote": {
-      "link": "%hb1IBRgwAnvyNjYzvUC1MxiCFHNpSwFi0OuLO0aFBls=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 77,
+    "root": "%9mbqzWsCKVLVMSiemLVKEHpc0sfm+IgHHwuA+coPUGM=.sha256",
+    "orig": "a6",
+    "dest": "a7",
+    "pgnMove": "a7",
+    "fen": "8/P4p2/3k2p1/2p5/3p4/3P4/KP6/2r5 b - - 0 39",
+    "branch": "%xPSkg8JK7kiUfaSxgFk9Abp9so7sc2XfBJq3Hn1xvSs=.sha256"
   },
-  "signature": "+5vT14rCShFIj9ak0Ulbl/2a2iyki2UO57GE4/qb9eN1DihTZgy2WTd2zI9ruVG+bazbeQiuaMEt3oK9LZ1cBw==.sig.ed25519"
+  "signature": "ZJK0psIBD9wwn7MeiUB4Ac2hPHlxpstB+qI/tIXtL8PJl1IyJrLlqfhq0gPApum0tVw83okjH3JvbVXKV7PCCQ==.sig.ed25519"
 }
