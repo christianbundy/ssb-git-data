@@ -1,18 +1,20 @@
 {
-  "previous": "%STXbh10K8yBV88bjH6BQ8Vz5fshjipIBtgYl/czIl1k=.sha256",
-  "sequence": 1452,
+  "previous": "%X3GNSibeXbSITyGFzEstengFVO7wWVMWXiT0PDPLaj8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1533840692606,
+  "sequence": 1453,
+  "timestamp": 1533841490710,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 71,
-    "root": "%9mbqzWsCKVLVMSiemLVKEHpc0sfm+IgHHwuA+coPUGM=.sha256",
-    "orig": "a1",
-    "dest": "c1",
-    "pgnMove": "Rxc1",
-    "fen": "8/3k1p2/6p1/P1pP4/3p4/3P4/KP6/2R4r b - - 0 36",
-    "branch": "%c5BNLDH1WiTdyMESwMHtw4TgSseOsTizfy8Cw+ZcFFo=.sha256"
+    "type": "post",
+    "branch": "%Qu1bO+9YKs1LCOO8Fn0ri8eY+Ox06nlb0vKs/0rBLzs=.sha256",
+    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nI worked on some of the Node 10 compat stuff for Patchwork/Patchbay, but this looks way eaiser -- it looks like the only dependencies that require the old leveldown are unused, so I was able to mess a bit with the dependencies and everything is looking great under Node 10. I'll push up PR in a few minutes.\n\nThis is my first time using mvd and it's working great!"
   },
-  "signature": "xGN75beKddDtSIksFgYHiIHxl3KQ4L8lxlm7qVeBXrbSJmEYfrU0jWD0e9QjMCkF7atRCgZgxuJ1xzAMQckWCg==.sig.ed25519"
+  "signature": "lyBb/9UZkl46D+6VETod7ZBIt9KXVjoR7e+BQJxTFtIG4SXygLIm+Vz6U7Y6QB5NPuy/W84FNt03+R4Zry6/DA==.sig.ed25519"
 }
