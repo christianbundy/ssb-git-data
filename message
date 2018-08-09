@@ -1,21 +1,18 @@
 {
-  "previous": "%xWRTNa5kJ6Mt6WoRbG1b1X79tGJkJ8k4+ZxeuDEn0VM=.sha256",
+  "previous": "%PIfT1Td8o1pqvTD7XINgaZa05d1LpHtsByG3uBJ87zM=.sha256",
+  "sequence": 1417,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1416,
-  "timestamp": 1533777698399,
+  "timestamp": 1533781616524,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%cT93XLm1Srpr89AUF3MBuImGlKlL8CEOJAR3ygYYsAg=.sha256",
-    "branch": "%H7ANClvqrWu+w+9Yi2j8WV4XfduxYTuacqrxA+mDh7Y=.sha256",
-    "channel": "patchbay-dev",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nNo problem at all, I know there's a ton of activity under the SSBC org on GitHub. \n\n> I think I was publishing tags in the past a lot more, and definitely would do that if we build installers (e.g. AppImage, dmg, exe). I've been meaning to do that for a while but no-one has asked so haven't prioritised.\n\nDid you have an automated way of doing this? I'd like to avoid reinventing the wheel since the current installers seem to work just fine, but if your old way doesn't work anymore I'm happy to break trail. Packaging for Arch is *much* easier for me, but I know that there aren't a ton of people who use Arch (or, more specifically, want to run `master` full-time).",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 14,
+    "root": "%N77aYVAFYIIS6SVvxRPeA/iJpK6m+OY43+RiOAcvRC4=.sha256",
+    "orig": "a5",
+    "dest": "b4",
+    "pgnMove": "Qb4",
+    "fen": "r1b1kb1r/1p1npppp/p2p1n2/2p5/Bq1PP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq - 4 8",
+    "branch": "%Cf86c7BddDNts1K8S9kk+FDeXIdYQmOuKNHh/vUiZss=.sha256"
   },
-  "signature": "HgG78C1aIPRVLH93ogVb8m+zKq8zkjzvPXT4yMFGKYWlwpgmqqtyOZqJTSH9x7WnnDNvUrGZaslJa7059u/pDw==.sig.ed25519"
+  "signature": "W+6f3ovnNbc6M60aTOVZW1Sw1mJcpdmB7UwMyEJScrwf2xQMq9jBLjoSt4Sy7EdVI9o0faSsgnoCERfhD+V9BQ==.sig.ed25519"
 }
