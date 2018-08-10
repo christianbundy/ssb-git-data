@@ -1,17 +1,35 @@
 {
-  "previous": "%/8NKZZD2D6mu5026aenuf2yIKbbU36RBbSE6gvKRmLk=.sha256",
+  "previous": "%HftfDL0A0LcZ7yzbltrHhsNPhZzEcgqaxm9aRHPJuJs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1567,
-  "timestamp": 1533916659067,
+  "sequence": 1568,
+  "timestamp": 1533920364737,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%F7nlQRz/9iGvVrJv6ZogzsBOjiRZAr7YcRmi/cysvSQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%z8EJj3jHUJG6/RSdNHWcahkRu+G41zhh6EhwgepRIzo=.sha256",
+    "branch": [
+      "%/LvPIlRMx7IY5PVqdeqa9X5xd29iC1MZVJbkizA6Psg=.sha256",
+      "%XXJCI6nvhP9B5F/doeCczzWbB5NEMp2hFfZTixe6ojA=.sha256"
+    ],
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nAny chance you have some photos? I'd love to see him. Losing pets is always really hard, and I'm not looking forward to losing this little guy. I'm happy to hear that your little dude gave you some great memories. Jerome *loves* to sit on my shoulders, he's been doing it since we first met.\n\n![little jerome the small cat on my shoulder](&4HY4Hq9ILx6hNEvgok72rpb7/3EruVYlCpJ7J1AnCI4=.sha256)\n\nHe *also* used to try to be a little cat scarf, but he's much bigger now and the physics don't really work.\n\n![little jerome the scarf cat](&1jlu6qwAvGCT3gtoMSq4EEoEtAHvN3zsbQ8RlErjGac=.sha256)\n\nAnimals can be such great little companions. Do you have any right now?",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "&4HY4Hq9ILx6hNEvgok72rpb7/3EruVYlCpJ7J1AnCI4=.sha256",
+        "name": "little jerome the small cat on my shoulder",
+        "type": "image/jpeg",
+        "size": 2200684
+      },
+      {
+        "link": "&1jlu6qwAvGCT3gtoMSq4EEoEtAHvN3zsbQ8RlErjGac=.sha256",
+        "name": "little jerome the scarf cat",
+        "type": "image/jpeg",
+        "size": 2404314
+      }
+    ]
   },
-  "signature": "Q4TBUwnlZcYIpv/CjRVL0DvHB6JJYemq7/Lu+98mUlPZRo0K+uyZ7ehg+RZg+3jHbsqLww4TDw5O+yd4NnjGDg==.sig.ed25519"
+  "signature": "cVns/BBzzMp/55lExqTgxyg9v2YX+K7ZpaUfh+XaASCZVc0ydPLt/qxE0/Xp4NL+pvsE13mXUw85YFt/HJ5gBw==.sig.ed25519"
 }
