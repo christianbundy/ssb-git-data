@@ -1,18 +1,20 @@
 {
-  "previous": "%odippIIXK0DK1LEqvGVCnatgqism1FBLdoZYtKzo2Eo=.sha256",
-  "sequence": 1622,
+  "previous": "%CECt5UGUJhiSKgrizp9gc8AE/eDqJUEZJs4A0z9C3Eg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1533936329789,
+  "sequence": 1623,
+  "timestamp": 1533938559324,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 42,
-    "root": "%/LvPIlRMx7IY5PVqdeqa9X5xd29iC1MZVJbkizA6Psg=.sha256",
-    "orig": "d8",
-    "dest": "e8",
-    "pgnMove": "Kxe8",
-    "fen": "r3kb2/pp2n3/3p1pNp/2p1p3/8/3PBP2/PPP2KPP/R3R3 w - - 0 22",
-    "branch": "%OudP0eI7ZoYDhxS4UlNQu995CXELas1//yuSi8580sk=.sha256"
+    "type": "post",
+    "root": "%y1J1H/8QhWLF7y2yzTxnzUyd3FZTbgdlYtl+ilxHcow=.sha256",
+    "branch": "%y1J1H/8QhWLF7y2yzTxnzUyd3FZTbgdlYtl+ilxHcow=.sha256",
+    "text": "[@canopus](@0DAA8ySG4CA3gyddq0ZSqviJg3hDqM8uaUsrVdXhleQ=.ed25519) \n\nGo to `/settings` and paste in the following:\n\n```\nbody {\n  font-family: \"noto sans\";\n}\n```\n\nYou can switch out \"noto sans\" with \"comic sans\" or whatever your favorite font is. Papyrus, maybe? Remember to hit \"apply styles\" and it *should* change instantly. You can use \"serif\" or \"monospace\", too. More info [here](http://devdocs.io/css/font-family).",
+    "mentions": [
+      {
+        "link": "@0DAA8ySG4CA3gyddq0ZSqviJg3hDqM8uaUsrVdXhleQ=.ed25519",
+        "name": "canopus"
+      }
+    ]
   },
-  "signature": "ZPXQOpdYHzuiDxvlmPaD5UGSrMWzLouSgfxFGrW9YyGdtYuYbah4xgDP0NCXQa7RTpj2Qa8W2HZDdJoY6KjZCQ==.sig.ed25519"
+  "signature": "XEDXtjpECFGnpvXaqAk+ZAr8CwFFtOwwGBTFjddCDPi+6Hj7kDRXQDYN04OWfRdBWkOvNZyfesLEGxm11xSpBw==.sig.ed25519"
 }
