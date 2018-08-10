@@ -1,20 +1,18 @@
 {
-  "previous": "%CECt5UGUJhiSKgrizp9gc8AE/eDqJUEZJs4A0z9C3Eg=.sha256",
+  "previous": "%6gIhy3nJs6amAvgQdGSz86pc6aUtaqfgVJuY5bmsiMg=.sha256",
+  "sequence": 1624,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1623,
-  "timestamp": 1533938559324,
+  "timestamp": 1533938672427,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%y1J1H/8QhWLF7y2yzTxnzUyd3FZTbgdlYtl+ilxHcow=.sha256",
-    "branch": "%y1J1H/8QhWLF7y2yzTxnzUyd3FZTbgdlYtl+ilxHcow=.sha256",
-    "text": "[@canopus](@0DAA8ySG4CA3gyddq0ZSqviJg3hDqM8uaUsrVdXhleQ=.ed25519) \n\nGo to `/settings` and paste in the following:\n\n```\nbody {\n  font-family: \"noto sans\";\n}\n```\n\nYou can switch out \"noto sans\" with \"comic sans\" or whatever your favorite font is. Papyrus, maybe? Remember to hit \"apply styles\" and it *should* change instantly. You can use \"serif\" or \"monospace\", too. More info [here](http://devdocs.io/css/font-family).",
-    "mentions": [
-      {
-        "link": "@0DAA8ySG4CA3gyddq0ZSqviJg3hDqM8uaUsrVdXhleQ=.ed25519",
-        "name": "canopus"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 26,
+    "root": "%N77aYVAFYIIS6SVvxRPeA/iJpK6m+OY43+RiOAcvRC4=.sha256",
+    "orig": "c5",
+    "dest": "c4",
+    "pgnMove": "c4",
+    "fen": "r1b1kb1r/3np1pp/4p3/1p6/1qp1R1n1/2N2N2/PPP2PPP/R1BQ2K1 w kq - 0 14",
+    "branch": "%odippIIXK0DK1LEqvGVCnatgqism1FBLdoZYtKzo2Eo=.sha256"
   },
-  "signature": "XEDXtjpECFGnpvXaqAk+ZAr8CwFFtOwwGBTFjddCDPi+6Hj7kDRXQDYN04OWfRdBWkOvNZyfesLEGxm11xSpBw==.sig.ed25519"
+  "signature": "J1R7DZtZjIBRuhdnug88v+TkH6rOF7Y1z9ODiS5EnTLQK0TliKRpEP0Tdu983LfwHTsomO3n4ZcF0qK8Fm/RBw==.sig.ed25519"
 }
