@@ -1,20 +1,17 @@
 {
-  "previous": "%W6JuUrvq/5dI6Yt3pZ69NAhS8tRAGqc3lJzd3xTbRmU=.sha256",
+  "previous": "%1nvfmDVGULH+rdPDoY8itDHzxo53zXUtSpP7qo751DE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1632,
-  "timestamp": 1533948664350,
+  "sequence": 1633,
+  "timestamp": 1533949845050,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Mslxc5Mq237c132wVM5+IsQmv6oErmHK3R3q+V0Scuc=.sha256",
-    "branch": "%W6JuUrvq/5dI6Yt3pZ69NAhS8tRAGqc3lJzd3xTbRmU=.sha256",
-    "text": "[@LanceW_mobile](@sCk4VB+MH0TQEXx1vpQaP7tYs+Cr14bxwVCTO4R3ZDc=.ed25519)\n\nDone! I've fixed that AUR package and you can now install it (again) without issues. I'll remove my hacky workaround once we're compatible with Node 10 again. :smile: \n\nYou *can* still build from source, but there are currently two workarounds:\n\n- node 10: you need to install my `ssb-invite` package manually before attempting `npm install`\n- electron: either `npm i --only=prod` or `npm i && rm -rf node_modules`, just make sure you have Electron installed from `pacman -S electron` before running `npm run rebuild`\n\nGood luck! Let me know if there's anything I can help out with.",
-    "mentions": [
-      {
-        "link": "@sCk4VB+MH0TQEXx1vpQaP7tYs+Cr14bxwVCTO4R3ZDc=.ed25519",
-        "name": "LanceW_mobile"
-      }
-    ]
+    "type": "vote",
+    "channel": "new-people",
+    "vote": {
+      "link": "%dQ2XaInuPq8gOnyDbwcJro0SVkyj/hVvQHzP7P/9xa4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YpZH/iwrJJkV1IOEWikKJT2J55QKu6xik/gd1G0sK3f7uf+/Dgpe8y5d7LVmsgDoF+2TXQyaqEYnLXV0KDxqCw==.sig.ed25519"
+  "signature": "iMfYhlfcowALvbKT1hhRrpYu5uFOO2ao17f6pCVMRvYcQzQysFEO+sEWgk3M4G+zXtNV9Rd6c7R5JSF5uqQqAA==.sig.ed25519"
 }
