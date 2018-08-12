@@ -1,13 +1,25 @@
 {
-  "previous": "%RLXg/YZfWoSf1M71MMevnvmyC/6NAJOy6je7XdcsBdg=.sha256",
+  "previous": "%/RJGjn5KPODtm5YO+wx7sZZ9/nPkleC4Fxbe9l+I0qs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1664,
-  "timestamp": 1534114124381,
+  "sequence": 1665,
+  "timestamp": 1534114419531,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@DJVbfRTEhC3cH1zU5/BAx6MgKIX1fkkytaRziA10suw=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
+    "branch": "%xq+Jxo2n75BcOOuRWZuFW1K6aC3uAyPls99dphkbWG4=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@kik](@DJVbfRTEhC3cH1zU5/BAx6MgKIX1fkkytaRziA10suw=.ed25519) \n\nThanks! It's great to hear that your sbot is so resilient, although I can't think of anything that would provide more info on *why* it isn't failing. I'll let you know if I think of anything clever, thanks again!\n\n[@صفر](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) \n\nCould you verify which version of Patchbay you're using? Latest is currently f0eae06e2b551bf5a55dae3e8509e1b5308cfbf4 for me.",
+    "mentions": [
+      {
+        "link": "@DJVbfRTEhC3cH1zU5/BAx6MgKIX1fkkytaRziA10suw=.ed25519",
+        "name": "kik"
+      },
+      {
+        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
+        "name": "صفر"
+      }
+    ]
   },
-  "signature": "MA90HZSyKk81BwSRExkIn+iGSWkrHoe2io0Q+gxBwB1xLsiOpCAMsQGN3hPZHJMQg8w4d1UYkeo/kqNNwRtECw==.sig.ed25519"
+  "signature": "Ic2W6C1332lMJQZsEmyNnX0WOm98AJsm1gpvMN6e4DSRF/oe2jW+kKiBu+2caVTZVU1d+nduCH1WdR06upQKAw==.sig.ed25519"
 }
