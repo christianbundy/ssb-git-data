@@ -1,24 +1,17 @@
 {
-  "previous": "%AxIOAMD1hQ1rKiWnP8IOvMQKCOxa2/DijiSl8FLR6kY=.sha256",
+  "previous": "%/WP9rJK76MbPkAgB7GXEGS7YZjL6sj848Hag4ty47Pk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1658,
-  "timestamp": 1534091435419,
+  "sequence": 1659,
+  "timestamp": 1534096675167,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
-    "branch": [
-      "%AxIOAMD1hQ1rKiWnP8IOvMQKCOxa2/DijiSl8FLR6kY=.sha256",
-      "%XdjsM+BS4K/1gtYjYe4MlPz+3co8hKxYeKx5s061xW8=.sha256"
-    ],
-    "channel": "patchbay-dev",
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nI'm seeing the same thing, not sure what's causing it. I've [created an issue](https://github.com/ssbc/patchbay/issues/231) and debugging now.",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%wFxlaE1lxonVrGLAuxDmaW/2nnpVt22wbl19b1RBOEQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "tcIzBOazpbmM/6N2WokEP+KMvDZAY7UI0jsjUdNE7s2Pb5pkz8NkPj1rg8jnuXOCZnEFxBtMGfCpEhWXJnmCAQ==.sig.ed25519"
+  "signature": "g6RGwdSiG+buO9yA740i3WcAM1INwahBvmiObqJYgyjVTeskOvaPEYRyClrnkpjfm3cJl+FWndaAkRHcQzOlCQ==.sig.ed25519"
 }
