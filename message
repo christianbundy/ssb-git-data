@@ -1,13 +1,21 @@
 {
-  "previous": "%3ld/5MGvbm3VtAzJex5XM7Lj808mBdcqlTV7iD0TmVI=.sha256",
+  "previous": "%C3jXjPstmVdvLimHqsaW6Z72OoIApC1M6TtKznETFNw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1660,
-  "timestamp": 1534096679448,
+  "sequence": 1661,
+  "timestamp": 1534099412325,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@g/5dsun+n9bKEdiy5r43nZonkA7ZfB75kI5WyNIhUbM=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
+    "branch": "%/WP9rJK76MbPkAgB7GXEGS7YZjL6sj848Hag4ty47Pk=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nI'm not sure what could've possibly caused it, but here's my theory:\n\nThe way we're combining hyperscript and mutant's `when` means that lots of elements are created, regardless of whether they're used. For example:\n\n```\nwhen(false, h('p', 'this should not be created'), h('p', 'this is the only element we need'))\n```\n\nWe have `when()` behaving like a ternary function, **except that it's calling both functions and only returning one**. The bug seems to be caused by receiving `about` messages that didn't have images, which seemed to freeze/kill sbot. What was happening in the background was that profile photo elements were being created, but since there was no image it was trying to find an image hash called `undefined`. They seemed sporadic because they were caused by other people sending `about` messages, which made it harder to find. Here's what I'm currently running, which replaces the crash with a quick console warning:\n\n```\ndiff --git a/blob/sync/url.js b/blob/sync/url.js\nindex ea308df..467539a 100644\n--- a/blob/sync/url.js\n+++ b/blob/sync/url.js\n@@ -1,11 +1,15 @@\n const nest = require('depnest')\n+const console = require('console')\n \n exports.gives = nest('blob.sync.url')\n \n exports.create = function (api) {\n   return nest('blob.sync.url', function (id) {\n-    // return id\n-\n-    return 'http://localhost:8989/blobs/get/' + id\n+    if (id === undefined)  {\n+      console.warn('value of \"undefined\" was passed as a blob ID')\n+      return '#'\n+    } else {\n+      return 'http://localhost:8989/blobs/get/' + id\n+    }\n   })\n }\n```\n\nI'm going to continue testing, but this may be a solid stopgap solution until I get more input on the potential resolutions. If you're familiar with hyperscript/mutant/sbot, I'd love to hear your opinions on my most recent GitHub comment.",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "2ASfRHIyq0pv5hXHfAE6xRhRLNT06dXZPD1H5rx+x/oa7AoCGm8gPNCtZXTBwkgfTCEeDZHtc3Jubdjx5KH1AQ==.sig.ed25519"
+  "signature": "hsbKSvtKNZ+1PIHpAMpng2IrUCAb3zbXaXrGzJGq7hyx0uQuQIj8ir2OMcevhO1EzI/86G5+XJFyeqpopQadDw==.sig.ed25519"
 }
