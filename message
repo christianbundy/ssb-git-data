@@ -1,16 +1,21 @@
 {
-  "previous": "%6CgxlxH1xpub/p7hhE9jEGfLdktXgW0+OaZ9y9OU00A=.sha256",
+  "previous": "%EsQ12Ss0Ri4g5ZAUwB4qH/JVeUq65ShjRZOYcGmi43I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1656,
-  "timestamp": 1534087632378,
+  "sequence": 1657,
+  "timestamp": 1534088306508,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gZdlRdvscJggTfdk69fMVqWcQXWEk50E9z3ZPXHALTE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
+    "branch": "%EaAUOHIQPAwD/Gntzoy8KmknYJSmsAgZfNhFlunvveM=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nThis sounds suspicously similar to a bug I've been hunting for a day or two. Are you starting Patchbay from a terminal? If so, are you seeing anything like \"hash 'undefined' is not valid\"? I don't remember the exact wording of the error, but I'll document it the next time it pops up.\n\nAlso, I'm seeing the same thing as you in the above screenshots. I'll investigate now. Thanks for all the info!",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "S+4SS1+352Se6ucBk89EsL0l5TATu+H10HOKNf3CocmwsqJFLDfg+G+dTukkE3WD6R5HegZLnXClSBun2DDAAQ==.sig.ed25519"
+  "signature": "JWYX+7CsIWo22uxc7rVdYZUYFiGO25/RIqTCL2hr26bfNbnadut1vAiYHs1KDeeHS1BSDiSIsSVCk98N334+DA==.sig.ed25519"
 }
