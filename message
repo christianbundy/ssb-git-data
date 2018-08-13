@@ -1,21 +1,15 @@
 {
-  "previous": "%/jXZOtMejKA3fU9TVyeV5W4mg2SZ1ZhQRnPeg1WyIzk=.sha256",
+  "previous": "%f05LcNJs6igu0si+Isf05s501ly2JWUsYlDajauH9+c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1758,
-  "timestamp": 1534197859089,
+  "sequence": 1759,
+  "timestamp": 1534201324069,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%FOyO23xiOfbavyD5a8+KE2f5ZuU1bY/ko4dLRdCUpr4=.sha256",
-    "branch": "%Pm2NbOqb1cQmpu+3AXZp+dOzL/QtrgAWXPp4ZApiMqA=.sha256",
-    "channel": "scuttlebutt",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nLooks like the bug is gone for me:\n\n```console\n$ wc -l v*.json\n  14894 v2.json\n  14894 v3.json\n```",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "root": "%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256",
+    "branch": "%3ravq3MPxs7Rjiai/gM45C0vb7kUHENher+geARUH4s=.sha256",
+    "channel": "blocking",
+    "text": "> Also, it might be cool to not just use shortest-paths, but have a flow calculation. So, if someone is followed by most of your friends, that's better than a single friend, etc. But I worry this will be a lot harder to implement efficiently. I would love to see this happen though!\n\nI think this was what I was [unsuccessfully] trying to describe: a system where policies \"flow\" downstream to make implicit block/follow policies like a p2p email spam filter system. It's similar to the [Convergence][0] model, where the goal is resolving the problem of \"trust agility\" throughout the network.\n\nThe problem this solves is that `/dev/urandom` can be piped into `sbot publish` faster than *most* of us can click \"Block\", which makes it trivial to fill the hard drives of anyone in the splash zone of a public pub. Replace the output of `/dev/urandom` with illegal content (the bad kind) and now you're behind bars. Data replication is a huge liability.\n\nDon't get me wrong, I don't think it's wise to implicitly block someone just because a FOAF blocked them, but in my mind there's a threshold (all? half? an eigth? maybe square root?) where I'm comfortable trusting the judgement of my friends until I get a chance to manually review the feed.\n\nThe same point for implicit following: let's say Alice is configured to replicate FOAF, and that:\n\n- everyone Alice follows is friends with Bob, and Bob's only additional friend is Carol\n- nobody but Alice is following Zelda, and Zelda is following thousands of people\n\nPersonally, I'd like (expect?) sbot to replicate Carol's feed *way* before replicating Zelda's gigantic list of strangers. Once you get past FOAF and start replicating with 3 hops this becomes especially true, although I'm not sure how common that is. I know that implicit policies aren't the most fun, so I'd love to hear other solutions to these sorts of problems.\n\n[0]: https://en.wikipedia.org/wiki/Convergence_(SSL)"
   },
-  "signature": "ru9Q0mde9/bfHablVd7pxkmG8bNCcDruwBpGuiBVSPhm8a6e6iXc7fh1+/G+kaURAyM+ZLTrJO8gl0llVdt8Bw==.sig.ed25519"
+  "signature": "qG8Jle+F/g0ivOHl09RfB0gRWONQpEj9WlPUi2S0kokM2hE2w1JRIBBYAXJ7bWJMubPr2GV86OH7yki2nNidCg==.sig.ed25519"
 }
