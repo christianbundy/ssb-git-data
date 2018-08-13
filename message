@@ -1,20 +1,43 @@
 {
-  "previous": "%rhEqGFW8Na8ynG3Fz4XTSPWu5PAcUf9TLmZyr50+zCU=.sha256",
+  "previous": "%jTPYIMfDfLUylS9XeBR987scaTP0Y5fuBuXdGYkPQcM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1735,
-  "timestamp": 1534180850504,
+  "sequence": 1736,
+  "timestamp": 1534181427964,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%9fCtZx2ZwNXaQijOHISzQKFlWuf2aqI/XDHM4/OVByA=.sha256",
-    "branch": "%907YOLYelHIJtqbh73oawtzt4oVTFZ/E+vMPXPho8Vk=.sha256",
-    "text": "[@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThat's fancy! I didn't know Patchwork could do that. Do you know whether there's anything similar for Patchbay?",
+    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
+    "branch": "%2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@صفر](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) \n\nI see these messages from you: \n\n- %x2Ge/GL8GdvSa/FDWjz6qNJu82LCZMVfscZPAXAqPhY=.sha256\n- %XBOyJ5nEBM2vO2FxIul4Az9mcr/kL4hx3+91eTEC0O8=.sha256\n- %lQXVSxMBB15XG+Zko4cYj48llSj02yTcpUHTesq1pFw=.sha256\n- %b1MutdgMNIrB5QVf4D8jBNoHi6N5jwGLm3jLzpoJgEk=.sha256\n- %2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256\n\nThe \"Error: not a hash:undefined\" is a [known issue](https://github.com/ssbc/patchbay/issues/231), but you have to apply [the fix](%mTNX+2quC3XhUCZSYVWkdP88hc192DuAMpx4NoTV1Mc=.sha256) manually. If you're posting messages that I can't see, I wonder whether you might have accidentally forked your feed. I've been #marooned with a forked feed before and can verify that it's no fun. If that's the case, the solution:\n\n1. Make a backup of `~/.ssb/gossip.json` and `~/.ssb/secret` somewhere safe.\n2. Delete everything in `~/.ssb` except for those two files.\n3. Open up a client.\n4. Go make some tea, this will take a while.\n5. Eventually you'll sync up and your local feed will match the agreed-upon state of your feed throughout the network.\n\nHope that helps a bit!",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "dinosaur"
+        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
+        "name": "صفر"
+      },
+      {
+        "link": "%x2Ge/GL8GdvSa/FDWjz6qNJu82LCZMVfscZPAXAqPhY=.sha256"
+      },
+      {
+        "link": "%XBOyJ5nEBM2vO2FxIul4Az9mcr/kL4hx3+91eTEC0O8=.sha256"
+      },
+      {
+        "link": "%lQXVSxMBB15XG+Zko4cYj48llSj02yTcpUHTesq1pFw=.sha256"
+      },
+      {
+        "link": "%b1MutdgMNIrB5QVf4D8jBNoHi6N5jwGLm3jLzpoJgEk=.sha256"
+      },
+      {
+        "link": "%2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256"
+      },
+      {
+        "link": "%mTNX+2quC3XhUCZSYVWkdP88hc192DuAMpx4NoTV1Mc=.sha256",
+        "name": "the fix"
+      },
+      {
+        "link": "#marooned"
       }
     ]
   },
-  "signature": "wSoQrhg0cpxrPVm0GIDmT4MBLfFEp6VZDS/wZ67Pj+kKZ8j/L7kfsvX5n2bu0yA2tkc9iphm+z8K5iRrTXGVBQ==.sig.ed25519"
+  "signature": "gOIgNvuUj9uhHe3kcvRJVjjJmcmEmyzKSll0sdPpFDP0stJ4R4qYjYhuWZibU4ZBBN6JI2aK0anffNDZ+CjrAg==.sig.ed25519"
 }
