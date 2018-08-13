@@ -1,29 +1,18 @@
 {
-  "previous": "%0dAzqv1bWnQS/xd4jCcGh2aBHN2MsKU+yJrgFSrJYbA=.sha256",
+  "previous": "%9PWaaExb4e2X+hzobdmNSuf6zHPfP1emIp84ES6T68Q=.sha256",
+  "sequence": 1691,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1690,
-  "timestamp": 1534174336790,
+  "timestamp": 1534174361447,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
-    "branch": "%md8fjaw9ycvM+S4I20xI3/ihOV9GMzxmFw9xa8iAV+U=.sha256",
-    "channel": "patchbay-dev",
-    "text": "[@صفر](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) \n\nAre you starting Patchwork/Patchbay from the terminal? If so, are there any errors? Patchbay's version number hasn't been updated in a while, are you using the installer from the 7.13.1 release or building from source? Sorry for the barrage of questions.\n\n[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nIt looks like `npm ci` [landed](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) back in March, so I'm not sure it'll work if [@صفر](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) is running NPM 3.5.2. The worst part, in my opinion, is that the behavior of `npm install` was changed in NPM 5 to be incredibly similar to `npm ci`, but `npm ci` was released afterward as a \"strict mode\" for the new `npm install` behavior. I'd love to jump ship from NPM but I'm not sure I'd like to put all my eggs in Facebook's basket with Yarn.",
-    "mentions": [
-      {
-        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
-        "name": "صفر"
-      },
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      },
-      {
-        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
-        "name": "صفر"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 66,
+    "root": "%/LvPIlRMx7IY5PVqdeqa9X5xd29iC1MZVJbkizA6Psg=.sha256",
+    "orig": "g6",
+    "dest": "g5",
+    "pgnMove": "Kg5",
+    "fen": "6r1/R3R3/3B1p1p/2p3k1/1p4P1/2P5/PP3K1P/8 w - - 1 34",
+    "branch": "%0dAzqv1bWnQS/xd4jCcGh2aBHN2MsKU+yJrgFSrJYbA=.sha256"
   },
-  "signature": "Ra3jLqqEgQ+MGtEoJR1x5HpMAQT9ohMGiABXZaH3R+0D3SxyMpIs/W5AGlxK3akSvm0vxyXqYlHc58OwAU4TBg==.sig.ed25519"
+  "signature": "diKv6/VJaPvUvAnk4/V64NmpsnwEdUSoNmYdRvvKv/g/MunMvioYu/uUjO80tzQP3y9y9b+knAWNXTWnNfZsCQ==.sig.ed25519"
 }
