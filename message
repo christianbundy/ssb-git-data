@@ -1,17 +1,21 @@
 {
-  "previous": "%CxGS7rWN9XGKCXaN4zOGUbXdMV+o99ocuAA7NySGrPE=.sha256",
+  "previous": "%/jXZOtMejKA3fU9TVyeV5W4mg2SZ1ZhQRnPeg1WyIzk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1757,
-  "timestamp": 1534197484087,
+  "sequence": 1758,
+  "timestamp": 1534197859089,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%FOyO23xiOfbavyD5a8+KE2f5ZuU1bY/ko4dLRdCUpr4=.sha256",
+    "branch": "%Pm2NbOqb1cQmpu+3AXZp+dOzL/QtrgAWXPp4ZApiMqA=.sha256",
     "channel": "scuttlebutt",
-    "vote": {
-      "link": "%jgvXndEC5K9WDcekjgXqy63HIFIYoIWdfpzEGw/nmKI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nLooks like the bug is gone for me:\n\n```console\n$ wc -l v*.json\n  14894 v2.json\n  14894 v3.json\n```",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "r0wrwajkIhLhpJ8euBQYlBESamnrEYOl8zoQRJNGXh9HVVhtkCFItzScAndaDciZb4yj/xMcZhjs+rJkMaEvCQ==.sig.ed25519"
+  "signature": "ru9Q0mde9/bfHablVd7pxkmG8bNCcDruwBpGuiBVSPhm8a6e6iXc7fh1+/G+kaURAyM+ZLTrJO8gl0llVdt8Bw==.sig.ed25519"
 }
