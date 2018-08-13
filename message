@@ -1,17 +1,25 @@
 {
-  "previous": "%+LA8vH8Sc1IZY6hilx0K/dyHXOEmAAO2kBaNMKxGTME=.sha256",
+  "previous": "%lH8s+AQwJg1IV0i/987FXBvCnjqOxTICVDhJhpkZNDA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1697,
-  "timestamp": 1534174524441,
+  "sequence": 1698,
+  "timestamp": 1534175817619,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%40ubN4ex3ArTbU7/3kKZfXK5gJQFOxXF/syFr/5ewGA=.sha256",
+    "branch": "%fSojHI5uk6ZRUD88gq6Bph8a94Ffe5EVB73Z/3nL+wM=.sha256",
     "channel": "faq",
-    "vote": {
-      "link": "%fSojHI5uk6ZRUD88gq6Bph8a94Ffe5EVB73Z/3nL+wM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@andrewdotnich](@Ofy9trt1JbSs1yb0xyPMof1+DBvrliP9TuH+fVixnT4=.ed25519) \n\nJust to echo some of the same points, I started with Patchwork but usually use Patchbay. I was won over by:\n\n- **Being able to see the raw data behind each post.** This is especially cool when there are post types that your client doesn't support, like `edit`, but you can still see that they're there.\n- **Chess.** Honestly, chess is one of my favorite things to do on Scuttlebutt, and it makes for a great way to chat with other 'butts.\n- **Image search.** When someone posts an image like `![photo of a big cat](&hashgoeshere)` you can use Patchbay's image search to look up words like \"photo\", \"big\", \"cat\", etc., and they'll appear. This is great for reusing images rather than adding more blobs to the network.\n- **Better notifications.** I'm not sure whether this is true, but I'm under the impression that Patchwork only shows \"mention\" notifications when you're directly mentioned by name, whereas Patchbay is better about figuring out when a message is a reply to yours.\n- **Fast-paced development.** Find a bug? Make some noise and a patch will likely be applied within a few days. The downside to this is that new code isn't super well-tested, so in my experience things tend to break more often. Again though, those breakages are [usually fixed quickly](%WP/0x4Fr/E9SDan91rTc002tnQIOqHJeRfWDBQB2PPM=.sha256).\n\nWith that said, I find myself opening Patchwork a few times each week:\n\n- **More aesthetically pleasing.** This may be controversial, but *personally* I think Patchwork has a more consistent and predictable user interface that seems cohesive.\n- **Support for joining pubs.** People often switch to Patchbay after using Patchwork for a while, so joining pubs isn't implemented. This makes it harder to get started with Scuttlebutt, so when joining a pub you should use Patchwork (or the command-line).\n- **Fewer buggy experiences.** Again, this may be controversial, but when I was using Patchwork as my daily driver I rarely saw any bugs or glitchy experiences. Patchbay fluctuates (and is currently more buggy than usual, IMO), but if you want a consistently smooth experience I think Patchwork wins.\n- **Interact with anyone**. Patchwork implements the most used (and loved) features of the Scuttlebutt network, so you can be confident that anything you do in Patchwork will be seen by everyone else. Patchbay is much more experimental, so unless your friends are *also* using Patchbay they won't see when you invite them to a game of chess, review a book, start a poll, or use [send a shard of a Dark Crystal](http://darkcrystal.pw/darkcrystal-intro.html). \n\nOn the upside, you don't have to choose: while you can't run both Patchwork and Patchbay at the same time (yet!), you can install both and open whichever you feel like using. The only downside to this approach is that when switching between them they can sometimes take a couple of minutes to re-index the database. If you open one, close it, and reopen, you'll be fine -- but if you open one, close it, and open *the other one* it'll sometimes take a few minutes for the new client to tidy up and rearrange the [metaphorical] furniture.",
+    "mentions": [
+      {
+        "link": "@Ofy9trt1JbSs1yb0xyPMof1+DBvrliP9TuH+fVixnT4=.ed25519",
+        "name": "andrewdotnich"
+      },
+      {
+        "link": "%WP/0x4Fr/E9SDan91rTc002tnQIOqHJeRfWDBQB2PPM=.sha256",
+        "name": "usually fixed quickly"
+      }
+    ]
   },
-  "signature": "xb9lrIGKUltWv/HRtlQVklVqkwLq0GyUmogG1ZQv107e5F9FoJ+sKpMJP2KcG/ugsS/OKYmViXJ2HkwzWo7JDQ==.sig.ed25519"
+  "signature": "Lpji9KKMx8ll6pNKw9zWTrFYup4FItYgMPnobVU+PhmlMlDv6HhAbnJaQMvNcB68568uAXKF3RynJJQiX1f1CQ==.sig.ed25519"
 }
