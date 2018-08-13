@@ -1,27 +1,20 @@
 {
-  "previous": "%reLx7i58G/zNb7xNJV8mAMi2NfIcrfs9mIuUYD4uzpw=.sha256",
+  "previous": "%rhEqGFW8Na8ynG3Fz4XTSPWu5PAcUf9TLmZyr50+zCU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1734,
-  "timestamp": 1534180680523,
+  "sequence": 1735,
+  "timestamp": 1534180850504,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%R9SxWvsLFwRr9R2MWP/kbP0zUQSONa33Hf9fWGjuzI8=.sha256",
-    "branch": "%BOKinsQEdcNbRCS/ZUKIMGgvwmS/sDm0cQGIjUcYHms=.sha256",
-    "channel": "patchbay-design",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks! I've rehashed my setup and it's *much* simpler now. I'm using a light theme for content and a dark theme for input, which feel great on my eyes.\n\n![solarized light patchbay](&PBhNp4zCwmEeN+QnFoFlpo/ah7CtAEwg6EQarjOeUCI=.sha256)\n\nAnd, of course, the code:\n\n\n```mcss\nApp {\n  --app-border-background: #eee8d5\n  --app-border-background-mid: #fdf6e3\n  --app-border-width: 0\n  --app-border-color: #93a1a1\n\n  --page-background: #fdf6e3\n  --page-color: #657b83\t\n\n  --scrollbar-color: #93a1a1\t\n  --scrollbar-color-hover: #6c71c4\n}\n\ntextarea, input {\n  background: #002b36 !important\n  color: #657b83\n  font-family: monospace\n  ::before { \n    background-color: #002b36 !important;\n    color: #657b83 !important;\n  }\n}\n\ncode, pre {\n  color: #586e75 !important\n  background-color: #eee8d5 !important\n}\n```\n\nThe modals and such are still broken, but only a bit of code goes a long way.",
+    "root": "%9fCtZx2ZwNXaQijOHISzQKFlWuf2aqI/XDHM4/OVByA=.sha256",
+    "branch": "%907YOLYelHIJtqbh73oawtzt4oVTFZ/E+vMPXPho8Vk=.sha256",
+    "text": "[@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThat's fancy! I didn't know Patchwork could do that. Do you know whether there's anything similar for Patchbay?",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "&PBhNp4zCwmEeN+QnFoFlpo/ah7CtAEwg6EQarjOeUCI=.sha256",
-        "name": "solarized light patchbay",
-        "type": "image/png",
-        "size": 190102
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "dinosaur"
       }
     ]
   },
-  "signature": "8RfveYtoyebJHCINFG3Vkc8Qx2XVwmuSrGe40fQ2tWVzZx4l+I3XWIjF2w3UecCcsbgFJ7zAXMa+mOgV5FRMBw==.sig.ed25519"
+  "signature": "wSoQrhg0cpxrPVm0GIDmT4MBLfFEp6VZDS/wZ67Pj+kKZ8j/L7kfsvX5n2bu0yA2tkc9iphm+z8K5iRrTXGVBQ==.sig.ed25519"
 }
