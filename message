@@ -1,43 +1,9 @@
 {
-  "previous": "%jTPYIMfDfLUylS9XeBR987scaTP0Y5fuBuXdGYkPQcM=.sha256",
+  "previous": "%+0TUiIsKNiO44EOCsiqxXWAWCoCg55J75cvJeVteRds=.sha256",
+  "sequence": 1737,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1736,
-  "timestamp": 1534181427964,
+  "timestamp": 1534181513548,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%Iqz2SD9cV5weiHMc78Mx3KARp9A1VpvabH6IOdc5jNk=.sha256",
-    "branch": "%2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256",
-    "channel": "patchbay-dev",
-    "text": "[@صفر](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) \n\nI see these messages from you: \n\n- %x2Ge/GL8GdvSa/FDWjz6qNJu82LCZMVfscZPAXAqPhY=.sha256\n- %XBOyJ5nEBM2vO2FxIul4Az9mcr/kL4hx3+91eTEC0O8=.sha256\n- %lQXVSxMBB15XG+Zko4cYj48llSj02yTcpUHTesq1pFw=.sha256\n- %b1MutdgMNIrB5QVf4D8jBNoHi6N5jwGLm3jLzpoJgEk=.sha256\n- %2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256\n\nThe \"Error: not a hash:undefined\" is a [known issue](https://github.com/ssbc/patchbay/issues/231), but you have to apply [the fix](%mTNX+2quC3XhUCZSYVWkdP88hc192DuAMpx4NoTV1Mc=.sha256) manually. If you're posting messages that I can't see, I wonder whether you might have accidentally forked your feed. I've been #marooned with a forked feed before and can verify that it's no fun. If that's the case, the solution:\n\n1. Make a backup of `~/.ssb/gossip.json` and `~/.ssb/secret` somewhere safe.\n2. Delete everything in `~/.ssb` except for those two files.\n3. Open up a client.\n4. Go make some tea, this will take a while.\n5. Eventually you'll sync up and your local feed will match the agreed-upon state of your feed throughout the network.\n\nHope that helps a bit!",
-    "mentions": [
-      {
-        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
-        "name": "صفر"
-      },
-      {
-        "link": "%x2Ge/GL8GdvSa/FDWjz6qNJu82LCZMVfscZPAXAqPhY=.sha256"
-      },
-      {
-        "link": "%XBOyJ5nEBM2vO2FxIul4Az9mcr/kL4hx3+91eTEC0O8=.sha256"
-      },
-      {
-        "link": "%lQXVSxMBB15XG+Zko4cYj48llSj02yTcpUHTesq1pFw=.sha256"
-      },
-      {
-        "link": "%b1MutdgMNIrB5QVf4D8jBNoHi6N5jwGLm3jLzpoJgEk=.sha256"
-      },
-      {
-        "link": "%2ef8jYSi3mzDF0K3zNmQiraH+71bOYt4Gw2tuqXlBJA=.sha256"
-      },
-      {
-        "link": "%mTNX+2quC3XhUCZSYVWkdP88hc192DuAMpx4NoTV1Mc=.sha256",
-        "name": "the fix"
-      },
-      {
-        "link": "#marooned"
-      }
-    ]
-  },
-  "signature": "gOIgNvuUj9uhHe3kcvRJVjjJmcmEmyzKSll0sdPpFDP0stJ4R4qYjYhuWZibU4ZBBN6JI2aK0anffNDZ+CjrAg==.sig.ed25519"
+  "content": "h1MIRhnwkd9G9/U8Od6rq8BBAEy7MyfVMZUq0YM/IpQWe+vQF0ugZ7ZeHb8KvjLfMMlyYev2eD4wh0E+F/DY1R8AEOgXaborPAUAS9JdeyzIkDTFixNDJW+bdMCCl4Yxjh8GpikNcYlmgFv4uoaXUs+UyGkxjntv0i5B6X1T43mym4R4ShG9X/ri3/00VbK9Q/aDMYMa+7vTrx9L6AP9pKrqTtHG7SRzUtV/ci20Qqmd00vXM8keHFTa8La/GIyQIDOAAzGe7zYati2x0lz0mQF+TkH8IrjcyJIGsZEd+X4rZ28e0xs5Ci7B6taP6WlixKX3YqloZEXpuAgBF8pfaLZ/rczoZbbQi68C4YZv5PwQorjEC5PFiYq2W6gV9ES4AqHJngYtx8a9jw5rR0bha4E7m8HeTQP3ZJWiiPVY8g7kz6krGA==.box",
+  "signature": "jJiRguOZUzVBjhxQw3y9ftgyUDQBsTxbDmAqwKjNDOQCDTKtMQ7xIbahPnGS6f+D7ZCUqWusHrvx1aynRInSCA==.sig.ed25519"
 }
