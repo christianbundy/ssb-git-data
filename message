@@ -1,29 +1,18 @@
 {
-  "previous": "%wSj+J9gd9Hbf9AxrqTTKQOkqxiicJPDwbTx0f+nidYA=.sha256",
+  "previous": "%E0ZPyxC1Xk/G8KXLC03puVxw2AD+LVhLj+7AaemPP4o=.sha256",
+  "sequence": 1744,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1743,
-  "timestamp": 1534188379710,
+  "timestamp": 1534188496067,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256",
-    "branch": "%LZX5xK7BqiA40zTGWWuuXrSySKmRZ5jdrSsoEvE4hdo=.sha256",
-    "channel": "blocking",
-    "text": "I've been thinking about boundaries as well, but from another angle: instead of depending on *only* hops, what if we take into account who our friends follow/block to calculate whether we should implicitly do the same?\n\nFor example, let's say that following someone sets a \"replication magnitude\" to 1, whereas blocking someone sets it to -1. If Alice follows Bob, we can say that `A -> B = 1`. But given `A -> B -> C`, what's `A -> C`? To solve for the implicit replication magnitude we need to set some decay: say 50%, so that each \"hop\" degrades the magnitude by half.\n\n![graphviz dot graph showing a simple follow magnitude](&gFd+M6rtR6EoSKbvQwib+fqvWdYwt9woMhivqQ5juL8=.sha256)\n\nTo take the example further, Carol follows Dan, who suspects Eve of leaking our conversations to Google. Dan blocks Eve, which changes the graph to `A -> B -> C -> D X> E`. Now, who's implicitly blocking Eve?\n\n![graphviz dot graph showing implicit follows and blocks](&xSH4Uw0PLNsFn9gx/ccXWFcnVvYEg9SBGWN92WqAW4I=.sha256)\n\n\nEach client (or user!) would be able to set the range of implicit policies. For example, if we want to use the hops=2 above, we can say that we implicitly follow/block when the implicit weight is -1/2 to 1/2. In that case, only Carol is implicitly blocking Eve (because she trusts Dan). Maybe Carol should see an interface of folks she's implicitly blocking to decide whether to make it explicit?\n\nThis also gives us a neat super-power: asymmetrical tolerance. If we define the range of implicit behavior as -1/8 to 1/2 we're saying \"I follow friends of friends, but block enemies of friends of friends of friends\". Maybe \"enemy\" isn't the best word to use here, but hopefully you get my point.\n\nSorry for the word vomit, but I wanted to get these ideas out of my head and onto the 'butt. I'd love to hear thoughts and suggestions, especially if I've overlooked something fundamental!",
-    "mentions": [
-      {
-        "link": "&gFd+M6rtR6EoSKbvQwib+fqvWdYwt9woMhivqQ5juL8=.sha256",
-        "name": "graphviz dot graph showing a simple follow magnitude",
-        "type": "image/svg+xml",
-        "size": 2817
-      },
-      {
-        "link": "&xSH4Uw0PLNsFn9gx/ccXWFcnVvYEg9SBGWN92WqAW4I=.sha256",
-        "name": "graphviz dot graph showing implicit follows and blocks",
-        "type": "image/svg+xml",
-        "size": 6597
-      }
-    ]
+    "type": "chess_move",
+    "ply": 13,
+    "root": "%24cEdfvd6Y1YVB9J04THxm8/pe0vXVnTxGXFjU1XCB0=.sha256",
+    "orig": "d2",
+    "dest": "d4",
+    "pgnMove": "d4",
+    "fen": "r2qkbnr/1p1npppp/p2p4/1Pp5/Q2PP3/5N2/PP3PPP/RNB1K2R b KQkq - 0 7",
+    "branch": "%hfzton3S4KcnLwBTMz0H3b3BHVkSgNqOUyJLaQdOvGg=.sha256"
   },
-  "signature": "ruGBfTPwLac1J/HOjO/xC117k5WbOd/kE2YwGSMODIrMA0xYcasIhghrt7F+lZH+ONwchYvUgvwQ9PPLfclZDg==.sig.ed25519"
+  "signature": "5bUSj4evUAST6bdLg/9CbNXQhZFiCIJwMRiO+ePGBejdtm2pkljIu736vsOB/ttprAo8tPXWsYNLslgPxWhnBA==.sig.ed25519"
 }
