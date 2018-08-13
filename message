@@ -1,21 +1,17 @@
 {
-  "previous": "%6RzTqtDBNkYresGsZB2lOlGlKCJcejSF73lu3SD4ynE=.sha256",
+  "previous": "%ykFVWeGxsX/kJEjKLcmXWBafEN2ABjlwXeSnGuPCJCQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1749,
-  "timestamp": 1534190226226,
+  "sequence": 1750,
+  "timestamp": 1534190824693,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AJWG+DP4254FDjywHNLzRj5LkVE6yHFNiPVP3TWe9q0=.sha256",
-    "branch": "%/yu331Nq8WH5DdqmJRMXPJBU1h1RuczpzsNqlau9X+E=.sha256",
+    "type": "vote",
     "channel": "a11y",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nLooks solid!\n\nAre there any ways to reset brightness/contrast to their default? I imagine *eventually* someone will set a slider to 0 and be unable to set it back. I've done this with the brightness slider on my laptop display a few times, but it resets when I restart (and I can boot into a terminal). I guess I'm also curious where the custom styles are stored as well...",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "vote": {
+      "link": "%QuOwtu/ua3y8Y6L1VX2yAS7xefkiiv96gasfklvB97w=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "iu6Sp7hrgNvQLSGe/R6Qdhi/6IXZWdEOy7n3lfil/ITeTh5+4X9Pkzss7U6rcGXZ3Q7YpBiRkXJwMBcubOPqCw==.sig.ed25519"
+  "signature": "Z3JUzcHJxhSE+U8bOKQq/2edRo/PZt3TDcbFP6WW9gDvfYHbk6s5bQc6voQxmySG6AvhKKNFwNqmkxKXkd4NBg==.sig.ed25519"
 }
