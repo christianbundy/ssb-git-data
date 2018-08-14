@@ -1,20 +1,13 @@
 {
-  "previous": "%BR1yW03OQ+OFiAAo/5o6e1eKjD0xOex8m35tU6KdREQ=.sha256",
+  "previous": "%zD0Nt58O4rZV8PtUNlJvkoYabBtv9ODajEZBBmzxADY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1868,
-  "timestamp": 1534275784504,
+  "sequence": 1869,
+  "timestamp": 1534284721943,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/7ZqEVJPjmG7ooVQpdprod3HeRyzsqJxMYxbRBy+z70=.sha256",
-    "branch": "%p0ZpyALH2ShOoy80CqQjZz5ua4zAprCncwhzrnD6W+I=.sha256",
-    "text": "Sweet, thanks for taking the time to write this up [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)!\n\nAfter poking around a bit, it seems like there are a handful of spots where `when()` is being used on values that don't seem (to my untrained eye) to be observable. I think I have a handle on *using* `when()`, but I'm unclear on when I can remove `when()` from a line of code.\n\nFor example, can I assume that any time [this `return`](https://github.com/mmckegg/mutant/blob/4cc5d7c35493700dc9a40f3cb6da6a2b6e3ce7dc/when.js#L28) is used that `when()` can probably be replaced with a ternary operation? It's funny how *removing* code is at least twice as hard as writing it in the first place, especially if you want to avoid breaking anything/everything. ",
-    "mentions": [
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
-    ]
+    "type": "channel",
+    "channel": "vegan-junkfood",
+    "subscribed": true
   },
-  "signature": "0GrKOZaSqGE8lPxJ9Q/0XoJTQWTr6Lqj3+zZfgm744NKIWtPfqr/JXZqbzASlHa+PgTz9zKvHa7PBgMJNbpHDA==.sig.ed25519"
+  "signature": "+hshtKDAn3jmWya3t1C8/UndZ2bYeLv9eqzc4cjtPKc8tazh5gKg3Na5CO2/a1icupxJGQrDTrp3jwpW9YV+Aw==.sig.ed25519"
 }
