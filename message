@@ -1,17 +1,28 @@
 {
-  "previous": "%M8FJg1Pud5GtkKYzkQl+PMFBuO0WMbthzWpTVFNXvts=.sha256",
+  "previous": "%nwMTFG8DsrsUQJCEeuLhGX3doNIgVD0w7OuSYmDsi1A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1801,
-  "timestamp": 1534216120716,
+  "sequence": 1802,
+  "timestamp": 1534216384253,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%1efRjcGh9W40TFAALl7xmGkNkIHYB530GdxwJwSQKvE=.sha256",
+    "branch": "%4z33vAyHL6u4W7I6/UiBL+GdvQ4/oPleaEyWFBTZUTk=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%4z33vAyHL6u4W7I6/UiBL+GdvQ4/oPleaEyWFBTZUTk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis looks great, thanks for your work on this release! Just packaged a version-specific release for Arch Linux: %2ebZNgMnWR2tHCs0DZhdrlJjCF+yxbbJSHPmICSDneo=.sha256\n\n![thumbsup](&Xh5XMqJkyxxzovvesaRAZo2r0s1j7rMBUvhlb9ZVoJE=.sha256) ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%2ebZNgMnWR2tHCs0DZhdrlJjCF+yxbbJSHPmICSDneo=.sha256"
+      },
+      {
+        "link": "&Xh5XMqJkyxxzovvesaRAZo2r0s1j7rMBUvhlb9ZVoJE=.sha256",
+        "name": "thumbsup"
+      }
+    ]
   },
-  "signature": "+lMrIYzVUFdHR3/tEGPA9tT++EXMLS5kD4nYdRy6pWlFcNeZkBvPwnt7trPUzDsVjcEUTtSZ+Zyy4nVYP/CyBg==.sig.ed25519"
+  "signature": "BeNO2ASuyJAmbmg/y7y7H5reEAe7zOMOEnZYJpXV+wxv/+E31x0U2vQs0Zc7eOgyTabGR7Dvdi0gB1+qM8+bBA==.sig.ed25519"
 }
