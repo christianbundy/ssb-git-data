@@ -1,16 +1,14 @@
 {
-  "previous": "%ZizLUicLjjcKJkfqIKpG5pSZtCYlnMdBj2HOCfYZb+c=.sha256",
+  "previous": "%kFPCiAGA+A64iPyZfvkI1YnCzRSyTTS/jgP3jnGOk0Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1786,
-  "timestamp": 1534207805666,
+  "sequence": 1787,
+  "timestamp": 1534208313295,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%J9WOzuD8gBcW3s7DIllZJbUf55ha1C9fADbTUlGtqhQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ya/H5ND8tVtqkFGcTsBa4cvsq++W9rJC2W7psXx3qUQ=.sha256",
+    "branch": "%jGtgh8uf7t7sE2GN9JJVjLmKnp70oeNNX9griEdx1O4=.sha256",
+    "text": "**Patchbay v7.14.0 was just released** so now [`patchbay`](https://aur.archlinux.org/packages/patchbay) is a thing. Install from the AUR with:\n\n```sh\ngit clone https://aur.archlinux.org/patchbay.git\ncd patchbay\nmakepkg -si\n```"
   },
-  "signature": "eggMsvVThdPpzvhmXYJ1h+KC87eLmQ1MEoOnR/XpTv6SHmnMps8UyI3Nxkt4intjsPZgj/r4pGWJ1evgYzk9CA==.sig.ed25519"
+  "signature": "nSoa8QGQVO5+sMNedOFoBaXxtrDKUMGdpkA3Yr5NZXpRAUoHsy3eyKPcN35nkAUi2y6TK4dCYT0a0PbwGCTMCQ==.sig.ed25519"
 }
