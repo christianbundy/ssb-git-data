@@ -1,9 +1,20 @@
 {
-  "previous": "%r9tGJbEbkaAPFHRHMDET9r5ZgWkxC6LbDGt0EtXah7o=.sha256",
-  "sequence": 1867,
+  "previous": "%BR1yW03OQ+OFiAAo/5o6e1eKjD0xOex8m35tU6KdREQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534273318267,
+  "sequence": 1868,
+  "timestamp": 1534275784504,
   "hash": "sha256",
-  "content": "R7wmWLUXXHXQK5fpocfPZ/V47x0lXiYBFmeAHFTI99h3QQBxi2eSeGpkT50zQZxocp44M4Qo227NStHIF5/AytObosidYVie+AZTLEJ3gbbTLjptfMpZFryBO2uejuN025kQj7TOv0vKyupQNTdLxEKnv/z22mlPWOl/et/OhQNUve9HO4TUaiS0KPkYlGCICK8ZbXbUv5jKnhXZ98HsT7EbUrtfu3ZEJCwZAXs/cQkme9rDKlllSbYClZ2hnWGQso6T0qzG+xV4J2bAwotbEzdqlw3n92p9TamcVabJCqei2LTCOgaJd7GMcim6M1bhtIC09wYzFOKIQqeTmxg1X8lKqyud0vkOKzrN5CxtkvtYPGWNfF64sVw=.box",
-  "signature": "b0d2DlV8T23JI3veILKbjHWxJLG5pn6t/UmNkcHGIBpmDDIXPl/pWXselhqXLglUR4wDy7K7dNN4mplYdmPlBQ==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%/7ZqEVJPjmG7ooVQpdprod3HeRyzsqJxMYxbRBy+z70=.sha256",
+    "branch": "%p0ZpyALH2ShOoy80CqQjZz5ua4zAprCncwhzrnD6W+I=.sha256",
+    "text": "Sweet, thanks for taking the time to write this up [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)!\n\nAfter poking around a bit, it seems like there are a handful of spots where `when()` is being used on values that don't seem (to my untrained eye) to be observable. I think I have a handle on *using* `when()`, but I'm unclear on when I can remove `when()` from a line of code.\n\nFor example, can I assume that any time [this `return`](https://github.com/mmckegg/mutant/blob/4cc5d7c35493700dc9a40f3cb6da6a2b6e3ce7dc/when.js#L28) is used that `when()` can probably be replaced with a ternary operation? It's funny how *removing* code is at least twice as hard as writing it in the first place, especially if you want to avoid breaking anything/everything. ",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
+  },
+  "signature": "0GrKOZaSqGE8lPxJ9Q/0XoJTQWTr6Lqj3+zZfgm744NKIWtPfqr/JXZqbzASlHa+PgTz9zKvHa7PBgMJNbpHDA==.sig.ed25519"
 }
