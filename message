@@ -1,17 +1,21 @@
 {
-  "previous": "%+6xVd+zjIqcdLxX+3Eei4y+S1DIZWO5sJPlEO+YskZc=.sha256",
+  "previous": "%aHF9fcTQ1LkSuks7LshjwCytQn29X1vBOqjvGT6ROpA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1798,
-  "timestamp": 1534213810103,
+  "sequence": 1799,
+  "timestamp": 1534213957676,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256",
+    "branch": "%Y1JlAmkHe1m+9THlC9uzgpg/VR+uXSf1F71lUkQqk90=.sha256",
     "channel": "blocking",
-    "vote": {
-      "link": "%VMqPxAz37AYKa+sGTQVWHkQTUPyfj7z5URi/8u3yp4Q=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nI think \"block\" could be divided into a private \"mute\" and a public on-chain \"flag\", do you think that would resolve the issue? I don't personally get anything positive out of publicly muting people, I'd prefer that those are encrypted for cross-client persistence. On the other hand, there are definitely accounts I want to flag so that others can block them too.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "eRGZ6AUubaedr0bpqBupI+8D380R8Q9ImZHa+m/xyw5UhUdinQVECzdsmzEBNQnRnMO5SZ/5TAgD/K9rcBCGCg==.sig.ed25519"
+  "signature": "yPfJOoNUuZuImtCliGf98SSTjciOgOcsktdxBvlXLlJbyR06GrecVY2R0Dup4cRGxm4ECSHAiZsdl9pHcDGfCQ==.sig.ed25519"
 }
