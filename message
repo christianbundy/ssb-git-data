@@ -1,18 +1,18 @@
 {
-  "previous": "%S23QiY/2UIAzK5Pk01pZrZS0s0DQzGY3r11QXh7D0Dg=.sha256",
+  "previous": "%/7ZqEVJPjmG7ooVQpdprod3HeRyzsqJxMYxbRBy+z70=.sha256",
+  "sequence": 1840,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1839,
-  "timestamp": 1534262522356,
+  "timestamp": 1534262586499,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nI've been playing around with Mutant more often and noticed that `when()` operates like a ternary function, but I've noticed that both `a()` and `b()` are called in something like:\n\n```js\nwhen(true, a(), b()) // both a() and b() are called\n\n// vs\n\ntrue ? a() : b() // only a() is called\n```\n\nI know this is just a feature of JavaScript and don't expect Mutant to deal with it, but is there a way to get the same behavior of ternary functions where only one function is called?\n\nI was thinking something like this might work:\n\n```js\nwhen(true, (() => a()), (() => b()))\n```\n\nBut it's pretty hacky and I don't think it even works. Do you have a recommended solution? For context, I'm trying to resolve [this issue with Patchbay](https://github.com/ssbc/patchbay/issues/231#issuecomment-412362473).",
-    "mentions": [
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 59,
+    "root": "%24cEdfvd6Y1YVB9J04THxm8/pe0vXVnTxGXFjU1XCB0=.sha256",
+    "orig": "d1",
+    "dest": "e3",
+    "pgnMove": "Ne3",
+    "fen": "5k2/3n1p1p/6p1/8/1p6/3pNP2/2r3PP/5K2 b - - 1 30",
+    "branch": "%3GCo6Ab3p3vbUr+DsjLEQkvV3CM1g+Ma676Qp4ROqiE=.sha256"
   },
-  "signature": "keuHae1EBG6cIEtHULffHvr99OrqYMPRaE7Bk7wXFClhFKzRL9md8ocUsiAsUiwo5m9QaulQQAv+rS40163/AA==.sig.ed25519"
+  "signature": "0KESK+eiJAIXn3ZImPOT7XryQqXscckF4kRdYAaOPL+4PsdZz7g+wnrA/OBmXTEW5B3k6F4OPWzLfKLMWbLnCg==.sig.ed25519"
 }
