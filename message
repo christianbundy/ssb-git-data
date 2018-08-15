@@ -1,12 +1,170 @@
 {
-  "previous": "%uT36zHuAj/pHi7tW/n1Ec4TKvYOe/oiyEWWkIcFnhTU=.sha256",
-  "sequence": 1922,
+  "previous": "%Mv1PlMVKTRzpL6xahxWQdxW3wvjemH0243SPbFqjX3o=.sha256",
+  "sequence": 1923,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534342215759,
+  "timestamp": 1534342223617,
   "hash": "sha256",
   "content": {
-    "type": "git-repo",
-    "name": "ssb-patchwork-git"
+    "type": "git-update",
+    "repo": "%Mv1PlMVKTRzpL6xahxWQdxW3wvjemH0243SPbFqjX3o=.sha256",
+    "refsBranch": [
+      "%Mv1PlMVKTRzpL6xahxWQdxW3wvjemH0243SPbFqjX3o=.sha256"
+    ],
+    "packs": [
+      {
+        "link": "&xXoZYVholk3XDdtzJLduLTcKieaRTmTLFBDRbxT3O88=.sha256",
+        "size": 19698
+      }
+    ],
+    "indexes": [
+      {
+        "link": "&yiFMZaitW9UgRvM7mALkejYAIFQxfin18/Vt6B43AzM=.sha256",
+        "size": 3256
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "d73ca25c95e312c24b23afdf7bbda36660efebaa"
+    },
+    "commits": [
+      {
+        "parents": [
+          "7fdfa3eb80f9c866064c2fa431f1ec83036de0c4"
+        ],
+        "title": "Depend on system Electron",
+        "sha1": "d73ca25c95e312c24b23afdf7bbda36660efebaa"
+      },
+      {
+        "parents": [
+          "69ed3a238ffbdc7d3a037b9c7c17191a313f1d93"
+        ],
+        "title": "Rebuild Node modules to match Electron's Node version",
+        "sha1": "7fdfa3eb80f9c866064c2fa431f1ec83036de0c4"
+      },
+      {
+        "parents": [
+          "239d6bd08f79d5d8a8cc85a8896f0fb38f76a381"
+        ],
+        "title": "Transition to ssb-patchwork-git",
+        "sha1": "69ed3a238ffbdc7d3a037b9c7c17191a313f1d93"
+      },
+      {
+        "parents": [
+          "4cd2b5b01fe3b3d5a02a56146319abe3f786f7cd"
+        ],
+        "title": "Release 3.10.1-1",
+        "sha1": "239d6bd08f79d5d8a8cc85a8896f0fb38f76a381"
+      },
+      {
+        "parents": [
+          "79bee1c6b29253dc300f65f40645df8d00667b0c"
+        ],
+        "title": "Add .SRCINFO for v3.10.0 release",
+        "sha1": "4cd2b5b01fe3b3d5a02a56146319abe3f786f7cd"
+      },
+      {
+        "parents": [
+          "831e112cf61b8b44ea8f3e1a90162f1b587e3aab"
+        ],
+        "title": "Release 3.10.0-1",
+        "body": "- Upgrade to Patchwork v3.10.0\n- Remove prepare() step\n- Switch from `npm install` to `npm ci`\n- Remove electron-rebuild (if necessary we should use `npm run rebuild`)\n",
+        "sha1": "79bee1c6b29253dc300f65f40645df8d00667b0c"
+      },
+      {
+        "parents": [
+          "5ffc6b90e0291b6b0a40a5eddd62b359d5c02460"
+        ],
+        "title": "Release 3.9.0-3",
+        "sha1": "831e112cf61b8b44ea8f3e1a90162f1b587e3aab"
+      },
+      {
+        "parents": [
+          "228e40dc54a739f76bc6faf8eae9648038fa7ca2"
+        ],
+        "title": "Move `nodejs-lts-carbon` and `npm` to `makedepends`",
+        "sha1": "5ffc6b90e0291b6b0a40a5eddd62b359d5c02460"
+      },
+      {
+        "parents": [
+          "19d43de8ad46398786142efc071cd80c762cf4fd"
+        ],
+        "title": "Release 3.9.0-2",
+        "sha1": "228e40dc54a739f76bc6faf8eae9648038fa7ca2"
+      }
+    ],
+    "tags": [],
+    "num_objects": 78,
+    "object_ids": [
+      "19d43de8ad46398786142efc071cd80c762cf4fd",
+      "e85aaf3700e9629466f879b884bb8e1a6cfc578d",
+      "15c96a1aef9b68329b589fd5049dc1a7555005c1",
+      "6a5823c6854e723d5ddf759fb92266c31d8c2603",
+      "fad3a694d0e6eea3851c4f8232353b6a39ae7286",
+      "fcfdd2f5311c656fb85a13b50534038da9b8f919",
+      "70f2253cbfa37125f0d91aff9c18ab0231f6f06e",
+      "2c181cb7f5cae890447b213bfb490756e99f68ce",
+      "a35180fa8bb2ebe3e256e1059776dff346e23eaa",
+      "ac8916a3db573f4d51f0a82b60da3e0e473cc014",
+      "106694209ba36b3dff73de38d5e9c01a310873e4",
+      "c53bd33d071b181c36522fac168f8fc697f89632",
+      "80a25231a26e58b9f9620277226194c08b9096a1",
+      "c437978bf97584fd2e7ddcf03a5851d4fb4116a2",
+      "123ef62c2560a9688820afae5ac8e3346833763e",
+      "fed7a72e766e372ace76e0ae02fb5ab4eddeb426",
+      "20d750cce40d7ac63458a50cfac5917f67f510c0",
+      "193f51a8bd0e9b379e4f9509891216991f5d720a",
+      "bd74f5bf0f790ea4795d303a6cc9b189454ab9e9",
+      "e0a253560e4d00d41a85bcbf3306920eb9c1480b",
+      "64d8b505dbcdc4ecad5d55b2349785226e5195fd",
+      "c9957622360d85c82178cb092bcfa95ad8d47810",
+      "64b87057b2b961d399d9891808005a45c4645d5c",
+      "73738cd55e012f51f83020743f6adb9facec68f0",
+      "e714671a9e80955f165ebced7a121863a5800abf",
+      "c5aa1479cfb6b29f253776c42680324ee1f6b888",
+      "0519b48d9f3778ffdb8baf9f3964906855c4ffff",
+      "c936c5f5087b8472a6ae0c8ec484501bee137c8e",
+      "d9f2ca44355b59977b7a60432aa499e82267197b",
+      "391c1a3a50962eec9ec6bf6af997cad9d6c95125",
+      "56d93681cd735ad44117486daff840117518961a",
+      "e8062fe505ead544cdaa7b53349d607f161e4e4f",
+      "78c93524fa7891d1ba06b1bffa73f255e985e87c",
+      "e0bc2fe99b2022e77386d7aacd629426f367158c",
+      "fcc73c6e86d4e9a91e922a392fc9691ec3e7b1e1",
+      "050cb69686a07edd563ef201e48404ef004eb6bd",
+      "367b6015351647c038a1b2be6786426ea578b864",
+      "d5611489f21f3dcf76843e0b31e1aed0b8bb7aa4",
+      "2442c98c60cfe16790bc33bd8b57b86735bb72eb",
+      "efcbfff398ad3b1e121d64c298eaa621a1b4b8f9",
+      "be1cbcb747249a31ad1bacf8195d6d1d388f494a",
+      "688bd94112e92c406e05d62e75097d194b535cfb",
+      "e9e9f51145bfb25b3b0c62eace9ebd01df0b842f",
+      "128f77f76b68cd35d2e18ac40c1c714fd175e67d",
+      "6247a588a99007c94e91238f13196c01aa1a9518",
+      "995a02d8a5a056b928454a7eaf4f1214f01b32f2",
+      "4865b222fa71697683fa88ef9b8f89eaad158418",
+      "b641bd982eb68a3208a5415e327cdbd98c6e2d02",
+      "8f4608865970b07fc6b5aaa3dc9229e4c9ce7cf9",
+      "8b8204e3cec53ef0c5577badfc5d752cd7701e30",
+      "612e68202835b2433904a28c4dcf850a47521b9f",
+      "f33dafad3c994c1039dd17763781cd1ca1e37678",
+      "c4aa847382b8421c88e33693cf56b99d0b6e5a74",
+      "42df1fac1f3a2344b32402bd12dcf2996ddbad46",
+      "9be7a112e72b12d4e39a6cb95e0d7f6c02892886",
+      "29fc054a6dbc798d6a91af5a31fe02f5e4633267",
+      "6bfe1016f20824234be93d49ff289f2cccf7473e",
+      "0a75d990a8ece28feca4bc363952f83bb1dfffd8",
+      "3e4e22fd73ae7b516d700a8b492d16e54d97fbca",
+      "70132baf508c8468020b24675a3ad28459fee763",
+      "4c8cba5aecdf8e94bf687a6ada083561f2f31c3a",
+      "addd75aaf7e3df45b12b4c91e943a259020a13a5",
+      "00f1231ac3e55afa89ad714a3786779d66cdb6f1",
+      "669bb82e4d87687afbe9a879faee408518e26bde",
+      "e35f5af8fc4712c1fd4fe9aa6a2396c015e4aeae",
+      "b8253fb5879c5f3dd24708bd28d5d58f7e604790",
+      "f43b86a0bb18ff0fe74810a7e651b192292115d2",
+      "9b5ccbc350893612b9c1933f4030a8eec3656071",
+      "71aa2321e0609f1e459495823715abd9a74e0de2"
+    ],
+    "commits_more": 10
   },
-  "signature": "x5yW0b0GGjDkM6jrD5jD73Ts2xXFGJdkUJfe6/QCkDf9QjRaoS1q4+/AZSsaWgQkq9qRHooPGFGfc2NwT4igAw==.sig.ed25519"
+  "signature": "q5yNTD77avKqja9cyp9/xo9EW++sjVYjkdCDHuW1BmSHCCC2EQf0ZavYRqyMn+yvwQlpvxTzqooMPg+gDk4UDQ==.sig.ed25519"
 }
