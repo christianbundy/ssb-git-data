@@ -1,17 +1,21 @@
 {
-  "previous": "%TmQK2FGgMHq9WAEHleZ7u6fS4vBamM9J5LpzYWwUNkI=.sha256",
+  "previous": "%FHpNvw5wDO3zgCPg26BKp13KgzLeegSfC903BWbpvxw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1906,
-  "timestamp": 1534303008841,
+  "sequence": 1907,
+  "timestamp": 1534303030214,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%YN2Gtwbcxev8M7bndo0vaTst4XdjCIUEQm87s9C8Sno=.sha256",
+    "branch": "%YN2Gtwbcxev8M7bndo0vaTst4XdjCIUEQm87s9C8Sno=.sha256",
     "channel": "studioghifly",
-    "vote": {
-      "link": "%YN2Gtwbcxev8M7bndo0vaTst4XdjCIUEQm87s9C8Sno=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nI love these. Thanks for sharing them.  ",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      }
+    ]
   },
-  "signature": "LQGGqLGxNy+uxjusd9WsCzLAJ29sZ6pzOHpALUHOtoolP44pqDYuKvF4bUIwN1zIXs1/jyAxjzXxyf4UGrdKDw==.sig.ed25519"
+  "signature": "Ewps+1Al0OEvwvr5xsflFggCfN//7A8YyZuexV1oJ/i0fabPEr8xq8iTmvWnuVidnNWht7Uioo3h0RifVce1DQ==.sig.ed25519"
 }
