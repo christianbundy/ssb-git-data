@@ -1,20 +1,17 @@
 {
-  "previous": "%Z7qicwfkQLNd88QHngCFf5gzuQlb17GuV9tm39wTs4g=.sha256",
+  "previous": "%u2IOXV0MadmyXLWytm26YOY76zWFmJSQ8lamsVUF27A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1947,
-  "timestamp": 1534349852906,
+  "sequence": 1948,
+  "timestamp": 1534349896710,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%sF2OdM4r+TkGG2Z+KJhgjl/Ma4wbW78yU47Lfer4jKs=.sha256",
-    "branch": "%DTkJfDSH5im5ODEhkH/KhMrdpI08CfgeSzUFL2O47gs=.sha256",
-    "text": "[@kik](@DJVbfRTEhC3cH1zU5/BAx6MgKIX1fkkytaRziA10suw=.ed25519)\n\n> But really, at this point, it doesn't really matter. Those glitches are not mandatory in the core concept, and it's all about experimentation for now, so I'm perfectly fine with it and glad to have this cool ideas to play with :)\n\nYep, exactly! I was actually really excited to build a local-first Dat client with only the standard web API, since it supposedly supports websockets, but I couldn't find any other websocket clients. It reminded me of webtorrents: it's *amazing* that we can torrent with just the standard web API, but it requires that other clients are using a webtorrent-compatible client... which isn't super common (yet!). ",
-    "mentions": [
-      {
-        "link": "@DJVbfRTEhC3cH1zU5/BAx6MgKIX1fkkytaRziA10suw=.ed25519",
-        "name": "kik"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%qvdN2ssup15FEe+Z/I4//If2hp3T7i6RD/n4+QTanek=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "cN96v4UqDanLD0bJPVuK28iOEb0KRVJcnv1/9p1EArmZWD/UY9059mEPJbG4URkdTlkkRIBpxsttosC1MaW8Bw==.sig.ed25519"
+  "signature": "wKMCbHKzXDB9dBCIqnW1k7Z45SZYBBZ0ZO5NHDTaPLWL1w7/bfTgm6SQy78DWONXFf1SlHpji08s8Fs9Cr7XBg==.sig.ed25519"
 }
