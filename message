@@ -1,12 +1,17 @@
 {
-  "previous": "%LCxQE5RaTdqiUWik6c1NNced7BFWqk1e5TBXyazu9fI=.sha256",
-  "sequence": 1967,
+  "previous": "%WYHjpVivlORfKn9u+zzhvUk5tTu4cuzUF8E2J3Qx+vs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534351683862,
+  "sequence": 1968,
+  "timestamp": 1534351765174,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": ":raised_hands:"
+    "type": "vote",
+    "channel": "ssbc-grants",
+    "vote": {
+      "link": "%5PDAshMSnm2YPMa4KTmrVGFMw5ZiwRQ9cEY7/PR8qnQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "BdkSKZYpnQtzGM91OgaCo/6DIiOYZguYNHEQY3/6JE3fPsqv4LbhvLaNBooOnKSytIpGTDOW5mJ/mp2/5RXODw==.sig.ed25519"
+  "signature": "mNdOc83pzN7nC2WnEEufsjET28fA1A3Es+bD0A/tu/UoL83cVQVCZybmffr7qMV9zk8V/QAKsupXbfUyudE4Cg==.sig.ed25519"
 }
