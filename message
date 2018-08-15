@@ -1,12 +1,19 @@
 {
-  "previous": "%w2iWMny52h7CpcL0L5JuPA5fK9Ki5mvIB7Ura4VrxsY=.sha256",
-  "sequence": 2019,
+  "previous": "%O/p8/NaB4fDbXpjfBSIqud3IWV37hCOYaUPof9zyDgw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534358920721,
+  "sequence": 2020,
+  "timestamp": 1534359025006,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "happy0: I think ssb-chess is doing something funky for me now"
+    "type": "post",
+    "text": "Not sure whether this is related to anything I'm working on, but I'm getting an infinite number of empty `/errors` tabs popping up. The first one has these errors:\n\n```\nCannot read property 'destroy' of null\nTypeError: Cannot read property 'destroy' of null\n    at Object.onremove (/home/christianbundy/Source/patchbay/node_modules/ssb-chess/ui/game/gameView.js:310:19)\n    at onremove (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:807:107)\n    at continuation (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:783:5)\n    at removeNode (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:780:3)\n    at updateNode (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:618:4)\n    at updateNodes (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:520:12)\n    at Object.render (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:958:3)\n    at run1 (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1160:40)\n    at lastUpdate (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1172:5)\n    at /home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1174:55\n    at /home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1140:7\n    at String.replace (<anonymous>)\n    at resolveRoute (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1134:15)\n    at Immediate._onImmediate (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1071:5)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\nCannot read property 'destroy' of null\nTypeError: Cannot read property 'destroy' of null\n    at Object.onremove (/home/christianbundy/Source/patchbay/node_modules/ssb-chess/ui/game/gameView.js:310:19)\n    at onremove (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:807:107)\n    at continuation (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:783:5)\n    at removeNode (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:780:3)\n    at updateNode (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:618:4)\n    at updateNodes (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:520:12)\n    at Object.render (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:958:3)\n    at run1 (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1160:40)\n    at Array.<anonymous> (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:974:4)\n    at redraw (/home/christianbundy/Source/patchbay/node_modules/mithril/mithril.js:1001:16)\nCannot read property 'id' of null\nTypeError: Cannot read property 'id' of null\n    at history.filter.loc (/home/christianbundy/Source/patchbay/app/html/tabs.js:43:54)\n    at Array.filter (<anonymous>)\n    at onClose (/home/christianbundy/Source/patchbay/app/html/tabs.js:42:39)\n    at close (/home/christianbundy/Source/patchbay/node_modules/hypertabs/tabs.js:46:18)\n    at HTMLAnchorElement.onclick (/home/christianbundy/Source/patchbay/node_modules/hypertabs/tabs.js:77:9)\nCannot read property 'id' of null\nTypeError: Cannot read property 'id' of null\n    at history.filter.loc (/home/christianbundy/Source/patchbay/app/html/tabs.js:43:54)\n    at Array.filter (<anonymous>)\n    at onClose (/home/christianbundy/Source/patchbay/app/html/tabs.js:42:39)\n    at close (/home/christianbundy/Source/patchbay/node_modules/hypertabs/tabs.js:46:18)\n    at HTMLAnchorElement.onauxclick (/home/christianbundy/Source/patchbay/node_modules/hypertabs/tabs.js:67:11)\n```\n\nAnyone else?\n\ncc: [@happy0](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) ",
+    "channel": "patchbay-dev",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy0"
+      }
+    ]
   },
-  "signature": "92vwtugRem7xF0ct0KrdrPvsGHCXCyzvMFUSHywzccS6vKA++kdjsemshQE8WSOJiks19SvTMPUCBil7kctiBQ==.sig.ed25519"
+  "signature": "Zb+H5izej5GvHbumhR51KPQMqG/biD3Tv8IfYtYnUcpArFAHXpFqkuiiEA5gydmMtdJfgzoZ6jSDCLxmkZsBBw==.sig.ed25519"
 }
