@@ -1,17 +1,15 @@
 {
-  "previous": "%1664jyzXX0LsHubXS6XLLkdHH8ZHJSOpiMOIGSjV5mU=.sha256",
+  "previous": "%zoqpDE43PZkXeMXCeVGYAkX4x2zSbJWZ6g2fCFHlvZw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2006,
-  "timestamp": 1534356104471,
+  "sequence": 2007,
+  "timestamp": 1534356635309,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "communication",
-    "vote": {
-      "link": "%V7vdnvyGn9A+xkzAqK2QQ1hJwqqRIFZR32T1t52KW5A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cT93XLm1Srpr89AUF3MBuImGlKlL8CEOJAR3ygYYsAg=.sha256",
+    "branch": "%BK3ilG/a/4yH3p2Z0g2+GWZywCgf1rCMcp34pKOtNho=.sha256",
+    "channel": "patchbay-dev",
+    "text": "I put together a pull request to switch from MIT + GPL-3.0 to AGPL-3.0, but I *think* we'd need permission from [a bunch of people](https://github.com/ssbc/patchbay/pull/237). Until that happens, should I just specify that it's dual-licensed as MIT + GPL-3.0? I'm not sure what The Right Answer is here."
   },
-  "signature": "L5ogidIAvEqUc2cwhag9L1WoEQfvxeXmgSaj/vRPHotFERSCKUatHJHA3lDEvXmGOqxsPUlQLhkKh9mdq3YnAw==.sig.ed25519"
+  "signature": "eHDdPYbFigCtSTT6JGG9D8DmCHY1VO5AM6AjSt0EQKf8k9+iWC4PQe5GlTSuWFLxxCc4sXdbvkHKhQ3XNftWDA==.sig.ed25519"
 }
