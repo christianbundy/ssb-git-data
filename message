@@ -1,17 +1,21 @@
 {
-  "previous": "%0xVx3M4roLkICFsvsWQgx+8fh4FL7hHvH4twTkjM/OI=.sha256",
+  "previous": "%WDHARZndfVn1TBlr/Jyb/nNVGm/2P/cy0zJTrUUVm7A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2009,
-  "timestamp": 1534356747922,
+  "sequence": 2010,
+  "timestamp": 1534356893872,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%RJ3WdMy2BzEjV1z/Xb0qrC4MNfe1rWWCJuH6DYUwIm0=.sha256",
+    "branch": "%odFs6KqjrSeSEVP8Pbi3kTfZ2DFkN/bmFUgaDq+VMPk=.sha256",
     "channel": "dweb",
-    "vote": {
-      "link": "%odFs6KqjrSeSEVP8Pbi3kTfZ2DFkN/bmFUgaDq+VMPk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThat's not cool at all. Just for clarity (and future archaeology), can you give any more info on where that quote comes from? Even just \"someone on the Dat team\" would be super helpful, as I don't want to misattribute anything. I appreciate you sharing that here.",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "dinosaur"
+      }
+    ]
   },
-  "signature": "2K6LXm9/0BCpGTXLjQkcaH2+6Q2jvsBVDenw0TmVwnNlmnfhG4Dm/FITkAejENjuG1Q0YuIFi0/GG2rLDwaFDA==.sig.ed25519"
+  "signature": "AFQfX9neeFOBpsJiYLdnBkM86EBZ7q1pw8kMo5sTZjhoquOipoP/sgWuz1J91z1qxuPwTRmlVLoH3UXxe8GxDA==.sig.ed25519"
 }
