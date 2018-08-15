@@ -1,17 +1,31 @@
 {
-  "previous": "%0hC9xN+kXDa83leYbGxE29p+HPDIV/bDvIhW0rIA6O0=.sha256",
+  "previous": "%+DgshbGLQgj44gTnzQGeze1EDYwfMsdnCOQ2gYloyIM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1878,
-  "timestamp": 1534290942433,
+  "sequence": 1879,
+  "timestamp": 1534292020259,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%4e0WnsTZILSpHbj8/Sf/mnoV0aeYYbZKM76GZYw4ago=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%0hC9xN+kXDa83leYbGxE29p+HPDIV/bDvIhW0rIA6O0=.sha256",
+    "branch": [
+      "%MVGS15TBR9TTZ3D8Dh0qYgsaM0KQ95FVZzkHW8f6Aic=.sha256",
+      "%fFVhA3XugANRymwCsv5RqmMQyRJNO+ef3H1z4sB6/vE=.sha256"
+    ],
+    "text": "[@aran](@WeZBYERzjvfOVlgU7vMz7RSheqe4WaGEd87ewbMvnvQ=.ed25519) [@greg](@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519) \n\nBasically [this](%bOpONiQ8cv5JxKHHpEKsLC7zaSBd3Q1LL+ncXpUPlhE=.sha256), where someone joined a public pub and then started spamming automated messages with no real content. I don't think that they used any blobs (which would have been *much* more effective), but their feed is seemingly endless.\n\nAccording to the timestamps it was only active around 7 months ago, but I haven't seen it until today.",
+    "mentions": [
+      {
+        "link": "@WeZBYERzjvfOVlgU7vMz7RSheqe4WaGEd87ewbMvnvQ=.ed25519",
+        "name": "aran"
+      },
+      {
+        "link": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519",
+        "name": "greg"
+      },
+      {
+        "link": "%bOpONiQ8cv5JxKHHpEKsLC7zaSBd3Q1LL+ncXpUPlhE=.sha256",
+        "name": "this"
+      }
+    ]
   },
-  "signature": "s7rSl2e4/L/xcR4bG2i5g5YAXQg45jJI4JdBm9EchNgAqbOTIIQXsAsHdHaoU/vn5jq02qfnmZ4EE2MQVwYMDw==.sig.ed25519"
+  "signature": "ZGwEk+RpTAzRmh9d/AVeWIoMAoDj6xbFt6fPjRwbR9t1zO0XgX8M+gRq+OooP6Qc11wuQgLgPHF2X8PywfkLBA==.sig.ed25519"
 }
