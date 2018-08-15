@@ -1,20 +1,14 @@
 {
-  "previous": "%k0M9/9aFavnGUX6fhpf8LomOU2OZMEuoWL0uO2dvpj8=.sha256",
+  "previous": "%9LsJ2CN5fTgi02+xEBKG9n6Ib/Sax+J1DAb1UEhEiY4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1883,
-  "timestamp": 1534292777296,
+  "sequence": 1884,
+  "timestamp": 1534293906266,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%mJAUo+USS37DaVUlC6HF1axS0/jYmPDsc/4KDcamCVo=.sha256",
-    "branch": "%mJAUo+USS37DaVUlC6HF1axS0/jYmPDsc/4KDcamCVo=.sha256",
-    "text": "[@nabijaczleweli](@Fv5NC77/OgEkfBeWn5zuqjB0KfQbrlL3xRKX2PtbJh0=.ed25519) \n\nThis is great. I'd love to see other unconventional tools you use around the house!",
-    "mentions": [
-      {
-        "link": "@Fv5NC77/OgEkfBeWn5zuqjB0KfQbrlL3xRKX2PtbJh0=.ed25519",
-        "name": "nabijaczleweli"
-      }
-    ]
+    "root": "%/7ZqEVJPjmG7ooVQpdprod3HeRyzsqJxMYxbRBy+z70=.sha256",
+    "branch": "%qymtRbYcZ4SjYZdT75M5GWnJmTE9sXyMnCxIGgKl0ic=.sha256",
+    "text": "Man, I really need to do a crash course with Mutant. Are there any recommended guides, or is it just something you need to dive into? I think learning Mutant and depject at the same time may be counter-productive.\n\nI think this was the code I was looking for:\n\n```\nif (!isObservable(obs)) return obs ? ifTrue : ifFalse // +++\n```\n\nI'm planning to try to identify (and *hopefully* remove) all of the unnecessary Mutant boilerplate in Patchbay. I'm not sure how much there is, but I imagine it'll make our errors a bit more manageable if we can remove code that's effectively unusee. I'm thinking something like this will work:\n\n```\nif (!isObservable(obs)) {\n  console.trace('Non-observable passed to when()')\n  return obs ? ifTrue : ifFalse\n}\n```\n\n\n(100% just your code plus `console.trace()`)"
   },
-  "signature": "G2mLOV4r3T0JlaEa44eFJ/050HJ6Sauo9YNawlzr7Uy0tz9gnYFTICdD+UGwFYPjBZowTPXCH6PeYkhYBmP/BA==.sig.ed25519"
+  "signature": "jSMPzPx780pyKYxvegYAvUxE5c+seU7T9X7/HRlgFOErTPbQRkGvFCsYUYm9h7posxoiKuZP+XIYti30QpdTDA==.sig.ed25519"
 }
