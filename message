@@ -1,14 +1,16 @@
 {
-  "previous": "%9LsJ2CN5fTgi02+xEBKG9n6Ib/Sax+J1DAb1UEhEiY4=.sha256",
+  "previous": "%DGNcew0sluWW4zDJtq85lb7Ue6HftToMosePrAi5tf0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 1884,
-  "timestamp": 1534293906266,
+  "sequence": 1885,
+  "timestamp": 1534294466907,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/7ZqEVJPjmG7ooVQpdprod3HeRyzsqJxMYxbRBy+z70=.sha256",
-    "branch": "%qymtRbYcZ4SjYZdT75M5GWnJmTE9sXyMnCxIGgKl0ic=.sha256",
-    "text": "Man, I really need to do a crash course with Mutant. Are there any recommended guides, or is it just something you need to dive into? I think learning Mutant and depject at the same time may be counter-productive.\n\nI think this was the code I was looking for:\n\n```\nif (!isObservable(obs)) return obs ? ifTrue : ifFalse // +++\n```\n\nI'm planning to try to identify (and *hopefully* remove) all of the unnecessary Mutant boilerplate in Patchbay. I'm not sure how much there is, but I imagine it'll make our errors a bit more manageable if we can remove code that's effectively unusee. I'm thinking something like this will work:\n\n```\nif (!isObservable(obs)) {\n  console.trace('Non-observable passed to when()')\n  return obs ? ifTrue : ifFalse\n}\n```\n\n\n(100% just your code plus `console.trace()`)"
+    "type": "vote",
+    "vote": {
+      "link": "%FLJ4m3+rUUdKymB62INkCJ02M5NqfgvLamGcbJf4L5E=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "jSMPzPx780pyKYxvegYAvUxE5c+seU7T9X7/HRlgFOErTPbQRkGvFCsYUYm9h7posxoiKuZP+XIYti30QpdTDA==.sig.ed25519"
+  "signature": "/oDL6b8PycrQrnHvG6a3YraH2FfY2gtkKh/a3yCUyvrFdctb6IfSjQkTNQFzkBIv3XKBPiFbuLYbYW6llrt0AA==.sig.ed25519"
 }
