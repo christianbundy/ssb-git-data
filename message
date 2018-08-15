@@ -1,12 +1,107 @@
 {
-  "previous": "%qo4sp8SpAm1bheiFUoqHcuE3dBlP+VxiuZdI545zvjk=.sha256",
-  "sequence": 1916,
+  "previous": "%iLGZmMSBTzLCE41jTWXcLFkfXP4jLSCEzPtFj8Lp4pU=.sha256",
+  "sequence": 1917,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534342058956,
+  "timestamp": 1534342107443,
   "hash": "sha256",
   "content": {
-    "type": "git-repo",
-    "name": "patchbay-git"
+    "type": "git-update",
+    "repo": "%iLGZmMSBTzLCE41jTWXcLFkfXP4jLSCEzPtFj8Lp4pU=.sha256",
+    "refsBranch": [
+      "%iLGZmMSBTzLCE41jTWXcLFkfXP4jLSCEzPtFj8Lp4pU=.sha256"
+    ],
+    "packs": [
+      {
+        "link": "&XhXM//lJ6Co4RvFlWITdkPH+59ckBAfRCG1IDhCpBRc=.sha256",
+        "size": 9761
+      }
+    ],
+    "indexes": [
+      {
+        "link": "&ss3n9Gxn3ybBORwRjbsbMY498gceBliF7zYSM0Z2cbo=.sha256",
+        "size": 1940
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "27c71b7cf004045ef080ee7153e9bf412ea71c0e"
+    },
+    "commits": [
+      {
+        "parents": [
+          "b6dd5afc56cb9836cb9c162be0e3235092f2afff"
+        ],
+        "title": "Add .gitignore",
+        "sha1": "27c71b7cf004045ef080ee7153e9bf412ea71c0e"
+      },
+      {
+        "parents": [
+          "20d0caeb7e3592b87dc588be80f016452f684d2f"
+        ],
+        "title": "Fix Node 10 compatibility problem",
+        "sha1": "b6dd5afc56cb9836cb9c162be0e3235092f2afff"
+      },
+      {
+        "parents": [
+          "1206b4e09163c5c2497fba1aa782d45210e77169"
+        ],
+        "title": "Depend on system Electron",
+        "sha1": "20d0caeb7e3592b87dc588be80f016452f684d2f"
+      },
+      {
+        "parents": [
+          "25b1738e94c13a23411b34b0b12aa4e69e6b8553"
+        ],
+        "title": "Remove lib32-gcc-libs dependency",
+        "sha1": "1206b4e09163c5c2497fba1aa782d45210e77169"
+      },
+      {
+        "parents": [
+          "385340f1647044b66cdef0e702a0e2dc8f985c9c"
+        ],
+        "title": "Release 7.13.1.r195.1378d45-1",
+        "sha1": "25b1738e94c13a23411b34b0b12aa4e69e6b8553"
+      },
+      {
+        "parents": [
+          "5a7e3557a3e14a9f51a69706b103c38c5d757293"
+        ],
+        "title": "Transition to patchbay-git",
+        "sha1": "385340f1647044b66cdef0e702a0e2dc8f985c9c"
+      },
+      {
+        "parents": [],
+        "title": "Initial commit",
+        "sha1": "5a7e3557a3e14a9f51a69706b103c38c5d757293"
+      }
+    ],
+    "tags": [],
+    "num_objects": 31,
+    "object_ids": [
+      "67d1fe741a2834058512471ecc8d42340ee7f3e1",
+      "fc9cdb254db55e9258e027afb4884b90c021a7b4",
+      "cbd6f52aead19deeaef899bd0bce336d8c92c794",
+      "e3ac817b24e0c6c13bf59ee9ab2165f8434a97ec",
+      "a408214e772e5761db8dc7a3bef6c91f715da245",
+      "8258c4594bf266003afe15e147e7ae8c4950b11f",
+      "a39b725d946c3112a02f17686aa337f0d51c0706",
+      "1732898b12818ee0eb4047164e6edbe238518c3e",
+      "e0b6b71cdebe1887e8b39d9060fa11001755f7b1",
+      "86cf617341f0e7a8bfbb1fe9880071a4ebdbfe5a",
+      "17031ba1149df0db03aec37b517c9c3e0c24bf2d",
+      "9bffa169a9b9a32fe320743c28b762b076b23177",
+      "f1aa4a783f4fd4ab033deaa50c03eea0908127fb",
+      "397244f429407015251c04f62f185157fb7edb73",
+      "23a39ffe7206fe44c2ede6466255961b33eb907c",
+      "dec0f7079b9555444e2f66c13e2aba8ac43106f4",
+      "2ba70b411f38e2ae60e18af1f873f448c5c46487",
+      "bea39e31ad0dbbe46fc21dd74ae91c8d03642026",
+      "06e2a79a6dafd6326ef597a4b10c0f81ead40679",
+      "77f88675f29584b3fbacba703b663134b24ba583",
+      "99124b88efeab77a541ac1ebdcb5b1a5e36ca443",
+      "9e3778b478d733dc28d33ef12269634897a1c6b6",
+      "114df9e43ae17458059ee81fa9e8d5752685f9d8",
+      "8566be80b2b999e9848058d4d12f1fdac3a09751"
+    ]
   },
-  "signature": "JusSM7Fh41WgVCubBsvVjcz6YPKmwvcx9cVy0mqoEIjpLudti0jrY1dVDRhyvIRax8yq/pREFIeWo1q6oelNDQ==.sig.ed25519"
+  "signature": "906UkJ1/580D6ddgl3YU/HJfahZBHDYMllRpn0Qc16meV3XKUbPfz/jISMcAOZFPJPeJS2U0k3mrNEi3FqzADg==.sig.ed25519"
 }
