@@ -1,16 +1,26 @@
 {
-  "previous": "%q1lscJrLsxkhc5OPqHQn+V4ryXBWt3tYHpuOd+MQDCM=.sha256",
+  "previous": "%O5yi8WiPQB+OUIAKwHgsJSlkfo07++Z6OdfhNuD5G00=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2112,
-  "timestamp": 1534450924433,
+  "sequence": 2113,
+  "timestamp": 1534451062995,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%41XJZI6XkPKhV1uRQrAq+lRGDfvTm7izbpZYgQQs43c=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%sHb9bcoObnp9l4iP7O0A/H5fej3ENa32IpbhIc1YedU=.sha256",
+    "branch": "%41XJZI6XkPKhV1uRQrAq+lRGDfvTm7izbpZYgQQs43c=.sha256",
+    "reply": {
+      "%sHb9bcoObnp9l4iP7O0A/H5fej3ENa32IpbhIc1YedU=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+      "%41XJZI6XkPKhV1uRQrAq+lRGDfvTm7izbpZYgQQs43c=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\n\n> The big danger is that \"you get what you measure\".\n\nI'm sure you've seen this, but: https://en.wikipedia.org/wiki/Goodhart's_law ",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "poOzfb0i8edgWJO3WLjOgjcDK2gyGEerTjU1fEC/Gh6kyYDh/X+LMLPG3nO5AtceaSUO/vcPW9nycjKkPoY+CQ==.sig.ed25519"
+  "signature": "3gHAcnAZYUEYdHBRabIyUF++aArSKT6RqVol72W6bBRCxQ1k9S3AwklE0UZG9D6n3kQ3lENYLit2F7PkE3ZRBA==.sig.ed25519"
 }
