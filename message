@@ -1,18 +1,20 @@
 {
-  "previous": "%IGt0LGqdpfrpHIlxPSqD9is8WqrmMSwsChf5uSr14XQ=.sha256",
-  "sequence": 2071,
+  "previous": "%VchhWsK54onwj/GtTadUynadKaz6qSrBlhQqnFGSVmM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534378792171,
+  "sequence": 2072,
+  "timestamp": 1534380675363,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 15,
-    "root": "%hpvi37mXDckp/stmiKfk506PjOLpao5LaMp5kkugwow=.sha256",
-    "orig": "e4",
-    "dest": "e5",
-    "pgnMove": "e5",
-    "fen": "rnbq1rk1/pp2ppbp/3p1np1/3NP3/2BQ4/5N2/PPP2PPP/R1B1K2R b KQ - 0 8",
-    "branch": "%oQ19TGQUGzqK4eurQzLfKFJpevrR5Sfx3hxgMAw7NaU=.sha256"
+    "type": "post",
+    "root": "%s3mYOPKxNjiCb1Npiu/PbK5S3bEVyGrtM8wHR+67RUI=.sha256",
+    "branch": "%vZUMhhxZOMSl1V8yucchB42pcR/gVlPbzLDJ9EbGT5I=.sha256",
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nYep! That `community/electron` is the only Electron that I've seen working, and the worst part is I don't even understand why it works. Arch Linux + glibc + Electron != :heart:.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "cplhY7xEFw5iWQs56Bp/bWdQk1bLIbA51lSqJmHKFOJAs31pZyG5SyM4yzaeaP8Y0WVr46TNs9eNLP5GiSmYDQ==.sig.ed25519"
+  "signature": "+7dpR6/dqVuuvVwIMSWyPKe2SDgyYWy9FA7q7U0vZyT6UIV9joWCL1MYcBhNnJS0mF3X41j7DhZvO1UjOaidBg==.sig.ed25519"
 }
