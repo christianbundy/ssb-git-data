@@ -1,17 +1,18 @@
 {
-  "previous": "%XpGIX0ydEnqTGWy+xWD3b7XrbgWdoz9SD2tGoKo19CA=.sha256",
+  "previous": "%xwxjAyNRWvmmgrwvxc+gkPqU0uV78xzjiAHAzplyL88=.sha256",
+  "sequence": 2127,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2126,
-  "timestamp": 1534455843051,
+  "timestamp": 1534456474491,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "feminism",
-    "vote": {
-      "link": "%Z0R0/CbM1aBGcVfyHvVFxh++Eo3fq7NAtc3XEBD6Iqs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 46,
+    "root": "%bDKIq2UpopfVb9T9OFepgelpPsufTPO5U3N9iMES7Jw=.sha256",
+    "orig": "e7",
+    "dest": "f6",
+    "pgnMove": "Kf6",
+    "fen": "1rb5/pB5p/3p1kr1/3P1N2/5Pp1/1Q2P1P1/PP5P/R3K2R w KQ - 3 24",
+    "branch": "%8y5N4tn5Vbq9Rr4XYJSpuSOPlVoI0MY9DWM/hJ0+gW0=.sha256"
   },
-  "signature": "z2JxIIXetxGfGoYGQio2Et9oJg/I4wuR8JT/5yc6kbVoXeOf0cbYuFcUXkTGNw3JZO6apBXzaJJkUyYCGerODQ==.sig.ed25519"
+  "signature": "UiosPBuCSAOJxydhjhO25SxwY4RAPjqcy8SSpAfv8YDoYoPxbcKTzx/3S/az0ZGltNZo1CI9D20KEo5d9pluDg==.sig.ed25519"
 }
