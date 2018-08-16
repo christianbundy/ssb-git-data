@@ -1,17 +1,18 @@
 {
-  "previous": "%mJYNULezhKjEU5N/gMTAh6Paa3hi8C+lPbb4DLr+3vg=.sha256",
+  "previous": "%IPLwiFLQvqHo57RK9cHX1Mz5/Nt3aUyAEJkiBTwAm1M=.sha256",
+  "sequence": 2125,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2124,
-  "timestamp": 1534455477205,
+  "timestamp": 1534455690221,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "disaster-radio",
-    "vote": {
-      "link": "%lyLZkAognnBMDt24wFQC9hQhhIVCZGGgFur/qjW3kL8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 44,
+    "root": "%bDKIq2UpopfVb9T9OFepgelpPsufTPO5U3N9iMES7Jw=.sha256",
+    "orig": "d7",
+    "dest": "c8",
+    "pgnMove": "Bc8",
+    "fen": "1rb5/pB2k1Np/3p2r1/3P4/5Pp1/1Q2P1P1/PP5P/R3K2R w KQ - 1 23",
+    "branch": "%dGN2uJ5FtLhcoplCbjsYY05NgQTkCO0Azc2vrtWqbmo=.sha256"
   },
-  "signature": "LZWWZLHcnZjkK/U0Zahsv1lWoseXM/1bGzmW3yAVTaHpVUyQSw2iIzTo22FHahXVmwERHLF6Exd3NQP8FdslBw==.sig.ed25519"
+  "signature": "kQelTAsiX1wHUKwXmPC62a3wCISEKF5UkwC2MMHYEL0AdkOPxk3jVCJ4n+t4EP/Rw+ilySF6m8CQ3NVY1vjECw==.sig.ed25519"
 }
