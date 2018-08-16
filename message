@@ -1,16 +1,28 @@
 {
-  "previous": "%g0bHdvUAjS0wpTSpEQ88y1w+Tlq1aOix130ubXXUUz0=.sha256",
+  "previous": "%KczwrbmtGuUEtpJjTlNAtf0bEbFCClxASK2mDWSZceQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2076,
-  "timestamp": 1534383803335,
+  "sequence": 2077,
+  "timestamp": 1534384168193,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%btqViVxEz3V00YGnSvpEk95JE7kdYW0XiOpdMvEQFBk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%1efRjcGh9W40TFAALl7xmGkNkIHYB530GdxwJwSQKvE=.sha256",
+    "branch": [
+      "%r3NXWFnksilPORbEk2U/y8RIGlUk48bV8coq+jM2u+c=.sha256",
+      "%yOXFyTbarkNlhuPnK8Sbgl/2EYz671ynU1jv36ON0iU=.sha256"
+    ],
+    "channel": "patchbay",
+    "text": "Thanks [@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) and [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519).\n\nI just set my hops to 999 and I only get a few measly posts out of it. I bet there isn't *too much* of a difference between 3 and 4 hops when you're following a lot of people in such a small community. Does that mean I can see the whole network?",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      }
+    ]
   },
-  "signature": "TTQRGkxDnNQWS5T+7FV99kIkJpiRdgqR+/5YL698QRw/s6Mhn925kn2La1WCvJCQzAm5jNtJjfBr1umg9g2JCg==.sig.ed25519"
+  "signature": "qfddrXeaYNvlKFQiHmKb/0WfNISZDE+tlNjvC9D6Da3FMV3FMiaGYOzb+y87deoPjji3LKxPx0b/WQZ+TnZFDA==.sig.ed25519"
 }
