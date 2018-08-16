@@ -1,24 +1,15 @@
 {
-  "previous": "%lOZA/VJbDpE8HyopYE8aWIEd3cJiiYmbBMgu3ofNKT8=.sha256",
+  "previous": "%66V6kJ0myLV0INyF2JC31mhUCD909kxwFP9s4iEwJQQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2069,
-  "timestamp": 1534378315880,
+  "sequence": 2070,
+  "timestamp": 1534378739289,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%s3mYOPKxNjiCb1Npiu/PbK5S3bEVyGrtM8wHR+67RUI=.sha256",
-    "branch": "%s3mYOPKxNjiCb1Npiu/PbK5S3bEVyGrtM8wHR+67RUI=.sha256",
-    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nAre you getting the `npm install` error building leveldown 1.7.2 or the `npm start` error where Electron segfaults? The [`npm install --save` line](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md) should solve the former and `rm -rf node_modules/electron` should fix the latter, hopefully.\n\nCurrently just waiting on https://github.com/ssbc/scuttle-invite/pull/8 to merge and the former should be fixed, although I can't even keep up with the Electron + glibc drama well enough to know about the latter. Yay, bleeding-edge software!\n\n![this-is-fine.png](&PrmJvZMu8PIZmpceS5Urb7rnzh5YylC8FhkuQqNu7es=.sha256) ",
-    "mentions": [
-      {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "lancew"
-      },
-      {
-        "link": "&PrmJvZMu8PIZmpceS5Urb7rnzh5YylC8FhkuQqNu7es=.sha256",
-        "name": "this-is-fine.png"
-      }
-    ]
+    "root": "%kQCVtl+sU3N0fIJzAs5MoCyjVV9Dq4M58e8hKkXr4fQ=.sha256",
+    "branch": "%bd2HhOeJKqAM73vB6uwOs1Jsn8YEcB8JDx9UFkEWJe0=.sha256",
+    "channel": "studioghifly",
+    "text": "```\ns/g(ibli|hilb)i/ghibli/g\n```"
   },
-  "signature": "RJEKoxOsB1NNJt6YtbiEhC4OsQPqkHEJfSvLxjozs8t4/uT+iYLuxCmQn4iOxM4q6PoRs7n6XPN4Ui2qmTzKCg==.sig.ed25519"
+  "signature": "S0YQJf1HbLorzeXgHsT02HTns6vRfrXdggjvlVgDGHzC/ZQJ9W9MGwqY9cn9OuyBNqhA1i9v6flsZkSptaPkDg==.sig.ed25519"
 }
