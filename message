@@ -1,17 +1,20 @@
 {
-  "previous": "%+vtif/aRngEU09dvX/c9q9FSD9o3moQ+prv+JOIQ958=.sha256",
+  "previous": "%hydT1DGhv99v72sGqk8SCbS81uEq1+AwCDKRLjuVcxo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2080,
-  "timestamp": 1534391888628,
+  "sequence": 2081,
+  "timestamp": 1534426963527,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dweb",
-    "vote": {
-      "link": "%Jahnj6JtetPTZ4ZdpsbGezHOxZEUQ7fXfp9Rq6KfP0w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RBuxeeQ7B480kd9+gQIw2L3wfl0+b+l4PkarwGIZSeQ=.sha256",
+    "branch": "%Klj92b9hFDe/Ztd3hFxQOXRMEnP5Ijgq+AvjfgqDKYU=.sha256",
+    "text": "[@pztrn](@iakmd9A9jQejsqrzuCu4HkmjsCSFRnVtDmNP3rz825s=.ed25519) \n\nI spent some time yesterday to give you a foothold on font customization. There should be enough there for you to hack in your own font choice(s), or if you'd like to contribute I'd love to see a way to set a custom font from settings UI. Excited to see what you do with it!\n\nhttps://github.com/ssbc/patchwork/pull/846",
+    "mentions": [
+      {
+        "link": "@iakmd9A9jQejsqrzuCu4HkmjsCSFRnVtDmNP3rz825s=.ed25519",
+        "name": "pztrn"
+      }
+    ]
   },
-  "signature": "Tu+LylKPiy64lyrVyLMcwjGGK/gC9AJwdhq23dQpqYIdJL5PMFfHT7XP5QVDDpX4LhFFngneR29Z6cNjOTOXBg==.sig.ed25519"
+  "signature": "0MKlocC4pzM8E0TdM+6nVQzzqe6oiepDWVe0i9pTEB5EeuapceoM7etQ8f9EHNg4st3c1ccU9DQA9cXh/lIDDQ==.sig.ed25519"
 }
