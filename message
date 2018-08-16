@@ -1,17 +1,15 @@
 {
-  "previous": "%gNMg63cYqqeVTjNmUmoNbPkQbU1GYEZLYJAHP8k571s=.sha256",
+  "previous": "%Cxzkyf4Jsthb60U/8WZUqpRemhQGJLTzmCf02xGaewo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2130,
-  "timestamp": 1534462764730,
+  "sequence": 2131,
+  "timestamp": 1534463138448,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%kZmLVvwD84OLfiOM/Za7dNPwfEwyCxh+VKiTqh0B18g=.sha256",
-    "branch": [
-      "%0NiwbqzP4vybj9FEIa6guIHT+VpSpbOkU+/zu3KdcIs=.sha256",
-      "%vkNhSR0V7Lo0M5GnoP7ormBJWfs3gM84JQXI79Fsxro=.sha256"
-    ],
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nIt's frustrating, isn't it? I used to frequent /r/latestagecapitalism and there was a constant discussion around the automoderator, which was programmed to auto-delete any comment using words that the moderators considered slurs. The usual ones, of course, plus a handful of lesser-known (lesser-considered?) slurs like \"crazy\" and \"dumb\", regardless of their context. It turned into a permanent flamewar about *which words are allowed within a community*, which I think misses the point.\n\nInstead, I think your approach is the right one: recommending words which are clearer, which have less baggage, and which illustrate your point more clearly. It seems that the replies on Twitter were being intentionally obtuse, and took your suggestion as a declaration of war rather than a suggestion for people who want to be better understood. I'm not sure whether it'd be helpful, and Twitter's character limit isn't doing you any favors, but I'm hopeful that we'll find *some* way to communicate these sorts of ideas without triggering the Perpetual Rage Machine that runs the rest of the web.\n\nGood luck, and safe travels.",
+    "root": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
+    "branch": "%fQ0sENJJSSCp+M9qioIkOW1oafmqeRhgrMnuosgW29k=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI should have tried that! That 14k number was from a few days ago when I hadn't even created `~/.ssb/config` yet, and I didn't think to do any testing with 999 hops. I reduced my hops down to 2 and recreated my database this morning, but I can pop it back up to 999 again this weekend and test it out.",
     "mentions": [
       {
         "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
@@ -19,5 +17,5 @@
       }
     ]
   },
-  "signature": "8P5PkUahoFHbFZXut83gnGYqPhe/Qop8mECmdMx4B3KEGNws5Gr92uFMbgn6v6LKcsGLKWxw253EfyKK0aewCQ==.sig.ed25519"
+  "signature": "B8QY1cYAMXJhf4mFs3qaJYM+cKjolWoysXO3S92N4VjRzk1L8nSNQXx7maoIrMo2GvJ2Z2NWQYTNeCzflaV+Bw==.sig.ed25519"
 }
