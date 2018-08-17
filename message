@@ -1,17 +1,15 @@
 {
-  "previous": "%zcuZIvdjj8EyPVlBTPKoKRp/b3IKlr6DEVkjHoE15+A=.sha256",
+  "previous": "%0sokeMItYH9rgAQTTyfbdxJ7FdiLWLpw/tu644SaCXI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2322,
-  "timestamp": 1534534897184,
+  "sequence": 2323,
+  "timestamp": 1534535007763,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bcayTJ/HXmHF0ARcyLGMkzOj+664jGPhVMFDfPfmRoo=.sha256",
+    "branch": "%cUYBl9EwN6B+5P1RNx3JoK78K5spnUtz4SK726L/Luw=.sha256",
     "channel": "patchbay-help",
-    "vote": {
-      "link": "%cUYBl9EwN6B+5P1RNx3JoK78K5spnUtz4SK726L/Luw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "If you're interested in changing the hops (or setting it consistently for *all* client, you can create a file at `~/.ssb/config` that looks like this:\n\n\n```json\n{\n  \"friends\": {\n    \"hops\": 999\n  }\n}\n```\n\nFeel free to replace `999` with your preference -- I think `2` is great."
   },
-  "signature": "nkJT/zXFwYEG/9IHUEQb6Rsi4FiUqWEA/8ZYxIQvsXfKU+WwwV8yYMH7D8BRpEwc4ukgkOovYe7Nke5KR43cCg==.sig.ed25519"
+  "signature": "KbhpAFE6X7vBImluCqO6mBGuYzBWaslUIv4F1rvQu4Rp7sOXAMiVpm4jRppzR0nyhX4A8T6lapz8Jwy+nJ4qBw==.sig.ed25519"
 }
