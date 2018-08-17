@@ -1,21 +1,23 @@
 {
-  "previous": "%e4yw+cOKjOpPJEHuT2+Tc9kraqr0wk59EkYKBcwQCmE=.sha256",
+  "previous": "%dS1QjUnoSQd2hrW5ISrpYG4+CvbdgO/ERo0tVaKGYhY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2143,
-  "timestamp": 1534468134474,
+  "sequence": 2144,
+  "timestamp": 1534468476060,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
-    "branch": "%gy8fQcd/XkqS8Iib1FkEk+49Vwocs+JE5d/nWuSmKqU=.sha256",
+    "branch": "%dS1QjUnoSQd2hrW5ISrpYG4+CvbdgO/ERo0tVaKGYhY=.sha256",
     "channel": "scuttlebutt",
-    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nWell that's a bummer: I've increased it back to 999 hops and it looks like we're just shy of 8K. I must have copy and pasted `sort -u` wrong and it came out as `sort -`, which didn't filter out the duplicates.\n\n```console\n$ sbot friends.createFriendStream | sort -  | wc -l\n15934\n$ sbot friends.createFriendStream | sort -u | wc -l\n7968\n$ sbot friends.createFriendStream | sort -u | wc -w # don't count empty line\n7967\n```\n\nIt looks like 7,967 is the current total from my perspective. Sorry about the miscalculation, I was surprised too.",
+    "text": "Here's my view of the network:  [ssb-cb-7967.graphml.gz](&P9gEnwPZ+I8C4bh/N9KZ+5IQh3JR6+wCFlJlBSz5jFk=.sha256) ",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "André Staltz"
+        "link": "&P9gEnwPZ+I8C4bh/N9KZ+5IQh3JR6+wCFlJlBSz5jFk=.sha256",
+        "name": "ssb-cb-7967.graphml.gz",
+        "type": "application/x-gzip",
+        "size": 2389059
       }
     ]
   },
-  "signature": "x7oKQH2jNvYPnnhNgcM3ZpN+Qp7NKiUzGAmhiO/vlb8c3lM3NN4mT1yOlJPAKLGVjaZZvuLi5w9NwQ7GXQgzBQ==.sig.ed25519"
+  "signature": "GrBWyDhjPXSBklvy92dBbDsrPYhLaYXLsxRbdMqIZNi0M4ixXZruyYgCnWYD6Q+Kyq3Svz28bAkcEaZsg+qTDQ==.sig.ed25519"
 }
