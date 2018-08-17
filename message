@@ -1,17 +1,24 @@
 {
-  "previous": "%ja8qAJdVpylBx6LCqViMSMt+ZOTSoI/00DeDo805Rzc=.sha256",
+  "previous": "%Y9Dh1I5e4BCJD80aJdxoo8TuL5ueDLpw76qQaLN2EW0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2316,
-  "timestamp": 1534526789693,
+  "sequence": 2317,
+  "timestamp": 1534534490602,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchbay-dev",
-    "vote": {
-      "link": "%S9vGZdcZuFvxuA51rUM60CrWpatAIjVySnEa0MpZKUI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%DQn3Q2OD1HXfv7jfUy/Dh4LAp4caUFmez3uTAxin2bs=.sha256",
+    "branch": "%gN6IQ861T1ugwejCUF1u2FIigxGKjubsFVr5amQva0M=.sha256",
+    "text": "Wow, thanks [@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) and [@dinosaur](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)! \n\nI'm under the impression that the SSBC is a loose collection of folks working on SSB, are there any rules/guidelines/customs/norms that have been suggested (or agreed upon)? I'm sure I can just continue to feel things out, but I want to make sure I understand the structure and avoid stepping on any toes.",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "dinosaur"
+      }
+    ]
   },
-  "signature": "6vfMO6fNMBwh0wIub3Vd3IDDwB3c+lp3miygYb2F6Um2jJX3DmFkNH8VvwY+rCGUzpkWwzQmdCDHIL7MAORpAA==.sig.ed25519"
+  "signature": "ExA79q2DUHVzH3QcmKS0vPcAEi55L6q47GAVj4/F6bhp/YNFjFxXviKzBjC/a05xNdVyfcOBEygaPX8x9AopDg==.sig.ed25519"
 }
