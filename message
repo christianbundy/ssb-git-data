@@ -1,16 +1,20 @@
 {
-  "previous": "%ZzJeSJODZj8B5A/ZMbxDhtNJlnDNjOTA0PucXbr3120=.sha256",
+  "previous": "%ZilXBhgALmxwMUn37gkr1vBCne1/YoIKAMrVATcekK8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2338,
-  "timestamp": 1534542014728,
+  "sequence": 2339,
+  "timestamp": 1534542681424,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7cMZ6BJp1dUPybaEabDcKSDCoS6iM+wz0OcSATmnGvs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xaA7RfW2XKBcqsB8EUfRu0kpR/jI3Af5Qq7XMtNgFD8=.sha256",
+    "branch": "%7cMZ6BJp1dUPybaEabDcKSDCoS6iM+wz0OcSATmnGvs=.sha256",
+    "text": "[@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nMaybe I'm tripping, but could we implement something like the Stellar protocol with this? You create currency by saying \"you can redeem this for 1 beer from me\", which you can pass around to your friends who can get the beer from me instead. The value comes from the trust that I'll actually supply a beer in the end, so you don't need any central infrastructure to guarantee that.\n\nAm I tripping? I'm probably tripping.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      }
+    ]
   },
-  "signature": "zFKBqquiVTVU+1vPc/FNerAfCaZuyegv/SJBcjI/HGicfFM68yY9oCC9/bwY1+fn1fYarI7J2nfWulvpt5eZBw==.sig.ed25519"
+  "signature": "UaayLIF4VxSUKR1ugHUrEwJ2uR7O+I7Y2zRlOJqzJso4E91XXRe7pttR3LZBiPIUJXVZhoSEs4+ughs+Pqi0Dg==.sig.ed25519"
 }
