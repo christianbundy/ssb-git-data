@@ -1,18 +1,21 @@
 {
-  "previous": "%xmkvh/kqgvg27QYoUWmfFRk0n9GWENwZrPrr9n+SfR0=.sha256",
-  "sequence": 2142,
+  "previous": "%e4yw+cOKjOpPJEHuT2+Tc9kraqr0wk59EkYKBcwQCmE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534466292366,
+  "sequence": 2143,
+  "timestamp": 1534468134474,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 20,
-    "root": "%svoF1qZrbRQW5h18314Y2MuJobhH+oKC/pVd2XnaEKk=.sha256",
-    "orig": "f8",
-    "dest": "h6",
-    "pgnMove": "Bh6",
-    "fen": "r2qk1nr/pb1p4/p4p1b/2p4p/3PP1p1/4B3/PPPN1PPP/RN1Q1RK1 w kq - 2 11",
-    "branch": "%i0/otCa0Vfl3PVvxZWMthEJkAiLOfPk6Nnz2Uw1BF00=.sha256"
+    "type": "post",
+    "root": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
+    "branch": "%gy8fQcd/XkqS8Iib1FkEk+49Vwocs+JE5d/nWuSmKqU=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nWell that's a bummer: I've increased it back to 999 hops and it looks like we're just shy of 8K. I must have copy and pasted `sort -u` wrong and it came out as `sort -`, which didn't filter out the duplicates.\n\n```console\n$ sbot friends.createFriendStream | sort -  | wc -l\n15934\n$ sbot friends.createFriendStream | sort -u | wc -l\n7968\n$ sbot friends.createFriendStream | sort -u | wc -w # don't count empty line\n7967\n```\n\nIt looks like 7,967 is the current total from my perspective. Sorry about the miscalculation, I was surprised too.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      }
+    ]
   },
-  "signature": "GzuQ7CyxXY+heUtjfvziGwNzdswaHzn9tpa29MP1LoOvHujkJM3Z3EStbx/d5LxvlTNaH7Opp+wulyKBvMDiAA==.sig.ed25519"
+  "signature": "x7oKQH2jNvYPnnhNgcM3ZpN+Qp7NKiUzGAmhiO/vlb8c3lM3NN4mT1yOlJPAKLGVjaZZvuLi5w9NwQ7GXQgzBQ==.sig.ed25519"
 }
