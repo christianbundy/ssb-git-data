@@ -1,21 +1,17 @@
 {
-  "previous": "%Cxzkyf4Jsthb60U/8WZUqpRemhQGJLTzmCf02xGaewo=.sha256",
+  "previous": "%NUQ/+Jw7HKkJS99n06w1SgCFXtG79UQ9oz5TRY9WzX4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2131,
-  "timestamp": 1534463138448,
+  "sequence": 2132,
+  "timestamp": 1534465598945,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
-    "branch": "%fQ0sENJJSSCp+M9qioIkOW1oafmqeRhgrMnuosgW29k=.sha256",
-    "channel": "scuttlebutt",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI should have tried that! That 14k number was from a few days ago when I hadn't even created `~/.ssb/config` yet, and I didn't think to do any testing with 999 hops. I reduced my hops down to 2 and recreated my database this morning, but I can pop it back up to 999 again this weekend and test it out.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%qyRa0lCOIVAjJa1HEWSOPOSwLqVa7j0/H3p7XoUPM9I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "B8QY1cYAMXJhf4mFs3qaJYM+cKjolWoysXO3S92N4VjRzk1L8nSNQXx7maoIrMo2GvJ2Z2NWQYTNeCzflaV+Bw==.sig.ed25519"
+  "signature": "7zX5cT7uh5egXtuVEGKttczxFQRiQ+C9C5klakguB/DvgsF45SsFbL0mUjzSwhLWkKAmckJEHr55cL5vwUpDAw==.sig.ed25519"
 }
