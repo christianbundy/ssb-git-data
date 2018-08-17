@@ -1,23 +1,16 @@
 {
-  "previous": "%dS1QjUnoSQd2hrW5ISrpYG4+CvbdgO/ERo0tVaKGYhY=.sha256",
+  "previous": "%MwpWEjoHYlHI0HRI3WaU2EdUwTE1OC+zsAOiq8OKZW0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2144,
-  "timestamp": 1534468476060,
+  "sequence": 2145,
+  "timestamp": 1534469034191,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
-    "branch": "%dS1QjUnoSQd2hrW5ISrpYG4+CvbdgO/ERo0tVaKGYhY=.sha256",
-    "channel": "scuttlebutt",
-    "text": "Here's my view of the network:  [ssb-cb-7967.graphml.gz](&P9gEnwPZ+I8C4bh/N9KZ+5IQh3JR6+wCFlJlBSz5jFk=.sha256) ",
-    "mentions": [
-      {
-        "link": "&P9gEnwPZ+I8C4bh/N9KZ+5IQh3JR6+wCFlJlBSz5jFk=.sha256",
-        "name": "ssb-cb-7967.graphml.gz",
-        "type": "application/x-gzip",
-        "size": 2389059
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%VFx9pjjzFjT9zXaPZqEMHnVYTFTegp1R5l1k0XNcXcg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "GrBWyDhjPXSBklvy92dBbDsrPYhLaYXLsxRbdMqIZNi0M4ixXZruyYgCnWYD6Q+Kyq3Svz28bAkcEaZsg+qTDQ==.sig.ed25519"
+  "signature": "WIZrdhAh39oMgvvYfD6Fc/jIJMyX/BvRx1ugoP3sORAecrkS8D6kewJHSeEjfZzow98BC+qZL0CWzc8eh8g6Bg==.sig.ed25519"
 }
