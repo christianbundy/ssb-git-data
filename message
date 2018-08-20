@@ -1,16 +1,21 @@
 {
-  "previous": "%ItPgTdG1rLVHhJXwrG7oI0C+C/JR7AAKHr1eDurVnY8=.sha256",
+  "previous": "%It3HBesB6+gD08Jdb87G06DZ2Z9lhcfPdo/LzJlYrCU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2388,
-  "timestamp": 1534800341874,
+  "sequence": 2389,
+  "timestamp": 1534802878390,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ME+F7SWx6xAh90Ec2rfQ4fz6NgJlLevAMe52VekmbaY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
+    "branch": "%FFlxXfFYENo3dDqDZ88JB7IS9hzh0cWJxf1lLmE4hBU=.sha256",
+    "channel": "archlinux",
+    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nI just tried to run with `npm start` and I was able to repro a hang while replying to you -- cool! Could you try running `electron index.js` to see it's just an(other) issue with `node_modules/.bin/electron`? I know that the version of Electron in the Arch repos has a handful of patches, so I wonder whether there's a bugfix in there somewhere that's resolving the hang for me.\n\nI've gotta run, but later on I can check and see `npm start` causes hangs under X. At this point I have no trust in the Electron NPM module.",
+    "mentions": [
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lancew"
+      }
+    ]
   },
-  "signature": "dzReGgR5yXf0P7PhR4Zr4VwVY3vxorxbHzgMsgFG30Qc6SEU0WnZyUX13ukQrQm+BpL6Pw8oJ27QHFtkqB1tDQ==.sig.ed25519"
+  "signature": "EpWsZK48RJDOgd23muwZpqV9dHFAlR793YiiBlI3PJSgokKIigtwN8NB7SfBaiaeVSYZeK/FGwxxZ0DnaR3qCA==.sig.ed25519"
 }
