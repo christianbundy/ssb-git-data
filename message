@@ -1,21 +1,21 @@
 {
-  "previous": "%8u9bFo98y81KPeu+g5cTNnp0BiWpE1o7szxrnVcBl4I=.sha256",
+  "previous": "%oPiDcT84ZwJCg5sRKdWIWsSXK09llJrCwu77qXwiOTo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2363,
-  "timestamp": 1534794034923,
+  "sequence": 2364,
+  "timestamp": 1534794310432,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%2A4nF54XuyMB2TiuktiTHJ7DZYefVowihP/xX4O8fiU=.sha256",
-    "branch": "%200YEaanx5L0qLO7V953GM7Fu0ctal1xvDfzeGJkKrQ=.sha256",
-    "channel": "showmeyourcoffee",
-    "text": "[@joeyh](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) \n\nI think we have the same coffee grinder! If you're ever feeling too lazy to hand-crank the grinder, I found that you can easily attach a power drill and make the process *much* faster...",
+    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
+    "branch": "%nFt5FOMZvpIoZVP9Osyz+HMBldeMkbFsfQy8BTjeYzY=.sha256",
+    "channel": "archlinux",
+    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nSweet, time for some bug hunting! Any chance you have an Intel graphics card? I have [this issue](https://github.com/electron/electron/issues/12820) which causes hangs, and [the workaround](https://github.com/electron/electron/issues/12820#issuecomment-411487352) is to set `ELECTRON_ENABLE_STACK_DUMPING=true`. To test it temporarily, you might try:\n\n```\nexport ELECTRON_ENABLE_STACK_DUMPING=true\nnpm start\n```\n\nAre there any new errors you've noticed, either in the terminal emulator or within Electron's client (accessed with Ctrl + Shift + i)? Hope we can get this resolved quickly!",
     "mentions": [
       {
-        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
-        "name": "joeyh"
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lancew"
       }
     ]
   },
-  "signature": "V5ZVM4OI9qPOEsJqG0NI9avUQJck8Yr1D9zsy1ryaeTT/KUA+pGdEoIv2OjF+d2pvd9LsoY/EzEIRUSJc016Bg==.sig.ed25519"
+  "signature": "G9VPaVwnPgPcQVpJi247xYk7Wd8M5i0VDk6lJgLEidJX4zY+7mEFw8kPHHeMUHGLcarSw8Bu8vtojqMDs8mrCQ==.sig.ed25519"
 }
