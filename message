@@ -1,23 +1,16 @@
 {
-  "previous": "%gfZpN69KygzAlOe2LPJBJ2H9QuTCW/8JCxTQpf+0aVA=.sha256",
+  "previous": "%frbN2ektJBUHmL1s1vRQzpEeix4mjTmUXLQqOUPnNcg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2367,
-  "timestamp": 1534795143075,
+  "sequence": 2368,
+  "timestamp": 1534796560113,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xaA7RfW2XKBcqsB8EUfRu0kpR/jI3Af5Qq7XMtNgFD8=.sha256",
-    "branch": "%xeq1gVkuWcfLKnrcpyLiAK+xDFyGM0Jv/2/q0U3O1Lw=.sha256",
-    "text": "I'm down for a \"paper\" system, should we use a channel in our transactions so we have an easy place to see the transaction later? Maybe something like (#)ssb-mutual-manual or (#)ssb-gift for easy parsing in the future?\n\nI'll start with some arbitrary syntax, inspired by Reddit cryptocurrency tip bots:\n\n#ssb-gift 1 beer [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nReasonably-priced beer(s) redeemable in-person whenever it's mutually convenient. :beers:",
-    "mentions": [
-      {
-        "link": "#ssb-gift"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%bqZWBgtW73ps2C6ZGYpGR9JD8e6AbK6EGWZZ5mBTPjQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "bUXc4yr2IKacWj/bGJG1UPoCP/g83lFxrlonFUyJ7DWk4FE670cQ7Hwbooh4SHw8T2qAcxaEqapEEdNgcFwhDw==.sig.ed25519"
+  "signature": "7cTPkQHNDkijO8CNJTRCiaYDJ6Re2sk8lseCEon5twO/wHgKVkQQm6WGUr1JZ5HtoyC78TOPvld3xOqpYRnZCQ==.sig.ed25519"
 }
