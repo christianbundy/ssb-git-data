@@ -1,21 +1,16 @@
 {
-  "previous": "%oPiDcT84ZwJCg5sRKdWIWsSXK09llJrCwu77qXwiOTo=.sha256",
+  "previous": "%+3+wt1TwXPfEKoyM9x2m8LKPbEOf3r17VnmRn37kQis=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2364,
-  "timestamp": 1534794310432,
+  "sequence": 2365,
+  "timestamp": 1534794331235,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
-    "branch": "%nFt5FOMZvpIoZVP9Osyz+HMBldeMkbFsfQy8BTjeYzY=.sha256",
-    "channel": "archlinux",
-    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nSweet, time for some bug hunting! Any chance you have an Intel graphics card? I have [this issue](https://github.com/electron/electron/issues/12820) which causes hangs, and [the workaround](https://github.com/electron/electron/issues/12820#issuecomment-411487352) is to set `ELECTRON_ENABLE_STACK_DUMPING=true`. To test it temporarily, you might try:\n\n```\nexport ELECTRON_ENABLE_STACK_DUMPING=true\nnpm start\n```\n\nAre there any new errors you've noticed, either in the terminal emulator or within Electron's client (accessed with Ctrl + Shift + i)? Hope we can get this resolved quickly!",
-    "mentions": [
-      {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "lancew"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%m24zzKOWQW3AgIatyiQO3nYnDa5Wan3+d0UE8SWc31g=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "G9VPaVwnPgPcQVpJi247xYk7Wd8M5i0VDk6lJgLEidJX4zY+7mEFw8kPHHeMUHGLcarSw8Bu8vtojqMDs8mrCQ==.sig.ed25519"
+  "signature": "GPdkD4jKIQVaR/g2us+6egC826DvzIYXPzxcxTj/RKSjJsWr3rxwdqCgGJS5VR2eoC7JC8qeV0ZuwL9V97ypAA==.sig.ed25519"
 }
