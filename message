@@ -1,21 +1,27 @@
 {
-  "previous": "%It3HBesB6+gD08Jdb87G06DZ2Z9lhcfPdo/LzJlYrCU=.sha256",
+  "previous": "%9mHdRe7DyFKleE//4JwZr6d8+4oyBQuZyb4ndfQ5h3E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2389,
-  "timestamp": 1534802878390,
+  "sequence": 2390,
+  "timestamp": 1534803562113,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
-    "branch": "%FFlxXfFYENo3dDqDZ88JB7IS9hzh0cWJxf1lLmE4hBU=.sha256",
-    "channel": "archlinux",
-    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nI just tried to run with `npm start` and I was able to repro a hang while replying to you -- cool! Could you try running `electron index.js` to see it's just an(other) issue with `node_modules/.bin/electron`? I know that the version of Electron in the Arch repos has a handful of patches, so I wonder whether there's a bugfix in there somewhere that's resolving the hang for me.\n\nI've gotta run, but later on I can check and see `npm start` causes hangs under X. At this point I have no trust in the Electron NPM module.",
+    "root": "%qgWhhQFo2Iwxf+LDWMFilwy5oBeayeK7Qn1oaPK/CPs=.sha256",
+    "branch": [
+      "%D+BfTGDvitcgYTHENEjvVU0GLGvzhc0yHrJheKdixPg=.sha256",
+      "%dx8WeoKxYjFVKjGat8sbG3Qrd6jkbHWhWvidZVzRzMg=.sha256"
+    ],
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519)\n\nIt's funny how I had three thoughts within the first second or two:\n\n1. Why the hell did I just do that? That was obviously dangerous.\n2. That's definitely not what thumbs are supposed to look like.\n3. I haven't actually looked at it but I *definitely* don't need stitches.\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nYou caught me! Going to Zoo Care is so much cheaper than going to a human doctor, just like buying [fish antibiotics](https://mashable.com/2017/08/06/fish-antibiotics-america-healthcare/) instead of going to the pharmacist. :wink: \n\nFor real though, it's a place called [ZOOM+Care](https://www.zoomcare.com/) up the street that has cheap(ish) and easy appointments so you don't have to go to urgent care. It's great for little things where urgent care is overkill but you don't want to wait for a conventional doctor's appointment. Most appointments are 15 minutes, but for little stuff like this they have 1-hour time slots as well. It feels a bit too \"we have an app so lazy millenials love us\" but I've found it to be a fine tradeoff between price and convenience.",
     "mentions": [
       {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "lancew"
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
       }
     ]
   },
-  "signature": "EpWsZK48RJDOgd23muwZpqV9dHFAlR793YiiBlI3PJSgokKIigtwN8NB7SfBaiaeVSYZeK/FGwxxZ0DnaR3qCA==.sig.ed25519"
+  "signature": "Qv9xj3QFa6ewkWZoYOqB/hDMc4Z1028gHVvkmayJPBZeWaWWDl5f5wXvVLkwKnIp1a9SPasDoQlQqRvZaF6NCA==.sig.ed25519"
 }
