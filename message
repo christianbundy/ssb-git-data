@@ -1,17 +1,14 @@
 {
-  "previous": "%Zo9tZ/8n6A8BrfMmBL4T1JB3fCLaRfPOZUU/kJCy7qo=.sha256",
+  "previous": "%f6IjysUVNhmpxqSuVX6ZO3VcOJ6XBWmW+bjCnrthe/Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2427,
-  "timestamp": 1534866388553,
+  "sequence": 2428,
+  "timestamp": 1534867412880,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "Guilda",
-    "vote": {
-      "link": "%iG2ls3cNn0V/66iqJrenMEEhQSuxVpRku3ylrA78smQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xaA7RfW2XKBcqsB8EUfRu0kpR/jI3Af5Qq7XMtNgFD8=.sha256",
+    "branch": "%1NCX/S8nfCbvxEI2P1V4NxHZ2ah82TGf2I+lcCZHZZs=.sha256",
+    "text": "I hadn't really thought of that, but beer *does* seem to lack some liquidity because of how personal it is. I was thinking that instead of passing it on, we can treat the beer as fungible and you could also send a beer to someone else (say, Alice). In that case, there are three scenarios:\n\n- Alice meets up with you and you buy her a beer. She \"gifts\" you back a beer and now you're even. No debt, just gifts until you become even. :heavy_plus_sign: \n- Alice meets up with me and I buy her a beer. She \"gifts\" me a beer and now we're *all* even, as we've formed a triangle.\n- Alice gifts a beer to someone else, and the cycle continues recursively until our balances are settled.\n\nWith this system you'd never cancel out a gift or mark it as \"redeemed\", but instead you calculate your relative balance with others on the network and try to find settlement pathways."
   },
-  "signature": "BRI7h8gccnJRg+W7D0z10s4Dfe9UzrYDTyTvGQiiSTMCnft0NhKtN+kf6Y3/A6+N2G1GWwoqzkgOaQO/WwwxDg==.sig.ed25519"
+  "signature": "l0y08ExAhvueDN2zeJklkTfDS+A/q03Dg/xTD3TF628GngWRX4D2KmKvuaH5+XnKEDlmBP/+mwARKyduzPtUBg==.sig.ed25519"
 }
