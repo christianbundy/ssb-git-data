@@ -1,16 +1,20 @@
 {
-  "previous": "%3CLtH1qUk+2F5AcGpx21NLWKqX3btR5TcLQrD2Kjimw=.sha256",
+  "previous": "%oJm/wYoByj7af4A5XIuI5pddyHsiTRIIVjnkyrloNXk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2396,
-  "timestamp": 1534812873914,
+  "sequence": 2397,
+  "timestamp": 1534812885686,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sBC842VSU4Is0ggXZoVIUqB82hxRnTfDdvGs+lOKIrE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%sBC842VSU4Is0ggXZoVIUqB82hxRnTfDdvGs+lOKIrE=.sha256",
+    "branch": "%sBC842VSU4Is0ggXZoVIUqB82hxRnTfDdvGs+lOKIrE=.sha256",
+    "text": "[@Lucas :)](@kcsIerVBvhOq+WbVZw9V5rY7B7gMdvzx+7utxmJ9rzY=.ed25519) It worked!",
+    "mentions": [
+      {
+        "link": "@kcsIerVBvhOq+WbVZw9V5rY7B7gMdvzx+7utxmJ9rzY=.ed25519",
+        "name": "Lucas :)"
+      }
+    ]
   },
-  "signature": "ynuRnBvJY8s96v+Tm2Pr4Zbpk6P5ENjkTerziUp48m8mzmMy9Fd7cUz9O5//7bj7SzpM0YO1xX01wEi4uhm7Bg==.sig.ed25519"
+  "signature": "he+8Ho/kQ+FmlKAE9U/F4ZwdkwBUR9fmOkiN/y7uKHytGVOCXEDiYH1YUKc2W0aB8Z2tT3fzoXzdahNjRgPoBQ==.sig.ed25519"
 }
