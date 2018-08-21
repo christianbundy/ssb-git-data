@@ -1,16 +1,25 @@
 {
-  "previous": "%s5uOBsnYzKx2zoXybEY4I6Czg3BBLe1TY8pYi7TZI4o=.sha256",
+  "previous": "%4FQnuXMZ90JNjduAdnS9zN5CkZA6o72NF8RcGagF/Ns=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2416,
-  "timestamp": 1534861792334,
+  "sequence": 2417,
+  "timestamp": 1534862512205,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jujUGUKl76RIxvgEtQx1Qfng2B7GXB+aWBXCmiZZzyg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
+    "branch": "%0gIqF83/nD2vP86i1SMqiAkJn3Lk0ZawmF68bdjjIwI=.sha256",
+    "channel": "archlinux",
+    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519)\n\nAre you using the system Electron in the above comment (`electron index.js`) or the Node modules (`npm start`)? It may not matter, but I'm trying to figure out what that common denominator is, if any. I've read through the Electron code and I have no idea why stack dumping fixes the issue, but I added it to `/etc/environment` because I'm lazy.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nSpeaking of Arch breakage... if you have a few minutes would you mind taking a look at https://github.com/ssbc/scuttle-invite/pull/8? I hate to bother you, but patchbay + patchbay-dark-crystal + scuttle-dark-crystal have been broken on Node 10 for a bit. ",
+    "mentions": [
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lancew"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "Ap8NyYQVS9lktWEJymmHZABXxiR5AK0e4mOBx9Bmnde/pEaD+RDykolT/TsAmUKRy2rK0txm+uHUo3pDbq+9Ag==.sig.ed25519"
+  "signature": "hWMhx2w0yY/E/Mhv2/rrNvMNFouO8pqkMlrFshUdx/Z+wdrusBFrp+33XoJkWlLXD/WyNrmedXlqdwfKc3IiBA==.sig.ed25519"
 }
