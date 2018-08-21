@@ -1,25 +1,24 @@
 {
-  "previous": "%4FQnuXMZ90JNjduAdnS9zN5CkZA6o72NF8RcGagF/Ns=.sha256",
+  "previous": "%74LKdepkbh0Fp9jFn8TQGo4IVW+Z5VDNjBM7LrmCU9Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2417,
-  "timestamp": 1534862512205,
+  "sequence": 2418,
+  "timestamp": 1534865681250,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
-    "branch": "%0gIqF83/nD2vP86i1SMqiAkJn3Lk0ZawmF68bdjjIwI=.sha256",
-    "channel": "archlinux",
-    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519)\n\nAre you using the system Electron in the above comment (`electron index.js`) or the Node modules (`npm start`)? It may not matter, but I'm trying to figure out what that common denominator is, if any. I've read through the Electron code and I have no idea why stack dumping fixes the issue, but I added it to `/etc/environment` because I'm lazy.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nSpeaking of Arch breakage... if you have a few minutes would you mind taking a look at https://github.com/ssbc/scuttle-invite/pull/8? I hate to bother you, but patchbay + patchbay-dark-crystal + scuttle-dark-crystal have been broken on Node 10 for a bit. ",
+    "root": "%CT2eYQ0hSZFWoFLKfEGUktJLObegNt/AACI9Ej7XanE=.sha256",
+    "branch": "%CT2eYQ0hSZFWoFLKfEGUktJLObegNt/AACI9Ej7XanE=.sha256",
+    "channel": "patchwork",
+    "text": "[@aramiscd](@Dlz2W4RJ57h4AJPjac09Z0sLUMmIH94J7XoZLCIWq3M=.ed25519) \n\nYou *can*, but if you post on one before the feed completely syncs you might accidentally fork your feed and become #marooned talking to yourself. It's more common to have one profile per device, although that's not ideal.",
     "mentions": [
       {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "lancew"
+        "link": "@Dlz2W4RJ57h4AJPjac09Z0sLUMmIH94J7XoZLCIWq3M=.ed25519",
+        "name": "aramiscd"
       },
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "#marooned"
       }
     ]
   },
-  "signature": "hWMhx2w0yY/E/Mhv2/rrNvMNFouO8pqkMlrFshUdx/Z+wdrusBFrp+33XoJkWlLXD/WyNrmedXlqdwfKc3IiBA==.sig.ed25519"
+  "signature": "3J3/jfeWFKKIAXHoF0lqRXiBC6FalZHsa6xqchPb3Hz3/TObMtY2E7dOoXMbbJFbAJ8NhOu8HnyCAmomv6OmAw==.sig.ed25519"
 }
