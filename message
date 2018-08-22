@@ -1,20 +1,47 @@
 {
-  "previous": "%tmqnnTXhxEbz2vHNBz99yZv1piBjz1GRZ4yMu9Wf/bI=.sha256",
+  "previous": "%P06BAdmR4oCJxijS5VhYcmo0KKJXc8mcW3QUUdiWL5k=.sha256",
+  "sequence": 2529,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2528,
-  "timestamp": 1534912947456,
+  "timestamp": 1534913990477,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lvG7sVymWqomjgoyvqkrYJ7nSn8hiPQI4cLqA7A/b9o=.sha256",
-    "branch": "%egSI90yb8njJAfRCKTiK6YTuIrhQgPTl0INjyRbUDNs=.sha256",
-    "text": "[@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n\n\nInteresting! I have a question about symbols:\n\n> Symbols represent identifiers, they consist of alphanumeric characters, or `# : / . * + ! - _ ? $ % & = < >`.\n\nCould this be a typo for \"non-alphanumeric\"? I'm also curious whether this is specifically non-alphanumeric non-whitespace printable ASCII or *all* non-alphanumeric characters. Hope OI'm reading this right, thanks for sharing!",
-    "mentions": [
+    "type": "git-update",
+    "repo": "%iLGZmMSBTzLCE41jTWXcLFkfXP4jLSCEzPtFj8Lp4pU=.sha256",
+    "refsBranch": [],
+    "repoBranch": [
+      "%p+k2Fl16+BpK+7COOcBoqDzN9qaPIQN6DgVmia34Oxk=.sha256"
+    ],
+    "packs": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "Aljoscha"
+        "link": "&M3x0Qh/aH/CpMOcWAsE7msS2h521Q/pVtsH+mkcP5ic=.sha256",
+        "size": 2094
       }
+    ],
+    "indexes": [
+      {
+        "link": "&kErlKkrFf9qDS77BTJyaOWfHTxZ2fuvQlPkUQfWnahM=.sha256",
+        "size": 1184
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "fba7146404b1da16a1da34952730e9b74027aac2"
+    },
+    "commits": [
+      {
+        "parents": [
+          "27c71b7cf004045ef080ee7153e9bf412ea71c0e"
+        ],
+        "title": "Remove scuttle-invite workaround and rebuild",
+        "sha1": "fba7146404b1da16a1da34952730e9b74027aac2"
+      }
+    ],
+    "tags": [],
+    "num_objects": 4,
+    "object_ids": [
+      "d569076aac5bfbd7309859c17ba62e61aeefcd6c",
+      "3e768545bef9dc0f1874cfa742aaeea618a66bf7",
+      "83f0e63c176474a6b50c89d22cc05ed368799621"
     ]
   },
-  "signature": "e8LGGX516Y4TxuryPURN2iSHqfH2kCXwdOpONiWaVmrcdomxDnGFY4iFv4JIi0QT7bKm5AqRL/msRkiG1amgDw==.sig.ed25519"
+  "signature": "TZBOeC3+XCM7AGASXc1/JK7oWajs5iRFlqSijQ3fRiNiRLKPcQM4XmIFlaRIvgxl72Fb2oiKt2QTMM+WRzqJDQ==.sig.ed25519"
 }
