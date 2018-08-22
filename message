@@ -1,15 +1,26 @@
 {
-  "previous": "%0/B4oJUxunXGId1Jsgn6ooLC4M145pBI3eJSCYTm1Sk=.sha256",
+  "previous": "%DbqY1BB/QX4g7baiB3tI+jnVpZPtE6LGOMnOfXxVatY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2539,
-  "timestamp": 1534952543134,
+  "sequence": 2540,
+  "timestamp": 1534952624776,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
-    "branch": "%OdnpKVq2R8RrfG386xjUcXg0I1SIJk1l1bJwT9JDFok=.sha256",
-    "channel": "patchbay",
-    "text": "FWIW, at 999 hops I'm seeing:\n\n```console\n$ npx scuttlebot friends.createFriendStream | sort -u | wc -w\n8099\n```\n\nI'm not sure how many hops you're at, but I think when following pubs that 3 hops is almost the entire network."
+    "root": "%LjyiIj5NDnkquavKfLSnreC6bSBjxZPyyaqdN0mzj68=.sha256",
+    "branch": "%LjyiIj5NDnkquavKfLSnreC6bSBjxZPyyaqdN0mzj68=.sha256",
+    "text": "[@lancew](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nIt's called ssb-mutual ( #ssb-mutual ), I recently found out about it via this thread: %xaA7RfW2XKBcqsB8EUfRu0kpR/jI3Af5Qq7XMtNgFD8=.sha256",
+    "mentions": [
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lancew"
+      },
+      {
+        "link": "#ssb-mutual"
+      },
+      {
+        "link": "%xaA7RfW2XKBcqsB8EUfRu0kpR/jI3Af5Qq7XMtNgFD8=.sha256"
+      }
+    ]
   },
-  "signature": "sxHG0oUdSUZtZcEaicqaLjLvgZ80kGGXrfgzy2ZIyx2iZTBr42wPs5RzI6QP0j0jG+X1c4tuMJo9nyd6JCOFAw==.sig.ed25519"
+  "signature": "EZH6pebdXjApDtjOeryJnrBaPlRsoShNjIpvcTnnu/32U2axxRtDnYlg3UsOfGR2Okpjx6JLBtubkJQnS0lwBA==.sig.ed25519"
 }
