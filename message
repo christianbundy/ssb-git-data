@@ -1,18 +1,15 @@
 {
-  "previous": "%DctctxdWIjhxHZSg1PvN05hhI9D/nEasBoFsU8HB87g=.sha256",
-  "sequence": 2538,
+  "previous": "%0/B4oJUxunXGId1Jsgn6ooLC4M145pBI3eJSCYTm1Sk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534948991281,
+  "sequence": 2539,
+  "timestamp": 1534952543134,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 42,
-    "root": "%svoF1qZrbRQW5h18314Y2MuJobhH+oKC/pVd2XnaEKk=.sha256",
-    "orig": "g8",
-    "dest": "g4",
-    "pgnMove": "Rxg4",
-    "fen": "r4k2/pb1pR3/p2P3n/2p2P2/6r1/2N3N1/PPP2PP1/R5K1 w - - 0 22",
-    "branch": "%ikWUV7Fg+vfO6MeB9xnSQ3GGkqjDwDfas3MEnJPf2u0=.sha256"
+    "type": "post",
+    "root": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
+    "branch": "%OdnpKVq2R8RrfG386xjUcXg0I1SIJk1l1bJwT9JDFok=.sha256",
+    "channel": "patchbay",
+    "text": "FWIW, at 999 hops I'm seeing:\n\n```console\n$ npx scuttlebot friends.createFriendStream | sort -u | wc -w\n8099\n```\n\nI'm not sure how many hops you're at, but I think when following pubs that 3 hops is almost the entire network."
   },
-  "signature": "lDuZIosJ/OyL7pYXX7/Rqe4IE2tChZsLFNcOhsV1s6dk5Z09cRkIdROPNxguC2iqPXD5Bru0DWOIMmNE0LOyAg==.sig.ed25519"
+  "signature": "sxHG0oUdSUZtZcEaicqaLjLvgZ80kGGXrfgzy2ZIyx2iZTBr42wPs5RzI6QP0j0jG+X1c4tuMJo9nyd6JCOFAw==.sig.ed25519"
 }
