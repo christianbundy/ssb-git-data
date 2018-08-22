@@ -1,21 +1,25 @@
 {
-  "previous": "%noIBqsaGP1iR9eFzO7ioyK7cZU1E15NUgYm5UAhyfZI=.sha256",
+  "previous": "%rBLiQzrjZvo+sMVDCb6mGU+XgZUmoNYl18e/6Xdv2PY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2482,
-  "timestamp": 1534905778350,
+  "sequence": 2483,
+  "timestamp": 1534905945186,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
-    "branch": "%IGJPhanXEfA7PTzu13p/4miStKQWcqBUxwPLBPxm8F8=.sha256",
-    "channel": "archlinux",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nWow, I really appreciate how quickly you went through and merged everything. Please feel free to ping me if we get any bug reports on the new code and I'll happily come clean up my mess.\n\nI think leveldown@1.7.2 came from the devDep being installed as a dependency of patchbay (and patchbay-dark-crystal (and scuttle-dark-crystal)), but it all looks cleared up now. I'm excited to remove the hacky workaround from the Arch packages.\n\nBy the way, I posted this [on GitHub](https://github.com/ssbc/scuttle-invite/pull/8#issuecomment-414849700) but it's likely more appropriate here:\n\n> Now that I'm in the ssbc org I've just been pushing branches as `foo` or `@christianbundy/foo`, but still doing my regular development flow (branch off master, open a PR, await review). Is that how I should still be working? I don't want to abuse `master` by merging branches willy nilly, but I'm also hesitant to keep adding code to the review pile and creating a backlog of work for others to review. We can also discuss on SSB if that's better than on a random PR.",
+    "root": "%cDY8om2ZwnK12rvBkE0YgGUKkXLyVnbDUlUv6L4pWak=.sha256",
+    "branch": "%9LxJd8r2gkWlYqOmmdVF1oECkX8moEZSnOWIf0iLG9M=.sha256",
+    "channel": "mmt",
+    "text": "[@angelica](@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519) \n\nThat would be super cool -- I'd love to help if you'd like a hand with anything.\n\n[@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nFor some reason summoning with `&-` only loads the first image for me, but it's good to know that they're all listed under `&-hermes`. They're so much fun!",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519",
+        "name": "angelica"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
       }
     ]
   },
-  "signature": "N/hOmbaVVVCAcot5oVkrIa87lZKBELXSVjpximRohHUVNazgzhvXClZWubGN1+us9z/O0BJHdI0WLkRVZT+4AA==.sig.ed25519"
+  "signature": "99BrT420UG/o8MtW4PB01IkxVEVWO2bDLk+xLEQXIYd7eKgrJ5csHD8uYTBmq2X1PJZC0R3bDlhMYS6cS/1QCw==.sig.ed25519"
 }
