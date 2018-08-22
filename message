@@ -1,9 +1,21 @@
 {
-  "previous": "%4yvZhOun9npkpEKLv4YcFVhrfNT8pn6GB0/tE3TOsmE=.sha256",
-  "sequence": 2481,
+  "previous": "%noIBqsaGP1iR9eFzO7ioyK7cZU1E15NUgYm5UAhyfZI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534893031196,
+  "sequence": 2482,
+  "timestamp": 1534905778350,
   "hash": "sha256",
-  "content": "Gp2sfgfK6FYJERFgvY2JcNNNTtRiR/WJuT5yY+ReQu2U+Gi+/e2ujh0qqOB6W834aFfoUaTtDjoiKguYh1uOJpOeLyLSlEEs0OazI5prjB3SGqaWubID9On1HsCGSXtA/fPGbf0DH2AS/eY40yf18vVsHw4nqbzUpIPUxX2pOH5Ou866+TZr1UYfdW9h7xYlv7jmhxqm3G7bqnKFaSPFtThlPxck5n28zmYiXb6EO93oUDj8HeM1GuU+vcKSAbJYMaEdezjC3mVcmiN47Jq9gzY033mYkGDBsb84Vm3WrkgD845RwsTcZlQK/AoQqz75FZeZIYshzE5k9LbagjkDnN8New59ea3laun7YFeYPfgtt9PATdCCnDhVl50q3rgBdeovdVeaDYASigo=.box",
-  "signature": "Gwv08KStoi7ylIU/IPfTNc3iL0Gg+luM+XIhSpH81CH6LO4PTS7MJNCx/ujSoaQ0jL9I0YlqEJ/VCGaJbMMuBA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%0hAxz59/IvdH1qPfu3hNNL15w0pCUUZyHkaW0vOygU4=.sha256",
+    "branch": "%IGJPhanXEfA7PTzu13p/4miStKQWcqBUxwPLBPxm8F8=.sha256",
+    "channel": "archlinux",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nWow, I really appreciate how quickly you went through and merged everything. Please feel free to ping me if we get any bug reports on the new code and I'll happily come clean up my mess.\n\nI think leveldown@1.7.2 came from the devDep being installed as a dependency of patchbay (and patchbay-dark-crystal (and scuttle-dark-crystal)), but it all looks cleared up now. I'm excited to remove the hacky workaround from the Arch packages.\n\nBy the way, I posted this [on GitHub](https://github.com/ssbc/scuttle-invite/pull/8#issuecomment-414849700) but it's likely more appropriate here:\n\n> Now that I'm in the ssbc org I've just been pushing branches as `foo` or `@christianbundy/foo`, but still doing my regular development flow (branch off master, open a PR, await review). Is that how I should still be working? I don't want to abuse `master` by merging branches willy nilly, but I'm also hesitant to keep adding code to the review pile and creating a backlog of work for others to review. We can also discuss on SSB if that's better than on a random PR.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
+  },
+  "signature": "N/hOmbaVVVCAcot5oVkrIa87lZKBELXSVjpximRohHUVNazgzhvXClZWubGN1+us9z/O0BJHdI0WLkRVZT+4AA==.sig.ed25519"
 }
