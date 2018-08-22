@@ -1,21 +1,17 @@
 {
-  "previous": "%RtSsjBv9a0GMEv7ef+meetNLHK4iAI4H9XGavgnFzlU=.sha256",
+  "previous": "%2PThLPplLXJSeE6e6CsciT0LKS+Q6tFBHEdIpd6unEE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2533,
-  "timestamp": 1534948421857,
+  "sequence": 2534,
+  "timestamp": 1534948563246,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
-    "branch": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
-    "channel": "patchbay",
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nThanks for letting me know. I'm not sure which commit you were updating from, but I wonder whether it's the ssb-friends update with new opinions on hops and replication. Maybe? Fingers crossed that it's just a one-off task and not the new norm. Please let me know if your CPU keeps redlining or acting funky.",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      }
-    ]
+    "type": "vote",
+    "channel": "programming",
+    "vote": {
+      "link": "%x8qNwLjHvrdJZoyihOmZlv8xWvO4FBbBamDuw4fKjgU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "xotWN1cyuOmposKDt85/IyN1hsjK0obPE/g3Nh/Mp1Js/+3XDL6+F8LBqOg/L9fUIqZDc35e04RuNaA4hjPWAg==.sig.ed25519"
+  "signature": "ZH3CBNNuvBIYQvjSrR1+xeCTtGqD0KyW2ABrGqM5Y/DQdMdaMayCVjwYGkLTogeDMNp+FGaPPBD2MrniyVsbAw==.sig.ed25519"
 }
