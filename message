@@ -1,47 +1,18 @@
 {
-  "previous": "%P06BAdmR4oCJxijS5VhYcmo0KKJXc8mcW3QUUdiWL5k=.sha256",
-  "sequence": 2529,
+  "previous": "%SKc0rLZmCC8PMvrleY1q7JZBEjyBWXw7vFrTFykCAoI=.sha256",
+  "sequence": 2530,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1534913990477,
+  "timestamp": 1534914121369,
   "hash": "sha256",
   "content": {
-    "type": "git-update",
-    "repo": "%iLGZmMSBTzLCE41jTWXcLFkfXP4jLSCEzPtFj8Lp4pU=.sha256",
-    "refsBranch": [],
-    "repoBranch": [
-      "%p+k2Fl16+BpK+7COOcBoqDzN9qaPIQN6DgVmia34Oxk=.sha256"
-    ],
-    "packs": [
-      {
-        "link": "&M3x0Qh/aH/CpMOcWAsE7msS2h521Q/pVtsH+mkcP5ic=.sha256",
-        "size": 2094
-      }
-    ],
-    "indexes": [
-      {
-        "link": "&kErlKkrFf9qDS77BTJyaOWfHTxZ2fuvQlPkUQfWnahM=.sha256",
-        "size": 1184
-      }
-    ],
-    "refs": {
-      "refs/heads/master": "fba7146404b1da16a1da34952730e9b74027aac2"
-    },
-    "commits": [
-      {
-        "parents": [
-          "27c71b7cf004045ef080ee7153e9bf412ea71c0e"
-        ],
-        "title": "Remove scuttle-invite workaround and rebuild",
-        "sha1": "fba7146404b1da16a1da34952730e9b74027aac2"
-      }
-    ],
-    "tags": [],
-    "num_objects": 4,
-    "object_ids": [
-      "d569076aac5bfbd7309859c17ba62e61aeefcd6c",
-      "3e768545bef9dc0f1874cfa742aaeea618a66bf7",
-      "83f0e63c176474a6b50c89d22cc05ed368799621"
-    ]
+    "type": "chess_move",
+    "ply": 15,
+    "root": "%Sp6M7Ip4euVp71N4kPmziW25UyBHCuIDyj7VKlJ4y3k=.sha256",
+    "orig": "d1",
+    "dest": "a4",
+    "pgnMove": "Qa4",
+    "fen": "rnbqk1nr/pp3ppp/2p1p3/b7/Q3P3/2PP1N2/P3NPPP/R1B1KB1R b KQkq - 2 8",
+    "branch": "%rYWZSnprPZQzVBmGpB52rDsa7NLc65Ja8r2glZaWIss=.sha256"
   },
-  "signature": "TZBOeC3+XCM7AGASXc1/JK7oWajs5iRFlqSijQ3fRiNiRLKPcQM4XmIFlaRIvgxl72Fb2oiKt2QTMM+WRzqJDQ==.sig.ed25519"
+  "signature": "QTGQLnm03qCDeEcuRFIqYueUOa8t4Zt4C+TusiXUVJU73htH/2695/TBWkaplh5U1QIqP72ah9kZmitFRQKVBw==.sig.ed25519"
 }
