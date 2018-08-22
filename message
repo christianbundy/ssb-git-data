@@ -1,17 +1,21 @@
 {
-  "previous": "%uR8XRTZa8f/wIGWx5f9df3Y/UlJhumD2q30EfloR61I=.sha256",
+  "previous": "%RtSsjBv9a0GMEv7ef+meetNLHK4iAI4H9XGavgnFzlU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2532,
-  "timestamp": 1534948116183,
+  "sequence": 2533,
+  "timestamp": 1534948421857,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%bF/4zJewgbDJF0K0TRhXaDSgZ8bx23hBJu2rc47B6Ls=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
+    "branch": "%nOH23QmXwHsWw66TYDhYF/tyQXdL+ps0a+jl4AeBGY0=.sha256",
+    "channel": "patchbay",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nThanks for letting me know. I'm not sure which commit you were updating from, but I wonder whether it's the ssb-friends update with new opinions on hops and replication. Maybe? Fingers crossed that it's just a one-off task and not the new norm. Please let me know if your CPU keeps redlining or acting funky.",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "cVLcVJLwSNY4nXbWTX1AycckUb7DW8+r2s//gP0N8NhuWgSL4q5ubrY6ZqEU0diQRkbkFoxKA8todigrWvlrCA==.sig.ed25519"
+  "signature": "xotWN1cyuOmposKDt85/IyN1hsjK0obPE/g3Nh/Mp1Js/+3XDL6+F8LBqOg/L9fUIqZDc35e04RuNaA4hjPWAg==.sig.ed25519"
 }
