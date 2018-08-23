@@ -1,24 +1,17 @@
 {
-  "previous": "%AXkR9YBrZOZAnTs7sxslHf8Y80khbkh9Szd/qcPH2ss=.sha256",
+  "previous": "%qveyEs9pAv5aDnnyc/e8FhbhvkvalLVg694sGRneZdA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2594,
-  "timestamp": 1535057262759,
+  "sequence": 2595,
+  "timestamp": 1535057616177,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%2WXZLeMmYf+/w13rGLA94V9Spb9ipXuZouMzZy8IIos=.sha256",
-    "branch": "%meNPDrS1JI8fF73mnvzNj7BjiginThl4BBTzWqVGYAE=.sha256",
-    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nI know there's a military term called [bottom line up front](https://en.wikipedia.org/wiki/BLUF_(communication)), plus there are likely some parallels with [inverted pyramids](https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)). How did you like D-prime? I've never tried E-prime for more than a few minutes, but it seems like most of the value comes from removing \"is\" from identity and predication.\n\n[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519) \n\nI think you're onto something -- and I forgot how frustrating those sentences are. Maybe [happy path](https://en.wikipedia.org/wiki/Happy_path) sentences or [desire path](https://en.wikipedia.org/wiki/Desire_path) sentences would be more appropriate? I'm surprised that this isn't already a thing.",
-    "mentions": [
-      {
-        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
-        "name": "squicc"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%meNPDrS1JI8fF73mnvzNj7BjiginThl4BBTzWqVGYAE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "TZtUJBQbbv9a7VedmAh7vX5pyEho4uBYkvWEzPu8SttpzyHxDJKMx8Fr5unvjfPzBsrOFtjV/ImrM8gevMQsCg==.sig.ed25519"
+  "signature": "kZ26F6FuVJWY0lIebBzTg6AkDMseeaAxaPddpz3HDJAe9TtFkK/vAQFsXglFG9/3HVPScWblSz60172xKhefDg==.sig.ed25519"
 }
