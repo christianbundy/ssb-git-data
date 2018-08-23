@@ -1,18 +1,21 @@
 {
-  "previous": "%zbSxHu47JfxRSwXLakPeCYjSILjUuq66LxCCVTb1vsU=.sha256",
+  "previous": "%TlwqVDD1NngEP8Mc7sWmu4bXaQ6UCkC92XX42eIE0E4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2599,
-  "timestamp": 1535061519082,
+  "sequence": 2600,
+  "timestamp": 1535067425619,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I have a few questions about Git over SSB -- hopefully this is the right spot to ask!\n\n1. Has there been any talk about mirrors (one-way or two-way) between git-ssb and `/git(hu|la)b/`? I'd imagine most teams won't move away from at least *one* centralized host, since they're so popular, but I'd love to reduce my dependence on them.\n2. Do private repos exist, or are there ways of changing repository privacy?\n3. My current understanding is that anyone can push to any branch, which I think may become more dangerous with scale. I'm sure there's been a ton of discussion on this issue, is there somewhere I can track it?\n4. I'm sure this is far off, but is anyone working on (or interested in) continuous integration/deployment? I'm unreasonably excited about the potential for #ssb-ci.\n\nLoving git-ssb and git-ssb-web so far! :cloud: ",
+    "root": "%TlwqVDD1NngEP8Mc7sWmu4bXaQ6UCkC92XX42eIE0E4=.sha256",
+    "branch": "%AQUxvzNTNUiY7GzCebYlSyUhYMTgsV89lS0RM3Nk0Xs=.sha256",
     "channel": "git-ssb",
+    "text": "Thanks for all the info [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)! I'll dive into these threads and see if I can't learn something new. I really appreciate you helping me understand this, especially with such a quick response! :books: \n\nAre you the primary maintainer of git-ssb?",
     "mentions": [
       {
-        "link": "#ssb-ci"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ]
   },
-  "signature": "IBXTOA+i3QcKTv/5iyjlCZdxOl8XWEfzyoRJlHswbNH0rWAItkVCSqqFAh4IgTReiWFlsGWlACGjHo2DTxzXDw==.sig.ed25519"
+  "signature": "0ey4ZpK1Uunb8NDuWd0G+5aajnblAYk7qJv7oV8nDA7rqieaMO1ow2H9Ska0NJ954NAqTqAzIpBvgVFMLTnOCw==.sig.ed25519"
 }
