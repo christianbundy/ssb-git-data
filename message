@@ -1,18 +1,17 @@
 {
-  "previous": "%7XYKmHEcdOk3gLimynEabhbpVEC20KMzs6HAuPqBfNo=.sha256",
-  "sequence": 2590,
+  "previous": "%sJoyWPy4tsp9C62Et0Xq+BY9WvU7QIFym9Z22sDAOd0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535051176033,
+  "sequence": 2591,
+  "timestamp": 1535051610619,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 54,
-    "root": "%svoF1qZrbRQW5h18314Y2MuJobhH+oKC/pVd2XnaEKk=.sha256",
-    "orig": "f7",
-    "dest": "g5",
-    "pgnMove": "Ng5",
-    "fen": "4rk2/p3R3/p2P4/1bp2Pn1/4N2r/6N1/PPP2PP1/4R1K1 w - - 9 28",
-    "branch": "%PJgzxpCdd/AT8u4fdUrR1V4Mkz3ou776j73AuyCLnAs=.sha256"
+    "type": "post",
+    "text": "I mentioned constrained writing a bit in %8u9bFo98y81KPeu+g5cTNnp0BiWpE1o7szxrnVcBl4I=.sha256, but I've found a useful language constraint that I've never seen described: using specificity at the beginning of sentences.\n\nFor example, when you're in the passenger seat at a stop sign and the driver says \"can you see anyone?\":\n\n- **Unconstrained:** There are no cars on the right.\n- **Constrained:** On the right there aren't are no cars.\n\nThe former is starts ambigiously because you can hear \"there are no cars\" before you hear the \"on the right\", so if you don't hear the end of the sentence you can assume that you're good. Is there a word or phrase to describe this sort of constraint, or am I just talking like a weirdo?",
+    "mentions": [
+      {
+        "link": "%8u9bFo98y81KPeu+g5cTNnp0BiWpE1o7szxrnVcBl4I=.sha256"
+      }
+    ]
   },
-  "signature": "FdLktbztyYRuxc2wZqxd57vwl8iXoWUCmWzxxtiNnrpd8TRN2VCmUZYJQHleJpWy9ZIqh383zTSSvHC97jtNCA==.sig.ed25519"
+  "signature": "v/wpCJqWVJqYmF9igGOXb4F+NUmaWlmumSsj91G0SsjgNa5wH040FbcRsbQo/JYjTROYO2ahgFCeVVQ5h8BjBg==.sig.ed25519"
 }
