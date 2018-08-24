@@ -1,16 +1,14 @@
 {
-  "previous": "%niz28KXB2QWUilk8aXAdUtxm2Q19JwRX0Ra1+5tSFuU=.sha256",
+  "previous": "%uHpyc+1D3LL72xKO83hU+B2HDLKl71GjjysTDpit4co=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2685,
-  "timestamp": 1535139561272,
+  "sequence": 2686,
+  "timestamp": 1535141166065,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%G3CQfjw90GHRr0HnsprPSvQxMQTQDVMS8o04qoJS86M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9O9CXav+w+/tzLjcskCaOZLcMmuX9jRGXoii9U1SwmM=.sha256",
+    "branch": "%tODv4Tnt5YTTsFZX4d6M8l9FEAk7MexY0npfY2j//DA=.sha256",
+    "text": "I completely agree that this doesn't update us, but from an mobility/agility standpoint I'm not super excited about dependencies with no reachable maintainer. \nFor the record, I'm not crazy about `npm audit` either, but it seems helpful to be able to contribute back to upstream repositories when we notice a warning light is on (great metaphor).\n\nIt looks like @yoshuawuyts is a collaborator on the repo, maybe we could ping them on GH?\n"
   },
-  "signature": "sDjS5hrslCsHdj7kus57I7QYoo61o84UH2AlBV38mYu4dIHVSjZQqVuNWnkHh0qiFVyXwslLa+7O3OkLG/DjBQ==.sig.ed25519"
+  "signature": "iRQTlFcMpy93nkynRbmC8OU6HwjK4jIjW8foF4Qa3oSpnmu2rC5G0FMQO8Cs37lmaNZnVO/GxdlXgwU0qpamBg==.sig.ed25519"
 }
