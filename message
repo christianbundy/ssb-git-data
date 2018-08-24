@@ -1,17 +1,21 @@
 {
-  "previous": "%7wa0zGIfpbMaQlkawgyXKyDXTPTSceLDIYXaZ8yFl+E=.sha256",
+  "previous": "%iQmJKH32EcnlooyooDUe9I7xP6y01R+NVXnUaOaHpaI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2687,
-  "timestamp": 1535142485226,
+  "sequence": 2688,
+  "timestamp": 1535142794963,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebutt",
-    "vote": {
-      "link": "%EyGGCcjAbaShKFCMxXKYiZjQe17SR298D0SLTuKmZpo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "I'm not sure whether this is a bug or whether I'm misunderstanding the /notifications page, but I don't see any notifications for *any* replies to %9O9CXav+w+/tzLjcskCaOZLcMmuX9jRGXoii9U1SwmM=.sha256. Is that bad?\n\nI tried to dig into the code but it looks like most of the implementation might be coming from how Patchcore ( #patchcore ) handles backlinks, and a `dest` property I'm unfamiliar with. Can anyone guide me to the offending code or help me understand my misunderstanding?",
+    "channel": "patchbay-dev",
+    "mentions": [
+      {
+        "link": "%9O9CXav+w+/tzLjcskCaOZLcMmuX9jRGXoii9U1SwmM=.sha256"
+      },
+      {
+        "link": "#patchcore"
+      }
+    ]
   },
-  "signature": "eRwXX9TXdF2RDnEE9o8o/xQQG1ydc9f16V2paBpV1/3EsbGVwmh6uS6yghftW+l9o6z34oqC8VqdyOqPebYbBw==.sig.ed25519"
+  "signature": "KZN59HtEO9iGF8y58VfblVbKDlyD31a0dKCl7DKnkt2ovmWmPs39OQ/XipwtXBaroScOag46BQyP5EjJxW+uDg==.sig.ed25519"
 }
