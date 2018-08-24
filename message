@@ -1,17 +1,33 @@
 {
-  "previous": "%iczoLNR4buCSLnxCh4bGxW8hBig3vOJhN9bF5gC8ij0=.sha256",
+  "previous": "%yI5PYZmBXQLuqV0M0LR/anczkHcbqsP6T98vPtcTXnM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2693,
-  "timestamp": 1535152906565,
+  "sequence": 2694,
+  "timestamp": 1535153086678,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
+    "branch": "%fKMomG485/66U/KzH2ah0ui2v8hMChI8WjcSSX83WBQ=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%UHIwQcqy8eARgPKZLuLdkqMYvmdd912eMRA1eag8BXM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nThat's the second or third time I've done that, too. The other one is that I don't use shift with name suggestions so even though I identify him as [@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) on SSB the autosuggest still writes [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) .\n\n[@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nJust to clarify, you don't mean that people can see who I'm talking to, do you? I know that others can see *when* I post a private message but I'd be surprised to find that they know *who* the message is to.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      }
+    ]
   },
-  "signature": "vuGl6JvljjNDGgekPEuCHYLV9d75cOewJ1WxTjs62wr4ELPAjkmscDpfHM64I//O3k15Zf1++FypLL5+pb6sAA==.sig.ed25519"
+  "signature": "weREhzFvdNdQhMUavsc28M6LbjDvmUqM1BjdzW4HjSv1uPxMx5CuL+v+bUs//GJ86f6XVq5msPZ/o8TRztbbAw==.sig.ed25519"
 }
