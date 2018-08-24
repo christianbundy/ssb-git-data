@@ -1,21 +1,15 @@
 {
-  "previous": "%iQmJKH32EcnlooyooDUe9I7xP6y01R+NVXnUaOaHpaI=.sha256",
+  "previous": "%oipawmga0ofBWXvs43ZNdhpweSnzHJP4F1ahMEdPPdw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2688,
-  "timestamp": 1535142794963,
+  "sequence": 2689,
+  "timestamp": 1535142895610,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I'm not sure whether this is a bug or whether I'm misunderstanding the /notifications page, but I don't see any notifications for *any* replies to %9O9CXav+w+/tzLjcskCaOZLcMmuX9jRGXoii9U1SwmM=.sha256. Is that bad?\n\nI tried to dig into the code but it looks like most of the implementation might be coming from how Patchcore ( #patchcore ) handles backlinks, and a `dest` property I'm unfamiliar with. Can anyone guide me to the offending code or help me understand my misunderstanding?",
+    "root": "%oipawmga0ofBWXvs43ZNdhpweSnzHJP4F1ahMEdPPdw=.sha256",
+    "branch": "%oipawmga0ofBWXvs43ZNdhpweSnzHJP4F1ahMEdPPdw=.sha256",
     "channel": "patchbay-dev",
-    "mentions": [
-      {
-        "link": "%9O9CXav+w+/tzLjcskCaOZLcMmuX9jRGXoii9U1SwmM=.sha256"
-      },
-      {
-        "link": "#patchcore"
-      }
-    ]
+    "text": "It's probably worth mentioning that I double-checked the custom filters on the /notifications page and everything looks how you'd expect."
   },
-  "signature": "KZN59HtEO9iGF8y58VfblVbKDlyD31a0dKCl7DKnkt2ovmWmPs39OQ/XipwtXBaroScOag46BQyP5EjJxW+uDg==.sig.ed25519"
+  "signature": "Ok1RircDrdfaNxbhkExHZNw0nFf+gByWsOpjC7KEjtTAaSsufmoJPeLGWrEinyZ5tz9Rh6Ois9Bn/08Rl6gCDw==.sig.ed25519"
 }
