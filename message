@@ -1,17 +1,27 @@
 {
-  "previous": "%upMDl5tfRWyJuSVodSGiiocOb3LRpznGVtPMQt2h3t0=.sha256",
+  "previous": "%wFpOqd+Vq9rWUnTuZ4HhjB0zQebcHb3VbjrpnUwLLXg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2697,
-  "timestamp": 1535153634708,
+  "sequence": 2698,
+  "timestamp": 1535154037848,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
+    "branch": "%Z/h/ipkr7JwSjec2OrB7t8Rmn1J0qukxZLRWBuEYFD0=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%u4fgflmo1eKik5Kr5d9/fLHzZrAGITQBo1RN+OxqbHI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@Dan Hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nSweet, that matches my pre-existing beliefs, which is good! I agree on the transparency of the network, it makes it much harder to ignore your metadata. \n\nBy the way, I had some notes on the PR that I'd love opinions on, if you have any:\n\n> - **Icon:** I don't remember which FA icons exist, but the lock was the first thing I thought of. Are there more appropriate icons to use?\n- **Color:** Should it match the #bbb plus icon? Or maybe a green to indicate security?\n- **Decryptability:**  Currently private messages are only indicated with a lock icon if you can see their contents. I was thinking that readable private messages should have an unlocked icon, but I'm concerned that might be misunderstood as \"insecure\". We could also use color, maybe #bbb by default but green if you can read it?\n- **Text:** Hovering over the lock icon just says \"Private\", but it might be more helpful to display more text -- maybe different text depending on whether it's encrypted for you? ",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "Dan Hassan"
+      },
+      {
+        "link": "#bbb"
+      },
+      {
+        "link": "#bbb"
+      }
+    ]
   },
-  "signature": "ZxDQNOYCy4En/zYhT95rXy0KuWVw6OYqN7mKDYo8G37nwrWw7qlg5WmQhfqRqlLHiHYit9Gojub94+N85jtNCQ==.sig.ed25519"
+  "signature": "4IgPaFyo+SEbRxkRnB1EaAJJZQWAtNB7LzW3E71bRLE52l7SJgxwu4RBVNybHBqyJIZzk54FKRqRunmsguvyCQ==.sig.ed25519"
 }
