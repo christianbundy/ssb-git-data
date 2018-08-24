@@ -1,17 +1,21 @@
 {
-  "previous": "%OJc0e3xoE6duFC/vhHpv0a7CiHdwtWAF3W2F4b9XuX0=.sha256",
+  "previous": "%nrutr8c+ByLseP5STqk+XTXiPIzCAz1BkrWBRjgnyuA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2690,
-  "timestamp": 1535151752789,
+  "sequence": 2691,
+  "timestamp": 1535151807863,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
+    "branch": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nI'm so happy you like it! This was the first bit of code I've had merged into Patchbay that wasn't a bugfix or maintenance task. I appreciate that you posted this.",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "P9ibm+VwUyQUAYeG+6EX0N5j+KW6NC5AuK1HBNfCDaUmRHDB9FaFBgN4TDXP7JedPzuIOoOo3fC9V2kBumnEAg==.sig.ed25519"
+  "signature": "asMOsrvJrE2CWbwNrBvIqa0eES9hANAeTjEBt3RGMv4jd3hpiyaamdALKiA7lSoJhbgaOLFdKxdF5Rdjer6XCA==.sig.ed25519"
 }
