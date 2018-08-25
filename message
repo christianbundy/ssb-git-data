@@ -1,16 +1,27 @@
 {
-  "previous": "%/IAEV4J4AUgVKpBP/3wyHwrqJ43QWYOgnMv6fDwFKeM=.sha256",
+  "previous": "%ACdDlPL7GRyFmNTCf8o3kyZ3nlfSbiU6Z5QliA/nGRw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2714,
-  "timestamp": 1535209851424,
+  "sequence": 2715,
+  "timestamp": 1535210391419,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%pUv+jJ/nbxKKtGZ4Qu8m6Z0MBoBQ4EhGnblhEjmUQPk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%oipawmga0ofBWXvs43ZNdhpweSnzHJP4F1ahMEdPPdw=.sha256",
+    "branch": "%XiGh6Aa3XED/VQOOMqbiBJ+V2CjFqxIigZ5lN5BcWr4=.sha256",
+    "channel": "patchbay-dev",
+    "text": "Yeah, my confusion was just \"I get notifications for some replies without mentions but not others\", which makes sense if Patchwork has a `reply` property that's used as a backlink. \n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nUsing #scuttle-thread (or #ssb-thread? is there a difference?) sounds solid to me -- are other client maintainers interested in using a shared component for threads? ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "#scuttle-thread"
+      },
+      {
+        "link": "#ssb-thread"
+      }
+    ]
   },
-  "signature": "NPrLNasDg3oQlOjyVmu+yje4hEQCofefIdhFASJL4zvZ7U+l5v4BX8e0IpSPVN+uAA27Fh1swzMHlRmodNoTDQ==.sig.ed25519"
+  "signature": "pqbkp8H9EGhGg87wCPcTLDWmzjHLYcRA7/+rVHkfY3xjXqPB9Blyb0NF+XduSzGUZcySG2LfTXWQJ6I5ZeitCg==.sig.ed25519"
 }
