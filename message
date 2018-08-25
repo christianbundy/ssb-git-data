@@ -1,17 +1,21 @@
 {
-  "previous": "%dmSZjs9mHvXKZ0pKOfk5+K5EdoDJLHnKqmXrGGJai6s=.sha256",
+  "previous": "%9pMiw0FXF6FVo6N15r3E7Sbcqv8iTdcqtfcMcDO5K2A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2701,
-  "timestamp": 1535161590855,
+  "sequence": 2702,
+  "timestamp": 1535161802295,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%TlwqVDD1NngEP8Mc7sWmu4bXaQ6UCkC92XX42eIE0E4=.sha256",
+    "branch": "%SH8jLSEb9JU3Voq4DAMPxw22IiAp8rkNqGPFfJpMjKc=.sha256",
     "channel": "git-ssb",
-    "vote": {
-      "link": "%SH8jLSEb9JU3Voq4DAMPxw22IiAp8rkNqGPFfJpMjKc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nWow, that's almost exactly what I was thinking. Have you given any thought to how this might be automated, especially for more trivial stuff like `npm test`? That got me really excited about git-ssb, I really appreciate you building and sharing it!",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "q1s7yYiFzyzXFt7FFtPuV05KbhptyvL8/W81irlgsyCWWlx1G7qh/X+/of1SOfKuSpdLFs/+rxOv6B9G61C8Dw==.sig.ed25519"
+  "signature": "2werNYbP+Hcuc08PN4Batn9B2o7N/u3bGzI8MjzOI78gpcV8kM3iUD5GvVaDzG9eGtyROjGYZHodHnKZD96bDQ==.sig.ed25519"
 }
