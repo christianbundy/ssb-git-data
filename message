@@ -1,23 +1,17 @@
 {
-  "previous": "%XCNFzIwZTJNj2SiDi4fWVin8D5vGeniN68mfiZAa3Z0=.sha256",
+  "previous": "%SYId0Ic/8B5ViltTqKuwpQ3UYgoskjnTpxpTVF8nMAs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2728,
-  "timestamp": 1535244481456,
+  "sequence": 2729,
+  "timestamp": 1535244533353,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
-    "branch": "%NndzUr9aR4F3HaFgM++cZGtVo/H8J+090R655MdrEBg=.sha256",
-    "channel": "patchbay",
-    "text": "My concern with hyper-customization at a user level is that users often make mistakes, and that for every person who finds utility in customization there are a dozen people who will accidentally change a setting and `chess_move` will become a pineapple and they'll never understand why. It's possible that working at a cell phone store ruined my optimism, but I'm personally hesitant to add customization unless it's going to be at least a dozen times as useful for those who use it.\n\nWith that said, I think that iconography can be incredibly helpful, and I'd cheerlead the hell out of you if you wanted to put together some sort of recommendation for message types and icons that make sense (maybe with reasonable fallbacks?). For example, I think there would be a lot of utility in standardizing what a \"like\" meant, and *personally* I think I'd prefer something like `👍` over `✓`. Maybe that's an argument for customizable iconography?\n\n![spinning thinking face emoji gif with black background](&pAHkVaI97HQ4WSzElePSoA8Y0RsOvx0xa9t1tSOxUa8=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&pAHkVaI97HQ4WSzElePSoA8Y0RsOvx0xa9t1tSOxUa8=.sha256",
-        "name": "spinning thinking face emoji gif with black background",
-        "type": "image/gif",
-        "size": 384168
-      }
-    ]
+    "type": "vote",
+    "channel": "patchbay-dev",
+    "vote": {
+      "link": "%6gcJepSteC7GKYe9cM1o6wI68I4P29qh6o04J6V3b5I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "G5N3ZIClrgUxWv5UtfDQJInOECEsdC53zHeFM1a4rLW3UEawTBllvyPWuBY9yJBeaAdxk1jBezNeZ6WSxZCOCg==.sig.ed25519"
+  "signature": "p01t+KfZyP/eAnf1mDjnuPEJj0Ggu/tDuJCeOTwxHTugLNXuFmi2aZFXXz7IzSUkfusnqusQR+y8ue9zJC3fBA==.sig.ed25519"
 }
