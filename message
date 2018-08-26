@@ -1,21 +1,23 @@
 {
-  "previous": "%s3EXzHddvVQh3TWr6sObDyyRZUaQgOWaYbozsoRxn8Y=.sha256",
+  "previous": "%XCNFzIwZTJNj2SiDi4fWVin8D5vGeniN68mfiZAa3Z0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2727,
-  "timestamp": 1535243216233,
+  "sequence": 2728,
+  "timestamp": 1535244481456,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%TlwqVDD1NngEP8Mc7sWmu4bXaQ6UCkC92XX42eIE0E4=.sha256",
-    "branch": "%dYG18N/i4fxoIYsVy4+a2ljH9m43KVAlsm74fW23IEc=.sha256",
-    "channel": "git-ssb",
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nDamn, that's really cool. I'm a bit skeptical of running any sort of CI suite to test code from others on my personal machine, but I could imagine running it manually on pull requests and sending [status checks](https://help.github.com/articles/about-status-checks/) to verify that `npm test` worked on my machine. The subjectivity makes this super cool, I'm excited to jump in and learn more.",
+    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
+    "branch": "%NndzUr9aR4F3HaFgM++cZGtVo/H8J+090R655MdrEBg=.sha256",
+    "channel": "patchbay",
+    "text": "My concern with hyper-customization at a user level is that users often make mistakes, and that for every person who finds utility in customization there are a dozen people who will accidentally change a setting and `chess_move` will become a pineapple and they'll never understand why. It's possible that working at a cell phone store ruined my optimism, but I'm personally hesitant to add customization unless it's going to be at least a dozen times as useful for those who use it.\n\nWith that said, I think that iconography can be incredibly helpful, and I'd cheerlead the hell out of you if you wanted to put together some sort of recommendation for message types and icons that make sense (maybe with reasonable fallbacks?). For example, I think there would be a lot of utility in standardizing what a \"like\" meant, and *personally* I think I'd prefer something like `👍` over `✓`. Maybe that's an argument for customizable iconography?\n\n![spinning thinking face emoji gif with black background](&pAHkVaI97HQ4WSzElePSoA8Y0RsOvx0xa9t1tSOxUa8=.sha256)\n",
     "mentions": [
       {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
+        "link": "&pAHkVaI97HQ4WSzElePSoA8Y0RsOvx0xa9t1tSOxUa8=.sha256",
+        "name": "spinning thinking face emoji gif with black background",
+        "type": "image/gif",
+        "size": 384168
       }
     ]
   },
-  "signature": "RiKBMHv4vCNTh/ThOrFKhRg96Y5xW3iMHUXtERnAxEoLINP74JxegU80hkjhkrepd/Nh1veXLNeMOi0x9v2qDQ==.sig.ed25519"
+  "signature": "G5N3ZIClrgUxWv5UtfDQJInOECEsdC53zHeFM1a4rLW3UEawTBllvyPWuBY9yJBeaAdxk1jBezNeZ6WSxZCOCg==.sig.ed25519"
 }
