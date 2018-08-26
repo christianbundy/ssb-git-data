@@ -1,18 +1,21 @@
 {
-  "previous": "%uPDtadUcgqHMpCJnyAmppZiLNodY5XHX3RjUUW4hH0o=.sha256",
-  "sequence": 2737,
+  "previous": "%p7mnLYz7Vwt/7ofzpzMZtSbR6I1QTPgBmRwKJMRBbdQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535244990749,
+  "sequence": 2738,
+  "timestamp": 1535245942495,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 10,
-    "root": "%eE7Pfbbjo3ck1R4SaYCpZ70WSRus1cqXbAhvO+rvXc4=.sha256",
-    "orig": "d5",
-    "dest": "f4",
-    "pgnMove": "Nf4",
-    "fen": "1nbqkb1r/1ppppppp/r7/p6P/4PnP1/5P2/PPPP4/RNBQKBNR w KQk - 1 6",
-    "branch": "%H9SBhXq4xos1/f1Rxh88gmeESGA0mwqJsmO+rRX2PJw=.sha256"
+    "type": "post",
+    "root": "%CfEREBinvy0oaDpiNVH5g/jZbc1C7OQh3apJm4a7ajw=.sha256",
+    "branch": "%QwSUTcjBSg3O67qypw14eBveiDMcchBRWSqABGPlz/w=.sha256",
+    "channel": "patchbay",
+    "text": "[@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nI've done that too! I did it in the /notifications page though, and since the filters are hidden I didn't notice it for a few days. \n\nRegarding the privacy icons, I have an idea that I think might translate well:\n\n- Posts that are private but not for you: :lock: \n- Posts that are private and you can read them: :key: or :closed_lock_with_key:\n\nOriginally I was thinking of using :unlock:, but that seems like it might be misunderstood as \"insecure\". Do :lock: and :key: make sense, or am I overcomplicating things?",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      }
+    ]
   },
-  "signature": "WcuArKqrwhft7vs8/ez+COd52ZbWVSEsG9t2Ztepy28AUv8vL0wil9UxmK2tdDpcpumooJMfLXN01Mx69+whCA==.sig.ed25519"
+  "signature": "AqexQG5MEBte6cHV0gfQDdL89FusRCv69VHj+Yj73YIRL5zskO34Q7HPfyOHuJNZ0iNdVgSdsw7gpHzWx8VCAw==.sig.ed25519"
 }
