@@ -1,13 +1,21 @@
 {
-  "previous": "%MI+joegiEqIXT0rjDKY9sRfbQpkWJfsjBCESgRfU2O0=.sha256",
+  "previous": "%s3EXzHddvVQh3TWr6sObDyyRZUaQgOWaYbozsoRxn8Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2726,
-  "timestamp": 1535210804132,
+  "sequence": 2727,
+  "timestamp": 1535243216233,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@hHRQdNeeH8Brs2s7kHXLxlndsEnY9y/NQbRm98Nqc9o=.ed25519",
-    "following": false
+    "type": "post",
+    "root": "%TlwqVDD1NngEP8Mc7sWmu4bXaQ6UCkC92XX42eIE0E4=.sha256",
+    "branch": "%dYG18N/i4fxoIYsVy4+a2ljH9m43KVAlsm74fW23IEc=.sha256",
+    "channel": "git-ssb",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nDamn, that's really cool. I'm a bit skeptical of running any sort of CI suite to test code from others on my personal machine, but I could imagine running it manually on pull requests and sending [status checks](https://help.github.com/articles/about-status-checks/) to verify that `npm test` worked on my machine. The subjectivity makes this super cool, I'm excited to jump in and learn more.",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "N7kBvKxRgF/zlaVMlNPM0Y34IUk+ia2j/l6Mkxia3l6pzCENYDh8sNjs7BM8Raxf0vmJ78DagaFYF2zfmgjzCA==.sig.ed25519"
+  "signature": "RiKBMHv4vCNTh/ThOrFKhRg96Y5xW3iMHUXtERnAxEoLINP74JxegU80hkjhkrepd/Nh1veXLNeMOi0x9v2qDQ==.sig.ed25519"
 }
