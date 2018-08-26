@@ -1,18 +1,17 @@
 {
-  "previous": "%N+Ok4LTg//ASX5laWj3zepmih6S5S1meF20gV9uHAYo=.sha256",
-  "sequence": 2766,
+  "previous": "%OZR8v6rzoWcLdsKdKypkDMnKyLhx8b6/iaHPCfjoesg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535296127288,
+  "sequence": 2767,
+  "timestamp": 1535296208119,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 12,
-    "root": "%tLSMQ0deEYs1nf+AssS/BjRN4sLzfjAfPbVWi+swoGA=.sha256",
-    "orig": "c8",
-    "dest": "d7",
-    "pgnMove": "Bd7",
-    "fen": "rn1qkb1r/p2bpppp/5n2/1B1p4/8/2N5/PPPP1PPP/R1BQK1NR w KQkq - 1 7",
-    "branch": "%0+sxHHNFQ9c9WvkrQ3VxL8JwXM8Wia6XNOtuvWEhllc=.sha256"
+    "type": "vote",
+    "channel": "ssb-clients",
+    "vote": {
+      "link": "%WmXJJ5Wunkz5rKoo9QGiaqHcUJnhIUDM5xZ31ArtgUk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "w7iPAacPuNNa6DhuoxaR/9gxQ+rlLhXcrCg52cniwG03+JcefbxnR8PiYHXqDtNUtrSLNusVy4K1t/9snqWdCw==.sig.ed25519"
+  "signature": "fxNRJcVfWcv4xf37IFdPjgkLZcd/5vs2TIr3roDYLjEy1AnoronkSavLmTZHGaDqZHSROpWmYXP5HKCXH1ykBg==.sig.ed25519"
 }
