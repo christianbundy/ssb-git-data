@@ -1,18 +1,27 @@
 {
-  "previous": "%tRu1IK4FsU5Ri2VvG2xnW91hKpawEOfnfe30ltz08PI=.sha256",
-  "sequence": 2794,
+  "previous": "%msKh5ZkFugaiNuCLw2FmMpd9BOoNUHMYa8KKoFOTwXU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535339300196,
+  "sequence": 2795,
+  "timestamp": 1535381676849,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 26,
-    "root": "%eE7Pfbbjo3ck1R4SaYCpZ70WSRus1cqXbAhvO+rvXc4=.sha256",
-    "orig": "e8",
-    "dest": "d8",
-    "pgnMove": "Kd8",
-    "fen": "1nqk1b1r/2Nppppp/bB1r4/p6P/3PP1P1/5P2/PPPQ4/R3KBNR w KQ - 3 14",
-    "branch": "%eh/8AH00I7RhJ6+JeRij1y99GKWqYSXsnEBbBmM3su0=.sha256"
+    "type": "post",
+    "root": "%InBU14c7KpZ0f7P78mXDd4yKAzSFZwJ/usNI6e1YEds=.sha256",
+    "branch": [
+      "%Lh2Lo4a5ieYgoJ1vHGpin858wrPpDmhd1ja80VpXxF0=.sha256",
+      "%aLWu+pDASFQnhsM9KTZaghDB5HJiYWnVX2MJNbIa9r0=.sha256"
+    ],
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nThanks! I didn't realize it was that simple, I definitely need to familiarize myself with the sbot CLI. Cheers!\n\n[@GOD](@Rgo5WXM9EbFMyf4wiaNuc0ndbLmHUW8uzat2/TxsQTY=.ed25519) \n\nThanks, checking the size of that directory is a good way to tell the storage size of the entire synced network.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@Rgo5WXM9EbFMyf4wiaNuc0ndbLmHUW8uzat2/TxsQTY=.ed25519",
+        "name": "GOD"
+      }
+    ]
   },
-  "signature": "YMDr/OzPCnGrHPhFCTFfvEoFjIscAkTIVaruAG4pZQaqhJOzBbJ1CJUEMF4suPFvv4XbD7LWBenrgHcR6WWzDQ==.sig.ed25519"
+  "signature": "Vake9uR+lnFHA2+CR7HrAIuya3IWBITW4gJcfE1Tgtyanlg7pEk1czJGE+D+7caa67nEtcfKMtJ1NY3/+1HlDg==.sig.ed25519"
 }
