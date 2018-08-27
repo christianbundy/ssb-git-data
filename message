@@ -1,27 +1,17 @@
 {
-  "previous": "%ErgAu/XgM4YC5GVCVRa1RV/5kuDaFVJSTtfc8VaZ+tw=.sha256",
+  "previous": "%rR7Ro1hgpRyY+ReX3nM9fgpyqU+mSUJ/AwTAeBgcOeI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2787,
-  "timestamp": 1535328711593,
+  "sequence": 2788,
+  "timestamp": 1535329739579,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Y18RfktlIIC6uWR9h5ClM14V9MOVSE2t20q81XtDjN4=.sha256",
-    "branch": "%y4cgNk7kdutq9KVV7LZoZRVgaRpCpoC8UA+gWrAXFSk=.sha256",
-    "channel": "patchwork",
-    "text": "Hey [@zebulon](@zODmMDuE9JUtFnf+1GmrrdR/OLsiFRDRc4nacOh8ous=.ed25519)!\n\n1. Currently there's no simple and easy way to search Ctrl+F style. You can right-click and select \"Inspect Element\" and *then* Ctrl+F to access a debugging tool that can do searches, but it's not very user-friendly.\n2. You should be able to add videos to your posts, just add them as an attachment and they should add just fine, it's just that you can't currently embed them inline.\n For example, [this is a video](&c8IzoTdwymvLcSkb6UTTQ0ZEazUXhn3eu2GgUkjFmfg=.sha256).\n3. As far as I know, Ferment is still active, and it's a separate client from Patchwork that runs on the same network. When you start Ferment you'll have the same friends and identity and such, but interface and the types of content you can interact with will be different.\n\nLet me know if I can help with any other questions, I'm *hoping* all of the above info is correct but I don't spend a ton of time on either Patchwork or Ferment.",
-    "mentions": [
-      {
-        "link": "@zODmMDuE9JUtFnf+1GmrrdR/OLsiFRDRc4nacOh8ous=.ed25519",
-        "name": "zebulon"
-      },
-      {
-        "link": "&c8IzoTdwymvLcSkb6UTTQ0ZEazUXhn3eu2GgUkjFmfg=.sha256",
-        "name": "this is a video",
-        "type": "video/mp4",
-        "size": 3027709
-      }
-    ]
+    "type": "vote",
+    "channel": "new-people",
+    "vote": {
+      "link": "%6Ll4XNQz0NQ7M8z6du8XMGY/JNilZKVzIcBzJcthMIg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "FJKW2tMEbSFzYhkkcM+Qj1sUBASVv7eTWyRBpwkBpPMw3B5m7nrhvcb9AKwj0dBTZSIatoV96QimlXG+wqZ+Bg==.sig.ed25519"
+  "signature": "X4dyptVczBfU+rf2w9/QpBaompl245WqKyGfT0hZMGysa4AvjCHX7v455npNDaWGBsYg9dDoFuFvzHbTAkl0CQ==.sig.ed25519"
 }
