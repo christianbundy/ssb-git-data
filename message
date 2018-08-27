@@ -1,9 +1,14 @@
 {
-  "previous": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+  "previous": "%FQccIUTrERcrFDpsyuHrOC1yCDiEehds/k/vLTn1SXg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2816,
-  "timestamp": 1535392843817,
+  "sequence": 2817,
+  "timestamp": 1535393354717,
   "hash": "sha256",
-  "content": "+G1BzjGGzNSnynsDTCeMXitss8Q2IQ3OarBfdljrn+iBDNo43mluBcpDcnfbeatztK4kzPS5hkc9TvHalFmRoA3xxVoaSYZwnXMH6d+C7LpNJe3yxWLfb0s8xFlgXJ9SlBNVO+oNk8Rq0t+7yQZwd/b9P1VYxwevQ+bZvpqXY5dpIt/ABRKHZQr5J2/dh7Ttgo5xizprvCWI52ynzM5OR0+/UtgH/bJrLeBW30lu3/6O9TnyjsHdrwKz8h/l7ftw237K9OmxWNh4v0wCoKsdJOVr/ls3dwXDkIZbEGZWGJExZJUskkwIqH7ZhOKLzqVH1pwU0KFzCtHrUwiFlVTDI37j6rp/2y9R4M4S80vvgctSlHRsbSz4tDmjke/dDDMij+gAdnkjmh5G6ycdgRv7G/cGr/uqtj8DyWFcyXm8mQv3Cav2/bTz4+v6Gi7z4ZRMGKoN/UvQl7rbikmXmjZWMVmAz45wOaleKgtFrdN+ERPJzbh/RqdhkPOqgVW7Zyt7xm6PB9vgXjO4dS6zwpZS/YpLBdFUwBecIpInlESD53ZNyg2YRTRZWyHbKTkeq9dM85O6tAL7jCBCCPT0+lVoygq4BEOfRXb0521kT9HZyzd7iG8cufJiiYlDFEW741VDWr22Y3VghhdN+L1nt3EUvFxXtK66EiXNAmL0uiQiZu2iYqLIyPCu3vjyVantWwr05UaoStEfS2GzpZ7AYoCl67V+IyiX/BA+vDpsMbbHUo2QIPK+a4G/ikn1U5xp7uQi8rI/FOwhtWTGqGbWlKPY+UjOouyvKhvhPU/b8mUmvKg9wmL+qpbMF40CpCrWvbmZG6BpBzPV2jUThfJ/j1T8iK0s3YjIBh8oQhCv5iKros+dylOoj2mawpb4iwYG6OA1SzMZ5xbyb5FtGbHKjdo+OUwgnNawgcmWxy1mes2ZMjkX+7HVPb/+BSZuwuFeywTbWNScOnTqIu3ik4d2vq1YWlIX8id+U6a5hbq+/E6oITQRbpJ1KCVQsdHVJfSwWk61GMXuQiq54WDhz+1VIqKob/YY4IepcobregWsNt/dvuEPMdsXsx9+HXczftgF1XiGwAS6cvp5zP8fQXlc9lUL6omnGmubnE3TEw1OXJ6HsqkAQk2ZV6UzRH3ZJwCAxDA6rvIMzze4sQHb0mp1GQ+pTc8+zCrjCEZKZaCUk7qRbB8nVhdnzEPktbtZ8RFiBHQZigw6M+kQzVWJGIL77heWZ/Old5W2uhgz4ajtoyd8PSeA5ZjrCJvlszBREkeESRjyjDrO5joDGbDI1A==.box",
-  "signature": "i7TzwqT+IutFMk4Ufupykym8Q3vHap76AqIvuQN1d21mJoc/RrUtlVk+X3eDJdqfTSe9CvEOrlaFhHaJWaceDg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "branch": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "text": "Just thought of some other useful stuff for **maximum bikeshedding**:\n\n\n- A reasonable `.editorconfig` file\n- A reasonable `.npmrc` file for those who despise `package-lock.json` (*)\n- A reasonable `.gitignore` to *at least* ignore `node_modules`\n\n(\\*): Personally, I love `package-lock.json` and disagree with the \"only use it on apps, not libraries\", but I'm comfortable being the minority here. I'm currently having trouble just installing scuttlebot and running `npm test`, and I'm bummed there's no lockfile because it would make my debugging *so* much easier if it's a dependency issue."
+  },
+  "signature": "hLv49aNCg8KUHpGuk5pe+1hDT6yqftaaKRGJxceKr5jzLpvf1CNMM9PDNRo8qSZAL63FMUacSTvSDi93cd9ZCw==.sig.ed25519"
 }
