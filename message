@@ -1,14 +1,17 @@
 {
-  "previous": "%FQccIUTrERcrFDpsyuHrOC1yCDiEehds/k/vLTn1SXg=.sha256",
+  "previous": "%3uidHl8uGS2WWzY24C+uUy1jMPKSUUfhFxGGh/CpiqU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2817,
-  "timestamp": 1535393354717,
+  "sequence": 2818,
+  "timestamp": 1535412663534,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
-    "branch": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
-    "text": "Just thought of some other useful stuff for **maximum bikeshedding**:\n\n\n- A reasonable `.editorconfig` file\n- A reasonable `.npmrc` file for those who despise `package-lock.json` (*)\n- A reasonable `.gitignore` to *at least* ignore `node_modules`\n\n(\\*): Personally, I love `package-lock.json` and disagree with the \"only use it on apps, not libraries\", but I'm comfortable being the minority here. I'm currently having trouble just installing scuttlebot and running `npm test`, and I'm bummed there's no lockfile because it would make my debugging *so* much easier if it's a dependency issue."
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%8ZtuuBKFeB9maHTZUMQOUu+ICUmdDbT8hMwvwJb66/8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "hLv49aNCg8KUHpGuk5pe+1hDT6yqftaaKRGJxceKr5jzLpvf1CNMM9PDNRo8qSZAL63FMUacSTvSDi93cd9ZCw==.sig.ed25519"
+  "signature": "AD8EEc+TdW1QQZNn2za3EqsbOS0C2AB9pFmfcC5asjKCJ0rrWLstOLul/3zGDUQ+Tj3+ZdK8qVm8OPc51++bCw==.sig.ed25519"
 }
