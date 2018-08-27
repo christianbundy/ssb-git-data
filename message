@@ -1,17 +1,27 @@
 {
-  "previous": "%LVLOw/oQKjJ4w5pCYHbSStNGaK+DS/+rsRN9Inopd/4=.sha256",
+  "previous": "%UOYoL4rYQOWS0IVUn5LPl69kQVj6JXwurEsf1M5lBGE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2814,
-  "timestamp": 1535390109073,
+  "sequence": 2815,
+  "timestamp": 1535391848906,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchbay",
-    "vote": {
-      "link": "%rV1VkLpJ1GpR5OeGF2vl2kP5iP6SvbC6Az5dWYNX5DQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Style Guide\n\nI've read a *lot* of code throughout the past few weeks, and while I completely empathize with the #against-consensus ( #againstconsensus ) I'm wondering whether we might benefit from some shared and standardized tooling. Specifically, I'd like to propose:\n\n- Supporting *at least* the following Node LTS versions:\n  - latest (10)\n  - active (8)\n- Using ESLint with *at least* the recommended defaults \n- Ensuring that `npm test` succeeds, potentially with a `.travis.yml` (or eventually #ssb-ci)\n- Ensuring that all repositories and their dependencies have compatible licenses\n\nAnd, in the interest of sharing my biases, here are my *personal preferences* that I'm **not proposing**:\n\n- Using Babel to use the latest JavaScript without worrying about old compatibility\n- Using [AirBnb's style guide](https://github.com/airbnb/javascript)\n- Using the same license in all repositories for maximum consistency\n\nI'd love to hear whether others have opinions on the first list, or whether agreeing to some defaults is too consensus-y for you wonderful rascals. I'd be happy to work on any of this, as my work at $dayjob is mostly infrastructure work and the devops-y work is really enjoyable for me. Looking forward to input!\n\n![hermes thank you](&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256) ",
+    "mentions": [
+      {
+        "link": "#against-consensus"
+      },
+      {
+        "link": "#againstconsensus"
+      },
+      {
+        "link": "#ssb-ci"
+      },
+      {
+        "link": "&Tf8ZIWfFMal0Hkj+C81dA9EGEUN7nNxWBu0Jpila4YE=.sha256",
+        "name": "hermes thank you"
+      }
+    ]
   },
-  "signature": "jxqOiuNN0ZxkwGJdooWaPlVqI17j78JB2N1bR/MZK23bxfX1E0W6NRTGGYKJpxhCPNKJ1HYokSpHusN17MeUDg==.sig.ed25519"
+  "signature": "vQfzdvj3eXmYhX6eRES7yzkC4aOiDTU4pwUXIdT6k//jBve8EpOoxzWH4/O9gRLwjKS89HhSJQdDeKY35vTmAQ==.sig.ed25519"
 }
