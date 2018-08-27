@@ -1,27 +1,17 @@
 {
-  "previous": "%msKh5ZkFugaiNuCLw2FmMpd9BOoNUHMYa8KKoFOTwXU=.sha256",
+  "previous": "%jjbcSZLe9LlkvALm5vIHTs7ukZqCAdAFvbwRAGmlD70=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2795,
-  "timestamp": 1535381676849,
+  "sequence": 2796,
+  "timestamp": 1535381686081,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%InBU14c7KpZ0f7P78mXDd4yKAzSFZwJ/usNI6e1YEds=.sha256",
-    "branch": [
-      "%Lh2Lo4a5ieYgoJ1vHGpin858wrPpDmhd1ja80VpXxF0=.sha256",
-      "%aLWu+pDASFQnhsM9KTZaghDB5HJiYWnVX2MJNbIa9r0=.sha256"
-    ],
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nThanks! I didn't realize it was that simple, I definitely need to familiarize myself with the sbot CLI. Cheers!\n\n[@GOD](@Rgo5WXM9EbFMyf4wiaNuc0ndbLmHUW8uzat2/TxsQTY=.ed25519) \n\nThanks, checking the size of that directory is a good way to tell the storage size of the entire synced network.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "@Rgo5WXM9EbFMyf4wiaNuc0ndbLmHUW8uzat2/TxsQTY=.ed25519",
-        "name": "GOD"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%EI0Nfjusukw/q1IzqVt3XQcJgdb1o0z9GTH+U3MFPBk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Vake9uR+lnFHA2+CR7HrAIuya3IWBITW4gJcfE1Tgtyanlg7pEk1czJGE+D+7caa67nEtcfKMtJ1NY3/+1HlDg==.sig.ed25519"
+  "signature": "F8Gp7YtMHBn0c18VDr3KGpzqz247kWYT4PBKjoqLVbFncviHQ+dk2mS6iPWfr19VdMPgQx1KesexS1fGc4npDg==.sig.ed25519"
 }
