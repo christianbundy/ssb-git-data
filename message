@@ -1,18 +1,27 @@
 {
-  "previous": "%waJKXl0sbHcmXtnSKb6uTrmPRk/6RgQYbNfEueNbPQw=.sha256",
-  "sequence": 2786,
+  "previous": "%ErgAu/XgM4YC5GVCVRa1RV/5kuDaFVJSTtfc8VaZ+tw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535327656624,
+  "sequence": 2787,
+  "timestamp": 1535328711593,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 14,
-    "root": "%tLSMQ0deEYs1nf+AssS/BjRN4sLzfjAfPbVWi+swoGA=.sha256",
-    "orig": "d8",
-    "dest": "b6",
-    "pgnMove": "Qb6",
-    "fen": "rn2kb1r/p2bpppp/1q3n2/1B1p4/3P4/2N5/PPP2PPP/R1BQK1NR w KQkq - 1 8",
-    "branch": "%DqjNlfqE2zR+AosPApmOJBLpsLJKh5xBNpXXa6s+MlU=.sha256"
+    "type": "post",
+    "root": "%Y18RfktlIIC6uWR9h5ClM14V9MOVSE2t20q81XtDjN4=.sha256",
+    "branch": "%y4cgNk7kdutq9KVV7LZoZRVgaRpCpoC8UA+gWrAXFSk=.sha256",
+    "channel": "patchwork",
+    "text": "Hey [@zebulon](@zODmMDuE9JUtFnf+1GmrrdR/OLsiFRDRc4nacOh8ous=.ed25519)!\n\n1. Currently there's no simple and easy way to search Ctrl+F style. You can right-click and select \"Inspect Element\" and *then* Ctrl+F to access a debugging tool that can do searches, but it's not very user-friendly.\n2. You should be able to add videos to your posts, just add them as an attachment and they should add just fine, it's just that you can't currently embed them inline.\n For example, [this is a video](&c8IzoTdwymvLcSkb6UTTQ0ZEazUXhn3eu2GgUkjFmfg=.sha256).\n3. As far as I know, Ferment is still active, and it's a separate client from Patchwork that runs on the same network. When you start Ferment you'll have the same friends and identity and such, but interface and the types of content you can interact with will be different.\n\nLet me know if I can help with any other questions, I'm *hoping* all of the above info is correct but I don't spend a ton of time on either Patchwork or Ferment.",
+    "mentions": [
+      {
+        "link": "@zODmMDuE9JUtFnf+1GmrrdR/OLsiFRDRc4nacOh8ous=.ed25519",
+        "name": "zebulon"
+      },
+      {
+        "link": "&c8IzoTdwymvLcSkb6UTTQ0ZEazUXhn3eu2GgUkjFmfg=.sha256",
+        "name": "this is a video",
+        "type": "video/mp4",
+        "size": 3027709
+      }
+    ]
   },
-  "signature": "7yhn0dxME+H8X7LmdgNOjFy2Koi9yGZv9M9/g5HqFgJ/lKy5MzFIW6tKU/FdYCzN4CS+zTtO87pQJ7gHWm4ZCg==.sig.ed25519"
+  "signature": "FJKW2tMEbSFzYhkkcM+Qj1sUBASVv7eTWyRBpwkBpPMw3B5m7nrhvcb9AKwj0dBTZSIatoV96QimlXG+wqZ+Bg==.sig.ed25519"
 }
