@@ -1,18 +1,18 @@
 {
-  "previous": "%Xkxl9cvzekfIVIKyN9wWfX47JP7iKwN7Ks8dr8Alf8c=.sha256",
+  "previous": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+  "sequence": 2821,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2820,
-  "timestamp": 1535414459475,
+  "timestamp": 1535414533625,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)\n\nI've been spending a bunch of time with MCSS and after playing around with the tokenizer I've got a huge tokenized object that I'd like to translate back into MCSS. Is there a way to do that? I was able to ~~steal~~ borrow some functions from `index.js` to take the tokenized object as input and produce CSS, but I'm having trouble taking the tokenized object as input and turning it back into MCSS.\n\nIs there a reasonable way to do this, or have I entered the void of mayhem and confusion?",
-    "mentions": [
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 6,
+    "root": "%5ks3TUKPqPpMay2TzJT9odmod52iG6crbp4+4DRH+i4=.sha256",
+    "orig": "f8",
+    "dest": "g7",
+    "pgnMove": "Bg7",
+    "fen": "rnbqk1nr/pppp1pbp/4p1p1/8/8/1PN5/PBPPPPPP/R2QKBNR w KQkq - 2 4",
+    "branch": "%1CGW2hvsGwdPD57g+rgQY828gDVEMZYg7C0pq80UsyM=.sha256"
   },
-  "signature": "Vz/6Gg8+bxV2ZA+wrsaMKJCanmDDe/ccf38Wrt17wfk/tGkqm21jxrZl+0I2rQXCir46OKR8bS6AlvPqVA77Ag==.sig.ed25519"
+  "signature": "705ttc4EMUtQuALqYHJdfWt6BUgTmlR98BT3Twf9zIef9Sh5uDei5K5q0dkY1cTpnC1OZIo6QfPQ4eYzmW40AQ==.sig.ed25519"
 }
