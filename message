@@ -1,18 +1,34 @@
 {
-  "previous": "%DHIQoeMup0v4Lpu6Rh1wPpl2gawbfBzxnJRG6toowlw=.sha256",
-  "sequence": 2838,
+  "previous": "%42R69394ByPZMc5nlLbSDfiiJRqfczEvV/6gBUEWaKI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535474446065,
+  "sequence": 2839,
+  "timestamp": 1535482581240,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 51,
-    "root": "%Sp6M7Ip4euVp71N4kPmziW25UyBHCuIDyj7VKlJ4y3k=.sha256",
-    "orig": "e1",
-    "dest": "h1",
-    "pgnMove": "O-O",
-    "fen": "rn4k1/3n2pp/1p1R4/p3p3/6pP/r1P1N1N1/5PP1/5RK1 b - - 1 26",
-    "branch": "%5fD02aS/UXWnh5lJ7hJ85lrmq7k18J8fPRJwxvfC2+Q=.sha256"
+    "type": "post",
+    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+    "branch": "%jQa/bhzRosU2UN7YGY78OiBOji/0MP+EuTvSOBHmxbM=.sha256",
+    "reply": {
+      "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%jQa/bhzRosU2UN7YGY78OiBOji/0MP+EuTvSOBHmxbM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Update: extracted the common base code from both themes, diffed both themes against the base, improved the hell out of the MCSS token serializer, and squashed a bunch of bugs. Here are the remaining bugs (that I've noticed):\n\n- `.ChannelList > a.channel.-subscribed` shouldn't have a repeating background.\n- `.ProfileList > a.profile.-following` shouldn't have a repeating background.\n- `Markdown > p > a > img` shouldn't render full-size, it should scale to the container width.\n\n![improved light theme home.png](&McWWggcc3dtAjwOB68Ywq71C2hH9TpzUigA4rATyL/Q=.sha256)\n\n![improved dark theme home.png](&gFsD+xkIHxcN+ZcFBTL+KLPD5aCMUmx2qSHT9Z4IHDI=.sha256)\n ",
+    "mentions": [
+      {
+        "link": "&McWWggcc3dtAjwOB68Ywq71C2hH9TpzUigA4rATyL/Q=.sha256",
+        "name": "improved light theme home.png",
+        "type": "image/png",
+        "size": 255204
+      },
+      {
+        "link": "&gFsD+xkIHxcN+ZcFBTL+KLPD5aCMUmx2qSHT9Z4IHDI=.sha256",
+        "name": "improved dark theme home.png",
+        "type": "image/png",
+        "size": 394477
+      }
+    ]
   },
-  "signature": "rCkyKfl0lZ9VOZGVXboLaCsv47Gh8P8p1t7bhITVl3KCsTiYUZvSOKbdQd01ge98oGLMlKWHpYgOQQtX1d9xDQ==.sig.ed25519"
+  "signature": "GkiPsC7hP61QCDG+Wy5gIFSmEOE7MfFRyxE0o9fN6ljx8BASwKSjHvu10MFcNapQaQJ6brkdMcHPiPk8BqysBQ==.sig.ed25519"
 }
