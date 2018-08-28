@@ -1,18 +1,18 @@
 {
-  "previous": "%0V5XZSOy1TBKEUYkI0YzLgpfuJXT7ifoInlkZYA58u8=.sha256",
-  "sequence": 2819,
+  "previous": "%Xkxl9cvzekfIVIKyN9wWfX47JP7iKwN7Ks8dr8Alf8c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535412770079,
+  "sequence": 2820,
+  "timestamp": 1535414459475,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 41,
-    "root": "%Sp6M7Ip4euVp71N4kPmziW25UyBHCuIDyj7VKlJ4y3k=.sha256",
-    "orig": "d2",
-    "dest": "c4",
-    "pgnMove": "Nxc4",
-    "fen": "rn3rk1/2bn2pp/1p6/p2Pp1p1/P1N5/2P3N1/5PPP/3RK2R b K - 0 21",
-    "branch": "%DLEuVmuKKQMCO1Zr2oHfVVDAhDlM0HHeqi3UxfTbAvc=.sha256"
+    "type": "post",
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)\n\nI've been spending a bunch of time with MCSS and after playing around with the tokenizer I've got a huge tokenized object that I'd like to translate back into MCSS. Is there a way to do that? I was able to ~~steal~~ borrow some functions from `index.js` to take the tokenized object as input and produce CSS, but I'm having trouble taking the tokenized object as input and turning it back into MCSS.\n\nIs there a reasonable way to do this, or have I entered the void of mayhem and confusion?",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "flcKeNXlSrGBF7Qj2JwQ7UKYzDMXEbljCdhpmHOnYNDeQJeqaHohsDSQyHeJjmNLm9/fSFViwYJsxzo5IbVeDw==.sig.ed25519"
+  "signature": "Vz/6Gg8+bxV2ZA+wrsaMKJCanmDDe/ccf38Wrt17wfk/tGkqm21jxrZl+0I2rQXCir46OKR8bS6AlvPqVA77Ag==.sig.ed25519"
 }
