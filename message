@@ -1,28 +1,16 @@
 {
-  "previous": "%Jqz8ISNr6Zdz9dpZ18jyIxX6fzWPKJUUoVYtQVLVRVo=.sha256",
+  "previous": "%jQa/bhzRosU2UN7YGY78OiBOji/0MP+EuTvSOBHmxbM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2827,
-  "timestamp": 1535468232401,
+  "sequence": 2828,
+  "timestamp": 1535472921807,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
-    "branch": "%ycRZeISQeMemNrVFN/b1n19dqKr9IiBcreYsE1e9Zog=.sha256",
-    "reply": {
-      "%ycRZeISQeMemNrVFN/b1n19dqKr9IiBcreYsE1e9Zog=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-      "%Jqz8ISNr6Zdz9dpZ18jyIxX6fzWPKJUUoVYtQVLVRVo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Strike that, it looks like there are deeper issues. I'm wondering whether maybe it'd be more wise to extract the shared MCSS between the themes as a base, so that the dark theme is `base + diffDark` and the light theme is `base + diffLight`, that way the light theme doesn't bleed through into the dark theme. Anyway, the detokenizer (?) seems to be working great, it's just the object manipulation that needs some work.\n\n![broken diffDark theme](&vIqtvg5Ph8abvjmq2Gnwvci4kv1rYc24kme5oVlM0Zc=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&vIqtvg5Ph8abvjmq2Gnwvci4kv1rYc24kme5oVlM0Zc=.sha256",
-        "name": "broken diffDark theme",
-        "type": "image/png",
-        "size": 793128
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%TtZbf/jSsJQe8MgeNwAIThS3E5rUhsDR5iOEuIFId4I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RiPmGcAiR2V+e8uaEHrnuMe80SE9hnPB1DVd8UAA1QkCZtqxF1NNqqX0QSXIpNU9lpQrnlPICrRcYmggaw+uBg==.sig.ed25519"
+  "signature": "p+dvreggTVVDUO4vcGQFaiG8BdGIxTY256TxJ1HyJpPHPi/0VXL71t1oWkox3MZl+04OdqlbFCHVEBqaivViBQ==.sig.ed25519"
 }
