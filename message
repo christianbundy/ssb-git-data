@@ -1,34 +1,21 @@
 {
-  "previous": "%42R69394ByPZMc5nlLbSDfiiJRqfczEvV/6gBUEWaKI=.sha256",
+  "previous": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2839,
-  "timestamp": 1535482581240,
+  "sequence": 2840,
+  "timestamp": 1535483639845,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
-    "branch": "%jQa/bhzRosU2UN7YGY78OiBOji/0MP+EuTvSOBHmxbM=.sha256",
+    "branch": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
     "reply": {
       "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%jQa/bhzRosU2UN7YGY78OiBOji/0MP+EuTvSOBHmxbM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Update: extracted the common base code from both themes, diffed both themes against the base, improved the hell out of the MCSS token serializer, and squashed a bunch of bugs. Here are the remaining bugs (that I've noticed):\n\n- `.ChannelList > a.channel.-subscribed` shouldn't have a repeating background.\n- `.ProfileList > a.profile.-following` shouldn't have a repeating background.\n- `Markdown > p > a > img` shouldn't render full-size, it should scale to the container width.\n\n![improved light theme home.png](&McWWggcc3dtAjwOB68Ywq71C2hH9TpzUigA4rATyL/Q=.sha256)\n\n![improved dark theme home.png](&gFsD+xkIHxcN+ZcFBTL+KLPD5aCMUmx2qSHT9Z4IHDI=.sha256)\n ",
-    "mentions": [
-      {
-        "link": "&McWWggcc3dtAjwOB68Ywq71C2hH9TpzUigA4rATyL/Q=.sha256",
-        "name": "improved light theme home.png",
-        "type": "image/png",
-        "size": 255204
-      },
-      {
-        "link": "&gFsD+xkIHxcN+ZcFBTL+KLPD5aCMUmx2qSHT9Z4IHDI=.sha256",
-        "name": "improved dark theme home.png",
-        "type": "image/png",
-        "size": 394477
-      }
-    ]
+    "text": "Fixed the image width issue by making sure we respect `(deep)` styles, but I'm not sure what the serializer is doing that's breaking those two backgrounds. I'm a bit shocked that this is actually working so well, maybe it'll end up being useful after all!",
+    "mentions": []
   },
-  "signature": "GkiPsC7hP61QCDG+Wy5gIFSmEOE7MfFRyxE0o9fN6ljx8BASwKSjHvu10MFcNapQaQJ6brkdMcHPiPk8BqysBQ==.sig.ed25519"
+  "signature": "jPnkko+opZwz/o17tTmkBG7yUmVdyfwbwSOFnRyQ/BX6ZbwMZKXeD/gmXNTJkasl3cesTkpZq8iO+KmgnolRDw==.sig.ed25519"
 }
