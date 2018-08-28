@@ -1,21 +1,18 @@
 {
-  "previous": "%ws8Ozt84nVpLpgBRdUagD4ZGO+9lZjeD8aYBolGnFPg=.sha256",
+  "previous": "%qLFtm5cDUE261Tp0zOXjyQfT/KtipvhkZaBhXxW0GD8=.sha256",
+  "sequence": 2845,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2844,
-  "timestamp": 1535485883991,
+  "timestamp": 1535485986339,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%QhLDRGATkeKa2NMEMHLXD2EXw3k9ZzJhl3bZ7sEOToc=.sha256",
-    "branch": "%Z3povBC7J+s+ktLzI10ADS185PDh6hmoWL1l53PLFBo=.sha256",
-    "channel": "ssb-webify",
-    "text": "[@austin](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nThat's my understanding as well. My original goal was to create a platform for cryptography tools (like a Bitcoin wallet generator) that wouldn't actually use any local storage, but I suppose you could encrypt the storage with a key (maybe passed via a query parameter?). I suppose you probably don't want your private key in your web history, but the only alternative I can think of is manually copy and pasting your key each time you load the app. That sucks too.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "austin"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 55,
+    "root": "%Sp6M7Ip4euVp71N4kPmziW25UyBHCuIDyj7VKlJ4y3k=.sha256",
+    "orig": "f1",
+    "dest": "d1",
+    "pgnMove": "Rd1",
+    "fen": "r5k1/3n2pp/1pn1R3/p3p3/6pP/2r1N1N1/5PP1/3R2K1 b - - 3 28",
+    "branch": "%iCF+nteMqjAOZ1aJjpXj/Fq8LiZd5uTZ2L4rromG8sg=.sha256"
   },
-  "signature": "LMTNuwmKVmP6EotrUmbjI6wRVDfgfOcXhtilvIPO5EvmsOr58CvcmLojZabKNoz7yrJm5ODCKdOCr9QszfPKDA==.sig.ed25519"
+  "signature": "4D61ZfojBp6gDEH3PYm/aW/aT4bRLsbmFsLttfRHiDYKJNmjMoJJldWU6s4oVfHa8myVWXJp6kjavfQW0qhrCQ==.sig.ed25519"
 }
