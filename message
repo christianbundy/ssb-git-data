@@ -1,18 +1,14 @@
 {
-  "previous": "%qDam4E5xJVW+IbswG8kgVXETHN1fKGhhHa5tAVlu2f8=.sha256",
-  "sequence": 2823,
+  "previous": "%Rin+KrWxdm1oqWPsRKe2WFQTlMCJz4REVVwpI3KEml0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535414669809,
+  "sequence": 2824,
+  "timestamp": 1535426956300,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 30,
-    "root": "%eE7Pfbbjo3ck1R4SaYCpZ70WSRus1cqXbAhvO+rvXc4=.sha256",
-    "orig": "d6",
-    "dest": "e6",
-    "pgnMove": "Rxe6",
-    "fen": "1nq1kb1r/3ppppp/bB2r3/Q6P/3PP1P1/5P2/PPP5/R3KBNR w KQ - 0 16",
-    "branch": "%r5ZEyu2B+HKg3bgAZwpAB1g9QKl/PDLK1PoNiywcDo4=.sha256"
+    "type": "post",
+    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+    "branch": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+    "text": "I'm not proud of this, but it seems to work fine-ish for now so I want to share what I've tried so far. It doesn't seem completely broken but I'm not very confident that it's working correctly.\n\n```js\nmodule.exports = (tokens) => {\n  let result = '';\n\n  const print = (text) => {\n    result += text;\n  };\n\n  const walk = (obj, cb) => {\n    Object.keys(obj).forEach((key) => {\n      if (obj[key]) {\n        if (key === 'objects' || key === 'flags' || key === 'pseudos' || key === 'entities' || key === 'elements' || key === 'mixins') {\n          cb(obj[key], cb);\n        } else if (key === 'rules') {\n          Object.keys(obj[key]).forEach((rule) => {\n            const value = obj[key][rule];\n            if (value !== undefined) {\n              print(`${rule}: ${value};\\n`);\n            }\n          });\n        } else {\n          print(`${key} {\\n`);\n          cb(obj[key], cb);\n          print('}\\n');\n        }\n      }\n    });\n  };\n\n  walk(tokens, walk);\n  return result;\n};\n```"
   },
-  "signature": "sgB7Xt1D+AgDs8UmPdtQCn8wALmqGp9RNsA7jc4fv4zWzshbJcLfozgSyaN6d74fNABQfYr1wETV4GACrnxOAQ==.sig.ed25519"
+  "signature": "0bb96tnZ2F8aIuaDYsGRSVY+seFchuA74JlY0yZHdiskuhGXW+dR+q3ReneebqLN/H8yQ05M6jB0DfpBr/JiAA==.sig.ed25519"
 }
