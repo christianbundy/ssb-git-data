@@ -1,21 +1,28 @@
 {
-  "previous": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
+  "previous": "%AwNevGqGpVzkYl2mE8dFGpd7qq2AJK8AVicPoKjLqOc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2840,
-  "timestamp": 1535483639845,
+  "sequence": 2841,
+  "timestamp": 1535483741997,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
-    "branch": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
+    "root": "%QhLDRGATkeKa2NMEMHLXD2EXw3k9ZzJhl3bZ7sEOToc=.sha256",
+    "branch": "%kDRJOaZYyqxm+5wlT9MQwaLh+zo1wTLZyunxnHM0wdA=.sha256",
     "reply": {
-      "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%QhLDRGATkeKa2NMEMHLXD2EXw3k9ZzJhl3bZ7sEOToc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+      "%kDRJOaZYyqxm+5wlT9MQwaLh+zo1wTLZyunxnHM0wdA=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
     },
-    "channel": null,
+    "channel": "ssb-webify",
     "recps": null,
-    "text": "Fixed the image width issue by making sure we respect `(deep)` styles, but I'm not sure what the serializer is doing that's breaking those two backgrounds. I'm a bit shocked that this is actually working so well, maybe it'll end up being useful after all!",
-    "mentions": []
+    "text": "I've been experimenting with something similar via #local-first web apps that *seem* to run in SSB clients just fine (ish): %CYxZgX11r81iSGfHQ+C5xD8wW27KLM+ETGB8+qQrDI8=.sha256",
+    "mentions": [
+      {
+        "link": "#local-first"
+      },
+      {
+        "link": "%CYxZgX11r81iSGfHQ+C5xD8wW27KLM+ETGB8+qQrDI8=.sha256"
+      }
+    ]
   },
-  "signature": "jPnkko+opZwz/o17tTmkBG7yUmVdyfwbwSOFnRyQ/BX6ZbwMZKXeD/gmXNTJkasl3cesTkpZq8iO+KmgnolRDw==.sig.ed25519"
+  "signature": "CvOVANx7Eydn5FBKUc7VDqLHjs0cx6b6HtXAvlBlhsITUVxns1RbK57qCCT7PvGTqRUHA+REULPYtzjNH/ieDQ==.sig.ed25519"
 }
