@@ -1,23 +1,9 @@
 {
-  "previous": "%QWJATOuN0mVyp/A7vJyWyh7At6aV7aZobMjfDZubYRc=.sha256",
+  "previous": "%p41LfBgYpVqd3c/yTsDWf8Phvb8/rG1f9cQyqiEEPHQ=.sha256",
+  "sequence": 2832,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2831,
-  "timestamp": 1535473331843,
+  "timestamp": 1535473541824,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
-    "branch": [
-      "%TtZbf/jSsJQe8MgeNwAIThS3E5rUhsDR5iOEuIFId4I=.sha256",
-      "%n9Oy5ZDm2D3g5/q+wKSLus8o40NdL2Owrv6ZP1TqtfM=.sha256"
-    ],
-    "text": "Hell yeah, input! I'm not sure the best way to reply, so I'll just steal [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)'s style and go for the bullet points:\n\n- **\"Make a PR to add one of these tools\":** This was originally my plan, but I wanted to start the conversation *before* opening a bunch of PRs so that we wouldn't end up with another piecemeal setup.\n- **ESLint:** `standard` uses ESLint under the hood (and is more strict than ESLint defaults) so I don't mean to remove or replace it. I'm personally a fan of [including it in `.eslintrc.js`](https://github.com/ssbc/patchbay/blob/master/.eslintrc.js) so we can use other ESLint features later, but my main goal is to standardize on one linter (i.e. not JSLint/JSHint) rather than pick out a style guide.\n- **License compatibility:** not my favorite either, but I noticed that some of our dependencies aren't even licensed as open-source which isn't great. \n- **`.npmrc`:** basically you make a file with the text `package-lock=false` and NPM will respect the policy instead of having to deal with it every time someone new makes a PR that includes the lockfile. I'm not a fan of the \"no lockfile\" policy, but I think we should at least codify it rather than have to remove it from PRs.\n- **`.editorconfig`:** This solves the silliest of issues so that your editor conforms to the style of the repo instead of your personal defaults. For example, it's useful when receiving code from contributors who use editors that use different:\n  - line-endings (CR, LF, or CRLF)\n  - EOL newlines (0 or 1)\n  - indentation (tabs, 1 space, 2 spaces, 4 spaces, etc)\n\nAlso, anyone have strong opinions on automatic commit testing with `.travis.yml`? I love continuous integration and automated processes, but I'm hesitant to increase our dependence on for-profit SaaS products.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
-  },
-  "signature": "SxfQ9nfv1FjkUAS4qSyZrKYt2Ojd2JhbxdVwo3D7sff5PJuwZTsvEkegvk3WciMmsja8/llRyB99NCKvt8D/BA==.sig.ed25519"
+  "content": "go8VltY4hdGqeg5a7ecVMDM+MPDKW4AQ73RHuBzf98LctHWmknd4OeZNB+QmPZs7oHCLAEd7en4MzKgWUsqoRfQXL78cBlmxNZEjSN3+Tr9p8VXKOLA5y1FDW1M/Zhz3RHSF6EEP6E1lzofp58lBSePvXOfhBGSYjdKA+FigaeQnXyP3Txr23wTzGK+i50Op36fQCpIcINuWh/9OvLfb4svxb+qaPY8y9zXg7EhnG50aeELxhcTQyzarGvII+F7azeYTiBVC2Y6IqolHCKG25xk6nGjScvr0MomFTD+Qh9+X56fyuoX+g6KyuekdNHvBMWgUmgxEbLJj5P3I0r8bV08DI4BFBo8sRYrwfbYIkqOeykXVq7SwYxvSMxbngxLafRw=.box",
+  "signature": "y1ZVYKV9cDGEpXk4/PoqO7xVDU7oxpMiWIkDJjvHStbiSfBzzkxpW+Dpx7QC1cCX0cE+eJZvVsTMkPjnyrlZAw==.sig.ed25519"
 }
