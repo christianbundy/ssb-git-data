@@ -1,20 +1,16 @@
 {
-  "previous": "%kbqgw8WbjiS8cM0FOS6i7kdobFAEoL5b2Q0c8L17R4E=.sha256",
+  "previous": "%QAg5YbBqSDUweSRdD8M9x8ukL+J1wreRD7A4ffY+6nM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2852,
-  "timestamp": 1535554217007,
+  "sequence": 2853,
+  "timestamp": 1535554227092,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
-    "branch": "%gjN9fq6GoFjtART2lLJYrZMeUWP9qf4UPue45bQ/8/s=.sha256",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks! I stopped updating this thread but the detokenizer (serializer?) [seems solid](https://github.com/mmckyoegg/micro-css/pull/3) and after fixing that `background` issue manually I haven't been able to find any new bugs.\n\nOof. I was trying out the [the style of git-ssb](https://github.com/noffle/git-ssb-intro#alternative-collaboration-without-forks) but it looks like I forgot to change my Git `origin`. I've renamed my branch `diff-themes` and pushed to the correct Git remote. :sweat_smile: ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%CajdmGiNK8f8TvhrVznUSOYOkxYQ1IBXQOtqNy+bC2E=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ArBXgEQej337Mn35+FgmRK23v8PeWY7nE24W70DqMgN4cctQ4KnzB+Qjyh9vc7n5O2Nj8ZBn+8o0yDHbJEndDQ==.sig.ed25519"
+  "signature": "z9lcowc+5p14CXvf4W2if37u9sm/9GIblGpOIS9RP7+rWX/Gtf7/uH9OLYWrF4616+N3QNREcW+RqYpr4RXiCg==.sig.ed25519"
 }
