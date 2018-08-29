@@ -1,18 +1,20 @@
 {
-  "previous": "%8EoyncmjtUo/Dwdi9+qVHwWZM5j8LwZ6I/NKid8NMHg=.sha256",
-  "sequence": 2851,
+  "previous": "%kbqgw8WbjiS8cM0FOS6i7kdobFAEoL5b2Q0c8L17R4E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535503552156,
+  "sequence": 2852,
+  "timestamp": 1535554217007,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 57,
-    "root": "%Sp6M7Ip4euVp71N4kPmziW25UyBHCuIDyj7VKlJ4y3k=.sha256",
-    "orig": "e6",
-    "dest": "d6",
-    "pgnMove": "Red6",
-    "fen": "r7/3n1kpp/1pnR4/p3p3/6pP/2r1N1N1/5PP1/3R2K1 b - - 5 29",
-    "branch": "%/b7uyno9+aSfIcld8DVC/rCaxC5+0B9m973V621PR7w=.sha256"
+    "type": "post",
+    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+    "branch": "%gjN9fq6GoFjtART2lLJYrZMeUWP9qf4UPue45bQ/8/s=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks! I stopped updating this thread but the detokenizer (serializer?) [seems solid](https://github.com/mmckyoegg/micro-css/pull/3) and after fixing that `background` issue manually I haven't been able to find any new bugs.\n\nOof. I was trying out the [the style of git-ssb](https://github.com/noffle/git-ssb-intro#alternative-collaboration-without-forks) but it looks like I forgot to change my Git `origin`. I've renamed my branch `diff-themes` and pushed to the correct Git remote. :sweat_smile: ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "ogze9y+EzD07K97gZdrqVcQ39rAD8D0sDMXtzrZYh2KY4j8IYLf9oVUGkeqTEFtRyC505IlAeK3jCnvwiQaRDg==.sig.ed25519"
+  "signature": "ArBXgEQej337Mn35+FgmRK23v8PeWY7nE24W70DqMgN4cctQ4KnzB+Qjyh9vc7n5O2Nj8ZBn+8o0yDHbJEndDQ==.sig.ed25519"
 }
