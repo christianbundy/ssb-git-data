@@ -1,16 +1,17 @@
 {
-  "previous": "%Rm1grukcPPiYbxjMbvx0DMg2UnCxkb69ugl8aGQ7XgA=.sha256",
+  "previous": "%inJP7hh91JeKZZ+tGnqkNZ5HBJDZW70Dc7sl9T0h9DE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 2980,
-  "timestamp": 1535659059433,
+  "sequence": 2981,
+  "timestamp": 1535660255929,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%tkAqrc1g2WmideWQHMm1T1hw5dSdJvnG9L3pULKTOgs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%z89snWh9cSDw9BsZBwJ0iNuAeM0laURdK+9yvyD1OUc=.sha256",
+    "branch": [
+      "%i4RXsWV43p8jhokmlF69mCm751uRjOQX17Sm/alp1lA=.sha256",
+      "%tkAqrc1g2WmideWQHMm1T1hw5dSdJvnG9L3pULKTOgs=.sha256"
+    ],
+    "text": "I absolutely agree. I think there are about three local maximas:\n\n- **Infinitely permissive:** Rob Landley makes the point in his [Toybox talk(s)](http://landley.net/toybox/about.html) that some forms of copyleft are incompatible with other forms of copyleft, and that since copyleft licenses aren't universal donors that we should use ultra-permissive licenses. Drama ensued when the OSI approved my [Free Public License](https://opensource.org/licenses/FPL-1.0.0) that was exactly the same as the \"0BSD\" approved by SPDX, but that's neither here nor there.\n- **Open source:** Lots of people care about the term \"open source\" and struggle with non-compliance with the OSD, so we can gain a lot of traction by pushing for OSD-compliant licences like the AGPL even when companies like Google won't touch them with a googol and a half foot pole.\n- **Copyfarleft:** If you take the Google versus AGPL scenario to its logical extreme, it becomes clear that there's no promise that the OSD will save us. Maybe we'll find a healthy place with a permissive or open source license, but if the tech industry continues to avoid open source copyleft then we'll likely drop the \"open source\" bit and build software for people who cooperate with us.\n\nRegardless, it seems that MIT + \"no ICE collaborators\" has a questionable impact, although given that **we're here discussing this right now** maybe the impact is bigger than I'd have guessed. There are no clear answers, but at least we live in interesting times."
   },
-  "signature": "ZFxEsSbGRx7HyGRdjnRw9ojM88TSx+w95AjL2U4gy36hxkFz0QeqqtI1BDQlM7FBlPNlMaNqrOoxbHcJLSvRAA==.sig.ed25519"
+  "signature": "FoGm1GjZJS/idZQ7m5MRScLwMgyObEpiCfUD1bR2nKVyHPzRYzkXWVOJTTpGxwfGam6W7m6SP1t01ttyEhX9BA==.sig.ed25519"
 }
