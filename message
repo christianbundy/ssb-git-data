@@ -1,18 +1,45 @@
 {
-  "previous": "%NeFIOJTZjB/EYXjBrS7faQy+5Ry4o01Nkro7237XciA=.sha256",
-  "sequence": 3118,
+  "previous": "%ZD4iTNTaKFOyuXvnNKy3xbzkubKt0qGEsAXg/T9s9I0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535747282553,
+  "sequence": 3119,
+  "timestamp": 1535747633894,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 19,
-    "root": "%ir25VKSsbJqhtBOnokLaQwtZZ3Bnbfpp3216T5kU47s=.sha256",
-    "orig": "h4",
-    "dest": "g3",
-    "pgnMove": "Qg3",
-    "fen": "r2qk2r/pp1bbppp/2n5/1Bpn4/8/3P2Q1/PP3PPP/RNB1K1NR b KQkq - 1 10",
-    "branch": "%bDaLNZjw4B18Mxsg8u3bsVcNLJtXEAPBf5U2TKjg4No=.sha256"
+    "type": "post",
+    "text": "Forking %pWY9kO1oAXTiNLsZPxy/5X7oGCSxenrtSR8dHu0vV4E=.sha256 and %tHYq00RXvIzz44WIcu8vmO7/xSuJ9d6AkOIQKl2TTAk=.sha256\n\n[@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519) said:\n\n> Could we have a post type which is an assertion? [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)  you assert that an account is deprecated. Then other people can see that and assert that it is or isn't deprecated. This could work with similar things like claiming to be a person on other accounts. I could assert that i'm [@rabble](@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519)  on twitter, or that i'm also [@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519). Then people could do a message which agreed or disagreed with it. Clients could sum up the responses to the assertion and present to the user an estimation about how likely your social graph thinks the assertion is.  \n\nI *think* this parallels a lot of conversations over [sameAs](%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256) and such, and I'd personally love to do in-band assertions, specifically over whether an account can be expected to post future messages. Tying in [another conversation](%v58lA/pMGBvfwREdKGSf+0NnLxgD8nGze7tw8+kM5qY=.sha256), it seems that once an account is deemed \"dead\" that future [zombie] posts should be ignored. I'm not *personally* as interested in out-of-band verification of websites and Twitter profiles and such, but eventually a Keybase-like system could be super useful. I'd love to do some work in this space if we can nail down some specifics.",
+    "channel": "DeprecatedSSBAccounts",
+    "mentions": [
+      {
+        "link": "%pWY9kO1oAXTiNLsZPxy/5X7oGCSxenrtSR8dHu0vV4E=.sha256"
+      },
+      {
+        "link": "%tHYq00RXvIzz44WIcu8vmO7/xSuJ9d6AkOIQKl2TTAk=.sha256"
+      },
+      {
+        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
+        "name": "rabble"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      },
+      {
+        "link": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519",
+        "name": "rabble"
+      },
+      {
+        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
+        "name": "rabble"
+      },
+      {
+        "link": "%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256",
+        "name": "sameAs"
+      },
+      {
+        "link": "%v58lA/pMGBvfwREdKGSf+0NnLxgD8nGze7tw8+kM5qY=.sha256",
+        "name": "another conversation"
+      }
+    ]
   },
-  "signature": "702y/1CY5GPLWPg8qSmpPQNLy0F/4Dq4DlN0TuBBaBYgTfRBhCz/knj7E8gO0P6Ug2WOqDqmlLvieDAtCTAfAw==.sig.ed25519"
+  "signature": "M+T6rFYAmxekbvQgDM7Prmoow/bUCZPCSreci3VNItEQaGjX0MDXMBxuINSAGJGBl/FxD9dizuROUp5s7w0QAg==.sig.ed25519"
 }
