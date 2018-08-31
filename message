@@ -1,17 +1,33 @@
 {
-  "previous": "%GjHrF6RIcTprWl+fKYRKzzLR0A1fqSjCLn9EH5zjWl8=.sha256",
+  "previous": "%SIvVY0DEqrn2jqs7Ds36p702E0oAM15uC6kbEb27sc8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3098,
-  "timestamp": 1535739844931,
+  "sequence": 3099,
+  "timestamp": 1535743198885,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%cXJ/UzroTS/9CWPKu6r3RYNDv+5i1QQVfEv1hqbn/C4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%TzIObwqH6H+FLYpIQ/Mq9TSYwypQRaqaAV+HB05xCwc=.sha256",
+    "branch": "%Ca03Cg3aaeZVMiRHRl2pF74d+4Pek+z5SSz8BFWp6S0=.sha256",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nI just signed onto social.coop to see [this](https://social.coop/@nev/100645983676719086).\n\nSorry for pinging you above [@Mayel](@aTQuVwkglxM9TABZlDBk1NF4rqfe1v6yjyH+KFb3mPI=.ed25519) I didn't realize how much beef was currently happening. Fingers crossed that #SocialCoop survives, but it seems like it may be too tangled up in consensus. I've just spent a few minutes on the Matrix chat and it sounds like it's been going on for a while. Here's my best summary (in the hopes that someone in the future will correct me):\n\n- deciding who to federate or block is controversial\n- deciding what to host is controversial\n- maintenance is hard and the Mastodon instance wasn't up-to-date\n- the instance was too old to see cross-instance \"reports\" for abusive content\n- governance is hard and the moderation jury struggled to keep everyone happy\n- someone on the instance expressed that they were uncomfortable generalizing that Nazi = bad because ~\"Nazi is a catch-all term\"\n- the members spoke out against the author but the post remained up\n- other instances started blocking the instance for hosting Nazi normalization\n- lots of discussion round and round in the Loomio and Matrix chat, but no action\n- eventually the author left the instance and started somewhere else\n- the instance is currently in crisis to resolve \"social and technical debt\"\n\nI've probably screwed up the story, but hopefully Cunningham's Law comes into effect.\n\nPotentially relevant: #against-consensus ( #againstconsensus )",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      },
+      {
+        "link": "@aTQuVwkglxM9TABZlDBk1NF4rqfe1v6yjyH+KFb3mPI=.ed25519",
+        "name": "Mayel"
+      },
+      {
+        "link": "#SocialCoop"
+      },
+      {
+        "link": "#against-consensus"
+      },
+      {
+        "link": "#againstconsensus"
+      }
+    ]
   },
-  "signature": "pgmh4R6cUjSnxifvNNEwsVGfipAEdN9EcK2esZQuPwVE4DhpIrOyjjOg+I20OJMRFpQuHx6YwJhY7503aCcGAw==.sig.ed25519"
+  "signature": "hiQ3kWIWePaRw52bIyu+xZqxnSUvDGmJxfl+BvhIvVliuUAfR9yO/Uh0X28srWtsxPAp9zOPyaWUqVbY8u/mCQ==.sig.ed25519"
 }
