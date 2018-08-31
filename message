@@ -1,17 +1,28 @@
 {
-  "previous": "%8Q1IzZNmfiwRMP4XEqwIYniuoqGOjItND6BqJfj9yD4=.sha256",
+  "previous": "%yjWH2L4jFn02pAq23rqEGMClk5ymHkjYJmNfeDXHN74=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3055,
-  "timestamp": 1535729600370,
+  "sequence": 3056,
+  "timestamp": 1535730199806,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%vPdb7motNfzVW8lmFSiJDtsm9+0Os44Z+2droUtChhw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%z89snWh9cSDw9BsZBwJ0iNuAeM0laURdK+9yvyD1OUc=.sha256",
+    "branch": "%vPdb7motNfzVW8lmFSiJDtsm9+0Os44Z+2droUtChhw=.sha256",
+    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519) Interesting, thanks for sharing that. Their list is interesting, although many/most/all seem easy to argue. For example, \"violence (except when required to protect public safety)\" seems like a blank check.\n\nThe US, specifically, has been in a \"state of emergency\" since September 2001 and basically *everything* we've done since then has been in the name of \"public safety\", \"homeland security\", or the ominous \"defense\". I think I'd be more keen to use the PPL for something like this, but maybe that will just give rise to the bio-warfare coops. :wink: \n\nAs a tangent on wacky licenses, [@neale](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519) found this gem a couple of years ago: https://github.com/pjreddie/darknet/blob/master/LICENSE\n\n```\n                                  YOLO LICENSE\n                             Version 2, July 29 2016\n\nTHIS SOFTWARE LICENSE IS PROVIDED \"ALL CAPS\" SO THAT YOU KNOW IT IS SUPER\nSERIOUS AND YOU DON'T MESS AROUND WITH COPYRIGHT LAW BECAUSE YOU WILL GET IN\nTROUBLE HERE ARE SOME OTHER BUZZWORDS COMMONLY IN THESE THINGS WARRANTIES\nLIABILITY CONTRACT TORT LIABLE CLAIMS RESTRICTION MERCHANTABILITY. NOW HERE'S\nTHE REAL LICENSE:\n\n0. Darknet is public domain.\n1. Do whatever you want with it.\n2. Stop emailing me about it!\n```\n\nTo be fair, I *much* prefer [@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519)'s approach of [using `**` rather than ALL CAPS](https://licensezero.com/licenses/parity).",
+    "mentions": [
+      {
+        "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
+        "name": "squicc"
+      },
+      {
+        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
+        "name": "neale"
+      },
+      {
+        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+        "name": "kemitchell"
+      }
+    ]
   },
-  "signature": "PCEeYpPFiK4yK27KPPhurHRf5ZEnn1zJQvcEPN3RmcNyi/63DNT2fMQPpEnXWiGXFqSBt/fT7fgwpTwfFH/qCA==.sig.ed25519"
+  "signature": "mjQTTmhH5S6ct4k3YWNNgPU0l8X8izecfFf1ijgIJB4I9wPmi+Od4U0/jHDGfCp98LmNlKKDEuPrcYmwXdcGDg==.sig.ed25519"
 }
