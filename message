@@ -1,20 +1,25 @@
 {
-  "previous": "%PAccqdMJ5/mla6DFSUHXlq8gUFjXxWhqYp0ZFNCR07A=.sha256",
+  "previous": "%lYLtkDDzSrE1eUMrmAHzZTHxvZ6YPPa7L7GXhEUK3uw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3061,
-  "timestamp": 1535733116672,
+  "sequence": 3062,
+  "timestamp": 1535733550235,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%InBU14c7KpZ0f7P78mXDd4yKAzSFZwJ/usNI6e1YEds=.sha256",
-    "branch": "%4VkM8TsIhGakLaC0m3RidEAdvzs2CHxmRNroOHEMWeU=.sha256",
-    "text": "Thanks for the tip [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)! Here's what I've got so far:\n\n```sh\nsbot createHistoryStream --id @+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519 \\\n  | jq '.value?.content?.mentions?[]?.size' \\\n  | grep -v null \\\n  | paste -sd+ \\\n  | bc\n```\n\nThere may be a more elegant way to do this, but right now it's returning `100830346` bytes (96 MB) and that doesn't seem *too* surprising since it's counting the size of every blob I've ever mentioned (and I imagine there's quite a bit of overlap between feeds).",
+    "root": "%304CE+KnyjepVxOJzJq/T7nyFlDTDFPI6mv3vy6bWV4=.sha256",
+    "branch": "%kfvL+0UTDRXXx6FBigYrKP2j6LLoCreWqkb4CQtac3k=.sha256",
+    "channel": "vegan-junkfood",
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519)\n\nI feel the same way!\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nOops, I meant to say \"absolutely no *black bean* flavor\", thanks.\n\nI didn't know that about pizza stones, I'll need to read up and learn how to actually use it. I think Kathleen got it from her mom (?) and we've just been using it like a baking pan, but it's good to know that we should be leaving it in the oven.\n\nThe idea of leaving the oven on for an hour makes me feel a wasteful, but once we're deeper into fall/winter I'm sure I won't mind the extra heat. How do you take the pizza out of the oven without the stone? I'm hoping you don't tell me I need one of those big wooden paddle/spatula things... ",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
       }
     ]
   },
-  "signature": "PIdbrctVhZX+szswsYvrRtuo8DLb4YlOL1Xj2J77585yNef8dyN2BKvIHT/DjVg5Lsi8ci1dagmlxSHd2zh3Aw==.sig.ed25519"
+  "signature": "3gR5YU+EHEZ/Bi88c8UeX0WWa02MPuwbJsdqi65+3Zy4GDVQ0TjE4SaDKuRTXQSPcDdG39oPV89tj+HSsOmTAQ==.sig.ed25519"
 }
