@@ -1,26 +1,18 @@
 {
-  "previous": "%ax4lK5ctpYuswO75Lt3PIH1ZNTxLySPQyYj9XXkcvME=.sha256",
+  "previous": "%GNYEgLd9dl4qU4BwkO6X0dgFL1HtATxqC26U/59bO6g=.sha256",
+  "sequence": 3045,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3044,
-  "timestamp": 1535727007623,
+  "timestamp": 1535727157439,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%vvNBoaFwFWfo1VMxvrOSt50PG+0nYSr/EkqLdIZLIME=.sha256",
-    "branch": "%xexQgK+jO2Bpde396dOp6Jgcx/GbCHaXeH8I8nnyxjo=.sha256",
-    "text": "[@Carl Thuringer](@pxVTw0pxbfEfCOcrcuGOFbSINZuo3Cm9ui2WgOASwq8=.ed25519)\n\n> How can one be certain that in infinite time their secret is not used simultaneously on two devices? \n\nThe safest bet is to have one a different keypair per device. I'd recommend making backups of your key, but simultaneously using the same key in multiple devices is the issue.\n\n> What constitutes a device, is it the sbot, the operating system, the NIC, the IP address, all of the above?\n\nThis is a really good question, and helps get to the root of the problem. The \"device\" in this case is the Scuttlebot. The problem is that your peers expect a linear chain of posts, so problems arise when one instance of Scuttlebot gossips a message and then another instance of Scuttlebot gossips a *different* messsage. This causes your peers to disregard all future messages from the second Scuttlebot instance, since that feed is missing the post from the original instance. Your second instance will become #marooned and while you'll be able to receive messages you'll be unable to send them.\n\nIt's *technically* possible to share a secret between multiple devices, but you need to make absolutely sure that you've downloaded all of the posts from your other device(s) before making a post. If both of your devices post at the same time (or one posts without downloading the other's recent posts) then your feed will become forked and one branch will be completely ignored.\n\n> How are laypersons to avoid this dire mistake?\n\nAsking questions! :wink:\n\n> What if I did something less hackery and just restored a new machine using the OS system restore and my old machine in target disk mode, thereby replicating the entire .ssb directory. Then instead of throwing the old computer in a fire I let my wife use it and when she boots it up Patchwork starts automatically.\n\nIn this case your wife's instance of Patchwork would (likely) start downloading all of the new messages that you'd posted on the new machine. If you both posted at the same time you'd fork the feed and at least one of you would become marooned, posting messages that nobody would ever see.\n\n> Is that better, or worse, and who's going to tell me that I just ruined my identity?\n\nI've forked my feed before and I can assure you that nobody will tell you. You *might* get a message like \"hey, you haven't posted in a while, everything good?\" from a friend on here, but they won't be able to see your response if your feed is forked.\n\n> There are arcane ways of recovering (maybe?) but I am not enlightened enough to know how.\n\nPotentially helpful: %fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256\n\nPlease let me konw if you have any questions, I'm happy to help!",
-    "mentions": [
-      {
-        "link": "@pxVTw0pxbfEfCOcrcuGOFbSINZuo3Cm9ui2WgOASwq8=.ed25519",
-        "name": "Carl Thuringer"
-      },
-      {
-        "link": "#marooned"
-      },
-      {
-        "link": "%fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 15,
+    "root": "%ir25VKSsbJqhtBOnokLaQwtZZ3Bnbfpp3216T5kU47s=.sha256",
+    "orig": "c2",
+    "dest": "c4",
+    "pgnMove": "c4",
+    "fen": "r2qkb1r/pp1b1ppp/2n2n2/1Bpp4/2P4Q/3P4/PP3PPP/RNB1K1NR b KQkq - 0 8",
+    "branch": "%96PBoU0DMpf68DK9sGjYb+eAVhf2f9x3ccidvSXruJI=.sha256"
   },
-  "signature": "zjq+kl4POLXGIdFMM/fHCACMWZBQzSiJyCX/SDm6iB9VgLJe7gsN0h+X7KCnvw/IFV2cUl2+rKVX4owcewG9DQ==.sig.ed25519"
+  "signature": "3IHe46UVehsx8BOmZJ32pdrfzdbYoVumOy9Jp5EVWmaKOceNRgU7IWxwVA/dsoEXdIJpxMjInrCZVEF0GEyNAQ==.sig.ed25519"
 }
