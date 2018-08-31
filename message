@@ -1,16 +1,23 @@
 {
-  "previous": "%a3OgmDrYZmn+0BSXMVNj4bfiFNLbCHTO6F3HuTOOqE4=.sha256",
+  "previous": "%tireGQ/4Oc4HB61o2M7GCDfNBHVHz5pM/Ck03FNiIJk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3047,
-  "timestamp": 1535727416900,
+  "sequence": 3048,
+  "timestamp": 1535727606203,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%akyJPBUD1YyDVYTVsLRSQr/Xu/bqx4vr3rZM6yMzu7w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%akyJPBUD1YyDVYTVsLRSQr/Xu/bqx4vr3rZM6yMzu7w=.sha256",
+    "branch": [
+      "%Jgh3Jvoolj4slqa7yJlgKgp4MQbM12AVw49ju/lxln8=.sha256",
+      "%PKeiEZR7Jb8j4tjhx1YCrw6JxODipz6A0CzBWN18ZqA=.sha256"
+    ],
+    "text": "[@Alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519) \n\nDo you have any resources you can recommend for someone who's completely ignorant of race and racism in NZ? Some of the words in your image are new to me and I'd love to know more. I appreciate you spending time on such an important cause, and I couldn't agree more with targeting passive readers and lurkers rather than yelling into the void.",
+    "mentions": [
+      {
+        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
+        "name": "Alanna"
+      }
+    ]
   },
-  "signature": "qY3eUtGgt/YGkdEhrM+XeTwpawPHn38+cj5u8Z6S83QgPFr05qtoTbPBAoA/znv56dcCBHZNtUbZTyHEz+EIDw==.sig.ed25519"
+  "signature": "t04J9m6WVFaerIa+dJTAxYCNzAbdRXOYqXzvsovQlii0svY//iLOgWv8DvBXUxvjp4AfoCJ4P47ILMuK8n8vAA==.sig.ed25519"
 }
