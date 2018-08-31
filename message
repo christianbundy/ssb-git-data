@@ -1,17 +1,27 @@
 {
-  "previous": "%7KAW3ewDAWUqOGKNIj1DNW+qtMkaXZcrBbexd7WnFtc=.sha256",
+  "previous": "%h2ncm/zE68nB27osmZEGR+r7N7eRh6FQuVzdPVn0H3Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3086,
-  "timestamp": 1535736545745,
+  "sequence": 3087,
+  "timestamp": 1535736672009,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%/L/bmX86ltFh7C65I+l8QL//oVFDwBaB7NcI2ncuFfE=.sha256",
+    "branch": "%TxdJbQnN6PvitIH0YV15C6B5yrjfgMpJ+l1815ju2dQ=.sha256",
     "channel": "new-people",
-    "vote": {
-      "link": "%TxdJbQnN6PvitIH0YV15C6B5yrjfgMpJ+l1815ju2dQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\n\nHey, welcome! Your profile photo reminds me of this classic (which you've likely seen):\n\n![acab all cats are beautiful](&xmZcEEgIDmpqkbGwWo7tx3w+lRUwWbdtAAIKrLB6U9A=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "KawaiiPunk"
+      },
+      {
+        "link": "&xmZcEEgIDmpqkbGwWo7tx3w+lRUwWbdtAAIKrLB6U9A=.sha256",
+        "name": "acab all cats are beautiful",
+        "type": "image/jpeg",
+        "size": 141881
+      }
+    ]
   },
-  "signature": "xe3A+9JYV3dzfsfdjOu/JXQRDRmrCczAgboy1ER91Qa+pLCiJvoKu37LHqe2jr7bmwE7Dn5su2qCIDZECTRoDg==.sig.ed25519"
+  "signature": "mTcz5r4HQWR6KHz4IFEXLTBIYymFtlCsynfDTc510bf11rmQORWnEOgkm4Il+mJQgVoRn4kpFQrCo9TVvl2oAA==.sig.ed25519"
 }
