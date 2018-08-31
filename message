@@ -1,16 +1,23 @@
 {
-  "previous": "%gy236eHO8L9jpV9okPDBaCJeeLqH4hFvX9Bqm7haDdI=.sha256",
+  "previous": "%gDOSPOBoEgZSjR+5LCh1/E6OQsayqSCCo8Xts4Jz6I0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3021,
-  "timestamp": 1535683509151,
+  "sequence": 3022,
+  "timestamp": 1535683637398,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RCzmwdSDsdUZUmt4v3D2oN7vdF4F4LIrsDCm8DtdZaM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RCzmwdSDsdUZUmt4v3D2oN7vdF4F4LIrsDCm8DtdZaM=.sha256",
+    "branch": "%RCzmwdSDsdUZUmt4v3D2oN7vdF4F4LIrsDCm8DtdZaM=.sha256",
+    "text": "[@Citizenarcane](@GtNzrKbSN5zrVlK0XnXEiGb3ddjRzeQXfhwBVODJD8Q=.ed25519)\n\nHey, welcome! I love dogs, I've been around them most of my life but I'm living in a small apartment now and it wouldn't feel right. I've got two #cats though, and one of them is probably big enough to be a dog.\n\nWhat's that dog's name?",
+    "mentions": [
+      {
+        "link": "@GtNzrKbSN5zrVlK0XnXEiGb3ddjRzeQXfhwBVODJD8Q=.ed25519",
+        "name": "Citizenarcane"
+      },
+      {
+        "link": "#cats"
+      }
+    ]
   },
-  "signature": "zeq7EUbKEAU83C0DUO630sWTaKfogK9CGbpNJJ4J8LS1aX9qRfc/G5WWpdHeXP53jYuH+bM7Q7MruRCEqX5cBg==.sig.ed25519"
+  "signature": "g/XS7JCmrGGj8Aj52Cz4aSww51A4fGEofrGq3Ya42Cx+JwcHDMMYoCvAZo14Yk3Tmx+flWD10qdoVNDhTZmjBg==.sig.ed25519"
 }
