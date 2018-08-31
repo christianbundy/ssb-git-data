@@ -1,13 +1,31 @@
 {
-  "previous": "%304CE+KnyjepVxOJzJq/T7nyFlDTDFPI6mv3vy6bWV4=.sha256",
+  "previous": "%lmXmkWxiUCMo/oXv253t/o247LXSl6ifPP9Gv+eK7J4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3058,
-  "timestamp": 1535731734962,
+  "sequence": 3059,
+  "timestamp": 1535731809922,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@IjBVJ6wJpNy6wZA8AEQwcFLIZkTZcdVs4Bsi0GNvTh4=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%vvNBoaFwFWfo1VMxvrOSt50PG+0nYSr/EkqLdIZLIME=.sha256",
+    "branch": [
+      "%/KENrS6cIHs5oOzejehac0OkuFPB7QXePkgJ2PWT+94=.sha256",
+      "%a3OgmDrYZmn+0BSXMVNj4bfiFNLbCHTO6F3HuTOOqE4=.sha256"
+    ],
+    "text": "[@Carl Thuringer](@pxVTw0pxbfEfCOcrcuGOFbSINZuo3Cm9ui2WgOASwq8=.ed25519) \n\n> The signatures are different because the data and timestamps are different and the signature incorporates the formatted json message. Any messages coming thereafter are even worse off than the bad message.\n\nYep, you got it. Generally the issue is that you'll post different data, but if you posted the same thing from both chains then the timestamp would fork the feed anyway anyway. On a side-note, could you mean `C4([C3, t1])` rather than `C3(C2, t1)`?\n\n> Can never be completely certain that an identity is never going to be used desynchronized with the identity's feed.\n\nYou can remain certain of this as long as you only have one feed per keypair.\n\n> Can't communicate to others that the feed was broken or lost at some point.\n\nYou *can*, it's just that you need to reset your feed to what the rest of the network believes to be true. If you delete everything in `.ssb` except `gossip.json` and `secret` then when you start a client it will downlaod all of your messages from your peers based on what they believe to be valid. Just don't post anything until it's done syncing and you should be fine.\n\n> Even if I recover my secret and resume my identity, if the old zombie identity awakens and posts to its feed, it will foul the feed.\n\nUnless you're posting two messages at the exact same time, there will always be one feed that's gossipped to the rest of the network. All other feeds will be ignored, so any posts from a forked feed will be ignored.\n\nThis is something that's been discussed pretty heavily, and I *think* that the [sameAs proposal](%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256) seems to work pretty well. Instead of hibernating and awakening feeds, you just assign a keypair to each device (like we've been doing) but abstract away the idea of a \"person\" so that it spans multiple devices. This also solves the \"I lost my phone\" scenario, where you have old accounts like [@christianbundy](@IjBVJ6wJpNy6wZA8AEQwcFLIZkTZcdVs4Bsi0GNvTh4=.ed25519) that will never receive another post.\n\nI'm not sure what the best solution is, but I can *definitely* agree that it's an important problem to be solved.",
+    "mentions": [
+      {
+        "link": "@pxVTw0pxbfEfCOcrcuGOFbSINZuo3Cm9ui2WgOASwq8=.ed25519",
+        "name": "Carl Thuringer"
+      },
+      {
+        "link": "%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256",
+        "name": "sameAs proposal"
+      },
+      {
+        "link": "@IjBVJ6wJpNy6wZA8AEQwcFLIZkTZcdVs4Bsi0GNvTh4=.ed25519",
+        "name": "christianbundy"
+      }
+    ]
   },
-  "signature": "ukwL5lJpim0McgsHk3a9vUL8TpYHYriwi1GLtWaiamKT9z2Msjkq/kQ954J49Kj/E9bcOySDO9ylM2K8b5ZDCg==.sig.ed25519"
+  "signature": "8joiYKsGXzVpaBKlZ0M73Yry7KF8vY7OhGOrJtXa+syLM5js1752rBuq85J44vwMlrii3/cpn4c95aSjiHgoDg==.sig.ed25519"
 }
