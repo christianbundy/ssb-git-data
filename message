@@ -1,45 +1,24 @@
 {
-  "previous": "%ZD4iTNTaKFOyuXvnNKy3xbzkubKt0qGEsAXg/T9s9I0=.sha256",
+  "previous": "%hAf2D0I7DzM3vKH0sNBBXaxDuZIIGk7UhkIbnY2CEQs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3119,
-  "timestamp": 1535747633894,
+  "sequence": 3120,
+  "timestamp": 1535747692813,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Forking %pWY9kO1oAXTiNLsZPxy/5X7oGCSxenrtSR8dHu0vV4E=.sha256 and %tHYq00RXvIzz44WIcu8vmO7/xSuJ9d6AkOIQKl2TTAk=.sha256\n\n[@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519) said:\n\n> Could we have a post type which is an assertion? [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)  you assert that an account is deprecated. Then other people can see that and assert that it is or isn't deprecated. This could work with similar things like claiming to be a person on other accounts. I could assert that i'm [@rabble](@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519)  on twitter, or that i'm also [@rabble](@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519). Then people could do a message which agreed or disagreed with it. Clients could sum up the responses to the assertion and present to the user an estimation about how likely your social graph thinks the assertion is.  \n\nI *think* this parallels a lot of conversations over [sameAs](%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256) and such, and I'd personally love to do in-band assertions, specifically over whether an account can be expected to post future messages. Tying in [another conversation](%v58lA/pMGBvfwREdKGSf+0NnLxgD8nGze7tw8+kM5qY=.sha256), it seems that once an account is deemed \"dead\" that future [zombie] posts should be ignored. I'm not *personally* as interested in out-of-band verification of websites and Twitter profiles and such, but eventually a Keybase-like system could be super useful. I'd love to do some work in this space if we can nail down some specifics.",
-    "channel": "DeprecatedSSBAccounts",
+    "root": "%i0/0aTmuxrECj1N/UvhNN88LNsVkJYteNy9RGHGZKgA=.sha256",
+    "branch": "%TqTx9/02hD3MJskg9G/tVKBCDPv1a8esTHVtVQiBE3I=.sha256",
+    "channel": "podcasts",
+    "text": "[@cameralibre](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519)\n\nJust saw %0BjvwYB2Af7OWI4KEsGvZwFx5hNFqRttqjvfoiaHUAQ=.sha256 and it reminded me that I'd never replied to this post! I'm so happy you liked it, I'm excited to learn more about the parallels you mentioned. ",
     "mentions": [
       {
-        "link": "%pWY9kO1oAXTiNLsZPxy/5X7oGCSxenrtSR8dHu0vV4E=.sha256"
+        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+        "name": "cameralibre"
       },
       {
-        "link": "%tHYq00RXvIzz44WIcu8vmO7/xSuJ9d6AkOIQKl2TTAk=.sha256"
-      },
-      {
-        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
-        "name": "rabble"
-      },
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan hassan"
-      },
-      {
-        "link": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519",
-        "name": "rabble"
-      },
-      {
-        "link": "@5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519",
-        "name": "rabble"
-      },
-      {
-        "link": "%JjSO5d5/lIRyv5gUKEFis57urBvFam1cAbAIVXMMGJo=.sha256",
-        "name": "sameAs"
-      },
-      {
-        "link": "%v58lA/pMGBvfwREdKGSf+0NnLxgD8nGze7tw8+kM5qY=.sha256",
-        "name": "another conversation"
+        "link": "%0BjvwYB2Af7OWI4KEsGvZwFx5hNFqRttqjvfoiaHUAQ=.sha256"
       }
     ]
   },
-  "signature": "M+T6rFYAmxekbvQgDM7Prmoow/bUCZPCSreci3VNItEQaGjX0MDXMBxuINSAGJGBl/FxD9dizuROUp5s7w0QAg==.sig.ed25519"
+  "signature": "OtNQ2NaL/lAh5FnONhNb79/A2l3OaWG3HnSfrcW+JHz8W3gW3P3L+jPwh/pehpmbYqf2wwSFnaSmaKbhD6PPBA==.sig.ed25519"
 }
