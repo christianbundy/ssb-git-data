@@ -1,17 +1,24 @@
 {
-  "previous": "%rNc6EDIhITBXs/Vs3D65Dec0LKkmnFA1YAHa+mBCC18=.sha256",
+  "previous": "%den/oXWZTcW9TyD/Uatc33EtLoeX18i7pVF8TSVaITA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3080,
-  "timestamp": 1535736208575,
+  "sequence": 3081,
+  "timestamp": 1535736376225,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%304CE+KnyjepVxOJzJq/T7nyFlDTDFPI6mv3vy6bWV4=.sha256",
+    "branch": "%3vWRow/apSeOdjnfqx4az2qIon82VQUjmJVDDOAzrkA=.sha256",
     "channel": "vegan-junkfood",
-    "vote": {
-      "link": "%wLy8/bRwUd4bqywyxO9l//MAgYdpHAGryRD/tvFt82k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) \n\nI never thought of cooking + freezing them! We have a few small bags of dried chickpeas but rarely plan well enough to soak and cook them, so we use canned chickpeas most of the time (including on this pizza).\n\nI've also been meaning to try [an aqua faba granola recipe](https://minimalistbaker.com/aquafaba-granola-oil-free/), I've never cooked with it before but since we use canned chickpeas so often I have no excuse not to use it. I'm hungry too, although some of that's self-imposed from #intermittent-fasting.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "#intermittent-fasting"
+      }
+    ]
   },
-  "signature": "+rap96FVEEQtjK+kOCzkY8GFvdg0iWxVBYQAy4YOuiKuyKV+0FlZ7SPYaehak577tMoK3QSK+kpbqMEm57ioAA==.sig.ed25519"
+  "signature": "jQ+EPYca4gJOJkovIV7l+ul3E7CSZCrainsqf1J+aVFjiO9tvV868qIH448Cn7xyeLLe7qBNRelz2andHHgdAw==.sig.ed25519"
 }
