@@ -1,20 +1,17 @@
 {
-  "previous": "%W3JT5XqEB9EVR2UPQMjuSwhtD67YNbhRvfpynV4qcyc=.sha256",
-  "sequence": 3151,
+  "previous": "%Fg1V5d9yOCjRj2NNOJLZb6WGoGWDlXhkqqEBSW7ZeYw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535770373546,
+  "sequence": 3152,
+  "timestamp": 1535770901902,
   "hash": "sha256",
   "content": {
-    "type": "chess_invite",
-    "inviting": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-    "myColor": "black",
-    "branch": [
-      "%RUoLOH2ApRDT7xRn+PtcySZBLfWhayNSdm/1lLJUZwY=.sha256",
-      "%nUCIcR97/eDFZNdj60x5uiE7CRHX6ifuP6TCQkkp/v0=.sha256",
-      "%J9EdQmDUR9+p8SN250e3ZHOCvrBvOql9ilHUdm0rn6s=.sha256",
-      "%5ScAqgaimuh0AHBivU7TGBmy5Sg+oRyOwsZ/RIhWqaM=.sha256",
-      "%z8EJj3jHUJG6/RSdNHWcahkRu+G41zhh6EhwgepRIzo=.sha256"
-    ]
+    "type": "vote",
+    "channel": "vegan-junkfood",
+    "vote": {
+      "link": "%M+eVaGvHt3etn5+9ybtEDzRy899g1QmH8HBzimrmUqA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "SNOfhxXwyutn0GBGOAxSthaTzaYq6vmY4Jxpd+JtRA4rlC/ZFc9VzHJ1zdwCL2Mw5x+8ESfRi6D5E4wmfVigCQ==.sig.ed25519"
+  "signature": "+gTD0lR9ADQug177nhYP8HyVM7SKN2OusJYyqCsVRwLISdnslo4IqJjNIdnElY0+YXOJ3IY3KIu1kwSPTT/ABw==.sig.ed25519"
 }
