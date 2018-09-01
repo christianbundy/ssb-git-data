@@ -1,16 +1,19 @@
 {
-  "previous": "%h4JwyapMlNGtlZERmtIpu7w9Vut3nPmJvIdA2GPzBWk=.sha256",
+  "previous": "%UnsLdN4uksVy8kgDQIZySWWrUKzAba9wfk24YYI3p/s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3232,
-  "timestamp": 1535844217190,
+  "sequence": 3233,
+  "timestamp": 1535844350803,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Uwi8qjtiCFdMiVBluxP0vCV3yni+hzh5ZVH5H5nUOpU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%KOAzj3CYqpfOkIZTuvOZhFL0D67dyWgJ221oLuGz0NM=.sha256",
+    "branch": "%/BB6ZcjQ8Pgy09AHFnnXr/+vl9Hj4EGaVm81sQilkcg=.sha256",
+    "text": "Thanks! I *think* I'm close, but this looks like it's still just returning the votes:\n\n```js\nfunction PageByLikes (state) {\n  const createStream = (opts) => {\n    const { started, participated, other } = state.show\n    if (!started && !participated && !other) return pull.empty()\n\n    return api.sbot.pull.stream(server => {\n      const query = [{\n        $filter: {\n          timestamp: { $gt: Date.now() - 1000 * 60 * 60 * 24 },\n          value: {\n            content: {\n              type: 'vote'\n            }\n          }\n        }, \n        $reduce: {\n          id: [\n            'value',\n            'content',\n            'vote',\n            'link'\n          ],\n          count:{\n            $count: true\n          }\n        }\n      }\n      ]\n      const defaults = { query }\n      return next(server.query.read, merge({}, defaults, opts), ['count'])\n    })\n  }\n}\n```\n\nAm I close, or do I need to retake #ssb-query 101? It's crazy that I write JavaScript at $dayjob but somehow most of the SSB tech stack is completely new to me.",
+    "mentions": [
+      {
+        "link": "#ssb-query"
+      }
+    ]
   },
-  "signature": "GZZbKqGKzUQEeRqyBgfqZEjFoE5IifumgmLkSAfcsbflvKl5ogY1IS1FSyuchybO48FXeSZNwbNpJ5Uym6bWDg==.sig.ed25519"
+  "signature": "NjXpC/Qx7GtwD0DtbpwP5hZMMp7nbsN2JNzA7gQImTyxZeEnWHBtpq5jJiDqStR0qaZfNUth96RePcZjtXUJDQ==.sig.ed25519"
 }
