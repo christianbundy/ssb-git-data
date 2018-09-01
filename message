@@ -1,16 +1,20 @@
 {
-  "previous": "%Ri3plc4QHLvzK44okFStbYVVZ403T+LWuZsXYQ7oBys=.sha256",
+  "previous": "%T7elPegYodgAe4lDaAwFeiR6I0BqfPN0PihhhWZ1Vc0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3180,
-  "timestamp": 1535818080463,
+  "sequence": 3181,
+  "timestamp": 1535823079805,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gnEI8yPras77DYAUthYjrLp0WosoH+A/oSWM5Me7N3g=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Scuttlebutt bulletin board (forum?)\n\nJust in case anyone else has wondered what posts would look like with more of a Reddit or [\"Hacker\" \"News\"](http://n-gate.com/) style: it's not great. Tons of posts start with Markdown, which doesn't fit nicely into the paradigm of post titles, so there likely aren't any clean solutions. I'm currently splitting on a newline or at 100 characters, whichever comes first, but plenty of would-be titles have links and images or (like this post) use `#` to denote a header.\n\n![patchbay forum bulletin board](&kNIWX3JRL9VB9ncIPEL2XGRUSzQ8ALjf7zg/CB689mI=.sha256)\n\nI feel an urge to work on how content is displayed, but seems like it may be a dead end.\n\nPS: Please disregard the ugly -- this was mostly just an experiment to see whether the idea of an ergonomic post title would be easy to implement.",
+    "mentions": [
+      {
+        "link": "&kNIWX3JRL9VB9ncIPEL2XGRUSzQ8ALjf7zg/CB689mI=.sha256",
+        "name": "patchbay forum bulletin board",
+        "type": "image/png",
+        "size": 231672
+      }
+    ]
   },
-  "signature": "Em6l+zBl8M52V26T4V6RwtNPwWM+ygONgf+BlsoKdnEUZ7rZx7yWwUXIo//7CVhWo3pw5a1fhkgCOQ/rO7HoBw==.sig.ed25519"
+  "signature": "WAxAM3RWX0yuS8CrAbu1dkSj6gWuQ6tTDjMjHTTLM7c6uUXoeEHDUguxLAvLYH66g6Q4mtMB1BUC+3Y3YExICA==.sig.ed25519"
 }
