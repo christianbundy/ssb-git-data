@@ -1,20 +1,18 @@
 {
-  "previous": "%T7elPegYodgAe4lDaAwFeiR6I0BqfPN0PihhhWZ1Vc0=.sha256",
+  "previous": "%33duDpTudjd5MOQ217ZMmQ98rUHSJWsYLy2sNdTt9X0=.sha256",
+  "sequence": 3182,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3181,
-  "timestamp": 1535823079805,
+  "timestamp": 1535823201661,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Scuttlebutt bulletin board (forum?)\n\nJust in case anyone else has wondered what posts would look like with more of a Reddit or [\"Hacker\" \"News\"](http://n-gate.com/) style: it's not great. Tons of posts start with Markdown, which doesn't fit nicely into the paradigm of post titles, so there likely aren't any clean solutions. I'm currently splitting on a newline or at 100 characters, whichever comes first, but plenty of would-be titles have links and images or (like this post) use `#` to denote a header.\n\n![patchbay forum bulletin board](&kNIWX3JRL9VB9ncIPEL2XGRUSzQ8ALjf7zg/CB689mI=.sha256)\n\nI feel an urge to work on how content is displayed, but seems like it may be a dead end.\n\nPS: Please disregard the ugly -- this was mostly just an experiment to see whether the idea of an ergonomic post title would be easy to implement.",
-    "mentions": [
-      {
-        "link": "&kNIWX3JRL9VB9ncIPEL2XGRUSzQ8ALjf7zg/CB689mI=.sha256",
-        "name": "patchbay forum bulletin board",
-        "type": "image/png",
-        "size": 231672
-      }
-    ]
+    "type": "chess_move",
+    "ply": 16,
+    "root": "%Fg1V5d9yOCjRj2NNOJLZb6WGoGWDlXhkqqEBSW7ZeYw=.sha256",
+    "orig": "g7",
+    "dest": "g5",
+    "pgnMove": "g5",
+    "fen": "r1bqk1nr/pp1pbp1p/4p3/2n3p1/2BN1B2/2P1P3/PP1N1PPP/R2QK2R w KQkq - 0 9",
+    "branch": "%6vFEISD97SzJAA9jV2GOOVa1lsl1OLAIp6Irp/q+cWc=.sha256"
   },
-  "signature": "WAxAM3RWX0yuS8CrAbu1dkSj6gWuQ6tTDjMjHTTLM7c6uUXoeEHDUguxLAvLYH66g6Q4mtMB1BUC+3Y3YExICA==.sig.ed25519"
+  "signature": "3ywBQ5xLjWxqNz/LK08xTSa4g+WEzQPoSkZoxbhOF6Wot4lUG87X+9wA+3wgW6aejbrPVaJV9ijrmdf6Hwg7Bw==.sig.ed25519"
 }
