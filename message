@@ -1,16 +1,29 @@
 {
-  "previous": "%SZWgdkrBw+b4pabUuBiywDjZg/St5oiXUidSX0iQqEI=.sha256",
+  "previous": "%/XZJLfD6bVdiFVF5/Tcpv2mnJvgtr19Ff9/R16hpGQ8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3188,
-  "timestamp": 1535823548405,
+  "sequence": 3189,
+  "timestamp": 1535824640416,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%TyXaPSdFn4vIS7FdbwAbGu95SvmWR7L6jUjgptqcMFI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%33duDpTudjd5MOQ217ZMmQ98rUHSJWsYLy2sNdTt9X0=.sha256",
+    "branch": [
+      "%FtANOD2xws2qPu4l+lg/eliRX00k59S6cyfD0Ou6BZk=.sha256",
+      "%cnN060iEDQ28TErlR6smTWvnWo8H/v8IZ73hxK+Wvf4=.sha256"
+    ],
+    "text": "[@staltzphone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) \n\nThat's a really good idea, I have a feeling I've read about it (or talked about it?) before. In the meantime, I saw that Patchbay's `/posts` was using the `innerText` property, so I've used that and it's looking much less awful.\n\n\n![screenshot of second iteration of bulletin board forum view](&pgUj2c2XosoWd16KajXNveumSSjs2siE9AIZ4z1C0cY=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "staltzphone"
+      },
+      {
+        "link": "&pgUj2c2XosoWd16KajXNveumSSjs2siE9AIZ4z1C0cY=.sha256",
+        "name": "screenshot of second iteration of bulletin board forum view",
+        "type": "image/png",
+        "size": 238350
+      }
+    ]
   },
-  "signature": "NmYoWgYXT4cioSr6peN7mmHnUOe8ZM55C0MKGmWpmfbu9nTeLoeC17JTPKJRtlqK4rxN/bebIA1zCj3VRzcJCQ==.sig.ed25519"
+  "signature": "B6KnmxAzxNjZIYkjdxdo6op+Zu1h+KUIQuqtnAekLxAisJkW23MWSA8LAxrVzXoeWsPz+vK2Y87Ts90e1NhFAA==.sig.ed25519"
 }
