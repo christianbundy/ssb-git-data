@@ -1,9 +1,17 @@
 {
-  "previous": "%ULm0CBri7lCJzHQoF1JaEjZF9tZuOSzA+tTwSupyH80=.sha256",
+  "previous": "%MqHXBSsbCMQYThkr0yC+XOqkEXf63U6IwFgDxpsxbTM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3197,
-  "timestamp": 1535829534885,
+  "sequence": 3198,
+  "timestamp": 1535829554260,
   "hash": "sha256",
-  "content": "kfsrrK1va5UgeK26xsW7a61wgGfx3W6yY7Qqb1yH2nsVYsfRvkFRLEgrz0hUsPdsDNoxgBNHcgVhD5T11Y990qYmHul9uetojkDklHhjlx2XSczK1q2y5qGzyQsaj7PFqnTvapwcobIOHjFISB63fZ67Mcz0wUtlNT2ARoqCqoZJg9MbXAH3mLCpHlmDFbxMZcDp1Wf3eDguSflSyZwKpO9UJuW4oTAa+rMxQeYbWr8/P9KuR+ymXX65fGxwiTIug6+O2b4RcALffGodaCP3PYjfmLGcfLebmNHCgI4hCgpA4PH9D2kfskqGRkiKeAwt56WXCGum+TlmV7wRK97UPDwJnojEj9f4XQMJK2PjGLqS5X+/H7eI5tmFkX5p4AwrMefOV8Wlu2sZ2nSAhi/Dgdffy2UPAkEpwoiJYAFP+clOzNhKeDpE8vHV0vJQdDUZZCKzzUok/wC1T71AGbGEhHUhFUto7yFBLHUbJGm/VyK5Ai3HxfFaCdKTeeIEBG6u/iLZhA==.box",
-  "signature": "Af/FlTORBjfe+q6loutGg2F5Guh/Byg/87VpIAD9ESgLC5dVj+wzc/TV1lC3jMG7Me2+BV4n9zRwlHw5vvLRBg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "Not sure whether this is the right channel to post under, but is there known procedure for sorting by backlinks? For example, I'd like to run a query that returns the posts with the most likes in the past 24 hours. I'm able to return all of the votes within the past 24 hours, but I'm unsure what to do with that:\n\n```js\n{\n  timestamp: {\n    $gt: Date.now() - 1000 * 60 * 60 * 24\n  },\n  value: {\n    content: {\n      type: 'vote'\n     }\n   }\n}\n```\n\nIs this where pull-paramap comes into play?\n\ncc: #pull-streaming ",
+    "mentions": [
+      {
+        "link": "#pull-streaming"
+      }
+    ]
+  },
+  "signature": "qPFHLEFHXcpTiaPBKN93Wlhlb9H+keh79/X1g3L8S0ULSeP2loAMM1rlirVM+e5VYqQvb8Ghlk9uFvoevqmsDw==.sig.ed25519"
 }
