@@ -1,16 +1,15 @@
 {
-  "previous": "%WcLG51UeXPqDMLYrYEuxvgpWLSPQpw/FGfM1ymZSzRk=.sha256",
+  "previous": "%xtAb0NqJo0bqJ7NTck+2OXdX2O7VAG7dw+XCdpMvXhg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3375,
-  "timestamp": 1535901677950,
+  "sequence": 3376,
+  "timestamp": 1535902130014,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%bDNtwTCUNkUXLssCiPFFHtNdaedGG/ExDo5aTT90hZo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%EyHzcmxvT3++xxg4qMXzgo11bIBawOupX0DxsOeXwHo=.sha256",
+    "branch": "%EyHzcmxvT3++xxg4qMXzgo11bIBawOupX0DxsOeXwHo=.sha256",
+    "channel": "patchfoo",
+    "text": "Not specific to Patchfoo, but you'll just need to make sure it's running on `localhost`, `127.0.0.1`, or `::1` rather than `0.0.0.0` or `::0`."
   },
-  "signature": "giSeMZDmXrIh61zWkvlnjSn6/ERXnNIQJX2fQ3FJ/7YCr54l1gViVd3bSuZl2bLz4HPoxwyZr5CHylR7g/7UAQ==.sig.ed25519"
+  "signature": "7MafkNFCKORPhEod1N2VRRZE9MXARnLwlZMQ9j9FnM1+ivhyNmDftjHXubauBEVMv5aODyy8ZKRk4VgVSk9LAQ==.sig.ed25519"
 }
