@@ -1,20 +1,24 @@
 {
-  "previous": "%yu1MKvCsSyvtPQMljpg30TWLx6HscPIO34sqFun1M6I=.sha256",
+  "previous": "%yVrOq0JynvxdoWEH3O5i/PSCXwK0KgCNida+L2w7m5o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3379,
-  "timestamp": 1535908251981,
+  "sequence": 3380,
+  "timestamp": 1535908469033,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%xndJSYaRTKZpa7Dan8ChKcl8NWcm2+1XMGDyOOiXrO0=.sha256",
-    "branch": "%xndJSYaRTKZpa7Dan8ChKcl8NWcm2+1XMGDyOOiXrO0=.sha256",
-    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519) \n\nI see you!",
+    "root": "%EyHzcmxvT3++xxg4qMXzgo11bIBawOupX0DxsOeXwHo=.sha256",
+    "branch": [
+      "%9lRFm3mFxOfVTtoHT8KU0olxgpLFO1y38h6E0NmN9+Q=.sha256",
+      "%CJ1Aln90egz2ABOKoraqz30rd88uODudeUaM/OrWl9Y=.sha256"
+    ],
+    "channel": "patchfoo",
+    "text": "[@austin](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) said:\n\n> 0.0.0.0 redirects to localhost automatically.\n\nDo you have this problem with other programs? I don't think sbot/patchfoo could even do this without root access, and it's usually the type of thing that would be managed by the OS. Any chance you're running any non-obvious network tools or have a special network configuration? I'm thinking VPN utilities, mesh internet clients, or port forwarding dev tools that might be messing with your ports.",
     "mentions": [
       {
-        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
-        "name": "jasongreen"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "austin"
       }
     ]
   },
-  "signature": "wjUZD9vum54IzEDQRp4ezNRUTCp7i/G7uaoria2o90kDHRxENH/4bCljU4Rc+gKL7Uc4aQl5DdXAJFfg+PWnBQ==.sig.ed25519"
+  "signature": "PLc476m4oNgqakPPNUprg0XKAMNXI4pHT9JsrdIP70+16XGbgZFO2/h7jckgFzDpAhxrqgbHg4wBF8ZZ8zowCQ==.sig.ed25519"
 }
