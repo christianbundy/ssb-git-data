@@ -1,18 +1,24 @@
 {
-  "previous": "%+tR95qL2ksrlMQhnku+AYLv3p+Aql+fWkWkLByLVmsc=.sha256",
-  "sequence": 3410,
+  "previous": "%7W793kGTH/9jhuJollOGMDcR8euZyOCQ8E5/oQ0c2fM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1535931195701,
+  "sequence": 3411,
+  "timestamp": 1535931947417,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 40,
-    "root": "%nFSd28n+1xoEKKg5rtBPO+N01HiVEI4SMtIiPjCqH7w=.sha256",
-    "orig": "c8",
-    "dest": "c5",
-    "pgnMove": "Rc5",
-    "fen": "4kr2/3b3p/5Pp1/p1r1q1B1/1b6/2N1Q3/PPP2PPP/R3K2R w KQ - 3 21",
-    "branch": "%xSV7jVllH49WuD2cBNtkKxXzQ+NMlqPVPo02SKvyeL0=.sha256"
+    "type": "post",
+    "root": "%KOAzj3CYqpfOkIZTuvOZhFL0D67dyWgJ221oLuGz0NM=.sha256",
+    "branch": "%clqWIPTX/B3W/SlXZYszUgSdskuyKCgh1EWfmhHJkP8=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\n> If you want to fetch likes from before the last 24-hour period it would have to be done a different way.\n\nIs this a memory/CPU constraint because of the number of likes being pulled, or is there another constraint at play here? I'd love for this to be automagically solved by the database, but at least as a prototype I *think* I'm okay with nasty perf. Maybe I'll change my mind after my laptop goes up in flames. :fire:\n\n\nWow [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519), the new query page looks great! I also *love* that links are clickable, I've been copying and pasting for a bit and this is way slicker.\n> This is the hard limit I've hit and also not sure how to proceed.\n\nI was hoping this wasn't the case. Eventually is this the sort of thing that would need to be done in flumedb? I'm going to copy your code and see if I can get a \"sort threads by likes\" or \"sort threads by comments\" view going. Thanks!   ",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "feUCu6gEVIjhlZvjsCQc7agNf1XmprwjlrCVC/rqOHIJj9SZsVYmRClTVhMuMRoo5BP3VWFM1pxWaHBFNghMAw==.sig.ed25519"
+  "signature": "phyz+oW+juv7y2VDdj4TaGMwJhFWwiecJnRLZvmqOMA6FYaMdG1ExnHUJU4v9pofpHK65/Fc+onibgQG8/sCDg==.sig.ed25519"
 }
