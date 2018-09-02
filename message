@@ -1,16 +1,20 @@
 {
-  "previous": "%x/FoOUVkndP3P6JO+ROfJorFQTVryvbapdlcaROv3gU=.sha256",
+  "previous": "%yu1MKvCsSyvtPQMljpg30TWLx6HscPIO34sqFun1M6I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3378,
-  "timestamp": 1535908230192,
+  "sequence": 3379,
+  "timestamp": 1535908251981,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0OteaYhK//OL1OSOvqf7nlb9iPuiQZxNqgu28e3Usl8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xndJSYaRTKZpa7Dan8ChKcl8NWcm2+1XMGDyOOiXrO0=.sha256",
+    "branch": "%xndJSYaRTKZpa7Dan8ChKcl8NWcm2+1XMGDyOOiXrO0=.sha256",
+    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519) \n\nI see you!",
+    "mentions": [
+      {
+        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
+        "name": "jasongreen"
+      }
+    ]
   },
-  "signature": "PLgh1qDqRASsmLkGTeeAowLIDMU7Bg/NaHZNpDhPfhemzVhTVo8BBQw6sEhPCdZv3p6cH07+Lh7UkPyLDwRhAQ==.sig.ed25519"
+  "signature": "wjUZD9vum54IzEDQRp4ezNRUTCp7i/G7uaoria2o90kDHRxENH/4bCljU4Rc+gKL7Uc4aQl5DdXAJFfg+PWnBQ==.sig.ed25519"
 }
