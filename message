@@ -1,24 +1,18 @@
 {
-  "previous": "%yVrOq0JynvxdoWEH3O5i/PSCXwK0KgCNida+L2w7m5o=.sha256",
+  "previous": "%4/9IzyN/LPhS5ZKh0myrv5fHvqz8cp6cv7C8p+nxH7M=.sha256",
+  "sequence": 3381,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3380,
-  "timestamp": 1535908469033,
+  "timestamp": 1535908597974,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%EyHzcmxvT3++xxg4qMXzgo11bIBawOupX0DxsOeXwHo=.sha256",
-    "branch": [
-      "%9lRFm3mFxOfVTtoHT8KU0olxgpLFO1y38h6E0NmN9+Q=.sha256",
-      "%CJ1Aln90egz2ABOKoraqz30rd88uODudeUaM/OrWl9Y=.sha256"
-    ],
-    "channel": "patchfoo",
-    "text": "[@austin](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) said:\n\n> 0.0.0.0 redirects to localhost automatically.\n\nDo you have this problem with other programs? I don't think sbot/patchfoo could even do this without root access, and it's usually the type of thing that would be managed by the OS. Any chance you're running any non-obvious network tools or have a special network configuration? I'm thinking VPN utilities, mesh internet clients, or port forwarding dev tools that might be messing with your ports.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "austin"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 24,
+    "root": "%Fg1V5d9yOCjRj2NNOJLZb6WGoGWDlXhkqqEBSW7ZeYw=.sha256",
+    "orig": "c8",
+    "dest": "d7",
+    "pgnMove": "Bd7",
+    "fen": "r2qk1nr/pp1b1p1p/5b2/1Bnp2p1/3N4/2P1P1B1/PP1N1PPP/R2QK2R w KQkq - 2 13",
+    "branch": "%5IJxMzcqtJHzKCQEsOkTgC3P1UC6y3swXegtQqL0sgg=.sha256"
   },
-  "signature": "PLc476m4oNgqakPPNUprg0XKAMNXI4pHT9JsrdIP70+16XGbgZFO2/h7jckgFzDpAhxrqgbHg4wBF8ZZ8zowCQ==.sig.ed25519"
+  "signature": "nuTaKt0WtUrYmCL5WuAF76wnx05e+xlfMudR4XOF3MxCOWX7jXnFhfafv7zHhce4BvE12kE31azdmn/f7jpxDg==.sig.ed25519"
 }
