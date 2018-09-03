@@ -1,20 +1,17 @@
 {
-  "previous": "%ZfLdcKVKKKK9FvPsbsdtZSxBlvcf1ItfU0VWEYc0szA=.sha256",
+  "previous": "%qGg90VZqRs8zPI4nbw2Q2CzvYS0G5hpFdmR27W/rILc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3516,
-  "timestamp": 1535998635806,
+  "sequence": 3517,
+  "timestamp": 1535999578374,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%8PCs2u9BmWkPjvIx0D+f3K9bX0RRUXUJLHqcZYxflV0=.sha256",
-    "branch": "%mLJCWgWadO0DGnMylBVyRB6LPosoKPNp3UeXYoHqNxg=.sha256",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nI restarted it and it failed because `-g` tries to install to root directories by default, but after settings `npm_config_prefix` it worked just fine.\n\n```\n+ ssb-npm@1.6.2\nadded 98 packages from 33 contributors in 122.591s\n```\n\n:raised_hands: \n\nNow to install Patchfoo...",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-chess",
+    "vote": {
+      "link": "%0Xp6WVfn/AxW+elVFthN9EwPVNUFvyvecAmie0wjHSQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "estTAKBSWVmgRq+1Pq4NaRstVFUTK5iDnMHPsCtyqaoYU5sCiL9Z0Q4hiv/sEi1akGv39+e8kJeRCGoNMW0tCw==.sig.ed25519"
+  "signature": "fUl1ad0HZA7i/lU300eymO4moE/S582x81lHvUiAfMQYAstTW0f3daaSCB5xa5Tfw+X+bDK5lnCm9fLtkBxMBg==.sig.ed25519"
 }
