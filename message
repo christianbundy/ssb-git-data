@@ -1,30 +1,20 @@
 {
-  "previous": "%aZnZR4vU6R59lIYPWd0lurB1cXvno/JspqjHjQAwNbQ=.sha256",
+  "previous": "%ZfLdcKVKKKK9FvPsbsdtZSxBlvcf1ItfU0VWEYc0szA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3515,
-  "timestamp": 1535997516925,
+  "sequence": 3516,
+  "timestamp": 1535998635806,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%x6BHYPfOUdJPRf9TbKa3O0E8FV9G1GrAbwf4OQYp/TY=.sha256",
-    "branch": "%x6BHYPfOUdJPRf9TbKa3O0E8FV9G1GrAbwf4OQYp/TY=.sha256",
-    "channel": "new-people",
-    "text": "Hey [@Jack](@I4pDQvtrYqj9zj+yPU1ZyyXrz6YvQCGu3n/n64eX4P4=.ed25519), welcome! What sorts of things are you into? I'd love to know more about your software and what kind of games you play. Stuff like #dnd? I've always wanted to play but it's somehow never happened.\n\nIf you dig games in general, there's a client called #patchbay that lets you play #ssb-chess which is super fun.",
+    "root": "%8PCs2u9BmWkPjvIx0D+f3K9bX0RRUXUJLHqcZYxflV0=.sha256",
+    "branch": "%mLJCWgWadO0DGnMylBVyRB6LPosoKPNp3UeXYoHqNxg=.sha256",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nI restarted it and it failed because `-g` tries to install to root directories by default, but after settings `npm_config_prefix` it worked just fine.\n\n```\n+ ssb-npm@1.6.2\nadded 98 packages from 33 contributors in 122.591s\n```\n\n:raised_hands: \n\nNow to install Patchfoo...",
     "mentions": [
       {
-        "link": "@I4pDQvtrYqj9zj+yPU1ZyyXrz6YvQCGu3n/n64eX4P4=.ed25519",
-        "name": "Jack"
-      },
-      {
-        "link": "#dnd"
-      },
-      {
-        "link": "#patchbay"
-      },
-      {
-        "link": "#ssb-chess"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "9Eh8nI2TiETh6NsPjAhg3zje8gi481Ta5qgoDMMGC/PvUNBB0K7IslBkPSoTPWVFgOT8w+nG8XDHUN7qy3OcAw==.sig.ed25519"
+  "signature": "estTAKBSWVmgRq+1Pq4NaRstVFUTK5iDnMHPsCtyqaoYU5sCiL9Z0Q4hiv/sEi1akGv39+e8kJeRCGoNMW0tCw==.sig.ed25519"
 }
