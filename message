@@ -1,16 +1,20 @@
 {
-  "previous": "%KxPJo8JIzM6iBA2WLjL/LQ0Q3M3KKbiUtzZwL3Qu3Po=.sha256",
+  "previous": "%E1VXVThasrYThg0r+vI1EdtfcjfhvT3ZRg3tguB7tpo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3498,
-  "timestamp": 1535994833118,
+  "sequence": 3499,
+  "timestamp": 1535995056539,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%fuIMngSz7rHj4MZp+Mc1KSzMfTs5umh1n/IxFcsTYtY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%8PCs2u9BmWkPjvIx0D+f3K9bX0RRUXUJLHqcZYxflV0=.sha256",
+    "branch": "%0onrcirEzo2oRO6NVZwgWOGsQ0rRLNfqdd8m3TullRI=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\nCurrently stuck here on Node 10:\n\n```\n[  ................] / fetchMetadata: sill resolveWithNewModule deep-equal@1.0.1 checking installable status\n```\n\nAnything I can do to help debug? I ran the first code block in your post, using latest Patchbay `master` in the background.\n\n```\n$ uname -a\nLinux samus 4.18.5-arch1-1-ARCH #1 SMP PREEMPT Fri Aug 24 12:48:58 UTC 2018 x86_64 GNU/Linux\n$ node --version\nv10.9.0\n$ npm --version\n6.4.1\n$ (cd ~/Source/patchbay/ && npx scuttlebot version)\n\"11.4.2\"\n``` ",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "/ghKYntUUcPP2LKQA9AcyhDDBzP3Ky4bzeFJrlsGxR8Hm5TJIokZlNx2GO2KZHOMHSs7LrAzFAJEskX7RI7MCQ==.sig.ed25519"
+  "signature": "iQbumTu/SwqdL8s24DUr4B9B5A/sweY1lYc2A1283rKvFRxDxuHk535Ir5THk3xNmrwaBMSRGiKEUJyPP2OMDw==.sig.ed25519"
 }
