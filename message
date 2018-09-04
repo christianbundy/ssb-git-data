@@ -1,23 +1,18 @@
 {
-  "previous": "%dz5RwurGgQ6zhleUyyLoRhc1sRiB4IdcY4rmHCU+Too=.sha256",
+  "previous": "%UX1U1gKWO5knOWI+ZHpeDlr43hsJiuEbgjCoMf7Ink0=.sha256",
+  "sequence": 3819,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3818,
-  "timestamp": 1536103440772,
+  "timestamp": 1536103516872,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
-    "branch": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
-    "text": "- Yes! All content in your feed is cryptographically signed. As far as I understand blobs (images, videos, files) are *not* signed, but the message you use to reference them is.\n- Yep, you can see when someone posts a private message but you can't see the content or who the recipients are. An attacker *may* be able to correlate message times if you're chatting back and forth quickly.\n- You got it. Assume everything is public unless you're sure it's private. In Patchbay you can click the + next to posts and (if you're a recpient) see `private: true`. For example, when I look at [this post](%qZMV6xKZCK9GR/QphFFcsY7qAlm5x+0ecRKpDVGEzgs=.sha256) I can see the content and `private: true`, which verifies that you (hopefully!) can't see it.\n- Bingo. FDE all the things!\n- The only other thing worth knowing is that (as far as I understand) we don't have perfect forward secrecy in private messages. This means (again, as far as I understand) that if your key is compromised that the attacker will be able to read all of your private messages. More discussion here: %7w2PaPHf7+sOCbg+UGZLuLVZJz1eBIKTGxRDQYXjm88=.sha256\n\nAs always: avoid trusting your life or well-being to cryptographic systems. Scuttlebutt is infinitely better than, say, private messages over Twitter, but it isn't a silver bullet.",
-    "mentions": [
-      {
-        "link": "%qZMV6xKZCK9GR/QphFFcsY7qAlm5x+0ecRKpDVGEzgs=.sha256",
-        "name": "this post"
-      },
-      {
-        "link": "%7w2PaPHf7+sOCbg+UGZLuLVZJz1eBIKTGxRDQYXjm88=.sha256"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 38,
+    "root": "%f73/96+7pkVtMTJdJF5PE9ha2J3EvAQ6zVKgYmYijno=.sha256",
+    "orig": "f7",
+    "dest": "e7",
+    "pgnMove": "Ke7",
+    "fen": "r4r2/pp2k1pp/2pNpn2/7P/3P4/2P5/q4P1P/4KB1R w K - 2 20",
+    "branch": "%MjfSCtUgcKxht+jnCZ3Dy/Sr026GcWklegBLAJglpCY=.sha256"
   },
-  "signature": "6DvxHr9Jrh6ARjSHFncBH0mAKNLnkD/odF5fnJ3qA06n9Mgw35mtfHzFp+Q0T99ohOZpP8Ra/1szabGkl89BCA==.sig.ed25519"
+  "signature": "Ikq1JQYVQ6iARyW7bffMnOO26hXxHdJWELNxH0MeL5foR3kbZeSjoHYbe33uW1Hz2Q/B0I8T2LiRlh6CUewEAQ==.sig.ed25519"
 }
