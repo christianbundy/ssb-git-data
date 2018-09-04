@@ -1,25 +1,21 @@
 {
-  "previous": "%tAMx9edgkzFRRipDkj08fE/nzMtSq0a5Wx7cJ6Pougs=.sha256",
-  "sequence": 3598,
+  "previous": "%Cc2l+ziGt4p1lgr2nSDgIJ0ZPoW/mZR2003Z94v1nl4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536075081996,
+  "sequence": 3599,
+  "timestamp": 1536075265317,
   "hash": "sha256",
   "content": {
-    "type": "position",
-    "version": "v1",
-    "root": "%FhzzDz/b3ze+g35qngwPnNWNPO7nCtYzFcELphca4eQ=.sha256",
-    "details": {
-      "type": "meetingTime",
-      "choices": [
-        0,
-        1,
-        2,
-        6
-      ]
-    },
-    "branch": [
-      "%VSdHV0RVnm3ERAPP000PcRzXvX1VNT+2yRcQlaOtIU4=.sha256"
+    "type": "post",
+    "root": "%WO7WjRFL64mNxgFjrP9jauAVWQ3UZaEMwW7p6EtGyQw=.sha256",
+    "branch": "%KyPAeZg6D3PDwbFIEXeYz7aD6dOeeGhJUZAxhKjZwEM=.sha256",
+    "channel": "ssbc-grants",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nYep, just used it and it looks great, I'm looking forward to a call!\n\nBtw, I'm sure this is something trivial, but I think there may be an off-by-one error in the month output. It's showing Monday the 10th, which is [correctly] September, but the UI is still showing \"Aug\" above the dates. I tried to resolve it on my own but I didn't see anything obvious.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
     ]
   },
-  "signature": "xcr6MVpPXSBd47cTiX6RuxlZM/h8ono7fpV8BGPPo/F6mP8YAERLShxOTOPGomV6WZplQ5vHEtJXpqC9DmeTAQ==.sig.ed25519"
+  "signature": "HjHbuvHlEmJpm/8+iyy2TflboUouIYTxGTqFjns+rmRB404bQ38NAomSProJpH82M436FRZMYSLEGHaKCqvSAQ==.sig.ed25519"
 }
