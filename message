@@ -1,20 +1,17 @@
 {
-  "previous": "%2RRGS0FT14WtXTFAH12or4u2T9lX+GRnCda/6zUbzDY=.sha256",
+  "previous": "%yPRGnP9C3dYrofIE9VMyJzTn5xBsMSZbvWuwpYf07C0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3616,
-  "timestamp": 1536078165017,
+  "sequence": 3617,
+  "timestamp": 1536078371722,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256",
-    "branch": "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256",
-    "reply": {
-      "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256": "@nK6BBtsBMB8+GYmLsBmhSs3FeLDxZfvt+xSO16Lrj9Y=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Interesting, can you find where the other profile's data is being saved? Mine is in `/home/christianbundy/.ssb/`, but if you have a separate profile it sounds like you've likely got another `.ssb` directory hiding somewhere.",
-    "mentions": []
+    "type": "vote",
+    "channel": "ssb-chess",
+    "vote": {
+      "link": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "G+q9Yj0sYDjVyPdpDxVFQhEE8HGkUicgBKP+wQ+j5F72beUBe9mCSE+j4Ng1LnCv+gmGf59PmgaAtJZYSut9CA==.sig.ed25519"
+  "signature": "AYw6qqb0U1UMDOQYkYmJlvFKwIY6d7Ei+df+S9taoUJtRL/xiXWphq9HuREoN8haXtAWB0zyxbUmQtu+07DIBw==.sig.ed25519"
 }
