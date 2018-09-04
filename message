@@ -1,16 +1,29 @@
 {
-  "previous": "%BKV7mhhgKF/t+AIJASY/wCNdrCQsHnvri5xrPxOnk/s=.sha256",
+  "previous": "%oAK1tRHYKzWRz4Cbk1c9dEVxNybpYKrN0wr/5pgBEmw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3827,
-  "timestamp": 1536105232336,
+  "sequence": 3828,
+  "timestamp": 1536105386537,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sEERxuYlK5rJ6lykWCzqomtuYC5/Lof5syNFijYPonM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SzWsd7UsgcRquXAvQprsL2c8wKu0fbnGA5DdBdDIeWA=.sha256",
+    "branch": "%qkeAaldUn+YKOk2atnzpv0aHXklPkjPogxErdSqSf1M=.sha256",
+    "channel": "risks",
+    "text": "> I wonder what would happen if **my client could trust certain other users when they block people**. For instance, if three trusted friends of mine block somebody, my client blocks them too. This might help shut down bad content from replicating within networks that really don't want that content.\n\n[@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519) [@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nYou might dig [this thread](%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256), I'd love to hear your input on the pros and cons.",
+    "mentions": [
+      {
+        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
+        "name": "ike"
+      },
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "KawaiiPunk"
+      },
+      {
+        "link": "%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "dCs/8U9F2jMe2OhKZ1oM7jz7nMsPYyCFyyo351QHZvaf2QlESFqrxxfKyyUbfUq1Zq5WHB+4eNRJMjkS61bMCg==.sig.ed25519"
+  "signature": "+ioUoRtrdoIJlL434urcAq542sI5QIk/gaUBC2c10ThlrBSBCn5JHzkclQsLgS2fG6ZdesscQwHaP+DF4HoGDA==.sig.ed25519"
 }
