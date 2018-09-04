@@ -1,17 +1,21 @@
 {
-  "previous": "%bJ/9abQWxHJRmsNyu6osBB9gUhlm7DWIORPfySnD/mQ=.sha256",
+  "previous": "%M+/103LsjDpO1BBtu5hv36mWiUyKbEwwiyGu6l6W/us=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3618,
-  "timestamp": 1536078381042,
+  "sequence": 3619,
+  "timestamp": 1536079062717,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
+    "branch": "%R7rd9EvTE4ykOqF0e3HQF74Xalv/jO7lJcTgIzdne/o=.sha256",
+    "reply": {
+      "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+      "%R7rd9EvTE4ykOqF0e3HQF74Xalv/jO7lJcTgIzdne/o=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
     "channel": "ssb-chess",
-    "vote": {
-      "link": "%X/0Un9DIOuMPf0suKL4a8B4xFXh/OP8eO7YnSms0lag=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Just to add to the dogpile: ssb-chess is some of the most fun I've had on the web, and it feels like what my buddy Jordan refers to as \"co-puttering\". I never knew the actual definition of \"putter\" until now, but it's something like:\n\n> To be active, but not excessively busy, at a task or a series of tasks.\n\nIt feels good to connect and ~~lose at~~ play chess with friends slowly, and it makes it especially easy to talk about what you're doing in the real world because it isn't a real-time thing where you need to be *busy* and concentrate all of your attention at a screen. I think this is the kind of thing that differentiates Scuttlebutt from other decent(ralized) technology, and the feedback loop of chess over SSB feels sustainable and *good*. Thanks.",
+    "mentions": []
   },
-  "signature": "2QfqLf2lGtD97lifTgV4aXv/E2hL9b+tpWMY6xWuI7NQJ5He/089DtbbB0js+iJAPbzv/qfZf2Xt+qJsMExzBg==.sig.ed25519"
+  "signature": "mwfm9BOzPDKCKrIljUrEYKgdf8WP1wW6r2Drwq0FnGk3J8C5Z83NkAuzcAD476KG8ttdA7n3tVdALxaYyLg+DQ==.sig.ed25519"
 }
