@@ -1,18 +1,23 @@
 {
-  "previous": "%qZMV6xKZCK9GR/QphFFcsY7qAlm5x+0ecRKpDVGEzgs=.sha256",
-  "sequence": 3817,
+  "previous": "%dz5RwurGgQ6zhleUyyLoRhc1sRiB4IdcY4rmHCU+Too=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536102310659,
+  "sequence": 3818,
+  "timestamp": 1536103440772,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 51,
-    "root": "%gdG6Jxrc97FpSbtCOifRahteje9zL7AQ+eV9nLMELAA=.sha256",
-    "orig": "c1",
-    "dest": "a3",
-    "pgnMove": "Ba3",
-    "fen": "2krr3/p4ppp/2p5/1pb5/2p2P2/B2p4/P2P4/R6K b - - 3 26",
-    "branch": "%4FdVm1GSp2Um9h35Gw4KKFMSQiVD+IGu0oAkReopJ3k=.sha256"
+    "type": "post",
+    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "branch": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "text": "- Yes! All content in your feed is cryptographically signed. As far as I understand blobs (images, videos, files) are *not* signed, but the message you use to reference them is.\n- Yep, you can see when someone posts a private message but you can't see the content or who the recipients are. An attacker *may* be able to correlate message times if you're chatting back and forth quickly.\n- You got it. Assume everything is public unless you're sure it's private. In Patchbay you can click the + next to posts and (if you're a recpient) see `private: true`. For example, when I look at [this post](%qZMV6xKZCK9GR/QphFFcsY7qAlm5x+0ecRKpDVGEzgs=.sha256) I can see the content and `private: true`, which verifies that you (hopefully!) can't see it.\n- Bingo. FDE all the things!\n- The only other thing worth knowing is that (as far as I understand) we don't have perfect forward secrecy in private messages. This means (again, as far as I understand) that if your key is compromised that the attacker will be able to read all of your private messages. More discussion here: %7w2PaPHf7+sOCbg+UGZLuLVZJz1eBIKTGxRDQYXjm88=.sha256\n\nAs always: avoid trusting your life or well-being to cryptographic systems. Scuttlebutt is infinitely better than, say, private messages over Twitter, but it isn't a silver bullet.",
+    "mentions": [
+      {
+        "link": "%qZMV6xKZCK9GR/QphFFcsY7qAlm5x+0ecRKpDVGEzgs=.sha256",
+        "name": "this post"
+      },
+      {
+        "link": "%7w2PaPHf7+sOCbg+UGZLuLVZJz1eBIKTGxRDQYXjm88=.sha256"
+      }
+    ]
   },
-  "signature": "2zXM/7QKkVANEYztwjWAgHy8p4XBB8WmJH5XA/7UVrWlzCFOicwGBCdWTZNiKfIKaQw21uaFZE9jLuhLmkR1CQ==.sig.ed25519"
+  "signature": "6DvxHr9Jrh6ARjSHFncBH0mAKNLnkD/odF5fnJ3qA06n9Mgw35mtfHzFp+Q0T99ohOZpP8Ra/1szabGkl89BCA==.sig.ed25519"
 }
