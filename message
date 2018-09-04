@@ -1,30 +1,17 @@
 {
-  "previous": "%/n6cLtO5Q6ZqYn6fQ1lJ5L+ZSEc4Zl9O547Wc4HuLSU=.sha256",
+  "previous": "%Us+k89EdQBIqfi5Ckp/p0gMtav8UMn9Xna7Un+C3JNs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3787,
-  "timestamp": 1536097950758,
+  "sequence": 3788,
+  "timestamp": 1536097963261,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
-    "branch": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
+    "type": "vote",
     "channel": "new-people",
-    "text": "Hey [@NinjaTrappeur](@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519), welcome!\n\nThat's super cool that you've been able to package Patchwork for #nixos, I did the same for #archlinux and it's a lot of fun to maintain. It looks like you're extracting the source code from the AppImage -- is it a pain to use NPM on #nixos?\n\nLooking forward to getting to know you! What part of the world do you hang out most in?",
-    "mentions": [
-      {
-        "link": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519",
-        "name": "NinjaTrappeur"
-      },
-      {
-        "link": "#nixos"
-      },
-      {
-        "link": "#archlinux"
-      },
-      {
-        "link": "#nixos"
-      }
-    ]
+    "vote": {
+      "link": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "rBs9QwHK2Z9+HJUtVJH4Pq45L+/2YYA8urzaZkT1bsASfM7cG27mIyv5IWh4oUDN/DZFN3xvPRtdtCG5/7PVDA==.sig.ed25519"
+  "signature": "fEckKT7z2ozb8sKbd7Z7MD8jO0P9Inoby/g6bn5yjpoagSCIwuI5WAlAfzZeGL7QhuF8x6EmQFKyw26igfD9DQ==.sig.ed25519"
 }
