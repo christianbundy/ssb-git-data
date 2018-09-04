@@ -1,21 +1,16 @@
 {
-  "previous": "%Jm7Sh5xsuJdLOHLVFFoqoOQdNJ6seTD1Q/AUeMFswz0=.sha256",
+  "previous": "%MoDSqO125CJz7HevwGScFiJe4mfuF2xC2IH3skAqViw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3790,
-  "timestamp": 1536098189271,
+  "sequence": 3791,
+  "timestamp": 1536098234342,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
-    "branch": "%i8puw0J27eNly2f6PreFcHAqRhW3eizjei+lp9ipJBk=.sha256",
-    "channel": "ssb-chess",
-    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nYep! Your identity lives in a directory called `.ssb` in your home directory, so any client you use *should* continue using the same directory. The main downside (currently) is that when you switch between clients there will be a period of \"reindexing\" where the client rearranges the data to its preferences, which can take a few minutes.",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "KawaiiPunk"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%vuYBwQ3K63XTScvh9vhEUsuwTwVqXY6jHhAjuzuIo7U=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "V6o4Rfe3dW57iZAQy51LD2An0vY8WjU1OORWh5bnpt1KGhSLzpiw9d/uIRbiBLEt/hiLrUv3OHVTj13xQrc8Dw==.sig.ed25519"
+  "signature": "y6VksuOXLkDT9ZiC2SeyowdjuqIBTELnUk9gthbi4BV79rITqKh6rKS95Gv+/fh13S2LaNoLjThMc1JnnrnKDw==.sig.ed25519"
 }
