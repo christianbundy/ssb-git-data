@@ -1,17 +1,31 @@
 {
-  "previous": "%zozsrGXacH6kcJL/LyJ0LtUIrvxuAyxr2igLuqpcZkY=.sha256",
+  "previous": "%bt6Ykkx6noY3xCpNn3LDFJHd9kPNdc9Mx2WkmXZZR60=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3804,
-  "timestamp": 1536099052811,
+  "sequence": 3805,
+  "timestamp": 1536099557887,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%aD+yVS6TKRLEEyWH+5b3qA29IsEHZ9ZmVQJAma/BS6w=.sha256",
+    "branch": "%aD+yVS6TKRLEEyWH+5b3qA29IsEHZ9ZmVQJAma/BS6w=.sha256",
     "channel": "concept-art",
-    "vote": {
-      "link": "%aD+yVS6TKRLEEyWH+5b3qA29IsEHZ9ZmVQJAma/BS6w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "I don't know if you've seen the movie Annihilation, but the first image looks like *the shimmer*: \n\n![the shimmer annihilation movie screenshot](&Z+eNo/UVALQtoYABt+w0T7U3KPpQsGBdXbNcG6hPoNM=.sha256)\n\nI ended up watching the movie because someone ( [@dan hassan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)? ) posted a screenshot a few months ago and all I could find was [this discussion](%sDPXpmJJeIPWIkCZrclE3b8d214+Q0jDnTfJEIo4uyw=.sha256) when I tried to reuse the blob.\n\nAlso, the third one looks like a carnivorous psychedelic fractal flower and I have no idea why I find it so creepy.",
+    "mentions": [
+      {
+        "link": "&Z+eNo/UVALQtoYABt+w0T7U3KPpQsGBdXbNcG6hPoNM=.sha256",
+        "name": "the shimmer annihilation movie screenshot",
+        "type": "image/jpeg",
+        "size": 290145
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan hassan"
+      },
+      {
+        "link": "%sDPXpmJJeIPWIkCZrclE3b8d214+Q0jDnTfJEIo4uyw=.sha256",
+        "name": "this discussion"
+      }
+    ]
   },
-  "signature": "zK6UPAqwHCD9cdjwh4sJff8+jre9mownEx+E3O2I3ZU5RN2FRF9xTdu8m/53qxL8gd0GxINq7qfdMQsVndfpDg==.sig.ed25519"
+  "signature": "Vttw7XwAKBbw/7hCWkBQu/WClYQGNObjYHi0/y7E2cdDoH+3By8vyPj/PzNQDAIlTT8wEqCfBL78zo1Fz0R5DA==.sig.ed25519"
 }
