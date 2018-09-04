@@ -1,18 +1,30 @@
 {
-  "previous": "%oc5PSqsivbBqg0RoOEojmX5J1GL2I9i+G5Yua+y1TsY=.sha256",
-  "sequence": 3786,
+  "previous": "%/n6cLtO5Q6ZqYn6fQ1lJ5L+ZSEc4Zl9O547Wc4HuLSU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536097776054,
+  "sequence": 3787,
+  "timestamp": 1536097950758,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 36,
-    "root": "%f73/96+7pkVtMTJdJF5PE9ha2J3EvAQ6zVKgYmYijno=.sha256",
-    "orig": "e7",
-    "dest": "f7",
-    "pgnMove": "Kxf7",
-    "fen": "r1N2r2/pp3kpp/2p1pn2/7P/3P4/2P5/q4P1P/4KB1R w K - 0 19",
-    "branch": "%RCd6fJ+92SJ1DTn8qHYHFVsXCJcFaN+r6SI2Pp0iGiQ=.sha256"
+    "type": "post",
+    "root": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
+    "branch": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
+    "channel": "new-people",
+    "text": "Hey [@NinjaTrappeur](@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519), welcome!\n\nThat's super cool that you've been able to package Patchwork for #nixos, I did the same for #archlinux and it's a lot of fun to maintain. It looks like you're extracting the source code from the AppImage -- is it a pain to use NPM on #nixos?\n\nLooking forward to getting to know you! What part of the world do you hang out most in?",
+    "mentions": [
+      {
+        "link": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519",
+        "name": "NinjaTrappeur"
+      },
+      {
+        "link": "#nixos"
+      },
+      {
+        "link": "#archlinux"
+      },
+      {
+        "link": "#nixos"
+      }
+    ]
   },
-  "signature": "QY6x+Kx3z6uL1Bf2IEitEwvKNZQ+b/OHGy1wRyFmACvQ8nHd668U5ZnBy2wxOlWrp5fjNAomsKzZWx1TmpRKCg==.sig.ed25519"
+  "signature": "rBs9QwHK2Z9+HJUtVJH4Pq45L+/2YYA8urzaZkT1bsASfM7cG27mIyv5IWh4oUDN/DZFN3xvPRtdtCG5/7PVDA==.sig.ed25519"
 }
