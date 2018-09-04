@@ -1,17 +1,21 @@
 {
-  "previous": "%Us+k89EdQBIqfi5Ckp/p0gMtav8UMn9Xna7Un+C3JNs=.sha256",
+  "previous": "%rHm6hVL2J6G8nHYrpAELNXqCmiEj14VQ5n1pZXWrvuk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3788,
-  "timestamp": 1536097963261,
+  "sequence": 3789,
+  "timestamp": 1536098043591,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%3d5yA0Sq9cP1yw8a30nGijTLdRGGZiqAeDcQwfO5DDw=.sha256",
+    "branch": "%g9rlHQp2HvjswSamjlC1Qqt7cr2JlbgWAu7fJyG4Amc=.sha256",
     "channel": "new-people",
-    "vote": {
-      "link": "%J3sEM+PiuCgqgEVbD1aV2YdSK0pwb4g/jLcE7/kjM5I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@g](@X5vvJ0eB5pmA7sGOjTqNZLQFgLOynsvOFWELXs2BIHI=.ed25519) \n\nYeah, I'd just use a slightly different name on your other device until we have a better long-term solution for multiple devices. Something like \"g.mobile\", \"g.phone\", or whatever makes the most sense to you. ",
+    "mentions": [
+      {
+        "link": "@X5vvJ0eB5pmA7sGOjTqNZLQFgLOynsvOFWELXs2BIHI=.ed25519",
+        "name": "g"
+      }
+    ]
   },
-  "signature": "fEckKT7z2ozb8sKbd7Z7MD8jO0P9Inoby/g6bn5yjpoagSCIwuI5WAlAfzZeGL7QhuF8x6EmQFKyw26igfD9DQ==.sig.ed25519"
+  "signature": "VZ+vsgKCFuaQ6oflADEyVPvmk9CHNZdWvZTpHRW5VEAn3q5CCdSjqAl2BIqeJP0HT5dWCh803MxNsU2Uto8iBw==.sig.ed25519"
 }
