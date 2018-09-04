@@ -1,21 +1,21 @@
 {
-  "previous": "%rHm6hVL2J6G8nHYrpAELNXqCmiEj14VQ5n1pZXWrvuk=.sha256",
+  "previous": "%Jm7Sh5xsuJdLOHLVFFoqoOQdNJ6seTD1Q/AUeMFswz0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3789,
-  "timestamp": 1536098043591,
+  "sequence": 3790,
+  "timestamp": 1536098189271,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%3d5yA0Sq9cP1yw8a30nGijTLdRGGZiqAeDcQwfO5DDw=.sha256",
-    "branch": "%g9rlHQp2HvjswSamjlC1Qqt7cr2JlbgWAu7fJyG4Amc=.sha256",
-    "channel": "new-people",
-    "text": "[@g](@X5vvJ0eB5pmA7sGOjTqNZLQFgLOynsvOFWELXs2BIHI=.ed25519) \n\nYeah, I'd just use a slightly different name on your other device until we have a better long-term solution for multiple devices. Something like \"g.mobile\", \"g.phone\", or whatever makes the most sense to you. ",
+    "root": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
+    "branch": "%i8puw0J27eNly2f6PreFcHAqRhW3eizjei+lp9ipJBk=.sha256",
+    "channel": "ssb-chess",
+    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nYep! Your identity lives in a directory called `.ssb` in your home directory, so any client you use *should* continue using the same directory. The main downside (currently) is that when you switch between clients there will be a period of \"reindexing\" where the client rearranges the data to its preferences, which can take a few minutes.",
     "mentions": [
       {
-        "link": "@X5vvJ0eB5pmA7sGOjTqNZLQFgLOynsvOFWELXs2BIHI=.ed25519",
-        "name": "g"
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "KawaiiPunk"
       }
     ]
   },
-  "signature": "VZ+vsgKCFuaQ6oflADEyVPvmk9CHNZdWvZTpHRW5VEAn3q5CCdSjqAl2BIqeJP0HT5dWCh803MxNsU2Uto8iBw==.sig.ed25519"
+  "signature": "V6o4Rfe3dW57iZAQy51LD2An0vY8WjU1OORWh5bnpt1KGhSLzpiw9d/uIRbiBLEt/hiLrUv3OHVTj13xQrc8Dw==.sig.ed25519"
 }
