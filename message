@@ -1,17 +1,23 @@
 {
-  "previous": "%OAGg45Hd5NuSStMWaoCsdXEWTAqSA46xPFoxW4VsjgI=.sha256",
+  "previous": "%FY2qBGD+nGIDQIhkSToUaBcdkVlcOt+5yIBBe2mE8js=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3631,
-  "timestamp": 1536082036756,
+  "sequence": 3632,
+  "timestamp": 1536082167076,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%b0AZFFZGKDvojDghw7DUuAoNHF1BjO7+RlzXij4oBG4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xTBPovThSLz4No+aBccaG4HNy2OYTViHzHlbxNRDAHo=.sha256",
+    "branch": "%b0AZFFZGKDvojDghw7DUuAoNHF1BjO7+RlzXij4oBG4=.sha256",
+    "text": "[@GCU Prosthetic Conscience](@Yr0KQDRj3y2STr8MKAhSp88JMckaeLNn/dwfaYB64q8=.ed25519) \n\nYeah, or we can set up a #dark-crystal style quorum where you can say \"when 3 out of these 6 friend block someone, I want them blocked automatically\". So many options, but I think we'll likely figure it out as we go. I couldn't agree more though, public pubs may become a growing pain as the network expands.",
+    "mentions": [
+      {
+        "link": "@Yr0KQDRj3y2STr8MKAhSp88JMckaeLNn/dwfaYB64q8=.ed25519",
+        "name": "GCU Prosthetic Conscience"
+      },
+      {
+        "link": "#dark-crystal"
+      }
+    ]
   },
-  "signature": "srFQWFWaXPSMXeYb6f3qTPHsxHDCWJt7j+x+L4tpofMPji9hTaoMXA557UTVJmoY6pWr/c1ue8f9nG6DgMS4BQ==.sig.ed25519"
+  "signature": "2f21hOCt0HcjiGctupFj6ReIlXdybeJu2JGyP6ycGrP16lcDPQg9+qz+ASLdEio9GHxRrCdqQpS3biq2hsgcBA==.sig.ed25519"
 }
