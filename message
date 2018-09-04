@@ -1,18 +1,22 @@
 {
-  "previous": "%KTlTBAWeOaO3ogk25n95f2NKcbvD2h757jtT6mW4aNM=.sha256",
-  "sequence": 3735,
+  "previous": "%uWn5VDl+MFovIJ1cMLC2U1n3vr8LGmJPzd6jNjbDgJ0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536090823455,
+  "sequence": 3736,
+  "timestamp": 1536091117530,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 70,
-    "root": "%AwMsQhh79oY99wnhDe8lu5QMzZu/dZr5bHHn2OqFp7U=.sha256",
-    "orig": "h5",
-    "dest": "h4",
-    "pgnMove": "Rxh4",
-    "fen": "4k1n1/1p3pp1/8/1p1bbP2/7r/3K3B/8/8 w - - 0 36",
-    "branch": "%MBXjUxTEMtF+l6xBpvO2GxfM0SX4+NhJlrX+r4SPk9U=.sha256"
+    "type": "post",
+    "channel": "sameas",
+    "text": "I've been shopping around for `sameAs`-like implementations, and after talking with [@dbzer0](@LGZS57soP7rTGHVJdNXTKGVG1jUhQTVxPn4Z5VVIW8Y=.ed25519) about \"sigchains\" I found that Keybase also uses the term. I looked at their documentation and found that they have a concept of \"sibkeys\":\n\n> A Keybase account can have any number of sibling keys (called sibkeys) which can all sign links. This is different from PGP, which has a “master key” that you’re expected to keep tucked away in a fireproof safe — because if you misplace a device that has a copy of it, your only option is to [revoke the whole key and start from scratch](http://www.apache.org/dev/key-transition.html. We discuss this problem in a [blog post](https://keybase.io/blog/keybase-new-key-model).\n> \n> You add and remove sibkeys by adding links to your sigchain. Since every link is checked against the state of the account at that point in the sigchain, old links remain valid even if their signing keys are revoked later. Revoking a key doesn’t affect your identity proofs, other keys, or followers.\n\nhttps://keybase.io/docs/sigchain\n\nHas anyone heard of the \"sibkey\" concept, or have any thoughts on how that relates to `sameAs` and such?\n\ncc: #ssb-dev",
+    "mentions": [
+      {
+        "link": "@LGZS57soP7rTGHVJdNXTKGVG1jUhQTVxPn4Z5VVIW8Y=.ed25519",
+        "name": "dbzer0"
+      },
+      {
+        "link": "#ssb-dev"
+      }
+    ]
   },
-  "signature": "IbnJTnYl+ZcySHOxoUYWWXfsX6iwesuKlURj33C/I9DPm7+aEHSPCtWjRKcbCrxPoUJU2yRK/6x1pajSSbm1Dw==.sig.ed25519"
+  "signature": "c52GTYqsbD3jVxtnbqekMT7paaxTVfmuzhfo1/MH1JzeR2T8uBvDvwDM4ahWksQcdZkDha/5h19Xqz/4e/HaDA==.sig.ed25519"
 }
