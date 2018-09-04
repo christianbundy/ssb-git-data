@@ -1,21 +1,17 @@
 {
-  "previous": "%Cc2l+ziGt4p1lgr2nSDgIJ0ZPoW/mZR2003Z94v1nl4=.sha256",
+  "previous": "%8DkOZwvSrqqlAiKHgA3zzGWbJc0u/SpBvAa9bVv03ik=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3599,
-  "timestamp": 1536075265317,
+  "sequence": 3600,
+  "timestamp": 1536075688386,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%WO7WjRFL64mNxgFjrP9jauAVWQ3UZaEMwW7p6EtGyQw=.sha256",
-    "branch": "%KyPAeZg6D3PDwbFIEXeYz7aD6dOeeGhJUZAxhKjZwEM=.sha256",
-    "channel": "ssbc-grants",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nYep, just used it and it looks great, I'm looking forward to a call!\n\nBtw, I'm sure this is something trivial, but I think there may be an off-by-one error in the month output. It's showing Monday the 10th, which is [correctly] September, but the UI is still showing \"Aug\" above the dates. I tried to resolve it on my own but I didn't see anything obvious.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%jIdmMRqeDZWyKMT6N/r9QtOVVrzwfhfAy/pjMKcCp0I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "HjHbuvHlEmJpm/8+iyy2TflboUouIYTxGTqFjns+rmRB404bQ38NAomSProJpH82M436FRZMYSLEGHaKCqvSAQ==.sig.ed25519"
+  "signature": "wKwJiB2ykEcYAvp34Wj/sKx5FK9DJavtrX+6h0fsCuwZ8h/vj7ITtBW5FwgJeco+qswjdSIk0IC0xU1wyADgBA==.sig.ed25519"
 }
