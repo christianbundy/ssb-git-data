@@ -1,17 +1,20 @@
 {
-  "previous": "%gYBgA4la72OR5Hj/qsu4/Mgz2Nz2rUc5rXIkAqNdZa8=.sha256",
+  "previous": "%2RRGS0FT14WtXTFAH12or4u2T9lX+GRnCda/6zUbzDY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3615,
-  "timestamp": 1536077986455,
+  "sequence": 3616,
+  "timestamp": 1536078165017,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%aSnfTJNAGz2Eq23xRNeGgfRHDExgVr232WznMA/Xzl4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256",
+    "branch": "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256",
+    "reply": {
+      "%Ai621weVnXv+11FP2VNvjHfCfVMz9xFkbW38JGoI3xo=.sha256": "@nK6BBtsBMB8+GYmLsBmhSs3FeLDxZfvt+xSO16Lrj9Y=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Interesting, can you find where the other profile's data is being saved? Mine is in `/home/christianbundy/.ssb/`, but if you have a separate profile it sounds like you've likely got another `.ssb` directory hiding somewhere.",
+    "mentions": []
   },
-  "signature": "2B/mTf6OAgZhugjlpa4nCz7Cskdn45EcNOeBlIMfN2Egtfs7UdOlG5ZiR+/vVaupTDZn6zzs6OfItwsA2x1aDQ==.sig.ed25519"
+  "signature": "G+q9Yj0sYDjVyPdpDxVFQhEE8HGkUicgBKP+wQ+j5F72beUBe9mCSE+j4Ng1LnCv+gmGf59PmgaAtJZYSut9CA==.sig.ed25519"
 }
