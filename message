@@ -1,18 +1,19 @@
 {
-  "previous": "%xi4Qia9VsPOnIcw0x0AJpNWPaH5C+TSgmVSAoaaeEks=.sha256",
-  "sequence": 3724,
+  "previous": "%MkDFTAITYYyHFQ2213lMjcJBS022snOuBMnGl5bwUdk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536090068418,
+  "sequence": 3725,
+  "timestamp": 1536090347765,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 33,
-    "root": "%gdG6Jxrc97FpSbtCOifRahteje9zL7AQ+eV9nLMELAA=.sha256",
-    "orig": "b2",
-    "dest": "b4",
-    "pgnMove": "b4",
-    "fen": "r3kb1r/pp1n1ppp/2p4q/4N3/1Pp2P2/2NpP3/P2P4/R1B2QK1 b kq b3 0 17",
-    "branch": "%7oa55BcLn5hT2KPo+KOgXptgyzSFQYv2LZz+Wei/MhM=.sha256"
+    "type": "post",
+    "text": "I remember reading about this *way back when*, but are there any reasons not to use blobs for many/most/all posts? The [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) bot has been hitting the post size limit repeatedly and I'm trying to come up with a solution that doesn't involve splitting the Markdown programatically.",
+    "channel": "ssb-learning",
+    "mentions": [
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      }
+    ]
   },
-  "signature": "f9hf9eylVbuwJReH8Kw2EUlzIovij8QvTyc69f2biDR5B5P2TyFihJMNGektcM6e6v6Om3YYFxliQA/swSm7BA==.sig.ed25519"
+  "signature": "nT6dMOXeqrNc11zji4MQx75qnfrVMEJ0N4T//JNGKdSBm3CX4F1ajP4GCP+SUrmXH9+k4K7dr722kBaMHvMcBg==.sig.ed25519"
 }
