@@ -1,17 +1,20 @@
 {
-  "previous": "%g5VhC3EeQbBEdgRpY8iBZMwMFRAe2Itz2bKYgnQY9jw=.sha256",
+  "previous": "%4Do07CWWGL4dcJfUavtpKXsP4VV4SfVM/L7pg0r29Io=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3717,
-  "timestamp": 1536089573685,
+  "sequence": 3718,
+  "timestamp": 1536089909719,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "chess",
-    "vote": {
-      "link": "%xdKAKw9GO9H9lZyd00Z7hHdkOYUloTvXbRxTjix5ck4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%E3OZ+JSr4atlsz2mSyaVrkmNJu9RbWRWImuINiZh7PE=.sha256",
+    "branch": "%E3OZ+JSr4atlsz2mSyaVrkmNJu9RbWRWImuINiZh7PE=.sha256",
+    "text": "[@dbzer0](@LGZS57soP7rTGHVJdNXTKGVG1jUhQTVxPn4Z5VVIW8Y=.ed25519)\n\nI wish there was an easier way to delineate the difference between global blockchains (like Bitcoin) and single-author gossip-based \"blockchains\" like Scuttlebutt (e.g. your post was block #31 in your chain). ",
+    "mentions": [
+      {
+        "link": "@LGZS57soP7rTGHVJdNXTKGVG1jUhQTVxPn4Z5VVIW8Y=.ed25519",
+        "name": "dbzer0"
+      }
+    ]
   },
-  "signature": "7uFZehh/G/YAdILtMrupu/3G6UXxgprjHdAI9ILTOyerBb4pNd6z88C4qbVd/u9DjZvOoh6HbRH98opbLbziAQ==.sig.ed25519"
+  "signature": "qG4dYEJ6Wy08RLx+QEl/le8c9OmmTbcU5I+Hc+jmjTUWANWYWtxiwCWyKw9yPHhuQhdcHnLpAKyB9yOqcOXwDw==.sig.ed25519"
 }
