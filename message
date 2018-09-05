@@ -1,13 +1,17 @@
 {
-  "previous": "%JhvUCg5/Oc1cKecDGdefDpN0L126q58q5FG4Jpw62Bw=.sha256",
+  "previous": "%od3lAF35GQqgoeXee/UTrmGaS+yP0MZO3bFaF6RP7FA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3869,
-  "timestamp": 1536157941743,
+  "sequence": 3870,
+  "timestamp": 1536157985247,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-    "name": "mikey"
+    "type": "vote",
+    "channel": "patchwork-dev",
+    "vote": {
+      "link": "%Bsoq076eGE0g7YyWz2Wzh8TqM1SS6L0gg8nAwBV/wuo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LRrww3kVBRHV0cx6EW3iDF00jdIvysMVP63uQ7DecTWWP+j1zd5MVwpgUP0Mlbvf4Mgz0rxwYpxhOOsy6hDTDQ==.sig.ed25519"
+  "signature": "UGHz47xScSbxyTTDeBPsOKBdHxoj4lRMiI7PmFFvV4xnVlxxXfZ/1pW9iYHy1MyaMUNPBy3tPTDZjeoSVbZlBA==.sig.ed25519"
 }
