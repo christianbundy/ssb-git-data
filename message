@@ -1,29 +1,31 @@
 {
-  "previous": "%oAK1tRHYKzWRz4Cbk1c9dEVxNybpYKrN0wr/5pgBEmw=.sha256",
+  "previous": "%4J3d+6MCQMasTcSfBOVP2pQXD9rGolYPr4RXw3NkG2Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3828,
-  "timestamp": 1536105386537,
+  "sequence": 3829,
+  "timestamp": 1536106055354,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%SzWsd7UsgcRquXAvQprsL2c8wKu0fbnGA5DdBdDIeWA=.sha256",
-    "branch": "%qkeAaldUn+YKOk2atnzpv0aHXklPkjPogxErdSqSf1M=.sha256",
-    "channel": "risks",
-    "text": "> I wonder what would happen if **my client could trust certain other users when they block people**. For instance, if three trusted friends of mine block somebody, my client blocks them too. This might help shut down bad content from replicating within networks that really don't want that content.\n\n[@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519) [@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nYou might dig [this thread](%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256), I'd love to hear your input on the pros and cons.",
+    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "branch": "%3DIv0LGr10goRTHcvSuEKLeJ+YYIZ11E2UnqkOzIaF8=.sha256",
+    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\n> Would be interested to know if this is the case.\n\nMy understanding is that blobs are unsigned and are only addressed by the hash of their content, but if an attacker had a copy of the entire network (currently semi-trivial) they could probably figure out who posted the blob publicly first. I could've sworn I'd heard someone talking about using blobs for all posts (which means the content is off-chain and can be deleted) but I can't find any threads on it.\n\nSomehow [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) has links for *everything*, fingers crossed? :sparkles: \n\n> Nope, could be useful for immutable notes or reminders or something.\n\nThat message is actually a `chess_chat` post from me to [@nealeratzlaff](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519). The recipients (him and me) can read it but to everyone else it just shows up as garbled `content`.\n\n> I wonder if it is possible to delete private messages locally? That could be useful in some circumstances.\n\nI don't know, this may be a good question to post to (#)ssb-learning or maybe even (#)ssb-dev. Some clients (like MVD) can edit posts, but those edits are on-chain and immutable so you can't actually hide anything that you'd like to get rid of. Blobs, on the other hand, can be deleted and I don't believe they'll be re-downloaded unless you download a new message with that blob. Don't trust any of the above, definitely double-check for yourself.\n\n> Also what are the chances of your public posts being put on to the normal internet?\n\nAssume 100%, although the default Scuttlebutt viewer code refuses to show people who have given consent. There's a checkbox on your profile in Patchbay to opt in if you'd like, I'm not sure whether there's one in Patchbay. For example, here's your post (\"User has not chosen to be hosted publicly\"):\n\nhttp://viewer.scuttlebot.io/%3DIv0LGr10goRTHcvSuEKLeJ+YYIZ11E2UnqkOzIaF8=.sha256\n\nHere's a thread on that change to require opt-in: %Rm7Bo44sEMELc8HTvgNPK4UR7KWXZwJyHpEw7/ERTH8=.sha256",
     "mentions": [
-      {
-        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
-        "name": "ike"
-      },
       {
         "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
         "name": "KawaiiPunk"
       },
       {
-        "link": "%F46h+hDFp3t80eoG+6KDHMUBUDiaprdDjmSwwnpVkPo=.sha256",
-        "name": "this thread"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
+        "name": "nealeratzlaff"
+      },
+      {
+        "link": "%Rm7Bo44sEMELc8HTvgNPK4UR7KWXZwJyHpEw7/ERTH8=.sha256"
       }
     ]
   },
-  "signature": "+ioUoRtrdoIJlL434urcAq542sI5QIk/gaUBC2c10ThlrBSBCn5JHzkclQsLgS2fG6ZdesscQwHaP+DF4HoGDA==.sig.ed25519"
+  "signature": "N1XMnfmj729fJVCubOQTllxCvcBzg8jT7pecD0BIPpuWWuVLvIfLv2sCdpUUe3ebRx0IU9ey2W7UD6IVUGOJCA==.sig.ed25519"
 }
