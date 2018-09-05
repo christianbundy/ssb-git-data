@@ -1,15 +1,17 @@
 {
-  "previous": "%zqB2+zRujFdiyv7yBi/1iu0WiDktsabeNF9KkRvmCa8=.sha256",
+  "previous": "%IkzTJr7sstXvM7nwVtHUqCXwyRCcWOxhtxg2FWUxdjc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3832,
-  "timestamp": 1536106313291,
+  "sequence": 3833,
+  "timestamp": 1536106411830,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%p7p/t3J10e9B7NmsrxvXmmXYMWPwhPebth7fEAaz5x0=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    "type": "vote",
+    "channel": "podcasts",
+    "vote": {
+      "link": "%zVx7UZOhWXukwB2vF21ijJ0FzBhLDuo+dzfLtBkS9xk=.sha256",
+      "value": 1,
+      "expression": "Like"
     }
   },
-  "signature": "mnxWkzh0ghce1honaa0+w11oQw13XYDU780hmMgJiFqFtEHxq3mBDQLvmjo7YEwkOJCaafjF0hTr0qzvjvS7Ag==.sig.ed25519"
+  "signature": "hdQ0mWxNYtNNG3A73/B8ihW/RuvOgltPu/VJg37LL//ZxI4q7p6x/P4lHaRY17Gzk+g5uP9k5Di2Kv9wEu+pDA==.sig.ed25519"
 }
