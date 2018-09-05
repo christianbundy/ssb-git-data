@@ -1,16 +1,23 @@
 {
-  "previous": "%DP1gWxP/HnIWrdtPfmAoCnDWgvIYTPd42xibzBeweOQ=.sha256",
+  "previous": "%0DiK+OxfHTk1uMbJsw7FswAmtKw/jk6RLvHaerOeIPQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4013,
-  "timestamp": 1536189130911,
+  "sequence": 4014,
+  "timestamp": 1536189158209,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xj6Bkr6JrHG5EItmV4dum4nQnz6LI/LJivbr29/Lbsg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "branch": [
+      "%HtOlDGj3cs3DZxwSNm34zLb9hGzukhy5xUZYDtKj+jo=.sha256",
+      "%xj6Bkr6JrHG5EItmV4dum4nQnz6LI/LJivbr29/Lbsg=.sha256"
+    ],
+    "text": "Thank you [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)!\n\nI've gotta ask -- do you have a method of organizing all of these links, or is your search fu just especially strong?",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "LL38/JEQdBu1lPQcIMeVclNsdJv5z+zdX66TFTR9ICMpBQhXxW5FyzNqWwHQh/5LivjJIhc2mlYrZ2xLNXS1Cw==.sig.ed25519"
+  "signature": "oroCkaspElq4QKdWXzGmWUOUXR1u7gvrF99Qo175MpvQOkT4+e8vtfPeM7eDw3Un3y7lKqyvWfH8C7xlHi0wAg==.sig.ed25519"
 }
