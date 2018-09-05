@@ -1,13 +1,21 @@
 {
-  "previous": "%ZbVw+y61i6wcM2HXX2fOMnSgNWq/nyi5ssJarFQMIOA=.sha256",
+  "previous": "%Ev+8t6Erm6/mVxs0CRHs5lsHG9HoB8plFseshyjVNkA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3834,
-  "timestamp": 1536106415616,
+  "sequence": 3835,
+  "timestamp": 1536112926787,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@URIdonHSF4eAIZVqPPe6I+lkDd19Bl0T/t4/umwtbo4=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%sMiqt/jTOg8OGASNwzCxEUakDpp9rldZsyrw+OnUk/w=.sha256",
+    "branch": "%1NYg/JF2xTt8gUDPwMLmwn4ssAH7p1KL7yvrCkguq0E=.sha256",
+    "channel": "ssb-learning",
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nI'm most familiar with database systems like PostgreSQL, MariaDB, MongoDB, etc., where the data storage and the organization/indexing is done by the same process. Would it be correct to say that those are separated into two components in the flumedb/leveldb system? Also, is there a name for the type of system we have? I'm also familiar with basic data stores like Redis, but I'm not sure whether that's similar (or even a helpful parallel).",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
+      }
+    ]
   },
-  "signature": "wav8wmqtHoHDiQHeI3AlIEZAf2uh5+6kts8eZ3nKerf2LDlTxBE/2t/jd39BLKs0wiX1KXGwHvSSLktwFH/GBA==.sig.ed25519"
+  "signature": "glMwfNEEQzP0tTuDEFAoPWfQDsn75kJ2aHTTOdkXPGOVKtquShJ0ozEvN1PUX417wlr4mxl7eitL49IXLbOvCw==.sig.ed25519"
 }
