@@ -1,27 +1,18 @@
 {
-  "previous": "%kQbxowAlObaNgeNJiJUhP0q1wrBeiuapWH7Emwr1KGM=.sha256",
+  "previous": "%31vQzkAo8deps2SZ1UiaMeve7zQ4oX1lOJQCnkmtnC0=.sha256",
+  "sequence": 3930,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3929,
-  "timestamp": 1536175122255,
+  "timestamp": 1536175190601,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Xq+v2C2XJflsnHdFxWuj0sci8xshZ1BQ894Du+I2pcE=.sha256",
-    "branch": "%dUMKYWrrzocLiShPZYzbCwZamvi3fiLoz89jnqHgBJE=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nThanks! I'll see whether I can get that working in my Node process. I've never heard of #crystal before!\n\nIt seems to me that some sort of \"blob unboxing\" might be useful here, where you could set `content` to a blob ID and have it unboxed like private messages. I imagine this would have a few neat side-effects:\n\n- feeds remain tiny and blobs can be deleted at any time\n- private messages appear to all be the same size (just the blob ID)\n- massively simplifies message verification \n- post size limit is circumvented\n\nParallel discussion: %8mNey2JaFKAUvv7aXlj1wXnwH550ivlH4EhHahgt8dY=.sha256",
-    "mentions": [
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "#crystal"
-      },
-      {
-        "link": "%8mNey2JaFKAUvv7aXlj1wXnwH550ivlH4EhHahgt8dY=.sha256"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 7,
+    "root": "%13IO9ZXU7jyb9igm5BeraNdgsp8Bkz0CUNKXYcQI/xg=.sha256",
+    "orig": "a2",
+    "dest": "a4",
+    "pgnMove": "a4",
+    "fen": "rnbqkbnr/ppp2pp1/3p4/4p2p/P1P1P3/5N2/1P1P1PPP/RNBQKB1R b KQkq - 0 4",
+    "branch": "%oJEB0uGGEKgPQHmx3GcbZLbPC+i+9bZv1ur1IUrxc24=.sha256"
   },
-  "signature": "pnPeDEHc6xMyvndvcAILEpwwDemYa5TB49nLkJFQh+1lk1B9tqs+KuLmTHs4cBmFMFAgrqBPEr6or/01RJLRAA==.sig.ed25519"
+  "signature": "Jp2YK8qF1h6Y6xh8EkyIXgV7Arq9cSkOJzDBCwcTrWVrI245GuUFztigOaEWHc8i0xPPJSWu4BURyVvDh4deCQ==.sig.ed25519"
 }
