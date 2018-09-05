@@ -1,17 +1,25 @@
 {
-  "previous": "%9qJKsD5RxkJnT/sQi9EBNsz+jwMEWsmysKd/N3EB6Ws=.sha256",
+  "previous": "%KlYwaP74LC5feY1GkqnKdmDWBzu9AY6En/IlZkB5icw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3863,
-  "timestamp": 1536121139787,
+  "sequence": 3864,
+  "timestamp": 1536121376907,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%cXIMRExwkUvOShao0Ae806fXC8SkkqtId1NgUp8WS7M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%QmlBhUm5t4CWDZixYF07KUxtB/k1nRW/j8SWk1jGLO0=.sha256",
+    "branch": "%/CKg8JOCYeNauXzlX/747BOk57GdMliLxee7zFnQFoE=.sha256",
+    "channel": "wikipedia",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nIt me. I'm currently [having trouble with the post size](%Xq+v2C2XJflsnHdFxWuj0sci8xshZ1BQ894Du+I2pcE=.sha256) but otherwise it's pretty straightforward. I've got the code on GitLab:\n\nhttps://gitlab.com/christianbundy/ssb-current-events/",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "%Xq+v2C2XJflsnHdFxWuj0sci8xshZ1BQ894Du+I2pcE=.sha256",
+        "name": "having trouble with the post size"
+      }
+    ]
   },
-  "signature": "xMnnhHpgvasP1eVgDqxBsFDlRCUTv8aDeI7Xxed70D/XpgtRhpfL0nglFDQwxxTigwpKhhIsno12wilFzpcnAQ==.sig.ed25519"
+  "signature": "EpSHxorQWuCKQOOXyIktDkUsCMWF8iBjCH9AtUyAVMNcRCvkm82vIPiTdOTUUd0Dwt6ddK9nv583UU9xXBvgDA==.sig.ed25519"
 }
