@@ -1,17 +1,23 @@
 {
-  "previous": "%xH7kCrJt6+E6WNrhfYQBCc6n4xmyZeCjoaHoYwFhT4w=.sha256",
+  "previous": "%uWdqpAxAt5A37mJomNFkeEXRYqfBv0A8GL+2WsWwCi4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3861,
-  "timestamp": 1536120193092,
+  "sequence": 3862,
+  "timestamp": 1536120463619,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "newuser",
-    "vote": {
-      "link": "%N5bcBtNk7VuylePxD2i4eCHgKFKtaHvWEpqAaxMWnVU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
+    "branch": "%atj0Q45dqlcSD4P9SQ0PtowqWVHvRXlhzrdbDR7//kc=.sha256",
+    "channel": "ssb-chess",
+    "text": "Just took ssb-usage-stats and made a small change to count *only* `chess_move` posts. Here's a small graph of the number of people playing ssb-chess each day. I'm the black pixels.\n\n![ssb-chess daily active users ssb-usage-stats screenshot](&ryJsWc+IdrV6F8Rjacc6JcEMvXy7zMCYF8JIDqkHv9s=.sha256)\n\nI'd really like to see just a plain old graph of chess moves over time, but I didn't see an easy way to tweak the code to do that.",
+    "mentions": [
+      {
+        "link": "&ryJsWc+IdrV6F8Rjacc6JcEMvXy7zMCYF8JIDqkHv9s=.sha256",
+        "name": "ssb-chess daily active users ssb-usage-stats screenshot",
+        "type": "image/png",
+        "size": 77940
+      }
+    ]
   },
-  "signature": "dCyW36QhliRcTAwg2PG+aLP1J1k3SW1bZJlWSnLKXQW8yw2FkLBjeXkzbbMC4u2UI2h6XsF2DgRqTXHuM5a2BQ==.sig.ed25519"
+  "signature": "/ixtoel3pX69qmA3PwV57F5UczQyMyQjSeT6ySj/XRw5YVlQoC/7lZPaOj1QDnwAwq7TCnxcLypBRlp977IdBw==.sig.ed25519"
 }
