@@ -1,17 +1,21 @@
 {
-  "previous": "%1jwD0TczVcM4/PVfVKK+y5uM9efB53tWl+0KHyQ0jKM=.sha256",
+  "previous": "%X+imNuH97XVXerJyvnrOQTsxp+0EkRQ4cLzUvomh5iw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 3874,
-  "timestamp": 1536159569463,
+  "sequence": 3875,
+  "timestamp": 1536159716516,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%h5Wh2suAeMY0EnKGZkcJaOSj2LWdVlrDQQp6GlFQnuQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%tGeIln2oAv4ytdBnavLYGgu0HB3KREjvCR1OWEFPojc=.sha256",
+    "branch": "%tGeIln2oAv4ytdBnavLYGgu0HB3KREjvCR1OWEFPojc=.sha256",
+    "channel": "php",
+    "text": "[@radmen](@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519)\n\nI'll often either import alphabetically or chronologically, with the last-added import going at the end. It isn't very pretty, but it's a bit easier to tell which dependencies are rock-solid dependencies and which are accessories that were recently added. ",
+    "mentions": [
+      {
+        "link": "@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519",
+        "name": "radmen"
+      }
+    ]
   },
-  "signature": "I3Zf88+5Y4xdl51+0Ynin2NsvzBUkoc9MLRIjfPIY+otk3cuWVsxNKpFSVROgasrFG8WgseSI6ElxG21MzpuBw==.sig.ed25519"
+  "signature": "h/X56hKJWO5uyeCL1phYSZ2RLUHMBQDkIU87gO6X6Cmvf0ULZbKqIfc9JSN027nc84CXX6sG2I+mHD/ZVY2YCA==.sig.ed25519"
 }
