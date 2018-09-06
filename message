@@ -1,14 +1,18 @@
 {
-  "previous": "%nkL4o69b5eb7wi/rxSeCYoYNVPtd7n7N67mqSHQk0n8=.sha256",
+  "previous": "%Vkt6fnN/zPtWj+6rc7A7xKdXrLv8+7ggGaVtV5lq+5o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4079,
-  "timestamp": 1536262164758,
+  "sequence": 4080,
+  "timestamp": 1536264040398,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%S1yUvs9tcrvSvpsvR+3lRXLIKH9Q/Xey+XMSu4+GYuA=.sha256",
-    "branch": "%Kh9PewBkNwK8kuFkcVY+pI3nI9U2bcsX9JI7pwK4lmc=.sha256",
-    "text": "> Sorry for disrupting your thread\n\nNever! Linear discussion is rarely any fun, and borders are always worth criticizing.\n\nI'm currently living in a city with around 700,000 people (closer to 2.5 million if you count the metro sprawl) and wondering whether at this point it's too far gone. I'm lucky that I'm sure I *could* escape to a less-urban area, but it seems like that's a luxury most people don't have. That makes me want to stay and help make the city a better place for everyone, but I sometimes wonder whether that's just another way to get trapped here.\n\nI have some criticisms of [this bit from *My Dinner With Andre*](https://www.youtube.com/watch?v=68JLWyPxt7g), but some of the points are thought-provoking."
+    "root": "%M/Lk5/k/eU+5sPKiP/uTKGfMr/+b80QemwROKgqAh4c=.sha256",
+    "branch": [
+      "%9qJKsD5RxkJnT/sQi9EBNsz+jwMEWsmysKd/N3EB6Ws=.sha256",
+      "%lnHlLBZZDfEQwiv+CxJpl+bfQ2EHt0o50Jl2OtdvBGM=.sha256"
+    ],
+    "channel": "ssb-chess",
+    "text": "I'm probably going to forget how to make the above graph, but for future reference:\n\n```diff\ndiff --git a/active-daily.js b/active-daily.js\nindex 3d4817c..55d20fc 100644\n--- a/active-daily.js\n+++ b/active-daily.js\n@@ -11,7 +11,7 @@ module.exports = function (ssb, cb) {\n   var too_old = +new Date('2015-01-01')\n \n   pull(\n-    ssb.createFeedStream(),\n+    ssb.messagesByType({type: 'chess_move'}),\n     pull.filter(function (data) {\n       return data.value.timestamp > too_old\n     }),\ndiff --git a/active-weekly.js b/active-weekly.js\nindex 7cad641..1c75280 100644\n--- a/active-weekly.js\n+++ b/active-weekly.js\n@@ -17,7 +17,7 @@ module.exports = function (ssb, cb) {\n   var range = WEEK\n \n   pull(\n-    ssb.createLogStream({meta: true}),\n+    ssb.messagesByType({meta: true, type: 'chess_move'}),\n \n     Window(function (data, cb) \n       if (!data.timestamp) throw new Error('weird')\n```"
   },
-  "signature": "9G4KgTygE/GN9aRz7YE2HrHvLPiRCyE6ZOG+ZMU2MjGYH4A69CQ4HIDFq0HHofehhMSSz1sFrhaRI2+Hfw7nCw==.sig.ed25519"
+  "signature": "NUVyQ6Ihox9V63YL2CMGdZcTRDYgeqLzT0Sle8ap0dMzYGm9LAdil95GXQmCvN2x62WPJqz+Kcnc09nDo9xVCg==.sig.ed25519"
 }
