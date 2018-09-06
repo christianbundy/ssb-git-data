@@ -1,16 +1,27 @@
 {
-  "previous": "%aM+NlPPeahGAd8CYIZxdVqAaacWYmh7uX6mlI1AU260=.sha256",
+  "previous": "%yK9vusrJ+VFRm2yc/uKyXodjNE3akJLErm607b9STkw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4117,
-  "timestamp": 1536268734990,
+  "sequence": 4118,
+  "timestamp": 1536269314943,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VLUP71zrH5/DSOF6zEQIL0Fnq8oX2IM2eexaNgdr9eE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%VLUP71zrH5/DSOF6zEQIL0Fnq8oX2IM2eexaNgdr9eE=.sha256",
+    "branch": "%0VO4+ZBGjtEJDzylH4/n9vNr/X1qTTkQm/dbFjG2T20=.sha256",
+    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) \n\nI've been wondering why [my profile photo change](%z8EJj3jHUJG6/RSdNHWcahkRu+G41zhh6EhwgepRIzo=.sha256) was full of backlinks from `chess_invite`, and it sounds like this is exactly the answer I was looking for. Thanks!\n\nDo you know whether #ssb-ooo is currently using this branch data? It seems like `about` messages would be useful for *all* out-of-order posts, so I wonder whether *all* of my posts should be backlinked to my latest `about` posts or whether there's another way to do this.",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      },
+      {
+        "link": "%z8EJj3jHUJG6/RSdNHWcahkRu+G41zhh6EhwgepRIzo=.sha256",
+        "name": "my profile photo change"
+      },
+      {
+        "link": "#ssb-ooo"
+      }
+    ]
   },
-  "signature": "HdwZq0Ak615bKLOztHbl4cxreuhQrGEQhBn8jr8yZOgeCf1JubBKey0eRGJyqFEa6yBcRJWazNWLIZ4QLoU4Bg==.sig.ed25519"
+  "signature": "aNDz2hqz0jhJeU5rQNFC2Z/yFHoVJmoKZTFptIQTzMhQInsDnU4UFLJK/fhya0yUbt8DEW1UhqMZj11HRHFTAA==.sig.ed25519"
 }
