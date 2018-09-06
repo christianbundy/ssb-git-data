@@ -1,13 +1,23 @@
 {
-  "previous": "%2CehZPEAC4OZJ/lGSabxu+XPux/7q55dKQQ/0mCQ7wQ=.sha256",
+  "previous": "%MdFqCp6dw2YFTBTh9vTX5tvfOF9AarAEtmcBePO4ICA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4135,
-  "timestamp": 1536274466517,
+  "sequence": 4136,
+  "timestamp": 1536274795000,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%SauuZIie5mLHH2zKl1vZmBXCHI/aNNt0NjoMKDx37Vw=.sha256",
+    "branch": "%A8aXizJHSn5Jm46Orbq2MBClJA5ap2YsM5b5B2C6k6M=.sha256",
+    "channel": "scuttlebutt",
+    "text": "I've been reading a lot of posts on the issue of JSON validation and it seems intuitive to me that contant as blobs (see %31vQzkAo8deps2SZ1UiaMeve7zQ4oX1lOJQCnkmtnC0=.sha256) would resolve *most* of the issue as we'd only have to deal with top-level props rather than arbitrarily nested JSON in the `content` property. Anyone have thoughts on whether my intuition is correct, or whether these are unrelated problems?\n\nI'm going to try and track/wrangle this idea as #blob-content.",
+    "mentions": [
+      {
+        "link": "%31vQzkAo8deps2SZ1UiaMeve7zQ4oX1lOJQCnkmtnC0=.sha256"
+      },
+      {
+        "link": "#blob-content"
+      }
+    ]
   },
-  "signature": "Jhcm1JB2gXubvnJ5oK1k0EUdT+HugGBtoCROPvWUL3FDOkxqu5DhlBdbWgfjtRAX8b0lmeet8hJGoEC2PkBwBQ==.sig.ed25519"
+  "signature": "hH86kRG6hcU2+vrf56ihhtZ0K4wzg0j73ZoeFbg6pKW5WbZTL8FfytbP39+5zKDRxhdl/8flU65/dZfr/sVwDw==.sig.ed25519"
 }
