@@ -1,17 +1,41 @@
 {
-  "previous": "%Zb/WzIHBAdF2Dp+Dx3q+zU/0z9j4WwgNqPpX9tdwAwg=.sha256",
+  "previous": "%KW2k3gO9yMcsO9x/Rj2dTlYqfGnTdjunOrI+BYxgTBU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4147,
-  "timestamp": 1536277115878,
+  "sequence": 4148,
+  "timestamp": 1536277295799,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebutt",
-    "vote": {
-      "link": "%Aj6lpmafBcRhTczOnykhEbqIvTIPQK9Ib/6knL51OC4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "Forking [another thread](%SauuZIie5mLHH2zKl1vZmBXCHI/aNNt0NjoMKDx37Vw=.sha256):\n\n---\n\nI've been reading a lot of posts on the issue of JSON validation and it seems intuitive to me that contant as blobs (see [this thread](%31vQzkAo8deps2SZ1UiaMeve7zQ4oX1lOJQCnkmtnC0=.sha256)) would resolve *most* of the issue as we'd only have to deal with top-level props rather than arbitrarily nested JSON in the `content` property. Anyone have thoughts on whether my intuition is correct, or whether these are unrelated problems?\n\nI'm going to try and track/wrangle this idea as #blob-content.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@Ajoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\n---\n\nThanks for the fork suggestion [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519).",
+    "mentions": [
+      {
+        "link": "%SauuZIie5mLHH2zKl1vZmBXCHI/aNNt0NjoMKDx37Vw=.sha256",
+        "name": "another thread"
+      },
+      {
+        "link": "%31vQzkAo8deps2SZ1UiaMeve7zQ4oX1lOJQCnkmtnC0=.sha256",
+        "name": "this thread"
+      },
+      {
+        "link": "#blob-content"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "Ajoscha"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "M0yF1IplsAS/ac+eZnzctrpSh+eNB0SmFGkGyhbRg4vcHH702Gys1oQH/s7HGazLdclUwRJg3xFpRKaqLiSeBA==.sig.ed25519"
+  "signature": "wRkMTjUOMAWxadTxG5OP4nJyHzX+6t2l0094Z25ox0wuvV2nBxqgD6RkV23b7Q1g5wxfgZA0nGv1wkZHf2f6Bw==.sig.ed25519"
 }
