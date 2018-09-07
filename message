@@ -1,28 +1,9 @@
 {
-  "previous": "%9geJ7jAD+YM180eoIbcL9J7Zwm9XXQJM2q+NHGGf6MU=.sha256",
+  "previous": "%U3g2dvZ1erXyQQhmkImFRi8yt3X8yWUQ5+LxL/Doplo=.sha256",
+  "sequence": 4221,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4220,
-  "timestamp": 1536350759682,
+  "timestamp": 1536351286812,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%sueUi9NNRjgdlYmqgNZJaxkdP6BZswjg73/wwOK1K80=.sha256",
-    "branch": "%SOctL+4HKzQfHZgWMQueUfsbDNNVg1wwzuJ7GRb+chU=.sha256",
-    "channel": "n00bquestions",
-    "text": "[@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519) \n\nYeah, as long as you back up `gossip.json` your only steps will be:\n\n```\nmkdir .ssb\ncp backup/secret .ssb\ncp backup/gossip.json ssb\n```\n\nYou won't need to do any of the \"join the pub you used to be a member of\" stuff unless you forget to back up your gossip file. Personally, I have [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) running on a Raspberry Pi at my office, and it runs #cjdns so I can connect to it from anywhere although it doesn't *actually* have a public IP address. If you'd like to peer, let me know. :)\n\n> In other words, would I still be able to manage to recover my feed if I wasn't able to connect to any of the pubs I've been connected to in the past?\n\nMy understanding is that *currently* pubs will upload your feed to you even if they aren't following you, but I'm not completely sure whether that's the case (or whether it will always be the case). I'd recommend making a full copy of your `.ssb` and testing it out, just to see what happens.",
-    "mentions": [
-      {
-        "link": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
-        "name": "adam"
-      },
-      {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
-      },
-      {
-        "link": "#cjdns"
-      }
-    ]
-  },
-  "signature": "SbsBJFzzDI6Dj8pShPz0FLC0FkmZYeeZBUfwVi6MkqOgXFBQEmfb5jtMxYalKAu+RdCvtPUPkhmiDBVmNFK2Bg==.sig.ed25519"
+  "content": "uhSnV9HTYJ5+UxuWS81nRq9FMQinqryKUkgRqL2Xzo3fITaJHAcDEl+p6FFW0nF44wBirtxrRyG4z2x8D9/FqXLu95rms0oWCKs5mRllDlaN6+HRh7nM73xusaztz/BwskKE7cSMEhumWFhGMZP8Mpc0Z0B4OzWr+laQp+G4VtwrKWyJ6ofGSasY4mje0tLQahqh1lWQa1AnRkJRETB0IDGUVUPPKZ7MF4siJE86AQ67SjIuU3HB0MovWRQIHm/00W5sTdGpOonze9BnZMkQkX5jGKNTa+I14isABuoKgYd8yy44XFCx0g1Niowwv16ChPRuDvshYZiL+pCW0FikeVNJ5KC/SkVTVYaoe0bvsFfIRWJU0P87CD6o7G0/UiDWZUfCz3nLUjfU7w+Dr5w2eqfaNaXLm+ketJ8r5HqWVJzGrvElLh0lUVQ=.box",
+  "signature": "9bndnKDhpUKx9J4cbYXmxuYiwxPsQyl8hNUUrnZpfVfhqBA1/YQihp50Lm2bICMQoJWpDrGy3DjKJsJo0Ax5Aw==.sig.ed25519"
 }
