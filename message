@@ -1,23 +1,9 @@
 {
-  "previous": "%enprf7Xwy3hIUq8Rl0ESOG2YYDYWlSYa9RM9+cgIuek=.sha256",
+  "previous": "%588XuhPRXgzV2hH7jPeO1ruRQqJfpDLztUEiu9TbegQ=.sha256",
+  "sequence": 4233,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4232,
-  "timestamp": 1536362448716,
+  "timestamp": 1536362699721,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%TPs53tQ65rgZiRRm2bokbKrVMDhf7sGx45/BvL50mgg=.sha256",
-    "branch": [
-      "%I7tkywHjzTAFIjcdqNOFPZ+FWgJky06gnWxp48r6RRw=.sha256",
-      "%c0n4djfE7Vr5xTxUuo06y6eP2YN3ryvRw30OuDR9WX4=.sha256"
-    ],
-    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) \n\nThat's funny, I was *just* looking at the encrypted message validation today. The [regular expression from ssb-validate](https://github.com/ssbc/ssb-validate/blob/48dec51378425dd284762b179ef2e0d703a95798/index.js#L57) requires that it ends with `.box`, but specifically doesn't check the end of the string. There shouldn't be any problems with `.boxV2`, as far as I understand.",
-    "mentions": [
-      {
-        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
-        "name": "cft"
-      }
-    ]
-  },
-  "signature": "1bEjy2dTm7nsOMj6jlNKoUqEOx3g5kpXzJiP0clxM8vNEjfuT8WWLsScmykBST9wkNOzrC9B+iQ1Zij/ZXCRAA==.sig.ed25519"
+  "content": "h/VA1DGHUKXgTEZ8VdAtp/dnYf2B/CPgNp6C2KxX5hSVzkZ66xz1XwIzKQjd610L2otW6mvBUC7eRIEsWdKrk8fSCr5rxBcUNc8qKgzYMX/lPiBdRvkVT8yunkE565/Wuv8VK98gjAJDZ70aZOzXrjilJUsRuTOMg8xWTgCYSB3FDrSEZkJ/yGAUAhca0C65YARRBuOu/pIiz/OALCC3rnhxYvFmXNo+xknquww1rkiOkPlpTeXoPK+Riu1EKB7Wrq07woYTv6WO4Ag1wl+VbCjotPqKGJ007mj0h+LKX4GxFZ17Vqx/ES1RLMweeW4bzFntNeoUk/AvkTJAOj7GapIGUHZ3lvJ3Pv7kDLpV9ahNk8B+g38yqCYy4cyl0WGZI+4yhJM=.box",
+  "signature": "fV1hZdswqyfI7+EG7Pjrkk0UmetC50lJxV13hcgmnKu/pwicjuiml0fknF36/caNOnPgNzi5/sPDG0zEaTxtCw==.sig.ed25519"
 }
