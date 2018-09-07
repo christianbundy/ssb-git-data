@@ -1,14 +1,17 @@
 {
-  "previous": "%xKOOifsgScIBFc49ME9KmC+Q5HKwxYPK5sUZeGRYkIg=.sha256",
+  "previous": "%enprf7Xwy3hIUq8Rl0ESOG2YYDYWlSYa9RM9+cgIuek=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4231,
-  "timestamp": 1536357833736,
+  "sequence": 4232,
+  "timestamp": 1536362448716,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%I4DuXYTI7hBG0tJKz1IGG/uFTW/FCK5l+/Qk2HjvTsA=.sha256",
-    "branch": "%boOOcUx2H3BEl3LVInWEYN9b0gF0XaJepE6iKPahizo=.sha256",
-    "text": "Hey [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519)!\n\nThis looks great, I'm excited to test it out. Do you have any information on what this might do to my feed size? I'm not sure I'd like for all of my followers to have to host my content.",
+    "root": "%TPs53tQ65rgZiRRm2bokbKrVMDhf7sGx45/BvL50mgg=.sha256",
+    "branch": [
+      "%I7tkywHjzTAFIjcdqNOFPZ+FWgJky06gnWxp48r6RRw=.sha256",
+      "%c0n4djfE7Vr5xTxUuo06y6eP2YN3ryvRw30OuDR9WX4=.sha256"
+    ],
+    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) \n\nThat's funny, I was *just* looking at the encrypted message validation today. The [regular expression from ssb-validate](https://github.com/ssbc/ssb-validate/blob/48dec51378425dd284762b179ef2e0d703a95798/index.js#L57) requires that it ends with `.box`, but specifically doesn't check the end of the string. There shouldn't be any problems with `.boxV2`, as far as I understand.",
     "mentions": [
       {
         "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
@@ -16,5 +19,5 @@
       }
     ]
   },
-  "signature": "nG9EUxGW5ocjH+pGf214mU73oiSBlVIjI5f3oBDdj0Y06du42S9VyRec7vxhXIwGskZaHI1Xe7qD9aycHO+sCw==.sig.ed25519"
+  "signature": "1bEjy2dTm7nsOMj6jlNKoUqEOx3g5kpXzJiP0clxM8vNEjfuT8WWLsScmykBST9wkNOzrC9B+iQ1Zij/ZXCRAA==.sig.ed25519"
 }
