@@ -1,16 +1,27 @@
 {
-  "previous": "%RcjQrbDGQ0vjV49HXv2FDOB6Fo8zG2jaM3yYSJDVPpE=.sha256",
+  "previous": "%WaLO+/dz0dWD6DJNwCjr8xoMV33tyduDHZ8F1rGU+pk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4175,
-  "timestamp": 1536332542293,
+  "sequence": 4176,
+  "timestamp": 1536332827119,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%MBNEVyBD1pdqOoCE0XqqwU93du3LKUmFHyzHBfKbjYs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "branch": [
+      "%UzLM6ovq3F98Tl3oKY9FSv2hXHBw8teAyXu9NYly6NY=.sha256",
+      "%mOcxrrP34hJAlInxrHyd/mJFj5Y80CaG6ILvMthL6PM=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI'll tinker around a bit and see if I can implement some high-level prototype to play around with, but it sounds like this may be [in the pipeline](%zAIpeeATsnkzk6079zZrCpecgg27aEKUmli7ONKYdRM=.sha256) at a lower level. I'll ping you if I can actually get it working, thanks!",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "%zAIpeeATsnkzk6079zZrCpecgg27aEKUmli7ONKYdRM=.sha256",
+        "name": "in the pipeline"
+      }
+    ]
   },
-  "signature": "BcliBYxkeTzS/mbiDWYG0SU1DJYIiVQAIglnNSPH3rD7c4eHcZFpuAholmqUalQ5in6qZXC2GgDpF6mgwEJNBA==.sig.ed25519"
+  "signature": "doVRwMwW9DnIitnVjWedkx9/RMMUhKt624pw0qBZiRkMZW6Uym+bCqMvuFMxD0ULxEyhIHF452hE58pHZdhoCw==.sig.ed25519"
 }
