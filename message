@@ -1,28 +1,28 @@
 {
-  "previous": "%RoGUWeSYrV7EGgJBzmoVwC03bd6cROHuC3fULDYBHyg=.sha256",
+  "previous": "%9geJ7jAD+YM180eoIbcL9J7Zwm9XXQJM2q+NHGGf6MU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4219,
-  "timestamp": 1536347221760,
+  "sequence": 4220,
+  "timestamp": 1536350759682,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%sueUi9NNRjgdlYmqgNZJaxkdP6BZswjg73/wwOK1K80=.sha256",
-    "branch": "%sueUi9NNRjgdlYmqgNZJaxkdP6BZswjg73/wwOK1K80=.sha256",
+    "branch": "%SOctL+4HKzQfHZgWMQueUfsbDNNVg1wwzuJ7GRb+chU=.sha256",
     "channel": "n00bquestions",
-    "text": "[@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519) \n\nHey! This just popped up on my feed, and I think I can shed some light on the problem. When re-downloading your profile you'll only want two files in `.ssb`: `gossip.json` and `secret`.\n\nIf you have `gossip.json` you can simply create `.ssb` with those two files, start a client, and it should work perfectly. If you have to re-generate your gossip file, then you'll want to delete *everything else* from `.ssb` before starting it up with your real `.ssb/secret`. I've been #marooned a few times and posted the fix [in this thread](%fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256).\n\nI believe the problem is that you switched out the secret and gossip files, but didn't delete the other files and directories in `.ssb` before starting with your real identity.\n\n> Or did it mess up things deeper, like forked the feed or something? (told you this was a noob q)\n\nYeah, any messages you posted before your feed was fully downloaded were on a fork, and weren't replicated. I talked to myself for *weeks* before noticing, which was a super frustrating experience.",
+    "text": "[@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519) \n\nYeah, as long as you back up `gossip.json` your only steps will be:\n\n```\nmkdir .ssb\ncp backup/secret .ssb\ncp backup/gossip.json ssb\n```\n\nYou won't need to do any of the \"join the pub you used to be a member of\" stuff unless you forget to back up your gossip file. Personally, I have [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) running on a Raspberry Pi at my office, and it runs #cjdns so I can connect to it from anywhere although it doesn't *actually* have a public IP address. If you'd like to peer, let me know. :)\n\n> In other words, would I still be able to manage to recover my feed if I wasn't able to connect to any of the pubs I've been connected to in the past?\n\nMy understanding is that *currently* pubs will upload your feed to you even if they aren't following you, but I'm not completely sure whether that's the case (or whether it will always be the case). I'd recommend making a full copy of your `.ssb` and testing it out, just to see what happens.",
     "mentions": [
       {
         "link": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
         "name": "adam"
       },
       {
-        "link": "#marooned"
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
       },
       {
-        "link": "%fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256",
-        "name": "in this thread"
+        "link": "#cjdns"
       }
     ]
   },
-  "signature": "zu9+pLjlxi+u5z3OHbWeTsosk3v9ZA4DVhoM2OsGVJV2wNTYLZROQ3JIm7FnpQhFpDPHUabm138bh7OVDd/XDQ==.sig.ed25519"
+  "signature": "SbsBJFzzDI6Dj8pShPz0FLC0FkmZYeeZBUfwVi6MkqOgXFBQEmfb5jtMxYalKAu+RdCvtPUPkhmiDBVmNFK2Bg==.sig.ed25519"
 }
