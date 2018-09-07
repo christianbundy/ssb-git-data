@@ -1,16 +1,20 @@
 {
-  "previous": "%QM6ibtnp+lBJDzRBgiXOnT3talvtfUyEWxnGTSpiw+U=.sha256",
+  "previous": "%xKOOifsgScIBFc49ME9KmC+Q5HKwxYPK5sUZeGRYkIg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4230,
-  "timestamp": 1536357716095,
+  "sequence": 4231,
+  "timestamp": 1536357833736,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%I4DuXYTI7hBG0tJKz1IGG/uFTW/FCK5l+/Qk2HjvTsA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%I4DuXYTI7hBG0tJKz1IGG/uFTW/FCK5l+/Qk2HjvTsA=.sha256",
+    "branch": "%boOOcUx2H3BEl3LVInWEYN9b0gF0XaJepE6iKPahizo=.sha256",
+    "text": "Hey [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519)!\n\nThis looks great, I'm excited to test it out. Do you have any information on what this might do to my feed size? I'm not sure I'd like for all of my followers to have to host my content.",
+    "mentions": [
+      {
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
+      }
+    ]
   },
-  "signature": "7w2wxSuTzAi2Vc7vNZjfZyAG1frAPAtoX0DXLIA0FySwRo4D0ToKxiGbjKlcV7/2WUdrwGAj3PEmrxFIbl8MDQ==.sig.ed25519"
+  "signature": "nG9EUxGW5ocjH+pGf214mU73oiSBlVIjI5f3oBDdj0Y06du42S9VyRec7vxhXIwGskZaHI1Xe7qD9aycHO+sCw==.sig.ed25519"
 }
