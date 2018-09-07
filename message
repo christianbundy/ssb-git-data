@@ -1,18 +1,28 @@
 {
-  "previous": "%qrOocifGXG2IvqMOQFg2icPTs9kc5aYG4pwg/d82wjs=.sha256",
-  "sequence": 4218,
+  "previous": "%RoGUWeSYrV7EGgJBzmoVwC03bd6cROHuC3fULDYBHyg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536344632895,
+  "sequence": 4219,
+  "timestamp": 1536347221760,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 44,
-    "root": "%f1e+VxaSQ9CvPo6JtlPHFRck0iYxrk8F6lGju4yUX3E=.sha256",
-    "orig": "e6",
-    "dest": "g5",
-    "pgnMove": "Ng5",
-    "fen": "5b1n/p1k4p/2p5/3r2n1/2N3Q1/1PP5/P4PPP/RN2R1K1 w - - 2 23",
-    "branch": "%9UN0IK8TwFWE9HwNI97AL0kw/lmLjC3H0UvQEzpbbsE=.sha256"
+    "type": "post",
+    "root": "%sueUi9NNRjgdlYmqgNZJaxkdP6BZswjg73/wwOK1K80=.sha256",
+    "branch": "%sueUi9NNRjgdlYmqgNZJaxkdP6BZswjg73/wwOK1K80=.sha256",
+    "channel": "n00bquestions",
+    "text": "[@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519) \n\nHey! This just popped up on my feed, and I think I can shed some light on the problem. When re-downloading your profile you'll only want two files in `.ssb`: `gossip.json` and `secret`.\n\nIf you have `gossip.json` you can simply create `.ssb` with those two files, start a client, and it should work perfectly. If you have to re-generate your gossip file, then you'll want to delete *everything else* from `.ssb` before starting it up with your real `.ssb/secret`. I've been #marooned a few times and posted the fix [in this thread](%fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256).\n\nI believe the problem is that you switched out the secret and gossip files, but didn't delete the other files and directories in `.ssb` before starting with your real identity.\n\n> Or did it mess up things deeper, like forked the feed or something? (told you this was a noob q)\n\nYeah, any messages you posted before your feed was fully downloaded were on a fork, and weren't replicated. I talked to myself for *weeks* before noticing, which was a super frustrating experience.",
+    "mentions": [
+      {
+        "link": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
+        "name": "adam"
+      },
+      {
+        "link": "#marooned"
+      },
+      {
+        "link": "%fJybUrX0Et7GegATl+/KmNoEsOTTlrQNXbBKTCYHEkg=.sha256",
+        "name": "in this thread"
+      }
+    ]
   },
-  "signature": "Gf9jSvLfSqJanZLOAvXtNLHIN3pdvIx8HZIJwvY/HBMk04kkWRtbox5uUn05qOb4PKSFBAAJlMJD8FL1KxvbCw==.sig.ed25519"
+  "signature": "zu9+pLjlxi+u5z3OHbWeTsosk3v9ZA4DVhoM2OsGVJV2wNTYLZROQ3JIm7FnpQhFpDPHUabm138bh7OVDd/XDQ==.sig.ed25519"
 }
