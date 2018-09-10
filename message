@@ -1,18 +1,32 @@
 {
-  "previous": "%g92EOedz8yk3ySoO/7rQrqQC+dHXUInFyLtqwbqN2Ms=.sha256",
-  "sequence": 4419,
+  "previous": "%VbSjIKZuz5D0ebZTD0LwS7WcQvTvyhAs1Q9wj3KkAEA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536604455403,
+  "sequence": 4420,
+  "timestamp": 1536604923283,
   "hash": "sha256",
   "content": {
-    "type": "tag",
-    "version": 1,
-    "tagged": true,
-    "message": "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256",
-    "root": "%qWWJQ/1rSIKspsiSH3ooJQ4LtKwPsFjqa1Hnb5tdSZQ=.sha256",
-    "branch": [
-      "%IyS71qv5Lgb2VclnXmTEci80MOfVkFggbVLEoTGeBmE=.sha256"
+    "type": "post",
+    "root": "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256",
+    "branch": "%1k04JmBhoEQoonDRTd5FfWjapv0u+l0Uj2Ji25gDjwY=.sha256",
+    "reply": {
+      "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256": "@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519",
+      "%1k04JmBhoEQoonDRTd5FfWjapv0u+l0Uj2Ji25gDjwY=.sha256": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519"
+    },
+    "channel": "ssb-show-and-tell",
+    "recps": null,
+    "text": "[@josiah](@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519)\n\nI've been following your branch for a couple weeks and *finally* got around to really testing it out. I love it! Both the light theme and the dark theme work well, and I haven't see any regressions or weird behavior. This looks really great, nice work! I'm excited to see this get merged into Patchwork. I may have gotten a bit tag-happy while testing...\n\n![screenshot of scuttlebutt tags on patchwork with dark theme](&VriuUjsKQm1vJbeGojPVAZZd5TgjMIIKBX8beXrV3dw=.sha256)\n\nBy the way, it looks like multiple people can \"vote\" (?) on the same tag, but I didn't find an intuitive way to do that when looking at the tags on a post. Instead, I clicked \"Tag\" and typed in the tag I wanted to \"reinforce\" (?). Two questions:\n\n- Is that currently the best way to vote/reinforce/retag/etc a tag?\n- Do you have a word for the vote/reinforce/retag/etc action I'm describing above? None of those seem right, but it seems like the sentiment of \"I agree with that tag\" may be useful as more people start using tagging.\n\nThanks for all your hard work on this feature!",
+    "mentions": [
+      {
+        "link": "@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519",
+        "name": "josiah"
+      },
+      {
+        "link": "&VriuUjsKQm1vJbeGojPVAZZd5TgjMIIKBX8beXrV3dw=.sha256",
+        "name": "screenshot of scuttlebutt tags on patchwork with dark theme",
+        "type": "image/png",
+        "size": 278026
+      }
     ]
   },
-  "signature": "N2n35wowy8Z/IFoFJYZcYR/RvIKVMgoEJN2ECKOtctlO1BJMolOuUqv1jPaf3arz5VB7C5m2+NRSO84CVhmQDg==.sig.ed25519"
+  "signature": "QIMuuTRNIHrwxsTS6JUz8noQEsu3AhrFgCK32IkMV6oPMHYJ9AEMqQktRlhHYFjOZqX8n2NZZRvE6NhptvNMDQ==.sig.ed25519"
 }
