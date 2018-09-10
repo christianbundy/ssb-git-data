@@ -1,36 +1,16 @@
 {
-  "previous": "%h8eVHLRLsFQR9v09cRlgfxtRV7+DvZwiKwEoGWo0oks=.sha256",
+  "previous": "%rtLork8fNBCRbsWifDGSxFDW4ECBnzQVpA0bBhtXPUY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4508,
-  "timestamp": 1536622668183,
+  "sequence": 4509,
+  "timestamp": 1536622691015,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256",
-    "branch": "%pDhcm91rSkzTsUgp08YZl4Z2i13roT9mn4O8WznrGXM=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@josiah](@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519)\n\n> Curious why using -'s is more accessible for screen readers.\n\nI suppose I shouldn't have specified only hyphens, other word separators work fine, but hyphens seem to be the most common on here. The idea is to avoid jumbled hashtags like #thisexample because lots of software will parse it as one big word. Alternatively, you can use:\n\n- **CamelCase:** #ThisExample\n- **Hyphenation:** #this-example\n- **Underscore (uncommon):** #this_example\n\nMy tendency is to use hyphens so that it isn't affected by uppercase/lowercase shenanigans, but that may be a personal preference. It's worth noting that [the Unicode standard](http://unicode.org/reports/tr31/#hashtag_identifiers) specifies that hashtags can use `-`, `_`, or `+`, so those are all technically valid contendors.\n\nI've been dreaming up some idea on #synonyms and how to merge channels/tags that only differ on word separation, but that's a story for another thread.",
-    "mentions": [
-      {
-        "link": "@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519",
-        "name": "josiah"
-      },
-      {
-        "link": "#thisexample"
-      },
-      {
-        "link": "#ThisExample"
-      },
-      {
-        "link": "#this-example"
-      },
-      {
-        "link": "#this_example"
-      },
-      {
-        "link": "#synonyms"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%JcwcDz2+Jk6XV4/+AzWzBs7olEuaLVp8h5MwfUvI/kw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "kgVOyEXLIwleyTi7P5nWsKf1HaSJqenX18rBum7smWSGRtiXqqTqodP26rMLDKK3Bjo/83gGQLarBdcblovyCA==.sig.ed25519"
+  "signature": "DV++yvyuezRuBfe005PkBqZXdSe0kh7GLR6cyrOCS+RgUfgNp8E/J58opPIaWCwj6OOQdB1fA9+9OYV0A0WGCA==.sig.ed25519"
 }
