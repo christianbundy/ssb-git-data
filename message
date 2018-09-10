@@ -1,17 +1,21 @@
 {
-  "previous": "%6b+3kcDFNBpbF+W1mzavbwhCEBVFfdwgybWKe2mRY5c=.sha256",
+  "previous": "%E5L5lPtBGqIeZ2nz8b6mkXPycmOFErpqRYAXHhrdRmI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4423,
-  "timestamp": 1536605221829,
+  "sequence": 4424,
+  "timestamp": 1536605421427,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256",
+    "branch": "%19HbG+vlZEG5sjgJaYzneIKIGm+NpHWrA4W4erp6kTA=.sha256",
     "channel": "ssb-show-and-tell",
-    "vote": {
-      "link": "%1k04JmBhoEQoonDRTd5FfWjapv0u+l0Uj2Ji25gDjwY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@josiah](@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519) \n\nOops, looks like I've accidentally been adding `#` to some of my tags. Habits are hard to break! Are there any recommended \"best practices\" of tag names? Off the top of my head, I'm thinking:\n\n- not starting tags with `#`\n- using `-` for word separation, which is more accessible and easier for screen readers\n- ???\n\nI'd love to hear your thoughts on best practices for this new type of interaction.",
+    "mentions": [
+      {
+        "link": "@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519",
+        "name": "josiah"
+      }
+    ]
   },
-  "signature": "vEF5EHk2Swro/lVZzyblHron6KWdortQ8xViteYTdVbPMJmFRH3I5G7EWK3Mz6CWwAgGR/MN/PQQlvzdjR/ODA==.sig.ed25519"
+  "signature": "sZHZQmGxtMXvJomAnbecRP3cBnM7D9rJcfcim9+xLm8YBWQgaXuH4WmLSsSblIgpxGlhsmhwgf+3sWwtnuoiBQ==.sig.ed25519"
 }
