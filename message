@@ -1,16 +1,20 @@
 {
-  "previous": "%6GN1Db3wQIyez2ODLukWTcaKgI/Gh8ni2yrezoEozaI=.sha256",
+  "previous": "%klkzEAYJUhUdivQ75YpkvqtWI9cFPaPcUVCUCrgnfTM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4329,
-  "timestamp": 1536600821488,
+  "sequence": 4330,
+  "timestamp": 1536600894478,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%q7NYMsd9bs+AiOG1qgTUPpBXeX8fWVHliTdoxQrh65k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%q7NYMsd9bs+AiOG1qgTUPpBXeX8fWVHliTdoxQrh65k=.sha256",
+    "branch": "%uCV0BGCzBANjTTanKkNvSMwqhRuDVvQhlQlDIx7nP7Q=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nI just realized that I've never actually experience anything resembling agile. It's always just waterfall with \"agile\" terms. Oof.",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "8W4jfbphTjXu0bigRlm58OxV6vZgP88g+4a/znd8KyaYIPA7l5iC+S3x4HcC8W9QHTSh8w7AijiZmA1JpTNrDA==.sig.ed25519"
+  "signature": "3Hvtd2UtJanSM2o3tY2SyetrKqeWqDtRh0VhGObkd6x52y629HFb2FFJ+ijJ1OE0VN/vmy6YrdxohSk20l4OCg==.sig.ed25519"
 }
