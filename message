@@ -1,21 +1,16 @@
 {
-  "previous": "%E5L5lPtBGqIeZ2nz8b6mkXPycmOFErpqRYAXHhrdRmI=.sha256",
+  "previous": "%btC+Ty/81wWIpbLzHp8BpHfVmOTXw7taM7Zjg6bSTfw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4424,
-  "timestamp": 1536605421427,
+  "sequence": 4425,
+  "timestamp": 1536605489817,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%80bWvl/olZV6V/3Ic7Ckeux2ycu+vnVW4iu/LbCQODs=.sha256",
-    "branch": "%19HbG+vlZEG5sjgJaYzneIKIGm+NpHWrA4W4erp6kTA=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@josiah](@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519) \n\nOops, looks like I've accidentally been adding `#` to some of my tags. Habits are hard to break! Are there any recommended \"best practices\" of tag names? Off the top of my head, I'm thinking:\n\n- not starting tags with `#`\n- using `-` for word separation, which is more accessible and easier for screen readers\n- ???\n\nI'd love to hear your thoughts on best practices for this new type of interaction.",
-    "mentions": [
-      {
-        "link": "@HjH7assXYIZ5ATQkh1CKtnt6lpVVDY24/NB29okNido=.ed25519",
-        "name": "josiah"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%I6LejGwVZtfRQJe725GvtorUw2CQy82Ptu4NEkDCy/A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "sZHZQmGxtMXvJomAnbecRP3cBnM7D9rJcfcim9+xLm8YBWQgaXuH4WmLSsSblIgpxGlhsmhwgf+3sWwtnuoiBQ==.sig.ed25519"
+  "signature": "VWLe0ysWM3j5t5XBW0y2GuxgdJyOu3bgekqq4DfVawSYC0jAIv9ibLVxAlizq2qNgP5qhJE9g4TQD9XtrWwVAg==.sig.ed25519"
 }
