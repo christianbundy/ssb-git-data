@@ -1,13 +1,36 @@
 {
-  "previous": "%qCmo95ueX4K24VMuRKMH2in0DTjDjMlANT5kTPDnhos=.sha256",
+  "previous": "%W7LPcBbJr5upKJtEMo6+E22JX9bTnU5xazzL6piHH1g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4427,
-  "timestamp": 1536607833930,
+  "sequence": 4428,
+  "timestamp": 1536607885073,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-    "name": "dominic"
+    "type": "post",
+    "root": "%TPs53tQ65rgZiRRm2bokbKrVMDhf7sGx45/BvL50mgg=.sha256",
+    "branch": "%uO1dDsilxwSm+gMb210WgDpBEGnWH0qnD2zSE5o3TF0=.sha256",
+    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519)\n\n> At the core this is a layer violation: the pubs should not do deep packet inspection, just ship the content field unexamined, in a future-proof way, or?\n\nDisclaimer: the only thing I know is that I know nothing, so don't take my word for this. My intuition, however, is that this likely has something to do with how how the secure-scuttlebutt package automatically unboxes private messages. I think secure-scuttlebutt's [`unbox`][0] tries to use ssb-keys' [`unbox`][1], which calls [`toBuffer`][2], which *looks* like it should return the correct base64 contents, but my guess is that it's erroring out somewhere and ~~cowardly~~ refusing to replicate.\n\nI think a stack trace from a pub (or *any* replicating node) would make debugging this quite a bit easier. I'll see if I can reproduce the bug this week, let me know if you beat me to it and find the offending code.\n\nOthers who might be interested and/or knowledgeable: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\n\n\n[0]: https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L18-L31\n[1]: https://github.com/ssbc/ssb-keys/blob/6840d26259a415da81ba42ddf7c8ab553c9e3756/index.js#L154-L155\n[2]: https://github.com/ssbc/ssb-keys/blob/6840d26259a415da81ba42ddf7c8ab553c9e3756/util.js#L39-L45    ",
+    "mentions": [
+      {
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
   },
-  "signature": "nHhRCxJbINQ83Q61z8DllZmvK/+Qn7Wt9zQX7RI1DTL1nSEE0Ww49lB5umkLnJrM+dPNf88DGiM9RVFXJfL8CQ==.sig.ed25519"
+  "signature": "KUCCxfXL2Gi6MbfFa/fYKH2enUOmXDVLcPCQgI6AAaI4L+hbTnCDm8wxUot46Ho4RCy68DscITpVvB+9dPnlDA==.sig.ed25519"
 }
