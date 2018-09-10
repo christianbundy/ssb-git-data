@@ -1,25 +1,18 @@
 {
-  "previous": "%g4k5+4TCm4X3y/pqB01DCWL0hAdF1EehcWF+uyen0yc=.sha256",
+  "previous": "%mWyghJajllFNbZb8UrZH1nME4/xemdectKntxnMAnpo=.sha256",
+  "sequence": 4440,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4439,
-  "timestamp": 1536612303177,
+  "timestamp": 1536612328789,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Rm7Bo44sEMELc8HTvgNPK4UR7KWXZwJyHpEw7/ERTH8=.sha256",
-    "branch": "%Elh69XJRxOI1g8Rj/wQR9cTE5FA0RQkjZbP5aCjPrI8=.sha256",
-    "channel": "ssb-viewer",
-    "text": "[@juul](@22YV3HX/BGClXH49ZebkcepqRpj7a9f5s0ddwhDSfxk=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\nI've been thinking about the `robots.txt` solution for a few days, and I think that limited web interactions is a good idea, but I wonder whether something like send.firefox.com would work for us.\n\nInstead of the current \"copy external link\" mechanism in the clients I've used, it seems to me that we could instead have a viewer that shows its private messages to the world. For example, let's say Alice is a user, Bob is a viewer, and Carol is the recipient.\n\n1. Alice wants to share a cat photo with Carol.\n2. Alice sends a private message to Bob with the cat photo.\n3. Bob replies with a link to the private message on the web viewer.\n4. Alice sends the link to Carol.\n5. Carol opens the link in a web browser.\n6. Bob retrieves the content and sends it to Carol.\n7. After 5 downloads or 24 hours, Bob deletes the blob(s).\n\nThis means that Carol's view of the network is dependent on what Alice can see, not what Bob can see, and *also* means that randos can't search/scrape the network from the web. I'm not sure whether this is a good idea, but something with a similar shape has been banging around in my head for a few days. Regardless, it seems like there are only a few important things:\n\n1. Alice should be able to share content with Carol.\n2. Bob should be able to act as an intermediary.\n3. Randos shouldn't be able to scrape the whole network from the web.",
-    "mentions": [
-      {
-        "link": "@22YV3HX/BGClXH49ZebkcepqRpj7a9f5s0ddwhDSfxk=.ed25519",
-        "name": "juul"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 36,
+    "root": "%dVCgzgKqxlN1A6IBipzFPkYwP0DH/4rElnVmK8+KmAA=.sha256",
+    "orig": "g4",
+    "dest": "f6",
+    "pgnMove": "Nf6",
+    "fen": "r1b5/pp5Q/2kp1nP1/P1p2p2/2P1p3/1P2P3/3P1PB1/RNB1K1NR w KQ - 1 19",
+    "branch": "%DsxALbROl7NtoeYbbWrMmCRCSkVhwZBG8kctVLp16P8=.sha256"
   },
-  "signature": "vL5cw50t9awCKAo6PikqBgJMvM4UQxseNIBAHoVv6pbPn/ZLkHtGGLP77cxttbarmPfTwWiWdN1OpWGL79ysBg==.sig.ed25519"
+  "signature": "BZCQ846BcehJltt8UTWPQHfXWLi+8Yn8Gsf/FaHobwso+8gsDNrL84rlvmzmEZAQyX+2rAVj41WY4LkEHz9cCw==.sig.ed25519"
 }
