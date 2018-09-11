@@ -1,15 +1,18 @@
 {
-  "previous": "%Gwd1u31EjvKUnwFNrEBRc0p1v3Yt5QyEfZuUr2IO1cI=.sha256",
+  "previous": "%W66C9P0FYSAvYQnWX6LrJ2rVjXAnHVTJl3My5x4F7y0=.sha256",
+  "sequence": 4586,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4585,
-  "timestamp": 1536706268670,
+  "timestamp": 1536706420756,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
-    "branch": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
-    "channel": "nodejs",
-    "text": "Current status:\n\n```\ncat npm-shrinkwrap.json \\\n| grep -vE '\"(name|version|integrity|resolved|dependencies|requires|optional)\"' \\\n| grep -v \"lockfileVersion\" \\\n| grep -v '[{}\\^~*>|]' \\\n| grep -v '.x\"' \\\n| awk '{$1=$1;print}' \\\n| sort \\\n| uniq \\\n| sed 's/\"$/\",/g'\n```\n\nThis is gross, but I *think* I'll be able to pop this into `package.json` and it should install the same versions as it would if it understood the shrinkwrap file. Maybe?"
+    "type": "chess_move",
+    "ply": 41,
+    "root": "%JJC3OZpJfJGyCHh+shdsDNvopRQ9I8j5RGPqQdDba9U=.sha256",
+    "orig": "f3",
+    "dest": "g3",
+    "pgnMove": "Rg3",
+    "fen": "rn3rk1/pR4pp/5p2/3Pp3/3q4/6R1/P2N2PP/4K3 b - - 5 21",
+    "branch": "%U0Ow8uMnBo8zwUyrrheYnpeTlE6lFesO11kFBBH0lhI=.sha256"
   },
-  "signature": "HswuQjxI5W43vYGMznVjXgBcd9P3WbI6EyGlx2JaO/dQZ5mx4U70/60tOQAtdgvlSgbvW3YImWaTx23Y7ntGBA==.sig.ed25519"
+  "signature": "15AAxidW68LZXYw4HNLB0CulanxWVmeGmT4vpfn4ohTzc1zSc0tERujqrm8o97z1qCD3TKTfphKsftIJ03XJAA==.sig.ed25519"
 }
