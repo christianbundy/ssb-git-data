@@ -1,17 +1,18 @@
 {
-  "previous": "%binn/kt2Z1zgo6OjzMEKgEF+mEEAcvIYrPdmZS0WSEQ=.sha256",
+  "previous": "%QZc9hSQESmyiqubuRrftVyRLEc4CIWEVeshvsVaLw4E=.sha256",
+  "sequence": 4551,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4550,
-  "timestamp": 1536679599554,
+  "timestamp": 1536681271541,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "cyberpunk",
-    "vote": {
-      "link": "%ZOy2COWwNMDtFWrUMFaKKWrBEI8RIIkzh8P1FNf6b4o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 42,
+    "root": "%fd1BtOD2YEvSxa8VBQf+bHHPCdmJ1o/XCpJL4iAxYQs=.sha256",
+    "orig": "g6",
+    "dest": "h8",
+    "pgnMove": "Nxh8",
+    "fen": "r3k2n/2p4p/p1p4b/8/3P2bN/2N1P3/PPP3P1/1K2R2R w - - 0 22",
+    "branch": "%ur3bqBuslHp2BjjJqp6nKBSmqhRvq+E8nuwANyrNz8Y=.sha256"
   },
-  "signature": "haoLTfanxgNKe9k4xNi+SH6MZlytRym3bRw5m444guV00KL+zCigRdg0Ljelw9HvDnmaj64gV8OtlTx1HxooBA==.sig.ed25519"
+  "signature": "tjIA6wzsu1wq2QDbQA1op+pY67R+IXhOQkTeOhrRSQYmfOCkNdVL8UClhEC8MnVibWcvus4QJfrjxzvuU/lkAQ==.sig.ed25519"
 }
