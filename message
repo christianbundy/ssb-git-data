@@ -1,9 +1,27 @@
 {
-  "previous": "%F/SoE5A3VzoOy2UeP/xuHWa60s5a7GMt1DA5Fagj0jY=.sha256",
-  "sequence": 4572,
+  "previous": "%M30U6tOpeAEomX7ZQEfcn1EvLz35KdFfhL1Je/3tE8o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536702911331,
+  "sequence": 4573,
+  "timestamp": 1536703801190,
   "hash": "sha256",
-  "content": "+zmWwLIFE5Lm9a/9bsS6n0y2SS6y6FXaEV6BS7E+HSUE+UWz6OAD9HN2lL9DrRpai1ST+BaWQjb/1y96BQQzxiJdc83LDYw8iW9/Iji7rxcPCVx3hB+yok1+kG4LtW9G3UBOPA8i8QqHM53UYnUB50IbNUYgeeJ+fvzHrXzuGd/bnoaRPZQ0Pp537BNdXrIWQNAMGmA8uvWoy9nTOpE4StDl6UlQxPC44OzEiA+7m8x/Be0BIZNRoDYzqTHwj12+m9p7KGB9lTF2aGBUEAbl/CFGZ2snWzrvr25+UlOCTHFNOFSOJGE9IY8mBgHHLt49YfF9+KMKMEMTmGu4D9iZuSpgxOxirQcdikYo.box",
-  "signature": "dsJUHOineWx59WSaIbGd5PHmvHIvQj3Qd5FQQgxJNx9Kj1tNE0snVOFbjjKez+edWLeA0WbbPnQEXN4FB7JTBw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "I have a silly problem and no elegant solutions. I'd love some input. Here's what I've got:\n\n- a working Node application\n  - currently running live on a server\n  - running Node 0.10 (!)\n- minimal `package.json`\n  - small number of dependencies\n  - dependency tree is deep and wide\n- a bunch of errors when I run `npm install`\n  - dependencies won't install on modern Node versions\n  - backward-incompatible changes have been made by deep dependencies\n  - currently no way to run the application without copying `node_modules` from the working copy\n\nNot good. My first thought was to run `npm shrinkwrap` on the `node_modules`, but shrinkwraps are only supported in NPM 3+ (Node 5). I can *make* the shrinkwrap, but the NPM that ships with Node 0.10  doesn't know anything about shrinkwraps. My current theory is that I can recursively walk though the shrinkwrap and shell out to `npm install $dependency`, but I feel like there has to be a better solution.\n\nDoes anyone else have any clever ideas?\n\n#node #npm #javascript #js",
+    "channel": "nodejs",
+    "mentions": [
+      {
+        "link": "#node"
+      },
+      {
+        "link": "#npm"
+      },
+      {
+        "link": "#javascript"
+      },
+      {
+        "link": "#js"
+      }
+    ]
+  },
+  "signature": "LBjNziv/sL7Yi23RQJtn0VjbZ3FudBzZMEROYtvEWRtIBhvaWHJNDaY3Q25TKFYWXHrRyFVGaM/kw2BnSlB0Cw==.sig.ed25519"
 }
