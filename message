@@ -1,18 +1,15 @@
 {
-  "previous": "%1DgX0hhy8bitPbij2O+GF5FF2doY9D+FzOfBOmDFBkc=.sha256",
-  "sequence": 4584,
+  "previous": "%Gwd1u31EjvKUnwFNrEBRc0p1v3Yt5QyEfZuUr2IO1cI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536705761060,
+  "sequence": 4585,
+  "timestamp": 1536706268670,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 39,
-    "root": "%JJC3OZpJfJGyCHh+shdsDNvopRQ9I8j5RGPqQdDba9U=.sha256",
-    "orig": "f1",
-    "dest": "f3",
-    "pgnMove": "Rf3",
-    "fen": "rn3rk1/pR4pp/5p2/3Pp3/8/2q2R2/P2N2PP/4K3 b - - 3 20",
-    "branch": "%m8qn+ELjGYT1YSB0kNgWhzsYI98nX++EmsdgxG4u26I=.sha256"
+    "type": "post",
+    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
+    "branch": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
+    "channel": "nodejs",
+    "text": "Current status:\n\n```\ncat npm-shrinkwrap.json \\\n| grep -vE '\"(name|version|integrity|resolved|dependencies|requires|optional)\"' \\\n| grep -v \"lockfileVersion\" \\\n| grep -v '[{}\\^~*>|]' \\\n| grep -v '.x\"' \\\n| awk '{$1=$1;print}' \\\n| sort \\\n| uniq \\\n| sed 's/\"$/\",/g'\n```\n\nThis is gross, but I *think* I'll be able to pop this into `package.json` and it should install the same versions as it would if it understood the shrinkwrap file. Maybe?"
   },
-  "signature": "62/hvaE7JwmyjuDNsIlA3qwNahHpANgys+M5xfEEOt1slhPsraxokqCWhgLqbXk904LWEBlbbIG1eiPrJG7BAg==.sig.ed25519"
+  "signature": "HswuQjxI5W43vYGMznVjXgBcd9P3WbI6EyGlx2JaO/dQZ5mx4U70/60tOQAtdgvlSgbvW3YImWaTx23Y7ntGBA==.sig.ed25519"
 }
