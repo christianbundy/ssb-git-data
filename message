@@ -1,21 +1,17 @@
 {
-  "previous": "%40Rwq7+lXHcX04n4wa8WrjPULlAnybAVmNh3OwOc2Ss=.sha256",
+  "previous": "%Q6rWJDORB3cl4MKyA8D4/P88+Zoh5ltJ8zS+gm0QEZc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4591,
-  "timestamp": 1536707879763,
+  "sequence": 4592,
+  "timestamp": 1536707883470,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
-    "branch": "%nZrDXrwEOazv2fR7zE644dcqEqJWXFcSM5LyvJBSXCU=.sha256",
+    "type": "vote",
     "channel": "nodejs",
-    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nBackward compatibility, mostly.\n\nThis project is a prototype-turned-production where one of the major dependencies immediately became backward-incompatible, so the dependency tree hasn't seen many updates since early 2015. Eventually the application will be retired or upgraded, but currently there's just enough money for basic maintenance (i.e. making sure `docker-compose build` works).\n\nAlso, there's this few-thousand-line JavaScript file that it's called the [Winchester Mystery] File that nobody understands, which is tightly coupled to the backward-incompatible dependency. Did I mention that most of the JS is dynamically produced by PHP? I'm talking `<?php echo \"<script>x = \" . $foo . \";</script>\"; ?>` everywhere. I've never seen anything like it.\n\nNobody on the current team was around back when the application was written, so we're kind of just hoping it continues to chug along and avoid breaking anyone's [workflow](https://xkcd.com/1172/).\n\n😅",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      }
-    ]
+    "vote": {
+      "link": "%nZrDXrwEOazv2fR7zE644dcqEqJWXFcSM5LyvJBSXCU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "1p3FxzIuL8zh+09kD2J7D7PXuVrN+ihman9Z2aiMRTgBi01+NUCc3lVScJ/uZCH4aleD5wn+FpOnDVJuvDjUCA==.sig.ed25519"
+  "signature": "oDpWqjzZc7O1VF/nRQQO6epXHEzzjgC+wprsgwqg5kNUp85QvsA16XcJYl8kKWQXKA+Xk1JovVP+QGPiO7rJAg==.sig.ed25519"
 }
