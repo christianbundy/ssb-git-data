@@ -1,25 +1,17 @@
 {
-  "previous": "%rWqhLWadUSkeZCXUoeqLmJifIY8fIWO9SqNDHvp+hI8=.sha256",
+  "previous": "%OPxRY9j1MA7JZqqZH+N2lgvJD7w1K50U6iEx97JxNY4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4629,
-  "timestamp": 1536763403537,
+  "sequence": 4630,
+  "timestamp": 1536763447723,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
-    "branch": "%yDftQqus8PYfoAXybJG0ssMO++WxwgS1dS/Pqp4X74A=.sha256",
+    "type": "vote",
     "channel": "nodejs",
-    "text": "[@radmen](@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519) \n\nRight, the problem is that I only have a few dependencies in `package.json`, all with hardcoded packages, but they have deep and wide dependency trees that includes *both* packages that target the Node 0.10 ABI and packages that use ES2015 that Node 0.10 can't parse.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nIf by \"holding a seance\" you mean \"cursing at the output of `git blame`\" and by \"restless souls of those who were killed\" you mean me, I think this has already been tried. Might as well give it another shot though.\n\n> Until then, why not just check the entire thing (including deps) into git?\n\nThis... is probably the correct answer. I hate it. Thank you.",
-    "mentions": [
-      {
-        "link": "@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519",
-        "name": "radmen"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "vote": {
+      "link": "%wrhkzj47Z7u2JwmBoZdg7nMbc/5/11F1V6dhsRbpNOg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "y2ZP8KGgu0EYMe1vEJrV95egueS4NbWk8ZJF98G7L3ZOkbq9oofjQ/1v1W+y0Q3mwsCGoNhg5n6+pWXjwnqgAw==.sig.ed25519"
+  "signature": "wGo35EkqQQk/V3HNjjijTEkHFh6ycwIr7T8GL7U+ZCqjqExb38RqFfhSgxlAiql5x0/J6vigfMYCrUqgMPoIDg==.sig.ed25519"
 }
