@@ -1,21 +1,18 @@
 {
-  "previous": "%zS0I+2CXYEGzOnOaBNTW58tJrOxz9Xdtbw6W/islOpw=.sha256",
+  "previous": "%E8ExIVlXkk0uKq7og9pgvsPRiobvLa8+h9jzuswvvDo=.sha256",
+  "sequence": 4616,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4615,
-  "timestamp": 1536711242852,
+  "timestamp": 1536711326666,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
-    "branch": "%jZCZUAmPi2ggHkPDH0YJSo0EolME/PeUog/mL1bPhUU=.sha256",
-    "channel": "nodejs",
-    "text": "[@Ali Bosworth](@Tp2Yt5XvXWNJS/coCkYa/ARYbo4q1E3AzBxMpUVaYQo=.ed25519) \n\nThat's a really solid idea! I don't thinkit would be possible, as most of the dependencies have preinstall and postinstall scripts that must be executed against the Node 0.10 ABI. I agree, it would be really nice to easily separate the Node 0.10 shenanigans from the packaging code.\n\nMy script above worked *fine*, but it didn't match packages with the pattern:\n\n```js\n\"foo\": {\n    \"version\": \"42.0.0\"\n}\n```\n\nI just Ctrl+F'd for those when it came across a new problem, and it seems to work fine (for now), but even just for the sport of it I'd love to hear other suggestions on how to do this better.",
-    "mentions": [
-      {
-        "link": "@Tp2Yt5XvXWNJS/coCkYa/ARYbo4q1E3AzBxMpUVaYQo=.ed25519",
-        "name": "Ali Bosworth"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 32,
+    "root": "%wY5dDVlBTFC3DK87vqGeIGaDz2CNcoX9ezze3i5418Y=.sha256",
+    "orig": "d8",
+    "dest": "f8",
+    "pgnMove": "Qf8",
+    "fen": "r1b2q1r/p1k1b1Qp/np1p4/2p5/4P1n1/8/PPP2PPP/R3K1NR w KQ - 2 17",
+    "branch": "%JUeYiDZcbc5X43FocaSJ6Y4RbcaCBxu+6FTPAAJjOro=.sha256"
   },
-  "signature": "VTWi7d1nRWzGUo0+abAqPeg7otNswLt+bUmOHNKpogCHlJoUby5tTtP6Vz8SIAdg+jq+DZh4gW1tBPd7oRscDg==.sig.ed25519"
+  "signature": "paosoTXI5lXapiqKHJGVJyiKZmTb6WnumSWXgqfjcNtshDbZ7ImDDrUxqyG7FgkK3UzAMihNFuD0dzNegz6QAA==.sig.ed25519"
 }
