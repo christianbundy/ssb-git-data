@@ -1,17 +1,25 @@
 {
-  "previous": "%X7CxbT9VlU6jbg5lLTw69g/C2InH7nIz6QX/67bPobo=.sha256",
+  "previous": "%rWqhLWadUSkeZCXUoeqLmJifIY8fIWO9SqNDHvp+hI8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4628,
-  "timestamp": 1536762723499,
+  "sequence": 4629,
+  "timestamp": 1536763403537,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
+    "branch": "%yDftQqus8PYfoAXybJG0ssMO++WxwgS1dS/Pqp4X74A=.sha256",
     "channel": "nodejs",
-    "vote": {
-      "link": "%yDftQqus8PYfoAXybJG0ssMO++WxwgS1dS/Pqp4X74A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@radmen](@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519) \n\nRight, the problem is that I only have a few dependencies in `package.json`, all with hardcoded packages, but they have deep and wide dependency trees that includes *both* packages that target the Node 0.10 ABI and packages that use ES2015 that Node 0.10 can't parse.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nIf by \"holding a seance\" you mean \"cursing at the output of `git blame`\" and by \"restless souls of those who were killed\" you mean me, I think this has already been tried. Might as well give it another shot though.\n\n> Until then, why not just check the entire thing (including deps) into git?\n\nThis... is probably the correct answer. I hate it. Thank you.",
+    "mentions": [
+      {
+        "link": "@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519",
+        "name": "radmen"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "L14vdFBSiFxn2Isha1joWU/XD5Us7aRQlMRdb+5TC1oVZruoeJ01qpa4p3Qn09QzQ+djIDEG93OCaTxN69LKBw==.sig.ed25519"
+  "signature": "y2ZP8KGgu0EYMe1vEJrV95egueS4NbWk8ZJF98G7L3ZOkbq9oofjQ/1v1W+y0Q3mwsCGoNhg5n6+pWXjwnqgAw==.sig.ed25519"
 }
