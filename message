@@ -1,32 +1,13 @@
 {
-  "previous": "%TsGFWtJhqvZRpz5azkx+OpPdm5tCzdGaJKCEotyCHdQ=.sha256",
+  "previous": "%TCso6gqaIWG3/B5UqEHHfShUSt13gE8BYTP+ur99+hc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4657,
-  "timestamp": 1536777884428,
+  "sequence": 4658,
+  "timestamp": 1536778096713,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7lp4H/zlXLwMLwoF3kFBP8P9dY3bF6YKXRU1YbJy63g=.sha256",
-    "branch": "%lO6fa5btYnvQxixfxrQxHHK+NZMBVJk3wM9+v+j5mZA=.sha256",
-    "text": "[@Rick](@uI150EbzY2m6UcxLpxdH67zFInkhu9AsZl4g3DOcuQA=.ed25519)\n\nThere's also a project by [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) that seems to do this well: [`ssb-exporter`](https://github.com/arj03/ssb-exporter).\n\nI had to make some [changes](https://github.com/arj03/ssb-exporter/pull/2), but I was able to export my feed with `./export-data.js -e export`, switch to a new (blank) profile, and import my feed with `./import-data.js export`. Looks like there's parallel conversation going in [this thread](%wqcG416T5hJSjV/XcDejI9mth65tmOUYcXhSSxs38+c=.sha256) with [@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519). ",
-    "mentions": [
-      {
-        "link": "@uI150EbzY2m6UcxLpxdH67zFInkhu9AsZl4g3DOcuQA=.ed25519",
-        "name": "Rick"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "%wqcG416T5hJSjV/XcDejI9mth65tmOUYcXhSSxs38+c=.sha256",
-        "name": "this thread"
-      },
-      {
-        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
-        "name": "gozala"
-      }
-    ]
+    "type": "about",
+    "about": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
+    "name": "joey"
   },
-  "signature": "GJgfzH8bhpLdeSX7lv6N4HjBB4nEPQ3dWXT+BhSp+CaQgsnkX6pURwSKZvnBrEwLVJAhXdk+P31y67wiz1qrCg==.sig.ed25519"
+  "signature": "Iijl1uqrtRRgxrdjEarC+RGAaN/GpYO8qT8b04002hP1GfZ4pwWUzsDdKma8bcfyQLS/ApAqNrDBiLDbDwcHAg==.sig.ed25519"
 }
