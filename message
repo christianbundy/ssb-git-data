@@ -1,17 +1,32 @@
 {
-  "previous": "%ybePDBjZ6pNzU6i0a28M6l2Yh99ZTZLsgjBIYNCThbQ=.sha256",
+  "previous": "%TsGFWtJhqvZRpz5azkx+OpPdm5tCzdGaJKCEotyCHdQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4656,
-  "timestamp": 1536777822708,
+  "sequence": 4657,
+  "timestamp": 1536777884428,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%nhEv+/AIyak0jVWY724H9HJDb4f0UqHs2mXrpcIfHgw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%7lp4H/zlXLwMLwoF3kFBP8P9dY3bF6YKXRU1YbJy63g=.sha256",
+    "branch": "%lO6fa5btYnvQxixfxrQxHHK+NZMBVJk3wM9+v+j5mZA=.sha256",
+    "text": "[@Rick](@uI150EbzY2m6UcxLpxdH67zFInkhu9AsZl4g3DOcuQA=.ed25519)\n\nThere's also a project by [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) that seems to do this well: [`ssb-exporter`](https://github.com/arj03/ssb-exporter).\n\nI had to make some [changes](https://github.com/arj03/ssb-exporter/pull/2), but I was able to export my feed with `./export-data.js -e export`, switch to a new (blank) profile, and import my feed with `./import-data.js export`. Looks like there's parallel conversation going in [this thread](%wqcG416T5hJSjV/XcDejI9mth65tmOUYcXhSSxs38+c=.sha256) with [@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519). ",
+    "mentions": [
+      {
+        "link": "@uI150EbzY2m6UcxLpxdH67zFInkhu9AsZl4g3DOcuQA=.ed25519",
+        "name": "Rick"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "%wqcG416T5hJSjV/XcDejI9mth65tmOUYcXhSSxs38+c=.sha256",
+        "name": "this thread"
+      },
+      {
+        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
+        "name": "gozala"
+      }
+    ]
   },
-  "signature": "YEWV25WgufyfsDzUVxX4QwFBvi02vVldgjiYpZubWK04m5cmkwRk9BKpuw1wywQy2GIk4IiZSobWabr8yaiPDQ==.sig.ed25519"
+  "signature": "GJgfzH8bhpLdeSX7lv6N4HjBB4nEPQ3dWXT+BhSp+CaQgsnkX6pURwSKZvnBrEwLVJAhXdk+P31y67wiz1qrCg==.sig.ed25519"
 }
