@@ -1,9 +1,21 @@
 {
-  "previous": "%/rpRB8H3+hZ2+EHP63NwCU2p3S18/iSxmCQZsNHXheI=.sha256",
-  "sequence": 4614,
+  "previous": "%zS0I+2CXYEGzOnOaBNTW58tJrOxz9Xdtbw6W/islOpw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536710589259,
+  "sequence": 4615,
+  "timestamp": 1536711242852,
   "hash": "sha256",
-  "content": "GxkFM/h8scmfeRUlHmSCkyidr1AgupPzzk1S+r5Xcv8TTUDmRNq+d3tYcKzcsAJK0aZR6TiMchZSGHh9zIKE4F5oJ/8r+3Vd/MSyOET7EoDk1Ra7cGOY7BgUf74UjWFqZy8PyZGMRH1AXGUx9M+lsRcvlK/7qp5usU0QSfVZob+EZmaIGMUlc0Xc3StMgY5NWhgljEVbTEfeTXJH2ruKRMgSJpRyNY+U6GQSRt4qkl8o3y2yldHKKPVulA0g+rFxwtHW9ETy0Al0kzOxgT7PQjEVKjtM7i7x2L/bb5whGX/S8Xti/eVdjLlbQg1HOt6TlrBvUJy4YgcqKbsfJeW3X7CDkWNO/c5vc8NLCK+cRWyAJfFgL4K6YNVkokGjQJR5Odz0TV4gBSWYfEnxH6+S/bnI+9EuNzXYkVSZmaebPXPtdlqR5TFTavHeN9/r30DbafXHn+j1aAieTWE=.box",
-  "signature": "j5l1W9N7XT0aO/PdFAofcUfOz6Llfy+yQsvB/P/HYWk8emVDiVjUdU4JiEsvjvKSl54OhzJQmJp9LEHxJZKIBA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%lnn9qonMGSDhbsI7dltofnUpddUYRMAAcPmj9Xqs+aM=.sha256",
+    "branch": "%jZCZUAmPi2ggHkPDH0YJSo0EolME/PeUog/mL1bPhUU=.sha256",
+    "channel": "nodejs",
+    "text": "[@Ali Bosworth](@Tp2Yt5XvXWNJS/coCkYa/ARYbo4q1E3AzBxMpUVaYQo=.ed25519) \n\nThat's a really solid idea! I don't thinkit would be possible, as most of the dependencies have preinstall and postinstall scripts that must be executed against the Node 0.10 ABI. I agree, it would be really nice to easily separate the Node 0.10 shenanigans from the packaging code.\n\nMy script above worked *fine*, but it didn't match packages with the pattern:\n\n```js\n\"foo\": {\n    \"version\": \"42.0.0\"\n}\n```\n\nI just Ctrl+F'd for those when it came across a new problem, and it seems to work fine (for now), but even just for the sport of it I'd love to hear other suggestions on how to do this better.",
+    "mentions": [
+      {
+        "link": "@Tp2Yt5XvXWNJS/coCkYa/ARYbo4q1E3AzBxMpUVaYQo=.ed25519",
+        "name": "Ali Bosworth"
+      }
+    ]
+  },
+  "signature": "VTWi7d1nRWzGUo0+abAqPeg7otNswLt+bUmOHNKpogCHlJoUby5tTtP6Vz8SIAdg+jq+DZh4gW1tBPd7oRscDg==.sig.ed25519"
 }
