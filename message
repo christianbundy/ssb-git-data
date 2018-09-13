@@ -1,18 +1,15 @@
 {
-  "previous": "%eRZI49IH8G6bMqmp4LxFeWUYwFe6ENYBTm2JIroybgw=.sha256",
-  "sequence": 4701,
+  "previous": "%ztiwuIaGjowxq0zTbJqyegvPVsQwL78Zm/ESSIq9jjI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536847076049,
+  "sequence": 4702,
+  "timestamp": 1536847593966,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 36,
-    "root": "%6KQK7Bkh8pM2Z0V6euTT3k2IxO3G391vscT8jO6PkWM=.sha256",
-    "orig": "h4",
-    "dest": "h3",
-    "pgnMove": "h3",
-    "fen": "rn1qkb1r/3p4/p4pbn/2p1p1p1/B1N5/BPPP3p/P3QPRP/R3K3 w Qkq - 0 19",
-    "branch": "%NMt2BVcrfSFkAKZvJHzSbNXWeeTqM5zrL8Qgr20OLB4=.sha256"
+    "type": "post",
+    "root": "%X1TJKbU/q3arpZP8a4mbp5DDOlqmrx0L4GvR969vaw4=.sha256",
+    "branch": "%OtCBI0TaNpKmiEgCgrd2nFA/tKnyIZFsOlLYIWF0Iw4=.sha256",
+    "channel": "scat",
+    "text": "Hey, congrats on the release! I'm excited to try it out.\n\nI'm running sbot from Patchbay in the background and I'm gettting the same bug as above. Here's the actual error, from `--debug`:\n\n```\nTypeError: Cannot read property 'get' of undefined\n    at Object.setMe [as set] (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/state/actions.js:122:26)\n    at connect.start (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/index.js:54:18)\n    at tryConnect (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/connect/client.js:78:9)\n    at client (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/connect/client.js:44:9)\n    at /home/christianbundy/Source/scat/node_modules/ssb-client/index.js:109:5\n    at next (/home/christianbundy/Source/scat/node_modules/multiserver/compose.js:28:14)\n    at /home/christianbundy/Source/scat/node_modules/multiserver/compose.js:34:9\n    at _cb (/home/christianbundy/Source/scat/node_modules/multiserver/plugins/shs.js:31:11)\n    at /home/christianbundy/Source/scat/node_modules/secret-handshake/protocol.js:120:7\n    at Object.cb (/home/christianbundy/Source/scat/node_modules/secret-handshake/protocol.js:55:11)\n```\n\nAlso, it looks like `npm ci` is currently broken. Was npm deprecated in favor of pnpm? :sweat_smile: "
   },
-  "signature": "DruFu899YMIUYz9JYbViYET9vvtctca2+hOogD+8xYr6Q+m4xfgc0qiRMiF350ddKlBJksxlMAVaS9WY3UBKAA==.sig.ed25519"
+  "signature": "isJn78S4Vw0qtpSJH8ODCE5yqm+IT5lBhLZsQEwbuP6pzgI8C6LGTkUw068XzCu1nnGBODe21xODjHA8ahwbCA==.sig.ed25519"
 }
