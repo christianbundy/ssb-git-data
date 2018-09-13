@@ -1,15 +1,18 @@
 {
-  "previous": "%mMmSkawQ0rBlS3WeX6YGMa/L0bwISwDxx/zBlJbL3iY=.sha256",
+  "previous": "%17Ib+yWKwM1agvQNcRF/ViZikmaULujrjACqKyjnNyM=.sha256",
+  "sequence": 4685,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4684,
-  "timestamp": 1536798355162,
+  "timestamp": 1536798466622,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7KQJ6w7QNuO3UTQePIJTrwVQvAfpzcnkTYH+Ic5pGno=.sha256",
-    "branch": "%Q7LliCLId+cx88tU/YF4HdwXN1AyITMQLQSdCcgL7gU=.sha256",
-    "channel": "antisurveillance",
-    "text": "> Bearing in mind that our encryption will probably be broken at some point, and your feed could be leaked in some unfortunate situations…\n\nJust to add to this, we don't currently have forward secrecy, so any private key leak will leak *all* past private messages. Any attacker with the knowledge of your private key will be able to read any and all private messages, which is a bit scary given how well cryptographic protocols tend to age."
+    "type": "chess_move",
+    "ply": 34,
+    "root": "%6KQK7Bkh8pM2Z0V6euTT3k2IxO3G391vscT8jO6PkWM=.sha256",
+    "orig": "g8",
+    "dest": "h6",
+    "pgnMove": "Nh6",
+    "fen": "rn1qkb1r/3p4/p4pbn/2p1p1p1/B1N3Rp/BPPP4/P3QP1P/R3K3 w Qkq - 2 18",
+    "branch": "%aij2tLRtuQZBKmKp8xxS0icM+7XZl1UdhWGYyTJEzxQ=.sha256"
   },
-  "signature": "nRXoS9GiVHzUot8zyXXpzahSpPWD7cPoL9Ria9+XNQ829FO+QS9ytUKHPW+IbXPx+rrocuEnrQ4V/O2CiV9HAw==.sig.ed25519"
+  "signature": "1yYifmOknMDCJPEtOL1grLUikE5cv0y43KVLuXOphXvBeyMfPGUQ6HC5hs/rrK6Xj+p2tcra57i0SF9rFjiCDw==.sig.ed25519"
 }
