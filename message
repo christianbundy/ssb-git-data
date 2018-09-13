@@ -1,15 +1,18 @@
 {
-  "previous": "%ztiwuIaGjowxq0zTbJqyegvPVsQwL78Zm/ESSIq9jjI=.sha256",
+  "previous": "%vanMcHFl1uJpv+6QqO3XYs/ihTJzz2M40gIVr2AxT74=.sha256",
+  "sequence": 4703,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4702,
-  "timestamp": 1536847593966,
+  "timestamp": 1536848010063,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%X1TJKbU/q3arpZP8a4mbp5DDOlqmrx0L4GvR969vaw4=.sha256",
-    "branch": "%OtCBI0TaNpKmiEgCgrd2nFA/tKnyIZFsOlLYIWF0Iw4=.sha256",
-    "channel": "scat",
-    "text": "Hey, congrats on the release! I'm excited to try it out.\n\nI'm running sbot from Patchbay in the background and I'm gettting the same bug as above. Here's the actual error, from `--debug`:\n\n```\nTypeError: Cannot read property 'get' of undefined\n    at Object.setMe [as set] (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/state/actions.js:122:26)\n    at connect.start (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/index.js:54:18)\n    at tryConnect (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/connect/client.js:78:9)\n    at client (/home/christianbundy/Source/scat/node_modules/ssb-chat-core/connect/client.js:44:9)\n    at /home/christianbundy/Source/scat/node_modules/ssb-client/index.js:109:5\n    at next (/home/christianbundy/Source/scat/node_modules/multiserver/compose.js:28:14)\n    at /home/christianbundy/Source/scat/node_modules/multiserver/compose.js:34:9\n    at _cb (/home/christianbundy/Source/scat/node_modules/multiserver/plugins/shs.js:31:11)\n    at /home/christianbundy/Source/scat/node_modules/secret-handshake/protocol.js:120:7\n    at Object.cb (/home/christianbundy/Source/scat/node_modules/secret-handshake/protocol.js:55:11)\n```\n\nAlso, it looks like `npm ci` is currently broken. Was npm deprecated in favor of pnpm? :sweat_smile: "
+    "type": "chess_move",
+    "ply": 52,
+    "root": "%wY5dDVlBTFC3DK87vqGeIGaDz2CNcoX9ezze3i5418Y=.sha256",
+    "orig": "g4",
+    "dest": "e3",
+    "pgnMove": "Ne3",
+    "fen": "8/p1k1b2p/1p1p4/2p5/2b1P3/2P1n3/nP3r1P/1K1RN1R1 w - - 5 27",
+    "branch": "%1h7c+8wkpQmIjknGO6T7L1cQGcfS44+ljwebT0mIh+k=.sha256"
   },
-  "signature": "isJn78S4Vw0qtpSJH8ODCE5yqm+IT5lBhLZsQEwbuP6pzgI8C6LGTkUw068XzCu1nnGBODe21xODjHA8ahwbCA==.sig.ed25519"
+  "signature": "nWXJ9xqPO5mmGEWeqZxrBcNl7+P+Arr8+0UgeM6lAc7aOyb5JRv/JND7T/CqqJhO/dUpRrRyXjrKz6rusAaZDA==.sig.ed25519"
 }
