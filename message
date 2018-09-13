@@ -1,13 +1,18 @@
 {
-  "previous": "%tspWgaBJ0OlhN9ZJwUjvFiW8r7F8HNEsUhkb+2i+R6c=.sha256",
+  "previous": "%yWFc7p2tBFURaXAAscuJHMUgJmows9R+wihxe4rQKEs=.sha256",
+  "sequence": 4689,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4688,
-  "timestamp": 1536811320602,
+  "timestamp": 1536812392466,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I'm finally digging into the code behind the *actual* secure-scuttlebutt package, and I wanted to play around with the unboxing to deeper understand how things are working. I want to try changing out the [`_unbox`](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L10) for **an asynchronous unboxing function** with a callback.\n\nI've been banging my head against this for a couple of hours, but it seems like I'd need to re-plumb *all* of the functions to take callbacks and such, which eventually needs to be passed off as a [codec](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L68) to [flumelog-offset](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L74). Do pull-streams solve this sort of problem, or is that just adding another layer of complexity?\n\nThis *seems* like a place where loose coupling might be helpful as we experiment with new algorithms in the future, but I'm not sure I'm going about this the right way.",
-    "channel": "ssb-learning"
+    "type": "chess_move",
+    "ply": 62,
+    "root": "%fmHY8C7rlb6nSn13LZkWW0ZWXEL/NiunNbsaVd3l19c=.sha256",
+    "orig": "d8",
+    "dest": "e7",
+    "pgnMove": "Ke7",
+    "fen": "2r2r2/4k2p/3R1np1/1p6/7P/2P1p3/PPP3P1/2K5 w - - 5 32",
+    "branch": "%ITmPG3bQPAIC2oswzy8t7fexsFdmduzE3SlA+sA2nA8=.sha256"
   },
-  "signature": "iPxp9z/Cx6GBEEB3AAywj9dIy/3HlM6b8uD7TttJPmBaAnMrZF4OHA5MqgBpkAE0kVJSdmOOT09k7zDfCpntDw==.sig.ed25519"
+  "signature": "P24Q3yMO7PF3ReUldH88sSuMmgJs8b29ZR5B+M4v2qvsW+Ysyg6XWC62S7uUYveXe2oTWQXOyL5r0Q49TEo7CQ==.sig.ed25519"
 }
