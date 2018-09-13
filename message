@@ -1,18 +1,13 @@
 {
-  "previous": "%reIjtkGYDUdAk9eCKOI2mZ/kAN+WZuTRGAS0bU1LXMc=.sha256",
-  "sequence": 4687,
+  "previous": "%tspWgaBJ0OlhN9ZJwUjvFiW8r7F8HNEsUhkb+2i+R6c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536798653422,
+  "sequence": 4688,
+  "timestamp": 1536811320602,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 46,
-    "root": "%wY5dDVlBTFC3DK87vqGeIGaDz2CNcoX9ezze3i5418Y=.sha256",
-    "orig": "e6",
-    "dest": "c4",
-    "pgnMove": "Bc4",
-    "fen": "r7/p1k1b2p/1p1p4/2p5/2b1PNn1/2P5/nP4rP/1K1R1R2 w - - 4 24",
-    "branch": "%sZFhuMBgTlav55Mpr20JA2ALuB0NAqVtx4+dc6kwdq4=.sha256"
+    "type": "post",
+    "text": "I'm finally digging into the code behind the *actual* secure-scuttlebutt package, and I wanted to play around with the unboxing to deeper understand how things are working. I want to try changing out the [`_unbox`](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L10) for **an asynchronous unboxing function** with a callback.\n\nI've been banging my head against this for a couple of hours, but it seems like I'd need to re-plumb *all* of the functions to take callbacks and such, which eventually needs to be passed off as a [codec](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L68) to [flumelog-offset](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L74). Do pull-streams solve this sort of problem, or is that just adding another layer of complexity?\n\nThis *seems* like a place where loose coupling might be helpful as we experiment with new algorithms in the future, but I'm not sure I'm going about this the right way.",
+    "channel": "ssb-learning"
   },
-  "signature": "8lvsZUO7764FOzyTc6c/DOn5F2tc30pEza+BCh41j1DDMzDB8ia4enbVN3FsZsEIVUjjVbZVIlt5GoDLBMZ6Cw==.sig.ed25519"
+  "signature": "iPxp9z/Cx6GBEEB3AAywj9dIy/3HlM6b8uD7TttJPmBaAnMrZF4OHA5MqgBpkAE0kVJSdmOOT09k7zDfCpntDw==.sig.ed25519"
 }
