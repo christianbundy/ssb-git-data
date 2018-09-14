@@ -1,17 +1,18 @@
 {
-  "previous": "%zyDFRaoQhvD6Is/DtCNm5z6Sz3mEE2uAUAK0ykokLxo=.sha256",
+  "previous": "%Uw/tz7+Zv4oBfvFVrtLukAn8pYH7gnj6zHK0CnYeroE=.sha256",
+  "sequence": 4804,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4803,
-  "timestamp": 1536937047579,
+  "timestamp": 1536937302574,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-learning",
-    "vote": {
-      "link": "%nZosMpyq2SDQq+lpkqo8IkAeI2eXyK+u7NlzWaH/OoA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 66,
+    "root": "%dVCgzgKqxlN1A6IBipzFPkYwP0DH/4rElnVmK8+KmAA=.sha256",
+    "orig": "e8",
+    "dest": "f8",
+    "pgnMove": "Rxf8",
+    "fen": "5r2/2k3P1/p2pb3/P1p5/2p1B2Q/1P2P3/1R1P1P2/1NB2KN1 w - - 0 34",
+    "branch": "%ys0j2uTjvKoOf8liZ8+0T9QxZbYIzBW/kHqEmRLqTkc=.sha256"
   },
-  "signature": "iDNTw3gQp3a2YXlbr+NYKQbRMHj0O9Rq3+4jOMTptAXN1cfLxrB41rbBx5++LkILOOPgCYVhb8/v1ncG96d8Cw==.sig.ed25519"
+  "signature": "O+/k+4fr5Hxn4l0yvsoDoqlRsvJ07omUWDQLlTAWb4XLl2dmXrpoMJU50Oqj+lgGRwdAGZY+aBHg+Da6IF23Bg==.sig.ed25519"
 }
