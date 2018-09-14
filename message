@@ -1,17 +1,15 @@
 {
-  "previous": "%XLdHBBbxIAoMluIQV/qNhY6/VJf1ciBTOs2d1MGc540=.sha256",
+  "previous": "%99aB7bRIKOft4MNJ7i9SDupkJo2TIN+2wUgyeRA0eb8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4819,
-  "timestamp": 1536945484940,
+  "sequence": 4820,
+  "timestamp": 1536945911134,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scat",
-    "vote": {
-      "link": "%NszzKLOSaxeo1UJCHQF0pyG2Tx4ew3/8HbpdQSCDD3A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%chxr6A1CnDMYo0y9X92BZmW795LbB6F3/9nwUHZhgC0=.sha256",
+    "branch": "%pUnjSFBscfp9vFPdkN/aWjY3sIG9yVppAuqdA6fEook=.sha256",
+    "channel": "ssb-chess",
+    "text": "I've seen some folks talk about implementing Go or something, but I'm [personally] most interested in building something simple (checkers? tick tack toe?) to extract out the common code into something like ssb-board-game."
   },
-  "signature": "yP/mG8MVfNjIJOaY/bkijBhd1eyU2zqO/i3SHlmXb5d+885TqB2P1ZqDgLQkUlZz+fWfW6BbwN4mjDQ5UUL6Cw==.sig.ed25519"
+  "signature": "ZMFnByyVAC8dgPhltx3SkLoDcx4M0N54tQqz5g1STaGhkAfEs/UuV8QFU+go5rm5gKjwgaUg+gJi8ZAollwtCA==.sig.ed25519"
 }
