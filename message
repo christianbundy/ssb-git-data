@@ -1,21 +1,18 @@
 {
-  "previous": "%EH/wLPssd/7pdWSJ2U18GLo7IqZdxmHn0Hcu3mRLjIU=.sha256",
+  "previous": "%v0bDZvaACgxEEtp115XkmyxZ9O6FKh/elIgiU/XxYNM=.sha256",
+  "sequence": 4801,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4800,
-  "timestamp": 1536936963917,
+  "timestamp": 1536937020875,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%X1TJKbU/q3arpZP8a4mbp5DDOlqmrx0L4GvR969vaw4=.sha256",
-    "branch": "%2/0fiJd70hqtnBTCvhGeorw5NphfTaypRdevTeF75Po=.sha256",
-    "channel": "scat",
-    "text": "[@Iikku](@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519) \n\nFrom the `scat` directory:\n\n```\nnpx sbot server\n```\n\nIn another terminal, from the same directory:\n\n```\nnpx sbot publish --type about --about '@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519' --name 'Iikku MK II'\n```\n\nIf you have a jq installed, you could replace the above with:\n\n```\nnpx sbot publish --type about --about $(sbot whoami | jq -r .id) --name 'Iikku MK II'\n```",
-    "mentions": [
-      {
-        "link": "@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519",
-        "name": "Iikku"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 64,
+    "root": "%dVCgzgKqxlN1A6IBipzFPkYwP0DH/4rElnVmK8+KmAA=.sha256",
+    "orig": "b5",
+    "dest": "c4",
+    "pgnMove": "bxc4",
+    "fen": "4r3/2k3P1/p2pb3/P1p2R2/2p1B2Q/1P2P3/1R1P1P2/1NB2KN1 w - - 0 33",
+    "branch": "%hI3/QxjDp7KIHaKELlmb5R4VSUrJ+ChgNDDGQmsdUQM=.sha256"
   },
-  "signature": "MNcHr3nj4foZXWiJrsMEDWVwB4tUVvYTJGci4SVNkLMsilZYGvB6zynbYhVLl5xvCAV53Jja59VosrxGQ1tPDw==.sig.ed25519"
+  "signature": "t3zwu+j6IHblEfce39KD1VruVqABthZnLTyXfh0t+2rjSRyx93zbfZ6QR0aN68PeslKedRxPJB/JzD4ljDt1CQ==.sig.ed25519"
 }
