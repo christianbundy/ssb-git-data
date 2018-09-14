@@ -1,13 +1,21 @@
 {
-  "previous": "%DnsvLPj1XISM/2XSK1xk1xkWwdU2FiaF7yEFD+D71ZQ=.sha256",
-  "sequence": 4799,
+  "previous": "%EH/wLPssd/7pdWSJ2U18GLo7IqZdxmHn0Hcu3mRLjIU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536936735350,
+  "sequence": 4800,
+  "timestamp": 1536936963917,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "null",
-    "name": "test"
+    "type": "post",
+    "root": "%X1TJKbU/q3arpZP8a4mbp5DDOlqmrx0L4GvR969vaw4=.sha256",
+    "branch": "%2/0fiJd70hqtnBTCvhGeorw5NphfTaypRdevTeF75Po=.sha256",
+    "channel": "scat",
+    "text": "[@Iikku](@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519) \n\nFrom the `scat` directory:\n\n```\nnpx sbot server\n```\n\nIn another terminal, from the same directory:\n\n```\nnpx sbot publish --type about --about '@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519' --name 'Iikku MK II'\n```\n\nIf you have a jq installed, you could replace the above with:\n\n```\nnpx sbot publish --type about --about $(sbot whoami | jq -r .id) --name 'Iikku MK II'\n```",
+    "mentions": [
+      {
+        "link": "@3zpkedkEUhunChaYyg2yTtZTr9ubs9O4TK9MO/DGUGo=.ed25519",
+        "name": "Iikku"
+      }
+    ]
   },
-  "signature": "aNkYEEaJSYPvEBKbAYhVcNZSHajIGPh/TV/x1eAhrsc3fk7KLJxNNFFJDl3HupKRf7aXKcuDODxUYucVSiI1Cg==.sig.ed25519"
+  "signature": "MNcHr3nj4foZXWiJrsMEDWVwB4tUVvYTJGci4SVNkLMsilZYGvB6zynbYhVLl5xvCAV53Jja59VosrxGQ1tPDw==.sig.ed25519"
 }
