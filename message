@@ -1,12 +1,17 @@
 {
-  "previous": "%wLdr0rdbKzIQeVLIyTr81Nh7oi0QOO5xDVPsDOAdlco=.sha256",
-  "sequence": 4760,
+  "previous": "%G8Y2Hrz6r1uTPqAg6MlZb9PFb//UND17KCskXjVxNMY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1536884176927,
+  "sequence": 4761,
+  "timestamp": 1536884178930,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "not sure what the bug was, but hey, it works great now!"
+    "type": "vote",
+    "channel": "scat",
+    "vote": {
+      "link": "%NBDmzPA+n9/LFL9mje738tuN/bxoK+hk+KnzBEnRmxU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0eQUUM1HRYpKniI0FDgIO2jUJXhvJZGd5gMR9GOy56af+qege6mj4oA2mGAMJiCkwUsqPdL1d3nbvdhcc1xeAw==.sig.ed25519"
+  "signature": "UL0JKKbZ9Ng7jWtaYSbKwhwUbRVt9ROxSRgOi4E9YtkRplIlDoS/t+UBPjbmdCDfW9lKY0kxTVf789obzxg6AQ==.sig.ed25519"
 }
