@@ -1,21 +1,18 @@
 {
-  "previous": "%AQT6L9b3NDZvOnzVDn3CirvzKkKfk0VqYTV0i0ERVm0=.sha256",
+  "previous": "%Y+59erYt5mE4ug+w3yx066xlEP2adbsYzPwJV2pZBrk=.sha256",
+  "sequence": 4834,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4833,
-  "timestamp": 1536960494178,
+  "timestamp": 1536965679098,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/R55CDhuFRGVn2PdPYwPXLzneCfu+oSfvCr2+kCkpX8=.sha256",
-    "branch": "%/R55CDhuFRGVn2PdPYwPXLzneCfu+oSfvCr2+kCkpX8=.sha256",
-    "channel": "vpn",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nI'm using Patchbay (master) with a VPN about 80% of the time but haven't had any of these problems. Can you check the output of `sbot status` and see if there's anything interesting in there? Also, do you have a non-standard `.ssb/config`? ",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 66,
+    "root": "%6KQK7Bkh8pM2Z0V6euTT3k2IxO3G391vscT8jO6PkWM=.sha256",
+    "orig": "e7",
+    "dest": "d8",
+    "pgnMove": "Kd8",
+    "fen": "1r1k1r2/3p4/8/p1p2n2/BP1n2R1/P4P1p/3Q3P/5K2 w - - 1 34",
+    "branch": "%lsE0SwJtER63360T7Xo9ERY7VB3wI7VGSXH0cXula7Y=.sha256"
   },
-  "signature": "R1qjUVWLqplVEtTKNOONAby0Ozn5qPK/wXTZ/pzlaluRsnP8ZwVcJvPNBCP3eI+ujfN4DeoC2ZEmxdndrcdyBQ==.sig.ed25519"
+  "signature": "Tw4rRvTGzLMhJZj44f4sKVnPrM/gJnDc15gpGh6NftQ56xTqeyPGy1A+w1gGCGTPPqzlzdIxBP2GCoGJt4d3BQ==.sig.ed25519"
 }
