@@ -1,17 +1,21 @@
 {
-  "previous": "%G8Y2Hrz6r1uTPqAg6MlZb9PFb//UND17KCskXjVxNMY=.sha256",
+  "previous": "%KYsHwXDMJTsGzgZc50PT0KxjfxkrIf0tEzQHJCNb7xw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4761,
-  "timestamp": 1536884178930,
+  "sequence": 4762,
+  "timestamp": 1536884283125,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%NBDmzPA+n9/LFL9mje738tuN/bxoK+hk+KnzBEnRmxU=.sha256",
+    "branch": "%NBDmzPA+n9/LFL9mje738tuN/bxoK+hk+KnzBEnRmxU=.sha256",
     "channel": "scat",
-    "vote": {
-      "link": "%NBDmzPA+n9/LFL9mje738tuN/bxoK+hk+KnzBEnRmxU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519) \n\nLooks (and works) great, thanks! Do you have any plans for integrating this into any of the other SSB clients?",
+    "mentions": [
+      {
+        "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
+        "name": "squicc"
+      }
+    ]
   },
-  "signature": "UL0JKKbZ9Ng7jWtaYSbKwhwUbRVt9ROxSRgOi4E9YtkRplIlDoS/t+UBPjbmdCDfW9lKY0kxTVf789obzxg6AQ==.sig.ed25519"
+  "signature": "AivlQB2SxUVYq6jZtIiflM74fsbHLOB3Ukb/LlwTGHBY7+3W4KHuMWE+sJJukWzBs+08U843GQ6TC62elxBNAw==.sig.ed25519"
 }
