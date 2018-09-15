@@ -1,23 +1,13 @@
 {
-  "previous": "%Vkl+rSQHP6fuCKcWnLcuBjC5t7Y4ID+gfLR8BpOrjXk=.sha256",
+  "previous": "%nfCYI/8goJ+7j2SoJEMhHugo7eLNCGuZKD5O292wm7E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4835,
-  "timestamp": 1537023402055,
+  "sequence": 4836,
+  "timestamp": 1537023406617,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%aXxXIG3NvB6ApCvM7fnDzT5VXOeqndxB2vJY8pAYGUE=.sha256",
-    "branch": "%9Rw2DgKvm5b/n6MmwNeFEWXBNkpUbHsgeGFE7YEseUs=.sha256",
-    "text": "[@kas.v2](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nSorry to hear that you were #marooned! If you have your old `secret` and `gossip.json` you *may* be able to get your old feed back:\n\n1. Move `~/.ssb` somewhere else for a bit, maybe `.ssb.bak`.\n2. Create a new `.ssb` directory.\n3. Copy your `secret` and `gossip.json` into that directory.\n4. Open a client (or run `sbot server`).\n\nIt'll reset your feed to how the rest of the network views your feed, so you'll lose those ~50 posts but you won't have to restart your identity. Welcome back!",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas.v2"
-      },
-      {
-        "link": "#marooned"
-      }
-    ]
+    "type": "contact",
+    "contact": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+    "following": true
   },
-  "signature": "24/2Qxh3+u8p64395+RkPUlBWJI34fvfEIvaUbQTxeHaRHLGtd/qU/st3vE6a1FEys/vCi8qK4It6keJqrJJCQ==.sig.ed25519"
+  "signature": "V1Tx4oRxQ2UJdcXh8aFNtuzxpIbdSNsZANgrRHHppCbkd5Swbq0GYEeF5SuZJMVzmaiM8kVGkDFZuETHPtHHBA==.sig.ed25519"
 }
