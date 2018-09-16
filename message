@@ -1,17 +1,31 @@
 {
-  "previous": "%Ofxy1oNY//6EBryEEuYi66kH/+0I4L8Vik3G8+8sq2o=.sha256",
+  "previous": "%5X9P6y0+mEGZN3KS8nxX9RWhXuDbNQtSAQ9A5nXHQ2s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4840,
-  "timestamp": 1537023787864,
+  "sequence": 4841,
+  "timestamp": 1537141943327,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "starwars",
-    "vote": {
-      "link": "%/HeKWSw++gGwx71iuHZz4h2ehU3l6NrihOpO4mgoMug=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%aXxXIG3NvB6ApCvM7fnDzT5VXOeqndxB2vJY8pAYGUE=.sha256",
+    "branch": [
+      "%GOmR/zMOHQNwRnesqEd7nyw/aGSVrFY25ThXKPKXtIU=.sha256",
+      "%iiXFdGaYQPafJ/o++Y/itazxvOndiWgxJU8NH3wOX0U=.sha256"
+    ],
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) [@kas.v2](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\n> Can I be sure that it looks like that for everybody? Or could somebody have the other branch of the fork, the one with 50 extra posts?\n\nI think that depends, how did the fork happen? I've forked my feed a handful of times and restored it with the steps I posted above, but I'm not confident that it would work if the original fork happened by posting two messages at the same time. As long as [your last post](%1ODNSIJY28QI+0eVAtFG9tGHPkC9aGdLOWcR+yXOwC0=.sha256) was published well before the fork happened, that message should have propagated through the network and your fork should have just been you talking to yourself.\n\nIf you were talking with people, back and forth, on your forked feed, then maybe someone has the other branch of the fork, but in my experience that hasn't been something that I've noticed. The only time I've been able to *truly* break a feed is by posting two messages at the same time from different computers, but it only takes a few minutes for posts to propagate through *enough* of the network, in my experience.\n\n/shrug",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas.v2"
+      },
+      {
+        "link": "%1ODNSIJY28QI+0eVAtFG9tGHPkC9aGdLOWcR+yXOwC0=.sha256",
+        "name": "your last post"
+      }
+    ]
   },
-  "signature": "Hl2AKP3X3OilWW4/RolFbHm/8axqri2Pduhg5G2g4D4cHwmGH/Cry491QOw3Tifc7V5ZZHSznnrX8tdl91rnBA==.sig.ed25519"
+  "signature": "q2kbq3+pUefE3Kcb1cRanYZLEvMBO+5AppvPgGE7Cu1PR9uhlQfm0phtC1ltauzhynx3MOVxxEjg6bfgqIOPDg==.sig.ed25519"
 }
