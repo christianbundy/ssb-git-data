@@ -1,31 +1,14 @@
 {
-  "previous": "%5X9P6y0+mEGZN3KS8nxX9RWhXuDbNQtSAQ9A5nXHQ2s=.sha256",
+  "previous": "%+iP3HQVHHlD09OGBa66vze95Yg4qJ8hN7Z+0QyEBQ7w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4841,
-  "timestamp": 1537141943327,
+  "sequence": 4842,
+  "timestamp": 1537202634602,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%aXxXIG3NvB6ApCvM7fnDzT5VXOeqndxB2vJY8pAYGUE=.sha256",
-    "branch": [
-      "%GOmR/zMOHQNwRnesqEd7nyw/aGSVrFY25ThXKPKXtIU=.sha256",
-      "%iiXFdGaYQPafJ/o++Y/itazxvOndiWgxJU8NH3wOX0U=.sha256"
-    ],
-    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) [@kas.v2](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\n> Can I be sure that it looks like that for everybody? Or could somebody have the other branch of the fork, the one with 50 extra posts?\n\nI think that depends, how did the fork happen? I've forked my feed a handful of times and restored it with the steps I posted above, but I'm not confident that it would work if the original fork happened by posting two messages at the same time. As long as [your last post](%1ODNSIJY28QI+0eVAtFG9tGHPkC9aGdLOWcR+yXOwC0=.sha256) was published well before the fork happened, that message should have propagated through the network and your fork should have just been you talking to yourself.\n\nIf you were talking with people, back and forth, on your forked feed, then maybe someone has the other branch of the fork, but in my experience that hasn't been something that I've noticed. The only time I've been able to *truly* break a feed is by posting two messages at the same time from different computers, but it only takes a few minutes for posts to propagate through *enough* of the network, in my experience.\n\n/shrug",
-    "mentions": [
-      {
-        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas.v2"
-      },
-      {
-        "link": "%1ODNSIJY28QI+0eVAtFG9tGHPkC9aGdLOWcR+yXOwC0=.sha256",
-        "name": "your last post"
-      }
-    ]
+    "root": "%iU0i7mv0WQQ2NTIgvUBH0R5iLowvwFv/k4BcYCFp+zg=.sha256",
+    "branch": "%d594dc6qpNjdHX0fAydJVURQlB0XMiki6sfVpJxQno8=.sha256",
+    "text": "I think this depends on what constitutes a \"public viewer\".\n\n- The public can use MVD to see any post with a web browser.\n- The public can use Patch(work|bay) to see any post with Electron, Chromium + Node.\n- The public can use Patchfoo to see any post a web browser and Node.\n\nI don't have any hard answers, but it seems like there are only two differences between MVD and http://viewer.scuttlebot.io/:\n\n- required JavaScript\n- generated keypair\n\nI wonder what the majority of non-technical SSB users think \"public viewer\" means, and where the line is drawn on the continuum of the viewer, MVD, Patchfoo, and Patch(work|bay). Is remote hosting the only factor that constitutes a \"public viewer\"? Hmm."
   },
-  "signature": "q2kbq3+pUefE3Kcb1cRanYZLEvMBO+5AppvPgGE7Cu1PR9uhlQfm0phtC1ltauzhynx3MOVxxEjg6bfgqIOPDg==.sig.ed25519"
+  "signature": "DaG9g6ZZgsljbVYwELI1p4h8eOzY1pxeth/QJjjH4d80j+sA7C4yob/DYRUbH/Qo2JNOEXQbqnkA/IR+LEdNBA==.sig.ed25519"
 }
