@@ -1,14 +1,17 @@
 {
-  "previous": "%+iP3HQVHHlD09OGBa66vze95Yg4qJ8hN7Z+0QyEBQ7w=.sha256",
+  "previous": "%96XVQCz0Ic7L0QksVMpo1G+NUtCPixtaayypoimpeoE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4842,
-  "timestamp": 1537202634602,
+  "sequence": 4843,
+  "timestamp": 1537220166470,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%iU0i7mv0WQQ2NTIgvUBH0R5iLowvwFv/k4BcYCFp+zg=.sha256",
-    "branch": "%d594dc6qpNjdHX0fAydJVURQlB0XMiki6sfVpJxQno8=.sha256",
-    "text": "I think this depends on what constitutes a \"public viewer\".\n\n- The public can use MVD to see any post with a web browser.\n- The public can use Patch(work|bay) to see any post with Electron, Chromium + Node.\n- The public can use Patchfoo to see any post a web browser and Node.\n\nI don't have any hard answers, but it seems like there are only two differences between MVD and http://viewer.scuttlebot.io/:\n\n- required JavaScript\n- generated keypair\n\nI wonder what the majority of non-technical SSB users think \"public viewer\" means, and where the line is drawn on the continuum of the viewer, MVD, Patchfoo, and Patch(work|bay). Is remote hosting the only factor that constitutes a \"public viewer\"? Hmm."
+    "type": "vote",
+    "channel": "scuttlebutt",
+    "vote": {
+      "link": "%Gs2NhjWxbNQrsOu1AtL4w8x7BudcvbE5CY8Uc+14DA4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "DaG9g6ZZgsljbVYwELI1p4h8eOzY1pxeth/QJjjH4d80j+sA7C4yob/DYRUbH/Qo2JNOEXQbqnkA/IR+LEdNBA==.sig.ed25519"
+  "signature": "SFDUDSEBFYzClUtWY6HGuAAImfJRmiD5wsSet9yK9p4pV7BIYoUiEebmoefYwRIW+vcoQvL02lP8SsFmxyjPDQ==.sig.ed25519"
 }
