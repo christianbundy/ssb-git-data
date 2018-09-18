@@ -1,16 +1,20 @@
 {
-  "previous": "%ZEAVmrqEDHqjGOMOdQ5JkPfOGRBuMdypS67gAy73zak=.sha256",
+  "previous": "%e21kwQ84xdzyz0QLL8bgkLs/85NQEzdahdi10+f1qls=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4850,
-  "timestamp": 1537285531663,
+  "sequence": 4851,
+  "timestamp": 1537286022605,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%f8P2bOZjPym7M6wQ5MBnZ8Ifo24vPifCLyy1qIBdyUU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+/GULmb2h5jQ83m7kqLMy9klQY6ifsyF5MLJ8t++Iqk=.sha256",
+    "branch": "%/voH2smOoqFlPRv5+Inpuo3Co+ZxtR/IyA20l9aduq8=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\n> BTW christian can you work on merging that now that tags are in? We're going to do polls after that's in and ask for your help a little with our polls branch at some point.\n\nYep, just pushed now -- thanks for the ping!",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "jdGwKJSANTnIpJIUKUbKOXfrRfWOKj7jAGje9I7PeRQh5mmJgQFkPD9u06Pthfh40VqRhTAsgvFp8NYmGRy1Aw==.sig.ed25519"
+  "signature": "lZJAiPaF0VKdMYzoUgSBcNTYmD+A+0Vg7/i938RlLTlSs3Clmp8aBuhReHy5Ltx51V7KvdDDT7wdzfgjGMWkDQ==.sig.ed25519"
 }
