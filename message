@@ -1,23 +1,13 @@
 {
-  "previous": "%ReR2X4aqO4NNv5HW6afJg2GbYSFrxXKrrTiyPlb1ayM=.sha256",
+  "previous": "%xJcymGKXalpsdsv/zuhrlzrx1TtPaKKGIhrFt/A2Q6A=.sha256",
+  "sequence": 4953,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4952,
-  "timestamp": 1537397291557,
+  "timestamp": 1537397299393,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%jYQnj8z5DcaXF9PSlyDt0KtWh/dhcuqkfYPl47lsMFY=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\n> What applications could be built if you could do a database query over blobs?\n\nI'm not sure -- I understand that abstracting content away from the sigchain has some nice properties for engineering and security (especially forward secrecy), but the idea of querying blobs doesn't really click for me yet. Could you unpack that idea a bit?\n\nMy brain jumped to technologies like Dat, IPFS, BitTorrent, and other data-centric software that would benefit from #offchain-content, but I get the feeling you're talking more about the *shape* of these applications rather than just throwing out techy buzzwords that have to do with blobs and data.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "#offchain-content"
-      }
-    ]
+    "type": "chess_invite_accept",
+    "root": "%LM8Ed6SPlIGO5WzXEJ9q82xwV+kedAWTEFCRPGcSCqE=.sha256",
+    "branch": "%LM8Ed6SPlIGO5WzXEJ9q82xwV+kedAWTEFCRPGcSCqE=.sha256"
   },
-  "signature": "D+BvPW4fgcsvXgE/+FhlF2s1eT+6QZrcZ8TzctXYj+s4q2LDjdvZAtFvVEEU/3rhyD2wqdKRqctLG8Nv7BZ8AQ==.sig.ed25519"
+  "signature": "C96PMwBN1sMCGGQaK9iYjAeeR4HinaH/LjseG13ncB7T1G4XYT8i5CpGto0+cMBrGzAkDUyfh6eBGTi66Z23Bg==.sig.ed25519"
 }
