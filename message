@@ -1,28 +1,16 @@
 {
-  "previous": "%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256",
+  "previous": "%/bxI3icyCb+TRst5yz3vcPa2/nk6rueIbmi1emnRYSw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4926,
-  "timestamp": 1537380166988,
+  "sequence": 4927,
+  "timestamp": 1537380431964,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%dm8Fi2UEiGGpEgXoLS9AkNeZj0GIXRH0x0n5F0bi6Ig=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> my understanding of the current message validation rules is that should not even be allowed.\n\nI think this was my problem -- I was under the impression that ssb-validate was only hooked up to `sbot publish`, so my local patch meant that I was publishing a message that others wouldn't replicate. Thanks for helping me troubleshoot this, definitely a learning experience!\n\n[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n\n> So please read it through that lens - lighthearted and jokingly - if you can.\n\n❤️\n\nI've just refactored and posted [a new message](%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256), which shows up to me as:\n\n```json\n{\n  \"key\": \"%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256\",\n  \"value\": {\n    \"previous\": \"%2+uc1az8Xk9NGV4xMSnaMyXyq2eLeBWGzQlcpT/emac=.sha256\",\n    \"sequence\": 4925,\n    \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n    \"timestamp\": 1537379262052,\n    \"hash\": \"sha256\",\n    \"content\": {\n      \"type\": \"post\",\n      \"text\": \"If you're reading this, #blob-content works.\\n\\n...or not. Depends on how you're viewing this message.\",\n      \"mentions\": [\n        {\n          \"link\": \"#blob-content\"\n        }\n      ]\n    },\n    \"signature\": \"j8/lzTjN/FJYEMHyaJqFdJj5tyDPR9D1R+l8foO3XE7sZTfOVZrLM7zXsggipXEXtWo/WYgylMfE3Hkhie7IDA==.sig.ed25519\",\n    \"blob\": \"&sbBmsB7XWvmIzkBzreYcuzPpLtpeCMDIs6n/OJGSC1U=.sha256\",\n    \"blobContent\": true\n  }\n}\n```\n\nCurrently there seem to be two states:\n\n- Blob is found and returned with `value.blob: \"&blob\"` and `value.blobContent: true`.\n- Blob can't be found/unboxed/etc and the original `value` object is returned as-is.\n\nI'm not familiar enough to understand why, but I've even been able to post a blob message and *then* add the blob in a later message, and after restarting sbot it seems to be unboxed correctly. I'm sure this throws a wrench in the whole \"timestamp\" bit, as we now have:\n\n- when the message was received\n- when the message was [supposedly] authored\n- when the blob was received\n\nAnyway, it turns out that I was able to hook into the unboxing code *without* setting the invalid `value.content: \"&blob\"` property, which seems to resolve the bug I caused/experienced. Fingers crossed that I didn't just break my feed again!",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256",
-        "name": "a new message"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%Osa+no8tcL7eX7meShSMGynjiXpMy6VroWKXjqrmgCo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "f1qlivg2rFLrQNMRX0g7A0xQPX1DVH2sbV57Oe8CLhD6ytDHNZVUPsn5mZHqW8aoQ2Z5Rz5KXIfv6HKdQudZAA==.sig.ed25519"
+  "signature": "mcxzt4tEjD584BcYIj+uq2OcGtMAcfiog2UO4YeS2KhFKptjInC8AElToKBa5NpCXSok+MA19qXZKWBpd/z0BA==.sig.ed25519"
 }
