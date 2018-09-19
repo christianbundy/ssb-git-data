@@ -1,12 +1,17 @@
 {
-  "previous": "%o9tEkDCHKcUDkoNxSakTFQK3VIOv54UGGcdYWs6B+go=.sha256",
-  "sequence": 4900,
+  "previous": "%6PiqQqi9UwUGI2YGE7izjlWh7sFa113sSB0o2a9gldM=.sha256",
+  "sequence": 4901,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537316759018,
+  "timestamp": 1537316759334,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "it *may* be a username, but there's nothing after it, and it stays at the bottom of the public and private chats even when I publish anothe message"
+    "type": "vote",
+    "channel": "eu",
+    "vote": {
+      "link": "%wL/UzdrtOkWtZ18SXuEsQiId1bfbHpZC/wmtGCDtzD4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "DYPoQRT/sROPjiNclmpt+ArVwFd0xkSjEisTX0y2liDN6G2PnF/f4T8ktRYkbexVDVt0/5wXwis+IR61kCxxBQ==.sig.ed25519"
+  "signature": "hmdqixPMKHe5mTUahZDTQdmFBgrHRAnLqGToWoh8dgnvi29iOyzFfQ8Zng0iSqbBP1TnpdonJZOKiP8xMRS4DQ==.sig.ed25519"
 }
