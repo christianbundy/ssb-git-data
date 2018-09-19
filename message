@@ -1,24 +1,17 @@
 {
-  "previous": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+  "previous": "%I+iA9KAKGfTKHhZgiv9AjkJLZtXkKqvjPu8+mylu6hs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4904,
-  "timestamp": 1537318674616,
+  "sequence": 4905,
+  "timestamp": 1537320109697,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%TPs53tQ65rgZiRRm2bokbKrVMDhf7sGx45/BvL50mgg=.sha256",
-    "branch": "%+HzVThJBb5fDgjfYvrxI6abgx2F7VLcBw3qNZAZGO8I=.sha256",
-    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) \n\nI think I've run into the same bug as you! I've opened [an issue](https://github.com/ssbc/secure-scuttlebutt/issues/217) and made [a small change](https://github.com/ssbc/secure-scuttlebutt/pull/218) that I believe resolves the issue. My understanding is that when the unboxing code runs into a decryption error it crashes Scuttlebot with an uncaught exception. I ran into this issue while [prototyping blob content](%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256), and while I can't tell *why* your `content` string would be invalid it sounds like the same symptoms from changes to the content property.\n\nDo you think we might be running into the same bug?",
-    "mentions": [
-      {
-        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
-        "name": "cft"
-      },
-      {
-        "link": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-        "name": "prototyping blob content"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%sItVnApFm6OHLdhLJg2OA1dLzm7Jb4q/0IJnNV04XB8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "VDLbJFcOZs0Erh8aNfeGQnDc02PoT4xmth8R/vaMGYgNvth6MQ4KcRuBSDJhk6h0tfB2ePkYuTMMXTr9tFB+Dw==.sig.ed25519"
+  "signature": "7FBKfEsb3Iwpxwe+awh+ENGkAyS6eyeitxri0cGnN2bIICy+TItjlLu3Z5RtSuhJ+5ZERoZ7WJQ4FKJWqJA0Bw==.sig.ed25519"
 }
