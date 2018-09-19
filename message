@@ -1,16 +1,24 @@
 {
-  "previous": "%MJj/SbCHqoOjrdA2SUwwIvClV9PESgfiaTtBNQgTags=.sha256",
+  "previous": "%9Ok9jCg4t6VCTohrA66EdfnqglF3DTaT1ajxej4nTD4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4940,
-  "timestamp": 1537393918641,
+  "sequence": 4941,
+  "timestamp": 1537394269165,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%1BzspwropnZ1DWop2T2YsOGDX+UpALFBCvbkpjpT5uI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CEqN/Gqsow2ovZ8UdA4w0J5/rRpMOdH80R9GiH4Lcvc=.sha256",
+    "branch": "%S6WJ7v4PpioEJgu+FcOaUwW0GSKIZnRkswkpk/0/Fzo=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI tried to find a \"ping\" emoji and all I got was this lousy codepoint. 🏓\n\nBut really though, I wrote [a small hack](%uUdnfih066BmhWXhNKnmJsEWlgtg9/ZJXNGF64JW4OM=.sha256) that requires changes to both secure-scuttlebutt and flumelog-offset. I've barely tested it at all, but it seems to be working *fine*. For now.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "%uUdnfih066BmhWXhNKnmJsEWlgtg9/ZJXNGF64JW4OM=.sha256",
+        "name": "a small hack"
+      }
+    ]
   },
-  "signature": "p3M43h2Fz1ixZTMnwA2vB1DCFHUxXxrcsCMsQU3Z8H8GZlci5v3DtiJIeHUyW1SOLSzXd9vvhpHEPzks4dvOBQ==.sig.ed25519"
+  "signature": "rIhYGGDRg4u1InHbRfz0FqxtUzlacqOggIyn2BaX1dZ1lt6uvLdyOfYMP48cYqQIW1p6yEPIki/1rE66XEXvCQ==.sig.ed25519"
 }
