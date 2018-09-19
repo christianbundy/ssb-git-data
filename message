@@ -1,27 +1,17 @@
 {
-  "previous": "%5lMxVp/OQnpUhJ7fBtEO5ggvhcw+1SaOw1RPO9ba4y0=.sha256",
+  "previous": "%uUdnfih066BmhWXhNKnmJsEWlgtg9/ZJXNGF64JW4OM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4938,
-  "timestamp": 1537393710048,
+  "sequence": 4939,
+  "timestamp": 1537393894300,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%hFBxZwJugnvFXUW+UsIvf35cI0n1iyUnVc9ua0p+HP0=.sha256",
-    "text": "# Blob Content II: Return of the Multiblob\n\nThis is still a hack but it turns out I might have implemented [async codecs for flumelog-offset](https://github.com/flumedb/flumelog-offset/pull/140), which lets us [use multiblob](https://github.com/ssbc/secure-scuttlebutt/commit/06937996465a317ac2c16ce234508900e1e69e56) the way the gods intended it. I'm sure there are bugs, but this seems to be working *well enough* that I think I'm planning to use it as my daily driver. I won't be posting blob content messages regularly, but I want to see if I can find any new failure modes.\n\n## Testing\n\nLet me know if you end up testing this out! I don't *think* there's any risk of breaking your feed with this version of blob content, but don't trust me. Please let me know if this gives you any trouble.\n\n### Patchbay\n\nI'm running a branch of Patchbay on the SSBC repo called `@christianbundy/master` if you'd like to test it out, just bear in mind that this is pretty experimental. \n\n```\ngit pull origin @christianbundy/master\n```\n\n### Not Patchbay\n\nI think this should be relatively easy to plug into an existing client by just running `npm i --save https://github.com/ssbc/secure-scuttlebutt#blob-unboxer` and staying up-to-date with `npm update`.\n\n## Feedback\n\nThe first round of feedback was super helpful in:\n\n- pointing out my misunderstandings (especially [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)'s test)\n- pushing me in the right direction\n- helping me think about failure modes (especially [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)'s questions)\n- making me feel warm and fuzzy and such\n\nSo for that, thank you. I'd really love some more feedback on this latest iteration if you've got the time. I'm going to include some notes below that might be good points to start discussion. Really looking forward to hearing more thoughts!\n\n## Notes\n\n### Good\n\n- you can now view blob content messages (!)\n- all the hard stuff is handled by multiblob (!!)\n- it doesn't break your feed anymore (!!!)\n\n### Bad\n\n- if you receive a blob *after* the blob content message:\n  - it will remain hidden as a \"private\" message\n  - the only workaround I've found is restarting sbot\n- the only way to publish messages is `sbot publish --type 'blob' --blob '&abcdef.sha256'\n\n### Ugly\n\n- the changes to secure-scuttlebutt are experimental\n- the changes to flumelog-offset are experimental\n\n### ???\n\n- benchmarks are showing no performance changes from the codec change(s)\n- `console.error` wasn't working without `console = require('console')`\n- I'm super curious whether private blob messages work -- anyone want to try?\n\n### Next\n\n- I'd like to ~~bikeshed~~ decide on a name for the post type\n  - I was originally thinking `blob_content` but got sidetracked trying to understand why underscores are often used in post types (at least for #ssb-chess)\n  - I'm a bit surprised that the `blob` type had never been used (within 2 hops)\n  - I'd imagine `blob` is probably fine unless there are other objections\n- working with the [actual API](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L187-L189) instead of forking secure-scuttlebutt\n  - this is dependent on the async codec code being merged into flumelog-offset and secure-scuttlebutt\n  - is there a difference between secure-scuttlebutt plugins and scuttlebot plugins?\n  - I'm unclear on how this would actually be implemented or used by client authors\n- working through the two \"bad\" bits mentioned above\n  - it would be nice to *not* have to restart sbot when a blob comes after the corresponding message\n  - it would be nice to be able to post from a non-CLI client\n- probably heaps of other stuff, **I'd love some feedback on what to work on next**   ",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "#ssb-chess"
-      }
-    ]
+    "type": "vote",
+    "channel": "clouds",
+    "vote": {
+      "link": "%LUEBiq9H1jhoV/iEdUQx1m2quWi6Ai02306pc4WII7o=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "4R9r6FR7QmLERWlGvSZGSW7Miba0+WL1PEBapxskFcI86/K5yFJETOu0rrfMYNfh9FediGaYv4bSCMllNX/4Bg==.sig.ed25519"
+  "signature": "MQsRbvhUtwkcy70tQm1Y6kDMmi5mimRPw8UYWbLsNOYBQ9GVnliNN+eV/HdgHg1QTn12eFpuXi5SH/Je+jrtBQ==.sig.ed25519"
 }
