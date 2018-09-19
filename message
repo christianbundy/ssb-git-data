@@ -1,58 +1,24 @@
 {
-  "previous": "%T3JpOskqqY0miXHPhgqx2rLVpf7rlHcXDWhQvqkubGc=.sha256",
+  "previous": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4903,
-  "timestamp": 1537317694865,
+  "sequence": 4904,
+  "timestamp": 1537318674616,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Prototyping Blob Content\n\nIf you haven't read [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)'s thoughtful and insightful post on [moving message content out of the sigchain](%QJEpN8LN1t3BrIkUQ3WoOMWRsMArbVUZCpTeBYcuqfw=.sha256), it may be useful backstory. The gist is that #offchain-content has many benefits but that the *best possible implementation* doesn't involve using the current blob mechanism. I agree wholeheartedly.\n\nInstead, I've built the *worst possible implementation*, and I'd like to share it.\n\n## Private Unboxer\n\nWhen secure-scuttlebutt sees a message with `content` as a string, it passes it off to [a function](https://github.com/ssbc/secure-scuttlebutt/blob/beff8d063a20a1604ffe9110eb0d0f0911fc2e95/minimal.js#L18-L31) that translates that into an object by decrypting the content string. This means that you can query for messages with the type `chess_chat` and you don't need to worry about whether the message was public, unboxed privately, or something else. Emphasis on the *something else*.\n\nMy first move was to [create the ability to chain unboxers](https://github.com/ssbc/secure-scuttlebutt/commit/912c050fa56bf8258fab9015f7c355459bd0c4dd), so that multiple unboxers can work on the same message. My original intention was to add a `blob_unboxer` that made a call to multiblob, but multiblob's async methods don't mesh well with [flumelog-offset](https://github.com/flumedb/flumelog-offset/issues/13).\n\n## Blob Unboxer\n\nI'm calling this the *worst possible implementation* for a reason: instead, I wrote a hacky reimplementation of `multiblob.get` and [added it as an unboxer](https://github.com/ssbc/secure-scuttlebutt/commit/400d561e0f08461de2d790ed9d039b50eda417e20). This does three simple things:\n\n1. Looks for a `content` property that starts with the blob sigil (`&`).\n2. Reads that blob into memory and attempts to parse it as JSON.\n3. Passes the result onto the next unboxer, and then to the database.\n\n## Gross\n\nYeah. It's gross. But it works! I want to be very clear about the fact that this is a hacky prototype that I hope will be immediately made obsolete, but if nothing else it's an interesting experiment in ergonomics. I've only prototyped *viewing* blob content, but my workflow for *adding* blob content is even worse:\n\n1. Attaching [a JSON file](&sbBmsB7XWvmIzkBzreYcuzPpLtpeCMDIs6n/OJGSC1U=.sha256).\n2. Copying the hash.\n3. Patching ssb-validate to allow my terrible message.\n4. Running `sbot publish $hash`.\n5. Viewing [the message](%zCJJlXAqwz+ESR3/UK/xeX/mrgAe2K2VJnS8XCd0ypA=.sha256).\n\nI *may* be able to get away with skipping the first step, but I'm not very familiar with the specifics of blob replication and I want to make completely sure that my prototype blob is replicated for this post.\n\n![screeenshot of prototype blob content](&Qr9YtE3V1o2wc6piwwuTYc0AKSc4qcqb9m74wU7WGNA=.sha256)\n\n## ???\n\nIn the interest of iterative development, I'd love to hear some input on what my next steps should be (or whether this works for you). I *think* this can be tested by running `npm i --save https://github.com/ssbc/secure-scuttlebutt#blob-unboxer` in your client directory. Unless the consensus is an overwhelming \\\"delete it\\\", I think my next steps will likely either:\n\n- an asynchronous flumelog-offset codec\n- a synchronous multiblob option/implementation\n\nAnyway, that's all I've got. **What do you think?** \n\n![hermies firehose](&k4CnqbWMRHuVZP3Lk8RlysuobL2BdG2U440PIUqRtaI=.sha256)\n\n---\n\n**Note: It turns out that posting the proof-of-concept message actually crashed Scuttlebot for anyone who tried to replicate with me.** I've [opened an issue](https://github.com/ssbc/secure-scuttlebutt/issues/217) for the bug and deleted the post from my feed until I'm confident I can re-post without getting #marooned again.\n\ncc: #ssb #ssb-dev #scuttlebot #blobs ",
+    "root": "%TPs53tQ65rgZiRRm2bokbKrVMDhf7sGx45/BvL50mgg=.sha256",
+    "branch": "%+HzVThJBb5fDgjfYvrxI6abgx2F7VLcBw3qNZAZGO8I=.sha256",
+    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) \n\nI think I've run into the same bug as you! I've opened [an issue](https://github.com/ssbc/secure-scuttlebutt/issues/217) and made [a small change](https://github.com/ssbc/secure-scuttlebutt/pull/218) that I believe resolves the issue. My understanding is that when the unboxing code runs into a decryption error it crashes Scuttlebot with an uncaught exception. I ran into this issue while [prototyping blob content](%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256), and while I can't tell *why* your `content` string would be invalid it sounds like the same symptoms from changes to the content property.\n\nDo you think we might be running into the same bug?",
     "mentions": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
       },
       {
-        "link": "%QJEpN8LN1t3BrIkUQ3WoOMWRsMArbVUZCpTeBYcuqfw=.sha256",
-        "name": "moving message content out of the sigchain"
-      },
-      {
-        "link": "#offchain-content"
-      },
-      {
-        "link": "&sbBmsB7XWvmIzkBzreYcuzPpLtpeCMDIs6n/OJGSC1U=.sha256",
-        "name": "a JSON file"
-      },
-      {
-        "link": "%zCJJlXAqwz+ESR3/UK/xeX/mrgAe2K2VJnS8XCd0ypA=.sha256",
-        "name": "the message"
-      },
-      {
-        "link": "&Qr9YtE3V1o2wc6piwwuTYc0AKSc4qcqb9m74wU7WGNA=.sha256",
-        "name": "screeenshot of prototype blob content",
-        "type": "image/png",
-        "size": 113499
-      },
-      {
-        "link": "&k4CnqbWMRHuVZP3Lk8RlysuobL2BdG2U440PIUqRtaI=.sha256",
-        "name": "hermies firehose"
-      },
-      {
-        "link": "#marooned"
-      },
-      {
-        "link": "#ssb"
-      },
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#scuttlebot"
-      },
-      {
-        "link": "#blobs"
+        "link": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+        "name": "prototyping blob content"
       }
     ]
   },
-  "signature": "cMlCV56K8YRwchtYzoQ0YC7SmyCBwfd5yLBepon2nWaibm6G9vcIEzXo+5+EQR2eorGgQDrnKDMlho6ZYC0SCA==.sig.ed25519"
+  "signature": "VDLbJFcOZs0Erh8aNfeGQnDc02PoT4xmth8R/vaMGYgNvth6MQ4KcRuBSDJhk6h0tfB2ePkYuTMMXTr9tFB+Dw==.sig.ed25519"
 }
