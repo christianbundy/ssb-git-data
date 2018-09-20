@@ -1,18 +1,21 @@
 {
-  "previous": "%4nQyTO/scnqzBOH0fyRcmp0nG6zIgmdYtXb4ROjxLZg=.sha256",
-  "sequence": 4989,
+  "previous": "%ZNBjyp941mu+lY15w6BO01vff8ZkvS1y+L8i3EANy8U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537452788676,
+  "sequence": 4990,
+  "timestamp": 1537457448622,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 4,
-    "root": "%uwQIBYdtth3LEKH9v2MJTXPC05ZB71YN4L8cqg5NRAc=.sha256",
-    "orig": "f7",
-    "dest": "f6",
-    "pgnMove": "f6",
-    "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-    "branch": "%6KVDoCrqiNoDkxHjK/DT0Xarqppu8JPHmh1YqCn/0KI=.sha256"
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%IEQ/wAVnoi0GK05FHxAknqwbe4i+3OExB717i6XgnfI=.sha256",
+    "channel": "linux",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nThanks for the response! I just opened a tmux session under root with `journalctl -f`, I'll check it the next time it crashes. I spent a few weeks (months, maybe?) without a login manager but when I switched to Wayland I just \"upgraded\" to using a login manager.\n\nMy intuition is that there *has* to be a log somewhere, I'm just not looking in the right place(s), but I'll run with tmux logging journalctl for a while and hopefully we'll catch something there. Thanks for the help!",
+    "mentions": [
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
   },
-  "signature": "NX6Xey/JKPADL2s847+sXv9NJ50vRSQROTzXKZC/7T8SsURp/M/YFBPbExnGgIogRVuiXp+M/eg8ggm9GyqeDw==.sig.ed25519"
+  "signature": "yjuT21UetCHBSrCaiUWQ9yDss98gw04O+nRGlKqP6TaEKmlhXx79/sWTsNmZ8JoPnlGGoaAfLfYgt2GkbbpIAg==.sig.ed25519"
 }
