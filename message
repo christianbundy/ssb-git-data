@@ -1,14 +1,14 @@
 {
-  "previous": "%7SUsLLd7mAKVyg7x+NW0P/7yfPrdsFm9uiFOjPXqcZ4=.sha256",
+  "previous": "%6ut9dE74bC7Ii+Zj7/XOWjKTEVXdWR8zZ0SUPVhFejA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5021,
-  "timestamp": 1537481391425,
+  "sequence": 5022,
+  "timestamp": 1537484971963,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%fHtYWTfreCGk+cthi5dKhn1wTOjw+nn7YoYMy5Wlj0s=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nYou're right, the metadata aspect is critical. I'll focus on the basic stuff for now, like merging those PRs, but it sounds like [patchcore's blob input](https://github.com/ssbc/patchcore/blob/master/blob/html/input.js) might be a good place to start once I start working on the plugin itself. Thanks for all the help.\n\nDo you have any input/opinions on `_unbox(blobs.get(x))` versus `blobs.get(_unbox(x))`? Or should we just use one unboxer per message, letting the unboxer call secondary functions if necessary? If multiple unboxers want to work on the same message we'd get a race condition, but fixing that may be a premature optimization.",
+    "branch": "%1tz0/TiXdc3T3UBLKcY9y6Z3yViiglYXaHhae6Q3+LY=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Sorry, to be specific I mean \"can multiple unboxers try to unbox the same content?\" and if so \"how should that be handled?\". This seems analagous to depject.\n\nI think we have a few options:\n\n- **first:** This is what we're currently doing, which means that if `main_unboxer` returns plaintext that no other unboxers are tried. This also has the downside of being sychronous.\n- **race (async first):** The async version of *first*, where all of the unboxers are started and the first one to finish gets to unbox the content. This is the minimum change necessary to allow async unboxers, and basically moves the priority from \"first in the array\" to \"first to return successfully\". To be clear, I mean a literal `Promise.race()`, not an unplanned race condition.\n- **merge (reduce):** This is the behavior of the current PR, which calls all of the unboxers, waits for them, and merges the successful ones into an object that's returned. My concern is this is slow, complicated, and seems to provide no benefit as the current unboxers would never operate on the same data.\n- **walk (recursive reduce):** A computational nightmare, this would be trying every unboxer, merging the results, and retrying all of the unboxers with the new result. This process would continue when the unboxers stop returning modified data. Again, it's a nightmare, but it's the only way to do stuff like `_unbox(blobs.get(x))` with an arbitrary number and order of unboxers.\n\nMy PR would move from us from \"first\" to \"reduce\", but the more I think about the problem the more I wonder whether \"race\" is a better call. We don't get any additional benefits from merging results unless we go full-pickle and recursively walk through every unboxer combination, which gives me the impression that \"race\" solves our problem of synchronousness without inheriting a new monster.",
     "mentions": [
       {
         "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
@@ -16,5 +16,5 @@
       }
     ]
   },
-  "signature": "QxLvc0mIGFLkdprUwFiWZVUIu88jPEXXFaymnHbZQxoNarQrJvvq9c9mof9Kz4y6ibRUehCTZjCEmZrrEK8tAA==.sig.ed25519"
+  "signature": "Th8CmnkETznBog4CV90Um46sLOPJt2KOagdSg7kaWd9QYENjNa1TJTdnwPljqxTHymV0o/lGlti/mWS2AiX9BQ==.sig.ed25519"
 }
