@@ -1,16 +1,20 @@
 {
-  "previous": "%xLRm8KtlOkD84zJHZvxS1oRSZNtO4tpXsqK49xjqp3Q=.sha256",
+  "previous": "%mlrwgzs/efYB6nmC6qxC2HR06fHWKQPoiFTfhe4MB+E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4963,
-  "timestamp": 1537400223664,
+  "sequence": 4964,
+  "timestamp": 1537401783632,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Lxcf72M/81ApRt3vKY5hqwDZ7XZ4ifp6cfMSEASWdFg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+    "branch": "%mdZvmTCrEdsSai537eUuPf2CUTp57kbz9GORDWGuwz8=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Did we just break out of JSON message content?",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "VCaf2HL9v4p0o5H+nKVeKdDF9tlokK9HnvOiuF6Ai5uP5sMdQcWmlEVBPGxzagc0NwcTiadl/bKbZ7h3rd9MCQ==.sig.ed25519"
+  "signature": "BmZkW9s42Xyhx5de3KKVezXsdNe1mtcyAcZzg3se3moxzQPRoSlcfh5ftqArTbwjw5kQ6voikBPB1ijs1lx6BA==.sig.ed25519"
 }
