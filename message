@@ -1,20 +1,14 @@
 {
-  "previous": "%6ut9dE74bC7Ii+Zj7/XOWjKTEVXdWR8zZ0SUPVhFejA=.sha256",
+  "previous": "%+bsq5qi6RUJKuPupP1+LwlgQjvPAcKpV3oFUivX5d6s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5022,
-  "timestamp": 1537484971963,
+  "sequence": 5023,
+  "timestamp": 1537486596074,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%1tz0/TiXdc3T3UBLKcY9y6Z3yViiglYXaHhae6Q3+LY=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Sorry, to be specific I mean \"can multiple unboxers try to unbox the same content?\" and if so \"how should that be handled?\". This seems analagous to depject.\n\nI think we have a few options:\n\n- **first:** This is what we're currently doing, which means that if `main_unboxer` returns plaintext that no other unboxers are tried. This also has the downside of being sychronous.\n- **race (async first):** The async version of *first*, where all of the unboxers are started and the first one to finish gets to unbox the content. This is the minimum change necessary to allow async unboxers, and basically moves the priority from \"first in the array\" to \"first to return successfully\". To be clear, I mean a literal `Promise.race()`, not an unplanned race condition.\n- **merge (reduce):** This is the behavior of the current PR, which calls all of the unboxers, waits for them, and merges the successful ones into an object that's returned. My concern is this is slow, complicated, and seems to provide no benefit as the current unboxers would never operate on the same data.\n- **walk (recursive reduce):** A computational nightmare, this would be trying every unboxer, merging the results, and retrying all of the unboxers with the new result. This process would continue when the unboxers stop returning modified data. Again, it's a nightmare, but it's the only way to do stuff like `_unbox(blobs.get(x))` with an arbitrary number and order of unboxers.\n\nMy PR would move from us from \"first\" to \"reduce\", but the more I think about the problem the more I wonder whether \"race\" is a better call. We don't get any additional benefits from merging results unless we go full-pickle and recursively walk through every unboxer combination, which gives me the impression that \"race\" solves our problem of synchronousness without inheriting a new monster.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "branch": "%+bsq5qi6RUJKuPupP1+LwlgQjvPAcKpV3oFUivX5d6s=.sha256",
+    "text": "Please disregard, just read your PR comments and it sounds like there's a more elegant way to do this. Thanks for all the thoughtful feedback!"
   },
-  "signature": "Th8CmnkETznBog4CV90Um46sLOPJt2KOagdSg7kaWd9QYENjNa1TJTdnwPljqxTHymV0o/lGlti/mWS2AiX9BQ==.sig.ed25519"
+  "signature": "1W9JGBONxJgJ03qsTRZO8ehyQtV8cabVwAUb+BhAJPKrz61hS5AUxzhnFFqmWKHmndqceu+Dg7/jfKrb9oqLCA==.sig.ed25519"
 }
