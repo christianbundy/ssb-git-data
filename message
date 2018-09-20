@@ -1,24 +1,13 @@
 {
-  "previous": "%jGcMWS8bJzTDpzmdSzM4AKH1e9p/knwwFF1RdPFYR2o=.sha256",
+  "previous": "%mnjmukVYRxMF1gIiF4USPJVO2aB/xXu2O8NLyMMN6iE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4975,
-  "timestamp": 1537451663331,
+  "sequence": 4976,
+  "timestamp": 1537452058239,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%XPRPMO2Dq1qb0LPqots+JCUqkUiHVqYAmiSmGl+HcQw=.sha256",
-    "branch": "%8p05xR3r7QZxxF5qejPjcy/3zjexjUjpu34ixDDcNB0=.sha256",
-    "text": "Hi [@Ebtessam Zoheir](@EiGguEf8YJhZbTLPQriNwOZFoQss0oN7UqfFKb7PU7E=.ed25519), welcome back! Sorry to hear that Arch is giving you a hard time, let me know how I can help!\n\nInstalling the latest Patchwork should look something like:\n\n```sh\ngit clone https://aur.archlinux.org/ssb-patchwork.git\ncd ssb-patchwork\nmakepkg -si\n```\n\nThere's also a [bleeding-edge Patchwork](https://aur.archlinux.org/packages/ssb-patchwork-git), [Patchbay](https://aur.archlinux.org/packages/patchbay), and [bleeding-edge Patchbay](https://aur.archlinux.org/packages/patchbay-git) if you feel like experimenting.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) ❤️",
-    "mentions": [
-      {
-        "link": "@EiGguEf8YJhZbTLPQriNwOZFoQss0oN7UqfFKb7PU7E=.ed25519",
-        "name": "Ebtessam Zoheir"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "text": "I'm trying to debug a dumb issue that started happening a few days ago. It goes like this:\n\n- I'm minding my own business using an app, often Patchbay.\n- The screen turns to a terminal\n  - white text, black background, monospace\n  - the text is too small to read (common issue on high-DPI screens)\n  - a few messages are logged\n    - something about \"Cryptography\"\n    - something about \"signatures\"\n- After about a second I'm returned to my login manager (gdm)\n- I log in just fine but all of my apps are closed as if I'd logged out\n\nI've checked dmesg and journald but can't find anything except some of this kind of stuff:\n\n```\n[12541.454815] CPU0: Core temperature above threshold, cpu clock throttled (total events = 504)\n[12541.454817] CPU3: Package temperature above threshold, cpu clock throttled (total events = 504)\n```\n\nBut I don't *think* that's causing the issue. I'm thinking this is probably an issue with GNOME Shell or gdm, but I'm not sure where I should start looking. This happens once every few hours, but the text is so fast and small that I can barely read it. Any ideas on how to troubleshoot/debug?",
+    "channel": "linux"
   },
-  "signature": "TsiMxo3vAquY7XfqA2gmYYunW++1vIQXVsFYHo/4Zoot5tuvu8VfKf4qmKKD129sWbrcOD3d7axn7/Z9PJ4rBA==.sig.ed25519"
+  "signature": "+kC6tgOOstqSm4jdM1t/uEPbt9IJX3647Ipv16kaHSotzDndJnK9j5prmaNBDYRGd7DRwbk7gwqRAeNYYDvwCQ==.sig.ed25519"
 }
