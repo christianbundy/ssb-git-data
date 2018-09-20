@@ -1,16 +1,24 @@
 {
-  "previous": "%b3MT7wzzH+dd0mgughitmaT2g1g0+I1YmP2uxYgEDgg=.sha256",
+  "previous": "%jGcMWS8bJzTDpzmdSzM4AKH1e9p/knwwFF1RdPFYR2o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4974,
-  "timestamp": 1537451235127,
+  "sequence": 4975,
+  "timestamp": 1537451663331,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rLLRm47VSwW5d/iYHGNdb1MetKH9OCTS9Xi/NiGqhNw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%XPRPMO2Dq1qb0LPqots+JCUqkUiHVqYAmiSmGl+HcQw=.sha256",
+    "branch": "%8p05xR3r7QZxxF5qejPjcy/3zjexjUjpu34ixDDcNB0=.sha256",
+    "text": "Hi [@Ebtessam Zoheir](@EiGguEf8YJhZbTLPQriNwOZFoQss0oN7UqfFKb7PU7E=.ed25519), welcome back! Sorry to hear that Arch is giving you a hard time, let me know how I can help!\n\nInstalling the latest Patchwork should look something like:\n\n```sh\ngit clone https://aur.archlinux.org/ssb-patchwork.git\ncd ssb-patchwork\nmakepkg -si\n```\n\nThere's also a [bleeding-edge Patchwork](https://aur.archlinux.org/packages/ssb-patchwork-git), [Patchbay](https://aur.archlinux.org/packages/patchbay), and [bleeding-edge Patchbay](https://aur.archlinux.org/packages/patchbay-git) if you feel like experimenting.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) ❤️",
+    "mentions": [
+      {
+        "link": "@EiGguEf8YJhZbTLPQriNwOZFoQss0oN7UqfFKb7PU7E=.ed25519",
+        "name": "Ebtessam Zoheir"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "u01GdWxr1jJCjoYI8tkiyXeDtzrBcicyJcK//D6JZt3PtewCnkaAworYV+bGAhAsCuVs8zHe3OerDheEloG+Dg==.sig.ed25519"
+  "signature": "TsiMxo3vAquY7XfqA2gmYYunW++1vIQXVsFYHo/4Zoot5tuvu8VfKf4qmKKD129sWbrcOD3d7axn7/Z9PJ4rBA==.sig.ed25519"
 }
