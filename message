@@ -1,17 +1,20 @@
 {
-  "previous": "%rwW0sHnFdr9p6MMXL0+3/2Vr2BHpPC5dRm5/6eAqQYs=.sha256",
+  "previous": "%7SUsLLd7mAKVyg7x+NW0P/7yfPrdsFm9uiFOjPXqcZ4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5020,
-  "timestamp": 1537480487178,
+  "sequence": 5021,
+  "timestamp": 1537481391425,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%5DAFpH3nMjPLGDldY/jf5b20/tTbKRW2fXlUc3RiCZU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+    "branch": "%fHtYWTfreCGk+cthi5dKhn1wTOjw+nn7YoYMy5Wlj0s=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nYou're right, the metadata aspect is critical. I'll focus on the basic stuff for now, like merging those PRs, but it sounds like [patchcore's blob input](https://github.com/ssbc/patchcore/blob/master/blob/html/input.js) might be a good place to start once I start working on the plugin itself. Thanks for all the help.\n\nDo you have any input/opinions on `_unbox(blobs.get(x))` versus `blobs.get(_unbox(x))`? Or should we just use one unboxer per message, letting the unboxer call secondary functions if necessary? If multiple unboxers want to work on the same message we'd get a race condition, but fixing that may be a premature optimization.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "cXTNsuaeU5NVB1Iu4qCFmciwLOJoTWEYTa2apU4i5EGaFJpOKo+dUXx5zi3by04yPwyYoVH13IpJLz17xUGtAA==.sig.ed25519"
+  "signature": "QxLvc0mIGFLkdprUwFiWZVUIu88jPEXXFaymnHbZQxoNarQrJvvq9c9mof9Kz4y6ibRUehCTZjCEmZrrEK8tAA==.sig.ed25519"
 }
