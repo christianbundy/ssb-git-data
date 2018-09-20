@@ -1,17 +1,21 @@
 {
-  "previous": "%yp+j6pXU9l2HYQpr/7IIgnOz0BZNIYpRRhS4rYSbqjg=.sha256",
+  "previous": "%LueHXMqB2NAEWhx92DNTCFVPgZU5aaQpJASLF0geLs4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5017,
-  "timestamp": 1537473286957,
+  "sequence": 5018,
+  "timestamp": 1537479860212,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%2dMNW37UUEyBeN3mIEJeTMgdSwP2QcTd2DkSNL38/fI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%0SV3BUEmphrIMlqaDiBobSzJ84Ht+wVGQifueqm5Rs8=.sha256",
+    "branch": "%0SV3BUEmphrIMlqaDiBobSzJ84Ht+wVGQifueqm5Rs8=.sha256",
+    "channel": "scuttlebutt",
+    "text": "Hey [@Chris Cassano](@ELCcyJwKF1WlnIhgqbBZqLvyJgv92LPx1tt8R7qXaWQ=.ed25519)!\n\nCurrently your best way to do that would be to use private messages. Others will be able to see that you're posting *something*, but won't be able to see what (or who they're to). Posts are replicated via gossip, so others will replicate and share your posts with everyone.",
+    "mentions": [
+      {
+        "link": "@ELCcyJwKF1WlnIhgqbBZqLvyJgv92LPx1tt8R7qXaWQ=.ed25519",
+        "name": "Chris Cassano"
+      }
+    ]
   },
-  "signature": "Izav+u6UmGNtZL2E+gupxgyxGMWbsI97RvbsccO1a7uZKt7s2Q2sorrSHckBBtenxINkS0pHZuhKBZ+3YtW6Dw==.sig.ed25519"
+  "signature": "T70TlTxayyFEKYcvMmwpbW9RBw76uxH99HKbLB/Rdchn4BXVBuPRP9SoXVOvr52c9RcZqslDrMCBs00M5A7/Aw==.sig.ed25519"
 }
