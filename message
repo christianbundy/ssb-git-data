@@ -1,34 +1,18 @@
 {
-  "previous": "%r7K75+4ZUuyEhnqjKbAeO6MjDGPhGoCevufceFdG8Zo=.sha256",
+  "previous": "%I2jPmQcXvvPROp0KDpc6RahAxKKfYNc1woEK08un5GM=.sha256",
+  "sequence": 5000,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 4999,
-  "timestamp": 1537461697434,
+  "timestamp": 1537461813947,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%ZdAiHrpK/Z36RzjCTmFlyuVRwHVZBGsi65q1tdr9vno=.sha256",
-    "text": "\n\n> If a blob is plaintext, I think it definitely makes sense to be able to search inside of it.\n\nI think this extends to anything with a syntax. The current prototype is a *JSON blob unboxer*, but we can sidestep [JSON message verification](%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256) and [JSON signing format](%obJ+s1LODft2RVdakn8LHQ+oJEYcdoouwPAj1WWgKhU=.sha256) for everything in `value.content` and experiment with any syntax we'd like (like [SDN](%lvG7sVymWqomjgoyvqkrYJ7nSn8hiPQI4cLqA7A/b9o=.sha256)?). No more arbitrarily nested JSON, we just have to agree on what's appended to the feed and we can remain #against-consensus for everything else.\n\n```js\n{\n  \"key\": \"%key.sha256\",\n  \"value\": {\n    \"previous\": \"%previous.sha256,\n    \"sequence\": 42,\n    \"author\": \"@feed.ed25519\",\n    \"timestamp\": 8675309,\n    \"hash\": \"sha256\",\n    \"content\": {\n      \"type\": \"blob\",\n      \"blob\": \"&blob\"\n    }\n    \"signature\": \"abcdef.sig.ed25519\"\n  }\n}\n```\n\n> You can always resort to replicating nothing but metadata.\n\nI think this would be really neat, so you could set up a system where you:\n\n1. Download the metadata of anyone within 3 hops\n2. Download blobs posted by anyone within 2 hops\n3. Download blobs linked by anyone within 1 hop\n\nI think this may have some feature overlap with #ssb-ooo, but I'm not familiar enough to have any strong intuitions or opinions.\n\n> Having to attempt parsing of all blobs and creating indexes if parsing succeeds would be a huge (computationally) commitment.\n\nThis ties into two problems I'd love feedback on:\n\n**How should unboxers work together?** Originally the code just used the first unboxer that returned something truthy, so I made [a small change](https://github.com/ssbc/secure-scuttlebutt/commit/912c050fa56bf8258fab9015f7c355459bd0c4dd) that allows unboxers to be chained. Unfortunately, this means that they have a canonical order, so we have to choose between `_unbox(blobs.get(x))` or `blobs.get(_unbox(x))`. I *think* the former is the correct answer for now, but if other unboxers are added in the future this may get complicated.\n\n**More importantly: what's the right way to add an unboxer?** I'm sure this experiment shouldn't be baked into the secure-scuttlebutt package, so I'd like to use the `db.addUnboxer()` API. Does this mean writing a plugin for secure-scuttlebutt? Or maybe a scuttlebot plugin? Or is this the sort of thing that goes straight into the client? My goal is to get this experiment working in [my \"fork\" of Patchbay](https://github.com/ssbc/patchbay/tree/@christianbundy/master).",
-    "mentions": [
-      {
-        "link": "%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256",
-        "name": "JSON message verification"
-      },
-      {
-        "link": "%obJ+s1LODft2RVdakn8LHQ+oJEYcdoouwPAj1WWgKhU=.sha256",
-        "name": "JSON signing format"
-      },
-      {
-        "link": "%lvG7sVymWqomjgoyvqkrYJ7nSn8hiPQI4cLqA7A/b9o=.sha256",
-        "name": "SDN"
-      },
-      {
-        "link": "#against-consensus"
-      },
-      {
-        "link": "#ssb-ooo"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 7,
+    "root": "%LM8Ed6SPlIGO5WzXEJ9q82xwV+kedAWTEFCRPGcSCqE=.sha256",
+    "orig": "c2",
+    "dest": "c3",
+    "pgnMove": "c3",
+    "fen": "rnbqk2r/pppp1ppp/7n/4p3/1bB1P3/2P2Q2/PP1P1PPP/RNB1K1NR b KQkq - 0 4",
+    "branch": "%XkWD60PAHa5Xe9yn0ZxuQ8hHIWco8Q4udBHe6MzJ5ME=.sha256"
   },
-  "signature": "FfLHaJZiEO+xyrMaHusn75ebPEbNc10BWIhidc0tDrCVzZylnr6mb1TWAxi8ux4RfH+RQf20Ijrv4O+cz3gOCw==.sig.ed25519"
+  "signature": "RkbTqsLbVc1k3fZUw5MyqYRyLNPwy3EM6mXgtVaXLBqfPZfTzUnCyc1Nj2Fc9PYDl+J65ThXkGSNp7w3Rm1BAQ==.sig.ed25519"
 }
