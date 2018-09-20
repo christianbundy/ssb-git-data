@@ -1,17 +1,14 @@
 {
-  "previous": "%KuaD0rGFEQCCXbTdk2n96kC7tFuLhNhr3jArz2/L7IQ=.sha256",
+  "previous": "%3iIuLZqchKwh4gfq8tCs1ndfBliHUXPUB8LXHIrVqRE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5010,
-  "timestamp": 1537466868028,
+  "sequence": 5011,
+  "timestamp": 1537471843788,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "walkaway",
-    "vote": {
-      "link": "%s9klE2tISXBOOMhTX/rXJiE1taFaU7RsBGUNe7B40q4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+    "branch": "%I2jPmQcXvvPROp0KDpc6RahAxKKfYNc1woEK08un5GM=.sha256",
+    "text": "> More importantly: what's the right way to add an unboxer?\n\nJust for reference, my current thought is that this should be a Scuttlebot plugin (please correct me if there's a better path). I think my steps for this iteration would look something like this:\n\n- [ ] Add asynchronous codec handling to flumelog-offset ([flumedb/flumelog-offset#14](https://github.com/flumedb/flumelog-offset/pull/14))\n- [ ] Add asynchronous unboxer handling to secure-scuttlebutt ([ssbc/secure-scuttlebutt#219](https://github.com/ssbc/secure-scuttlebutt/pull/219))\n- [ ] Add `addUnboxer()` to Scuttlebot ([ssbc/scuttlebot#544](https://github.com/ssbc/scuttlebot/pull/544))\n- [ ] Create and publish a blob-content Scuttlebot plugin\n- [ ] Install and add the plugin to my local client for further testing"
   },
-  "signature": "SS/8uew034gV/c9nHIYduEXLzKAG/LlsKWmSH0Z17GQb8BjIaq4+ygP4U85tbhk/GTVRqtZfofA5/s4Rl5sPCA==.sig.ed25519"
+  "signature": "GUGZd4KBKBDNMicPhu/2DPaIe+vPGhC9WiMdGHAgOEyVwvxMKUmyocfZUoS20ZTbcby2f6fkgk/tZA4pS/R9CA==.sig.ed25519"
 }
