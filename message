@@ -1,21 +1,16 @@
 {
-  "previous": "%LueHXMqB2NAEWhx92DNTCFVPgZU5aaQpJASLF0geLs4=.sha256",
+  "previous": "%gYMejJZmcPNR7W5j4cn/jsls9jM6hXEgLdhBaNAh/UE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5018,
-  "timestamp": 1537479860212,
+  "sequence": 5019,
+  "timestamp": 1537480027065,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0SV3BUEmphrIMlqaDiBobSzJ84Ht+wVGQifueqm5Rs8=.sha256",
-    "branch": "%0SV3BUEmphrIMlqaDiBobSzJ84Ht+wVGQifueqm5Rs8=.sha256",
-    "channel": "scuttlebutt",
-    "text": "Hey [@Chris Cassano](@ELCcyJwKF1WlnIhgqbBZqLvyJgv92LPx1tt8R7qXaWQ=.ed25519)!\n\nCurrently your best way to do that would be to use private messages. Others will be able to see that you're posting *something*, but won't be able to see what (or who they're to). Posts are replicated via gossip, so others will replicate and share your posts with everyone.",
-    "mentions": [
-      {
-        "link": "@ELCcyJwKF1WlnIhgqbBZqLvyJgv92LPx1tt8R7qXaWQ=.ed25519",
-        "name": "Chris Cassano"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%fHtYWTfreCGk+cthi5dKhn1wTOjw+nn7YoYMy5Wlj0s=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "T70TlTxayyFEKYcvMmwpbW9RBw76uxH99HKbLB/Rdchn4BXVBuPRP9SoXVOvr52c9RcZqslDrMCBs00M5A7/Aw==.sig.ed25519"
+  "signature": "jmJtXSWWNeYzi6pcCSRA3zPQUXSmnBzhc00uYh4cOkZ1gypz4e/RL3B7vgAE84Ncd+wDjOh1IGI1ws9hPNIZCw==.sig.ed25519"
 }
