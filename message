@@ -1,17 +1,15 @@
 {
-  "previous": "%dGgvrj7R2mzMoymGiGVEYXj1A8nY0nO3kjauDTbl7bM=.sha256",
+  "previous": "%YblCY4za1vY+loF24CuCNKIEjHKBVGlgD3+CQ6Y9R00=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5066,
-  "timestamp": 1537576587346,
+  "sequence": 5067,
+  "timestamp": 1537576843355,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%w0WzVOfTLjVcDgetPyAmLWdvSx2ZeAZ8+tecMkvkQ3E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%BSOTtIE9o2Ktw8RyCliS8BBBAVDa61d8Hz4kXawvwh8=.sha256",
+    "channel": "linux",
+    "text": "Looks like tmux was getting killed, so no luck there, but I saw the word \"temperature\" in the black terminal text this time so maybe it's just the CPU overheating? I also just found this, which look to be related to my touchpad/touchscreen:\n\n```\n[86226.632871] i2c_designware INT3433:00: timeout waiting for bus ready\n[86226.632881] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86226.632884] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n[86226.656093] i2c_designware INT3433:00: timeout waiting for bus ready\n[86226.656106] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86226.656110] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n[86226.693531] ACPI: EC: event unblocked\n[86226.703581] sd 0:0:0:0: [sda] Starting disk\n[86226.932964] usb 1-7: reset high-speed USB device number 2 using xhci_hcd\n[86227.016156] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)\n[86227.032567] ata1.00: configured for UDMA/133\n[86227.199765] usb 1-4: reset high-speed USB device number 25 using xhci_hcd\n[86227.666294] i2c_designware INT3433:00: controller timed out\n[86227.666319] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86227.666323] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n```"
   },
-  "signature": "a8G2/i2ZDuOwFujPWU+hE/KuKoxLjd7VUZ7G8LgdXPInTzyQH0zadVoD0oI29ckt8Q7qJSRmWicEuGL4tm+SBg==.sig.ed25519"
+  "signature": "GtBj7cfXjr9GqBFqMmPFjCryU5335M70mnluMFwfaSzUlSToUAIkP6I9voBj92sPxQKQWcB5MFoKVKTCXd9oBQ==.sig.ed25519"
 }
