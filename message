@@ -1,15 +1,24 @@
 {
-  "previous": "%YblCY4za1vY+loF24CuCNKIEjHKBVGlgD3+CQ6Y9R00=.sha256",
+  "previous": "%vhIQegKpMo76oZpVWWIHv9jeOm/nObc02q1bGtARHtM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5067,
-  "timestamp": 1537576843355,
+  "sequence": 5068,
+  "timestamp": 1537577028786,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%BSOTtIE9o2Ktw8RyCliS8BBBAVDa61d8Hz4kXawvwh8=.sha256",
-    "channel": "linux",
-    "text": "Looks like tmux was getting killed, so no luck there, but I saw the word \"temperature\" in the black terminal text this time so maybe it's just the CPU overheating? I also just found this, which look to be related to my touchpad/touchscreen:\n\n```\n[86226.632871] i2c_designware INT3433:00: timeout waiting for bus ready\n[86226.632881] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86226.632884] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n[86226.656093] i2c_designware INT3433:00: timeout waiting for bus ready\n[86226.656106] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86226.656110] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n[86226.693531] ACPI: EC: event unblocked\n[86226.703581] sd 0:0:0:0: [sda] Starting disk\n[86226.932964] usb 1-7: reset high-speed USB device number 2 using xhci_hcd\n[86227.016156] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)\n[86227.032567] ata1.00: configured for UDMA/133\n[86227.199765] usb 1-4: reset high-speed USB device number 25 using xhci_hcd\n[86227.666294] i2c_designware INT3433:00: controller timed out\n[86227.666319] atmel_mxt_ts i2c-ATML0001:01: __mxt_read_reg: i2c transfer failed (-110)\n[86227.666323] atmel_mxt_ts i2c-ATML0001:01: Failed to read T44 and T5 (-110)\n```"
+    "root": "%57vZn1+bThDPG31zrbCDnN2hQDwlIYDbggdBes7qzD0=.sha256",
+    "branch": "%w0WzVOfTLjVcDgetPyAmLWdvSx2ZeAZ8+tecMkvkQ3E=.sha256",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nJust heard back and I have some questions for you:\n\n- year/make/model?\n- how many seatbelts?\n- what state are you in?\n- how is the vehicle titled? (commercial versus generic)\n  - it sounds like some/many/most insurance companies may prefer generic titles (?)\n\n[@Mark](@gsDa9qUyl232FLMVgLRzwhOsmAjFZBDBwTorXYlNlLc=.ed25519) \n\nThat looks beautiful! I need one.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "@gsDa9qUyl232FLMVgLRzwhOsmAjFZBDBwTorXYlNlLc=.ed25519",
+        "name": "Mark"
+      }
+    ]
   },
-  "signature": "GtBj7cfXjr9GqBFqMmPFjCryU5335M70mnluMFwfaSzUlSToUAIkP6I9voBj92sPxQKQWcB5MFoKVKTCXd9oBQ==.sig.ed25519"
+  "signature": "4K9gZKxn40qQaUl6t679lamt1S4ftd4wWpry5HBTZC/+oGKKaWj15chF0YA/UgrCRbzc0sWw3o19re50/qTnBA==.sig.ed25519"
 }
