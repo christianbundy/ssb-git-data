@@ -1,9 +1,15 @@
 {
-  "previous": "%G9rL1d2cNJ5HQi+syza8gyD0fS0KvFgdC+xqi3sioDM=.sha256",
-  "sequence": 5104,
+  "previous": "%Rs9fPV7FgrogmGCRzYXHmsu4oXrquEOpoUOD/8rjlHY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537726211637,
+  "sequence": 5105,
+  "timestamp": 1537726416036,
   "hash": "sha256",
-  "content": "yziyfpyXvxQu3oYeBXXWtAj+Nk2pFIMUUXdlr9wDGfcA2BaZYsdFnOs1RvKiIMdnL+WwBuucyTbTPtwNsjeE6vpKS789IMa6mRZ5I0C9nQkiy5xn5itmfDiizgWIYPd5WLC+TYPc1SzbfFDVDlKB7GHF6gQrCLUuiMcioGJGZm7S7yg8y0fWxn/FprWno4pDsaDtWLt41lUEf7L7RB1HFHTrL9a5Z18PVKYlefMcdVe+B7AHeKWf6nrs10MxGDmu9DdvhyAh6oLIQVYW2MUcpp4GhRvK+JUcUh5zc3jHDBGYpSaK7OMSdqSWcwRcDs/8UpEFyYSlippKqRZCNjh+T3fVtoy5iy9ucUJ8c4u5KHN7+v/Wtg==.box",
-  "signature": "gARVGtCRmc4TSwwSwtTAzHCMZVoscQKVePD55FrVlvthSXcJa3yNBQmTV4QyrMq/sGn8jI6o1cnjWlDJoH25Dw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%G9rL1d2cNJ5HQi+syza8gyD0fS0KvFgdC+xqi3sioDM=.sha256",
+    "channel": "linux",
+    "text": "I hate this, but I just upgraded my firmware with [a utility script](https://wiki.archlinux.org/index.php/Chrome_OS_devices/Custom_firmware#Flashing_with_MrChromebox.27s_Firmware_Utility_Script) and I think it fixed my issue. Weird. I'm still running the RW_LEGACY mode, but now I'm tempted to flash the UEFI full ROM to see how many other janky bugs are because actually just firmware issues."
+  },
+  "signature": "uBGEP2BeO/X4qdjUcnDreLCcusZjSMoJDBDW3mnVGoh49caVNJucyVny2vQcCg1XHhPKKtFVloskYhuG7KI8BQ==.sig.ed25519"
 }
