@@ -1,18 +1,21 @@
 {
-  "previous": "%/1mfz4WDPaFv/xRYV5Yp2snyx56YwG4nXeuw1sqDOAY=.sha256",
-  "sequence": 5102,
+  "previous": "%j4DI/RVw6hYQXjrdaVHH71tV6Cj7czxr+qMcrTHCn+Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537723957610,
+  "sequence": 5103,
+  "timestamp": 1537724606259,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 6,
-    "root": "%uwQIBYdtth3LEKH9v2MJTXPC05ZB71YN4L8cqg5NRAc=.sha256",
-    "orig": "g8",
-    "dest": "e7",
-    "pgnMove": "Ne7",
-    "fen": "rnbqkb1r/ppppn1pp/5p2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 4",
-    "branch": "%Qh4vZeKU0k/WaCSYFDrnfaggYZxPGmQzcTXET6/cr+E=.sha256"
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%vhIQegKpMo76oZpVWWIHv9jeOm/nObc02q1bGtARHtM=.sha256",
+    "channel": "linux",
+    "text": "Just checked the temperature and it looks like something is definitely funky.\n\n```\ncoretemp-isa-0000\nAdapter: ISA adapter\nPackage id 0:  +50.0°C  (high = +105.0°C, crit = +105.0°C)\nCore 0:        +50.0°C  (high = +105.0°C, crit = +105.0°C)\nCore 1:        +50.0°C  (high = +105.0°C, crit = +105.0°C)\n\nacpitz-virtual-0\nAdapter: Virtual device\ntemp1:        +52.8°C  (crit = +104.0°C)\n\npch_wildcat_point-virtual-0\nAdapter: Virtual device\ntemp1:       +104.5°C\n```\n\nMy CPU cores are fine, but it looks like [I have an Intel H97 PCH](https://askubuntu.com/a/772013) that's overheating. Weird. \n\n[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Any chance you've had this on your Samus?",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      }
+    ]
   },
-  "signature": "HXJQwiI+zBcDkMrAzrrnXieh/ywzTFoTfR/xjLafaIgJm4/7ryamMHHlnIznCwEsCngeaqrsY9TOm7cRw/baBw==.sig.ed25519"
+  "signature": "F1DMsdVi36XJZewLCRyOtv4gOq8MvC5Q2+q3cVbahWVnSEjsVxa61hXHkawva24ZUmtiP4YF/uoIhMK4B4uOCQ==.sig.ed25519"
 }
