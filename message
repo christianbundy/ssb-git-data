@@ -1,21 +1,9 @@
 {
-  "previous": "%j4DI/RVw6hYQXjrdaVHH71tV6Cj7czxr+qMcrTHCn+Y=.sha256",
+  "previous": "%G9rL1d2cNJ5HQi+syza8gyD0fS0KvFgdC+xqi3sioDM=.sha256",
+  "sequence": 5104,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5103,
-  "timestamp": 1537724606259,
+  "timestamp": 1537726211637,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%vhIQegKpMo76oZpVWWIHv9jeOm/nObc02q1bGtARHtM=.sha256",
-    "channel": "linux",
-    "text": "Just checked the temperature and it looks like something is definitely funky.\n\n```\ncoretemp-isa-0000\nAdapter: ISA adapter\nPackage id 0:  +50.0°C  (high = +105.0°C, crit = +105.0°C)\nCore 0:        +50.0°C  (high = +105.0°C, crit = +105.0°C)\nCore 1:        +50.0°C  (high = +105.0°C, crit = +105.0°C)\n\nacpitz-virtual-0\nAdapter: Virtual device\ntemp1:        +52.8°C  (crit = +104.0°C)\n\npch_wildcat_point-virtual-0\nAdapter: Virtual device\ntemp1:       +104.5°C\n```\n\nMy CPU cores are fine, but it looks like [I have an Intel H97 PCH](https://askubuntu.com/a/772013) that's overheating. Weird. \n\n[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Any chance you've had this on your Samus?",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      }
-    ]
-  },
-  "signature": "F1DMsdVi36XJZewLCRyOtv4gOq8MvC5Q2+q3cVbahWVnSEjsVxa61hXHkawva24ZUmtiP4YF/uoIhMK4B4uOCQ==.sig.ed25519"
+  "content": "yziyfpyXvxQu3oYeBXXWtAj+Nk2pFIMUUXdlr9wDGfcA2BaZYsdFnOs1RvKiIMdnL+WwBuucyTbTPtwNsjeE6vpKS789IMa6mRZ5I0C9nQkiy5xn5itmfDiizgWIYPd5WLC+TYPc1SzbfFDVDlKB7GHF6gQrCLUuiMcioGJGZm7S7yg8y0fWxn/FprWno4pDsaDtWLt41lUEf7L7RB1HFHTrL9a5Z18PVKYlefMcdVe+B7AHeKWf6nrs10MxGDmu9DdvhyAh6oLIQVYW2MUcpp4GhRvK+JUcUh5zc3jHDBGYpSaK7OMSdqSWcwRcDs/8UpEFyYSlippKqRZCNjh+T3fVtoy5iy9ucUJ8c4u5KHN7+v/Wtg==.box",
+  "signature": "gARVGtCRmc4TSwwSwtTAzHCMZVoscQKVePD55FrVlvthSXcJa3yNBQmTV4QyrMq/sGn8jI6o1cnjWlDJoH25Dw==.sig.ed25519"
 }
