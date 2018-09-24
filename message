@@ -1,18 +1,24 @@
 {
-  "previous": "%RnZ3AJsVBs8rmYkGpgHxG7RuYWBp97g2kj+OKwcUiAg=.sha256",
-  "sequence": 5110,
+  "previous": "%QVxtKbs6PsrJuux7c5ST0a+xatj5BmCZZpQjRvhR3Es=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537740337988,
+  "sequence": 5111,
+  "timestamp": 1537760599061,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 14,
-    "root": "%1nrPoIKGjcJHrzBnokHAt6j93AvnhEgVgLTamGVIxVc=.sha256",
-    "orig": "d7",
-    "dest": "c6",
-    "pgnMove": "dxc6",
-    "fen": "r1bqkb1r/p4ppp/2p2n2/4N3/3nP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 8",
-    "branch": "%ekHW9BqfKI6DnKYazkj0ap2R/fwXh8RZZQww/wWk/Ew=.sha256"
+    "type": "post",
+    "text": "# Src: doing better than `cd ~/src/project` \n\nI've found myself moving a lot between different projects lately, but I haven't found a way I've enjoyed doing it. For example, I hate running `(cd ~/src/patchbay && electron index.js)`, but it's basically the best way to start Patchbay when I'm working somewhere else. History substring search makes this a bit easier, but the `cd ~/src/project` thing is clunky and repetitive. I don't like things that are clunky and repetitive, so I realized that I'd like to better manage my source code. I've started on a project I'm calling Src, and I'd love to hear if you've seen, used, or written something similar.\n\n```sh\nfunction src () {\n  proj=\"$1\"\n  flag=\"$2\"\n  proj_path=~/Source/$proj\n  if [ -d $proj_path ]; then\n    cd $proj_path\n\n    if [[ $flag == '--change' ]]; then\n      npm install\n    fi\n    if [[ $flag == '--start' ]]; then\n      npm start\n    fi\n    if [[ $flag == '--install' ]]; then\n      npm install\n    fi\n    if [[ $flag == '--test' ]]; then\n      npm test\n    fi\n    if [[ $flag == '--status' ]]; then\n      git status\n    fi\n    if [[ $flag == '--count' ]]; then\n      tokei\n    fi\n    if [[ $flag == '--run' ]]; then\n      echo \"> ${@:3}\"\n      eval \"${@:3}\"\n    fi\n    if [[ $flag == '--edit' ]]; then\n      vim .\n    fi\n    if [[ $flag == '--files' ]]; then\n      ranger\n    fi\n  else\n    echo \"$proj_path doesnt exist\"\n  fi\n}\n```\n\nIt's currently pretty barebones, but I'm trying to keep it small and naive until I rewrite it in something better than a shell scripts. I'm intrigued by [meta](https://github.com/mateodelnorte/meta), but I wanted to start experimenting on my own before installing another piece of software. Anyone have opinions on this sort of thing? It seems like it could be useful when you're working on lots of small bits of software.\n\ncc: #software #programming #bash",
+    "channel": "dev",
+    "mentions": [
+      {
+        "link": "#software"
+      },
+      {
+        "link": "#programming"
+      },
+      {
+        "link": "#bash"
+      }
+    ]
   },
-  "signature": "hWyTy/kNnKsYyJ0Jfx6XIH8h92VmFTB01HBfbuC84Eo90F668DMmVmxl9yin9yAhyQUbJByM2xns9T1SmOCLAg==.sig.ed25519"
+  "signature": "SQJwHbXcZmCsPSTLKbygrHMv8KeGTC2SXBr5xlaCxBRmTzSLKJ2N/tbFAd8IEJZ1ZSxA/rqBMUNpI4V8kRYhBg==.sig.ed25519"
 }
