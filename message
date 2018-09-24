@@ -1,17 +1,21 @@
 {
-  "previous": "%GIBNgstE16GtPs9eBL5zKPJRuM7J2mDGt6dHz21ekG4=.sha256",
+  "previous": "%PkIR9xB6KT87pO5ksIubQOxxLEpUxL1fkBb7kQ9Jc/Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5144,
-  "timestamp": 1537815916250,
+  "sequence": 5145,
+  "timestamp": 1537816094997,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%b/CU9MB5jrg98QfB1KDihX62K+Z9AMc4MuRnxuHK2mY=.sha256",
+    "branch": "%cDK3y3bWMw3a+Ms5PfcoTqi95IG84VpWaG2uBzRbEMI=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%qWQ5O3Xlz0ExkfnfKobQjlG/saEj0ejsIZvThKkiSyM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nJust pulled your latest changes and it looks great! Also, split-pane view?! This is super cool, I had no idea this was possible. I've been thinking a *ton* about the thread view, and I'd absolutely love to see the conversation tree with nested replies rather than the traditional linear view. Loving all the new code lately!",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "NTjx0reMUCFw7GL0hAJEKiX/KXRx21A7Vyg4izBxk59U/3iXcNb9c8pmYCN3X7so8WecSV5RAtPJ1tNlANVlCw==.sig.ed25519"
+  "signature": "9lnNd6Vu50b/8ehZsF9QHzGeD3qi1jeKYywJ+0c2kA/DtvQALUK2PzcWzZryrbS9g80do2tGwxHNmFILzxuLDQ==.sig.ed25519"
 }
