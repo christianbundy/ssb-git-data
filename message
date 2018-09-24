@@ -1,24 +1,25 @@
 {
-  "previous": "%QVxtKbs6PsrJuux7c5ST0a+xatj5BmCZZpQjRvhR3Es=.sha256",
+  "previous": "%4gik2IJ+ELzWqMUxUZQr+vyagXw+iYjv9IR3eqCEP/E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5111,
-  "timestamp": 1537760599061,
+  "sequence": 5112,
+  "timestamp": 1537800883896,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Src: doing better than `cd ~/src/project` \n\nI've found myself moving a lot between different projects lately, but I haven't found a way I've enjoyed doing it. For example, I hate running `(cd ~/src/patchbay && electron index.js)`, but it's basically the best way to start Patchbay when I'm working somewhere else. History substring search makes this a bit easier, but the `cd ~/src/project` thing is clunky and repetitive. I don't like things that are clunky and repetitive, so I realized that I'd like to better manage my source code. I've started on a project I'm calling Src, and I'd love to hear if you've seen, used, or written something similar.\n\n```sh\nfunction src () {\n  proj=\"$1\"\n  flag=\"$2\"\n  proj_path=~/Source/$proj\n  if [ -d $proj_path ]; then\n    cd $proj_path\n\n    if [[ $flag == '--change' ]]; then\n      npm install\n    fi\n    if [[ $flag == '--start' ]]; then\n      npm start\n    fi\n    if [[ $flag == '--install' ]]; then\n      npm install\n    fi\n    if [[ $flag == '--test' ]]; then\n      npm test\n    fi\n    if [[ $flag == '--status' ]]; then\n      git status\n    fi\n    if [[ $flag == '--count' ]]; then\n      tokei\n    fi\n    if [[ $flag == '--run' ]]; then\n      echo \"> ${@:3}\"\n      eval \"${@:3}\"\n    fi\n    if [[ $flag == '--edit' ]]; then\n      vim .\n    fi\n    if [[ $flag == '--files' ]]; then\n      ranger\n    fi\n  else\n    echo \"$proj_path doesnt exist\"\n  fi\n}\n```\n\nIt's currently pretty barebones, but I'm trying to keep it small and naive until I rewrite it in something better than a shell scripts. I'm intrigued by [meta](https://github.com/mateodelnorte/meta), but I wanted to start experimenting on my own before installing another piece of software. Anyone have opinions on this sort of thing? It seems like it could be useful when you're working on lots of small bits of software.\n\ncc: #software #programming #bash",
+    "root": "%4gik2IJ+ELzWqMUxUZQr+vyagXw+iYjv9IR3eqCEP/E=.sha256",
+    "branch": "%XhKnAq06ASbS3XrwpCMyAuY5Ufy0IghkcEMc7rj3LsA=.sha256",
     "channel": "dev",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nI did that for a long time, but I switched to just managing authorship with git remotes rather than giving the author their own directory. On the other hand, I'd *love* to run something like `src --remote github:ssbc` to only return projects where the ssbc org was configured as a remote. Is that your use-case?\n\n[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nI've meant to try Fish for a long time, but I'm hesitant to lose the Bash compatibility of Zsh. Has that been an issue for you? I don't often have problems moving around, but since I don't globally install *most* NPM packages I don't have executables like `patchbay` in my global path. I could `alias patchbay=(cd ~/src/patchbay && electron index.js`, but somehow `src patchbay --start` just feels better. Eventually I'd like this to extend to non-NPM packages so I don't need to memorize the correct new syntax for every utility.\n\nI miss dmenu! I think eventually I'll jump ship from GNOME Shell (again), but it feels nice to be running the (IMO) de facto standard desktop environment, although of course I have my nitpicks like everyone else.",
     "mentions": [
       {
-        "link": "#software"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
       },
       {
-        "link": "#programming"
-      },
-      {
-        "link": "#bash"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "SQJwHbXcZmCsPSTLKbygrHMv8KeGTC2SXBr5xlaCxBRmTzSLKJ2N/tbFAd8IEJZ1ZSxA/rqBMUNpI4V8kRYhBg==.sig.ed25519"
+  "signature": "eVwoxFseg4rRUVBjAmu+z4kzWGGnh2r3Z2rkkhlgKaliYqsL91bRk2jRen6zynCBDP3SeUVbfCu0V590AudnBA==.sig.ed25519"
 }
