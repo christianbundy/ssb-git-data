@@ -1,16 +1,25 @@
 {
-  "previous": "%13SIKmVCavRpTJMb6dH4+/12lQksPwbPVfnot9MDdP4=.sha256",
+  "previous": "%an2YfmjLxZSI6XMMCHKN6mNeiB5nOt+PTGZCJva5Cbs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5124,
-  "timestamp": 1537803174221,
+  "sequence": 5125,
+  "timestamp": 1537803373206,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YUXrl1fHTWY7Vnu14LayvIzBWa56bRITVobwd61158s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ZSnWOBSoPrG247yOdSNimSYGY+IUmTUqOjbp4GOK5AY=.sha256",
+    "branch": [
+      "%M7u5rq6fCAaaLOWMcl52Ci46b9dK4R06gWT9vkJi0ys=.sha256",
+      "%YUXrl1fHTWY7Vnu14LayvIzBWa56bRITVobwd61158s=.sha256"
+    ],
+    "text": "It's happening...\n\n![ssb community on fc00.org hyperboria network map](&UAJ5XS1ipayjjsaaWzJNK8kHPz7FLjOBkdnPzx050Qs=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&UAJ5XS1ipayjjsaaWzJNK8kHPz7FLjOBkdnPzx050Qs=.sha256",
+        "name": "ssb community on fc00.org hyperboria network map",
+        "type": "image/png",
+        "size": 594490
+      }
+    ]
   },
-  "signature": "WfoEksbrwYWOlodzVuSTujPZQfppAoYWqdXiPwO8CYCNDlBy5Hjc0DWvlYthWlq2eNtfTHRycHR7KknUiIDJAA==.sig.ed25519"
+  "signature": "5oI2pwjxRwACK82Spc2Yw4/J+/0+Y0IHZcO4q0uCS0XXZ4y43xiQbo7O3zeHh+gBu8wHOrjOln6zFQBOn2toDQ==.sig.ed25519"
 }
