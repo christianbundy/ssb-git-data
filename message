@@ -1,28 +1,21 @@
 {
-  "previous": "%lyiALn6JEg1wMmV/GBAIATaogE9loinbLTUvp09wj7I=.sha256",
+  "previous": "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5202,
-  "timestamp": 1537903476988,
+  "sequence": 5203,
+  "timestamp": 1537903525984,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256",
-    "branch": "%bcRG8fiQ4uLm8S9E4cjl9phoEEhegEfZP9gY9WBcwP8=.sha256",
+    "branch": "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256",
     "reply": {
       "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
-      "%bcRG8fiQ4uLm8S9E4cjl9phoEEhegEfZP9gY9WBcwP8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Got it working, showing the same pattern as you:\n\n![network graph showing hills and valleys in network traffic](&ejZYsEUXKgYiFxw42N6Nc57OIWME0FC2HEm11HGH+Ak=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&ejZYsEUXKgYiFxw42N6Nc57OIWME0FC2HEm11HGH+Ak=.sha256",
-        "name": "network graph showing hills and valleys in network traffic",
-        "type": "image/png",
-        "size": 137333
-      }
-    ]
+    "text": "FWIW, stdout from Patchwork looks like this:\n\n```\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39888~shs:\nError: expected hello\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:90:26)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39893~shs:\nError: expected hello\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:90:26)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39900~shs:\nError: expected challenge\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:84:24)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\n```",
+    "mentions": []
   },
-  "signature": "qK3HborDG7c0UL+2P9nO+tnX0TzYYhRR4Fv4AAd8xkW9/mi+Wjy40jfnkPLDu+45AtgrP1y430WgJzof6I8OAA==.sig.ed25519"
+  "signature": "twQJ/1DW52H0/BdQ+pa9nkGaCej/OT5HAabaDcWfZVfll+KrLlb0QAgFVkIKexw1sanLDwi1pDRfigkWWpR7Dg==.sig.ed25519"
 }
