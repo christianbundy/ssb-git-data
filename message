@@ -1,17 +1,24 @@
 {
-  "previous": "%X3XtRqq0U/Yrikckovp7IBU9fD0L2WbCU6WwFCTAFNg=.sha256",
+  "previous": "%PVBztdtCYFDp8XmFLuAPRdcy9f5oDYkQsCnJs0BOkn8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5208,
-  "timestamp": 1537904774258,
+  "sequence": 5209,
+  "timestamp": 1537905273885,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%9qR4HHGhvEmK7sVUM4E89KedyEaq8LZE7ztC6OdUUYY=.sha256",
+    "branch": [
+      "%/aAs2uLnSA8RlXgPrd7VgLh0ZDzCBRP1wJUyuOI0lCk=.sha256",
+      "%fVFjSR4Upo61yt4l5vU+4FGc5wf4yQnTOtPojJcBodE=.sha256"
+    ],
+    "reply": {
+      "%9qR4HHGhvEmK7sVUM4E89KedyEaq8LZE7ztC6OdUUYY=.sha256": "@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519",
+      "%fVFjSR4Upo61yt4l5vU+4FGc5wf4yQnTOtPojJcBodE=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%fVFjSR4Upo61yt4l5vU+4FGc5wf4yQnTOtPojJcBodE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I've never been, but I'd absolutely love to go. What's something like this look like $-wise (or, more likely, €-wise)?",
+    "mentions": []
   },
-  "signature": "xFEgUPjcv8Xhn440MQoZ/OJH4mCuoL8mEXNbDXI0YzXvmzaCxxlFP/WZvi72DQsay/sIrO6xAa/PAyvKZsa5Bg==.sig.ed25519"
+  "signature": "uhF/8Ko2LcimPXEkZsAD2FWoEOFTEPhfcGmyWHTpz4wjN3/1jsMQSuMBCLxn97Kz3en76tfRuf1e+Z7r6WwIBg==.sig.ed25519"
 }
