@@ -1,13 +1,30 @@
 {
-  "previous": "%rXjR7yWLBIdZXDrk3/iCiDEd2AifTgZzpvljxqqRLeU=.sha256",
+  "previous": "%sYj21NQ+iB8zY2hVZ2D5mRD4ELcw3/uS2P0f0zs1ko4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5213,
-  "timestamp": 1537908415546,
+  "sequence": 5214,
+  "timestamp": 1537909774932,
   "hash": "sha256",
   "content": {
-    "type": "channel",
-    "channel": "manyverse",
-    "subscribed": true
+    "type": "post",
+    "root": "%WH1Oh6KdwhIGD6dTa75UqUgVWs+MuRylbi7XHuU3xH8=.sha256",
+    "branch": "%uGvNMuIpVuQfl1p2NlZfCkXBGJBFjoekzafMrCoo1ps=.sha256",
+    "reply": {
+      "%WH1Oh6KdwhIGD6dTa75UqUgVWs+MuRylbi7XHuU3xH8=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+      "%uGvNMuIpVuQfl1p2NlZfCkXBGJBFjoekzafMrCoo1ps=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nFWIW, [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) is running the timeout and I haven't had any problems. It's much lower-volume than what you're doing, but I figured I'd add my single data point.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      }
+    ]
   },
-  "signature": "yE8adVof4hqz28txdw04zXA4oV7wqb4++HAf7hi1X72hfIVlGhRKYrxDjZEo6W48KHqel4J9Mn51V6nXm0+BBQ==.sig.ed25519"
+  "signature": "yw296t9N809ITZrlVcEBol2vWyWObSTx0QiATZtKjnY4ValgXJOGRJH9Tr7Q0aHtiZyyc11BXOmQ1ZtSGB6cBA==.sig.ed25519"
 }
