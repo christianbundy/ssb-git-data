@@ -1,13 +1,25 @@
 {
-  "previous": "%bcRG8fiQ4uLm8S9E4cjl9phoEEhegEfZP9gY9WBcwP8=.sha256",
+  "previous": "%vc2bgp7Mb7/rjvSwkNXlwEsI2TK9TWiA3xlGCiVyx0c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5200,
-  "timestamp": 1537902387878,
+  "sequence": 5201,
+  "timestamp": 1537903282158,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%8QKLz8gCznLafTUaAK2y2dyA1FD9kNGQM4noIWL36gg=.sha256",
+    "branch": "%8QKLz8gCznLafTUaAK2y2dyA1FD9kNGQM4noIWL36gg=.sha256",
+    "reply": {
+      "%8QKLz8gCznLafTUaAK2y2dyA1FD9kNGQM4noIWL36gg=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I don't think Manyverse has mentions/notifications, so I'm hoping that this emoji will make it harder to accidentally @mention the name of my Manyverse identity. When you type \"@chr\" it'll pop up my real identity rather than [@📱 Christian Bundy](@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519), but it looks like the auto-complete on Patchwork still shows the Manyverse identity just fine. Hmm.",
+    "mentions": [
+      {
+        "link": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+        "name": "📱 Christian Bundy"
+      }
+    ]
   },
-  "signature": "FJmCcBq+jMKFNAAlE5dVXkYjKhvi3dV5uha61AcN8k8AqZrt5fXVsoTvc8fDLnHIMoDeDID9FaC/IDYMjbfpDA==.sig.ed25519"
+  "signature": "AtushrN4oRDXrZRbBj3iGiC2FpI/5G0xpSdVHZB+c+jCEzMdXTFmhJSMI2tTk+7ZO9JornJnZqSxN+aTABJiBg==.sig.ed25519"
 }
