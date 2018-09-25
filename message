@@ -1,23 +1,21 @@
 {
-  "previous": "%fWxXdxe7ZM/BtauIa9KuOo2E6A8CDCI92mQe4x5xBz0=.sha256",
+  "previous": "%PvNloAq5+LaCMg7GsnuT0u31NTyNXinzSW2idk9yF3w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5192,
-  "timestamp": 1537899370106,
+  "sequence": 5193,
+  "timestamp": 1537899618802,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%57vZn1+bThDPG31zrbCDnN2hQDwlIYDbggdBes7qzD0=.sha256",
-    "branch": [
-      "%TUAKcltuTZkpukPLtRU8XsG3HGdr0haT9sViGVt9m+s=.sha256",
-      "%nysSKC5J3x6uzWvOnLbE5jwm9TYsJI95vha9alX2jF8=.sha256"
-    ],
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nI don't know why, but I think I need one. Are they at all reasonable for the price?",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%QaKh6dTE6jWOxXnbe+GP3tVmakTeOnWf6p7PGbIv9yw=.sha256",
+    "channel": "linux",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) \n\nFun, sounds like we're having some of the same issues! I'm not having touchpad/touchscreen issues (other than the dmesg log), but sometimes the backlight on one half of my screen will go dark. Gotta love Google products. Anyway, I used [this script](https://mrchromebox.tech/#fwscript with option 1 to update the BIOS, but it sounds like eventually option 3 is the way to go. Unfortunately, I think option 3 means you have to reinstall your OS.\n\nI'm still getting some crashes, but not as many, which makes me wonder whether my \"fix\" actually worked at all. Hell, this could be some sort of Wayland bug caused by the CPU being clocked down. Probably not, but I'm having a hard time debugging.",
     "mentions": [
       {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
       }
     ]
   },
-  "signature": "tMDnHdX+43AgRZRi3RPf73XMFq/SI+N7UN+V21q0IFr1wYFWTKSVTu0cv+Xol5his03s0X89rlkxLqnnj9/6Cg==.sig.ed25519"
+  "signature": "4UCgYpCiWgjzk1Qbj6SFA+9k/ouCJkmO0HrKYsTCsXXmBwfOlnCdsu1WEudeJrpn9fpsLuVzVD0u3VNpbxSfDA==.sig.ed25519"
 }
