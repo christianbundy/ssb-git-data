@@ -1,16 +1,25 @@
 {
-  "previous": "%a5UVBi6xIlyiu+ATYFd6rykg0m8TPlZ2JMjGDZmy21c=.sha256",
+  "previous": "%HuamGR/CZISKpFW9WsUWcnBPPhMuuBCIFzd3gI6S6Uc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5198,
-  "timestamp": 1537901717566,
+  "sequence": 5199,
+  "timestamp": 1537901801801,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256",
+    "branch": "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256",
+    "reply": {
+      "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519)\n\nI've just had [this behavior](https://gitlab.com/staltz/manyverse/issues/134#note_104232426), but now I'm wondering whether I just need to give it an hour or two. Was the app responsive while it was loading the data, or was it frozen with only a spinner? ",
+    "mentions": [
+      {
+        "link": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
+        "name": "adam"
+      }
+    ]
   },
-  "signature": "W9tu9VWFtIyyryOduKijF/LNSABpWpQxxtob3c034Be/jR0tIYUFr3KyJqK6nJmRYLUkV0b6C1fHb/LIoGV1Aw==.sig.ed25519"
+  "signature": "xs2dRw7FDiEjVNuwLxmP0Qcs7K/sxZlmuC3x+SU5YcYfne4UIm8npiYNJOSdGsjUzjnbfAcQui+PG0ZmZqslDQ==.sig.ed25519"
 }
