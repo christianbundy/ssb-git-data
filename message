@@ -1,17 +1,23 @@
 {
-  "previous": "%oF5TysB7v2/fxlZME6Y2Y+K0uevhoVLZrLyc/myp8tE=.sha256",
+  "previous": "%fWxXdxe7ZM/BtauIa9KuOo2E6A8CDCI92mQe4x5xBz0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5191,
-  "timestamp": 1537899340381,
+  "sequence": 5192,
+  "timestamp": 1537899370106,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%nysSKC5J3x6uzWvOnLbE5jwm9TYsJI95vha9alX2jF8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%57vZn1+bThDPG31zrbCDnN2hQDwlIYDbggdBes7qzD0=.sha256",
+    "branch": [
+      "%TUAKcltuTZkpukPLtRU8XsG3HGdr0haT9sViGVt9m+s=.sha256",
+      "%nysSKC5J3x6uzWvOnLbE5jwm9TYsJI95vha9alX2jF8=.sha256"
+    ],
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nI don't know why, but I think I need one. Are they at all reasonable for the price?",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "NP+BN/iGNqqM5FKE9Vag1hySZ2KQvHz6R05CqrX3sOyRpNSDGHC6zCxoFltA/rd7+ueXnH62Yd4bLt56PG6jDQ==.sig.ed25519"
+  "signature": "tMDnHdX+43AgRZRi3RPf73XMFq/SI+N7UN+V21q0IFr1wYFWTKSVTu0cv+Xol5his03s0X89rlkxLqnnj9/6Cg==.sig.ed25519"
 }
