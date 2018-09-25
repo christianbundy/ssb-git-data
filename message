@@ -1,16 +1,26 @@
 {
-  "previous": "%k6jrZZ3dANRhAwYTQ6cXIw/+nwf4yPwIiyQmwsp9y8g=.sha256",
+  "previous": "%bpk4g93jlnR/sKvizFLFlV+1oPrhnHGLLJsUdh+foIs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5211,
-  "timestamp": 1537905604554,
+  "sequence": 5212,
+  "timestamp": 1537906074824,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%raXFZYdHh9EZ8QQM6I6mjfzhqRhpAFHfiQXJkp2MMq0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%b/CU9MB5jrg98QfB1KDihX62K+Z9AMc4MuRnxuHK2mY=.sha256",
+    "branch": "%APn+s9h/CNNvwM4iggvELyXTl6QH/TzkZwUIASsTcEQ=.sha256",
+    "reply": {
+      "%b/CU9MB5jrg98QfB1KDihX62K+Z9AMc4MuRnxuHK2mY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%APn+s9h/CNNvwM4iggvELyXTl6QH/TzkZwUIASsTcEQ=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI'd love to work on that with you. It's been on my mind, and it's a great excuse to jump into another unfamiliar heap of SSB code. Let's do it. I'm running in circles with client project this week and next week, but maybe we could find some time after that? Maybe another scry is in order?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "Lhhfa6NQz6K4nKAVVJ1BzC0yWinkuWst0cLPJRFYnq8pvdEp7aHsVovwANduUo2nsYNh/WGDOsIFLnfAh27pBA==.sig.ed25519"
+  "signature": "XcnAe1aQwu7ITsTgYInawZsusv+BQAAtTVU2uPn3LU4TFI+fsUUHXv/sZSw52IFiykZoOI9qdPOyWGV1kfEYBA==.sig.ed25519"
 }
