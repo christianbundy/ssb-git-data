@@ -1,21 +1,17 @@
 {
-  "previous": "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256",
+  "previous": "%TXNRzYdCS27aAV4gFPWV7O026x7i/C9aaBfEOnosAsA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5203,
-  "timestamp": 1537903525984,
+  "sequence": 5204,
+  "timestamp": 1537903904181,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256",
-    "branch": "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256",
-    "reply": {
-      "%3ewhcVGJXYRkgzxHhzJDtTJ9ywBqPQNJIMGS1iSxfm4=.sha256": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
-      "%SXhvXMHBO2PNsfYKNLjcdEbn+hwbM139xOClbL8mBCk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "FWIW, stdout from Patchwork looks like this:\n\n```\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39888~shs:\nError: expected hello\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:90:26)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39893~shs:\nError: expected hello\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:90:26)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nserver error, from net:::ffff:192.168.0.48:39900~shs:\nError: expected challenge\n    at abort (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:80:45)\n    at Object.cb (/home/christianbundy/src/patchwork/node_modules/secret-handshake/protocol.js:84:24)\n    at drain (/home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:42:23)\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:59:18\n    at /home/christianbundy/src/patchwork/node_modules/pull-reader/index.js:20:7\n    at /home/christianbundy/src/patchwork/node_modules/pull-stream/throughs/through.js:19:9\n    at drain (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:141:18)\n    at Socket.<anonymous> (/home/christianbundy/src/patchwork/node_modules/stream-to-pull-stream/index.js:162:5)\n    at emitOne (events.js:121:20)\n    at Socket.emit (events.js:211:7)\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\nSHS:CONNECT shs:+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=\n```",
-    "mentions": []
+    "vote": {
+      "link": "%4kK8WlGL8WQpwIefq0CcUrdfMLrWszc5BJ3FHoyP7uk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "twQJ/1DW52H0/BdQ+pa9nkGaCej/OT5HAabaDcWfZVfll+KrLlb0QAgFVkIKexw1sanLDwi1pDRfigkWWpR7Dg==.sig.ed25519"
+  "signature": "/kvbLGOEP8fkdoY5vmTx/A4G2/UWfVSse4Nmb3xNeQ8RH3rs2TNYZPE33JbU0sCUm2tZL4BJAxQD/GeTsZHYDg==.sig.ed25519"
 }
