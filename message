@@ -1,18 +1,14 @@
 {
-  "previous": "%uKfds0tI+/3ImXhzrIHrVqszps8jlwb+HkCVr8FM9q8=.sha256",
-  "sequence": 5251,
+  "previous": "%9WiaI3J41bx1nTfy9JzuZVZdhHyEw9pSUx8hrWgrzyo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537983096221,
+  "sequence": 5252,
+  "timestamp": 1537983613056,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 4,
-    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
-    "orig": "f7",
-    "dest": "f5",
-    "pgnMove": "f5",
-    "fen": "rnbqkbnr/ppp1p1pp/8/3p1p2/3P4/4P3/PPP2PPP/RNBQKBNR w KQkq - 0 3",
-    "branch": "%iG6YpKEyV0oQsn0ubp/zKUNdNYSVKfdxs/4HMsUornc=.sha256"
+    "type": "post",
+    "root": "%Tfmx1IEgKlQzk8saUYR8DB8iuRbJzNmpfIKuq5424b8=.sha256",
+    "branch": "%nNmEynY/qyx/piFXhXPSSL7/b6Wh6IGAljH4E2IZNfY=.sha256",
+    "text": "It seems to me that there are four possible policies:\n\n- **default:** complete feed unavailable\n- **not (yet) implemented:** most of feed unavailable, some specific messages available\n- **not (yet) implemented:** most of feed available, some specific messages unavailable\n- **opted in**: complete feed available\n\nShould the other two policies be implemented? I'm not sure whether I'd use them, but it sounds like at least a few other people would."
   },
-  "signature": "K/o/wESC4S0DX/KKQxLPJz0OYq+rSmjxOLHsJuW9WMB47f3B3A5xuuUAsZXiaNJ/ts5xgvQ/RwafPWSXioScBQ==.sig.ed25519"
+  "signature": "lO4XG7+BGUzmjzrWpLNSXcVrZj6Whb7rPN8DPpSkP0g08TVD5ofYlPd3gQLXuqIaDaRCLCnDtq+I0d18KojmDw==.sig.ed25519"
 }
