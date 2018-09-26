@@ -1,13 +1,13 @@
 {
-  "previous": "%fdtMD7GYOGai7Z5ecHbEiV3F3W6PxCM7vIlDLNbdsoQ=.sha256",
+  "previous": "%psVzPpnRI4rfw+07ZCjTmKTZxG8tg8W9pS8irdd7MKA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5224,
-  "timestamp": 1537919257735,
+  "sequence": 5225,
+  "timestamp": 1537920190309,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Can Dat be used in another browser?\n\n**I'd rather not use Chromium; are there any non-Beaker browsers that support Dat?** It seems to [only support WebRTC clients](https://docs.datproject.org/browser), which I haven't been able to actually find or connect to, so I'm wondering how closely Beaker is coupled to Chromium.",
-    "channel": "dat"
+    "text": "**I think I'm going to start experimenting with post titles.** I think it might be nice to have post titles available for text posts, but I'm not sure how best to do it. I'm thinking these might be good ways to title posts:\n\n```md\n# Header titles\nThe rest of the content.\n```\n\n```\n**Inline titles.** The rest of the content.\n```\n\nI'd like to make sure it's just plain Markdown so that clients don't have to be compatible with anthing. Anyone have opinions on the syntax here? I'm not sure how often I'll even use these, but they seem like reasonable candidates for some title parsing.",
+    "channel": "ssb-titles"
   },
-  "signature": "VNClCvkS5/BxQOJB2nouCAPnhlU6E9HtAqGZjRIKXNwt3NTLJCahpXilPMsQW/YLiGB2CJBkzqCYCCWmznsQDw==.sig.ed25519"
+  "signature": "GgmUHJvjqvlqKrN4/Ykt9RfSuO+3QyyQgsBP8oJHvRuMyBNPI9vaQvSSpAjZMpCpkJkkfSLOsb2SL1hT++H/AA==.sig.ed25519"
 }
