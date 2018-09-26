@@ -1,15 +1,15 @@
 {
-  "previous": "%U5MOmbEUduoMM2VZYVfT6E3nhvLFIHLPgzTRw3lHBEA=.sha256",
+  "previous": "%AUasPqdXNrxfO9ZTjXBJQ3S3EUJsSF7eIwCR6Dk+LGY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5260,
-  "timestamp": 1537992273029,
+  "sequence": 5261,
+  "timestamp": 1537992456570,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%AbBMfFW9N9GJXitpQf6idLFbttWapvVXn86Y19Y7d3s=.sha256",
-    "branch": "%EWEkxJchlY1JyFhAgdlNSvOluRWr9id2ZusskKeDEAU=.sha256",
+    "branch": "%AUasPqdXNrxfO9ZTjXBJQ3S3EUJsSF7eIwCR6Dk+LGY=.sha256",
     "channel": "scuttlebutt-learning",
-    "text": "[@Nik](@edALbSqXupv1dyYveKBqUwnHW6WTvDaxv51lTI9gPYE=.ed25519) Here are the options I can think of:\n\n- Remove the `0x` prefix so it isn't parsed as a JavaScript number.\n- Use an encoding that isn't a JavaScript number representation (like base64).\n- Use a data URI like `data:application/octet-stream,0xe686f4[...]`.",
+    "text": "[@Nik](@edALbSqXupv1dyYveKBqUwnHW6WTvDaxv51lTI9gPYE=.ed25519) Scratch that data URI example, I think this would actually qualify as `data:text/plain,0xe686f4` if you wanted to go that route. A bit verbose, but it solves the problem and makes it abundantly clear that the content is meant to be parsed as plaintext rather than as a number.",
     "mentions": [
       {
         "link": "@edALbSqXupv1dyYveKBqUwnHW6WTvDaxv51lTI9gPYE=.ed25519",
@@ -17,5 +17,5 @@
       }
     ]
   },
-  "signature": "amE2bwKUfwowwxSDxqYqKiUcts4IjXqB8Ndma9jjEyuERogXdtuVK3IxEGEYCHa01WF2MDQ5j12F4gGpSZMsCA==.sig.ed25519"
+  "signature": "ydLdj5NvNOrfX7yYp5VRG0HMlLiDUF+0L9hXNWVF8isDWQHI3i/111W8OWGG73xDK3LbcJcg1ITFXCGPHMCcCg==.sig.ed25519"
 }
