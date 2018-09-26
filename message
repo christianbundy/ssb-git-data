@@ -1,16 +1,21 @@
 {
-  "previous": "%XKJoWzIvZoKvLeEx3c1/Yw6UDNC0iCKzRg6XJbTrvCU=.sha256",
+  "previous": "%U5MOmbEUduoMM2VZYVfT6E3nhvLFIHLPgzTRw3lHBEA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5259,
-  "timestamp": 1537987373410,
+  "sequence": 5260,
+  "timestamp": 1537992273029,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UsbVM5+fM700XyPZgIN16y1ZRyA2mjWOGRc8jP5OiZk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%AbBMfFW9N9GJXitpQf6idLFbttWapvVXn86Y19Y7d3s=.sha256",
+    "branch": "%EWEkxJchlY1JyFhAgdlNSvOluRWr9id2ZusskKeDEAU=.sha256",
+    "channel": "scuttlebutt-learning",
+    "text": "[@Nik](@edALbSqXupv1dyYveKBqUwnHW6WTvDaxv51lTI9gPYE=.ed25519) Here are the options I can think of:\n\n- Remove the `0x` prefix so it isn't parsed as a JavaScript number.\n- Use an encoding that isn't a JavaScript number representation (like base64).\n- Use a data URI like `data:application/octet-stream,0xe686f4[...]`.",
+    "mentions": [
+      {
+        "link": "@edALbSqXupv1dyYveKBqUwnHW6WTvDaxv51lTI9gPYE=.ed25519",
+        "name": "Nik"
+      }
+    ]
   },
-  "signature": "9t8Y3jwiKV6V5EABFgA2iWIKTp0zmejIzsX9BfuSNOoVy6WphRM1kYbdav9RSgzNJt7mFtoeajjMZ0pm5t0OCg==.sig.ed25519"
+  "signature": "amE2bwKUfwowwxSDxqYqKiUcts4IjXqB8Ndma9jjEyuERogXdtuVK3IxEGEYCHa01WF2MDQ5j12F4gGpSZMsCA==.sig.ed25519"
 }
