@@ -1,25 +1,18 @@
 {
-  "previous": "%BjWsIOFf5bJp1QECapACAY50M83d4bcvaCptkGCKfgA=.sha256",
+  "previous": "%uKfds0tI+/3ImXhzrIHrVqszps8jlwb+HkCVr8FM9q8=.sha256",
+  "sequence": 5251,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5250,
-  "timestamp": 1537983044729,
+  "timestamp": 1537983096221,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%56QxA2okqgmzTDO8cHr825R39gs0zmAJ5rDiGX1uAWs=.sha256",
-    "channel": "linux",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\n\nI got a message from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) who pointed out that `dleyna-renderer-service` was dying before everything else, so I've:\n\n- switched back to xorg\n- removed the `dleyna-renderer` package\n\nAny chance you're on Wayland or have `dleyna-renderer` installed? Unfortunately I had to `pacman -R dleyna-renderer gnome-photos`, but I haven't had any crashes yet. Not sure which change fixed it, but that's progress.",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 4,
+    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
+    "orig": "f7",
+    "dest": "f5",
+    "pgnMove": "f5",
+    "fen": "rnbqkbnr/ppp1p1pp/8/3p1p2/3P4/4P3/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+    "branch": "%iG6YpKEyV0oQsn0ubp/zKUNdNYSVKfdxs/4HMsUornc=.sha256"
   },
-  "signature": "Zw8r0+r/HnI8q25kz/myGG1Po8B6fL7+0WLBjFA3EBsAvGKMKZuqTUx/Vv0ZSTW36N+QYHxTPzaOQYp5KorCBQ==.sig.ed25519"
+  "signature": "K/o/wESC4S0DX/KKQxLPJz0OYq+rSmjxOLHsJuW9WMB47f3B3A5xuuUAsZXiaNJ/ts5xgvQ/RwafPWSXioScBQ==.sig.ed25519"
 }
