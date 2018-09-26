@@ -1,13 +1,21 @@
 {
-  "previous": "%psVzPpnRI4rfw+07ZCjTmKTZxG8tg8W9pS8irdd7MKA=.sha256",
+  "previous": "%qNv1onlHDfj+ypsR3Uct1szs1Y19KCkxDUpnZSZzfPU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5225,
-  "timestamp": 1537920190309,
+  "sequence": 5226,
+  "timestamp": 1537920300165,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**I think I'm going to start experimenting with post titles.** I think it might be nice to have post titles available for text posts, but I'm not sure how best to do it. I'm thinking these might be good ways to title posts:\n\n```md\n# Header titles\nThe rest of the content.\n```\n\n```\n**Inline titles.** The rest of the content.\n```\n\nI'd like to make sure it's just plain Markdown so that clients don't have to be compatible with anthing. Anyone have opinions on the syntax here? I'm not sure how often I'll even use these, but they seem like reasonable candidates for some title parsing.",
-    "channel": "ssb-titles"
+    "root": "%qNv1onlHDfj+ypsR3Uct1szs1Y19KCkxDUpnZSZzfPU=.sha256",
+    "branch": "%qNv1onlHDfj+ypsR3Uct1szs1Y19KCkxDUpnZSZzfPU=.sha256",
+    "channel": "ssb-titles",
+    "text": "[Backlink](%eDiXBzvst0rOQyFGscxKET4DQadoi4JSQDrjXKbor4Q=.sha256)",
+    "mentions": [
+      {
+        "link": "%eDiXBzvst0rOQyFGscxKET4DQadoi4JSQDrjXKbor4Q=.sha256",
+        "name": "Backlink"
+      }
+    ]
   },
-  "signature": "GgmUHJvjqvlqKrN4/Ykt9RfSuO+3QyyQgsBP8oJHvRuMyBNPI9vaQvSSpAjZMpCpkJkkfSLOsb2SL1hT++H/AA==.sig.ed25519"
+  "signature": "u9MhqJRCsg+gxS0qwUwrW1z+gSfN65WMZ3CScPJy3TgOuIyD6s8SvgaW685Wp/cgIceFwLjXxCHk0I6wWpGBBw==.sig.ed25519"
 }
