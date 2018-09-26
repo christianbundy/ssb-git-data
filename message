@@ -1,19 +1,25 @@
 {
-  "previous": "%Wd0MNWHKeoJlMlSrQdDeSy8aztzAxd/dAKlohMma8aE=.sha256",
+  "previous": "%BjWsIOFf5bJp1QECapACAY50M83d4bcvaCptkGCKfgA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5249,
-  "timestamp": 1537978846226,
+  "sequence": 5250,
+  "timestamp": 1537983044729,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%iIf0aP+PF97vm1n7OnIlz1q06OO6oqij/NIIWOFL/4s=.sha256",
-    "branch": "%QonUqThv+OLNgAI3gLk+wB8r35LhXYuqbBgVZsJSyZg=.sha256",
-    "text": "This looks really neat! Is this something that can/will be running in the background all the time? If so, I'd love to hear how it compares to #cjdns or Tinc.",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%56QxA2okqgmzTDO8cHr825R39gs0zmAJ5rDiGX1uAWs=.sha256",
+    "channel": "linux",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\n\nI got a message from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) who pointed out that `dleyna-renderer-service` was dying before everything else, so I've:\n\n- switched back to xorg\n- removed the `dleyna-renderer` package\n\nAny chance you're on Wayland or have `dleyna-renderer` installed? Unfortunately I had to `pacman -R dleyna-renderer gnome-photos`, but I haven't had any crashes yet. Not sure which change fixed it, but that's progress.",
     "mentions": [
       {
-        "link": "#cjdns"
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "9KCvMpHlaiDuYELpWWflPGlzDY+S7xDpBSdJ/UxdeIaofkhc1tyic6a9TCHe59tRqwXQe/9rYqtNRhH1t8FlBw==.sig.ed25519"
+  "signature": "Zw8r0+r/HnI8q25kz/myGG1Po8B6fL7+0WLBjFA3EBsAvGKMKZuqTUx/Vv0ZSTW36N+QYHxTPzaOQYp5KorCBQ==.sig.ed25519"
 }
