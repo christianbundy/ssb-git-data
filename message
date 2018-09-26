@@ -1,16 +1,23 @@
 {
-  "previous": "%Tw2BNxjQ4x7HFNKRvadUqDdshSbmZxIb1CN6e2htdLs=.sha256",
+  "previous": "%YfF8BkmjAyDun+JB46SQ6BHhcj5165wxnXMMSlFLR6w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5270,
-  "timestamp": 1537994504053,
+  "sequence": 5271,
+  "timestamp": 1537994864864,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%HcEmtOd0lXVvZl0kEmzhgcH3FXPOirckBF+9uRseN6U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%pgrAoOwSGgmVAeCrAYkgC8IrBQOYrBug6dOUmdCX+K4=.sha256",
+    "branch": [
+      "%fUhvIawCqzK9C5sO+wJOReiQvOwU9dDFlj5ugVR+27Q=.sha256",
+      "%v1Bvajr83tx0gFFoLY1NKunOVNhzxxFLmzeLTW/Hn1E=.sha256"
+    ],
+    "text": "[@Kiliman](@/0YvACL9kpnVYuNV8NPXgrZNpRlKh+UXBKGHc6hvnLs=.ed25519) \n\nPublic, in the context we're talking about, is whether it can be viewed on ssb-viewer by non-SSB users. For example, [your post doesn't show up on the viewer](http://viewer.scuttlebot.io/%25v1Bvajr83tx0gFFoLY1NKunOVNhzxxFLmzeLTW%2FHn1E%3D.sha256) because you have to opt-in. The viewer is very privacy-conscious by default.\n\nAnd yeah, you usually replicated within 2/3 hops, so you're replicating friends of friends (of friends).",
+    "mentions": [
+      {
+        "link": "@/0YvACL9kpnVYuNV8NPXgrZNpRlKh+UXBKGHc6hvnLs=.ed25519",
+        "name": "Kiliman"
+      }
+    ]
   },
-  "signature": "dWBFBqURjI0nO60oFvQuhhPb/gFFeaZcy5vN0t4SPdmDtldcPn2lEXZCs7vNe6Bmn6OIUAoJlWdgd15brxeiCQ==.sig.ed25519"
+  "signature": "6GuFuAW1t0cAHTMr6dKeXQPeqfcdsHAn9UCV3FIPSm3kV1fWqGEGzd9qQ2TxtRjXBfawJ2375KOFPabyDCNDCA==.sig.ed25519"
 }
