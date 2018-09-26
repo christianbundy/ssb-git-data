@@ -1,18 +1,21 @@
 {
-  "previous": "%Iu47IQB9dT5jCOvnimqqotlAG7yQ/K2Lrqww+zF4cBM=.sha256",
-  "sequence": 5236,
+  "previous": "%HXJEVJhY4pVl/GlWUHkVPEeAiV5k4DJ2OV2C2cnuFZQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1537973075271,
+  "sequence": 5237,
+  "timestamp": 1537974689013,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 6,
-    "root": "%0OIiEOBqTDVyPJex4P+HgY8eo2HfZBgmgc8BXHQX3lo=.sha256",
-    "orig": "c7",
-    "dest": "c6",
-    "pgnMove": "c6",
-    "fen": "rnbqkbnr/pp1p1ppp/2p5/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq - 0 4",
-    "branch": "%dfYgx4ikkjOGUQeox4GuVSxDKkJW7dQZVH5xngE7AlI=.sha256"
+    "type": "post",
+    "root": "%2+K7Nk1p64+OyeXRLJrhbaT/B8MH8JE/3Snr8GlDG90=.sha256",
+    "branch": "%2+K7Nk1p64+OyeXRLJrhbaT/B8MH8JE/3Snr8GlDG90=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@dosch](@X/1TDL1tlzuul+pjwgOTKI9MADoOBQ0exNqowZQD5sU=.ed25519) \n\nSounds fun! You'll want to make a backup of `~/.ssb` and make sure that gets copied over to the new OS. I'm not sure how much is cross-platform, but you can just copy over `~/.ssb/config` and `~/.ssb/gossip.json` if you don't mind re-downloading everything all of the content.",
+    "mentions": [
+      {
+        "link": "@X/1TDL1tlzuul+pjwgOTKI9MADoOBQ0exNqowZQD5sU=.ed25519",
+        "name": "dosch"
+      }
+    ]
   },
-  "signature": "gBQwQ3JxdCcYgKCLD07nQfc07c7+C5RJH4qMkLQsSrkoc4i+412SiolZoXvg68Z5FBLVgxe1sxo6j0GKA0G+BA==.sig.ed25519"
+  "signature": "K3EsAVwFvZxuIjtiEFiFwsPCotZDI7JNu44udt0iFnQGtDm/G0qOKGIgM7e8c7OOYjXABRZPjui4ArxdgDnJBQ==.sig.ed25519"
 }
