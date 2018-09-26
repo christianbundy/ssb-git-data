@@ -1,14 +1,17 @@
 {
-  "previous": "%9WiaI3J41bx1nTfy9JzuZVZdhHyEw9pSUx8hrWgrzyo=.sha256",
+  "previous": "%N58b812cYhoudOfRbBsLZnA4xnoQAS4hR1I2L3eIpxE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5252,
-  "timestamp": 1537983613056,
+  "sequence": 5253,
+  "timestamp": 1537984184639,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Tfmx1IEgKlQzk8saUYR8DB8iuRbJzNmpfIKuq5424b8=.sha256",
-    "branch": "%nNmEynY/qyx/piFXhXPSSL7/b6Wh6IGAljH4E2IZNfY=.sha256",
-    "text": "It seems to me that there are four possible policies:\n\n- **default:** complete feed unavailable\n- **not (yet) implemented:** most of feed unavailable, some specific messages available\n- **not (yet) implemented:** most of feed available, some specific messages unavailable\n- **opted in**: complete feed available\n\nShould the other two policies be implemented? I'm not sure whether I'd use them, but it sounds like at least a few other people would."
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%qZC+hn3XWsGj8/LNEK3VW3QKjgcCXg2xonyMSulN5jI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lO4XG7+BGUzmjzrWpLNSXcVrZj6Whb7rPN8DPpSkP0g08TVD5ofYlPd3gQLXuqIaDaRCLCnDtq+I0d18KojmDw==.sig.ed25519"
+  "signature": "gG3/pSOPefwQJH9wb+kVjxOJhqRnrmkDlVao4gyEMhkTdrRgATcHf3Cd3v9flnfpg0lpu8iacmlDp9KsW7QkBQ==.sig.ed25519"
 }
