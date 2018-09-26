@@ -1,21 +1,17 @@
 {
-  "previous": "%HXJEVJhY4pVl/GlWUHkVPEeAiV5k4DJ2OV2C2cnuFZQ=.sha256",
+  "previous": "%/ALnoa3q6bNwZojmau8MKN3ifcKtb/jCY/elv9iwkt8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5237,
-  "timestamp": 1537974689013,
+  "sequence": 5238,
+  "timestamp": 1537974852444,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%2+K7Nk1p64+OyeXRLJrhbaT/B8MH8JE/3Snr8GlDG90=.sha256",
-    "branch": "%2+K7Nk1p64+OyeXRLJrhbaT/B8MH8JE/3Snr8GlDG90=.sha256",
-    "channel": "scuttlebutt",
-    "text": "[@dosch](@X/1TDL1tlzuul+pjwgOTKI9MADoOBQ0exNqowZQD5sU=.ed25519) \n\nSounds fun! You'll want to make a backup of `~/.ssb` and make sure that gets copied over to the new OS. I'm not sure how much is cross-platform, but you can just copy over `~/.ssb/config` and `~/.ssb/gossip.json` if you don't mind re-downloading everything all of the content.",
-    "mentions": [
-      {
-        "link": "@X/1TDL1tlzuul+pjwgOTKI9MADoOBQ0exNqowZQD5sU=.ed25519",
-        "name": "dosch"
-      }
-    ]
+    "type": "vote",
+    "channel": "new-people",
+    "vote": {
+      "link": "%YiRJJwmNoVq1RU7pRU5KpDN2CsRcxdPfkcOlZzkD19I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "K3EsAVwFvZxuIjtiEFiFwsPCotZDI7JNu44udt0iFnQGtDm/G0qOKGIgM7e8c7OOYjXABRZPjui4ArxdgDnJBQ==.sig.ed25519"
+  "signature": "vAgLTM0JcanK5+r4zVwy7BOyXMQV7aQcskaeEVQbsVPBy5eJ+OERfTznnfpYLRLYMzVXt3CkWnorQxOyL8+TBQ==.sig.ed25519"
 }
