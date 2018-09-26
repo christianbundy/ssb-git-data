@@ -1,21 +1,36 @@
 {
-  "previous": "%f1rnFwEhvqkXItBeZDjHe4BCcIDbzyC1lpbBmMXdc60=.sha256",
+  "previous": "%b1bLcMYi2OS8geHWTUITa0bfKZbotgcYKG4Fjbdao8Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5255,
-  "timestamp": 1537985797626,
+  "sequence": 5256,
+  "timestamp": 1537986243513,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%vWX67SfSK4f5UIUgrpzsMUiWBsIJGHVZ/jj2xQ3KiiQ=.sha256",
-    "channel": "linux",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Oh, if you're still running linux-samus from the AUR I might recommend trying the vanilla `linux` kernel package. I posted [an issue](https://github.com/raphael/linux-samus/issues/217) about this, but I don't think the project will continue releasing new kernels.",
+    "root": "%qNv1onlHDfj+ypsR3Uct1szs1Y19KCkxDUpnZSZzfPU=.sha256",
+    "branch": "%O9lDBOlH3RQvv6Nfm5K1yI+WOLipqmusl/AicQbGouE=.sha256",
+    "channel": "ssb-titles",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) I didn't even consider that, nice! Do you think comments would show up as [Post Title (%cAq)](%cAqSYKmIBjrNrM4Im18yYukD6KsOMni5IIWLOWwtY7A=.sha256) or something? I like how GitHub does [foo/bar#123](#) but I'm not sure we have any guarantees about linearity.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) I swear I always find out about cool packages *way* after I've implemented a crappy prototype version of them. Thanks! Is this still in use for TickTack? I've never used/installed it. :sweat_smile: \n\n[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) Yeah, Patchbay had `h2` elements that were smaller than `h3` elements for a while, but after fixing it I'm *so* happy. I was always so reluctant to use `##` or `###` because of it. I wonder how silly my `h1` post titles look in Patchfoo.",
     "mentions": [
       {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "%cAqSYKmIBjrNrM4Im18yYukD6KsOMni5IIWLOWwtY7A=.sha256",
+        "name": "Post Title (%cAq)"
+      },
+      {
+        "link": "#"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
       }
     ]
   },
-  "signature": "htRc3KKS2HW5LlaeVU497aIkcBRx8+rW8FbGPQc7IDGOtLiGFR+W8ES4cOYV2oKu4/GFWQcqdXbSuaISgdjYBw==.sig.ed25519"
+  "signature": "k3lsn0vFYgMoZLMqVeEFqIz2Ic5/trYze75EF6yOGIXqDlDeij5u83dBPP26FPT6ybFQZ4j2kQBW05SO4q2UCg==.sig.ed25519"
 }
