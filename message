@@ -1,16 +1,23 @@
 {
-  "previous": "%oXuVPDqnirdV0ttIGUh1/Tjpicd/vhdHQIafixK5ADQ=.sha256",
+  "previous": "%6wfMychhlwimN/IEtM8isNiw9anR+pfvIeG5nqjMpLY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5313,
-  "timestamp": 1538074030230,
+  "sequence": 5314,
+  "timestamp": 1538074226027,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%HoUvla9zIOEfCH9ZhIbUM6eyWjjhTNYMj8QTAqqle/4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "branch": [
+      "%QH7qY6iGBx3SlgnY524436l/k0LO9qo4uoCnKRApAg8=.sha256",
+      "%wu/esoc8usHJtygActSpveqJa/MzEF6Ztx20BVPjTIo=.sha256"
+    ],
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Yep, works great for me and [Travis](https://travis-ci.org/ssbc/scuttlebot/builds/432813238)!",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "25ubYRq8qEoiuoDd0dq2iR7RwRb4tGMt+4UJM5AbbOeuPKAlh15j898ZqDjcOWZmtfcB+/z/iBoFen17pjZLCA==.sig.ed25519"
+  "signature": "C0QTOUNJadIUCr3cHm97B9iWJtp8B9hg4ECxuED431GzXddQei479vpgpbnVBh2iqOGLJ2krW85eV9zsCoreBQ==.sig.ed25519"
 }
