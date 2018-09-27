@@ -1,23 +1,21 @@
 {
-  "previous": "%6wfMychhlwimN/IEtM8isNiw9anR+pfvIeG5nqjMpLY=.sha256",
+  "previous": "%YokK4Zv5ZxUFIAsEGeusDQQsAo4Y0KKsf0JbiuJ25Fc=.sha256",
+  "sequence": 5315,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5314,
-  "timestamp": 1538074226027,
+  "timestamp": 1538076765733,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "type": "position",
+    "version": "v1",
+    "root": "%ohGNKYgcDPpY8JMI3X/vISBGWgLCOP9mYhEUHXpbSUU=.sha256",
+    "details": {
+      "type": "chooseOne",
+      "choice": 0
+    },
     "branch": [
-      "%QH7qY6iGBx3SlgnY524436l/k0LO9qo4uoCnKRApAg8=.sha256",
-      "%wu/esoc8usHJtygActSpveqJa/MzEF6Ztx20BVPjTIo=.sha256"
+      "%Up829LqsoAWUfyHCZf8cM5WKC8zmpbu8+5ok0aiDyvA=.sha256"
     ],
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Yep, works great for me and [Travis](https://travis-ci.org/ssbc/scuttlebot/builds/432813238)!",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "reason": "I'm still getting the hang of both chess and the current ssb-chess codebase, so I'll probably spend most of my energy on the vanilla chess game and implementation, but I don't have any disagreements about other folks creating/playing/maintaining new game mode."
   },
-  "signature": "C0QTOUNJadIUCr3cHm97B9iWJtp8B9hg4ECxuED431GzXddQei479vpgpbnVBh2iqOGLJ2krW85eV9zsCoreBQ==.sig.ed25519"
+  "signature": "xxcfE13gm6h4ZNgswdQ3hnE146iflkwYoR99zmDr/HRHiOuoGZ+c9HQRDaoZqEKsHED1d8ecPWATtCPukpppBA==.sig.ed25519"
 }
