@@ -1,17 +1,25 @@
 {
-  "previous": "%rslFRqM5/t2dxBr5KKUH1RJR/IadwLB+kshOyDI8RjQ=.sha256",
+  "previous": "%ln8plV3y4L8NN+H45KYDBKLgS7QZo4cNSHbJtpk3/Pk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5302,
-  "timestamp": 1538061616058,
+  "sequence": 5303,
+  "timestamp": 1538061762973,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256",
+    "branch": "%p7vqFOnM5poCBwXidXEr4DYif/snHhpxW2H8IqHTEYY=.sha256",
+    "reply": {
+      "%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+      "%p7vqFOnM5poCBwXidXEr4DYif/snHhpxW2H8IqHTEYY=.sha256": "@TOTrRQoc+vjyC6mmpNOgVWlaFnAiqOYFpcHf3qCS7BE=.ed25519"
+    },
     "channel": "patchwork",
-    "vote": {
-      "link": "%czghFPCmyuH/gAlVsz/aj7/JqkDJP2CeZXqO1QGhZto=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Posting this from Patchwork 3.11.0 and everything looks great! 🥇\n\nJust released a new version of [`ssb-patchwork`](https://aur.archlinux.org/packages/ssb-patchwork/) for #archlinux.",
+    "mentions": [
+      {
+        "link": "#archlinux"
+      }
+    ]
   },
-  "signature": "OmOCRDrm2rIiLjlMJT9e4DUFCHyYHa+27i6I3jqJ5sdd0N94A6LSXujH4lRuPm3D2mGNkXohny2uCqCPTVDBDw==.sig.ed25519"
+  "signature": "B7qOGR1YcVFAHmikNgNWMZEj1lv+Bvp58D2vQqdaXasvtSJg8a/mlFTIW7t1aiJMtmHl1tRBEbpToAG53ghLAw==.sig.ed25519"
 }
