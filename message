@@ -1,16 +1,14 @@
 {
-  "previous": "%Q59n+fAVx3vaFh7ccDv/yozsz/kQeXqN+HVZp0vp22w=.sha256",
+  "previous": "%aEh7NksWs+eGyvJtvZPkvhn2Jv6nOSwOlOvDdv8aflU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5287,
-  "timestamp": 1538010439306,
+  "sequence": 5288,
+  "timestamp": 1538012943736,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%X/LVRg5R4XernqIyKfcoKtZPTElHz3+ZoKBqxrKQAzM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%1Y+03goq0PttvsY+z0YJPsZrAXXKTs1NYgRGEeQC+tg=.sha256",
+    "branch": "%X/LVRg5R4XernqIyKfcoKtZPTElHz3+ZoKBqxrKQAzM=.sha256",
+    "text": "Even more chill, again assuming that `games` is an unsorted array of timestamps from your previous games and `players` is an unsorted array of `games` arrays:\n\n```js\nconst players = [\n  [0],\n  [0, 10,],\n  [0, 10, 20]\n]\n\nconst playNext = players.map((games, player) => \n  ({ player: player, weight: Math.max(...games) })\n).sort((a, b) =>\n  a.weight -  b.weight\n).map(x => x.player)\n\nconsole.log(playNext) // => [ 0, 1, 2 ]\n```\n\nIt's pretty naive, and really doesn't use any sort of weighting, but it'll show the people you've gone the longest without playing which is at least where I'd start. I think I like Mix's implementation more, but I wanted to share how I'd do it, even if only in solidarity of our lack of math chops. :wink: "
   },
-  "signature": "UzxISWGNwOMidpejS0a2myPyiP9Er4p14816iCLy56ZybpSp0uYVNR8pZKOPaFyU6MyY1FfYFRi62zbaKH3SDQ==.sig.ed25519"
+  "signature": "cZcPHW3q1tV8REFJAW3wKVW7/LHPkJh377RwpWHSJn49uj1XifHkAJ0MO6h4QXiCCH4oUAkbYvJaTmSHpM4tCw==.sig.ed25519"
 }
