@@ -1,17 +1,28 @@
 {
-  "previous": "%7YtKn+Kaoq02RlJ5+USafyrOLwuV9GzyrYNlul2/vP8=.sha256",
+  "previous": "%AhpTc5l7T0VUPtdseeuU8UTEXXMV60cYFp7+XKxDuFw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5322,
-  "timestamp": 1538077907443,
+  "sequence": 5323,
+  "timestamp": 1538077953525,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%fXz/sZ+7Nbl4TsMEoPphyS1wBHyUaubn/ejfamT94fE=.sha256",
+    "branch": "%ZNiljtciv6p8OzA5IQA1ijMCMA31fPnkX2OVWW3Z5YY=.sha256",
     "channel": "manyverse",
-    "vote": {
-      "link": "%ZNiljtciv6p8OzA5IQA1ijMCMA31fPnkX2OVWW3Z5YY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "> Or does it matter?\n\n[@gabe](@4Rwd4vbNNG9QBnc5qihYxNCpLQZwCYOo4/2ozsg2XxA=.ed25519) Nope! I'm [@📱 Christian Bundy](@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519) on my phone, and although #sameas may eventually solve the problem it doesn't seem to matter much (for me at least).",
+    "mentions": [
+      {
+        "link": "@4Rwd4vbNNG9QBnc5qihYxNCpLQZwCYOo4/2ozsg2XxA=.ed25519",
+        "name": "gabe"
+      },
+      {
+        "link": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+        "name": "📱 Christian Bundy"
+      },
+      {
+        "link": "#sameas"
+      }
+    ]
   },
-  "signature": "/p1k6ErXwdGMG1WVNLBSqugapkyK0xbVa43uAAml8Ib9jPU2rKe32nV144wdSRZGJ8Fmu4M4o+RY/RaHs2zzCA==.sig.ed25519"
+  "signature": "EgJEIjBZmO45Co5pRaEfkkBz432DBZv0WIIrtXDKQNjniCGEasNed1PMVurm0vtqPjCrkXB1CHiNw/PVWxy9Bg==.sig.ed25519"
 }
