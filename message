@@ -1,21 +1,17 @@
 {
-  "previous": "%YokK4Zv5ZxUFIAsEGeusDQQsAo4Y0KKsf0JbiuJ25Fc=.sha256",
-  "sequence": 5315,
+  "previous": "%8sup+ghsu654GZqZiNmSqxIKIcDaexrtUsLpI1fw5As=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538076765733,
+  "sequence": 5316,
+  "timestamp": 1538077180744,
   "hash": "sha256",
   "content": {
-    "type": "position",
-    "version": "v1",
-    "root": "%ohGNKYgcDPpY8JMI3X/vISBGWgLCOP9mYhEUHXpbSUU=.sha256",
-    "details": {
-      "type": "chooseOne",
-      "choice": 0
-    },
-    "branch": [
-      "%Up829LqsoAWUfyHCZf8cM5WKC8zmpbu8+5ok0aiDyvA=.sha256"
-    ],
-    "reason": "I'm still getting the hang of both chess and the current ssb-chess codebase, so I'll probably spend most of my energy on the vanilla chess game and implementation, but I don't have any disagreements about other folks creating/playing/maintaining new game mode."
+    "type": "vote",
+    "channel": "camping",
+    "vote": {
+      "link": "%eoSFsb5wZ7K0VwgR+30AragdMH44H20/eQOl4kFYocA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "xxcfE13gm6h4ZNgswdQ3hnE146iflkwYoR99zmDr/HRHiOuoGZ+c9HQRDaoZqEKsHED1d8ecPWATtCPukpppBA==.sig.ed25519"
+  "signature": "ZKdcEn2XiaOUWPJTzOFpRQmOXNGBXK9TPzgHkiSY0iQQdG+tkuccFQue5/kVB3EzRjoX2Y7DNRMVjJuJ/0UaBg==.sig.ed25519"
 }
