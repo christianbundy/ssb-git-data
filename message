@@ -1,19 +1,17 @@
 {
-  "previous": "%AniipO3+umyHmpOG77se0DFl/dV+2xkQdRMVNMT4yMs=.sha256",
+  "previous": "%4HqPe3xvuqmYwCCxeJy+IpNTvrYLCQxvuGreWpw9OH4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5332,
-  "timestamp": 1538087366855,
+  "sequence": 5333,
+  "timestamp": 1538091735967,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-    "branch": "%oXuVPDqnirdV0ttIGUh1/Tjpicd/vhdHQIafixK5ADQ=.sha256",
-    "text": "I'm probably about done for the day, so to summarize I've:\n\n- Opened a small PR to expose flume's map to secure-scuttlebutt.\n- Opened a small-ish PR to expose flume's map to Scuttlebot and its plugins. \n- Moved the entire ssb-blob-content package to [its own repo](https://gitlab.com/christianbundy/ssb-blob-content).\n- Replaced multiblob with ssb-blobs.\n- Triggered `blobs.want()` for hashes we want.\n- Triggered `blobs.push()` for hashes we have.\n  - This is a hack and should eventually be added to some publish function.\n\nAssuming that those pull requests are merged without too many gigantic changes, this means the next steps for full #blob-content integration would be:\n\n- Writing a tests to ensure it *really* works.\n- Including the plugin in a client for read-only access.\n- Exposing a method to publish content blobs via Scuttlebot.\n- Adding an interface or settings for users to choose to publish blob content.\n\nThe only weirdness I've found has been centered around blobs you *don't* have: `sbot get $key` seems to hang until the blob is downloaded, which doesn't seem ideal. On the other hand, I think blobs are replicating just fine, which is really neat to see.",
-    "mentions": [
-      {
-        "link": "#blob-content"
-      }
-    ]
+    "type": "vote",
+    "channel": "patchwork-dev",
+    "vote": {
+      "link": "%nM6J0gYlKkXF7Y+KazYpPUEgHxksx5oD4/ToXl7gKlU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0jP+u/0nwnZOu36JAMFQluiytWtkCnHK355DzhguLHZXzzqqp5ovTB3ILj1b3gBC4v41Cp/p0Yj036dBzk2EBQ==.sig.ed25519"
+  "signature": "bX8Rxel+Bchs9E9Novd76eV5Hrr5i5vIlVXPQ7zViwajWDK/V8k6DpZMDQiZ8c0rwqbC5+coVY86WThIbwKUAg==.sig.ed25519"
 }
