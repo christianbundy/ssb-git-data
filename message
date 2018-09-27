@@ -1,17 +1,21 @@
 {
-  "previous": "%8DDAHCoqi1B5RUpZGTHxwgouE+AGAiYmdGxNIy1noFI=.sha256",
+  "previous": "%J9XLI7jUQjAiVmSopzvOJj/b3HJ2BchP2uJlRXgVCFs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5290,
-  "timestamp": 1538014231488,
+  "sequence": 5291,
+  "timestamp": 1538014459561,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%ppaU40JlBL7rsjeMvPw3xE6XDjoD1JnbcIx+gmySMkk=.sha256",
+    "branch": "%ppaU40JlBL7rsjeMvPw3xE6XDjoD1JnbcIx+gmySMkk=.sha256",
     "channel": "scuttlebutt",
-    "vote": {
-      "link": "%ppaU40JlBL7rsjeMvPw3xE6XDjoD1JnbcIx+gmySMkk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@jer](@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519) I think many/most of us want something similar. I'd think I'd like my keypairs to be handled more like how Matrix and Signal handle them, where the keypairs are an *interface identity* rather than a personal identity.",
+    "mentions": [
+      {
+        "link": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
+        "name": "jer"
+      }
+    ]
   },
-  "signature": "YHclE4qo5JLR0MK5XUkzKB2fxLtLydqOneVFy22Ko0nlaYvbuJPKMxGSWs2w5Ge+2Q6GRN7W6USF7eW5TuZcBQ==.sig.ed25519"
+  "signature": "YkwUkyOH/tP0lE4rqQ+aRPpXTSxYEB+s0hSwWuFs5aCDwOgUrs0OcPHTblK7ZRkrkAdjliF37FYgKv6Se6kkCA==.sig.ed25519"
 }
