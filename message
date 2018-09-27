@@ -1,15 +1,17 @@
 {
-  "previous": "%xkgnCQk3wBExcBrrHC6375iCHqsSKayst7mOcaP3ldo=.sha256",
+  "previous": "%8DDAHCoqi1B5RUpZGTHxwgouE+AGAiYmdGxNIy1noFI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5289,
-  "timestamp": 1538013292580,
+  "sequence": 5290,
+  "timestamp": 1538014231488,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CbtPAt85S1THR19smmB/wcCvQni/CRKuOypAn1EI/M8=.sha256",
-    "branch": "%1EZYJBlhGULGH2VC1xira+BCQjURYGUhfcB6PiA5u6Y=.sha256",
-    "channel": "ssb-learning",
-    "text": "I love it, cache invalidations is an hard problem (please don't make me say it), but I think that's a solid way to go about it. It reminds me of bumping the index in a flume view: it's a minimal flag to communicate \"hey it's time to recalculate things\" without having to pass any new data with the message. I love it. :heart: Thanks for mentioning me, this was fun to read through."
+    "type": "vote",
+    "channel": "scuttlebutt",
+    "vote": {
+      "link": "%ppaU40JlBL7rsjeMvPw3xE6XDjoD1JnbcIx+gmySMkk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "gJpm4G5MGZmXuRn/WcXo6q3ms/V84BoQzaYVrYuyS4pyYmrcYnOk7oxUIwEQk7zkUrBc2e7i+gQ14iwPI19HDg==.sig.ed25519"
+  "signature": "YHclE4qo5JLR0MK5XUkzKB2fxLtLydqOneVFy22Ko0nlaYvbuJPKMxGSWs2w5Ge+2Q6GRN7W6USF7eW5TuZcBQ==.sig.ed25519"
 }
