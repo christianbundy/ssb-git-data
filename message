@@ -1,47 +1,17 @@
 {
-  "previous": "%5Pm9aaQb1dgBhOfx4XGt/u26Fp+cO8M3QB7YuLhzkiI=.sha256",
-  "sequence": 5301,
+  "previous": "%rslFRqM5/t2dxBr5KKUH1RJR/IadwLB+kshOyDI8RjQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538061536823,
+  "sequence": 5302,
+  "timestamp": 1538061616058,
   "hash": "sha256",
   "content": {
-    "type": "git-update",
-    "repo": "%i2X60OQeGuNuhQRhF2WWygIbk9d7CrioEZTZmrICUsk=.sha256",
-    "refsBranch": [],
-    "repoBranch": [
-      "%uT36zHuAj/pHi7tW/n1Ec4TKvYOe/oiyEWWkIcFnhTU=.sha256"
-    ],
-    "packs": [
-      {
-        "link": "&/ufkdK/Aimv6T3TwgSBo04PhZgStDKIel5I54Mw5IKs=.sha256",
-        "size": 2476
-      }
-    ],
-    "indexes": [
-      {
-        "link": "&2AANnYYObwjgCcYNDPKkZZIK4ZQQ6tS+D+967tXZjac=.sha256",
-        "size": 1184
-      }
-    ],
-    "refs": {
-      "refs/heads/master": "3448402df8d6c8564f841cddb332e1d5a8771f23"
-    },
-    "commits": [
-      {
-        "parents": [
-          "68c428254fec67cd7b65028402dc8f4da316f649"
-        ],
-        "title": "Release 3.11.0-1",
-        "sha1": "3448402df8d6c8564f841cddb332e1d5a8771f23"
-      }
-    ],
-    "tags": [],
-    "num_objects": 4,
-    "object_ids": [
-      "5a97f10fecf725d469f239064d991019ae1cc06f",
-      "5a144e686a9b5f88a9cf14179564add527abf861",
-      "3b118069d57b66ff60dca164835f20b6f629c417"
-    ]
+    "type": "vote",
+    "channel": "patchwork",
+    "vote": {
+      "link": "%czghFPCmyuH/gAlVsz/aj7/JqkDJP2CeZXqO1QGhZto=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "epSIuVWLIoP2Z7IJjY4nnPJ9lqO0EILRkJpfNCgTJ+dfzHYkDmf0E5MxoB9mP//bQk+TWOCscSobnCs7WFQHCw==.sig.ed25519"
+  "signature": "OmOCRDrm2rIiLjlMJT9e4DUFCHyYHa+27i6I3jqJ5sdd0N94A6LSXujH4lRuPm3D2mGNkXohny2uCqCPTVDBDw==.sig.ed25519"
 }
