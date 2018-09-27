@@ -1,13 +1,23 @@
 {
-  "previous": "%hjZ24a1LevZfXTsDG3bj2HBoRmkuiBUk6rIv6mclvhU=.sha256",
+  "previous": "%bfQb7L8TvmAwNu3TG7iK3iXqlVCv+AjZDFQfDgguwK0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5325,
-  "timestamp": 1538081113173,
+  "sequence": 5326,
+  "timestamp": 1538081209372,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-    "name": "kas"
+    "type": "post",
+    "root": "%Rt6bGNlOKWnvfNVdIPz0Xgnn6pEZneyHv7ira44Tz5I=.sha256",
+    "branch": "%Rt6bGNlOKWnvfNVdIPz0Xgnn6pEZneyHv7ira44Tz5I=.sha256",
+    "text": "Hey [@Jon](@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519), welcome!\n\nYeah, currently each device is a completely separate profile -- this is being tracked as #sameas.",
+    "mentions": [
+      {
+        "link": "@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519",
+        "name": "Jon"
+      },
+      {
+        "link": "#sameas"
+      }
+    ]
   },
-  "signature": "+oEOlUL4Jl9C7oFmUbLcwHXh7q+04Dby9yi7l0zh69PjQ/qVTGKtUqRed+9h3vKtcUYVHCD2WmQf97neUXGGAA==.sig.ed25519"
+  "signature": "1EkqZwGL4NihzR/IAE4ZdotBLE4E9PAKoIIc51vYSCzXhztZacudh7xV0+p5bvT4tiKIA0NIeu8B8UXIBLXACQ==.sig.ed25519"
 }
