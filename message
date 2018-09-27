@@ -1,14 +1,15 @@
 {
-  "previous": "%aEh7NksWs+eGyvJtvZPkvhn2Jv6nOSwOlOvDdv8aflU=.sha256",
+  "previous": "%xkgnCQk3wBExcBrrHC6375iCHqsSKayst7mOcaP3ldo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5288,
-  "timestamp": 1538012943736,
+  "sequence": 5289,
+  "timestamp": 1538013292580,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1Y+03goq0PttvsY+z0YJPsZrAXXKTs1NYgRGEeQC+tg=.sha256",
-    "branch": "%X/LVRg5R4XernqIyKfcoKtZPTElHz3+ZoKBqxrKQAzM=.sha256",
-    "text": "Even more chill, again assuming that `games` is an unsorted array of timestamps from your previous games and `players` is an unsorted array of `games` arrays:\n\n```js\nconst players = [\n  [0],\n  [0, 10,],\n  [0, 10, 20]\n]\n\nconst playNext = players.map((games, player) => \n  ({ player: player, weight: Math.max(...games) })\n).sort((a, b) =>\n  a.weight -  b.weight\n).map(x => x.player)\n\nconsole.log(playNext) // => [ 0, 1, 2 ]\n```\n\nIt's pretty naive, and really doesn't use any sort of weighting, but it'll show the people you've gone the longest without playing which is at least where I'd start. I think I like Mix's implementation more, but I wanted to share how I'd do it, even if only in solidarity of our lack of math chops. :wink: "
+    "root": "%CbtPAt85S1THR19smmB/wcCvQni/CRKuOypAn1EI/M8=.sha256",
+    "branch": "%1EZYJBlhGULGH2VC1xira+BCQjURYGUhfcB6PiA5u6Y=.sha256",
+    "channel": "ssb-learning",
+    "text": "I love it, cache invalidations is an hard problem (please don't make me say it), but I think that's a solid way to go about it. It reminds me of bumping the index in a flume view: it's a minimal flag to communicate \"hey it's time to recalculate things\" without having to pass any new data with the message. I love it. :heart: Thanks for mentioning me, this was fun to read through."
   },
-  "signature": "cZcPHW3q1tV8REFJAW3wKVW7/LHPkJh377RwpWHSJn49uj1XifHkAJ0MO6h4QXiCCH4oUAkbYvJaTmSHpM4tCw==.sig.ed25519"
+  "signature": "gJpm4G5MGZmXuRn/WcXo6q3ms/V84BoQzaYVrYuyS4pyYmrcYnOk7oxUIwEQk7zkUrBc2e7i+gQ14iwPI19HDg==.sig.ed25519"
 }
