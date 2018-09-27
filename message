@@ -1,17 +1,20 @@
 {
-  "previous": "%4HqPe3xvuqmYwCCxeJy+IpNTvrYLCQxvuGreWpw9OH4=.sha256",
+  "previous": "%quERuhRCudPZMf9R+ZR/kKXrxCcDXlOnMKGJXizRjJY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5333,
-  "timestamp": 1538091735967,
+  "sequence": 5334,
+  "timestamp": 1538092797182,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork-dev",
-    "vote": {
-      "link": "%nM6J0gYlKkXF7Y+KazYpPUEgHxksx5oD4/ToXl7gKlU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+    "branch": "%t3rMf+amRgWSrpYTHAqSXzAIrUedZPpHNQuzMnffR6w=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) Yeah, thanks! It runs on on `db.get()` and `db.stream()`. I don't think I understand flumeviews well enough yet, could you go into more depth on how that would work or point me to some docs to read (and probably reread)?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "bX8Rxel+Bchs9E9Novd76eV5Hrr5i5vIlVXPQ7zViwajWDK/V8k6DpZMDQiZ8c0rwqbC5+coVY86WThIbwKUAg==.sig.ed25519"
+  "signature": "J1cj9RgVVbsVDxTInslyrR99qNXg+cRWaglK/ukK8/5tVGEgJGsKaTv9gjDgjcUFG5F/SzdK19CgrskD9pOABA==.sig.ed25519"
 }
