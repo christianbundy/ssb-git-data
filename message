@@ -1,17 +1,28 @@
 {
-  "previous": "%c4US+NUYB5+7qYGIfQLyHevsKHqYcTi6YNB6i/Z0mzI=.sha256",
+  "previous": "%KkGEcAUjC3QoK1CoLTlYx1V/dzc/nI0EyOPiIfnEaec=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5308,
-  "timestamp": 1538064353645,
+  "sequence": 5309,
+  "timestamp": 1538067231893,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork",
-    "vote": {
-      "link": "%2b14JBRpd0INk+rgR1cnarYYce2v/bfDP0dYt6bhfI0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+    "branch": "%lGtaW0RtC9SlC+8kR3LM3HddYDb7TSWwkcJBo5FXa3c=.sha256",
+    "text": "# Blob Content III: The Flume Wars\n\nAfter [watching a video](%Ej0uOWJjnl7sWhJYx91Cq6oYlUiu+tZucTrCesEEI8o=.sha256) on flumedb from [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I started [a pull request](https://github.com/flumedb/flumedb/pull/19), and [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) walked me through a handful of iterations and improvements until we ended up with something vaguely resembling an async map for Flume. This means that we'll be able to avoid the unboxer code, which circumvents all sorts of ~~fun puzzles~~ headaches.\n\nAlso important, the [diff from `master`](https://github.com/ssbc/secure-scuttlebutt/compare/blob-map) actually looks reasonable. Here are my current todos/questions/etc:\n\n- Ensure blobs are replicated to others when publishing blob content\n- Ensure blobs are downloaded from others when receiving blob content\n- Figure out how to abstract this out of the `secure-scuttlebutt` package\n  - As mentioned above, this seems like it should be a Scuttlebot plugin, but I'm not sure how.\n  - Does this mean Scuttlebot needs to expose some sort of `addMap()` method to plugins?\n    - If so, what's the best way to pass that map function to secure-scuttlebutt?\n\nAt this point I've got more questions than answers, but I wanted to publish what I've got.",
+    "mentions": [
+      {
+        "link": "%Ej0uOWJjnl7sWhJYx91Cq6oYlUiu+tZucTrCesEEI8o=.sha256",
+        "name": "watching a video"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "L0CzImGlbSd3qLSxHh8sHkHLffmD7ZMlPOClQKN89hElnMthKrmrJXbBpSpX9x2prp0kqLMmpQfrm9NZDw6/Aw==.sig.ed25519"
+  "signature": "LM2CC2goIeZWXGaU05hNFjotXworBFOUacpYUWjMMDR4VTTLj0mLEY8Pj+JvE/PczglsY0wR67oznPDYJMMPDQ==.sig.ed25519"
 }
