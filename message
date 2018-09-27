@@ -1,17 +1,20 @@
 {
-  "previous": "%GKWfwmASnbwBrmuLYzxI90cDyODcZPQCnQJzn70ApVY=.sha256",
+  "previous": "%JcKt8pNKwCWuv8aGNC24MED8pbMbtZ6jGWc0eI4aUA0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5319,
-  "timestamp": 1538077612345,
+  "sequence": 5320,
+  "timestamp": 1538077788745,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%aiba0JGqTR97l2wBmm7HKtsNSnbETeoNh4YzzdsNWRI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "branch": "%Jdyay1YWzu9+cChVSDpQaDIQH0wLZGbj2LLcIntZXCg=.sha256",
+    "text": "[@kas.v2](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nYou got it. That's what I'm doing and I haven't had any problems at all. The only \"problem\" I've seen is a few deprecation warnings when running `npm test`, but they're just warnings and I've already opened [a pull request to resolve them](https://github.com/ssbc/scuttlebot/pull/548).",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas.v2"
+      }
+    ]
   },
-  "signature": "5NyrsfBHlWHc60EMKtzsZmYImTgL/2BclrNKWM6cTzuOJQw83bTBOG/YNLLoKFQjEzsHSW+Rk6GB9XcEcIo3BA==.sig.ed25519"
+  "signature": "MrRI1wUnyutcuhq+EItUZkB5f7/q4VvaJFgmKS2DlM+NBjC+lhNKjZWUGmfoQgtDlbidZOTGxlrAnMOnWBZLBg==.sig.ed25519"
 }
