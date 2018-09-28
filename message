@@ -1,21 +1,17 @@
 {
-  "previous": "%PKE/hYyTR7khDQ12uqYCWI5rSLA8aCf4pjdU+mdq1Ck=.sha256",
+  "previous": "%YJfrkMeS4mGCKhrqkZRyQmo8soVrE/ZgWTPE/dDyabo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5370,
-  "timestamp": 1538166446787,
+  "sequence": 5371,
+  "timestamp": 1538170100352,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%zVzN9LCmVNqPLvI5Ez8ikbZUyf58JdIsEmECIyKtSAA=.sha256",
-    "channel": "linux",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Sorry, totally misunderstood that. I've opened an issue [here](https://gitlab.gnome.org/GNOME/mutter/issues/327), any chance you have something similar in the output of `journalctl`? I'm thinking I'll likely try to debug userspace before making an issue at the samus repo.",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      }
-    ]
+    "type": "vote",
+    "channel": "test",
+    "vote": {
+      "link": "%8GxvD8pZDLQ3zv2kVfuunU1H+B2VSOGYAHlgTiGgNCE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "IaxZdPR7fZ7006J8826LmKjwz9zCQqtPZRCYCNuwAd6fMmviaqq1BZBtNUSif1BJRX1TitcOpjBNhHmOjGrrDA==.sig.ed25519"
+  "signature": "VdtXYYZDr09k8sgG/8f2qW5t+0X3NhcjVZlm0iCgLwFNtYVWZXsD8O3mAJMzIxshQNP1Kfw7Vk+7g0EVs2ZLDA==.sig.ed25519"
 }
