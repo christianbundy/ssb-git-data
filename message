@@ -1,20 +1,21 @@
 {
-  "previous": "%ig+96dXjjw3XWHAj9Eqs8FwYrLs54bSfczp8+AKN4WA=.sha256",
-  "sequence": 5352,
+  "previous": "%L8W9ZJa1dhM2U0nyItGAu2ttAOm61IV0nd1porqXsxc=.sha256",
+  "sequence": 5353,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538156463294,
+  "timestamp": 1538156496695,
   "hash": "sha256",
   "content": {
-    "type": "chess_game_end",
-    "status": "mate",
-    "ply": 14,
-    "fen": "r1b1k1nr/1ppp1ppp/2n5/pB2p3/P2bP3/1PN5/1BP2qPP/R2QK1NR w KQkq - 0 8",
-    "root": "%MGVwI1MT0OuCxBxq6qg3NcViyvxzrqGZnqtEJun8Sj4=.sha256",
-    "winner": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-    "orig": "f6",
-    "dest": "f2",
-    "pgnMove": "Qxf2#",
-    "branch": "%fuOvlZKMl6dhGsU04nigTITrhzpb5Xx8ziLxZRyw5do=.sha256"
+    "type": "chess_invite",
+    "inviting": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+    "myColor": "black",
+    "branch": [
+      "%cEBj1te5zVyunLMjgMegDxsfO5jcNd7lx+nVyMgEYUk=.sha256",
+      "%9N44otmNj3j3tSpyyoCSIOzYlK6Gu9dZHNxUBCL+fJ4=.sha256",
+      "%5l13HXrI8JMq40lkd4qzCrAtQ2YX+HNhhVAjmV+XZjk=.sha256",
+      "%Ygdrj/B0S8bGeMyRiHhatXboUh7as2cCqyEbe/vhbBo=.sha256",
+      "%NbWyu5B5F7XMj6fPHq/D24YMS1i8urAnxu0Bk4sG46A=.sha256",
+      "%/B8Ure27JIvzm0NS2ZgEfVk+QuU7obxUtN0DrVy6PXg=.sha256"
+    ]
   },
-  "signature": "WKEfybK4BRPLyUEUA+FiN4O1Pj59JhUoOwtynnbKXWxurXX04uBRwYmhHxhlYb6ywvRBo9gZTQzs/W0rSjroAg==.sig.ed25519"
+  "signature": "NAShOFu/gRCsHl9WOhGisDw5TvW6BakCE5WkGzKQorLQ0OIM4l/WJX0YBtq35u9q9LnAunvpBW95S/oZ7K8EDw==.sig.ed25519"
 }
