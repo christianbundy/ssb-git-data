@@ -1,18 +1,21 @@
 {
-  "previous": "%eP/yYbpbeH7JDLVqKLjSrVl3hUODph4N6ii/yPEzsKc=.sha256",
-  "sequence": 5369,
+  "previous": "%PKE/hYyTR7khDQ12uqYCWI5rSLA8aCf4pjdU+mdq1Ck=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538164104623,
+  "sequence": 5370,
+  "timestamp": 1538166446787,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 16,
-    "root": "%uwQIBYdtth3LEKH9v2MJTXPC05ZB71YN4L8cqg5NRAc=.sha256",
-    "orig": "d5",
-    "dest": "e4",
-    "pgnMove": "dxe4",
-    "fen": "r2qkb1r/p1p1n1pp/Qp3p2/4p3/3Pp3/5N2/PPP2PPP/RNB2RK1 w kq - 0 9",
-    "branch": "%incBo9eMD4XrLu0W+IGkmfCcr+VSqJ85MscZh0pyJ6E=.sha256"
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%zVzN9LCmVNqPLvI5Ez8ikbZUyf58JdIsEmECIyKtSAA=.sha256",
+    "channel": "linux",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Sorry, totally misunderstood that. I've opened an issue [here](https://gitlab.gnome.org/GNOME/mutter/issues/327), any chance you have something similar in the output of `journalctl`? I'm thinking I'll likely try to debug userspace before making an issue at the samus repo.",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      }
+    ]
   },
-  "signature": "0Cw4oDaHSdmeMdGifZR5ONtwsGg0enxHqv6d8RDLGxocXBlNBzZi5RFQ3cVLAsfbhy9ehqxTp7g2aIEYlrqYDQ==.sig.ed25519"
+  "signature": "IaxZdPR7fZ7006J8826LmKjwz9zCQqtPZRCYCNuwAd6fMmviaqq1BZBtNUSif1BJRX1TitcOpjBNhHmOjGrrDA==.sig.ed25519"
 }
