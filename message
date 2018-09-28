@@ -1,23 +1,17 @@
 {
-  "previous": "%GWmBj3QeOt2QEdwj8A2wyWw59gaHlYJb7K3/fm0/3tI=.sha256",
+  "previous": "%vApk3TGyQY12fPa8hR+V2bvFjohIkDk7MHdKUqdwL6A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5359,
-  "timestamp": 1538157078662,
+  "sequence": 5360,
+  "timestamp": 1538159179215,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%weqNd9Raick1yDHAX9AZbvni17ENuNQYH3/38vpVP4M=.sha256",
-    "branch": "%Un5xvW/s5vqm/P9YRa+LuuX1hrYB6mo8P59yBBQuWPk=.sha256",
-    "text": "[@xj9.2](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519) Thanks! I didn't know you needed an IPv6 address to resolve AAAA records, is that a thing? I only have IPv4 at home and it looks like this for me:\n\n```console\n$ dig +short AAAA libra.fraction.io\nfc7d:ebb9:ee1b:912b:467:9b3a:2162:b951\n```\n\nAnd because I'm running #cjdns on both devices:\n\n```console\n$ ping libra.fraction.io\nPING libra.fraction.io(fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951 (fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951)) 56 data bytes\n64 bytes from fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951 (fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951): icmp_seq=1 ttl=42 time=224 ms\n64 bytes from fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951 (fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951): icmp_seq=2 ttl=42 time=248 ms\n64 bytes from fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951 (fc7d:ebb9:ee1b:912b:467:9b3a:2162:b951): icmp_seq=3 ttl=42 time=149 ms\n^C\n--- libra.fraction.io ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 5ms\nrtt min/avg/max/mdev = 149.420/207.087/247.704/41.896 ms\n```",
-    "mentions": [
-      {
-        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
-        "name": "xj9.2"
-      },
-      {
-        "link": "#cjdns"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%w5QvB9IL44kxuFX1+QPKEN8FIvTnTjoU/aJOWPmOAOM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "m6ByEw85pNL8tM1qcP8sa1t5JqZCI7fN/iN3mfaMUNFOOdq0PS5aU/QImUMuzQk3G8oE+yhEohkma1xF0WFjDw==.sig.ed25519"
+  "signature": "FIDonH1NEm/fLdKC5jL3acwALNT2sdrAvamrMfnFMUGMqdHErefySGY+UKlx0aAfh+3CVH4r1QWUULi26FBKCA==.sig.ed25519"
 }
