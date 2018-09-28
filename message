@@ -1,17 +1,24 @@
 {
-  "previous": "%EZ9iHMN2m6sy81TTHCn/fhf/G+cW4VUzW3wAl236C+Y=.sha256",
+  "previous": "%lPEUcKlKzl+gZCSeTcVY7Rw8uNv63W76dIH2qS1bvRc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5346,
-  "timestamp": 1538146707793,
+  "sequence": 5347,
+  "timestamp": 1538154215608,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork",
-    "vote": {
-      "link": "%XVeLOurUFdu7aNsK9rKgJzerGcELv1twhCeiAWGFXPY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9n4AZ2jBazk2miZyvS7P3W9n2zLj0fP3QoqDdizqRic=.sha256",
+    "branch": "%OOAEwaVCTZQ7i00a52VBZk+7m4iUrxSn8unQ12rr9gc=.sha256",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nIt's super cool, although I know there are all sorts of simliar projects going on. The basic idea:\n\n- each device running cjdns gets an IP address\n  - the IP address acts like a public key, so all network is end-to-end encrypted by default\n  - the IP address can only be used by other cjdns users, but anyone on the network can connect to you\n    - this means you don't need to get a web hosting company for a public IP address, since any cjdns user can connect to any other cjdns user as long as they're in the same peer graph (hyperboria)\n- you peer with [your friends](%ZSnWOBSoPrG247yOdSNimSYGY+IUmTUqOjbp4GOK5AY=.sha256), which route your connections to others in the network\n  - it's kind of like SSB if you squint really hard and don't think about it much\n  - like SSB, you *could* peer over an offline or mesh connection, but most of us peer over the internet\n\nMy main issue running a pub on a Pi was that I couldn't get a public IP or port forward from my router, but with cjdns I just add some peers and then anyone else in hyperboria can connect to me without any issues. Super neat.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "%ZSnWOBSoPrG247yOdSNimSYGY+IUmTUqOjbp4GOK5AY=.sha256",
+        "name": "your friends"
+      }
+    ]
   },
-  "signature": "swULlCr56juml9DHP+UQQeFwxF8SpeI6QtFY2Pxsg7jGpkqUTGiySID6QpAeLQQJUeyxcDTwSTU4iwb+xJIjDg==.sig.ed25519"
+  "signature": "CHCiFBU+b9zNMGIoWfoojoPCydZAjBH3Vl/2xAJTJBI/DxISWTfarLD823pdHod2aLvYcjMOXRiRa4FGfkcOBg==.sig.ed25519"
 }
