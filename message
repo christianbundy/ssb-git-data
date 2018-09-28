@@ -1,13 +1,18 @@
 {
-  "previous": "%7LoNppu9osm+N7OBp/aP5JbZtXtqphBWkZhbO25okEM=.sha256",
+  "previous": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+  "sequence": 5350,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5349,
-  "timestamp": 1538155168067,
+  "timestamp": 1538156310067,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "**There are a ton of open issues under the SSBC GitHub org.** Does anyone else feel like this is a pain point? There are currently 599 issues and pull requests open. About half of which haven't been touched since mid-2017, and half of *those* haven't been updated since mid-2016, which makes me think there may be a better way to deal with this content. I'd be super curious to hear whether there's been other talks about GH issues, or whether anyone else feels similarly.\n\nI'm inspired by projects like [lodash](https://github.com/lodash/lodash) that treat issues as a bug backlog and strive for 0 open issues, but I'd love to hear what others think before jumping to solutions.\n\n:ticket: ",
-    "channel": "ssbc"
+    "type": "chess_move",
+    "ply": 64,
+    "root": "%Fg1V5d9yOCjRj2NNOJLZb6WGoGWDlXhkqqEBSW7ZeYw=.sha256",
+    "orig": "b6",
+    "dest": "c5",
+    "pgnMove": "Qc5",
+    "fen": "4k3/1p1bnp2/8/pBqP4/PnNb1PpP/1Q6/5r1P/4R1KR w - - 4 33",
+    "branch": "%mxNs9V+QKnQfWi4T15pPbUfpi76ThnFu6xGyCiu5V5c=.sha256"
   },
-  "signature": "IK8Fl+qx6JTvssNLR7rUsqhCVTqoQcsNC6qUSJn+sqsm0OzFpETKIxBOOvtr/tJ4rUxTvbLr9B+LxlJBwvAWAQ==.sig.ed25519"
+  "signature": "IqCxCpPvwlfyai+aEoMeg2ksnhCrmbqY+d1BOHLM7Ct5UFddKyGvH679xtZEK+WPu9gaGuisbT7nR3k9Oyw1Bw==.sig.ed25519"
 }
