@@ -1,17 +1,31 @@
 {
-  "previous": "%lQIHGLWcvD8smQyd/hgDqTvkvBXU+e2qiP8KozaDnW4=.sha256",
+  "previous": "%pHL0/S0HH4Xo+8Hkn2vIKRZn/X9UOzs689lipgxdJCk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5372,
-  "timestamp": 1538170169303,
+  "sequence": 5373,
+  "timestamp": 1538175262684,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "books",
-    "vote": {
-      "link": "%PNBIlEygbHVqoZOW9A9BdLNOJbZu1cm/0q+WW6oFreM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Rt6bGNlOKWnvfNVdIPz0Xgnn6pEZneyHv7ira44Tz5I=.sha256",
+    "branch": [
+      "%GVp1Go06iyFZ8dGIw0h6xHc47sS+Uw/b5iPT77UAeeU=.sha256",
+      "%NEapDq0UscB4l8l1M8q29R6h8fZCdB6MSJG/RS7gCnk=.sha256",
+      "%f93ww1PBmayF6eXspvhgBptjMPXMCPqiNSX8JYMUQTg=.sha256"
+    ],
+    "text": "[@DePingus](@soLGEhPqh5UC3xA19ZxVchHjPDqn1Ct5oTTVftEAyFU=.ed25519) \n\nI didn't know [@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) had a blog! \n\n> The gotcha is that if you post from both computers before the changes of one have had a chance to replicate to the second via scuttlebutt one or both of your feeds will get screwed up and you won’t see some of your own posts ever again.\n\nI can't emphasize this enough. Trust me, you don't want to get #marooned.",
+    "mentions": [
+      {
+        "link": "@soLGEhPqh5UC3xA19ZxVchHjPDqn1Ct5oTTVftEAyFU=.ed25519",
+        "name": "DePingus"
+      },
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "#marooned"
+      }
+    ]
   },
-  "signature": "J9zt6tLC404CkWtIhh3ln9C8ysw8uzrOrooGNltsHFjjROv/pRn/x+eE5UzN6qbkc3g/4zvTyujSdkYTuNFDBA==.sig.ed25519"
+  "signature": "SUSmanNhrQb53r+nk/WMjl6AY+CVv/i3JWfIcbfnidIR5e/EvOTd/6cdZe+tDrJaFmLod624uMo3LnRVVjZADQ==.sig.ed25519"
 }
