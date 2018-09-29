@@ -1,21 +1,15 @@
 {
-  "previous": "%mNKcxMrdXMqwSTMF1mP0p9YNTnTlXTRCYpsPSc6PR0c=.sha256",
+  "previous": "%YWE9lmkC2WZPqHkF/fQkIROIkjcZH1clJCMtpkDjhRE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5401,
-  "timestamp": 1538243089540,
+  "sequence": 5402,
+  "timestamp": 1538244645414,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%vVojK87pNKHqLG99n4Sk9qfdju4FV83hUOrcU/x+iZA=.sha256",
-    "branch": "%t6FZ+tt8+WRHo1MMLhPCSKY484ACyVyk5V2e4Mh3q8w=.sha256",
+    "branch": "%STylYWLEabRw537m+jJBIwBQP3tfgLvBjDKscmB4o3Q=.sha256",
     "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)  Nice! Just opened [a pull request](https://github.com/ssbc/ssb-config/pull/19), since I think `sbot server --port 1234` should probably (?) set `config.connections.incoming.net[].port` correctly as well.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "text": "I only noticed it when I ran `console.log(config` and saw `port` was set but that there was some funny business in `connections`. Programming are hard."
   },
-  "signature": "DZ5jwCK04qPXuiv1nKZ6B97bXzhuOnVy67DnpMGxGI7KGATfrl3ifEnXkDfMo0ZcqHvVei1u8cajtlyE8sbdDQ==.sig.ed25519"
+  "signature": "SXjZFTjJ1amhpcE8nuknvKT1hcDUnzd9RVDaNYRvQcYTmGSbWw88XbqVoO+cGNZsSxDXEGgTH9KQ2qoGMoo5Aw==.sig.ed25519"
 }
