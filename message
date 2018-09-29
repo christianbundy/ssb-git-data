@@ -1,16 +1,21 @@
 {
-  "previous": "%xQVO/sw/ah0m2vx6trA0//kjyX9vz7ppM/9Q8aDGasU=.sha256",
+  "previous": "%mNKcxMrdXMqwSTMF1mP0p9YNTnTlXTRCYpsPSc6PR0c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5400,
-  "timestamp": 1538241070606,
+  "sequence": 5401,
+  "timestamp": 1538243089540,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%n07duCQ96iaBV4EA2np4YGonl/uwZo4KYM8Iei+bcSA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%vVojK87pNKHqLG99n4Sk9qfdju4FV83hUOrcU/x+iZA=.sha256",
+    "branch": "%t6FZ+tt8+WRHo1MMLhPCSKY484ACyVyk5V2e4Mh3q8w=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)  Nice! Just opened [a pull request](https://github.com/ssbc/ssb-config/pull/19), since I think `sbot server --port 1234` should probably (?) set `config.connections.incoming.net[].port` correctly as well.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "1aNq93dSsQBtNsqVAC1dOxna5RrP3OP2RYJTNA5DJOOIoG5MFrKEl3sk0lsiApuHcR6AprLtr4K5Z2BTttJOCA==.sig.ed25519"
+  "signature": "DZ5jwCK04qPXuiv1nKZ6B97bXzhuOnVy67DnpMGxGI7KGATfrl3ifEnXkDfMo0ZcqHvVei1u8cajtlyE8sbdDQ==.sig.ed25519"
 }
