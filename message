@@ -1,15 +1,16 @@
 {
-  "previous": "%YWE9lmkC2WZPqHkF/fQkIROIkjcZH1clJCMtpkDjhRE=.sha256",
+  "previous": "%zl01qHwQIXfgjo9sTkiFq+QslQun5c1j496iIsRPkh0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5402,
-  "timestamp": 1538244645414,
+  "sequence": 5403,
+  "timestamp": 1538244692596,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%vVojK87pNKHqLG99n4Sk9qfdju4FV83hUOrcU/x+iZA=.sha256",
-    "branch": "%STylYWLEabRw537m+jJBIwBQP3tfgLvBjDKscmB4o3Q=.sha256",
-    "channel": "scuttlebot",
-    "text": "I only noticed it when I ran `console.log(config` and saw `port` was set but that there was some funny business in `connections`. Programming are hard."
+    "type": "vote",
+    "vote": {
+      "link": "%4RNJMD1wQi0mQwFVstBtXPItvn0vlou22IOqyr9BSPI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "SXjZFTjJ1amhpcE8nuknvKT1hcDUnzd9RVDaNYRvQcYTmGSbWw88XbqVoO+cGNZsSxDXEGgTH9KQ2qoGMoo5Aw==.sig.ed25519"
+  "signature": "gUW+blDmyF9vyU3Gnz4RVFoDb3Qa9Skviu3qAwtdqVER4vquxbB4aqqxayft2gDtvBrt1sX1Dfe6FVDuCv8HDg==.sig.ed25519"
 }
