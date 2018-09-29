@@ -1,15 +1,15 @@
 {
-  "previous": "%IP0gUyVI4CY3wyON+6kEqeuVEZFwvn2h5jFzJ+vcvDw=.sha256",
+  "previous": "%4PAKuI7Uv3YkxszYYns6NXMAW/CG7lAO/YwJ/Ax10VY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5397,
-  "timestamp": 1538239355930,
+  "sequence": 5398,
+  "timestamp": 1538239856732,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%vVojK87pNKHqLG99n4Sk9qfdju4FV83hUOrcU/x+iZA=.sha256",
-    "branch": "%kMYP/IkryziWsXxLUXK87a0OeCpp/G1gA6wYeXLOgqs=.sha256",
+    "branch": "%4PAKuI7Uv3YkxszYYns6NXMAW/CG7lAO/YwJ/Ax10VY=.sha256",
     "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) That's strange, but it looks to me like you're running it correctly. Could you edit `~/.npm-global/lib/node_modules/scuttlebot/bin.js` to add `console.log(config)` [here](https://github.com/ssbc/scuttlebot/blob/2c85a75d01d18ca05ecc169bb70aa59e85ebab0f/bin.js#L25)? That should at least verify that the config is being loaded correctly.",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) You probably already know this, but **warning** don't post the output of that `console.log(config)` without removing at least your private key. Just in case.",
     "mentions": [
       {
         "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
@@ -17,5 +17,5 @@
       }
     ]
   },
-  "signature": "BQ4bjc/w9apj1r6XT2Nn42wipuEacs/PC4JeR1Ft4DgI7c+ZhV1fBle8XM1Jn2yD6g/EhxZWBaveuZ1Cl/JADg==.sig.ed25519"
+  "signature": "Y+FXlgaV1rA4Yd8xiVs/O90f2F9nyzWeUpEZ1WsHUC1mrpZwGE0T5KokHWKFh7noetTApwbAFlPPGDMwEa9OCQ==.sig.ed25519"
 }
