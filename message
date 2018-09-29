@@ -1,17 +1,30 @@
 {
-  "previous": "%ki9wyz6Fg1Oxk/qwnVYVEEMD+9wIW+ABOQGRmsnqJ5g=.sha256",
+  "previous": "%5Svfb7vrag1jimzbd2bOuEAyqo2li7E0dXru+5T3iNo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5395,
-  "timestamp": 1538238488200,
+  "sequence": 5396,
+  "timestamp": 1538239086845,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%nZNscCUM7GZvBbEfjQVA1Rd5Z6iUwJchLBziauO/UWo=.sha256",
+    "branch": [
+      "%WvbABT0nTPyr2yJG+XRu3DeniR4wsQAADYJxKs2UeEQ=.sha256",
+      "%XRVNzzgIUZv1L8tvAC6sNRnBrrlkTapVTm3BVDI/zSs=.sha256"
+    ],
     "channel": "tags",
-    "vote": {
-      "link": "%XRVNzzgIUZv1L8tvAC6sNRnBrrlkTapVTm3BVDI/zSs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519)\n\nMy frustration here is that we already have the semantics for this: branch. For example, your post specifies:\n\n- root: %nZNscCUM7GZvBbEfjQVA1Rd5Z6iUwJchLBziauO/UWo=.sha256\n- branch: %1FaBnJRT1EQg8bKNrLkHdceQ9iWkrrnc0c1GPrC3tXQ=.sha256\n\nUnfortunately this sort of reply just adds another reply to the same thread, which *semantically* is fine, but the current interfaces seems much more optimized for big linear threads rather than fractals of interdependent sub-threads.\n\nPossible solutions:\n\n- setting only a `branch` ID for the post you're replying to\n- setting `root` and `branch` to be the same ID for the post you're replying to\n- insisting that this is a UI/UX issue rather than a database issue 🤷\n\nThis probably needs *way* more research, but I agree that a more elegant solution likely exists.",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      },
+      {
+        "link": "%nZNscCUM7GZvBbEfjQVA1Rd5Z6iUwJchLBziauO/UWo=.sha256"
+      },
+      {
+        "link": "%1FaBnJRT1EQg8bKNrLkHdceQ9iWkrrnc0c1GPrC3tXQ=.sha256"
+      }
+    ]
   },
-  "signature": "hOmfZyae39sjz98CkkyPKVSGJECnKOqSgw9FnAz13sR+8XCaUgmOYrdRTGQyQQ2VUwJcXRtONsQLDRcYoEdlBQ==.sig.ed25519"
+  "signature": "Z33xyWpgY5b78kelbK5rASY5ZKOf9AmgbPyRp3NpTOFzMlWaGXsnCZ7PmXIZfuIAwzQbStmhrMsoW3x1kjYvDg==.sig.ed25519"
 }
