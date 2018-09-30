@@ -1,21 +1,17 @@
 {
-  "previous": "%eY5t43bn6rFdbLwHkUlgb5L+ihQvu+voVvGEVWlicWw=.sha256",
+  "previous": "%L4t8pm8MN2COCJ0+BubXEbr9xwWJib0BlU5PjsoJSPM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5467,
-  "timestamp": 1538332912381,
+  "sequence": 5468,
+  "timestamp": 1538348553569,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%MNR2hwK2qQQ5PdGj6Tek0JyWuEOGTx8Hhaw27U3Dwqw=.sha256",
-    "channel": "linux",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Hell yeah! I saw a bunch of messages like this in `journalctl`:\n\n> libinput error: event6  - Atmel maXTouch Touchpad: kernel bug: Touch jump detected and discarded. See https://wayland.freedesktop.org/libinput/doc/1.12.0/touchpad-jumping-cursor.html for details.\n\nI've opened an issue here: https://bugs.freedesktop.org/show_bug.cgi?id=108104",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      }
-    ]
+    "type": "vote",
+    "channel": "the-local-gossip",
+    "vote": {
+      "link": "%sGm4fHDZ5qDsxO70Ye9tIhNr3LN1KtFzfx502uPx9pY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "W78JEI/bw/8hJE9IYdhiN8XUWGql8CB/c2oj3IVyXo8hscpZEl4P5iuh4F6HB40xB6Bf+ZRpIz9WWR0+ZUHaAg==.sig.ed25519"
+  "signature": "SBf3++ZS4qtJtxfIuocbDcdUlVfBNlfP2I8iTMGalKgkl+4dWrVZMliAlAH1UGNOOguZm2pW2tnENMUdGTU4Aw==.sig.ed25519"
 }
