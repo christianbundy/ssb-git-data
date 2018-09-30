@@ -1,18 +1,21 @@
 {
-  "previous": "%DKy8NFo9PqfVEtwTY95NNWbttF7ip/OP7kW7a/2Zdjk=.sha256",
-  "sequence": 5466,
+  "previous": "%eY5t43bn6rFdbLwHkUlgb5L+ihQvu+voVvGEVWlicWw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538332774916,
+  "sequence": 5467,
+  "timestamp": 1538332912381,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 44,
-    "root": "%ADH7dzQ1qJDBrvDEcnC+++NxeGHQnL6nEhlhiz2Q8xM=.sha256",
-    "orig": "e7",
-    "dest": "b4",
-    "pgnMove": "Qxb4+",
-    "fen": "r7/pppk1p2/8/1P2n1p1/Pq1PB3/3P4/4QP2/RN2K1N1 w Q - 0 23",
-    "branch": "%264Svl/PkUDPvzN237P3oOCUvYSltTq85pck5nUR8ps=.sha256"
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%MNR2hwK2qQQ5PdGj6Tek0JyWuEOGTx8Hhaw27U3Dwqw=.sha256",
+    "channel": "linux",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Hell yeah! I saw a bunch of messages like this in `journalctl`:\n\n> libinput error: event6  - Atmel maXTouch Touchpad: kernel bug: Touch jump detected and discarded. See https://wayland.freedesktop.org/libinput/doc/1.12.0/touchpad-jumping-cursor.html for details.\n\nI've opened an issue here: https://bugs.freedesktop.org/show_bug.cgi?id=108104",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      }
+    ]
   },
-  "signature": "sR8NMQc5se5uM+XG+rPysx4W4W0hqBPeDzjCw2AnqF0zBkxn0/3mYFz+VZFF5+JIpoWxUhBrUd5VRnrKykmYBg==.sig.ed25519"
+  "signature": "W78JEI/bw/8hJE9IYdhiN8XUWGql8CB/c2oj3IVyXo8hscpZEl4P5iuh4F6HB40xB6Bf+ZRpIz9WWR0+ZUHaAg==.sig.ed25519"
 }
