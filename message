@@ -1,18 +1,17 @@
 {
-  "previous": "%2LM4uwpsLH6hBzqS62gc/by8RsB+s+TTvGqyFcm4vIo=.sha256",
-  "sequence": 5452,
+  "previous": "%bkJLJARMuQ82C3VjiSCujQOUWo7IkrJ4MBVJaNxYqHc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538323005211,
+  "sequence": 5453,
+  "timestamp": 1538323036108,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 14,
-    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
-    "orig": "c8",
-    "dest": "f5",
-    "pgnMove": "Bf5",
-    "fen": "rn1qkb1r/pp2p1p1/2p2n2/3p1b1p/3Pp3/5P2/PPP1B1PP/RNBQK1NR w KQkq - 1 8",
-    "branch": "%YG9p3QQMpVRVu9zmtACW7Er/B1srxqwgQvB1uClx0YE=.sha256"
+    "type": "vote",
+    "channel": "the-local-gossip",
+    "vote": {
+      "link": "%1k1CUDnbPGFoY13rqoXBWVo4JqT+cq7zsH2rDWs9EKo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "QWcZJSo05Y0Eh8wEOMw59XI7n/GmVX8b4k22EMfCOnDXKkvknuQRnx5P8sJt7d49v/BnMTMXaMY/vLZ/k64NBg==.sig.ed25519"
+  "signature": "jp+jkS6rCN0N8ZQsXkUFIdEhtIAk+9jNjifXZ+XjvWQ0KZ50mgN7Zs2TXOE2SMqeVH8THbLwC+3Gee3yAjG+BA==.sig.ed25519"
 }
