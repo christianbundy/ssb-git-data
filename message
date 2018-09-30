@@ -1,17 +1,21 @@
 {
-  "previous": "%bkJLJARMuQ82C3VjiSCujQOUWo7IkrJ4MBVJaNxYqHc=.sha256",
+  "previous": "%xRjWaxVYNMwHVmZfIIMrt/bjAQV1k5DiYODl+QRZpAU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5453,
-  "timestamp": 1538323036108,
+  "sequence": 5454,
+  "timestamp": 1538323113551,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%1k1CUDnbPGFoY13rqoXBWVo4JqT+cq7zsH2rDWs9EKo=.sha256",
+    "branch": "%vztkmcCbbZCxEKmmEKTg8WI6HQuvaRVVCEBxNhWCs5I=.sha256",
     "channel": "the-local-gossip",
-    "vote": {
-      "link": "%1k1CUDnbPGFoY13rqoXBWVo4JqT+cq7zsH2rDWs9EKo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Thanks [@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519), you were a great host!\n\nHad a lot of fun before the episode, during the first take, the second take, and after the episode. :heart:",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ]
   },
-  "signature": "jp+jkS6rCN0N8ZQsXkUFIdEhtIAk+9jNjifXZ+XjvWQ0KZ50mgN7Zs2TXOE2SMqeVH8THbLwC+3Gee3yAjG+BA==.sig.ed25519"
+  "signature": "yNFfBe+dl1UsHlxwbF+tYbuCGdxa/NRgK8rOKun1wuJrZggVXVl+dfwU4GpJtKrz7/u8bX18IwPCaoj9tVz9Cg==.sig.ed25519"
 }
