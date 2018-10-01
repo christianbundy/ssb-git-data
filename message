@@ -1,20 +1,17 @@
 {
-  "previous": "%ldFayCghi4vCK2Bd1aiPO7GZWzGt9AyLO2NrzqXQWYc=.sha256",
+  "previous": "%/SPulyuRohzenFezRDQx9ZnNWG381D3ylLfknLAxCg4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5485,
-  "timestamp": 1538407380322,
+  "sequence": 5486,
+  "timestamp": 1538407421292,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
-    "branch": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
-    "text": "Hi [@Debjit](@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519)!\n\nI think the only way to do this would be to use a private message group for your private data, otherwise your data *would* be replicated to others who follow you. Another alternative would be to use a network key: this would isolate all of your feeds from the main Scuttlebutt network and keep your data isolated (like the Bitcoin test network(s)), but you wouldn't be able to follow or interact with folks on the main SSB network. Unfortunately I think those are the options:\n\n- keep all private data in private messages\n- keep all private data in an alternative isolated network",
-    "mentions": [
-      {
-        "link": "@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519",
-        "name": "Debjit"
-      }
-    ]
+    "type": "vote",
+    "channel": "mobile-ssb-quests",
+    "vote": {
+      "link": "%4lC1qrLxEG97ql7PHHw+AovVrQDFgkojHVRdzqiVjq8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "thQsrS+w+2LqMYFj/K66eNAp69NX6Lz6dW13KcbQ/Y2JiE+wsCCwdMWiF8/HkCPa2Ombo2o3OEv5TGZQrpMvBA==.sig.ed25519"
+  "signature": "+cggsf9LFqrnpF1CSJAhOXqaLXrEH1jexZtbaG1k8wezbB+IJNP1XOfv72Qe2TP6EXI83F1CBrX5ojkazxemBw==.sig.ed25519"
 }
