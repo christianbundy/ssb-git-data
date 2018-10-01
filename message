@@ -1,17 +1,25 @@
 {
-  "previous": "%U/20+1uee/t9O23bftWOI/3jiACD3fi5Ka4OLrkpEMY=.sha256",
+  "previous": "%af6NOcLQP+VhhAFHTdgKPwh8OWVGbHMNl4bI8Vr/YPU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5493,
-  "timestamp": 1538408777989,
+  "sequence": 5494,
+  "timestamp": 1538409162782,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-credit",
-    "vote": {
-      "link": "%efOU0DgCkbeOW8fiKhYzn91p/wbcyPhN6ymrRXZZE9M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "I'm trying to debug a silly issue with [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) and I'm having some trouble. When I post immediately, everything works fine. When I say \"wait 24 hours and post a new message\", I always get:\n\n```\nError: stream is closed\n    at /home/pi/Source/ssb-current-events/node_modules/muxrpc/index.js:45:25\n    at remoteCall (/home/pi/Source/ssb-current-events/node_modules/muxrpc/api.js:40:19)\n    at EventEmitter.obj.(anonymous function) [as getLatest] (/home/pi/Source/ssb-current-events/node_modules/muxrpc/api.js:25:18)\n    at /home/pi/Source/ssb-current-events/node_modules/ssb-feed/index.js:29:11\n    at next (/home/pi/Source/ssb-current-events/node_modules/ssb-feed/queue.js:11:7)\n    at start (/home/pi/Source/ssb-current-events/node_modules/ssb-feed/queue.js:18:7)\n    at /home/pi/Source/ssb-current-events/node_modules/ssb-feed/queue.js:23:5\n    at Object.<anonymous> (/home/pi/Source/ssb-current-events/node_modules/ssb-feed/index.js:57:7)\n    at Object.<anonymous> (/home/pi/Source/ssb-current-events/node_modules/continuable/to.js:12:28)\n    at getSbot.then (/home/pi/Source/ssb-current-events/lib/publish.js:26:11)\n```\n\nMy publishing code is [here](https://gitlab.com/christianbundy/ssb-current-events/blob/master/lib/publish.js). I tried moving `require('ssb-client')` into `getSbot()` but it doesn't seem to resolve the issue. Anyone have any ideas on what the issue might be?\n\ncc: #help #ssb-help",
+    "channel": "ssb-client",
+    "mentions": [
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      },
+      {
+        "link": "#help"
+      },
+      {
+        "link": "#ssb-help"
+      }
+    ]
   },
-  "signature": "1amg/sz8yUE13Ht6w6p4PqZ+XQ8cmmImR+D+hdNc1JCGO1IraoAPFZGqJJ5y2G7HF+OXB+vHP4XGGkrADjh2Cg==.sig.ed25519"
+  "signature": "AmGyK/FJosljPNLvi61w8p//WE3pdpEqwDfv0A329SnH0kcWiRRcl7sNVVXpdSpigq1tDEJoM1Bnv5HWWIIdCw==.sig.ed25519"
 }
