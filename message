@@ -1,23 +1,18 @@
 {
-  "previous": "%wiI1S5/uSQ19d2ObG1yipA4NeswqCXKbJC3LYJI1Yvk=.sha256",
+  "previous": "%sA89Yz+dobxCxYpPrk5ywIFt7PvxC48Dy5DIDCjDD0w=.sha256",
+  "sequence": 5511,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5510,
-  "timestamp": 1538424989712,
+  "timestamp": 1538425078086,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
-    "branch": [
-      "%QX4c3XXC+h4y0SaimrZQ7znksa789vDwJ8owrClxbX8=.sha256",
-      "%aCOYPw8oXCTJBKtsRfzguDjZjWITt+JqM8Mh6K61tFc=.sha256"
-    ],
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) That's my understanding, but they wouldn't be able to interact with the main net that way:\n\n> even if some of us decide to follow other people outside the network or join an external pub",
-    "mentions": [
-      {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 22,
+    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
+    "orig": "e7",
+    "dest": "e6",
+    "pgnMove": "e6",
+    "fen": "r2qkb1r/pp4p1/n1p1pn2/3p4/1P1Pp1b1/2P5/P3B2P/RNBQK1NR w KQkq - 0 12",
+    "branch": "%WRwRnRQz4ROdYtuJwdWaz8T43c7YOgG86aWq1utBZ0A=.sha256"
   },
-  "signature": "U3gr7ireG9CZwZ2j4vFTkfItYcdwI/uRqnS0/McUcqpQHZ2ggNTRFcpwQCHCcJlNaG32e35zJAF2Q4M4wHwoCQ==.sig.ed25519"
+  "signature": "GMz7khPEsRDVl8nN7ZWIMvxOFqeGmJ5GyMwGGdf3N0hxXQSgbPC9T9P2OS8zhAsCoftD1CmODePB7RsTWsOKDQ==.sig.ed25519"
 }
