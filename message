@@ -1,18 +1,20 @@
 {
-  "previous": "%xSN3sSFSM/iuEIxVzIblB5Ag9zklFT+97cnw1HWUrdk=.sha256",
-  "sequence": 5484,
+  "previous": "%ldFayCghi4vCK2Bd1aiPO7GZWzGt9AyLO2NrzqXQWYc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538406718260,
+  "sequence": 5485,
+  "timestamp": 1538407380322,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 30,
-    "root": "%uwQIBYdtth3LEKH9v2MJTXPC05ZB71YN4L8cqg5NRAc=.sha256",
-    "orig": "e7",
-    "dest": "f5",
-    "pgnMove": "Nf5",
-    "fen": "2r2b2/p1p2k2/1p5p/4Pn1N/8/8/PPP2PPP/RN3RK1 w - - 1 16",
-    "branch": "%4GHbsTNBCv9wA0kDbtESE53Lfxu+DTbYxM5NhrMFstE=.sha256"
+    "type": "post",
+    "root": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
+    "branch": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
+    "text": "Hi [@Debjit](@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519)!\n\nI think the only way to do this would be to use a private message group for your private data, otherwise your data *would* be replicated to others who follow you. Another alternative would be to use a network key: this would isolate all of your feeds from the main Scuttlebutt network and keep your data isolated (like the Bitcoin test network(s)), but you wouldn't be able to follow or interact with folks on the main SSB network. Unfortunately I think those are the options:\n\n- keep all private data in private messages\n- keep all private data in an alternative isolated network",
+    "mentions": [
+      {
+        "link": "@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519",
+        "name": "Debjit"
+      }
+    ]
   },
-  "signature": "a9jSrn+byWVepnA+Zerd5VCgvoC8+23EXcmm66UEiSoqBT/rIJY+Vua5i7Xmx0VrfiWSj295hW+/uQTBFhcbCg==.sig.ed25519"
+  "signature": "thQsrS+w+2LqMYFj/K66eNAp69NX6Lz6dW13KcbQ/Y2JiE+wsCCwdMWiF8/HkCPa2Ombo2o3OEv5TGZQrpMvBA==.sig.ed25519"
 }
