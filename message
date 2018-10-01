@@ -1,28 +1,23 @@
 {
-  "previous": "%MIIU6FQXY26sMvOKNiOrxNkM/x6cWa+HA4LmNw2R8xA=.sha256",
+  "previous": "%wiI1S5/uSQ19d2ObG1yipA4NeswqCXKbJC3LYJI1Yvk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5509,
-  "timestamp": 1538424873982,
+  "sequence": 5510,
+  "timestamp": 1538424989712,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%AHDbtOqMVXR2jDKHBa9iUVpH2jS4mqiXfUR8LXqqhKA=.sha256",
+    "root": "%sbfNpvqK4I1mzsWQLjUylFp0Mn8riUg3jVrsQJrvaOQ=.sha256",
     "branch": [
-      "%7z9yaV6PcwWlKgBw9jgp8pyryWRd2DxfFZQ/fyV40QQ=.sha256",
-      "%BU8ZpMAQxQKdizxy+u2oR6oKewMnRsGkkO4eyZwiP9o=.sha256"
+      "%QX4c3XXC+h4y0SaimrZQ7znksa789vDwJ8owrClxbX8=.sha256",
+      "%aCOYPw8oXCTJBKtsRfzguDjZjWITt+JqM8Mh6K61tFc=.sha256"
     ],
-    "channel": "javascript",
-    "text": "[@Debjit](@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519) \n\nI'm not sure, I think I'll need to keep the same interface for `chain`, since it needs to accept `(value, callback)`, and I *think* that run-waterfall might actually solve it. I appreciate your help!\n\n[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nI didn't know those were called continuables! I think callback-only functions are super useful, I think I even used them in my flume PR to handle `db.get()`. Sweet! I'll admit that some/many/most of the things in Fluture seem a bit over my head, are there any prerequisite resources you could recommend? Or, if \"just read the damn thing\" is the right course of action I'm happy to do that -- I might just be spoiled by the rest of the skimmable web.\n\nI love that I know those are called continuables though, I always want to call them \"curry callbacks\" but since it's not actually currying I'm hesitant to call it that. It looks like the run-waterfall function has a *slightly* different API (e.g. flume map functions accept `(value, callback)` but `callback` accepts `(error, value)`), but it looks like we're doing almost exactly the same thing. Thanks for linking that resource, it was helpful to see that someone else came up with a very similar solution.",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) That's my understanding, but they wouldn't be able to interact with the main net that way:\n\n> even if some of us decide to follow other people outside the network or join an external pub",
     "mentions": [
       {
-        "link": "@G3Zg62f6ZiQtjm+dBIbJtuy2IYFdmx392usFlfXg/qA=.ed25519",
-        "name": "Debjit"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
       }
     ]
   },
-  "signature": "3Ul+IXa3vENbayy9vKnSyTl7Pgo9e9eKuboDKM3T0cJ1nH/fkWSB9v9ygjR4hZViA3i5h0YQfcTzvWCfQzBgAg==.sig.ed25519"
+  "signature": "U3gr7ireG9CZwZ2j4vFTkfItYcdwI/uRqnS0/McUcqpQHZ2ggNTRFcpwQCHCcJlNaG32e35zJAF2Q4M4wHwoCQ==.sig.ed25519"
 }
