@@ -1,25 +1,18 @@
 {
-  "previous": "%vBWV/Da8Udi6HAgov4ahTg9riWc8xZyaLh6W+Yqdhps=.sha256",
+  "previous": "%o3Xo6XDVM8MNVk7MFADOxxU/DiNWjGkPoNZLudiQDWk=.sha256",
+  "sequence": 5497,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5496,
-  "timestamp": 1538418005580,
+  "timestamp": 1538418069614,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
-    "branch": "%0fRk7VpB1Qv/HChQzSEUjyKZycyI1NHk6mFaIunLErw=.sha256",
-    "channel": "ssbc",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) Thanks for the +1, I hope we can find a solution that works for everyone!\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Completely agree. I'm not at all interested in MS GitHub, but I think migrating to the village issue tracker will be a much smoother process without this issue/PR baggage. :star2: \n\nI'll throw out some system \"rules\" to start with, maybe we could identify the pain points and iterate until we find something that works? Here's the short version: issues and pull requests should be closed if they're abandoned, stale, or off-topic for GitHub.\n\nFor extra clarity, here's a more-terse-than-usual way of putting it:\n\n- **Tickets:** Issues and pull requests represent single well-defined tasks that may be completed.\n  - A ticket should remain open as long as an advocate is actively working on the ticket.\n    - If the ticket is an issue, an avocate is someone who can help debug or discuss the enhancement.\n    - If the ticket is a pull request, and advocate is someone with push access to the head branch.\n    - A ticket without an active advocate should be closed as *abandoned*.\n  - A ticket without any activity for a sustained period of time should be closed as *stale*.\n- **Discussion:** Discussion without a single well-defined task is a better fit for SSB.\n  - The ticket should be closed as *invalid*.\n  - If the ticket is *stale* it may be closed without any further information.\n  - Otherwise, whoever closes the issue should recommend an SSB channel for the discussion (e.g. (#)scuttlebot or (#)ssb-client)\n\nThe only variables here are:\n\n- How long should a ticket be left open until it's closed as *abandoned*?\n  - My proposal is to close tickets as *abandoned* after **1 month** with no advocate activity.\n  - If we ask \"can you run `sbot whoami`?\" and nobody with the bug responds, it should be closed as *abandoned*.\n- How long should a ticket be left open until it's closed as *stale*?\n  - My proposal is to close tickets as *stale* after **6 months** with no activity.\n  - Instead of replying to our 2016 issues with \"hey can you still repro this?\" they should just be close as *stale*.\n\nI'm sure there will be a few iterations of this, and my hope is that [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham's_Law) comes out in full force, and I'm excited to hear the pain points and correct my assumptions about how this should work best.\n\nPS: Is there a better word here for \"advocate\"? I've also heard \"backer\", \"champion\", and \"proponent\" used in this context.",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 12,
+    "root": "%TIQv3Snam3NxoC7OEAq17dHz3X+jZL9IaY2+nA42xTM=.sha256",
+    "orig": "f7",
+    "dest": "f6",
+    "pgnMove": "f6",
+    "fen": "r1bqkbnr/p5pp/n1pp1p2/1p2p3/2PP4/1B2P3/PP3PPP/RNBQK1NR w KQkq - 0 7",
+    "branch": "%0Ba8Faq6gZ25EyD8IiEF4noi4BucS4Wz2uCFbb0Ue+E=.sha256"
   },
-  "signature": "frfFWY1PsSBQRQETgw6MRGNcnSGc7fnlwqDjHwatVvezy60j5MBvVhIboOd8IeHdhT2gkntgYP2WkmrgBJFaAg==.sig.ed25519"
+  "signature": "xLfZZSnaDOxqKXOmMqozQLsIGYtIo+zU8G91GL7gcsi1/OPQcnkP8YnA75KH5z0G68risoue6J970nKcSYqSCw==.sig.ed25519"
 }
