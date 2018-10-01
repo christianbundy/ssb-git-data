@@ -1,15 +1,17 @@
 {
-  "previous": "%YfQxFWGDPPAG/RP8NhvqnbgTNWepXA7adTd2RGlP4KE=.sha256",
+  "previous": "%Y50G7f/ggaQjp0dt4mZRrxPoc+VGDsnAipyyOuxtGHg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5520,
-  "timestamp": 1538428268227,
+  "sequence": 5521,
+  "timestamp": 1538428269444,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AHDbtOqMVXR2jDKHBa9iUVpH2jS4mqiXfUR8LXqqhKA=.sha256",
-    "branch": "%XhXpvDj7hHjWlC8dMj/z28TKDcxuHkK/VPtnJbEOWRE=.sha256",
+    "type": "vote",
     "channel": "javascript",
-    "text": "This is beautiful, thank you.\n\n```js\n(value, done) => waterfall([ cb => cb(null, value), ...functions ], done)\n```\n\nI wish *all* my code could be so small and modular. 🧩"
+    "vote": {
+      "link": "%XhXpvDj7hHjWlC8dMj/z28TKDcxuHkK/VPtnJbEOWRE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "I7Ys0ZrXacDs8fPpLxRI8RI72FxBfArNC8oatGh+7N5mdgrLQKpoXMoMu5dnmmHmtv+41qj9P6Gy9xfTQfjzBg==.sig.ed25519"
+  "signature": "c373kQZz+flUmOHoPRWTeTy7BCmGBEXL/8xe7aNwzboDDPyWCFks/8VFPKFj2L5n2pByYYOA7cn5HrFO7Hp9Bg==.sig.ed25519"
 }
