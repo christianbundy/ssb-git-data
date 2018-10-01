@@ -1,13 +1,17 @@
 {
-  "previous": "%MSA5FbT3qVB82ZU0FbS5NZV47VH6QQbQLB1mvxKHqfI=.sha256",
+  "previous": "%AHDbtOqMVXR2jDKHBa9iUVpH2jS4mqiXfUR8LXqqhKA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5500,
-  "timestamp": 1538419357122,
+  "sequence": 5501,
+  "timestamp": 1538419372690,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Chaining Callback Functions in JavaScript\n\nThis seems like a super simple pattern, but I'm having a difficult time coming up with a solution I like. I have:\n\n- An array of functions that accepts `(value, callback)`\n  - `value` is some arbitrary value (e.g. `42`)\n  - `callback` is a function that accepts `(error, value)`\n- Each function may operate on `value`\n- The `value` must be passed from one function to the next, in order.\n- Callbacks only, no `Promise`s.\n\n```js\nconst functions = []\nconst chain = (value, final) => {\n  let index = -1 // haven't entered the chain yet\n  const next = (error, value) => {\n    index += 1\n    if (error || index === functions.length) {\n      final(error, value)\n    } else {\n      functions[index](value, next)\n    }\n  }\n  next(null, value)\n}\n\nchain(42, console.log) // => null 42\n\n// divide by two...\nfunctions.push((value, callback) => {\n  callback(null, value / 2)\n})\n\n// ...then add seven\nfunctions.push((value, callback) => {\n  callback(null, value + 7)\n})\n\nchain(42, console.log) // => null 28\n```\n\nIs there a massively simpler way to do this?\n\nBacklink: https://github.com/ssbc/secure-scuttlebutt/pull/222",
-    "channel": "javascript"
+    "type": "vote",
+    "channel": "solarpunk",
+    "vote": {
+      "link": "%JX8VngqOh3IxskgHt/s8UzGAVKj6LaIgpCS23NgE6CI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "t9vNj8kH1QRoDQGQHWVhekZfUkvsh43GQ2zcHEPti6nwVQL6gy6KOGNN9v56uiNDJ2MZST6kkSHcgUT1TqiCAg==.sig.ed25519"
+  "signature": "qZLvFud1aVRq8kdZq+ioagtUGaoWG20YwSQ/HjXTnFezgOxMusl1/onGuDFjLsGlcHKnDx8JhqPfFQOOR7RVBg==.sig.ed25519"
 }
