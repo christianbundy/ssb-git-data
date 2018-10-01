@@ -1,21 +1,25 @@
 {
-  "previous": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
+  "previous": "%vBWV/Da8Udi6HAgov4ahTg9riWc8xZyaLh6W+Yqdhps=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5495,
-  "timestamp": 1538409330753,
+  "sequence": 5496,
+  "timestamp": 1538418005580,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%LUopfpHtx8AzI/kWZy2B6z/Bu/X3uxjn92UBzWqQ7pA=.sha256",
-    "branch": "%ILz9O09aiPBvY4y8o0N/QJQGlnJdDaLBwPVkewtd6+E=.sha256",
-    "channel": "ssb-chess",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) I've had a lot of luck with this recently. My rule is that I'll *always* do the oldest move first, that way I don't end up playing a game with someone while someone else is waiting. If I'm feeling overwhelmed, it's likely more appropriate to get the hell off my computer than it is to play a move on someone else's game. I've been doing this for a week or so and it's been good, but I'll update you if/when/how that changes.",
+    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+    "branch": "%0fRk7VpB1Qv/HChQzSEUjyKZycyI1NHk6mFaIunLErw=.sha256",
+    "channel": "ssbc",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) Thanks for the +1, I hope we can find a solution that works for everyone!\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Completely agree. I'm not at all interested in MS GitHub, but I think migrating to the village issue tracker will be a much smoother process without this issue/PR baggage. :star2: \n\nI'll throw out some system \"rules\" to start with, maybe we could identify the pain points and iterate until we find something that works? Here's the short version: issues and pull requests should be closed if they're abandoned, stale, or off-topic for GitHub.\n\nFor extra clarity, here's a more-terse-than-usual way of putting it:\n\n- **Tickets:** Issues and pull requests represent single well-defined tasks that may be completed.\n  - A ticket should remain open as long as an advocate is actively working on the ticket.\n    - If the ticket is an issue, an avocate is someone who can help debug or discuss the enhancement.\n    - If the ticket is a pull request, and advocate is someone with push access to the head branch.\n    - A ticket without an active advocate should be closed as *abandoned*.\n  - A ticket without any activity for a sustained period of time should be closed as *stale*.\n- **Discussion:** Discussion without a single well-defined task is a better fit for SSB.\n  - The ticket should be closed as *invalid*.\n  - If the ticket is *stale* it may be closed without any further information.\n  - Otherwise, whoever closes the issue should recommend an SSB channel for the discussion (e.g. (#)scuttlebot or (#)ssb-client)\n\nThe only variables here are:\n\n- How long should a ticket be left open until it's closed as *abandoned*?\n  - My proposal is to close tickets as *abandoned* after **1 month** with no advocate activity.\n  - If we ask \"can you run `sbot whoami`?\" and nobody with the bug responds, it should be closed as *abandoned*.\n- How long should a ticket be left open until it's closed as *stale*?\n  - My proposal is to close tickets as *stale* after **6 months** with no activity.\n  - Instead of replying to our 2016 issues with \"hey can you still repro this?\" they should just be close as *stale*.\n\nI'm sure there will be a few iterations of this, and my hope is that [Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham's_Law) comes out in full force, and I'm excited to hear the pain points and correct my assumptions about how this should work best.\n\nPS: Is there a better word here for \"advocate\"? I've also heard \"backer\", \"champion\", and \"proponent\" used in this context.",
     "mentions": [
       {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
       }
     ]
   },
-  "signature": "Eb2tgwgnfoH8N4VZJeWVfunPp4u8k4sNqf7ZeUzzW2C8XByMNlFl9e4BEJQQQp5icIz6b13K66v8nSK4BkfWCA==.sig.ed25519"
+  "signature": "frfFWY1PsSBQRQETgw6MRGNcnSGc7fnlwqDjHwatVvezy60j5MBvVhIboOd8IeHdhT2gkntgYP2WkmrgBJFaAg==.sig.ed25519"
 }
