@@ -1,20 +1,18 @@
 {
-  "previous": "%KJnU892Kspb91yJfg2WHTI6xtzmya01HJ4yCBLLsGEU=.sha256",
+  "previous": "%relaMwJMbhOeqhUIzTApcKF/db9p56BSYlA3uaiABds=.sha256",
+  "sequence": 5539,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5538,
-  "timestamp": 1538491286475,
+  "timestamp": 1538491471892,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%kRE6l5/XlP8C8vF9MJDGHollYLdX7yz9Zs0EpUqwXAY=.sha256",
-    "branch": "%prqMnIs89bDoA/RpBysr7OdmBiZwiAAIpt2t6oxb31U=.sha256",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Yeah, I wonder whether those two should be added to the client. I ran `optipng` in `~/.ssb/blobs` and it reduced the size of almost every file. Unfortunately this is bad for replication, since it changes their sha256 hash.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 24,
+    "root": "%rpCurzEzlXElgzg0gdYz/s6qj8JsTetAs5EViP2se7o=.sha256",
+    "orig": "e8",
+    "dest": "d8",
+    "pgnMove": "Kd8",
+    "fen": "r2k1bnr/ppNbq2p/3p4/2pP1pp1/Q3P3/8/PPP2PPP/R1B1KB1R w KQ - 4 13",
+    "branch": "%+EtchLJ1tVh/G/CyWcC5QnKDyX6RTAwUhltKf5iAMYc=.sha256"
   },
-  "signature": "G+3753S0CZ5IM4ICZloNS5/jz8QJGIVkZGsC0Y/qWv5sG0GuLlITPZ1k4sRi1/Jn38DwqIMeJ9ZdYrRo21sCAg==.sig.ed25519"
+  "signature": "yF0azRsRQkLSCt8SrOCURYwUg/f8jWZvtWCuUSJZXAfY6EtvJP8qZgX7MT1xSYXu4i6A3pVPppbZ7VeoaXVhCQ==.sig.ed25519"
 }
