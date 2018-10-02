@@ -1,9 +1,27 @@
 {
-  "previous": "%SWk+L5xaPG84UFAH4FAU7TfhbeVlE8M7GtsCCjHrfdw=.sha256",
-  "sequence": 5561,
+  "previous": "%hXPgX7vue6ygyeXfFpeGZa644X5SDFyffNo+c5tVhLs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538519170074,
+  "sequence": 5562,
+  "timestamp": 1538519447054,
   "hash": "sha256",
-  "content": "p4SUyYi0xqUZ75EUNBI7lFPz24u8oBym/xXDcQywIunnhCk5Pq37iMG7GOhv+dTaUtzSma2XCk8OERfoGhCOgsbkrlpveLufc2+DGAUWQE9BopfRDmBgZcRwutEoMQswJEPt+pcl3VYirPIFObJ77myKsCtfWjq11uukZGcdd6EJbo2xF+Nx61BHzo9TFWcQOP0/leYAKTDZDBKA8cjojLMfIHyz2GVDrUQfahGYgEtB7qkZFazZ1XnsKtUnHiGXXEFJ+E6AOX1qwDBPm6ZQqz5UvksBUHhDR9OAMOuOJjd4FKi9Clsm20RjDOYLIsRgRQ/tKq7p+VtMnPgC6uD/Nyxb2S+qefyHMjCFWw==.box",
-  "signature": "LYA5BNrO6UB5gnNDturZVkPbmk/V4c5xhnDDHhKsfo4daZxTIPt4cRfYn0A29+IDXpcZadu3tIOLqcwDWY9+Dg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%F2OvYVPPCJAFjD2Sq0S73MHWoyVnr1v3u9P/fqZmEPQ=.sha256",
+    "branch": "%F2OvYVPPCJAFjD2Sq0S73MHWoyVnr1v3u9P/fqZmEPQ=.sha256",
+    "text": "[@neale](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519) Patchwork is probably your best bet here. There's no \"related channels\" feature (yet, though #somebody-should), but if you hit *More* at the top left you can browse all the channels, and if you're on the [latest version](%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256) there's a new tagging feature that might give you a better view of the network.\n\nI suppose when someone tags a post with two tags those are technically \"related\", but tag usage is still pretty low-volume. When I joined I just went to the channel browser in Patchwork and subscribed to a ton of channels. I *think* you could also go to someone's profile and see what they're subscribed to, but you know my memory is atrocious. :boom: ",
+    "mentions": [
+      {
+        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
+        "name": "neale"
+      },
+      {
+        "link": "#somebody-should"
+      },
+      {
+        "link": "%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256",
+        "name": "latest version"
+      }
+    ]
+  },
+  "signature": "UKzNliHpN2XJqnsOidPE5aMtW8VOPep9azGTMj8NiiP6T/21qRWdN+EIdS9Zxkgkx1a/oQutriOERlK7nnnVAQ==.sig.ed25519"
 }
