@@ -1,17 +1,22 @@
 {
-  "previous": "%uKJBkMUbZINHoRY3JrGc2dVMB/El1PD8v52ROFoBgsQ=.sha256",
+  "previous": "%jFPQ3HrSWBzE9rkL6BMzuUmD3jsVBhQKugkW/yAqJIk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5564,
-  "timestamp": 1538519737508,
+  "sequence": 5565,
+  "timestamp": 1538519976964,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "inktober2018",
-    "vote": {
-      "link": "%rBBvbaijuLIf+N0aCEg3HK8BV3xKQAZ1ggCfGR+do/o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%F2OvYVPPCJAFjD2Sq0S73MHWoyVnr1v3u9P/fqZmEPQ=.sha256",
+    "branch": "%5hqkTv2Oy2Zz/Jm4WBqnMxoulLrPzvkf6Cdm81fuYyY=.sha256",
+    "text": "s/ #somebody-should / #somebodyshould / ",
+    "mentions": [
+      {
+        "link": "#somebody-should"
+      },
+      {
+        "link": "#somebodyshould"
+      }
+    ]
   },
-  "signature": "btmAzL2Uz7uu5k4swdEMmaA6vu/xj4HnUYTAbfUP/Q3gZ6LRt0u+amaaSLwlsi5aMOsmDVE7k83Zu2rCgq21DQ==.sig.ed25519"
+  "signature": "ajW9VOqYmhYtP+JXu1O+90AcW/KnKMtBx1VkAS7VGhWAUjXpG0YGPlg92kpSBT5LBUlkLghgNGaNDVuNUS+jBw==.sig.ed25519"
 }
