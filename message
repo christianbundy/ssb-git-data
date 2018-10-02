@@ -1,20 +1,21 @@
 {
-  "previous": "%hbjICQ+fAQ0MvXTIbc4FIzFCK405GC4BbtoRfQVQY7g=.sha256",
+  "previous": "%4MkL0k5d0qudHDV7mPxyUfM9Y9bY73rGxk9iZ4Ct2mc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5549,
-  "timestamp": 1538516502527,
+  "sequence": 5550,
+  "timestamp": 1538518372003,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bCW2iX7NfCV1bmXq1c2W5rGty7FyBvde2s9iImdlnKI=.sha256",
-    "branch": "%SjqFqLHaXjL9iy3SlPY5VfRZPdeQg53BsB0Vts4H9uo=.sha256",
-    "text": "[@happy0](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) Can you try bumping private-box? If you download the latest you can find that method in `node_moduels/private-box/index.js`, but it doesn't look like that code has made it to the Git repo (which adds to the confusion). I might just recommend a full `npm update` if you're feeling up to it.",
+    "root": "%tswCRP7ED0EyxXvJGc0tOPlBi4OtcPTtme3Cn9YUSsA=.sha256",
+    "branch": "%wks6melScEjNB6hqmbDU67hnPR4q6L7QdrInvIFYMkw=.sha256",
+    "channel": "markdown",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) In case you're still interested, I'm working on an [SSB Markdown parser](https://github.com/ssbc/ssb-markdown/pull/24) and it'll be trivial to add abbreviations and definition list syntax:\n\n- https://github.com/markdown-it/markdown-it-abbr\n- https://github.com/markdown-it/markdown-it-deflist",
     "mentions": [
       {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy0"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ]
   },
-  "signature": "GHjrKmBsurrrPZDsjCrt2Sr8UuGNb+gdHc4gKD7AnpuEjYloxCZTX5E6/ujdFbRr8RXJxgq83mf+WJ6mh9WtDQ==.sig.ed25519"
+  "signature": "rpkq2Kb1SoudSoY1dhCguRzKtKANCwrTFXlexkTTuK7ArLesKKfCi1129IGYLlhHO8ql2ZMz8B7ur5HO1kxgBw==.sig.ed25519"
 }
