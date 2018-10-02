@@ -1,9 +1,27 @@
 {
-  "previous": "%q41qOXGCJKp/pFKqvbnxzatrNtNM7guMV85UZxnVb4g=.sha256",
-  "sequence": 5580,
+  "previous": "%Srw1xf16laKK5K3/Bt0QAen9CC7/9jkP6CcyiQJlumg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538520776101,
+  "sequence": 5581,
+  "timestamp": 1538521416347,
   "hash": "sha256",
-  "content": "9D9aDS6NMJ3QyV5srbYrKstpxcXyRO7VBBdvmGPmGXGR3Q55TLH+yFHZlv76FiNrL3oDww34uH6zotNcWIlP2oZAVMu8tA7eqqZsGHpv52MUrEC+UJiWleFyx4YZv/a6kNsmy6Gyr+barSsokQ1TVkorS0yoVK/wKpLVPrBrBW1ge3+120PDAkBw8kSRg4B74SVA99AqBpgvD5XjvwkkLmzfpzY3xUiP0yyoW3bSe+Tznq5JZd4/IHRaqcPgwQNDv27dnj1WFcwcTirbpf7JUJgflsfbbxhAJIx3YoVTl+PNyseJDY9PrDFJS37erefmqtlOrZEra4WVAAviGJSi0yFZYoTMZW8TlfLABvm8DH1XYauitin1xIifpdVKctgY9KU=.box",
-  "signature": "1qjcGCIQKVmPZ7Tw+JFFZjaHeWwL6U7VF0ydCPjC9CogU317XQDNQFJA/wLllTlcCA2FDqfW73YMtrnW0/GqAA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "I mentioned that I was working on a Solarized theme a while ago, and after accidentally deleting it (!) I got to start over again. This time I'm working on implementing [base16](https://github.com/chriskempson/base16), so it should be *super simple* to switch theme colors without any pain. I've still got quite a bit left to do, but here's what it looks like now:\n\n![base16 solarized light theme for patchbay](&UNIWQDOMqxF996ESeiKLUuh36FyIdfq9M6qyo1iiYHs=.sha256)\n\n![base16 solarized dark theme for patchbay](&aLXtjJKL76D6iUgZ5VwLR4m2cz2b1SmCbOgIPSgZRp0=.sha256)\n\nThe sweet thing is that I can switch between these with only a few variable changes, which should make future iterations super simple. It's also really easy on the eyes, so I've got that going for me which is nice.",
+    "channel": "patchbay",
+    "mentions": [
+      {
+        "link": "&UNIWQDOMqxF996ESeiKLUuh36FyIdfq9M6qyo1iiYHs=.sha256",
+        "name": "base16 solarized light theme for patchbay",
+        "type": "image/png",
+        "size": 521451
+      },
+      {
+        "link": "&aLXtjJKL76D6iUgZ5VwLR4m2cz2b1SmCbOgIPSgZRp0=.sha256",
+        "name": "base16 solarized dark theme for patchbay",
+        "type": "image/png",
+        "size": 500169
+      }
+    ]
+  },
+  "signature": "2F7k4utJdG5+NlVmQmshoXMMgylU1OMQvAvjbP0nTe6vaXHb1ZNl2tnpidAtRHLLT5hOghto+hHIc88nV9KEDw==.sig.ed25519"
 }
