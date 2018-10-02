@@ -1,9 +1,20 @@
 {
-  "previous": "%ooqxtr1IK8qWalAnYTDnpmYRh6aN/u5bzNyAi9iGM4c=.sha256",
+  "previous": "%hbjICQ+fAQ0MvXTIbc4FIzFCK405GC4BbtoRfQVQY7g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5548,
-  "timestamp": 1538510129169,
+  "sequence": 5549,
+  "timestamp": 1538516502527,
   "hash": "sha256",
-  "content": "lHgsnhoo1otI4Fz1/EJwnqPObaLG57NT1Gltq3cuqSxXm/pQRZMH3LlpqaPsxmsqdq6VWFP8PkP/zfSgUMvulDMQA2xsDQRVhtbh0Im7owE+v5kOFubZ9rQ+4poVXzWOGPoxVqmqnaNOnU0SueIvc/1xNmPqHWyKGBHl52oKDOOgf5V+2uANiE2RCnWpiU+6IJ2Tab4HaGpSIBeSC9iqOsjx/aLgL69nbekPTH8HRWfxcBN1Q0VVGukbKeNypnE0nQGLI4BSODjtBmnfmhh/xiJ/fEVCLVBJo2Uwa0XnpwhAqQ4=.box",
-  "signature": "bHQQgR6bO0r8T0VtrEdpAgCJOKfm3GJ9hDA4+uslPLF8rmHro8QXU/XtljLsONLoBR/GUHvSOrJtSgcgYCfRDg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%bCW2iX7NfCV1bmXq1c2W5rGty7FyBvde2s9iImdlnKI=.sha256",
+    "branch": "%SjqFqLHaXjL9iy3SlPY5VfRZPdeQg53BsB0Vts4H9uo=.sha256",
+    "text": "[@happy0](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) Can you try bumping private-box? If you download the latest you can find that method in `node_moduels/private-box/index.js`, but it doesn't look like that code has made it to the Git repo (which adds to the confusion). I might just recommend a full `npm update` if you're feeling up to it.",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy0"
+      }
+    ]
+  },
+  "signature": "GHjrKmBsurrrPZDsjCrt2Sr8UuGNb+gdHc4gKD7AnpuEjYloxCZTX5E6/ujdFbRr8RXJxgq83mf+WJ6mh9WtDQ==.sig.ed25519"
 }
