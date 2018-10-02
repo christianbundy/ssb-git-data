@@ -1,27 +1,18 @@
 {
-  "previous": "%Srw1xf16laKK5K3/Bt0QAen9CC7/9jkP6CcyiQJlumg=.sha256",
+  "previous": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
+  "sequence": 5582,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5581,
-  "timestamp": 1538521416347,
+  "timestamp": 1538521482501,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I mentioned that I was working on a Solarized theme a while ago, and after accidentally deleting it (!) I got to start over again. This time I'm working on implementing [base16](https://github.com/chriskempson/base16), so it should be *super simple* to switch theme colors without any pain. I've still got quite a bit left to do, but here's what it looks like now:\n\n![base16 solarized light theme for patchbay](&UNIWQDOMqxF996ESeiKLUuh36FyIdfq9M6qyo1iiYHs=.sha256)\n\n![base16 solarized dark theme for patchbay](&aLXtjJKL76D6iUgZ5VwLR4m2cz2b1SmCbOgIPSgZRp0=.sha256)\n\nThe sweet thing is that I can switch between these with only a few variable changes, which should make future iterations super simple. It's also really easy on the eyes, so I've got that going for me which is nice.",
-    "channel": "patchbay",
-    "mentions": [
-      {
-        "link": "&UNIWQDOMqxF996ESeiKLUuh36FyIdfq9M6qyo1iiYHs=.sha256",
-        "name": "base16 solarized light theme for patchbay",
-        "type": "image/png",
-        "size": 521451
-      },
-      {
-        "link": "&aLXtjJKL76D6iUgZ5VwLR4m2cz2b1SmCbOgIPSgZRp0=.sha256",
-        "name": "base16 solarized dark theme for patchbay",
-        "type": "image/png",
-        "size": 500169
-      }
-    ]
+    "type": "chess_move",
+    "ply": 12,
+    "root": "%g/kUuOyZFm4aFT554FzxpThWJywwQGURu2hWS9DZaaE=.sha256",
+    "orig": "h8",
+    "dest": "g8",
+    "pgnMove": "Rxg8",
+    "fen": "rnbqkbr1/p2p2p1/2p2p2/1p2p2p/N3P3/5N2/PPPP1PPP/R1BQK2R w KQq - 0 7",
+    "branch": "%MQ8eo/8HY0D8h6NjpTyW4jQvV+uat8rlkvkivCon2hc=.sha256"
   },
-  "signature": "2F7k4utJdG5+NlVmQmshoXMMgylU1OMQvAvjbP0nTe6vaXHb1ZNl2tnpidAtRHLLT5hOghto+hHIc88nV9KEDw==.sig.ed25519"
+  "signature": "usxu4QIS2BE67sRfmGucWqWJLXA7wPFHVDyI9mMx8r6bJqhY//VAYyUD/h4uC++vrpwd4oPi+LEcHQmpasFUDw==.sig.ed25519"
 }
