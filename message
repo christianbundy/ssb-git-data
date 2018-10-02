@@ -1,27 +1,18 @@
 {
-  "previous": "%hXPgX7vue6ygyeXfFpeGZa644X5SDFyffNo+c5tVhLs=.sha256",
+  "previous": "%5hqkTv2Oy2Zz/Jm4WBqnMxoulLrPzvkf6Cdm81fuYyY=.sha256",
+  "sequence": 5563,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5562,
-  "timestamp": 1538519447054,
+  "timestamp": 1538519505232,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%F2OvYVPPCJAFjD2Sq0S73MHWoyVnr1v3u9P/fqZmEPQ=.sha256",
-    "branch": "%F2OvYVPPCJAFjD2Sq0S73MHWoyVnr1v3u9P/fqZmEPQ=.sha256",
-    "text": "[@neale](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519) Patchwork is probably your best bet here. There's no \"related channels\" feature (yet, though #somebody-should), but if you hit *More* at the top left you can browse all the channels, and if you're on the [latest version](%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256) there's a new tagging feature that might give you a better view of the network.\n\nI suppose when someone tags a post with two tags those are technically \"related\", but tag usage is still pretty low-volume. When I joined I just went to the channel browser in Patchwork and subscribed to a ton of channels. I *think* you could also go to someone's profile and see what they're subscribed to, but you know my memory is atrocious. :boom: ",
-    "mentions": [
-      {
-        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
-        "name": "neale"
-      },
-      {
-        "link": "#somebody-should"
-      },
-      {
-        "link": "%gsoWkvWuFLZxRC3ko9Ye7mHDKRs7cu3/85/lD7GvSyY=.sha256",
-        "name": "latest version"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 4,
+    "root": "%g/kUuOyZFm4aFT554FzxpThWJywwQGURu2hWS9DZaaE=.sha256",
+    "orig": "f7",
+    "dest": "f6",
+    "pgnMove": "f6",
+    "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+    "branch": "%lkmxjzzW8PQubWWo1tI0hFi5kNvJqFA8D5NNWXZv2vA=.sha256"
   },
-  "signature": "UKzNliHpN2XJqnsOidPE5aMtW8VOPep9azGTMj8NiiP6T/21qRWdN+EIdS9Zxkgkx1a/oQutriOERlK7nnnVAQ==.sig.ed25519"
+  "signature": "7628wWFCipqCm86q3285RKRba+iClPoBF0Yjuq5t9tX1Qpj2lMoLQXmzHn5fcpzDrRW6d7JupKQrrRoIapJsAA==.sig.ed25519"
 }
