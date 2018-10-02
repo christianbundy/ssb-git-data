@@ -1,17 +1,18 @@
 {
-  "previous": "%x3cxf6jf462uUeJUP1UoJytuYuE+jbhCucXJ8VP4lRE=.sha256",
+  "previous": "%+17xFbhhRf4wd2w/4LFQDCk4DfvUhguA0bXovyXwkdg=.sha256",
+  "sequence": 5525,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5524,
-  "timestamp": 1538429763649,
+  "timestamp": 1538446555720,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "cooking-channel",
-    "vote": {
-      "link": "%4IW0kQYM1qbglrNBnvmSdhY3zma8r9L1Gz0X69fPidA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 22,
+    "root": "%rpCurzEzlXElgzg0gdYz/s6qj8JsTetAs5EViP2se7o=.sha256",
+    "orig": "c8",
+    "dest": "d7",
+    "pgnMove": "Bd7",
+    "fen": "r3kbnr/pp1bq2p/3p4/1NpP1pp1/Q3P3/8/PPP2PPP/R1B1KB1R w KQkq - 2 12",
+    "branch": "%Q8NoQ8yQqbIeHh2U3tTiMzCkIoI6M9Zquwl1U+E+8B8=.sha256"
   },
-  "signature": "s7+tnasj0alPOvx9xl7GB6p0pQ2johv/Ag5QP+hufcufL0V9vsygeIUFSAkcnd+dQqcbUgwa8VviHbspYvmsDQ==.sig.ed25519"
+  "signature": "Tt20udF4R0bTwO12nyNjpuTC3ojqBMa/xaOl24vNdnRZAyFX2Vdt+2JWVKPym6x+5lqoj7qSgc+TYwk86UpzDA==.sig.ed25519"
 }
