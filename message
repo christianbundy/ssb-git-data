@@ -1,18 +1,19 @@
 {
-  "previous": "%Y5YC+97cxnLauM/ZqFMFY+kzrzJEgF5Ux2dCcs2eG1U=.sha256",
+  "previous": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5667,
-  "timestamp": 1538602644661,
+  "sequence": 5668,
+  "timestamp": 1538602811867,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Replacing sigils links with URIs\n\nThis is probably too half-baked to be an actual proposal, but as I've been diving into our Markdown parser I'm starting to think that sigils in user-facing interfaces are a pain point worth resolving. I think we can (and should!) use something better: a URI. Yeah, I know, URIs are simple and boring and hardly even sexy, but they're easy for users and developers and I can't think of a reason *not* to use them in clients. I've read about this (and maybe written about this?) before, but I wanted to make a thread to talk about it.\n\nThere are four sigils I'm aware of: `@#%&`. Respectively, those are feeds, channels, messages, and blobs. Here's a simple schema:\n\n- **`@`:** ssb://feed.ed25519/-oaWWDs8g73EZFUMfW37R_ULtFEjwKN_DczvdYihjbU=\n- **`#`:** ssb://channel/foobar\n- **`%`:** ssb://message.sha256/Y0IKL9cKlB4Sup_ItnCa-UfFRMS2q7Wqij-NzGQT9S8=\n- **`&`:** ssb://blob.sha256/Z4jX0CEbeG2xtS7kcW5sjiNgcLa6SsMaLwVAyp6sSIw=\n\nSimple, boring, consistent:\n\n- Every SSB URI starts with `ssb://`\n- Algorithms are treated as a top-level domain, like `.sha256`\n- Message types are sub-domains of their algorithm, like `blob.sha256`\n- Digests are encoded with a [URL-safe base64](%t/fNo1aRh+EkhhXSVPXaCCnSYW3AOpp25SWY9QVtQKk=.sha256) (replacing `+` with `-` and `/` with `_`)\n\nThis gives us a few benefits:\n\n- No problems with URI encoding\n- No question of whether something is a URI\n- Getting us out of sigil-ville before we exhaust `!$^*` too\n- No hacky client links, so we don't have to do anything like: `#/profile/`, `#/msg/`, etc.\n\nI don't think we should make any changes at the protocol level, but it seems like this would be a huge win for users and client developers. Am I crazy, or is this actually a good idea? I'd love to hear some feedback on this schema! :robot:",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "text": "...*of course* I forgot to add the channel.\n\ncc: #ssb-clients ",
     "mentions": [
       {
-        "link": "%t/fNo1aRh+EkhhXSVPXaCCnSYW3AOpp25SWY9QVtQKk=.sha256",
-        "name": "URL-safe base64"
+        "link": "#ssb-clients"
       }
     ]
   },
-  "signature": "gIQe/f+K2Mnp0t4rUHYIkUH/4lkI4RpdulgUMuNXdohlbcvbyYwL2KkwpFK+7HnGgvpeuGYRX18KFOAWdZw+Dw==.sig.ed25519"
+  "signature": "kL0YBqlC9mW9IFG6S9h1nEC5nI7sFAYqsg1gK8YmFMU03SJ9vRTtUWSQU/1u6EDwP13sEMvFYHacmdqEflP+Cg==.sig.ed25519"
 }
