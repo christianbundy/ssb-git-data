@@ -1,17 +1,21 @@
 {
-  "previous": "%0HuWz6/KNXFX6aq2rVInmym7EEIXyoFhQSS7a6p0wqo=.sha256",
+  "previous": "%/mnTfkIRZFqN4z2xOGTw4UoBPr/RbHFpObMonTTkhkA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5639,
-  "timestamp": 1538580466624,
+  "sequence": 5640,
+  "timestamp": 1538580989813,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "current-events",
-    "vote": {
-      "link": "%cVFPgX5U7DAr0hVjMk7JXhIA7zDbvc8aVLvBo3WEPpo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%laq8RwuXaA0LWKEdr2p/kY1suyJ+GsyEwJkr5/KWsEE=.sha256",
+    "branch": "%laq8RwuXaA0LWKEdr2p/kY1suyJ+GsyEwJkr5/KWsEE=.sha256",
+    "channel": "politics",
+    "text": "[@jer](@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519) Which positions do you take that others misunderstand as \"nazi\" sentiments? I've never been called a nazi, so I'm curious what that could possibly be.",
+    "mentions": [
+      {
+        "link": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
+        "name": "jer"
+      }
+    ]
   },
-  "signature": "ZuDq8UqmhiOyVUPIuk4762cDJwJCbPMaR9Ue0ytbtJHdBE8Hwo7Oqsc+dM1M/Fz9UiOZ8armVjVOuE/OweJkAg==.sig.ed25519"
+  "signature": "9IQfpshTUM+NxYgHM48gnGgyd7fu7/2XTkhpZ/u+eY53D4HjCTW/WvVHdTjZ0DjJPeY0lZmum/SMMMtS0BxDAw==.sig.ed25519"
 }
