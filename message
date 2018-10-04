@@ -1,18 +1,19 @@
 {
-  "previous": "%OxaXjaSWnrFRpZNVhU1UrNHLtTmjTZjbA2rN+bsiUsw=.sha256",
-  "sequence": 5680,
+  "previous": "%5mIwMkLjN/m/T1wI4Q9RCh6AT0AGW1/n5fpSTjLyh0I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538606270470,
+  "sequence": 5681,
+  "timestamp": 1538611211316,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 50,
-    "root": "%uwQIBYdtth3LEKH9v2MJTXPC05ZB71YN4L8cqg5NRAc=.sha256",
-    "orig": "b5",
-    "dest": "b4",
-    "pgnMove": "b4",
-    "fen": "8/p3k3/7p/4PP2/1p1n2P1/2N5/PPP2R1P/6K1 w - - 0 26",
-    "branch": "%5W3UED4M2CvXEAJZwx9aFm6+6t1KNlGxQ06mmV8kbRg=.sha256"
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I'm poking around some of the Patchbay theme code and noticed `app/styles/css/global.js`, which doesn't seem to respect `var(--variables)`. Is there a workaround to get variables working in that code, or does it need to be changed somehow? I noticed that `app/styles/mcss/lightbox.mcss` wasn't respecting variables either, so maybe that's related? Thanks! 🧠",
+    "channel": "patchbay",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "S2lOsZxoiIE/yf95djb42tkL+mGIFNejbwfTp2mDCIvH1QPKVEZXADDSDTXQdYDidjM8YskpPiKxSpT321kPDw==.sig.ed25519"
+  "signature": "CBxiHxzesaQYBfga4Vf0CFT7ZgdaVtKzdz/Yl+A9VCudmJfVX0c+mJ+i8D1DZE2a6313dGRgOaGYxNiGUGeyDg==.sig.ed25519"
 }
