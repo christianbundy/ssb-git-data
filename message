@@ -1,17 +1,28 @@
 {
-  "previous": "%Ps27W5hFbYiFprXik0IVYN7U0z1FYRyQoCBZanhC9nU=.sha256",
+  "previous": "%p2tjHsXRYkVzn8u6S+mejWQh3Up03Be0eB0l5lTvP0g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5703,
-  "timestamp": 1538675168530,
+  "sequence": 5704,
+  "timestamp": 1538677435902,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "manyverse",
-    "vote": {
-      "link": "%A/ImpuiZ+qRU4Bx1vrW88NAsPtCdqx932L5ctQQQoIE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%0Vd9izY8yaS5P48alUlkWacu4+9XCQFXK/5T5K5D8bQ=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nI think base58 is a great suggestion, and I'd be happy to implement an SSB handler for those. Do you think it would be best to standardize on one encoding, or would it be wise to take (for example) `ssb://blob.sha256/foobar`, check the length of `foobar`, and pass it off to the correct  handler? It seems like we could keep the same URI scheme but have handlers for:\n\n- base58 (my favorite)\n- URI-safe base64 (`-` and `_`)\n- [hexadecimal](%gezYf2XKLcVLq4zHlBH49Hpoz1KH10lKuSsV3AQp9nQ=.sha256)\n\n[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nNo problem, I really do appreciate the feedback! I'm going to reply in the same list format for convenience, so please forgive if my brief list items seem short or curt:\n\n- Agree that SSB doesn't *have* to be tied to web tech, but since most common SSB implementations are built on web tech I think it's important to target the web API as a platform.\n  - Disclaimer: I work with web tech so I'm probably biased toward it, for better or worse. \n  - Even if we drop web tech (!), I think backward-compatibility with browsers and such is important.\n    - I think other tech like Dat would be in a very different place if they couldn't standardize on a dat:// URI schema.\n  - Even if we stop caring about browser compat and URIs I think we'll have to roll our own link handlers anyway, right?\n    - I agree that URIs are complex, but it's so well-supported that for most developers they're trivial to use.\n  - I empathize with your first point on my considerations being short term. I think I'm trying to hill-climb (which runs the risk of stalling at a local maxima) while I think you're more concerned with the global maxima. I think you're doing really great work and I'm completely supportive, but I'm hesitant to ignore the issues I'm facing today because eventually we'll rewrite everything in Rust and GTK 5. :wink: \n- I meant [ssb-markdown](https://github.com/ssbc/ssb-markdown), which uses [fork of marked.js](https://github.com/ssbc/marked) that hasn't seen updates from upstream for ~4 years\n- Maybe something like `ssb://message.sha256/abc...PQ=.sha256?type=post`?\n- On a long enough timeline that sounds really nice, but *personally* that isn't required for anything I'll likely be working on this week/month/year. Again, *personally* I'm more interested in standardizing some of the common stuff most major clients use and iterating improvements rather than trying to skip to the best possible solution.",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "%gezYf2XKLcVLq4zHlBH49Hpoz1KH10lKuSsV3AQp9nQ=.sha256",
+        "name": "hexadecimal"
+      },
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "BtorFN8WJtYLNaZcAB2agjFWrBryeIQnSQg2UaTSmnszLzDQjXpuVN/DlnW/La/Jawf+Gfanpst9Ldo4xQn/Aw==.sig.ed25519"
+  "signature": "UP8MTRvoR/StD/UG94YHmom0I2SvLve4G6w6hFh4zbqP6lzKa5OpdQMK7rMybW2DRZIj2CB4sVPxZq0bov5tBg==.sig.ed25519"
 }
