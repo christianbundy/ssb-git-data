@@ -1,23 +1,17 @@
 {
-  "previous": "%jz4nhx0OPabnwZDdYTDvu/0Rg7ldvz/l9S8tYjNo6aU=.sha256",
+  "previous": "%lDoX70ALixZWATyeFX4XEhzMYmUtAH8kAt2O+sTMU5k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5709,
-  "timestamp": 1538682685086,
+  "sequence": 5710,
+  "timestamp": 1538684034625,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
-    "branch": "%b5VKZ+XEfvTT7JIa+evy3MQRVjioA17gJhyIXCE6C3w=.sha256",
-    "channel": "patchbay",
-    "text": "Just added a base16 builder, so now you can pick from [any base16 theme](http://chriskempson.com/projects/base16/) and add the code from [here](https://gitlab.com/christianbundy/base16-patchbay/tree/master/templates/patchbay/colors) to your /settings to make it work *automagically*.\n\nThe solarized colorscheme [currently] works best, but many others seem to work fine too. Here's phd:\n\n\n![base16-phd-patchbay.png](&RWSE5orOHHMV1t2xBXevYbua+cRth6F5+rlHQJLfYMA=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&RWSE5orOHHMV1t2xBXevYbua+cRth6F5+rlHQJLfYMA=.sha256",
-        "name": "base16-phd-patchbay.png",
-        "type": "image/png",
-        "size": 145777
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-clients",
+    "vote": {
+      "link": "%gezYf2XKLcVLq4zHlBH49Hpoz1KH10lKuSsV3AQp9nQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "igUF4MglHgUR0mOmC4P8oZprRQFFSZVucHW9l/hI471Lw8EL8vu1Dm6Xjl7H52Iayf4epJjHQgdCdtZ6wctrAg==.sig.ed25519"
+  "signature": "7E6ADBHu3ipobdnFh43vAD/jQO53OZ8a1pEguyANH4R4NG+tBGihXA0DARQhxtqrF+HdP2hyMxptaRoNWFN1BQ==.sig.ed25519"
 }
