@@ -1,63 +1,18 @@
 {
-  "previous": "%uc1dLa2UdZLsRVatjonYfmcTh/IV76atZej4nachBY0=.sha256",
+  "previous": "%b5VKZ+XEfvTT7JIa+evy3MQRVjioA17gJhyIXCE6C3w=.sha256",
+  "sequence": 5691,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5690,
-  "timestamp": 1538674172665,
+  "timestamp": 1538674360025,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
-    "branch": "%n/cWkZrZo/+Y6gLj6fEMfLV8fEcmURiEp2bB6iA0UIw=.sha256",
-    "channel": "patchbay",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nI did the thing! It isn't something you can copy and paste into /settings, but if you want to test it out you can run [this branch](https://github.com/ssbc/patchbay/pull/263). I'll add some photos of the solarized light and dark themes, but this branch can now be configured to use *any* color scheme which IMO is super cool.\n\n![solarized-dark-feed.png](&gkqgpKGMataFbsgu7aOuq4DR9lYbyPQm+l8AneUMEoQ=.sha256)\n\n![solarized-dark-posts.png](&1hHt4Jzf33Dh3eOUllSgmlHpS8pbeIjoIBV2adP8b2U=.sha256)\n\n![solarized-dark-profile.png](&dth6fcqUESWDkG9p7XC87vJvlDVf/1GdtxBF4pdn4Es=.sha256)\n\n![solarized-dark-chess.png](&39+FRt412fR7l64rWevxT6TP8nlTmYkRBaA3r59OpUU=.sha256)\n\n![solarized-light-feed.png](&PnYnEACpkXAFoynqJw/PoYGPE5OK/veXqoEu1msbtwg=.sha256)\n\n![solarized-light-profile.png](&YDwFEw+RkulloGM3UiVI6YfDbZj1i6uovFwSGEj0jdE=.sha256)\n\n![solarized-light-notifications.png](&Lwu1mpkJCoWpsyUNRL3j/Blz8iz6wWgjwtz3iIU8R/0=.sha256)\n\nThe neat thing (IMO) is that you can switch the theme in /settings.\n\n**Light theme:**\n\n```\nbody {\n  --em: var(--base01) \n  --primary: var(--base00)\n  --secondary: var(--base1)\n  --highlight: var(--base2)\n  --background: var(--base3)\n}\n```\n\n**Dark theme:**\n\n```\nbody {\n  --em: var(--base1) \n  --primary: var(--base0)\n  --secondary: var(--base01)\n  --highlight: var(--base02)\n  --background: var(--base03)\n}\n```\n\nYou can also set any of the colors, here are the defaults (on both themes):\n\n```\n--yellow: #b58900\n--orange: #cb4b16\n--red: #dc322f\n--magenta: #d33682\n--violet: #6c71c4\n--blue: #268bd2\n--cyan: #2aa198\n--green: #859900\n```\n\nIt's a bit experimental right now so I'm *sure* you'll find bugs, but just ping me on SSB or GitHub if you find any problems and I'll be happy to fix them up. Hope this works for you!",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "&gkqgpKGMataFbsgu7aOuq4DR9lYbyPQm+l8AneUMEoQ=.sha256",
-        "name": "solarized-dark-feed.png",
-        "type": "image/png",
-        "size": 254518
-      },
-      {
-        "link": "&1hHt4Jzf33Dh3eOUllSgmlHpS8pbeIjoIBV2adP8b2U=.sha256",
-        "name": "solarized-dark-posts.png",
-        "type": "image/png",
-        "size": 362728
-      },
-      {
-        "link": "&dth6fcqUESWDkG9p7XC87vJvlDVf/1GdtxBF4pdn4Es=.sha256",
-        "name": "solarized-dark-profile.png",
-        "type": "image/png",
-        "size": 772804
-      },
-      {
-        "link": "&39+FRt412fR7l64rWevxT6TP8nlTmYkRBaA3r59OpUU=.sha256",
-        "name": "solarized-dark-chess.png",
-        "type": "image/png",
-        "size": 590547
-      },
-      {
-        "link": "&PnYnEACpkXAFoynqJw/PoYGPE5OK/veXqoEu1msbtwg=.sha256",
-        "name": "solarized-light-feed.png",
-        "type": "image/png",
-        "size": 240517
-      },
-      {
-        "link": "&YDwFEw+RkulloGM3UiVI6YfDbZj1i6uovFwSGEj0jdE=.sha256",
-        "name": "solarized-light-profile.png",
-        "type": "image/png",
-        "size": 774508
-      },
-      {
-        "link": "&Lwu1mpkJCoWpsyUNRL3j/Blz8iz6wWgjwtz3iIU8R/0=.sha256",
-        "name": "solarized-light-notifications.png",
-        "type": "image/png",
-        "size": 276294
-      }
-    ]
+    "type": "chess_move",
+    "ply": 9,
+    "root": "%AgERU7/EgTG78t5xkrfNwp7689j2bKLU9zjJawWOW7I=.sha256",
+    "orig": "h2",
+    "dest": "h4",
+    "pgnMove": "h4",
+    "fen": "r1bqk2r/ppppbppp/2n2n2/4p3/2B1P2P/2N2Q2/PPPP1PP1/R1B1K1NR b KQkq - 0 5",
+    "branch": "%KDb4l4VatXVtVnN4HqtOyKfR1m2NaKT8woJuACsgO3s=.sha256"
   },
-  "signature": "XyLakwMwaAfwhUX0hBzwG74Eowd7Q4jeVy9TxVwPii0awBBw3HRRJyFPUKZUZerKz85w1RMarPO5T03zeIyJDw==.sig.ed25519"
+  "signature": "t5O/lxJX3y/KGsfr0OTIHXOAbZ9yxGU18LEWQaKk8GVi8a10mE8ApiluolhsYaw+Cw36zJP9d4UWrQSSJpHyCQ==.sig.ed25519"
 }
