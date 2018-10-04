@@ -1,17 +1,27 @@
 {
-  "previous": "%4Y2+i9GtMiMsn/Ua6adEc2CjaPWH+ecHQGtBJtJJWt0=.sha256",
+  "previous": "%5dXdYgzaFX5vKEeEIsV40dE3xf/eqDPa7Ba1IJGXt4U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5686,
-  "timestamp": 1538670805906,
+  "sequence": 5687,
+  "timestamp": 1538670997990,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "yamf",
-    "vote": {
-      "link": "%cLnq+v5N6771kniz97k/j52qh1F6mUssWCGrYPwKLkA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%EgvVBGQATePQ03+mk+GZNpe2M28rtucI948xcSA2q3o=.sha256",
+    "text": "Thanks [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)!\n\nI appreciate your insights, and I'm wondering whether I should narrow the scope of this non-proposal to \"removing sigils from links\".\n\n## Background\n\n- Clients supply a `toUrl` argument to the Markdown renderer, which links `%abcdef...MNOPQ=.sha256` as `#/custom/path/%27abcdef...MNOPQ=.sha256`.\n- I've found two places where this seems to break down:\n  - Opening links from an external source (e.g. a browser) becomes impossible, since clients all have different ways of handling links.\n    - It would be nice to have a `dat://`-like solution where all clients could handle the same types of `ssb://` links.\n    - When clients start handling `ssb://` links it will be important to have a single agreed-upon system for handling those links.\n  - Applications that can be nested (e.g. ssb-chess in Patchbay) can't use Markdown renderers without hardcoding a client's `toUrl` function.\n    - We could hardcode `[link](#/custom/path/%27abcdef...MNOPQ=.sha256)` but that would break the standalone version and nesting in other clients.\n- Solving this problem doesn't actually require any UI changes, only standardizing the `href` property on links.\n  - Clients *could* start adding the `ssb://` links to new Markdown messages, but this shouldn't be required.\n  - Sigils could remain in the UI without changes, but we would instead standardize on an internal representation for SSB URIs.\n  - Another benefit is that new additions (like [revealing messages](%G8m0jZ28xInsYe5OM3tDBohDrOwUuNTXYpI8D0GxMNg=.sha256)) would conform to a URI standard.\n\n## Summary\n\nTo summarize, `%abcdef...MNOPQ=.sha256` would be linked as:\n\n- **Before**: #/custom/path/%27abcdef...MNOPQ=.sha256\n- **After**: ssb://message.sha256/abcdef...MNOPQ=.sha256\n\n## Benefits\n\n- Standard cross-platform link handlers.\n- No client-specific `toUrl` function(s) that can break.\n- URI-safe encoding for https://viewer.future/message.sha256/abcdef...MNOPQ=\n\nThat shrinks the scope *way* down, but still gives us room to iterate (or pivot) in the future. Is that better? I think yes, but I'd love to hear what you think.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "%G8m0jZ28xInsYe5OM3tDBohDrOwUuNTXYpI8D0GxMNg=.sha256",
+        "name": "revealing messages"
+      },
+      {
+        "link": "#/custom/path/%27abcdef"
+      }
+    ]
   },
-  "signature": "4WUqKWqLD91JKM9pRjdHDbuGU8OkTLAv7kJ+LhCitO2PBxWFawZU393dupBzh+LYss1J+TNBPEwof+Tc8g/yAA==.sig.ed25519"
+  "signature": "i/3GP2wKyzA8mM3GLOcVKLm/pGF3MbidNmRMfhqOJKXCfKzn0A4Gc6YDliTgcxMRXmTBURKXZuieUv8I7BQJDg==.sig.ed25519"
 }
