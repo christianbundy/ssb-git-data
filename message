@@ -1,17 +1,26 @@
 {
-  "previous": "%lDoX70ALixZWATyeFX4XEhzMYmUtAH8kAt2O+sTMU5k=.sha256",
+  "previous": "%ZE/cgy1nmTrb3wyOXohb3R5KKrDAU414+2i3aK9OusA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5710,
-  "timestamp": 1538684034625,
+  "sequence": 5711,
+  "timestamp": 1538695484902,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-clients",
-    "vote": {
-      "link": "%gezYf2XKLcVLq4zHlBH49Hpoz1KH10lKuSsV3AQp9nQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%HV3diFKzrs4LafaTyIYf5FOYrCaGylCQkmHIslzccUM=.sha256",
+    "text": "I'm aware of three identifiers that don't fit neatly into the `ssb://{type}.{alg}/{id}` schema.\n\n- Broadcast: `net:{host}:{port}~shs:{id}.{alg}`\n- Pub invite: `{host}:{port}{id}.{alg}~{secret}`\n- DHT invite: `dht:{secret}:{id}.{alg}`\n\nThe thing they have in common is that they specify a *location*, and since they're UR*L*s they should fit nicely into our URI schema. The problem is that my proposed schema [mis]used the \"authority\" section (everything between `:` and `path`):\n\n![URI syntax diagram](&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256)\n\nWith that said, I think I have a solution that fits the shape of all of our identifiers without breaking URI spec:\n\n```\nssb:[//{host}:{port}/]/{type}[/{subtype}, ...]/{id}[?secret={secret}]\n```\n\n- **Feed:** `ssb:feed/ed25519/{id}`\n- **Channel:** `ssb:channel/{id}`\n- **Message:** `ssb:message/sha256/{id}[?unbox={secret}]`\n- **Blob:** `ssb:blob/sha256/{id}`\n- **Broadcast:** `ssb://{host}:{port}/feed/ed25519/{id}`\n- **Pub invite:** `ssb://{host}:{port}/pub/ed25519/{id}?secret={secret}`\n- **DHT invite:** `ssb://{host}:{port}/dht/ed25519/{id}?secret={secret}` (host = bootstrap server)\n\nI think this makes us much more consistent, where the hostname and port go in the correct spot, the path has a left-to-right hierarchy delimited by `/`, the end of the path is always the content in question, adjacent metadata (e.g. ` secret` or `unbox`) is tacked onto the end, and it remains extensible since `?its&a&query&string=true`. I like the idea of a version string but I haven't added it above, my brain is friend from IETF documents ([my favorite](https://tools.ietf.org/html/draft-thiemann-hash-urn-01), long expired) so I'm just going to publish this post and spend some outside.\n\n> that are the merits of that order or other orders?\n\nIt's the worst URI schema except all the others I considered.\n\n- Human-meaningful information at the beginning like a sigil, [BLUF][0], [inverted pyramid][1], and [nut graph][2].\n- ID in the path lets us add related data with query strings, like `ssb:{type}/{alg}/{id}?unbox={key}`.\n- Path has a left-to-right hierarchy with the ability to create sub-types (isn't `{alg}` a subtype?)\n- Consistently using full words rather than short(er) nicknames like `msg`.\n\n---\n\nHuge thanks to [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) for asking the right questions and making me realize that I was abusing the hell out of the URI spec. Hopefully this iteration is more robust!\n\n\n[0]: https://en.wikipedia.org/wiki/BLUF_(communication)\n[1]: https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)\n[2]: https://en.wikipedia.org/wiki/Nut_graph",
+    "mentions": [
+      {
+        "link": "&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256",
+        "name": "URI syntax diagram",
+        "type": "image/png",
+        "size": 15586
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "7E6ADBHu3ipobdnFh43vAD/jQO53OZ8a1pEguyANH4R4NG+tBGihXA0DARQhxtqrF+HdP2hyMxptaRoNWFN1BQ==.sig.ed25519"
+  "signature": "kw69Efq0kAGFz4NYcqFR4MCN5zdDyp5ttb/j97kImOdg9o02JRVUQMlg+RmtpsATG7zisuGmLhbOzSaIMJr7BA==.sig.ed25519"
 }
