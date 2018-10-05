@@ -1,24 +1,18 @@
 {
-  "previous": "%m5hnVWMYkLV6SjmdFWrAP9Quwo0HqqWAcj/08IrkQoA=.sha256",
+  "previous": "%TTdD1mR2Sic6nqODUzCAe3ZhAaXj1fmpi9SzDKZJREA=.sha256",
+  "sequence": 5744,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5743,
-  "timestamp": 1538746792218,
+  "timestamp": 1538750904338,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Paz/AP08fbUQyDM/O4ByUi93YSK9dy81NvDPVC1TLRE=.sha256",
-    "branch": "%Fwt2kYTqYNJ6e3DQCMGR9kM1D7qoYZlo/mmdjMfM/9o=.sha256",
-    "channel": "sbot",
-    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519)\n\n:information_source: #scuttle-shell  \n\nI think the current focus is making it work in the system tray for less-technical users, but the basic idea is the same: a single global instance of `sbot` to be shared by all clients.",
-    "mentions": [
-      {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
-      },
-      {
-        "link": "#scuttle-shell"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 58,
+    "root": "%hER+BSPsYIo2l2P4JDp1kLvqFmfGUlGEpRndPLhs3PM=.sha256",
+    "orig": "d8",
+    "dest": "e8",
+    "pgnMove": "Kxe8",
+    "fen": "rn2k3/p4p1p/2p3p1/1PP5/6P1/N1b4P/P2pK3/6B1 w - - 0 30",
+    "branch": "%yzqYDalVJpb3bSDUP11hAYtXTk1H+Y+Ej+L6TUvyQuY=.sha256"
   },
-  "signature": "paC63mY7IsgJuIDs1hTdvL4v7VNKIX77oamxk/4VRxletNKgzRoer9V5CXfho+tGNVXBZc+Y1PICeV7E8CZSDg==.sig.ed25519"
+  "signature": "CVRcJd0jjTOYACr5Uxdwcu/Y1QVturVuzv3n0K45l0whBTOmJXuxGb+cHdm5sfxQFzxYzYkwWELxIhmahQSyDQ==.sig.ed25519"
 }
