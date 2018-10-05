@@ -1,18 +1,35 @@
 {
-  "previous": "%JZn54AwFK/l28j+5uqQGq2k4WxlRiXC/DOtU1czh1eU=.sha256",
-  "sequence": 5758,
+  "previous": "%HU4qVPalqu88zl2fmuQvOpCjzrtM7SJuqZET+xBqW94=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1538756653247,
+  "sequence": 5759,
+  "timestamp": 1538757040968,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 34,
-    "root": "%TIQv3Snam3NxoC7OEAq17dHz3X+jZL9IaY2+nA42xTM=.sha256",
-    "orig": "e7",
-    "dest": "c8",
-    "pgnMove": "Nc8",
-    "fen": "1qn1k2r/6pp/1rPb1pb1/Q2B4/3P2P1/2N5/PP3P1P/R1B1K1NR w KQk - 5 18",
-    "branch": "%DBrSjOSMYmmTTGsUBScEJdmUcEJEY1HXKJnOOjsd25k=.sha256"
+    "type": "post",
+    "root": "%XdNPBT5pdVJzHOCrhstsgwBO/suvNPnydqBPkbm98t8=.sha256",
+    "branch": "%XdNPBT5pdVJzHOCrhstsgwBO/suvNPnydqBPkbm98t8=.sha256",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nAre there any simple rules that we might be able to use to fix this before #sameas ( #same-as ) is implemented for channels? Hyphens seem relatively simple: when someone searches #foo-bar it should return results for #foobar *and* #foo-bar. Plurality is a bit more complicated, but still seems possible.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "#sameas"
+      },
+      {
+        "link": "#same-as"
+      },
+      {
+        "link": "#foo-bar"
+      },
+      {
+        "link": "#foobar"
+      },
+      {
+        "link": "#foo-bar"
+      }
+    ]
   },
-  "signature": "/hFjdhSiHkIwv1rbUdfrTQRltSnOGCXg9Q8bB3l+RoLJ2nO7mLbV4lU/CrVu2CVOaFlACc26Vx4IgPa5843bAg==.sig.ed25519"
+  "signature": "QqHKwt6cKCBYXA2h7tU1JZOXP52HUASCSF+AWW3SV2c52RBpuXTHpE7eaNJZp7PYEmplc8cP3qM2s0CaKNm1Cw==.sig.ed25519"
 }
