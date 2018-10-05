@@ -1,35 +1,16 @@
 {
-  "previous": "%HU4qVPalqu88zl2fmuQvOpCjzrtM7SJuqZET+xBqW94=.sha256",
+  "previous": "%Iq9osK+aTKxICbXw+lnPVu17/63DOlNsBU1SO2dVN2I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5759,
-  "timestamp": 1538757040968,
+  "sequence": 5760,
+  "timestamp": 1538758113607,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%XdNPBT5pdVJzHOCrhstsgwBO/suvNPnydqBPkbm98t8=.sha256",
-    "branch": "%XdNPBT5pdVJzHOCrhstsgwBO/suvNPnydqBPkbm98t8=.sha256",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nAre there any simple rules that we might be able to use to fix this before #sameas ( #same-as ) is implemented for channels? Hyphens seem relatively simple: when someone searches #foo-bar it should return results for #foobar *and* #foo-bar. Plurality is a bit more complicated, but still seems possible.",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "#sameas"
-      },
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "#foo-bar"
-      },
-      {
-        "link": "#foobar"
-      },
-      {
-        "link": "#foo-bar"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%M8wihzh4IHSmCokJ9iEukeJDbVUjVhnvf1qhKQNdcRw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "QqHKwt6cKCBYXA2h7tU1JZOXP52HUASCSF+AWW3SV2c52RBpuXTHpE7eaNJZp7PYEmplc8cP3qM2s0CaKNm1Cw==.sig.ed25519"
+  "signature": "FSnUO0Mi20ZLzbTLHloRfwr/UgYjHidnDOVVbKCmxmqn+G5MKzlQLwG71DnQx3dArALEqX2k60ZFIqsH0mUPCQ==.sig.ed25519"
 }
