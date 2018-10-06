@@ -1,21 +1,17 @@
 {
-  "previous": "%MK/9xaox/fU/zhxj0SSBcrqv4N+D5vCRHbdRo99T7I8=.sha256",
+  "previous": "%RHFmARWcl19i6p2rlRsXGD1VDjsonYov8ZyE9XBogb8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5788,
-  "timestamp": 1538785642821,
+  "sequence": 5789,
+  "timestamp": 1538834892771,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Loxh4za33xpU9+YsYaCcpLrGhplMZt8Hy/Ulh0B5QQY=.sha256",
-    "branch": "%1u7X1Jh7b00FzrI0YG9ll4GP15ccRgUXtKMgmnEu/Kc=.sha256",
+    "type": "vote",
     "channel": "scuttlebot",
-    "text": "Hi [@SandyG](@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519)! What commands are you using to start `sbot` and create invitations? I think invites need to be created with `--external <hostname>` unless you've defined your hostname and such in `~/.ssb/config`. ",
-    "mentions": [
-      {
-        "link": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519",
-        "name": "SandyG"
-      }
-    ]
+    "vote": {
+      "link": "%3EyKk3FATf6FQT8aoCkV0ZCe6v+Y1ZuFYO9pZC59Eow=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "M6+IYacfQIkhxEOSFqh+vQ3fDsd/3jQGvbxz1MPAHdmt1jI+qM12AD/lL1O186bZKSpxS8EXVVIl5y5wSDtFBg==.sig.ed25519"
+  "signature": "bKw9Yp0MfljWWqg0Rtc3MiW4y4gBKbWutRkJe8xwEFMVaZNizT0zYsnfPOjfdbOeEES2Rds6TBMc1LUK3T6VBw==.sig.ed25519"
 }
