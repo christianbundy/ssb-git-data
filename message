@@ -1,21 +1,18 @@
 {
-  "previous": "%qAZOQxkPDSnXF6rKIdp2lbHYln/ExZmRZFaCVao103w=.sha256",
+  "previous": "%YhFYTMtK8pjUkDWDInQhNfW4KjOSWdCvNkKYQ6KFw1k=.sha256",
+  "sequence": 5803,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5802,
-  "timestamp": 1538864458672,
+  "timestamp": 1538864547243,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
-    "branch": "%6zg2lHcokmGwdZmsI3jXDcJenVQ5OM9vdYbXag6Wtac=.sha256",
-    "channel": "linux",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) Weird, all I got was:\n\n> libinput: /usr/share/libinput/30-vendor-kensington.quirks exists in filesystem\n\nBut that's because I was running the test branch which was newer than the latest libinput. Otherwise, pacman seems fine (?) for now. I'm going to reboot, I'll let you know if everything breaks down. Thanks for the fix, I've saved that in my home directory in case I have similar issues.",
-    "mentions": [
-      {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 40,
+    "root": "%TIQv3Snam3NxoC7OEAq17dHz3X+jZL9IaY2+nA42xTM=.sha256",
+    "orig": "c8",
+    "dest": "e7",
+    "pgnMove": "Ne7",
+    "fen": "4k2r/q3n1pp/1rP2pb1/3B4/3P2PP/P1N5/P4P2/R1B1K1NR w KQk - 1 21",
+    "branch": "%aNasv++8augnIJUYzoCLChR2usKR2Vbwpd/UrJrY9Rw=.sha256"
   },
-  "signature": "VjR6p9LZRPqBaRI0x+jG4a0K5kaSKVqVN9VGWaphSPDDqdEDKfgSd/CisSWfUoNm8OP4hEc9SNgJ0xuKn2M7Cw==.sig.ed25519"
+  "signature": "UIH5U63oHjeLigRaaPn0ONFPBhGAx0ZZnmDWlGNbwsOP0c5gxPdD30NkNdZ8XMagQwxrcECXG40wjQC++SVEDg==.sig.ed25519"
 }
