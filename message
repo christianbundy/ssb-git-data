@@ -1,16 +1,38 @@
 {
-  "previous": "%M1KOcYYCFBspsqnlvAJ2oevy+c2ouYh+srJLMJR+VV8=.sha256",
+  "previous": "%aNSVKnH6euwLp1AgSBz45CHe93sWrs8Ui5yW7EGOc+o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5792,
-  "timestamp": 1538835133316,
+  "sequence": 5793,
+  "timestamp": 1538836072820,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%PcgV6813Nte2mO+YPNYnTQL5snS9FO+CCvesguP6AwU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Synonymous channels\n\nOne of my pain points with channels is the fact that word delimiters (usually `-`) consitute a completely different channel. I [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) was posting about the [same thing](%PcgV6813Nte2mO+YPNYnTQL5snS9FO+CCvesguP6AwU=.sha256) under #same-as ( #sameas ) and I wondered whether I could prototype a simple fix. It looks like [map-filter-reduce recently got `$in` support](https://github.com/dominictarr/map-filter-reduce/pull/3) :raised_hands: and I wanted to see whether I could try it out. Here's the patch for my prototype:\n \n```diff\ndiff --git a/feed/pull/channel.js b/feed/pull/channel.js\nindex adde055..a483415 100644\n--- a/feed/pull/channel.js\n+++ b/feed/pull/channel.js\n@@ -23,8 +23,10 @@ exports.create = function (api) {\n \n       delete opts.lt\n \n+      const stripped = channel.replace(/\\W/g, '')\n+\n       var filter = {\n-        dest: `#${channel}`,\n+        dest: { $in: [ `#${channel}`, `#${stripped}` ] },\n         rts: typeof lt === 'number' ? {$lt: lt, $gt: 0} : {$gt: 0}\n       }\n\n```\n\nUnfortunately, this just throws an error I don't quite understand:\n\n```\nError: can only encode arrays\n    at encode (/home/christianbundy/src/patchbay/node_modules/charwise/codec/object.js:27:44)\n    at encodeItem (/home/christianbundy/src/patchbay/node_modules/charwise/codec/object.js:41:20)\n    at Object.encode (/home/christianbundy/src/patchbay/node_modules/charwise/codec/object.js:33:24)\n    at exports.encode (/home/christianbundy/src/patchbay/node_modules/charwise/index.js:39:28)\n    at Object.exports.toLtgt (/home/christianbundy/src/patchbay/node_modules/ltgt/index.js:113:34)\n    at post (/home/christianbundy/src/patchbay/node_modules/level-post/index.js:21:20)\n    at module.exports (/home/christianbundy/src/patchbay/node_modules/pull-level/live.js:13:17)\n    at /home/christianbundy/src/patchbay/node_modules/pull-level/read.js:14:12\n    at /home/christianbundy/src/patchbay/node_modules/pull-live/index.js:24:16\n    at Object.module.exports (/home/christianbundy/src/patchbay/node_modules/pull-level/read.js:15:5)\n```\n\nAny chance this error is familiar to someone else? My intuitition is that `dest` is a special property, since I've never seen it before (and I'm not completely sure how it works), but I could be making some other silly mistake. Maybe one of you can see what I'm doing wrong?\n\ncc: #patchcore #ssb-query #map-filter-reduce",
+    "channel": "ssb-learning",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "%PcgV6813Nte2mO+YPNYnTQL5snS9FO+CCvesguP6AwU=.sha256",
+        "name": "same thing"
+      },
+      {
+        "link": "#same-as"
+      },
+      {
+        "link": "#sameas"
+      },
+      {
+        "link": "#patchcore"
+      },
+      {
+        "link": "#ssb-query"
+      },
+      {
+        "link": "#map-filter-reduce"
+      }
+    ]
   },
-  "signature": "xu3eYf3C6m+6xYPcSPRlKsjID4nftJUuPVO1gsoUrF71ZnjAm05n6Ale8R+DEaEO6KGSZV1oQL1Em+oek4qXCA==.sig.ed25519"
+  "signature": "XLmxzaeZFjaAPwVYlo3HdIIDYdE7ewQJcJ7qlSjf+eL+RO6v+pRSlIcR+omHS0sSjjlIWZBqk1ldXu3p0ab8Dg==.sig.ed25519"
 }
