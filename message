@@ -1,17 +1,17 @@
 {
-  "previous": "%YFTbrJBpHv1aF5BTELev8lNr+W1IIJJF5vIwYFVpbFg=.sha256",
+  "previous": "%FRYWb4U2vLXKxekKnGpSD/4Lolf8GGk0dhu4m/rPijk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5844,
-  "timestamp": 1539022109042,
+  "sequence": 5845,
+  "timestamp": 1539022499338,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
-    "branch": [
-      "%pAYrWZ9iXbeCQIIukLxcH/LVZ2TtJbZ4Kcr8Q70KKIA=.sha256",
-      "%wc9dfclTqXsQkZdtdXgWHATInmd27h7+LS0JvjrJocU=.sha256"
-    ],
-    "text": "Oof, sorry about that! The [scuttlebot tests](https://github.com/ssbc/scuttlebot/blob/f11eacb2457ed757f2b267720f56e33fd206c42f/test/master.js#L16-L40) give me the impression that it should work without any `setImmediate` workarounds, so I'm curious where the issue is popping up. Is there some minimal test code you could post to reproduce the issue? Alternatively, it might be helpful to run `npm test` in the Scuttlebot repository to verify that all of that code works on your machine, as it *should* be fine as-is.\n\nSorry for streamrolling with a solution to a different problem! "
+    "type": "vote",
+    "channel": "walkaway",
+    "vote": {
+      "link": "%Jl/fs5otp4ayYtkUAi4GnTnjZbEJ5nZUqxCxzy4Z9X8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Y8Yjf/e46S0Ug4PtmkZzTd6eeOEfbYdVCTaWhCIrR3z3kEByTqotb9Rp2+MEZsOVr75TiS1yoPrhiZTBe/jjBg==.sig.ed25519"
+  "signature": "Lj/8OmRHVnoHIRapp2u4x/RuCvsouHpnIz5awrmlPMsZ6S6MKjeEHItnCJyFUq0U1qrvIiRPe1lxSXhiuaL+Dw==.sig.ed25519"
 }
