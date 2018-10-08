@@ -1,15 +1,20 @@
 {
-  "previous": "%k6JBEA+OdtdsodDwS5qMMrY5Pi/1PHHBkMDk5YJ3/W8=.sha256",
+  "previous": "%frykSB27YfL1hh7IbJXYsHbQ7NRrsQC/sSDccVuJ6K8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5822,
-  "timestamp": 1539016478983,
+  "sequence": 5823,
+  "timestamp": 1539016536650,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
-    "branch": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
-    "channel": "ssb-client",
-    "text": "Solution: https://gitlab.com/christianbundy/ssb-current-events/commit/be013ac68fe9aec9fbce95ba7816d69a04c18da3\n\nTurns out `ssbClient` was being called *way* before it was necessary, and I think this meant that it was trying to connect to an old socket or something."
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "branch": "%jTuGkCtaIIyas1JauhhdNdJMkH/2yFtyXYttAxIQIrk=.sha256",
+    "text": "Yeah, and if you want a synchronous-ish interface with promises, you can do what I'm doing for [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519):\n\nhttps://gitlab.com/christianbundy/ssb-current-events/blob/master/lib/publish.js#L5-13",
+    "mentions": [
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      }
+    ]
   },
-  "signature": "158ksm8smEXQzJQLqDoiQ4lE657rJKUAw78FTNlf2LroMmHWGueOmwuPgKK3ent2BrQF/PvjQoax1fciCz75Ag==.sig.ed25519"
+  "signature": "9grbJfB1ABlIH9gKk/qxwM5kUaPsKpJnAr+PUsZjYhs+mmU7F86uY0HJFVhLK62xFeM1yMf0VZUuDCYhFfgvCw==.sig.ed25519"
 }
