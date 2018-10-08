@@ -1,17 +1,17 @@
 {
-  "previous": "%yL7x/aq3CakjnRYF0mhLWPiY2zJkbu/K0E6NdnCi5Io=.sha256",
+  "previous": "%YFTbrJBpHv1aF5BTELev8lNr+W1IIJJF5vIwYFVpbFg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5843,
-  "timestamp": 1539021796064,
+  "sequence": 5844,
+  "timestamp": 1539022109042,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%qOL+7wqg8jynuiPamG4NtGx3gFOkH4WPTYmjkJOX17w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "branch": [
+      "%pAYrWZ9iXbeCQIIukLxcH/LVZ2TtJbZ4Kcr8Q70KKIA=.sha256",
+      "%wc9dfclTqXsQkZdtdXgWHATInmd27h7+LS0JvjrJocU=.sha256"
+    ],
+    "text": "Oof, sorry about that! The [scuttlebot tests](https://github.com/ssbc/scuttlebot/blob/f11eacb2457ed757f2b267720f56e33fd206c42f/test/master.js#L16-L40) give me the impression that it should work without any `setImmediate` workarounds, so I'm curious where the issue is popping up. Is there some minimal test code you could post to reproduce the issue? Alternatively, it might be helpful to run `npm test` in the Scuttlebot repository to verify that all of that code works on your machine, as it *should* be fine as-is.\n\nSorry for streamrolling with a solution to a different problem! "
   },
-  "signature": "H5vBpIHzNURfSRKKwG1bMKVRqwY3IV0MoLAFa4K2URbl9ELUQPsjeanxEKFn+VnMhxcU0da2gzakQbn9zKWFBA==.sig.ed25519"
+  "signature": "Y8Yjf/e46S0Ug4PtmkZzTd6eeOEfbYdVCTaWhCIrR3z3kEByTqotb9Rp2+MEZsOVr75TiS1yoPrhiZTBe/jjBg==.sig.ed25519"
 }
