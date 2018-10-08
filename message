@@ -1,16 +1,25 @@
 {
-  "previous": "%KDeL2BvjwCERLGN4ViGa3rT8SQ0iQXFqxKp7J4fJKL4=.sha256",
+  "previous": "%kSqknDRb5mjxppz+JSQFzy6KSosW6Ewr1tfCtE5PLAI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5833,
-  "timestamp": 1539017244291,
+  "sequence": 5834,
+  "timestamp": 1539017635071,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gJGNRImrKuP8ZcWjMtBvTF6UHBDiO1R1t97xna3FF+M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%NspNylBpgHcW1NWe8ePF61OePo7udapxavUYb9pMKpw=.sha256",
+    "branch": "%NspNylBpgHcW1NWe8ePF61OePo7udapxavUYb9pMKpw=.sha256",
+    "channel": "ssb",
+    "text": "Hey [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)! It looks like [you already found the oldest post](%vIBe/VKPpZa98Qk6l2Qw0n88sG1+nEfFg6YYDacTouU=.sha256), so you'll be hard-pressed to find anything older than that. I think it's similar to real life: your history stays around as long as there's someone there to remember it.\n\nIf you follow someone, you get their data. If you replicate 2+ hops (friends of friends (+of friends, ...)) you'll get their data too, so we're all archiving and hosting the content of the rest of the network. To put it concretely, the original test post will become inaccessible when nobody on the network is around to replicate Dominic's posts.",
+    "mentions": [
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      },
+      {
+        "link": "%vIBe/VKPpZa98Qk6l2Qw0n88sG1+nEfFg6YYDacTouU=.sha256",
+        "name": "you already found the oldest post"
+      }
+    ]
   },
-  "signature": "nl9yCraxfEEopL1xiwd6Kh6Cw/GSyOXsdZpAGxPgpX7zu0nOFOHTp9tPmxKygo3OQrbGCKAD75eS5S1o38ajDQ==.sig.ed25519"
+  "signature": "kYAxkfZcoR9ifxRmK+UK+bSSmwRns+Th4QuUu4Th8Xhw/UnJ/uRlPBtuxoierYVxsGq1+mYMDJ+mcjMTu8a/Dg==.sig.ed25519"
 }
