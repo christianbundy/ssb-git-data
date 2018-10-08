@@ -1,18 +1,15 @@
 {
-  "previous": "%cTIjfcRV6F9HQzUpywwRuNKNvwdWThoMfOrFVK1UE2o=.sha256",
-  "sequence": 5821,
+  "previous": "%k6JBEA+OdtdsodDwS5qMMrY5Pi/1PHHBkMDk5YJ3/W8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539015830341,
+  "sequence": 5822,
+  "timestamp": 1539016478983,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 46,
-    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
-    "orig": "h5",
-    "dest": "f3",
-    "pgnMove": "Bf3",
-    "fen": "r3k3/pN4p1/n1p1pn2/1p1p4/1b1Pp2P/4rb2/PB2B3/R2K2NR w q - 3 24",
-    "branch": "%Rk+A4KodXXBvi5OMeUZN4VMmCyfz2WooWKc/+KNwF4E=.sha256"
+    "type": "post",
+    "root": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
+    "branch": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
+    "channel": "ssb-client",
+    "text": "Solution: https://gitlab.com/christianbundy/ssb-current-events/commit/be013ac68fe9aec9fbce95ba7816d69a04c18da3\n\nTurns out `ssbClient` was being called *way* before it was necessary, and I think this meant that it was trying to connect to an old socket or something."
   },
-  "signature": "FS0YEEurctBgOAqzQuAQ0Mn4NGpNbkpNVEOM80F3ZgJ6crGmxaQlwluwVypuSHitUPP4Zf0e59XndUWxK6E5CA==.sig.ed25519"
+  "signature": "158ksm8smEXQzJQLqDoiQ4lE657rJKUAw78FTNlf2LroMmHWGueOmwuPgKK3ent2BrQF/PvjQoax1fciCz75Ag==.sig.ed25519"
 }
