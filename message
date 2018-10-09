@@ -1,22 +1,16 @@
 {
-  "previous": "%+8KMFuhrbbF79OBEmnJnzQvA0OXgfUykY41JaHGGPwo=.sha256",
+  "previous": "%05F/jn5rYWIdMo2XemFr6mlaNFAAM99v4wVRXKnxf7o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5858,
-  "timestamp": 1539108671453,
+  "sequence": 5859,
+  "timestamp": 1539108864436,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
-    "branch": "%CCnV6zOrZGV/2vYeypwh4Tp0cwgEM2OrwfW+QYc3axk=.sha256",
-    "text": "I haven't felt this way, but this might help you:\n\n```shell\nsbot createLogStream | jq -r 'if (.value.timestamp) then \"\\(.timestamp) \\(.timestamp - .value.timestamp)\" else null end' > delay.dat\ngnuplot -p -e 'set yrange [0:100000000]; plot \"delay.dat\" with dots'\n```\n\n\n![graph of scuttlebot delay between asserted and received timestamps](&jZGIcOBsHDNqshWydOa+zYMuKvS6QnV5oWqBcCUqbV8=.sha256)\n\n\nThere's probably a better way to do this, but graphing the difference between asserted versus received time seems to show that I'm not having the same problem. This would probably work *much* better for folks who always have sbot running.\n",
-    "mentions": [
-      {
-        "link": "&jZGIcOBsHDNqshWydOa+zYMuKvS6QnV5oWqBcCUqbV8=.sha256",
-        "name": "graph of scuttlebot delay between asserted and received timestamps",
-        "type": "image/png",
-        "size": 20657
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%u115NoXkWp08Sg5JywsRLRQrwxHUBmK1/PGYS6zQKcI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "crILfZ6t0wwzcM7yilUSp3TUXq2BdZbhU9zR12hOLwz9vymmDFqUegZtqJW0ypRSaQRIJ26VZ2cWRCvPp2ELDQ==.sig.ed25519"
+  "signature": "oXqKQCdv9O25wKpAJFP/5vyLs+b8smEv0IkFofUIQHV5DMUQiMnLV7V8I5MO8r2PkyFouEHCr8SjpATMppv1AA==.sig.ed25519"
 }
