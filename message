@@ -1,27 +1,22 @@
 {
-  "previous": "%j2MZfdHmm7BNe1Gp/wSPePqYZwt54BwvddDO/wZ/Blo=.sha256",
+  "previous": "%+8KMFuhrbbF79OBEmnJnzQvA0OXgfUykY41JaHGGPwo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5857,
-  "timestamp": 1539106277002,
+  "sequence": 5858,
+  "timestamp": 1539108671453,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Z8GH5WgXy/QXerisCp4oufAI1GRfOSPdBDS+haK3Yqc=.sha256",
-    "branch": [
-      "%+BLQ38S6+FGlduotc4OyGVOva1Y9eoVc6zde6Sl72vo=.sha256",
-      "%iVKcsLKdhy1VR1gazv8bayL2zmeeFnIGg6nVVzShdtg=.sha256"
-    ],
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) I'd be interested to hear this podcast!\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) I'd be interested to hear and/or participate in this. The \"afterparty\" from the ssb-chess call was a lot of fun and made me realize how fun it is to just sit around and voice chat with SSB friends, so I'd be down for this regardless of whether it's recorded. I love the format you've described.",
+    "root": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
+    "branch": "%CCnV6zOrZGV/2vYeypwh4Tp0cwgEM2OrwfW+QYc3axk=.sha256",
+    "text": "I haven't felt this way, but this might help you:\n\n```shell\nsbot createLogStream | jq -r 'if (.value.timestamp) then \"\\(.timestamp) \\(.timestamp - .value.timestamp)\" else null end' > delay.dat\ngnuplot -p -e 'set yrange [0:100000000]; plot \"delay.dat\" with dots'\n```\n\n\n![graph of scuttlebot delay between asserted and received timestamps](&jZGIcOBsHDNqshWydOa+zYMuKvS6QnV5oWqBcCUqbV8=.sha256)\n\n\nThere's probably a better way to do this, but graphing the difference between asserted versus received time seems to show that I'm not having the same problem. This would probably work *much* better for folks who always have sbot running.\n",
     "mentions": [
       {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
-      },
-      {
-        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
-        "name": "nanomonkey"
+        "link": "&jZGIcOBsHDNqshWydOa+zYMuKvS6QnV5oWqBcCUqbV8=.sha256",
+        "name": "graph of scuttlebot delay between asserted and received timestamps",
+        "type": "image/png",
+        "size": 20657
       }
     ]
   },
-  "signature": "qz8PCzcBSY4SkMx940Bt2OsZsg8Nor6+m6wZBKqjD7yP7IsmBRY8QkLpvNA72xTMLdaW3ctqLJWloZl6w0WnDw==.sig.ed25519"
+  "signature": "crILfZ6t0wwzcM7yilUSp3TUXq2BdZbhU9zR12hOLwz9vymmDFqUegZtqJW0ypRSaQRIJ26VZ2cWRCvPp2ELDQ==.sig.ed25519"
 }
