@@ -1,34 +1,32 @@
 {
-  "previous": "%PFnlgha4wkG+rNyOTuJES1YPNbYH30YON5SRHHugcws=.sha256",
+  "previous": "%du/I11QRwNjfMzwRrsAnavubigVxuMn5X30N/7dxfX8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5851,
-  "timestamp": 1539030496314,
+  "sequence": 5852,
+  "timestamp": 1539100084323,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%P+se0NgAINBAamemXrAya+3yijsvwRc+hXvC5vIL3sk=.sha256",
-    "text": "I've been reading *more* RFCs and I'm now under the impression that encouraging specific use of a URI's *path* is only allowed under `/.well-known/`, which seems to be a red flag. Taking more inspiration from the [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme), I think this may actually work a bit better:\n\n## Loose specification\n\n- integer: integer encoded with one of https://en.wikipedia.org/wiki/Binary-to-text_encoding, no padding\n- alphanum: `a-Z0-9`, like `example42`\n- authority: URI host plus optional port, like `example.com[:8008]`\n- type: `<alphanum>` with optional colons for LTR hierarchy, like `(feed:ed25519|message:sha256|blob:sha256|channel)`\n- Query strings:\n  - reference: `<type>:<integer>`\n  - secret: `<base>&secret=<integer>`\n  - transport: `<alphanum>`, like: `(net|wss?|onion)`\n  - transform: `<alphanum>`, like: `shs`\n\n## Abstract examples\n\n- `ssb:?ref=<reference>[&secret=<integer>]`\n  - `ssb:?ref=blob:sha256:<integer>`\n  - `ssb:?ref=feed:ed25519:<integer>`\n  - `ssb:?ref=message:sha256:<integer>`\n- `ssb://<authority>/?ref=<reference>?transport=net`\n  - `ssb://pub.example.com:8008/?ref=<reference>?transport=net&secret=<secret>`\n  - `ssb://?ref=<reference>?transport=dht&secret=<secret>`\n\nThe only thing I'm having trouble with is the fact that multiserver expects addresses to be delimited by `;`. Maybe we could instead delimit URIs by newlines instead?\n\n## Concrete examples\n\nI'm going to use URI-safe base64 here, but we could use any other base.\n\n- [ssb:?ref=message:sha256:P-se0NgAINBAamemXrAya-3yijsvwRc-hXvC5vIL3sk](%P+se0NgAINBAamemXrAya+3yijsvwRc+hXvC5vIL3sk=.sha256)\n- [ssb:?ref=feed:ed25519:6ilZq3kN0F-dXFHAPjAwMm87JEb_VdB-LC9eIMW3sa0](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n- [ssb:?ref=message:sha256:8_0n8Jfbmfs5ngmJAqt-ufMR0moogY1JVGwJkhws3Tk&secret=B2oAB-JdN91-PGYFL1t4KOkPipDXZYDWxf23giS5fCUU](%8/0n8Jfbmfs5ngmJAqt+ufMR0moogY1JVGwJkhws3Tk=.sha256?unbox=B2oAB+JdN91+PGYFL1t4KOkPipDXZYDWxf23giS5fCUU)\n- [ssb://ssb.celehner.com:8008/?ref=feed:ed25519:5XaVcAJ5DklwuuIkjGz4lwm2rOnMHHovhNg7BFFnyJ8&transport=net&transform=shs&secret=BUY1RVf3r5LhyhsjDsj3iQMjGSzH8K0Y2auHA4tofak](#)\n\nThey aren't very attractive, but I this follows all of the URI standards/guidlines that I'm aware of while also consistently serializing all of the different identifiers we've been using. Does this work? I'm sure I can put this into [Augmented] Backus-Naur Form, but I'd like to make sure I can get feedback and identify issues before diving into [A]BNF-land.",
+    "root": "%KXMRD8WTxnQ4o58/NEA6inGCmOHma+ef8QBgqwGk+9k=.sha256",
+    "branch": "%k6jUQccwqxt0viRfA8exZvqTlKNoOs/Si/8WBvrGnDY=.sha256",
+    "text": "Thanks a lot everyone! :hearts:\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) You caught me! This was actually a few days ago, I got the number by chance and thought it'd make for a cool photo. Admittedly I was still 25 in the photo, and as you'd imagine I look *totally* different now. :older_man: \n\n[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) Very accurate photo of me from my birthday eve. I ate chili, chips, pizza, BBQ brussel sprouts, stir fry, and way too much cake. Yesterday was rough, but I'm feeling human again.\n\n [@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) Totally intentional, all part of my master plan!  \n\n[@neale](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519) I'm still just dumbfounded that it comes out looking so clean. I'm also surprised at how many of them look like Pepsi logos, but that's neither here nor there.",
     "mentions": [
       {
-        "link": "%P+se0NgAINBAamemXrAya+3yijsvwRc+hXvC5vIL3sk=.sha256",
-        "name": "ssb:?ref=messageundefinedP-se0NgAINBAamemXrAya-3yijsvwRc-hXvC5vIL3sk"
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
       },
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "ssb:?ref=feedundefined6ilZq3kN0F-dXFHAPjAwMm87JEb_VdB-LC9eIMW3sa0"
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
       },
       {
-        "link": "%8/0n8Jfbmfs5ngmJAqt+ufMR0moogY1JVGwJkhws3Tk=.sha256",
-        "query": {
-          "unbox": "B2oAB JdN91 PGYFL1t4KOkPipDXZYDWxf23giS5fCUU"
-        },
-        "name": "ssb:?ref=messageundefined8_0n8Jfbmfs5ngmJAqt-ufMR0moogY1JVGwJkhws3Tk&amp;secret=B2oAB-JdN91-PGYFL1t4KOkPipDXZYDWxf23giS5fCUU"
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
       },
       {
-        "link": "#"
+        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
+        "name": "neale"
       }
     ]
   },
-  "signature": "+L+2XPLkhJsl2zseUXxHYRFVPaaQS+3Wraf1QyEdhuVtpIO0rtbtUqenJxHVo8sWP37ZA0xYbIcQa0Eb6nlcAg==.sig.ed25519"
+  "signature": "aLyc8clNyBBNOG/WmK2s0Lv+V0r0IR2QhPg30By0451MwOXUUJvkx2HlojMmjDRc9zL1U7lJu46Y5km+DJekCg==.sig.ed25519"
 }
