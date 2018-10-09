@@ -1,17 +1,27 @@
 {
-  "previous": "%KUoW+pNWEEHAX5tNW+vgFidtp4jBfLAcwfkB7Ah7jx4=.sha256",
+  "previous": "%j2MZfdHmm7BNe1Gp/wSPePqYZwt54BwvddDO/wZ/Blo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5856,
-  "timestamp": 1539105977322,
+  "sequence": 5857,
+  "timestamp": 1539106277002,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%A9Dpm+Gb2zrUDwJhLdRoTJrxrKY7olAO+HJ1dOg65a4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Z8GH5WgXy/QXerisCp4oufAI1GRfOSPdBDS+haK3Yqc=.sha256",
+    "branch": [
+      "%+BLQ38S6+FGlduotc4OyGVOva1Y9eoVc6zde6Sl72vo=.sha256",
+      "%iVKcsLKdhy1VR1gazv8bayL2zmeeFnIGg6nVVzShdtg=.sha256"
+    ],
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) I'd be interested to hear this podcast!\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) I'd be interested to hear and/or participate in this. The \"afterparty\" from the ssb-chess call was a lot of fun and made me realize how fun it is to just sit around and voice chat with SSB friends, so I'd be down for this regardless of whether it's recorded. I love the format you've described.",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      },
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "fw0h9L3mFoaRhax/obA9PuG4KowJSXvemNVFiFwlbLMu4qXvks9T9VCJi9Orvz2Am1bQVfYpOMyyQd39Ydh/Bg==.sig.ed25519"
+  "signature": "qz8PCzcBSY4SkMx940Bt2OsZsg8Nor6+m6wZBKqjD7yP7IsmBRY8QkLpvNA72xTMLdaW3ctqLJWloZl6w0WnDw==.sig.ed25519"
 }
