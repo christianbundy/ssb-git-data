@@ -1,17 +1,24 @@
 {
-  "previous": "%8DqRhOTyzANpwz0hzK91FZeZHg8RzA79vLX5xS8CH/A=.sha256",
+  "previous": "%kQkCQNOVVIzj3PIAD4/fAO9viWpSDFGcOJgYAv5t71w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5853,
-  "timestamp": 1539104114531,
+  "sequence": 5854,
+  "timestamp": 1539104226711,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%F586gTOCDtmAOIWSc2TlWEdD5HBGNt1WL+Mt/Ne4mg8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%NeOkZhPNhthqfXXAQ7cIU/NMe3S8SHtDhA8E5hu0H5I=.sha256",
+    "branch": [
+      "%7cFmte5ThRzZ/0dLYsHL3AZHhYXzL1XiMCTsRp0NqQ8=.sha256",
+      "%F586gTOCDtmAOIWSc2TlWEdD5HBGNt1WL+Mt/Ne4mg8=.sha256",
+      "%i/ML7wWyGwttXenrkj4LtBjunDbxuSi3n8Nq5h1KZSk=.sha256"
+    ],
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) I'd love to help you however I can. Would it be helpful for me to *just do it* and report back with scuttlebot's current behavior, or have you already tried that?",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "h8bL2j321ZGHWIsLSfNs0bkMg7TBxJIznPon71xglRzV/WblHPH2Ed8uDeHwrYI7BUxv1CraZrRDK2YQ0nktCg==.sig.ed25519"
+  "signature": "+BJ3f/fRO7RfrXSiunfCqMqUE1kiwEBpqiUj756/utVBk2g+G+bF37GaoTBiSZlmXpYTuI49hVXn1HTD6dW4CQ==.sig.ed25519"
 }
