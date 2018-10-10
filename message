@@ -1,20 +1,16 @@
 {
-  "previous": "%qzy4B1iGCwoi6IZHvun7esLIWp7GSyjwJkVnj/pMSL0=.sha256",
+  "previous": "%xJn2taYv8OSyyMqIKM0dY4zhIWlALLTyiKYJ2ZjxJmg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5933,
-  "timestamp": 1539197440171,
+  "sequence": 5934,
+  "timestamp": 1539198699665,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
-    "branch": "%sUlYzlovuQhnfXHbmOqWhsBwaTqq9xfbaQRGimr8rk0=.sha256",
-    "text": "> Same for the scuttlebot tests.\n\nJust to clarify, `npm test` on the Scuttlebot repo throws the same error? Unless you have a super funky SSB config or a quirky OS or something else unexpected, you may have found an issue with Scuttlebot. The file you provided [connects fine for me](https://asciinema.org/a/cBVdFn0J5RytRe2RFwayugvcg) with or without the `remote` property. \n\nMaybe an `npm ls` might be useful here? I'm not sure where else to check for troubleshooting.\n\ncc: [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519), any chance this is something you're familiar with?",
-    "mentions": [
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%SqG1B4/UabucCy7v2zrI7JAkDy/dh/qwNa/F92sNFIc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "TsVvN91JJwgAkbZz7Jxdzt3A61wGr1wQwxfOyqm2LAF8ho++AOC+dd4ni+JilL02ACn1Oztv9IO1QvCUYA/3Bw==.sig.ed25519"
+  "signature": "zEM5ETYJ0z9L76e9/nAGTNlcf3LG52Rm+eZT5FNfptOPvekcLv7Rx8w7NejsMwJA9jjC+mblKKcjsSWDKGb3AQ==.sig.ed25519"
 }
