@@ -1,17 +1,24 @@
 {
-  "previous": "%3WkgxVv+c1mU/ZsNGLtjdo709mE8p5/ACOx42SrAC1s=.sha256",
+  "previous": "%psae9v5xyatAYpVSq7oJYvap7RZ1OtY5pok57+khuC8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5930,
-  "timestamp": 1539196188099,
+  "sequence": 5931,
+  "timestamp": 1539196775964,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%UvJw+Ec3664nrJHcuuipK2fkOI6mzZB0U5a9M+sVtZo=.sha256",
-    "branch": [
-      "%7CRCzdCztMTYl1KgiJQ+i4H9njuoENlg4EOq+ZpELoM=.sha256",
-      "%BnZaZL3p5YZJYQ754U3WKBq3w3WOx91tKfyvsHtvAxk=.sha256"
-    ],
-    "text": "Funny enough, it was actually [this episode](http://www.danielvitalis.com/rewild-yourself-podcast/nora-gedgaudas-on-using-entheogens-to-free-our-minds-from-cultural-conditioning). Interesting notes:\n\n- The host says \"she works on neuro-feedback and the brain\" but I don't think she's a neurologist.\n- Both the host and guest seem to be into paleo and such?\n- The thing I remembered was the guest talking about 24/7 *holotropic breathwork*, not a diet (starts at 18:00).\n- I'm biased, but I found the other episodes on diet (especially the anti-vegan thing) to be a bit silly and unscientific.\n- Otherwise, I'm looking forward to checking out other episodes and seeing if it's as cool as I remember!"
+    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+    "branch": "%SqnBnQH4Ko6cuHkDGYzXO4fgSIazhIHWY71Il6/8Kcc=.sha256",
+    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nTotally, I'm a fan of [splitting the \"block\" semantics](%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256) into an on-chain \"flag\" or an off-chain \"mute\", similar to how you mentioned.\n\n> All message types that aren't specifically blacklisted from replication get replicated by default, right?\n\nMy understanding is that when Alice blocks Bob, that *nobody* should replicate *any* of Bob's message to Alice. If Bob is receiving Alice's messages my intuition is that you're peering with somebody who's running an old, buggy, or \"malicious\" instance of Scuttlebot that's still sharing messages with you from people who have blocked you. If you click one of those profiles are you able to see their latest posts?",
+    "mentions": [
+      {
+        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+        "name": "enkiv2"
+      },
+      {
+        "link": "%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256",
+        "name": "splitting the &quot;block&quot; semantics"
+      }
+    ]
   },
-  "signature": "lJBYgSs3K2RM7O6fpZXm/XCvt00GcC/TwlqW3EmeSBiv0I7KZTOOHy8EPFtuXkCt+uSpTiv54scZFmoGDiOnCw==.sig.ed25519"
+  "signature": "ByxNe7KPTWFrlWJu09kdAqvHG8CG3Jl63OILtWD3fey/XiGKuyS0Pdd3mpV9SpvWqWMbpAknPzn64XGUOq0ECw==.sig.ed25519"
 }
