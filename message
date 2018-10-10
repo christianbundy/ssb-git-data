@@ -1,16 +1,24 @@
 {
-  "previous": "%f7GMZ+/PR8QffW5Bz2AtXW/EgcmrUtonsmOrpc82Utg=.sha256",
+  "previous": "%qHdyYkKbPWKngyvGBEL2bYNvh54Ew3QhoWltGIsq750=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5935,
-  "timestamp": 1539199209985,
+  "sequence": 5936,
+  "timestamp": 1539201065361,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kxWh2sqv7GDRjyZwNhk8nz78zvl/XUKkeN64vNVUUHI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+    "branch": [
+      "%A/kUTHUyafi4Bdi/6vkw3bxHiP43OfY10+LrxZS+Qko=.sha256",
+      "%SqG1B4/UabucCy7v2zrI7JAkDy/dh/qwNa/F92sNFIc=.sha256",
+      "%zj8uSNB+myGGQlnQ5SSJHV3q1lMZmomsBWU8yGEFOKQ=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) Has that blocking change happened recently, or am I misreading the documentation? From the source of ssb-friends I can see that the current behavior is exactly what you're both seeing, but I see some outdated documentation that suggests it may have changed?\n\nFrom https://scuttlebot.io/apis/scuttlebot/block.html and https://ssbc.github.io/scuttlebot/plugins/block.html (same data?):\n\n> Disallow connections with people flagged by the local user, and **avoid sending a feed to the users they've flag[ed]**.\n",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
   },
-  "signature": "wz6T7SelFhZN9v+lFnG7Mt4nWT6GTR4HpeZwTC+QG7E7wT1E9mAv8Xglt8aEgY5Xh3yDRG07YTg9dnhkeHTYBw==.sig.ed25519"
+  "signature": "eRhjM5bdP35PlahXe6YTqB/aOTmJ1KEmmF6ZxiN8cSQpiJppCfPoBowKlFisKCUHpntxymfyacj/EqMwf7JWBA==.sig.ed25519"
 }
