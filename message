@@ -1,14 +1,16 @@
 {
-  "previous": "%2N5DQ9H1vJ0FRVtzpXNh30z5XW1LXV960uNBnLYWoAo=.sha256",
+  "previous": "%I2Kcy9L/ZHqQrtYFoaTpd9KcxTvVfvbN7x9ZMQvy3T8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5923,
-  "timestamp": 1539187210702,
+  "sequence": 5924,
+  "timestamp": 1539187278525,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
-    "branch": "%HChd869jP2WPUOZyFSo7EQrfyHQFQ4cLcmcSrRJ4phc=.sha256",
-    "text": "Are blocks meant to be propagated to the blocked user? I'm under the impression that when Alice blocks Bob that Bob should never have Alice's `type: block` message replicated."
+    "type": "vote",
+    "vote": {
+      "link": "%lkgkFKRqbd2tLpA/Zz5PvR58W2M6fsAt+nZVlz+OLVk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "sGDbHhU2QjE73UhnFnfKokFhdExdMjQJ+5Ob/RAtJ9pdTmg/JpBtTvL1GQmrtggYd7gpRogXXEi7PJE7dW6FDA==.sig.ed25519"
+  "signature": "q1U3UQRRyOQMBYVowzwarcEswgOk1LrretCfqJG8Dt/B0yFEXaqQYK65Frj24Nlh1VOGzjzjs3CNpgU+GzV6Ag==.sig.ed25519"
 }
