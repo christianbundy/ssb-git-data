@@ -1,16 +1,20 @@
 {
-  "previous": "%zZQJ7kBbh+OmZQYpYAYOlgZV+LYO1d6SiSQBYM0ThWQ=.sha256",
+  "previous": "%7tjdY1xwUqiKNpYsiL7zC0KhOhHKQQU6KNU2z2sEccA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5928,
-  "timestamp": 1539193777073,
+  "sequence": 5929,
+  "timestamp": 1539195285733,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YvWX4aBXcOmDXoXxQfiRIA8EmR1dL8K1NGm0ujNwH4U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%okkgwlFv4I8CbZmz+8pcE82H7Wkgyn8VUgXwDp55neg=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> I'm against putting host:port as at the start of data address - the point of cypherspace is to avoid giving power to servers.\n\nI should've been more clear, the only time I think this is useful is when encoding multiserver addresses and pub invites that *already* contain the host and port information, so I think the example you saw was a URI-conformant pub invite. For example:\n\n- **Before**: `<host>:<port>:@<integer>~<secret>`\n- **After**: `ssb://<host>:<port>/?ref=feed:ed25519:<integer>&secret=<secret>`\n\nI'm not against using multiserver addresses if they can't be reasonably translated into URLs, so multiserver URIs might look something like `ssb:?ms=<ms>`, which is fine as long as we use a URI-safe base64 encoding. I think it would be beneficial to use clickable pub invites -- are those multiserver addresses, or are they multiserver-adjacent addresses? I've noticed that most/all TCP pub invites don't include the `net:` prefix but I'm not sure why. ",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "VPWpjdoozHJasmIPooujq/mLIWPjdgmrxZsPX/IJ8K8/AylO+GpHmyLHQOoII+yU17EzkO31WyiOiVI6H8sACQ==.sig.ed25519"
+  "signature": "VLGK/w1XtZlEHCSiGyozqKIV1CxEFDqbhFLP1L6qhPld+WI082C2FGaBjyr52Lq4CfP89PMuJb06AwcF0ai2AQ==.sig.ed25519"
 }
