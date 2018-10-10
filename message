@@ -1,24 +1,23 @@
 {
-  "previous": "%psae9v5xyatAYpVSq7oJYvap7RZ1OtY5pok57+khuC8=.sha256",
+  "previous": "%7Srxya58W4YsiUfUIYoysKJycxvpZlAhq3zcj6/xiCM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5931,
-  "timestamp": 1539196775964,
+  "sequence": 5932,
+  "timestamp": 1539197003631,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
-    "branch": "%SqnBnQH4Ko6cuHkDGYzXO4fgSIazhIHWY71Il6/8Kcc=.sha256",
-    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nTotally, I'm a fan of [splitting the \"block\" semantics](%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256) into an on-chain \"flag\" or an off-chain \"mute\", similar to how you mentioned.\n\n> All message types that aren't specifically blacklisted from replication get replicated by default, right?\n\nMy understanding is that when Alice blocks Bob, that *nobody* should replicate *any* of Bob's message to Alice. If Bob is receiving Alice's messages my intuition is that you're peering with somebody who's running an old, buggy, or \"malicious\" instance of Scuttlebot that's still sharing messages with you from people who have blocked you. If you click one of those profiles are you able to see their latest posts?",
+    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "branch": [
+      "%4lF4KFIu+6OX9t17yKIgxZBuJRj98SiRZwR3Bk3Vvak=.sha256",
+      "%Wgqil22FLvrlLJ/HHqafuyu09HSulZxELhGNch+dYAQ=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nMaybe a silly question, but could the edit code be used as a Scuttlebot plugin? For example, [the `addMap()` function](https://github.com/ssbc/secure-scuttlebutt/pull/222) seems like it would make edit messages readable to all clients.\n \nI'm also super curious about the performance, it seems like doing two lookups for each message might be pretty resource-intensive, but at our scale that might be negligible.",
     "mentions": [
       {
-        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
-        "name": "enkiv2"
-      },
-      {
-        "link": "%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256",
-        "name": "splitting the &quot;block&quot; semantics"
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
       }
     ]
   },
-  "signature": "ByxNe7KPTWFrlWJu09kdAqvHG8CG3Jl63OILtWD3fey/XiGKuyS0Pdd3mpV9SpvWqWMbpAknPzn64XGUOq0ECw==.sig.ed25519"
+  "signature": "R0iyqb9NW4pBlnnJ1hpCH9Wxh0oppMrbGoSjBKFHZFar9Ov1622TDMCuh9fK8TDqMaICpfJuEg/JdgkI95eIAg==.sig.ed25519"
 }
