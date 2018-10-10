@@ -1,20 +1,14 @@
 {
-  "previous": "%0S7+/8jShz6GPQHX1N+BNKjaVYH94xK0bvnf83iEW00=.sha256",
+  "previous": "%2N5DQ9H1vJ0FRVtzpXNh30z5XW1LXV960uNBnLYWoAo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5922,
-  "timestamp": 1539187075713,
+  "sequence": 5923,
+  "timestamp": 1539187210702,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
-    "branch": "%63mEaD+n9QOI0nI5FpzB5unoXZkay66hHYNoM8pnlOo=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) How difficult would it be to have mutable messages in other clients (Patchwork, Patchbay, etc.)? I'd love to be able to use these, but I'm not sure whether it's possible or practical.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+    "branch": "%HChd869jP2WPUOZyFSo7EQrfyHQFQ4cLcmcSrRJ4phc=.sha256",
+    "text": "Are blocks meant to be propagated to the blocked user? I'm under the impression that when Alice blocks Bob that Bob should never have Alice's `type: block` message replicated."
   },
-  "signature": "vUVwQY0kgzdrnxqItkIGdzk6lZIYyCVdtGBNNFeC0BVIvHRFvFLjLCLKovwFwKKwyFIQLkAOpMdkTjXBFlnrAA==.sig.ed25519"
+  "signature": "sGDbHhU2QjE73UhnFnfKokFhdExdMjQJ+5Ob/RAtJ9pdTmg/JpBtTvL1GQmrtggYd7gpRogXXEi7PJE7dW6FDA==.sig.ed25519"
 }
