@@ -1,20 +1,17 @@
 {
-  "previous": "%7tjdY1xwUqiKNpYsiL7zC0KhOhHKQQU6KNU2z2sEccA=.sha256",
+  "previous": "%3WkgxVv+c1mU/ZsNGLtjdo709mE8p5/ACOx42SrAC1s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5929,
-  "timestamp": 1539195285733,
+  "sequence": 5930,
+  "timestamp": 1539196188099,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%okkgwlFv4I8CbZmz+8pcE82H7Wkgyn8VUgXwDp55neg=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> I'm against putting host:port as at the start of data address - the point of cypherspace is to avoid giving power to servers.\n\nI should've been more clear, the only time I think this is useful is when encoding multiserver addresses and pub invites that *already* contain the host and port information, so I think the example you saw was a URI-conformant pub invite. For example:\n\n- **Before**: `<host>:<port>:@<integer>~<secret>`\n- **After**: `ssb://<host>:<port>/?ref=feed:ed25519:<integer>&secret=<secret>`\n\nI'm not against using multiserver addresses if they can't be reasonably translated into URLs, so multiserver URIs might look something like `ssb:?ms=<ms>`, which is fine as long as we use a URI-safe base64 encoding. I think it would be beneficial to use clickable pub invites -- are those multiserver addresses, or are they multiserver-adjacent addresses? I've noticed that most/all TCP pub invites don't include the `net:` prefix but I'm not sure why. ",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "root": "%UvJw+Ec3664nrJHcuuipK2fkOI6mzZB0U5a9M+sVtZo=.sha256",
+    "branch": [
+      "%7CRCzdCztMTYl1KgiJQ+i4H9njuoENlg4EOq+ZpELoM=.sha256",
+      "%BnZaZL3p5YZJYQ754U3WKBq3w3WOx91tKfyvsHtvAxk=.sha256"
+    ],
+    "text": "Funny enough, it was actually [this episode](http://www.danielvitalis.com/rewild-yourself-podcast/nora-gedgaudas-on-using-entheogens-to-free-our-minds-from-cultural-conditioning). Interesting notes:\n\n- The host says \"she works on neuro-feedback and the brain\" but I don't think she's a neurologist.\n- Both the host and guest seem to be into paleo and such?\n- The thing I remembered was the guest talking about 24/7 *holotropic breathwork*, not a diet (starts at 18:00).\n- I'm biased, but I found the other episodes on diet (especially the anti-vegan thing) to be a bit silly and unscientific.\n- Otherwise, I'm looking forward to checking out other episodes and seeing if it's as cool as I remember!"
   },
-  "signature": "VLGK/w1XtZlEHCSiGyozqKIV1CxEFDqbhFLP1L6qhPld+WI082C2FGaBjyr52Lq4CfP89PMuJb06AwcF0ai2AQ==.sig.ed25519"
+  "signature": "lJBYgSs3K2RM7O6fpZXm/XCvt00GcC/TwlqW3EmeSBiv0I7KZTOOHy8EPFtuXkCt+uSpTiv54scZFmoGDiOnCw==.sig.ed25519"
 }
