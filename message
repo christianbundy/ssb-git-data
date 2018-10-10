@@ -1,24 +1,24 @@
 {
-  "previous": "%qHdyYkKbPWKngyvGBEL2bYNvh54Ew3QhoWltGIsq750=.sha256",
+  "previous": "%cYwbdI8ctaM8M+ffsGk++zPALlZRC1UIa0EtzcHxzAg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5936,
-  "timestamp": 1539201065361,
+  "sequence": 5937,
+  "timestamp": 1539204398245,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
-    "branch": [
-      "%A/kUTHUyafi4Bdi/6vkw3bxHiP43OfY10+LrxZS+Qko=.sha256",
-      "%SqG1B4/UabucCy7v2zrI7JAkDy/dh/qwNa/F92sNFIc=.sha256",
-      "%zj8uSNB+myGGQlnQ5SSJHV3q1lMZmomsBWU8yGEFOKQ=.sha256"
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) Has that blocking change happened recently, or am I misreading the documentation? From the source of ssb-friends I can see that the current behavior is exactly what you're both seeing, but I see some outdated documentation that suggests it may have changed?\n\nFrom https://scuttlebot.io/apis/scuttlebot/block.html and https://ssbc.github.io/scuttlebot/plugins/block.html (same data?):\n\n> Disallow connections with people flagged by the local user, and **avoid sending a feed to the users they've flag[ed]**.\n",
+    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
+    "branch": "%STbDG1a7WAseq/E40XuPxeMjEqWOhSamjUfjtt5Hfr8=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nThe background on `addMap()` was that ~~we needed~~ I wanted a way to prototype [blob content](%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256), so a map feature was added to flumedb so you could modify messages on read. For example, you could implement *cloud to butt* with something like:\n\n```js\nvar db = Flume(log, true, (val, cb) => {\n  if (val.value.content.type === post) {\n    val.value.content.text = val.value.content.text.replace(/cloud/g, 'butt')\n  }\n\n  cb(null, val)\n})\n```\n\nThis function runs on every `db.get()` or `db.stream()`, which gives you the ability to modify messages *before* they're accessed by other plugins. You could also do something like \"if `val.value.content.type !== 'edit'`, check for edits\". Unfortunately flumedb only allows a single map function, which in our case is passed by secure-scuttlebutt, so the PR I linked is meant to expose a way for plugins to add their own map functions. There's [an example](https://github.com/ssbc/secure-scuttlebutt/blob/53b9d98b61f1d9fd74c50ccaeb73a95ed4fecf47/README.md#securescuttlebuttaddmap-fn) on the branch, and if my client was running that code your above message would appear on my client (and to all of the plugins) as:\n\n```js\n{\n  \"fizz\": true,\n  \"key\": \"%STbDG1a7WAseq/E40XuPxeMjEqWOhSamjUfjtt5Hfr8=.sha256\",\n  \"value\": {\n    \"timestamp\": 1539198459294,\n    // ...\n  }\n}\n```\n\n**TL;DR:** it's a way to call a function and modify messages on read *without* having to interface with other plugins.",
     "mentions": [
       {
         "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
         "name": "ev"
+      },
+      {
+        "link": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+        "name": "blob content"
       }
     ]
   },
-  "signature": "eRhjM5bdP35PlahXe6YTqB/aOTmJ1KEmmF6ZxiN8cSQpiJppCfPoBowKlFisKCUHpntxymfyacj/EqMwf7JWBA==.sig.ed25519"
+  "signature": "SM3UIDVbO7qLv6hHu+l2els7myO0u0RDQfqNjnGu3ENiJrjPL9UAg73x/8ISU4L0QcV8YPTTELXAXFtGGG1eCQ==.sig.ed25519"
 }
