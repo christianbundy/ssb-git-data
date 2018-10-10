@@ -1,23 +1,20 @@
 {
-  "previous": "%7Srxya58W4YsiUfUIYoysKJycxvpZlAhq3zcj6/xiCM=.sha256",
+  "previous": "%qzy4B1iGCwoi6IZHvun7esLIWp7GSyjwJkVnj/pMSL0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5932,
-  "timestamp": 1539197003631,
+  "sequence": 5933,
+  "timestamp": 1539197440171,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
-    "branch": [
-      "%4lF4KFIu+6OX9t17yKIgxZBuJRj98SiRZwR3Bk3Vvak=.sha256",
-      "%Wgqil22FLvrlLJ/HHqafuyu09HSulZxELhGNch+dYAQ=.sha256"
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nMaybe a silly question, but could the edit code be used as a Scuttlebot plugin? For example, [the `addMap()` function](https://github.com/ssbc/secure-scuttlebutt/pull/222) seems like it would make edit messages readable to all clients.\n \nI'm also super curious about the performance, it seems like doing two lookups for each message might be pretty resource-intensive, but at our scale that might be negligible.",
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "branch": "%sUlYzlovuQhnfXHbmOqWhsBwaTqq9xfbaQRGimr8rk0=.sha256",
+    "text": "> Same for the scuttlebot tests.\n\nJust to clarify, `npm test` on the Scuttlebot repo throws the same error? Unless you have a super funky SSB config or a quirky OS or something else unexpected, you may have found an issue with Scuttlebot. The file you provided [connects fine for me](https://asciinema.org/a/cBVdFn0J5RytRe2RFwayugvcg) with or without the `remote` property. \n\nMaybe an `npm ls` might be useful here? I'm not sure where else to check for troubleshooting.\n\ncc: [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519), any chance this is something you're familiar with?",
     "mentions": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
       }
     ]
   },
-  "signature": "R0iyqb9NW4pBlnnJ1hpCH9Wxh0oppMrbGoSjBKFHZFar9Ov1622TDMCuh9fK8TDqMaICpfJuEg/JdgkI95eIAg==.sig.ed25519"
+  "signature": "TsVvN91JJwgAkbZz7Jxdzt3A61wGr1wQwxfOyqm2LAF8ho++AOC+dd4ni+JilL02ACn1Oztv9IO1QvCUYA/3Bw==.sig.ed25519"
 }
