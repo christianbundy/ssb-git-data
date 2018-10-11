@@ -1,16 +1,23 @@
 {
-  "previous": "%QRnRz7GInAMYvTkzvJpzEz/eySOt5sArQnQQgwDe/+4=.sha256",
+  "previous": "%TO0ckAwo5CxicB/PcYIwlzITo536x5q6sA2WNpG2DCg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5990,
-  "timestamp": 1539276944116,
+  "sequence": 5991,
+  "timestamp": 1539284963717,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jWX99d9bNCAMtYtb1o6GxKRRj4SX4zDeSn22/PWKp9k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%CgGEJ0VFVLXanpJe4fz0pEzT0Kau+Ox21Jp4qA58XRU=.sha256",
+    "text": "## Intentions\n\nI probably should've done this in my first message in this thread, but I'd like to clarify my intentions: to make the smallest possible step toward usable URIs for our wonderful community/technology. Sticking `ssb:` at the beginning of our current identifiers has three problems:\n\n- It doesn't support multiserver addresses\n- It requires percent-encoding for some characters (`%` / `+` / `/`, IIRC) \n- Adding multiserver addresses to this format conflicts with internet standards (namely [RFC 3986](https://tools.ietf.org/html/rfc3986)).\n\n## Baby step~~s~~\n\nI'm *personally* under the impression that our first viable [baby] step should be a solution that:\n\n- Conforms to basic internet standards for URIs.\n- Doesn't require percent-encoding for most identifiers.\n- Supports feeds, messages, blobs, and multiserver addresses.\n\nThings I'm *personally* comfortable ignoring during this iteration:\n\n- Switching to a different integer encoding radix.\n- Refactoring the multiserver encoding.\n\n## Samples\n\nSimply put, I think there are four identifiers that we can use to determine the shape of the others:\n\n- **Basic identifier:** `%<integer>.<alg>`\n- **De facto identifier:** `#<string>`\n- **Complex identifier:** `%<integer>.<alg>?unbox=<integer>`\n- **Multiserver address**: `<multiserver-address>`\n\n## Minimum viable scheme\n\nThere are all sorts of improvements I'd like to make, but it seems to me that this is the easiest win:\n\n- **Basic reference**: `ssb:?id=message:<integer>.<alg>`\n- **De facto reference:** `ssb:?id=channel:<string>`\n- **Complex reference**: `ssb?id=message:<integer>.<alg>&unbox=<integer>`\n- **Multiserver address**: `ssb:?ma=<multiserver-address>`\n\nHow do we encode integers? I don't care. I'm happy with any URI-safe integer encoding, so my proposal *for this iteration* is to default to a URI-safe base64. It isn't sexy, but it's at least something we can likely agree on since it's the same radix we're currently using.\n\n### Problems\n\n#### The `:` character \n\n[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nI totally understand your concern over `:`, but I think `encodeURIComponent()` may be misapplied here. We *could* run into bugs resulting with broken URI handlers, but since [magnet URIs use `:` by default](https://en.wikipedia.org/wiki/Magnet_URI_scheme) I think we can safely do the same.\n\nI love the benefits from parsing the multiserver address, query-encoding it into an array, and then being able to decode it back into an array, but since it's likely just going to get re-serialized and passed to multiserver it seems to me that the simplest option would be to leave it as-is. Again though, I really love and trust your input so I'd like to hear what you think.\n\n#### #channel%20name\n\nWe are going to run into problems trying to URI-encode our current channel names, since channel names aren't content-addressable (!) I think this is our only option unless we decide to drop support for them in our URI spec. I recommend that channel names are *always* URI-encoded before being passed into a URI, but that in the future I'd love support for content-addressable channels in the format `ssb?id=channel:sha256:<integer>` or something similar. I'd also support renaming them \"hashtags\" and following [the Unicode specification](http://unicode.org/reports/tr31/#hashtag_identifiers), but that's probably not relevant to this thread.\n\n### Benefits\n\n- Conforms to basic internet standards for URIs.\n- Doesn't require percent-encoding for most identifiers.\n- Supports feeds, messages, blobs, and multiserver addresses.\n\n## Improvements\n\nThere are a few things I'd like to improve upon, but they're changes from what we currently have. If we can all agree, great! If we can't, I'd propose that we stick with what we got.\n\n- Replace `<type>:<integer>.<alg>` with `<type>:<alg>:<integer>`, like a [URN](https://en.wikipedia.org/wiki/Uniform_Resource_Name).\n- Replace `&unbox=` with `&secret=` and always encode non-multiserver secrets in a `&secret` parameter.\n- Replace URI-safe base64 with something better. Definition of \"better\" left as an exercise for the reader.\n\n## Questions\n\n- Are there any remaining concerns?\n- Are there any improvements that we can all agree upon?\n- Is anyone else excited to find a resolution and then move to less specification-based problems?\n\nReally enjoying iterating on this with all of you, I just wish we were all within walking distance of the same pub!",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "#channel%20name"
+      }
+    ]
   },
-  "signature": "YuxFFP455JxwdEkG5Z5/K8BHe5/09snygOU37f6ooo9d/hslsVrIGWhO5Qxi5EHBN/DDVlHkEXS+p9AVPdSzCw==.sig.ed25519"
+  "signature": "7yo6EtD9f+I6MH1eIe/IeLdQujyNQyI8f0e49J6nT4C0ykehI6EyIRG4f+6KP5s6pIAvMYjxWnZ5IICy2oA0DA==.sig.ed25519"
 }
