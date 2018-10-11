@@ -1,17 +1,20 @@
 {
-  "previous": "%fz7HPr7c/tNAsQLms+6KiImQE8biuzTUWoVSh1uzvOY=.sha256",
+  "previous": "%CnK6EEc4xdK0Myp1/DtwE2ZN+J5NYju/DwlVtm0WchQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5951,
-  "timestamp": 1539228507304,
+  "sequence": 5952,
+  "timestamp": 1539228741672,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
+    "branch": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Woo! Thanks for the release, I've just published it to the #aur without any issues.",
+    "mentions": [
+      {
+        "link": "#aur"
+      }
+    ]
   },
-  "signature": "gomjtZ3BkIKYFJ4gWRKOS1+MouzKUHsZaCoeCWuzjScclNZ5niUSIdc28wNQanzd0TOq6vAP9NipP+DMDmaSCQ==.sig.ed25519"
+  "signature": "Vg8/1vCSbWtglHW9r3lDBcujpEDEhk7Ofunf8jykcxpwRedpgW3PN86Hw4Sb8rTS54djeI3Lhl4iaQUPhQSJCA==.sig.ed25519"
 }
