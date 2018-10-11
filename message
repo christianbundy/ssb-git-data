@@ -1,15 +1,47 @@
 {
-  "previous": "%luPdVlKWyW6cxOnOON1cRYlYQtovtIhbnLMokA4/YK0=.sha256",
+  "previous": "%Va9HNXnG0rvXs0hS/lO0aLrXOXJ9UjY01BW/voy3uE0=.sha256",
+  "sequence": 5950,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5949,
-  "timestamp": 1539221670983,
+  "timestamp": 1539228493120,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%LAGvVzSNA/gbize/f+UeJYDEBIqWIMMDmvFZcpIY1Fk=.sha256",
-    "branch": "%luPdVlKWyW6cxOnOON1cRYlYQtovtIhbnLMokA4/YK0=.sha256",
-    "channel": "patchbay",
-    "text": "Hmm... :thought_balloon: I'm surprised that mid-sentence emoji work!\n\n🕴️"
+    "type": "git-update",
+    "repo": "%JL0DZJnlX0r0pgFKYnTssJcnE4PqGt3j92irRHSCDNQ=.sha256",
+    "refsBranch": [],
+    "repoBranch": [
+      "%+mcP1IBUb1Atd+WTDu/ZLXqmVegeAETKw89q69HsfzI=.sha256"
+    ],
+    "packs": [
+      {
+        "link": "&9WC4ecJ+cIv0OonGEbzE525bU94ZhkI/YVnzyG1D84A=.sha256",
+        "size": 1995
+      }
+    ],
+    "indexes": [
+      {
+        "link": "&d6jVCalsotTGW2CFCiNrIWJPlkVq2sJWWpE3XJZEbtE=.sha256",
+        "size": 1184
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "a2a008219ff957d821a520d149c357e3f4ad8eca"
+    },
+    "commits": [
+      {
+        "parents": [
+          "3995fcf6f63d4e3d94f35e594dc7ddb638b3f661"
+        ],
+        "title": "Release 7.15.0-1",
+        "sha1": "a2a008219ff957d821a520d149c357e3f4ad8eca"
+      }
+    ],
+    "tags": [],
+    "num_objects": 4,
+    "object_ids": [
+      "9e558689dfb60c599f8d92f162defd0b6b3f3013",
+      "237723c1682310de46992d380782774fb4afc11c",
+      "4a0b73844826262b6649e32cdd72d6d187ae4836"
+    ]
   },
-  "signature": "CqA8OQIB/nVX17wKzu79gkp+tF4wj0IR9HNPZdzw/gFNvBeuHV8jvszv+3pAkySqoCQtaeoUxHhMNVVM/+OaDw==.sig.ed25519"
+  "signature": "4T7g9IQWxduh0WH3rioptGVwRcJUGY6AgBlD7WoOk30P43TwoZHxIoXrQrtpti4d2kclrqQ7miALwdhWdiVXDQ==.sig.ed25519"
 }
