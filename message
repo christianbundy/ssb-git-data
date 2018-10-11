@@ -1,16 +1,14 @@
 {
-  "previous": "%nTGlGChw09WzaGGaPV/ROHwDUC2HD4nd/YUSze5HPi4=.sha256",
+  "previous": "%tyZAR7MyxPc30hUzbec26HgsVuy8JTjrgOqlZwqtKyA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5996,
-  "timestamp": 1539286633336,
+  "sequence": 5997,
+  "timestamp": 1539287172040,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wYKSP7vcR74m9+AZ43SIS5jEF9UH16GTMkL5vsfkCrw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wYKSP7vcR74m9+AZ43SIS5jEF9UH16GTMkL5vsfkCrw=.sha256",
+    "branch": "%7TEpda+btoBiIHoDAqEdaIcjbmAb3n4y4HDJGmaohS8=.sha256",
+    "text": "I think this highlights the need for finer-grain control over blobs. There are some blobs, like my profile photo, that I think *most* of my followers should probably download, but I'd love to post blobs that are only meant for a few people (without resorting to a PM). For example, when I link to a website I'd be happy to include a blobified archive in my post, but I don't really want to add the overhead to all of my followers.\n\nIn the past I've considered that you might be able to determine whether a blob should be downloaded by scoring the post by some metric and comparing the size of the blob(s) with the score of the post, but it would be a challenge to compare, say:\n\n- a 4 MB blob with 4 likes from 8 days ago\n- a 3 MB blob with 2 likes from 2 days ago\n\nIt's a problem that *could* be solved, and I'm sure you could predict the trajectory of the post based on the likes/age, but my intuition is that there's a simpler solution somewhere that we haven't considered. Either way, I think the naive \"download all blobs\" approach may be due for an upgrade."
   },
-  "signature": "qYmJ7H3IPX/WMyd3fKX3/bzWHZaG86FKeXrG8NBFUoHKkocdCWEBFgzD+L+0xXhwfM8n4CsFWwFUvphb02PSAw==.sig.ed25519"
+  "signature": "amz39YhPYCCBeE/KGdCEdVdvnt8kkF7GAbdEwyzZupdKWuBRsCOgbogsJGGwQJ/D+smrCPmaWHk4uzPQ0q6YAg==.sig.ed25519"
 }
