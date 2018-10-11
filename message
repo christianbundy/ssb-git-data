@@ -1,16 +1,20 @@
 {
-  "previous": "%JTCnRu6NFU4BFTNAPWA0OZYY1IMEMQHR0QpTBG1u76c=.sha256",
+  "previous": "%HJZwRq/AESnHJTjQikDm/55tv2qExi3HzRa1SJ8q2Oc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5942,
-  "timestamp": 1539216663110,
+  "sequence": 5943,
+  "timestamp": 1539218149998,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%W0/US4odp23xgalqbtFyv8dTGCknDeEVeYrJhag2rRk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%8OjYru211mJ/XzK2k/UtWgxfEO5ctFrhDmaBDss3N74=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\n> on first blush, the current proposals won't work because : must be percent-encoded to be used in a url or query string, ~ must be encoded if used as a query string in an html form (which we can probably ignore?).\n\nI think I might have a slightly different understanding of this, could you help me get onto the same page? I'm really not great at reading IETF docs so my confidence is about 30%, but I'm reading about [query strings](https://tools.ietf.org/html/rfc3986#section-3.4) that have the format:\n\n```abnf\nquery = *( pchar / \"/\" / \"?\" )\n```\n\nI don't know what `pchar` represents (printed characters?), but here's what I'm seeing the [the appendix](https://tools.ietf.org/html/rfc3986#appendix-A):\n\n```abnf\nunreserved  = ALPHA / DIGIT / \"-\" / \".\" / \"_\" / \"~\"\npct-encoded = \"%\" HEXDIG HEXDIG\nsub-delims  = \"!\" / \"$\" / \"&\" / \"'\" / \"(\" / \")\"\n            / \"*\" / \"+\" / \",\" / \";\" / \"=\"\npchar       = unreserved / pct-encoded / sub-delims / \":\" / \"@\"\n```\n\nIf I'm reading this right, I *think* this means we can just stick multiserver addresses in a query string and be done with it. If so, this seems like some great baby steps to iterate from where we are today:\n\n- Simple URI scheme for `<sigil><integer>.<alg>`-style messages.\n- Clickable multiserver addresses without any structural changes.\n\nThis means that the only change necesary would be a URI-safe base64:\n\n```\nssb:?multiserver=net:wx.larpa.net:8008~shs:DTNmX-4SjsgZ7xyDh5xxmNtFqa6pWi5Qtw7cE8aR9TQ=\n```\n\nIt sounds like non-modern pub invites won't make the cut, do we know what the status on DHT invites are? Are those all valid multiserver addresses, or is it an ad-hoc syntax that we'll want to wrangle as well? Hopefully my read of the URI spec is correct! Otherwise we'll likely need to use a more verbose solution.",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "5rxazlqjon9N56faoKRGuJFMkPIoufzNdIARj3QF8HXs1ol2pqkjkodgbZAlepKEtcXg9mv6uvDMDY4e98QuAw==.sig.ed25519"
+  "signature": "CTpJPvaH8/m40xuWdWdribGnsteNK29sWyW2bh674Yl5NVSCiQRdKOTrQteJFH+TSNlD1Hq0UN+EA8IQH9UZDQ==.sig.ed25519"
 }
