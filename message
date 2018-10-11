@@ -1,13 +1,22 @@
 {
-  "previous": "%9XeGK2u2EiXVy8v3WJQlk7GyPrnThAv3v8NL/IIbsxw=.sha256",
+  "previous": "%D2LtG7zFfhLJGr+Fzx08kamNGoCK+9GzgKdrbC6TVV0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5985,
-  "timestamp": 1539270603264,
+  "sequence": 5986,
+  "timestamp": 1539271668388,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@bC52DlvFXtmI9aBCRENa9kCGGTg1YJQYMB4zEofYAnA=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
+    "branch": "%lkgkFKRqbd2tLpA/Zz5PvR58W2M6fsAt+nZVlz+OLVk=.sha256",
+    "text": "Don't know why I didn't think of this, but log-scale looks *way* better:\n\n```shell\ngnuplot -p -e 'set logscale y; plot \"delay.dat\" with dots'\n```\n\n![logarithmic delay](&UvF6pRONnvb41vBz8QAKS/Wx9/pDIMkyJptMqQSERpM=.sha256)\n\nAgain, my downtime makes this much less useful, but it's better than the previous plot. I'm surprised to see horizontal lines in the graph, I wonder why that might be.",
+    "mentions": [
+      {
+        "link": "&UvF6pRONnvb41vBz8QAKS/Wx9/pDIMkyJptMqQSERpM=.sha256",
+        "name": "logarithmic delay",
+        "type": "image/png",
+        "size": 37359
+      }
+    ]
   },
-  "signature": "bUtbdZ/mYJHWWWqgFx8EYkHLNtM3tUx90QEWihP+4kHhmb4/ryxQkb+xtw2ab43NNQZgfT5TZDp/LViy9NZmDg==.sig.ed25519"
+  "signature": "fLdGZF0wIUxGiodhSqRRVBVxqy2oqsqm/92ZYQjdp78IqVLJ+ZN8DBoqtXRP9xVkWdTuziadSZiEygdUOJjPBg==.sig.ed25519"
 }
