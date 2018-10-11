@@ -1,21 +1,17 @@
 {
-  "previous": "%fV4BfEf0w4QvCcY+SPP37kPWlC7aAX0Wf64fqYHTuYE=.sha256",
+  "previous": "%Oe9XPX1GTVJBXvOmHKkhsyYLHgIxMYfeIjzRJbcJo50=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5956,
-  "timestamp": 1539269555888,
+  "sequence": 5957,
+  "timestamp": 1539269607555,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
-    "branch": "%ThyBwys6UoeSveXKKfnbxDq4P7PGoo/gdyUZllQAXUo=.sha256",
+    "type": "vote",
     "channel": "patchbay",
-    "text": "[@runKleisli](@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519) Sorry, I'm not familiar with what you mean by \"version ranges for [...] compatibility\", could you unpack that a bit? I'd love to help you out with this if I know the answer.",
-    "mentions": [
-      {
-        "link": "@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519",
-        "name": "runKleisli"
-      }
-    ]
+    "vote": {
+      "link": "%ujMGIgZMjeMFsoQzMzL8QeSs8QrDS5ckjwO3tQukjOE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "qgM3IFHsPqJdIh61iQ+Z1fn/IWkNGxrrZ1k2blkj4Z7ChpQVqveME53rmLQsPHuPGcyO9wuK5t5CAtFMhlOhCw==.sig.ed25519"
+  "signature": "kh2AghHwR5oXXqrJS9vBeZQRTvxM4s5oVaLqYBKCYovOaUMWd8chLSoEsivVUpmX7MURYLM5FxQpPT5qEe66AQ==.sig.ed25519"
 }
