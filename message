@@ -1,9 +1,25 @@
 {
-  "previous": "%XgafWTs65FAx+7DKh72XKcVRT/wUt9fLvdK3hVDIzrM=.sha256",
-  "sequence": 6004,
+  "previous": "%FcXXpji2ExU1qDvPV4058MACGHqS3+SBQ4TqcjnCgb4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539288010513,
+  "sequence": 6005,
+  "timestamp": 1539288613040,
   "hash": "sha256",
-  "content": "EBc4wVCo4vQwaiDZ4FMOZKdsZ+714BL2rzbUEGbMNTtB/1N3qpIQUfTHjX+WnrwSm+Gsrkot2BAHztcX3oqGHlAfv3va1w2NIvbpz6j99JoJ3fDQPeadjzRsuBtaZjnNU0ePmbu8lIElzIFSSx93qPSSKR+U64zP5BnJ7wRyT4nciJ5UB+nzO1Yp1a3UGcGlH5V8nY3YJ02IncgXzzvYkyXHdk7XucstC9aVeGc1u7tzAIASZSdGyG/4DqRwjs9vrAUuayuTBRxZsVPfb6ZWoE6Exp04e8p2syF8GnFKVjptfkOuQH+polgoW9HrWA==.box",
-  "signature": "q9IkJUBUtH2PX3Qq4z8zsfFKnC5EqoxHrokitibbB42vaxT1VpJVs0yBMeNGWrbzA+uHzzwCKujfrG/eqPT6Cw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "# Mute: Private Block\n\nBlocking is controversial, and as [I've talked about before](%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256) it seems like it might a private \"mute\" might be a useful tool for hiding posts *without* broadcasting that you've muted someone. I don't know why I haven't thought of this before, but I think we can implement mutes *today* with no structural changes:\n\n```sh\ntarget=\"@10K9Ke665wSqJL442WQwdVhgf9516F+iSyDnTX+YZz4=.ed25519\"\nself=\"$(sbot whoami | jq -r .id)\"\nsbot publish --type contact --contact \"$target\" --blocking true --recps \"$self\"\n```\n\nIt's mind-numbingly simple: publish a `block` message, but encrypt it so that nobody else can see it. My client knows I've blocked @10K9Ke665wSqJL442WQwdVhgf9516F+iSyDnTX+YZz4=.ed25519, but nobody else should be able to see that I've blocked that feed.\n\nThe only caveat is that (at least in #patchbay) you have to restart the client or `<Ctrl> + r` to bust the cache and make the interface show the true state of whether you've blocked someone. I'm sure this would be resolved by a real mute button, but the `sbot` command was the easiest way to prototype this feature.\n\nAnyway, can anyone see my blocks, or is the mute working as expected?",
+    "channel": "ssb-show-and-tell",
+    "mentions": [
+      {
+        "link": "%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256",
+        "name": "I&#39;ve talked about before"
+      },
+      {
+        "link": "@10K9Ke665wSqJL442WQwdVhgf9516F+iSyDnTX+YZz4=.ed25519"
+      },
+      {
+        "link": "#patchbay"
+      }
+    ]
+  },
+  "signature": "CRpOnJYcW+WP+pdImU8K4xCHTQzURO3uskOJyrb7SpHMInG0Hy5i7Hgs6Rk7ChDu8K6N98KFYyKKg5i6j/WKDw==.sig.ed25519"
 }
