@@ -1,17 +1,23 @@
 {
-  "previous": "%h677UKCoTE2Yg1FvXgydcXtdHh+xcv2nBr1xIch9BQo=.sha256",
+  "previous": "%TXGixug5nUrHLGygeAmoCLQ5DEw74QtzMTR2xvugXuY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6007,
-  "timestamp": 1539288662434,
+  "sequence": 6008,
+  "timestamp": 1539288764524,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%/OM+dSNmDmiBxNmWg6pYsQX4j53dWTJt7XuOAyYCdXM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wYKSP7vcR74m9+AZ43SIS5jEF9UH16GTMkL5vsfkCrw=.sha256",
+    "branch": "%/OM+dSNmDmiBxNmWg6pYsQX4j53dWTJt7XuOAyYCdXM=.sha256",
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) Sounds like #same-as for blobs! I really do think   this would be useful, although I'm not sure what the implementation would look like.",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      },
+      {
+        "link": "#same-as"
+      }
+    ]
   },
-  "signature": "51CREmDOqp/jXDQu2fGymOxYFYJlt0UG4kWnj6EGW4tXv/+ULMQ5uLoYdmY34ADhaUFG2jfrEXVYiEhV6He4DA==.sig.ed25519"
+  "signature": "vUmMMEuWbtDWEt/bkGKMVFNHd4I+Fm8L9cWagKlRedvcCJpnTJOST9lJADERsRgPzmOCi/2GKztNV/Q+WtWfDQ==.sig.ed25519"
 }
