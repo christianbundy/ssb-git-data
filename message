@@ -1,47 +1,23 @@
 {
-  "previous": "%2RerFQ16qAOF71zu62vmq9CvJ3Q6yChh4Uyl7mPiubE=.sha256",
-  "sequence": 5938,
+  "previous": "%Re8w4VdpDOZUWhePmYj804gZsip0nC9SaBzk5WN3jDk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539216336238,
+  "sequence": 5939,
+  "timestamp": 1539216524362,
   "hash": "sha256",
   "content": {
-    "type": "git-update",
-    "repo": "%i2X60OQeGuNuhQRhF2WWygIbk9d7CrioEZTZmrICUsk=.sha256",
-    "refsBranch": [],
-    "repoBranch": [
-      "%rslFRqM5/t2dxBr5KKUH1RJR/IadwLB+kshOyDI8RjQ=.sha256"
-    ],
-    "packs": [
+    "type": "post",
+    "root": "%gQlxMf3r8JHscLYU4Aj4EdjSESAqoimWnYqznZpFHOc=.sha256",
+    "branch": "%gQlxMf3r8JHscLYU4Aj4EdjSESAqoimWnYqznZpFHOc=.sha256",
+    "channel": "patchwork",
+    "text": "Published #ssb-patchwork to the #aur! Btw, I'm not sure whether it's worth putting more effort into signing the releases, but I'd love to have the sha512sum included for `https://github.com/ssbc/patchwork/archive/v${pkgver}.tar.gz` as well so others don't just have to take my word for it. Thanks for the release! :raised_hands: ",
+    "mentions": [
       {
-        "link": "&By5w79P3TOV0cNDFmA+eZsmdO14HIJOZ+2ghvskebzc=.sha256",
-        "size": 2472
-      }
-    ],
-    "indexes": [
+        "link": "#ssb-patchwork"
+      },
       {
-        "link": "&0FDOrXDxfOaoTRHphe73eTjR+5OVS+X7eTtNGcb5ugg=.sha256",
-        "size": 1184
+        "link": "#aur"
       }
-    ],
-    "refs": {
-      "refs/heads/master": "5eafce17860fd3c5a881b4a0f94b7f9b8614afeb"
-    },
-    "commits": [
-      {
-        "parents": [
-          "3448402df8d6c8564f841cddb332e1d5a8771f23"
-        ],
-        "title": "Release 3.11.1-1",
-        "sha1": "5eafce17860fd3c5a881b4a0f94b7f9b8614afeb"
-      }
-    ],
-    "tags": [],
-    "num_objects": 4,
-    "object_ids": [
-      "5423bafa6685c14c3039f991c708970afd954698",
-      "550b5f9dab8c781262d07a7f7f6a4a929eb799c2",
-      "b5d10164aaf44e569fec313939fada9dc907ef52"
     ]
   },
-  "signature": "wrATSLK5/wyEMXl1xffRZDEJMbtlDF35i3PH9CvspEhuVgVvwwa1kNoTimoAyK33XYsuhMyE7NH5RzOXkgp1Cw==.sig.ed25519"
+  "signature": "y/MKWqUYZl3gYDTanA9nGTl0zLZL+R76ErGapR3SxosYuKJ7/T2mJhZrDMw70H7z2XbUKfowNJ7VdpS2LNu5Cw==.sig.ed25519"
 }
