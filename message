@@ -1,22 +1,16 @@
 {
-  "previous": "%7jTiJeyienTzIFkU2GrNOJZsfgwFsh0RE4a7GEhBbK4=.sha256",
+  "previous": "%TDWoSNGn4XRkXFJfmwJlAVDvrl69E4j0+o9kPCoU0jA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5987,
-  "timestamp": 1539272769339,
+  "sequence": 5988,
+  "timestamp": 1539274634119,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
-    "branch": "%7jTiJeyienTzIFkU2GrNOJZsfgwFsh0RE4a7GEhBbK4=.sha256",
-    "text": "Even better: with a title, labeled axes, and reasonable units. The x-axis is the number of days since the first SSB post, and the y-axis is the number of *seconds*, not milliseconds, between the time a message was published and received.\n\n```shell\ngnuplot -p -e 'set title \"SSB publish/receive latency\";set logscale y; set xlabel \"time since first SSB post (days)\"; set ylabel \"received timestamp - publish timestamp (seconds)\"; plot \"delay.dat\" using (($1 - 1438787024567)/1000/60/60/24):($2/1000) with dots'\n```\n\n![better graph of SSB latency](&08PWXgvx5BExToSWBTn3tcLrx126Payle5LVb5pQpBA=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&08PWXgvx5BExToSWBTn3tcLrx126Payle5LVb5pQpBA=.sha256",
-        "name": "better graph of SSB latency",
-        "type": "image/png",
-        "size": 49440
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%CgGEJ0VFVLXanpJe4fz0pEzT0Kau+Ox21Jp4qA58XRU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "9OLO/SswNH60cwJQggdiSqgmU39yDh5rfPfd9/8YsKufhh9CULJ0kAg2r5vjCQdtVMu4lUPfUU1kD3PqfPhmDA==.sig.ed25519"
+  "signature": "nX8gyhUZ67DODzymOC/lvQ7ZxFX/wy+l9oP4LJP0XitCEzTbW2DytlLAFPfd2wwZgZ8N7He0i9o8m54oEg5QBQ==.sig.ed25519"
 }
