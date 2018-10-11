@@ -1,24 +1,47 @@
 {
-  "previous": "%cYwbdI8ctaM8M+ffsGk++zPALlZRC1UIa0EtzcHxzAg=.sha256",
+  "previous": "%2RerFQ16qAOF71zu62vmq9CvJ3Q6yChh4Uyl7mPiubE=.sha256",
+  "sequence": 5938,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 5937,
-  "timestamp": 1539204398245,
+  "timestamp": 1539216336238,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PtxLfewN03z3NJ0b+oBDeigt0z5IWTQIYoKyUB5/8VQ=.sha256",
-    "branch": "%STbDG1a7WAseq/E40XuPxeMjEqWOhSamjUfjtt5Hfr8=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nThe background on `addMap()` was that ~~we needed~~ I wanted a way to prototype [blob content](%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256), so a map feature was added to flumedb so you could modify messages on read. For example, you could implement *cloud to butt* with something like:\n\n```js\nvar db = Flume(log, true, (val, cb) => {\n  if (val.value.content.type === post) {\n    val.value.content.text = val.value.content.text.replace(/cloud/g, 'butt')\n  }\n\n  cb(null, val)\n})\n```\n\nThis function runs on every `db.get()` or `db.stream()`, which gives you the ability to modify messages *before* they're accessed by other plugins. You could also do something like \"if `val.value.content.type !== 'edit'`, check for edits\". Unfortunately flumedb only allows a single map function, which in our case is passed by secure-scuttlebutt, so the PR I linked is meant to expose a way for plugins to add their own map functions. There's [an example](https://github.com/ssbc/secure-scuttlebutt/blob/53b9d98b61f1d9fd74c50ccaeb73a95ed4fecf47/README.md#securescuttlebuttaddmap-fn) on the branch, and if my client was running that code your above message would appear on my client (and to all of the plugins) as:\n\n```js\n{\n  \"fizz\": true,\n  \"key\": \"%STbDG1a7WAseq/E40XuPxeMjEqWOhSamjUfjtt5Hfr8=.sha256\",\n  \"value\": {\n    \"timestamp\": 1539198459294,\n    // ...\n  }\n}\n```\n\n**TL;DR:** it's a way to call a function and modify messages on read *without* having to interface with other plugins.",
-    "mentions": [
+    "type": "git-update",
+    "repo": "%i2X60OQeGuNuhQRhF2WWygIbk9d7CrioEZTZmrICUsk=.sha256",
+    "refsBranch": [],
+    "repoBranch": [
+      "%rslFRqM5/t2dxBr5KKUH1RJR/IadwLB+kshOyDI8RjQ=.sha256"
+    ],
+    "packs": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      },
-      {
-        "link": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
-        "name": "blob content"
+        "link": "&By5w79P3TOV0cNDFmA+eZsmdO14HIJOZ+2ghvskebzc=.sha256",
+        "size": 2472
       }
+    ],
+    "indexes": [
+      {
+        "link": "&0FDOrXDxfOaoTRHphe73eTjR+5OVS+X7eTtNGcb5ugg=.sha256",
+        "size": 1184
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "5eafce17860fd3c5a881b4a0f94b7f9b8614afeb"
+    },
+    "commits": [
+      {
+        "parents": [
+          "3448402df8d6c8564f841cddb332e1d5a8771f23"
+        ],
+        "title": "Release 3.11.1-1",
+        "sha1": "5eafce17860fd3c5a881b4a0f94b7f9b8614afeb"
+      }
+    ],
+    "tags": [],
+    "num_objects": 4,
+    "object_ids": [
+      "5423bafa6685c14c3039f991c708970afd954698",
+      "550b5f9dab8c781262d07a7f7f6a4a929eb799c2",
+      "b5d10164aaf44e569fec313939fada9dc907ef52"
     ]
   },
-  "signature": "SM3UIDVbO7qLv6hHu+l2els7myO0u0RDQfqNjnGu3ENiJrjPL9UAg73x/8ISU4L0QcV8YPTTELXAXFtGGG1eCQ==.sig.ed25519"
+  "signature": "wrATSLK5/wyEMXl1xffRZDEJMbtlDF35i3PH9CvspEhuVgVvwwa1kNoTimoAyK33XYsuhMyE7NH5RzOXkgp1Cw==.sig.ed25519"
 }
