@@ -1,17 +1,42 @@
 {
-  "previous": "%CRu3CPtFCVZq7hcut0OZqMwbh0JoIBGFM7l2iFt/Q24=.sha256",
+  "previous": "%JxlQykaVIyNZdONBvQBlcxBPNDysKkHp5IpH1sPD0qE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6010,
-  "timestamp": 1539299636118,
+  "sequence": 6011,
+  "timestamp": 1539299959066,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "branch": "%RDpqII5ZXGI9jKREF7XOO/AWfj4IXmzSuXPdu07AEWU=.sha256",
     "channel": "ssb-show-and-tell",
-    "vote": {
-      "link": "%odqRSgtFGYYj/rzOg9TS4fe/LgxsOvTMrm5Ld3B/tz8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Sorry, I definitely should've specified that I only have one private block. Appreciate the feedback!\n\n[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) That's strange, any chance that your Patchwork hadn't reindexed or something? I've had that feed blocked for at least a few weeks but unblocked them with %XgafWTs65FAx+7DKh72XKcVRT/wUt9fLvdK3hVDIzrM=.sha256 and then immediately \"muted\" them with %FcXXpji2ExU1qDvPV4058MACGHqS3+SBQ4TqcjnCgb4=.sha256.  \n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) Interesting, I hadn't thought about how this would affect the friend/follow graph. If you tried to directly peer with someone who muted you (for example, over #cjdns) would it be pretty obvious that they'd muted you? I guess I need more people to block me so I can test! (cc: [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519), I'm guessing you'd know the answer to this).",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "%XgafWTs65FAx+7DKh72XKcVRT/wUt9fLvdK3hVDIzrM=.sha256"
+      },
+      {
+        "link": "%FcXXpji2ExU1qDvPV4058MACGHqS3+SBQ4TqcjnCgb4=.sha256"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "#cjdns"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "gES9kZWKTKuWpkpL+zaPjtpTAD4I8U0O8a6cp8B/K1PMLHw6rv4irMGJf7VOKXOerlq7x15T5YzyhTfROnFxAA==.sig.ed25519"
+  "signature": "j/5+8hZfZhlQSNYn4AYP7nz1Lir5QPVptZ+GkD+PLwCybiypymc8OAROGHHTSbhpbSp4WIWV6zdOV8ZIZq8LCg==.sig.ed25519"
 }
