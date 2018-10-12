@@ -1,20 +1,28 @@
 {
-  "previous": "%Ivj5ikmm0c88DhaiDX5CDHpNCTb8LqIWF5Dm2jLZkHA=.sha256",
+  "previous": "%mLHia0d0i98aHdGEcoIcGO9XgSjDS3gb/tqMHFfhHyk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6014,
-  "timestamp": 1539300610799,
+  "sequence": 6015,
+  "timestamp": 1539307139051,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%aSa9vrrClevJ5rg/vu30Orp8mdfrAnz/pKAzJFRs1kg=.sha256",
-    "branch": "%YlsWUZQmEijPV/yPuqjDVs94Z2KMknt76/GV6x4LtP0=.sha256",
-    "text": "[@geovanisouza92](@3Vhwc4qkSWWJeGDll4CvlLm9hQNB9QqMyLuAsS7nCdU=.ed25519) I couldn't agree more. I'm responsible for managing tech infrastructure for a handful of companies and one of my biggest frustrations is that my only options seem to be \"the cloud\" or the regional web hosting companies that seem to be incumbents in their own right. No good solution, as far as I can tell.",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%SAibBB4WAbLufiYCoGGIYneH1QbEMLWP1vH2cRfYvXo=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) Sweet, I appreciate the super quick feedback! Just to clarify, is the only point of [friendly] contention on how to encode multiserver addresses?\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) I don't remember how I found it, but I got a lot ouf of [RFC 7320](https://tools.ietf.org/html/rfc7320). The bit about paths came from [section 2.3](https://tools.ietf.org/html/rfc7320#section-2.3), but I'm wondering whether I misread it (emphasis mine):\n\n>Scheme definitions define the presence, format, and semantics of a\n   path component in URIs; **all other specifications MUST NOT constrain,\n   or define the structure or the semantics for any path component.**\n\n   >The only exception to this requirement is registered \"well-known\"\n   URIs, as specified by [RFC5785].  See that document for a description\n   of the applicability of that mechanism.\n\n   >For example, an application ought not specify a fixed URI path\n   \"/myapp\", since this usurps the host's control of that space.\n\n   >Specifying a fixed path relative to another (e.g., {whatever}/myapp)\n   is also bad practice (even if \"whatever\" is discovered as suggested\n   in Section 3); while doing so might prevent collisions, it does not\n   avoid the potential for operational difficulties (for example, an\n   implementation that prefers to use query processing instead, because\n   of implementation constraints).\n\nGiven that we're defining a scheme, it seems maybe we *are* totally fine defining the path component? If that's the case, that would bring us to something like:\n\n- **Basic identifier:** `ssb:message:<integer>.<alg>`\n- **De facto identifier:** `ssb:channel:<string>`\n- **Complex identifier:** `ssb:message:<integer>.<alg>?unbox=<integer>`\n- **Multiserver identifier:** `ssb:multiserver:<multiserver-address>`\n\nNice! If we take the first two \"improvements\" suggested above, the complex identifier would look more like:\n\n```\nssb:message:<alg>:<integer>?secret=<integer>\n```\n\nEven nicer (IMO)! If we can agree on the above (🤞) then the remaining points of contention are:\n\n## Integer encoding\n\nI think [this message](%QQ4nKFdutF1UPRz8zu7HsgfosUk2uiAjBsGwbbp+epU=.sha256) is a pretty good read of where I'm coming from. Integer encoding is super important, but I'm excited to nail down the URI structure before opening the next can of worms. It sounds to me like there are three possibilities:\n\n- the **boring** option of switching to a URI-safe base64\n- the **fun** option of switching to a better integer encoding (requires consensus)\n- the **complicated** option of being forced to support multiple bases and alphabets\n\nMy inclination is to assume boring option unless we have a clear winner for the fun option, otherwise it seems that we'd inevitably end up with the complicated option (or worse, fragmentation).\n\n## Versioning\n\nI could imagine `ssb:<version>:message:<alg>:<integer>` and you know I [love explicit versioning](https://opensource.org/licenses/FPL-1.0.0), so I'd be interested to know how this might work. Off the top of my head:\n\n- Are there any other URI schemes that have an inline version number?\n- Who has the authority to bump the version number and how does that work?\n\nI'm not familiar enough to champion this, but I'm also not against it if it has some clear and important benefits.",
     "mentions": [
       {
-        "link": "@3Vhwc4qkSWWJeGDll4CvlLm9hQNB9QqMyLuAsS7nCdU=.ed25519",
-        "name": "geovanisouza92"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%QQ4nKFdutF1UPRz8zu7HsgfosUk2uiAjBsGwbbp+epU=.sha256",
+        "name": "this message"
       }
     ]
   },
-  "signature": "FXbw2V4FdxpBfxMG0TL9UyvV1gOFoDm9QiS4IOjYo+e3GFiIayneMvOfO4/jRLShYcCN6M8rxABTMTfA9rOsAA==.sig.ed25519"
+  "signature": "4/73MjlqjwFvXDfauTXHDE6+PMtd2sa60ueIvN3SsJBvD4FQLC2j2WFY5yiavSKEFH9Vzs5V4W7ny4GOv1zuDw==.sig.ed25519"
 }
