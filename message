@@ -1,20 +1,17 @@
 {
-  "previous": "%/DNolvEn7IBUOJf2/1AspLPauLqyXt+d/yZ1CREAtRo=.sha256",
+  "previous": "%yIYFPdkNHxI5KnQWl1LQflWRrf+uUDQymeep3S0FUqs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6040,
-  "timestamp": 1539359472997,
+  "sequence": 6041,
+  "timestamp": 1539359482235,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%HcZgKNWTymGDDncbH6LBI+spyx9hBzIhK0HCkIXRWwU=.sha256",
-    "branch": "%HcZgKNWTymGDDncbH6LBI+spyx9hBzIhK0HCkIXRWwU=.sha256",
-    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\n\nI haven't seen that, but thanks for pinging me. I get all sorts of \"ThreadCard could not fetch\" messages, but I think they're just warnings coming from /posts rather than /public. Could you post which version of Patchbay you're running right now and how it's installed? I know you and I both have had a few issues where `package.json` isn't being updated correctly downstream, so whenever I have a bug my first inclination is `npm update` just in case.",
-    "mentions": [
-      {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy"
-      }
-    ]
+    "type": "vote",
+    "channel": "crab-meet",
+    "vote": {
+      "link": "%J3qjGq930O4x7q0buL6hKQvvmUt/TjkxJLU12zBBNhg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "O25TN6UOF5isCIEAGfUo5swYHr8yBChd6Kj4wF45Xz/TdgnoXwz4MscnMe0Vr3eV2XOQ9jDxaHW244OFgUEFAQ==.sig.ed25519"
+  "signature": "8ah3yEgMueOGknftNuxMLVBoLOWHgpytlp5rUqlmRqq0Ja8C78nuSWZiVj56xhvGVcsx++FUQe6RLy/d7O0FAw==.sig.ed25519"
 }
