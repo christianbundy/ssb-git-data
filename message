@@ -1,29 +1,9 @@
 {
-  "previous": "%WpgquBv1JtXtJjR5406LtLqH9MZc4jvd7gGONx/ULCE=.sha256",
+  "previous": "%KMXUge7PxSGXfCRr73MevZHL1wJ4ahocyBF9hHPwjx8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6036,
-  "timestamp": 1539358112846,
+  "sequence": 6037,
+  "timestamp": 1539358204761,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
-    "branch": "%KSB9RxdHyRwrpVGK+4fBrwxpVqB89MtmMrMmgKLXeIw=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> How can a client's code check if these block messages were encrypted?\n\nI'm not sure, I think most clients find blocks with ssb-friends (?) so I think it would likely have to be implemented there. I tried to use Patchbay's /query page to look up my mute(s), but it didn't return anything. Probably a user error, honestly.\n\n[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\n\n> I think the easiest way to tell if someone did this would be to look at the causality of the messages and see if they are acking your blocked messages or not :-)\n\nTeach me the arcane ways!\n\nBut really though, I'd love to know how to do this if it's trivial.\n\n[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\n> Are these not distinct anymore?\n\nI know nothing, I'm lucky I even got the syntax right! If `private.publish` is available then I'd use that, since I'm sure `sbot whoami` could fail or `jq` could crash and might get a garbage value for `--recps`. I'm not very familiar with the Scuttlebot CLI, so when doing privacy-centric stuff I'd be as careful as possible. ",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
-  },
-  "signature": "j5Mhs/LHouy1e7GHcSFJo/nHp7rfnINa28UJ4fGVwolfMCrMeqH+i1o64weUIRCLXo/RjfwzK6j4uDa0ogHyAg==.sig.ed25519"
+  "content": "/EVUuVEvcwo6qMGethP0u0IYiy1lPpC4JFzeV8CL9LYFHz9ZKv+m2wAs9/RJlJUcYqCN9YIVpCuc6AJ8jFNSBZTDSczT6+GoKcyf0BgI8wDT/ZHzETODmEo2CACfN6WCNg21WZf7vSKEaueoRb4nYfnmPvrUbeW0GuvFSawKWPgzK7TbXmz+knbKiIOXVhebWArDZhLAiWVLUU4kkTEUabkmzZFc7j3KcqqxkDvAT4oAbYXayvT3PTdqge6OvEvCSOv0EemIg62PQe/vmb1Ubm2eh9PKYF0PPQBMc3R7j3x1+OcJCGY8iTuzIAsLDL7LxIHRSFw4.box",
+  "signature": "2sjd6TAiYolCCFvphjDjQGoUxlcAHCn5pg4fF010FvbuU2wDj/4rM6AtrGkkDofYPvfCb3gKAVXox7ws5DiaBg==.sig.ed25519"
 }
