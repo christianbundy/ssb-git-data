@@ -1,14 +1,29 @@
 {
-  "previous": "%My4++CVxZ33qbUNmPt9SbmxDzBSWf5gcKgjweDxDv3U=.sha256",
+  "previous": "%WpgquBv1JtXtJjR5406LtLqH9MZc4jvd7gGONx/ULCE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6035,
-  "timestamp": 1539357080806,
+  "sequence": 6036,
+  "timestamp": 1539358112846,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%H2Z4P6jXROOkAkxeUCmCyfcufgcDW9l92oFXE0U/QTk=.sha256",
-    "text": "> i'm very confused by that RFC\n\nThat makes two of us! Now I think the point of the RFC was basically \"you still need to speak HTTP at http://ssb.example.com, and http://example.com/ssb/, please stop trying to make ad hoc protocol extensions\", but on my first pass I thought they were saying \"URI schemes can't specify syntax\" and I didn't get it.\n\n> So I suggest that we have the same versioning policy as Orthodox Judaism, future rabbi may add new interpretations for things not clear from the earlier writings (for example, to interpret electricity as fire) but they may never contradict past rabbi.\n\nI'd like to nominate this as my favorite sentence in the thread.\n\n> it feels like a good left-to-right general-to-specific order\n\nI agree, *and* I think the extensibility is important. For example, if we parse the URI as an array we'd get:\n\n```\n[ 'ssb', 'message', 'sha256', 'abc']\n```\n\nIf we're being liberal in what we accept, I think we should try to handle the message so long as:\n\n- The first element matches `'ssb'`\n- An element matches `'message'`\n- An element to the right of `'message'` is an algorithm that we support\n- The adjacent element to the right to the algorithm element has an encoding that we support\n\nThis means that we could, in the future, do this without breaking backward-compatibility:\n\n```\nssb:private:message:chess:chat:sha256:abc\n```\n\nI think we could spin the semantic hierarchy as `type -> alg -> hash` or `alg -> type -> hash`, but I think the algorithm has such a close affinity to the hash that they should remain adjacent. Given how many encoded integers we have flying around in cypherspace, I don't think we'd want to be in a position where we have `ssb:sha256:messsage:abc:def` and now we have to decide whether the sha256 digest is `abc` or `def`.\n\n> i notice that in Node.js the `url` module's `.parse` function doesn't understand `ssb:message:sha256:abc`\n\nYeah, I've been playing around with [uri-js](https://www.npmjs.com/package/uri-js) for testing, but it's good to know that `url.URL` can handle our URIs correctly. I've been thinking that some future `ssb-uri` might be a useful interface for developers wanting to parse/serialize with the `ssb:` URI scheme."
+    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "branch": "%KSB9RxdHyRwrpVGK+4fBrwxpVqB89MtmMrMmgKLXeIw=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> How can a client's code check if these block messages were encrypted?\n\nI'm not sure, I think most clients find blocks with ssb-friends (?) so I think it would likely have to be implemented there. I tried to use Patchbay's /query page to look up my mute(s), but it didn't return anything. Probably a user error, honestly.\n\n[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\n\n> I think the easiest way to tell if someone did this would be to look at the causality of the messages and see if they are acking your blocked messages or not :-)\n\nTeach me the arcane ways!\n\nBut really though, I'd love to know how to do this if it's trivial.\n\n[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\n> Are these not distinct anymore?\n\nI know nothing, I'm lucky I even got the syntax right! If `private.publish` is available then I'd use that, since I'm sure `sbot whoami` could fail or `jq` could crash and might get a garbage value for `--recps`. I'm not very familiar with the Scuttlebot CLI, so when doing privacy-centric stuff I'd be as careful as possible. ",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "9Zusxu85mF9aKOYIT/GWAiafA/VvhwhyDKmjSh4fUKbNjtTxbjsuyS1nn6ne+cBpegoAAug5AdRURGH8XAVCBg==.sig.ed25519"
+  "signature": "j5Mhs/LHouy1e7GHcSFJo/nHp7rfnINa28UJ4fGVwolfMCrMeqH+i1o64weUIRCLXo/RjfwzK6j4uDa0ogHyAg==.sig.ed25519"
 }
