@@ -1,25 +1,18 @@
 {
-  "previous": "%y1ibENzLHjihaNO2CdO1Tckrxp580nI9QzjtAkIcav0=.sha256",
+  "previous": "%JXMDK/mgED0uq62JPud9KUOdie409V0vQGd2WV5g7xI=.sha256",
+  "sequence": 6060,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6059,
-  "timestamp": 1539374687792,
+  "timestamp": 1539376081859,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
-    "branch": "%tSCspBvLmz7z7q+fWKX5LcY6nYF9fNtArIUOMY0+MZ4=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nTotally, I get what you're saying. Maybe \"private block\" would be the best terminology here, whereas a cross-client \"mute\" could be done with a Scuttlebot plugin (and `addMap()`):\n\n```js\nsbot.addMap((val, cb) => {\n  if (val.value.author = target) {\n    val.value.content = {}\n  }\n\n  cb(null, val)\n})\n```\n\n[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) Our branched-but-somehow-still-linear threads strike again! ",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 28,
+    "root": "%0pXr/38OP29579ijLN8UktRtJ+7FLROrKucPSUrDMdc=.sha256",
+    "orig": "b4",
+    "dest": "e7",
+    "pgnMove": "Bxe7",
+    "fen": "rnb4r/ppp1b1pp/6k1/6p1/3N4/2N2Q2/PPP2PPP/R5K1 w - - 0 15",
+    "branch": "%cRLuZLll/wIJNjwsaAZGtRaDyor5xTTQSyuyDgKxdus=.sha256"
   },
-  "signature": "uhsvmal9bCuWSBl72XHjvHol6DDwX22cErS5kH9ZXK6tQWSNWmeDpnzaBOIliqe5qijOfaKMGh8+KdyDyRDzAw==.sig.ed25519"
+  "signature": "LwJ60z8TKefWmDFApI+1VBSdegttq4eUIpYyoKJVT3JtYmhYXYfPw351IYp+V8IStbmQ4xzhpO8YR0hcRCM8Dg==.sig.ed25519"
 }
