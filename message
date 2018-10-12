@@ -1,47 +1,24 @@
 {
-  "previous": "%wg7h/ZD/QdS6CtXwRCaWJGvU6+P/5fQHntzd5Rc86oE=.sha256",
-  "sequence": 6021,
+  "previous": "%Q/VqNla72Okz6zIvSLNnVk7XQiNodJzsSGDb8sGLUSM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539308046750,
+  "sequence": 6022,
+  "timestamp": 1539308170124,
   "hash": "sha256",
   "content": {
-    "type": "git-update",
-    "repo": "%i2X60OQeGuNuhQRhF2WWygIbk9d7CrioEZTZmrICUsk=.sha256",
-    "refsBranch": [],
-    "repoBranch": [
-      "%Re8w4VdpDOZUWhePmYj804gZsip0nC9SaBzk5WN3jDk=.sha256"
-    ],
-    "packs": [
+    "type": "post",
+    "root": "%N1vfWTBgR5aaUdPzzngYiMjFVYrsSdFL0Zx+wBZIDKY=.sha256",
+    "branch": "%ZqsKaNzX95F79p4540useeAkbht0FUA4lRdSWQAU4sk=.sha256",
+    "channel": "patchwork",
+    "text": "[@Matt McKegg](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) You signed the .tar.gz, thanks! Just published to the #aur.",
+    "mentions": [
       {
-        "link": "&4FEur4o4auoqMxJVzvqRlXSRA/jBUVgmIS1uBJKBPiY=.sha256",
-        "size": 2470
-      }
-    ],
-    "indexes": [
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "Matt McKegg"
+      },
       {
-        "link": "&VboXOzO4Q29N5lVFvDalj31zfKmaFL1Mn/WbOm4hxTs=.sha256",
-        "size": 1184
+        "link": "#aur"
       }
-    ],
-    "refs": {
-      "refs/heads/master": "b12552d653fc6ab6ad5dab5ab28cb0bb20850542"
-    },
-    "commits": [
-      {
-        "parents": [
-          "5eafce17860fd3c5a881b4a0f94b7f9b8614afeb"
-        ],
-        "title": "Release 3.11.2-1",
-        "sha1": "b12552d653fc6ab6ad5dab5ab28cb0bb20850542"
-      }
-    ],
-    "tags": [],
-    "num_objects": 4,
-    "object_ids": [
-      "11641456a7d9267269f4df4e42fdf1c42ead1589",
-      "2a336eb2e4af755afd1cc8a51f87ce0633fe71dd",
-      "5bcfd632f0d4e6d0f9b31ceb395afbb524053975"
     ]
   },
-  "signature": "3BOc9mAwpDOhPCFEeBQpar5M2ZyBLuVG3buqJbPaw9RO4HqKSCV7qc6GDOtYhO3a/lFYeuNW9yx+9yIz8n1HAQ==.sig.ed25519"
+  "signature": "o8BmsKjz3oQKEmv+zU/urdaGN0fNV59vioh0OTpPZriOttDmS8VTGdlx+vrRCHURD1AtMqfCrVXM4s23qGnZBw==.sig.ed25519"
 }
