@@ -1,21 +1,17 @@
 {
-  "previous": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
+  "previous": "%QgROs1EXRiswiqzLymwokfhx+WqEvfQVKIp+lMkMPiY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6045,
-  "timestamp": 1539367528390,
+  "sequence": 6046,
+  "timestamp": 1539373030905,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
-    "branch": "%vqGd4nMvWXdINw4j01iHHp4t2Dl6zKGqN31whL+vQHw=.sha256",
-    "channel": "ssb-clients",
-    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThat's really cool! I've never worked with Remark, but I'm working on a [ssb-markdown refactor](https://github.com/ssbc/ssb-markdown/pull/24) that's *almost* 100% backward-compatible with the current ssb-markdown. The only difference is that the current ssb-markdown still tries to turn @words @like @these into mentions, so I'm trying to figure out which clients (and/or versions) are still posting text-only mentions.\n\nDefinitely keep me updated on your Markdown work, I'd be super interested to see what you come up with!",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "Andre Staltz"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%xbPWiS0H8aG15w6kjACRt4e/UI+8fcLTR0Qx9hhiHqw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ZMX8HuVxpi2L2cCSJmvPaw9NQl0hiduVOGGOaS2/6XqYXhlT/GMUCz6/PSeElshJBPGlekMZLyCxu6lKjv/XAw==.sig.ed25519"
+  "signature": "Q7hGyMhJDHQLcpkA09qV5rAfpJGFkzlnLP3dtQk44r3N3axggA69+SqF+Lea9hmCWo1mtfid4tlstLAnFVX4AA==.sig.ed25519"
 }
