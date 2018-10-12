@@ -1,14 +1,21 @@
 {
-  "previous": "%c6fJFmnLqFICJuhHASRIIDl4ZcST7WCflfeYZFM4u2c=.sha256",
-  "sequence": 6027,
+  "previous": "%bICIjp8wr6ARsDTWg4Rkj04OgRVGOeLRyu+StYNWgtg=.sha256",
+  "sequence": 6028,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539308818882,
+  "timestamp": 1539308828888,
   "hash": "sha256",
   "content": {
-    "type": "chess_game_end",
-    "status": "resigned",
-    "root": "%ADH7dzQ1qJDBrvDEcnC+++NxeGHQnL6nEhlhiz2Q8xM=.sha256",
-    "branch": "%X9VYK9MXPxDRahoxoKeRMXb5y40jKLi3TkvzpvUKgm4=.sha256"
+    "type": "chess_invite",
+    "inviting": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+    "myColor": "black",
+    "branch": [
+      "%Zp2+EKBsy6beG+2sNr9FK/ehS6gvN3gTNYpVeEhJgbo=.sha256",
+      "%mPTCvHU9uRbCnL1R/+Nfj7HnkwK4KIO9kFiwSnpLDGU=.sha256",
+      "%oeBLttsuzCAkj67q6hGjROz81FY0JVA8MNlMRQqA6So=.sha256",
+      "%Ygdrj/B0S8bGeMyRiHhatXboUh7as2cCqyEbe/vhbBo=.sha256",
+      "%NbWyu5B5F7XMj6fPHq/D24YMS1i8urAnxu0Bk4sG46A=.sha256",
+      "%/B8Ure27JIvzm0NS2ZgEfVk+QuU7obxUtN0DrVy6PXg=.sha256"
+    ]
   },
-  "signature": "EnTXwxHRImEzkMM0/rusP9dQOIga3pJ+35eVjDwTWpnI3or6TV0zhKUhevtbL2iHhXvzKNIcTdmxjBWcWIg+DQ==.sig.ed25519"
+  "signature": "FLxQXxsht/WeA0VOnG+nR5NwY/JRn5scPKwhBs51kkSuzNXoCvnkCmzV34I1RpDC3aydWwPN6wler+8uMKRbCw==.sig.ed25519"
 }
