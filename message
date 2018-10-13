@@ -1,21 +1,16 @@
 {
-  "previous": "%HOrCJ3wa7+VEJB3tQdaeJ2o9OTgOvQeGDGYIcd0IhSU=.sha256",
+  "previous": "%P78VxGRypOEuABvMUPCzThkyrfnBq8esqbCO2FqYYH8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6073,
-  "timestamp": 1539446811679,
+  "sequence": 6074,
+  "timestamp": 1539447251225,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
-    "branch": "%f40B8OzGBPxcB8rR0vhuFnxgLw9LfFh43FXL8MJFq7U=.sha256",
-    "channel": "ssb-clients",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) Sweet, thanks for the confirmation on Patchfoo. I didn't notice that the name and corresponding ID was being passed in `value.content.mentions`, but that makes it *way* simpler. I was under the impression that I'd have to check every possible combination of characters after `@`, but that massively simplifies the problem.\n\nAre there any clients that *don't* pass an array of mentions? Seems like a find and replace might do the trick here.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%VN/drlMX2rqfVlmJ3TaP7SLJpgYK0PphlLnghAXWCbg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lKnNz9kNKz8mBTt+mW8XmovkqbAfQVw2hLFcaQTkndFlD7J23p2Y7GdpkMsOFbus/fg8k3cnc6bVXUydZ1ZtDQ==.sig.ed25519"
+  "signature": "FOxicPCFeRugbe1tvzWoaXmE8eRwHUMmeALLeaDxCH00C49yVAn8cEvnZzKAUPQvehpAxIUE8Or/2GQ0yf89Dg==.sig.ed25519"
 }
