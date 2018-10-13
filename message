@@ -1,9 +1,21 @@
 {
-  "previous": "%oeJXewZ9k800g07FN1UgzfCnqIkvzdaLNewU2AIWPT4=.sha256",
-  "sequence": 6072,
+  "previous": "%HOrCJ3wa7+VEJB3tQdaeJ2o9OTgOvQeGDGYIcd0IhSU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539385742747,
+  "sequence": 6073,
+  "timestamp": 1539446811679,
   "hash": "sha256",
-  "content": "FBgjAQyNxTD3Bv02AH5Y1Vz3/7OfLJUcQDGfUnw0P9rmrNq1u9//R2E9gw+WhYVWpRfNB2BxoyTPZVE2QEpGAWTqBEW0zJhahHI8du1XzeR2s+H/Z0wEqC1Bd6aTNQiyzN0LR+UxJ3SJn/Q68LcvYrRVLUmcWr9m9wuSpzoZK2OKBDohmIihxEHWvAqkyd7a4UaO5mcgrI7Ac/jXbiFdYoZIbUiw/sQadl26o6we3ErIpjZGEpOWdey9MPRXBE64DBgjF1zbmlie/qZWORGqyfKrHA3tTTZeL4jwwdFkUIZb7y54wUCSS3ZeV4gTzTjs4SOAarPUsdNIvGldQI2n9dAvWY5O3G4xeWP1CWJK02LvnyI9TdeRXI3HhtJuz+fOGSTwYiDUZN0yPa32Uw==.box",
-  "signature": "eWGGUIfsIXl1LqmeOpFEX1jR8CY3+WW0RqEylBLT2/w/q9+FdoSpyltyEim8XigYsePynzLCoypI9MVRss2nDw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
+    "branch": "%f40B8OzGBPxcB8rR0vhuFnxgLw9LfFh43FXL8MJFq7U=.sha256",
+    "channel": "ssb-clients",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) Sweet, thanks for the confirmation on Patchfoo. I didn't notice that the name and corresponding ID was being passed in `value.content.mentions`, but that makes it *way* simpler. I was under the impression that I'd have to check every possible combination of characters after `@`, but that massively simplifies the problem.\n\nAre there any clients that *don't* pass an array of mentions? Seems like a find and replace might do the trick here.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
+  },
+  "signature": "lKnNz9kNKz8mBTt+mW8XmovkqbAfQVw2hLFcaQTkndFlD7J23p2Y7GdpkMsOFbus/fg8k3cnc6bVXUydZ1ZtDQ==.sig.ed25519"
 }
