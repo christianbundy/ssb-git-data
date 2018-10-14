@@ -1,12 +1,37 @@
 {
-  "previous": "%hAoOUiKm6yZ15EP7wWCSLoo7FCbSD2MeOfJpthqdNuc=.sha256",
-  "sequence": 6076,
+  "previous": "%eiiugavGmKag+XK0r9SqGgAJX25rea9Z5ILKY2D91XY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539558589114,
+  "sequence": 6077,
+  "timestamp": 1539560190929,
   "hash": "sha256",
   "content": {
-    "type": "blob",
-    "blob": "&jSTeGBZcdEpPOFMDzqmn8sMF7jlbe8JZOqdgeH2iWMI=.sha256"
+    "type": "post",
+    "text": "# Blob Content IV: A New Plugin\n\nThe original idea of #blob-content had two components:\n\n- you should be able to publish off-chain blobs instead of publishing JSON in your feed\n- your client(s) should only see the original JSON without ever knowing it was posted as a blob\n\n[Previously](%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256) I hacked a blob replacement mechanism into our private message decryption, but this was hacky and brittle. After a *ton* of help from [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519), there was new code merged into [flumedb](https://github.com/flumedb/flumedb/pull/19/files) and [secure-scuttlebutt](https://github.com/ssbc/secure-scuttlebutt/pull/222) that allows us to do this The Right Way.\n\nThe result is a tiny Scuttlebot plugin I'm calling [`ssb-blob-content`](https://gitlab.com/christianbundy/ssb-blob-content/), which has a two-step install process:\n\n## Install\n\n1. `npm install --save scuttlebot@13.0.0\n2. `npm install --save ssb-blob-content`\n2. Add the plugin to your Scuttlebot server with `.use('ssb-blob-content')\n\n\nCongratulations, you're done! Navigate to [this message](%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256) to verify that it works, and *please* ping me if you have any errors.\n\n## Usage\n\nReading blob-content messages should work automagically. Writing them only works manually from Scuttlebot.\n\n### Create\n\n```console\n$ sbot blobContent.publish --type test --content \"I'm shocked that the CLI works...\"\n{\n  \"key\": \"%eiiugavGmKag+XK0r9SqGgAJX25rea9Z5ILKY2D91XY=.sha256\",\n  \"value\": {\n    \"previous\": \"%hAoOUiKm6yZ15EP7wWCSLoo7FCbSD2MeOfJpthqdNuc=.sha256\",\n    \"sequence\": 6076,\n    \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n    \"timestamp\": 1539558589114,\n    \"hash\": \"sha256\",\n    \"content\": {\n      \"type\": \"blob\",\n      \"blob\": \"&jSTeGBZcdEpPOFMDzqmn8sMF7jlbe8JZOqdgeH2iWMI=.sha256\"\n    },\n    \"signature\": \"YfRpeTRzTKLGcJHFdiEH2lOGkSiKU9yAcbu+YLNewViE6yIMoF43IkguZUG4AfhG7zQnxsqomRn/jb4gqLcaDw==.sig.ed25519\"\n  },\n  \"timestamp\": 1539558589115\n}\n```\n\n### Read\n\n```console\n$ sbot get %eiiugavGmKag+XK0r9SqGgAJX25rea9Z5ILKY2D91XY=.sha256\n{\n  \"previous\": \"%hAoOUiKm6yZ15EP7wWCSLoo7FCbSD2MeOfJpthqdNuc=.sha256\",\n  \"sequence\": 6076,\n  \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n  \"timestamp\": 1539558589114,\n  \"hash\": \"sha256\",\n  \"content\": {\n    \"type\": \"test\",\n    \"content\": \"I'm shocked that the CLI works...\"\n  },\n  \"signature\": \"YfRpeTRzTKLGcJHFdiEH2lOGkSiKU9yAcbu+YLNewViE6yIMoF43IkguZUG4AfhG7zQnxsqomRn/jb4gqLcaDw==.sig.ed25519\",\n  \"blob\": \"&jSTeGBZcdEpPOFMDzqmn8sMF7jlbe8JZOqdgeH2iWMI=.sha256\",\n  \"blobContent\": true\n}\n```\n\n## Next\n\n- Does this actually work?! I've just been testing with myself, so I haven't verified that blobs are being pushed/pulled correctly.\n- Do we need a #naming-party? I'm having trouble deciding whether there are any clear winners over \"blob content\".\n- I should probably add an interface for publishing messages in a client.\n- The current code could definitely use some more tests...\n- ??? You tell me! I'm mostly just experimenting and prototyping, so I'd love to get some feedback.\n\n![hermes butt dancing](&utxo7ToSNDhHpXpgrEhJo46gwht7PBG3nIgzlUTMmgU=.sha256) ",
+    "channel": "ssb-show-and-tell",
+    "mentions": [
+      {
+        "link": "#blob-content"
+      },
+      {
+        "link": "%rciFuVmIAi6WxamBNcF+EYSnJtngAbHwxxmtudsz3v4=.sha256",
+        "name": "Previously"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%59UufAGSLgEUQWsvdZEHSIGw/x2ezxY5jczavjpKFZ8=.sha256",
+        "name": "this message"
+      },
+      {
+        "link": "#naming-party"
+      },
+      {
+        "link": "&utxo7ToSNDhHpXpgrEhJo46gwht7PBG3nIgzlUTMmgU=.sha256",
+        "name": "hermes butt dancing"
+      }
+    ]
   },
-  "signature": "YfRpeTRzTKLGcJHFdiEH2lOGkSiKU9yAcbu+YLNewViE6yIMoF43IkguZUG4AfhG7zQnxsqomRn/jb4gqLcaDw==.sig.ed25519"
+  "signature": "SwnPPQucCwJZJO0T4ubz0MnY8LZesypbtxMS89YdLoHFQFmiwPrfS93018pLO/hj+nhb8j7P/e0PKKDjnf71Aw==.sig.ed25519"
 }
