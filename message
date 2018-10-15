@@ -1,36 +1,14 @@
 {
-  "previous": "%IcSpOA6Y3Xbo0Xr3Y+dvFTJmlgV3JBLAShEEJew2g4k=.sha256",
+  "previous": "%gNgqarsB56G16E0nAKZw4ewDXoH6bTgmRpJyEDDQ7Wc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6099,
-  "timestamp": 1539636553850,
+  "sequence": 6100,
+  "timestamp": 1539638622760,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%J3qjGq930O4x7q0buL6hKQvvmUt/TjkxJLU12zBBNhg=.sha256",
-    "branch": "%J3qjGq930O4x7q0buL6hKQvvmUt/TjkxJLU12zBBNhg=.sha256",
-    "channel": "crab-meet",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I didn't even think to screenshot, maybe next time!\n\nThe \"god is nowhere\" versus \"god is now here\" distinction is *perfect*, I'm so happy that you came up with an example of that edge-case. Just because I love how linkable SSB is:\n\n- [follow-up thread on co-ops](%IcSpOA6Y3Xbo0Xr3Y+dvFTJmlgV3JBLAShEEJew2g4k=.sha256)\n- [me banging my head against synonymous channels](%K0Fyxn0X9gTLRPtGQ8gjRDUNErwUTfrVgCDCYjEk9N8=.sha256)\n- [new markdown renderer, fresh off the press](https://github.com/ssbc/ssb-markdown/pull/24)\n- [unified links](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256)\n- #scuttle-thread ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "%IcSpOA6Y3Xbo0Xr3Y+dvFTJmlgV3JBLAShEEJew2g4k=.sha256",
-        "name": "follow-up thread on co-ops"
-      },
-      {
-        "link": "%K0Fyxn0X9gTLRPtGQ8gjRDUNErwUTfrVgCDCYjEk9N8=.sha256",
-        "name": "me banging my head against synonymous channels"
-      },
-      {
-        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-        "name": "unified links"
-      },
-      {
-        "link": "#scuttle-thread"
-      }
-    ]
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%WpgquBv1JtXtJjR5406LtLqH9MZc4jvd7gGONx/ULCE=.sha256",
+    "text": "I wanted to codify my interpretation of the above while it's still fresh on my mind, so here's a first stab at some ABNF:\n\n```\nscheme              = \"ssb\"\nunreserved          = ALPHA / DIGIT / \"-\" / \".\" / \"_\" / \"~\"\npct-encoded         = \"%\" HEXDIG HEXDIG\nsub-delims          = \"!\" / \"$\" / \"&\" / \"'\" / \"(\" / \")\"\n                    / \"*\" / \"+\" / \",\" / \";\" / \"=\"\nsegment-nz-nc       = 1*( unreserved / pct-encoded / sub-delims / \"@\" )\nquery               = *( pchar / \"/\" / \"?\" )\npchar               = unreserved / pct-encoded / sub-delims / \":\" / \"@\"\nfragment            = *( pchar / \"/\" / \"?\" )\ndelimiter           = \":\"\n\nsegment-part        = *1( delimiter segment-nz-nc)\ntype                = delimiter *1(unreserved)\ncommon-type         = delimiter ( \"feed\" / \"message\" / \"blob\" / \"channel\" )\nalgorithm           = delimiter *1(unreserved)\ncommon-algorithm    = delimiter ( \"sha256\" / \"ed25519\" )\ninteger             = \":\" *1(unreserved)\nbase64-integer      = delimiter 44( ALPHA / DIGIT / \"-\" / \"_\" / \"=\")\n\nURI-general         = scheme segment-part [ \"?\" query ] [ \"#\" fragment ]\nURI-basic           = scheme type algorithm integer\nURI-common          = scheme common-type common-algorithm base64-integer\n```\n\n- URI-common would allow <ssb:feed:ed25519:TNl1qw6I4dorbnx2i-chCDYh/CAgD-rFAPfXJ7yUTBY=>\n- URI-basic would allow <ssb:property:sha-512:07bcffb2ff031dd88351428c80268ac6>\n- URI-general would allow <ssb:milky-way:earth:msg:chess:move:sha999:this-is-fine-everything-is-fine>"
   },
-  "signature": "jrRvNA8DrzX9TIJYNT2XvYgHCPJRhb7Wvr+guqnLFwYKsHrG/BTnN3HjqRKgInl8UpyVi+W7DYH7UZVqm6mKCw==.sig.ed25519"
+  "signature": "2XcllGI/9A5nPAOhROkX//Hdr5m+kI9XY69lTtUVOHWBzXW5/GHuOrj+/JF2VO4KStAtdqxzVmWTdUzDJUfKDg==.sig.ed25519"
 }
