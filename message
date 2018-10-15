@@ -1,16 +1,21 @@
 {
-  "previous": "%cp4RJidTieq/WZY2ADmZHRQRn2tCjV3GqhS1mL+pRZw=.sha256",
+  "previous": "%i6rCbRrzwFLAZ/SnQPhv6lEEqtBbhQxLg0c0nL0cjb4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6080,
-  "timestamp": 1539615388090,
+  "sequence": 6081,
+  "timestamp": 1539615478393,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%d9Voz+68GJ6DbHC8NeP1B9ofaGrwD0JclsbhH7Fyv94=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "branch": "%LgHcIDJ69pIiT/E/o2XnquKU/yeCBE9Sk7UpTaY90X4=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) Yeah, I think that's going to be the best call. My hope is that we'll have the concept of \"profile\" or something, which is composed of feeds (which are composed of messages), but I'm not sure I've seen any discussion on the topic.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "eEYy0OwIicqFZnLqR6GiYeBE9aOjXhwMNeYg/RW6cQZraLxwYQb41sGp+Y3Tuc/5Jpl5jU54xuKyj2mdSjVCDw==.sig.ed25519"
+  "signature": "NqnJqoxPCNwlPQJAzZkFjLnS1sYuroiqO9JpdiSVdV0H4fgJaDpmb2/T97BQBOqvDMA1vvCFLx9HPkzNEpl3Dw==.sig.ed25519"
 }
