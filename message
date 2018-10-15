@@ -1,24 +1,16 @@
 {
-  "previous": "%svo5rNu4+RVPRYKC+YwpVpHXbtujYZXeRjEoixBn9mU=.sha256",
+  "previous": "%cp4RJidTieq/WZY2ADmZHRQRn2tCjV3GqhS1mL+pRZw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6079,
-  "timestamp": 1539615249796,
+  "sequence": 6080,
+  "timestamp": 1539615388090,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%9n4AZ2jBazk2miZyvS7P3W9n2zLj0fP3QoqDdizqRic=.sha256",
-    "branch": "%pXmSG6hvfEXoc9qy9jJG9X2Y6taQj4intsPjff4U8Oo=.sha256",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) I'm under the impression that it operates like a LAN, but I think you'd need to follow each other first (?) because IIRC you can't broadcast the \"hey I'm running sbot, peer with me!\" messages over cjdns. I'm very often connected directly to [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) over cjdns, but I only see it when I open Patchwork. Hoping someone will correct me if I'm wrong!",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%d9Voz+68GJ6DbHC8NeP1B9ofaGrwD0JclsbhH7Fyv94=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "4diE2+94+dDbbKUeDSdOhX5U9E0V/N56tAe8mrDp1+vfWLnVicthlDZ6lZeDeqK7aosAnaFoDwQhF+yVseAeAg==.sig.ed25519"
+  "signature": "eEYy0OwIicqFZnLqR6GiYeBE9aOjXhwMNeYg/RW6cQZraLxwYQb41sGp+Y3Tuc/5Jpl5jU54xuKyj2mdSjVCDw==.sig.ed25519"
 }
