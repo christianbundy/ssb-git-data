@@ -1,12 +1,25 @@
 {
-  "previous": "%g1EKY+3dh7hrlbMDT4qxbHwG4LKdIirzIEM5ZQVGeCQ=.sha256",
-  "sequence": 6094,
+  "previous": "%SUB6xPT0IO2kAGIYamCAjWApx+TDzsCYotU+EZkPWNE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539635412062,
+  "sequence": 6095,
+  "timestamp": 1539635720668,
   "hash": "sha256",
   "content": {
-    "type": "blob",
-    "blob": "&AEAblKqa71I3uySfqYxLScUgutPhajECXz2XjNpmiL4=.sha256"
+    "type": "post",
+    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "branch": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "Replication works! I've posted [this message](%SUB6xPT0IO2kAGIYamCAjWApx+TDzsCYotU+EZkPWNE=.sha256), which was saved to my blobs directory at:\n\n```\n~/.ssb/blobs/sha256/00/401b94aa9aef5237bb249fa98c4b49c520bad3e16a31025f3d978cda6688be \n```\n\nIt immediately replicated to [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), which gives me the impression that the new plugin is *actually working*. Cool! Forgive my typo above, the first step should read:\n\n> 1. `npm install --save scuttlebot@13.0.0`",
+    "mentions": [
+      {
+        "link": "%SUB6xPT0IO2kAGIYamCAjWApx+TDzsCYotU+EZkPWNE=.sha256",
+        "name": "this message"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      }
+    ]
   },
-  "signature": "VcjjTenq1RdOm61I9OodetAq7l3MA+nK6NhzrKKlEBmYCEov8RmM9zctgbs6OQ3jJ3NaZZYyBUMNBC2eGsifDg==.sig.ed25519"
+  "signature": "p6iGLWyyGAni2Nc7cmt/6DyaGTrgEKeun/wkjovVXG18f0vhL+DkZ5EOEwzGqTRvM4QBFj4qsvQJPkJrl2eRCg==.sig.ed25519"
 }
