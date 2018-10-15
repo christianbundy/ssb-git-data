@@ -1,14 +1,14 @@
 {
-  "previous": "%gNgqarsB56G16E0nAKZw4ewDXoH6bTgmRpJyEDDQ7Wc=.sha256",
+  "previous": "%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6100,
-  "timestamp": 1539638622760,
+  "sequence": 6101,
+  "timestamp": 1539638693018,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%WpgquBv1JtXtJjR5406LtLqH9MZc4jvd7gGONx/ULCE=.sha256",
-    "text": "I wanted to codify my interpretation of the above while it's still fresh on my mind, so here's a first stab at some ABNF:\n\n```\nscheme              = \"ssb\"\nunreserved          = ALPHA / DIGIT / \"-\" / \".\" / \"_\" / \"~\"\npct-encoded         = \"%\" HEXDIG HEXDIG\nsub-delims          = \"!\" / \"$\" / \"&\" / \"'\" / \"(\" / \")\"\n                    / \"*\" / \"+\" / \",\" / \";\" / \"=\"\nsegment-nz-nc       = 1*( unreserved / pct-encoded / sub-delims / \"@\" )\nquery               = *( pchar / \"/\" / \"?\" )\npchar               = unreserved / pct-encoded / sub-delims / \":\" / \"@\"\nfragment            = *( pchar / \"/\" / \"?\" )\ndelimiter           = \":\"\n\nsegment-part        = *1( delimiter segment-nz-nc)\ntype                = delimiter *1(unreserved)\ncommon-type         = delimiter ( \"feed\" / \"message\" / \"blob\" / \"channel\" )\nalgorithm           = delimiter *1(unreserved)\ncommon-algorithm    = delimiter ( \"sha256\" / \"ed25519\" )\ninteger             = \":\" *1(unreserved)\nbase64-integer      = delimiter 44( ALPHA / DIGIT / \"-\" / \"_\" / \"=\")\n\nURI-general         = scheme segment-part [ \"?\" query ] [ \"#\" fragment ]\nURI-basic           = scheme type algorithm integer\nURI-common          = scheme common-type common-algorithm base64-integer\n```\n\n- URI-common would allow <ssb:feed:ed25519:TNl1qw6I4dorbnx2i-chCDYh/CAgD-rFAPfXJ7yUTBY=>\n- URI-basic would allow <ssb:property:sha-512:07bcffb2ff031dd88351428c80268ac6>\n- URI-general would allow <ssb:milky-way:earth:msg:chess:move:sha999:this-is-fine-everything-is-fine>"
+    "branch": "%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256",
+    "text": "Oops, I didn't mean to remove `[ \"?\" query ] [ \"#\" fragment ]` from the end of `URI-basic` or `URI-common`, please just pretend like thise are still tacked onto the end of the line like on `URI-general`."
   },
-  "signature": "2XcllGI/9A5nPAOhROkX//Hdr5m+kI9XY69lTtUVOHWBzXW5/GHuOrj+/JF2VO4KStAtdqxzVmWTdUzDJUfKDg==.sig.ed25519"
+  "signature": "caCNwfu8IGC4I9FuMtNItStiS8+Q3jB+azVV3ADx2SP5hp7iCXDSPeP9uXpTjva/9st3FrBr+A6EvnZWiptfDg==.sig.ed25519"
 }
