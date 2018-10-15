@@ -1,18 +1,51 @@
 {
-  "previous": "%Lv2biwPCVr6cq/8nyXkCMMRJXS5zU+28k17+n8aEZGc=.sha256",
-  "sequence": 6106,
+  "previous": "%uNddyjiu6r2NllSrKdz2DQd2fQpjl7Af/U9w5sl3WjM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539641104415,
+  "sequence": 6107,
+  "timestamp": 1539642083395,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 34,
-    "root": "%0pXr/38OP29579ijLN8UktRtJ+7FLROrKucPSUrDMdc=.sha256",
-    "orig": "c5",
-    "dest": "f2",
-    "pgnMove": "Bxf2+",
-    "fen": "rnb2r2/ppp3pp/4N1k1/6p1/8/2N3Q1/PPP2bPP/4R1K1 w - - 0 18",
-    "branch": "%wO44ZpYegQb1OP5TVU8LoudoGOsFsPhe/KQKvIO/dxI=.sha256"
+    "type": "post",
+    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "branch": "%iuECz8s2+9Ypwa7kh7upAsD7xPpDuX3aN6zTmGL44xE=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "Turns out that this may actually break sbot -- I noted that [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) could see my blobs, but it looks like [my test message](%eiiugavGmKag+XK0r9SqGgAJX25rea9Z5ILKY2D91XY=.sha256) actually kept me from replicating. Maybe #scuttlebot was trying to replicate the mapped result rather than the original message? Hmm.\n\nDisabling the plugin seems to have started pushing my messages out again, so I'm no longer #marooned, but I'm unsure what's going on under the hood. Maybe someone else is more familiar with the innards of `sbot`?\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@mmckegg](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      },
+      {
+        "link": "%eiiugavGmKag+XK0r9SqGgAJX25rea9Z5ILKY2D91XY=.sha256",
+        "name": "my test message"
+      },
+      {
+        "link": "#scuttlebot"
+      },
+      {
+        "link": "#marooned"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "mmckegg"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "LfNwbMBF3FWFrSD4tb6GVCSRjVFV2UGb9Gx79Ql6maL886tcqq3LXD3v0gTvLympwRkh5uv6VjxrGq0X8w30Bw==.sig.ed25519"
+  "signature": "H8KTtGTWUdOfzgBfixYUEV2RAicyY4cqmAtO09H68NYUqqWGQecjNlZ2hs4Wg9S/28BAoCB7sZJRo/VC6Z7PDA==.sig.ed25519"
 }
