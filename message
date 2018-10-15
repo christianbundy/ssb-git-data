@@ -1,17 +1,21 @@
 {
-  "previous": "%oPHKBv5PW18Ym226rDdhIN3E+q0ouxG8Xf3YIYyaMIo=.sha256",
+  "previous": "%Z2bhlp66DamHJl6LMWzcTSlxQVH9VpJhFcTz/L43hSk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6083,
-  "timestamp": 1539615503348,
+  "sequence": 6084,
+  "timestamp": 1539615935161,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CfOLR34kEPKIM8t3b3fFLHiaKHwKEIlHWdCQfqgVsOY=.sha256",
+    "branch": "%kbq1eelZ3TcXtEK1Fs+5WPrtsyKsNNTnX3RUse4Klyc=.sha256",
     "channel": "ssbc",
-    "vote": {
-      "link": "%CfOLR34kEPKIM8t3b3fFLHiaKHwKEIlHWdCQfqgVsOY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Thanks [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)! By the way, when should repos be added the GitHub org? I've noticed that some of the plugins and *especially* Patchbay pages are under personal GitHub accounts, but I wasn't sure whether that was because they didn't want to clutter the org or because they didn't want to give write access to org members. Maybe this has been discussed before?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "ljUgAVD+akhwKusfnTt+sqpIxkmvc+4oOFsGI1pBE6oR7P8SQwhi5brhe1DIMZwk5bSl/45x6hkZybm9L/5jCg==.sig.ed25519"
+  "signature": "NkyBHxXEe54tETfiOrpy+EdifNtZrGMH0hIfVLgEbp3XW7CUAaqYldTPrQwSRxi/THxM9hhI/ljPD3gfBndmAA==.sig.ed25519"
 }
