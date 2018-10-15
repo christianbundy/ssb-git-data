@@ -1,14 +1,17 @@
 {
-  "previous": "%u1uA2lmTqcqoOiL1LVZRDdjHMWT2BDrqxS7wZcy6RNY=.sha256",
+  "previous": "%VPG5y+fUWTxPmGBwhiIIctBUDySy4/ICejOjvbgd4hk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6102,
-  "timestamp": 1539640934692,
+  "sequence": 6103,
+  "timestamp": 1539641035790,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%u1uA2lmTqcqoOiL1LVZRDdjHMWT2BDrqxS7wZcy6RNY=.sha256",
-    "text": "...and `integer` should `= delimiter *1(unreserved)` rather than have a hardcoded `\":\"`. \n\n*Anyway*, is the integer encoding the last thing on the table? Here are our options (as I see them) and my perception of their availability in most standard libraries:\n\n- **Base64:** same radix with a URI-friendly alphabet, usually available\n- **Base58:** slightly smaller radix with a URI- and human-friendly alphabet, low availability\n- **Base32:** half-radix with a URI-friendly and case-insensitive alphabet ([IETF spec](https://tools.ietf.org/html/rfc4648#section-6)), mostly available but has many alternative alphabets\n- **Base16:** quarter-radix with a completely unambiguous alphabet, almost always available\n\nFor example, here's a random number encoded in each base:\n\n- **64**: `k-CW4DDI_fy1nGiNF6q3Pj7dg1XOaDvHyPMfjFxBS8s=`\n- **58**: `AxFZTHaKTSnbJvTb5vdq3XSvuaNH1WgGT249TELdtj3Q`\n- **32**: `14V0IRG31I7TVIQPOQ4D2ULBEFHURM1LBJJ87F3SHSOVHHE42IUB`\n- **16**: `93e096e030c8fdfcb59c688d17aab73e3edd8355ce683bc7c8f31f8c5c414bcb`\n\nAlternatively: [multibase](https://github.com/multiformats/multibase/)! I've only spent a few minutes reading the docs but this might solve our issue. :heart:"
+    "type": "vote",
+    "channel": "conferences",
+    "vote": {
+      "link": "%SZOak4lZxydTjLWmeeS3dDCMLSjDbFeEUtbYEH+HsAQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "cfPZFzkl6/OjApjXYH/Vn1gCAaQnfJz7LvocFJf0Tp6rhNViBP7mQmkIhmfdWVNYdB60BYwCEJx7QVRQ7PDXCA==.sig.ed25519"
+  "signature": "/0XR4hwolkugUpCWQnBQRasqNHERvWmW2kaXkdoas5DjSpumqExG4+CBiRVr4Y1DFLxCs1chx9F1OBdlCIqRBw==.sig.ed25519"
 }
