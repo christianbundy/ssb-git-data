@@ -1,16 +1,24 @@
 {
-  "previous": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+  "previous": "%svo5rNu4+RVPRYKC+YwpVpHXbtujYZXeRjEoixBn9mU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6078,
-  "timestamp": 1539615015863,
+  "sequence": 6079,
+  "timestamp": 1539615249796,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%QhUZKTm3xFBu+Q3WZcuQOdvgxo1r+WIykisRGbU0scw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9n4AZ2jBazk2miZyvS7P3W9n2zLj0fP3QoqDdizqRic=.sha256",
+    "branch": "%pXmSG6hvfEXoc9qy9jJG9X2Y6taQj4intsPjff4U8Oo=.sha256",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) I'm under the impression that it operates like a LAN, but I think you'd need to follow each other first (?) because IIRC you can't broadcast the \"hey I'm running sbot, peer with me!\" messages over cjdns. I'm very often connected directly to [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) over cjdns, but I only see it when I open Patchwork. Hoping someone will correct me if I'm wrong!",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "YdBpWTbBLKh2zqj4Qmi1F5BuHsThhn4e9YYtjHTjxQNvKldzlRm7Y2X7W42e1RcwQh61JL9UVfXK2Ne5dJjwCg==.sig.ed25519"
+  "signature": "4diE2+94+dDbbKUeDSdOhX5U9E0V/N56tAe8mrDp1+vfWLnVicthlDZ6lZeDeqK7aosAnaFoDwQhF+yVseAeAg==.sig.ed25519"
 }
