@@ -1,28 +1,20 @@
 {
-  "previous": "%t0W1PbZJbjex55A7ES26mC2RIEp7rDG4d5R5Qu1Jql8=.sha256",
+  "previous": "%GgbkZwGCIN4Bm/iaygsBy5WDyfzXHqttHYjNaEIYLKM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6134,
-  "timestamp": 1539703443028,
+  "sequence": 6135,
+  "timestamp": 1539703523799,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%9VGt9H38i4e9Jdha5g5068s5kD4oUWx9lqWMO3Sro/0=.sha256",
-    "branch": "%9VGt9H38i4e9Jdha5g5068s5kD4oUWx9lqWMO3Sro/0=.sha256",
-    "channel": "ssbc-rituals",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\n\nHey! I've been really excited about #scuttle-shell and I'd be happy to help you however I can. [This post](%CfOLR34kEPKIM8t3b3fFLHiaKHwKEIlHWdCQfqgVsOY=.sha256) might be relevant here, as it seems like we might (?) be switching to an NPM org rather than using the ssbc-owners repo. Not completely sure.\n\n> I'd would relive quite the burdon from me that others could at least publish patched versions if push comes to shove.\n\nI think I'm out of the loop, could you unpack this a bit? If there's already a post on it please link and I'll bring myself up-to-date.",
+    "root": "%9n4AZ2jBazk2miZyvS7P3W9n2zLj0fP3QoqDdizqRic=.sha256",
+    "branch": "%OjI7q9AVKhGfFB/tIQLhosD6Sr3U9/NCYwlI50kyQIM=.sha256",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) I think you can also check `~/.ssb/gossip.json` and look for any address that starts with `fc`. For example, my Raspberry Pi is [fc7d:ebb9:ee1b:912b:0467:9b3a:2162:b951](https://www.fc00.org/#fc7d:ebb9:ee1b:912b:0467:9b3a:2162:b951).",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "#scuttle-shell"
-      },
-      {
-        "link": "%CfOLR34kEPKIM8t3b3fFLHiaKHwKEIlHWdCQfqgVsOY=.sha256",
-        "name": "This post"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
       }
     ]
   },
-  "signature": "i/fLHxGwSgQxwOBcNXboZVpcuWtncutcVBIxJ8ZC98P03BpzFxBF3YZ4mykf+iRKcmiWexaNNRhw3maCQvASAA==.sig.ed25519"
+  "signature": "0Ysr061DOeA0XLwlzPgeMqIbfFZ0ZkYZWiyAmIMIwzBUIFLjKJ8XMzPTUFkRkO6ILsjWCQTPocokWHXT1CACBA==.sig.ed25519"
 }
