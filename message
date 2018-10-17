@@ -1,16 +1,25 @@
 {
-  "previous": "%olxfKX5eQoaXqc7J5tT67L2Dy6F3m3QzRMywbeXPzQE=.sha256",
+  "previous": "%gz4vWX4JjurAmv0KPFNtT+JEHqPDGLgLhU5NUT+qfgE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6237,
-  "timestamp": 1539811690021,
+  "sequence": 6238,
+  "timestamp": 1539811846221,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%dj2dE7iDrL/N8oTXv0CTXdFFhO5UXq7hBP3UuSq7xiU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%dj2dE7iDrL/N8oTXv0CTXdFFhO5UXq7hBP3UuSq7xiU=.sha256",
+    "branch": "%dj2dE7iDrL/N8oTXv0CTXdFFhO5UXq7hBP3UuSq7xiU=.sha256",
+    "reply": {
+      "%dj2dE7iDrL/N8oTXv0CTXdFFhO5UXq7hBP3UuSq7xiU=.sha256": "@xgq9ZY0Z10dgo6g2vTR3rnt2ouaKz6TgDXBkKx4yR0Q=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@मानस](@xgq9ZY0Z10dgo6g2vTR3rnt2ouaKz6TgDXBkKx4yR0Q=.ed25519)\n\nWow, that looks really cool! I noticed that when your profile photo is scaled down that the interpolation turns the jagged lines into gradients, and I was *so sure* that I could see a rabbit face when I saw a thumbnail of your profile photo. I thought you'd drawn a photo of a rabbit face, reverse-engineered the interpolation, and posted a profile photo that looked random unless it was scaled down and interpolated. \n\nI think I might be guilty of overthinking sometimes... ",
+    "mentions": [
+      {
+        "link": "@xgq9ZY0Z10dgo6g2vTR3rnt2ouaKz6TgDXBkKx4yR0Q=.ed25519",
+        "name": "मानस"
+      }
+    ]
   },
-  "signature": "uVoyACM6ch1PiP5mBVBcl/UTSPjA5rDQUrlM8T8mcywZQpwZ6O2dIjMMIw0uOIvJUSRyJldHjPJRdBxjJo4hBA==.sig.ed25519"
+  "signature": "TAwGUDFNbj6aVIVSnII3Fji9Z49yXHLjJ1RnFBTi6S7z5Ro7frWP94WxN4gP6zrbfxJ3yZGQbYWYvC4mXARaCA==.sig.ed25519"
 }
