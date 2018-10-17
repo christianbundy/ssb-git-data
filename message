@@ -1,21 +1,15 @@
 {
-  "previous": "%mzJpVCZ/KpUxBQVZSUAeUeBk+C7w0xybt7AiG79VcO0=.sha256",
+  "previous": "%k72/PXlZQ3iF4kueVF+sLttY78cZmS0fMW4/OfdVRPs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6206,
-  "timestamp": 1539783725255,
+  "sequence": 6207,
+  "timestamp": 1539784077061,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
-    "branch": "%vV5IZ91tvCkJCx4/3FiNEqiH0sEdx6ZVv6cOpvSKflo=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "Yep! I'm [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) Yep! For example, with the plugin loaded you can do `sbot messagesByType test` and it'll include:\n\n```json\n{\n  \"key\": \"%SUB6xPT0IO2kAGIYamCAjWApx+TDzsCYotU+EZkPWNE=.sha256\",\n  \"value\": {\n    \"previous\": \"%g1EKY+3dh7hrlbMDT4qxbHwG4LKdIirzIEM5ZQVGeCQ=.sha256\",\n    \"sequence\": 6094,\n    \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n    \"timestamp\": 1539635412062,\n    \"hash\": \"sha256\",\n    \"content\": {\n      \"type\": \"test\",\n      \"text\": \"replication test\"\n    },\n    \"signature\": \"VcjjTenq1RdOm61I9OodetAq7l3MA+nK6NhzrKKlEBmYCEov8RmM9zctgbs6OQ3jJ3NaZZYyBUMNBC2eGsifDg==.sig.ed25519\",\n    \"blob\": \"&AEAblKqa71I3uySfqYxLScUgutPhajECXz2XjNpmiL4=.sha256\",\n    \"blobContent\": true\n  },\n  \"timestamp\": 1539635412064\n}\n```",
-    "mentions": [
-      {
-        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
-        "name": "regular"
-      }
-    ]
+    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "branch": "%3vfjKIdHMWzalt7+HcnYigp4k+Tk6qby0bQyUC3gOd8=.sha256",
+    "channel": "javascript",
+    "text": "> Imagine updating dependencies in those files.\n\nI think this would be the biggest pro: you can update dependencies per-file without leaving your editor to modify `package.json` and then run `npm install`. I like `package.json` for project metadata, but it feels sub-optimal for managing dependency trees."
   },
-  "signature": "ebT9R1D5h5YWdal2oYkOhi+/Zyy8Ce+mRyXptL7ssjHnJW4W5jyjtkLHt/L8Ter1rVn+daoJ9E9roc34XaCZAA==.sig.ed25519"
+  "signature": "86IWQtE1jjz36c1P+tT0m+WToK0HlBolT3rmMc46lVsIxL7sbj22fK+/Q8eqtjMso8kXzgwAF8mbEpOddcVnDw==.sig.ed25519"
 }
