@@ -1,17 +1,13 @@
 {
-  "previous": "%2CsHibbbm3RH6D+OWxLALFAXu6c+DkYuvdWLpFg+lJY=.sha256",
+  "previous": "%vUL9s78+S66Bf1VivXvgA+MYY3M57evaZxHJH3qYIzE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6201,
-  "timestamp": 1539747882032,
+  "sequence": 6202,
+  "timestamp": 1539748181375,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%l3CRFKoOc+XaYLHNAQKE+0fA5mJxuOeh/KREkejRrBU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "I wonder how much value would be lost if we dropped the whole `package.json` dependencies thing and just parse the files so you can do something like:\n\n```js\nconst debug = require.version('debug', '4.1.x')\n```\n\nThis has the benefit/footgun of being able to have different versions of modules in each file, but otherwise it seems way nicer than having to maintain dependencies in `package.json`.",
+    "channel": "javascript"
   },
-  "signature": "pgltqXPtVrh8mdtNnFM2MU3eIBv/dRoGHUg4bvY+lHhzM3//R/SZ34/0NxTWO5O9EfkrIiZjRHfkH2QqRlI2AA==.sig.ed25519"
+  "signature": "eM9xlee4aziqhOLqYU1pA6g6COkXZTGNrqzgAx1Ldzlun9U7di4lOsI59NHWhrIXTlaQuqVfFXKPfbtZ76ErCw==.sig.ed25519"
 }
