@@ -1,17 +1,21 @@
 {
-  "previous": "%btoGSmEGk+Rv+pSFnNwkOchRk4cmHglmt1L9X7HOKgY=.sha256",
+  "previous": "%Vpf1znIt/8dMVXxxSHGh9+9cFitzqmG+TZE4fQ4+N8g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6219,
-  "timestamp": 1539800556674,
+  "sequence": 6220,
+  "timestamp": 1539801181406,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%Zo8OeNtOZ53WxSKOSxouzu6FSbQKOgEpcoHSbBmZU5M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "branch": "%w1E7QhcAM6aUpgyvWNwNk6UpcYmBsgd9HCRAwmzjD7I=.sha256",
+    "channel": "javascript",
+    "text": "[@radmen](@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519)\n\n> What should Node do in such case? Get both versions of packages?\n\nYep.\n\n> Let's say it would do so. Will the application be able to handle different versions of the same package? They will probably have a different API, or even behavior.\n\nI don't see why not. As long as you aren't passing `debug` from `a.js` to `b.js` and expecting that it will have the same API I don't think this would cause any problems. I think we may be coming at this from different angles: I'm assuming that developers working on large projects (i.e. anything big enough to require the same dependency in multiple places) are keeping their packages up-to-date with mechanical edits rather than modifying `package.json` by hand. For example, I'll use `npm-check -u` every few days to make sure everything is up-to-date, and if it isn't I'll just select which updates I want and then verify them with `npm test`. \n\nI suppose my point is that there are generally two types of projects:\n\n- Tiny projects that don't require the overhead of `package.json`.\n- Non-tiny projects where dependencies are handled mechanically.\n\nI suppose another benefit is that people working on non-tiny projects but still editing `package.json` (or gods-forbig `package-lock.json`) by hand will find out about the wonderful world of automation! I might try to implement this on a rainy day sometime, just for fun, so I appreciate you kicking it back and forth with me. ",
+    "mentions": [
+      {
+        "link": "@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519",
+        "name": "radmen"
+      }
+    ]
   },
-  "signature": "Ux0/hpz8dt4N8HK/EPfJiptEKlZz/ZDib8gTAeVJXaOoNhTXSMxCiIsQw/VNwcwDKMx3yqDHSwzl0OUYurGuCg==.sig.ed25519"
+  "signature": "jsdAjNkJSJCvX0LTd7lYgqhRQEbSvw6OmccLg6H4JAseJLNBtc5GLKDYsyjJ/oc8kPSMCfM1SLtiQ/8KqJIkCQ==.sig.ed25519"
 }
