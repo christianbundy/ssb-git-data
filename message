@@ -1,12 +1,43 @@
 {
-  "previous": "%H1nMirEB3SNDdMN7H4iRb4IAB4lbWF+jlcs72MYYUxQ=.sha256",
-  "sequence": 6216,
+  "previous": "%r2uawYMkQYsLIDGMFiRvFNGhYEgBWU7VwdxMgikeuPg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539797958229,
+  "sequence": 6217,
+  "timestamp": 1539799038969,
   "hash": "sha256",
   "content": {
-    "type": "blob",
-    "blob": "&KOTNrO62vdHQ+xVu/6SFUUSLLjFv8PGTj59cJYxybSA=.sha256"
+    "type": "post",
+    "text": "# Request for Review: [secure-scuttlebutt#228](https://github.com/ssbc/secure-scuttlebutt/pull/228)\n\nInstead of trying to CC everyone on GitHub or hit the \"request review\", I'm going to try post here instead. Feel free to discuss either here or on the PR, I'm not sure which will end up working best. \n\n## TL;DR\n\nThis standardizes on `msg.value.meta` being the place for unboxers and map functions to create metadata that **will not break replication**. It also standardizes on `msg.value.meta.original` as the place to put the original unmodified value(s) rather than using `msg.value.cyphertext`.\n\n## Background\n\nPreviously this module could safely assume that it would be the only one adding metadata to messages, so properties like \"private\", \"unbox\", and \"cyphertext\" were hardcoded. With the inclusion of `addMap()`, other applications may modify message data add metadata. This PR makes two assumptions:\n\n- Unboxers and map functions should only add properties at `msg.value.meta`.\n- Unboxers and map functions should only make modifications to `value` after backing up the original value to `msg.value.meta.original`.\n\n## Examples\n\n- The unboxer sets `msg.value.meta.unbox = 'secret'` rather than creating `msg.value.unbox`.\n- The unboxer modifies `msg.value.content` *after* setting `msg.value.meta.original.content`.\n\n### Before\n\n```json\n{\n  \"previous\": \"%05hDl4m7T356FfhiJ5XTK087ULHdLR4uYGpf5RNl2ws=.sha256\",\n  \"sequence\": 6213,\n  \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n  \"timestamp\": 1539794580995,\n  \"hash\": \"sha256\",\n  \"content\": {\n    \"type\": \"test\",\n    \"text\": \"Hello, meta world!\",\n    \"recps\": [\n      \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\"\n    ]\n  },\n  \"signature\": \"bTFfPHDCgpzjtc2M/d5teOlgOTnRMXa5aI1eESKD0smH952H2+g1QdIsoCI/qwh54xE27Ljaet+Q8WGczQajBg==.sig.ed25519\",\n  \"cyphertext\": \"CEYfQ/7PrUHzZWlSklgWewHp/dMfVHJN3ORZFsiBxzfTFYQD+l5j9Zvd46e2JiFAFjSl+yf5o2tEoF/t/BeY6I22R2/lBXXKkzZ7PKfW6ig75QFEdzRkpuljVN/c1nPIj0SeiU1AV2wK+RCLCHemGUpWObML92xojEBGq2yEdqfryYSZRoaQxoxzf4TKfp/ienSxohFTF0ChfqOQEyvRwrUhjFFrV1sCZ0EImrl2u8SUfmM9IDz6cOwo75DKY3w97qtpuO7GrGDO2lG3BehYSA3vsaLiWdZMPietDw0WqCVMOSO36Nk=.box\",\n  \"unbox\": \"AU1F31+HaxxzFzxuD4BzMZ80rvAp63BwxBgZsr+M2NRi\",\n  \"private\": true\n}\n```\n\n### After \n\nNote that \"cyphertext\", \"private\", and \"unbox\" are repeated for backward-compatibility, but may be deprecated in the future.\n\n```json\n{\n  \"previous\": \"%05hDl4m7T356FfhiJ5XTK087ULHdLR4uYGpf5RNl2ws=.sha256\",\n  \"sequence\": 6213,\n  \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n  \"timestamp\": 1539794580995,\n  \"hash\": \"sha256\",\n  \"content\": {\n    \"type\": \"test\",\n    \"text\": \"Hello, meta world!\",\n    \"recps\": [\n      \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\"\n    ]\n  },\n  \"signature\": \"bTFfPHDCgpzjtc2M/d5teOlgOTnRMXa5aI1eESKD0smH952H2+g1QdIsoCI/qwh54xE27Ljaet+Q8WGczQajBg==.sig.ed25519\",\n  \"meta\": {\n    \"original\": {\n      \"content\": \"CEYfQ/7PrUHzZWlSklgWewHp/dMfVHJN3ORZFsiBxzfTFYQD+l5j9Zvd46e2JiFAFjSl+yf5o2tEoF/t/BeY6I22R2/lBXXKkzZ7PKfW6ig75QFEdzRkpuljVN/c1nPIj0SeiU1AV2wK+RCLCHemGUpWObML92xojEBGq2yEdqfryYSZRoaQxoxzf4TKfp/ienSxohFTF0ChfqOQEyvRwrUhjFFrV1sCZ0EImrl2u8SUfmM9IDz6cOwo75DKY3w97qtpuO7GrGDO2lG3BehYSA3vsaLiWdZMPietDw0WqCVMOSO36Nk=.box\"\n    },\n    \"private\": true,\n    \"unbox\": \"AU1F31+HaxxzFzxuD4BzMZ80rvAp63BwxBgZsr+M2NRi\"\n  },\n  \"cyphertext\": \"CEYfQ/7PrUHzZWlSklgWewHp/dMfVHJN3ORZFsiBxzfTFYQD+l5j9Zvd46e2JiFAFjSl+yf5o2tEoF/t/BeY6I22R2/lBXXKkzZ7PKfW6ig75QFEdzRkpuljVN/c1nPIj0SeiU1AV2wK+RCLCHemGUpWObML92xojEBGq2yEdqfryYSZRoaQxoxzf4TKfp/ienSxohFTF0ChfqOQEyvRwrUhjFFrV1sCZ0EImrl2u8SUfmM9IDz6cOwo75DKY3w97qtpuO7GrGDO2lG3BehYSA3vsaLiWdZMPietDw0WqCVMOSO36Nk=.box\",\n  \"private\": true,\n  \"unbox\": \"AU1F31+HaxxzFzxuD4BzMZ80rvAp63BwxBgZsr+M2NRi\"\n}\n```\n\n## Deprecations\n\nThis PR leaves the old property names in-place for backward-compatibility, but if this is merged they should be considered deprecated. To be specific, this PR:\n\n- Deprecates `msg.value.private` in favor of `msg.value.meta.private`\n- Deprecates `msg.value.unbox` in favor of `msg.value.meta.unbox`\n- Deprecates `msg.value.cyphertext` in `msg.value.meta.original.content`\n\n## Considerations\n\nI think `msg.meta` *may* be more intuitive than `msg.value.meta`, but I wanted to keep this PR as close to the current code as possible. There's no rush to migrate clients from checking `msg.value.private` to `msg.value.meta.private`, but migration would be difficult for functions that accept `msg.value` which have no way to access `msg.meta`. Simply put, I'd like to make sure that this PR is both backward-compatible *and* provides an easy migration path.\n\n## But does it work?\n\nI think so! It passes `npm test` for this module and Scuttlebot, and I can verify that replication is working as expected with *both* the example map in the README and [`ssb-blob-content@0.3.0`](https://gitlab.com/christianbundy/ssb-blob-content). (message too big, JSON on GH)\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)  [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) ",
+    "channel": "scuttlebutt",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "FjdQ5Mz6AdDa0Rm6uZOVolqj9HAZtY9npAe7V+m9e4zZyaNuFScd2jPOVpl3pdUcSvjAQLQZgP96/2Aw29dCDA==.sig.ed25519"
+  "signature": "mf6XvmijDFbAZJ3k6LRVmCvbIycDGJRWOysKF5N4DhDMHHZy0jZraL5IrROQR+yq7819wWqzTMh+rOsa8o/3DQ==.sig.ed25519"
 }
