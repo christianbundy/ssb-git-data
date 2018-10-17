@@ -1,15 +1,17 @@
 {
-  "previous": "%k72/PXlZQ3iF4kueVF+sLttY78cZmS0fMW4/OfdVRPs=.sha256",
+  "previous": "%Fboj90F1CU/9Xyz5xXnMHlAi5Un89onDhtGzcARr8yg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6207,
-  "timestamp": 1539784077061,
+  "sequence": 6208,
+  "timestamp": 1539784081335,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
-    "branch": "%3vfjKIdHMWzalt7+HcnYigp4k+Tk6qby0bQyUC3gOd8=.sha256",
-    "channel": "javascript",
-    "text": "> Imagine updating dependencies in those files.\n\nI think this would be the biggest pro: you can update dependencies per-file without leaving your editor to modify `package.json` and then run `npm install`. I like `package.json` for project metadata, but it feels sub-optimal for managing dependency trees."
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%Fcp708n1mPDy4ckxZcKRxfyP7AcnhSWRQaVlzWWq9Eo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "86IWQtE1jjz36c1P+tT0m+WToK0HlBolT3rmMc46lVsIxL7sbj22fK+/Q8eqtjMso8kXzgwAF8mbEpOddcVnDw==.sig.ed25519"
+  "signature": "CwHY0D+QcYhn89cZn9SCGieuk4ScNkO5I1z5jwa1CGQaqfavJwua2lXhbGYjISO6oI//6nIaENuxZhlKJJbMDw==.sig.ed25519"
 }
