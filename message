@@ -1,17 +1,21 @@
 {
-  "previous": "%26AgLDIRydQ3yPxRa/8CR+mBHSWJ92Ptgi5hn/SkB/8=.sha256",
+  "previous": "%/PgmlJFunEpe8eV3r/vFFGYGQJz+DyXg3AkkrNzWIrk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6228,
-  "timestamp": 1539804792612,
+  "sequence": 6229,
+  "timestamp": 1539804820375,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%1u21q/Js8qu8mYVyfe5XZmK7g2vLmRWtaX21T76mj0s=.sha256",
+    "branch": "%eh84fEtFoTMfs9wgkVO+z/prl0NBcJCVpz9vlRKG9a4=.sha256",
     "channel": "mmt",
-    "vote": {
-      "link": "%kKobcYtFFDcAoLNw6eB331npZHdOdqnlAMNg+3eT7+E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) Wow, that's super neat! Congratulations, I'm excited to see what you build!",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "ilQ4Zvn1WBqSbeW6UC6mUoyrNLQbmCMlrPJgflanmnO9pC5Hs1YhLuYnr/9dfwGbMm2h5gHnDaAsAc5DBz8uBA==.sig.ed25519"
+  "signature": "IYWudv4KjKIBO4vQ+SalBU38yLW96+2OKj5X8TkeEUeIdUOwva0MAg+3uHWNodwH8SoZOgLxF6PTiW5le6ckCw==.sig.ed25519"
 }
