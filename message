@@ -1,14 +1,25 @@
 {
-  "previous": "%Zy6RinCi4JrS9OBxcq0MNM0prk6+3O/VLJrn6aFmS48=.sha256",
+  "previous": "%GwXPrXViC7h3UuNUbru2bWBVUuaDkqBOBgeGi85jo+U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6224,
-  "timestamp": 1539801760026,
+  "sequence": 6225,
+  "timestamp": 1539802601784,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%/ZFfnE1VLf2Yaa4iMsjmC4GiRIXOblbNt1R5l7A+CfA=.sha256",
-    "branch": "%BgXi42B9NVXc9umzodY0u/u1pX1GCv4T0yyLLp7xX3s=.sha256",
-    "text": "> Could be a small income stream to people who have time to run pubs but maybe could use some funds?\n\nThis could be a terrible awful idea, but the first thing that came to my mind was a pub specifically for OpenCollective supporters. The SSBC benefits from the financial suport and a high-uptime pub, and supporters would get access to a rando-free pub. I'm a bit skeptical of this idea, since it sounds like \"social centrality as a service\", but I'm going to post it anyway because I'm not completely convinced either way."
+    "root": "%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256",
+    "branch": "%8TU06ASwrYtDZsEQtjb5ZyJW+IFh1q9/G6h0wlIZ4Bs=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\n> Is this just about js implementation details?\n\nYep, that's correct. Right now we're setting `msg.value.private = true` when decrypting private messages, and my proposal is to instead set `msg.value.meta.private = true`. The old way meant that we had to hardcode which properties were actually metadata so that it wasn't accidentally replicated, so my proposed solution is to quarantine metadata to `msg.value.meta`.\n\n> Related question: Is this related to plugins, in a way that might be relevant for a future sandboxing, ipc-based plugin system?\n\nProbably, although I'm lacking a lot of context there. The important bit is that flumedb and secure-scuttlebutt now accept [functions](https://github.com/ssbc/secure-scuttlebutt/blob/b120f99804189009e7e6a415337b30632c25430a/README.md#securescuttlebuttaddmap-fn) to modify messages on get/stream, which gives us a non-hacky way to transform messages before they're passed to a view. This means you'd get behavior [like this](%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256) where you can publish some simple JSON but when you do a get/stream for the **same message** it can come back looking completely different.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+        "name": "like this"
+      }
+    ]
   },
-  "signature": "ZRri8QojetwKqpQND8ifxymVV7SgPcKjpdGnE19H80jXHwBvTzEW3Yj4DkAWc+So8Q6LjkbSIc7HHj8hykSQCA==.sig.ed25519"
+  "signature": "BPQTI69AnxAfi0pyzzMAyYJqOR/WLoyL6/Rd6lz5wBNv2NcFL/+ALj+/pzT9RtD54NfZy3yWTJz9Io1ch5xTBg==.sig.ed25519"
 }
