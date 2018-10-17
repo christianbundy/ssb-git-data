@@ -1,25 +1,17 @@
 {
-  "previous": "%JrPT8gKWmnZP+jdpz9fpQSo7DeDFF2BkUx/QzduLsMw=.sha256",
+  "previous": "%fEfUoUCHYlhIoS3VjWVQDWhde7u0HLJD+MLt1Lft/bI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6235,
-  "timestamp": 1539809740203,
+  "sequence": 6236,
+  "timestamp": 1539809822198,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256",
-    "branch": "%oFMT0xU/rCFFh8p8YhINPWC4bK4BVH01BwO77zLYRxM=.sha256",
-    "reply": {
-      "%oFMT0xU/rCFFh8p8YhINPWC4bK4BVH01BwO77zLYRxM=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519"
-    },
-    "channel": "scuttlebutt",
-    "recps": null,
-    "text": "[@Matt McKegg](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nThis [background](https://github.com/ssbc/secure-scuttlebutt/pull/219#issuecomment-423355315) might be relevant, but the gist is that the maps are being [passed to flumedb](https://github.com/ssbc/secure-scuttlebutt/blob/5d8296be76b0c2a9b2c5e35254745efae5bba8b1/minimal.js#L96-L118) and being run any time we get/stream, so we don't have access to the original message. In the past we've used a workaround for private messages where we set `msg.value.cyphertext = msg.value.content` so that when we need to replicate we can restore the original message and delete the metadata properties, but those property names are [currently hardcoded](https://github.com/ssbc/secure-scuttlebutt/blob/37007420db0e94521416b4f92198e177b95f7f0d/util.js#L46-L58).",
-    "mentions": [
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "Matt McKegg"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%KVof+6X69wI2XfROrFtZj5omrGf6fsO6/eLFiki0rwU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LqbnknmyLfvvJp7txnDd+UtW2K5D89gDHqBSk7mivZ4bbhnfH1wJh9lANj4LgVkX3PjOCzQqDugDtoH9qAQnDA==.sig.ed25519"
+  "signature": "nrtUCTXvEFqrgzN7eAV1N8o/NCsQZ+Hm5L5R10xkAmeZGK+lVgZeF8iJqLv9fjmhXwHHKIuMPyZoCaa6RZwVAw==.sig.ed25519"
 }
