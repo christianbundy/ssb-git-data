@@ -1,13 +1,15 @@
 {
-  "previous": "%vUL9s78+S66Bf1VivXvgA+MYY3M57evaZxHJH3qYIzE=.sha256",
+  "previous": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6202,
-  "timestamp": 1539748181375,
+  "sequence": 6203,
+  "timestamp": 1539748362279,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I wonder how much value would be lost if we dropped the whole `package.json` dependencies thing and just parse the files so you can do something like:\n\n```js\nconst debug = require.version('debug', '4.1.x')\n```\n\nThis has the benefit/footgun of being able to have different versions of modules in each file, but otherwise it seems way nicer than having to maintain dependencies in `package.json`.",
-    "channel": "javascript"
+    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "branch": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "channel": "javascript",
+    "text": "Also if we could drop the whole `npm install` requirement and auto-install when you run `node` that would be great."
   },
-  "signature": "eM9xlee4aziqhOLqYU1pA6g6COkXZTGNrqzgAx1Ldzlun9U7di4lOsI59NHWhrIXTlaQuqVfFXKPfbtZ76ErCw==.sig.ed25519"
+  "signature": "QS2ETLLIMA+RoExsVhYfyWyKxChb0pZpEOeETjYrtGFOP2vNBM9kY6OI2iALdzSsxhH0grnYNKwshI9xwD9XDg==.sig.ed25519"
 }
