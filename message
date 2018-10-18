@@ -1,26 +1,19 @@
 {
-  "previous": "%Mqw0WmbUap9EgADgLboBshMDE2mmh94H3rkB8MQRTN0=.sha256",
+  "previous": "%8cRpbfR9voDvUIsoTLBpatePyVA9xQ6LNPewzFllD7Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6311,
-  "timestamp": 1539905775057,
+  "sequence": 6312,
+  "timestamp": 1539907048756,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%37IT5j2DOdGgggz8tS+zLtP0lkeJdSbeg5WNzYxthoI=.sha256",
-    "branch": "%cn0mJck9vW3bjglJunfUrgQKi1G5+aMNBzZi4Ac+dho=.sha256",
-    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) I was thinking of just a captive portal that only allows internet access over sbot. I think the SSID might be subjective, so each of us could try different names for various purposes, but I think it would really be nice to share the software that:\n\n- serves a captive portal webpage with:\n  - an instance of the viewer for people to preview the network ( #ssb-viewer )\n  - downloads of the latest client installers for each platform \n  - some sort of documentation or user manual or something?\n- runs a pub in the background that provides messages from peers on the internet\n- maybe provides a \"public\" IP address to peer with others ( #cjdns )\n\nWhat do you think would be best?",
+    "text": "**Frustrated that your link isn't clickable?** Wrap the link in `<` and `>`, like this:\n\n- <magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a>\n- <mailto:christianbundy@fraction.io>\n- <dat://beakerbrowser.com/>\n- <ssh://git@github.com>\n- <ssb:message:sha256:ql0-iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ> (maybe[?](%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256))",
+    "channel": "markdown",
     "mentions": [
       {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy"
-      },
-      {
-        "link": "#ssb-viewer"
-      },
-      {
-        "link": "#cjdns"
+        "link": "%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256",
+        "name": "?"
       }
     ]
   },
-  "signature": "oL+RsblqWR0p99FOBspzYZzaDEMWbCWXlR6Ts6pBXShx26NzZdR3cB/KEQUBTR3DF83zTsRlRjjvO636ep6TDg==.sig.ed25519"
+  "signature": "lV+lhNMy/T2F1qsZlMIzQMGNm9yASZbb6mfiORvDm0AT3az/OJ+jRTN/UXfHfNj/hY94qD1exph74wHTpRmmCw==.sig.ed25519"
 }
