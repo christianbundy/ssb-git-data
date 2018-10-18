@@ -1,24 +1,16 @@
 {
-  "previous": "%87UUiv1W+HLI6gDY1H0tNY4darqaLqEImQo9OjLTxtI=.sha256",
+  "previous": "%GglJLKVpBs9ri3Osrh2EFBzpNEdqfCy0t2aBeEDesDU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6274,
-  "timestamp": 1539878076085,
+  "sequence": 6275,
+  "timestamp": 1539878110323,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
-    "branch": "%vSiOr7ivMAeHrRYOL15XBzqEoZ0xFwxXWS6al/Ilm9o=.sha256",
-    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\n\n> If I unfollow all the pubs, will I be able to post and get new messages only from devices on my own locally-connected network, whether wifi, mesh, or ethernet?\n\nMy experience points to \"no\", but I'm not an expert. My understanding is that your client is constantly connecting to every pub it knows about, and that those pubs will replicate your messages as long as:\n\n- you have an internet connection\n- the pub hasn't specifically blocked you \n- you're within their hop distance (usually set to 2/3):\n  - **1 hop:** the pub follows you, or\n  - **2 hops:** the pub follows someone who follows you, or\n  - **3 hops:** pub follows someone who follows someone who follows you\n\n---\n\nFor people who want to get technical: you can get your current peering information with `sbot status`, which currently shows that I'm connected to:\n\n```json\n\"gossip\": {\n  \"@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519\": {\n    \"address\": \"net:192.168.0.17:8008~shs:<REDACTED>\",\n    \"source\": \"local\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877878307,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 27012.073684210525,\n        \"stdev\": 28568.670479627122,\n        \"count\": 95,\n        \"sum\": 2566147,\n        \"sqsum\": 146853000481\n      },\n      \"rtt\": {\n        \"mean\": 13,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 13,\n        \"sqsum\": 169\n      },\n      \"skew\": {\n        \"mean\": 2.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 2.5,\n        \"sqsum\": 6.25\n      }\n    }\n  },\n  \"@DwACvb3CeQGuk75+i3IhFCZ6T4YF9mMBShTY5xsZ/yE=.ed25519\": {\n    \"address\": \"net:ssb.drisc.io:8008~shs:<REDACTED>\",\n    \"source\": \"stored\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877880345,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 35383.485049833886,\n        \"stdev\": 25386.54338817994,\n        \"count\": 301,\n        \"sum\": 10650429,\n        \"sqsum\": 570836747441\n      },\n      \"rtt\": {\n        \"mean\": 285,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 285,\n        \"sqsum\": 81225\n      },\n      \"skew\": {\n        \"mean\": 66.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 66.5,\n        \"sqsum\": 4422.25\n      }\n    }\n  },\n  \"@d64Q93XzBhbr2JCLWkZgvzKwTHMvwFgRdtw4fHFlF5k=.ed25519\": {\n    \"address\": \"net:ssb.mikey.nz:8008~shs:<REDACTED>\",\n    \"source\": \"stored\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877892466,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 44309.92792792793,\n        \"stdev\": 19320.208485488278,\n        \"count\": 111,\n        \"sum\": 4918402,\n        \"sqsum\": 259367058748\n      },\n      \"rtt\": {\n        \"mean\": 379,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 379,\n        \"sqsum\": 143641\n      },\n      \"skew\": {\n        \"mean\": 94.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 94.5,\n        \"sqsum\": 8930.25\n      }\n    }\n  }\n}\n```\n\nThe `192.168.0.17` is [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), which is on my local network, but the others are pubs that my client has learned about via `type: pub` messages.",
-    "mentions": [
-      {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bob"
-      },
-      {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%t4PMv5O7bGnxK8vU7g9kzHN5hblob3UIGWEDkwGKFmQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YLTwl4YHljHbOQUnnfpVzJaQsxDU1o+BZJBzVDX8gD1mWoeRHy2Jn3WqU5bC9hZuBrLZ6DJncYySZJuhL2s4Cw==.sig.ed25519"
+  "signature": "zKBNzQ2ZXjZ0edkhr5+zblgeTw6kzo8IqCzRoy2gsRkl84haRv7VdwuNlPzHWPEsLKFE0cDg0dPZHuQE5RiWAg==.sig.ed25519"
 }
