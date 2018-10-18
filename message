@@ -1,21 +1,17 @@
 {
-  "previous": "%44UZ4CQKUvHwpDzPquMFE5hoE0J/DWNpGUIgNYqB70s=.sha256",
+  "previous": "%szmOLjgHxO3IBUQpiAmotnur5/cyidpabGy78C3jS18=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6253,
-  "timestamp": 1539872667797,
+  "sequence": 6254,
+  "timestamp": 1539872718183,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
-    "branch": "%FZ8uVBssbZCDU4/L6zE6t6Loa01Hnbk4vWvxq+jvgrw=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "Thanks [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519), I'll need to go check that out. \n\n> ssb-search (I think that's the name of the flumeview-search plugin for sbot) will not index the blob content right now, which will make these hard to search within.\n\nIs there a way to test this? Since the blob-to-content transformation is happening in flumedb I was under the impression that views/plugins shouldn't be able to tell which messages have been transformed, but I wouldn't be surprised if my understanding of what's going on under the hood could be improved.\n\nGlancing at the ticktack code it looks like the ticktack blob transformation it looks like we're doing super similar stuff, I think the main difference is just that ticktack is doing it client-side (?). It's good to see that our implementations were so similar!",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%yNZP/qTNKbKiSAT3/o/Ae0iJYI9xEoeTjbGuD9QZAg0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3izrD5SmwrlvDDp7V+f0rqkde5YXuWwvC8gUzus1oRqoK8fWxP+vLaNuBUAHZydzcNdxvT9G9mVvGaCFDuYpAw==.sig.ed25519"
+  "signature": "mHfKdiQ2m97KVlrq1/yBaYlg8ldZ/O1fRSVO3IO0lqnj7BN2bxGI/u7mawNrE76M6bwMO7Hg+d1OCDvlqx2JAg==.sig.ed25519"
 }
