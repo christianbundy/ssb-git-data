@@ -1,17 +1,20 @@
 {
-  "previous": "%tqjNDoHto27ioNR6W6X+Rl6qj/ZqiVm6rC759YLxZaw=.sha256",
+  "previous": "%hTIKeATBDhaH451sURUmhLm16TlyuAG7XgqVhjXlWGg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6258,
-  "timestamp": 1539875760722,
+  "sequence": 6259,
+  "timestamp": 1539875964356,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "automotive",
-    "vote": {
-      "link": "%vlYA5vUO01eYDUKbtxLYDgpngY2NVwZzhUlFs1hGVu8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%E/SpJccNwD4lJM2NPGS3giFa2can2PY5fzbl24D3IZM=.sha256",
+    "branch": "%X54L5LtrDVld9X/zz+ZV1NHjAdn8SsD2eQHzMYH18SI=.sha256",
+    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) Is this a legitimate feed? All of the posts *just* replicated my way so I wanted to double-check that it's actually you.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "Andre Staltz"
+      }
+    ]
   },
-  "signature": "HcpBGcUEW66dEKoxzT/uaWD6Wgx5EaXogH/CVHdoIIMCpWgUBboDPhrAGHuUkdz8EAvUQHAGGaph2F9pefWODA==.sig.ed25519"
+  "signature": "yv8xOx+7y2LV780BbDyZkCc+uGRVOrxXL+1oTmxiOXsc+C2uhnokOD3e5i74fqcjQMKWpAjBBcbLvenGKYPcCA==.sig.ed25519"
 }
