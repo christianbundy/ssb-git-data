@@ -1,17 +1,24 @@
 {
-  "previous": "%khNVQKK3GQsYe9qjZDzhK1poCw6h+svD2oMQVBQ/wKE=.sha256",
+  "previous": "%bYH/9C1PngDuxoj0y1r/fOhwjDQoIw6+cgKDuDYip2Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6251,
-  "timestamp": 1539871706197,
+  "sequence": 6252,
+  "timestamp": 1539871873936,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%2spOnSoJ/vf8g3IrIFrwgbLyZdRG68nGLGq0/IreyRU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
+    "branch": "%Jpn9J41xGkYwAjR5L9nUOR2sglmMmUFDRNmJNKZpKzQ=.sha256",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) I'm under the impression that we still use pubs even if we don't follow them. For example, if a pub follows you and you follow me, then the pub will download messages from me directly and hand them off to you. I haven't followed any pubs in at least a few weeks (except [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519)) and I don't think I can tell the difference. ",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      }
+    ]
   },
-  "signature": "zoEKNwICRzu775Q6V2eH5t6cx9nsfe1HtM22pxngClcTraafFVh7T5nkXrUxrLSU1Bz0XTrLrMPseakp4/+iCw==.sig.ed25519"
+  "signature": "YXAwOHhneddvCjrpbp+YuSmjIkWfWeb5OTSYHAW2zOSKz8n5vhGMJt9GZhsO76a0+Rgp5uqGSoGOdotoYcP+CA==.sig.ed25519"
 }
