@@ -1,17 +1,20 @@
 {
-  "previous": "%E/IJIoWvjiZCwCyOgMfVErIwP6etu7MKgf4sRsymHbY=.sha256",
+  "previous": "%YgCt/uqWdeEJUL3E//D5F/46y0RDUkyqACSRmI2g174=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6287,
-  "timestamp": 1539897306918,
+  "sequence": 6288,
+  "timestamp": 1539897403464,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebutt",
-    "vote": {
-      "link": "%5dOHJ4eeqRqnDMcZyiz66KLxvKU0Tf5kwI7vV8Ep5q4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%i9FgQFdjIebG8gQlNKS/0kVclvn3pWKYRcVURwPtXlE=.sha256",
+    "branch": "%KthCXtokA3yLgpOW9zsFb6K6NjOMmW2n0G3KStt3jac=.sha256",
+    "text": "[@PresGas](@/dnSdx/tNZomgJ1fK3r7O2ufaBk2gdtmhihUP7GEIGk=.ed25519) That looks to me like you may accidentally be trying to rsync the socket. I'd ignore that file. Managing your identity with rsync is risky business, good luck!",
+    "mentions": [
+      {
+        "link": "@/dnSdx/tNZomgJ1fK3r7O2ufaBk2gdtmhihUP7GEIGk=.ed25519",
+        "name": "PresGas"
+      }
+    ]
   },
-  "signature": "6xQrPePBU8xosBDm1cl2zBoVb0WvWztruD/ylyTFlJbXnJ0Z+mvhAetAT8b7IOnt9Qn2XUhEdF5ynK/PlRp3Bg==.sig.ed25519"
+  "signature": "IK5ZXR0nORb8102T9yJq25/op5pt6prVQ3Vtjq+lKxpYEJGwBWVzRs/3GKm1s6FRHdAHXlJ0Rv1Dwb1eAn+3Cg==.sig.ed25519"
 }
