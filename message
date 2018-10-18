@@ -1,29 +1,17 @@
 {
-  "previous": "%PuCJ6dRYA0djUPj60S6ZSBH1R8IV92GuSeJ5lRPfa7U=.sha256",
+  "previous": "%IeTgdjfZKg+0WIAzmr+1TOwhl/CXHxDOkEK0+tqVEag=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6285,
-  "timestamp": 1539897263695,
+  "sequence": 6286,
+  "timestamp": 1539897288948,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%I/pr8e03xiBZjWrNxeUPso/u9+1uQQtIRRfY6Lk41mU=.sha256",
-    "branch": "%P3PUZ3R3ys6nurSf7WW7M3V14W58XK81XDAIFAGQNrE=.sha256",
-    "channel": "block",
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) [@hoz](@RtsOc2h1gqh0fRrjrUTHAkRBu9YyDgsD+EWsfLpykrc=.ed25519) \n\nFunny enough, this just [came up](%cYwbdI8ctaM8M+ffsGk++zPALlZRC1UIa0EtzcHxzAg=.sha256) a few days ago, as I was also under the impression that the blockee would never see the block message from the blocker. If my understanding is correct, the current theory is that there are one or more pubs out there that are replicating messages that they shouldn't, but I haven't had the time to [test for it](https://github.com/ssbc/ssb-friends/issues/12#issuecomment-429587697).",
-    "mentions": [
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "@RtsOc2h1gqh0fRrjrUTHAkRBu9YyDgsD+EWsfLpykrc=.ed25519",
-        "name": "hoz"
-      },
-      {
-        "link": "%cYwbdI8ctaM8M+ffsGk++zPALlZRC1UIa0EtzcHxzAg=.sha256",
-        "name": "came up"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%7WUXsVocm66pEGRKbaa9NUEV+6lQ7G+Hi+ptiW06NO0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0MccRWa/tTnUjzj53WS4MLVuUWTBL9STfdVlOR+IzJwJym4P8ayEJ/OQ9601lmg/z/AJeKceVfXjtgl8qamwCA==.sig.ed25519"
+  "signature": "Ipdj1liJWFXz8X2Y8AsBY/FKRZ+1YNCJjjvENfEp0ctYDaVIszcRFGfwbgFoG8Kbq4rMjfW02aK8I6IjJLAPDg==.sig.ed25519"
 }
