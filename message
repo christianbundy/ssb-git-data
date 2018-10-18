@@ -1,36 +1,24 @@
 {
-  "previous": "%/p83JFU1PNjTjcE8fCHBLY8Hd1Fus7WZkk4noHqBUd4=.sha256",
+  "previous": "%87UUiv1W+HLI6gDY1H0tNY4darqaLqEImQo9OjLTxtI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6273,
-  "timestamp": 1539877413623,
+  "sequence": 6274,
+  "timestamp": 1539878076085,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%L+Td6htDDGh4lpVF2JEmxojoYo24INI5xI0Zl9JkaGk=.sha256",
-    "branch": "%U9awPUO4vB+Vowko2+N6uQhcnk7YzyKpGDXA90acpa4=.sha256",
-    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) I think it came from [this follow](%UbaKemG/6fuBT/U6mm4InGAukcHKRN+puHKS69BfIxQ=.sha256), so the follow graph is:\n\nUs => [@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) => [@Aron](@vYDcCkGihe/Qyw3JaD0P0UsIG2FuX7O5/fYycnr+GDc=.ed25519) => [@andrestaltz](@0CW37ZdKEgoWsHNcZ9SXNO47+kK0RUIAtjzORGOj3fc=.ed25519)\n\n3 hops!",
+    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
+    "branch": "%vSiOr7ivMAeHrRYOL15XBzqEoZ0xFwxXWS6al/Ilm9o=.sha256",
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\n\n> If I unfollow all the pubs, will I be able to post and get new messages only from devices on my own locally-connected network, whether wifi, mesh, or ethernet?\n\nMy experience points to \"no\", but I'm not an expert. My understanding is that your client is constantly connecting to every pub it knows about, and that those pubs will replicate your messages as long as:\n\n- you have an internet connection\n- the pub hasn't specifically blocked you \n- you're within their hop distance (usually set to 2/3):\n  - **1 hop:** the pub follows you, or\n  - **2 hops:** the pub follows someone who follows you, or\n  - **3 hops:** pub follows someone who follows someone who follows you\n\n---\n\nFor people who want to get technical: you can get your current peering information with `sbot status`, which currently shows that I'm connected to:\n\n```json\n\"gossip\": {\n  \"@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519\": {\n    \"address\": \"net:192.168.0.17:8008~shs:<REDACTED>\",\n    \"source\": \"local\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877878307,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 27012.073684210525,\n        \"stdev\": 28568.670479627122,\n        \"count\": 95,\n        \"sum\": 2566147,\n        \"sqsum\": 146853000481\n      },\n      \"rtt\": {\n        \"mean\": 13,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 13,\n        \"sqsum\": 169\n      },\n      \"skew\": {\n        \"mean\": 2.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 2.5,\n        \"sqsum\": 6.25\n      }\n    }\n  },\n  \"@DwACvb3CeQGuk75+i3IhFCZ6T4YF9mMBShTY5xsZ/yE=.ed25519\": {\n    \"address\": \"net:ssb.drisc.io:8008~shs:<REDACTED>\",\n    \"source\": \"stored\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877880345,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 35383.485049833886,\n        \"stdev\": 25386.54338817994,\n        \"count\": 301,\n        \"sum\": 10650429,\n        \"sqsum\": 570836747441\n      },\n      \"rtt\": {\n        \"mean\": 285,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 285,\n        \"sqsum\": 81225\n      },\n      \"skew\": {\n        \"mean\": 66.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 66.5,\n        \"sqsum\": 4422.25\n      }\n    }\n  },\n  \"@d64Q93XzBhbr2JCLWkZgvzKwTHMvwFgRdtw4fHFlF5k=.ed25519\": {\n    \"address\": \"net:ssb.mikey.nz:8008~shs:<REDACTED>\",\n    \"source\": \"stored\",\n    \"state\": \"connected\",\n    \"stateChange\": 1539877892466,\n    \"failure\": 0,\n    \"client\": true,\n    \"stats\": {\n      \"duration\": {\n        \"mean\": 44309.92792792793,\n        \"stdev\": 19320.208485488278,\n        \"count\": 111,\n        \"sum\": 4918402,\n        \"sqsum\": 259367058748\n      },\n      \"rtt\": {\n        \"mean\": 379,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 379,\n        \"sqsum\": 143641\n      },\n      \"skew\": {\n        \"mean\": 94.5,\n        \"stdev\": 0,\n        \"count\": 1,\n        \"sum\": 94.5,\n        \"sqsum\": 8930.25\n      }\n    }\n  }\n}\n```\n\nThe `192.168.0.17` is [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), which is on my local network, but the others are pubs that my client has learned about via `type: pub` messages.",
     "mentions": [
       {
-        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-        "name": "kas"
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
       },
       {
-        "link": "%UbaKemG/6fuBT/U6mm4InGAukcHKRN+puHKS69BfIxQ=.sha256",
-        "name": "this follow"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "André Staltz"
-      },
-      {
-        "link": "@vYDcCkGihe/Qyw3JaD0P0UsIG2FuX7O5/fYycnr+GDc=.ed25519",
-        "name": "Aron"
-      },
-      {
-        "link": "@0CW37ZdKEgoWsHNcZ9SXNO47+kK0RUIAtjzORGOj3fc=.ed25519",
-        "name": "andrestaltz"
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
       }
     ]
   },
-  "signature": "RYRO189O2RKZ6/m1VVtxev4qo3iPZW+0svairbau3v60i1XoiDRPkDAl/eMlzi9X59WfaM4rQyjZeXX0tSnVCQ==.sig.ed25519"
+  "signature": "YLTwl4YHljHbOQUnnfpVzJaQsxDU1o+BZJBzVDX8gD1mWoeRHy2Jn3WqU5bC9hZuBrLZ6DJncYySZJuhL2s4Cw==.sig.ed25519"
 }
