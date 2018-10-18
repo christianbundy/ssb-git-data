@@ -1,18 +1,36 @@
 {
-  "previous": "%BY/5ZQ6xFwC4C+dowOQX69M0IbTlcCWRLG6QX0d9fzM=.sha256",
-  "sequence": 6272,
+  "previous": "%/p83JFU1PNjTjcE8fCHBLY8Hd1Fus7WZkk4noHqBUd4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539877094259,
+  "sequence": 6273,
+  "timestamp": 1539877413623,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 11,
-    "root": "%l+phZjByAMezDbFckqypyJFpn3Pj8oZELPW8B8K3REA=.sha256",
-    "orig": "e1",
-    "dest": "d1",
-    "pgnMove": "Kd1",
-    "fen": "r1bqkb1r/pppp1ppp/5n2/4pQ2/2B1P3/2N5/PPnP1PPP/R1BK2NR b kq - 1 6",
-    "branch": "%rL5StI4/aRBLpaIY8+aVYGu2I9hbL8rWwhKQdDxRgpo=.sha256"
+    "type": "post",
+    "root": "%L+Td6htDDGh4lpVF2JEmxojoYo24INI5xI0Zl9JkaGk=.sha256",
+    "branch": "%U9awPUO4vB+Vowko2+N6uQhcnk7YzyKpGDXA90acpa4=.sha256",
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) I think it came from [this follow](%UbaKemG/6fuBT/U6mm4InGAukcHKRN+puHKS69BfIxQ=.sha256), so the follow graph is:\n\nUs => [@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) => [@Aron](@vYDcCkGihe/Qyw3JaD0P0UsIG2FuX7O5/fYycnr+GDc=.ed25519) => [@andrestaltz](@0CW37ZdKEgoWsHNcZ9SXNO47+kK0RUIAtjzORGOj3fc=.ed25519)\n\n3 hops!",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "%UbaKemG/6fuBT/U6mm4InGAukcHKRN+puHKS69BfIxQ=.sha256",
+        "name": "this follow"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      },
+      {
+        "link": "@vYDcCkGihe/Qyw3JaD0P0UsIG2FuX7O5/fYycnr+GDc=.ed25519",
+        "name": "Aron"
+      },
+      {
+        "link": "@0CW37ZdKEgoWsHNcZ9SXNO47+kK0RUIAtjzORGOj3fc=.ed25519",
+        "name": "andrestaltz"
+      }
+    ]
   },
-  "signature": "hVE0RQEAnryY9m7041tSYEG+I1UIfvu/3a4YNxEx7l3972g3YPWjodLRemkzLsUmFqDqlCYE6GDucOcgeQRSBg==.sig.ed25519"
+  "signature": "RYRO189O2RKZ6/m1VVtxev4qo3iPZW+0svairbau3v60i1XoiDRPkDAl/eMlzi9X59WfaM4rQyjZeXX0tSnVCQ==.sig.ed25519"
 }
