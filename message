@@ -1,24 +1,21 @@
 {
-  "previous": "%bYH/9C1PngDuxoj0y1r/fOhwjDQoIw6+cgKDuDYip2Y=.sha256",
+  "previous": "%44UZ4CQKUvHwpDzPquMFE5hoE0J/DWNpGUIgNYqB70s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6252,
-  "timestamp": 1539871873936,
+  "sequence": 6253,
+  "timestamp": 1539872667797,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
-    "branch": "%Jpn9J41xGkYwAjR5L9nUOR2sglmMmUFDRNmJNKZpKzQ=.sha256",
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) I'm under the impression that we still use pubs even if we don't follow them. For example, if a pub follows you and you follow me, then the pub will download messages from me directly and hand them off to you. I haven't followed any pubs in at least a few weeks (except [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519)) and I don't think I can tell the difference. ",
+    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "branch": "%FZ8uVBssbZCDU4/L6zE6t6Loa01Hnbk4vWvxq+jvgrw=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "Thanks [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519), I'll need to go check that out. \n\n> ssb-search (I think that's the name of the flumeview-search plugin for sbot) will not index the blob content right now, which will make these hard to search within.\n\nIs there a way to test this? Since the blob-to-content transformation is happening in flumedb I was under the impression that views/plugins shouldn't be able to tell which messages have been transformed, but I wouldn't be surprised if my understanding of what's going on under the hood could be improved.\n\nGlancing at the ticktack code it looks like the ticktack blob transformation it looks like we're doing super similar stuff, I think the main difference is just that ticktack is doing it client-side (?). It's good to see that our implementations were so similar!",
     "mentions": [
       {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "YXAwOHhneddvCjrpbp+YuSmjIkWfWeb5OTSYHAW2zOSKz8n5vhGMJt9GZhsO76a0+Rgp5uqGSoGOdotoYcP+CA==.sig.ed25519"
+  "signature": "3izrD5SmwrlvDDp7V+f0rqkde5YXuWwvC8gUzus1oRqoK8fWxP+vLaNuBUAHZydzcNdxvT9G9mVvGaCFDuYpAw==.sig.ed25519"
 }
