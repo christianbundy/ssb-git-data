@@ -1,17 +1,21 @@
 {
-  "previous": "%jawmfdMXLrxnxG20FFdxEZnB+KklqhhwNqclMagoKOo=.sha256",
+  "previous": "%nR1/h0v0qK+Qls5DTN4+/hkPvvvDPtjsYSKa0Pk6P+8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6255,
-  "timestamp": 1539875222924,
+  "sequence": 6256,
+  "timestamp": 1539875720446,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%rtNXn+6K/gS7GBqbsTCs/x2Os7+pDrrwmEa5YGOQum0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%I/pr8e03xiBZjWrNxeUPso/u9+1uQQtIRRfY6Lk41mU=.sha256",
+    "branch": "%I/pr8e03xiBZjWrNxeUPso/u9+1uQQtIRRfY6Lk41mU=.sha256",
+    "channel": "block",
+    "text": "[@LaPingvino](@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519)\n\nI think blocking is *great* when dealing with malicious actors or automated content. I don't want to replicate 10,000 \"hello world\" messages or blatant hate speech, but it becomes less clear when we're talking about humans who are acting unfriendly in good faith.\n\nFor example, I have a few people blocked who I consider to be scammers, but it *seems* like they truly believe what they're doing is productive and useful. I don't want my friends to fall for the scam, so I don't replicate their content, but I'm sure they're nice people that I'd probably get along with if they weren't spreading propaganda for their MLM scheme. I'm not sure what the right answer is, honestly, but I think this is a worthwhile discussion.",
+    "mentions": [
+      {
+        "link": "@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519",
+        "name": "LaPingvino"
+      }
+    ]
   },
-  "signature": "oCxEnEn2nOe06j5QOkjNt/QRQ7gdRsDQIN7wDBE+26M+f4ARKL5ZXk0xWxCCRiE+npNA/YQmKDZEV6kSs9Y9Ag==.sig.ed25519"
+  "signature": "mrtirRCoklqOdltWNFXXc+9h7uAC+uyisPSvJrXZ3gnxjkvjvR4HQF4wsfwDlyZY0HbkUQGOsabQ2nlpgPkHCA==.sig.ed25519"
 }
