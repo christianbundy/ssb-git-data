@@ -1,28 +1,18 @@
 {
-  "previous": "%2/udT19GbVqsLZIRxEYKIJ3uym+w5JPjWva0W81uGfU=.sha256",
+  "previous": "%0QxSb7xETgm/yEyorvBsrZ+BRwm8GtgwEYSptjw+gJ0=.sha256",
+  "sequence": 6264,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6263,
-  "timestamp": 1539876767294,
+  "timestamp": 1539876872722,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
-    "branch": "%w3KKrJXFSeffJ4C0joGboz/IDSgLMuSjvuDc4pfLwbc=.sha256",
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\n\n> If you unfollow a pub it makes no sense that your client would reach out to it to share with it. Maybe it does, but if so it really ought to be considered a bug.\n>\n> Yes, if you just unfollow, and not block, a pub and that pub encounters your info via someone who is connecting to it the pub will share your feed onwards.\n\n\nBut this is the point of `~/.ssb/gossip.json`, right? My understanding is that our clients *intentionally* look up `type: pub` messages and collect every address we can so that we can hit them up later and say \"hey do you have any messages for me?\" even though we aren't following each other.\n\nI think it works the same way over LAN: if Alice and Bob are both friends with Charlie, but don't follow each other, they'll still pass messages about Charlie to each other through the LAN as long as they don't block each other. Even [people with public IP addresses](%WmZ2ZJ1Tdwl6NSE9EaQcXBuIbu+dblnm7b9P9KtBxsw=.sha256) seem to get all sorts of SSB traffic from people they don't follow, so I think pub invites provide [social centrality](%GwXPrXViC7h3UuNUbru2bWBVUuaDkqBOBgeGi85jo+U=.sha256) rather than just network peering.\n\nI think pubs are useful tools if you don't have any followers, but at least *currently* I don't think there's any benefit to following pubs once you have enough friends to be within 2/3 hops of most pubs. \n\n> Re. not telling a difference: I follow most of the pubs, and there's still a message in this thread that I can't see...\n\nDo you have the message key? IIRC Patchbay doesn't show me these messages...",
-    "mentions": [
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "%WmZ2ZJ1Tdwl6NSE9EaQcXBuIbu+dblnm7b9P9KtBxsw=.sha256",
-        "name": "people with public IP addresses"
-      },
-      {
-        "link": "%GwXPrXViC7h3UuNUbru2bWBVUuaDkqBOBgeGi85jo+U=.sha256",
-        "name": "social centrality"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 66,
+    "root": "%xOQlUL/J9XbcQuE2Jmz32C2Tjpwl5hwOVb+f17Ae36s=.sha256",
+    "orig": "b3",
+    "dest": "f3",
+    "pgnMove": "Rf3",
+    "fen": "4k3/p5p1/2p1pn2/2bp4/7P/5r2/2K5/R1B4R w - - 2 34",
+    "branch": "%aGKnweeMtOPJo8lq7359dSq9qUzCzkKclTArLmVEKgk=.sha256"
   },
-  "signature": "DMWLuT9LYkRYqPvi/6fUHid1Acu1I/xwyXWPYE6zafJ9VT2tO8f5n9O9own0iqYSyFzrcaInimJv7Ax+lxsaCQ==.sig.ed25519"
+  "signature": "CodQYBMK0s/4+rqYMk0Ig3SiZI9X3Ga6wG48KS6+x9igWUL0ALoF/LhsubWQE1ubhiGmJ6++v4IrPB49f9jnCg==.sig.ed25519"
 }
