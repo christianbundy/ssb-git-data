@@ -1,17 +1,24 @@
 {
-  "previous": "%SZlNjoxPqWHL25wCEGDO1HuUWZLTJB5ff9l5cC2CzHE=.sha256",
+  "previous": "%wnfa2uwRMhXYsYPRzAYCKriREzN7aE7yY1iKRMj0DkE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6281,
-  "timestamp": 1539883100217,
+  "sequence": 6282,
+  "timestamp": 1539883312318,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "undomination",
-    "vote": {
-      "link": "%IijMduwt8TIRfddAwXU/ojTQkBnuf0PXYkcqDBl9kC0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
+    "branch": "%OLRfXw2mbcQ5hPpLMyWnr2mjmhLLp1lUfPENgBnE7sU=.sha256",
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) Yep, exactly. Their existence is useful, but as long as you're within the pub's hops you don't need to follow it directly. I think my ideal would be to join small private pubs whose friends are a subset of my friends, which guarantees connectivity without invoking [the rando problem](%OkgDsogCxesWEWn77Znu2alWlqNTpZVgRI4AWxcckBc=.sha256) of public pubs.",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      },
+      {
+        "link": "%OkgDsogCxesWEWn77Znu2alWlqNTpZVgRI4AWxcckBc=.sha256",
+        "name": "the rando problem"
+      }
+    ]
   },
-  "signature": "dbZ1+hjdt8veA4glR4YME/RtjN4gyrztyR/f2JOIvEFxCAOI0Qt5Xu32iSb0VjChcJ4LU8EP7x91nZEtMsZpDQ==.sig.ed25519"
+  "signature": "C0JrMvECM+EeV/hmghnfEwklV97vDf97nJwPcnZM/6bPll0AdbeoVGlOqOntbo/OjvC6XQ12DsDIlMGmAT71AQ==.sig.ed25519"
 }
