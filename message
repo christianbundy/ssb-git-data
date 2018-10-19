@@ -1,32 +1,17 @@
 {
-  "previous": "%Zrx4pi0ldhwE27vfI4qWqfd+P9T4aGL4PVSVriyjqQk=.sha256",
+  "previous": "%khP+JRsAAEYOz1Em3OXvjTG24rizIWPCoU2p2gPaRHs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6350,
-  "timestamp": 1539966622409,
+  "sequence": 6351,
+  "timestamp": 1539966797616,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%DH7ghf0kDbdFbzO6gyyxQaHtrYjoPVp4j8SbqbsJkCA=.sha256",
-    "branch": "%Df+VcwGqCB5SC65c8Yg1uJmxuRNrVY9+f/eOlrIIaXQ=.sha256",
-    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519)\n\nTrue, I'd actually *love* a client that supported switching between feeds. I know that the idea of fragmenting your identity over many feeds can be [controversial](%S7diVaFRqxWwOpNdn9t+owYDs5DWwIayRt0jukgpwiI=.sha256), but I think that *personally* I might like to experiment with it. I have [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) and [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) running on the same instance of `sbot`, but that experiment has been isolated to my Pi.",
-    "mentions": [
-      {
-        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "%S7diVaFRqxWwOpNdn9t+owYDs5DWwIayRt0jukgpwiI=.sha256",
-        "name": "controversial"
-      },
-      {
-        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
-        "name": "libra.fraction.io"
-      },
-      {
-        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-        "name": "Current Events"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%aykSw5AFGuKTiDQwOgwpnsWm0JQsUMtyJm/vMbO/V1A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "OkTWXs0IWtdTOcp4u90QL0tfZtDN8LbB+IOjxUrq4jy2eZDrBQjNhSruRQGq85nMRnVsDj5hZvBl6p1mWTyoAg==.sig.ed25519"
+  "signature": "ZUtlnD8D9Y3r8ecmWE0UWmQSO8yp9uNRfgsNnFf7jXu5CFvmQBaIJzZsSkjE5z0uR4HLexty+sWeftqf5/tMCg==.sig.ed25519"
 }
