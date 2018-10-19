@@ -1,18 +1,21 @@
 {
-  "previous": "%y1QTO1NxuT21ODDqL1fclvezIbAp1KwYnizasCR5Wbc=.sha256",
-  "sequence": 6405,
+  "previous": "%90+CjOwqOdt4ZxS/yHathiE+hbG70qdmqC+b+bWVpYw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539986850221,
+  "sequence": 6406,
+  "timestamp": 1539990038991,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 7,
-    "root": "%BTTwLo3U7GHzSzsnLOpFh7wawLVl/hYcNLuYsl7iTLs=.sha256",
-    "orig": "h2",
-    "dest": "h4",
-    "pgnMove": "h4",
-    "fen": "rnbqkbnr/pp2pppp/3p4/8/3pP2P/5N2/PPP2PP1/RNBQKB1R b KQkq - 0 4",
-    "branch": "%3UCsgNLSbHYUukwURYcqZ4j2aLRE7nhtr0BLJjaW7ic=.sha256"
+    "type": "post",
+    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+    "branch": "%5ZBXCIwASqOtdLrzSpZadJMD8y2nW+kWK/I0Z5EirGo=.sha256",
+    "channel": "ssbc",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nThat's really cool, I think that the meta work can be important. I'll admit I'm hesitant to invest very much time on GitHub as a platform, but I was thinking that we could just use [stale](https://github.com/apps/stale) to avoid reinventing the wheel (or doing it manually). We *could* run our own [probot](https://github.com/probot/probot), but I'd rather spend that time on SSB-based teamware. From a technical perspective, I think this is pretty simple:\n\n1. Give the app access to the org\n2. Add `.github/stale.yml` to our repos\n3. Find another problem to work on\n\nMy main challenge is trying to find the sweet spot between:\n\n- stepping on anyone's toes with unwanted changes\n- constantly @mentioning everyone to ask permission\n\nThis may be deserving of another thread (feel free to fork), but how has the SSB community made decisions like this in the past? I've just been making random requests for feedback on all of my harebrained ideas, but I imagine there's probably a better way (ssb-rfc?).",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "x8bdap1iZ0I/QHungZXebCW2rApI/15soCo96L5kZlooN1NEAbt2gp4K1LaDoNw+0odpZx2w7y3cb/UepSO1Dw==.sig.ed25519"
+  "signature": "nauK4dBgFerLoLmRZeCx6r519gSgkAeQpq7ZLPiR9HIbLwyO5rd4y1k4nojmVeT4JtVE2ZsN1vKYZrVjRCJCDg==.sig.ed25519"
 }
