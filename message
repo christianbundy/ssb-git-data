@@ -1,16 +1,20 @@
 {
-  "previous": "%0gLV7rZisR0HOIhh7F4EWQZoRd2PPYbX10Ni9R86P9o=.sha256",
+  "previous": "%yHo1l3D+Mossh6+og0jKvLVkVpHdxFGFIYcgV0eW8e8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6357,
-  "timestamp": 1539971824638,
+  "sequence": 6358,
+  "timestamp": 1539972163952,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%PVCm6tAlkL+QazL5pQQ9trd6i+63icWlbsMORMrmPIU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ILTGceHZTEe4y1iDUwEDBOnErT7ToTJL78TbiHDL5Wg=.sha256",
+    "branch": "%ZTaYSixeVBsWKOyB/NgORDqWaSx1cfMSfbEUtZVC8Go=.sha256",
+    "channel": "software",
+    "text": "> It's called bitfields, isn't it?\n\nNot sure, although your example looks exactly like what I'm talking about. It's always funny to be working with software systems without any formal CS education, as there are all sorts of CS 101 stuff that I've never learned because I've never personally implemented it. I wonder whether I should just go ahead and try to learn #rust or something to round out my non-education.\n\n```py\n{'Monday': 1, ..., 'Sunday': 64}\n```",
+    "mentions": [
+      {
+        "link": "#rust"
+      }
+    ]
   },
-  "signature": "+Dya9AnW8TrQzfLzQcnIJHeRAuI11XWVkRkT3uHdxyNkz0fC6FcnZeCKXOTWllAeFEhNQCwhGapvEjyyKmKKCg==.sig.ed25519"
+  "signature": "Yg1f7wnAuuMTLnOTRg+a4GxcIaXEh/0+qY6z19kMSn9Wo4W8T/dwDY2KgwblzlHiJ2dUjOzy5Rc8j/qgVId3DA==.sig.ed25519"
 }
