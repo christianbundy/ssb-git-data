@@ -1,18 +1,20 @@
 {
-  "previous": "%dPWUxS0j0macDtG5ChL9I6g79NJxee9WunVCFaBJ2X4=.sha256",
-  "sequence": 6341,
+  "previous": "%8UasWgSvX0baGah8zzy7DLGVEyHvUK8GhCqdcA5fMLg=.sha256",
+  "sequence": 6342,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1539962649666,
+  "timestamp": 1539962711382,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 80,
-    "root": "%g/kUuOyZFm4aFT554FzxpThWJywwQGURu2hWS9DZaaE=.sha256",
-    "orig": "f7",
-    "dest": "g7",
-    "pgnMove": "Kg7",
-    "fen": "8/6kr/4Q3/3P1p1q/PpP2P2/7p/P5P1/R4RK1 w - - 3 41",
-    "branch": "%UzTmZtzu6o8fq9yGW7bnY5zz0yymBcTQsXncdLECtQk=.sha256"
+    "type": "chess_game_end",
+    "status": "mate",
+    "ply": 64,
+    "fen": "4k2r/6pp/8/3B1P2/PR1P3r/P1Nb2Kq/5P2/8 w k - 2 33",
+    "root": "%TIQv3Snam3NxoC7OEAq17dHz3X+jZL9IaY2+nA42xTM=.sha256",
+    "winner": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+    "orig": "f1",
+    "dest": "h3",
+    "pgnMove": "Qh3#",
+    "branch": "%W1rdgao4wXjH/WtWHcrWhtTP0ngz+2IvIimKgMSPa5A=.sha256"
   },
-  "signature": "pZ0sPgV0Ld2iNilJeyJV5lSn5hJCZDDDQuRUIh3pMyecNi10brDMOsaHcrO/ljjRJ0ACjlUi3VVYBII/QfIUCg==.sig.ed25519"
+  "signature": "yygMEnU+1gq54uaC698InD/OOr0tBN716316uBKBzn39Rc8MWhSIUBC20eYxvaD90EY40xKjl1mi5GyvnVVJCg==.sig.ed25519"
 }
