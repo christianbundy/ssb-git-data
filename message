@@ -1,21 +1,17 @@
 {
-  "previous": "%90+CjOwqOdt4ZxS/yHathiE+hbG70qdmqC+b+bWVpYw=.sha256",
+  "previous": "%UWos0vqDcgZS2YG3+/E7yiRmxFunCDHKCfQ3g8bFjb8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6406,
-  "timestamp": 1539990038991,
+  "sequence": 6407,
+  "timestamp": 1539990174455,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
-    "branch": "%5ZBXCIwASqOtdLrzSpZadJMD8y2nW+kWK/I0Z5EirGo=.sha256",
-    "channel": "ssbc",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nThat's really cool, I think that the meta work can be important. I'll admit I'm hesitant to invest very much time on GitHub as a platform, but I was thinking that we could just use [stale](https://github.com/apps/stale) to avoid reinventing the wheel (or doing it manually). We *could* run our own [probot](https://github.com/probot/probot), but I'd rather spend that time on SSB-based teamware. From a technical perspective, I think this is pretty simple:\n\n1. Give the app access to the org\n2. Add `.github/stale.yml` to our repos\n3. Find another problem to work on\n\nMy main challenge is trying to find the sweet spot between:\n\n- stepping on anyone's toes with unwanted changes\n- constantly @mentioning everyone to ask permission\n\nThis may be deserving of another thread (feel free to fork), but how has the SSB community made decisions like this in the past? I've just been making random requests for feedback on all of my harebrained ideas, but I imagine there's probably a better way (ssb-rfc?).",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      }
-    ]
+    "type": "vote",
+    "channel": "software",
+    "vote": {
+      "link": "%BcI5a59UlkMJGeA62hX0YL7yHto31MQB3sowQZmMF98=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "nauK4dBgFerLoLmRZeCx6r519gSgkAeQpq7ZLPiR9HIbLwyO5rd4y1k4nojmVeT4JtVE2ZsN1vKYZrVjRCJCDg==.sig.ed25519"
+  "signature": "7daRiCQs2KNVREQ06QpAwIOkewoMpUmCPzie0PduPynlBMeoJHyQTXKJCektRgxJ4dOhB7wzcAtv4P+TiZ3kDA==.sig.ed25519"
 }
