@@ -1,15 +1,13 @@
 {
-  "previous": "%ZllfPbKakt2NvdGVjEAcYOWZhKYiXONvVzcvlgPnf0I=.sha256",
+  "previous": "%fdXneL4qD3wPfZS+1Npq0IJwPcNxM1J0L0xAic8Yf0Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6352,
-  "timestamp": 1539969100508,
+  "sequence": 6353,
+  "timestamp": 1539970657381,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
-    "branch": "%o3Xo6XDVM8MNVk7MFADOxxU/DiNWjGkPoNZLudiQDWk=.sha256",
-    "channel": "ssbc",
-    "text": "I wonder whether the above may be a bit too complicated for our first step. Instead, how about this:\n\n**Any pull request or PR that hasn't had any activity in 6 months should be labeled *stale* and closed.**\n\nWe can iterate on this in the future, but it seems like a super easy win. Any objections? I don't want the emails either, but it seems like a small price to pay for the massive reduction in open issues."
+    "text": "# Feature detection and n^2\n\nI've been thinking a lot about feature detection in software systems, where your software can announce \"I support featires A, B, and C\", but unfortunately that approach doesn't scale very well. The simple solution seems to be what [multiformats](https://github.com/multiformats/multiformats) are doing, where they have a canonical table linking names and ID numbers, but that only gets you to something like \"I support features 1, 2, and 3\", which *still* doesn't scale too terribly well once you have a few hundred features.\n\nInstead, I wonder whether you could take advantage of some simple math: instead of labeling A=1, B=2, C=3, D=4, you could identify them with N^2, which sets A=1, B=2, C=4, D=8, and so on. This gives you the ability of announcing \"I support formats that sum 13\", which any other computer could determine came from A, C, and D. This seems *way* better than naming systems like RAID, where RAID 1 + RAID 0 = RAID 10, and could instead make it super easy to determine which [RFCs](https://github.com/rust-lang/rfcs/tree/master/text) or [BIPs](https://github.com/bitcoin/bips/) are supported by a given piece of software.\n\nIs anyone doing this in the wild? It seems pretty simple, so I'd be surprised if it wasn't common.",
+    "channel": "software"
   },
-  "signature": "NQDGj6bSpjq0oBm4jqD7BmuYTtKhpIQoa4mE5qVKZzj46CW9mWR99pTaI+FsMipZYa1+2e2s4L3wzv/yWqAGDQ==.sig.ed25519"
+  "signature": "eW54OmcT/QBknMANzTXq0oMKdaUMtgdJkvf4mX9AK8xjJOVfGLu6xSZ+FqOEAOVEhgFs01GAHeuB/0/EhfovBQ==.sig.ed25519"
 }
