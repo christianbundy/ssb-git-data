@@ -1,9 +1,32 @@
 {
-  "previous": "%I+RBXA1xCc2raWOYZo2bkn43MUimVb5+Fn/pvUIbpI8=.sha256",
+  "previous": "%Zrx4pi0ldhwE27vfI4qWqfd+P9T4aGL4PVSVriyjqQk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6349,
-  "timestamp": 1539963533005,
+  "sequence": 6350,
+  "timestamp": 1539966622409,
   "hash": "sha256",
-  "content": "2sjtxV+vtLXottSjde3W4PV1XSms9PC3wb4U//x+4UDptqMRcCbabPrkp36vlcby+Me/6T+2+xZKOidunW1fPBRJEgYJRo4+M5t6Jemma+goL5a0y/gmeauatKQbpdVXbh30VKEPlnV94icQ0k+rQNpnryc7AVIT0nMRdOzD2dCLpui8CBIpzRMg/RZXKbPlZXukIy1magWcvPNKNj/7NN9hqkBFl6YDfXLiXXgMxL02N6fBy0bHiF3KbipxVUTn8Q2oEBnxhWDKlK+lGAFTmuIUu85nyJHnOr505a2tzqQkEn9LeyZRSSkSYR6MXYoU0gsJO+sp5jD7MT0Fke2whwi7tAO7eg2AwAaofrkNvSNJwrPjOtgzbekfpR9NnN8Ba8ojMkJXhHQb/yJPCX+4rrK6zpsCA006z0zOBi1xzyl5324VzYQ1fKIQj71zofqzqTq7o15K9hXGX1gKd56aBwH1WVmsy/OduHRhstSktWVbPGm+AiIc1Y7JFk/IQxEDqic4Xi+uuMxCysE1XQkzlw==.box",
-  "signature": "ZEkycBiTrCpPWIzMdYdvDapC/idHxJJ45pG5kG8Z2ZGd18MbQzMqKRUYV+HOa7Si9sGk3UDs6kUr8/Z9FvFkBw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%DH7ghf0kDbdFbzO6gyyxQaHtrYjoPVp4j8SbqbsJkCA=.sha256",
+    "branch": "%Df+VcwGqCB5SC65c8Yg1uJmxuRNrVY9+f/eOlrIIaXQ=.sha256",
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519)\n\nTrue, I'd actually *love* a client that supported switching between feeds. I know that the idea of fragmenting your identity over many feeds can be [controversial](%S7diVaFRqxWwOpNdn9t+owYDs5DWwIayRt0jukgpwiI=.sha256), but I think that *personally* I might like to experiment with it. I have [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519) and [@Current Events](@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519) running on the same instance of `sbot`, but that experiment has been isolated to my Pi.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "%S7diVaFRqxWwOpNdn9t+owYDs5DWwIayRt0jukgpwiI=.sha256",
+        "name": "controversial"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
+      },
+      {
+        "link": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
+        "name": "Current Events"
+      }
+    ]
+  },
+  "signature": "OkTWXs0IWtdTOcp4u90QL0tfZtDN8LbB+IOjxUrq4jy2eZDrBQjNhSruRQGq85nMRnVsDj5hZvBl6p1mWTyoAg==.sig.ed25519"
 }
