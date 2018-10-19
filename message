@@ -1,17 +1,27 @@
 {
-  "previous": "%oNIMWRHP5isrbj2Ymp3DysXEvyrK9XxmTl71c7ezFyo=.sha256",
+  "previous": "%62rJg5jfgu2KOkUAmpSoPCp7KkyOF19I8KQ90MFBS4k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6330,
-  "timestamp": 1539959753490,
+  "sequence": 6331,
+  "timestamp": 1539959827700,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%HhkEF4yj03+qpwa72pS8Cn9zhl6iC+hkAj4rPEIvmKM=.sha256",
+    "branch": [
+      "%tg31BJ0+6yMyLJJPVqIkIv+XM0+NnTHTESdZ7SthYI4=.sha256",
+      "%uEIm+KI3SSxiAcJvOMpWOEtLjaUHl9ygNRHPupZSHgs=.sha256"
+    ],
     "channel": "markdown",
-    "vote": {
-      "link": "%uEIm+KI3SSxiAcJvOMpWOEtLjaUHl9ygNRHPupZSHgs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519) Bummer, I didn't realize that the current #ssb-markdown doesn't support that. Should be solved if/when my [PR](https://github.com/ssbc/ssb-markdown/pull/24) is merged! It seems to be working pretty well now.",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "#ssb-markdown"
+      }
+    ]
   },
-  "signature": "KaJqC4ikwsZ+eJyrKeHio0fl8QI4iRvUoSl495/FUzt8kL+Rh+BcVajlMsYI3Nr54kGFhrhUy5IsRQnxcnZuCA==.sig.ed25519"
+  "signature": "PruuM0/indFsg15EFLjoGNdXIw2rSOt1KXao5Lb8gfoDSVWmW+jnO+ZHhqxgDNE1GmRCkaAB1XShRGMbkCkEAA==.sig.ed25519"
 }
