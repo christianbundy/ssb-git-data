@@ -1,17 +1,21 @@
 {
-  "previous": "%t9tfWV5IkWi55b6zyYlkpxO66vgPzpebKY8+8dsVu2E=.sha256",
+  "previous": "%jAOJWrUa6uxZnyEQonAkYH9Qexj4x0MZNlksa50Gy8w=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6355,
-  "timestamp": 1539971700687,
+  "sequence": 6356,
+  "timestamp": 1539971796997,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%5zH/aOUNBmHM3YaU/RrPau86UrCogQ38CYz+zliWZcE=.sha256",
+    "branch": "%5zH/aOUNBmHM3YaU/RrPau86UrCogQ38CYz+zliWZcE=.sha256",
     "channel": "cosmos",
-    "vote": {
-      "link": "%5zH/aOUNBmHM3YaU/RrPau86UrCogQ38CYz+zliWZcE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Thanks for sharing this, I really liked it. Crazy that it came out in the 70s, do you know how these were illustrated?\n\ncc: [@neale](@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@J233HHh6iMA7LxT+KnCbtI3GeaCJ7gW7dkB/63ObSJY=.ed25519",
+        "name": "neale"
+      }
+    ]
   },
-  "signature": "C60Dv3qxzos/JLUb6PlQVw8AO2Mvy0JKtTU3J7HCdlA4X0wA6bLxOFGH52o3V/YPLHLt3lIFiE3d+dpCgaClDA==.sig.ed25519"
+  "signature": "dDWoplKDdMHeRIqd7Ad9Nr0a+MVO70ezECHtwuIZfzIAdDe50p+YO1M/mCrvQ3vYARpGWuPLsMI2nsa30z+0Ag==.sig.ed25519"
 }
