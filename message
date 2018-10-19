@@ -1,16 +1,32 @@
 {
-  "previous": "%w9DARFxP29vXo0tZ5gfHN+od6rPV9q763WzXcNdx6Mo=.sha256",
+  "previous": "%KWqUYASiX3cfsaRb1xa2kEMiKYR8DlOz5OeM7c3KfS0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6395,
-  "timestamp": 1539986446240,
+  "sequence": 6396,
+  "timestamp": 1539986555045,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RV+A4jthG/Gwv1UfPotwNRTmfs6xINjY99Btbn0o3lo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ILTGceHZTEe4y1iDUwEDBOnErT7ToTJL78TbiHDL5Wg=.sha256",
+    "branch": [
+      "%RV+A4jthG/Gwv1UfPotwNRTmfs6xINjY99Btbn0o3lo=.sha256",
+      "%bX1HQt8b2cAda7L9YlMh+cTe3S2UgTrgI7of6agmKY4=.sha256"
+    ],
+    "channel": "software",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) / [@keksdroid](@Q69A+yES3QBXmc2hEtbwAlOxXnobvnFEcqc8X5Lcpd4=.ed25519) \n\nSee, and that's the funny bit -- I'm familiar with bloom filters and feel that I have a pretty solid grasp of how they work, but apparently I missed the memo on bitfields. I got some great suggestions in my [rust thread](%JoQV6OLL9BgXc3Cy6PPZxcY+1/0AELKaFcLGMS/oYag=.sha256), but are there any language-agnostic resources you might recommend for some of the CS basics I seem to have skipped?",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "@Q69A+yES3QBXmc2hEtbwAlOxXnobvnFEcqc8X5Lcpd4=.ed25519",
+        "name": "keksdroid"
+      },
+      {
+        "link": "%JoQV6OLL9BgXc3Cy6PPZxcY+1/0AELKaFcLGMS/oYag=.sha256",
+        "name": "rust thread"
+      }
+    ]
   },
-  "signature": "ZmCO0Tq91Y2P1va7L8SqtcRmc0p92f4leMWAZ0sdLMsHS3j0/00Kx4MK2/KnkgREuAWl40ppDfrYYRkLFC3tBg==.sig.ed25519"
+  "signature": "hL1yMR847DJ/cTqr3SUjFWJvWWnCTtkWbCv5Abtk9FvRrk5iuQvBGLUEXzoCl6p7gWlZPYU/EKQuAqd+UduiAg==.sig.ed25519"
 }
