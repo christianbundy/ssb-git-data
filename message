@@ -1,17 +1,15 @@
 {
-  "previous": "%khP+JRsAAEYOz1Em3OXvjTG24rizIWPCoU2p2gPaRHs=.sha256",
+  "previous": "%ZllfPbKakt2NvdGVjEAcYOWZhKYiXONvVzcvlgPnf0I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6351,
-  "timestamp": 1539966797616,
+  "sequence": 6352,
+  "timestamp": 1539969100508,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%aykSw5AFGuKTiDQwOgwpnsWm0JQsUMtyJm/vMbO/V1A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+    "branch": "%o3Xo6XDVM8MNVk7MFADOxxU/DiNWjGkPoNZLudiQDWk=.sha256",
+    "channel": "ssbc",
+    "text": "I wonder whether the above may be a bit too complicated for our first step. Instead, how about this:\n\n**Any pull request or PR that hasn't had any activity in 6 months should be labeled *stale* and closed.**\n\nWe can iterate on this in the future, but it seems like a super easy win. Any objections? I don't want the emails either, but it seems like a small price to pay for the massive reduction in open issues."
   },
-  "signature": "ZUtlnD8D9Y3r8ecmWE0UWmQSO8yp9uNRfgsNnFf7jXu5CFvmQBaIJzZsSkjE5z0uR4HLexty+sWeftqf5/tMCg==.sig.ed25519"
+  "signature": "NQDGj6bSpjq0oBm4jqD7BmuYTtKhpIQoa4mE5qVKZzj46CW9mWR99pTaI+FsMipZYa1+2e2s4L3wzv/yWqAGDQ==.sig.ed25519"
 }
