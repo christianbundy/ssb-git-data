@@ -1,17 +1,18 @@
 {
-  "previous": "%BbULk4EWFNOwP5l6nib+CV7PwqbYyQ+2EXL3DholP5Y=.sha256",
+  "previous": "%68H3O+YhaWyEI0LqXFYAURJ8nUivInVoz8lN21CjjHI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6401,
-  "timestamp": 1539986572396,
+  "sequence": 6402,
+  "timestamp": 1539986655176,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%JoQV6OLL9BgXc3Cy6PPZxcY+1/0AELKaFcLGMS/oYag=.sha256",
+    "branch": [
+      "%P1R1bTx6K2PsYKOS2UC30P9ptc4gYu/2P4YavtocHwU=.sha256",
+      "%v7+TlpfZ+nHVakG+4p7cQuNb2tJhsPLpAbVHithgJrU=.sha256"
+    ],
     "channel": "rust",
-    "vote": {
-      "link": "%BhWYGsQQb+hd3KBaTfYDG3IJzDaNxaEHWUV3Q+ygoBY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Sounds like I'll be checking out that book and ssbrs, thanks a lot eveyone! If there are a few of us intending to learn rust at the same time, I wonder whether it might be useful to have a regular chat about what we've been learning or working on or what have you."
   },
-  "signature": "s4VGXUE6qhmQbxluk0VOsFzH6uc1O4lO0GZLvEAoP9Ucx5oBBhELzyroq1/zV6FfMYnn+stu03XlkBywCqNZBA==.sig.ed25519"
+  "signature": "a0UKd7Qisg3wuPB07kOMUfFCtcFBpIsht79efEiuz0sXkqwV4qpvoQGAUnXm6HIfW4D5xpZidPNPp4dtK7T0AA==.sig.ed25519"
 }
