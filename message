@@ -1,21 +1,18 @@
 {
-  "previous": "%COQBg8ZiZ8wPiAB6DkkDNcOe+5Yy+O75nl86PJNHQlo=.sha256",
+  "previous": "%rBmX6JLn5cr7Gt32l8JHF4ZzhBTavMBgJ4dF1ILt+P8=.sha256",
+  "sequence": 6366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6365,
-  "timestamp": 1539982957490,
+  "timestamp": 1539982984211,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0dvezN8G/ZA6jvd7Doe9ATpBwY2vCfGV94xgrNE5gpE=.sha256",
-    "branch": "%NklLxcCZPzZMGxy856ps6yrAp6ldxK6LCJFd1KOjPzw=.sha256",
-    "channel": "darkcrystal",
-    "text": "[@peg](@vEJe4hdnbHJl549200IytOeA3THbnP0oM+JQtS1u+8o=.ed25519) This looks great!\n\nI was actually going to suggest just calling the Scuttlebot plugin, sort of like how I use `sbot blobContent.get` and `sbot blobContent.publish`, but doing a full Node module may be the right call here. Super excited to try it!",
-    "mentions": [
-      {
-        "link": "@vEJe4hdnbHJl549200IytOeA3THbnP0oM+JQtS1u+8o=.ed25519",
-        "name": "peg"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 39,
+    "root": "%AgERU7/EgTG78t5xkrfNwp7689j2bKLU9zjJawWOW7I=.sha256",
+    "orig": "g1",
+    "dest": "e2",
+    "pgnMove": "Ne2",
+    "fen": "r2qk3/ppp1bp1n/3p4/3Np3/2B1P3/6r1/PP1PN3/n1B2K2 b q - 1 20",
+    "branch": "%Tl1tFe8m0CQ2jj+RbN5VHu8/4sim5ELl1ziJiHldEVo=.sha256"
   },
-  "signature": "6oaUh57V0Ap9F3kH9TnZZZ/lZUiLVDaGfnsKAwevBZAj+Tuqd+K/XKCCLEQAnZZ+70PmP+3CmDr/wuQQJDF1BQ==.sig.ed25519"
+  "signature": "oQRkiGGamb9gzRy/PL9tdf8rxsNDuRA/0fUEdmI3zLjDd457V3EHBStayWaWpzQoDWH97OaGQqvM+TqDuXTDBw==.sig.ed25519"
 }
