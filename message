@@ -1,13 +1,17 @@
 {
-  "previous": "%fdXneL4qD3wPfZS+1Npq0IJwPcNxM1J0L0xAic8Yf0Y=.sha256",
+  "previous": "%ILTGceHZTEe4y1iDUwEDBOnErT7ToTJL78TbiHDL5Wg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6353,
-  "timestamp": 1539970657381,
+  "sequence": 6354,
+  "timestamp": 1539971077185,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Feature detection and n^2\n\nI've been thinking a lot about feature detection in software systems, where your software can announce \"I support featires A, B, and C\", but unfortunately that approach doesn't scale very well. The simple solution seems to be what [multiformats](https://github.com/multiformats/multiformats) are doing, where they have a canonical table linking names and ID numbers, but that only gets you to something like \"I support features 1, 2, and 3\", which *still* doesn't scale too terribly well once you have a few hundred features.\n\nInstead, I wonder whether you could take advantage of some simple math: instead of labeling A=1, B=2, C=3, D=4, you could identify them with N^2, which sets A=1, B=2, C=4, D=8, and so on. This gives you the ability of announcing \"I support formats that sum 13\", which any other computer could determine came from A, C, and D. This seems *way* better than naming systems like RAID, where RAID 1 + RAID 0 = RAID 10, and could instead make it super easy to determine which [RFCs](https://github.com/rust-lang/rfcs/tree/master/text) or [BIPs](https://github.com/bitcoin/bips/) are supported by a given piece of software.\n\nIs anyone doing this in the wild? It seems pretty simple, so I'd be surprised if it wasn't common.",
-    "channel": "software"
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%lyN2NiDnhR8A7CELqQaFNuHUAh2GNU2EJZsKMrpv3Ro=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "eW54OmcT/QBknMANzTXq0oMKdaUMtgdJkvf4mX9AK8xjJOVfGLu6xSZ+FqOEAOVEhgFs01GAHeuB/0/EhfovBQ==.sig.ed25519"
+  "signature": "8o+rxADnjWcBMhHMx1sWVR7kbjWYzP0rJtWN2aupo2gmtNfT5ZjtxHiGRsmLeRZDpue5KyvxHy5PEU+hNpP1Dw==.sig.ed25519"
 }
