@@ -1,20 +1,21 @@
 {
-  "previous": "%yHo1l3D+Mossh6+og0jKvLVkVpHdxFGFIYcgV0eW8e8=.sha256",
+  "previous": "%bX1HQt8b2cAda7L9YlMh+cTe3S2UgTrgI7of6agmKY4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6358,
-  "timestamp": 1539972163952,
+  "sequence": 6359,
+  "timestamp": 1539976377527,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%ILTGceHZTEe4y1iDUwEDBOnErT7ToTJL78TbiHDL5Wg=.sha256",
-    "branch": "%ZTaYSixeVBsWKOyB/NgORDqWaSx1cfMSfbEUtZVC8Go=.sha256",
-    "channel": "software",
-    "text": "> It's called bitfields, isn't it?\n\nNot sure, although your example looks exactly like what I'm talking about. It's always funny to be working with software systems without any formal CS education, as there are all sorts of CS 101 stuff that I've never learned because I've never personally implemented it. I wonder whether I should just go ahead and try to learn #rust or something to round out my non-education.\n\n```py\n{'Monday': 1, ..., 'Sunday': 64}\n```",
+    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "branch": "%vPNOh4BWPsxiIxQye9QXV0snFYctsAzz4a5bMO00k8Y=.sha256",
+    "channel": "javascript",
+    "text": "[@radmen](@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519)\n\n> The only difference is that you edit them in package.json, or source file.\n\nYep! But since they're already named in the source file, do we need them in `package.json`?\n\n> I don't quite get it - what automation?\n\nI mean that on big projects there are *plenty* of tools to help you manage your dependencies without ever manually editing `package.json`. For example, I do almost all of my dependency management via `npm-check -u`, and really never open `package.json` unless I really need to do a downgrade. For example, imagine if you had to manage your system dependencies the way you manage NPM dependencies: upgrades would require editing `/etc/programs.json` manually and then running `apt-get install` (or whatever), which seems silly when you're used to running `apt-get upgrade` and having the package manager do all the work for you.\n\n> Believe or not, but this recently saved my project\n\nDon't get me wrong, I love `package-lock.json` and it's saved me too, but it's meant to be edited mechanically by machines, not humans. My point is that `package.json` can (and should!) be treated the same way.\n\n> So... you want to create a package for managing packages (or dependencies)?\n\nAlways! I've always dreamed of writing/using a meta-package manager with the same syntax on all systems. No more brew/apt/yum/pacman/etc, just a [standard](https://xkcd.com/927/) interface for any underlying package manager you'd like to use.\n\nBtw, it was rainy today in Portland so I decided to implement this:\n\nDebug output:\n\n```\n2018-10-19T19:01:16.394Z require:version:lodash:^4.3.0 initialization\n2018-10-19T19:01:16.417Z require:version:lodash:^4.3.0 already installed, checking version\n2018-10-19T19:01:17.052Z require:version:lodash:^4.3.0 version 4.2.1 does not satisfy ^4.3.0, reinstalling\n2018-10-19T19:01:17.053Z require:version:lodash:^4.3.0 install attempt\n2018-10-19T19:01:18.607Z require:version:lodash:^4.3.0 install success\n2018-10-19T19:01:18.607Z require:version:lodash:^4.3.0 initialization\n2018-10-19T19:01:18.607Z require:version:lodash:^4.3.0 already installed, checking version\n2018-10-19T19:01:19.369Z require:version:lodash:^4.3.0 version 4.17.11 satisfies ^4.3.0\n```\n\nAnd of course, code:\n\n```js\nconst exec = require('child_process').exec\nconst debug = require('debug')\nconst semver = require('semver')\n\nconst install = (name, version, cb) => {\n  const log = debug(`require:version:${name}:${version}`)\n  const installString = `${name}@\"${version}\"`\n  log(`install attempt`)\n  exec(`npm install --save --save-exact ${installString}`, (err, stdout, stderr) => {\n    log(`install success`)\n    cb(err)\n  })\n}\n\nmodule.exports = async (name, version) => {\n  return new Promise((resolve, reject) => {\n    const log = debug(`require:version:${name}:${version}`)\n    log('initialization')\n\n    try {\n      const current = require(name)\n      log('already installed, checking version')\n      exec(`npm ls --depth=0 ${name}`, (err, stdout) => {\n        if (err) { reject(err) }\n\n        const afterAt = stdout.split('@')[1]\n        const currentVersion = afterAt.split(' ')[0] // strip space + newline after version number\n\n        if (semver.satisfies(currentVersion, version)) {\n          log(`version ${currentVersion} satisfies ${version}`)\n          resolve(current)\n        } else {\n          log(`version ${currentVersion} does not satisfy ${version}, reinstalling`)\n          install(name, version, err => {\n            if (err) { reject(err) }\n            resolve(require.version(name, version))\n          })\n        }\n      })\n    } catch (e) {\n      if (e.code === 'MODULE_NOT_FOUND') {\n        log('module not found, installing')\n        install(name, version, err => {\n          if (err) { reject(err) }\n          resolve(require.version(name, version))\n        })\n      } else {\n        reject(e)\n      }\n    }\n  })\n}\n\nif (!module.parent) {\n  require.version = module.exports\n  require.version('lodash', '^4.3.0')\n}\n```\n\nIt could probably be done better, but I think I might `npm link` it as `require-version` -- ha! I just looked to see whether that namespace is available on NPM, and it turns out [this has already been done](https://www.npmjs.com/package/require-version), although admittedly their use-case for stress-testing and checking for regressions seems way more practical than my dream of... being able to require specific versions. 🤯 ",
     "mentions": [
       {
-        "link": "#rust"
+        "link": "@4eH+xnoJ2Mc5KTjjt66dKARijwExUUdCRDfHa2XjOxw=.ed25519",
+        "name": "radmen"
       }
     ]
   },
-  "signature": "Yg1f7wnAuuMTLnOTRg+a4GxcIaXEh/0+qY6z19kMSn9Wo4W8T/dwDY2KgwblzlHiJ2dUjOzy5Rc8j/qgVId3DA==.sig.ed25519"
+  "signature": "3Ivd5yNluNady3hcky/+j3ewahbG5DE1ZsVh81NoiDdB7A4G+Fc+orIAnJDlMc0SdfupiIRz8pZaSJw9FWzYAQ==.sig.ed25519"
 }
