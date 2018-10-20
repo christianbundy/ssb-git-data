@@ -1,17 +1,21 @@
 {
-  "previous": "%SVHSKrHoqSRWBKIpa0gDlfqxXQz5vX0JDcxxX9o88h0=.sha256",
+  "previous": "%DguLYaNP/gG/5TuiijvxITCvntLMOR8PbPF9n5FPiGE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6429,
-  "timestamp": 1540047701938,
+  "sequence": 6430,
+  "timestamp": 1540050310750,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "rust",
-    "vote": {
-      "link": "%qjlkpUofjW+KNTb7iXuHZXmX2mELo+xe3rqzvBVdLcI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "branch": "%67QG2wF+rUAsLT1YUneUB238uXJgmN7E8W+djSpZOXk=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> But my point is even if you taught it to look at an attached blob you can't because it's not there...\n\nYou're right, this is a really good point. My blob code is running when the flume view is being created, but [if we don't have it](https://gitlab.com/christianbundy/ssb-blob-content/blob/707efa4f1f29cdb060b9d341ccdf0d9d8475420e/index.js#L62-68) then it just passes the original `{ type: 'blob', blob: '&abc' }` message to the view.\n\nIt seems like we'd have the same problem with private messages where you get the unbox key at a later date -- if you don't have the decryption key when you originally receive the message then it seems like the view would always see it as encrypted. Is there a way to force the view to revisit a message, or some other way to modify views when new information becomes available?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "0IQsoll5bTKObyZR6IIvWRnxFUTtr+t+/SNN1+wKz8pi3NZBXY9hOdtcbbJ9DTrML19KhSntrHY7Klp+dWRHBg==.sig.ed25519"
+  "signature": "ZKbTFG9eYp1JrBcnGdBFTJTDg/YSZ+ShmRNi2jd2aSdpfEgabJncFkL13oMwo/Gf529rnr4uKpL8KlqGnuFhAw==.sig.ed25519"
 }
