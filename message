@@ -1,17 +1,21 @@
 {
-  "previous": "%MuGqhhEqw2HAraE79HE/F45rhaFe2mOJCSmdPc0wu1E=.sha256",
+  "previous": "%dcZYaADT4cC3TGcWQw2J0c0B9wQ5U/6kXUEk0/75/5o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6439,
-  "timestamp": 1540068688698,
+  "sequence": 6440,
+  "timestamp": 1540068772319,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%lLK1ndmFB4QzAck55g987359WXZfiaxHXzORtT1Icoc=.sha256",
+    "branch": "%lLK1ndmFB4QzAck55g987359WXZfiaxHXzORtT1Icoc=.sha256",
     "channel": "vegan-junkfood",
-    "vote": {
-      "link": "%lLK1ndmFB4QzAck55g987359WXZfiaxHXzORtT1Icoc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) This looks great! I don't make much food with chia seeds, but that looks really tasty. ",
+    "mentions": [
+      {
+        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
+        "name": "joey"
+      }
+    ]
   },
-  "signature": "1CBk8yRBmOo6D8tRsI2gHVy9+55Zvhc7jZlLoQuHGt6P40b0Yzv+QehUg0+nePp44vZTU99Yc+Hfy1K+HQ7ZDg==.sig.ed25519"
+  "signature": "Y5unxEY3eWCbGswOlu+JeH/V2+01fs8GuCJ1B0nKZKjUe4UsB5zetLMrOzUcKjhd0BCyyU4KZYVZoS8xaUCyAg==.sig.ed25519"
 }
