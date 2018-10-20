@@ -1,18 +1,24 @@
 {
-  "previous": "%Cfk+kfJNoWE0TiKGZINPXolYTBDRpSUjuWw8aJVciQs=.sha256",
-  "sequence": 6441,
+  "previous": "%+8TqMph/KENuRsuxk+mDdX53POgA/snPZnwiDivFLs4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1540069115477,
+  "sequence": 6442,
+  "timestamp": 1540069443304,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 23,
-    "root": "%l+phZjByAMezDbFckqypyJFpn3Pj8oZELPW8B8K3REA=.sha256",
-    "orig": "b2",
-    "dest": "a1",
-    "pgnMove": "Bxa1",
-    "fen": "r2qkb1r/pp1n1ppp/8/1B1ppP2/8/1P6/P2P1PPP/B2K2NR b kq - 0 12",
-    "branch": "%M9SpBEE2bMRY8sePlDKjXfXZNBuq/7uN6f+tz5/L3LA=.sha256"
+    "type": "post",
+    "root": "%x8nOeUXpk4kFQEzDiVTtpDu5GEts/781Et0UBltgP1g=.sha256",
+    "branch": "%hbvLa8Xp52IAsxpS6KiiUr3FyGDcpxv7UckJw1CEx04=.sha256",
+    "text": "[@LaPingvino](@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519) I think that in the URL path it needs to be percent-encoded, but unfortunately I think the Patchcore link handler (or maybe the ssb-markdown tests?) had some broken URI-parsing behavior so I had to use `&` or something. Another problem solved by [URIs](%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256)!",
+    "mentions": [
+      {
+        "link": "@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519",
+        "name": "LaPingvino"
+      },
+      {
+        "link": "%ql0+iw3Co5ne39g45oOWfiJc24dbSLccZN9U1knTYIQ=.sha256",
+        "name": "URIs"
+      }
+    ]
   },
-  "signature": "RneXourCqY03N/zXhwY6q/ua7F7GIE4nniHTy0w1NSKongxxuCP2+87KaSVbf0CyigvMQC9gEskwEbomxSGUAA==.sig.ed25519"
+  "signature": "AWuTtE0hBxj2+NuY5x3LIw7RtBzRf+ho8f2NmizjOcdr+Ityr0xOLLnlearGI/82yMzH15vWtX08gDcIradrAw==.sig.ed25519"
 }
