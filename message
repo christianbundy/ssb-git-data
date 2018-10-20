@@ -1,21 +1,18 @@
 {
-  "previous": "%Qs6WgykkOAp9m48xhk+bnwXIdvBdhSpHbyojppnK4wc=.sha256",
+  "previous": "%v6Cj1y1w3ZvJyn4zgqQv7or9skACFUxS9for1HBQ7u8=.sha256",
+  "sequence": 6432,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6431,
-  "timestamp": 1540066663807,
+  "timestamp": 1540066716984,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%1uM3ZEG3xhLB6biSCwGCfyYs4/4/R0MEaAc1l2O0uhc=.sha256",
-    "branch": "%EjOOdOgawsuMT6QOD9L97BigZomk6QN+rdODf31Hj+Y=.sha256",
-    "channel": "naming-party",
-    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) The old Markdown renderer strikes again! I think the old renderer has a bug where one newline creates a new paragraph, and since I'm using [a different renderer](https://github.com/ssbc/ssb-markdown/pull/24) it just shows them all one one line. FWIW, I love them all.",
-    "mentions": [
-      {
-        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
-        "name": "nanomonkey"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 6,
+    "root": "%3GId1gHTuyHadX0HpEz72Qxe9EG12XrcUSgYdBe4+Cg=.sha256",
+    "orig": "b8",
+    "dest": "c6",
+    "pgnMove": "Nc6",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/8/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+    "branch": "%hNmFn5E8B0X3vvDLK2IME6iDlcAKVJ4VCCOUckLtZnQ=.sha256"
   },
-  "signature": "qorB4gNfW13IIbLzTIH/1nWO9brSH146Uzc3gC2X0zjXMKvtDvHuBOJ9kZhODVdOIszjm15kNexceffrSN41BQ==.sig.ed25519"
+  "signature": "gxbz6NhD3lWtU7acfrmyKjvSlXzUPxc1B/T8cGrb/m78VNsqYTMY2cBlvl9QtWphUN4+hvnpaBWx0+06ebVbBg==.sig.ed25519"
 }
