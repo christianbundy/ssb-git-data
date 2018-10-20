@@ -1,25 +1,20 @@
 {
-  "previous": "%FQYaHXZydK4E54NA9KJWeM2tH366/q6DSJ4BIh74st0=.sha256",
+  "previous": "%uzlHWClM8nS/1qjxFnuUMqueFCWZLtiGLIG0xaIhr/g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6443,
-  "timestamp": 1540070054979,
+  "sequence": 6444,
+  "timestamp": 1540071647503,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%lLwpn38sHcanCbUuPGOK0/xJgiDVJO5BThB+eODz5co=.sha256",
-    "branch": "%lLwpn38sHcanCbUuPGOK0/xJgiDVJO5BThB+eODz5co=.sha256",
-    "channel": "ssb-npm",
-    "text": "[@Jon The Nice Guy](@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519) Have you seen [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)'s guide? I had trouble with a few guides, but [this intro](https://github.com/noffle/git-ssb-intro) is the one that worked for me. My only current issue is that `npm update -g` complains that it can't find the NPM repo for ssb-npm, but otherwise it seemed to work fine.",
+    "root": "%x8nOeUXpk4kFQEzDiVTtpDu5GEts/781Et0UBltgP1g=.sha256",
+    "branch": "%dL4NJNyvn9RxHNlbtuigxTnZo3vorqbjFLITOiD8/2k=.sha256",
+    "text": "[@LaPingvino](@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519) Right, but I don't think that `&amp;` is required for `href` attributes, is it? I know that the browser will allow it and open the correct URI anyway, but is it actually necessary for any reason? I'm trying to remove any code smells I find.",
     "mentions": [
       {
-        "link": "@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519",
-        "name": "Jon The Nice Guy"
-      },
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
+        "link": "@J9aGq11DkeVCUE5URMW328HwSMfadftawge3hk8RSV4=.ed25519",
+        "name": "LaPingvino"
       }
     ]
   },
-  "signature": "3OObr4EID4GKUbOysPvMZ5Z52zYZwnw3nvNA4ISVlcLTunECX+1GNpqfCLhCOBGm5DbkO7rS/wjo8/jqinyUBw==.sig.ed25519"
+  "signature": "s2A4DTMeQagDw7aVNtYVz6pZq+Hh9M2dItXVOj8EKUGYEAXeeSWjZarhwLEnTvQTh6Mpx5qANHAIOjyBpRyWAQ==.sig.ed25519"
 }
