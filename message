@@ -1,21 +1,17 @@
 {
-  "previous": "%c8Uxy1eixiP9Yrkv1Uyo7vfJgS5eUgq2fqGMVcyXpJY=.sha256",
+  "previous": "%YE5nWe9IIhz1SaCAvifVPsDHnNPGY1lM05vopPEIn7E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6415,
-  "timestamp": 1539993764583,
+  "sequence": 6416,
+  "timestamp": 1540003547455,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
-    "branch": "%uny+1lpqI4BozZHYoUZUCI/izsBiNOfbXg1WcNIOHjI=.sha256",
-    "channel": "javascript",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> my main reaction to this is that now the dependencies are not strictly statically analyzable  \n> ...  \n> What is the use-case that warrants dependencies inside the file? \n\nTrue, that's definitely a big step backward. I was thinking that [espree](https://github.com/eslint/espree) would be useful for making sure you're *only* installing when a string literal is passed, but that's probably too much of a footgun. My use-case is that I have a ton of tiny experiments where even *naming the file* seems like overkill but that I'd like the dependency versions to be saved anyway. Plus it was a good way to experiment with the `debug` package, I've been looking for an excuse to play around with it a bit more.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "type": "vote",
+    "channel": "naming-party",
+    "vote": {
+      "link": "%ziMY9WeDsBrmOiO4QM5mhZg71b3Ipl4sUaU5xEk/0+A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "jGQn4GWiUbTb//K01p7GsCTjQtbafLCoDOmW4ASZyBCwnfxUcUD+2PGzkg8Xl7uo32Ozq4870Afd0Tx92nH9CA==.sig.ed25519"
+  "signature": "udoKRdpCvytrI7pQIBGn4S6I/ih/yx4MZPbYnrjAnnKSe9GFzqypG6nRsoxQoLKAaKY6p96W3UxlbRWLGM9RDA==.sig.ed25519"
 }
