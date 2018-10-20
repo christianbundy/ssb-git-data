@@ -1,17 +1,21 @@
 {
-  "previous": "%w1fD9lzeDuyJhXNdSI9HGMIwrOzS1SJPIaqJeWkiEII=.sha256",
+  "previous": "%c8Uxy1eixiP9Yrkv1Uyo7vfJgS5eUgq2fqGMVcyXpJY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6414,
-  "timestamp": 1539993720207,
+  "sequence": 6415,
+  "timestamp": 1539993764583,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%nnlJ0aYUNBktGebMgzdN7aKTLT+XCZF8U1RiorWHNQ4=.sha256",
+    "branch": "%uny+1lpqI4BozZHYoUZUCI/izsBiNOfbXg1WcNIOHjI=.sha256",
     "channel": "javascript",
-    "vote": {
-      "link": "%uny+1lpqI4BozZHYoUZUCI/izsBiNOfbXg1WcNIOHjI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> my main reaction to this is that now the dependencies are not strictly statically analyzable  \n> ...  \n> What is the use-case that warrants dependencies inside the file? \n\nTrue, that's definitely a big step backward. I was thinking that [espree](https://github.com/eslint/espree) would be useful for making sure you're *only* installing when a string literal is passed, but that's probably too much of a footgun. My use-case is that I have a ton of tiny experiments where even *naming the file* seems like overkill but that I'd like the dependency versions to be saved anyway. Plus it was a good way to experiment with the `debug` package, I've been looking for an excuse to play around with it a bit more.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "9wnEt1EzkQsYgts0n4B93D/Db9X/+k2Rhcy1odHjEgZrwufyfxXNBip95XZUB90w7wgeBaQhpl0K+24ofxVABw==.sig.ed25519"
+  "signature": "jGQn4GWiUbTb//K01p7GsCTjQtbafLCoDOmW4ASZyBCwnfxUcUD+2PGzkg8Xl7uo32Ozq4870Afd0Tx92nH9CA==.sig.ed25519"
 }
