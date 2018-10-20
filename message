@@ -1,17 +1,21 @@
 {
-  "previous": "%mHDB0NnjVcN2fnMI9H59L5HHBvVizcp6Wt5nZLz4Gks=.sha256",
+  "previous": "%+oCkTX+ZEjIEgZ3LdUH18mSRrQv1jh74e2x9F9SLJQs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6417,
-  "timestamp": 1540004012979,
+  "sequence": 6418,
+  "timestamp": 1540004427636,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+    "branch": "%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256",
     "channel": "ssbc",
-    "vote": {
-      "link": "%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nWow, I really got a lot out of that first link and after clicking around a bit more I'm surprised I've never seen the advice process described so simply. I've been interested in decentralized decision making systems for years but somehow having the basics explained was really impactful. I see a whole page on [Teal organizations](http://reinventingorganizationswiki.com/Teal_Organizations), is that relevant to how things run on SSB or more of an aside?\n\nI know you've got all sorts of good links stashed away, so if there's anything else you think I might like reading I'd love to check them out. :heart:",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "3Hau1uVF0MpuZnVUfLa54lGjjS/Gs2w413RQocXujNUmmGbomO7w/JfQvumU0Lic/qqsIvGOheq5HkujUlS4Dw==.sig.ed25519"
+  "signature": "Ocp+hIJmuABLGo/+HB1M+oHzXKx+75y5CMVF5Di59qWRX70DxjnpxKMDVyS1TlQAmSyTzh8iYf6d2rPPxTNpBw==.sig.ed25519"
 }
