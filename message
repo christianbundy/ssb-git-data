@@ -1,25 +1,16 @@
 {
-  "previous": "%LYaKhBUyOO0bmyRNGB57Y8A1kjUyQ4A6EsMW4owl2gM=.sha256",
+  "previous": "%gXqJXS+BLuxn/5VzOuZHUPqlM8VGJ1EY+Vk4OXRQWwQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6458,
-  "timestamp": 1540143954759,
+  "sequence": 6459,
+  "timestamp": 1540143971683,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YjrffQKo+EpN8TmqWrTykSkG1Z3spmdDghGXEfBhOSo=.sha256",
-    "branch": "%nVZzucdvalCmBJLwcP8E1tcDSCz/E5AJyWWd0AqiDes=.sha256",
-    "channel": "npm",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI would support dropping Node.js 6 and supporting *only* [active LTS and maintenance LTS](https://github.com/nodejs/Release). Deploying an SSB application to an environment that's *already* in maintenance LTS doesn't sound like a use-case that's worth the time/energy to support, but if anyone would be blocked by this decision I'd appreciate feedback.",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "André Staltz"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%O1jiX4jp+u+5xWFygcqVmy9Zr4MBvaiOv0lkEif4Uoo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "t4qPNmE+GIFB/AbDixBfHK21CdQj0X3OE6LQTU07001p8yUdTYpyqcgSVJtGEd1l5/2NfyNKx32TwOfb5I8TCA==.sig.ed25519"
+  "signature": "2Mhv2MkPzqQbLhqEOMfvOdb/irpNDmJykajG22r5gcY65H56RTivcS7IjDXcGcJdqDfgegPOPF/WDYlUoK8IAA==.sig.ed25519"
 }
