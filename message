@@ -1,16 +1,23 @@
 {
-  "previous": "%RWMGRm8HZQiZadzqE9SVD/qFHSazNWCZukG0bq5Qyiw=.sha256",
+  "previous": "%RbZ25vzstTNm9X2uvd8ugUJBmjwZvq+8rF1vp9R5GfI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6463,
-  "timestamp": 1540145009543,
+  "sequence": 6464,
+  "timestamp": 1540145114127,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%DJRQ7PLMoHWaJ28B9ZodeBAHvTZ23se6ISde61zrCH4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%O1jiX4jp+u+5xWFygcqVmy9Zr4MBvaiOv0lkEif4Uoo=.sha256",
+    "branch": [
+      "%7J27Ww+sVi7dZVUF0bOXoj4VWJnInshVQs+x3CeGJjA=.sha256",
+      "%894wh2B3o4xh4a6E5vnyrtszFiGIBv9qIWEnHnBJANc=.sha256"
+    ],
+    "text": "Hi [@Gerry](@zFAMhcryAmD5M/HuTH7GJ/KdZguEnD654upI9LKROLw=.ed25519), welcome! Looking forward to reading your posts and getting to know you.",
+    "mentions": [
+      {
+        "link": "@zFAMhcryAmD5M/HuTH7GJ/KdZguEnD654upI9LKROLw=.ed25519",
+        "name": "Gerry"
+      }
+    ]
   },
-  "signature": "r7nOIKjzELwgBcRby2eGS2jN5AK8JHUuteceLDwQF+JCg1/pTZRU0/dvsOEh2GBZfhWh/prShD45XZChE8NTBQ==.sig.ed25519"
+  "signature": "Krgc27SKBorAQIquXLrEtzFXH2cKLgOoYXxTxs5Rz2A8I5qoP8bquvrgZjyXRNDFKGlXVwJ3DqapDM0pd/ZRDw==.sig.ed25519"
 }
