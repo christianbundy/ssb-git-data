@@ -1,29 +1,17 @@
 {
-  "previous": "%WHsJ14LSAPmWNu7gLC0vn0duIiytf9zzWyKtuYSQif4=.sha256",
+  "previous": "%KlLfsx4+Haa4ArtzJlwyrLbIu9ELfD+1sd3ftZ4ekOE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6453,
-  "timestamp": 1540133026316,
+  "sequence": 6454,
+  "timestamp": 1540133197586,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
-    "branch": "%BhQIdqtjLK39slMMatCoVM4A0MneuX2v36hbq96l+2w=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) If you come up with a solid solution, definitely ping me! Seems like something I'd love to learn more about.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\nYeah, I opened [an issue](https://github.com/ssbc/secure-scuttlebutt/issues/225) when it first broke, and put together [a solution](https://github.com/ssbc/secure-scuttlebutt/pull/228) ([SSB](%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256)) that standardizes on `msg.value.meta` for metadata (e.g. `msg.value.meta.unbox`) and an `original` property for storing the original message (e.g. `msg.value.meta.original.content`).\n\nThe idea is that getting/streaming a message with `{ private }` still works as usual, but if you want the *original* message rather than just the *decrypted* message you can use `{ original: true }` and it undoes all modifications by `unbox()` and `addMap()`.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256",
-        "name": "SSB"
-      }
-    ]
+    "type": "vote",
+    "channel": "markdown",
+    "vote": {
+      "link": "%Z2dr7bnU+6BGdSk0wu7vCGPTCFZknNkmuXmMC9LVkGU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3E2mjP/5ylFzCFE4Si5dAjfdOvosikQRUTMYxyV58tvxgucqwYytP6XeehJ81cHY9vofPSgX9nX7YYyHtRqsAQ==.sig.ed25519"
+  "signature": "UgxJ9j8EGIn8DAW0jYF3uuuLqZ97G2xTJeT0E2D++2HrpPVfFIfA3RReQLNxr7VwOisvA7dns7GEA9bOg7y9Ag==.sig.ed25519"
 }
