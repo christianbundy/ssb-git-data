@@ -1,17 +1,29 @@
 {
-  "previous": "%8vA13DgPEmbLGOoUoAfej5k5/PPwqJ6V36TcZmgd24E=.sha256",
+  "previous": "%WHsJ14LSAPmWNu7gLC0vn0duIiytf9zzWyKtuYSQif4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6452,
-  "timestamp": 1540132359953,
+  "sequence": 6453,
+  "timestamp": 1540133026316,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%wbhFNHuXUn9+/b93rjciWrQwYL3qXe7sMVEy6SCLLIU=.sha256",
+    "branch": "%BhQIdqtjLK39slMMatCoVM4A0MneuX2v36hbq96l+2w=.sha256",
     "channel": "ssb-show-and-tell",
-    "vote": {
-      "link": "%qXxr9Bfi/YfORxf2R5Gz1wbBKLRAz54UyUOJhhy7p+E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) If you come up with a solid solution, definitely ping me! Seems like something I'd love to learn more about.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\nYeah, I opened [an issue](https://github.com/ssbc/secure-scuttlebutt/issues/225) when it first broke, and put together [a solution](https://github.com/ssbc/secure-scuttlebutt/pull/228) ([SSB](%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256)) that standardizes on `msg.value.meta` for metadata (e.g. `msg.value.meta.unbox`) and an `original` property for storing the original message (e.g. `msg.value.meta.original.content`).\n\nThe idea is that getting/streaming a message with `{ private }` still works as usual, but if you want the *original* message rather than just the *decrypted* message you can use `{ original: true }` and it undoes all modifications by `unbox()` and `addMap()`.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%xKxpayrjd/ZIq/J/z2+x+K5MVrUhW8gJjGoQs3aEbbQ=.sha256",
+        "name": "SSB"
+      }
+    ]
   },
-  "signature": "6cec8dmg9Xbv/1nNj7iXEWWYHXOl+nGYM1FgDuS9qVO6k+aYt6Z1tU6l4ki+y3lzD7GES6iJQicRTnw+rp8fAQ==.sig.ed25519"
+  "signature": "3E2mjP/5ylFzCFE4Si5dAjfdOvosikQRUTMYxyV58tvxgucqwYytP6XeehJ81cHY9vofPSgX9nX7YYyHtRqsAQ==.sig.ed25519"
 }
