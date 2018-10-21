@@ -1,17 +1,20 @@
 {
-  "previous": "%krWig1gewBZCfq9Dzx30oyDycnYrR3Q2Nuc8wf7KP2I=.sha256",
+  "previous": "%EUj5bWK8311IFx0mKQQIjsAtZbJ6fykSKPGKXwr+/FI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6449,
-  "timestamp": 1540081198030,
+  "sequence": 6450,
+  "timestamp": 1540081321484,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%8acFN850kibuHylEQ3WyiwkN3jlpFVzM+Qan0JSrjHM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SL3FmR4Hi9iMkS9E2hp84St4QViXyDic3sCqpOwKYt0=.sha256",
+    "branch": "%BB5WX8CYViXxOC9pxkSxC5RryApMwcKyHSH9BHsrwCU=.sha256",
+    "text": "> Yes, that is basically known since the VLC issue I think?\n\nJust to add another data point, I had no idea about this. It makes sense if you think about it, but admittedly I don't spend much time thinking about the licensing consequences of distributing apps via Apple. Seems like a huge bummer [@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519), if you make a thread on this I'd love to follow along with a @ping. I'm sure we'll figure it out.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "Andre Staltz"
+      }
+    ]
   },
-  "signature": "Va0sIHAmSAme0CBcETWYbccFlzIBDGzEpILhlNume/qGWvsedrr3HkRfccGoACvIvOcvoEF8dtjz8zJfbBkSCA==.sig.ed25519"
+  "signature": "fjdlQanZUyLbkZtqd8bToZUtkyAXWd2olcbr4UxEY6VxJyvDh699Ho7WMQgjO9cH3eAjBQBXv+IBMyUMcXGlAA==.sig.ed25519"
 }
