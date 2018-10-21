@@ -1,17 +1,21 @@
 {
-  "previous": "%KlLfsx4+Haa4ArtzJlwyrLbIu9ELfD+1sd3ftZ4ekOE=.sha256",
+  "previous": "%99ud8Z7b4NeTaTo29wBtGL1MYAuKmCu6DitVhQvMh9Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6454,
-  "timestamp": 1540133197586,
+  "sequence": 6455,
+  "timestamp": 1540134361719,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%HhkEF4yj03+qpwa72pS8Cn9zhl6iC+hkAj4rPEIvmKM=.sha256",
+    "branch": "%Z2dr7bnU+6BGdSk0wu7vCGPTCFZknNkmuXmMC9LVkGU=.sha256",
     "channel": "markdown",
-    "vote": {
-      "link": "%Z2dr7bnU+6BGdSk0wu7vCGPTCFZknNkmuXmMC9LVkGU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\nThat makes sense. For what it's worth, my branch of ssb-markdown is [CommonMark](https://commonmark.org/) plus:\n\n- **Block**: Full HTML output, accepts Markdown string and `opts`.\n  - Any link starting with `#` has `target=\"_blank\"` added as a property.\n  - Emoji `:name:` renderer, defaults to UTF-8 emoji output but can use images with `opts.emoji` function.  \n  - Linkifier:\n    - HTTP, HTTPS, FTP, data, and dat URI schemes by default.\n    - Ability for plugins to add HTTP-like protocol handlers in `opts.protocols` array.\n    - Sigil links, hashtags, and @mentions rendered with `opts.toUrl()` function.\n  - Media:\n    - Supports alt text starting with `audio:` or `video:` to render media players.\n    - Wraps all imags in a link to that image with `opts.toUrl()` function (hmm).   \n- **Inline**: Plaintext content preview, accepts Markdown string and `opts`.\n  - Emoji `:name:` emojifier, defaults to UTF-8 emoji output but can use images with `opts.emoji` function.\n  - Links are replaced with the plaintext text node inside the link (no `href`).\n  - Images are replaced with their alt text.\n  - Code blocks are replaced with their HTML-encoded contents.\n\nIf you think the git object id linkifier might be a good fit for ssb-markdown I'd be happy to look into adding it to my branch.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "UgxJ9j8EGIn8DAW0jYF3uuuLqZ97G2xTJeT0E2D++2HrpPVfFIfA3RReQLNxr7VwOisvA7dns7GEA9bOg7y9Ag==.sig.ed25519"
+  "signature": "a6UD368j4r3C7WM9g+8dfYWD/fyHkqpe/HGLErdti/aLwINRS+MUMyFpA36u4zdU24geK4MUvh/njGD7a++UAA==.sig.ed25519"
 }
