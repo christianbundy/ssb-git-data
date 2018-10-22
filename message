@@ -1,16 +1,17 @@
 {
-  "previous": "%XcMPfQZRnW3p26bfmRC66WrhZYFgGyyufi8bqTU5THs=.sha256",
+  "previous": "%K8ccONcR2O+4nt4AsG0+zXu0utUwcrJjRzW6kqYPFPY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6470,
-  "timestamp": 1540237785825,
+  "sequence": 6471,
+  "timestamp": 1540238273817,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%MIn31FvkdaFkRSqzx3jahHca2vEPHnT6peI+INF6/b4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%MIn31FvkdaFkRSqzx3jahHca2vEPHnT6peI+INF6/b4=.sha256",
+    "branch": [
+      "%D82vvuK4D8D5mF6JPNEgjl+8xol2sx7/q/Wk02EGeJE=.sha256",
+      "%lo8bnXGA0VahEee8hW59Lq4rPRxZV6jNCQylAMkf3To=.sha256"
+    ],
+    "text": "Interesting, this reminds me of the ideas behind [counter-anti-disintermediation](http://wiki.p2pfoundation.net/Counter-Anti-Disintermediation)."
   },
-  "signature": "bGQVz3Ob6VrDQwfWj+XevJJGQh97lP/zCY+siOe/m2MHr3YM0F0ysBGw3CaOcQ87I7I32wDVsiFVY+vphzK7Aw==.sig.ed25519"
+  "signature": "fIZyBHqY/akgZ+8ELdFupbSkx5/Ys4DgMdJNBaVJ/EH65BVDsRALG543ynNkIibC26kAiRN7Y56TgY1+lc3NDg==.sig.ed25519"
 }
