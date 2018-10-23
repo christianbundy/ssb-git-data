@@ -1,17 +1,19 @@
 {
-  "previous": "%Ki1o+gzrc8aA/90cVxnBu/M7bBtEq3xeU0Po64XEZco=.sha256",
+  "previous": "%HvcN8+XskIve+2Mmewm1QMz/6JMzFhKz+IXM2IsdUMw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6493,
-  "timestamp": 1540308689916,
+  "sequence": 6494,
+  "timestamp": 1540309596889,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "text": "# Stale\n\nAfter discussing in [this thread](%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256) I've opened a [pull request into secure-scuttlebutt](https://github.com/ssbc/secure-scuttlebutt/pull/230) and enabled the [Stale app](https://github.com/probot/stale) in *only* the secure-scuttlebutt repository. The current behavior is simple:\n\n- Threads with no activity for 60 days will be marked as stale.\n- A comment will be posted saying ~\"this is stale and will be closed in 7 days unless there's activity\"\n- If 7 days pass without any activity, the issue/PR will be closed.\n\nI don't think closing stale issues is controversial, but the onslaught of emails isn't my favorite. I like to tinker, so I'm tempted to immediately start trying different settings, but for the sake of science I'm going to leave the defaults for at least a week and see where the pain points are. **This thread should serve as a forum to discuss, complain, and navel-gaze about stale issues.**\n\nMy first instinct is to disable the warning comment, so that we only get the email about how the issue is closed, but it seems a bit impolite. Maybe a closing comment would be more appropriate? The [configuration file](https://github.com/ssbc/secure-scuttlebutt/blob/master/.github/stale.yml) is pretty simple, so it should be easy to make any changes that we'd like.\n\n**In case of emergency:** if the bot goes rogue and/or becomes sentient, it can easily be disabled in the [GitHub settings for the org](https://github.com/organizations/ssbc/settings/installations/407234). I don't have any reason to be concerned, but I like having a high [bus factor](https://en.wikipedia.org/wiki/Bus_factor).",
     "channel": "ssbc",
-    "vote": {
-      "link": "%6CGFhOKJ7qi+Y8iK7CT1m87qTfvpIlgiIxC+CHBggJo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "mentions": [
+      {
+        "link": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "CEAPLWL/zUJYaeroAPIJAIu487n907yH+q0r0R0HkvAFnj99bdvIGU6sYgYrcHH5RZv3W+i3DeRmBvB+f/hgBA==.sig.ed25519"
+  "signature": "nioF/R1NhFBfP4QuWnE5gxY/tBWzGohn0az876D9Dh0y3vEaFY538S0KUnQp3iiSwZWcEnYjlIWx1A6ulFRoCA==.sig.ed25519"
 }
