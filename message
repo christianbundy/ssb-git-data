@@ -1,16 +1,20 @@
 {
-  "previous": "%PWqjmzmV2wb73FxbcYQT8DAZSyHVdNucvsQQoXa0FvM=.sha256",
+  "previous": "%0MxBiMD+H35nfv1tTGD2H91ZhrGLws+xMjgUhT6BMmc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6510,
-  "timestamp": 1540334200328,
+  "sequence": 6511,
+  "timestamp": 1540334227585,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rizN9Z1enHV+Hakv0rbiGR3+e+sJ0GmlmMxGAWyzALI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rizN9Z1enHV+Hakv0rbiGR3+e+sJ0GmlmMxGAWyzALI=.sha256",
+    "branch": "%Nn3SnwVJznyDDoY2VSUhmU+b079wAfq5y8YIs9OY0fQ=.sha256",
+    "text": "[@zero](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) I swear I've been to the third one, except on Mt. Hood.",
+    "mentions": [
+      {
+        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
+        "name": "zero"
+      }
+    ]
   },
-  "signature": "kYIBFgn5iisuXKpl3mYQuY4QeNX9fPsrcnHjsQbzLIpRXLK5+PZt/eEwarn1Y9usnleTSpesOVs0Rtv1jE5XAQ==.sig.ed25519"
+  "signature": "mRTniWmzJP5x1sVHZUkszh7USkoRAbNL7V1LYlDGwsgeejv7u9w3RtM2EyM4KC74zqdw4a3QLjVbMXqs4s2dDA==.sig.ed25519"
 }
