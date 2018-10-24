@@ -1,21 +1,16 @@
 {
-  "previous": "%8dpxuq7Rdtp5k+KqZE9u6Y/4ICtUO7qf8KyZbbJWYxU=.sha256",
+  "previous": "%IXDn3eOkaWHi2lDqkPKVfgOFZWfNlFGRVIRxiue1xAA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6528,
-  "timestamp": 1540405908789,
+  "sequence": 6529,
+  "timestamp": 1540405935749,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%eRrtXawpouFMAgqiKKNVwDIbb0tkfu3/SMxCBDA3I60=.sha256",
-    "branch": "%eRrtXawpouFMAgqiKKNVwDIbb0tkfu3/SMxCBDA3I60=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@SandyG](@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519) Here's what I'm using on my Pi:\n\n\n```\nwhile true; do timeout 1h sbot server --no-replicate.legacy; done\n```\n\nThe `--no-replicate.legacy` bit disables some performance-intensive legacy code, and the `timeout 1h` bit just restarts the process every hour so it never locks up. Not pretty, but it works.",
-    "mentions": [
-      {
-        "link": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519",
-        "name": "SandyG"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%WeaF37CU6EZb/FVwvH613K9r3zfHA29wK742uT8QUDs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "pnOAnit3h5URvo3sprhkczN1gXWEwwSjfAe/f630uGuwNQfvBpgyIJHA/TzFoMY9AavSXmxyFUkn6oJRJn8/BA==.sig.ed25519"
+  "signature": "8FshQavusaXHvY/nfPBdxfdAyQxoo6scloj+fhDrrKP334nFbdqdKalDRKDpq8sIQ/zvKB55w29BIiMO+d9wAQ==.sig.ed25519"
 }
