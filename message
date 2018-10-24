@@ -1,17 +1,26 @@
 {
-  "previous": "%5FNn8rdPdh1J/8KzmRcl5Hl8piBEPnwqtz9uv9T8DYA=.sha256",
+  "previous": "%5ZeTMQ9vzOESSAAAIQi2tXfGBQ1xCRb0sxD8CaEcaUU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6533,
-  "timestamp": 1540406413009,
+  "sequence": 6534,
+  "timestamp": 1540407503852,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "buttcouncil",
-    "vote": {
-      "link": "%t7AUvFK8Soxtq5SiAUzSAjrEvOvc2H8kvNg9gOiXH3w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Voting and Human Recognition\n\nI've been thinking about how voting might work on SSB for a while, but today I finally saw [a post](%4/tik/N0UjuigPKUw3WGkK8UC/R2disgoPaKn3ijdYw=.sha256) that made it seem relevant and important:\n\n> Only those who expressed their opinion (positive or negative) in this Election will be able to vote on the next ones.\n\nThere's clearly a problem here to be solved: subjective social networks don't lend themselves very well to \"1 person 1 vote\". I don't take any issue with [@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)'s system, but *in the future* it seems like we'd benefit from a system that allows us to vouch for authenticity and uniqueness of feeds. This probably has some overlap with #same-as, but it seems like it would be useful to restrict voting to people who have been recognized as unique humans by you or trusted friends.\n\nI've only met a few others on SSB, in real life, over video chat, and audio chat, but I'd happily vouch that each of these are unique humans that I think should be allowed to vote on issues in our community. On the other hand, there are *tons* of people on here that I haven't met, and that I couldn't confidently assert were unique. I'm sure at least a few of you have multiple feeds on here, and while that's *totally fine* I don't think I'd like you to be able to vote multiple times.\n\n**Has there been any previous discussion about this, or does anyone have any thoughts on the system I've described?** Decentralized and pseudonymous voting is hard, and if it's something we're interested in continuing in the future I think we'll likely need some better tools to handle it.",
+    "channel": "voting",
+    "mentions": [
+      {
+        "link": "%4/tik/N0UjuigPKUw3WGkK8UC/R2disgoPaKn3ijdYw=.sha256",
+        "name": "a post"
+      },
+      {
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      },
+      {
+        "link": "#same-as"
+      }
+    ]
   },
-  "signature": "AFctxJmx2sEKB1ApDlU25Sv4xSKqqvwXl39JUVb8l8YRT0jxd6CJTzYWXRtNMe3e37dCLhMtEMHWNQCTp3A8Cg==.sig.ed25519"
+  "signature": "HMoozak6vebpnNfVq9gt5Ua6mygAEb+Qi4EytuNHKRXTUJkKdI7f6iyay9dbDbd3NAGQFS8EIx3MyAr1wayuAg==.sig.ed25519"
 }
