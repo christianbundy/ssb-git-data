@@ -1,17 +1,21 @@
 {
-  "previous": "%l13bdyBjkS00KLTrq0zndCkp0UFuHReWY4AyCnnfBDU=.sha256",
+  "previous": "%8dpxuq7Rdtp5k+KqZE9u6Y/4ICtUO7qf8KyZbbJWYxU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6527,
-  "timestamp": 1540405238317,
+  "sequence": 6528,
+  "timestamp": 1540405908789,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%FG0LxqvG+JYOPT+gIoEIrJfgToQOmBr4L5KzQeD3XoI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%eRrtXawpouFMAgqiKKNVwDIbb0tkfu3/SMxCBDA3I60=.sha256",
+    "branch": "%eRrtXawpouFMAgqiKKNVwDIbb0tkfu3/SMxCBDA3I60=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@SandyG](@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519) Here's what I'm using on my Pi:\n\n\n```\nwhile true; do timeout 1h sbot server --no-replicate.legacy; done\n```\n\nThe `--no-replicate.legacy` bit disables some performance-intensive legacy code, and the `timeout 1h` bit just restarts the process every hour so it never locks up. Not pretty, but it works.",
+    "mentions": [
+      {
+        "link": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519",
+        "name": "SandyG"
+      }
+    ]
   },
-  "signature": "FmUt/ZeIvaRTQdaYcwRwL3nf5Lj4oSYM1UCDaKognauySqXO1pE8ZiGj01vNE7TEcF4j6evjuT81/eOtjME9CQ==.sig.ed25519"
+  "signature": "pnOAnit3h5URvo3sprhkczN1gXWEwwSjfAe/f630uGuwNQfvBpgyIJHA/TzFoMY9AavSXmxyFUkn6oJRJn8/BA==.sig.ed25519"
 }
