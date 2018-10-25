@@ -1,24 +1,17 @@
 {
-  "previous": "%VEZspfz7cFjTZmE8tU8uf4iyTuyHVCHP8jzlmMoUovM=.sha256",
+  "previous": "%pUmvKd1hQlc0ZrgidQYG/ztueVA+JhD0jOZvgtu4xvI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6540,
-  "timestamp": 1540492149291,
+  "sequence": 6541,
+  "timestamp": 1540493520092,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
-    "branch": [
-      "%Hu31T+Z8DQ/q8VSED3RkwNDJj/t9tPJfDYLaqw3+ZRU=.sha256",
-      "%OvzDyO6kRD43L+pIQY3UuzYYoWNlEJzfge4LcT9Hcr0=.sha256"
-    ],
-    "channel": "patchbay",
-    "text": "[@runKleisli](@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519)\n\nI think both of those are rolling release distributions, so as long as you're updating with `pacman -Syu` it shouldn't matter which version you installed. Sorry, I don't feel I'm being very helpful, maybe some context would help me answer your question?\n\nAny version of Arch/Antergos should be fine, but if you get any errors during the installation please let me know.",
-    "mentions": [
-      {
-        "link": "@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519",
-        "name": "runKleisli"
-      }
-    ]
+    "type": "vote",
+    "channel": "new-people",
+    "vote": {
+      "link": "%CpdMkxpg2LkUz+OSDPnoSADx9iFsEAmxMZy1I9jZ8/w=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "nxLQiVuART0MxSX6o1TOOGhNxUWt9rGlRC2HY4A9qsg42zjwYkzq0cxDATCysusAfu+eWfvaJk0l2zVh19AQDA==.sig.ed25519"
+  "signature": "NLIlTjYZ7bbldSWCAK3bMGWM65+ld6CEZFOnsLfbgVznR2WOJUVaahtHFxINdOjs57Fzq6PMyRg/+EulJDdDBA==.sig.ed25519"
 }
