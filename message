@@ -1,17 +1,24 @@
 {
-  "previous": "%UItOE4mtOZ/COabASxzPYic/mgzW506hub70TEVPi0M=.sha256",
+  "previous": "%VEZspfz7cFjTZmE8tU8uf4iyTuyHVCHP8jzlmMoUovM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6539,
-  "timestamp": 1540473778404,
+  "sequence": 6540,
+  "timestamp": 1540492149291,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssbc",
-    "vote": {
-      "link": "%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
+    "branch": [
+      "%Hu31T+Z8DQ/q8VSED3RkwNDJj/t9tPJfDYLaqw3+ZRU=.sha256",
+      "%OvzDyO6kRD43L+pIQY3UuzYYoWNlEJzfge4LcT9Hcr0=.sha256"
+    ],
+    "channel": "patchbay",
+    "text": "[@runKleisli](@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519)\n\nI think both of those are rolling release distributions, so as long as you're updating with `pacman -Syu` it shouldn't matter which version you installed. Sorry, I don't feel I'm being very helpful, maybe some context would help me answer your question?\n\nAny version of Arch/Antergos should be fine, but if you get any errors during the installation please let me know.",
+    "mentions": [
+      {
+        "link": "@c5zFAmQ3pG8mzXc86oOmLiz9bKZeHO9KQCSazTWsMzo=.ed25519",
+        "name": "runKleisli"
+      }
+    ]
   },
-  "signature": "dZWrhiaLIvOap6Mzvpd680uJ3ydcZDtRrUenKyW1fBeTE3LO+9ZbN6cvfR2sZOxOMoUX076o00cRYwRdmQqkAg==.sig.ed25519"
+  "signature": "nxLQiVuART0MxSX6o1TOOGhNxUWt9rGlRC2HY4A9qsg42zjwYkzq0cxDATCysusAfu+eWfvaJk0l2zVh19AQDA==.sig.ed25519"
 }
