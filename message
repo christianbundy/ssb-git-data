@@ -1,12 +1,17 @@
 {
-  "previous": "%mfXBDKNK5PRMFZVrbk01Iz8k88Khb6IGPPsnFlTi1Ao=.sha256",
-  "sequence": 6569,
+  "previous": "%6li0x2FRjk3LeK7dhFloJBR0fOlsqJsaKsJtZDLnICc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1540502776647,
+  "sequence": 6570,
+  "timestamp": 1540509815796,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "also, hey all!"
+    "type": "vote",
+    "channel": "mmt",
+    "vote": {
+      "link": "%6mDpzQLV9J0Fq1iCveZwUds1MgHbFE8lpKTjlzhOmkk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "VGypQj9zOjCzTN0w4PvVqMBjSVzdkWvFRwbRw0LkDVbfiewfkP83ZfCorV0wNidQ+MnTR4X539FurD83o0HzCA==.sig.ed25519"
+  "signature": "OH2E0sQZYtZR+80QklK2OxuVAq0DCYXl+TMEJzMIfLgBjy5qqd9zeAzR4Fw5bfYyvlHU6KLL8lM8GdXms2MKAw==.sig.ed25519"
 }
