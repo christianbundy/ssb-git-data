@@ -1,17 +1,18 @@
 {
-  "previous": "%AVqSRE4F02piwAZ1kq1qzNho/qTmRS4kFVeyTKXxNTQ=.sha256",
+  "previous": "%hqI9rztZ26VSnW2h/RHcy34QgoJ38yuKY58wWAuA/Q8=.sha256",
+  "sequence": 6550,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6549,
-  "timestamp": 1540497950698,
+  "timestamp": 1540498106063,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "project-entropy",
-    "vote": {
-      "link": "%SejSw682IKcApUDjzAXUfQQKE4qrX/1uS+WFmwJ8+5A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "chess_move",
+    "ply": 26,
+    "root": "%q5883EYnXTAW4YiDh1ipNXosQKgbECvgcIlBblpUryk=.sha256",
+    "orig": "e8",
+    "dest": "d8",
+    "pgnMove": "Kd8",
+    "fen": "rnbk1r2/p2pb1pp/1qpN4/1p4BQ/4P3/1BN5/PPP2PPP/R4RK1 w - - 3 14",
+    "branch": "%ed+QxA401Brn4Pbi326Z96FQsE5wvVf0EpitsYsMdXA=.sha256"
   },
-  "signature": "6VKQb5+RyznumNcneXV6TvNL5kXRck1QYX+cSdI3j9RjWVsldkAki+HuKY7zPAfAl6Kn8AGw9y+rpblOjKjuBg==.sig.ed25519"
+  "signature": "edbExpxxUpZCf6Ecvud/17n/qDzMGK8W3zLouhZqO7PbNPAz3PUuKbkMd1PCynEHA6FNL9jCyvvHiesYMlnDAA==.sig.ed25519"
 }
