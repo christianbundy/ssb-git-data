@@ -1,17 +1,21 @@
 {
-  "previous": "%/e8NoFEGCpue0FeckxIwr02gKoF9BBzbC51VFZju7IE=.sha256",
+  "previous": "%r5g9skcGlylvZQvQJMk6MMcFhEd6sB5bnsRrDslQ6IM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6609,
-  "timestamp": 1540595655014,
+  "sequence": 6610,
+  "timestamp": 1540596999800,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%OA9RgwxSp0cqNO6FVLbCBplEoaa3Tw0EvkWc7sd5vN0=.sha256",
+    "branch": "%AM/1I/XuUBVi4ucJ+h8h6yf1l/dram4kQCZovQjcaMw=.sha256",
     "channel": "undomination",
-    "vote": {
-      "link": "%RtNm3MPvTa/CcZDkMMAVe+HSX4BjqSOGmKtWwucNoq8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\nI've never heard that before, but I'm all for calling people what they'd prefer to be called. I appreciate you correcting me, as I knew about the cold war shenanigans but hadn't really thought about which terms to use. I'm sure I'm not the first to ask, but are there any specific metrics that can be used to distinguish the majority countries from the minority countries?\n\nFor example, one heuristic might be whether violence/exploitation is foreign or domestic:\n\n- In minority countries, most exploitation is domestic (i.e. Facebook vs. US citizens).\n- In majority countries, most exploitation is foreign (i.e US embargo vs. Cuban citizens).\n\nMaybe a bit difficult to measure. On the other hand, maybe the NPR article had it right:\n\n> So as a rule we aim for specificity: naming the country in question or saying low-income countries, for example.\n\nIn that case, maybe the term \"most people\" would be the best substitute for \"people in majority countries\". Quite a roundabout way of getting there, but I think I like it.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "YvkbYej8cYKUzh5frA7pk4YNEopEVb+OcH1CE01hHSumfxmru6txlfDDgG6VL98zDjUAbdSMma1rZGMTjjp1Dg==.sig.ed25519"
+  "signature": "eMeCauIijc7Rw2mzJLa3BCCMxiGoUHX+wrHcSj1a6fRR0APyoTdK6rg0g6PuFu0YrvpA0dbFJatO9l8gqs8xAQ==.sig.ed25519"
 }
