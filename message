@@ -1,20 +1,17 @@
 {
-  "previous": "%5B8dZTIApn54oeW9TPZMv5i6gzZykCHTWoLFW8luylc=.sha256",
+  "previous": "%e8dkR7tH0N7HfWfWnjOHKtRcHGgAIDqMb83DfBDpg7U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6603,
-  "timestamp": 1540583591897,
+  "sequence": 6604,
+  "timestamp": 1540583680135,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%dQzvnzkk6ioonk39X9Xde+ykrL5Fd6kwnmku4T5+VqA=.sha256",
-    "branch": "%5B8dZTIApn54oeW9TPZMv5i6gzZykCHTWoLFW8luylc=.sha256",
-    "channel": "patchbay-dev",
-    "text": "> depject modules are considered deprecated in Patchwork\n\nLooks like it's only *external* modules? I'm not sure, here's the thread: %+c4BZ9I0XGYFV6AjmHCEa3+rn6PYa9QWm365GEie5TE=.sha256",
-    "mentions": [
-      {
-        "link": "%+c4BZ9I0XGYFV6AjmHCEa3+rn6PYa9QWm365GEie5TE=.sha256"
-      }
-    ]
+    "type": "vote",
+    "channel": "scuttlebutt",
+    "vote": {
+      "link": "%93iRBy2VZy7X4SnCB3whbmNsbDeSSIR+glbNntR4oIs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "7X1ejAvbBxApcxMhfT9L7oMp+hOGMM8IB8KjsseoS3BvxYBj7jcXvA3AKCJyWku4J5+tU9EBoIA15CwwPc7hDw==.sig.ed25519"
+  "signature": "E2mUJUoYu6pzpzziLLLg/CBlXMN1Vcwzskj0k62lfdRH24NccI66ZUl15ijjfB9LiT6ZMtXernDRt7w3QX2aAw==.sig.ed25519"
 }
