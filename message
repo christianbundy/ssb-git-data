@@ -1,25 +1,17 @@
 {
-  "previous": "%nw64EbdAafcLEnftyLVOOp6mkOg/s9DGsSlAefBM+9o=.sha256",
+  "previous": "%zAFPNTf6L1BriBselm8RYUreP4wxP+tObROH18ZuZqg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6579,
-  "timestamp": 1540564454525,
+  "sequence": 6580,
+  "timestamp": 1540564468075,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/mWw187cRvM8Zv8O5wOGzkqsReAVGQD9BmPm5B9kfbU=.sha256",
-    "branch": "%/mWw187cRvM8Zv8O5wOGzkqsReAVGQD9BmPm5B9kfbU=.sha256",
-    "channel": "manyverse",
-    "text": "[@alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519)\n\nI might recommend just leaving the app open for an hour or two so it can sync in the background, if you can. I had that bug a handful of times and kept creating new profiles (Android multitasking button -> app icon -> app info -> clear storage) but it kept doing the same thing, so eventually I:\n\n- got a pub invite (I think to [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)'s VPS)\n- waited about an hour for it to sync up with the pub\n- followed *only* my profile\n- waited another hour or so\n\nLet me know if there's anything I can do to help!",
-    "mentions": [
-      {
-        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
-        "name": "alanna"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ]
+    "type": "vote",
+    "channel": "mmt",
+    "vote": {
+      "link": "%1CfgQdcXV+dY9QA0IJ6LWTSnmYFETr6nGhYWF2X5K1s=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "50+ifiKjil1CP7g9WmnVih/VtftgGpZduTvKz4GJmmzqSkqXMA6VyUm35H6vCqdW8UK468U9wssgPuInpdu2CQ==.sig.ed25519"
+  "signature": "h5JM+GGCmb+dJX2K6dB+I2LgB9SrszEctN5pN9msR+8B1hUob3cFu2yGnBZv79D3VvIlCwkDUEYLMKlZzgslBw==.sig.ed25519"
 }
