@@ -1,17 +1,24 @@
 {
-  "previous": "%xkRkZXKGU0HbYn+yeYbAixDxSIBOXXttqQtlcouoKcQ=.sha256",
+  "previous": "%cLg3R5yb7WPu9f6JFZVUgxcVs1D3nUtn3rQmDmCbQlQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6600,
-  "timestamp": 1540582619227,
+  "sequence": 6601,
+  "timestamp": 1540582696036,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%IwtmQtkVe16WwTKQEuYah1zOXfZA/oqvATMm2Zkvo3A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%OA9RgwxSp0cqNO6FVLbCBplEoaa3Tw0EvkWc7sd5vN0=.sha256",
+    "branch": [
+      "%AuQgQwtBOD3rGPoBeAMkUKV71cyhov5chRPj+xlJi7Q=.sha256",
+      "%be7ugmfgiGE/JrjzZj/Cm02MSJ9iwY+JUf+fECfmywE=.sha256"
+    ],
+    "channel": "undomination",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) Here are some [options](https://en.wikipedia.org/wiki/Developing_country)!",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "DrK7g7iDGdB/vI5FcdJ8diWjzBET+g5aNdPY7YYPaQa139QIW7V+KpT6ei4XeOZCrT2N3nT+VFRTzSqFyIfOBg==.sig.ed25519"
+  "signature": "VxEXkbguFGDrAKop7FHQinoI8GIMOgpecMSdWETPNEA0qPaEB815OvbtskIrE5ciq9Awevcl97Y83CqSvA38DA==.sig.ed25519"
 }
