@@ -1,18 +1,20 @@
 {
-  "previous": "%90GbVEJFBRNyN2E6CKAu2Lp75r6rS9bBN030WGvnot4=.sha256",
-  "sequence": 6592,
+  "previous": "%JOXx3ds5/JilvLqesRSLmtTaoPBwUDk1RLLxFRbwHmE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1540576166132,
+  "sequence": 6593,
+  "timestamp": 1540577964759,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 15,
-    "root": "%BTTwLo3U7GHzSzsnLOpFh7wawLVl/hYcNLuYsl7iTLs=.sha256",
-    "orig": "b2",
-    "dest": "b4",
-    "pgnMove": "b4",
-    "fen": "r2qkbnr/pp1bpp1p/2np2p1/8/QP2P2P/2N2N2/P4PP1/R1B1KB1R b KQkq - 0 8",
-    "branch": "%7l7PzDCdHBs+zMYhWZFAB7pAuh6bVrjyfxbWmLAlNSk=.sha256"
+    "type": "post",
+    "root": "%BCFpTlVl31hYGvzhFyslD58tbyY9K4JzonqRg+QSmZg=.sha256",
+    "branch": "%Xvi4eb/Pn52b2FsmxXS9MjXXGcP0M16poyXlMSCnOTQ=.sha256",
+    "channel": "patchbay",
+    "text": "> If you check `uname -a` you get the Arch version, while I think the Antergos AUR pkg has a version too.\n\n```console\n$ uname -a\nLinux samus 4.18.14-arch1-1-ARCH #1 SMP PREEMPT Sat Oct 13 13:42:37 UTC 2018 x86_64 GNU/Linux\n```\n\nCould you mean the [linux kernel](https://www.archlinux.org/packages/core/x86_64/linux/) version? If you're avoiding `pacman -Syu` then it might be a useful proxy for how behind your other packages are, but you can install new packages without upgrading your kernel.\n\n> I'm not sure what you mean about versions not mattering. \"Antergos does not support partial updates!\"\n\nI don't use Antergos, but you're right -- [partial upgrades are not supported](https://wiki.archlinux.org/index.php/System_maintenance#Partial_upgrades_are_unsupported), as everyone is assumed to be up-to-date via `pacman -Syu`.\n\n> The concern is, if you need to install the software without it forcing a full system upgrade.\n\nThe \"full system upgrade\" is something that should happen regularly, and packages are built with the assumption that your system is up-to-date. If you get any errors during the installation process I'd be happy to hear about them, but Arch packages don't specify a version range for dependency compatibility. You can see the dependencies [here](https://aur.archlinux.org/packages/patchbay), but the best way to test is to attempt an installation:\n\n```sh\ngit clone https://aur.archlinux.org/patchbay.git\ncd patchbay\nmakepkg -si\n```\n\n---\n\nI think this might be getting a bit sidetracked from @mix's announcement, maybe we could start a new thread for this discussion about #archlinux?",
+    "mentions": [
+      {
+        "link": "#archlinux"
+      }
+    ]
   },
-  "signature": "7J+gXNz4Hb16erN2OLAVkmpsvM9oaGVSePCh4JS2j0GdKtZyDmdYnMjQD6nZVWOiq95y7m8Np+zeK/tHxcaBCQ==.sig.ed25519"
+  "signature": "tGJt9T3ln34LLQtL1u64Hl1YSg7S1weTI0Kdv1efr0CR3zrWPjB89xbJZiKZzIGLUz36tACuozALkdHKOpjNAQ==.sig.ed25519"
 }
