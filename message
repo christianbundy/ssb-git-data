@@ -1,18 +1,25 @@
 {
-  "previous": "%MzTFIVQLxmVGDRXeERvfuj9ehnSidcZxHsNpLGUE6YA=.sha256",
-  "sequence": 6578,
+  "previous": "%nw64EbdAafcLEnftyLVOOp6mkOg/s9DGsSlAefBM+9o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1540523230140,
+  "sequence": 6579,
+  "timestamp": 1540564454525,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 30,
-    "root": "%q5883EYnXTAW4YiDh1ipNXosQKgbECvgcIlBblpUryk=.sha256",
-    "orig": "e8",
-    "dest": "e7",
-    "pgnMove": "Kxe7",
-    "fen": "rnb2r2/p2pkNpp/1qp5/1p5Q/4P3/1BN5/PPP2PPP/R4RK1 w - - 0 16",
-    "branch": "%MBoll/CFT7cp6Mw9FRkprqakq3Kapl+8a545FCFJgUg=.sha256"
+    "type": "post",
+    "root": "%/mWw187cRvM8Zv8O5wOGzkqsReAVGQD9BmPm5B9kfbU=.sha256",
+    "branch": "%/mWw187cRvM8Zv8O5wOGzkqsReAVGQD9BmPm5B9kfbU=.sha256",
+    "channel": "manyverse",
+    "text": "[@alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519)\n\nI might recommend just leaving the app open for an hour or two so it can sync in the background, if you can. I had that bug a handful of times and kept creating new profiles (Android multitasking button -> app icon -> app info -> clear storage) but it kept doing the same thing, so eventually I:\n\n- got a pub invite (I think to [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)'s VPS)\n- waited about an hour for it to sync up with the pub\n- followed *only* my profile\n- waited another hour or so\n\nLet me know if there's anything I can do to help!",
+    "mentions": [
+      {
+        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
+        "name": "alanna"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "qaN9HTnrjhK46QIesaY3oV6hQWFX9vZP6NzRQ2Zax+ikl33JUbZuNYpqn6i7PBTZQ1CmBeGQ3OEuMqY3zYESDg==.sig.ed25519"
+  "signature": "50+ifiKjil1CP7g9WmnVih/VtftgGpZduTvKz4GJmmzqSkqXMA6VyUm35H6vCqdW8UK468U9wssgPuInpdu2CQ==.sig.ed25519"
 }
