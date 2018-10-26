@@ -1,21 +1,20 @@
 {
-  "previous": "%WTZh425yVWc6Oj+2k0tDqGvJZ5J8JxTslP1ecSJXAm0=.sha256",
+  "previous": "%5B8dZTIApn54oeW9TPZMv5i6gzZykCHTWoLFW8luylc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6602,
-  "timestamp": 1540583467746,
+  "sequence": 6603,
+  "timestamp": 1540583591897,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%dQzvnzkk6ioonk39X9Xde+ykrL5Fd6kwnmku4T5+VqA=.sha256",
-    "branch": "%dQzvnzkk6ioonk39X9Xde+ykrL5Fd6kwnmku4T5+VqA=.sha256",
+    "branch": "%5B8dZTIApn54oeW9TPZMv5i6gzZykCHTWoLFW8luylc=.sha256",
     "channel": "patchbay-dev",
-    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519)\n\nIf you haven't already, I'd recommend starting [here](https://github.com/depject/depject) to grok some of the ideas behind depject, but the gist is that it allows us to make up names for dependencies and share them across projects. For example, lots of the depject-imported code in Patchbay actually comes from [patchcore](https://github.com/ssbc/patchcore), which is a collection of depject modules that are used by multiple clients. For example, `message.html.render` actually comes from [here](https://github.com/ssbc/patchcore/tree/master/message/html/render), which is understandably confusing.\n\nIIRC depject modules are considered deprecated in Patchwork, and I'll admit I avoid depject whenever I can, but they're *at least* important to be able to hack around when you're trying to figure something out. \n\nFor example, `keys.sync.id` comes from [this file](https://github.com/ssbc/patchcore/blob/632f74ad8a65960017ff438eaf47b2e90ccd7cc8/keys.js) in patchcore, which seems to be a layer of abstraction over ssb-keys. \n\nLet me know if I can help with anything else! I used to struggle with depject. I still do, but I used to too. :wink: ",
+    "text": "> depject modules are considered deprecated in Patchwork\n\nLooks like it's only *external* modules? I'm not sure, here's the thread: %+c4BZ9I0XGYFV6AjmHCEa3+rn6PYa9QWm365GEie5TE=.sha256",
     "mentions": [
       {
-        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
-        "name": "Powersource too"
+        "link": "%+c4BZ9I0XGYFV6AjmHCEa3+rn6PYa9QWm365GEie5TE=.sha256"
       }
     ]
   },
-  "signature": "0ElZMY5Kv6skEh9ybdLg2FDhEGgFBheJNjpkq/ZGp56Lzh0eecfl1cLrePV+Nd9VaJR9TZs1GVBEDMh0T0EsAw==.sig.ed25519"
+  "signature": "7X1ejAvbBxApcxMhfT9L7oMp+hOGMM8IB8KjsseoS3BvxYBj7jcXvA3AKCJyWku4J5+tU9EBoIA15CwwPc7hDw==.sig.ed25519"
 }
