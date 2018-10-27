@@ -1,9 +1,30 @@
 {
-  "previous": "%L/yat9o2uThz3gOcDLtU05PLYQdusn2U1YTsiPHp3P4=.sha256",
+  "previous": "%Cb0kLxt0aN5+e2HtLha4C+Y6F4nXEVl6Fd3qhjTP0RQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6622,
-  "timestamp": 1540599376866,
+  "sequence": 6623,
+  "timestamp": 1540599801782,
   "hash": "sha256",
-  "content": "Xf1gHC/mXqEibvL0qhApXZ+M7FkfHvTsba4Bv5QxuQKAJ6WzEYeFV86l0fG3h0qw8ojVoBrUXQwz4RgSJUuuviUc8QPpthmXLs1Jrlz66Uhzwybl0Y62FZyezhKdjZxJoIPz9IRqERFY/UKM8y4qUSOjpp0SSSYGonffJPAllpm5DG0DvpNdJCgR90+54Fr7viTrztmCDXRYD2ml/Sy7qkHGX7v5dvsTPPAcPkjB2cnl5Quj7uvLXkI9ifqcJsK7Km+dA5yh9VBGpgwgePAM7Qm/73j7djCeN0qWarAubmtErHZu+EuV4tqZJEJriPSHncCCrt377J0M0myP0f31GeULv+cgamV4gB27OdRlmgHHufdu3kTtEs8FeKgg8y+4otZyzZ1im331NMD68ylGZZzmsF+/S8zto33EYtyy.box",
-  "signature": "j0JZT2jiDmpuHg4bjvZCL141gQBYZbNnTiArVq/dY5zBEnh+32fMLckKV1UCuWO+H100dZqHwDz2g7LLmn5SDw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "**Anyone know where the `Error { ... }` messages are coming from?** I'm having trouble debugging this, but any time I publish anything with Patchbay (and I think [Patchwork too](https://github.com/ssbc/patchbay/issues/252#issuecomment-415725213)) I have something like this printed to my console:\n\n```console\nError {\n  key: '%Cb0kLxt0aN5+e2HtLha4C+Y6F4nXEVl6Fd3qhjTP0RQ=.sha256',\n  value:\n   Error {\n     previous: '%L/yat9o2uThz3gOcDLtU05PLYQdusn2U1YTsiPHp3P4=.sha256',\n     author: '@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519',\n     sequence: 6622,\n     timestamp: 1540599376866,\n     hash: 'sha256',\n     content:\n      'Xf1gHC/mXqEibvL0qhApXZ+M7FkfHvTsba4Bv5QxuQKAJ6WzEYeFV86l0fG3h0qw8ojVoBrUXQwz4RgSJUuuviUc8QPpthmXLs1Jrlz66Uhzwybl0Y62FZyezhKdjZxJoIPz9IRqERFY/UKM8y4qUSOjpp0SSSYGonffJPAllpm5DG0DvpNdJCgR90+54Fr7viTrztmCDXRYD2ml/Sy7qkHGX7v5dvsTPPAcPkjB2cnl5Quj7uvLXkI9ifqcJsK7Km+dA5yh9VBGpgwgePAM7Qm/73j7djCeN0qWarAubmtErHZu+EuV4tqZJEJriPSHncCCrt377J0M0myP0f31GeULv+cgamV4gB27OdRlmgHHufdu3kTtEs8FeKgg8y+4otZyzZ1im331NMD68ylGZZzmsF+/S8zto33EYtyy.box',\n     signature:\n      'j0JZT2jiDmpuHg4bjvZCL141gQBYZbNnTiArVq/dY5zBEnh+32fMLckKV1UCuWO+H100dZqHwDz2g7LLmn5SDw==.sig.ed25519' },\n  timestamp: 1540599376891.001 }\n```\n\nIt's being pretty-printed with color, which makes me think it's intentional, but wrapping each object with \"Error\" is annoying. My only lead is that I'm getting a similar message on startup, also pretty-printed with color, but I've traced it to levelup:\n\n```\nError { notFound: true, status: 404 }\n```\n\nAny ideas on where this might be coming from? I've tried to debug this a half-dozen times but I can't find it.\n\ncc: #javascript #ssbc #patchbay-dev #patchwork-dev #patchcore ",
+    "channel": "ssb-dev",
+    "mentions": [
+      {
+        "link": "#javascript"
+      },
+      {
+        "link": "#ssbc"
+      },
+      {
+        "link": "#patchbay-dev"
+      },
+      {
+        "link": "#patchwork-dev"
+      },
+      {
+        "link": "#patchcore"
+      }
+    ]
+  },
+  "signature": "xvVems/BKCHMQv9u8EBpdwg8TFaiJXqY7pM1ZSJ3ikx5HvKu99KwuAR91abowGtsDYsGXIbfGuBw8pkrNRLmCA==.sig.ed25519"
 }
