@@ -1,17 +1,24 @@
 {
-  "previous": "%QwXbK8Yp32toiJl+QZ5Pa3IFzI+y2u5p7LkHlj7JwUI=.sha256",
+  "previous": "%pNQjWHzhyiPyo0zjgo0UYb9r6YzB0Yzxt5gRm/2IBOw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6705,
-  "timestamp": 1540851401593,
+  "sequence": 6706,
+  "timestamp": 1540851614142,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork-help",
-    "vote": {
-      "link": "%xt3/dOex0QHOI0GyMcVmP0WRkANHlFehu/LDuN9s7UA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+    "branch": "%umKf1Bqx3O1QkaCSli1uHStQn9Eh0GOyYkG+5iN/6J4=.sha256",
+    "text": "Just wanted to add to this: I've tried to get ssb-ebt working, but I'm not sure I understand how to use it. Are there any more bits of documentation I should look up?\n\ncc: [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "Ckb35HFhnJaTn0lf+saPD4hAeh3zcOb2hhddr1HgLU2SREWzZTO9SWAjTTw/++3C0RoACqjDD+GzpRpcqkLvBQ==.sig.ed25519"
+  "signature": "exLoFCb/VsDxURdKs3zWRayawNPVCRWvyrvZv+UhmbycqrSkqae5Zi5JYV2lm0xR5RWGTcoSCyoVCTJjJouHBQ==.sig.ed25519"
 }
