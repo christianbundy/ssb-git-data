@@ -1,21 +1,16 @@
 {
-  "previous": "%S11Ju+X2V7NC2U1qu7BLoCRPR36wm6e77Al8eEBgxGI=.sha256",
+  "previous": "%tM3e7HOcaVZgX1KIkeq1ge34LI00F016Cd6TNniiHOs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6665,
-  "timestamp": 1540838425128,
+  "sequence": 6666,
+  "timestamp": 1540838465218,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%2BYlg0z/c2Vbtal4i65dYHNbkujcKpmQLaPLRxG7hVI=.sha256",
-    "branch": "%wEKKyymQWM/ujgXO76fhwDWbUALKCzraD6V1LTwioxA=.sha256",
-    "channel": "ssb-dev",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\n\nNo, which only makes it more frustrating. I've tracked it down to [this line](https://github.com/ssbc/patchcore/blob/f5cf526879a59124eac29e575b07981f53a18c24/sbot.js#L195), which is a plain old `console.log`. Unfortunately that's weird for two reasons:\n\n- Why is `Error ` being appended to the front?\n- Why are nested objects being called `[Error]`?\n\nFor example, I liked your post and it printed:\n\n```\nError {\n  key: '%WAqQoKWBkL20Hd2wUUTh6u8E9CcrW7E+OJTUEo7LYWQ=.sha256',\n  value:\n   Error {\n     previous: '%dwAq7w5F9iAMCKVz9X0kOMxGkjlENOO6vJLcdcJFohc=.sha256',\n     author: '@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519',\n     sequence: 6654,\n     timestamp: 1540829857167,\n     hash: 'sha256',\n     content: Error { type: 'vote', channel: 'ssb-dev', vote: [Error] },\n     signature:\n      '4552sjoQfjE7HKS0mmxVrmvzKPh+BwN1qNS5VeAlz7sZYslGjH+wC9kj6/0y4h/DlpJSpLF98sTEjH4mDh9DDw==.sig.ed25519' },\n  timestamp: 1540829857186 }\n```\n\nThe pretty-printing and coloring come straight from Electron, which redefined `console.log`, but I can't figure out where the `Error` bit is coming from. I couldn't even figure out a way to make output \"Error\" like that when I *tried*, which is even more confusing and weird. While debugging I fired up `electron --inspect` and got this stacktrace from the write to stdout:\n\n```\nwrite (console.js:169)\nlog (console.js:197)\ncallFunction (rpc-server.js:250)\n(anonymous) (rpc-server.js:360)\nemit (events.js:182)\n(anonymous) (web-contents.js:293)\nemit (events.js:182)\n``` \n\nIt looks like the message is just being passed from the event loop through Electron internals, but there's no indication of where (or why) the `msg` object, seems to be getting re-typed as `Error.prototype`.  Maybe something like `Object.assign({}, Error.prototype, msg)` would cause this behavior, but I can't figure it out.\n\n**TL;DR:** we're using `console.log`, which is overrided by Electron for indentation (and color in Electron 3), but I'm still unclear on why it prepends our objects with \"Error\" or how to fix it.",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%kItnutQlspMRs37vtSHKpWk93TKA9P0naRGJbhA64fw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Z/nVIfO3mbuMsSC/DfynOhIrLpd+RfuPAOr+Z8Fe6bEWYlTss/ZwPBk6rKpcopAI7UkunqJ/SLB/Vqv0S+79CQ==.sig.ed25519"
+  "signature": "kREcsJrVBf9lKkxS4IvUUyl/wLaL/PlJzmery6si8iDLFrqkT5bsSyxWsyQIHnUKACLdaJHSssAO2gy3adEtAw==.sig.ed25519"
 }
