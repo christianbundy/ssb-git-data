@@ -1,17 +1,27 @@
 {
-  "previous": "%Ye1BOXOWqAmyeTaTKurkTed53EsbUjUsSiittoxWPmw=.sha256",
+  "previous": "%j1mMIyPgIWFuMJX3WaEbnaX8rWoGhF9E9LXwMOTGtRM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6690,
-  "timestamp": 1540844950802,
+  "sequence": 6691,
+  "timestamp": 1540844987193,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%oE5qXWGGGZq/ZQOoM66zMoY1liNRHFV0JXiSALRlUNs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%TVXZ7CtIpF332n40bod0eKH/vOG2uhVc7mw9SU6RTww=.sha256",
+    "branch": [
+      "%IpSCugIpLlhs8Q3BEZAz3IWSWJuQfM1m/g9CDXGscbc=.sha256",
+      "%ejjh/qIA39Ycd/aRbOmxE+Q3Eo+MNOFxTGcbDDomD6c=.sha256",
+      "%vNHdSefH39IuQAzDpLf6GfU5+2DXfia6WRw4Fz7U2po=.sha256"
+    ],
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> Someone was experimenting with that recently...\n\nBacklink: %VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256"
+      }
+    ]
   },
-  "signature": "gt/AFVN++jV86urINolUc7vg3st4nQ9UiwMyELOEEHWi7iwMk7jPPmPpU4sxA6w3KJvysLzpq2Tnw4uXg4HLCQ==.sig.ed25519"
+  "signature": "i916SRD7wlFAzC+3Umyys1J2s0C75mybzPIfDN3XK9hftieiQGxzL2TPToG6doyXaVy3rbPaAk+gTFaF1TteBw==.sig.ed25519"
 }
