@@ -1,16 +1,24 @@
 {
-  "previous": "%oXOpXFYieM1imhaNf9K48oh/X4eSpTNLY2K+i2noTvM=.sha256",
+  "previous": "%XBvx8n+ofxdqmBMbKjJrBiAPeG6WtdFKerO/hiZ/UZo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6701,
-  "timestamp": 1540849958972,
+  "sequence": 6702,
+  "timestamp": 1540850103117,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%lcvXhfXnQbiy+i8VCmigt2b46OWhNbSfUmyND7FMVHc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%TVXZ7CtIpF332n40bod0eKH/vOG2uhVc7mw9SU6RTww=.sha256",
+    "branch": "%SliZD32d6foiatDa/Eva69+U5wI0Dx/76F8el93QpMI=.sha256",
+    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nIt's currently unclear. They're *supposed* to be blocked from downloading your data, but [this thread](%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256) seems to show that there may be pubs/bugs/users that are passing along messages that they shouldn't.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      },
+      {
+        "link": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "LP86jixrhn9Am5/CX9C15eRT8PI+UJJdPMM9y62Pp+g7RV+vQ5LmgyxiHrO3TkUXszV74JsNZm6YdF5nx72+Dg==.sig.ed25519"
+  "signature": "ar6YMcSCWw7mBHElETown0FPhL6VPCC4aS33lbvE36s7TcFE+6hvLG38ZX4VWFip3p01jGVjW8UXJkFMxIhQDA==.sig.ed25519"
 }
