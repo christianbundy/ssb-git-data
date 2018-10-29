@@ -1,24 +1,18 @@
 {
-  "previous": "%XBvx8n+ofxdqmBMbKjJrBiAPeG6WtdFKerO/hiZ/UZo=.sha256",
+  "previous": "%JIza2NF71rK/oIjkKVEudK1NJjIAoOdY9y533aLRYcE=.sha256",
+  "sequence": 6703,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6702,
-  "timestamp": 1540850103117,
+  "timestamp": 1540850350837,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%TVXZ7CtIpF332n40bod0eKH/vOG2uhVc7mw9SU6RTww=.sha256",
-    "branch": "%SliZD32d6foiatDa/Eva69+U5wI0Dx/76F8el93QpMI=.sha256",
-    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nIt's currently unclear. They're *supposed* to be blocked from downloading your data, but [this thread](%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256) seems to show that there may be pubs/bugs/users that are passing along messages that they shouldn't.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "André Staltz"
-      },
-      {
-        "link": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
-        "name": "this thread"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 24,
+    "root": "%0kfCQyNb+Q2U9fDxz1L77a2cM0reCmy2Nn/Mnd1L2BY=.sha256",
+    "orig": "g4",
+    "dest": "f3",
+    "pgnMove": "gxf3",
+    "fen": "q3kb1r/p2bp2p/5p2/3p4/3Pn3/1P2Pp2/P1P3PP/RNBQ1RK1 w k - 0 13",
+    "branch": "%Y++jfQMWomg0168enl3COGP0/yFDbcnCS6axne9jWZg=.sha256"
   },
-  "signature": "ar6YMcSCWw7mBHElETown0FPhL6VPCC4aS33lbvE36s7TcFE+6hvLG38ZX4VWFip3p01jGVjW8UXJkFMxIhQDA==.sig.ed25519"
+  "signature": "J40BxR0MnEC8pQdcR6WlhurtLPQALyn4796w8WS7nwptuZCHveTw4DU1iqqYMxzpE+QO+iU6nSCrOw/7x8zoBg==.sig.ed25519"
 }
