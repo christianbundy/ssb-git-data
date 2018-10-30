@@ -1,16 +1,19 @@
 {
-  "previous": "%VWzd0pooE9W2VJX+8MDJgncANVoBdNbdX/Tzlua8Q2U=.sha256",
+  "previous": "%CL1qV3qE5F4vXd79wTTBXgf5CTkpjibuRMcnM6+JYXo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6737,
-  "timestamp": 1540930408064,
+  "sequence": 6738,
+  "timestamp": 1540930427631,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%71pjN+/ep10cnQ52dzV7B35XrYU2R8NubfigA2eUPyw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%71pjN+/ep10cnQ52dzV7B35XrYU2R8NubfigA2eUPyw=.sha256",
+    "branch": "%71pjN+/ep10cnQ52dzV7B35XrYU2R8NubfigA2eUPyw=.sha256",
+    "text": "Hey, welcome! Check out #new-people if you'd like to meet the gang.",
+    "mentions": [
+      {
+        "link": "#new-people"
+      }
+    ]
   },
-  "signature": "FqlTZuYOV+rmnng7ypCX6X2smuydU9upsAvMHWi4GTaAPVtugsO4PNvPWpwZcvxoXh6j9uUu3P8G5K0+T3DPDA==.sig.ed25519"
+  "signature": "D8TblKNiEeauQhhkaMSzToyuKN0fCWpn6lbaVUKmD+vsfX7G9FNYbvU1JznA9PcOq52PMvXarsIh0oVIZ8KnCw==.sig.ed25519"
 }
