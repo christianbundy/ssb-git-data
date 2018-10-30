@@ -1,21 +1,16 @@
 {
-  "previous": "%WwNEUu0aGHMZqTaA9MlccIFlT+EH5bFqRLjMCqpGtuI=.sha256",
+  "previous": "%i6tHJt4zRmytWff+eS2abAHOZSv2cyDn7lt6Ra0u8+0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6715,
-  "timestamp": 1540918202435,
+  "sequence": 6716,
+  "timestamp": 1540921435926,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%b0Mt09XhwDddlXkypCi4ykI59DBCXJeL2sHdIW6JDb8=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Yeah, I just ran `npm i -g scuttlebot@13.0.3` and it worked great:\n\n```console\n$ npm i -g scuttlebot@13.0.3                          master\nnpm WARN deprecated nomnom@1.6.2: Package no longer supported. Contact support@npmjs.com for more info.\n/home/christianbundy/.node_modules/bin/sbot -> /home/christianbundy/.node_modules/lib/node_modules/scuttlebot/bin.js\n/home/christianbundy/.node_modules/bin/scuttlebot -> /home/christianbundy/.node_modules/lib/node_modules/scuttlebot/bin.js\nnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules/scuttlebot/node_modules/fsevents):\nnpm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {\"os\":\"darwin\",\"arch\":\"any\"} (current: {\"os\":\"linux\",\"arch\":\"x64\"})\n\n+ scuttlebot@13.0.3\nadded 3 packages from 2 contributors, removed 12 packages and updated 10 packages in 19.596s\n```",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%1dvuLj+RIHHSl3MiE6Lwm6WnW8fJJGEmNxlB//LTowI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "5RV6BEnz54KNiOwUhFao12VydHeI4J1CD2h6HYy6yLSCOl4aofGESodLyeZqq/wgOxWbVPAbnzZfK4awUGB+DA==.sig.ed25519"
+  "signature": "7nAW+UAfSU8QbPxAyKYxw7+0Wva2aGW8o2z8lfZTJ13K7W9ugZ0BfAso0/X+q2xKB9QNOfQzdfH/AeTR6AL6DQ==.sig.ed25519"
 }
