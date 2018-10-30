@@ -1,15 +1,16 @@
 {
-  "previous": "%dkche9C3uV0DedX57yHm1eW3ekyyP51xkHkv1BNn4QI=.sha256",
+  "previous": "%GK1bPG8kktJDHXnBIFuitinIM6A5DfhVUUgHZREDOeQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6722,
-  "timestamp": 1540925698782,
+  "sequence": 6723,
+  "timestamp": 1540925901118,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%IeSjudO90Kzi7lN1oqX7dJMHEbRw86Pfh/jNappYDZc=.sha256",
-    "channel": "scuttlebot",
-    "text": "I'd put it right above that `msg.unbox` expression, maybe something like:\n\n```\nif (!key) {\n  console.trace('key does not exist')\n}\n```\n\nYou *may* need to do `const console = require('console')` at the top of `minimal.js`, I'm not 100% sure."
+    "type": "vote",
+    "vote": {
+      "link": "%HhIq847RcWkvQ7sgZuC2A5a8/AG2hAAXLHBjyo1+fns=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RHKLlvgxqSPfvNRNCq2XwP2FFQOjEWttLhJx/rPouSTUhlQTnp0nLlg+jyoXSDVMcI7g3hzKI5go6vPycdIdCg==.sig.ed25519"
+  "signature": "bbwlrhGbu+TfAvUv3iR6TWmxUxoJ41H4zhZkGDpV3s0Yy4Z6HuXiF4kJPnOn5/f0ERgyNHgxUAxTIDwXjGwFCw==.sig.ed25519"
 }
