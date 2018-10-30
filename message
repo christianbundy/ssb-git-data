@@ -1,15 +1,15 @@
 {
-  "previous": "%f3fH8hBmtnNJJhtNUNPjCf0M3a7HJtqdIzkDMaSaU0s=.sha256",
+  "previous": "%WwNEUu0aGHMZqTaA9MlccIFlT+EH5bFqRLjMCqpGtuI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6714,
-  "timestamp": 1540917894690,
+  "sequence": 6715,
+  "timestamp": 1540918202435,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%x0DdzPASlGsWns7xEF+Ep8A5/twDQ598TQYcndRv6v0=.sha256",
+    "branch": "%b0Mt09XhwDddlXkypCi4ykI59DBCXJeL2sHdIW6JDb8=.sha256",
     "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nCould you upgrade to Scuttlebot 13.0.3, or do you need to stay on 12.x.x? Sorry, I should have specified that I only tested with Node 11 on the latest `sbot`.",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Yeah, I just ran `npm i -g scuttlebot@13.0.3` and it worked great:\n\n```console\n$ npm i -g scuttlebot@13.0.3                          master\nnpm WARN deprecated nomnom@1.6.2: Package no longer supported. Contact support@npmjs.com for more info.\n/home/christianbundy/.node_modules/bin/sbot -> /home/christianbundy/.node_modules/lib/node_modules/scuttlebot/bin.js\n/home/christianbundy/.node_modules/bin/scuttlebot -> /home/christianbundy/.node_modules/lib/node_modules/scuttlebot/bin.js\nnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules/scuttlebot/node_modules/fsevents):\nnpm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {\"os\":\"darwin\",\"arch\":\"any\"} (current: {\"os\":\"linux\",\"arch\":\"x64\"})\n\n+ scuttlebot@13.0.3\nadded 3 packages from 2 contributors, removed 12 packages and updated 10 packages in 19.596s\n```",
     "mentions": [
       {
         "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
@@ -17,5 +17,5 @@
       }
     ]
   },
-  "signature": "mIrjR9uexHG1G7NWUwos4Miu3kvLr7Nvln4HKdRpDjezZmSvlVNWaRx0Tu1vxqKeov/0eMn+yQpAbkk7Yf2PDw==.sig.ed25519"
+  "signature": "5RV6BEnz54KNiOwUhFao12VydHeI4J1CD2h6HYy6yLSCOl4aofGESodLyeZqq/wgOxWbVPAbnzZfK4awUGB+DA==.sig.ed25519"
 }
