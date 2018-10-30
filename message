@@ -1,21 +1,21 @@
 {
-  "previous": "%lfKGRNK+znMwey2jBGkL/nT7MNhTj9SgFG1E5diDvxw=.sha256",
+  "previous": "%dPIUSAFywKgyWjpteP0BIgX+yGSzSb5VnFqWkRcAvDA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6720,
-  "timestamp": 1540924237983,
+  "sequence": 6721,
+  "timestamp": 1540925472571,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%h4J9aYMcmT68dtiZNAP6pS0LoNnSRXzKuNqXMTDrnDs=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) Could you add a `console.trace()` to that code in `minimal.js`? I don't think `unbox()` should ever be called without any keys, so I'm confused at how that error is being triggered.",
+    "root": "%EwwjtvHK7i1MFXnazWTjivGEhdAymQd0xR+BU82XpdM=.sha256",
+    "branch": "%0gQsJT/rVv8DbIT3FIbrRM4ao2EfH1xO57LfFfc+iCM=.sha256",
+    "channel": "ssb",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n\nMy understanding is that the secure-scuttlebutt module handles this in [`minimal.js`](https://github.com/ssbc/secure-scuttlebutt/blob/master/minimal.js), specifically the [`unbox()`](https://github.com/ssbc/secure-scuttlebutt/blob/5d8296be76b0c2a9b2c5e35254745efae5bba8b1/minimal.js#L19-L48) function. The gist is that if `msg.value.content` is a string then it attempts decryption with every unboxer we have (currently just [`main_unboxer`](https://github.com/ssbc/secure-scuttlebutt/blob/5d8296be76b0c2a9b2c5e35254745efae5bba8b1/minimal.js#L76-L79), which uses ssb-keys). \n\nThe relevant bit of ssb-keys is [`util.toBuffer()`](https://github.com/ssbc/ssb-keys/blob/6840d26259a415da81ba42ddf7c8ab553c9e3756/util.js#L39-L45), which seems to just chop off the sigil and the suffix (`.` and everything after it) and turn it into base64. I don't think it even checks the format, it just [attempts decryption](https://github.com/ssbc/ssb-keys/blob/6840d26259a415da81ba42ddf7c8ab553c9e3756/index.js#L153-L162) and returns an object or nothing at all.\n\nHope that helps!",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
       }
     ]
   },
-  "signature": "wj3KZSwSRRfKlxzO0JBcloEyyvnupEMsWy257C+3aqCqvaRzPVgsSDvus32yjobiKTlZHT0TefXQXenDmeKrAQ==.sig.ed25519"
+  "signature": "7Nj7bVdYSQLcI0fZCcIt/LHiu8rxeGu85rEkeUTcvOULSSq2iiyifoa+NQis3f6uBlXW+ZGHJxKf7K8RGepTAw==.sig.ed25519"
 }
