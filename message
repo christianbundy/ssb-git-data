@@ -1,17 +1,15 @@
 {
-  "previous": "%Atwa8N+KU0HTrXJWfnJHE5gr05SMJ9MWVWZS/IaUMNw=.sha256",
+  "previous": "%eBZOtCFNycfNCRYJooLeo9D/6gwGpl4pz/9QM/jDJXg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6745,
-  "timestamp": 1540932365783,
+  "sequence": 6746,
+  "timestamp": 1540934450219,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%XJ0ogkAyPlez0Fjhcm3peDizM7/n7Ff7He74br6waIQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
+    "branch": "%CXHKjiFbpMr3kNISZmo6xu3fyzQ7fHQIJBshUnN8Rp8=.sha256",
+    "channel": "scuttlebot",
+    "text": "> While I don't speak JS, I'm sure there must be scoping so that it isn't a problem, but doesn't that kind of naming make things more difficult to debug?\n\nYeah, shadowed variables are no good -- I'm hoping to start making some linting changes once the open PRs are merged.\n\nI think you could have this issue if `unbox` is a function, but it *should* be [an object](https://github.com/ssbc/secure-scuttlebutt/blob/942e5297fa9e842a0e2668cac2657aedc55ee6d9/minimal.js#L80-L83), so I'm unclear on what's going on. I have a PR open, but I'm unclear whether it's The Right Way to resolve your problem. I'm just confused at why it's only happening to you."
   },
-  "signature": "5vXcVikiAN80fEs7mlU47xxj5Rdo++BnFOsLv0lqXG3pGwUYK9IMZE5ECGXecRyoMWXQOsRO4II6VdR/WrY+BA==.sig.ed25519"
+  "signature": "+I53H/0bT2zu+SACq7CJvPxttmFmHAfE/H/c0OBkerGcjvJ1nCkoH3EHF0agr5kokEDsBIGweFMgltQzdoHmAw==.sig.ed25519"
 }
