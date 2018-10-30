@@ -1,20 +1,33 @@
 {
-  "previous": "%HDDne7IbUYzt47Y+3S3ZsExTp/C1gG/P7NSwDeMR9o8=.sha256",
+  "previous": "%cjXjjwTF91UnD/Zwxz7Mpz0cWfEK5YcL+sYTSsFj16c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6728,
-  "timestamp": 1540929714910,
+  "sequence": 6729,
+  "timestamp": 1540930030314,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%53pDZKh1qqSPrcWyLzflxuU6AgX5vSGKixCL93VjrJc=.sha256",
-    "channel": "scuttlebot",
-    "text": "Oh, I didn't see the stacktrace in %j++35JttM2lXpS9W2dCLh6YGmNn3jnqPOBhbdQPplf4=.sha256, thanks! I'll add that to the GH issue.",
+    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "branch": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "channel": "ssbc",
+    "text": "It worked! The [remaining issues for `secure-scuttlebutt`](https://github.com/ssbc/secure-scuttlebutt/issues) are active and relevant, and once we got past the email onslaught it seems to be pretty smooth sailing.\n\n**Are there any objections to pushing this to our other repositories?** I could also open a PR into each repository, but given the number of repos we have I'm hesitant to do that. I've recently made two other mechanical edits, adding a simple [`.gitignore`](https://github.com/ssbc/ssb-ws/commit/81e10b598b23dbc79dc26912a25b24d5c9ded94e) and [`.npmrc`](https://github.com/ssbc/ssb-ws/commit/c7e6f993aaf3bad58b71b0e28706369103b567a3) to the relevant repositories, so it would be simple to push `.github/stale.yml` as well.\n\ncc: [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) [@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) ",
     "mentions": [
       {
-        "link": "%j++35JttM2lXpS9W2dCLh6YGmNn3jnqPOBhbdQPplf4=.sha256"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
       }
     ]
   },
-  "signature": "mggcvh+JcMDrE9ENPLpYU6i4V/x7Cifu3cWt4a9F/1rpSt7V1Oc4i79R4HWzLiAL92VS0r5jiLoX2vc2QBOrAg==.sig.ed25519"
+  "signature": "5LHKeHQBJDTWiiFV7EFR1N5JeCFp2IbQY5hroT6aIQnOjpUFo1DFZZBv3MEamFnSlAJsllgDQKLUnBJrycUwDA==.sig.ed25519"
 }
