@@ -1,16 +1,21 @@
 {
-  "previous": "%dKtfe/XAjIepgRdYXaWHm9C0KKEHvoLm36Ujhlak9Ys=.sha256",
+  "previous": "%f3fH8hBmtnNJJhtNUNPjCf0M3a7HJtqdIzkDMaSaU0s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6713,
-  "timestamp": 1540917649040,
+  "sequence": 6714,
+  "timestamp": 1540917894690,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NMUYlF9nPEGsBrlEABhkHJ2NzOOOdC50T7WwXYcP79o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
+    "branch": "%x0DdzPASlGsWns7xEF+Ep8A5/twDQ598TQYcndRv6v0=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nCould you upgrade to Scuttlebot 13.0.3, or do you need to stay on 12.x.x? Sorry, I should have specified that I only tested with Node 11 on the latest `sbot`.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "xXG2EGdQFKzgAvdfH6Rhfe6nGzkUfsi33Vai7cCIdsKheDrdq7EvjmXNx54ddsV6UZZ3jPAlKMhTMfHn5PYtDg==.sig.ed25519"
+  "signature": "mIrjR9uexHG1G7NWUwos4Miu3kvLr7Nvln4HKdRpDjezZmSvlVNWaRx0Tu1vxqKeov/0eMn+yQpAbkk7Yf2PDw==.sig.ed25519"
 }
