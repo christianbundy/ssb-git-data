@@ -1,15 +1,17 @@
 {
-  "previous": "%eBZOtCFNycfNCRYJooLeo9D/6gwGpl4pz/9QM/jDJXg=.sha256",
+  "previous": "%8sSM2AHzh0XEUqA72+Ne2rwFr+aKCEuIeiO30qqEDjQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6746,
-  "timestamp": 1540934450219,
+  "sequence": 6747,
+  "timestamp": 1540934622393,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
-    "branch": "%CXHKjiFbpMr3kNISZmo6xu3fyzQ7fHQIJBshUnN8Rp8=.sha256",
+    "type": "vote",
     "channel": "scuttlebot",
-    "text": "> While I don't speak JS, I'm sure there must be scoping so that it isn't a problem, but doesn't that kind of naming make things more difficult to debug?\n\nYeah, shadowed variables are no good -- I'm hoping to start making some linting changes once the open PRs are merged.\n\nI think you could have this issue if `unbox` is a function, but it *should* be [an object](https://github.com/ssbc/secure-scuttlebutt/blob/942e5297fa9e842a0e2668cac2657aedc55ee6d9/minimal.js#L80-L83), so I'm unclear on what's going on. I have a PR open, but I'm unclear whether it's The Right Way to resolve your problem. I'm just confused at why it's only happening to you."
+    "vote": {
+      "link": "%1CKFWWtL3b2fQK8WAZPDAEEA2Zwi1SiTzGrpHSL6BvY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "+I53H/0bT2zu+SACq7CJvPxttmFmHAfE/H/c0OBkerGcjvJ1nCkoH3EHF0agr5kokEDsBIGweFMgltQzdoHmAw==.sig.ed25519"
+  "signature": "jqgCJnpJozsM1BF1n/9lFhuYBp8F8d8uCv1CWHS1IIg7WdrCLGbKY78M8NBbMp/SMsLdQ+mlTDOL53MYcoBAAA==.sig.ed25519"
 }
