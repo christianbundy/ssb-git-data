@@ -1,16 +1,21 @@
 {
-  "previous": "%d+lihGaevS6VCWWXDvUcebcOvIHoIIgf/5aLweiUung=.sha256",
+  "previous": "%A9wbznwPHdn7cfqtQCIVVMuUWwju6c9EO+xEGzE1s1Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6710,
-  "timestamp": 1540911375088,
+  "sequence": 6711,
+  "timestamp": 1540913323113,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%F0ufwVeFwlYHop4cYBt+889VIXZVtLFlRyY1u8rR7iE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cJBeK8Q4jdV3EeC/KhVliACNCRN42cQxf5Yf6GSo7JM=.sha256",
+    "branch": "%2jup7h2H3sFM2qNPlL++yRWHrWZY8Ik+9dBBaHx0KZM=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nYeah, I've been on Electron 3 for a while but didn't realize the significance of that warning -- I'll revert the Electron upgrade now. \n\nI know we're compiling leveldown stuff, are there any reasons not to just compile libsodium too? It doesn't sound like we ever want to revert to JS, and [sodium-prebuilt](https://github.com/mafintosh/node-sodium-prebuilt) (?) doesn't seem like it's up-to-date. The latest supported Node ABI is 57 (released May 2017), so it sounds like we'll be at Electron 2 for the forseeable future. Could that be right?\n\nSorry about busting `master` with the Electron change, fixing ASAP!",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "cRIPB05SCXUnouDKfKwqx1ljR/jR5BgQmoUkC/H7J6M3Dchr0GT3fOnpdGbM2nAjUYJqiEzW7gRz9V9cbAyqCg==.sig.ed25519"
+  "signature": "UrwLbH7bMMQWqW8wTt/BLfhiBoV9LLw1WRSqZcN/lhYB9jE4XourBORMvDpTYtSHSe2+CcA+xIxN1wrcQZFfCg==.sig.ed25519"
 }
