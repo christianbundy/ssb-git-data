@@ -1,16 +1,20 @@
 {
-  "previous": "%XsCvUPSz20cPgRv8VwaBdtEPyxrVT4I6WebXpXyIt9U=.sha256",
+  "previous": "%HDDne7IbUYzt47Y+3S3ZsExTp/C1gG/P7NSwDeMR9o8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6727,
-  "timestamp": 1540926157359,
+  "sequence": 6728,
+  "timestamp": 1540929714910,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5uR8RHtYH7Ix7h+6CkSNC02/g8OGfk41wQb/YAhf2bQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
+    "branch": "%53pDZKh1qqSPrcWyLzflxuU6AgX5vSGKixCL93VjrJc=.sha256",
+    "channel": "scuttlebot",
+    "text": "Oh, I didn't see the stacktrace in %j++35JttM2lXpS9W2dCLh6YGmNn3jnqPOBhbdQPplf4=.sha256, thanks! I'll add that to the GH issue.",
+    "mentions": [
+      {
+        "link": "%j++35JttM2lXpS9W2dCLh6YGmNn3jnqPOBhbdQPplf4=.sha256"
+      }
+    ]
   },
-  "signature": "GdUqQ75pD+zETxxan6HpLBhQuBvhbOM0oWjpGSvFceFHgu/n8E6Tu400MlgTg+1jpZYoxemAgIq64LRysqqtDw==.sig.ed25519"
+  "signature": "mggcvh+JcMDrE9ENPLpYU6i4V/x7Cifu3cWt4a9F/1rpSt7V1Oc4i79R4HWzLiAL92VS0r5jiLoX2vc2QBOrAg==.sig.ed25519"
 }
