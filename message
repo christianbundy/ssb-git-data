@@ -1,16 +1,20 @@
 {
-  "previous": "%SgbYzNMlYuXte2nU5quIUFDploFHShfgakwnLbBOmcg=.sha256",
+  "previous": "%IbGs8z6KRm4kY+MjP4Xj7S091KphWlOix6G1+pO0GHY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6742,
-  "timestamp": 1540931926609,
+  "sequence": 6743,
+  "timestamp": 1540931965636,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nZX9OSMJNPbolioRyaVPMDENahfNnwKgw5QWT2XxR+I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nZX9OSMJNPbolioRyaVPMDENahfNnwKgw5QWT2XxR+I=.sha256",
+    "branch": "%nZX9OSMJNPbolioRyaVPMDENahfNnwKgw5QWT2XxR+I=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) This is really cool! Another thing I've wondered is the size of a feed, including both the size of the message *and* any referenced blobs.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "aXg1CHhg4UBV1sZm8Aq2K4WN05Lg0uUu9W2UW7/xczzkoyCnqXLK5MbPhB5vv4JezJ/qu0qh/daLmjdnxRklBA==.sig.ed25519"
+  "signature": "p5swy0C9XEtJLk8BHZwbDt5zhbW1rXMpoDtBfSyPZA1pJ4Kmu8sjp3lo69fv2ocYD8cZFFwp/KMXiNWakbIYCQ==.sig.ed25519"
 }
