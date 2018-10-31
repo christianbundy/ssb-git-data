@@ -1,17 +1,15 @@
 {
-  "previous": "%qPIBJqSJ/nn/nXffbXKp6/WzeA094CS1Hs8ODmjtOnw=.sha256",
+  "previous": "%gu7sFH+isIZc9LrH170IhRMBgwAWR2dYfZw6KbcmKQc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6774,
-  "timestamp": 1541013557927,
+  "sequence": 6775,
+  "timestamp": 1541014316862,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchbay",
-    "vote": {
-      "link": "%Vp4zx0zN0XoKhXr9Y/o2p0O0Dwkz+EDydM1npmiMXCs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
+    "branch": "%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256",
+    "channel": "ssbc",
+    "text": "I don't have gmail, but with Fastmail I made a rule where messages are immediately archived if:\n\n- the sender email is `notifications@github.com`\n- the sender name contains `[bot]`\n\nCompletely untested, but I think this should work."
   },
-  "signature": "if6XHc6ipKIzHyKEU/qkUcSyu4w09uPtEpWDB3sp7H1j7YbYCWTtX1uWuCmP1PXxNXVCbA9j6MOkd7dfz7XXBg==.sig.ed25519"
+  "signature": "WszyryY0ePJ2nyYyCq6Vj8n4JssfYv02W3yksLXErWM6sZN3GvBRNx+EmY4eiuM+zeGLiGXG0TxqtnK8DRfrBw==.sig.ed25519"
 }
