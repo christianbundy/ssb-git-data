@@ -1,17 +1,25 @@
 {
-  "previous": "%Yr4+d1E1Sp1rlP4ywjUT1O2gxGHnbw+7SGk8ZF8a7+8=.sha256",
+  "previous": "%dQ7H1vB41am2b41C76mqf/eZAe9TVCYFoJ0AkHxW9wI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6753,
-  "timestamp": 1540997942752,
+  "sequence": 6754,
+  "timestamp": 1540999746937,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "voting",
-    "vote": {
-      "link": "%vgH8m4X7xeV5CLF/hNiaR6iGIAjhsObdKOQ0HcMUPCE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%jk11E8bZvgIRPzHzYGMeNntcH6fNtcfhe8eE0zJjQ84=.sha256",
+    "branch": "%G590OLDMSL3OIS8AKf9B9QvrngSISHlti/8Vhth2OOg=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) Hey, I'm happy to help!\n\nLike [@अभिनाश](@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519) mentioned, this seems to be an issue where everything works *great* with 2.12.x but breaks with 2.13.x. The reason `npm link patchbay-gatherings` is working fine is the patchbay-gatherings dependency tree looks like this:\n\n```console\n$ npm ls ssb-ref\npatchbay-gatherings@3.2.3 /home/christianbundy/src/ssbc/patchbay-gatherings\n├─┬ scuttle-gathering@1.3.2\n│ ├── ssb-ref@2.12.0 \n│ └─┬ ssb-sort@1.1.0\n│   └── ssb-ref@2.12.0  deduped\n└─┬ ssb-gathering-schema@1.2.1\n  ├── ssb-ref@2.12.0  deduped\n  └─┬ ssb-schema-definitions@1.1.0\n    └── ssb-ref@2.12.0\n```\n\nWhen you use `npm link`, it copies the *entire* directory including `node_modules`, so patchbay-gatherings is still using `ssb-ref@2.12.0`, which fixes the issue. We can reproduce the issue in our local patchbay-gatherings by running:\n\n```\nnpm install --save-dev ssb-ref@2.13.4\n```\n\nSo the new dependency tree, with or without `npm link`, becomes:\n\n```\n$ npm ls ssb-ref\npatchbay-gatherings@3.2.3 /home/christianbundy/src/ssbc/patchbay-gatherings\n├─┬ scuttle-gathering@1.3.2\n│ ├── ssb-ref@2.13.4  deduped\n│ └─┬ ssb-sort@1.1.0\n│   └── ssb-ref@2.13.4  deduped\n├─┬ ssb-gathering-schema@1.2.1\n│ ├── ssb-ref@2.13.4  deduped\n│ └─┬ ssb-schema-definitions@1.1.0\n│   └── ssb-ref@2.13.4  deduped\n└── ssb-ref@2.13.4 \n```\n\nNot sure what the issue with ssb-ref is, but if I have some time later today I can pick at it a bit more. Hope this helps! ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519",
+        "name": "अभिनाश"
+      }
+    ]
   },
-  "signature": "deVl5cgvE1ef+arokCPDHdXXcFPllLqmalTUUURYv7B5OM22FUUqIsuJl0yX+OQmzqn5Vq+VFizl5uXJPB9GDw==.sig.ed25519"
+  "signature": "eQkx2X5OPbHMYGf4TA8D69jjz6IKy2Vep0jp2BhjUD+BUGX93cYlD3oocrBQZjm7eyiuS8vGmlQ0/v3RJ1koBw==.sig.ed25519"
 }
