@@ -1,21 +1,24 @@
 {
-  "previous": "%lT+mBsH9pD82FSj9hligwsLHlqRGbzpOQ9pXm+qwzKI=.sha256",
+  "previous": "%/OjkkrngJjRD41kmnlzOkCNPyU+cp0bwWGvDZUp7YQk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6777,
-  "timestamp": 1541018027529,
+  "sequence": 6778,
+  "timestamp": 1541018172960,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**Does Scuttlebot know which messages have been gossipped?** I've made a habit of breaking SSB, and I've been thinking that it would be *really* cool to be able to see how many messages I've posted since the last time someone else accepted a message from me. \n\ncc: #scuttlebot #ssb-dev",
-    "channel": "ssb-learning",
+    "text": "**Did something change in Patchbay's handling of hashtags?** I've recently noticed that *huge* strings are being loaded in the hashtag auto-complete, and I think this started in the past few days. For what it's worth, I'm running off of `master` for both secure-scuttlebutt and scuttlebot, but I'm unclear on whether that could have an effect.\n\ncc: #patchbay-dev #channels #hashtags ",
+    "channel": "patchbay",
     "mentions": [
       {
-        "link": "#scuttlebot"
+        "link": "#patchbay-dev"
       },
       {
-        "link": "#ssb-dev"
+        "link": "#channels"
+      },
+      {
+        "link": "#hashtags"
       }
     ]
   },
-  "signature": "03GQZDaltfre9fqI4jwcmdUa6tK2ggtm8CWx+zgBvOvxkxa2FqnFRpcx3bii9vcb6zmKwvS3N+AU7noLBeOaBw==.sig.ed25519"
+  "signature": "q0SFC2QlT09aD57Lu/n7z1LrT+csdqmnWKq1vZlwKxOZe94XSwhXsKYQf2p4gV0fM73OMnHrdhu17hMTR9gLBQ==.sig.ed25519"
 }
