@@ -1,15 +1,29 @@
 {
-  "previous": "%gu7sFH+isIZc9LrH170IhRMBgwAWR2dYfZw6KbcmKQc=.sha256",
+  "previous": "%EDUJBsMlPH/J9J+VYSPU51OZz2xNTRrX2o57kfvAUJg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6775,
-  "timestamp": 1541014316862,
+  "sequence": 6776,
+  "timestamp": 1541015719356,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%wQSY4HaJoWBul2tmOwhLgVzVxJdM6K1pudsu5aElS9M=.sha256",
-    "branch": "%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256",
-    "channel": "ssbc",
-    "text": "I don't have gmail, but with Fastmail I made a rule where messages are immediately archived if:\n\n- the sender email is `notifications@github.com`\n- the sender name contains `[bot]`\n\nCompletely untested, but I think this should work."
+    "text": "# Better Bug Reports\n\nI've been thinking a *lot* about bugs, how they're reported, and how teams can manage them across organizations and repositories. The current [happy path](https://en.wikipedia.org/wiki/Happy_path) seems to look something like this:\n\n1. The user is a software worker with a GitHub account and a good understanding of the bug.\n2. The user finds the GitHub repository for the misbehaving software and creates an issue.\n3. Notifications are sent to everyone who has access to the repository, which are often unread.\n4. Someone takes responsibility for the bug, discusses with the user, and creates a resolution.\n5. Someone else reviews the code that resolves the issue, and the code is merged.\n\nMost people don't work with software, they don't have GitHub accounts, and they aren't empowered to have their issues solved. Instead, success usually looks something like \"hey my widget just broke, does anyone know how to fix it?\" and their friends in the community coming together to resolve the problem.\n\nInstead of shoehorning users into the usual GitHub flow, I wonder whether it would make more sense to be able to enhance the system we already have. Users would be able to control their own bug reports without having to submit their ticket into some online system, and friends could help by labeling the issue with relevant software (and versions) used. Friends could vouch that they can reproduce the issue on their system and help debug. Developers would be able to query for bug reports involving their software, sort by the number of reproductions, and tag the bug report *subjectively* without asserting ownership over the bug.\n\nAlso, I'd love to say goodbye to the whole \"this is actually a bug in an upstream package, closing\" runaround that's exhausing for users *and* developers, and hopefully have a subjective and less-centralized way about talking about our problems. I wonder whether this kind of system would be useful outside of software, but [for now] I'll stick to what I know.\n\n---\n\nHeavily influenced by: %ZSvxC8Q7Ql8L0E2uPvpieHR1D8jp6nNYuItkW0QnlVM=.sha256\n\ncc: #software #git #github #git-ssb ",
+    "mentions": [
+      {
+        "link": "%ZSvxC8Q7Ql8L0E2uPvpieHR1D8jp6nNYuItkW0QnlVM=.sha256"
+      },
+      {
+        "link": "#software"
+      },
+      {
+        "link": "#git"
+      },
+      {
+        "link": "#github"
+      },
+      {
+        "link": "#git-ssb"
+      }
+    ]
   },
-  "signature": "WszyryY0ePJ2nyYyCq6Vj8n4JssfYv02W3yksLXErWM6sZN3GvBRNx+EmY4eiuM+zeGLiGXG0TxqtnK8DRfrBw==.sig.ed25519"
+  "signature": "e20oCCfbBn8Rc2Rdvk4RhgNd/tFn+2NSTpQYYeEehM61/QzbV8Qfs+z1darx2PAUuikjH95yKNodUXtvLQcPAg==.sig.ed25519"
 }
