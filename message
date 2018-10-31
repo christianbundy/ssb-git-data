@@ -1,17 +1,25 @@
 {
-  "previous": "%t6Yiq2sYjtBHPnKqQa6bloFSZ91qMaw1fmExMrlgu04=.sha256",
+  "previous": "%SdE3C4wGYeVc6hTwYgSco1nnfd2E8FDuCavOyOljJ6k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6758,
-  "timestamp": 1541005143224,
+  "sequence": 6759,
+  "timestamp": 1541006228536,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dev-diaries",
-    "vote": {
-      "link": "%LvUsPa2rPwE3oVsPfAap54WyzfRQou+ViZLpJ08twdg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "branch": "%coQ8fkan2QMdvmj4VrFtIJNIS7j6CqrGLKWoYz1lb3A=.sha256",
+    "channel": "ssbc",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nGitHub rate-limits us at 30 per hour so it will be about 20 hours of emails, plus the \"issue closed\" email 7 days later, so I'm personally going to use the  [email filter solution](%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256) to keep my inbox sane. I'll plan to start tomorrow, so there should be two rounds of emails:\n\n- **stale warning:** starting 2018-11-01T12:00:00Z for 20 hours\n- **issue closed:** starting 2018-11-08T12:00:00Z for 20 hours\n\n🥇",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256",
+        "name": "email filter solution"
+      }
+    ]
   },
-  "signature": "IXabZQXonJHOtokjkbYOCBX1IvmyaUWC+vaYxOII+83zeudlbv8PdROlfHmCLgwylve57vo9gdGNhPKdOGelDw==.sig.ed25519"
+  "signature": "gFM6FjkVwoOnuVcLKxCbXDkwjJLVLaXba3FsNaHlqZcfYGF6/+86S/xGZ2NpLRgQl4CI018Mf1D/At8HQEHJBA==.sig.ed25519"
 }
