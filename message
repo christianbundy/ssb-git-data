@@ -1,29 +1,16 @@
 {
-  "previous": "%AdG3/KsvjvVkeGx/UQYno6EE3/gXpbXTPeqT71VAEa8=.sha256",
+  "previous": "%Q/Wzo6XX7UFwq6hZ7yM5OsyqO3O8kYBKiPjH4USIuRc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6770,
-  "timestamp": 1541010116871,
+  "sequence": 6771,
+  "timestamp": 1541010154621,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%cJBeK8Q4jdV3EeC/KhVliACNCRN42cQxf5Yf6GSo7JM=.sha256",
-    "branch": "%/ETZ3zr3HQpAlV4lo4G2KoezFDHPCUPZbhcyTnYzzu0=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> Fairly easy fix with a rollback luckily :)\n\nI think this whole process went great, other than the bug itself.\n\nI made changes, you noticed a regression, you communicated it clearly and publicly, [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) confirmed, and then you both gave me the opportunity to clean up after myself. Learning about the [advice process](%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256) was really critical for me, and it feels empowering to have such a healthy way to resolve conflicts and mistakes too.\n\n> unless there's serious flaws I should know about with 2\n\nMy only motivation is that Arch Linux has its own Electron package, which will soon be upgraded to Electron 3. Once that happens, Arch users will have two options:\n\n- Electron 3, which Patch(work|bay) doesn't currently support\n- Electron 2 from NPM, which lacks Arch-specific [patches](https://git.archlinux.org/svntogit/community.git/tree/trunk?h=packages/electron) and crashes every few minutes\n\nIt's a bit of a self-inflicted ultimatum, but that's my motivation. 🤷",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256",
-        "name": "advice process"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%9RpQ0Si+NV7Y873dArNcO2xgoqM484lj+ilWYQWuuqQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LW6675278F4SkA95gRDrLNKEvB5LylFTbk4pYQXZoUM49S9VG5X+zghN1MO84TfXjmtwSjZkCPr0Gqu0glA6CQ==.sig.ed25519"
+  "signature": "0UZHTlrjit1aWlRlWgZajg9dl9jlwcywOrgXpQUg1i71zeBpVvN6eSSscE+3/wCUmbGoDYBQwolwgGvx+PwsCg==.sig.ed25519"
 }
