@@ -1,25 +1,17 @@
 {
-  "previous": "%SdE3C4wGYeVc6hTwYgSco1nnfd2E8FDuCavOyOljJ6k=.sha256",
+  "previous": "%X/cLSk0MH9XwJa2u3hCFKY5wEhDzqislwSpqibMOphY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6759,
-  "timestamp": 1541006228536,
+  "sequence": 6760,
+  "timestamp": 1541006229066,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
-    "branch": "%coQ8fkan2QMdvmj4VrFtIJNIS7j6CqrGLKWoYz1lb3A=.sha256",
+    "type": "vote",
     "channel": "ssbc",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nGitHub rate-limits us at 30 per hour so it will be about 20 hours of emails, plus the \"issue closed\" email 7 days later, so I'm personally going to use the  [email filter solution](%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256) to keep my inbox sane. I'll plan to start tomorrow, so there should be two rounds of emails:\n\n- **stale warning:** starting 2018-11-01T12:00:00Z for 20 hours\n- **issue closed:** starting 2018-11-08T12:00:00Z for 20 hours\n\n🥇",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "%LI42bt0uMfgQxtJcVf23HtHQC9ydlHvEF5vUA3YsR1w=.sha256",
-        "name": "email filter solution"
-      }
-    ]
+    "vote": {
+      "link": "%coQ8fkan2QMdvmj4VrFtIJNIS7j6CqrGLKWoYz1lb3A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "gFM6FjkVwoOnuVcLKxCbXDkwjJLVLaXba3FsNaHlqZcfYGF6/+86S/xGZ2NpLRgQl4CI018Mf1D/At8HQEHJBA==.sig.ed25519"
+  "signature": "ZJnhMbvdm2MIU+MLOFQgVcd7ysX/fVm0ZlBrXTfjpUs7rMxDKxoJYbX4cuXtgmcE/oh6U18c92S5gZbRoGvMCQ==.sig.ed25519"
 }
