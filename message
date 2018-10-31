@@ -1,16 +1,21 @@
 {
-  "previous": "%2wlP1uz5CfHGgN+PxzV9rm+Kv8NNSkaqb1hFNA0JVHw=.sha256",
+  "previous": "%oQx5EbBi3g6+/ygb5tfaFFdvQZWWGhpVfBoonvlIGoM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6789,
-  "timestamp": 1541022129294,
+  "sequence": 6790,
+  "timestamp": 1541023083925,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%fRntDoCUFE6y6DOr9lPVVZVewQ4Qec3KjCDb7mnCHJ8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%EwwjtvHK7i1MFXnazWTjivGEhdAymQd0xR+BU82XpdM=.sha256",
+    "branch": "%EPCZEy4DMqrh763t8gx1iyQFKX2R0JCP/YF0RPMLzi8=.sha256",
+    "channel": "ssb",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n\n> Is there a reason why they *should* be? =P\n\nI think cooperating on standards is useful -- it spreads the work between collaborating peers, and lends credibility to the shared implementation. Personally, I try to cooperate whenever possible. Competition is overrated. 🙃\n\nI like the idea of absolute optimal solutions, but I'm more inclined to cooperate on a *good enough* solution rather than rewrite our own. If their solution has critical problems that make it a non-starter, then I'd fully support inventing here, but I wanted to ask about alternatives. I'd love to read more of your thoughts/opinions if/when you have time. ",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "dHGm0Vlci84vr8N0Z7z6RPDcU1Axng4Q1Yc+fLAAoyJBDi3Z9GlgrWLVuPNYdgxwMGRX+G4TNw7DZ9RB0qQTAw==.sig.ed25519"
+  "signature": "aDh2hjpxAUY5ok2MenE8b8efejoQZHCCxGfwZbNaa1gdJqBtMaUYRctYHc+W0/Xdo6ta4aURBOZxz/op1e2KCQ==.sig.ed25519"
 }
