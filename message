@@ -1,13 +1,21 @@
 {
-  "previous": "%48+/xz/qt5kwKDgWbldsnJHd4MQ/BOb+rwFpIEvSbTw=.sha256",
+  "previous": "%pcc/ChSP33Owyb5CUDUgOQn05TWopuantiYueQEEKKA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6784,
-  "timestamp": 1541019626867,
+  "sequence": 6785,
+  "timestamp": 1541019817389,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
-    "name": "deprecated.kas"
+    "type": "post",
+    "root": "%EwwjtvHK7i1MFXnazWTjivGEhdAymQd0xR+BU82XpdM=.sha256",
+    "branch": "%nLRbNkV1JkWl5oYGsHbkIFSBgjA/szNzGru8pLCz9WA=.sha256",
+    "channel": "ssb",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n\n> But there is no (preexisting) multiformats table for the kind of decryption algorithms ssb private messages need. \n\nCould you unpack this a bit? I totally understand that the specific algorithms we use aren't in the multicodec repo, but it seems like it would be simple to just add them to the repo rather than come up with our own table. Is there a reason why our codecs *couldn't* be described in a multiformat table?",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "RgC5l2+nfIje4dkC62MDmiGDCcT88fGYFVkEaKrdHDCrjcGSl8DRcbaSwitCzCJIIWUZ+rDmIZxLW+M7w4+TDg==.sig.ed25519"
+  "signature": "hOdXJD7LhpaRsg7SKwKGKfNF6Y2DgGx8OY/eS6MdRT9D9siFlSPwJlnvNDWnnTIy/gvBs5NV8Sq8jpyrHSiRBw==.sig.ed25519"
 }
