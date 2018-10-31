@@ -1,17 +1,29 @@
 {
-  "previous": "%Jue/ogiWzqMw1PEdPDLmryDvVDWoeouRg3QIg4fmaB0=.sha256",
+  "previous": "%AdG3/KsvjvVkeGx/UQYno6EE3/gXpbXTPeqT71VAEa8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6769,
-  "timestamp": 1541007862371,
+  "sequence": 6770,
+  "timestamp": 1541010116871,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssbc-grants",
-    "vote": {
-      "link": "%IwjY9mJoRUNjWV4g44CUq1w7M66WbCEsTiF1ssx3wOg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cJBeK8Q4jdV3EeC/KhVliACNCRN42cQxf5Yf6GSo7JM=.sha256",
+    "branch": "%/ETZ3zr3HQpAlV4lo4G2KoezFDHPCUPZbhcyTnYzzu0=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> Fairly easy fix with a rollback luckily :)\n\nI think this whole process went great, other than the bug itself.\n\nI made changes, you noticed a regression, you communicated it clearly and publicly, [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) confirmed, and then you both gave me the opportunity to clean up after myself. Learning about the [advice process](%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256) was really critical for me, and it feels empowering to have such a healthy way to resolve conflicts and mistakes too.\n\n> unless there's serious flaws I should know about with 2\n\nMy only motivation is that Arch Linux has its own Electron package, which will soon be upgraded to Electron 3. Once that happens, Arch users will have two options:\n\n- Electron 3, which Patch(work|bay) doesn't currently support\n- Electron 2 from NPM, which lacks Arch-specific [patches](https://git.archlinux.org/svntogit/community.git/tree/trunk?h=packages/electron) and crashes every few minutes\n\nIt's a bit of a self-inflicted ultimatum, but that's my motivation. 🤷",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "%8A7unyXSphT23Vutf4FcKkQZsg/paksHtNuQGh9l0RU=.sha256",
+        "name": "advice process"
+      }
+    ]
   },
-  "signature": "1baGJ3pdSGSPUuuyf4dCc+0YpYnaa7+u2eqV5w0S8Tazvk4sNSSKLv7hL/5jWn+ZZq/tznhBCTwzTITbz2ZbAw==.sig.ed25519"
+  "signature": "LW6675278F4SkA95gRDrLNKEvB5LylFTbk4pYQXZoUM49S9VG5X+zghN1MO84TfXjmtwSjZkCPr0Gqu0glA6CQ==.sig.ed25519"
 }
