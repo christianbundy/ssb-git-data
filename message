@@ -1,24 +1,16 @@
 {
-  "previous": "%/OjkkrngJjRD41kmnlzOkCNPyU+cp0bwWGvDZUp7YQk=.sha256",
+  "previous": "%99KHDotyucAmBbcaPclHfeAnZP8C7pRs9bFrAqrmBrY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6778,
-  "timestamp": 1541018172960,
+  "sequence": 6779,
+  "timestamp": 1541018641012,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "**Did something change in Patchbay's handling of hashtags?** I've recently noticed that *huge* strings are being loaded in the hashtag auto-complete, and I think this started in the past few days. For what it's worth, I'm running off of `master` for both secure-scuttlebutt and scuttlebot, but I'm unclear on whether that could have an effect.\n\ncc: #patchbay-dev #channels #hashtags ",
-    "channel": "patchbay",
-    "mentions": [
-      {
-        "link": "#patchbay-dev"
-      },
-      {
-        "link": "#channels"
-      },
-      {
-        "link": "#hashtags"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%nbVzQ1pX/3PwDhu4h0j1OQaBiIbCqJ0KYB9C/f5grzU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "q0SFC2QlT09aD57Lu/n7z1LrT+csdqmnWKq1vZlwKxOZe94XSwhXsKYQf2p4gV0fM73OMnHrdhu17hMTR9gLBQ==.sig.ed25519"
+  "signature": "ofz/iHmfab3t2unXsULBKB7oPrX944cCOwsixHbFFknG/1j+sYCDGJ9phmOmkAhaB1QibPLbSz0pPtVSTRn2AQ==.sig.ed25519"
 }
