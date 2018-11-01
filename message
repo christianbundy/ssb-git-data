@@ -1,17 +1,21 @@
 {
-  "previous": "%dvv8tiuYzQNBJZi4/dt7uKyDA7+7GKIwHWJvDkGjgdo=.sha256",
+  "previous": "%Gi+vGtCS/DraWqfH8Klrg9w79f/a5DNfg0E2od5oLHU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6800,
-  "timestamp": 1541041168978,
+  "sequence": 6801,
+  "timestamp": 1541041229044,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jk11E8bZvgIRPzHzYGMeNntcH6fNtcfhe8eE0zJjQ84=.sha256",
+    "branch": "%9QSyQIeAgLScayhm6RAmtEQeP8nZKNyhsND38BXJUN0=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%9QSyQIeAgLScayhm6RAmtEQeP8nZKNyhsND38BXJUN0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) I see you too, I've had that happen before. Not sure what causes it, but I think closing out of the profile and re-opening it resolves the issue.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "xTxK+gzbkzjRwufkqMGun0YnQtYQ8lQyYVanTVh8z53blaJU4cwx5zi8IPhWt1qLFeP8epJqHXwx6vz+8kUmBQ==.sig.ed25519"
+  "signature": "fk/G0ILtJ9i6Dq4Va1DQdsP1Or/2D6YaaQ+mxmAXoI1KB2gyIOT7wKd6SJ3++w6du7LN6qMX0c9x7lM5t1BRCQ==.sig.ed25519"
 }
