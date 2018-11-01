@@ -1,21 +1,18 @@
 {
-  "previous": "%yR4pN1RdOqPAPuXtizybkmbkqCFTX+b14N3O5jc7zQo=.sha256",
+  "previous": "%S+8WkcA60F78uWQoR6MRyS3uVoycn634037i3Ea72e8=.sha256",
+  "sequence": 6794,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6793,
-  "timestamp": 1541028510859,
+  "timestamp": 1541031656835,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jk11E8bZvgIRPzHzYGMeNntcH6fNtcfhe8eE0zJjQ84=.sha256",
-    "branch": "%QRH1wYz8u0avWFvZ3ittDDBnzBS7mNk9xy/xYonExbQ=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nPossible aside: I've pulled ssb-gathering-schema and tried to run `npm test`, but it looks like it's failing two tests -- could that be where the problem is, or have those tests always failed?",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 24,
+    "root": "%ConCjHbeG/ScNPZFfAq4v83/848+odBtPRRC2P9Zq7M=.sha256",
+    "orig": "f5",
+    "dest": "f4",
+    "pgnMove": "f4",
+    "fen": "rnb1k2r/p6p/2pb1n2/3p4/1p1Ppp1P/2P1P3/PP3PP1/RNB1KBNR w KQkq - 0 13",
+    "branch": "%kHq2FTp24p73PIfAWv0F0+4raVj8jbpRFoauaY2qyfE=.sha256"
   },
-  "signature": "i9cQi+vF4kYhi335ABAPXeGBatnk/DIeyjUmnvXPbHoJdsqnSu+YZHXeGVIi5qCeuMDqWoMjJQ/fxOMnloikAA==.sig.ed25519"
+  "signature": "zLqEyhzbnWc0yWjg5zPZXJkPSZzqyu3KY5+ZNvlq+DU276YhF0FMQm5DZsuJ4sBQKFBIW5AJ3J6jMyDtrqMBBA==.sig.ed25519"
 }
