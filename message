@@ -1,20 +1,18 @@
 {
-  "previous": "%l3B2v9Ly+FEm/B6lZyjHig5caO9zMQyHYvtIxneKkfo=.sha256",
+  "previous": "%NRrEbEIAU9Bssx4bDmXxPSqsbuIiQrISunQlOtnuplk=.sha256",
+  "sequence": 6891,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6890,
-  "timestamp": 1541111331842,
+  "timestamp": 1541111391608,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%U74iWAm6NjwHo3qkZOIydFbqY4l7SKwO1o+hUQ187gE=.sha256",
-    "branch": "%l3B2v9Ly+FEm/B6lZyjHig5caO9zMQyHYvtIxneKkfo=.sha256",
-    "text": "Oops, I didn't read deeply enough into the thread to see that this had [already been done](%JVJyG1j8tk99OABQQ4QOaTjmfTs/yJzCN937nyhyWuA=.sha256). Sorry for the noise.",
-    "mentions": [
-      {
-        "link": "%JVJyG1j8tk99OABQQ4QOaTjmfTs/yJzCN937nyhyWuA=.sha256",
-        "name": "already been done"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 60,
+    "root": "%0kfCQyNb+Q2U9fDxz1L77a2cM0reCmy2Nn/Mnd1L2BY=.sha256",
+    "orig": "a2",
+    "dest": "c2",
+    "pgnMove": "Qc2",
+    "fen": "2kB4/p2b1NQp/4p3/3P1p2/3P4/1P2P3/2q3PP/1R3RK1 w - - 2 31",
+    "branch": "%Gjv42fSyI11c6RyGIoEpl8P6+UQM3A1q+nkD9xv2DUA=.sha256"
   },
-  "signature": "h2Gj6oJ87IsoAOOVcX5AyRmrafrngPFUGN2mlP4KE24n2sKBzk5DaFNYoLngiHBwn40+PgtBu5sU+Jr10M0TAA==.sig.ed25519"
+  "signature": "d6JOPpmLUuv9Iv0HthyBpYbhCFYNGyxnaFgjTDu0YUnxPwLluVOEOY9n9cM0BRS+gopQ9RULpgFrejyg5MtFBQ==.sig.ed25519"
 }
