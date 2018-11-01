@@ -1,13 +1,24 @@
 {
-  "previous": "%JXxI8fZgm9rncGECbl2D5KPFQbiPQYBPKWO2cJJeeMc=.sha256",
+  "previous": "%10y9UL+0gm3AdQ2IwSZbHA+MzEgRTBJJi761DPKUu7Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6829,
-  "timestamp": 1541093169982,
+  "sequence": 6830,
+  "timestamp": 1541093454425,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@CRH4lWNqO0Vp4xWMBNadisbgzzbmP/fveeWhaSiWeW4=.ed25519",
-    "name": "dude"
+    "type": "post",
+    "root": "%c1GVYwdkvb+gAxP0weHZ+sq4ADBLfX7kjWWJegi0Wb0=.sha256",
+    "branch": "%cUtBndtx0DuVjzZ/yV8oCGbLyEl2UlBBDPLE935kx1w=.sha256",
+    "text": "[@dude](@CRH4lWNqO0Vp4xWMBNadisbgzzbmP/fveeWhaSiWeW4=.ed25519)\n\n> Apps on one's phone is the biggest part of being a widely adopted service, and I feel like a lot of idealistic open source contributors don't necessarily confront this idea because it may be secondary in their mind.\n\nI think this is often because distributing software through Google, Apple, and Microsoft is antithetical to the things that most of us care about. There *are* distributions of open source software that are available on walled garden app stores, but often developers build something because [they want to use it](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) rather than that they want others to use it.\n\nUnfortunately I think the problem is two-fold: developers often become insulated in communities of other developers, and users just uninstall the app because they don't feel empowered to resolve the issues they see. Even [bug reports](%lT+mBsH9pD82FSj9hligwsLHlqRGbzpOQ9pXm+qwzKI=.sha256) suck for non-developers (and developers too, if we're being honest). \n\nAnyway, I think many/most/all of us would love to hear specific pain points you have with SSB. Thanks for this post! ",
+    "mentions": [
+      {
+        "link": "@CRH4lWNqO0Vp4xWMBNadisbgzzbmP/fveeWhaSiWeW4=.ed25519",
+        "name": "dude"
+      },
+      {
+        "link": "%lT+mBsH9pD82FSj9hligwsLHlqRGbzpOQ9pXm+qwzKI=.sha256",
+        "name": "bug reports"
+      }
+    ]
   },
-  "signature": "9MigQMjfCvMYjS9KN0Dd7Dh9NSYE2I/qA+DZZMdQLICp8QGSGbXYBra7lg3R6uKURX+NrQ6RIwVxVrByCPagAg==.sig.ed25519"
+  "signature": "PO/l2zN/lE+6JAtSf51NOawgAPF72rY0Ywlpk5ApkSdVCakHSO2KDAw64PXWMuNe3RB0RprCX6c/h/SdDEwbBw==.sig.ed25519"
 }
