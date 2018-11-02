@@ -1,17 +1,25 @@
 {
-  "previous": "%V7Q2V7NsxkMuJkd3Cj/ewakI7eOWh/GqWArBeGZbjns=.sha256",
+  "previous": "%YyJVBGI3zLc2rgLXpWY6XN7oGe8bESGn2zBmCgO2mjM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6933,
-  "timestamp": 1541179521064,
+  "sequence": 6934,
+  "timestamp": 1541179635741,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%3zdQVkr6V3hdQMUlXVTCUXkq4bBM/RCZx9l5dj1Ur9c=.sha256",
+    "branch": "%3zdQVkr6V3hdQMUlXVTCUXkq4bBM/RCZx9l5dj1Ur9c=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%3zdQVkr6V3hdQMUlXVTCUXkq4bBM/RCZx9l5dj1Ur9c=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@lance](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) I think a bookmarking feature would be awesome. I love [bookmark threads](%9VWASKdl78TVKP+Hn0bVqji6Avg0DpfSP4aUIT6rwJE=.sha256) but I think many of us would love to bookmark and organize threads in a more ergonomic way.",
+    "mentions": [
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lance"
+      },
+      {
+        "link": "%9VWASKdl78TVKP+Hn0bVqji6Avg0DpfSP4aUIT6rwJE=.sha256",
+        "name": "bookmark threads"
+      }
+    ]
   },
-  "signature": "d8ztCZ6Ba2kE0vLLGfv9Rme9G68yPgu7KRT+rltzpmH+PV+XVGil87J9K/mUPtKbVEyp/XnPvCp3OIMHycG6Bw==.sig.ed25519"
+  "signature": "vJYSwZTTNRNYiTa8fZImMLxPGHhCWxwpOlY8cFH6wCX+3AF0XBrOp1oAaKnCRy2iMRPPbZjutW93u7YFqOWkDw==.sig.ed25519"
 }
