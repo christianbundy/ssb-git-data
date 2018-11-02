@@ -1,17 +1,21 @@
 {
-  "previous": "%ZJTCwdPIW3rtkImtNQ8ES/KeVRM2IoZN1llGoWFRheo=.sha256",
+  "previous": "%lj9k8kUEZ5d7mq1esXL/uaUWEEwa2SWz/2I9136502M=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6907,
-  "timestamp": 1541116809740,
+  "sequence": 6908,
+  "timestamp": 1541116853128,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%gNjDW1sJEWPIQ9PoKwRABYzUqmiMFI0/jXydj44rzss=.sha256",
+    "branch": "%gNjDW1sJEWPIQ9PoKwRABYzUqmiMFI0/jXydj44rzss=.sha256",
     "channel": "data-lake",
-    "vote": {
-      "link": "%gNjDW1sJEWPIQ9PoKwRABYzUqmiMFI0/jXydj44rzss=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\n> all this data is pouring into a lake rather than being a stream which you will miss it if you take your eyes off of it\n\nI love this, and somehow it's got me feeling more excited about SSB than I already was. ",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "Pb0SK32to//qsfDF5gF4RLUDLfAC247Mbv9HUdSPT2yPFf5WlkhdbNgNz92AUohxAqRL8dPDF7XQIhMNweJyCw==.sig.ed25519"
+  "signature": "CMN01M/VrVOu8CFZ9P+aRW2xgsoWMlpoIjI7MyJ7uAkIfKlr4L1oEf08/e1v+cliXy4i07Wkau1WHVuobQ7jCQ==.sig.ed25519"
 }
