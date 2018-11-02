@@ -1,16 +1,20 @@
 {
-  "previous": "%bBQETUbPWSAQDggX+8GYPxOEwOnLcuKLcnuour/q86M=.sha256",
+  "previous": "%5wyMPnmthlYYoRGxw+cBFpatEYpdN87+ZjOBUCR+cnQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6940,
-  "timestamp": 1541182427630,
+  "sequence": 6941,
+  "timestamp": 1541182470901,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mD01gqmS2jeoCA96pohEXnTXXSRl23jWxrr8Uzg98PM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%mD01gqmS2jeoCA96pohEXnTXXSRl23jWxrr8Uzg98PM=.sha256",
+    "branch": "%mD01gqmS2jeoCA96pohEXnTXXSRl23jWxrr8Uzg98PM=.sha256",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\n\nThat's really cool, is it... sprouting?",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "PWe0SHVOuDn+1T2QDFK381WnuEOY5PuaXLRlXn/hDJoIrKDD7uYJLSG/i43vGiq/Z8j0QbJKCUHv5qMhA389BQ==.sig.ed25519"
+  "signature": "5Kr2OGnDFQyviBO9xk5MQuP5GTef9AHltNOqhnUiGSt/dWRRAb3pnCV5EjLrRJKiwS4SVJaZvjf4EaBLJ7ADBQ==.sig.ed25519"
 }
