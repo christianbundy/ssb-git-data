@@ -1,21 +1,17 @@
 {
-  "previous": "%C30ZUMb1pgete405NsRdOvP49NZmnwWr1/XT8Gdn9w4=.sha256",
+  "previous": "%axuEdGNAJ/XV0u1Fnb6g5V1HGiQtJLWy1S4kxHnp6aM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6972,
-  "timestamp": 1541441392388,
+  "sequence": 6973,
+  "timestamp": 1541441399250,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%JNImRpzPvr33DvCN9v10hWgqShmCcZerzCOwYF/UC8A=.sha256",
-    "branch": "%tkXY+LWuqjQrdCDxHp3C8FOEvztTrx57WOtUZilicTM=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nStill working great for me! Btw, this might be a great time to use `npm ci`, which deletes `node_modules` and installs from `package-lock.json` for real. The whole \"`npm install` doesn't respect the lockfile\" still kills me.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%Q3HXOUfpIL0JIVCmv9v71cdsAyjnxoJ7foSSP0lz0Tk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lWWrdiDBeaCjqu2kdEq6R439Y5SCYVJHJuwK7it06j4MYDXuChO3rMKcyeuGrcONwWgzc009a2LvsMNMSbvFDQ==.sig.ed25519"
+  "signature": "X2QQ6IPRek9n8jCfZ8VvvE5Wk4A1O5wis76xHIxKZ/+uSNVnkoXz6nIijyaEMygfXN/igGxRforgsVIURbbFBg==.sig.ed25519"
 }
