@@ -1,16 +1,30 @@
 {
-  "previous": "%S8Oi+k9x4frK8+PJ8eAisGP1H35izcIxEQz+3bhK8w0=.sha256",
+  "previous": "%+plD/PfLOAhSt5vLgdA+E7ysvkuhXPbY/7uecVkgtGI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7004,
-  "timestamp": 1541454831335,
+  "sequence": 7005,
+  "timestamp": 1541455112449,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xw0IA1HselEmJuf3iWRpHJIZz73pGuwbaw/c8Fa6X1Y=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Electron, Debug, and redefining `console.log`\n\nWe're doing a thing in #patchwork and #patchbay where we redefine `console.log` to make it log to both the browser console *and* the terminal console. Historically this has been fine, but as more packages start using `debug` we're starting to have an issue with their [web browser integration](https://www.npmjs.com/package/debug#web-browser).\n\nLong story short, the web browser console takes color codes in a different format than the terminal, so those browser logs are being output to the terminal as a big unreadable mess. No good. The two solutions, as I see them:\n\n- stop using debug, and have our dependencies stop using debug\n- stop redefining `console.log` to output browser logs to the terminal (my preference)\n\nAnyway, I'm sure it will annoy someone eventually, so I just wanted to document both the problem and the solution. **Does anyone mind if we stop sending browser logs to the terminal?**\n\ncc: #somebody-should #patchwork-dev #patchbay-dev ",
+    "channel": "ssb-dev",
+    "mentions": [
+      {
+        "link": "#patchwork"
+      },
+      {
+        "link": "#patchbay"
+      },
+      {
+        "link": "#somebody-should"
+      },
+      {
+        "link": "#patchwork-dev"
+      },
+      {
+        "link": "#patchbay-dev"
+      }
+    ]
   },
-  "signature": "3IVMYHa8kCY03G4ANf6wI29P32bSRDBtEKjEX28mrNnO90v/Ov36Rbly62cvHJyBgpkQlLyGW20JW5Efq2TxAg==.sig.ed25519"
+  "signature": "QkJmd51gMqu3vUurBUZudQbOqJBQewKPyKAFfZvmnrImPLUBVT0nQ+2Mf37aT/0F/wFvHlFFq6sVUZsx/qDBBw==.sig.ed25519"
 }
