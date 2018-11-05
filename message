@@ -1,21 +1,24 @@
 {
-  "previous": "%FKApVfoFjt5X59Jo8stYevXYK6i84XIsGCM/H1WroSw=.sha256",
+  "previous": "%t1iAdgZsaEzAdSItG72F+AE4nl/8nsg5HdgwHCFvdD0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7016,
-  "timestamp": 1541456522069,
+  "sequence": 7017,
+  "timestamp": 1541459408867,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%D0kr58QPashSxMxS5dLm7KSZfsf6rVyOaVYsiGVNFVs=.sha256",
-    "branch": "%BN52EZsa7L4O66M43WezRcTjc+FsvuC+BgvOmdFOj4E=.sha256",
-    "channel": "ssb-thankful",
-    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) welp, that was a silly mistake -- sorry about that, I'll pull from you now!",
+    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "branch": [
+      "%qW8+tNet5ZAjM+/iMOM3TQIzLD41OWVEgOrIvhsO6o8=.sha256",
+      "%w2zhcfPBukc1Ztr4dUHjeW5Ahc+AOxUFtGQHJ0m0A7Y=.sha256"
+    ],
+    "channel": "ssbc",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nYep, we pass an array called [`exemptLabels`](https://github.com/ssbc/secure-scuttlebutt/blob/e0e96fbe42e9787fb01e7f2392eed3605b547c2c/.github/stale.yml#L6-L8) which are ignored by the bot. The defaults are \"pinned\" and \"security\", but we can use anything we'd like. We could also make issues exempt if they're added to a GitHub project or milestone. I'm a bit concerned about using exemptions and being accused of \"rules for thee, but not for me\" behavior, which leads me to another strange suggestion: could we make this more **s u b j e c t i v e** by exempting issues that are assigned to *any* SSBC member?\n\nThis would allow any of us to assign ourselves to an issue, saying \"I will take responsibility for this bug/feature/etc\" and exempting the issue/PR from any Stale bot shenanigans. Any agreed-upon features could be assigned to the folks who agreed upon it, and if/when someone decides they don't dig it then they can unassign themselves. This transfers the responsibility and accountability from a virtual bot to a friendly human, and lets us support folks in the community by directly assigning ourselves to issues. This also means we don't need to make new labels for each repo, or try to shoehorn semantics into existing issues. **Are there any major downsides to this approach?**",
     "mentions": [
       {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
       }
     ]
   },
-  "signature": "wKhv/l2K3ReCBSp+Z4paf/dhOh0fv5EoAQyJaJltLHYDFjNN8JGlMfyvOy7BVs5vxV66VsCP3b4jloa3uoyKDw==.sig.ed25519"
+  "signature": "Lid4TA8aULdDi2yMs1CwkA9srGvQ2jtz0nLAuwM6MnqFu2INlt2/9jGkA+iPYl1Ku6KibBPzfWx5EXUBTDk+DQ==.sig.ed25519"
 }
