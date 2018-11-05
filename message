@@ -1,16 +1,23 @@
 {
-  "previous": "%amz51szeNPgRqbi1E5wZEEIaINTay9t8yWmYMsj9Dmc=.sha256",
+  "previous": "%FkU8K0hb6GHqtYfHQLhmqelWNwShvVywKAK+107vozg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7010,
-  "timestamp": 1541455345469,
+  "sequence": 7011,
+  "timestamp": 1541455563056,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wL8iveNh8G1nrflg+WtaOsQrJFxLWocIUf3QCZmMbDE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wL8iveNh8G1nrflg+WtaOsQrJFxLWocIUf3QCZmMbDE=.sha256",
+    "branch": "%wL8iveNh8G1nrflg+WtaOsQrJFxLWocIUf3QCZmMbDE=.sha256",
+    "text": "[@catherine leigh schmidt](@cir4/mQyaBabHZTv5oFEpsEd9dr077fXuROzcj1KRC8=.ed25519) Hey, welcome!\n\nLooks like you might have tested our text encoding a bit, is there anything that looks like it needs work? I'd also be interested to hear your opinions on Unicode and #open-source font families like Noto, which happen to be *super extensive* but also *super developed and maintained by GOOG*. Are there better alternatives, or are there valid use-cases to ship Google fonts for accessibility? Cheers! 🍻",
+    "mentions": [
+      {
+        "link": "@cir4/mQyaBabHZTv5oFEpsEd9dr077fXuROzcj1KRC8=.ed25519",
+        "name": "catherine leigh schmidt"
+      },
+      {
+        "link": "#open-source"
+      }
+    ]
   },
-  "signature": "HS6S7LX+sOfA3TZN9NwTxButh5E4PQ+3a7rXEjyfZOZ316i5SXmmop9Jz2kiVbzbvW7PXRTc9Vo4WvjDhQNBCQ==.sig.ed25519"
+  "signature": "+cdLdA3XbeGhDEaTtd2fygyXBfRTLmQK8Jcj1oHHtWNzcHoolYlpbzWvH6gu4CDH66Bz0oJwFSzvBIWW/FW9Bg==.sig.ed25519"
 }
