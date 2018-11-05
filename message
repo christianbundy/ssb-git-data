@@ -1,20 +1,17 @@
 {
-  "previous": "%HnZpPjLyTxZsLU28HcHmlmPb8ED8xLTSGo8Oz4Pkrk0=.sha256",
-  "sequence": 6988,
+  "previous": "%uQd/R5wOueM+qwJskn9qCQE67Zh4JFDkWtuxnd+cPiA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1541442005014,
+  "sequence": 6989,
+  "timestamp": 1541442021478,
   "hash": "sha256",
   "content": {
-    "type": "chess_invite",
-    "inviting": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-    "myColor": "black",
-    "branch": [
-      "%zcQQFzeIc6I+TvTgpSKAn3kmYduamVh8PdvRkafksrc=.sha256",
-      "%YCUx/XDPMIeshG4Lsj71u/10YGpZnEW3pkEPcvrNUsk=.sha256",
-      "%Ygdrj/B0S8bGeMyRiHhatXboUh7as2cCqyEbe/vhbBo=.sha256",
-      "%NbWyu5B5F7XMj6fPHq/D24YMS1i8urAnxu0Bk4sG46A=.sha256",
-      "%/B8Ure27JIvzm0NS2ZgEfVk+QuU7obxUtN0DrVy6PXg=.sha256"
-    ]
+    "type": "vote",
+    "channel": "myco",
+    "vote": {
+      "link": "%nCEA9mNbdrL6LV2l6YwJn3aHqHZw6YugxVIGECDGHyg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "zIsbxCwd0OSZsijG80usggOI7JbkNa0FUFrSL4ShqKoAHn5KQKY5JndsotWOCh79P4l5CYqZe/PBfpEP6MfOBw==.sig.ed25519"
+  "signature": "DDsI6hp1WopV7A0Q89YCYiwQI/x8ux/fmrJniYAfS6QoKOqEDoWKZo0TFZHXzMJ0VUhRhxkPqLrmGlo0erFYAg==.sig.ed25519"
 }
