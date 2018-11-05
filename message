@@ -1,17 +1,23 @@
 {
-  "previous": "%k5GxevLsFYHbwKWEQ6Y6wViBIcgmVU+Fu++epn9ciYE=.sha256",
+  "previous": "%tZOgXvyh8bUAK8DvTXQilnLNymeQzzIKytPgGz3QvDc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6996,
-  "timestamp": 1541442977100,
+  "sequence": 6997,
+  "timestamp": 1541444143221,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb",
-    "vote": {
-      "link": "%DtswDM4O7noNMpoHYEGrQMpxJ+YHDkdLVehiDEflEvY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ge5uMzmDxF4iONHDedBzx7+5ydd4gK/t3b/kT6305j4=.sha256",
+    "branch": "%ge5uMzmDxF4iONHDedBzx7+5ydd4gK/t3b/kT6305j4=.sha256",
+    "text": "[@No friends](@FzrGaj0DWaMFMvOKtTfsw7ItLM82y5t8wHmV+7ch+i4=.ed25519) To the #scuttleverse!",
+    "mentions": [
+      {
+        "link": "@FzrGaj0DWaMFMvOKtTfsw7ItLM82y5t8wHmV+7ch+i4=.ed25519",
+        "name": "No friends"
+      },
+      {
+        "link": "#scuttleverse"
+      }
+    ]
   },
-  "signature": "IW4oXcFMwbZfiPcEg/dh7sAS9fA2BH1g6WzvGkOCRmolAyIzK2IDOxNthU4FGDBGFy3JX1wcKCiO87pCLJaqDQ==.sig.ed25519"
+  "signature": "tDqtvPoULZk6RdAnlKOCJo/Zqg/OxSiyNrwT9YwyAfPkPN89E/sNRaUDTnONYqk488RbZzmwekE6X5LApuHUBw==.sig.ed25519"
 }
