@@ -1,23 +1,17 @@
 {
-  "previous": "%Mhs/RjB/Cfv6B8sqpDdkDy6h2x3cAChdpGiWA2Q7Vb4=.sha256",
+  "previous": "%71sCNzvAb7S+qNeHAl0Pn4mXDpG85O71rlBBuWiV4ME=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6992,
-  "timestamp": 1541442306538,
+  "sequence": 6993,
+  "timestamp": 1541442364117,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%dJBnSmDjJmHhDZGeus9Fa2QFE0D+pD64J6nonOFwqt4=.sha256",
-    "branch": "%dJBnSmDjJmHhDZGeus9Fa2QFE0D+pD64J6nonOFwqt4=.sha256",
-    "text": "[@Nikhil Jha](@GwX63L7sXY/LDGXQa6zzeer982FjQnpLZwglGpKekV4=.ed25519) \n\nThat's expected -- people can see *that* you're saying something private, but not the content (or recipient) of your message. Other systems work similarly, except that instead of a central intermediate we gossip each others messages. Maybe #somebody-should make a [warning page](https://tails.boum.org/doc/about/warning/index.en.html) for things that SSB doesn't protect against?",
-    "mentions": [
-      {
-        "link": "@GwX63L7sXY/LDGXQa6zzeer982FjQnpLZwglGpKekV4=.ed25519",
-        "name": "Nikhil Jha"
-      },
-      {
-        "link": "#somebody-should"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssbc",
+    "vote": {
+      "link": "%qW8+tNet5ZAjM+/iMOM3TQIzLD41OWVEgOrIvhsO6o8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YqDz/6+zT6arDbYO+rtegqgjbYNTM/xcXS8e5CdhIyzlxdAYXryC0X9i1ViG94qL4zUc7wK30DjByHazFgVADQ==.sig.ed25519"
+  "signature": "g7igv3gaiG0XibxuCOxPgOln3CC9VRjcySZy+iGNvNZUywdbSHK0L5iqDJplrTFgGlak5hAPmlh9fREI33EXCg==.sig.ed25519"
 }
