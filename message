@@ -1,17 +1,21 @@
 {
-  "previous": "%w70KHvcz73awX2wOAi1W42rvBJh8oDP3bLVcrBTARQM=.sha256",
+  "previous": "%oJGs5U9wWOf4dhWC0eyrJSoUHQ6uE8HVL0iDj3PO/2c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7002,
-  "timestamp": 1541454787262,
+  "sequence": 7003,
+  "timestamp": 1541454814722,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%zzuSL+ciUXSjD1aVsycFlParUc5/fovR5gak1k6Djls=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%JNImRpzPvr33DvCN9v10hWgqShmCcZerzCOwYF/UC8A=.sha256",
+    "branch": "%fEVGFYOh+PrOKpTwO6nCEGpPEt9fLZFV+Dj+sf3AI0g=.sha256",
+    "channel": "patchbay",
+    "text": "^ [@bencevans](@IrdwTU5F0XIffYsBeP90ORWsXlQo9+VggKnQaLqLADY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@IrdwTU5F0XIffYsBeP90ORWsXlQo9+VggKnQaLqLADY=.ed25519",
+        "name": "bencevans"
+      }
+    ]
   },
-  "signature": "ka5ThbcJziJvy6wjtaBqaJvNSwiXdM79HdFp6y+QP+dLlnx+zYotvYfVscbpU1JNLrN+xodegMk+a7PG+LAAAQ==.sig.ed25519"
+  "signature": "6o7mcfCdC/CFuKa/1zVPJzIGB3u2Xbl2WbCyrrM0HqUekffrNGwWgr0cpWDflPnO+fLshOOL52c+efL4zXJwCQ==.sig.ed25519"
 }
