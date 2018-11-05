@@ -1,21 +1,17 @@
 {
-  "previous": "%Jqz4xUmGt1zbeJsNOO73LvqJ/EFM5salLGAkvQuGqp8=.sha256",
+  "previous": "%JokIQZORQK83XQv1mzNJ7zewzpKhog2hRkNHs/P5bqE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7013,
-  "timestamp": 1541455831392,
+  "sequence": 7014,
+  "timestamp": 1541455833174,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%D0kr58QPashSxMxS5dLm7KSZfsf6rVyOaVYsiGVNFVs=.sha256",
-    "branch": "%D0kr58QPashSxMxS5dLm7KSZfsf6rVyOaVYsiGVNFVs=.sha256",
+    "type": "vote",
     "channel": "ssb-thankful",
-    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) If you don't mind, I'd love if you pushed to a branch on the SSBC org. I maintain my personal fork on the `christianbundy` branch and I'd love to merge in your changes to try them out.",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      }
-    ]
+    "vote": {
+      "link": "%D0kr58QPashSxMxS5dLm7KSZfsf6rVyOaVYsiGVNFVs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lxohbi72Hu9ZWC0shBtlAmIgVfd0RHrYa3JSxOeWZTOfJeb/FADOJ8EO2wZLITKAvabOluKxXMLsIswnJvU3Aw==.sig.ed25519"
+  "signature": "LEuwW+rZvFztD2+8pZAeXJD6Xkd7MGAiWmaIjno3tcB9w/eW88iXog7XJN7tOdrPBM0JfFA80pF0oc+79PR1Aw==.sig.ed25519"
 }
