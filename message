@@ -1,24 +1,21 @@
 {
-  "previous": "%t1iAdgZsaEzAdSItG72F+AE4nl/8nsg5HdgwHCFvdD0=.sha256",
+  "previous": "%yu3aoLAQdDNvaQf31IA7S5Z5znapLckk0LnXFByoLYM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7017,
-  "timestamp": 1541459408867,
+  "sequence": 7018,
+  "timestamp": 1541459645572,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
-    "branch": [
-      "%qW8+tNet5ZAjM+/iMOM3TQIzLD41OWVEgOrIvhsO6o8=.sha256",
-      "%w2zhcfPBukc1Ztr4dUHjeW5Ahc+AOxUFtGQHJ0m0A7Y=.sha256"
-    ],
-    "channel": "ssbc",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n\nYep, we pass an array called [`exemptLabels`](https://github.com/ssbc/secure-scuttlebutt/blob/e0e96fbe42e9787fb01e7f2392eed3605b547c2c/.github/stale.yml#L6-L8) which are ignored by the bot. The defaults are \"pinned\" and \"security\", but we can use anything we'd like. We could also make issues exempt if they're added to a GitHub project or milestone. I'm a bit concerned about using exemptions and being accused of \"rules for thee, but not for me\" behavior, which leads me to another strange suggestion: could we make this more **s u b j e c t i v e** by exempting issues that are assigned to *any* SSBC member?\n\nThis would allow any of us to assign ourselves to an issue, saying \"I will take responsibility for this bug/feature/etc\" and exempting the issue/PR from any Stale bot shenanigans. Any agreed-upon features could be assigned to the folks who agreed upon it, and if/when someone decides they don't dig it then they can unassign themselves. This transfers the responsibility and accountability from a virtual bot to a friendly human, and lets us support folks in the community by directly assigning ourselves to issues. This also means we don't need to make new labels for each repo, or try to shoehorn semantics into existing issues. **Are there any major downsides to this approach?**",
+    "root": "%D0kr58QPashSxMxS5dLm7KSZfsf6rVyOaVYsiGVNFVs=.sha256",
+    "branch": "%t1iAdgZsaEzAdSItG72F+AE4nl/8nsg5HdgwHCFvdD0=.sha256",
+    "channel": "ssb-thankful",
+    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) Working for me, nice! One nice thing might be to add a link to the profile, or even just the ID -- I don't recognize some of these avatars, and it would be great to be able to check out their profile.",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "Powersource"
       }
     ]
   },
-  "signature": "Lid4TA8aULdDi2yMs1CwkA9srGvQ2jtz0nLAuwM6MnqFu2INlt2/9jGkA+iPYl1Ku6KibBPzfWx5EXUBTDk+DQ==.sig.ed25519"
+  "signature": "Kx5q3lehg+lgFbl5d9XH7K2MnhrVUZPXzQ3tATxmicuZlztceiXr5myAYtDuuOBLhZVtFsivV5PAz/DQO2ufAQ==.sig.ed25519"
 }
