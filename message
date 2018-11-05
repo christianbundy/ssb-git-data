@@ -1,30 +1,18 @@
 {
-  "previous": "%+plD/PfLOAhSt5vLgdA+E7ysvkuhXPbY/7uecVkgtGI=.sha256",
+  "previous": "%fbKq/q66IYCANa43sD6NLgHXg/w+WMpZbKzUfxk+pOo=.sha256",
+  "sequence": 7006,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7005,
-  "timestamp": 1541455112449,
+  "timestamp": 1541455172983,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Electron, Debug, and redefining `console.log`\n\nWe're doing a thing in #patchwork and #patchbay where we redefine `console.log` to make it log to both the browser console *and* the terminal console. Historically this has been fine, but as more packages start using `debug` we're starting to have an issue with their [web browser integration](https://www.npmjs.com/package/debug#web-browser).\n\nLong story short, the web browser console takes color codes in a different format than the terminal, so those browser logs are being output to the terminal as a big unreadable mess. No good. The two solutions, as I see them:\n\n- stop using debug, and have our dependencies stop using debug\n- stop redefining `console.log` to output browser logs to the terminal (my preference)\n\nAnyway, I'm sure it will annoy someone eventually, so I just wanted to document both the problem and the solution. **Does anyone mind if we stop sending browser logs to the terminal?**\n\ncc: #somebody-should #patchwork-dev #patchbay-dev ",
-    "channel": "ssb-dev",
-    "mentions": [
-      {
-        "link": "#patchwork"
-      },
-      {
-        "link": "#patchbay"
-      },
-      {
-        "link": "#somebody-should"
-      },
-      {
-        "link": "#patchwork-dev"
-      },
-      {
-        "link": "#patchbay-dev"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 29,
+    "root": "%umxGNxZ/1t2/XCGBXW+whUO30Zssh6oLdCc8yWYLPUM=.sha256",
+    "orig": "c3",
+    "dest": "d4",
+    "pgnMove": "cxd4",
+    "fen": "r3kbr1/ppp2p1p/8/3Pp3/3PNp1q/3P3P/PP3PB1/R1BbK2R b q - 0 15",
+    "branch": "%1G1BYDgPrtfDOIOnX7HIzC6bMHzMYtwcMPwE/xY1THI=.sha256"
   },
-  "signature": "QkJmd51gMqu3vUurBUZudQbOqJBQewKPyKAFfZvmnrImPLUBVT0nQ+2Mf37aT/0F/wFvHlFFq6sVUZsx/qDBBw==.sig.ed25519"
+  "signature": "tq6kdRuQqMYMbFMDU5LK7QBY7eq5ITUcirU7DyimQ/WEEoEERZVH+SONyIGxyX8csNxqnO2fBjEBz2FCWukPAg==.sig.ed25519"
 }
