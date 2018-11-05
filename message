@@ -1,17 +1,57 @@
 {
-  "previous": "%auWRu8kVLRIxdga8bMHEFE06ZRH4lOu6JEKIw6G8pS8=.sha256",
+  "previous": "%O+coGKqQlxHobtuPTDKuK6zE4js47LoYBRPswzJOAMw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6968,
-  "timestamp": 1541440868245,
+  "sequence": 6969,
+  "timestamp": 1541441285384,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "branch": "%2kHICHpLOGaIMnjmNzrEBT85ho7jzW7H2l+R3c5bGrE=.sha256",
     "channel": "ssbc",
-    "vote": {
-      "link": "%HWV/Ll1zkQw6Yi8V0CpWlg4kgRPmZxNVoApq5sM0G38=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "cc: [@Ed Galligan](@y2G07JSW0+UqmZDoyVLXAnNoN93Rw+grMSVbVhgDeF4=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) [@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519)\n\nIt sounds to me that there are two separate issues:\n\n- emails about stale issues are bad\n- closing stale issues: good or bad?\n\n## Emails\n\nGitHub notifications have always been unweildly, but they're especially bad when you start making mechanical edits or automated actions. I have an [email filter](%EDUJBsMlPH/J9J+VYSPU51OZz2xNTRrX2o57kfvAUJg=.sha256) I use to keep bot notifications out of my inbox, but *really* these emails should be few and far between after this first batch. It's worth nothing that [if this bot continues] we'll get [\"issue closed\" emails on the 8th](%X/cLSk0MH9XwJa2u3hCFKY5wEhDzqislwSpqibMOphY=.sha256), but that should be the last email onslaught.\n\n## Closing issues\n\n### Problems \n\nI think the semantics may be the root of the problem, especially whether open/close status is descriptive or prescriptive. I don't want to be the authority and prescribe whether an issue *should* be worked on, but I think it's useful to describe which issues *are* being worked on so that we can better organize our attention and energy. To be specific, I think there are ~three use-cases that are critical to support:\n\n1. **New and existing users can check GitHub issues to determine which bugs and features are being actively worked on**, which gives them a perspective on the state of the project and which bugs to watch out for. Hundreds of stale issues give the impression that our software is full of bugs and that new issues will *also* be ignored.\n2. **Developers can check GitHub issues to determine where they can pour their energy to make SSB better.** Hundreds of stale issues make it harder to channel our time and energy into something useful and productive for others in the community.\n3. **Anyone can create issues to suggest what can/should be actively worked on**, which can be easily ignored when competing with hundreds of stale issues for the limited attention of volunteer developers.\n\nOpen GitHub issues are great for managing active and actionable todos, but tend to become disorganized and abandoned if you start using them for archival (documentation, discussion, wishlist, etc.). For example, [lodash auto-closes feature requests until they're ready for implementation](https://github.com/lodash/lodash/blob/master/.github/CONTRIBUTING.md#feature-requests), which doesn't seem very controversial at all. Again though, the semantics are important: stale issues aren't unimportant or unwanted, but when they start to detract from the ergonomics of users and developers I think the cost outweighs the benefit of keeping them open.\n\n### Solutions\n\n#### Issue gardener\n\n> I would rather assign someone to have the responsibility of gardening the issues.\n\nI'd love to work on this, but it sounds like we should all come to some agreement on which issues should stay open. My preference is to *describe* rather than prescribe, and only close issues that are inactive or obviously resolved, but I think this may be getting understood as \"I don't care about your issue\". That's not good, and I feel bad that I'm giving others this impression. If we can decide on a policy for open/closed issues I'm happy to work on this (or support someone else working on it), but I think we may run into the same problem where we have mismatched expectations of what \"open issue\" means. **Would a human issue gardner be the best path forward?**\n\n#### Longer stale period\n\nI think the easiest win here is to lengthen the amount of inactivity required for an issue to be marked as stale. I think [six months](%fdXneL4qD3wPfZS+1Npq0IJwPcNxM1J0L0xAic8Yf0Y=.sha256) would be appropriate, but decided to run with the Stale defaults rather than try to over-engineer to my personal opinions. **Would a longer stale period be a welcome improvement?**\n\n#### Better communication\n\nI'm not a fan of the default stale warning, which is basically \"this is stale, closing soon, thanks!\". Instead, maybe something like \"Is this still relevant? If so, what is blocking it? Is there anything you can do to help move it forward?\" would be better (see: [github:probot/stale#162](https://github.com/probot/stale/pull/162)). Alternatively, maybe something explaining that active issues remain open but inactive issues are closed for better organization? I'm not sure what would be best here, but I think we have room for improvement. **Would a better warning be a welcome improvement?**\n\n#### Kill it with fire\n\nOn the other hand, I'm open to just disabling the bot and going back to how things were. I think it has some serious drawbacks, but after reading the \"I'll respond once to idle pings like this, and then find some other project to contribute to\" ultimatum it sounds like others may have very strong feelings about inactive issues remaining open for decades. I'm *personally* under the impression that using open issues as an archive has externalities on everyone else, but if that's the majority priority then I'm not against reverting these changes. I've been spending a lot of time the past few weeks/months on new and old issues, and really my only priority is to make issues work better for everyone. **Would reverting these changes be the best path forward?**  ",
+    "mentions": [
+      {
+        "link": "@y2G07JSW0+UqmZDoyVLXAnNoN93Rw+grMSVbVhgDeF4=.ed25519",
+        "name": "Ed Galligan"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
+        "name": "joey"
+      },
+      {
+        "link": "%EDUJBsMlPH/J9J+VYSPU51OZz2xNTRrX2o57kfvAUJg=.sha256",
+        "name": "email filter"
+      },
+      {
+        "link": "%X/cLSk0MH9XwJa2u3hCFKY5wEhDzqislwSpqibMOphY=.sha256",
+        "name": "&quot;issue closed&quot; emails on the 8th"
+      },
+      {
+        "link": "%fdXneL4qD3wPfZS+1Npq0IJwPcNxM1J0L0xAic8Yf0Y=.sha256",
+        "name": "six months"
+      }
+    ]
   },
-  "signature": "aTGEaFIIOLpXLRi55YbBpuOnfVAaU2Zt3/1bk0SWpurpnKka7/63ovGyZV7hLW9Lo/RGvFcS/88sJnUKRaqGBA==.sig.ed25519"
+  "signature": "dU5XaBMVhdJt5ZwbQ77K9C+letnzNtZc7jIs3bM1ay/3uccyVUbyXQizwEmyBA21kim62xi4MyQQWqlxOxFDAQ==.sig.ed25519"
 }
