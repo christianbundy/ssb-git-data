@@ -1,17 +1,23 @@
 {
-  "previous": "%tuAulXl6aNcTjOyjmOtLQohF9xRBOUW9FhRNXSn+rZo=.sha256",
+  "previous": "%Mhs/RjB/Cfv6B8sqpDdkDy6h2x3cAChdpGiWA2Q7Vb4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6991,
-  "timestamp": 1541442060011,
+  "sequence": 6992,
+  "timestamp": 1541442306538,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "conceptart",
-    "vote": {
-      "link": "%TTBKdUYhClXF1QaMYJzGFxgDl81P9dIxrOAWbEB8Poc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%dJBnSmDjJmHhDZGeus9Fa2QFE0D+pD64J6nonOFwqt4=.sha256",
+    "branch": "%dJBnSmDjJmHhDZGeus9Fa2QFE0D+pD64J6nonOFwqt4=.sha256",
+    "text": "[@Nikhil Jha](@GwX63L7sXY/LDGXQa6zzeer982FjQnpLZwglGpKekV4=.ed25519) \n\nThat's expected -- people can see *that* you're saying something private, but not the content (or recipient) of your message. Other systems work similarly, except that instead of a central intermediate we gossip each others messages. Maybe #somebody-should make a [warning page](https://tails.boum.org/doc/about/warning/index.en.html) for things that SSB doesn't protect against?",
+    "mentions": [
+      {
+        "link": "@GwX63L7sXY/LDGXQa6zzeer982FjQnpLZwglGpKekV4=.ed25519",
+        "name": "Nikhil Jha"
+      },
+      {
+        "link": "#somebody-should"
+      }
+    ]
   },
-  "signature": "pufzpa37yFSDH+/tj5K8dWQ16bR9yxAVVrEGUMtGPli4J9cNxF37E8rbHZoz6QUV+vf8DK3x+W3aYoS1fHK1AQ==.sig.ed25519"
+  "signature": "YqDz/6+zT6arDbYO+rtegqgjbYNTM/xcXS8e5CdhIyzlxdAYXryC0X9i1ViG94qL4zUc7wK30DjByHazFgVADQ==.sig.ed25519"
 }
