@@ -1,17 +1,21 @@
 {
-  "previous": "%gjh4ZOGmGSM34GBQR96jcNATmTK2bdkvbvRiSWVOsU0=.sha256",
+  "previous": "%jKv4cH11FyVV4ytXVdKGMR4lEFdFObQMTx5XSAOjR2Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6964,
-  "timestamp": 1541437017590,
+  "sequence": 6965,
+  "timestamp": 1541437132936,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%E1ON6eiPmTg7W1NJHze3NjH5j1PaA6lMsd+z3M+affo=.sha256",
+    "branch": "%UvJPx4jcktLJwVN2HC5Q0yX3r4rRh7LR72KJqiQH7H0=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%TcwInWav7YcCksiqIzdldVK+DaagxkU7nMMK408ML/o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@Ed Galligan](@y2G07JSW0+UqmZDoyVLXAnNoN93Rw+grMSVbVhgDeF4=.ed25519) \n\nI'd love to support you in this. It sounds like we'd just need to modify [this SVG](https://github.com/ssbc/patchbay-builder/blob/master/build/icon.svg) and then update the rest of the icons programatically. Is there anything I can do to help you?",
+    "mentions": [
+      {
+        "link": "@y2G07JSW0+UqmZDoyVLXAnNoN93Rw+grMSVbVhgDeF4=.ed25519",
+        "name": "Ed Galligan"
+      }
+    ]
   },
-  "signature": "+0LS7CC2HJOe+UIw/P0lk0DZcS//uBLDPx55Ro1WbVLI5Q/oS3HcvnUzj0wJjij8Xfqcp2DvJeLHGN5I4Y20CA==.sig.ed25519"
+  "signature": "UfYDxto792pZArbcXQj3BPUuH7/8JwQSOaHcZloY6mP0Tka8kWmU67Dhh/JLy/PZ6m9pzqTTP8y0Ct+rlCClCQ==.sig.ed25519"
 }
