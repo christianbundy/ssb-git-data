@@ -1,15 +1,17 @@
 {
-  "previous": "%cpd23en5q0xy8oYi9nKOemhMKUhVli3kKSPb7+H95Xw=.sha256",
+  "previous": "%1VRFI7vZqJkdwXguLEyHJRQO83l9+oa9sP9v3hGyB8g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 6998,
-  "timestamp": 1541444508278,
+  "sequence": 6999,
+  "timestamp": 1541445457549,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%E1ON6eiPmTg7W1NJHze3NjH5j1PaA6lMsd+z3M+affo=.sha256",
-    "branch": "%4wKZv8BmIOuFZtQjjsvu8RFD9PHVlWmViEqYZQ1sVBA=.sha256",
+    "type": "vote",
     "channel": "patchbay",
-    "text": "Relevant: https://github.com/electron-userland/electron-builder/issues/1682"
+    "vote": {
+      "link": "%gkkzaeGt8YK0xa4pUHxPKb18JChH5dMpk1KAt7N/mlY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "s7Tq0Y3F5hPUOBsdv1Yuu2wvpKUVKP9rZrRWTGHnNSVyVtUlQKJXCgrG9TrePaoK6afShC0ickIt4k+j8iTzDg==.sig.ed25519"
+  "signature": "kS4W17GSzy4CsaQ0huZuLmlfIwJx2oW4++sTZiPtPWficb5UEVRd3c94xMLZeqCeykZ3RYW6x+id47fdMNctDA==.sig.ed25519"
 }
