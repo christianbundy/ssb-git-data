@@ -1,16 +1,24 @@
 {
-  "previous": "%3Tn5oxTCQ5jjRsp5ozKGbSWVAmQhaYP+10tUkfYX44k=.sha256",
+  "previous": "%swskT6d1eiW8hwsFIofPUbfbSn0gdoEuDUNCu9RdB5o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7037,
-  "timestamp": 1541514323404,
+  "sequence": 7038,
+  "timestamp": 1541514458549,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Esj0K06kY7Jkf4M70yHFCaKuXinjhJKxb5tFmN6mJmY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%v5DswTOIFX3fmIogc6WecQ1SeHjg60GEMRVRXklAnng=.sha256",
+    "branch": "%2Aejbnp2vJwaPw3WXc1QHPhFFEJQ9HCqKYUPx4UsAwc=.sha256",
+    "text": "Hey [@Maarten](@XxqiDm57mIoNtkqlX5fjkJJiVtp75M4fMJ6Fju4Q/rY=.ed25519), have you seen [this thread](%c8lainR7uhD3n8HVwtgo6JzsJ1g4NLBj3Ba3dUYwOyk=.sha256)? Pretty good discussion over there.",
+    "mentions": [
+      {
+        "link": "@XxqiDm57mIoNtkqlX5fjkJJiVtp75M4fMJ6Fju4Q/rY=.ed25519",
+        "name": "Maarten"
+      },
+      {
+        "link": "%c8lainR7uhD3n8HVwtgo6JzsJ1g4NLBj3Ba3dUYwOyk=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "YXcd1B0/TWCf7r9a8Fg9jSgIPxeNG+794xUw9DJxyEHe//57YPim9N3anXp8YUWbrTQSfkEfcHS1XjafCTZWDg==.sig.ed25519"
+  "signature": "gOjIbLgOOGgYohWzJ22RhMPIHv2Jhq4ebCshqmJByPblYvxLOhBk/dOwd3fx/NjtZzPpfaoqDBxZFL29Lt2PCQ==.sig.ed25519"
 }
