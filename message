@@ -1,14 +1,16 @@
 {
-  "previous": "%7OK5zGZ0z3XXCgQrXrW8ZMNNGi8e1GtrYWAgF7hehIg=.sha256",
+  "previous": "%CzbjwuTZeQwpg1dk0LqjEbxXdzPmF8TzbYSDlZW9Z7U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7057,
-  "timestamp": 1541527909985,
+  "sequence": 7058,
+  "timestamp": 1541527925113,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%HyJZQd8BnB4rk3C1JznXh1963E3LF1kDUvtfNvzdFZU=.sha256",
-    "branch": "%7OK5zGZ0z3XXCgQrXrW8ZMNNGi8e1GtrYWAgF7hehIg=.sha256",
-    "text": "Looks like I can't update it with Patchbay -- the \"Publish\" button is disabled until I change the date/time, but when I do that it just says:\n\n```\nTypeError: c.day.setHours is not a function\n    at HTMLButtonElement.publish (/home/christianbundy/src/ssbc/patchbay/node_modules/patchbay-gatherings/views/edit.js:55:11)\n```"
+    "type": "vote",
+    "vote": {
+      "link": "%okboFRUgCg0FXnbD769hjEfiYHcdvKfWLRK27NhdPCg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "jMbJksFfgrD4JO3UHzWKBHi0XWsvAVmIi18qHpEjaf16w629/7R22ZFEe3HA8qaCO5gJKAGfUOEsL7wgbfC/CA==.sig.ed25519"
+  "signature": "hwsfmJMl9hCrJg/8FR8SP0jUcvrVzUHBO1Hqj919pqnPqjHENAXDJoorDs+Mk3GeY6o8qaVVuVySkZBHeq1MAw==.sig.ed25519"
 }
