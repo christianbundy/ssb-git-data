@@ -1,16 +1,24 @@
 {
-  "previous": "%ZRGPvdUx00J0pOqlZWw+QmCNjCNer8vGEvMG/Dpbcnc=.sha256",
+  "previous": "%gtSVC8Hbm0+p1Z5XqjRkFbtGrvNXrjKJgUgjLgCIz0A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7081,
-  "timestamp": 1541547634296,
+  "sequence": 7082,
+  "timestamp": 1541547787239,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%n168xOazkq8z2LrpV6066WZVqCyTljGjp9t+rBEym9Q=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%jfUXTwk3hBXgtQSw+3X35NXPMwPVUzG0ZCFeTYKmz8M=.sha256",
+    "branch": "%jfUXTwk3hBXgtQSw+3X35NXPMwPVUzG0ZCFeTYKmz8M=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@SandyG](@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519) \n\nAs long as you used a pub invite yourself, then others will connect directly to the pub and use it to get messages about you. You might like this thread: %YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256",
+    "mentions": [
+      {
+        "link": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519",
+        "name": "SandyG"
+      },
+      {
+        "link": "%YOTIrEzB3cnqeu3TSGKSzPHJhDfJbanlwdK0XOqh5sM=.sha256"
+      }
+    ]
   },
-  "signature": "MJkBLhV0+hc3ND5jgwTdDiStJGaFmSwJdrOnhK/rKWNT7ZieP/YUMsH0/CHjZJ/XYMuL5tGUOjnE4zu8N2TyAQ==.sig.ed25519"
+  "signature": "Ep+GxwzqUvR4EDLq5OGa52sNiRHk2pjPtg+1NxY+F4dI6uYW1+ovYkaFLLODLZnWA0rhC2S/Sg9PGsIWCBXrDw==.sig.ed25519"
 }
