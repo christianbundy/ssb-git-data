@@ -1,17 +1,21 @@
 {
-  "previous": "%oAQNsyV9cWyhVcHqkD3duJVhQaAW9Sbsfxzp7NVzFiE=.sha256",
+  "previous": "%lCyls4rci9QLneHCL4kMuSu7lNwu5xz3WHlBTgUXNl8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7064,
-  "timestamp": 1541528596203,
+  "sequence": 7065,
+  "timestamp": 1541528638236,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%5G5jSD8DRt6QcI6eMHl+Olku9pzp0WvmFSXUm5wW/2Q=.sha256",
+    "branch": "%Py1MXnkD/xPhNu8RJOqTWQg5ma7LDwvjqfZqUPV9UmI=.sha256",
     "channel": "economics",
-    "vote": {
-      "link": "%Py1MXnkD/xPhNu8RJOqTWQg5ma7LDwvjqfZqUPV9UmI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@pospi](@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519) Any chance you have another link for that video? Looks like its been removed.",
+    "mentions": [
+      {
+        "link": "@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519",
+        "name": "pospi"
+      }
+    ]
   },
-  "signature": "vXeV+XSz/xIZjLliy/qp9aHEn2uJTq3tLAU/e3sChidNd4YNP4pqDnSJSRIwgdqfiVBsVu2JeQbGcAzYT6BaBg==.sig.ed25519"
+  "signature": "gILfT0Va+G3AZoUIM0jyDcMB0MJFgTlApMOKUUtRxVCR91VdLmw9i6+4zCLifQkGzA3tXgSeBA+eE5xoy2QnBQ==.sig.ed25519"
 }
