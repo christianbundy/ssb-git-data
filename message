@@ -1,17 +1,25 @@
 {
-  "previous": "%AlChtxPHSVr2axAhdMmAng00hlszIHHBKNWWCe7aIiQ=.sha256",
+  "previous": "%sSqj4prKr0mDRr/60Uc+unMKPjw9vZhsfM/q6LvU1UI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7027,
-  "timestamp": 1541513334339,
+  "sequence": 7028,
+  "timestamp": 1541513674856,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%JNImRpzPvr33DvCN9v10hWgqShmCcZerzCOwYF/UC8A=.sha256",
+    "branch": "%8GODIqyJAGopnBINkJ4mE0lj6eXBhB/3t+hiIxU9S2I=.sha256",
     "channel": "patchbay",
-    "vote": {
-      "link": "%EkSICOpFCSQ2Kv+B/xpAR917f+ZYI7cxju4MMGi/ei4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@Avinash](@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519) Oh, I *also* have that issue, it's just intermittent.  I opened [an issue on GitHub about this](https://github.com/ssbc/patchbay/issues/274) yesterday but since nobody said anything I thought I was the only one.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) Is this the problem you were talking about?  ",
+    "mentions": [
+      {
+        "link": "@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519",
+        "name": "Avinash"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "y35bTkKH2MUoz5u6H8QnpDVR4mJ3hc/QwLq6mrD3YWchQ+hY++7A0kVlD25V4l4bLlt4TEK+frV1QdFJOh7gDw==.sig.ed25519"
+  "signature": "EKrepJAaoNx5ZdJabVGLlKHMSFF5s/L90w6dThx3ZHRuPzyws1UfU5YdbxHH8R/0mABwXQv4ZZAMK48HaXvqCA==.sig.ed25519"
 }
