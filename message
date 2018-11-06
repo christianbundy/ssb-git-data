@@ -1,17 +1,23 @@
 {
-  "previous": "%11UUb7i462yslf9PBr9PLZ8f5YuAax+f1IV4nFS0JRs=.sha256",
+  "previous": "%8L4Oozz9VMt8DmJRkGO1LeIILvwMCSp6jhWbN/CAJCc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7055,
-  "timestamp": 1541527619754,
+  "sequence": 7056,
+  "timestamp": 1541527709305,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%GQC770PL2UMWkshUYBBCLfZP6GExKeab8LrtNc+390E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HyJZQd8BnB4rk3C1JznXh1963E3LF1kDUvtfNvzdFZU=.sha256",
+    "branch": [
+      "%rsGuNeU36n68equpTeT1ON4qQDZs4XisKKoZBAdfyGE=.sha256",
+      "%t63KFiugJPFch3+YKgM1qXFMGXtoAscJ5HdisIVnnGw=.sha256"
+    ],
+    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) I love it, so beautifully hacky.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "Powersource"
+      }
+    ]
   },
-  "signature": "9JhvuFEVnh8iYXtAt2HhOJoyqTu5i21iD+oW4qCZLpl4QydEwjnpgZGb8NOWUfipKLMmvdLFv8HNbqwo380yCA==.sig.ed25519"
+  "signature": "pbBPLHAxYkpsRwEZOgyNSxvP2lAgrlBylCLGWWf9jzgmOvOh2umEuSlxY8Hnv3EpPms3XeCk3qQ4bs98Uk72Ag==.sig.ed25519"
 }
