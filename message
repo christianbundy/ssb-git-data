@@ -1,23 +1,14 @@
 {
-  "previous": "%8L4Oozz9VMt8DmJRkGO1LeIILvwMCSp6jhWbN/CAJCc=.sha256",
+  "previous": "%7OK5zGZ0z3XXCgQrXrW8ZMNNGi8e1GtrYWAgF7hehIg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7056,
-  "timestamp": 1541527709305,
+  "sequence": 7057,
+  "timestamp": 1541527909985,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%HyJZQd8BnB4rk3C1JznXh1963E3LF1kDUvtfNvzdFZU=.sha256",
-    "branch": [
-      "%rsGuNeU36n68equpTeT1ON4qQDZs4XisKKoZBAdfyGE=.sha256",
-      "%t63KFiugJPFch3+YKgM1qXFMGXtoAscJ5HdisIVnnGw=.sha256"
-    ],
-    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) I love it, so beautifully hacky.",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      }
-    ]
+    "branch": "%7OK5zGZ0z3XXCgQrXrW8ZMNNGi8e1GtrYWAgF7hehIg=.sha256",
+    "text": "Looks like I can't update it with Patchbay -- the \"Publish\" button is disabled until I change the date/time, but when I do that it just says:\n\n```\nTypeError: c.day.setHours is not a function\n    at HTMLButtonElement.publish (/home/christianbundy/src/ssbc/patchbay/node_modules/patchbay-gatherings/views/edit.js:55:11)\n```"
   },
-  "signature": "pbBPLHAxYkpsRwEZOgyNSxvP2lAgrlBylCLGWWf9jzgmOvOh2umEuSlxY8Hnv3EpPms3XeCk3qQ4bs98Uk72Ag==.sig.ed25519"
+  "signature": "jMbJksFfgrD4JO3UHzWKBHi0XWsvAVmIi18qHpEjaf16w629/7R22ZFEe3HA8qaCO5gJKAGfUOEsL7wgbfC/CA==.sig.ed25519"
 }
