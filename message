@@ -1,21 +1,33 @@
 {
-  "previous": "%qL8eh+JhRxlS/Soi/+IDSCJPJWBKR0Zp7iz13jvNqu4=.sha256",
+  "previous": "%BWBe2VX+IKaoK9XRbz3YJWZQSQvb7v7ItKsml3nI+hs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7123,
-  "timestamp": 1541615533399,
+  "sequence": 7124,
+  "timestamp": 1541618309993,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%pSKwcnuUIxTe4m9faO+W2TGvThiLD2zl2PVBvlRkEZ4=.sha256",
-    "branch": "%Bbx/hpSlrW/2cr+UHy6KtHTrqa6IeTYwf88eAViWbBw=.sha256",
-    "channel": "new-people",
-    "text": "[@Boo](@I1LxKPdy3QJmD9kGDRnnsaRxt0MIsLUoXDoFDtZ2KNk=.ed25519) Bienvenidos! Any good reads on effective altruism you can recommend?",
+    "text": "**How can messages with fake timestamps be generated programatically?** I'm familiar with `sbot.publish`, but when using `sbot.add` it looks like I have to supply *everything* in `msg.value`, including the signature. Is there a way to make Scuttlebot create the signature for me, or is there a simple way for me to generate the signature myself? I went spelunking in secure-scuttlebutt code but couldn't find where signatures were added.\n\nFWIW, my use-case is adding tests for my SSB plugin that normalizes timestamps with [addMap](https://github.com/ssbc/secure-scuttlebutt#securescuttlebuttaddmap-fn). The behavior is currently pretty simple:\n\n- Set asserted timestamp to received timestamp if:\n  - Asserted timestamp is ahead of received timestamp (time travelers!)\n  - Asserted timestamp is older than [the oldest post](%SABuw7mOMKT5E8g6vp7ZZl8cqJfsIPPF44QpFE6p6sA=.sha256)\n\ncc: #scuttlebot #secure-scuttlebutt [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) ",
+    "channel": "ssb-learning",
     "mentions": [
       {
-        "link": "@I1LxKPdy3QJmD9kGDRnnsaRxt0MIsLUoXDoFDtZ2KNk=.ed25519",
-        "name": "Boo"
+        "link": "%SABuw7mOMKT5E8g6vp7ZZl8cqJfsIPPF44QpFE6p6sA=.sha256",
+        "name": "the oldest post"
+      },
+      {
+        "link": "#scuttlebot"
+      },
+      {
+        "link": "#secure-scuttlebutt"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
       }
     ]
   },
-  "signature": "hfuDuIeM5/6AHSpJ5YBV3sNdX3BSjxXrABdtrhVk5+qm4Up+VaXjfMs3JcCCD3Emg3HTNDv5PIYq+DtL6P8vDw==.sig.ed25519"
+  "signature": "7tUWpgWeKnaGwocegPPQmi+8IWcgSOf6MqUqWIiT9qADUUDLpEuW8/GTYhx/IJjFlJX9jmYHZlXSdDQWn1RPBw==.sig.ed25519"
 }
