@@ -1,17 +1,21 @@
 {
-  "previous": "%He837yUSlA/j5ewP7kXIYYkw+NNlk6W8V//1mrARgoY=.sha256",
+  "previous": "%qL8eh+JhRxlS/Soi/+IDSCJPJWBKR0Zp7iz13jvNqu4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7122,
-  "timestamp": 1541615490381,
+  "sequence": 7123,
+  "timestamp": 1541615533399,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%pSKwcnuUIxTe4m9faO+W2TGvThiLD2zl2PVBvlRkEZ4=.sha256",
+    "branch": "%Bbx/hpSlrW/2cr+UHy6KtHTrqa6IeTYwf88eAViWbBw=.sha256",
     "channel": "new-people",
-    "vote": {
-      "link": "%pSKwcnuUIxTe4m9faO+W2TGvThiLD2zl2PVBvlRkEZ4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@Boo](@I1LxKPdy3QJmD9kGDRnnsaRxt0MIsLUoXDoFDtZ2KNk=.ed25519) Bienvenidos! Any good reads on effective altruism you can recommend?",
+    "mentions": [
+      {
+        "link": "@I1LxKPdy3QJmD9kGDRnnsaRxt0MIsLUoXDoFDtZ2KNk=.ed25519",
+        "name": "Boo"
+      }
+    ]
   },
-  "signature": "BPk63PrWmIl3ppfjv+xKKdxaRMuRXzuLtnHSjBLXOZZvifLRqyWRfCv44BdR7Yyqr10/LYnBxTTouvjYPA2SBw==.sig.ed25519"
+  "signature": "hfuDuIeM5/6AHSpJ5YBV3sNdX3BSjxXrABdtrhVk5+qm4Up+VaXjfMs3JcCCD3Emg3HTNDv5PIYq+DtL6P8vDw==.sig.ed25519"
 }
