@@ -1,21 +1,21 @@
 {
-  "previous": "%GyVcr8UVHoFHR13R1gyMsCaEEew0u1wE32UcYmXLZIc=.sha256",
+  "previous": "%fK4jIy8JYXCb2dgPwv8k/MBppVozBRMDCZFaDLGw3dQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7133,
-  "timestamp": 1541624515148,
+  "sequence": 7134,
+  "timestamp": 1541624681082,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%o2W/Kf4lkPGLQV2TlK6j+uf/HohLA4VcWiR9DIM2qMg=.sha256",
-    "branch": "%3NDQ9+/9/oddiGHqS2+2pbf/bclWWcC1Jk87m9wgIuk=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\n\nThanks! What's the usage on that look like? For example, here's what I'm doing:\n\n```js\nvar validate = require('ssb-validate')\nvar ssbKeys = require('ssb-keys')\n\nvar hmac_key = null\nvar state = validate.initial()\nvar keys = ssbKeys.generate()\n\nvalidate.create(state, keys, hmac_key, { type: 'test'}, Date.now())\n```\n\n```\nError: message has invalid properties:{\n  \"sequence\": null,\n  \"author\": \"@zs+6VuqXEIiA5sC84rZdwYEtCgJLpDrkqnFGxTK7O9g=.ed25519\",\n  \"timestamp\": 1541624459098,\n  \"hash\": \"sha256\",\n  \"content\": {\n    \"type\": \"test\"\n  }\n}\n```",
+    "root": "%KA9PGsW9uXvPLfUh3ySPDycyFCgZ86+WeZMd1wovsU0=.sha256",
+    "branch": "%3YXrnbhzGDYXhJHJ9wwahi3CRAV5zJFnXAd0vOikVog=.sha256",
+    "channel": "privacy",
+    "text": "[@Alois Bělaška](@KMXdPQiPCKPNnfxsBgGl7TAC6LFcWyLepKDa7GcJxyM=.ed25519)\n\nMaybe! This probably wouldn't work if you had other friends on SSB, especially folks that you video chat with or have met in real life. :wink: ",
     "mentions": [
       {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
+        "link": "@KMXdPQiPCKPNnfxsBgGl7TAC6LFcWyLepKDa7GcJxyM=.ed25519",
+        "name": "Alois Bělaška"
       }
     ]
   },
-  "signature": "gYZM6yAof3wNSYcMmSu9AHdTZYhIL/QPPFRXcjJbqfguE4WnM7TJGFgz2V9FyaT2iLO+azgsv1Md2rsW7LY7Bw==.sig.ed25519"
+  "signature": "AexiSFekvjCOP8s2Pr8ecpdP3hyIGXsvCwDvfi0Oo27m3P8L58pZO5mQFC4AilVp040tcqHB7XNpT3gP8Ym1Dg==.sig.ed25519"
 }
