@@ -1,16 +1,20 @@
 {
-  "previous": "%WEJIBsUOShgCE/ToevnnQCh3gGyMb75+3rU71f4xOJc=.sha256",
+  "previous": "%/8CLkaQZwsEL5blkTtwHOpD3DU1U1G2hUZzD2acrvHc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7137,
-  "timestamp": 1541628413540,
+  "sequence": 7138,
+  "timestamp": 1541628666545,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%L7EwOLjrXe76ycdy1C7lTbC0/OJ76BBPReHPCphxzj4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%L7EwOLjrXe76ycdy1C7lTbC0/OJ76BBPReHPCphxzj4=.sha256",
+    "branch": "%M7UatLVX/d7CT6FDWrlbiKX3GWeUeM3Mr7SzEQWSgjo=.sha256",
+    "text": "Here's what I have:\n\n```console\n$ du -s ~/.ssb\n4844192\t/home/christianbundy/.ssb\n$ du -sh ~/.ssb\n4.7G\t/home/christianbundy/.ssb\n```\n\n> **Should we limit the initial load** just to the last n months or n number of threads and blobs?\n\nI don't think this is [currently] possible for feeds, as we need *all* of the messages to completely verify a feed. Blobs, absolutely.\n\n> **Should we define the eviction policy** for blobs and threads stored in the local database?\n\nIt's currently not possible to delete feeds, check out [this thread](%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256). I'm not sure which heuristic(s) we should use for removing blobs, but you can definitely delete blobs from `~/.ssb/` whenever you'd like. I think this would be a good move for folks who are low on space. My hard drive is only 64 GB and I've *personally* had no problems with SSB data, but I'm empathetic to it becoming an eventual issue.",
+    "mentions": [
+      {
+        "link": "%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "YNiJtaNVIHxJohl/2XavtJHT2I1/3NDICceIqenI/pIDNUJUgVk+eiZO1Fi/aYesBbNjZeRnkPmcaJLSnhB2DQ==.sig.ed25519"
+  "signature": "zPcsHD5Aq2P3B0fXca4He13GwJDtEKEoTdLg6nBWEeg//9Op8F3DsotM6Ee1XlyEucLnj6n1vWVqH1H9tHAEAg==.sig.ed25519"
 }
