@@ -1,33 +1,17 @@
 {
-  "previous": "%DhU4oVYGbVTumB5kTPdzlxFmX28dD5FOZE3sFE50P9k=.sha256",
+  "previous": "%P+aPvba8F4hzBqu5pPLFfPMc6nmrIozTzyp3brlGHwg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7140,
-  "timestamp": 1541629268756,
+  "sequence": 7141,
+  "timestamp": 1541629342305,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "**Is `flumedb.addMap()` just a hacky prototype for layered views?** The more I think about the `addMap()` transformation, the more I wonder whether it's antithetical to how flumedb works. Of course it's *very* useful to decrypt messages and/or do #offchain-content and such, but it kind of seems like we're working against the design of the system. Am I tripping, or are you feeling this will be an eventual pain point as well [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)?\n\nThe problem, as I see it, is that flume views (like ssb-search) don't get rebuilt when we get access to new keys/blobs/etc, which makes them outdated. We *could* just force a rebuild of all views when we get access to a new key/blob/etc, but that seems a bit like a hack. Would it make sense to have some concept of layered views, where ssb-search may be implicitly leaning on the unboxer view, which increases in version each time it gets access to a new key? Or have I just complicated the \"rebuild the view\" operation and thrown a version number on top of it?\n\nI'm trying to wrap my head around kappa architecture(s) and how to deal with new information being added to a system, but I'm getting the feeling that the `addMap()` may be sub-optimal. Anyway, **I'd love to hear other thoughts on this, and/or suggestions on how to work without fighting the system.**\n\n#flumedb #flume #kappa #software",
-    "mentions": [
-      {
-        "link": "#offchain-content"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "#flumedb"
-      },
-      {
-        "link": "#flume"
-      },
-      {
-        "link": "#kappa"
-      },
-      {
-        "link": "#software"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-show-and-tell",
+    "vote": {
+      "link": "%4/jtdM4RzjbJYw339Gl1e+rFyjHte6Fbb9WNsNgDT0s=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "f5cHbVi7PXv/01ky2MphTYwRSGGryMA8SySvDRgfwYNE66VtBAOtBO+SxCP3IfhNKAyjHoME6qoEUhQiY7HNDw==.sig.ed25519"
+  "signature": "OXDFy0JHd3hNu3b+k0rKQrW4zu60qCeYWokXWNnUDwv0CCZ6TNU52JsxWP2p2yCfX0//Ul4q4On7BeMLfBc6Bg==.sig.ed25519"
 }
