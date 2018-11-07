@@ -1,17 +1,14 @@
 {
-  "previous": "%sJlVb8lquNhaJ656IsVVVXVxqRqB/4HxuKe5n+5Ghdw=.sha256",
+  "previous": "%y5nwqv3D/clPDXewePdkCMPXSzvRRh7P68cr/pSFoV4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7115,
-  "timestamp": 1541610401953,
+  "sequence": 7116,
+  "timestamp": 1541613994909,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "grants",
-    "vote": {
-      "link": "%q/l4ZF+/tCg4PFGh2XiHyI/7AhnVTFWX3IMqaHtjaXI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%pEGtD84kxLOau5U2urfLld5izaN0BaisEKeKRNiN8Wk=.sha256",
+    "text": "Decided to take a stab at implementing this grammar in [Ohm](https://github.com/harc/ohm) so that we can *actually* play around with it (I liked [this editor](https://ohmlang.github.io/editor/)). The code likely has a ton of room for improvement, but it's the first example of a *working* SSB grammar that we can start to iterate on.\n\n```ohm\nssbURI {\n\n  uriGeneral = scheme segmentPart queryPart? fragmentPart?\n\n  uriBasic = scheme type algorithm integer\n\n  uriCommon = scheme commonType commonAlgorithm integerBase64\n\n  queryPart = \"?\" uric*\n\n  fragmentPart = \"#\" uric*\n\n  uric = reserved | unreserved | escaped\n\n  reserved    = \";\" | \"/\" | \"?\" | \":\" | \"@\" | \"&\" | \"=\" | \"+\" |\n                    \"$\" | \",\"\n\n  escaped     = \"%\" hexDigit hexDigit\n\n  scheme = \"ssb\"\n\n  unreserved = alnum | mark\n\n  mark          = \"-\" | \"_\" | \".\" | \"!\" | \"~\" | \"*\" | \"'\" |\n                      \"(\" | \")\"\n\n  pctEncoded\n    = \"%\"\n    | hexDigit\n\n  subDelims \n    = \"!\"\n    | \"$\"\n    | \"&\"\n    | \"'\"\n    | \"(\"\n    | \")\"\n    | \"*\"\n    | \"+\"\n    | \",\" \n    | \";\" \n    | \"=\"\n\n  segmentNzNcParts\n    = unreserved\n    | pctEncoded\n    | subDelims \n    | \"@\"\n\n  segmentNzNc = segmentNzNcParts+\n\n  pcharParts\n    = unreserved\n    | pctEncoded\n    | subDelims\n    | \":\"\n    | \"@\"\n\n  pchar = pcharParts*\n\n  fragmentParts\n    = pcharParts\n    | \"/\"\n    | \"?\"\n\n  fragment = fragmentParts*\n\n  delimiter = \":\"\n\n  segmentPart = (delimiter segmentNzNc)+\n\n  type = delimiter unreserved*\n\n  commonTypePart\n    = \"feed\"\n    | \"message\"\n    | \"blob\"\n    | \"channel\"\n\n  commonType = delimiter commonTypePart\n\n  algorithm = delimiter unreserved*\n\n  commonAlgorithmParts\n    = \"sha256\"\n    | \"ed25519\"\n\n  commonAlgorithm = delimiter commonAlgorithmParts\n\n  integerPart\n    = delimiter\n    | unreserved\n\n  integer = integerPart*\n\n  base64Parts\n    = alnum\n    | \"-\"\n    | \"_\"\n    | \"=\"\n    \n  integerBase64 = delimiter base64Parts*\n}\n```\n\nMatches:\n\n- **uriGeneral:** `ssb:milky-way:earth:msg:chess:move:sha999:this-is-fine-everything-is-fine`\n- **uriBasic:** `ssb:property:sha-512:07bcffb2ff031dd88351428c80268ac6`\n- **uriCommon:** `ssb:feed:ed25519:TNl1qw6I4dorbnx2i-chCDYh_CAgD-rFAPfXJ7yUTBY=`"
   },
-  "signature": "WMOCIwvefadrATn/c8tayvmmtcTUEU+gglFE5eiUZS8XCwyFRr4QFBpnCsghqzfkECRm04LYTSiwWTGKvHm8BQ==.sig.ed25519"
+  "signature": "REUM6qrhrTsH6qhGtd0GOiWL2P4iBsQ7WDmjF8emlF9PDq1TT4tJqewz9FQMr1Fk72St6Vx21i83B7DTLs2SBw==.sig.ed25519"
 }
