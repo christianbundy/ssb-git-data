@@ -1,23 +1,25 @@
 {
-  "previous": "%hsCeV3pzUgdsZeZN2huxYuiCojSrgvYYQP2CEYyE9iE=.sha256",
+  "previous": "%uTADpSqGM0zfYdpyUIxzgpd0Z+Ntk9DNNtiJ7gjzMZI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7103,
-  "timestamp": 1541608862154,
+  "sequence": 7104,
+  "timestamp": 1541608999075,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%KA9PGsW9uXvPLfUh3ySPDycyFCgZ86+WeZMd1wovsU0=.sha256",
-    "branch": "%wKEMWaWDHO+KaNrexpYnn5Xg845LBpCqjBVpL5zFKdo=.sha256",
-    "channel": "privacy",
-    "text": "True! The best thing we have is #offchain-content, where we move the things you're saying *away* from your feed where it will be archived forever. Specifically, I've spent a lot of time on #blob-content, where the message on your feed just points to a hash of the message, and it's up to your peers whether they give you that message. This makes deletion easier, but not bulletproof.\n\nIt's similar to real life: if you say something silly then you can ask your friends not to repeat it to others, but you don't have any cryptographic guarantees that they won't do it. At the end of the day, [the analog hole](https://en.wikipedia.org/wiki/Analog_hole) will always win, so IMO deletion is something we have to resolve *socially*.",
+    "root": "%G8+zPY38cryD0sjjsq1UEon1+hV1p/KEZoaWbun8RVk=.sha256",
+    "branch": "%XEGqVMKYBSJE4fOvpie6xh25xV2EP1QDx03s/3ongH8=.sha256",
+    "channel": "grants",
+    "text": "[@corlock](@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519)\n\nHey! Have you seen [this thread](%GG9hifLTtb+qg9+vmLPrupsqYngfL+x4F9JW/TCAxrk=.sha256)?\n\n> Also many of these issues/bounties could be maintenance of our stack,\n\nTrue, I'd love to pour some more energy into stack maintenance. It would likely be more difficult to spec than new features, but even critical recurring tasks like \"update dependencies\" are currently very ad hoc.",
     "mentions": [
       {
-        "link": "#offchain-content"
+        "link": "@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519",
+        "name": "corlock"
       },
       {
-        "link": "#blob-content"
+        "link": "%GG9hifLTtb+qg9+vmLPrupsqYngfL+x4F9JW/TCAxrk=.sha256",
+        "name": "this thread"
       }
     ]
   },
-  "signature": "VMMj0ItlItspbY2pvNfCIr8kYiJE7Fze6/IvEObWfse0rnVl8ZurtZ5z+96E2ZoKAUqdHQuOnu3UlT9cegjFDw==.sig.ed25519"
+  "signature": "Vn+/ZLMAsazQhUbCXVkuSE+4+q5WPsiwznfRvrAMCpfPRjs1XoKMv9qNawtdL1MR6zxrFwDwfEABy8nooHQmCA==.sig.ed25519"
 }
