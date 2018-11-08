@@ -1,16 +1,20 @@
 {
-  "previous": "%uXdABUy/NLcNKnq9kqLiQUKdVHl+w/VFSTRY3ffvFT8=.sha256",
+  "previous": "%Is4ldw9S65+Mf3iVyxSSVN/GcAH1BBgs0IT4xuNmB8c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7147,
-  "timestamp": 1541693596527,
+  "sequence": 7148,
+  "timestamp": 1541694328179,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%IWlcRXYWvFPCRl0PEg4ykrXHzLhoxRVp3cCBGjPH4QQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%P+aPvba8F4hzBqu5pPLFfPMc6nmrIozTzyp3brlGHwg=.sha256",
+    "branch": "%IWlcRXYWvFPCRl0PEg4ykrXHzLhoxRVp3cCBGjPH4QQ=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> To make a view that depended on messages and blobs you'd have to be able to handle cases where you've received either the blobs or the messages first.\n\nOh, can views mutate previous messages? I'm trying to imagine how this would work. For example, if we received message 100 and it declared an unbox key to open message 42, could we modify the view for message 42? I think the only thing missing would be the ability to declare the order of views, otherwise you'd have to merge PRs into every view to make sure they depend on ssb-private-view. Could views be stacked that way, where a view consumes another view? ",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "PjkB/ot6uiPz1BNtx1Q3ZljEZmo+6VIFeVAezrCTbjm+4C80X0hR/OAaDsLr+63TbfrtY1H1tgh+YxXbnBaKDw==.sig.ed25519"
+  "signature": "wuKy0MgfcdLgC0SBplejc4ZLA/457Mez39wPa5eiigKIUfz5HLHsqIYXleINcOgXedYVVgTdIAozG/sAuxDWBg==.sig.ed25519"
 }
