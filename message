@@ -1,18 +1,21 @@
 {
-  "previous": "%TenpFmfib4jZc3wg2P7reIAIvLJnEdcdpsjar1FtTBQ=.sha256",
-  "sequence": 7167,
+  "previous": "%vJW+M+q/eBymr0QTeeWK5yhopLOypM68tVcbm2XHY3U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1541701119823,
+  "sequence": 7168,
+  "timestamp": 1541701425612,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 5,
-    "root": "%qI2DL7E+K4IK7qWQ7m2yYOGKoahMvVOPRNKxp84uAWg=.sha256",
-    "orig": "c2",
-    "dest": "c4",
-    "pgnMove": "c4",
-    "fen": "rnbqkbnr/pp2pppp/3p4/2p5/2P1PP2/8/PP1P2PP/RNBQKBNR b KQkq - 0 3",
-    "branch": "%mbqZxLDTrVJe8uhCAgiTiHbHAq4b3/akWEbm8yjXosk=.sha256"
+    "type": "post",
+    "root": "%KA9PGsW9uXvPLfUh3ySPDycyFCgZ86+WeZMd1wovsU0=.sha256",
+    "branch": "%svJ/jxcjLEgRUXvLMReFSPZjWP7SkQZcd2OAoTn3aN4=.sha256",
+    "channel": "privacy",
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\n\nI'm interested in your thoughts on having to opt into being hosted on public SSB viewers. Currently, most of us don't show up on https://viewer.scuttlebot.io, but IMO this gives the impression that these conversations are private, which is bad. It'd be like Bitcoin explorers that didn't show transactions unless you opted into it -- sure, a nice thought, but potentially dangerous for folks who misunderstand this as \"transactions are private unless I opt into public logging\". Do you think requiring opt-in for public viewers is a net postive or negative from a privacy perspective?",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      }
+    ]
   },
-  "signature": "ZYM222S0XDWflIdEND1cOvA/2sEzugxBFTO1lau51QuC6Clq4dyHOpIYNrtz3cnjK6Xopjov2JQTEoyL/HIMCw==.sig.ed25519"
+  "signature": "AmUi9vuT3yU+yD7Kz1hNzDoGAE32ES23ZIgAWqhN3cIQJEWBej1GoS9WHdhkbv5uHDc3acD7astHv0Sh24xCDw==.sig.ed25519"
 }
