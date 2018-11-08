@@ -1,16 +1,20 @@
 {
-  "previous": "%fsUL4+PuPW2gpqb4j3OzcKkWTr+RpOEsBBZKvjEyfeE=.sha256",
+  "previous": "%ySYR6QHH55yEyMvPF8+/n7phbpU5IDvEPQxn7rnP7vg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7151,
-  "timestamp": 1541695745740,
+  "sequence": 7152,
+  "timestamp": 1541696229818,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NplXhKnfdFbpgU+9pwHbq/Jypx4TE0f/mBmt/TyTfpE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%yKDUz3bE9IfDM4LhwKc5ZonxoKOACoEra+A/Lrv2RVE=.sha256",
+    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI've always wondered why they didn't just stick to URIs, any chance you know the backstory on that? I love all the work that's gone into it, but it seems like slashes make URI conformance a problem *and* give the impression that they're filesystem paths. Actually, the \"everything is a file\" thing could be interesting if `cat /http/example.com` actually pulled over HTTP, although I'm not sure how ergonomic it would be.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      }
+    ]
   },
-  "signature": "HHWXGmQhBD2dPpn2aeipMhYBpAmMGLaOsb1nfyyy2UgAw1wLI1g13jK2KEbo46ERCeVOlzIsfUXVZmxGQWW+DQ==.sig.ed25519"
+  "signature": "X416nQZl3ZeAKhT7+aSM6UP8vhADBVYaDkZM20GNFt9vDcfCF17lMRIeD89L5jCR0dR3/4dTQ8HILtXAC5QrDg==.sig.ed25519"
 }
