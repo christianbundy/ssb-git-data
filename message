@@ -1,33 +1,15 @@
 {
-  "previous": "%WFQAtHna/YgEhdcWe8Y6y/HinFWZZMjbGmzEv4h7LIE=.sha256",
+  "previous": "%cDGXLOvaW6VowxvYMz/9bZ6Qk0iCWRowXx12YnSjE68=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7144,
-  "timestamp": 1541687980639,
+  "sequence": 7145,
+  "timestamp": 1541688333788,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%jBe2JUOdjzT2bu0m4rezfpH4p0Aod1jydGvbfmlONDI=.sha256",
-    "branch": "%pTYg/Sti8QJ4pHLtNTLjKXEQHyZxEmna/1qR3pRtOMA=.sha256",
-    "channel": "patchbay",
-    "text": "[@zero](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519) [@Avinash](@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519)\n\nYeah, the `Error { notFound: true, status: 404 }` is bubbling up from the `level-errors` module, and I think it's caused by [this](%fbKq/q66IYCANa43sD6NLgHXg/w+WMpZbKzUfxk+pOo=.sha256).\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nHere's what happens when I try to start on Arch Linux:\n\n```console\n$ ./patchbay-linux-7.15.2-scuttle-shell-x86_64.AppImage\nSTARTING electron\nLOADING config\n> scuttle-shell: starting\nstarted sbot server v13.0.3\nssb-friends: stream legacy api used\n/tmp/.mount_patchbDCQBag/systrayhelper: error while loading shared libraries: libdbusmenu-gtk3.so.4: cannot open shared object file: No such file or directory\nscuttle-shell got exit: { code: 127, signal: null }\nError { notFound: true, status: 404 }\n```   \n\nI was able to resolve the bug with `pacman -S libdbusmenu-gtk3`, so at least it's an obvious fix. I don't have a systray (GNOME Shell) but Patchbay seemed normal after clicking around a bit. I can test more extensively later.",
-    "mentions": [
-      {
-        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
-        "name": "zero"
-      },
-      {
-        "link": "@1APMt97diJmNPAmbKrfQChgFkuLWrJ6CKLPhGS2u7cY=.ed25519",
-        "name": "Avinash"
-      },
-      {
-        "link": "%fbKq/q66IYCANa43sD6NLgHXg/w+WMpZbKzUfxk+pOo=.sha256",
-        "name": "this"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "root": "%57OUUfldZbLHTWTgjLKPN0+oh24HWVzsPUwiVATgvQM=.sha256",
+    "branch": "%57OUUfldZbLHTWTgjLKPN0+oh24HWVzsPUwiVATgvQM=.sha256",
+    "channel": "follow",
+    "text": "I don't think you'll get their messages unless you're they're already within hops. 🙃"
   },
-  "signature": "iIHvqFgBJadAUm7o50JdNEK2N0LO2Bt7nu3607lcxQby2wH2VWArZz0pcwLRsAbFgfbLvPMFfLesuRoqT7AYAw==.sig.ed25519"
+  "signature": "QFPofAgiyYH8QZ6pauDbqjdduH8ePFrrJWnxR6b50b0Ex1MSg51j2lA1Y6Usxx4HdrvkkA7tlKbfrUoOu9yAAQ==.sig.ed25519"
 }
