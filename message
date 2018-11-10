@@ -1,16 +1,26 @@
 {
-  "previous": "%9Fbs761cEDWE4uSPsvzp0UjHJ30tv1z4TTCrs1/lt+Q=.sha256",
+  "previous": "%fEMGx4M+/zYfetlknYfCTxGQGUFSFDQ0tubbYigojBQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7195,
-  "timestamp": 1541811989855,
+  "sequence": 7196,
+  "timestamp": 1541812483145,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sIe9BPNG+van7FtOp3q8SQPj9EirCQBqB59Jfuri2EM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%P+aPvba8F4hzBqu5pPLFfPMc6nmrIozTzyp3brlGHwg=.sha256",
+    "branch": [
+      "%/baMlaRltPjCVELvQcYevhPa3cAd9ssKowzC5AsRRgM=.sha256",
+      "%q5B7GYbpuXxhDXUaj8hGX3r+sUG/hSrIEjpFLzSL73o=.sha256"
+    ],
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) Check out [the readme](https://github.com/ssbc/secure-scuttlebutt/#securescuttlebuttaddmap-fn) and #blob-content for more background. The gist is that you can now mutate messages on read, and I wote a small implementation to get messages-as-blobs working. Happy to answer any questions if you're curious about anything.",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
+      },
+      {
+        "link": "#blob-content"
+      }
+    ]
   },
-  "signature": "1sp2seGzosI/l1jIkkfBkjghPWY1tTnSCsAQ8ZLnhZct1SAx8wyVN2DmtUrc+/0BrCwfGSVbP4FASBl3hhVKCw==.sig.ed25519"
+  "signature": "vYX70nhogKLakVWaf3pVyaVOe6EHjU1C9zJEZBQc1NCsxqEU1Io3fmEVyuP8oieRUByegaJ5iatToNdiLgGXDA==.sig.ed25519"
 }
