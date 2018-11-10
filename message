@@ -1,26 +1,13 @@
 {
-  "previous": "%fEMGx4M+/zYfetlknYfCTxGQGUFSFDQ0tubbYigojBQ=.sha256",
+  "previous": "%Gb6lYGGu54Gl9rSE+MQRfUQXO2vAKeVeW4H0iPgO0c8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7196,
-  "timestamp": 1541812483145,
+  "sequence": 7197,
+  "timestamp": 1541813220830,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%P+aPvba8F4hzBqu5pPLFfPMc6nmrIozTzyp3brlGHwg=.sha256",
-    "branch": [
-      "%/baMlaRltPjCVELvQcYevhPa3cAd9ssKowzC5AsRRgM=.sha256",
-      "%q5B7GYbpuXxhDXUaj8hGX3r+sUG/hSrIEjpFLzSL73o=.sha256"
-    ],
-    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) Check out [the readme](https://github.com/ssbc/secure-scuttlebutt/#securescuttlebuttaddmap-fn) and #blob-content for more background. The gist is that you can now mutate messages on read, and I wote a small implementation to get messages-as-blobs working. Happy to answer any questions if you're curious about anything.",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      },
-      {
-        "link": "#blob-content"
-      }
-    ]
+    "text": "**I'd love to see this JS syntax**.\n\n```js\nconst obj = { a: b: c: d: 42 }\n\n// instead of:\nconst obj = { a: { b: { c: { d: 42 } } } }\n```\n\nI don't know why I like it but I do.",
+    "channel": "javascript"
   },
-  "signature": "vYX70nhogKLakVWaf3pVyaVOe6EHjU1C9zJEZBQc1NCsxqEU1Io3fmEVyuP8oieRUByegaJ5iatToNdiLgGXDA==.sig.ed25519"
+  "signature": "dfe8h+S7YY45BX+mDL3LyuIT+6jD8jy1JpGelkbXCnEbivGX/uu0BWVkhgxVG8DIyBBCqTq+CuyocdN+BOuCBA==.sig.ed25519"
 }
