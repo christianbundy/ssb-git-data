@@ -1,17 +1,21 @@
 {
-  "previous": "%uUQuEBfieOCeU/AjOxnhauDzC3k1H/IR+eA5X1cFQNg=.sha256",
-  "sequence": 7213,
+  "previous": "%a7NNcB2kxy+uCFale50c0qHhWy4Yydvl3wRnuWNERsg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1541978796880,
+  "sequence": 7214,
+  "timestamp": 1541979549890,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%DvqtcdlMdh/IZcsd2kjkGrOTtkFrUTQoB4NBIQUbySU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%yZimmIftSQLo24Ggiluz2xlunZWLMuUTLp9NqwxvX/o=.sha256",
+    "branch": "%djSZCz+SQtJfnuTTVLj2EJdOR6X59jiJQs9WT6Wlkm8=.sha256",
+    "channel": "fork",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI think it was something like this:\n\n```sh\nseq=\"1337\"\nssb_id=\"$(sbot whoami | jq -r '.id')\"\nstream=$(sbot createHistoryStream --id $ssb_id | jq -c \"select(.value.sequence > $seq) | .value.content\")\nfor msg in $stream; do sbot publish . <<< $msg; done\n```\n\nIn this case, `seq` should be set to the last message that successfully replicated, which is a point *before* the fork. \n\nAt the time I had an issue where newlines were getting garbled before `sbot publish .`, but I think that's fixed in the above version. Please let me know if you use it and whether it gives you any trouble! For safety, it might be wise to add a prompt to `sbot publish` since this solution is so experimental.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "yPvLhfuyDIVlNxpeCuLmGX/zGPkucfdI7XUSmJNUtu4AWU5hzbQ/anntHeLb//Jlnn0/pCkhfKABqw5panaLCw==.sig.ed25519"
+  "signature": "h+R8CZKtxTdJ+6rxUcqP9IfDMh5bbnVvXC5PDyibI87cMQUoX2bugsSh2TjcsRE2atl8Y8GwPd06i9gxowalCw==.sig.ed25519"
 }
