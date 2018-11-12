@@ -1,17 +1,33 @@
 {
-  "previous": "%D8VYG6A5pd2xXV7Y6s7AK2RPAmUXYBnVSsY97rqQhPs=.sha256",
+  "previous": "%tNirZ9cOVdWgm2zD3c69u8lZXYysbSx8TWzQaRPgrUc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7227,
-  "timestamp": 1542045847992,
+  "sequence": 7228,
+  "timestamp": 1542063458124,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%Y5VF/XlHIjUC+8CYoBSqfM0s0dhnt8xvkH0XA/jpaNs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "**Looks like we may get `fs` in the browser soon?** I'm super curious what this might mean for FlumeDB and Dat .\n\nhttps://developers.google.com/web/updates/2018/11/writable-files\n\ncc: #software #google #flume #flumedb #browser #dat",
+    "channel": "javascript",
+    "mentions": [
+      {
+        "link": "#software"
+      },
+      {
+        "link": "#google"
+      },
+      {
+        "link": "#flume"
+      },
+      {
+        "link": "#flumedb"
+      },
+      {
+        "link": "#browser"
+      },
+      {
+        "link": "#dat"
+      }
+    ]
   },
-  "signature": "3qSNQhDGdvjU1GPcn3yh5uhvbcAKsPZMfo6ZoHzNaXXRgkfxJ4CYtfL6nOLiWJTV2ij+ftRJ5kmgXau3RGZPAA==.sig.ed25519"
+  "signature": "zJdiQUZ/V62c7wOG2fABvcxb6aohLfvAYLKBGPq6p9QdNkiWagW83iFtRa1xOQH8byemR2rItYIpHcdptLPhDg==.sig.ed25519"
 }
