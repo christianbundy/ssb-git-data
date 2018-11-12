@@ -1,17 +1,21 @@
 {
-  "previous": "%mY9ivBpobTUHkjgaqQXgsTyB1v2qeepLWdQxV/blpfM=.sha256",
+  "previous": "%nEpXf0uD/Agl1thoBYua+5h45ZXEFEWfFH4KyirOEYA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7231,
-  "timestamp": 1542063937540,
+  "sequence": 7232,
+  "timestamp": 1542064222308,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "invocation",
-    "vote": {
-      "link": "%VWqPD5fNwCNWHY53WRLny7DkADolXLMX+3u0vFLb+7g=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%JNImRpzPvr33DvCN9v10hWgqShmCcZerzCOwYF/UC8A=.sha256",
+    "branch": "%aM0i+SMUT6dfdmtxlEtAoQEYZuFu5twWo/VoawpNHok=.sha256",
+    "channel": "patchbay",
+    "text": "[@frankiebee](@plo0t5t1G3h4Y+Zaxw2q5NNE+SsensLDx0TbcYhj8WY=.ed25519) \n\nI've been on Node 8 as well. Any chance you could try Node 11, if it's easy? I'm switching back to Node 10 now to test.",
+    "mentions": [
+      {
+        "link": "@plo0t5t1G3h4Y+Zaxw2q5NNE+SsensLDx0TbcYhj8WY=.ed25519",
+        "name": "frankiebee"
+      }
+    ]
   },
-  "signature": "3Cwfu44cysXI7Bi7nC87mqADJo1zEYd9YdtU0MU7xBw80xkdZU8TmFvEahCJuMjt0cQkDjaAvX1m193cOBsTDg==.sig.ed25519"
+  "signature": "OgctyNG4bhsJHQ2m+bE2bJB23mPfJ/qe+R2strRTTQ0laxgw+HZfORdIKzaRPzd1uo22ph4sIpSm1OwyanzhAw==.sig.ed25519"
 }
