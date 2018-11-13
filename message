@@ -1,12 +1,18 @@
 {
-  "previous": "%Vd/NFo96bH3UI5dM1sQff0B0Q8MwXel6MOYpW1J2Dl0=.sha256",
+  "previous": "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256",
+  "sequence": 7250,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7249,
-  "timestamp": 1542070964732,
+  "timestamp": 1542071093261,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Useful GitHub links for managing SSBC issues\n\nFor the past six months I've been increasingly interested in working through the backlog of SSBC issues, and I've bookmarked a few search queries that I've found useful:\n\n- [open and stale](https://github.com/issues?utf8=%E2%9C%93&q=is:open+user:ssbc+archived:false+label:stale+sort:updated-asc+)\n- [open, non-stale, and unlabeled](https://github.com/issues?utf8=%E2%9C%93&q=user:ssbc+archived:false+is:open+-label:stale+-label:bug+-label:enhancement+-label:question+)\n- [open, ordered by 👍s](https://github.com/issues?q=is:open+user:ssbc+archived:false+sort:reactions-+1-desc)\n- [open with help wanted, ordered by least recent activity](https://github.com/issues?q=is:open+user:ssbc+archived:false+label:\"help+wanted\"+sort:updated-asc)\n\nIt's a big todo list, but I think it's really important to maintain. Anyone else have any nice interesting queries to help prioritize issues?"
+    "type": "chess_move",
+    "ply": 28,
+    "root": "%Js4S1P/qwTjckezos60FbIXo8jty+lMpr6UHtRVgny4=.sha256",
+    "orig": "d8",
+    "dest": "e7",
+    "pgnMove": "Qe7",
+    "fen": "r1b1k1nr/2Bnq2p/2pQp1p1/p2p1pb1/1p1P4/N1P1P3/PP3PPP/R3KBNR w KQkq - 8 15",
+    "branch": "%uPY4vvKEeXZqYRr24OXsKIZakh5xgYxc9WXewEX51sM=.sha256"
   },
-  "signature": "V53yMKY/elp7qcO19iTIvGeq7wPOJL7DR7lSJSnog2uEuSE9VLcxVp1r8/olTQAaMeNjrxNQEgH6NX23yXCPBg==.sig.ed25519"
+  "signature": "Vw+YmeMix/OZMaAsE6Hku+dudZBG2EybyxsLcyMvlzWrH3FCfjX5gB9TD4x63P4HcGxLmFHOJ2CM1CISonMSCQ==.sig.ed25519"
 }
