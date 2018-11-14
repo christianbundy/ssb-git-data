@@ -1,23 +1,18 @@
 {
-  "previous": "%8LfGrQncCmtpY9ct4o/MQAn1gBM0pj5JzLlL59KDe50=.sha256",
+  "previous": "%5r9hfXHBWqyV28zyx3/hHv+0nFN+uofvM5sTkBiTjy0=.sha256",
+  "sequence": 7361,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7360,
-  "timestamp": 1542232664056,
+  "timestamp": 1542232838979,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ILTGceHZTEe4y1iDUwEDBOnErT7ToTJL78TbiHDL5Wg=.sha256",
-    "branch": [
-      "%BcI5a59UlkMJGeA62hX0YL7yHto31MQB3sowQZmMF98=.sha256",
-      "%EUohsmOIyRkQn6xU92ryJqIQdC9Oi7DADGTDCPDNitY=.sha256"
-    ],
-    "channel": "software",
-    "text": "Just saw this today and it reminded me of this conversation: https://andrewkelley.me/post/a-better-way-to-implement-bit-fields.html\n\nI watched a talk on #zig last week and it looks like it could be interesting, even if only as an extra lens to see through.",
-    "mentions": [
-      {
-        "link": "#zig"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 11,
+    "root": "%KB7oC1OqtoJgomXgtklJMeUmF958vzcX5qnQLnuOKko=.sha256",
+    "orig": "e5",
+    "dest": "f3",
+    "pgnMove": "Nf3",
+    "fen": "r1b1kbnr/ppp2ppp/8/3P2q1/3n4/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 2 6",
+    "branch": "%1/LNZBpsg6okRj8hXP1DhFQG69hIDTp4qaqkdZF4//o=.sha256"
   },
-  "signature": "m5r0WIRLxrVSQEKf3fjjb+ed/VNRfz3Mh4/80SohjFX07folaZJnPxP3PKJLvuFisoWUKOhcwQM40/ygsR1cCg==.sig.ed25519"
+  "signature": "JEptX7dLU3bVgMUnUCXYLSiG7iiwxZjmvmvVqDGvSXYx9fbdOBRrADrGPQ5cR9a8l+XTvYtMxLb0Q2Baa8MFAw==.sig.ed25519"
 }
