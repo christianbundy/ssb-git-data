@@ -1,17 +1,24 @@
 {
-  "previous": "%l250heBXvcCi4GJVJ6hQuTwVwomTDhwJHEKTOV/YsFg=.sha256",
+  "previous": "%vR7mmKN6KgYqRqJ8XKmbZ/hq3L7x+8WqQUqmS3tb6H0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7333,
-  "timestamp": 1542224576981,
+  "sequence": 7334,
+  "timestamp": 1542224653988,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%8P1Wqp7mauRyRQfg93nTmyHavRcVpLnKZEg6Fom1NGY=.sha256",
+    "branch": "%7sy9bEYY2B9Y5Tuv6cZMBbDoCRNeDcD3aak2QOminCs=.sha256",
     "channel": "manyverse",
-    "vote": {
-      "link": "%7sy9bEYY2B9Y5Tuv6cZMBbDoCRNeDcD3aak2QOminCs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nLooks great, just downloaded!\n\n---\n\nLoki booty-shake backlink: %qln/pnfut/NR3cJkjTlvpqGL2PGiHWcmlR7vJs2grbc=.sha256 ",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "%qln/pnfut/NR3cJkjTlvpqGL2PGiHWcmlR7vJs2grbc=.sha256"
+      }
+    ]
   },
-  "signature": "T6BlKu8CrOoLMRawi2AlrZ7CYajlO3qFy1F3eEBFx9tJi6aKtZ3oHwhFdNDDrS0MGv+1n/abWTB1BCdxLz2WDw==.sig.ed25519"
+  "signature": "SrH30P7alX7aajfVBHla0m81FvEfsE0SabhWHE9AoUzqWtBkt7oZH459MSlShB8r6ZkP3cSWdW8jcxTyCfsgDw==.sig.ed25519"
 }
