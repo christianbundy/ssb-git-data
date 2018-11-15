@@ -1,18 +1,24 @@
 {
-  "previous": "%OnTgOMC+CEMtdO6nMtDwhH0Y1A51rDHq1bhAas+9J0s=.sha256",
-  "sequence": 7381,
+  "previous": "%We2wZI3P9yQW0cf96of2VLnzkYjHbeERw6g+d7i5mKA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1542312518120,
+  "sequence": 7382,
+  "timestamp": 1542314751478,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 32,
-    "root": "%5M5gFks2P6LrNZgdjvvyXK9gvUsp1ZyQBZR7CK0Ikos=.sha256",
-    "orig": "c7",
-    "dest": "a5",
-    "pgnMove": "Qa5+",
-    "fen": "r3kb1r/1p1b2pp/p2p4/q1pN1p2/8/4PP2/PPP3PP/R1B1K2R w KQkq - 1 17",
-    "branch": "%oOr8IK4v2Kh86GDAwrBPENd7oJq0SrIsexUmWapfk9c=.sha256"
+    "type": "post",
+    "root": "%CGPU0Wvi4Zlaa9NG+vbHju1igmbBPsJxxQKoeAF8jws=.sha256",
+    "branch": [
+      "%aKtTidct2puOqetz+HlJgLDANwBUEbawd1OGO/dJTPo=.sha256",
+      "%v64F6F+MPiYAbFkn+eqNyWt7jLw6fbIjoVUIk1MIR6Y=.sha256"
+    ],
+    "channel": "patchbay-dev",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> though it may be possible to not need that... Also was this person asking for Patchwork or Patchbay?\n\nI'll look into it! They opened [an issue](https://github.com/ssbc/patchbay/issues/281) in Patchbay about the calendar stuff that you recently fixed (🎉), but they can't update to the latest version because there aren't any installers available. ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "JNxazfWaTMt0UC7YKwPNvyaR7uJUCUd86WTUuei7RSl34MorusMfZIIxDPef2UekdQ56vAWhzZXHxzPsQbBsDw==.sig.ed25519"
+  "signature": "6sWaWLOLSEbcd+zLomtHzFAxcWRBMs9pw55gN6l3GNY9zueQPOIGZNTOGIokk8ppcmRGBU6N3r7x1jf6cJcnCw==.sig.ed25519"
 }
