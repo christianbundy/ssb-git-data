@@ -1,17 +1,35 @@
 {
-  "previous": "%rPG3KWLLiMwXSIwKMBPLnaOFs8PBc/NTa2BsrKgwlFY=.sha256",
+  "previous": "%Q3WzYhb5Tz2FT1xukG5a1YEZjqSHiba3ykVhFqosS6E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7374,
-  "timestamp": 1542304838071,
+  "sequence": 7375,
+  "timestamp": 1542306608587,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%rWrqnkaKMbZobEyOlm62A+Q1ZJHLBQKTTimPMLU3IKU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# `secure-scuttlebutt` JavaScript module renamed to `ssb-db`\n\nAfter closing out [stale issues](%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256) I've been trying to spend a bit of time every day making sure that all of the SSBC issues are [properly labeled](%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256) and have some next steps for myself or others. Sparked by [this discussion](%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256), there was [an issue](https://github.com/ssbc/ssb-db/issues/159) created to rename the module, and after review from [@André Staltz](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) and a :+1: from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) (thanks both!) the change has been made.\n\nTo squash any ambiguity, this rename has *no* effect on SSB as a whole: we've only renamed the JavaScript module to make it more ergonomic. In any case, **this thread should serve as a forum to discuss, improve, air grievances, and give feedback on this change**. \n\n## Migration\n\nMigrating from `secure-scuttlebutt` to `ssb-db` should be painless and simple:\n\n- If you're up-to-date with `secure-scuttlebutt@18.6.0`, modify `package.json` and any `require()` expressions.\n- If you're behind, upgrade to `ssb-db@18.6.0`! The old module will continue indefinitely, but I'd recommend upgrading when possible. :wink: ",
+    "channel": "ssb-db",
+    "mentions": [
+      {
+        "link": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+        "name": "stale issues"
+      },
+      {
+        "link": "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256",
+        "name": "properly labeled"
+      },
+      {
+        "link": "%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256",
+        "name": "this discussion"
+      },
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "André Staltz"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
   },
-  "signature": "6GWbffSakpDg7sLXWmKLnWTGVk+CC4CDoVPlzeMQDNGwQpTKd4/aIFZO8MYlIM+b3T0PIbpR0RhaS58/sgAzDg==.sig.ed25519"
+  "signature": "7+LK0jZiAdVeRwMyNHjpv/ogaqjb9xk/NbcG1WabZP8WiEbORXQUpoKRTtswytNnYpJ8weDidKC7I5xC/Wv2AA==.sig.ed25519"
 }
