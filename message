@@ -1,17 +1,25 @@
 {
-  "previous": "%LwVuOSGGbqtBRvYJwp1QGwI403J0oBiX+eb775BMjA4=.sha256",
+  "previous": "%V41N1ltx9o2iAb0nFcTvJ1uO0GCDrXsYXciTh1MdQNE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7391,
-  "timestamp": 1542324135006,
+  "sequence": 7392,
+  "timestamp": 1542324864889,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttlebot",
-    "vote": {
-      "link": "%EAGDhR8QeTQZHYU/VGAb9oBNXtu9Nofv5F5s6y6lRDE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
+    "branch": "%/6bhw5cbyrQ7l/Ycg8lclH/ln9mVVh7F1py7SuNZTG8=.sha256",
+    "channel": "ssb-db",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\n\nI don't think so, but if you notice anything strange please let me know (and/or create an issue). It's worth noting that the current plan is [renaming scuttlebot to ssb-server](https://github.com/ssbc/scuttlebot/pull/575) as well.\n\n---\n\n[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI'm not sure, really. My *personal* feeling is that SSB is a community of humans working on a family of software that communicate over a shared set of protocols, but there are other ways of looking at it too. Alternatively: **the SSB that can be told is not the eternal SSB.**",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      },
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
   },
-  "signature": "FNymA+V5FmRBVx6uTJdZ/USR4G5sUoXad6X8CrGYI8QLM+749rA69jFJkVqOD5j9bbRnb27g7jeDBKkTYI0vCw==.sig.ed25519"
+  "signature": "t2yRlmzMQPKkdBTmOqfycobiFseKwm/P6Cj+YFpmWRLJnQav4GNAzg/GUILcOjYgKtXl2FCmiFbgtbxJqf09AQ==.sig.ed25519"
 }
