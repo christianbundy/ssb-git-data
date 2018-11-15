@@ -1,35 +1,15 @@
 {
-  "previous": "%Q3WzYhb5Tz2FT1xukG5a1YEZjqSHiba3ykVhFqosS6E=.sha256",
+  "previous": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7375,
-  "timestamp": 1542306608587,
+  "sequence": 7376,
+  "timestamp": 1542307469356,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# `secure-scuttlebutt` JavaScript module renamed to `ssb-db`\n\nAfter closing out [stale issues](%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256) I've been trying to spend a bit of time every day making sure that all of the SSBC issues are [properly labeled](%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256) and have some next steps for myself or others. Sparked by [this discussion](%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256), there was [an issue](https://github.com/ssbc/ssb-db/issues/159) created to rename the module, and after review from [@André Staltz](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) and a :+1: from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) (thanks both!) the change has been made.\n\nTo squash any ambiguity, this rename has *no* effect on SSB as a whole: we've only renamed the JavaScript module to make it more ergonomic. In any case, **this thread should serve as a forum to discuss, improve, air grievances, and give feedback on this change**. \n\n## Migration\n\nMigrating from `secure-scuttlebutt` to `ssb-db` should be painless and simple:\n\n- If you're up-to-date with `secure-scuttlebutt@18.6.0`, modify `package.json` and any `require()` expressions.\n- If you're behind, upgrade to `ssb-db@18.6.0`! The old module will continue indefinitely, but I'd recommend upgrading when possible. :wink: ",
+    "root": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
+    "branch": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
     "channel": "ssb-db",
-    "mentions": [
-      {
-        "link": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
-        "name": "stale issues"
-      },
-      {
-        "link": "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256",
-        "name": "properly labeled"
-      },
-      {
-        "link": "%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256",
-        "name": "this discussion"
-      },
-      {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "André Staltz"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ]
+    "text": "**One thing I'd love feedback on: module deprecation.** Every resource I can find insists that when renaming a module you should deprecate *all* prior versions. I originally followed this advice, but the more I think about it the sillier this seems.\n\nFor example, `ssb-db@10.0.0` doesn't exist, so it seems strange that we'd be showing the deprecation notice to people installing `secure-scuttlebutt@10.0.0`. If they try to `npm install ssb-db@10.0.0` it will fail, which makes me think that we should *only* deprecate the latest version. **Are there any compelling reasons to deprecate all versions, or is it fine to just deprecate the latest version?**"
   },
-  "signature": "7+LK0jZiAdVeRwMyNHjpv/ogaqjb9xk/NbcG1WabZP8WiEbORXQUpoKRTtswytNnYpJ8weDidKC7I5xC/Wv2AA==.sig.ed25519"
+  "signature": "Ypcoj7kIuVmEfYc96Mo/LuDOlmS30s5jV1RVjHP6ccmCv59Kfu5c7nuuhb+ne8aY1j0zgNRC9wq65hH3TELiAA==.sig.ed25519"
 }
