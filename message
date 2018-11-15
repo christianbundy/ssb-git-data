@@ -1,15 +1,18 @@
 {
-  "previous": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
+  "previous": "%UdvLI+OsNsaH/2YI06OrHA2YVG8zTG+SuXewzanr59M=.sha256",
+  "sequence": 7377,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7376,
-  "timestamp": 1542307469356,
+  "timestamp": 1542307532166,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
-    "branch": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
-    "channel": "ssb-db",
-    "text": "**One thing I'd love feedback on: module deprecation.** Every resource I can find insists that when renaming a module you should deprecate *all* prior versions. I originally followed this advice, but the more I think about it the sillier this seems.\n\nFor example, `ssb-db@10.0.0` doesn't exist, so it seems strange that we'd be showing the deprecation notice to people installing `secure-scuttlebutt@10.0.0`. If they try to `npm install ssb-db@10.0.0` it will fail, which makes me think that we should *only* deprecate the latest version. **Are there any compelling reasons to deprecate all versions, or is it fine to just deprecate the latest version?**"
+    "type": "chess_move",
+    "ply": 50,
+    "root": "%3GId1gHTuyHadX0HpEz72Qxe9EG12XrcUSgYdBe4+Cg=.sha256",
+    "orig": "a8",
+    "dest": "c8",
+    "pgnMove": "Rc8",
+    "fen": "2rk2nr/pp3ppp/8/1B1p4/4q3/2b3PP/7K/7R w - - 2 26",
+    "branch": "%NxpakoMHNCVy45y1uHvLCsx22ZZ87yjj5bs/J8QrRM0=.sha256"
   },
-  "signature": "Ypcoj7kIuVmEfYc96Mo/LuDOlmS30s5jV1RVjHP6ccmCv59Kfu5c7nuuhb+ne8aY1j0zgNRC9wq65hH3TELiAA==.sig.ed25519"
+  "signature": "aOZZigg7Hn3Tz3xFFdk1Zlv7N/qfxSNwvZfzpGghH6zPqpG3MAj4PtkTpGPu5i8wJH6bzXt7P6TOYVypwUaPAg==.sig.ed25519"
 }
