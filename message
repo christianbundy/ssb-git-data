@@ -1,15 +1,17 @@
 {
-  "previous": "%W/Y+XWOwBNVrgPHSyLkshOrN7R83wt0+6wJXwfGIhqM=.sha256",
+  "previous": "%re/xVSlgCL+pvClqsOFyypQIOLDNDB+kwH1OBs6Ut+0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7378,
-  "timestamp": 1542307738654,
+  "sequence": 7379,
+  "timestamp": 1542311482292,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
-    "branch": "%UdvLI+OsNsaH/2YI06OrHA2YVG8zTG+SuXewzanr59M=.sha256",
-    "channel": "ssb-db",
-    "text": "> I originally followed this advice, but the more I think about it the sillier this seems.\n\nI should clarify: I originally followed this advice, but then reversed it and undeprecated all old versions. The deprecation process is fast, simple, and reversable, so it isn't too late to *deprecate all the things* if there are compelling reasons to go that route."
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%EyTzJSioS/Zo7DAJ/feLSY+34KJCfg+NgssV1TDQh98=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "qTRUoctYKwsCOuGX6Gwm6HQfFdtUqiat4C+bSGmAyrxf/Kk1SMh22y02XEhdYrCQPU5wR16XyCkA0UJHf4ZzCQ==.sig.ed25519"
+  "signature": "YHQFakal51x2lGKAypSlK7P10iEM6Oe216GAUo/JGi2MouSVw0ildzs7tQNDiSXsITmBhrLX9K9EmcGi9ZMEAg==.sig.ed25519"
 }
