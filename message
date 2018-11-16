@@ -1,21 +1,17 @@
 {
-  "previous": "%MqzH97zUsHqTqMm/xMFxcZp3dwAzT0E2/F+OypCKOEY=.sha256",
+  "previous": "%Azi+IL+IeHj8YHdtTZ/pLZlctKpBYri+TyCBpSmzlTs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7402,
-  "timestamp": 1542389730394,
+  "sequence": 7403,
+  "timestamp": 1542396232534,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%PI81jNfHq0L3Rp0TXuTMn5jK1QKGCK1dj9tXbmUAkro=.sha256",
-    "branch": "%DmN/XM9TokkfnZqXvuewYbD1CDrazuHoE5lOx694B/Q=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nThis is really, really, really cool. Thanks for sharing! I'm going to take a look at which modules might be useful to add. \n\nP.S. The design looks great, so even if you didn't design it *I'll never know the difference*. Simple and easy to follow!",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "root": "%37IT5j2DOdGgggz8tS+zLtP0lkeJdSbeg5WNzYxthoI=.sha256",
+    "branch": [
+      "%51hAwpmVqFst7BYPJolhvAI0FNY5KUo65Qbg48UklRM=.sha256",
+      "%Gky/cQtqHFTRqzqZrHd9Blwek8KMpRhkIFdqQu3qyEA=.sha256"
+    ],
+    "text": "> But it would be cool if there was a way to setup a SSB instance for local networking during events that would be something that people could use primarily to talk to each other during the event but then they could also stay in touch after the fact through the same interface/identity and also get connected to SSB in general.\n\nI'd really dig this. One thing that's important, but so far unsaid (I think?) is that this device really doesn't need internet access at all. You could have a Bring Your Own Feed configuration where people connecting to the pub are the people who are uploading the content, to the point where you could reset the device with a new keypair every day and nothing of value would be lost. This way, \"solving\" the captive portal just means using the pub invite and getting connected to the device.\n\nI'm really excited for this, I just wish I had the time to spend right now!"
   },
-  "signature": "ZWHjFP5rX8IDROICBNHfPtZF1ZYEDv4kLqZEcOl3AlIZbMEF+wxwnmCLzbN0Hy/gUmdb5yv2g3pH2gI3qh4rAw==.sig.ed25519"
+  "signature": "D/y66yWCvdzJRqAVaIyHbhOpiqQS+eYB8pQSJb5LedCjw5bH2DiubvhJJQnxWOdwJSV6E2c1/SAhQtr8e/5JBQ==.sig.ed25519"
 }
