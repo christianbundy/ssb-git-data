@@ -1,23 +1,17 @@
 {
-  "previous": "%/uB+ZMGwdX2hNkk+akUaj6X63qifFcFHiwYGJpTvNjg=.sha256",
+  "previous": "%YouSJ7gADvEkGErHlgYCondo3dW+f7+GSj1TkU8lAC8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7398,
-  "timestamp": 1542389554596,
+  "sequence": 7399,
+  "timestamp": 1542389568134,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%dW9XpsFFQEgzDIIslYzAnAT74z6AeYrQEO2aGfDaphY=.sha256",
-    "branch": [
-      "%55bG2xtYdogV0Vokjd8nQ0BdNokUiakgnh0UxaQmeWw=.sha256",
-      "%gl/WKRqV3t6y56J7a/iwTMzwGIogJg9ydKNwW6WqU0g=.sha256"
-    ],
-    "text": "[@frankiebee](@plo0t5t1G3h4Y+Zaxw2q5NNE+SsensLDx0TbcYhj8WY=.ed25519) Oh, sorry -- that was a mechanical edit that I did to *all* of our JavaScript modules, but there are tons I've never [manually] interacted with or actually tried to use. On the other hand, ssb-ws is used in the Scuttlebot repo, so it has to have *some* stability, right?",
-    "mentions": [
-      {
-        "link": "@plo0t5t1G3h4Y+Zaxw2q5NNE+SsensLDx0TbcYhj8WY=.ed25519",
-        "name": "frankiebee"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssbc",
+    "vote": {
+      "link": "%UCCgWcMQ9udE5EgUf0Fg3GZqJrgAbezlVGJNqstgWCk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "lSs+el8ZclDfDT/WYttmAiSM5QXV59Hq9ez/dGj3K907/H7eZGhCZBgU/opqnObzsSM8PXUXJYxtOVczJkXHBQ==.sig.ed25519"
+  "signature": "DDXTreoPD2+yRBc+Sv99u0uyMc8WOGK5aLvGNJBOmO+UYIccKSTPouxWJr9GUWkVXBZIfsMVNBhLbiq0rBX2Bg==.sig.ed25519"
 }
