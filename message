@@ -1,16 +1,19 @@
 {
-  "previous": "%PSZISeesPlJOlpcVYkhh4Z5ziEq8EGKWAW+tu+erftw=.sha256",
+  "previous": "%5Dg4apJ28xX3Q2EnmR2RmHFEttviNWoDPyex6j42Djw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7430,
-  "timestamp": 1542412033346,
+  "sequence": 7431,
+  "timestamp": 1542412068641,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xUG5h2sG52nNt/rH3aO/crQjsUlD6q73CkbRTHc5nXc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xUG5h2sG52nNt/rH3aO/crQjsUlD6q73CkbRTHc5nXc=.sha256",
+    "branch": "%xUG5h2sG52nNt/rH3aO/crQjsUlD6q73CkbRTHc5nXc=.sha256",
+    "text": "Hey, welcome! I'd recommend checking out #new-people if you have some time to share a bit more about yourself.",
+    "mentions": [
+      {
+        "link": "#new-people"
+      }
+    ]
   },
-  "signature": "cfp7jSikzTcMsSZVgyw6OeRQv5tvDZVwCLK9wjxYla6ZqcIZCGfWql7zxoA1aLmgW3jK8sbCGTrqzMGPnm5lBg==.sig.ed25519"
+  "signature": "DIN4qBbsSVPaHcjFXHkriIgR7n4rpS8rwM94NQ4BswrJNlQ1ZGzC8PYUuJEoqYx4+9XvEZElIchZqzAYlc/fDQ==.sig.ed25519"
 }
