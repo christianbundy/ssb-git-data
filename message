@@ -1,17 +1,18 @@
 {
-  "previous": "%Azi+IL+IeHj8YHdtTZ/pLZlctKpBYri+TyCBpSmzlTs=.sha256",
+  "previous": "%DWKMrkZqnB07miIKUri98i6USQKqJoccYBiso1PZjyA=.sha256",
+  "sequence": 7404,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7403,
-  "timestamp": 1542396232534,
+  "timestamp": 1542396369990,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%37IT5j2DOdGgggz8tS+zLtP0lkeJdSbeg5WNzYxthoI=.sha256",
-    "branch": [
-      "%51hAwpmVqFst7BYPJolhvAI0FNY5KUo65Qbg48UklRM=.sha256",
-      "%Gky/cQtqHFTRqzqZrHd9Blwek8KMpRhkIFdqQu3qyEA=.sha256"
-    ],
-    "text": "> But it would be cool if there was a way to setup a SSB instance for local networking during events that would be something that people could use primarily to talk to each other during the event but then they could also stay in touch after the fact through the same interface/identity and also get connected to SSB in general.\n\nI'd really dig this. One thing that's important, but so far unsaid (I think?) is that this device really doesn't need internet access at all. You could have a Bring Your Own Feed configuration where people connecting to the pub are the people who are uploading the content, to the point where you could reset the device with a new keypair every day and nothing of value would be lost. This way, \"solving\" the captive portal just means using the pub invite and getting connected to the device.\n\nI'm really excited for this, I just wish I had the time to spend right now!"
+    "type": "chess_move",
+    "ply": 26,
+    "root": "%F4RyI1Pn9LP0ReMfrz3A/aaSxohTA5Xw80rJ4Gke3PU=.sha256",
+    "orig": "g7",
+    "dest": "g5",
+    "pgnMove": "g5",
+    "fen": "2rqkb1r/pp3p1p/3p1n2/3P2p1/2pP1Qb1/2N2N2/PP2BPPP/R3K2R w KQk - 0 14",
+    "branch": "%nVzvc5QKgwzmDpXkQRH3YIu1AtY/GXMu6WFanJkvbY0=.sha256"
   },
-  "signature": "D/y66yWCvdzJRqAVaIyHbhOpiqQS+eYB8pQSJb5LedCjw5bH2DiubvhJJQnxWOdwJSV6E2c1/SAhQtr8e/5JBQ==.sig.ed25519"
+  "signature": "j1RoDl5zXTynk5b3EbOd5AG+HQhZ7NGbmpOCSR3Rj1amo99/bp+QwOxI/C/KIqLGEtadByVrCYOkq5ewGZSNDw==.sig.ed25519"
 }
