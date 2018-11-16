@@ -1,17 +1,13 @@
 {
-  "previous": "%fn+EzbF1A5HbxJ3o4AmmmmS8OI8MmaX2uKTjfQPWkU4=.sha256",
+  "previous": "%2h9vnUw+ie+1z0wKvDdyFYB73DvJdTUSululI6GlQYs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7395,
-  "timestamp": 1542386620774,
+  "sequence": 7396,
+  "timestamp": 1542389433662,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%GMy41mRxajUjMSO0/lb0GZXcFsnawdH5EU0y4v0Uz44=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# JavaScript Lockfiles\n\n**TL;DR:** They're good! I'd love to use them unless there are compelling reasons not to.\n\n## Background\n\nI've noticed that the vast majority of the SSBC JavaScript modules don't have lockfiles, and when PRs come along that *add* lockfiles I've seen people say \"looks great, but can you remove the lockfile?\". I've searched around and haven't really found a compelling reason *not* to use lockfiles, but the [npm docs](https://docs.npmjs.com/files/package-lock.json) describes some pretty useful features of `package-lock.json` for libraries:\n\n> - Describe a single representation of a dependency tree such that teammates, deployments, and continuous integration are guaranteed to install exactly the same dependencies.\n> - Provide a facility for users to “time-travel” to previous states of node_modules without having to commit the directory itself.\n> - To facilitate greater visibility of tree changes through readable source control diffs.\n> - And optimize the installation process by allowing npm to skip repeated metadata resolutions for previously-installed packages.\n\nWhat about applications who always want lockfiles respected with `npm install`? Run [`npm shrinkwrap`](https://docs.npmjs.com/cli/shrinkwrap) and you get the above, *plus* [the `npm-shrinkwrap.json` file](https://docs.npmjs.com/files/shrinkwrap.json) gets published to npm. **Are there any compelling reasons to avoid lockfiles?** If not, I'd like to add lockfiles to our repos.\n\n## Libraries\n\nMost of our modules are libraries, which work great with `package-lock.json`. My plan is to iterate through all repos configured as `package-lock=false`, remove that config, and add a lockfile.\n\n## Applications\n\nWhen deploying npm modules with a CLI/TUI/GUI, I'd propose that we use `npm-shrinkwrap.json` so that dependencies remain locked. Currently, I think that's just Scuttlebot ([soon to be ssb-server](https://github.com/ssbc/scuttlebot/pull/575)), which would alleviate the need to maintain [`scuttlebot-release`](https://github.com/ssbc/scuttlebot-release).",
+    "channel": "ssbc"
   },
-  "signature": "EhwFRVUNDpkJRGTTjm6tGVLkZZiEnRFdUqFrFXhxh/73mRmdz4ES8iWaD2zOugThgMJh/5/kXbj5V0ws9ojJAw==.sig.ed25519"
+  "signature": "OZcA5FVLRnRIMP30QLBVkSES2l2hCdxEIV3hzwZOyF/XGbBUyF1yR6YJZjdpBB6vzqVSiUbrpxyL4FO5clNAAA==.sig.ed25519"
 }
