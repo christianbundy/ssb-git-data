@@ -1,17 +1,21 @@
 {
-  "previous": "%nALRGmNvsd9M34eiyNf1MfzJALS0qNLJv0drOkCK/wQ=.sha256",
+  "previous": "%MqzH97zUsHqTqMm/xMFxcZp3dwAzT0E2/F+OypCKOEY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7401,
-  "timestamp": 1542389638669,
+  "sequence": 7402,
+  "timestamp": 1542389730394,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%PI81jNfHq0L3Rp0TXuTMn5jK1QKGCK1dj9tXbmUAkro=.sha256",
+    "branch": "%DmN/XM9TokkfnZqXvuewYbD1CDrazuHoE5lOx694B/Q=.sha256",
     "channel": "ssb-show-and-tell",
-    "vote": {
-      "link": "%llh+Nxp0HQ7cJWNLF/uFXt5oHZrBfXVu8RWDLBD9JGs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nThis is really, really, really cool. Thanks for sharing! I'm going to take a look at which modules might be useful to add. \n\nP.S. The design looks great, so even if you didn't design it *I'll never know the difference*. Simple and easy to follow!",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "gtInjmn4aADy+/fooEsZW76PnDf4M6cgoHA3J6l2TxLiuRRolgj+ly/eX6SXSb6F7VvA1LEhuhsuVPMZb8l0CA==.sig.ed25519"
+  "signature": "ZWHjFP5rX8IDROICBNHfPtZF1ZYEDv4kLqZEcOl3AlIZbMEF+wxwnmCLzbN0Hy/gUmdb5yv2g3pH2gI3qh4rAw==.sig.ed25519"
 }
