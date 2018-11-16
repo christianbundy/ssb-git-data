@@ -1,21 +1,22 @@
 {
-  "previous": "%2MhnuCBiriZPX0E/3AiUl+H1QO2ePzhkz78ub78CD28=.sha256",
+  "previous": "%Jnn4mASc58xTVGS9F0XcQHkQegYQVWd9dYQPWIZ4AvM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7428,
-  "timestamp": 1542409962445,
+  "sequence": 7429,
+  "timestamp": 1542411505539,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-    "branch": "%9zehI/dBWSL4x2LIIlMa1oyB2sq31g6B1Hz7hOp1+cc=.sha256",
-    "channel": "ssbc",
-    "text": "> I've found package-lock.json to be generally frustrating. Like, I can't tell if npm has installed from the package-lock or not.\n\nThat sounds super frustrating, and [I agree](%axuEdGNAJ/XV0u1Fnb6g5V1HGiQtJLWy1S4kxHnp6aM=.sha256) that the documentation isn't clear enough about how npm interacts with the lockfile. Is there a specific command that was behaving unexpectedly for you? My understanding is that npm only installs from the lockfile *exactly* when using `npm ci` or `npm install module-with-shrinkwrap`, but the rest of the time it follows this behavior:\n\n> 1. The module tree described by the package lock is reproduced. This means reproducing the structure described in the file, using the specific files referenced in “resolved” if available, falling back to normal package resolution using “version” if one isn’t.\n> 2. The tree is walked and any missing dependencies are installed in the usual fashion.\n>\n> -- [npm-package-locks (An explanation of npm lockfiles)](https://docs.npmjs.com/files/package-locks#description)\n\n",
+    "root": "%OsnTYYj1PCCCBbMKOlJyqUa5W8FLLTeb8OFj6nLKoso=.sha256",
+    "branch": [
+      "%/sguMUFOQOkrudtHUNsdWD8INvjLOZZrwApYcI5MAlw=.sha256",
+      "%g8TVgGa3zKNdRHbjp1GDBLrUTveAL6TOyn11+BjYMD8=.sha256"
+    ],
+    "text": "Both of the above are great recommendations. On a personal machine I'd suggest #archlinux. The documentation is fantastic, but you often need to do things yourself, which makes it hard *not* to learn Linux.",
     "mentions": [
       {
-        "link": "%axuEdGNAJ/XV0u1Fnb6g5V1HGiQtJLWy1S4kxHnp6aM=.sha256",
-        "name": "I agree"
+        "link": "#archlinux"
       }
     ]
   },
-  "signature": "WnK9pxP8yeMdJcYtXKagADXDVdixOjGiJHofHC3AeLhlj5dvN/rPaStFTS2/FoKSITNpZds+i/4jKzzSmF92Dw==.sig.ed25519"
+  "signature": "U6xYVAhnt6taIJ65lQL7DY7ggFJU+vnIDXP5J54SGbQ2/LAOOsoec/TFoe4l9pID2GUY11sffLCfk2vUcxKQDg==.sig.ed25519"
 }
