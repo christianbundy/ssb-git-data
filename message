@@ -1,16 +1,21 @@
 {
-  "previous": "%rTkHBan5F77JOzyVBSuQUIlycNL7RVfgpdVi6PEBOdM=.sha256",
+  "previous": "%jh8MNewCcatGd/N6rKIqmpcKPdb5XeVsLBFnkTejKJs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7433,
-  "timestamp": 1542417663432,
+  "sequence": 7434,
+  "timestamp": 1542472118236,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%STuHgtK/8363zGiTqEOhuWB53DaIxm4OnNIHf3GxmQM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "branch": "%gdwaTeoejS4bKG9RDFaGZu/rWuUOGNXoyOfuYDirEHk=.sha256",
+    "channel": "ssbc",
+    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519) \n\n> anyone have tips on improving that workflow?\n\nI think `npm update --depth 9999 multifeed` should do the trick, does that work for you? If you drop \"multifeed\" from the end of the command it will be less specific and should update *everything* while respecting semver and avoiding duplication when possible. I was also using that workaround until recently, but I think it was only really required between npm 5.0 and 5.1 before [this PR](https://github.com/npm/npm/pull/17508) was merged.",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "cblgh"
+      }
+    ]
   },
-  "signature": "a5A/RV8fzOwIOygt2gm39x6/g8IK0xEOcNHz8G57bG9dbvP9eHd+aj9Zij2V1x7IWgmjdwAGYgjsBMdaARNnBw==.sig.ed25519"
+  "signature": "xuP+yg9/nABnGz9Ek1qyN0O0fyyvBAfXtUsG7vqd/wca2D4L+21LpsYHoAS9YhLx1Ir0VTu2q9KxoxN0RJOeBA==.sig.ed25519"
 }
