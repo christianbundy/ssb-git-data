@@ -1,16 +1,32 @@
 {
-  "previous": "%mSbIeG0mvUs8pNuf5uMmMSdJZZcHSbVxLra+sDu292U=.sha256",
+  "previous": "%pTG04B42p18umJEUVTgxw54Ad2/4rOBZzY+VWK1VxWM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7452,
-  "timestamp": 1542566600472,
+  "sequence": 7453,
+  "timestamp": 1542580241766,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%d8scK2y2sR/lpBf/grQ2QNVRjU4GL4+uBnoqVprj3lc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%bGNVM+AYNDStlrXJ271cFS1NNTWbptDcKVL29gyfM2k=.sha256",
+    "branch": [
+      "%jeLEAOYUEeaKgD/cMxqVlpXHOS3/oG1yQi3j37P7Eo4=.sha256",
+      "%zlJ5UlQDWxO/MFelMEdHbnpJnLjBbJMQfhaahezVj58=.sha256"
+    ],
+    "channel": "patchbay-help",
+    "text": "Oops, I was confused above. Here are the real details:\n\n- [my troubleshooting thread](%2BYlg0z/c2Vbtal4i65dYHNbkujcKpmQLaPLRxG7hVI=.sha256)\n- [my pull request to resolve the problem](https://github.com/ssbc/patchbay/pull/270)\n- [a related problem that can't be solved without ripping out the `console.log` redefinition](%fbKq/q66IYCANa43sD6NLgHXg/w+WMpZbKzUfxk+pOo=.sha256)\n\n---\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I see you! Your above message just came through.",
+    "mentions": [
+      {
+        "link": "%2BYlg0z/c2Vbtal4i65dYHNbkujcKpmQLaPLRxG7hVI=.sha256",
+        "name": "my troubleshooting thread"
+      },
+      {
+        "link": "%fbKq/q66IYCANa43sD6NLgHXg/w+WMpZbKzUfxk+pOo=.sha256",
+        "name": "a related problem that can&#39;t be solved without ripping out the console.log redefinition"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "fWjawCfB2yoKxu/YO72fFAN8TvAbp7gsm92TPh+5JYL1gCADWrE8+S2XZXo/+zdkrpB7InZNR6VInO7iztNLAw==.sig.ed25519"
+  "signature": "5BO2ghVTRfftCH2xQQHu/ghBRpMIUwNogxA8XDxb5OMEBccqyMUmzW7E1n2JYgYhVvoL4XqDdLQW2n4Ei6qbAA==.sig.ed25519"
 }
