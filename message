@@ -1,25 +1,13 @@
 {
-  "previous": "%weFamXTHgMaNDVTVOhpQmE89PjIDZ+RP2A23yLloJ/4=.sha256",
+  "previous": "%JZ+Q6a0ltt7GsYLB12farBvgYTpnAsb+mEz4FhUkTbU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7474,
-  "timestamp": 1542642096921,
+  "sequence": 7475,
+  "timestamp": 1542651379181,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%fXuLOYG/XiGYQ3KV5bgrJfPd/xR9CIBF1kAoyWzCfjU=.sha256",
-    "branch": "%Esw1kCHcVKch3i00ZrsQV0Afl/umR5VdMmTlM6C3aYg=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nStill loving this! By the way, I just wanted to document a small bug I found where [this thread](%qt3mrsu50kfJ5zhTrZfE7RVhNw/69iDYTvuFlg7b8NE=.sha256) stays bold regardless of how many times I try to refresh or restart Patchbay. My guess is that it's a weird edge-case where a double-posting thread author with no replies is falsely identified as an unread thread, but I haven't spent any time looking into it.\n\nPlease don't spend any time/energy on this unless you're *really* bored, it doesn't bother me at all and my guess is that it's not a common bug.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "%qt3mrsu50kfJ5zhTrZfE7RVhNw/69iDYTvuFlg7b8NE=.sha256",
-        "name": "this thread"
-      }
-    ]
+    "text": "**How often should Scuttlebot be reconnecting?** I don't follow any pubs, but otherwise Scuttlebot should behave just like everyone else's. In the past week or so I've noticed that sometimes when using Patchbay I've noticed that my instance is slow to sync up with the rest of the network. Usually I'll wait a few minutes, check Patchbay's `/public` page, and if the last post is *still* hours old I'll run `sbot gossip.reconnect` in another terminal and the messages will come pouring in.\n\nHow often should Scuttlebot be reconnecting to peers by default? I'm not sure whether I've found a but or whether I'm just misunderstanding the expected behavior.",
+    "channel": "scuttlebot"
   },
-  "signature": "obUjVzYfJdQpReR0qMGqfKJwAejDO/7nClpMPB+jQyzzP3JMqhZvDkNNLR9vffAIAKHEigg1AaP7XG89VQfDDg==.sig.ed25519"
+  "signature": "fptCs0s+cpJrefcpotFCH3AV5W23fMWYY9p6WwHxSosirjy/KToAZqbMzp/9+NyR/TSQlS1aW7XYCcXHUzaPCQ==.sig.ed25519"
 }
