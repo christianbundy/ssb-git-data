@@ -1,17 +1,32 @@
 {
-  "previous": "%6LjnqUCALk5mATodCTy02t5K0x8u9SkKzUDOvWDLzBM=.sha256",
+  "previous": "%+H30il7YwCoFLoAFwHkc3W41Z3u6u4HjabSVd6xD4N0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7467,
-  "timestamp": 1542641131724,
+  "sequence": 7468,
+  "timestamp": 1542641542425,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
+    "branch": [
+      "%JOqGOY8iJBi2n5RRToKsV9cUVNyxGjqe1a09Oh0ehO8=.sha256",
+      "%RERrqpPUKUT6PxBIvV2m8wZbFur/2Je5m+TaZRNcNo4=.sha256"
+    ],
     "channel": "patchbay",
-    "vote": {
-      "link": "%JOqGOY8iJBi2n5RRToKsV9cUVNyxGjqe1a09Oh0ehO8=.sha256",
-      "value": 0,
-      "expression": "Unlike"
-    }
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nThanks so much for testing! Also, did somebody say Dat links? dat://home-page.angblev.com\n\nThe renderer automatically linkifies http(s), ftp, mailto, `//`, and dat, but we can add other HTTP-like URIs as well. If you ever want to manually linkify something, you can wrap it in `<` and `>` and it will be linkified in all modern/standards-compliant renderers: <magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a>\n\n🍸🍹🍸🍹🍸🍹🍸🍹\n\n---\n\n[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI'd love to remove the \"always linkify images\" feature if others using Patchcore are cool with it. I wrote a note [here](https://github.com/ssbc/ssb-markdown/blob/adaa6f4fbabdbb04727b59e9bc7de4af5a8e4a79/lib/block.js#L150) when I implemented the feature, but at the time my main priority was writing a drop-in replacement for what we currently have.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "L1fELfJapcJgVfBpLjJOVHKq4K/tqe5RmAOgvx/+OQnUVX0UwzRIV5wlXwSG0Ia5Tnk6nI/jmt6JMlyKiC4iCw==.sig.ed25519"
+  "signature": "Dd7D83H5zRS22sTf7rFP3xMkBOdCLyjCfrIWZREX39iVCsFerx94Pzb+mLrGRQU5ldun+XzJts6QnOkY83kNAQ==.sig.ed25519"
 }
