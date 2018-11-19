@@ -1,16 +1,25 @@
 {
-  "previous": "%W+xs+3UjASMwvJVaVHkRVMsuwcrDDdBQ44fjeReXsCk=.sha256",
+  "previous": "%weFamXTHgMaNDVTVOhpQmE89PjIDZ+RP2A23yLloJ/4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7473,
-  "timestamp": 1542641781663,
+  "sequence": 7474,
+  "timestamp": 1542642096921,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%J5uWhvrPmm8CBKEAG8Vaat0UqJlsSO4Nqm3imU4Lo2k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%fXuLOYG/XiGYQ3KV5bgrJfPd/xR9CIBF1kAoyWzCfjU=.sha256",
+    "branch": "%Esw1kCHcVKch3i00ZrsQV0Afl/umR5VdMmTlM6C3aYg=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nStill loving this! By the way, I just wanted to document a small bug I found where [this thread](%qt3mrsu50kfJ5zhTrZfE7RVhNw/69iDYTvuFlg7b8NE=.sha256) stays bold regardless of how many times I try to refresh or restart Patchbay. My guess is that it's a weird edge-case where a double-posting thread author with no replies is falsely identified as an unread thread, but I haven't spent any time looking into it.\n\nPlease don't spend any time/energy on this unless you're *really* bored, it doesn't bother me at all and my guess is that it's not a common bug.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%qt3mrsu50kfJ5zhTrZfE7RVhNw/69iDYTvuFlg7b8NE=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "eaYXj4LWreieVBTmXjqnFZhCs4k3wVlTAWEiKZBOTVteSqQKIWw0rlO360eU3uxNOLHu8WB2sXI1DOmz6rXSBA==.sig.ed25519"
+  "signature": "obUjVzYfJdQpReR0qMGqfKJwAejDO/7nClpMPB+jQyzzP3JMqhZvDkNNLR9vffAIAKHEigg1AaP7XG89VQfDDg==.sig.ed25519"
 }
