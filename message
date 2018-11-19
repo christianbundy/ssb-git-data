@@ -1,17 +1,20 @@
 {
-  "previous": "%AEFdrui9D5EhmWnu74S+oZ/Qaa07VWfhjMXUbckwt+U=.sha256",
+  "previous": "%LvJERvHEDYHvhFyulL9tzPXrzJP548hPyNtOwV8UPiQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7471,
-  "timestamp": 1542641632365,
+  "sequence": 7472,
+  "timestamp": 1542641761917,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchbay",
-    "vote": {
-      "link": "%KmfZ9x1Ha2sXLVC9wqs5MuORt8Emj21NgYAfqgNb334=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Yjolrm9k3qGOhY56PhmyaXAtxj2VM1NXXJ8dSIwZzho=.sha256",
+    "branch": "%29sbKjZuWoAukVuZobdUjyzKI+0imLt923UK4BlxHws=.sha256",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nIt looks like there's a `package-lock.json`, sweet! Could you try `npm ci`? It should reproduce the exact depdendency tree.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "X8pp84LV04DGIBnUBDMikSYJxDxUh0ubNlZ6KWtkqy2X2Yi9d6019BJOIqc4/O8gy7gQMplK5VocXUbdm88JAw==.sig.ed25519"
+  "signature": "tidybfYURJ3Lxrig/Z3y866Q8EfaS5v/BQLuz7Pft5+F+L09ccaj3No36QsS3wzmE4OB6Sp3DdVsWMsUsmRPBQ==.sig.ed25519"
 }
