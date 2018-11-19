@@ -1,32 +1,18 @@
 {
-  "previous": "%+H30il7YwCoFLoAFwHkc3W41Z3u6u4HjabSVd6xD4N0=.sha256",
+  "previous": "%VwwnFJEuUj3FGsnDEQR0ZD13RXgiAxpfgzIoOklkAxo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7468,
-  "timestamp": 1542641542425,
+  "sequence": 7469,
+  "timestamp": 1542641586562,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
-    "branch": [
-      "%JOqGOY8iJBi2n5RRToKsV9cUVNyxGjqe1a09Oh0ehO8=.sha256",
-      "%RERrqpPUKUT6PxBIvV2m8wZbFur/2Je5m+TaZRNcNo4=.sha256"
-    ],
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nThanks so much for testing! Also, did somebody say Dat links? dat://home-page.angblev.com\n\nThe renderer automatically linkifies http(s), ftp, mailto, `//`, and dat, but we can add other HTTP-like URIs as well. If you ever want to manually linkify something, you can wrap it in `<` and `>` and it will be linkified in all modern/standards-compliant renderers: <magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a>\n\n🍸🍹🍸🍹🍸🍹🍸🍹\n\n---\n\n[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI'd love to remove the \"always linkify images\" feature if others using Patchcore are cool with it. I wrote a note [here](https://github.com/ssbc/ssb-markdown/blob/adaa6f4fbabdbb04727b59e9bc7de4af5a8e4a79/lib/block.js#L150) when I implemented the feature, but at the time my main priority was writing a drop-in replacement for what we currently have.",
+    "text": "# movies/music/games for sick days\n\nI've been fighting off a cold since Friday, but I'm still feeling crappy (?!) so I'll be spending my Monday morning at home. Any suggestions on how to pass the time and fight the urge to go to work anyway? I know I should rest, but I can't think of anything to do. My buddy [@Bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519) saw [Free State of Jones](https://en.wikipedia.org/wiki/Free_State_of_Jones_(film)) last night and recommended it to me, plus I just bought Skyrim on sale for $20, but I'd love some more recommendations on things to do once I'm done with those.\n\nThanks all. :heart: ",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
+        "name": "Bram"
       }
     ]
   },
-  "signature": "Dd7D83H5zRS22sTf7rFP3xMkBOdCLyjCfrIWZREX39iVCsFerx94Pzb+mLrGRQU5ldun+XzJts6QnOkY83kNAQ==.sig.ed25519"
+  "signature": "x5SdFbXCVBmzGOYlSaUr43zuI9qorBYoXqHugGuPoR+8JWa3BVzwPL62RC4Fc/Tlazmbopn8GAgpufzgSJOzAQ==.sig.ed25519"
 }
