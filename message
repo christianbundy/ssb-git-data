@@ -1,13 +1,12 @@
 {
-  "previous": "%JZ+Q6a0ltt7GsYLB12farBvgYTpnAsb+mEz4FhUkTbU=.sha256",
+  "previous": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7475,
-  "timestamp": 1542651379181,
+  "sequence": 7476,
+  "timestamp": 1542651796591,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**How often should Scuttlebot be reconnecting?** I don't follow any pubs, but otherwise Scuttlebot should behave just like everyone else's. In the past week or so I've noticed that sometimes when using Patchbay I've noticed that my instance is slow to sync up with the rest of the network. Usually I'll wait a few minutes, check Patchbay's `/public` page, and if the last post is *still* hours old I'll run `sbot gossip.reconnect` in another terminal and the messages will come pouring in.\n\nHow often should Scuttlebot be reconnecting to peers by default? I'm not sure whether I've found a but or whether I'm just misunderstanding the expected behavior.",
-    "channel": "scuttlebot"
+    "text": "> # [Don't work \"remotely\"](http://blairreeves.me/2018/11/09/dont-work-remotely/)"
   },
-  "signature": "fptCs0s+cpJrefcpotFCH3AV5W23fMWYY9p6WwHxSosirjy/KToAZqbMzp/9+NyR/TSQlS1aW7XYCcXHUzaPCQ==.sig.ed25519"
+  "signature": "py3Uz0nY4mQGNseINp+V8YMbXhcdAQqvdMrBUSjLnt9yOFnlxgxW/u8SbCfqan9XurJOKpZcdUHaLfT5Ids4DA==.sig.ed25519"
 }
