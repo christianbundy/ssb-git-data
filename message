@@ -1,14 +1,17 @@
 {
-  "previous": "%CpCGz9LotN+4csj3G5J+1frruGAF0OTfWol/vQ+Etl4=.sha256",
+  "previous": "%l5I/famwbvoufG/a+9Uggmx6B+CYqEEy6cvxo5D1ecI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7513,
-  "timestamp": 1542749790092,
+  "sequence": 7514,
+  "timestamp": 1542749822004,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%CpCGz9LotN+4csj3G5J+1frruGAF0OTfWol/vQ+Etl4=.sha256",
-    "text": "Turns out it *is* pretty simple, here's a JavaScript module: https://github.com/fraction/ssb-uri\n\n🎉🎉🎉🎉🎉🎉🎉\n\nI think the SSB grammar can likely be cleaned up (and probably extracted into its own module), but this should allow us to convert back and forth between the two without much hassle. My only [current] todo is to figure out what to do with channels, since I don't think we have a solid specification. I'm tempted to make `ssb:hashtag` and have it follow the [Unicode hashtag spec](http://unicode.org/reports/tr31/#hashtag_identifiers) but that might break some of our more \"interesting\" channel names. Maybe not a bad thing though?"
+    "type": "vote",
+    "channel": "femininity",
+    "vote": {
+      "link": "%BZ+jgTumA1RvOJDp/N8P12RvSLr7WQW5Y3Cs32HBV6k=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "dS4kxnzVkl7GQys6HoKLSBx/nPOtFK7TcT2rO1jOJ5czKkQjQWjfIXAM0cAbZz9Oim/XzMZS3sK1f8hgj8vrDg==.sig.ed25519"
+  "signature": "HgX/FS6Dg8oyiHFDLdlUWcGGuWM7hsCjyO6NuFahwY1OPhFK1Domg8ihY5XhupxLRjKbzea5vEfr4/ykeSKHAw==.sig.ed25519"
 }
