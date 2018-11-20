@@ -1,28 +1,14 @@
 {
-  "previous": "%qKFgLuoMLylUEvOap134JrSGpvPpUGjt6kSJfY9En2w=.sha256",
+  "previous": "%T1alNERaq85Tl4R1YyWkfrPuL8Mu47n56t4xsTMI+j4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7511,
-  "timestamp": 1542740830949,
+  "sequence": 7512,
+  "timestamp": 1542743564005,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
-    "branch": [
-      "%hr6sw7wdLaFxIDv4dhWK3LNywheGDouw1bL0U0WhjLw=.sha256",
-      "%zg5J0ybOZeE7TCIUvsW8WVhRe3ZlB1wZtXVijCZZY3Y=.sha256"
-    ],
-    "channel": "scuttlebot",
-    "text": "I think these are the guts of the scheduling: https://github.com/ssbc/scuttlebot/blob/b678e7faec6bb6badeb8405acadb5f244ac81512/plugins/gossip/schedule.js#L169-L221\n\nIt makes sense, but I'm unsure what exactly each of these `opts` do: https://github.com/ssbc/scuttlebot/blob/b678e7faec6bb6badeb8405acadb5f244ac81512/plugins/gossip/schedule.js#L92-L104\n\nIt looks like the most recent edits to this file have been by [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) and [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519), if either of you have time I'd love a quick braindump of what you know, otherwise I'll likely just tinker around and see if I can figure it out through experimentation.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
-    ]
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%vH9WeZn6XzsvOKW5e0WUB/ysRAw/bA/FxmR26go3kQ8=.sha256",
+    "text": "FWIW, here's a simple Ohm grammar for the current sigil links:\n\n```ohm\nssbSigilLink {\n\n  sigilLink = sigil base64 \".\" commonAlgorithm\n  \n  sigil = \"@\" | \"%\" | \"&\" \n \n  commonAlgorithm = \"sha256\" | \"ed25519\"\n  \n  base64\n    = (\n      alnum\n      | \"+\"\n      | \"/\"\n      | \"=\"\n    )*\n}\n```\n\nI think this should make it pretty simple to convert between one and the other."
   },
-  "signature": "2qxZbHJNn8VrpgVYUt4I7OCn0J9HKBo6rBYK1llvizg4sNX6BNuiXHG8N6+C07QKqTVctHNkP9fBVmKoxs/wAw==.sig.ed25519"
+  "signature": "1RAS+zM7662dKEdmMuCHrmmzEl80k8MCT9qOs7d8MmJHB9yiJUxppfdGbWSLDSXjrFxxomHfAlS2XoFpneAMAw==.sig.ed25519"
 }
