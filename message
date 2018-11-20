@@ -1,19 +1,17 @@
 {
-  "previous": "%U8YJGELBqdawM01T4Kpzq10VKV8ciCdKq2h2kqjevtM=.sha256",
+  "previous": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7516,
-  "timestamp": 1542753944763,
+  "sequence": 7517,
+  "timestamp": 1542754079498,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# [ssb-uri](https://github.com/fraction/ssb-uri)\n\n> Uniform Resource Identifier (URI) utilities for Secure Scuttlebutt (SSB)\n\nAfter a month of [discussion](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256) I think we've finally nailed down the specification for URIs on SSB. Today I published my first stab at a JavaScript module that converts between sigil links (like `%abcdef.sha256`) and URIs (like `ssb:message:sha256:abcdef`). It's still a work in progress, but I wanted to share where I'm currently at: **https://github.com/fraction/ssb-uri**\n\n## Install\n\n```sh\nnpm install --save ssb-uri\n```\n\n## Usage\n\n```js\nconst ssbUri = require('ssb-uri')\n\nssbUri.fromSigilLink('%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256')\n// => 'ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w='\n\nssbUri.toSigilLink('ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=')\n// => '%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256'\n```\n\n:tada: ",
-    "channel": "ssb-show-and-tell",
-    "mentions": [
-      {
-        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-        "name": "discussion"
-      }
-    ]
+    "type": "vote",
+    "channel": "diycomputing",
+    "vote": {
+      "link": "%ZlYZBZAmQL0E99s6uY19q6K+w5oxOzcObK8Ga7ZhWTc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "swYPBlPRtSVr+sVNuYXmmOCfqolFLymXeXKV9vYIYHFljrBz3JR7LRbiTKUZ/NBC+JwQotDpfNUudvdsamncDQ==.sig.ed25519"
+  "signature": "OI4l/Mp0MBirLahws3sR1Aq9b2vMfHh3QCR8efGu9/1AYV+5WPHnwA+HDaA0T9Hexlr7pQY7ymr+CWiG7p3RAw==.sig.ed25519"
 }
