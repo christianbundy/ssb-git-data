@@ -1,14 +1,14 @@
 {
-  "previous": "%T1alNERaq85Tl4R1YyWkfrPuL8Mu47n56t4xsTMI+j4=.sha256",
+  "previous": "%CpCGz9LotN+4csj3G5J+1frruGAF0OTfWol/vQ+Etl4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7512,
-  "timestamp": 1542743564005,
+  "sequence": 7513,
+  "timestamp": 1542749790092,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-    "branch": "%vH9WeZn6XzsvOKW5e0WUB/ysRAw/bA/FxmR26go3kQ8=.sha256",
-    "text": "FWIW, here's a simple Ohm grammar for the current sigil links:\n\n```ohm\nssbSigilLink {\n\n  sigilLink = sigil base64 \".\" commonAlgorithm\n  \n  sigil = \"@\" | \"%\" | \"&\" \n \n  commonAlgorithm = \"sha256\" | \"ed25519\"\n  \n  base64\n    = (\n      alnum\n      | \"+\"\n      | \"/\"\n      | \"=\"\n    )*\n}\n```\n\nI think this should make it pretty simple to convert between one and the other."
+    "branch": "%CpCGz9LotN+4csj3G5J+1frruGAF0OTfWol/vQ+Etl4=.sha256",
+    "text": "Turns out it *is* pretty simple, here's a JavaScript module: https://github.com/fraction/ssb-uri\n\n🎉🎉🎉🎉🎉🎉🎉\n\nI think the SSB grammar can likely be cleaned up (and probably extracted into its own module), but this should allow us to convert back and forth between the two without much hassle. My only [current] todo is to figure out what to do with channels, since I don't think we have a solid specification. I'm tempted to make `ssb:hashtag` and have it follow the [Unicode hashtag spec](http://unicode.org/reports/tr31/#hashtag_identifiers) but that might break some of our more \"interesting\" channel names. Maybe not a bad thing though?"
   },
-  "signature": "1RAS+zM7662dKEdmMuCHrmmzEl80k8MCT9qOs7d8MmJHB9yiJUxppfdGbWSLDSXjrFxxomHfAlS2XoFpneAMAw==.sig.ed25519"
+  "signature": "dS4kxnzVkl7GQys6HoKLSBx/nPOtFK7TcT2rO1jOJ5czKkQjQWjfIXAM0cAbZz9Oim/XzMZS3sK1f8hgj8vrDg==.sig.ed25519"
 }
