@@ -1,17 +1,24 @@
 {
-  "previous": "%oSZfuQT7Ego85AFA+JYtiFn05P4HlyfEsHtKW7S20fM=.sha256",
+  "previous": "%LmP6mIj5gNIh8PVfHhNiqxnZt0Z47LN4WDC/kG/t/Ic=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7495,
-  "timestamp": 1542736823521,
+  "sequence": 7496,
+  "timestamp": 1542736901781,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%eWIhqoXwTvkCXOkjoXuWOG+TOe94IvxGVtZNnzjJJSo=.sha256",
+    "branch": "%eWIhqoXwTvkCXOkjoXuWOG+TOe94IvxGVtZNnzjJJSo=.sha256",
     "channel": "new-people",
-    "vote": {
-      "link": "%eWIhqoXwTvkCXOkjoXuWOG+TOe94IvxGVtZNnzjJJSo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "Hey [@Jamesc](@1cxInyuaavgkoyz2DyO3Gfq+8lX1uYKsKvC1/Ma/F8A=.ed25519), it looks like you have a *ton* of overlap with many of us. Welcome! Regarding \"3rd party assisted account recovery\", I'd highly recommend checking out #dark-crystal.\n\nLooking forward to getting to know you!",
+    "mentions": [
+      {
+        "link": "@1cxInyuaavgkoyz2DyO3Gfq+8lX1uYKsKvC1/Ma/F8A=.ed25519",
+        "name": "Jamesc"
+      },
+      {
+        "link": "#dark-crystal"
+      }
+    ]
   },
-  "signature": "g5F85HagsM1x72qT9msUQ8rRhFVNLKKFcqeqJFcZhoF4L8SZv6xNnmDqLeszaLELjG/TmoY65jJ+EQmXn9LcCg==.sig.ed25519"
+  "signature": "XVoE2KXsGDQ3LwpgbllK8Q1qqAJUC+sxiL90kRbMFbuvelQ8NHxGijQBCPuYlh9Q1IJofqYZg9iVxg3VIKSHBw==.sig.ed25519"
 }
