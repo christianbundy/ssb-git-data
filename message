@@ -1,17 +1,24 @@
 {
-  "previous": "%l5I/famwbvoufG/a+9Uggmx6B+CYqEEy6cvxo5D1ecI=.sha256",
+  "previous": "%8lPAfTBXlSxLRuMRuPo0HEW3B//2PvbkGyFRnKaTcbs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7514,
-  "timestamp": 1542749822004,
+  "sequence": 7515,
+  "timestamp": 1542751353534,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "femininity",
-    "vote": {
-      "link": "%BZ+jgTumA1RvOJDp/N8P12RvSLr7WQW5Y3Cs32HBV6k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
+    "branch": [
+      "%5HAAgoqRIJ5P3Vk8DNYqpuaDaYjqNTXVvL7W1B2vdVU=.sha256",
+      "%IEedK9dOGUOW5hyMswK6Sj0n1SZ7291PPhsO1wPASc8=.sha256"
+    ],
+    "channel": "patchbay",
+    "text": "[@Tim Schumacher](@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519) \n\n> will this fix numeric channels like #35c3?\n\nI'm not familiar with that bug, but the channel you mentioned renders as a link for me. I *think* we're using the [Unicode hashtag spec](http://unicode.org/reports/tr31/#hashtag_identifiers), but I'm not completely sure. Either way, yes, that channel works great.\n\n> Can you expose the plugins of `markdown-it`?\n\nYes! This actually highlights a pain point with the current design pattern: the renderer accepts [both an input string *and* an options object](https://github.com/ssbc/ssb-markdown/blob/adaa6f4fbabdbb04727b59e9bc7de4af5a8e4a79/lib/block.js#L155-L166), which means that we're doing a bunch of option parsing on each render. I think an improvement would be to create a block renderer with *only* the options object, returning the customized instance of `markdown-it` to be used or further customized:\n\n- **Current:** `ssbMarkdown.block('text', opts)`\n- **Future:** `ssbMarkdown.createBlockRenderer(opts).use(somePlugin).render('text')`\n\nI'd like to make sure the drop-in replacement works before adding any more surface area to the API, but I think that's a great idea for a handful of reasons.",
+    "mentions": [
+      {
+        "link": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
+        "name": "Tim Schumacher"
+      }
+    ]
   },
-  "signature": "HgX/FS6Dg8oyiHFDLdlUWcGGuWM7hsCjyO6NuFahwY1OPhFK1Domg8ihY5XhupxLRjKbzea5vEfr4/ykeSKHAw==.sig.ed25519"
+  "signature": "DhKq4rw/RPC3LiJfMR9iNee/GCq2ZK0+/WJEmhqCvUfS5XhpOlb2f39EShwvSLxSLi40dnpN0l2675hd83b0Bg==.sig.ed25519"
 }
