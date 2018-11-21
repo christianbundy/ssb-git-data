@@ -1,17 +1,24 @@
 {
-  "previous": "%CJqcaA6WSmj8otTzr8wbDh2Fba9iV9uaQDes9qXFlQQ=.sha256",
+  "previous": "%D58PsdAZAjFDmsascz8xd8XsJwIRiqOkyn7eZRtTHEo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7526,
-  "timestamp": 1542766664276,
+  "sequence": 7527,
+  "timestamp": 1542816526345,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "sbot",
-    "vote": {
-      "link": "%vkkjnlM4qbFcp86KEtzcAhUMgn5RD4yE8um5sQWnJhw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
+    "branch": "%XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@Ed Summers](@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519) \n\nThanks, I had a lot of fun playing around with Ohm!\n\nThe main use-case for URIs is linking to SSB posts from outside of SSB. The current identifier scheme, which I've been calling \"sigil links\" (maybe there's a better name?) look like %XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256, and most web/email/chat clients won't parse them as links because they don't follow the [URI standard](https://tools.ietf.org/html/rfc2396). Instead we want to use `ssb:` links, similar to `magnet:` for torrents or `mailto:` for emails, which open your local SSB client when you click them.\n\n> Where could the URIs show up in ssb-land?\n\nEventually you may be able to right-click a post and get a URI for it, similar to how you currently get the sigil links, but otherwise I'm not sure. We could use them when we make Markdown links to other posts, but they may be too verbose:\n\n```md\n[my above post](ssb:message:sha256:FMtGQnt3QdX14KLl-ol4hn_LqzfXFLJZxKjCR1mMm0E=)\n```",
+    "mentions": [
+      {
+        "link": "@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519",
+        "name": "Ed Summers"
+      },
+      {
+        "link": "%XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256"
+      }
+    ]
   },
-  "signature": "Q7vBGER5SIOwAJzyH+Plj60EKTnDMk3J/V3Esi78265Zl1zTILiFt6s8wtUyjoCDax6f8DBw8/1KzqrAcY6/AA==.sig.ed25519"
+  "signature": "piU2rwqie8zA/omefNnGzz5n70d+46GxS1fgpBFOskKmlyCfOaVwqaIkVvO9rhflNrnX/gwy37eHhpPwR21CBA==.sig.ed25519"
 }
