@@ -1,24 +1,21 @@
 {
-  "previous": "%D58PsdAZAjFDmsascz8xd8XsJwIRiqOkyn7eZRtTHEo=.sha256",
+  "previous": "%N7mDyVuygYG1p2UFPE6sWriFMTbCDF6FzSP0v/7rl1k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7527,
-  "timestamp": 1542816526345,
+  "sequence": 7528,
+  "timestamp": 1542823771685,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
-    "branch": "%XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@Ed Summers](@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519) \n\nThanks, I had a lot of fun playing around with Ohm!\n\nThe main use-case for URIs is linking to SSB posts from outside of SSB. The current identifier scheme, which I've been calling \"sigil links\" (maybe there's a better name?) look like %XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256, and most web/email/chat clients won't parse them as links because they don't follow the [URI standard](https://tools.ietf.org/html/rfc2396). Instead we want to use `ssb:` links, similar to `magnet:` for torrents or `mailto:` for emails, which open your local SSB client when you click them.\n\n> Where could the URIs show up in ssb-land?\n\nEventually you may be able to right-click a post and get a URI for it, similar to how you currently get the sigil links, but otherwise I'm not sure. We could use them when we make Markdown links to other posts, but they may be too verbose:\n\n```md\n[my above post](ssb:message:sha256:FMtGQnt3QdX14KLl-ol4hn_LqzfXFLJZxKjCR1mMm0E=)\n```",
+    "root": "%eWIhqoXwTvkCXOkjoXuWOG+TOe94IvxGVtZNnzjJJSo=.sha256",
+    "branch": "%13rKFf+aEyKFiHrDdO4JlzzkG1yPv3WNwwFjB4T7Pek=.sha256",
+    "channel": "new-people",
+    "text": "[@Jamesc](@1cxInyuaavgkoyz2DyO3Gfq+8lX1uYKsKvC1/Ma/F8A=.ed25519)\n\nHere's the website: https://darkcrystal.pw/\n\nMy understanding is that it creates a trust-based backup system, where you can encrypt a secret so that it can only be decrypted by a number of trusted friends.",
     "mentions": [
       {
-        "link": "@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519",
-        "name": "Ed Summers"
-      },
-      {
-        "link": "%XIk6yMPMUeMLWALm/aJ82TKPVn+OHJ+uMBNbpr4hmsI=.sha256"
+        "link": "@1cxInyuaavgkoyz2DyO3Gfq+8lX1uYKsKvC1/Ma/F8A=.ed25519",
+        "name": "Jamesc"
       }
     ]
   },
-  "signature": "piU2rwqie8zA/omefNnGzz5n70d+46GxS1fgpBFOskKmlyCfOaVwqaIkVvO9rhflNrnX/gwy37eHhpPwR21CBA==.sig.ed25519"
+  "signature": "CRfA/64QNpwDYMIjGd2cCcVcMzijrTjPYV1qbbeM09nMFW8fP4cjmdXkVxqg9jv6PvNTrYbOrZ7tsiSJV9qzDg==.sig.ed25519"
 }
