@@ -1,20 +1,21 @@
 {
-  "previous": "%EMhJQ7YdGtGXgxsPrdUNpyHV4FKMy8Jl32g2hhci6MY=.sha256",
-  "sequence": 7550,
+  "previous": "%hYUpNh+z3FE3CA69Rr2MMoxNvi6WYnd3Ejn1jbsk6Tk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543167096059,
+  "sequence": 7551,
+  "timestamp": 1543168863203,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%+bO889HDl30ON5ZF8s0mFUbUmLV6aR0DoLqEE4GEEpY=.sha256",
-    "vote": {
-      "link": "%+bO889HDl30ON5ZF8s0mFUbUmLV6aR0DoLqEE4GEEpY=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%+bO889HDl30ON5ZF8s0mFUbUmLV6aR0DoLqEE4GEEpY=.sha256"
+    "type": "post",
+    "root": "%9YPpIY4VSz0GrtM5eYATjd+GSW1v8HI9aT4TtIJbziw=.sha256",
+    "branch": "%6UHHm6dpPcu+cNEUN+NevLwH269UpXQ/MyD3Yc+ziY8=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nIs it an object? Maybe try `console.log(JSON.stringify(container))` or something? It's hard to know why it's breaking the logging, but I bet it would be more clear if we could get its JSON representation.",
+    "mentions": [
+      {
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "Powersource too"
+      }
     ]
   },
-  "signature": "PdI/QaDy/RtMIb/XvLpCU0AuazF6Tdh38Y4iskxc5eFwYNpRpGAgM6aiKV++DuckQY69TLov/QMmV+C9A9ELAQ==.sig.ed25519"
+  "signature": "9yD2BylqyqWwskfTVIzoAVzQJiJlsGLMK2SF2fqWtf86xW/cXIi11SKNfdt+sPUvG1/1QE8cDtHF2cUqoFWHDA==.sig.ed25519"
 }
