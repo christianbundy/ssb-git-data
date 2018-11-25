@@ -1,20 +1,15 @@
 {
-  "previous": "%iSVx6ELOPyR/HzZHHBKFMqIsPbUdnI1Ms5JW9b7ap9o=.sha256",
-  "sequence": 7561,
+  "previous": "%uYo/lIwYyN9ZeqLA8AkuF5LEHJqBZ0k+X0NXH50yqwo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543178813596,
+  "sequence": 7562,
+  "timestamp": 1543179113320,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%d98EoDCfglL1kV0ciRPycPSGk7jQ72/dGjQgU4AeYF4=.sha256",
-    "vote": {
-      "link": "%TozWzcuNnddVofQLNBjqLVs21kssE4QlQjAvlQ9+UYQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%iSVx6ELOPyR/HzZHHBKFMqIsPbUdnI1Ms5JW9b7ap9o=.sha256"
-    ]
+    "type": "post",
+    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
+    "branch": "%zRzXOnX9K6NuwzzGnB0X7fyZeFO/kVAls/8+ZRu3/Pc=.sha256",
+    "channel": "patchbay",
+    "text": "Turns out that Dat URLs work, but the hash string URI needs to be encapsulated in arrows so the Markdown renderer linkifies it:\n\n```md\n<dat://17b98de88d1979f9a1559f8a709c446ce85f17c3524837207171bd4cd685a0a4>\n```\n\n<dat://17b98de88d1979f9a1559f8a709c446ce85f17c3524837207171bd4cd685a0a4>"
   },
-  "signature": "1SwuZMpr/eiWIKkDr3qZIkeDxtIf/IuAn4mt53P8icb9pD2mO2hGkp9Js6kfgo8COCNhBHgReWpjqjWpYC+9Bw==.sig.ed25519"
+  "signature": "TqXPl+ftxECVLKo4hGCEumoPz32StEXALYeTr1fBpfeDJ4SbUxLQy3kspG+IRyAU1asVAh97u9ydg0XQLyjdCA==.sig.ed25519"
 }
