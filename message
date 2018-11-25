@@ -1,27 +1,20 @@
 {
-  "previous": "%aYMjU+ozY/AvfzNe4q1esgLlHqpiYY4206pFTquXV9o=.sha256",
+  "previous": "%HQfqvwlGG3E0IvND4+H2qbhKWqmMj9IWbh549mv7t74=.sha256",
+  "sequence": 7544,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7543,
-  "timestamp": 1543116051551,
+  "timestamp": 1543164725449,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
-    "branch": "%5+8BphCbMd9xLBjAYoqKmC8hiPXyZ/135Oxx7etE17w=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\n```js\nconst x = 42;\nconst f = a => x\n\nf() === f(x) === 42\n\nif (true) {\n  // it's happening\n}\n```\n\n![patchbay syntax highlighting](&eNOgr4JYoxrpSlL2jDgxmbylDDN2kxFneGzFBpwD/cc=.sha256)\n\nhttps://github.com/ssbc/patchbay/pull/285",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "&eNOgr4JYoxrpSlL2jDgxmbylDDN2kxFneGzFBpwD/cc=.sha256",
-        "name": "patchbay syntax highlighting",
-        "type": "image/png",
-        "size": 91904
-      }
+    "type": "vote",
+    "root": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
+    "vote": {
+      "link": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256"
     ]
   },
-  "signature": "HY1yuRtDTop0TWsr0pjivPxg1y3kiSnaPx0wjbmD8cjpRRVr8G7brvgBvfU+4w9BFiF/LF3516VM6DC+T7xIBw==.sig.ed25519"
+  "signature": "7XRxgSsnnlvnmLeaNBYiE+ohlhGXui0lMNTmNPGagoEb8llSfB2zKk44G695R7ZvHrk8OB3erRccV+7ZDbT+Ag==.sig.ed25519"
 }
