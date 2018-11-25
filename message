@@ -1,21 +1,27 @@
 {
-  "previous": "%ktl+66KfcUhEchgJw7z3Q26q5mHvMzhmJdyPS7/kS7E=.sha256",
+  "previous": "%aYMjU+ozY/AvfzNe4q1esgLlHqpiYY4206pFTquXV9o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7542,
-  "timestamp": 1543114372489,
+  "sequence": 7543,
+  "timestamp": 1543116051551,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%9YPpIY4VSz0GrtM5eYATjd+GSW1v8HI9aT4TtIJbziw=.sha256",
-    "branch": "%fduC+CTDTXmuyrNyRbKRC4rJnwf/Bdvhm6mDuU9Sxxg=.sha256",
-    "channel": "patchbay-dev",
-    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519)\n\nI'm not familar with that, sorry amigo. Do you know what `container` is? I wonder whether it's a gigantic DOM node or something that could break if you tried to print it.",
+    "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
+    "branch": "%5+8BphCbMd9xLBjAYoqKmC8hiPXyZ/135Oxx7etE17w=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\n```js\nconst x = 42;\nconst f = a => x\n\nf() === f(x) === 42\n\nif (true) {\n  // it's happening\n}\n```\n\n![patchbay syntax highlighting](&eNOgr4JYoxrpSlL2jDgxmbylDDN2kxFneGzFBpwD/cc=.sha256)\n\nhttps://github.com/ssbc/patchbay/pull/285",
     "mentions": [
       {
-        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
-        "name": "Powersource too"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "&eNOgr4JYoxrpSlL2jDgxmbylDDN2kxFneGzFBpwD/cc=.sha256",
+        "name": "patchbay syntax highlighting",
+        "type": "image/png",
+        "size": 91904
       }
     ]
   },
-  "signature": "bPfWQXOCDeEcAhX9Tb/tiRX2zxGfHQaQ638/oJrQSC/bFgVCD4+RiTLJSnmfTJQSK3baxP+Dxoynh/CojryvCw==.sig.ed25519"
+  "signature": "HY1yuRtDTop0TWsr0pjivPxg1y3kiSnaPx0wjbmD8cjpRRVr8G7brvgBvfU+4w9BFiF/LF3516VM6DC+T7xIBw==.sig.ed25519"
 }
