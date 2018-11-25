@@ -1,12 +1,21 @@
 {
-  "previous": "%5CrrmhjBYwIKK/uYRZSDtsM8XKrXUpoRG2ans1r0Bk0=.sha256",
+  "previous": "%LkvsVYsw7jS0eTGOKa2H6Zt9dpNNtEOGbWL5bL6/v1U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7553,
-  "timestamp": 1543169063105,
+  "sequence": 7554,
+  "timestamp": 1543172570037,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> # [Social Media Consciousness](https://www.ribbonfarm.com/2018/09/07/social-media-consciousness/)"
+    "root": "%9YPpIY4VSz0GrtM5eYATjd+GSW1v8HI9aT4TtIJbziw=.sha256",
+    "branch": "%21bxjnYXWt7rVu4oVEse23CZE9NOyC5GvvES47k99Wg=.sha256",
+    "channel": "patchbay-dev",
+    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nCould you check and see if you can reproduce the crash with `container.toString()` without any `console.log`? I think the logger calls `container.prototype.toString()` when you log it so I'm curious whether it's the type conversion or an issue with stdout.",
+    "mentions": [
+      {
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "Powersource too"
+      }
+    ]
   },
-  "signature": "DJwQ3KoUiJuOBBPLQLnPPIEKZ6vfLQM0qhIz0B4RPGc1sv/Mg7ACY3Dk+WPdXHZT612urr78LrvXWROBxoguDw==.sig.ed25519"
+  "signature": "yYAqPtTCOGRFJTr49qqJh86/Jun3VBgVz933W+74ZJMLCYTHbs/3KAMcoQYd6a4iErkeeY7QZWFnAwQfE3rUCA==.sig.ed25519"
 }
