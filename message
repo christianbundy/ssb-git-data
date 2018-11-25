@@ -1,20 +1,33 @@
 {
-  "previous": "%Ky4v6YZlbvw3JMFLkJbZiBL7jGvH8VIzdEBKva0jPmg=.sha256",
-  "sequence": 7534,
+  "previous": "%6WqxNjGFj2yvbzZY7s+htRK00hnZnJWx+uimLSTU7h0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543111011354,
+  "sequence": 7535,
+  "timestamp": 1543111881283,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%sGF95hUor/r67GE2Y2gqO0WOcJAByCjIoVHFpea82p0=.sha256",
-    "vote": {
-      "link": "%sGF95hUor/r67GE2Y2gqO0WOcJAByCjIoVHFpea82p0=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%wgmQwKguIIGnvzVuDgWuR5VGVcMbPLrtJImRYci1wxk=.sha256"
+    "type": "post",
+    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
+    "branch": "%U+SRxnWKBJqqfE2LuOH4aeqd6NYz6wvhUJ0c3bjPduE=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@Ed Summers](@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519)\n\nI'm honestly not sure. I think we can infer a feed because it's an ed25519 pubkey rather than a sha256 hash, but I'm not sure whether we'd be able to disambiguate a message or a blob since they're both sha256. Similar to my recent work on [ssb-markdown](%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256), my goal is to make a drop-in replacement before trying to make any improvements. 🏅\n\n---\n\n[@Tim Schumacher](@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519)\n\nYeah! I think [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) is doing the same for [Patchfox](https://github.com/soapdog/patchfox), but I'm unsure which scheme is being used. [Obligatory](https://xkcd.com/927/).",
+    "mentions": [
+      {
+        "link": "@n2ax/dvrm+u76UhEv6aN0MzlH0Zw7o0MOd5QIHjouSw=.ed25519",
+        "name": "Ed Summers"
+      },
+      {
+        "link": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
+        "name": "ssb-markdown"
+      },
+      {
+        "link": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
+        "name": "Tim Schumacher"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
     ]
   },
-  "signature": "n5XPFEtZAvkh8UdwU4W/cY4DtISV9MpDIDEXOSLkdAdrO1Hf5VNXVsYC25dzEVQ9oZxrezPs+2QSbPCdR0GjCQ==.sig.ed25519"
+  "signature": "nNOQN1mDS3k7c1sy8k5y/R4aJEinlXJoXywalT794VMmOzMSY7HhVlm2duoQf63KCQ1RfTSxIVbGUTBhNXr2BA==.sig.ed25519"
 }
