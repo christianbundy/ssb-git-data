@@ -1,27 +1,21 @@
 {
-  "previous": "%QtytwFV2p0p0asU4eGsAt68iDcb6/n3nULZ6xqGgGCg=.sha256",
+  "previous": "%zRzXOnX9K6NuwzzGnB0X7fyZeFO/kVAls/8+ZRu3/Pc=.sha256",
+  "sequence": 7557,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7556,
-  "timestamp": 1543175527080,
+  "timestamp": 1543175591635,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%CAzkG+w3Gs1uNtScaEycSumsNdosa5vbyT+r3O9c4M4=.sha256",
-    "branch": "%jBJN4EaJkW5sxH+JNDnA9eMUiXZ8jyclfRV+iZtysKI=.sha256",
-    "reply": {
-      "%jBJN4EaJkW5sxH+JNDnA9eMUiXZ8jyclfRV+iZtysKI=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    "vote": {
+      "link": "%5gQd3w3EdxnaHROCNgRh8d+mPLHKX5o+KNKT/znIkqU=.sha256",
+      "value": 1,
+      "expression": "heart"
     },
-    "channel": "patchbay",
-    "recps": null,
-    "text": "Patchwork next! https://github.com/ssbc/patchwork/pull/892\n\n![meta screenshot of syntax highlighting in Patchwork](&vD6aFk33x2AJpjXm1eMWfsOfqpNConhM2whTVx+WJQ8=.sha256)",
-    "mentions": [
-      {
-        "link": "&vD6aFk33x2AJpjXm1eMWfsOfqpNConhM2whTVx+WJQ8=.sha256",
-        "name": "meta screenshot of syntax highlighting in Patchwork",
-        "type": "image/png",
-        "size": 161494
-      }
+    "branch": [
+      "%dv4n+b4MvrlQetS8/N/mSIfRAfaVc8GoqtpkHMIuQN0=.sha256",
+      "%zRzXOnX9K6NuwzzGnB0X7fyZeFO/kVAls/8+ZRu3/Pc=.sha256"
     ]
   },
-  "signature": "YlL8aag8pNujrPRFGt4a8mWmAGzrBkPxzl3UK5gEHQE86ASf/ApXsGV9hps3DVGNYdNB06FZ1lj8Nc96FRRhAg==.sig.ed25519"
+  "signature": "UFTwH7t5dG5xJIxOKk7CnkePH6OvoD8ibxSzoVXd7FXlrdJQBd4binaTy61gZt+ClXPliOKNgNB1A8Bc8c5qDw==.sig.ed25519"
 }
