@@ -1,21 +1,21 @@
 {
-  "previous": "%LkvsVYsw7jS0eTGOKa2H6Zt9dpNNtEOGbWL5bL6/v1U=.sha256",
+  "previous": "%b2XIOfSe4bqn3DcGMyZjefY5yoPAUsenMpN+1YFfQEE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7554,
-  "timestamp": 1543172570037,
+  "sequence": 7555,
+  "timestamp": 1543172620881,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%9YPpIY4VSz0GrtM5eYATjd+GSW1v8HI9aT4TtIJbziw=.sha256",
-    "branch": "%21bxjnYXWt7rVu4oVEse23CZE9NOyC5GvvES47k99Wg=.sha256",
-    "channel": "patchbay-dev",
-    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nCould you check and see if you can reproduce the crash with `container.toString()` without any `console.log`? I think the logger calls `container.prototype.toString()` when you log it so I'm curious whether it's the type conversion or an issue with stdout.",
+    "root": "%JMPXpupFJzW9RZXnnBtR/sbRlzGLw+R5rtkpHxR+ggQ=.sha256",
+    "branch": "%ExpLPQsFqy59LGFYZH17RLJnkWc+eNvPXLGcJ+R9riM=.sha256",
+    "channel": "ssb",
+    "text": "[@Opals](@u5/oAafcSuhAq371Fa2msB2AQRo4wxCnXz9XJu78O2A=.ed25519) \n\nNo, but you should be able to block the pub if you don't want it accessing your feed in the future.",
     "mentions": [
       {
-        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
-        "name": "Powersource too"
+        "link": "@u5/oAafcSuhAq371Fa2msB2AQRo4wxCnXz9XJu78O2A=.ed25519",
+        "name": "Opals"
       }
     ]
   },
-  "signature": "yYAqPtTCOGRFJTr49qqJh86/Jun3VBgVz933W+74ZJMLCYTHbs/3KAMcoQYd6a4iErkeeY7QZWFnAwQfE3rUCA==.sig.ed25519"
+  "signature": "R6IKd3KEc7v/6Ukh8mL2KpSAI63IKufIsRUKfeareMNMTh5JwrygGOEdc4vEzVt4h1ReGFDeBD3QmNl5/u+OCQ==.sig.ed25519"
 }
