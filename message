@@ -1,15 +1,15 @@
 {
-  "previous": "%LG0nL89DRzjI92yO8UMSrE5kGP9Db9nT95wfxuB4l7A=.sha256",
+  "previous": "%XBGBvOyzHKIT3UPeiBTq1xJc5TWWC1b/rAmLLsyM7xg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7598,
-  "timestamp": 1543265816426,
+  "sequence": 7599,
+  "timestamp": 1543265977213,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
-    "branch": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
-    "channel": "design",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> should we support deep nesting, like reddit? I feel like thats a fundamentally different conversation form, so should be a different type of message or something\n\nIs it different? I thought that each message referenced the previous message that it's replying to, so non-linear threads are already a thing (?), it's just that we show them linearly. Is that right, or am I misunderstanding? I think deep nesting and fractal discussions are incredibly useful, but I also spent almost a decade (😱) on Reddit so I'm biased.\n\n> I've experimented with this and found message content much wider than 850px starts to look really stringy (short posts become a single narrow line of text) and longer posts get harder to scan.\n\nI like the guideline of [45-90em](https://practicaltypography.com/line-length.html), and my personal preference is definitely on the shorter side of that (although again, I know that's just preference).",
+    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
+    "branch": "%AORP1L6LeUWySVbRpNCFPaBpKxLiKxEQvPLoY+ALW14=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nNo problem at all! I knew it was brittle when I did it, just felt like hacking something together. Let's talk about it the next time we're on a chat, I don't think my ideas are cohesive enough [yet] to try to write out.",
     "mentions": [
       {
         "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
@@ -17,5 +17,5 @@
       }
     ]
   },
-  "signature": "IlD66g8gyLLepwfz+OH0RSA4mlNdSXMpNJ6sPChxFBG+PO3qc9LK59Hqtd2O/gTL5B1SFLEoNX4T/FORbrLFAw==.sig.ed25519"
+  "signature": "fNdOSGskM3eA1Ao/fszoUGTUsLFnstj8altTcXrR8ES+F2khyamxtvNSenTbf3JaFTsosk6L4MKVeYD6Pym/Cw==.sig.ed25519"
 }
