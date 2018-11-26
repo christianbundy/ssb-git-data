@@ -1,24 +1,20 @@
 {
-  "previous": "%B1LUn0NSGJEAvNqxn8lx/W0kCCupE14tpiGvnvvpxOc=.sha256",
+  "previous": "%KrkO5sw7ZFgfqFKTUnvwctwOLxrVrD51cfzXswQ2STc=.sha256",
+  "sequence": 7585,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7584,
-  "timestamp": 1543256113851,
+  "timestamp": 1543256401176,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%KXHeBAnfJA/a69Uol+nZJJV35Wk7MnVFEbzohTY+IgA=.sha256",
-    "branch": "%t0IxhRWDRGzFyWTS5Fi+brVsUuvjqVAMxNF6msFBi/U=.sha256",
-    "text": "[@Mikael Brockman's laptop](@sp4Iv8AXW+8kaPI77dZQTFq5iG/kpje1iCjxl5f/H24=.ed25519) \n\nI wonder whether we'll eventually see permissions for Node modules, where filesystem and network access would be rare. Unfortunately, right now we have thousands and thousands of packages with no restrictions, and exfiltrating data is just as easy as `rm -rf`ing all the things.\n\nThe only upside is that [as long as you're using a [lockfile](%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256)] I think you're immune to deep dependency updates, but the long and the short of it is that downloading arbitrary software from the internet isn't any more secure just because you downloaded it with `npm install`.",
-    "mentions": [
-      {
-        "link": "@sp4Iv8AXW+8kaPI77dZQTFq5iG/kpje1iCjxl5f/H24=.ed25519",
-        "name": "Mikael Brockman&#39;s laptop"
-      },
-      {
-        "link": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-        "name": "lockfile"
-      }
+    "type": "vote",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "vote": {
+      "link": "%5T0WQUyyI+QiLGBOZwQFgOUYcVMDRuwhDJbIX9gMmbw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%5T0WQUyyI+QiLGBOZwQFgOUYcVMDRuwhDJbIX9gMmbw=.sha256"
     ]
   },
-  "signature": "O58edZMJdsVgv1rhGKJZewf6nmxnpY4FlIadR9Wup8toGLZKlXAPTyDtpRuAYo1D63EFKgnU5/2IrJezQZcFBw==.sig.ed25519"
+  "signature": "Z0XakoQPgNyPNErR9zw1qLteF+gIF/IDPCQhZKZ2GaIr/OrOFjcFI4tyyV/NbgDBtJzpg+5qM4u1FK7PJVI3DQ==.sig.ed25519"
 }
