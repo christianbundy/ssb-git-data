@@ -1,23 +1,25 @@
 {
-  "previous": "%wr4QgwHHncsANPjSOGS+b7S2aZxykTW6FI0VPLb5xIk=.sha256",
+  "previous": "%dmUjay30v3pe2xA+RdJAGUVcgQ248OTQHROP+CWm08s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7576,
-  "timestamp": 1543248751975,
+  "sequence": 7577,
+  "timestamp": 1543250364639,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bTZi3TqxkDc+BFN2DsBZ27ZcpIk28VwemfiPOIuNywA=.sha256",
+    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
     "branch": [
-      "%Fhrvu8i7/RJM3wQ0UJWO4LdkV7Ko9BJgAkSy5BiSBP0=.sha256",
-      "%wQlrlYqlCOhD4nwB78XCCkTUh3szYCQGPficmv+UT68=.sha256"
+      "%6j8y8paksugLgDJRqAcV8CQurdUR/R75E2XvCSjWEZc=.sha256",
+      "%c3sSEYs7OPqp5j1ac02TPdajU3rfxCPQsFZxYbr5u98=.sha256",
+      "%tJ1XcRDnqIjpspSJJncfNnvGqsvNX9RjigFrg5oR2mQ=.sha256"
     ],
-    "text": "[@agentofuser](@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519) \n\nI think that's an improvement over using Chrome, but my goal is to reduce my dependence on Google overall. It's like Android: it's open source, but the vast majority of people who have knowledge/influence in the platform work at Google. I might be more comfortable with Brave in the future, but currently it seems like they've just added a cherry on top of a mountain of Google's codebase.\n\nMaybe it's a silly goal, especially as I use Node.js pretty often (and am writing this via Electron), but I think/hope that the future will be full of sustainable software that's managed by communities rather than corporations.",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nWould you be interested in using only 16 colors in the Patchbay UI? Some recent commits to `master` seem to have broken the theme changes I was using, so it sounds like this is something that we should coordinate on if it's going to get shipped. If you'd dig this change I'd be happy to switch all the CSS to use variables and convert the current style into a [base16 theme](http://chriskempson.com/projects/base16/).",
     "mentions": [
       {
-        "link": "@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519",
-        "name": "agentofuser"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "qV518Q1maCuCUVekpaBhgaBwG78MD5lpeIh5PLXUr6CDCbeQfqp+L7SHK5KXegU8zjpYOAx2s+MEmViw4Q/tCw==.sig.ed25519"
+  "signature": "1DcOK8nI8bYtdDwqVSm3w0tVvFh+6jkI7iywYazPwgxWJ6WLJoi0ZOQbpH38PECjKv7OCT8isz+O7JVG1km1Ag==.sig.ed25519"
 }
