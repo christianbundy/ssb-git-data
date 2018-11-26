@@ -1,12 +1,19 @@
 {
-  "previous": "%AyR2+aAz7hfm5yqNa+PH9zObJhiYMsWvcQ318++IBnQ=.sha256",
-  "sequence": 7588,
+  "previous": "%62GQVZTaVOy032por/GrdO9GwGh/B4DqnQsQBsn203I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543256711840,
+  "sequence": 7589,
+  "timestamp": 1543257968707,
   "hash": "sha256",
   "content": {
-    "dry-run": "true",
-    "type": "test"
+    "type": "post",
+    "root": "%lFYZOoP0DvcBDJDT+sUlWUKdeLqTmeKSq6FZ8B57g8s=.sha256",
+    "branch": "%lFYZOoP0DvcBDJDT+sUlWUKdeLqTmeKSq6FZ8B57g8s=.sha256",
+    "text": "Yeah, this is mostly a problem that we get because most ISPs put you behind a NAT and only one IPv4 address to share with all of your devices. My preferred solution is to use #cjdns, which gives every device it's own IPv6 address that can be accessed by other nodes running the software. Mesh internet would also solve this problem, but for the time being you either need to depend on at least one pub being up at all times *or* using distributed networking software to connect to peers.",
+    "mentions": [
+      {
+        "link": "#cjdns"
+      }
+    ]
   },
-  "signature": "D19lBxkQASw+M2RbVFcTZB0PDwLBG/ddazGXLGt1z803i0V2yCh5Z1f2V6Twl3pFWfiqgWnzMvSmZdL9rVIbCg==.sig.ed25519"
+  "signature": "jxHi433eIT1vW7Gpa7BZwSAY8SCu5D8rxS+KzvOKQ3DoZBIqx+I1EHa+4Vncd1IklveTB/Yz+x77ifE2Y+e0DA==.sig.ed25519"
 }
