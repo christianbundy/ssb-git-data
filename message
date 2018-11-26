@@ -1,21 +1,22 @@
 {
-  "previous": "%XBGBvOyzHKIT3UPeiBTq1xJc5TWWC1b/rAmLLsyM7xg=.sha256",
+  "previous": "%0wwzThDjT/LRL9OCFgzUMt+eVvrpWerN4pdsWbkK04k=.sha256",
+  "sequence": 7600,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7599,
-  "timestamp": 1543265977213,
+  "timestamp": 1543274463450,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
-    "branch": "%AORP1L6LeUWySVbRpNCFPaBpKxLiKxEQvPLoY+ALW14=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nNo problem at all! I knew it was brittle when I did it, just felt like hacking something together. Let's talk about it the next time we're on a chat, I don't think my ideas are cohesive enough [yet] to try to write out.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
+    "type": "vote",
+    "root": "%KXHeBAnfJA/a69Uol+nZJJV35Wk7MnVFEbzohTY+IgA=.sha256",
+    "vote": {
+      "link": "%+4h8gV0T+6z9ZeQgWjz0OzZwZpgzlcbEfsCQujfO/hQ=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%+4h8gV0T+6z9ZeQgWjz0OzZwZpgzlcbEfsCQujfO/hQ=.sha256",
+      "%Ak95MVtGQhK9xuGKvF44qamUrbFUtfg2HMq0YuRKoH8=.sha256",
+      "%q3pSGcYcrKEOCF6yCf/HT4/RshJg6Tbv4rUtfdxyULY=.sha256"
     ]
   },
-  "signature": "fNdOSGskM3eA1Ao/fszoUGTUsLFnstj8altTcXrR8ES+F2khyamxtvNSenTbf3JaFTsosk6L4MKVeYD6Pym/Cw==.sig.ed25519"
+  "signature": "Z2PXhUkSmC5IhovesH3NuvMD5OMcpXrgJqM9Ljpcu88pckCTbfMMaS4gLvz9RJ/mF8AA9Qq1/J9ysy7Ax4mCAA==.sig.ed25519"
 }
