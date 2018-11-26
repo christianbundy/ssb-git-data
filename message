@@ -1,20 +1,20 @@
 {
-  "previous": "%TTtqdLsR+0MRrSDNaMlCZBwXlM+zQVM1Zll3W7EU2DE=.sha256",
+  "previous": "%1zfdlLxz9wJnRLVdu/5UTzAlhsTsqipMbdfetaSXz3g=.sha256",
+  "sequence": 7593,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7592,
-  "timestamp": 1543258618132,
+  "timestamp": 1543258748621,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%KXHeBAnfJA/a69Uol+nZJJV35Wk7MnVFEbzohTY+IgA=.sha256",
-    "branch": "%52mSDQEWX8XMESGVsdWWm3ORXsKHQdPVbH5ogY9bjgc=.sha256",
-    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nWhat's your read on TypeScript? I've used it before and don't have any problems with the syntax, but I'm kind of hesitant to jump ship from JavaScript to a project I believe is maintained by Microsoft. Are my worries misplaced?",
-    "mentions": [
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
+    "vote": {
+      "link": "%t0IxhRWDRGzFyWTS5Fi+brVsUuvjqVAMxNF6msFBi/U=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%1zfdlLxz9wJnRLVdu/5UTzAlhsTsqipMbdfetaSXz3g=.sha256"
     ]
   },
-  "signature": "lgqNtOwyjQ3E90SJnR2lsVFn3q7s5M1st7x6QOquBUxrWvmb3LACbDzdjLi1m2yi7Q/6qHengrHq6+YGnjXWAQ==.sig.ed25519"
+  "signature": "S58GaUZgI6udfweMA7kD45QwztMPonhYz6N59ShCwlfIbiihzWlxrf+1RCSz45PB0d0CAlYfpbRn+gyCDvHoAg==.sig.ed25519"
 }
