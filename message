@@ -1,17 +1,25 @@
 {
-  "previous": "%cm1qKCgaF8Kt272PpgL58guXtaFUVfcqGi5RYTD7J4E=.sha256",
+  "previous": "%p2G2o5GdL6cFEuL7XcZNjyEFKyxRjx64uB/IwSKIREU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7570,
-  "timestamp": 1543247874940,
+  "sequence": 7571,
+  "timestamp": 1543248030404,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
+    "branch": "%lW8tAKXhvyXQDj5dHlRjn2idKPZBFMemFLBvq/861kI=.sha256",
     "channel": "ssb-clients",
-    "vote": {
-      "link": "%lW8tAKXhvyXQDj5dHlRjn2idKPZBFMemFLBvq/861kI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThat looks very simple! Is there a way to do manipulations on those linkifiers? For example, could we set the `href` to the [URI](%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256) rather than the sigil link?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "Andre Staltz"
+      },
+      {
+        "link": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
+        "name": "URI"
+      }
+    ]
   },
-  "signature": "G1qcb3KhdU74Jp6H8u1VkLwtBgYUTjyKZdoGGNoCX08mEaI2eN4esBQuK1ZnQT6Tw4k1vl4O+zvvF/eoBvA5DA==.sig.ed25519"
+  "signature": "CtvBBUOX1jGNuP9/32LgkfGkMmq7M0lOt/Kp2rBV9TNKJcl28TsvoJNzbzcGednL3b2ac7Mlk2y7v43nUDhKDA==.sig.ed25519"
 }
