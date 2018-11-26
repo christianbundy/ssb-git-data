@@ -1,20 +1,21 @@
 {
-  "previous": "%bPlhFe9qI0iysJEoE70pRK9K/qPh4rDj+Z24E59yyFI=.sha256",
-  "sequence": 7597,
+  "previous": "%LG0nL89DRzjI92yO8UMSrE5kGP9Db9nT95wfxuB4l7A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543265395159,
+  "sequence": 7598,
+  "timestamp": 1543265816426,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%K+R8pFRmXk79LdjU4o8Ll+Ja/Uv73Qrmjwhi2KinsLM=.sha256",
-    "vote": {
-      "link": "%yGdLl1spoXUdMSq+sJ8Z9Rt4sglck6qa1oDKaTEvh/M=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%yGdLl1spoXUdMSq+sJ8Z9Rt4sglck6qa1oDKaTEvh/M=.sha256"
+    "type": "post",
+    "root": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
+    "branch": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
+    "channel": "design",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> should we support deep nesting, like reddit? I feel like thats a fundamentally different conversation form, so should be a different type of message or something\n\nIs it different? I thought that each message referenced the previous message that it's replying to, so non-linear threads are already a thing (?), it's just that we show them linearly. Is that right, or am I misunderstanding? I think deep nesting and fractal discussions are incredibly useful, but I also spent almost a decade (😱) on Reddit so I'm biased.\n\n> I've experimented with this and found message content much wider than 850px starts to look really stringy (short posts become a single narrow line of text) and longer posts get harder to scan.\n\nI like the guideline of [45-90em](https://practicaltypography.com/line-length.html), and my personal preference is definitely on the shorter side of that (although again, I know that's just preference).",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
     ]
   },
-  "signature": "fePD82OTK5sF9XNC4XZWdRNhHkUoOHk3xD4j5xwm0ZtFD5XyjVSu7r73zQKH3Yj+GXmezVANYCCUbXqj2vP5AA==.sig.ed25519"
+  "signature": "IlD66g8gyLLepwfz+OH0RSA4mlNdSXMpNJ6sPChxFBG+PO3qc9LK59Hqtd2O/gTL5B1SFLEoNX4T/FORbrLFAw==.sig.ed25519"
 }
