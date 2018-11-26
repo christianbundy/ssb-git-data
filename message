@@ -1,25 +1,16 @@
 {
-  "previous": "%dmUjay30v3pe2xA+RdJAGUVcgQ248OTQHROP+CWm08s=.sha256",
+  "previous": "%/pStEGF5Fru9nMJb3GaQ6/p7bmMS7zHui0uHxocPZGE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7577,
-  "timestamp": 1543250364639,
+  "sequence": 7578,
+  "timestamp": 1543250379160,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
-    "branch": [
-      "%6j8y8paksugLgDJRqAcV8CQurdUR/R75E2XvCSjWEZc=.sha256",
-      "%c3sSEYs7OPqp5j1ac02TPdajU3rfxCPQsFZxYbr5u98=.sha256",
-      "%tJ1XcRDnqIjpspSJJncfNnvGqsvNX9RjigFrg5oR2mQ=.sha256"
-    ],
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nWould you be interested in using only 16 colors in the Patchbay UI? Some recent commits to `master` seem to have broken the theme changes I was using, so it sounds like this is something that we should coordinate on if it's going to get shipped. If you'd dig this change I'd be happy to switch all the CSS to use variables and convert the current style into a [base16 theme](http://chriskempson.com/projects/base16/).",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%c3sSEYs7OPqp5j1ac02TPdajU3rfxCPQsFZxYbr5u98=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "1DcOK8nI8bYtdDwqVSm3w0tVvFh+6jkI7iywYazPwgxWJ6WLJoi0ZOQbpH38PECjKv7OCT8isz+O7JVG1km1Ag==.sig.ed25519"
+  "signature": "sz8JLLUkq41S2O85uRYMj1EaSdWb5e6keQWOJ9DWfvi2Gg0+1F4DKasMwO9LIOdGmSM18Dt8MP0UFB/mSZJyCQ==.sig.ed25519"
 }
