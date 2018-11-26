@@ -1,19 +1,24 @@
 {
-  "previous": "%62GQVZTaVOy032por/GrdO9GwGh/B4DqnQsQBsn203I=.sha256",
+  "previous": "%zprNlc1q5kgIoNWlLaOQTleCD+Kr4XJuc+g09IkKuTs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7589,
-  "timestamp": 1543257968707,
+  "sequence": 7590,
+  "timestamp": 1543258010885,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%lFYZOoP0DvcBDJDT+sUlWUKdeLqTmeKSq6FZ8B57g8s=.sha256",
-    "branch": "%lFYZOoP0DvcBDJDT+sUlWUKdeLqTmeKSq6FZ8B57g8s=.sha256",
-    "text": "Yeah, this is mostly a problem that we get because most ISPs put you behind a NAT and only one IPv4 address to share with all of your devices. My preferred solution is to use #cjdns, which gives every device it's own IPv6 address that can be accessed by other nodes running the software. Mesh internet would also solve this problem, but for the time being you either need to depend on at least one pub being up at all times *or* using distributed networking software to connect to peers.",
+    "branch": "%zprNlc1q5kgIoNWlLaOQTleCD+Kr4XJuc+g09IkKuTs=.sha256",
+    "text": "To be specific, [this thread](%ZSnWOBSoPrG247yOdSNimSYGY+IUmTUqOjbp4GOK5AY=.sha256) has all of the peering details if you're interested in trying cjdns. I also have a pub, [@libra.fraction.io](@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519), running over cjdns.",
     "mentions": [
       {
-        "link": "#cjdns"
+        "link": "%ZSnWOBSoPrG247yOdSNimSYGY+IUmTUqOjbp4GOK5AY=.sha256",
+        "name": "this thread"
+      },
+      {
+        "link": "@gTsBPQbdSd763h0qoZsBjPlgWbhKKmMFW8kmTv/XrV8=.ed25519",
+        "name": "libra.fraction.io"
       }
     ]
   },
-  "signature": "jxHi433eIT1vW7Gpa7BZwSAY8SCu5D8rxS+KzvOKQ3DoZBIqx+I1EHa+4Vncd1IklveTB/Yz+x77ifE2Y+e0DA==.sig.ed25519"
+  "signature": "4gsH3N3CWZlbAQnF6lfj19SnUqWxPHkrrRdpr+286sEJ9zlUmV0XhwvOleORYGVHprl3Gp1M+doHZ0gvy5sGAw==.sig.ed25519"
 }
