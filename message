@@ -1,16 +1,33 @@
 {
-  "previous": "%alb4S+rJepmk1MdfV3bJmKBLOkMJ0AYtJfNg8878l4U=.sha256",
+  "previous": "%XVkZSrcvSGXHEWu16S3qAsCODi2jm0rDiF1yHoLjies=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7574,
-  "timestamp": 1543248124176,
+  "sequence": 7575,
+  "timestamp": 1543248451284,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rbaXWy3DaN85IlHYnG0Tsn17J0HQifxP6SP3X+a7Mu8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%LLDui6hYYkY8jpIIRLNAfVZoPBHy/44I+4v9IsmZdDQ=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) [@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nMy gossip broke completely yesterday, and when I opened `gossip.json` I found that it had been replaced with `[]`. I'm not sure what happened here, but I'd recommend making a backup of your gossip file. Also, it turns out that `sbot gossip.reconnect` doesn't resolve the issue for me anymore. This is the command that worked for me (after I copied my old `gossip.json` over):\n\n```sh\n< ~/.ssb/gossip.json | jq '.[] | \"\\(.host):\\(.port):\\(.key)\"' | xargs -L 1 timeout 10s sbot gossip.connect\n```\nAfter running the above command my gossip has been working normally again (for about 5 minutes). This likely isn't the case, but it *feels* like a clog in a physical pipe where everything seems fine after removing the clog. Very frustrating, as it's especially difficult to debug. I'm tracking this as https://github.com/ssbc/scuttlebot/issues/579, fingers crossed this was a one-off problem!",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      },
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "0AxzCVQW0asMbuDq/4yT2NbyWHpnSmvZvDIk+6QJ9K6BatehgE0dNcxKff+pj/a8zVDlw1Vo3JG3RjUztjySDg==.sig.ed25519"
+  "signature": "eQA7Am6T9VABf0ldc8bSAsKOBoYI1x6x+Kes0Zj/t8PNnH0q4pET8RVExcFYvMmR88ooTxvMbueTGN1cLJo6Ag==.sig.ed25519"
 }
