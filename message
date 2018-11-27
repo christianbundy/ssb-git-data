@@ -1,18 +1,20 @@
 {
-  "previous": "%8KnTcRFfvFPGcBdMakNQaojcDt232OvVfxnaHFopFPs=.sha256",
-  "sequence": 7612,
+  "previous": "%qCBfGkU8ZNYEO8TY6qtD6GGeNWOYgMPMIquxcrmhO3A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543292861832,
+  "sequence": 7613,
+  "timestamp": 1543328235673,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 42,
-    "root": "%ConCjHbeG/ScNPZFfAq4v83/848+odBtPRRC2P9Zq7M=.sha256",
-    "orig": "b8",
-    "dest": "a6",
-    "pgnMove": "Nxa6",
-    "fen": "r6r/p3k2p/n4n2/3p4/1P2pB1P/6P1/1p3P2/3RK1NR w K - 0 22",
-    "branch": "%uaxGEY4/TktQIWElLwWb0OC8o5P0CYppRXmTk5YfYHg=.sha256"
+    "type": "post",
+    "root": "%YPyl6gooY58jNzLNeieJEkkgP/H77ZqozJHpJ7DvNKk=.sha256",
+    "branch": "%h5gKuQMr5qX4Sp3bmjVrP4hExNm0BJ/pjvP9njcbLWk=.sha256",
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\n\nI've only used AppImages because they're what we had when I started using SSB, but I'd be down for either Snap or Flatpak. Also signed releases work for me, should we sign with an ed25519 keypair from SSB or do you think PGP is more appropriate?",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      }
+    ]
   },
-  "signature": "GsghybBKyPg66/3n5uCZG2PPPso2PYFQqmVt36MUW7kFO6TRxADnsXKI3qPelCDGPXutH41EZByxuGDHVeZ3AQ==.sig.ed25519"
+  "signature": "O9Y5HVKgnl9IZY2mN+03zYXsBihMRWWsLFaTATX639Teg8Oi2dc9Qd6DP+t+ALCXNgHJ1+q6n+4JzL/sBOuaDQ==.sig.ed25519"
 }
