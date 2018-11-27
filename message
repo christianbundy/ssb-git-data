@@ -1,21 +1,21 @@
 {
-  "previous": "%/BVENT+GDdhMN8L7VvnvsWsWxMwBPO41rlzRwyUGgDA=.sha256",
+  "previous": "%/cFsO5WsxB47VXOSpJCx0n5nsl4qxkVBs5XWngFjKGw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7621,
-  "timestamp": 1543335005529,
+  "sequence": 7622,
+  "timestamp": 1543335522186,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
-    "branch": "%kqr22ilISXKymwEyyoyeo0wq1QDgwuMK8K/72lbo3/w=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nYeah, that works for me in both 13.0.3 and 13.2.0. Hmm. Maybe muxrpcli is behind? I'd run `npm -g update` or maybe try my `ssb-server` branch on the Scuttlebot repo -- it has a lockfile, so you can use `npm ci` and guaranantee that you have the right dependencies. The only catch is that you'll have to user `./bin.js` rather than `sbot`.",
+    "root": "%9KfyjYMJLy1A4cgaFb7pt0vUhLP00Y+XmIrjRUQqFXY=.sha256",
+    "branch": "%w6Nr9TdLe8eetKXVIcIyJn0cojdvQU0COj5cMQYWBTs=.sha256",
+    "channel": "patchbay",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nWhich version of Patchbay are you using? I'm on the `christianbundy` branch, which is *mostly* just `master` and I have no problem searching for those.",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "d4jwoG0DGKirPJ6A3orgoDBobxl72UbY6IhJGhSvLA07bAqud8lcwQCqym/lOWz+GOshoeOMG3I++4Y8PC54DQ==.sig.ed25519"
+  "signature": "zLQk7GA9DjflFTqcjG2cg5XHh4sdlDzgQJKBgHJpBdK9dFHFdVME/N4hRl7IxNt+3m8vOVpL9xJvfJNT/k1TDg==.sig.ed25519"
 }
