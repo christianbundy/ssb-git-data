@@ -1,25 +1,29 @@
 {
-  "previous": "%2J4zZM44Vd8VL34RCSRsfiRwQQfmY7Nl9hU1tCtvtWo=.sha256",
+  "previous": "%+6MQE/1v7wUU8I257B5ifrSlgRY5GgMCiwglBmpneOQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7615,
-  "timestamp": 1543333765076,
+  "sequence": 7616,
+  "timestamp": 1543334538535,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
-    "branch": "%vI/tNgvq/Bl9RBoadGSEZW0DMWvV1zJu/WaJpmDBEXI=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nI'm using 13.2.0, but it *should* be backward-compatible. Is there a public host:port:key that you can share so I can try with 13.0.3?\n\n---\n\n[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nInteresting, I've also been using `/public` to test whether messages are coming in. Have you been doing the scrolling trick? I don't remember where I learned it, but sometimes you'll need to scroll up and down in Patchbay to get new posts to show up in the feed. I think it's meant to keep posts from jumping around while you're reading, but it might benefit from a \"new posts above, scroll up!\" message as well.",
+    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
+    "branch": "%YPv28fn0fT/R/yfx4YDmnPlSs2JBtRuM0Yu6fFJVDcg=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nCool, I'm happy to hear that you guys are using similar URI schemes.\n\n> I am keen to follow what is being discussed here, just be aware that I think that maybe colons are a bad idea as separators for URL parts as they are already used to separate protocol and ports. Normal URL/URI extractors would not work well.\n\nIf you haven't already, I'd recommend at least skimming [this discussion](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256) for background, but the gist is that colons only have a special meaning if you have a host:\n\n![URI syntax railroad diagram](&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256)\n\nURL parsers won't be able to handle it since it doesn't have a host, but any URI parser should be able to handle it just fine. The scheme should be parsed as `ssb` and the path should be parsed as `message:sha256:abcdef`. It's more similar to URI schemes like `mailto:`, `magnet:`, and `urn:` than URL schemes like `http://`. With that said, I'd still love to hear your thoughts if you think there are ways to improve the current scheme. ✨",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       },
       {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
+        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+        "name": "this discussion"
+      },
+      {
+        "link": "&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256",
+        "name": "URI syntax railroad diagram"
       }
     ]
   },
-  "signature": "yzM3iMmKoKMbqP+GuM3TIIOAdiDRR6Tlg8P4N8yS0w1ytS7txewRoHEDa06ebbRgRshZu8bd/DS2eoYT9/YGDQ==.sig.ed25519"
+  "signature": "u1EKqgsQjEGfbX5h2kA4PB/z3Xm7JadUDY9LOkrvvrvsfyLIvqT45uz+gY3EmS3xTXHI+qHC7QirMLQ6lhHyDg==.sig.ed25519"
 }
