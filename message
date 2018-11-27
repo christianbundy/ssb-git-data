@@ -1,20 +1,25 @@
 {
-  "previous": "%RmVlnEoPcLPrSQXwnndmJFzhPiNPQR5KpV3+Zqj2W38=.sha256",
-  "sequence": 7614,
+  "previous": "%2J4zZM44Vd8VL34RCSRsfiRwQQfmY7Nl9hU1tCtvtWo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543329805899,
+  "sequence": 7615,
+  "timestamp": 1543333765076,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%2f0EtOuEmreXGScJQ4hUDWBLjvDMS+AEQxwfb4gxMjA=.sha256",
-    "vote": {
-      "link": "%d8/XuDFSswN+KAKOoX930WF1lMegTJfC+KQZrJXLGls=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%vhqf1t0bOPqXcpFYl2p4lGmNMxbxnJYnZxOsxAsVEuc=.sha256"
+    "type": "post",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%vI/tNgvq/Bl9RBoadGSEZW0DMWvV1zJu/WaJpmDBEXI=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nI'm using 13.2.0, but it *should* be backward-compatible. Is there a public host:port:key that you can share so I can try with 13.0.3?\n\n---\n\n[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nInteresting, I've also been using `/public` to test whether messages are coming in. Have you been doing the scrolling trick? I don't remember where I learned it, but sometimes you'll need to scroll up and down in Patchbay to get new posts to show up in the feed. I think it's meant to keep posts from jumping around while you're reading, but it might benefit from a \"new posts above, scroll up!\" message as well.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
     ]
   },
-  "signature": "8U+5Z1jdtO/0LWII6pA1w6PGmpjEXs82qu9Hg1eJypZ/lZhsYhZKSY7l1Mnb+lIEfTN40bnIJfDsQSXVmgbDCA==.sig.ed25519"
+  "signature": "yzM3iMmKoKMbqP+GuM3TIIOAdiDRR6Tlg8P4N8yS0w1ytS7txewRoHEDa06ebbRgRshZu8bd/DS2eoYT9/YGDQ==.sig.ed25519"
 }
