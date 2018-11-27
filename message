@@ -1,20 +1,20 @@
 {
-  "previous": "%qCBfGkU8ZNYEO8TY6qtD6GGeNWOYgMPMIquxcrmhO3A=.sha256",
+  "previous": "%RmVlnEoPcLPrSQXwnndmJFzhPiNPQR5KpV3+Zqj2W38=.sha256",
+  "sequence": 7614,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7613,
-  "timestamp": 1543328235673,
+  "timestamp": 1543329805899,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YPyl6gooY58jNzLNeieJEkkgP/H77ZqozJHpJ7DvNKk=.sha256",
-    "branch": "%h5gKuQMr5qX4Sp3bmjVrP4hExNm0BJ/pjvP9njcbLWk=.sha256",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\n\nI've only used AppImages because they're what we had when I started using SSB, but I'd be down for either Snap or Flatpak. Also signed releases work for me, should we sign with an ed25519 keypair from SSB or do you think PGP is more appropriate?",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
-      }
+    "type": "vote",
+    "root": "%2f0EtOuEmreXGScJQ4hUDWBLjvDMS+AEQxwfb4gxMjA=.sha256",
+    "vote": {
+      "link": "%d8/XuDFSswN+KAKOoX930WF1lMegTJfC+KQZrJXLGls=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%vhqf1t0bOPqXcpFYl2p4lGmNMxbxnJYnZxOsxAsVEuc=.sha256"
     ]
   },
-  "signature": "O9Y5HVKgnl9IZY2mN+03zYXsBihMRWWsLFaTATX639Teg8Oi2dc9Qd6DP+t+ALCXNgHJ1+q6n+4JzL/sBOuaDQ==.sig.ed25519"
+  "signature": "8U+5Z1jdtO/0LWII6pA1w6PGmpjEXs82qu9Hg1eJypZ/lZhsYhZKSY7l1Mnb+lIEfTN40bnIJfDsQSXVmgbDCA==.sig.ed25519"
 }
