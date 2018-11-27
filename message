@@ -1,29 +1,20 @@
 {
-  "previous": "%+6MQE/1v7wUU8I257B5ifrSlgRY5GgMCiwglBmpneOQ=.sha256",
+  "previous": "%SEnoa//KMyWK+aWvhLYKyzAdt4+AhktNVAd7/cyt6VQ=.sha256",
+  "sequence": 7617,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7616,
-  "timestamp": 1543334538535,
+  "timestamp": 1543334596707,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
-    "branch": "%YPv28fn0fT/R/yfx4YDmnPlSs2JBtRuM0Yu6fFJVDcg=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nCool, I'm happy to hear that you guys are using similar URI schemes.\n\n> I am keen to follow what is being discussed here, just be aware that I think that maybe colons are a bad idea as separators for URL parts as they are already used to separate protocol and ports. Normal URL/URI extractors would not work well.\n\nIf you haven't already, I'd recommend at least skimming [this discussion](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256) for background, but the gist is that colons only have a special meaning if you have a host:\n\n![URI syntax railroad diagram](&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256)\n\nURL parsers won't be able to handle it since it doesn't have a host, but any URI parser should be able to handle it just fine. The scheme should be parsed as `ssb` and the path should be parsed as `message:sha256:abcdef`. It's more similar to URI schemes like `mailto:`, `magnet:`, and `urn:` than URL schemes like `http://`. With that said, I'd still love to hear your thoughts if you think there are ways to improve the current scheme. ✨",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      },
-      {
-        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-        "name": "this discussion"
-      },
-      {
-        "link": "&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256",
-        "name": "URI syntax railroad diagram"
-      }
+    "type": "vote",
+    "root": "%KXHeBAnfJA/a69Uol+nZJJV35Wk7MnVFEbzohTY+IgA=.sha256",
+    "vote": {
+      "link": "%jplwunGFESGofvXCtvjQzriMyS3tpJs3cm5uzY2Ow2w=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Fku1/iaKG0dh7ETnvmYEQT00upzUf3QvtGwOLtWyRs0=.sha256"
     ]
   },
-  "signature": "u1EKqgsQjEGfbX5h2kA4PB/z3Xm7JadUDY9LOkrvvrvsfyLIvqT45uz+gY3EmS3xTXHI+qHC7QirMLQ6lhHyDg==.sig.ed25519"
+  "signature": "gmi0AOZSUQtt88PVQJVIqSK/VH8LFaiTVcZdVxSKMfaworT7dd082bP3LXbhH6X9VenymG6FEpL7O6dCDOtUDw==.sig.ed25519"
 }
