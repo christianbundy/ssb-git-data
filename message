@@ -1,21 +1,21 @@
 {
-  "previous": "%YXoDuVovnZkh2JFF3O9x5ptlm90kKoC8DTiqfEj2Gdc=.sha256",
+  "previous": "%KpX9CGJpnP2ivYB7efsBdoFils0dIfBl9236DSQkbis=.sha256",
+  "sequence": 7619,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7618,
-  "timestamp": 1543334677516,
+  "timestamp": 1543334678612,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
-    "branch": "%NHcvDqem+Em2IAHL6J4+RmaDFHPoABHhywqxMpg81rw=.sha256",
-    "channel": "design",
-    "text": "[@greg](@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519) \n\nThanks, I knew that didn't look right! ",
-    "mentions": [
-      {
-        "link": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519",
-        "name": "greg"
-      }
+    "vote": {
+      "link": "%uXzX3AFxg/DUI4mz5kqAUeHfQ5gXYJQgEKSSPF4M2DE=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%KpX9CGJpnP2ivYB7efsBdoFils0dIfBl9236DSQkbis=.sha256",
+      "%oMoiwJxgD3WmkP/4GLNSmVIsLp5CoBdQ99YHwBkw6M8=.sha256"
     ]
   },
-  "signature": "EuWhBkjjGRSbXmf6uA1ua32A/Mjt5KH9r3fFxuTxbKxjHBwudRBzG3oM9UKM5bg5xj2X+MBb2uAFI00DSyJ1Bw==.sig.ed25519"
+  "signature": "43lJK3Ec3Uw/ZzGMvlahsHxtKu0uB1BFR8MosjsuGpwIIJ14bEZj7bc0fUchhdF2TL0Cq7j8+JSkrF26VKAtBw==.sig.ed25519"
 }
