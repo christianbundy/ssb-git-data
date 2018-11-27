@@ -1,21 +1,9 @@
 {
-  "previous": "%J3r0Ln8nfH7J967/+2CM6crl6X7wbtl1+v+H4kQhDNg=.sha256",
+  "previous": "%dLMksoXqFMOTy3JddGV7eKskL/l2xbwW0XEoe0kCb54=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7653,
-  "timestamp": 1543357377117,
+  "sequence": 7654,
+  "timestamp": 1543357538033,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256",
-    "branch": "%p8MPM+66FooWBu7QjrjCpwXx+2yGoI8CBVoSY/m97H4=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nWere you thinking something like this? I've done it in memory only, but it seems like this should be possible regardless of which log driver is used. In this example I've added three messages with different authors, and then streamed the log to append to another log, filtering out any case where the author is Bob:\n\n```js\nvar MemLog = require('flumelog-memory')\nvar pull = require('pull-stream')\nvar drain = require('pull-stream/sinks/drain')\nvar Flume = require('.')\n\n// a is the original log\nvar a = Flume(MemLog())\n// b is our secondary temporary log\nvar b = Flume(MemLog())\n\n// define function to exclude content (e.g. check `msg.value.author`)\nconst shouldDelete = msg => msg.author === 'bob'\n\n// for each message, either ignore (delete) or add to new log\nconst onEachMessage = (msg) => {\n  if (shouldDelete(msg)) {\n    console.log('deleted:', msg)\n  } else {\n    b.append(msg, function (err, seq) {\n    console.log('kept:   ', msg)\n    })\n  }\n}\n\n// once all of the non-deleted messages are added to the second db, we replace a with b\nconst onDone = () => {\n  a = b\n  delete b\n}\n\n// first we add three messages so we have something to delete\n// we're planning on deleting any message where `msg.author` is bob\na.append({author: 'alice'}, function (err, seq) {\n  a.append({author: 'bob'}, function (err, seq) {\n    a.append({author: 'carol'}, function (err, seq) {\n\n      // now that we've added content to the first database, we want to add it to the second\n      pull(\n        // we start a pull stream, ignoring the sequence numbers\n        a.stream({ seqs: false }),\n        // now we add the messages from the first db to the second db\n        drain(onEachMessage, onDone)\n      )\n    })\n  })\n})\n\n```\n\n```console\n$ node delete-example.js\nkept:    { author: 'alice' }\ndeleted: { author: 'bob' }\nkept:    { author: 'carol' }\n```\n",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
-  },
-  "signature": "6uSH2FFevYxMRjBGdgaRZNLDWaOCD6JwzksiTYBuoCC9sQdpL5QQb/jHnbRTYWv1DOV+oNVgPL9oALVdtgHjDA==.sig.ed25519"
+  "content": "YslphUztc3BhcbRj0unIYIu/GbwLHBkxBcfFDkJQjeKLcSLnwXxyy30D7dIILKA6vQGxCHlfrhESM6xOh3Y2iX3dhaGo5sySPTv3lN+pktzs8tfq1GI/GEMrM69HpZ83Rp+8m4bvNtAEjyL3yRLWGNACZRxuqN24+I12RYIKYF9H1XsAdAOQ39VJqeseQVNGITMX7v2KtVpDLKycxdNf+CFL8YMfyaADq+2eF4vLvO+mUFZE8qPCLMBqjtzazNS+5SR++gzDQPkTGpobioS6LMHOEf68bAHzo8vBu90tU2HLlADEoa+LUDoRpqC7GrgUkato3XucVL8wPF+yXk1pBZRMttEnz3Znz4/T3aaQvpWUxyZMB/7+LSEGHMQEhfjK2K23tF7cIw8mPbV4GngStEbF1Ko1qldb5PXEMajzDRZlblq5CQM0x29d7Oz7k09Y/3b24nzQKQ9MOao8Idgrvzfu8GuBbVY7yVpNKqKfHUe6FbYBz5BiU9h1H9xSaZCVXa+Pa0bQK13I4rqO910Q5apwg+wdvZvQV8Htd3uTtbjwP11YS9KKhZR8krtlMbhIHwMaiR9i8l7gJT2xxeCIIsOANCHWl+JjxmJRORAbPUqrd12oqnaVFyDBfGFuQSCEc3KhOKjHg7UI5ER5i8UwCPJrv23Iyl8vAWmvpEEhBRic4/lvfscacd+z0aejATQAnWBjt/VC1i8n5vFl.box",
+  "signature": "WpMNOMRwzXoD8BWx5eEzKibkow0YBnkJzJB62L3qkXmMIwuaBOsnmcJGoneokSz3yBOcys9bGwmvw6plTl5IBQ==.sig.ed25519"
 }
