@@ -1,20 +1,21 @@
 {
-  "previous": "%L7tKCzQreNjqAsTTBNCPkjtxNUboOZt/6U7pjHjeyBE=.sha256",
-  "sequence": 7620,
+  "previous": "%/BVENT+GDdhMN8L7VvnvsWsWxMwBPO41rlzRwyUGgDA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543334679546,
+  "sequence": 7621,
+  "timestamp": 1543335005529,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%iietnaHpffBuPwLjGj+SnmQ46R6TaipBRkgxHsyEDQA=.sha256",
-    "vote": {
-      "link": "%NHcvDqem+Em2IAHL6J4+RmaDFHPoABHhywqxMpg81rw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%L7tKCzQreNjqAsTTBNCPkjtxNUboOZt/6U7pjHjeyBE=.sha256"
+    "type": "post",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%kqr22ilISXKymwEyyoyeo0wq1QDgwuMK8K/72lbo3/w=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nYeah, that works for me in both 13.0.3 and 13.2.0. Hmm. Maybe muxrpcli is behind? I'd run `npm -g update` or maybe try my `ssb-server` branch on the Scuttlebot repo -- it has a lockfile, so you can use `npm ci` and guaranantee that you have the right dependencies. The only catch is that you'll have to user `./bin.js` rather than `sbot`.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
     ]
   },
-  "signature": "5kurF87SUF1bQG7Z0nanvOqLRZr7XJNMbJs8Q3SQVGruvnFcEzitHc49593HGdZpmlMZjK0EeUHuFGFDqemcDQ==.sig.ed25519"
+  "signature": "d4jwoG0DGKirPJ6A3orgoDBobxl72UbY6IhJGhSvLA07bAqud8lcwQCqym/lOWz+GOshoeOMG3I++4Y8PC54DQ==.sig.ed25519"
 }
