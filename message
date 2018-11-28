@@ -1,15 +1,21 @@
 {
-  "previous": "%s51TJBDpBbpbWLMSoxFoDg4iAgawI7j519XQbQBxCt0=.sha256",
+  "previous": "%T7oZcWqjLX3YU2Iv9fXv8X9GbiNgnjgbafjPLHxD5Rg=.sha256",
+  "sequence": 7667,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7666,
-  "timestamp": 1543441362856,
+  "timestamp": 1543441803481,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%pGXhAcGP0vFHJFM2PowfI0NpatmRtznIuZa2YU0Bn2k=.sha256",
-    "branch": "%pGXhAcGP0vFHJFM2PowfI0NpatmRtznIuZa2YU0Bn2k=.sha256",
-    "channel": "manyverse",
-    "text": "Downloading now, thanks!"
+    "type": "vote",
+    "root": "%J5uWhvrPmm8CBKEAG8Vaat0UqJlsSO4Nqm3imU4Lo2k=.sha256",
+    "vote": {
+      "link": "%BO76ld8NQCHH8eM9VHWgKN6MJxWqR/pS5gfvx+S0Bho=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%BO76ld8NQCHH8eM9VHWgKN6MJxWqR/pS5gfvx+S0Bho=.sha256",
+      "%dzIkGPdyG0rVqI6OejAwBDi0B4L+yVGkpNJ5c/RZmjA=.sha256"
+    ]
   },
-  "signature": "OaEtdb5lTB/MCMghs+50ymG5Xg/tP93aurtnJOiV8xOQJ1Zd2eg5Zy6YlB9SqL9G8MHdTOkwwQ6MGSSqduhPCw==.sig.ed25519"
+  "signature": "HHtoK9zCwFY44bCzdufDoK8KOW/wupcHm7hNa/4/QWS14JeyAodaOUJByb7eFvfrLmr2gw38WkyZ/qSqSDD8Bg==.sig.ed25519"
 }
