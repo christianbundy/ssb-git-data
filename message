@@ -1,19 +1,20 @@
 {
-  "previous": "%jXzsDaM63VOnz3oRbzGsT5venyky0HVnxwQWGDTad5Y=.sha256",
+  "previous": "%z6zpp0rti3LVHOuWJExO0QQI5/86xhydABcO1OlsLj4=.sha256",
+  "sequence": 7661,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7660,
-  "timestamp": 1543425955695,
+  "timestamp": 1543426029361,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%gdDgsa46yHeHkFrCMSUwbRboOA2xFxhMjGqmt48EapM=.sha256",
+    "type": "vote",
+    "root": "%07GRRQXxgkg6q3i1dzovLZdTYwlFm+XcUgwpAzmcCyQ=.sha256",
+    "vote": {
+      "link": "%aH6N/YzBiDm1ixkLeuKHA5Rk3ULlvI9g2ppbYg1kSJM=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%CNhgW+z22Kw0e06GnDzJsl3tWA8bmtyr35i8cqk7p6s=.sha256",
-      "%c7jxvPi/MOQEGoA0Bzd6T6XpjbrUFU2U706+eSUC4FY=.sha256",
-      "%cjbfitgGFV3ON8cl0rxJk18aC/8dD6doaIlBKoG1MoI=.sha256"
-    ],
-    "channel": "patchbay",
-    "text": "> Every other app on my computer can display emoji properly, except LibreOffice, so I assume Electron is just a bit crap\n\nCould you explain this a bit further? I think as long as you have the fonts installed then Electron should show them correctly. Alternatively, there are emojis like `:heart:`, but currently I think the clients are rendering those with images rather than your system's emoji typeface. We could disable this, but I think it would cause problems for people without an emoji font installed. Maybe it should be an option in the settings?"
+      "%aH6N/YzBiDm1ixkLeuKHA5Rk3ULlvI9g2ppbYg1kSJM=.sha256"
+    ]
   },
-  "signature": "BfLmsjGtqB+Ku5KJs5vQKYhMoW+49L4g14J0aQC/RKlJ5Lntu41BLBrEAsCCz2v3x0pH7skWLWGEwLQa00nRDw==.sig.ed25519"
+  "signature": "HEUjYQStvbMBchD7cjJUJdfS+ie0hKb/vX/G3HdG2N2U/tIUv40a7GKwCTzTJB5atErkStm+9gGsPJHGQXdsCA==.sig.ed25519"
 }
