@@ -1,28 +1,18 @@
 {
-  "previous": "%to2SLMkl4VaDpJYGukhkf/DPVTeVFvLNV5liSOCkeBM=.sha256",
+  "previous": "%orxLAJHzRgnMu9sLeDJU4h/NUJH+TOD5QKqGaLkbFyE=.sha256",
+  "sequence": 7717,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7716,
-  "timestamp": 1543525236910,
+  "timestamp": 1543527049129,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Kks2yJ/G+ehRk2+HP3m19sChNPstDsHN/sbT/o2oKL0=.sha256",
-    "branch": [
-      "%Ei5vlDaM8LhoD+Ll9ycZeJMUq8wRPpzDldU6pGFGbuQ=.sha256",
-      "%cEw9TRHVuHIHqtrJs7qLxzEI/Wkz3MZi/dbgvJw6woY=.sha256"
-    ],
-    "channel": "beef",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI hope you don't mind the unsolicited advice, but if your real interest is finding a way to delete feeds from your database then I'd recommend making a thread(/dev diary?) *about that topic* without the beef. You aren't alone in wanting this feature, but feature requests full of baggage and insults aren't likely to receive much positive attention.\n\nI'd be interested in hearing what you've tried so far, specifically:\n\n- techniques\n  - the \"zero out\" method with flumelog-offset\n  - the \"filtered pipe\" method that I illustrated [here](%dLMksoXqFMOTy3JddGV7eKskL/l2xbwW0XEoe0kCb54=.sha256)\n- blockers\n  - which parts are confusing?\n  - what needs better documentation?\n  - who (other than those who have blocked you) are you asking for help from?\n- code: push your attempt(s)!\n- absolutely zero references to any of this beef\n\nDominic doesn't want to be the only person who intimately understands FlumeDB, but I think we should solve that by *learning* rather than trying to pressure him into writing the features/docs/etc that you want. I understand that it would be easier to have him do it, but since you've lost that opportunity I'd recommend that you focus on solving the technical problem rather than rehashing your beef.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      },
-      {
-        "link": "%dLMksoXqFMOTy3JddGV7eKskL/l2xbwW0XEoe0kCb54=.sha256",
-        "name": "here"
-      }
-    ]
+    "type": "chess_move",
+    "ply": 45,
+    "root": "%KB7oC1OqtoJgomXgtklJMeUmF958vzcX5qnQLnuOKko=.sha256",
+    "orig": "a1",
+    "dest": "b1",
+    "pgnMove": "Rb1",
+    "fen": "r2k1b1r/ppp2p1p/5q2/3n2p1/4B3/3PB1P1/P2R1P1P/1R4K1 b - - 9 23",
+    "branch": "%DB9qkpqqiOhMmQlgeT1Q9+XY1nWuuhbIAXV4rD/LvL0=.sha256"
   },
-  "signature": "vvMcRmQsSgeEf2ylU7BvJ8EvreME3hKwnSKBfvQPoGYlRZOmaTjrmAJxnOdnp7V1U5/tokHIBmiwSER3pvluAA==.sig.ed25519"
+  "signature": "rnjMcM/A79ILN/Z3nANThMAUSWINDewzdGRLap0azJMG7JFGpY/m4t+ITZRomD7lejvjRVbKCm2NLGwtEOtcCg==.sig.ed25519"
 }
