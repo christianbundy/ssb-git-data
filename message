@@ -1,9 +1,25 @@
 {
-  "previous": "%ptty/kD61uXfd8ovHGaMzLc8s1qgCTN5F7TBmszKHT8=.sha256",
-  "sequence": 7703,
+  "previous": "%kx5UEQhpwWJKci2yor8UO6IxPInoJfmHhm/UgixrkRE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543520962573,
+  "sequence": 7704,
+  "timestamp": 1543521119103,
   "hash": "sha256",
-  "content": "8QubWTF69uVOcvsyowSZQLiZK9aLt19nnba/JSrQI1gfR2IY5F5SXfLxaGA0A8tWgD0mC+zZjFNyZGfJIkxm7h/975M8T2urI0olLVEuxgYlcdlD+BmETuaJKOtoZDBMyjRixcuKyeyG3LcMgvV0cnitPzVQj5HJ82WEDitmLyB1curtubIuPEXYnTHhKj42mfZuHS46GzIKKB04O0CMM/kqjdBNYnsDYj8GGEEK3MIyg/EC59YZa39KYKs2ZkPPZG54Lx9TeHmvII83Jgq8umG6YaCyJIPnIvm+XRaFKQs8osoQr9wc1H1QHCH5ZtGglzkl4Oal9hw4/8ZUd+2uunYnzrPLX+TBtpHccpBhrl2ZYAsLgeYB1lyyFNnnWvTNSBUbGqSbYbN1FQoQcGQ9iFuEH2o=.box",
-  "signature": "MgTjtfPrgAheEv7P8msROi92GJSX4LCOZoz1PRA+qor/DYYsNQi+HJAZvHmImcvLCuzBBESGSBXtZGa85oYWDw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "branch": [
+      "%7zgNaI1uV7dsfys6iBnx+GRJJWXG7wTD3IINr7nzWJY=.sha256",
+      "%KgtM8Csw5tCqs/et6bzZQ8THP3JL4YTH/wr1xQ+4bbQ=.sha256",
+      "%saa9ESnJ5K/PyjQc4qYyEkHoGBfGopl7Lk5C/jqf7V8=.sha256"
+    ],
+    "channel": "ssbc",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> I think my preference would be to make lockfiles default on, clarify as a community how we generally run install commands (so we're coding on similar looking things).\n\nI'd also appreciate this. Looking through my history, I think this is all I use for installation:\n\n- `npm ci` to get a known-working dependency tree\n- `npm install <module>[@\"<version>\"]` to install/upgrade a module\n- `npm uninstall <module>` to uninstall a module\n- `npm install` whenever `package.json` changes\n- `npm --depth 9999 update <pkg>` to get an update for a specific package\n- `npm audit fix` whenever `npm install` complains about vulnerabilities\n- `npm update` whenever I want to update everything (note: this changes `package.json`)\n\nAre there any I'm missing? I think most of these are straight out of the npm docs, and I [personally] haven't had to do anything like `rm -rf node_modules package-lock.json` since npm 5.0 (currently on 6.4.1). ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
+  },
+  "signature": "41FvEApoJN0ix+zGkkc0Ctml8Q6l1GxkoU6jaCVN9ofiu/IzO+9Cda92OYwMQ67jQpU+4AQ6JbgjJdk/y3zwAw==.sig.ed25519"
 }
