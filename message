@@ -1,25 +1,20 @@
 {
-  "previous": "%kx5UEQhpwWJKci2yor8UO6IxPInoJfmHhm/UgixrkRE=.sha256",
+  "previous": "%ELA9eBy33eYGR3MM9UKEZIshL6XNIXDvTKr9P7E9ZMM=.sha256",
+  "sequence": 7705,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7704,
-  "timestamp": 1543521119103,
+  "timestamp": 1543521144355,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "type": "vote",
+    "root": "%fPN5Yqz10gjBahggv3KhJcePtxt19TWNF0I6xynPUDA=.sha256",
+    "vote": {
+      "link": "%fPN5Yqz10gjBahggv3KhJcePtxt19TWNF0I6xynPUDA=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%7zgNaI1uV7dsfys6iBnx+GRJJWXG7wTD3IINr7nzWJY=.sha256",
-      "%KgtM8Csw5tCqs/et6bzZQ8THP3JL4YTH/wr1xQ+4bbQ=.sha256",
-      "%saa9ESnJ5K/PyjQc4qYyEkHoGBfGopl7Lk5C/jqf7V8=.sha256"
-    ],
-    "channel": "ssbc",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> I think my preference would be to make lockfiles default on, clarify as a community how we generally run install commands (so we're coding on similar looking things).\n\nI'd also appreciate this. Looking through my history, I think this is all I use for installation:\n\n- `npm ci` to get a known-working dependency tree\n- `npm install <module>[@\"<version>\"]` to install/upgrade a module\n- `npm uninstall <module>` to uninstall a module\n- `npm install` whenever `package.json` changes\n- `npm --depth 9999 update <pkg>` to get an update for a specific package\n- `npm audit fix` whenever `npm install` complains about vulnerabilities\n- `npm update` whenever I want to update everything (note: this changes `package.json`)\n\nAre there any I'm missing? I think most of these are straight out of the npm docs, and I [personally] haven't had to do anything like `rm -rf node_modules package-lock.json` since npm 5.0 (currently on 6.4.1). ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
+      "%fPN5Yqz10gjBahggv3KhJcePtxt19TWNF0I6xynPUDA=.sha256"
     ]
   },
-  "signature": "41FvEApoJN0ix+zGkkc0Ctml8Q6l1GxkoU6jaCVN9ofiu/IzO+9Cda92OYwMQ67jQpU+4AQ6JbgjJdk/y3zwAw==.sig.ed25519"
+  "signature": "Z6kw1EYIQrkK6qIFKK9DmviX8UJOHw7jjab8uT5o+Ay0xNgx+PenQJFGTWiYCf3C817yaDY4LdR9rdSONhgjAw==.sig.ed25519"
 }
