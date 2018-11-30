@@ -1,20 +1,27 @@
 {
-  "previous": "%/X4DUkf2rRMRYEP3KlcawxlT+1kxhRmDuiRjde4h0Dw=.sha256",
-  "sequence": 7733,
+  "previous": "%AmPX3z5uCBVh+ddGvtC40vHWMbUn1H5MqQbVtq1xtm4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543605965340,
+  "sequence": 7734,
+  "timestamp": 1543609113806,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%e8sSJFyRYr0CDtFiLu9fo9Ik48uK01K2Faim1X/PJPc=.sha256",
-    "vote": {
-      "link": "%e8sSJFyRYr0CDtFiLu9fo9Ik48uK01K2Faim1X/PJPc=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%e8sSJFyRYr0CDtFiLu9fo9Ik48uK01K2Faim1X/PJPc=.sha256"
+    "type": "post",
+    "root": "%rbljP2KTVR9GS3BkkSnRiUmkMSC0XBhBQMXh3blG4XM=.sha256",
+    "branch": "%DIqaIIVsq8sjS/W3TewE7OxyuOYYlW082leHSN/catc=.sha256",
+    "channel": "patchbay",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI don't know exactly what it looks like with the default theme, but here's what I see:\n\n![patchbay blockquote](&25QqNVVeJQnz9rBhd6QvPva5Z6gwwKQDjfU1UoQXqOI=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "&25QqNVVeJQnz9rBhd6QvPva5Z6gwwKQDjfU1UoQXqOI=.sha256",
+        "name": "patchbay blockquote",
+        "type": "image/png",
+        "size": 241212
+      }
     ]
   },
-  "signature": "EVDCYUpwHQsuYnZlBJIvBCpog1iFVm+fDdSjh1TS6YRSEi6ArsBtikO6QL9nTmJKdbVTkpmsr9Si2ohc4T4ZDg==.sig.ed25519"
+  "signature": "D9Zoc2bXiICNjCa2faznXCuscflTS3IkG1ZfC/K8VIhi5Ecsc/exoZViIxvP8rDIQa8vvuKrpaLgYr087LjbAg==.sig.ed25519"
 }
