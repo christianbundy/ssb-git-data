@@ -1,21 +1,21 @@
 {
-  "previous": "%aQvbh0h1V1vkpwynyfb74s3gzCephCHFgk6LD1jy54Q=.sha256",
+  "previous": "%9sjGtq+3YfOaWvn/nUcTfTh18VLKiOv0rAcNlCLPbv0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7719,
-  "timestamp": 1543540871564,
+  "sequence": 7720,
+  "timestamp": 1543544032885,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Kks2yJ/G+ehRk2+HP3m19sChNPstDsHN/sbT/o2oKL0=.sha256",
-    "branch": "%JB+rb1dGX4H8D6osTxpuyF6o1H9Q+aTc5hKk1h/ms28=.sha256",
-    "channel": "beef",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> If I have written anything to insult anyone, please reference the language that I used.\n\nThanks for this -- I can't think of any specific insults so I should've reconsidered the words I used. Sorry about that.\n\n> It's tempting to agree with these guys because they are in power on this network, but please consider the long term effects of siding with them.\n\nI don't think we're in a place where there are sides, and I'd really like to continue that. I think friction is going to be inevitable but I'm *personally* convinced that we can avoid slipping into either conflict or isolation.\n\n> I think it'd be good to look at the database stack and make it more clear for everyone. The more clear ssb code is, the easier it will be for everyone to work with it.\n\nWould you be interested in doing a call sometime? I still have a lot to learn but I think it might be useful for us to compare notes and see if we can gain any insights. Admittedly most of my intuition about flume is from Mix's `flume-intro` [repo](https://github.com/mixmix/flume-intro) and [video](https://www.youtube.com/watch?v=f_baWUW4R8Y) (highly recommend) but I'm a little bit familiar with some of the Flume source too. We could also just do async text  discussion if you'd prefer, just let me know. Maybe others would be interested in this as well? ",
+    "root": "%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256",
+    "branch": "%lhr6hUAfc0YrxqqC1luHC8Qd+Ul0sBcaDObf4FH5eh8=.sha256",
+    "channel": "ssb-learning",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nThanks! I just got this working with flumelog-offset and it's just as simple as you described, thanks for putting me on the right track. I'm going to track my progress/learning [here](https://github.com/fraction/flumedb-delete), and I think (?) my first todo should be to ensure that the views are regenerated as well. Are there any other steps that we'd need to take before declaring a feed \"deleted\"? I suppose their blobs could also be deleted during this process, but I'm going to focus my attention on flumedb first.",
     "mentions": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
       }
     ]
   },
-  "signature": "yqhNNp6Q66xBCS1Ee638pcKBSQAOmDUgiFlLNyuBu9+a2NJ2tDWnA46FB71vUrXY9Kx/uWkO0xC9FIMYbhneCA==.sig.ed25519"
+  "signature": "3QWo28ZuYAqyPuLTZ9KQ40NJBcwxCyr2CcW1vwzDFhOhHF7uRPWdEztl175a6Wh1Qe2ZVci6LbP6RQFt8VORAQ==.sig.ed25519"
 }
