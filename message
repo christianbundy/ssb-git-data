@@ -1,21 +1,15 @@
 {
-  "previous": "%9sjGtq+3YfOaWvn/nUcTfTh18VLKiOv0rAcNlCLPbv0=.sha256",
+  "previous": "%gKmrJ5yTw9FHeOiAfbdtJQLXbSsr/YtA1I64l6Bp2DI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7720,
-  "timestamp": 1543544032885,
+  "sequence": 7721,
+  "timestamp": 1543545569958,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256",
-    "branch": "%lhr6hUAfc0YrxqqC1luHC8Qd+Ul0sBcaDObf4FH5eh8=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nThanks! I just got this working with flumelog-offset and it's just as simple as you described, thanks for putting me on the right track. I'm going to track my progress/learning [here](https://github.com/fraction/flumedb-delete), and I think (?) my first todo should be to ensure that the views are regenerated as well. Are there any other steps that we'd need to take before declaring a feed \"deleted\"? I suppose their blobs could also be deleted during this process, but I'm going to focus my attention on flumedb first.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%DaPmsJKwjfE/pjHQcEvlzlOD9fwO8WM7GK1qYyf7nHE=.sha256",
+    "channel": "scuttlebot",
+    "text": "I'm planning on adding some debug statements to the gossip scheduler, so that that way I can at least see how often it's even *trying* to connect. Maybe we'll find a bug, who knows. 🤷 Worst case scenario I learn a bit more about how the scheduler works."
   },
-  "signature": "3QWo28ZuYAqyPuLTZ9KQ40NJBcwxCyr2CcW1vwzDFhOhHF7uRPWdEztl175a6Wh1Qe2ZVci6LbP6RQFt8VORAQ==.sig.ed25519"
+  "signature": "duuQzEp+UfeQz/5+Yl0j/2SCYsx9GVeprOB7olKtm1rflkfEnDrPp1lZup3+MiDiFyrV3YukKUTL4iZGBi6NDA==.sig.ed25519"
 }
