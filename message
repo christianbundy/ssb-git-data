@@ -1,17 +1,15 @@
 {
-  "previous": "%8G7AYa25+4AuR8bfBUibixJkCb/JlXPXqDLKdFYVhb0=.sha256",
+  "previous": "%3hXXMFEMXmv9myB8tmTimsTJ2Iihch3BUNNe9EHm36A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7726,
-  "timestamp": 1543599043760,
+  "sequence": 7727,
+  "timestamp": 1543601283254,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-learning",
-    "vote": {
-      "link": "%MG1K47CxX1zaL1fytFoLdOZ8jC2wFY+WOukzUfy/yjk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%A8iKDg+TIgNLBt7q6jsSPxN9MA1LQTToUnbNoOt3QAY=.sha256",
+    "branch": "%lC0KONVfp4p8OjsEfkpuOHmoRdlyyl5Yh56McyMg3Ak=.sha256",
+    "channel": "patchbay",
+    "text": "This has somehow started working again (?!) so if anyone wants to test you can use the `christianbundy` branch on the ssbc/patchbay repo. There have been some recent style updates that I haven't coerced into variables, so there may be *some* unthemed stuff but 99% of it should work just fine. The only gotcha is that I use my system Electron, so you may need to run `npm install electron@2.0.12` before installing the rest of the dependencies."
   },
-  "signature": "WRRoZVC4UqMDVUep/gBb9UUCopZAlLOIB5glFWtokTnSyB4jQAQVavgRyT4zOc4LNqHlQnPfWdWQPm3UPZm6AQ==.sig.ed25519"
+  "signature": "wXAeskR2OEbGz99VNCMxyMQQ9NvczGApgqCWJnAK6OupPJFHitIII/l7TvqW1lteP4LNMb+z5BsrtttFawTEBw==.sig.ed25519"
 }
