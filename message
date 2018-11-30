@@ -1,27 +1,21 @@
 {
-  "previous": "%AmPX3z5uCBVh+ddGvtC40vHWMbUn1H5MqQbVtq1xtm4=.sha256",
+  "previous": "%FLJPZ3lsqwrq5c2h04yKfDhD42P22RzZbpbaVKaKfDI=.sha256",
+  "sequence": 7735,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7734,
-  "timestamp": 1543609113806,
+  "timestamp": 1543609794190,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rbljP2KTVR9GS3BkkSnRiUmkMSC0XBhBQMXh3blG4XM=.sha256",
-    "branch": "%DIqaIIVsq8sjS/W3TewE7OxyuOYYlW082leHSN/catc=.sha256",
-    "channel": "patchbay",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI don't know exactly what it looks like with the default theme, but here's what I see:\n\n![patchbay blockquote](&25QqNVVeJQnz9rBhd6QvPva5Z6gwwKQDjfU1UoQXqOI=.sha256)\n",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "&25QqNVVeJQnz9rBhd6QvPva5Z6gwwKQDjfU1UoQXqOI=.sha256",
-        "name": "patchbay blockquote",
-        "type": "image/png",
-        "size": 241212
-      }
+    "type": "vote",
+    "root": "%zQtmMD5ksOwxJm3vYGllDBCt0vC4lgRPoQW58HVg0d8=.sha256",
+    "vote": {
+      "link": "%zQtmMD5ksOwxJm3vYGllDBCt0vC4lgRPoQW58HVg0d8=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%bLu7Pdi3pDAOA5d5unsDHLxuDHGX/pkIYptqkeY0G7o=.sha256",
+      "%pwyXqpMf5FqcYYTl89BfFQCq0aVHY9+jv6V8eIiVvXM=.sha256"
     ]
   },
-  "signature": "D9Zoc2bXiICNjCa2faznXCuscflTS3IkG1ZfC/K8VIhi5Ecsc/exoZViIxvP8rDIQa8vvuKrpaLgYr087LjbAg==.sig.ed25519"
+  "signature": "YvsPlSTS4C19yNz+5Ata36/zGeRkg16xK9ylu6mlqGgGr5v3Zb9+pSN4gRxto8Xx5bl4SgnWuoM6/2vspYpcBQ==.sig.ed25519"
 }
