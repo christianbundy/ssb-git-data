@@ -1,23 +1,20 @@
 {
-  "previous": "%wvISPk/0fW6yt32hR9XlW08iw060fWsWd54vSrSa41U=.sha256",
+  "previous": "%Sin8lYT4WNgOYn75j95qu9a33ott2WunSB5TlA2ZaDY=.sha256",
+  "sequence": 7737,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7736,
-  "timestamp": 1543609848340,
+  "timestamp": 1543609866769,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%zQtmMD5ksOwxJm3vYGllDBCt0vC4lgRPoQW58HVg0d8=.sha256",
+    "type": "vote",
+    "root": "%hgZN0df567dYksf2aGZPbxmULeChKYgBdCyfqyVzK70=.sha256",
+    "vote": {
+      "link": "%hgZN0df567dYksf2aGZPbxmULeChKYgBdCyfqyVzK70=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%bLu7Pdi3pDAOA5d5unsDHLxuDHGX/pkIYptqkeY0G7o=.sha256",
-      "%pwyXqpMf5FqcYYTl89BfFQCq0aVHY9+jv6V8eIiVvXM=.sha256"
-    ],
-    "text": "I *knew* that username looked familiar -- welcome [@RangerMauve](@E0GE7j6djYsR4rCu7UuBe2437XEmg49JwMPmw2jxtQU=.ed25519)!",
-    "mentions": [
-      {
-        "link": "@E0GE7j6djYsR4rCu7UuBe2437XEmg49JwMPmw2jxtQU=.ed25519",
-        "name": "RangerMauve"
-      }
+      "%eXuYm/6YzdcdoyGlwI7WWJGXFNKkAYWksnipvQmRtWg=.sha256"
     ]
   },
-  "signature": "2AMkKwY67V8Nl8PKXWEol8LPwjy8eidpMXBN3LBNnH+ZvMvhG9o914Pby4MpAFXtBrQimIaXt/2q9UAGaRbNBQ==.sig.ed25519"
+  "signature": "jpciwDwnW5W5TxGfzTAHxxQ92TIrblxIr4M4DdYXUpgkn400s0dlqEMgwWLa9bhA/D6mJH/yyv1ndU47mu/ZBw==.sig.ed25519"
 }
