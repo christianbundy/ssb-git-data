@@ -1,21 +1,22 @@
 {
-  "previous": "%xkcklK7hmoKuPwYHNDiJ1taA/ZQlVLGnscqGrkd5aXo=.sha256",
-  "sequence": 7749,
+  "previous": "%5Ob9dUCq/w4frwNfbiGE+p6QmhE8JlXMfsJbcKNcNb4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543611965577,
+  "sequence": 7750,
+  "timestamp": 1543612852669,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%hgZN0df567dYksf2aGZPbxmULeChKYgBdCyfqyVzK70=.sha256",
-    "vote": {
-      "link": "%cdHKsakryl5GwCExcfBeyEMVtvSoZ9imkA17l/Y3uCs=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%cdHKsakryl5GwCExcfBeyEMVtvSoZ9imkA17l/Y3uCs=.sha256",
-      "%dVEN1nNcPl0ICD50KLIr8Oj1oA2xdU4ciVApEEd+CG0=.sha256"
+    "type": "post",
+    "text": "[@zach](@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519)\n\nI've been thinking about making a *super tiny* app for people to check under the hood for ssb-db, scuttlebot/ssb-server, or both, but I want to make sure it has a name that doesn't suck or ostracize people who aren't already developers. Here are some similar tools I can think of:\n\n- Task Manager from Windows\n- Activity Monitor from macOS\n- System Monitor from GNOME\n- Inspect Element/Developer Tools from browsers\n- Django Admin (%3uZZQ2Ht6KAHpgoHaKGYht7wrRPClMVFjdawESvnyVA=.sha256)\n- phpmyadmin\n- [feedpunk](%ETdUKqd+6Ei8ayj1bRWhITl4G2KeVwf+8RhGhdo62s8=.sha256) \n\nDo you think something like \"SSB Monitor\" is intuitive, or are admin/monitor/etc just something I'm used to which makes it feel more neutral than it is? As we continue nailing down SSB bugs I think it will become increasingly important to have debugging tools that anyone can use, and I think starting out with a non-terrible name is probably a good call. I'd be super interested to hear your thoughts on this if you have time. ✨ ",
+    "mentions": [
+      {
+        "link": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519",
+        "name": "zach"
+      },
+      {
+        "link": "%ETdUKqd+6Ei8ayj1bRWhITl4G2KeVwf+8RhGhdo62s8=.sha256",
+        "name": "feedpunk"
+      }
     ]
   },
-  "signature": "zjG8jlsNLNFA3alP7W8+QAZ7DmIbL0e1GJlk7XmsjbLLEAfv2LvBztrME/hRmf1SqxsD8NvbbUI8Ojwwf+3XAQ==.sig.ed25519"
+  "signature": "/NKRwlDA6kLl5nmtB3w2F/b/54/fXpZOaXsuUmk/bzubYcjKx24ULtuOsFA4jkYSwNoqIUm8gHXo6lLKuusoBA==.sig.ed25519"
 }
