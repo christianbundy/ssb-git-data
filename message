@@ -1,9 +1,21 @@
 {
-  "previous": "%gDXNkqBZxX/DUJ28llnyNWpwhxbkUziM3AebrA3tHvQ=.sha256",
+  "previous": "%UjFTz/mIYJ4GZO57T3GdO3ZQAiFIczn8q9yoRONtFrQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7722,
-  "timestamp": 1543548395729,
+  "sequence": 7723,
+  "timestamp": 1543595480147,
   "hash": "sha256",
-  "content": "XjLPD3/WVYot880woN/kQNoeLdpjuHMqfD2fYHLwdy3Y9/20whR51aLqyiS/6evnDP+WM2sZrgwj9/WTvBdlvOxDJsk4T55n0hrS7G8wAX298gO0r3f3TQCPtQzgtZo0sRTLNKm1w/xmA12YkH64+J4NkTAIctiTdlzulVoYcSS+CcJ2k+HrrrS0hwdoivumS+ouOZzEt7iSOewRmPd/n83Ipf+lC1yfac+EA5yzGxxtIu8vpyg6N9cpFynKpcrwBLFXuaanxxxVKlwJM98I6bWNxxyq+f33fruq5NT+lmP2lZjfnZJ6SMpm0QTeYAJwunpuTLkw1fYOrkpfPydeIGd3RgFc3i3g/O4qR2bkF7LsWVceylSHc5or3Ps7MT0ll+cHaROOn/YKUTgXcC7Od67DeJ4vXvaOQ9EKomiFNEMifzykYnGC1YgSuVZIqaGl9tXIkvu1w4Xq2i0jnCRddJBHhPHpU0S4boOYtzyd/OpdwZCn9CGKRiugIhmZzpb7kiL9LQRVVQWkdTUresSIxK4JgVkA5L6ipV52V4zqkYrw2Yq5rLqnECc4qSMPjUzRK/4hOVgX6opmuviKA//Sxyx9Psa8oDikPhSwk4u6L0JgxRebIfZ6wzKS7FfhKMRefAdZbJVFtspBmBbGkasFylRfAQ5Gog4p8nQHxO8R5G29M/kyTG68mLHeDpq9FcEqESxbTaWDa5HaePfq2mApZ0nZB4ZiUTZ9oXeY7Ghb7x8vM+A5l1cm8Wt+RB8h7HlMMloqD0ZVVjtqhY1BP8HYNNnANjs7L7BCQXt9gxMoXGhiOF/hVSTN9f1bEw29/JwgJ6XSVGNriH8YagYLOBcy5c4Fyzf9n+dVBpImqIr5Jrv7CqamhEhMDn6iGmDmM5gu0ChUCjGBubauVTXPMJkjHD41OyJy+3DNQXMk1tDhFtcgz50rwFE18hm1Xhal23ZzPMCs9atdia0h4BAv0e5tbinX3u60v4MmZj1IdnAWAqrZCsFblUanvBxmHzbvNGZrqGwOjtVT.box",
-  "signature": "I1owTAjJPxoJHokHJSsQRmO4Xj9Fxft0Pqq/WiL3ZXUlqk+faxMtkiJDpMQmeNtH8nPRGX+lByz+AJvQ0xO9Cg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%JymNUllfUHSMjX4Tc5fZm83+ncDORbguBzTC4+VBYuI=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nThanks, I'll take a look at that. Is that still something you'd like to see merged?\n\n---\n\nI've got some debug statements set up and I can see that the gossip scheduler is calling `connect()` repeatedly, but no messages are coming in. I'm not really sure why that is, but I'll continue debugging. Here's what I'm seeing (over and over and over again):\n\n```\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +1ms\n  ssb-server connecting: friends +0ms\n  ssb-server connecting: attemptFriend +0ms\n  ssb-server connecting: retryFriends +0ms\n  ssb-server connecting: longterm +0ms\n  ssb-server connecting: retry +1ms\n  ssb-server connecting: legacy +0ms\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +0ms\n  ssb-server connecting: friends +1ms\n  ssb-server connecting: attemptFriend +1ms\n  ssb-server connecting: retryFriends +0ms\n  ssb-server connecting: longterm +1ms\n  ssb-server connecting: retry +1ms\n  ssb-server connecting: legacy +1ms\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +0ms\n  ssb-server connecting: friends +1ms\n  ssb-server connecting: attemptFriend +0ms\n  ssb-server connecting: retryFriends +1ms\n  ssb-server connecting: longterm +0ms\n  ssb-server connecting: retry +2ms\n  ssb-server connecting: legacy +1ms\n```",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
+  },
+  "signature": "eBbaAupx40LB2KdhYE6WqPon0ymJwjh9C89Cq2FjtqbvYzl4mQXsHrgJRSkymTRFDNbgWLHhafwSghCd+2BPCQ==.sig.ed25519"
 }
