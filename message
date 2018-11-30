@@ -1,19 +1,20 @@
 {
-  "previous": "%abnBVHu8mgEiZAiVOW1ZE3ghA443aM4o/Dm6KOobZvY=.sha256",
+  "previous": "%rbljP2KTVR9GS3BkkSnRiUmkMSC0XBhBQMXh3blG4XM=.sha256",
+  "sequence": 7730,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7729,
-  "timestamp": 1543601472692,
+  "timestamp": 1543601543886,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI love the new blockquote style in `master`, thanks for improving that!",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
+    "type": "vote",
+    "root": "%kyEsVySh5OQjkcdKcV0clE5ULpE4seqGpHMXZqgOcmU=.sha256",
+    "vote": {
+      "link": "%kyEsVySh5OQjkcdKcV0clE5ULpE4seqGpHMXZqgOcmU=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%kyEsVySh5OQjkcdKcV0clE5ULpE4seqGpHMXZqgOcmU=.sha256"
     ]
   },
-  "signature": "oeyscd6lhtcTJ4oXGNktQU+uIsdaqLL6/3LyN+SNGX97hI6/cOkOQTUthQzIxZaHpjt1eqF84m31FND4gjZEBg==.sig.ed25519"
+  "signature": "Cmz///TRPoCsR8D39fRX6meVVPlsxhCxoFDT1VoQe8gYuHw3RXHZP01wOSk1x5yxQoPOQuj8L6SsRSZyx014Bg==.sig.ed25519"
 }
