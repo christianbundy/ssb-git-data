@@ -1,15 +1,39 @@
 {
-  "previous": "%81pCYBaVMIun8QCY4SI7B5wIWM/cZstwqXbM+9qhQsk=.sha256",
+  "previous": "%lKp4jLNE60YomAqQDmTK6PMqg5PRarjQxchkyHu6HTo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7761,
-  "timestamp": 1543684638320,
+  "sequence": 7762,
+  "timestamp": 1543686055574,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%D4GEbX2mAKuBiNDyvjp86zLG5xiKp9gSCrDajrv/HzY=.sha256",
-    "branch": "%VNvC5zXLMrO9uzUSd+3rshFQ/7GWbC+zSrrXlHvby+o=.sha256",
-    "channel": "scuttlebutt",
-    "text": "- Device\n  - No airplane mode, background apps remain open, I'm aiming for a practical benchmark.\n  - Google Pixel XL\n- Internal\n  - Read: 285 MB/s\n  - Write: 127 MB/s\n- External (? I don't have an sd card so I'm unclear on what this is)\n  - Read: 420 MB/s\n  - Write: 145 MB/s"
+    "root": "%0uEOBhZSBYMbi2RP+s5vOa42x2NDADQ4C34xnRcxiEw=.sha256",
+    "branch": "%pxvEl6vi0JO1n4M7ws/FGFsOVtyWY8BvtAt1W6UhTC8=.sha256",
+    "text": "[@zach](@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519)\n\nI'm not sure which sort of interface would be best, I'm thinking that I could do something standalone, within Patchbay, or both (like ssb-chess). One of my thoughts was showing gossip activity since it's [hard to debug](%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256), but it looks like [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) may have [read my mind](%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256)!\n\n> what would prompt someone to want to look under the hood\n\nI think there are all sorts of low-level bugs that people experience (endless \"scuttling\", forked feeds, gossip failure) and maintenance tasks that people may want to do (e.g. delete a feed) that would be nice to handle in one application.\n\n> what sort of answer or insight (in the form of code or otherwise) would they expect to find\n\nI'm thinking something like:\n\n- list of all of the feeds in your database\n  - add raw data to your feed\n  - delete other feeds from your database\n  - follow, unfollow, or block feeds\n- list all of the blobs in your filesystem\n  - add blobs to the filesystem\n  - delete blobs from the filesystem\n  - get messages that reference blobs\n- list of all the peers in your `gossip.json`\n  - add peer to the gossip file\n  - delete peer from gossip file\n  - get real-time network activity, including errors and statistics\n  - get network history, including errors and statistics\n- make backups\n  - all of the above should be able to be backed up or restored from a backup\n  - possible #dark-crystal integration to shard password for backup (or just keypair)\n- list all flumedb views\n  - get indexing progress on each view\n  - get ETA until indexing is complete (and maybe statistics on progress)\n- create [benchmarks](%kuxL79vQ1f+ZqaIFu3srHRTov2xA0nX7MRC5cUCSwY8=.sha256) to see how the software performance changes over time\n\nI think a lot of the lower-level bits of Scuttlebutt can actually be pretty intuitive if people feel empowered to tinker and/or troubleshoot by themselves, and I don't think we have very much infrastructure for that right now. ",
+    "mentions": [
+      {
+        "link": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519",
+        "name": "zach"
+      },
+      {
+        "link": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+        "name": "hard to debug"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256",
+        "name": "read my mind"
+      },
+      {
+        "link": "#dark-crystal"
+      },
+      {
+        "link": "%kuxL79vQ1f+ZqaIFu3srHRTov2xA0nX7MRC5cUCSwY8=.sha256",
+        "name": "benchmarks"
+      }
+    ]
   },
-  "signature": "un9yde0YXiUKLS5uWW+ME6Ul4o3SDq9LeHg/0VSpKRAkCEdoWHCqG9h9/hniA3G5TR+Pv8SC7BEsIPBC2DXUCA==.sig.ed25519"
+  "signature": "jgL8c8X9ZwNfy0ylJAzStRVYd67ltil8S+SukJYZ7/60ZmdyEb2mSyfS7qTONdRIX4DqiENfoaBi1aMvPcKkAg==.sig.ed25519"
 }
