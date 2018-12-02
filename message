@@ -1,29 +1,20 @@
 {
-  "previous": "%tKmR6dl0LoPunpZR51usc20lSKmMnOEXhoeCv3vBKYM=.sha256",
+  "previous": "%mDgUK0Hjm2MCeMmuEJOn86V1vrJs9/jdnhP8zKgNK6I=.sha256",
+  "sequence": 7771,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7770,
-  "timestamp": 1543780356277,
+  "timestamp": 1543783769296,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256",
-    "branch": "%xTIYNwlGY2n6xIRN2Re8D4f0U8+/Yrxqz7V3wBGP/1Q=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n\nI really love this, thanks for building it! I'll need to spend some more time looking into chart.js, but I'd be interested to see whether there's a way to disable animations. I'm not sure why, but this is rendering at only a few frames per second for me.\n\n---\n\n[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nPerhaps the thread about [graphing replication delay](%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256)?\n ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
-        "name": "Powersource too"
-      },
-      {
-        "link": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
-        "name": "graphing replication delay"
-      }
+    "type": "vote",
+    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "vote": {
+      "link": "%WvfBgVPh3oZl/kR5TGx+F09qlmHqXkakC3JfOiVW2co=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%WvfBgVPh3oZl/kR5TGx+F09qlmHqXkakC3JfOiVW2co=.sha256"
     ]
   },
-  "signature": "ngSTreJLmYWTPkQ7IKXcT+D1kMsoxcihcE7LA2lGx1fp1i3rE4okqg51UI3+RlT0qrc5f8SP5lxBDm4s0ev5AQ==.sig.ed25519"
+  "signature": "SCB2hGHFD1WrD6wWIHm6BTcys59W6P+jrKDExLz+fPrMpeI3jPPrcYq3T0H3629sNM67o3dGj4mhFSlqvM00DQ==.sig.ed25519"
 }
