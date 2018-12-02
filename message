@@ -1,18 +1,21 @@
 {
-  "previous": "%rMQuQsgTdS1sdZP8LLOJ0mSPed60lBryQJfKi16OKk8=.sha256",
-  "sequence": 7768,
+  "previous": "%ZOQ8vDVFnou5ObSgVvkEqYpC33dULvdUtQARh/7gF/0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543777671000,
+  "sequence": 7769,
+  "timestamp": 1543779499067,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 29,
-    "root": "%qI2DL7E+K4IK7qWQ7m2yYOGKoahMvVOPRNKxp84uAWg=.sha256",
-    "orig": "f1",
-    "dest": "e2",
-    "pgnMove": "Be2",
-    "fen": "r3k1nr/p6p/2p2pp1/2P1p3/1P4b1/4B3/P3B1PP/bN1K3R b kq - 3 15",
-    "branch": "%Sl0f2lDaJRXSXkVFGruT/sSwtxTEvu6qMaBc7+UtPYk=.sha256"
+    "type": "post",
+    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "branch": "%SDx0liuYR3dfI15uDCp5KW5nFZKtc1n6r1JY5eBP/Uw=.sha256",
+    "channel": "ssbc",
+    "text": "Found a config to ignore lockfiles system-wide:\n\n> ### `package-lock`\n>\n> - Default: true\n> - Type: Boolean\n>\n> If set to false, then ignore `package-lock.json` files when installing. This will also prevent writing `package-lock.json` if `save` is true.\n>\n>When package package-locks are disabled, automatic pruning of extraneous modules will also be disabled. To remove extraneous modules with package-locks disabled use `npm prune`.\n>\n>This option is an alias for `--shrinkwrap`.\n\n```sh\nnpm config set package-lock false\n```\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) is this something you'd fine helpful? \nI think diffs can be ignored too:\n\n```sh\n# one-off command\ngit diff master -- ^package-lock.json\n\n# global config\necho \"package-lock.json binary\" >> /etc/gitattributes\n```",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "V+OlKvvoNbc5O75+89j6OgO+sVbi+yVlEp3NSF75kyPDsQAvYWOt44fb5Qvl6/PvXudMAj1LKdgshykZfqdGBQ==.sig.ed25519"
+  "signature": "8/A08zpuJv3qn7Yr/3f53OHy3RTNVJ8j/pF5BuK06YVM7Fw4HmcAge2e/RYJ0tYMYP78ZLJUbKI0aHyefIGJCg==.sig.ed25519"
 }
