@@ -1,21 +1,29 @@
 {
-  "previous": "%ZOQ8vDVFnou5ObSgVvkEqYpC33dULvdUtQARh/7gF/0=.sha256",
+  "previous": "%tKmR6dl0LoPunpZR51usc20lSKmMnOEXhoeCv3vBKYM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7769,
-  "timestamp": 1543779499067,
+  "sequence": 7770,
+  "timestamp": 1543780356277,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-    "branch": "%SDx0liuYR3dfI15uDCp5KW5nFZKtc1n6r1JY5eBP/Uw=.sha256",
-    "channel": "ssbc",
-    "text": "Found a config to ignore lockfiles system-wide:\n\n> ### `package-lock`\n>\n> - Default: true\n> - Type: Boolean\n>\n> If set to false, then ignore `package-lock.json` files when installing. This will also prevent writing `package-lock.json` if `save` is true.\n>\n>When package package-locks are disabled, automatic pruning of extraneous modules will also be disabled. To remove extraneous modules with package-locks disabled use `npm prune`.\n>\n>This option is an alias for `--shrinkwrap`.\n\n```sh\nnpm config set package-lock false\n```\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) is this something you'd fine helpful? \nI think diffs can be ignored too:\n\n```sh\n# one-off command\ngit diff master -- ^package-lock.json\n\n# global config\necho \"package-lock.json binary\" >> /etc/gitattributes\n```",
+    "root": "%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256",
+    "branch": "%xTIYNwlGY2n6xIRN2Re8D4f0U8+/Yrxqz7V3wBGP/1Q=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n\nI really love this, thanks for building it! I'll need to spend some more time looking into chart.js, but I'd be interested to see whether there's a way to disable animations. I'm not sure why, but this is rendering at only a few frames per second for me.\n\n---\n\n[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nPerhaps the thread about [graphing replication delay](%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256)?\n ",
     "mentions": [
       {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "Powersource too"
+      },
+      {
+        "link": "%xgRysdqilFdkaBBU+LmYxivU2/+yKQLgymFtLry2rus=.sha256",
+        "name": "graphing replication delay"
       }
     ]
   },
-  "signature": "8/A08zpuJv3qn7Yr/3f53OHy3RTNVJ8j/pF5BuK06YVM7Fw4HmcAge2e/RYJ0tYMYP78ZLJUbKI0aHyefIGJCg==.sig.ed25519"
+  "signature": "ngSTreJLmYWTPkQ7IKXcT+D1kMsoxcihcE7LA2lGx1fp1i3rE4okqg51UI3+RlT0qrc5f8SP5lxBDm4s0ev5AQ==.sig.ed25519"
 }
