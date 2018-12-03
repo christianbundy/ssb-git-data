@@ -1,21 +1,21 @@
 {
-  "previous": "%sHRbz8uzNrDJ/XtDwW6D9AKsDXcxhGKiDfOiyApqaTU=.sha256",
+  "previous": "%EIvNa3J7fdNGSABkLivF2iUTb+pjIPcalJlQ+/tLQ9U=.sha256",
+  "sequence": 7777,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7776,
-  "timestamp": 1543861709734,
+  "timestamp": 1543861731052,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-    "branch": "%Qw8n1EWsglIqTQRtNegkeVrDksY8kE4KMSeWKvEnxW8=.sha256",
-    "channel": "ssbc",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) I think with the above you shouldn't have to deal with either the lockfile or the git diffs, are there any other inconveniences from lockfiles? If possible I'd love to use the lockfile default without negatively affecting anyone who wants to abstain from using them.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
+    "type": "vote",
+    "root": "%EyS4J6vN5REsvyi5aW1/XvPre+oAHu4lgi8YGxekw/8=.sha256",
+    "vote": {
+      "link": "%xrkwZPm6ti9j07cbjKWcKl5Ze+1rLKToVpspEbi3/Hs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%NJn2efsjoMGPNfXklONzVRYz/2GXt8lAxUDgR+iduRY=.sha256",
+      "%U+AHzS4sOcEu3nrMSn8xrMmegSd75HnsDGvw/0oNucQ=.sha256"
     ]
   },
-  "signature": "HYHSyUVa1uozo95Fj0vPTws9NMD/iRNxdP0FZvL7gklWIvf5K98b01qyBqaG1W9wd7Dsig5/dTpDtHJGssFMDA==.sig.ed25519"
+  "signature": "Dgesu2eRGllIOqGdNoTM8YQmS+aBDFitv1MxW+LM8Np103oF/YAVXgr5bZ2l2LdBjX7htVsjCR6Ep8H2tkEvBw==.sig.ed25519"
 }
