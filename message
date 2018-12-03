@@ -1,20 +1,20 @@
 {
-  "previous": "%eWfF0kuNhhLsf+jOarMIXr+N9h7aVvEgPc05ipkGbeE=.sha256",
+  "previous": "%xyC3EWhkro9sGpY7edIruioofhTG3eRmLaZX+NLURrI=.sha256",
+  "sequence": 7785,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7784,
-  "timestamp": 1543875739200,
+  "timestamp": 1543875740612,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%EyS4J6vN5REsvyi5aW1/XvPre+oAHu4lgi8YGxekw/8=.sha256",
-    "branch": "%EEeULsx5Rd1LTti0ce8izBK9fWgC6M9OtGLJoPeJC2Q=.sha256",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nCould you explain that a bit further? We don't use the word \"trousers\" around here.",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
-      }
+    "vote": {
+      "link": "%EEeULsx5Rd1LTti0ce8izBK9fWgC6M9OtGLJoPeJC2Q=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%xyC3EWhkro9sGpY7edIruioofhTG3eRmLaZX+NLURrI=.sha256"
     ]
   },
-  "signature": "jeh1+8Ua1MPiVMhJ6168gKwQ8mo80b6Sif9RwjW/22n634TF2tlkWpnYXTUwWZKpPRM/f1VTdAh2J9VaWUGoDg==.sig.ed25519"
+  "signature": "KkABvw34DbvatFb86UJBD8h4GTI0kylZIAb087lY8Mi7T05QRpvKGily3kQGKtO1b3rVljag7e/pAgVIWYpUCA==.sig.ed25519"
 }
