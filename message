@@ -1,20 +1,21 @@
 {
-  "previous": "%jfVIZak7Az9r4NKGjgJj5ngph0hAIYe4+hNTLFIOuSI=.sha256",
-  "sequence": 7796,
+  "previous": "%H9vjuSHW/nFAvQstlcBVgufweIp1J1b7S5S2QcL/ClQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543877723438,
+  "sequence": 7797,
+  "timestamp": 1543878490588,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%yyqIfHRomP+DWYyvxqnD2dE2YsTcBCicm5x9FccAJVw=.sha256",
-    "vote": {
-      "link": "%yyqIfHRomP+DWYyvxqnD2dE2YsTcBCicm5x9FccAJVw=.sha256",
-      "value": 1,
-      "expression": "heart"
+    "type": "post",
+    "root": "%Znt90393hUzKZIKvQPdZ+HRG/055uFEqb0lwxLJhgF0=.sha256",
+    "branch": "%D4p5Rb46uhrLp2fqKHd9Vw94hbImbuGqWWfXv5UIlYA=.sha256",
+    "reply": {
+      "%Znt90393hUzKZIKvQPdZ+HRG/055uFEqb0lwxLJhgF0=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%D4p5Rb46uhrLp2fqKHd9Vw94hbImbuGqWWfXv5UIlYA=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
     },
-    "branch": [
-      "%qUWf5wubbaElnIVfTjh/TP3nUihiMA3i8DEXstQLqVk=.sha256"
-    ]
+    "channel": "patchwork",
+    "recps": null,
+    "text": "Just started Patchwork and I agree -- very snappy! :ok_hand: (pretend this is a snap)",
+    "mentions": []
   },
-  "signature": "BNVO54cPGWJFI4ZLXk8fYVdgM34fS6UIb54LF7fRxEDJNp+6GDUPgRx2qliGdvroSQW9ICw3FlJDCFu4VOTPDQ==.sig.ed25519"
+  "signature": "lA3IVtWNylEvf3GyehR0gyreWbvaVb7M/Cl43T5+X8f744+Lwk1P5IbdF/oJdMqK35JPpHcvx9TbFUdybT35Bg==.sig.ed25519"
 }
