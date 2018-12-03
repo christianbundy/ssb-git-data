@@ -1,20 +1,20 @@
 {
-  "previous": "%mDgUK0Hjm2MCeMmuEJOn86V1vrJs9/jdnhP8zKgNK6I=.sha256",
-  "sequence": 7771,
+  "previous": "%h4KlzmAM/FSrstVHBc/SxvfJsvrsCd0e9dLCT6BmBf0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543783769296,
+  "sequence": 7772,
+  "timestamp": 1543799394298,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-    "vote": {
-      "link": "%WvfBgVPh3oZl/kR5TGx+F09qlmHqXkakC3JfOiVW2co=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%WvfBgVPh3oZl/kR5TGx+F09qlmHqXkakC3JfOiVW2co=.sha256"
+    "type": "post",
+    "root": "%OTF5TQeW/CwENZDe8VeS6qhYbPDZuL6Evyq9BYKD5Bk=.sha256",
+    "branch": "%el5oXNFwjXas9v5Dy+oCerPMFsnbkr7scfjxU4l1bmg=.sha256",
+    "text": "[@spencer](@pMMUGwiEuuU1WKTQlby9SM/wkY4s0VKLqZ+P+Wmewpc=.ed25519) \n\nI think \"scuttling\" means it's indexing the database. If it lasts for more than a few minutes, I'd recommend restarting Patchwork. Any chance Patchwork may be running in the background or something? Sometimes I'll get a frozen \"scuttling\" when it can't connect to the SSB server (because it's being used by another process).\n\nOnce it's finished scuttling you can copy and paste your feed ID (`@pMMUGwiEuuU1WKTQlby9SM/wkY4s0VKLqZ+P+Wmewpc=.ed25519`) into the search box and manually follow it from your wife's computer, and when they're on the same wifi they should definitely peer.\n\nHope that helps!",
+    "mentions": [
+      {
+        "link": "@pMMUGwiEuuU1WKTQlby9SM/wkY4s0VKLqZ+P+Wmewpc=.ed25519",
+        "name": "spencer"
+      }
     ]
   },
-  "signature": "SCB2hGHFD1WrD6wWIHm6BTcys59W6P+jrKDExLz+fPrMpeI3jPPrcYq3T0H3629sNM67o3dGj4mhFSlqvM00DQ==.sig.ed25519"
+  "signature": "gDzBLaLJhC8HOcTpgWeWKIunaz3n3RooAtesxjMsygN95z2TaOGbB5qDt1G/ZH2RatTUqe71R/J/L8/vIJvFCg==.sig.ed25519"
 }
