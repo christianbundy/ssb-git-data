@@ -1,20 +1,17 @@
 {
-  "previous": "%8lHpdF4iao/4bYBn+Vl8d3KunqIR/twV4qpR7+svaNE=.sha256",
-  "sequence": 7827,
+  "previous": "%kJ1bLtfTXoiZpWJQFl3L1WqgWkjbv4mp+IYPTiUfd0o=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543964921219,
+  "sequence": 7828,
+  "timestamp": 1543965341640,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%D7YVkC5GzwrU8rqSn28jJiv1hPFYxV5++1yeUuz7d5w=.sha256",
-    "vote": {
-      "link": "%D7YVkC5GzwrU8rqSn28jJiv1hPFYxV5++1yeUuz7d5w=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%9EdpeKC5CgzpQs/x99CcnbD3n6ugUlwm19F7ZTqMh5w=.sha256",
     "branch": [
-      "%D7YVkC5GzwrU8rqSn28jJiv1hPFYxV5++1yeUuz7d5w=.sha256"
-    ]
+      "%KKPLj1tWfuVhCvgJz2hG/nIsVzmBRzUJaqHv+sb+n1c=.sha256",
+      "%yePm13huc4ZD2b3bbTaWHpfq+rXkVCKpFpYVBQflzrk=.sha256"
+    ],
+    "text": "It's actually very similar to how pubs work in SSB: if you have a public IP address you can give out invites to trusted friends who will use your server to connect to the rest of the network. If you don't have a public IP address you can connect to a friend and they'll route traffic for you so that you appear to have a public IPv6 address."
   },
-  "signature": "L/MsYFuNxzz2C6X1rjmFokoFVejUlKQwfP7bP1HI1372P0BQpxHEJJ9L+zgFKpCDvOpGW7DnF2ml5VzQEuyEBw==.sig.ed25519"
+  "signature": "PJejz6N+zTMtYE7EfO+mNFs93W1436iliBlRo6OYJ3KQ+DFdmD2lGfyID1vZR2JSQNwgJn9ywLEWJzm4xiV2Cw==.sig.ed25519"
 }
