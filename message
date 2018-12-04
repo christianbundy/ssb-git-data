@@ -1,20 +1,23 @@
 {
-  "previous": "%jB15bpR932oUrWYzT9/Om4wnrGybG+DOMHXTeAfCejo=.sha256",
-  "sequence": 7813,
+  "previous": "%D4O1WV33NK4Aszai8xcU8Ym0vL7vT0Lo5T9UIWsd6g4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543948370217,
+  "sequence": 7814,
+  "timestamp": 1543950590781,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%c9/je5lE8Cu6G1/CoYjwopzlMHgDd4LawUhYEWDjBYQ=.sha256",
-    "vote": {
-      "link": "%c9/je5lE8Cu6G1/CoYjwopzlMHgDd4LawUhYEWDjBYQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%jB15bpR932oUrWYzT9/Om4wnrGybG+DOMHXTeAfCejo=.sha256"
+    "type": "post",
+    "root": "%9EdpeKC5CgzpQs/x99CcnbD3n6ugUlwm19F7ZTqMh5w=.sha256",
+    "branch": "%9EdpeKC5CgzpQs/x99CcnbD3n6ugUlwm19F7ZTqMh5w=.sha256",
+    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nHave you used #cjdns? It gives you an IPv6 address that can be accessed by anyone else running the server, and all traffic is encrypted to your IPv6 address (which acts as a public key). The only downside is that people without cjdns can't connect to your address, and I think I've seen a reverse proxy already implemented. ",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "Andre Staltz"
+      },
+      {
+        "link": "#cjdns"
+      }
     ]
   },
-  "signature": "dOSaVO2TAIe4SrQBUgxS4EBjIJFF5dW1teHOemJsA/DgYvtUKOcAaDuhmXEjhjRwne6sA7ni039PV73ao0EdBg==.sig.ed25519"
+  "signature": "Xrub7TuJTx3jfE3BbPLifo/iLUwJzoqD1BlPdsQY6wVr2FETRgfSsYdmLqt3GG66GN7rHq9lSCWxTJX6sRFnDg==.sig.ed25519"
 }
