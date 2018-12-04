@@ -1,23 +1,21 @@
 {
-  "previous": "%D4O1WV33NK4Aszai8xcU8Ym0vL7vT0Lo5T9UIWsd6g4=.sha256",
+  "previous": "%DOMHTZCjfu03vsIQ4uB1u96bdRwDQW8J0woaptHzbTk=.sha256",
+  "sequence": 7815,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7814,
-  "timestamp": 1543950590781,
+  "timestamp": 1543951059301,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%9EdpeKC5CgzpQs/x99CcnbD3n6ugUlwm19F7ZTqMh5w=.sha256",
-    "branch": "%9EdpeKC5CgzpQs/x99CcnbD3n6ugUlwm19F7ZTqMh5w=.sha256",
-    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nHave you used #cjdns? It gives you an IPv6 address that can be accessed by anyone else running the server, and all traffic is encrypted to your IPv6 address (which acts as a public key). The only downside is that people without cjdns can't connect to your address, and I think I've seen a reverse proxy already implemented. ",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "Andre Staltz"
-      },
-      {
-        "link": "#cjdns"
-      }
+    "vote": {
+      "link": "%yePm13huc4ZD2b3bbTaWHpfq+rXkVCKpFpYVBQflzrk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%DOMHTZCjfu03vsIQ4uB1u96bdRwDQW8J0woaptHzbTk=.sha256",
+      "%yePm13huc4ZD2b3bbTaWHpfq+rXkVCKpFpYVBQflzrk=.sha256"
     ]
   },
-  "signature": "Xrub7TuJTx3jfE3BbPLifo/iLUwJzoqD1BlPdsQY6wVr2FETRgfSsYdmLqt3GG66GN7rHq9lSCWxTJX6sRFnDg==.sig.ed25519"
+  "signature": "/nQw/wwfVI+xjx+aTTnNBbVZjkuRBLEbYbD4RyR2Y90Jpnm7Ju3YoZNqZhi8NZjPBDlDs9uPhj31Qi3RH3cyBw==.sig.ed25519"
 }
