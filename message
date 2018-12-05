@@ -1,20 +1,21 @@
 {
-  "previous": "%rCG1ZrRNZRAI85DKfhwyK1BL/wFOLNsUtbMubB8SJf8=.sha256",
+  "previous": "%30qYt7u9SU3rSXc3shO9QMMeVRL03VwL5m6Lbnjp8nA=.sha256",
+  "sequence": 7842,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7841,
-  "timestamp": 1544027467563,
+  "timestamp": 1544027470428,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%EyS4J6vN5REsvyi5aW1/XvPre+oAHu4lgi8YGxekw/8=.sha256",
-    "branch": "%xsRJVnpubGTgLwxaajMWdFCz1sS9ruQnrYCHuVnMhEw=.sha256",
-    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nThat's almost exactly what I'd like to build, but I'd really like to make it work in a business casual environment if possible, although I love the [instructional videos](https://www.jumpsu.it/pattern/).",
-    "mentions": [
-      {
-        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
-        "name": "polylith"
-      }
+    "vote": {
+      "link": "%xsRJVnpubGTgLwxaajMWdFCz1sS9ruQnrYCHuVnMhEw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%30qYt7u9SU3rSXc3shO9QMMeVRL03VwL5m6Lbnjp8nA=.sha256",
+      "%yH7CFzkMH2G89+WdbnBKjmURDMXSbEpJrhaisBy2DUw=.sha256"
     ]
   },
-  "signature": "MEEhwmfgmL1aHMTDQCzuzylys0qcKluysmzNkyClAh8+tuRgmoVF6KYnZy8KiXRDQJHhUw1L1GJr9fhxDWo4Dg==.sig.ed25519"
+  "signature": "tJoDtvCde3XdtwPACfQEOOvBhQSW6VAnGMyII0IgOUeBXVgRUPZPmEPZTawHGcu39x+hVYb2nRmH14p9J7/XCQ==.sig.ed25519"
 }
