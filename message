@@ -1,35 +1,20 @@
 {
-  "previous": "%KLjH3lpQ/h9e+M4H32w7z87+rAVMMPQqZdh0WfMVyRk=.sha256",
+  "previous": "%rCG1ZrRNZRAI85DKfhwyK1BL/wFOLNsUtbMubB8SJf8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7840,
-  "timestamp": 1544025607157,
+  "sequence": 7841,
+  "timestamp": 1544027467563,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Forked from: %M0sJLnl3beIMPlT/PevFdD/5RUmN3SVuT7emwrW73lc=.sha256\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) [@adam](@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519) \n\nHow do alt-net groups compare to [encrypted groups](%gVFvcYy2aknKuYwThI+dD2BKr5LfNN5CA4FglEPqnow=.sha256)? I think alt-nets have the benefit of leaving no trace, but I'm not sure what other pros or cons there are. It's a very clever idea though! You could send a private message where you both agree to a network key and then switch over to that channel, similar to how on the radio you move conversations from well-known channels to other frequencies.\n\nAfter I've thought about it for a minute, couldn't you stack encrypted groups on top of an alt-net? You'd send a private message saying \"switch to network key X\" and then you'd post an encrypted group message on that network key and share the secret with your contact. It's like #offchain-content but instead we just move it to a *different* chain that's private.\n\n...and if we have a different chain, wouldn't that be a super simple way to do multi-feed identities? You'd have one root identity on the main network posting #same-as messages where you share the other network key(s) you're using. We'd use the same public key, so I think this could *just work* without many changes to existing clients. There are only two footguns I can think of:\n\n- You're sharing the same private key across devices, which means it's more likely to be stolen.\n- If your private key is stolen you may not know about it because your ssb-server/sbot doesn't check that network key.\n- Some clients may have issues if they assume that each feed has a single sequence number (?!)",
+    "root": "%EyS4J6vN5REsvyi5aW1/XvPre+oAHu4lgi8YGxekw/8=.sha256",
+    "branch": "%xsRJVnpubGTgLwxaajMWdFCz1sS9ruQnrYCHuVnMhEw=.sha256",
+    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nThat's almost exactly what I'd like to build, but I'd really like to make it work in a business casual environment if possible, although I love the [instructional videos](https://www.jumpsu.it/pattern/).",
     "mentions": [
       {
-        "link": "%M0sJLnl3beIMPlT/PevFdD/5RUmN3SVuT7emwrW73lc=.sha256"
-      },
-      {
-        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
-        "name": "nanomonkey"
-      },
-      {
-        "link": "@M//21j5Y2CrQgZ0ig7kdmDG/sRhrz55pXpDbOAYUQkw=.ed25519",
-        "name": "adam"
-      },
-      {
-        "link": "%gVFvcYy2aknKuYwThI+dD2BKr5LfNN5CA4FglEPqnow=.sha256",
-        "name": "encrypted groups"
-      },
-      {
-        "link": "#offchain-content"
-      },
-      {
-        "link": "#same-as"
+        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+        "name": "polylith"
       }
     ]
   },
-  "signature": "30/ukP/Cim8xnhjrMaYDfwS549MN3ia0EwJhO6bqa3kAs7ZaD4jO+2xJ2Xfp2v9dWfwf7LZc3kbdTkQO9pr5Bw==.sig.ed25519"
+  "signature": "MEEhwmfgmL1aHMTDQCzuzylys0qcKluysmzNkyClAh8+tuRgmoVF6KYnZy8KiXRDQJHhUw1L1GJr9fhxDWo4Dg==.sig.ed25519"
 }
