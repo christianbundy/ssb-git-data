@@ -1,20 +1,25 @@
 {
-  "previous": "%3A2d/PqiFaHO7oxFLInIt665K4NCIALfD6yu1/BT+Ag=.sha256",
-  "sequence": 7832,
+  "previous": "%nSVuXfF1+Li/I+wq43SE9aFpebxHVfjfMjMTmm284Cs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1543967286137,
+  "sequence": 7833,
+  "timestamp": 1543978894027,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%JWOZjm7TPL9BtSgs+FNetsS50NcmuTIKRPb7gNdKAhM=.sha256",
-    "vote": {
-      "link": "%JWOZjm7TPL9BtSgs+FNetsS50NcmuTIKRPb7gNdKAhM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%JWOZjm7TPL9BtSgs+FNetsS50NcmuTIKRPb7gNdKAhM=.sha256"
+    "type": "post",
+    "root": "%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256",
+    "branch": "%DrNvxOYbd5AjQAs9CZoROTlmGAnG+yCyPip6t3X0gZ0=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI've actually been testing that recently with a branch of ssb-server called `debug-scheduler` which has debug statements during gossip. I've noticed that neither of [the relevant calls](https://github.com/ssbc/scuttlebot/blob/debug-scheduler/plugins/gossip/schedule.js#L114-L121) ever actually run, but you can use that branch if you'd like to peek under the hood at what's going on under the hood in the [scuttleguts](%/AWGzqrPX6Ykmk0Sp7uDq78LYX3BgV9X+RToHhx+wzg=.sha256).",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%/AWGzqrPX6Ykmk0Sp7uDq78LYX3BgV9X+RToHhx+wzg=.sha256",
+        "name": "scuttleguts"
+      }
     ]
   },
-  "signature": "ESlsA1K2MlhLbvLyxJY4uOVSRCgA/hTVTbqW8ZXpAEGEf1g81TiNBLnm7IVqjVIuo3fQwipFP1P7fSHsz/YWBA==.sig.ed25519"
+  "signature": "l6/41CzTxKcqgp+/k1vJR3wKOqOyomCITiAuLtz2Zm8S8Ptfrqo519nlyuEo6U6VFxm5dOhLn1ejUGNp+3xRCQ==.sig.ed25519"
 }
