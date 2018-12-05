@@ -1,30 +1,20 @@
 {
-  "previous": "%1wRN9/6b8Bz9AkXqU2xVb9gTZMAe/hJq8/a8b7EZ++0=.sha256",
+  "previous": "%NITaBieqUYjilewM336MTYyPIXKP2qz34fIAWGKIywk=.sha256",
+  "sequence": 7848,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7847,
-  "timestamp": 1544028582461,
+  "timestamp": 1544028594568,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%WW+NBV61JyRuyclwXZVSUjryhWm0ufg0NYUg9y+23hg=.sha256",
+    "type": "vote",
+    "root": "%+U0LnC6hc8S607e7vgS2+6Icso7zlpgI27zBWM/Yii0=.sha256",
+    "vote": {
+      "link": "%hU8h3WOFo3HBe0+kA4YXy0NeJDF6iqgv+Sn/ZKDa1vQ=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%PhJBZLOrgSh9Zz62Mh6O2AQgtJSAcZbwLDoLKjNfpdw=.sha256",
-      "%vA1tGEcdr/lVOM9H6cfHZ2ayZl9r/rv5krIQCTDtN7Q=.sha256"
-    ],
-    "channel": "patchbay",
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) Are you getting an error somewhere, or is it just silently failling? I seem to be able to add blobs (I think?). I'll test below.\n\n\n![cat staring into sink](&kmmxtmmG8+/VZebKbkW3/QoWCAZfCE1bSBPKAahCOuA=.sha256)\n",
-    "mentions": [
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
-      },
-      {
-        "link": "&kmmxtmmG8+/VZebKbkW3/QoWCAZfCE1bSBPKAahCOuA=.sha256",
-        "name": "cat staring into sink",
-        "type": "image/jpeg",
-        "size": 300080
-      }
+      "%v73AdL8WbSPTt0wmt1HqY21Zl6G7ArqlDX6uHDou5wE=.sha256"
     ]
   },
-  "signature": "wax6NLMbyrQFZ5jMooxcTeg8AEJvsJgur/TNteX4hVZUpf9pAF9X5CvLv2KTrCUspkqV4Ki/MaKXRMSsCC2RBA==.sig.ed25519"
+  "signature": "0yO4nMRS6jphQmG3QbLrzCeAhGsN5dsHoWKvC2SUxv3JHNuyJfhMvi/NfSSo+psxVxtf5H1o9AEwquxTzMMWAA==.sig.ed25519"
 }
