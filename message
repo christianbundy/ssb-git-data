@@ -1,20 +1,19 @@
 {
-  "previous": "%CwfOPr3fELw5WWAEKuCp2W99AikbXOn2EiEmuqzp8iE=.sha256",
-  "sequence": 7875,
+  "previous": "%4PXK+q69ZMn3FavHlFHezr10etngZc4NxUn9cKYhvjY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544116708761,
+  "sequence": 7876,
+  "timestamp": 1544126029656,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%N+Lf/umTrEsmRP31tARv1EEnpBlFdOeoYNX+YrULI60=.sha256",
-    "vote": {
-      "link": "%N+Lf/umTrEsmRP31tARv1EEnpBlFdOeoYNX+YrULI60=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%6uGPa0bZLuqb+e9RNJkpYdV2hYuzz63SkwVqw4GlAsQ=.sha256"
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nYou may already be aware of this (if so, please disregard!) but the viewer has been giving me HTTP 504 messages for the past few days. Maybe something is getting bogged down?",
+    "channel": "ssb-viewer",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
     ]
   },
-  "signature": "nZeqXApN5J7BVI0VhCei98PukuEnx/4taz8YWnRAgOyGJr4YY6BAHfudp2veUiQRdApSIBOOb9n9+FwEf2UKCQ==.sig.ed25519"
+  "signature": "N42BlPCn43DYY38p53UfPhY5jKO4Ywy88ksJiuTXGPy083w9w2SFeX8nvb9FQgXo59e2dr1mXT8yGt6A3BZcAA==.sig.ed25519"
 }
