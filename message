@@ -1,20 +1,24 @@
 {
-  "previous": "%/JD8RveBcDIj8ayidjoece/CEz8j+YvV2pOPFgTx+tk=.sha256",
-  "sequence": 7871,
+  "previous": "%ZSHnpSTWE1W+USSAREwthiGrUPdsbKrOQDk/Kr27BOk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544051230399,
+  "sequence": 7872,
+  "timestamp": 1544113939823,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%r9HVR6p/WRTDUlMc4w9syhtPUM4DqdSUUbBEkWrlrRA=.sha256",
-    "vote": {
-      "link": "%r9HVR6p/WRTDUlMc4w9syhtPUM4DqdSUUbBEkWrlrRA=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%FiczgnshOHO6AW31rAhaAVG9VTmOA3qsmcLi6fLshZg=.sha256"
+    "type": "post",
+    "root": "%Bjfavw20qGoJHa+u0bcfbtGwC9SHjcI1Xt9Lv12mOW8=.sha256",
+    "branch": "%xe3hP5s11klSc5FzIhjINO9ppN1gL8tnkzJD/d5Vl8Y=.sha256",
+    "text": "[@Lex Tenebris](@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519) \n\nMy intuition is that we'd likely default to JSON, but that *is* a nice [deeply nested declaration shorthand](%8s42ICX4x4n6ioCqgTowAZ36W+R1emrZmh40RHn95i4=.sha256).",
+    "mentions": [
+      {
+        "link": "@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519",
+        "name": "Lex Tenebris"
+      },
+      {
+        "link": "%8s42ICX4x4n6ioCqgTowAZ36W+R1emrZmh40RHn95i4=.sha256",
+        "name": "deeply nested declaration shorthand"
+      }
     ]
   },
-  "signature": "Pj9qsJAwgJ6A3+wyhvWfagxR8vPHWK9M5muOcCvYoRI1vhq3aghz2nbavMuQhkCQd2COAGcgO398syxlIJh4AA==.sig.ed25519"
+  "signature": "95SJ3RyhvtEFyq41KZdOK6z/h6Px2KlqX0d9COeXGlWXrHUaU0fuDVps2dszAGBI/iWkZnQbNvvIIBhOrlnKDg==.sig.ed25519"
 }
