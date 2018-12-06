@@ -1,24 +1,20 @@
 {
-  "previous": "%ZSHnpSTWE1W+USSAREwthiGrUPdsbKrOQDk/Kr27BOk=.sha256",
+  "previous": "%YrVyZ5MmBMjPntFjcgr46AyVm6yxI4LHcHsF2C8jetw=.sha256",
+  "sequence": 7873,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7872,
-  "timestamp": 1544113939823,
+  "timestamp": 1544114189095,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Bjfavw20qGoJHa+u0bcfbtGwC9SHjcI1Xt9Lv12mOW8=.sha256",
-    "branch": "%xe3hP5s11klSc5FzIhjINO9ppN1gL8tnkzJD/d5Vl8Y=.sha256",
-    "text": "[@Lex Tenebris](@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519) \n\nMy intuition is that we'd likely default to JSON, but that *is* a nice [deeply nested declaration shorthand](%8s42ICX4x4n6ioCqgTowAZ36W+R1emrZmh40RHn95i4=.sha256).",
-    "mentions": [
-      {
-        "link": "@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519",
-        "name": "Lex Tenebris"
-      },
-      {
-        "link": "%8s42ICX4x4n6ioCqgTowAZ36W+R1emrZmh40RHn95i4=.sha256",
-        "name": "deeply nested declaration shorthand"
-      }
+    "type": "vote",
+    "root": "%pYmFr6d0QwLP+YG0VNoo75PP7eYNZ1Y8C2MC9IjF5aw=.sha256",
+    "vote": {
+      "link": "%pYmFr6d0QwLP+YG0VNoo75PP7eYNZ1Y8C2MC9IjF5aw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%X43G4tFYdcaPvYi5RSS2iHmTYq7/gH5pQMj++lPXJEw=.sha256"
     ]
   },
-  "signature": "95SJ3RyhvtEFyq41KZdOK6z/h6Px2KlqX0d9COeXGlWXrHUaU0fuDVps2dszAGBI/iWkZnQbNvvIIBhOrlnKDg==.sig.ed25519"
+  "signature": "DWvkSdld9+pCWxAkEFdMzi2FCcYO1OD65AOUDXplLWt6OeASfs1Qgw/6vm0qGDKIMbAfXebTekbIR5hxKmwCDA==.sig.ed25519"
 }
