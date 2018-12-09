@@ -1,16 +1,32 @@
 {
-  "previous": "%hOP/Gtv7YO+hRg2En3trq5AeSkwl2S1pnlWgPLWwQLc=.sha256",
+  "previous": "%GZnXyKmFEpft/xt/Tfz3cgyEiV50copqJBI3sdQD9FE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7945,
-  "timestamp": 1544393007160,
+  "sequence": 7946,
+  "timestamp": 1544394448383,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0N5FICi2SbWCpHZeb5wAUaaiBZIgxOUqalzgJvnIfyc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%pnnTLu/eGiajHB0w/6bh31Ihbo0U7jlLYnhqNSsIFbA=.sha256",
+    "branch": "%nlHkxWY1h/cKn6ZtGtrXrn7h5S2NZ2Bweols3KEwTr4=.sha256",
+    "reply": {
+      "%pnnTLu/eGiajHB0w/6bh31Ihbo0U7jlLYnhqNSsIFbA=.sha256": "@/aevMKXuaoz1ALVw0Iu86CyPWH1/kiwbrUbTRVPIhms=.ed25519",
+      "%nlHkxWY1h/cKn6ZtGtrXrn7h5S2NZ2Bweols3KEwTr4=.sha256": "@/aevMKXuaoz1ALVw0Iu86CyPWH1/kiwbrUbTRVPIhms=.ed25519"
+    },
+    "channel": "gdpr",
+    "recps": null,
+    "text": "Sorry, you may need to follow [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) to download that post.\n\n>  At the moment everyone can sue websites advertising #scuttlebutt because they advertise services that can not be run legal in case of #gdpr -complaint. \n\nCould you point me to some more information on this? I'm not familiar with *any* P2P services that advertise that your data can be deleted from peers at any time, but if what you say is true then all torrent sites would need to shut down immediately.\n\n> I hope this post is enough for some motivation to find a solution for this things as soon as possible.\n\nI'm working as fast as I can! Any chance you'd like to help out? Here's my [current progress](https://github.com/fraction/flumedb-delete).",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "#scuttlebutt"
+      },
+      {
+        "link": "#gdpr"
+      }
+    ]
   },
-  "signature": "5TbETBDLKAcgfxyAfmQCIInS+PdYWjeA/mq+Q/2rwsR4A0ydmD8QwUIYkERgxUUMai4R1pXqFWu+bzCWhEz9CA==.sig.ed25519"
+  "signature": "aBs43ktW+J1/gDgaxZahSuqjkOANsVVUevPaBl9XkgSwlSAJqeGAeSet3W/PCEC2cOt6+UgjAbzwoP7xFg5qDw==.sig.ed25519"
 }
