@@ -1,20 +1,20 @@
 {
-  "previous": "%wjfNwQereDL3kvTkPnamk9kwtC7PAk49YcYRcrXXnUM=.sha256",
+  "previous": "%HcFCdWOCKvtCH/ogfdztlLVUYaES84UfKsJyvgSg6QE=.sha256",
+  "sequence": 7965,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7964,
-  "timestamp": 1544465522340,
+  "timestamp": 1544465615665,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
-    "branch": "%HnMKuDGXjZApOqVlyLrpriE397XkLDKX/OUEiv9cwuQ=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI did see that error! That's what happened when I tried running Scuttlebutt *before* manually deleting indexes. Could you run `ls ~/.ssb/flume/` and see what's in there? I think the only file you'll want in there is `log.offset`, and everything else is a view that (I think?) can be safely deleted.\n\nIn case it's useful, I started Scuttlebutt afterward with `ssb server`, so it looked like:\n\n```sh\nnode ssb.js\nls ~/.ssb/flume/ | grep -v offset | xargs rm -rf\nsbot server\n```",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
+    "type": "vote",
+    "root": "%Dcsipyg/+fWuHcDD1klKeha0hH/wMY6Dr/9e95nWsOw=.sha256",
+    "vote": {
+      "link": "%gUrMoYu0+T/VigouW9ya1+2GCzPYj1D4S5ZiuhVNuJY=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%gUrMoYu0+T/VigouW9ya1+2GCzPYj1D4S5ZiuhVNuJY=.sha256"
     ]
   },
-  "signature": "+OpULDLzUGzDtX9co7NJGQlf23YpOzkgXreaUxYZ///+f5rLLRmm6KSIfBC7C9C0ji+aeDbKj5if9tiCiRFNBA==.sig.ed25519"
+  "signature": "GlKceBA2mADYqPW7uC6eiRlbGXDVKf/TmfL6zpZ4wr9Wy3MgtmrkSTeP/jazhXdnjJufeo3/A14O2OXvuICJCg==.sig.ed25519"
 }
