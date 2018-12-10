@@ -1,20 +1,23 @@
 {
-  "previous": "%VKKrGKVk+INCs2+HRB641P9pRHpGHLY4y8GvlfJR+nA=.sha256",
-  "sequence": 7977,
+  "previous": "%1nyeq3c7rMCL7UNXTx0gIf2CDmNGs7iHvs0e/zedGkQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544481738269,
+  "sequence": 7978,
+  "timestamp": 1544485801492,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%pnnTLu/eGiajHB0w/6bh31Ihbo0U7jlLYnhqNSsIFbA=.sha256",
-    "vote": {
-      "link": "%uvc+EAPyxV/HmfSiGF+jNBmu0Vrq1rlGDiVqYfDKeWM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
     "branch": [
-      "%uvc+EAPyxV/HmfSiGF+jNBmu0Vrq1rlGDiVqYfDKeWM=.sha256"
+      "%HcFCdWOCKvtCH/ogfdztlLVUYaES84UfKsJyvgSg6QE=.sha256",
+      "%jAWvB7nHlvfKS3Ud1QL+Fpa4FIv8n0oBgD4/n3bvsBA=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI've just pushed a change so you can run `node delete-views.js` and it'll delete all of the files in `~/.ssb/flume` that don't start with \"log\". I've only tested it once, but it worked for me. As you mentioned, having a backup is a *great* idea. The code and readme are pretty messy right now, so I'd be happy to hear/receive any suggestions/PRs on how to improve it.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
     ]
   },
-  "signature": "qg+hjHC78qN85LSOylryUmjNFnMFgD15Tb4ERklfxkCDDOSIEhQ9H1dr7iSxjFrrEPGg+5D3hPCtAJcA51OlDQ==.sig.ed25519"
+  "signature": "eh0+6TkFHJCoHJt/7fKWllydlNX98lDnueVDEmCM9JM635ttY85r/gFzmqZdzjW0lG6Z1rG/PeirSykgPy//BQ==.sig.ed25519"
 }
