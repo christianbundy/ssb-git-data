@@ -1,20 +1,21 @@
 {
-  "previous": "%YLerf73QetwIJF/Jwqxtkmj6i6zUShbmXRBbvjZqgQ4=.sha256",
-  "sequence": 7956,
+  "previous": "%qGocxAjdNcRNUS+wErhnodrlJE2P7Oi1U3IOeI35Yk8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544413698186,
+  "sequence": 7957,
+  "timestamp": 1544413736175,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%r1h0ddahP/lPbLBRAoMkmVUMCJjMiETGjXl4FGEClmY=.sha256",
-    "vote": {
-      "link": "%ES9u43weXyHgon3qzylVuOfhoxt0xIz+M9PAefXwDn8=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%ES9u43weXyHgon3qzylVuOfhoxt0xIz+M9PAefXwDn8=.sha256"
+    "branch": "%ES9u43weXyHgon3qzylVuOfhoxt0xIz+M9PAefXwDn8=.sha256",
+    "channel": "cooking-channel",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) this looks tasty, thanks for your [meta]recipe!",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
     ]
   },
-  "signature": "r+yEKMi+rQIvCGNhpfYNbEmUGKTwPv1FJAGmr+JkjGNd26S9nXbDX9JwvZC64cCH29OneLWucDJiK1sxEmqIAA==.sig.ed25519"
+  "signature": "YnTReixlWKmVtHmg7racpBSjifZRfVRJTZKo3T8m3qFShCSltHvhtFWaTFfdErsUiGVbhht0X8sJFccG2GKaBg==.sig.ed25519"
 }
