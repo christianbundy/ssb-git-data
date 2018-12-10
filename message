@@ -1,13 +1,28 @@
 {
-  "previous": "%fQHqOY2PPVO2DGHdFm7UiqOxh00j44+Uw3Hdftslbvk=.sha256",
+  "previous": "%IGY/utQk+Wk24mzW7mzpdpO7KHQR/vM+R+G59mcjicQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7950,
-  "timestamp": 1544407946771,
+  "sequence": 7951,
+  "timestamp": 1544408113322,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@/aevMKXuaoz1ALVw0Iu86CyPWH1/kiwbrUbTRVPIhms=.ed25519",
-    "name": "undefined"
+    "type": "post",
+    "text": "# Prototyping feed deletion\n\nI've seen this mentioned *at least* a few dozen times, but I think this may be the first working prototype of feed deletion in Scuttlebutt. I've added [some documentation](https://github.com/fraction/flumedb-delete/#usage) in the repo I'm using, but I'll explain how it works below.\n\n1. Turn off all Scuttlebutt clients.\n2. Create a temporary database.\n3. Pass each message through the `compare` function.\n4. If the function returns false, append to the temporary database.\n5. Replace the original database with the temporary database.\n6. Delete the index files and start a Scuttlebutt client.\n\nIn JavaScript, the offending messages are deleted:\n\n```js\nconst compare = msg => {\n  // ONLY RETURN TRUE WHEN MESSAGE SHOULD BE DELETED\n  return msg.value.author === '@+rMXLy1md42gvbBq+6l6rp95/drh6QyACO1ZZMMnWI0=.ed25519'\n}\n\ndel({ db, compare, file }, (err) => {\n  if (err) throw err\n  console.log('done with operation')\n})\n```\n\nAnd a small shell script deletes the indexes:\n\n```sh\nls ~/.ssb/flume/ | grep -v offset | xargs rm -rf\n```\n\nRight now this is hardcoded to delete spam from @+rMXLy1md42gvbBq+6l6rp95/drh6QyACO1ZZMMnWI0=.ed25519, but it could be extended to delete any feed. One caveat: this doesn't delete blobs from this feed, so you may want to `rm -rf ~/.ssb/blobs/sha256/` as well (untested, don't trust me) until we have a way to prune blobs.\n\nHappy to answer any questions! This isn't very polished, but it means that feed deletion is now possible.\n\n---\n\ncc: [@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) [@undefined](@/aevMKXuaoz1ALVw0Iu86CyPWH1/kiwbrUbTRVPIhms=.ed25519)\n\nprevious discussion: %okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256",
+    "mentions": [
+      {
+        "link": "@+rMXLy1md42gvbBq+6l6rp95/drh6QyACO1ZZMMnWI0=.ed25519"
+      },
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "@/aevMKXuaoz1ALVw0Iu86CyPWH1/kiwbrUbTRVPIhms=.ed25519",
+        "name": "undefined"
+      },
+      {
+        "link": "%okZcNVCJnXW4IiT5eLBa9qQXFabYymlDGJ7lwplbsAc=.sha256"
+      }
+    ]
   },
-  "signature": "hneee6motEHf2y1DyLJDqL0pArP26fDXNjYSIwxcJ4ZrfD0KxVkVEMNIhU8gnNqWqXJITlkHiaPnqNUrVq5TBg==.sig.ed25519"
+  "signature": "c/OtMD7t5EmlRGojFQQJVS1VS1YCV8jhMDSICk/mgHi6PWnSwz8NYVMHUHasdj5Gii4eZlR9rsVyKLNskIO2Bw==.sig.ed25519"
 }
