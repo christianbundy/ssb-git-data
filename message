@@ -1,20 +1,20 @@
 {
-  "previous": "%5O8tpgYVUDDaN/oRubcYJb5jLaodxPCY0HA4AS/qwNo=.sha256",
-  "sequence": 7963,
+  "previous": "%wjfNwQereDL3kvTkPnamk9kwtC7PAk49YcYRcrXXnUM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544464435913,
+  "sequence": 7964,
+  "timestamp": 1544465522340,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%w/BwafU3y3ez8x391TcahxSNoYe+G8QCkMnE80bsKfk=.sha256",
-    "vote": {
-      "link": "%w/BwafU3y3ez8x391TcahxSNoYe+G8QCkMnE80bsKfk=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%w/BwafU3y3ez8x391TcahxSNoYe+G8QCkMnE80bsKfk=.sha256"
+    "type": "post",
+    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
+    "branch": "%HnMKuDGXjZApOqVlyLrpriE397XkLDKX/OUEiv9cwuQ=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI did see that error! That's what happened when I tried running Scuttlebutt *before* manually deleting indexes. Could you run `ls ~/.ssb/flume/` and see what's in there? I think the only file you'll want in there is `log.offset`, and everything else is a view that (I think?) can be safely deleted.\n\nIn case it's useful, I started Scuttlebutt afterward with `ssb server`, so it looked like:\n\n```sh\nnode ssb.js\nls ~/.ssb/flume/ | grep -v offset | xargs rm -rf\nsbot server\n```",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
     ]
   },
-  "signature": "URZjX1lp3v0JSamSukzVcY9DIMoUJE6m3r/Mhw3+sn2BVH4AJBgz+oSrmmCmzamqCCC3ePIq0fdthHb2/AzyBg==.sig.ed25519"
+  "signature": "+OpULDLzUGzDtX9co7NJGQlf23YpOzkgXreaUxYZ///+f5rLLRmm6KSIfBC7C9C0ji+aeDbKj5if9tiCiRFNBA==.sig.ed25519"
 }
