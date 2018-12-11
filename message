@@ -1,23 +1,20 @@
 {
-  "previous": "%1nyeq3c7rMCL7UNXTx0gIf2CDmNGs7iHvs0e/zedGkQ=.sha256",
+  "previous": "%N1wsB3bMBCyS1lI6pRc1ILEgvfgfKDJLzBdXd6GOlgw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 7978,
-  "timestamp": 1544485801492,
+  "sequence": 7979,
+  "timestamp": 1544492358025,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
-    "branch": [
-      "%HcFCdWOCKvtCH/ogfdztlLVUYaES84UfKsJyvgSg6QE=.sha256",
-      "%jAWvB7nHlvfKS3Ud1QL+Fpa4FIv8n0oBgD4/n3bvsBA=.sha256"
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI've just pushed a change so you can run `node delete-views.js` and it'll delete all of the files in `~/.ssb/flume` that don't start with \"log\". I've only tested it once, but it worked for me. As you mentioned, having a backup is a *great* idea. The code and readme are pretty messy right now, so I'd be happy to hear/receive any suggestions/PRs on how to improve it.",
+    "root": "%YLfNFxwK+VKqCgdAxXtV0xVuE2HG2wGlamx9jT071JU=.sha256",
+    "branch": "%TwD0ZO+Zts7bUTKinhKH3gUBVKEXQNp9HWQa8634oew=.sha256",
+    "text": "[@Ettore](@Vn+Q5zFIgTo9LodkFjdiCUJ0JePaaG+TMiHkMyLXaQI=.ed25519) \n\nWhich version of Patchwork are you using? I'd also be curious which operating system you're using as well. Thanks!",
     "mentions": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
+        "link": "@Vn+Q5zFIgTo9LodkFjdiCUJ0JePaaG+TMiHkMyLXaQI=.ed25519",
+        "name": "Ettore"
       }
     ]
   },
-  "signature": "eh0+6TkFHJCoHJt/7fKWllydlNX98lDnueVDEmCM9JM635ttY85r/gFzmqZdzjW0lG6Z1rG/PeirSykgPy//BQ==.sig.ed25519"
+  "signature": "IuCgA4EIcY2rvOwmsj03SrKRxFwItGPLFuKzDjGknkXpbLRzywaWZpSHtY8EEg55YF0UlAsQelkFzS0wRBxRBA==.sig.ed25519"
 }
