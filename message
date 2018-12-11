@@ -1,22 +1,23 @@
 {
-  "previous": "%y/vVuL7E/H7O0iUi7goJ2XkFfrrb7+sGbAku0Wnf4Bk=.sha256",
-  "sequence": 7993,
+  "previous": "%gpHIbs7fz/75YzLM63G/uYrTT0yt4SKVD27rnlFGfY8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544563405997,
+  "sequence": 7994,
+  "timestamp": 1544563517825,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Kks2yJ/G+ehRk2+HP3m19sChNPstDsHN/sbT/o2oKL0=.sha256",
-    "vote": {
-      "link": "%CoOWyyV0wj8RSuIchR/eFEGEL/AAf6FdnZco9bVaYy8=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
     "branch": [
-      "%7x2GukoGkV7Izgf9Svk220B0ftR1B9VAZhFp0nDOiRo=.sha256",
-      "%8xzSNQTsDrPq4cZQqaxO00VfK7/Xa3vjyuPRCj0/ICs=.sha256",
-      "%a0qk9dBUAeT0Zc4W7KpYGZ6RPxp3/RRjBFfAUNaclZM=.sha256"
+      "%4kcBvs3jQtg25xwoWXRh+Dg6CY4+qhuSo0YkxwPfrLg=.sha256",
+      "%cEg6/GUBQqIHTh14fsn59iboxQysQgCEmurErryQyMQ=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI dig it! I've opened another issue about splitting this into two modules, one for flumelog-offset and one for ssb (which would depend on the other module). Either way, I appreciate you collaborating with me on this! So many feeds to delete, so little time.\n\nI think blob pruning may be important as well, that way we delete the feed *and* all of the blobs they brought with them.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
     ]
   },
-  "signature": "r3viJFO/WKZZ/sEia5DBs92MGuDKMjRhYeBGFpyJQraO8JItA5wUHHAHCEZTIByLiJQLyF8dc8hxyZjXjKrlBg==.sig.ed25519"
+  "signature": "7OtCf/+UAQ4fwe3g2diY/75iIDbTLTpiw/Zkcdf1aUTdAzPHuJs7Ii4vJ6+NiLSjTe5JOACVl031crg3A6FXBQ==.sig.ed25519"
 }
