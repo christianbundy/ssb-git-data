@@ -1,20 +1,27 @@
 {
-  "previous": "%qipNkpqH1TWmm1/RDOZB9DXVOyBdMZMEMX+BmWIUkNg=.sha256",
+  "previous": "%qr7JTN8EqngF9ZOYNhd6Ti5AYoy3NAO7p26GRQfOejI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8032,
-  "timestamp": 1544654373789,
+  "sequence": 8033,
+  "timestamp": 1544657107998,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
-    "branch": "%vaM+mR5Nm/LNhKAgOO3ZkjV3DCaaJMy8mQ4PPd68Opk=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nDone! I just pruned about 800 blobs.\n\nhttps://github.com/fraction/ssb-blob-prune",
+    "text": "# Minimal depject + mutant?\n\nI'm semi-familiar with using depject *once somebody else sets it up*, but I'm having trouble using it by myself. I want to get a list of people that I block, does anyone have time to give me  a hand? Here's what I've got so far:\n\n```js\nconst combine = require('depject')\nconst patchcore = require('patchcore')\nconst mutant = require('mutant')\n\nconst api = combine([patchcore])\n\n// using [0] to emulate depject's \"first\"\nconst id = api.keys.sync.id[0]()\nconst blockersObs = api.contact.obs.blockers[0](id)\n\nconst userBlocksThem = mutant.computed(blockersObs, (blockers) => {\n  // this is never called\n  return blockers.includes(id)\n})\n\nmutant.when(userBlocksThem, (blocks) => {\n  // this is never called either\n})\n```\n\nI *think* this is a Depject problem, but maybe it's a Mutant thing?\n\ncc: #depject #mutant #help-wanted #javascript ",
+    "channel": "ssb-learning",
     "mentions": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
+        "link": "#depject"
+      },
+      {
+        "link": "#mutant"
+      },
+      {
+        "link": "#help-wanted"
+      },
+      {
+        "link": "#javascript"
       }
     ]
   },
-  "signature": "OaY7UACNmS7IWkUoy/LJ2ZlaZUiSBj4zw8wcA7AtnTZB57QIdIPy4NnL7xwKLzZPXnsJbjdgqJc6A1R3w1UKAA==.sig.ed25519"
+  "signature": "O01zonTks0Ej7hYhcTJe4DZYbrdSFydv8fyJdA5oR9uEt1S47B1PD119FVrJz+egLbshlioAhi/r+AQyc7DHAA==.sig.ed25519"
 }
