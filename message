@@ -1,20 +1,20 @@
 {
-  "previous": "%9UJxUplsMswRto8qNJwYykaTYB0YhqC0v/FRx1/IEpk=.sha256",
-  "sequence": 8020,
+  "previous": "%80AJw7ea2PS9cK68A/rDyIj+/fYJMgq6kmgtq+2A/+U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544637683170,
+  "sequence": 8021,
+  "timestamp": 1544639247788,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%L7EwOLjrXe76ycdy1C7lTbC0/OJ76BBPReHPCphxzj4=.sha256",
-    "vote": {
-      "link": "%KSCxnKa3py5unmrOAu6EsmeVFVbp6F2jyZoi5xitAUc=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%KSCxnKa3py5unmrOAu6EsmeVFVbp6F2jyZoi5xitAUc=.sha256"
+    "type": "post",
+    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
+    "branch": "%FoRJJ7sSLzHW2nPBsbqREIiSpiw0FsWlNryrie0b2H8=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> return all of the blobs that are mentioned, and then write a program to delete those specific blobs.\n\nI'm working on a prototype of this now, but I'm having trouble enumerating all of the ways that ssb-blobs can be triggered to download a new blob. The easy case is checking `msg.value.content.mentions[].link`, but we've also got other message types like npm-packages (which uses the same format), blogs, git-update,  and probably others. Any I'm missing?\n\nI'm going about it a bit differently, since we'll want to do a full lookup anyway: if we delete each blob mentioned by the deleted feed then a malicoius feed could just link to pre-existing blobs on the network, so I think *regardless* we'll need to go through every message and prune blobs that haven't been added someone else. I'll link you once I commit my code.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
     ]
   },
-  "signature": "j93teZtRgv/dB2if5BYhunGS27GVdiC6V5iA0oeCm1Gs4EsFdxLsR8tItqrxOAnQ+PtDuqUak46fSGroVavOAg==.sig.ed25519"
+  "signature": "sc26NC1pjx6tKiUrDA7w87J2yayDrB7zVfhtnijNpLq6Ib+gvtIlJPMRte0ns4Aw0brr24hS20QXBTJJkU9eDQ==.sig.ed25519"
 }
