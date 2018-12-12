@@ -1,20 +1,33 @@
 {
-  "previous": "%80AJw7ea2PS9cK68A/rDyIj+/fYJMgq6kmgtq+2A/+U=.sha256",
+  "previous": "%vaM+mR5Nm/LNhKAgOO3ZkjV3DCaaJMy8mQ4PPd68Opk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8021,
-  "timestamp": 1544639247788,
+  "sequence": 8022,
+  "timestamp": 1544646947658,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
-    "branch": "%FoRJJ7sSLzHW2nPBsbqREIiSpiw0FsWlNryrie0b2H8=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> return all of the blobs that are mentioned, and then write a program to delete those specific blobs.\n\nI'm working on a prototype of this now, but I'm having trouble enumerating all of the ways that ssb-blobs can be triggered to download a new blob. The easy case is checking `msg.value.content.mentions[].link`, but we've also got other message types like npm-packages (which uses the same format), blogs, git-update,  and probably others. Any I'm missing?\n\nI'm going about it a bit differently, since we'll want to do a full lookup anyway: if we delete each blob mentioned by the deleted feed then a malicoius feed could just link to pre-existing blobs on the network, so I think *regardless* we'll need to go through every message and prune blobs that haven't been added someone else. I'll link you once I commit my code.",
+    "root": "%X1+y0kwe0p6wpq8SGlatgw7x6G1kztDYI12nIoSHLhs=.sha256",
+    "branch": "%SwbDxQWFBwaXWQOK28zzC2/tCMXzMpceYawBDkbobpM=.sha256",
+    "text": "[@Sonata](@Rar42tXuNFrhLHIEjzfkt36gKGpR8DfyXKcc31YlYHU=.ed25519)\n\nI've noticed this as well in #patchbay, in screenshots especially.\n\n![Screenshot from 2018-12-12 12-32-52.png](&L229sGSbBOhrFCnzNRXggcRkBXaEJEIDaSmaML8PIjA=.sha256)\n\nI'm not sure why this is happening, but I don't think it's specific to Patchwork.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) any chance you're familiar with this from your work on ssb-blob-files?",
     "mentions": [
       {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
+        "link": "@Rar42tXuNFrhLHIEjzfkt36gKGpR8DfyXKcc31YlYHU=.ed25519",
+        "name": "Sonata"
+      },
+      {
+        "link": "#patchbay"
+      },
+      {
+        "link": "&L229sGSbBOhrFCnzNRXggcRkBXaEJEIDaSmaML8PIjA=.sha256",
+        "name": "Screenshot from 2018-12-12 12-32-52.png",
+        "type": "image/png",
+        "size": 160135
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "sc26NC1pjx6tKiUrDA7w87J2yayDrB7zVfhtnijNpLq6Ib+gvtIlJPMRte0ns4Aw0brr24hS20QXBTJJkU9eDQ==.sig.ed25519"
+  "signature": "fQEObgnamgT8DYQoTyq/9cpoZVmPaIPGPWKUuV4CMGKLSgtP8aE9wy8DOMomCyNiZisDfM9dmnq5JUCqStlHCA==.sig.ed25519"
 }
