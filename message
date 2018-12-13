@@ -1,25 +1,21 @@
 {
-  "previous": "%2+RF/ZSLZ+cp5CjHkVALCwgefVZDDnxBXgQWttZ9+Gk=.sha256",
+  "previous": "%aHrSyxv8CEVNpDe9l/+oelsgvZwlCeUrK0QRj7azHPQ=.sha256",
+  "sequence": 8040,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8039,
-  "timestamp": 1544725398789,
+  "timestamp": 1544725845878,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%HsGoWik/4jwxq4MZJk/CeEdjhUbjuSQYtF7e2qc9wkM=.sha256",
-    "branch": "%H52rFNB0VKhilofQKxePhZsw2X5jtGonUrgUGruYon4=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nThanks! I was able to use `watch` to get it working, I appreciate your help. I noticed that the readme mentioned `value((v) => {}` as an alternative to `watch()` *without* having the code triggered, but I couldn't figure out how or where to get that variable.\n\nI tried `require('mutant/value')(userBlocksThem)`, `userBlocksThem.value()`, `userBlocksThem()` and a handful of others but I finally resorted to just checking how many times the function had been called. See [this code block](https://github.com/fraction/flumedb-delete/blob/b7a9994f1eed99631d109f7978408570b6be693b/ssb-blocking.js#L30-L42), which is called initially. What's the best way to skip that initial data load?",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      }
+    "type": "vote",
+    "root": "%p95ms3IkoRTWLH1Ju74BP5HebP3++/V8EDILmA+NsQE=.sha256",
+    "vote": {
+      "link": "%jbNa4H+joXqcbwzM2Ff17vUrjhb/Q71FxYyuwU4qaBc=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%sYrduV/k0vYlN47n0wJyno7LHE8TwGfisy8R9njEEDI=.sha256",
+      "%vAn3z+Q09kugw1gMynQYVwxLWdzakfWEma9UspMPHiI=.sha256"
     ]
   },
-  "signature": "7/ZwyOllOx+mRcOWdG7YMrCumrBp+a8UoErrrR+K8dBfnNGYMexxhbKnnXw62WPm+Zy80H2QzXMvO90UHQA7Aw==.sig.ed25519"
+  "signature": "IWcyU1e5/GF0oSuuSwKDC3UjKqntirOgmK+H1GSjNZzGl3ABc5kMDJG/wiFurhLn2bZLmdiJcjQcSrsz5kytBQ==.sig.ed25519"
 }
