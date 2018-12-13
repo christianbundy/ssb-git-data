@@ -1,21 +1,20 @@
 {
-  "previous": "%OxZIsc9mHcdTzwA3K95oF7y4Q4PPjz6gb3iWGYtY5Ec=.sha256",
+  "previous": "%oBGc1YKjzbhzSx/SrDVTbz+hinco/lZADBBm7Ho+t60=.sha256",
+  "sequence": 8046,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8045,
-  "timestamp": 1544726351928,
+  "timestamp": 1544726752945,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%f7Le4AJZj3wRJ2IWlg5P/6QtLQy05uJZY+aQcYy2bKY=.sha256",
-    "branch": "%MlXdbq6gZWFgrZgJAmkCk44RWXFrf+CZRyMuKbHT51k=.sha256",
-    "channel": "archlinux",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nJust tried it!\n\n```\n==> Making package: systrayhelper 0.0.5-1 (Thu 13 Dec 2018 10:34:02 AM PST)\n==> Checking runtime dependencies...\n==> Checking buildtime dependencies...\n==> Retrieving sources...\n  -> Found v0.0.5.tar.gz\n==> Validating source files with sha256sums...\n    v0.0.5.tar.gz ... Passed\n==> Extracting sources...\n  -> Extracting v0.0.5.tar.gz with bsdtar\n==> Starting prepare()...\n==> Removing existing $pkgdir/ directory...\n==> Starting build()...\n==> Starting check()...\nstarted X as 17585. waiting..\n(EE) \nFatal server error:\n(EE) Server is already active for display 23\n\tIf this server is no longer running, remove /tmp/.X23-lock\n\tand start again.\n(EE) \n--- FAIL: TestClicking (0.00s)\n    xvfb_test.go:32: found i3 here: /usr/bin/i3\n    xvfb_test.go:32: found i3-msg here: /usr/bin/i3-msg\n    xvfb_test.go:32: found xdotool here: /usr/bin/xdotool\n    require.go:794: \n        \tError Trace:\txvfb_test.go:31\n        \tError:      \tReceived unexpected error:\n        \t            \texec: \"systrayhelper\": executable file not found in $PATH\n        \tTest:       \tTestClicking\n        \tMessages:   \tdid not find systrayhelper\nFAIL\nexit status 1\nFAIL\tgithub.com/ssbc/systrayhelper/test\t0.003s\n```\n\nAnything I can do to help debug? I was surprised to see i3-wm as a makedep, so I'm wondering if you may be doing a more extensive `check()` process than other packages I've seen.",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
+    "type": "vote",
+    "root": "%9wbnqdmWVFQd9sq/78UHzf0mQG9mcCMZSLZzanZWjHw=.sha256",
+    "vote": {
+      "link": "%9wbnqdmWVFQd9sq/78UHzf0mQG9mcCMZSLZzanZWjHw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%9wbnqdmWVFQd9sq/78UHzf0mQG9mcCMZSLZzanZWjHw=.sha256"
     ]
   },
-  "signature": "eF9SaLvXuNI4Qh9MF8mZjBl0tv53qV5BVw8n612fEZaU5ET4NvrS85oa6WhY8v+leodfWet8FrUxSsurtlhCCg==.sig.ed25519"
+  "signature": "cUapAIkFBntv/HG4Y+euO5XfWovE7v99zc/kpeqW+KbN+TV+IvhAiQbs4WajG/nk7QVP/9jU0nhQuRbe2Hm1Bw==.sig.ed25519"
 }
