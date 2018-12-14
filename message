@@ -1,28 +1,20 @@
 {
-  "previous": "%jVmABOJ02dhunCx7Gdzg0sCKVOy/G1Fk2VFaiSzMF6g=.sha256",
+  "previous": "%AeB3Wd/6S1O9wyJSW44B0AmXosCjCBCQk6g4AJPaDt8=.sha256",
+  "sequence": 8062,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8061,
-  "timestamp": 1544813321328,
+  "timestamp": 1544816359561,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "After becoming re-interested in chess because of #ssb-chess, I started playing chess with [@bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519) via lichess.org on my phone. He put me in check with a *fantastic* four-way fork today and I had to share:\n\n![four-way chess fork](&btm3iiFk6l2ihOSBR83xI1NdliNGmVtDRtdpV8AyIsI=.sha256)\n\nI don't think this will end well for me.",
-    "channel": "chess",
-    "mentions": [
-      {
-        "link": "#ssb-chess"
-      },
-      {
-        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
-        "name": "bram"
-      },
-      {
-        "link": "&btm3iiFk6l2ihOSBR83xI1NdliNGmVtDRtdpV8AyIsI=.sha256",
-        "name": "four-way chess fork",
-        "type": "image/png",
-        "size": 41544
-      }
+    "type": "vote",
+    "root": "%BMGmpvAyADqdefIFMqoiZibf2hRT42AUhtmCyz6YCoE=.sha256",
+    "vote": {
+      "link": "%BMGmpvAyADqdefIFMqoiZibf2hRT42AUhtmCyz6YCoE=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%BMGmpvAyADqdefIFMqoiZibf2hRT42AUhtmCyz6YCoE=.sha256"
     ]
   },
-  "signature": "n8eBDG3sShdgAuJ5KJIMwRpwNdbkgrIOgHzHbpyT7CWpk4INW9Ha51oPM2OwV8KoL/S4IH2DislKRRgP6AiuDw==.sig.ed25519"
+  "signature": "E4Sl/qSWOaySkbbmPJA6RDbidJ1CzoFnd2OxHJWYCQOsjoWlYHaJGYi/qMGRBKisRio4mL0Xi8NlhjU/m1FgAQ==.sig.ed25519"
 }
