@@ -1,33 +1,14 @@
 {
-  "previous": "%xEuzBM8JMGxppW3c4pThr//hFAiacq90RYNS2/oRXVc=.sha256",
+  "previous": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
+  "sequence": 8087,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8086,
-  "timestamp": 1544998577164,
+  "timestamp": 1544999326265,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nI'd really like to try out git-ssb again, but it looks like it still requires ssb-npm, which I've never been able to cleanly install. Would it possible to publish those to npm or push their code to GitHub? I'm familiar with Scuttlebutt, Git, and npm, and I'm **super excited about their intersection** but I'm still stuck using centralized platforms because I'm struggling to get started. :confused: \n\nIf there's anything I can do to help, please let me know. I uninstalled my last working install because it was crashing `npm -g update`, and now I'm having a problem running `sbot` with explicit plugins because it causes [a problem with ssb-links](https://github.com/ssbc/ssb-links/issues/new).\n\nThanks! I'm really looking forward to trying out git-ssb-web issues. :heart:\n\ncc: #git-ssb #ssb-npm #git-ssb-web #ssb-npm-registry  #ssb-links ",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "#git-ssb"
-      },
-      {
-        "link": "#ssb-npm"
-      },
-      {
-        "link": "#git-ssb-web"
-      },
-      {
-        "link": "#ssb-npm-registry"
-      },
-      {
-        "link": "#ssb-links"
-      }
-    ]
+    "type": "chess_game_end",
+    "status": "resigned",
+    "root": "%Js4S1P/qwTjckezos60FbIXo8jty+lMpr6UHtRVgny4=.sha256",
+    "branch": "%mOjil+TlTQRvnv7ER9/LXyWs3IfrxQSH689scfl/73I=.sha256"
   },
-  "signature": "4WZ44MCQG5Ml6UGZiuv+QuiLtHgI3oH9M0aywaZGj+huNfDU6ir9UV1DAvoRX0SYzR+tUNq6trclrXp6N/z2Cw==.sig.ed25519"
+  "signature": "sPqFkG4ksh6vwStnruyCmZ9K7JYJ9QWtPB4E/Dc9+JYkoOYjJLa1ilEs9Bah5HGuLSJ0cPHh7Ndfk3503DuVDw==.sig.ed25519"
 }
