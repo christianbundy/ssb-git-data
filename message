@@ -1,19 +1,20 @@
 {
-  "previous": "%YXM6PoN+7kf+JVsQtIAvY0TZ6TSlhlZaIlO5e7Y/Res=.sha256",
+  "previous": "%HpAPLIXufmxkL3qYu7woRA8/VvU/lZr8Lgwl2XXw1qY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8098,
-  "timestamp": 1545008402727,
+  "sequence": 8099,
+  "timestamp": 1545061625468,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
-    "branch": "%DF53pkGCnToS2Ul/AH97oTAcOnp0OCGQn6WQ/qfb7zo=.sha256",
-    "text": "I was able to find most of the necessary npm modules on http://git.scuttlebot.io/, does anyone mind if I push those to GitHub and the main npm registry? I don't want to change where the main development happens, but it would be really nice to have this mirrored under our GitHub and npm orgs.\n\n#ssb ",
+    "branch": "%tEjP17MvdkM45StL3rBz8nSjeY9nUFIPsxgcgedJy/4=.sha256",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nYeah, that would be an improvement, although I'm concerned that even normal traffic seems to take down that server sometimes. I've tried those steps but I think there's been a change now that ssb-links has been removed from ssb-server/scuttlebot I'm running into [this issue](https://github.com/ssbc/ssb-links/issues/7).",
     "mentions": [
       {
-        "link": "#ssb"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "jyI70yvUSwuNO0gryOk8EPdQoJSiOtf+E1gF5z61bZWbsufYRqiGI6N/b9A6Lz+hwRQIMVkvVkQljkDCs6fTBA==.sig.ed25519"
+  "signature": "ufQGwm4BjpfopBEeYGhmqzjPMspHAeknRLCjtS8YgBYarsd/cr34nZAo9ougGJsblCLXjVQ7+h11m//QmvVmCw==.sig.ed25519"
 }
