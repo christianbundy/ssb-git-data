@@ -1,18 +1,19 @@
 {
-  "previous": "%+ekdg7dzXKIvIhp8UULbAp4iOxtgVsxkrJXwg2jFI3M=.sha256",
-  "sequence": 8097,
+  "previous": "%YXM6PoN+7kf+JVsQtIAvY0TZ6TSlhlZaIlO5e7Y/Res=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1544999640693,
+  "sequence": 8098,
+  "timestamp": 1545008402727,
   "hash": "sha256",
   "content": {
-    "type": "chess_move",
-    "ply": 88,
-    "root": "%hER+BSPsYIo2l2P4JDp1kLvqFmfGUlGEpRndPLhs3PM=.sha256",
-    "orig": "g5",
-    "dest": "g4",
-    "pgnMove": "g4",
-    "fen": "8/7p/2KB4/5k2/6pr/8/8/8 w - - 0 45",
-    "branch": "%q229z66bYAoWwB9S/dYK6bhrH85mUBk6ZXHY0wzVoDI=.sha256"
+    "type": "post",
+    "root": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
+    "branch": "%DF53pkGCnToS2Ul/AH97oTAcOnp0OCGQn6WQ/qfb7zo=.sha256",
+    "text": "I was able to find most of the necessary npm modules on http://git.scuttlebot.io/, does anyone mind if I push those to GitHub and the main npm registry? I don't want to change where the main development happens, but it would be really nice to have this mirrored under our GitHub and npm orgs.\n\n#ssb ",
+    "mentions": [
+      {
+        "link": "#ssb"
+      }
+    ]
   },
-  "signature": "6xZ5z+BfY4kjCnM8q4SZ2dUvrtUrBNr7Ij1N1kbZXbiOyjEt+McC5coSM3EwLhj33/rREZan1CDmvMrk9sRWCQ==.sig.ed25519"
+  "signature": "jyI70yvUSwuNO0gryOk8EPdQoJSiOtf+E1gF5z61bZWbsufYRqiGI6N/b9A6Lz+hwRQIMVkvVkQljkDCs6fTBA==.sig.ed25519"
 }
