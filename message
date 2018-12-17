@@ -1,20 +1,18 @@
 {
-  "previous": "%asQDKaJTpSzP4dFGvevhrnP3Vr9IYNMvvvGG2+z3mT8=.sha256",
-  "sequence": 8100,
+  "previous": "%qTjhN0nu2Xy6xcP1bxphku3+TBTsjEnYh3BJPmjJ/Ao=.sha256",
+  "sequence": 8101,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545061687084,
+  "timestamp": 1545062618078,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%f7Le4AJZj3wRJ2IWlg5P/6QtLQy05uJZY+aQcYy2bKY=.sha256",
-    "vote": {
-      "link": "%ehZwqVo3VlmSg6Q1u7kI/mEUrxHpLtiz3KhQ6HdKU30=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%ehZwqVo3VlmSg6Q1u7kI/mEUrxHpLtiz3KhQ6HdKU30=.sha256"
-    ]
+    "type": "chess_move",
+    "ply": 35,
+    "root": "%qI2DL7E+K4IK7qWQ7m2yYOGKoahMvVOPRNKxp84uAWg=.sha256",
+    "orig": "g2",
+    "dest": "g4",
+    "pgnMove": "g4",
+    "fen": "r4rk1/p3n2p/2p2pp1/2P1p3/1P4P1/4B3/P3K2P/bN1R4 b - - 0 18",
+    "branch": "%0/CJJHdJFiGEu45qIaJxVfgE+fXDsHuZy2a46CqXw40=.sha256"
   },
-  "signature": "LC0oF3mawWVZ7SM2B+MCOXcYO2MWvFnMUMWfJEtVbjAcD6SQp7Ol0cAfKfobd1la8DOueZ37KxymWZB9YQBQCg==.sig.ed25519"
+  "signature": "PrBmPBdCZuPzgqeTYR1C4A+MziwnISJ6W5jvrNI6owP9n/RzCm4zDCEI1/A1+QCcEK/xU5cjtqYjM/A8Vy9dDQ==.sig.ed25519"
 }
