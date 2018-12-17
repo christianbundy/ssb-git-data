@@ -1,31 +1,21 @@
 {
-  "previous": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
+  "previous": "%a6+yxD6sMPN5eGwjlTzhSIJdfJJCoe06xQsALNbaAE4=.sha256",
+  "sequence": 8109,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8108,
-  "timestamp": 1545083358505,
+  "timestamp": 1545083963241,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%EpPcE6ECyjyAInjSYj6HlmX/dh6PA85T0HCzSmuaB3I=.sha256",
+    "type": "vote",
+    "root": "%meil3xW/YT4WJ26mAsmLVHKxxh2rbtbM7pyvpA1N4v8=.sha256",
+    "vote": {
+      "link": "%meil3xW/YT4WJ26mAsmLVHKxxh2rbtbM7pyvpA1N4v8=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%1uxDViXVxXleVLC8hzto6GBk6yCVa8VXtzpHSvo4Mfc=.sha256",
-      "%dDRXoZvhLashYRM+P+AzxzWCpLuSnNFwaeb5ZTh8KFI=.sha256"
-    ],
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nI don't think any major changes have been made, so as far as I know they *should* be having the problems that Matt mentioned. Maybe Patchbay is connecting to a Unix socket and Patchwork is going over the network? Or maybe one uses a subset of the plugins and that one was started afterward? I'm not sure, honestly.\n\ncc: [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) maybe you're more familiar because scuttle-shell? ",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
+      "%fBY0QTgMCCi9UpQQEGgXTjXS6JFmbN/lDkonywUCOgk=.sha256",
+      "%p3CC8AXbx3KwWF8Wg/u+0sBUL9qvLmWHw7iqdb/5yUw=.sha256"
     ]
   },
-  "signature": "XsqUrjeEzT0vEGQmDODzD5SUvdyBbA7mr14yJhwU6ebjJMP7/Es1UafcaCbWzhlY+aHYp1a4yvTbl2yJxZZlBA==.sig.ed25519"
+  "signature": "mBNaqrRyVEkj/dMreBS4PEqwamnr1YTTxPhSQwYOu5PEeJK4NBXAWmEIdOY8WeotU30kR5CAjmZwyXV+c1HYCQ==.sig.ed25519"
 }
