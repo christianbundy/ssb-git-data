@@ -1,45 +1,31 @@
 {
-  "previous": "%AKyfJ6r7OIPMQNrPFoBAZXLqLCcmGUIn5zRohyE8uQ0=.sha256",
+  "previous": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8107,
-  "timestamp": 1545083169296,
+  "sequence": 8108,
+  "timestamp": 1545083358505,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Mutability and flumedb\n\nRiffing off of my [issue](https://github.com/flumedb/flumedb/issues/23):\n\n> I'm under the impression that some view backends (e.g. Level) gives us the option of mutating a piece of data after the fact, which seems like it could be useful for encrypted groups, mutable messages, and blob content. Would it be possible to get a view like flumeview-level to regenerate views for a subset of messages rather than regenerate the entire view, or would this have unintended consequences?\n> \n> - **encrypted groups:** when you get access  to a new group key, regenerate views for all private messages\n> - **mutable messages:** when you get an `type: edit` message, regenerate the views for the referenced message\n> - **blob content:** when you get a new blob, regenerate the views for each `type: blob` message that references that blob\n>\n> cc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\nI'm not very familiar with the intimate details of flumedb, but over time I've been getting more concerned about mutability in our append-only database. I've prototyped a hacky application that can delete data from the instance of flumelog-offset that powers Scuttlebutt, but it requires:\n\n1. Restarting Scuttlebutt.\n2. Destroying *all* views in `~/.ssb/flume/`.\n3. Rebuilding views when you open an application that needs them.\n\nIt's probably possible to fix the first problem, but the other two seem hard: if you modify the log then you *must* rebuild the views that depend on it, but there's no way to tell which application generated the views in the first place. Unfortunately, mutability is required any time we're exposed to new information that would change a view:\n\n- If we block a user and delete their feed, the view won't reflect that.\n- If we receive a blob *after* receiving a #blob-content message then the view won't reflect that.\n- If we're added to a private group (or receive an unbox key) then the view won't reflect that.\n\nThe only tool we have to deal with this is to destroy *all* views and then rebuild them all when the right application is started. This means that you might open one application, wait five minutes for it to finish building views, and then have the same experience with a *different* application a week later because they may use different views (based on the same log).\n\nWhile each feed may be append-only, I don't think that means our database has to be append-only as well. The ability to delete data from a flumelog seems critical for the scalability and maintenance of the network. I'd love some feedback on the feasibility of various solutions, or ideas on how to solve this!\n\n- Implementing a `flumelog.delete()` method that takes a sequence number (or array of seqs) as input.\n  - Unfortunately I think this would have to be done on each flumelog, but otherwise seems simple enough.\n- Implementing a way to delete individual messages from a flumeview without rebuilding the whole thing.\n  - This would require that each flumeview ships with an inverse function that's capable of *removing* messages as well.\n  - Rebuilding individual messages (for new blobs or unbox keys) would be triggered by removing and re-adding a message.\n\nSparked by %1bz0TXDuaM65KMTb8bgtrXuqD7L77baneTdoJ0EwRug=.sha256 and %YMUkbRHPwk7fmXnoCE5wirEQmE4vmvRdSYrz433Up8M=.sha256.\n\n#apps #scuttlebot #scuttleshell #flume #flumedb #against-consensus\n\n:rocket: ",
+    "root": "%EpPcE6ECyjyAInjSYj6HlmX/dh6PA85T0HCzSmuaB3I=.sha256",
+    "branch": [
+      "%1uxDViXVxXleVLC8hzto6GBk6yCVa8VXtzpHSvo4Mfc=.sha256",
+      "%dDRXoZvhLashYRM+P+AzxzWCpLuSnNFwaeb5ZTh8KFI=.sha256"
+    ],
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nI don't think any major changes have been made, so as far as I know they *should* be having the problems that Matt mentioned. Maybe Patchbay is connecting to a Unix socket and Patchwork is going over the network? Or maybe one uses a subset of the plugins and that one was started afterward? I'm not sure, honestly.\n\ncc: [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) maybe you're more familiar because scuttle-shell? ",
     "mentions": [
       {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
       },
       {
-        "link": "#blob-content"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       },
       {
-        "link": "%1bz0TXDuaM65KMTb8bgtrXuqD7L77baneTdoJ0EwRug=.sha256"
-      },
-      {
-        "link": "%YMUkbRHPwk7fmXnoCE5wirEQmE4vmvRdSYrz433Up8M=.sha256"
-      },
-      {
-        "link": "#apps"
-      },
-      {
-        "link": "#scuttlebot"
-      },
-      {
-        "link": "#scuttleshell"
-      },
-      {
-        "link": "#flume"
-      },
-      {
-        "link": "#flumedb"
-      },
-      {
-        "link": "#against-consensus"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "u+l61M2DwSXGvGjkJuY6G+qjXKAYSD+Tkt2WPstU8ha/tcIrrR3oBT53u7iDmQiA3NlOJTvmWKw+IrBt7QwSCg==.sig.ed25519"
+  "signature": "XsqUrjeEzT0vEGQmDODzD5SUvdyBbA7mr14yJhwU6ebjJMP7/Es1UafcaCbWzhlY+aHYp1a4yvTbl2yJxZZlBA==.sig.ed25519"
 }
