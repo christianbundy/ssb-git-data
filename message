@@ -1,20 +1,20 @@
 {
-  "previous": "%HpAPLIXufmxkL3qYu7woRA8/VvU/lZr8Lgwl2XXw1qY=.sha256",
+  "previous": "%asQDKaJTpSzP4dFGvevhrnP3Vr9IYNMvvvGG2+z3mT8=.sha256",
+  "sequence": 8100,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8099,
-  "timestamp": 1545061625468,
+  "timestamp": 1545061687084,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
-    "branch": "%tEjP17MvdkM45StL3rBz8nSjeY9nUFIPsxgcgedJy/4=.sha256",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nYeah, that would be an improvement, although I'm concerned that even normal traffic seems to take down that server sometimes. I've tried those steps but I think there's been a change now that ssb-links has been removed from ssb-server/scuttlebot I'm running into [this issue](https://github.com/ssbc/ssb-links/issues/7).",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
+    "type": "vote",
+    "root": "%f7Le4AJZj3wRJ2IWlg5P/6QtLQy05uJZY+aQcYy2bKY=.sha256",
+    "vote": {
+      "link": "%ehZwqVo3VlmSg6Q1u7kI/mEUrxHpLtiz3KhQ6HdKU30=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%ehZwqVo3VlmSg6Q1u7kI/mEUrxHpLtiz3KhQ6HdKU30=.sha256"
     ]
   },
-  "signature": "ufQGwm4BjpfopBEeYGhmqzjPMspHAeknRLCjtS8YgBYarsd/cr34nZAo9ougGJsblCLXjVQ7+h11m//QmvVmCw==.sig.ed25519"
+  "signature": "LC0oF3mawWVZ7SM2B+MCOXcYO2MWvFnMUMWfJEtVbjAcD6SQp7Ol0cAfKfobd1la8DOueZ37KxymWZB9YQBQCg==.sig.ed25519"
 }
