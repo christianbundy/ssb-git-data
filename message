@@ -1,20 +1,20 @@
 {
-  "previous": "%d+zFwlFn9G+MMa7K90N6jJWxhIKD2tk8FVd3VF4NZ1A=.sha256",
+  "previous": "%gPTQxvGdBZeLdGXpl+BGW6BklEXGonsEWVQGmBLjXuk=.sha256",
+  "sequence": 8129,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8128,
-  "timestamp": 1545104261200,
+  "timestamp": 1545106212038,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
-    "branch": "%Gl+f9nlX2va3N92oJOQ1E4PI9WsCeASrKO0sKb3o3yc=.sha256",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nWow, what are the odds? I wonder whether there's a name for this sort of thing, maybe it's an instance of a [mediator pattern](https://en.wikipedia.org/wiki/Mediator_pattern)? Usually the problem with those is that your mediator can get too deep and complex, but if we're literally just mediating URIs I think it might work? I'm not sure, but I'm happy you came up with a simliar idea!\n\nI don't know whether it'd be a good idea, but I suppose you could use something like depject for URI handlers... 🤯",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      }
+    "vote": {
+      "link": "%Gl+f9nlX2va3N92oJOQ1E4PI9WsCeASrKO0sKb3o3yc=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%gPTQxvGdBZeLdGXpl+BGW6BklEXGonsEWVQGmBLjXuk=.sha256"
     ]
   },
-  "signature": "/wQx9/BTybwwT59aukq8aOs4HtN9zLY4CDsD14dxCZLIMEc0NNfGanNcSF8IVbL463jXtB5spA5aEHxl9EugAQ==.sig.ed25519"
+  "signature": "vv0Rx+GQ+KT2iHztolafJyh2dSopydp7JIyNZ6k0UqFSXSuQapwt7mGoAb3StHgcoMucBB5Mp/1+mtCyGtzrCg==.sig.ed25519"
 }
