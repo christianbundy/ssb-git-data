@@ -1,53 +1,20 @@
 {
-  "previous": "%cpcncWYAikVb/dXBeUvRPgQQioxuWnXIPNdz//HUa8E=.sha256",
+  "previous": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
+  "sequence": 8127,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8126,
-  "timestamp": 1545102645288,
+  "timestamp": 1545102669039,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# localhost\n\nI'm interested in all sorts of things, but every once in a while I'll notice an intersection that seems ripe. Lately, I've been thinking about an **opportunity for localhost** at the intersection of Scuttlebutt and the web, possibly sharing a tangent with [Bay of Plenty](%mfL1dl4VSQfcHX5l+iUWIAQi1p2sqzFp6jKOlc1UHo8=.sha256).\n\nLong story short: I think `localhost` would make for a great application manager (or userland package manager?).\n\n1. Simple and easy application deployment.\n2. Register applications as [protocol handlers](https://developer.mozilla.org/de/docs/Web/API/Navigator/registerProtocolHandler) (like `web+ssb`).\n3. Bring Your Own Browser. No Electron dependency.\n\nFor example, the homepage might default to the contents of `web+localhost:help`, which be a small application to introduce you to localhost and help you start your applications. In this scenario, you might already have Scuttlebutt running in the background but you'd have the option to click *Patchfoo* to see the Scuttlebutt network. In the background this could connect to Patchfoo over the network or a Unix socket, but the link would look something like `web+patchfoo:public` rather than a normal HTTP URL. Links to Scuttlebutt posts might look like an [SSB URI](%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256), and this would give us the ability to collaborate on client applications *without* having to agree on anything.\n\nAfter scrolling through this Patchfoo-like application for a while, maybe you'll come across a link to an #ssb-chess game, which Patchfoo could have trouble rendering. While this would *usually* be a problem, we could instead pass off to a Chess-centric client, which could render the game without having to work within another client.\n\nCan you guess what happens when we click a Dat identifier[*](https://github.com/datproject/dat/issues/1050)? 🙃\n\nAnyway, I'd love to hear some feedback on a garden of applications like this. Are there any obvious footguns that we might run into? Are there any promising applications or protocols that this could enable? What's the best type of pasta? Would this be possible to do without making it too technical?\n\n![hermes watering can gardening flower](&ywXDmLzfcs9p4D3inYUSGg2DZjWXpRoyryWGbqspCG4=.sha256)\n\n#scuttlebutt #ssb-clients #apps #scuttleapps #local-first #offline-first #web #against-consensus ",
-    "mentions": [
-      {
-        "link": "%mfL1dl4VSQfcHX5l+iUWIAQi1p2sqzFp6jKOlc1UHo8=.sha256",
-        "name": "Bay of Plenty"
-      },
-      {
-        "link": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
-        "name": "SSB URI"
-      },
-      {
-        "link": "#ssb-chess"
-      },
-      {
-        "link": "&ywXDmLzfcs9p4D3inYUSGg2DZjWXpRoyryWGbqspCG4=.sha256",
-        "name": "hermes watering can gardening flower"
-      },
-      {
-        "link": "#scuttlebutt"
-      },
-      {
-        "link": "#ssb-clients"
-      },
-      {
-        "link": "#apps"
-      },
-      {
-        "link": "#scuttleapps"
-      },
-      {
-        "link": "#local-first"
-      },
-      {
-        "link": "#offline-first"
-      },
-      {
-        "link": "#web"
-      },
-      {
-        "link": "#against-consensus"
-      }
+    "type": "vote",
+    "root": "%8ntJiBQNl/foraws/TbmDxX2lMf8NZfbrLmz5jtw+R0=.sha256",
+    "vote": {
+      "link": "%8ntJiBQNl/foraws/TbmDxX2lMf8NZfbrLmz5jtw+R0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%8ntJiBQNl/foraws/TbmDxX2lMf8NZfbrLmz5jtw+R0=.sha256"
     ]
   },
-  "signature": "4dhlSbDANheVoDZ45k2fOW4vV3m2q7u4GtQQjXS55J+GJvVN8D4yURUsUbKvY8q1rHF4U+XSjgxedSR2isF7AA==.sig.ed25519"
+  "signature": "tZ4lSgIbeWHJOG1RiM17EtohSb2VVBsatjrqRomRVIhiE8BMsMVYEHcEHQ7dKWKPP4mJ35m4c8dusEyZhIMgDg==.sig.ed25519"
 }
