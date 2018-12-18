@@ -1,14 +1,20 @@
 {
-  "previous": "%PEKxKKIYQcSzGYmtJWZM38fwN41rnfAUh/jcQ9/p1+E=.sha256",
-  "sequence": 8133,
+  "previous": "%szqYxRJHmzM8A+zZ68MJOOFeVApad6WrNx6hRQcl+yw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545154624336,
+  "sequence": 8134,
+  "timestamp": 1545156478358,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> I've tried installing Patchfoo from your repo, but I'm getting some more errors:\n\nTurns out that Patchfoo uses the npmjs.com registry! I had to use `npm install` rather than `ssb-npm install`, but now it's working (and I'm typing this from Patchfoo!).",
-    "root": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
-    "branch": "%PEKxKKIYQcSzGYmtJWZM38fwN41rnfAUh/jcQ9/p1+E=.sha256"
+    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
+    "branch": "%6IY3tGcjinFapRSM/39DaR9G82yc+bki1Va01MYJamg=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYou did the thing! That's actually super cool, are there any clients that accept input like that and open a specific message? I might try and get this working on the web -- I think all I'd need is a way to start/stop services and then a URI handler that proxies from https://localhost/ssb:message:sha256:abcdef to the correct service:\n\n```json\n{\n  \"services\": {\n    \"patchfoo\": \"http://localhost:8027/%s\",\n    \"git-ssb-web\": \"http://localhost:7718/%s\",\n    \"some-dat-proxy-maybe\": \"http://localhost:1234/%s\"\n  },\n  \"handlers\": {\n    \"ssb\": \"patchfoo\",\n    \"ssb?type=git\": \"git-ssb-web\",\n    \"dat\": \"some-dat-proxy-maybe\"\n  }\n}\n```\n\nSuper excited to try out your spike!",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "mBX9Q90yQkAO5eHVxwR+x2NezcJyPYbsg4NkZQTcE73eIFJZSNw/pZEamTZCzMo05r1GAdZNhqeFFZ+QxL5QAQ==.sig.ed25519"
+  "signature": "OlfubJSqhSNGmqQXNxrD2ZI/sgCF9sI2WBCvz60t8uqsDKe9d9G9PthupUXse0C1c1Krg7q4V4ZGNZ84XVH5Bw==.sig.ed25519"
 }
