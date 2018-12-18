@@ -1,28 +1,14 @@
 {
-  "previous": "%LVPLH0gZtpXnPLbq79lJ52aN/X/GrHOfcN3pCkY2JfY=.sha256",
+  "previous": "%PEKxKKIYQcSzGYmtJWZM38fwN41rnfAUh/jcQ9/p1+E=.sha256",
+  "sequence": 8133,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8132,
-  "timestamp": 1545151781378,
+  "timestamp": 1545154624336,
   "hash": "sha256",
   "content": {
     "type": "post",
+    "text": "> I've tried installing Patchfoo from your repo, but I'm getting some more errors:\n\nTurns out that Patchfoo uses the npmjs.com registry! I had to use `npm install` rather than `ssb-npm install`, but now it's working (and I'm typing this from Patchfoo!).",
     "root": "%za6Kzz261SaDL+tA2z4DPh2ffODl18ah6xP/pipxm9c=.sha256",
-    "branch": "%G8S+Mq+pQHn6NZ2WwwAR3Cl8pZpLZm90wsFyp6pZeoc=.sha256",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\n> Or would it work if each package included a registry URL in its package.json?\n\nYeah, if our `package.json` only works with a specific registry then I think we should specify that. I'd be happy to take a look at this.\n\n> I'm sorry everyone has had so much trouble with these things. Maybe someone could make a better ssb-npm to not have these problems? Or maybe I should have collaborated better to produce better software? I considered SSB to be a good foundation for on-the-record networked social software. I thought it would be good to target forward compatibility from existing systems; maybe this was more trouble than it was worth?\n\nHey, I want you to know that I really appreciate your work on this ecosystem, and that errors are *totally normal* parts of software. I'm really excited to spend more time using git-ssb, so I hope that my \"help I can't install\" comes across as \"I'm bummed I can't install because it's so cool\" rather than \"I'm angry that I can't install and it's all your fault\". ❤️\n\nI feel like I'm standing on a big continent of centralization trying to join your archipelago, but the only way to get the there is to swim. I'd like to think that I'm a good [metaphorical] swimmer, so if I'm struggling then I'm willing to bet that there are dozens of others who have silently given up rather than ask for help. Instead, I'm suggesting that we allow a small bridge to make it easier for people to visit, *not* to entrench the status quo. We don't have to do it, I just noticed a problem and wanted to suggest a solution.\n\n---\n\nOn a technical note, I was able to use the [ssb-links workaround](%MIAebBRN+fJMNSeEYyyIj/MTT0xLPM/YHj/26yz3QOY=.sha256) (also [mentioned](https://github.com/ssbc/ssb-links/issues/7#issuecomment-448177763) by [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)) and get ssb-npm and git-ssb installed. Woo!\n\nI've tried installing Patchfoo from your repo, but I'm getting some more errors:\n\n```\nnpm WARN registry Unexpected warning for http://localhost:8043/: Miscellaneous Warning ECONNREFUSED: request to http://localhost:8043/node-gyp-build failed, reason: connect ECONNREFUSED 127.0.0.1:8043\nnpm WARN registry Using stale package data from http://localhost:8043/ due to a request error during revalidation.\nnpm WARN tarball tarball data for node-gyp-build@3.3.0 (sha256-1Ags+7kw0QG1YJD+uamXpVa+ApbEX7K2jNMBs3Icuys=) seems to be corrupted. Trying one more time.\nnpm ERR! code EINTEGRITY\nnpm ERR! sha256-1Ags+7kw0QG1YJD+uamXpVa+ApbEX7K2jNMBs3Icuys= integrity checksum failed when using sha256: wanted sha256-1Ags+7kw0QG1YJD+uamXpVa+ApbEX7K2jNMBs3Icuys= but got sha512-PRN13xRSI+zcelvZ0T+WfB1C+4jLL5LTFySpniHSvZr0qaJla6yXhDgm2NxtPr6jWDb+Nh7WWjLLnPAwgG4TNg== sha256-nSu+hJBMeUXS+R3XVTBJPgc710ZJWlucGEv6gGn5NaY=. (3137 bytes)\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /home/christianbundy/.npm/_logs/2018-12-18T16_14_47_639Z-debug.log\n```\n\nIs this a known issue, and/or is there a workaround that you know of? Happy to help debug however I can. ",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "%MIAebBRN+fJMNSeEYyyIj/MTT0xLPM/YHj/26yz3QOY=.sha256",
-        "name": "ssb-links workaround"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ]
+    "branch": "%PEKxKKIYQcSzGYmtJWZM38fwN41rnfAUh/jcQ9/p1+E=.sha256"
   },
-  "signature": "+oTuljY9xAAb3JReBncnwCJKuFApKiSZPlabiiJPOqJXWm8XtdZTf9Gl+s8W7KscqGemdI7gZu53i98pKZtGBw==.sig.ed25519"
+  "signature": "mBX9Q90yQkAO5eHVxwR+x2NezcJyPYbsg4NkZQTcE73eIFJZSNw/pZEamTZCzMo05r1GAdZNhqeFFZ+QxL5QAQ==.sig.ed25519"
 }
