@@ -1,12 +1,47 @@
 {
-  "previous": "%61WUq5fycc50aJpnju86dxIQLXMptAuwYl9ZdOmgdkM=.sha256",
-  "sequence": 8142,
+  "previous": "%lurMx3mLxh4r+6XlhZ8H2q2JTwAQRl1fgxZ2KtvSRKY=.sha256",
+  "sequence": 8143,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545171560848,
+  "timestamp": 1545171569024,
   "hash": "sha256",
   "content": {
-    "type": "git-repo",
-    "name": "localhost-launcher"
+    "type": "git-update",
+    "repo": "%lurMx3mLxh4r+6XlhZ8H2q2JTwAQRl1fgxZ2KtvSRKY=.sha256",
+    "refsBranch": [
+      "%lurMx3mLxh4r+6XlhZ8H2q2JTwAQRl1fgxZ2KtvSRKY=.sha256"
+    ],
+    "packs": [
+      {
+        "link": "&Awml4yEwDBLSreaWJ4f4IaepzS/mQh34GtZyEpfCoAw=.sha256",
+        "size": 6222
+      }
+    ],
+    "indexes": [
+      {
+        "link": "&z8CiqwnAcW/Hc0+8q72IZll7I8S+PG+8o2nKvhmipcE=.sha256",
+        "size": 1268
+      }
+    ],
+    "refs": {
+      "refs/heads/master": "0e5d83f70016139b80c1ba0522a3e98c9a6b2677"
+    },
+    "num_objects": 7,
+    "commits": [
+      {
+        "parents": [],
+        "title": "Initial commit",
+        "sha1": "0e5d83f70016139b80c1ba0522a3e98c9a6b2677"
+      }
+    ],
+    "tags": [],
+    "object_ids": [
+      "51ab801937a56f2301c8840a0c66781c25748fc9",
+      "3c3629e647f5ddf82548912e337bea9826b434af",
+      "a11e3d2e464a60f2a8d09c447e1827668c831569",
+      "00dac8a1dcdf3ee59e34b8af82f35693a88f61fc",
+      "7bdcc4bdc612443e8b3b57143e864038eb2c469f",
+      "85b349c57f91dea4f085ffa05b070671b86ac622"
+    ]
   },
-  "signature": "j9qG54fN8nduGxBiudOrWyONluUw4dwH4SrLEJ0xHlMmy8r74eVIv2U6xKngc+rqcTdo+rvTyxUM34VbUd8ZCQ==.sig.ed25519"
+  "signature": "cnIPQ+BpsseLrMUXtV+ZaRoyWh5dS6ZRgk7ROW7n5bzVC76d7VKeotlUlqwXPPyUwj3/dDjkv+E5xrbF1yRoBQ==.sig.ed25519"
 }
