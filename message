@@ -1,20 +1,13 @@
 {
-  "previous": "%szqYxRJHmzM8A+zZ68MJOOFeVApad6WrNx6hRQcl+yw=.sha256",
+  "previous": "%BDfygu1MqbX06LyHZ0RysjpJEwvytgCYNRn08iAFVSc=.sha256",
+  "sequence": 8135,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8134,
-  "timestamp": 1545156478358,
+  "timestamp": 1545158760906,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
-    "branch": "%6IY3tGcjinFapRSM/39DaR9G82yc+bki1Va01MYJamg=.sha256",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYou did the thing! That's actually super cool, are there any clients that accept input like that and open a specific message? I might try and get this working on the web -- I think all I'd need is a way to start/stop services and then a URI handler that proxies from https://localhost/ssb:message:sha256:abcdef to the correct service:\n\n```json\n{\n  \"services\": {\n    \"patchfoo\": \"http://localhost:8027/%s\",\n    \"git-ssb-web\": \"http://localhost:7718/%s\",\n    \"some-dat-proxy-maybe\": \"http://localhost:1234/%s\"\n  },\n  \"handlers\": {\n    \"ssb\": \"patchfoo\",\n    \"ssb?type=git\": \"git-ssb-web\",\n    \"dat\": \"some-dat-proxy-maybe\"\n  }\n}\n```\n\nSuper excited to try out your spike!",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      }
-    ]
+    "type": "issue",
+    "project": "%YAg1hicat+2GELjE2QJzDwlAWcx0ML+1sXEdsWwvdt8=.sha256",
+    "text": "# TypeError: Cannot read property 'unbox' of undefined\r\n\r\nHi! I'm trying out Patchfoo with the latest version of Scuttlebot, but it looks like I'm running into an error. Are there any steps I should take to debug? Thanks!\r\n\r\n```console\r\n$ npm start                                                                                                                                                                            \r\n\r\n> patchfoo@1.2.0 start /home/christianbundy/src/ssbc/patchfoo\r\n> node server.js\r\n\r\nerror loading sodium bindings: Cannot find module 'sodium-native'\r\nfalling back to javascript version.\r\n(node:20889) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.\r\n[patchfoo] Listening on http://127.0.0.1:8027\r\nGET /\r\nGET /public\r\nGET /mentions\r\nGET /peers\r\nGET /friends\r\nGET /public\r\nGET /@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\r\nTrace: Getting peer addresses requires the ssb-backlinks plugin\r\n    at App.getAddresses (/home/christianbundy/src/ssbc/patchfoo/lib/app.js:906:15)\r\n    at /home/christianbundy/src/ssbc/patchfoo/lib/serve.js:1818:22\r\n    at pull (/home/christianbundy/src/ssbc/patchfoo/node_modules/pull-stream/pull.js:41:14)\r\n    at App.<anonymous> (/home/christianbundy/src/ssbc/patchfoo/lib/serve.js:1292:5)\r\n    at /home/christianbundy/src/ssbc/patchfoo/node_modules/asyncmemo/index.js:23:14\r\n    at process._tickCallback (internal/process/next_tick.js:61:11)\r\nGET /compose\r\nGET /public\r\nGET /\r\nGET /public\r\nGET /emoji/lock.png\r\nGET /static/hermie.ico\r\nGET /channel/3dprinting\r\nGET /public\r\nGET /emoji/lock.png\r\nGET /static/hermie.ico\r\nGET /friends\r\nGET /advsearch\r\nGET /emojis\r\n/home/christianbundy/src/ssbc/patchfoo/lib/app.js:61\r\n  this.unboxContent = memo({cache: lru(100)}, function(value, cb){sbot.private.unbox(value, cb)})\r\n                                                                               ^\r\n\r\nTypeError: Cannot read property 'unbox' of undefined\r\n    at App.<anonymous> (/home/christianbundy/src/ssbc/patchfoo/lib/app.js:61:80)\r\n    at App.run (/home/christianbundy/src/ssbc/patchfoo/node_modules/asyncmemo/index.js:35:8)\r\n    at App.unboxContent (/home/christianbundy/src/ssbc/patchfoo/node_modules/asyncmemo/index.js:28:9)\r\n    at App.unboxContentWithKey (/home/christianbundy/src/ssbc/patchfoo/lib/app.js:112:25)\r\n    at App.unboxMsgWithKey (/home/christianbundy/src/ssbc/patchfoo/lib/app.js:130:13)\r\n    at App.unboxMsg (/home/christianbundy/src/ssbc/patchfoo/lib/app.js:148:15)\r\n    at /home/christianbundy/src/ssbc/patchfoo/node_modules/pull-paramap/index.js:41:11\r\n    at /home/christianbundy/src/ssbc/patchfoo/node_modules/pull-cat/index.js:35:13\r\n    at PacketStreamSubstream.weird.read (/home/christianbundy/src/ssbc/patchfoo/node_modules/muxrpc/pull-weird.js:33:7)\r\n    at PacketStream._onstream (/home/christianbundy/src/ssbc/patchfoo/node_modules/packet-stream/index.js:204:12\r\n```"
   },
-  "signature": "OlfubJSqhSNGmqQXNxrD2ZI/sgCF9sI2WBCvz60t8uqsDKe9d9G9PthupUXse0C1c1Krg7q4V4ZGNZ84XVH5Bw==.sig.ed25519"
+  "signature": "oPyVMR13eNTHwgOrDZ1X/zXyB6bddvVKuHSFOzx9lDOqxBzpn8i70BxfoC3Zucu4TnT/j53HlQQtMTUyYP9WBw==.sig.ed25519"
 }
