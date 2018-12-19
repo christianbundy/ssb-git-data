@@ -1,20 +1,23 @@
 {
-  "previous": "%c3b1tvRhvVRcMka963iZknfgBUbLGtrlKTnbkFUZebc=.sha256",
+  "previous": "%tvERTIWyLo+h8PIXTWsHBlyZD1DlFG3oBxIEzcQv8fQ=.sha256",
+  "sequence": 8151,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8150,
-  "timestamp": 1545236184053,
+  "timestamp": 1545237717817,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
-    "branch": "%eOZZtcoKQK65FBtLvSgD6KSOPAA+KRcsPQq+AXYNPeA=.sha256",
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) \n\nThe more I think about this, the more I wonder whether we should be appending *changes* to flumedb rather than content. For example, instead of appending `msg` to the flumelog, we would append `{ add: msg }`, which would give us the option of message deletion with something like:\n\n```js\n{\n  remove: {\n    id: msg.id\n  }\n}\n```\n\nIf views respected these semantics, most of them could *easily* run a few small commands to delete individual messages, feeds, or even rebuild (with a `remove` and subsequent `add` operation). Do you think that's too naive of an approach? Or too similar to MongoDB? 🙃\n\nI'll admit I'm not very familiar with CRDTs, if you have a learning resource you like then I'd love if you could share.",
-    "mentions": [
-      {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
-      }
+    "type": "vote",
+    "root": "%8qyJ1ywzjoi8ENkCNFRSTqC0Td8VX0nC5sZ3EHfyFcM=.sha256",
+    "vote": {
+      "link": "%2VdimD6ZBwDODjaE6nINsPtP5fiB0A0KWIpWwh6Nehs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%ImD9EioXQrWXhAcKZfJlXWI2aUfEAp7zsRD5vo9iAeA=.sha256",
+      "%JAE3Qvq6d+icZuptDsJ9AzsyRUlw61MfR7JUmrWNGpM=.sha256",
+      "%P9m0UFpmVTcE0MlTKNn44SP+5zumyA8sdQRhr4MB/Cs=.sha256",
+      "%oDWxy3aPOVje1QjyLKpg/1Rf3lRtCTPfszBQyMvd6m4=.sha256"
     ]
   },
-  "signature": "MD/gfhPnW8z159ofhTOUEsRxUqPHrWtuDsXVhjrpg7upFDHa0Lo2Qr961IvG1dVmVDypZ1FfsI5HCMGFr+9FCg==.sig.ed25519"
+  "signature": "4gPPSBqHv6qXRlidwSMHFMJtXFH0jKIxbip/ADD8bViJoXuyZblKVDatKt4VqVmOsMgNLesOX2saUhsz/3U0Aw==.sig.ed25519"
 }
