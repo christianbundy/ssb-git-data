@@ -1,21 +1,37 @@
 {
-  "previous": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
-  "sequence": 8147,
+  "previous": "%IyMADVlpJiA/1Tr8k8pnobJE/U1aUXhqbtaajPmTGFE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545190353799,
+  "sequence": 8148,
+  "timestamp": 1545194246463,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Ilk5AdnsbesDdHbtCqAwBf2Be69xCyRjKCpeJIgWYvw=.sha256",
-    "vote": {
-      "link": "%Ilk5AdnsbesDdHbtCqAwBf2Be69xCyRjKCpeJIgWYvw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%fgG892unITRCYrJz19GGVmXOJzTlGOPYYX2P+x+7yio=.sha256",
-      "%jsgMVsgO9t6vGx2QdXcJmweAI3C4WzdWTeenrzvB4L0=.sha256"
+    "type": "post",
+    "text": "# Scuttlebot JavaScript module renamed to ssb-server\n\nIn the same spirit as [the ssb-db rename](%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256), I wanted to post an update that the scuttlebot JavaScript module has been renamed to ssb-server. **This thread should serve as a forum to discuss, improve, air grievances, and give feedback on this change**. \n\n## Migration\n\nMigrating from scuttlebot to ssb-server should be painless and simple:\n\n- If you're up-to-date with scuttlebot@13.2.2, modify `package.json` and any module imports to reference ssb-server.\n- If you're behind, upgrade to ssb-server@13.2.2! The old module will continue indefinitely, but I'd recommend upgrading when possible. :wink: \n\n### Deprecation\n\nSince `ssb-server server` doesn't make much sense, the new subcommand is `ssb-server start`. The commands `sbot server` and `ssb-server server` won't be dropped until *at least* 14.0.0 to preserve backward-compatibility, so there's no rush, but it's something to be mindful of in the future.\n\n## Again?!\n\nI think this should be the last one. Check out [the original thread](%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256) for more context, but the only potential future changes mentioned would be to carve out something shaped like ssb-cli (which I don't think anyone has discussed [yet] (?)).\n\n#ssbc #ssb-db #scuttlebot ( #sbot ) #ssb-server",
+    "mentions": [
+      {
+        "link": "%Baxk971HDDPZGYD3cggUSq5Ts/ZD2eiseCUShi4Rf4Y=.sha256",
+        "name": "the ssb-db rename"
+      },
+      {
+        "link": "%BIn4rQl8o7PxeolhiZCw77fUN5gGpOv6I3gDXhMfP+M=.sha256",
+        "name": "the original thread"
+      },
+      {
+        "link": "#ssbc"
+      },
+      {
+        "link": "#ssb-db"
+      },
+      {
+        "link": "#scuttlebot"
+      },
+      {
+        "link": "#sbot"
+      },
+      {
+        "link": "#ssb-server"
+      }
     ]
   },
-  "signature": "Zv330s9DaNaavdWODxdW+E+idQV0F0Vr5XgITy6xgjglqY5ApA1QtjX6B8uwbbI9IDVGXtdSoCZpfKp6QnMcCg==.sig.ed25519"
+  "signature": "ToqLeXjntGf61Go0SxZ5Mo/nZfzgoJcJR0ltF6BadSOL3dav8GVQ2SnCS8Cb85+jz0xycnZlSBD9E4pJR96BDA==.sig.ed25519"
 }
