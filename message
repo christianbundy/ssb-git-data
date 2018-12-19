@@ -1,21 +1,26 @@
 {
-  "previous": "%apvelbBOjypLqriLECZpnIAGVA0lxGvHdQXl1FKuGEs=.sha256",
-  "sequence": 8158,
+  "previous": "%7WyGpUrOeCHi/fPpC4BQcMklVXpn9OQtz/jF/sazy88=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545248755447,
+  "sequence": 8159,
+  "timestamp": 1545253117853,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
-    "vote": {
-      "link": "%eOZZtcoKQK65FBtLvSgD6KSOPAA+KRcsPQq+AXYNPeA=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%0nBJkkYoaIcAL1AZDfRu1fsc9GykKHDzcEKJEplA00I=.sha256",
-      "%tvERTIWyLo+h8PIXTWsHBlyZD1DlFG3oBxIEzcQv8fQ=.sha256"
+    "branch": "%tvERTIWyLo+h8PIXTWsHBlyZD1DlFG3oBxIEzcQv8fQ=.sha256",
+    "text": "# flumedb.delete()\n\nThe above message was written under the incorrect assumption that `flumedb.append()` is our only interface into the flumeview API. After doing a bit more research, I think think our best bet would be to implement deletion from logs and views with some new API surface area: maybe `flumedb.delete()`?\n\n![flumedb.png](&wLzqO86OsNWTgTrlrrok/IYUbk5UsuYWYrLZLDX4fkA=.sha256)\n\nAbove I've put together my best impression of what's going on under the hood and which interfaces this might touch, and I think this could actually work. It might be useful to prototype feed deletion with flumelogs first, and if that's successful then I may start implementing it for flume views.\n\n- **flumelog-memory:** `delete log[seq]`\n- **flumelog-level:** [`db.del(seq)`](https://github.com/Level/level#dbdelkey-options-callback)\n- **flumelog-idb:** [`objectStore.delete(seq)`](https://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore/delete)\n- **flumelog-offset:** will likely require work in [aligned-block-file](https://github.com/flumedb/aligned-block-file)\n\nI'm likely getting head of myself here, but from a shallow glance at the above I think this idea might actually have legs. Are there any major problems that I should be aware of while hacking on this?\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "&wLzqO86OsNWTgTrlrrok/IYUbk5UsuYWYrLZLDX4fkA=.sha256",
+        "name": "flumedb.png",
+        "type": "image/png",
+        "size": 168633
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
     ]
   },
-  "signature": "f3ESLr8QPhUV7vsXpQVRHdUZStYSoZ7hHRVQPZmUouhxGktNfIOrAXb/pORGqU5OQZ4OF01ktcLb2JXZ160MDw==.sig.ed25519"
+  "signature": "OY88DFWpNVVw7zGqP1ywNhnJf9D/F3EsLx/dhgt0UMClKsp280ayXbAzc6sLrVicNsagj/BAQEgqBFj8fWE1Bg==.sig.ed25519"
 }
