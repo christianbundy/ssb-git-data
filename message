@@ -1,20 +1,20 @@
 {
-  "previous": "%codU1kaafCOwI+biuV4EFwj6izjRYLgSWMrMdHvVj28=.sha256",
-  "sequence": 8160,
+  "previous": "%Zmvhnq/M883sIxbYHjHtbCqzbmQpB4ZUI7QoFZ3bCXo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545261639704,
+  "sequence": 8161,
+  "timestamp": 1545261831065,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
-    "vote": {
-      "link": "%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256"
+    "branch": "%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nDo you think something like `flumedb.delete()` would be viable, or is there a better way to delete/rebuild individual messages?",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
     ]
   },
-  "signature": "wjWwDR2x2/p/lRqE8/aaSh6mRZbxpuUZvVHMkIfaXOE2PjkGbY+/zjkyQdW7p1DzRr2wIhXxjAYL9OU9Gu0LAg==.sig.ed25519"
+  "signature": "4AOK0mrNLhFvupBNGDf5FtQvGXPZTN6qDh/SodochNx09WhN1Q8ZTls1E8shXcElJ7uDrYK38zk0GyVq9tb3Bg==.sig.ed25519"
 }
