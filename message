@@ -1,20 +1,21 @@
 {
-  "previous": "%x6Z9Zro+NbWlN0ccZacvdqH+nYsZurUY9ut6BYIjSvc=.sha256",
+  "previous": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
+  "sequence": 8147,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8146,
-  "timestamp": 1545184485568,
+  "timestamp": 1545190353799,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
-    "branch": "%BDfygu1MqbX06LyHZ0RysjpJEwvytgCYNRn08iAFVSc=.sha256",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYou've inspired me to spike my own project! \n\nhttps://github.com/christianbundy/localhost-launcher\n\nFrom the readme:\n\n> # localhost-launcher\n> \n> > Self-hosted localhost launcher for distributed applications.\n> \n> Currently this operates sort of similar to the HTTP server bundled with ssb-ws,\nbut I'm hoping that I'll have the energy to turn this into:\n>\n> - an HTTP server for content-addressable URIs (Scuttlebutt, Dat, etc.)\n> - a pluggable interface for self-hosted applications\n> - a friendly habitat for micro-clients that do one thing well\n> \n> In the interest of transparency, this project may be quickly abandoned and\nforgotten about. Also, the name is awful but it's good enough for today.\n> \n> P.S. Sorry about how messy this is. I swear I'll clean it up. Maybe.\n\nAlso, since we can address each piece of data by its content, we have no need for the authority section of the URL. Instead, we just append the URI to the path like:\n\nhttp://localhost/ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\n\nor\n\nhttp://localhost/magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a \n\nor\n\nhttp://localhost/patchlite:mentions\n\n:tada:",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      }
+    "type": "vote",
+    "root": "%Ilk5AdnsbesDdHbtCqAwBf2Be69xCyRjKCpeJIgWYvw=.sha256",
+    "vote": {
+      "link": "%Ilk5AdnsbesDdHbtCqAwBf2Be69xCyRjKCpeJIgWYvw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%fgG892unITRCYrJz19GGVmXOJzTlGOPYYX2P+x+7yio=.sha256",
+      "%jsgMVsgO9t6vGx2QdXcJmweAI3C4WzdWTeenrzvB4L0=.sha256"
     ]
   },
-  "signature": "gKoxIDxFspftqP2i7RfXr0rQHJFctbeGiVXIXCkPZA4Rj7Bbx6wRZJcBbVBVEB55iyHaU7bIe+3HzLhZWhhRCw==.sig.ed25519"
+  "signature": "Zv330s9DaNaavdWODxdW+E+idQV0F0Vr5XgITy6xgjglqY5ApA1QtjX6B8uwbbI9IDVGXtdSoCZpfKp6QnMcCg==.sig.ed25519"
 }
