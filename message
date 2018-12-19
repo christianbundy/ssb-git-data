@@ -1,90 +1,46 @@
 {
-  "previous": "%ZQwu3M12TASawRrcYI6ZmYMHosZ0awMML5SJ8oPFLWc=.sha256",
-  "sequence": 8144,
+  "previous": "%h5FqJeGRMt32OMvVfrFCW2HJQgBwQ0MXtdILy+eWmiM=.sha256",
+  "sequence": 8145,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545183545177,
+  "timestamp": 1545183971780,
   "hash": "sha256",
   "content": {
     "type": "git-update",
     "repo": "%lurMx3mLxh4r+6XlhZ8H2q2JTwAQRl1fgxZ2KtvSRKY=.sha256",
     "refsBranch": [],
     "repoBranch": [
-      "%ZQwu3M12TASawRrcYI6ZmYMHosZ0awMML5SJ8oPFLWc=.sha256"
+      "%h5FqJeGRMt32OMvVfrFCW2HJQgBwQ0MXtdILy+eWmiM=.sha256"
     ],
     "packs": [
       {
-        "link": "&QeBAxA+5uv1or/EoEBodvP2UTTT9Ohj7zYPQcDoCM9A=.sha256",
-        "size": 18533
+        "link": "&IvcbsFjVPR4xaiJLOsZfRLiQJ2y26aDrvzVpV7DCpoo=.sha256",
+        "size": 1664
       }
     ],
     "indexes": [
       {
-        "link": "&v++DrH4ly+rDhqRAg5RhbYOJiyeUdc6Kg++e/Cz57cQ=.sha256",
-        "size": 1716
+        "link": "&XdaI6MBH1gGIHB/yGHHNCkcnrL3ybHH0mpObjEPQRks=.sha256",
+        "size": 1156
       }
     ],
     "refs": {
-      "refs/heads/master": "b9b0d786d2e8d5f202212f8705ca5abf23c653ac"
+      "refs/heads/master": "bc4678c26907c528e03cfb22c1078b40b237aa45"
     },
-    "num_objects": 23,
+    "num_objects": 3,
     "commits": [
       {
         "parents": [
-          "a5a88a6d9bdb544b6f0846958f0d49fd520caf96"
+          "b9b0d786d2e8d5f202212f8705ca5abf23c653ac"
         ],
-        "title": "Get Scuttlebutt messages and blobs working",
-        "sha1": "b9b0d786d2e8d5f202212f8705ca5abf23c653ac"
-      },
-      {
-        "parents": [
-          "a4c21d68597526a76ad397a2ffade14d3424735c"
-        ],
-        "title": "Add example Dat identifier",
-        "sha1": "a5a88a6d9bdb544b6f0846958f0d49fd520caf96"
-      },
-      {
-        "parents": [
-          "7b63e825c47afda7f7e69959820f0efc3a4851fb"
-        ],
-        "title": "Use HTTP 302 redirect",
-        "sha1": "a4c21d68597526a76ad397a2ffade14d3424735c"
-      },
-      {
-        "parents": [
-          "4d436d4d88d47c4fecb30c0fa7d87a6bb4074f16"
-        ],
-        "title": "Add readme",
-        "sha1": "7b63e825c47afda7f7e69959820f0efc3a4851fb"
-      },
-      {
-        "parents": [
-          "0e5d83f70016139b80c1ba0522a3e98c9a6b2677"
-        ],
-        "title": "Fix lockfile",
-        "sha1": "4d436d4d88d47c4fecb30c0fa7d87a6bb4074f16"
+        "title": "Fix up readme a bit",
+        "sha1": "bc4678c26907c528e03cfb22c1078b40b237aa45"
       }
     ],
     "tags": [],
     "object_ids": [
-      "9c08df5f3ceec4d5c0926d7132e19909184bec11",
-      "b5470520c2439e83217517945409f26f92d7aa19",
-      "999bc0259f7ecad428c8482b0aa025a6ce1343ad",
-      "3245e415132aa8c985b1cc2e559d3bf994029ff0",
-      "f13272a3897ff973eda95e8ceec6aef9d1cbcbae",
-      "4fd9a16045c0c4c92dee39b975bcb2cfd51843e1",
-      "8f32dc0a140e3f37c5d51b49a3fe0df560e8eb9f",
-      "0b78ae9694528f125ffbae000d3ddb19f8ac8a2e",
-      "8cfdbe7330d10351c84355400b48775d26d7e000",
-      "8f73b4b2150a21c517d04c25eebb06c1a4b09897",
-      "cd3ae685ac46f6b881fc2b479585dd00e76a1774",
-      "9029b6d35d83718ac8a03fe44458231cdbf9a1a4",
-      "a91acc2434b1a3a9ecb84a34b6959cd8819f97a6",
-      "ec410d6e434d06af53609e7a4b906ec726c685d7",
-      "91baeb50f242a1ed137ff9f5cc5c226283efa7a5",
-      "57fbc0915348693fba3b0509160a9534e0c83b75",
-      "e10f8cbe67d49b51d67195c4357d4f3b646463fc",
-      "83fbfeef6ebcfc98eee27b0ec94336103dc1967b"
+      "9f77ebd3de480e29598a9374fb453050da41670b",
+      "14b04209adaa26905c29fe8f96e5460b2dc60236"
     ]
   },
-  "signature": "RtsAc1xXrarT5WEdMsE6vFKKDMZEHsby32EA+MYdLvf95OlrPicscRLp81qA/3qoetlgr8w3jyT5irdwvREHDg==.sig.ed25519"
+  "signature": "XBa/tkEOdb+5IEgdwPoyOq2AyEBIorMZpEB0/m2tFUxqM6GQQ50VTjXfsaxBagrjRA3OWKH0WNIcnI4CG/8lDQ==.sig.ed25519"
 }
