@@ -1,14 +1,22 @@
 {
-  "previous": "%Fj/wRbJRAaf8JciAMH2YiFB6l8DxZJl4tKwTUX87ngI=.sha256",
+  "previous": "%aawq3a6urv5jsZfNNR1BOtL3YsHIsoGPs9dlwIzeVOc=.sha256",
+  "sequence": 8156,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8155,
-  "timestamp": 1545244881838,
+  "timestamp": 1545244918366,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/lLj1fdlVKyPpAmwEHIOnJtjOGA/PN4+5EVaenJpffM=.sha256",
-    "branch": "%Drotjo4emU+dek4T2CckIEWZWjBzu0I/3ESLlXDfZbI=.sha256",
-    "text": "^ Same same, I assumed that this was a list of all unique IDs from the log rather than a traversal of the follow graph.\n\nFor what it's worth, I *think* this should get the total number of feeds in your database:\n\n```sh\nsbot createLogStream | jq -r '.value.author' | sort -u | wc -w\n```"
+    "type": "vote",
+    "root": "%Bjfavw20qGoJHa+u0bcfbtGwC9SHjcI1Xt9Lv12mOW8=.sha256",
+    "vote": {
+      "link": "%zY7PPSN3jgBREfkyWseM+9IpZTszzdLeVfX+KkwS2Zo=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%KYUofwq9g7nFYaGk40KqrwMuqN/iIhz/56QTT6dHc1Y=.sha256",
+      "%d6T1EOk+UHm/sbI8nr6m0FenRh4dOsEXGHpSzpDPNLw=.sha256",
+      "%zY7PPSN3jgBREfkyWseM+9IpZTszzdLeVfX+KkwS2Zo=.sha256"
+    ]
   },
-  "signature": "7M7kP6ZBuzQtTVdjfCfJ8pLbgIqpab/An9RsqLOUt31AniiHq+H2MTrA9FeIl0qvUlG0GsF8nZHRaXIDOZwhDQ==.sig.ed25519"
+  "signature": "OcN2zg5oFiM5RqV4e1dMU77LQZkLepWXnbY7Ly/CD6ythHPZ5L0dmVg6LruXDkm5zKoYLgsrqtkMnF2C442TBA==.sig.ed25519"
 }
