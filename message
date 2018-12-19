@@ -1,20 +1,20 @@
 {
-  "previous": "%mb/ZMz5aLE7W+3AN6wdQO+HQeiZVg5vvVkmm2caYIVc=.sha256",
-  "sequence": 8152,
+  "previous": "%TGtONy+UVK92YeP37l1h6ywGzAakOlM+wDSbG5rZOSA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545241200187,
+  "sequence": 8153,
+  "timestamp": 1545243918580,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%tZk3xg16cFJIfjVvAv0x39rawwpxatwvIS46X0XjBSQ=.sha256",
-    "vote": {
-      "link": "%tZk3xg16cFJIfjVvAv0x39rawwpxatwvIS46X0XjBSQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%D3uVOWTa7iiMzDI7NSszht/2Kg7wgAG/TCOKK06XdOs=.sha256"
+    "type": "post",
+    "root": "%NBTYRrF1QjwJRiCUzXeAWB0EVYqyggXmHp70NOiyGB8=.sha256",
+    "branch": "%Y5/RfPryMM6m9vJqqPnR+4N8hj5m9/4vTL3nI+Qi7Vs=.sha256",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nOh, do I need to manually add that to my SSB config? Here's what it looks like now:\n\n```json\n{\n  \"gossip\": {\n    \"global\": true\n  },\n  \"blobs\": {\n    \"max\": 10000000\n  },\n  \"plugins\": {\n    \"ssb-links\": \"links2\",\n    \"ssb-npm-registry\": true\n  },\n  \"connections\": {\n    \"incoming\": {\n      \"net\": [{ \"port\": 8008, \"scope\": \"public\", \"transform\": \"shs\", \"external\": \"example.com\" }]\n    },\n    \"outgoing\": {\n      \"net\": [{ \"transform\": \"shs\" }]\n    }\n  }\n}\n```\n\nIgnore the example.com bit, I don't think that's relevant here. 😉",
+    "mentions": [
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
     ]
   },
-  "signature": "7smXrPmpMYbRxOowPZW7HOEQ//fiRbGWTjOAvXP943zlmZbyWyawwq8Y4cqgxaWquPopYshcB3Dg5S2nZ1YjAQ==.sig.ed25519"
+  "signature": "Thr2rDRDFwzLrZQKLP9poTLuu7jpdhJOrvEcMl8eZpVGvHOZy8swyRsp8tFAc2xOMXrAQiNExJQiZQpfQ5W7Cw==.sig.ed25519"
 }
