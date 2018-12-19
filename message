@@ -1,14 +1,20 @@
 {
-  "previous": "%IaR0OJ+2V4rVi/aOOkynHMCt7omKVzyNntXTCfferVY=.sha256",
+  "previous": "%c3b1tvRhvVRcMka963iZknfgBUbLGtrlKTnbkFUZebc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8149,
-  "timestamp": 1545194287406,
+  "sequence": 8150,
+  "timestamp": 1545236184053,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%IaR0OJ+2V4rVi/aOOkynHMCt7omKVzyNntXTCfferVY=.sha256",
-    "branch": "%IaR0OJ+2V4rVi/aOOkynHMCt7omKVzyNntXTCfferVY=.sha256",
-    "text": "> and **update** any module imports to reference ssb-server.\n\nFTFM"
+    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
+    "branch": "%eOZZtcoKQK65FBtLvSgD6KSOPAA+KRcsPQq+AXYNPeA=.sha256",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) \n\nThe more I think about this, the more I wonder whether we should be appending *changes* to flumedb rather than content. For example, instead of appending `msg` to the flumelog, we would append `{ add: msg }`, which would give us the option of message deletion with something like:\n\n```js\n{\n  remove: {\n    id: msg.id\n  }\n}\n```\n\nIf views respected these semantics, most of them could *easily* run a few small commands to delete individual messages, feeds, or even rebuild (with a `remove` and subsequent `add` operation). Do you think that's too naive of an approach? Or too similar to MongoDB? 🙃\n\nI'll admit I'm not very familiar with CRDTs, if you have a learning resource you like then I'd love if you could share.",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      }
+    ]
   },
-  "signature": "0QpVyUkDnQmIb2vmBX1j1ugsS+56J5U/B+7h+PIvEIOW2i+CWMx2q3Aubaf5Na4EIDBgcd+k+V5Bq0r67AeeCQ==.sig.ed25519"
+  "signature": "MD/gfhPnW8z159ofhTOUEsRxUqPHrWtuDsXVhjrpg7upFDHa0Lo2Qr961IvG1dVmVDypZ1FfsI5HCMGFr+9FCg==.sig.ed25519"
 }
