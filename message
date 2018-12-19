@@ -1,20 +1,20 @@
 {
-  "previous": "%TGtONy+UVK92YeP37l1h6ywGzAakOlM+wDSbG5rZOSA=.sha256",
+  "previous": "%TL3Y3ZkwM7i/M33Wde2tyvNW3GtEaH1vqOBPzxOgbrw=.sha256",
+  "sequence": 8154,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8153,
-  "timestamp": 1545243918580,
+  "timestamp": 1545243944825,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%NBTYRrF1QjwJRiCUzXeAWB0EVYqyggXmHp70NOiyGB8=.sha256",
-    "branch": "%Y5/RfPryMM6m9vJqqPnR+4N8hj5m9/4vTL3nI+Qi7Vs=.sha256",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nOh, do I need to manually add that to my SSB config? Here's what it looks like now:\n\n```json\n{\n  \"gossip\": {\n    \"global\": true\n  },\n  \"blobs\": {\n    \"max\": 10000000\n  },\n  \"plugins\": {\n    \"ssb-links\": \"links2\",\n    \"ssb-npm-registry\": true\n  },\n  \"connections\": {\n    \"incoming\": {\n      \"net\": [{ \"port\": 8008, \"scope\": \"public\", \"transform\": \"shs\", \"external\": \"example.com\" }]\n    },\n    \"outgoing\": {\n      \"net\": [{ \"transform\": \"shs\" }]\n    }\n  }\n}\n```\n\nIgnore the example.com bit, I don't think that's relevant here. 😉",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
+    "type": "vote",
+    "root": "%/lLj1fdlVKyPpAmwEHIOnJtjOGA/PN4+5EVaenJpffM=.sha256",
+    "vote": {
+      "link": "%Drotjo4emU+dek4T2CckIEWZWjBzu0I/3ESLlXDfZbI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Drotjo4emU+dek4T2CckIEWZWjBzu0I/3ESLlXDfZbI=.sha256"
     ]
   },
-  "signature": "Thr2rDRDFwzLrZQKLP9poTLuu7jpdhJOrvEcMl8eZpVGvHOZy8swyRsp8tFAc2xOMXrAQiNExJQiZQpfQ5W7Cw==.sig.ed25519"
+  "signature": "+qKp8jaiMyN7tEKGaVHFu4ivDMApLv3Eop52hnOPUauy5l5MH4Km50HrNd822aQgVbS3B/3F9xM9NKwYBqMjDA==.sig.ed25519"
 }
