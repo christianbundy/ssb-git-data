@@ -1,20 +1,15 @@
 {
-  "previous": "%Kw7lqhqn9szBAPb59HLB3lu12mR57rzIrG1XQ001Fgg=.sha256",
-  "sequence": 8164,
+  "previous": "%nKpr/LIgfvHBHbGm9Ma+dn+dHj1F3RlpO7blNyM/NMc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545322725217,
+  "sequence": 8165,
+  "timestamp": 1545328339644,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%NBTYRrF1QjwJRiCUzXeAWB0EVYqyggXmHp70NOiyGB8=.sha256",
-    "vote": {
-      "link": "%ParxHKz2JgbhU5yMlCKWPh8BxqPkw3uL1IPixPId2lw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%ParxHKz2JgbhU5yMlCKWPh8BxqPkw3uL1IPixPId2lw=.sha256"
-    ]
+    "type": "post",
+    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "branch": "%kui8s5jY4cvqFVLJ+SJ5RKWZYOuPSJc4g/GTVl8Syi0=.sha256",
+    "channel": "ssb-show-and-tell",
+    "text": "I'd recommend checking `msg.value.meta.private` specifically -- check out [this PR](https://github.com/ssbc/ssb-db/pull/228) for more info."
   },
-  "signature": "yPOKXRA3yvnXT3cdAro4/E4/QscvnYf1pJotRSyhvkmXKGHnX4Ao32Z9wr+tV/dme6BHB562zoioCrmyENNMBw==.sig.ed25519"
+  "signature": "eBVTs9cVdQkiKcZgi4J+fHLFVqX8Ei6gePhxcJYod9cveCLVEftAm3jAPPMln/hQ75d2XYFmazU7TzXlZ7VxCQ==.sig.ed25519"
 }
