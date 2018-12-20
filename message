@@ -1,14 +1,21 @@
 {
-  "previous": "%apM2aE3YhKAPbqqZ+4Qnzy28Bidf1//0lOYG5EwrBoc=.sha256",
+  "previous": "%Nz/iy8zhmxlIICoWNHxXFunPx3+E+p/O5a4vo0qI34o=.sha256",
+  "sequence": 8170,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8169,
-  "timestamp": 1545347163788,
+  "timestamp": 1545347190656,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
-    "branch": "%Kw7lqhqn9szBAPb59HLB3lu12mR57rzIrG1XQ001Fgg=.sha256",
-    "text": "I took a few hours today and wrote two small components: \n\n- an [in-memory flumelog](https://github.com/fraction/flumelog-array) that acts like flumelog-memory without the `filename` argument\n- a small flumeview (which depends on the above flumelog) that just converts each item to boolean with `!!`\n\nThey're both impressively useless, but I feel like I have a much better handle on how things are working under the hood. My log supports deletion via `flumelog.del()`, but I'm unclear on two details of the implementation:\n\n## since\n\nIs `since` meant to track the number of messages in the log or the number of operations executed? Having `flumelog.del()` bump `since` seems to make the most sense, but I don't want to overload any semantics.\n\n## deleteSink()\n\nSpeaking of overloading semantics, I'm thinking that a theoretical `flumedb.del()` would work like this: check for `flumelog.deleteSink()`, if exists then pass the `{ seq, value }` item to be deleted, and if it doesn't exist then run `flumelog.destroy()` and force a full rebuild.\n\nThis would give us an optional deletion method that matches the creation method, the only problem is that it changes the semantics behind `flumelog.createSink()` so that \"create\" is a noun rather than a verb.\n\nI was originally thinking `flumelog.del()` or `flumelog.delete()`, but I'm really enjoying the `createSink()` pattern and I think the consistency would be nice. With that said, I don't have any strong opinions on how this is named or implemented."
+    "type": "vote",
+    "root": "%9u2EMEIVMAZ48LuA/RMHYK/kOTSrZAc0wT6zykN95gY=.sha256",
+    "vote": {
+      "link": "%UUb4BPUhMA6g8Z5G/hIMsw98yUcbUwsKrX2i/YA2vn8=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%1CY7swiqDXeiAPBLMn+gpADWpflN5lYZQh43QWdc6Hk=.sha256",
+      "%UUb4BPUhMA6g8Z5G/hIMsw98yUcbUwsKrX2i/YA2vn8=.sha256"
+    ]
   },
-  "signature": "KFlzQNIDGWNB3f3l41f3FMgPVy0vDDegbIHJkkKcbKxNFivQcTIW4K8neoq70ZaojM2BPfnIuJfmG8rDIbmBBg==.sig.ed25519"
+  "signature": "MFNfsCoeJOB+oc4kkzZO+nFGzA82OwsRVf2uKK35+tf65K1L/OwZ3Cauv9g7s4Qsb2Hw5aYc38ZBG5xpPYWaAg==.sig.ed25519"
 }
