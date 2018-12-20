@@ -1,20 +1,23 @@
 {
-  "previous": "%NKCraxn9DotvsVYes29O+f2l3JUbtyzPHTxSjWMzmVA=.sha256",
-  "sequence": 8167,
+  "previous": "%Il/gnPOSyzk5lc9lDNTMXXC/wW3aBDl3PVQ5PhGGros=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545343610107,
+  "sequence": 8168,
+  "timestamp": 1545344002702,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%09024uAxtowKFcTWxFgRB1Y0HWSoEGC8vAYtLpuG/zI=.sha256",
-    "vote": {
-      "link": "%l0Ep9svHrhnt+NhqeY7xXaLep8YL43xilYOnUR5+U4o=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%8qyJ1ywzjoi8ENkCNFRSTqC0Td8VX0nC5sZ3EHfyFcM=.sha256",
     "branch": [
-      "%/bxi8RF/+uyLyChhPMQuhAIVbg7GtZ1UpwfUmzkyTUI=.sha256"
+      "%BmT6X3bSd4Lh1D/a9Pbc0/DtJ6y/AlatVuPpLROk6rs=.sha256",
+      "%o++vwZtg1e4T/an22LlXn6N0dFdhJHiMGQJ8jpschoE=.sha256"
+    ],
+    "text": "[@PDV](@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519)\n\nScuttlebutt allows you to host content from people that you follow, and *optionally* allows you to host content from two or three (!) degrees of separation. That means that many of us default to hosting friends, friends of friends, *and* their friends. Sometimes that means that we host content from people we aren't interested in hosting, which is resolved by blocking.\n\nI don't blame you for being upset about being blocked, but I'd like you to think about the alternative: if we only shared our bandwidth and storage with friends (`hops: 1`) then we wouldn't have blocks, but it would be harder to connect with others. The [generous] offer of free hosting for friends of friends isn't unconditional, and having that hosting revoked doesn't make you a victim or validate your grievances.\n\nIf you're bothered by seeing blocks, I'd recommend configuring Scuttlebutt like this:\n\n```json\n{\n  \"friends\": {\n    \"hops\": \"1\"\n  }\n}\n```",
+    "mentions": [
+      {
+        "link": "@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519",
+        "name": "PDV"
+      }
     ]
   },
-  "signature": "gXPCvqlghyJNM53LnfsrTiHTkFOt++5EVf9SQ8AyMqdnbSBHxLEpU4aHvmmCqLudwra2IRGqgnPw+ac+wIanBg==.sig.ed25519"
+  "signature": "Mu0Shd5xW+2EYG6v51214Gwskqx3fZujIDDXQDYzWYTFU3mMJ2jc4vI2jDbIwqwlD55TX6x5w9uyqIoG6wVfBQ==.sig.ed25519"
 }
