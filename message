@@ -1,15 +1,20 @@
 {
-  "previous": "%nKpr/LIgfvHBHbGm9Ma+dn+dHj1F3RlpO7blNyM/NMc=.sha256",
+  "previous": "%CSP31DEGRI5FGAjLeBxGtXFocgCZ2MfzWaJBoSry7AM=.sha256",
+  "sequence": 8166,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8165,
-  "timestamp": 1545328339644,
+  "timestamp": 1545341496783,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
-    "branch": "%kui8s5jY4cvqFVLJ+SJ5RKWZYOuPSJc4g/GTVl8Syi0=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "I'd recommend checking `msg.value.meta.private` specifically -- check out [this PR](https://github.com/ssbc/ssb-db/pull/228) for more info."
+    "type": "vote",
+    "root": "%8qyJ1ywzjoi8ENkCNFRSTqC0Td8VX0nC5sZ3EHfyFcM=.sha256",
+    "vote": {
+      "link": "%BmT6X3bSd4Lh1D/a9Pbc0/DtJ6y/AlatVuPpLROk6rs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%l/9YbbNfpV5V88nE/Ov5IcucGYx1HGLXWFpQ4j6tsME=.sha256"
+    ]
   },
-  "signature": "eBVTs9cVdQkiKcZgi4J+fHLFVqX8Ei6gePhxcJYod9cveCLVEftAm3jAPPMln/hQ75d2XYFmazU7TzXlZ7VxCQ==.sig.ed25519"
+  "signature": "tbUtu8e8OiLQjxr1inluzz1Qj+Jp1lkso5zXXM8ScjhtfwveRvh91wfaKkqnQ8XaVrT04Z6CZMnPsKkIuUYmBw==.sig.ed25519"
 }
