@@ -1,23 +1,14 @@
 {
-  "previous": "%Il/gnPOSyzk5lc9lDNTMXXC/wW3aBDl3PVQ5PhGGros=.sha256",
+  "previous": "%apM2aE3YhKAPbqqZ+4Qnzy28Bidf1//0lOYG5EwrBoc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8168,
-  "timestamp": 1545344002702,
+  "sequence": 8169,
+  "timestamp": 1545347163788,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%8qyJ1ywzjoi8ENkCNFRSTqC0Td8VX0nC5sZ3EHfyFcM=.sha256",
-    "branch": [
-      "%BmT6X3bSd4Lh1D/a9Pbc0/DtJ6y/AlatVuPpLROk6rs=.sha256",
-      "%o++vwZtg1e4T/an22LlXn6N0dFdhJHiMGQJ8jpschoE=.sha256"
-    ],
-    "text": "[@PDV](@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519)\n\nScuttlebutt allows you to host content from people that you follow, and *optionally* allows you to host content from two or three (!) degrees of separation. That means that many of us default to hosting friends, friends of friends, *and* their friends. Sometimes that means that we host content from people we aren't interested in hosting, which is resolved by blocking.\n\nI don't blame you for being upset about being blocked, but I'd like you to think about the alternative: if we only shared our bandwidth and storage with friends (`hops: 1`) then we wouldn't have blocks, but it would be harder to connect with others. The [generous] offer of free hosting for friends of friends isn't unconditional, and having that hosting revoked doesn't make you a victim or validate your grievances.\n\nIf you're bothered by seeing blocks, I'd recommend configuring Scuttlebutt like this:\n\n```json\n{\n  \"friends\": {\n    \"hops\": \"1\"\n  }\n}\n```",
-    "mentions": [
-      {
-        "link": "@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519",
-        "name": "PDV"
-      }
-    ]
+    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
+    "branch": "%Kw7lqhqn9szBAPb59HLB3lu12mR57rzIrG1XQ001Fgg=.sha256",
+    "text": "I took a few hours today and wrote two small components: \n\n- an [in-memory flumelog](https://github.com/fraction/flumelog-array) that acts like flumelog-memory without the `filename` argument\n- a small flumeview (which depends on the above flumelog) that just converts each item to boolean with `!!`\n\nThey're both impressively useless, but I feel like I have a much better handle on how things are working under the hood. My log supports deletion via `flumelog.del()`, but I'm unclear on two details of the implementation:\n\n## since\n\nIs `since` meant to track the number of messages in the log or the number of operations executed? Having `flumelog.del()` bump `since` seems to make the most sense, but I don't want to overload any semantics.\n\n## deleteSink()\n\nSpeaking of overloading semantics, I'm thinking that a theoretical `flumedb.del()` would work like this: check for `flumelog.deleteSink()`, if exists then pass the `{ seq, value }` item to be deleted, and if it doesn't exist then run `flumelog.destroy()` and force a full rebuild.\n\nThis would give us an optional deletion method that matches the creation method, the only problem is that it changes the semantics behind `flumelog.createSink()` so that \"create\" is a noun rather than a verb.\n\nI was originally thinking `flumelog.del()` or `flumelog.delete()`, but I'm really enjoying the `createSink()` pattern and I think the consistency would be nice. With that said, I don't have any strong opinions on how this is named or implemented."
   },
-  "signature": "Mu0Shd5xW+2EYG6v51214Gwskqx3fZujIDDXQDYzWYTFU3mMJ2jc4vI2jDbIwqwlD55TX6x5w9uyqIoG6wVfBQ==.sig.ed25519"
+  "signature": "KFlzQNIDGWNB3f3l41f3FMgPVy0vDDegbIHJkkKcbKxNFivQcTIW4K8neoq70ZaojM2BPfnIuJfmG8rDIbmBBg==.sig.ed25519"
 }
