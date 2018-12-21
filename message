@@ -1,27 +1,20 @@
 {
-  "previous": "%oZVdzrDnsH4HKSLDQs+Ovq64JyWiQSkg1k04QximAfM=.sha256",
+  "previous": "%1sVYSgSb3D739aAwcrzRc2RpvR31ow80ylErCShpcLM=.sha256",
+  "sequence": 8174,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8173,
-  "timestamp": 1545358504862,
+  "timestamp": 1545358629937,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
+    "type": "vote",
+    "root": "%o0qcVQY4aSRBW3JhPqAWn0i4euT4Pw0NxJtNypwjJWM=.sha256",
+    "vote": {
+      "link": "%6O8hKAOhB+WynQq7uzMX2Q+iEJCIH85x9r7eWn1pr/0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%MEZOrE37EyY5lUz3etEyBxNF89EUzWzEKQXO8pQmdpI=.sha256",
-      "%cbivnB/VcyNGOXE3yhuWakPRck9nwljwhlzD4SrGml0=.sha256"
-    ],
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\n> hmm, a way simpler way than streaming deletes to the views, would be to filter out deletes from the views when querying them. views such as flumeview-level call to the log to get the message - if it's not there, drop it, done.\n\nThat's a really interesting idea, I hadn't thought of that. I think that makes a lot of sense, but I'm having trouble trying to grok how to:\n\n- know when all items deleted from the log have been deleted from the view(s)\n  - because `since` won't change, I'm not sure how we could be sure items are deleted\n  - because items are only deleted on `get()`, could a rarely-touched item survive indefinitely? \n- rebuild all views for a thread when we receive information to correctly build a view\n  - because of the sub-list above, could we be sure the view for an item is correctly rebuilt?\n  - for example:\n    - unbox keys (encrypted groups)\n    - message edits (mutable messages)\n    - blobs (off-chain content)\n\nAlso, the bit about `since` in logs makes so much sense. Do flumelogs follow the same pattern? For example, do they always increase as an integer or do they follow the format of the log (e.g. a timestamp)? I was originally thinking that rebuilds could be triggered by `del()` and an immediate re-`append()`, but I just noticed this in the flumedb readme:\n\n> a flumeview *must* process items from the main log in order, otherwise inconsistencies will occur\n\nAre these inconsistencies dangerous, or are they things like `item.seq + item.value` varying because there's no guarantee that you'll always have the same `seq` and `value` matched up?\n\n---\n\n[@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519)\n\nThat's so rad, thanks for pointing that out! I love that you're forging ahead and you've already worked on reversible reduce functions. Your message didn't come in until I'd already started this message, but here's what I originally wrote in reply to what you quoted:\n\n> True, it's *possible* to write the inverse of some [trivial] reduce functions, but I'm happy to take some easy performance wins before even trying to think about that. \n\nP.S. You may already know, but on the latest Patchbay/Patchwork you can start your fenced code block with ```js and it should do syntax highlighting. It should also work with [most other languages](https://highlightjs.org/static/demo/).",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
-        "name": "regular"
-      }
+      "%6O8hKAOhB+WynQq7uzMX2Q+iEJCIH85x9r7eWn1pr/0=.sha256"
     ]
   },
-  "signature": "Q9QjywFn3TjZGdrc4+ahdSEW26m57VOBH353rCM/XxC86d1DHowIYto+QzMq20lZcdbIa8Q3CxD3q+Wx5I7kBA==.sig.ed25519"
+  "signature": "/3KHOsJ1k5M38oknBomsbJk/MsW0VEOCzYXxefV7XB0kqaChx8+ZCpp4aPgltK9xKvqS68Hgvq2mg9L0RJxVAw==.sig.ed25519"
 }
