@@ -1,20 +1,21 @@
 {
-  "previous": "%1sVYSgSb3D739aAwcrzRc2RpvR31ow80ylErCShpcLM=.sha256",
-  "sequence": 8174,
+  "previous": "%Ltu1KB2vBSGGRqGINmDgal93wtjsy2+iXPfgQm7jjiw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545358629937,
+  "sequence": 8175,
+  "timestamp": 1545358760818,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%o0qcVQY4aSRBW3JhPqAWn0i4euT4Pw0NxJtNypwjJWM=.sha256",
-    "vote": {
-      "link": "%6O8hKAOhB+WynQq7uzMX2Q+iEJCIH85x9r7eWn1pr/0=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%6O8hKAOhB+WynQq7uzMX2Q+iEJCIH85x9r7eWn1pr/0=.sha256"
+    "branch": "%6O8hKAOhB+WynQq7uzMX2Q+iEJCIH85x9r7eWn1pr/0=.sha256",
+    "channel": "newbie",
+    "text": "Thanks [@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519), that's infinitely more helpful than just following pubs. I appreciate you fixing that for me. ❤",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
     ]
   },
-  "signature": "/3KHOsJ1k5M38oknBomsbJk/MsW0VEOCzYXxefV7XB0kqaChx8+ZCpp4aPgltK9xKvqS68Hgvq2mg9L0RJxVAw==.sig.ed25519"
+  "signature": "yHX66VqMG9fbZuIHs4DbiOst1NzpIrqyNKG8Eoam0Qir+UCOqguP+peDvnKFZJ27FwQfjnQkRa2VHtU5YqH2BQ==.sig.ed25519"
 }
