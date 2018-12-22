@@ -1,24 +1,20 @@
 {
-  "previous": "%UlDoGaGou4kJWlrkj0tgJzc9pZQoq+UEZYL5G8b8a8c=.sha256",
+  "previous": "%Py31+2sathAJWgplZnvbV+KPJY4k9qz2+dTXibMyFZ8=.sha256",
+  "sequence": 8192,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8191,
-  "timestamp": 1545457936471,
+  "timestamp": 1545457963016,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
-    "branch": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
-    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519) \n\nThis is really great! I'm working on something very similar [here](%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256) that I think follows what you've described. It's only got Scuttlebutt (and some rigging for Dat), but I think we're talking about something similar.\n\nInterestingly enough, I'm planning to follow a structure similar to your first link, like `<scheme>://<host>/<URI>`, so your Scuttlebutt and Dat links would open at:\n\n- http://localhost/'ssb:message:sha256:jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=\n- http://localhost/dat://about.gozala.io/posts/Native%20talk.html.\n\nOnly the Scuttlebutt link works right now, and the problem I'm most interested in is how to choose which renderer to use. Is it critical to make it pluggable, or is it good enough to just built a multiclient? If it's pluggable, you'd be able to use plugins by referencing their URI on Dat or Scuttlebutt. 🤯",
-    "mentions": [
-      {
-        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
-        "name": "gozala"
-      },
-      {
-        "link": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
-        "name": "here"
-      }
+    "vote": {
+      "link": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Py31+2sathAJWgplZnvbV+KPJY4k9qz2+dTXibMyFZ8=.sha256"
     ]
   },
-  "signature": "3lTd7J4eb736eKiPtpTBnRhYQI3PEplXHTWbx+e0rcFZxvJ7hbmHYtjQnAn0teGCEsVchtLTCQe3QC8BtC/tBA==.sig.ed25519"
+  "signature": "jxIfKv36D7VRLvK/+imDeYt9625upHHHArR0GyWbVCXlkSGoDv6KWUjN/2s7udOz77oUFlsaDvmKm6GGaGCUDw==.sig.ed25519"
 }
