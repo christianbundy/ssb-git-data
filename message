@@ -1,20 +1,24 @@
 {
-  "previous": "%tI4PWqc1DF/8qmhxTDO2FvCfBWmbruB018nxWaUjZOI=.sha256",
-  "sequence": 8190,
+  "previous": "%UlDoGaGou4kJWlrkj0tgJzc9pZQoq+UEZYL5G8b8a8c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545456966702,
+  "sequence": 8191,
+  "timestamp": 1545457936471,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%sporTgLZmn3wqp65vneVYU8mZE6jUDyAZLUgieLsT+w=.sha256",
-    "vote": {
-      "link": "%Vrc95zKsgFmsNJaRIkYuY3/Dw9IsbWNW9nWsY61TxEw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%Vrc95zKsgFmsNJaRIkYuY3/Dw9IsbWNW9nWsY61TxEw=.sha256"
+    "type": "post",
+    "root": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
+    "branch": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
+    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519) \n\nThis is really great! I'm working on something very similar [here](%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256) that I think follows what you've described. It's only got Scuttlebutt (and some rigging for Dat), but I think we're talking about something similar.\n\nInterestingly enough, I'm planning to follow a structure similar to your first link, like `<scheme>://<host>/<URI>`, so your Scuttlebutt and Dat links would open at:\n\n- http://localhost/'ssb:message:sha256:jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=\n- http://localhost/dat://about.gozala.io/posts/Native%20talk.html.\n\nOnly the Scuttlebutt link works right now, and the problem I'm most interested in is how to choose which renderer to use. Is it critical to make it pluggable, or is it good enough to just built a multiclient? If it's pluggable, you'd be able to use plugins by referencing their URI on Dat or Scuttlebutt. 🤯",
+    "mentions": [
+      {
+        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
+        "name": "gozala"
+      },
+      {
+        "link": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
+        "name": "here"
+      }
     ]
   },
-  "signature": "vRgHRvd55j+jqE2onYRbWs2tN64aOevKWm90hxjAicdv+dvcNzltZjTG2Fi6kBA++3E8OelCJIHLGc3rY9T3CA==.sig.ed25519"
+  "signature": "3lTd7J4eb736eKiPtpTBnRhYQI3PEplXHTWbx+e0rcFZxvJ7hbmHYtjQnAn0teGCEsVchtLTCQe3QC8BtC/tBA==.sig.ed25519"
 }
