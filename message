@@ -1,46 +1,20 @@
 {
-  "previous": "%QRO9pAVRgq2DRVv2FTLoKUi3PBaOAUqnlItzqpLcaPo=.sha256",
-  "sequence": 8184,
+  "previous": "%z7Jqoo1riCA138H0ulQ9mf6ZoSiCFGf6ehS+o5K/9Ao=.sha256",
+  "sequence": 8185,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545452307042,
+  "timestamp": 1545452388159,
   "hash": "sha256",
   "content": {
-    "type": "git-update",
-    "repo": "%qDZyY87oNa5FVr35kd1iC7LmGCbVb0y0zP955b6ufJM=.sha256",
-    "refsBranch": [],
-    "repoBranch": [
-      "%QRO9pAVRgq2DRVv2FTLoKUi3PBaOAUqnlItzqpLcaPo=.sha256"
-    ],
-    "packs": [
-      {
-        "link": "&ejdzGfaW5XOlC5ePGt1lw+2bNX2I7ZlPlO91Yejj4Zk=.sha256",
-        "size": 2114
-      }
-    ],
-    "indexes": [
-      {
-        "link": "&DGLiKC3JbMhGvK5iLjqzug5bou7eGK2GUkKXJjpaWiE=.sha256",
-        "size": 1156
-      }
-    ],
-    "refs": {
-      "refs/heads/master": "677e37127469666c0e6886517231d8ca73ecce93"
+    "type": "vote",
+    "root": "%/IjGTzNNnHVtJr7Momb3np+yWFYp7hJbnXWUcTcCAkA=.sha256",
+    "vote": {
+      "link": "%/IjGTzNNnHVtJr7Momb3np+yWFYp7hJbnXWUcTcCAkA=.sha256",
+      "value": 1,
+      "expression": "heart"
     },
-    "num_objects": 3,
-    "commits": [
-      {
-        "parents": [
-          "fb932c97bcc7a584225467ad4363ba28545b470f"
-        ],
-        "title": "Copy and paste the mutated message into the readme",
-        "sha1": "677e37127469666c0e6886517231d8ca73ecce93"
-      }
-    ],
-    "tags": [],
-    "object_ids": [
-      "621c4a3ac3b0dea5393eedbf75410d5dc959d5f2",
-      "4cf4736e69344393173a3f07c2829b3e52e3b645"
+    "branch": [
+      "%tcutUwcKT0qtQdfmg6obSz7IiBaezwLdWOzKFo5ClTY=.sha256"
     ]
   },
-  "signature": "P2C+9vHmhgTqBm0oFQoi0Ld9FWZa7071nD52eISSzEn1JsqGmz9x7YKV1b7uSMw18kvrgQNU3hScAY/7G/YjDw==.sig.ed25519"
+  "signature": "OAKOvNypYdkawbvBZS9HHsf1tYbWwwCnI1CHErUl3B2kntwxg8KulmWi0PYmXzYm60/VFwnhzevAZykiqE7tDg==.sig.ed25519"
 }
