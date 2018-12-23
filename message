@@ -1,23 +1,20 @@
 {
-  "previous": "%aUD7vJ/GVDWcXg6Q+6JG2WYWhHyOEJe65liuQD3REig=.sha256",
+  "previous": "%xbvShjK6KSJUCUy3gkq9ImN0Mow6lnQgsJQbi9PQK1o=.sha256",
+  "sequence": 8198,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8197,
-  "timestamp": 1545545092555,
+  "timestamp": 1545582908175,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%8qyJ1ywzjoi8ENkCNFRSTqC0Td8VX0nC5sZ3EHfyFcM=.sha256",
+    "type": "vote",
+    "root": "%mD01gqmS2jeoCA96pohEXnTXXSRl23jWxrr8Uzg98PM=.sha256",
+    "vote": {
+      "link": "%U06V0XQAPGHw2fxVBEpc1auuOwaVfPqcD8y5ixoZMHM=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%2c8698EbrnsY6xEsu/YDraLsIAA4vSK4XHmfWuLgnp4=.sha256",
-      "%LjGm7DIeFT9DamMwk3P56ZejuMxwN6CPEV3nCD6nkF0=.sha256"
-    ],
-    "text": "[@PDV](@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519)\n\n> Blocking should be *possible* but *hard*, used almost never \n\nCould you meet the burden of proof here? It sounds like you believe that others have an obligation to host your content, and I'm confused at why or how you believe this.\n\nSetting the number of default hops to `n` has the same effect as blocking people above `n` degrees of separation. Do you also take offense to people setting the number of hops that they're interested in hosting? I don't think that you can maintain any sort of consistency here without falling into \"I have the right to be hosted by everyone\".",
-    "mentions": [
-      {
-        "link": "@ZOe07kqAYeyLoZA0cHDGFHSiElDtHFgS3GzA2z0CkI8=.ed25519",
-        "name": "PDV"
-      }
+      "%lmI7HeWTjWcImsHM3I/WwVEOwugwJtGR76D9vPvtRnQ=.sha256"
     ]
   },
-  "signature": "wmvVddlZvPxra+DjoK/JEcD3uCH3ogpZTlS/c7eav4MHbU8Vwg+tE12eHmQqiFGsmd6QcCbcb+4jztWdt7U7Bg==.sig.ed25519"
+  "signature": "1AtogZWIT29FaGEDwOBx9f4QtC12eL53bahQlDbZy0uRnGU8hP+FheqRHy1nXCVRExHAFk/7lLqOuOyXfgL4BA==.sig.ed25519"
 }
