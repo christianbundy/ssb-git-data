@@ -1,21 +1,20 @@
 {
-  "previous": "%rND40ogoUeNEH+IENsBppGYr/rlgKm4aGoNKHSSjur8=.sha256",
+  "previous": "%iK+lgc/tZpMna8g/KIliiCTD7RWgNBPkLxo2dDmvjd8=.sha256",
+  "sequence": 8200,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8199,
-  "timestamp": 1545583636796,
+  "timestamp": 1545585396166,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%LCrm0yE9hbF3WGZzfg9L988Pn+BOyZRedyWAyxiOoJw=.sha256",
-    "branch": "%LCrm0yE9hbF3WGZzfg9L988Pn+BOyZRedyWAyxiOoJw=.sha256",
-    "channel": "scuttlebot",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nI've struggled with this as well. I think `host` has been superseded by `connections.incoming.net[].external`, which I think was changed because we may want to do different types of connections per hostname.\n\n```json\n{\n \"connections\": {\n    \"incoming\": {\n      \"net\": [\n        {\n          \"port\": 8008,\n          \"scope\": \"public\",\n          \"transform\": \"shs\",\n          \"external\": \"example.com\"\n        }\n      ]\n    }\n  }\n}\n```\n",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
+    "type": "vote",
+    "root": "%DB41Ae0c2G1uRxqMGa3BsqbbWevl0PEufLp/w2I/Cg4=.sha256",
+    "vote": {
+      "link": "%DB41Ae0c2G1uRxqMGa3BsqbbWevl0PEufLp/w2I/Cg4=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%9Yl22HZORA+ACiwW14m/GoizROKZ8u5l0wTRpRzd3oQ=.sha256"
     ]
   },
-  "signature": "B0OIE/nvZxa3tQSYjjhMyxUqE0EhI+JPi22K2o9xlSsd+QjtsxibzJ3Jckq2c50u5nZ77CSkOC/GCPqaK7seAQ==.sig.ed25519"
+  "signature": "rT4uNPOFKWh1PiMS9Lyj9v0yq6W2ZUn/PfcumV6OP/c4mI5BRmrU1Asd69gtrwd9zl8WMIpU35j9fXi1jAJ5AQ==.sig.ed25519"
 }
