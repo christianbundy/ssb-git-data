@@ -1,20 +1,21 @@
 {
-  "previous": "%xbvShjK6KSJUCUy3gkq9ImN0Mow6lnQgsJQbi9PQK1o=.sha256",
-  "sequence": 8198,
+  "previous": "%rND40ogoUeNEH+IENsBppGYr/rlgKm4aGoNKHSSjur8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1545582908175,
+  "sequence": 8199,
+  "timestamp": 1545583636796,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%mD01gqmS2jeoCA96pohEXnTXXSRl23jWxrr8Uzg98PM=.sha256",
-    "vote": {
-      "link": "%U06V0XQAPGHw2fxVBEpc1auuOwaVfPqcD8y5ixoZMHM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%lmI7HeWTjWcImsHM3I/WwVEOwugwJtGR76D9vPvtRnQ=.sha256"
+    "type": "post",
+    "root": "%LCrm0yE9hbF3WGZzfg9L988Pn+BOyZRedyWAyxiOoJw=.sha256",
+    "branch": "%LCrm0yE9hbF3WGZzfg9L988Pn+BOyZRedyWAyxiOoJw=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nI've struggled with this as well. I think `host` has been superseded by `connections.incoming.net[].external`, which I think was changed because we may want to do different types of connections per hostname.\n\n```json\n{\n \"connections\": {\n    \"incoming\": {\n      \"net\": [\n        {\n          \"port\": 8008,\n          \"scope\": \"public\",\n          \"transform\": \"shs\",\n          \"external\": \"example.com\"\n        }\n      ]\n    }\n  }\n}\n```\n",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
     ]
   },
-  "signature": "1AtogZWIT29FaGEDwOBx9f4QtC12eL53bahQlDbZy0uRnGU8hP+FheqRHy1nXCVRExHAFk/7lLqOuOyXfgL4BA==.sig.ed25519"
+  "signature": "B0OIE/nvZxa3tQSYjjhMyxUqE0EhI+JPi22K2o9xlSsd+QjtsxibzJ3Jckq2c50u5nZ77CSkOC/GCPqaK7seAQ==.sig.ed25519"
 }
