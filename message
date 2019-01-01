@@ -1,21 +1,20 @@
 {
-  "previous": "%dI+mm1AdnKU3wThNZRtuc94P8ImS4kyYR0CR3Z+HW9E=.sha256",
+  "previous": "%XBCb1cJRkppvHTjf5UOh4QdtwgtHfSv0sDNEdOEGymQ=.sha256",
+  "sequence": 8260,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8259,
-  "timestamp": 1546319630513,
+  "timestamp": 1546319725814,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@The Pope](@MgfH9vec+krDML96ES9WAH18tDWbsrCtu8kdUcEbY8o=.ed25519) \n\nRegarding %PJR+epCwI3lSVoNTUO6scKyXQrU6PC76GlMIJ2py2A0=.sha256, currently this is the only way to do it:\n\n```md\n![video:baseball bat](&T66wx66/YXCgTvxBfJbS48ZRM3+T/8Rc0nYwGIiEYNI=.sha256)\n```",
-    "mentions": [
-      {
-        "link": "@MgfH9vec+krDML96ES9WAH18tDWbsrCtu8kdUcEbY8o=.ed25519",
-        "name": "The Pope"
-      },
-      {
-        "link": "%PJR+epCwI3lSVoNTUO6scKyXQrU6PC76GlMIJ2py2A0=.sha256"
-      }
+    "type": "vote",
+    "root": "%qPAZZkhgKUzlNDAEDicBvJ9Hb3IbIzH+d7reo03TQ2k=.sha256",
+    "vote": {
+      "link": "%EB7pG94zeqxYdGIQ7OhBtyquTMaa2/t52xgwdnaVYao=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%EB7pG94zeqxYdGIQ7OhBtyquTMaa2/t52xgwdnaVYao=.sha256"
     ]
   },
-  "signature": "vuIegT6ld2gfZxSlWqvrXf0c8kGIRppDYG12D+V2QVdMFuboo/ermkhnlUXSRcs98SqeLEvLoC5k8xw2/DccDg==.sig.ed25519"
+  "signature": "D6loIVl8Skhf9EQHWlkcQ9Wj9NUjjGHOVWcHALGHJglwtyqO55C9/uP/x9mLBt99GO5dubAOn8jNsIdIJxjhDg==.sig.ed25519"
 }
