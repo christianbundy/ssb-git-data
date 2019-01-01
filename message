@@ -1,20 +1,27 @@
 {
-  "previous": "%D5Ur/EPYkWx8RQiNQBaacfplGkM8KHTExvZkSYtepG0=.sha256",
-  "sequence": 8235,
+  "previous": "%PgUxek8nF2/XFRyoJ5LuhCVWixrgiWQMNuDVKmc9K3I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546305441158,
+  "sequence": 8236,
+  "timestamp": 1546305696882,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%PiDlVoinrBDHZg5N5SbU6F7iPLQOvZYyFzgVrNHRa84=.sha256",
-    "vote": {
-      "link": "%PiDlVoinrBDHZg5N5SbU6F7iPLQOvZYyFzgVrNHRa84=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%PiDlVoinrBDHZg5N5SbU6F7iPLQOvZYyFzgVrNHRa84=.sha256"
+    "branch": "%PiDlVoinrBDHZg5N5SbU6F7iPLQOvZYyFzgVrNHRa84=.sha256",
+    "channel": "new-people",
+    "text": "[@astrofolk](@z2LNJFBMCVkble21IkC8xC/bXZoNBzAcOcoIQ+z5UzU=.ed25519) \n\nThanks! I hate it 😱\n\nBut really though, as much as this particular animation creeps me out, it's really neat how you can break the third wall by letting subjects violate the holy whitespace. \n\n![video:baseball bat](&T66wx66/YXCgTvxBfJbS48ZRM3+T/8Rc0nYwGIiEYNI=.sha256) ",
+    "mentions": [
+      {
+        "link": "@z2LNJFBMCVkble21IkC8xC/bXZoNBzAcOcoIQ+z5UzU=.ed25519",
+        "name": "astrofolk"
+      },
+      {
+        "link": "&T66wx66/YXCgTvxBfJbS48ZRM3+T/8Rc0nYwGIiEYNI=.sha256",
+        "name": "video:baseball bat",
+        "type": "video/mp4",
+        "size": 705998
+      }
     ]
   },
-  "signature": "KTpksYRxdJlbLsrxDVrsPXA6f63ojj+vdJKq7A+rI1H9yY2Y2uTiEu9k7jo7Y8Q2OSfynhO3ZDh1L/dcJqKFCw==.sig.ed25519"
+  "signature": "MAyFWUNb4jdiGZImylHtHGtDJMuM8pByGmG/D3/n0155nNXqKGz+1rfA2ofgDW00hifqj4jMWIIDujX4wZPWBA==.sig.ed25519"
 }
