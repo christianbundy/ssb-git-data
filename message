@@ -1,20 +1,26 @@
 {
-  "previous": "%XBCb1cJRkppvHTjf5UOh4QdtwgtHfSv0sDNEdOEGymQ=.sha256",
-  "sequence": 8260,
+  "previous": "%0qZe6qdygSu5pHM1Q61m3WHhagUbyyTSeePDjo68ndw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546319725814,
+  "sequence": 8261,
+  "timestamp": 1546320353878,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%qPAZZkhgKUzlNDAEDicBvJ9Hb3IbIzH+d7reo03TQ2k=.sha256",
-    "vote": {
-      "link": "%EB7pG94zeqxYdGIQ7OhBtyquTMaa2/t52xgwdnaVYao=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%EB7pG94zeqxYdGIQ7OhBtyquTMaa2/t52xgwdnaVYao=.sha256"
+    "type": "post",
+    "text": "# Perspective and \"view as\"\n\nBack when I was super into Twitter I remember coming across an app that let you see the stream from the perspective of other people. It was fun to type in usernames of my closest friends and see how Twitter looked from their perspective. I don't think I have the energy to do this right now, but it seems like it could make an interesting addition to #patchcore.\n\n#somebodyshould #view-as #perspective",
+    "mentions": [
+      {
+        "link": "#patchcore"
+      },
+      {
+        "link": "#somebodyshould"
+      },
+      {
+        "link": "#view-as"
+      },
+      {
+        "link": "#perspective"
+      }
     ]
   },
-  "signature": "D6loIVl8Skhf9EQHWlkcQ9Wj9NUjjGHOVWcHALGHJglwtyqO55C9/uP/x9mLBt99GO5dubAOn8jNsIdIJxjhDg==.sig.ed25519"
+  "signature": "zzckYXqaity/3sr2Rch3D6ycj/nw0zYCvWVLJ4Y7bkQPbuIO2U3viGj4cuBpuoVf0dUYNMQ9P4813homW0BjDA==.sig.ed25519"
 }
