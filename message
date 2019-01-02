@@ -1,21 +1,20 @@
 {
-  "previous": "%bjoT7lg7ZUmKP0+SxZfCnq0JUfa8wg6pMZ2CXkFPIAM=.sha256",
+  "previous": "%gP7ImiuOVF4iAMgRZlaLgO1Fx3HAaDXhaoz+k8eMj28=.sha256",
+  "sequence": 8276,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8275,
-  "timestamp": 1546452203185,
+  "timestamp": 1546456114651,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uvn0aBaOwSZT2MzyOMB3wJrueDS7IhOySPhxUy1/0c0=.sha256",
-    "branch": "%uvn0aBaOwSZT2MzyOMB3wJrueDS7IhOySPhxUy1/0c0=.sha256",
-    "channel": "new-people",
-    "text": "Hey [@Tyron](@Kxf/w22R8PrF4aW+W6/AkV5nSfI5EQPztzxT8UBhpyY=.ed25519), welcome!",
-    "mentions": [
-      {
-        "link": "@Kxf/w22R8PrF4aW+W6/AkV5nSfI5EQPztzxT8UBhpyY=.ed25519",
-        "name": "Tyron"
-      }
+    "type": "vote",
+    "root": "%LbWruV6x4ZzziFoAqZIj7G7JQ4z8pMxY9tJPUR61hyw=.sha256",
+    "vote": {
+      "link": "%E7f2Y+sj8OfqGwXPlfXnV96mjub6uyhaGNItwQfqHKg=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%E7f2Y+sj8OfqGwXPlfXnV96mjub6uyhaGNItwQfqHKg=.sha256"
     ]
   },
-  "signature": "Ldlf6cb96flBA+1gIiY5YKbBnM3VKm+D4vDhzk76k8zUUTBX7s11eNY83Zvvu9SxkExCgDr20TSEVGiTAudNAw==.sig.ed25519"
+  "signature": "7lawwgbMsB0CV0RSgAek+lreiXnihj7OtG/rZoPzWc+yLm+ZBhFX+vZh8QZcJCryIGhsWlDJq9iDmckg+GjcAg==.sig.ed25519"
 }
