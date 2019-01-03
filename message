@@ -1,23 +1,23 @@
 {
-  "previous": "%TZvMiH/ptp1WvhbsslUf+L7fdoqOGUv0DbfrV/6UnpM=.sha256",
+  "previous": "%La986XaQWzo1qGICU0ePOCMFPYVfiA1DYJthB17/Tw0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8285,
-  "timestamp": 1546536443680,
+  "sequence": 8286,
+  "timestamp": 1546539394513,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%4AdQZ9C90/X8GTv0XcF7E2nglu7EFY1hWiMg14esL9c=.sha256",
-    "branch": "%4AdQZ9C90/X8GTv0XcF7E2nglu7EFY1hWiMg14esL9c=.sha256",
-    "text": "[@Enso](@TeZGeI69EOY9arJMAXF2dIM0atJAtdoH8zlAI8jk24c=.ed25519) \n\nDoes #pdx count?",
+    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
+    "branch": [
+      "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
+      "%s77wlTTdJq37MB/9q5+EXqG24RYXjEcHIrxuvAhZvzE=.sha256"
+    ],
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI think you'd have to keep the URI in the path, since subdomains parts have a maximum size of 63 characters, but you could totally do something like:\n\nhttp://patchlite.localhost/ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\n\nIs that what you mean?",
     "mentions": [
       {
-        "link": "@TeZGeI69EOY9arJMAXF2dIM0atJAtdoH8zlAI8jk24c=.ed25519",
-        "name": "Enso"
-      },
-      {
-        "link": "#pdx"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
       }
     ]
   },
-  "signature": "uAtWbQ5X1uP0lYdauC+3javpHz9fgub7ssJ3ETZYamONtHxqMSuJxV2XH04vGa4EnNi7ur90F/Sa3WtSv1nFDg==.sig.ed25519"
+  "signature": "S6ZYZxTujQAFMeWbBowhuW4bKFPDHHYxLtVO+SVs2UYPDec57NAD1fFHLrU7HS4VRQtcYCWWrqnvvGHWUq25BA==.sig.ed25519"
 }
