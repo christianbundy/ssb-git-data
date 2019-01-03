@@ -1,20 +1,23 @@
 {
-  "previous": "%nWY8DIMilcaUj63oLv2kShYnP+j/Ql9q7wCZA34AyuU=.sha256",
-  "sequence": 8284,
+  "previous": "%TZvMiH/ptp1WvhbsslUf+L7fdoqOGUv0DbfrV/6UnpM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546536352810,
+  "sequence": 8285,
+  "timestamp": 1546536443680,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%pSqPjEmzthQJTltmdfiqf1ZwNzLSTtbCdJIDj9d7A8o=.sha256",
-    "vote": {
-      "link": "%pSqPjEmzthQJTltmdfiqf1ZwNzLSTtbCdJIDj9d7A8o=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%h2j+YHAW213vfXo0B5pUZ83Jb+KQH5mZJt45rgAiYnA=.sha256"
+    "type": "post",
+    "root": "%4AdQZ9C90/X8GTv0XcF7E2nglu7EFY1hWiMg14esL9c=.sha256",
+    "branch": "%4AdQZ9C90/X8GTv0XcF7E2nglu7EFY1hWiMg14esL9c=.sha256",
+    "text": "[@Enso](@TeZGeI69EOY9arJMAXF2dIM0atJAtdoH8zlAI8jk24c=.ed25519) \n\nDoes #pdx count?",
+    "mentions": [
+      {
+        "link": "@TeZGeI69EOY9arJMAXF2dIM0atJAtdoH8zlAI8jk24c=.ed25519",
+        "name": "Enso"
+      },
+      {
+        "link": "#pdx"
+      }
     ]
   },
-  "signature": "6t4E5CrlRjSZGZbOmbrQwgXftID6cTT6Nx8coGzyNnIK6kbabAqDdqSRdlpGoxMYlblyIxAIMICLjsVkXNR/DQ==.sig.ed25519"
+  "signature": "uAtWbQ5X1uP0lYdauC+3javpHz9fgub7ssJ3ETZYamONtHxqMSuJxV2XH04vGa4EnNi7ur90F/Sa3WtSv1nFDg==.sig.ed25519"
 }
