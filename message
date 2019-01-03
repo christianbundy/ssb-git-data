@@ -1,20 +1,22 @@
 {
-  "previous": "%GZCfTGHRTzGvh3V8ksjC5uWeEyvg0v2IUaDy0HNgwSQ=.sha256",
-  "sequence": 8300,
+  "previous": "%TdBdpVrnEH0VkL6IaOA890/WqUHNGDy6aiMcY951aow=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546549709004,
+  "sequence": 8301,
+  "timestamp": 1546551129635,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%2MZJ5FiDVSxpASd8Y85X6RHKX9DHVYp1os+DHbQ09Ec=.sha256",
-    "vote": {
-      "link": "%Dfo5VDyZBEoEvqqQV52/JFtqbJxr7tdtArZ5H47o9oI=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%Dfo5VDyZBEoEvqqQV52/JFtqbJxr7tdtArZ5H47o9oI=.sha256"
+    "type": "post",
+    "text": "# Hierarchies, slashes, and colons\n\nThis is lame and nerdy but I've always wondered why some systems use `/` to denote hierarchy whereas others use `:`. For example, filesystems usually use slashes like `/home/user/over/the/rainbow`, whereas URNs look like `urn:isbn:0451450523`.\n\nIs there a meaningful difference between the two?\n\nThe [SSB URI scheme](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256) uses colons, like a URN, but I recently noticed [a post on message types](%efu2OHVS38D3BSD4iZATM5sg/jdxBPPNTzc65wjqbkE=.sha256) that used slashes in the example (which look like [media types](https://en.wikipedia.org/wiki/Media_type#Common_examples)).\n\nI've tried searching the web for this but haven't been able to figure out why or how these symbols are used. To make things more complex, programming languages often use both `.` and `:`:\n\n```js\na.b.c = { d: { e: { f: {} } } }\n```\n\n🤯",
+    "mentions": [
+      {
+        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+        "name": "SSB URI scheme"
+      },
+      {
+        "link": "%efu2OHVS38D3BSD4iZATM5sg/jdxBPPNTzc65wjqbkE=.sha256",
+        "name": "a post on message types"
+      }
     ]
   },
-  "signature": "AThsaBtJigZN/3Bv/oIt113sat7nK/IZthrEI4OzDoifm6ETUDOAcPswkcrq4nbI3qVkb2msGmbQ/Hj9h1aiAg==.sig.ed25519"
+  "signature": "yjLcsNZ+4+WVhnjDBVz5LNSNQBhAgq+AznnChk4cYJSWgyEt8RK/5aEWr4bvV3poSIhmMLOBJ6PbIqrUuB2OAQ==.sig.ed25519"
 }
