@@ -1,20 +1,17 @@
 {
-  "previous": "%ZgrFY1dl+NcxLA+0ga3NU1cSCIX6E5zjLh6ktU0hF3g=.sha256",
-  "sequence": 8319,
+  "previous": "%xUll5XCInuPK0pRL2ujKD/U3wuhAsKYkIOEhJ3hkJ/s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546622855871,
+  "sequence": 8320,
+  "timestamp": 1546636891491,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%rNyrUWgK5nEAY0RJ6yS5SP8AjdqwKcEWUv44PDwuJhY=.sha256",
-    "vote": {
-      "link": "%rNyrUWgK5nEAY0RJ6yS5SP8AjdqwKcEWUv44PDwuJhY=.sha256",
-      "value": 0,
-      "expression": "broken_heart"
-    },
-    "branch": [
-      "%ZgrFY1dl+NcxLA+0ga3NU1cSCIX6E5zjLh6ktU0hF3g=.sha256"
+    "type": "post",
+    "text": "> # `crev` -  Code REView tool that we desperately need\n>\n>You're ultimately responsible for vetting your dependencies.\n>\n>But in a world of NPM/PIP/Cargo/RubyGems - how do you do that? Can\n>you keep up with ever-changing ecosystem?\n>\n>`crev` is an actual *code review* system as opposed to typicaly practiced *code-change review* system.\n>\n>`crev` is scalable, distributed and social. Users publish and circulate results of their reviews: potentially warning about problems, malicious code, or just encuraging high quality by peer review.\n>\n>`crev` allows building a personal web of trust in people and code.\n>\n>`crev` [is a][f] [tool][e] [we][d] [desperately][c] [need][b] [yesterday][a]. It protects against compromised dev accounts, intentional malicious code, typesquating, compromised package registries, or just plain poor quality.\n>\n> [a]: https://www.csoonline.com/article/3214624/security/malicious-code-in-the-node-js-npm-registry-shakes-open-source-trust-model.html\n>\n> [b]: https://thenewstack.io/npm-attackers-sneak-a-backdoor-into-node-js-deployments-through-dependencies/\n>\n> [c]: https://news.ycombinator.com/item?id=17513709\n>\n> [c]: https://www.theregister.co.uk/2018/11/26/npm_repo_bitcoin_stealer/\n>\n> [d]: https://www.zdnet.com/article/twelve-malicious-python-libraries-found-and-removed-from-pypi/\n>\n> [e]: https://www.itnews.com.au/news/rubygems-in-recovery-mode-after-site-hack-330819\n>\n> [f]: https://users.rust-lang.org/t/security-advisory-for-crates-io-2017-09-19/12960\n\nAnyone have thoughts on this? I found it here: https://github.com/dpc/crev/\n\n#software ",
+    "mentions": [
+      {
+        "link": "#software"
+      }
     ]
   },
-  "signature": "fBOTGT6SAmCQCuCLJVpowUCQh8+aH1J6ZFd4Vr6TNAC3NKtJR/iwlujfph87s+mVbG72JOuN142iwDNrkt2CDg==.sig.ed25519"
+  "signature": "VSyhpQd2PJbEVGLzY7VK78NcG9ixtCb6sR3tbDp3VUqKmLB/Njz/ZAv2J8COpYgSAH27xDQivXBKtSHtfJunCA==.sig.ed25519"
 }
