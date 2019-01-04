@@ -1,20 +1,28 @@
 {
-  "previous": "%mxhSggZh+8rT96EP03/LznDYRH1yXnyFDf8OivpAkmE=.sha256",
-  "sequence": 8316,
+  "previous": "%kuw7pt9+tZTarM/Ikq4aQMxBKqLMdDoOINcmhpM1JoQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546572868602,
+  "sequence": 8317,
+  "timestamp": 1546621735319,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%53mWFuBsdxxjYYVdqrZhZ17okMW2xJzChUicmsdn4WQ=.sha256",
-    "vote": {
-      "link": "%53mWFuBsdxxjYYVdqrZhZ17okMW2xJzChUicmsdn4WQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%gZZLuinPHR0adgrjxTCIcyT7hlk9KSyZv6u1e9o3tbU=.sha256"
+    "type": "post",
+    "text": "# Prototyping Dat content\n\nI was [nerd sniped yesterday](%mxhSggZh+8rT96EP03/LznDYRH1yXnyFDf8OivpAkmE=.sha256) and ended up playing around with using Dat identifiers as Scuttlebutt messages. It's pretty hacky, but I finally got something working and I wanted to share.\n\n![dat.png](&YRUbs22yDBK5p5hjA/gNghprkP8WcKGx+aQPrYgu45I=.sha256)\n\nI'm lazy and just used some HTML page I found, but if we used JSON instead then this would be rendered as an actual message. The branch is available [here](https://gitlab.com/christianbundy/ssb-blob-content/merge_requests/1/diffs) is anyone wants to check it out, but it's basically the same thing as #blob-content with Dat identifiers instead of blob hashes. Maybe we could build something cool on top of this?\n\nAssorted thoughts:\n\n- Could an entire Scuttlebutt feed be expressed under a Dat key?\n- I should probably make sure that this respects the 5 MB blob limit.\n- Should Dat updates be handled? How?\n- Does Dat work without an internet connection? Or does it need a DHT announce server?\n- Am I causing trouble by calling `dat.archive.readFile()` multiple times before the file is finished?",
+    "channel": "offchain-content",
+    "mentions": [
+      {
+        "link": "%mxhSggZh+8rT96EP03/LznDYRH1yXnyFDf8OivpAkmE=.sha256",
+        "name": "nerd sniped yesterday"
+      },
+      {
+        "link": "&YRUbs22yDBK5p5hjA/gNghprkP8WcKGx+aQPrYgu45I=.sha256",
+        "name": "dat.png",
+        "type": "image/png",
+        "size": 443455
+      },
+      {
+        "link": "#blob-content"
+      }
     ]
   },
-  "signature": "/WiZ5jTLTLWuagtFSqWW0KLjvfKJ4tzwNXnN7KqkDUjoVPx/QAc6XknVm5Jya/bY8jdv58kN2SjHv4C4IPXADQ==.sig.ed25519"
+  "signature": "LMKpxCYaHL7SOx8+/ahInMItjYFYn5n5P74MPFBoETk7Hf0L6dFHH6tWeYLHzyYjewlB5Ga54Nu3Uqg0Ju6bBg==.sig.ed25519"
 }
