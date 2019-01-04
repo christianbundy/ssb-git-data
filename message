@@ -1,12 +1,24 @@
 {
-  "previous": "%hsiAq6j9ewCanpX7HQvooe4IAJp88+rjndDl7HAMcc0=.sha256",
-  "sequence": 8314,
+  "previous": "%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546565018401,
+  "sequence": 8315,
+  "timestamp": 1546565071650,
   "hash": "sha256",
   "content": {
-    "type": "dat",
-    "dat": "dat://43dfc9f23fdded8cc7c01c71c0702a0529130af0258e7fb30bf5a0a3f73d69b3/index.html"
+    "type": "post",
+    "root": "%uSnus1XCAQQ4XUprq7IkHwY7xli3phr+tVYHJz5NIdY=.sha256",
+    "branch": "%TYMFZbdaHmBu81onkcBnE/iCQmtw9f9CP0ihaNbitX0=.sha256",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nYeah! I've thought about this a few times before, but apparently I just needed another poke. I've implemented [a basic prototype](https://gitlab.com/christianbundy/ssb-blob-content/merge_requests/1) on top of ssb-blob-content. It's slow and janky and downloads any Dat identifier from a message that looks like this:\n\n```json\n{ \n  \"type\": \"dat\",\n  \"dat\": \"dat://43dfc9f23fdded8cc7c01c71c0702a0529130af0258e7fb30bf5a0a3f73d69b3/index.html\"\n}\n```\n\nI've posted a message like that [here](%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256), but I haven't tested it in any real clients.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256",
+        "name": "here"
+      }
+    ]
   },
-  "signature": "40rWK6KD4ncWxEhCMFZoRvDDTh7Nyd4loDyidQUDA8ZUnYE/BhRhBc9AwB7fUR9hXKtHcoh10TY95TAtUqJhAg==.sig.ed25519"
+  "signature": "fgG0Tf0vFXG0b8lRyAVqWI1zPUYobiGOSV/dCcl4VIY5AkVMtOHFke0e2alU/sIxFHwhuyHYHHZ3OKZ3IhOBAA==.sig.ed25519"
 }
