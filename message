@@ -1,24 +1,20 @@
 {
-  "previous": "%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256",
+  "previous": "%mxhSggZh+8rT96EP03/LznDYRH1yXnyFDf8OivpAkmE=.sha256",
+  "sequence": 8316,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8315,
-  "timestamp": 1546565071650,
+  "timestamp": 1546572868602,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uSnus1XCAQQ4XUprq7IkHwY7xli3phr+tVYHJz5NIdY=.sha256",
-    "branch": "%TYMFZbdaHmBu81onkcBnE/iCQmtw9f9CP0ihaNbitX0=.sha256",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nYeah! I've thought about this a few times before, but apparently I just needed another poke. I've implemented [a basic prototype](https://gitlab.com/christianbundy/ssb-blob-content/merge_requests/1) on top of ssb-blob-content. It's slow and janky and downloads any Dat identifier from a message that looks like this:\n\n```json\n{ \n  \"type\": \"dat\",\n  \"dat\": \"dat://43dfc9f23fdded8cc7c01c71c0702a0529130af0258e7fb30bf5a0a3f73d69b3/index.html\"\n}\n```\n\nI've posted a message like that [here](%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256), but I haven't tested it in any real clients.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      },
-      {
-        "link": "%cZXfESpjBJg63UrN2rNv7aiAQLTKCrIc5BONml6cWN0=.sha256",
-        "name": "here"
-      }
+    "type": "vote",
+    "root": "%53mWFuBsdxxjYYVdqrZhZ17okMW2xJzChUicmsdn4WQ=.sha256",
+    "vote": {
+      "link": "%53mWFuBsdxxjYYVdqrZhZ17okMW2xJzChUicmsdn4WQ=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%gZZLuinPHR0adgrjxTCIcyT7hlk9KSyZv6u1e9o3tbU=.sha256"
     ]
   },
-  "signature": "fgG0Tf0vFXG0b8lRyAVqWI1zPUYobiGOSV/dCcl4VIY5AkVMtOHFke0e2alU/sIxFHwhuyHYHHZ3OKZ3IhOBAA==.sig.ed25519"
+  "signature": "/WiZ5jTLTLWuagtFSqWW0KLjvfKJ4tzwNXnN7KqkDUjoVPx/QAc6XknVm5Jya/bY8jdv58kN2SjHv4C4IPXADQ==.sig.ed25519"
 }
