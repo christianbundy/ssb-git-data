@@ -1,21 +1,21 @@
 {
-  "previous": "%qyPtDeorxJN0+dXnDscYst9IcrpRc+zDE6oZqdfYKs8=.sha256",
+  "previous": "%wUluKjPW0kkj0GI2I6COBW3ioz4Xm3bavLWixKe+TYE=.sha256",
+  "sequence": 8347,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8346,
-  "timestamp": 1546747749456,
+  "timestamp": 1546747788948,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%m+HwtM9HlZws6alQoq6ybQio7jSu5a8V/pdnP+ASIvE=.sha256",
-    "branch": "%gDVTo9WcFAzcj8+n+cb/RLUFdo9PLDc91v8325GUPgk=.sha256",
-    "channel": "ssb-client",
-    "text": "For what it's worth, I tried to test out whether pubs respect blocks [a couple of months ago](%RXg2MtDESuwcM1RXSHsQqactn+ruC08Eik4hwEAoXMI=.sha256) but was having trouble learning how to use [ssb-ebt](https://github.com/ssbc/ssb-ebt). Maybe someone else will have more luck?",
-    "mentions": [
-      {
-        "link": "%RXg2MtDESuwcM1RXSHsQqactn+ruC08Eik4hwEAoXMI=.sha256",
-        "name": "a couple of months ago"
-      }
+    "type": "vote",
+    "root": "%Q8N2cidJ5eSNRe907sZTYi3QWdPuQbTlL8etL6Cmc0E=.sha256",
+    "vote": {
+      "link": "%7asAlME9dPSIRdhRhYHu1JlMBduhGw+E2RfNeI6QuEY=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%7asAlME9dPSIRdhRhYHu1JlMBduhGw+E2RfNeI6QuEY=.sha256",
+      "%ZXdmvO4A6Qu9DMwABtP+IEbm1x4fQVCzi5LSl2Rho+Y=.sha256"
     ]
   },
-  "signature": "dao5gNP+pumhXT4lroYwjREVI+749bIrWeXmHSwNGK1bC2YKh0bnZx/LGBrajBRFW5O3TGxK89POWmtA7n/wDw==.sig.ed25519"
+  "signature": "aRj/BYPuBHqkmFUk8RrgEoOUcEqqJyYil6RlB+ZGI4r4F2pJhVwo+Rf3udZbyjXMA2Y9MIaI/1EPGxhl99UVBA==.sig.ed25519"
 }
