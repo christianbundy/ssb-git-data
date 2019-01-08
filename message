@@ -1,27 +1,21 @@
 {
-  "previous": "%TW1gOllR49G8NylnO9lQBBPKpP9021k2RBEENP8/yUc=.sha256",
+  "previous": "%i2aMcnF92yLqHgkYDo4EM6Ttvt9ZzVWpPhDdjnN8Ias=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8406,
-  "timestamp": 1546974114173,
+  "sequence": 8407,
+  "timestamp": 1546974186866,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%k5nffNB4dLxk0Hw16KPdWaXp/3J/+0qt5AKZDt6n2jI=.sha256",
-    "branch": [
-      "%2U9AEcNT+OFLjlX9kSQrg3NI3TbbjETxWAlkpID1IFE=.sha256",
-      "%Bn8SaLVHF/J8o807BVgJxVuUfpnx2GTbVpX4UfMSPDI=.sha256"
-    ],
-    "text": "[@Daan (the same one)](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\n> But I don't know how to do this and I don't think it's a priority in any of the clients' roadmaps.\n\nYeah, unfortunately I think the reasonably-performant implementations require lots of changes to the underlying client code, and my unreasonably slow implementations is... unreasonably slow (though it doesn't require any client changes). My intuition is that this problem requires [mutability in flumedb](%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256) so we don't have to handle it as middleware.",
+    "root": "%Z3rrYrcZVq5XYryQIold7xV4cD1z4+3mGISTd35S6qs=.sha256",
+    "branch": "%Z3rrYrcZVq5XYryQIold7xV4cD1z4+3mGISTd35S6qs=.sha256",
+    "channel": "patchwork-dev",
+    "text": "[@Matt McKegg](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nReally looking forward to this release! I don't know where you get the energy to hack through all of these issues, but I appreciate the sweat you're putting into Patchwork. ❤",
     "mentions": [
       {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "Daan (the same one)"
-      },
-      {
-        "link": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
-        "name": "mutability in flumedb"
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "Matt McKegg"
       }
     ]
   },
-  "signature": "xxNR4V3LDuDBmF/CzH4r9HcKzpqxEr1WXngVtK+/PYaM5X7kIxvATxptwzXkb3v/gLIY2V/Yy05GOj9+YipODQ==.sig.ed25519"
+  "signature": "TrjaSk1C26OvHQFkhe2cvJ4M7KBxJWNl+KbzmIxZQqzS89/LC9KHtlxhCdoMKZrdCr5Obef8TdxbLmxIfB7UDg==.sig.ed25519"
 }
