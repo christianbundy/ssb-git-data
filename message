@@ -1,20 +1,28 @@
 {
-  "previous": "%AGwtnlg41MtFGH+EhElrpVoe0a+m+eVPB/HLoDD7EWY=.sha256",
+  "previous": "%S3BcAqZvBCuEWEmliB2qLPNGDBOUI/4eT4y2AmZ+aEc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8394,
-  "timestamp": 1546968046776,
+  "sequence": 8395,
+  "timestamp": 1546972158507,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%rhLMe1MW43bfiidYC9sMPW0a54AUjIshKNLRhhWpKKI=.sha256",
-    "branch": "%6o5P16eK+gmdv487O6n2rRiqklQGdaK2cbd8ZRvXzZo=.sha256",
-    "text": "[@Connor](@8BGQMzr+5NHOIAvWg5BUOxbgciHppT3Sv1jOFVUE3Bw=.ed25519) \n\nYeah, I've never actually owned anything that's made of duck canvas but I've read about it a bit. One downside to only buying/owning a few things is the lack of variety/novelty with different materials. I'll need to look into that, thanks!",
+    "root": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
+    "branch": "%3lhAD57P8nexrA0fa6AAQ7ga+TT+NuCNVxJNSFrWv0k=.sha256",
+    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519) \n\nI think that an optional daemon is a great idea, so having a \"standard\" host for the distributed web would be great. I think [@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) brought up a great point with subdomains [here](%giXvqMe+Dc7e0M7aETypkBPwtcRK4YFlWq/rFZwsPeQ=.sha256), and I think it makes a lot of sense to namespace the different renderers.\n\nI'm using \"renderer\" above to describe the application that formats output. For example, one IPFS renderer might output the literal file as it exists, whereas another renderer might add syntax highlighting or add CSS when it detects that it's being viewed in a browser. Or, to use Scuttlebutt as an example, one renderer might show you the raw JSON of a message whereas another might format it as HTML and show likes/replies/etc.\n\nMaybe there's a better word that describes the potential output mechanisms? Or, maybe it would be best to just *always* output the raw data and build apps on top of it. For example, you could have an HTML file hosted at some IPFS address that references images that are hosted at another IPFS URI on the same (local)host.",
     "mentions": [
       {
-        "link": "@8BGQMzr+5NHOIAvWg5BUOxbgciHppT3Sv1jOFVUE3Bw=.ed25519",
-        "name": "Connor"
+        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
+        "name": "gozala"
+      },
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "%giXvqMe+Dc7e0M7aETypkBPwtcRK4YFlWq/rFZwsPeQ=.sha256",
+        "name": "here"
       }
     ]
   },
-  "signature": "U11FLzADcPlgICwzfFtAr8mZi3ZswzLJ2+YjsCiIYIY2cQWaDVUkoxA1cVfxF1zRURkNxTFYDc1NFnTsinj3CQ==.sig.ed25519"
+  "signature": "uChOUJHCvzecJibuZ/ycGN1vK/4fYXrrTKDHTi/0pRauKnuyLCF2Fhp00dJHke7zsJcB9Kx6NGt7n50L6DnZAw==.sig.ed25519"
 }
