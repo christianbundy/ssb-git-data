@@ -1,20 +1,24 @@
 {
-  "previous": "%eDoRV9YSyrKVNlK54itkcJIy9QpzGz6OZqCxXTeVWlk=.sha256",
-  "sequence": 8403,
+  "previous": "%nKLzzsdkLZLO7zkk0jMlG5d6bInv0tWAB617dycnQR0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546973604680,
+  "sequence": 8404,
+  "timestamp": 1546973833886,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%7slff2hzI/YW712wPZifbw5XXOGIxD911El66ZNSJsk=.sha256",
-    "vote": {
-      "link": "%7slff2hzI/YW712wPZifbw5XXOGIxD911El66ZNSJsk=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%eDoRV9YSyrKVNlK54itkcJIy9QpzGz6OZqCxXTeVWlk=.sha256"
+    "branch": "%Di2FWxUsgTlc2+6H2c9HTt74f0JjW/DE8HkIPSOrFdY=.sha256",
+    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI love all three. I've been playing around with the idea of a welcome[bot] that says hello to new folks on the network and does what you've described in the first post, but I haven't had the time to implement it. The benefit of doing this in a bot rather than a client is that you can target new users on *all* clients, but you'd only be able to see people in the network. Also, secondary accounts would probably get harrassed by either approach. I'm not sure how to best handle that, since I'm not going to post in (#)new-people with [@📱 Christian Bundy](@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519).\n\nRegarding the byte count, how do you think we could handle blobs? For example, if Alice uploads 1 MB blob and it's later referenced by Bob, how does that show up on their profile? I'd imagine we might need \"and 1 MB shared with other friends\" or something as well.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      },
+      {
+        "link": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+        "name": "📱 Christian Bundy"
+      }
     ]
   },
-  "signature": "p/5vD9UtmTzjFXNrfKp39MnFBVaWeZE57+1NuMOdON7N39C7cAnMVOyL5FFUWC5YHWv6BtrLGJVDWhjJgw0WBA==.sig.ed25519"
+  "signature": "ZUoo23Rc+jOSui01wxAvDEoPx26MzfRfSDy8UW8/GkHn+BfUslupRcvvYHx0NfW6kH6Cp3nRYJYT39CzWGdDDg==.sig.ed25519"
 }
