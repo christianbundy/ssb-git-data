@@ -1,14 +1,20 @@
 {
-  "previous": "%1kfHoeuBCPfnordjimimfNNbDeWOldHJUY7byBbOfLU=.sha256",
+  "previous": "%iJxohCn4mh6v+C1DXlT7hcJBFd+1AxOc2K5b+3jO3d0=.sha256",
+  "sequence": 8429,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8428,
-  "timestamp": 1546981442916,
+  "timestamp": 1546981474629,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3IOki9gecZ0aPLA/Fi+1QH0m4hi8gwuyUrszuX9UHhk=.sha256",
-    "branch": "%3IOki9gecZ0aPLA/Fi+1QH0m4hi8gwuyUrszuX9UHhk=.sha256",
-    "text": "Bummer, it looks like ManyVerse isn't syncing with my laptop anymore even though they're on the same wifi network. I wish it was easier to debug Scuttlebutt's local wifi peering, it's only worked sporadically for me and I never know what causes it to work/break."
+    "type": "vote",
+    "root": "%vTV7PzgA06JittwMoLDzmFg7c7QXWS06i1W3xJ56cJQ=.sha256",
+    "vote": {
+      "link": "%vTV7PzgA06JittwMoLDzmFg7c7QXWS06i1W3xJ56cJQ=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%vTV7PzgA06JittwMoLDzmFg7c7QXWS06i1W3xJ56cJQ=.sha256"
+    ]
   },
-  "signature": "GMKHt7XDN7KKHFy9/4iigPJGskXgOT/4FOxEYXW2PWfCRr/vIKbaZbCBxqwDCJD5teOmoq7h49MPRHAiQwkhDA==.sig.ed25519"
+  "signature": "cMSWQ0WmKHjJ1GDIAboX8AZybdU7eU8P1ruAHsKzqhPGApZNF25Fwhy2klKv1vfaYVUopSfc3BytHPziDJ0BDw==.sig.ed25519"
 }
