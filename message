@@ -1,20 +1,21 @@
 {
-  "previous": "%vNa6Y+/U93fx2oQOeL+rMLxov5z8MOSkvD4JZiPqxCo=.sha256",
+  "previous": "%34GVJJ53l07YMrJMoqBSjSbDhLU8a0pW2Popo91Ib6A=.sha256",
+  "sequence": 8383,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8382,
-  "timestamp": 1546967667420,
+  "timestamp": 1546967679582,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%zR8r7xEzZgTaqcmlL5kb4SaM3160a13/ESfUOfjGIfk=.sha256",
-    "branch": "%PaB5UIxnwBjyE9Q4wwJX/Mzgd7NC0vpSK5A76cB5nAY=.sha256",
-    "text": "[@crypt](@3/5QwIQvjiTEntCyMReGtRNkdHtAUmqvhQ2mIkFQSYo=.ed25519) \n\nOne cool bit is that we don't even need everyone to support Dat, we'd just need one client that can speak both the [non-existent] Dat protocol as well as the already-existing [Scuttlebutt protocol](https://ssbc.github.io/scuttlebutt-protocol-guide/). We'd just need a way to create/read messages from a Dat arhive, right?",
-    "mentions": [
-      {
-        "link": "@3/5QwIQvjiTEntCyMReGtRNkdHtAUmqvhQ2mIkFQSYo=.ed25519",
-        "name": "crypt"
-      }
+    "type": "vote",
+    "root": "%FHOJi7nlBIN24rwYf/ZNscX3Smm/Le+CowK6pziBjdA=.sha256",
+    "vote": {
+      "link": "%C1S6lWVhE/bujT2sKri02KT0pjIU4MIDeIBj5LwHnNU=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%CtKM44nKcx6mlbweFx+4nRd5toWWDQeLOUxsNMlGVbw=.sha256",
+      "%LlFwxxhIGUz28jy4Dz1y86FUeei6EYWY6Z7qCDhTuX8=.sha256"
     ]
   },
-  "signature": "HyeW23rwGjffgvCS5va3Hteeuw3TPSnkGsmGgdmdCCuZ+hJlqKBSCuqUeHiw3/YBgMPgtgQgGQvZbhszNoSHBw==.sig.ed25519"
+  "signature": "XIlwdkqWFo9QwAfR87OC1fxlYDV0v3yp2C3O5cEje1mx4mv/Sksxh/DlAAKAWtVejz+7c9zyH9aMlp7L26oRAg==.sig.ed25519"
 }
