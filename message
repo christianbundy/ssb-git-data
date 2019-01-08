@@ -1,21 +1,20 @@
 {
-  "previous": "%juJlCSndTQ9yWYaSsybk+NYP2aDYChYbFBW+0rtmsf4=.sha256",
+  "previous": "%Z4qxcdCxLVkjfydR4Q0MTPhZ1Fc8sjMR6Ya9pKQcIig=.sha256",
+  "sequence": 8391,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8390,
-  "timestamp": 1546967916582,
+  "timestamp": 1546967922204,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%rNyrUWgK5nEAY0RJ6yS5SP8AjdqwKcEWUv44PDwuJhY=.sha256",
-    "branch": "%7KasvA+JO3ggkAW1I4vkvxcc1R80dXO3e2zy1weqQvU=.sha256",
-    "channel": "offchain-content",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nMaybe you know -- should my Dat archive be one file per message, or one huge JSON file with all of my messages? The granularity of one-file-per-message seems nice, but I wonder whether there's an overhead for each file.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
+    "type": "vote",
+    "root": "%vSvE9PKEY6Xnt+/eySEtbQncSbppuq3Z5KinFI7qSN0=.sha256",
+    "vote": {
+      "link": "%Uv9px2ak87hvUdsEE4+N3hgoNjNRi2t9QuMaxWHrFMk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Uv9px2ak87hvUdsEE4+N3hgoNjNRi2t9QuMaxWHrFMk=.sha256"
     ]
   },
-  "signature": "K5GobfSKNwQha+Z4QFABkVT9uqhTv6M6v/+BxG+6o2QEisnAjkt+LFD7/8HE59WwAHDL+rSlnBIwcj73GALqBQ==.sig.ed25519"
+  "signature": "L3DcXThiAXMeB9QeWd5Mv0vkf4qlwavQMwNeNVa6+G+eRw3mWKEOBBm3jfD5WleV1faacVdusV/ppmpz3GASCQ==.sig.ed25519"
 }
