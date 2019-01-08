@@ -1,25 +1,20 @@
 {
-  "previous": "%3IOki9gecZ0aPLA/Fi+1QH0m4hi8gwuyUrszuX9UHhk=.sha256",
+  "previous": "%dA/0+UFuURtJ8cC1vfkdLzPAjYOuiMBu8qsWsHm/7fM=.sha256",
+  "sequence": 8427,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8426,
-  "timestamp": 1546976089221,
+  "timestamp": 1546976139855,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Forking %Sh7pX0sblnhrDhL94uLWf9FM8jqfSle0SCtK86YL+40=.sha256\n\n[@Ladislas En Voyage](@+n1N3+4RO09OmG4gIQUheoSyuqFltAZFfRXcJYRAqwM=.ed25519) \n\nQuotes are done [like this](%8L8hDbtoE7lrxGuSDWeWGpU8fmhWA2VvBPmy8XFCHgc=.sha256) and links are done like this:\n\n```md\nHere is an [example](https://example.com)!\n```\n\n> Here is an [example](https://example.com)!",
-    "mentions": [
-      {
-        "link": "%Sh7pX0sblnhrDhL94uLWf9FM8jqfSle0SCtK86YL+40=.sha256"
-      },
-      {
-        "link": "@+n1N3+4RO09OmG4gIQUheoSyuqFltAZFfRXcJYRAqwM=.ed25519",
-        "name": "Ladislas En Voyage"
-      },
-      {
-        "link": "%8L8hDbtoE7lrxGuSDWeWGpU8fmhWA2VvBPmy8XFCHgc=.sha256",
-        "name": "like this"
-      }
+    "type": "vote",
+    "root": "%CAHXekknvTFQjrEVz9bQNUvafbUkMvJXIQX+wuOi7cU=.sha256",
+    "vote": {
+      "link": "%YGRtfvLnMeICuRrLCBPXwi+vvA4fdSU4QKGPe6vBByI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%sohp5HOThJpLzghVZ2xqD57SEvYGG+kzOPKutArMwkc=.sha256"
     ]
   },
-  "signature": "+uTFzkEVGwFGSVVXSNFXw3wqccGe1PzQlI4veTgVSTIHCaaNku7F0xZ9UjVe+drGbB/w0+rb/3e8lKHPAfx5CA==.sig.ed25519"
+  "signature": "QsA59/9YYBrjMIna4xg846h1/vsOGPzvpeQs0K5DnNWtELGuCIYYuwWs1OqdBTGNNBK58XROidO91bhOQh2CAQ==.sig.ed25519"
 }
