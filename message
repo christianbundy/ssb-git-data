@@ -1,12 +1,23 @@
 {
-  "previous": "%hVRmvB0QKwE5IPlD2llOVWpR/QcVyAzx1FCVMbateys=.sha256",
+  "previous": "%J2tWz/K/a+uw8Q7qFgSpU9rreqY5Yz+nhLgK+FLvLkI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8377,
-  "timestamp": 1546966911813,
+  "sequence": 8378,
+  "timestamp": 1546967246199,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# back-explanation\n\nMy internet is down at home, which apparently means I have no access to a dictionary (apparently my computer uses dict.org), which is inconvenient because I'm trying to think of a word. The closest that I can come up with is \"back-explanation\", but I'm looking for a word that explains a pattern after the fact, even though it wasn't the original intention.\n\nFor example, Alice randomly chooses what to eat for lunch each day, but for three weeks in a row Bob notices that she eats pizza on Friday. The back-explanantion might be \"Alice celebrates a recurring holiday called Pizza Friday\", which is completely untrue but still explains the phenomena.\n\nI think a backronym would be a type of back-explanation, but I'm sure there *must* be a better word for it... right?"
+    "root": "%ocSFowjsPhGkj1CYhYEB6j91Gjg2i4psxLZdpSLSccs=.sha256",
+    "branch": [
+      "%1427+OtUWIDQmDTB9B3qtBKBz+E208tjnnz/484xYaM=.sha256",
+      "%qUl3PNGB57Wm0evmF4R4jvMFvtmDGwBsMex8ORNp/OY=.sha256"
+    ],
+    "text": "I suppose a better question to ask: is it possible to create a [back-explanation](%J2tWz/K/a+uw8Q7qFgSpU9rreqY5Yz+nhLgK+FLvLkI=.sha256) to explain most schemes and provide a rule of thumb for the future?\n\nFor example, maybe slashes refer to dynamic values whereas colons are always static? The value of  `/over/the/rainbow` is dynamic and expected to change, but `sha1:ef2004b8783a49886b109ecf8943bff8b24ae7b7` will always refer to the exact same value. In this model, periods would be analogous to slashes, since they refer to an address rather than the value itself. Would that make sense for most cases, or is aiming for sanity completely futile?",
+    "mentions": [
+      {
+        "link": "%J2tWz/K/a+uw8Q7qFgSpU9rreqY5Yz+nhLgK+FLvLkI=.sha256",
+        "name": "back-explanation"
+      }
+    ]
   },
-  "signature": "+TGwBnrmkd+6FzyHGkf3iAvwR59+Rr9Bl7h07IFsTirvQJkviM8zseqtDzTvEpNnA/ZYlDhiNEuWqMAWkNU0Aw==.sig.ed25519"
+  "signature": "SFictspzxq59pb6Vl4x7p1kzPfxxR5EYZpNK/L1eDgGCXG3Vl71eN4d6SRxylvPqM5BxWu+fxGk3y/QpfP6cCA==.sig.ed25519"
 }
