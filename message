@@ -1,28 +1,20 @@
 {
-  "previous": "%S3BcAqZvBCuEWEmliB2qLPNGDBOUI/4eT4y2AmZ+aEc=.sha256",
+  "previous": "%I61qsnOAaDhwmsvcpczdqe0MAZdHrJ0RAWo/4fISzRc=.sha256",
+  "sequence": 8396,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8395,
-  "timestamp": 1546972158507,
+  "timestamp": 1546972236643,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jjhmAx4LsDlKSXuLOPMqCByqPutNqCgsCZEFM3v97Os=.sha256",
-    "branch": "%3lhAD57P8nexrA0fa6AAQ7ga+TT+NuCNVxJNSFrWv0k=.sha256",
-    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519) \n\nI think that an optional daemon is a great idea, so having a \"standard\" host for the distributed web would be great. I think [@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) brought up a great point with subdomains [here](%giXvqMe+Dc7e0M7aETypkBPwtcRK4YFlWq/rFZwsPeQ=.sha256), and I think it makes a lot of sense to namespace the different renderers.\n\nI'm using \"renderer\" above to describe the application that formats output. For example, one IPFS renderer might output the literal file as it exists, whereas another renderer might add syntax highlighting or add CSS when it detects that it's being viewed in a browser. Or, to use Scuttlebutt as an example, one renderer might show you the raw JSON of a message whereas another might format it as HTML and show likes/replies/etc.\n\nMaybe there's a better word that describes the potential output mechanisms? Or, maybe it would be best to just *always* output the raw data and build apps on top of it. For example, you could have an HTML file hosted at some IPFS address that references images that are hosted at another IPFS URI on the same (local)host.",
-    "mentions": [
-      {
-        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
-        "name": "gozala"
-      },
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      },
-      {
-        "link": "%giXvqMe+Dc7e0M7aETypkBPwtcRK4YFlWq/rFZwsPeQ=.sha256",
-        "name": "here"
-      }
+    "type": "vote",
+    "root": "%VTYNafDRv7VkjtzIEbA4L5X0X2qefqNPCMr3of12rck=.sha256",
+    "vote": {
+      "link": "%VTYNafDRv7VkjtzIEbA4L5X0X2qefqNPCMr3of12rck=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%harY8wQkMwliRpvwyrsowEkEo+6UvSHVmTAjmskFq+E=.sha256"
     ]
   },
-  "signature": "uChOUJHCvzecJibuZ/ycGN1vK/4fYXrrTKDHTi/0pRauKnuyLCF2Fhp00dJHke7zsJcB9Kx6NGt7n50L6DnZAw==.sig.ed25519"
+  "signature": "qMCIKvo9Bad39Mh3rTBkyw9prjV+OiNssxzG7gqEy5OyJ+WpzE5eHkQzF4+0MVXBoKqGx6HXNwCN4jsaqj9tCg==.sig.ed25519"
 }
