@@ -1,14 +1,24 @@
 {
-  "previous": "%zyp8d6pE3D6+UldXk6JgNFkwJxNbwawGbG0+skLg6i0=.sha256",
+  "previous": "%ZS+kx+cPFi3eCIjpIEm7nD/7S5QSwQnawM/MC1W9lL0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8399,
-  "timestamp": 1546973309142,
+  "sequence": 8400,
+  "timestamp": 1546973343519,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
-    "branch": "%FuY8pH27RS4hYlorRFdiGWjMuV7Y6dqJHK5vzrgX6cc=.sha256",
-    "text": "My excitement about this has been rekindled a bit, and I'm thinking that this could be a fun pattern to build an SSB message viewer:\n\n1. Create a small HTML app, which follows the following instructions:\n    1. Read the URI path and ensure that it starts with `ssb:message`.\n    2. Make an AJAX request to http://localhost/ssb:message:sha1:[...]\n    3. Format the message with some super simple CSS. \n2. Add the app as a Scuttlebutt blob.\n3. Configure the localhost to always serve the above blob when someone requests http://patchlite.localhost/\n4. Open http://patchlite.localhost/ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\n5. You should (?!) see your message renderered\n\nThe downside to this approach is that it doesn't give us access to any flumedb views, but I suppose if they each had a URI then they'd be web-accessible, right? I should probably hack a bit on the above before daydreaming about the possible future(s)."
+    "root": "%5RzWeG+phpPoPWAZZfi/q2fj4MaZxEtcylesBuskIk0=.sha256",
+    "branch": [
+      "%07kEsxDQnOmNd3w7ztqfJlk9MmaUfKJirJq/qdXzT+M=.sha256",
+      "%9+Po5+ml7tMmAzjBu90f7Sbi+3VO1GNuoWTVOnWEg/Q=.sha256"
+    ],
+    "channel": "dark-crystal",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n\nReally looking forward to checking this out once I'm back online! I wish I could save this to a \"check when online\" list...",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "x2OOH0AfkjW2XAtpnyRrJ/Jp+3N+1dJlWot0d8bFCbpnd+1sWTRLLOZKgNfAK5Y4vHRzwd00lLnUzhUats4YDA==.sig.ed25519"
+  "signature": "tGEqAqDqvRWA6bZ8OB6THaTpFcggBNwKoUVYpSWHCHkGTUKjwuWUZ0aV8Zp+gnHCf5h/gXDBnmHMExbfSc2nBA==.sig.ed25519"
 }
