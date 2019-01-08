@@ -1,20 +1,21 @@
 {
-  "previous": "%s1ReJhhQ0s/FVzKoTnMI847JdkKuiA0X8NFX+IK7//k=.sha256",
-  "sequence": 8389,
+  "previous": "%juJlCSndTQ9yWYaSsybk+NYP2aDYChYbFBW+0rtmsf4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1546967836014,
+  "sequence": 8390,
+  "timestamp": 1546967916582,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%rNyrUWgK5nEAY0RJ6yS5SP8AjdqwKcEWUv44PDwuJhY=.sha256",
-    "vote": {
-      "link": "%jXZJrnpyz06id4xBjtJTzJtmhdtahnesTEKVMVu13Pk=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%s1ReJhhQ0s/FVzKoTnMI847JdkKuiA0X8NFX+IK7//k=.sha256"
+    "branch": "%7KasvA+JO3ggkAW1I4vkvxcc1R80dXO3e2zy1weqQvU=.sha256",
+    "channel": "offchain-content",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nMaybe you know -- should my Dat archive be one file per message, or one huge JSON file with all of my messages? The granularity of one-file-per-message seems nice, but I wonder whether there's an overhead for each file.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
     ]
   },
-  "signature": "K6hasqNEmDqMppABFArcRsOuftw+OMT1UtwwkLJobXsuIOW9bpbqbdEX+3Um/faK2ltPu3fD/OSDcOfyRqMVCw==.sig.ed25519"
+  "signature": "K5GobfSKNwQha+Z4QFABkVT9uqhTv6M6v/+BxG+6o2QEisnAjkt+LFD7/8HE59WwAHDL+rSlnBIwcj73GALqBQ==.sig.ed25519"
 }
