@@ -1,20 +1,22 @@
 {
-  "previous": "%YQ4An8hbe3CRT9uhXDh7LY+WVdDL13kuiVpzPxPV32U=.sha256",
+  "previous": "%OwU/fPX/xMqlB+6E1/RqDK9Dtd2OzOUT46e1zriFtcI=.sha256",
+  "sequence": 8415,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8414,
-  "timestamp": 1546974654417,
+  "timestamp": 1546974708695,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%eJgsr+7HiihFNXgscje0OT5yWLWc76wjbggZ6HKPMwY=.sha256",
-    "branch": "%eJgsr+7HiihFNXgscje0OT5yWLWc76wjbggZ6HKPMwY=.sha256",
-    "text": "[@uids](@UIDs8oWKQBK8QTSAGV6SZiE80jwQlHTuEjhEaNRV8Zw=.ed25519) \n\nMy guess for tomorrow: 10101.",
-    "mentions": [
-      {
-        "link": "@UIDs8oWKQBK8QTSAGV6SZiE80jwQlHTuEjhEaNRV8Zw=.ed25519",
-        "name": "uids"
-      }
+    "type": "vote",
+    "root": "%L+p9oX41h+whTFsnH6PF8eoelBTrFmWQ26GLAR1NQtU=.sha256",
+    "vote": {
+      "link": "%L+p9oX41h+whTFsnH6PF8eoelBTrFmWQ26GLAR1NQtU=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%BQ2nR6QrgRPcs8mzklNliuDNSul9rdfCNqolaiSKT6s=.sha256",
+      "%KWxD5MvF6nzPofrwkCRGc8FKiSxmYJzP69wt0lWuj6Q=.sha256",
+      "%KyJDqmEen0pOM4qNPGj7OkpFKyTKISfpYgoBsL2LnYk=.sha256"
     ]
   },
-  "signature": "Nd1XRR8X7Pj9EcqFNffEzV/ZyP0X2LEmya+h6WL9tl+Ui2+OuQgXl9xPs23SUuML6bNxY9OhFTiNxaoqLY2xBg==.sig.ed25519"
+  "signature": "k7owazC+9yo70H9sP4RXDe/uIxORkmICoZzXwQiC2EbUiUkVLL1fTOyra3jmLjS6p93vAzTVv3m4xvFatC9wCA==.sig.ed25519"
 }
