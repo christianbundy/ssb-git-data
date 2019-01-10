@@ -1,23 +1,21 @@
 {
-  "previous": "%jB0WzTeRoyuKcXVgZVAoWbyupt2ZbeiPTXHFtfZ7Z3c=.sha256",
+  "previous": "%8fnvgls5yEtz8Uzoj7jMfDynPwW0KL1FTEHoQ0AtNzs=.sha256",
+  "sequence": 8484,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8483,
-  "timestamp": 1547142822343,
+  "timestamp": 1547143403363,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256",
+    "type": "vote",
+    "root": "%5x9AOdw7rk+YoIWg9AsXbXw2mT7nLk2SShLxIeXsEHY=.sha256",
+    "vote": {
+      "link": "%Md2C4h7qPpqQaHROIAlx/940R0PN2+PNTJSbFBs34rI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%pBdarpoG913Nb9HEw7XdBJd/pAvmzr1Fem1WOM65E7k=.sha256",
-      "%vwBPteVT545gIYrX9V9jdEhEdWaGYnKCsvYP25ofWzM=.sha256"
-    ],
-    "text": "Hey [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519), thanks for pinging me on this and bringing up this regression. It's a bummer that Markdown has suffered from fragmentation, but you and all make a great point that we should support the author's intention whenever possible.\n\nDo we have any sort of count for how many messages were written in Markdown versus GFM? For example, I've always been under the impression that our messages were written in Markdown, so that's what I've written. The [Daring Fireball spec](https://daringfireball.net/projects/markdown/syntax#p) is very specific about newlines, so I've followed that and ignored the message preview, but I understand that others have probably treated the message preview as canonical.\n\nI feel a bit down that my posts written in Markdown will be go back to being renderered in GFM, but I think it's best to cater to folks who have used the message preview as canon. My intuition is that anyone geeky enough to ignore the message preview and think \"that's a bug\" is probably technical enough to [eventually] edit their old posts to specify that they aren't GFM, and I may be the only one.\n\nI'm not completely clear which parts of this should be handled in ssb-markdown and which should be handled in the client, but I think the ideal forward could look something like:\n\n- Switch back to GitHub-flavored newlines for posts that don't specify a media type.\n- Agree on how to specify media types and variants (see [RFC 7764 identifiers](https://tools.ietf.org/html/rfc7764#section-3))\n- Add Markdown metadata when posting Markdown content (e.g. `{ type: 'text/markdown', variant: 'GFM' }`)\n- Support both GFM and CommonMark variants in ssb-markdown.\n\nCurrently we're only passing the message content to ssb-markdown, so the \"which Markdown renderer do I use\" would have to be handled by the client, which isn't easy or fun for anyone. I hate to say it, but at this point it seems like it would be simpler to just take user input as Markdown, render to HTML, and post *that* to the feed rather than assume that the clients can handle Markdown variants like GFM.\n\nAnother less-complex alternative would be to drop Markdown/CommonMark support and just use GFM across the board, but I'll admit that I'm not super excited to drop the standard in favor of GitHub's implementation. Anyway, what do you all think?",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
+      "%5whWc9j7oA3m2xm8RXPzOvROCGtl/VtSRxaZsqYzVnw=.sha256",
+      "%VU1jTfaaCPKbsDrA97f3yiD7FHTML8VH9W9teIhZHjs=.sha256"
     ]
   },
-  "signature": "OU9PNP8vk2Y94CyLlqMdV2wqFwfvQnBfgcafHcYX98rV2qB3aJDkwhUqryDXmNQIs9Xc0Owh/tl8a47Oixb9CQ==.sig.ed25519"
+  "signature": "l1umJFJ+lLG+N01M0Fc7iP3yIfwcK/C7CjgGEtBgH3ORR+3Xuvsf+Rqlb3XzbRw/8ox5uegmXqNOkv4DNEO4Dg==.sig.ed25519"
 }
