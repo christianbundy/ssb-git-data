@@ -1,9 +1,23 @@
 {
-  "previous": "%dm72RIrOMnkCAUlKlTSLj+GALtroyvAtFmyWMv7svLs=.sha256",
-  "sequence": 8482,
+  "previous": "%jB0WzTeRoyuKcXVgZVAoWbyupt2ZbeiPTXHFtfZ7Z3c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547073202310,
+  "sequence": 8483,
+  "timestamp": 1547142822343,
   "hash": "sha256",
-  "content": "BcE6ytsv/BSBFBM3Gs9thmUzVSy4I9iuhVvl9+cxkPFmfUUH8LAfsgSyvbE3GR42FnWR9BH7ugNS85IN7QSXrZEkRa5qjTTjKU1FKkaq+k8WMw2ILhU1FzBI2WgvLcUs9rQ8amzy4w2ZiW1ubaY9bs6Br3oP1gyAOtzMNg49lNVz1sBHhpaDVYD56Jc4Py42u+23WxFYzxd3J0VeSZDyHmKFMNYeA+WjAh++/P0PCao++JowGlQPEyMWLxkWqNun1HSYzkJJldsrS9DeHqFUsSLmOzn88Hq0cgG6BaHkNCkbLZBqPOSZiKiKa38WUKx+7RnvXEJKgqgQNpzffQBOoZsXXxQwqc/DVXXyiiZEaGQotj6fJtOLVKOkEKf1juegvSkT2IMO2jd99FHa2WCOI67OTvaUkM6gMRNzs6nCtl1/ue/TzdsVI4LX+7EQIN0u+H3AnIvSHXvK7TAoRUC3ahwTW8dr8a51QLtLnWgUkULL0dqh4ieOt1yOJ6LV8JOkUWr01jAJA1WUDhWE3z4SK38G7Vc6Czx/7Dw5rzyJul7cx55ng7ctGVbnbWFoSnigjkJTDhjVvN9ZvpeW5qRRDJLPY+PFzici2JgKZ+acvYc5crYjnPPB9VB8MEKkOfDhjLB2tCAUdT43NIMHRtq4/nMkpdgigXI3hHeO3hweZY+rxvfWDqQORjEY9HOmWtr/P3eTdEBIjCkVlMsImxnL2KJK/cQDFDPRHG11fe/+wQd/j4Q3cH+JOaM9R46G7gQKnIKcPmN6jGWP+On9y3Z2LKLTUISuXLAXNMpG.box",
-  "signature": "/VsmwQYbRrjbAwKRa/hdW3JAU4Exnb4F/mJY8mx+ej9p3xCUPzI7375s+Rr4dzonFvRg0CyFti9FEh007Xd6AQ==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256",
+    "branch": [
+      "%pBdarpoG913Nb9HEw7XdBJd/pAvmzr1Fem1WOM65E7k=.sha256",
+      "%vwBPteVT545gIYrX9V9jdEhEdWaGYnKCsvYP25ofWzM=.sha256"
+    ],
+    "text": "Hey [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519), thanks for pinging me on this and bringing up this regression. It's a bummer that Markdown has suffered from fragmentation, but you and all make a great point that we should support the author's intention whenever possible.\n\nDo we have any sort of count for how many messages were written in Markdown versus GFM? For example, I've always been under the impression that our messages were written in Markdown, so that's what I've written. The [Daring Fireball spec](https://daringfireball.net/projects/markdown/syntax#p) is very specific about newlines, so I've followed that and ignored the message preview, but I understand that others have probably treated the message preview as canonical.\n\nI feel a bit down that my posts written in Markdown will be go back to being renderered in GFM, but I think it's best to cater to folks who have used the message preview as canon. My intuition is that anyone geeky enough to ignore the message preview and think \"that's a bug\" is probably technical enough to [eventually] edit their old posts to specify that they aren't GFM, and I may be the only one.\n\nI'm not completely clear which parts of this should be handled in ssb-markdown and which should be handled in the client, but I think the ideal forward could look something like:\n\n- Switch back to GitHub-flavored newlines for posts that don't specify a media type.\n- Agree on how to specify media types and variants (see [RFC 7764 identifiers](https://tools.ietf.org/html/rfc7764#section-3))\n- Add Markdown metadata when posting Markdown content (e.g. `{ type: 'text/markdown', variant: 'GFM' }`)\n- Support both GFM and CommonMark variants in ssb-markdown.\n\nCurrently we're only passing the message content to ssb-markdown, so the \"which Markdown renderer do I use\" would have to be handled by the client, which isn't easy or fun for anyone. I hate to say it, but at this point it seems like it would be simpler to just take user input as Markdown, render to HTML, and post *that* to the feed rather than assume that the clients can handle Markdown variants like GFM.\n\nAnother less-complex alternative would be to drop Markdown/CommonMark support and just use GFM across the board, but I'll admit that I'm not super excited to drop the standard in favor of GitHub's implementation. Anyway, what do you all think?",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
+  },
+  "signature": "OU9PNP8vk2Y94CyLlqMdV2wqFwfvQnBfgcafHcYX98rV2qB3aJDkwhUqryDXmNQIs9Xc0Owh/tl8a47Oixb9CQ==.sig.ed25519"
 }
