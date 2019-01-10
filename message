@@ -1,18 +1,21 @@
 {
-  "previous": "%ycFToDYim46aOv25BTovJdwlJqwUp/W5q7YWTXMaefI=.sha256",
+  "previous": "%vVpANOMilsOiKzlX5a7ES2+CkOSRWEfCq1UoBJTVCg0=.sha256",
+  "sequence": 8487,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8486,
-  "timestamp": 1547145393355,
+  "timestamp": 1547145482647,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%5x9AOdw7rk+YoIWg9AsXbXw2mT7nLk2SShLxIeXsEHY=.sha256",
+    "vote": {
+      "link": "%vZwqyojBmvgpnyk56YUQvEKpbiAp9qlY/O/9kvhSRrM=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%VU1jTfaaCPKbsDrA97f3yiD7FHTML8VH9W9teIhZHjs=.sha256",
-      "%jXK/S59gtJ8n3OgbQiatMSKmzoAAI9eYTO2GHtN3Fqs=.sha256"
-    ],
-    "channel": "scuttle-fest",
-    "text": "I'm +1 on this. 👍\n\nI'm looking forward to making new friends at scuttle-camp, and I don't think there's anything wrong with attendees documenting the experience that they have. "
+      "%vVpANOMilsOiKzlX5a7ES2+CkOSRWEfCq1UoBJTVCg0=.sha256",
+      "%yV9Ay14oCQfKLg0mj8HmFkEPM0zY3g/RwBrvwTdYwOY=.sha256"
+    ]
   },
-  "signature": "bCtQYfD/j/qQ8qzwUs2jHEUzW7fbG2Odkhxv1Oj3XcSFLkegHOgMBroGjdlI3onka5b92dXOB6WWNLfnAiA+Cw==.sig.ed25519"
+  "signature": "pis6GpQqqtDH+/rn/BRDUfy9S2/mpXqCCSCSh3KBLXzZ276ywgt8Tgjg0CzchmYZg2CRqJIgDWgUpwfthlsbCw==.sig.ed25519"
 }
