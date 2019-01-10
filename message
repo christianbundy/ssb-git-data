@@ -1,20 +1,32 @@
 {
-  "previous": "%8Ll1XUvArEe0FphdRULLo9uLu4l14ro8dj2fhEd/Uow=.sha256",
-  "sequence": 8503,
+  "previous": "%9jJP/1Z9TNoOszWosmgFhv+Pao96X/0sDf3fNKPxC24=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547163699373,
+  "sequence": 8504,
+  "timestamp": 1547163857275,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%3IOki9gecZ0aPLA/Fi+1QH0m4hi8gwuyUrszuX9UHhk=.sha256",
-    "vote": {
-      "link": "%BVn7GL2s3OfXcYz0T4JnLbhe7MxpRWG9m02PTsPXYXc=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%BVn7GL2s3OfXcYz0T4JnLbhe7MxpRWG9m02PTsPXYXc=.sha256"
+    "branch": "%BVn7GL2s3OfXcYz0T4JnLbhe7MxpRWG9m02PTsPXYXc=.sha256",
+    "text": "[@Andre Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI'll try that! I booted up WireShark but I'm having trouble getting it started. I think I'm listening on a virtual interface, this will take a bit of doing but I'll get back to you on it.\n\n---\n\n[@az](@24Qj8pST0woTLo0zDqFDHZqIVPENnwiBeZ+3D3Sx0l8=.ed25519) \n\nI'm actually in need of some post-apocalyptic PDFs. Any you can recommend?\n\n---\n\n[@Tim Schumacher](@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519)\n\nYeah! I saw it recommended [here](%14m7wOn747qGqLhm/2pVmMPMC3YFv3am/8sKPHKu8+A=.sha256) and gave it a download, but haven't had a chance to really dive in. I'll let you know how it works for me.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "Andre Staltz"
+      },
+      {
+        "link": "@24Qj8pST0woTLo0zDqFDHZqIVPENnwiBeZ+3D3Sx0l8=.ed25519",
+        "name": "az"
+      },
+      {
+        "link": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
+        "name": "Tim Schumacher"
+      },
+      {
+        "link": "%14m7wOn747qGqLhm/2pVmMPMC3YFv3am/8sKPHKu8+A=.sha256",
+        "name": "here"
+      }
     ]
   },
-  "signature": "hZcQu7BafSrnNkvUt/ZiEaMKzSSq/8O5L4u1QfjsgcT4669N4St/nbQPzn94VLR4ROToMLWzDm0N+PcfXYGhBA==.sig.ed25519"
+  "signature": "QdrtSIpTh3V+HYXccTc3n54UMJnIesdr1ptnOBpm90xkBE1cZZyxcwvGEnSkxZMAhvElc8vivobPi98rUssADw==.sig.ed25519"
 }
