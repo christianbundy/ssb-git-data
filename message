@@ -1,20 +1,25 @@
 {
-  "previous": "%OOSE+OrlzJU3mvFjrLfBo/j4Z39CF1//WSkxa6P1d8g=.sha256",
-  "sequence": 8500,
+  "previous": "%KiXeshSyQwm9MaA4Ovq+UUB90SmlbIv0qIYNO6wD+mk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547162870062,
+  "sequence": 8501,
+  "timestamp": 1547163345530,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Ly6vfVsauitYPAe4WYjya2TJ+CwM1tlht964ODHPfPU=.sha256",
-    "vote": {
-      "link": "%Ly6vfVsauitYPAe4WYjya2TJ+CwM1tlht964ODHPfPU=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%CBTUH2m5k26qS7eD69Qlk8O9b1sRKF6kPBW1+HVRS6Y=.sha256",
     "branch": [
-      "%Ly6vfVsauitYPAe4WYjya2TJ+CwM1tlht964ODHPfPU=.sha256"
+      "%COzCdH2oZkbt2eP1rrpF4VnI4aZNHO0IKwv3RFgoqn4=.sha256",
+      "%RHaNPFNJYWJchnS/QE7D0GfINQSQlc3Fz6FCQi5r288=.sha256",
+      "%dtIn2OSPkEq7TRUUrh2icgLkkqx1HvkV1IMYTM6hvE4=.sha256"
+    ],
+    "channel": "ssbc",
+    "text": "[@André Staltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThank you for introducing me to Mermaid! I've always use Dot syntax with graphviz but this looks beautiful. I'm *so* looking forward to using this.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "André Staltz"
+      }
     ]
   },
-  "signature": "1uOVDA41sNSWBn4JI2sQ2Bjfvg39XCMkViMxtdPOetabW0WlcRYLrtZ7vjWKjj5B7ddw10Tb0WCHI+KB3VOdDA==.sig.ed25519"
+  "signature": "UTwDXuYuEtW+i/cpj6UGBAss9WzdYiMMm0z+4EC1yj7y4cFdQ6hPMTQsnn+/iHwod/iKy8ynBD+jPaHclrJ6Cg==.sig.ed25519"
 }
