@@ -1,30 +1,20 @@
 {
-  "previous": "%32F3b3VJxKhNjErwuujPh9gyy4FU1g21peAL41zk4H4=.sha256",
+  "previous": "%W0bOZZPrzsxfU98tXqLJ+dT7ACghuouZeReyiOQX0Ks=.sha256",
+  "sequence": 8517,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8516,
-  "timestamp": 1547230785242,
+  "timestamp": 1547230883242,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ZxOfmnjQCwMnCh0TUJBmfP3oZH8ahYYwEUbH2Zk1XC8=.sha256",
-    "branch": "%DyrK0HKAwJt1ZGFyJUQRlLeCvvDiE8jC+7jyXbznDfI=.sha256",
-    "text": "[@alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519) \n\nI used Patchbay's `/query` page (woo [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)!), which let me search for pubs that I'd joined. It looks like the pubs you've followed are:\n\n- @L+nPFTMUHWXuchOwuzT6Z8Ea8wD/Rtd7leVRxGaknVk=.ed25519\n- @uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519\n\nIt doesn't look like those pubs are super active with new users, so you may not have the same problem that I had.\n\n---\n\nIn case anyone finds it useful, my query was:\n\n```js\n{\n  query: [\n    {\n      $filter: {\n        value: {\n          author: '@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519',\n          content: { type: 'pub' }\n        }\n      },\n    },\n    {\n      $map: ['value', 'content', 'address', 'key']\n    }\n  ]\n}\n```",
-    "mentions": [
-      {
-        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
-        "name": "alanna"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@L+nPFTMUHWXuchOwuzT6Z8Ea8wD/Rtd7leVRxGaknVk=.ed25519"
-      },
-      {
-        "link": "@uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519"
-      }
+    "type": "vote",
+    "root": "%OOSE+OrlzJU3mvFjrLfBo/j4Z39CF1//WSkxa6P1d8g=.sha256",
+    "vote": {
+      "link": "%wnEU8C5OJoszUYP6YHuxNl9AtarpiKeH0nxvxC5jdX0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%wnEU8C5OJoszUYP6YHuxNl9AtarpiKeH0nxvxC5jdX0=.sha256"
     ]
   },
-  "signature": "rxHW8ZcCyz19z6YyipDchoIgpsya+9OOLZXuitnPB32bZK3NkJie46rJREIxes9tOfjX20nO5irrQQbGaSLgCg==.sig.ed25519"
+  "signature": "vQ+IVKsGPlpj13F41qShwUMV6SNzEgcl6Cl5odo+H1wOGgPHB8dPWogteCBMKjRSRCWGyVr55XyERxxMmWEUBg==.sig.ed25519"
 }
