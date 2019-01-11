@@ -1,18 +1,25 @@
 {
-  "previous": "%tdsmgcRxAg/CCwyrIntH/XXvpVwYLCQBzKspfpMeEKc=.sha256",
+  "previous": "%q7Ub1E2EIvOa4FCkFwHab6MYTKHteIepcIR+VPks2Sg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8537,
-  "timestamp": 1547238668210,
+  "sequence": 8538,
+  "timestamp": 1547241740618,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%CPNalDtlMkVVY959uzCkicWvAZ4exbnAHH4AjFCMAqI=.sha256",
-    "branch": [
-      "%XmEVnTb4/X2xu9NBhKK129wg9YcUDKr6xEFXdq2vjIc=.sha256",
-      "%fX4qM58ISg5Akg24Kje3b3fhm93tegmkb7ddGeWKEyA=.sha256"
-    ],
-    "channel": "ssb-server",
-    "text": "In case it's useful, I've consolidated everything that I know about the `server` option here: https://github.com/ssbc/multiserver/issues/33"
+    "root": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
+    "branch": "%1m5f8V9wPfwEkf4LMouWxQy9sKCh1nQM6oO9pSI+8JM=.sha256",
+    "channel": "ssbc",
+    "text": "I've made some changes today that should make stale[bot] a bit easier to handle:\n\n## Changes\n\n- All repos inherit settings from [an org-wide config](https://github.com/ssbc/.github/blob/master/.github/stale.yml)\n  - This should make changes easier without taking away options from repo maintainers.\n  - Settings can be changed in the org-wide config *or* we can override at the repo level.\n- The `daysUntilStale` setting was increased from 60 days to 90 days.\n- The `daysUntilClose` setting was increased:\n  - Issues: from 7 days to 30 days.\n  - Pull requests: from 7 days to *never closing* (cc [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519))\n- If an issue or pull request has *any* assignees it won't be labeled stale. More info below.\n- The stale warning is a bit more friendly:\n  > Is this still relevant? If so, what is blocking it? Is there anything you can do to help move it forward?\n\nThe Patchwork repository also exempted the \"bug\", \"enhancement\", and \"performance\" labels, so those changes have been preserved.\n\n## Self-assigned issues\n\nI think I'm going to start self-assigning issues that I'm personally interested and support being resolved. If others do the same then we'll start to form a [subjective roadmap](%1VxE0P6lM7zoVykY7jQTBhZ9SY0nC4fz1JNRadVL2+s=.sha256), which will serve as a robust indicator of who cares about which issues. I should be clear that self-assigning doesn't mean \"I'm going to solve this today\", but that I *do* think it's an important issue to resolve to move forward in our roadmap.\n\nI think this is better than using labels like \"pinned\" because it's subjective, and super simple to unassign yourself from an issue that you've lost interest in. I don't think that we should deprecate \"pinned\", but I'll *personally* try to avoid using it now that we can subjectively vouch for issues that need to be resolved. I'd be super interested to get feedback on this approach, and will probably post an update in a few months depending on how it goes.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%1VxE0P6lM7zoVykY7jQTBhZ9SY0nC4fz1JNRadVL2+s=.sha256",
+        "name": "subjective roadmap"
+      }
+    ]
   },
-  "signature": "8aGHIIydHf8H/U4FBRTwo2y3gorACsQzUiP4TgyLh5B54aq3C5+GYDdSHpINxaHq27mXz8MaLCvlBnlsqIZpDA==.sig.ed25519"
+  "signature": "5YgsbtfBacDe9nNWTLx3A8zDwpyPEPYwMgp7ycsOC/XONBq1JQKHbmkEekAPLr/0NGWvgC25yhkcagS6qwblAA==.sig.ed25519"
 }
