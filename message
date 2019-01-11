@@ -1,21 +1,20 @@
 {
-  "previous": "%DoSY2mWbv93bPHzVwyfYe47jGDOng9LPoaAA1exPorY=.sha256",
+  "previous": "%ISKefkIaBrtN2xdvHnPxuGi9JwvH69j9aT6rsTZqWl8=.sha256",
+  "sequence": 8530,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8529,
-  "timestamp": 1547234774367,
+  "timestamp": 1547235194690,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Forking %6crQ0Q2j76BW4NBNzybVhx+4xHBtKWnU385+Vo0UnyM=.sha256:\n\n[@cameralibre](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519) \n\nFWIW, if you use `---` instead it should do a horizontal line in Markdown:\n\n---",
-    "mentions": [
-      {
-        "link": "%6crQ0Q2j76BW4NBNzybVhx+4xHBtKWnU385+Vo0UnyM=.sha256"
-      },
-      {
-        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
-        "name": "cameralibre"
-      }
+    "type": "vote",
+    "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
+    "vote": {
+      "link": "%frIERt9hSX0H40gdcQNj8VqrPAzcVPVRZCV4IqWWkiw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%mHKldoYBtv4sp2HQI28c++SbljUjnLESTMbaRn3ICz0=.sha256"
     ]
   },
-  "signature": "3bf7KxF93PLz528mHjgREH12x6tYZustlK0QF7dahkwUw6nXW1Jg4QuRG6qzIF18AsIPoPOsuZmpztc8IcRfBw==.sig.ed25519"
+  "signature": "oA3jzO+PvjHCPCm/tuY9jcI5Opwbu7jgJ1Iajk78qknng8GGrVC8rve0QqCL7u8fiW0nFCpyiuDEdIWg9OLeDA==.sig.ed25519"
 }
