@@ -1,23 +1,21 @@
 {
-  "previous": "%JtmrZKRy2ab9x6VX+j06sGxqYgGM4syBDP2TqvufCOo=.sha256",
+  "previous": "%d4rae5Uzq4+e317zarinn/aRcjgbBqXV5NHi/qDSUGI=.sha256",
+  "sequence": 8543,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8542,
-  "timestamp": 1547245445630,
+  "timestamp": 1547245735073,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Forking %iVf96jOqont4I/t1KBsB+j4OdiDmY+59R0kuo/5SJ4o=.sha256\n\nHas there been any discussion on ephemeral pubs? For example, january.example.com, which exists like pop-up shop for a month, but then deletes all content and creates a new feed as february.example.com? It would still serve its purpose to introduce folks that joined during a specific time period, but would avoid the problem where you join a pub and have to sync everyone who has *ever* joined the pub.\n\n#pub #scuttlebutt ",
-    "mentions": [
-      {
-        "link": "%iVf96jOqont4I/t1KBsB+j4OdiDmY+59R0kuo/5SJ4o=.sha256"
-      },
-      {
-        "link": "#pub"
-      },
-      {
-        "link": "#scuttlebutt"
-      }
+    "type": "vote",
+    "root": "%5x9AOdw7rk+YoIWg9AsXbXw2mT7nLk2SShLxIeXsEHY=.sha256",
+    "vote": {
+      "link": "%YOpORbrx/scqD3YDI8EWAw3yTSe7KNEB5xhp5xwlcKk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Vk3PkCKpqs6Cn23UWDiaWZETG9Z0oLId/kZztkAbH2g=.sha256",
+      "%YOpORbrx/scqD3YDI8EWAw3yTSe7KNEB5xhp5xwlcKk=.sha256"
     ]
   },
-  "signature": "n7SPJa6wkE2FySDS6VU2E7ZVKC12cL1kP8aeerlq254nn0fpLK2IWOrSgNpmFyQxpiEokaEcYnXpQwDaZtYAAw==.sig.ed25519"
+  "signature": "zCGC1DmocvIrgAoUdkTSfa/5n/5IxthPahHyFLBWXBvv/BpQrpgDc3bjD0srv4TIqwP11mZcwNIF1aZD9KAkBw==.sig.ed25519"
 }
