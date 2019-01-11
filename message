@@ -1,21 +1,20 @@
 {
-  "previous": "%09pT/t/EJGqA6Gvj4uLNoxv/eEYFFg0SvNnl/Ej0liI=.sha256",
-  "sequence": 8521,
+  "previous": "%wCQUzJv2y+tazKeBPQIJbpnZH1gTXWb2Q1/LUJjy3nY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547231136989,
+  "sequence": 8522,
+  "timestamp": 1547231484956,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%QPvHUesD584RFPl4sbbILaOHUBxTSW8JGcNrS6inzJA=.sha256",
-    "vote": {
-      "link": "%8fFWnDcovmixqFnA1cPbByGJOidTR5h/wPByMsRVlGQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%8fFWnDcovmixqFnA1cPbByGJOidTR5h/wPByMsRVlGQ=.sha256",
-      "%RHjAR4oS6V4/HNhCdKD13YdSEQDASZEeBYFKGt1M4LU=.sha256"
+    "type": "post",
+    "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
+    "branch": "%6lY3PjlUzvjAeMAqOjfvHfEJB6o8UUas3qhXPUh6XGA=.sha256",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI'd recommend reading the thread for details, but TL;DR: apparently we've been using GitHub-flavored Markdown on purpose since forever, so switching to Markdown or CommonMark or some other variant will break previous messages.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
     ]
   },
-  "signature": "0uuwX7xlgzNUcrxR3caBwb5Fliwlt7DSOOzR9C6Vugf39szs5KYKkKBDoOHkrIKvGktQbxMyCvShVs3DHvXvAg==.sig.ed25519"
+  "signature": "wlZm3znEj42G9vQ27kk045U5FRE1+vP1rrgUp0d5pS/KfW27i4vvuBcjgy+CoMNTXKubY7vktZk17u9VGTYYCA==.sig.ed25519"
 }
