@@ -1,20 +1,26 @@
 {
-  "previous": "%wCQUzJv2y+tazKeBPQIJbpnZH1gTXWb2Q1/LUJjy3nY=.sha256",
+  "previous": "%C4jz4n/Oa8HAsaVT9TyiFnNCT4PPt+uGb82vUwBqYd0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8522,
-  "timestamp": 1547231484956,
+  "sequence": 8523,
+  "timestamp": 1547231606097,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
-    "branch": "%6lY3PjlUzvjAeMAqOjfvHfEJB6o8UUas3qhXPUh6XGA=.sha256",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI'd recommend reading the thread for details, but TL;DR: apparently we've been using GitHub-flavored Markdown on purpose since forever, so switching to Markdown or CommonMark or some other variant will break previous messages.",
+    "root": "%MK+7SjpAwSrV5Iq7hoXGiWHRPUgSa88L5CY6cgFW2CQ=.sha256",
+    "branch": [
+      "%lFa7w1zw4itEasE4I2m4nx/kdQjJbux/IzMac9sNSH0=.sha256",
+      "%opZpw6JoSwDwjrhi3YUXrlzO21L2fkyWIq4jpH5CJiQ=.sha256"
+    ],
+    "recps": null,
+    "text": "I think something funky is happening with this thread. It seems to be getting rendered as three different threads for me, an the `/posts` view is mixing comments from one thread to another. \n\n![Screenshot from 2019-01-11 10-32-12.png](&mJfwSaJL6J4e2DimE1D7bGcEdc6GOImYm8sfPoFkeYA=.sha256)\n",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "&mJfwSaJL6J4e2DimE1D7bGcEdc6GOImYm8sfPoFkeYA=.sha256",
+        "name": "Screenshot from 2019-01-11 10-32-12.png",
+        "type": "image/png",
+        "size": 122310
       }
     ]
   },
-  "signature": "wlZm3znEj42G9vQ27kk045U5FRE1+vP1rrgUp0d5pS/KfW27i4vvuBcjgy+CoMNTXKubY7vktZk17u9VGTYYCA==.sig.ed25519"
+  "signature": "JnC3rfIuNgmEycIg6nVNgzgelXslGoMnPfej/TNCGyIF54dmL9TGNTUkvDSdGqBRBymK5w3lNQcvfzg9GIWgBQ==.sig.ed25519"
 }
