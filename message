@@ -1,21 +1,27 @@
 {
-  "previous": "%2JFhbRJUAOeNXHqO06noWiQ5QVb8PN+Vit+NSKQS6dw=.sha256",
-  "sequence": 8514,
+  "previous": "%0PVEfEf4f+evcibFBZHrYs8T4k9sMSLLjC6t8R+NePc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547230398810,
+  "sequence": 8515,
+  "timestamp": 1547230758667,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
-    "vote": {
-      "link": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
     "branch": [
       "%7OtSXJll/z5UlvWBtMS4aHlpqQd2eCrpMsRmo1AykyY=.sha256",
       "%ODsCP9XGllHAzecqZnS5ZcgpJOqnjcC3u8Bk0kTEE5U=.sha256"
+    ],
+    "text": "[@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) \n\nWe're in a position where all of the content and clients use a variant of Markdown, which is sub-optimal, but the path forward is unclear. Are you suggesting that we switch to XML? I mentioned [HTML as an alternative](%8fnvgls5yEtz8Uzoj7jMfDynPwW0KL1FTEHoQ0AtNzs=.sha256), since we render Markdown as HTML anyway, but at this point that doesn't seem like a trivial change.",
+    "mentions": [
+      {
+        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
+        "name": "joey"
+      },
+      {
+        "link": "%8fnvgls5yEtz8Uzoj7jMfDynPwW0KL1FTEHoQ0AtNzs=.sha256",
+        "name": "HTML as an alternative"
+      }
     ]
   },
-  "signature": "gkFPV0dGNGkyPfP365n4Cel1JsDps+yz5SNM31qYLqH5LOqlwsVxgzGSgFHFGYTQ+gUetH1vjjlWPlmE/pSFBg==.sig.ed25519"
+  "signature": "MQzIhpFxE8psctTmiBO52Gt7GTNhiw/QWfqR2cjEwBSunthWs8yW8x6arc9wOsJ0L45+JZ/KIhwI+5nIb+LxAA==.sig.ed25519"
 }
