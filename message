@@ -1,26 +1,20 @@
 {
-  "previous": "%C4jz4n/Oa8HAsaVT9TyiFnNCT4PPt+uGb82vUwBqYd0=.sha256",
+  "previous": "%0f3JaWitoE18zhqFBejsilDEYNxcKdXeVmr2xTv+An0=.sha256",
+  "sequence": 8524,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8523,
-  "timestamp": 1547231606097,
+  "timestamp": 1547232456049,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%MK+7SjpAwSrV5Iq7hoXGiWHRPUgSa88L5CY6cgFW2CQ=.sha256",
+    "type": "vote",
+    "root": "%CBTUH2m5k26qS7eD69Qlk8O9b1sRKF6kPBW1+HVRS6Y=.sha256",
+    "vote": {
+      "link": "%1VxE0P6lM7zoVykY7jQTBhZ9SY0nC4fz1JNRadVL2+s=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%lFa7w1zw4itEasE4I2m4nx/kdQjJbux/IzMac9sNSH0=.sha256",
-      "%opZpw6JoSwDwjrhi3YUXrlzO21L2fkyWIq4jpH5CJiQ=.sha256"
-    ],
-    "recps": null,
-    "text": "I think something funky is happening with this thread. It seems to be getting rendered as three different threads for me, an the `/posts` view is mixing comments from one thread to another. \n\n![Screenshot from 2019-01-11 10-32-12.png](&mJfwSaJL6J4e2DimE1D7bGcEdc6GOImYm8sfPoFkeYA=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&mJfwSaJL6J4e2DimE1D7bGcEdc6GOImYm8sfPoFkeYA=.sha256",
-        "name": "Screenshot from 2019-01-11 10-32-12.png",
-        "type": "image/png",
-        "size": 122310
-      }
+      "%1VxE0P6lM7zoVykY7jQTBhZ9SY0nC4fz1JNRadVL2+s=.sha256"
     ]
   },
-  "signature": "JnC3rfIuNgmEycIg6nVNgzgelXslGoMnPfej/TNCGyIF54dmL9TGNTUkvDSdGqBRBymK5w3lNQcvfzg9GIWgBQ==.sig.ed25519"
+  "signature": "gYgDBlTwPHe4uY14EdJdv+9R2i6udX0EjERM8SPWuoDcAITWE+frQeBzBWzlflorj5uZn3sCbsdEmjWRv+01Dw==.sig.ed25519"
 }
