@@ -1,27 +1,30 @@
 {
-  "previous": "%0PVEfEf4f+evcibFBZHrYs8T4k9sMSLLjC6t8R+NePc=.sha256",
+  "previous": "%32F3b3VJxKhNjErwuujPh9gyy4FU1g21peAL41zk4H4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8515,
-  "timestamp": 1547230758667,
+  "sequence": 8516,
+  "timestamp": 1547230785242,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
-    "branch": [
-      "%7OtSXJll/z5UlvWBtMS4aHlpqQd2eCrpMsRmo1AykyY=.sha256",
-      "%ODsCP9XGllHAzecqZnS5ZcgpJOqnjcC3u8Bk0kTEE5U=.sha256"
-    ],
-    "text": "[@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) \n\nWe're in a position where all of the content and clients use a variant of Markdown, which is sub-optimal, but the path forward is unclear. Are you suggesting that we switch to XML? I mentioned [HTML as an alternative](%8fnvgls5yEtz8Uzoj7jMfDynPwW0KL1FTEHoQ0AtNzs=.sha256), since we render Markdown as HTML anyway, but at this point that doesn't seem like a trivial change.",
+    "root": "%ZxOfmnjQCwMnCh0TUJBmfP3oZH8ahYYwEUbH2Zk1XC8=.sha256",
+    "branch": "%DyrK0HKAwJt1ZGFyJUQRlLeCvvDiE8jC+7jyXbznDfI=.sha256",
+    "text": "[@alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519) \n\nI used Patchbay's `/query` page (woo [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)!), which let me search for pubs that I'd joined. It looks like the pubs you've followed are:\n\n- @L+nPFTMUHWXuchOwuzT6Z8Ea8wD/Rtd7leVRxGaknVk=.ed25519\n- @uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519\n\nIt doesn't look like those pubs are super active with new users, so you may not have the same problem that I had.\n\n---\n\nIn case anyone finds it useful, my query was:\n\n```js\n{\n  query: [\n    {\n      $filter: {\n        value: {\n          author: '@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519',\n          content: { type: 'pub' }\n        }\n      },\n    },\n    {\n      $map: ['value', 'content', 'address', 'key']\n    }\n  ]\n}\n```",
     "mentions": [
       {
-        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
-        "name": "joey"
+        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
+        "name": "alanna"
       },
       {
-        "link": "%8fnvgls5yEtz8Uzoj7jMfDynPwW0KL1FTEHoQ0AtNzs=.sha256",
-        "name": "HTML as an alternative"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@L+nPFTMUHWXuchOwuzT6Z8Ea8wD/Rtd7leVRxGaknVk=.ed25519"
+      },
+      {
+        "link": "@uRECWB4KIeKoNMis2UYWyB2aQPvWmS3OePQvBj2zClg=.ed25519"
       }
     ]
   },
-  "signature": "MQzIhpFxE8psctTmiBO52Gt7GTNhiw/QWfqR2cjEwBSunthWs8yW8x6arc9wOsJ0L45+JZ/KIhwI+5nIb+LxAA==.sig.ed25519"
+  "signature": "rxHW8ZcCyz19z6YyipDchoIgpsya+9OOLZXuitnPB32bZK3NkJie46rJREIxes9tOfjX20nO5irrQQbGaSLgCg==.sig.ed25519"
 }
