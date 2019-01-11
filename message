@@ -1,21 +1,25 @@
 {
-  "previous": "%9dQIQwt9dKPZJm1/A2m8EwPSLOCHX+2Sggso4fuvswM=.sha256",
-  "sequence": 8546,
+  "previous": "%gEy33Qcfnk4AdujivxMiGYJQEuGcQ2dgkhF+EtZ607c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547245763573,
+  "sequence": 8547,
+  "timestamp": 1547245863837,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%bmQWFSvzciq9MuBerUtIKpMEUPqd7Kocb24xtG7nBNI=.sha256",
-    "vote": {
-      "link": "%bmQWFSvzciq9MuBerUtIKpMEUPqd7Kocb24xtG7nBNI=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%KLQC6m+L29Yk7LvwhkQdCvmCuZg6YX/xsY1KWqGZyc4=.sha256",
-      "%W0yhGvHQzMdiLAw1hVuI6Dcr2sOd9Iq+aK9ZLHXIOnI=.sha256"
+    "type": "post",
+    "text": "Forking %bmQWFSvzciq9MuBerUtIKpMEUPqd7Kocb24xtG7nBNI=.sha256\n\n[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) \n\nWhat's this graphic? It's beautiful, I don't think I'm familiar.\n\n![pretty blue graphic thing](&tSukD6qTX9RYPjmPynGpqqfkSKynDvR/V/W6DfTQXKA=.sha256)",
+    "mentions": [
+      {
+        "link": "%bmQWFSvzciq9MuBerUtIKpMEUPqd7Kocb24xtG7nBNI=.sha256"
+      },
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      },
+      {
+        "link": "&tSukD6qTX9RYPjmPynGpqqfkSKynDvR/V/W6DfTQXKA=.sha256",
+        "name": "pretty blue graphic thing"
+      }
     ]
   },
-  "signature": "IXMTLC2EB4ENjVzMCPaX7BLl9RzpDrRpMewT7BoXfTTMEIaaYJg2HuqlWpyHJpUOLd8As1wjbUObXpBJDnZqAQ==.sig.ed25519"
+  "signature": "6L+iluUWlZD72kwg9PCYaZvVPJ0m3z4ULh2GTbqR8QnPbV9FKD5y3fzNc+iYINvmr3VirbZu7sk0A3wVYbAODA==.sig.ed25519"
 }
