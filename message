@@ -1,21 +1,23 @@
 {
-  "previous": "%GRia/GxOJpefmTMY+Lo1HkMgCOcmuR/NHh3fTb5R5cg=.sha256",
-  "sequence": 8541,
+  "previous": "%JtmrZKRy2ab9x6VX+j06sGxqYgGM4syBDP2TqvufCOo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547245251052,
+  "sequence": 8542,
+  "timestamp": 1547245445630,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%QZipju8y2xJ9xrB4S9wp8EiPROlGuyUOkUCVQxE0ODE=.sha256",
-    "vote": {
-      "link": "%QLU3qyYhdAvflNJSEeFVtTMPlxqPoU0Cync0kz0XKso=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%+m955HdR1n51EbYfhUZbHimq78MuFBzw/cSxn+TtwwY=.sha256",
-      "%QLU3qyYhdAvflNJSEeFVtTMPlxqPoU0Cync0kz0XKso=.sha256"
+    "type": "post",
+    "text": "Forking %iVf96jOqont4I/t1KBsB+j4OdiDmY+59R0kuo/5SJ4o=.sha256\n\nHas there been any discussion on ephemeral pubs? For example, january.example.com, which exists like pop-up shop for a month, but then deletes all content and creates a new feed as february.example.com? It would still serve its purpose to introduce folks that joined during a specific time period, but would avoid the problem where you join a pub and have to sync everyone who has *ever* joined the pub.\n\n#pub #scuttlebutt ",
+    "mentions": [
+      {
+        "link": "%iVf96jOqont4I/t1KBsB+j4OdiDmY+59R0kuo/5SJ4o=.sha256"
+      },
+      {
+        "link": "#pub"
+      },
+      {
+        "link": "#scuttlebutt"
+      }
     ]
   },
-  "signature": "PuMSSilPHl0t9An0NZN6nGn605ldRqfmhseOP2zAWQo7EyNG/egUb5jE2ThJ5BXFROCd/1MOknCtslncF2paDw==.sig.ed25519"
+  "signature": "n7SPJa6wkE2FySDS6VU2E7ZVKC12cL1kP8aeerlq254nn0fpLK2IWOrSgNpmFyQxpiEokaEcYnXpQwDaZtYAAw==.sig.ed25519"
 }
