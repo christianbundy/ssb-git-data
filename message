@@ -1,21 +1,23 @@
 {
-  "previous": "%wBY4JiX+PLKGy3Mdc5DUIEIvh1t5f/2/QHrJxgMDr5g=.sha256",
-  "sequence": 8561,
+  "previous": "%l1Zj05LeAi8WbsaQC1iayMZ3U6m4XSmGrLwNbH6tA8I=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547264550787,
+  "sequence": 8562,
+  "timestamp": 1547264653368,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%ZxOfmnjQCwMnCh0TUJBmfP3oZH8ahYYwEUbH2Zk1XC8=.sha256",
-    "vote": {
-      "link": "%YDegv6cE7vfb1/UmCTkqI8pSab1F2Rsp6g52osaAF2w=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%+ENXYcj6P6g6kawz7RxbseBtZoeDvaIlwoRduVL1hS0=.sha256",
-      "%mD5TXH9m7+WBMHxvdFzE8iI2PDx44JMoVPy19Pjcq0Q=.sha256"
+    "branch": "%+ENXYcj6P6g6kawz7RxbseBtZoeDvaIlwoRduVL1hS0=.sha256",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nI think the number of hops depend on which client you're using or how you've configured `~/.ssb/config`. For example, [Patchwork does two hops](https://github.com/ssbc/patchwork/blob/72f16244c90ae832df187cc803962d3412002eab/index.js#L169), although [the default in ssb-config](https://github.com/ssbc/ssb-config/blob/master/inject.js#L28) is actually three hops (like you mentioned). My intuition is that once #ssb-ooo is rolled out across our clients then the default number of hops will drop to two.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "#ssb-ooo"
+      }
     ]
   },
-  "signature": "ckWB7yjtfEl/NjbrIHvvUv4KkBFATYoUVmAfGrpBdmTDXHiSQc7sjGGN6iHljoJooVpT/Vqz9ZxhujrqFl0MDw==.sig.ed25519"
+  "signature": "BP1aGq0ia9CZj2Z9bYgXCXADuC3IQ4qw7XLPfDwsacGvlThxgtwMMKIv5Sam964IG9jI/BJdYhQFH0zuAIYjCg==.sig.ed25519"
 }
