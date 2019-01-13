@@ -1,21 +1,21 @@
 {
-  "previous": "%dmdAh0oAEjemsmUBl1nIUAt/w2z3GNsvoZ+Db9CtpuM=.sha256",
+  "previous": "%/3Bq37fm85cubQ9oWquIGw3wGWeCw01SwEpqKj1eb7U=.sha256",
+  "sequence": 8593,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8592,
-  "timestamp": 1547411442493,
+  "timestamp": 1547416054012,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%Q3RLZIo81+m2mC1w3hqI0Opfg1UZ3dC9GfiGp5gwqXk=.sha256",
-    "branch": "%Q3RLZIo81+m2mC1w3hqI0Opfg1UZ3dC9GfiGp5gwqXk=.sha256",
-    "channel": "racket",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI'd love to learn. Most of my opinions about Racket have been formed by Matthew Butterick, but I haven't ever taken the time to get started. Maybe a toy project would be a good excuse to learn?",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
+    "vote": {
+      "link": "%5RURFNylPfbFtry2SMpCBF4s3kP3Qcfi0pBD/yAdQBI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%5RURFNylPfbFtry2SMpCBF4s3kP3Qcfi0pBD/yAdQBI=.sha256",
+      "%trynt9e6ItE1YrU5SewdaPP3Db5o+8Z6fqxDEbOqrnI=.sha256"
     ]
   },
-  "signature": "1SluGk18ODgu0bnYcNuaky+n1xcAzd0CCPD23FPqSjXgjsYqKZtBJicOCBgzagtDVdRezNeG+nvBjlOvwQG5Dg==.sig.ed25519"
+  "signature": "S8jf+0Rip0/PwrVmUWIeV5sF5MWqdF6hDiXkuWNwuxuL5RbZQuXpisvTWwXmCLX208IJRdqWZ0iFTP1UasmJAw==.sig.ed25519"
 }
