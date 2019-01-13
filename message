@@ -1,20 +1,30 @@
 {
-  "previous": "%tb1ESYGPPkTXeJoGs5gYlwQ2nk0aaM9E/W/6FFylpgY=.sha256",
-  "sequence": 8582,
+  "previous": "%bPR7L4axvlqOiJ8SyfuWaQmO0lEKjT5mOSt3VmUWyac=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547404530054,
+  "sequence": 8583,
+  "timestamp": 1547406604976,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256",
-    "vote": {
-      "link": "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256"
+    "type": "post",
+    "root": "%OOSE+OrlzJU3mvFjrLfBo/j4Z39CF1//WSkxa6P1d8g=.sha256",
+    "branch": "%JVqoGl2NUnXJAMVdwDxUD5Cfwg+J2VgKcED38Kh5TgU=.sha256",
+    "text": "[@Mel (hamnox)](@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519)\n\nI wonder which noto fonts you have -- they're often split up for folks who don't use CJK. I might try:\n\n```sh\napt-get install fonts-noto-cjk-extra\n```\n\n[@Tim Schumacher](@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519) \n\nI think the strangeness you're seeing is that they aren't emojis. I found them on [this page](https://en.wiktionary.org/wiki/Category:Linear_B_script_characters). For what it's worth, here's what I see:\n\n![Screenshot from 2019-01-13 11-09-35.png](&jXGg/fquc8DJS3ZPc7ifYrfwDN6rOe3laI7aDBfcQiw=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519",
+        "name": "Mel (hamnox)"
+      },
+      {
+        "link": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
+        "name": "Tim Schumacher"
+      },
+      {
+        "link": "&jXGg/fquc8DJS3ZPc7ifYrfwDN6rOe3laI7aDBfcQiw=.sha256",
+        "name": "Screenshot from 2019-01-13 11-09-35.png",
+        "type": "image/png",
+        "size": 47276
+      }
     ]
   },
-  "signature": "tu+33UtcCvghO18N/+RR61eOMZlid8ys/PCeFaZPoepbR9XsaXABRX/REaFxRRsAMnvBIUCXRRJJXF85hddxAg==.sig.ed25519"
+  "signature": "50j9y9SRJyP/sMbAMtVaDMVnIvirM7QGlffQTTnWxlD4Eu9QiufVUQJ75MY5bVmuML7fRPzFNDFuTT9F++DnAQ==.sig.ed25519"
 }
