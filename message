@@ -1,20 +1,21 @@
 {
-  "previous": "%h+HeftmB/e8T0J2o9iJ0Udf2b/SqHnJ373V/KVr+R0s=.sha256",
-  "sequence": 8590,
+  "previous": "%zjhzbqs/wff3yfgza1EGZilkl6iIfVGJbtPpe0E15N4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547410859528,
+  "sequence": 8591,
+  "timestamp": 1547411031190,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%OOSE+OrlzJU3mvFjrLfBo/j4Z39CF1//WSkxa6P1d8g=.sha256",
-    "vote": {
-      "link": "%Km/MIzguftQ7N5I84eDzzy2mjTPYHoDWAe61kP46NAI=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%h+HeftmB/e8T0J2o9iJ0Udf2b/SqHnJ373V/KVr+R0s=.sha256"
+    "type": "post",
+    "root": "%Yy4XDI77x4tF/aUcIRjZvmOEu/8ACNV/7rUzwxvTRPM=.sha256",
+    "branch": "%EHgtoynK3hlZhbTC2qJlcHcMU1abkccLJ5seRzpYPAg=.sha256",
+    "channel": "catamaran",
+    "text": "[@Piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nLately I've been thinking about another way to do it, which would be to create a sqlite flumeview, which gives you the benefits of sqlite without losing any flumedb backward-compatibility.",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "Piet"
+      }
     ]
   },
-  "signature": "yIqlKkJCu3TMCZjBOq30o64Q17hleW9YhgGF1XcO1MHtNMI1LU01LN9nzUl6/+lLCTgj6gnhVnT0qUelxpDlBQ==.sig.ed25519"
+  "signature": "gWKEJNEU2X3xaBMObgAzZmf3z5DUBHKbGQEmhUWALolYWD6nuu3eKx5K7wOGxVqKHeZuJf2lMwQiBC8YPKEZDA==.sig.ed25519"
 }
