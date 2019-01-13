@@ -1,30 +1,21 @@
 {
-  "previous": "%bPR7L4axvlqOiJ8SyfuWaQmO0lEKjT5mOSt3VmUWyac=.sha256",
+  "previous": "%+N0ZXBMZ837Ei/IPyU331Owpd8FydjilH/bDRAvCG6U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8583,
-  "timestamp": 1547406604976,
+  "sequence": 8584,
+  "timestamp": 1547406807553,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%OOSE+OrlzJU3mvFjrLfBo/j4Z39CF1//WSkxa6P1d8g=.sha256",
-    "branch": "%JVqoGl2NUnXJAMVdwDxUD5Cfwg+J2VgKcED38Kh5TgU=.sha256",
-    "text": "[@Mel (hamnox)](@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519)\n\nI wonder which noto fonts you have -- they're often split up for folks who don't use CJK. I might try:\n\n```sh\napt-get install fonts-noto-cjk-extra\n```\n\n[@Tim Schumacher](@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519) \n\nI think the strangeness you're seeing is that they aren't emojis. I found them on [this page](https://en.wiktionary.org/wiki/Category:Linear_B_script_characters). For what it's worth, here's what I see:\n\n![Screenshot from 2019-01-13 11-09-35.png](&jXGg/fquc8DJS3ZPc7ifYrfwDN6rOe3laI7aDBfcQiw=.sha256)\n",
+    "root": "%Qhr41a440d1GlYXH8rYZmqKXVkoIYUio4at0AXZsudw=.sha256",
+    "branch": "%RLIn46c5ZKZ9yd3oJD4+pKIqu/XNDWmp6exUAuD+B1s=.sha256",
+    "channel": "patchwork-dev",
+    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nI've resolved the problem and released new version of both [ssb-patchwork](https://aur.archlinux.org/packages/ssb-patchwork/) and [patchbay](https://aur.archlinux.org/packages/patchbay) using [community/electron2](https://www.archlinux.org/packages/community/x86_64/electron2/). Could you let me know if that resolves the problem? I'll work on updating [ssb-patchwork-git](https://aur.archlinux.org/packages/ssb-patchwork-git/) and [patchbay-git](https://aur.archlinux.org/packages/patchbay-git/) as well.",
     "mentions": [
       {
-        "link": "@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519",
-        "name": "Mel (hamnox)"
-      },
-      {
-        "link": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519",
-        "name": "Tim Schumacher"
-      },
-      {
-        "link": "&jXGg/fquc8DJS3ZPc7ifYrfwDN6rOe3laI7aDBfcQiw=.sha256",
-        "name": "Screenshot from 2019-01-13 11-09-35.png",
-        "type": "image/png",
-        "size": 47276
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "Powersource too"
       }
     ]
   },
-  "signature": "50j9y9SRJyP/sMbAMtVaDMVnIvirM7QGlffQTTnWxlD4Eu9QiufVUQJ75MY5bVmuML7fRPzFNDFuTT9F++DnAQ==.sig.ed25519"
+  "signature": "3XP/SngQmX9pG+NDlUtywqkT3P/5MQblTvriAQ6sm3KzxJNvV8CM/QcSLfiGYLaOVYJSU6HdmB96N1j6teFoCw==.sig.ed25519"
 }
