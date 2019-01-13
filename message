@@ -1,25 +1,20 @@
 {
-  "previous": "%OSMm85Cuks9NfLr7rluxPqoTaMlFBRjYUfTOqc0j6OQ=.sha256",
+  "previous": "%tb1ESYGPPkTXeJoGs5gYlwQ2nk0aaM9E/W/6FFylpgY=.sha256",
+  "sequence": 8582,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8581,
-  "timestamp": 1547396173000,
+  "timestamp": 1547404530054,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Qhr41a440d1GlYXH8rYZmqKXVkoIYUio4at0AXZsudw=.sha256",
-    "branch": "%Qhr41a440d1GlYXH8rYZmqKXVkoIYUio4at0AXZsudw=.sha256",
-    "channel": "patchwork-dev",
-    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nSorry about that, my intuition is that this came from the [electron 2 -> electron 3 upgrade](%Q/Wzo6XX7UFwq6hZ7yM5OsyqO3O8kYBKiPjH4USIuRc=.sha256), so `pacman -Syu` most likely bumped your Electron version and caused issues. I'll update the AUR packages today!",
-    "mentions": [
-      {
-        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
-        "name": "Powersource too"
-      },
-      {
-        "link": "%Q/Wzo6XX7UFwq6hZ7yM5OsyqO3O8kYBKiPjH4USIuRc=.sha256",
-        "name": "electron 2 -&gt; electron 3 upgrade"
-      }
+    "type": "vote",
+    "root": "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256",
+    "vote": {
+      "link": "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%gtnqqzi53XKXUgs0pJbRMpJ+e/uPitbjkramuwsjJWo=.sha256"
     ]
   },
-  "signature": "1M9teOmVlnHP7nUBfx1Cr62OtMCQVHp6eIIpk+B+rlfClKew9PgPk2C2RGc7e0yFNCdfHfySd5WFrV5goMM5Cw==.sig.ed25519"
+  "signature": "tu+33UtcCvghO18N/+RR61eOMZlid8ys/PCeFaZPoepbR9XsaXABRX/REaFxRRsAMnvBIUCXRRJJXF85hddxAg==.sig.ed25519"
 }
