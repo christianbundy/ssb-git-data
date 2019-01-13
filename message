@@ -1,24 +1,25 @@
 {
-  "previous": "%h1K/YPVAuXnlEpPpFc7x05UXz6VX4rgjSmD07a9kR3k=.sha256",
+  "previous": "%OSMm85Cuks9NfLr7rluxPqoTaMlFBRjYUfTOqc0j6OQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8580,
-  "timestamp": 1547319757933,
+  "sequence": 8581,
+  "timestamp": 1547396173000,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%3MxhcsjZ0VZGjMxch/fcZyxDdDyJ7GQj+nnIS8ussXI=.sha256",
-    "branch": [
-      "%0boxhTfPEQRZQ0u7l1ksnH6HGXZ4H1YRXqHWnHBC7to=.sha256",
-      "%1dluAiQI54U+S3CIma/ykxM7Wtr3AtCw8lNUCjd0kwo=.sha256",
-      "%OOkFauIElXVLKtT5aAdqmLMIRFRZPYTA0/tF1OU7cU4=.sha256"
-    ],
-    "text": "[@John Colagioia](@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519) \n\nDo you draw a line between coercion and self-defense? For example, I'd contend that fighting pollution/warlords/slavers is an act of self-defense, but Ianguage is squishy and maybe you meant that self-defense is a subset of coercion (which I think I'd call \"violence\", but again, language is squishy).",
+    "root": "%Qhr41a440d1GlYXH8rYZmqKXVkoIYUio4at0AXZsudw=.sha256",
+    "branch": "%Qhr41a440d1GlYXH8rYZmqKXVkoIYUio4at0AXZsudw=.sha256",
+    "channel": "patchwork-dev",
+    "text": "[@Powersource too](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nSorry about that, my intuition is that this came from the [electron 2 -> electron 3 upgrade](%Q/Wzo6XX7UFwq6hZ7yM5OsyqO3O8kYBKiPjH4USIuRc=.sha256), so `pacman -Syu` most likely bumped your Electron version and caused issues. I'll update the AUR packages today!",
     "mentions": [
       {
-        "link": "@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519",
-        "name": "John Colagioia"
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "Powersource too"
+      },
+      {
+        "link": "%Q/Wzo6XX7UFwq6hZ7yM5OsyqO3O8kYBKiPjH4USIuRc=.sha256",
+        "name": "electron 2 -&gt; electron 3 upgrade"
       }
     ]
   },
-  "signature": "ymL1+awSuGGA4QFQgmuawhYjqnOQNQd/MvJMask6BRLQZcMLUtB+UysADVqvUB/mvkZISZN1AZauaWgfvaQQDA==.sig.ed25519"
+  "signature": "1M9teOmVlnHP7nUBfx1Cr62OtMCQVHp6eIIpk+B+rlfClKew9PgPk2C2RGc7e0yFNCdfHfySd5WFrV5goMM5Cw==.sig.ed25519"
 }
