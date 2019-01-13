@@ -1,20 +1,20 @@
 {
-  "previous": "%BGljAKvxYqFjcUnydQUG5CfUsQNKZKp3q8IYPhnqwTw=.sha256",
-  "sequence": 8594,
+  "previous": "%t9MDhoMz5UGxBqNbD+WRLcBAg+3AaYILRFALEiY0qmI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547416515784,
+  "sequence": 8595,
+  "timestamp": 1547419975623,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%cgyv8l9BHzg05iWrbasl9PhTZ0HYuupYhQe98Y/BwVc=.sha256",
-    "vote": {
-      "link": "%aDFsFb2lqDgM09d4A7eyuPhxxYq9ecZpDrS27g0eUZo=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%F6hux+oSnMsbPOUKa0SLkzmv1+gDG0qF4mQZe/5tVdE=.sha256"
+    "type": "post",
+    "root": "%QzQxP2uxye+0BDut5BrzlvL0eomVQ+XwcwJYVBuV0xk=.sha256",
+    "branch": "%FMsNHv/qF+zGbdIz1kb2u59r3JZXYM6xwPzkSotS+T0=.sha256",
+    "text": "[@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519) \n\nI think you'll need to switch those `--expose` flags out for `-p` flags, which expose the port to the host network interface. I've written a one-liner below that seems to have network connectivity, but I can't see it from Manyverse:\n\n```sh\ndocker run \\\n  --interactive \\\n  --tty \\\n  --user 1000:1000 \\\n  -p 8007-8009:8007-8009/tcp \\\n  -p 8008:8008/udp \\\n  node:10 sh -c \"npx ssb-server start\"\n```",
+    "mentions": [
+      {
+        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
+        "name": "Justin Abrahms"
+      }
     ]
   },
-  "signature": "F/uR+suMBrkO3T87iDSE/BN1SVXtnMs/IMzs/dPhMCr+yVkbw8OneM9436ENFWqjCADbjCXqz0DE/s5ok4bGBA==.sig.ed25519"
+  "signature": "p670JizSzLecP8tlTMfilLJF7CDrW9ugONLYWb7NeccCK9wTywCAI61hICsZ7EBRRpkpFewasCfCKKKvQ9wKCg==.sig.ed25519"
 }
