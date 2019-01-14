@@ -1,13 +1,24 @@
 {
-  "previous": "%rv2T56JUIfyGPRXnfkRTPgjQC0f7/RlF9/SqqbfwsT4=.sha256",
+  "previous": "%/xMuMWdCwVqT4dTCxHCd44h52sFgkdv33kuFnwub3KE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8614,
-  "timestamp": 1547493775707,
+  "sequence": 8615,
+  "timestamp": 1547494868956,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-    "name": "@andré "
+    "type": "post",
+    "root": "%yT4SaZfvLhtdnqa1P9/RwIeGVJe6bFCAOvdVA1yy4Kg=.sha256",
+    "branch": "%rfXYYNukWr7p3Apx0LcTPP3tUPNIFqjdfSnU4oU1tKk=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\nAt this point I'm leaning toward scrapping my implementation and use something with GFM as a base. I'd love to specify both the media type and variant metadata, but I don't have the time or funds to support that work. I'd also love to support multiple Markdown variants, but I think that work depends on us including the above metadata for how it should be parsed.\n\n[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nIs your remark implementation a drop-in solution that we could use instead? I understand that you have some React-specific code, but the previous ssb-markdown is outdated and the current ssb-markdown is the wrong Markdown variant. I'm wondering whether your implementation might be the best option we have. What do you think?\n\nAs far as I'm aware, the expectation is:\n\n- GFM\n- emoji shortcodes\n- `block()` method\n  - hashtags\n  - auto-linked sigil links\n  - auto linked `@mentions` from `msg.value.content.mentions`\n  - auto-linked images (I'd love to drop this)\n  - audio/video like `![audio:description](&...)`\n- `inline()` method (for message previews)\n  - newline removed\n  - links removed\n  - images removed",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "PxLdnbYod0AcEo/4gKy6qOBv+c62sNhLiMchFXb4kqzWAdcprdtJ+xzAKcwpc/gVuZUPp9rnYhIe0+FmEq+1Dw==.sig.ed25519"
+  "signature": "aouZJQf3jFqZboHaqHtEUFeogF9bNan5fsL2/YGZZRQnBKCcZa3NE4SfX3VGjXR3RDhiqK44PQRIyxNaI1fiAg==.sig.ed25519"
 }
