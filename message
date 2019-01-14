@@ -1,21 +1,24 @@
 {
-  "previous": "%n9/EunKZOeIEgPcBf5UNCtpGwDtAJWPDRHADXWdKkmw=.sha256",
-  "sequence": 8604,
+  "previous": "%vJrgAX14Xn82uZLu6vxLP4dRCLskkaFd5OeFMiaXmyA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547492450813,
+  "sequence": 8605,
+  "timestamp": 1547492801767,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%5x9AOdw7rk+YoIWg9AsXbXw2mT7nLk2SShLxIeXsEHY=.sha256",
-    "vote": {
-      "link": "%OjQBZEDyfEw9VqEoh5vt7x24hLssoySY2GeruvLYBiU=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%OjQBZEDyfEw9VqEoh5vt7x24hLssoySY2GeruvLYBiU=.sha256",
-      "%lZ7WiVaEVvRID6I7lXzHV2Wq+VlE2yglpBadJ9otrDY=.sha256"
+    "type": "post",
+    "root": "%QzQxP2uxye+0BDut5BrzlvL0eomVQ+XwcwJYVBuV0xk=.sha256",
+    "branch": "%LFxFBdCtUlTTkLkhXR6J97lM7w6aZAHX7pnfBs1VaZo=.sha256",
+    "text": "[@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519) \n\nOh, I misunderstood \"connect to it locally\" as \"connect to it over LAN\" rather than interfacing between Patchwork and the container. My intuition is that we'll need a proper [ssb-config](https://github.com/ssbc/ssb-config/#example-connnections-configurations) for that sort of thing, and I *think* [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) has done some work on inter-networked containers.",
+    "mentions": [
+      {
+        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
+        "name": "Justin Abrahms"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
     ]
   },
-  "signature": "WIoLRHC2jDUlZ+9fsj70n6Itc6n3YSp3pEb0TNF38n6TYFqIBFwdusgxtTAnN+wCyETQq2rmdJpjF7fe57q8CA==.sig.ed25519"
+  "signature": "sbwrr51T4rESWuDstdzEJQn8eIjjaq/gvnu8skWhlSmdqJ66r6mMssDBoonkvi7f8b8N9B7kx3pENvWvsTZDDw==.sig.ed25519"
 }
