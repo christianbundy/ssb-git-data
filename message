@@ -1,20 +1,24 @@
 {
-  "previous": "%JnFfKfbLGJ4YJN7ukU3XZ1bQYB8ePDMnvUZpVQDV6Vw=.sha256",
-  "sequence": 8612,
+  "previous": "%CU7rSXd2QnQQC801dFeA+8UdnHYPneMKVQTAjR4VaaM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547493119240,
+  "sequence": 8613,
+  "timestamp": 1547493153893,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%T3WSOwapeA0doEX/PSkBaTCC5FPzrB6srhbiQh5ILrc=.sha256",
-    "vote": {
-      "link": "%mq2xhBOCkCbe9AYmaGUvyE9nTVCa4+jKtpCfc/TbqBU=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%UFNyDPheJBSIWiuLvbmv3qM3y1vzofAHmQsH/b7Ew/Q=.sha256",
     "branch": [
-      "%JnFfKfbLGJ4YJN7ukU3XZ1bQYB8ePDMnvUZpVQDV6Vw=.sha256"
+      "%EAKEBPJtZh/JJnI/ZS5vvZSW+3eEUUjOCDB827TvIy0=.sha256",
+      "%mMJjXutU4KZcqHorq9xyxqLI0SD2Qtqlr/dlCuKcvI4=.sha256"
+    ],
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis is awesome, thanks! I love being able to see the local peers in the `/network` page as well.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
     ]
   },
-  "signature": "DtNlyLAbhRVkl4lTOY/7eN8PM6XQskHT8i2NGbiNsuR0XIjx4EMUkpclDhNjLbqkK/51vBPI+oGihF2XofDuDg==.sig.ed25519"
+  "signature": "wVqUi6qyy2lek88R/2brHAH5rFtmfGVv6tkiK7al4HxnygL2IaTFdJP8rqfS5/Hjuau3wOTGIsCjPdqF2CuRDw==.sig.ed25519"
 }
