@@ -1,20 +1,20 @@
 {
-  "previous": "%KSQjzbDHQSWIWqrRYRpKq4AdXtjoLX0EefU/VXKH3IE=.sha256",
+  "previous": "%i3Wj1uqtg6cnLXpmS6/0XCbY9Z2r0r94jsqgrUY/ZG8=.sha256",
+  "sequence": 8607,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8606,
-  "timestamp": 1547493047712,
+  "timestamp": 1547493053660,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%YXKKw8TvAopNx9piMTJce9L7VgegQSqOLnz8nP/XXgs=.sha256",
-    "branch": "%1A2tuSQTK0Wpph3Q6BqZH5/igM74jc2eyI8MnwSuuys=.sha256",
-    "text": "[@MIX](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks for the `/posts` info above, it's super cool that you've already paved the way on this! I'm really excited to hack on it, I'll ping you when I make some progress! ❤",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "MIX"
-      }
+    "vote": {
+      "link": "%9AMjQr7vVlJqPwgvh19FitLPmjdwXJuG2N9d3pHATSs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%i3Wj1uqtg6cnLXpmS6/0XCbY9Z2r0r94jsqgrUY/ZG8=.sha256"
     ]
   },
-  "signature": "XlOp0bCafiKN5gEuvmQFkBBHXHI0MwRcsB7ZfP7emH/iggPl6ypTxenM5JFU2B/SoQSqOCPp2VjUqm3IJNyWBA==.sig.ed25519"
+  "signature": "WDkvS2wB7fwbYf5Z8LpZta+8tISnhrdOgX5wxYXgdMsho8HG8sjeRM9Cl5Y7qH0tZkWejJQn6nQpDW8Jo+fxDQ==.sig.ed25519"
 }
