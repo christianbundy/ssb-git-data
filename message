@@ -1,20 +1,20 @@
 {
-  "previous": "%vH04SRwCeRNfaQMUUHmfYPLq1BjIj1Z+PA6IVKSmFs0=.sha256",
-  "sequence": 8626,
+  "previous": "%hqm0+YmbLn8KCTrLD4CT9RcAey9SR6WhNWQmrFPOtS4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547499305572,
+  "sequence": 8627,
+  "timestamp": 1547502048805,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%r4DyW1hUrdQ9Xqi7nC3ne8ExqDgoo5sYz1GRiQdZ2AY=.sha256",
-    "vote": {
-      "link": "%PtA9oOJZ18cqBZblJVt4CXnRgy19zu2YE1hmbiIflSk=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%vH04SRwCeRNfaQMUUHmfYPLq1BjIj1Z+PA6IVKSmFs0=.sha256"
+    "type": "post",
+    "root": "%yT4SaZfvLhtdnqa1P9/RwIeGVJe6bFCAOvdVA1yy4Kg=.sha256",
+    "branch": "%n42ojVEq4UXfKwUoRedY1td6yGytFE3aLs8foKAHVGw=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nYeah, the only tricky bit is handling all of the options:\n\n- **toUrl:** optional function which takes references as input and turns them into client-specific URIs\n- **imageLink:** optional function which takes image `src` as input and returns a `href` to link-wrap with\n- **emoji:** optional function which takes emoji shortcode as input and returns HTML for an image\n- **protocols:** optional array of protocols to linkify, defaults to HTTP(S) + FTP + Dat\n  - Dat support is [broken](https://github.com/ssbc/ssb-markdown/issues/25) in any URI parser because [Dat identifiers aren't URIs](https://github.com/datproject/dat/issues/1050)\n\nThey're fine on their own, but often a bit of a hassle when interfacing with each other and different plugins and the various moving pieces that try to do URI encoding on our sigil link URLs. I tried to spike a quick implementation with Remark, but it ended up producing:\n\n```html\n<a href=\"&#x26;nBmGtTlQew5bSiy5CwKA7Qz6Qfj6UYzmf9gYgcNg+90=.sha256\">&#x26;nBmGtTlQew5bSiy5CwKA7Qz6Qfj6UYzmf9gYgcNg+90=.sha256</a></p>\n```\n\n🥴",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
     ]
   },
-  "signature": "Aq+dNkefGkSAzq4hrFzzXBmYloKJJT/QYC56pDBDdPIp/Qq7xuyrVJnyKTUSKsWNJoWlHs3wiifpdfpvrVFyAw==.sig.ed25519"
+  "signature": "Ktex6XYXcVvGIESYnUaQWWpr1bFVkuDlirfmddWGo52/OcbJ/rSvDHWnUVg0dr4DJWSUpXTc26Le1WAAnAuYDA==.sig.ed25519"
 }
