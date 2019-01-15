@@ -1,20 +1,22 @@
 {
-  "previous": "%TTbzM9ipQlzUrO92QmAtS0toJeX4diGtdP6m/CVpgO4=.sha256",
+  "previous": "%UOQTMlTwlz0kjI01lsI99OIKZU2Giea4peZv+95o9zg=.sha256",
+  "sequence": 8639,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8638,
-  "timestamp": 1547519326660,
+  "timestamp": 1547575407318,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tB+gAAVfoyjFMqqubu4mJLRfL8c9YzrAWG5lWmtoJ9s=.sha256",
-    "branch": "%GJnHHaCl7lT0w1W/B1icszNL0yby/xfUx+nuFSipMPk=.sha256",
-    "text": "[@stv0g](@dArlBpL16fq8eJp49rT/i9+efp5g4qT/XTiFehWYmYY=.ed25519) \n\nThis is a bleeding-edge development version, you can find more info [on GitHub](https://github.com/ssbc/patchbay).",
-    "mentions": [
-      {
-        "link": "@dArlBpL16fq8eJp49rT/i9+efp5g4qT/XTiFehWYmYY=.ed25519",
-        "name": "stv0g"
-      }
+    "type": "vote",
+    "root": "%5x9AOdw7rk+YoIWg9AsXbXw2mT7nLk2SShLxIeXsEHY=.sha256",
+    "vote": {
+      "link": "%wlVSftkTtoyKlbH4Xa0qP0Yqe1LuevB4MmKFKav+bMQ=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%nxrobj3SejEylmlXM2xmU8AV+AzhUzbn+mKQABVXdN8=.sha256",
+      "%vJrgAX14Xn82uZLu6vxLP4dRCLskkaFd5OeFMiaXmyA=.sha256",
+      "%wlVSftkTtoyKlbH4Xa0qP0Yqe1LuevB4MmKFKav+bMQ=.sha256"
     ]
   },
-  "signature": "c8+tqOnIu8AlSLaQEmdhIFpFDiZ7xAQpcGgcy7UNcrM64991ozNqkDIBNMHVUkOA2seUn9qxpDwPWjNZ9JmGBw==.sig.ed25519"
+  "signature": "DfVFSkTV2t+BglcceuE+FYbBoSpQ0IvfRiRGnBEWtNekVAeomGQ72ztNN1gw1CnVsaoGy/NL7014McbQUxaHBA==.sig.ed25519"
 }
