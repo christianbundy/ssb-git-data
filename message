@@ -1,21 +1,21 @@
 {
-  "previous": "%tktJlYYRhySe4csYXDJLpTeqC4Wfkkg1S5I574Ybi9Y=.sha256",
-  "sequence": 8642,
+  "previous": "%m2opiS2oQ0F543OZrFB0Uloe6ZXGFMrxQsVD3AKqLdo=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547576566033,
+  "sequence": 8643,
+  "timestamp": 1547588396597,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%jDhdHo8Rm7KiHaFWBR1fCEylIJej17qkjKPYg37UYI0=.sha256",
-    "vote": {
-      "link": "%dtsf6MGeRMltlzXbOJil6iNn30kyopaR/gWPYKpFU00=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%dtsf6MGeRMltlzXbOJil6iNn30kyopaR/gWPYKpFU00=.sha256",
-      "%n+INajUgu1UAdDvEaI6AYrG0EOoEJdOqY0BXzGt6eQA=.sha256"
+    "type": "post",
+    "text": "# `flumedb.rebuild()`: TypeError: rm is not a function\n\nI've written a super simple flumeview, backed by flumelog-memory, which seems to work perfectly everywhere *except* I can't get `flumedb.rebuild()` working. I'd love some help on this.\n\n```js\nconst Flume = require('flumedb')\nconst Log = require('flumelog-memory')\nconst Obv = require('obv')\nconst pull = require('pull-stream')\n\nconst View = (map) => () => {\n  // This view is backed up by a simple in-memory flumelog.\n  let log = Log()\n  let abort\n\n  const since = Obv().set(-1)\n\n  const api = {\n    close: (cb) => cb(null),\n    createSink: (cb) => {\n      abort = cb\n      return pull.drain((item) => {\n        const value = map(item.value)\n\n        log.append(value, (err, seq) => {\n          if (err) return cb(err)\n          since.set(seq)\n        })\n      }, cb)\n    },\n    destroy: (cb) => {\n      // Re-initialize `log` and reset `since`.\n      log = Log()\n      since.set(-1)\n\n      abort(null)\n      cb(null)\n    },\n    get: (seq, cb) => {\n      log.get(seq, (err, item) => {\n        if (err) return cb(err)\n        cb(null, item)\n      })\n    },\n    methods: {\n      get: 'async',\n      destroy: 'async' // XXX: shouldn't this be exported by default?\n    },\n    ready: (cb) => cb(null),\n    since\n  }\n\n  return api\n}\n\nFlume(Log()).use('bool', View(x => !!x)).rebuild()\n```\n\nThis produces an error:\n\n```console\n$ node index.js\n/home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/index.js:160\n                rm()\n                ^\n\nTypeError: rm is not a function\n    at /home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/index.js:160:17\n    at Object.many [as since] (/home/christianbundy/src/flumeview-flumelog-array/node_modules/obv/index.js:23:49)\n    at /home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/index.js:158:25\n    at destroy (/home/christianbundy/src/flumeview-flumelog-array/index.js:32:7)\n    at /home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/wrap.js:52:11\n    at ready (/home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/wrap.js:29:80)\n    at Object.destroy (/home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/wrap.js:51:9)\n    at Object.bool (/home/christianbundy/src/flumeview-flumelog-array/node_modules/flumedb/index.js:154:14)\n    at /home/christianbundy/src/flumeview-flumelog-array/node_modules/continuable-hash/index.js:18:23\n    at Array.forEach (<anonymous>)\n```\n\nIt looks like my observable isn't returning a function correctly, *plus* I've had to manually export `destroy` as a method. Should that be added as a [default method](https://github.com/flumedb/flumedb/blob/a1d1707d0da771656cc61864aebc48785ce96d2d/wrap.js#L65), or am I doing something wrong there as well?\n\nI've used flumelog-memory above, but this also happens with my homebrew [flumelog-array](https://github.com/fraction/flumelog-array) and flumelog-offset. **Any chance this is obvious to someone else?** I'm sure I'm doing something wrong here.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n#flumedb  ",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "#flumedb"
+      }
     ]
   },
-  "signature": "nEIX5gGWgVsG6b/kEzV5teifdKCqXyv5a1PMUKx/pLEzmocvO0CJfUW1VQic1IZG6KlEJN3ihqj6NYwqIBu6Bw==.sig.ed25519"
+  "signature": "B7+BzmRTMAO4Uqgjy7Ct3lZdQ9mW6vnoobBQpdg6+GpVLwMU6l0TMh4M+HUsfcRoy6J8+ajAhKjrt4KpS6HWDg==.sig.ed25519"
 }
