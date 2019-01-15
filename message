@@ -1,23 +1,21 @@
 {
-  "previous": "%cma3LhQM3/N2/8eSt/ZAJfnDYRm799+pQkA6it0s/Mo=.sha256",
+  "previous": "%tktJlYYRhySe4csYXDJLpTeqC4Wfkkg1S5I574Ybi9Y=.sha256",
+  "sequence": 8642,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8641,
-  "timestamp": 1547576431617,
+  "timestamp": 1547576566033,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%QzQxP2uxye+0BDut5BrzlvL0eomVQ+XwcwJYVBuV0xk=.sha256",
+    "type": "vote",
+    "root": "%jDhdHo8Rm7KiHaFWBR1fCEylIJej17qkjKPYg37UYI0=.sha256",
+    "vote": {
+      "link": "%dtsf6MGeRMltlzXbOJil6iNn30kyopaR/gWPYKpFU00=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%KSQjzbDHQSWIWqrRYRpKq4AdXtjoLX0EefU/VXKH3IE=.sha256",
-      "%RztnOizRfgNnUi99de+RRbk5RjXNVJ0c7iEOJs/t/qc=.sha256"
-    ],
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI just wish it was easier! I had to include `--interactive`, `--tty`, and `sh -c` just to get my Ctrl + C working, and `--user 1000:1000` because I had issues with `npx` as root. Maybe there's an easier way to go about it? ",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
+      "%dtsf6MGeRMltlzXbOJil6iNn30kyopaR/gWPYKpFU00=.sha256",
+      "%n+INajUgu1UAdDvEaI6AYrG0EOoEJdOqY0BXzGt6eQA=.sha256"
     ]
   },
-  "signature": "SCoZC4A2CKtFrYW85MLfwc5h5+c4+iLCzFZrpuLZT7FfuEUUzHEqerwZn49smc4nNVkwfCxliBAeSueynpxfBQ==.sig.ed25519"
+  "signature": "nEIX5gGWgVsG6b/kEzV5teifdKCqXyv5a1PMUKx/pLEzmocvO0CJfUW1VQic1IZG6KlEJN3ihqj6NYwqIBu6Bw==.sig.ed25519"
 }
