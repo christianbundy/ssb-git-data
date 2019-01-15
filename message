@@ -1,14 +1,14 @@
 {
-  "previous": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+  "previous": "%cQNx1ILyM4PwWwZ12Rf4YCKJ6CsMK7Q+Oc8yi7Xw+9c=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8644,
-  "timestamp": 1547588775271,
+  "sequence": 8645,
+  "timestamp": 1547594355197,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
-    "branch": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
-    "text": "Maybe something has changed in the obv library?\n\n```js\nconst Obv = require('obv')\nconst since = Obv().set(-1)\n\nlet rm = since(() => {\n  rm()\n})\n```\n\n```\n/home/christianbundy/src/obv/sanity-check.js:6\n\trm()\n\t^\n\nReferenceError: rm is not defined\n    at since (/home/christianbundy/src/obv/sanity-check.js:6:2)\n    at many (/home/christianbundy/src/obv/index.js:23:49)\n    at Object.<anonymous> (/home/christianbundy/src/obv/sanity-check.js:5:10)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Function.Module.runMain (module.js:694:10)\n    at startup (bootstrap_node.js:204:16)\n```"
+    "branch": "%cQNx1ILyM4PwWwZ12Rf4YCKJ6CsMK7Q+Oc8yi7Xw+9c=.sha256",
+    "text": "After playing with this a bit more, I'm under the impression that the obv library only returns a function when a listener is added *before* `set()` is called. I'm not sure why, but the solution seems to be:\n\n```js\nconst Obv = require('obv')\nconst since = Obv()\n\nlet rm = since(() => {\n  rm()\n})\n\nsince.set(-1)\n```\n\nUnfortunately, I'm unclear on how (and why) this should be done in a flumeview. I've tried looking into other views, but I'm having trouble grokking why they don't have the same problem."
   },
-  "signature": "OzCGXhinF45KUi8mUHu3ozb0jPrh317D9ckIlEvMauVDkhx0pJwOa6FnDUgFcUM40neCPLL32ZM+ChCbacoCDw==.sig.ed25519"
+  "signature": "DffT3vm0fUhk7e62Krd87SgklzJs7s2A9ae3+GG2shWfYc5JoZjWeSQoBy2LAkZmmy+G5Yc88BIBllMo9IlKDQ==.sig.ed25519"
 }
