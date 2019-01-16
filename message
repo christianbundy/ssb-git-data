@@ -1,14 +1,15 @@
 {
-  "previous": "%cQNx1ILyM4PwWwZ12Rf4YCKJ6CsMK7Q+Oc8yi7Xw+9c=.sha256",
+  "previous": "%5N8TABTl05nC8cYfzLhg0nzrzsnJohrWsk9QYcwquW4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8645,
-  "timestamp": 1547594355197,
+  "sequence": 8646,
+  "timestamp": 1547601798607,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
-    "branch": "%cQNx1ILyM4PwWwZ12Rf4YCKJ6CsMK7Q+Oc8yi7Xw+9c=.sha256",
-    "text": "After playing with this a bit more, I'm under the impression that the obv library only returns a function when a listener is added *before* `set()` is called. I'm not sure why, but the solution seems to be:\n\n```js\nconst Obv = require('obv')\nconst since = Obv()\n\nlet rm = since(() => {\n  rm()\n})\n\nsince.set(-1)\n```\n\nUnfortunately, I'm unclear on how (and why) this should be done in a flumeview. I've tried looking into other views, but I'm having trouble grokking why they don't have the same problem."
+    "root": "%BSAlY376fFRun7YIEQqw8+h5X9WzSNTJZTQN7ODmY+U=.sha256",
+    "branch": "%BSAlY376fFRun7YIEQqw8+h5X9WzSNTJZTQN7ODmY+U=.sha256",
+    "channel": "current-events",
+    "text": "> 2019 Saha Airlines Boeing 707 crash\n\nIt's always strange to see rare events like plane crashes in the news. On one hand, they're incredibly rare. On the other hand, they seem to happen all the time. I wonder which cognitive bias that would be. Anyone know?"
   },
-  "signature": "DffT3vm0fUhk7e62Krd87SgklzJs7s2A9ae3+GG2shWfYc5JoZjWeSQoBy2LAkZmmy+G5Yc88BIBllMo9IlKDQ==.sig.ed25519"
+  "signature": "IsYitMvbpWKTUjNDy7eqL8fV/fGVwZrBoql0UCZ6d9Vgden1GR2tIyT0w3i46eDV5TH34Y4ZZLEL0ECzJRljDg==.sig.ed25519"
 }
