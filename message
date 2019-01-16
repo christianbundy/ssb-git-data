@@ -1,22 +1,14 @@
 {
-  "previous": "%FkAYD1k6AN3fwSNuD/rJplRcN4M80hMnBhH97Qk9eGc=.sha256",
-  "sequence": 8649,
+  "previous": "%ZC45pt47hHsr4r5lzV7KPIhAiSwJwxi74JLoywTsEUw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547602730112,
+  "sequence": 8650,
+  "timestamp": 1547656052469,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Uz9JqPpMD0C97UXZlel/KXlaA+7l5o/zWt7OiL0rx+g=.sha256",
-    "vote": {
-      "link": "%Uz9JqPpMD0C97UXZlel/KXlaA+7l5o/zWt7OiL0rx+g=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%/upnUUcgu1JL0x287fYjE+O4GjrRUGxVZ6ka1qYCHZk=.sha256",
-      "%FRMLJF46Q31elCy3On79uQPQpJ+LgKLE12hXcLdxvj0=.sha256",
-      "%vc4VkOu1PGzTKOsvD90YYvbuDIMG5k1zCku0qwE+ke8=.sha256"
-    ]
+    "type": "post",
+    "root": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+    "branch": "%5N8TABTl05nC8cYfzLhg0nzrzsnJohrWsk9QYcwquW4=.sha256",
+    "text": "Oh, duh: the inner function can't access the variable name until the expression is finished, so the robust solution looks something like:\n\n```js\nconst Obv = require('./')\n\nconst since = Obv().set(-1)\n\nconst rm = since(() => {\n  setImmediate(() => rm())\n})\n```\n\nThis way `rm()` isn't executed until the next tick, because that's when the function is actually added to the scope. I'm not sure whether this is a bug in obv or in flumedb's usage, but I've opened a [PR](https://github.com/flumedb/flumedb/pull/29) to resolve the issue in flumedb. Another alternative would be to always `setImmediate` when an observable is unset, but I'm leaning toward the simple solution since I have a better grasp on flumedb."
   },
-  "signature": "dEdeHuH9mDFPDZIzNhs7ZMmTYL7fiNPjrx4sLYsicznrzN4SuOpTz/sPO7FWByC0+VvjVt8YVSneLxC1+YPSCQ==.sig.ed25519"
+  "signature": "gD+APhiYHOLD2zEVCUaUylroVezaExzZJsR2u59hu1K09TFEPiE+Xg5hq3uC8Ec7M4BRnjCIg2A3S5fxdIF+Bg==.sig.ed25519"
 }
