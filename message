@@ -1,15 +1,20 @@
 {
-  "previous": "%5N8TABTl05nC8cYfzLhg0nzrzsnJohrWsk9QYcwquW4=.sha256",
+  "previous": "%IZDWXVHaMvW3M5GAURb9dk4gk7fWnSxdaP91WE60OjI=.sha256",
+  "sequence": 8647,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8646,
-  "timestamp": 1547601798607,
+  "timestamp": 1547601980750,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%BSAlY376fFRun7YIEQqw8+h5X9WzSNTJZTQN7ODmY+U=.sha256",
-    "branch": "%BSAlY376fFRun7YIEQqw8+h5X9WzSNTJZTQN7ODmY+U=.sha256",
-    "channel": "current-events",
-    "text": "> 2019 Saha Airlines Boeing 707 crash\n\nIt's always strange to see rare events like plane crashes in the news. On one hand, they're incredibly rare. On the other hand, they seem to happen all the time. I wonder which cognitive bias that would be. Anyone know?"
+    "type": "vote",
+    "root": "%2DPa7quCfTU4UwPExIaU4FgIHiWOcN+BJtmQL1jQF9M=.sha256",
+    "vote": {
+      "link": "%stuopQ+h8wAWJJfA3RIVqLnCUdAcW5M2AuBcOVrfeC4=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%U/5bRnQjbfW0UDg27fCLzg9pzQFHs+pDDED91+pAIes=.sha256"
+    ]
   },
-  "signature": "IsYitMvbpWKTUjNDy7eqL8fV/fGVwZrBoql0UCZ6d9Vgden1GR2tIyT0w3i46eDV5TH34Y4ZZLEL0ECzJRljDg==.sig.ed25519"
+  "signature": "rQw3nsTJ/h0ojmmHzBCK5ABSw2oKNvhkCeGlG/A2XSNlHuL+iS29vi2a1AfqscxH2NIgDjmqtZ3S8lBPyB/ZCA==.sig.ed25519"
 }
