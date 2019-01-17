@@ -1,20 +1,43 @@
 {
-  "previous": "%g9Kn90tiYmV0YsTm5WT3eK3HI4TEAPAYfkqWNH2tlKQ=.sha256",
-  "sequence": 8684,
+  "previous": "%+2SnGtM8rSeHHRqbFeGiMjAUsFc+YAeK1ejiH/D1VfA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1547753381366,
+  "sequence": 8685,
+  "timestamp": 1547754312826,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%1TGnwM1BWcnlQG+aWiPayrKPbGWxTxT+ujfiFyAiMpo=.sha256",
-    "vote": {
-      "link": "%VNZjpq9NpS5syLib21pNe9Op2jfQ+Q5dfzmJl58iUlg=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%FkAYD1k6AN3fwSNuD/rJplRcN4M80hMnBhH97Qk9eGc=.sha256",
     "branch": [
-      "%g9Kn90tiYmV0YsTm5WT3eK3HI4TEAPAYfkqWNH2tlKQ=.sha256"
+      "%0PkbYRSDr7d8MCxS2wtiU2eF187UifWjhR5SSb5bJ2U=.sha256",
+      "%9w1jcI+P1uxZFPmT6Oz+zjizoLSuRbJ0UO8JAQHYQUs=.sha256",
+      "%N50cLVzB7gsmGq0hkHtZuB2czIpxqWlhjVYAch3qWWk=.sha256",
+      "%lDU9MIL5YOjp3+cMCJ64idojrKZGMeVuK3ZEuSVOzM4=.sha256"
+    ],
+    "text": "Wow, this was a really cool thread to open this morning -- thanks for all of the responses. ❤ Should we each just come up with our own availability, or would it be helpful to have an inverse [scry](%7aw//w7CkOyBSV5H8iEYs2dhvV3CP4ANsvByIgrqEPI=.sha256) to minimize overlap in time and space?\n\nTo give a concrete example, I'd imagine posting something like:\n\n> # I'm hosting office hours (!)\n>\n> Others in our community have spent *tons* of time and energy helping me learn about Scuttlebutt, and I'd love to host office hours to redirect some of that back into our community.\n>\n> I'd love to chat, answer questions, and maybe even hack on some code. This is an experiment in collaboration and community, so it may be a bit more open-ended than you'd expect from traditional office hours.\n>\n> I'll be available for about an hour starting on Friday, February 1st at 15:00 UTC, and I'm planning to repeat this every two weeks for *at least* eight weeks (four iterations).\n>\n> The best ways to join are:\n>\n> - voice chat via Mumble (example.com, password is `hunter2`)\n> - post messages to `[this gathering](%...)`\n> - send a message over #ssb-chat\n>\n> I'll plan on writing up a brief summary afterward, which I'll share as a message on this thread for anyone who couldn't attend. I'd also encourage you to check out #office-hours, where you'll find some other fine folks practicing a similar experiment.\n\nAny recommendations or ambiguities? I'm also interested in experimenting with:\n\n- [alternating times](%SZy3Geg4HxjZkkM3BTF/RwYM9cA6ITNUcp8xEwAGyjI=.sha256)\n- [Jitsi](%iMxByvHWfdPW4btF4lTMxQtt2tAmxq8d4G+tV04L+VQ=.sha256)\n- [NextCloud Talk](%I38ZutMj+dFO+3kqgPHUyTirlCejnT+tFeifPMOIEuI=.sha256)",
+    "mentions": [
+      {
+        "link": "%7aw//w7CkOyBSV5H8iEYs2dhvV3CP4ANsvByIgrqEPI=.sha256",
+        "name": "scry"
+      },
+      {
+        "link": "#ssb-chat"
+      },
+      {
+        "link": "#office-hours"
+      },
+      {
+        "link": "%SZy3Geg4HxjZkkM3BTF/RwYM9cA6ITNUcp8xEwAGyjI=.sha256",
+        "name": "alternating times"
+      },
+      {
+        "link": "%iMxByvHWfdPW4btF4lTMxQtt2tAmxq8d4G+tV04L+VQ=.sha256",
+        "name": "Jitsi"
+      },
+      {
+        "link": "%I38ZutMj+dFO+3kqgPHUyTirlCejnT+tFeifPMOIEuI=.sha256",
+        "name": "NextCloud Talk"
+      }
     ]
   },
-  "signature": "lCnWVEzx+vHS9CpQMKodBW5fJBWTtPvU8TLgolxFm5cGvR14bT+mV1/0Jznn5Y/Nrw+ft0rrDB1SRmmy4vzVDA==.sig.ed25519"
+  "signature": "4ke05lVgVLlGJPryPyp7DjjBok4SLvWMN4OADxmqk5fXQUB13UNaY7t0B6bS+QLUmH9d2/WwzZ75S8pRe3IHAg==.sig.ed25519"
 }
