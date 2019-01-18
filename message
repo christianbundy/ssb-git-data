@@ -1,15 +1,21 @@
 {
-  "previous": "%/dTOVa8RYe/+EmSjkECtYlRSfAtsLEsrBgs//Taoqtg=.sha256",
+  "previous": "%BRf34OH0jSTOZ6g5x6OdvodI0etfbs08mvaIYy2Sae4=.sha256",
+  "sequence": 8691,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8690,
-  "timestamp": 1547768102753,
+  "timestamp": 1547776969304,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256",
-    "branch": "%SEnoa//KMyWK+aWvhLYKyzAdt4+AhktNVAd7/cyt6VQ=.sha256",
-    "channel": "ssb-show-and-tell",
-    "text": "I've just created a [pull request for Patchwork](https://github.com/ssbc/patchwork/pull/926) and a [pull request for Patchbay](https://github.com/ssbc/patchbay/pull/306) using this module to add support for SSB URIs. If/when they're merged, any of these should work:\n\n- clicking [this link](ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=)\n- clicking <ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=>\n- pasting this into your search bar:\n\n    ```\n    ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\n    ```"
+    "type": "vote",
+    "root": "%Z/rwBPNGrBMBpOOHyc6hGqRlxEEhkiFo1EbfYAFqEYc=.sha256",
+    "vote": {
+      "link": "%TjU3O8ImA8qC6ZdBQJiMnvJW2SEoVvcGGNl/fsq74U0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%OqdGZr5NMViB8XdHAtvGXivbRY5hrQaX0pnDl/1RQe8=.sha256",
+      "%TjU3O8ImA8qC6ZdBQJiMnvJW2SEoVvcGGNl/fsq74U0=.sha256"
+    ]
   },
-  "signature": "3w+QZrPbb7RFIPMoKPIBYbYn1tZSt+oTYsOaoeDBf2ZjdgHgLVB48P5mhbChW+1uVzzeqwwE7YNwEg/4weMBBQ==.sig.ed25519"
+  "signature": "U9/Yhlt+regNLxL6xt8PfLcCT+J96VsThdO8N6hpDyWZfMnZQTqrJsBheJgufyfF/MGxFvmf+GGAD/7barKhCg==.sig.ed25519"
 }
