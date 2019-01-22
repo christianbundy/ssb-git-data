@@ -1,13 +1,21 @@
 {
-  "previous": "%UpX0paXkXdIW5COLMFBRgPboxLP4WVxRZN0gJIg7SV4=.sha256",
+  "previous": "%KLIiNctg7YEAkrl3TrLFbwUL4Nbf4VCqgKay0yiEkkM=.sha256",
+  "sequence": 8719,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8718,
-  "timestamp": 1548194403323,
+  "timestamp": 1548195614430,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@iVPi/B73hJSpsUB8XbSnlxe3NembPXLjOfIexlYdgJA=.ed25519",
-    "name": "The Weekly"
+    "type": "vote",
+    "root": "%VmD9dUzlnpQwbSCDzz2crWkHISb27nun6kayTvLJJUg=.sha256",
+    "vote": {
+      "link": "%VmD9dUzlnpQwbSCDzz2crWkHISb27nun6kayTvLJJUg=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%R4prZbJMpQSKy/KyUyuvxcPT8kdKIseuu0F5DoO2FiU=.sha256",
+      "%Sc+FaSWLRHH/u1aqlG29dq7/ghlvZmYbMrNDNF6Unjc=.sha256"
+    ]
   },
-  "signature": "ogj8PwMaWfjy5EF8vMuvNtjMTU6EArL4dkOVLNgWQylLLwMhr0E6Cr1fMVJgyCkIzXFiVvhP0vnfsKL0hwzIBg==.sig.ed25519"
+  "signature": "8FH2Vi4Kf8bOR0+txdk80AcdLpgR6BJrD54OLTCPidEoxb3zdxOkVNO1VgFUZCjdDa15x4vIKfEzk1ldgHkhDA==.sig.ed25519"
 }
