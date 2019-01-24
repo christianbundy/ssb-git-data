@@ -1,21 +1,21 @@
 {
-  "previous": "%Etw5FxN4GzqSvAbcJgVu/LGZRyi1auC0sfafhS2MNzw=.sha256",
+  "previous": "%cM+EpikjtEqpkJMhuSvTwgmr6isAw3FKhTzNSEa9EyQ=.sha256",
+  "sequence": 8730,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8729,
-  "timestamp": 1548356353520,
+  "timestamp": 1548360685894,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%zDRxOVmlSC+5XKmhG+TVti0mOumKe7TwZZyiHIcVa5M=.sha256",
-    "branch": "%hqP4QU6+r9tVTGLEc4BUg9sqeVZNsb2jILLBrJrJKEo=.sha256",
-    "channel": "help",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nYeah, that stems from my least favorite issue: https://github.com/ssbc/ssb-server/issues/577\n\nThe solution is to set `{ server }` to some truthy value (e.g. `true`) in your config, but [I have no idea]](https://github.com/ssbc/multiserver/issues/33) why this is required or what it's meant to do. Here's the relevant bit from [the workaround in Patchbay](https://github.com/ssbc/patchbay/blob/14955bd14de37455c5c7c93c09692bb20eab43cb/config.js#L30):\n\n```\n{ incoming: { unix: [{ 'scope': 'local', 'transform': 'noauth', server: 'true' }] } }\n```\n\nSorry that you have to deal with this as well, it's incredibly frustrating.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
+    "vote": {
+      "link": "%IoHZyzLpoFRTZyT8cSDDl3GDlY6zBDICnhAlOjDWEKI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%IoHZyzLpoFRTZyT8cSDDl3GDlY6zBDICnhAlOjDWEKI=.sha256",
+      "%VNsv9Tq2pvU/wHbqzlMVWShXUSPFlb9CvJK+tTfUWHA=.sha256"
     ]
   },
-  "signature": "G5Yh5xLgBJMHthsli1Pne0YNMWgUx075aq27Jf6T74SsO/NGDUsYQHJ5md7d+NAvfqLbrMO0WrQqvKOB7LkUDg==.sig.ed25519"
+  "signature": "3weSGDwc0uy2zF0okocDDLgKlzlceQUwHc65DyPVB6aZGBAsw3ANGH1fEkdYQjhlEQSnXvJZ2jMOlkXf+ugvBg==.sig.ed25519"
 }
