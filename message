@@ -1,20 +1,24 @@
 {
-  "previous": "%QVM6fGnqJUck2+QhNZrfI7V9K2jMS0O4hQRbhg4EbJo=.sha256",
-  "sequence": 8725,
+  "previous": "%uD9hg17vy5v2YR8Bqw/UeU/raN32hrqNPuBWqT8wVVI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1548300678449,
+  "sequence": 8726,
+  "timestamp": 1548346439686,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%5OCfOW7r4auyOxUKkCjKSVLUDThWRYGwfiDaPihE4fQ=.sha256",
-    "vote": {
-      "link": "%5OCfOW7r4auyOxUKkCjKSVLUDThWRYGwfiDaPihE4fQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%cp0jkGrApnrGnEnoHmTfXThJzkpltu81nuMAXBuThLc=.sha256"
+    "type": "post",
+    "root": "%zDRxOVmlSC+5XKmhG+TVti0mOumKe7TwZZyiHIcVa5M=.sha256",
+    "branch": "%Bzx41NJhyQFoiIZcGgL34EC3YHbqkswBvZsHKlvovoQ=.sha256",
+    "channel": "help",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nBacklink: %IaR0OJ+2V4rVi/aOOkynHMCt7omKVzyNntXTCfferVY=.sha256",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "%IaR0OJ+2V4rVi/aOOkynHMCt7omKVzyNntXTCfferVY=.sha256"
+      }
     ]
   },
-  "signature": "SKDf3LNEJLbwnp364WbXxLiIPOr1juljwsMNxpHaHzXMhvX/PK5JYDoJ2K7I+t4XEotFHpWIvR198GBBjuPdBQ==.sig.ed25519"
+  "signature": "icZKR6lA5bZjvHlqxq4peEMLQNgfBiZtmDBqevsu+Y1+rzGUD4ibJAo2R2eNz+CCwpmXprVkT2GCb2LYYc04AQ==.sig.ed25519"
 }
