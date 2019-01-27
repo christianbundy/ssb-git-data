@@ -1,9 +1,27 @@
 {
-  "previous": "%91OcvoPqDehrAISg5UfARg1kytIdUyqkihEzfo0gK8Q=.sha256",
+  "previous": "%xhQRDPUkvMRolo6ajtKQlG8+B5rgawtXdH4tGEGvOo0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8734,
-  "timestamp": 1548455708190,
+  "sequence": 8735,
+  "timestamp": 1548558774646,
   "hash": "sha256",
-  "content": "xlfqIEw06f75V0PpgkNa1LEToUz04pQp4NeZ2UtOtdP51f+a07YOpvsQuRC+V0/0ATC6lc/GYg3lBPyni8BXyTuZYWFcqBLR0MxxDJwsmP4YuTz0+RLRmCl1qR63gMF9z5aNqFHL8z3QM68OHWaq0g46HI/ev27PZjQ5JXKc3PxMDAodldigp9OVgNEI+TUYxVRG/eSoyRUtq5EfJLMSRpus+C/MxQkMw8fWOVZkn4cgQYaRRK96OHyvbUY6zTkaFDxQ0kSAxjtBy+kBZjrFr2cXk+B5WP2YNhPUpg+8DO4b87yisKEf++oxyRdwSYA3CIBmdwyuEMIp2TeYbaN0POZiyyvdrrGS9B4PS4GLFwo0FOU95v3wM/Whgkq6asy7EGbIc59WBptpKlAEGz+6+MFWgRmkYg3omwctmq3lL7Y+puFNkTGFfGF28pOb4v3uK/lNjg9u7NeRMrBsab93HdVQbZGa+dxVzzNYLR+7dNq7CZg+CMafc/g5xm0BW//jBocA2A5a5y3eYpl6eO9Kth7R8WKM4dx+Ew==.box",
-  "signature": "WU/FNVy+DMXVvgzpreg9iopNFAzGXcKws5ZVGblaePwg5yCOGWGhGjTGgm89wn+P4m7qpzO4RDcxQOyU+29ODw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%U0Ioq3th/xBOJPIBvzCcQxrZBbxHZkXrCusayEVuoeo=.sha256",
+    "branch": [
+      "%DQlqlp9IfKG1bRa4gGjlEzJhFYYbHK2uE7Iw0ipz9S4=.sha256",
+      "%dnML7CKEIdg9IQTnx1hrwgISQWamg4rVz/aQDsd6aOk=.sha256"
+    ],
+    "channel": "scuttlebutt",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI am! My latest thread is here: %6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256\n\nI'm currently working on adding deletion to both aligned-block-file and flumelog-offset so that we can have non-hacky deletion that's quick and simple. The deletion works, but there are some edge-cases where it throws errors. I'll publish an update once I'm in a good stopping place and push PRs adding it to Patchwork/Patchbay for testing!",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      },
+      {
+        "link": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256"
+      }
+    ]
+  },
+  "signature": "IOzrZO2Ta9GQiNKXmRbbHkGxPJizEeKSMsoJcHehSGvL2VdG2C14CCmvKUWFK3Y8KyMBGE3AANLOzjGtfV2fBw==.sig.ed25519"
 }
