@@ -1,27 +1,21 @@
 {
-  "previous": "%xhQRDPUkvMRolo6ajtKQlG8+B5rgawtXdH4tGEGvOo0=.sha256",
+  "previous": "%Wvov7+ofnCT/+XZ89acVBvDZ5BN1HpGGHpsD5NfAzO0=.sha256",
+  "sequence": 8736,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8735,
-  "timestamp": 1548558774646,
+  "timestamp": 1548558795235,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%U0Ioq3th/xBOJPIBvzCcQxrZBbxHZkXrCusayEVuoeo=.sha256",
+    "type": "vote",
+    "root": "%5OCfOW7r4auyOxUKkCjKSVLUDThWRYGwfiDaPihE4fQ=.sha256",
+    "vote": {
+      "link": "%NHudKG8fV80OPCG79jKmxBHcD5+H1t7OZ+5pF9rlC9U=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%DQlqlp9IfKG1bRa4gGjlEzJhFYYbHK2uE7Iw0ipz9S4=.sha256",
-      "%dnML7CKEIdg9IQTnx1hrwgISQWamg4rVz/aQDsd6aOk=.sha256"
-    ],
-    "channel": "scuttlebutt",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI am! My latest thread is here: %6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256\n\nI'm currently working on adding deletion to both aligned-block-file and flumelog-offset so that we can have non-hacky deletion that's quick and simple. The deletion works, but there are some edge-cases where it throws errors. I'll publish an update once I'm in a good stopping place and push PRs adding it to Patchwork/Patchbay for testing!",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256"
-      }
+      "%NHudKG8fV80OPCG79jKmxBHcD5+H1t7OZ+5pF9rlC9U=.sha256",
+      "%uD9hg17vy5v2YR8Bqw/UeU/raN32hrqNPuBWqT8wVVI=.sha256"
     ]
   },
-  "signature": "IOzrZO2Ta9GQiNKXmRbbHkGxPJizEeKSMsoJcHehSGvL2VdG2C14CCmvKUWFK3Y8KyMBGE3AANLOzjGtfV2fBw==.sig.ed25519"
+  "signature": "xKPkjdlZxoSmjdTfEqKeX85GLG2wIcbe++pJ+XiAF0gQiSRfqnlaFFxSYxLxrUHpaFkLSfFUOYKCbEKbXtgkAg==.sig.ed25519"
 }
