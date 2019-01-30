@@ -1,20 +1,29 @@
 {
-  "previous": "%234t8uB2WwhW7+jSbX2ZPIDBpfL03/K3536y4vuYPtI=.sha256",
-  "sequence": 8755,
+  "previous": "%39SWPnW0tqU9nGaLDcfAZtg25SVIcEtmtjuGgkurxNE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1548818778353,
+  "sequence": 8756,
+  "timestamp": 1548866354377,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%rfR4VYjo5ZCsycdK/w4qNwi9iwBDdNQ1ULzT2J4MX24=.sha256",
-    "vote": {
-      "link": "%rfR4VYjo5ZCsycdK/w4qNwi9iwBDdNQ1ULzT2J4MX24=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%ZIAEbVvF2reulOVJTZNI3AQmMIgK2KgcDdOJfThbNIA=.sha256"
+    "type": "post",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": "%b7pXZM4ACsoeKuwgcgda5yggcEFdJy2zOrEyhGq01Cg=.sha256",
+    "channel": "ssb-server",
+    "text": "[@pub_cel](@5XaVcAJ5DklwuuIkjGz4lwm2rOnMHHovhNg7BFFnyJ8=.ed25519) \n\nThe problem with `0`, `null`, `{}`, etc., is that all of our code expects a well-formed message, and tends to throw errors when you don't have one. We can use a fake or modified message, which is what I'm doing now, but I've seen an abundance of peering errors that may suggest that the gossip code is viewing it anyway.\n\n[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519) \n\nThe way you've done it in `filter_log()` works, and that's how I'm currently doing feed deletion. The problem is that it's incredibly slow, especially on mobile devices, and so the next step is to do deletion *without* rebuilding the log or indexes [when possible](%eOZZtcoKQK65FBtLvSgD6KSOPAA+KRcsPQq+AXYNPeA=.sha256). Anything built on leveldb can do quick and easy deletes with `db.del(key)`, so as long as our log supports deletion then it's simple to say \"if deletion is supported, delete, otherwise rebuild\".",
+    "mentions": [
+      {
+        "link": "@5XaVcAJ5DklwuuIkjGz4lwm2rOnMHHovhNg7BFFnyJ8=.ed25519",
+        "name": "pub_cel"
+      },
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      },
+      {
+        "link": "%eOZZtcoKQK65FBtLvSgD6KSOPAA+KRcsPQq+AXYNPeA=.sha256",
+        "name": "when possible"
+      }
     ]
   },
-  "signature": "FLBNx3ndNzbYacjGuWj+zJ0o2wzKjm3+atJv0eZCNDywDavuTdmS24qxIITq7yUvq1BLV+kiwJ3q4INl3EMhBw==.sig.ed25519"
+  "signature": "k8dhZh8yfFtmkESlx9EiuVinU2eymXBzvrQ5P6nHN5Gtw/G8oq9VTpmjE1wgSgg9hV8/slvEqQoHMknTTIoKDw==.sig.ed25519"
 }
