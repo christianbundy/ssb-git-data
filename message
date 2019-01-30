@@ -1,18 +1,25 @@
 {
-  "previous": "%hYBEUAP9Z0AnKHZXg9UvJo4IpNHUEVvjx04sGPwygXs=.sha256",
+  "previous": "%rEkDcO8DxKl7I0nbu6JbrK3gX7Drm+Jhz1SiPufBwxM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8752,
-  "timestamp": 1548812674297,
+  "sequence": 8753,
+  "timestamp": 1548813455858,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@ailrick](@3oy7lS05WQRV4yzaQVy92LAO9KLqFCnEHzzUDfAWN3c=.ed25519)\n\nHave you been watching anything new lately? IIRC you recommended both Westworld and Bandersnatch to me, and I could have sworn there were a few others. Kathleen mentioned that you and/or Natalie are watching YOU -- worth checking out?",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": "%PzuavYEZITVIzUCXkF1A7L/B4cp+G2vOK0ObfFSyt28=.sha256",
+    "channel": "ssb-server",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519) \n\nThanks! I've deleted my log *many* times today and am currently in the process of downloading messages, so I'll check out that link once it's available. Right now it's just throwing \"not found\".\n\nThe compaction method is how the [current flumedb deletion prototype](%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256) works, streaming from one log to the other while filtering out the deleted content. The [updated code](https://github.com/fraction/flumedb-delete/pull/4) makes deletion a first-class citizen in flumelog-offset and views that support it ([only my experimental one](https://github.com/fraction/flumeview-flumelog-array)), but it relies on replacing the deleted content with a fake message, which causes problems down the line.\n\nReally looking forward to checking out your link, I appreciate the new information.",
     "mentions": [
       {
-        "link": "@3oy7lS05WQRV4yzaQVy92LAO9KLqFCnEHzzUDfAWN3c=.ed25519",
-        "name": "ailrick"
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      },
+      {
+        "link": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
+        "name": "current flumedb deletion prototype"
       }
     ]
   },
-  "signature": "gialahSRxJ9IXF3ft3oUfuA6OYegQCI5tv8c/nFHlFqU7WcjZP3A0jELo0pOE6EH41/vcMoJXuxuURSoZI6yCA==.sig.ed25519"
+  "signature": "00lzSoIY27J/3D55YMRUAVKgTbTEBd0euT5qmFBTVM5xl+jhpLtUyrhahHYa8y0TplOP69oFcJZ3rZF71GWVBg==.sig.ed25519"
 }
