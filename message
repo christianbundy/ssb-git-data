@@ -1,46 +1,21 @@
 {
-  "previous": "%ZFT7vt5Gl1w8mIG+Vko8mzFbwoK2ISEWmqxi0ubmzp4=.sha256",
+  "previous": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8749,
-  "timestamp": 1548807968820,
+  "sequence": 8750,
+  "timestamp": 1548808127327,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Deleting feeds and comparing flumelogs\n\nIn the past few months I've been increasingly interested in feed deletion, which gives users the ability to delete content from folks that they've blocked. Being unable to delete feeds from your computer is disempowering, and means that bad people can post bad things that have to stay on your computer *forever*.\n\nThat's bad.\n\nI've been working on feed deletion with #verse and I've been making some great progress adding deletion to the following JavaScript modules:\n\n- aligned-block-file\n- flumelog-offset\n- flumedb\n- ssb-db\n- ssb-server\n\nThe gist is pretty simple: flumelog-offsets stores all messages in one big file, and deletion works by replacing the target message with something else. My first approach was to replace it with a bunch of `0`s, but ssb-db always expects a message and tends to blow up when you hand it empty buffers.\n\nCurrently my approach is to add a fake message, which is *fine*, but I'm feeling unsatisfied by the amount of hackiness required to delete items from the log.\n\nOver time I've been wondering: why flumelog-offset? It's impressively fast, but being double the speed of leveldb doesn't matter unless that's the bottleneck. The [benchmarks](https://github.com/flumedb/bench-flumelog) show flumelog-offset writing at 13 MB/s, but in reality I've never seen it write faster than ~800 KiB/s because the bottleneck\nis our peering bandwidth, not the file write speed.\n\nIf that's the case, does it matter that flumelog-level only writes at 8 MB/s? I'm not completely sold on leveldb, but it seems to have a lot of positives:\n\n1. Already-implemented read, write, update, and deletion.\n2. Streaming as a first-class citizen.\n3. Loads of compatibility, from a Raspberry Pi to a browser.\n4. Heaps of documentation, support, and smart folks working on it.\n5. We're already using it for many/most of our flumeviews.\n\nDon't get me wrong, I think flumelog-offset is incredibly impressive and unexpectedly fast as an append-only database, but I'm wondering which trade-offs we're making when we optimize for appends and ignore mutability.\n\nWhat do you all think? I'd love some feedback on your experiences with flumelog-offset, leveldb, and thoughts on what we should look for in a log.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) #flumedb ( #flume ) #javascript #scuttlebot ",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
     "channel": "ssb-server",
+    "text": "Also, I found [this PR](https://github.com/ssbc/ssb-db/pull/167) where I think leveldb was replaced with flumedb + flumelog-offset, but I can't find any context for the change. If there are any threads I should read or history I should know, I'd love a pointer!\n\ncc: [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) 💁",
     "mentions": [
       {
-        "link": "#verse"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
-        "name": "regular"
-      },
-      {
-        "link": "#flumedb"
-      },
-      {
-        "link": "#flume"
-      },
-      {
-        "link": "#javascript"
-      },
-      {
-        "link": "#scuttlebot"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
       }
     ]
   },
-  "signature": "oZd3TLH1gBdkXspTPc6W9ye6/wKyTOpAge+6ybvD5X8PXWJss7GTj+BORwhqmO5G5p9hbdhNW2By1RogOXifBg==.sig.ed25519"
+  "signature": "Bd8kk5TfTtlRD0pC2m3w8iwLxtiIQMANyzIH8gGbK8G+HcR4y6z4NJxAdHadP9Aqx0izHRU3tlNi++45BnjwCA==.sig.ed25519"
 }
