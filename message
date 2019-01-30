@@ -1,25 +1,21 @@
 {
-  "previous": "%rEkDcO8DxKl7I0nbu6JbrK3gX7Drm+Jhz1SiPufBwxM=.sha256",
+  "previous": "%VdBCFBaCjS5Ec9QQ5acUH327MZGM5Yx/83XAcFD+qVE=.sha256",
+  "sequence": 8754,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8753,
-  "timestamp": 1548813455858,
+  "timestamp": 1548813468911,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
-    "branch": "%PzuavYEZITVIzUCXkF1A7L/B4cp+G2vOK0ObfFSyt28=.sha256",
-    "channel": "ssb-server",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519) \n\nThanks! I've deleted my log *many* times today and am currently in the process of downloading messages, so I'll check out that link once it's available. Right now it's just throwing \"not found\".\n\nThe compaction method is how the [current flumedb deletion prototype](%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256) works, streaming from one log to the other while filtering out the deleted content. The [updated code](https://github.com/fraction/flumedb-delete/pull/4) makes deletion a first-class citizen in flumelog-offset and views that support it ([only my experimental one](https://github.com/fraction/flumeview-flumelog-array)), but it relies on replacing the deleted content with a fake message, which causes problems down the line.\n\nReally looking forward to checking out your link, I appreciate the new information.",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      },
-      {
-        "link": "%6wBVeuucxVQiaHaeEJHfXGd7WeDs0efbTfaGEAMNmPk=.sha256",
-        "name": "current flumedb deletion prototype"
-      }
+    "type": "vote",
+    "root": "%SR5RcMaRlNXPOlVSFCq2E5WzwSawxmlQNh1T1DovfM0=.sha256",
+    "vote": {
+      "link": "%SR5RcMaRlNXPOlVSFCq2E5WzwSawxmlQNh1T1DovfM0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%C6ah7bry1MpOzbhuIpvWpTSmXWPYmkEg7qJWlWPz4Kg=.sha256",
+      "%p+W3Y1dgpGnCH5I+AuT2b39Xiv0ZboWGtEtmGvbmxXo=.sha256"
     ]
   },
-  "signature": "00lzSoIY27J/3D55YMRUAVKgTbTEBd0euT5qmFBTVM5xl+jhpLtUyrhahHYa8y0TplOP69oFcJZ3rZF71GWVBg==.sig.ed25519"
+  "signature": "KyrXd1EjwyhPM7KWEx8nNJxamnSWuxIdkPu/DBnXTYKSiYkHAN0RajvIlMbyGpvJp/mAZY0b1OrosFR/lRO0Ag==.sig.ed25519"
 }
