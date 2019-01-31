@@ -1,20 +1,21 @@
 {
-  "previous": "%x9vneNWuZGtzrJcD3E9yx3ouqwOpNCkSveC4saCyKgg=.sha256",
-  "sequence": 8773,
+  "previous": "%EUEw7b9dlZQn68pSZ7VYXBUuJ3ywXd90Bt3RALHDu1g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1548949589843,
+  "sequence": 8774,
+  "timestamp": 1548956360750,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%XuOx/7YO9+1dIUMVnB2Gl4mHf4kTkRs+jVIASO95yVI=.sha256",
-    "vote": {
-      "link": "%XuOx/7YO9+1dIUMVnB2Gl4mHf4kTkRs+jVIASO95yVI=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%XuOx/7YO9+1dIUMVnB2Gl4mHf4kTkRs+jVIASO95yVI=.sha256"
+    "type": "post",
+    "text": "# Where is the Scuttlebutt documentation?\n\nI've seen both http://scuttlebot.io/ and https://ssbc.github.io/, but neither seems to be actively maintained. Is https://modules.scuttlebutt.nz/ the future?\n\n#scuttlebutt #documentation ",
+    "channel": "ssbc",
+    "mentions": [
+      {
+        "link": "#scuttlebutt"
+      },
+      {
+        "link": "#documentation"
+      }
     ]
   },
-  "signature": "Wr991jE8pD8fM1ZYCMVfUTENr5Lf+X0xsDf+VfvOFtJhFyDxycNyPkkzLyTQ8xwoELjeh9sYN2MyEeTaVSqoDw==.sig.ed25519"
+  "signature": "IvpycwNZ7SrNDvXbT893wtdT3gqArDz4l2zuAkta9uFo2ViD5HjJ44rgLLZtAjOBs9yADaVtq+Stvd1+6rX4Cw==.sig.ed25519"
 }
