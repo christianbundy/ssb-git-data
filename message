@@ -1,13 +1,24 @@
 {
-  "previous": "%ZxpaZtwIEblAqGh8AV4paSuhhtk1BH52K4x5PRjB2lU=.sha256",
+  "previous": "%JCegFzmR4puzQ8/qHgidFYfHcJVWJt7YJQdKZRTQSQM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8768,
-  "timestamp": 1548892697818,
+  "sequence": 8769,
+  "timestamp": 1548902502338,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519",
-    "blocking": true
+    "type": "post",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": [
+      "%5ax6uaE9fiyGRa83chwSca3RQfTq/ldFFA9MNK/8SB4=.sha256",
+      "%LWSf9tDKr4+UuqYYcjd776rA2t8kYDUhIMoglLLVdE0=.sha256"
+    ],
+    "channel": "ssb-server",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nYep, although the message must be the lesser than or equal in length to the message you're deleting, so if the message is `\"content\": {}` then we can't add a type unless we remove characters from the signature or something. Also we don't want to depend on that type because others could add similar messages, so we'd need another lookup mechanism (e.g. ensure `msg.value.author === \"@00000000000000000000000000000000000000000000.ed25519\"`) anyway.\n\nThe errors are all \"Error replicating with @${X}: Error: parent stream is closing\" or \"Error: stream ended with:${Y} but wanted:${Z}\". It's possible that they're just your run-of-the-mill network errors on dropped connections and such, but they seemed to get worse after I've done deletion. \n\nI'll post an update once I'm at a good stopping place with the new code and be sure to cc you for feedback. Thank you!",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "Aeqi7RviEcX849sqNJIChQhYkS1GTI1PPCCR0ogi1I0/ghmxry6omUqgLISCZBkQYBY1CSBvJjfvY6YAA8SlDQ==.sig.ed25519"
+  "signature": "mfy7ceY4Tz4D2gyr6YweLoKOFql7QUSa2S61tugEsNw0nq9pZ0yPP4YynNZhR4M3idciXue36Kac9ZzPfexeDQ==.sig.ed25519"
 }
