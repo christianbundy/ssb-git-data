@@ -1,24 +1,20 @@
 {
-  "previous": "%JCegFzmR4puzQ8/qHgidFYfHcJVWJt7YJQdKZRTQSQM=.sha256",
+  "previous": "%Lii3FtXSpHi9RJuG0UMCTOAToFlZOn/GAROqMVGouXE=.sha256",
+  "sequence": 8770,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8769,
-  "timestamp": 1548902502338,
+  "timestamp": 1548902592826,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "type": "vote",
+    "root": "%8WKVsDVlJOG9LAHfFqBQ7MpSBV7p5D2AcwBSYRmbUjk=.sha256",
+    "vote": {
+      "link": "%yTo0gv+o7dkJ0vn5K6FHh+q/6ZJbIghboSOFNlm+wLE=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%5ax6uaE9fiyGRa83chwSca3RQfTq/ldFFA9MNK/8SB4=.sha256",
-      "%LWSf9tDKr4+UuqYYcjd776rA2t8kYDUhIMoglLLVdE0=.sha256"
-    ],
-    "channel": "ssb-server",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nYep, although the message must be the lesser than or equal in length to the message you're deleting, so if the message is `\"content\": {}` then we can't add a type unless we remove characters from the signature or something. Also we don't want to depend on that type because others could add similar messages, so we'd need another lookup mechanism (e.g. ensure `msg.value.author === \"@00000000000000000000000000000000000000000000.ed25519\"`) anyway.\n\nThe errors are all \"Error replicating with @${X}: Error: parent stream is closing\" or \"Error: stream ended with:${Y} but wanted:${Z}\". It's possible that they're just your run-of-the-mill network errors on dropped connections and such, but they seemed to get worse after I've done deletion. \n\nI'll post an update once I'm at a good stopping place with the new code and be sure to cc you for feedback. Thank you!",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
+      "%Zgq73p4x5fr467lfLb9FdS7uHlgeQ+t6sZePR7juu1s=.sha256"
     ]
   },
-  "signature": "mfy7ceY4Tz4D2gyr6YweLoKOFql7QUSa2S61tugEsNw0nq9pZ0yPP4YynNZhR4M3idciXue36Kac9ZzPfexeDQ==.sig.ed25519"
+  "signature": "dJEOeRfHqo2drSA5iWCUXRsmwnV20BfOz0Pb2SSM9XSgHfAkqS2/MNGL3Lc9n7TdTs7A/DLAyFL8KP3rgyw1Bw==.sig.ed25519"
 }
