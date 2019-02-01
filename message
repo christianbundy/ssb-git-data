@@ -1,25 +1,15 @@
 {
-  "previous": "%JiU8TWfMBPon3KwcPYHkjheEplPPn4GLgrs+cUbWsBE=.sha256",
+  "previous": "%gt3XoVhlYgEA/2QShHoOy+pTwuSM15viUl8XeN4bSD8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8785,
-  "timestamp": 1549040603970,
+  "sequence": 8786,
+  "timestamp": 1549041319275,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
-    "branch": "%E1d7Dxu+fmyXB7zjOMfUbdLU8GuGLRQXdrCa0+oIajk=.sha256",
+    "branch": "%gt3XoVhlYgEA/2QShHoOy+pTwuSM15viUl8XeN4bSD8=.sha256",
     "channel": "ssb-server",
-    "text": "## Replacement\n\nAs discussed above, replacing the item with a fake message *should* work, although it may be creating errors. The biggest problem right now is that **not all flumeviews support `rebuild()`**, so we don't have a way to force rebuilds without restarting ssb-server. I've pasted [some of the view errors I'm seeing](https://github.com/flumedb/flumedb/issues/31), so maybe we should be outputing warnings when a flumeview only has partial API support?\n\n## Merge delete\n\nAssuming we have JSON items A, B, and C, one way to delete B would be to add a bunch of whitespace at the end of A so that it overwrites B. I was having problems where my writes weren't being respected, maybe due to the multiple layers of caching, but this seems possible.\n\nUnfortunately it's hacky as hell and only works if you can pad the previous item with whitespace, *plus* you have to do the opposite with the first item since there isn't a previous item to merge into. Another downside is that if you request B then it seems to just output a corrupted string -- again, I imagine this is a cache thing but I wasn't able to circumvent it while working on the problem yesterday.\n\n## Skip delete\n\nWhen we get/stream an item we're using a `getMeta()` function that works with pull-cursor to iterate through the file. This function returns the value of the requested item *plus* the sequence numbers of the items before and after the current item. One hacky and less-performant idea was to read the before/after values, and skip them if they're null.\n\nFor example, assuming A - F are arbitrary messages, we delete C and then request D. The function should return the current value of D, notice that C is an empty buffer, and return B and E as the before/after sequences. This is fine, but doesn't work at the beginning or end of the file. It also means that we need to read *at least* 3x as much data on each read, plus buffer comparisons, which I'd imagine is prohibitively slow (unless we add another layer of caching).\n\n## Misc\n\nAgain, I'm super impressed by the speed of flumelog-offset, and it's *way* cool that it can write at 13.8 MB /s, but I've been watching the file size and I've never seen it increase faster than 800 KiB/s because the flumelog isn't the bottleneck -- the network and indexes are.\n\nThe offset db is incredibly fast and efficient, but it feels like we've traded away mutability for some speed gains that we don't actually use. I'm sure it's *possible* to add mutability to flumedb, but when working on it I feel like I'm really cutting across the grain. This might just be another incantation of [boring Scuttlebutt](%uprLsJKHUPBrO22IhaKTM63JH7GEEbAk5Ti0fCMYF6E=.sha256), but since we're nowhere close to the theoretical speed of flumelog-offset then I'm wondering whether it'd make sense to use something more... boring.\n\ncc: [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)",
-    "mentions": [
-      {
-        "link": "%uprLsJKHUPBrO22IhaKTM63JH7GEEbAk5Ti0fCMYF6E=.sha256",
-        "name": "boring Scuttlebutt"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ]
+    "text": "Just one more thought: another problem we're going to have is that you can have views loaded in one client but not another, so while *appends* are added whenever the view is loaded that isn't true for the rest of the API.\n\nFor example, if you start Patchbay and do a `flumedb.append()` followed by `flumedb.rebuild()` then all of the active views will append and then self-destruct. If you switch to Patchwork and it has different views, then they'll see the append but *not* the rebuild, because from the perspective of flumedb that rebuild has already been completed.\n\nI suppose my concerns are that:\n\n1. We're attempting full rebuilds on level views that support `del()` natively.\n2. Some/many views don't support rebuilds in the first place.\n3. Rebuilds are not respected by inactive views."
   },
-  "signature": "eBTlBtAvxQ+7nDozdl7T7MT4Zve21dkzNErVl2r1nUwXXw+vw6rk2/y5mB+C14QFTGo/dNYR891TA4Fwmaz7Cw==.sig.ed25519"
+  "signature": "EQeJBxl4MfwVmd/D08DeG+5GPKdg6rUgQY1afLYG/mf8mgZmPuqaBUavexX4T/oMpK3zUYxZL42kWvASvwlCBQ==.sig.ed25519"
 }
