@@ -1,15 +1,23 @@
 {
-  "previous": "%gt3XoVhlYgEA/2QShHoOy+pTwuSM15viUl8XeN4bSD8=.sha256",
+  "previous": "%fP/HvVdPPRJWUSp6Q6CB2pavpPxOx45PjE5YDfzsL0w=.sha256",
+  "sequence": 8787,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8786,
-  "timestamp": 1549041319275,
+  "timestamp": 1549041385630,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
-    "branch": "%gt3XoVhlYgEA/2QShHoOy+pTwuSM15viUl8XeN4bSD8=.sha256",
-    "channel": "ssb-server",
-    "text": "Just one more thought: another problem we're going to have is that you can have views loaded in one client but not another, so while *appends* are added whenever the view is loaded that isn't true for the rest of the API.\n\nFor example, if you start Patchbay and do a `flumedb.append()` followed by `flumedb.rebuild()` then all of the active views will append and then self-destruct. If you switch to Patchwork and it has different views, then they'll see the append but *not* the rebuild, because from the perspective of flumedb that rebuild has already been completed.\n\nI suppose my concerns are that:\n\n1. We're attempting full rebuilds on level views that support `del()` natively.\n2. Some/many views don't support rebuilds in the first place.\n3. Rebuilds are not respected by inactive views."
+    "type": "vote",
+    "root": "%7slff2hzI/YW712wPZifbw5XXOGIxD911El66ZNSJsk=.sha256",
+    "vote": {
+      "link": "%umQtNmx3Jz84mjdh54lkJJ+HjNkK6kRLoDFqkE/4ZJw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%F42BC49bT6h2pVQl7Y2A1q4PIZCK7qiLJS+luKWk8KY=.sha256",
+      "%RcIQnjo6NYt464zvfN37gjRKjBgicd+JxnOXCSIwxVw=.sha256",
+      "%fto9MnGK1Z8FeShNCyE8glnGAOmWVwYKBAB46oAnGCM=.sha256",
+      "%umQtNmx3Jz84mjdh54lkJJ+HjNkK6kRLoDFqkE/4ZJw=.sha256"
+    ]
   },
-  "signature": "EQeJBxl4MfwVmd/D08DeG+5GPKdg6rUgQY1afLYG/mf8mgZmPuqaBUavexX4T/oMpK3zUYxZL42kWvASvwlCBQ==.sig.ed25519"
+  "signature": "iq/6koGZjyfxU04jVfDgE1O9NqShZHP1/x67RsCt+gZ5UYBBSN8htsiI8Vlz1hmGD4MRZ9b3eOJflNcwN3poBg==.sig.ed25519"
 }
