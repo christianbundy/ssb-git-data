@@ -1,21 +1,19 @@
 {
-  "previous": "%g9aYkRbSA5YxOBY6p/TeO9IcHO/TEomGP2B0YSZhaJw=.sha256",
-  "sequence": 8782,
+  "previous": "%odsU0i4+hwF3BPezE4exBIWJC115UI6XEQJ9Zss+zhY=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1549037762015,
+  "sequence": 8783,
+  "timestamp": 1549037842828,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%C8a0Qzx5JBUcTf6OVqih667Eset5TGCAQgdYfMDMa4w=.sha256",
-    "vote": {
-      "link": "%YDw672jU4BWVB3DexpsOyvMeaFQWCkefZfbJ0YvN7SE=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%/stiAgJPL0YydS9GxTOCFiDn7uLNGPhSCA/A17MWOiQ=.sha256",
-      "%0H93pnasMudTFf53XnMMG3sj3vXo9I68fJ6+IqiFdyM=.sha256"
+    "branch": "%/stiAgJPL0YydS9GxTOCFiDn7uLNGPhSCA/A17MWOiQ=.sha256",
+    "text": "Backlink: %37IT5j2DOdGgggz8tS+zLtP0lkeJdSbeg5WNzYxthoI=.sha256\n\nIt's true that you'd only be able to connect when you're at that location, since it doesn't have an internet-addressable static IP, but I think that's fine (and is how I run my rpi pub, although I suppose it has cjdns too...).",
+    "mentions": [
+      {
+        "link": "%37IT5j2DOdGgggz8tS+zLtP0lkeJdSbeg5WNzYxthoI=.sha256"
+      }
     ]
   },
-  "signature": "Rr/m3F4A7l/hfaktMGG/490TqyCanFaiO9mEYwh1QIzCzRSDe1rDw0urXdMHPkuysXCKwhJ0SfkH6svXQkZDBg==.sig.ed25519"
+  "signature": "SsOGwR/5aGV5A3WiU6Ot6jQSTzsmXnFm3taJp/kDP7/frwwEq4qvurrjdabfcxHvk8HcN8MazFvrNhcZvxm1Dg==.sig.ed25519"
 }
