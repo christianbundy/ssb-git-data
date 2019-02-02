@@ -1,26 +1,17 @@
 {
-  "previous": "%42y+cLVhSUp3aFjccClXOB8Ey65Pz4tLTaDdZw9SF/k=.sha256",
+  "previous": "%GbD1TYBChnpb3pGctbGG0Y7ap+lodmBjOFoE4GJ9b3k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8791,
-  "timestamp": 1549140615015,
+  "sequence": 8792,
+  "timestamp": 1549140620662,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256",
-    "branch": "%42y+cLVhSUp3aFjccClXOB8Ey65Pz4tLTaDdZw9SF/k=.sha256",
-    "reply": {
-      "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
-      "%42y+cLVhSUp3aFjccClXOB8Ey65Pz4tLTaDdZw9SF/k=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "^ cc [@DavidW](@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519) ",
-    "mentions": [
-      {
-        "link": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
-        "name": "DavidW"
-      }
-    ]
+    "type": "vote",
+    "channel": "patchbay",
+    "vote": {
+      "link": "%T4WTvJAz5H+J9M0wUM56PihuVpmeAzXq8/YxyXhW698=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "+pU7PQjLaiHp/FMgX7BmJ32YSUriuR2+YYsIL36jq/fbQy4fTR6awHStS5xDiCm+idc8ynyLODmgRZu2Y338Dw==.sig.ed25519"
+  "signature": "1iElvfJHaWtdzMiFQ5/FzEYXQrHjuTktVwKk25oqt9bJtIDzAT/VmQ5clN4q28bU9jUaIF5Is4K063RzRgdYCQ==.sig.ed25519"
 }
