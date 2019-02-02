@@ -1,12 +1,20 @@
 {
-  "previous": "%TC3LpYQttQQCpvqKUREfj6AMcyzSzgHspFNV7lI/fmU=.sha256",
-  "sequence": 8789,
+  "previous": "%isMdO93dh5n5/e/jXqd9bJmc41oW+fy6R+lGwb8Dui4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1549063663527,
+  "sequence": 8790,
+  "timestamp": 1549140607355,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "interesting, I'm seeing three of each message :/"
+    "type": "post",
+    "root": "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256",
+    "branch": "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256",
+    "reply": {
+      "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "IIRC:\n\n```sh\nssb-server plugins.install ssb-links\nssb-server plugins.enable ssb-links\n```",
+    "mentions": []
   },
-  "signature": "tWbL8jNgrTYtdw7gykZRoFT2MbDQQOH472PI1S89bNDA3H6gNEeaB4tmApkf8qQy2F5MNYQ+6QaSiqfWzhnBBQ==.sig.ed25519"
+  "signature": "JDRiCh00ukXKg9TCi+I6pBLGLoM+NIMotHcFULedUhgAom73ubN+4KcQMm2fRIFBPyphdNC2FidbqlVeErpACw==.sig.ed25519"
 }
