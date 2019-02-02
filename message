@@ -1,9 +1,30 @@
 {
-  "previous": "%a7xQxZpMIJPwKEoG4HV4ogmyXu3D07aGI6ccPDhGB7g=.sha256",
+  "previous": "%LtteWevppo7PU9dsueWn6T+xlpVF7B4cO3fj12/joNs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8794,
-  "timestamp": 1549141132905,
+  "sequence": 8795,
+  "timestamp": 1549143486402,
   "hash": "sha256",
-  "content": "GV963UjkIXR2vbCW2AFgQkHpgOlLIAOuPwqLvxhOwYrVoIQ7mI0IzeR2ouUY7jm0FDx2M4ZXQgMnK7uxJhOfsR8rIXuqEgA5V++vPFTWgL4SJNAF7cxk/CN/c8ER29mr9TCKPeWvURJEwKZ11Iejzj+kuT/Y1IlcnMMDywI0dss0pm+qQYWbW8/bkA5JF9DiKnHqQaVAzWPwXezTII0AfoXHTPaaQsD/DZDyvfXql7GPcFnvdjY/j5UlvGAyEg+iVtvIWAsjkqObnsG3uj29muBm9a2vOYyvA+Umy4oDQn44yx16ixF7qECcgm1cjEIpDQPxg5uPnD9VrpbkbNpfFczDspQbKOvLmbU1cHUBQfdGe19ZfL+C5mlypPm1pmgOmgJkw9QgZdW45nrrLAwNlVWmL/PwXI4fR5yTC4umpklaMQip0LdvGF3/JppqpHA6eoNzyls1tBA3JMWTd6BMqet3URxoq29E5/wRkGgOnMgw3u8+U5veydSEyfzFpJiORLjzybL3ihYaOqD9q+DExCPa2REJgb5c34DdOUDNV99XU1sPaa32sJrroDBcykRrS6rDcxGJxmikqOwYmT1/y0TSfkvjOibin4hdG1za+cH9K0JbEhv3hWHzDFWByU/46onz2Yu/YsNF61/ZVAA8HqBMBwQwSodmfK7lTOsCDoDecj5yrpLNQQ7hg4VQ0VFkwIYBmHkORZ5QLRJRyZrrIq7DFQgF9EEEpp3BPJwzukKNdGIVzkNm/RcKOcpNqtKpXV21KjRlx+tZzJ+c+2nEycVgtHekzM1JDQub5xz/cNb24baIih2ATtV6HNaNzqgI/Bd/JemTx+rlSGd9sYLExC+alaryVoAeHemjadcEaOCulyqK+V/JnYQWYABjJH1bluP47HQ1TL9u2fGCwjdmm8/QALJNIJRsk1aKwG8270ceDObyvs6liZTohLWE5Y8M6Hi2W0XSMLIf50saDDFIBeGMetgRgeaEfMccAZ6Sr6JUyCAx3xPfC20t0LbP+z0y1bqDDC9cSV/9Qvnnn6naM1c1iQmgqZghaCq9vQAfYBaPwD97.box",
-  "signature": "xB+zr3TUZ34QralT672VYXdt+ndIBQNDNX8wMBP3rLQsf7nX/t7SQEag/BIp4AY1l3SiD4W6BAbR+jfpORK7Dw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": "%QEO2CyDKtOJoGCfRhYiuByKz+NYknK3AQjJ63cwJtWI=.sha256",
+    "reply": {
+      "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%QEO2CyDKtOJoGCfRhYiuByKz+NYknK3AQjJ63cwJtWI=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
+    "channel": "ssb-server",
+    "recps": null,
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) \n\n>  You could hack flumelog-offset to add a field of bits per message (e.g. 1-8 bytes) and use one of these bits to say \"this message was deleted\".\n\nDo you think that would remain backward-compatible with the current flumelog, or would that require a migration between the old format and the new format? I was a bit surprised by some behavior that I found which I *think* is the current implementation, where if you request an incorrect offset (e.g. 42, if the valid ones are 30 and 48) then it will return a message without validating that it also has the same length appended after the message ends.\n\nI'm having the same feelings about the fact that a list of *operations* rather than data might be useful. It's true that [Scuttlebutt](%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256) has that semantic, where each message is a type, but it might be really nice for flumedb items to have this capability. I'm still bummed that we don't have rebuilds on all flumeviews, but I suppose that will come with time.",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256",
+        "name": "Scuttlebutt"
+      }
+    ]
+  },
+  "signature": "mo6/VDGrwlnXpRLWp8m76d8EKwSZBkv8ELhdy7FdoH6W6gDcrUR2znJxh8iqVOZqCjVRQxBhqtGuEd0r94nUDQ==.sig.ed25519"
 }
