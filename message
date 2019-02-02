@@ -1,17 +1,21 @@
 {
-  "previous": "%GbD1TYBChnpb3pGctbGG0Y7ap+lodmBjOFoE4GJ9b3k=.sha256",
+  "previous": "%ofIWfHNcPQH3OS7Ya+YYgz95k98Oi4sn1sGKS6T0KMk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8792,
-  "timestamp": 1549140620662,
+  "sequence": 8793,
+  "timestamp": 1549140771733,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchbay",
-    "vote": {
-      "link": "%T4WTvJAz5H+J9M0wUM56PihuVpmeAzXq8/YxyXhW698=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%xi4QnfCiCWZjTEqmzCYubE3FuldDjqU11NpLc/YPHB0=.sha256",
+    "branch": "%41Xw7MYEjKI4hlDj0LE3D6lNPKDrC9JaSfFt7Feb1eA=.sha256",
+    "reply": {
+      "%xi4QnfCiCWZjTEqmzCYubE3FuldDjqU11NpLc/YPHB0=.sha256": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
+      "%41Xw7MYEjKI4hlDj0LE3D6lNPKDrC9JaSfFt7Feb1eA=.sha256": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Oh man, I'm sorry. I forgot to add this to my actual calendar and somehow thought it was tomorrow instead. I owe you a coffee/beer/something. I'll PM you.",
+    "mentions": []
   },
-  "signature": "1iElvfJHaWtdzMiFQ5/FzEYXQrHjuTktVwKk25oqt9bJtIDzAT/VmQ5clN4q28bU9jUaIF5Is4K063RzRgdYCQ==.sig.ed25519"
+  "signature": "GO/nFauv04E5vzlEa7rr+PlVxWhFLiJox0PjR0sThtcfBNFLwkPXlaXDcjGThCU9CCKykiHwIN2k/lZ/a1PuAA==.sig.ed25519"
 }
