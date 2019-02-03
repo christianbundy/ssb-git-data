@@ -1,20 +1,26 @@
 {
-  "previous": "%iRMzxQWBumbXsAmNfqDlqdVCAi6BCTH4UDMAPXCgNu0=.sha256",
+  "previous": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8797,
-  "timestamp": 1549154611146,
+  "sequence": 8798,
+  "timestamp": 1549154724887,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> # [Dotfile Madness](https://0x46.net/thoughts/2019/02/01/dotfile-madness/)\n> We are no longer in control of our home directories.\n>\n>My own home directory contains 25 ordinary files and 144 hidden files. The dotfiles contain data that doesn't belong to me: it belongs to the programmers whose programs decided to hijack the primary location designed as a storage for my personal files. I can't place those dotfiles anywhere else and they will appear again if I try to delete them. All I can do is sit here knowing that in the darkness, behind the scenes, they are there. Waiting in silence. Some of those programmers decided to additionally place some normal files and directories in the same place. Those are clearly visible every time I execute `ls` in my home directory. It is beyond me why my home directory ended up up containing a `node_modules` directory, `package-lock.json`, a `yarn.lock` file (I have never even consciously used yarn!), some 2 strange log files origination from some Java software clearly using an H2 database, and a Desktop directory. That last one has been created by Steam, which is quite unfortunate as I simply do not have a desktop or a desktop environment on my machine. I dread the day in which I will hear a loud knock on my door and one of those programmers will barge in informing me that he is going to store a piece of his furniture in the middle of my living room, If I don't mind.\n\nI think we're guilty of this. It's been on my radar for a while, but it's such a sprawling problem that I don't even know where to start. Maybe ssb-config? Maybe #somebodyshould organize a Scuttlebutt Dotfile Working Group.\n\n#ssbc",
+    "root": "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256",
+    "branch": "%Tn2QJcWmVPFaupixm6qE1o9GofYBlSj3P3ODnjxlUq4=.sha256",
+    "reply": {
+      "%r9c5i8oIAQqkxVEXN2N3sYr60+A86GTKBKgKx79Fl30=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
+      "%Tn2QJcWmVPFaupixm6qE1o9GofYBlSj3P3ODnjxlUq4=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I'm not sure, I think [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) might be the most familiar with this? I don't remember exactly.",
     "mentions": [
       {
-        "link": "#somebodyshould"
-      },
-      {
-        "link": "#ssbc"
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
       }
     ]
   },
-  "signature": "9b7OTPccjkNwcPzVfxscRGbrvnRnq6Fm30vWNv2V/tYIApm7m+enwoMQa/wYSxqANVBh4as/FJfh+csfK5JRCQ==.sig.ed25519"
+  "signature": "+UgNmd5k/d8XMyUll/2fUvwHPCLd5jPdz5K5PvznVq3nxn32f+vMVNuRWY57645Dm1IXYibS+2WUf3nChT4RDQ==.sig.ed25519"
 }
