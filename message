@@ -1,9 +1,26 @@
 {
-  "previous": "%m7N6NMZVVwodoDwmwMBFO9GHOekJ/daURgtyNGI3EJI=.sha256",
+  "previous": "%NJx2n2NsAw+HCDNNJjvHoDpEzz/Pdl7NwSypI3v00JA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8808,
-  "timestamp": 1549303561016,
+  "sequence": 8809,
+  "timestamp": 1549304788340,
   "hash": "sha256",
-  "content": "cpytGeDKFBgb0iALSufBawpctpjT+YLv2d1pLbNVslriqb+VdtwU98fcupmsjcwFCaSgY4bSCGLU4OfuABjLI7XitHbGlygMmy4PhfiqGBnpf5Aj3nakZhJ/CnMJ+6R7g3QKxPL2pC63sQhzhzZkfXdM4T+Skr2hLqZPVczoPk9hBxvevDrJYW4DDkf+74r0qlVc4+PIB1fOk49nIbTjPf23PsX7cUj8SdP8ISqtS2KcoctpkCha/vucnG55OvvEVk8WCNqCmpQsdcAzVAgNdbLDy+KSp86BNxSLxa+ttr7qaMhcFkWQmzwasxaeNfefjUqGUsygF8xFwbLudZIFpVPM9B89Lqfq4rVB8YXa1ohDcMBia41QdOk37Om3+HJZA+P2d6aB+eQHJ2bteosLqjl/6GGGzbAc88gJ76Gvh0GSiYxU6lNKzw2LoMYLhDcunrhk9JfD0thYGyPa60nFkhC7Gz3slhvGxd35Mr04BQ1mD/DTYaatMww6w05QQkQWYvm+MjlkPwTLyXYDzqhi7sbQZsu9eWUugansTdMBzA5AVRaUsoTW931rbYT1HmpHWekxmrS9W33epdX5iFH8w2hS9xzRG8YegaTFMvWqvugXivEQrmHnGtmoxAjnwuwVta1em2vbrXAL/ib4sVRXUEYHMdBUNnpLzIsnsRWRMQKQHTETxxy4D4BmUE5XhpZqppahyGkVO1ep9aKLcRRZJb1j7yiHD3PepRGxdUbeV2evVVJTakGZXGIJcrRnNC+xxYo6akges8rZV0Nv85CyzjeSX09hmZ9cW3nR97b5z7ut9+ionlIPevRGxq3hrAHiu2kWGdnj1FNGdWQdAutJ4zvMK4yYg2VNXpnNYrNCnVnjUJApTDpPRNw8EVT4sWAcFyj/ZW/TTO90SNM8O3O9O+JrfBqjP/U+ak0=.box",
-  "signature": "xNGkQ1kfzvghPtPlerd9aaqeL2lk/uevT3E7buwdVv+6i3zpgB5ivBpauuJiHXsIrxom9YycnKLm5pihsRYdCg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256",
+    "branch": "%vPm/I7bf2elh8qyf7sbLV9ig6Mjaq2mDm/33OVEW3Tk=.sha256",
+    "reply": {
+      "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+      "%vPm/I7bf2elh8qyf7sbLV9ig6Mjaq2mDm/33OVEW3Tk=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nMaybe helpful: my intuition has been that the master plugin gives the main identity full rights to that instance of ssb-server. If that's true, you could rewrite it with more verbosity like this:\n\n```js\nconst removeFalsey = (arr) => arr.filter(Boolean)\n\n\n// master plugin\n// allows you to define \"master\" IDs in the config\n// which are given the full rights of the local main ID\nmodule.exports = function (api, opts) {\n  // main identity stored in `~/.ssb/secret`\n  const mainIdentity = api.id\n  \n  // other master ids can be added via `opts.master: [ '@...' ]`\n  const masters = opts.master || []\n  masters.push(mainIdentity)\n\n  // filter out `null`, `false`, etc., not 100% sure why\n  const truthyMasters = removeFalsey(masters)\n\n  api.auth.hook(function (fn, args) {\n    // authenticate id connecting via muxrpc\n\n    const id = args[0]\n    const cb = args[1]\n\n    if (truthyMasteres.includes(id)) {\n      // id is allowed to do anything \n      cb(null, {allow: null, deny: null})\n    } else {\n      // id is allowed to do nothing\n      cb(null, null)\n    }\n  })\n}\n``` ",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
+  },
+  "signature": "a2CTGAMQ6lgxXVmeYLvUOrW83bWYhvzpmxl1Dl5k6uG63Dl4A5Xo3UGFXfrTyn8jAfH8KkCZbROh4eCHdlwtBA==.sig.ed25519"
 }
