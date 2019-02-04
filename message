@@ -1,16 +1,26 @@
 {
-  "previous": "%uxDbcyTkvWgTuo9C0TV9U+8Yu6PQKdg1hvzdvJFZ+So=.sha256",
+  "previous": "%y+4woT77L5zBgytqF0Md7ZBppmPk98QCQxu+hhpiMK8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8811,
-  "timestamp": 1549305220468,
+  "sequence": 8812,
+  "timestamp": 1549305740788,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hWL3bkb7WyJ9RPVuk4M7NoqOuL9XZuaVbnmNSZR5WqI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256",
+    "branch": "%RCTKioJFLWTGbc0lhwiEXIzd76ilhUWQdRDUISqfa7Q=.sha256",
+    "reply": {
+      "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+      "%RCTKioJFLWTGbc0lhwiEXIzd76ilhUWQdRDUISqfa7Q=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nYou could remove the `master` plugin, but I think at a bare minimum you'd need one that looks like this:\n\n```js\nmodule.exports = function (api, opts) {\n  // main identity stored in `~/.ssb/secret`\n  const mainIdentity = api.id\n\n  api.auth.hook(function (fn, args) {\n    // authenticate id connecting via muxrpc\n\n    const id = args[0]\n    const cb = args[1]\n\n    if (id === mainIdentity) {\n      // id is allowed to do anything \n      cb(null, {allow: null, deny: null})\n    } else {\n      // id is allowed to do nothing\n      cb(null, null)\n    }\n  })\n}\n```\n\nThis would give the same effect without adding a hook to allow identifiers from `opts.master` as well. I think that by default *no identifiers* are allowed to make calls to ssb-server, so this plugin exists to whitelist the identity that we're using.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
   },
-  "signature": "a00Fp6O7sCTpiEOSr+VdIV6+znbiJX369Q318gvCRsTNMflYgqrqMc9rMBKysmpaq+tqctFFuWRFGY+NZ6N4Bw==.sig.ed25519"
+  "signature": "3DEXGqetQ+RsiiBcKXHAacklpEDpLBhmK0ltcLDlBtUoNgwIucOmtdtZUqxENuV2gR7SmpRekipklBumoYhYBA==.sig.ed25519"
 }
