@@ -1,21 +1,17 @@
 {
-  "previous": "%+RrgKDNWh5FgYuS41Ygorh/I2cKEAmArsKxFfuZ3kmk=.sha256",
+  "previous": "%6QhVBUQ9iirsGzvT8WNd3h52g5j/9xIHndjxdluLcLk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8803,
-  "timestamp": 1549299417899,
+  "sequence": 8804,
+  "timestamp": 1549299448041,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%KER5PpxGmzQlveulK44ugTvfIkG35fVcgQEK7g5qck8=.sha256",
-    "branch": "%hdYQOGKYWNBswDrdf6cqWsZefkiZluFGVSzZC4wO8/A=.sha256",
-    "reply": {
-      "%KER5PpxGmzQlveulK44ugTvfIkG35fVcgQEK7g5qck8=.sha256": "@RtsOc2h1gqh0fRrjrUTHAkRBu9YyDgsD+EWsfLpykrc=.ed25519",
-      "%hdYQOGKYWNBswDrdf6cqWsZefkiZluFGVSzZC4wO8/A=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "manyverse",
-    "recps": null,
-    "text": "FWIW, I can also reproduce this crash. Here's the relevant error from your logs:\n\n```\nTypeError: Cannot create property 'source' on boolean 'false'\n    at Object.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:6\n6193:25)\n    at apply (/data/data/se.manyver/files/nodejs-project/index.js:64032:15)\n    at Object.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:6\n3921:14)\n    at Object.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:3\n5962:17)\n    at Object.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:7\n8155:17)\n    at Object.hooked [as add] (/data/data/se.manyver/files/nodejs-project/index.\njs:78162:15)\n    at Socket.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:8\n759:21)\n    at emitOne (events.js:115:13)\n    at Socket.emit (events.js:210:7)\n    at Socket.<anonymous> (/data/data/se.manyver/files/nodejs-project/index.js:8\n9042:12)\n```\n\nI think that means we're doing something like:\n\n```js\nvar foo = false\nfoo.source = 'bar'\n```",
-    "mentions": []
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%QeHUyGeyfKXRdzRde4Q5rrkUWnEJEFTqtAtfBDAcK38=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "1vnNkqPTuUztLVwOvlbCV/DpMAdbF+qWHRhMNKRJhwtzsFQ8+3oMJKfua8bk1B5NovdtAgjLEFmtbF9+c4I+BA==.sig.ed25519"
+  "signature": "xIbUgQSCKFdrdAOip6nKxY5fGMQWElkUzqtaUyjNkK4xN9wlCEtXhYb/kSgUso7waOiiuI+b+9a3q4TzPQFGCw==.sig.ed25519"
 }
