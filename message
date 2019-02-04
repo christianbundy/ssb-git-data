@@ -1,26 +1,17 @@
 {
-  "previous": "%NJx2n2NsAw+HCDNNJjvHoDpEzz/Pdl7NwSypI3v00JA=.sha256",
+  "previous": "%E0cL2YOCm6EBF2qShiWyF/xXCyUV1zCjx6Dlg5BQtXE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8809,
-  "timestamp": 1549304788340,
+  "sequence": 8810,
+  "timestamp": 1549305176011,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256",
-    "branch": "%vPm/I7bf2elh8qyf7sbLV9ig6Mjaq2mDm/33OVEW3Tk=.sha256",
-    "reply": {
-      "%lzjhJD+8k0erNM213c4+c3tTKm4+s8kfrw2YxUhTtFg=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-      "%vPm/I7bf2elh8qyf7sbLV9ig6Mjaq2mDm/33OVEW3Tk=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\nMaybe helpful: my intuition has been that the master plugin gives the main identity full rights to that instance of ssb-server. If that's true, you could rewrite it with more verbosity like this:\n\n```js\nconst removeFalsey = (arr) => arr.filter(Boolean)\n\n\n// master plugin\n// allows you to define \"master\" IDs in the config\n// which are given the full rights of the local main ID\nmodule.exports = function (api, opts) {\n  // main identity stored in `~/.ssb/secret`\n  const mainIdentity = api.id\n  \n  // other master ids can be added via `opts.master: [ '@...' ]`\n  const masters = opts.master || []\n  masters.push(mainIdentity)\n\n  // filter out `null`, `false`, etc., not 100% sure why\n  const truthyMasters = removeFalsey(masters)\n\n  api.auth.hook(function (fn, args) {\n    // authenticate id connecting via muxrpc\n\n    const id = args[0]\n    const cb = args[1]\n\n    if (truthyMasteres.includes(id)) {\n      // id is allowed to do anything \n      cb(null, {allow: null, deny: null})\n    } else {\n      // id is allowed to do nothing\n      cb(null, null)\n    }\n  })\n}\n``` ",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "type": "vote",
+    "channel": "suckless",
+    "vote": {
+      "link": "%4VA68U4AMrY+LJzm5W0Vz9wJble07b7fObOalCJuBLc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "a2CTGAMQ6lgxXVmeYLvUOrW83bWYhvzpmxl1Dl5k6uG63Dl4A5Xo3UGFXfrTyn8jAfH8KkCZbROh4eCHdlwtBA==.sig.ed25519"
+  "signature": "Iw8tC4KbWeIrtrJRH+2m2sDIDLp4TEIIYVB1QVxK4BrABwgyXA1FMNkjRyb55QGonfHFaMTDUvXZ+z+o3DEKBw==.sig.ed25519"
 }
