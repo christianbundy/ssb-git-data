@@ -1,21 +1,34 @@
 {
-  "previous": "%CZPgnF6H1QVivxiLh8pZtEzaFdYKQhzCijFb9+UN6hw=.sha256",
+  "previous": "%Wx98+fTGTgNpNhU1MUlUqqwyn5h3R/PQfx52B55VSvg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8805,
-  "timestamp": 1549302256849,
+  "sequence": 8806,
+  "timestamp": 1549302854689,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
-    "branch": "%g/Zz1PIdB3HpHuZTdh1nDLe/jeuv0tQ4iNfdynS0srM=.sha256",
+    "root": "%lYUghy05AU3zBicsn/fa20VvFf8hZAK9S+mg/4kEMko=.sha256",
+    "branch": "%A13KIgtE4UHp6bOonjSsZFJcXWTDGTvTStPpZECVmY4=.sha256",
     "reply": {
-      "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%g/Zz1PIdB3HpHuZTdh1nDLe/jeuv0tQ4iNfdynS0srM=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+      "%lYUghy05AU3zBicsn/fa20VvFf8hZAK9S+mg/4kEMko=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%A13KIgtE4UHp6bOonjSsZFJcXWTDGTvTStPpZECVmY4=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "> Wait, wait, wait, start for what? Curtailing dotfiles period? Individual customization?\n\nI want to clarify that this blog post isn't against dotfiles in general, it's just encouraging developers to conform to the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/) when doing so. It's true that dotfiles are a unix tradition, but so is the pattern of separating concerns. I'm super appreciative of all of the work that's gone into freedesktop.org (previously X Desktop Group) and [all of its specifications](https://www.freedesktop.org/wiki/Specifications/) and I think that consistency is empowering to everyone using the system.\n\n> Furthermore their argument for using XDG doesn't actually change anything about their original argument of dot files being created without their wanting them or the fact that many are recreated after deleting them.\n\nI agree here, my main critique of this article is that the author is using the grumpy \"I don't like the status quo\" rather than the optimistic \"it would be cool if we did this thing!\" and I don't think the grumpiness makes a convincing case. I think that consistency, customization, and interoperability are all positive *plus* if [the rest of my OS](https://wiki.debian.org/XDGBaseDirectorySpecification) is aiming to follow this convention I'm happy to do the same (especially since it's been [requested](https://github.com/ssbc/ssb-server/issues/435)).\n\nJust to add a data point, here's what I've got in `~/.ssb` right now:\n\n```\n/home/christianbundy/.ssb\n├── blobs\n│   ├── sha256\n│   └── tmp\n├── blobs_push (leveldb)\n├── config\n├── ebt\n│   ├── @0gUdg_lz6UPavonq8KDmVUPyPxGrMhCFdBGy5h0SoG4.ed25519\n│   ├── @1EPDONpk05e65qgMscOXbhKF5IWwDqlPfX8iFBgBNDc.ed25519\n│   ├── @1MCDaYSDpjsgtMkgB2CfqrouffoxvLiRu_QICE7LQPs.ed25519\n│   ├── ...\n│   └── @z6kCgZREy7sbWZcI2USeXSoMWEcRW-FcNZySNArAoRI.ed25519\n├── flume\n│   ├── backlinks--oaWWDs8g\n│   ├── clock\n│   ├── contacts2.json\n│   ├── feed\n│   ├── images.json\n│   ├── keys.ht\n│   ├── last.json\n│   ├── links\n│   ├── log.offset\n│   ├── meme\n│   ├── names.json\n│   ├── patchwork-channels.json\n│   ├── patchwork-contacts.json\n│   ├── patchwork-subscriptions.json\n│   ├── private--oaWWDs8g\n│   ├── query\n│   ├── search\n│   ├── ssb-chess-index.json\n│   ├── tags.json\n│   ├── time\n│   └── unread-dummy-index.json\n├── gossip.json\n├── manifest.json\n├── node_modules\n│   ├── ssb-edit\n│   ├── ssb-links\n│   ├── ssb-npm-registry\n│   └── ssb-query\n├── ooo\n│   ├── keys.ht\n│   └── log.offset\n├── package-lock.json\n├── secret\n├── socket\n├── tmp\n└── unread (leveldb)\n```",
-    "mentions": []
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)  [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nYeah, I've never had a problem with free-feeding in the past but now *both* cats have the same problem: they can't resist food. Jerome just eats anything you put in front of him and his weight is becoming unhealthy, whereas Sunshine's issue is that she's getting older and has a sensitive stomach. If we leave Jerome's food out then Sunshine will eat it, wait a few hours, and vomit on the floor. No good.\n\nI've actually just purchased two of [these](https://smile.amazon.com/gp/product/B011K9929Y/) and after a week or so I think the cats are doing well with them. Jerome seems to always have some leftover food (previously unheard of) and Sunshine hasn't been getting sick, so I wonder whether the food was just too... easy? 🤷 \n\n---\n\n[@Stian](@jL0ALPNOLX5CKMifzGFW+sQoWUx6fSLOW9O/yNomPU4=.ed25519) \n\nI'm so happy that I didn't start down the DIY route, I'm sure it would've ended up looking something like that. Cats are so incredibly smart, except the whole \"every time I eat X it makes me vomit but I'll never stop\" thing.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@jL0ALPNOLX5CKMifzGFW+sQoWUx6fSLOW9O/yNomPU4=.ed25519",
+        "name": "Stian"
+      }
+    ]
   },
-  "signature": "sgRR6DOFLUhDet6iFPs77eX9OeA6ZzaegU5IvVx0LfKlCevjnjKYULbD8kjXX1ddc6RazUqH3U+Z9rRVXeM6Cg==.sig.ed25519"
+  "signature": "oJXdZR8lD1Y7/Rr4w5XHYlb+uy7d4GkvuoSBZtojYj9f3bi0UnyEagQIM+odxcZUD47QUBZ2TB+pOnHB3H8WCQ==.sig.ed25519"
 }
