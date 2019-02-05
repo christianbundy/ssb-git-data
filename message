@@ -1,20 +1,21 @@
 {
-  "previous": "%5S1Rh7sw9qRib0d67MeSzHb/CLBJJhUzStx8LTHm2vI=.sha256",
+  "previous": "%vyeeIumXOMZWwbrBZKw+txaTWGBgMyEDBiGiYl8Ki0Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8821,
-  "timestamp": 1549404781676,
+  "sequence": 8822,
+  "timestamp": 1549405226370,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
-    "branch": "%5K4hBouTSkkPnek4BUs/vLcciLYdm8gq5U4hP4vwbyg=.sha256",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nDon't forget config.**json** too! I'm sure there's a Vim plugin to auto-detect but I always run `:set ft=json` when I open the config file.",
+    "root": "%UNA62GDuJyRI7DrgcT91lI2s14IHf+ZqQ9+k7CTrSYI=.sha256",
+    "branch": "%uokazE2+7kSdPSWRwNfZ8Yv7gVXGwaIeiCaN4MsUOpY=.sha256",
+    "channel": "patchfox",
+    "text": "Hey [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519), that *does* look super frustrating.\n\nDo you have some code I can run to easily reproduce this? It looks to me like `process.on('uncaughtException'` is likely being redefined somewhere and making it *super* hard to debug.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ]
   },
-  "signature": "U7H/vUrd5SqQb9TWOhZeKCQvOogS4BDnKB/Cnf2CBU2J7Z2BpLDl5IXHeCS5aj3B7HvijlQ+890jqVe++R80Dw==.sig.ed25519"
+  "signature": "1a9Mxv0T7q5Q5Ige4tvjP+89qa+SOmZYrQEMtqsdunRr17x+d6L6cOTQYAWn86kfri+UZWhowQ6u0e8vJJOXDA==.sig.ed25519"
 }
