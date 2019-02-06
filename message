@@ -1,16 +1,26 @@
 {
-  "previous": "%9n9b5IO2F0+b4prEa3aFG9lCBg6T/h7CADxRH8TtJHg=.sha256",
+  "previous": "%cboSKYz+1fkcT3MfvDlPMFJe3RHzHAD8Sg7Qsa4DyE4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8852,
-  "timestamp": 1549493457163,
+  "sequence": 8853,
+  "timestamp": 1549493562159,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uQmwl2ARGcua4m1eydCc8NAeZtBmTo9PK8FlEB7YHpw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%uQmwl2ARGcua4m1eydCc8NAeZtBmTo9PK8FlEB7YHpw=.sha256",
+    "branch": "%6Dle3ufrPLSBakmAzzK0vPExuaBshdq+gN4BrsP29fY=.sha256",
+    "reply": {
+      "%uQmwl2ARGcua4m1eydCc8NAeZtBmTo9PK8FlEB7YHpw=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%6Dle3ufrPLSBakmAzzK0vPExuaBshdq+gN4BrsP29fY=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\nI love it, wow!\n\nThis really reminds me of [inconvergent](https://inconvergent.net/), he has all sorts of [plotter drawings](https://img.inconvergent.net/plot/) but I think my favorite is his \"essay\" [on generative algorithms](https://inconvergent.net/generative/). ",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "E4iPnDUb1kC589NvWLRjri3Q3wXkKuCT5HcxfFC6ec/G6Yaoi2b8+ljcuoChHg2SlNhFTK+9J0UIuEJ0rndiAg==.sig.ed25519"
+  "signature": "ZzG4WW2Z6maEFFAmU3fPape1yFDMB1w+RrJYINkfcsKVZhD1+K0ZrNXa/Kh1iz6+s9Y8R+2JVVo1QJVFi7pvDQ==.sig.ed25519"
 }
