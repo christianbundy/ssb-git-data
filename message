@@ -1,21 +1,18 @@
 {
-  "previous": "%caWxJ0V+LzADwB+xjp/Ud+q1ZZIsmwJYNRqEklDyc1I=.sha256",
-  "sequence": 8828,
+  "previous": "%8pO1gtM+vN52O+YAtC3txghlOA2dS+Xdy7HxFiwLfsM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1549411709247,
+  "sequence": 8829,
+  "timestamp": 1549411913966,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
-    "vote": {
-      "link": "%xmxbIADHvsp4BMz+1BMQ0LVUUEC0MH1Uxl7cRvwsifQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%VYE5swGV24zFSMIahnl8FVsup+mCvnTUgnx9NVlL+3g=.sha256",
-      "%xmxbIADHvsp4BMz+1BMQ0LVUUEC0MH1Uxl7cRvwsifQ=.sha256"
+    "type": "post",
+    "text": "**I should probably stop regenerating my Scuttlebutt log**. I always think \"it's fine, you can just re-download all of the messages\" but then I do it and remember that we usually sort by when something was *received* rather than when the author asserted that it was written.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI remember we talked on the phone about tangles to determine timestmaps, is that something that you're still thinking about or working on?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
     ]
   },
-  "signature": "nIC/7YWB5GdyVOpZrfO0aVcKMaW+P3wgbQRWp4EOtD6JoI1E5qpaUbkspAUoR4kqwhQuT5VP/jOiwuRVJD0FAw==.sig.ed25519"
+  "signature": "UOPPB77U/C+PwTu9dtOcOJ0kzWIya4fnweMdzS0O5QjYNl0THMibh8uHWVO18h5Yy3qyve2qe5K/Hk0HVtyIBQ==.sig.ed25519"
 }
