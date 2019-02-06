@@ -1,13 +1,17 @@
 {
-  "previous": "%zv0Jl4qcazGZoB8dvsJDgboql/RNiluwOIR0oRU0Ick=.sha256",
+  "previous": "%CO/qFgA/XLohRT1Xbh6DQnW86rHT/O+V9HhzD0WThN4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8844,
-  "timestamp": 1549490903325,
+  "sequence": 8845,
+  "timestamp": 1549490996270,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@Hn9ye+0RgZDXvp+Km4EC36pN1/xB5ultjTxC0RZW2BM=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "solarpunk",
+    "vote": {
+      "link": "%ZmsQl8jxeH2uW0vZMxCdevvlO6Q/VSMo3tbCFmOOwO0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "HXebYrmDC6D27w3DhddeMBsXP+F+EtstTy9Nsnf0YHnDnEza8b6jb3XY6NIo+DpcitzM7H2mOt3LhnIfsmboAg==.sig.ed25519"
+  "signature": "R2nTQiyHKmfutuvJy6xjwIgAxQpu1jCceGowwFNpZeHa2BDXjJJ9VZlj+l4wC9KUKf4hxwTlA+S+tDo/ARm1Bw==.sig.ed25519"
 }
