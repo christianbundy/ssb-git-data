@@ -1,17 +1,26 @@
 {
-  "previous": "%zQ8BjOlWQFKmtRP+1Ba/rwBagNp22VqeI9SQ/tshRVY=.sha256",
+  "previous": "%4WJYE9jBWtYCfxUxAhgAFX55gceUtT8sg2iw2oBIC1Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8834,
-  "timestamp": 1549477604993,
+  "sequence": 8835,
+  "timestamp": 1549477606519,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%/hdbX6UJQk1uZ8PDVyZqkcbCEkjE4yNzahuAs0xVvwc=.sha256",
+    "branch": "%qitNkpI3Patm5xgTgvzBHzOt0lBnSdnPmynYQagoZe0=.sha256",
+    "reply": {
+      "%/hdbX6UJQk1uZ8PDVyZqkcbCEkjE4yNzahuAs0xVvwc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%qitNkpI3Patm5xgTgvzBHzOt0lBnSdnPmynYQagoZe0=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%qitNkpI3Patm5xgTgvzBHzOt0lBnSdnPmynYQagoZe0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> Maybe just backup your log before you fuck it?\n\nI think this is my favorite advice template: \"Maybe just ________ before you fuck it?\" 🙇 \n\nPutting on my wizard hat, if *all* messages referenced two previous messages then I think that would give us **eventually consistent ordering**? ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "8r19fyrSSN2avzDaZZd1wZMh7lkfGNg8HBrIzMl+0vafquHB8n+iz6ydbXnsknd2Gu1+GC7yGhXRIwBc3GG8AA==.sig.ed25519"
+  "signature": "71Gt2XEgG4P4t4HUmV6PHx9hPNrzmEnN726LB1OAmS8BjTG1TOB1ZTrZI8W/GcSRniuuhXDWFBUX+71+LxSeBQ==.sig.ed25519"
 }
