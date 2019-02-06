@@ -1,30 +1,13 @@
 {
-  "previous": "%D9JzQwKjy9AFicatu3eT8cym0z3SIzBxPIUbSpJdeA4=.sha256",
+  "previous": "%2KnqQ146swEJblP0SJ93cE9feiOF2FSYTqZQWkcwPNw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8836,
-  "timestamp": 1549479666607,
+  "sequence": 8837,
+  "timestamp": 1549479822558,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%YQ912zlKHiDFtaMsKhYz20jl3ewvvXCOMgATyFWFvFU=.sha256",
-    "branch": "%DErCWv0fgJGzo06YUv8Vxq52cplZmRBm3wo2Yp5J9zI=.sha256",
-    "reply": {
-      "%YQ912zlKHiDFtaMsKhYz20jl3ewvvXCOMgATyFWFvFU=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
-      "%DErCWv0fgJGzo06YUv8Vxq52cplZmRBm3wo2Yp5J9zI=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nI hadn't seen that, but now my brain needs repair. 🤯🤕\n\nI think I love it but it also hurts my mind.\n\n---\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nYep, I've daydreamed about the same sort of thing, especially when we were originally looking at flumedb's `addMap()` stuff. \n\nThis specific daydream was sparked when I realized that some of our views don't support `flumeview.rebuild()` and I started thinking about which methods were necessary in the API. I looked for an off-the-shelf solution and found levelup, which seems like a well-specified list of API methods that's at least adjacent to what we do *plus* since we use level it might not be too difficult.\n\nThe only big gotchas that I came up with:\n\n- levelup doesn't support `append()`, which might be fine (?) since we use a `since` value anyway\n- levelup doesn't support `rebuild()`, but reduce views could handle that internally when they  get a `del()`\n- levelup doesn't support `createSink()`, but I think `iterator()` does what we need",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "type": "contact",
+    "contact": "@Aj30ftcGjrxufcB7xfGxlyTb+SswXacEsPjC8I8I3XY=.ed25519",
+    "following": true
   },
-  "signature": "aXDavM6/cyqyQ/1w1HEaQrqhhXUgc4cYS6G9eQUzOMmM+YbL4GNIcSmLFPoYFkR6MoLjhJGi3DLUvuu/OgnsCQ==.sig.ed25519"
+  "signature": "9QTCiC7O61axVBmcjhY6SVGU6YNA2FQcYy9fpCisKUzRUELHNou+vNLAMZzgDVgQZnElkbJ/Dw6AoAfzOOEsDw==.sig.ed25519"
 }
