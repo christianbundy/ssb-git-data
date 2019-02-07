@@ -1,13 +1,16 @@
 {
-  "previous": "%5Qb6AX2JwOMRxwuELcOzW5Wpo8cvj3ht458Cc+3MPH4=.sha256",
+  "previous": "%Hp6Ndo/6RpuyoaxyxmGW+pjkbw00rf0Ts0X7NZX09m0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8863,
-  "timestamp": 1549582079109,
+  "sequence": 8864,
+  "timestamp": 1549582107861,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# I found a post preview mechanism I really like\n\nI was browsing HN (I know) and stumbled upon a blog post from [this blog](https://https.www.google.com.tedunangst.com/flak/), which has a super intuitive post preview behavior. Maybe it'd be useful for Scuttlebutt post previews?\n\nThings I like:\n\n- the title isn't gigantic\n- the title is a link to the post (woop)\n- the first paragraph is shown by default (woop woop)\n- it's enough information to understand the gist of the post\n- it's not so much information that it's overstimulating or annoying\n\nIn cases where there isn't a title, maybe the first two paragraphs should be shown? or just one? I don't have any strong opinions but I thought it was cool and wanted to share.",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%2m3wNYbMs8zg6Uz5Acc3X5hukhQ09kSqfEun+Wmy448=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "CNpkusE2IneL2+oHNVZPNltPTqpN7VSQUsO+7x8W27l12s3rrINXX5Xgt7mqFgQg+N4VCbdLklbIqPuYWEJmBA==.sig.ed25519"
+  "signature": "Ejplx4i+5HD+6SVjOolYipKzX518ikcv+ibWN0QXXe7Q3wksEQYSDFlUTFfXXHk4VMFlXe0LYBN0I1r+SJwWCw==.sig.ed25519"
 }
