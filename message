@@ -1,9 +1,25 @@
 {
-  "previous": "%m73a2NtrF+WPGHQ91NMVspFL90kj3FAiH5/hdtUBRaw=.sha256",
+  "previous": "%W0R+dAu4SLCs46lyBp4SZoXWS0k927/DsJzOhemLLEI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8868,
-  "timestamp": 1549654798121,
+  "sequence": 8869,
+  "timestamp": 1549655819359,
   "hash": "sha256",
-  "content": "vtp0UurVVDkHttME6Pl62QCgqI0bbM54McCywFGZqvyfXDzVEjc7PkSAtW21d4+i7ugKFu3U/msKpiIs8PtU9rJgBxBZieVfoTNBlAxCUEW/R4LZYIwQ5E+L5FssCyUSbx66NlKD3rt6/+90Aj8tT/nd42zo6wW0KR4fnHPenRN94emlzbBoHuXmMZNil/s3oyH8b9RpwMPzvirvRb25PXwMd3FkK/Q/pinAqU6zaeUdQfi8XkJJd2M+07T3cSQlsXRngjNMFSGPr0w9n6C3R7SmTo8NHLBTuRLR26zwacCmn0hCtfU522Jpx2QHgeorK8iaJ5RIzb6J/PLN9JjQAqfiIxjpgrIgZaLYOfiO71BQndSuLs+TrwjXDkq6tNJUnbBhGSlV0w9BQsah8Gf8U40oL4dKMFH1QqF6Q31X9UzgK6ryCzNl0t3mFtBNxGrcowCISbbmwArmaAOInNfJc8POMAgnDfSl5rKhT2cAmCN1R1NUx8tTAfVkbcZVYLUsUQKzJZhJ4odxM0gdgLM=.box",
-  "signature": "kmRgNdOgSREyR+mRMdE4lp7kCFOSb+nDPdQJrbcGhSmGuym6+GgDffHFWAOMBz0SiK8noiY1/SDISZ6wtDiIBg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%rfR4VYjo5ZCsycdK/w4qNwi9iwBDdNQ1ULzT2J4MX24=.sha256",
+    "branch": "%Jiq6O6B+pVZl1A4N/PRb+5LELmxDEWeU7VHrjXkiifc=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI noticed your follow + unfollow pattern above and wanted to share a concept that came up when we were thinking about onboarding for Verse: one-way pubs. It's the exact same as how conventional pubs work, except that you don't follow the pub.\n\nThe pub still follows you and hosts your data, but it doesn't pollute your social/trust graph with other randos who have redeemed invites with the pub. The idea is that the pub is added to `gossip.json` and is used to sync feeds, but since you don't follow the pub it shouldn't change your social/trust graph at all.\n\nAs long as you have someone else on the network to follow, this should work great! For folks who know *nobody* on the network, this is sub-optimal because the one-way pub doesn't introduce them to anyone new.\n\nI'd love to chat about this sometime, but I think the easy/hacky way would be to switch steps 4 and 5 in [this post](%B6VJPEN4X/8uh9rORgjSquZbrTgqhcSsRCArsOim9Qk=.sha256), so you'd:\n\n1. use pub invite\n2. unfollow pub\n3. wait for download to finish\n\nMaybe that'd remove the server restart constraint? You could keep hops as-is and then just load plugins without a restart, or at least that's how I *think* it'd work.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "%B6VJPEN4X/8uh9rORgjSquZbrTgqhcSsRCArsOim9Qk=.sha256",
+        "name": "this post"
+      }
+    ]
+  },
+  "signature": "2Z9RkWdmeuGI6Um5HYmoKxYlwcvDjFJn0eXjLncu9cl/BryZX5Mhk9ZaPC6FoRt/VtuGG6Av4+1y7471ELIDDA==.sig.ed25519"
 }
