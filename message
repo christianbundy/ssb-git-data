@@ -1,20 +1,27 @@
 {
-  "previous": "%Y6/nnUdeOW64gw4HPczID6ft7cmhqCes3re3Kd+DGtY=.sha256",
-  "sequence": 8866,
+  "previous": "%7WBUbWv10k82CJQrPQAg1psHFeMK0ykmdo8GSAJSHWE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1549649900768,
+  "sequence": 8867,
+  "timestamp": 1549650284572,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%Hp6Ndo/6RpuyoaxyxmGW+pjkbw00rf0Ts0X7NZX09m0=.sha256",
-    "vote": {
-      "link": "%ZU2Ie+GtPSM4CCVlH/eu6pN0Bq8Et+l7Lt2HSrIpF1Y=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%ZU2Ie+GtPSM4CCVlH/eu6pN0Bq8Et+l7Lt2HSrIpF1Y=.sha256"
+    "branch": "%ZU2Ie+GtPSM4CCVlH/eu6pN0Bq8Et+l7Lt2HSrIpF1Y=.sha256",
+    "text": "Backlink: %WDhZnMXcscUQAOm66L4Af9Z2GkP7L4n9GFyd+0P6rs8=.sha256\n\n>[@christianbundy](@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519) I wrote a module that pulled a reasonable title from markdown content for ticktack https://www.npmjs.com/package/markdown-summary This enabled us to fit regular threads into ticktack's blog model. I would say it could be improved on though!\n\n-- [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "%WDhZnMXcscUQAOm66L4Af9Z2GkP7L4n9GFyd+0P6rs8=.sha256"
+      },
+      {
+        "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+        "name": "christianbundy"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
     ]
   },
-  "signature": "fwtv8iY2gVlwogBHW2Ww4UF+iV5n04gQgMTaTwJDz4JAfFgMeh4CO9QhueA9xJbltdUYVjRSqjbhr4yLYTeTBg==.sig.ed25519"
+  "signature": "iG2MvXgPcfGl1zPijVAdOShUIR4F8BUJuq08+9geqG6Ae+l6ddjLiG+WljPAxneElZPXfVex/RM8anVXoQEyDg==.sig.ed25519"
 }
