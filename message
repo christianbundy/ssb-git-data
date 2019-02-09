@@ -1,38 +1,9 @@
 {
-  "previous": "%51IL+NhaRKKehkvzz3qsS4GjTcJmNdw64sFE1L85VdM=.sha256",
+  "previous": "%mj3QVQd+P3W/WRDc5ZWbwKICP1l15w0lbXd4XEAthzk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8872,
-  "timestamp": 1549668372846,
+  "sequence": 8873,
+  "timestamp": 1549732264751,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
-    "branch": "%owMDNQHphPw/IRCaLJ6YZtwUsEtGBMME6jqb9dgRC90=.sha256",
-    "reply": {
-      "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%owMDNQHphPw/IRCaLJ6YZtwUsEtGBMME6jqb9dgRC90=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
-    },
-    "channel": "ssb-server",
-    "recps": null,
-    "text": "![video:itsworking.mp4](&yEjoEuS9rkbp9tKqTPNwZnnXRSUMfxyNWTK2Y+W0NkY=.sha256)\n\nI had a brief conversation with [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) where he walked me through how he'd go about implementing deletion. My implementation was *mostly* on the right track, but the gist is that I was messing around with [this sort of nonsense](https://github.com/flumedb/flumelog-offset/blob/write-delete/frame/recoverable.js#L77-L171) instead of just [filtering out deleted items before returning](https://github.com/flumedb/flumelog-offset/blob/del/inject.js#L80).\n\nAs far as I can tell **it's working**, but it requires changes to:\n\n- aligned-block-file\n- flumelog-offset\n- flumeview-level\n- flumeview-reduce ([TODO](https://github.com/flumedb/flumeview-reduce/issues/10))\n- flumedb\n- ssb-db\n- ssb-server\n\nI'm thinking that the best way to go about this is probably starting with the leafs of the dependency tree, bubbling my way up from there:\n\n![dependency tree graphviz dot png](&SdfqZzliEPY6kDe6dYdUmuboT+21UmyVgDxFjM13rww=.sha256)\n\nMost of this work took a few iterations so I'm sure I'll need some cleanup, but I think we're close. Once this is done then we can [teach flumeviews to delete single items](https://github.com/fraction/flumeview-flumelog-array/blob/master/index.js#L43) so that we can avoid resource-intensive rebuilds, but that's still on the horizon.",
-    "mentions": [
-      {
-        "link": "&yEjoEuS9rkbp9tKqTPNwZnnXRSUMfxyNWTK2Y+W0NkY=.sha256",
-        "name": "video:itsworking.mp4",
-        "type": "video/mp4",
-        "size": 712027
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "&SdfqZzliEPY6kDe6dYdUmuboT+21UmyVgDxFjM13rww=.sha256",
-        "name": "dependency tree graphviz dot png",
-        "type": "image/png",
-        "size": 53603
-      }
-    ]
-  },
-  "signature": "Q+Ra/jmFkpuxBxHvnFimaz+vugElLVkGmx7QUMVT0fVsW62+X74JnjzM/Br8vKa5Nbed2nHOsUrc0S40IXotDw==.sig.ed25519"
+  "content": "nTHsY6Nx8Lb2OgHFRwtnhrNyq4MFHn2DfYUGFmJ0lsvtkhacUtiGEaRujSk23lKQsXKTCgohLARHib7QDew/XmSn7rrWwL7ev/yAYD73fRxi5V2hjjIyqvU0o9mG8q5myGykq/AMG+07wFApQP2TEW1AOCQ1j71C/KkBDaFks/+OPS0kweUerW3pimHp4uUBk2w64ASszY8zdvMjWifxmSF2AvXK4mXu05D7G/VVkyAK42oKOK4mjQf9+T+I4vol3taO8nlp278Jsb2GZS/KYE6yF2t1B24RXkb+U4q7eCejM6JXtEonB1UzdhuDdA79ktFF3KcWgO++wOoX2V7eveD23XU3xQ0EU41fsV04OYjIOrxkc39dbZMzMuTSFs3oZSELSqixqblR3pHlFxSnngT7UARsf5PvzoKSiXqzP5RaVILoi9rrfZkXsAAbd/crT1zm0jgNt1Wm+rRxLGFj0aWhw2h89OP7HR7qfzaYhRdE6fZWcXuYcx0nziZsRX62bqXryxP2mUapQBdRma/nb8bvEZrssyTFa6O1T0Dc3fDKaDdYn9rKxgHbv2qUCs28GOLxvmm/0rBAD+0JSb4Ivau6FWBC156G29FDGngAXFsRhtm1OSkI3X7bjyuEF+X6TEZe56VwHlkmQPMEXXo/eR2abYblkV23/3OMlNVf72p+ArZ7WxzAuGJ2RyJzAcH1mFhRYqp8Z9XvLrU8DwFqHYUIQMC1iysSdBde9gXcAraz0hnrZWHuiEuoo3MTjzCaBgt/swhV/fHhL2wy4Zlgoum1ITNUozyeDuGcJ7dLopoNOkMrnt4KIjSaKA==.box",
+  "signature": "++CUlijKNTtIjO/J9kwLii9ldoJPNp5YwjvdasMu87KhzItWHA0Jw0oXbd0K4KcufAVx+pgaGDf1b8uohlsaBw==.sig.ed25519"
 }
