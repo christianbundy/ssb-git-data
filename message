@@ -1,20 +1,15 @@
 {
-  "previous": "%eFl29hWOW9gs85ETP5EfxTkE4/hUNHi7Rpl0IJqiReA=.sha256",
-  "sequence": 8889,
+  "previous": "%9Fn2fpnR4scHNDoNx2kTgaMg10dHQybuFJkX+0+HFpI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1549911049490,
+  "sequence": 8890,
+  "timestamp": 1549911231278,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
     "root": "%CGCFQYw+MIlABL7kELdnc8rBPsWRWZiq6hBL6DG0Jjc=.sha256",
-    "vote": {
-      "link": "%CGCFQYw+MIlABL7kELdnc8rBPsWRWZiq6hBL6DG0Jjc=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%CGCFQYw+MIlABL7kELdnc8rBPsWRWZiq6hBL6DG0Jjc=.sha256"
-    ]
+    "branch": "%CGCFQYw+MIlABL7kELdnc8rBPsWRWZiq6hBL6DG0Jjc=.sha256",
+    "channel": "cryptography",
+    "text": "For posterity:\n\n>Dear CFRG Participants, \n>\n>My name is Léo Perrin, I am a post-doc in symmetric cryptography at Inria, and I would like to bring recent results of mine to your attention. They deal with the last two Russian standards in symmetric crypto, namely RFC 7801 (Kuznyechik, a block cipher) and RFC 6986 (Streebog, a hash function). My conclusion is that their designers purposefully used (and did not disclose) a very specific structure to build their S-box. The knowledge of this structure demands a renewed analysis of their algorithms in its light. While I do not have an attack at the moment, these results lead me to urge caution about using these algorithms. \n>\n>Let me summarize my results. \n>\n>Both algorithms use the same 8-bit S-box, pi, which is only specified via its lookup table. The designers never disclosed their rationale for their choice and never disclosed the structure they used. I have managed to identify what I claim to be the structure purposefully used by its designers to construct pi. The corresponding paper was accepted at ToSC and is already on eprint: [ https://eprint.iacr.org/2019/092 | https://eprint.iacr.org/2019/092 ] \n>\n>With my then colleagues from the university of Luxembourg, we previously found two different structures in this component and published them a couple years ago [1,2]. However, we were not satisfied with these results as the structures we found were bulky and just plain weird. The one I just found is much simpler and has both previous decompositions as side effects---in fact, we conjectured the existence of such a nicer structure in [2]. Much more importantly, this new decomposition highlights some very specific (and, in my opinion, worrying) properties of pi that were not known before. \n>\n>In a nutshell, pi is actually defined over the finite field GF(2^8) in such a way as to map multiplicative cosets of GF(2^4) to additive cosets of GF(2^4). Furthermore, the restriction of the permutation to each multiplicative coset is always the same. Also, the linear layer of Streebog---specified via a 64x64 binary matrix by its designers, including in RFC 6986---is in fact an 8x8 matrix defined over GF(2^8) using the same irreducible polynomial as in the S-box. Thus, at least in the case of Streebog, both the linear layer and the S-box interact in a highly structured way with two partitions of GF(2^8) and one of those is its partition into additive cosets of the subfield (this will be important later). \n>\n>This situation is unlike anything else in the literature. For example, while the inverse in GF(2^8) preserves the partition into multiplicative cosets of GF(2^8), the AES designers composed it with an affine mapping breaking the GF(2^8) structure. It is not the case here. On the other hand, Arnaud Bannier proved in his PhD (see also [3]) that an S-box preserving a partition of the space into additive cosets in such a way that it interacts with the linear layer was necessary to build some specific backdoors. \n>\n>Still, at the moment, I don't know of any attack leveraging my new decomposition as the partition in the input is the partition in multiplicative cosets (and not additive ones). Nevertheless, I can't think of a good reason for the designers of these algorithms to use this structure and, worse, to keep this fact secret; especially since the presence of such properties demands a specific analysis to ensure that the algorithms are safe. \n> \n> I felt I had to bring these results to the attention of the CFRG. If you have any questions I'd be happy to answer them! \n>\n> Best regards, \n> /Léo Perrin \n>\n> [1] Alex Biryukov, Léo Perrin, Aleksei Udovenko. \"Reverse-Engineering the S-Box of Streebog, Kuznyechik and STRIBOBr1\". Eurocrypt'16, available online: https://eprint.iacr.org/2016/071  \n[2] Léo Perrin, Aleksei Udovenko. \"Exponential S-Boxes: a Link Between the S-Boxes of BelT and Kuznyechik/Streebog \". ToSC'16. Available online: https://tosc.iacr.org/index.php/ToSC/article/view/567  \n[3] Arnaud Bannier, Nicolas Bodin, Éric Filiol. \"Partition-based trapdoor ciphers\". https://eprint.iacr.org/2016/493  \n\n"
   },
-  "signature": "8YUPto8YDxf3uAwQS0XAJynN8HjjfVVt1l3Ccn6sIeX7CV/LzYVCQafFCoicTb1OSFEmDOZEoEBBRSdpRflADw==.sig.ed25519"
+  "signature": "FpzgfLEGA8Dt6FJV6U6wE54ivu5AasEzJQRt8mDny73OBTz2zIjKXHqWuDtCeGG7tDPqf0HSpUiP+oZWOhUVBA==.sig.ed25519"
 }
