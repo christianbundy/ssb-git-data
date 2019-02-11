@@ -1,17 +1,20 @@
 {
-  "previous": "%P2YqCd91+abjFAfIT6LxYR8C0hL5VHhTa/25gepPvdc=.sha256",
+  "previous": "%zU7jF2N1ms5MHszhJ32QvqWcYkUMI0PaHWnU67pKDYQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8898,
-  "timestamp": 1549927852962,
+  "sequence": 8899,
+  "timestamp": 1549927954271,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%4YfZ1yAWHPcR2wNqiUFONPwwhxeUROF6fAZtIpGVkZ4=.sha256",
+    "branch": "%4YfZ1yAWHPcR2wNqiUFONPwwhxeUROF6fAZtIpGVkZ4=.sha256",
+    "reply": {
+      "%4YfZ1yAWHPcR2wNqiUFONPwwhxeUROF6fAZtIpGVkZ4=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+    },
     "channel": "scuttle-camp",
-    "vote": {
-      "link": "%4YfZ1yAWHPcR2wNqiUFONPwwhxeUROF6fAZtIpGVkZ4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Thanks for taking this on! I love the way you've explained it, this makes it super clear for me.",
+    "mentions": []
   },
-  "signature": "Ru1b68roNgLG0JvrhqjrjGlaPKldFErcgrWIK9OzTQJY8dWVYiSXlEUXyEjIKiRoaPVYpipffH5j0MbF4xD+Ag==.sig.ed25519"
+  "signature": "+CwDDUnKdcDfMPPn83066rIJonGVmyxfb1ZWjdP7Hp564x9GvIUx5VjTQn6b6xPppIRbG6W/zh9WVhwz91TTAA==.sig.ed25519"
 }
