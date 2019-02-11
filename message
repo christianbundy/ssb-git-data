@@ -1,21 +1,20 @@
 {
-  "previous": "%g2cFQ7VyJ2CXqMsRv4oLdwVRbDTNNmDYyQS1OG/HM5s=.sha256",
+  "previous": "%ukMhXyppFmKrt2ceHtTu3DQwdV0stsLcKp44dF+3i4M=.sha256",
+  "sequence": 8892,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8891,
-  "timestamp": 1549912057021,
+  "timestamp": 1549913481876,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
-    "branch": "%5Mty5jmOeHb9j7hcIcUaovCRK7gHfRiNl8YSxe+bC1w=.sha256",
-    "channel": "ssb-server",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nSure!\n\n- **aligned-block-file:** add `write()` that writes to a specific position rather than appending\n- **flumelog-offset:** add `del()` that overwrites an item with null bytes, filter null items from `get()` and `stream()`\n- **flumeview-level:** maybe bugfix, also implement `del()` so it doesn't have to rebuild (later)\n- **flumeview-reduce:** fix bug where view doesn't start rebuild until server restart (todo)\n- **flumedb:** add `del()` that triggers `flumelog.del()` and `flumeview.del()` if available, falling back to rebuild if it's unavailable\n- **ssb-db:** fix a bug in `create.js`, export `flumedb.del()` and `flumedb.stream()`\n- **ssb-server**: depend on new version of ssb-db (trivial)",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
+    "type": "vote",
+    "root": "%8g4Dd80A+RzdhKre+e346JurSc95HOQawa4FIGIYgsY=.sha256",
+    "vote": {
+      "link": "%8g4Dd80A+RzdhKre+e346JurSc95HOQawa4FIGIYgsY=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%8g4Dd80A+RzdhKre+e346JurSc95HOQawa4FIGIYgsY=.sha256"
     ]
   },
-  "signature": "1mYIreDVqgfiBbFr2fyVJeQoGj5x5538UR7ppVmAU/kC0CKQo16sGy2EbPLhgx3hARgMNcIpxZWe4GUxYG1xAQ==.sig.ed25519"
+  "signature": "/Gv7K7JdZUg8Xn9i3OvDMhbfqpbxRe5jN2v+rKkD8j7jdwnzfGvZ7A0cZL4mlkmkdPyPqA4sHYNZup/xnk7TCQ==.sig.ed25519"
 }
