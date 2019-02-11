@@ -1,30 +1,17 @@
 {
-  "previous": "%zhWJiu9wzN/IdX7yZYeh8458pUkd3d9YJMljKIgrGDk=.sha256",
+  "previous": "%P2YqCd91+abjFAfIT6LxYR8C0hL5VHhTa/25gepPvdc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8897,
-  "timestamp": 1549919898153,
+  "sequence": 8898,
+  "timestamp": 1549927852962,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%UbmyE84JJMc7TkS7gdDW3nnRC4+K69xfTl/CV45B0sA=.sha256",
-    "branch": [
-      "%GiqtwI185Af1qlVvvL1JgN3eYew11AVvJtt+YscmWpo=.sha256",
-      "%eVeovVPBooXxy68e6eyrZGAuKDJ0kuZ+pUtYnY1k6b0=.sha256",
-      "%ofgAnp8MfxsWcskqLOEFU0ZVj3yhtIAD1GCUJ0arl04=.sha256"
-    ],
-    "reply": {
-      "%UbmyE84JJMc7TkS7gdDW3nnRC4+K69xfTl/CV45B0sA=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-      "%ofgAnp8MfxsWcskqLOEFU0ZVj3yhtIAD1GCUJ0arl04=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nMaybe the solution is to provide support for [\"forges\"](https://emacsair.me/2018/12/19/forge-0.1/)? We all want a distributed solution that works in P2P-space, but I don't [yet] feel comfortable marching forward unless we're building bridges behind us.\n\nMy mental metaphorical model looks something like this:\n\n- Centralized solutions are like castles with big moats around them.\n- Wading through the moat is really hard and most people don't care enough to do it.\n- Some of us are weird and go to great lengths to wade through the moat (for various reasons).\n- Once you wade through the moat there are two easy options:\n  - Keep walking and set up camp with a few of your friends.\n  - Turn around and yell toward the castle to convince people to leave.\n- The third option is hard but it *may* be worthwhile: build a bridge.\n  - You may be accused of \"adding to the castle\".\n  - You may be accused of wasting resources that could be used to set up camp.\n  - The above accusations may be correct, I don't claim to be an expert.\n- Building bridges behind you takes time and energy, but makes it easier for others to follow.\n\nRight now we're in an awkward place: we've all crossed the moat and we've set up a small camp in P2P space, but we still go back to GitHub every day to interact with everyone else (and often each other) because we know most of these people won't cross the moat with a bridge. Hopefully that makes sense, I know that metaphors can either add to a point *or* obfuscate it to death.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "type": "vote",
+    "channel": "scuttle-camp",
+    "vote": {
+      "link": "%4YfZ1yAWHPcR2wNqiUFONPwwhxeUROF6fAZtIpGVkZ4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Iagv9SBRGj/f6rsQOgVMgOxc+AXQJvuiLWdB57opU0WFz7Uw3c01eBOnVmN2S57XYR2hV4VuzQE9mnwLVMBNBA==.sig.ed25519"
+  "signature": "Ru1b68roNgLG0JvrhqjrjGlaPKldFErcgrWIK9OzTQJY8dWVYiSXlEUXyEjIKiRoaPVYpipffH5j0MbF4xD+Ag==.sig.ed25519"
 }
