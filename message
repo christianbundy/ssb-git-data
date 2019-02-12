@@ -1,17 +1,24 @@
 {
-  "previous": "%tmYIl2FCbAOF/fWcycYB2rtMUKG0ZTojQryrBF2x1HA=.sha256",
+  "previous": "%7jjdsj51a3aqtj7AynrOkKN71MxlK8q34Zp2l9G2Hog=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8913,
-  "timestamp": 1549991580251,
+  "sequence": 8914,
+  "timestamp": 1549991777423,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%BE4CX7L2+bRmI8vZdX90lGpr9MML0MtNVq1R3nvx0Oo=.sha256",
+    "branch": [
+      "%SLbDNxqL4HxLC5A+UkonxDwbnzlZa20+zZUZNxDyiJ4=.sha256",
+      "%rxCPBy2dePbbLZLHOjaBPxmGwxb/F0EIyTamfnaJl2I=.sha256"
+    ],
+    "reply": {
+      "%BE4CX7L2+bRmI8vZdX90lGpr9MML0MtNVq1R3nvx0Oo=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+      "%SLbDNxqL4HxLC5A+UkonxDwbnzlZa20+zZUZNxDyiJ4=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%SLbDNxqL4HxLC5A+UkonxDwbnzlZa20+zZUZNxDyiJ4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "To add another example, many folks (like myself) use the `.io` TLD but we aren't  actually based in the Indian Ocean.\n\nI distinctly remember that the `nic` subdomain on any TLD is meant to take you to their info page (e.g. http://nic.io or http://nic.org) but I tried http://nic.to and it's just an empty WordPress site. Hmm. Also, http://nic.nz redirects to a www subdomain but that fails. Maybe it's not actually required to maintain that nic domain?",
+    "mentions": []
   },
-  "signature": "DFnRlt6Qu669RcJsKzRhVY2ne4lScev+9lBOr4LyDN4ESs5BhTXOGevzPhny1Yb5U3CPqotOuyeirHvTfqqhAg==.sig.ed25519"
+  "signature": "l/PNVBhsxaREv+tNXDkl9hhE8N0ydkyDikRnAKCXpt19NF5nKcDby91UlmlvvztQoxtDfbbsRS7mJcroz0BLAQ==.sig.ed25519"
 }
