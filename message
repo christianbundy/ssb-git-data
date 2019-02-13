@@ -1,24 +1,25 @@
 {
-  "previous": "%ATSOHf+zZomndm/JkoPkioQKwWgjQrNRhnXvA0aGRgA=.sha256",
+  "previous": "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8926,
-  "timestamp": 1550081918773,
+  "sequence": 8927,
+  "timestamp": 1550083887862,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Should we be paying attention to ActivityStreams?\n\nI'd never given ActivityStreams a real look before, but I've been browsing [the spec](https://www.w3.org/ns/activitystreams) for the last few minutes and I'm really loving what I see. As far as I can tell it looks like a well-specified and well-documented JSON message format, which gives us schemas for all types of messages:\n\n- activities\n- article\n- audio\n- relationship\n- document\n- event\n- group\n- image\n- note (like a post)\n- organization\n- page\n- person\n- profile\n- question\n- tombstone (!)\n- video\n\n...and a few more that I haven't looked into. As we're working on new features (e.g. tombstone feeds), I wonder whether it'd make sense to pay attention to the ActivityStreams spec and follow along where it's easy. I found an [old thread about this](%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256) but I didn't find any clear answers there.\n\n**Anyone else have feelings about this?**\n\n#activitystreams #scuttlebutt",
+    "root": "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256",
+    "branch": "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256",
+    "reply": {
+      "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nYeah, I *really really really* don't like that feature. I'd love to remove it from ssb-markdown, but I may be the only one.",
     "mentions": [
       {
-        "link": "%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256",
-        "name": "old thread about this"
-      },
-      {
-        "link": "#activitystreams"
-      },
-      {
-        "link": "#scuttlebutt"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ]
   },
-  "signature": "7zSKbJttcWkBH/GCNlG4ScoJg+dFFysXiPQ7dqZbaDsakB0EHua5IoCrnpB30Im8y3mGr8thpdVGTPc8/FOmAg==.sig.ed25519"
+  "signature": "jSZxPg5h09iiDSxBs57c8Q9SA5tFOh2zHXX83ykE1nSM8EskCJpnUPo+xzhVc5gprtQpjLFE8JPMBJmoKjZzDA==.sig.ed25519"
 }
