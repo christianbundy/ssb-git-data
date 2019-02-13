@@ -1,17 +1,30 @@
 {
-  "previous": "%qoAjp74eEA2g9uAAnUhPeRtR7qoA+eeLfBLiO+yiWgc=.sha256",
+  "previous": "%omP8MgIJDRQPHgGBcKMrgsoqt0m05qWl98d3wXY/KLM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8922,
-  "timestamp": 1550072114992,
+  "sequence": 8923,
+  "timestamp": 1550072759359,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "scuttle-camp",
-    "vote": {
-      "link": "%CdwpZ61AkBfQwy0tY88Tql3fUayCbLJfR7Tvd2nw7MQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%A5ZhmozMn/tTVxOunSs5e7nKuGekQ5zGW/oeN+FvpF8=.sha256",
+    "branch": "%O2G9e9d/SNIILLXZfRGyCSVAT5qT7ZpBnxAwdQhP3no=.sha256",
+    "reply": {
+      "%A5ZhmozMn/tTVxOunSs5e7nKuGekQ5zGW/oeN+FvpF8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%O2G9e9d/SNIILLXZfRGyCSVAT5qT7ZpBnxAwdQhP3no=.sha256": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519) \n\n!!!\n\nWhat a wonderful thing to wake up to, thanks for hacking on this! I'll look into the locale stuff and see if there's a simple way to hook into that system -- I'm not very familiar with it either. Sounds like I owe you [two](%LtteWevppo7PU9dsueWn6T+xlpVF7B4cO3fj12/joNs=.sha256) now!",
+    "mentions": [
+      {
+        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
+        "name": "Justin Abrahms"
+      },
+      {
+        "link": "%LtteWevppo7PU9dsueWn6T+xlpVF7B4cO3fj12/joNs=.sha256",
+        "name": "two"
+      }
+    ]
   },
-  "signature": "/98QlkktK3sWliisSksRvZTzh8qlq0IOapVbdHYWAE5RLhfjqLOSnyW9EZzIcoFJDszC6rScfV1zvNHfay+NCg==.sig.ed25519"
+  "signature": "LX/H3xghGbKckM80VXMZNssfA1tg0N5N37yqP5gmBXHzQ/sKOLG75POLdxLPUZbZafgRcppv9CGJC/c4VRQKBA==.sig.ed25519"
 }
