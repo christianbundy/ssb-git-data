@@ -1,20 +1,24 @@
 {
-  "previous": "%DBKpbZSxNWgbPtSypxzs06VU2Y5asXsasj8N9PE68t0=.sha256",
+  "previous": "%ATSOHf+zZomndm/JkoPkioQKwWgjQrNRhnXvA0aGRgA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8925,
-  "timestamp": 1550081239898,
+  "sequence": 8926,
+  "timestamp": 1550081918773,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%yT4SaZfvLhtdnqa1P9/RwIeGVJe6bFCAOvdVA1yy4Kg=.sha256",
-    "branch": "%HbCW8iLppZD0ZQS3SfdHCImhh4iW4x7VeUq+fK/9CUg=.sha256",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nMerged and published as 4.0.1. 👍\n\nRegarding the future, it would be really nice to have a way to specify metadata about the post. For example, here's how you'd do a \"post\" with ActivityStreams:\n\n```json\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"mediaType\": \"text/markdown\",\n  \"content\": \"## A simple note\\nA simple markdown `note`\"\n}\n```\n\nThis is actually a pretty neat spec, it seems like they've put a lot of effort into specifying *exactly* how all of this should work together: https://www.w3.org/ns/activitystreams#class-definitions",
+    "text": "# Should we be paying attention to ActivityStreams?\n\nI'd never given ActivityStreams a real look before, but I've been browsing [the spec](https://www.w3.org/ns/activitystreams) for the last few minutes and I'm really loving what I see. As far as I can tell it looks like a well-specified and well-documented JSON message format, which gives us schemas for all types of messages:\n\n- activities\n- article\n- audio\n- relationship\n- document\n- event\n- group\n- image\n- note (like a post)\n- organization\n- page\n- person\n- profile\n- question\n- tombstone (!)\n- video\n\n...and a few more that I haven't looked into. As we're working on new features (e.g. tombstone feeds), I wonder whether it'd make sense to pay attention to the ActivityStreams spec and follow along where it's easy. I found an [old thread about this](%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256) but I didn't find any clear answers there.\n\n**Anyone else have feelings about this?**\n\n#activitystreams #scuttlebutt",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256",
+        "name": "old thread about this"
+      },
+      {
+        "link": "#activitystreams"
+      },
+      {
+        "link": "#scuttlebutt"
       }
     ]
   },
-  "signature": "7QztiNpK/z625xgp0B+bErQ11T2Hasd9J/NvSz+c1Iz9+yHRw2XVl8bBIbbVmny64WJ40vzV6B2NOtILEkcFDg==.sig.ed25519"
+  "signature": "7zSKbJttcWkBH/GCNlG4ScoJg+dFFysXiPQ7dqZbaDsakB0EHua5IoCrnpB30Im8y3mGr8thpdVGTPc8/FOmAg==.sig.ed25519"
 }
