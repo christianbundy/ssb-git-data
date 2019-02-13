@@ -1,17 +1,20 @@
 {
-  "previous": "%Im9adLdi6cqDXemz+9kO10glmclloAvurtGCuM62rik=.sha256",
+  "previous": "%P7x2tnxnwtLGJGgEVCht9z+8nOMB44Kvw3/3uHa+XjA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8920,
-  "timestamp": 1550016234448,
+  "sequence": 8921,
+  "timestamp": 1550016242206,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%T7Ox5lxNPnFBz1cB8YpjwFnaQfHeyez0bAsyAYQbFsk=.sha256",
+    "branch": "%T7Ox5lxNPnFBz1cB8YpjwFnaQfHeyez0bAsyAYQbFsk=.sha256",
+    "reply": {
+      "%T7Ox5lxNPnFBz1cB8YpjwFnaQfHeyez0bAsyAYQbFsk=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": "dogs",
-    "vote": {
-      "link": "%T7Ox5lxNPnFBz1cB8YpjwFnaQfHeyez0bAsyAYQbFsk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "good dog",
+    "mentions": []
   },
-  "signature": "U+7it3erKyogll56NrQp4ZbAc6X+tuw/56yyrVJdyvs35bKp1Fhc1HCEptgk+FixZuoHtsdgj0n9gdLUgll/CA==.sig.ed25519"
+  "signature": "3biePnyUwN4AKuIPFK3vb0AIFNir/V9p9xtulR+DTlHECklDl/ywS7SoxpMJ2T0bze0kk0tHXud2CeHYMdzSAQ==.sig.ed25519"
 }
