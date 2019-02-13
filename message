@@ -1,20 +1,17 @@
 {
-  "previous": "%f4ImE5lNMmKkRHu93lqXGeKy52REF0pV7EyfvSou+U0=.sha256",
+  "previous": "%A5ZhmozMn/tTVxOunSs5e7nKuGekQ5zGW/oeN+FvpF8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8917,
-  "timestamp": 1550016125408,
+  "sequence": 8918,
+  "timestamp": 1550016184035,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "#patchwork-dev \n\nI just wrote up a long and detailed post, but instead of clicking \"preview & publish\" I accidentally clicked \"clear draft\". Message deleted, undo doesn't work, I can't find it in memory, and I don't expect to get it back. What a bummer, especially since the two buttons are *so close together*.\n\nMaybe #somebodyshould make an \"are you sure\" dialog when a post is above a certain length? I'm surprised that even Ctrl+Z didn't work, it's like the message was deleted and the `<textarea>` was banished to `/dev/null`.\n\n😔",
-    "mentions": [
-      {
-        "link": "#patchwork-dev"
-      },
-      {
-        "link": "#somebodyshould"
-      }
-    ]
+    "type": "vote",
+    "channel": "dogs",
+    "vote": {
+      "link": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0r4t02+9eU++wNg2zhEWwmgSqDCjitDQtT/qVswsf0550SfVXhZhXnOEk1mqRn2Kobd2ckLBfD4um/mbGUs8Bg==.sig.ed25519"
+  "signature": "ZNGf3geKDk/TKcanpk8PCMbFeDBPWDMP5EIm2dCO0HyrsWS9uBT0l5VL2oiA+3lxf7LRTDI8iwuKUY6FUeH4Aw==.sig.ed25519"
 }
