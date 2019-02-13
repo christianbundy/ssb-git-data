@@ -1,20 +1,20 @@
 {
-  "previous": "%tnPUhLDYfBfoWXamT0TPKjkqpWo71qsWnE/215ElmpE=.sha256",
+  "previous": "%DBKpbZSxNWgbPtSypxzs06VU2Y5asXsasj8N9PE68t0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8924,
-  "timestamp": 1550079707516,
+  "sequence": 8925,
+  "timestamp": 1550081239898,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
-    "branch": "%mMoFxqsMVTMe5A/5+GvEhXV8mPhPaRZm02naMC30vbg=.sha256",
-    "text": "[@abekonge.too](@xf25ivgqN8m7GvaZBVm5lOgGgBm4SBmuTY05as9Duos=.ed25519) \n\nIt's the worst, I love it.\n\nBut really though, I've noticed that it's really nice to have a visual indicator of which level of headings you're reading. There have been *so* many times I've been reading docs where it feels like the author skips between one topic and the next, but when you look at the HTML you can see they went from a deeply-nested `<h4>` or something to an `<h2>` with basically no visual difference between the two. Bad!",
+    "root": "%yT4SaZfvLhtdnqa1P9/RwIeGVJe6bFCAOvdVA1yy4Kg=.sha256",
+    "branch": "%HbCW8iLppZD0ZQS3SfdHCImhh4iW4x7VeUq+fK/9CUg=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nMerged and published as 4.0.1. 👍\n\nRegarding the future, it would be really nice to have a way to specify metadata about the post. For example, here's how you'd do a \"post\" with ActivityStreams:\n\n```json\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"mediaType\": \"text/markdown\",\n  \"content\": \"## A simple note\\nA simple markdown `note`\"\n}\n```\n\nThis is actually a pretty neat spec, it seems like they've put a lot of effort into specifying *exactly* how all of this should work together: https://www.w3.org/ns/activitystreams#class-definitions",
     "mentions": [
       {
-        "link": "@xf25ivgqN8m7GvaZBVm5lOgGgBm4SBmuTY05as9Duos=.ed25519",
-        "name": "abekonge.too"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ]
   },
-  "signature": "jONq+C+NpRLW5rGhNd8MPr6l5C6rbNk4ui9g/oW4+coreeLDw16IROk0Fp7Wj0E4yScDfDyGFAJr/UU82y2GAA==.sig.ed25519"
+  "signature": "7QztiNpK/z625xgp0B+bErQ11T2Hasd9J/NvSz+c1Iz9+yHRw2XVl8bBIbbVmny64WJ40vzV6B2NOtILEkcFDg==.sig.ed25519"
 }
