@@ -1,17 +1,20 @@
 {
-  "previous": "%A5ZhmozMn/tTVxOunSs5e7nKuGekQ5zGW/oeN+FvpF8=.sha256",
+  "previous": "%38LqKk/e0DW9NNRuA677yG6Co28vxXK0S5SCv8LPrFU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8918,
-  "timestamp": 1550016184035,
+  "sequence": 8919,
+  "timestamp": 1550016228027,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
+    "branch": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
+    "reply": {
+      "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": "dogs",
-    "vote": {
-      "link": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "She looks *so* sweet, it's a bummer she doesn't get along well with the other dogs. It looks like she loves those blankets though.",
+    "mentions": []
   },
-  "signature": "ZNGf3geKDk/TKcanpk8PCMbFeDBPWDMP5EIm2dCO0HyrsWS9uBT0l5VL2oiA+3lxf7LRTDI8iwuKUY6FUeH4Aw==.sig.ed25519"
+  "signature": "9RApwXKmMa29qzqJR/v1a4g8kWzQz3kHWwOf6sAFD+coCY+fRUPJzgYi6dzdMGRNgVEaW2Pg5jU4JZ2L04G7CQ==.sig.ed25519"
 }
