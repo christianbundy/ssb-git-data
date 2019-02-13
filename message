@@ -1,29 +1,26 @@
 {
-  "previous": "%b30ncEjSbZa1UGWXftea5NoPWYafEQMEI8AQbMKnN/g=.sha256",
+  "previous": "%zSHllPOoI3d9sQWtvVA6V3bZgY9EFv85ikha1GXTO88=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8929,
-  "timestamp": 1550097121710,
+  "sequence": 8930,
+  "timestamp": 1550099069852,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256",
-    "branch": "%KnYG4w1D0yKCHLn/tgOdqI0pBvtHQfiM0B0Fn2WcGP0=.sha256",
+    "branch": "%9rYyXL8m+dMtSnYGh9yxNv/m7X0l9xjfj4firFH6v7g=.sha256",
     "reply": {
       "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-      "%KnYG4w1D0yKCHLn/tgOdqI0pBvtHQfiM0B0Fn2WcGP0=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+      "%9rYyXL8m+dMtSnYGh9yxNv/m7X0l9xjfj4firFH6v7g=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nHere's an example: %9Db3wW0qqXk98Lte8rqnuskzt33TkdfsjXIk0H6/RLk=.sha256\n\n## Input\n\n```md\n[![alt-text](img-src)](link-href)\n```\n\n## Expected output\n\n```html\n<a href=\"link-href\">\n  <img src=\"img-src\" alt=\"alt-text\">\n</a>\n```\n\n## Actual output\n\n```html\n<a href=\"link-href\"></a>\n<a href=\"img-src\">\n  <img src=\"img-src\" alt=\"alt-text\">\n</a>\n```",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nThe behavior right now is \"all images are links to themselves\". Instead, my proposal would be to use the default Markdown behavior where \"all images are plain old images unless you wrap them in a link\". Here's a more clear example:\n\n## Input\n\n```md\n![alt-text](img-src)\n```\n\n## Expected output\n\n```html\n<img src=\"img-src\" alt=\"alt-text\">\n```\n\n## Actual output\n\n```html\n<a href=\"img-src\">\n  <img src=\"img-src\" alt=\"alt-text\">\n</a>\n```",
     "mentions": [
       {
         "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
         "name": "dominic"
-      },
-      {
-        "link": "%9Db3wW0qqXk98Lte8rqnuskzt33TkdfsjXIk0H6/RLk=.sha256"
       }
     ]
   },
-  "signature": "WfIHAUgQzvDN8uC884pij31yhpN4fySC3Cnj3aDx67T+YGeXSUeQI0Jyzstu3n5SrwfvjuizwnH9giO0SUG9AQ==.sig.ed25519"
+  "signature": "G1buo5ByoR/tfgIiWOWTsDZ2+dXd9u3a6pBgeHO9TvCrLW51L6p1sgfbGrz2CRBdIWNFFV/FbhAz87zI8HbjAQ==.sig.ed25519"
 }
