@@ -1,20 +1,17 @@
 {
-  "previous": "%38LqKk/e0DW9NNRuA677yG6Co28vxXK0S5SCv8LPrFU=.sha256",
+  "previous": "%Im9adLdi6cqDXemz+9kO10glmclloAvurtGCuM62rik=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8919,
-  "timestamp": 1550016228027,
+  "sequence": 8920,
+  "timestamp": 1550016234448,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
-    "branch": "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256",
-    "reply": {
-      "%nF86cf39lDldy1ONmuq3R5VN4ejZPluzF5AjvW3MkmQ=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
-    },
+    "type": "vote",
     "channel": "dogs",
-    "recps": null,
-    "text": "She looks *so* sweet, it's a bummer she doesn't get along well with the other dogs. It looks like she loves those blankets though.",
-    "mentions": []
+    "vote": {
+      "link": "%T7Ox5lxNPnFBz1cB8YpjwFnaQfHeyez0bAsyAYQbFsk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "9RApwXKmMa29qzqJR/v1a4g8kWzQz3kHWwOf6sAFD+coCY+fRUPJzgYi6dzdMGRNgVEaW2Pg5jU4JZ2L04G7CQ==.sig.ed25519"
+  "signature": "U+7it3erKyogll56NrQp4ZbAc6X+tuw/56yyrVJdyvs35bKp1Fhc1HCEptgk+FixZuoHtsdgj0n9gdLUgll/CA==.sig.ed25519"
 }
