@@ -1,26 +1,21 @@
 {
-  "previous": "%zSHllPOoI3d9sQWtvVA6V3bZgY9EFv85ikha1GXTO88=.sha256",
+  "previous": "%wlFoih3KlOIN4rv1YTwoGSrob9htYSi6sWhyF3peY1U=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8930,
-  "timestamp": 1550099069852,
+  "sequence": 8931,
+  "timestamp": 1550111218949,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256",
-    "branch": "%9rYyXL8m+dMtSnYGh9yxNv/m7X0l9xjfj4firFH6v7g=.sha256",
-    "reply": {
-      "%651l18yJRg8VM65lgxxTtlnIEhYlNg/sZRVPGHRR9CQ=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-      "%9rYyXL8m+dMtSnYGh9yxNv/m7X0l9xjfj4firFH6v7g=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nThe behavior right now is \"all images are links to themselves\". Instead, my proposal would be to use the default Markdown behavior where \"all images are plain old images unless you wrap them in a link\". Here's a more clear example:\n\n## Input\n\n```md\n![alt-text](img-src)\n```\n\n## Expected output\n\n```html\n<img src=\"img-src\" alt=\"alt-text\">\n```\n\n## Actual output\n\n```html\n<a href=\"img-src\">\n  <img src=\"img-src\" alt=\"alt-text\">\n</a>\n```",
+    "text": "# Video games\n\nSometimes I think it's a bad habit that I should probably drop, and every once in a while I go a few months without playing any video games, but sometimes it's *super fun* to jump into a game with [@bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519) hang out long-distance.\n\n**Anyone else play video games?** I'm curious what our favorite games are, or maybe what we've all been playing lately.\n\n#gaming ",
     "mentions": [
       {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
+        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
+        "name": "bram"
+      },
+      {
+        "link": "#gaming"
       }
     ]
   },
-  "signature": "G1buo5ByoR/tfgIiWOWTsDZ2+dXd9u3a6pBgeHO9TvCrLW51L6p1sgfbGrz2CRBdIWNFFV/FbhAz87zI8HbjAQ==.sig.ed25519"
+  "signature": "jhMaRbAIt9RNWoVUeddZ/ji0CSturW4z1EfBeqc+JO4EHdA428RXnIEoggnSPHAGVcz74uAlp4+jIOEl0wqgAw==.sig.ed25519"
 }
