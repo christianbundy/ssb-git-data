@@ -1,16 +1,29 @@
 {
-  "previous": "%XLRSB2sqF6pbeyTtewpNmPNFPrIxlQpHWEr002SVYK8=.sha256",
+  "previous": "%Gw7YhbRzg82CfVRZBmL/ryLCnFF7Cggz4Ej33z3/Z8A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8934,
-  "timestamp": 1550159946905,
+  "sequence": 8935,
+  "timestamp": 1550173770106,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kE/95QOCdpVOu0qgFyiObAuFY7Ps2YqWyHLwVdr9XCY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256",
+    "branch": [
+      "%9exUBMD6sFGXQ99l2DqxE9wFEUL3nPYmMNh8jh+0PM4=.sha256",
+      "%ULAEtuNrbqWCmx9Ys2Vktf3dUI8ERibDs/PEGZf6Krg=.sha256"
+    ],
+    "reply": {
+      "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%ULAEtuNrbqWCmx9Ys2Vktf3dUI8ERibDs/PEGZf6Krg=.sha256": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "My main interest in this space is based on the fact that **writing a specification is hard work**, and when a solution has already contributed to the commons by intelligent and trustworthy people then it seems silly to develop, document, and maintain our own implementation. My point isn't that we should overhaul everything to follow the ActivityStreams spec, it's that they've developed and documented a well-considered vocabulary that may be worth paying attention to.\n\nFor example, compare [our message schema documentation](https://ssbc.github.io/ssb-msg-schemas/) with [the ActivityStreams documentation](https://www.w3.org/TR/activitystreams-vocabulary/). I want to point out that I've contributed *none of this* and I'm super appreciative for all of the labor that's been put into our message schemas, but as we continue iterating on Scuttlebutt it seems wise to pay attention to what already exists in the commons.\n\nZooming in quite a bit, I've noticed that we use the \"about\" and \"contact\" types for all sorts of things that are separate [activities types](https://www.w3.org/TR/activitystreams-vocabulary/#activity-types) in the ActivityStreams vocabulary. It's possible that it's just a personal preference, but regarding \"contact\" I really like how they have different types for:\n\n- Block\n- Flag\n- Follow\n- Ignore\n- Undo\n\n[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI think we'd use the `\"type\": \"Follow\"` activity for that:\n\n```json\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Follow\",\n  \"actor\": \"ssb:feed:ed25519:abc\",\n  \"object\": \"ssb:feed:ed25519:xyz\"\n}\n```\n\nWe could omit `\"actor\"` or modify/remove `\"@context\"`, but *as a vocabulary* I think the semantics are super nice. I don't currently have the interest or energy to make Scuttlebutt federate over ActivityPub, but I think it would be great to share semantics where they make sense.",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
+    ]
   },
-  "signature": "Hn1EXfVYa3vJgSFiH5xAlOxSSB+0nRC9UUM4h/s31IWWTX64GgZBeGLCs0pLlWzW5ScnKWmQ7om0RIBsxI4CDA==.sig.ed25519"
+  "signature": "iZp3PLISmVfVbrg7a5rsHQs+wrIkI2+samcO55X3H2LFC5n/Pf/nV444dtsHtw6Y1BnzoJEYGCV4hqjqRpOUAw==.sig.ed25519"
 }
