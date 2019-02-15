@@ -1,34 +1,17 @@
 {
-  "previous": "%qcWEe0mXOJRMRPcJyLA9Jf1StMjWHVfUjtqG+kNC3p4=.sha256",
+  "previous": "%TKmRcn+tYA0VwP2o25u7pCCuNBZcui0r0uvzAgznuNw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8959,
-  "timestamp": 1550267884177,
+  "sequence": 8960,
+  "timestamp": 1550268517222,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256",
-    "branch": "%ARS64LRNT+UNvEYXGiLPbTQ5bg9I2ZZT7/hXTl0ft/A=.sha256",
-    "reply": {
-      "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%ARS64LRNT+UNvEYXGiLPbTQ5bg9I2ZZT7/hXTl0ft/A=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThat's awesome, I'll send them a letter! I was surprised to see you mention [Oregon State University](%DkBby57O5GxQWRSsMWFHfy+qk7VfPxYBI7gk4WMXLZ0=.sha256) here, so it's funny to see you mention another Oregon resource here too. Small world!\n\n[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nBagels are love, bagels are life. Have you ever tried making them?\n\nI grew up with a bread maker in the kitchen, but I only remember making bread with my mom a few times. I wonder whether that's still kicking around anywhere...",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "%DkBby57O5GxQWRSsMWFHfy+qk7VfPxYBI7gk4WMXLZ0=.sha256",
-        "name": "Oregon State University"
-      },
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      }
-    ]
+    "type": "vote",
+    "channel": "dark-crystal",
+    "vote": {
+      "link": "%AvCfBPin0vOuwByZmW/bSs0a/UZO4d/rUwXjAdb81/Q=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "mA8XAcNwkhdW/X0y4Kx9xq21I5S43rpJKTBUxke1VwbnTO/Qjs+NE4j2YD52ZTi0o5OMpKcx3p4DwERwPNeFDA==.sig.ed25519"
+  "signature": "L5b8Jf7tAyItCXqA9qz/XVj19eCYj0pRsu8sG1BzcZZtiH5YhFDY1Wh0ySwm2MD7BAD7vXNTVncf5QCPzTeWAg==.sig.ed25519"
 }
