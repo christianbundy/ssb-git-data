@@ -1,32 +1,16 @@
 {
-  "previous": "%rRgeFzcvjGgry3jTkfJnUU3Tr1ONV8t+6kTJ0EOm+78=.sha256",
+  "previous": "%B610aUdT+4PGYRxNI7/Es3pWlgPKHqSrsnGwqvgrvRw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8961,
-  "timestamp": 1550272634176,
+  "sequence": 8962,
+  "timestamp": 1550272635411,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256",
-    "branch": "%FXeM6NbIbyYZylblQvx6zq9UlFGJ/sNLgyUgIY2e0QY=.sha256",
-    "reply": {
-      "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%FXeM6NbIbyYZylblQvx6zq9UlFGJ/sNLgyUgIY2e0QY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI've had some bad bagels before, but the good ones are soft and doughy and savory with lots of seeds and seasonings. I like to toast them and add [vegan] cream cheese so they look something like this:\n\n![Photo of an everything bagel with cream cheese on a plate](&vUEv/VYUqbX0zRMnBxKrh+km2mrNk/3m612E+AEnZ5E=.sha256)\n\n(the bagel in the photo doesn't look toasted to me, but you can pretend)",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "&vUEv/VYUqbX0zRMnBxKrh+km2mrNk/3m612E+AEnZ5E=.sha256",
-        "name": "Photo of an everything bagel with cream cheese on a plate",
-        "type": "image/jpeg",
-        "size": 30725
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%FXeM6NbIbyYZylblQvx6zq9UlFGJ/sNLgyUgIY2e0QY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "u/XCWDNiQnDsktLJ8hdNRT4XwqMWsx8wsWWL3EEeyl/rK6ueA6tY4TjDYsJfRyVirk4l0nCbYEsG8R+zqq1QDw==.sig.ed25519"
+  "signature": "CouuiXcn63HxHBsx+Pmt3aF3WSu7lOykpDlwmVRFW4xMtEJ13htMN0e5xRwH3Mu7Df506UVlMG+c/Oh1av4bCA==.sig.ed25519"
 }
