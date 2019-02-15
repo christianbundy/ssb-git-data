@@ -1,21 +1,22 @@
 {
-  "previous": "%xc/k5uk76eBl4VfyJMxSGZ0LpCZzonpytYPhJot/G98=.sha256",
+  "previous": "%fber0HUnKejyD6e+945HG9lJesZ/eSYcY5z3/DXs/jQ=.sha256",
+  "sequence": 8940,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8939,
-  "timestamp": 1550182428674,
+  "timestamp": 1550197207943,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256",
-    "branch": "%Q9QTp2CAhLRiFkQ56ut69qdedMmdPItMTHs1k20/K8s=.sha256",
-    "reply": {
-      "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Q9QTp2CAhLRiFkQ56ut69qdedMmdPItMTHs1k20/K8s=.sha256": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519"
+    "vote": {
+      "link": "%bn8Aspp7DdI5VEb4swhkLoRAmw2RwrqnU+JLq5dAtJk=.sha256",
+      "value": 1,
+      "expression": "heart"
     },
-    "channel": null,
-    "recps": null,
-    "text": "I appreciate and echo those concerns, and I found a couple of W3C threads on the topic:\n\n- https://github.com/w3c/json-ld-syntax/issues/9\n- https://github.com/w3c/json-ld-syntax/issues/20\n- https://github.com/w3c/json-ld-syntax/issues/86\n- https://github.com/w3c/json-ld-syntax/issues/108\n\nI've only skimmed the threads, but the solution that jumped out to me is using an [SRI](https://www.w3.org/TR/SRI/) that uses the HTTP URL as a schema identifier while *also* including the content-addressable hash as a sibling property. There are various proposals, but maybe something like:\n\n```json\n{\n  \"@context\": {\n    \"@id\": \"https://www.w3.org/ns/activitystreams\",\n    \"@integrity\": \"sha256-2a7...\"\n  },\n  \"type\": \"Follow\",\n  \"actor\": \"ssb:feed:ed25519:abc...\",\n  \"object\": \"ssb:feed:ed25519:xyz...\"\n}\n```",
-    "mentions": []
+    "branch": [
+      "%/gv9iTj1QIQfanHgWD6ivimSz9u50jqFXKV4iRV5org=.sha256",
+      "%F/bH0VQ02F8QpmGPUdiLuEidR1dHTpItkeY1L1SJSUM=.sha256",
+      "%bn8Aspp7DdI5VEb4swhkLoRAmw2RwrqnU+JLq5dAtJk=.sha256"
+    ]
   },
-  "signature": "spjYg4fQL/HknPdvqQ5hA0hbK2eNajuZliP4NXe2PV47TVgSsfvi6kHfIXRzRQgVDzliZlo0zTc0tR8Xz949BQ==.sig.ed25519"
+  "signature": "mR4Aels47KijJHpTn4Uh/RprCYAmhvcUsDxutpnwpucSo73PW8Lw/Q1nqZw4imv05Lul4ng6rGERQ93Cw5mCBw==.sig.ed25519"
 }
