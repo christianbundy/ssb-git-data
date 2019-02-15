@@ -1,16 +1,34 @@
 {
-  "previous": "%FrNvxtZTOtoR1bAJUzOuhtiixOvGn37Svx96T5Y4HJs=.sha256",
+  "previous": "%qcWEe0mXOJRMRPcJyLA9Jf1StMjWHVfUjtqG+kNC3p4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8958,
-  "timestamp": 1550265604416,
+  "sequence": 8959,
+  "timestamp": 1550267884177,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%vsuB5sFAFQQtvqaP0+EYd91uH3xb6wEI8yiV/i4Obro=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256",
+    "branch": "%ARS64LRNT+UNvEYXGiLPbTQ5bg9I2ZZT7/hXTl0ft/A=.sha256",
+    "reply": {
+      "%bWK8cFMr03hKEO9ih4+sofeN17Ck++Gyox8JThITI4A=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%ARS64LRNT+UNvEYXGiLPbTQ5bg9I2ZZT7/hXTl0ft/A=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThat's awesome, I'll send them a letter! I was surprised to see you mention [Oregon State University](%DkBby57O5GxQWRSsMWFHfy+qk7VfPxYBI7gk4WMXLZ0=.sha256) here, so it's funny to see you mention another Oregon resource here too. Small world!\n\n[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nBagels are love, bagels are life. Have you ever tried making them?\n\nI grew up with a bread maker in the kitchen, but I only remember making bread with my mom a few times. I wonder whether that's still kicking around anywhere...",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "%DkBby57O5GxQWRSsMWFHfy+qk7VfPxYBI7gk4WMXLZ0=.sha256",
+        "name": "Oregon State University"
+      },
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "rgi8fmUPlhfz7QlevLwO5zb8cmU3ATOdqnn7JjDhYvHCw13jK877UL1D/EptqHIv4LW12XEHkDHaOQckXW/sCg==.sig.ed25519"
+  "signature": "mA8XAcNwkhdW/X0y4Kx9xq21I5S43rpJKTBUxke1VwbnTO/Qjs+NE4j2YD52ZTi0o5OMpKcx3p4DwERwPNeFDA==.sig.ed25519"
 }
