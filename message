@@ -1,16 +1,26 @@
 {
-  "previous": "%B610aUdT+4PGYRxNI7/Es3pWlgPKHqSrsnGwqvgrvRw=.sha256",
+  "previous": "%tJEsrbxC/rAkmtIRqwImt8Rp03AdfWmAIAcAJ0BoqGU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8962,
-  "timestamp": 1550272635411,
+  "sequence": 8963,
+  "timestamp": 1550273122683,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%FXeM6NbIbyYZylblQvx6zq9UlFGJ/sNLgyUgIY2e0QY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%2UHfNP9XpBR15PVNaucXRtiEA7InF8SAHLthAYmKXTs=.sha256",
+    "branch": "%nG8S6N9MsNmYTnah8XzyA+zrH8qrUuYEPClw2fZzYd8=.sha256",
+    "reply": {
+      "%2UHfNP9XpBR15PVNaucXRtiEA7InF8SAHLthAYmKXTs=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%nG8S6N9MsNmYTnah8XzyA+zrH8qrUuYEPClw2fZzYd8=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+    },
+    "channel": "patchbay-love",
+    "recps": null,
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\n \nYeah, you need to be running Tor locally. I got curious about how the hell multiserver was bundling Tor and looked at [the code](https://github.com/ssbc/multiserver/blob/master/plugins/onion.js), which gives me the impression that *really* what it's doing is connecting to a SOCKS proxy to port 9050. If you have Tor running on its default port then your connections will be routed through Tor, but unfortunately we aren't bundling Tor itself.\n\nI'd actually be super curious to know what would be required to run Tor within Patchbay. I don't think the Tor Browser requires root, so I imagine it's just a question of writing Node.js bindings... maybe?",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "CouuiXcn63HxHBsx+Pmt3aF3WSu7lOykpDlwmVRFW4xMtEJ13htMN0e5xRwH3Mu7Df506UVlMG+c/Oh1av4bCA==.sig.ed25519"
+  "signature": "OuJKbOrL6vP3i0IohXCWGe0N6htDCaJbEF5/vqYrxZCg0R1TpGrJSK7nwGRATF7mN5hS5rxEpQoSj3jRTv0QDA==.sig.ed25519"
 }
