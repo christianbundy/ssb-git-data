@@ -1,16 +1,29 @@
 {
-  "previous": "%rSbdHYRgsVU2bZ9o8ts3tDjRdfHvxDNyzB7PtuNgLGI=.sha256",
+  "previous": "%7GLMUB5zymJQDZ0upY6PHsqNeMv+OYJobQYAvzCNJ5s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8971,
-  "timestamp": 1550372356891,
+  "sequence": 8972,
+  "timestamp": 1550372380278,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%IsTUkQSrxUwltj6EKHLxK9Bfy3sgy6A2y0oam+vtKGg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%IsTUkQSrxUwltj6EKHLxK9Bfy3sgy6A2y0oam+vtKGg=.sha256",
+    "branch": [
+      "%a/d78UWfnc3l5Mf9wvJ/xE3uaKNUgduaKcCIe5X1G5g=.sha256",
+      "%h3fMD1x/v1n2Yf80xCpERSPNb83pWQrCzrkMbdTlTuM=.sha256"
+    ],
+    "reply": {
+      "%IsTUkQSrxUwltj6EKHLxK9Bfy3sgy6A2y0oam+vtKGg=.sha256": "@qi+mBq3/BQi5OCHQ28n5Uq1+M6GL85Gnvd6ahLHYK9g=.ed25519",
+      "%a/d78UWfnc3l5Mf9wvJ/xE3uaKNUgduaKcCIe5X1G5g=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Mira Mos Crime](@qi+mBq3/BQi5OCHQ28n5Uq1+M6GL85Gnvd6ahLHYK9g=.ed25519) \n\nI love this. Could you link the code if you have it?",
+    "mentions": [
+      {
+        "link": "@qi+mBq3/BQi5OCHQ28n5Uq1+M6GL85Gnvd6ahLHYK9g=.ed25519",
+        "name": "Mira Mos Crime"
+      }
+    ]
   },
-  "signature": "pyasae0nRXKXOTeAC9duJuVGy3H9JY8k0carHaOlKMTp3Zh2G6LqRQoNln6KXwjkeNF81eTWp8SX8MqwnAyKAw==.sig.ed25519"
+  "signature": "9Ebm01L3LtEa0rBKTrJh4yvpAKAV7gqlLbVVZ+Ae16AHC9b2tKBxwIoxtyPjjjXqnalA2ei3fdzaTxiJtXYDAA==.sig.ed25519"
 }
