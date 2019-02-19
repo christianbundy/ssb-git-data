@@ -1,32 +1,17 @@
 {
-  "previous": "%jJZu+hf8p4owKJ15uK0gOpeU1SL116znPA9J9T10Cgg=.sha256",
+  "previous": "%+lrkpwH/MPvNcbVYaWg3NMysWSTd7b7LGrL5CsF2R4g=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8984,
-  "timestamp": 1550557529656,
+  "sequence": 8985,
+  "timestamp": 1550557616988,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%qtDzPEm9UeVsCsY/YwmnIx7eZfQikRRfs5XapauMiwM=.sha256",
-    "branch": "%FMKLLb9rZNd8Wqcn7ZQ30WYP+JQNAQiIxleYyCJu1yY=.sha256",
-    "reply": {
-      "%qtDzPEm9UeVsCsY/YwmnIx7eZfQikRRfs5XapauMiwM=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-      "%FMKLLb9rZNd8Wqcn7ZQ30WYP+JQNAQiIxleYyCJu1yY=.sha256": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519"
-    },
-    "channel": "community",
-    "recps": null,
-    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nStrong +1 and much appreciation for bringing this up.\n\nI don't remember whether I've shared this perspective on Scuttlebutt before or whether it's just happened over chat, but I've wondered whether this problem could be resolved by calculating hops differently. Right now there's no difference between the two:\n\n- Alice follows Bob who follows Carol\n- Alice who follows 100 people who all follow Carol\n\nInstead of having the hop distance set at `1` or `2`, I wonder whether it'd be possible to set them at `1.5` or something, where the distance decreases as the number of connections increases. Or, if we can step past the concept of \"distance\", we'd be looking at something like [PageRank](https://en.wikipedia.org/wiki/PageRank) but for friends and trust.\n\n![PageRanks-Example.svg](&xXuPbeO0WUDa4KbGcn0arSFeFRFp9kNBvLewLnAq9a8=.sha256)\n\nPubs are certainly part of the problem, but I think that the essential problem is that following someone new carries the same weight regardless of whether you're following 9 people or 999 people.",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      },
-      {
-        "link": "&xXuPbeO0WUDa4KbGcn0arSFeFRFp9kNBvLewLnAq9a8=.sha256",
-        "name": "PageRanks-Example.svg",
-        "type": "image/svg+xml",
-        "size": 29528
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%In6HPv3Y4E/RtsLs9HlsHX3q7PzvPrVSTssrmiJ1ddU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "y2lHsxZ/8hkMCZI9syMNIiBm/zmxf6zFH+m0X0MIYMJv+s+ICSBwkaNCnHR04mcWl2IRytDw16s7hoWc+HtsDQ==.sig.ed25519"
+  "signature": "hNaIMHNJpYwUoFJIZl1tIQiq2dOycHR3rGzWv5ZtCvj3Fh9NT3HscjOb2NlRPZuD7YHot6b1De58xvzvo8vhCQ==.sig.ed25519"
 }
