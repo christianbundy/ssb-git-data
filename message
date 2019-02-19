@@ -1,9 +1,32 @@
 {
-  "previous": "%eg77Cph88WMxVWxf+D3ysmdugHPkjWkyokMFpWyLb1s=.sha256",
+  "previous": "%jJZu+hf8p4owKJ15uK0gOpeU1SL116znPA9J9T10Cgg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 8983,
-  "timestamp": 1550555975418,
+  "sequence": 8984,
+  "timestamp": 1550557529656,
   "hash": "sha256",
-  "content": "gMsNDLKQYW3t3QqMvmJREVPmt9xxIyqp8KIA6AMI28mI78HK/70AcCi/dfEhV6oiXHvXgiQmMC59Ha0dOP5weKedCmF++XgcNiTaGd3mps0QGG0MTrU+FjDSP6Sh2NK9E1jK9WTPmtb5ESjBbgZICAtbM6K2dFzFYdyH5671/UdFrWRusaYbgW+fThObGmSwuGlbdUBMPm9pwf2VIYpxy0WX0YwnZUkVLUOXSEqzMOgNrMhuc+4HRXnhdm7sEhEiNYRY5kD9EE2kfM7rLK1SI8YKJP1LFyOdbRTIyOJW6zpWOmFgBuGQ2q/Vo4x9jpvH6re/655XViG05tzvSpeCz/bt0GqK/9xYx3m400vI7qZv6BiydumNQA0p9VVSbFtpFtNGanKNq62MNI5uDORP7w4o6AdvwccXVL28p+vuJlzPXSBrBf8O4BdfT1OsGovULsZAiiWMtEVCSs71eTSV0txNmjytoB8WdYstSAw52yXwaSRCiMKAPVz8qRjd7+W9d2ios29c+VTzZ0tbce9RsHYZSAIJMvnhvBi4AY/qFecjGZLX/PoRlzSrJxOVZpVoQaGT81gPpYWR2GrDnDzuN0UMWc6TKe+E2T3M1Mz4afnakjTbxzsg1w43cMYVNtHCr5Luu6h0FV/zLbpH+M8imP0cEdSZNw8fv2YxobGSwHqNT7HXNRcNMssNCQJVKofrk+zYgrNStUarUBXtsxBzpBJgnClGYO3CwSNNXo41NoFxCDCdGPpNLjHG7rdIRAHoqE5xyRT7CLaHP1JWeDjradPiuEFLSa5lqa/SPB0rVwQQGuNteNc902Fxm5hoguDq+t9+V6FzWKubF036RNLRNRQX72bTUnGvOsERekTAzVXVk86EvPnsix+zhuYvMBBwnP/KsdWv8o14OA/PrchG2bqNO5nbM5bVqlZtfeO9c3eWt2rVfOt6r6y3X/XX2RXEGPseQ2b5cPp+sxv6dgDYOQQmPosNSlmydaWjUfY/kiXOJF0uj/gR0uZ4mc7Ujz8=.box",
-  "signature": "PvlexS+cLw2kpApqI6y35TwUBSnavUdzG709MuHfLfkuEqpGvibgX0TXuQkowA0pGL9CdPVrAcOxXIKqdytiCg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%qtDzPEm9UeVsCsY/YwmnIx7eZfQikRRfs5XapauMiwM=.sha256",
+    "branch": "%FMKLLb9rZNd8Wqcn7ZQ30WYP+JQNAQiIxleYyCJu1yY=.sha256",
+    "reply": {
+      "%qtDzPEm9UeVsCsY/YwmnIx7eZfQikRRfs5XapauMiwM=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+      "%FMKLLb9rZNd8Wqcn7ZQ30WYP+JQNAQiIxleYyCJu1yY=.sha256": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519"
+    },
+    "channel": "community",
+    "recps": null,
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nStrong +1 and much appreciation for bringing this up.\n\nI don't remember whether I've shared this perspective on Scuttlebutt before or whether it's just happened over chat, but I've wondered whether this problem could be resolved by calculating hops differently. Right now there's no difference between the two:\n\n- Alice follows Bob who follows Carol\n- Alice who follows 100 people who all follow Carol\n\nInstead of having the hop distance set at `1` or `2`, I wonder whether it'd be possible to set them at `1.5` or something, where the distance decreases as the number of connections increases. Or, if we can step past the concept of \"distance\", we'd be looking at something like [PageRank](https://en.wikipedia.org/wiki/PageRank) but for friends and trust.\n\n![PageRanks-Example.svg](&xXuPbeO0WUDa4KbGcn0arSFeFRFp9kNBvLewLnAq9a8=.sha256)\n\nPubs are certainly part of the problem, but I think that the essential problem is that following someone new carries the same weight regardless of whether you're following 9 people or 999 people.",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
+      },
+      {
+        "link": "&xXuPbeO0WUDa4KbGcn0arSFeFRFp9kNBvLewLnAq9a8=.sha256",
+        "name": "PageRanks-Example.svg",
+        "type": "image/svg+xml",
+        "size": 29528
+      }
+    ]
+  },
+  "signature": "y2lHsxZ/8hkMCZI9syMNIiBm/zmxf6zFH+m0X0MIYMJv+s+ICSBwkaNCnHR04mcWl2IRytDw16s7hoWc+HtsDQ==.sig.ed25519"
 }
