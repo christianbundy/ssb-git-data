@@ -1,20 +1,23 @@
 {
-  "previous": "%lz30cmueJrS2rwgh0jRyoke6Jwz9U/lMLpfSTNs+93A=.sha256",
+  "previous": "%uHWiTyxHbcht9fUctZ2rUUK3kNRqKu3Xy8PZwyTQ+tE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9030,
-  "timestamp": 1550962475719,
+  "sequence": 9031,
+  "timestamp": 1550962660495,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GOSlywFFlKxu3ALIzxEA53x9eI49m3QR081aCMAoSao=.sha256",
-    "branch": "%/KcTCgINvhSxh434jpXJOUxa5FGMBCj7+9mLkZaO3MM=.sha256",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nThat's super cool, I haven't spent much time thinking about dithering but it would be fun to experiment with.\n\nOn a related note, I've recently been annoyed by the state of fonts on the web: most of us are using devices with great fonts, but if you load an site without any `font-family` declarations you get *Times New Roman* or something similar.\n\nThere's a new pseudo-font called `system-ui` that uses the [native system font](https://drafts.csswg.org/css-fonts-4/#system-ui-def), but it's [not very well supported yet](https://caniuse.com/#feat=font-family-system-ui). In an effort to get a mostly reasonable default across most operations systems, here's what I've been using lately:\n\n```css\nbody {\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n}\n```\n\nThis takes up a small amount of bandwidth, but it's negligible compared to the usual practice where the browser has to download a bunch of custom fonts just to avoid [looking ugly](http://www.motherfuckingwebsite.com/). I'm really looking forward to just declaring `font-family: system-ui` and avoiding the problem entirely!",
+    "root": "%olyIDsVYxpgkiXGEIvwTR+D9Q/wDD10dJyMGuyR0FTU=.sha256",
+    "branch": [
+      "%OLZYzy2Wn/INePXlBmTpn6tMdivTOVOJuSnHEZ7foaM=.sha256",
+      "%bXVmBmEsT1unBDVCmUpyoWgKWGp773QsX2JICLj9FR0=.sha256"
+    ],
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nWe haven't introduced the mosquito or the ladybug yet, but the game *completely changed* when we realized that we could move the queen. It's like we were playing chess without allowing the king to move! I still don't really know what I'm doing, but I've been having a lot more fun now that the game makes a bit more sense.\n\nPerching the beetle on a bee seems like a great area denial strategy, but I'm still not sure *when* the bee should be placed. As soon as possible? As late as possible? I'm having a hard time developing an intuition for the early part of the game.",
     "mentions": [
       {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
       }
     ]
   },
-  "signature": "wN7nvEzFzIs/20MEZd0QreI7CG80KZ1Prfus2llmCVeK61XepvnPt7OEsNxThx9EKWEkmb1gZRG7UIoI1qANCw==.sig.ed25519"
+  "signature": "2gUkExjGERA6Kjhrj8Zwe13O9F6+dEurFmkWkNpq4nYH6YwIGzSQc+ap+TuSkmPxzCUydfv1yodB878YUIFwDw==.sig.ed25519"
 }
