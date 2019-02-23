@@ -1,20 +1,20 @@
 {
-  "previous": "%Kl30equtpnAPtjumYVW85YLEVURHS18AFdVWz8PByFg=.sha256",
-  "sequence": 9029,
+  "previous": "%lz30cmueJrS2rwgh0jRyoke6Jwz9U/lMLpfSTNs+93A=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1550961523135,
+  "sequence": 9030,
+  "timestamp": 1550962475719,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256",
-    "vote": {
-      "link": "%GprITrtdumJ29QoOAkBA/HBAP2Mkdb5BFTOhkAEzeHA=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%cdSeriV0pGieSyQhbY9J9AjWXxSp3gSOKquMCD+IRuk=.sha256"
+    "type": "post",
+    "root": "%GOSlywFFlKxu3ALIzxEA53x9eI49m3QR081aCMAoSao=.sha256",
+    "branch": "%/KcTCgINvhSxh434jpXJOUxa5FGMBCj7+9mLkZaO3MM=.sha256",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nThat's super cool, I haven't spent much time thinking about dithering but it would be fun to experiment with.\n\nOn a related note, I've recently been annoyed by the state of fonts on the web: most of us are using devices with great fonts, but if you load an site without any `font-family` declarations you get *Times New Roman* or something similar.\n\nThere's a new pseudo-font called `system-ui` that uses the [native system font](https://drafts.csswg.org/css-fonts-4/#system-ui-def), but it's [not very well supported yet](https://caniuse.com/#feat=font-family-system-ui). In an effort to get a mostly reasonable default across most operations systems, here's what I've been using lately:\n\n```css\nbody {\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n}\n```\n\nThis takes up a small amount of bandwidth, but it's negligible compared to the usual practice where the browser has to download a bunch of custom fonts just to avoid [looking ugly](http://www.motherfuckingwebsite.com/). I'm really looking forward to just declaring `font-family: system-ui` and avoiding the problem entirely!",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
     ]
   },
-  "signature": "hPR4vdmaaNZyxNBNC7FZXfCxwfN4SsfBrYGGhJZ/vAXkuwA1wQ8bAqcLZhb+JVp0+6GAyH28s/TBAQspqtBzCA==.sig.ed25519"
+  "signature": "wN7nvEzFzIs/20MEZd0QreI7CG80KZ1Prfus2llmCVeK61XepvnPt7OEsNxThx9EKWEkmb1gZRG7UIoI1qANCw==.sig.ed25519"
 }
