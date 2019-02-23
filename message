@@ -1,23 +1,20 @@
 {
-  "previous": "%oV3uQUlIFghRd3Bc5iaXycUlkMMrUELtrdD+03L4DPs=.sha256",
+  "previous": "%12PLtpDaaqvWk1BJP1SPlPHn4h77A+ABBszr9SUrHe4=.sha256",
+  "sequence": 9035,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9034,
-  "timestamp": 1550963105128,
+  "timestamp": 1550963131262,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%2n320oeN2yYdif0rFTMZWVhRZMwEsKZH2Jb2mEEyH30=.sha256",
-    "branch": "%2n320oeN2yYdif0rFTMZWVhRZMwEsKZH2Jb2mEEyH30=.sha256",
-    "text": "[@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519)\n\n> dehydrate re-syncable resources recursively from this file system\n\nInteresting, maybe like a network-sync-specific version of `$XDG_CACHE_HOME`? I'd love to have those files placed in `~/.sync` and symlinked around the rest of the filesystem. I've been enjoying #syncthing + sshfs as a Dropbox alternative, but I'd love to be able to temporarily wipe the data that falls somewhere between \"cache temporarily\" and \"persist forever\".",
-    "mentions": [
-      {
-        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
-        "name": "Justin Abrahms"
-      },
-      {
-        "link": "#syncthing"
-      }
+    "type": "vote",
+    "root": "%/VL6VRK4PUmpcWMXX0i+zbCVM1WdOQoH4gedj5E+6m4=.sha256",
+    "vote": {
+      "link": "%/VL6VRK4PUmpcWMXX0i+zbCVM1WdOQoH4gedj5E+6m4=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%g+wLudD95yMD2V+duRghXH5lcF2yk2u6qNyHmZwE2Kc=.sha256"
     ]
   },
-  "signature": "SvllJU6Ou+/hGn9VjWKP8NECNLcozrvlZrJVCLTwNhVlBwJ2xCWG2QxZwB8kTeG84jQbBp4IAPYijFwGqSIMCA==.sig.ed25519"
+  "signature": "CmmoypfB21F52//7fskRozirrtZaGKQIvDUaoHngg62OCMahUSJ6HkzQu5z81bmHMhMZMxHV14Q+tsdT0jk/Ag==.sig.ed25519"
 }
