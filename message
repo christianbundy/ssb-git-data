@@ -1,13 +1,20 @@
 {
-  "previous": "%5uraMxMK77qGG8ESMzKgHX7UOqLwLXcg0UzoC8abSew=.sha256",
+  "previous": "%OTeLpeowCtPgjf2Q7gE2kcAcs6NUdSnin9xFPZJErtk=.sha256",
+  "sequence": 9055,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9054,
-  "timestamp": 1550993821440,
+  "timestamp": 1550996679573,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@bT+oRy5fH/sKA4ClRk5kaPrhnslec4CtL6xmP1um4YU=.ed25519",
-    "name": "📱 jacob"
+    "type": "vote",
+    "root": "%m6GVl09UZHb78LofCZ4qnrBPLuhrN84wMRMbuIml+Qs=.sha256",
+    "vote": {
+      "link": "%m6GVl09UZHb78LofCZ4qnrBPLuhrN84wMRMbuIml+Qs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%4AWQpo42xSDbJwDVO5dR53/qZP19bgvzO/yQ9Ya99js=.sha256"
+    ]
   },
-  "signature": "Q+K9iK6kTuSNrfu9YG/ZvRjRhcnhkmHiuQQEmPsBRCG19iDlCbI+QLfTiKS9iV/LHsCXv4rGR4D3nHXoLSSLBQ==.sig.ed25519"
+  "signature": "AnT/PI9g2pyPAkkEiADWyQdiITvFEsraZY9+3uDn7OgC+GPTN6OqJ1okG78+eS3ICY9qIfDMc75BRvRKztIpDA==.sig.ed25519"
 }
