@@ -1,62 +1,21 @@
 {
-  "previous": "%MJvGErMv7+Um3Ggo1fHVZcZ4a8Iy+UiAIPVZc4ejhuc=.sha256",
+  "previous": "%Y0V/f2Aq/umM0wuV9Sbvu4hGnRtFMMyc2b1x4jx33Yo=.sha256",
+  "sequence": 9045,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9044,
-  "timestamp": 1550978121269,
+  "timestamp": 1550978461467,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Let's make an emoji together! 🌞‍😎\n\nOriginally mentioned by [@angelica](@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519) / [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) in [this post](%ZmsQl8jxeH2uW0vZMxCdevvlO6Q/VSMo3tbCFmOOwO0=.sha256), I'd love to work with some other scuttle-friends on proposing an [emoji zwj sequence](http://www.unicode.org/reports/tr51/index.html#Emoji_Variation_Selector_Notes) for a **sun with smiling face with sunglasses**.\n\nThe  [proposal process for emoji sequences](https://unicode.org/emoji/proposals.html#new_sequences) looks relatively straightforward, and I think this has a good chance of being added to Unicode. I've heard all sorts of names for this imagery (cool sun, sun with glasses, sun with shades, etc), and it sounds like it's been around since [at least 1975](https://www.quora.com/How-did-the-modern-day-cartoon-of-a-sun-wearing-sunglasses-come-about-Where-was-it-first-published/answer/Jon-Pennington-1) without any copyright claims being made. Even better, when I looked around the web wondering *why* the sun is smiling and wearing glasses, I saw the same reason repeatedly: **because the future is so bright**. Super solarpunk.\n\nHere's what I'm thinking:\n\n- `🌞` sun with face + \n- `‍` [zero width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) +\n- `😎` smiling face with sunglasses = \n- `🌞‍😎` **sun with smiling face with sunglasses**\n\nAnyone want to work on this together? I'd love suggestions if there's a better way to go about this -- I've only ever proposed a license to the OSI, but I'm *really* bad at keeping up with the Unicode Consortium mailing list.\n\n![sun with smiling face with sunglasses 🌞‍😎](&MnnvoBpLfygOgG7+pQk0j5gbjho8DNP+h5w5ttF3cLk=.sha256)\n\ncc others who I think (?) were on the couch during this convo: \n\n- [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\n- [@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519)\n- [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\n- [@mnin](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519)\n- [@mu](@2FK8RsIq7VkiU0jXi4CTd3L40xiivb6enRxZgXxT+pU=.ed25519) \n- [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\n- [@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n- [@zach](@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519)  ",
-    "mentions": [
-      {
-        "link": "@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519",
-        "name": "angelica"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "%ZmsQl8jxeH2uW0vZMxCdevvlO6Q/VSMo3tbCFmOOwO0=.sha256",
-        "name": "this post"
-      },
-      {
-        "link": "&MnnvoBpLfygOgG7+pQk0j5gbjho8DNP+h5w5ttF3cLk=.sha256",
-        "name": "sun with smiling face with sunglasses 🌞‍😎"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
-        "name": "kathleen"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
-        "name": "mnin"
-      },
-      {
-        "link": "@2FK8RsIq7VkiU0jXi4CTd3L40xiivb6enRxZgXxT+pU=.ed25519",
-        "name": "mu"
-      },
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      },
-      {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
-      },
-      {
-        "link": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519",
-        "name": "zach"
-      }
+    "type": "vote",
+    "root": "%jXO1GEi55llBiPbn6HkrwJYPmmXJpor6qkR0/WgfR7M=.sha256",
+    "vote": {
+      "link": "%jXO1GEi55llBiPbn6HkrwJYPmmXJpor6qkR0/WgfR7M=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%bLPN+3tMIkTWaNsI0P89xsmlktAx+1xURLf95j+5up4=.sha256",
+      "%hfazEwoAJSAn5IB9LqZ4I1CUdO/8o0QJ57LTnHAgZQs=.sha256"
     ]
   },
-  "signature": "lyiSkiJ1G8vSLnCRCrBxNqrIicjGzA9FpZghnZ5JmiF1Nmwtumxzz6ibaYByZFHJXqD2pfeNgPtdUo3bMHDqDQ==.sig.ed25519"
+  "signature": "ewgD/RS+FVi4o+pyCLethG52CJ2eOm3NFeqO4yg3qxyx/syrmqfF3X/Qoo2UEHDOkPeMgnrwPHlk950AY5GoCQ==.sig.ed25519"
 }
