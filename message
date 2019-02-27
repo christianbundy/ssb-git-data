@@ -1,24 +1,15 @@
 {
-  "previous": "%ZPKqXU8VlY/BCmOIAXGm8/SSyNJpPh5WcbmoIZaAvDI=.sha256",
+  "previous": "%qICG206V/ZkWOVbpgf5D3c6rpF2S3nR+4KEsL+gAMhM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9066,
-  "timestamp": 1551235925830,
+  "sequence": 9067,
+  "timestamp": 1551244570091,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
-    "branch": [
-      "%3DoftLMs2++M1U1cbeiRL4yRCFunR5aYNskqDjpACuU=.sha256",
-      "%WNOcVZ5cdamrU1aOls9VyBmhDYPyV6P8vqeX4lPRTwU=.sha256",
-      "%pY8NLrVAlysk38wtCraMWG628LgpQBBXB5JLWUW5mFI=.sha256"
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> a few people at scuttlecamp are obviously able to get Internet, and thus they've read these messages\n\nI won't speak for others, but *personally* I've been offline and haven't seen your messages. Our internet access is extremely limited in both bandwidth and capacity, and most of us have been spending time face-to-face.\n\nI'd love if you could unpack this issue a bit. Could you post the exact configuration that allows LAN peers to query ssb-ws? My intuition is that this would require ssb-ws to be:\n\n- enabled\n- over the network\n- with noauth\n\nFor example, an `~/.ssb/config`:\n\n```json\n{\n  \"connections\": {\n    \"incoming\": {\n      \"ws\": [{\n        \"scope\": [\"public\"],\n        \"port\": 9000,\n        \"transform\": \"noauth\"\n      }]\n    }\n  }\n}\n```\n\nI'd be *surprised* if this information was being leaked with ssb-ws disabled, *or* with a seemingly secure config like:\n\n```json\n{\n  \"connections\": {\n    \"incoming\": {\n      \"ws\": [{\n        \"scope\": [\"device\"],\n        \"port\": 9000,\n        \"transform\": \"shs\"\n      }]\n    }\n  }\n}\n```",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "root": "%XVrdlc6VR0ZuadGe15qKn516jCcX9IjivnqJZnY9+6w=.sha256",
+    "branch": "%XVrdlc6VR0ZuadGe15qKn516jCcX9IjivnqJZnY9+6w=.sha256",
+    "channel": "scuttle-camp",
+    "text": "> automatically clickable dat link formatting in SSB clients, without having to know about the ![]( dat:// ) or < dat:// > hacks\n\nJust wanted to comment while I'm thinking of this: The `<href>` syntax should work everywhere, but unfortunately [Dat links aren't URIs](https://github.com/datproject/dat/issues/1050) so auto-linkifiers don't work without lots of jank. You can do dat://example.com for actual domains, but if it's a hash it won't work because it's 64 characters (and domain segments have a maximum of 63 characters). I wish we could fix it, but I think it's a standards compliance issue on Dat's side. :/"
   },
-  "signature": "FcM2Iy21SwXvNJ812DWBsXJlV58uWNKr/RkSr5ZFvzC1kSaH+F1nJXATzFzqnByN8FEMyHgwoImurm5PFw4qCw==.sig.ed25519"
+  "signature": "2emFoaGsADyFiOtI8s1oMpy53EKzh4TLfqxwP+0ktkAU4MnqAm+uj/nkYqRGhKY7o7iJqdFeowPeKMCNBNB8DQ==.sig.ed25519"
 }
