@@ -1,20 +1,24 @@
 {
-  "previous": "%jOQcuZlxMf/Xr1iAvfQCzOyOV66XUuvkolefSyME1Fg=.sha256",
-  "sequence": 9065,
+  "previous": "%ZPKqXU8VlY/BCmOIAXGm8/SSyNJpPh5WcbmoIZaAvDI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551233759271,
+  "sequence": 9066,
+  "timestamp": 1551235925830,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%utKH0BucuQCDisgLGOXXnuc0W8tK5RnxLKh9ThdbfUM=.sha256",
-    "vote": {
-      "link": "%utKH0BucuQCDisgLGOXXnuc0W8tK5RnxLKh9ThdbfUM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
     "branch": [
-      "%utKH0BucuQCDisgLGOXXnuc0W8tK5RnxLKh9ThdbfUM=.sha256"
+      "%3DoftLMs2++M1U1cbeiRL4yRCFunR5aYNskqDjpACuU=.sha256",
+      "%WNOcVZ5cdamrU1aOls9VyBmhDYPyV6P8vqeX4lPRTwU=.sha256",
+      "%pY8NLrVAlysk38wtCraMWG628LgpQBBXB5JLWUW5mFI=.sha256"
+    ],
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> a few people at scuttlecamp are obviously able to get Internet, and thus they've read these messages\n\nI won't speak for others, but *personally* I've been offline and haven't seen your messages. Our internet access is extremely limited in both bandwidth and capacity, and most of us have been spending time face-to-face.\n\nI'd love if you could unpack this issue a bit. Could you post the exact configuration that allows LAN peers to query ssb-ws? My intuition is that this would require ssb-ws to be:\n\n- enabled\n- over the network\n- with noauth\n\nFor example, an `~/.ssb/config`:\n\n```json\n{\n  \"connections\": {\n    \"incoming\": {\n      \"ws\": [{\n        \"scope\": [\"public\"],\n        \"port\": 9000,\n        \"transform\": \"noauth\"\n      }]\n    }\n  }\n}\n```\n\nI'd be *surprised* if this information was being leaked with ssb-ws disabled, *or* with a seemingly secure config like:\n\n```json\n{\n  \"connections\": {\n    \"incoming\": {\n      \"ws\": [{\n        \"scope\": [\"device\"],\n        \"port\": 9000,\n        \"transform\": \"shs\"\n      }]\n    }\n  }\n}\n```",
+    "mentions": [
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      }
     ]
   },
-  "signature": "sxkOv7PGZPZRvoKqlM7l6mGhwhCKmykemXvJkkxuz6zfNrg0b0CmElnuIvWCnkf9QWwlCsXL0KCGGkT7hRlhAA==.sig.ed25519"
+  "signature": "FcM2Iy21SwXvNJ812DWBsXJlV58uWNKr/RkSr5ZFvzC1kSaH+F1nJXATzFzqnByN8FEMyHgwoImurm5PFw4qCw==.sig.ed25519"
 }
