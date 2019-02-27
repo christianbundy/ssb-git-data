@@ -1,20 +1,20 @@
 {
-  "previous": "%01G8DLKM3mUkGm20KLpTGZW0FxH7AmbCGljCVoBez4c=.sha256",
+  "previous": "%UCOV9DLycl7tgm0x7i4B0KBDyWtD3Y4jvlZTGMDUDjI=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9069,
-  "timestamp": 1551291425385,
+  "sequence": 9070,
+  "timestamp": 1551291962509,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%xHXzgxD+ySZMTV0w8JG0x3rh7zdU/NihsrH2oBSpxb8=.sha256",
-    "branch": "%xHXzgxD+ySZMTV0w8JG0x3rh7zdU/NihsrH2oBSpxb8=.sha256",
-    "text": "[@DavidW](@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519) \n\nThanks for bringing this up, this is a great idea. I like how GitLab allows us to have private issues for security vulnerabilities, and it's a bummer that we don't have that. For the time being I think our best option would be for folks to privately message SSBC members rather than post public threads if they believe they've found a security vulnerability.",
+    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
+    "branch": "%cWf63Qaq+b6V7OK6+LNOS/5LL7JuIerZPR4x6Vevpgw=.sha256",
+    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI'd really like to get this issue confirmed either way. If you have a reproducible test case or could post your config, that would be super helpful. For example, if you're using \"noauth\" with the interface scoped to the network then it sounds like that would cause the issue you're describing. From the ssb-ws readme:\n\n> ## noauth\n>\n>given the flexibility of multiserver, you may want to run\nthis with noauth config locally. However this is ***not recommended***\nuntil ssb-ws prevents [dns rebinding attacks](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325)\nand websocket connections from locally open websites.\n>\n>If used with a [secure transport](https://github.com/auditdrivencrypto/secret-handshake),\nthat authenticates the client `\"transport\": \"shs\"`\nthen this is not a problem.",
     "mentions": [
       {
-        "link": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
-        "name": "DavidW"
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
       }
     ]
   },
-  "signature": "G5yR9KdnAfMbRMB68jGUu+TGWdt2shj/PYcgOwTrB7DXhdsQSrdy61KwR1qMt5aHcNpK58h8bxuaqDEp0sMEAg==.sig.ed25519"
+  "signature": "k74INiAsqC5ICEOQNNWeQ9XYkqGcVmD1hD1g9IsvGh5zZPH+NfXkVVlPUxKdS8wlOAqbpsXw2Lk6xoPcsmPhBg==.sig.ed25519"
 }
