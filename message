@@ -1,20 +1,24 @@
 {
-  "previous": "%UCOV9DLycl7tgm0x7i4B0KBDyWtD3Y4jvlZTGMDUDjI=.sha256",
+  "previous": "%hIuryDgqSEFhMrKYjCuR8/MJNB/oMIu1enWTSWQW6Cg=.sha256",
+  "sequence": 9071,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9070,
-  "timestamp": 1551291962509,
+  "timestamp": 1551299198556,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
-    "branch": "%cWf63Qaq+b6V7OK6+LNOS/5LL7JuIerZPR4x6Vevpgw=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nI'd really like to get this issue confirmed either way. If you have a reproducible test case or could post your config, that would be super helpful. For example, if you're using \"noauth\" with the interface scoped to the network then it sounds like that would cause the issue you're describing. From the ssb-ws readme:\n\n> ## noauth\n>\n>given the flexibility of multiserver, you may want to run\nthis with noauth config locally. However this is ***not recommended***\nuntil ssb-ws prevents [dns rebinding attacks](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325)\nand websocket connections from locally open websites.\n>\n>If used with a [secure transport](https://github.com/auditdrivencrypto/secret-handshake),\nthat authenticates the client `\"transport\": \"shs\"`\nthen this is not a problem.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
+    "vote": {
+      "link": "%cWf63Qaq+b6V7OK6+LNOS/5LL7JuIerZPR4x6Vevpgw=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%SHtpqlYBAaZHgRSHTTxDGvdh014T4uNw3y+OWku4pO4=.sha256",
+      "%abmqXdWrJAhQFXEs95RsV9CYcgDjSdvilefVYovY8KY=.sha256",
+      "%izJ5V0xnyRRik9/aY4wAHnpIzj+gFaSfvBkHW82mS6I=.sha256",
+      "%j6XbyLMMKYy1T9KpvcxVUVI8rJJiS5qVuXuBy8i7bAo=.sha256",
+      "%pA6t0vc+hwORPapjE3zcwMSrqKPduWMaUKwBy8Rxklw=.sha256"
     ]
   },
-  "signature": "k74INiAsqC5ICEOQNNWeQ9XYkqGcVmD1hD1g9IsvGh5zZPH+NfXkVVlPUxKdS8wlOAqbpsXw2Lk6xoPcsmPhBg==.sig.ed25519"
+  "signature": "CQedV4PTJ+ISVlNxoVPiYMSMFg/louyjimHAFx2S3gJopV/xnishOjpJ0Z1k37LSPdezaPuBm7In+VPQA6jOAQ==.sig.ed25519"
 }
