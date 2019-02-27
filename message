@@ -1,15 +1,15 @@
 {
-  "previous": "%qICG206V/ZkWOVbpgf5D3c6rpF2S3nR+4KEsL+gAMhM=.sha256",
+  "previous": "%AgbbdBZ7v9JDj/SWgNxPVc7yHnYPZQ+V0kIDHLSxNoM=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9067,
-  "timestamp": 1551244570091,
+  "sequence": 9068,
+  "timestamp": 1551244663544,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%XVrdlc6VR0ZuadGe15qKn516jCcX9IjivnqJZnY9+6w=.sha256",
-    "branch": "%XVrdlc6VR0ZuadGe15qKn516jCcX9IjivnqJZnY9+6w=.sha256",
+    "branch": "%AgbbdBZ7v9JDj/SWgNxPVc7yHnYPZQ+V0kIDHLSxNoM=.sha256",
     "channel": "scuttle-camp",
-    "text": "> automatically clickable dat link formatting in SSB clients, without having to know about the ![]( dat:// ) or < dat:// > hacks\n\nJust wanted to comment while I'm thinking of this: The `<href>` syntax should work everywhere, but unfortunately [Dat links aren't URIs](https://github.com/datproject/dat/issues/1050) so auto-linkifiers don't work without lots of jank. You can do dat://example.com for actual domains, but if it's a hash it won't work because it's 64 characters (and domain segments have a maximum of 63 characters). I wish we could fix it, but I think it's a standards compliance issue on Dat's side. :/"
+    "text": "Sorry, the most important bit: **thank you for documenting this session!** I was bummed I missed it so I'm super happy to have an archive I can read through."
   },
-  "signature": "2emFoaGsADyFiOtI8s1oMpy53EKzh4TLfqxwP+0ktkAU4MnqAm+uj/nkYqRGhKY7o7iJqdFeowPeKMCNBNB8DQ==.sig.ed25519"
+  "signature": "dfJuRuG5CiTn+8YpuWpGfrCDqPaK7sOLy+l4AJnQJMi7OE07ksj6Ct0K4+gG13bI6Z5DLHfZGf2rShnw0xIYCg==.sig.ed25519"
 }
