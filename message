@@ -1,20 +1,27 @@
 {
-  "previous": "%csk3c3xN+Fh11datT0dpRm3FDkhWB5kAxChchDYfCos=.sha256",
-  "sequence": 9074,
+  "previous": "%RWaGD0e9xXFYhvdRCjN0eCkxtKuZ2vv8FqWxG/PYcMU=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551302726159,
+  "sequence": 9075,
+  "timestamp": 1551303031158,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%kic3U67EaSJXR69M57LmaF/L4IreZNnUBw0/xx4d7M0=.sha256",
-    "vote": {
-      "link": "%kic3U67EaSJXR69M57LmaF/L4IreZNnUBw0/xx4d7M0=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%z5/qZ4rjaRKMAbAOAV/NaJW5ss5vq51uhS7bABi21hI=.sha256"
+    "type": "post",
+    "root": "%axPxSmDaFqZi9HRxzsCIIO/nFbjgN2zGSvfTvty7rBs=.sha256",
+    "branch": "%8iuf65qEriH6CfBaAlP3SRsylEMFOL8teKAQI0D4Hw8=.sha256",
+    "channel": "ssb",
+    "text": "[@Hendrik Peter](@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519) \n\nHave you seen %g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256 and %FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256? We've reached some rough consensus on the `ssb:` URI scheme and the code has been written, but it hasn't been integrated into all of the applications (yet).",
+    "mentions": [
+      {
+        "link": "@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519",
+        "name": "Hendrik Peter"
+      },
+      {
+        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256"
+      },
+      {
+        "link": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256"
+      }
     ]
   },
-  "signature": "Ed3ZBDxde1q5Gr1rBvsOXjZcKfWstMbBHAMbOZgUJ2RAXRmX5NCOkHU54YQg9goaQaq3BJMLPwNaG9920OJkBg==.sig.ed25519"
+  "signature": "QwTQlc72MI662AO+zNZlhkbIwDNXRuySG3Kw9XiKCNPjZsVk7mh7ZRlCdyPTBEHCYgNMDrkogcJMplNo+2l/Aw==.sig.ed25519"
 }
