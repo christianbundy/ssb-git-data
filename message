@@ -1,23 +1,21 @@
 {
-  "previous": "%1SiwFFygSmtYlSoaR3kkfolo0E55tzm4z4RfQrfOndA=.sha256",
+  "previous": "%zcxc9hWCouNDbwOSSFiGUfjlurkbi+UoePCpdsdvapc=.sha256",
+  "sequence": 9073,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9072,
-  "timestamp": 1551299861875,
+  "timestamp": 1551299896050,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
+    "type": "vote",
+    "root": "%1wjwQ1R3ErnFKTm8S5ff8QgY1oqEg+YpXRZ5LYrXZQs=.sha256",
+    "vote": {
+      "link": "%1wjwQ1R3ErnFKTm8S5ff8QgY1oqEg+YpXRZ5LYrXZQs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%izJ5V0xnyRRik9/aY4wAHnpIzj+gFaSfvBkHW82mS6I=.sha256",
-      "%j6XbyLMMKYy1T9KpvcxVUVI8rJJiS5qVuXuBy8i7bAo=.sha256"
-    ],
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519)\n\n> I'm using a fork of the lts version of scuttlebot that doesn't have the connections layer\n\nIs this bug specific to scuttlebot@11.4.3, or your fork? I've skimmed mvd and it looks like you're also using a thing called decent-ws rather than ssb-ws, so I want to make sure we're on the same page about which software this affects and which configuration is required to trigger it.\n\n> It could be this is just an issue with enabling global websockets\n\nCould you specify what this means? The stack has changed quite a bit in the past six months, so I want to make sure that we're talking about exactly the same thing. Sorry for all of the questions, it's just that I'm struggling to understand and reproduce the issue without having all of the details. I can see the bug being triggered on a website, but I can't find the source for that website to identify what's going on. ",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
+      "%DgOMReDVZZrLhv8OhPRWY2uTKu6qEuzbqDCNhPdoVPU=.sha256",
+      "%aDDynwA8l1qyh9T1Y2myUNQudtyD77123PzmI2q32kI=.sha256"
     ]
   },
-  "signature": "YmoX2ssEvCMC7np/Foti9t8TZMQhzLk3VOaf/OR0OnocuYc4vebhvCkaB/4ICfTmLyXUGC98byD+zvtonsRkDg==.sig.ed25519"
+  "signature": "4Y3xptoX3zejiYZD17lBCvLBVnkqL9Y3CP5JDBHdjUVzeuw91A4Z8eQiODr5gH1SXQ6TD3Ig/4CBFYMhuW3qDQ==.sig.ed25519"
 }
