@@ -1,21 +1,20 @@
 {
-  "previous": "%tWeJ89YDgMZWLMuZnuIsoFizfb+5FOTVubeuBWbaLKM=.sha256",
+  "previous": "%Cr+NlEv836yIRnAzUnDvYeehe5xoufzM/SROudqNLKA=.sha256",
+  "sequence": 9064,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9063,
-  "timestamp": 1551233533795,
+  "timestamp": 1551233736327,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AL3MRnc5eCafWLaye05is3NBpBNyps45ZhkNgxiwG3U=.sha256",
-    "branch": "%AL3MRnc5eCafWLaye05is3NBpBNyps45ZhkNgxiwG3U=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@schuyler](@Aj30ftcGjrxufcB7xfGxlyTb+SswXacEsPjC8I8I3XY=.ed25519) \n\nThis is great to see! It's cool to see that you were able to get a pub up and running with minimal friction.\n\nI've noticed that *eventually* `ssb-server` starts to have some issues when left alone for long periods of time, so if you have the same experience you can restart the server hourly with:\n\n```sh\nwhile true; do timeout 1h ssb-server start; done\n```",
-    "mentions": [
-      {
-        "link": "@Aj30ftcGjrxufcB7xfGxlyTb+SswXacEsPjC8I8I3XY=.ed25519",
-        "name": "schuyler"
-      }
+    "type": "vote",
+    "root": "%wMb8dDxlXWYGq0DJCIvqldKdTSLAJMYoepr2Jan6Akk=.sha256",
+    "vote": {
+      "link": "%wMb8dDxlXWYGq0DJCIvqldKdTSLAJMYoepr2Jan6Akk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%wMb8dDxlXWYGq0DJCIvqldKdTSLAJMYoepr2Jan6Akk=.sha256"
     ]
   },
-  "signature": "ZoDirlPg6gGr6ma+1B0ckxrORbu4ILECBAVPsP9/wSdEtGb+VpWpSPQ2GpbV4rv9uSNz8SDvDjB7Mh6yITVjBA==.sig.ed25519"
+  "signature": "9v8Y8WWsOcDhEf7nEi8K7B/y+UeYh70IC1BG7v88dSe0Yy1PxMvjzUWuYuxUVuDorUbMYIMpLw/xU9OeYXetAQ==.sig.ed25519"
 }
