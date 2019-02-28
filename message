@@ -1,27 +1,20 @@
 {
-  "previous": "%RWaGD0e9xXFYhvdRCjN0eCkxtKuZ2vv8FqWxG/PYcMU=.sha256",
+  "previous": "%17iWcbkToVkEtQsIL6y0gGdjpM08zcnmbW0C+U3bBoY=.sha256",
+  "sequence": 9076,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9075,
-  "timestamp": 1551303031158,
+  "timestamp": 1551336928665,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%axPxSmDaFqZi9HRxzsCIIO/nFbjgN2zGSvfTvty7rBs=.sha256",
-    "branch": "%8iuf65qEriH6CfBaAlP3SRsylEMFOL8teKAQI0D4Hw8=.sha256",
-    "channel": "ssb",
-    "text": "[@Hendrik Peter](@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519) \n\nHave you seen %g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256 and %FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256? We've reached some rough consensus on the `ssb:` URI scheme and the code has been written, but it hasn't been integrated into all of the applications (yet).",
-    "mentions": [
-      {
-        "link": "@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519",
-        "name": "Hendrik Peter"
-      },
-      {
-        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256"
-      },
-      {
-        "link": "%FMtGQnt3QdX14KLl+ol4hn/LqzfXFLJZxKjCR1mMm0E=.sha256"
-      }
+    "type": "vote",
+    "root": "%d8oO0ztpnkT36fdFVnqM6mkAmwD0uYG7RFmJtQ3X7yk=.sha256",
+    "vote": {
+      "link": "%d8oO0ztpnkT36fdFVnqM6mkAmwD0uYG7RFmJtQ3X7yk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%jjcDrPvD4IVo+HL02yqwXpAhgqQLkEv0i34zoGp+pz8=.sha256"
     ]
   },
-  "signature": "QwTQlc72MI662AO+zNZlhkbIwDNXRuySG3Kw9XiKCNPjZsVk7mh7ZRlCdyPTBEHCYgNMDrkogcJMplNo+2l/Aw==.sig.ed25519"
+  "signature": "H3OPOuFBkytmFpWdSIDfJJ0BvKRMkk7KhniZFSl8tXT6TAOVS/y6D38eRtviI+En1iHHkcwDm5vttZy25Jg5Dw==.sig.ed25519"
 }
