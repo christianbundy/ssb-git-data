@@ -1,13 +1,23 @@
 {
-  "previous": "%rHo3Tzm+BUk21WgelPNvbo4TvAvL7dZEaQnpAqyXKmM=.sha256",
+  "previous": "%N5eY8MF/gOKmaPIOdTAQz/F6JVx2hXCZup7+G9HG0D0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9096,
-  "timestamp": 1551483250824,
+  "sequence": 9097,
+  "timestamp": 1551483738095,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519",
-    "name": "miles"
+    "type": "post",
+    "root": "%YPyl6gooY58jNzLNeieJEkkgP/H77ZqozJHpJ7DvNKk=.sha256",
+    "branch": "%6oh3UVfNJsiFzRniJ/Pwny4j5uro6+7fD+Ts+JGI0jE=.sha256",
+    "text": "[@kravietz](@6EIv2P7r5LF0DI6yt62e4Wg1ns1V/JsUZmhPv9p0YSw=.ed25519) \n\n> A #dat share does not require a central server but it does require at least one node seeding the content\n\nDoes that mean that you can do Dat shares over LAN without any internet access? I thought that it needed a DHT announce server, like BitTorrent, which is a central server that manages the peers.",
+    "mentions": [
+      {
+        "link": "@6EIv2P7r5LF0DI6yt62e4Wg1ns1V/JsUZmhPv9p0YSw=.ed25519",
+        "name": "kravietz"
+      },
+      {
+        "link": "#dat"
+      }
+    ]
   },
-  "signature": "n0cE/6gvWRPNgTNv1wa/OR0OtZvdhHiRtM/GfArq4PXBHCRK8mk/hQI0ykLMkfSDsquCgfphzeAMG11lCzKqDw==.sig.ed25519"
+  "signature": "xXm6sEobEe5xYtD1351L3nyj7Zq65sfsd9XXmGAX1yElWeLMoWIP1mpA5Q65hpW9Tb732YBQbAFnIePxyZwuCA==.sig.ed25519"
 }
