@@ -1,13 +1,25 @@
 {
-  "previous": "%wnuS19JkhZwi2UxEwPZHg0NcjsSE0T8yiK4rCrJEGL4=.sha256",
+  "previous": "%bv7yW7tW1xKYjK5mzEtP2/4RYq+5DUN2v6H5G4R0jag=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9102,
-  "timestamp": 1551499612679,
+  "sequence": 9103,
+  "timestamp": 1551499760155,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@OF30xmIi8yCA6nLuu8UtCxy+LAzRJ3yzH/s6Ia6ejGs=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%dydmy72ljD8kl89tx+VDIhOmcjcuFPQape+P6/bZCjE=.sha256",
+    "branch": "%dydmy72ljD8kl89tx+VDIhOmcjcuFPQape+P6/bZCjE=.sha256",
+    "channel": "feature-request",
+    "text": "I'm very interested in making posts better for everyone I'd love to see this implemented.\n\nI think that eventually we'll need a more user-friendly editor, and having the image upload prompt for alt text is a feature I'll keep near the top of my priority list. As a tangent, I know that [@blaine](@OF30xmIi8yCA6nLuu8UtCxy+LAzRJ3yzH/s6Ia6ejGs=.ed25519) talked about markup that's better than Markdown, but I wasn't able to attend the session (cc: [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519), I think you mentioned this in the closing circle?).\n",
+    "mentions": [
+      {
+        "link": "@OF30xmIi8yCA6nLuu8UtCxy+LAzRJ3yzH/s6Ia6ejGs=.ed25519",
+        "name": "blaine"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "xVkdNCyRIs6lZiX+uQosqWbMG3CrtsrCDmmZjjUgKTPq4POlXGHQvHMxHhPjSM1Qv6GB+FFw5gv39zMUIzKmBQ==.sig.ed25519"
+  "signature": "H0LGbHOiHmSg0CTWcmnQxTIf3snX4jWBqY1TJzB5LauY0aBxzOdUW5J/DqACgg9pOv9lm3wHl+6CG2NE65CyDA==.sig.ed25519"
 }
