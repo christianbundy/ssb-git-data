@@ -1,20 +1,20 @@
 {
-  "previous": "%S2DlQZ5m+XtvbXUMtYC7A9p5l4tZvcgv1smxCzCOFXY=.sha256",
-  "sequence": 9108,
+  "previous": "%pSKBO0D6NG7nCuAF10AC1Kryj76H2svwSKEub10xGNs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551553119978,
+  "sequence": 9109,
+  "timestamp": 1551556295832,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%AP2JLrdUHCqD9uBDOXUFQrK+uybI1vBhAf6DjeiXhSE=.sha256",
-    "vote": {
-      "link": "%AP2JLrdUHCqD9uBDOXUFQrK+uybI1vBhAf6DjeiXhSE=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%3B6Hg/X8N9K/B4eHuQMS9dk3fh8/CNfgQqkrAlfIOqI=.sha256"
+    "type": "post",
+    "text": "# What are the layers of Scuttlebutt?\n\nI'm feeling inspired to write a subjective post on the state of scuttlebutt, but it seems like the first step would be to draw up a reasonable taxonomy for the components that make Scuttlebutt. I've seen some lovely stack diagrams in the past, but these seem more focused on the *implementation layers* of Scuttlebutt rather than the features.\n\n![Diagram of the implementation layers of Scuttlebutt, focused on secret-stack and secure-scuttlebutt (now ssb-db) implementation layers](&gDSDq6lmLNiIBTPiiGgnizsY8EyWc0wgUOqTXe6tnSk=.sha256).\n\nI'm going to brain-dump some layers, feedback and contributions *very* welcome!\n\n\n- **Storage:** How and where to save the data that we create or receive.\n- **Identity:** Pair of corresponding public and private keys that are used for identification and verification.\n- **Message:** Small piece of data that's hashed and signed with our identity.\n  - **Content schema:** Shared understanding of *what* a message intends.\n  - **Private:** Encrypted message that can only be read by the recipient identities.\n- **Blob:** Content-addressable data that may referenced by a message via metadata.\n- **Feed:** Singly-linked list of messages from an identity that forms a signature chain.\n- **Peer:** Any other instance of Scuttlebutt that we can connect to and communicate with.\n- **Discovery:** Collection of methods for discovering peers and their identities.\n- **Connection:** Method of networking with peers so that we can communicate.\n- **Communication:** Shared language and expectations for *how* peers communicate with each other.\n- **Replication:** Method of communicating feeds and blobs with peers over a connection.\n\nIs there anything I'm missing, or are there any suggestions on how to categorize this better? In the future I'd like to go through each category and explore the good/bad/ugly, but it seems important to nail down a useful taxonomy first.",
+    "mentions": [
+      {
+        "link": "&gDSDq6lmLNiIBTPiiGgnizsY8EyWc0wgUOqTXe6tnSk=.sha256",
+        "name": "Diagram of the implementation layers of Scuttlebutt, focused on secret-stack and secure-scuttlebutt (now ssb-db) implementation layers",
+        "type": "image/svg+xml",
+        "size": 10137
+      }
     ]
   },
-  "signature": "/f70Zb5W5cw7gj8mqhW4TW9183xkimx7tOPI/Q/v67cnphDiI+vQZP/t3hevZCI1S0c+8ZDdG+2EhMrX7VcEDg==.sig.ed25519"
+  "signature": "d9Pb45Wqjf89tz+FbL9Ats88y868M76LXZYImfNDlzgCb1v/nxJ2txF552O0xcn5apza20foQPf5a74bHK+0AA==.sig.ed25519"
 }
