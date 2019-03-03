@@ -1,20 +1,25 @@
 {
-  "previous": "%Ly1HqH9o+u125E6hVYzuFVUPi8kEQbNlO2uAN6FuLo4=.sha256",
+  "previous": "%LfoAD7D9ExIh5zWBJlAA2LUEiVpKD7hD0tTqYpW/T1Y=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9123,
-  "timestamp": 1551578436292,
+  "sequence": 9124,
+  "timestamp": 1551585057318,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%QnPf+pNOwC+0cXW2JrkzUzhtM5tQuMIGVDYGpEpE2Q4=.sha256",
-    "branch": "%DhlC2hETVbQMICRyb3mIte02+Sk5F5rDLULc6O1a3Xs=.sha256",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\n\nWow, great workaround! I've had to do similar when I've had graphics problems and I can confirm that it's no fun.\n\nWhat are you using for a screen these days?",
+    "root": "%gab5nhADvh57794GnTf9zk/iSOZiriMLuBgwfXwTW/k=.sha256",
+    "branch": "%gab5nhADvh57794GnTf9zk/iSOZiriMLuBgwfXwTW/k=.sha256",
+    "channel": "patchwork",
+    "text": "[@utunga](@XnF41TCo35BNrQOQnw0BWDm2HE3lpccDrlYS/MmgYfU=.ed25519) \n\nNegative, I think it just follows `HOME`. You have a few options:\n\n- Use a symlink so that the file is doesn't actually have to exist in your home directory.\n- Run Patchwork with `export HOME=/somewhere/over/the/rainbow; npm start` or something so it looks elsewhere.\n\nBacklink: I'd like to use the [XDG base directory specification](%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256) so that you can move specific types of Scuttlebutt data (e.g. cache) to other locations, but I'm not sure that everyone else wants to follow that standard. \n\nIf there *is* an expectation to override `HOME` with `SSB_HOME` or something I'd love to check out how other projects do it (or how specifications explain it), as it seems like it would be a really great idea.",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "@XnF41TCo35BNrQOQnw0BWDm2HE3lpccDrlYS/MmgYfU=.ed25519",
+        "name": "utunga"
+      },
+      {
+        "link": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
+        "name": "XDG base directory specification"
       }
     ]
   },
-  "signature": "WsVWInPQc5zQAch0AuWvwUgaykNLuxYazJD7BesAE/XRTipW2oLRO42/bHd/77n9wiMme6KnP0k/y00yiH0BCA==.sig.ed25519"
+  "signature": "kBqhIC/QWOwwLuRWEise2wU3mdjdqdk5AKShEv8adEJSCUZhLTtxSTkqitf4Mx4peRrKtN8Uv3uKUJyzmdgJCA==.sig.ed25519"
 }
