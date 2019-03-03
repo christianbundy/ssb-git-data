@@ -1,21 +1,20 @@
 {
-  "previous": "%d2ZJ5N9DHmpL8eEWkmiUi+cqyC1bq8Cpp5CASziEbDs=.sha256",
+  "previous": "%hQLVDhnyjmpoR/Y02AIe6fJtRPqQ6wJ9GKyH/7kOEhE=.sha256",
+  "sequence": 9120,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9119,
-  "timestamp": 1551578292876,
+  "timestamp": 1551578311724,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%aNaZqnsO0bhsn7FXDLDy8uQkgINU4WXj7JWcRSQ+AtU=.sha256",
-    "branch": "%aNaZqnsO0bhsn7FXDLDy8uQkgINU4WXj7JWcRSQ+AtU=.sha256",
-    "channel": "scuttlebutt",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nI feel some ambiguity around what I'm signing myself up for, but that might not be a bad thing. I'm happy to commit to an hour per week, but it might be useful to decide how many weeks we're committing to. For example, committing to six weeks sounds like a reasonable starting point.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
+    "type": "vote",
+    "root": "%uxcwTrJeQ2QUpJKL03JgnvvY1tY8MYSITShbIeWMI9M=.sha256",
+    "vote": {
+      "link": "%uxcwTrJeQ2QUpJKL03JgnvvY1tY8MYSITShbIeWMI9M=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%w/zGnEuK58OKcjZhdqrHvjc0bLvOdg47VsmEOEs1IYU=.sha256"
     ]
   },
-  "signature": "Td6EP1uEwAQ+TPOC/3fHsgDvTabLIdYbPxGqwWhTZADH1eT2kteVAsPIcZAQSlWis4cqZrKUegKyoZ0w/wnYBg==.sig.ed25519"
+  "signature": "ebwnasgTCZjxxl9d52luM7Hytsu+hqBzQ8Vptj3jLiP7KFDLNuvJndSvAc0A0Y3OaBoBTk+RcmrTuqkXrwZiBQ==.sig.ed25519"
 }
