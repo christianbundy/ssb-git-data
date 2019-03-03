@@ -1,20 +1,21 @@
 {
-  "previous": "%YktJtlJc9FvCTEKWuRbmIgiOcEN+p1jMRZXpUYdUJdI=.sha256",
-  "sequence": 9118,
+  "previous": "%d2ZJ5N9DHmpL8eEWkmiUi+cqyC1bq8Cpp5CASziEbDs=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551577785015,
+  "sequence": 9119,
+  "timestamp": 1551578292876,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%kMgcTkH0GAvPq4CBOzgpTIEqOmoIDpjTgITDUSXwsfI=.sha256",
-    "vote": {
-      "link": "%kMgcTkH0GAvPq4CBOzgpTIEqOmoIDpjTgITDUSXwsfI=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%5HdloVflG13A+1Ngnx0FLLgI4yo/OxNacpE+NOn7EGA=.sha256"
+    "type": "post",
+    "root": "%aNaZqnsO0bhsn7FXDLDy8uQkgINU4WXj7JWcRSQ+AtU=.sha256",
+    "branch": "%aNaZqnsO0bhsn7FXDLDy8uQkgINU4WXj7JWcRSQ+AtU=.sha256",
+    "channel": "scuttlebutt",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nI feel some ambiguity around what I'm signing myself up for, but that might not be a bad thing. I'm happy to commit to an hour per week, but it might be useful to decide how many weeks we're committing to. For example, committing to six weeks sounds like a reasonable starting point.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
     ]
   },
-  "signature": "u77FtJQlmkD0UycdbaJ1QbLc6+oDWuFFHUhIU59tU+UqAxneisu6GHx9T3G7XZ7JZNyGmTZPiD+oIwAVu5kHDw==.sig.ed25519"
+  "signature": "Td6EP1uEwAQ+TPOC/3fHsgDvTabLIdYbPxGqwWhTZADH1eT2kteVAsPIcZAQSlWis4cqZrKUegKyoZ0w/wnYBg==.sig.ed25519"
 }
