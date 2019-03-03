@@ -1,25 +1,21 @@
 {
-  "previous": "%LfoAD7D9ExIh5zWBJlAA2LUEiVpKD7hD0tTqYpW/T1Y=.sha256",
+  "previous": "%kjt2CBLndupauaaty3zrY6agk/IQQouvAvVsz7IXWCM=.sha256",
+  "sequence": 9125,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9124,
-  "timestamp": 1551585057318,
+  "timestamp": 1551586129375,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%gab5nhADvh57794GnTf9zk/iSOZiriMLuBgwfXwTW/k=.sha256",
-    "branch": "%gab5nhADvh57794GnTf9zk/iSOZiriMLuBgwfXwTW/k=.sha256",
-    "channel": "patchwork",
-    "text": "[@utunga](@XnF41TCo35BNrQOQnw0BWDm2HE3lpccDrlYS/MmgYfU=.ed25519) \n\nNegative, I think it just follows `HOME`. You have a few options:\n\n- Use a symlink so that the file is doesn't actually have to exist in your home directory.\n- Run Patchwork with `export HOME=/somewhere/over/the/rainbow; npm start` or something so it looks elsewhere.\n\nBacklink: I'd like to use the [XDG base directory specification](%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256) so that you can move specific types of Scuttlebutt data (e.g. cache) to other locations, but I'm not sure that everyone else wants to follow that standard. \n\nIf there *is* an expectation to override `HOME` with `SSB_HOME` or something I'd love to check out how other projects do it (or how specifications explain it), as it seems like it would be a really great idea.",
-    "mentions": [
-      {
-        "link": "@XnF41TCo35BNrQOQnw0BWDm2HE3lpccDrlYS/MmgYfU=.ed25519",
-        "name": "utunga"
-      },
-      {
-        "link": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
-        "name": "XDG base directory specification"
-      }
+    "type": "vote",
+    "root": "%LkGlBtgQqsSwBbEGEMppwXkbaCP126fOftKRB36nSuk=.sha256",
+    "vote": {
+      "link": "%KFUXWhoHtXCOH3YtCrj3ZiVNlQyujJIeBCBXrCuQDyg=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%KFUXWhoHtXCOH3YtCrj3ZiVNlQyujJIeBCBXrCuQDyg=.sha256",
+      "%KTYO5e5uKDvQtZYRoVjNExz6jbUp2PLss1ZofCKk6DQ=.sha256"
     ]
   },
-  "signature": "kBqhIC/QWOwwLuRWEise2wU3mdjdqdk5AKShEv8adEJSCUZhLTtxSTkqitf4Mx4peRrKtN8Uv3uKUJyzmdgJCA==.sig.ed25519"
+  "signature": "v2wIi797YRszN7CGxY0mekPewaLGTse6wS8R5GoYWvQ1zZyvUqtWqjeABvx8Odzo6YuozKWr9tSkM21ptUfvDg==.sig.ed25519"
 }
