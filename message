@@ -1,21 +1,33 @@
 {
-  "previous": "%TjjK9AUcyEtCaB/YackBPWhViVDQDm4EBnajATrOaZg=.sha256",
+  "previous": "%Z9ByI58hFdaurwUaZjgsBvr22UPl6ieBgzMpb9T3tfw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9169,
-  "timestamp": 1551741604587,
+  "sequence": 9170,
+  "timestamp": 1551742560751,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%jYK6YXJTvyvs75sI8jsKCjI1VBFYGkmkaaWxsIDc+Mo=.sha256",
-    "branch": "%jYK6YXJTvyvs75sI8jsKCjI1VBFYGkmkaaWxsIDc+Mo=.sha256",
-    "channel": "ssb-learning",
-    "text": "[@David Wales](@S8P2cAzZ7DkP5j6T7RjVa9GXhkLAnoz9q3tY6Ja60+M=.ed25519) \n\nI was just looking into this! My intuition is *absolutely yes*, but I haven't had the time to write a tool that takes `~/.ssb/secret` as input and produces and ASCII-armored GPG key to import.",
+    "root": "%qEogCjHakADXpLdhOfU2EBFUP6cikKS32YUfL2SeBAY=.sha256",
+    "branch": "%qEogCjHakADXpLdhOfU2EBFUP6cikKS32YUfL2SeBAY=.sha256",
+    "channel": "ssb-server",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nIf you can, I'd upgrade to 14.1.6. What sort of instability are you facing? I know that [@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) and [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) (and maybe [@jfr](@e84qV/tx9w1ZiOIxU3+fOpirrT8rP3YqDydRgfk076c=.ed25519)?) run a version from ~6 months ago, but I wouldn't personally recommend it.",
     "mentions": [
       {
-        "link": "@S8P2cAzZ7DkP5j6T7RjVa9GXhkLAnoz9q3tY6Ja60+M=.ed25519",
-        "name": "David Wales"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
+        "name": "ev"
+      },
+      {
+        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
+        "name": "regular"
+      },
+      {
+        "link": "@e84qV/tx9w1ZiOIxU3+fOpirrT8rP3YqDydRgfk076c=.ed25519",
+        "name": "jfr"
       }
     ]
   },
-  "signature": "LO7T6OR7xwcqDOm3KfOZb8XymLgUWrrmx7MpTKLKg4OO7sFfz3ALDSPMFzBMC+emvUyr0oykh4eYYOrrRP0OAA==.sig.ed25519"
+  "signature": "y/zEcR6Jn7sdPRHlpNSWtwAMn5O8Cgh23OyXlfRwvh7rrt/35x2BrHxFRCTUZMdNYSv/N7hb223mjv+Zg4dTAQ==.sig.ed25519"
 }
