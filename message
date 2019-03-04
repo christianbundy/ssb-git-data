@@ -1,24 +1,20 @@
 {
-  "previous": "%BfEQaZ61ejMm0j9PJcr0b9BSMzSkzHKiN6xx0k+Pmv8=.sha256",
+  "previous": "%teknCjfL3IdTDTeHbSwDYLj+rDSYxdvzkZt6sS0JR6U=.sha256",
+  "sequence": 9158,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9157,
-  "timestamp": 1551727636533,
+  "timestamp": 1551729685987,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
-    "branch": "%M+fb3oBuy7uFKC5w1V7ERdeW2DoeucVS4kkcOf9NP+0=.sha256",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) \n\nFWIW, I'm now having the same problem where `ssbClient` needs to be wrapped in `setImmediate` when the server is bound to localhost. An optional callback seems reasonable to me, is that our best option?\n\n> currently, it returns a close function.\n\nSorry, I'm missing context here -- what returns a close function? I've tried `ssbServer(config)()` but it complains that it isn't a function.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
-        "name": "regular"
-      }
+    "type": "vote",
+    "root": "%9KA+ws/AkqNV7y5oJVGuMo7qvXA+tXt+dT2LHPMcRAk=.sha256",
+    "vote": {
+      "link": "%9KA+ws/AkqNV7y5oJVGuMo7qvXA+tXt+dT2LHPMcRAk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%9KA+ws/AkqNV7y5oJVGuMo7qvXA+tXt+dT2LHPMcRAk=.sha256"
     ]
   },
-  "signature": "ocm74KHHLEMDnDEFhQzIMbhVMeJ2eoaHpRkpd9Z8Fix+yjSTzLWOrwnmD4fVJnLfsGAGEJjEpEbglrlypzB7DQ==.sig.ed25519"
+  "signature": "ZNtyEpjdCrma7MALQo22SRS3+wHQmJ2S6D1GiRrEkIwGtTOxuIQEQW7fOzSiSyavQP6L/3nqlHi3gyUBafTTDQ==.sig.ed25519"
 }
