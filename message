@@ -1,21 +1,21 @@
 {
-  "previous": "%F7RVv/ab2bm8fGl36QVk5in4OIteqL5LUlBgH3U5c0E=.sha256",
-  "sequence": 9166,
+  "previous": "%dV5jftsk5pgWJvcXmcADNaZsOuu2rdLMSYrYyCNmC70=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551738894603,
+  "sequence": 9167,
+  "timestamp": 1551739805510,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
-    "vote": {
-      "link": "%AuRohoVzRrrilT5a4xHOKgfvgYFRwsfBOeB7B4j2WEM=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%AuRohoVzRrrilT5a4xHOKgfvgYFRwsfBOeB7B4j2WEM=.sha256",
-      "%IohXeT9BV1tJRhswA2uZp4Q1ZxxYRFWA4x+ePUFQpKU=.sha256"
+    "type": "post",
+    "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%jb7ON1MoYvI6B1XYlSqxkVAd8M8FNWyiUB4kc3dNPDg=.sha256",
+    "channel": "markup",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nThis is something I've been super interested in. I've tried to add it to Patchwork/Patchbay, but some combination of depject/mutant/hyperscript made it throw some unexpected errors that I didn't have the time to debug.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
     ]
   },
-  "signature": "nikvtyQmja5ZLS4rUxBhRqgBEY56ytMmBM+bXrZpUxba62mYw9wbqSM7de4hogmYc/t7SpznavBfGq2VIn6jCA==.sig.ed25519"
+  "signature": "mqbA3EwvmtFjZiIx9UzbtPNR4kYO4trWCOmQesCpq3/ZLgm5LjTAX0TroMQx5s/IupEUtEi/gCkOaYR19GWaAQ==.sig.ed25519"
 }
