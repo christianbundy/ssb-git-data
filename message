@@ -1,33 +1,21 @@
 {
-  "previous": "%Z9ByI58hFdaurwUaZjgsBvr22UPl6ieBgzMpb9T3tfw=.sha256",
+  "previous": "%hb9FK67ShRSv8ZbqNIQkrB3sNXFVkLA7vcVf3w2uqw8=.sha256",
+  "sequence": 9171,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9170,
-  "timestamp": 1551742560751,
+  "timestamp": 1551742587942,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%qEogCjHakADXpLdhOfU2EBFUP6cikKS32YUfL2SeBAY=.sha256",
-    "branch": "%qEogCjHakADXpLdhOfU2EBFUP6cikKS32YUfL2SeBAY=.sha256",
-    "channel": "ssb-server",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nIf you can, I'd upgrade to 14.1.6. What sort of instability are you facing? I know that [@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) and [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) (and maybe [@jfr](@e84qV/tx9w1ZiOIxU3+fOpirrT8rP3YqDydRgfk076c=.ed25519)?) run a version from ~6 months ago, but I wouldn't personally recommend it.",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      },
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      },
-      {
-        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
-        "name": "regular"
-      },
-      {
-        "link": "@e84qV/tx9w1ZiOIxU3+fOpirrT8rP3YqDydRgfk076c=.ed25519",
-        "name": "jfr"
-      }
+    "type": "vote",
+    "root": "%7X3HohNRFg34izkxI9WoBKrpVWlK+pSIIpdyu/lmrfg=.sha256",
+    "vote": {
+      "link": "%cH6pi06SYN7wFP94ra5muuc13aA7NZ36K49pprMEHeU=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%3iKzvJNSf+rVpY4HaitUK3glzkXDqHLLfbtpDOr76XI=.sha256",
+      "%vBpBmrOmPT0nVeYow/POW4i+f/E7Ai94MotALsdP3M0=.sha256"
     ]
   },
-  "signature": "y/zEcR6Jn7sdPRHlpNSWtwAMn5O8Cgh23OyXlfRwvh7rrt/35x2BrHxFRCTUZMdNYSv/N7hb223mjv+Zg4dTAQ==.sig.ed25519"
+  "signature": "yS953IFfXqdxmeMvl6zVNjgxJg/fEDJRfvWPf3uPuo++Ch4OQRyY1zI2smCaAYf5bXxwn4ZEHHD9ZAdNooIkBQ==.sig.ed25519"
 }
