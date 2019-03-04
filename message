@@ -1,24 +1,20 @@
 {
-  "previous": "%2C//Z5NKZSV8VQocVPjqryFjK2bTLMCZXnOIH/QoGoE=.sha256",
+  "previous": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
+  "sequence": 9141,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9140,
-  "timestamp": 1551658090785,
+  "timestamp": 1551714453638,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# 🖧 Scuttlebutt Overlay Network\n\nA couple of years ago I became incredibly interested in mesh networks that could provide resilient connectivity without depending  on central servers. Scuttlebutt is great at resolving this asychronously with eventual consistency, but I wonder whether we could use Scuttlebutt as an overlay network like #cjdns. Have there been any discussions about this already?\n\nA few weeks ago [@rabble](@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519) brought up the idea of using #tor for this, but it may be possible to add STUN/TURN to muxrpc instead. This would give us the ability to communicate through end-to-end encrypted tunnels, which lets us do sychronous stuff when we can connect (e.g. audio/video calls, real-time games, git, ssh, etc).\n\nI'd love to hear first impressions and thoughts about whether and how this might work.",
-    "mentions": [
-      {
-        "link": "#cjdns"
-      },
-      {
-        "link": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519",
-        "name": "rabble"
-      },
-      {
-        "link": "#tor"
-      }
+    "type": "vote",
+    "root": "%31xETMTN1+hiPv52HgNmZwF6GyJYJz9HQ8tHHTwidp0=.sha256",
+    "vote": {
+      "link": "%31xETMTN1+hiPv52HgNmZwF6GyJYJz9HQ8tHHTwidp0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%TvjwORElXDgGighvyaU2Do5X7D0YRFDsAAz8AO6Cq2g=.sha256"
     ]
   },
-  "signature": "qlqZ3ZlYS1BqyTubBfMHI8WpHjc/0jqWTFu89phQj7ZFDDfvdIRjhApWebcFP/VRjZ+hQnRkvwflFWw1AlW9Cg==.sig.ed25519"
+  "signature": "/y/e/pqnMHM+0eHc+NEQeqQsVjBaznkMUlBzeMlJhO5K7qNyw0nEia8fhGdS9pzzI82qUW4NxlX7aq6qNbdkBw==.sig.ed25519"
 }
