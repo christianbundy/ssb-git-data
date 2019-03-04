@@ -1,17 +1,20 @@
 {
-  "previous": "%WGZHGiIoEkkxSFX9tJx/SG/XhhBemhJaYkzOOWCGF2Q=.sha256",
+  "previous": "%fwPtObJ7F/RAP4f6NgWNx522livDxFaJaVgxx/K19jg=.sha256",
+  "sequence": 9155,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9154,
-  "timestamp": 1551724576544,
+  "timestamp": 1551727206976,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ireH/xvWcZoOgF1Oj0bywofPa3A27y46jy7QhMq+rj8=.sha256",
+    "type": "vote",
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "vote": {
+      "link": "%M+fb3oBuy7uFKC5w1V7ERdeW2DoeucVS4kkcOf9NP+0=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
     "branch": [
-      "%4lmDffifqZsbCJrnObzZm7JL5vR3d5GRjEGAE9aElNo=.sha256",
-      "%sIfKXttCc78xTHi3Y3pAVnke0Xdmup4jMmOuy8/fMkI=.sha256"
-    ],
-    "text": "Resolved by [this PR](https://github.com/ssbc/ssb-config/pull/45).\n\n🎉"
+      "%M+fb3oBuy7uFKC5w1V7ERdeW2DoeucVS4kkcOf9NP+0=.sha256"
+    ]
   },
-  "signature": "9FlUjl5wwueDlEl/g7u70uMX3MtqDLgmL7e3IZE2MV+puhUqNfnmnmaVz2gdjj0fI5w7v16zDayw6BlhTbxVBQ==.sig.ed25519"
+  "signature": "AVKreDj1tLvsXiBj+Wh0unShMddbhgv3DezpSQrbLfOJtA3LEzP8Z5B3Lo3aoVYwm6kaRSuuOpuUX15X/TaGBg==.sig.ed25519"
 }
