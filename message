@@ -1,15 +1,24 @@
 {
-  "previous": "%HxS6t6O/5xdP+UkI07lGKz8m1HXUtM449wBrDBcCPXw=.sha256",
-  "sequence": 9139,
+  "previous": "%2C//Z5NKZSV8VQocVPjqryFjK2bTLMCZXnOIH/QoGoE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551656476284,
+  "sequence": 9140,
+  "timestamp": 1551658090785,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%e/QzkJheq8aHiuLeFj5BvV6YbQ5Zox3nQMM/DWRy58o=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    }
+    "type": "post",
+    "text": "# 🖧 Scuttlebutt Overlay Network\n\nA couple of years ago I became incredibly interested in mesh networks that could provide resilient connectivity without depending  on central servers. Scuttlebutt is great at resolving this asychronously with eventual consistency, but I wonder whether we could use Scuttlebutt as an overlay network like #cjdns. Have there been any discussions about this already?\n\nA few weeks ago [@rabble](@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519) brought up the idea of using #tor for this, but it may be possible to add STUN/TURN to muxrpc instead. This would give us the ability to communicate through end-to-end encrypted tunnels, which lets us do sychronous stuff when we can connect (e.g. audio/video calls, real-time games, git, ssh, etc).\n\nI'd love to hear first impressions and thoughts about whether and how this might work.",
+    "mentions": [
+      {
+        "link": "#cjdns"
+      },
+      {
+        "link": "@vzoU7/XuBB5B0xueC9NHFr9Q76VvPktD9GUkYgN9lAc=.ed25519",
+        "name": "rabble"
+      },
+      {
+        "link": "#tor"
+      }
+    ]
   },
-  "signature": "VgjgGceQzkrOKAIh4JoiyOVm/BjvvU1JGKlim/BlMmGGv1CpSVBKY1a9JS1gSmdp2Trr6S6R0cyNHSucEDLFAA==.sig.ed25519"
+  "signature": "qlqZ3ZlYS1BqyTubBfMHI8WpHjc/0jqWTFu89phQj7ZFDDfvdIRjhApWebcFP/VRjZ+hQnRkvwflFWw1AlW9Cg==.sig.ed25519"
 }
