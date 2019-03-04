@@ -1,21 +1,26 @@
 {
-  "previous": "%LWDnmbyXDtpby8RRVjTHXylQb/eckhOQLtKx4c5HAsE=.sha256",
+  "previous": "%nTgbB+mvDQcYwPQqfbO0DOi0J42VnVYOUGOdOX4ziuQ=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9151,
-  "timestamp": 1551718773572,
+  "sequence": 9152,
+  "timestamp": 1551720355736,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%lIbjvwjLq4hBknipechzRpNLCS2YTGhiDaBHmGDRCVs=.sha256",
-    "branch": "%Ywge1dzlPR1P54+sz3UYjnibq3TV5jUIMRey1VC0hb0=.sha256",
-    "channel": "moinho-mesh",
-    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nDo you have any plans to put up your own tower? I've been talking to Florian from [Growing Tower](https://www.growingtower.de/) and he's been working on a building technique that lets you build strong towers without ladders or cranes. Maybe useful? https://youtu.be/brrANrfcFk4",
+    "text": "# How does `getAddress()` work?\n\nI think this is coming from ssb-server. I was originally under the impression that your multiserver address ended with your pubkey, but when I run `getAddress()` I'm seeing a completely different key. The strange part is that ssb-client connects without any issues, so I must be misunderstanding how multiserver addresses work. Could someone help me understand this a bit better?\n\n```js\nconst ssbConfig = require('ssb-config/inject')\nconst ssbKeys = require('ssb-keys')\nconst ssbServer = require('ssb-server')\n\nconst keys = ssbKeys.generate()\nconst config = ssbConfig('test', { port: 8910, keys })\nconst server = ssbServer(config)\n\nconsole.log('keys:', keys)\nconsole.log('public key is:', keys.public)\nconsole.log('but address is:', server.getAddress())\n\nserver.ready(server.close)\n```\n\n```console\n$ node example.js\nkeys: { curve: 'ed25519',\n  public: 'PxKhYjd/qyNOJ553kz2hXiqyhNQbjesGCO2msN5cQhU=.ed25519',\n  private:\n   '/0UHyTjnXlbDVSgN169G0RcPhPR+JJ+PigFO1G2BgCo/EqFiN3+rI04nnneTPaFeKrKE1BuN6wYI7aaw3lxCFQ==.ed25519',\n  id: '@PxKhYjd/qyNOJ553kz2hXiqyhNQbjesGCO2msN5cQhU=.ed25519' }\npublic key is: PxKhYjd/qyNOJ553kz2hXiqyhNQbjesGCO2msN5cQhU=.ed25519\nbut address is: net:localhost:8910~shs:WoGwO2mXIPMl7fredEe7KelwG7ZzAfLpy2rl3uyBVJU=\n```\n\nIf the public key is `PxK..hU=` then why is the address `WoG..JU=`?\n\n#ssb-server #ssb-config #ssb-keys #ssb-learning ",
     "mentions": [
       {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "luandro"
+        "link": "#ssb-server"
+      },
+      {
+        "link": "#ssb-config"
+      },
+      {
+        "link": "#ssb-keys"
+      },
+      {
+        "link": "#ssb-learning"
       }
     ]
   },
-  "signature": "obuwW625aLv7zr3sEvfvvdMiGXKEJ+9mBcb+NcS3rTnGuGvfQfFVz+BvbRDViLGcmM068ENB9+w9edobblouBA==.sig.ed25519"
+  "signature": "W1V+b7+VYSzr1iAbIqkolQggl2cdaxk+/ft58ycw34/gCiuMNj4W/pf26jUbPS/3IJwAGfeB6bPVORdXruIoAg==.sig.ed25519"
 }
