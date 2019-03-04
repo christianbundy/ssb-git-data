@@ -1,20 +1,21 @@
 {
-  "previous": "%cMie56W0funUjIIEA8tV7CL7L1L/95CaSQpuo7ejHEM=.sha256",
+  "previous": "%TjjK9AUcyEtCaB/YackBPWhViVDQDm4EBnajATrOaZg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9168,
-  "timestamp": 1551740074816,
+  "sequence": 9169,
+  "timestamp": 1551741604587,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bpcZO7V5aaWuJqfR67euG+aEWDwx5MfD68gbPF0Cs+E=.sha256",
-    "branch": "%UlD1uLtBIEpLr1VohVPzBacixKqDEEwaEr1j4jX1j5w=.sha256",
-    "text": "[@Vitor](@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519) \n\nYou might like a source-based distribution like Gentoo. You'll have to compile all of your software locally, but you'll only have to download new source code rather than new binaries.",
+    "root": "%jYK6YXJTvyvs75sI8jsKCjI1VBFYGkmkaaWxsIDc+Mo=.sha256",
+    "branch": "%jYK6YXJTvyvs75sI8jsKCjI1VBFYGkmkaaWxsIDc+Mo=.sha256",
+    "channel": "ssb-learning",
+    "text": "[@David Wales](@S8P2cAzZ7DkP5j6T7RjVa9GXhkLAnoz9q3tY6Ja60+M=.ed25519) \n\nI was just looking into this! My intuition is *absolutely yes*, but I haven't had the time to write a tool that takes `~/.ssb/secret` as input and produces and ASCII-armored GPG key to import.",
     "mentions": [
       {
-        "link": "@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519",
-        "name": "Vitor"
+        "link": "@S8P2cAzZ7DkP5j6T7RjVa9GXhkLAnoz9q3tY6Ja60+M=.ed25519",
+        "name": "David Wales"
       }
     ]
   },
-  "signature": "yml4o8CjTkZ6p22Mn3pe6BZPCb7k15mL0zrQKB79EjgeplpzTCdmnfTpxq4SnJHRPMAQAbPmRhTgqrZNhY78BA==.sig.ed25519"
+  "signature": "LO7T6OR7xwcqDOm3KfOZb8XymLgUWrrmx7MpTKLKg4OO7sFfz3ALDSPMFzBMC+emvUyr0oykh4eYYOrrRP0OAA==.sig.ed25519"
 }
