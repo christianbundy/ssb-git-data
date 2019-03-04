@@ -1,20 +1,21 @@
 {
-  "previous": "%m+mZHoL8hKRQbr0BGo5Nnh1lwpsGvt74hau9SD7oLK0=.sha256",
+  "previous": "%SZ1GO9wG7Ies/sTNR1BqiasC+5TSW1sz9y798ybR6ms=.sha256",
+  "sequence": 9163,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9162,
-  "timestamp": 1551731904192,
+  "timestamp": 1551731954384,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
-    "branch": "%+5DTboyad551b0Rlt4KyjnqKOw+GaCuktDSgDdJO1Oo=.sha256",
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nThat's exactly what I was envisioning, thanks for the link! Do you know the status of that plugin? I can install and enable it, but I'm not sure whether that means I'll start peering with other ssb-tunnel users out of the box.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
+    "type": "vote",
+    "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "vote": {
+      "link": "%DY7iDMdx32OqZfLrr8UkIBnzDM9swgSXRHyIlbzGc+o=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%C47TW19JU5htajwjTIfgtFCZq2UXwcF4PLnxEXqjUaU=.sha256",
+      "%U6pFSAzgIX5SJ57RwDFqhfSRCcqBsx7VjmtW5BBhEVo=.sha256"
     ]
   },
-  "signature": "FKLBXs23NvnNUhd1GISPSAO0iMQuQI2ZsJjZOAhtofiu+mtcLm68igZcFzc4pDRUs5j+ZMYyLm+IbSq2Be7BAA==.sig.ed25519"
+  "signature": "PHnx36S8RDcAflWsOepEtK2ACkXXGMxauMwGKTFWGwHM9LrhgnZ4LX5XCehoL1hK96AG50dQcR5NdMgUft69Dg==.sig.ed25519"
 }
