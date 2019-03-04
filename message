@@ -1,20 +1,20 @@
 {
-  "previous": "%4xVJ80Ee9vb+h9ugEgrP47U+fMniGhTtbRKQbLzuC5E=.sha256",
+  "previous": "%m+mZHoL8hKRQbr0BGo5Nnh1lwpsGvt74hau9SD7oLK0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9161,
-  "timestamp": 1551731728966,
+  "sequence": 9162,
+  "timestamp": 1551731904192,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
-    "branch": "%G6r9d7IW8fISNRXlo7tYFHCkQEJsu1+vZ6taT1qHVC8=.sha256",
-    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) \n\nDamn, I *just* had to resolve a [race condition](https://github.com/ssbc/ssb-blobs/pull/13/files) because of that event emitter, I was hoping that wasn't going to be the new way of doing things. Do you know if there's any documentation on why these changes were made? The only way to hunt bugs is `grep -R 'multiserver:listening'`, which reminds me of depject.\n\nThanks for providing those links, I'll look into them now.",
+    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
+    "branch": "%+5DTboyad551b0Rlt4KyjnqKOw+GaCuktDSgDdJO1Oo=.sha256",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nThat's exactly what I was envisioning, thanks for the link! Do you know the status of that plugin? I can install and enable it, but I'm not sure whether that means I'll start peering with other ssb-tunnel users out of the box.",
     "mentions": [
       {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ]
   },
-  "signature": "21LBtazsyLpjkeTMIdHvnHjkc+AjDtnOHi2P71hmr7kcnRJ9CtIKv7jI4Fzheh23pPNpo2EU2pGGk3hExTH9CA==.sig.ed25519"
+  "signature": "FKLBXs23NvnNUhd1GISPSAO0iMQuQI2ZsJjZOAhtofiu+mtcLm68igZcFzc4pDRUs5j+ZMYyLm+IbSq2Be7BAA==.sig.ed25519"
 }
