@@ -1,14 +1,20 @@
 {
-  "previous": "%LpQVBG1g2YOzAdxVbRkpmZgyfvxwMHWURkzW2uwNUts=.sha256",
+  "previous": "%4xVJ80Ee9vb+h9ugEgrP47U+fMniGhTtbRKQbLzuC5E=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9160,
-  "timestamp": 1551730097771,
+  "sequence": 9161,
+  "timestamp": 1551731728966,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
-    "branch": "%r6svpbs8bm6Obk1wS1y3tZ2OR8Xdgp5AMYLkz86gBs8=.sha256",
-    "text": "Another update: I've merged a PR that removes these special privileges and released the result as ssb-ws@6.0.0. Please ping me if you have any trouble updating, as I'd *love* to get everyone running ssb-server@latest.\n\nAlso, I can confirm that ssb-ws does work with ssb-server since we have [a test](https://github.com/ssbc/ssb-ws/blob/master/test/index.js)!"
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "branch": "%G6r9d7IW8fISNRXlo7tYFHCkQEJsu1+vZ6taT1qHVC8=.sha256",
+    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) \n\nDamn, I *just* had to resolve a [race condition](https://github.com/ssbc/ssb-blobs/pull/13/files) because of that event emitter, I was hoping that wasn't going to be the new way of doing things. Do you know if there's any documentation on why these changes were made? The only way to hunt bugs is `grep -R 'multiserver:listening'`, which reminds me of depject.\n\nThanks for providing those links, I'll look into them now.",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      }
+    ]
   },
-  "signature": "4XhBxe0eOgCw3hPR1hUuXc78YBgKe3lWwDPS8t4OWocNwoK7bfIXKQnAr4DZyeRnojQlsHZewf1uRn3My3nmDg==.sig.ed25519"
+  "signature": "21LBtazsyLpjkeTMIdHvnHjkc+AjDtnOHi2P71hmr7kcnRJ9CtIKv7jI4Fzheh23pPNpo2EU2pGGk3hExTH9CA==.sig.ed25519"
 }
