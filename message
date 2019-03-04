@@ -1,20 +1,17 @@
 {
-  "previous": "%ireH/xvWcZoOgF1Oj0bywofPa3A27y46jy7QhMq+rj8=.sha256",
+  "previous": "%WGZHGiIoEkkxSFX9tJx/SG/XhhBemhJaYkzOOWCGF2Q=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9153,
-  "timestamp": 1551722790115,
+  "sequence": 9154,
+  "timestamp": 1551724576544,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ireH/xvWcZoOgF1Oj0bywofPa3A27y46jy7QhMq+rj8=.sha256",
-    "branch": "%0+SPnHrh+/e9opnfs2BCsV9hIDCVNkIWd9PKQXWgIgY=.sha256",
-    "text": "[@ev](@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519) \n\nThanks for the sanity check. It looks like `{ keys }` might actually be getting ignored by ssb-config, which would explain a few hours of me banging my head against the wall on the ssb-ws repro code. I was wondering why none of my keys worked!\n\nHere's a more minimal repro:\n\n```js\nconst ssbConfig = require('ssb-config/inject')\nconst ssbKeys = require('ssb-keys')\n\nconst keys = ssbKeys.generate()\nconst config = ssbConfig(Math.random().toString(16), { keys })\n\nconsole.log(keys.public)\nconsole.log('vs')\nconsole.log(config.keys.public)\n```\n\n```console\n$ node example.js\ncjso793P3FmXfHFE6h+Ji4qRWEhLUFoQrrcodLWLJow=.ed25519\nvs\naZmUau7MXDQJFKRUswLvVZ/I0C5t0NdL9nLADQkakC4=.ed25519\n```\n\nI've created an issue for it and I'll plan on pushing a PR to fix it (and add a test (!)) today.",
-    "mentions": [
-      {
-        "link": "@8Qee0I/DwI5DHSCi3p5fsl6FyLGArrnDz3ox9qZr5Qc=.ed25519",
-        "name": "ev"
-      }
-    ]
+    "branch": [
+      "%4lmDffifqZsbCJrnObzZm7JL5vR3d5GRjEGAE9aElNo=.sha256",
+      "%sIfKXttCc78xTHi3Y3pAVnke0Xdmup4jMmOuy8/fMkI=.sha256"
+    ],
+    "text": "Resolved by [this PR](https://github.com/ssbc/ssb-config/pull/45).\n\n🎉"
   },
-  "signature": "8srZsOZ3fVKufdYIKSkce2USIHWizvu4gx4qN9/gj2WFSNt6RCBOQ4UQooyPmNhfrQJomJXzhE4ez2uEwIgBAw==.sig.ed25519"
+  "signature": "9FlUjl5wwueDlEl/g7u70uMX3MtqDLgmL7e3IZE2MV+puhUqNfnmnmaVz2gdjj0fI5w7v16zDayw6BlhTbxVBQ==.sig.ed25519"
 }
