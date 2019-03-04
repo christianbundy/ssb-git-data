@@ -1,13 +1,24 @@
 {
-  "previous": "%iTf9M+mXV60qE4s0ngcy7qtJfjZ34Cxy/uol+zDSLpg=.sha256",
+  "previous": "%BfEQaZ61ejMm0j9PJcr0b9BSMzSkzHKiN6xx0k+Pmv8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9156,
-  "timestamp": 1551727476411,
+  "sequence": 9157,
+  "timestamp": 1551727636533,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@XnF41TCo35BNrQOQnw0BWDm2HE3lpccDrlYS/MmgYfU=.ed25519",
-    "name": "miles"
+    "type": "post",
+    "root": "%lPTvlvFSyZnTUbQk+rEjis0L6cuf87hAOFXTWGpT8GQ=.sha256",
+    "branch": "%M+fb3oBuy7uFKC5w1V7ERdeW2DoeucVS4kkcOf9NP+0=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) \n\nFWIW, I'm now having the same problem where `ssbClient` needs to be wrapped in `setImmediate` when the server is bound to localhost. An optional callback seems reasonable to me, is that our best option?\n\n> currently, it returns a close function.\n\nSorry, I'm missing context here -- what returns a close function? I've tried `ssbServer(config)()` but it complains that it isn't a function.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
+        "name": "regular"
+      }
+    ]
   },
-  "signature": "LPEMZtdYrLrya0sHDQGGl6IgixsHwq2W/k4Yqg3YltZXzNzy9gZ+EZP/F84lx0y2KeQ7QtbVmpt2XfOBjEzeDQ==.sig.ed25519"
+  "signature": "ocm74KHHLEMDnDEFhQzIMbhVMeJ2eoaHpRkpd9Z8Fix+yjSTzLWOrwnmD4fVJnLfsGAGEJjEpEbglrlypzB7DQ==.sig.ed25519"
 }
