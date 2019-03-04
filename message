@@ -1,21 +1,14 @@
 {
-  "previous": "%Symz6UZXsQUp3TDGbeeseCBX7mDV/dVw5eh1t4+owks=.sha256",
-  "sequence": 9159,
+  "previous": "%LpQVBG1g2YOzAdxVbRkpmZgyfvxwMHWURkzW2uwNUts=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551729703089,
+  "sequence": 9160,
+  "timestamp": 1551730097771,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%31xETMTN1+hiPv52HgNmZwF6GyJYJz9HQ8tHHTwidp0=.sha256",
-    "vote": {
-      "link": "%g0VQ8cV+kHLFQcsy6kJs6O0QPbQXrlKK7/BlvwBZZr4=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%g0VQ8cV+kHLFQcsy6kJs6O0QPbQXrlKK7/BlvwBZZr4=.sha256",
-      "%xjxvJ5tYK9AirYOGl8WFVgcT77ZDksHhjENKC8FP0GU=.sha256"
-    ]
+    "type": "post",
+    "root": "%I6FaCzdXcKAiZp0LVhwVluDeDkhNPGQXEqNEkUFLq34=.sha256",
+    "branch": "%r6svpbs8bm6Obk1wS1y3tZ2OR8Xdgp5AMYLkz86gBs8=.sha256",
+    "text": "Another update: I've merged a PR that removes these special privileges and released the result as ssb-ws@6.0.0. Please ping me if you have any trouble updating, as I'd *love* to get everyone running ssb-server@latest.\n\nAlso, I can confirm that ssb-ws does work with ssb-server since we have [a test](https://github.com/ssbc/ssb-ws/blob/master/test/index.js)!"
   },
-  "signature": "RyOcRG7mLAX+30GgTLKJ4/pUabeECJgZxJzs+IHZC7ZrzMIIN3UMb/Gyw9oqLPAx+5ZcGTzgAr24LOtvkF94DA==.sig.ed25519"
+  "signature": "4XhBxe0eOgCw3hPR1hUuXc78YBgKe3lWwDPS8t4OWocNwoK7bfIXKQnAr4DZyeRnojQlsHZewf1uRn3My3nmDg==.sig.ed25519"
 }
