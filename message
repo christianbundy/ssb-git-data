@@ -1,20 +1,15 @@
 {
-  "previous": "%Yd5qf+4RQ/lEv0w31Qv0mxcwtmd/aNVGJUTatpSdr9o=.sha256",
-  "sequence": 9179,
+  "previous": "%J6L4+m4HT9hBjaqu11ICbKfQmVHBP56+YB8wwt3MkYk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551813719138,
+  "sequence": 9180,
+  "timestamp": 1551816255420,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
-    "vote": {
-      "link": "%UfPs8u6lczYqQgECCxxBpZWeVIU9ve3gwPjNb2ZbICQ=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%Yd5qf+4RQ/lEv0w31Qv0mxcwtmd/aNVGJUTatpSdr9o=.sha256"
-    ]
+    "type": "post",
+    "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%7WCfx6VG3+oLulWavLlXXKwDtuXz//ZHhGTblYmJcKo=.sha256",
+    "channel": "markup",
+    "text": "Maybe silly, but I'd specifically be interested in *why not HTML*? It's true that HTML is scary from a security perspective because you can do all sorts of naughty things, but assuming we can trust our HTML renderer not to run scripts (\\*sigh\\*) then it seems like a not-super-terrible markup language, especially for hypertext."
   },
-  "signature": "Uay4z9LgpSS/oPXfYt/jetw0h1z9hqmjhz1okNdC7LUB+eaRkv6Et/M8UTRQHQcpsrACnuaSI0lTDXA3oI4pAg==.sig.ed25519"
+  "signature": "/UAM2n1kNeG2Ha6OrvdTBFBxMdfRu529i8H7WM+HpZRr2r28ED+/RYLPG2aGNTGJZU/NASKgoHdBW6+p4pMYBw==.sig.ed25519"
 }
