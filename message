@@ -1,20 +1,22 @@
 {
-  "previous": "%05fI1oTvz1IM37CbcH7H54Md9dKpjrFdEFUx2CaJKLk=.sha256",
+  "previous": "%l/NZh8gbgn4XVEyb9LKA5eJvzNRnBbnr4r+2f9AhymY=.sha256",
+  "sequence": 9183,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9182,
-  "timestamp": 1551821227775,
+  "timestamp": 1551822340756,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bpcZO7V5aaWuJqfR67euG+aEWDwx5MfD68gbPF0Cs+E=.sha256",
-    "branch": "%NPIcTjdo7MoM5j1F5PNnSwLT58G83NbM3vsUIrmq9vY=.sha256",
-    "text": "[@Vitor](@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519) \n\nFor what it's worth, I just started a Docker container with Gentoo on it and ran `emerge --sync` to check for updates. I'm unclear on how many days of updates this includes, but:\n\n```\nNumber of files: 163,948 (reg: 136,365, dir: 27,583)\nNumber of created files: 189 (reg: 188, dir: 1)\nNumber of deleted files: 138 (reg: 132, dir: 6)\nNumber of regular files transferred: 553\nTotal file size: 222.18M bytes\nTotal transferred file size: 6.95M bytes\nLiteral data: 6.95M bytes\nMatched data: 0 bytes\nFile list size: 3.67M\nFile list generation time: 0.001 seconds\nFile list transfer time: 0.000 seconds\nTotal bytes sent: 40.63K\nTotal bytes received: 11.04M\n\nsent 40.63K bytes  received 11.04M bytes  119.81K bytes/sec\ntotal size is 222.18M  speedup is 20.05\n```",
-    "mentions": [
-      {
-        "link": "@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519",
-        "name": "Vitor"
-      }
+    "type": "vote",
+    "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "vote": {
+      "link": "%7oIEmIOpbzLOn+Fz+Yi3Sl7eH9TgYIShNVW2jF6ayYk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%7oIEmIOpbzLOn+Fz+Yi3Sl7eH9TgYIShNVW2jF6ayYk=.sha256",
+      "%XGj7vUPp0nkdF7T/pWKcISyOo6m6p2TeacAUKiOsdTI=.sha256",
+      "%yUnRQIHORANU0mCKWizwILKVElKJHLkZIEKdyyE9oKM=.sha256"
     ]
   },
-  "signature": "qXh6k2oMQnDkZcoHJ01hq2AtUaeKRke46yeyF+1YA0u6K8+AKb+TRIoCWnGqvST/WfNxMhaOVImd4xa+Oh3TBA==.sig.ed25519"
+  "signature": "0KSk5uhlHgtNP4JOd9JLUSl8JWjfUrYO/ZwdFIX9vKHSPT9hLAUTMBrrI1tD8monfSHw2YGWlq/j0op/DnTcAQ==.sig.ed25519"
 }
