@@ -1,14 +1,20 @@
 {
-  "previous": "%uMG7cPj5Wh1ntFKDCzc+kr5GZQZtGK7xV1aoX4sziVM=.sha256",
+  "previous": "%Azig4ENVGpMAI0zMOcMjdr6gkXETO0mJVhxaAFDTgWo=.sha256",
+  "sequence": 9187,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9186,
-  "timestamp": 1551822626250,
+  "timestamp": 1551822696417,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bpcZO7V5aaWuJqfR67euG+aEWDwx5MfD68gbPF0Cs+E=.sha256",
-    "branch": "%l/NZh8gbgn4XVEyb9LKA5eJvzNRnBbnr4r+2f9AhymY=.sha256",
-    "text": "Actually, I think that might be *all* of the source code, which is absolutely tiny compared to Arch Linux. For example, here's `pacman -Syu` since yesterday:\n\n```\nPackages (22) at-spi2-atk-2.30.1-1  at-spi2-core-2.30.1-1  ffmpeg-1:4.1.1-2  gst-plugins-good-1.14.4-2  haskell-hledger-lib-1.14-1  hledger-1.14.1-1  hledger-web-1.14-1  imagemagick-7.0.8.32-1\n              libmagick-7.0.8.32-1  libsecret-0.18.8-2  libvirt-5.1.0-1  libvpx-1.8.0-1  linux-5.0.arch1-1  linux-docs-5.0.arch1-1  linux-headers-5.0.arch1-1  pavucontrol-1:4.0-1  perf-5.0-1  sshfs-3.5.1-2\n              totem-plparser-3.26.3-1  vlc-3.0.6-8  xine-lib-1.2.9-8  youtube-dl-2019.03.01-1\n\nTotal Download Size:   149.40 MiB\nTotal Installed Size:  486.91 MiB\nNet Upgrade Size:        8.00 MiB\n```\n\nThis is a bit large because it includes Linux, but still -- that's a huge download size compared to Gentoo."
+    "type": "vote",
+    "root": "%he8mMdcrcps0Q74gMuZRDqDVXZcxqT9+R5r/cikay8s=.sha256",
+    "vote": {
+      "link": "%he8mMdcrcps0Q74gMuZRDqDVXZcxqT9+R5r/cikay8s=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%he8mMdcrcps0Q74gMuZRDqDVXZcxqT9+R5r/cikay8s=.sha256"
+    ]
   },
-  "signature": "ldcft51YpJ7+ZZWCik+Xcey1si7wkk2qb4WdSiOWLZ+9v1CO+oqr6D1oT93diy07CJTbPFeW1Iu/t/nRdCl7CQ==.sig.ed25519"
+  "signature": "3XXcvt3lopgQ4pkbIgRWsq5LdZgWV9atkTV6XbFHH6ccx9YffPm93q7m25skrumHfY/QrxppTIu6EPdDd05/Dw==.sig.ed25519"
 }
