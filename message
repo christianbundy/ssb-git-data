@@ -1,20 +1,20 @@
 {
-  "previous": "%LMGDZwnA88Kzj/ZPFsh683qo7GSpVYQMk/AqXGQUY38=.sha256",
+  "previous": "%J+gaLK/7ojeeyDFb5qUTRjIvvXk0Sk5o87mo5562Aq0=.sha256",
+  "sequence": 9196,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9195,
-  "timestamp": 1551827578238,
+  "timestamp": 1551840300542,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
-    "branch": "%JlCw7xVnxo3L9w68li1NUxwFy4KImzRwtK/igEZg3MY=.sha256",
-    "channel": "markup",
-    "text": "Strong support on specifying the media type in our messages. 👍\n\nBacklink: %ATSOHf+zZomndm/JkoPkioQKwWgjQrNRhnXvA0aGRgA=.sha256",
-    "mentions": [
-      {
-        "link": "%ATSOHf+zZomndm/JkoPkioQKwWgjQrNRhnXvA0aGRgA=.sha256"
-      }
+    "vote": {
+      "link": "%PkcaXyPZhAy/YtxWAVv52scQvq+jcsgvq8gNQmUVigg=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%V1TWKDtaZ+uO1Ac8AGIUhkF3RusD39MHFq/xMFkAPts=.sha256"
     ]
   },
-  "signature": "lVRuWtMgppRZMBtXzCMXBhZbSpGdAQ1sT/8Y/GjaKdVtWoIwHw+kReA3Mri+DI86aQ4+dDtyyqK61f2gV5EHBA==.sig.ed25519"
+  "signature": "U0dQfLhrn0CK4R+bHEMVmOBu9CihMYehaXeMhzlHC9XnwHc3fBnN1VOyCiSSm8STGUkX0m4GFblwY1ndDsBIDA==.sig.ed25519"
 }
