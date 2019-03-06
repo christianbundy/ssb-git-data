@@ -1,12 +1,22 @@
 {
-  "previous": "%sLvqkK/RxpcIsHS/zSz3uEsPxWfyBowK+U2MUx9UM5Q=.sha256",
-  "sequence": 9210,
+  "previous": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551916679367,
+  "sequence": 9211,
+  "timestamp": 1551916763669,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# ssb-compose: an experiment in writing messages\n\nI've been super hyped on a handful of things lately and I've been feeling tempted to smash them all together and try to make something interesting. The result is a tiny web app that runs locally and lets you compose messages with immediate feedback from ssb-markdown.\n\nIt's super simple *and* it works -- I'm using it right now!\n\n- Type text into a simple `<textarea>`.\n- Immediately see the results in a live-updating preview pane.\n- Click \\\"publish\\\" and your text will be posted to Scuttlebutt.\n\nI think I've been spending time trying to unravel implementation hairballs and **it's super refreshing to write something small from scratch**. Sure, it lacks all sorts of features (images, autocomplete, the `mentions` property, auto-save, and others), but it felt good to build and I wanted to share. I'll post a screenshot from a normal client and push up the source once it's a bit less broken.\n\nI'm about to hit \"publish\", wish me luck!\n\n🙃"
+    "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
+    "branch": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
+    "text": "![screenshot of ssb-compose, a simple webpage with a markdown input and output and a publish button](&EdMspWjCSf+j3SJjTM7FZpuPBMVPxmPZ5H/EwfcsvbE=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&EdMspWjCSf+j3SJjTM7FZpuPBMVPxmPZ5H/EwfcsvbE=.sha256",
+        "name": "screenshot of ssb-compose, a simple webpage with a markdown input and output and a publish button",
+        "type": "image/png",
+        "size": 240721
+      }
+    ]
   },
-  "signature": "teuUe/lCB2gU/gRm24t3E0+RWo/YSM/qoPBjAbpfJiZaLkAu7q8322h0jjjNqr8CyGurA8wmXQsmvre+kIR6Cg==.sig.ed25519"
+  "signature": "hjfu80a0zRpHc+4+M2uoLrU7DUQyiCyezjr7Taq+ZRXDqLBn870KFdLkpt2bp52+QjLbrbnJirYb4/jm/VR3Dw==.sig.ed25519"
 }
