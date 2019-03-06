@@ -1,21 +1,23 @@
 {
-  "previous": "%tszaKi8XQRm65h8OPthZ0ovnh0Nx9e1LOcbg90K927k=.sha256",
-  "sequence": 9201,
+  "previous": "%nbU+Nx7kjw9BUSr3VZfsJymF5LWz6BW3TTU5473FRh4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551893408390,
+  "sequence": 9202,
+  "timestamp": 1551894581318,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%XgJxPJ/28QLzWtF4wQ8yAoiMDtBXRvuKWK7RlR9z5Zo=.sha256",
-    "vote": {
-      "link": "%eiKrmE4/BiSuxeikuA063FnML3mAAgK8GeiYAWEZT/A=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%bpcZO7V5aaWuJqfR67euG+aEWDwx5MfD68gbPF0Cs+E=.sha256",
     "branch": [
-      "%8Dl9Si0sSb44l+cAPsb5RGaOdZGSnmHcYvGDKDd4U1o=.sha256",
-      "%eiKrmE4/BiSuxeikuA063FnML3mAAgK8GeiYAWEZT/A=.sha256"
+      "%Azig4ENVGpMAI0zMOcMjdr6gkXETO0mJVhxaAFDTgWo=.sha256",
+      "%GdmnZ8NyHXj8RY5BrWhlP5+U5bR/FTUAAiBrTBpfEFE=.sha256"
+    ],
+    "text": "[@Vitor](@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519) \n\nI thought it was, but now that I'm reading more about it I'm coming to the understanding that that's just the ebuild files (like PKGBUILD). Many/most/all of these give you the option of using Git rather than downloading a tarball during the build, but it seems to me that your options are:\n\n- bleeding-edge git version\n- downloading release tarballs\n\nBoo. There *must* be a distro that lets you keep the full source in a Git repo but still lets you build releases rather than following `master` -- right?! ",
+    "mentions": [
+      {
+        "link": "@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519",
+        "name": "Vitor"
+      }
     ]
   },
-  "signature": "KJ/kvF8IqYmmBzO/WYzc9x1SHKjYBCtzyRtCVkWhe1BAACbf5Yq85zfy/bkV0uyAqybjzInJ4YfvZfGAIErMCQ==.sig.ed25519"
+  "signature": "LFq9k9nucjiElQ8TQmAYX9fUapNujfcm2IK7Hta8UdNpvmFVtwI7qs4QYpHxrVhZlpYOShBUX8mlNstkqQMRCw==.sig.ed25519"
 }
