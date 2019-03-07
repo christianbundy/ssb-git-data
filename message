@@ -1,20 +1,14 @@
 {
-  "previous": "%htejsCxDGMdwnXRhlstcuMP1Mb7VUsH9cUKXSvmsgbc=.sha256",
-  "sequence": 9214,
+  "previous": "%+HPNByCUzPTFREEOTd4vd1uxLzDxbNGCbANA3DQ5c2k=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1551917196522,
+  "sequence": 9215,
+  "timestamp": 1551918741873,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%DCytGowS4bI9Ljb71BCXJhzq3CZWhPCmw/8m8XsZMig=.sha256",
-    "vote": {
-      "link": "%DCytGowS4bI9Ljb71BCXJhzq3CZWhPCmw/8m8XsZMig=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%htejsCxDGMdwnXRhlstcuMP1Mb7VUsH9cUKXSvmsgbc=.sha256"
-    ]
+    "type": "post",
+    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
+    "branch": "%xDNnrlQBMj/ihVdoH6Mzk+KagUwY1K/ZLhYna4uqUcU=.sha256",
+    "text": "I love Tor and cjdns, although admittedly I haven't tried I2P. My issue with them is that most people don't have them installed, and until the Scuttlebutt onboarding process is more user-friendly I can't imagine adding a step that says \"install Tor and ensure that the SOCKS proxy is running\" or something similar. Maybe there's a way to package it with Electron (?!) but I'm just unclear on how I'd start a Tor server from inside Patchwork.\n\nThere's also the issue of root access, where I'd *personally* be uncomfortable giving my client root access so that it can modify `/etc/cjdroute.conf`. Maybe that would be a micro-app in a different process?"
   },
-  "signature": "PyPcx0KDO48KHAjj7YvBMOHTP3S3utbwjcQU6ExT4YcYSuhhVqvReFBgaHok5VoFEVmV2lGOrZMM/aq3XojwDg==.sig.ed25519"
+  "signature": "ROfVxv62LBDIY6IYbeUzuZ6WW98jPp5538Xr5ATefCzgMwPKoXuE3wFGK13RnoSBZenLlOj9Pi0OWk0vXrNqAg==.sig.ed25519"
 }
