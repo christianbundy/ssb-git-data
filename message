@@ -1,14 +1,15 @@
 {
-  "previous": "%+HPNByCUzPTFREEOTd4vd1uxLzDxbNGCbANA3DQ5c2k=.sha256",
+  "previous": "%/KlKWWLkXcOVpdjTyH4I6o6pZyTobcak/Ntc7A5bcms=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9215,
-  "timestamp": 1551918741873,
+  "sequence": 9216,
+  "timestamp": 1551919738587,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Mi10Mjl3RQ/5RBIgg40U/sNszIYvFTrfC7mrleiQX2I=.sha256",
-    "branch": "%xDNnrlQBMj/ihVdoH6Mzk+KagUwY1K/ZLhYna4uqUcU=.sha256",
-    "text": "I love Tor and cjdns, although admittedly I haven't tried I2P. My issue with them is that most people don't have them installed, and until the Scuttlebutt onboarding process is more user-friendly I can't imagine adding a step that says \"install Tor and ensure that the SOCKS proxy is running\" or something similar. Maybe there's a way to package it with Electron (?!) but I'm just unclear on how I'd start a Tor server from inside Patchwork.\n\nThere's also the issue of root access, where I'd *personally* be uncomfortable giving my client root access so that it can modify `/etc/cjdroute.conf`. Maybe that would be a micro-app in a different process?"
+    "root": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%56E4RPoVZCxqBPCmLhvaJ0drLC/amVgD1GtNSQQc4Y8=.sha256",
+    "channel": "markup",
+    "text": "A few things I learned about today that may be of note: there's an editor framework called [slate](https://github.com/ianstormtaylor/slate) which has a similar schema based on the DOM (sans HTML). They have great docs, and when reading about their [schemas](https://docs.slatejs.org/guides/schemas) and [data model](https://docs.slatejs.org/guides/data-model) I was reminded of atjson.\n\nIt looks like both JS and the DOM may already have ways of making cross-boundary selections (e.g. \"h1 and half the first paragraph\"? This is news to me, but I'm excited that this problem can be tackled in a few different ways."
   },
-  "signature": "ROfVxv62LBDIY6IYbeUzuZ6WW98jPp5538Xr5ATefCzgMwPKoXuE3wFGK13RnoSBZenLlOj9Pi0OWk0vXrNqAg==.sig.ed25519"
+  "signature": "Piy5oOOCWmfnzno/fWLfoMabmiUoCRdq4jYmDveiZt8YILACt8E90Ht/cyE1mOLPruMAvLskSgZDhRed1chuBw==.sig.ed25519"
 }
