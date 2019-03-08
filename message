@@ -1,14 +1,21 @@
 {
-  "previous": "%g7QMVnkVb7e+4nitXLxRjIdqjX8yjxvn9xvWm5dkp5E=.sha256",
+  "previous": "%ZqeO32cTHV+r0MKE5ygJU4DInBJjhxl4P0l0SzuSzcI=.sha256",
+  "sequence": 9233,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9232,
-  "timestamp": 1552065678058,
+  "timestamp": 1552087242426,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%dDbdJFR8zYyeGan2bS3AOhlto9dQZaPrY6N4VAP2UlI=.sha256",
-    "branch": "%dDbdJFR8zYyeGan2bS3AOhlto9dQZaPrY6N4VAP2UlI=.sha256",
-    "text": "I don't think so, but I'd love mute lists. For example, many conversations on Scuttlebutt often revolve *around* Scuttlebutt, and so I'd love to temporarily mute those topics so that Scuttlebutt isn't just a social network for Scuttlebutt devlopment."
+    "type": "vote",
+    "root": "%exwUExa/XN5cU4DRjB9665aiS57inPYaW7Espb5ue7M=.sha256",
+    "vote": {
+      "link": "%+cPWjL4AyApUIAEYFOap77kPqgfuMvCD5JrdMPyWeoI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%CpvUutuzdnAQatfQyp8BqHfwDHFhLxvmYPXrNPenZEE=.sha256",
+      "%MJNio23wd5ej2qRL6npu8tYOizTYUkKKtOmmLKb3GBY=.sha256"
+    ]
   },
-  "signature": "5kkpmM0WFRPmt0SlbGyqWLIZbNnMxIx6jNmi8Zsw5GZ0X6YkkOOcgkgyyAGazJLyLeJTNDSWePILW46/EVj4Cg==.sig.ed25519"
+  "signature": "mJJ/cHs0CcBST/HLJjIzC2j0oqQThn2qTnTlFpri9HKj257BwYWkEBDMQGFqpOLvnwDU6IDUkz9fDkdNudNCBA==.sig.ed25519"
 }
