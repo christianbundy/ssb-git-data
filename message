@@ -1,20 +1,17 @@
 {
-  "previous": "%2941A3jQx1nku7eoO1qyL35FbqPFIaWGway82g01sRA=.sha256",
-  "sequence": 9230,
+  "previous": "%v/E4vEBWvXCdxsY2GM1IyMbUDE0R69lvRkbbmK/s/x0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1552065049761,
+  "sequence": 9231,
+  "timestamp": 1552065573836,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%KOtol7kdWoO4qGJFXYXVLwdEMWjortDEUE5pFCUnby4=.sha256",
-    "vote": {
-      "link": "%cgoIP8oDRC8SJ06zjB6wLfciEVJJOVs3IA9oN9jkcZw=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
+    "type": "post",
+    "root": "%exwUExa/XN5cU4DRjB9665aiS57inPYaW7Espb5ue7M=.sha256",
     "branch": [
-      "%2941A3jQx1nku7eoO1qyL35FbqPFIaWGway82g01sRA=.sha256"
-    ]
+      "%nqPjTWIOurPLrhjVpLHbqx35hoUe/oOpXRHD5HE4jWA=.sha256",
+      "%pDfoe8jalZWuB7Ay+u7h30BTruqyptATuQiSmAxwET0=.sha256"
+    ],
+    "text": "This looks great!\n\nIn the future could we increase this so that we take up as many of the 8192 bytes as possible? This would mean that the first message on a thread just says \"here is the unbox key that we'll use in the thread\" to set up the group, followed by a second message with the actual content that's meant to be sent."
   },
-  "signature": "K0O3/JvkPA3ZexUAcfD+CRcUv7mK91FvxW86ulwg59YPtWGWACrhQE84klzQYXL98p+IAkukYNIr0nHetc0nBQ==.sig.ed25519"
+  "signature": "jp4USHNc+EgajMHW96dpRyGKJgzwEbKuhCAD4JjJx8sJsVZBynDJHkK5wg8q+5LU5hY39C2at6fvZUXCq0WFBQ==.sig.ed25519"
 }
