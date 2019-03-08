@@ -1,23 +1,14 @@
 {
-  "previous": "%TPqQFVpF133KI9Plkr2DfKYfqvGJofwIU96CWnWQE3s=.sha256",
+  "previous": "%xBaCtfIxM2LcG5t3xkDI7s4a7x1AFobxexIa7E/VQlc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9222,
-  "timestamp": 1552007573241,
+  "sequence": 9223,
+  "timestamp": 1552009360551,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
-    "branch": "%1rCex/ePpqmphTHtFd2WHTYRaKDPsgsMtoyvrfDcTzc=.sha256",
-    "text": "Published! You can [view the source](https://github.com/fraction/ssb-compose) or test drive it with `npx ssb-compose`.\n\nIt does *not* play nicely with other clients, so unfortunately you'll have to close your client to be able to play with it.\n\ncc: [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) feeling heavily inspired by #hacky-art!",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "#hacky-art"
-      }
-    ]
+    "branch": "%xBaCtfIxM2LcG5t3xkDI7s4a7x1AFobxexIa7E/VQlc=.sha256",
+    "text": "**Warning:** The current version circumvents the key problem by opening `http://localhost:8000?secret=<yourkeyhere>`. Anyone with access to your raw browser history **will** have access to your private key. I'd strongly recommend against:\n\n1. Sending your browser history to others (e.g. Google)\n2. Running ssb-compose if you send your browser history to others"
   },
-  "signature": "ZP871BK6QPNqsVL/nCJ5XbZHibX0LeBqbIe4XqywB4D59g2gg7MdRsDSuKRSO/6CNyWA+8VNWekNdSBdKh/4Bw==.sig.ed25519"
+  "signature": "kZpoKqvHJX+8GRvTUSmpt6B6FvCYdvuF/xGVJACMzFMedqolXJUX4BY1tomHQZrZrQ8JCLXoxQ4vgtVySj9NAA==.sig.ed25519"
 }
