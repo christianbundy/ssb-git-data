@@ -1,14 +1,20 @@
 {
-  "previous": "%fzb+UEIHwPRHxHr1RQafaqCEscBknrw22yyn625xhZE=.sha256",
+  "previous": "%8JNYzVUnyK7dqfJ4XRQrcR8XWl/GdVtQB9HczQU4yso=.sha256",
+  "sequence": 9225,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9224,
-  "timestamp": 1552014227241,
+  "timestamp": 1552020940482,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
-    "branch": "%fzb+UEIHwPRHxHr1RQafaqCEscBknrw22yyn625xhZE=.sha256",
-    "text": "Resolved! Now the server opens a browser window to a long URL with a random token ([example](http://localhost:8000/?4f3d8447ba843fe44a8388bdc2c4b13bf9f166250e9fc961f340fffe750752376c5b7b1788f67383d90b1926803cefb40175d1d5d89213b5eee857750bc44762afe946dc9eadaae2cf1af8ca85aa0cf5be0f951dc3b3667d6fae4be983197ecef481d3d9558a3f2dc7dda25977354f30e4a9d8d331cf94671d9aeab2c2f04b5d5b45ef77ad31d58d05cd4a362b47d4b1312a4a4dcd66e19884fca249858a25197a0290fa1de002bdd94f337f847bcc94519f610f2258d706512f344266edbfcf8e318da1a726df03d4be866559c9568432052525b7572a454e14e13e8e1a6fa0bd3e746b1ee8d1649b403661aef147bbf8efec8269f8c1321caa135f78ad8473)) and passes your keys with `<script>` when a browser makes a request to that URL. If a browser makes a request to any other URL, it gets HTTP 401 unauthorized.\n\nThis gives us some decent security without passing the keys via URL or requiring that you use a file input."
+    "type": "vote",
+    "root": "%PG6jv+e8bl4s7yDkrzAa+BSWnHsgXktrjsrM8BX+ArI=.sha256",
+    "vote": {
+      "link": "%PG6jv+e8bl4s7yDkrzAa+BSWnHsgXktrjsrM8BX+ArI=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%eGfI5bcZ49dRKff1jIzE4ywUJy9vLSQVWXeJHTGYrvI=.sha256"
+    ]
   },
-  "signature": "/HJv37zgvIa+Ru0tH/6Q1mo1rrYTtMfxEgKKJJFaW2MeTBDa16aQ3APNMuCO4oqk3gEUXZCxFLP95ckMVtduCQ==.sig.ed25519"
+  "signature": "86Nd7AbPJ6u87qJJs3YxOQP/PY5Ch3Hu+aJMjyk8KQBMDk3ooKoeHA9uHtbHiqe+6hkWAB+c7K4eg2PEcXgcDA==.sig.ed25519"
 }
