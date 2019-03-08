@@ -1,14 +1,14 @@
 {
-  "previous": "%xBaCtfIxM2LcG5t3xkDI7s4a7x1AFobxexIa7E/VQlc=.sha256",
+  "previous": "%fzb+UEIHwPRHxHr1RQafaqCEscBknrw22yyn625xhZE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9223,
-  "timestamp": 1552009360551,
+  "sequence": 9224,
+  "timestamp": 1552014227241,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
-    "branch": "%xBaCtfIxM2LcG5t3xkDI7s4a7x1AFobxexIa7E/VQlc=.sha256",
-    "text": "**Warning:** The current version circumvents the key problem by opening `http://localhost:8000?secret=<yourkeyhere>`. Anyone with access to your raw browser history **will** have access to your private key. I'd strongly recommend against:\n\n1. Sending your browser history to others (e.g. Google)\n2. Running ssb-compose if you send your browser history to others"
+    "branch": "%fzb+UEIHwPRHxHr1RQafaqCEscBknrw22yyn625xhZE=.sha256",
+    "text": "Resolved! Now the server opens a browser window to a long URL with a random token ([example](http://localhost:8000/?4f3d8447ba843fe44a8388bdc2c4b13bf9f166250e9fc961f340fffe750752376c5b7b1788f67383d90b1926803cefb40175d1d5d89213b5eee857750bc44762afe946dc9eadaae2cf1af8ca85aa0cf5be0f951dc3b3667d6fae4be983197ecef481d3d9558a3f2dc7dda25977354f30e4a9d8d331cf94671d9aeab2c2f04b5d5b45ef77ad31d58d05cd4a362b47d4b1312a4a4dcd66e19884fca249858a25197a0290fa1de002bdd94f337f847bcc94519f610f2258d706512f344266edbfcf8e318da1a726df03d4be866559c9568432052525b7572a454e14e13e8e1a6fa0bd3e746b1ee8d1649b403661aef147bbf8efec8269f8c1321caa135f78ad8473)) and passes your keys with `<script>` when a browser makes a request to that URL. If a browser makes a request to any other URL, it gets HTTP 401 unauthorized.\n\nThis gives us some decent security without passing the keys via URL or requiring that you use a file input."
   },
-  "signature": "kZpoKqvHJX+8GRvTUSmpt6B6FvCYdvuF/xGVJACMzFMedqolXJUX4BY1tomHQZrZrQ8JCLXoxQ4vgtVySj9NAA==.sig.ed25519"
+  "signature": "/HJv37zgvIa+Ru0tH/6Q1mo1rrYTtMfxEgKKJJFaW2MeTBDa16aQ3APNMuCO4oqk3gEUXZCxFLP95ckMVtduCQ==.sig.ed25519"
 }
