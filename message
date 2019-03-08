@@ -1,20 +1,23 @@
 {
-  "previous": "%NXoejHfDn1cz2KjT7w2P19QYJDfdv9Sjlm9XKqWqNIE=.sha256",
-  "sequence": 9221,
+  "previous": "%TPqQFVpF133KI9Plkr2DfKYfqvGJofwIU96CWnWQE3s=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1552005687202,
+  "sequence": 9222,
+  "timestamp": 1552007573241,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%aI3lZvsG0De1UJpb5ibNauTc9SRE/VwmHlKNpZZRxd4=.sha256",
-    "vote": {
-      "link": "%aI3lZvsG0De1UJpb5ibNauTc9SRE/VwmHlKNpZZRxd4=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%aI3lZvsG0De1UJpb5ibNauTc9SRE/VwmHlKNpZZRxd4=.sha256"
+    "type": "post",
+    "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
+    "branch": "%1rCex/ePpqmphTHtFd2WHTYRaKDPsgsMtoyvrfDcTzc=.sha256",
+    "text": "Published! You can [view the source](https://github.com/fraction/ssb-compose) or test drive it with `npx ssb-compose`.\n\nIt does *not* play nicely with other clients, so unfortunately you'll have to close your client to be able to play with it.\n\ncc: [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) feeling heavily inspired by #hacky-art!",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "#hacky-art"
+      }
     ]
   },
-  "signature": "tIc+YuYF9qY4m/6nJObKsL17cDYuLr5Tx8uNdmpSET98Yax1tuVUxBOwLAKkAg9fudB2w/YdolWsbuMGnnj6DA==.sig.ed25519"
+  "signature": "ZP871BK6QPNqsVL/nCJ5XbZHibX0LeBqbIe4XqywB4D59g2gg7MdRsDSuKRSO/6CNyWA+8VNWekNdSBdKh/4Bw==.sig.ed25519"
 }
