@@ -1,21 +1,20 @@
 {
-  "previous": "%LGZKd5y2to56onBUXv8pZvZLuUX3T7S1pLYYOUPX5s0=.sha256",
+  "previous": "%gdd08+q2SoeyeyhBmbYLy81d38/1zHeulxsPt4x1m80=.sha256",
+  "sequence": 9237,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9236,
-  "timestamp": 1552160099359,
+  "timestamp": 1552161372684,
   "hash": "sha256",
   "content": {
-    "type": "post",
+    "type": "vote",
     "root": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
-    "branch": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
-    "channel": "ssb-markdown",
-    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nI'd be happy to help! We use [markdown-it](https://github.com/markdown-it/markdown-it), and it looks like we just need to add the `typographer` option to the markdown-it config. I think that's going to be in both `lib/block.js` and `lib/inline.js`. Please ping me if you run into trouble!",
-    "mentions": [
-      {
-        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
-        "name": "polylith"
-      }
+    "vote": {
+      "link": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%JkCizZXuxcX7EnHQCT+vTEIOLeEf8ELqvj+5B8/ozK4=.sha256"
     ]
   },
-  "signature": "28ivjr1pcI8vHO9WyVYHJ+RJJUz7Ne6+fcx/7gwAAbi2DRJ4d5Tzfi6av/9DwPyfezMNVj5H7vsdCJemNmxXDw==.sig.ed25519"
+  "signature": "HFIjia3JywX2NWDR+fjhc2+0CNKRlIeghXUF6n0i75FhWlU5zlMFS+2nNyKOdShrvaK8spkzoEZCREzFXt0cCg==.sig.ed25519"
 }
