@@ -1,20 +1,21 @@
 {
-  "previous": "%Q2WjTaSpBYnb45mGRIUbLZJYweXHwf74t0Xc7DJkMk8=.sha256",
-  "sequence": 9235,
+  "previous": "%LGZKd5y2to56onBUXv8pZvZLuUX3T7S1pLYYOUPX5s0=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1552150475739,
+  "sequence": 9236,
+  "timestamp": 1552160099359,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%ecV0znfx9WfNUdWi5w+nQpP9tRONK0W3raBg4v9/9GA=.sha256",
-    "vote": {
-      "link": "%/Y19LZW1IbVY/le5vDt6o5eGYtTFwuVIHch9i3S0fSg=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%WqJehZElGiJAKMlQeH96UlRErEHB2b117RbxIljAKno=.sha256"
+    "type": "post",
+    "root": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
+    "branch": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
+    "channel": "ssb-markdown",
+    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nI'd be happy to help! We use [markdown-it](https://github.com/markdown-it/markdown-it), and it looks like we just need to add the `typographer` option to the markdown-it config. I think that's going to be in both `lib/block.js` and `lib/inline.js`. Please ping me if you run into trouble!",
+    "mentions": [
+      {
+        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+        "name": "polylith"
+      }
     ]
   },
-  "signature": "rWg2NOo1EtpEquqeVEcPO7eGf8FwprMKfQM+iOLtI3d9RLtVf7ddf19r6e0HEFbsSWTKB/4R6OgjoOnkOIgLBw==.sig.ed25519"
+  "signature": "28ivjr1pcI8vHO9WyVYHJ+RJJUz7Ne6+fcx/7gwAAbi2DRJ4d5Tzfi6av/9DwPyfezMNVj5H7vsdCJemNmxXDw==.sig.ed25519"
 }
