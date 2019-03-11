@@ -1,24 +1,20 @@
 {
-  "previous": "%IohfzCALPoD2UeEX1IDXalCnaxiK6TwXyxrRtr/Afc4=.sha256",
+  "previous": "%w0txUXRQniBtxhO2s6h54x414af9zPKb0A4lwrc4SQY=.sha256",
+  "sequence": 9240,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9239,
-  "timestamp": 1552324672708,
+  "timestamp": 1552326120261,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
-    "branch": "%Uay0VX4mz1hF4jwlUjT1oSVVqXpXWHZR5iLnjF3Uyxk=.sha256",
-    "channel": "ssb-markdown",
-    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nSure! There isn't a formal structure to how contributions are done, so I'll add my understanding and (hopefully!) others will fill in the gaps. Decisions within the SSBC are generally made via [the advice process](http://www.reinventingorganizationswiki.com/Decision_Making#In_practice), so you'll make a proposal and reach out to someone to ask for advice on your proposal. The person reviewing your proposal will usually end their review by:\n\n- Approving your proposal, or\n- Requesting changes, or\n- Asking someone else for their advice\n\nThe simplest form of contribution is reporting a bug or making a feature request like you did in your original post, which is *super* important and always appreciated. If you have more time, proposing a specific change to the source code is a great way to get things done a bit faster.\n\nWe generally review code through GitHub or #git-ssb, but I'll focus on GitHub for now. Please let me know if you'd prefer to use git-ssb -- it's built on top of Scuttlebutt but it's a bit more technical.\n\nFirst you'll want to ensure you're logged into GitHub (creating an account if necessary). Next you'll visit [this page](https://github.com/ssbc/ssb-markdown/blob/master/lib/block.js) and click the pencil icon to edit the file. We're using a framework called markdown-it, and on lines 17-18 you'll see that we have two options called `breaks` and `linkify` enabled. Reading [the markdown-it documentation](https://markdown-it.github.io/markdown-it/#MarkdownIt.new), we can see that there's an option called `typographer` that does the conversions you've mentioned. You'll want to edit the file to add that option so that it looks like this:\n\n```js\nconst md = require('markdown-it')({\n  breaks: true,\n  linkify: true,\n  typographer: true,\n  highlight: function (str, lang) {\n    if (lang && hljs.getLanguage(lang)) {\n      try {\n        return hljs.highlight(lang, str).value\n      } catch (__) {}\n    }\n\n    return '' // use external default escaping\n }\n})\n```\n\nOnce that looks right, you'll scroll to the bottom of the page. There should be two text inputs for the change: a subject line and an optional extended description. In the subject line you'll say something like \"Enable typographer option\", and you can skip the description. Once you click the \"propose file change\" button it will create a GitHub thread about the change (they call this a \"pull request\", I think of it as a \"change request\") that looks [sort of like this](https://github.com/ssbc/ssb-markdown/pull/29) and it'll be added to the review queue.\n\nI'll take a look at the change and do some tests, and assuming that it works then it'll be merged into the code and released! The various Scuttlebutt clients will continue to have the old behavior until a new version is released, but once that happens then all of our messages will have the following changes:\n\n\n- (c) (C) → ©\n- (tm) (TM) → ™\n- (r) (R) → ®\n- +- → ±\n- (p) (P) -> §\n- ... → … (also ?.... → ?.., !.... → !..)\n- ???????? → ???, !!!!! → !!!, `,,` → `,`\n- -- → &ndash;, --- → &mdash;\n\nLet me know if you have any questions! Happy to do a brief call if you'd prefer, I understand that walls of text aren't always the most ergonomic. 🙃",
-    "mentions": [
-      {
-        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
-        "name": "polylith"
-      },
-      {
-        "link": "#git-ssb"
-      }
+    "type": "vote",
+    "root": "%ZcMuxlIqVVOZBwNqsVrnvdb/wGwbgu7ZmsK7tUzUVFE=.sha256",
+    "vote": {
+      "link": "%ZcMuxlIqVVOZBwNqsVrnvdb/wGwbgu7ZmsK7tUzUVFE=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%A63n7KbASU+I8/yjxKpwgqEPdGrn5QnK1eoqgEJ38uA=.sha256"
     ]
   },
-  "signature": "BwPF+8Wzbr7sb8KyHWL2SstHNvqbuLgHZgaMok7c9lhF1PoAMpmP/JBNzUVdpAXLwBKb7OUcx/fBhhTIPPvFDg==.sig.ed25519"
+  "signature": "8lvt9yv9hy+VdD1Ee4wGpM/2V07IAP9zWSp5dKC2J51JqI5o5NTVNC43xHe9kWEby3WJqb3B+WMAvaBINIeQDA==.sig.ed25519"
 }
