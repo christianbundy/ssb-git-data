@@ -1,24 +1,21 @@
 {
-  "previous": "%iZneuoTgLFQD2p2EVqdFCd/rRf6nfZeNy8UKQxwpu9E=.sha256",
+  "previous": "%60SRSuUwI6kYl9rfgQcnLVxGz3bcWjqwa6E/xV+ffEk=.sha256",
+  "sequence": 9258,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9257,
-  "timestamp": 1552408125957,
+  "timestamp": 1552410279590,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%50f6/z/dNKSC8nn0sS0YKBUxaUgCzxJJjmfZzFphFy4=.sha256",
-    "branch": "%L+tyDDpcq7Klh8OpPsVwa3h44aycPp//zpIyCEuLzB0=.sha256",
-    "text": "[@Tom Coates](@7A2ZxHX+WyIVezulnt0FogzeUVWLq3YHmtX3r7ja4Fw=.ed25519)\n\nI think you're right -- I was thinking about logos like the one [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) linked, which have an icon on the left and a word on the right, but you're right that the icon/symbol isn't \"the logo\" in general.\n\nContext: I've been feeling inspired by [Low-tech Magazine](https://solar.lowtechmagazine.com/), which mentioned in [this article](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html) that they've replaced their logo with a series of unicode characters:\n\n> ## Default typeface / No logo\n>\n>All resources loaded, including typefaces and logos, are an additional request to the server, requiring storage space and energy use. Therefore, our new website does not load a custom typeface and removes the font-family declaration, meaning that visitors will see the default typeface of their browser. \n>\n>We use a similar approach for the logo. In fact, Low-tech Magazine never had a real logo, just a banner image of a spear held as a low-tech weapon against prevailing high-tech claims.\n>\n>Instead of a designed logotype, which would require the production and distribution of custom typefaces and imagery, Low-tech Magazine’s new identity consists of a single typographic move: to use the left-facing arrow in place of the hypen in the blog’s name: LOW←TECH MAGAZINE.\n\nI thought this was sort of clever, and was wondering why logos have a canonical form as an image rather than a series of unicode characters and an optional font. I'm thinking about this in terms of progressive enhancement, where text-only users might see your logo as \"⚙ Widget Factory\" and everyone else would see it with your custom font.",
-    "mentions": [
-      {
-        "link": "@7A2ZxHX+WyIVezulnt0FogzeUVWLq3YHmtX3r7ja4Fw=.ed25519",
-        "name": "Tom Coates"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
+    "type": "vote",
+    "root": "%zy1rB14YAwIfL1wtpVCbcStkiGV3BICpShbMwxCVjlM=.sha256",
+    "vote": {
+      "link": "%WOBNGzGgMQ3clYkPjvSuo1RGxCQsZuM0o9PtBuKRHXk=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%WOBNGzGgMQ3clYkPjvSuo1RGxCQsZuM0o9PtBuKRHXk=.sha256",
+      "%v+8FPIPafr46hclLRWvP0SZFNxbGlgKmmQMeBrFlLn8=.sha256"
     ]
   },
-  "signature": "WmKmuyKPYZid1Uc4CyoZVHAh9wGiGXGiFm75o5gnzw3ybQshbbA6eA1pkj+UXlyp2azLKn3vyVETHdLQ2C7LCQ==.sig.ed25519"
+  "signature": "HCBK6jCFktIWTiioyJhOVcYcFI3FD9r/CnROP4hS7QJe8faynGvR+ZRjrVuxasxXGqczpycelqqCVW5U0UelAg==.sig.ed25519"
 }
