@@ -1,24 +1,20 @@
 {
-  "previous": "%wHMz5bi27lqSe9Vccy4SH13SGv7M/1f8z9ROJdj/yx8=.sha256",
+  "previous": "%8bWgf+FlFvLQYRoUftaDTqmWNGKP6cbqr5F7RBpZFpg=.sha256",
+  "sequence": 9270,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9269,
-  "timestamp": 1552416832880,
+  "timestamp": 1552422057383,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%O6CRUW+Ugeysdmlxs3i4EcpNf3g++eyNf4SwGEXuU7Q=.sha256",
-    "branch": "%/6rHIXP0TbUYxmE3EMeFu+kF5ykJTprtMe0WwK1CSec=.sha256",
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)\n\nNo problem. I think the \"how am I supposed to decrypt it\" question illustrates a current bug with Patchwork, which [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) is working on [here](https://github.com/ssbc/patchwork/pull/946). Sorry you're dealing with this bug currently. :/ ",
-    "mentions": [
-      {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      }
+    "type": "vote",
+    "root": "%50f6/z/dNKSC8nn0sS0YKBUxaUgCzxJJjmfZzFphFy4=.sha256",
+    "vote": {
+      "link": "%PjNPEy0Iapds5ovKDDxlDue/gz1YVmJqBOo4UFEz/KA=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%VpVLMns2oFgXjdQ4pwFbmTRYj/jQfOajYzIEKwibPug=.sha256"
     ]
   },
-  "signature": "25bIFNrf3OELraB2KH+xFeryY93jdlNgw8XCXiGJX5ydV9P8rWWuWdJ7jYvaHYCi4G+SyB1xlTlTLspjZ+aABA==.sig.ed25519"
+  "signature": "P2iIu7KAGpg/+a8cBA4O3CATIUbDSRhF1mHvGPhkipOtgxr0fQC6Fz5Q+0s3p8Gd3IAaoHMRF1fTdoFaQFA+CQ==.sig.ed25519"
 }
