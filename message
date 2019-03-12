@@ -1,20 +1,20 @@
 {
-  "previous": "%WxUk/JwhYOpqClC0/d44QXs4pd9e1+oZsCNQtKpsOwU=.sha256",
-  "sequence": 9267,
+  "previous": "%Z5vL5uDOgMjwoR0UuAn88uKBkdGFxQuB/67HNI/2HDg=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1552410302404,
+  "sequence": 9268,
+  "timestamp": 1552416130910,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%zQMFraWhs6pVv7Mw3VzslXDsLLTEgy3mYdKMKsus1aw=.sha256",
-    "vote": {
-      "link": "%lhVUuIG4zl87BRwfpT+Nj3h3YKLiF/Rr0vE/YUgjW5g=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%WxUk/JwhYOpqClC0/d44QXs4pd9e1+oZsCNQtKpsOwU=.sha256"
+    "type": "post",
+    "root": "%O6CRUW+Ugeysdmlxs3i4EcpNf3g++eyNf4SwGEXuU7Q=.sha256",
+    "branch": "%52XoFi7FpRo6IC68Hr3p5Oa2UN0zVqPlseSEHhWdoRc=.sha256",
+    "text": "Hey [@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)!\n\n1. Yes, I believe that the blob is encrypted with the same key that the message is encrypted with.\n2. If it's a public blob, then it already exists. You can run `sha256sum foo.png` to get the hash and then find it at `~/.ssb/blobs/sha256/`.\n3. You can attach any file, but it's only a \"security hole\" if you can get someone to run the file. This is the same scenario as the web, where anyone can upload a virus but nobody is forced to download or run it.\n\nWhich client are you using?",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "PinkMoff"
+      }
     ]
   },
-  "signature": "aZ/Cgp7QUIk3RrvB3a2ePUjzn8zv6QIp0IC9JANWE1MQ9Rnit7cGpCJpCFhYzSzuUQ8cU/wed1D4IqEBJsWNCQ==.sig.ed25519"
+  "signature": "yZB+19S7H4GyraQjxbvZX1MqPGcbhJEQXdUUcajYhqw8xNJuZJoVTXbWwhb4r8GVfKphyaFB/sJ3aP/YbIbEBw==.sig.ed25519"
 }
