@@ -1,20 +1,20 @@
 {
-  "previous": "%8bWgf+FlFvLQYRoUftaDTqmWNGKP6cbqr5F7RBpZFpg=.sha256",
-  "sequence": 9270,
+  "previous": "%N1+blR0ScfjG+cOlSDVU6cxxIUl3v151RDs9uC+ydZc=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1552422057383,
+  "sequence": 9271,
+  "timestamp": 1552428933973,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%50f6/z/dNKSC8nn0sS0YKBUxaUgCzxJJjmfZzFphFy4=.sha256",
-    "vote": {
-      "link": "%PjNPEy0Iapds5ovKDDxlDue/gz1YVmJqBOo4UFEz/KA=.sha256",
-      "value": 1,
-      "expression": "heart"
+    "type": "post",
+    "root": "%IZ8mcA3870iBJ7vQ4rB5q90g0afpttQIPeSyA4/vMvM=.sha256",
+    "branch": "%IZ8mcA3870iBJ7vQ4rB5q90g0afpttQIPeSyA4/vMvM=.sha256",
+    "reply": {
+      "%IZ8mcA3870iBJ7vQ4rB5q90g0afpttQIPeSyA4/vMvM=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
     },
-    "branch": [
-      "%VpVLMns2oFgXjdQ4pwFbmTRYj/jQfOajYzIEKwibPug=.sha256"
-    ]
+    "channel": "village-tracker",
+    "recps": null,
+    "text": "## ssb-handbook\n\n- **how would you rate the current state of the documentation out of 10?** 1\n- **is it clear what this is used for?** No, the readme is the index page of the handbook so there's no documentation *for* the handbook itself.\n- **is there api documentation?** no\n- **read code, do you see any undocumented methods?** no\n- **for a method are there any undocumented options?** no\n\nI'm unclear on how I should add documentation here, since the readme is actually getting rendered as part of the website. I'll need to look into gitbook to try to understand how to `mv readme.md index.md` or something so that the handbook can have a readme that isn't just the index of the webpage.\n\n## ssb-server\n\n- **how would you rate the current state of the documentation out of 10?** 8\n- **is it clear what this is used for?** yes!\n- **is there api documentation?** yes! in both the readme *and* in `api.md`\n- **read code, do you see any undocumented methods?** yes, `.use()`, but that's documented in secret-stack -- should we be documenting *any* methods in ssb-server? it seems like we're mostly just passing through ssb-db + plugins and secret-stack.\n- **for a method are there any undocumented options?** yes, `getAddress()` takes an optional `scope` argument, but that's also a secret-stack thing\n\nI have weird feelings about ssb-server in general. It doesn't have any API of its own, but it exposes ssb-db + plugins + secret-stack, plus a CLI, and the readme has lots of Scuttlebutt-specific links that seem like a better fit for ssb-handbook IMO.\n\n## ssb-ooo\n\n- **how would you rate the current state of the documentation out of 10?** 9\n- **is it clear what this is used for?** yes!\n- **is there api documentation?** yes!\n- **read code, do you see any undocumented methods?** nope!\n- **for a method are there any undocumented options?** sort of, the `timeout` option is documented in the readme but doesn't actually get respected by the code\n\n---\n\nhttps://github.com/ssbc/ssb-handbook/issues/120\nhttps://github.com/ssbc/ssb-ooo/issues/5",
+    "mentions": []
   },
-  "signature": "P2iIu7KAGpg/+a8cBA4O3CATIUbDSRhF1mHvGPhkipOtgxr0fQC6Fz5Q+0s3p8Gd3IAaoHMRF1fTdoFaQFA+CQ==.sig.ed25519"
+  "signature": "Kuvcq993DDgKhzvGI/uYy8Q/+yGgsqeGC+uLlgEO9vHxk9Qzr3wc/5Dt8NU9t4/foR7gO+skBxKe4iQYKxMuDQ==.sig.ed25519"
 }
