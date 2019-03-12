@@ -1,20 +1,24 @@
 {
-  "previous": "%Z5vL5uDOgMjwoR0UuAn88uKBkdGFxQuB/67HNI/2HDg=.sha256",
+  "previous": "%wHMz5bi27lqSe9Vccy4SH13SGv7M/1f8z9ROJdj/yx8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9268,
-  "timestamp": 1552416130910,
+  "sequence": 9269,
+  "timestamp": 1552416832880,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%O6CRUW+Ugeysdmlxs3i4EcpNf3g++eyNf4SwGEXuU7Q=.sha256",
-    "branch": "%52XoFi7FpRo6IC68Hr3p5Oa2UN0zVqPlseSEHhWdoRc=.sha256",
-    "text": "Hey [@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)!\n\n1. Yes, I believe that the blob is encrypted with the same key that the message is encrypted with.\n2. If it's a public blob, then it already exists. You can run `sha256sum foo.png` to get the hash and then find it at `~/.ssb/blobs/sha256/`.\n3. You can attach any file, but it's only a \"security hole\" if you can get someone to run the file. This is the same scenario as the web, where anyone can upload a virus but nobody is forced to download or run it.\n\nWhich client are you using?",
+    "branch": "%/6rHIXP0TbUYxmE3EMeFu+kF5ykJTprtMe0WwK1CSec=.sha256",
+    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)\n\nNo problem. I think the \"how am I supposed to decrypt it\" question illustrates a current bug with Patchwork, which [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) is working on [here](https://github.com/ssbc/patchwork/pull/946). Sorry you're dealing with this bug currently. :/ ",
     "mentions": [
       {
         "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
         "name": "PinkMoff"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
       }
     ]
   },
-  "signature": "yZB+19S7H4GyraQjxbvZX1MqPGcbhJEQXdUUcajYhqw8xNJuZJoVTXbWwhb4r8GVfKphyaFB/sJ3aP/YbIbEBw==.sig.ed25519"
+  "signature": "25bIFNrf3OELraB2KH+xFeryY93jdlNgw8XCXiGJX5ydV9P8rWWuWdJ7jYvaHYCi4G+SyB1xlTlTLspjZ+aABA==.sig.ed25519"
 }
