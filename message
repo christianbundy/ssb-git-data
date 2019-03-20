@@ -1,17 +1,26 @@
 {
-  "previous": "%6yau0/XR1fRra+F7JJ4MFbIRpwUYqO7aDpf+tH9G4lc=.sha256",
-  "sequence": 9350,
+  "previous": "%sr3x0fA+CuLApJJthgs032P22huGLfoZx9oBHEgo4t4=.sha256",
+  "sequence": 9351,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553049031735,
+  "timestamp": 1553091404029,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%W+Cnwubj0wN+DboLy0hOmVw3CL4oirZ2H631Tdx6iko=.sha256",
+    "branch": "%jjD68gNWhTZ6I4OqUUdWZi9IiG/zEiPHs+9scWilDiY=.sha256",
+    "reply": {
+      "%W+Cnwubj0wN+DboLy0hOmVw3CL4oirZ2H631Tdx6iko=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%jjD68gNWhTZ6I4OqUUdWZi9IiG/zEiPHs+9scWilDiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%OIaI1ujwBts4+pN3RFsewLSQxplTCLqvkk0aQ9hTCwQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nGood idea! In Patchwork everything looks the same, I haven't tried Patchbay though.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "/aj1s2jw7/XfGNYHpZhC0SkfPnN04ZFpwnW65TdAA1D255WPRPqrYWS++AXWGIGab1hwFMvmNtxY0BRvJo3nBg==.sig.ed25519"
+  "signature": "bBATK5YygfDrKTecbMFg7UISTOEsepvNxaYCfVpHkJJaI4FlNbn496+GvhKIYNHeZ9tOUk6Y+S/cf8JAHr+NDQ==.sig.ed25519"
 }
