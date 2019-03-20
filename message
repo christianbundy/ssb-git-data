@@ -1,17 +1,29 @@
 {
-  "previous": "%XmNxLkKR3nLirul8NcH8W0OTJzXrMoqaomtYUKLT3+0=.sha256",
-  "sequence": 9289,
+  "previous": "%qfO3xO79wLarEw99HnKNHSfTrhs6G5nwOuK+XpHFL0c=.sha256",
+  "sequence": 9290,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046791845,
+  "timestamp": 1553046793302,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "nerdpoetry",
-    "vote": {
-      "link": "%F9Jmy+ZvpsUFUqBkHHtCBLAWCqaljVdgezIEAsnETG0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%KMUa/fhKygGr8Eb8/ajt5WzYorTo4c0aZwTIaG8nhg4=.sha256",
+    "branch": [
+      "%PuaNUEvUBU8TbDh69s5YL2jsXVubJ7u59X6Wn6BM+os=.sha256",
+      "%Sp72TI/y6+HO8WCPx/enn0+fXVvMSUZkbu1BzizZItQ=.sha256"
+    ],
+    "reply": {
+      "%KMUa/fhKygGr8Eb8/ajt5WzYorTo4c0aZwTIaG8nhg4=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%0R0aPyiyJ/umyRzMOVuUwDSTN951pKiTE2x/H6nk8pI=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519"
+    },
+    "channel": "design",
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nI need one!\n\nI was talking to a friend this morning about how I'd love an adjustable standing desk adapter, but all of the ones I found were expensive and *really* I'd like to use one with an open source (/creative commons) design. I checked Thingiverse, saw [this thing](https://www.thingiverse.com/thing:2618543), and got super excited when I read:\n\n> Designed and prototyped in the Hackland Hackspace, Auckland NZ\n\nI about lost my mind when I saw that the author was you. This looks great! \n\nHave you made any upgrades or run into any pain points while using this? I was surprised to see those curves on the rear board, are those decorative or structural?",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "pCaDUaYEnZruc4DZW8REzi7I4HJBTzqAnXfx2RieIcTdju+j7rFL9cUkRKnLFiPyIRMS5K2H8kI0xrNf3ApKAA==.sig.ed25519"
+  "signature": "H9xhGNSc19FuGweI6Wu9fThGQzcaUN8vWoqNfXtP5GWnD2CNg4w8EqNwWjtMaiaDu5ebZfcCstvPqYhu/5uJDA==.sig.ed25519"
 }
