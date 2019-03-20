@@ -1,30 +1,21 @@
 {
-  "previous": "%YrOq1WdwOeiVF6kEJi48WsAMVcsDoPG/f6YFfxUh9uY=.sha256",
-  "sequence": 9342,
+  "previous": "%OSgg24SKrqS/M0I4q2T0d0oAJCxRPiJhYLZYszcFppk=.sha256",
+  "sequence": 9343,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047030058,
+  "timestamp": 1553047031462,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256",
-    "branch": [
-      "%T2uJGJInyFxRBCL5M/vQwLs6Nu2feamBoDzV6tv62wM=.sha256",
-      "%mYV3NgHXhkL8Nd5Q6I7mECVJ5f0WuCH2aBprefIAUMI=.sha256",
-      "%uDMPzu+03RGqhaL5MkiZFuAewpsrfka4zCaBDvyrprQ=.sha256"
-    ],
+    "branch": "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256",
     "reply": {
       "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-      "%mYV3NgHXhkL8Nd5Q6I7mECVJ5f0WuCH2aBprefIAUMI=.sha256": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519"
+      "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nHave you already seen [ssb-exporter](https://github.com/arj03/ssb-exporter)? I think this may do what you're looking for, but I'm not completely sure.\n\n```sh\n# export all posts from your database into a simple JSON file\n./export-data.js -e feeds.json\n\n# import posts from a simple JSON file into your database\n./import-data.js feeds.json\n```",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ]
+    "text": "Oops, it looks like that should be `feeds` rather than `feeds.json` -- I think it exports a directory, not a file. My only experience with this has been my [one pull request](https://github.com/arj03/ssb-exporter/pull/2).",
+    "mentions": []
   },
-  "signature": "ww+5SGOZ2WxgQJjO6E5UbryDuxX8UmcS09dpF6aJuzJDrLuyKA0yGLKOiHjQ6N0GSsupWh4ecvP/kp37vjSsDQ==.sig.ed25519"
+  "signature": "Ovgy37lSUsDeIjoquDX+6beHKNiOElrEckwpZZbxQ7X1Uqj2XoH6EmIj48aN4RJa5er1/1xcU8nmODh225ZIBA==.sig.ed25519"
 }
