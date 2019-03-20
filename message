@@ -1,17 +1,26 @@
 {
-  "previous": "%wPXRgRPGi9gheQjvmoJcyWHyADlPHYjA+qTytjUX+JE=.sha256",
-  "sequence": 9284,
+  "previous": "%70AGfghL6mFZd1WlazdQpo+k0r4nD+bLPz4GB/OsT1s=.sha256",
+  "sequence": 9285,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046780579,
+  "timestamp": 1553046782317,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%vrpA5OoQkHLzbcn3jar3EssTrVJH3B7lvx3MVNr2k20=.sha256",
+    "branch": "%ov3HUYmv9EjSP4geXgSdujURRyRJunLlv7DTedQlYUA=.sha256",
+    "reply": {
+      "%vrpA5OoQkHLzbcn3jar3EssTrVJH3B7lvx3MVNr2k20=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+      "%ov3HUYmv9EjSP4geXgSdujURRyRJunLlv7DTedQlYUA=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
     "channel": "village-tracker",
-    "vote": {
-      "link": "%fewhn6Ys9D+M57KH740z9dgyJuLt7LHDqf7o9wkDYgY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "^ cc: [@Vitor](@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519)",
+    "mentions": [
+      {
+        "link": "@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519",
+        "name": "Vitor"
+      }
+    ]
   },
-  "signature": "5U/AHro7FJs+s9oICtg4Z6yWFqDHNkpbEW9TZRHAtbELqHI59tsWb7aY2VAA9+XZcpNz/kuhwoDujbVDCmD3AA==.sig.ed25519"
+  "signature": "9uk9HOW9kesvUnSbNznKsdTx6oZcXbYBU1jl5nhjAtPt9WqqH/3cZxM231XufEXaq/pg5cecWCipBNbilXj0Bg==.sig.ed25519"
 }
