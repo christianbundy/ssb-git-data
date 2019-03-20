@@ -1,26 +1,17 @@
 {
-  "previous": "%GNPxG8sTf28+8U0Fg7zRiKsT+LPokBJljl7EB0dqkxI=.sha256",
-  "sequence": 9315,
+  "previous": "%2K2m4wtZcX3xdqLTHFW0QqvRUjz6uAIE1e76hx5yo48=.sha256",
+  "sequence": 9316,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046974295,
+  "timestamp": 1553046977912,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%cODex/4tFLAcxCINJqmfh7z6Rob13Cb2SQGH4xaAKz4=.sha256",
-    "branch": "%cI+GmD/OWuIwpnbau5xvuc0LjoyHuZ2AuIHi+5kCUeY=.sha256",
-    "reply": {
-      "%cODex/4tFLAcxCINJqmfh7z6Rob13Cb2SQGH4xaAKz4=.sha256": "@5fX6QTmue/udf7tLwW25vQ63wZSENrksghBt6vfL4/I=.ed25519",
-      "%cI+GmD/OWuIwpnbau5xvuc0LjoyHuZ2AuIHi+5kCUeY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nYeah, this has always been my hesitation about the current mentions. Maybe we could have a system where authors post *only* the ID and then the Markdown renderer on the client replaces that with the user's preferred nicknames? I don't think it'd be hard at all, it could work the same way we replace message mentions. As long as we have that, I think it would be trivial to use private nicknames.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "channel": "invocation",
+    "vote": {
+      "link": "%TvHdm1eSydkMusiHlMzeiUm7JdgtfmjEZRSr/tR6tRY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "byuWu/qoaBrx8K8Gb/E8o3mfdklK1IVCkItnaFkZESqqEuAC8YBGQymwJvA8XCz8ubmWhHw/kFmwwZnKmgIdBQ==.sig.ed25519"
+  "signature": "vaEvmY6w3Krqk1F2v5vmnmYkOQjDnhab/4St9dUIDtQS0mgGI+g+Fz4JymEM+0LzsrKOrNFdhHwS5DlpkZMcCg==.sig.ed25519"
 }
