@@ -1,16 +1,29 @@
 {
-  "previous": "%8oOo05yyQVcRKn9rGT/XMrUt0/bD6toCgDpFgXRj4nY=.sha256",
-  "sequence": 9332,
+  "previous": "%S5U6k+27wgXnVX24Ve21rVnmEJGoh2rvxw/baZwvhxs=.sha256",
+  "sequence": 9333,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047003909,
+  "timestamp": 1553047008265,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%z7Yjv+JLJkiKIUHfcxz1Rflb6kw7PjePjX+l9AyCRUY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%KwcJiDki/Eu07rh9W5mNw5D1JuSGhS3hwakqX+dMt8M=.sha256",
+    "branch": [
+      "%WcS92RQcS58RXwSWISl8b6YeuMevOmBDJ7w5R0lmFe8=.sha256",
+      "%fXIuYC936YtndBuwf+PmFQNxqWKOPtCu2P6ZglAqxyo=.sha256"
+    ],
+    "reply": {
+      "%KwcJiDki/Eu07rh9W5mNw5D1JuSGhS3hwakqX+dMt8M=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+      "%WcS92RQcS58RXwSWISl8b6YeuMevOmBDJ7w5R0lmFe8=.sha256": "@22YV3HX/BGClXH49ZebkcepqRpj7a9f5s0ddwhDSfxk=.ed25519"
+    },
+    "channel": "mesh",
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nDid you end up finding a solid solution to this problem?",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "Im59SBMRPzGLtu5p+fEZ/aL60VIIaI71JLvp9TdOrL7mLN/NrKLBcUS9vZJ7Gh/sNrT0zhTbpeH4vDR/hmIRBw==.sig.ed25519"
+  "signature": "Wesw58oTIS2dxo6fhjreDQ70JjeUtJCezbfLQVZsJU5kjuvAsa5LXJ2MUJucaMbAWuOQDDjJEstl9jBeTtDlDw==.sig.ed25519"
 }
