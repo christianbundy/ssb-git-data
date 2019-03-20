@@ -1,17 +1,26 @@
 {
-  "previous": "%mYVQcljoeKAIiZAxFPYHSnHkfAvw37GXzZEZ35iZ3bc=.sha256",
-  "sequence": 9308,
+  "previous": "%sHfwTKKLeIt+EfQBd6uYV1qRn0dmkDki1BSov1XuJco=.sha256",
+  "sequence": 9309,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046961595,
+  "timestamp": 1553046963232,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bTpsvtrcdiEXqysXpAWvzfKLDeGdbHShKHSPvq/x4iM=.sha256",
+    "fork": "%IXg1vIHQhtQ96GED2sXGQN8Pix4Zl5b4AFqiUXA/EXc=.sha256",
+    "branch": "%bTpsvtrcdiEXqysXpAWvzfKLDeGdbHShKHSPvq/x4iM=.sha256",
+    "reply": {
+      "%bTpsvtrcdiEXqysXpAWvzfKLDeGdbHShKHSPvq/x4iM=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%bTpsvtrcdiEXqysXpAWvzfKLDeGdbHShKHSPvq/x4iM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519) \n\nWow, I've been feeling the same way but I've never seen it articulated in a way that clicked with me. If you know of any resources that touch on the topic or explain it in-depth I'd love if you could forward them my way.",
+    "mentions": [
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      }
+    ]
   },
-  "signature": "1HUPmWHMwJE22kXRKKtOMvZmOTAf4qnQNMtR+RMJML3IkL+b9RPP3oiNi+naJUMKzoJ1jIlr5/ega8WwSv0sAQ==.sig.ed25519"
+  "signature": "ncHuaVS0V/32cgaQyZ0awJ2KzxjEOZaVS/zIAJGZkKh/GoLllBnw7RGShQA9MKhePgP7lTZ6fGIxWBHXBRxgAA==.sig.ed25519"
 }
