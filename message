@@ -1,21 +1,17 @@
 {
-  "previous": "%OSgg24SKrqS/M0I4q2T0d0oAJCxRPiJhYLZYszcFppk=.sha256",
-  "sequence": 9343,
+  "previous": "%EjY6Ms/V1v6Y+Dwh1Gm969sc+18b63SgzFocNEUflsA=.sha256",
+  "sequence": 9344,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047031462,
+  "timestamp": 1553047032872,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256",
-    "branch": "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256",
-    "reply": {
-      "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-      "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Oops, it looks like that should be `feeds` rather than `feeds.json` -- I think it exports a directory, not a file. My only experience with this has been my [one pull request](https://github.com/arj03/ssb-exporter/pull/2).",
-    "mentions": []
+    "type": "vote",
+    "channel": "fixedgear",
+    "vote": {
+      "link": "%4TU1GgloocS9LOIlu6+aaWshs2pmEgjzmzT3AiGOEDc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Ovgy37lSUsDeIjoquDX+6beHKNiOElrEckwpZZbxQ7X1Uqj2XoH6EmIj48aN4RJa5er1/1xcU8nmODh225ZIBA==.sig.ed25519"
+  "signature": "2wgKpYaA3qUa9NIQwuTAIrS9fhY/qn2u6S4RlqRdI0spcAXAEqxiRtrknhzjO4OlnKJ/XNM+iM+Gwdo1fN5BAg==.sig.ed25519"
 }
