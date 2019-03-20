@@ -1,17 +1,18 @@
 {
-  "previous": "%65U8Dafeyz/yHzxzLNNw8Ke6V09ezV5e5zMuz9zEhW8=.sha256",
-  "sequence": 9291,
+  "previous": "%CJh/VPOhMwr9YmOQIt63CXz+N0pTbSnNk8r7w9YZl0M=.sha256",
+  "sequence": 9292,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046794708,
+  "timestamp": 1553046796115,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "design",
-    "vote": {
-      "link": "%cL+syKBPjgXrV3DXtQCMW7omH0eQb1CdtwXP+AXUyfo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nI've been trying to read up on the various observable implementations in JavaScript and noticed that you main both [obv](https://github.com/dominictarr/obv) and [observable](https://github.com/dominictarr/observable). They seem to do similar things, but they have a different API.\n\nIf you have time, could you help me understand the difference between the two and/or when they should be used?",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "TuHlccyxOrAg4VJA1/sAHBC6kAfQxbVMYrMrFdegXo8/xJMtyueBV1LArVt4Mj3KU6Y3MEOaYCELR9ePSXDnCA==.sig.ed25519"
+  "signature": "f5j0M32xKNTtlE6WtxUfPrXL6H8p/0ji56Dlf7rSw0YK2L6J+L0KTnKCgByZJlXXBOk4d18/PXuq85W/lw3dDg==.sig.ed25519"
 }
