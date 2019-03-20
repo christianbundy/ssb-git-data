@@ -1,16 +1,26 @@
 {
-  "previous": "%o7SuAvkaMYCSHEDrkFi8sl8gvk1UIbOdADs4CkvwaDU=.sha256",
-  "sequence": 9297,
+  "previous": "%lFkO4ay4vGW/BpAX03nmGIu1XWeZuqiahzqbT9NJq4g=.sha256",
+  "sequence": 9298,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046944798,
+  "timestamp": 1553046946212,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%GIkUJMtbVy/y1yynSaVVyBrH/SmAfFOlYTihb/dtlkk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%eecc6v8z2hKFzJezsnXMTZjBGvV3Xpzvt+7Dmo//3KA=.sha256",
+    "branch": "%1CwQuMacFmG0D741b46HWcIvrkdCESRDa9FAjkD+qFk=.sha256",
+    "reply": {
+      "%eecc6v8z2hKFzJezsnXMTZjBGvV3Xpzvt+7Dmo//3KA=.sha256": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+      "%1CwQuMacFmG0D741b46HWcIvrkdCESRDa9FAjkD+qFk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@lance](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nNo, it shouldn't show up in /posts but I see the same thing. I'd be happy to merge a fix for it but currently don't have the bandwidth. :/",
+    "mentions": [
+      {
+        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
+        "name": "lance"
+      }
+    ]
   },
-  "signature": "DhGIJtUxnIq1yq1+0nTZCq0VQ6hoxeO1KVQx3x+GNa3iPIDdwmUZgjd2dE0pWudms5oHD9+ZVvN0R29BlDRgDw==.sig.ed25519"
+  "signature": "PBe/R/ovL1HRNMN5Xx4X1/VkjZzlTYuTxilCCU/nMSb1c0/tn8EsIOStYieu7sdp53j5VChlzDAvTjKIVSvZCA==.sig.ed25519"
 }
