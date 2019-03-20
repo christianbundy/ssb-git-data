@@ -1,17 +1,25 @@
 {
-  "previous": "%T6A0RvmbbwQLUSsOKpGk1A6ArHPzsjBD8WFqcT0VfeI=.sha256",
-  "sequence": 9356,
+  "previous": "%9UKv69aooI7kgYnNMm9g+CSOZQfmiQWRJMG1WJUTVpc=.sha256",
+  "sequence": 9357,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553098207168,
+  "timestamp": 1553098993565,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-markdown",
-    "vote": {
-      "link": "%4rCszVznZfoGDIzkhRIDxQvM7GlSL/qzAJbRPJDDP0g=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%L253Slmk3+vYvW+4O+eevNEnuA6I4nOvdddaAwviBvc=.sha256",
+    "branch": "%L253Slmk3+vYvW+4O+eevNEnuA6I4nOvdddaAwviBvc=.sha256",
+    "reply": {
+      "%L253Slmk3+vYvW+4O+eevNEnuA6I4nOvdddaAwviBvc=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519"
+    },
+    "channel": "scuttlebot.io",
+    "recps": null,
+    "text": "[@DavidW](@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519) \n\nMerged, thanks! In the future feel free to ping any of us on GitHub, I don't think I get notifications for lots of repositories.",
+    "mentions": [
+      {
+        "link": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
+        "name": "DavidW"
+      }
+    ]
   },
-  "signature": "Kp/0aWyqjT6MUJvThBSjRmx++lwc/Tm6/AJ0leOTJPWYmEweSG26bDo8baNXn8dTbagQrcZFcwDOtgaL3z+/Bg==.sig.ed25519"
+  "signature": "RseGdY2nQNu72zQaXtplc0EME6JRN2QtKBRdaVwyeAp74nRmhcuGcevoDeynW+ftI9xd2gimtyHJmaXYsxDbBQ==.sig.ed25519"
 }
