@@ -1,41 +1,17 @@
 {
-  "previous": "%UA5WgBikb7rFimD8kCWJ3j6hqdf7QOD9GJqXi+O1Y0s=.sha256",
-  "sequence": 9365,
+  "previous": "%juH8bbQ/AkvsVH29kDxM8xTodEM1TdiXLTFARYoJxx0=.sha256",
+  "sequence": 9366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553107454253,
+  "timestamp": 1553107853342,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%p9lmpwpWCT5GiNYejJDntM8fyBff+t4+TfVUEKq1EKY=.sha256",
-    "branch": [
-      "%mUAxEudFnIEFT5gauDss4j5bcQtr+n8IMm9fb3dY+II=.sha256",
-      "%vN78K4qMkPTiQBto9sF8tRQ9x489+2bkd6OjvZcT07A=.sha256"
-    ],
-    "reply": {
-      "%p9lmpwpWCT5GiNYejJDntM8fyBff+t4+TfVUEKq1EKY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%mUAxEudFnIEFT5gauDss4j5bcQtr+n8IMm9fb3dY+II=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nThanks! I'm excited for this to be accessible for everyone.\n\n---\n\n[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nI think I'd be comfortable with that while rolling a new client, but currently my focus is supporting feed deletion in the existing clients built on flumedb. I *am* super interested in a sqlite flume view though, which could be super nice, and I'm watching [@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)'s work on [ssb-flumeview-sql](https://github.com/sunrise-choir/ssb-flumeview-sql) with lots of excitement and anticipation.\n\n---\n\n[@DavidW](@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519) \n\n> as well as a couple who posted hundreds of messages I had to scroll through\n\nHmm, they *should* be hidden by the client immediately after you block them, but I know that some of the existing clients have bugs. For example, I think the `/posts` view in Patchbay shows content from blocked users.\n\n> Might be worth a warning in the ui if it is really long.\n\nDefinitely, I'm wondering whether we should just make it a manual process but give the user the option to do a manual delete after they block a feed.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
-      },
-      {
-        "link": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519",
-        "name": "DavidW"
-      }
-    ]
+    "type": "vote",
+    "channel": "premium",
+    "vote": {
+      "link": "%dGhbebsL1lsv3Y4Wzdr+5L6e+jwlonaocju+mWXfK/8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "2/kEkgumGPo5FvKqCzD5NVJhd68DXlUHjc0L8BVey4uk81b+cqep7Uvk6TKw9NNzXBcfCqCaZ8tt4s5y32v1CA==.sig.ed25519"
+  "signature": "2temlH8bFl9aw8C+FuV9ptzRJ74/XDdY816jbjcO3+o9xrc6W4L0I8jMFRCLpqfr7L3NyDLdMlY83zJDTsOzAw==.sig.ed25519"
 }
