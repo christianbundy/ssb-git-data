@@ -1,17 +1,25 @@
 {
-  "previous": "%GwZsH/z+Ybzz1lB5i9WcwS6oKT5X/T9tWsq2B0kJE9w=.sha256",
-  "sequence": 9330,
+  "previous": "%L5l5quAdDTyOb66CaBisHmXscePzoTV0Ye0JK+z0148=.sha256",
+  "sequence": 9331,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047000843,
+  "timestamp": 1553047002386,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%k8dl8Bnr/oGcEEizOMa6Ku14FHfgcpJFp0zJ5jqhS18=.sha256",
+    "branch": "%k8dl8Bnr/oGcEEizOMa6Ku14FHfgcpJFp0zJ5jqhS18=.sha256",
+    "reply": {
+      "%k8dl8Bnr/oGcEEizOMa6Ku14FHfgcpJFp0zJ5jqhS18=.sha256": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519"
+    },
     "channel": "sundiy",
-    "vote": {
-      "link": "%k8dl8Bnr/oGcEEizOMa6Ku14FHfgcpJFp0zJ5jqhS18=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519) \n\nHappy to help! What's FPOSAS? Also, does baking bread count as sundiy?",
+    "mentions": [
+      {
+        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
+        "name": "Justin Abrahms"
+      }
+    ]
   },
-  "signature": "M+gAy1/uUIqm9dGmoueQPMCfV/UO1M1k8u7km6lW9ZQSK/J4/vGhzylh2tPH2yFjnU3N4u1xl/9NBDkuYMl3Cg==.sig.ed25519"
+  "signature": "sfRPi6sfUwtYmhYHElXBBFk+WnwmtP8g22IBVaWSMTILvjUEkmK6IXImvxVZu1tlhV1X1LtIzxUxBCdsPTKACA==.sig.ed25519"
 }
