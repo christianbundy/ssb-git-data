@@ -1,20 +1,17 @@
 {
-  "previous": "%qJvjDgk8oefod4fi3ctcfNixzUsczs0+09Phrs5bIZU=.sha256",
-  "sequence": 9349,
+  "previous": "%6yau0/XR1fRra+F7JJ4MFbIRpwUYqO7aDpf+tH9G4lc=.sha256",
+  "sequence": 9350,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047366321,
+  "timestamp": 1553049031735,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256",
-    "branch": "%CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256",
-    "reply": {
-      "%CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "Found a bug! Apparently this message forked my feed six days ago (!) and it took until tonight for me to notice and fix.\n\nHey everyone, happy to be back. 👋",
-    "mentions": []
+    "vote": {
+      "link": "%OIaI1ujwBts4+pN3RFsewLSQxplTCLqvkk0aQ9hTCwQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "zy4OLgwtXU+QzqJKFcVnUdVFwkNb53lSFuSAVx/3hB581CfHmFJXZ1taXLSsA2u2ha1fOQJxWacL/No/jGzSAw==.sig.ed25519"
+  "signature": "/aj1s2jw7/XfGNYHpZhC0SkfPnN04ZFpwnW65TdAA1D255WPRPqrYWS++AXWGIGab1hwFMvmNtxY0BRvJo3nBg==.sig.ed25519"
 }
