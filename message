@@ -1,26 +1,28 @@
 {
-  "previous": "%70AGfghL6mFZd1WlazdQpo+k0r4nD+bLPz4GB/OsT1s=.sha256",
-  "sequence": 9285,
+  "previous": "%UlrOktKEKP56/MbxVoLyDEeDg4wnbGZK7USuobl0bJM=.sha256",
+  "sequence": 9286,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046782317,
+  "timestamp": 1553046783745,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%vrpA5OoQkHLzbcn3jar3EssTrVJH3B7lvx3MVNr2k20=.sha256",
-    "branch": "%ov3HUYmv9EjSP4geXgSdujURRyRJunLlv7DTedQlYUA=.sha256",
+    "root": "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256",
+    "branch": "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256",
     "reply": {
-      "%vrpA5OoQkHLzbcn3jar3EssTrVJH3B7lvx3MVNr2k20=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-      "%ov3HUYmv9EjSP4geXgSdujURRyRJunLlv7DTedQlYUA=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+      "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519"
     },
-    "channel": "village-tracker",
+    "channel": null,
     "recps": null,
-    "text": "^ cc: [@Vitor](@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519)",
+    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)\n\nI haven't read through the code, but my intuition is that this is a reduce function that goes by the latest *received* edit. This sort of thing works fine when you only have one person editing content (e.g. editing your own messages) but I think we'll need #ssb-revisions to save the day when we have multiple people editing the same content. ",
     "mentions": [
       {
-        "link": "@eygl18LeuM8wrwpFm+/DRRxxP2lj1Oc+Ix4McDAQY98=.ed25519",
-        "name": "Vitor"
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      },
+      {
+        "link": "#ssb-revisions"
       }
     ]
   },
-  "signature": "9uk9HOW9kesvUnSbNznKsdTx6oZcXbYBU1jl5nhjAtPt9WqqH/3cZxM231XufEXaq/pg5cecWCipBNbilXj0Bg==.sig.ed25519"
+  "signature": "5aHHUOWuXY3L4vISi5I3a/Fk7mYDibQKvzokGIxtWwamnqeIyyGdLAqCe6bOwf4F0ZwnqRHFz2I2LXLSps7cDg==.sig.ed25519"
 }
