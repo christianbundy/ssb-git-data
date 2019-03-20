@@ -1,17 +1,32 @@
 {
-  "previous": "%XvYppm4XP+xYbJSDdI47+qzP2rioJGU1ljOBAlGWFGM=.sha256",
-  "sequence": 9281,
+  "previous": "%YALz2z8/ML55BeHynExj+jIJpOi4V1opFhHrl3bTZXw=.sha256",
+  "sequence": 9282,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046774812,
+  "timestamp": 1553046776513,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256",
+    "branch": "%rNb+u0jfYVyobb+QyoUax0hjblCRTixvxK6yUBoxdDE=.sha256",
+    "reply": {
+      "%t/qY15KOGcTGEmunfSngD/WVAa0sTU2+cfn9ngN8HOY=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+      "%rNb+u0jfYVyobb+QyoUax0hjblCRTixvxK6yUBoxdDE=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519"
+    },
     "channel": "ssb-markdown",
-    "vote": {
-      "link": "%rNb+u0jfYVyobb+QyoUax0hjblCRTixvxK6yUBoxdDE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519)\n\nSweet, I've merged your code and published it as ssb-markdown@4.1.0. This won't be available in the client until a new release, but I'm running a development version of Patchwork where I can show off a screenshot of my above message after `typographer` was enabled:\n\n![screenshot of my above message with a list of symbols with the typographer option enabled](&B1ZRt3XKbaE2eYnPPHMtAvlRChRxbb7OatE+8G/Cc0A=.sha256)\n\nThanks for the contribution! ",
+    "mentions": [
+      {
+        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+        "name": "polylith"
+      },
+      {
+        "link": "&B1ZRt3XKbaE2eYnPPHMtAvlRChRxbb7OatE+8G/Cc0A=.sha256",
+        "name": "screenshot of my above message with a list of symbols with the typographer option enabled",
+        "type": "image/png",
+        "size": 37645
+      }
+    ]
   },
-  "signature": "0NokForXQZUkeV5j8ZlRG4cCg8mbS/+bh7eaYXCoUvuU42R/NM+baTWoPErheX1+0r4HBSU00p4neTcqUIvzBg==.sig.ed25519"
+  "signature": "xLerZjD6+I9OjGtkSJv930TEV1apJzJ96EzLIjYaz6M+yJxSE33qNtcPACo6A1TYDlVNbG7SsScf9YiMYYVjCQ==.sig.ed25519"
 }
