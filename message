@@ -1,26 +1,25 @@
 {
-  "previous": "%lFkO4ay4vGW/BpAX03nmGIu1XWeZuqiahzqbT9NJq4g=.sha256",
-  "sequence": 9298,
+  "previous": "%KEzg8vz33RSeoPMrDChEFA3NMBTXf+4XMZeim7yBF+Q=.sha256",
+  "sequence": 9299,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046946212,
+  "timestamp": 1553046947615,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%eecc6v8z2hKFzJezsnXMTZjBGvV3Xpzvt+7Dmo//3KA=.sha256",
-    "branch": "%1CwQuMacFmG0D741b46HWcIvrkdCESRDa9FAjkD+qFk=.sha256",
+    "root": "%/atSNQm19t7gxNgN1ylknACN05eRxhzJHH9PjaoQEw4=.sha256",
+    "branch": "%/atSNQm19t7gxNgN1ylknACN05eRxhzJHH9PjaoQEw4=.sha256",
     "reply": {
-      "%eecc6v8z2hKFzJezsnXMTZjBGvV3Xpzvt+7Dmo//3KA=.sha256": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-      "%1CwQuMacFmG0D741b46HWcIvrkdCESRDa9FAjkD+qFk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+      "%/atSNQm19t7gxNgN1ylknACN05eRxhzJHH9PjaoQEw4=.sha256": "@slp4y01vdIpPlljOoXtfJIFb4dg93b+qdxoM1jXERW8=.ed25519"
     },
-    "channel": "patchbay",
+    "channel": "patchwork",
     "recps": null,
-    "text": "[@lance](@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519) \n\nNo, it shouldn't show up in /posts but I see the same thing. I'd be happy to merge a fix for it but currently don't have the bandwidth. :/",
+    "text": "[@makeworld](@slp4y01vdIpPlljOoXtfJIFb4dg93b+qdxoM1jXERW8=.ed25519) \n\nYeah, sorry to hear you're having trouble with this. I think it's better on `master` (or the -git package) but you can track progress on that problem here: https://github.com/ssbc/patchwork/issues/906 ",
     "mentions": [
       {
-        "link": "@W87GwaaxNj0PSBbtc5qUm/A/xOO8AWPdNtJn6hzR8s0=.ed25519",
-        "name": "lance"
+        "link": "@slp4y01vdIpPlljOoXtfJIFb4dg93b+qdxoM1jXERW8=.ed25519",
+        "name": "makeworld"
       }
     ]
   },
-  "signature": "PBe/R/ovL1HRNMN5Xx4X1/VkjZzlTYuTxilCCU/nMSb1c0/tn8EsIOStYieu7sdp53j5VChlzDAvTjKIVSvZCA==.sig.ed25519"
+  "signature": "S3UzxtMyNoXMCHrhJ4fj8WKSMWE+ruZV1CisquBCNWFBJuf4ZMptDDY7/kl0Ss+QnvCqnuTa/6CPq6H5v7C9Cg==.sig.ed25519"
 }
