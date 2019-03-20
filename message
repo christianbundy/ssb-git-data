@@ -1,17 +1,21 @@
 {
-  "previous": "%0bSnSp2QDMaT+/ZI0MVNZ2P3PDR/6HqeQidMddQUdXo=.sha256",
-  "sequence": 9371,
+  "previous": "%71LNl1zVhIG0UXGVIVtoQZMtGRtlhFRsfCPAF6VNtCQ=.sha256",
+  "sequence": 9372,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553113041492,
+  "timestamp": 1553113761659,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256",
+    "branch": "%MJphpo2MWGA2kY8ncYrsObEB3ekw9l+7daPMGG9xzUk=.sha256",
+    "reply": {
+      "%CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%MJphpo2MWGA2kY8ncYrsObEB3ekw9l+7daPMGG9xzUk=.sha256": "@S8P2cAzZ7DkP5j6T7RjVa9GXhkLAnoz9q3tY6Ja60+M=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%VtUPuDQJazPJfkLa0sb2bYvA3F/xTqLW7JTO01mHgN8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "In case it becomes useful, I want to share the code I used to recover from the fork.\n\nI looked at [my profile on viewer.scuttlebot.io](http://viewer.scuttlebot.io/@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519) and found the ID of my last known message, which I then read:\n\n```sh\nssb-server get %CRxZR8PmT+etS6c0osbfQPv1/ZcrbTKQzezeSR43sns=.sha256\n```\n\nThis returned some JSON which gave my the timestamp of my last known message.\n\n```json\n{\n  \"previous\": \"%5bx3E5HOVZxFUxuhjKMFsby2N263oZNQlKFwduW0CME=.sha256\",\n  \"sequence\": 9277,\n  \"author\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\n  \"timestamp\": 1553046768056,\n  \"hash\": \"sha256\",\n  \"content\": {\n    \"text\": \"It's got some bugs, but I've finally got a super simple #same-as implementation working in the existing clients (as a plugin for ssb-server).\\n\\nWe're getting closer...\",\n    \"type\": \"post\",\n    \"mentions\": []\n  },\n  \"signature\": \"iaXrPg9kG+Q84W2BRpBZ3A/jROMAMXfp3iitFBBlUFi/y/9Z4mWWP/oXcf2eE9IMgjUaYUCdFv+miRVqEMjQDA==.sig.ed25519\"\n}\n```\n\nSince my other messages still had reasonable timestamps, I just needed to gather all of my messages with a timestamp greater than `1553046768056` and save them to a file:\n\n```zsh\nssb-server createHistoryStream --id @+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519 --private \\\n| jq -c 'select(.timestamp > 1552497153800) | .value.content' \\\n>! from-forked.json.lines\n```\n\nI opened the file and made sure everything looked right, then:\n\n1. Made a flume database backup: `tar -cz ~/.ssb/flume -f ~/.ssb/flume-broken.tar.gz `\n2. Deleted my flume directory: `rm -rf ~/.ssb/flume`\n3. Restored from an earlier backup: `cd ~/.ssb/ && tar -xvf flume.tar.gz`\n4. Waited for my messages to sync up.\n5. Re-published my messages!\n\n```sh\n< from-forked.json.lines \\\n| while read -r line; \\\n  <<< \"$line\" \\\n  | sbot publish . && do <<< \"$line\" \\\n  >>! ./done.json.lines; \\\n  sleep 1; \\\ndone\n```",
+    "mentions": []
   },
-  "signature": "c7BHXl807JQOExcQ2r32C2M6uiKx5TkWzaTEf95+RIJybl+w5nPJum5MWm54Eq8wWXotOdyvLAJSwg4NKROXCQ==.sig.ed25519"
+  "signature": "EyIvisonzkdu+kkfZff1J5acK6qqmnhr1mirvIsyFtP5VPfDP0MnJCXmV9VEfDHZV5zwBjYLNOVTCI/hxfmiBg==.sig.ed25519"
 }
