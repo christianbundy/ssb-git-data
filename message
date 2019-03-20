@@ -1,13 +1,41 @@
 {
-  "previous": "%IxVzaat0dEoZf55kvQnPsKfmM1n8Ztz+KHxzdneLXzM=.sha256",
-  "sequence": 9345,
+  "previous": "%iYdcIgVG6pqzQLstrqAFw/1zYUjO3U6mFtBmS7eG5u0=.sha256",
+  "sequence": 9346,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553047034282,
+  "timestamp": 1553047035702,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-    "name": "matt"
+    "type": "post",
+    "text": "# When should blocked feeds be deleted on Scuttlebutt?\n\nBlocking is important and empowering, and it's one of the primary tools that we have to set our boundaries on the network. Most clients will hide content from blocked users, but today that data still exists in your Scuttlebutt database. This is mostly fine for most blocking scenarios, but there are some scenarios where that data needs to get off of your computer immediately.\n\nIt's taken quite a bit of work (sponsored by Verse), but I've hacked together a Scuttlebutt plugin that does three things:\n\n- deletes messages from blocked feeds (flumelogs)\n- deletes cached data from blocked feeds (flumeviews)\n- deletes other data from blocked feeds (blobs)\n\nI've still got some pull requests open, but *assuming that they're merged* we have a decision to make: **when should this deletion happen?** The flumelog and blob deletion are quick, but the flumeview deletion can take some time. For flumeviews that implement the [`del()`](https://github.com/fraction/flumeview-flumelog-array/blob/ca1ea6027e8d2c0d1718c30b3d21fa7ca20e8338/index.js#L43) method it's incredibly fast, but other flumeviews have to be completely rebuilt.\n\nI've written a small ssb-server plugin that prunes flumelogs/flumeview/blobs on startup, but I'm not sure that that's the best solution and I'd really love some input from folks maintaining clients. Other options I've considered:\n\n- **automatic:** prune as soon as someone is blocked\n- **manual:** on-demand pruning via button in client settings or something\n\nMy intuition is that eventually more map-style flumeviews will support `del()` and the process will become faster, but in the meantime I think it will be important to be able to delete content from the people we've blocked.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) [@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\n#ssb-clients  ",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      },
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "#ssb-clients"
+      }
+    ]
   },
-  "signature": "uEZRXDHdM3ygJZ+FGkhFJxZdVYhW2Jk7Qa/fIAuzJQ2DCBzVm/2TyR4xoclPXIpMh10YA9uaTgy5nemhvFNPAw==.sig.ed25519"
+  "signature": "cDVdN4gIRsdl88RA1YkZlVVs223YwrqMxglLFlsXI9vmZq9KXFrPhdsAmC+iL/oBAMeVe1CRFTp+KcIE//msBg==.sig.ed25519"
 }
