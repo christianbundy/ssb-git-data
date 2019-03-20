@@ -1,28 +1,16 @@
 {
-  "previous": "%UlrOktKEKP56/MbxVoLyDEeDg4wnbGZK7USuobl0bJM=.sha256",
-  "sequence": 9286,
+  "previous": "%Utl5GoP0FX+eotPdIcgjjGgOSwe98Ke8SYCJA5Q7Iqk=.sha256",
+  "sequence": 9287,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553046783745,
+  "timestamp": 1553046785172,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256",
-    "branch": "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256",
-    "reply": {
-      "%ZPhda6VbBaTYkfooi+azBFd8SdOkWs2ti2vQTjUA2b4=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)\n\nI haven't read through the code, but my intuition is that this is a reduce function that goes by the latest *received* edit. This sort of thing works fine when you only have one person editing content (e.g. editing your own messages) but I think we'll need #ssb-revisions to save the day when we have multiple people editing the same content. ",
-    "mentions": [
-      {
-        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
-        "name": "elavoie"
-      },
-      {
-        "link": "#ssb-revisions"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%/ZeW6us9DwL0ZAND9i0cXPLnEuKV+MmlSQdFs+nKtrw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "5aHHUOWuXY3L4vISi5I3a/Fk7mYDibQKvzokGIxtWwamnqeIyyGdLAqCe6bOwf4F0ZwnqRHFz2I2LXLSps7cDg==.sig.ed25519"
+  "signature": "XAJxocKXIPMsG24hWqr8W6HfKr+/limnQwWU1hHEV9Qngi3jQWLzg8E3n1UvJnKbwY7zZNQzNVUFxOwSCg2ODA==.sig.ed25519"
 }
