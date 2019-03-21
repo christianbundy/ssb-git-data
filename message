@@ -1,17 +1,20 @@
 {
-  "previous": "%5ReHsWUCRHukj0VT46PpP1/VLWqNQmNbS5DWQ505S70=.sha256",
-  "sequence": 9381,
+  "previous": "%VRQcNM3Qw7i+Ll3+SMvpbh2cWNn7RCizzyVDiQSX2Kc=.sha256",
+  "sequence": 9382,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553134162274,
+  "timestamp": 1553134175689,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%cBZ8gjFqL5ekywSF1cNqvU0gT7bOI2QiV46C+y+CE/Y=.sha256",
+    "branch": "%cBZ8gjFqL5ekywSF1cNqvU0gT7bOI2QiV46C+y+CE/Y=.sha256",
+    "reply": {
+      "%cBZ8gjFqL5ekywSF1cNqvU0gT7bOI2QiV46C+y+CE/Y=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
+    },
     "channel": "nomic",
-    "vote": {
-      "link": "%cBZ8gjFqL5ekywSF1cNqvU0gT7bOI2QiV46C+y+CE/Y=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "This all just became very interesting.",
+    "mentions": []
   },
-  "signature": "2fF/pBu9lqJy4W5yB634nVMfiG/2nNh09SdRlFiOTHORUf+65syHKsTKyo6CjUDYl2Fv6WGBzTDy9EO6kvFFBg==.sig.ed25519"
+  "signature": "KyGk6fPKMp0bg9A/JQwivhhRzjkS64b3u0aqrZpD9VwZ2SpdkQby4mh/Tok72TqDWv/32Jmba76xrfqqGj9tAQ==.sig.ed25519"
 }
