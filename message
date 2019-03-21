@@ -1,13 +1,16 @@
 {
-  "previous": "%fgY02IAaGFiEq+YSuxNm5rd0IhQu5R/ttEND8RuQpfM=.sha256",
-  "sequence": 9386,
+  "previous": "%PvTB9rS66giIFpylFA50xpu157Z8jBv1TbP+RD3fjMg=.sha256",
+  "sequence": 9387,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553135044231,
+  "timestamp": 1553137149268,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Show SSB: Time clock\n\nI made a small thing. \n\n> I made a time clock! It cycles through each hue through the day. At midnight it's 0°, at noon it's 180°, and it slowly iterates through every hue in between.\n\n## Links\n\n- <https://timeclock.hashbase.io/>\n- <dat://timeclock.hashbase.io/>\n- <dat://136cb0594d89da97f7962e1c7c579cb06bfc6e32f6998f103d09e9caba00e426/>\n\n## Todo (maybe)\n\n- Use a variable font color for higher legibility\n- Figure out why it looks different in Firefox and Chromium (???)\n- Fix the line length, it looks really bad on a wide monitor",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%DW2a1llpsGBdTo5sKGU6OiQz4rC8baGmgQ1GSwIkkw4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "mkSZ/ZxQwE8WbLT/WcZjTXAhAYhcCMW4kDjTesLESChwG+D6W07T6rOJgH0fVi6LUrBzeUsudemdUJOzue6CBw==.sig.ed25519"
+  "signature": "mIa+VXwXxR5OR53njTdYrTtsg40rmy5NpfvKgy704fDRRcHB52gRM+8dgGSwhegc2KNhhH6htx+oIwvrOJJ4Cw==.sig.ed25519"
 }
