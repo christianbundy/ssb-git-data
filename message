@@ -1,17 +1,33 @@
 {
-  "previous": "%6yRPtPl1IO7fGQ9+y+jevVg/e+Dq5f1rcRqWT0Ewhms=.sha256",
-  "sequence": 9397,
+  "previous": "%GkHSZdvcibhNg4GTvYL0rRdULTf6L4S0aOuc6qHD3gA=.sha256",
+  "sequence": 9398,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553186250082,
+  "timestamp": 1553186337984,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%qyMJZz1hhyDQZ/168WHkvgeMAf48jK/zh46wRBMe9DU=.sha256",
+    "branch": "%qyMJZz1hhyDQZ/168WHkvgeMAf48jK/zh46wRBMe9DU=.sha256",
+    "reply": {
+      "%qyMJZz1hhyDQZ/168WHkvgeMAf48jK/zh46wRBMe9DU=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
     "channel": "sdf",
-    "vote": {
-      "link": "%qyMJZz1hhyDQZ/168WHkvgeMAf48jK/zh46wRBMe9DU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) [@Teq](@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\nCongrats on getting it out the door! I'm super excited to check it out, thanks a lot for your work on this.\n\nWould you prefer to have feedback on this post or on the blog post itself?",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519",
+        "name": "Teq"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "icpNUIpBo+8l/GoWt0squXlj6KHBpaiOXZkmvsIeW8eW9ceSaidphVsroKXvWUhoyMWUkhkpAy++TJHSbaZFBg==.sig.ed25519"
+  "signature": "ThUm5MEnysdVzfyjbNGl7VmIT3yrEvRUxX3QicKSG7LK0gpDi5XO3moaiGnkoy8/7P8nLrZgrYsHPVjx7DvsBA==.sig.ed25519"
 }
