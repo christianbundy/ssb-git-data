@@ -1,17 +1,21 @@
 {
-  "previous": "%j7bwUUm7miAvIpRAz5wAGTCSW+P0zNbEpM1UbEqIAQM=.sha256",
-  "sequence": 9420,
+  "previous": "%HeLPxRWee2ASBQ/QIkdWULM86baWDhRvG2AexgDwDtw=.sha256",
+  "sequence": 9421,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553224389832,
+  "timestamp": 1553224391932,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256",
+    "branch": "%65WnK4rQjijAqAsqQ/s/eRcAebLLD8LHYOkZGIoDVHg=.sha256",
+    "reply": {
+      "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%65WnK4rQjijAqAsqQ/s/eRcAebLLD8LHYOkZGIoDVHg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%DdzS/UDzLI8m61Jv633oRdQq+2RdP+XqABtFPhjc9WM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Another one!\n\n- [issues assigned to me](https://github.com/issues?utf8=✓&q=is%3Aopen+is%3Aissue+assignee%3Achristianbundy+archived%3Afalse+)",
+    "mentions": []
   },
-  "signature": "+3vDxpJVQ0WFuXotO8qU+XHCFyYkrtWRuTOW5SzVLQsl4VdmYALajSnC6Y5+ZtJAkFaz2tentJ4IRbHAcGQjBQ==.sig.ed25519"
+  "signature": "MNDZnj/bDq7v+QS3EHEwUd9gICSVvUHx+yb7jnjFySN4H66fxPS57wjTqKQwNlezmwS08+oVJvt/uxWkle4ADg==.sig.ed25519"
 }
