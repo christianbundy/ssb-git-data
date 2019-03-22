@@ -1,16 +1,26 @@
 {
-  "previous": "%Q4J+z8CJn1wANcBI1kxhIUHymV9u7Wmo1cj0S0rzas8=.sha256",
-  "sequence": 9431,
+  "previous": "%natPhXB3St+oamlsjMMQxcqC9w55QdB5dPNrFKhNi8Q=.sha256",
+  "sequence": 9432,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553267899608,
+  "timestamp": 1553279873710,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sdmFaKxH2enahDb3Tnaba161kXvp5FdSblgmjQrTVHg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256",
+    "branch": "%+79oezPn0v1c7jrTO4+LsLo+phIBYnj6X27aAurdNjA=.sha256",
+    "reply": {
+      "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
+      "%+79oezPn0v1c7jrTO4+LsLo+phIBYnj6X27aAurdNjA=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@darius](@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519) \n\nI think you have to use the [TickTack](http://ticktack.im/index.htm) client, but I've never used it. If you want to get a bit hacky you can:\n\n1. Attach a Markdown file to a post.\n2. Save the blob ID somewhere.\n3. Post it manually with `ssb-server`:\n\n```sh\nssb-server publish \\\n  --type 'blog' \\\n  --title 'Your title here' \\\n  --summary 'Some short summary' \\\n  --blog \"&blobidthatyousavedearliershouldgohere=.sha256'\n```\n  ",
+    "mentions": [
+      {
+        "link": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
+        "name": "darius"
+      }
+    ]
   },
-  "signature": "2IWAUrCHac+JaMljFPGHPN/E+rocj3mdHGgxRWEF+9ndwtp5KdoIlTVUgK+mX7nJpiyMi6UoiHo1P79d6uUEDQ==.sig.ed25519"
+  "signature": "0rNEumrqqJbqv4D8F3vkUwPJ+HSyer4LYJfMCj7HBFgBWAfDOZQ+JjSa/g7Yob06wguQHM5+36hTeShvvBRlDA==.sig.ed25519"
 }
