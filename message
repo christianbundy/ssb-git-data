@@ -1,20 +1,20 @@
 {
-  "previous": "%natPhXB3St+oamlsjMMQxcqC9w55QdB5dPNrFKhNi8Q=.sha256",
-  "sequence": 9432,
+  "previous": "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256",
+  "sequence": 9433,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553279873710,
+  "timestamp": 1553286607583,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256",
-    "branch": "%+79oezPn0v1c7jrTO4+LsLo+phIBYnj6X27aAurdNjA=.sha256",
+    "branch": "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256",
     "reply": {
       "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
-      "%+79oezPn0v1c7jrTO4+LsLo+phIBYnj6X27aAurdNjA=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+      "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@darius](@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519) \n\nI think you have to use the [TickTack](http://ticktack.im/index.htm) client, but I've never used it. If you want to get a bit hacky you can:\n\n1. Attach a Markdown file to a post.\n2. Save the blob ID somewhere.\n3. Post it manually with `ssb-server`:\n\n```sh\nssb-server publish \\\n  --type 'blog' \\\n  --title 'Your title here' \\\n  --summary 'Some short summary' \\\n  --blog \"&blobidthatyousavedearliershouldgohere=.sha256'\n```\n  ",
+    "text": "[@darius](@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519) \n\nOops, I should specify on the first point:\n\n> Attach a Markdown file to a post\n\nThis is just so that you get the blob ID, but really I should have said \"attach a Markdown file to a post **draft**\", since you don't need to post it.\n\nAnother way that occurred to me while writing this:\n\n```sh\nssb-server blobs.add whatever.md\n```\n\nThis should output the blob ID, so I suppose you could do the whole thing with:\n\n```sh\nssb-server publish \\\n  --type 'blog' \\\n  --title 'Your title here' \\\n  --summary 'Some short summary' \\\n  --blog \"$(ssb-server blobs.add whatever.md)\"\n```",
     "mentions": [
       {
         "link": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
@@ -22,5 +22,5 @@
       }
     ]
   },
-  "signature": "0rNEumrqqJbqv4D8F3vkUwPJ+HSyer4LYJfMCj7HBFgBWAfDOZQ+JjSa/g7Yob06wguQHM5+36hTeShvvBRlDA==.sig.ed25519"
+  "signature": "he8pXY5UOPt24OcQnj6CJTGgzyFbabsHpBJDnRAjtAy1tfZwDtVmc/bKTqTqYQtEgGDHw7d2dyBpMmVhDUa0Cw==.sig.ed25519"
 }
