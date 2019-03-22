@@ -1,26 +1,16 @@
 {
-  "previous": "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256",
-  "sequence": 9433,
+  "previous": "%ShB+NGzHHk/R5851bSj9V9OQRrMZa849y419CbJdLLc=.sha256",
+  "sequence": 9434,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553286607583,
+  "timestamp": 1553286614562,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256",
-    "branch": "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256",
-    "reply": {
-      "%bFxIqp4ZXusZKNalQpvdS2Xz4hgQbw7wKZZom74v+O8=.sha256": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
-      "%3A73gBzh7ZEYkeoa4oFWOtyGl64WD+ufmPi7XTA5yYU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@darius](@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519) \n\nOops, I should specify on the first point:\n\n> Attach a Markdown file to a post\n\nThis is just so that you get the blob ID, but really I should have said \"attach a Markdown file to a post **draft**\", since you don't need to post it.\n\nAnother way that occurred to me while writing this:\n\n```sh\nssb-server blobs.add whatever.md\n```\n\nThis should output the blob ID, so I suppose you could do the whole thing with:\n\n```sh\nssb-server publish \\\n  --type 'blog' \\\n  --title 'Your title here' \\\n  --summary 'Some short summary' \\\n  --blog \"$(ssb-server blobs.add whatever.md)\"\n```",
-    "mentions": [
-      {
-        "link": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519",
-        "name": "darius"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%8xxUMspUynz6T+ScqgPtW8GrR2Re6zJrVdQlus9Yves=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "he8pXY5UOPt24OcQnj6CJTGgzyFbabsHpBJDnRAjtAy1tfZwDtVmc/bKTqTqYQtEgGDHw7d2dyBpMmVhDUa0Cw==.sig.ed25519"
+  "signature": "9bj+qMbmoMaHqRFmZZzSgYOCMBTZwS4HZXnpM6WksxUNT+XgotCnQDCytNyKKWU/vmoWAio6o/S9bG0Q1ZWGCw==.sig.ed25519"
 }
