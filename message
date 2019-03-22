@@ -1,17 +1,26 @@
 {
-  "previous": "%s2teLFGUxqAEwMGzBZy0lYzXDF/QSYllad0o2Rnh7xI=.sha256",
-  "sequence": 9441,
+  "previous": "%yrt9yP83tSmWVInHHoraY66wm8vZ4JyqFSwSMouIVR0=.sha256",
+  "sequence": 9442,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553288587490,
+  "timestamp": 1553288721603,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%lT+mBsH9pD82FSj9hligwsLHlqRGbzpOQ9pXm+qwzKI=.sha256",
+    "branch": "%RRDD82YWY9DJ4r1rtvjCa2Fag98nQ7F7NIlpR96mtMk=.sha256",
+    "reply": {
+      "%lT+mBsH9pD82FSj9hligwsLHlqRGbzpOQ9pXm+qwzKI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%RRDD82YWY9DJ4r1rtvjCa2Fag98nQ7F7NIlpR96mtMk=.sha256": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%RRDD82YWY9DJ4r1rtvjCa2Fag98nQ7F7NIlpR96mtMk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@greg](@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519) \n\nJust wanted to let you know that I've been thinking a lot about this post of yours. Still processing and trying to figure out what I can add, but I realized I didn't reply at all (!) so I wanted to be explicit about why. Generalizing this to problems _in general_ is a fantastic idea, but I've currently got more positive feelings than useful thoughts. 🙃",
+    "mentions": [
+      {
+        "link": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519",
+        "name": "greg"
+      }
+    ]
   },
-  "signature": "z4iectkhIH9TLCl0LBIIOWKEUI/5N2CZ7efwgcTr7ns1AQH/XrPZi/FJbUpPRrS7blxiJjL8PXkuXa94JA3aAQ==.sig.ed25519"
+  "signature": "FxAP0jihFPWH/PL/jqWBSEkhCdueAB2BrwMobAhskZeGPeDWngMfMZ4Pc/5f9R3zeO1Pw7x6EyIIp24iU2PuDA==.sig.ed25519"
 }
