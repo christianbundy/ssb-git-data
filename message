@@ -1,13 +1,30 @@
 {
-  "previous": "%/0F41xdNawbSPMrNbt/F6sza/6wHCncU4ubih9F/Dlc=.sha256",
-  "sequence": 9457,
+  "previous": "%y7YZB0RP6BGF4pmiPdePsYVUrodtb+FELJl8ISwvvPs=.sha256",
+  "sequence": 9458,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553534257280,
+  "timestamp": 1553534293869,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-    "name": "dangerousbeans"
+    "type": "post",
+    "root": "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256",
+    "branch": "%YvGJ+dW8AHHvpmwO+dbHliddmFa5/btRt0zihFEK95M=.sha256",
+    "reply": {
+      "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%YvGJ+dW8AHHvpmwO+dbHliddmFa5/btRt0zihFEK95M=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) [@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nYeah, it's trivial to auto-linkify a valid URI (e.g. dat://colorclock.hashbase.io) but Dat identifiers have a conflict with the URI specification:\n\n- They use `://` which denotes that the following bit is a **location**, which it isn't (it's a public key)\n- Any URI parser that sees a location will ensure that it's a valid host\n- Hosts segments (domains, subdomains, ...) may only have a length of 63 characters\n- The public key has a length of 64 characters, which means it's not a valid URI and is left alone\n\nThe solution is simple but probably tedious: Dat identifiers should start with `dat:` rather than `dat://`, which removes the 63-character limit and fixes the semantics around the public key. I've opened [an issue about this problem](https://github.com/datproject/dat/issues/1050) but it doesn't sound like the Dat team has the bandwidth for this right now (which I can absolutely empathize with).\n\nIf you want to make a link to a Dat public key, you'll need to wrap it with `<` and `>`:\n\n```md\n<dat://2b23c5ac0842a9558fea6f96e33078610e254dd599d295a5b93faad629693992>\n```\n\nExample: <dat://2b23c5ac0842a9558fea6f96e33078610e254dd599d295a5b93faad629693992>",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      },
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ]
   },
-  "signature": "UE1j3b6s6U1toTmP1TesBAkOWh9dHK/9IrjzxsoUJB5xFb+Ast48mLw4kfw1+6bncH/dm2AiClylDSHjJ2s8Cw==.sig.ed25519"
+  "signature": "6r+ex7vsClp8ZyHft0LZvIJxA3Szqyf4TtftYGNvjrW8Nyg1NIJ0XvHb009vMasggW0EZpCidveETZAJPj3hAA==.sig.ed25519"
 }
