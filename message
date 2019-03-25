@@ -1,9 +1,30 @@
 {
-  "previous": "%rJu4a+xV4f28CbSsqvGdWYviv6putGp6yoV2qWGqh8I=.sha256",
-  "sequence": 9459,
+  "previous": "%hAMhDZrYsKOqX0wUxaFfpTI5NZdGBHNqWTO+EPNJcUw=.sha256",
+  "sequence": 9460,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553537436550,
+  "timestamp": 1553538815041,
   "hash": "sha256",
-  "content": "iDLzDzd5AL8Zz4ggEhzi6JqU1glwPlj834o9fhvgpS/agB/1Hg5VXQ+uqYhHmDa3gXn/vpwhyyNJrLAA9AN5tUR8qJwdk/8KABdOuH6sQxexNmNy+lwNT3W7RtI33uoj2a+p2khsCtAmTs1QPjLd8jz2wRVwulL7uY3TDdhrTjWrQDBcNxDu1EL5yZP/11n1sPOLLb2e6Twzjf+Xh9Yg0udmJwXxr/i5Q/lZNKkSgSjzXOdDKH8BT0xwvVLJHx12kxTcoSr3xTx2LY+yjOxy6zLm2Jbni0jOSOmHXInvG0SwxejfnWuxeNetvlTsaWPP0+1h8e0xbTF16DNBsn+85LJMFcqY7xMoYbPKI45baVwMt1IGQSaVzocmDL2XEBfw3tAlZoWCiciV2yhxAjQRgozNFwvWHtzcdGzVdgbp+WP/OvdtvgVUABdSiEzPOFQVAoIldsmMXoGo6F8dDQjb3uqO32Akn4aJ+LuBMXqou3Tk1qIAA/YvolUXZngVJShFt0pXBxTlVKusU3jhFgfLWh30I3X0qFTc4K1fNuqEIM4tIL/L91bsWOrHsPkl6k+2y9UT5+Bx6PwoQXKr7JbbFtxYguGfJ452MQ8fqas2wi+nzFXTC/YPoUFLzHleuoMTS5HQuZaEtl/tdyskr1Bouzv3gNDgoC/Jyum0hwKAOxmSs2i9H0DELzvXq+sO7jYGIU6Jj2ZZCJ3Hy7aJc95m6r1BaAunIgTVw5ABYkoM9gCGOayni2ndj6bmjNzs80PbBT3IyeaOXAwaKS/u1rgJOKkO7ZyVPhSy+r+oYwR49lK4K15Cx9LX/iEcxqXErpDGqWb4VH1zwj/e8dsBj5YCYLQb/CbXmJuM4IVKoOLfAlKGW/8+fx2jwk09EdGfppjdr5QElK3UtlqPAL/ze9xIXSd7WggYL5MEnDVgheg773M7ruhbv6wTEpBF13HPJNpivy9nqXPUM9p8YkNBtbTYYp/TMri74KB9fuamx69rq3K2No+DhcnbttC3CkHtzHzd1FHejj7prI15mabjzE5el+shhNS1MyIsiHaKE5gSU6n98Ydgndd2KojRoxvAVCkF/6bgSAcNJsih/3Y4i757qTajP7XKtovDk5uAYTRAsvFnuEvJizMXt6S7XTpf7HYjuGEDJwwSMFs1Anpw4mK3GoYZ07raoK9ra6Yk8/AXy/N5vrjshfTL9BrYWLj6d8y+/dQnYAR52wBmtDYu1EwfLU0uUYgtZT6DIcM0gpMn2r/P2pk2/3UFaO3kTHyvNqwqwQngKVILEg/qDlOGIcxC6iu7KZaC5DMHGdFbLQHlSBSgO2yWg7RPE4snIlNt60+h0Wvyn5hmXxlxqE3a0lkSX06Az3RqWHovsgGpmGlQe286wupJAfFpWjjyOcrAzVG8j+w=.box",
-  "signature": "ngWk0NDl2DHLLeVdPDLQ9GuzlSZLaiauxPuMtt6MElWc60fv1d9mfSKUVYPN3jRfi6ZYQ+qw6XmTWhTAqSW4AQ==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256",
+    "branch": "%haDjR/o9OEJfkkbmyNbKVMi1+nynwNepJO6JlHYV95Y=.sha256",
+    "reply": {
+      "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%haDjR/o9OEJfkkbmyNbKVMi1+nynwNepJO6JlHYV95Y=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nExactly, but I don't think `dat:$KEY` will work because all of the current Dat software expects `dat://$KEY`. I'm not sure how much work it will take to fix it, but it *could* be as simple as fixing a few hardcoded strings.\n\nThe other issue is that Dat uses a `+$VERSION` suffix, which is fine with `dat:` but causes trouble when `dat://` is used because `+` isn't a valid character in your host:\n\n![URI scheme railroad diagram illustrating that the Dat version will be parsed as part of those host, not as part of the path](&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256).\n\nI'm not really sure how to solve the version suffix problem. As usual, every solution has its own trade-offs.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256",
+        "name": "URI scheme railroad diagram illustrating that the Dat version will be parsed as part of those host, not as part of the path"
+      }
+    ]
+  },
+  "signature": "doB9b0AXx2iyylPYZJAImI0iYDUtDVwXOu2/SXasRwBZoHY17cJRYY88WdiHjtaCweXsRtRkCHoAWGVS1FXbCA==.sig.ed25519"
 }
