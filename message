@@ -1,30 +1,17 @@
 {
-  "previous": "%hAMhDZrYsKOqX0wUxaFfpTI5NZdGBHNqWTO+EPNJcUw=.sha256",
-  "sequence": 9460,
+  "previous": "%/DD9DwdO7mG50iOb9JU/fTET4huclZTDg9GunzAIFkg=.sha256",
+  "sequence": 9461,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553538815041,
+  "timestamp": 1553539110407,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256",
-    "branch": "%haDjR/o9OEJfkkbmyNbKVMi1+nynwNepJO6JlHYV95Y=.sha256",
-    "reply": {
-      "%B9No5Lap0GwXektztGAxpYYwE01XEiwhF2e38uWCRng=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-      "%haDjR/o9OEJfkkbmyNbKVMi1+nynwNepJO6JlHYV95Y=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
+    "type": "vote",
     "channel": "patchwork",
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nExactly, but I don't think `dat:$KEY` will work because all of the current Dat software expects `dat://$KEY`. I'm not sure how much work it will take to fix it, but it *could* be as simple as fixing a few hardcoded strings.\n\nThe other issue is that Dat uses a `+$VERSION` suffix, which is fine with `dat:` but causes trouble when `dat://` is used because `+` isn't a valid character in your host:\n\n![URI scheme railroad diagram illustrating that the Dat version will be parsed as part of those host, not as part of the path](&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256).\n\nI'm not really sure how to solve the version suffix problem. As usual, every solution has its own trade-offs.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "&2ryLxD30UPdioD68/y8e3bgGamDETzjjKjJ9Jd5f3tw=.sha256",
-        "name": "URI scheme railroad diagram illustrating that the Dat version will be parsed as part of those host, not as part of the path"
-      }
-    ]
+    "vote": {
+      "link": "%haDjR/o9OEJfkkbmyNbKVMi1+nynwNepJO6JlHYV95Y=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "doB9b0AXx2iyylPYZJAImI0iYDUtDVwXOu2/SXasRwBZoHY17cJRYY88WdiHjtaCweXsRtRkCHoAWGVS1FXbCA==.sig.ed25519"
+  "signature": "FtriROFqy+vlc5TvYUROXSNxpj8Z3LEaltfBqA3oA9gQGmEwRxL9kYFS9TqMe7g9o6TGF22AdiKtXFXYE9+RCw==.sig.ed25519"
 }
