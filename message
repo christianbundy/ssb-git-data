@@ -1,21 +1,17 @@
 {
-  "previous": "%BYOUofVJ3u1YNvj+6OMhmLIfNmWjqrGgUYG28IhGhQY=.sha256",
-  "sequence": 9472,
+  "previous": "%+Je1KHcH/TUDSm0iIVS32PHyV9OPNHNZQjFdoAUMFbk=.sha256",
+  "sequence": 9473,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553704885031,
+  "timestamp": 1553715079098,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%FKJbdgs+o3YlndD8hgmXwH1F76H1anP6Si4MuZVeENA=.sha256",
-    "branch": "%JOvXgeoDjCb5KLCShkHweF8wmQZ3LDmg9DWoe9zVh8w=.sha256",
-    "reply": {
-      "%FKJbdgs+o3YlndD8hgmXwH1F76H1anP6Si4MuZVeENA=.sha256": "@TlagIJAm9Txra99jbxwyHudad6rLOyXf+vj7FCoSGYk=.ed25519",
-      "%JOvXgeoDjCb5KLCShkHweF8wmQZ3LDmg9DWoe9zVh8w=.sha256": "@TlagIJAm9Txra99jbxwyHudad6rLOyXf+vj7FCoSGYk=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "I've been having issues too, not sure what triggers it but I've had to force-kill Beaker lots of times when I click links. One workaround I've been using is copying the link URL, opening a new tab, and pasting. Somehow that breaks less often than clicking links. 🤷",
-    "mentions": []
+    "vote": {
+      "link": "%XZLlJlQVnHsoRdQeEykcIXqxtXUqZtVo2lGT1xsz6b8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "gYOaXsWpVEj1H+bxunT2FUx5kVJMPii6+TD6SRWFks68dFnr39X0r3fY+FzOzmNlpYWjTmsPKNP9DQD48bMIAw==.sig.ed25519"
+  "signature": "Hd/nToDCB42Tr9XTtw4pONE90d1/MHgjVmdSp8RvSkFKKi2dGRvJst9q8bUiJA04Jufc91mQyJHs4PjSY2UWCg==.sig.ed25519"
 }
