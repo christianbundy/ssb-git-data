@@ -1,16 +1,26 @@
 {
-  "previous": "%G6V0RmfP4CyakJ3xO687PIl6Yx6VU+uqv586VeJ62XE=.sha256",
-  "sequence": 9490,
+  "previous": "%JBRWCHUfaSkfADCWyToWQVXGEMa5h4k4KMHKKBkjerg=.sha256",
+  "sequence": 9491,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553790053256,
+  "timestamp": 1553790211994,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XQblHoBMPl5OKdEM9qdbleCS21v9GnfbcYBlTTnb+FI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%NTqBNbPWWpCJvEujLjsM4NK7N/Is3Dn0ACOqXx/jgVI=.sha256",
+    "branch": "%PJYIcp83ald5HCDbqv9ZRNziFLK3AUp2eEur31X/E+4=.sha256",
+    "reply": {
+      "%NTqBNbPWWpCJvEujLjsM4NK7N/Is3Dn0ACOqXx/jgVI=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+      "%PJYIcp83ald5HCDbqv9ZRNziFLK3AUp2eEur31X/E+4=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519"
+    },
+    "channel": "myco",
+    "recps": null,
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519) \n\nI'm super excited to learn more about this, I don't have any experience with mushrooms. Are there any studies you could recommend so that I can learn about their medicinal effects? The table looked really neat and I'm surprised at all of their medicinal benefits.",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ]
   },
-  "signature": "+GjRWRJJOmqv2PBH6JgMCYgqg+6eJeXjxkJon3pA0exB6Q9gax+yHYfU60hku7HzVYYvxLwLys9dzFXUArK7CA==.sig.ed25519"
+  "signature": "Rhuv0dEdp3uAW9ld/CKBPiYoUsowhIVldU2x1+IUwCbDkAPtZgeaEEc3iwQES/d1Y1PX7D6/7OBzogGWkkE5BQ==.sig.ed25519"
 }
