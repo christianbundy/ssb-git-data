@@ -1,9 +1,29 @@
 {
-  "previous": "%WLEVQohPV3POMlMSrXKaQas5UDuaKVtdvr/H0kssCFU=.sha256",
-  "sequence": 9483,
+  "previous": "%zJl1x9Q4oXv7tJMovTlAdHr9JZ4kOcBROrHkdat8QgA=.sha256",
+  "sequence": 9484,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553725082124,
+  "timestamp": 1553787256532,
   "hash": "sha256",
-  "content": "xTmjGD6hq9aVzx/lPws5bX/MgtbU11vZw6+8FrUpNR3D3d7ydoC675GpEPDuhpG7FOYzhkqOLzibCxEYIKnyMgF1SGuoC3ZXzdu+zWjKyr1Zm/Q068JyzeAmbZD0QstAF95ZqdUevB7dVr9x8HDSTC2arLF5+a42u/i4bAPszKNpFss55XGdUDoaaJL1lxVGRdSJ2SK23I6Qi9LMzbRA4Z7LArRwY06ikaKzEtits7v5rS6X8TUFUsU4MxoOMI4Tfr+lPqFZvD5QxDxdjfVPFLur4qW6eg/oqAOdEF7D2OlsyD8tr9rhDUcgFpJ+1K3EgUbKhGz8IBq8We/PnPUmoZ0QeEUtroPl9CxKTlm1B7yPZH42ucQaeCNO5XkGlw4H+w6ALj3U8d0aO+PxmYo7vaYaFu1DDcg0AbFTWo2tTNg=.box",
-  "signature": "SaiS6wTj7a6aEPpgbeXl929C5ezfIXR41wADGjHDiQB5UX0kVuFe5H29aHZMUKmgTWYpSH6j8Dvk5dYEjcJcCw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%iI3A77YyZS1w8zoKYXbjR6PMJ7AzaGFIyvRs4kyUYxU=.sha256",
+    "branch": [
+      "%jOjhmAp2JuZ02XFr/V0jl0ltFBbuIBj3EEM+n9UgK4o=.sha256",
+      "%nRC5fInSAj7TqSBMCbNjut1pTqsfPIiVNlMDTcqm/74=.sha256"
+    ],
+    "reply": {
+      "%iI3A77YyZS1w8zoKYXbjR6PMJ7AzaGFIyvRs4kyUYxU=.sha256": "@TlagIJAm9Txra99jbxwyHudad6rLOyXf+vj7FCoSGYk=.ed25519",
+      "%jOjhmAp2JuZ02XFr/V0jl0ltFBbuIBj3EEM+n9UgK4o=.sha256": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@sam](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519) \n\nYeah, unfortunately they don't work anymore -- I thought I'd have the time to fix the theme each time a style change was pushed to `master` but it became a huge time sink and I eventually abandoned them. If anyone wants to work on themes I'd highly recommend that your first step is to convert all CSS colors to variables and get that merged in `master` *before* developing themes.\n\nHere's my branch, in case anyone is looking for prior work: https://github.com/ssbc/patchbay/pull/263",
+    "mentions": [
+      {
+        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+        "name": "sam"
+      }
+    ]
+  },
+  "signature": "g7sfPavGdtvXw4vPBSmmmGE6E5BPSwNgbhiK3r1tQjMRMy91etGpp4tSJAi1Gm0LvIefFWvcMTDEU7KfHwEZBg==.sig.ed25519"
 }
