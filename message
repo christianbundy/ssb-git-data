@@ -1,25 +1,17 @@
 {
-  "previous": "%TBI53uG4woy0BCGXUS06GTIyUDc5N9VdEW4LuoAQBU8=.sha256",
-  "sequence": 9485,
+  "previous": "%gPI1xLJTuSMbPb3tm4YDD21r7s0X3X6qkNTBWNBbwcU=.sha256",
+  "sequence": 9486,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553787407169,
+  "timestamp": 1553789515667,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tjR86T7c72EtimlJV+AXkv93lXGZORftFIgDpXtTBUk=.sha256",
-    "branch": "%tjR86T7c72EtimlJV+AXkv93lXGZORftFIgDpXtTBUk=.sha256",
-    "reply": {
-      "%tjR86T7c72EtimlJV+AXkv93lXGZORftFIgDpXtTBUk=.sha256": "@Ki1+80ZgpEFCv1Pny2ipdepo3QRBdmXn0wbsibQmp8U=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@Kiba Gateaux](@Ki1+80ZgpEFCv1Pny2ipdepo3QRBdmXn0wbsibQmp8U=.ed25519)\n\nI think it's Scott Moore -- I've seen him mentioned a few times on Scuttlebutt but I don't think that he has a feed. ",
-    "mentions": [
-      {
-        "link": "@Ki1+80ZgpEFCv1Pny2ipdepo3QRBdmXn0wbsibQmp8U=.ed25519",
-        "name": "Kiba Gateaux"
-      }
-    ]
+    "vote": {
+      "link": "%gPI1xLJTuSMbPb3tm4YDD21r7s0X3X6qkNTBWNBbwcU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "IPfam46q+0XB5jVNCFLmrJ0gUiIrXXo99rIhrtB4CXMGW3ZDcQHKhzxDBvQNS4afSr7PQNXy82N8i8Ctzy2eDA==.sig.ed25519"
+  "signature": "4OE0zxve4hKDv03AxeCLrJb0a1Ld6XpE7WAQzPnliO5pUOsTLj5k2IYZSON2zPAdnJfdYdpHfDbjA4xl0UHEBg==.sig.ed25519"
 }
