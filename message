@@ -1,9 +1,25 @@
 {
-  "previous": "%HJ2nyNZDgXgZBqG3SOiF5Rp1bgIVIfA6mrUiJgYYj4M=.sha256",
-  "sequence": 9500,
+  "previous": "%zAhw+UlbHtU0NlQedWuJohsZSwxwK6sJDzf4DV959nM=.sha256",
+  "sequence": 9501,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553803906448,
+  "timestamp": 1553807634066,
   "hash": "sha256",
-  "content": "wBAByRJMSHJW2eXWATxvUegnF45x/+7S08v6RBEPhjAB8Xn6pCrYMF8LIA9mB6PMVSyFNBPeiDY20YguKQmJ4PUVIR+cnVWBdPxkF6Dwb2ECAysJ+kShVdRSGzcXZEWjJRJ+kSDIwUV6H3RObd0gy6chGaVu7fX8wJeOIsf1Hp0a7QW2fxlu/xPnvIDOtUZB3l5takvEj5//5wqAYy3yMCz6r+3UB+Gy2NEOcQJLOwvB8L6JPfXmw+SLNpDr+yIt0SHtJlTU1ilkO54kZUV6SaGH1EmzeyvZw5CMctBPi/j/a1xmFdXkuKhEDY9MmO2G88w+gSa+sL93he18j9zWXMIvJv+AwP0E0tVDz6DbUPBWltVJKH3/Qmtv7OW89AMzyuheaakO3ogypTOJbTwAWrFf9wZZZ3tb8eFBgGIDTqcEbgpsUJjd3NZGlPJRek53YBELtAet7qK3wa+We3613Jl2CbvoCQJPwsUOc5eFF3hV+8bXoowrcKTb3pYBrGLMmnGx9XSM8BF39/opdLf34w8YIpwoQJuDCXgWpru6ZYuY2BZwbktonE5B2qxqyvxnSVoq0SLxB+aBFsMFMHLw4vOIw2tPaUTvfRAk1P5TfWjJSoy9O8YLkma8buILdvhV63tTzM9UWpu0WBf9vOM4TOR5BbHh7xuYXPukLw1ods+ZWpiOsOu91kxJlObo56pwDMh0usP7oOulL5HcAZ5yVtKFMR2OI83+efz+AEAdnHMJ3EHdfQHbTAGAbdjY6oXOSLhvyhXZDBjaWE1aBJsJfiq1QBxavn3ec5Z+Hwx92OHCEMKrCn0w4JCXzNTSaRRecaMqLbSQs4f3H1+I716rrSdpnW1I7jMt5MWVMn0b6rvbHhZJGOreV8ZoIw/aXjwPwHFjDntjOQ/CZU2BsHZgHmGRoseypIKu2lhIYXlAYl200muy24dGBy3Sc1ZEucHdwR8FHTnRsE/DQqT+ZjE96h3btorImEts3LpSO6KumYxRtDMD7D2JXea24WTo8IHlG+MUPvURs+DUC8J0c4Nl6QvBi1jvRYjvTiHGuX2/PcxplNacqNPsTOQM5JMtrszOwhutJogl/zDBKdGjMKghaZmTVmkoCvBDaleTz0nfSkQKjVk6oKDrxwiwV7R1Cww6EaishBDBNL3A9dRIgE/sTW6+jb66qt2T+Kbv84B2SzyyZP/9Vby7XL+s2Rd8syRkDF1oV/Z4W3TmDFVcmcP0pUXVDmYgz5YlVXnG/k/p204=.box",
-  "signature": "cU2AVDdjaxi7u8inQq0Li6hgkUC4B3JIjQap2uQxjmKnGrF3pWMLZcGQoRGuY4EoG/BXIwXyOeexWAl5/kwTDw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
+    "branch": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
+    "reply": {
+      "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": "ssb-markdown",
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nI think that function is only called when you have a raw sigil, _not_ when it's wrapped in a Markdown link:\n\n```md\n- This **will not** get passed to `toUrl()`: [@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n- This **will** get passed to `toUrl()`: %4YgCw65KkFlRmryWPusvgWGHY69AEFN4AqXkwVSPV24=.sha256\n```\n\nAre you just tinkering or is there something I can help you fix/build/etc?",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
+  },
+  "signature": "OVCUMXuJ+TVVqsZEcaloW4RseSwmdK488aWmm/n9sppzTn6xKZDD8nrkSkzsMxpq5ME5hlmOHTrmbLqq/VLFCA==.sig.ed25519"
 }
