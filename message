@@ -1,14 +1,30 @@
 {
-  "previous": "%lBPCerpYvWGeeSNTMw3n0TKNiAwUlDnSisn/orYNFF8=.sha256",
-  "sequence": 9519,
+  "previous": "%7EiGiuykaVTXszWsGFuZ05ZjzSEdY1D95vkQYB+t/ew=.sha256",
+  "sequence": 9520,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553878980235.002,
+  "timestamp": 1553879203369,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@9RrCXihWSGUNrnzWSzOib48RGc3Bonmy3nVQQj+3TCU=.ed25519",
-    "following": true,
-    "autofollow": true
+    "type": "post",
+    "root": "%CWqD+4DSk6OEolHAmWVFAa3Zbn9/8rJm6/uonY5VTXI=.sha256",
+    "branch": "%0ULRB2RRZLSiEqIHOeGvLM/f4qzj+pnE0LThT7KL/4w=.sha256",
+    "reply": {
+      "%CWqD+4DSk6OEolHAmWVFAa3Zbn9/8rJm6/uonY5VTXI=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+      "%0ULRB2RRZLSiEqIHOeGvLM/f4qzj+pnE0LThT7KL/4w=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nWould an AUR version be helpful? I just install ssb-server with `npm install --global ssb-server`, but I can make a `PKGBUILD` that does that if it's helpful. :wink: ",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "PinkMoff"
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "lG5RUpgumuL13sbr/o/4ieRUCj/6xJjhSkoog/id5lGMF2d76E+dXMy8pUqRVp9KnCIOno8IwgQFGs6vvkLsDQ==.sig.ed25519"
+  "signature": "OiuM7dd8g5sURhZ1MVipPHJZBptck7nNz5D/l6Buxzbp1w2mPdjJNp5JxEG3gXvmLnmtg174KLG8jfRZfZTVBA==.sig.ed25519"
 }
