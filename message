@@ -1,25 +1,9 @@
 {
-  "previous": "%zAhw+UlbHtU0NlQedWuJohsZSwxwK6sJDzf4DV959nM=.sha256",
-  "sequence": 9501,
+  "previous": "%yzvOnCJJR8O/TgWpAKLZDcwx1Tl8BtsrRLmzf0pADnc=.sha256",
+  "sequence": 9502,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553807634066,
+  "timestamp": 1553824570956,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
-    "branch": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
-    "reply": {
-      "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
-    },
-    "channel": "ssb-markdown",
-    "recps": null,
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nI think that function is only called when you have a raw sigil, _not_ when it's wrapped in a Markdown link:\n\n```md\n- This **will not** get passed to `toUrl()`: [@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n- This **will** get passed to `toUrl()`: %4YgCw65KkFlRmryWPusvgWGHY69AEFN4AqXkwVSPV24=.sha256\n```\n\nAre you just tinkering or is there something I can help you fix/build/etc?",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      }
-    ]
-  },
-  "signature": "OVCUMXuJ+TVVqsZEcaloW4RseSwmdK488aWmm/n9sppzTn6xKZDD8nrkSkzsMxpq5ME5hlmOHTrmbLqq/VLFCA==.sig.ed25519"
+  "content": "wtYLFT6JZKMaNc43nk6+DupPCpaIa+6kgHztI7H6wkShqqB8NEZ8zdFXlRgnMLvdEyAclsdgwllzyAKGW3jVvqDbe9x29tSB75aHU/B2Tr93NoFYOjTLE26rIRgQQLKuaTnRHpinKuXNN2ntxFqqm3RcoYpM5Qm9EomM81RECQflyK2K5yRb/pufkivpymPzBhH6lYkIUFZbFJAdCGX9gc9tAEXj1xB61f8/boOPalky+yIONWQ541fI4LuXl8F2onPkfDdWt4QIne6WKOvM1UCD+awqHisk8qSU4eovKaF3bR9BSkzEFItZ+M4hdJx401vCRbmbuGN+JTZLrPXeGTCyqA4dY0Owy4qYUZy1wmNPvbbrmCy1fG7aCff5h2AB5ZrBWYDFE81C12VekLHROJLTmspVulvIPdOz2h0RtR5QClo5lisCcHervPY6+0MmsczT+T9+aZI89h6CSRMs6v4o3VJ9GsZNlVyZ51pP7EkjzYq+JSKEQjo5Cnnn6YAqK54PS+LNi2Rr16Dzx69uLU9i7GSTOz58FW5yhhmvrFe4CL6tLUKkjqjBIQ6uM92CUxy0Cp/0S63p653bliNuZs8hB6hFl/WZEBkM43qvhEVfu3J+Sz2n9vheBzrU0AZQ4NEH/EO57SxLtZ6fOEY/Mqu4x+zyKFCmUOO40qLYfEMPb+ch46Batcp5hGOw98QBuaftfNIgVYBKhUqVtq83cMLhb3UhaoTSMecz6FUVXRYd9LVRXmr2BojVS6RZ0feeHLlDZMKLqQOy+mk0/FzSgkfOE5MIFcDj2u90pAAXlAKTuv9fR0iXENA2ovS07WGEmBhYzhy51S4dvdc1.box",
+  "signature": "U4BptI7dz0J0zDi1CTxsYzh50Qvq3gv7F1nTYDBvI5FgaRboyfEjpG6pprryUVw2jksK+MH+bZCf1ZbPGc8jCA==.sig.ed25519"
 }
