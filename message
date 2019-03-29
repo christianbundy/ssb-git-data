@@ -1,28 +1,17 @@
 {
-  "previous": "%L0mr7Y3QSVCLo9FjruTvfyXMcg54tTp3JZDMOnG+OrE=.sha256",
-  "sequence": 9508,
+  "previous": "%EOdUf9jdV15+R910R2ieqgo8MhMUkD808Tx5Tpob16c=.sha256",
+  "sequence": 9509,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553872999209,
+  "timestamp": 1553873037748,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256",
-    "branch": "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256",
-    "reply": {
-      "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\n\nThis is a super interesting message, which client did you use to write it? The `root` property usually references a message but in your message it references a feed. In Patchwork it's showing up as if you forked a discussion but the \"discussion\" is a link to @Rby5rb94o4BWeNFYPh3brIxfKj3dC8b+da56JybXWIU=.ed25519. Weird.",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      },
-      {
-        "link": "@Rby5rb94o4BWeNFYPh3brIxfKj3dC8b+da56JybXWIU=.ed25519"
-      }
-    ]
+    "type": "vote",
+    "channel": "fork-recovery",
+    "vote": {
+      "link": "%Si+VL3tnZaMG2sJbqNPgYJgRnW3HwG247wyOZvFbAac=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "bmjVD5gWkcCyzNleVoMnBqnJnFlJKPDcXPmyLYcf8ekzfDzm5xVGe6hjkV/giFm+YwU9BJtG5H4Mn3qUrkRICA==.sig.ed25519"
+  "signature": "JH/YTIe+FsV+wXvdB2KAJwM9R2NIu7dIvKLB5F8YewMpDR1hY3VQ3A6El9e/wweg2+TGx4ejIk8scuALn9RqDQ==.sig.ed25519"
 }
