@@ -1,17 +1,28 @@
 {
-  "previous": "%Eq8DUxYr6vnZuL3gK5LBKEXXbKzHok689KVTcpF6AnY=.sha256",
-  "sequence": 9507,
+  "previous": "%L0mr7Y3QSVCLo9FjruTvfyXMcg54tTp3JZDMOnG+OrE=.sha256",
+  "sequence": 9508,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553872670533,
+  "timestamp": 1553872999209,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "mozilla",
-    "vote": {
-      "link": "%VzZs60WOOipvMSBEmDuC7q/+tHTdmTN9M78BkBsT0xw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256",
+    "branch": "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256",
+    "reply": {
+      "%ZAI+yllQQkjNONPGA/8j8LrwALJp1V5B/o5HFS4+zGg=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\n\nThis is a super interesting message, which client did you use to write it? The `root` property usually references a message but in your message it references a feed. In Patchwork it's showing up as if you forked a discussion but the \"discussion\" is a link to @Rby5rb94o4BWeNFYPh3brIxfKj3dC8b+da56JybXWIU=.ed25519. Weird.",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      },
+      {
+        "link": "@Rby5rb94o4BWeNFYPh3brIxfKj3dC8b+da56JybXWIU=.ed25519"
+      }
+    ]
   },
-  "signature": "KIP84OTLX+6BORswTgsM3Wse1JQuqJlCHw4SSO1/JVn3kBkeK/UtfLnYZsniWjbw8EtDuwv7U2OQM7jvdr79Bg==.sig.ed25519"
+  "signature": "bmjVD5gWkcCyzNleVoMnBqnJnFlJKPDcXPmyLYcf8ekzfDzm5xVGe6hjkV/giFm+YwU9BJtG5H4Mn3qUrkRICA==.sig.ed25519"
 }
