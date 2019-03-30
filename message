@@ -1,29 +1,9 @@
 {
-  "previous": "%Oqx7n0Ug/21mCzuQUWv8lo7tg8voTvLhVs03ewvO2BE=.sha256",
-  "sequence": 9532,
+  "previous": "%pz9LasAXsrMKbMrQyjWayymjKzuYj1hM2cwlX+cS+XU=.sha256",
+  "sequence": 9533,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1553966119544,
+  "timestamp": 1553990109317,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%B/sE0bd2lfRPGxEnZTxto5UNSIpTWi2AMV7wbF/0UIE=.sha256",
-    "branch": "%+kE3Q3ZazoBXZHBq2KUeCmFTxi+ASaw+Va3XJPu5A1o=.sha256",
-    "reply": {
-      "%B/sE0bd2lfRPGxEnZTxto5UNSIpTWi2AMV7wbF/0UIE=.sha256": "@D1I40a73EVSAGs8njO+P2A65m/D/CIfQIV95Tt9m22c=.ed25519",
-      "%+kE3Q3ZazoBXZHBq2KUeCmFTxi+ASaw+Va3XJPu5A1o=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
-    },
-    "channel": "hamradio",
-    "recps": null,
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\n> SSB should be legal over ham radio in the US as long as you don't transmit someone's feed that contains private messages\n\nThat's my understanding as well. This made me realize how useful it would be to have all of my private messages on a separate feed:\n\n- my public feed would be legal to broadcast over amateur radio\n- peers can choose whether they trust me enough to replicate my encrypted content\n- removing timestamp data from the private feed would make time correlation harder\n  - we could already do this, but our public messages hint at when the private message was sent\n\nI'm super excited for all the possibilities once #same-as is rolled out.",
-    "mentions": [
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "#same-as"
-      }
-    ]
-  },
-  "signature": "TZPHWbZ3DICIAFRHz7WrEFfkJF9W9Ieru3nPoYR3OA/sAV8xQC9cMge5gdJOBQSkYMA8v+Qhu2N0OQiiLjqNCQ==.sig.ed25519"
+  "content": "Q7OxaBn1gAy+381vW8UTD+S9lVaFQsQqjcPVEHPv65cuh4GPpILBZJet8RqruqEU8rtNbMUeTDd828uEJHtNp0dhBn/TwL8xW+4p6kFKEATl+uonhBERtrJm4T0LjVZ8ZWCA2QexJAys6ZhFmDpcC01Qj52p0mb3n9e7N+nRln/WR0pQ9kRCZlhor0lXyfyj3SRwtRi5OAI9t2tR3MeuH8JMmxhYggGV1r4h2MZp1umajmTYDs7QuGOXsZi0I1V7IRIIvfebVHpWK1WWafF8Cc9rqs9iSyVP5Lvwn2TnzO3GoaeGhvL2wyiY1cg4T42F3xO+TTrUVgnDXEskR0kflEuap6nxkNwnws0aWVDcdmogEcE+gc7Q8Y56nxYaJgtx145mYeeKB8THCiG4QF3GhVEZGYCU52ZRys+JwgD9ggMTKcx09d1M9ed63C4FGRaJGu8lW2g5C6ls6Jwxbzl1qGzUKfEJh3jd9PyzXLJNhmJnfZJ0VA4qJ8+LS62TMC2mRvj2yrT9qyVIyG6VRUrZDbOIj+JtQL4B95KEM8K5vFcUm/Tb3EJa2ugGvjrbnZjq18pm8au9F0bPaSE8a+1WiNk6c+s5ZnftQNHOsMNF+p0bWTKvW1nI9IaSlb5dL8sEv//zLJcLY+FI8ogPoyrSpmsv+r9IBqebRliz6jr7G6S6AixwelYrOdGvJRVl7ndY.box",
+  "signature": "qVTJWM9OtSSFVx0775aLb2uvIxo9ApmNSv+2OX8Ay24N+gahrJ2LsOPCxR2pk/yY8IyvTENwFljSr623EMN7BA==.sig.ed25519"
 }
