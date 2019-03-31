@@ -1,25 +1,12 @@
 {
-  "previous": "%vxYCiLhlbYdNU7iS9xFWWUG7NV2qen8+RlmDLXnkbs8=.sha256",
-  "sequence": 9536,
+  "previous": "%Up0ld/iXjvmm+/aFpmGfjT7CFnF7MKMdqKb8DWZ5yV8=.sha256",
+  "sequence": 9537,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554048214429,
+  "timestamp": 1554048228715,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%riYteTT8OS1Xl/nJOVveJiwSxxYNTgYdV7wLJS8++Xk=.sha256",
-    "branch": "%riYteTT8OS1Xl/nJOVveJiwSxxYNTgYdV7wLJS8++Xk=.sha256",
-    "reply": {
-      "%riYteTT8OS1Xl/nJOVveJiwSxxYNTgYdV7wLJS8++Xk=.sha256": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519) \n\nHey, sorry that's giving you some trouble. It sounds to me like you *only* want to connect to pubs that you're manually followed, is that correct? The current implementation peers with every pub that it can, so when your friends connect to a pub then your client adds those details to a file (`~/.ssb/gossip.json`) and peers with them often to get messages from people you follow.",
-    "mentions": [
-      {
-        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
-        "name": "Kaotisk Hund"
-      }
-    ]
+    "type": "tag",
+    "version": 1
   },
-  "signature": "PLU2EU6OSL+11pXbXvoIm18ImFhwfdS8B2B59jFfzI3SEMGeYLAC/0FM8Dj3rPGbHsb5TfOk1PugHbAMnUUJCA==.sig.ed25519"
+  "signature": "XuKsp/m3Mknisb4YNNURxzZXcL68Zw7lkPVKqMedcjQVFDSM2Snoi5Y4vBRr8lt+hXqg+E9jnCL36l5qFoA8Ag==.sig.ed25519"
 }
