@@ -1,26 +1,17 @@
 {
-  "previous": "%KXi6BtExJgUzV+BlUOMDQOwoyAC+SJGFLD6WYrlpb4I=.sha256",
-  "sequence": 9560,
+  "previous": "%SyfQlFqvyO2BE5GFTTnpuqnq49uwnNCIY3FvZtgJGp0=.sha256",
+  "sequence": 9561,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554150124811,
+  "timestamp": 1554150310278,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%u9MxCSlBAXcGh7MnGSVPr15xhaTLtxKfF9I5ypeWvKQ=.sha256",
-    "branch": "%9h3iVNLNcLw7KFsMNP4R1Cn+Bs/8KhVqDVlIBU51uUI=.sha256",
-    "reply": {
-      "%u9MxCSlBAXcGh7MnGSVPr15xhaTLtxKfF9I5ypeWvKQ=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%9h3iVNLNcLw7KFsMNP4R1Cn+Bs/8KhVqDVlIBU51uUI=.sha256": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "cc: [@jimpick](@XdApp72tocY2mRvkyzt/C1nDKT/3lAS0ZK6Hw6GKxnY=.ed25519) (%hWueccdBA1UKEa24HnrEtIP+yTKBm02rOpdeLpEaMJ8=.sha256)",
-    "mentions": [
-      {
-        "link": "@XdApp72tocY2mRvkyzt/C1nDKT/3lAS0ZK6Hw6GKxnY=.ed25519",
-        "name": "jimpick"
-      }
-    ]
+    "type": "vote",
+    "channel": "pirate-movies",
+    "vote": {
+      "link": "%Mr6UGi+/gqUi/JHppmhM1t44X6ub2hAxSwvAz3b88SY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "zZgLQOGa9NLZSSW6q+LHfjrgI+7fqeIatRbel1cKiLUrpciGXg62spWsQdgQG8rXpfMZgo/nElsnQTN0pVH8Bw==.sig.ed25519"
+  "signature": "KYrwHossgs/85qdDSKQnGhdSK/Z/2VeJA5iQRw3NqWZPJaaWgfnDWjqXET6Ytv6d+vzbZwPuWcqLEefW3tYYBA==.sig.ed25519"
 }
