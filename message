@@ -1,13 +1,26 @@
 {
-  "previous": "%HucfuSBQicuCSNAhd1apU1SHGnYur9djZqPN+DxlffE=.sha256",
-  "sequence": 9552,
+  "previous": "%k1A02YPtQBMm1QPFj6ICld080xmSTlZpz06KtkyHs3A=.sha256",
+  "sequence": 9553,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554080374349,
+  "timestamp": 1554129968872,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Quick note: I think I'm going going to start tagging messages as \"help\" when it's a problem or a request for some sort of help. Please direct any discussion toward this thread if it becomes helpful or annoying. 🙃",
-    "mentions": []
+    "root": "%riYteTT8OS1Xl/nJOVveJiwSxxYNTgYdV7wLJS8++Xk=.sha256",
+    "branch": "%A/RzTe+6Juat+U3DpAs5V9GXjJYrAiAH/ecXg0XQZq8=.sha256",
+    "reply": {
+      "%riYteTT8OS1Xl/nJOVveJiwSxxYNTgYdV7wLJS8++Xk=.sha256": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
+      "%A/RzTe+6Juat+U3DpAs5V9GXjJYrAiAH/ecXg0XQZq8=.sha256": "@PZjQKGbh9KrWHAp1lo9nH/WXqGLp5rpqpVYLccJLkE4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519) \n\nI think it might be useful to zoom out a bit -- is there a problem you're looking to solve, or some privacy guarantees you're looking to achieve? I'm not sure whether you're just trying to peer with your own pub *or* if you want to be on a completely different network key.\n\nWhen you start Patchwork from the command line it should output `config.caps.shs`, could you verify that the same key is being used on both the client and the server?\n",
+    "mentions": [
+      {
+        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
+        "name": "Kaotisk Hund"
+      }
+    ]
   },
-  "signature": "Ph5gjqnRxS4nm3veA1hZnb8dYGq/3D+z+7Aztrvid8/UO/m8mE2bTLoQGtmz/DVziYSPJfDg98ifjmXJJxCeCw==.sig.ed25519"
+  "signature": "nYub6P457xCwoA+Jph7X+IgspDvo//HHLNYWgQydDd+FDU+70gcGRCBHn774Il8e8ZfS+IN1I45vp4JlXrhWAA==.sig.ed25519"
 }
