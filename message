@@ -1,17 +1,25 @@
 {
-  "previous": "%o9RMzexqzjb+rqWmtByMBUCEcqiBKf+D91C1x/kUx8o=.sha256",
-  "sequence": 9569,
+  "previous": "%d6r26E8iuafiUK+Hwu2WW+GKtr3lm/r+gvJS8FgzSRA=.sha256",
+  "sequence": 9570,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554227143023,
+  "timestamp": 1554227422408,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%e0i54FOaoo9++xZobDNEg4MYFY8NiXWjEOWRMSLm+JA=.sha256",
+    "branch": "%e0i54FOaoo9++xZobDNEg4MYFY8NiXWjEOWRMSLm+JA=.sha256",
+    "reply": {
+      "%e0i54FOaoo9++xZobDNEg4MYFY8NiXWjEOWRMSLm+JA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%e7Hnp1cP9URc9fmbGneFQcsiyABwa/c0O61at31BC2M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I *think* [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) shared the answer [on GitHub](https://github.com/mmckegg/mutant/issues/27#issuecomment-478811645):\n\n> There is some evolutionary tree stuff going on with all of these js observable modules :laughing:\n> \n> ```\n>   observable\n>       |\n>     observ\n>     /    \\\n> mutant    obv\n> ``` ",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "hRHEvIyWUIp++X4C1sczVXQr4ph1n+TI/St/PtrgRLIPfjYZNHVHROsg/WvYIypTAybb8xzafEKz6MpZEjSKBg==.sig.ed25519"
+  "signature": "TryyQOofj1EL4cQIw5OpQvbGWYn/aVCZVJs/Wn+MLq501VM+GY7AUP3n0TVh8KjCS/N7JhkGgtKNNPuHaQlaAQ==.sig.ed25519"
 }
