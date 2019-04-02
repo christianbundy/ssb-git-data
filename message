@@ -1,9 +1,25 @@
 {
-  "previous": "%dOMpb7uA5KjdynFKzQXT8lEW5kR3Jm7uMdHwEKuKi2c=.sha256",
+  "previous": "%t344z2I+7xLJQWk8b8u6/tN3fzC+PxxTauDVg39Bql4=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9571,
-  "timestamp": 1554231489475,
+  "sequence": 9572,
+  "timestamp": 1554232180753,
   "hash": "sha256",
-  "content": "RkMbXzFbZ7F2Le+gT7p2V91dK4ed32hV7ocnULD5feMk+9hvUAO6epVDB/8FVEXuxZoUvGC/c1pzBK215n52mO+qJI6lkiO5zVNS79CTQFL6dzLG7zA/VLTEcQpwrDpvboS/CZGpfjoYGaYVL9OYfqy37x8wt8uXLcby9l4Q0WPFVLvpL3IFiHbCU0cu9fGW1OTlQxGahB2P88HSDHOyc2UPnuZgVrGzO2HG016mc+UnveT9yyj6yiBx3GOz6kPx9qoUU2cDDhA8+yWNv/Wj8Cytqbzvds3zSNTEMoRBNu4rbIst6VxBxLvYXKylHLxq8gubpoOXw3WGBy8EUPjVM3nLNUXTKXcYHRUirJk+DVUsfZayBfUq+2bonvAyqWroTyDjgoXUV8jc1GLyG3oNonpSKF4ejrL6CFVnco+x6/57W7pXOYVqMSUatD9cC1r55OAszAZhNagEjawE+zReXSzBKwYaITAla5324lVYJdoQIAndaLTIn1Br6SEUxjE1fH6C+7Ne8Wpz8FDVsVrtK8JHvgA3K60qRK2MvEDV4N8Ua29mGzsvA1zQxaQ1jMdVn4vqygNxTY8lTT0zB0Db5UZAmGr/Kg==.box",
-  "signature": "SCtHNOtSm59mTzUrrc3L1dML2iUcKyHkmg6GKIHzYmFFIV43YPLFbCUiY8jRT1qtqtyAp4YF8OjPDntbRY1dDA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%B0o3/m3uyrjleLNEH2zF3Ov6gddbLY4JU9o+tUY6Ir0=.sha256",
+    "branch": "%UFEyiTED2+NskeMiTphAUi0wRy0znBOlTfywQ7ZcrRg=.sha256",
+    "recps": null,
+    "text": "[@Charles C Hutchins](@KqyUyyHYCaB7j8PcxlhpT8HgGHnGAr6E1MB5Yxqcqe0=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nIt should be super possible, maybe even easy. The necessary components should be:\n\n- a pi that runs a basic ssb-server\n- a script that:\n  - checks the equivalent of `ssb-server status | jq '.gossip | to_entries[] | select(.value.source == \"local\") | .key'`\n  - checks ssb-friends to filter out feeds that it already follows\n  - follows the remaining feeds\n\nI'll update this thread if I end up implementing it. :~)",
+    "mentions": [
+      {
+        "link": "@KqyUyyHYCaB7j8PcxlhpT8HgGHnGAr6E1MB5Yxqcqe0=.ed25519",
+        "name": "Charles C Hutchins"
+      },
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
+  },
+  "signature": "gkQbXqZjMsfT8VP6oUDoyJkJ4ssKNtlrErn5TEjgNJDs0Vq2HWC3diUuIlh3i/KJLGkmeooQ2hB5ML6G8fCrAA==.sig.ed25519"
 }
