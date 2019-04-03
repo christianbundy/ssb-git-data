@@ -1,25 +1,16 @@
 {
-  "previous": "%t344z2I+7xLJQWk8b8u6/tN3fzC+PxxTauDVg39Bql4=.sha256",
+  "previous": "%rHm9CR4dZzdQy+iNo8jujgMHHWQNuG+UZGyc4PPi+60=.sha256",
+  "sequence": 9573,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9572,
-  "timestamp": 1554232180753,
+  "timestamp": 1554306212752,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%B0o3/m3uyrjleLNEH2zF3Ov6gddbLY4JU9o+tUY6Ir0=.sha256",
-    "branch": "%UFEyiTED2+NskeMiTphAUi0wRy0znBOlTfywQ7ZcrRg=.sha256",
-    "recps": null,
-    "text": "[@Charles C Hutchins](@KqyUyyHYCaB7j8PcxlhpT8HgGHnGAr6E1MB5Yxqcqe0=.ed25519) [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nIt should be super possible, maybe even easy. The necessary components should be:\n\n- a pi that runs a basic ssb-server\n- a script that:\n  - checks the equivalent of `ssb-server status | jq '.gossip | to_entries[] | select(.value.source == \"local\") | .key'`\n  - checks ssb-friends to filter out feeds that it already follows\n  - follows the remaining feeds\n\nI'll update this thread if I end up implementing it. :~)",
-    "mentions": [
-      {
-        "link": "@KqyUyyHYCaB7j8PcxlhpT8HgGHnGAr6E1MB5Yxqcqe0=.ed25519",
-        "name": "Charles C Hutchins"
-      },
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%S/U91hhKbCVs7WA6E6bfBgJ0FbUV2aINzY91ZCjEXak=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "gkQbXqZjMsfT8VP6oUDoyJkJ4ssKNtlrErn5TEjgNJDs0Vq2HWC3diUuIlh3i/KJLGkmeooQ2hB5ML6G8fCrAA==.sig.ed25519"
+  "signature": "vR6bNIQ/VS0jTMTgOAxxXKjIgHsf2Rly25ZPsA/+fFDVUwXHFSRiJ7MGzLx3yc3t30/dAFIzKuvFGnMgmq6fAA==.sig.ed25519"
 }
