@@ -1,17 +1,30 @@
 {
-  "previous": "%EwvF8xoGud6vBWVGyXblNRcFEaonC8EAVg5By3/TmmU=.sha256",
-  "sequence": 9577,
+  "previous": "%16E0YkwfQX1hNsnZWqB34RRBmLnG9Ft+irC0LC7EDoI=.sha256",
+  "sequence": 9578,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554307201075,
+  "timestamp": 1554309371570,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchfox",
-    "vote": {
-      "link": "%8T0ceC1lLro+DJiepg9wi01XnscU3ReMwkXe/eb86Ds=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "> # [WiPhone, A Phone for Hackers and Makers](https://www.kickstarter.com/projects/2103809433/wiphone-a-phone-for-hackers-and-makers)\n>\n> WiPhone is a VoIP mobile phone designed for hackers and makers to be easily modified, repurposed, and adapted.\n>\n> [...]\n>\n>WiPhone is a unique, minimal phone.\n>\n>It's designed to enable hackers by making it easy to extend and modify the electronics and software. Something typical phones are not good for.\n>\n>WiPhone is also a VoIP mobile phone. It uses WIFI to make HD voice calls, for free. This means that there is no required service contract - and it's yours for life.\n\nMaybe useful? I don't think I'd like to buy another smartphone but assuming I don't buy / build a [pager](%ev6LoTts1iZqCmUkAjSMvghE9WGj9VJZPWKTSABzPko=.sha256) this seems like it might be a nice option. I'm assuming a setup like:\n\n- cell phone for emergencies, probably powered off 99% of the time\n- voip phone for basic remote communication (encrypted when possible)\n- computer for needs that aren't handled by a cell phone or a voip device\n\n#telephony #phone #wiphone #voip ",
+    "mentions": [
+      {
+        "link": "%ev6LoTts1iZqCmUkAjSMvghE9WGj9VJZPWKTSABzPko=.sha256",
+        "name": "pager"
+      },
+      {
+        "link": "#telephony"
+      },
+      {
+        "link": "#phone"
+      },
+      {
+        "link": "#wiphone"
+      },
+      {
+        "link": "#voip"
+      }
+    ]
   },
-  "signature": "DCjUu17AQTuM4pGb1XWNXoustKYRSDS3TuGge8krux4TzEsYtP/tUoROJOgDESr7Z40KFxh15otiqhWlFvqQBg==.sig.ed25519"
+  "signature": "kffJ56rY3lKNRgY6a+AfM7/+h0hpMRcgafswxYq3LNEev1STucNtUCZ2maevNxWyB6qygBePCrnandnC+T9EBg==.sig.ed25519"
 }
