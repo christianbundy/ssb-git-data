@@ -1,13 +1,30 @@
 {
-  "previous": "%B7TW35s2TJw0k3xyZvlxKEsu5iVfMsQL6Cw6blZVlyg=.sha256",
-  "sequence": 9580,
+  "previous": "%CxnP4tldtrKDoWaSqEVm9UsHIeFsROTKz878gYB6pB4=.sha256",
+  "sequence": 9581,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554319582097,
+  "timestamp": 1554323833546,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> # [The Alt-Right Playbook: A YouTube Playlist](https://www.youtube.com/watch?v=4xGawJIseNY&list=PLJA_jUddXvY7v0VkYRbANnTnzkA_HMFtQ)\n>\n> - Introduction\n> - Control the Conversation\n> - Never Play Defense\n> - What I Mean When I Say \"The Right\"\n> - Mainstreaming\n> - The Ship of Theseus\n> - The Death of a Euphemism\n> - You Go High, We Go Low\n> - White Fascism\n> - The Card Says Moops\n> - Always a Bigger Fish\n> - The Origins of Conservatism\n\nI've seen these videos linked a few times around the web and thought I'd share here. I'd be keen to hear any insights (or criticism) any of you have on the series.",
-    "mentions": []
+    "root": "%Bbu6q874/3OvmCmkMPiDMLmL2j+0eg5NwwfWRs2Y0Ps=.sha256",
+    "branch": "%8uEyj1kaCdfhMqwKVgWh/cwAk9ZtJ1b1Bw0S4v8Zo9E=.sha256",
+    "reply": {
+      "%Bbu6q874/3OvmCmkMPiDMLmL2j+0eg5NwwfWRs2Y0Ps=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%8uEyj1kaCdfhMqwKVgWh/cwAk9ZtJ1b1Bw0S4v8Zo9E=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nYeah, I don't *think* I'd mind the width but that's a good observation. I'd love to see photos with other objects for scale.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> but can it form a mesh network and gossip text messages between other wiphones?-\n\nI'd imagine so -- [their website](hkd.wiphone.io) advertises a [LoRa](https://en.wikipedia.org/wiki/LoRa) daughterboard, I think the trick would be implementing Scuttlebutt in Arduino/MicroPython.  ",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "YwEquZdZfTSRKrkuT/2l5bxvI57bJ0tj8s1CnvH8gyioDH1E5Atv29zMKCuYlPyXqiOIjrcN4De2rMaJ61H3Cw==.sig.ed25519"
+  "signature": "/P2Qw67U7cTLtZ3CkuqpoBT3I0XGGMaOJpSM9hle8TUhRrCbrl0aPX3gmkBmpqmN6tMe1LpBH4s66djU3RwwDA==.sig.ed25519"
 }
