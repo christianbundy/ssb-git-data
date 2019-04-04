@@ -1,12 +1,30 @@
 {
-  "previous": "%D//mCIZsCZFxSuSMvVvXWw0YxtCtBgGUZOwvmAO3Nqk=.sha256",
+  "previous": "%Z+0+dWyfeiAVy6L0BkSGEeIjI8nm1z5Gcih7FW6MM+4=.sha256",
+  "sequence": 9595,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 9594,
-  "timestamp": 1554409720658,
+  "timestamp": 1554415838854,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> # [Boltzmann brain](https://en.wikipedia.org/wiki/Boltzmann_brain)\n>\n> In physics thought experiments, a Boltzmann brain is a self-aware entity that arises due to extremely rare random fluctuations out of a state of thermodynamic equilibrium. For example, in a homogeneous Newtonian soup, theoretically by sheer chance all the atoms could bounce off and stick to one another in such a way as to assemble a functioning human brain (though this would, on average, take vastly longer than the current lifetime of the universe). \n\n🤯"
+    "root": "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256",
+    "branch": "%8TVxq1Q7F/fKu4XjtN2c+DeoqsFcZ+oxjHbXyn17DbM=.sha256",
+    "reply": {
+      "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256": "@uysyXWRXsRD8N13ux57niW/CjZRoDVlilFRi9wpI6BQ=.ed25519",
+      "%8TVxq1Q7F/fKu4XjtN2c+DeoqsFcZ+oxjHbXyn17DbM=.sha256": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519) \n\nIn this model a Dat archive corresponds to a Scuttlebutt feed. One of the big differences is that in Scuttlebutt we store all feeds in a single database whereas Dat tends to store each archive in its own directory. It's easy to say \"get me all of the chess messages from all Scuttlebutt feeds in the order that they were received\" because they're all in one append-only file, whereas doing the same with the current Dat implementation could be complex and resource-intensive.\n\nI think there's a lot of potential here, but I've been waiting until I have an hour or so to organize my thoughts and make a post. If you haven't already seen them, I highly recommend the wonderful guides by [@duncan](@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519), which are admittedly more concerned with the protocol than the implementation:\n\n- https://ssbc.github.io/scuttlebutt-protocol-guide/\n- https://datprotocol.github.io/how-dat-works/",
+    "mentions": [
+      {
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
+      },
+      {
+        "link": "@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519",
+        "name": "duncan"
+      }
+    ]
   },
-  "signature": "mzooE2cTmCiet0DKJ8dhI8IRkM225hBkiquy7uhqsyiwhpxZOt9gIL13bfSZB04Z0GF3uWhKkEdcarPxWNg/BA==.sig.ed25519"
+  "signature": "vtGwyLzyVQZkCRdm7AMh5cLr0AL12CrrW5aJ3e/uBefu7lj8tSYuUpYDVLT3Q4UcvkywP1/DRK1GaZaenj5WBA==.sig.ed25519"
 }
