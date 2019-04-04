@@ -1,26 +1,21 @@
 {
-  "previous": "%0LyGbxsayaRTo+tV3WeI8STJom8blpGL40LKNcVCfLw=.sha256",
-  "sequence": 9587,
+  "previous": "%sdQLa6zzm4D9kWrlNqJBtNSwlw/Nk43o/8unYzs5QBY=.sha256",
+  "sequence": 9588,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554402674026,
+  "timestamp": 1554403269979,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1sRpfZaAUbWH4Vnjeh/rGMR8VCSLEPATjr/OMGYAlek=.sha256",
-    "branch": "%1NqDe9Oe+i/+BN8yQUBJivODS4ZJHo8aumNZ84Vsajw=.sha256",
+    "root": "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256",
+    "branch": "%rfq5DG0iKG3eUAHUpE0Ymn4rGGyAYH42sol120GIxD4=.sha256",
     "reply": {
-      "%1sRpfZaAUbWH4Vnjeh/rGMR8VCSLEPATjr/OMGYAlek=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%1NqDe9Oe+i/+BN8yQUBJivODS4ZJHo8aumNZ84Vsajw=.sha256": "@/VouD2YMzJsJp3LjxkbP/+XmD/xJ45lx7Jq+ETOKClI=.ed25519"
+      "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256": "@uysyXWRXsRD8N13ux57niW/CjZRoDVlilFRi9wpI6BQ=.ed25519",
+      "%rfq5DG0iKG3eUAHUpE0Ymn4rGGyAYH42sol120GIxD4=.sha256": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519"
     },
-    "channel": "birthday",
+    "channel": null,
     "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nHappy birthday! You've still got another 13 hours of birthday left in my TZ, it ain't over yet.\n\n```\n                                    .      .          .\n\n                         *       .    .           .\n                   .          .       .   *\n                                 .            .\n                       .        .    +              .\n                          .        .       .\n                   .          +         .  *      +\n                         .* . .     .      .    .    .\n                      .       .    ,`',          .\n                          . .    -`   -      .+\n                       .  . +    ~,(.~     .* .\n                    .    .  .       ).._     .   .\n                           *    .:::::%%   .\n                         .     :::;;%%%$\n                               :::::;%%$          .\n                               :%::%:;%$\n                              .:%::::;%$\n                              `\"%:::;;$$\n                            ___ %:::;%%$ ___\n                      .--~'^    %:;:%%$$    ^`~--.\n                   .:'          `^\"\"\"\"^'          `.\n                  (  `~ - ,. _ _       _ _ . ,-  ~`:.\n                  `:             `~~~~'             :\n                   |:_.'`:                    ..    )\n                   `|%%%%`;      .-,.      ,-'##`._.'\n                    |:%%%%$`:.,/'$$$`:   ,;#######|\n                    `|:%%%%%%$$$%$$$$$`~'$#######|'\n               ___,--`|%%%%$%%%$$$$$#$$#$#######|'---,___\n         __,~~~       |:%%%%%$%$%$$$$$$$########|        ~~~-..\n     .-~^             `|%%%%$%%%$$$$$#$########|'              ~-,_\n    (                   `^^-%%%$$%$$$$$####-^^'                    :.\n    :;                                                              :.\n    ::~~ ..                                                       .,;'\n    `:.     ~ .. .                                        ..  ~     :\n     `:.             ~     ...   .  ..    ..    .    ~            .:'\n      `:.                                                         ::\n       `::.                                                       ::\n        |::.     ,:\"\"`:.                  .:'~`:.     .:~;.,;~;.  `:\n        `| `:.,;'   .  `:.     .:~;.    .:'     `:..,:'        `:.;'\n         |:          :   `:..,:'   `:.,:'          .           :| \n``` ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "text": "I think this would work if we used flat files like Dat (plus, of course, metadata), but currently all of the messages are saved to `~/.ssb/flume/log.offset`. I think we could dual-publish posts to both Scuttlebutt and Dat using the same keypair, but the current stack isn't well-suited to use a Dat archive.\n\nFor example, when a client asks for a stream of all messages with `{ type: \"post\" }`, there doesn't seem to be a simple way to query *all* Dat archives for that content. I'm planning on collecting my thoughts and starting a big thread about this in the next few days, I'd love to cc you for feedback!",
+    "mentions": []
   },
-  "signature": "jzNjFmsyZ7Mp+QUcVSN2rkAC3pHACxAolhC/3yphO2TE5U0DidiWyvQX0xow6EyVSyGEP1lkjncCkcv+JuzTDg==.sig.ed25519"
+  "signature": "EQ1gkGTG401uxaNwZKkQEBijmOHPXnwv/Rv3Gd6T4qY280KUe45IUhJ/hIINHfR0JAsYJ2hzsCJoyMNiAE8eBQ==.sig.ed25519"
 }
