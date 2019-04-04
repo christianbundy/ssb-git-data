@@ -1,21 +1,49 @@
 {
-  "previous": "%sdQLa6zzm4D9kWrlNqJBtNSwlw/Nk43o/8unYzs5QBY=.sha256",
-  "sequence": 9588,
+  "previous": "%Ybt05l9dvsG519cKlr0G8vrSB+Bjp30C8K0LhsisEiI=.sha256",
+  "sequence": 9589,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554403269979,
+  "timestamp": 1554404686506,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256",
-    "branch": "%rfq5DG0iKG3eUAHUpE0Ymn4rGGyAYH42sol120GIxD4=.sha256",
-    "reply": {
-      "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256": "@uysyXWRXsRD8N13ux57niW/CjZRoDVlilFRi9wpI6BQ=.ed25519",
-      "%rfq5DG0iKG3eUAHUpE0Ymn4rGGyAYH42sol120GIxD4=.sha256": "@VRAbRs/uMR2qdfiRNx2+1XRXePjJ75suZAmhGYZihks=.ed25519"
+    "type": "poll",
+    "details": {
+      "choices": [
+        "2019-04-09T15:00:00.000Z",
+        "2019-04-09T18:00:00.000Z",
+        "2019-04-09T19:00:00.000Z",
+        "2019-04-09T23:00:00.000Z",
+        "2019-04-10T00:00:00.000Z",
+        "2019-04-10T01:00:00.000Z",
+        "2019-04-10T02:00:00.000Z",
+        "2019-04-10T03:00:00.000Z",
+        "2019-04-10T15:00:00.000Z",
+        "2019-04-10T18:00:00.000Z",
+        "2019-04-10T19:00:00.000Z",
+        "2019-04-10T23:00:00.000Z",
+        "2019-04-11T00:00:00.000Z",
+        "2019-04-11T01:00:00.000Z",
+        "2019-04-11T02:00:00.000Z",
+        "2019-04-11T03:00:00.000Z",
+        "2019-04-11T15:00:00.000Z",
+        "2019-04-11T18:00:00.000Z",
+        "2019-04-11T19:00:00.000Z",
+        "2019-04-11T23:00:00.000Z",
+        "2019-04-12T00:00:00.000Z",
+        "2019-04-12T01:00:00.000Z",
+        "2019-04-12T02:00:00.000Z",
+        "2019-04-12T03:00:00.000Z"
+      ],
+      "type": "meetingTime"
     },
-    "channel": null,
-    "recps": null,
-    "text": "I think this would work if we used flat files like Dat (plus, of course, metadata), but currently all of the messages are saved to `~/.ssb/flume/log.offset`. I think we could dual-publish posts to both Scuttlebutt and Dat using the same keypair, but the current stack isn't well-suited to use a Dat archive.\n\nFor example, when a client asks for a stream of all messages with `{ type: \"post\" }`, there doesn't seem to be a simple way to query *all* Dat archives for that content. I'm planning on collecting my thoughts and starting a big thread about this in the next few days, I'd love to cc you for feedback!",
-    "mentions": []
+    "title": "Thread call!",
+    "closesAt": "2019-04-07T19:00:00.000Z",
+    "version": "v1",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "EQ1gkGTG401uxaNwZKkQEBijmOHPXnwv/Rv3Gd6T4qY280KUe45IUhJ/hIINHfR0JAsYJ2hzsCJoyMNiAE8eBQ==.sig.ed25519"
+  "signature": "iCfFcZxKLSkgHBSMuCvCWZHSPZe4lkXtV7u4SQeoWdrhYisu+EFyvBu3cMnmDVKMRFm+dSn02Rt3rsksDr+gBw==.sig.ed25519"
 }
