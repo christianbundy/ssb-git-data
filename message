@@ -1,13 +1,27 @@
 {
-  "previous": "%cw3BLKvaw1rFOiDrfJN3Iv9xC3f9WBv6RCOMafPGzIo=.sha256",
-  "sequence": 9601,
+  "previous": "%oJVaIYs0lGtrDAWD/UR5ilzuoXTAlPFG5wI9fjpgnmM=.sha256",
+  "sequence": 9602,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554499453954,
+  "timestamp": 1554499988261,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@0000000000000000000000000000000000000000000=.ed25519",
-    "image": "&BMXWZJnodHHMgnJLSiVOz5iOzuxxZQ4zBjw4k3XqrcA=.sha256"
+    "type": "post",
+    "root": "%cw3BLKvaw1rFOiDrfJN3Iv9xC3f9WBv6RCOMafPGzIo=.sha256",
+    "branch": "%cw3BLKvaw1rFOiDrfJN3Iv9xC3f9WBv6RCOMafPGzIo=.sha256",
+    "reply": {
+      "%cw3BLKvaw1rFOiDrfJN3Iv9xC3f9WBv6RCOMafPGzIo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Sort of interesting -- you can set SVG images as your profile photo, but the content type isn't being set correctly. For example, here's the same image embedded in a post:\n\n![smile.svg](&BMXWZJnodHHMgnJLSiVOz5iOzuxxZQ4zBjw4k3XqrcA=.sha256)\n\nTL;DR: I got curious whether I could take a raster photo and add some motion and ended up with this monstrosity.",
+    "mentions": [
+      {
+        "link": "&BMXWZJnodHHMgnJLSiVOz5iOzuxxZQ4zBjw4k3XqrcA=.sha256",
+        "name": "smile.svg",
+        "type": "image/svg+xml",
+        "size": 45220
+      }
+    ]
   },
-  "signature": "rX23BxRSXn8Uu6vsCKl6fEFxq+Suc0A7fKpn3bHI7IgAjjhwezWgg8XHRtLQKKzT7YhN4UT7HiR9XQqNIH5CDw==.sig.ed25519"
+  "signature": "aQHS+7MruNYbG2iBdflBsSUdJxoJjjkobMAhLE6JlpW2iOZ/0JImIpkdJKvLawY0FnBaZfEDnRb59AKox/FqAg==.sig.ed25519"
 }
