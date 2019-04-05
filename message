@@ -1,29 +1,26 @@
 {
-  "previous": "%Iraocz+ZtyRTMupN2foVRZODSVrX8ZAN4qTBhu0En7s=.sha256",
-  "sequence": 9598,
+  "previous": "%hmEgHEHKY/WLcEkYo4oOkHwbVIOIZPz/rgBIYMrz7Hc=.sha256",
+  "sequence": 9599,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554482205068,
+  "timestamp": 1554483921707,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%JMA1AWUePMpTmLrioJOidvLx0NhdGHqBz0dbCTOzHjo=.sha256",
-    "branch": "%JMA1AWUePMpTmLrioJOidvLx0NhdGHqBz0dbCTOzHjo=.sha256",
+    "root": "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256",
+    "branch": "%GGJI8f3FR3czTiemyJ21JCZkEmOBOqkdumoyznHELFU=.sha256",
     "reply": {
-      "%JMA1AWUePMpTmLrioJOidvLx0NhdGHqBz0dbCTOzHjo=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+      "%CcznLs/2B5LbalHLu8S3tOtm2st98PYVF86bGFnaaY0=.sha256": "@uysyXWRXsRD8N13ux57niW/CjZRoDVlilFRi9wpI6BQ=.ed25519",
+      "%GGJI8f3FR3czTiemyJ21JCZkEmOBOqkdumoyznHELFU=.sha256": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519"
     },
-    "channel": "selfie",
+    "channel": null,
     "recps": null,
-    "text": "Thanks [@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519), that's super sweet.\n\nIt felt a bit strange to stare into the camera while [@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519) took photos of me, but I wanted some photos a bit more professional than the bathroom mirror cat backpack. Bummed to have left the *has a cat in their profile pic* club, but I'm sure I'll join you again soon. 😸",
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519) \n\nI think we may be talking about different things when we say \"Dat\". I'm focused on the current implementation rather than what's in the spec, and *currently* I'm not familiar with how to use Dat without Hyperdrive. Maybe you could point me in the right direction? For example, here's the CLI helptext:\n\n```console\n$ dat --help\n\nUsage: dat <cmd> [<dir>] [options]\n\nSharing Files:\n   dat share                   create dat, import files, share to network\n   dat create                  create empty dat and dat.json\n   dat sync                    import files to existing dat & sync with network\n\nDownloading Files:\n   dat clone <link> [<dir>]    download a dat via link to <dir>\n   dat pull                    update dat & exit\n   dat sync                    live sync files with the network\n\nInfo:\n   dat log                     log history for a dat\n   dat status                  get key & info about a local dat\n\nDat public registries:\n   dat <cmd> [<registry>]      All commands take <registry> option\n   dat register                register new account\n   dat login                   login to your account\n   dat publish                 publish a dat\n   dat whoami                  print active login information\n   dat logout                  logout from active login\n\nStateless/Shortcut Commands:\n   dat <link> [<dir>]          clone or sync link to <dir>\n   dat <dir>                   create and sync dat in directory\n\nTroubleshooting & Help:\n   dat doctor                  run the dat network doctor\n   dat help                    print this usage guide\n   dat <command> --help, -h    print help for a specific command\n   dat --version, -v           print the dat version\n\n  \nGeneral Options:\n    --dir, -d             set the directory for Dat\n    --port                port to use for connections (default port: 3282 or first available)\n    --utp                 use utp for discovery (default: true)\n    --http                serve dat over http (default port: 8080)\n    --sparse              download only requested data (default: false)\n    --up                  throttle upload bandwidth (1024, 1kb, 2mb, etc.)\n    --down                throttle download bandwidth (1024, 1kb, 2mb, etc.)\n\nHave fun using Dat! Learn more at docs.datproject.org\n```\n\nMaybe it's just too early in the morning, but I don't see a way to publish directly to the append-only log *without* using hyperdrive. The [dat-node](https://github.com/datproject/dat-node) implementation seems to do the same thing. I've found the [Hypercore](https://github.com/mafintosh/hypercore) module, which seems to give me access to the append-only log without including Hyperdrive, but that's a *component* of Dat. From the whitepaper:\n\n> The Dat storage, content integrity, and networking protocols are implemented in a module called Hypercore. Hypercore is agnostic to the format of the input data, it operates on any stream of binary data. For the Dat use case of synchronizing datasets we use a file system module on top of Hypercore called Hyperdrive.\n>\n>  Dat has a layered abstraction so that users can use Hypercore directly to have full control over how they model their data. Hyperdrive works well when your data can be represented as files on a filesystem, which is the main use case with Dat.\n\nI can see that it mentions a \"layered abstraction\", so it seems *possible* to disregard Hyperdrive and operate directly on Hypercore, but the reference implementation doesn't seem to prioritize that sort of thing.\n\nDoes that make more sense with the above context?",
     "mentions": [
       {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      },
-      {
-        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
-        "name": "kathleen"
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
       }
     ]
   },
-  "signature": "TXspyq7W5MsfUqE2AKYSjTnaCSey4nmCIjic8fhVZ8+XgjXHAPCHZ3Qoo43n2PxirK4t8rvHzfRmRLe7pMKvCA==.sig.ed25519"
+  "signature": "yc8hmADbW1HP3EIsezxYTjcYBnbTtFczfesRzSROeBbxi3I5NtqqSt4V4qSORl8Xd+HPJLuZ3/sRppYS129FBw==.sig.ed25519"
 }
