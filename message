@@ -1,15 +1,30 @@
 {
-  "previous": "%Ru2yj915OkwoPfZbYii+jbJnfNyCSmb3TkR4zN98P/Y=.sha256",
-  "sequence": 9609,
+  "previous": "%Hhwimx9uPEBV5o+rk2gAy3239nY5sjeOYOF5lQe9M2Q=.sha256",
+  "sequence": 9610,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554764797876,
+  "timestamp": 1554764863846,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%w+ukQX0wq+pGCuaN+Jn6E1LS7MMGyFn+zFNt6uZVx6A=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    }
+    "type": "post",
+    "root": "%w+ukQX0wq+pGCuaN+Jn6E1LS7MMGyFn+zFNt6uZVx6A=.sha256",
+    "branch": [
+      "%Hhwimx9uPEBV5o+rk2gAy3239nY5sjeOYOF5lQe9M2Q=.sha256",
+      "%aLoRqjc6DFLOwlY1LnjGQg2phABmP/BnReH3SptKR7M=.sha256",
+      "%hN3g+g2npTJLJc6zt4VPsG+FnaocGRvLbrqjyiJukDQ=.sha256"
+    ],
+    "reply": {
+      "%w+ukQX0wq+pGCuaN+Jn6E1LS7MMGyFn+zFNt6uZVx6A=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%Hhwimx9uPEBV5o+rk2gAy3239nY5sjeOYOF5lQe9M2Q=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I'll be there! Thanks for pinging me, I'm hyped to work on this with you.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "LewUNaOKT1ufHAWRiOoj/XqMkOfYVRnfvsnHkHCvS1njYSsT1g3hIYSB16j085hrzaSdZyzmnfjXpk1U6LGwBA==.sig.ed25519"
+  "signature": "ndjThokEqkJyJss0qjjZeOYjwkhK0VVF2pPG0hGMA/KWOCd+UHeA+uyAkFYM2DSOuPntgolwmmvZXCx74WygAQ==.sig.ed25519"
 }
