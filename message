@@ -1,16 +1,26 @@
 {
-  "previous": "%d/Za3/5i8+wHrFRFGJC+wnvlSsF2eBSoaC7I3WH1ZrU=.sha256",
-  "sequence": 9613,
+  "previous": "%uO0u2J0udOab2rMayunjzMqWJ2LUyJXbG8PFckFtHc8=.sha256",
+  "sequence": 9614,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554829707932,
+  "timestamp": 1554829732312,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5oOWWSk6+qge7cD4ZvaCsLcxTgzHsj5AIlu2z4AYggA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%5oOWWSk6+qge7cD4ZvaCsLcxTgzHsj5AIlu2z4AYggA=.sha256",
+    "branch": "%WdKeRYWwItv1yUXEnTrTOx8bSBYKd2Vcc/gZlJPs5Dw=.sha256",
+    "reply": {
+      "%5oOWWSk6+qge7cD4ZvaCsLcxTgzHsj5AIlu2z4AYggA=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%WdKeRYWwItv1yUXEnTrTOx8bSBYKd2Vcc/gZlJPs5Dw=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI'm super happy for you, congratulations! :tada: ",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "Z1Z2zexUjgxHsViFxS/0IL7saxN5BNBaFteCHAbBJPe2YMht5cBnCyAn35XfrgxhpZMDl9VD32Mz+/hOJgQlDw==.sig.ed25519"
+  "signature": "5ZLDdYRNXHu6l1PN8EENqN40qUIrFHEGruYcf1mtqXByTyUaFVmHY0VtFencsY4x2Bf4qkcU8BtamK0K8ZibCg==.sig.ed25519"
 }
