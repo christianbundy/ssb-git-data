@@ -1,20 +1,17 @@
 {
-  "previous": "%tcwpSO5kBNmKb+0IPxby2b0dQmLz7D0t8DxBRjKMq2g=.sha256",
-  "sequence": 9624,
+  "previous": "%S7T8aH1qJENlm7X7ZxNsCJEhqIeNetXjgt9cWz5c0wA=.sha256",
+  "sequence": 9625,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554839543177,
+  "timestamp": 1554840525401,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256",
-    "branch": "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256",
-    "reply": {
-      "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256": "@KYq92uiEKPcKZIBJ/ZCGYErdcy8n0RYD/nDUtKmuyZU=.ed25519"
-    },
-    "channel": "village-tracker",
-    "recps": null,
-    "text": "- Current documentation: 7 / 10\n- Clarity: 8 / 10, I think the only weirdness is that there's a lot packed into the readme\n- API documentation: y\n- Undocumented methods:\n  - `get`\n  - `getInvite`\n  - `confirm`\n  - `getNearbyPubs`\n  - `since`\n- Undocumented options:\n  - `create(opts)`\n    - `opts.allowWithoutPubs`\n    - `private`\n    - `cap`\n\nhttps://github.com/ssbc/ssb-peer-invites/issues/15",
-    "mentions": []
+    "type": "vote",
+    "channel": "mozilla",
+    "vote": {
+      "link": "%TwqEdDgod0KY7rFbmz5MV8Y1F9N2AUBytG8j+FvV89w=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "aZkPdzavvxRY2LocGnh+8O//HiHT6xZAQ5FEJDpZsfjZfKG1agznmlHKUdhv+sOSN0fdGMBCEbhI8zNppcOxDw==.sig.ed25519"
+  "signature": "ZFuE/YmcdWxYFm/cFx6t8E0N9HfShe26/UztN2R30DG/yW4U9Mwj4797ntnWF26Xut5lBZlK4+WAbIKEZcDhDQ==.sig.ed25519"
 }
