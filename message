@@ -1,25 +1,17 @@
 {
-  "previous": "%sjGM+uJEiAo5QlzrQqGuEuMoVEbazCOZlLk12aKVHrM=.sha256",
-  "sequence": 9621,
+  "previous": "%51MsPM1lDHB2XoQKT/Gv3e/+eqSyUVRYmM2VWBg20b8=.sha256",
+  "sequence": 9622,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554837411743,
+  "timestamp": 1554837420396,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uucp2bQYTBGtsB5GvggzWTJA8llvIIPXdJblBD+KaBo=.sha256",
-    "branch": "%uucp2bQYTBGtsB5GvggzWTJA8llvIIPXdJblBD+KaBo=.sha256",
-    "reply": {
-      "%uucp2bQYTBGtsB5GvggzWTJA8llvIIPXdJblBD+KaBo=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
-    },
-    "channel": "ssb-learning",
-    "recps": null,
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI'm not sure that I know off the top of my head. I thought that we just had to configure `config.shs.caps` to some random integer but it sounds like we have some components with an implicit network (invites, DHT, etc). I'll update this thread if I draw any conclusions.",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-learing",
+    "vote": {
+      "link": "%E3Pb0+cWcU9pNHSCt2oKMVJtjy5daCO7m2TGZH6fC/U=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "7MqGZxdJjhMjCQ2CLEeIe1p+yzlOJUWptzlAZwV8BnQZh67bDu1MVEbovZN5kD81xlD7uj9zFXrOYt3eRpSbBg==.sig.ed25519"
+  "signature": "hSAN9YyGR+8uQEJFaiTBG8G/1ZLZwBdq+vcZvCR/pcGJZAuFfAKZZqs76io3/Q7ktOCGfZ3KSYXtBcJ3YrolBg==.sig.ed25519"
 }
