@@ -1,16 +1,26 @@
 {
-  "previous": "%InT/+kO+Ek+zKl/c7perFbnTU9JjuoUJtACCALiSjmg=.sha256",
-  "sequence": 9617,
+  "previous": "%XpeVx7GnavcsKHA4bSDrd5vKQODxpIppxycJ3nauj20=.sha256",
+  "sequence": 9618,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554836120605,
+  "timestamp": 1554836328569,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hkDsqlYVdf8nS/Bh2M2fMiaxuu1Is/xCKFLTK88wm8Y=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CxnP4tldtrKDoWaSqEVm9UsHIeFsROTKz878gYB6pB4=.sha256",
+    "branch": "%hkDsqlYVdf8nS/Bh2M2fMiaxuu1Is/xCKFLTK88wm8Y=.sha256",
+    "reply": {
+      "%CxnP4tldtrKDoWaSqEVm9UsHIeFsROTKz878gYB6pB4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%hkDsqlYVdf8nS/Bh2M2fMiaxuu1Is/xCKFLTK88wm8Y=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nI agree, I thought his \"don't engage\" advice was interesting but wasn't really sure how well that would pan out for people who are seeing this abuse *constantly*. Hearing from the perspective of Chenjerai Kumanyika was critical in Seeing White, and I'd be interested in something similar when it comes to alt-right shenanigans on the internet.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "6y1IFhwnYuzKc65u+zgEIAFr42+Yx04AVb/OKbAwupxZuHw5iYaLRrrEIEYjcf5syQu9Jva2w7qHg3+KiC/dDQ==.sig.ed25519"
+  "signature": "DRwTO8oE0/Vq8O+Ltp5OnJj78F4yg1dY27HEYM75jj687OvRiRqRh4W6gbY2XWSEcEieKn/5k4i1hDcjRGiTDA==.sig.ed25519"
 }
