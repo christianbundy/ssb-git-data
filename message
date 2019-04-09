@@ -1,17 +1,20 @@
 {
-  "previous": "%S6saAKo9LhQbiWG/odRxMIHfsCZoM+WvXiVoPQMmUJo=.sha256",
-  "sequence": 9623,
+  "previous": "%tcwpSO5kBNmKb+0IPxby2b0dQmLz7D0t8DxBRjKMq2g=.sha256",
+  "sequence": 9624,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554838504810,
+  "timestamp": 1554839543177,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "human-privilege",
-    "vote": {
-      "link": "%ZAzUgFzd8rEra2IL6rdutkOKv3AlZeoZ8qWaPalwP5U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256",
+    "branch": "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256",
+    "reply": {
+      "%f8/zhSdHjSWeSmkshcYgRXv0NZPTFkqGURcxgWHw+hU=.sha256": "@KYq92uiEKPcKZIBJ/ZCGYErdcy8n0RYD/nDUtKmuyZU=.ed25519"
+    },
+    "channel": "village-tracker",
+    "recps": null,
+    "text": "- Current documentation: 7 / 10\n- Clarity: 8 / 10, I think the only weirdness is that there's a lot packed into the readme\n- API documentation: y\n- Undocumented methods:\n  - `get`\n  - `getInvite`\n  - `confirm`\n  - `getNearbyPubs`\n  - `since`\n- Undocumented options:\n  - `create(opts)`\n    - `opts.allowWithoutPubs`\n    - `private`\n    - `cap`\n\nhttps://github.com/ssbc/ssb-peer-invites/issues/15",
+    "mentions": []
   },
-  "signature": "/jAdPOiZo2crN7mASNxq2YdSLooxTI8Nt4WbQIBI2JRNDzEEhZ8VW6XX7UrCZBMlG/vYujNvmBZ0ZLomoLiJAQ==.sig.ed25519"
+  "signature": "aZkPdzavvxRY2LocGnh+8O//HiHT6xZAQ5FEJDpZsfjZfKG1agznmlHKUdhv+sOSN0fdGMBCEbhI8zNppcOxDw==.sig.ed25519"
 }
