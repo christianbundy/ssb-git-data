@@ -1,17 +1,26 @@
 {
-  "previous": "%2omPeTsxuuvWRq1bIj0I+e36Q26H7Y4dLhlMKHRFlGM=.sha256",
-  "sequence": 9649,
+  "previous": "%TYN1c7+vRJulWCgiDw851sCB7OZBbjNGLziBM91WEU8=.sha256",
+  "sequence": 9650,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554944279580,
+  "timestamp": 1554945150541,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "jail-break",
-    "vote": {
-      "link": "%hd0g+XO5Hrpb3DtmJrsUL4XazmaEV4pkFwnbHQEqJQ8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%7TRuHbuuc6DK+nVG6Z+EP8l5zmyd86fBVUggzzeC6to=.sha256",
+    "branch": "%2PNrUqgvJmlEVYzd5b1pG4qZLhTz4U3miMb6ST4TZPc=.sha256",
+    "reply": {
+      "%7TRuHbuuc6DK+nVG6Z+EP8l5zmyd86fBVUggzzeC6to=.sha256": "@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519",
+      "%2PNrUqgvJmlEVYzd5b1pG4qZLhTz4U3miMb6ST4TZPc=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": "scuttlebutt",
+    "recps": null,
+    "text": "Backlink, just removing the spacing from the stored JSON: https://github.com/ssbc/ssb-db/pull/231\n\nWe could certainly compress the messages in `~/.ssb/flume/log.offset` with something like BSON, but that would require a migration. I'd be curious to see what sorts of benchmarks that would have on read, since most people probably (?) wouldn't be able to store the full log in memory.\n\n[@w](@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519) \n\nIs there a specific file that stands out to you? Or a type of compression that seems like a good fit here?",
+    "mentions": [
+      {
+        "link": "@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519",
+        "name": "w"
+      }
+    ]
   },
-  "signature": "W0Llzi1IC2w43Du9qubF1IPAc9WcPiDXaGRMkWFB260E7uHWVOSoYkdiwveQ2qauiKvijb8YqMS0T1rxSEYvBg==.sig.ed25519"
+  "signature": "CU5uLoyY5I99rIDD2qO6uamwhMdhDpjZpt0F+IMAUOW0lyCy/SaO0GIBjE8Uia3nInB40nmbQ37QOX5GnrFnCQ==.sig.ed25519"
 }
