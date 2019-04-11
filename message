@@ -1,9 +1,25 @@
 {
-  "previous": "%OfRBKT2NGGieVaw71I956M7XNPPTGBTr3Nv+QfElMdM=.sha256",
-  "sequence": 9670,
+  "previous": "%+ja4yz8137zwzPuaB9g0PywjdAvWtbkUeXUMgMdVGhY=.sha256",
+  "sequence": 9671,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554996952180,
+  "timestamp": 1554999689087,
   "hash": "sha256",
-  "content": "3gNeecRitwHljenECLS11EuO2ATC6S6eaB7RheHMgHCuqBoqr3GhByTiBfR9qTnanwpCIibNZy0s7EnVlJeLYIpsqoXs24dvTzPKX9tWmbsRpwaaThxthFsByqfRuYV6EfuGmGpYub3nS5Cs9gFQktH79NAeW+GZ9wbCcyvIFnJsgYFMHaXU6K2ktZTCLlEodi4L/jrqp/c5Ym8N9GLPpDJT4YH5nc+KARAuvXwRnPRRb3Yw5u/G/mO3rEOgoK6Bszdb0Rlce3GtgjYNoFMX4+HNuSYHwYED6f1o0Zg//44Afi9arluGOgBh846IjDxvDYryh90PY01wqC3fXJvuZ8TJZCsC+D4PdXoqkipEu4AYQYaC/JNmHXgLqg9Y1XINcKaAv6dkQ141AgQ0NeFI+vnOz4fasVfc7lhvGb9vPE77ThoI2WX6G8Cn4UpdluMJvI4iFSiwfy4P5P8g+1jjyPOgcAUzHXpsAUshtJT4td0ygxoFKchCURtOPYv1tfglCpH14bP+JnzJtXBC9ZmtO43xtDTz7pecKLadN9NJCQ/tI+ZQ3rNGhJmU08aHmd9mVgCre6r3VCkg2Re8BSjtYFEtqobWqvZwcMMhu6OD8r5SMdcRaBWAASsquh2jTesH0w2OCHUgbycue++BqFKvEjuGlVFIesjcY7mJvCeS2FG/XYEZzibqlAnhUbPomXbHsYfuL2cBTImnoPg2ywjPXGI66pmSLo6P2OaT+i0cEMkPrvtsOWCNeioWNff4bluAzaknXMGKoGTxlbva/1DLJz6X+VaJorRUEyTAPT3aD6Rn7DyercqHz5kaozhO1fYa50E9YjjUzIARTVPIibM0xuwu0JBGU2GemAmniXnATJSWTARTi1fNbqs6GTAXksf/kOncdKDqAPC9GxqrEfPrSN2Pr65VwBJnz2R2ECiu7ZadYQ6rnC/EtirOCwLfqQZDKQRsVHla84qZ88OoG5/KWXljJ9FNnjOvkp0XVgImROzfANEy/45fEKbb7Yjk17Ub62vqE8kSzz9GHmrM7qEwpcVj0IgQdxL9KgC5MYM3MXYeY+4ZnJYLbEmCTh/3VyO65PvDKG5o3CnZiD57dw6ngAPpgLFz/n8+MLFB6e09cEGPXD/McNrtP2dK3yK2jUng/0LWSKsnNjOIjKhUY6nc.box",
-  "signature": "ue3ZenRtAGg7Kll2c3GPZUndrKzfy8xGCE81xyATOKhbcCxQLrbFdVp/HWO6QdGQ0blM+EY5jaBtyTI/uVsfDw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256",
+    "branch": "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256",
+    "reply": {
+      "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256": "@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Martin Heidegger](@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519) \n\nCan you run `close()` in another context without issues? You're passing `SIGTERM` to `this.proc`, so I'm curious whether `this.proc` is somehow the PID of the GUI session rather than the PID of your script.",
+    "mentions": [
+      {
+        "link": "@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519",
+        "name": "Martin Heidegger"
+      }
+    ]
+  },
+  "signature": "tFq+jSfdyhtv1fczjPN4ZBtqNpYqGuB6v3AzCNSWbt2iMGpgWe9tJG/gbaVkIxkQDDBHK4zvq66z8tYFRaDlBw==.sig.ed25519"
 }
