@@ -1,17 +1,26 @@
 {
-  "previous": "%liJ3HJz5dxQYscBybos8g3dDkGSArrRIk79JfzMkA9A=.sha256",
-  "sequence": 9665,
+  "previous": "%c4DgbeWLQ2OUROYmXbwdhgaiOo6A7lKj1yWpXnvcbIU=.sha256",
+  "sequence": 9666,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554993103409,
+  "timestamp": 1554993518851,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256",
+    "branch": "%Fhc7Ihf1pSoNzuN8mKFB5I6EafDPr1HmQLvacNTZBIk=.sha256",
+    "reply": {
+      "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+      "%Fhc7Ihf1pSoNzuN8mKFB5I6EafDPr1HmQLvacNTZBIk=.sha256": "@80sEH0YfMhRFdErHzFz1penB3sqdrPFx7UEKiyZdhx4=.ed25519"
+    },
     "channel": "patchwork-dev",
-    "vote": {
-      "link": "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nYou did it! I'm really happy for you, as I know that you've been on this track for a while, and I'm proud and appreciative that you've been so transparent about your needs throughout. Your maintenance work has been outstanding, I'm excited to see where you get to pour that energy in the future.\n\nI'd love if you could cc me on your office hours post when you have time for that.\n\n🚀",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "zp7QrKf37ndBj2K/7wBPDTxtn8mh+7iUrCcOZVJdBzjLneJzgdwxnPf4xSucOVa0rUIDKmNvG8ZHMDSXqdYpBA==.sig.ed25519"
+  "signature": "hlpDv5zRAA91CBTma0a9T5bKk8yWTmsLy4ZzEjaESlb58U9DhDgna5knayhg/2k3blp428DhlXapBj4DjIWwAg==.sig.ed25519"
 }
