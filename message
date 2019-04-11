@@ -1,26 +1,9 @@
 {
-  "previous": "%TYN1c7+vRJulWCgiDw851sCB7OZBbjNGLziBM91WEU8=.sha256",
-  "sequence": 9650,
+  "previous": "%1JndklgtUt/DPxIE79cLihcJoIcp1I9Jq5OXKlFWQR8=.sha256",
+  "sequence": 9651,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1554945150541,
+  "timestamp": 1554947598317,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%7TRuHbuuc6DK+nVG6Z+EP8l5zmyd86fBVUggzzeC6to=.sha256",
-    "branch": "%2PNrUqgvJmlEVYzd5b1pG4qZLhTz4U3miMb6ST4TZPc=.sha256",
-    "reply": {
-      "%7TRuHbuuc6DK+nVG6Z+EP8l5zmyd86fBVUggzzeC6to=.sha256": "@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519",
-      "%2PNrUqgvJmlEVYzd5b1pG4qZLhTz4U3miMb6ST4TZPc=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "scuttlebutt",
-    "recps": null,
-    "text": "Backlink, just removing the spacing from the stored JSON: https://github.com/ssbc/ssb-db/pull/231\n\nWe could certainly compress the messages in `~/.ssb/flume/log.offset` with something like BSON, but that would require a migration. I'd be curious to see what sorts of benchmarks that would have on read, since most people probably (?) wouldn't be able to store the full log in memory.\n\n[@w](@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519) \n\nIs there a specific file that stands out to you? Or a type of compression that seems like a good fit here?",
-    "mentions": [
-      {
-        "link": "@TMQeXwS86tZkJaJy8Pcfc6f1vxaCw6wht9Fxf5t0Ztk=.ed25519",
-        "name": "w"
-      }
-    ]
-  },
-  "signature": "CU5uLoyY5I99rIDD2qO6uamwhMdhDpjZpt0F+IMAUOW0lyCy/SaO0GIBjE8Uia3nInB40nmbQ37QOX5GnrFnCQ==.sig.ed25519"
+  "content": "Op+dmyy/4NhWAF4ibxZKEQBLNZ4h+Q1okAXXeLtp1FQhMiYzqMLHUx7VhJLC+7ri7TRHl6v2G15iNXK88aHNFNls1AoRfzaEy390ryMV8lCPXilgRXPxdjSYUprlEkZfAdJtvHE7GYvTGoF3d/8q6zgPvHFwsNsmaN+G/IXO/rqJbaq4jicirerx5eE5e/sCk0EuVhcSmhh5DFaVct03CKqNyfcFJ8xNkeRyR1WfXOyorII8nyRL0FJev7DS/PSQua3Uo2stfIGge6QMviFSbBejCajP1qSyBmPTLl5BjnK2SSBM+Ce4t8sMKNkMJcHehcI+q0KWydHZAOHsEjV9kOYs0JmpG6TUTwoYKrSJdAP3FWE0xOJjGdwyCeCzVE3TilPhLPk4SiCsfEOvDZ2agnzGb305PTZ78Esm45I90DwYnwZ1zDB4qV3eHAz9kyag9m0v6tQuzYEFvHEUJ2fEZ/kWfFuTN1L2CGVmkqhqEzOLD3rTFUbl6+tKewkzQ4U2a3ZmuT9sD0oxBncN5eh2+CkV6xDs9rtfiQh3cNj/Xx6F9v2Be7gy3nRUJhRS0uXG8r2VyvJIib+1RBp3ASP14ZH1cgU/Er1N2glin6FuQXdhCWSswfJitOlNhvefwB0K3Zw5mvYW/T+YXzo+dH3Q85jTX+a8RPM+404lpum5+NxvkCP5X3ufb8+inPBiYjwBCq+pxCI/R2XnqOrf15vfKJxCz88CZIRV4eQdN1AE8PaDwAboT7jHA6/uWWB21Wnnd9OJ2+POVacyLnJ/pTbcjMCsjyRwrTw4FcGXLxVeMgSg9+ghiaoZvIp24cbFfHH0tCfxwYS60IjrPJFS9syp1ErQpaY=.box",
+  "signature": "oZwk8PNHAClX+C5JZKnj5VAlTcwh3xqtWZ/gQ/3MvwGsZKgv2lXTAMO5/v6pAdjLEBXvnKWSbrHEPVfNUpjDDw==.sig.ed25519"
 }
