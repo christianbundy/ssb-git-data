@@ -1,33 +1,20 @@
 {
-  "previous": "%YBz2/slM9rbap8xvP3WLtaZ5O6oSoQtNHDI1bN9xUyM=.sha256",
-  "sequence": 9696,
+  "previous": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+  "sequence": 9697,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555086745823,
+  "timestamp": 1555087735571,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Patchwork Working Group: Skeleton Crew\n\n**If you haven't already read [Matt's breakup with Patchwork](%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256), read that first!**\n\nReading through Matt's breakup with Patchwork left me feeling bittersweet. He's put in *tons* of work to keep Patchwork working reliably for a bunch of people for a long time, so I'm happy to know that he's moving forward, but since he was the main contributor I'm anxious to see what the future of Patchwork will look like.\n\nI'd like to continue contributing to Patchwork, but I'd really like to share that burden *together* with others who are interested in keeping the project alive. I don't want anyone to feel alone or stuck as the One True Maintainer, so I'd like to form a working group that supports the basic needs of Patchwork and its users until Patchwork becomes obsolete.\n\nHere are the problems I'd like to work on:\n\n- **Bugs are hard to solve, and sometimes we need help.** My current strategy is to ping other SSBC members for help, but it would be better to know who is interested in helping and be able to ping them specifically.\n- **Code in `master` is a shared responsibility, so code reviews are important.** Pull requests will often go stale while waiting for review from an SSBC member, but the alternative is to ping *everyone* and hope one or two people have time to review your code. It would be great to know who's down to review code going into Patchwork.\n- **We have to get organized.** Having a single maintainer makes planning simple, but tends to lead to stress and burnout. Sharing the workload makes the burnout easier, but it makes planning more complex. I'd like to communicate with others regularly to ensure that we're all on the same page.\n\nIt's important to know that this is unpaid work, so my preference would be to act as a [skeleton crew](https://en.wikipedia.org/wiki/Skeleton_crew) that can keep Patchwork happy and healthy *without* committing to any huge enhancements at this time.\n\n**This thread should serve as a forum to discuss, organize, ask for help, offer assistance, and contribute to Patchwork.** I'll start by sharing some of my progress and asking for help in a comment below.\n\n---\n\n#ssbc #patchwork #patchwork-dev #patchwork-wg #skeleton-crew",
-    "mentions": [
-      {
-        "link": "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256",
-        "name": "Matt&#39;s breakup with Patchwork"
-      },
-      {
-        "link": "#ssbc"
-      },
-      {
-        "link": "#patchwork"
-      },
-      {
-        "link": "#patchwork-dev"
-      },
-      {
-        "link": "#patchwork-wg"
-      },
-      {
-        "link": "#skeleton-crew"
-      }
-    ]
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "reply": {
+      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "> I’ll start by sharing some of my progress and asking for help in a comment below.\n\nMy main priority is getting `master` ready for a release. There have been [tons of improvements](https://github.com/ssbc/patchwork/compare/backfix-3.11.1...master) that haven't been released for two reasons:\n\n- there are issues [blocking release](https://github.com/ssbc/patchwork/issues?q=is%3Aissue+is%3Aopen+label%3A%22blocking+release%22)\n  - I've resolved one [here](https://github.com/ssbc/patchwork/pull/974) but it needs a review\n- publishing release artifacts is a manual process\n  - I've been working on automating it with Travis CI but I'm trying not to burn too many hours on it\n\nI'd love some help triaging these issues, reviewing my pull request, or both. ☠",
+    "mentions": []
   },
-  "signature": "S0S1p3ERptX4Idm6NH0R7csy36QzSgdeCjB5Vv7eMzoXRaMKgtRjMTq2H1Sdk7QbSxM6wxU3pE9xhVe8uFtKBg==.sig.ed25519"
+  "signature": "9Uh1WmwNrn12kC9dBOxZOU1ddGunsQP+i0OOBhkVegHA/PMM+XZ+D9beVZPAZHnYgTXQFP1XgDGw8WNPBFr7CQ==.sig.ed25519"
 }
