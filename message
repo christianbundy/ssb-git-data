@@ -1,26 +1,16 @@
 {
-  "previous": "%W++CE/ANj/uUxwEhSHbxUn5t0Drfc6ylYHethCZ+Hmw=.sha256",
-  "sequence": 9703,
+  "previous": "%n9wEpPRxcjtJwUw14Lz1CwCGEj/zxs16ZYN8Wlbkyb4=.sha256",
+  "sequence": 9704,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555094208319,
+  "timestamp": 1555094345153,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%icw5HcJwY8vN48/7o6B9+1uUeUHdZa8JYWQ1LqmLpjI=.sha256",
-    "branch": "%sV6pGUfumaJmfRd18VHoR/G8gix6xM6zjTYdVR8a9es=.sha256",
-    "reply": {
-      "%icw5HcJwY8vN48/7o6B9+1uUeUHdZa8JYWQ1LqmLpjI=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
-      "%sV6pGUfumaJmfRd18VHoR/G8gix6xM6zjTYdVR8a9es=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nIs that the DHT tracker server, or something else? I never had any luck with delete and re-upload either, I had to fork my own project (in Breaker they called it \"make a copy\" or something) and then re-upload to Hashbase with the new key. ",
-    "mentions": [
-      {
-        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
-        "name": "polylith"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%DUoNb4BBEqqAPood3rGbG9iOxLTI9O9jowECjl9iQCU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "FwLL8MP3Pj6HbxMVWKmgTzW50aWuyhOyzVafKyIRaM4RTm8Bj3EAwBZWP15NplcY2J4z1AaQZUl6xxmHj+vEAA==.sig.ed25519"
+  "signature": "A9m6D9PwYp409hUJZF+TfERobuJjWRGKPY+YonXrb69uPaXg+4OACaoHERohj5IgKKKS6tPET2XRe8Mg0zKlAA==.sig.ed25519"
 }
