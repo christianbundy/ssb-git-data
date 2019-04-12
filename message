@@ -1,17 +1,26 @@
 {
-  "previous": "%U7V58zB3CiPcH1hMRMnqmZjY9PJCjIsNRneEES2xX9o=.sha256",
-  "sequence": 9702,
+  "previous": "%W++CE/ANj/uUxwEhSHbxUn5t0Drfc6ylYHethCZ+Hmw=.sha256",
+  "sequence": 9703,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555091362719,
+  "timestamp": 1555094208319,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%icw5HcJwY8vN48/7o6B9+1uUeUHdZa8JYWQ1LqmLpjI=.sha256",
+    "branch": "%sV6pGUfumaJmfRd18VHoR/G8gix6xM6zjTYdVR8a9es=.sha256",
+    "reply": {
+      "%icw5HcJwY8vN48/7o6B9+1uUeUHdZa8JYWQ1LqmLpjI=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+      "%sV6pGUfumaJmfRd18VHoR/G8gix6xM6zjTYdVR8a9es=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%/C407B7VFx8h1kb1FUlAwP/mYTzsKCSAl9bRxek/OyU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519) \n\nIs that the DHT tracker server, or something else? I never had any luck with delete and re-upload either, I had to fork my own project (in Breaker they called it \"make a copy\" or something) and then re-upload to Hashbase with the new key. ",
+    "mentions": [
+      {
+        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+        "name": "polylith"
+      }
+    ]
   },
-  "signature": "Ab+Nk+pAIYlarCfqCzxXfVVIVvAyz5x1neUOQIWGNdXnBYa7PwVpLfThHSt6CcGXo1DZjIMnXXO/wa9rADXBDw==.sig.ed25519"
+  "signature": "FwLL8MP3Pj6HbxMVWKmgTzW50aWuyhOyzVafKyIRaM4RTm8Bj3EAwBZWP15NplcY2J4z1AaQZUl6xxmHj+vEAA==.sig.ed25519"
 }
