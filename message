@@ -1,20 +1,12 @@
 {
-  "previous": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-  "sequence": 9697,
+  "previous": "%cUrHNQINkbZMgxw+GbTmdRis6xMYkvD6yqwR0sRvgyA=.sha256",
+  "sequence": 9698,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555087735571,
+  "timestamp": 1555091174748,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "> I’ll start by sharing some of my progress and asking for help in a comment below.\n\nMy main priority is getting `master` ready for a release. There have been [tons of improvements](https://github.com/ssbc/patchwork/compare/backfix-3.11.1...master) that haven't been released for two reasons:\n\n- there are issues [blocking release](https://github.com/ssbc/patchwork/issues?q=is%3Aissue+is%3Aopen+label%3A%22blocking+release%22)\n  - I've resolved one [here](https://github.com/ssbc/patchwork/pull/974) but it needs a review\n- publishing release artifacts is a manual process\n  - I've been working on automating it with Travis CI but I'm trying not to burn too many hours on it\n\nI'd love some help triaging these issues, reviewing my pull request, or both. ☠",
-    "mentions": []
+    "type": "tag",
+    "version": 1
   },
-  "signature": "9Uh1WmwNrn12kC9dBOxZOU1ddGunsQP+i0OOBhkVegHA/PMM+XZ+D9beVZPAZHnYgTXQFP1XgDGw8WNPBFr7CQ==.sig.ed25519"
+  "signature": "Gb9gCYOqduPloD/e8GkH9Ousge+9TfU/7Oj2BdShpN1uKqEsYrUiwIdsZpAzh+NmMKf+J+JMM1nIfo3KA7CcCQ==.sig.ed25519"
 }
