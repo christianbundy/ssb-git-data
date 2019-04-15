@@ -1,29 +1,16 @@
 {
-  "previous": "%Gdm7Z3U6q0+n779aptCHE/A8RF4m2JIqCEVZ9GCZC1k=.sha256",
-  "sequence": 9731,
+  "previous": "%SD++Ag8navRLBeRCtPLD3sy5OuQaXUFFMiEFwblXJrs=.sha256",
+  "sequence": 9732,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555350151519,
+  "timestamp": 1555352094369,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": [
-      "%5eTHOGNf4JZl04zvk26IedchKTBl8/h4onxaAnNRbRc=.sha256",
-      "%8cziZRwyht3lJ21HmYbbMbsvAZCg0exGXmVi33BGi34=.sha256"
-    ],
-    "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%5eTHOGNf4JZl04zvk26IedchKTBl8/h4onxaAnNRbRc=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks for starting on the *organizing* bit, I think that these high-level decisions are important and act as a foundation for the maintenance and stewardship. I'm also excited for the next generation of Scuttlebutt clients, but I'm hesitant to pull the plug on Patchwork until it's actually obsolete. For example, [Patchwork doesn't work on Windows](https://github.com/ssbc/patchwork/issues/969) and after hours of debugging from myself and users (❤) we have a [solution](https://github.com/ssbc/patchwork/pull/988) but [\"blocking release\"](https://github.com/ssbc/patchwork/issues?q=is%3Aissue+is%3Aopen+label%3A%22blocking+release%22).\n\n",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%vLpKNb+Eb6DRVgjECWFpkffAU1EZTIytZxLnMTCInqM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "S9gkjQbB/oyTlJobz0qbOSyBsf7Lc2DGdpxh6AJOX4d0eAA6QvAoBRn6reKGe/9Cfc/F5wyl5VrJr9QW29LIBg==.sig.ed25519"
+  "signature": "0yzJi/aYbY5/UM7LvOgt7rw4954DPEZ5reVQ49UfmxApuIVDKA+0xPE78nKm1O5cuYp/tQ2lsypn0u/0paQLCg==.sig.ed25519"
 }
