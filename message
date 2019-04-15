@@ -1,46 +1,9 @@
 {
-  "previous": "%p81ZIZRHj+Wj0HHR101MHQP5deI1rp7UmfUnTvsYyi8=.sha256",
-  "sequence": 9739,
+  "previous": "%RQgRS0KTSk2jUT50548eaDUsKuBTYsPTW8dTpQJMMf8=.sha256",
+  "sequence": 9740,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555358101786,
+  "timestamp": 1555358335488,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%SD++Ag8navRLBeRCtPLD3sy5OuQaXUFFMiEFwblXJrs=.sha256",
-    "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%SD++Ag8navRLBeRCtPLD3sy5OuQaXUFFMiEFwblXJrs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nOops, that wasn't meant to send. That should read something to the effect of \"we have a solution but there are issues blocking release *plus* we don't have a release process or [release cycle](https://github.com/ssbc/patchwork/issues/826)\". \n\nI'm way more excited to work on [greenfield projects](https://en.wikipedia.org/wiki/Greenfield_project) and I've got some ideas for [next-gen clients](%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256) but I think Patchwork should be maintained until it's made obsolete -- regardless of whether that's next week or next year. Patchwork *is* Scuttlebutt from the perspective of many users, so I'd really like to avoid a scenario where Patchwork goes unmaintained.\n\nI'm conflicted on the \"only fix bugs\" bit. I think that *personally* I'll only have the time and energy to fix bugs, but how do we proceed when someone [opens a pull request to add a feature](https://github.com/ssbc/patchwork/pull/985) (cc [@kieran](@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519))? My intuition is that more features require more maintainers, since it increases both the weight and surface area of the application.\n\nMy absolute bare minimum expectation is that we can keep Electron up-to-date with its security patches. Chromium constantly under attack and IMO it's critical to remain up-to-date on those patch versions. I want to recommend that my friends use Patchwork, but I can't do that unless we have maintainers who are willing and able to make new releases.\n\n---\n\n\n[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\n\n🎉\n\nLet me know if there's anything I can do to support your work on Patchwork. I can see some GitHub notifications from you, I'll plan on getting to those this week. \n\n---\n\n[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519) \n\n> Reading “until Patchwork becomes obsolete” also doesn’t help. This basically means (to me) that Patchwork is already obsolete, you just want to keep it running until something else can take its place.\n\nWe might be using different definitions of \"obsolete\" here, so I'll try to say it another way: Patchwork is a great tool and I recommend **using it** but I don't think that I'd recommend that people **build on top of it**. In my mind it's shaped roughly like a pyramid -- each layer is built to hold the layer above it, but over time the top layer becomes smaller and it becomes more difficult to add additional layers. It's still completely functional and can be used as intended, but radical experiments with new construction technology will likely occur on empty land rather than trying to balance their foundation on the top of the existing pyramid.\n\nIs that metaphor helpful or wildly confusing? 🙃\n\nI think triage, testing, and organization work would be super helpful, if you have time. For example, one non-JS problem I'm having is how to organize work that goes into Patchwork. Individual dev diaries? A shared dev diary? A shared wiki? Some sort of [village tracker](@KYq92uiEKPcKZIBJ/ZCGYErdcy8n0RYD/nDUtKmuyZU=.ed25519) thing? Regular calls? My concern is that without any organization we'll probably regress into another One True Maintainer pattern, which seems wise to avoid.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
-        "name": "next-gen clients"
-      },
-      {
-        "link": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519",
-        "name": "kieran"
-      },
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      },
-      {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
-      },
-      {
-        "link": "@KYq92uiEKPcKZIBJ/ZCGYErdcy8n0RYD/nDUtKmuyZU=.ed25519",
-        "name": "village tracker"
-      }
-    ]
-  },
-  "signature": "QYGxI6lwHGthRXcCyiBpzsvK3jgTjm+S7cybVRK0nbVNS4TpvvO0ZrRVT8T2vd5EzJh3+Y76BOWTqIMdVOzMDg==.sig.ed25519"
+  "content": "Oyc7yXnlsych6sXHnZ1uNftEhHKGbiGzy15nYz/1RHW5XQMGDF+huS1WpNilSuXBPLs0HKW7N3cpry51gnhTNm7OFtXk2lfCvpJ3Xp/8UuCVaw4Oakjq1VGi9I7WeNi5PunJ4V/P2oEirok++oaWPC0lmoXSRSXmHtLodnCE/AFgralH+guvfihAvxVkDtKNIV6mNrlsDEQ5BqrPMD2/u7tQrb6JATcXuqpAV+Igjp631kWiyiQCOiwynz5bKjLGkZgl6imZofCvklbJwVco59vp39h30db/65a2dA5JUo8e3k8XAmvN9sV/JqSK+TXwIJJMn9DesYm2jpPCPyGiuKc4P0W/CDM2RIR9tRpc10POAaa4HhjkCohHuQMI4hx1nTt5GCSAU/IP0nQ3llvd9QOY6qoKl0rKBZycqJRo/gvLyRzGhk3kZcZEWvsK4yv1RVwF8n5YrIqz/kFcbq1T+3R5nkvOSGl/VCM/vYALO//dYJQMabsh+Qc4SlaHJiQirfeHqs66YyHNjzxzaaEh6EKX1CEujqnr2h6zEY0j+KF2Iy7+h9wW.box",
+  "signature": "9we+7euqVqSYDAYKM+Lmr8yzOhxjZGT4lixpmKI2vUNbzW2l8wqooWReMiLX07LdJHwdQJHmIKNN82KWJfpqAw==.sig.ed25519"
 }
