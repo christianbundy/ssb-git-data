@@ -1,17 +1,26 @@
 {
-  "previous": "%XyepvL3/Z+zGvB6+2MmR7bhNVQYbju7scwQzY9S3X+o=.sha256",
-  "sequence": 9743,
+  "previous": "%qJXVS4K3D6LvJJObgVPeDzV7K/GB2GV/kLvak/4abhE=.sha256",
+  "sequence": 9744,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555364051007,
+  "timestamp": 1555365676118,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%EixJ9Evh2XC3VwU48bZpeHvgG70hOC/Y+/13gHu0N3o=.sha256",
+    "fork": "%EohUy8yaco26O/VubVuimBPRl4TlmBbYZaEbifqUYYU=.sha256",
+    "branch": "%EixJ9Evh2XC3VwU48bZpeHvgG70hOC/Y+/13gHu0N3o=.sha256",
+    "reply": {
+      "%EixJ9Evh2XC3VwU48bZpeHvgG70hOC/Y+/13gHu0N3o=.sha256": "@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%EixJ9Evh2XC3VwU48bZpeHvgG70hOC/Y+/13gHu0N3o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Eb4890](@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519) \n\nSweet. If you can, it would be helpful to know whether you have the same problem in `master`. There have been lots of improvements since the code included in the latest releases.",
+    "mentions": [
+      {
+        "link": "@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519",
+        "name": "Eb4890"
+      }
+    ]
   },
-  "signature": "ciCO5iXkNSGk1jPlC3DRFOGT21hWN2q+pQdNrR1hVEpQo597gp1dF9wjeynkLv8aE4bhXs+a9u37j1395uqkCw==.sig.ed25519"
+  "signature": "jUwbKAeTYxT/GyJMblHEGWdqno0mnb9gzR5IMR3/dpjQqB5rVrfJSHavrYIlW5p95/FMpYaBC47U6DQv3afPBA==.sig.ed25519"
 }
