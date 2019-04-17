@@ -1,27 +1,16 @@
 {
-  "previous": "%f2+aLqsj2FxJ0srIjruNiJYokcQlBvriO35unpfSv5k=.sha256",
-  "sequence": 9753,
+  "previous": "%SBEjMhwnuO2M5wuU9gknu0vPFb06NYlMdPL23x4SLc4=.sha256",
+  "sequence": 9754,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555526252905,
+  "timestamp": 1555533765449,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%SD++Ag8navRLBeRCtPLD3sy5OuQaXUFFMiEFwblXJrs=.sha256",
-    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%ngfSD1MbSOn9Vcs3HAkqmtZj1M+vlPshL06/M0bsClA=.sha256",
-    "reply": {
-      "%SD++Ag8navRLBeRCtPLD3sy5OuQaXUFFMiEFwblXJrs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%ngfSD1MbSOn9Vcs3HAkqmtZj1M+vlPshL06/M0bsClA=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nNope. We have the option of changing the priority of these bugs and changing their labels, and I agree that if it's already in 3.11.6 it shouldn't block a new release. My advice would be to go ahead and remove the *blocking release* label from any bug that also exists in the latest stable version.\n\nI'd be super open to feedback on this if anyone strongly prefers another heuristic. 👍",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%p3EhJtv90bfHkkuRFAUWa+F6Cic2VO512oqVTBa9yus=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "PZur4q9rVglW5CQvx5S26iG+qSph/K9/Z/Pqj8FO4niJVkI+bkPQaGiTfmnaex8JAZZ2ZTNQcV3sFc4j4wTWCg==.sig.ed25519"
+  "signature": "TBAIgkP5IuNu2fOHHGdh4n7ICfE/iH2Ts9J8zIKG8VRSgZGDH7bYwdG5SKHORLJfST6dD5p9GyF+BMypIasDDw==.sig.ed25519"
 }
