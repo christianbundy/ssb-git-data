@@ -1,17 +1,20 @@
 {
-  "previous": "%5aggjguQ1cC06I2hzaby63NEOihVUILXNindXeJCnlk=.sha256",
-  "sequence": 9756,
+  "previous": "%3euhCBsSz+MxS7xlgO2H7aCiWetm9mIMrQDfIF4iEbc=.sha256",
+  "sequence": 9757,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555598258044,
+  "timestamp": 1555602445993,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "jail-break",
-    "vote": {
-      "link": "%7LY1YFEPRoZhQKlfycaRrBHBmXDZncClI2wcQqN9Vmg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "> # [Report On The Investigation Into Russian Interference In The 2016 Presidential Election](https://www.justice.gov/storage/report.pdf)\n\nIt's a big PDF file, so don't click unless you'd like to download 139 MB.\n\n```\n$ sha256sum report.pdf\n5c935e422d05d47906729ef7caf3b86f48acddacce16f57440f0d2541b9de70b\n```\n\n#uspol #mueller",
+    "mentions": [
+      {
+        "link": "#uspol"
+      },
+      {
+        "link": "#mueller"
+      }
+    ]
   },
-  "signature": "wsULckbahry21aUCdG5egp3agFmoNrW/13i1cpigOilUhMzadmOmxoJmR5UtirUGjtm5flaSzv1IVBU2qjQnBA==.sig.ed25519"
+  "signature": "llc5+98lOs3tMGBTt6i+K49itK7ovpDvsOyACnjoTfNhPvEUvVIObbY3cp+sIinft1SaJK6UKcrnz5+mT4emAg==.sig.ed25519"
 }
