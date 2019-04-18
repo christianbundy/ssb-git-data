@@ -1,21 +1,16 @@
 {
-  "previous": "%v0XZhqNzhmMMErNLWhqoXaRC2m+1yts4YnOa/kjbXH8=.sha256",
-  "sequence": 9759,
+  "previous": "%yhA1aY+ncfsiwwtx3mP9OuyhizWEafl4sqRiVlv8JB4=.sha256",
+  "sequence": 9760,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555603175500,
+  "timestamp": 1555609442760,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IWTPyRJaJiGRbGTfyjq0KDtHS2MZ5JWercurubujTJw=.sha256",
-    "branch": "%v0XZhqNzhmMMErNLWhqoXaRC2m+1yts4YnOa/kjbXH8=.sha256",
-    "reply": {
-      "%IWTPyRJaJiGRbGTfyjq0KDtHS2MZ5JWercurubujTJw=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%v0XZhqNzhmMMErNLWhqoXaRC2m+1yts4YnOa/kjbXH8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Found a searchable PDF that includes the actual text -- not sure why the Department of Justice version isn't searchable. \n\nhttps://viewfromll2.files.wordpress.com/2019/04/mueller-report.pdf\n\n```console\n$ sha256sum mueller-report.pdf\n5db252a328eaf02b3bbba7a2972d6775e0feff2ca9c0112d8ad27769f23fcc28\n```",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%ZjC3JdfBHWKH//9+2KIyvoPQc777czG0VV9kJRfwqNs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "eO9YeNh1Do98lzJIskFfhY3runkle8MdTGgknKcgwDE801cYXTVmCADr/vqcgi2b4Huo7AtXARo7W/KPxbp+Cw==.sig.ed25519"
+  "signature": "xS24vY5KKB2GiOlCu5yW1MRNaSqownKcAKxGQMKykK4I1QuejFUJ4C0On9FY5fNKUC1agVQaeMlOzhy9z0hbBA==.sig.ed25519"
 }
