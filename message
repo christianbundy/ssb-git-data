@@ -1,46 +1,16 @@
 {
-  "previous": "%RAYMEyPY+LNG0mMJL1X/geNMEFXONoSAVHyg6klU/q8=.sha256",
-  "sequence": 9761,
+  "previous": "%XdEoCkCdTZ9RV6kvC7AaNp5EAejFnmTi6O0fvWwLcpw=.sha256",
+  "sequence": 9762,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555611606785,
+  "timestamp": 1555615776557,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%RQgRS0KTSk2jUT50548eaDUsKuBTYsPTW8dTpQJMMf8=.sha256",
-    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%Gt0h+tkZKon6x6T7JfTyqaSS5xgEk+lQKxK3BbxJBow=.sha256",
-    "reply": {
-      "%RQgRS0KTSk2jUT50548eaDUsKuBTYsPTW8dTpQJMMf8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Gt0h+tkZKon6x6T7JfTyqaSS5xgEk+lQKxK3BbxJBow=.sha256": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519) \n\nThanks, I've seen your comments on a few issues and I really appreciate the time you're putting in to triage. I know it can often take an hour just to do the research and get the information to write a comment that takes two minutes to write. Thanks!\n\nI'm leaning toward a shared dev diary, but I don't have any strong feelings about this. I think that over time we'll get into a groove *or* we'll realize that isn't happening and someone do something. #somebody-should 🙃\n\n---\n\n[@kieran](@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519)\n\nThanks for that context! My question was mostly a curiosity about *how* we decide on new features being added, but my vote would be to support Dark Crystal in Patchwork whenever possible. The complexity is that I'd like DC integration to be a wider group decision, but only a few of us have put our hands up for doing maintenance and making those decisions. To be clear: I don't anticipate anything that would block your DC work, I'm just unsure at how to transition Patchwork into a system for sustainable stewardship.\n\nIt might be wise to form a group of people who can make decisions for Patchwork *without* any requirement that those folks are working on the code itself. I'm feeling that I'm already spread very thin on Patchwork, but supporting diversity and inclusion in Patchwork's governance seems super important.\n\ncc: [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) [@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519) [@zenna](@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519) I keep thinking about the open session on inclusion, I'd love to hear any suggestions you might have on how to share the privilege + burden of decision-making for Patchwork.",
-    "mentions": [
-      {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
-      },
-      {
-        "link": "#somebody-should"
-      },
-      {
-        "link": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519",
-        "name": "kieran"
-      },
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
-        "name": "mary"
-      },
-      {
-        "link": "@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519",
-        "name": "zenna"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%/2lVw5KwAmmTRKvCew3BiZpm9vTVj5N2Tdl1btvcUkY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "xmuKLnXy4OIgt53ynEjHh9DgoLUSuC7pWCcp87p3NQwtmB+RRxx4tM0Rrf0TEDiQMV9osQD2l0RlJQIn44BxCA==.sig.ed25519"
+  "signature": "V225fbw1/aidxw3QgwiU46X/K/QC8IHcxzOWRQL3NeFgwTQ39/+8qhlT+oa3q8jeWjWApZKj7QAHNPFLzUMTBw==.sig.ed25519"
 }
