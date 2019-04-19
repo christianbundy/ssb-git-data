@@ -1,17 +1,25 @@
 {
-  "previous": "%Msehap+bSjqC3r0F/crAbO+mQ1WnEpCR9q1gtO7ZU3U=.sha256",
-  "sequence": 9770,
+  "previous": "%gqSXjLg20cxjBPc9eXGg4H2t+u9kenzQ7Ir8gy15KoA=.sha256",
+  "sequence": 9771,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555637342522,
+  "timestamp": 1555643715475,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%tFesdilBO9G7VhP3293nldZB/dwvq7y4e/+g3SBelQY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%DyaiGdGMYjV7weCSw42sHvJVnj7rPVyviHmZ3RTunLw=.sha256",
+    "branch": "%DyaiGdGMYjV7weCSw42sHvJVnj7rPVyviHmZ3RTunLw=.sha256",
+    "reply": {
+      "%DyaiGdGMYjV7weCSw42sHvJVnj7rPVyviHmZ3RTunLw=.sha256": "@Rar42tXuNFrhLHIEjzfkt36gKGpR8DfyXKcc31YlYHU=.ed25519"
+    },
+    "channel": "rationalist",
+    "recps": null,
+    "text": "[@Sonata](@Rar42tXuNFrhLHIEjzfkt36gKGpR8DfyXKcc31YlYHU=.ed25519) \n\nHi! Maybe a bit of both? I see you though.",
+    "mentions": [
+      {
+        "link": "@Rar42tXuNFrhLHIEjzfkt36gKGpR8DfyXKcc31YlYHU=.ed25519",
+        "name": "Sonata"
+      }
+    ]
   },
-  "signature": "x44xlkL9GD9JHcwwbpPnkTHyLplTj1Spt1TCRMxq4f2VXNlAtRqjtx/GZvYdARocMKRpGaGu2jFjsrGo0CuVCg==.sig.ed25519"
+  "signature": "FDbLMdbXCRZEFYg7OCc1UH0hrC7luL8oYX4lk3fHWMLxcYMLYMzf6vPmlX4DgH9hscOzjn2ktn/GgEuZsBI2Aw==.sig.ed25519"
 }
