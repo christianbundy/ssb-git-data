@@ -1,16 +1,26 @@
 {
-  "previous": "%Y06He2ugVVOGckFk2wPYxCyxb/fBhuz/ygWCsHK1gFI=.sha256",
-  "sequence": 9772,
+  "previous": "%tjXyOMSznF2ekAHE577VSQD7FRaL3KZHIDY2aBvPL2I=.sha256",
+  "sequence": 9773,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555643738037,
+  "timestamp": 1555643847717,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7QurwcnHtZhgiPAPRNST2qYacKUdzT5T46Lsra115Ac=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%i/O3aNDcnLtktysu9CGXy/GnDoipckcxDcBndtLtzMo=.sha256",
+    "fork": "%EohUy8yaco26O/VubVuimBPRl4TlmBbYZaEbifqUYYU=.sha256",
+    "branch": "%i/O3aNDcnLtktysu9CGXy/GnDoipckcxDcBndtLtzMo=.sha256",
+    "reply": {
+      "%i/O3aNDcnLtktysu9CGXy/GnDoipckcxDcBndtLtzMo=.sha256": "@a/g1UYTznmhfE1OQrU1/0sT3YM4TuYNxc6EtfFP1iao=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@endo](@a/g1UYTznmhfE1OQrU1/0sT3YM4TuYNxc6EtfFP1iao=.ed25519) \n\nSorry it's giving you a hard time. If you're seeing this behavior on `master` please file a bug and I'll look into it.",
+    "mentions": [
+      {
+        "link": "@a/g1UYTznmhfE1OQrU1/0sT3YM4TuYNxc6EtfFP1iao=.ed25519",
+        "name": "endo"
+      }
+    ]
   },
-  "signature": "g9l3AhShVvk0DFwPNQ6xH8/KExDWLEsoze3gNC2kXqYwtPLaeBUd60K9U0xG8HfhvPeoN2KUrh0uoMAiSO1jDw==.sig.ed25519"
+  "signature": "jjNpMRqaRQ0hbwl0Gu29nf95BfPeebbSjoLD99VnrbpEzScPXm+hZDKIjxBs4BlmiIvU2SHCXB1LpsgzGXwjCw==.sig.ed25519"
 }
