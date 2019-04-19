@@ -1,17 +1,20 @@
 {
-  "previous": "%26My7d/yFZegg45Zt/sTA3EbzZ5FLe7lufXIAc7EF24=.sha256",
-  "sequence": 9766,
+  "previous": "%vxn7ZMToV0JfV+Kh6UQsyLhYk6bBfLnSAcZ5Bko3Ikk=.sha256",
+  "sequence": 9767,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1555627170991,
+  "timestamp": 1555633655183,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%hDjkuXznjYki6gF95d0Nu2Igc5HDMry0aQcTuq96EWU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%w5zOXyBo08zXyBn0ztZm7C8MHOBRf4DbFhrCmNeKJ/w=.sha256",
+    "branch": "%w5zOXyBo08zXyBn0ztZm7C8MHOBRf4DbFhrCmNeKJ/w=.sha256",
+    "reply": {
+      "%w5zOXyBo08zXyBn0ztZm7C8MHOBRf4DbFhrCmNeKJ/w=.sha256": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519"
+    },
+    "channel": "current-events",
+    "recps": null,
+    "text": "> A man carrying lighters, canisters filled with gasoline and lighter fluid is arrested at New York City’s St. Patrick’s Cathedral. (The Hill)\n\n🤔",
+    "mentions": []
   },
-  "signature": "NZAsRtJGjmyx7XP7bXJ3ACLFhjaeiCYtCos+6zngNi0i+sfLBsjo2DY0/fZkQ/pYDXHQ53o1nbzC/qltlth+Cw==.sig.ed25519"
+  "signature": "t45j3bcJ1rJaG5eEgESIj6a64RAJ3/exM6+w1+Hh7Eohp2Ocbgn4jq8c6HO2sghPqNUcyE+5KJEkhwio7dSSAw==.sig.ed25519"
 }
