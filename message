@@ -1,17 +1,25 @@
 {
-  "previous": "%3dmmfxLzT8GHqMXC4em7+kl2E5BkcYQ13DD3wV75+qc=.sha256",
-  "sequence": 9794,
+  "previous": "%1+bislSCY9n7DveXA835U+LuPjfVqZdrGqJv6FB+reE=.sha256",
+  "sequence": 9795,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556119221060,
+  "timestamp": 1556121763045,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "solarpunk",
-    "vote": {
-      "link": "%GaridxEtXdI28me3ZJ6uVZBSPUnJb/FHlC2Lwd91L6s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256",
+    "branch": "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256",
+    "reply": {
+      "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nComparing the [default ssb-server plugins](https://github.com/ssbc/ssb-server/blob/862660fa431b5544c5e0e5b8f779381a30ba9842/bin.js#L46-L61) with the [Patchwork plugins](https://github.com/ssbc/patchwork/blob/bfe4c2f20e46e4f73a77cee3945f8b8dc9ad55b1/server-process.js#L23-L43) it looks to me like this might be as simple as adding:\n\n```js\n.use(require('./plugins/plugins'))\n```\n\nI'm not sure, but if you can resolve it (and it works as expected) then I'd be happy to merge a PR for this. My intuition is that the plugin management plugin was removed because it _didn't_ work as expected, but I haven't spent any time looking into it.",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
   },
-  "signature": "1KaGpMzOR6httClloEwRvUMlj0pWvmh1NEREVms4xSmYQ9MW+9zVw+9c9oTiZMAvG1hZktTKafax+0wEhC4lBg==.sig.ed25519"
+  "signature": "bESc6NdyFzn6fa25YcUPZd4TTlVkkCINS3mC/GDJakqCSH91DKL9BmJdRw4dwz2ivraX4nXSD0O6dTZah+BzCA==.sig.ed25519"
 }
