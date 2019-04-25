@@ -1,20 +1,20 @@
 {
-  "previous": "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256",
-  "sequence": 9796,
+  "previous": "%FEzHpnc/jTBgaP2CB/9KT4zcBJCwGygh/rsj2W1Xssc=.sha256",
+  "sequence": 9797,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556123003141,
+  "timestamp": 1556204162669,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256",
-    "branch": "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256",
+    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
+    "branch": "%XBcsLSWjBjL6hd99H5bomAGTKnRcZAhCBbY2rWE5RQ4=.sha256",
     "reply": {
-      "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-      "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%XBcsLSWjBjL6hd99H5bomAGTKnRcZAhCBbY2rWE5RQ4=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
     },
-    "channel": "patchwork",
+    "channel": null,
     "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nClarification: if you're adding this to Patchwork it would be:\n\n```js\n.use(require('ssb-server/plugins/plugins'))\n```  ",
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nAny chance you're getting [this error](https://github.com/ssbc/ssb-ws/issues/19) in your terminal console output? Instead of `rm -rf node_modules && npm i` I'd recomment `npm ci`, which removes `node_modules` and installs a known-good dependency tree from the lockfile.",
     "mentions": [
       {
         "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
@@ -22,5 +22,5 @@
       }
     ]
   },
-  "signature": "q57i3hK8BduuDpkOr9qFopgBFApcXELhFX5ZcMYCWnt3vfQTR/nUd1W8rsyXjKd6btCWJ1wJpBk/bHDsnvU5CQ==.sig.ed25519"
+  "signature": "KJgvvV2hBdrjiA3wEkToFt1fubqGqLTT5Tm70UsQc/7M6Bkzz64Ue2gfJv3AfoviiW0q5g4eInB3KMotDI0kBA==.sig.ed25519"
 }
