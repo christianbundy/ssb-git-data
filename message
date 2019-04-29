@@ -1,17 +1,26 @@
 {
-  "previous": "%Dv9xD4Sus59D00LEPs9iSHMyr3WDYQTyawKUyn57KzI=.sha256",
-  "sequence": 9832,
+  "previous": "%M7LpBbMoQbcwTv8NqLhvwi0s8JDLFIuR7niF4D9KeGc=.sha256",
+  "sequence": 9833,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556559498718,
+  "timestamp": 1556560592599,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%KAfZ9qPGqU0AoS/Cdh+ayfBvsmgV7INJrV9W17Oty7s=.sha256",
+    "fork": "%PcfK2SZ3Bc0CmmTi+YSTNuhj6b5Dcz9gI+ohrX0BTQs=.sha256",
+    "branch": "%KAfZ9qPGqU0AoS/Cdh+ayfBvsmgV7INJrV9W17Oty7s=.sha256",
+    "reply": {
+      "%KAfZ9qPGqU0AoS/Cdh+ayfBvsmgV7INJrV9W17Oty7s=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
+    },
     "channel": "village-tracker",
-    "vote": {
-      "link": "%CpM3dB+e898ig5711u8AlNzWcaz3houYzq7PNGWQw4o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519)\n\n> personally I’d like this to be a 2 week thingy, or a 2 person task. That would of been much better and fun.\n\nStrong agree, I think I'd like both of these together. If you're down I'd love to have a jam session where we pair on these documentation drive tasks, I think I'd have a lot more fun working with a friend *plus* I think this is the sort of thing where two heads are better than one.",
+    "mentions": [
+      {
+        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
+        "name": "mary"
+      }
+    ]
   },
-  "signature": "y6/rw49hBroIdp+zDxVVBekx5SpLF2gAkUF03Ipo8X67OV+3tyJe1EmtIcnDFKJ3xOYJvWd9svDQPAjMJ3tuBA==.sig.ed25519"
+  "signature": "ojZQDb6gp8Nmx9On6tI8fewdMOCKbNjzjCLfKzvgKkbIfQ382o6V1+UA6mUpWIScjLMuGO95v81Gahd8aSc3Ag==.sig.ed25519"
 }
