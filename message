@@ -1,9 +1,26 @@
 {
-  "previous": "%VN4i5+n5DM0ar+ixvChsWkhaH3be+OXufKOuQdo+g7U=.sha256",
-  "sequence": 9829,
+  "previous": "%h6JDtdK4QNx45ytKAKhemzbzL9e3fxvYhs80wzw35es=.sha256",
+  "sequence": 9830,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556558299277,
+  "timestamp": 1556558665213,
   "hash": "sha256",
-  "content": "vgqtm0/hNbo6uQQnLtd19BtM0r7/k1dNSI9SdSVc79K4URWnClZ+QpwfrylBrwvXHUx0iH7lRCkQhZVlHBl6sDMYd6QRBDCcVylO3fkSCdQb1DHTDOPnWJrsZ0b2YDl3zDSPlcmsL2XoNq8uk73BvPQRP+dC3AsN1SR3yNDzWjRBSnG+yyIVnCcc1uXj/clR7KkQvq1TaJgESjTudY/sIu2uZue5UWTTsvyyVziUIA9aedXyg6gONKdeqxNuceTIoLbSjgovyg/vo2MIpdVFOcMYFmYGyhSiuwPRTX58qaThjcbo0p1ZJmq5lzc+RBBM1yZtWfHWXBfjhNTVHVRt2JY15UBPRoa+kBQj+Mhcv+GZs2hT24RMwNVqlY+Wlr+cU3mAiMG21pu2fCgyVL4xwJxObGZ4V1OkJJ7q/X79DhNt6DDDM+Zpl1KLmNSGm9fW1GVwefYlx+aY52Aia+e7cWUULZcXUAaFB43HlkrgjWxU4QF5s3njBQxlPM/8cNsFzT0PrpUxjErOFZg5gZ+78ZesVHyKElfCO6hWB9CBHi9tB03N6qqlUQXGVGyxufLUbICAAiBL.box",
-  "signature": "PV2aVRFPMUgAAGv6d6PEPDliFsjj+ZMtyTOJNk1xbCwBeuutIslzFXhRkXaW6zwjwpImcOyGBLCKuwkLS0r9Ag==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256",
+    "fork": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
+    "branch": "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256",
+    "reply": {
+      "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256": "@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519"
+    },
+    "channel": "ssb-show-and-tell",
+    "recps": null,
+    "text": "[@The Writer of Posts](@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519) \n\nI think this is likely because Scuttlebutt database queries only search non-private messages by default, so when you query for followers you specifically have to include `opts = { private: true }` so that you can take private messages into consideration. There are a few places where private messages are unacceptable (like `createHistoryStream()`, used for replication) so my preference would be to set `opts = { original: true }` in those few cases, but it'd take a bit of work to refactor everything.\n\nSide-note: I've actually taken a stab at this change in [ssb-db](https://github.com/ssbc/ssb-db/commit/0f5dd52517664b9b244075b11488b002bb937e94), but there are other places where we need to set `{ original: true }`:\n\n- Wherever we set the sequence number of each feed, I think it's a vector clock in ssb-db\n- ssb-ooo\n- Probably a bunch of other places",
+    "mentions": [
+      {
+        "link": "@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519",
+        "name": "The Writer of Posts"
+      }
+    ]
+  },
+  "signature": "yBdRB3SiG9iJXBrRLBI9ZuM8YnI4p9ibWIxlkqyoiyjm0ldJPHGXl3Q61Xy7Xshn/OQy219HnR2Gg2pwTrdgCg==.sig.ed25519"
 }
