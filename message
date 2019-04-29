@@ -1,16 +1,25 @@
 {
-  "previous": "%VQbrHvMzR0SA5wt7jakbnLm7OFeyljot042+pU7OeFc=.sha256",
-  "sequence": 9838,
+  "previous": "%cAwfkXGgON72IEjmn7efBMnBKQ3BnusNf+h5STo43AA=.sha256",
+  "sequence": 9839,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556567872459,
+  "timestamp": 1556567936662,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YxWtU3lAs+9P5f/EzbL3A4io/8rQNgYiR6Bu3hDShcc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%YxWtU3lAs+9P5f/EzbL3A4io/8rQNgYiR6Bu3hDShcc=.sha256",
+    "branch": "%YxWtU3lAs+9P5f/EzbL3A4io/8rQNgYiR6Bu3hDShcc=.sha256",
+    "reply": {
+      "%YxWtU3lAs+9P5f/EzbL3A4io/8rQNgYiR6Bu3hDShcc=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Trav](@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519) \n\nWoo, the installer works! Welcome back.\n\nBtw, which installer did you use? I've only tested the AppImage installers so I'm not sure [yet] whether any of the others actually work. 😅",
+    "mentions": [
+      {
+        "link": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
+        "name": "Trav"
+      }
+    ]
   },
-  "signature": "G9DIaWJ1aSr6Oe7NXXL0f9wbFFS4bambvkxcWWaukgFAFCp5zHIKDOIGgnV8H7/uGgEZbIpULO22DzKIMbrPAQ==.sig.ed25519"
+  "signature": "+QU1qNy565w8EV93ygfOoVq4oaLLvhZMsh4lJXyAE6Q/J8wWHEgVR8u9FQWmgSrzIvxNzPjFyNPqGEuPQtQsBQ==.sig.ed25519"
 }
