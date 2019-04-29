@@ -1,26 +1,13 @@
 {
-  "previous": "%h6JDtdK4QNx45ytKAKhemzbzL9e3fxvYhs80wzw35es=.sha256",
-  "sequence": 9830,
+  "previous": "%Doz0zoZbeW2c/mqCa4fGHKWMpdEqpeTyicySvEGM6qY=.sha256",
+  "sequence": 9831,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556558665213,
+  "timestamp": 1556559327203,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256",
-    "fork": "%VuR6+pn+EfUlOKVp3DHNaBXdV2NtAG1PdjAVESfi3+4=.sha256",
-    "branch": "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256",
-    "reply": {
-      "%Etsu76w31y6qDsIdQD0y24LxvFLE+eih6IkPDcxhg5M=.sha256": "@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519"
-    },
-    "channel": "ssb-show-and-tell",
-    "recps": null,
-    "text": "[@The Writer of Posts](@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519) \n\nI think this is likely because Scuttlebutt database queries only search non-private messages by default, so when you query for followers you specifically have to include `opts = { private: true }` so that you can take private messages into consideration. There are a few places where private messages are unacceptable (like `createHistoryStream()`, used for replication) so my preference would be to set `opts = { original: true }` in those few cases, but it'd take a bit of work to refactor everything.\n\nSide-note: I've actually taken a stab at this change in [ssb-db](https://github.com/ssbc/ssb-db/commit/0f5dd52517664b9b244075b11488b002bb937e94), but there are other places where we need to set `{ original: true }`:\n\n- Wherever we set the sequence number of each feed, I think it's a vector clock in ssb-db\n- ssb-ooo\n- Probably a bunch of other places",
-    "mentions": [
-      {
-        "link": "@K/Ipk1KeB20CT6+toD9CNexjgC9oR9yxp5RzZx+uO5M=.ed25519",
-        "name": "The Writer of Posts"
-      }
-    ]
+    "type": "contact",
+    "contact": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
+    "following": true
   },
-  "signature": "yBdRB3SiG9iJXBrRLBI9ZuM8YnI4p9ibWIxlkqyoiyjm0ldJPHGXl3Q61Xy7Xshn/OQy219HnR2Gg2pwTrdgCg==.sig.ed25519"
+  "signature": "4MDcEl83S5vAVum/LJqj1EJLlnOGFSXOkaUXqKBOq69Zz3aNvfTVBsiWsKCq8tpcLb9JcBCUkglBGiqVHhEODA==.sig.ed25519"
 }
