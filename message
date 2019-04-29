@@ -1,38 +1,26 @@
 {
-  "previous": "%Gy4C2LfueGW/G+NXjvu08JR4sbq403duKdRqOLvurHY=.sha256",
-  "sequence": 9835,
+  "previous": "%VOpFMAlDhDZRg/eUKS7Y1rI0AmyLUML/vEk/lXC0HO8=.sha256",
+  "sequence": 9836,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556562517505,
+  "timestamp": 1556563901261,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": [
-      "%Dnnu0k+ifBlZqGQ2BKWlfNmEdk75NkToUrldzQJDAuA=.sha256",
-      "%bFuAmQrzfDuh4O4GP9XZgWH74BB+mJuIt6nxUz40nBg=.sha256",
-      "%p3EhJtv90bfHkkuRFAUWa+F6Cic2VO512oqVTBa9yus=.sha256"
-    ],
+    "root": "%hCd/BMyHocJL6VOYHGLH8dvruXTwOdTRmCO1T10h5+0=.sha256",
+    "branch": "%nsaqsXl1XzHTFJqdWHjoeuzqz4uLZDXWvYOeb1GJIio=.sha256",
     "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Dnnu0k+ifBlZqGQ2BKWlfNmEdk75NkToUrldzQJDAuA=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
+      "%hCd/BMyHocJL6VOYHGLH8dvruXTwOdTRmCO1T10h5+0=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%nsaqsXl1XzHTFJqdWHjoeuzqz4uLZDXWvYOeb1GJIio=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519) \n\n> Part of me is thinking of increasing the surface area of those who’d like input, in like a ‘holistic way’, where education about scuttle butt, and building up technical ability is interwoven with this… this way also the main technical contributors, aren’t so spread thin long term.\n\nYes! I'm super excited at this idea. Do you have thoughts on how to organize something like this? Most of the SSBC currently runs on [the advice process](http://reinventingorganizationswiki.com/Decision_Making) and I'm not sure how to extend that to a larger group focused on a longer time horizon.\n\n> Also I would like to point out that perhaps it’s not so much a binary can code/can’t code, but more so a spectrum of different peoples at different learning curves and curiosities.\n\nThanks for pointing this out, it's so easy to think \"everything is a spectrum\" but then apply binary thinking without even realizing it!\n\nMy current thought is just to host a regularly scheduled open call to discuss Patchwork and its future, but I'm a bit concerned that it'll be prone to:\n\n- drive-by opinions / too many cooks in the kitchen\n- [inclusivity problems](%tKTXjWcMlo0U4GO/YPoSgkHaBjihm6ZoXnmEssZy7cs=.sha256)\n- [tyranny of whoever showed up](%whA4JgjxhxEMG/+8vFCS5+enDxj8mgm4H+zeNqw9QBI=.sha256)\n\nAnother alternative would be to only invite trusted friends , but that seems like it could have the same inclusivity problems *plus* a risk of real or perceived cronyism / in-group favoritism. I'd be super appreciative if you have thoughts on how to organize this, and / or please let me know if I'm prematurely optimizing this. 😬",
+    "text": "[@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519) \n\n> I’d be keen to ‘share the burden’ and lend skills and work for design/UI implementation.\n\n🎉 I'd love to support your work on this. There are lots of small improvements I've been dying to work on but [unfortunately] it seems like my time is currently more useful untangling the technical stuff to make it easier for people to contribute. I'd be super happy for others to be able to focus on the design.\n\n> What do you think about visually organising sub-threads/forks of feeds to be more visibly clear?\n\n👍\n\n> How are things getting prioritized now? ad hoc? Where are concerns/features collated? Github issues?\n\nMostly ad-hoc via GitHub issues. My focus has been on our [bugs](https://github.com/ssbc/patchwork/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+-label%3Astale) (especially those [blocking release](https://github.com/ssbc/patchwork/issues?q=is%3Aissue+is%3Aopen+label%3A%22blocking+release%22)) so that we can finally release 3.12.0, plus tons of infrastructure stuff that makes contributions and releases easier (like [automated installer builds](https://github.com/ssbc/patchwork/releases/tag/v3.12.0-alpha.3)).",
     "mentions": [
       {
         "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
         "name": "mary"
-      },
-      {
-        "link": "%tKTXjWcMlo0U4GO/YPoSgkHaBjihm6ZoXnmEssZy7cs=.sha256",
-        "name": "inclusivity problems"
-      },
-      {
-        "link": "%whA4JgjxhxEMG/+8vFCS5+enDxj8mgm4H+zeNqw9QBI=.sha256",
-        "name": "tyranny of whoever showed up"
       }
     ]
   },
-  "signature": "qeUm3BhxkXfTgcJoehgh7ds/KdyRyr2PyCmXB5fG45ro1kzKxrYVVqsiifiWyBn/5H1uLzusJCvbstf12CvFDQ==.sig.ed25519"
+  "signature": "CgQaegCWClpa0zegAx1AemsWyWz4/1x7V+8+egMqcfcCK8NRH6CVIpIAoNNjtrUldArvrVKUmbWOBozwQYiJCQ==.sig.ed25519"
 }
