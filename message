@@ -1,17 +1,38 @@
 {
-  "previous": "%j58IMoFPcZ0dCzLLWl9/rnutJRkeFRtIVkQwnhbxYdc=.sha256",
-  "sequence": 9834,
+  "previous": "%Gy4C2LfueGW/G+NXjvu08JR4sbq403duKdRqOLvurHY=.sha256",
+  "sequence": 9835,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556560595754,
+  "timestamp": 1556562517505,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "village-tracker",
-    "vote": {
-      "link": "%KAfZ9qPGqU0AoS/Cdh+ayfBvsmgV7INJrV9W17Oty7s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": [
+      "%Dnnu0k+ifBlZqGQ2BKWlfNmEdk75NkToUrldzQJDAuA=.sha256",
+      "%bFuAmQrzfDuh4O4GP9XZgWH74BB+mJuIt6nxUz40nBg=.sha256",
+      "%p3EhJtv90bfHkkuRFAUWa+F6Cic2VO512oqVTBa9yus=.sha256"
+    ],
+    "reply": {
+      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%Dnnu0k+ifBlZqGQ2BKWlfNmEdk75NkToUrldzQJDAuA=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519) \n\n> Part of me is thinking of increasing the surface area of those who’d like input, in like a ‘holistic way’, where education about scuttle butt, and building up technical ability is interwoven with this… this way also the main technical contributors, aren’t so spread thin long term.\n\nYes! I'm super excited at this idea. Do you have thoughts on how to organize something like this? Most of the SSBC currently runs on [the advice process](http://reinventingorganizationswiki.com/Decision_Making) and I'm not sure how to extend that to a larger group focused on a longer time horizon.\n\n> Also I would like to point out that perhaps it’s not so much a binary can code/can’t code, but more so a spectrum of different peoples at different learning curves and curiosities.\n\nThanks for pointing this out, it's so easy to think \"everything is a spectrum\" but then apply binary thinking without even realizing it!\n\nMy current thought is just to host a regularly scheduled open call to discuss Patchwork and its future, but I'm a bit concerned that it'll be prone to:\n\n- drive-by opinions / too many cooks in the kitchen\n- [inclusivity problems](%tKTXjWcMlo0U4GO/YPoSgkHaBjihm6ZoXnmEssZy7cs=.sha256)\n- [tyranny of whoever showed up](%whA4JgjxhxEMG/+8vFCS5+enDxj8mgm4H+zeNqw9QBI=.sha256)\n\nAnother alternative would be to only invite trusted friends , but that seems like it could have the same inclusivity problems *plus* a risk of real or perceived cronyism / in-group favoritism. I'd be super appreciative if you have thoughts on how to organize this, and / or please let me know if I'm prematurely optimizing this. 😬",
+    "mentions": [
+      {
+        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
+        "name": "mary"
+      },
+      {
+        "link": "%tKTXjWcMlo0U4GO/YPoSgkHaBjihm6ZoXnmEssZy7cs=.sha256",
+        "name": "inclusivity problems"
+      },
+      {
+        "link": "%whA4JgjxhxEMG/+8vFCS5+enDxj8mgm4H+zeNqw9QBI=.sha256",
+        "name": "tyranny of whoever showed up"
+      }
+    ]
   },
-  "signature": "Ih4BQq7uavOA2LPrpQWOjIhspZc7pnS7DzDuhsIum+zNMuT1Ncvofbu0JMfVONgxiZhv8g16en8Cz/ZLCWgnAg==.sig.ed25519"
+  "signature": "qeUm3BhxkXfTgcJoehgh7ds/KdyRyr2PyCmXB5fG45ro1kzKxrYVVqsiifiWyBn/5H1uLzusJCvbstf12CvFDQ==.sig.ed25519"
 }
