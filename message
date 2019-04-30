@@ -1,17 +1,25 @@
 {
-  "previous": "%2d9ciVgEqiFa9fvJrXf7Cg71t9O4m0rUu3J+d3DFLGQ=.sha256",
-  "sequence": 9858,
+  "previous": "%AE7mQZUcBHZKDSICAN+l8WszbJkYhKR0HjOhgtQUn34=.sha256",
+  "sequence": 9859,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556637736518,
+  "timestamp": 1556639413318,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "village-tracker",
-    "vote": {
-      "link": "%oTh5h0GxxDqnIJGgFbF9Ff73ohC9n7/EThulu4XJibg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%MSn2RqwS2RUU7aI6jWZaUiNEZZdbLWQ1SvmGqSmHMj8=.sha256",
+    "branch": "%MSn2RqwS2RUU7aI6jWZaUiNEZZdbLWQ1SvmGqSmHMj8=.sha256",
+    "reply": {
+      "%MSn2RqwS2RUU7aI6jWZaUiNEZZdbLWQ1SvmGqSmHMj8=.sha256": "@/VouD2YMzJsJp3LjxkbP/+XmD/xJ45lx7Jq+ETOKClI=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Hey [@Marco](@/VouD2YMzJsJp3LjxkbP/+XmD/xJ45lx7Jq+ETOKClI=.ed25519)!\n\nI don't think there's an easy answer here -- the best solution would be to use open source and peer-to-peer networks like Scuttlebutt, but porting Django to SSB sounds like uncharted territory. Which frameworks do you need that require conventional client-server tech?\n\nIf you have a web hosting company in your area they may offer colocation (where you can hook up your own hardware to their power and network infrastrastructure) or they may rent you an server with some gourmet benefits (maintained by local sysadmins, powered by renewable energy, organic + gluten-free, etc). Past that, I don't think there's a big difference between Google and Amazon and Heroku or any other big hosting company, and *personally* I don't think it matters a ton.\n\nI'd recommend spending your time learning how to build things *without* having to rent servers from for-profit companies instead of trying to find the least-bad hosting company. In other words: if you must rent a server, don't sweat the small stuff. Hope that helps, happy to answer any questions.",
+    "mentions": [
+      {
+        "link": "@/VouD2YMzJsJp3LjxkbP/+XmD/xJ45lx7Jq+ETOKClI=.ed25519",
+        "name": "Marco"
+      }
+    ]
   },
-  "signature": "bAjj34tUTNiVU3sua03YjKKCN2o8ChP2ucv2Z+VpJkTk0pkHizkIiSyUGwh7hXvlEjIBceAC0mYxDYNl6EG/BA==.sig.ed25519"
+  "signature": "/WKcp0S4sX8q49z8r2oztcAKK5uGkZuTcwuAMI5ybYnOGLvv70kCQ8JJCPkt1ovOvzZTgtCshdiRWpE2PMB3Aw==.sig.ed25519"
 }
