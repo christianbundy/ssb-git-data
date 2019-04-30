@@ -1,26 +1,17 @@
 {
-  "previous": "%ovpOnj2UMmTZBy9iJh4adcQPchk/fHXOohLXOWoCTuM=.sha256",
-  "sequence": 9855,
+  "previous": "%CF4x/aVdSonkE/o3PrLq11R03O/b3nA5ccwRZjKT8oI=.sha256",
+  "sequence": 9856,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556637524015,
+  "timestamp": 1556637555185,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
-    "branch": "%lfOLgp5Su4gzYOSewwLPmhbeMQU7bOydOlrMDush88U=.sha256",
-    "reply": {
-      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-      "%lfOLgp5Su4gzYOSewwLPmhbeMQU7bOydOlrMDush88U=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nOh, I bet that's coming from [this file](https://github.com/ssbc/ssb-config/blob/ff36c6bb6c513166186f0db3d4bd98ad655ec1ef/defaults.js), where we're doing:\n\n```js\nhost: config.host || nonPrivate.v4 || '::'\n```\n\nMaybe we should just rip that `nonPrivate.v4` bit out? I think we want to default to `::` anyway, the only exception is probably [on Windows](https://github.com/ssbc/ssb-config/issues/35)?",
-    "mentions": [
-      {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
-      }
-    ]
+    "type": "vote",
+    "channel": "email",
+    "vote": {
+      "link": "%L3iUWYMKDRpTzU0fMzy7XuiW/JT0BgZ5mWCSB9eof38=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "oZ7llV43o/oHTMT3rNSnNGwuhnI3qNa6MPznm30GuaZwyP9iwzYafskI6AZRhakDNwQsSxYxfaFVlDgqET15Dg==.sig.ed25519"
+  "signature": "FV4+Q8GH5GdwraX90MSBB2ytqnM4KLfKEIsv+hDAMcu4Yc9VA2omVss7z+JfcjWpcTFTH58+0Ev0Yj/hEJ60DA==.sig.ed25519"
 }
