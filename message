@@ -1,31 +1,27 @@
 {
-  "previous": "%s9w67JlGj91ydJ/QEBofncm8U/+IOIp1tWzsZD2OG7k=.sha256",
-  "sequence": 9845,
+  "previous": "%KuuXI2PyLvXkpNjxSJjTgMLAqNz16wA70xK54xu8s3I=.sha256",
+  "sequence": 9846,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556593377572,
+  "timestamp": 1556593385394,
   "hash": "sha256",
   "content": {
-    "type": "poll",
-    "details": {
-      "choices": [
-        "2019-05-01T18:00:00.000Z",
-        "2019-05-01T19:00:00.000Z",
-        "2019-05-02T18:00:00.000Z",
-        "2019-05-02T19:00:00.000Z",
-        "2019-05-03T18:00:00.000Z",
-        "2019-05-03T19:00:00.000Z"
-      ],
-      "type": "meetingTime"
-    },
-    "title": "Thread call with Mix!",
-    "closesAt": "2019-05-02T19:00:00.000Z",
+    "type": "position",
     "version": "v1",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
+    "root": "%KuuXI2PyLvXkpNjxSJjTgMLAqNz16wA70xK54xu8s3I=.sha256",
+    "details": {
+      "type": "meetingTime",
+      "choices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "branch": [
+      "%KuuXI2PyLvXkpNjxSJjTgMLAqNz16wA70xK54xu8s3I=.sha256"
     ]
   },
-  "signature": "gYjhuNZQ4Ty/ZJufyOlW6QxFnqgBMegYWIBpHei07kDChJelNReA5bDzsc668foL7zxbd9AesVitix9TylQNDg==.sig.ed25519"
+  "signature": "VYVOgz/GTpvaiy1GtaaAH9QT0Nc2dO8aEMRztdAEOX1Vx5Fbt9Kbm/DrNJpYcF4CSfb0PWECNP2jGyhf40/QAw==.sig.ed25519"
 }
