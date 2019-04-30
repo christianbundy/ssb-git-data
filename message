@@ -1,17 +1,26 @@
 {
-  "previous": "%8rPGlksl6g97SdWiQSpwBizxBeCL/SKkK9bcaQPTxT4=.sha256",
-  "sequence": 9850,
+  "previous": "%nF7RchO3B0TC45rHn9k+O5Ek2Qmd3lV+R88S7devx1Q=.sha256",
+  "sequence": 9851,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556635358603,
+  "timestamp": 1556635868131,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "email",
-    "vote": {
-      "link": "%p7wWX09U2EEe5Fy5izY2hnUTtBcgCgNULA/APF0M8Z0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
+    "branch": "%ltdo8oU+j5fnPojniwYzXqa0xZATRTLvonJER1RUlI8=.sha256",
+    "reply": {
+      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%ltdo8oU+j5fnPojniwYzXqa0xZATRTLvonJER1RUlI8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nI think this is caused by [this file](https://github.com/ssbc/ssb-ws/blob/master/inject.js) which seems to have this behavior:\n\n```js\nif(config.ws) {\n  port = config.ws.port\n}\n\nif(!port)\n  port = 1024+(~~(Math.random()*(65536-1024)))\n\nhost = config.host || host\nport = config.port || port\n```\n\nIn my opinion this should probably read `connections.incoming.net.ws[]` for host + port + etc, that way we don't need to specify these properties in:\n\n- config.X\n- config.ws.X\n- config.connections.incoming.ws[].X\n\nAlso: this *should* work without any `~/.ssb/config` at all -- what happens when you use the vanilla config? Or are there reasons that you need to modify the vanilla config?",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
   },
-  "signature": "vDvgu39gSgIxn3EUIbl8rcZTrXmaBVYk8iJ2pOuXXniEAnaNohmNH7ZyOYUak5gkJhMw9+rHcqsJHnfKJBUsAQ==.sig.ed25519"
+  "signature": "CnvQZDKuPHt9wZfIfslHjL4zrYl+1U2G7PAzlvZuoC9lkT3/G0ySh/SIfq+9zP7JGeUMNabvPPikUBdvJorFCg==.sig.ed25519"
 }
