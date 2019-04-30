@@ -1,26 +1,26 @@
 {
-  "previous": "%nF7RchO3B0TC45rHn9k+O5Ek2Qmd3lV+R88S7devx1Q=.sha256",
-  "sequence": 9851,
+  "previous": "%DwG5zB/Xo4SP4ZtdBwww+hpD2FAmrOnGU108XeLj5Ns=.sha256",
+  "sequence": 9852,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556635868131,
+  "timestamp": 1556636057189,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
-    "branch": "%ltdo8oU+j5fnPojniwYzXqa0xZATRTLvonJER1RUlI8=.sha256",
+    "root": "%cCFm7EF6HV+919ncPoRlz9TnVANiFPld0DBugv9/iGs=.sha256",
+    "fork": "%p7wWX09U2EEe5Fy5izY2hnUTtBcgCgNULA/APF0M8Z0=.sha256",
+    "branch": "%cCFm7EF6HV+919ncPoRlz9TnVANiFPld0DBugv9/iGs=.sha256",
     "reply": {
-      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-      "%ltdo8oU+j5fnPojniwYzXqa0xZATRTLvonJER1RUlI8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+      "%cCFm7EF6HV+919ncPoRlz9TnVANiFPld0DBugv9/iGs=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
     },
-    "channel": null,
+    "channel": "email",
     "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nI think this is caused by [this file](https://github.com/ssbc/ssb-ws/blob/master/inject.js) which seems to have this behavior:\n\n```js\nif(config.ws) {\n  port = config.ws.port\n}\n\nif(!port)\n  port = 1024+(~~(Math.random()*(65536-1024)))\n\nhost = config.host || host\nport = config.port || port\n```\n\nIn my opinion this should probably read `connections.incoming.net.ws[]` for host + port + etc, that way we don't need to specify these properties in:\n\n- config.X\n- config.ws.X\n- config.connections.incoming.ws[].X\n\nAlso: this *should* work without any `~/.ssb/config` at all -- what happens when you use the vanilla config? Or are there reasons that you need to modify the vanilla config?",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nI don't think they've changed, but I don't use them because [they don't treat Linux like the other operating systems](https://protonmail.com/bridge/install) and that's a big bummer for me. I like the idea of crypto-cloud shenanigans but at the end of the day I don't think it matters. I use FastMail, but there are plenty of other options.",
     "mentions": [
       {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
       }
     ]
   },
-  "signature": "CnvQZDKuPHt9wZfIfslHjL4zrYl+1U2G7PAzlvZuoC9lkT3/G0ySh/SIfq+9zP7JGeUMNabvPPikUBdvJorFCg==.sig.ed25519"
+  "signature": "mt4U5bJLIfCDre37welhS7ONpRXvxgCwNrJP9U8BObOoN+OrRrvnavjUxZomANfBxnpNvUH2OWRf7RTTju0ZCA==.sig.ed25519"
 }
