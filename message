@@ -1,26 +1,21 @@
 {
-  "previous": "%NEvad9TXGUgzMB/zwXqRjOFM9H99T9CoQhr3AhcO56E=.sha256",
-  "sequence": 9853,
+  "previous": "%iyPmBn1J5MPmcpdCVssxqtJMaqFmqXm9WebKq6x+ckI=.sha256",
+  "sequence": 9854,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556636723955,
+  "timestamp": 1556637007845,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
-    "branch": "%hhen1XrEXu105re2Q8sBrHmCivWS+HH6Hw2nh2X2Op8=.sha256",
+    "root": "%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256",
+    "branch": "%eph4L/9ugtZ8cjuL9ivU1YqbUuKZ0GqHJ+wIDHzuNOM=.sha256",
     "reply": {
-      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-      "%hhen1XrEXu105re2Q8sBrHmCivWS+HH6Hw2nh2X2Op8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+      "%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+      "%eph4L/9ugtZ8cjuL9ivU1YqbUuKZ0GqHJ+wIDHzuNOM=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nThat's strange though, because the default of `::` should bind to all addresses. If you set `{ \"host\": \"::\" }` does it go back to breaking again? Super curious why `::` doesn't bind to all addresses on your machine...",
-    "mentions": [
-      {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
-      }
-    ]
+    "text": "Thinking about this a bit more, I'd *also* love to see an email-style UI where threads summaries have a fixed size but can be clicked to open the full thread.",
+    "mentions": []
   },
-  "signature": "EG9KwpgJ8AtWkye/+d6ZwuMotPpASnOxb7uQoiyPp6wLtVy83bhHiBGiRN5SevqnrZlUOsBMpVgY9pE57ytiAA==.sig.ed25519"
+  "signature": "oEUy4a/78tyfpUJPK8LBG2rjXXisuWxLw0tkrqqnakPRaj/1XluZwlsRyV2VNuJkw3CuSGAAIJQ6IqRvxC9OBw==.sig.ed25519"
 }
