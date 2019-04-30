@@ -1,21 +1,26 @@
 {
-  "previous": "%iyPmBn1J5MPmcpdCVssxqtJMaqFmqXm9WebKq6x+ckI=.sha256",
-  "sequence": 9854,
+  "previous": "%ovpOnj2UMmTZBy9iJh4adcQPchk/fHXOohLXOWoCTuM=.sha256",
+  "sequence": 9855,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1556637007845,
+  "timestamp": 1556637524015,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256",
-    "branch": "%eph4L/9ugtZ8cjuL9ivU1YqbUuKZ0GqHJ+wIDHzuNOM=.sha256",
+    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
+    "branch": "%lfOLgp5Su4gzYOSewwLPmhbeMQU7bOydOlrMDush88U=.sha256",
     "reply": {
-      "%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
-      "%eph4L/9ugtZ8cjuL9ivU1YqbUuKZ0GqHJ+wIDHzuNOM=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519"
+      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%lfOLgp5Su4gzYOSewwLPmhbeMQU7bOydOlrMDush88U=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Thinking about this a bit more, I'd *also* love to see an email-style UI where threads summaries have a fixed size but can be clicked to open the full thread.",
-    "mentions": []
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nOh, I bet that's coming from [this file](https://github.com/ssbc/ssb-config/blob/ff36c6bb6c513166186f0db3d4bd98ad655ec1ef/defaults.js), where we're doing:\n\n```js\nhost: config.host || nonPrivate.v4 || '::'\n```\n\nMaybe we should just rip that `nonPrivate.v4` bit out? I think we want to default to `::` anyway, the only exception is probably [on Windows](https://github.com/ssbc/ssb-config/issues/35)?",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
   },
-  "signature": "oEUy4a/78tyfpUJPK8LBG2rjXXisuWxLw0tkrqqnakPRaj/1XluZwlsRyV2VNuJkw3CuSGAAIJQ6IqRvxC9OBw==.sig.ed25519"
+  "signature": "oZ7llV43o/oHTMT3rNSnNGwuhnI3qNa6MPznm30GuaZwyP9iwzYafskI6AZRhakDNwQsSxYxfaFVlDgqET15Dg==.sig.ed25519"
 }
