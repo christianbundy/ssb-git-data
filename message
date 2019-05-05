@@ -1,16 +1,26 @@
 {
-  "previous": "%1rVj8OwLBwKrR3TmrWQLL9lkiGv+WXZ8Zb3SQHaPrao=.sha256",
-  "sequence": 9894,
+  "previous": "%QtYt6EKuHze59BnaAOpHvUOA/RRHa8FgtKddG56VYqk=.sha256",
+  "sequence": 9895,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557076053740,
+  "timestamp": 1557076115710,
   "hash": "sha256",
   "content": {
-    "type": "tag",
-    "version": 1,
-    "tagged": true,
-    "message": "%AOHwbtFQTyLpk2Ne4XTKdDwDlEfF0B4jwgvktJdnfO4=.sha256",
-    "root": "%aBApDO9yJVtKg6my5WbscjEXitDbmNwGeOEREUch6GM=.sha256",
-    "branch": []
+    "type": "post",
+    "root": "%AOHwbtFQTyLpk2Ne4XTKdDwDlEfF0B4jwgvktJdnfO4=.sha256",
+    "branch": "%SVoCp7/JFCabVRkNyFN5DYOHCSVmSO60jh5hHuatnI8=.sha256",
+    "reply": {
+      "%AOHwbtFQTyLpk2Ne4XTKdDwDlEfF0B4jwgvktJdnfO4=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+      "%SVoCp7/JFCabVRkNyFN5DYOHCSVmSO60jh5hHuatnI8=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nThat *is* weird. I'm not sure why that would be but I'll keep an eye out for it.\n\n> There are a couple of places in patchwork where messages by people you’ve blocked still render\n\nIf you can reproduce, please post a bug report! I don't block many people so this is a blind spot for me.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ]
   },
-  "signature": "/rYfaGIDI18bMRaXBtJuXphEpk2TSf6izz+NbOFfiAvwDqTbbGob9pJAfqyybNdidJqII5qljtyCzdZ/c7uKDw==.sig.ed25519"
+  "signature": "eJBRpRlwByTuEHLxQ3vWd6c0LZjy576Nfb3rnpaBvLLLmrRqaqBr+Bn4P0OaD1hQHCtTiEEigz9t5LH33hr/Bg==.sig.ed25519"
 }
