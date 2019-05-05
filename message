@@ -1,33 +1,17 @@
 {
-  "previous": "%RDMbZ09RPopNJOmJGnYnhMIOetXnxwKhJkkldRnLLCg=.sha256",
-  "sequence": 9896,
+  "previous": "%iUEeRSolc71X0f00qLJpeemQz4r+3JCXcwyOJc8d7g0=.sha256",
+  "sequence": 9897,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557086407789,
+  "timestamp": 1557086645363,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%x+QGCTzn97ceOo6IruC1Mud47tuK2lgm98SW3IBekyA=.sha256",
-    "branch": [
-      "%f5dkMKJdfRM+KEsRx8SCS1jrQkLkYuSwzIR2hR3n6dI=.sha256",
-      "%gKMhrdICDzVI7k3E9nPO77YiRrJqRmoQwKgL0uQLSg4=.sha256"
-    ],
-    "reply": {
-      "%x+QGCTzn97ceOo6IruC1Mud47tuK2lgm98SW3IBekyA=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519",
-      "%gKMhrdICDzVI7k3E9nPO77YiRrJqRmoQwKgL0uQLSg4=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519"
-    },
-    "channel": "ssb-help",
-    "recps": null,
-    "text": "[@will](@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519) \n\nHey! Which version of Patchwork are you running? Sorry to hear you're having trouble, I'd love to help make sure that Scuttlebutt runs correctly on your network. If you're on Windows and Patchwork 3.11.5/3.11.6 then you may be having [this bug](https://github.com/ssbc/patchwork/issues/969) which is solved in the [latest prereleases](https://github.com/ssbc/patchwork/releases.\n\n[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nThat's weird, it looks like two instances of atomic-file may be trying to write to `gossip.json` at the same time? I saw you mention this [here](https://github.com/ssbc/patchwork/pull/1020#issuecomment-489450188), so if you can consistently repro on `master` please create a new issue (or if it's specific to `prepare-for-release` please comment on that PR!). I'll copy the same message to GitHub for posterity.",
-    "mentions": [
-      {
-        "link": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519",
-        "name": "will"
-      },
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ]
+    "type": "vote",
+    "channel": "music",
+    "vote": {
+      "link": "%JkB7fX2EEhzv2wTAzxR0k4auIzdQ0cr8xT7nKpKPuG0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "+gX/N3kxVmSsQVVL9P1xudJxqtCWU6CHPEB0v67ZOOR6V0R8TDvV77buy8q2Vb2gpVwD/ZRIejwuxeSWDFYWBw==.sig.ed25519"
+  "signature": "EK5pbdfPw2W+2R35VI0O8x8GdTRrq9uUuYiwrPLA6Z4g7qrt41oW1BKfDk8IDCi8NOivFlBDnlXIcdPjfzA+BA==.sig.ed25519"
 }
