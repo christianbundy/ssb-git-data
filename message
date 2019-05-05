@@ -1,17 +1,26 @@
 {
-  "previous": "%AFoVK6XG19uSY9AQ0eVcgUoT34B5hvZhSa1Jy7BoUBM=.sha256",
-  "sequence": 9901,
+  "previous": "%gmJ2FSxai4ATrOKU/3Tcjy1XFsyxYPHscAjAvZI/MBA=.sha256",
+  "sequence": 9902,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557088660865,
+  "timestamp": 1557091870294,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-help",
-    "vote": {
-      "link": "%ctuaUeDx9ayGxs8or4gr2Oj9wSmaaDaJTZiHl4k93OY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Mc2nJUS5YtMa3BLnZ+XZpjvMaUQeXU6RdqRsDc3LfjY=.sha256",
+    "fork": "%uK8e5R5T5LFDSYHrJ6vT3VfOHl90C+WaNDGNwccRDSE=.sha256",
+    "branch": "%Mc2nJUS5YtMa3BLnZ+XZpjvMaUQeXU6RdqRsDc3LfjY=.sha256",
+    "reply": {
+      "%Mc2nJUS5YtMa3BLnZ+XZpjvMaUQeXU6RdqRsDc3LfjY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\n> I feel foolish thinking about how past mix tried interacting with friends who’d had kids.\n\nIf you have time + energy + interest I'd be keen to hear any suggestions you might have for past you. I'm about 200% sure that I have a blind spot here and I'm always interested in exploring those.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "2w9WtXM5qRChPQiKF0AR/93xdrzCa7Z11CncAxTYU4+klkTNlR8R+6BzxkU735sGq676yjUCNVAKozSMc9xTBA==.sig.ed25519"
+  "signature": "bKFjiGCheF+tmUv/GNAeC4W2TnW17CGL2b5Lo4ghVAMpB+OtrP2gR94Ok+Tp3jKGdGXrBlFv7daNrcfqe/vsBw==.sig.ed25519"
 }
