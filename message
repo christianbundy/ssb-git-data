@@ -1,26 +1,33 @@
 {
-  "previous": "%QtYt6EKuHze59BnaAOpHvUOA/RRHa8FgtKddG56VYqk=.sha256",
-  "sequence": 9895,
+  "previous": "%RDMbZ09RPopNJOmJGnYnhMIOetXnxwKhJkkldRnLLCg=.sha256",
+  "sequence": 9896,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557076115710,
+  "timestamp": 1557086407789,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%AOHwbtFQTyLpk2Ne4XTKdDwDlEfF0B4jwgvktJdnfO4=.sha256",
-    "branch": "%SVoCp7/JFCabVRkNyFN5DYOHCSVmSO60jh5hHuatnI8=.sha256",
+    "root": "%x+QGCTzn97ceOo6IruC1Mud47tuK2lgm98SW3IBekyA=.sha256",
+    "branch": [
+      "%f5dkMKJdfRM+KEsRx8SCS1jrQkLkYuSwzIR2hR3n6dI=.sha256",
+      "%gKMhrdICDzVI7k3E9nPO77YiRrJqRmoQwKgL0uQLSg4=.sha256"
+    ],
     "reply": {
-      "%AOHwbtFQTyLpk2Ne4XTKdDwDlEfF0B4jwgvktJdnfO4=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-      "%SVoCp7/JFCabVRkNyFN5DYOHCSVmSO60jh5hHuatnI8=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+      "%x+QGCTzn97ceOo6IruC1Mud47tuK2lgm98SW3IBekyA=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519",
+      "%gKMhrdICDzVI7k3E9nPO77YiRrJqRmoQwKgL0uQLSg4=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519"
     },
-    "channel": null,
+    "channel": "ssb-help",
     "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nThat *is* weird. I'm not sure why that would be but I'll keep an eye out for it.\n\n> There are a couple of places in patchwork where messages by people you’ve blocked still render\n\nIf you can reproduce, please post a bug report! I don't block many people so this is a blind spot for me.",
+    "text": "[@will](@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519) \n\nHey! Which version of Patchwork are you running? Sorry to hear you're having trouble, I'd love to help make sure that Scuttlebutt runs correctly on your network. If you're on Windows and Patchwork 3.11.5/3.11.6 then you may be having [this bug](https://github.com/ssbc/patchwork/issues/969) which is solved in the [latest prereleases](https://github.com/ssbc/patchwork/releases.\n\n[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nThat's weird, it looks like two instances of atomic-file may be trying to write to `gossip.json` at the same time? I saw you mention this [here](https://github.com/ssbc/patchwork/pull/1020#issuecomment-489450188), so if you can consistently repro on `master` please create a new issue (or if it's specific to `prepare-for-release` please comment on that PR!). I'll copy the same message to GitHub for posterity.",
     "mentions": [
       {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
+        "link": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519",
+        "name": "will"
+      },
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
     ]
   },
-  "signature": "eJBRpRlwByTuEHLxQ3vWd6c0LZjy576Nfb3rnpaBvLLLmrRqaqBr+Bn4P0OaD1hQHCtTiEEigz9t5LH33hr/Bg==.sig.ed25519"
+  "signature": "+gX/N3kxVmSsQVVL9P1xudJxqtCWU6CHPEB0v67ZOOR6V0R8TDvV77buy8q2Vb2gpVwD/ZRIejwuxeSWDFYWBw==.sig.ed25519"
 }
