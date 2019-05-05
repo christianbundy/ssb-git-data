@@ -1,17 +1,25 @@
 {
-  "previous": "%kHkMp2voCKVnd0ZbVwg5G7ew0sKwhEPw+ffpX9ChxRI=.sha256",
-  "sequence": 9882,
+  "previous": "%opo4qRcJJ5dkcN4M1ssntJFa1rFEDCEaZjMqAYqIBhA=.sha256",
+  "sequence": 9883,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557066797097,
+  "timestamp": 1557067416948,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%+BIYj/r3IU7nRsbTEvMwnGhtUP/7JC//9e5ekU/17HE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%tR5s7ws8JjqoNmAV+Utmaf6jhshqY/BCJ4mY1RFV6Xw=.sha256",
+    "branch": "%tR5s7ws8JjqoNmAV+Utmaf6jhshqY/BCJ4mY1RFV6Xw=.sha256",
+    "reply": {
+      "%tR5s7ws8JjqoNmAV+Utmaf6jhshqY/BCJ4mY1RFV6Xw=.sha256": "@KC3U+gkJ9y36spVeyd51S3e/98hjps64HXUS046Wz9I=.ed25519"
+    },
+    "channel": "music",
+    "recps": null,
+    "text": "[@Henk@Mini](@KC3U+gkJ9y36spVeyd51S3e/98hjps64HXUS046Wz9I=.ed25519) \n\nHappy birthday (sometime this month)! What's Symfo?",
+    "mentions": [
+      {
+        "link": "@KC3U+gkJ9y36spVeyd51S3e/98hjps64HXUS046Wz9I=.ed25519",
+        "name": "Henk@Mini"
+      }
+    ]
   },
-  "signature": "0kjoX8LCIrKwvyTSC5qyLBt4iNexQ/8FTfFFPCSNCUasNcKlI9DLNydXcRCuASnVXk1jPQ4TO5Iy+LKn8nPJCg==.sig.ed25519"
+  "signature": "NXPAaQ9rt4JaTOe/dDC7Zd+LjZD9tWjrPsLURInQO2solTzngHzUKnwVhl9Pj0b0AbPmLzfnCtoc8wuXXbe2BA==.sig.ed25519"
 }
