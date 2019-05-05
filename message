@@ -1,28 +1,17 @@
 {
-  "previous": "%F5lLgw2jUZpiQDrUuhsvoeRSxcmYb6L9Kvud8qmC1Y4=.sha256",
-  "sequence": 9871,
+  "previous": "%JiSassj7gzdeyT76rpq60XiFjTadL+o5ZCL9E5unpVA=.sha256",
+  "sequence": 9872,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557019490463,
+  "timestamp": 1557031438254,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%TgJ76K2CMpUQ3OBytyWRCj+XJ54hSi/ptinClSmYBgU=.sha256",
-    "branch": "%mMdPjGDZMCshVk+nRwEMvBwo06gc2T2AOwmGQi6QeQc=.sha256",
-    "reply": {
-      "%TgJ76K2CMpUQ3OBytyWRCj+XJ54hSi/ptinClSmYBgU=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-      "%mMdPjGDZMCshVk+nRwEMvBwo06gc2T2AOwmGQi6QeQc=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "![Photo of me and Sunshine the cat. I'm holding Kathleen's Macbook open and the display shows the photo in the above post.](&Q1OXW4CcrrQ2tDB1Nfbh9DpqSjVir6tZ5lPwfvIIBlk=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&Q1OXW4CcrrQ2tDB1Nfbh9DpqSjVir6tZ5lPwfvIIBlk=.sha256",
-        "name": "Photo of me and Sunshine the cat. I&#39;m holding Kathleen&#39;s Macbook open and the display shows the photo in the above post.",
-        "type": "image/jpeg",
-        "size": 1803776
-      }
-    ]
+    "vote": {
+      "link": "%mMdPjGDZMCshVk+nRwEMvBwo06gc2T2AOwmGQi6QeQc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "uHOi7Y+07z0E1gifKlANA+Z4fbd7RImS3+MQ+QrdMcefwPPEwmUIdpLdhpKkaBkQQXrh9v5LDHsMCVS9eUYOBw==.sig.ed25519"
+  "signature": "3dIj6Hy0EFExPgEzbgrUGo1EqEmYtGvfB6bNxwTupAQ00kA8cab2EZORZKRAx2EGA6+181NswDARQ/A0xrtGBA==.sig.ed25519"
 }
