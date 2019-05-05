@@ -1,17 +1,26 @@
 {
-  "previous": "%dStReHBTg5h/G+UE6t96+9vR4JiFxzZvDUi/kLtpnvk=.sha256",
-  "sequence": 9903,
+  "previous": "%VAUT32XATMRX7Y/fGgfeiZSNPMyTqPi6r2Upc1LEE4o=.sha256",
+  "sequence": 9904,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557092647070,
+  "timestamp": 1557092736228,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%+8/L0k7Wjx+4khQViG+CBUqVCWlE40SOAHeb+PVjSbE=.sha256",
+    "fork": "%k67GkgrYUVic3oZMDdXwKCOD2lE5mrmhuqRK0CONnm8=.sha256",
+    "branch": "%+8/L0k7Wjx+4khQViG+CBUqVCWlE40SOAHeb+PVjSbE=.sha256",
+    "reply": {
+      "%+8/L0k7Wjx+4khQViG+CBUqVCWlE40SOAHeb+PVjSbE=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+    },
     "channel": "cooking-channel",
-    "vote": {
-      "link": "%+8/L0k7Wjx+4khQViG+CBUqVCWlE40SOAHeb+PVjSbE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nDo you have any recipes you're super excited about? I've always wanted to cook with lentils more often but I've never found any lentil recipes that got me excited.",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "pt26fKod7CraSaGKTHjhnR7x0eTRQt4tgMIlOyEc6w0Hpbs9/s10QWJaO2tB3pk9YwrmImADDZrfZhiJQLTxAw==.sig.ed25519"
+  "signature": "mhkUCmOQZUfy8FS4qiwYCPbkYNeDCTahxL06vLDYzxdwxW6Z//b7XHxlUzMZjhoO3dqf9OuuGghtshYkSfFUCg==.sig.ed25519"
 }
