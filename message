@@ -1,13 +1,25 @@
 {
-  "previous": "%ONw2Q+Yc61eqAmgHteITdZugjZvWX3Dc7y3vyOqP2oo=.sha256",
-  "sequence": 9920,
+  "previous": "%q+oml7jD8Pf8DJqBqyZXVRj1X5tXuS9Jlk3giL11rDI=.sha256",
+  "sequence": 9921,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557182925778,
+  "timestamp": 1557183015244,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@UIDs8oWKQBK8QTSAGV6SZiE80jwQlHTuEjhEaNRV8Zw=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256",
+    "branch": "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256",
+    "reply": {
+      "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nJust testing a blocking thing for [deletion in Patchwork](https://github.com/ssbc/patchwork/pull/1026), hope your bot doesn't have any hurt feelings. 🤖❤",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "i39L4082cX1UnWNQGVb0iaVZO1S5S7uvfS/xAAyYJU9lFn7G07PfzWRxiQHdhXTtUQCsjzLmxfqi4EKthrNLCQ==.sig.ed25519"
+  "signature": "wBT+onzp/3w3Kw2ISXxq6ORbh8cqcHdlsWtorVbxrjRgaZR5B1rXeleLQqIxOmCVcEw7heJeRKoIeunHRAbUDA==.sig.ed25519"
 }
