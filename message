@@ -1,57 +1,17 @@
 {
-  "previous": "%qPnuywLjwPxQNYT2cBDDA91i1RrdtgYJOUHSr6YV6S0=.sha256",
-  "sequence": 9910,
+  "previous": "%6iXkvCHTcjgDbQkHdOq18z18hUxp9y0D3q0SXZ/2YA0=.sha256",
+  "sequence": 9911,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557157995473,
+  "timestamp": 1557159959345,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%VOpFMAlDhDZRg/eUKS7Y1rI0AmyLUML/vEk/lXC0HO8=.sha256",
-    "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%VOpFMAlDhDZRg/eUKS7Y1rI0AmyLUML/vEk/lXC0HO8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "# Patchwork v3.12.0-beta.0\n\n**Update:** we've got a [**beta release**](https://github.com/ssbc/patchwork/releases/tag/v3.12.0-beta.0) and need #help testing it!\n\nWe've ironed out lots of small issues and includes a handful of new features, and I'd like to point out all of the time and energy that's been poured into this release by:\n\n- **[@Matt McKegg](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)**\n- [@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\n- [@dangerousbeans ✨𝒑𝒓𝒆𝒎𝒊𝒖𝒎✨](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n- [@edowado](https://github.com/ssbc/patchwork/commits?author=edowado)\n- [@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519) \n- [@Jeremy Apthorp](@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519)\n- [@Justin Abrahms](@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519) \n- [@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n- [@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\n\nFor folks who have the time to test this beta (thank you!), please be on the lookout for bugs related to:\n\n- **Installation:** we have a new build / release workflow and it hasn't been tested enough\n- **Networking:** lots of networking bugs have recently been fixed but I'm sure there are more\n- **Offline usage:** most of us have pretty consistent internet access so this may be a blind spot\n\nIf you have any trouble while testing this beta::\n\n- If you have a GitHub account, please [create an issue](https://github.com/ssbc/patchwork/issues/new).\n- Otherwise, feel free to just post your problem on Scuttlebutt in the `#patchwork-help` channel.",
-    "mentions": [
-      {
-        "link": "#help"
-      },
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "Matt McKegg"
-      },
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      },
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans ✨𝒑𝒓𝒆𝒎𝒊𝒖𝒎✨"
-      },
-      {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
-      },
-      {
-        "link": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519",
-        "name": "Jeremy Apthorp"
-      },
-      {
-        "link": "@fhHAV9+vk4pGf4uePLDSR/KxppwcBbu1t/tXuQwiA5o=.ed25519",
-        "name": "Justin Abrahms"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mixmix"
-      },
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      }
-    ]
+    "type": "vote",
+    "channel": "patchbay",
+    "vote": {
+      "link": "%9HX5vLV1j5aK2ulhNwCHo5+BdBQkbQihDJDSMG5Py40=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "QT6uuPhQ6uCN8zFQNulypqEI44CebJ1f7ABuSi0gNMlS/RloxwDYy4XoflFEA6usXrUS+I8s/ehjYBVWalM3Cg==.sig.ed25519"
+  "signature": "HTdUHBvFdz2hLIDRJRh74320HhtT94biUlDjQl58J9ZnovWeEP/UFsKHNcWv+djYqjUrQCGA1+PubQJxm7HKBw==.sig.ed25519"
 }
