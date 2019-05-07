@@ -1,30 +1,16 @@
 {
-  "previous": "%Q37GCkCh7Q1jDFm3rtzm8rBhkUfJTU6CaI3pdc6+Lgk=.sha256",
-  "sequence": 9927,
+  "previous": "%T1bEbrhYsbi4ZXuK3E79piErpJ6xwq6nFzG+GpBGjak=.sha256",
+  "sequence": 9928,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557238086201,
+  "timestamp": 1557238286275,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256",
-    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256",
-    "reply": {
-      "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) / [@mix.exe](@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519) \n\nThanks! Are you having problems loading new images as well? Old images may be cached but there's [an issue where ssb-ws is binding to the wrong IP](https://github.com/ssbc/patchwork/issues/1024) and I'm curious if that's the same as your broken emoji bug. I think this might be caused by [non-private-ip](https://github.com/ssbc/ssb-config/blob/master/defaults.js#L4) from ssb-config, it looks like that was added [way back when](https://github.com/ssbc/ssb-config/blob/b7d1037ff51c756ccbad182795b65a60614ecb6d/index.js) and might be worth removing now?",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519",
-        "name": "mix.exe"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%kMMEsFjfxGviY+W0dBHWzmHjmuKERxs7cPIR+r5LEb8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "29BglXygNdJqsgi3RGT6ohfVg7qz5wDPwGoBK10sc1UeVKQj37wMwWbuTHVQYM62PTcJKJTAlyWilcg63PBnBQ==.sig.ed25519"
+  "signature": "HS9gaQ8CnZsV3QY3Bl9rHqL8z5JbE22gt1WVAoy2MirwPSKA59hs2YIPKFwXQgP0nUGhfyxHTlSH6TsQcImEDA==.sig.ed25519"
 }
