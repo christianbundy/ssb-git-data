@@ -1,17 +1,29 @@
 {
-  "previous": "%nMwehlOpl70eyYZjC4oidGgLh6IHjLRfOBvi2wiasec=.sha256",
-  "sequence": 9925,
+  "previous": "%BcPNYiQgPpvgkudXESX4YIUUYah/WoqSjk5mzwoXBeM=.sha256",
+  "sequence": 9926,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557236037349,
+  "timestamp": 1557237780988,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256",
+    "branch": [
+      "%Fih9yv0qGw49L+IhPxaa3S+Wt2uwOq7fLtwVd/hoJjk=.sha256",
+      "%shZ+vjuZM2B/BjJZKrEEz4rDrA8jDSjtNkN+0ZEDnzE=.sha256"
+    ],
+    "reply": {
+      "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%Fih9yv0qGw49L+IhPxaa3S+Wt2uwOq7fLtwVd/hoJjk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%sv0Aw22eTJ/zgJ28VLrQhJu2ikW+J4i5i8/nRegp3Hw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nTHANK YOU! I was just thinking about how useful this would be and was feeling bummed I didn't have time to make one. Really appreciate this.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "nFMxr48nRKWcpMWxDxkauADfPUzQLitRwsrLL9bLYPEQzoH5KCJS0fuSVKvkfs4KHHWXODca7NYHkOrc+oUlBQ==.sig.ed25519"
+  "signature": "rYX3PEFgMarL8de5kE8emV0Q74HuOLCXyUAr2J+Pibcxi9uyIlTpk2XO4emNydodLYAgfJeJoOopC+TQmosJBg==.sig.ed25519"
 }
