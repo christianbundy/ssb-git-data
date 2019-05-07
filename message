@@ -1,29 +1,30 @@
 {
-  "previous": "%BcPNYiQgPpvgkudXESX4YIUUYah/WoqSjk5mzwoXBeM=.sha256",
-  "sequence": 9926,
+  "previous": "%Q37GCkCh7Q1jDFm3rtzm8rBhkUfJTU6CaI3pdc6+Lgk=.sha256",
+  "sequence": 9927,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557237780988,
+  "timestamp": 1557238086201,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256",
-    "branch": [
-      "%Fih9yv0qGw49L+IhPxaa3S+Wt2uwOq7fLtwVd/hoJjk=.sha256",
-      "%shZ+vjuZM2B/BjJZKrEEz4rDrA8jDSjtNkN+0ZEDnzE=.sha256"
-    ],
+    "root": "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256",
+    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256",
     "reply": {
-      "%bMBL4yfyDnkj7VYM7tqFQhd9q2gZLBCPZkc315NTpd8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Fih9yv0qGw49L+IhPxaa3S+Wt2uwOq7fLtwVd/hoJjk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+      "%itT36GF5OYSvA3KVeyTkYTKF7ZZ7YjwdYAXDegDcQ8M=.sha256": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nTHANK YOU! I was just thinking about how useful this would be and was feeling bummed I didn't have time to make one. Really appreciate this.",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) / [@mix.exe](@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519) \n\nThanks! Are you having problems loading new images as well? Old images may be cached but there's [an issue where ssb-ws is binding to the wrong IP](https://github.com/ssbc/patchwork/issues/1024) and I'm curious if that's the same as your broken emoji bug. I think this might be caused by [non-private-ip](https://github.com/ssbc/ssb-config/blob/master/defaults.js#L4) from ssb-config, it looks like that was added [way back when](https://github.com/ssbc/ssb-config/blob/b7d1037ff51c756ccbad182795b65a60614ecb6d/index.js) and might be worth removing now?",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519",
+        "name": "mix.exe"
       }
     ]
   },
-  "signature": "rYX3PEFgMarL8de5kE8emV0Q74HuOLCXyUAr2J+Pibcxi9uyIlTpk2XO4emNydodLYAgfJeJoOopC+TQmosJBg==.sig.ed25519"
+  "signature": "29BglXygNdJqsgi3RGT6ohfVg7qz5wDPwGoBK10sc1UeVKQj37wMwWbuTHVQYM62PTcJKJTAlyWilcg63PBnBQ==.sig.ed25519"
 }
