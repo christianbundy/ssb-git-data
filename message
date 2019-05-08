@@ -1,9 +1,26 @@
 {
-  "previous": "%6LT/O7MoIB8RXky7KfXuMDq2bBVcFYZtMh4rde/dn9k=.sha256",
-  "sequence": 9952,
+  "previous": "%EAoH77mXYBNhBZj5qWJ2KQrq2YQ5Ryspu+DaA1yMgLg=.sha256",
+  "sequence": 9953,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557338031762,
+  "timestamp": 1557356401726,
   "hash": "sha256",
-  "content": "roMDqTAhPxr53I1GHWYGxb7Qlg7Ca0Fsj4ueG0MuWKda0vGEqgLZlXX8W8k9akC2QbhtUtbaIBaJOd5SeivSTOpSFeH9l95CyJVG6Cgvi+R6giKHaJqk1/6JCCr58BtRt9v2QdFzLmCcv94U1nRT0J8Bv7NQvunN51fWOeJZbZZEHqt0Unb2/SgxMcmbfHq2pSbok3dDYLpqtLTS0amUV1+FmTqH1zwXAQV1WBdZi32uYnu9NAZQi0CKwOpUYQIczhsRQBJ+39bWIWONy+O9J0amvUdzb4inooY20bvggpJfC/n9qpGMz7lOeADsqkKQWCqXDShAAJ0zxG2Q+pZq1fyQhvQ5beUzu8nH6yzB+0vdq9fcl00uzGnRY1NDb9oCexxxpXKZ5lfFWM84h79er1j4U1+FTotqgYVD3BcdHuy6tn2St4bDURZLN5xRN3jhJlQMyDKbqBg645nQqrMSRmMgzV/osbe8TXEq/Z17MqjmffKuN9XWH+bGpNt43y3LjQ2vtHqsRvxKgqBpUFoSHVZZXGqfVjapC3EgHrbt3n2yu0uMxfYKusr6p5kkxuaa/jevN6a3O0eXHVE7Et4vfcJyT5ySqYSyGwhyQTHNM0RJYwV0ZmQBl110BpTprEL6I8PXBA/GIQmGPIpMUBlEdez/Xu/keBwq5OFsRmkGVgFHVHJ8tl9z5kUJgLFdyYXwpdCCjUVRCnbX/HkAGbPff4OcCPM7ZFb7JHbvh9hnZ7LDoIOC/vS0j2YeMr/4vNWV7dx08dsiGvs7sTX5g3WtQFqPVeUTXNkZR8gYfLX0kcUj7WwM1EYTKQBf62L6IvQnBp9TGs9tvNZPyYO3cI7l58SvXY7Rawiu7usewCs+ZIBBbEcd/nD3Q2Ls1Ymtr2XYhSjh88xPPlXC4gWCppZSDromhe+MVqZPdh5nFJEvfupQuredqjJRHNhxeKMWf78Ilsq3cd07kTwNjYu4TxPjuQ2elxjmXwrHUI2qLGxMnha9xUS4g04uxDI6kQHjmwbfD/aLUMSXVCWv0GJTEJtF4/aUoCTe/WDseAIecVVACrolMHbAdcbqtZV/GpRNq8SEwqITTS1z5/etrwregcvno9yeqBjvQLOWe6at+wuQ1YA/iSzM0z5sGZKy7l0O6Zra4Z39KPamfQetjBfmA44KO3ckM7tPEf3ad+TV+66wONRBBKwe5MjwJbzX8MthR9B8oqeqtvZ1hHsU24vY7EC+JaTq6jVSVb0+dimXVDOYIyw5+IcRrXMLPlYnSFFL4KcTqnbGAit0AJlKWRFf7YM9OXX9zpyRNetA6jdy+toZpH47W1QyIIy3ymWIaS3Lzpw85dFWsqGkFuvFrUbqcRSAAOdDcC466kwntRGdf3A2MtN6ucPzPxrZLNaGFhZVdgeZ8uuBsdM/bEeJRgC116Rbf2cbtCPQVmTsioZIIm4C8/Ih+bDuifKDhHsNPlAyqXod3lMQnT4PmOc/HDE=.box",
-  "signature": "c0qKV1e3w7YKyVw2IN/pZ9DVs3vuEoWYPrZAVUGI8YB76xvD2F5pLXgTzqyAZSRKi8fTZl6rIiL/Ulx/3Gj/Dg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
+    "fork": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
+    "branch": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
+    "reply": {
+      "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nYeah, this illustrates the interesting tension between:\n\n- Updates are pushed out to the network too slowly so sometimes you post a message and shutdown your computer only to realize that your message never made it to the network.\n- Updates are pushed out to the network too quickly, so sometimes you post a message you'd like to undo but it's already been published and broadcast.\n\nTangent: one interesting solution would be to allow `msg.value.content` to be an array of objects, in which case each array item could be its own message. This would allow us to publish multiple actions with the same message on the feed, but I'm unclear on whether the benefits outweigh all of the refactoring that would be involved.\n\n🤷",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "PinkMoff"
+      }
+    ]
+  },
+  "signature": "ag+6KUx9l2CxlgE9KO8RmmoDXgjx2RSilpT5++/Nseh0NHlg0wqc76qQ6Isvzs51BpMSot4yNfJX6JFz0cnWAw==.sig.ed25519"
 }
