@@ -1,20 +1,26 @@
 {
-  "previous": "%uFPGPI5o3YRoM7CJ2J0Y5+smjeGOJYZuO3tgJAyKv5Q=.sha256",
-  "sequence": 9940,
+  "previous": "%sIa6WKovoJUI2c/JVeLfAy705mlN67W9Q4jFs1NDduo=.sha256",
+  "sequence": 9941,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557279101882,
+  "timestamp": 1557279301129,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> # [Being Glue](https://noidea.dog/glue)\n>\n> Being Glue originated as a comment on an internal Google+ post when I worked at Google. I’d used the expression “glue work” in passing, and someone asked what I meant by it. The reply became a standalone post and then an internal document (which as far as I know is still being circulated).\n>\n> ![Infographic about \"being glue\" and how \"engineering success is not just about showing up and churning out code\"](&r9VHl/PJVxbjSij80DS6e/jGhbeZauvmiHhcvlp+nnw=.sha256)\n\n\n",
+    "root": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
+    "branch": "%/0K36PY3+cQOXRnk/PIS6AqwyyOKEVWir6PKCOIbtQI=.sha256",
+    "reply": {
+      "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+      "%/0K36PY3+cQOXRnk/PIS6AqwyyOKEVWir6PKCOIbtQI=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": "dev-diaries",
+    "recps": null,
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\n\n> In the same WiFi network Patchwork was able to see both phones; phones saw each other, but not Patchwork.\n\nWhich version of Patchwork is this? I think that might be caused by [#979](https://github.com/ssbc/patchwork/issues/979) or [#1024](https://github.com/ssbc/patchwork/issues/1024).",
     "mentions": [
       {
-        "link": "&r9VHl/PJVxbjSij80DS6e/jGhbeZauvmiHhcvlp+nnw=.sha256",
-        "name": "Infographic about &quot;being glue&quot; and how &quot;engineering success is not just about showing up and churning out code&quot;",
-        "type": "image/jpeg",
-        "size": 141161
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
       }
     ]
   },
-  "signature": "7yfk+NSKv6raNAf/wEu5tXnB5YVXFR5tLnTZlmy4UFyA5yNbYuRsU9Q290Jr7l5K5sTSM2/9Dmj7BgYD0Sg0CQ==.sig.ed25519"
+  "signature": "lCGLKdhx48qYreW7+M1hGYWjjsVAmf4CSHS0gE6uV1WLVPDud4Jq+TGOk9f40VcuTHvf2y3EFM64GgU8hRkEDQ==.sig.ed25519"
 }
