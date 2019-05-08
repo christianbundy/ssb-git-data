@@ -1,17 +1,27 @@
 {
-  "previous": "%/2x/83UgaLeU9xxcJ5bnx6acHX8yf2Me/oBEwWoO8ys=.sha256",
-  "sequence": 9954,
+  "previous": "%au0EJSOK1zqDHYOxT3pSVpK/9N3XBwGOpUvuJZ3sLhM=.sha256",
+  "sequence": 9955,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557358008597,
+  "timestamp": 1557358295272,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
+    "fork": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
+    "branch": "%V52gUCz7lKsHsCmv1GT7K7Jfr46JATSlNXD0Ys7d6T4=.sha256",
+    "reply": {
+      "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+      "%V52gUCz7lKsHsCmv1GT7K7Jfr46JATSlNXD0Ys7d6T4=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%BUtTfiEiRlX1FBCLokAYoq8UfPF7fLdPI4pYCvc+CHE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)\n\n> could that also be used to edit a post? by say, storing the whole edit history and displaying the top or most recent version? \n\nHmm, I'm not 100% sure I'm following. Could you walk me through how that might work a bit more?",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "PinkMoff"
+      }
+    ]
   },
-  "signature": "zt59t78wcJAZOpHwBaifHjIUWEIUT0ES9Ufx5xl5CMTKs7qQK/eNDXr19m0f6+HtrCV5FaZGGdPwpQ1Fcj+cCw==.sig.ed25519"
+  "signature": "7u5s/01WTzA0pJgehkCkmw8bDceZXaXztjv6XXHpre1LovWCBDiyFT3wFcR7kJSb1v0OzecthszBsYYcjfctCA==.sig.ed25519"
 }
