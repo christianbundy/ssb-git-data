@@ -1,26 +1,17 @@
 {
-  "previous": "%/R9NT53zQ5aolGE0H4GLPghLeimJ6P7sILSHi9srJCk=.sha256",
-  "sequence": 9944,
+  "previous": "%pm7GL+Kd34ZxVMBxdIc2oRednpZSm4pEHu2f0GhT79M=.sha256",
+  "sequence": 9945,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557327577982,
+  "timestamp": 1557327579313,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uWdVsKsbbX7aTK7zAaVJUJ4ifkzWDfecu5LQqNg6Xcs=.sha256",
-    "fork": "%xX3h63MoPhJshHHmj36D01Kv9JMFPG41XP6hZYkuJgU=.sha256",
-    "branch": "%uWdVsKsbbX7aTK7zAaVJUJ4ifkzWDfecu5LQqNg6Xcs=.sha256",
-    "reply": {
-      "%uWdVsKsbbX7aTK7zAaVJUJ4ifkzWDfecu5LQqNg6Xcs=.sha256": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519) \n\nI've always wanted to try, it just seems like... a lot. Have you been using Dvorak for a long time?",
-    "mentions": [
-      {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
-      }
-    ]
+    "vote": {
+      "link": "%uWdVsKsbbX7aTK7zAaVJUJ4ifkzWDfecu5LQqNg6Xcs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "1g3cx8QR3yuWogo+zP6lJTC7zhGzwvkS8j+udlLCJBpE4IT2Yow1Cbxlo1E02D2bMTW5eKeZj09Rr0wa0fdQDQ==.sig.ed25519"
+  "signature": "DYaOEqf4ALFdFnGd5ORP69MXbB3H+O2vh+PHX9Y0APyUKYx0GiO8Bu2CL95L386TlCg1VnddXUc5/HRPbwKyAA==.sig.ed25519"
 }
