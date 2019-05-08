@@ -1,26 +1,17 @@
 {
-  "previous": "%EAoH77mXYBNhBZj5qWJ2KQrq2YQ5Ryspu+DaA1yMgLg=.sha256",
-  "sequence": 9953,
+  "previous": "%/2x/83UgaLeU9xxcJ5bnx6acHX8yf2Me/oBEwWoO8ys=.sha256",
+  "sequence": 9954,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557356401726,
+  "timestamp": 1557358008597,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
-    "fork": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
-    "branch": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
-    "reply": {
-      "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nYeah, this illustrates the interesting tension between:\n\n- Updates are pushed out to the network too slowly so sometimes you post a message and shutdown your computer only to realize that your message never made it to the network.\n- Updates are pushed out to the network too quickly, so sometimes you post a message you'd like to undo but it's already been published and broadcast.\n\nTangent: one interesting solution would be to allow `msg.value.content` to be an array of objects, in which case each array item could be its own message. This would allow us to publish multiple actions with the same message on the feed, but I'm unclear on whether the benefits outweigh all of the refactoring that would be involved.\n\n🤷",
-    "mentions": [
-      {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
-      }
-    ]
+    "vote": {
+      "link": "%BUtTfiEiRlX1FBCLokAYoq8UfPF7fLdPI4pYCvc+CHE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ag+6KUx9l2CxlgE9KO8RmmoDXgjx2RSilpT5++/Nseh0NHlg0wqc76qQ6Isvzs51BpMSot4yNfJX6JFz0cnWAw==.sig.ed25519"
+  "signature": "zt59t78wcJAZOpHwBaifHjIUWEIUT0ES9Ufx5xl5CMTKs7qQK/eNDXr19m0f6+HtrCV5FaZGGdPwpQ1Fcj+cCw==.sig.ed25519"
 }
