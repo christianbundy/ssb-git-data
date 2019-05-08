@@ -1,17 +1,25 @@
 {
-  "previous": "%pm7GL+Kd34ZxVMBxdIc2oRednpZSm4pEHu2f0GhT79M=.sha256",
-  "sequence": 9945,
+  "previous": "%InQ+5ZRD4CmqVINsv2PNIoTjNPsLbObo+Erc3hPCSdE=.sha256",
+  "sequence": 9946,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557327579313,
+  "timestamp": 1557327720602,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
+    "branch": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
+    "reply": {
+      "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%uWdVsKsbbX7aTK7zAaVJUJ4ifkzWDfecu5LQqNg6Xcs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nWhich client? I think Patchwork has a preview but we might be thinking of slightly different behavior.",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ]
   },
-  "signature": "DYaOEqf4ALFdFnGd5ORP69MXbB3H+O2vh+PHX9Y0APyUKYx0GiO8Bu2CL95L386TlCg1VnddXUc5/HRPbwKyAA==.sig.ed25519"
+  "signature": "qhqaVu+9UnaN7rLNDW/wacpbEZ+EFpcizGqRVaWcKqMFIj4hEsMjhW2NfaBg0TiklPxSx0Cfs/ET5pGAOKsWDg==.sig.ed25519"
 }
