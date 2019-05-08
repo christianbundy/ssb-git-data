@@ -1,16 +1,29 @@
 {
-  "previous": "%WR4dFq0HBKlsgK9yVVdzko0jnBdthTGJcGWHdnfxiY0=.sha256",
-  "sequence": 9958,
+  "previous": "%7so7k6bSxVoRH9ISYkwYkQJxWtkGRj9UT6eMfpJ0gs0=.sha256",
+  "sequence": 9959,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557359187454,
+  "timestamp": 1557359279263,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Ce5yvVGj/n4+wjqdhLThfenjqCU0+hZvRS2RGQ0+OGo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ce5yvVGj/n4+wjqdhLThfenjqCU0+hZvRS2RGQ0+OGo=.sha256",
+    "branch": "%Ce5yvVGj/n4+wjqdhLThfenjqCU0+hZvRS2RGQ0+OGo=.sha256",
+    "reply": {
+      "%Ce5yvVGj/n4+wjqdhLThfenjqCU0+hZvRS2RGQ0+OGo=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mulrich](@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519) \n\nShe's so cute, thanks for sharing! At first I thought that was photo of [Jerome](%FIljyLgBy7T2SSGuH2brNg+INDx6sT6J9eWLrxPlILI=.sha256), he has a similar blanket that he loves to sleep on.",
+    "mentions": [
+      {
+        "link": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519",
+        "name": "mulrich"
+      },
+      {
+        "link": "%FIljyLgBy7T2SSGuH2brNg+INDx6sT6J9eWLrxPlILI=.sha256",
+        "name": "Jerome"
+      }
+    ]
   },
-  "signature": "FAXsrI51qC4B4tInaOoAklA0akxUCPA5lydpwm1LtpjWetrIhlJVQ8tTJ82iVOCZ9E01tOb5dshP5l9SsM/4Dg==.sig.ed25519"
+  "signature": "PM8yDYoJ8f31jsXjKnTRIJfo0RADPZM4FWSEf0F3cr0kbn15GYzplZoliRfwsjfCDb/sBswpKaWwK9TxyHjVBQ==.sig.ed25519"
 }
