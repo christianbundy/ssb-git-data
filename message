@@ -1,16 +1,26 @@
 {
-  "previous": "%8qgob8hYlokpTYxbInik8wNg/0uc97akCFaHij6JfxA=.sha256",
-  "sequence": 9947,
+  "previous": "%OSFmrvaRhnEMhsxlRgIaa4FXaTxW+ad996inWqBOsAM=.sha256",
+  "sequence": 9948,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557335624675,
+  "timestamp": 1557335808553,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%QZq4NhN/JOIofKcrv4VX6kpj8EF+rnR1/e05Qa51ziE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
+    "branch": "%wll7jfLVkfRRI86/IvMTY49841C8KJeU26CO3QHJkg0=.sha256",
+    "reply": {
+      "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+      "%wll7jfLVkfRRI86/IvMTY49841C8KJeU26CO3QHJkg0=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": "dev-diaries",
+    "recps": null,
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nI've spent a bit of time this morning putting together [this PR](https://github.com/ssbc/ssb-config/pull/53) which I think should make Scuttlebutt networking more robust and predictable. I'll update you if / when that's merged and hopefully we'll get this resolved for you.",
+    "mentions": [
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
+      }
+    ]
   },
-  "signature": "NEagj4Ge5/UO6yTJUwgbCTwxpGHxeXHmgIOUr91pv7PMbQPVPwa1xeeU9hB4ZsQP9AdM8n5NXweHMS18mLbkDQ==.sig.ed25519"
+  "signature": "LAe/pKOboO9TtZdx6uMpxkjoiRpODrff0jSEOOu6fyYFH84+tgFn2Z5YhD5cyHE33/UTXRIc5JD8a2el8nL8AA==.sig.ed25519"
 }
