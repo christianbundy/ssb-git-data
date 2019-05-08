@@ -1,16 +1,25 @@
 {
-  "previous": "%TBFzw0LGWl0fzDNKuC0WNPMs9Z85PNb36tYNrEe1xO8=.sha256",
-  "sequence": 9956,
+  "previous": "%VgUr8fZEOwf09zkqSSM/vATOTFU60T2KA38v2zql6VM=.sha256",
+  "sequence": 9957,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557358853774,
+  "timestamp": 1557359065340,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%H5A+5VAVArvGlUfTNXu2DFbssLsYQApM1u3fpeziaj0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%H5A+5VAVArvGlUfTNXu2DFbssLsYQApM1u3fpeziaj0=.sha256",
+    "branch": "%H5A+5VAVArvGlUfTNXu2DFbssLsYQApM1u3fpeziaj0=.sha256",
+    "reply": {
+      "%H5A+5VAVArvGlUfTNXu2DFbssLsYQApM1u3fpeziaj0=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mulrich](@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519) \n\nI think this is an awesome suggestion, I'd love to see something like this in Patchwork and other clients. ",
+    "mentions": [
+      {
+        "link": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519",
+        "name": "mulrich"
+      }
+    ]
   },
-  "signature": "hVSakFx/ZCNcqfVGeGlsA07BHmmnh50/MD3bfC/EsgcIBOk0fQL7BImt8LmgBMQGyQLmWrYmz1TTvZ2mMON5Bw==.sig.ed25519"
+  "signature": "6OSHD92xTesprGmI3NFDa4XDzxGytr3qQYa96cPSBU3lm0q5Doq8d0teVZxmZW6fY4otbeAa3i2c4bGJZ162BA==.sig.ed25519"
 }
