@@ -1,17 +1,26 @@
 {
-  "previous": "%2laYBcPZxurrz/cZ3WsSdY2cLuErtjAgd7kPCrQyR7o=.sha256",
-  "sequence": 9989,
+  "previous": "%UClunIszOWN4Auz4RiuOH244gD1lkz3wdzZxp+WPoQU=.sha256",
+  "sequence": 9990,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557435125852,
+  "timestamp": 1557435206351,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "new-people",
-    "vote": {
-      "link": "%Gkh6Akykucpc6JaFBL/crF1j2JLpdOqMU7xZH7m+OzM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256",
+    "fork": "%bMxhR1YZQnWeCG8pm6oO4bp/Ti13VWgqYRkjKzyCEm4=.sha256",
+    "branch": "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256",
+    "reply": {
+      "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": "handshake-council",
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI use [MetaMask](https://metamask.io/) with Firefox and I've never had any issues. Works great.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "mg5wY/wO7CU2Wcq2DVLLJyAi9NIsZHlnkdjoXq5CCD9Kd5rAwe0MnbdDDuDYnzyV/moUSOiVZCPYMUX+5k3FAw==.sig.ed25519"
+  "signature": "aB5S9jjouuV8nRNvQ+fROe+adDzxOblYoAGPRJ/XdeKk+sjsFZP/l31tcGssBm37CozX+GtbPF/IjeY4srKmCw==.sig.ed25519"
 }
