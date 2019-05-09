@@ -1,17 +1,27 @@
 {
-  "previous": "%hyBfxSHTvqXq8kEHD3J5+gCbFZiXvTdnNf0d4QWalKc=.sha256",
-  "sequence": 9970,
+  "previous": "%DjKiEsoPJ/noNm3wM6aPMud+6T4QOfTpmSna5AXP89I=.sha256",
+  "sequence": 9971,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557381812991,
+  "timestamp": 1557409485999,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "handshake-council",
-    "vote": {
-      "link": "%6YwfNZqk56Zi5PG6N9jUQ+zQ71/Sf6G9UCMEXIpGzRo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
+    "fork": "%36xjA2DWI7fZygqPu3D38YKk2Cr2iBvxN3NNH533NoU=.sha256",
+    "branch": "%u8XZsl6jfkVoOnZKc9E2QqAucsVme0KygHMoNAYVd/g=.sha256",
+    "reply": {
+      "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+      "%u8XZsl6jfkVoOnZKc9E2QqAucsVme0KygHMoNAYVd/g=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nSo usually the message format is:\n\n```json\n{\n  \"key\": \"%abc.sha256\",\n  \"value\": {\n    \"previous\": \"%XphMUkWQtomKjXQvFGfsGYpt69sgEY7Y4Vou9cEuJho=.sha256\",\n    \"author\": \"@FCX/tsDLpubCPKKfIrw4gc+SQkHcaD17s7GI6i/ziWY=.ed25519\",\n    \"sequence\": 2,\n    \"timestamp\": 1514517078157,\n    \"hash\": \"sha256\",\n    \"content\": {\n      \"type\": \"post\",\n      \"text\": \"First post!\"\n    }\n  }\n}\n```\n\nInstead, I was thinking something like:\n\n```json\n{\n  \"key\": \"%abc.sha256\",\n  \"value\": {\n    \"previous\": \"%XphMUkWQtomKjXQvFGfsGYpt69sgEY7Y4Vou9cEuJho=.sha256\",\n    \"author\": \"@FCX/tsDLpubCPKKfIrw4gc+SQkHcaD17s7GI6i/ziWY=.ed25519\",\n    \"sequence\": 2,\n    \"timestamp\": 1514517078157,\n    \"hash\": \"sha256\",\n    \"content\": [{\n      \"type\": \"post\",\n      \"text\": \"First post!\"\n    }, {\n      \"type\": \"post\",\n      \"text\": \"Second post!\"\n    }, {\n      \"type\": \"something-else\",\n      \"foo\": \"bar\"\n    }]\n  }\n}\n```\n\nInstead of writing three messages you could put three message objects in one message, so you'd just need a way to reference them. I'd imagine you could use a system like [scoped IPv6 addresses](https://en.wikipedia.org/wiki/IPv6_address#Scoped_literal_IPv6_addresses) where `%abc.sha256` references the entire message and `%abc.sha256` but you'd reference the message objects as:\n\n- `%abc.sha256%0`\n- `%abc.sha256%1`\n- `%abc.sha256%2`\n\nI'm not convinced that this is a *good* idea, but it's an idea.",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "PinkMoff"
+      }
+    ]
   },
-  "signature": "WCVl9fDcFQgcS27ORFvOTspoJ5itl5BdPO7BJ95ljVe7ZZGIFACEX1HYZIxD2AgQUiyClGJrCrNHT7NTk9SPDg==.sig.ed25519"
+  "signature": "/53OZ0agRpEa/u8nOFF/nYUgtiX5py3cHCIh12gAEibRxG6VfWI5LYHcpkJu0iFtQGcW+uC+naa+LjSTFy1ODQ==.sig.ed25519"
 }
