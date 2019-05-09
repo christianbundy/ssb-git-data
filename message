@@ -1,17 +1,21 @@
 {
-  "previous": "%WKRr85kSfLf3qjkFJZqb7nlgdx8nO1SsT3GxFIK4bO0=.sha256",
-  "sequence": 9980,
+  "previous": "%Qmmx+sNEqxdVXxTcLLNSLPd6T6m61viudBE6zyy2h4I=.sha256",
+  "sequence": 9981,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557419938153,
+  "timestamp": 1557423167620,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "village-tracker",
-    "vote": {
-      "link": "%TPCd5045o1M/eRqbVsP3AnxK5My3TjKPTNqRiC+5jWo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%l3S7EueqPEfr4/Pnop0WkcIIBgfOrt9xWHCA7gbnSnU=.sha256",
+    "fork": "%cfcatrI397tpspMC1DbVDfy5hjTVYDPifo9udOhbHvU=.sha256",
+    "branch": "%l3S7EueqPEfr4/Pnop0WkcIIBgfOrt9xWHCA7gbnSnU=.sha256",
+    "reply": {
+      "%l3S7EueqPEfr4/Pnop0WkcIIBgfOrt9xWHCA7gbnSnU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "> where %abc.sha256 references the entire message ~~and %abc.sha256~~ but you’d reference the message objects as:\n\nFTFM",
+    "mentions": []
   },
-  "signature": "TlRgC4Pzxmhz874MCSyGQ7QbP2LAH1zjudS6dYVS4sv/o8TNxnRx9H2V/kg0SmoNZ9YzrqOxJt6F8y8jjo1XBQ==.sig.ed25519"
+  "signature": "YXYYkAMGpf2UOLYUpEdGHUE6aTVf1efxLpSRf49lmRvkFzNLnV/nPU0QGF8+DsNzs/yMk0uvXh0zDzaOcwuvBA==.sig.ed25519"
 }
