@@ -1,13 +1,21 @@
 {
-  "previous": "%V0cmzK7KlxqG2w/nrxd54m7AROcq0D88OY7Nrgkn+tQ=.sha256",
-  "sequence": 10003,
+  "previous": "%8M0CfEUXDuSoKUEEqGuqKdklwEPqj2PJqX5PQeSlK0M=.sha256",
+  "sequence": 10004,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557525326332,
+  "timestamp": 1557526377353,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@TrxJthkjwSJf2T01fZSDMpLuQU8x0XsBDnrj1+IN/fs=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%sqvbvfkKh8lLvytHzWy5tia4eNt01micDlHXVyJyZxM=.sha256",
+    "reply": {
+      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%sqvbvfkKh8lLvytHzWy5tia4eNt01micDlHXVyJyZxM=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "# Patchwork v3.12.0-beta.2\n\nAnother one! [**🚀 Download here 🚀**](https://github.com/ssbc/patchwork/releases/tag/v3.12.0-beta.2).\n\nLots of friends tested the latest beta and we found a few problems to solve:\n\n- **Connectivity:** Sometimes multiserver didn't listen on `localhost` or broadcast the correct interfaces.\n    - One symptom is that the blob server fromssb-ws wasn't working, which caused broken emoji and images.\n    - The new code doesn't make any changes if `host` is defined in `~/.ssb/config`.\n-  **Metadata security:** EXIF metadata stripping was disabled starting in Patchwork 3.11.5.\n    - This is resolved now but blobs uploaded with old versions of Patchwork will still have EXIF metadata.\n    - I don't think there's a way to resolve this until we can ask friends to stop replicating chosen blobs.\n    - We don't presently have a system for disclosing security problems to users, I think we need one.\n- **Size:** Matt pointed out that the binary size had increased, so I made some small changes to resolve that.\n    - The binary size is still a bit bigger than 3.11.6 because ssb-server is using a shrinkwrap.\n\nThese should all be fixed in the latest prerelease, so please let me know if you still have any of these problems. As usual the best way to get attention for a problem is to [create an issue](https://github.com/ssbc/patchwork/issues/new) or post in `#patchwork-help`.\n\nThanks for helping! 🎉",
+    "mentions": []
   },
-  "signature": "AjmdB3y8mVdwmJdGYhcKsFmzztj0HFBRLM5UwKoytTgq4XsH23Knpgd876nTAj8qWqrufmUv3XEpSnfcFssXAA==.sig.ed25519"
+  "signature": "DIPSY4aqkbt63vl2OfYB6DcYPbFP/cZHoBMN+V38vw1JtiLBBOZCjOBrTHLf1ic84kN0+rI3FjCN2JQ03540Bg==.sig.ed25519"
 }
