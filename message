@@ -1,27 +1,17 @@
 {
-  "previous": "%hd6ScVS5lWIX1iJQKwAjsODIT1JTkTX7JmKuK39zNEI=.sha256",
-  "sequence": 9991,
+  "previous": "%ORqNDd2mpS6dQT0ccNPTE5l2FNwrpQsGwl6ooV0BSG8=.sha256",
+  "sequence": 9992,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557449678483,
+  "timestamp": 1557497077978,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%6iXkvCHTcjgDbQkHdOq18z18hUxp9y0D3q0SXZ/2YA0=.sha256",
-    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%BkU7gurdAHs9xRAqVZjV1KHJ2K0mOfjMpHgS5GUnE1I=.sha256",
-    "reply": {
-      "%6iXkvCHTcjgDbQkHdOq18z18hUxp9y0D3q0SXZ/2YA0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%BkU7gurdAHs9xRAqVZjV1KHJ2K0mOfjMpHgS5GUnE1I=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nInteresting, it looks like 3.11.6 just has [the wrong version string in `package.json`](https://github.com/ssbc/patchwork/blob/v3.11.6/package.json#L5). I totally understand the confusion!",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      }
-    ]
+    "vote": {
+      "link": "%ZJq3SjO6Wo/+cOxWckQ4poHaPqi2aCu+dnE2l15wi7c=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Pd3xCJzaj5MFBBaK8m/lnIlQ5dkkpTWzApFkYyFSiSEgZDRH49wwkW0JGf/2lawcV0pzhUmYAwtronzLo7gfAA==.sig.ed25519"
+  "signature": "elTeL5aPwCdrR6PhU57myA1ctD8gKkB37YkYKw0zsgcsrkuFJsvfTSeuvDHASORTxf3an4a/h6luf8lW5ikBAw==.sig.ed25519"
 }
