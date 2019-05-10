@@ -1,26 +1,27 @@
 {
-  "previous": "%UClunIszOWN4Auz4RiuOH244gD1lkz3wdzZxp+WPoQU=.sha256",
-  "sequence": 9990,
+  "previous": "%hd6ScVS5lWIX1iJQKwAjsODIT1JTkTX7JmKuK39zNEI=.sha256",
+  "sequence": 9991,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557435206351,
+  "timestamp": 1557449678483,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256",
-    "fork": "%bMxhR1YZQnWeCG8pm6oO4bp/Ti13VWgqYRkjKzyCEm4=.sha256",
-    "branch": "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256",
+    "root": "%6iXkvCHTcjgDbQkHdOq18z18hUxp9y0D3q0SXZ/2YA0=.sha256",
+    "fork": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%BkU7gurdAHs9xRAqVZjV1KHJ2K0mOfjMpHgS5GUnE1I=.sha256",
     "reply": {
-      "%G9xkvelnHYvUyfC/xPa9O4Rwh7HKv+DL8pNgE/7NfSQ=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+      "%6iXkvCHTcjgDbQkHdOq18z18hUxp9y0D3q0SXZ/2YA0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%BkU7gurdAHs9xRAqVZjV1KHJ2K0mOfjMpHgS5GUnE1I=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
     },
-    "channel": "handshake-council",
+    "channel": null,
     "recps": null,
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI use [MetaMask](https://metamask.io/) with Firefox and I've never had any issues. Works great.",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nInteresting, it looks like 3.11.6 just has [the wrong version string in `package.json`](https://github.com/ssbc/patchwork/blob/v3.11.6/package.json#L5). I totally understand the confusion!",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
       }
     ]
   },
-  "signature": "aB5S9jjouuV8nRNvQ+fROe+adDzxOblYoAGPRJ/XdeKk+sjsFZP/l31tcGssBm37CozX+GtbPF/IjeY4srKmCw==.sig.ed25519"
+  "signature": "Pd3xCJzaj5MFBBaK8m/lnIlQ5dkkpTWzApFkYyFSiSEgZDRH49wwkW0JGf/2lawcV0pzhUmYAwtronzLo7gfAA==.sig.ed25519"
 }
