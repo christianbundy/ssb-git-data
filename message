@@ -1,17 +1,20 @@
 {
-  "previous": "%pfW8fO2KXXG2Jo73k5FdgWRVicLbGieyVC5RGw+GsIo=.sha256",
-  "sequence": 10008,
+  "previous": "%j9Qq4K/B4Bxbys5cjgdC+1wXUiD+fPpI32hqW15thLw=.sha256",
+  "sequence": 10009,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557528434147,
+  "timestamp": 1557589622342,
   "hash": "sha256",
   "content": {
     "type": "vote",
-    "channel": "sunrise-choir",
+    "root": "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256",
     "vote": {
-      "link": "%BUtt+wYpcm7hwHdq0643KWKuc0/9bVkV4YPdAFeHks4=.sha256",
+      "link": "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256",
       "value": 1,
-      "expression": "Like"
-    }
+      "expression": "heart"
+    },
+    "branch": [
+      "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256"
+    ]
   },
-  "signature": "VydKqi0Uf+KjCnznfhDnQekgBKOV/usRy0Cbw08gufdkIVdrJ0O5kEKtlXsdQN4BA+VURuVKSRKqQpRPe0gpCQ==.sig.ed25519"
+  "signature": "Ta/MrEfceLd6qT7bI9naGBpz1UDas8Mrv5ro/tGA9UVdFRhvNBBf3VRlyovbiT2+UlU85tLPSTBiLrcB1X9XBg==.sig.ed25519"
 }
