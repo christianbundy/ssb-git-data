@@ -1,26 +1,17 @@
 {
-  "previous": "%XanqZJvPjEacLxCH25yY+cL5pv108HuZgDN9/2Zsmqk=.sha256",
-  "sequence": 10019,
+  "previous": "%S64sbStq68j0AteoVDTfz0DDvWMYwMunpzAanM6m8so=.sha256",
+  "sequence": 10020,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557599493810,
+  "timestamp": 1557599536539,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256",
-    "fork": "%4ev2AzBKtUgHK2H7Kl3b76+H4bn/axIxhkA43mOJY6w=.sha256",
-    "branch": "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256",
-    "reply": {
-      "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThanks! I think that's fine, it's just that utp-native seems to use a variable that makepkg uses internally, but my understanding is that it's fine as long as that code isn't trying to reference the makepkg `$srcdir`. I *think* they're trying to say \"we're not exporting makepkg's `$srcdir` so if your package depends on it then you're gonna have a bad time\", but I haven't done much research.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "vote": {
+      "link": "%IBs8R349QINuSeAG/aP/xxRrJCGQRW69j3YYMwXi2Jw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "/2+YadgRQw9cnLcUOd1BlepxT8uxwJGg25mkao55sdLFICTUYTHM+byT8BAtPqzokafLG4kpTpPVdMnznYQfBw==.sig.ed25519"
+  "signature": "Ph6Ak1RuQdQNkV+Vxlz8UBdDAPumsK4UehP7C4wYnGa5hkXMUwUf3gIX+zAV6ui0OVLFmfF4MMqW/XkCQcdlCA==.sig.ed25519"
 }
