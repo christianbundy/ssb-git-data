@@ -1,20 +1,20 @@
 {
-  "previous": "%j9Qq4K/B4Bxbys5cjgdC+1wXUiD+fPpI32hqW15thLw=.sha256",
-  "sequence": 10009,
+  "previous": "%66aumHodt+LKKuZ23AJPXFA+qXVmDXfrCXSVkwjAEw8=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557589622342,
+  "sequence": 10010,
+  "timestamp": 1557589832497,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256",
-    "vote": {
-      "link": "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%h8WzKSuCosnf+RPKj7Yl3nTS37K9R9IwI8TFDsTnwKA=.sha256"
+    "type": "post",
+    "root": "%4ev2AzBKtUgHK2H7Kl3b76+H4bn/axIxhkA43mOJY6w=.sha256",
+    "branch": "%3lSiAELTzHpzvg5BkB0UZDQpVj+RC+HOH5lOPOuNgEQ=.sha256",
+    "text": "[@pinkmoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nJust updated the AUR version to 7.17.0 -- if you ever notice the [patchbay](https://aur.archlinux.org/packages/patchbay/) package out-of-date please flag it as outdated, and if you'd like to ride `master` you might dig [patchbay-git](https://aur.archlinux.org/packages/patchbay-git/).",
+    "mentions": [
+      {
+        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
+        "name": "pinkmoff"
+      }
     ]
   },
-  "signature": "Ta/MrEfceLd6qT7bI9naGBpz1UDas8Mrv5ro/tGA9UVdFRhvNBBf3VRlyovbiT2+UlU85tLPSTBiLrcB1X9XBg==.sig.ed25519"
+  "signature": "BhhyY5VI8c/3inO9QXLomD333HY0bl6wTRi8nwTsjgnVUV1OEpmscOR0qz15E65i137+sw4cZy0Yk4gGaiCpCA==.sig.ed25519"
 }
