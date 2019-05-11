@@ -1,20 +1,21 @@
 {
-  "previous": "%3sNg0vYiVJSgbvCgXWz4J6KTr0PPLZtdD0rGcvKxxZE=.sha256",
-  "sequence": 10013,
+  "previous": "%jgH4n68LHlkK4wWJ3GCWBy3Y+MptpOFUCW+IsU9aTwE=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557591039753,
+  "sequence": 10014,
+  "timestamp": 1557591175191,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%xX3h63MoPhJshHHmj36D01Kv9JMFPG41XP6hZYkuJgU=.sha256",
-    "vote": {
-      "link": "%ptBcFQ0VMhTgYMHRYXKavvW3Jmud8vXUTsiAgThfwQs=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%Vu2ckbljslNjmXpm2OlsmlsSLo4BbKTTE6+RArL+2VM=.sha256"
+    "type": "post",
+    "root": "%NSmrQgF9pOlRFED9Zd1Q6sb8dPRQymq57HgjmgisIto=.sha256",
+    "branch": "%0HmyhhVo/kKvnfDurwZhjcyZHlu9VSLf8FGhoKhZc8M=.sha256",
+    "channel": "patchwork-help",
+    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) \n\nNot sure where that file is on Windows unfortunately, although IIRC it's in the wrong place (I think it's supposed to be in `%APPDATA%`?).\n\nThe copy and paste bug was weird, is that happening with only the keyboard shortcut(s) or with the right-click context menu as well? If you can trigger the toolbar (I press alt once to show it, idk about Windows) there should be \"Edit -> Copy\" and \"Edit -> Paste\" as well, I'd be curious whether those work.",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
     ]
   },
-  "signature": "4SGMh/qfMOSodo9rEsXPghbxQn5MahP316Q/8mf11C61w54yH50OnERFOgy8TK+CFEOU2yhgppOOt15XzkFYAQ==.sig.ed25519"
+  "signature": "zasUS9Nci23bdBRHNPkYKyrTnlBGzM+oCmx5k0UVNy2AxFXz0vwkJuwlsq3DG8TcZvZbIz8vgGbIREqPM2FDBw==.sig.ed25519"
 }
