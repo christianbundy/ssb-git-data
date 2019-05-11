@@ -1,17 +1,26 @@
 {
-  "previous": "%DUiSBBnv6r0LHS6lNzrnVNzAS076nG3LPui3zKotOZ4=.sha256",
-  "sequence": 10018,
+  "previous": "%XanqZJvPjEacLxCH25yY+cL5pv108HuZgDN9/2Zsmqk=.sha256",
+  "sequence": 10019,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557594081251,
+  "timestamp": 1557599493810,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "xr",
-    "vote": {
-      "link": "%XABusONuAuEwakTkOcPRb4Ixd5DT8DjC0G66YMPkAN0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256",
+    "fork": "%4ev2AzBKtUgHK2H7Kl3b76+H4bn/axIxhkA43mOJY6w=.sha256",
+    "branch": "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256",
+    "reply": {
+      "%G6JvR+bMr7TIzfOSHpo4zlwfB+ICV6SQYC7kAipAAtI=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThanks! I think that's fine, it's just that utp-native seems to use a variable that makepkg uses internally, but my understanding is that it's fine as long as that code isn't trying to reference the makepkg `$srcdir`. I *think* they're trying to say \"we're not exporting makepkg's `$srcdir` so if your package depends on it then you're gonna have a bad time\", but I haven't done much research.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "oYZFhG4O5aaVFO4P4TLf1s6dqEIflOeom+wQFOVgJlMUpa2scGDBkXhOzwxxTaDnNkj/S8uRRunZvUOoVwR6CA==.sig.ed25519"
+  "signature": "/2+YadgRQw9cnLcUOd1BlepxT8uxwJGg25mkao55sdLFICTUYTHM+byT8BAtPqzokafLG4kpTpPVdMnznYQfBw==.sig.ed25519"
 }
