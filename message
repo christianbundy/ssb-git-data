@@ -1,21 +1,24 @@
 {
-  "previous": "%KSDoVCj+b6HJrWWkW91IIJzH81HCNp6DtfaI1V9achw=.sha256",
+  "previous": "%KArJR8FRhzMhDN7Aobx0mO0RXXMw+ZJ/ZOZqoLcpHys=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 10011,
-  "timestamp": 1557590338774,
+  "sequence": 10012,
+  "timestamp": 1557591035240,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%tMigkKpeBw1S7x6L+pqdh5tpTgGQ/qU7dFcMphxpDDM=.sha256",
-    "branch": "%tMigkKpeBw1S7x6L+pqdh5tpTgGQ/qU7dFcMphxpDDM=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI'd love to help with this! Happy to do a call or work on a bounty or organize the work however possible.\n\nI've ignored the `electron-webpack` thing (which enforces a directory structure) and just focused on:\n\n- `package.json`:\n    - [scripts](https://github.com/ssbc/patchwork/blob/6d3dad5336cb6cce8f053b1014988f7e389eb9cb/package.json#L13-L14)\n    - [build config](https://github.com/ssbc/patchwork/blob/6d3dad5336cb6cce8f053b1014988f7e389eb9cb/package.json#L105-L119)\n- [build assets](https://github.com/ssbc/patchwork/tree/master/build)\n- [travis config](https://github.com/ssbc/patchwork/blob/master/.travis.yml)\n- [a release bot](https://github.com/patchwork-bot) (maybe this should be ssbc-bot?)\n    - the only requirements are adding the bot as a repo collaborator and adding a `GH_TOKEN` to Travis\n\nI think the bug you mentioned might be https://github.com/sodium-friends/sodium-native/issues/93, which used to happen to me every once in a while but seems to have gone away (?!). ",
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%9kCl4w5atpxx/NMQZM2jOx83v4j73722iEFCUEHhSho=.sha256",
+    "text": "**Update:** Looks like the EXIF stripping is still broken: https://github.com/ssbc/patchwork/issues/1022\n\nI've found the problem but I'd love someone else to test before we merge and close the issue... again.\n\n---\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nAt this point I *think* it's good to go, except for the EXIF bug above, so I'm hoping that folks who normally use Patchwork can experiment with this and point out if they see anything that looks funky. Patchwork hasn't been my daily driver for very long (a few weeks) so I don't feel like I'm in a great position to notice regressions. My anxiety is that we release 3.12.0 proper with some annoying bug and people downgrade back to 3.11.4 as a de facto [LTS](%qkVXgkSbATxvGiOTUwBwp7Z3RSI6U0kKmD9Jcpf4tcs=.sha256). 😅",
     "mentions": [
       {
         "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
         "name": "mix"
+      },
+      {
+        "link": "%qkVXgkSbATxvGiOTUwBwp7Z3RSI6U0kKmD9Jcpf4tcs=.sha256",
+        "name": "LTS"
       }
     ]
   },
-  "signature": "0kUIHfp9ZdMWk3S4HgiI+oGiaubKqQwcyLHpsjYcFQ78l2/f0DgcgJhUYD2Xga9IaxVUY5pSv1HCezHD0NrWCQ==.sig.ed25519"
+  "signature": "7Z5JaWJLhmuI3eUbbGZu5IPKPe/cTeEuejCsUrnYs4neaWfR2sJitHarxse0xk3/jzY/1POP7DQ/8Hg3QUjpAg==.sig.ed25519"
 }
