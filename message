@@ -1,24 +1,20 @@
 {
-  "previous": "%KArJR8FRhzMhDN7Aobx0mO0RXXMw+ZJ/ZOZqoLcpHys=.sha256",
+  "previous": "%3sNg0vYiVJSgbvCgXWz4J6KTr0PPLZtdD0rGcvKxxZE=.sha256",
+  "sequence": 10013,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 10012,
-  "timestamp": 1557591035240,
+  "timestamp": 1557591039753,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%9kCl4w5atpxx/NMQZM2jOx83v4j73722iEFCUEHhSho=.sha256",
-    "text": "**Update:** Looks like the EXIF stripping is still broken: https://github.com/ssbc/patchwork/issues/1022\n\nI've found the problem but I'd love someone else to test before we merge and close the issue... again.\n\n---\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nAt this point I *think* it's good to go, except for the EXIF bug above, so I'm hoping that folks who normally use Patchwork can experiment with this and point out if they see anything that looks funky. Patchwork hasn't been my daily driver for very long (a few weeks) so I don't feel like I'm in a great position to notice regressions. My anxiety is that we release 3.12.0 proper with some annoying bug and people downgrade back to 3.11.4 as a de facto [LTS](%qkVXgkSbATxvGiOTUwBwp7Z3RSI6U0kKmD9Jcpf4tcs=.sha256). 😅",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "%qkVXgkSbATxvGiOTUwBwp7Z3RSI6U0kKmD9Jcpf4tcs=.sha256",
-        "name": "LTS"
-      }
+    "type": "vote",
+    "root": "%xX3h63MoPhJshHHmj36D01Kv9JMFPG41XP6hZYkuJgU=.sha256",
+    "vote": {
+      "link": "%ptBcFQ0VMhTgYMHRYXKavvW3Jmud8vXUTsiAgThfwQs=.sha256",
+      "value": 1,
+      "expression": "heart"
+    },
+    "branch": [
+      "%Vu2ckbljslNjmXpm2OlsmlsSLo4BbKTTE6+RArL+2VM=.sha256"
     ]
   },
-  "signature": "7Z5JaWJLhmuI3eUbbGZu5IPKPe/cTeEuejCsUrnYs4neaWfR2sJitHarxse0xk3/jzY/1POP7DQ/8Hg3QUjpAg==.sig.ed25519"
+  "signature": "4SGMh/qfMOSodo9rEsXPghbxQn5MahP316Q/8mf11C61w54yH50OnERFOgy8TK+CFEOU2yhgppOOt15XzkFYAQ==.sig.ed25519"
 }
