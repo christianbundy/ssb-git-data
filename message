@@ -1,17 +1,26 @@
 {
-  "previous": "%E+VFByfdCu98eg1xae6Ng47mFZa9uhb68kN79sKrv3Y=.sha256",
-  "sequence": 10026,
+  "previous": "%wQifkyFjCWnEqwmGkAlWuS4vST28TbsY4rqi+CP+lgU=.sha256",
+  "sequence": 10027,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557602520985,
+  "timestamp": 1557602546871,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Iq0ktwW8PsKIg3EB6U1Lc9vW3AzYSdFtOIUpLY4YncM=.sha256",
+    "fork": "%sOePNKBdzCUCl9EgcXsJSYzjgsZaeMQme7Aom+wnyEA=.sha256",
+    "branch": "%Iq0ktwW8PsKIg3EB6U1Lc9vW3AzYSdFtOIUpLY4YncM=.sha256",
+    "reply": {
+      "%Iq0ktwW8PsKIg3EB6U1Lc9vW3AzYSdFtOIUpLY4YncM=.sha256": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%Iq0ktwW8PsKIg3EB6U1Lc9vW3AzYSdFtOIUpLY4YncM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kieran](@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519) \n\nThis is a great image. How long have you been saving this up?",
+    "mentions": [
+      {
+        "link": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519",
+        "name": "kieran"
+      }
+    ]
   },
-  "signature": "vGN+AYtcYUQflSic3rWywEphimT1e5g3cFR+LG6IN1x0gRQSOSKfLd4ziMrpPuUVcyTPNiN+xONsqZYUvh5ABQ==.sig.ed25519"
+  "signature": "vHEhdElV20toACtKxoEqJFPYeHTe7jkY2yo3YcPh97wF6pHULNJDHzZGlOgvsvVil7CmqvDkzYZlGmi+N9vuDQ==.sig.ed25519"
 }
