@@ -1,20 +1,21 @@
 {
-  "previous": "%66aumHodt+LKKuZ23AJPXFA+qXVmDXfrCXSVkwjAEw8=.sha256",
+  "previous": "%KSDoVCj+b6HJrWWkW91IIJzH81HCNp6DtfaI1V9achw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 10010,
-  "timestamp": 1557589832497,
+  "sequence": 10011,
+  "timestamp": 1557590338774,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%4ev2AzBKtUgHK2H7Kl3b76+H4bn/axIxhkA43mOJY6w=.sha256",
-    "branch": "%3lSiAELTzHpzvg5BkB0UZDQpVj+RC+HOH5lOPOuNgEQ=.sha256",
-    "text": "[@pinkmoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nJust updated the AUR version to 7.17.0 -- if you ever notice the [patchbay](https://aur.archlinux.org/packages/patchbay/) package out-of-date please flag it as outdated, and if you'd like to ride `master` you might dig [patchbay-git](https://aur.archlinux.org/packages/patchbay-git/).",
+    "root": "%tMigkKpeBw1S7x6L+pqdh5tpTgGQ/qU7dFcMphxpDDM=.sha256",
+    "branch": "%tMigkKpeBw1S7x6L+pqdh5tpTgGQ/qU7dFcMphxpDDM=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI'd love to help with this! Happy to do a call or work on a bounty or organize the work however possible.\n\nI've ignored the `electron-webpack` thing (which enforces a directory structure) and just focused on:\n\n- `package.json`:\n    - [scripts](https://github.com/ssbc/patchwork/blob/6d3dad5336cb6cce8f053b1014988f7e389eb9cb/package.json#L13-L14)\n    - [build config](https://github.com/ssbc/patchwork/blob/6d3dad5336cb6cce8f053b1014988f7e389eb9cb/package.json#L105-L119)\n- [build assets](https://github.com/ssbc/patchwork/tree/master/build)\n- [travis config](https://github.com/ssbc/patchwork/blob/master/.travis.yml)\n- [a release bot](https://github.com/patchwork-bot) (maybe this should be ssbc-bot?)\n    - the only requirements are adding the bot as a repo collaborator and adding a `GH_TOKEN` to Travis\n\nI think the bug you mentioned might be https://github.com/sodium-friends/sodium-native/issues/93, which used to happen to me every once in a while but seems to have gone away (?!). ",
     "mentions": [
       {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "pinkmoff"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "BhhyY5VI8c/3inO9QXLomD333HY0bl6wTRi8nwTsjgnVUV1OEpmscOR0qz15E65i137+sw4cZy0Yk4gGaiCpCA==.sig.ed25519"
+  "signature": "0kUIHfp9ZdMWk3S4HgiI+oGiaubKqQwcyLHpsjYcFQ78l2/f0DgcgJhUYD2Xga9IaxVUY5pSv1HCezHD0NrWCQ==.sig.ed25519"
 }
