@@ -1,13 +1,41 @@
 {
-  "previous": "%1aMpay39JzFucdkw7yzQ1dUxM3GW/Fs1l4Q3H9pFS2k=.sha256",
-  "sequence": 10030,
+  "previous": "%kpPmCz4dJRlhsDZYFdtsxYkfup8dCp2nwX7egPySdyI=.sha256",
+  "sequence": 10031,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557612819603,
+  "timestamp": 1557625174613,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%eLCz5shOYq3LwIKAay7cPj3TSeTdpl3afKqfmzsXfZk=.sha256",
+    "branch": [
+      "%6MeMJ/r721jFFmkcfCRjXik6jpn3bvBb4bjpPCAEghs=.sha256",
+      "%LPl+iZJWc127jXYEOPXEoV0Qa1bDntPv7d4ZL6SGRjQ=.sha256"
+    ],
+    "reply": {
+      "%eLCz5shOYq3LwIKAay7cPj3TSeTdpl3afKqfmzsXfZk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%6MeMJ/r721jFFmkcfCRjXik6jpn3bvBb4bjpPCAEghs=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Alberto](@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519) \n\nThanks for the link to that paper, that was an interesting read. Economies of scale are reasonably intuitive and I think there's a strong case to be made about value produced by [edges rather than nodes](%Rr/M6shC0QoOYiWP3wrwi1FqnPTktjZSpmBKyO+X+7g=.sha256) in a graph, so that was really great to see laid out! My main curiosities about the paper revolve around the distribution of those benefits and detriments, especially under different failure modes (housing crash, climate change, natural disasters, etc), and how much of a difference this makes to the working class in the city.\n\nIt's an oversimplification, but I think I'm a bit suspicious that big cities may just make it cheap for proprietors to extract profit from a highly-specialized labor force that depend on said-proprietors for all of their needs. Again, an oversimplification, but maybe useful context on where I'm coming from.\n\n---\n\n[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nOh man, if you find that I'd love to read it. I'd imagine that you'd also benefit from economies of scale if you tried to feed a city with only the land around that city, but I'd wager there's some rule of thumb for how much land it would take to feed ~1,000 people.\n\n---\n\n[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nI'll see if I can find some excerpts online, that sounds super relevant.\n\nNoise pollution sucks, we live right next to one of the more major streets in Portland and the noise is constant and obnoxious. We also live near a sewer that seems to have smell problems, so usually when we walk outside it smells like a toilet bowl that's constantly used but never flushed. It's lovely.\n\nI'm looking at places to rent now and definitely prioritizing places that have good bikeability, I'm a bit bummed that I won't be able to [reasonably] walk to work anymore but the reduced noise + smell + cost is probably worth it.",
+    "mentions": [
+      {
+        "link": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
+        "name": "Alberto"
+      },
+      {
+        "link": "%Rr/M6shC0QoOYiWP3wrwi1FqnPTktjZSpmBKyO+X+7g=.sha256",
+        "name": "edges rather than nodes"
+      },
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      },
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "lZu+pkGfzzDwHhW4gPkCNj+LXjhLR0XjpKaxOY6jFn3tMdo1t3n//VbmltOq4UHH9KWzv7T8ub5ynRh/ouQkCA==.sig.ed25519"
+  "signature": "5anVCr+fNZaGzRt4WAiLFeRpeinyZECV85zNbKiMcTxiShq0PnaPZzr6VG+V40u4435Ym+DbyhSU9ZxSe+rxCQ==.sig.ed25519"
 }
