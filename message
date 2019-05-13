@@ -1,17 +1,26 @@
 {
-  "previous": "%ot4Slbl0k45xDJXkGSpAM2mqGeQbwKl1oAzhAfECO9U=.sha256",
-  "sequence": 10053,
+  "previous": "%1dwWNrkYAz95CUBd7fqg+JwzEdz2+JkVcucOkpG46lc=.sha256",
+  "sequence": 10054,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557759160473,
+  "timestamp": 1557761037775,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Q3OVPRj50Z5XNwdrxetZOJo6Fviu2Pio3nLAAvjPJHM=.sha256",
+    "fork": "%6kJktFjKjGcknSBCoWJ8JnHzSfYie/8JjcjvREze2A0=.sha256",
+    "branch": "%Q3OVPRj50Z5XNwdrxetZOJo6Fviu2Pio3nLAAvjPJHM=.sha256",
+    "reply": {
+      "%Q3OVPRj50Z5XNwdrxetZOJo6Fviu2Pio3nLAAvjPJHM=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
     "channel": "scuttlebutt",
-    "vote": {
-      "link": "%Q3OVPRj50Z5XNwdrxetZOJo6Fviu2Pio3nLAAvjPJHM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nYeah, I'm also having some problems with all of the new help text changes. I've fixed what I can ([#666](https://github.com/ssbc/ssb-server/pull/666)) but in the ssb-server repo I'm now seeing:\n\n- https://github.com/ssbc/ssb-server/issues/667\n- https://github.com/ssbc/ssb-server/issues/668\n- https://github.com/ssbc/ssb-server/issues/669",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ]
   },
-  "signature": "1flQYoaVmz7EMlQ0dq+CCHb71sqmbrnv35gTWcVmbp2G/eJb/UHMu20DWQlKM66cahUYc1uUdLyIg2nR0YshBA==.sig.ed25519"
+  "signature": "Bahg411mr292Ffgn2Cq15n9I/zTEHnQ4Nk4+jJKgFvnRfUwDlVhqn+Dbszuc5JTHxvOoj1Et/D8bvIljBDGNDw==.sig.ed25519"
 }
