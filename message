@@ -1,17 +1,34 @@
 {
-  "previous": "%1CGYSxopuHFnML0EyCgI6N2GZZL4OPfihJvjf/AJF3k=.sha256",
-  "sequence": 10069,
+  "previous": "%XUUbB2fyb9VJZqXMVIZGHCYDvOsu3LXRHO1x6ANCK24=.sha256",
+  "sequence": 10070,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557931290959,
+  "timestamp": 1557933118752,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%cAZwi/8QUM0DnqphykprbBiekgTnND0p+AHtJHVpbls=.sha256",
+    "branch": "%qjfAKpX1X32auqvCer3rD261FQp5WMVIk5c7bDdO5Pc=.sha256",
+    "reply": {
+      "%cAZwi/8QUM0DnqphykprbBiekgTnND0p+AHtJHVpbls=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%qjfAKpX1X32auqvCer3rD261FQp5WMVIk5c7bDdO5Pc=.sha256": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519"
+    },
     "channel": "xr",
-    "vote": {
-      "link": "%qjfAKpX1X32auqvCer3rD261FQp5WMVIk5c7bDdO5Pc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) [@sam_uk](@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519) [@zero](@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519)\n\nI could've sworn that when originally interacting with this thread I came across something to the effect of:\n\n> Many people have a difficult time justifying the costs of climate collapse prevention, so instead we use a resource called Surviving Climate Collapse that talks through the costs of surviving and rebuilding society after the climate has collapsed. Usually when people start to understand the costs of repairing society after a collapse they become interested in preventing the collapse from occurring in the first place.\n\nI skimmed the video but didn't hear anything, and I couldn't find any relevant links in the YouTube description. I could've sworn that there was a website dedicated to it, maybe with a name like:\n\n- Mitigating climate crisis\n- Surviving climate collapse\n- Repairing after climate collapse\n- ???\n\nAny chance that resource (or methodology) is familiar to one of you?\n\n   ",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519",
+        "name": "sam_uk"
+      },
+      {
+        "link": "@uR5GhJwABZuZwhy9mI2hFYkTP0IMRG2LZkqpTkgcR1g=.ed25519",
+        "name": "zero"
+      }
+    ]
   },
-  "signature": "zMutrpwTkNu5bBg8lpdGA3M4wPRa9EygpTUGZL601A2G9j/eQXuRIhqScPyQeSRII8icDF9ynOj36ycWU0WYBA==.sig.ed25519"
+  "signature": "SBCMwc5965TR2cs3QLpeHFDHDEskRO7M10QJEkET6j7GRVCqMU5QucTgU8ZgcyL4Nqr3qF32hdszpZ8yYlfEBg==.sig.ed25519"
 }
