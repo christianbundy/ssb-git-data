@@ -1,16 +1,26 @@
 {
-  "previous": "%lzEn2OM56kfOUktXP1Jm7YAYYItdJARWEA6u57ahXas=.sha256",
-  "sequence": 10071,
+  "previous": "%5j6G9RWHj2CMocEd3xShva62amVS1+DkXXLyfMB+DRk=.sha256",
+  "sequence": 10072,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557933133089,
+  "timestamp": 1557934859093,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RkXr9PxXI0YFwDeXOgUmI0blFluwzpPtKaihMk5QQE8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%2ZFJOEik4Vpj0ubt/CXN12dhJoRKwGwq9iFhxXpXaSU=.sha256",
+    "branch": "%VjXyJSJ3tJscxY6X/Er+aKf+N3G4A9Rtn2pqISu+F1c=.sha256",
+    "reply": {
+      "%2ZFJOEik4Vpj0ubt/CXN12dhJoRKwGwq9iFhxXpXaSU=.sha256": "@rwPz425mJYhvnYFQp/UV/ZieceSoi15l62fXXEBGAG8=.ed25519",
+      "%VjXyJSJ3tJscxY6X/Er+aKf+N3G4A9Rtn2pqISu+F1c=.sha256": "@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cafca](@rwPz425mJYhvnYFQp/UV/ZieceSoi15l62fXXEBGAG8=.ed25519) \n\nThanks for sharing that paper, it wasn't a pleasant read but it's still incredibly motivating. Could you recommend any papers that take the opposite position, that it's still possible/probable/inevitable to prevent a climate collapse/catastrophe/extinction? I'm trying to avoid *only* reading papers that reinforce my biases, but I'm having a hard time finding any hard conclusions around the probabilities of these problems.",
+    "mentions": [
+      {
+        "link": "@rwPz425mJYhvnYFQp/UV/ZieceSoi15l62fXXEBGAG8=.ed25519",
+        "name": "cafca"
+      }
+    ]
   },
-  "signature": "02KnHhHbZ7RdWXSQ4S0xqTEaM0GhcXlIUcOcBQUV0WSMuwhimgMm2v2q4sfQZo4w4p8Y/UpMZd6YmkzWGF65Dw==.sig.ed25519"
+  "signature": "GrgpkPDUJKOhqfLMcbnyQb7MtQq9ygI4oktqSq5V7LrfC/B/qlwjSemwZW+Rg3zY//bbDxbmqwzX7HU0radjBg==.sig.ed25519"
 }
