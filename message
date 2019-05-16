@@ -1,17 +1,21 @@
 {
-  "previous": "%q+DnnzjXgHEeDhZ+XNjwm19Ol2BzOzD41IfQJDPRq18=.sha256",
-  "sequence": 10076,
+  "previous": "%bVE1WPVayMCHoRHq97qYLCpwh6JYJ3phG2tUKHaej1Q=.sha256",
+  "sequence": 10077,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1557961669560,
+  "timestamp": 1557966385929,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-research",
-    "vote": {
-      "link": "%XzFhAhamxqFpVvEU4BvTklKPCGF1K9jrY+5AB5GMl1M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
+    "branch": "%q430Ya3ANXXG0fQk3eGNSs6pELFGJFcBWu/hG0ukWdI=.sha256",
+    "reply": {
+      "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%q430Ya3ANXXG0fQk3eGNSs6pELFGJFcBWu/hG0ukWdI=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+    },
+    "channel": "ssbc",
+    "recps": null,
+    "text": "Meta-discussion: how should issues like this be resolved?\n\nOur deviation from the defaults makes it hard to debug things when they break ([ssbc/ssb-db#261](https://github.com/ssbc/ssb-db/issues/261)) and it doesn't feel like we're approaching consensus. I feel similarly about the StandardJS discussion ([ssbc/ssb-server#591](https://github.com/ssbc/ssb-server/pull/591)) which seemed to end in the same sort of deadlock.\n\nI'm less focused on the individual problems and more interested in how we can resolve these sorts of problems *in general*. Anyone have thoughts on how this can work better?",
+    "mentions": []
   },
-  "signature": "g9018/4smVdJitqo1C/BBHA3EVQDBt9cPC4JVHrsE/wWuB0kREQksubCTqxWE7hqQSWDNczbEetVhZXfkZ6FCg==.sig.ed25519"
+  "signature": "HOeJt5lBcX9P1cdE7dTd1++zTOVYb9Y3zNIpgMv+omcYXw76h2afzdPSn6a9bR5yxZSEWeajxVFkhErEV90eCA==.sig.ed25519"
 }
