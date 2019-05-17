@@ -1,17 +1,21 @@
 {
-  "previous": "%ID573OGkSYvgNz+1JrQA5ExBw19uE8CH2Ow3Jnqgzbs=.sha256",
-  "sequence": 10103,
+  "previous": "%XaHMMwwFuA1vL+Mfw0BmeQ6dkvG2KovDCY1mo+vqpIQ=.sha256",
+  "sequence": 10104,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558057140349,
+  "timestamp": 1558062431935,
   "hash": "sha256",
   "content": {
     "type": "vote",
-    "channel": "dev-diary",
+    "root": "%7ktABtG8HBy8ItmRCYi13a5HpP7XRKCY5nkg8UMtofs=.sha256",
     "vote": {
-      "link": "%jEE51YGWLf7G62gtBssXMwFlNFm09TACmU0Gw8GGky4=.sha256",
+      "link": "%7ktABtG8HBy8ItmRCYi13a5HpP7XRKCY5nkg8UMtofs=.sha256",
       "value": 1,
-      "expression": "Like"
-    }
+      "expression": "heart"
+    },
+    "branch": [
+      "%YviQ4xtc5ruv3IIaNPTVflR44URwrM3oXi+sNap8cqU=.sha256",
+      "%vTLIxrsSTwTxgBf/vEGd65wxg4q7G0ufRIKvMKWzpV8=.sha256"
+    ]
   },
-  "signature": "nN9GdcsBCOhSbx1UKsE5PIKalrX0oEQwRlVRDrD4xD2DmLL0qGkwg6Ey22zhFG379SPNNaWH/J/myocIIll8AQ==.sig.ed25519"
+  "signature": "YI7uORmiZB8CjPOl0gwGTMddo1UlnnQq9XTN1lVBtYoSeJITx8kK5iBhvFWgKSQFWcy2u63mg8BnMrTd56f9AQ==.sig.ed25519"
 }
