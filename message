@@ -1,20 +1,21 @@
 {
-  "previous": "%gMlC+XJ0m/rfzKeGBGr4jcyzuS102V57VTB8ucgVQZk=.sha256",
-  "sequence": 10126,
+  "previous": "%oRU48UUw/MM4MkPkDOgpyqnd/mjGWIRreYDFUem8gyw=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558112863127,
+  "sequence": 10127,
+  "timestamp": 1558113291342,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "root": "%Q+0zcJIJT4fIkMPUKhVHRRTRp5SKssYMoK5zznNEBz4=.sha256",
-    "vote": {
-      "link": "%e2a8JGmZ+LsGrMKkXGNTYxg5XkqxrEwSbBpzEFu9RD4=.sha256",
-      "value": 1,
-      "expression": "heart"
-    },
-    "branch": [
-      "%gMlC+XJ0m/rfzKeGBGr4jcyzuS102V57VTB8ucgVQZk=.sha256"
+    "type": "post",
+    "root": "%3BCEBalvAUEK0UvB13NgushMCxn+HMA9/NYYDyy4Gxs=.sha256",
+    "branch": "%3BCEBalvAUEK0UvB13NgushMCxn+HMA9/NYYDyy4Gxs=.sha256",
+    "channel": "onboarding",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519) \n\nSorry you're bumping into this, I've been feeling frustrated by that problem as well. I'm tracking it in Patchwork [here](https://github.com/ssbc/patchwork/issues/1035).\n\nThe bug happens when you have multiple network interfaces, because multiserver arbitrarily (?) chooses one and broadcast it over the network. I'm working to fix it in [ssb-config](https://github.com/ssbc/ssb-config/pull/53) but it's also broken in [multiserver](https://github.com/ssbc/multiserver/pull/48). Assuming you're running into the same bug as everyone else, that *should* get resolved if / when those pull requests are reviewed + merged.",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
     ]
   },
-  "signature": "kxh9CUyxDfzwH/CMvFaSRxPVuf8EqRnS21CGWVcdeH9QCiB8P8HkMnM+Ez8frR7pnUt6+6hDj4rwBwo5tZywCw==.sig.ed25519"
+  "signature": "T0NuPsFBDUaTkyak5NX4773NyLZUFv+cjYhP4gg8+PI0hpeiDl3cyOPoRf8NvNtJwgyljPNex8RgBYDI3jSeBQ==.sig.ed25519"
 }
