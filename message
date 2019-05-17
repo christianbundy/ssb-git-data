@@ -1,17 +1,29 @@
 {
-  "previous": "%BYIbWoXf4CGmGlZgSWdEBXjJDv4ldiRNHRCklVuyUfI=.sha256",
-  "sequence": 10097,
+  "previous": "%2/J4wsdea+wfZboG3V7Of6oLJB9PB3F8t3FExlxMmdI=.sha256",
+  "sequence": 10098,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558056113132,
+  "timestamp": 1558056193222,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%2dNBdKJbEOByxdC/vaI0EfFSqR/YmCsYy+exdtjmuJg=.sha256",
+    "branch": [
+      "%2PVvv7czix2Wny1gQ+m9H57YQtZ2x/fDvMVgLdvXEoY=.sha256",
+      "%a1wWD7QrD3OPEypBG8enUCK58DBs6qT5LuUj9SGDeRw=.sha256"
+    ],
+    "reply": {
+      "%2dNBdKJbEOByxdC/vaI0EfFSqR/YmCsYy+exdtjmuJg=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%a1wWD7QrD3OPEypBG8enUCK58DBs6qT5LuUj9SGDeRw=.sha256": "@xzWH/SRiCkIRMFVOsKjK2LPWzbirOkNr4f36EP42BI8=.ed25519"
+    },
     "channel": "patchbay",
-    "vote": {
-      "link": "%/MSOZYmofIuUJS28W8u0+mYnx45qoseK6m2czFn5PMA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis looksgreat! Proud of you for getting it out the door, I'm excited to try out all of the bright and shiny stuff.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "hybwMNWtu4dVdrScZaDtFr6FjbLWDOOYbVuZqU/i4YQ5oT6DePREsKFAt3E5LjUJ9tfWM5lF9Ox4UWibFPhhBQ==.sig.ed25519"
+  "signature": "HBRK9ur/S9WVPBDs4vT9g9z0sfRe+5jQbhE0OYOFRQOIqWSDR6dnwJM7xZSwTkcL2mXbSelECxrAdWUQR6o5Dg==.sig.ed25519"
 }
