@@ -1,25 +1,17 @@
 {
-  "previous": "%ctNRXzn+H8bUeQc3aOTOb3mT/16dJrloulFsMZk45p4=.sha256",
-  "sequence": 10138,
+  "previous": "%nhn9E0pYbes9Q6Uxe2eClbLwCL256j2Jqh2D9dNMfW4=.sha256",
+  "sequence": 10139,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558207756422,
+  "timestamp": 1558219665330,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "branch": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "reply": {
-      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
-    "channel": "patchbay",
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThat's very strange, sorry to hear you're running into this -- what's the output of `npm ls` in that directory? Or maybe `npm run rebuild`? I can see electron-builder in the `package-lock.json`, so it should definitely be getting picked up. Maybe try `npm install` instead of `npm ci` if that doesn't work?",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%wy0bw+XuuZ9IZ8WAGaBuaxXKhPxTnhXVcC5Nci2cPNk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "dR83iUMn3GxdqWojW1SM2CCj0ij8e7offNXIju7nRmWteurT3/pR7PhR3RybRXAMPO1lARz45B07ee3WlxVnCA==.sig.ed25519"
+  "signature": "5nqh04TEu0Pp3RS//+Zr+jPc2ezfCTZYz/YcS4i4MISDyuHZJaeYeiZC+v3Ri+vlONFnaky45QWFhvbNNnMiCQ==.sig.ed25519"
 }
