@@ -1,17 +1,25 @@
 {
-  "previous": "%/sfX6m2jG5iA4p5R26oChazDZeDXBbp42OGuDZKHlnA=.sha256",
-  "sequence": 10137,
+  "previous": "%ctNRXzn+H8bUeQc3aOTOb3mT/16dJrloulFsMZk45p4=.sha256",
+  "sequence": 10138,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558197836710,
+  "timestamp": 1558207756422,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "manyverse",
-    "vote": {
-      "link": "%2IzNwrVXT6muxj72GD4TdlGnUKV+cM4cJzX2vnc33xg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "branch": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "reply": {
+      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nThat's very strange, sorry to hear you're running into this -- what's the output of `npm ls` in that directory? Or maybe `npm run rebuild`? I can see electron-builder in the `package-lock.json`, so it should definitely be getting picked up. Maybe try `npm install` instead of `npm ci` if that doesn't work?",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "2rGP+BA3OFUwcld7k34QEJtsurbpFtN36j3IwA0d0cbspfW3vXeI5hW/TpPBNckUQQEuTsv4ANAwZo3Gm4N2AQ==.sig.ed25519"
+  "signature": "dR83iUMn3GxdqWojW1SM2CCj0ij8e7offNXIju7nRmWteurT3/pR7PhR3RybRXAMPO1lARz45B07ee3WlxVnCA==.sig.ed25519"
 }
