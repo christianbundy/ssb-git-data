@@ -1,26 +1,17 @@
 {
-  "previous": "%6gNG9dqROWAPjHE6LWe2R9NBQjcq4bkoOyfn5pwo2Mw=.sha256",
-  "sequence": 10140,
+  "previous": "%xvfYOv+aK7KV5MCieydRQWuA+jynH9IBc+9FqnFWOJo=.sha256",
+  "sequence": 10141,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558224812788,
+  "timestamp": 1558280601701,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "branch": "%vAjRcZFZyDPwa/h66Z6gn8SQmtnaaTku1mULkSrbMc0=.sha256",
-    "reply": {
-      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-      "%vAjRcZFZyDPwa/h66Z6gn8SQmtnaaTku1mULkSrbMc0=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
-    "channel": "patchbay",
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nYep, here's what it looks like for me: https://asciinema.org/a/iYOkrZZtwJqk5RzoGiyDS6doh\n\nDo you get the same thing if you pull from Patchbay `master` and `npm ci` there? I don't think the Arch package should be doing anything different from upstream Patchbay.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%YlqeL5QphS5yBnjJKUSiPPKPoKzTr8V8GOQ+ltw0xX8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YSl03yKt0LuGm3B2AE9US0ptFPxU7BvHAte+qiNmgbnYRmnLBPNLEolP/6i8yumNLc9dNr5reo4rUjHOaeq7Cg==.sig.ed25519"
+  "signature": "buhvBSa4JxlDLpWqdAdxBZllxvDGn8Zeichi/MaD2j89I4RoDtDFBqjxW4wvtPDWlkXpx/fls0S4JC5AcO1vDA==.sig.ed25519"
 }
