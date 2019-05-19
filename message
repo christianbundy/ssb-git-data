@@ -1,17 +1,26 @@
 {
-  "previous": "%W6xImwek8m/oKimrA3jqlGL+Lo7gBSIjYkcD53b7LC0=.sha256",
-  "sequence": 10144,
+  "previous": "%WD5Kyf/+w0FKmf0v8FVXUW+qTzi/oYSA19FFhM81K7c=.sha256",
+  "sequence": 10145,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558280648696,
+  "timestamp": 1558281490584,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%S2rNAhPEa13e8Qmy76oyZ76Nhze0R/dQgYTJF8/vi3s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "branch": "%zfXA7LC0ZVia2f6uzkY5aJSD61iI8ssPnRXjxbcMsMI=.sha256",
+    "reply": {
+      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%zfXA7LC0ZVia2f6uzkY5aJSD61iI8ssPnRXjxbcMsMI=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nHa! You're never bothering me, I always appreciate when you let me know something breaking. ❤\n\nMy understanding is that [npm-scripts should have access to dependencies](https://docs.npmjs.com/misc/scripts#path) in their path, maybe `PATH` is getting messed with or `sh` isn't actually running the right shell? I can see this directory in your path: `/var/local/src/p/patchbay/node_modules/.bin`, could you run `ls` in that directory and make sure electron-builder is there? Or maybe run `npm bin` and ensure it outputs that directory? \n\nAs usual, I've got more questions than answers I'm afraid. ",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "mY5SKl9OhfZBRe1dZiVyl0u0H2z6t3OHACbStASBxuGd+pIOK8obiZg6LcBTz1wxsCiGzrv2i1Y7BUopVQIjCQ==.sig.ed25519"
+  "signature": "sGQB/r2BrPFp9ksEL5bIfNLecLEhsMepf1V+l7+7v7cko6+gtPygFSyoOsmyO7FKEYQYYFAbBZGl5DDv3hlyDA==.sig.ed25519"
 }
