@@ -1,26 +1,24 @@
 {
-  "previous": "%nzZvWMKfHade4oh3otYvTre1aGP8dJiOGk8zo2ZoTsg=.sha256",
-  "sequence": 10152,
+  "previous": "%SpfwDF6SXrzETgoQ65Nfbj/dH4iwCpt9SmwYssrb5js=.sha256",
+  "sequence": 10153,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558364000857,
+  "timestamp": 1558365415896,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%qrktp5rVTlpuIKFmhJruP/L0n5NvrhnD7QpT/4OGbKg=.sha256",
-    "branch": "%HA48EamA3x93GejqK903dTSXCEaeUY5Dy1/QSZB7yHg=.sha256",
+    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "branch": [
+      "%M9urpZC8wHBe/mFRnppTgB9Ayd7cab4+HfsaRUobuts=.sha256",
+      "%nN+kxncmt1IS9fbaUxU2zB95JlHUVxe96PXVUojLHwI=.sha256"
+    ],
     "reply": {
-      "%qrktp5rVTlpuIKFmhJruP/L0n5NvrhnD7QpT/4OGbKg=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-      "%HA48EamA3x93GejqK903dTSXCEaeUY5Dy1/QSZB7yHg=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%nN+kxncmt1IS9fbaUxU2zB95JlHUVxe96PXVUojLHwI=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
     },
     "channel": "patchbay",
     "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nDone! Released as 8.0.1-2.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "text": "Does `npm install electron-builder` have any output, or does it just silently fail to install? Can you install it on other projects? It's good that it's able to be installed globally, but I'm confused at why `npm install electron-builder` isn't working in the repo.",
+    "mentions": []
   },
-  "signature": "GfRx2p3m/xFHsuNC7rOleDxkrFWGW7tOSf3GxIXOJaFdPOb7jCIsC4Q0O6WyvT6W0ojGujbcSrOw+e75h569Aw==.sig.ed25519"
+  "signature": "GvbWCnm3UvctfFfRcNd//8l2C/a5GgvJQrI0nkydytJzWXml66KhVQvdU0ZRBjomIs1OQgRstUloOwDm1xe9Dw==.sig.ed25519"
 }
