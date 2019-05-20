@@ -1,26 +1,17 @@
 {
-  "previous": "%iAcxNazzYMHbIYZzNGKkRFfE59GpfSDOU/AYQj0QEPU=.sha256",
-  "sequence": 10149,
+  "previous": "%M9urpZC8wHBe/mFRnppTgB9Ayd7cab4+HfsaRUobuts=.sha256",
+  "sequence": 10150,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558314840438,
+  "timestamp": 1558314888259,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "branch": "%kfwRRKM7leLX2Y/ESdzXl4Nf+/fick8FEU1mnRBL+YU=.sha256",
-    "reply": {
-      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-      "%kfwRRKM7leLX2Y/ESdzXl4Nf+/fick8FEU1mnRBL+YU=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
-    "channel": "patchbay",
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nSweet, now after you've installed electron-builder does that `npm run rebuild` step work? Or `$(npm bin)/electron-builder`? I'm unclear on why it didn't install electron-builder and I'm wondering whether doing it manually fixes the problem.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "type": "vote",
+    "channel": "piracy",
+    "vote": {
+      "link": "%ls6skiz+XJOyWdrTkJ9milciX9JOmZeKWOkWcE4EGt8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "WGcb7BZns4DwP+5Wvoc5NUtzaqBKPvqkZ0Cg0cTkx2avNNFf/9t/519Aa4YV8f68lOUUg2XeQWxqb/L8P7XODQ==.sig.ed25519"
+  "signature": "+VaXS1p01RYbs7gN07VWyMVqPGdbOFfAStBcXV1yLcDb4e0kPDsaZcEQlJpaXhYa27IuhkY9VXfaWtkGL5S/Ag==.sig.ed25519"
 }
