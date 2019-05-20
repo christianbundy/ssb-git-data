@@ -1,13 +1,25 @@
 {
-  "previous": "%vbxw7DNZPBs4+xiTxoipckJkxaCyPIJSfWfaqSn6zG4=.sha256",
-  "sequence": 10164,
+  "previous": "%gKbJkBOjhJO8EYwB7g8Gb2Tn5yhviMN9F/7sU4QY14Y=.sha256",
+  "sequence": 10165,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558383573458,
+  "timestamp": 1558384243913,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@1i+3Kf+wYoxXyLU+9ZohEhZs7W73phT6bZaSNsNMc60=.ed25519",
-    "blocking": true
+    "type": "post",
+    "root": "%cxhQLmn80oSTJfaq71d8aAp5H5c6zrTYTSpM3oA9Hvc=.sha256",
+    "branch": "%cxhQLmn80oSTJfaq71d8aAp5H5c6zrTYTSpM3oA9Hvc=.sha256",
+    "reply": {
+      "%cxhQLmn80oSTJfaq71d8aAp5H5c6zrTYTSpM3oA9Hvc=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mulrich](@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519) \n\nHashtags are the same as channels, but tags are a similar system that comes with a few benefits:\n\n- anyone can add tags to a messsage\n- you can remove your own tags\n- you can view your own tags separately (useful for bookmarks)\n\nI think tags were meant to be an upgrade to channels but right now we've got both and it's not super clear which should be used for what.",
+    "mentions": [
+      {
+        "link": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519",
+        "name": "mulrich"
+      }
+    ]
   },
-  "signature": "f941glnhE/tw1oB8EJlWpiNXCV4/2ZoRR12DAVAs4zCycoBFNYYdxSG7Rob6+iaM7maumv11FyZDX5QdhdJHCQ==.sig.ed25519"
+  "signature": "nN7bPuxOcLE7NjQl3sohj+Sogm8XLbpMh4sl5N8t+MQS8vddc0P0L7oFWTHWIOoF69P/TvCj7JghzfE9YfrxBw==.sig.ed25519"
 }
