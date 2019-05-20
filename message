@@ -1,17 +1,26 @@
 {
-  "previous": "%xorEocz0DfwhtNii8Rp0yC3sAhtAX0USlWcu/jv7n+k=.sha256",
-  "sequence": 10155,
+  "previous": "%EP2pfZWWhBU5ff+bkQVGF/EobXdfgYrijA/l3gz1Fq4=.sha256",
+  "sequence": 10156,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558372450096,
+  "timestamp": 1558372921558,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "branch": "%/PwWWoh+g7Ou3RmindHrkw2NBKv0xcUvkXDzsCiin8g=.sha256",
+    "reply": {
+      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%/PwWWoh+g7Ou3RmindHrkw2NBKv0xcUvkXDzsCiin8g=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
     "channel": "patchbay",
-    "vote": {
-      "link": "%/PwWWoh+g7Ou3RmindHrkw2NBKv0xcUvkXDzsCiin8g=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nNice find! I'm a bit conflicted about ignoring environment variables since they're often the way to customize installation via `makepkg`, but maybe it's fine in this instance? Do you think `npm ci --production=false` would work instead? Or maybe it doesn't matter since they're both doing the same thing...",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "JYefoOD2CxcWHm95ChPdrmsCAJxksBm25EPYJydscpp6aUPHDAK2WDqfchLOg+r7DNzSYYctzqLWgB1VtVaHAg==.sig.ed25519"
+  "signature": "1GoF/9oKejxII+5cKZnlCo4cG1JRI9W6VdHJqOMeWxfd/RbdcSnzc777UV60tsSkV6BEegXHnELsRJPE/V0HDQ==.sig.ed25519"
 }
