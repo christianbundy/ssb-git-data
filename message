@@ -1,26 +1,17 @@
 {
-  "previous": "%H7GLP3SgBBAjKqEGtlu2fbHIAMzycW1i9xte2CkXTjo=.sha256",
-  "sequence": 10154,
+  "previous": "%xorEocz0DfwhtNii8Rp0yC3sAhtAX0USlWcu/jv7n+k=.sha256",
+  "sequence": 10155,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558366929027,
+  "timestamp": 1558372450096,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "branch": "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256",
-    "reply": {
-      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-      "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
+    "type": "vote",
     "channel": "patchbay",
-    "recps": null,
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nIf you run `rm -rf node_modules && npm install` instead of `npm ci` does it all install correctly? I wonder whether this is an `npm ci` problem. What a bummer, I hate when simple stuff doesn't work.",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ]
+    "vote": {
+      "link": "%/PwWWoh+g7Ou3RmindHrkw2NBKv0xcUvkXDzsCiin8g=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "5Q5APo5ptKWff1/beaz40TvB6Cbf94iMBPxGm5xJPDE9C4W5hpy5X8YwDBRAKTdXfPzUjOi2fGcK0Pl6puj3Dg==.sig.ed25519"
+  "signature": "JYefoOD2CxcWHm95ChPdrmsCAJxksBm25EPYJydscpp6aUPHDAK2WDqfchLOg+r7DNzSYYctzqLWgB1VtVaHAg==.sig.ed25519"
 }
