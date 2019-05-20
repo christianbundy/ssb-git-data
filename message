@@ -1,13 +1,26 @@
 {
-  "previous": "%yj6Z6stBx8YAvgufueyAgPUSmRgiF2vlkx7ZNdCa+X0=.sha256",
-  "sequence": 10151,
+  "previous": "%nzZvWMKfHade4oh3otYvTre1aGP8dJiOGk8zo2ZoTsg=.sha256",
+  "sequence": 10152,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558363962092,
+  "timestamp": 1558364000857,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@uQApdoGevLDNssX2iVrCnsMZwwGB1lAGYUmI+ipxnUo=.ed25519",
-    "blocking": true
+    "type": "post",
+    "root": "%qrktp5rVTlpuIKFmhJruP/L0n5NvrhnD7QpT/4OGbKg=.sha256",
+    "branch": "%HA48EamA3x93GejqK903dTSXCEaeUY5Dy1/QSZB7yHg=.sha256",
+    "reply": {
+      "%qrktp5rVTlpuIKFmhJruP/L0n5NvrhnD7QpT/4OGbKg=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%HA48EamA3x93GejqK903dTSXCEaeUY5Dy1/QSZB7yHg=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nDone! Released as 8.0.1-2.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "QxIMY39QpmQOdtErZ4xXjwGTr572WlFRtnjvLZ8lFPTWeIvCkYbaJ/xJL2TpoJNAiZwuDgYBdTSOToiTgKumDg==.sig.ed25519"
+  "signature": "GfRx2p3m/xFHsuNC7rOleDxkrFWGW7tOSf3GxIXOJaFdPOb7jCIsC4Q0O6WyvT6W0ojGujbcSrOw+e75h569Aw==.sig.ed25519"
 }
