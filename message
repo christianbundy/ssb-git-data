@@ -1,24 +1,26 @@
 {
-  "previous": "%SpfwDF6SXrzETgoQ65Nfbj/dH4iwCpt9SmwYssrb5js=.sha256",
-  "sequence": 10153,
+  "previous": "%H7GLP3SgBBAjKqEGtlu2fbHIAMzycW1i9xte2CkXTjo=.sha256",
+  "sequence": 10154,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558365415896,
+  "timestamp": 1558366929027,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
-    "branch": [
-      "%M9urpZC8wHBe/mFRnppTgB9Ayd7cab4+HfsaRUobuts=.sha256",
-      "%nN+kxncmt1IS9fbaUxU2zB95JlHUVxe96PXVUojLHwI=.sha256"
-    ],
+    "branch": "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256",
     "reply": {
       "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-      "%nN+kxncmt1IS9fbaUxU2zB95JlHUVxe96PXVUojLHwI=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+      "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
     },
     "channel": "patchbay",
     "recps": null,
-    "text": "Does `npm install electron-builder` have any output, or does it just silently fail to install? Can you install it on other projects? It's good that it's able to be installed globally, but I'm confused at why `npm install electron-builder` isn't working in the repo.",
-    "mentions": []
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nIf you run `rm -rf node_modules && npm install` instead of `npm ci` does it all install correctly? I wonder whether this is an `npm ci` problem. What a bummer, I hate when simple stuff doesn't work.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
   },
-  "signature": "GvbWCnm3UvctfFfRcNd//8l2C/a5GgvJQrI0nkydytJzWXml66KhVQvdU0ZRBjomIs1OQgRstUloOwDm1xe9Dw==.sig.ed25519"
+  "signature": "5Q5APo5ptKWff1/beaz40TvB6Cbf94iMBPxGm5xJPDE9C4W5hpy5X8YwDBRAKTdXfPzUjOi2fGcK0Pl6puj3Dg==.sig.ed25519"
 }
