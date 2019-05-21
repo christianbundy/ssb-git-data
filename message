@@ -1,16 +1,26 @@
 {
-  "previous": "%l89nqJBzmT9xVExP6+G28f+s/jVIIx5QL+ppj7J02EI=.sha256",
-  "sequence": 10189,
+  "previous": "%Zcg4S+1uyZANlYPIXYDrz772oMlTTGJGjbUbtd4MBjY=.sha256",
+  "sequence": 10190,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558449279026,
+  "timestamp": 1558449325204,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%FYomxrv4qpMzlLUQxb0xFLN6gnVFZihhx1QiS7XQz3A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+J48djyVGjcpG4iZ1Js9vYclFYWvee01RxdN6T1JfdU=.sha256",
+    "fork": "%DNxkpTP9GIWldtYtpAmzgBFGlu8X9O5A3xq1L6Ms5es=.sha256",
+    "branch": "%+J48djyVGjcpG4iZ1Js9vYclFYWvee01RxdN6T1JfdU=.sha256",
+    "reply": {
+      "%+J48djyVGjcpG4iZ1Js9vYclFYWvee01RxdN6T1JfdU=.sha256": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Thanks [@Alberto](@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519)! I really appreciate you taking the time to test it out, hopefully a full release is just around the corner.",
+    "mentions": [
+      {
+        "link": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
+        "name": "Alberto"
+      }
+    ]
   },
-  "signature": "VNSlD0RK5O1tiZz7Bl/goRDdl1ftTMeHGlRGn7+LYaLn06Z9UIIsBzV/AMbktM/FCHHcTKLoGjmOa8SHyiL1Cw==.sig.ed25519"
+  "signature": "+hbW1MiPEGErwsDoPScnF3Z7dHjZItdBji7zfifEc/T70rjG+IgDOVpCns2EBaiumO7+ek/dnjfatUZJ1WnwAg==.sig.ed25519"
 }
