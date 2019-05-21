@@ -1,16 +1,25 @@
 {
-  "previous": "%REZyRaxMd6muCxcz3H1IycpnvAJieEZS0h8RYzoysnI=.sha256",
-  "sequence": 10213,
+  "previous": "%gVTCY/CbIr1fD4EynoKSlUTPK/CX9yRDSzGzVgHQTs8=.sha256",
+  "sequence": 10214,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558459936375,
+  "timestamp": 1558460025457,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%qnT8DPEHBpZ7c3+dYwqsJyp/Jg2HW3ZTwvzxcyFZJw4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%qnT8DPEHBpZ7c3+dYwqsJyp/Jg2HW3ZTwvzxcyFZJw4=.sha256",
+    "branch": "%qnT8DPEHBpZ7c3+dYwqsJyp/Jg2HW3ZTwvzxcyFZJw4=.sha256",
+    "reply": {
+      "%qnT8DPEHBpZ7c3+dYwqsJyp/Jg2HW3ZTwvzxcyFZJw4=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\n!!!\n\nI'd like to think that in the cactus language the middle finger is a sign of respect.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
   },
-  "signature": "1jXdNFrPpJqGNrCterEoOERje3HP2N/kTSKYf057zOrSWKQNMiQKWpqzgL2Ta9O/J1CyZIyLYmhc2QmkolUaCw==.sig.ed25519"
+  "signature": "dPqdbuBRWslqiyrLQucHSJe611KsjkASqeNaZyXs3KLCy3CF0OP/CwZ4xpGdfM1jn7EqKmJQS6aSNYg3dk1JDg==.sig.ed25519"
 }
