@@ -1,16 +1,25 @@
 {
-  "previous": "%2lH1XTZzhn36JXFoy5rmdBDf5SX0GHy2roJTbtW1c7Y=.sha256",
-  "sequence": 10209,
+  "previous": "%Dv1nGgwbdWlpPO6OLvmdADj4/EAAJ3V0AJYgWTmP7ww=.sha256",
+  "sequence": 10210,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558450952445,
+  "timestamp": 1558451146525,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Lfhgou1xqoxsL7iQg85pwFe/H5TCbVZFyDc7NHHZ++c=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HqKE8f49N5vd9WYBWlb7jEyj5GWdB9jThZtASMrRHDo=.sha256",
+    "branch": "%HqKE8f49N5vd9WYBWlb7jEyj5GWdB9jThZtASMrRHDo=.sha256",
+    "reply": {
+      "%HqKE8f49N5vd9WYBWlb7jEyj5GWdB9jThZtASMrRHDo=.sha256": "@2Iq2qmwMictAztXKWYF1NFrTn+uyxsocffDbOYsRtLo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Karl (Android)](@2Iq2qmwMictAztXKWYF1NFrTn+uyxsocffDbOYsRtLo=.ed25519) \n\nI see you!",
+    "mentions": [
+      {
+        "link": "@2Iq2qmwMictAztXKWYF1NFrTn+uyxsocffDbOYsRtLo=.ed25519",
+        "name": "Karl (Android)"
+      }
+    ]
   },
-  "signature": "pWXTTge+tRNFgJjtMCokkxN0IG3qTnjkk4tkX869Crdz2GT31W1df8H7nl0w8hYlehji8+Ak8MKYm2DK3onhDw==.sig.ed25519"
+  "signature": "lVmQoVo1bnZtxJd0OxmppiD7MfCxTsNhtmLVO7eAER69AudOgs1GkwtT60Lq8Fn7jOmDro2VM/nUhUa54AnWBw==.sig.ed25519"
 }
