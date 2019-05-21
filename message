@@ -1,16 +1,25 @@
 {
-  "previous": "%FiCq00y2uDiilx/mrNxwLDSW6CMgkvTbHBzvvmy10nU=.sha256",
-  "sequence": 10235,
+  "previous": "%76TK5/56Ybq/g9EBPVS7e5dn+nmD685X35kShvscyDY=.sha256",
+  "sequence": 10236,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558480466765,
+  "timestamp": 1558480571105,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%F+7RgDrSfvaz3FU0zzRKs6vxN0P08OgBhbRF1yFbIRU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%sfL6b3AZCE8zQVglNuSFERaAb6zKKCz4M7rsQlOxvYs=.sha256",
+    "branch": "%sfL6b3AZCE8zQVglNuSFERaAb6zKKCz4M7rsQlOxvYs=.sha256",
+    "reply": {
+      "%sfL6b3AZCE8zQVglNuSFERaAb6zKKCz4M7rsQlOxvYs=.sha256": "@IO8uWgeOFXaUO6nojk2wQ2KMGfm8flwzJ6+Z/G5sqFE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Hey [@radio nerd](@IO8uWgeOFXaUO6nojk2wQ2KMGfm8flwzJ6+Z/G5sqFE=.ed25519), welcome!\n\nI've never used radiodroid, is it for internet radio? \n\n> I’m also interested in gardening, cooking, our all future, plant-oriented food style and small indoor and outdoor ponds. \n\nYou'll fit right in! Looking forward to seeing ou around.",
+    "mentions": [
+      {
+        "link": "@IO8uWgeOFXaUO6nojk2wQ2KMGfm8flwzJ6+Z/G5sqFE=.ed25519",
+        "name": "radio nerd"
+      }
+    ]
   },
-  "signature": "Clu64tdtyh/ZalwFuuGLaipu7m+JXnGP+orsTL6BSS8TgYgx1GLdO5Mg1O7ihQhiEeboUMiu030nyYRnksLkBw==.sig.ed25519"
+  "signature": "82vw0IO50U7QZXoNKXnYj6PrVmwv4UswmUHGF4Yx4p2IENvLuh9pQ0u493K+ZpeuT2WCdX/yvV2Rk7g29378BA==.sig.ed25519"
 }
