@@ -1,16 +1,21 @@
 {
-  "previous": "%Db8vNfhUCTe/X/DpxgDy7u0Jv7N/i1QjrCCy4gNuHgU=.sha256",
-  "sequence": 10183,
+  "previous": "%+pb51ggCh2pYU2R5Ph5raR2+V1FsLW5ZGP25z6uC0yA=.sha256",
+  "sequence": 10184,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558409037621,
+  "timestamp": 1558410798807,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xCWthcbLElqwm+x1TOHdtVPjS5iGLrmulKa1zD4UXPU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%3sNg0vYiVJSgbvCgXWz4J6KTr0PPLZtdD0rGcvKxxZE=.sha256",
+    "reply": {
+      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%3sNg0vYiVJSgbvCgXWz4J6KTr0PPLZtdD0rGcvKxxZE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "# Patchwork v3.12.0-beta.3\n\n[**🤞 Last one?! Get it here. 🤞**](https://github.com/ssbc/patchwork/releases/tag/v3.12.0-beta.3)\n\nAll of the big bugs have been fixed, now I'd just love some help from friends who can triple-check that it works on:\n\n- Ubuntu\n- macOS\n- Windows\n\nI've only got one computer so it's hard to test other operating systems. If anyone has the time, I'd love if you could:\n\n1. Download a release for your operating system\n2. Click around for a minute to ensure that it still works\n3. Reply to this message and let me know that it's good to go 👍\n\nAs long as it opens and runs reasonably well then I'm down to ship it ASAP. There have been *so* many improvements by lots of great folks and I can't wait to release them. Thanks friends! 🌞‍😎",
+    "mentions": []
   },
-  "signature": "ARDv6S/pbyTsY0W9YTQWRJy4e5hOn0wDW8/WF6j3ZDO1YR+vTuQGyoCPpa+13t/tj7xc2Ysqm8qDgGA2FkJpBg==.sig.ed25519"
+  "signature": "PnO4b6/Enx9t5ns6Nf2oIPcnFXNazRvXfs7jwHvwGpububG+QSlEZARLn+A9YfxKLmaJwEO+lRv+NLIiFErNBw==.sig.ed25519"
 }
