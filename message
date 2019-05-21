@@ -1,13 +1,17 @@
 {
-  "previous": "%ED5hMFi4SOl2OFt+wFPyR/dY8i47ltSl/aPPrc0FaYM=.sha256",
-  "sequence": 10226,
+  "previous": "%qFFHIiUYtk18Xg+ABuUAOGYIRRcUAeOJte5ffk4zdyo=.sha256",
+  "sequence": 10227,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558466429277,
+  "timestamp": 1558466468810,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@/0ELC+rw/GJ/tACP7WSc1chaEqfF/u2hXUvToExfmmM=.ed25519",
-    "name": "bram.exe"
+    "type": "vote",
+    "channel": "myco",
+    "vote": {
+      "link": "%nJMl/OpR8vicUfDqe0ImSC9IaGYbCXFgUF+eFbBEbak=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "KlI0j+V0wZrQG8UlLsTwvuva2SDNI+7gqFPBpCPBrTNJ78rTtyqLWsrrwIIRV3JBHDK+kvzFgLBKtEe3cZQOBg==.sig.ed25519"
+  "signature": "O+rGEQjeeE1IQ8T7zBZiqjmuCClR8u1RRURRaAJOUl6smb+h5Mynf/3JtBmfSvw5zqYjOXdp2SC6nc8U7FYICA==.sig.ed25519"
 }
