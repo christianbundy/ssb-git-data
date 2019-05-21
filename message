@@ -1,27 +1,16 @@
 {
-  "previous": "%Bn9BhDNTi8FP+tB93gvTH/DHBbkkQ0kSxwsxjYK0kII=.sha256",
-  "sequence": 10223,
+  "previous": "%F/Gr9OCPDyB2Gy9FBFO/erQzjA41wHqj//y0my44VPg=.sha256",
+  "sequence": 10224,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558465430248,
+  "timestamp": 1558465442924,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%BvvlkK0HsTiIvtqdi0I7dtZRa65vEa3+mJWYsHC36Dw=.sha256",
-    "fork": "%RZW7keS4V1Fv4AvUaVvdo7A4hgtLZOdoKDWXByALdE8=.sha256",
-    "branch": "%Tf0cj0P1ROhtxYNjTBL5Gh+K5ehUWOZhfKUT1OK7VCc=.sha256",
-    "reply": {
-      "%BvvlkK0HsTiIvtqdi0I7dtZRa65vEa3+mJWYsHC36Dw=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Tf0cj0P1ROhtxYNjTBL5Gh+K5ehUWOZhfKUT1OK7VCc=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
-    "channel": "ssbc",
-    "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nI suppose that brings up an interesting question of whether the SDF is for protocol decisions or whether it should be used to iron out the specifics of a given implementation.",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%mRgAAxgCZQHna120v7QncJIomfW3913MEhGJNQFHp5Y=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "6/7RcP+fie9mL3GQ7zPekegGy1JSAO0S0kq7cNt3vPWGhLdQ4PORHKd1PKRpeCHgiWTvElAmdp5AqoQsH8TnBw==.sig.ed25519"
+  "signature": "IEpyHHg0HKSwW8cEweCENs96LCytseY6eCaDwfj5PfYdAc4G9N6hCIA+LmvH0T9P8awOUba8C0kVXmkJRWt/Cg==.sig.ed25519"
 }
