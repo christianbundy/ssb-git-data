@@ -1,13 +1,32 @@
 {
-  "previous": "%WaiNfS4+FMwnDQ+KuXfpF0zrZTs6dExnrOoEmb+rQSI=.sha256",
-  "sequence": 10228,
+  "previous": "%Dse0ySjB6VWKRhtsvM1qzFyuScDJKwatWM0XAaDvoko=.sha256",
+  "sequence": 10229,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558468374712,
+  "timestamp": 1558468681167,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@TORXJ/HcXbfJpqscZOp4xjXCOOcumqFvYEtSLYd+5EA=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "branch": "%eWZudA/aR8Ejq0Q2boN1g3CUC3AGxcl8MueKTpwbE/4=.sha256",
+    "reply": {
+      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%eWZudA/aR8Ejq0Q2boN1g3CUC3AGxcl8MueKTpwbE/4=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "It works! [@bram.exe](@/0ELC+rw/GJ/tACP7WSc1chaEqfF/u2hXUvToExfmmM=.ed25519) was able to verify that it works on Windows and I set up an Ubuntu VM to double-check that it works on Ubuntu. Looks like we're good to go.\n\n![Screenshot from 2019-05-21 12-55-25.png](&DSPiBo8waL3EAJwfxjOZQZQKpVRne+K7H2vGpAi1wLE=.sha256)\n\n:tada: ",
+    "mentions": [
+      {
+        "link": "@/0ELC+rw/GJ/tACP7WSc1chaEqfF/u2hXUvToExfmmM=.ed25519",
+        "name": "bram.exe"
+      },
+      {
+        "link": "&DSPiBo8waL3EAJwfxjOZQZQKpVRne+K7H2vGpAi1wLE=.sha256",
+        "name": "Screenshot from 2019-05-21 12-55-25.png",
+        "type": "image/png",
+        "size": 423982
+      }
+    ]
   },
-  "signature": "yiCrK2BnyoXoidVcZOlDgssjwrSKThI3J76PKaO0BiikqCqsExQ29rXiBTAiw4yHP1HBxKXWFO31Xs+D+3uuCg==.sig.ed25519"
+  "signature": "zMWQAKY9U3lWbeCyZ/EiKsQ+/iG5F9ppLAD1G8ZZIvNdTzFQUBlZprqe8YAE1rDqsD6VrqNZ8ibsBNBNBNylDQ==.sig.ed25519"
 }
