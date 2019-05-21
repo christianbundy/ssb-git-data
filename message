@@ -1,13 +1,17 @@
 {
-  "previous": "%BglbKbQozVhEvtHiatmn2SvJc+ZfUaTTAoPXSIRTKfw=.sha256",
-  "sequence": 10242,
+  "previous": "%WelUaAAbU6bAu1uS2tE3URF81RB48f7+dFEupnr4vWg=.sha256",
+  "sequence": 10243,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558481810788,
+  "timestamp": 1558481892844,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "ledger-eu",
+    "vote": {
+      "link": "%CCDA42Ib8G5UYTktWKOMMWxKtikTgiQJcHHg3FwLseU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "q/1iBAl2BV/40p8vCrYsw+Uvxzymuj6BO4xLAtzxO6o0+uYsEhqQ2T0cjZ6cSjP6V7612oHZj6uZcT0wKRLwCQ==.sig.ed25519"
+  "signature": "LyAzGkpzG71BYfOK0YGq29kxhuQfV/Mj85l8KFv5AW2xRQfFfhMkSiRjkURMrrxwjI+q1RzzgZC9W3uWC+eADQ==.sig.ed25519"
 }
