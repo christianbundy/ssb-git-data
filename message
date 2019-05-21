@@ -1,34 +1,16 @@
 {
-  "previous": "%cmCDGZ28b1/+qeFVG2e/MOu0hIIIrw8VXvsSRZwPH80=.sha256",
-  "sequence": 10212,
+  "previous": "%REZyRaxMd6muCxcz3H1IycpnvAJieEZS0h8RYzoysnI=.sha256",
+  "sequence": 10213,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558459915603,
+  "timestamp": 1558459936375,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%F0ePtbVPwWY5PaT77V6mKwvkQqgXh5EnHqHtIxeBbWo=.sha256",
-    "branch": "%kzs//+tdQOBIFCrmHOuIU5+uOxY2ytjxRgpOo9xkiEo=.sha256",
-    "reply": {
-      "%F0ePtbVPwWY5PaT77V6mKwvkQqgXh5EnHqHtIxeBbWo=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%kzs//+tdQOBIFCrmHOuIU5+uOxY2ytjxRgpOo9xkiEo=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
-    },
-    "channel": "maintenance",
-    "recps": null,
-    "text": "##  What are you working on?\n\nI'm working on the JavaScript implementation, currently focused on:\n\n- Patchwork, especially working on bug reports\n- Database implementation (ssb-db, flumedb, flumelog-offset, aligned-block-file, flumeview-level, ...)\n- The modules touching secret-stack (ssb-config, muxrpc, multiserver, ...)\n- Feed deletion, off-chain content, same-as, and other fun future stuff\n \n### are you working on a client or server?\n\nYes!\n\n### how have you tested compatibility so far?\n\nMost of the server modules have tests, but *usually* those are unit tests that validate the implementation rather than integration tests that make sure things work together. For example, [this method passes its tests](https://github.com/flumedb/flumeview-hashtable/blob/a6bedb150dd7e39267f7908c8ab35c06b5aeaf75/test/index.js#L32) but would fail an integration test because muxrpc only allows 2 callback arguments -- `seq` gets removed and any reasonable person would get confused.\n\n### what do others need to know about how building that has gone / is going? (e.g. what’s been annoying / hard / delightful)\n\n1. Most modules have lots of tests and it's easy to see when something breaks.\n2. Everyone is friendly and helpful and it feels good to work with friends on Scuttlebutt.\n2. Lots of time and code is spent passing data back and forth through layers of abstraction.\n3. There are many modules and few maintainers. Bug reports often go unanswered.\n4. No shared expectations of when code should be merged. Sometimes we use pull requests and reviews, sometimes broken code is pushed to `master` and released.\n5. Lots of implied conventions that aren't shared by the rest of the JavaScript ecosystem:\n    - testing is done with [tape](https://github.com/substack/tape)\n    - command-line parsing is done with [minimist](https://github.com/substack/minimist)\n    - streams are implemented with [pull-stream](https://github.com/pull-stream/pull-stream)\n    - lockfiles and linters are discouraged\n    - clients ofen use [depject](https://github.com/depject/depject) (most/many/all want to deprecate depject but it's not easy)\n    - plugins and networking are handled by [secret-stack](https://github.com/ssbc/secret-stack/) ([muxrpc](https://github.com/ssbc/muxrpc) + [multiserver](https://github.com/ssbc/multiserver/))\n6. The line between GitHub organizations is blurry, we depend on code from ssbc + flumedb + pull-stream + auditdrivencrypto + dominictarr + other personal accounts so you often need to ping specific people you know are in each organization.\n7. People who review code are angels and IMO our maintenance system needs to support their needs. Writing documentation and code is *fantastic* but there's a ton of time and energy being spent reviewing that code and currently I think it's driven by generosity and warm fuzzy feelings. Both [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\nand [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) stand out as especially review-heavy to me and I appreciate the hell out of it.\n8. Same as above for people who spend time triaging issues.\n\n## What are the minimal things that need testing?\n\n- A peer must be able to run `whoami()` over tcp => secret-handshake => multiserver => muxrpc on another peer.\n- A peer must be able to publish messages to their own feed that are returned by `createHistoryStream()`.\n- A peer must be able to to run `createHistoryStream()` on another instance and validate the messages.\n\n## Should we test many-to-many or 1-to-many?\n\nI'd be down for a 1-many approach (like [test-flumeview-index](https://github.com/flumedb/test-flumeview-index)) but my scuttle-experience is that consensus attempts often end in [deadlock](%BvvlkK0HsTiIvtqdi0I7dtZRa65vEa3+mJWYsHC36Dw=.sha256) that I don't know how to resolve.\n\nI think many-to-many is the simplest answer that requires the minimum amount of consensus, but I'm not sure what that would look like. I'd imagine that on a long enough timeline we could auto-generate something like https://caniuse.com/ for each implementation, which documents compatibility with other implementations. I don't think we'll have anything like that very soon, but it might be useful for back-casting if we're all on the same page.  ",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "%BvvlkK0HsTiIvtqdi0I7dtZRa65vEa3+mJWYsHC36Dw=.sha256",
-        "name": "deadlock"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%qnT8DPEHBpZ7c3+dYwqsJyp/Jg2HW3ZTwvzxcyFZJw4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "b086GZT7JhB0fZv9cKjU9gmGocMjLcY2DlRlSE4eTpLSMFaGYJwX0HMHs02Oxw5KeEjfq+jxJQMOAmqHs/oABg==.sig.ed25519"
+  "signature": "1jXdNFrPpJqGNrCterEoOERje3HP2N/kTSKYf057zOrSWKQNMiQKWpqzgL2Ta9O/J1CyZIyLYmhc2QmkolUaCw==.sig.ed25519"
 }
