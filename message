@@ -1,21 +1,16 @@
 {
-  "previous": "%5Kav9urHtLCsgJgGEIOajVEHjgB/wzF+Xb1PiUJpo+E=.sha256",
-  "sequence": 10233,
+  "previous": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
+  "sequence": 10234,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558475230022,
+  "timestamp": 1558480438834,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
-    "branch": "%U26aPJdF0WVElnPupB4dkk/VAx7XC40GngOCGitjf5s=.sha256",
-    "reply": {
-      "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%U26aPJdF0WVElnPupB4dkk/VAx7XC40GngOCGitjf5s=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "# Patchwork 3.12.0\n\n[**✨ Upgrade now! ✨**](https://github.com/ssbc/patchwork/releases/tag/v3.12.0)\n\nThis contains over six months of improvements to Patchwork and Scuttlebutt and I'm *so* excited to release it.\n\nI've copied the release notes below:\n\n> :tada: **Thanks for downloading Patchwork!**\n>\n> :seedling: Check out [the changelog](https://github.com/ssbc/patchwork/blob/master/CHANGELOG.md#v3120---2019-05-21) to see what's new!\n>\n> ## Install\n>\n> - **macOS:** [`Patchwork-3.12.0.dmg`][dmg] (you may need to [allow apps from \"unidentified\" developers](https://support.apple.com/kb/PH25088))\n> - **Linux:** [`ssb-patchwork-3.12.0-x86_64.AppImage`][appimage] (you will need to [make it executable](https://docs.appimage.org/user-guide/run-appimages.html))\n> - **Windows:** [`ssb-patchwork-setup-3.12.0.exe`][exe]\n> \n> ## Getting started\n>\n> If this is your first time on Scuttlebutt you may need an invite to get connected. After installing Patchwork and choosing your name you should select the **Join Pub** button. You'll need to [get a pub invite](https://github.com/ssbc/ssb-server/wiki/Pub-Servers#public-pubs), paste it into the prompt, and select **Redeem invite**.\n>\n> You can find more information in the [Getting Started Guide](https://www.scuttlebutt.nz/getting-started).\n>\n> ## Support\n>\n> 🤔 [Any questions? Check out the Scuttlebutt FAQ!](https://www.scuttlebutt.nz/faq/)\n>\n> :sos: [Need help? Please create an issue!](https://github.com/ssbc/patchwork/issues/new)\n\n[dmg]: https://github.com/ssbc/patchwork/releases/download/v3.12.0/Patchwork-3.12.0.dmg\n[exe]: https://github.com/ssbc/patchwork/releases/download/v3.12.0/ssb-patchwork-setup-3.12.0.exe\n[appimage]: https://github.com/ssbc/patchwork/releases/download/v3.12.0/ssb-patchwork-3.12.0-x86_64.AppImage",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%sfL6b3AZCE8zQVglNuSFERaAb6zKKCz4M7rsQlOxvYs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "N1BPW81AMohBxB29LwtUvpb8xhLTLmrYJqe79O70huLCN9ITwBoQ8TYtleG9LL071Jn6L0lROI5tbtmxHpPnAg==.sig.ed25519"
+  "signature": "IySN3R+taKTQpYEE0irO8B8uNVka03LipHy2ZvoU+LtDh+yUCclZpu4Sq/dHVD5RO3xH6MhTkKar2Hj2GsB3Cg==.sig.ed25519"
 }
