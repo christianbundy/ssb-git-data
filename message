@@ -1,17 +1,29 @@
 {
-  "previous": "%+OsuXDQrLIDweFwZsjD1K27Tg0wkODD6y0RPlvXYMtc=.sha256",
-  "sequence": 10258,
+  "previous": "%MGdFZXXGXsOHOUdQZzZYA/axjKYrxZqJZYO0td9EKsA=.sha256",
+  "sequence": 10259,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558496475421,
+  "timestamp": 1558497047822,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "whiteness",
-    "vote": {
-      "link": "%ICz7CjzREkynswt2qugA4c5GdJOK32XNMnmIL5aS9jE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256",
+    "fork": "%xEYlDw8oU5ZO0HbSaHQMU32R7EhmNqU8Gb9F2bxlqVw=.sha256",
+    "branch": "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256",
+    "reply": {
+      "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256": "@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519"
+    },
+    "channel": "bug",
+    "recps": null,
+    "text": "[@getkuba](@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519) \n\nCouldn't agree more, I was just thinking about this today. I'd love a one-click import / export of:\n\n- `secret`\n- `gossip.json` / `conn.json`\n- `flume/log.offset`\n\n#somebody-should ",
+    "mentions": [
+      {
+        "link": "@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519",
+        "name": "getkuba"
+      },
+      {
+        "link": "#somebody-should"
+      }
+    ]
   },
-  "signature": "h9OWhRSo/0pGEJ/Jy+dNb7+Pcy5toZuXgP3epMugsenJd2TjRLl8V2wV0ejGBMcBAi7hgLIseVKs3MmuFwD6BQ==.sig.ed25519"
+  "signature": "KM2INLphfCAK07nhmo0tl3+kO9eohEk/Bf7R4f9qlT1g6p+KchFcB18RcwJrgUhHkOe5HT7zS8ZJyfnwcz1xDQ==.sig.ed25519"
 }
