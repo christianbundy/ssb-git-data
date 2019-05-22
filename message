@@ -1,17 +1,26 @@
 {
-  "previous": "%FJ/Rrao3BhBJ7ajdm8AYYJUOU+t5teD9MPwL8WnPUvo=.sha256",
-  "sequence": 10247,
+  "previous": "%2i0b6OZ/wzcq3n91MUHYDT1gvCyL3DLQgSDUdD4Iqm4=.sha256",
+  "sequence": 10248,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558483803178,
+  "timestamp": 1558483932053,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Dl8wVIs9AUkNpxiUUgrn7GB9vkLqXDMgI2fRs2KTzAo=.sha256",
+    "fork": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
+    "branch": "%Dl8wVIs9AUkNpxiUUgrn7GB9vkLqXDMgI2fRs2KTzAo=.sha256",
+    "reply": {
+      "%Dl8wVIs9AUkNpxiUUgrn7GB9vkLqXDMgI2fRs2KTzAo=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%PjPMpm7GCmJn8DrvcE1xvfJMDjdIL1yGaoHUxXCpA60=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nThank *you*! I think the majority of the code in this release is yours, I just pressed the big green **RELEASE** button.\n\n🙇👏🕴",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "JjjIJki/mmbswpwEynpvtP4XO+WveTUL/N7rzaAxJr4c6wcYzRL3Ff6Di7EB+Ea0r53DG0M3A2tyBZDpgucUCw==.sig.ed25519"
+  "signature": "+iLlGMzsstD+MpzKXe26qQ8Pt1/acWIIAlPLpazM4Mc3S9IHrfKlpRiD/5mv5AViTmzqyed9bw+vLicjFZHWAA==.sig.ed25519"
 }
