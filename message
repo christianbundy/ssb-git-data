@@ -1,17 +1,26 @@
 {
-  "previous": "%Ze7h9PmEC6bo5MvRgFMpO38WdXvY273Vtp7DZ83Fuao=.sha256",
-  "sequence": 10281,
+  "previous": "%ASI3kQuIkkoPIuikpmS5XLqbRxShL+9hHcSfrvB7upI=.sha256",
+  "sequence": 10282,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558549043058,
+  "timestamp": 1558549224162,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256",
+    "fork": "%vCSMgJzJrRlrT/6hK24Ucf0XJGl1k5u9HUAFRaNBEmc=.sha256",
+    "branch": "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256",
+    "reply": {
+      "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+    },
     "channel": "cryptography",
-    "vote": {
-      "link": "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThanks for all the context! Do you know whether sodium-universal would work as a drop-in replacement for chloride or does chloride make changes to the libsodium API?",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "shmzlUrkscHr1eADF2voE4wT+50EYg9npxCQLVj2obc22QMRMpnrb1nTXL8sCqKqVR7CoFSxKNBKM8jwORxHBw==.sig.ed25519"
+  "signature": "TuUV6rQwAA79J8yUnzW5wV4G6jSoXOPdTwTo46YMKZMMIW77fZbAHraIsjRHDNhSq7F19FHGdxfVKKgdBt3SAg==.sig.ed25519"
 }
