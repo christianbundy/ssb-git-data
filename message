@@ -1,29 +1,16 @@
 {
-  "previous": "%MGdFZXXGXsOHOUdQZzZYA/axjKYrxZqJZYO0td9EKsA=.sha256",
-  "sequence": 10259,
+  "previous": "%77TTdU9pl5ZWZAAmGZr8FrBOS8ttGA/ENZtasGRf+vk=.sha256",
+  "sequence": 10260,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558497047822,
+  "timestamp": 1558533717859,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256",
-    "fork": "%xEYlDw8oU5ZO0HbSaHQMU32R7EhmNqU8Gb9F2bxlqVw=.sha256",
-    "branch": "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256",
-    "reply": {
-      "%HyvMpvwsKBt3aFeZ27mMQoqkoochBTuUFlzL8k5Y6xc=.sha256": "@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519"
-    },
-    "channel": "bug",
-    "recps": null,
-    "text": "[@getkuba](@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519) \n\nCouldn't agree more, I was just thinking about this today. I'd love a one-click import / export of:\n\n- `secret`\n- `gossip.json` / `conn.json`\n- `flume/log.offset`\n\n#somebody-should ",
-    "mentions": [
-      {
-        "link": "@ePma8lYFDsst3638jioztzLcGAGXplUbyhSTfnBfJUg=.ed25519",
-        "name": "getkuba"
-      },
-      {
-        "link": "#somebody-should"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%sQIkZkEV1uhL0uPCNiaOETxYVD8qF4jByFcftuDcWs0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "KM2INLphfCAK07nhmo0tl3+kO9eohEk/Bf7R4f9qlT1g6p+KchFcB18RcwJrgUhHkOe5HT7zS8ZJyfnwcz1xDQ==.sig.ed25519"
+  "signature": "QQRyUW/lnkKVd0Vb2xxqf9ih1WE5Sd6ukMauXtRQmlGynUQR0YuLf5x3FhFfztys+aVOUfNj4kegQ1wHaTJlBA==.sig.ed25519"
 }
