@@ -1,26 +1,30 @@
 {
-  "previous": "%O0IKVOu0AJzWSM8fdkbWzF+7+7AQL1dMBGcEaHaqpXY=.sha256",
-  "sequence": 10276,
+  "previous": "%iM80bYrSozCo9Q7dkjwpPo4gDy0rbok08fFIvx/TR90=.sha256",
+  "sequence": 10277,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558545600626,
+  "timestamp": 1558547281355,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%uSfP37YG/rjefpFEFxFvaCRuIjUF1ySC278MpqKk3UU=.sha256",
+    "root": "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256",
     "fork": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
-    "branch": "%uSfP37YG/rjefpFEFxFvaCRuIjUF1ySC278MpqKk3UU=.sha256",
+    "branch": "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256",
     "reply": {
-      "%uSfP37YG/rjefpFEFxFvaCRuIjUF1ySC278MpqKk3UU=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI forgot about that change! So many improvements since November, I wish I had a list of all the things that had changed throughout the stack. 📚",
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nYep! Even just filtering [commits since the last release](https://github.com/ssbc/patchwork/graphs/contributors?from=2018-11-09&to=2019-05-19&type=c) shows that the vast majority of this work came from [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519). 🚀\n\nI'm super interested in highlighting all of the work that's gone into this project but I'm not sure how to do it. Even the GitHub contributor list ignores the work completed in issues and pull requests, *especially* with all of the people who have been working on upstream modules.",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      },
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
       }
     ]
   },
-  "signature": "/3zcIDAfMySKuC2anr/lNWfFIpXVvJj9LchhD6mOZzA6mJmi8vQqnx0YeuxHJ7f7uKKTlXgYWaM+wgw+LbDSBg==.sig.ed25519"
+  "signature": "tXuVaHmjes5NuINaE2CVpMiEXepSOSNJNqCzNk+poclJjxXaZn/WpfSmUKoqRh3MR0IFvuKUOtnSAjwof0fcDQ==.sig.ed25519"
 }
