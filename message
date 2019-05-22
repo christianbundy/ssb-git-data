@@ -1,30 +1,35 @@
 {
-  "previous": "%iM80bYrSozCo9Q7dkjwpPo4gDy0rbok08fFIvx/TR90=.sha256",
-  "sequence": 10277,
+  "previous": "%u3EQV02vwdwgall8G6XTIhj3crMeXydsokf0WM9bDHw=.sha256",
+  "sequence": 10278,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558547281355,
+  "timestamp": 1558548613260,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256",
+    "root": "%PjPMpm7GCmJn8DrvcE1xvfJMDjdIL1yGaoHUxXCpA60=.sha256",
     "fork": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
-    "branch": "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256",
+    "branch": "%bUTtAVBdb9e334p7IzCLFJe32/aQ9HzIciqz7NC/rC0=.sha256",
     "reply": {
-      "%6EPCi6mCik1H/aEJgXCXmkshJ+mLEirpW+xElHvzaz8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+      "%PjPMpm7GCmJn8DrvcE1xvfJMDjdIL1yGaoHUxXCpA60=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+      "%bUTtAVBdb9e334p7IzCLFJe32/aQ9HzIciqz7NC/rC0=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nYep! Even just filtering [commits since the last release](https://github.com/ssbc/patchwork/graphs/contributors?from=2018-11-09&to=2019-05-19&type=c) shows that the vast majority of this work came from [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519). 🚀\n\nI'm super interested in highlighting all of the work that's gone into this project but I'm not sure how to do it. Even the GitHub contributor list ignores the work completed in issues and pull requests, *especially* with all of the people who have been working on upstream modules.",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nMy internal justification for focusing on *this* release is that it means anyone with write access to the Patchwork repo can now make new releases (🎉), but I also understand that it's a slippery slope and focusing only one step ahead makes it easier to lose your footing. I appreciate the reminder, I know it's easy to slip up and burn out.\n\nSincerely though, I feel like my work on deletion has been moving at a healthy pace and I feel *really good* about the all-around support that the Verse team is providing. The \"I've just got to get this release out\" marathon with Patchwork was a personal side-project where I felt it was super important to get Patchwork in a good state, but if you see me working on deletion / off-chain content / same-as / etc I promise I'm doing it in a healthy way.\n\nIf you see me opening pull requests in the middle of the night trying to shrink the Patchwork binaries then that's a different story... 😈 I don't anticipate that happening though.\n\nOne thing I'd love guidance on is how to help with triaging issues (e.g. [#1052](https://github.com/ssbc/patchwork/issues/1052)) -- Patchwork seems to operate as a canary for problems deeper into the stack (e.g. [multiserver#47](https://github.com/ssbc/multiserver/issues/47) from [patchwork#1035](https://github.com/ssbc/patchwork/issues/1035)) and I think it's important to respond to bug reports, but triaging everything seems to be *at least* a part-time job.\n\ncc: [@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) I think you're offline so you might not see this, but I wanted to explicit mention that I appreciate the bug report and you're doing everything right -- I used your issue as an example because it's the one I have open and I know you'll understand I'm talking about issues *in general*, not just yours. ❤",
     "mentions": [
       {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
       },
       {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
       }
     ]
   },
-  "signature": "tXuVaHmjes5NuINaE2CVpMiEXepSOSNJNqCzNk+poclJjxXaZn/WpfSmUKoqRh3MR0IFvuKUOtnSAjwof0fcDQ==.sig.ed25519"
+  "signature": "0RsRZ9A3JJUvq1CB5K1/tm9sZEZxZ0jMlOuyk7LhhqnykqSTbEaGVNZ6kcTO6Zg3REpfeh9eomw/Fd+NY3JHAw==.sig.ed25519"
 }
