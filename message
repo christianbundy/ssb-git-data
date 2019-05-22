@@ -1,35 +1,17 @@
 {
-  "previous": "%u3EQV02vwdwgall8G6XTIhj3crMeXydsokf0WM9bDHw=.sha256",
-  "sequence": 10278,
+  "previous": "%VRMqDjJDcMy+t4pjzZUmt8biWcFyBUJZxKqYcdYcSCs=.sha256",
+  "sequence": 10279,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558548613260,
+  "timestamp": 1558548836771,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PjPMpm7GCmJn8DrvcE1xvfJMDjdIL1yGaoHUxXCpA60=.sha256",
-    "fork": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
-    "branch": "%bUTtAVBdb9e334p7IzCLFJe32/aQ9HzIciqz7NC/rC0=.sha256",
-    "reply": {
-      "%PjPMpm7GCmJn8DrvcE1xvfJMDjdIL1yGaoHUxXCpA60=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-      "%bUTtAVBdb9e334p7IzCLFJe32/aQ9HzIciqz7NC/rC0=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nMy internal justification for focusing on *this* release is that it means anyone with write access to the Patchwork repo can now make new releases (🎉), but I also understand that it's a slippery slope and focusing only one step ahead makes it easier to lose your footing. I appreciate the reminder, I know it's easy to slip up and burn out.\n\nSincerely though, I feel like my work on deletion has been moving at a healthy pace and I feel *really good* about the all-around support that the Verse team is providing. The \"I've just got to get this release out\" marathon with Patchwork was a personal side-project where I felt it was super important to get Patchwork in a good state, but if you see me working on deletion / off-chain content / same-as / etc I promise I'm doing it in a healthy way.\n\nIf you see me opening pull requests in the middle of the night trying to shrink the Patchwork binaries then that's a different story... 😈 I don't anticipate that happening though.\n\nOne thing I'd love guidance on is how to help with triaging issues (e.g. [#1052](https://github.com/ssbc/patchwork/issues/1052)) -- Patchwork seems to operate as a canary for problems deeper into the stack (e.g. [multiserver#47](https://github.com/ssbc/multiserver/issues/47) from [patchwork#1035](https://github.com/ssbc/patchwork/issues/1035)) and I think it's important to respond to bug reports, but triaging everything seems to be *at least* a part-time job.\n\ncc: [@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) I think you're offline so you might not see this, but I wanted to explicit mention that I appreciate the bug report and you're doing everything right -- I used your issue as an example because it's the one I have open and I know you'll understand I'm talking about issues *in general*, not just yours. ❤",
-    "mentions": [
-      {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "luandro"
-      }
-    ]
+    "type": "vote",
+    "channel": "myco",
+    "vote": {
+      "link": "%PYqmmzusLahLAtZd7uUJxRFx2WsmQikpObAB5C61NBA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "0RsRZ9A3JJUvq1CB5K1/tm9sZEZxZ0jMlOuyk7LhhqnykqSTbEaGVNZ6kcTO6Zg3REpfeh9eomw/Fd+NY3JHAw==.sig.ed25519"
+  "signature": "s9yw/59cBS2C6OYDkgO0qs7sIaBCFqSMaNeHdp8wfEddqvDepnIvhLqt6YaCuPLfvyGDnj4/wbyUYldVLt9nAA==.sig.ed25519"
 }
