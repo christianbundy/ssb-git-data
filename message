@@ -1,17 +1,26 @@
 {
-  "previous": "%WelUaAAbU6bAu1uS2tE3URF81RB48f7+dFEupnr4vWg=.sha256",
-  "sequence": 10243,
+  "previous": "%xf9T38inHQ+tU3oxjrsOpUKG/M+FJfEsPq59cwki1V0=.sha256",
+  "sequence": 10244,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558481892844,
+  "timestamp": 1558483681461,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ledger-eu",
-    "vote": {
-      "link": "%CCDA42Ib8G5UYTktWKOMMWxKtikTgiQJcHHg3FwLseU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%/00M2oh5wpvcNWZt7SPXRID9XY3PL180lcGULcLBi1k=.sha256",
+    "branch": "%0ZWV5g1b9LtdCFD159QjAi+ESbt6GXCMB8MvD54Zqfs=.sha256",
+    "reply": {
+      "%/00M2oh5wpvcNWZt7SPXRID9XY3PL180lcGULcLBi1k=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+      "%0ZWV5g1b9LtdCFD159QjAi+ESbt6GXCMB8MvD54Zqfs=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519)\n\nUsually.\n\nI'm having a hard time forming words around my thoughts, but I think of adults as people who end up with unplanned responsibilities. Sometimes being an adult means changing batteries or cleaning up cat vomit, sometimes it means dropping what you're doing to do a favor for someone, and sometimes it means dealing with emergencies and other big stuff when nobody else is stepping forward to handle it.\n\nI don't know which factors about a situation or relationship make me feel like an adult (or not), but it's always very clear in the moment whether I'm an adult or whether I'm just a kid who should do what they're told. I'd be curious whether others feel the same way.",
+    "mentions": [
+      {
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "kathleen"
+      }
+    ]
   },
-  "signature": "LyAzGkpzG71BYfOK0YGq29kxhuQfV/Mj85l8KFv5AW2xRQfFfhMkSiRjkURMrrxwjI+q1RzzgZC9W3uWC+eADQ==.sig.ed25519"
+  "signature": "93hOD8LqiNlk7YYcCzEk01BSlz1lvrRqW4Vr/Qx70Qt1EKl37kmRX0LmB+xq3Ufjeq+tbUv5JoqQB6ZegttFCw==.sig.ed25519"
 }
