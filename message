@@ -1,26 +1,26 @@
 {
-  "previous": "%ASI3kQuIkkoPIuikpmS5XLqbRxShL+9hHcSfrvB7upI=.sha256",
-  "sequence": 10282,
+  "previous": "%UJKOcI/WIr66La73nkUm8dPLNX9yUZBonw0VkAgx/B0=.sha256",
+  "sequence": 10283,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558549224162,
+  "timestamp": 1558549319238,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256",
-    "fork": "%vCSMgJzJrRlrT/6hK24Ucf0XJGl1k5u9HUAFRaNBEmc=.sha256",
-    "branch": "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256",
+    "root": "%qDmbsPTxt2OkJvsE7K6w5zk7+jWBSq5Uoq5qTZaMGZk=.sha256",
+    "branch": "%lloiLn7nSmCkJpIQ3uLIZxJBH88rxHpvAMVmYWAo1h8=.sha256",
     "reply": {
-      "%butTJ4t2nI2IhX7LS2I4QE3ovgDWbO8rnKXnAFlr8v4=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+      "%qDmbsPTxt2OkJvsE7K6w5zk7+jWBSq5Uoq5qTZaMGZk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%lloiLn7nSmCkJpIQ3uLIZxJBH88rxHpvAMVmYWAo1h8=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
     },
-    "channel": "cryptography",
+    "channel": null,
     "recps": null,
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nThanks for all the context! Do you know whether sodium-universal would work as a drop-in replacement for chloride or does chloride make changes to the libsodium API?",
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\n...oh, I'm on the latest cabal-desktop release, v1.0.8, which looks to have been released in December. Is there another client I should be trying out instead, or do I need to build from source?",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
       }
     ]
   },
-  "signature": "TuUV6rQwAA79J8yUnzW5wV4G6jSoXOPdTwTo46YMKZMMIW77fZbAHraIsjRHDNhSq7F19FHGdxfVKKgdBt3SAg==.sig.ed25519"
+  "signature": "6JTZiHvJj7h4HSjtC3tKCkZvkPWXcZtnBFJjDOt5/ORJ5E3yX7umvnVKNHSerHBFkiy+1EqADmo6yI+XO/t7AQ==.sig.ed25519"
 }
