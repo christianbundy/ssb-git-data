@@ -1,17 +1,27 @@
 {
-  "previous": "%7nFbOmiu/QMghp1eT361r24S3sELSuRqKeAJXjoD+4I=.sha256",
-  "sequence": 10313,
+  "previous": "%TRsBJB/7PHzk2EX51DgmgrX//geu8bVkVNu8tIAKiuo=.sha256",
+  "sequence": 10314,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558742859119,
+  "timestamp": 1558742996127,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dev-diaries",
-    "vote": {
-      "link": "%FuUKT956H94XFrZ5/cvvnppjs+tFDeOLZksfIbP3r5A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ZTZn+yji0rxaGimqMmjeN7jIMjhfZpf4g4cdKicp06E=.sha256",
+    "fork": "%zQEsDft3WQM/eoiG3oqzmDpyasmiEOjq1GCfftwhZ6E=.sha256",
+    "branch": "%qjHUim4YXq6gxOQ3AlAMjd7P8lBfbHD9Sp4llRkbTBU=.sha256",
+    "reply": {
+      "%ZTZn+yji0rxaGimqMmjeN7jIMjhfZpf4g4cdKicp06E=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+      "%qjHUim4YXq6gxOQ3AlAMjd7P8lBfbHD9Sp4llRkbTBU=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519) \n\nYes! That's really great to hear. I fixed a [multiserver bug](https://github.com/ssbc/multiserver/pull/48) and Patchwork is currently using an [ssb-config workaround](https://github.com/ssbc/ssb-config/pull/53), but I'm hoping that once [the full fix](https://github.com/ssbc/multiserver/pull/49) is merged we won't need the workaround and SSB replication will work way more smoothly. I'm hoping other clients get these fixes soon too!",
+    "mentions": [
+      {
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      }
+    ]
   },
-  "signature": "A+oAsQAHgTQQzI8HtUkdmSteROcR8q+afzl0s9EimcibDl+ufK+lA20EOMPlaygao4GdBiSDsFPkM+gSOsOwBg==.sig.ed25519"
+  "signature": "Jwa/fGYRANKGLnqI+Wp2FwbmgHlxMnhNXhTBB1nHFJfd0n94RZWZoUyt0Md++3uYR01ebP5WlYfFox4bdwO6DQ==.sig.ed25519"
 }
