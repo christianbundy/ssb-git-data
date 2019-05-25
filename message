@@ -1,17 +1,26 @@
 {
-  "previous": "%esayHtufJjXUFAnMQWPfPCyV2pg3XEAqOqc7PtTsueU=.sha256",
-  "sequence": 10316,
+  "previous": "%uMd1IU4HtSRh+hTWALKR9aOp85wlo90Tiaret46Sv38=.sha256",
+  "sequence": 10317,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558743007775,
+  "timestamp": 1558743173345,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%d4PDmcyH6AmGaY8vONw0M1S+8AzHjD7IekNiAIJstBU=.sha256",
+    "branch": "%D33+PDTG20fbeImEQHqrrYt+i64R9grSiUbAAKCKF/M=.sha256",
+    "reply": {
+      "%d4PDmcyH6AmGaY8vONw0M1S+8AzHjD7IekNiAIJstBU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%D33+PDTG20fbeImEQHqrrYt+i64R9grSiUbAAKCKF/M=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%D33+PDTG20fbeImEQHqrrYt+i64R9grSiUbAAKCKF/M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\nThanks, I'd be super interested to hear what everyone is using. When I gave up on using the same password everywhere I started using password generators (and password managers) religiously, so I was surprised that Firefox saved but didn't generate them. It's open source so I *could* build it myself, but I'd rather have one that was maintained by a team I trust.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "87R+JyiEj9wlitNt2zHktjb6k8YRaKOso2TGuWaOs49L9z0l+VpikJGO4dMknTFQ2qCpJbvxc6jKMbPVQhxhCw==.sig.ed25519"
+  "signature": "vHFMkrmJf3y+Fm84Y2g80qcCEZ1nB+TrsepoUGyvoDlD9GJNUn+bzBL0vuahjASFT1IanJzCa28dKrzK8+t7Ag==.sig.ed25519"
 }
