@@ -1,16 +1,25 @@
 {
-  "previous": "%sWR+Zr8JV+23iSc6YJRCrR7Nt1x6R2056usDEqU05WE=.sha256",
-  "sequence": 10330,
+  "previous": "%zdcK4+dtDIg3Gz2GSXqnL3m2zcsKcgLx3aZOQHidyIY=.sha256",
+  "sequence": 10331,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558834195828,
+  "timestamp": 1558834265710,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9StzrgPkgAdM5bwJKSYdbPuGHI31P2XPZ1Li+XaNOOE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Qi5/YpsDDrilRXHYQqBu1ocKrsGme9932QnS1E+Ue2o=.sha256",
+    "branch": "%Qi5/YpsDDrilRXHYQqBu1ocKrsGme9932QnS1E+Ue2o=.sha256",
+    "reply": {
+      "%Qi5/YpsDDrilRXHYQqBu1ocKrsGme9932QnS1E+Ue2o=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nIIRC this is one of the really nice improvements that you get by using Matrix instead of IRC, is that right?",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "ToYC6i5ANu7sWGpcnu5rOYPlIIt/z//JRXziVumDiLdfjaFHmAF8WpLRjk9DcPP8O3WaKOQARr62wECTnQzkBw==.sig.ed25519"
+  "signature": "iYlKt/K4Kudbl5CSRqBZ7blIsynDNMfqcFOAxvtOMNj9omdF/86McDOAIpGeHOADUO1UuyU9km7s0Mkp7qWfBA==.sig.ed25519"
 }
