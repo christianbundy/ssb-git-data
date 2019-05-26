@@ -1,16 +1,25 @@
 {
-  "previous": "%+OY3FkjtRO2p2anqL/ETZH1JJiX+tMv/JI9imdDeyVo=.sha256",
-  "sequence": 10328,
+  "previous": "%H45jipGUPqI2HCKC16SkGrEfaa1KWX9lr/ZPItpmOKs=.sha256",
+  "sequence": 10329,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558830684342,
+  "timestamp": 1558833839996,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%dmtU2/v05l0NeyQvuGWXxc6Aqe921xqt/df0gvfCoSo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9StzrgPkgAdM5bwJKSYdbPuGHI31P2XPZ1Li+XaNOOE=.sha256",
+    "branch": "%9StzrgPkgAdM5bwJKSYdbPuGHI31P2XPZ1Li+XaNOOE=.sha256",
+    "reply": {
+      "%9StzrgPkgAdM5bwJKSYdbPuGHI31P2XPZ1Li+XaNOOE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nThat's so cool! I tried using their form but it said:\n\n> Failed to send your message. Please try later or contact administrator by other way.\n\nIs everyone else getting the same error?",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "y4Z0wFKvID5AjrQ84VcqkwLdaRggRoF1Nf1LLe1ctMr3NT/XS0Ht391YphRmENtGChUQvQDInGghkn7ZL9ljBA==.sig.ed25519"
+  "signature": "fTRowI+mJUyYL+PDjoMYvv9MSawRODDbG2UlGq9bQ7EhBLNk3ug1KKSNZRhcYIRXUxw1+mVG8vCbhI4oYPCyCw==.sig.ed25519"
 }
