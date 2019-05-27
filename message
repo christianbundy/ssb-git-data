@@ -1,26 +1,17 @@
 {
-  "previous": "%u/aVnmypVVfKGiasbRueigq56IMehfAF5c4JmfAkaJ0=.sha256",
-  "sequence": 10335,
+  "previous": "%OHZ3LbpwY03Ps56Gw5syseWCEkEkT6EuKVg0g+X3v3A=.sha256",
+  "sequence": 10336,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558905700594,
+  "timestamp": 1558969494649,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%g8qzDqq+tjsk2IQCIMgdWvMb3q1CNw1DTdM6NvLgimk=.sha256",
-    "branch": "%t1fnJajQ/tNlaVlTHcb35HZEqhVHFc3kcX1kwcTvawU=.sha256",
-    "reply": {
-      "%g8qzDqq+tjsk2IQCIMgdWvMb3q1CNw1DTdM6NvLgimk=.sha256": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
-      "%t1fnJajQ/tNlaVlTHcb35HZEqhVHFc3kcX1kwcTvawU=.sha256": "@o3eDT3n9urv1cyIWDuF+wQHBFj3I8OcE3L4Tla9RR8A=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@Rabble](@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519) \n\nI'd love this. I think the simplest option would be to use TLS with a client certificate, that way both parties can authenticate  ed25519 keys over HTTP without having to use any experimental standards. Looks like it's [supported by TLS 1.3](https://tools.ietf.org/html/draft-ietf-curdle-pkix-07) and recently got [merged into golang](https://github.com/golang/go/commit/f35338582d0e0e7047fa45be3cb8064c43c50f25). 👀",
-    "mentions": [
-      {
-        "link": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
-        "name": "Rabble"
-      }
-    ]
+    "vote": {
+      "link": "%s/aV3Kepjbf/EOe30ixOQTsoQuNYjrbftyVLlsumjSM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "DgOX3z/FCLnN8vhDQTJ0+9i5xz5hOdNxDYACTiI12M2BhdxD0LTPsFn9D8+cFqdQXw74eNIqUfMzkUnE4feVCg==.sig.ed25519"
+  "signature": "0fZhrYEWqw2NgxZKkXieUTrRJZAeeMd/2BHypxdiSBLALV5gxo6FDX8erwAJ4Tl0oMBfX/hiviVUz2cgP8apDA==.sig.ed25519"
 }
