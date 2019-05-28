@@ -1,16 +1,29 @@
 {
-  "previous": "%+9vfo72KoN7F44nDR8B1pXduiBunpkSBPdYnRXCpHBI=.sha256",
-  "sequence": 10348,
+  "previous": "%ODbkFDXGqMz0kORI/eElbYuD80y93q7ULejJUmYflq4=.sha256",
+  "sequence": 10349,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559068579609,
+  "timestamp": 1559070444290,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Mo6dFJatmpHl+zO7lOwoMHKWqkUakk++Ult7fFcSlj0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
+    "branch": "%aIvZLrVDVHqOh5Ll+I9msQVaMRzGsAsLMd0GXMtU80k=.sha256",
+    "reply": {
+      "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%aIvZLrVDVHqOh5Ll+I9msQVaMRzGsAsLMd0GXMtU80k=.sha256": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@miles](@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519) \n\nCool! I'm working on something similar with #offchain-content, we should chat about this more sometime. Being able to delete one of your own messages depends on content being detached from the feed, so I'm thoroughly convinced that this is the future of Scuttlebutt.\n\n> DHT like things (such as dat) are more efficient at actually distributing the content\n\nI think there are probably use-cases where Scuttlebutt is more efficient (especially with EBT), but I don't see any reason these things couldn't be built into Dat/etc instead. I'm guess I'm sort of bummed at the lack of overlap between Dat and Scuttlebutt and ActivityStreams and *all of the cool things our friends are building*, especially given the social and ideological intersections we share. It feels funky to work in parallel with these other projects on solving the same problems, so I'm excited at the idea of cooperating rather than competing.",
+    "mentions": [
+      {
+        "link": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519",
+        "name": "miles"
+      },
+      {
+        "link": "#offchain-content"
+      }
+    ]
   },
-  "signature": "RqHVYRj+o9eA5vVNL7R6fjca9BafpNldNXPDZIIKQ65xmlgegaYR+uCC9hPk4IEXoZP/6oGQcEUsER/PmkmhDw==.sig.ed25519"
+  "signature": "uz37cXVt04gjEobL9nhv0nv3JncQnfbwP/Sp45KVDgioH3iYU/4ra/7WylVRM1OWaClyivtZCEy4usorMDz4Dw==.sig.ed25519"
 }
