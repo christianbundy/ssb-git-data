@@ -1,22 +1,21 @@
 {
-  "previous": "%XXr4eLtgrV1x0GiTNsmNOpiQRiJLYkY6hda6bxdEXiA=.sha256",
-  "sequence": 10339,
+  "previous": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
+  "sequence": 10340,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559010771951,
+  "timestamp": 1559013835638,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# What the hell is Scuttlebutt?\n\nI've been spending a lot of time around the edges of Scuttlebutt, where we interface with the filesystem / network / human, and I've started to wonder where (and how!) we draw our boundaires. I've been working on a plugin that uses Dat for feed replication and it's been coming along very nicely, but I'm starting to wonder whether I'm working on Scuttlebutt or *something else*.\n\nThis is mostly just the [ship of Theseus](Ship_of_Theseus) all over again, but I feel like pulling on this thread is bringing me somewhere interesting. We could use Dat for our database and replication, build on the ActivityStreams vocab for message semantics, or switch away from our custom JSON signature scheme, but I'm not clear on how much backward-compatibility we need before we've wandered into new territory.\n\n**Put another way: how do we decide *as a community* when and how things are deprecated?** Small changes (like [Markdown newlines](%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256)) break backward-compatibility with what the author intended, which should be avoided, but I'm concerned that we don't have a way to deprecate interfaces that are exposed to peers (like [`createHistoryStream()`](%Y+aKbG1M6S6f1SJt/9oss6CeZqsMeaPGXlnTV/NJdRk=.sha256)). I feel confident that we'll be able to resolve these things as a community, but I'm feeling some ambiguity and would love to explore how we draw the boundaries around the moving target that is Scuttlebutt.\n\n❤\n\n[Ship_of_Theseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus",
-    "mentions": [
-      {
-        "link": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256",
-        "name": "Markdown newlines"
-      },
-      {
-        "link": "%Y+aKbG1M6S6f1SJt/9oss6CeZqsMeaPGXlnTV/NJdRk=.sha256",
-        "name": "createHistoryStream()"
-      }
-    ]
+    "root": "%a+z/8aQIDZVJHDmaNQBliuAoeUustTLnFKRCuoqY6+o=.sha256",
+    "branch": "%uWDOo4xmEnbK+kuF9KUgI88UHHK9UQWl5rMkzfdrMuU=.sha256",
+    "reply": {
+      "%a+z/8aQIDZVJHDmaNQBliuAoeUustTLnFKRCuoqY6+o=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%uWDOo4xmEnbK+kuF9KUgI88UHHK9UQWl5rMkzfdrMuU=.sha256": "@0aMznTCPe2g2g3IR9LEJKj4pzM0mjIvuzUJeBfc5k6g=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I should have read this thread before clicking.\n\nSpoiler: it's a penis.",
+    "mentions": []
   },
-  "signature": "+IwRapE3nLcyqmYBGsjd8j1yG4S4WQMzJHx4SMEMmk1bq7g8sJdt5OeB4rK48QfbH19c+rtWdyX6rvTOM2jPDg==.sig.ed25519"
+  "signature": "XgZuAE4+GNnKEa7pTdzvpgPGegYSLaZzwQL1gRcIOfwLF1JJWFpVAl8Ui5isuwKkZW0riAUlE9hifaoEQNcnAA==.sig.ed25519"
 }
