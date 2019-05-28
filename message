@@ -1,26 +1,22 @@
 {
-  "previous": "%R/MizSUTOQZB8JNDDxy6bYdcM33WtsQwmfy7kbSCm2U=.sha256",
-  "sequence": 10338,
+  "previous": "%XXr4eLtgrV1x0GiTNsmNOpiQRiJLYkY6hda6bxdEXiA=.sha256",
+  "sequence": 10339,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1558997689704,
+  "timestamp": 1559010771951,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%OcYAnXVecICDjQBpj1QXGCz1il91a85hMjEJmgBifnE=.sha256",
-    "fork": "%A4RCbayBuwjslAIiTrQSA1xgMsSYI3Ru3gX3NB5NcdA=.sha256",
-    "branch": "%OcYAnXVecICDjQBpj1QXGCz1il91a85hMjEJmgBifnE=.sha256",
-    "reply": {
-      "%OcYAnXVecICDjQBpj1QXGCz1il91a85hMjEJmgBifnE=.sha256": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@greg](@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519) \n\nSide-note: it doesn't look to me like the Flathub package is being maintained (see [#2](https://github.com/flathub/nz.scuttlebutt.Patchwork/issues/2)), so if possible I'd recommend using the AppImage or Snappy package.",
+    "text": "# What the hell is Scuttlebutt?\n\nI've been spending a lot of time around the edges of Scuttlebutt, where we interface with the filesystem / network / human, and I've started to wonder where (and how!) we draw our boundaires. I've been working on a plugin that uses Dat for feed replication and it's been coming along very nicely, but I'm starting to wonder whether I'm working on Scuttlebutt or *something else*.\n\nThis is mostly just the [ship of Theseus](Ship_of_Theseus) all over again, but I feel like pulling on this thread is bringing me somewhere interesting. We could use Dat for our database and replication, build on the ActivityStreams vocab for message semantics, or switch away from our custom JSON signature scheme, but I'm not clear on how much backward-compatibility we need before we've wandered into new territory.\n\n**Put another way: how do we decide *as a community* when and how things are deprecated?** Small changes (like [Markdown newlines](%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256)) break backward-compatibility with what the author intended, which should be avoided, but I'm concerned that we don't have a way to deprecate interfaces that are exposed to peers (like [`createHistoryStream()`](%Y+aKbG1M6S6f1SJt/9oss6CeZqsMeaPGXlnTV/NJdRk=.sha256)). I feel confident that we'll be able to resolve these things as a community, but I'm feeling some ambiguity and would love to explore how we draw the boundaries around the moving target that is Scuttlebutt.\n\n❤\n\n[Ship_of_Theseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus",
     "mentions": [
       {
-        "link": "@JoiN9c9+xO0jgu0gg5yflTf+L1peLTBneFHjrKbmcKo=.ed25519",
-        "name": "greg"
+        "link": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256",
+        "name": "Markdown newlines"
+      },
+      {
+        "link": "%Y+aKbG1M6S6f1SJt/9oss6CeZqsMeaPGXlnTV/NJdRk=.sha256",
+        "name": "createHistoryStream()"
       }
     ]
   },
-  "signature": "oWZ+HGlDqJhtIiqn0pwxVGgy5qriEcQEj7uSMxBco+jFldMFLHtUmAzJIEUTO8UDExJpTBme73x0JhXr9YNYCg==.sig.ed25519"
+  "signature": "+IwRapE3nLcyqmYBGsjd8j1yG4S4WQMzJHx4SMEMmk1bq7g8sJdt5OeB4rK48QfbH19c+rtWdyX6rvTOM2jPDg==.sig.ed25519"
 }
