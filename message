@@ -1,29 +1,25 @@
 {
-  "previous": "%ODbkFDXGqMz0kORI/eElbYuD80y93q7ULejJUmYflq4=.sha256",
-  "sequence": 10349,
+  "previous": "%S+fFITPAXegEckvgdJuHWNIOvXPGQCTkgCNz/B0ULnU=.sha256",
+  "sequence": 10350,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559070444290,
+  "timestamp": 1559081643284,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
-    "branch": "%aIvZLrVDVHqOh5Ll+I9msQVaMRzGsAsLMd0GXMtU80k=.sha256",
+    "root": "%m9jw8z2sH0+zTNLZ8EgbynMMFSLeiMrmiHSIGQqTibk=.sha256",
+    "branch": "%m9jw8z2sH0+zTNLZ8EgbynMMFSLeiMrmiHSIGQqTibk=.sha256",
     "reply": {
-      "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%aIvZLrVDVHqOh5Ll+I9msQVaMRzGsAsLMd0GXMtU80k=.sha256": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519"
+      "%m9jw8z2sH0+zTNLZ8EgbynMMFSLeiMrmiHSIGQqTibk=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@miles](@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519) \n\nCool! I'm working on something similar with #offchain-content, we should chat about this more sometime. Being able to delete one of your own messages depends on content being detached from the feed, so I'm thoroughly convinced that this is the future of Scuttlebutt.\n\n> DHT like things (such as dat) are more efficient at actually distributing the content\n\nI think there are probably use-cases where Scuttlebutt is more efficient (especially with EBT), but I don't see any reason these things couldn't be built into Dat/etc instead. I'm guess I'm sort of bummed at the lack of overlap between Dat and Scuttlebutt and ActivityStreams and *all of the cool things our friends are building*, especially given the social and ideological intersections we share. It feels funky to work in parallel with these other projects on solving the same problems, so I'm excited at the idea of cooperating rather than competing.",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) \n\nWow. A few minutes of scrolling through that hashtag makes it look super serious -- any resources you could recommend to get a zoomed-out perspective on the problem? My understanding is that too much rain means you can't plant corn (?) but I'd rather read from someone with more knowledge / experience.",
     "mentions": [
       {
-        "link": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519",
-        "name": "miles"
-      },
-      {
-        "link": "#offchain-content"
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
       }
     ]
   },
-  "signature": "uz37cXVt04gjEobL9nhv0nv3JncQnfbwP/Sp45KVDgioH3iYU/4ra/7WylVRM1OWaClyivtZCEy4usorMDz4Dw==.sig.ed25519"
+  "signature": "Yold0A4ZB2NJe0hxCkbnnMYaMkbNDXSs/q0HkCfXesz7uPsUGSSipFrcoWoeCsUj8FuY3mqeZYhcxqOeRzu5DA==.sig.ed25519"
 }
