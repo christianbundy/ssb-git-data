@@ -1,17 +1,36 @@
 {
-  "previous": "%ERkVHtEx8RdZR0N9SDVRDKXOaChIcbZFDz6Pf9LcfI0=.sha256",
-  "sequence": 10360,
+  "previous": "%OQtwWRIE5FwMhls8H7TnFvGBXh46Rvk/T90mwSYHZM0=.sha256",
+  "sequence": 10361,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559098012998,
+  "timestamp": 1559098846471,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "mental-health",
-    "vote": {
-      "link": "%uIssAewdFjcWNTmLrz4fCkAsIynsdQUCEHDAR17zcJQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%WyDUKiPFQgKTRaBM7Fjl+COBRqV2xBOBJZw8kVoV4ss=.sha256",
+    "branch": "%QHGIM7veB/ldZVEXLE+wIQPHbaeUD/Deb4Q5PdaZUSs=.sha256",
+    "reply": {
+      "%WyDUKiPFQgKTRaBM7Fjl+COBRqV2xBOBJZw8kVoV4ss=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%QHGIM7veB/ldZVEXLE+wIQPHbaeUD/Deb4Q5PdaZUSs=.sha256": "@KpPLISvjzw8CkoWOJ3zKXBgPtNDuzUgfyGbJEfbJ4H8=.ed25519"
+    },
+    "channel": "16personalities",
+    "recps": null,
+    "text": "FWIW: https://www.16personalities.com/infp-personality\n\n![Screenshot from 2019-05-28 19-59-07.png](&5zUaGGBclS3RAEKzySokrkW/dc+QllHQoYRJYRCIP1s=.sha256)\n\nFound this thread from [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)'s comment [here](%Mu6bU9hXSmj7JOjdUkt8DSBfGpEZw/dnJu1iEIzkShY=.sha256).",
+    "mentions": [
+      {
+        "link": "&5zUaGGBclS3RAEKzySokrkW/dc+QllHQoYRJYRCIP1s=.sha256",
+        "name": "Screenshot from 2019-05-28 19-59-07.png",
+        "type": "image/png",
+        "size": 122742
+      },
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "%Mu6bU9hXSmj7JOjdUkt8DSBfGpEZw/dnJu1iEIzkShY=.sha256",
+        "name": "here"
+      }
+    ]
   },
-  "signature": "dVouBlMV+XoYqOt3uFmn/WW43LlsQ4hDBrmX/5jysEkXh/+7/FU3k1WdxR3ewj468ExBDMwZr/Io6VaMxdnTCg==.sig.ed25519"
+  "signature": "RZuV6SljKnIOIlBFXk26kAb68O+WvACrDYFNL5T/xsR9S2shqqh1Lrpy+EXtJXWGtD2HJuyN0aPo0lC2irfPCA==.sig.ed25519"
 }
