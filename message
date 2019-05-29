@@ -1,33 +1,17 @@
 {
-  "previous": "%cKmtHSer7KM06WqwJZ6QT7itulWgj0+dqu3UKwk0c+0=.sha256",
-  "sequence": 10378,
+  "previous": "%DDaR7Pmyd6cmYONG2sucY0PAF/W74gGKM+gzbuwaxg4=.sha256",
+  "sequence": 10379,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559148421906,
+  "timestamp": 1559148546291,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%mcGR4hcYmcrIJuuzJGo/gIxStnJWkraScoxHCvWilgU=.sha256",
-    "branch": "%mcGR4hcYmcrIJuuzJGo/gIxStnJWkraScoxHCvWilgU=.sha256",
-    "reply": {
-      "%mcGR4hcYmcrIJuuzJGo/gIxStnJWkraScoxHCvWilgU=.sha256": "@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519"
-    },
-    "channel": "bug",
-    "recps": null,
-    "text": "[@andreas](@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519) \n\nSorry you're running into that bug, that sucks. Is that the same bug [@jeremy](@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519) mentioned [here](%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256)? If you have a GitHub account I'd love if you could post an issue there.",
-    "mentions": [
-      {
-        "link": "@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519",
-        "name": "andreas"
-      },
-      {
-        "link": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519",
-        "name": "jeremy"
-      },
-      {
-        "link": "%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256",
-        "name": "here"
-      }
-    ]
+    "type": "vote",
+    "channel": "flume",
+    "vote": {
+      "link": "%2vdZ3gR5YybEy/GBvolC+dexVkASKPo49XiJ3EQxehc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "2giUhP/9FmtqqVif60a03ggscdmWXJ3PyCAotvzkznWdCoYsbdtz2r296otYHQ+TpSgvU+vIS1uvfVZr8aLaDQ==.sig.ed25519"
+  "signature": "dng3N87xlIw4I2wgjpejStPVUreKsRZRmvXozQNcPpzIq8oQu3xWY5osExwTCMgc7Be20n9Hcif+e82oA1uWDw==.sig.ed25519"
 }
