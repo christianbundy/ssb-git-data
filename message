@@ -1,33 +1,17 @@
 {
-  "previous": "%tFVGz4BX7HMXSdXPL7WT2Mt3I1nxPFoM+BZrPcPGpEs=.sha256",
-  "sequence": 10363,
+  "previous": "%Ru89R5WOg500cTvA9sDD9464tmYJpplbDnLFWZvIvKo=.sha256",
+  "sequence": 10364,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559102370337,
+  "timestamp": 1559111673840,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%UmAIU5g7VIrKJy5MzFzb3SbOrsQewOAg9kkvCm67Krc=.sha256",
-    "fork": "%dy+nnhB/oBIlTyc4T6EEXEJYMtWi3rm0ykX8QQl762o=.sha256",
-    "branch": "%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256",
-    "reply": {
-      "%UmAIU5g7VIrKJy5MzFzb3SbOrsQewOAg9kkvCm67Krc=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-      "%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@jeremy](@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519) \n\nI've got it working with Patchwork 3.12.0 running as a background server, though I'm running from [`master`](https://github.com/stripedpajamas/ssb-chat-core). Also, `npm install` was failing so I tried yarn and it worked perfectly. Weird. I've included my `yarn.lock` in case that's helpful.\n\n [yarn.lock](&UCiHvq0ai4Urk4ng8dRSfyEzq+VNUtcdmu3cwC2OPzI=.sha256) ",
-    "mentions": [
-      {
-        "link": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519",
-        "name": "jeremy"
-      },
-      {
-        "link": "&UCiHvq0ai4Urk4ng8dRSfyEzq+VNUtcdmu3cwC2OPzI=.sha256",
-        "name": "yarn.lock",
-        "type": "application/octect-stream",
-        "size": 223984
-      }
-    ]
+    "type": "vote",
+    "channel": "16personalities",
+    "vote": {
+      "link": "%m00AdEWbxv6OxxeOzo2kT6gTlhxZ9LL25R3GVm6tH3A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ajVRx1KIazKB30BPY3KvuB1mDkyvEZEBPqCtirxMA792orhCpE/v2Hm0s/yakXkASAGZ6U9EmJRFoyWoyrigCQ==.sig.ed25519"
+  "signature": "/pAZDHKpa8xM/fsaDzHoN8xJp/wF6+nnwk1NSy8ZIUKadfAJSknUFE3cn/YAEi1MY2EHCQNiiwMTxax1lRCOAw==.sig.ed25519"
 }
