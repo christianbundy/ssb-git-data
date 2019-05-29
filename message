@@ -1,16 +1,35 @@
 {
-  "previous": "%1Xj42BuFFD0anhvwwptKQHhL+4ZsjlhG73G1zCJrKIA=.sha256",
-  "sequence": 10368,
+  "previous": "%pnM1AFMZBGpgPA5EVJ3zADY7bEuQXFqD2H1nR1q/5Bw=.sha256",
+  "sequence": 10369,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559112116278,
+  "timestamp": 1559114717633,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ezis1+AuM2YGZIqrPJtSWlRxdpZCUG21c4Gc/KrS2mI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ru89R5WOg500cTvA9sDD9464tmYJpplbDnLFWZvIvKo=.sha256",
+    "fork": "%UmAIU5g7VIrKJy5MzFzb3SbOrsQewOAg9kkvCm67Krc=.sha256",
+    "branch": "%nJo2xtGBmjVfCQWt6gM9RpuLIXoC6obHXaH/oSaY7po=.sha256",
+    "reply": {
+      "%Ru89R5WOg500cTvA9sDD9464tmYJpplbDnLFWZvIvKo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%nJo2xtGBmjVfCQWt6gM9RpuLIXoC6obHXaH/oSaY7po=.sha256": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jeremy](@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519)\n\nThat's very strange. If you're still looking for a chat app, I'd echo [@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)'s [recommendation](%bGQnWGTSEi33y9HsQK7tHi+K1CphdTLDBHv9QyFCb0o=.sha256) to try out [Cabal](https://cabal-club.github.io/). I've been really enjoying both the TUI and Electron GUI. ",
+    "mentions": [
+      {
+        "link": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519",
+        "name": "jeremy"
+      },
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "%bGQnWGTSEi33y9HsQK7tHi+K1CphdTLDBHv9QyFCb0o=.sha256",
+        "name": "recommendation"
+      }
+    ]
   },
-  "signature": "slLnEmoa9cPZgbsBApHpes9pktizvcbCp94gaS//pwrdH7tjMCearB93kd51naYrwIE80kgrEuqD/uzBEzdXBQ==.sig.ed25519"
+  "signature": "z3VXpiHCbVvn3ZHEZjHzORc402DR0znpCgN8KHBQ/OILJKB3E/70sLD+sscD9pxjpDCnU/4WqDdkg7r/OWsTDA==.sig.ed25519"
 }
