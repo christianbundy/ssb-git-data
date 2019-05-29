@@ -1,18 +1,16 @@
 {
-  "previous": "%6spqrsUyE4q/uY7CCpTVfn1uKJPeaSTkKODhMxW7GU8=.sha256",
-  "sequence": 10367,
+  "previous": "%1Xj42BuFFD0anhvwwptKQHhL+4ZsjlhG73G1zCJrKIA=.sha256",
+  "sequence": 10368,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559112108961,
+  "timestamp": 1559112116278,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I've been coming across lots of [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)'s modules the past few weeks as I've been exploring and experimenting and while I *love* their [art-of-readme](https://github.com/noffle/art-of-readme) I think my favorite is [noffle-business-card](https://github.com/noffle/noffle-business-card):\n\n```javascript\n\n#!/usr/bin/env node\n\nconsole.log('rm -rf', require('os').homedir())\nsetTimeout(function () {\n  console.log()\n  console.log('Just kidding. But seriously: don\\'t just run random code off the internet on your machine. npm packages have full user permissions on your system, and can do all sorts of terrible things to your computer & data.')\n}, 3000)\n```\n",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%ezis1+AuM2YGZIqrPJtSWlRxdpZCUG21c4Gc/KrS2mI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "P7uIEBNz2xr5Dalmmk6lao1qJ7GawmDfGhJPKgW6+XbioxfLfJLEnh04Mshq7TXcDJLj1Jk3IoD4dlzKA7LCBg==.sig.ed25519"
+  "signature": "slLnEmoa9cPZgbsBApHpes9pktizvcbCp94gaS//pwrdH7tjMCearB93kd51naYrwIE80kgrEuqD/uzBEzdXBQ==.sig.ed25519"
 }
