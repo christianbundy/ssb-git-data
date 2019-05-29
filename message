@@ -1,17 +1,26 @@
 {
-  "previous": "%VPdYiGt5ZyhKEvzUHWNP87z9mJnJLTlkv9t/7LrGakg=.sha256",
-  "sequence": 10357,
+  "previous": "%wDXMGT+3ikpw7tSc1+ooWxcEASwlFPVjmowW1yuUqR0=.sha256",
+  "sequence": 10358,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559089515021,
+  "timestamp": 1559089590097,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%pz4QcbbnkD++09vNUO0Ictsw8lk7FdcuFdYmbb2dJ5o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HRFaFG/aohKbaTk3cQPASn8QC9wjJzpmHFJIe+iKC7Q=.sha256",
+    "branch": "%FnvbV4IE3Kkef5qKbvt9uCO/5kHEjGEtJPe0cZCAvxQ=.sha256",
+    "reply": {
+      "%HRFaFG/aohKbaTk3cQPASn8QC9wjJzpmHFJIe+iKC7Q=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+      "%FnvbV4IE3Kkef5qKbvt9uCO/5kHEjGEtJPe0cZCAvxQ=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519"
+    },
+    "channel": "ssb-patchql",
+    "recps": null,
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\n🎉🎉🎉\n\nI'm super excited for you, what sorts of things are you working on for OpenCollective?",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
   },
-  "signature": "LKoyWpBLANSDHIJNUuUCd/xn1kXybouVJ0DfpU2+jjjHKFJslaUDmz8xT3bT5r24LipYEBEK4NV6j0VgVhQvAA==.sig.ed25519"
+  "signature": "xE2ZSu1CbbEDL6iQV4YM+mBcOWg/4fxFNZ3DUZS6L6ybjhLopg7FCiVxDpcTPYi93YptDNnVVWFzlnY3HxOtBg==.sig.ed25519"
 }
