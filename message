@@ -1,12 +1,33 @@
 {
-  "previous": "%ESgVL7F6O1IM2gAbQq8naOQWYZEEirxo2vAx3HprNq8=.sha256",
-  "sequence": 10362,
+  "previous": "%tFVGz4BX7HMXSdXPL7WT2Mt3I1nxPFoM+BZrPcPGpEs=.sha256",
+  "sequence": 10363,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559102247725,
+  "timestamp": 1559102370337,
   "hash": "sha256",
   "content": {
-    "type": "scat_message",
-    "text": "ahoy"
+    "type": "post",
+    "root": "%UmAIU5g7VIrKJy5MzFzb3SbOrsQewOAg9kkvCm67Krc=.sha256",
+    "fork": "%dy+nnhB/oBIlTyc4T6EEXEJYMtWi3rm0ykX8QQl762o=.sha256",
+    "branch": "%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256",
+    "reply": {
+      "%UmAIU5g7VIrKJy5MzFzb3SbOrsQewOAg9kkvCm67Krc=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+      "%h3OADhdOBzXVWuZHumIlsEgxj/vAqhiOVih2jzvJAys=.sha256": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jeremy](@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519) \n\nI've got it working with Patchwork 3.12.0 running as a background server, though I'm running from [`master`](https://github.com/stripedpajamas/ssb-chat-core). Also, `npm install` was failing so I tried yarn and it worked perfectly. Weird. I've included my `yarn.lock` in case that's helpful.\n\n [yarn.lock](&UCiHvq0ai4Urk4ng8dRSfyEzq+VNUtcdmu3cwC2OPzI=.sha256) ",
+    "mentions": [
+      {
+        "link": "@tPF29LyiYrobdLcAZnBIRNMjAZv38qa4OXnlbKb1zN8=.ed25519",
+        "name": "jeremy"
+      },
+      {
+        "link": "&UCiHvq0ai4Urk4ng8dRSfyEzq+VNUtcdmu3cwC2OPzI=.sha256",
+        "name": "yarn.lock",
+        "type": "application/octect-stream",
+        "size": 223984
+      }
+    ]
   },
-  "signature": "vcHMrOEd/FrXA4ivU21Grj653tNdHDpQ2RJXUM8r/1AaI9aKxcuCTg0s76shbJu8xSR9xwYYkAtA7D5cAmljDA==.sig.ed25519"
+  "signature": "ajVRx1KIazKB30BPY3KvuB1mDkyvEZEBPqCtirxMA792orhCpE/v2Hm0s/yakXkASAGZ6U9EmJRFoyWoyrigCQ==.sig.ed25519"
 }
