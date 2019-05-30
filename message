@@ -1,17 +1,27 @@
 {
-  "previous": "%osCjDXpbi6oYl7idAcCeJifdj7SfhdwJj2yIC1Hs7ZI=.sha256",
-  "sequence": 10408,
+  "previous": "%Vl5ao/ILCzxgBWqhZFpQMDun/EU9ybrieHBhR8WGSMs=.sha256",
+  "sequence": 10409,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559229519918,
+  "timestamp": 1559239257038,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "pokemon",
-    "vote": {
-      "link": "%iT381ytiwuojo2qeahglEzVVUW5A2T2NvXIOcBsU1bA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+tsqpE7ZDaAAnW7t60Ti2nWwbBErCs7HV6pK+iNuqp0=.sha256",
+    "fork": "%lcm7HgPjZlZcZCu1yWpCfnz6Li3dFgyIbZj+pLeLG3A=.sha256",
+    "branch": "%3ulwa5AWW1gJ+aQe7Jziyng+21cofkygfvbc163ncPc=.sha256",
+    "reply": {
+      "%+tsqpE7ZDaAAnW7t60Ti2nWwbBErCs7HV6pK+iNuqp0=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%3ulwa5AWW1gJ+aQe7Jziyng+21cofkygfvbc163ncPc=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": "help",
+    "recps": null,
+    "text": "[@SoapDog (SurfaceGo)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nFrom https://github.com/ssbc/patchwork/pull/1026:\n\n> :tada: Running this branch will delete messages from blocked authors.\n\nThat's what it does now, is it not working correctly for you?",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (SurfaceGo)"
+      }
+    ]
   },
-  "signature": "WAwfAI0Yphj0NgWE5OXdawCJdnAcGNwm9by2hcFUbwbGhlnYUiXVB761qLxTJMw/Ah0vedCL44bq0Tb7khYYBA==.sig.ed25519"
+  "signature": "a4tlPggWJYN/JQefzlCAjuYoANnMrPMXD2T6Q1ZQtAjq0CjAUZS/9Wkwnu4suhmaUhrbJ2TSofSUiQM60anpAQ==.sig.ed25519"
 }
