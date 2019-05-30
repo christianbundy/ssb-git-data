@@ -1,9 +1,26 @@
 {
-  "previous": "%ICdq3X8DH1vBiPDrSnbHDHqC10W86sQEa4EPtnOd7Gc=.sha256",
-  "sequence": 10391,
+  "previous": "%eybSSLge0BU5grlzOsfIEF3OeUjnqaLtQabJwo1npLo=.sha256",
+  "sequence": 10392,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559175101426,
+  "timestamp": 1559175507121,
   "hash": "sha256",
-  "content": "p5UfKmFiJ/ZMgHQ85gpVSMYMNuJqqdPVRYqI5szZfi6PyHJdNy757krH7crE1kXH+61mXSKeNlCObPtOIVaHfWZqkVnkxMNgBzQqw951ObbShTJVX5cv0ExvoxzR6bXfqkUFpj+LSScdnnZHYdp4XfmSXDgAy21+BaA1YUuLA4P9K/6gZCJwIQw7yEmKFA0B8+T++K8BueG5VdDu9Mg93e5D0JLPvxND8vDbMN5GFlVcYpPe2PYgODdMmiFcvqRIOnYDl6QROgq3Qs+rJ1VaSrZAalHMt53jjBWSblldia7/H1n3yaAKI9mRu1iLIXLH1dUNZRctPO1gvfzabeKlMCg6O/Lq9Iz6JlQF1t3ku1z8KIaGYl0xSki4+dFgvdjl6G+jTSwEJ4xS6TzdYrtZwP31WXgJgEKFw2EoQw3hAX7cZvQpJj598mWn4FhL6M/nZ+GaqNsUAwx/zJPvumGIcvu65L5rQDv0zEObrwirgkDtN38G23YM1EgfP+i4yloNHZjVBnK2B+XKyUM4AZdmdnSj7bk2d3I6hSYEP4+oz8SiVdAcQKRT52i+A2PScMj41Uz6byBKmpbdHa3+50ipdacN/JJJVrozXxh22sqlEya6uYBz+S9miCRNKNaq6v4j/8A9uSvtBqURjoZnx7UQpIQrXaNUVJz4r8W+YlmFnswwJgg05H0kCezl4nAS+YNqVrG8y1KNH3U8R6K/5i1rXk7s8cCdg2QfGaIgoBVQGdSYxQgzc+pjWmB60feKujgpx2J+C1Umfm2A8/Y6A5aSvJyPaZe61hBC9BH6Gc3cNVj9P9QBU/YpZ4uHKjmpMuq6XSV1w4cilk8bbQvgv/G+ADtWIEg7AFJ7zVT2ri9oA+Pw2mIQ4cC2Q3Y3MMwu9fcgN0Xi649o6MBLXBGWAIp4It/1NN/jmvmCwWxex8uIefqANA==.box",
-  "signature": "+CPpij8BpylfP14AuI6UkVucWB1fLJUnFz0LuPnRW0I7OefZYfKAQPU2Ivag2T6g7G0YkOpRb2fHKMjtK9EDBA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256",
+    "fork": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
+    "branch": "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256",
+    "reply": {
+      "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": "dev-diaries",
+    "recps": null,
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nHey! I'd be happy to help.\n\nUsing the latest multiserver with the ssb-config branch *should* do the trick, but it might be helpful to see the output of:\n\n\n- The multiserver + ssb-config dependency trees\n    ```shell\n    # with npm:\n    npm ls multiserver ssb-config\n    # with yarn:\n    yarn list --pattern 'multiserver|ssb-config'\n    ```\n- the `config.connections.incoming` object (I'd double-check that no private keys are in there!)\n- the multiserver addresses being broadcast over UDP\n    ```shell\n    ncat -u -l -p 8008\n    ```",
+    "mentions": [
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
+      }
+    ]
+  },
+  "signature": "0bkIyNrB5rLdRBqtlRC59jzZeuArrVCWH2Nv9XqfxLGxJOKyI8dVnw1uATzQeEg1qdykqtGJeJuOEct/XbylAg==.sig.ed25519"
 }
