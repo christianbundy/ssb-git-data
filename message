@@ -1,27 +1,16 @@
 {
-  "previous": "%uGolK0jEFGJB3UfHZwRqw0rCRNbwqmga8leVTvQPaxA=.sha256",
-  "sequence": 10397,
+  "previous": "%9gey9kL1STRrG+DWeQACvH8S6bjHFVqIAIvWzDhTBAg=.sha256",
+  "sequence": 10398,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559225017248,
+  "timestamp": 1559225714651,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256",
-    "fork": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
-    "branch": "%esI25NxFq7K1ohUCSftlQ9Eap2P14kPFJHH2qo71tQs=.sha256",
-    "reply": {
-      "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-      "%esI25NxFq7K1ohUCSftlQ9Eap2P14kPFJHH2qo71tQs=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
-    },
-    "channel": "dev-diaries",
-    "recps": null,
-    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nThanks! It looks like multiserver is using my PR branch, could you switch that so that it uses the regular release instead? The ssb-config branch works great with multiserver@3.3.6, no other branches required. Hopefully that will change the output of `ncat -u -l -p 8008`?",
-    "mentions": [
-      {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "luandro"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%IZyEw38tfOVwXyW9xY+ItE+SVl1iPLtDzP4mAfe/1S8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "r+5ihA0d2BFDzogxMLSPfoThzAqLWR2T+CZdkktIqNShlCfaNhMVtoxBBUiKiMb7yIGXOqk0T0MKGu32vCavDw==.sig.ed25519"
+  "signature": "xHk2LYr9w3ohbWspWFMAi9QnMFcWQorY3en99xrqYi/da4W9fSIr8R3KDhAnR1LhC6gE0ktrRh4iIYE4EkrkDg==.sig.ed25519"
 }
