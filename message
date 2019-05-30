@@ -1,16 +1,26 @@
 {
-  "previous": "%Iyfw63DU6xbJOyYYTtDzIV6+96ngN0nu2xmPq+oEVpc=.sha256",
-  "sequence": 10401,
+  "previous": "%UM1I9Kahr/VxJXq7HriaKkY1UIDsrlQvD5/Jyz/pjhU=.sha256",
+  "sequence": 10402,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559225861877,
+  "timestamp": 1559225955604,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zVsQO0NiLZ7GB7786DEUdo25/biD6SUnJAxD7Y75GU4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HD+YxAcRxDPs5O5Nes99sC2uJNoOqyRiA8T/YyZkZIQ=.sha256",
+    "fork": "%zVsQO0NiLZ7GB7786DEUdo25/biD6SUnJAxD7Y75GU4=.sha256",
+    "branch": "%HD+YxAcRxDPs5O5Nes99sC2uJNoOqyRiA8T/YyZkZIQ=.sha256",
+    "reply": {
+      "%HD+YxAcRxDPs5O5Nes99sC2uJNoOqyRiA8T/YyZkZIQ=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nI don't think the other ones loop, so if they were in a feed they may have finished before you scrolled them into the viewport.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ]
   },
-  "signature": "BHJNd6S5KF0qPSC7anP2gIxlepRfpNw2BXT1P4o+CILfXqRykAmBg3LW4pe7oKRPqh0/BcktPnzqAoRaOq3BCw==.sig.ed25519"
+  "signature": "tF4PWfWtUi/T6v7TldIhgC+i4cQSaN/0WvlepZ4s7bNDVOyesxp1ky0Vnd7L179pNRZmiIuChYRvygVFKi2zDw==.sig.ed25519"
 }
