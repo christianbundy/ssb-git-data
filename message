@@ -1,26 +1,26 @@
 {
-  "previous": "%eybSSLge0BU5grlzOsfIEF3OeUjnqaLtQabJwo1npLo=.sha256",
-  "sequence": 10392,
+  "previous": "%l78ByK9TjWnN2oyf0s2MzyCiBHaX/xCk460SW5+Y1iI=.sha256",
+  "sequence": 10393,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559175507121,
+  "timestamp": 1559176407550,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256",
-    "fork": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
-    "branch": "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256",
+    "root": "%BUTtli2+vUBjX1DNeGVlnTAnPYp30Kk4gtL/elY08ag=.sha256",
+    "branch": "%1XM5Eq1j5og8wOKkvTmBmxs3y7ub4xd+o/0B6LvHK1E=.sha256",
     "reply": {
-      "%N41Le/I1eJFEx8qm743ATW0DQe0XBKTwzaOx4AZeMUo=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+      "%BUTtli2+vUBjX1DNeGVlnTAnPYp30Kk4gtL/elY08ag=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+      "%1XM5Eq1j5og8wOKkvTmBmxs3y7ub4xd+o/0B6LvHK1E=.sha256": "@Zm/yHwozL4mPlHIS54h4wsDZa6Ae9/cnFw2D0ymewCE=.ed25519"
     },
-    "channel": "dev-diaries",
+    "channel": null,
     "recps": null,
-    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nHey! I'd be happy to help.\n\nUsing the latest multiserver with the ssb-config branch *should* do the trick, but it might be helpful to see the output of:\n\n\n- The multiserver + ssb-config dependency trees\n    ```shell\n    # with npm:\n    npm ls multiserver ssb-config\n    # with yarn:\n    yarn list --pattern 'multiserver|ssb-config'\n    ```\n- the `config.connections.incoming` object (I'd double-check that no private keys are in there!)\n- the multiserver addresses being broadcast over UDP\n    ```shell\n    ncat -u -l -p 8008\n    ```",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nSending hugs from 11500 km away. 💓\n\nI'd imagine a letter from a US citizen would probably be counterproductive, but I'm happy to help if I can.",
     "mentions": [
       {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "luandro"
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
       }
     ]
   },
-  "signature": "0bkIyNrB5rLdRBqtlRC59jzZeuArrVCWH2Nv9XqfxLGxJOKyI8dVnw1uATzQeEg1qdykqtGJeJuOEct/XbylAg==.sig.ed25519"
+  "signature": "ESRzfFCD3SVwW0hPQoVV9elq+ppwAN49zTfDWOOJtU+JO9t/7wEQ2NOWcObh61GmCbcR0rJHIJhO4gkX9ftgAQ==.sig.ed25519"
 }
