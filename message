@@ -1,33 +1,17 @@
 {
-  "previous": "%nXjcavQ3Z0rnXM7iQQydAlOcEb5tNGfQgT5uFeMIOKY=.sha256",
-  "sequence": 10421,
+  "previous": "%KwvFK0464KRBpqaG/VjtVsNPovs2ddxs+OXvnvr6COM=.sha256",
+  "sequence": 10422,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559407263357,
+  "timestamp": 1559408296723,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256",
-    "branch": "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256",
-    "reply": {
-      "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "It me.\n\nBackground: On the last day of scuttle-camp we had a session about starting a NZ incorporated society to make it easier to handle money in the Scuttlebutt ecosystem. We were given the [sample rules ](http://www.societies.govt.nz/cms/incorporated-societies/rules-of-incorporated-societies/sample-set-of-rules) and asked whether we would sign, and a few of us were hesitant to sign a document with bits like:\n\n- > The purposes of the Society are to: [Insert specific purposes];\n- > No Society Meeting may be held unless at least [number] % of eligible Members attend. (This will constitute a quorum.)\n- > Any proposed motion to amend or replace these Rules shall be signed by at least [number] % of eligible Members and given in writing to the Secretary at least 28 days before the Society Meeting at which the motion is to be considered, and accompanied by a written explanation of the reasons for the proposal.\n- > The surplus Money and Other Assets shall be distributed to: [Stipulate one or more organisations/purposes].\n\nI've got lots of trust for everyone that was involved, but I didn't feel comfortable signing a legal document with blanks that still needed to be filled in. It was also the last session before scuttle-camp was over, so by the time we realized that the document was unfinished there wasn't enough time to finish writing it. I think everyone was bummed about this.\n\nSince [@zenna](@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519) and I were the most hesitant to sign we volunteered to fill in the blanks and propose a fleshed-out set of rules, but I've *personally* been a bit swamped and put it on the back-burner. I'm sorry about that, I don't like the feeling of being a bottleneck.\n\nI'll reach out and see if we can't get this wrapped in in the next few days -- currently we're stuck on which organization(s) should receive the assets if/when the incorporated society winds down, but we might just need to ask for help from local friends who are more familiar. \n\n[@ktorn](@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519) Thanks for making this thread, I hadn't seen Alanna's post and this definitely deserves attention.\n\n[@alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519) Sorry this got placed on the back-burner for me, I know that it's important and will make money stuff easier for everyone involved.",
-    "mentions": [
-      {
-        "link": "@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519",
-        "name": "zenna"
-      },
-      {
-        "link": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519",
-        "name": "ktorn"
-      },
-      {
-        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
-        "name": "alanna"
-      }
-    ]
+    "vote": {
+      "link": "%yYbLbwiEWRxQN63S0dK+8gy9kEp9TtXRXgWvKDu4P30=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "axDiFoVgxd7bJLjVwFlATkhhnok6BBB/Y4+eoN59QWw95rRCueoKDjHtlQPinL0ImTMdhus12L8uwjPN4LW9Bw==.sig.ed25519"
+  "signature": "h6PDdItP54E3/7dg/zZE0Ds0C+qe25f5IbdqJYgC5JXP18B1RuU+CMiPlKOFcwv2x9pz8tAGBYuz+HNgc81jDA==.sig.ed25519"
 }
