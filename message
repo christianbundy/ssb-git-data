@@ -1,25 +1,16 @@
 {
-  "previous": "%whTSOghOH5nAJgZ9jufEBmqN1TO+X6m6DKqeeOTNKLI=.sha256",
-  "sequence": 10419,
+  "previous": "%GMkO7Z3rmxlrmb3KtNlpPoQQ1LhcHnUc6JNEiyvwfok=.sha256",
+  "sequence": 10420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559405275772,
+  "timestamp": 1559405294155,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PnEy0XULzhXEbfEpkITjflUQCv0f36SoAvrKldQzhkU=.sha256",
-    "branch": "%PnEy0XULzhXEbfEpkITjflUQCv0f36SoAvrKldQzhkU=.sha256",
-    "reply": {
-      "%PnEy0XULzhXEbfEpkITjflUQCv0f36SoAvrKldQzhkU=.sha256": "@BvBwGZFg7MxiLgM14OGf1BFh0D1r7WYDBgnxfaPpDH0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@LWFlouisa](@BvBwGZFg7MxiLgM14OGf1BFh0D1r7WYDBgnxfaPpDH0=.ed25519) \n\nWe use [Markdown](https://commonmark.org/help/), so if you use a fenced code block (\\`\\`\\`) with the language (\\`\\`\\`ruby) then it'll show as monospace with syntax highlighting.\n\n```ruby\ndef download_ebook\ndef grab_from_gutenburg; print \"URL >>\"; link = gets.chomp; system(\"wget #{link}\");\ndef display_ebook; print \"File >> \"; file = gets.chomp; system(\"xdg-open\", file); end\n\ng = grab_from_gutenburg\nd = display_ebook\nend\n\nd = download_ebook\n```\n",
-    "mentions": [
-      {
-        "link": "@BvBwGZFg7MxiLgM14OGf1BFh0D1r7WYDBgnxfaPpDH0=.ed25519",
-        "name": "LWFlouisa"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%PrvS4ESc/Hwf3TRqBGTrxyexiQO0U85LclgQRS4ZEw8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "rBNp9sS0Hh1V1uYxNvFb+h/MQOEr5hoLrgi3JA74uOSrhT6UWhMVhR7RQDkC3/cdbD5TtDpNplen/gZFyR38DA==.sig.ed25519"
+  "signature": "sWHnb/P/JANqWWfYGIYFz/bqseEiWBHBNmT8JdPtfjfL54SOa+/lVpj/wiB90nSyzdkvxE27wJY8jeuR1/PmBg==.sig.ed25519"
 }
