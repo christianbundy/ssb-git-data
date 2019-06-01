@@ -1,17 +1,26 @@
 {
-  "previous": "%JDzgOEZ6Yc9Cfg/AsbO7VM2szNvCVmf+w9cD68zWUQA=.sha256",
-  "sequence": 10425,
+  "previous": "%HT02XF13bd2jnfaaMlCLBGzWXUhLudZPepurYscViys=.sha256",
+  "sequence": 10426,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559428791373,
+  "timestamp": 1559428841909,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%+hW4qOX4xuIO8QE9RTUAaHqL0bD28r4GyF/kYJLBz38=.sha256",
+    "fork": "%DNxkpTP9GIWldtYtpAmzgBFGlu8X9O5A3xq1L6Ms5es=.sha256",
+    "branch": "%+hW4qOX4xuIO8QE9RTUAaHqL0bD28r4GyF/kYJLBz38=.sha256",
+    "reply": {
+      "%+hW4qOX4xuIO8QE9RTUAaHqL0bD28r4GyF/kYJLBz38=.sha256": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%+hW4qOX4xuIO8QE9RTUAaHqL0bD28r4GyF/kYJLBz38=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Thunder](@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519) \n\nThanks! If you have any trouble with emoji showing up, I'd love for you to test this PR: https://github.com/ssbc/patchwork/pull/1054",
+    "mentions": [
+      {
+        "link": "@bjhAzmwQmu1+dqKmrixfDh91zdILPEQc8L1gmFYJLdA=.ed25519",
+        "name": "Thunder"
+      }
+    ]
   },
-  "signature": "aBsXmfpLY1KdSD0j+x7ZTOOrpz5Ad5AmHYD3oVjOp3aCxg7ZGkgVTy3PWvnAl5rWxjfkkBevBkIDXcZEL6noBQ==.sig.ed25519"
+  "signature": "JDz0QAu0yy6Lgpy7MfWQ5KpKdoIKSZEbg6lBw1FLnMw9AvBi9nXyghB6skSXHez/cpiWdrOOy7sNEI7+uL0/CQ==.sig.ed25519"
 }
