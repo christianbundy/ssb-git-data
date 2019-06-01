@@ -1,21 +1,17 @@
 {
-  "previous": "%uvl+LlaZHd27RyHxqG4+Evx5u/+z6OFKeIZiXNTImIo=.sha256",
-  "sequence": 10423,
+  "previous": "%fUZmYwk1TuglRvLxtygEdhLanlj9fq5axR0JvQqbZFg=.sha256",
+  "sequence": 10424,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559409255965,
+  "timestamp": 1559409590369,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%1Bsk5y+FzgNw0Zr8winKBN0HPiYWiJQB2uI+n2X+Dbw=.sha256",
-    "branch": "%ctVJ3yF/HMufa3lB2K7O47M3jMG4Lbs9Wtd2vx4B8iI=.sha256",
-    "reply": {
-      "%1Bsk5y+FzgNw0Zr8winKBN0HPiYWiJQB2uI+n2X+Dbw=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-      "%ctVJ3yF/HMufa3lB2K7O47M3jMG4Lbs9Wtd2vx4B8iI=.sha256": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519"
-    },
+    "type": "vote",
     "channel": "checkin",
-    "recps": null,
-    "text": "☕🤒😣",
-    "mentions": []
+    "vote": {
+      "link": "%YrUmHKaueMreBTvrPEkK4zMm3iMBorZhz4jOuNMHlHQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "8qiKElMskUKzoM2DH1c0e/7U3bYjO7ckvd+4F7G3+cnaL59PVaPYVajvrIk/xHyUri14sDHNZxbAVbVItTRZBQ==.sig.ed25519"
+  "signature": "nu69D9rE8HUlYGlzE5z68/sIQP5w5A9QH9bA4zD7bYM1qPPEplfeZIJrLzX7a8pbZzBT5pIdRjte5T5Kddh/CA==.sig.ed25519"
 }
