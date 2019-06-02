@@ -1,13 +1,30 @@
 {
-  "previous": "%fUneypNUnB/xNqaWTeLhpiSX8hZ2ov+qxcTMOKdBU1U=.sha256",
-  "sequence": 10430,
+  "previous": "%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256",
+  "sequence": 10431,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559486107381,
+  "timestamp": 1559486918279,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%+TX1e8cYdlLyhRalMODL8L5a+29J2Oh6RoWSAjpKZl0=.sha256",
-    "description": "See: %DZnOI8r7GHSydp2UbeXNl/MmnBFosEUTyEnDR2lu3l8=.sha256\n\nedits work!"
+    "type": "post",
+    "root": "%DZnOI8r7GHSydp2UbeXNl/MmnBFosEUTyEnDR2lu3l8=.sha256",
+    "branch": "%zcfAyxu0oCSHnbDHuUfhskO/cjSTN24f8MJchTSsWYA=.sha256",
+    "reply": {
+      "%DZnOI8r7GHSydp2UbeXNl/MmnBFosEUTyEnDR2lu3l8=.sha256": "@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519",
+      "%zcfAyxu0oCSHnbDHuUfhskO/cjSTN24f8MJchTSsWYA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@teq](@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519) \n\nSorry you're bumping into some rough edges, that's no fun at all. I can see the same thing when I made an edit to my [test gathering](%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256), although the messages look to be public.\n\nThat warning is only supposed to happen if you're writing a private message with no recipients, so my intuition is that it's there's a bug where it's just confused about whether it's a private message.\n\nThe relevant code is [here](https://github.com/ssbc/patchwork/blob/edc64464d6d7b371fa153aa1c3fabf5d2f6d7e0f/modules/message/sheet/preview.js#L56-L78) in the style of [mutant](https://github.com/mmckegg/mutant) / [hyperscript](https://github.com/hyperhype/hyperscript): \n\n```javascript\n[\n  when(isPrivate,\n    h('img', { src: api.emoji.sync.url('closed_lock_with_key') }),\n    h('img', { src: api.emoji.sync.url('globe_with_meridians') })\n  ),\n  when(isPrivate,\n    h('div.info -private', [\n      recps.length ? when(!exists && isRoot,\n        plural('Only visible to you and %s people that have been mentioned', recps.length),\n        plural('Only visible to you and %s other thread participants', recps.length)\n      ) : i18n('This message will only be visible to you')\n    ]),\n    h('div.info -public', [\n      when(msg.publiclyEditable,\n        i18n('This message will be public and can be edited by anyone'),\n        i18n('This message will be public and cannot be edited or deleted')\n      )\n    ])\n  ),\n  h('button -save', { 'ev-click': publish }, i18n('Confirm')),\n  h('button -cancel', { 'ev-click': cancel }, i18n('Cancel'))\n]\n```\n\nI think that means `isPrivate == true&& recps.length == false`, but I'm unclear on why `isPrivate` is being set incorrectly. Happy to pair with someone and squash this bug.",
+    "mentions": [
+      {
+        "link": "@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519",
+        "name": "teq"
+      },
+      {
+        "link": "%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256",
+        "name": "test gathering"
+      }
+    ]
   },
-  "signature": "CvFurpaocjIAFL+/HIdJsRnF+piYTlN+YT3cbCfDkiy7vwJWg7/FdAupq52AmCSawjQOjQrPUIWXrL4eIAadCw==.sig.ed25519"
+  "signature": "zT6Ej7qBAUvLxugtzLWEjgMAdno5KEY/BJAkHG9XgGnPeP9UVtOEBWHvUt8HFM/bZfEV1Y2HgyMS9omhi7SMCg==.sig.ed25519"
 }
