@@ -1,16 +1,28 @@
 {
-  "previous": "%fwNDuKJotC2JXFCayOKUwHxp4nbFvE2Al2NH/XAOysA=.sha256",
-  "sequence": 10435,
+  "previous": "%O05QWjt3dKn9MWTXESFQlAbtv6OBxArJZDy9ve9eT3U=.sha256",
+  "sequence": 10436,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559491296834,
+  "timestamp": 1559495569535,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jFPSnSm0H3UZOlR3FR+1IYzlrkX2w8ubpqWHtTO3yKI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
+    "branch": "%DBKpbZSxNWgbPtSypxzs06VU2Y5asXsasj8N9PE68t0=.sha256",
+    "reply": {
+      "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%DBKpbZSxNWgbPtSypxzs06VU2Y5asXsasj8N9PE68t0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I've been working on this \"minimal CSS to make websites not suck\" challenge for a while and I think I've whittled it down into something more reasonable and less opinionated. The biggest struggle has been the relationship between the sizes of  `<h1>` through `<h6>`, which seems like it should follow a predictable function.\n\n![Screenshot from 2019-06-02 10-10-07.png](&aJyga5iQajGa+4EXCI5U3ApeCYvwGrLBOG7kxySRCQs=.sha256)\n\nMy goal is to add some sane typographic defaults without overriding any custom preferences (e.g. base font size). Here's the CSS I'm using:\n\n```css\nhtml {\n  /* default to OS font or choose something non-crappy */\n  font-family: system-ui, \n  -apple-system, BlinkMacSystemFont, \n  \"Segoe UI\", \"Roboto\", \"Oxygen\", \n  \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \n  \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\n  /* basic typography */\n  line-height: 1.33;\n}\n\n/* https://www.desmos.com/calculator/3elcf5cwhn */\nh1 { font-size: 150%; }\nh2 { font-size: 128%; }\nh3 { font-size: 120%; }\nh4 { font-size: 116%; }\nh5 { font-size: 113%; }\nh6 { font-size: 111%; }\n\n@media screen {\n  html {\n    /* expand to full screen for easy centering */\n    min-height: 100%;\n    margin: 0;\n    padding: 0;\n\n    /* center <body> on the screen */\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  body {\n    /* reasonable line width and padding (for <html> backgrounds)*/\n    max-width: 36rem;\n    padding: 1rem;\n  }\n}\n```",
+    "mentions": [
+      {
+        "link": "&aJyga5iQajGa+4EXCI5U3ApeCYvwGrLBOG7kxySRCQs=.sha256",
+        "name": "Screenshot from 2019-06-02 10-10-07.png",
+        "type": "image/png",
+        "size": 241339
+      }
+    ]
   },
-  "signature": "gfgh+8XIwmqqCRcPqFKyc9jLqggsMc5QdynnhIRTefkS2WrTFkh6EEMj8w4rXGl0wd6Zviv7yZDsR1tHOnoyAg==.sig.ed25519"
+  "signature": "Rm77k6Y4OAVhOhbAkd8qyrCJzHh/Q/gIg+68/mlVcGB4qrEmO27fcmN41oeXdwJRr0/01VYt3nB0mjkYI8srCA==.sig.ed25519"
 }
