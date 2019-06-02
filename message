@@ -1,30 +1,21 @@
 {
-  "previous": "%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256",
-  "sequence": 10431,
+  "previous": "%BvdHuPVz6XU1RtEy32YWAb+Tflld3sTOdrFV5Qf7nUQ=.sha256",
+  "sequence": 10432,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559486918279,
+  "timestamp": 1559489781767,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%DZnOI8r7GHSydp2UbeXNl/MmnBFosEUTyEnDR2lu3l8=.sha256",
-    "branch": "%zcfAyxu0oCSHnbDHuUfhskO/cjSTN24f8MJchTSsWYA=.sha256",
+    "root": "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256",
+    "branch": "%PHANFxHhvrEdX4va611QkV3vq6syV6w57Ssd7IRF4gw=.sha256",
     "reply": {
-      "%DZnOI8r7GHSydp2UbeXNl/MmnBFosEUTyEnDR2lu3l8=.sha256": "@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519",
-      "%zcfAyxu0oCSHnbDHuUfhskO/cjSTN24f8MJchTSsWYA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+      "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519",
+      "%PHANFxHhvrEdX4va611QkV3vq6syV6w57Ssd7IRF4gw=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@teq](@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519) \n\nSorry you're bumping into some rough edges, that's no fun at all. I can see the same thing when I made an edit to my [test gathering](%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256), although the messages look to be public.\n\nThat warning is only supposed to happen if you're writing a private message with no recipients, so my intuition is that it's there's a bug where it's just confused about whether it's a private message.\n\nThe relevant code is [here](https://github.com/ssbc/patchwork/blob/edc64464d6d7b371fa153aa1c3fabf5d2f6d7e0f/modules/message/sheet/preview.js#L56-L78) in the style of [mutant](https://github.com/mmckegg/mutant) / [hyperscript](https://github.com/hyperhype/hyperscript): \n\n```javascript\n[\n  when(isPrivate,\n    h('img', { src: api.emoji.sync.url('closed_lock_with_key') }),\n    h('img', { src: api.emoji.sync.url('globe_with_meridians') })\n  ),\n  when(isPrivate,\n    h('div.info -private', [\n      recps.length ? when(!exists && isRoot,\n        plural('Only visible to you and %s people that have been mentioned', recps.length),\n        plural('Only visible to you and %s other thread participants', recps.length)\n      ) : i18n('This message will only be visible to you')\n    ]),\n    h('div.info -public', [\n      when(msg.publiclyEditable,\n        i18n('This message will be public and can be edited by anyone'),\n        i18n('This message will be public and cannot be edited or deleted')\n      )\n    ])\n  ),\n  h('button -save', { 'ev-click': publish }, i18n('Confirm')),\n  h('button -cancel', { 'ev-click': cancel }, i18n('Cancel'))\n]\n```\n\nI think that means `isPrivate == true&& recps.length == false`, but I'm unclear on why `isPrivate` is being set incorrectly. Happy to pair with someone and squash this bug.",
-    "mentions": [
-      {
-        "link": "@CxnSXWYjPT160y7QbmTFtWaWT09080azgErYPt1ZeZc=.ed25519",
-        "name": "teq"
-      },
-      {
-        "link": "%tvGajSFUBmj/ocVmb+Y1umPrHhESsvMRyTZG2Hck4v8=.sha256",
-        "name": "test gathering"
-      }
-    ]
+    "text": "I think we're on the same page on all of those points, I'm happy to iterate as we figure out what works.\n\nI don't have any strong feelings on the specifics of the agree but it's important to me that it's finished before we sign. I would've been happy to sign almost any set of rules, but I don't feel comfortable signing unfinished agreements *in general*.\n\nI would have been comfortable with \"Alanna makes all decisions until a new set of rules is agreed upon\", but signing \"[insert name] makes all decisions until [insert condition]\" doesn't feel right to me.",
+    "mentions": []
   },
-  "signature": "zT6Ej7qBAUvLxugtzLWEjgMAdno5KEY/BJAkHG9XgGnPeP9UVtOEBWHvUt8HFM/bZfEV1Y2HgyMS9omhi7SMCg==.sig.ed25519"
+  "signature": "m2NpiSrWNySBZEgLzOvrbWL5+Vsj52AUUzdXSVgrXv7+2G777KYtVwr7UTY1PJeoWXvi0KeXEvZV1hILgqKnCw==.sig.ed25519"
 }
