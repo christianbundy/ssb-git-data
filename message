@@ -1,17 +1,26 @@
 {
-  "previous": "%eM2Mi0dL36BdclJ51x1s6A8qK7mjk/rOZAiXlAY+P8E=.sha256",
-  "sequence": 10444,
+  "previous": "%tshPN4TLyX9iLH8uelNspfpP/MaYeLbg0PULEhRP1kU=.sha256",
+  "sequence": 10445,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559509803153,
+  "timestamp": 1559519631895,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%KeGPl83O7q3tkwq3pdn6RUxpDiCMzYL9RMQAvyql/TI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256",
+    "fork": "%lcm7HgPjZlZcZCu1yWpCfnz6Li3dFgyIbZj+pLeLG3A=.sha256",
+    "branch": "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256",
+    "reply": {
+      "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519"
+    },
+    "channel": "help",
+    "recps": null,
+    "text": "> One hidden hierarchy is the Internet and its providers, another explicit one is SSB’s current dependency on pubs (and very few clouds).\n\nTangent: I've been slowly becoming more interested in the [discovery-swarm](https://github.com/mafintosh/discovery-swarm) stack, which Dat uses to discover peers without the requirement of a public IP address. I've been playing around with creating a multiserver plugin that uses discovery-swarm for replication but I've been having trouble with the plumbing between streams.\n\nI think this would take care of our pub dependence for *connections*, but we'd still need them for network invites if we'd still like to welcome strangers from the internet. One option would be to use discovery-swarms here too, so you could share the key to swarm rather than a traditional invite code, and I think [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) is working on something similar as *SSB rooms*.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "Sd9m7CdO98Zq6g2s9mQ3AnBJpGVb6hASWcXad33976rZn8MRyLjBUauazN64LtJD6XFabzeH+ft3hGNkiTnqBQ==.sig.ed25519"
+  "signature": "WmueGoVBeMftXxYWNQR5CeFA4BrejDgntNolnYzq+a1vRPsKxbIyL/LykaobLx79zJkomDMSBTipMKyOKy2YBQ==.sig.ed25519"
 }
