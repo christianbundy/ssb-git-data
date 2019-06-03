@@ -1,20 +1,21 @@
 {
-  "previous": "%tshPN4TLyX9iLH8uelNspfpP/MaYeLbg0PULEhRP1kU=.sha256",
-  "sequence": 10445,
+  "previous": "%MB16Dge3Hg5cVdZpLTe01eo9i+5jwYzi+wUjRSlJ9D8=.sha256",
+  "sequence": 10446,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559519631895,
+  "timestamp": 1559582659738,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256",
     "fork": "%lcm7HgPjZlZcZCu1yWpCfnz6Li3dFgyIbZj+pLeLG3A=.sha256",
-    "branch": "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256",
+    "branch": "%sf8V6Gux1Z6m8mYw+FcGVEQQ1V89c+TYQmuX7Uzcosk=.sha256",
     "reply": {
-      "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519"
+      "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+      "%sf8V6Gux1Z6m8mYw+FcGVEQQ1V89c+TYQmuX7Uzcosk=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
     },
     "channel": "help",
     "recps": null,
-    "text": "> One hidden hierarchy is the Internet and its providers, another explicit one is SSB’s current dependency on pubs (and very few clouds).\n\nTangent: I've been slowly becoming more interested in the [discovery-swarm](https://github.com/mafintosh/discovery-swarm) stack, which Dat uses to discover peers without the requirement of a public IP address. I've been playing around with creating a multiserver plugin that uses discovery-swarm for replication but I've been having trouble with the plumbing between streams.\n\nI think this would take care of our pub dependence for *connections*, but we'd still need them for network invites if we'd still like to welcome strangers from the internet. One option would be to use discovery-swarms here too, so you could share the key to swarm rather than a traditional invite code, and I think [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) is working on something similar as *SSB rooms*.",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nWow, that's exactly what I was looking for! I assumed that module *only* did DHT whereas discovery-swarm uses mDNS too. Have you hooked this up to the rest of the SSB stack so that nodes gossip with peers they find via discovery-swarm?",
     "mentions": [
       {
         "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
@@ -22,5 +23,5 @@
       }
     ]
   },
-  "signature": "WmueGoVBeMftXxYWNQR5CeFA4BrejDgntNolnYzq+a1vRPsKxbIyL/LykaobLx79zJkomDMSBTipMKyOKy2YBQ==.sig.ed25519"
+  "signature": "vMlrkQO7/JI2IocOem1X3z7N8cVKHzwFBrCznadEb0pA/MNpHeJwyrUmrBOfd5w+W6cU/iA7+6uRi53cgTiwBw==.sig.ed25519"
 }
