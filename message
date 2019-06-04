@@ -1,29 +1,17 @@
 {
-  "previous": "%Bvd3M2n5yUA8qacwygl3X5/xnNV1NpZ7ksX8imEuljM=.sha256",
-  "sequence": 10449,
+  "previous": "%/SsxjZg1qDQU3NH7pnpefmBVgiR1Rb156yFSpRTcJdY=.sha256",
+  "sequence": 10450,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559604436110,
+  "timestamp": 1559616092203,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%+TX1e8cYdlLyhRalMODL8L5a+29J2Oh6RoWSAjpKZl0=.sha256",
-    "branch": [
-      "%9rMWh0fGphrrH7pbc+YXrSWCiClJkgek1YK3lJ2pMj4=.sha256",
-      "%kP5rZKdJqQ7JT0f/OoU3A14y1Fp5Vskk75A1XrjmJxs=.sha256"
-    ],
-    "reply": {
-      "%+TX1e8cYdlLyhRalMODL8L5a+29J2Oh6RoWSAjpKZl0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%kP5rZKdJqQ7JT0f/OoU3A14y1Fp5Vskk75A1XrjmJxs=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nyeah, it looks to me like Patchwork is creating the gathering and then instantly editing it with a second message, not sure why that is but would love to share *all the code* for shared behavior",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "channel": "whiteness",
+    "vote": {
+      "link": "%FDMA9GG3tLm4/fp1bl40uTlvzfETxHZhm6WD3q+hmBY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "oFhWf2EfQB4eb+zJ1h2IoH4dp14R2PzUhqMiNaz47Efr6DEaY5gYjWt8SA2IC3aEanxY9H4bGVCfwRZP4qbsBA==.sig.ed25519"
+  "signature": "coDTW4a1OyVzUDcV1OpREEMAnme0grBddW/sWq9YzULZ95zOITNv7AeGxH/yP6giLZ/v8vxSu8vWnAVd8lO4CQ==.sig.ed25519"
 }
