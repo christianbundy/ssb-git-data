@@ -1,21 +1,16 @@
 {
-  "previous": "%UeWrtUynHXAY+XFZhQ6lNA/nSSjapmiSwQS83pba4EU=.sha256",
-  "sequence": 10463,
+  "previous": "%zMO9/LFq7xeKFaTHUaWouMmpwYP1hX0w5vesha7kYJo=.sha256",
+  "sequence": 10464,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559745794753,
+  "timestamp": 1559745806417,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%iHiWUUfHlPfDIqr+pY5cODGXmHIb1rPZiORnjO4CLEY=.sha256",
-    "branch": "%OlQ7s3fMx0a3aihyM7znenXtPUxL2BAXbU0cLz7oLCw=.sha256",
-    "reply": {
-      "%iHiWUUfHlPfDIqr+pY5cODGXmHIb1rPZiORnjO4CLEY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%OlQ7s3fMx0a3aihyM7znenXtPUxL2BAXbU0cLz7oLCw=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "ssb-learning",
-    "recps": null,
-    "text": "It me! For me the images are low-res, outdated, and missing a bunch of characters, so I just use the emoji character instead of a `:shortcode:` that renders an image. Sorry that breaks things on your OS, you'll probably need an emoji font to render them. I use the [Noto](https://www.google.com/get/noto/#emoji-zsye-color) font family, which made by Google (for Android IIRC) but open source and super high quality.\n\n🙀 (character) vs :scream_cat: (image)\n\nI think the elegant solution would be to use the actual emoji character and then bundle a fallback emoji font for people who don't have one installed on their OS.",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%BBV2BEmskpeVBACrdmdgL62hXZqV3BUmyqBN3rsz5uI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "OQyrT1vskN+/hbNKVw1NghrE0Sl43uMxV12sHgC0k3ju7HpmY4AxBW3BN1vekp7e2C4zy87YDstef9Xy28jFCg==.sig.ed25519"
+  "signature": "hn/SACPMMgCdA3OKo1gHlzp1XXZmDeH4XgG+JeOq3vCeweuZZ0nsqMwPRXLmXxbGAVALp+SqA1IOTlv2etCSBg==.sig.ed25519"
 }
