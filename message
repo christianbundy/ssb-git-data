@@ -1,17 +1,22 @@
 {
-  "previous": "%3Pefff0lAZyJHqhtRnjl/OOGN9lg/xwN51rL3AWNYPI=.sha256",
-  "sequence": 10454,
+  "previous": "%pQYRjxMOZK8Pr36C9FYd5nZj3m83rN8DEOsb/6iK8Q0=.sha256",
+  "sequence": 10455,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559684172632,
+  "timestamp": 1559697106593,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "checkin",
-    "vote": {
-      "link": "%rLJeVzOBcIXAzXg+RLkvFa/FTtz1WUVXIC3/Psj21vA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%SdXoNxLQUTJ01d8E8ug3cQRSTdajfJm3xC0Yh5QaTto=.sha256",
+    "fork": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
+    "branch": "%KJ3k6SELYAaZy6b9LV/IJn1bRGNbhwn8m0pU6hPlZxE=.sha256",
+    "reply": {
+      "%SdXoNxLQUTJ01d8E8ug3cQRSTdajfJm3xC0Yh5QaTto=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%KJ3k6SELYAaZy6b9LV/IJn1bRGNbhwn8m0pU6hPlZxE=.sha256": "@lShKH/7fpHh+b4sk2WLP8aU3E/XCPLuNpa+gBshwa1I=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "See also: [This page is a truly naked, brutalist html quine](https://secretgeek.github.io/html_wysiwyg/html.html)",
+    "mentions": []
   },
-  "signature": "TWJ48eNRVOYpu0VnRm8WB2mwasEJeuHSvwbxcSooheHs3HguMbkyKfbEI334ceXURuiXs8qTOfJ6yqh9Afg1DQ==.sig.ed25519"
+  "signature": "6I7z686LxzMGvuYJ0BiahjuxO+NShbVkyNS8pZ5lO5PWG++REzKgZFewvbLFMBmFoCVekWE3q9BhFbhqGq1tBw==.sig.ed25519"
 }
