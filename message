@@ -1,20 +1,21 @@
 {
-  "previous": "%aH3Dj820FhoiGsbl0M6Ppm/QbPeyDJbVfQAKsz806/k=.sha256",
-  "sequence": 10471,
+  "previous": "%+qH8ZkleixCa6/0U+Ii0s+WmLtUIjmRLOhNvE8OwwMo=.sha256",
+  "sequence": 10472,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559764430089,
+  "timestamp": 1559772708916,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0jg+HAQ6hkT9pzt6SFzLKDrscRB+Ur9+gOkwBuMGmAY=.sha256",
-    "branch": "%0jg+HAQ6hkT9pzt6SFzLKDrscRB+Ur9+gOkwBuMGmAY=.sha256",
+    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "branch": "%dxuuD7cztRbnvvs/w8MOM9NBzosOxVKa819HVQQjfLU=.sha256",
     "reply": {
-      "%0jg+HAQ6hkT9pzt6SFzLKDrscRB+Ur9+gOkwBuMGmAY=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%dxuuD7cztRbnvvs/w8MOM9NBzosOxVKa819HVQQjfLU=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "✊",
+    "text": "One problem I should've mentioned with the rebuild: if clients implement different sets of transforms then some messages might be indexed with the correct transforms and others wont. For example, Patchbay could support group messages and do a huge rebuild only to have the user download some more messages with Patchwork that require another full rebuild once Patchbay is started again. Maybe this big rebuild might be a good time to switch to client-specific view directories?",
     "mentions": []
   },
-  "signature": "SjbUYJl5LQBNVKaKLNwVQ917RsJCK/EtRh2j0gvoCEMIFDS2ktYyGinoUBcFA674qz1etB9yoPHuMxl5p3TsDQ==.sig.ed25519"
+  "signature": "uumOv+92BPYHaZbY8I+8KGt6JRJD1qYoQRXU1RJqlcIXS1982DM8Hfw3MmOpc3Sd9LKJWv6ob9huSadwuqi3CQ==.sig.ed25519"
 }
