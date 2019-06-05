@@ -1,21 +1,17 @@
 {
-  "previous": "%+qH8ZkleixCa6/0U+Ii0s+WmLtUIjmRLOhNvE8OwwMo=.sha256",
-  "sequence": 10472,
+  "previous": "%gjHcQV85pDgPpmcNd8lQ71qfH5FJ5HDZSYojAaQ2+fg=.sha256",
+  "sequence": 10473,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559772708916,
+  "timestamp": 1559773295633,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-    "branch": "%dxuuD7cztRbnvvs/w8MOM9NBzosOxVKa819HVQQjfLU=.sha256",
-    "reply": {
-      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%dxuuD7cztRbnvvs/w8MOM9NBzosOxVKa819HVQQjfLU=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "One problem I should've mentioned with the rebuild: if clients implement different sets of transforms then some messages might be indexed with the correct transforms and others wont. For example, Patchbay could support group messages and do a huge rebuild only to have the user download some more messages with Patchwork that require another full rebuild once Patchbay is started again. Maybe this big rebuild might be a good time to switch to client-specific view directories?",
-    "mentions": []
+    "vote": {
+      "link": "%dxuuD7cztRbnvvs/w8MOM9NBzosOxVKa819HVQQjfLU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "uumOv+92BPYHaZbY8I+8KGt6JRJD1qYoQRXU1RJqlcIXS1982DM8Hfw3MmOpc3Sd9LKJWv6ob9huSadwuqi3CQ==.sig.ed25519"
+  "signature": "B+hDmrFV3aDF6kv3UTL0UwN3lKAwF6eBJFAFZbicczI6ODni1ZLsDR7EY7/WckwWKeHP/dX1EShhrwFliTxkBg==.sig.ed25519"
 }
