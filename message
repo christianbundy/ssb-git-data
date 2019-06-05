@@ -1,26 +1,21 @@
 {
-  "previous": "%OUliCcOypUeuN1akHEuX+YLPj/L63GEoi+U0X24UfsE=.sha256",
-  "sequence": 10457,
+  "previous": "%wH3cwR1lAMXh/ww1OiHlW7ZTWbn2+G5KgUkWGCoBrQs=.sha256",
+  "sequence": 10458,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559697471140,
+  "timestamp": 1559697583954,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%KJ3k6SELYAaZy6b9LV/IJn1bRGNbhwn8m0pU6hPlZxE=.sha256",
-    "fork": "%SdXoNxLQUTJ01d8E8ug3cQRSTdajfJm3xC0Yh5QaTto=.sha256",
-    "branch": "%KJ3k6SELYAaZy6b9LV/IJn1bRGNbhwn8m0pU6hPlZxE=.sha256",
+    "root": "%GrDTrDDCHNIETha4jjInPVfWhw+DvOdu4ckN9p7d0Yw=.sha256",
+    "fork": "%8UgWy0sN8LbTbIOaiyTDArQ5M8HxGU7u9Y35uQQTi54=.sha256",
+    "branch": "%GrDTrDDCHNIETha4jjInPVfWhw+DvOdu4ckN9p7d0Yw=.sha256",
     "reply": {
-      "%KJ3k6SELYAaZy6b9LV/IJn1bRGNbhwn8m0pU6hPlZxE=.sha256": "@lShKH/7fpHh+b4sk2WLP8aU3E/XCPLuNpa+gBshwa1I=.ed25519"
+      "%GrDTrDDCHNIETha4jjInPVfWhw+DvOdu4ckN9p7d0Yw=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@rusty](@lShKH/7fpHh+b4sk2WLP8aU3E/XCPLuNpa+gBshwa1I=.ed25519) \n\nawesome! I'm excited to hear how that goes, I've got lots of small tweaks I'd like to make but I'm unsure on how to do them best. I'll be interested to hear which pain points you run into.",
-    "mentions": [
-      {
-        "link": "@lShKH/7fpHh+b4sk2WLP8aU3E/XCPLuNpa+gBshwa1I=.ed25519",
-        "name": "rusty"
-      }
-    ]
+    "text": "> I don’t know if peers identify themselves by their pubkey when they connect to a pub though\n\nYeah, they do -- all connections between peers use [secret-handshake](https://github.com/auditdrivencrypto/secret-handshake), which identifies both parties to each other (but not to eavesdroppers).",
+    "mentions": []
   },
-  "signature": "q7d/e0pvQwdeQX55eXI9eUrUUau+Q59ifVJiKWSIVtQiXKFGQJQSLfybPqzJ6HsYKOCR22Vn2iiogIQIxiTjBg==.sig.ed25519"
+  "signature": "158x19FPM999sARCFBShQsFuzjS0Li5osCR0FOqAIwCl0d7UZtyiWo5xZxCrCT8xOapLgqSXr+RgFamc9x4yDQ==.sig.ed25519"
 }
