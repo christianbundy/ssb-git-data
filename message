@@ -1,17 +1,46 @@
 {
-  "previous": "%YyJw1OkM2i5oJwn9tMZLKmH4s4HuQ8Fw350JOO5Y//U=.sha256",
-  "sequence": 10465,
+  "previous": "%AP2xiOihKuIyZn3boTRslhnaHqybiz0prfJ3tz8+iKQ=.sha256",
+  "sequence": 10466,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559747945755,
+  "timestamp": 1559755394967,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "commonplace",
-    "vote": {
-      "link": "%qX4+1L+j/OtMhl7cLfyoJW1NENoANYBP3UPBAa9N24I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# How can we deploy new transforms to Scuttlebutt?\n\nThe JavaScript implementation has a [database called flumedb][flumedb] where each message is passed to a handful of views, which extract the information they need and save it in their own little database. These views are isolated from each other, which is *usually* fine but presents a problem when you want to transform the messages before the view sees the data.\n\n## Problem\n\nThe most prominent use-case is that we always want to decrypt messages before the view sees the message, so we transform the data before it's passed to the view. This is great! But what happens if we want to deploy a different transform to the data? Some examples:\n\n- decryption with a different key\n- decryption with a different algorithm\n- decryption of a group chat we've just been invited to\n- my use-case: off-chain content\n\nIf we add one of the above then *future* messages that we receive will be correctly transformed before they're passed to a view, but previous messages will still be in their decrypted (or unlinked) state. Consider the following:\n\n1. Scuttlebutt deploys group chats!\n2. Alice upgrades her client\n3. Alice starts an encrypted group chat with Bob\n4. Bob upgrades his client\n5. Bob checks his group chat view and doesn't see anything\n\nThat's bad.\n\n## Solutions\n\n### Rebuild\n\nThe recommended way to handle this is to delete your views and rebuild them from scratch. This is slow, resource-intensive, and frustrating for everyone involved. I've talked to Dominic about partial rebuilds where we could rebuild an individual message but he didn't seem keen, and this still wouldn't solve the problem of reduce functions where you *can't* just rebuild an individual message.\n\n### Soft-fork\n\nWe *could* deploy a small change to the protocol when we deploy the new transform function, which would stop old clients from replicating new messages so they wouldn't receive messages that their client couldn't understand. Once they update their client to the newest version, they'd receive (and transform) the new messages.\n\nI'm not super excited about solving an implementation problem by soft-forking the protocol, but it's an option. This is a duct tape solution at best, but it might be better than forcing every client to do a full rebuild.\n\n### Radical change\n\nMaybe these transforms should be their own views? Maybe views should be able to query each other? Maybe partial rebuilds on map views are worth trying? Maybe we should be using [SQL][flumeview-sql]? **Maybe there's an option I haven't considered?** I'd really love to be able to deploy these improvements without breaking everything in the process.\n\n## I don't know\n\nI've been working a bunch on off-chain content and I'm really happy with it, but I'm concerned that deploying it to the JavaScript implementation is going to be a real challenge. The current options seem to be *rebuild*, *fork*, or *refactor*, and I'm not feeling particularly excited about any of these options. I'd love some advice on this.\n\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) [@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\n\n[flumedb]: https://github.com/flumedb/flumedb/\n[flumeview-sql]: https://github.com/sunrise-choir/ssb-flumeview-sql#example        ",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
+        "name": "regular"
+      },
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      }
+    ]
   },
-  "signature": "q2+ImqWUD7L52oDtxC2WsrpHPkmPcwMq4Ss457ED3H7fnRuUUglHIs++UZW+juY7nlH1wNZqdil87s1NCU2YDQ==.sig.ed25519"
+  "signature": "IjjQsRm2FNTan29xXCN/dSwfAyDgdLP5gczASUZCfcXBjKcX3HwC7lGTcY01t7m5mt3CQ021k8TSklOUot9rCg==.sig.ed25519"
 }
