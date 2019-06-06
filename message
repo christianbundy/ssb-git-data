@@ -1,16 +1,27 @@
 {
-  "previous": "%1hQjbOcAqzcTybo2lvNiEb3kOXH1x8gbNN/huE18yWE=.sha256",
-  "sequence": 10488,
+  "previous": "%APrwHWrCPBgEZV48jljXxxxu7Z94uDOAlDHqitOmyJU=.sha256",
+  "sequence": 10489,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559847573346,
+  "timestamp": 1559847642493,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%g6xtRNPt1Y3KOSB2LSMB7HvF48wotUCDAmEJdwNbrbM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%U4NeMN5KkrQyiUpzow2P3S0HS0z+WlhOuhDBUfXOyHk=.sha256",
+    "fork": "%N9y+Ke5pDVg7P3jnXkoqgimyTm+nfPojlOqfVHyqNYc=.sha256",
+    "branch": "%IM/NaHNSJVBCMj2pPtFIgxzikUhoABGyxDfvOR1mG90=.sha256",
+    "reply": {
+      "%U4NeMN5KkrQyiUpzow2P3S0HS0z+WlhOuhDBUfXOyHk=.sha256": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
+      "%IM/NaHNSJVBCMj2pPtFIgxzikUhoABGyxDfvOR1mG90=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": "socialism",
+    "recps": null,
+    "text": "oops, meant to mention ^ [@jer](@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@uf3kajfhBC2Sd3OysKB5LnBLJ5pwgBhBpXnGEGzgG6A=.ed25519",
+        "name": "jer"
+      }
+    ]
   },
-  "signature": "wKjy9t261/62HAI+HjO0vmKnpj4DXZGw1MSzaciO/jyYmNfStYSbWu/WEKCmn268acKzFkHPy0IeAPvUPG/OCw==.sig.ed25519"
+  "signature": "RyYZ+P+GjGMpH++3ZbWG8Tpk3aAH1mNtnJ5ErIWcG6nqJ6JqKd9hp+jIAFtwqJYzXgW9uePOCljqZgWdrslrCQ==.sig.ed25519"
 }
