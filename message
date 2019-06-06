@@ -1,9 +1,34 @@
 {
-  "previous": "%Ij2yNWVuwUFwbv3HnFdFZ6kHTzQVTNODKF4DslPTnnw=.sha256",
-  "sequence": 10499,
+  "previous": "%n3Su7MdJK8lbzoC3NpQzJo8wtBz8nQX58XQHjMP60Ec=.sha256",
+  "sequence": 10500,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559856278045,
+  "timestamp": 1559864389202,
   "hash": "sha256",
-  "content": "ht91L2DrC9OFKnAUAviv+/UqgAZLhuQAQIQM8GeOH9rOgBKjkAB0JylNEWtSn3t5uLtOVzVtsAFyhg9+/riJKAx06nJpIc50UuxO6Fm71XZYiW4wb1JAYncOcbqGW9xv4T50+1aZyPcMQ3UNW+RJ15kaM7ZQdLEh0TJ9GoKISQP4nGGALulL50U/T2F4XbxWhFZ2iSPM8rtVXM3ko7uOO88wycAPzP1I2LlhoRZ+kYIeZI3q9gT/BF3c5V1IF0axa4nWY6ijabd7PUbqpurk6osSREwRZQoxK0zgqvhmgEcvhqg9Ec80bO3M7PnaqECVjvsb5M79HgJ/3OHXg4Y8HaqdBcWk31yOC6oweub9H5WDVRyj2VdlDit7mKwg7i3IMYFuOVV6lTcNY+Dqn2+GD86JZdi5yarPEePWqtKo0TmhdyCNyNaKA7yDdIDP+psSAPOxGYGyEpotKRBY5S12dY9W+lbZTKqrDXJWknihCVvRp8WLrqJq8/+Br8A83aG8SKK2dEuNPyb65MfOO+oMFa9Ky3PyaPao77GeIJUpko8zEKnq7XXWBMm3/tn6R+x0QQNIe3KCo0j+9OLMp1vEZbwXRCEsz6GlyqyaFWE1AzI2/yjxacEueUtftOHY8A85u0ZG85YyBGB/vuXQQNAHj0Xik08UR+NFlNqYS29swdoUkzvmh8RD4O93M7SaYVeYzEVbmJd6KAQOtNAgWnkPSUTW0AHWlINv0ZXtn4qEoIcNlmcp4QCeQAMUJSmyI3+JLTwTjxaLuJcakXZfdiXCm+4Gx1p7I7vS8KYxHvMcxPq9WFQBSe9SnukxkRF5AEn7dcCBtLoEndyBawXvRn30QA9o9N0D82ef4R6E6sLM+jbg.box",
-  "signature": "tSg01hZ2njRpReC8PiTkvxaNlvmBzN2tDplrvcy4BsAlor/XmC6EV0LO3s7WL/w+heF7KtV99ncpNR3rO/eoAw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "branch": "%OYFayYQwMx4e7Hh5L37fQGiC6U+tugbbUZghN6LgUKQ=.sha256",
+    "reply": {
+      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%OYFayYQwMx4e7Hh5L37fQGiC6U+tugbbUZghN6LgUKQ=.sha256": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\n> Maybe a message should carry a field detailing the transforms that were applied to it so that at least a client could infer if it could support it or not.\n\nI think this is a great idea, but in the current architecture I don't think it would help for the database to know that it can't support a transform. It would say \"oops, I don't know how to handle this message\" and pass it to the views, and we'd be in the same place where we need to do a full rebuild.\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI'm super down with SQL, but I'm not sure how we'd be able to solve this particular problem with it without rewriting the majority of the stack. The problem is between the log and the view, so it seems like the only way to use SQL here would be to scrap or rewrite flumedb. The simplest way forward today seems to be baking off-chain content into the protocol (just like private-box decryption), but long-term it seems like the value of `msg.value.content` should be an application-level concern.\n\n[@Rabble](@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519) \n\nYeah! I'd like to look into client-specific views, it *should* be pretty straightforward.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
+        "name": "Rabble"
+      }
+    ]
+  },
+  "signature": "i4X7p8nXnoi+g/YSCqLzE45xintjNB8JJRP+EDcRtSgxZbjGYy6ISBUmK/LvFirhvbJsdytTMz7EH3JdqD8zDg==.sig.ed25519"
 }
