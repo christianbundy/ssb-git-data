@@ -1,17 +1,32 @@
 {
-  "previous": "%mk63ozHPPwsgaNOpoK5+Ul7PJdGD5YFbtzUmxY3J+TM=.sha256",
-  "sequence": 10502,
+  "previous": "%LyVIWlU6DeDEmu/fbq8Gj9o+fXYRJEhdrnUXzqfh9sU=.sha256",
+  "sequence": 10503,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559864502781,
+  "timestamp": 1559867342066,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "podcasts",
-    "vote": {
-      "link": "%w5FW0Q/Pf9R4CpCyW8BND4vxA+dTV/v3ZZnAroMhA/g=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "branch": "%butTGKDGqk1p61zsRhDktdf+wfCbpiLqrMooPlNx9Js=.sha256",
+    "reply": {
+      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%butTGKDGqk1p61zsRhDktdf+wfCbpiLqrMooPlNx9Js=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nDo you have any specific thoughts on how to deal with new transforms? I agree with all of the above, but I'm stuck on the problem of transforming data between the log and the views. The current solution doesn't give us a way to add new transforms in the future, which smells to me like we need a new way of handling decryption.\n\nOne solution might be views that pass data to other views, so you might have a private-box view that passes data to your ssb-friends view, but I'm unclear how we could handle *multiple* input views (private-box, group-box, off-chain content, etc). Maybe some sort of intermediate view that reduces the output of transform views?\n\n![Screenshot from 2019-06-06 17-27-46.png](&5SHqthCiOleDRojak+w3ZAe5N5btDB+p+gsYypsq7sY=.sha256)\n\nThis is the bit I'm unclear on: what do we do when we have a new transform *without* rebuilding every single view?",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "&5SHqthCiOleDRojak+w3ZAe5N5btDB+p+gsYypsq7sY=.sha256",
+        "name": "Screenshot from 2019-06-06 17-27-46.png",
+        "type": "image/png",
+        "size": 61347
+      }
+    ]
   },
-  "signature": "8VkvKwSaKUljOdrC6DBAFv2J9iHgzUc/6ZsbHVRkM4l3y9aU8OaFFSpEbqXgOXyLI8N/nwCddHGsJ+dBY+MzCw==.sig.ed25519"
+  "signature": "FFgSwN6CxMiRbidAUkO+qKxBxj02gwFwuLZjK38AnXC5NlpGSBtE7VU4xjYtzwcNVAhQPqAIjpyeVrN27W52BA==.sig.ed25519"
 }
