@@ -1,21 +1,20 @@
 {
-  "previous": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
-  "sequence": 10511,
+  "previous": "%KCyN4lA0xOcydrwE4d1XAqrl4CPZOU0/wBZ7Rt8sbEw=.sha256",
+  "sequence": 10512,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559932569850,
+  "timestamp": 1559933028597,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-    "branch": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
-    "reply": {
-      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "One last addition!\n\n> I think the big changes here are:\n\n- when a view is depended on by another view, a rebuild should only pass the diff between the previous state and the new state\n  - this means that adding a new decryption key doesn't mean you re-stream all messages to other views\n  - this also means that views need to maintain their own state, which means that transforms should act like real views",
-    "mentions": []
+    "text": "I just saw the Wikipedia article for [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant) and I love the visual effect. Some of the multiple-color variants would make for lovely loading spinners.\n\n![Animation of a green and yellow spiral with small nubs and tendrils that grow as it spins outward. Drawn on a hexagonal grid, it seems to spiral continuously outward but never actually finish.](&w9ZT2pdWB3KTvazpfefxwlsd2ueo70ab6eghd1BoQ3Y=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&w9ZT2pdWB3KTvazpfefxwlsd2ueo70ab6eghd1BoQ3Y=.sha256",
+        "name": "Animation of a green and yellow spiral with small nubs and tendrils that grow as it spins outward. Drawn on a hexagonal grid, it seems to spiral continuously outward but never actually finish.",
+        "type": "image/gif",
+        "size": 306343
+      }
+    ]
   },
-  "signature": "UGaZq4V8TYS/mouBn0FZg8oDIS8cG7X10f9JbCgytOAnB+8jqK8wz55fs14TMobcqqNsv4+gcNbcnIdk3o1YBw==.sig.ed25519"
+  "signature": "x5Fu8hWo7dY5hP5G+1dj6bdk5FJRRKrDOx+HW8cdopfTEOrM9gcZC+r7FFZ6Msiv1+Lld+WC5s0v/G2RRaxYDg==.sig.ed25519"
 }
