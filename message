@@ -1,34 +1,21 @@
 {
-  "previous": "%4Qnf/B/Iy1OkGVzz+l1SDJQMiepg9nSbWixPSNBe+n8=.sha256",
-  "sequence": 10510,
+  "previous": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
+  "sequence": 10511,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559932323597,
+  "timestamp": 1559932569850,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-    "branch": "%ButTG9gkzt5lPL0RdhhiowZYvcUdXIEOGDdWeepo/Zs=.sha256",
+    "branch": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
     "reply": {
       "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%ButTG9gkzt5lPL0RdhhiowZYvcUdXIEOGDdWeepo/Zs=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
+      "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@jaccarmac](@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519) \n\nYeah, I think you're spot on. If we zoom out far enough it seems simple to say \"when a new decryption scheme is added, pass the newly-decrypted messages to each view\", but flume views expect to see each message once, in the order it was received, and the only option for mutability is rebuilding the whole view from scratch. This rebuild is especially painful for low-resource devices (think *hours*, not minutes) and it's important to me that we avoid it unless absolutely necessary.\n\n[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYes! I think one of the big foundational changes here is that a message with  the same key might be passed to a view multiple times with different content. Using the example from the thread root:\n\n1. Scuttlebutt deploys group chats!\n2. Alice upgrades her client\n3. Alice starts an encrypted group chat with Bob\n4. **Bob's decryption view passes along the encrypted messages to the other views**\n5. Bob upgrades his client\n6. **Bob's decryption view streams all messages and passes any newly decrypted messages**\n7. **The other views receive these messages for the second time, now decrypted, and index them**\n5. Bob checks his group chat view and **sees the new group chat with Alice**\n\nOne problem with chaining views is that the intermediate views (i.e. transforms) might need a higher `since` value than the log, since they might receive X messages but could send > X messages downstream to other views (in the form of updates).\n\nThe log might send:\n\n```javascript\n{ key: 0, color: \"red\" }\n{ key: 1, color: \"green\" }\n{ key: 2, color: \"blue\" }\n{ key: 3, color: { decryptedContent: \"e2c692693217e4a2\" } }\n{ key: 4, color: { decryptedContent: \"95fc83207e59f07f\" } }\n{ key: 5, color: \"yellow\" }\n{ key: 6, color: \"magenta\" }\n{ key: 7, decryptionKey: \"1372dda6acbb8835\" }\n```\n\nWhich the decryption view would receive, and pass along to other views as:\n\n```javascript\n{ key: 0, color: \"red\" }\n{ key: 1, color: \"green\" }\n{ key: 2, color: \"blue\" }\n{ key: 3, color: { decryptedContent: \"e2c692693217e4a2\" } }\n{ key: 4, color: { decryptedContent: \"95fc83207e59f07f\" } }\n{ key: 5, color: \"yellow\" }\n{ key: 6, color: \"magenta\" }\n{ key: 7, decryptionKey: \"1372dda6acbb8835\" }\n{ key: 3, color: \"magenta\" }\n{ key: 4, color: \"turquoise\" }\n```\n\nI think the big changes here are:\n\n- views can depend on views\n- views can receive a message with the same key multiple times\n- views can receive messages out-of-order (probably? important for partial replication)\n\ncc: [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519), forgot to cc you above but I imagine you've thought about this lots for both ssb and kappa-core",
-    "mentions": [
-      {
-        "link": "@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519",
-        "name": "jaccarmac"
-      },
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      }
-    ]
+    "text": "One last addition!\n\n> I think the big changes here are:\n\n- when a view is depended on by another view, a rebuild should only pass the diff between the previous state and the new state\n  - this means that adding a new decryption key doesn't mean you re-stream all messages to other views\n  - this also means that views need to maintain their own state, which means that transforms should act like real views",
+    "mentions": []
   },
-  "signature": "jPd+ydsKEOB6rjJfGRtmhI6bUsbsYAmWrNsIG3nft4ZZt3idbJAM7ae9O2qPw+Kmyi99I0/QUPs+wjQ1pCmTBQ==.sig.ed25519"
+  "signature": "UGaZq4V8TYS/mouBn0FZg8oDIS8cG7X10f9JbCgytOAnB+8jqK8wz55fs14TMobcqqNsv4+gcNbcnIdk3o1YBw==.sig.ed25519"
 }
