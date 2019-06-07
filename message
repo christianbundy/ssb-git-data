@@ -1,26 +1,34 @@
 {
-  "previous": "%mf+CLZqlkP1rXeYTp19VuC1qvXhFDjghI0vDtuNmThs=.sha256",
-  "sequence": 10509,
+  "previous": "%4Qnf/B/Iy1OkGVzz+l1SDJQMiepg9nSbWixPSNBe+n8=.sha256",
+  "sequence": 10510,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559930110053,
+  "timestamp": 1559932323597,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256",
-    "fork": "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256",
-    "branch": "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256",
+    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "branch": "%ButTG9gkzt5lPL0RdhhiowZYvcUdXIEOGDdWeepo/Zs=.sha256",
     "reply": {
-      "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256": "@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519"
+      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%ButTG9gkzt5lPL0RdhhiowZYvcUdXIEOGDdWeepo/Zs=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@buoyantair](@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519) \n\nI don't know whether there have been any posts on it, but the gist (from my memory -- maybe wrong) is that it's just a legal entity for moving funds. My understanding is that in the past it's been difficult to receive grants for SSB because there's no legal entity to receive them, so the idea is to set up an entity that can re-distribute funds to individuals. This particular entity would help move Scuttlebutt funds for New Zealanders, but you could also have Scuttlebutt US or Scuttlebutt IN. This group wouldn't have any authority over Scuttlebutt, and is organized more like a social club than a centralized owner of anything.",
+    "text": "[@jaccarmac](@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519) \n\nYeah, I think you're spot on. If we zoom out far enough it seems simple to say \"when a new decryption scheme is added, pass the newly-decrypted messages to each view\", but flume views expect to see each message once, in the order it was received, and the only option for mutability is rebuilding the whole view from scratch. This rebuild is especially painful for low-resource devices (think *hours*, not minutes) and it's important to me that we avoid it unless absolutely necessary.\n\n[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYes! I think one of the big foundational changes here is that a message with  the same key might be passed to a view multiple times with different content. Using the example from the thread root:\n\n1. Scuttlebutt deploys group chats!\n2. Alice upgrades her client\n3. Alice starts an encrypted group chat with Bob\n4. **Bob's decryption view passes along the encrypted messages to the other views**\n5. Bob upgrades his client\n6. **Bob's decryption view streams all messages and passes any newly decrypted messages**\n7. **The other views receive these messages for the second time, now decrypted, and index them**\n5. Bob checks his group chat view and **sees the new group chat with Alice**\n\nOne problem with chaining views is that the intermediate views (i.e. transforms) might need a higher `since` value than the log, since they might receive X messages but could send > X messages downstream to other views (in the form of updates).\n\nThe log might send:\n\n```javascript\n{ key: 0, color: \"red\" }\n{ key: 1, color: \"green\" }\n{ key: 2, color: \"blue\" }\n{ key: 3, color: { decryptedContent: \"e2c692693217e4a2\" } }\n{ key: 4, color: { decryptedContent: \"95fc83207e59f07f\" } }\n{ key: 5, color: \"yellow\" }\n{ key: 6, color: \"magenta\" }\n{ key: 7, decryptionKey: \"1372dda6acbb8835\" }\n```\n\nWhich the decryption view would receive, and pass along to other views as:\n\n```javascript\n{ key: 0, color: \"red\" }\n{ key: 1, color: \"green\" }\n{ key: 2, color: \"blue\" }\n{ key: 3, color: { decryptedContent: \"e2c692693217e4a2\" } }\n{ key: 4, color: { decryptedContent: \"95fc83207e59f07f\" } }\n{ key: 5, color: \"yellow\" }\n{ key: 6, color: \"magenta\" }\n{ key: 7, decryptionKey: \"1372dda6acbb8835\" }\n{ key: 3, color: \"magenta\" }\n{ key: 4, color: \"turquoise\" }\n```\n\nI think the big changes here are:\n\n- views can depend on views\n- views can receive a message with the same key multiple times\n- views can receive messages out-of-order (probably? important for partial replication)\n\ncc: [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519), forgot to cc you above but I imagine you've thought about this lots for both ssb and kappa-core",
     "mentions": [
       {
-        "link": "@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519",
-        "name": "buoyantair"
+        "link": "@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519",
+        "name": "jaccarmac"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
       }
     ]
   },
-  "signature": "20UqlUsZCwPyBTclHX06aHR5BypvDe56RcHISf1XJJcUVljaxeElrExCAttNWraQEe9NzeW7H5Higp5ybfV8Cg==.sig.ed25519"
+  "signature": "jPd+ydsKEOB6rjJfGRtmhI6bUsbsYAmWrNsIG3nft4ZZt3idbJAM7ae9O2qPw+Kmyi99I0/QUPs+wjQ1pCmTBQ==.sig.ed25519"
 }
