@@ -1,16 +1,26 @@
 {
-  "previous": "%yIS0FOA1bz6WvsfqTshW8PNmjG5SPt4UPywvxDEzzBk=.sha256",
-  "sequence": 10508,
+  "previous": "%mf+CLZqlkP1rXeYTp19VuC1qvXhFDjghI0vDtuNmThs=.sha256",
+  "sequence": 10509,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559927422171,
+  "timestamp": 1559930110053,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%B7aXkpUjWocMTJdszy4ybLaLDpYWkg86SY24YHgsjmk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256",
+    "fork": "%kZMUA5v/0nl+7eY6REW4mLzzJ1bEoOBKlGDU5NAUwx8=.sha256",
+    "branch": "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256",
+    "reply": {
+      "%bPOS0rlgZwNS7uDJaOhBtxZnJgB48xMG6bKT90N6aF8=.sha256": "@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@buoyantair](@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519) \n\nI don't know whether there have been any posts on it, but the gist (from my memory -- maybe wrong) is that it's just a legal entity for moving funds. My understanding is that in the past it's been difficult to receive grants for SSB because there's no legal entity to receive them, so the idea is to set up an entity that can re-distribute funds to individuals. This particular entity would help move Scuttlebutt funds for New Zealanders, but you could also have Scuttlebutt US or Scuttlebutt IN. This group wouldn't have any authority over Scuttlebutt, and is organized more like a social club than a centralized owner of anything.",
+    "mentions": [
+      {
+        "link": "@b3ae566cmHDS8GYSHoKP8vsjRExQp5glpGRF1+dg0Sw=.ed25519",
+        "name": "buoyantair"
+      }
+    ]
   },
-  "signature": "iyGmRvf4avEC3WuplRb0naKbLFZBBX9f5BM1QmBHImJqIKuFUQiAYfN4Y/tFhPprMT2v6VlMNAA0dBXb3GtUCw==.sig.ed25519"
+  "signature": "20UqlUsZCwPyBTclHX06aHR5BypvDe56RcHISf1XJJcUVljaxeElrExCAttNWraQEe9NzeW7H5Higp5ybfV8Cg==.sig.ed25519"
 }
