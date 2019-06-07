@@ -1,32 +1,9 @@
 {
-  "previous": "%LyVIWlU6DeDEmu/fbq8Gj9o+fXYRJEhdrnUXzqfh9sU=.sha256",
-  "sequence": 10503,
+  "previous": "%qHwrcaA6LRh5JhBdyD2aaHed2TDnVjlZH/BuMm4g/6M=.sha256",
+  "sequence": 10504,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559867342066,
+  "timestamp": 1559918101910,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-    "branch": "%butTGKDGqk1p61zsRhDktdf+wfCbpiLqrMooPlNx9Js=.sha256",
-    "reply": {
-      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%butTGKDGqk1p61zsRhDktdf+wfCbpiLqrMooPlNx9Js=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nDo you have any specific thoughts on how to deal with new transforms? I agree with all of the above, but I'm stuck on the problem of transforming data between the log and the views. The current solution doesn't give us a way to add new transforms in the future, which smells to me like we need a new way of handling decryption.\n\nOne solution might be views that pass data to other views, so you might have a private-box view that passes data to your ssb-friends view, but I'm unclear how we could handle *multiple* input views (private-box, group-box, off-chain content, etc). Maybe some sort of intermediate view that reduces the output of transform views?\n\n![Screenshot from 2019-06-06 17-27-46.png](&5SHqthCiOleDRojak+w3ZAe5N5btDB+p+gsYypsq7sY=.sha256)\n\nThis is the bit I'm unclear on: what do we do when we have a new transform *without* rebuilding every single view?",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      },
-      {
-        "link": "&5SHqthCiOleDRojak+w3ZAe5N5btDB+p+gsYypsq7sY=.sha256",
-        "name": "Screenshot from 2019-06-06 17-27-46.png",
-        "type": "image/png",
-        "size": 61347
-      }
-    ]
-  },
-  "signature": "FFgSwN6CxMiRbidAUkO+qKxBxj02gwFwuLZjK38AnXC5NlpGSBtE7VU4xjYtzwcNVAhQPqAIjpyeVrN27W52BA==.sig.ed25519"
+  "content": "QpKoeRNsQNVb0qoGoaRvEqzg10zquOQ5jqMOENdMNaGUlt291wp+w//6D9X/aJltDbMQ5b5wQwxIxcj7AAxxWhvC8zfkF0dfn3nIr7k+SRBvv1xuCV3xICJwzXc8Ct2K6arOwOeWvVvgQ3RpIWjnxLCjoUmKbE0rcnAdpLZzZe/k4E1W4dPIgpy1HVHbHaXdNrnUUx0tn73jNjyqmFKI+ZfFyPl+GwhgKDxBd9cFK3rs+40uyjI32QpzI//EHdBVy48ucKtrshAZb3KvzgUANUuE77AuxPwuz7TGD6rtIBe2mi1MC/5OQldzydvhlwYNylklDQ7JBjMrBVUzIY0XIpURzJAlhxBGzZvq0c86uOlEqHNiOTZAILC5uN/xoXdo/OXz37yz+fUJv+axfPYa5OQNIgAEEr5cfY4UHgom5ICMIp79qKEGXb2w+W3Mo4tGGyflHXBlZrHVdXoC59MByliP+5ZshlVjsuXD/D9PDz7mQG6QywabPMzB2ATBlZLTTg8vuZYhZoSjL3WOqOMz+VC7ONgL9EW9l7ZjnrdGda4LtQ/7NwysMxjYRAr6u+f12ivJUOyVIBLAlmGuKeJSH0MJII9nJKRmnC37ZcbtVcEaBlNhOJr97BJ+OupqByxZbHwyWw/k5Kq/g8i6SwMwDVLU+tIeuwWLHAwN9dcUIwXAoKi6RRLflp8vmsKeyY6JHXfKUrQu/aTA+d+JLZJJ1lWL/gBF235MxAp+ROgTtOuXwJ2L10GEIs1s8S1K9WWF4/KGnPNdyhoJ8LwNlMSPGHHmA1jvC79asc2GO52LEgmU0a3G9epJl73g8iCkynzD3YJV7e5h9sJ6v7+92YYwm51cJVQzLYfekmnzhxY3bHLh08uIPZ5WaR8TKahfd+oSsb0jXVS+YMNEdGDWYnlq2iOFWA4r1Vh+lR/Z1dssXkyPsOFxJwWk8+8BIz2G/XjzR54Sow2YDhKCKu+2bXEZoMSvLhGrF3bXWJpJfw6zkFwCuOKlk7ZVAWy4qsLV7a0SkVpdI8bXviaRyXLWs7IrTmfSR6C95AoVupttgzOxITXluD95Dr9IzI5lsq743dMr2E4oofwd8QembKrbmyDwQpOLAQkSHXt39cm9n6OJj4MTmsUet90PgEfFDNnBmXYAoXae4ftzpM+JRCmrdkq/TqD54uFW9PkI7FKD70zK3Iakk2/1RNSuctZ+9z90BcN/OtdJjrQf3voROJ10j9tO5AnoWuEAtR6jeRpABei11YzJhGua4WYpLlRN8De82AnZwzLAQqBNN30O9DfCmzDX.box",
+  "signature": "GyVwYSkkA+/ZDeTZJqbt83U9pd1gP4g6YsHNqsnSSf4EZ2lpvFtDqMWcPjONhBF/Ti3Uo5qcN0gpbcrCby4wBQ==.sig.ed25519"
 }
