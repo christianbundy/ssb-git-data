@@ -1,17 +1,25 @@
 {
-  "previous": "%OYe7LO4WOnorKmiotcz3yLnfo68bT5esyBsmxUucSwQ=.sha256",
-  "sequence": 10513,
+  "previous": "%9+76Hd0Y7EkWIAnj9gIgVHD5fCN3SwEcvCHHM8gvVc0=.sha256",
+  "sequence": 10514,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559935472096,
+  "timestamp": 1559939475068,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-research",
-    "vote": {
-      "link": "%+WCE1V12/hxvgwfun0KnVKMl6y99iOtG+YcqQpcHjiw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Cl4MQh3u0PwRhNR9IBElq8vvsHoI8DcpDKNohuhk7gg=.sha256",
+    "branch": "%Cl4MQh3u0PwRhNR9IBElq8vvsHoI8DcpDKNohuhk7gg=.sha256",
+    "reply": {
+      "%Cl4MQh3u0PwRhNR9IBElq8vvsHoI8DcpDKNohuhk7gg=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kwargs](@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519)\n\n> I wonder, is anyone sharing ssb keys between devices, just making sure that they are synced before posting?\n\nIt's been done, but it often ends with a forked feed. I wouldn't recommend it. 🙃",
+    "mentions": [
+      {
+        "link": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
+        "name": "kwargs"
+      }
+    ]
   },
-  "signature": "d2sCWkk/+2C7Pzlvm4MxUR5C3DQHaoc6gpf7yN74iOykfbUtVnr49Vc2JyXDhUij6lpzNJReJ8GXAoCncB4YDw==.sig.ed25519"
+  "signature": "wcTE9KDmJcYTyJpLqDHpIdqUD6rQ5wi8FSiaE4UNLrXm3elajXxpK2g+XIlIMgSSxzFzjTHSGH+LDoY7lVUiCg==.sig.ed25519"
 }
