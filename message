@@ -1,26 +1,28 @@
 {
-  "previous": "%buNTKtM5wfH01FagPMZ7tWZR7DdBS7BnoKIWNEtHmY4=.sha256",
-  "sequence": 10524,
+  "previous": "%208eutIXttpl6FBQQecgL5f83Dhk9qH779m//Q2Syn8=.sha256",
+  "sequence": 10525,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1559953359011,
+  "timestamp": 1559953549979,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%/dYOejG5TR8C6BD59DZASMdkm/GcF1wZxfsaTqpo3Mo=.sha256",
-    "fork": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-    "branch": "%/dYOejG5TR8C6BD59DZASMdkm/GcF1wZxfsaTqpo3Mo=.sha256",
+    "root": "%+iZJZCrZf+HEMR9MhxK6/lITvFeizxd0Kaz9SsdMw2c=.sha256",
+    "branch": "%+iZJZCrZf+HEMR9MhxK6/lITvFeizxd0Kaz9SsdMw2c=.sha256",
     "reply": {
-      "%/dYOejG5TR8C6BD59DZASMdkm/GcF1wZxfsaTqpo3Mo=.sha256": "@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519"
+      "%+iZJZCrZf+HEMR9MhxK6/lITvFeizxd0Kaz9SsdMw2c=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
     },
-    "channel": null,
+    "channel": "flume",
     "recps": null,
-    "text": "[@jaccarmac](@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519) \n\nDisclaimer: I don't know what I'm talking about, and you're probably better off reading the [flumedb readme](https://github.com/flumedb/flumedb/blob/master/README.md) and the awesome [flume-intro](https://github.com/mixmix/flume-intro/blob/master/README.md) video for some more basic info on how the JS implementation handles data.\n\n> This seems to suggest that currently, all views are expected to behave like event-streams themselves?\n\nYeah, the implementation is surprisingly simple:\n\n- The log and views all have sequence numbers that represent their internal state.\n- Sequence numbers start at `-1` in an empty log / view and increment each time they receive a message.\n- The log receives messages, appends to the database, and increments its sequence number.\n- The message is run through all transform functions (here be dragons) and then passed to the view.\n- The view runs some function on the message (usually map / filter / reduce) and increments its own sequence number.\n- You can determine whether a view is completely up-to-date when its sequence number matches the sequence number of the log.\n\nI've written some super simple implementations for both a [log](https://github.com/fraction/flumelog-array) and a [view](https://github.com/fraction/flumeview-array) if you'd like to see some code, but the gist is views aren't streams but they take streams as input, and currently we don't have a way for a transform to say \"hey I just learned to decrypt message 42 and the value should be ________\" without breaking the semantics behind `since`. If we add intermediate views we'll need a new way to check whether views are up-to-date. Happy to chat more about this or have a call if you'd like.",
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nNot yet, but I just started a thread about it here: %Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
     "mentions": [
       {
-        "link": "@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519",
-        "name": "jaccarmac"
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      },
+      {
+        "link": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256"
       }
     ]
   },
-  "signature": "y+YNlPg34BXvTKecx3uA1LwPcp2hsk8rc/iKyLJ83Ixqt4iFr3MRfcL048NG8tZun+pOJ1wabkFKr5+uOyo5DA==.sig.ed25519"
+  "signature": "CU2qlE79xoZO7JZhIcnBJ2nWVmzOn/G9WkJCgrz6ajPgRT/B/9pwOiY091YHFqNGQQPwI7wDo8fUA/bp1xr6CQ==.sig.ed25519"
 }
