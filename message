@@ -1,26 +1,17 @@
 {
-  "previous": "%h9vUScTiRa1ZfUMqG8d2+Z7kedD5h69Eh5C3yknlV2g=.sha256",
-  "sequence": 10536,
+  "previous": "%mcExxSfSaeqWuYn12Q7163YMwCTejzlrNkFMAvECb1Q=.sha256",
+  "sequence": 10537,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560104701074,
+  "timestamp": 1560105031948,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xaw/U3Jm1NJ6htXl9GGxJJrwOtLE2WMTgGnzKhglMxE=.sha256",
-    "branch": "%Iyhz/ZZGBmHsSem+N6kMAkzUHSlQpRGqCEQFh6C+iEQ=.sha256",
-    "reply": {
-      "%xaw/U3Jm1NJ6htXl9GGxJJrwOtLE2WMTgGnzKhglMxE=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
-      "%Iyhz/ZZGBmHsSem+N6kMAkzUHSlQpRGqCEQFh6C+iEQ=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "cc: [@jordan](@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519), welcome to buttspace!",
-    "mentions": [
-      {
-        "link": "@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519",
-        "name": "jordan"
-      }
-    ]
+    "vote": {
+      "link": "%gbN4sXAo+qljNrdnE9FL0V1Sq5Cderw4HyVeFCVfBeE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "pWscbHgb2jTFwEQsXBmui9peNmVh8JFk/l5mgfEl013DVXA4CalfvXyYoGcKHy5EgxVsWz+6B7X+VtAsgEG4Cg==.sig.ed25519"
+  "signature": "LPhV2Y+QuGg09xUVJO0YZIAPzBIILFcTNOmTpzimf7OPIHUeWBx9sa8MbcFhCLOfWwZwqIgwxy8PsU+00wRSAA==.sig.ed25519"
 }
