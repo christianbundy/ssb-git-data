@@ -1,25 +1,21 @@
 {
-  "previous": "%LvOV8G7hapk55BUX7R19yzyZ4RTgxzMnUkEXwP+PoFg=.sha256",
-  "sequence": 10546,
+  "previous": "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256",
+  "sequence": 10547,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560172773935,
+  "timestamp": 1560173017318,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256",
-    "branch": "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256",
+    "branch": "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256",
     "reply": {
-      "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519"
+      "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+      "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "I've used `npx ssb-to-graphml` (from [this thread](%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256)) but I don't actually know how to parse the data.",
-    "mentions": [
-      {
-        "link": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
-        "name": "this thread"
-      }
-    ]
+    "text": "Actually `ssb-server createFriendStream` might be helpful, although I think you'll need to run ssb-server or Patchbay to get it running (Patchwork uses its own logic for friends IIRC):\n\n```console\n$ ssb-server friends.createFriendStream --help\nfriends.createFriendStream # same as `stream`, but output is series of `{id: <FeedId>, hops: <hops>}`\n  --start [FeedId]  # feed at which to start traversing graph from, default to your own feed id\n  --max   [number]  # include feeds less than or equal to this number of hops\n  --live  [boolean] # include real time results, defaults to false\n  --old   [boolean] # include old results, defaults to true\n```",
+    "mentions": []
   },
-  "signature": "TyRZT2JAVFhc8Tep2Bc9ZfeYPxbz969+/sVZmCTve8ffXahfr971PooiQVcwkUOszCyhlQ7lD+IPyW+D4Lm1Cg==.sig.ed25519"
+  "signature": "Utr9V13D0UMyXhiHaS/Qg8x3+MLEbPD5RThAxJ/5yL/yqK6toq02sNoAPF1huYlA0DNfLzaLinnMsmWX4Xm8AQ==.sig.ed25519"
 }
