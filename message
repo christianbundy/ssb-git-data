@@ -1,28 +1,13 @@
 {
-  "previous": "%CLmtqs4JtUjRSFaE3DbpJL1JE3Qr86QHzuLACwkO9RA=.sha256",
-  "sequence": 10566,
+  "previous": "%z7/GE9oex1Lm3bpGKuJdkI5bcJdx4sXyZ6Mh1Mc6q5Y=.sha256",
+  "sequence": 10567,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560192007388,
+  "timestamp": 1560192645732,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%aGMvL18fYVtopZ8+ks3kpETBGzFhZEWdTMhAVRkGVDc=.sha256",
-    "fork": "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256",
-    "branch": "%aGMvL18fYVtopZ8+ks3kpETBGzFhZEWdTMhAVRkGVDc=.sha256",
-    "reply": {
-      "%aGMvL18fYVtopZ8+ks3kpETBGzFhZEWdTMhAVRkGVDc=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": "checkin",
-    "recps": null,
-    "text": "Tiny note on this: this gives them the semantic of being *headers*, which means they'll show up in the table of contents for folks with screen readers. Using `#` makes it an `<h1>`, a top-level header, which can really jumble up documents for people with accessibility needs. For example, the https://scuttlebutt.nz website looks like this:\n\n![Screenshot of the WAVE accessibility tool, which shows the structure of the document. The document jumps between h1, h2, h4, has multiple empty h1 tags, and transparent h1 tags for spinners.](&Ll2P9ZrtQuuq/Uio8fXSHwzt6v+bRseih3ufOLvcyrY=.sha256)\n\nI don't think it makes a big difference for small comments, but I would *personally* recommend against using headers for cosmetic effects. Also, because text on the web is sometimes ambiguous: this is meant to come off as a friendly suggestion, no tsk-tsking at all. ❤ ",
-    "mentions": [
-      {
-        "link": "&Ll2P9ZrtQuuq/Uio8fXSHwzt6v+bRseih3ufOLvcyrY=.sha256",
-        "name": "Screenshot of the WAVE accessibility tool, which shows the structure of the document. The document jumps between h1, h2, h4, has multiple empty h1 tags, and transparent h1 tags for spinners.",
-        "type": "image/png",
-        "size": 37489
-      }
-    ]
+    "type": "contact",
+    "contact": "@TestMQrhaRR2GA3k+kMSqiVReOJbb3U+BUlf2wWlzCk=.ed25519",
+    "following": false
   },
-  "signature": "+l/KHMrfoa6jQJ0Dn9gAzorlIpk+QaVFOE4t+i9nkJHCIRnA9goO14u4rF/X7/ISmS8txRbyqF++Fl4FWXeCDA==.sig.ed25519"
+  "signature": "E194N2970g8pzSj3RbcsJm28vB0Wrty5ZBQWn+Oo/67jlMsgFIDUSBD6GNEieLXT8lUs3nIpzf2SsmD2ZNsEBQ==.sig.ed25519"
 }
