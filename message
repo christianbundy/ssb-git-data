@@ -1,17 +1,26 @@
 {
-  "previous": "%NY4nmhlKwghfrbqMJSwlT5iM0WxBAsolDk3B3pG8tf8=.sha256",
-  "sequence": 10553,
+  "previous": "%7H4PnsPPYAPfQeiYw5TIc2lM43saLxTg1Prlqz0bih8=.sha256",
+  "sequence": 10554,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560181004045,
+  "timestamp": 1560181141460,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Lcij4nhyoWrlpeBPZXBmg0fEt4ZwdfXgfdcRNGt0Upc=.sha256",
+    "branch": "%684PVc+f6lZhEEnOmlam/MzLE8pVygPzShGxrX6iZRU=.sha256",
+    "reply": {
+      "%Lcij4nhyoWrlpeBPZXBmg0fEt4ZwdfXgfdcRNGt0Upc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%684PVc+f6lZhEEnOmlam/MzLE8pVygPzShGxrX6iZRU=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%b0pbtJithl1ripZfFm/JbonvQIk0/rxmBFlYNDByfyg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nI haven't used it (and can't recommend it), but there's [aui](https://github.com/helmuthdu/aui) which does LUKS. Keep in mind that the culture of the forums is \"we only help if you typed the commands in yourself, preferably following the wiki\", but it might be worth using *at least* as a secondary source.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ]
   },
-  "signature": "l8db4zHjCdlqm4PnkHBY3KyhfbR8dGmZeNHWuWb8nwq1YUjlxDfmBpSD4avpwiWlnLdl3hnVOy/IRu0eybzIAw==.sig.ed25519"
+  "signature": "x7Bs0BMFJBLNAn5Jwxdyen2WiZftwCstRqsceZGtRdAoJp+dKT6W/BdMPph1PyKK6aqywZEJPGSpRBa6ho39Dw==.sig.ed25519"
 }
