@@ -1,16 +1,25 @@
 {
-  "previous": "%7k6ctuaOjeb/r2kTNygn0SDFRzmsMphsIk5iZxCXthE=.sha256",
-  "sequence": 10555,
+  "previous": "%LmGNyKN7og02bTS4lAuLFdDqt3ZsVP+KWb8j0RUl3ds=.sha256",
+  "sequence": 10556,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560181151871,
+  "timestamp": 1560181173336,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4eOI2p8TnX2hRfbluGUCXMxfCvYWbOD+fuJxH4tZk7Y=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4eOI2p8TnX2hRfbluGUCXMxfCvYWbOD+fuJxH4tZk7Y=.sha256",
+    "branch": "%4eOI2p8TnX2hRfbluGUCXMxfCvYWbOD+fuJxH4tZk7Y=.sha256",
+    "reply": {
+      "%4eOI2p8TnX2hRfbluGUCXMxfCvYWbOD+fuJxH4tZk7Y=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nI have a Google Cardboard, does that work? Or do I need an expensive setup to get started?",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      }
+    ]
   },
-  "signature": "rl7wPXLraIk3B4YIxvPlLF6Ilc45rM9AbKnZxVNfKKjueQoFU2cG16KEfXIWjlnSxrvHo30FIWBqGpUH2sbjDA==.sig.ed25519"
+  "signature": "UtHLhHD/I+7+MJ5qVdPpr4jtFxOqAD7iB7CCV5EmS/KDWn6MssBI2ldr1V/I8XLisshudK7iMSMY12xVBVkqCw==.sig.ed25519"
 }
