@@ -1,21 +1,17 @@
 {
-  "previous": "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256",
-  "sequence": 10547,
+  "previous": "%OvLPXKpsK/m+0ijtGB5zD8vXTS2ATMupGB8LhtjN12k=.sha256",
+  "sequence": 10548,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560173017318,
+  "timestamp": 1560173022747,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256",
-    "branch": "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256",
-    "reply": {
-      "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-      "%ZvbUQycaOXxXTQeHz+Ly+wmt9Iszrsff6q/PRj+ECio=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Actually `ssb-server createFriendStream` might be helpful, although I think you'll need to run ssb-server or Patchbay to get it running (Patchwork uses its own logic for friends IIRC):\n\n```console\n$ ssb-server friends.createFriendStream --help\nfriends.createFriendStream # same as `stream`, but output is series of `{id: <FeedId>, hops: <hops>}`\n  --start [FeedId]  # feed at which to start traversing graph from, default to your own feed id\n  --max   [number]  # include feeds less than or equal to this number of hops\n  --live  [boolean] # include real time results, defaults to false\n  --old   [boolean] # include old results, defaults to true\n```",
-    "mentions": []
+    "type": "vote",
+    "channel": "woodworking",
+    "vote": {
+      "link": "%SN76PykDIpu6GaB5Xg9OtiXz5X5Uhrf7ivmseS60cpQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Utr9V13D0UMyXhiHaS/Qg8x3+MLEbPD5RThAxJ/5yL/yqK6toq02sNoAPF1huYlA0DNfLzaLinnMsmWX4Xm8AQ==.sig.ed25519"
+  "signature": "tF6vfR0zPEtGQ8Z4+w4MNnrvDXuYveaSNDmWFEgkmVLXT7QRUYkPE283zUWSzfwendTuJtUQGAppoeoEUPfvAg==.sig.ed25519"
 }
