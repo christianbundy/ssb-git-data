@@ -1,16 +1,25 @@
 {
-  "previous": "%Eu1KKPLFHzFEVk5CDw/LAxFQjAJeVQB7UP5I0Arb7zg=.sha256",
-  "sequence": 10545,
+  "previous": "%LvOV8G7hapk55BUX7R19yzyZ4RTgxzMnUkEXwP+PoFg=.sha256",
+  "sequence": 10546,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560130011351,
+  "timestamp": 1560172773935,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ImArHTIVQHH7mkpdZETD7hI9ooSGElRvS6M2CGOi9To=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256",
+    "branch": "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256",
+    "reply": {
+      "%+cVnsLgWRAKECw6MuLuzpOnrCXjy+xEMRm475mLMkqY=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I've used `npx ssb-to-graphml` (from [this thread](%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256)) but I don't actually know how to parse the data.",
+    "mentions": [
+      {
+        "link": "%exTkaDhz4lhTWXmPV5Ln6/KZ7edLY/OE8A01a6XF2ns=.sha256",
+        "name": "this thread"
+      }
+    ]
   },
-  "signature": "cAv7HUAdTv6kWEQ1ANDDl42jiCPqEutiyIh6K+F+phcKr07hlvBIuhXbK+zuZqCnPFW7m0FglfYnZiS4XgTZBw==.sig.ed25519"
+  "signature": "TyRZT2JAVFhc8Tep2Bc9ZfeYPxbz969+/sVZmCTve8ffXahfr971PooiQVcwkUOszCyhlQ7lD+IPyW+D4Lm1Cg==.sig.ed25519"
 }
