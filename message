@@ -1,25 +1,27 @@
 {
-  "previous": "%QOcRfN9bBcSUH+HU2KGd1SahEPQIC8fs2HXEl5lgf6E=.sha256",
-  "sequence": 10590,
+  "previous": "%GX2CERK1OSGqiEUEoUDtmBBTtb6FzFTUl5wqmBOreuI=.sha256",
+  "sequence": 10591,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560272556167,
+  "timestamp": 1560272906243,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256",
-    "branch": "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256",
+    "root": "%vqHwUv0mU2zWOaGdMAwhXtMUvmcy3Zq3nSSSgIZpv5M=.sha256",
+    "fork": "%+DPvkDSK2rY9R9XV2g8lAj5sli88o42F11pPaTo9H4k=.sha256",
+    "branch": "%cUplvuCiHWHLzbUYu7vYpXmwUKhKooxJoxs7H8U1ZFk=.sha256",
     "reply": {
-      "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+      "%vqHwUv0mU2zWOaGdMAwhXtMUvmcy3Zq3nSSSgIZpv5M=.sha256": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519",
+      "%cUplvuCiHWHLzbUYu7vYpXmwUKhKooxJoxs7H8U1ZFk=.sha256": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519"
     },
-    "channel": null,
+    "channel": "patchwork",
     "recps": null,
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nThat was all you! It's super impressive to watch you deep-dive the source to try to find that blog bug, I'm happy to support you however I can.\n\nAs an aside, I'm a bit frustrated at how most contribution metrics focus on only the source code. There's been so much time and energy invested in the discussions we've been having on GitHub and there's so much value being ignored by most GitHub \"insights\", *plus* it's all centralized at GitHub. I'd be super interested in something like [git-bug](https://github.com/MichaelMure/git-bug) where we can keep our issues and pull requests in the repo instead of centralizing them in GitHub.",
+    "text": "[@aramiscd.3](@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519) \n\nI'm really happy to hear that, thanks for the kind words. That bug was super tricky, I don't think we would've figured it out without [all of the awesome bug reports](https://github.com/ssbc/patchwork/issues/969) that helped us figure out what the issue was. Cheers!",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
+        "link": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519",
+        "name": "aramiscd.3"
       }
     ]
   },
-  "signature": "SI38l+yHX6qpDc0S5pyDM+xw5wp2YKo/yq9zARBVH40Wj51Q0bs3kd7iEiiKst/gIdhnyPYeNs6TVk4FtQQGBA==.sig.ed25519"
+  "signature": "cT5Bx26re/+H3wRa6wfyMNkXfjcjeh3zqY11YI5ZMkfki/6Ou7YGOHQJclUqpc1/tlgKJ2+/pXmo0uWKfVOrBA==.sig.ed25519"
 }
