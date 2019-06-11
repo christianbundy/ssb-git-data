@@ -1,17 +1,25 @@
 {
-  "previous": "%qQ2GxXRIkeeVAHk1+tJnhO1/Kh6afH4DjjjoPrlL0Zw=.sha256",
-  "sequence": 10589,
+  "previous": "%QOcRfN9bBcSUH+HU2KGd1SahEPQIC8fs2HXEl5lgf6E=.sha256",
+  "sequence": 10590,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560271284994,
+  "timestamp": 1560272556167,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "invocation",
-    "vote": {
-      "link": "%tHJuKp3oZdMETd7KKuR+aZbunVUr9YpnztxAgR7iY4o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256",
+    "branch": "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256",
+    "reply": {
+      "%GqatYMnWBkBA7DdHl2fskNutfN99syShaMeg2Hxpimk=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nThat was all you! It's super impressive to watch you deep-dive the source to try to find that blog bug, I'm happy to support you however I can.\n\nAs an aside, I'm a bit frustrated at how most contribution metrics focus on only the source code. There's been so much time and energy invested in the discussions we've been having on GitHub and there's so much value being ignored by most GitHub \"insights\", *plus* it's all centralized at GitHub. I'd be super interested in something like [git-bug](https://github.com/MichaelMure/git-bug) where we can keep our issues and pull requests in the repo instead of centralizing them in GitHub.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
   },
-  "signature": "+iUxOM6UuvJCmfpKZUJcQateE2EA2r+KeoxkgOjYVC6DE6jvPP5ihx87/+e5SqwNUlkoDgEGoZLHf4p7D0JoCA==.sig.ed25519"
+  "signature": "SI38l+yHX6qpDc0S5pyDM+xw5wp2YKo/yq9zARBVH40Wj51Q0bs3kd7iEiiKst/gIdhnyPYeNs6TVk4FtQQGBA==.sig.ed25519"
 }
