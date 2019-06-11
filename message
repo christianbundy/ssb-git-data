@@ -1,17 +1,27 @@
 {
-  "previous": "%cIdL8tyljJBoCcg4Kc628zk37V9YA8vdE0xXT/fvaZY=.sha256",
-  "sequence": 10586,
+  "previous": "%z/kAFg1QLa+q/wZdLeY1SAPd4yOnWf8/OBoZn1Oahaw=.sha256",
+  "sequence": 10587,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560269042482,
+  "timestamp": 1560271112278,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%butto045gcv4e0KFalFt27J+g5Vxo6LJ4wl9rI3dZMs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256",
+    "fork": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%13Hz/sVHOa5pDkOGVTmIimtxQxrazwAXKJsdyixe1Lk=.sha256",
+    "reply": {
+      "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
+      "%13Hz/sVHOa5pDkOGVTmIimtxQxrazwAXKJsdyixe1Lk=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+    },
+    "channel": "markup",
+    "recps": null,
+    "text": "> Regarding the problems you want to solve: Someone brought it up before: let’s just make our own markdown flavour. Apperently patchbay already does that because iirc i’ve seen embedded media on here.\n\nOh, I'm realizing now that I should've started with some context: a few months ago I realized that we *do* use our own Markdown flavor, but the implementation hadn't gotten any dependency updates in about 4 years. I tried updating our dependencies a few times but the APIs weren't compatible at all, so I [rewrote ssb-markdon](https://github.com/ssbc/ssb-markdown/pull/24). The new implementation is currently being used by both Patchwork and Patchbay.\n\nThere are tons of great libraries for rendering Markdown, but implementing our own flavor meant that we were restricted to ultra-customizable libraries (which have [their own bugs](https://github.com/markdown-it/mdurl/issues/2)), *plus* trying to add our specific quirks wasn't very fun in general. There are so many fun and interesting Scuttlebutt things to work on and I'm always a bit bummed when the community has to maintain stuff like a custom Markdown renderer.\n\nThis got me thinking about drop-in alternatives that are widely available in many languages (like HTML renderers!) so that maybe we could write with Markdown / WYSIWYG / etc, but save HTML in the message body. It's *mostly* trivial to take HTML as input and render plaintext, but taking Markdown and rendering HTML (which most clients are currently doing) is a hairy problem that I'm hesitant to continue propagating to new clients.\n\nFrom my perspective, publishing Markdown is sort of similar to publishing our [custom message format](https://ssbc.github.io/scuttlebutt-protocol-guide/#message-format) with [its own quirks](%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256). It works, and the JS implementation works fine, but I'm super interested in *not maintaining our own quirky standard* if we can avoid it. There are tons of cool things we'd all love to work on, and I'd love to remove \"write a custom Markdown parser\" as a barrier for new clients.\n\nTons of love for all of you, I know we all care a bunch because we want to improve Scuttlebutt and I think we're on the right track. I'm constantly impressed that these technical conversations are coated with personal feelings as well, and I'm convinced that those warm personal feelings are critical in building the future web together. Really enjoying this conversation with all of you. ❤❤❤",
+    "mentions": [
+      {
+        "link": "%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256",
+        "name": "its own quirks"
+      }
+    ]
   },
-  "signature": "7Mdow4FjczTGo/iYM49o8y+MN4E2x+1y+OJ6qZHZ4SEZpz02OfQrpywNet8IxyChwKPh6HvEIhNJsCX5jcV+CQ==.sig.ed25519"
+  "signature": "2J3gPLf/RqkD4l1HeCtfD7/VUfc9BYA75YGkI1GlcQgyo16amSkPQZP8UAT5OF+AvN5RJnqgx/hhfCVowd1oAg==.sig.ed25519"
 }
