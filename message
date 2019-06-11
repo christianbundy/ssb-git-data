@@ -1,15 +1,27 @@
 {
-  "previous": "%ZniWodMpDEeOtlfD5rdedeTwk/fbe5OIT6zpEbraEVY=.sha256",
-  "sequence": 10598,
+  "previous": "%S05LA/geIyV4coZWqNR0YUVFW1xao9C48K2SMr8YMNo=.sha256",
+  "sequence": 10599,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560296080928,
+  "timestamp": 1560297235374,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "So proud of you soapdog!",
-    "root": "%vanIz/czvKhgXi3Psmo/BEr5TN7pAUg4ucrR1fo8uZ8=.sha256",
-    "branch": "%gVHQRIHvqtn5qoqqo7HKgFaBGEA8Awr6XLOXKQK0Ots=.sha256",
-    "channel": "patchfox"
+    "root": "%ZniWodMpDEeOtlfD5rdedeTwk/fbe5OIT6zpEbraEVY=.sha256",
+    "fork": "%+bvmR68ly9At4Lyi9TtlzU8Q7njt+LMcvH9bBQNtid4=.sha256",
+    "branch": "%cOAMCeZh/dnG4ADiA/FqqPB8jjU0bWMRW3NqzYSSCig=.sha256",
+    "reply": {
+      "%ZniWodMpDEeOtlfD5rdedeTwk/fbe5OIT6zpEbraEVY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%cOAMCeZh/dnG4ADiA/FqqPB8jjU0bWMRW3NqzYSSCig=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": "ssb-show-and-tell",
+    "recps": null,
+    "text": "[@SoapDog (SurfaceGo)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nI'd previously tested it by downloading the source and adding the plugin manually, so it was already set up. I just opened the plugin and it worked. If I remember correctly I had some trouble figuring out which remote I should add, maybe there's an easy way to add that to ssb-server/Patchwork so that you don't have to come up with that address manually. My issue was that Patchwork uses a unix socket so I had to hand-write  `net:` remote for Patchfox.\n\nI wish I remembered a bit better, it was a few weeks ago. I think it would be much simpler if Patchwork had a way to give you a remote *and* a way to export your keypair.",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (SurfaceGo)"
+      }
+    ]
   },
-  "signature": "5QawvAsmnhnVSpcREYjAjS/c7CIzwyeNr9CgsZK61KI1CRipBxOIdCcL5qspDJu7MWYzGt+CpeYZPY52FpauCg==.sig.ed25519"
+  "signature": "IjlmNF3+rlTDgTdPMHd6j9/GAzoDQn6uQqC1C3H73jk4eH+ei/uoHqZ0xe7CdV3/0gelCxVfQG8zPYecY8fhCg==.sig.ed25519"
 }
