@@ -1,17 +1,27 @@
 {
-  "previous": "%QGeYKdSoCL5X8QDjiYpCdiH9LSqAz+R+6qAEobn5dj0=.sha256",
-  "sequence": 10583,
+  "previous": "%sTpO4iqXoaDg3m5o/g3cUiY27unMxQhSddYiCgJ+nqY=.sha256",
+  "sequence": 10584,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560265237372,
+  "timestamp": 1560265566183,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256",
+    "fork": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%XVC4BBvLRN7N5R9Rc9RwaPbeCEpRfdrpagRawSCLU4w=.sha256",
+    "reply": {
+      "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
+      "%XVC4BBvLRN7N5R9Rc9RwaPbeCEpRfdrpagRawSCLU4w=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
     "channel": "markup",
-    "vote": {
-      "link": "%gB6V/UAEgTM9x3w7Q+cEUxuuLdDByBL/NcP3YFrA8rA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "There are a few problems that I'm interested in solving:\n\n- \"Markdown\" is ambiguous and [its variants are incompatible](%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256)\n- Plain Markdown doesn't give us a way to embed audio/video (please correct me if I'm wrong here)\n- Markdown lacks a bunch of semantic HTML elements that can make content more accessible\n\nClients are more than welcome to break compatibility and insist that people use GoogleButt, and I'd hope that users jump ship immediately when their friends tell them \"Patchgoog made it so that I can't read your posts anymore\". There's nothing stopping someone from doing that *today*, so I'm not sure why this is important in the context of specifying content in different languages (markup languages or [otherwise](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-content)).",
+    "mentions": [
+      {
+        "link": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256",
+        "name": "its variants are incompatible"
+      }
+    ]
   },
-  "signature": "ktK2NRHW1yGNlYY0W48MqJ3Vyk85ODCb6BGfHSJ6yNPHFNJQAhIwwhEWjgpA+Vysf6Td5nRN+Gj0GC2rpPYXDA==.sig.ed25519"
+  "signature": "3ivcxtsI42h1CvN+DW4Yj2ovMwy1sNGY6WP5l0V5iqaB5SGKJ/M85yuGrrKnSom/87qSf7eZNsuomJrBxrDQBw==.sig.ed25519"
 }
