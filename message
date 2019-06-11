@@ -1,27 +1,27 @@
 {
-  "previous": "%z/kAFg1QLa+q/wZdLeY1SAPd4yOnWf8/OBoZn1Oahaw=.sha256",
-  "sequence": 10587,
+  "previous": "%9EcP47WAkMnpNZDoq/Yfw/so6tGBYIwBIrVfChfpEtw=.sha256",
+  "sequence": 10588,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560271112278,
+  "timestamp": 1560271220008,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256",
-    "fork": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
-    "branch": "%13Hz/sVHOa5pDkOGVTmIimtxQxrazwAXKJsdyixe1Lk=.sha256",
+    "root": "%vqHwUv0mU2zWOaGdMAwhXtMUvmcy3Zq3nSSSgIZpv5M=.sha256",
+    "fork": "%+DPvkDSK2rY9R9XV2g8lAj5sli88o42F11pPaTo9H4k=.sha256",
+    "branch": "%gBpfn+42xFeu3aNVuqTh3CIIHXO7GUaKK87F4DxuKV0=.sha256",
     "reply": {
-      "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
-      "%13Hz/sVHOa5pDkOGVTmIimtxQxrazwAXKJsdyixe1Lk=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+      "%vqHwUv0mU2zWOaGdMAwhXtMUvmcy3Zq3nSSSgIZpv5M=.sha256": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519",
+      "%gBpfn+42xFeu3aNVuqTh3CIIHXO7GUaKK87F4DxuKV0=.sha256": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519"
     },
-    "channel": "markup",
+    "channel": "patchwork",
     "recps": null,
-    "text": "> Regarding the problems you want to solve: Someone brought it up before: let’s just make our own markdown flavour. Apperently patchbay already does that because iirc i’ve seen embedded media on here.\n\nOh, I'm realizing now that I should've started with some context: a few months ago I realized that we *do* use our own Markdown flavor, but the implementation hadn't gotten any dependency updates in about 4 years. I tried updating our dependencies a few times but the APIs weren't compatible at all, so I [rewrote ssb-markdon](https://github.com/ssbc/ssb-markdown/pull/24). The new implementation is currently being used by both Patchwork and Patchbay.\n\nThere are tons of great libraries for rendering Markdown, but implementing our own flavor meant that we were restricted to ultra-customizable libraries (which have [their own bugs](https://github.com/markdown-it/mdurl/issues/2)), *plus* trying to add our specific quirks wasn't very fun in general. There are so many fun and interesting Scuttlebutt things to work on and I'm always a bit bummed when the community has to maintain stuff like a custom Markdown renderer.\n\nThis got me thinking about drop-in alternatives that are widely available in many languages (like HTML renderers!) so that maybe we could write with Markdown / WYSIWYG / etc, but save HTML in the message body. It's *mostly* trivial to take HTML as input and render plaintext, but taking Markdown and rendering HTML (which most clients are currently doing) is a hairy problem that I'm hesitant to continue propagating to new clients.\n\nFrom my perspective, publishing Markdown is sort of similar to publishing our [custom message format](https://ssbc.github.io/scuttlebutt-protocol-guide/#message-format) with [its own quirks](%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256). It works, and the JS implementation works fine, but I'm super interested in *not maintaining our own quirky standard* if we can avoid it. There are tons of cool things we'd all love to work on, and I'd love to remove \"write a custom Markdown parser\" as a barrier for new clients.\n\nTons of love for all of you, I know we all care a bunch because we want to improve Scuttlebutt and I think we're on the right track. I'm constantly impressed that these technical conversations are coated with personal feelings as well, and I'm convinced that those warm personal feelings are critical in building the future web together. Really enjoying this conversation with all of you. ❤❤❤",
+    "text": "[@aramiscd.3](@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519) \n\nThank you! \"I don't know\" is my favorite answer to any question, I'm super appreciative that you didn't guess. Hope the clients keep working for you! Bugs are no fun.",
     "mentions": [
       {
-        "link": "%M/qtHwvL1qgbQNZUowOnggGXAtgKuagjQMHGgreuETE=.sha256",
-        "name": "its own quirks"
+        "link": "@fE/shnA7LNJfaYRxhBd5TCX6a6QJpXUgtBZXQyMyZNs=.ed25519",
+        "name": "aramiscd.3"
       }
     ]
   },
-  "signature": "2J3gPLf/RqkD4l1HeCtfD7/VUfc9BYA75YGkI1GlcQgyo16amSkPQZP8UAT5OF+AvN5RJnqgx/hhfCVowd1oAg==.sig.ed25519"
+  "signature": "0P8l1JPQUkaHj0E36BRWnT6WdULLKJgH46Npf3/CABbb+WbjN5TjYBUUmCURj9np/OLTNSL0kGG7iBnU+leLCQ==.sig.ed25519"
 }
