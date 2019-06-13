@@ -1,26 +1,16 @@
 {
-  "previous": "%bR3iG95m8W55/Cf1FKBhPQzR4M3dvzf3cHf0jE8OB8Q=.sha256",
-  "sequence": 10636,
+  "previous": "%Pd0YXX/A34v/TAlnCz7F9wsDRtuLHzMiLBvyW6HAZKY=.sha256",
+  "sequence": 10637,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560470006662,
+  "timestamp": 1560470354351,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%VeuoOSHw2oj4N9Z8JWU7oq4+2cxIGSCYLNUbLnxhhpk=.sha256",
-    "branch": "%5CcdbdGVhxsuvt+8nawqrRxGgaWiLRonaBoVlNNSV1M=.sha256",
-    "reply": {
-      "%VeuoOSHw2oj4N9Z8JWU7oq4+2cxIGSCYLNUbLnxhhpk=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%5CcdbdGVhxsuvt+8nawqrRxGgaWiLRonaBoVlNNSV1M=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThey way they do it in the screenshot is through a `summary` JSON property -- even just adding that would be super powerful, especially if your peers could add summaries for content that the author didn't summarize. Could also be an abuse vector though, as most [folksonomy](https://en.wikipedia.org/wiki/Folksonomy) tools are.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%VH6X8lNKcF4aL47r724ZW70ZYyt34XFXcMCBjSB8DxI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "JCpeStnahx0jwE8iy6FjZ1pJe8Bs1SgaYtZbBiFCyPAx5wyz9IXAY2h32jF5rPEfDG38Wd32lDg+IMLz5RvlCg==.sig.ed25519"
+  "signature": "/UEUfj6DkPEbQESuPIIgEX6fowe7kqBmXZ367+7lIFHMjiMp2DJn113xiEEb7eh53Pfeu3pbLEPIjkRAVcM4CQ==.sig.ed25519"
 }
