@@ -1,31 +1,17 @@
 {
-  "previous": "%2PfGguqyZ7yBNejf5SYGwL4jgpKBaYzStdkw22SRe5M=.sha256",
-  "sequence": 10617,
+  "previous": "%et7w4z7SqDy14UtJOm23KeUGGz6Tdb4ItikBKHmenP4=.sha256",
+  "sequence": 10618,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560384584755,
+  "timestamp": 1560384795134,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256",
-    "fork": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
-    "branch": "%DZX7YhpMMBX260Rdp0otvaFCJoQnStxyqcOMmHbKaO0=.sha256",
-    "reply": {
-      "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
-      "%DZX7YhpMMBX260Rdp0otvaFCJoQnStxyqcOMmHbKaO0=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
-    },
-    "channel": "markup",
-    "recps": null,
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) \n\n> If you want to use the flexibility this gives you (say, floating divs)\n\nI'd only interested in using HTML encoding structure and semantics, not styles. There are two main benefits:\n\n- more useful semantics (audio, video, abbr, etc)\n- fewer edge-cases where humans and machines disagree\n\nConsider the following Markdown:\n\n```markdown\n- a\n - b\n  - c\n   - d\n    - e\n     - f\n      - g\n       - h\n        - i\n         - j\n```\n\nFrom a plaintext perspective, it looks like a recursively nested list. \n\nThe [CommonMark dingus](https://spec.commonmark.org/dingus/) thinks that should render as:\n\n> - a\n> - b\n> - c\n> - d - e\n>     - f \n>     - g\n>     - h\n>     - i - j\n\nGitHub disagrees, and renders it as:\n\n> - a\n> - b\n> - c\n> - d  \n>   -‍ e\n>     - f\n>     - g\n>     - h\n>     - i\n>\n>       -‍‍ j\n\n\nMarkdown standardization has vastly improved in the past decade, but in my opinion it's **still not good enough** for encoding document structure in p2p systems. I like subjectivity and I'm happy to embrace it in many contexts, but I'd prefer to avoid it when encoding our document structure / semantics. \n\n> So there *will* be an ssb-markdown - even if it’s just used on the composing side.\n\n+1 on this, and I should mention that I actually enjoy composing in Markdown, but I don't want ssb-markdown to be *required* for new clients and implementations. As always, clients that want to maintain full backward-compatibility with every Scuttlebutt post ever will *of course* need to implement the ssb-markdown rendering logic, but I'm sure that eventually we'll figure out [how to deprecate things](%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256).",
-    "mentions": [
-      {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
-      },
-      {
-        "link": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
-        "name": "how to deprecate things"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%bo3fC6foNtWoXRlIugTcWqBzoM1hxng/YejmUlN1VV4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "dsAYXUiZrCXgEa4zEqYOzWhAVctUiB49/Ks82NwcxhaK2Ji14wc4QLqNLmGL1fogxeUlzUb6U8AV/+hUuGmGCA==.sig.ed25519"
+  "signature": "iCVC2tsEj+ycJPv39sdhzNXnrrQGHeBQU/Cpvo9bRIZnI/+UgSUOhPcBRiU25eLKNSzXJYB6GPaILi7F59mRDQ==.sig.ed25519"
 }
