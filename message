@@ -1,26 +1,27 @@
 {
-  "previous": "%eMyoUP/pG1V1S9s/io84wCqUZkHGo1LDHq//poBFPEo=.sha256",
-  "sequence": 10625,
+  "previous": "%GFsq8gzvy3NBmZi43B8E2gFRfINapDo3GnXn762A87s=.sha256",
+  "sequence": 10626,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560432140224,
+  "timestamp": 1560464453108,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%iHiWUUfHlPfDIqr+pY5cODGXmHIb1rPZiORnjO4CLEY=.sha256",
-    "branch": "%Py5VKtG3blkM9OcUNAkpU+QmBXmB4lHwzeBn4qCvlMI=.sha256",
+    "root": "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256",
+    "fork": "%FLKPHlK0B+P8U7zNnYtpbkgLN9OsmSGEuDIW5pSEQZI=.sha256",
+    "branch": "%jKrhk0oCZ1k0oRm1jMY3uWNvvo431zrQvAb6fYbDXLs=.sha256",
     "reply": {
-      "%iHiWUUfHlPfDIqr+pY5cODGXmHIb1rPZiORnjO4CLEY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%Py5VKtG3blkM9OcUNAkpU+QmBXmB4lHwzeBn4qCvlMI=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+      "%1qrZ/YwBmPkliAd00doTMEYhBQIv/s1RWaMhjBHDdaw=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519",
+      "%jKrhk0oCZ1k0oRm1jMY3uWNvvo431zrQvAb6fYbDXLs=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
     },
-    "channel": "ssb-learning",
+    "channel": "markup",
     "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis is awesome, thanks so much! I love that you've packaged it too.",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\n\n> And, as has been mentioned before, Markdown explicitly allows html. I’m fine with whitelisting semantic tags in our markdown!\n\nI think this is where I'm confused -- could you explain which bits you're not okay with? I have a feeling we might agree but are having a hard time communicating that we agree. Text, the best and worst form of communication!\n\nI'm not proposing that we add `<iframe>` tags to our posts, saying that if we run the Markdown => HTML process *before* sending the message then we lose a bunch of ambiguity around our encoding. I'd *probably* be comfortable with most of these:\n\n- `<em>`, `<strong>`\n- `<h1>`..`<h6>`\n- `<a>`\n- `<img>`, `<audio>`, `<video>`,\n- `<q>`, `<blockquote>`, `<mark>`, `<samp>`\n- `<ol>`, `<li>`, `<ul>`\n- `<hr>`\n- `<pre>`, `<code>`\n- `<abbr>`, `<dfn>`, `<time>`, `<address>`\n- `<table>`, `<tr>`, `<td>`\n- `<strikethrough>`, `<sub>`, `<sup>`\n- `<dl>`, `<dt>`, `<dd>`\n- `<article>`, `<section>`, `<header>`, `<footer>`\n\nWe could do the \"HTML in Markdown\" thing that some Markdown implementations support, but if we're parsing HTML in messages then what's the benefit of passing Markdown in our messages? I'm not in love with the XML-like style but at least you can tell when an `<element>` starts and ends `</element>` without the subtle whitespace syntax that Markdown uses.\n\n> I never said we should have a format that takes every input that is intelligible as plain text and transform it into some pretty rendered format.\n\nI think we agree here too. My point is that Markdown allows differences between what a user composes, what it looks like as plaintext, and what the recipient renders. You also can't tell when you're using another flavor of Markdown: with HTML your client can at least warn you \"I see a `<marquee`> tag and I don't support it\", whereas in Markdown there's no separation between content and metadata. For example, you can pass a Pandoc-style table and the current renderer confidently outputs garbage because it doesn't have a way to detect an unsupported input:\n\n: Sample grid table.\n\n+---------------+---------------+--------------------+\n| Fruit         | Price         | Advantages         |\n+===============+===============+====================+\n| Bananas       | $1.34         | - built-in wrapper |\n|               |               | - bright color     |\n+---------------+---------------+--------------------+\n| Oranges       | $2.10         | - cures scurvy     |\n|               |               | - tasty            |\n+---------------+---------------+--------------------+\n\n> And instead you want to require a format with a 1000+ page spec, that introduces huge security issues if clients are not really careful how they embed it? Or at-json, which only has a single implementation?\n\nI want to encode the Markdown we're already using (plus a few whitelisted additions) with something well-known and commonly implemented across lots of languages. Maybe HTML? Maybe something better? I've suggested HTML because I think we're all familiar with it and it's currently used to encode messages in the Fediverse, but I'd be open to other options. I don't think I've advocated for AtJSON, I see lots of issues there as well.\n\nI'm really hoping the right tone comes across in this message, but to be clear: I'm super happy that we can chat about these things and poke holes in technologies and iterate and I'm stoked to do it with you, and I hope my criticisms of Markdown don't come across as criticisms of you. I'm actually reasonably sure we agree on most of the important bits, it's just the \"implementation details\" we have to iron out. :wink:  ",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
       }
     ]
   },
-  "signature": "i8aYobghnSUHeQ4ot229AXyC0gxc3YBbTIZH0MSADIU6P/i9pwtpH9xhzoetJPLQwKV+JRtLNpq9j9+254jfDA==.sig.ed25519"
+  "signature": "0Eoqj8ewE7RTWzr07GQgTotp/IXVnJoXfKlew0UGBVQwWLEVKX+u0jn2C3zPVSu30hde8aIlcWm0VR5N+xn7Aw==.sig.ed25519"
 }
