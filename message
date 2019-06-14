@@ -1,26 +1,9 @@
 {
-  "previous": "%aQw+Lc2Xp9FqHf+mqKGPHOgX4167sZNGNG0QTuUb1Pc=.sha256",
-  "sequence": 10658,
+  "previous": "%l//U4EKP7s+K45dcDJk0DRwZY/AVd+6apCl2dBQR9Iw=.sha256",
+  "sequence": 10659,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560553851584,
+  "timestamp": 1560553937913,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%dlRtBNmQDcWgM8eTUkUyMpZZpkSQxOF3nKije0ztUtc=.sha256",
-    "branch": "%wkPVB+qO6WY2lBBLilAiaNrh9Xl6i4JgjvzOh5l0AWA=.sha256",
-    "reply": {
-      "%dlRtBNmQDcWgM8eTUkUyMpZZpkSQxOF3nKije0ztUtc=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-      "%wkPVB+qO6WY2lBBLilAiaNrh9Xl6i4JgjvzOh5l0AWA=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": "sdf",
-    "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\n:tada: This is really cool! It sounds like this would create a way for peers to connect to others who are choosing to gather around some subject (\"subject\" in the general sense, whether that's a server or a topic), which I'm very excited about. \n\n:question: Am I correct to understand that this implementation would require one server per room? If so, I'd love to hear more about the trade-offs between using ssb-rooms and using something like [discovery-swarm](https://github.com/mafintosh/discovery-swarm), which would allow peers to gather around some subject and share data *without* a server as an intermediary. I know you've used discovery-swarm in the past to [exchange invites with ssb-discovery-swarm](https://github.com/staltz/ssb-discovery-swarm/), so I'm curious what benefits come from intermediary servers.\n\n:tada: Thanks for writing up this proposal! I know you've been doing lots of work in both the foreground and the background on ssb-rooms, and I'm excited to learn more about it.    ",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ]
-  },
-  "signature": "tCPnYrlErS9sTm9deUBbLfSmsPTlbOeMfVCOGoSSvPOcMM09ZWLqUuQcNTadq+Q8NohfntTpUAQAXVNsriOHCw==.sig.ed25519"
+  "content": "XqFF1pyKPNldlf9D7Ji+70Xdy16HggjxiIVKu2y+T2V8Dt38/SAzIQT/zS80SIOfiFZDbb8JQQSitfP2z/9R6n18yCZxuZXG6eNxIAnQFw+KY10coY0Af09fbllKd2kA79oim5Wyfcyqwl/m3n0fo/tBvd0DYTJEAKJVPTcdYtg/yPNpLuBybpCife28vfjAY/ZDXdbmKwi+mNZaUiExXoO28L2YWx5qGQo2IXcqj9VPqbyqh3GmVTvbNqZqY3ytWgHaboIPrqZSIlEkIGzbPnL5+/Im8t9eI0dDXcJcQwYSLQbCKg829AIo5JqMAPpE4g/Eiz4y92nKMLhprPlPLjybA0JJWsxNookPJ1YPnCL5judt6pbizXEcruc6JqI29MKGhZ0TaAS8/DeEJixL8RIy2pZOqWsldyAfmpsWHALIw5jqOvx4iPrSRyUSVjRbySCP+jy5frwBFndt/P++RNLYW8MXI9tG+MpiI0sWOgddkq0jp9AiwwQ+H4ogMa1b5sn3I2Fb28uKeu//7FL/hJPNmMUHT6pgarbqtLcdmUszRX2mlmDhKw84qP1BYkeP6VfHHExBVtOwQwz8BGd0SJsf8lk7jg09xLij+ADSXR8fFuW595oBpFXzZuiOUYciuGAwKJWNAR7MlEZWud4TKAH+ZutJPuzv9JmLyKCO7mhZ9XmcynNX5UXaK3Fjm05mWvmNvOR1UcKHyjXiQICQBcfLJ5xG4aQ5v5l7QU1+f0BgflToZVt25V5quTDCCD6gcc6zzC6Dba1GBFUpXUUazbRKx0pADlyB3+V+JJjjY9ojPa7Auu4gwBaNANjlzdcXzfDiQV4gNYneuHI8Bjm2Gnv+n8ZDaXes3l4TfUwvB9PJ2RZ+Du4wMyMRsJOjnE05KbllCBkeE6E96XPIUdMoFkMOeqQj9i12DF3gM4S4uUoOM4uxpkpSRZaoVT+BL+ouzIeflTbK2hp4gZNHa7GQIbJ7anUab3Isy6rUR44svevtQHOLBhrrHV/9p+2ozR74tG/2CJ8/dBzR49Nx60FjCgAwE4o=.box",
+  "signature": "JfzK+y3N5Lph/fxnw0ixXOz5mrP99vn0UFWDW679X2HB82RcuH+X6Z0KdyI54PPk98dGlsqjGXcZ4ZHuhgtMCQ==.sig.ed25519"
 }
