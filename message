@@ -1,17 +1,26 @@
 {
-  "previous": "%CA/gvt2MV07nAdPdcK2oveFFQ9hKvOiuWCxXuOXs77I=.sha256",
-  "sequence": 10657,
+  "previous": "%aQw+Lc2Xp9FqHf+mqKGPHOgX4167sZNGNG0QTuUb1Pc=.sha256",
+  "sequence": 10658,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560542542636,
+  "timestamp": 1560553851584,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%dlRtBNmQDcWgM8eTUkUyMpZZpkSQxOF3nKije0ztUtc=.sha256",
+    "branch": "%wkPVB+qO6WY2lBBLilAiaNrh9Xl6i4JgjvzOh5l0AWA=.sha256",
+    "reply": {
+      "%dlRtBNmQDcWgM8eTUkUyMpZZpkSQxOF3nKije0ztUtc=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%wkPVB+qO6WY2lBBLilAiaNrh9Xl6i4JgjvzOh5l0AWA=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": "sdf",
-    "vote": {
-      "link": "%wkPVB+qO6WY2lBBLilAiaNrh9Xl6i4JgjvzOh5l0AWA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\n:tada: This is really cool! It sounds like this would create a way for peers to connect to others who are choosing to gather around some subject (\"subject\" in the general sense, whether that's a server or a topic), which I'm very excited about. \n\n:question: Am I correct to understand that this implementation would require one server per room? If so, I'd love to hear more about the trade-offs between using ssb-rooms and using something like [discovery-swarm](https://github.com/mafintosh/discovery-swarm), which would allow peers to gather around some subject and share data *without* a server as an intermediary. I know you've used discovery-swarm in the past to [exchange invites with ssb-discovery-swarm](https://github.com/staltz/ssb-discovery-swarm/), so I'm curious what benefits come from intermediary servers.\n\n:tada: Thanks for writing up this proposal! I know you've been doing lots of work in both the foreground and the background on ssb-rooms, and I'm excited to learn more about it.    ",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "2Gig/X8AK2ZxsNDY246GutoZATq4DsZLVqmSl0TN2A29tf3sg2BlKs9vL6G5wlhdL2Hx9sY7EIkggzIaIwwGCA==.sig.ed25519"
+  "signature": "tCPnYrlErS9sTm9deUBbLfSmsPTlbOeMfVCOGoSSvPOcMM09ZWLqUuQcNTadq+Q8NohfntTpUAQAXVNsriOHCw==.sig.ed25519"
 }
