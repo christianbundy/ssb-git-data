@@ -1,17 +1,21 @@
 {
-  "previous": "%FIOm6Mk+uMMNLCjTJea6oG/NIDO2vs7nHzeSebsNvt8=.sha256",
-  "sequence": 10660,
+  "previous": "%Ar0ffIZcPf/EzBS8VA0Af/+SQJVS8z4Zb5utsQclVE0=.sha256",
+  "sequence": 10661,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560555432939,
+  "timestamp": 1560555999870,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dweb-camp",
-    "vote": {
-      "link": "%24tR3Z2LrmuryIpvXrjQd1ueKyZSrCFqfu/KIY7aUXM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%d15FUbruBjnytruSBlEbMBIDSNJ9RCi52rhSwvYqbKo=.sha256",
+    "fork": "%/hPiUx+ulQx28INaIXTQgg8vvUZ8j5RxmlZ9BrBiH4o=.sha256",
+    "branch": "%d15FUbruBjnytruSBlEbMBIDSNJ9RCi52rhSwvYqbKo=.sha256",
+    "reply": {
+      "%d15FUbruBjnytruSBlEbMBIDSNJ9RCi52rhSwvYqbKo=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Tangent: I've been thinking about pubs lately and I've been realizing that *really* what I'd like is a **pub factory**.\n\nYou go to a website, https://manypub.example.com and it *creates a pub* for you. This pub runs as an additional identity on an existing pub server, which only takes up a few bytes. The website asks you how many invites you'd like to create, you select 2, and it hands you three invite codes for that newly-created pub.\n\nYou use one and give the other to your friend, which connects you across cypherspace *without making you interact with any strangers*. It doesn't solve the \"I want to try Scuttlebutt but I don't know anyone yet\" problem, but it would make inviting friends super simple and low-maintenance.\n\nMaybe the pub could have an expiration date of like 30 days, at which point the pub factory operator would just delete the key and stop responding the muxrpc connections at that public key. I'd really like to avoid adding this to my never-ending todo list, so if anyone can poke holes in it I'd be super grateful! :grimacing: ",
+    "mentions": []
   },
-  "signature": "3VneB72mPPuAkcRdTUfiNthbYL3+bRwmtjLSsjIiXMf8K/G8dFCiPxdaVJc6Q4GFRmfYxZvdJJB0ZXETxrTPAg==.sig.ed25519"
+  "signature": "9ZWrhEFNbFQIXYAv28mRZfFFwrWYP/x3+YO7jZ3/G2BV7ThT97+T+pMbPGQeEND35/IM/+RtbMbmfWYhtGLTCg==.sig.ed25519"
 }
