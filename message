@@ -1,17 +1,26 @@
 {
-  "previous": "%aW2G2x3uYztUBtWH2nID92eSiKp5bwkz0dP7EYFWekg=.sha256",
-  "sequence": 10655,
+  "previous": "%+a2fKsKGG6Z2Zi9itAYgYO2MSDbI8ICU/r3T4KCch3c=.sha256",
+  "sequence": 10656,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560536190011,
+  "timestamp": 1560542517869,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "sdf",
-    "vote": {
-      "link": "%dlRtBNmQDcWgM8eTUkUyMpZZpkSQxOF3nKije0ztUtc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%/hPiUx+ulQx28INaIXTQgg8vvUZ8j5RxmlZ9BrBiH4o=.sha256",
+    "branch": "%4ueoevNas1RACCwHG2y9gG0e+JnX9uL3sb+dEBgnLrU=.sha256",
+    "reply": {
+      "%/hPiUx+ulQx28INaIXTQgg8vvUZ8j5RxmlZ9BrBiH4o=.sha256": "@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519",
+      "%4ueoevNas1RACCwHG2y9gG0e+JnX9uL3sb+dEBgnLrU=.sha256": "@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Taeyoon Choi](@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519)\n\n> Can I say “Here is my public key. You can find me with this key.” Can someone who lives in another part of the world, who doesn’t have a SSB mutual friend, find me just with the key?\n\nI think the requirement is that you're aware of an online peer that knows about the key you want. Each time your client sees a new peer / pub it adds it to a file at `~/.ssb/gossip.json` and connects to those peers regularly to ask about the keys it's interested in. You don't have to be following them, but they have to know about the key you want.\n\n> Is it advisable to say “I will give you my public key. Follow to ___ pub, which I follow. You can find me on on SSB via the pub.”\n\nYep! This is what I've been doing and it seems to work fine enough for now.\n\n> Is it advisable to share my public key on the Internet? What are some undesirable possibilities of sharing my public key on the WWW?\n\nEverything you say on a public Scuttlebutt message is completely public. There are no privacy guarantees unless you're using a private message. Sharing your public key on the internet doesn't make your public posts any less private, but it *would* allow people to link your online identity to your SSB identity. If you're already using the same name everywhere this is probably fine. \n\nHope this helps a bit! Happy to answer any questions you have.",
+    "mentions": [
+      {
+        "link": "@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519",
+        "name": "Taeyoon Choi"
+      }
+    ]
   },
-  "signature": "0xNLn1nVbX8bq1iTgXyCLfZaikZZLPPjxzQ1NQHRSNOYUIrsjZes3v9N4CQ08JsvWrXmTejhWskNIBhujNhgAQ==.sig.ed25519"
+  "signature": "7CFgRjw5MQuQMt8Pyi8PhhCgTxoNCGd2pNzXk+z6ZIc2QtoloFDPM9A8et5egfrhJuMab5mi4JjT9pu+E0kABQ==.sig.ed25519"
 }
