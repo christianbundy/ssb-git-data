@@ -1,16 +1,26 @@
 {
-  "previous": "%CJIabqICDF0/SuERqWmLvG8WxRaKZ+ggUdOC9RgymM4=.sha256",
-  "sequence": 10639,
+  "previous": "%F41SgeaNbN8dLBIquZUnqAKNxdogApfn1PWApKTmvp0=.sha256",
+  "sequence": 10640,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560470418808,
+  "timestamp": 1560470469623,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0dPENaX9UGH2/T/1mgA747bv0vS9ERGDzL822arFLzE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%0dPENaX9UGH2/T/1mgA747bv0vS9ERGDzL822arFLzE=.sha256",
+    "fork": "%LOjJR/FEbLNXrCg2SdXfXeV1Azl0LksR2UE1XVOCXMQ=.sha256",
+    "branch": "%0dPENaX9UGH2/T/1mgA747bv0vS9ERGDzL822arFLzE=.sha256",
+    "reply": {
+      "%0dPENaX9UGH2/T/1mgA747bv0vS9ERGDzL822arFLzE=.sha256": "@sGAvzMb3oqbBNHGHhW2LrGbDP6mv8lTXoeULqxrTxAo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@RangerMauve (mobile)](@sGAvzMb3oqbBNHGHhW2LrGbDP6mv8lTXoeULqxrTxAo=.ed25519) \n\nThis looks awesome! I thought it was counting the performance rather than the lines of code so I was confused at why my refactor was \"slower\", but then I realized it's just a character count thing. Super neat though, I'll need to play around more with it.",
+    "mentions": [
+      {
+        "link": "@sGAvzMb3oqbBNHGHhW2LrGbDP6mv8lTXoeULqxrTxAo=.ed25519",
+        "name": "RangerMauve (mobile)"
+      }
+    ]
   },
-  "signature": "98sckvSPeENwNzkh4Hf5v3SprlyixhBJTHkMUY/kU5CXdIVpbSsGOrV1+IDZmnoHoIZrGVQJlTfTRNUGHemVAg==.sig.ed25519"
+  "signature": "d3A77719etLORzCt0XRDmMjE9EhjbI+3pCkN29PsPQztG6qcHn5Gy+2kTVCEiL+Yk90VAao1Xq1f7Lnr6jO9Dg==.sig.ed25519"
 }
