@@ -1,17 +1,25 @@
 {
-  "previous": "%N48Grjue9gGAuwBgHSBa7ap6GP0NkINk8SUfQQquGNY=.sha256",
-  "sequence": 10647,
+  "previous": "%MKDvRr4UEF61kcWQH2EEVo3yyKnJmerC/iUYkXa+knU=.sha256",
+  "sequence": 10648,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560494211597,
+  "timestamp": 1560494299234,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "permaculture",
-    "vote": {
-      "link": "%/3C9Ox1oemoNtj8F5VQC0YQGkLRv9uoobrPOYE3LrII=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%yoCUZ4QOiv+eS33bjCL2kDXk78Q30CtismAQtFHmNiE=.sha256",
+    "branch": "%yoCUZ4QOiv+eS33bjCL2kDXk78Q30CtismAQtFHmNiE=.sha256",
+    "reply": {
+      "%yoCUZ4QOiv+eS33bjCL2kDXk78Q30CtismAQtFHmNiE=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+    },
+    "channel": "ssb-server",
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nSee: https://github.com/ssbc/ssb-server/issues/634",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "MPgOHsMRVRkMOGzmeJtj10CS2aaGzojmXIBIzwhxk7oicNXdfJPw9y6fPv1abgHOO15Fjse8Iv56i2flXmHhCQ==.sig.ed25519"
+  "signature": "EUxsIbcRhqltNVqj1kqHvCUKLkNOqUJZcP1XsJrcN34kgVt+qmziyq0cUdoju/63dtZemnB3ah2NgD0wWEGQDw==.sig.ed25519"
 }
