@@ -1,26 +1,17 @@
 {
-  "previous": "%DRo0j05h60X1fjOMMMA33y4q8+VVcHnptD8sPb8qhIg=.sha256",
-  "sequence": 10673,
+  "previous": "%1HVlZBVuNN5TGOEQiT7ihoTQ8bNBSr6hPzqA8wLz/6I=.sha256",
+  "sequence": 10674,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560615256929,
+  "timestamp": 1560615313784,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256",
-    "branch": "%2XQg8561ouQoL9DdDMu8pqQLvvlJa/Myu4sh2XN13Ec=.sha256",
-    "reply": {
-      "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%2XQg8561ouQoL9DdDMu8pqQLvvlJa/Myu4sh2XN13Ec=.sha256": "@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nI love this so much!",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ]
+    "type": "vote",
+    "channel": "sdf",
+    "vote": {
+      "link": "%GEFO025l4ZvoDBBdMvEMg/G0d6j0mIrGvIcQ5G57cVE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "qK7193e8mMsr1OFPF4g38dekM1dUSrkoxdo8iS5RPlXH1rYOcyZPEPGaVKRoQD6fEyVUMkLcZy/08aYQl745Dw==.sig.ed25519"
+  "signature": "qGn9b2uIjpn6muki+hAv8z0Y3ze2j0/j6AFM07Dm/TDzz4ng3SC/tOqHJr39RlZQpYjfOurBX61Js0GtNjWoDQ==.sig.ed25519"
 }
