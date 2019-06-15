@@ -1,17 +1,25 @@
 {
-  "previous": "%yvBhonDX1BcTDBWT4V3B14w6lavARQpop/DgXvk9nuI=.sha256",
-  "sequence": 10676,
+  "previous": "%eWl4taT+o9/gIPdmgHvt5LmIEYQfwz4WutcpsawZioU=.sha256",
+  "sequence": 10677,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560619001024,
+  "timestamp": 1560622088113,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%xil/WkjdA7g4O+gSXQiPOazvNdNOmfE41IyxLQ6CxkY=.sha256",
+    "branch": "%xil/WkjdA7g4O+gSXQiPOazvNdNOmfE41IyxLQ6CxkY=.sha256",
+    "reply": {
+      "%xil/WkjdA7g4O+gSXQiPOazvNdNOmfE41IyxLQ6CxkY=.sha256": "@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%0pvgZ/cOYzgePN/RG2zDRgNdtJSuiXEn2jTyOT4Ej0Q=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Rumblestiltskin](@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519) \n\nPatchbay only for now!",
+    "mentions": [
+      {
+        "link": "@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519",
+        "name": "Rumblestiltskin"
+      }
+    ]
   },
-  "signature": "Aq/x2OcCYjlNPUIT8Axp5NsPAgKclT8gn7X3KOYIJpM/fHfdkE0xZvHq+QvATlHALUYWZuZdN9+EEOS5PrY/DQ==.sig.ed25519"
+  "signature": "LIU1dSktUxtVtSHxzpLr1Po/8Q8tFMiP9ep/iM/jC0f62wJThlXQYN5JwIbzXFeP+QnQXmqXadpbozjrKy1pCg==.sig.ed25519"
 }
