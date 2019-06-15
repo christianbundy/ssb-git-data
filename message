@@ -1,26 +1,17 @@
 {
-  "previous": "%iLHNh2oE0smkvwBrx4X/HQP7NDfadxhHv2FVYH9P8v0=.sha256",
-  "sequence": 10678,
+  "previous": "%v2mpnand+JQ/C5oJraOHdhSpPWiKKZMVFPAFeYgNwX4=.sha256",
+  "sequence": 10679,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560628196416,
+  "timestamp": 1560628199994,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%pA6XrEuuw/yvufgCIwyWLBd149AH494VB2DJzKjoQ4E=.sha256",
-    "branch": "%DqqTBX9Qz+c8DLMzqG8R45DRgRh/u/vWrZdEnIfCXqY=.sha256",
-    "reply": {
-      "%pA6XrEuuw/yvufgCIwyWLBd149AH494VB2DJzKjoQ4E=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-      "%DqqTBX9Qz+c8DLMzqG8R45DRgRh/u/vWrZdEnIfCXqY=.sha256": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@romuloalves](@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519)\n\nSweet! In Patchwork we have a human-maintained [changelog](https://keepachangelog.com/en/1.0.0/), it would be cool to parse it and add the relevant bits to the release notes as well...",
-    "mentions": [
-      {
-        "link": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519",
-        "name": "romuloalves"
-      }
-    ]
+    "vote": {
+      "link": "%vBHX8oDBlLI+QDBjRYNu8DtgN/lkc9OKxL8L6ZVCMuI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "1F2aLVMlPnborKofFqIqSItZiyMqcK1HZg02AMl/NqwIpG1rk+q+pSLG20eUxR/UdW53/P5DfOZ3LUFL5+e4Dg==.sig.ed25519"
+  "signature": "3/7r+csT3sgp5NxjTnJZ3Y4NtOsmtcFmpdiV3V/7wSkMJjTz5NkuPiGllwkEaXOK2nByNzO3gXCVjcLjdOhqCQ==.sig.ed25519"
 }
