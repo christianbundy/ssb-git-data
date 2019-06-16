@@ -1,26 +1,17 @@
 {
-  "previous": "%PBifg65A2cAtrMPjfdV6aQYU6dAPuiPuSRzW4rKsND8=.sha256",
-  "sequence": 10688,
+  "previous": "%L5KXNniVRAPpD/q9HbMVmz2zPaGUGzq8HjuT9ozWxq4=.sha256",
+  "sequence": 10689,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560726575843,
+  "timestamp": 1560726617926,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bvLi1UwISNoOW2fU9uqk+wMisMVjBhZS87lENgxLUQY=.sha256",
-    "branch": "%yhOPcop81NRU9eJAIG07ll94z4LFi8AJDMF11dPxLj4=.sha256",
-    "reply": {
-      "%bvLi1UwISNoOW2fU9uqk+wMisMVjBhZS87lENgxLUQY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%yhOPcop81NRU9eJAIG07ll94z4LFi8AJDMF11dPxLj4=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "maintenance",
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI've had positive experiences working with JSDoc. It's verbose and ugly and there are loads of things to nitpick, but at the end of the day it works fine and is supported by all sorts of tooling. I've used it on some of the methods I added / refactored in the database recently:\n\n- [ssb-db example](https://github.com/ssbc/ssb-db/blob/master/util.js#L85-L101)\n- [flumelog-offset example](https://github.com/flumedb/flumelog-offset/blob/21088715445cb951acf0002f0342a9c5f52caa04/inject.js#L96-L102)\n- [aligned-block-file example](https://github.com/flumedb/aligned-block-file/blob/315ed43a98eb68babec886175677f1b8d6d08345/blocks.js#L177-L185)",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "channel": "boats",
+    "vote": {
+      "link": "%UYXOnn6KQ+2o+Crn3elGqSkZFNNNlHedKcByTPiVAPY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "BBrVscTf0a9r7GZQMGgzN5ekMtUCttoA5LYok0oP4Xn5v8DytnNPW5Nl5NBB45qWWrLyBfhe8rTIxbFPrj5iCQ==.sig.ed25519"
+  "signature": "5gy8rdWEEGnWZkR5f8mD8brKIb2FRD64fm5M+FsNzHxiaXW4yAkfQ37IymRS9NY0H/nkf3mj7115uWTo2HNBBg==.sig.ed25519"
 }
