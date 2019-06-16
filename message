@@ -1,17 +1,21 @@
 {
-  "previous": "%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256",
-  "sequence": 10685,
+  "previous": "%fJJTSPLf4q3Zd53VCcRNBIHYak0mTmHXsSZtOk++LCM=.sha256",
+  "sequence": 10686,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560706604035,
+  "timestamp": 1560717701208,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%EX0+0MgtBtPpcCZOhRKxmkDyFD8ab/oQAXpXQ5ua5yA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%i41KGRe5SrqK86+QY8pXXhdBc75QDgCUPLC+ZWEK2Kk=.sha256",
+    "branch": "%MlRg7RYBMm0GjudPkCA9Dl28jRWpAsJ9RLTdgufmohU=.sha256",
+    "reply": {
+      "%i41KGRe5SrqK86+QY8pXXhdBc75QDgCUPLC+ZWEK2Kk=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+      "%MlRg7RYBMm0GjudPkCA9Dl28jRWpAsJ9RLTdgufmohU=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": "dweb-camp",
+    "recps": null,
+    "text": "50 DAI ~= $50 USD\n\n[`0x27015426c1fe819554a736590fe7bce483415f2c71a00f0be9dc9ff59b47c5ad`](https://etherscan.io/tx/0x27015426c1fe819554a736590fe7bce483415f2c71a00f0be9dc9ff59b47c5ad)\n\n⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜ 67% ~ $676/ 1000",
+    "mentions": []
   },
-  "signature": "g19AJ1Svn+c/Z1psqJrSITjU/igFzeD/UXdCouT05BrW5z2Oz0OstYEJvIG8xbR6u63saBjpOW1vQpn0b8TXBw==.sig.ed25519"
+  "signature": "0/cH4oGtkbfIMVKnkg00ErwdTlvljNFUZ8idjBT5743cXlVPau1uUlWMgP///j60VZHEg+okcOLek+8HxzePCw==.sig.ed25519"
 }
