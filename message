@@ -1,13 +1,17 @@
 {
-  "previous": "%UPlxrBoRnNjY80+ui7d4P1trcyt6yoYTONJ0y/Hbsmo=.sha256",
-  "sequence": 10684,
+  "previous": "%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256",
+  "sequence": 10685,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560702482272,
+  "timestamp": 1560706604035,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Line length: the alphabet test\n\n> Line length is the distance between the left and right edges of a text block. Overly long lines are a very common problem. But they’re easy to correct. Shorter lines will make a big difference in the legibility and professionalism of your layout.\n>\n> [...]\n>\n> Shorter lines are more comfortable to read than longer lines. As line length increases, your eye has to travel farther from the end of one line to the beginning of the next, making it harder to track your progress vertically.\n>\n> -- https://practicaltypography.com/line-length.html\n\nOne easy way to check line length is to try printing three alphabets on the same line with no spacing. The best practice is that your client should render a line break somewhere between the second and third alphabet.\n\nabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz\n\nI've been super keen to improve Patchwork's typography lately and I thought this might be a nice test for new clients to check how they render line length. Hope it comes in handy for someone!",
-    "mentions": []
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%EX0+0MgtBtPpcCZOhRKxmkDyFD8ab/oQAXpXQ5ua5yA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RXSyZf4mz7GyC4jZEdCKE7uDKoDQ59aPPbX5atGZ7nBaM1lmQcgmH2LQyiduu45GxTJtmslhIcKETc/pyTpIBQ==.sig.ed25519"
+  "signature": "g19AJ1Svn+c/Z1psqJrSITjU/igFzeD/UXdCouT05BrW5z2Oz0OstYEJvIG8xbR6u63saBjpOW1vQpn0b8TXBw==.sig.ed25519"
 }
