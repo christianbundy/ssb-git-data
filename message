@@ -1,16 +1,25 @@
 {
-  "previous": "%uYU7lPE/TbR1Fwd89qPvRYRBMHCtJYRf9VuVa7y0X4g=.sha256",
-  "sequence": 10722,
+  "previous": "%uEwf+MMperjC8UmDlSe2WD4LrA4bCtPvoK3z/UCyWeg=.sha256",
+  "sequence": 10723,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560802538227,
+  "timestamp": 1560802568835,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eniSVhVkjhQQjjIhU8zdomwc0GJEZ4Awwo2LdRLl0CM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%eniSVhVkjhQQjjIhU8zdomwc0GJEZ4Awwo2LdRLl0CM=.sha256",
+    "branch": "%eniSVhVkjhQQjjIhU8zdomwc0GJEZ4Awwo2LdRLl0CM=.sha256",
+    "reply": {
+      "%eniSVhVkjhQQjjIhU8zdomwc0GJEZ4Awwo2LdRLl0CM=.sha256": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Alberto](@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519) \n\nInteresting! Do you have the full list handy? I'd be curious which levels you came up with.",
+    "mentions": [
+      {
+        "link": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
+        "name": "Alberto"
+      }
+    ]
   },
-  "signature": "TibsecHU9x1T+TVzslyWS+4VB8eH6tmJ47Madhy895ZYGba1Jeq0aKp2vWRuv+Ip72ely17MtKOmOMvnjCJzDw==.sig.ed25519"
+  "signature": "8a8YNhycePEWdmzscvVEuOVDAWpRf/oM+DNcPF9vI91QB/4VoZ1CsN7ujyOkE5OCPKk8v8fE5hnRpkcPBU9XBg==.sig.ed25519"
 }
