@@ -1,30 +1,17 @@
 {
-  "previous": "%uMONzm4+DwIycyS4Y5r806etSoW3rMxldCI78VVavWk=.sha256",
-  "sequence": 10709,
+  "previous": "%LDX/IcbAto2k9XRBV7vooAkeZD74ylgsSVh1G/fYMhg=.sha256",
+  "sequence": 10710,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560793248120,
+  "timestamp": 1560793269946,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256",
-    "fork": "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256",
-    "branch": "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256",
-    "reply": {
-      "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nSort of similar, I've been [slowly] working on a [localhost launcher](%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256) that runs distributed protocols like SSB/Dat in the background and then runs web app clients on localhost that can talk to those services. Someday!",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
-        "name": "localhost launcher"
-      }
-    ]
+    "type": "vote",
+    "channel": "checkin",
+    "vote": {
+      "link": "%oOekusQeGxAV+C1qNyK0DJTA4FUVt35VBbcvMUduqFY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "jskEieEO2Td5aeMZJr0XqseMmolI3XzVxTOv2/WSzPLLjFlrIMdDmxqvaxlYq+9SIFZ1NZQtEtktx/jk8j5RCw==.sig.ed25519"
+  "signature": "0nIIPv1PDH5bE9ko89gzwL+EzQ/Ni55/xAQnhYNZlT7uMejnOOt7eXkZgr8ch+cWCr6nyxpol0Sr2vYQaXXcDA==.sig.ed25519"
 }
