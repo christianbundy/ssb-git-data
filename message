@@ -1,21 +1,26 @@
 {
-  "previous": "%cKwT3dG24e5CNdIPFj8CPTmYVFfzHeOeyA7QVcR3XPw=.sha256",
-  "sequence": 10703,
+  "previous": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
+  "sequence": 10704,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560790130145,
+  "timestamp": 1560790221128,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256",
-    "branch": "%pLxcJj+NQTJ5U1OCY1u8ayDOhfOeW2ROINSkyLUsRG8=.sha256",
+    "root": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
+    "fork": "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256",
+    "branch": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
     "reply": {
-      "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-      "%pLxcJj+NQTJ5U1OCY1u8ayDOhfOeW2ROINSkyLUsRG8=.sha256": "@pMMUGwiEuuU1WKTQlby9SM/wkY4s0VKLqZ+P+Wmewpc=.ed25519"
+      "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": "checkin",
     "recps": null,
-    "text": ":coffee::sun_with_face:‍:sunglasses: ",
-    "mentions": []
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nInteresting, I put a zero-width joiner between the sun emoji and the sunglasses and it looks like it failed the bigemoji condition. Maybe we could check for text nodes with non-whitespace characters instead? I'm surprised this hasn't been abstracted into a module somewhere...",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
   },
-  "signature": "ZobsFithMtIY5LDPHmJTclCcrjK7UmhGmMWs2wtsLk32+0o15LSnH9BKD/aRsALurX0XBz0+Y+fRafaWwtqADg==.sig.ed25519"
+  "signature": "5clBJ0AjgtCnPj5IDWFwxg/zzFXqZ2UviMi6cT80K5MzGw3v0Wb86Q/DFCW9J2m0gqUh8q1CiyU3Q+Q9Vc8uBw==.sig.ed25519"
 }
