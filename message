@@ -1,17 +1,30 @@
 {
-  "previous": "%RSkfTZvniDDPecfXyG9QyBdqYEE4dPaHMrqIZwly1OU=.sha256",
-  "sequence": 10708,
+  "previous": "%uMONzm4+DwIycyS4Y5r806etSoW3rMxldCI78VVavWk=.sha256",
+  "sequence": 10709,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560793084698,
+  "timestamp": 1560793248120,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256",
+    "fork": "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256",
+    "branch": "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256",
+    "reply": {
+      "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%xbrlJ0w4Nv4EtJ7Z6kQ0eLI0DTmkOAHvG+U8v9+HCjw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nSort of similar, I've been [slowly] working on a [localhost launcher](%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256) that runs distributed protocols like SSB/Dat in the background and then runs web app clients on localhost that can talk to those services. Someday!",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "%mMu7HxasvZ4Mgu+tsjhWklJ5RiptHcGEzBbLNqdup50=.sha256",
+        "name": "localhost launcher"
+      }
+    ]
   },
-  "signature": "fLohKJRgRXv9ejrulR1f0fuQBblQnPf9zDXG319W7TgQsMssw386ZhUksOpV+9cA4ra1glyJBagxEj47FisODA==.sig.ed25519"
+  "signature": "jskEieEO2Td5aeMZJr0XqseMmolI3XzVxTOv2/WSzPLLjFlrIMdDmxqvaxlYq+9SIFZ1NZQtEtktx/jk8j5RCw==.sig.ed25519"
 }
