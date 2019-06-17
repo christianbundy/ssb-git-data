@@ -1,17 +1,21 @@
 {
-  "previous": "%XUVJBpxS9/orBEQ8aBRmIOGYMSVw4c8QgutB8AOjGqY=.sha256",
-  "sequence": 10702,
+  "previous": "%cKwT3dG24e5CNdIPFj8CPTmYVFfzHeOeyA7QVcR3XPw=.sha256",
+  "sequence": 10703,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560789992275,
+  "timestamp": 1560790130145,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork-dev",
-    "vote": {
-      "link": "%WMCqTGCy4eRuYSvvnGDyTRwwfpDpE4cmU2mcSZZOtUY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256",
+    "branch": "%pLxcJj+NQTJ5U1OCY1u8ayDOhfOeW2ROINSkyLUsRG8=.sha256",
+    "reply": {
+      "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+      "%pLxcJj+NQTJ5U1OCY1u8ayDOhfOeW2ROINSkyLUsRG8=.sha256": "@pMMUGwiEuuU1WKTQlby9SM/wkY4s0VKLqZ+P+Wmewpc=.ed25519"
+    },
+    "channel": "checkin",
+    "recps": null,
+    "text": ":coffee::sun_with_face:‍:sunglasses: ",
+    "mentions": []
   },
-  "signature": "P3sWJHg4mzoZ8aZusWbF3C1aQGrr88iffckaq+19wA3pPxkYC21PvFqCWLH+0md9zOY3VNvFNGgDwCVqjpgxCA==.sig.ed25519"
+  "signature": "ZobsFithMtIY5LDPHmJTclCcrjK7UmhGmMWs2wtsLk32+0o15LSnH9BKD/aRsALurX0XBz0+Y+fRafaWwtqADg==.sig.ed25519"
 }
