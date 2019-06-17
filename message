@@ -1,17 +1,26 @@
 {
-  "previous": "%VOUOZNod0jIzh9nXzbF5dhyvVzofhKL50jpIEx5cAq8=.sha256",
-  "sequence": 10730,
+  "previous": "%in2lDxTBzX7honvrlU7wmpxVM+Mj+QgQk3omBRtxp+M=.sha256",
+  "sequence": 10731,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560810581140,
+  "timestamp": 1560810829895,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%EFePgSIdfLPZTV3URb8KwjN+8qAyUPXF5WGgog+sRhU=.sha256",
+    "fork": "%9vW9vgkE1/bteKIO2JfT5jnT5c4ZzbQMjdGD4phLW7I=.sha256",
+    "branch": "%EFePgSIdfLPZTV3URb8KwjN+8qAyUPXF5WGgog+sRhU=.sha256",
+    "reply": {
+      "%EFePgSIdfLPZTV3URb8KwjN+8qAyUPXF5WGgog+sRhU=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
     "channel": "boats",
-    "vote": {
-      "link": "%EFePgSIdfLPZTV3URb8KwjN+8qAyUPXF5WGgog+sRhU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nI don't know about other space agencies, but NASA has a program for non-profits to launch [cubesats](https://www.cubesat.org/): \n\n- [about](https://www.nasa.gov/content/about-cubesat-launch-initiative)\n- [apply](https://www.nasa.gov/content/announcement-of-opportunity-for-cubesat-launch-initiative) (opens in August)",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
   },
-  "signature": "AUTM1CZrAbjVwfLCd/VyuXCNEkZ6/5attYW/IfpsXji6uSXn7MObRN/WfprBLYDIiNLx5bi2JlA4x3+YXl9XBA==.sig.ed25519"
+  "signature": "jMx+W0ZHM74VnwGpv+BssGVu6+aVLJTMd0rlustu+z3wxdjFDG/cQNUvue0GkWqfv8CB0NrHiDzPm02P6F41BA==.sig.ed25519"
 }
