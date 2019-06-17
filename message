@@ -1,17 +1,26 @@
 {
-  "previous": "%W95jVNFOB6Wy6lGgNQ/lGhfhnRNTzop4T2IUi5WNoGc=.sha256",
-  "sequence": 10693,
+  "previous": "%rqGZv3JsOkrnVopqS7SUO9kKRj5vRC7FgQBORwuNSzM=.sha256",
+  "sequence": 10694,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560738077313,
+  "timestamp": 1560738084221,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "diy",
-    "vote": {
-      "link": "%c2p0dbP0ztqWHsB07QNejOa0/+PKkzVpiQYr/k0S9lo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Pc5mfngm5ug0bbaY+zZW+ZP6w5kfPD1oErLaMyUfeh8=.sha256",
+    "branch": "%paQu024BieTP2pdHmcqW6AE3jJwuGctLVgW8UbjUwx4=.sha256",
+    "reply": {
+      "%Pc5mfngm5ug0bbaY+zZW+ZP6w5kfPD1oErLaMyUfeh8=.sha256": "@SFv/oBRPsU4Yk04TLe4YCTgI/XjTUqyxh43tqWx+NFw=.ed25519",
+      "%paQu024BieTP2pdHmcqW6AE3jJwuGctLVgW8UbjUwx4=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@zacstewart](@SFv/oBRPsU4Yk04TLe4YCTgI/XjTUqyxh43tqWx+NFw=.ed25519) \n\nThis is great! I'm excited to follow along, thanks for sharing here.",
+    "mentions": [
+      {
+        "link": "@SFv/oBRPsU4Yk04TLe4YCTgI/XjTUqyxh43tqWx+NFw=.ed25519",
+        "name": "zacstewart"
+      }
+    ]
   },
-  "signature": "ozzhpHNHVnf5DkOIVFq92qO5W0qVTKU6NxfirMhu5UTAm0WgwrfTtzBZF9UQ40BtQWgmons5p58GGUio3PeOBw==.sig.ed25519"
+  "signature": "dnTeXhJZdjtLbhgyNKM0rRHBxcBXheRHOWkYu8mraBO7058ipYWNaAYGZ6ntEIfF9G4m4+9NjAEnQveMuaFgDw==.sig.ed25519"
 }
