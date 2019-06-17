@@ -1,26 +1,26 @@
 {
-  "previous": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
-  "sequence": 10704,
+  "previous": "%zFNl5oWlFcj+YmJNG/Dr8eInnDUo8Du5Y4KLEJ4KaFI=.sha256",
+  "sequence": 10705,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560790221128,
+  "timestamp": 1560790642609,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
-    "fork": "%buttk1WRl2AfDp7AU1oeEvGcTnWCm7lUJ+3bVXIJqkk=.sha256",
-    "branch": "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256",
-    "reply": {
-      "%IKOD/n74YyJwjsPiYR6OduypQx5CGFbYlBOLnHvXA6w=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": "checkin",
-    "recps": null,
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nInteresting, I put a zero-width joiner between the sun emoji and the sunglasses and it looks like it failed the bigemoji condition. Maybe we could check for text nodes with non-whitespace characters instead? I'm surprised this hasn't been abstracted into a module somewhere...",
+    "text": "# Housing: where y'all living?\n\nI'm currently renting an apartment with [@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519), and it's great, but I'm not sure how much longer I'd like to keep paying rent to a landlord. Most people seem to get mortgages, but since I'm conflicted about [where I'd like to live](%eLCz5shOYq3LwIKAay7cPj3TSeTdpl3afKqfmzsXfZk=.sha256) it sounds like *a lot* to put myself hundreds and thousands of USD in debt to a financial institution.\n\nI've been excited about the idea of housing cooperatives and I've chatted with [@jordan](@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519) about them for way too many hours, but I haven't had any first- or second-hand experience with them. I'd really appreciate thoughts / feedback on housing if anyone's got solutions they dig.",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "kathleen"
+      },
+      {
+        "link": "%eLCz5shOYq3LwIKAay7cPj3TSeTdpl3afKqfmzsXfZk=.sha256",
+        "name": "where I&#39;d like to live"
+      },
+      {
+        "link": "@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519",
+        "name": "jordan"
       }
     ]
   },
-  "signature": "5clBJ0AjgtCnPj5IDWFwxg/zzFXqZ2UviMi6cT80K5MzGw3v0Wb86Q/DFCW9J2m0gqUh8q1CiyU3Q+Q9Vc8uBw==.sig.ed25519"
+  "signature": "pSGxxdLyyIA+j1/2+TDGsqBgzl7yIO8XBC6JbctfjoVFbyyFRLQUwjPCdDlN08rFewW4YjbsfIxbgU67UoEeCw==.sig.ed25519"
 }
