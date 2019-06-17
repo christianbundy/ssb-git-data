@@ -1,17 +1,29 @@
 {
-  "previous": "%sKMdmW52hpKGALkpOgL/w6PaVkQ8reQs5kGwoGwjjPw=.sha256",
-  "sequence": 10715,
+  "previous": "%am7V2rEkb9P4e8NXLZ/juBZ2BHSfxdOIAw0L9Io3CE4=.sha256",
+  "sequence": 10716,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560799292383,
+  "timestamp": 1560800655800,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%NS3Z74yAqoE+AmCiMmLq0Bk/Bo8sTm/JFwYVBYShR4M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%QwIc4LRtGkO5gx7BWG1BmrTpYIhtyC9kkZyKHy2CUVg=.sha256",
+    "fork": "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256",
+    "branch": "%QwIc4LRtGkO5gx7BWG1BmrTpYIhtyC9kkZyKHy2CUVg=.sha256",
+    "reply": {
+      "%QwIc4LRtGkO5gx7BWG1BmrTpYIhtyC9kkZyKHy2CUVg=.sha256": "@wSF/4pMQUz47J6LtZc4A/k/SorCNusXN49h+Avw840M=.ed25519"
+    },
+    "channel": "patchwork-dev",
+    "recps": null,
+    "text": "[@musicmatze](@wSF/4pMQUz47J6LtZc4A/k/SorCNusXN49h+Avw840M=.ed25519) \n\nNope! Patchwork is still being taken care of, we just published v3.14.1 this morning.\n\nMatt's post was from a few months ago (around v3.11.6) but there's at least a #skeleton-crew maintaining it currently.",
+    "mentions": [
+      {
+        "link": "@wSF/4pMQUz47J6LtZc4A/k/SorCNusXN49h+Avw840M=.ed25519",
+        "name": "musicmatze"
+      },
+      {
+        "link": "#skeleton-crew"
+      }
+    ]
   },
-  "signature": "pbrAg2BFt5Mr1Y0GnWMGSLhYuZ16G3UVhb0TeIHwBI/MUlInNhLOVMYBfu8CVuLDVBLsVISGIYWHFb241h1VDw==.sig.ed25519"
+  "signature": "krGjLDj62AKuVjVLXth/MRescBFJthy2P+hwPCtmmEnDOkUUqDj7OewRdfv0Al4eC9GEaOHFHPdxRS1qufjrDA==.sig.ed25519"
 }
