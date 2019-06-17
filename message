@@ -1,26 +1,17 @@
 {
-  "previous": "%LEGZOg8t2/Su547yLloITQkdptYUZuQqwEySQTTdor0=.sha256",
-  "sequence": 10701,
+  "previous": "%XUVJBpxS9/orBEQ8aBRmIOGYMSVw4c8QgutB8AOjGqY=.sha256",
+  "sequence": 10702,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560785500005,
+  "timestamp": 1560789992275,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jaPiosakwqXF3Bd7wjYGk9fZaboa6xS3BVO9w1qqU/4=.sha256",
-    "branch": "%MoYqom/C8VD/GvJAHAqAmFEAOxhUNUSqZ476K8+oVtM=.sha256",
-    "reply": {
-      "%jaPiosakwqXF3Bd7wjYGk9fZaboa6xS3BVO9w1qqU/4=.sha256": "@g7EGUIBza5Mog7lubypb7b0/Si2qzQD9E7K5oLqEP9s=.ed25519",
-      "%MoYqom/C8VD/GvJAHAqAmFEAOxhUNUSqZ476K8+oVtM=.sha256": "@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@patcon](@g7EGUIBza5Mog7lubypb7b0/Si2qzQD9E7K5oLqEP9s=.ed25519) \n\nNow in Patchwork v3.14.1! :flag-ca:",
-    "mentions": [
-      {
-        "link": "@g7EGUIBza5Mog7lubypb7b0/Si2qzQD9E7K5oLqEP9s=.ed25519",
-        "name": "patcon"
-      }
-    ]
+    "type": "vote",
+    "channel": "patchwork-dev",
+    "vote": {
+      "link": "%WMCqTGCy4eRuYSvvnGDyTRwwfpDpE4cmU2mcSZZOtUY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "AAGIdLqdSrI256yIndzh6/cbBu+ZB/Xp3Jh8ZrzbTEOg46JyUygrWw2NQ76PFuK9vjsYEP+Z7lEz88k9PlgECw==.sig.ed25519"
+  "signature": "P3sWJHg4mzoZ8aZusWbF3C1aQGrr88iffckaq+19wA3pPxkYC21PvFqCWLH+0md9zOY3VNvFNGgDwCVqjpgxCA==.sig.ed25519"
 }
