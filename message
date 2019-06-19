@@ -1,26 +1,33 @@
 {
-  "previous": "%N7jo0c90xSpQLdSE+tGNrqCMmIcfevDF3KTNSCUsUD8=.sha256",
-  "sequence": 10758,
+  "previous": "%bEvrYaCiYKxGs+17I/pqQylycfPxhcVEWmNPqPkOMqw=.sha256",
+  "sequence": 10759,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560903725218,
+  "timestamp": 1560905335882,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%z0AaCTYJ7eZkScywl6qn9DgxRJ6HcJ7f37XrgB1DP6c=.sha256",
-    "branch": "%SE4chXoq9VjAGwC3R9l8fL3JLh9ePeDOgTQFA2109FE=.sha256",
+    "root": "%TN5b3Wq9IOwDutHbZ5bRWfXe399DiyL/EUMitgPmdSo=.sha256",
+    "fork": "%LOjJR/FEbLNXrCg2SdXfXeV1Azl0LksR2UE1XVOCXMQ=.sha256",
+    "branch": "%8wyv89goel2iJtXccIlnY0SkMzujTtLVceNCzJCyWuA=.sha256",
     "reply": {
-      "%z0AaCTYJ7eZkScywl6qn9DgxRJ6HcJ7f37XrgB1DP6c=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%SE4chXoq9VjAGwC3R9l8fL3JLh9ePeDOgTQFA2109FE=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
+      "%TN5b3Wq9IOwDutHbZ5bRWfXe399DiyL/EUMitgPmdSo=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%8wyv89goel2iJtXccIlnY0SkMzujTtLVceNCzJCyWuA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nI love this so much!\n\ngreat night for apple pizza",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis has been working really great! We found that the HTML + CSS + JS combo was a lot to learn at once and the browser console was full of irrelevant stuff that made reading `console.log()`s hard, so I hacked together an environment that redefined `console.log()` and `console.clear()` to use the HTML document as output.\n\nIt's super janky, but I think it actually works pretty well for focusing on JS.\n\n![Screenshot of a Firefox window open to https://glitch.com, with three columns. The left column shows a file browser, the middle column shows some JavaScript source code with functions about printing squares, and the right column has some squares made of text. The top of the square is a word spelled left-to-right, the bottom of the square is the same word spelled backward, the left side is the word spelled top-to-bottom, and the right side is the word spelled bottom-to top.](&iWFKrfjsfBXEyEhu2m/zMTyUH7FMfJXZA6r67YWxuoE=.sha256)\n\nOne thing we've noticed is that every few minutes the right column seems to crash and we get an error message:\n\n> This project has received too many requests, please try again later \n\nEach time this happens we have to wait ~5 minutes for it to come back online, which is a bummer. Have you experienced this or do you have any workarounds up your sleeve? It seems like we can fork (\"remix\") the project to circumvent the rate-limiter, but I'm sure there's a better way. All of the research has pointed me toward a `watch.json` that can reduce how often the server restarts from changes, but that only seems to work if you're doing back-end work with Express.\n\nAnyway, thanks a bunch of this recommendation, it's been working great and I'm really appreciative that you pointed this resource out!",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "&iWFKrfjsfBXEyEhu2m/zMTyUH7FMfJXZA6r67YWxuoE=.sha256",
+        "name": "Screenshot of a Firefox window open to https://glitch.com, with three columns. The left column shows a file browser, the middle column shows some JavaScript source code with functions about printing squares, and the right column has some squares made of text. The top of the square is a word spelled left-to-right, the bottom of the square is the same word spelled backward, the left side is the word spelled top-to-bottom, and the right side is the word spelled bottom-to top.",
+        "type": "image/png",
+        "size": 257291
       }
     ]
   },
-  "signature": "bWu8iKImMlTQ23uGOArni6zlADvPmoYv23kKzhZarViMIxgORAOLrN6BYgiPjPfbpgWIG8cM+h9EiXnDaC5EDA==.sig.ed25519"
+  "signature": "4Ct8VJZ7hNoZnVTuehblkGioVKFqB/q1AZT7hfzpwedPLUZEvfqV2tQmGwIXyOViawSnAKqZHC027SwYAW3/Cw==.sig.ed25519"
 }
