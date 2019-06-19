@@ -1,50 +1,16 @@
 {
-  "previous": "%xUmMRKC0Tr8dwfJ2Fr6fEJ+0bR+RCTBBp72fHd9Z/vA=.sha256",
-  "sequence": 10763,
+  "previous": "%lFpwG2e/2wx6Z6Xh2uziULABf3EeTi7BZEPOadl5E9c=.sha256",
+  "sequence": 10764,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560960028246,
+  "timestamp": 1560962815397,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256",
-    "branch": "%E+G9LtwhlrGPqbxoDnoP78nQ42wdw3+JdsfgvFRm/WU=.sha256",
-    "reply": {
-      "%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%E+G9LtwhlrGPqbxoDnoP78nQ42wdw3+JdsfgvFRm/WU=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Backlinks:\n\n- [GitHub issue](https://github.com/ssbc/patchwork/issues/1102)\n- [GitHub pull request](https://github.com/ssbc/patchwork/pull/1108)\n\n[@buoyantair-work](@ZgOuBbnHXiZFpVt3ejD3lduzr48OH23/nOJG7QlBcew=.ed25519)\n\nI appreciate you sharing how this makes you feel. My goal here was to match the line lengths used in the rest of typography (books, magazines, news articles, etc), do those feel too narrow as well? I don't know much about eye health, but I'm super open to more info if there's a perspective on line length that I'm missing!\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nYep, I love how you've moved the meta-info to the sides, I've seen GitHub and Twitter both do the same thing (at least with the avatar) and I'd love to have something similar in Patchwork. I've noticed that the current design of Patchwork [makes me feel sorta bad](%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256) so I'm trying to throw my energy into chipping away at improvements.\n\n[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\nI think that looks great! Can't wait to try it out in Firefox.\n\n[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\n\n:thumbsup: :thumbsup: :thumbsup: \n\n[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\n\nHave you seen [this comment](https://github.com/ssbc/patchwork/pull/1108#issuecomment-503193291)? I'd be happy with a slightly larger font size of ~48rem, which looks almost exactly like [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)'s screenshot, but I *do* feel strongly that we should be trying to follow accessibility guidelines and best practices for typography (which are often the same thing). Another example (that isn't Butterick this time!):\n\n>**1.4.8 Visual Presentation:** For the visual presentation of blocks of text, a mechanism is available to achieve the following: (Level AAA)\n>\n> 1. Foreground and background colors can be selected by the user.\n>\n> 2. Width is no more than 80 characters or glyphs (40 if CJK).\n>\n> 3. Text is not justified (aligned to both the left and the right margins).\n>\n> 4. Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.\n>\n> 5. Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window.\n>\n> -- https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-visual-presentation",
-    "mentions": [
-      {
-        "link": "@ZgOuBbnHXiZFpVt3ejD3lduzr48OH23/nOJG7QlBcew=.ed25519",
-        "name": "buoyantair-work"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "%X8GsoYYII3HUUdqWJmtpX3jTKVY30FJ4Jf0LJR6ZhfU=.sha256",
-        "name": "makes me feel sorta bad"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      },
-      {
-        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
-        "name": "masukomi"
-      },
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%MNupP5sdl+ssUCWUgPugr5PpnlYehO/jrIAuAeKzg9g=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "EFZNUmrKQjVQKaxONx6BSq2AZmD5VUWeFsd/RJxmsoi9drrfrabJ2/OUk225LYajcLGTJPJ02PXDvR1L0+VdDg==.sig.ed25519"
+  "signature": "50Aay204FSc/Q5arQPL+Kl+mbg20Q08zWrxMwI4b92JIUnIERju/1tbYXMgwY0cX6lYjbi1DOnUVPVkYurk+Dg==.sig.ed25519"
 }
