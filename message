@@ -1,16 +1,26 @@
 {
-  "previous": "%yl2TZNFtRiAP/+bE9EzfifO6IQuelZ7h+/8oJrpMzvQ=.sha256",
-  "sequence": 10757,
+  "previous": "%N7jo0c90xSpQLdSE+tGNrqCMmIcfevDF3KTNSCUsUD8=.sha256",
+  "sequence": 10758,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560903520252,
+  "timestamp": 1560903725218,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SE4chXoq9VjAGwC3R9l8fL3JLh9ePeDOgTQFA2109FE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%z0AaCTYJ7eZkScywl6qn9DgxRJ6HcJ7f37XrgB1DP6c=.sha256",
+    "branch": "%SE4chXoq9VjAGwC3R9l8fL3JLh9ePeDOgTQFA2109FE=.sha256",
+    "reply": {
+      "%z0AaCTYJ7eZkScywl6qn9DgxRJ6HcJ7f37XrgB1DP6c=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%SE4chXoq9VjAGwC3R9l8fL3JLh9ePeDOgTQFA2109FE=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nI love this so much!\n\ngreat night for apple pizza",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "ALCkdDjkNKa7zKXjupIkDrerprDpOOwczjfXAOw9fxY955hnLfmoaFKOqOEvPxCqc1jnmusNezmQEgMTT20HBg==.sig.ed25519"
+  "signature": "bWu8iKImMlTQ23uGOArni6zlADvPmoYv23kKzhZarViMIxgORAOLrN6BYgiPjPfbpgWIG8cM+h9EiXnDaC5EDA==.sig.ed25519"
 }
