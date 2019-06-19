@@ -1,17 +1,35 @@
 {
-  "previous": "%EIWcJ/bThm2cP7G+U/LOk///vK4fgmdjxN5YuxgZTsw=.sha256",
-  "sequence": 10760,
+  "previous": "%ZDT94372DG++u5g3v8VcINHAbsfVWZndys7yNjYGm4s=.sha256",
+  "sequence": 10761,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560954318136,
+  "timestamp": 1560955777168,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%FfAULCfuKoJuUOGXjrp1gm/oHDFlPUpZTBOF+DpmWew=.sha256",
+    "branch": "%FfAULCfuKoJuUOGXjrp1gm/oHDFlPUpZTBOF+DpmWew=.sha256",
+    "reply": {
+      "%FfAULCfuKoJuUOGXjrp1gm/oHDFlPUpZTBOF+DpmWew=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%1QM01dTjwLinEfpIDYTfwhsj8tOAgxPNWX5dQ235je0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nRight now we're just using gatherings, which allow for multiple editors.\n\nFor example: %vWAPOTUCOa/2jnsPhdWPIrIpE7rH5cQ0tguGglXOoVg=.sha256\n\nI know [@regular](@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519) has been working on some super elegant solutions for multiple editors, you might dig #ssb-revisions.",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      },
+      {
+        "link": "%vWAPOTUCOa/2jnsPhdWPIrIpE7rH5cQ0tguGglXOoVg=.sha256"
+      },
+      {
+        "link": "@nti4TWBH/WNZnfwEoSleF3bgagd63Z5yeEnmFIyq0KA=.ed25519",
+        "name": "regular"
+      },
+      {
+        "link": "#ssb-revisions"
+      }
+    ]
   },
-  "signature": "dsn/5iUhHgBCDhp0JXpsppljTii7gwbhymNdHJ4VP3ngRSXNzam7oK0Hs6KtWeBWtjz5VT2EhNIP3PcLzHS0BA==.sig.ed25519"
+  "signature": "gucUzTWAxWNz5++580BddlO+vIqUw97DZtG8DQNNQzXKLgJXbQluOdCPaCJ4PsF3U6ZePzSvEusiqOInDICaAA==.sig.ed25519"
 }
