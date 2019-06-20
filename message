@@ -1,17 +1,25 @@
 {
-  "previous": "%BwhvYTQpj4jmbizeXnrFnt2okIH6fYEE7SSKis66BHc=.sha256",
-  "sequence": 10776,
+  "previous": "%K+nZBlQdx5ro1J4XrQ/7ivX6yIOHKC61n/2hhbLZ+8w=.sha256",
+  "sequence": 10777,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561045123494,
+  "timestamp": 1561045498453,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "community-gardening",
-    "vote": {
-      "link": "%AlfSPHduAb7qFUQ12/hzhcADrd8M159knPQ4BBn4K+I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%B5n/0xiHZjTriN/PAM1qLPypPUtaS9qsldebfCiQLAM=.sha256",
+    "branch": "%B5n/0xiHZjTriN/PAM1qLPypPUtaS9qsldebfCiQLAM=.sha256",
+    "reply": {
+      "%B5n/0xiHZjTriN/PAM1qLPypPUtaS9qsldebfCiQLAM=.sha256": "@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@sam_uk](@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519) \n\nAside: don't know if you've seen [code blocks in Markdown](https://help.github.com/en/articles/creating-and-highlighting-code-blocks), but you might like them!",
+    "mentions": [
+      {
+        "link": "@4xqgty3pil6QW3CoO1RcuTFGRuhsTcp+jGZvA6aCSAo=.ed25519",
+        "name": "sam_uk"
+      }
+    ]
   },
-  "signature": "LWv03uNEqVCPHrWr9QOgz1a5eLpTURa2QS1bi92ZBdVCDHlEeMh7DTG4JcWgilb0oNkNEzEBYj60aU35yuA2Bg==.sig.ed25519"
+  "signature": "qL4oHSqBf+TKzlsIoC8mvZXQgzQZBf8srJ6XEjDcxya0prxUH+4yYlM3yVS6ZM5hiTGcyCqez+zrnLahN53fBw==.sig.ed25519"
 }
