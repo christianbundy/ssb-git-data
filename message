@@ -1,17 +1,26 @@
 {
-  "previous": "%zDKHHTa8vydPQyL55O9FIjI0V6iAJBvSv22a4hQZx4c=.sha256",
-  "sequence": 10778,
+  "previous": "%MZzZjln1lf8TF8ULQVZKh8vMhw6WjVV0ZsW23FcABxM=.sha256",
+  "sequence": 10779,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561047677176,
+  "timestamp": 1561047785363,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jIlbHq7J86uy8SIUlCf8UVmR9MG3fEaUMd1OExFxQD8=.sha256",
+    "fork": "%3gm1ShOaeNpcluB4Jd3EWVyzvm+HK6XQfE47rrQZtXo=.sha256",
+    "branch": "%jIlbHq7J86uy8SIUlCf8UVmR9MG3fEaUMd1OExFxQD8=.sha256",
+    "reply": {
+      "%jIlbHq7J86uy8SIUlCf8UVmR9MG3fEaUMd1OExFxQD8=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
     "channel": "checkin",
-    "vote": {
-      "link": "%jIlbHq7J86uy8SIUlCf8UVmR9MG3fEaUMd1OExFxQD8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nI love the brain emoji way too much. It's *so* good.",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      }
+    ]
   },
-  "signature": "gHCSvOYWgZPMVwmqvGQnD17HPfjt5CWaCyL7xGQbbMRdW6AkuupLzubtRoPCo+PAp8e6MJsu2l/RcBQ+WiJHCA==.sig.ed25519"
+  "signature": "NOzjojPedMWrSJf5Iu5XJDu8Z905FXrky4/rEz2DP9N/q+Lw2ZahU1zCC1nWr+rOLFL7RsblTWWW9Fsxqd9+BQ==.sig.ed25519"
 }
