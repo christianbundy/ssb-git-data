@@ -1,17 +1,26 @@
 {
-  "previous": "%CwPXtm5+kJzYxfj/QxEcRk/22+/LfWiOJKOh08E4UYg=.sha256",
-  "sequence": 10773,
+  "previous": "%Xf/6xnbt2vLGwh4TAmmt6wbvljXPJtjY4vvAiXROFnE=.sha256",
+  "sequence": 10774,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1560984904508,
+  "timestamp": 1560993088211,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "money",
-    "vote": {
-      "link": "%nkPBluejTDu++iw7T+0r9qLTwZcXY1wxrcpG9lctYVs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%S7ti1CFQ+TsInkY6ykhnixCk/1S7Vh8pgd3ZdbYBkB0=.sha256",
+    "branch": "%w/ZayxPgaxKYls8nkLAchbtkv7Ly6lrKE+OHtdemN8g=.sha256",
+    "reply": {
+      "%S7ti1CFQ+TsInkY6ykhnixCk/1S7Vh8pgd3ZdbYBkB0=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%w/ZayxPgaxKYls8nkLAchbtkv7Ly6lrKE+OHtdemN8g=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+    },
+    "channel": "pub-help",
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nCould it be this? https://github.com/ssbc/ssb-ebt/issues/22",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "IQ8fkk4nskPCwiaGxXXVzdJeOymMmpVv31wq4/cZkQ5oXGXQ1xQktK0yBo7C7hLXaUammZIVNmQ+1Mr5f4tBAw==.sig.ed25519"
+  "signature": "eGd+u5YOK391kPtuo/fiNija5FIk6FDEH/AaVBxYHFWDxi5QOqXobJ73wYujrmNHKnQyf+QH8s2GuWKilYFoBA==.sig.ed25519"
 }
