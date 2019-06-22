@@ -1,17 +1,26 @@
 {
-  "previous": "%frX4aLzU7awW3SgPn63glqhOyVN6lyaurfZ3isrAHWs=.sha256",
-  "sequence": 10797,
+  "previous": "%bRkaEjJsN/8OCZrg6voC2U5FAHyrami2KpUkujrd3kw=.sha256",
+  "sequence": 10798,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561216021895,
+  "timestamp": 1561219644571,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bia98lwz5Qwhsu5ktLgV5C/QBZBxV0iXuW3apQSlUwI=.sha256",
+    "fork": "%v4OlwZBLl+8EQFbLDrJs+UQU/6N9w/TXlCmE/qVAIcQ=.sha256",
+    "branch": "%bia98lwz5Qwhsu5ktLgV5C/QBZBxV0iXuW3apQSlUwI=.sha256",
+    "reply": {
+      "%bia98lwz5Qwhsu5ktLgV5C/QBZBxV0iXuW3apQSlUwI=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%+WEN4Oa+UB14KfwBmhM8dnSkCSpneZR2UHmaJr0vbPU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nHey, a thing I know about! Do you have a budget in mind? And should it be lightweight enough for backpacking?",
+    "mentions": [
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
+      }
+    ]
   },
-  "signature": "++Rt0WYl8hjpCCR9zXdWXU6d4RUkIo3yhV8iY7Dgz6QNneoO/DtHy6nzlNfeL8LTkcHDeClEH5W4kj1g7lIBBg==.sig.ed25519"
+  "signature": "y8kzPVPeM4oSPr02x9dZvkQmd3OKP3yaMBFA5jaxP8OLJHf4xs4TmOPDw5PoC4BsWp/xpK3XctEAAgYnoB1pDA==.sig.ed25519"
 }
