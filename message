@@ -1,17 +1,26 @@
 {
-  "previous": "%8XCsg8Pt90F3vX+6t1a79Gegv0mBvyH070UjOzblr3s=.sha256",
-  "sequence": 10799,
+  "previous": "%5l/+bidpDgtYyhAefshQZMQ36uQcNCuiMcYo5ih8NDg=.sha256",
+  "sequence": 10800,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561223252404,
+  "timestamp": 1561243672185,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%8sBeU7hY+4NCvax1uSopvV328avpFxBGR5/8cqA1Uno=.sha256",
+    "branch": "%DPTLfbLZ6CDpk0198Gt4xgHbJ3yvYZJnZlwdVEXt07E=.sha256",
+    "reply": {
+      "%8sBeU7hY+4NCvax1uSopvV328avpFxBGR5/8cqA1Uno=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+      "%DPTLfbLZ6CDpk0198Gt4xgHbJ3yvYZJnZlwdVEXt07E=.sha256": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%7udJsuQxmutRgjchG4JWaz1tSHKrkLmxRrgL/BJcixo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519) \n\nYep! I haven't made the gathering but the plan was to try again for 2 weeks from the original date. For me, that's Wednesday July 3rd at 13:00 PDT, but I'll make a gathering as well. In the future I'm hoping we can stagger the time so that we can make this accessible across timezones.",
+    "mentions": [
+      {
+        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
+        "name": "Kaotisk Hund"
+      }
+    ]
   },
-  "signature": "EkYISmAS8PWaQBfV0MbNhxEz8egvlCVRgr2cx2JGbKPiuV7blYzabrfwAlwKcpdbAI0xQkxaJVop5PeIcHDaAw==.sig.ed25519"
+  "signature": "ICdCY7fX5stEBqQ5p1XydyHX0z/fpvgzzSG5vyZJijJhAhv95VoRmF7VlyLzt5m0Fza/xx5tqDxWHYALKBTxAg==.sig.ed25519"
 }
