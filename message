@@ -1,28 +1,33 @@
 {
-  "previous": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
-  "sequence": 10808,
+  "previous": "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256",
+  "sequence": 10809,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561406186093,
+  "timestamp": 1561406245115,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
-    "branch": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
+    "branch": "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256",
     "reply": {
-      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+      "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nThere's #mvd but I haven't seen much activity lately. I tried to make one yesterday but I had trouble using browserify on ssb-client and decided to just do it server-side instead. I was using [create-choo-app](https://github.com/choojs/create-choo-app) though so there were lots of other moving parts, not sure which ones broke.",
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nOh, and there's #patchfox too, but that's browser-specific. \n\ncc: [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) does Patchfox require Firefox? Or could it just run as a plain HTML file and connect to a remote?",
     "mentions": [
       {
         "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
         "name": "RangerMauve (desktop)"
       },
       {
-        "link": "#mvd"
+        "link": "#patchfox"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ]
   },
-  "signature": "AX3d0Mk3LnCTF2kVld+VhCSwB670TiwsLrCQG8GgithqGtSJ9yGRkoek4Yrsb7OE+S8INnxM7cFvPEqcKlBDAg==.sig.ed25519"
+  "signature": "Ju2egy5q6PxvX8wRannjWl7Bc6FnIdVz0QDPfzAUneD0XWjbqre2BMfcJxfHnc50dsKoEFTXz59TUzYnrIyICg==.sig.ed25519"
 }
