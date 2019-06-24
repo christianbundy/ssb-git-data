@@ -1,17 +1,26 @@
 {
-  "previous": "%94Gqfydi7xBNmn5N6YaWvIqHUvKy4Dz7NtMu7RvXcic=.sha256",
-  "sequence": 10805,
+  "previous": "%gFvENC3OKCn9qaDyCA9WSZhx1N5U4Mu5ErXaoCKQGUA=.sha256",
+  "sequence": 10806,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561393133431,
+  "timestamp": 1561394417809,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-learning",
-    "vote": {
-      "link": "%ihAUOpijqLmb+I1IXHjctQjgC4qnEQKc74O1lLzZAr4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%mpZ6ev25gBcr/0oQBH+hlMcmHzv27X1FhCcsaKEmC8U=.sha256",
+    "branch": "%OnjZj7iCy6nXLqitdxs5VrHUDcq0u0pitOPwsJnmp+E=.sha256",
+    "reply": {
+      "%mpZ6ev25gBcr/0oQBH+hlMcmHzv27X1FhCcsaKEmC8U=.sha256": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519",
+      "%OnjZj7iCy6nXLqitdxs5VrHUDcq0u0pitOPwsJnmp+E=.sha256": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Hey [@kieran](@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519)!\n\nIt's not just you, I've had lots of problems bootstrapping ssb-npm packages as well. I think the trick is to start with a vanilla ssb-server, *then* get ssb-npm working, and *then* try to get the viewer up and running. I think you've gotta go one at a time because each one depends on the previous one.",
+    "mentions": [
+      {
+        "link": "@MpDd66GPXgN1+eMNrZInHkWq1THMurWwLdMx8BZ1ncw=.ed25519",
+        "name": "kieran"
+      }
+    ]
   },
-  "signature": "IsRS8EtWXyZrqIUWOPEgbbvv5NX1PV6ocfFBtVyv67AXCwbudxUDNKBgu5S+KngRalFdWQkmEZ4/eqDgTscdDw==.sig.ed25519"
+  "signature": "JW/mZRMfgsf7ZiYV+Mo8P0SZNkxrI8L28VHjTzgnpCVZPKU78MvNsoB2oU/5KIIFRL+u2BdQaCvUykpStzhkDg==.sig.ed25519"
 }
