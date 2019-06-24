@@ -1,20 +1,28 @@
 {
-  "previous": "%1ttvb3EAuVNFpQGoOKSaj4RnUZEbD3Jm922OtsS/Lss=.sha256",
-  "sequence": 10807,
+  "previous": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
+  "sequence": 10808,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561405119269,
+  "timestamp": 1561406186093,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Oasis: a little thing I'm hacking on\n\nI took a couple of hours yesterday and started implementing a new Scuttlebutt interface! It doesn't do much but it's simple and I like it.\n\n![Screenshot of a web browser with a Scuttlebutt interface. It's displaying posts from myself, André, and Mix in a single column.](&dbPJhP8URoDAiQvPTgte2KrEXGB9DJQ9216Rmh2yTIE=.sha256) \n\n## Background\n\nIn the past webpages were created on the server and rendered in the browser. Since most servers were far away, this meant that refreshing the page was slow -- you had to wait for the server to receive your request, create a new webpage, and send it to you.\n\nThe popular solution to this problem is to add a JavaScript application to the webpage which can pull data from the server without refreshing the page. This reduces the perceived latency between updates and minimizes the amount of data transferred over the network. Instead of sending an entire webpage you can just send payload of the new data to stick in the UI. It's way more efficient.\n\nBut this efficiency comes at a cost: complexity. Maintaining these applications becomes a full-time job, which can be super draining when you *already have* a full-time job. This interface isn't being served by a remote server so latency difference is minimal, so the only thing it's missing is live updates. I'm hopeful that next-generation tooling like [coherence](https://github.com/dominictarr/coherence/blob/master/README.md) will give us the best of both worlds, but I'm just experimenting with plain HTML + CSS right now.\n\n## Features\n\n- small and simple, only shows you a list of posts\n- header includes author name and avatar, plus relative timestamp\n- Markdown is supported (though links and images are broken)\n- footer includes permalinks to self, root, and fork\n- clicking permalinks opens them in Patchfox (!) if it's installed\n- runs in a web browser, no Electron required\n\n## Future\n\nNo idea. I'll probably forget about it and come back to it in six months, but I wanted to share my progress anyway. It feels super empowering to be able to build an interface in only a few lines of code. The readme is available [here](https://github.com/fraction/oasis/blob/master/README.md) if you're into that sort of thing, but this is only a [spike](https://en.wikipedia.org/wiki/Spike_(software_development)).",
+    "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
+    "branch": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
+    "reply": {
+      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nThere's #mvd but I haven't seen much activity lately. I tried to make one yesterday but I had trouble using browserify on ssb-client and decided to just do it server-side instead. I was using [create-choo-app](https://github.com/choojs/create-choo-app) though so there were lots of other moving parts, not sure which ones broke.",
     "mentions": [
       {
-        "link": "&dbPJhP8URoDAiQvPTgte2KrEXGB9DJQ9216Rmh2yTIE=.sha256",
-        "name": "Screenshot of a web browser with a Scuttlebutt interface. It&#39;s displaying posts from myself, André, and Mix in a single column.",
-        "type": "image/png",
-        "size": 177353
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      },
+      {
+        "link": "#mvd"
       }
     ]
   },
-  "signature": "7CxEgzCtPFz70Co/Zl4u+hp/cdgBTiGVZKussb2TMXRGskATtEhlKQiNKtiBcZhEQXwWFLaqblLpurxH/AVXBQ==.sig.ed25519"
+  "signature": "AX3d0Mk3LnCTF2kVld+VhCSwB670TiwsLrCQG8GgithqGtSJ9yGRkoek4Yrsb7OE+S8INnxM7cFvPEqcKlBDAg==.sig.ed25519"
 }
