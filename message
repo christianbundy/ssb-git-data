@@ -1,33 +1,17 @@
 {
-  "previous": "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256",
-  "sequence": 10809,
+  "previous": "%ntCEmQL+Nj69pFKkvdM+RAK6MRZ603NoNNBTPhJ06Rk=.sha256",
+  "sequence": 10810,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561406245115,
+  "timestamp": 1561409341725,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
-    "branch": "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256",
-    "reply": {
-      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-      "%a2uT723kAxh/ZBk5j3wdhOZq/zbpjzc1uF2+8GanzxE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nOh, and there's #patchfox too, but that's browser-specific. \n\ncc: [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) does Patchfox require Firefox? Or could it just run as a plain HTML file and connect to a remote?",
-    "mentions": [
-      {
-        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-        "name": "RangerMauve (desktop)"
-      },
-      {
-        "link": "#patchfox"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ]
+    "vote": {
+      "link": "%78RXXP27j4x+jG9VtsAnVLn83aoEjznBFiIuN/ZTFdA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Ju2egy5q6PxvX8wRannjWl7Bc6FnIdVz0QDPfzAUneD0XWjbqre2BMfcJxfHnc50dsKoEFTXz59TUzYnrIyICg==.sig.ed25519"
+  "signature": "HP2VTsD7AZLS9cif183i5/68Lx18QdZO6JhhF2KoZXSc44r/FyaA9wskB0CUJHucXrdTrwJnY2T8RqOqP54pAQ==.sig.ed25519"
 }
