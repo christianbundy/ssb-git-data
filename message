@@ -1,17 +1,29 @@
 {
-  "previous": "%+/tEYWl3o5OZjQNl3sIqm2XY5KoveQpt9yKgqPGJvJI=.sha256",
-  "sequence": 10855,
+  "previous": "%BGvBwddiOhMQhJiP40obxbrHVQpOHw4gsH5v5E/KHKA=.sha256",
+  "sequence": 10856,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561503930757,
+  "timestamp": 1561503992238,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%UaG6P/N+wF93giRtjQiotaEheaoodjheWb1xTJRTPWc=.sha256",
+    "branch": [
+      "%2OBHi6hmQMMqhhX6uIm8xibMeUUPUcRCycsTibP/Gh4=.sha256",
+      "%thT1LNXAZ40RhSX9Ou33S+4u6TA09YTEVwEz73O3uFU=.sha256"
+    ],
+    "reply": {
+      "%UaG6P/N+wF93giRtjQiotaEheaoodjheWb1xTJRTPWc=.sha256": "@p146LsUczQ1K7kki2kUyxCLX3EF+O5rf1sOUOjf+Lqo=.ed25519",
+      "%thT1LNXAZ40RhSX9Ou33S+4u6TA09YTEVwEz73O3uFU=.sha256": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519"
+    },
     "channel": "haskell",
-    "vote": {
-      "link": "%thT1LNXAZ40RhSX9Ou33S+4u6TA09YTEVwEz73O3uFU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@John](@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519) \n\nThis is so rad! How's your experience with this been so far? Any major pain points?",
+    "mentions": [
+      {
+        "link": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519",
+        "name": "John"
+      }
+    ]
   },
-  "signature": "xAjrLwsuKF5mPikeBoKhWTp81OdKEwS9kR486ow8BTNdRHgMTkjuSwHxm0GpAyzf2zY0Z6BLBaT2h22ojqLrCw==.sig.ed25519"
+  "signature": "T8NcBIz+H6AoV9echuHhhhGSJesWt34gfUG2yCqlZOQT899HOFEYrtxdNa+xsxZiAE5cZOOSWm/x2RNsqTyaCg==.sig.ed25519"
 }
