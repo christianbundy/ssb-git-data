@@ -1,13 +1,17 @@
 {
-  "previous": "%YIR8jOgcRksO8Mh4e+NujbnpMBVF1mtJjiPI/7REfjA=.sha256",
-  "sequence": 10854,
+  "previous": "%+/tEYWl3o5OZjQNl3sIqm2XY5KoveQpt9yKgqPGJvJI=.sha256",
+  "sequence": 10855,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561503926194,
+  "timestamp": 1561503930757,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "haskell",
+    "vote": {
+      "link": "%thT1LNXAZ40RhSX9Ou33S+4u6TA09YTEVwEz73O3uFU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "qxaoZVtT4+7kIu2JvfguI0z8xZfFpfyFdT2mxu5SKg0je7M4g8EDV6UMVSqVaHy2omnuIKx30XS9SA+0YvDaAQ==.sig.ed25519"
+  "signature": "xAjrLwsuKF5mPikeBoKhWTp81OdKEwS9kR486ow8BTNdRHgMTkjuSwHxm0GpAyzf2zY0Z6BLBaT2h22ojqLrCw==.sig.ed25519"
 }
