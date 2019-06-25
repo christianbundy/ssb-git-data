@@ -1,30 +1,30 @@
 {
-  "previous": "%D0ndQbG/YJ6DLrn7tzyPoKRkIy9hzo9Y03P5aXiBoAk=.sha256",
-  "sequence": 10847,
+  "previous": "%E68RCBP4+umL959Kjo+AWa4ttVdzAcJ9ZLMr7msnoEs=.sha256",
+  "sequence": 10848,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561496894927,
+  "timestamp": 1561498465776,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
-    "branch": "%yrYrvqP51d5mzZhgkry/7qHuVnDzG3HM9SPkncGXg/U=.sha256",
+    "root": "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256",
+    "fork": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": [
+      "%NlMjeM4t8V4AZYtLDx7aJj4LPRMEkVIPrYOCcIClH/I=.sha256",
+      "%rU1MbR28OuihOV2mvL4wMFnn8IDp0k7vTtS0WFSqZi4=.sha256"
+    ],
     "reply": {
-      "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%yrYrvqP51d5mzZhgkry/7qHuVnDzG3HM9SPkncGXg/U=.sha256": "@zVgfPY/wrpIetVMenUnokwcmrqlDderiZr7jCbOpR1k=.ed25519"
+      "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+      "%rU1MbR28OuihOV2mvL4wMFnn8IDp0k7vTtS0WFSqZi4=.sha256": "@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519"
     },
-    "channel": null,
+    "channel": "patchfox",
     "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nWoo! \n\n> Can this plan be extended to allow editing old posts, not just deleting them? Deletion is a special case of edit, just edit it into an empty string :)\n\nYeah! It's just that *right now* flumedb views expect to see a message [once and only once](%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256), so unless we rewrite a bunch of the database we have two main options for doing [mutable views](https://github.com/flumedb/flumedb/issues/23):\n\n- re-stream all messages and do a full view rebuild after mutation\n  - this means every time someone edits a message we have to rebuild the db\n  - slow, resource-intensive, and super painful for everyone involved\n- check whether a message was mutated on read\n\nI think the latter is fine for deletion, but causes problems for editing.\n\nFor example, here's the usage example from the [flumeview-level readme](https://github.com/flumedb/flumeview-level/blob/master/README.md):\n\n```javascript\nflumedb.use(name, FlumeviewLevel(1, function map (value) {\n  return [data.foo] // must return an array\n}))\n\nflumedb.append({foo: 'bar'}, function (err) {\n  if(err) throw err\n\n  //query items from the index directly\n  flumedb[name].get('bar', function (err, value) {\n    if(err) throw err\n    console.log(value) // => {foo: 'bar'})\n  })\n})\n```\n\nLet's say we're unhappy with `{ foo: 'bar' }` and want to upgrade to the automobile variant `{ foo: 'car' }`.\n\n## Delete\n\nOne way to resolve this would be to delete `'bar'` and append a message referencing `'car'`. \n\nIt's easy to hook into `get()` and say [\"if the message has been deleted from the database, delete the index\"](https://github.com/flumedb/flumeview-level/blob/master/index.js#L107-L115), and then we just have to append a message with the correct value.\n\n```javascript\nflumedb[name].get('car') // => { foo: 'car' }\nflumedb[name].get('bar') // => null\n```\n\nIt shouldn't matter, but the above lines of code work fine regardless of their order.\n\n:tada: \n\n## Edit\n\nDoing the same thing with edits get you super weird behavior:\n\n```javascript\nflumedb[name].get('car') // => null\nflumedb[name].get('bar') // => null\nflumedb[name].get('car') // => { foo: 'car' }\n```\n\nThe view doesn't have an opportunity to find a mutation until you look up `'bar'`, which means that you have to attempt to access the old value before you can trigger indexing on the new value. Weird. Views would also have to solve the problem of *detecting* mutations, which means they'd have to re-index each message on read to ensure it has the same output (or maybe some hashtable system? idk).\n\nI *really* want message edits, but I don't think that the JavaScript implementation is ready to support edits in the database layer.\n\n> Would this proposal work on old legacy messages, or would only new-style messages be deletable?\n\nThe current message style signs the hash of the previous message (including content), so we wouldn't be able to verify the integrity of a feed without the message content. This would only work on the new style of messages, which keep the content off-chain.",
+    "text": "[@SoapDog (Manyverse)](@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519) \n\nBtw, you aren't deleting your log are you? I think you just need to delete your flumeview-level, which is where the error is happening in the stacktrace. Here's the command that I've been using, which prompts for permission to delete each file (just in case):\n\n```console\n$ find ~/.ssb/flume/ -mindepth 1 -maxdepth 1 -type d -ok rm -rf {} \\;\n< rm ... /home/christianbundy/.ssb/flume/search > ? y\n< rm ... /home/christianbundy/.ssb/flume/feed > ? y\n< rm ... /home/christianbundy/.ssb/flume/query > ? y\n< rm ... /home/christianbundy/.ssb/flume/private--oaWWDs8g > ? y\n< rm ... /home/christianbundy/.ssb/flume/backlinks--oaWWDs8g > ? y\n< rm ... /home/christianbundy/.ssb/flume/time > ? y\n< rm ... /home/christianbundy/.ssb/flume/links > ? y\n< rm ... /home/christianbundy/.ssb/flume/clock > ? y\n```",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
-        "name": "once and only once"
+        "link": "@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519",
+        "name": "SoapDog (Manyverse)"
       }
     ]
   },
-  "signature": "ooxl/1hJta1t+f/Ub4y1LsdRkAA/GbM58UC4YywDwL7dAPVndA636HBX9f5mfozpsUSiXzW6n+huKV5F0y0mDQ==.sig.ed25519"
+  "signature": "R5G60kvyZFVrvE9Tsclwx7mAFTCHgvhvgaPGNVDGRF8mx05Y8s3yhjwbznZlyWKbh6CC3GMFkkdauVldv30eCA==.sig.ed25519"
 }
