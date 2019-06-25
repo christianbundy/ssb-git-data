@@ -1,16 +1,26 @@
 {
-  "previous": "%zWosJC4kELzPbzPYH/sbhrmPoOt7eNASvWJ1h/9sQVc=.sha256",
-  "sequence": 10849,
+  "previous": "%phXUUPoetquSRiOca6QXBX71+nQJtY6ir0OQ3rE6yKM=.sha256",
+  "sequence": 10850,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561499046735,
+  "timestamp": 1561499537197,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4XA3mq6mEFV4xZ4O20YogvWRKH9DXzZe7ZzeibDYPzI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": "%PGnNy8NLnYLcycSLgFh5VDwBI86gn5wyYPxbn7sbzpc=.sha256",
+    "reply": {
+      "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%PGnNy8NLnYLcycSLgFh5VDwBI86gn5wyYPxbn7sbzpc=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": "patchfox",
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI still see you!",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "2D5Kc8VtsKHoXeWcwceKG2Xt1CjU7keo8ARcob2xflWX06PLUnvp+LhNNb1sn9jspWlER22xWVMV8NY5z7l/Cw==.sig.ed25519"
+  "signature": "QV0Z7VWjFO2qkGrJjSmkM+V0x7v9AbHlBnAxeKG2cZ70moW4D+egvVP3ng9oHtIeNiJKe6i6L+HLheUAiGVcCQ==.sig.ed25519"
 }
