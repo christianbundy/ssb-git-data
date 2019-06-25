@@ -1,26 +1,39 @@
 {
-  "previous": "%sCCdOXX/wxyNyiQFhg6kL+73GpjylWRvbo3Ej0JKhcQ=.sha256",
-  "sequence": 10820,
+  "previous": "%bAv6GM24rBZ76ZAT9YhmVBTqC7TYAnYi0BYh82U9+Gc=.sha256",
+  "sequence": 10821,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561473724866,
+  "timestamp": 1561479111045,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
-    "branch": "%6Uwn28auiEAxSeOCVPJnK+E96cle6GwJTIbgm7lpQ4k=.sha256",
+    "root": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
+    "branch": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
     "reply": {
-      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-      "%6Uwn28auiEAxSeOCVPJnK+E96cle6GwJTIbgm7lpQ4k=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+      "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nThis is also super important to me. I think the current roadblock right now is that the database is too slow in the browser, which makes any non-trivial usage impossibly slow.",
+    "text": "I got carried away and implemented:\n\n✔ links and images\n✔ threads  \n✔ profiles  \n✔ hashtags\n\n![Screenshot of Oasis thread view featuring SoapDog and Daan2.](&KLYdwfzcK3rAUBeRPWHUH4nsdq2Qq2OXpZpNWPJaIb0=.sha256)\n\n![Screenshot of Oasis profile view featuring me and my profile description.](&qa8hztbFZJazm/SmNdcZLuLWU13aBLgJ6cOqdxSoQmU=.sha256)\n\n![Screenshot of Oasis hashtag view with the solarpunk tag open.](&kE9OBDgrpC5Wk3NMS6HP18CA7ampxHux0LDp7zrR1pw=.sha256)\n\n## Notes\n\n- still read-only so you can't like / reply / edit your profile (yet)\n- totally unaware of likes, so those don't show (yet!)\n- oh, and pagination doesn't work at all (yet!!!!)\n- there's an ssb-markdown bug where some inline profile links are broken\n- Koa is great but I'm really not crazy about EJS\n  - I've been spoiled by hyperscript / yo-yo / etc\n  - it's so small that switching will only take ~1 hour to replace\n- I've been using promises everywhere and I'm really enjoying the simplicity\n- I wrote a small Scuttlebutt helper that converts ssb-client calls to promises\n  ```javascript\n  // before\n  ssbClient((err, api) => {\n    if (err) throw err\n    api.whoami((err, val) => {\n      if (err) throw err\n      console.log(val)\n    })\n  })\n\n  // after\n  const api = await cooler.connect()\n  const val = await cooler.get(api.whoami)\n  console.log(val)\n  ```\n- I'm still just shocked at how simple most of this stuff is. I thought writing a read-only interface would take a month, not a day. I'm feeling really good about the small abstractions I've been using and I'm really enjoying using promises instead of callbacks. I don't have much time to throw at this project but it seems to be moving along at a very healthy pace.",
     "mentions": [
       {
-        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-        "name": "RangerMauve (desktop)"
+        "link": "&KLYdwfzcK3rAUBeRPWHUH4nsdq2Qq2OXpZpNWPJaIb0=.sha256",
+        "name": "Screenshot of Oasis thread view featuring SoapDog and Daan2.",
+        "type": "image/png",
+        "size": 231942
+      },
+      {
+        "link": "&qa8hztbFZJazm/SmNdcZLuLWU13aBLgJ6cOqdxSoQmU=.sha256",
+        "name": "Screenshot of Oasis profile view featuring me and my profile description.",
+        "type": "image/png",
+        "size": 190622
+      },
+      {
+        "link": "&kE9OBDgrpC5Wk3NMS6HP18CA7ampxHux0LDp7zrR1pw=.sha256",
+        "name": "Screenshot of Oasis hashtag view with the solarpunk tag open.",
+        "type": "image/png",
+        "size": 203849
       }
     ]
   },
-  "signature": "Y8xPHeViHFcOQuutSqsqKZv9VDrfHvue9SR5sTc2+9OXtURAeUh9CXZMIkJ5uJx1b1nL3fWMvoJpmMK7AtUpBg==.sig.ed25519"
+  "signature": "Oznu1U7QvQVeaaq+YpNAwtSWhR2hK/2C2a2TnU5iQ2RnP16oH6300WMiR5rAcifg1yVTs7TBm0LjIrVhX+VkBQ==.sig.ed25519"
 }
