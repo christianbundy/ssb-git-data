@@ -1,17 +1,26 @@
 {
-  "previous": "%d6VW6GCdqP6a50egbd5d5tV59woAPeIQiK1L/Mu73Xs=.sha256",
-  "sequence": 10837,
+  "previous": "%pXtPO85VW1eVZmkI55GgkVdADz2gS+giP6th1qGHOoM=.sha256",
+  "sequence": 10838,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561489052327,
+  "timestamp": 1561489070286,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256",
+    "fork": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256",
+    "reply": {
+      "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
     "channel": "patchfox",
-    "vote": {
-      "link": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@SoapDog (SurfaceGo)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nWhat kind of break?",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (SurfaceGo)"
+      }
+    ]
   },
-  "signature": "+xb09i9/yHhLjbQjrS0kvPop/WVIJgXXViNUyDtYg2brMHwA8r58MdqIsQegROLdli61i0+A4tc0xRYiYvNgCA==.sig.ed25519"
+  "signature": "VQjWroms5slcQ39rVIZT3179hC/Vvg8Oers0N05X0OcATqsn8RcUZpGhpBsdyPiqsEf6Xo2N2xso0BpHO0DrCQ==.sig.ed25519"
 }
