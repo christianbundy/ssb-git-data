@@ -1,30 +1,16 @@
 {
-  "previous": "%E68RCBP4+umL959Kjo+AWa4ttVdzAcJ9ZLMr7msnoEs=.sha256",
-  "sequence": 10848,
+  "previous": "%zWosJC4kELzPbzPYH/sbhrmPoOt7eNASvWJ1h/9sQVc=.sha256",
+  "sequence": 10849,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561498465776,
+  "timestamp": 1561499046735,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256",
-    "fork": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
-    "branch": [
-      "%NlMjeM4t8V4AZYtLDx7aJj4LPRMEkVIPrYOCcIClH/I=.sha256",
-      "%rU1MbR28OuihOV2mvL4wMFnn8IDp0k7vTtS0WFSqZi4=.sha256"
-    ],
-    "reply": {
-      "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-      "%rU1MbR28OuihOV2mvL4wMFnn8IDp0k7vTtS0WFSqZi4=.sha256": "@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519"
-    },
-    "channel": "patchfox",
-    "recps": null,
-    "text": "[@SoapDog (Manyverse)](@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519) \n\nBtw, you aren't deleting your log are you? I think you just need to delete your flumeview-level, which is where the error is happening in the stacktrace. Here's the command that I've been using, which prompts for permission to delete each file (just in case):\n\n```console\n$ find ~/.ssb/flume/ -mindepth 1 -maxdepth 1 -type d -ok rm -rf {} \\;\n< rm ... /home/christianbundy/.ssb/flume/search > ? y\n< rm ... /home/christianbundy/.ssb/flume/feed > ? y\n< rm ... /home/christianbundy/.ssb/flume/query > ? y\n< rm ... /home/christianbundy/.ssb/flume/private--oaWWDs8g > ? y\n< rm ... /home/christianbundy/.ssb/flume/backlinks--oaWWDs8g > ? y\n< rm ... /home/christianbundy/.ssb/flume/time > ? y\n< rm ... /home/christianbundy/.ssb/flume/links > ? y\n< rm ... /home/christianbundy/.ssb/flume/clock > ? y\n```",
-    "mentions": [
-      {
-        "link": "@FuvN1MpxWHGGYAswLAmfpTkkS5iKaFog2aPL4baU1cE=.ed25519",
-        "name": "SoapDog (Manyverse)"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%4XA3mq6mEFV4xZ4O20YogvWRKH9DXzZe7ZzeibDYPzI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "R5G60kvyZFVrvE9Tsclwx7mAFTCHgvhvgaPGNVDGRF8mx05Y8s3yhjwbznZlyWKbh6CC3GMFkkdauVldv30eCA==.sig.ed25519"
+  "signature": "2D5Kc8VtsKHoXeWcwceKG2Xt1CjU7keo8ARcob2xflWX06PLUnvp+LhNNb1sn9jspWlER22xWVMV8NY5z7l/Cw==.sig.ed25519"
 }
