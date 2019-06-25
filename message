@@ -1,17 +1,25 @@
 {
-  "previous": "%yyHcDD6MqkGS3/xiW33XecXbpGJkQFDVY3gQKd0OArU=.sha256",
-  "sequence": 10816,
+  "previous": "%3ALcKqKXwhVc1Q5MtsJvdAYaurtfkL7fNWJwznTrZEU=.sha256",
+  "sequence": 10817,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561471892941,
+  "timestamp": 1561471921149,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%3VtpDrF7trxOZYBuxRUqgudZQlRdtZvENqkal7iezbc=.sha256",
+    "branch": "%3VtpDrF7trxOZYBuxRUqgudZQlRdtZvENqkal7iezbc=.sha256",
+    "reply": {
+      "%3VtpDrF7trxOZYBuxRUqgudZQlRdtZvENqkal7iezbc=.sha256": "@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%Mb/PJCrZ46FvedGI1CXHX2JIEKq3peH4EKBe4nPA2Gg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@jeukku](@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519) \n\nWelcome back! That was a super frustrating but with 3.11.x, happy to hear it's resolved for you now.",
+    "mentions": [
+      {
+        "link": "@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519",
+        "name": "jeukku"
+      }
+    ]
   },
-  "signature": "tbD2r5zFKi0Cs7P191f4qR//GJiDxorjvg+mpy+uQk/Lqk1YnKwVs4OoVSIjZJHpx3BfSnQloDtqZMhkXEf8Cg==.sig.ed25519"
+  "signature": "f3LFMgu2Q1hOJCBufA28MNqH9gm8qGi+niglG5w0mMAl4dNALJIirJlT2ARYIXhvcrVc9XRruPrcHhFb6+irAg==.sig.ed25519"
 }
