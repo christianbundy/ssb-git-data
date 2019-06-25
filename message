@@ -1,26 +1,29 @@
 {
-  "previous": "%LOWYSVvbclbgsz+jwdWwxH8+C0bsykQBGp7Fu4AgEP0=.sha256",
-  "sequence": 10852,
+  "previous": "%9G1Q1veooTJrcUiTqKrSMP4Xkxmws+KmdenwlBatjzI=.sha256",
+  "sequence": 10853,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561502279719,
+  "timestamp": 1561503862291,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%3VtpDrF7trxOZYBuxRUqgudZQlRdtZvENqkal7iezbc=.sha256",
-    "branch": "%+L1iO7R7jho0LwdcAl2pNp+pEU0uy/VdW6P15yoWHSI=.sha256",
+    "root": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": [
+      "%Eyy1ej3PQAzlbG9bktgvHfDmM8RNyvF0aW7AyN5uEz0=.sha256",
+      "%Fw27EN5mzNboTW1jkSHKczR0aAZR08qD86T87JkrxDA=.sha256"
+    ],
     "reply": {
-      "%3VtpDrF7trxOZYBuxRUqgudZQlRdtZvENqkal7iezbc=.sha256": "@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519",
-      "%+L1iO7R7jho0LwdcAl2pNp+pEU0uy/VdW6P15yoWHSI=.sha256": "@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519"
+      "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%Eyy1ej3PQAzlbG9bktgvHfDmM8RNyvF0aW7AyN5uEz0=.sha256": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519"
     },
-    "channel": null,
+    "channel": "patchfox",
     "recps": null,
-    "text": "[@jeukku](@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519) \n\nNope, I think that affected *at least* everyone on Windows: https://github.com/ssbc/patchwork/issues/969",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\n> I recognize the advantages of it but I don’t really enjoy programming in fantasy JS and having a crazy amount of tooling make that fantasy into something that browsers can actually execute.\n\nI'm with you on this. I really enjoy working with *fantasy JS*, but living on the bleeding edge vastly reduces the number of people who feel comfortable contributing to your project. Each time you add a layer of shenanigans to your project it becomes more alien to more people.\n\nOn the other hand, backward-compatibility can also be a pain point -- lots of SSBC code is tested against Node 6 when *even Node.js* has dropped support for the platform. I think that supporting the [current active LTS](https://github.com/nodejs/Release#release-schedule) is a solid compromise between the two extremes.\n\n> add a little convenience API on top of them for the most common actions\n\n!!! I love to see this. The current APIs are super extensive which is *great* if you need to do something ultra-specific, but Scuttlebutt's subjectivity (and lack of documentation) mean that usually you just want to do what everyone else is doing. Your code looks like a way-more-fleshed-out version of [cooler](https://github.com/fraction/oasis/blob/0b10dff763b1d07421a4b7b5f997046c5fa4b737/lib/cooler.js#L3), I'll use it as a reference and probably copy some stuff.\n\n> All drivers exported the same API so in theory you’d be able to switch drivers and the client would keep working.\n\nFancy! I don't know if you've seen it, but [leveldb](https://github.com/Level/level#introduction) does something similar. Modules interact with a consistent API they get from levelup, but all of the under-the-hood stuff comes from a given instance of leveldown. I'm sure there are other patterns, but there's power in composable interfaces and I think that any layers of useful abstraction would be helpful.\n\nSomeday I'd like to enumerate all of the various info you'd need to pull from the database to construct a basic client. For example:\n\n- Get list of messages\n- Get message metadata (ancestors, descendants, likes)\n- Get author metadata (name, image)\n- Get message expressed in HTML\n- Get number of likes per message\n- Publish new thread\n- Publish reply to existing thread\n- Publish like\n- View profile (author name, image, messages)\n- Edit profile (name, image)\n- ???\n\nI'd love to have these all bundled into a single API instead of having to roll our own implementations from the available database primitives. Bonus points for making streams optional. :upside_down_face: \n\n> With it you can simply create an *HTML* file, add it with `<script src=\"hermiebox.js\">` do SSB stuff. \n\nJust to be clear, this requires a full node running *somewhere* right? Or is this running the database in the browser too? In my opinion that's the dream, and I've been wanting it (though barely working on it) for a long time. ",
     "mentions": [
       {
-        "link": "@6H9x/fq6Iq+NWs05WSzMToYuBQ02f2BMzwnhTtxr/ck=.ed25519",
-        "name": "jeukku"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ]
   },
-  "signature": "+iGt+/eD/yFkyNooyJi5NClltNv+prZ9rKoEo+BToyDZMkxu6NDy2eX/vc+PZRteFLGd1l0wewcf+ZZ417blBQ==.sig.ed25519"
+  "signature": "OsrwJvZKoVZmxw6oq0Zvm+4FQQQk4nI1JBVdTVH8FpnR3VH8t/mQursMJgN1IW0vt/LZ6F0z1lsJpf2ch7aiDg==.sig.ed25519"
 }
