@@ -1,26 +1,17 @@
 {
-  "previous": "%ZcShDHgYlxZqmbL4pFpKoD8dsvF4P8pXlc2REN5jYBY=.sha256",
-  "sequence": 10831,
+  "previous": "%jRuxVh2QS/zcyQRbB3cnXZkNHMfadIDddHksrRU6Xz8=.sha256",
+  "sequence": 10832,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561485100663,
+  "timestamp": 1561486125708,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256",
-    "branch": "%wOMr0aMuGV6XbTyrkXyKI49NPilitZRM8FOARC/iZhc=.sha256",
-    "reply": {
-      "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
-      "%wOMr0aMuGV6XbTyrkXyKI49NPilitZRM8FOARC/iZhc=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@Nick Redmark](@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519) \n\nI'll often `mv ~/.ssb ~/.ssb.bak` to use a new ephemeral feed and then `rm -rf ~/.ssb && mv ~/.ssb.bak ~/.ssb` to delete it and go back to my primary feed, but it's not really a best practice. I think `ssb-server` also takes a `--path` flag, so you could do `ssb-server --path ~/.ssb-other-id`, but it requires that that other ID is already set up.\n\nWhat's your use-case for having another feed? Just testing stuff out? I'd love to help if there's a problem you're trying to solve.",
-    "mentions": [
-      {
-        "link": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
-        "name": "Nick Redmark"
-      }
-    ]
+    "vote": {
+      "link": "%TJYD+PBoEL+w8hqI+4WYbaUvgNxPEHUnWw5PJ/VW4IM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ojKc7pGnG7dN42f8zZvmbcGf+udaQPjrPzAqAkOl4/Rz7hd20I9I7E/OlemWt5KDKyVXChp4aKWomo4mNT2QBg==.sig.ed25519"
+  "signature": "D+9VoiBCKkwuwbtucMpDHjE3PFYarreG5k5CN7Lk4ZukucYudoGkbZZovsMXIdzU+MG8K9//4VPhpKYS2jJrAQ==.sig.ed25519"
 }
