@@ -1,24 +1,26 @@
 {
-  "previous": "%hWYM4z2DlkMir8dKkEOJLMLCZSzFyHUl37+TI/Rxr4Q=.sha256",
-  "sequence": 10830,
+  "previous": "%ZcShDHgYlxZqmbL4pFpKoD8dsvF4P8pXlc2REN5jYBY=.sha256",
+  "sequence": 10831,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561484394394,
+  "timestamp": 1561485100663,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256",
-    "branch": "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256",
+    "branch": "%wOMr0aMuGV6XbTyrkXyKI49NPilitZRM8FOARC/iZhc=.sha256",
     "reply": {
-      "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519"
+      "%eVMECz9VPW56kZsAcClIWSTWtd8iEIxyJ7nUzbrK4EY=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
+      "%wOMr0aMuGV6XbTyrkXyKI49NPilitZRM8FOARC/iZhc=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Do you mean channels (like #hashtags) or feeds (like your profile)? If you mean feeds, there's an [ssb-server plugin that does it](https://github.com/ssbc/ssb-identities) but I don't know battle-tested it is.",
+    "text": "[@Nick Redmark](@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519) \n\nI'll often `mv ~/.ssb ~/.ssb.bak` to use a new ephemeral feed and then `rm -rf ~/.ssb && mv ~/.ssb.bak ~/.ssb` to delete it and go back to my primary feed, but it's not really a best practice. I think `ssb-server` also takes a `--path` flag, so you could do `ssb-server --path ~/.ssb-other-id`, but it requires that that other ID is already set up.\n\nWhat's your use-case for having another feed? Just testing stuff out? I'd love to help if there's a problem you're trying to solve.",
     "mentions": [
       {
-        "link": "#hashtags"
+        "link": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
+        "name": "Nick Redmark"
       }
     ]
   },
-  "signature": "zaC8ipKj/Ffz2j/azDvHxxnfOX20GnopnycuqnTAzYWKkgQceufyyRHuWlH48+1FJ6i4GqQ3QSqdNReuNmfECw==.sig.ed25519"
+  "signature": "ojKc7pGnG7dN42f8zZvmbcGf+udaQPjrPzAqAkOl4/Rz7hd20I9I7E/OlemWt5KDKyVXChp4aKWomo4mNT2QBg==.sig.ed25519"
 }
