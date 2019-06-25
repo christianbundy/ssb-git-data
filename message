@@ -1,26 +1,17 @@
 {
-  "previous": "%VqySwpD/DgPQIRhCKrx+aycZRoZ4QfMzoUw9r6eQ/XQ=.sha256",
-  "sequence": 10845,
+  "previous": "%nLL1z3FLjWIoJJRIonXkty9X449jiKz5XCutBns1Nqs=.sha256",
+  "sequence": 10846,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561494356593,
+  "timestamp": 1561494592847,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
-    "branch": "%TAvdMh1fFxvQLtdKwrd0Yq7DBlKZWSIWMkN0xuu3QQE=.sha256",
-    "reply": {
-      "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%TAvdMh1fFxvQLtdKwrd0Yq7DBlKZWSIWMkN0xuu3QQE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) \n\nThanks for the questions! I think the simplest deployment would be to add a special string suffix in `msg.value.content`. Instead of [requiring](https://github.com/ssbc/ssb-validate/blob/4543058ee3cc67054edaaccdb53c9a5e6d72a569/index.js#L7-L8) that strings end with `.box` or `.sig` we could use `.sha256` or similar to link to the hash of the off-chain content. For example, diverging as little as possible from the current style:\n\n```json\n{\n  \"content\": \"i5DGedMC58Wdp2EFco9zqvbhN6KvXbG7tmmeKTro6LI=.sha256\"\n}\n```\n\n> What happens if replicate with a peer that doesn’t have the off-chain content?\n\nPeers that don't support off-chain content would see these off-chain messages as invalid, which removes the risk of replicating messages without content. Peers that haven't upgraded would only have on-chain messages, and as soon as they upgrade they'd get all of the new now-valid messages.\n\n> How do you differentiate between actual “deleted” content and a peer without the content?\n\nRight, this is a hard problem to solve. Instead of trying to support partial replication or peers without content, I think we should require that peers replicating a message **must** send either:\n\n- the content that corresponds to that message\n- a signed deletion request from the feed's author that corresponds to that message\n\nIn this system peers replicating feeds would be required to replicate *all* content that hasn't been deleted by the author, which means that peers can't selectively censor message content from a feed.",
-    "mentions": [
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ]
+    "vote": {
+      "link": "%pNdXFOm80L+2kPVm32Dgu7il9/Y0zg79D2K/hAEHS/4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "8+iBDC/r9puq0aCURM4tYPBAgB0GqWpXcx3L/3IDSXaZUXX+lFt2czzbfuY750q5ZUdh2hidEBK7JcQzUwzeAg==.sig.ed25519"
+  "signature": "MB1k7FKEVumo+CvxXwOxJ5jQ1WprKV1+2v0gnT55rpH8kEP2HH4nfuWIivFwfcIGHf76sPpc/amH75WAyTH3BA==.sig.ed25519"
 }
