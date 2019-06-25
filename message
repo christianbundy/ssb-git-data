@@ -1,17 +1,26 @@
 {
-  "previous": "%IYsJLMB5RZV5/9O07FMXdoRW8ljVjT/bSzOyU9yzml0=.sha256",
-  "sequence": 10819,
+  "previous": "%sCCdOXX/wxyNyiQFhg6kL+73GpjylWRvbo3Ej0JKhcQ=.sha256",
+  "sequence": 10820,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561472032299,
+  "timestamp": 1561473724866,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "cooperative",
-    "vote": {
-      "link": "%YDvpSGErO3ii8EwZdX+ZNzq1aJ2UBfXt83lpJ4z89ug=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
+    "branch": "%6Uwn28auiEAxSeOCVPJnK+E96cle6GwJTIbgm7lpQ4k=.sha256",
+    "reply": {
+      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+      "%6Uwn28auiEAxSeOCVPJnK+E96cle6GwJTIbgm7lpQ4k=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nThis is also super important to me. I think the current roadblock right now is that the database is too slow in the browser, which makes any non-trivial usage impossibly slow.",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      }
+    ]
   },
-  "signature": "KO00572A2So1dt3d0lRLBALKEE4F+RLaezf0vRTiqebY6BRt0MjOrfU9pJfsr3h7WdT3Pc8x5c+BJ3CVjs8JAA==.sig.ed25519"
+  "signature": "Y8xPHeViHFcOQuutSqsqKZv9VDrfHvue9SR5sTc2+9OXtURAeUh9CXZMIkJ5uJx1b1nL3fWMvoJpmMK7AtUpBg==.sig.ed25519"
 }
