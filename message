@@ -1,17 +1,27 @@
 {
-  "previous": "%u2gUMpnuYFs/6sKLlMEN3xFNCuT0zmUoMkRzEXWr1Qw=.sha256",
-  "sequence": 10839,
+  "previous": "%fLzSQMBoiPLVCZTqaEvAb6UVBpK0bAGfYoz+g5DbYas=.sha256",
+  "sequence": 10840,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561490740695,
+  "timestamp": 1561490796989,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256",
+    "fork": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": "%Tzq3PCA4FQsBYeewdbkbD66DQCtvWW+7wnwpwwbV+Q4=.sha256",
+    "reply": {
+      "%K+hbT4mTrcGgg17kwt86aoimRBtFHry1bcJFDdY7SlU=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+      "%Tzq3PCA4FQsBYeewdbkbD66DQCtvWW+7wnwpwwbV+Q4=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": "patchfox",
-    "vote": {
-      "link": "%Tzq3PCA4FQsBYeewdbkbD66DQCtvWW+7wnwpwwbV+Q4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI see you!\n\nThat sounds like a bug in the [ssb-mentions view](https://github.com/ssbc/ssb-mentions), is that right?",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "yWAuHkQV0wjLCtf1c6vL0wtIYrKWTms1juKKUNYwHlDZxR4gqa4DkmxUM3vZs2VQCP6MAm+C/OeEbRUxU7BoAg==.sig.ed25519"
+  "signature": "F/tVq1J89/4Fd9vzKFJtRNYF/l1CbDvlh6DlZC3Uaz2uHxyc3KLhUbGHf3CgMrHrTn74MeisMWXjX4nAnWcoDw==.sig.ed25519"
 }
