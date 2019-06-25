@@ -1,22 +1,16 @@
 {
-  "previous": "%ac5w+Jk7DxNGF/EicSUzc+OchzLw94ShlSC+aZpHxO0=.sha256",
-  "sequence": 10833,
+  "previous": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
+  "sequence": 10834,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561486654524,
+  "timestamp": 1561488415584,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# RFC: Off-chain content in Scuttlebutt\n\n## Background\n\nEach time you publish a message on Scuttlebutt the content of a message is signed and stored on your [feed](https://ssbc.github.io/scuttlebutt-protocol-guide/#feeds), which is an append-only log. This design makes message replication simple and reliable, but makes it impossible to delete anything you've published without corrupting your append-only signature chain.\n\nAnother option would be to only publish a fingerprint of the message content on the feed. Peers who have both the message and its content would be able to verify its integrity, but peers with only a message and no content would only see the metadata of the message (timestamp, sequence number, ...).\n\nThis alternative has been [suggested](%QJEpN8LN1t3BrIkUQ3WoOMWRsMArbVUZCpTeBYcuqfw=.sha256), discussed, and prototyped as \"off-chain content\", and I'd like to propose that we deploy it. An ideal solution would ensure that:\n\n- you can ask your peers to delete the content of a message\n- peers should respect deletion requests by message authors\n- developers should be able to upgrade simply and easily\n\n## Design\n\nThe simplest prototypes of this design referenced message content by its [SHA256](https://en.wikipedia.org/wiki/SHA-2) hash and downloaded it via the blob subprotocol. This worked fine as a prototype, but caused problems with indexing when blobs were downloaded later than the message. It was also inefficient since we ask *every* peer for blobs we need, which could lead to serious network congestion.\n\nInstead, I'd like to propose that we embed the message content in the stream when replicating with peers. Message content bytes would be passed immediately before the corresponding message, and the message would reference the content by its SHA256 hash.\n\nIt's important to note that we *could* try to implement partial replication here, but that would require [lots of improvements](%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256) to the JavaScript implementation and should instead be handled by [bigger](https://github.com/AljoschaMeyer/bamboo) [changes](https://github.com/arj03/ssb-new-format/). Instead, I think we should require that messages that use off-chain content *must* be streamed with that content, otherwise the message should be considered invalid. Deleted messages are an exception to this rule.\n\nOnce a message leaves your computer you can't force peers to delete it, but you *can* ask them nicely. Deletion requests referencing a message and its content should be published on the feed (not off-chain) and friendly peers should automatically respect these requests. Messages in a replication stream that reference deleted off-chain content should include the out-of-order deletion request message in place of the content.\n\nFor example, here's an example of a valid stream with legacy messages (`L`), off-chain messages (`M`), off-chain content (`C`), and out-of-order deletion requests (`D`):\n\n```\nL-L-L-C-M-C-M-L-C-M-L-D-M-L-L-C-M-D-M-L\n```\n\n## Considerations\n\nWhile the ability to request deletion is an improvement, it may give the impression that we can guarantee a full deletion from peers. Clients that support deletion requests should ensure that users are informed about the potential permanence of what they publish.\n\nA malicious peer could archive all message content it comes into contact with, which highlights the benefits of only replicating with friendly peers that you have some trust for. This is another reason we should avoid reusing the blob subprotocol: it's important to ensure that we don't pass along off-chain content to clients that don't have any concept of deletion requests.\n\nPeers will need to upgrade their clients to be able to view messages with off-chain content. It's important that upgrading clients is both simple and easy for developers and maintainers. This shouldn't require any changes to client code.\n\n## Discussion\n\nI'd like for this thread to serve as a forum for questions, suggestions, and discussions around off-chain content. The details of the JSON format and muxrpc stream format are important, but I'd like to focus on the general design before nailing down the specifics.",
-    "mentions": [
-      {
-        "link": "%QJEpN8LN1t3BrIkUQ3WoOMWRsMArbVUZCpTeBYcuqfw=.sha256",
-        "name": "suggested"
-      },
-      {
-        "link": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-        "name": "lots of improvements"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%vBd6PZGd2KqKgnNPepoB26h3HTjXAH2yjc98q7OAoJs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "s1oSKfqjW5zBC91eJO9v2Zzm+oSUpmJ4AXCwbK05X7EZA5N7RrsCY1b28p/rmY4atAe+gqtjcZub5RHBKlhBAA==.sig.ed25519"
+  "signature": "iAN4+O1dngsoUMk4ix3jKKgiBzPlymytxealzF+b1+rz4yxWEEHZZiX6rvxN2qWkYbcCxQhBCYG39vhc4LXWDQ==.sig.ed25519"
 }
