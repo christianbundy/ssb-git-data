@@ -1,15 +1,33 @@
 {
-  "previous": "%Z4JmzDvsl4LklEfqrSpn3v7uTzwtb3jiBJNeE7oCSrg=.sha256",
-  "sequence": 10835,
+  "previous": "%WMOh5sn13XUiy2Zju73N6eYK2dIM/3N7Ty7+RpeDsZo=.sha256",
+  "sequence": 10836,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561488423472,
+  "timestamp": 1561489049494,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%ssEFz6BNCjV1oX3x+Gc9kY+OaNFaLIGxRrgmMT/Wt2c=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    }
+    "type": "post",
+    "root": "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256",
+    "branch": "%YDjrq9WaM2H7E8bSTEiuGnP0SJlB5NguxgcDJrQ1yys=.sha256",
+    "reply": {
+      "%ym+eHvrbQmRwXmXPe7WQ9jlbKjrYWV3Q6yMUrhzw/hA=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+      "%YDjrq9WaM2H7E8bSTEiuGnP0SJlB5NguxgcDJrQ1yys=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@RangerMauve (desktop)](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519) \n\nSorry, I mean that the Scuttlebutt database, flumelog-offset, is currently too slow in the browser. Although it looks like [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) has a library that does everything else in the browser: %oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve (desktop)"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256"
+      }
+    ]
   },
-  "signature": "wkyaNMuI68t5mXjCdiyi5ShCSDJEt47TwzAlonrVfn/AWATElBn4Hz7CqlT2gw5VMq6cJDtfxa6GtvLn/wvVCw==.sig.ed25519"
+  "signature": "p8Y5xFI3mqsh51QqJhh7btJA+mtE7fUC7w/B1tJlcDo0yyyE3y/NZ2CfjpcT9D8IlcY5tNJp3bp+CF30AtlgDw==.sig.ed25519"
 }
