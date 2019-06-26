@@ -1,15 +1,30 @@
 {
-  "previous": "%XVnIiLgk2JF1kOovbtBC3f/4c9BOvLR9H0nXx/gNNms=.sha256",
-  "sequence": 10897,
+  "previous": "%Wa7ka118epSfTUadp4C5JJPArvqDmYAOPck6S3Y0xSA=.sha256",
+  "sequence": 10898,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561565433797,
+  "timestamp": 1561565462339,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iMUIVXYIMRxw+adUKtypjwMKJMf6bLd6c3t5VNbNbFE=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%NgEAmt1XmLSOFyw3gDGPv1d1IzK+Jq0Zv/nOu4OEHoY=.sha256",
+    "branch": "%USfRQBiY3wdj1fQAcbsaaK2N2r8JJOUnS3c76oN1MRo=.sha256",
+    "reply": {
+      "%NgEAmt1XmLSOFyw3gDGPv1d1IzK+Jq0Zv/nOu4OEHoY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%USfRQBiY3wdj1fQAcbsaaK2N2r8JJOUnS3c76oN1MRo=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nMy [personal use-case](%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256) is just a small Scuttlebutt client, but I'd like to try out Coherence without replacing my back-end. I can't find any documentation for this use-case, but it seems like the necessary steps should be:\n\n- create an HTTP GET route at `/partial/foo` that returns my partial\n- add `data-id`, `data-href`, and `data-ts` to the HTML\n- add a `<script>` tag to snag `require('coherence/check')`\n\nIs that right? I love the idea of a client-side script that can just re-download small parts of the page when JavaScript is enabled but I don't want to rewrite my back-end. I mean, I *do* want to rewrite chunks of the back-end, but I don't want to become coupled to HyperScript or a cache invalidation framework just to get a front-end script working. Super excited to try it though!",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
+        "name": "personal use-case"
+      }
+    ]
   },
-  "signature": "SiNlzWBfgp1/DqwKET0WqUCybx1O3Xae4sV/0pKu4Q8C0Z1uJxh/oK3E7kjwirIHm4KrDlszmA3OMZc5CPTuAA==.sig.ed25519"
+  "signature": "T3LQaHZK6ZA+41U95rByF2qgyqmGohVaCb0MMLYUb1O+OYuGaoO1+Er8BtfRh5qSdzvblb0RZ46n/FeY+CXNBA==.sig.ed25519"
 }
