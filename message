@@ -1,18 +1,17 @@
 {
-  "previous": "%S7r+rYHvypd0DRL8FmGKmxGa18xxLw18CUc6HGjpsIk=.sha256",
-  "sequence": 10859,
+  "previous": "%NgEAmt1XmLSOFyw3gDGPv1d1IzK+Jq0Zv/nOu4OEHoY=.sha256",
+  "sequence": 10860,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561504823899,
+  "timestamp": 1561507892771,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nI've been admiring coherence for a few days straight and I'd really like to try integrating it into a little app I'm building. I've only skimmed the examples, but this *looks* like I need it running on both the front-end and back-end. Is is possible to bring my own back-end and then just use some JS in the client to pull my HTML over HTTP and throw it in the DOM, or is this a full-stack thing?",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ]
+    "type": "vote",
+    "channel": "current-events",
+    "vote": {
+      "link": "%SzjzQCw5JuUr1QzrcHJTETYg8L2ITQ+UAh+ohsKoDug=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "OmKfGrE+3zwX93VA7dnksqVhDjTANJeYaIoR3QQSGfEFYdQ4rFvdqOs6fz2VnSuG6/9mhKIUR36i/ag53ngOCw==.sig.ed25519"
+  "signature": "5s8Dw+KplvmGudANVZ5pfkuImEcTkSwBSNjzNIARM8CtgDsKOjopQ49tKjBfBQnWzo8nybKiqLYfjLbTveqaCw==.sig.ed25519"
 }
