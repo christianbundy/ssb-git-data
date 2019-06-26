@@ -1,15 +1,32 @@
 {
-  "previous": "%PftfC3EIZrYic04m8PIZxq9JYy9lDT+k1XsHIRbJpLY=.sha256",
-  "sequence": 10892,
+  "previous": "%oSdlfUw12y4g4LzHIk4WU8t4OHya/dF6GK+3bVrofWM=.sha256",
+  "sequence": 10893,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561520245794,
+  "timestamp": 1561520995097,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SLoX1Q9d6BM08gpBKVmNrlIKioF3e33jJJs6DxJKVpo=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
+    "branch": "%CzOm8FEX5BQg6FaTu3UQLvXaPOk2Vp2O5RKkdNizzKQ=.sha256",
+    "reply": {
+      "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%CzOm8FEX5BQg6FaTu3UQLvXaPOk2Vp2O5RKkdNizzKQ=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThank you! I'm overusing async/await in a few places where it's probably degrading performance, but I'm trying to focus on making it work (correctly!) before trying to make it fast. I was able to implement some simple threading, a raw JSON view, like counts, and like/unlike functionality, which all went faster than expected.\n\n![Screenshot of André's post in Oasis, showing a red/pink heart button highlighted to denote that I liked his post.](&iahE+keeF+tMMmzq33/4NGvZMx7fL3x//pdGCv/T6Q0=.sha256)\n\nI'd love to experiment with AsyncIterables but I couldn't find much info on their compatibility. I found [`for await...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of) on MDN but couldn't determine what it's called on https://node.green/. Any chance you know?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "&iahE+keeF+tMMmzq33/4NGvZMx7fL3x//pdGCv/T6Q0=.sha256",
+        "name": "Screenshot of André&#39;s post in Oasis, showing a red/pink heart button highlighted to denote that I liked his post.",
+        "type": "image/png",
+        "size": 205825
+      }
+    ]
   },
-  "signature": "Zm1LNN3zKSRCYqWyr0ufvenzZVgrsZZ59t8rZbUnbUSraIXZhESSsTjjFAiqYlFcZXXA5ouUJ6y8S1ZTMkybAg==.sig.ed25519"
+  "signature": "C6K784TUta+KzlSo6IpY5iMlJ60LxjAw3apHSt51VKhXPrU6r1rT9nO2DUq5zj/cSdL5Fnkzngvo5Z3Jw4tbDQ==.sig.ed25519"
 }
