@@ -1,15 +1,30 @@
 {
-  "previous": "%LRCfKXula6jDu3PrKViKT5dC6IzKduputMoXlhh3xq4=.sha256",
-  "sequence": 10899,
+  "previous": "%1uSHoFxqCjM1KWtVzqsTQ1r0glliKXV/UaNuc1R9dlE=.sha256",
+  "sequence": 10900,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561568627384,
+  "timestamp": 1561569515816,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Q9ObJox00aanROGoAzJrW96agKSnx+YsHOi3IvHbHDs=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%Q9ObJox00aanROGoAzJrW96agKSnx+YsHOi3IvHbHDs=.sha256",
+    "fork": "%oxXKoCVtqM111XqKyTyTOCXt6s/51/xI01O8F7DBbRQ=.sha256",
+    "branch": "%Q9ObJox00aanROGoAzJrW96agKSnx+YsHOi3IvHbHDs=.sha256",
+    "reply": {
+      "%Q9ObJox00aanROGoAzJrW96agKSnx+YsHOi3IvHbHDs=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
+    "channel": "patchfox",
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nYes! I feel a few different layers here, maybe:\n\n1. A well-specified description of human interface guidelines across clients (e.g. profiles of people blocked by peers should be blurred)\n2. A well-specified description of an API that would satisfy the above constraints (e.g. `getMessageMetadata()` of a blocked peer should return an author with a blurred image)\n3. A driver that implements the above API (based on hermie-box, PatchQL, SQL, etc)\n4. A server that runs a full \"Scuttlebutt\" node ([whatever the hell that is](%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256))\n\nThe pain point is that *currently* clients have to implement 1-3 from scratch. We're constantly reinventing the same wheel with slight variations, and I'd be super keen to avoid that if possible. Maybe we could codify these best practices sort of like [WCAG guidelines](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#guidelines)?",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
+        "name": "whatever the hell that is"
+      }
+    ]
   },
-  "signature": "PwqXekhM257mgsOxoBOwBrxZ5zU5csLLx4dDo+3cd7uV5xLUhtphSeBboc8fpj6UV1Mmy/4G8QP8XtIHb/qdBw==.sig.ed25519"
+  "signature": "qARfUJLSdIQJCl9r4TqSJYV4f9tkwwKwOMlaXv4ixq3OB/bzRZ7cO7NWcDv+HtrBxThXVk3p0BDUVaOGb8Z+DA==.sig.ed25519"
 }
