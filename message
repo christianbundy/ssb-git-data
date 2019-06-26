@@ -1,15 +1,25 @@
 {
-  "previous": "%cCmXJAfQFB1LR8LjvyDQP9yF2JUUHljsOTtuW4V5D7k=.sha256",
-  "sequence": 10912,
+  "previous": "%rLua+n/hmRqk4kvL93meqcyoFA3RgBpBUeAPu0xB7Yc=.sha256",
+  "sequence": 10913,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561582488416,
+  "timestamp": 1561585774384,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ynkLYDm2KWha7VsChAq6REzfmiACXMxNXEbXSN5Vk8s=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%IEHWOPmQWZ7CRICYmgqPFFyIDwsEbY08uPAV5iIE2Ws=.sha256",
+    "branch": "%IEHWOPmQWZ7CRICYmgqPFFyIDwsEbY08uPAV5iIE2Ws=.sha256",
+    "reply": {
+      "%IEHWOPmQWZ7CRICYmgqPFFyIDwsEbY08uPAV5iIE2Ws=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": "ssb-show-and-tell",
+    "recps": null,
+    "text": "[@SoapDog (SurfaceGo)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\n\nI'm doing it with `pull.filter()` and `pull.take()`. For example, if we wanted to get *only* likes (no unlikes or dislikes):\n\n```javascript\npull(\n  ssb.messagesByType({ type: 'vote' }),\n  pull.filter((msg) => \n    _get(msg, 'value.content.vote') === 1\n  ),\n  pull.take(42)\n  pull.collect(err, msgs) => {\n    // 🎉\n  })\n)\n```\n\nYou'll want to choose the best stream for the job (e.g. `messagesByType()`), but if you need to impose some further restrictions then you can add a `pull.filter()` further down the stream and then `pull.take()` afterward. \n\nDoes that help?",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (SurfaceGo)"
+      }
+    ]
   },
-  "signature": "keiw+P3xKHyTShcvyQgKSWbSjbLQyUrNgmTXsSbTDMWcp1klVL8T9lfqoO7mJcDkNtOVuhl+vgfkuHI/6BbtAA==.sig.ed25519"
+  "signature": "0NjZqrVj7QKoiUttnxao2T/N8xzGGjEHgJoZs0t0kDy/WkNdKi8kwVZJjojSXOl47JStHk8V4jsAc+Mpek3XAw==.sig.ed25519"
 }
