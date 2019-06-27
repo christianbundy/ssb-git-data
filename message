@@ -1,29 +1,21 @@
 {
-  "previous": "%/ZO5cvq4t0fHRphFrTu5qo5MkhS8KvAgcrGBMBdYrZM=.sha256",
-  "sequence": 10927,
+  "previous": "%cpjXGXU/UWm4Hdv1fUYJcIw9SML0S80VvQXOdesX3rE=.sha256",
+  "sequence": 10928,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561655264283,
+  "timestamp": 1561656206787,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Hlrj9uoEF8BWVTyN+m9Gw4YMAaDNtb/CX1DHLvfZ6LA=.sha256",
-    "branch": "%RhoxIPjsifinj46dRyqH4qYkN2TcB04eHKkw41H59iE=.sha256",
+    "root": "%T3hdm17E8/Of8UItYkuOuxhDYJSFfZEyh+YYHX2Zw2A=.sha256",
+    "branch": "%yNRaAlefKojhARkInjxn3G//uqZbds+T5HN3i1vC0LE=.sha256",
     "reply": {
-      "%Hlrj9uoEF8BWVTyN+m9Gw4YMAaDNtb/CX1DHLvfZ6LA=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
-      "%RhoxIPjsifinj46dRyqH4qYkN2TcB04eHKkw41H59iE=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519"
+      "%T3hdm17E8/Of8UItYkuOuxhDYJSFfZEyh+YYHX2Zw2A=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%yNRaAlefKojhARkInjxn3G//uqZbds+T5HN3i1vC0LE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@Nick Redmark](@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519) \n\nI don't think my perspective is representative of the rest of the rest of the community, but I'm super down for being explicit (verbose?) about the semantics of our messages. I've wanted to try JSON-LD for this sort of thing, which accomplishes the above with:\n\n```json\n{\n  \"@context\": \"https://example.com/nmaro/ssb-projects/v1\",\n  \"@type\": \"task\",\n  \"foo\": \"bar\"\n}\n```\n\nWith that said: try out whatever you'd like! I don't think there's been much experimentation with schema versioning, so we haven't settled on any best practices yet. Lots more info and opinions in this thread: %qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256\n\nAnother approach would be to use an existing RDF schema published somewhere else. For example, a task could be described by a schema.org [Action](https://schema.org/Action), so you'd have:\n\n```json\n{\n  \"@context\": \"http://schema.org/version/2.0/\",\n  \"@type\": \"Action\",\n  \"agent\": \"ssb:feed:ed25519:zEbr4oS0j1O41UYGBVbay-4NvAc2yfJi43yW3Yx28BI=\",\n  \"actionStatus\": \"CompletedActionStatus\",\n  \"object\": \"https://example.com/some/task\"\n}\n```\n\nThe trade-off is that you get well-specified data types but your messages become super verbose and enterprisey. I don't know if the trade-off is worth it, but it's an option. 🤷 Happy to discuss further, but feel free to experiment.",
-    "mentions": [
-      {
-        "link": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
-        "name": "Nick Redmark"
-      },
-      {
-        "link": "%qTEUjQajo0VCc6RkoCBdG/Klqo1LKCsHfaK+RQP0kdI=.sha256"
-      }
-    ]
+    "text": "> a field that lives outside the log but is still synced between peers\n\nIs this something that would be resolved by off-chain content, or are you looking for a solution that's totally decoupled from the log?\n\n> In SSB this could help with a new problem that’s coming: once you’ve blocked someone and deleted their feed locally, how do you show the user who you’ve blocked? You don’t know their name anymore.\n\nYeah, I've been thinking that when you block someone you should be prompted \"what do you want to call this feed once all its data has been deleted?\" and then it should [privately?] name the feed so it shows up when you look at it.",
+    "mentions": []
   },
-  "signature": "/flV1hoMCoCscTCFiXWsQ60SOMRuhOH+TKO3zd34XlVsjJlRI6lPdeqguR0gAPCSDB+DWu+unKep5rS63yv5CA==.sig.ed25519"
+  "signature": "D3QLHIHjYQK+9wdur2FIuS0Lrk73ZKOmSz5gG/2ZSTRHWPnl4DBDqkRxorn+AZv87Io35g5bBEpKjir4d1FAAw==.sig.ed25519"
 }
