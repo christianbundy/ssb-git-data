@@ -1,34 +1,17 @@
 {
-  "previous": "%VvfzqZy16RP5/sMb4edyZWrJmF1ssF2XCmfg4MJv8vc=.sha256",
-  "sequence": 10933,
+  "previous": "%DELWUPIXA8F3W1tn1HFwkKBrlJtYZwQ7MgMzxn1W18U=.sha256",
+  "sequence": 10934,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561670849333,
+  "timestamp": 1561671086909,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
-    "branch": "%9bBza6EjTeamSrxHlQw78xK93jC8UkRxozvlyrI6ZAc=.sha256",
-    "reply": {
-      "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%9bBza6EjTeamSrxHlQw78xK93jC8UkRxozvlyrI6ZAc=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\n\n> I would rather do this together with all the other changes, like the concept of tombstones has implications for this and I fear that if we do it now we will have 3 different implementations to support: js, offchain and protocol2.\n\nI feel that. It *would* be nice to have one Big Rewrite where we upgrade everything at once, but my personal inclination is to incrementally upgrade the protocol as the upgrades are ready. My hope is that once we upgrade the protocol once it will make it easier to continue improving it over time. This upgrade should only change how we store message content and how we replicate streams, so it should make future upgrades easier rather than harder. 🤞\n\n[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\n> A large part of the motivation for offchain-content was the ability to locally delete. arbitrary data without losing the ability to replicate the remainder of the feed\n\nYou should still be able to delete messages locally and then receive future messages without any problems, it's just that you wouldn't be able to share those messages with your peers. Assuming we have a feed with 100 messages and you locally delete the content of message 42, you'll be able to share:\n\n- messages 1 through 41\n- messages 43 through 100\n\nPeers that want the content of message 42 will need to get it from someone else, but that shouldn't any other types of replication. You should still be able to download new messages and replicate any messages except the ones you've deleted the content for.\n\n> Can we do without being able to differentiate?\n\nAbsolutely, but I think this would imply that you could receive message content after the message. That's fine if we're writing Scuttlebutt from scratch, but the JavaScript implementation needs to do a [full database rebuild](%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256) each time it receives message content after the message.\n\nThis constraint is a compromise between \"we need message deletion\" and \"flumedb doesn't support out-of-order message content\", and while *I absolutely agree it's not optimal* I think it's a solid improvement over the status quo. I can't think of a way to replicate messages-sans-content without receiving the content after the message, but if you know a way then I'd be super interested in a better solution.",
-    "mentions": [
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
-        "name": "full database rebuild"
-      }
-    ]
+    "type": "vote",
+    "channel": "crab-meet",
+    "vote": {
+      "link": "%7MsCvxFkiph0HnleoJnvzsa4Fyu1xQiQQO5c/adSnGk=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3KUasKep+BlAyl2N3ukS9MGIa0bX6IAXHPaVpjvSmKNLfFbkf7voaF17Hbms0Y/4OEyAyF2XACGFDV2i8njFBg==.sig.ed25519"
+  "signature": "O6hLiBZq3mE5qcxjdoPFdKII9fvo7VVYjjj37ztmlxaLOfcadC6j4n/JKxnNJ3Gt0L9YnMC6f6ycp6FN6RmEBA==.sig.ed25519"
 }
