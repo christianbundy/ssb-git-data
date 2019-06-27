@@ -1,21 +1,15 @@
 {
-  "previous": "%cpjXGXU/UWm4Hdv1fUYJcIw9SML0S80VvQXOdesX3rE=.sha256",
-  "sequence": 10928,
+  "previous": "%cC8xpUecXu8L9GVuUoGbNWtPXksD+h8cMfyGQfNGugI=.sha256",
+  "sequence": 10929,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561656206787,
+  "timestamp": 1561663354133,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%T3hdm17E8/Of8UItYkuOuxhDYJSFfZEyh+YYHX2Zw2A=.sha256",
-    "branch": "%yNRaAlefKojhARkInjxn3G//uqZbds+T5HN3i1vC0LE=.sha256",
-    "reply": {
-      "%T3hdm17E8/Of8UItYkuOuxhDYJSFfZEyh+YYHX2Zw2A=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%yNRaAlefKojhARkInjxn3G//uqZbds+T5HN3i1vC0LE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "> a field that lives outside the log but is still synced between peers\n\nIs this something that would be resolved by off-chain content, or are you looking for a solution that's totally decoupled from the log?\n\n> In SSB this could help with a new problem that’s coming: once you’ve blocked someone and deleted their feed locally, how do you show the user who you’ve blocked? You don’t know their name anymore.\n\nYeah, I've been thinking that when you block someone you should be prompted \"what do you want to call this feed once all its data has been deleted?\" and then it should [privately?] name the feed so it shows up when you look at it.",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%aAZvOd4t6dyplqNNPJCdAyRh16qusrjlHY9jrO9kWXM=.sha256",
+      "value": 1
+    }
   },
-  "signature": "D3QLHIHjYQK+9wdur2FIuS0Lrk73ZKOmSz5gG/2ZSTRHWPnl4DBDqkRxorn+AZv87Io35g5bBEpKjir4d1FAAw==.sig.ed25519"
+  "signature": "+G90/JGLuMgzgFpcBSDf6zn9PW+ujpJFOJDtqeuvvAjZyjxxbnR2ZHg/hYYsFraj32QijwbhMOXxYn6eDwoeDg==.sig.ed25519"
 }
