@@ -1,15 +1,36 @@
 {
-  "previous": "%UlPsjT5/L03puYSUUEhO+8Wli3YAmGiG6oJBR5O63dI=.sha256",
-  "sequence": 10945,
+  "previous": "%NuyG3PH1o3jh0Tv+mtWowBAg41FoNU+IP63V2R6KL/E=.sha256",
+  "sequence": 10946,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561755191782,
+  "timestamp": 1561758248557,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%DmqcjuKsoYCjISkz1CM54EvTx6ns3x4Uk76nzXdUV6g=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%vc4Hun6RHLEVRwuGyn78W/waPqsj9jC6TnKPaEnp/XY=.sha256",
+    "fork": "%6LDHkKrh1drnl4WIN7b8bekz3ZmkxfT+j/1BcYSkVns=.sha256",
+    "branch": "%vc4Hun6RHLEVRwuGyn78W/waPqsj9jC6TnKPaEnp/XY=.sha256",
+    "reply": {
+      "%vc4Hun6RHLEVRwuGyn78W/waPqsj9jC6TnKPaEnp/XY=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> think how you present the thread (in the clients) really affects how the conversation turns out\n\nTrue! I think the most important thing is that the client is publishing and rendering messages how people expect them to show up. Having people surprised by how their messages appear is a design smell that I'd *really* like to resolve.\n\nI'm curious from a UI perspective, how many levels of nested comments should display at once? I added them to Oasis a little bit ago but I don't [yet] have a maximum render depth for ancestors or descendants. It should be super simple though.\n\n![Screenshot of Oasis showing nested comments in the thread](&ei8LzbyUJ8rLigwcD5nkwqnSOBwmFGfMxJvxkFX3P1g=.sha256)\n ",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "&ei8LzbyUJ8rLigwcD5nkwqnSOBwmFGfMxJvxkFX3P1g=.sha256",
+        "name": "Screenshot of Oasis showing nested comments in the thread",
+        "type": "image/png",
+        "size": 208047
+      }
+    ]
   },
-  "signature": "0ES3I3E9VJek0xohgKcQTugVqf++pSnDwq5Nm2I/VPSnXdHzw1RGgiM3ArQhIGwRfyaAOB//kthZmkcF4OaYCA==.sig.ed25519"
+  "signature": "lq3hYc26ON/UTgvpzHfKO9FPeTZp2WpdoGQJrCPMUuH3YcDSVeJjzK3z+YjPOB8AqTjXzmhRYZLtoXGsiZfKDg==.sig.ed25519"
 }
