@@ -1,15 +1,30 @@
 {
-  "previous": "%hhxbKn1j1KiMq4bJA1Sv/xq0yzmsEe/kyd+0JQI9pR4=.sha256",
-  "sequence": 10938,
+  "previous": "%rrkd1P1xuav/zK7bseer+MzQrVssZyrlEUOEjx6QQaA=.sha256",
+  "sequence": 10939,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561693528415,
+  "timestamp": 1561743271267,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%lsDBbJEbcbFPnkqDv8Bx2JmNkObzs3WG2I0wXFLJfjk=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%6LDHkKrh1drnl4WIN7b8bekz3ZmkxfT+j/1BcYSkVns=.sha256",
+    "branch": "%5VlRxNf6CeQQQ1TAbTgAhP/H6OulCdCkidaA74KKId0=.sha256",
+    "reply": {
+      "%6LDHkKrh1drnl4WIN7b8bekz3ZmkxfT+j/1BcYSkVns=.sha256": "@sphC9xDWu9heUaeK7+UpSg3Qw10XN1qd02HnRAPEB14=.ed25519",
+      "%5VlRxNf6CeQQQ1TAbTgAhP/H6OulCdCkidaA74KKId0=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI'm +1 on changing the language to clarify message replies vs thread replies.\n\nMy understanding so far is that a reply to a thread will have only a `root` property, whereas a reply to a message has both `root` and `fork` properties. Under this system we can assume that threads are meant to be displayed as a linear list and message replies are meant to be displayed similar to email / Twitter / Reddit / Facebook / Tumblr / Instagram / Mastodon / etc. The number of layers to display in the thread should be up to the client, but *semantically* I think it's all the same.\n\nIs that right?\n\nI'm also feeling frustrated with Patchwork's \"fork\" display and I've tried to change it twice, but after burning an hour or two each time I've given up and worked on something else. I *do* want to support announcements and fishbowls and thread configurations but I want to make sure we can wrangle the current technical debt before adding more complexity.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "bee1zEUqUgwpOYpoL8uPsdnqW4Blfve9XQG03OZri81p1ydQ475TBhQFhxb83PrKqe2md9Bqu+ccSgmUGZBaAg==.sig.ed25519"
+  "signature": "PC5Mt9qxlOC7F529eFn1zHrROMd+0d8q1ZKWeMkNZdYp2XwzVxVyziIhd7mFDwmDNuDk5nt5nk1anrbpaztiAQ==.sig.ed25519"
 }
