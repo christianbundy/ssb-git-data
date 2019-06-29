@@ -1,26 +1,30 @@
 {
-  "previous": "%0VbdBUrKJsLvgx6cDLfEEFJ8IbcWIYvS8FbOLU1xZnU=.sha256",
-  "sequence": 10959,
+  "previous": "%r55+9NGqPro0+Ye+w71vmRMDuwiH7coGS3UnVHRQb1Y=.sha256",
+  "sequence": 10960,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561826445121,
+  "timestamp": 1561828214598,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256",
+    "root": "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256",
     "fork": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
-    "branch": "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256",
+    "branch": "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256",
     "reply": {
-      "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+      "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\n> Why preemptively constrain them?\n\nThanks! I think this is a good idea, I've been super focused on trying to avoid breaking the JS implementation but I suppose that more flexibility in this area is an option. Just to be clear, it sounds like this means that off-chain messages could be passed:\n\n- with content\n- with a corresponding deletion request\n- without either (which would be ignored by the JS implementation)\n\nThis adds a *tiny* bit of complexity, but I think you're right to avoid constraining other implementations when we can. I'll keep thinking some more about this, thanks for sharing this option.",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nAbsolutely, I don't want to rush off-chain content before it's ready.\n\nI'm not opposed to using different feed types at all; I left them out of this proposal to keep the changes minimal and to let people keep their current feeds, but I'm happy to discuss them and figure out what's best.\n\nIs your perspective that the current feed type should be considered \"done\"? My understanding was that different feed types are meant to solve the problem of [different signature algorithms](%pFMhPDi7AcL9o935hc304J4hmfoQAGjQHS0Wt7/MB+4=.sha256), whereas this upgrade would only:\n\n- add message content to the replication stream\n- use a different string suffix in `msg.value.content`\n\nI'm sure we'll talk about this more on the protocol call tomorrow, but I think I'm looking for clarity on whether *all* upgrades need their own feed type or whether a new feed type is a prerequisite for one/both of the above. Really appreciate the feedback, I'm excited to get off-chain content implemented and it's important to me that we do things The Right Way.\n\n🚀",
     "mentions": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "%pFMhPDi7AcL9o935hc304J4hmfoQAGjQHS0Wt7/MB+4=.sha256",
+        "name": "different signature algorithms"
       }
     ]
   },
-  "signature": "XfxwUDnImDM+xAPqx6DW4d1ZZ11DnIzHLaidqIZcUkUDAFRQxKwLv2JudfZwYYNX9pl+PKbZKcfmzGpEtZcQDw==.sig.ed25519"
+  "signature": "Bp4ZmkXCc9S6lhcyrJlmSl9c13P+Q0/Z6buMNp3kj3GYojh1mqzzmFWHzDREerhK9uH+2gDfhpJCWl4M4pcyAg==.sig.ed25519"
 }
