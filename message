@@ -1,9 +1,26 @@
 {
-  "previous": "%9Xsc8SwKiTWUGNkIeh0kV+cNFMhIkYMokyE2gQ6T4Lo=.sha256",
-  "sequence": 10958,
+  "previous": "%0VbdBUrKJsLvgx6cDLfEEFJ8IbcWIYvS8FbOLU1xZnU=.sha256",
+  "sequence": 10959,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561825665661,
+  "timestamp": 1561826445121,
   "hash": "sha256",
-  "content": "g61uVhQw7JkFvCq3I67mq9qV/r2EdgwNYEEPL66M1ff+im52cvyJstwyfKMDyz7n6p5yQNW9oH2Z2s/DK9H54ta8ozhHn+q3N4gMKE1pvhUVtmHHd6H8HGD/3kL9ky19sY21b3lgKdeQS9A6Iq8Vb6w+bnozZI13oTrYvX0l2OjzCEU6nEN/WCD8bHZwxgeTnsatbJjg+ocgWEPTpU+JGD77egXINKPK6ZofB/CIZ1ZVjbRy2QtJQ/ChUAjXdnr0fzL8u74uVHbJ2q7dNae8KEPTO5GlysH/r7HMNDNaQuVmc9NqpBvfwiFkDXV3zfUhHqCk84c+aulRkC8RoXRkg0G/AZhHI1E5UgAZCadq6ifHaKDWK6/7yIc4XuEtEhaQAtTh7XmBNcsQxqZDyBWJ.box",
-  "signature": "blszciWrkqi8dkdvF9BqUQRSOq/atEZhZdGaJbh5YGqJj/+s7HNlmTEuCyvsbm+IFm6x80b9TOEeLB4bF769BA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256",
+    "fork": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
+    "branch": "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256",
+    "reply": {
+      "%0BvU+BPkzctD6p2scCEN4S1tlX7i39jq1LMgYkpuurk=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\n> Why preemptively constrain them?\n\nThanks! I think this is a good idea, I've been super focused on trying to avoid breaking the JS implementation but I suppose that more flexibility in this area is an option. Just to be clear, it sounds like this means that off-chain messages could be passed:\n\n- with content\n- with a corresponding deletion request\n- without either (which would be ignored by the JS implementation)\n\nThis adds a *tiny* bit of complexity, but I think you're right to avoid constraining other implementations when we can. I'll keep thinking some more about this, thanks for sharing this option.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
+  },
+  "signature": "XfxwUDnImDM+xAPqx6DW4d1ZZ11DnIzHLaidqIZcUkUDAFRQxKwLv2JudfZwYYNX9pl+PKbZKcfmzGpEtZcQDw==.sig.ed25519"
 }
