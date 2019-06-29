@@ -1,17 +1,26 @@
 {
-  "previous": "%drWM+9whYtv8Z92JQWpTfrxwwKdX7s+J4YW9phHzjUE=.sha256",
-  "sequence": 10949,
+  "previous": "%nl1/5YINB5/duvTLpPja1xwB0q+Ao2D46TPuSRaASJ8=.sha256",
+  "sequence": 10950,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561773286668,
+  "timestamp": 1561773317827,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%S1su6Ki4nyHIWvIorL+3TLxO4YrfokfVDfNAcGQJro4=.sha256",
+    "fork": "%ZQQlT7y5EgvzD+1IsFh15RU/GhK2PRKzkIZLLlfPlUc=.sha256",
+    "branch": "%S1su6Ki4nyHIWvIorL+3TLxO4YrfokfVDfNAcGQJro4=.sha256",
+    "reply": {
+      "%S1su6Ki4nyHIWvIorL+3TLxO4YrfokfVDfNAcGQJro4=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%S1su6Ki4nyHIWvIorL+3TLxO4YrfokfVDfNAcGQJro4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nSeeing you call this out is really cool. I'm going to try to be more careful about when I get over-engaged in things in the future. Thank you. :sparkles: ",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "5yy/yqwLWqY9a+muQCPoh+JGa2NWURjuRkCglC0Qlhl5zRDAJU5uZ+WbkRmt0p8/F7hrcZfh3mv14slLJ/FFCQ==.sig.ed25519"
+  "signature": "je7GLA4tQ1VVb/H03IH0QJe2zrNjr2GkDqT8GSg1iuMPZGVDI3MxSHO/gD+RJlCgWSFxDzoWzNnyF9DV8vdkBA==.sig.ed25519"
 }
