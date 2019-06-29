@@ -1,30 +1,25 @@
 {
-  "previous": "%r55+9NGqPro0+Ye+w71vmRMDuwiH7coGS3UnVHRQb1Y=.sha256",
-  "sequence": 10960,
+  "previous": "%pmKHUNuWBcCR+IDaTfvPJIQrbJTQtTM448J1OKCjPgc=.sha256",
+  "sequence": 10961,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561828214598,
+  "timestamp": 1561828256939,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256",
-    "fork": "%LrMcs9tqgOMLPGv6mN5Z7YYxRQ8qn0JRhVi++OyOvQo=.sha256",
-    "branch": "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256",
+    "root": "%Wli+/Ff+QP3O7slcqBRSV0GEweDnrERy3a0EekWvYeI=.sha256",
+    "branch": "%Wli+/Ff+QP3O7slcqBRSV0GEweDnrERy3a0EekWvYeI=.sha256",
     "reply": {
-      "%CsZ7f9XI9m5dXxUlPJv3ksOdgEoMlxZYsvYuWIOTUbQ=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+      "%Wli+/Ff+QP3O7slcqBRSV0GEweDnrERy3a0EekWvYeI=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nAbsolutely, I don't want to rush off-chain content before it's ready.\n\nI'm not opposed to using different feed types at all; I left them out of this proposal to keep the changes minimal and to let people keep their current feeds, but I'm happy to discuss them and figure out what's best.\n\nIs your perspective that the current feed type should be considered \"done\"? My understanding was that different feed types are meant to solve the problem of [different signature algorithms](%pFMhPDi7AcL9o935hc304J4hmfoQAGjQHS0Wt7/MB+4=.sha256), whereas this upgrade would only:\n\n- add message content to the replication stream\n- use a different string suffix in `msg.value.content`\n\nI'm sure we'll talk about this more on the protocol call tomorrow, but I think I'm looking for clarity on whether *all* upgrades need their own feed type or whether a new feed type is a prerequisite for one/both of the above. Really appreciate the feedback, I'm excited to get off-chain content implemented and it's important to me that we do things The Right Way.\n\n🚀",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nI think it's called \"Ignore\", but I haven't actually looked at any of that code to verify that that's what it's doing under the hood. Sorry, it's unclear to me as well.",
     "mentions": [
       {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "%pFMhPDi7AcL9o935hc304J4hmfoQAGjQHS0Wt7/MB+4=.sha256",
-        "name": "different signature algorithms"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ]
   },
-  "signature": "Bp4ZmkXCc9S6lhcyrJlmSl9c13P+Q0/Z6buMNp3kj3GYojh1mqzzmFWHzDREerhK9uH+2gDfhpJCWl4M4pcyAg==.sig.ed25519"
+  "signature": "dRBC7c5JRUeXdWR2sjcH3DH7aVNSRYAkSIh7PyOnvSg05d8wOdh32O/HoHWd36r8r26FaPSKNWZEtVeM9n1qCA==.sig.ed25519"
 }
