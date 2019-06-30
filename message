@@ -1,17 +1,26 @@
 {
-  "previous": "%wGJhXNsDYYsLk5E1IC0m3LbyQurCt7q1qr2MAgIgsWo=.sha256",
-  "sequence": 10992,
+  "previous": "%DRqPC2NdU57wRx4YZNkIYBPqyDVIBockvnKBmt+4wnM=.sha256",
+  "sequence": 10993,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1561919908883,
+  "timestamp": 1561920017704,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
+    "branch": "%vqCxkY/JtqmLT89iv032kNbV53ptJ0JVfxXm4mKznLA=.sha256",
+    "reply": {
+      "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%vqCxkY/JtqmLT89iv032kNbV53ptJ0JVfxXm4mKznLA=.sha256": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%uHeRdO6GW7ORnO0szUowEFMhPs2zoaubvWUuKNviEfU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519) \n\nThanks! I'd love your feedback if there's anything that stands out as \"the next thing\" that should be worked on. I've been taking a bit of a shotgun approach to its development and I'm sort of wishing there was a roadmap for each layer of a Scuttlebutt social app in order of [subjective] necessity.",
+    "mentions": [
+      {
+        "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
+        "name": "squicc"
+      }
+    ]
   },
-  "signature": "J9GhsIAyI1attZMEEB497DVwTtfQ6V9oFYReMtyeSLYo/aAIY+/NHhAO1frPX14wTwACaUe9p11HS4r6wff8Dg==.sig.ed25519"
+  "signature": "6/waCf3U1U7ClvIEMali9iyzeVvHI3VgGvgf1SIx40IMhDrDQwj+5lMWwltzf/qQM3umCXZ9gHxHuRf1oFjzAg==.sig.ed25519"
 }
