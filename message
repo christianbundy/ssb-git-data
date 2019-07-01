@@ -1,17 +1,18 @@
 {
-  "previous": "%WDvGrZuBituC1iA1j6ieEBTk+tIZeJzRby3x/ltV1Mc=.sha256",
-  "sequence": 11005,
+  "previous": "%H1TVyzNSdWBxGL1nDG80BJEGhiAlX7UHtGZugXCaRw8=.sha256",
+  "sequence": 11006,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562007916900,
+  "timestamp": 1562008465733,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%IQbjpx/FN4dSkMid2DAvDl/o5SwTgaVQwEZLLeDk5kc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nI'm writing a small Scuttlebutt client and I'm super tempted to use your SQL or GraphQL interfaces. Do you think they're good to start building on top of, or should I give it a few weeks / months? I don't mind a bit of turbulence but I want to make sure I'm not building on top of a bunch of code you're about to make obsolete. 🙃",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
   },
-  "signature": "a0cHAuDMmZmBar5z0iBszjmaqjRv8GkvT80N0tARxkIcAd5ecjYU5xZLs4k4rjS5XNqFFYDBx4C5tmFMMQJhBA==.sig.ed25519"
+  "signature": "OZmRhU6MYoHu5X2B11anKgoZq2wfdyYJlz4yDqTeCqzurrK0Sk+Quga7/ijs1CLj+73gSZ//FNEU6g2a+HaDBg==.sig.ed25519"
 }
