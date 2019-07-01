@@ -1,18 +1,26 @@
 {
-  "previous": "%H1TVyzNSdWBxGL1nDG80BJEGhiAlX7UHtGZugXCaRw8=.sha256",
-  "sequence": 11006,
+  "previous": "%NqJbCabaB/PMdshFHvgm7vFBS2YhbhzUX0jWHxjgNLY=.sha256",
+  "sequence": 11007,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562008465733,
+  "timestamp": 1562010041383,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nI'm writing a small Scuttlebutt client and I'm super tempted to use your SQL or GraphQL interfaces. Do you think they're good to start building on top of, or should I give it a few weeks / months? I don't mind a bit of turbulence but I want to make sure I'm not building on top of a bunch of code you're about to make obsolete. 🙃",
+    "root": "%wyXvqEo49nHMYKTLcDDyIIllmQcg+Xch72H3Y+KagTU=.sha256",
+    "branch": "%gl8aeBsw76qMT9zQMkm8bffKRviN4QC+bhnCEJMzSIo=.sha256",
+    "reply": {
+      "%wyXvqEo49nHMYKTLcDDyIIllmQcg+Xch72H3Y+KagTU=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+      "%gl8aeBsw76qMT9zQMkm8bffKRviN4QC+bhnCEJMzSIo=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nYeah, everything that I found was super enterprisey. I *did* find an interesting Python package, [import linter](https://import-linter.readthedocs.io/en/latest/readme.html#overview), which seems to  enforce rules about the dependency graph. It looks like the author wrote about [dependency graph constraints](https://seddonym.me/2018/09/16/rocky-river-pattern/) a bit, which points to [a book](https://www.wiley.com/en-us/Pattern+Oriented+Software+Architecture,+Volume+1,+A+System+of+Patterns-p-9780471958697) that I'll have to my Never Ending List of Doom.\n\nI'll keep clicking links, thanks for sharing those links! I hadn't heard of connascence before.",
     "mentions": [
       {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
       }
     ]
   },
-  "signature": "OZmRhU6MYoHu5X2B11anKgoZq2wfdyYJlz4yDqTeCqzurrK0Sk+Quga7/ijs1CLj+73gSZ//FNEU6g2a+HaDBg==.sig.ed25519"
+  "signature": "rrGLlWYlid245rvcYo9wGzveREAYoPE7W61yqhdmTvvemNCY1tYv72xZ6/YQHK5BjIfCeosPcTcHHZicNn5tBQ==.sig.ed25519"
 }
