@@ -1,17 +1,26 @@
 {
-  "previous": "%D2BLhG6OSdyzi3uK9L/rL0jsr99cr72U1a1uZYgzah0=.sha256",
-  "sequence": 11026,
+  "previous": "%jM8dma/N39iAI67+haoZ3lcZcLfSj+Ihb7tsxswp3Z8=.sha256",
+  "sequence": 11027,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562081399064,
+  "timestamp": 1562081910429,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "conceptart",
-    "vote": {
-      "link": "%yqjGiCQHQG4t8A9kZZF8YaNHYPDoZmENM5jsHGyNn7I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4yeUOnNBaZyltsguHbzLZBdWy4/jMn9xlJmqK6YJRe4=.sha256",
+    "fork": "%INTnMKH4a0HCqqyjXXmYHn+2gxarmjfd2/+6CIu1uCk=.sha256",
+    "branch": "%4yeUOnNBaZyltsguHbzLZBdWy4/jMn9xlJmqK6YJRe4=.sha256",
+    "reply": {
+      "%4yeUOnNBaZyltsguHbzLZBdWy4/jMn9xlJmqK6YJRe4=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\n\n> QUERTY\n\nThis sounds like the name of a prank keyboard layout meant to sound like \"QWERTY\" you can spring on unsuspecting friends.\n\n- \"What keyboard layout is this?\"\n- \"QUERTY\"\n- \"No it isn't, all the keys are in the wrong spots\"\n- \"It's definitely QUERTY, see? Q U E R T Y\"\n\nI'm getting [fourwordsalluppercase](https://www.youtube.com/watch?v=bLE7zsJk4AI) vibes.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "khIyTF73G6t9G9hMTWXen4e+OMJ66D8wqw2QAWb4Qs26cS4utFspcLyBXBxlVrh/rBenfp8XRwn18pt8u+B6Aw==.sig.ed25519"
+  "signature": "YQHsc87l8IvXXuHBilJyrLQz6Ie6oykVa3v85bbH5rDLfCPy7jLu6yi+14mBgnIYheVjKqtDjVcYVeeS+cErCw==.sig.ed25519"
 }
