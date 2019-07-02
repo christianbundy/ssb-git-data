@@ -1,16 +1,29 @@
 {
-  "previous": "%jitz94OMQbDPPi9THVxifDjoeG4RkhwFge1ePunU10w=.sha256",
-  "sequence": 11015,
+  "previous": "%2dEPTkunaiS99aPI6csL/IQX2HlHFNBTjGYQjCAiEzQ=.sha256",
+  "sequence": 11016,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562034121272,
+  "timestamp": 1562034181467,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%p1Gck3ZYjwJPpSfbFUtW/tc/VrnBEgJcUQO6nGh2MGw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4jh6D1k2cB+0+a8ZJUSLsZN2e/T32P+1pRSSl1CxHHA=.sha256",
+    "branch": [
+      "%p1Gck3ZYjwJPpSfbFUtW/tc/VrnBEgJcUQO6nGh2MGw=.sha256",
+      "%vZY8BUea8SVStbNIQWPKHvsAFIFOOeL1/S9AG+TWrpE=.sha256"
+    ],
+    "reply": {
+      "%4jh6D1k2cB+0+a8ZJUSLsZN2e/T32P+1pRSSl1CxHHA=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+      "%p1Gck3ZYjwJPpSfbFUtW/tc/VrnBEgJcUQO6nGh2MGw=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nBummed I won't be able to make this one, it's a bit late for me. I've been trying to repair my sleep schedule and I feel like I probably shouldn't commit to staying up past midnight.\n\nLooking forward to the next week's one though, staggered times are great!",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "pPxRg6t4PCo8BXz0nkf64shOUpfcTZmUM2e5mg54S7mcYPHiupMiufAqiR1kGlLFjn8Pq7QyJWi9WRfde3gQDw==.sig.ed25519"
+  "signature": "dp2mDjUIC2LVhQL+y4GpQqGZDg0XK7/INEhmkFc0eMwHC4B4nKkp2Hl/+tfNeV5Y1g361JYnQU6rGqAxPxv0Bw==.sig.ed25519"
 }
