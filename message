@@ -1,15 +1,30 @@
 {
-  "previous": "%QujCTnqMnwzF7XyxX1fYdkFH3RxJKuOCWDx8MY/9nSI=.sha256",
-  "sequence": 11020,
+  "previous": "%ePVitaOnoBNXHeoExN9wP22iyoDPpG6j2StQiHbt1jY=.sha256",
+  "sequence": 11021,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562035016880,
+  "timestamp": 1562077182219,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uBqxhQbaIhNlZRjbKeHxqex83pkbsvU4G4a0vPrEvaw=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%J/KkqlXcIZMB1YGn5zDka8sjESuzqhdIm1B+ZMYBBYo=.sha256",
+    "branch": "%ehhrL4ub2n2rqxba4UAoD7EuPZr8x9/kAqtGyP4CJjU=.sha256",
+    "reply": {
+      "%J/KkqlXcIZMB1YGn5zDka8sjESuzqhdIm1B+ZMYBBYo=.sha256": "@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519",
+      "%ehhrL4ub2n2rqxba4UAoD7EuPZr8x9/kAqtGyP4CJjU=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) [@Hendrik Peter](@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519) \n\nYep!\n\nhttps://github.com/ssbc/ssb-db/blob/master/api.md#del-async",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
+      },
+      {
+        "link": "@Bp5Z5TQKv6E/Y+QZn/3LiDWMPi63EP8MHsXZ4tiIb2w=.ed25519",
+        "name": "Hendrik Peter"
+      }
+    ]
   },
-  "signature": "Aw3dzCIEO+EBePepoK4E6L/AVNT4ypkEtUKaiG3prVXsBzooj2PSIyxf8e0f37KwRXw5dowdYBgZbdBzWS6gAA==.sig.ed25519"
+  "signature": "YLc+jtKdVHoiMZO19tTVZ1AOLOmkH9v5C/gJdv0ytmUb7IYqabxsHIq+ysxgiFmU/zI4K8iFoNxucsLH3z5jDw==.sig.ed25519"
 }
