@@ -1,29 +1,34 @@
 {
-  "previous": "%2MXAsfDu66AumNZ5eAo7IKDrcjyYCT7KdySWAmPePO0=.sha256",
-  "sequence": 11033,
+  "previous": "%bs/Eqor7+Z1tKhd4J3WTxZ/1JlsF8Y2vQDkNVIAtF20=.sha256",
+  "sequence": 11034,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562094543120,
+  "timestamp": 1562096192036,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256",
-    "branch": "%bPXYfTxK/tOD6enTz5/iS46ViS1KfhlXnKDvSUotld8=.sha256",
+    "root": "%/fuRfSOVI4Lk6+oY1rtX/gep96hIjj30Leja132CZfA=.sha256",
+    "branch": "%vQVPkiz7LhQmdEnwuSu1WwZxQ5wED0vKNpHuTH9t+Q0=.sha256",
     "reply": {
-      "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519",
-      "%bPXYfTxK/tOD6enTz5/iS46ViS1KfhlXnKDvSUotld8=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519"
+      "%/fuRfSOVI4Lk6+oY1rtX/gep96hIjj30Leja132CZfA=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+      "%vQVPkiz7LhQmdEnwuSu1WwZxQ5wED0vKNpHuTH9t+Q0=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
     },
-    "channel": null,
+    "channel": "faerie-rings",
     "recps": null,
-    "text": "[@Neil Alexander](@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519)\n\nWhen you say \"indexing\" do you mean that it pops up and says \"indexing\"? Or just that it takes a long time to move between different pages? If it says \"indexing...\" at the top every time you click a link that's unexpected behavior.\n\nI know that the tags page is super slow (and hasn't been touched in a long time), but the public and private views shouldn't be doing anything special. I'm working on a low-resource alternative to Patchwork that runs its interface in a web browser, but it's very much a work in progress. There's also #patchfoo, but in my experience it takes a bit of effort to install and configure.",
+    "text": "🥑\n\nI had some really nice chats with [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) and [@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519), but we ran into two problems.\n\n1. **The other members were inactive.** I found the messages where they said \"I want to be in a ring\" but by the time the rings started they hadn't been on Scuttlebutt in a while.\n2. **We weren't consistent.** We had a problem where we often forgot that there was a ring or we'd log in and nobody else was online. [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) made a reminder bot that worked one week but then it stopped posting. I think we had two meetings where we were all online for the whole call.\n\nI don't know whether the first problem caused the second problem, but it felt like more like a once-in-a-while conference call with 1-2 friends rather than a regular gathering of ~6 people in a faerie ring.",
     "mentions": [
       {
-        "link": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519",
-        "name": "Neil Alexander"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       },
       {
-        "link": "#patchfoo"
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ]
   },
-  "signature": "6/oexLjhKjEANNNc1O8lGc4X7jPokbRAaBitWB7T4OlawYn/IxDYMq+oLaP9Y4eRocUSQND7oTBvzIFsB3EaDA==.sig.ed25519"
+  "signature": "lcS1k0r4l9dVWDoo5UI6X7c7WaL6QZX007AGwQ4+U2+AgIkf1s3ZVJ+vvNyB4SVUzty2U4bhYNFrsQrodZM0CQ==.sig.ed25519"
 }
