@@ -1,25 +1,29 @@
 {
-  "previous": "%u8IcRvsKuOq/MGV26FSIiS660VebJjF3UQgUFserCzs=.sha256",
-  "sequence": 11032,
+  "previous": "%2MXAsfDu66AumNZ5eAo7IKDrcjyYCT7KdySWAmPePO0=.sha256",
+  "sequence": 11033,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562084760152,
+  "timestamp": 1562094543120,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256",
-    "branch": "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256",
+    "branch": "%bPXYfTxK/tOD6enTz5/iS46ViS1KfhlXnKDvSUotld8=.sha256",
     "reply": {
-      "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519"
+      "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519",
+      "%bPXYfTxK/tOD6enTz5/iS46ViS1KfhlXnKDvSUotld8=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@Neil Alexander](@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519) \n\nHappy to help how I can. Can you help describe which bits are \"impossibly slow\"? And can you verify that you're on the latest version (3.14.1)?",
+    "text": "[@Neil Alexander](@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519)\n\nWhen you say \"indexing\" do you mean that it pops up and says \"indexing\"? Or just that it takes a long time to move between different pages? If it says \"indexing...\" at the top every time you click a link that's unexpected behavior.\n\nI know that the tags page is super slow (and hasn't been touched in a long time), but the public and private views shouldn't be doing anything special. I'm working on a low-resource alternative to Patchwork that runs its interface in a web browser, but it's very much a work in progress. There's also #patchfoo, but in my experience it takes a bit of effort to install and configure.",
     "mentions": [
       {
         "link": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519",
         "name": "Neil Alexander"
+      },
+      {
+        "link": "#patchfoo"
       }
     ]
   },
-  "signature": "fTl419ySZN4w9rM7tqMTPg8kdF2NIZFYKI71zqnUlm3Ty0ce7ohvIt6fT4eQ8XhFJQw+ehm7P9WUjYDVPt5wBQ==.sig.ed25519"
+  "signature": "6/oexLjhKjEANNNc1O8lGc4X7jPokbRAaBitWB7T4OlawYn/IxDYMq+oLaP9Y4eRocUSQND7oTBvzIFsB3EaDA==.sig.ed25519"
 }
