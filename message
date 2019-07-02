@@ -1,26 +1,16 @@
 {
-  "previous": "%C/zycIVBLPx9bYyQMeM4dT0RKdwY0TskukCvJJ0gupY=.sha256",
-  "sequence": 11043,
+  "previous": "%xF5+lXav+bxCeYxsTE2JckJfSPgGaoSbxyn7l4VcRu4=.sha256",
+  "sequence": 11044,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562103082062,
+  "timestamp": 1562103306705,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ZHIOCobHeQkEM3+Q5pc4qvuOInQjTkewYiRKDVjr67A=.sha256",
-    "branch": "%VqAdlXWE2A/vjskO48mbRN/6yxeUtVVo+RuM5/rsld8=.sha256",
-    "reply": {
-      "%ZHIOCobHeQkEM3+Q5pc4qvuOInQjTkewYiRKDVjr67A=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-      "%VqAdlXWE2A/vjskO48mbRN/6yxeUtVVo+RuM5/rsld8=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
-    },
-    "channel": "show-and-tell",
-    "recps": null,
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nYeah, I think any time you're re-downloading your log from scratch you really need to disable *all* publishing functionality. We do this in Patchwork anytime indexing is happening, but maybe we need `ssb-server start --read-only` or something so you endure that no plugins add or publish to the log.",
-    "mentions": [
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%sV4jfudUdUZozTn3ljB3GzVRl2mxF0jEJAyb2/INGeE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "iszUjfw23NYn53WZliT5406MOR9oWgTX6b7b76bdU649AA4eBV9uMTVAwBSrlIEQgnr8wPr642Vuw1kqA6W5Cg==.sig.ed25519"
+  "signature": "qgEISQsrC2L6n/7WGXUQ93+0+hXPg5gmQxbVSMEtYJZNMDcFNL5ENZRw5b1zhhxOCB5sqqEXEixlASC34cRHBg==.sig.ed25519"
 }
