@@ -1,22 +1,17 @@
 {
-  "previous": "%Y2CeA/0sxBOy/J7XxyUEsLTtWDvNTe6+PqcAWann+vs=.sha256",
-  "sequence": 11048,
+  "previous": "%6W7mNLnQVe72RN+1KXyCihJ0bD1MeEoB1tOcReBEbek=.sha256",
+  "sequence": 11049,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562124033515,
+  "timestamp": 1562124052926,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Dg1IQDos9TRObpOFQXhuSKNlxp64/5giA64kQCtsUQM=.sha256",
-    "fork": "%pjLCLjZpPRv+yXw+jA40rwx/YrE36uXALzl62nm9fNY=.sha256",
-    "branch": "%u7cWzFVMoEucqRlt/R/vGuVG91FeGVE1zJWyvw0tIAI=.sha256",
-    "reply": {
-      "%Dg1IQDos9TRObpOFQXhuSKNlxp64/5giA64kQCtsUQM=.sha256": "@KpPLISvjzw8CkoWOJ3zKXBgPtNDuzUgfyGbJEfbJ4H8=.ed25519",
-      "%u7cWzFVMoEucqRlt/R/vGuVG91FeGVE1zJWyvw0tIAI=.sha256": "@KpPLISvjzw8CkoWOJ3zKXBgPtNDuzUgfyGbJEfbJ4H8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "I love this idea! I'd love to see a list of random posts from the past. The \"provably random-sampled\" should be simple since it's on your own device.\n\nHere's some super crude code to pick a random post from the database, although currently it consumes a JSON file and only outputs the feed ID and sequence number. Looks like there are a few other things that would need to be threaded through our layers of abstraction.\n\n```javascript\n// todo: load vector clock dynamically\n// currently doing `ssb-server getVectorClock > vectorClock.json`\nconst vectorClockData = require('./vectorClock.json')\n\nvar totalMessages = Object.values(vectorClockData).reduce((acc, item) => {\n  acc += item\n  return acc\n})\n\n// todo: does this actually have a uniform distribution over the messages?\nconst randomOffset = Math.round(Math.random() * totalMessages)\n\nconst randomPair = Object.entries(vectorClockData).reduce((acc, entry) => {\n  const [ key, value ] = entry\n\n  if (acc.left > 0) {\n    if (value >= acc.left) {\n      acc.feed = key\n    }\n\n    acc.left -= value\n  }\n\n  return acc\n}, { feed: null, left: randomOffset })\n\nconst sequenceNumber = vectorClockData[randomPair.feed] + randomPair.left\n\nconsole.log(randomPair.feed, sequenceNumber)\n// todo: expose getAtSequence from ssb-db and call it\n```\n\nSome sample outputs on my machine:\n\n```\n@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519 5850\n@2cIkwrM43lbBYRBxTdtQgvb22HSdLSpVotsYkWmbFGs=.ed25519 25\n@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519 2803\n@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519 246\n@ymYQ+VJCz43yLOe0X89NgwcsyoBY2wQylDTFxJPt/rI=.ed25519 4\n@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519 3556\n```",
-    "mentions": []
+    "type": "vote",
+    "channel": "show-and-tell",
+    "vote": {
+      "link": "%JYHnwiQxZ6iJ+SG1hv7Jd553qW2jitH4JHyv53g6PO8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3N86mPN73NwmHGZbzi5/8dEXFsDRcqOoLriGfmiGAManan8otzgX1Wk1vWZn+9YyrY1Ys8QN7SQUyBzANbsCDw==.sig.ed25519"
+  "signature": "meN/6X5n/msBtobbbgQQZ5QAFjTj5Lz9k8QWaMtJpozYGo2voRxeWl85grS6xtMcJQOBc9+18VeISzw+ComfAg==.sig.ed25519"
 }
