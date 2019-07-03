@@ -1,15 +1,20 @@
 {
-  "previous": "%cpNJ3escopIEmA9KlwlYvXKCEK7dp899O+19fX7g1PY=.sha256",
-  "sequence": 11051,
+  "previous": "%svg0qJqDWlrwPZpn6aNvVH3jE8iEoJcD0WtVp41DKuY=.sha256",
+  "sequence": 11052,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562124696509,
+  "timestamp": 1562127131911,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RvwKAavCfXrRp+OpLM4VysocPBF0QTXYStnRwutQ3oE=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%cpNJ3escopIEmA9KlwlYvXKCEK7dp899O+19fX7g1PY=.sha256",
+    "branch": "%cpNJ3escopIEmA9KlwlYvXKCEK7dp899O+19fX7g1PY=.sha256",
+    "reply": {
+      "%cpNJ3escopIEmA9KlwlYvXKCEK7dp899O+19fX7g1PY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "To be fair, you *did* warn us that it was redundant.",
+    "mentions": []
   },
-  "signature": "/I0mcVgsv2ZVHyYyPzdK+C4MwsEIxLpwmb1Dxv9Teav04yujAVpkMT1bnfuuAoqHn+Ig8XR5GydBBiIKMDGbCw==.sig.ed25519"
+  "signature": "nODDr4vpVCUHUZK7TT/I5cuz5plixmvExSWYW2MVU6jiomdpkj65tOPs+KiAA2qnTB/YoSY71iYJGpD53zUgCw==.sig.ed25519"
 }
