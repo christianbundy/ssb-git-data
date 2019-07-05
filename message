@@ -1,26 +1,15 @@
 {
-  "previous": "%z4oexSQkafzEQ8d4l7y4793IApgM0WsINK+DjkHlrNA=.sha256",
-  "sequence": 11081,
+  "previous": "%epvs7a436ccjw9w6M03wxRP5dPJ3idfPmq9C5YF3+5U=.sha256",
+  "sequence": 11082,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562363472197,
+  "timestamp": 1562364046870,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7WF0bO6kz2ESmUT4NI8YhyIYosUB6/R+CcXHFJneLdc=.sha256",
-    "fork": "%VfxTnr0voVlrSyD7AgavsoASowJUb2cqZSrx/JAyDlY=.sha256",
-    "branch": "%7WF0bO6kz2ESmUT4NI8YhyIYosUB6/R+CcXHFJneLdc=.sha256",
-    "reply": {
-      "%7WF0bO6kz2ESmUT4NI8YhyIYosUB6/R+CcXHFJneLdc=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
-    },
-    "channel": "dev-diaries",
-    "recps": null,
-    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nYou might like [discovery-swarm](https://github.com/mafintosh/discovery-swarm), which can find peers locally (with mDNS) and globally. I've been super tempted to join a \"room\" identified by our shared SHS key to connect to every other online peer. The bummer is that it leaks your IP to everyone which is problematic from a privacy perspective.",
-    "mentions": [
-      {
-        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-        "name": "SoapDog (Macbook)"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%oxrAzOoWfsAc07XpIy8nmM0G2rQb7vq1EqdU2u28C0Q=.sha256",
+      "value": 1
+    }
   },
-  "signature": "Dvn1gfYfs8sqLq1UVOf8s25FDutAweBj0CtQvBaewFn8aYcA+G5f2yeGFGPYGbXHBnf9FCx2ycLPGA+YKdPDAw==.sig.ed25519"
+  "signature": "4rPfNQfgQ5xRw4FHZWba6btGRpyXpPfcCZRGW5G5PHPRnDS8Yn9dGmwuv6VNZIS7yfELYX2lZx+vqcjF/4ScAQ==.sig.ed25519"
 }
