@@ -1,16 +1,21 @@
 {
-  "previous": "%meYIDPV0AHQxFJJdKaA9K+s8/W/h/NfLZVh0kBDQwLQ=.sha256",
-  "sequence": 11099,
+  "previous": "%Hhf+EFsEFZ9xS19HEKjsm+rI7t4t75z/oI1G5ckWVc4=.sha256",
+  "sequence": 11100,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562433898117,
+  "timestamp": 1562433974034,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%J9+ivyCUvbelAPYNCcxCBtw2Ibt3QZ78grbxh7gr9ow=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ltr+50XXP4wkx3Sv2BnavRmKDj5zeu3ixttQ91VrDtU=.sha256",
+    "branch": "%aqjA5k9qd3nayl3ZXE6qENt01MOgAkyVBT7A57WYDm4=.sha256",
+    "reply": {
+      "%Ltr+50XXP4wkx3Sv2BnavRmKDj5zeu3ixttQ91VrDtU=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%aqjA5k9qd3nayl3ZXE6qENt01MOgAkyVBT7A57WYDm4=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "See also: https://twitter.com/glitchr_",
+    "mentions": []
   },
-  "signature": "7Qtg0/nXNMccQowtrZZBKQnrVDKoGV7de+lHXHLklcPxRw8pkGO7jhWanxI33h4oxFShLKwIr9paTNBfryDNDA==.sig.ed25519"
+  "signature": "Ngy1+ayqgnO9dc2HWoNKBHxZF4iqeWT5sGIhCE8zf/4fsRHKh4ewgTqjBWkI9C1NdAAQfMEMWuNQ2JzbXkLmAg==.sig.ed25519"
 }
