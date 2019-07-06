@@ -1,17 +1,26 @@
 {
-  "previous": "%0/VMtutz3dW3CXPpn+YYQ+2mAgujcQGs09S6+oROh20=.sha256",
-  "sequence": 11097,
+  "previous": "%fnuZAaU3bV/FG+ePmtkLb9Ie0AyQKfp3s8ovH4b0lNI=.sha256",
+  "sequence": 11098,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562433791379,
+  "timestamp": 1562433882053,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%NNZ0Ipk7Lf0uCtO6eYD7IN2OWtumsQMdaESth3+8aGY=.sha256",
+    "branch": "%yk9KKA0RlzY9N3ikyIGUzN4Xcz+xMqhydAz91AzpF4E=.sha256",
+    "reply": {
+      "%NNZ0Ipk7Lf0uCtO6eYD7IN2OWtumsQMdaESth3+8aGY=.sha256": "@aN5A7jZ+ZSc+pWdroNQssELd5UnAjRjr2YYSn0/osK0=.ed25519",
+      "%yk9KKA0RlzY9N3ikyIGUzN4Xcz+xMqhydAz91AzpF4E=.sha256": "@aN5A7jZ+ZSc+pWdroNQssELd5UnAjRjr2YYSn0/osK0=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%t8TDeZVwA4XFyZq5LKOXh5QSFXSxI9ltAhmd6AKtooQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Ana Daniela](@aN5A7jZ+ZSc+pWdroNQssELd5UnAjRjr2YYSn0/osK0=.ed25519) \n\nI love these! Thanks so much for sharing, I hope I can check these out at dweb!",
+    "mentions": [
+      {
+        "link": "@aN5A7jZ+ZSc+pWdroNQssELd5UnAjRjr2YYSn0/osK0=.ed25519",
+        "name": "Ana Daniela"
+      }
+    ]
   },
-  "signature": "eCsKTO6tAigoKTu0Cfts/5Z6WKpoXAl5Pe5xX8QwPuLYuOAT7PjBGwyO6rUSd4nitu1MAwI4rMVLbaqIdJwxAg==.sig.ed25519"
+  "signature": "6u+/xzJvyVYYHQrMRpj1jMb9Y0T662Am6bbujLPz4W09mpYP0Tu7T2e1hJE1WWasDbZpRWngYh6TPiu6j7sMCw==.sig.ed25519"
 }
