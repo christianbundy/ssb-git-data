@@ -1,16 +1,26 @@
 {
-  "previous": "%ZSnVvNt/i91B3QEygjbIB2/1uIvksOMa4mJ2KcU3oss=.sha256",
-  "sequence": 11095,
+  "previous": "%jPvjaAhpWK/ms3rJkbqPcGjKYcTWEt18np7GjqbhZSo=.sha256",
+  "sequence": 11096,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562427371341,
+  "timestamp": 1562433785836,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3bdyjiktqfD44JIgjgyie3pzgUk8kCPjqF8ylkjekss=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%3bdyjiktqfD44JIgjgyie3pzgUk8kCPjqF8ylkjekss=.sha256",
+    "fork": "%cYWS7BvnNhHvwJB5cw64f3SGfvuJHfzMsgrKphD4qH0=.sha256",
+    "branch": "%3bdyjiktqfD44JIgjgyie3pzgUk8kCPjqF8ylkjekss=.sha256",
+    "reply": {
+      "%3bdyjiktqfD44JIgjgyie3pzgUk8kCPjqF8ylkjekss=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI feel the same way except from inside the US.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "tb5WFz6WvKCS4Ud93gsydeEjHlu2VUb9Q+9t1DqoaqyzPWnxACkbVXzC//LfGPc7wM1i6tDn3A5p1YRVgj0ACA==.sig.ed25519"
+  "signature": "SConmSEBjEZL+snkEHecHgs4btbHEuLxRvlPY0xuFercELKyQCVNMIr9x0LEmipkUdsM753Tnck+hKD4rX/MCw==.sig.ed25519"
 }
