@@ -1,25 +1,16 @@
 {
-  "previous": "%yQPmChS9aex7yiMGQD4X/e7TtIVnydTeeziwzUMkx5Q=.sha256",
-  "sequence": 11090,
+  "previous": "%wQXtmr6dksdDxdQPHiI4FjDuYIzbclSY3CWJAirbnMw=.sha256",
+  "sequence": 11091,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562367978288,
+  "timestamp": 1562387738484,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%5hCH9jwWJE89xzl5DQ2CrFqafeeQghNpXNYgela0hsQ=.sha256",
-    "branch": "%5hCH9jwWJE89xzl5DQ2CrFqafeeQghNpXNYgela0hsQ=.sha256",
-    "reply": {
-      "%5hCH9jwWJE89xzl5DQ2CrFqafeeQghNpXNYgela0hsQ=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
-    },
-    "channel": "ssb-client",
-    "recps": null,
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nI don't think there's a \"good\" way to check for it. Usually you'll run something like `ssb.whoami((err) => { if (err) throw err })` and you'll have the error thrown, but *really* I think it would be best to auto-detect \"Error: stream is closed\" and friends and just retry the connection.\n\nI've been writing a batteries-included API that runs as an abstraction over ssb-client (and ssb-server if ssb-client can't connect) but I haven't implemented this quite yet. TODO!",
-    "mentions": [
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%NNZ0Ipk7Lf0uCtO6eYD7IN2OWtumsQMdaESth3+8aGY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "kEIbgFPSTFBlboBZSe8OEoR4kySh0V/cPQitFbnnqreT655mqxlcXjPdi6gKWaAPnuUHe2k6bjNiK+qqFPNbCg==.sig.ed25519"
+  "signature": "xGDbCHctQQauaYmL4DHc+BEiRFUUNyjoKJ9Nx+MPynbFOxwzeGwceW1ExMJ+JuVRfgTXFYSCFkrQxDTZoudqCQ==.sig.ed25519"
 }
