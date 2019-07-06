@@ -1,17 +1,26 @@
 {
-  "previous": "%JZB2XJVJvl8w9p+iNZoVkbjDl5DwwOs6hNjT9ICHpNA=.sha256",
-  "sequence": 11093,
+  "previous": "%Fr5maXQDAvVggHzw2j8LuJIsqUpBS6SHeb5W+0ZJgqw=.sha256",
+  "sequence": 11094,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562427292171,
+  "timestamp": 1562427327267,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%xCpFTgda3TA5VNGBnihFgS+JF/OtnJkpc4IdIZu7+hU=.sha256",
+    "branch": "%zL6IM18YNbvr9wEXRa0GPRw2tZktad7rxMW5r8DtZCc=.sha256",
+    "reply": {
+      "%xCpFTgda3TA5VNGBnihFgS+JF/OtnJkpc4IdIZu7+hU=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%zL6IM18YNbvr9wEXRa0GPRw2tZktad7rxMW5r8DtZCc=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
     "channel": "wellington",
-    "vote": {
-      "link": "%xCpFTgda3TA5VNGBnihFgS+JF/OtnJkpc4IdIZu7+hU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI want to try making this...",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "rcBmcnSe+2oAOF0sOcU7gtwKPKadWvX0CSdw3SQogS0qAW0W4nP/7AzfP6sw3gYOfwJWT5ga6baFUrUy1H6nDQ==.sig.ed25519"
+  "signature": "3IsrNKTmniTFwTwsX1FzkGb5T939A/V7wh5f1AoZki50L5VOsP0TanSyQ77rPXWEIh5FUQ9XEJqduYrMvYQECA==.sig.ed25519"
 }
