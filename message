@@ -1,15 +1,29 @@
 {
-  "previous": "%fKqR9qhvxQkkfU+6mUngEpUNRlNy5qIxUlkX1TLPcJs=.sha256",
-  "sequence": 11112,
+  "previous": "%G+Q6ycn62YtTi21CmYIVRb1xfHUvWtaw6SI4aCi+GUw=.sha256",
+  "sequence": 11113,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562550818659,
+  "timestamp": 1562552266354,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%B8pw38nro0jyrzzhUGmM7XEVt/NAcofMkB6hm+T6zYA=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%ZnPDqBDAa0uApS2CVCJRMGU+QC6JPAS1A5U7MlzZrSg=.sha256",
+    "branch": "%IdumnnWOvLWHCZNtqDgmFS+vsTqrpS+NdyXQADxK/x0=.sha256",
+    "reply": {
+      "%ZnPDqBDAa0uApS2CVCJRMGU+QC6JPAS1A5U7MlzZrSg=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+      "%IdumnnWOvLWHCZNtqDgmFS+vsTqrpS+NdyXQADxK/x0=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nFound it! %Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256"
+      }
+    ]
   },
-  "signature": "KoYln9CogLUBwZWc1ZqQ8sJgYBzwLOG90NsBXo1Jh3NKW4Ax+4WUpJn6Ef9QgSIzYIYMlFtsMTB7v80Vo4rCBw==.sig.ed25519"
+  "signature": "zt35F4UWfNwEs54Yj10ku3RwQKSErNk9hzaSaKnskLim4ku5jlNdQ4iIFvanlHy2tyQGbq1rhQEQK9vKY+4fCw==.sig.ed25519"
 }
