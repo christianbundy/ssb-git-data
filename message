@@ -1,16 +1,20 @@
 {
-  "previous": "%e75391cNb5d4RI+ZJomX/WNcjOMEAPM2L2Prd6cGmGQ=.sha256",
-  "sequence": 11115,
+  "previous": "%GoNYloXU1wD5SRHEg2mtrv6sXM0/Ko39bsUUj6V3WfE=.sha256",
+  "sequence": 11116,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562552295583,
+  "timestamp": 1562552315847,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9yMpJohJfslfu29bpw0voSwsNILcLZZwwBm6nd3x4jk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9yMpJohJfslfu29bpw0voSwsNILcLZZwwBm6nd3x4jk=.sha256",
+    "branch": "%9yMpJohJfslfu29bpw0voSwsNILcLZZwwBm6nd3x4jk=.sha256",
+    "reply": {
+      "%9yMpJohJfslfu29bpw0voSwsNILcLZZwwBm6nd3x4jk=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "big boi",
+    "mentions": []
   },
-  "signature": "KTf/ltb3LO8IN7VDtyd9Upw3Bu3GqtZn7s1ADgZbeBjl32qf4NOnfhqAcwR15o3pBwTTBwWfXB4moYyH3kxeCg==.sig.ed25519"
+  "signature": "/Rn5kOwNIT04MawlM2ygHWxb6NZzZ0BfSKvjtOxyKspEcMOGpLPT9HEAKzc+Zur6rWsRomtFqLk5FbDiRVkaAQ==.sig.ed25519"
 }
