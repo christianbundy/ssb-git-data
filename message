@@ -1,16 +1,25 @@
 {
-  "previous": "%HqU1KmM+POOp2u81iEcgvfnjBjhFZqHjATB3d6FD71g=.sha256",
-  "sequence": 11117,
+  "previous": "%0CEsQvkObWG4e83GDK8ZUzCbqZdoGMdewCFhMJhsKPk=.sha256",
+  "sequence": 11118,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562552345374,
+  "timestamp": 1562552361900,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%icu5Kw4Wpma0E1gtk1LT+b0Spsfxfnaoc9yVW5x9H+E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%icu5Kw4Wpma0E1gtk1LT+b0Spsfxfnaoc9yVW5x9H+E=.sha256",
+    "branch": "%icu5Kw4Wpma0E1gtk1LT+b0Spsfxfnaoc9yVW5x9H+E=.sha256",
+    "reply": {
+      "%icu5Kw4Wpma0E1gtk1LT+b0Spsfxfnaoc9yVW5x9H+E=.sha256": "@N3vZ0+6yqQ0eEX5mDaXnKkwWKBUDXmqgB8D/ZzD1kIY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Ben](@N3vZ0+6yqQ0eEX5mDaXnKkwWKBUDXmqgB8D/ZzD1kIY=.ed25519) \n\nInteresting! What's cryptovoxels?",
+    "mentions": [
+      {
+        "link": "@N3vZ0+6yqQ0eEX5mDaXnKkwWKBUDXmqgB8D/ZzD1kIY=.ed25519",
+        "name": "Ben"
+      }
+    ]
   },
-  "signature": "lLfY9GN2AhNE7MAMpZCe9H/baKRpfQjtcDIDAXp9oYKC8Zq3XvoyAwnVGx6FdpH+P3764ztZHb/vJu/FyQ7vAQ==.sig.ed25519"
+  "signature": "/ThIom6+mJYkNBFdWEnfaQsSKq3uX/aVP1a3fHdgr5ZSvUIhclf5bwB2WNG6MN8LKRVKPggaG2eArSW8ujzUCg==.sig.ed25519"
 }
