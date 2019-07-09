@@ -1,17 +1,26 @@
 {
-  "previous": "%OvIyxBSNLQe7ZDeSFaz0XuTd6sIMpkAxgHJNuovWhTQ=.sha256",
-  "sequence": 11133,
+  "previous": "%E6noGaVWs4Ft5t//LnTPdC6unipm1OpeN+HNJArpGYY=.sha256",
+  "sequence": 11134,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562692815210,
+  "timestamp": 1562693445230,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%dwNGvRjN2Xkz4oKdLAWzsKuAyxpz9jtSsSjfxjbiFGw=.sha256",
+    "branch": "%f3KJenoEC0q3Z9URxGEbNfewpdW2A8hyTFA76XOHRqA=.sha256",
+    "reply": {
+      "%dwNGvRjN2Xkz4oKdLAWzsKuAyxpz9jtSsSjfxjbiFGw=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%f3KJenoEC0q3Z9URxGEbNfewpdW2A8hyTFA76XOHRqA=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": "dweb-camp",
-    "vote": {
-      "link": "%f3KJenoEC0q3Z9URxGEbNfewpdW2A8hyTFA76XOHRqA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519)'s list is great.\n\nUniversity of California maintains a list of common pests that might be useful, although it's probably an information overload: http://ipm.ucanr.edu/PMG/menu.house.html\n\nQuick [subjective] summary of a few of them:\n\n- bees are usually cool as long as you don't mess with them, but wasps are terrible and you should give them space so they don't feel threatened\n- same with spiders, I doubt you're in the habit of picking up spiders but *if you must* be careful to avoid the brown recluse (rare) and black widow (common)\n- mosquitoes are rude, not sure if we'll have a problem but I'll be bringing insect repellent anyway\n- poison oak can ruin your week, they have groupings of 3 leaves and often look oily, but I'm generally skeptical of all vines except for [English ivy](https://en.wikipedia.org/wiki/Hedera_helix#/media/File:Ivy_in_Hyde_Park.JPG)\n- check for ticks when you can -- I've spent a lot of time outdoors and never had a bite but if it happens we can remove them with tweezers\n- you might see some bats, they'll usually stay far away and you can usually think of them like [cute](https://pinkbananamilk.wordpress.com/tag/cute-bats/) bird-like mammals\n- you might smell a skunk, but it's rare to see them -- if you *do* see one just walk away, they'll only spray you in self-defense  \n\nWorth noting that I'm biased toward the ecosystem of Oregon and may be under- or over-emphasizing some pests.",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "HrrkiQ+GclpCQ6Xa/IjVBHNze0YSC03+ykQLLJFgul7nBde8vM5zPNWatQkjVpoSrGtz1KYOO6/QbErlkms3Bg==.sig.ed25519"
+  "signature": "WPTFfH+ao7VljVr60bi1aeRsUaDm0ik4MXFHio4FaSwypIT4QkTZvB6OW0Cf/IpUMJHgK3YNCg/tyeB5VVNCCg==.sig.ed25519"
 }
