@@ -1,17 +1,21 @@
 {
-  "previous": "%e3sd/sl0t1BIPCXakbgzbY3GqR2X9iL8bjI4DLfZJQo=.sha256",
-  "sequence": 11138,
+  "previous": "%qlEvd9cCuygU1YFbDjLan2ng9/Rwfakf5MnDUwUbWqI=.sha256",
+  "sequence": 11139,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562695743235,
+  "timestamp": 1562695891109,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%dwNGvRjN2Xkz4oKdLAWzsKuAyxpz9jtSsSjfxjbiFGw=.sha256",
+    "branch": "%D/jX4RKgQihsHnnA92Nn5xhG7aNcwh3+4b1eiqq4+1c=.sha256",
+    "reply": {
+      "%dwNGvRjN2Xkz4oKdLAWzsKuAyxpz9jtSsSjfxjbiFGw=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%D/jX4RKgQihsHnnA92Nn5xhG7aNcwh3+4b1eiqq4+1c=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
     "channel": "dweb-camp",
-    "vote": {
-      "link": "%s0QXhf+OHIMN2Hvdo6t86gfpB5qTYmeNrFzAHNE7w3M=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "> I would suggest wearing something like Deet\n\nAside: For those using DEET for the first time, it's meant to be applied on your skin or cotton. It ruins many synthetic fibers, so don't spray it on your waterproof jacket. A gentler alternative (that has to be applied more often) might be citronella or lemon eucalyptus.",
+    "mentions": []
   },
-  "signature": "qgdVQ016VK8tW/ZTxQCA9gv38/bHqyCAk/kvTVEmFhSBLj1tr0sxoWbRiUDN75iKIP0aSmUT66IMIKo/LYc5Dg==.sig.ed25519"
+  "signature": "zLtvePgqU+qVavchUHxRWDd1hy02aLm2ckr/I6/Zc5UQfo8Yz1qu6T/g3tCnYqRwQ7N70x1R5mzUZxC3dd35BQ==.sig.ed25519"
 }
