@@ -1,16 +1,26 @@
 {
-  "previous": "%CaKXmFX60dGUKGQNRRhh5HTK4VnK2lBFTxo4YNnVfTc=.sha256",
-  "sequence": 11155,
+  "previous": "%yEC8UnyV446nzeBAQRoR2GAFHQ5MIUEELTgQJfqnjD4=.sha256",
+  "sequence": 11156,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562769717336,
+  "timestamp": 1562769816003,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gKRdfsW1jf7qn5X/SgeEZxZRyZgQF9KtTEDWEVN/rMw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256",
+    "branch": "%WMm6nctewLwvsm7l6gGkUtPMerCV+qhGUOXvOe5EnGI=.sha256",
+    "reply": {
+      "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%WMm6nctewLwvsm7l6gGkUtPMerCV+qhGUOXvOe5EnGI=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": "patchwork-help",
+    "recps": null,
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nHmm, sorry to hear this isn't working right. How many posts are you missing from each other? Do you see any posts, or are you just missing the latest ones? Any idea on how long you've been waiting?",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      }
+    ]
   },
-  "signature": "DxKxn/hUzCVNAb7osG1QR9eVtFVisMxNV3NBHLLOYBvGZypudisLuI0j+a7YEl6soaqAf2G12kpq7H5YlAbpAw==.sig.ed25519"
+  "signature": "cquPexZZQBTu/vlWGU6YUZtlL+NGb4jWdQ3zvD16LVrCkyKPj/AwDDAndJmJkRGOPWBhtWjCNp4L0dWTIDESBg==.sig.ed25519"
 }
