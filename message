@@ -1,13 +1,21 @@
 {
-  "previous": "%qhojkFjjwJlu+xm5grYykchAEjk6qmaLKSyPYJ23YfY=.sha256",
-  "sequence": 11158,
+  "previous": "%RUgRLhF0fGl2pZtFTlLvapI09TU0tgSr93dH6VOiPAE=.sha256",
+  "sequence": 11159,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562772350337,
+  "timestamp": 1562772653612,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@3TaAOQHl/EI+9ilgv8RyQd7TgWZHPKtOudd4c3yPGIQ=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256",
+    "branch": "%l+7oVbbZwxweJvorq/F3da/6UDdoCX/LPDokEG3pU2U=.sha256",
+    "reply": {
+      "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%l+7oVbbZwxweJvorq/F3da/6UDdoCX/LPDokEG3pU2U=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": "patchwork-help",
+    "recps": null,
+    "text": "That's strange. You're coming through loud and clear, but the last post I see from Cindy was five hours ago. I'm not sure what would cause that, I'd probably have her restart Patchwork or before diving deeper into debugging.",
+    "mentions": []
   },
-  "signature": "o4upHoJyi6aCStShUqMCtP2q0mttZ9ll+vrGFxTlyGDj4N8ovnO1qsJ/1/dnRkKPU6VlOsfKMCPFtQdzUHurBQ==.sig.ed25519"
+  "signature": "OKyA2eDi1+HS4QTMa7tvSLRtOoIFi1WTdt1owV7kgI9xxeG/qXKl5jN26R+cuVvhuSj5PBSsLNhnxNbiH2JGDg==.sig.ed25519"
 }
