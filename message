@@ -1,16 +1,25 @@
 {
-  "previous": "%VO8JcfjiIfw5eqVvdK/JI3e+16wy9WC5R/w2isCHhq0=.sha256",
-  "sequence": 11186,
+  "previous": "%MszKmOHPdpR+gGoltllYM9kCPw2osyV9ixzd8I1DqE4=.sha256",
+  "sequence": 11187,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562857742548,
+  "timestamp": 1562857758371,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9t2SsXgomLBcv9cOzkslS6/dINjHecH2PSRZeCoyrrg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%9t2SsXgomLBcv9cOzkslS6/dINjHecH2PSRZeCoyrrg=.sha256",
+    "branch": "%9t2SsXgomLBcv9cOzkslS6/dINjHecH2PSRZeCoyrrg=.sha256",
+    "reply": {
+      "%9t2SsXgomLBcv9cOzkslS6/dINjHecH2PSRZeCoyrrg=.sha256": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) \n\nSee you soon!",
+    "mentions": [
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
+      }
+    ]
   },
-  "signature": "CMp6obdEOkM0fA4281vTyWCHbeWDF5z1AkL6Q8ZZk6RVjx2+1xMI6fnKUPLWyjladviL+QaF8zRu5JVYRzXlDQ==.sig.ed25519"
+  "signature": "Zg0QUCw7Uj96iOzMtBVNKbnXorD9XaTkt9iZqm4Q0jOVTseGZzYIsYcTmAQ/a/nMS0dBLFEnKWfYkXwGOzUpDA==.sig.ed25519"
 }
