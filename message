@@ -1,30 +1,32 @@
 {
-  "previous": "%vv1rtT93S19wgRWl5vezxbVUCThkULG4CtAs0AV6+6k=.sha256",
-  "sequence": 11184,
+  "previous": "%KdCPnGbEP9nPxMK4ulKvQ3xwCwORLCUln5ZbE7fICZc=.sha256",
+  "sequence": 11185,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562857387373,
+  "timestamp": 1562857727511,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%2t4hNZfEoqkgUbdzoFJ1ZuXlDB9ufUSxvPkzlQh34nA=.sha256",
-    "branch": "%6tvTTZAyftDvf+4l2cr2hmgpVNBiYhYR+37f6ed7mHY=.sha256",
+    "root": "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256",
+    "branch": "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256",
     "reply": {
-      "%2t4hNZfEoqkgUbdzoFJ1ZuXlDB9ufUSxvPkzlQh34nA=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-      "%6tvTTZAyftDvf+4l2cr2hmgpVNBiYhYR+37f6ed7mHY=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
+      "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519"
     },
-    "channel": null,
+    "channel": "patchwork",
     "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nShould that happen before or after the [tick checks](%jFRvY+A0xjSfkGCYKunyP46RD/0qd3gqzRjM1FDT9vI=.sha256)? ",
+    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519) \n\nLots of context here: %VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256\n\nI strongly prefer the CommonMark way of doing it where a single newline has no effect, but *historically* that's not how Scuttlebutt has done it and if we fix it then we break a bunch of old posts that were written with the old rules.\n\nI'm on the same page, I just don't know an elegant solution. There are so many Markdown flavors and I'm hesitant to require that every client supports every flavor, which leads me to believe that maybe we should just be publishing some [small HTML subset](%ZzazNwRutYMTPfqbBLkAd6IzCBg3JEZ/njzABxOf/DI=.sha256) that's unambiguous across clients, but that's also controversial.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+        "name": "VI"
       },
       {
-        "link": "%jFRvY+A0xjSfkGCYKunyP46RD/0qd3gqzRjM1FDT9vI=.sha256",
-        "name": "tick checks"
+        "link": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256"
+      },
+      {
+        "link": "%ZzazNwRutYMTPfqbBLkAd6IzCBg3JEZ/njzABxOf/DI=.sha256",
+        "name": "small HTML subset"
       }
     ]
   },
-  "signature": "6uC/VmMW6CEqNa9Co9DIw76THZLsQPXB9nJEtMb11KujKAxSdOxEImgyZv1YD1hIq4q5vkfbS7+qKIz2J6LGAA==.sig.ed25519"
+  "signature": "G1EgvBw0JTpHGTmvzLXKWTeR2wMnp8/Ly5iZqFEYHqbFMQa9A7y9tz+8tNvbLlAo/lEDhd81gF4l1+ql5pnrBw==.sig.ed25519"
 }
