@@ -1,32 +1,16 @@
 {
-  "previous": "%KdCPnGbEP9nPxMK4ulKvQ3xwCwORLCUln5ZbE7fICZc=.sha256",
-  "sequence": 11185,
+  "previous": "%VO8JcfjiIfw5eqVvdK/JI3e+16wy9WC5R/w2isCHhq0=.sha256",
+  "sequence": 11186,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562857727511,
+  "timestamp": 1562857742548,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256",
-    "branch": "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256",
-    "reply": {
-      "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519"
-    },
-    "channel": "patchwork",
-    "recps": null,
-    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519) \n\nLots of context here: %VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256\n\nI strongly prefer the CommonMark way of doing it where a single newline has no effect, but *historically* that's not how Scuttlebutt has done it and if we fix it then we break a bunch of old posts that were written with the old rules.\n\nI'm on the same page, I just don't know an elegant solution. There are so many Markdown flavors and I'm hesitant to require that every client supports every flavor, which leads me to believe that maybe we should just be publishing some [small HTML subset](%ZzazNwRutYMTPfqbBLkAd6IzCBg3JEZ/njzABxOf/DI=.sha256) that's unambiguous across clients, but that's also controversial.",
-    "mentions": [
-      {
-        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-        "name": "VI"
-      },
-      {
-        "link": "%VG8tIpqIInWAxbBlFXdrk9h+bOacGcRIH5CSc0ue8yI=.sha256"
-      },
-      {
-        "link": "%ZzazNwRutYMTPfqbBLkAd6IzCBg3JEZ/njzABxOf/DI=.sha256",
-        "name": "small HTML subset"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%9t2SsXgomLBcv9cOzkslS6/dINjHecH2PSRZeCoyrrg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "G1EgvBw0JTpHGTmvzLXKWTeR2wMnp8/Ly5iZqFEYHqbFMQa9A7y9tz+8tNvbLlAo/lEDhd81gF4l1+ql5pnrBw==.sig.ed25519"
+  "signature": "CMp6obdEOkM0fA4281vTyWCHbeWDF5z1AkL6Q8ZZk6RVjx2+1xMI6fnKUPLWyjladviL+QaF8zRu5JVYRzXlDQ==.sig.ed25519"
 }
