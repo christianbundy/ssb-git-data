@@ -1,16 +1,29 @@
 {
-  "previous": "%RjJIfC3MI+BpgfxrgbmiqlwhvjzxfFS5iFuV74QDJE0=.sha256",
-  "sequence": 11213,
+  "previous": "%4tjZqNmaRkTC2JA3YWwqBSX5sj5HAWAuDTP31LyiRMk=.sha256",
+  "sequence": 11214,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562875795924,
+  "timestamp": 1562875872597,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rmRqAv0Ab16vM5IH7Lmnha+lQ/bGBXitR9yLIKpKuGw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rmRqAv0Ab16vM5IH7Lmnha+lQ/bGBXitR9yLIKpKuGw=.sha256",
+    "branch": "%rmRqAv0Ab16vM5IH7Lmnha+lQ/bGBXitR9yLIKpKuGw=.sha256",
+    "reply": {
+      "%rmRqAv0Ab16vM5IH7Lmnha+lQ/bGBXitR9yLIKpKuGw=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nThis is really neat!\n\nInline video link:\n\n![video:ssb-fuse-drive-2019-07-11_15.55.07.mkv](&6trD9rSlWpVmtYleA7TEI5gxKjl/vzeq9/7jy/30uVw=.sha256)",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "&6trD9rSlWpVmtYleA7TEI5gxKjl/vzeq9/7jy/30uVw=.sha256",
+        "name": "video:ssb-fuse-drive-2019-07-11_15.55.07.mkv"
+      }
+    ]
   },
-  "signature": "ECwPhLbA37kd6pIjsknO7zNFeWs081bV+Lto3c6NcuqRqt8QBvU8hDv+MvCgGrjj9agSVqALH7hRUiVNr74tCg==.sig.ed25519"
+  "signature": "sfn1OOcTsf8Z2a3hROrvyz6jAkibNVutpYUPp6cnusTyJHzSV9goQeJswTjZgZa7c4T7F15n50duXK4l4CMbDg==.sig.ed25519"
 }
