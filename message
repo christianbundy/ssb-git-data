@@ -1,26 +1,17 @@
 {
-  "previous": "%f64bTyGPEkxfPmytt2naOD2FYfthpZGUStXMgmtGgcQ=.sha256",
-  "sequence": 11191,
+  "previous": "%+jp7vZOA5wVnRQ8DVhNwJ4erIxvG9a6lBtjNGrGU+WM=.sha256",
+  "sequence": 11192,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562862384933,
+  "timestamp": 1562862555320,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256",
-    "branch": "%xzZPRRT4blhhPm2QMOZ9gV7mZ7dt9gVSx1ZEYjWX4Xs=.sha256",
-    "reply": {
-      "%Vv27R8FIif8nnMESrh6G02a4iHTuV6D1vTTd/Fx2RKA=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-      "%xzZPRRT4blhhPm2QMOZ9gV7mZ7dt9gVSx1ZEYjWX4Xs=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519"
-    },
-    "channel": "patchwork",
-    "recps": null,
-    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519) \n\nI don't mind writing in AsciiDoc, but since we're rendering it as HTML it seems like we should just publish the final HTML instead of (or in addition to?) the source. Currently Markdown newlines are too controversial to standardize on, which makes me think that trying to get all of the clients to standardize on AsciiDoc might be difficult. My hope is that a subset of HTML is boring and well-implemented enough that we could use it, but maybe there's another serialization format that we'll find in the future that works better.",
-    "mentions": [
-      {
-        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-        "name": "VI"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%mb1LnBwO67qEqK67AT0kmyTF6WJJ7BgCXDM73ioB2+s=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3J2UHdWV6H9ZsQAR6qNJIg6V0Bu7Tu4oDCwXx6nLY72kcFM/fT+AhEqduFhAMPXc+iKZdaMGSsJLMWdFRQ06DQ==.sig.ed25519"
+  "signature": "qwnkryt6sG7YPQIuXJ6Z5eESikBI5zvlNSEm27qvpQJuZ0IGA4f/qPxwajbkpLZvyQB57OQvIdCBjOKnSqhSDA==.sig.ed25519"
 }
