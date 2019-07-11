@@ -1,16 +1,21 @@
 {
-  "previous": "%wk8zUV1pYuFocA3zwdWE6a7ktbFKCBewtUfsiI+GivA=.sha256",
-  "sequence": 11209,
+  "previous": "%Vlk/j5sBDVXSk5yRpx7XzpwyrVX2JSwpXXwRpk9vIrA=.sha256",
+  "sequence": 11210,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562874878520,
+  "timestamp": 1562874978602,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ALslpGIadUaRB82AE7V7VF5UZEZwYjkse6m3UAcH9JA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ALslpGIadUaRB82AE7V7VF5UZEZwYjkse6m3UAcH9JA=.sha256",
+    "branch": "%vON2vWuHlm3/nikBWCdiylsrOVIwbQKDEY/M35GPtLk=.sha256",
+    "reply": {
+      "%ALslpGIadUaRB82AE7V7VF5UZEZwYjkse6m3UAcH9JA=.sha256": "@zEbr4oS0j1O41UYGBVbay+4NvAc2yfJi43yW3Yx28BI=.ed25519",
+      "%vON2vWuHlm3/nikBWCdiylsrOVIwbQKDEY/M35GPtLk=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "🎉🎉🎉\n\nCongratulations! This is super heart-warming to see.",
+    "mentions": []
   },
-  "signature": "UhoR+KBk5dHad6B4vnt0ZTIMg59tEA9DaeMWnzgC4b3jtAbCMf9prR3hCo8XImh73vZ+9wfilpB1zmYPfZmCDw==.sig.ed25519"
+  "signature": "FYJzzXsXpKki80mXEzYzpwQhGh/dHPe4TFKGOaHaNelzUPph4eX+geFD1h7+XIvYviQxXSv/J6AAqPtcs1keCg==.sig.ed25519"
 }
