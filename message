@@ -1,13 +1,25 @@
 {
-  "previous": "%JIVaQwmqd7EiFrykFOZMbveUfE5TL13mKatgoZKIcs0=.sha256",
-  "sequence": 11206,
+  "previous": "%EPS1AGjcKajV2ABaF5jK1yf/r1rBnoKwOf0tWvm8faY=.sha256",
+  "sequence": 11207,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562872970696,
+  "timestamp": 1562874022462,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%Wj9puYOAkNmIxyLfdfLt0CZNzFs5hAdLFztqdpqhRAk=.sha256",
+    "branch": "%Wj9puYOAkNmIxyLfdfLt0CZNzFs5hAdLFztqdpqhRAk=.sha256",
+    "reply": {
+      "%Wj9puYOAkNmIxyLfdfLt0CZNzFs5hAdLFztqdpqhRAk=.sha256": "@HlMOq7hZ2oOuNqN/YFy4XDpz4Ak9jKzGM6ygfxMJ2s4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mudflap](@HlMOq7hZ2oOuNqN/YFy4XDpz4Ak9jKzGM6ygfxMJ2s4=.ed25519) \n\nYou should be able to attach the file with the \"attach file\" button, and but the markdown syntax is:\n\n```md\n![alternative text for screen readers and people without your image](url)\n```",
+    "mentions": [
+      {
+        "link": "@HlMOq7hZ2oOuNqN/YFy4XDpz4Ak9jKzGM6ygfxMJ2s4=.ed25519",
+        "name": "mudflap"
+      }
+    ]
   },
-  "signature": "Xi1XFrvnkhCQSZbPRTlzzaCmp5FJi9HX+2U/ls7B2rNfJ75jP1h8iJWGh7MQOnOcCdXEtZ9ZKoffkWgh9pzlBg==.sig.ed25519"
+  "signature": "s7u5fBCrmmqdCoooBCKfQQ0QdevA1j5XmwDEKKVyODAfS5hVZdaVElCBkDZIAr+RcKSIqJsT9qv3DJ4L2cXQCg==.sig.ed25519"
 }
