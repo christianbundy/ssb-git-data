@@ -1,16 +1,25 @@
 {
-  "previous": "%HfrtE/VddxW6Diq8dbKKgaIBm9DdYPhvMPgHyBwfhrc=.sha256",
-  "sequence": 11221,
+  "previous": "%LiPoN/kc6Hj9pXfiNoqkuBOWgOm2l3EEGMk0jePt9BY=.sha256",
+  "sequence": 11222,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562898942423,
+  "timestamp": 1562898994604,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mUPHgtq8kBUaWClE3mU3Do54TCGXSftHyFD9eQt8S9w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%mUPHgtq8kBUaWClE3mU3Do54TCGXSftHyFD9eQt8S9w=.sha256",
+    "branch": "%mUPHgtq8kBUaWClE3mU3Do54TCGXSftHyFD9eQt8S9w=.sha256",
+    "reply": {
+      "%mUPHgtq8kBUaWClE3mU3Do54TCGXSftHyFD9eQt8S9w=.sha256": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mulrich](@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519) \n\nThis is really really cool, thanks for sharing this project! Is there somewhere I can start checking out your source code, or are you going to release that later?",
+    "mentions": [
+      {
+        "link": "@mucTrTjExFklGdAFobgY4zypBAZMVi7q0m6Ya55gLVo=.ed25519",
+        "name": "mulrich"
+      }
+    ]
   },
-  "signature": "eD4ZkX5KdO9epQhQG/SHLFTP3ZvPMjFCCS17gsOL+6g8fdOQbRmKDaIxhSImh2OZ0KtKbSb5yKjkHcYp9BYbDQ==.sig.ed25519"
+  "signature": "sifvIk4Jfk7C8cUrEQXvklsCNMVvRZmIsFIxgWCqjqOheelPQPqVhQwCVlhymumZyA8c6LBWx8hAuWGS8orzCw==.sig.ed25519"
 }
