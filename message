@@ -1,21 +1,17 @@
 {
-  "previous": "%zQujCfMTZngNWW2zfl7GEEu6KiEEGf9bq/BYxsnzESc=.sha256",
-  "sequence": 11240,
+  "previous": "%KzvRBgsePmt9gnKBdubHBuqJ53XEjSrOBVuTlQEILQw=.sha256",
+  "sequence": 11241,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563038911880,
+  "timestamp": 1563058953332,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%VhDyaqaY9CgPl1FJGIc6tKE8DP/6+ZmJwQGkSlJ3XBY=.sha256",
-    "branch": "%L8UVxwNT/VcqP6EKwa/mSFyAYdrR2RetiRkUPN1Pj3w=.sha256",
-    "reply": {
-      "%VhDyaqaY9CgPl1FJGIc6tKE8DP/6+ZmJwQGkSlJ3XBY=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
-      "%L8UVxwNT/VcqP6EKwa/mSFyAYdrR2RetiRkUPN1Pj3w=.sha256": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "Is that like an aeropress disguised as a french press? I like it.",
-    "mentions": []
+    "vote": {
+      "link": "%OP1FW8zBcVXRPT1kLbQ1V1HlT65dZpyBwpTLmff9E2I=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "8aSUO3Pmb3RjUNShgkabK2pwdpREFpSiEmptQIzKOQ3W2mjGuHDtlbpmODHnPox/4bz7ZL4aTGtV+s5t32ojCQ==.sig.ed25519"
+  "signature": "e3DdKQMDru84GLDdnIqk6xB3qHfQ9vVGMYtDH0orjTy9ikkCdawV9QPU/6zoRsjz8Bcz6zfrZyeBsMd56TQ/Ag==.sig.ed25519"
 }
