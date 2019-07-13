@@ -1,17 +1,28 @@
 {
-  "previous": "%stnPjCouDPxDYpHQEJ1aXsIx6UGrNwfK689gBBaDoME=.sha256",
-  "sequence": 11233,
+  "previous": "%RoHoNuFFLrUXOZk4+mgNX00h9LDIyiBYLs/gYGlnjlI=.sha256",
+  "sequence": 11234,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562983391274,
+  "timestamp": 1562985173793,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%S5OqBx79PS9+HR+XsLq55pFN3FTA1etFUWc7XpRMsB4=.sha256",
+    "branch": "%stnPjCouDPxDYpHQEJ1aXsIx6UGrNwfK689gBBaDoME=.sha256",
+    "reply": {
+      "%S5OqBx79PS9+HR+XsLq55pFN3FTA1etFUWc7XpRMsB4=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+      "%stnPjCouDPxDYpHQEJ1aXsIx6UGrNwfK689gBBaDoME=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%T2rRxs3oUcll+SzvaeUoO7TC2ysKl4uu/V9iJ/oijkA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "They survived!\n\n![Photo of a few chocolate chip and hazelnut cookies. They're small and plump and full of small chopped up bits of hazelnuts and chocolate chips.](&ZLMuWfKkXyQDDqci3qUqlbzXePpHMMpLgS4K3sijYdU=.sha256)\n\nThe cookies are super tasty and turned out well even after 10 minutes at 400 F. They look a bit under-done and the texture is a tiny bit more crumbly than I'd like, but my preference is super gooery cookies. I'll probably experiment with different amounts of salt and baking soda in the future. I remember I saw a guide a while ago that helped troubleshoot ratio problems based on the features of the cookie.",
+    "mentions": [
+      {
+        "link": "&ZLMuWfKkXyQDDqci3qUqlbzXePpHMMpLgS4K3sijYdU=.sha256",
+        "name": "Photo of a few chocolate chip and hazelnut cookies. They&#39;re small and plump and full of small chopped up bits of hazelnuts and chocolate chips.",
+        "type": "image/jpeg",
+        "size": 1381791
+      }
+    ]
   },
-  "signature": "b9I5Y+Nbxm2Ken1dmqQX2U++mRh0hewKCqMk35LByDsZprThBXRypkcc0zWzm9/IfMQpDUzwXxiw3o7t+SBkAQ==.sig.ed25519"
+  "signature": "FGeXiq3mE3sy80WXH3oet+nSUNhtT62rINNMFazhJKvWYJrWH/2K9QXVG21bMgh2FdPWPFG7/ezY1nIZyqd9Dw==.sig.ed25519"
 }
