@@ -1,17 +1,26 @@
 {
-  "previous": "%KzvRBgsePmt9gnKBdubHBuqJ53XEjSrOBVuTlQEILQw=.sha256",
-  "sequence": 11241,
+  "previous": "%Yq8yz1EuclQggAFs9T8X9tV9Kw+0n4MYld5F4+4tEmg=.sha256",
+  "sequence": 11242,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563058953332,
+  "timestamp": 1563058993424,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%MQq/nGmFKy57GWLWAJqqQpinv74r8aezOoS/veNtaE8=.sha256",
+    "branch": "%OP1FW8zBcVXRPT1kLbQ1V1HlT65dZpyBwpTLmff9E2I=.sha256",
+    "reply": {
+      "%MQq/nGmFKy57GWLWAJqqQpinv74r8aezOoS/veNtaE8=.sha256": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+      "%OP1FW8zBcVXRPT1kLbQ1V1HlT65dZpyBwpTLmff9E2I=.sha256": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%OP1FW8zBcVXRPT1kLbQ1V1HlT65dZpyBwpTLmff9E2I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@🖥 jacob](@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519) \n\nThat looks *so* satisfying. How'd the upgrade go?",
+    "mentions": [
+      {
+        "link": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519",
+        "name": "🖥 jacob"
+      }
+    ]
   },
-  "signature": "e3DdKQMDru84GLDdnIqk6xB3qHfQ9vVGMYtDH0orjTy9ikkCdawV9QPU/6zoRsjz8Bcz6zfrZyeBsMd56TQ/Ag==.sig.ed25519"
+  "signature": "TAEaa+Ij2i+ZCAT/9BfFN2COH45dJX3VkZU+8oJuYnwtVOol3ayR2shdP/EaKHbEpS9rtAvbBU2i7AC+2vN/BA==.sig.ed25519"
 }
