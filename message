@@ -1,17 +1,21 @@
 {
-  "previous": "%htx7Do+6IUT6Ru9GXRDiekv4Wts01+wSFUaUOBmzW6o=.sha256",
-  "sequence": 11231,
+  "previous": "%eUCAfEFMWsF3ZA7x7gFpmUuTu8EYXPdQTV6r0t97/rw=.sha256",
+  "sequence": 11232,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1562981421129,
+  "timestamp": 1562983281823,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%S5OqBx79PS9+HR+XsLq55pFN3FTA1etFUWc7XpRMsB4=.sha256",
+    "branch": "%rysgZTTCOXv8t9eexrVk8Z37Ctbm4oOHQXFwaWKXHa4=.sha256",
+    "reply": {
+      "%S5OqBx79PS9+HR+XsLq55pFN3FTA1etFUWc7XpRMsB4=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+      "%rysgZTTCOXv8t9eexrVk8Z37Ctbm4oOHQXFwaWKXHa4=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%d4F7xm2n33z2+O1Q+kQuLFWOCGdW+4p3gREOGBiptRw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Just put a half-batch of these in the oven! \n\n## Ingredients\n\n\n- 1/2 cup Earth Balance (butter substitute)\n- 1/2 cup Brown Sugar\n- 2 tablespoons flax seed + 4 tablespoons of water (did this before deciding to half the recipe\n- 2 teaspoons Vanilla (executive decision)\n- 1 1/2 cups Flour (lazy approximation)\n- 1 teaspoon Cornstarch\n- 1/2 teaspoon Baking Soda\n- 1/2 teaspoon Salt\n- 1/2 cup Chocolate Chips (chopped)\n- 1/2 cup hazelnuts (chopped)\n\n🤞",
+    "mentions": []
   },
-  "signature": "YoLt5ZsnElOx/z7b1m+BFpUXHMOw4+83FCO+nn9pFBtzw6zVo06/KjWgFMw4Jtk1EzNLH2ip+myJi7Pu2o6BAQ==.sig.ed25519"
+  "signature": "BBMCjo49Cz1pExmyIL9R8b9gXmsY20yBhsE4kzdJMCH6jpTSexQgb+16EIX3bq9vMkGl9S971MuhvzNFw+wgBg==.sig.ed25519"
 }
