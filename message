@@ -1,16 +1,17 @@
 {
-  "previous": "%X4bVeLmRIkjpYrDkGvX2oBcBOwjx1/ChbjhXtvtpobs=.sha256",
-  "sequence": 11249,
+  "previous": "%evwb9YZcLT+bWRuast8BcRIG1VNVvTRh5ySHIuuXjao=.sha256",
+  "sequence": 11250,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563142378045,
+  "timestamp": 1563143628057,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%2FqyfAqPzR72EQD+jZpy3AHCO1Wi1Iiyr/3XVtU3xUI=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "remove": true
+    "type": "vote",
+    "channel": "dweb-camp",
+    "vote": {
+      "link": "%mz0yaghA6CwTK9fG3hFt8yi9rXzRklM5YQi5lJ14h70=.sha256",
+      "value": 1,
+      "expression": "Like"
     }
   },
-  "signature": "WnCAhKpcm9qwXmzwhEmFQ4gb6v4Zw4GVO4/jmCzXZBOj6a0LazIxtUcmA83aMNJ9HBbpLGnrygB3tQSBtQTNAg==.sig.ed25519"
+  "signature": "sYFiBEaqEYhEimTmH+H9r/jPGPSucQxpt44LeLUPPTpHoNJ8143yGzx1z1nENRlnFW+4y/Bj1y4GkWtykdQuDw==.sig.ed25519"
 }
