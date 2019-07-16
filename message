@@ -1,26 +1,17 @@
 {
-  "previous": "%99YLJdmQ14JVH1r6LFLoMfaJAf1ywgRl639fxWVZJEQ=.sha256",
-  "sequence": 11262,
+  "previous": "%nWySx64a/QbDIjpcVeHFUmm1AUrCjeM7L5I+hk0V1AI=.sha256",
+  "sequence": 11263,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563301301139,
+  "timestamp": 1563316027921,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%eK8y9oextp3OwLnGWmzs3f/9k83guONiBWcxIhtPSRo=.sha256",
-    "branch": "%9Ppqde5I1/GSH1aPuN52QcPfL0Gq/1j8BITZLdBr+5M=.sha256",
-    "reply": {
-      "%eK8y9oextp3OwLnGWmzs3f/9k83guONiBWcxIhtPSRo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%9Ppqde5I1/GSH1aPuN52QcPfL0Gq/1j8BITZLdBr+5M=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@dandelion](@YajmCfn4B5mqQnbq2wxxLFYWHzzo99jM1pbXBDsSglc=.ed25519)\n\nYep, it's kombucha! This is one of those rare times where people with screen readers might be getting more information than people looking at photos. Here's the alt text on the photo:\n\n> Photo of Kathleen and I drinking kombucha (fermented tea) in a parked car. Kathleen is in the driver's seat wearing a mustard yellow shirt and I'm in the passenger seat wearing a green shirt and wearing a hat. Outside the window there's another car and some green trees in the background. ",
-    "mentions": [
-      {
-        "link": "@YajmCfn4B5mqQnbq2wxxLFYWHzzo99jM1pbXBDsSglc=.ed25519",
-        "name": "dandelion"
-      }
-    ]
+    "vote": {
+      "link": "%F6jYzhfyaKkhhfRRMhNNYjjSTPuy88Gts6SE7yeqack=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "yKU5GJdUBSk88/evMqgShIfzkjtpLIEPDx6AuuMUnGrv4Nyu/Vws0PSDsreoHJ05VWh4jhi3dl60P2ygAp6QCA==.sig.ed25519"
+  "signature": "3whQcTW6HrcJMbFOM0oLxhAlsZ4+nTvHDmdXYhr+VyrECGuH+J9+SxJqf8LGIA1lEwEXbN+ywGJnBut8Y2QNBg==.sig.ed25519"
 }
