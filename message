@@ -1,33 +1,17 @@
 {
-  "previous": "%TnLFhcwj5jtCXIKabFqMJkFKFogcQ18WdqrKOjsSA8o=.sha256",
-  "sequence": 11257,
+  "previous": "%3tCV/L+G1McQFMW4CH6Q27gcyMbjaoFsB8XBXju1Qhk=.sha256",
+  "sequence": 11258,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563293577547,
+  "timestamp": 1563293680165,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256",
-    "branch": "%2+dHLrL0N6t2F46pdDL7wba58MbWmWt6XrJuD3T67vw=.sha256",
-    "reply": {
-      "%d6VBjwb5hoj5+hAlVRPeFF1zthEZ4K3aSd+rZ3zWiaE=.sha256": "@VpWcO1s5TnTsYQbBlERLiztaGpRZP1sooWFcgo5Ylr0=.ed25519",
-      "%2+dHLrL0N6t2F46pdDL7wba58MbWmWt6XrJuD3T67vw=.sha256": "@54Ty4Or83kQxOyUYndMwfOFu4HwZqFRBAW7IpVyB62k=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@khimaros](@54Ty4Or83kQxOyUYndMwfOFu4HwZqFRBAW7IpVyB62k=.ed25519) \n\nI've been using [this thread](%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256) but haven't posted about it on SSB for a few weeks. I'll probably start posting as #oasis in the future, but in the meantime you can check out the Git repo: https://github.com/fraction/oasis",
-    "mentions": [
-      {
-        "link": "@54Ty4Or83kQxOyUYndMwfOFu4HwZqFRBAW7IpVyB62k=.ed25519",
-        "name": "khimaros"
-      },
-      {
-        "link": "%owvZa0OwPBH2olaKUiex1wqyBO/+AeBlxEHcH7jORtA=.sha256",
-        "name": "this thread"
-      },
-      {
-        "link": "#oasis"
-      }
-    ]
+    "vote": {
+      "link": "%tJ0VGR5Qe3DyXntlltacuBYey2wjrpsDiL7U5Q4FgR4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "KmMwaOxV8bs00J7IMRuXpeiYSDbQxQ61wMeAcyNKrWeQVWs/bT9RD6b1/sTv48E2/VVlMMZknl4pIiy1KEEVBQ==.sig.ed25519"
+  "signature": "KF8w9BC7Zjx2P02bs4yic63lUAasfrKCzxPqhQ5UAXzewH9eTM23dJmoRVc7VpMv+muSDGtRbMmfJ3gkL9x2Dw==.sig.ed25519"
 }
