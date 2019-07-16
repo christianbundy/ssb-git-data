@@ -1,17 +1,23 @@
 {
-  "previous": "%dDHzbZ0NMAFlnAqf2pCBz882n1iDJjFJe4qJJxcXYqg=.sha256",
-  "sequence": 11254,
+  "previous": "%zZLevc2ZwnC2v7j5853qhhqG08VFjuiDTI9BjJTEbjo=.sha256",
+  "sequence": 11255,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563217621403,
+  "timestamp": 1563291129317,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%FklemLHjj4hPDT65I89NLXOwIn/P3lWVN+Nqn15W2Us=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "https://en.wikipedia.org/wiki/Draft:Secure_Scuttlebutt\n\n#wikipedia  #help #somebody-should ",
+    "mentions": [
+      {
+        "link": "#wikipedia"
+      },
+      {
+        "link": "#help"
+      },
+      {
+        "link": "#somebody-should"
+      }
+    ]
   },
-  "signature": "5exiZpLP72GTtRMoXOR3enByGccIji4wjK4QhjmZzFqZgu1TZfvpznqleXtN7iSteNam7LXuXpZSNl7PdutgAw==.sig.ed25519"
+  "signature": "hMXw+frtNKxcMHKzjA3d0ByykUJFrH6vn/Jo7iUJQ48tgugPfTfVpByR5/sa+yErlX7DSZ8JRq9tZd7y8lS6DA==.sig.ed25519"
 }
