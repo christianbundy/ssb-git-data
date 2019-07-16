@@ -1,16 +1,26 @@
 {
-  "previous": "%LZvr3GOwTjDh5bhAafwfyE9hiVF/3JU5dgDw7Ypeje0=.sha256",
-  "sequence": 11259,
+  "previous": "%3J1ZwpclqYzS4e8O7+gmnqN0VasMLX4nmWWKyia8IUo=.sha256",
+  "sequence": 11260,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563294981393,
+  "timestamp": 1563300269890,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%qwK9zxu9KRHZmsHaI1NEnynQpQyzl0ZD1PNofPHaI/I=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%bhCEVMisjMS8qs+Cbl4+NTQbrU2+z4uSfxWk3o03/nI=.sha256",
+    "branch": "%SR5Use3ra84RXQY5qMLH2Cbwv/g2UX/OGe5jxBKT9wU=.sha256",
+    "reply": {
+      "%bhCEVMisjMS8qs+Cbl4+NTQbrU2+z4uSfxWk3o03/nI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%SR5Use3ra84RXQY5qMLH2Cbwv/g2UX/OGe5jxBKT9wU=.sha256": "@gslfzChyXwRD4A1iJ5a88gi0JmphVXyQeb77fXXj2mo=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Giarc](@gslfzChyXwRD4A1iJ5a88gi0JmphVXyQeb77fXXj2mo=.ed25519) \n\nThe PDF [here](https://ccronline.sigcomm.org/wp-content/uploads/2019/05/acmdl19-295.pdf) says:\n\n> This article is an editorial note submitted to CCR. It has NOT been peer reviewed.The authors take full responsibility for this article’s technical content. Comments can be posted through CCR Online.",
+    "mentions": [
+      {
+        "link": "@gslfzChyXwRD4A1iJ5a88gi0JmphVXyQeb77fXXj2mo=.ed25519",
+        "name": "Giarc"
+      }
+    ]
   },
-  "signature": "BJCL/R/BYgtg3bhunevRZFGlDHgS1nA+Qu57UjKgZ77y0R0A3QiMdNKB3mEgUD3SvSpHjQcbMrsX4mnblnzpCA==.sig.ed25519"
+  "signature": "PZcbyVGLMjKB0ERMd+TBGfpj+2VXWhadrde+7NwOi4eQjoQWLRdriDVyiTbYB00ip9nFyx8cgDNY9IiUt2jmCg==.sig.ed25519"
 }
