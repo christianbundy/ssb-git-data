@@ -1,23 +1,26 @@
 {
-  "previous": "%zZLevc2ZwnC2v7j5853qhhqG08VFjuiDTI9BjJTEbjo=.sha256",
-  "sequence": 11255,
+  "previous": "%bhCEVMisjMS8qs+Cbl4+NTQbrU2+z4uSfxWk3o03/nI=.sha256",
+  "sequence": 11256,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563291129317,
+  "timestamp": 1563291727665,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "https://en.wikipedia.org/wiki/Draft:Secure_Scuttlebutt\n\n#wikipedia  #help #somebody-should ",
+    "root": "%bhCEVMisjMS8qs+Cbl4+NTQbrU2+z4uSfxWk3o03/nI=.sha256",
+    "branch": "%Hf8wNmVYkOVZf+par6r3YtanYIaaui8ZCsLd731aQCU=.sha256",
+    "reply": {
+      "%bhCEVMisjMS8qs+Cbl4+NTQbrU2+z4uSfxWk3o03/nI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%Hf8wNmVYkOVZf+par6r3YtanYIaaui8ZCsLd731aQCU=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nOh. I hadn't seen that, I'm bummed that didn't come up when I checked for duplicates before starting the article. Thanks for the link.",
     "mentions": [
       {
-        "link": "#wikipedia"
-      },
-      {
-        "link": "#help"
-      },
-      {
-        "link": "#somebody-should"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ]
   },
-  "signature": "hMXw+frtNKxcMHKzjA3d0ByykUJFrH6vn/Jo7iUJQ48tgugPfTfVpByR5/sa+yErlX7DSZ8JRq9tZd7y8lS6DA==.sig.ed25519"
+  "signature": "rMWzj/ikICXnCkKnVV+stU4Snh/8SfRI0Ota78iWcipOCKM+IMr85nHubFbo0ebEaS1jh197jcwTPxU6KJxQAg==.sig.ed25519"
 }
