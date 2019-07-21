@@ -1,16 +1,25 @@
 {
-  "previous": "%rk7Pe3eU+bnalG7iaukHY4uygVDPCfVET+m5Yf4MnHo=.sha256",
-  "sequence": 11332,
+  "previous": "%l0qQIjYLu2rvZZWyxEWEp9BQb1OSFyQXAk9ZVbdXYyM=.sha256",
+  "sequence": 11333,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563731329946,
+  "timestamp": 1563731341580,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WKQEsnoWkfp+uk5rErpN/w1+6aR9bDQZwf1ERuiNqJM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%WKQEsnoWkfp+uk5rErpN/w1+6aR9bDQZwf1ERuiNqJM=.sha256",
+    "branch": "%WKQEsnoWkfp+uk5rErpN/w1+6aR9bDQZwf1ERuiNqJM=.sha256",
+    "reply": {
+      "%WKQEsnoWkfp+uk5rErpN/w1+6aR9bDQZwf1ERuiNqJM=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519) \n\nthis is infinitely cute",
+    "mentions": [
+      {
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "kathleen"
+      }
+    ]
   },
-  "signature": "Bh/FyKcd3buM3R60vJIPHBpIiM8UVsT5PkNKjmhuRHiH1j3f+fYjDwWmssL9OHAQ+2Tgs6c3W+pG9pACAeKkDQ==.sig.ed25519"
+  "signature": "k+Q3jru9bH3wX9vj3/avkv3eJM8iQGV7Xgk+vbCygPOZ8zIYgMGOOGVRayEx93EvH/+ArDouQGiNc8vW8cSGCg==.sig.ed25519"
 }
