@@ -1,13 +1,17 @@
 {
-  "previous": "%rb2UOcJpb+UkonTia7FN/eZp9hpbUMo3CLijpiknBc0=.sha256",
-  "sequence": 11318,
+  "previous": "%cO7TmpJqN/e6UM+bn53enI6A9qFH7Yhh20/RrATTN7E=.sha256",
+  "sequence": 11319,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563726559653,
+  "timestamp": 1563726608171,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@Rt0iBZOQqFpJFlktWQ6jeFyGgip1BnZRyKCY3pCzjGw=.ed25519",
-    "following": true
+    "type": "vote",
+    "channel": "crab-meet",
+    "vote": {
+      "link": "%P6zIxGEeJTQkphIDWgMnzAScAWUAukXKwVOqcTdgFcY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YQdZP1XoFYfD5zN7wKzkAMFngY8BBf9JWtIG8bkJA7dA9lTiJ+WkfP4VX2hCsSmXOxVtRFuHbhhordbqylrUDA==.sig.ed25519"
+  "signature": "8uEReaahGFuX/sg+5fT6HnaMc125xd/LWgcimiEmUw2+FujD61ZgXhi1nwPk8RR1uL91SQHuzknb0IyK4FTXCA==.sig.ed25519"
 }
