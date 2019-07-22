@@ -1,17 +1,30 @@
 {
-  "previous": "%yaFb0y4rq/2s5g4+qgHPCZm4TSk6BpvAWJXSgc9C5+0=.sha256",
-  "sequence": 11337,
+  "previous": "%0120VmMTcfQ+T07y/JVe3mWlWBE2hAjYZbJBD+ffdJo=.sha256",
+  "sequence": 11338,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563821166055,
+  "timestamp": 1563821294439,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dweb-camp",
-    "vote": {
-      "link": "%1C2Cm2kHZ5CeEQ9C+n6X2YD9O7Ptkh1v3GDFESZl8+A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256",
+    "fork": "%TY/EVt7IQWf+9yCbxlMBre+F5q7qvb9dAWajg0FRvW8=.sha256",
+    "branch": "%Jjg/0KsOApSmOitZPOyXadhpQnadKPs8VH4QYy8z7gE=.sha256",
+    "reply": {
+      "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256": "@YKkAhsu00WD75uYLEcGuciYBlYzfpshjdPpLh3hDNFw=.ed25519",
+      "%Jjg/0KsOApSmOitZPOyXadhpQnadKPs8VH4QYy8z7gE=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nWhich client are you using? It usually means that you don't have the post, maybe try going to `@x5eaU6fxF2wDcM7aJStiHtpK6J4bv+B9l8detL4xTMI=.ed25519` to download it? I don't think Patchwork has #ssb-ooo but I'm not sure.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      },
+      {
+        "link": "#ssb-ooo"
+      }
+    ]
   },
-  "signature": "swx1f2+VFlO1PMQRzfqJpKhxJzuHXvgaR/T+oYORglMmxUaNsOIZ6fpDlDznzleo+A183A3RnHRGNiayntSQCQ==.sig.ed25519"
+  "signature": "AKhdPigfHaZUCsHucXNS/zD22pJEFYRjlkxXFBhsWBee20IKhJugzWIrqPsWmwyQY/+dGSTbw30sKo+WBS/JDw==.sig.ed25519"
 }
