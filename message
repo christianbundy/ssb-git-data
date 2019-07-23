@@ -1,21 +1,27 @@
 {
-  "previous": "%tGbFZ5r8Lul1nsj4+Z9Fuw0JXncB5/IOBPYOaVFUBG0=.sha256",
-  "sequence": 11375,
+  "previous": "%yVbctkYy7xE0vtlU48K/u+AEacs6rQ4D3Wf7V97ZvIY=.sha256",
+  "sequence": 11376,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563834128701,
+  "timestamp": 1563843555630,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
-    "fork": "%+FhzR6IlcFfiSs70k7fTYq2IhVKyUNZgmamKHETLhwI=.sha256",
-    "branch": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
+    "root": "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256",
+    "fork": "%TY/EVt7IQWf+9yCbxlMBre+F5q7qvb9dAWajg0FRvW8=.sha256",
+    "branch": "%KNAWBSEfnB01mEe8hsM51zYuNYLTfpjD68gz4UII2oc=.sha256",
     "reply": {
-      "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+      "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256": "@YKkAhsu00WD75uYLEcGuciYBlYzfpshjdPpLh3hDNFw=.ed25519",
+      "%KNAWBSEfnB01mEe8hsM51zYuNYLTfpjD68gz4UII2oc=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "> several other people have also been pursuing the convergence of the P2P stacks, and they are not the only ones. (The others can call themselves out if they want.)\n\n👋",
-    "mentions": []
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nI don't think there's anything wrong with it, it's just not something that we're using yet. I'd love to merge a PR to add it and use `ooo.get()` when we encounter a missing thread. I think the only complexity is that we'd want to remove the \"cannot load thread\" message as soon as we get the message.\n\nI suppose it might also be confusing since ssb-ooo maintains its own flumelog, so other flumeviews wouldn't index the ooo content.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
   },
-  "signature": "r71xmZkbLi7op8+w/97x8Kg7khTi0ecjUmlQHpm2sr21uC5EM5zSPiZjqTTccdCRHOe1z1PFYC0GYYisFnYnCA==.sig.ed25519"
+  "signature": "Kuni/5AnMtY/3aBVPdiuTEdCN99ZCe4DfuJsqYGWbaRAWIexEK7h5xzR7qkrwyMxtz66ens9lYLBkk8ogoUMCw==.sig.ed25519"
 }
