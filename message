@@ -1,34 +1,22 @@
 {
-  "previous": "%Z32KaIgRMNMFihAO1YadR1VlWL+d3nfM2vmkpc4WNvg=.sha256",
-  "sequence": 11377,
+  "previous": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
+  "sequence": 11378,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563846613627,
+  "timestamp": 1563846742998,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
     "fork": "%+FhzR6IlcFfiSs70k7fTYq2IhVKyUNZgmamKHETLhwI=.sha256",
-    "branch": "%WJ0PNeANnhdwmJhXGMVUyxEKxjgTxxSMXZ3V1HC2Vfo=.sha256",
+    "branch": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
     "reply": {
       "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-      "%WJ0PNeANnhdwmJhXGMVUyxEKxjgTxxSMXZ3V1HC2Vfo=.sha256": "@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519"
+      "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@funwhilelost](@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519) \n\nMy perspective is that Scuttlebutt and Dat are doing a bunch of similar things: we use Ed25519 keys to sign the SHA256 hash of a JSON message and then add it to an append-only log to be replicated to peers interested in the content. Our reference implementations are written in JavaScript using the same underlying libraries (e.g. libsodium) by some of the same people (!) and it's not uncommon to find similar modules (e.g. [aligned-block-file](https://github.com/flumedb/aligned-block-file) vs [random-access-storage](https://github.com/random-access-storage/random-access-file)). \n\nOn the other hand, there are a few places we diverge:\n\n- **main application:** social network versus filesystem\n- **replication:** protobuf over TCP versus muxroc\n- **discovery:** DHT + DNS versus pub announcements and UDP\n- **database:** \n\nWe're both working on #same-as (or \"multi-writer\") and trying lots of the same experiments, and while we *are* sharing underlying libraries it feels like we're missing out on a lot of opportunities to share code (and trust!) between our communities. I've recently been experimenting with [using Dat to replicate my Scuttlebutt log](%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256), and I'm really interested in growing this intersection.\n\nMy intuition is that we'll both continue to experiment with different replication and discovery protocols, but my hope is that we can collaborate on shared needs and eventually publish the same content on both networks. We both need [social networks](https://unwalled.garden/) and [filesystems](https://github.com/cn-uofbasel/ssbdrv/), and  [chat](https://github.com/stripedpajamas/scat) [apps](https://cabal.chat/), and it seems to me that the same applications should run just fine on both networks. I'm happy to continue diverging on our replication / discovery experiments, but I'd really love to collaborate more in the intersections of shared needs.",
-    "mentions": [
-      {
-        "link": "@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519",
-        "name": "funwhilelost"
-      },
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
-        "name": "using Dat to replicate my Scuttlebutt log"
-      }
-    ]
+    "text": "> - ~~**database:**~~\n\n^",
+    "mentions": []
   },
-  "signature": "6Ta81gSksW3QQJIWHQfHqUOT8tg/5/NdCgU9ju1u5hUy3XbttTen7+RGpKVvGadvIKvmpA3gXrC8mVKiNIxPDA==.sig.ed25519"
+  "signature": "lwhOey/j6TxLEbPJeCaqbq4CS81+NWBofjMl/O0BQUNr19i3BRlkWkAjoJZEVq2R+BggIOX2UaxgLe1j8tkrAA==.sig.ed25519"
 }
