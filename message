@@ -1,15 +1,26 @@
 {
-  "previous": "%1AkQpaupH0uth+Fe8di4BKigQ9aYWXD6pU5mNC0ORdA=.sha256",
-  "sequence": 11398,
+  "previous": "%7tzGbQY6s3/3nHhDLjAd/7TJsS5TY1ujsQBiGJHmn9g=.sha256",
+  "sequence": 11399,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563899532425,
+  "timestamp": 1563899835127,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%qNLFDxAyZx20LYfhXmguTK0qmIK+lVUl7I03akc2Oqs=.sha256",
-    "attendee": {
-      "link": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    }
+    "type": "post",
+    "root": "%w99GUYDEsvSEpoAI3SP2+GSwnZKH1qI7Tukft6tHKw8=.sha256",
+    "branch": "%FK0Sw19Qb9rbp7jsfdNB7+IabAOPKI9jjbAkFVdPFmQ=.sha256",
+    "reply": {
+      "%w99GUYDEsvSEpoAI3SP2+GSwnZKH1qI7Tukft6tHKw8=.sha256": "@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519",
+      "%FK0Sw19Qb9rbp7jsfdNB7+IabAOPKI9jjbAkFVdPFmQ=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Paul d'Aoust](@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519) \n\nCheers! It was great to meet you as well, looking forward to keeping up with you and seeing where we can collaborate in the future.",
+    "mentions": [
+      {
+        "link": "@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519",
+        "name": "Paul d&#39;Aoust"
+      }
+    ]
   },
-  "signature": "r7VtctV9kk5nn7j9oM3yRP2DTgdy3sqSdQAx6Lk3EZoSy449Wrk9zayrsBl51Y+zl8fDFNdPa616H9s64WnbBw==.sig.ed25519"
+  "signature": "DLiOokRGtrqPd29ZHCkQeuk6TOwhd+nPti1c8td9tyPw3tbCAKXbPkzrctBsp2cAToIAwsx3KacTlc33Lar8DQ==.sig.ed25519"
 }
