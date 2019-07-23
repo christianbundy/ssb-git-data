@@ -1,26 +1,17 @@
 {
-  "previous": "%NvSyK3zSF0yWIcW/z5e8amM89tDUX7Qn7q9p3eTpA0k=.sha256",
-  "sequence": 11405,
+  "previous": "%cIaPrN9mirTUSIqVh5V3px9GX0OgR2rPXKDs9kYIe9s=.sha256",
+  "sequence": 11406,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563900460089,
+  "timestamp": 1563900718018,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/fib4DQmfgOxbGW4Ti+M8q1xsCKAQ6+ReKqCBPdhLmI=.sha256",
-    "branch": "%yFfTLu05QOkM9nKV+pcmVT3X0HHUlNx2jweYoU2i5+w=.sha256",
-    "reply": {
-      "%/fib4DQmfgOxbGW4Ti+M8q1xsCKAQ6+ReKqCBPdhLmI=.sha256": "@N0aRJ78hCNkcBEGGbwJuW0Rp3V6X02L6gPiwV1r3qzk=.ed25519",
-      "%yFfTLu05QOkM9nKV+pcmVT3X0HHUlNx2jweYoU2i5+w=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
-    },
-    "channel": "dweb-camp",
-    "recps": null,
-    "text": "[@kel](@/xp7YJKVmqucgzjHK5uJ3Af/Mq9UUXgYSY3WpIaUVRA=.ed25519) \n\nmessage received!",
-    "mentions": [
-      {
-        "link": "@/xp7YJKVmqucgzjHK5uJ3Af/Mq9UUXgYSY3WpIaUVRA=.ed25519",
-        "name": "kel"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%oSoDSvZY0Gq/8U4OKddrXw56qf0glc+LXLOUGhc8DNw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YqBSYUQl/djVADFvRTwPI6WgNxve6dop+ecQxajPoIV5gcoHu8eu0tiL4auaWW3FgH6TgpmfGBixfQfc4LQdBA==.sig.ed25519"
+  "signature": "hWDLzvwPkU2yMaEz3eutK4ACNMIkl3GChg6gDl9mIJ8Nf3VPfzyHDnrH6aY1jKA++LlSgkE34F1bG9vmUc50Ag==.sig.ed25519"
 }
