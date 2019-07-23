@@ -1,17 +1,27 @@
 {
-  "previous": "%uNjm44GIcf2VTpY+B6p3zs2fthU4/VEi4cIjIJmoP1s=.sha256",
-  "sequence": 11393,
+  "previous": "%PSiZ1perZTgp8jVNyVCBwwxI9TDGoFxzVEd1MjEG9Lw=.sha256",
+  "sequence": 11394,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563898981538,
+  "timestamp": 1563899227406,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%i3ffUI7a08NGSkEl79Rwrf57j3ZAVWibHG+NDmuEMI4=.sha256",
+    "fork": "%P/wrHMksrVoGgKkxLZkPuAxlv6oVLENM/jubb5JOh90=.sha256",
+    "branch": "%xOQM2URtN9fO+loiVFHd77iMX3P2U5dksM4OKOxKatc=.sha256",
+    "reply": {
+      "%i3ffUI7a08NGSkEl79Rwrf57j3ZAVWibHG+NDmuEMI4=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%xOQM2URtN9fO+loiVFHd77iMX3P2U5dksM4OKOxKatc=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": "new-people",
-    "vote": {
-      "link": "%i3ffUI7a08NGSkEl79Rwrf57j3ZAVWibHG+NDmuEMI4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThis explains everything. I ordered an espresso from the Midnight Espresso Bar and I was curious why they were calling it a \"short black\".",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "fU+F4GbgZ17Gb4hV6rC4rtRjTDgaGkDrJltzUJq5uzEygbkOoUADMPICZZSetV7n6bs4IufmJu6Uqbd4cQmhDQ==.sig.ed25519"
+  "signature": "QzUWEjY0+ld/IwOTfw/Oiw405NGDWqJ493I3XR9WDLUincRHmq/fg9tY4hWNg5SQAwyVGb3We/r4wJiRewLkBw==.sig.ed25519"
 }
