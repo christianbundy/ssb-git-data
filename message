@@ -1,26 +1,17 @@
 {
-  "previous": "%f+npBOCicIueWvMmbpIkUwx7H59MZ3jeCfdFpiE3aAI=.sha256",
-  "sequence": 11418,
+  "previous": "%t+miwMamBWXgRHnB6+h/q7aBq/trFWJf39HdtC5bY/4=.sha256",
+  "sequence": 11419,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563916995565,
+  "timestamp": 1563917043703,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256",
-    "branch": "%1lsmCdmuImGrBmrjKxtHe71dLszRuDye34B4FyRC01M=.sha256",
-    "reply": {
-      "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-      "%1lsmCdmuImGrBmrjKxtHe71dLszRuDye34B4FyRC01M=.sha256": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519"
-    },
-    "channel": "patchwork-help",
-    "recps": null,
-    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519) \n\nThis is currently managed by [ssb-gossip](https://github.com/ssbc/ssb-gossip#ssb-gossip), which has a readme that says the connections are chosen \"mostly randomly\".",
-    "mentions": [
-      {
-        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
-        "name": "beroal"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%2xgjPZM2jXQXuWnigMzuHCVqvaw30aPu79OIAHIput8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "NPOouyvXrMg7nObKPi2MzhsuMVvSJh/bs3VdR5UEvh2gW0pJzf+C0kvy6aQIgFfVp8LB3kl0YdobsQjfcMmxBA==.sig.ed25519"
+  "signature": "TH756q++6y4LB4gVkHBfSIQnLNI9FqQPqIWUBSh5cxgDZgKy0mYDLYhq8nr6ws2SAp2NHz8oJDu1QDCn29VCAw==.sig.ed25519"
 }
