@@ -1,17 +1,26 @@
 {
-  "previous": "%oXieAMp6KxI0+XVREzEvvIocU+PdUZ8rKrH7FqYQlmE=.sha256",
-  "sequence": 11417,
+  "previous": "%f+npBOCicIueWvMmbpIkUwx7H59MZ3jeCfdFpiE3aAI=.sha256",
+  "sequence": 11418,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563907968883,
+  "timestamp": 1563916995565,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "solarpunk",
-    "vote": {
-      "link": "%5dUE74SumzDL0Wv2Jkjgj5Z6mx31QDyx5nAJ6vGNukI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256",
+    "branch": "%1lsmCdmuImGrBmrjKxtHe71dLszRuDye34B4FyRC01M=.sha256",
+    "reply": {
+      "%j4TR0s6TyfyGIaIsA3OdkWFtg2Mb/bQLwju7IvSM31A=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%1lsmCdmuImGrBmrjKxtHe71dLszRuDye34B4FyRC01M=.sha256": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519"
+    },
+    "channel": "patchwork-help",
+    "recps": null,
+    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519) \n\nThis is currently managed by [ssb-gossip](https://github.com/ssbc/ssb-gossip#ssb-gossip), which has a readme that says the connections are chosen \"mostly randomly\".",
+    "mentions": [
+      {
+        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
+        "name": "beroal"
+      }
+    ]
   },
-  "signature": "G/j7WgsotOMiL9MlAnQJmfHPnwlgryUxMcmVTIIqUP892l+8UQVhUIRNAT6LJHwXjpHPX+gEQhxJ6Brnueq7AQ==.sig.ed25519"
+  "signature": "NPOouyvXrMg7nObKPi2MzhsuMVvSJh/bs3VdR5UEvh2gW0pJzf+C0kvy6aQIgFfVp8LB3kl0YdobsQjfcMmxBA==.sig.ed25519"
 }
