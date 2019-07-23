@@ -1,27 +1,34 @@
 {
-  "previous": "%yVbctkYy7xE0vtlU48K/u+AEacs6rQ4D3Wf7V97ZvIY=.sha256",
-  "sequence": 11376,
+  "previous": "%Z32KaIgRMNMFihAO1YadR1VlWL+d3nfM2vmkpc4WNvg=.sha256",
+  "sequence": 11377,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563843555630,
+  "timestamp": 1563846613627,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256",
-    "fork": "%TY/EVt7IQWf+9yCbxlMBre+F5q7qvb9dAWajg0FRvW8=.sha256",
-    "branch": "%KNAWBSEfnB01mEe8hsM51zYuNYLTfpjD68gz4UII2oc=.sha256",
+    "root": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
+    "fork": "%+FhzR6IlcFfiSs70k7fTYq2IhVKyUNZgmamKHETLhwI=.sha256",
+    "branch": "%WJ0PNeANnhdwmJhXGMVUyxEKxjgTxxSMXZ3V1HC2Vfo=.sha256",
     "reply": {
-      "%7LP70oukixGvLO8E8DN+3OGdOgFzzmMlkd0BHeeQeoU=.sha256": "@YKkAhsu00WD75uYLEcGuciYBlYzfpshjdPpLh3hDNFw=.ed25519",
-      "%KNAWBSEfnB01mEe8hsM51zYuNYLTfpjD68gz4UII2oc=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+      "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%WJ0PNeANnhdwmJhXGMVUyxEKxjgTxxSMXZ3V1HC2Vfo=.sha256": "@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nI don't think there's anything wrong with it, it's just not something that we're using yet. I'd love to merge a PR to add it and use `ooo.get()` when we encounter a missing thread. I think the only complexity is that we'd want to remove the \"cannot load thread\" message as soon as we get the message.\n\nI suppose it might also be confusing since ssb-ooo maintains its own flumelog, so other flumeviews wouldn't index the ooo content.",
+    "text": "[@funwhilelost](@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519) \n\nMy perspective is that Scuttlebutt and Dat are doing a bunch of similar things: we use Ed25519 keys to sign the SHA256 hash of a JSON message and then add it to an append-only log to be replicated to peers interested in the content. Our reference implementations are written in JavaScript using the same underlying libraries (e.g. libsodium) by some of the same people (!) and it's not uncommon to find similar modules (e.g. [aligned-block-file](https://github.com/flumedb/aligned-block-file) vs [random-access-storage](https://github.com/random-access-storage/random-access-file)). \n\nOn the other hand, there are a few places we diverge:\n\n- **main application:** social network versus filesystem\n- **replication:** protobuf over TCP versus muxroc\n- **discovery:** DHT + DNS versus pub announcements and UDP\n- **database:** \n\nWe're both working on #same-as (or \"multi-writer\") and trying lots of the same experiments, and while we *are* sharing underlying libraries it feels like we're missing out on a lot of opportunities to share code (and trust!) between our communities. I've recently been experimenting with [using Dat to replicate my Scuttlebutt log](%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256), and I'm really interested in growing this intersection.\n\nMy intuition is that we'll both continue to experiment with different replication and discovery protocols, but my hope is that we can collaborate on shared needs and eventually publish the same content on both networks. We both need [social networks](https://unwalled.garden/) and [filesystems](https://github.com/cn-uofbasel/ssbdrv/), and  [chat](https://github.com/stripedpajamas/scat) [apps](https://cabal.chat/), and it seems to me that the same applications should run just fine on both networks. I'm happy to continue diverging on our replication / discovery experiments, but I'd really love to collaborate more in the intersections of shared needs.",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
+        "link": "@etENdjc9Qg0hS56E5XkLhf58DYsqK18kit8Sp0qTT/8=.ed25519",
+        "name": "funwhilelost"
+      },
+      {
+        "link": "#same-as"
+      },
+      {
+        "link": "%PWLnDqu8DnmtN04COlkM7937xiP4fqEMS0hDEUqSlhs=.sha256",
+        "name": "using Dat to replicate my Scuttlebutt log"
       }
     ]
   },
-  "signature": "Kuni/5AnMtY/3aBVPdiuTEdCN99ZCe4DfuJsqYGWbaRAWIexEK7h5xzR7qkrwyMxtz66ens9lYLBkk8ogoUMCw==.sig.ed25519"
+  "signature": "6Ta81gSksW3QQJIWHQfHqUOT8tg/5/NdCgU9ju1u5hUy3XbttTen7+RGpKVvGadvIKvmpA3gXrC8mVKiNIxPDA==.sig.ed25519"
 }
