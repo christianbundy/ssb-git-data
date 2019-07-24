@@ -1,21 +1,21 @@
 {
-  "previous": "%ep6x0hswe1GbDkyWtVjMOOfdJjQu7Esjtl/eicPNQ1E=.sha256",
-  "sequence": 11442,
+  "previous": "%CB3RDAPCN232r4UbuwIlPdzHi0EFb+rQI8hka9Hmtbg=.sha256",
+  "sequence": 11443,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563986855063,
+  "timestamp": 1563988515816,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%OfvrX85Ok3f5L9R/Sj857ddJtC0e60a2BTOoGsCBzIs=.sha256",
-    "branch": "%sU+7Ky3WRxGM1H0x5DIg8mOP1kW0tcAD+RgbYGmlZCY=.sha256",
+    "root": "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256",
+    "branch": "%uW5OBFdqUyx9lZ20EFTH7BsTsm9NYcduldeMjVwpFSo=.sha256",
     "reply": {
-      "%OfvrX85Ok3f5L9R/Sj857ddJtC0e60a2BTOoGsCBzIs=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-      "%sU+7Ky3WRxGM1H0x5DIg8mOP1kW0tcAD+RgbYGmlZCY=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+      "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
+      "%uW5OBFdqUyx9lZ20EFTH7BsTsm9NYcduldeMjVwpFSo=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Could you post the relevant bits of the rest of the debug log? It sounds like it's trying to parse JSON (maybe `package.json`?) and hitting something invalid. It might also be helpful to post the output of `npm version`, here's mine:\n\n```javascript\n{ npm: '6.10.1',\n  ares: '1.15.0',\n  brotli: '1.0.7',\n  cldr: '35.1',\n  http_parser: '2.9.2',\n  icu: '64.2',\n  modules: '64',\n  napi: '4',\n  nghttp2: '1.36.0',\n  node: '10.16.0',\n  openssl: '1.1.1b',\n  tz: '2019a',\n  unicode: '12.1',\n  uv: '1.30.1',\n  v8: '6.8.275.32-node.52',\n  zlib: '1.2.11' }\n```",
+    "text": "> This allowed me to retrieve posts but that pub would not share my own posts (is this correct?). \n\nYep!\n\n> not just because I was too far out of their network but because my post wasn’t getting shared\n\nI think these are the same things. Pub invites are just a hacky way to give new users some social centrality, but you don't need them if you're already followed by someone else. Using a pub invite makes you visible to people who follow the pub, but it's much better to get a follow from a non-pub since many of us avoid pubs like the plague.",
     "mentions": []
   },
-  "signature": "mCzW8OVuwMt7ax6Fqlt63C4k/TfcM4rGw7XtTrAS/xNvPgd5T0THK4bFgdUy+kfRbplrHISquE0qBFHKiWFnAA==.sig.ed25519"
+  "signature": "P9Jt2pwetn+Z4DhSAwK0VGZ0gOs/xrHTYzevcCg6ZnKW2dQdQ8w35g4Zh5TUKbKuVcDJDTwQZLDaicYZGIB5BA==.sig.ed25519"
 }
