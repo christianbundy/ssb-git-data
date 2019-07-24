@@ -1,15 +1,30 @@
 {
-  "previous": "%F1kX2jnDYyi1Dw8D/OLKBQ3BbuqLyX+qzxNnvbWDNj4=.sha256",
-  "sequence": 11453,
+  "previous": "%JpHRm49jrEl8sPuJ9AlBq2ZHI2uL0bMB0jMbAOyP0/M=.sha256",
+  "sequence": 11454,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564001739474,
+  "timestamp": 1564004344089,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Gys2zi9OStdfpygr5tP7DacZ1ZRRwhjxN0TRPRg+XMI=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256",
+    "branch": "%Jg/QgQrvzpjwc22z5iQESm7LR8qgHC3r0kWTo9hFu+o=.sha256",
+    "reply": {
+      "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
+      "%Jg/QgQrvzpjwc22z5iQESm7LR8qgHC3r0kWTo9hFu+o=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Trav](@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519)\n\n> if I follow a pub but it doesn’t follow me, but someone the pub follows follows me, they will still get my posts via the pub\n\nYep! If you're within the pub's range (usually 3 hops) then the pub will host your content, so anyone who connects to the pub will be able to download your content if they follow you (or if you're within their hops). I really like the image [here](https://ssbc.github.io/scuttlebutt-protocol-guide/#follow-graph).\n\n> And the friend wouldn’t need to follow the same pub necessarily since pubs often share posts with eachother, yeah? \n\nRight, depending on the number of hops. If your friend is using 3 hops (the ssb-server default) then your friend could connect to you with two pubs in between. If they're using 2 hops (I think this is the Patchwork default) then you have to be connected over the same pub.\n\n> why is that? Is it the romantic ideal of a purely peer-to-peer un-reliant-on-the-internet network?\n\nRight now pubs serve two purposes, they'reboth:\n\n- **peers with public IP addresses that anyone can connect to:** This is great! Very few of us actually have public IP addresses, especially a static IP, so it's really nice to be able to connect to peers over the internet.\n- **peers that will follow literally anybody and give out invites to strangers:** This is bittersweet! On one hand, it's good that we have *some* way to invite strangers into the network, but on the other hand it creates these pubs that follow complete strangers and create [the rando problem](%OkgDsogCxesWEWn77Znu2alWlqNTpZVgRI4AWxcckBc=.sha256). I like that SSB is aware of our actual trust / social graph IRL and I think that following an account that follows *literally anyone* really breaks this.\n\nMy hope is that in the future we'll have:\n\n- more people with public IP addresses, through a VPS / Tor / cjdns / yggdrasil (sp?) / etc\n- more ways to invite strangers without corrupting the integrity of the social graph, through rooms / pub factories / peer invites / etc\n\nSuper happy to chat more about this if you'd like! ",
+    "mentions": [
+      {
+        "link": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
+        "name": "Trav"
+      },
+      {
+        "link": "%OkgDsogCxesWEWn77Znu2alWlqNTpZVgRI4AWxcckBc=.sha256",
+        "name": "the rando problem"
+      }
+    ]
   },
-  "signature": "ILnN0mC9XsHvaOairnFu5utDlBnps+qSicmXOLnrgbwPG/fP2hn3J70+LpMzHO8TwysypBsT2IfoDNbPkAhZCA==.sig.ed25519"
+  "signature": "l5FzilIjBzMUOrlFr1X8+l/N5hQ3tZWF49khLqETnPKjxw32IO5lVoceTWkSD6zEn5tpQ9g7qE/l3F2CLdtqAA==.sig.ed25519"
 }
