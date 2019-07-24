@@ -1,16 +1,25 @@
 {
-  "previous": "%LlLS0JvRYyBdSuh5Hw9wkf5DyUajTE6GIaWtIu/Vhn8=.sha256",
-  "sequence": 11437,
+  "previous": "%vPBuHOUlkgcgTJlQhwH6iR7DAoYk746M5pIcqze82pw=.sha256",
+  "sequence": 11438,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563983109714,
+  "timestamp": 1563985734371,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AjHzzECLyvOLJLXsINBznJA650QxSAKF0FSC247ykHM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%OfvrX85Ok3f5L9R/Sj857ddJtC0e60a2BTOoGsCBzIs=.sha256",
+    "branch": "%OfvrX85Ok3f5L9R/Sj857ddJtC0e60a2BTOoGsCBzIs=.sha256",
+    "reply": {
+      "%OfvrX85Ok3f5L9R/Sj857ddJtC0e60a2BTOoGsCBzIs=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nLooks like it's working for me, what are you running into?",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "13kYlWccmn3SYUT5zPgDbQja3TpPyq4vuMRl3aSoKf3Zar7xH1Di0xYYdvmkfi5C+Fi54vaDQlHJ1/BemxQOBA==.sig.ed25519"
+  "signature": "AeCYtjmXlqDBnJud2wGXpzn7pf9ZCQTynqorrbaJVjLB46wAxEcn6De2iMKH3hGjdS8chna9oZJjQ+Rgq7jpCg==.sig.ed25519"
 }
