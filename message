@@ -1,16 +1,24 @@
 {
-  "previous": "%rTMYHoBqyR9gwIQZbknNhmHf3WpJWGA2seSLsuxrF7I=.sha256",
-  "sequence": 11449,
+  "previous": "%wTO0emkS/BWWjMmx/eyEuUBFy1KOhWtwHrw8ovHtia4=.sha256",
+  "sequence": 11450,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1563996999062,
+  "timestamp": 1563999303018,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kTQzAxrb3K5Yk9TwhdFCm262gg6mfzicXQV/NIh8Ccw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%s+ayg2ZJxJilWp8t8yh1gb+1moDqVOHGQhOVI8PmZ94=.sha256",
+    "branch": [
+      "%aq6XMMYAg2w8bbwkzdeUlARMR2gqCVMyeDYE5CWHWSw=.sha256",
+      "%vWyscMLzN9m+tw1gnNz99J9Or44UVHa4YXTAlqJb064=.sha256"
+    ],
+    "reply": {
+      "%s+ayg2ZJxJilWp8t8yh1gb+1moDqVOHGQhOVI8PmZ94=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%aq6XMMYAg2w8bbwkzdeUlARMR2gqCVMyeDYE5CWHWSw=.sha256": "@JifG9OFC1cUWHCI+126iOZeqevvgF5nwrNiNXcHohYM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I was hanging in the Mumble chat for a few minutes before I realized that I'm a week early for this...\n\n**REMINDER:** T-1 week!",
+    "mentions": []
   },
-  "signature": "OZp+vkK2Vj8gwfEbdu+ryC9mU+BApQJreJi9jfyPVQAjRuzuIhXCmi+7ZORvDicG2icbnPUZ7G3bkrq/AeHlAg==.sig.ed25519"
+  "signature": "wgHOhhAlxAPozeEMTAljK+2UPZvqkLA4VxhHST0OLSr09WZSd/x9jGI+hVDL8nsxZ+ApSPtvr9tIJoMnlJsYDA==.sig.ed25519"
 }
