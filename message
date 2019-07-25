@@ -1,35 +1,17 @@
 {
-  "previous": "%X5iLq80AMGWvtgLdouKZGsvZoy1rXs4PktdmYKwW344=.sha256",
-  "sequence": 11458,
+  "previous": "%XfaRskCXgJGwmLKAudaeIOXAVV2De6q3ycowFjfkNv8=.sha256",
+  "sequence": 11459,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564015463820,
+  "timestamp": 1564015540641,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "#ssb-learning \n\nDoes #ssb-invite have any conception of #ssb-identities? I'd like to run a server that:\n\n- creates an identity\n- creates an invite\n- is able to redeem the invite\n\nIs this possible today? Or would it require some hacking? If it's going to take some work, I'd love some thoughts on how to start tackling this. Not sure how much bandwidth I'll have but I'd like to solve it if possible.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) ",
-    "mentions": [
-      {
-        "link": "#ssb-learning"
-      },
-      {
-        "link": "#ssb-invite"
-      },
-      {
-        "link": "#ssb-identities"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%gOIggVyWQzYsTU20+7LREqs3p+0hfpiUrcrcGZYP1Vg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "MiyI26RtGowS3bIjE71BPr47n/ln6fnO/pvyBuHZzi9o6oEHaDKFUSO7kVVtOafc93XnYwjwzHDr9+PBYzlPCg==.sig.ed25519"
+  "signature": "dAC67ezkihHUM8jvzOE++iXsVdNRjFmVgas8p4Vf1pz+v1B3Df1f5OuBMGRplRvlUtJfqyk9OuI4emB6sM/BDA==.sig.ed25519"
 }
