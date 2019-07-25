@@ -1,16 +1,33 @@
 {
-  "previous": "%/P1OItIg8xrifA4oo5taEe+7aldEleVH815T7I5Hnvw=.sha256",
-  "sequence": 11455,
+  "previous": "%afM61Icn33b7fmuUjT0Apl0Gn+DIYi12eaCfWf15NQ8=.sha256",
+  "sequence": 11456,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564014242819,
+  "timestamp": 1564014954364,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nux8HqFvjluZ2E4RUGGRPLvsYop/N6RV8VV46su9sw8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%nux8HqFvjluZ2E4RUGGRPLvsYop/N6RV8VV46su9sw8=.sha256",
+    "branch": "%2qGfrFzdrO5Tum5kli+vhAs1ok/AGlYw5CoUb/Qzd4s=.sha256",
+    "reply": {
+      "%nux8HqFvjluZ2E4RUGGRPLvsYop/N6RV8VV46su9sw8=.sha256": "@7TWBRhI7LSeJb5ZEBkExkTrEmOmZVGA7X2PSzbU3hDQ=.ed25519",
+      "%2qGfrFzdrO5Tum5kli+vhAs1ok/AGlYw5CoUb/Qzd4s=.sha256": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@generativist](@7TWBRhI7LSeJb5ZEBkExkTrEmOmZVGA7X2PSzbU3hDQ=.ed25519) \n\nI'm a bit torn on this [and this](%7sjxAgGSTvAYtTGdImmjpvj66Wk/Da6RN8t1F5zT98M=.sha256). I'm sort of bummed that clients like Patchwork have a chronological feed, bumping threads to the top whenever they have a comment. It's nice because we end up clustering around a few threads that are on the top of all of our feeds, but it also makes me feel like I'm making an announcement rather than just talking to my friends.\n\nMy intuition is that this is mostly an interface problem, since I don't have that experience with #oasis (which doesn't bump entire threads), but private groups might solve the problem as well.",
+    "mentions": [
+      {
+        "link": "@7TWBRhI7LSeJb5ZEBkExkTrEmOmZVGA7X2PSzbU3hDQ=.ed25519",
+        "name": "generativist"
+      },
+      {
+        "link": "%7sjxAgGSTvAYtTGdImmjpvj66Wk/Da6RN8t1F5zT98M=.sha256",
+        "name": "and this"
+      },
+      {
+        "link": "#oasis"
+      }
+    ]
   },
-  "signature": "TjkZAayn7DShu9/w7K197KmooEpmE2RpUJ3E/mlXU+CCo6W5dC/3+yLkUqu19aCfRe4EOfaKVOMO4YFjcUkJCA==.sig.ed25519"
+  "signature": "P2WSCMv3nq8LFtmD57ZEU8fKZaM4+cFaFV6MmlVpJEvy2pTD2EUBcHv0lGJ6vCCJwRcudaRfiB+3bDi42EZHBQ==.sig.ed25519"
 }
