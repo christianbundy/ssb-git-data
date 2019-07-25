@@ -1,28 +1,35 @@
 {
-  "previous": "%ckaeIY2I4do+mPqfKnfMW1F/28dzFffhw0AhRT/PWUk=.sha256",
-  "sequence": 11457,
+  "previous": "%X5iLq80AMGWvtgLdouKZGsvZoy1rXs4PktdmYKwW344=.sha256",
+  "sequence": 11458,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564015276136,
+  "timestamp": 1564015463820,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%ehbNlhbNRUrO7bXkTfT5Pfgd7f9NuyE1hwQrf3OKE4Y=.sha256",
-    "branch": "%ehbNlhbNRUrO7bXkTfT5Pfgd7f9NuyE1hwQrf3OKE4Y=.sha256",
-    "reply": {
-      "%ehbNlhbNRUrO7bXkTfT5Pfgd7f9NuyE1hwQrf3OKE4Y=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)\n\nI'm happy to see Gab getting smacked down whenever possible. :wave: Hilariously I actually made an account when it was first created because I was researching Twitter alternatives, but within five minutes I saw that it was a right-wing propaganda machine so I [obviously] left. I wonder how many unknowing decentralists have been seduced by gab / voat / etc when looking for alternatives to conventional social media.\n\n> like the point of #mastodon isn’t that if you don’t like the rules of a server, pack up your posts and move\n\nCan you bring your followers with you? I know you can pin a post to your old profile saying \"I'm moving, please follow @me@whatever.social\" but it seems like there's still a large social cost to switching instances. I'd be super curious to hear whether this is a problem being worked on or just a pain point I've experienced.\n\n  ",
+    "text": "#ssb-learning \n\nDoes #ssb-invite have any conception of #ssb-identities? I'd like to run a server that:\n\n- creates an identity\n- creates an invite\n- is able to redeem the invite\n\nIs this possible today? Or would it require some hacking? If it's going to take some work, I'd love some thoughts on how to start tackling this. Not sure how much bandwidth I'll have but I'd like to solve it if possible.\n\ncc: [@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) ",
     "mentions": [
       {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
+        "link": "#ssb-learning"
       },
       {
-        "link": "#mastodon"
+        "link": "#ssb-invite"
+      },
+      {
+        "link": "#ssb-identities"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
       }
     ]
   },
-  "signature": "u7iwMJhFusQyqkmDvmMBRbhYEf1Md5v7D1P5Swlt+RKwdJzx1Gyx36F9CSXO6HJAHI9ZwRjIWGcysTO5QWBqDw==.sig.ed25519"
+  "signature": "MiyI26RtGowS3bIjE71BPr47n/ln6fnO/pvyBuHZzi9o6oEHaDKFUSO7kVVtOafc93XnYwjwzHDr9+PBYzlPCg==.sig.ed25519"
 }
