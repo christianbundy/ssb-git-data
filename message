@@ -1,30 +1,21 @@
 {
-  "previous": "%wu49aoNsmbrV4dGd1XPcEzNLZ16FY4JzC8nlz6WRztU=.sha256",
-  "sequence": 11462,
+  "previous": "%htzezpmIK2vZwYq4Qb65PVF0qz1cBRG2i/tcudVp74c=.sha256",
+  "sequence": 11463,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564020641627,
+  "timestamp": 1564024422404,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%wqSr67eznU6uTGjpWJQCcZIXRYmAD7amJexpS4ddIp8=.sha256",
-    "branch": "%mnVneuj+/RqFiltYUabWs19nIv8enoRpXzJ4x1p8zJ0=.sha256",
+    "root": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
+    "fork": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
+    "branch": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
     "reply": {
-      "%wqSr67eznU6uTGjpWJQCcZIXRYmAD7amJexpS4ddIp8=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-      "%mnVneuj+/RqFiltYUabWs19nIv8enoRpXzJ4x1p8zJ0=.sha256": "@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519"
+      "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "- **Tell us something unexpected that was awesome!** Butts everywhere. I couldn't find a room that didn't already have Scuttlebutt folks which made for a really friendly and fun environment where there was always a friend around. \n- **Did you drink tea? What was the flavour?** Does coffee count? I had black coffee and I tried some coffee on nitro (which was frothy because it's full of nitrogen) and I found out that I strongly prefer black coffee.\n- **Are you new to SSB, how do you find it so far?** 🙃\n- **Did you discover some new project there that excited you? Tell us more!** I'm much more interested and curious about Dat and LibreMesh and much *less* interested and curious about \"decentralized identity at Microsoft\".\n- **Did you meet someone for the first time that you’d wanted to meet?** So many scuttle-friends! I'd like to tag a bunch of people but I'm afraid I'll accidentally leave someone out.\n- **What made you laugh?** I don't remember anything specific, but I remember lots of hearty laughing throughout the weekend. Also: a disproportionate number of laughs were [@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519)-induced, he's funny as hell.\n- **How were the chilly summer evenings on the tents?** They weren't too bad, but I was taking advantage of sleeping pad and a 30 degree (F) sleeping bag. There were a couple times where I woke up chilly, but that only happened when I didn't zip up my bag all the way.\n- **Was it your first time camping? Did you like it?** It wasn't my first time camping, but I loved it. On the other hand, it *was* the first time using a handful of features on my tent that [@jordan](@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519) pointed out. The downside of \"DIY all the things\" is that you rarely learn The Right Way to do things, so I definitely learned a few best practices when using my tent.",
-    "mentions": [
-      {
-        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
-        "name": "sean"
-      },
-      {
-        "link": "@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519",
-        "name": "jordan"
-      }
-    ]
+    "text": "I've been thinking about this a lot since I posted it. I think my main point is that I'm curious about looking at Dat and Scuttlebutt as **append-only log providers** rather than full-stack development environments coupled with database systems and message schemas. I'm imagining something like [leveldown stores](https://github.com/Level/awesome#stores), which let you use the same [levelup API](https://github.com/Level/levelup) regardless of which provider you use.\n\nApplications like Patchwork and Beaker don't need to know whether they're running on Scuttlebutt or Dat, and if we could agree on some simple levelup-like API for our append-only logs then everything we build on top of that (storage, replication, queries, interfaces, etc) could be portable between our implementations.\n\nI should probably be clear that I don't think Patchwork or Beaker *should* do this, I'm only using the application names as examples because they're well-known and make my point more concrete. To be even more concrete, I'm imagining:\n\n```javascript\nconst foo = require('bar')\n  .use(require('dat'))\n  .use(require('ssb-server'))\n  .use(require('social'))\n\nconst alice = foo.open('alice')\nconst bob = foo.open('bob')\n\nconst identifier = alice.append({ type: 'test' })\n\nbob.social.follow(alice)\nbob.get(identifier) // => { actor: 'alice', object: { type: 'test' } }\n```\n\nIn this system the replication could either be handled above or below *foo*, depending on whether the replication was specific to some underlying provider (like ssb-ebt). In the beginning I'm sure we'd just use the built-in systems, manipulating them with `alice.ssb.gossip.reconnect()` and such, but on a long enough timeline I could see these sorts of improvements working for *all* append-only logs rather than being coupled to a specific implementation.\n\nOr maybe I'm being overly optimistic about collaboration and *code as commons*. 🤷",
+    "mentions": []
   },
-  "signature": "hOpsCxHpvPq3d9NRH5C5KN/vhwS+629W3HGqP2oL77QrVg+rWvYcm9u9fpohsfobpeguTciST8oQO4xRmvDdAA==.sig.ed25519"
+  "signature": "AZyFsV6K4bJEjwc0+3zauGSuMAhgXqxHanf3VSXTKWA/a/lXcuFbhnBjQq1AnunYKWepF9le40XV09VqFmrXAA==.sig.ed25519"
 }
