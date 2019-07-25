@@ -1,17 +1,31 @@
 {
-  "previous": "%015j6sfXtOsnJGmFDkUQLKmErms0/l8KQx0Im+jQ66Q=.sha256",
-  "sequence": 11489,
+  "previous": "%ZAmdg9KY93leWH381nJo+6oHo+Bbt3mnjKBwQfeK/NE=.sha256",
+  "sequence": 11490,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564078418461,
+  "timestamp": 1564078496174,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%XClrf3Qa7wHYgBfQ5/uxsK9JUAb7GjLvmk7a94vURnk=.sha256",
+    "fork": "%FZbAiagFvXo02VFDT+Xjxa6QJGD8uuzteoPIflsfT9k=.sha256",
+    "branch": [
+      "%CaFo6R8DERSrujQUVZSIJWeCtFYWS1Xx/zm6I6cDnUw=.sha256",
+      "%eqyopEx6AZFGmAXTWD3oOHqFIKEA1GKYblIX+GTWNEU=.sha256",
+      "%qzSugAkRAsifvoCPKwQxLVme+iN9LSjCVt6ifWJ5+aY=.sha256"
+    ],
+    "reply": {
+      "%XClrf3Qa7wHYgBfQ5/uxsK9JUAb7GjLvmk7a94vURnk=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+      "%CaFo6R8DERSrujQUVZSIJWeCtFYWS1Xx/zm6I6cDnUw=.sha256": "@dfCIY3rP5idQFdjuOHrBJqrv6EgsSiNyn1NKz87UTJw=.ed25519"
+    },
     "channel": "non-dev-resources",
-    "vote": {
-      "link": "%VwDk83aP00Hvdxbean4VpBmBODyaSNds7wRJGJ1FdTw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nI love this and I'd love to read more. Thanks for sharing this here. 🌱",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "uga3ocCxM5xZS3E5JPrMMEB2O78q4Viit/7QkcfJC/c2thGs9cAwwFHr5c22rrIZf4Wvxg+n3bPMHS3HbkYsCQ==.sig.ed25519"
+  "signature": "nVDBxei4RnfzlwmK6cXfK35j/MMWg4iKiD+2fjB2tWmvVnk6Nea8X6G6tvVclH0Ypr8x6inJDP/r3Fwzc8BMBw==.sig.ed25519"
 }
