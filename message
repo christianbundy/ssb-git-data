@@ -1,17 +1,46 @@
 {
-  "previous": "%1zwAT+JDcKGr7K2elqGrcDCHqJugueRw6O+v8OMqHrw=.sha256",
-  "sequence": 11479,
+  "previous": "%9JEnUGINEYKada7dGdY4Jz9cLNx1fR95Z3dSHmU+h38=.sha256",
+  "sequence": 11480,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564074422039,
+  "timestamp": 1564076778690,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%/SA1nh9WLfRAlf5fm8Fu65TZJQczY5G4etVlbWLA8YU=.sha256",
+    "branch": "%nTB8sYd98bSIlHGxi3IHvslvQUzD5gfZ5Wcz+JBLtUE=.sha256",
+    "reply": {
+      "%/SA1nh9WLfRAlf5fm8Fu65TZJQczY5G4etVlbWLA8YU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%nTB8sYd98bSIlHGxi3IHvslvQUzD5gfZ5Wcz+JBLtUE=.sha256": "@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%O7/tnr1Wr9H33Y5XHy3/0K/1UkOrjkiRmNHEsgT59UQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Paul d'Aoust](@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519) \n\nI think I'm really just looking for a game plan, which should probably be specific about the things I'm working on (SSB) but have at least *some* mention of how that works with other efforts. For example, sometimes it feels like our naive theory of change is:\n\n- Some people will invite their friends to try X\n- Some people will spend their time improving X\n- X usage and quality will improve exponentially\n- Eventually everyone will use X and the incumbents will wither and die\n\nThe feedback loops of usage and quality are good, but the incumbents usually have network effect, economies of scale, economies of density, and all sorts of other feedback loops that keep X from [going critical](https://www.meltingasphalt.com/interactive/going-critical/). It seems to me that we'll need to take advantage of our own feedback loops and build intersections with other friendly movements that have a similar vision of the future. I'm inspired by people like [@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519) and [@Laniyuk](@9aHOVuS5Y8/BOQRnQeuvqcycgKwrW7SXQEzPsV6pI10=.ed25519) who stress the importance of food sovereignty and decolonization and I feel an urge to find other people and movements that we should be collaborating with.\n\nIs [the future rural](%U+0HjUvUqnwCP0fZUkLCvUJ1A71tDjfccjMcOy+77uA=.sha256)? Or should we be taking advantage of [economies of agglomeration](https://en.wikipedia.org/wiki/Economies_of_agglomeration) and building community in urban areas? Or maybe low-income housing and [permanent real estate cooperatives](%lgftbuPZdNHWJCj63uooip6POXd1F6TIGF+ergZrjMM=.sha256) should be hosting [mesh networks](%58mjfMWTOxQPVetREVeBrO1Lhmjazhrtmv40SosUyE4=.sha256) and SSB pubs? It's unclear to me which direction we're all pushing and it seems like *maybe* we'd be able to push this boulder a bit faster if we could sync up on which direction we're going.\n\nI think the core of this thread is that we have tons of potential energy and I'd like to use that to accelerate change, but it'd be useful to compare maps and think about other people and movements that we should be sharing our journey with.",
+    "mentions": [
+      {
+        "link": "@OiW3wL03TKZfZGxh3Oa/IZ2PnlzgnGSukwsJ1E9GJgM=.ed25519",
+        "name": "Paul d&#39;Aoust"
+      },
+      {
+        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
+        "name": "mary"
+      },
+      {
+        "link": "@9aHOVuS5Y8/BOQRnQeuvqcycgKwrW7SXQEzPsV6pI10=.ed25519",
+        "name": "Laniyuk"
+      },
+      {
+        "link": "%U+0HjUvUqnwCP0fZUkLCvUJ1A71tDjfccjMcOy+77uA=.sha256",
+        "name": "the future rural"
+      },
+      {
+        "link": "%lgftbuPZdNHWJCj63uooip6POXd1F6TIGF+ergZrjMM=.sha256",
+        "name": "permanent real estate cooperatives"
+      },
+      {
+        "link": "%58mjfMWTOxQPVetREVeBrO1Lhmjazhrtmv40SosUyE4=.sha256",
+        "name": "mesh networks"
+      }
+    ]
   },
-  "signature": "/hmaxjpKNb+t/0+62RegaaI505FFB29EMY+kH95ejnv2F91z0eOisc04XXs9zIJ5pjYSYRkPJHig1UjQW+SYCg==.sig.ed25519"
+  "signature": "FMawAhLpmR7k8NeQLGHEA75D0cEYl1DsPf898E4As9m9EABUYzIvmfTmt0bYQzeUrbCAPuwaX1P9VEZxkGOKCA==.sig.ed25519"
 }
