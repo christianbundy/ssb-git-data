@@ -1,17 +1,20 @@
 {
-  "previous": "%YjT/kEe0b58/YJMPynJxPYFCxAsmimfkbc+hWm7sG7U=.sha256",
-  "sequence": 11492,
+  "previous": "%NsPHoMWToNOnR0+XdDf1dITVKgCxnZHxOIVEl5HlIbc=.sha256",
+  "sequence": 11493,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564080432995,
+  "timestamp": 1564081528520,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jA7UY+J3BatoZWiSx9kevnmt64F6kswNeHwHLQsbpXU=.sha256",
+    "branch": "%jA7UY+J3BatoZWiSx9kevnmt64F6kswNeHwHLQsbpXU=.sha256",
+    "reply": {
+      "%jA7UY+J3BatoZWiSx9kevnmt64F6kswNeHwHLQsbpXU=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%adKRZGS538rDEqcKd+aLHAmutplNxzdK3fCIzbuBtZk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "PSA: that's a bottle opener on her hat, I didn't even know that was a thing",
+    "mentions": []
   },
-  "signature": "ueffvR8nE2hr2lYh4anhk6UxEfA4KBPrIw3FQd56DfoHIGelqlwOX6WVD1ywj0CUd0XE+kTjpAXOZibDaFP+Bg==.sig.ed25519"
+  "signature": "gbbJshY9e6MUw4ceCHQYy7eA0gN3OK5S0JEuIR1Xy2HYYmChRJ44aRyyEtF9T5PgpS+xpnT6pZXpP8RhOK69Bw==.sig.ed25519"
 }
