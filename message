@@ -1,17 +1,29 @@
 {
-  "previous": "%5s+rYhQJu/hqGdkyNO9HZyHqLYCTyrWKg7fIyyO8Em8=.sha256",
-  "sequence": 11494,
+  "previous": "%/N2kysTGo2m5rS/nh9SoiLQBqRe5/5/kR2NBYbzhm5M=.sha256",
+  "sequence": 11495,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564081650615,
+  "timestamp": 1564081845578,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "new-people",
-    "vote": {
-      "link": "%ooAm6dtOj3fxkgI00qLznQG3buBTb++Dd7C4VDosQNc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%qpqoCFFv81Cn4O2GI5yzLYwahvqfms1cDGjItm6FkgA=.sha256",
+    "branch": "%qpqoCFFv81Cn4O2GI5yzLYwahvqfms1cDGjItm6FkgA=.sha256",
+    "reply": {
+      "%qpqoCFFv81Cn4O2GI5yzLYwahvqfms1cDGjItm6FkgA=.sha256": "@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Dylorb](@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519) \n\nMaybe useful: [Resources for decentralized organizing](https://hackmd.io/@yHk1snI9T9SNpiFu2o17oA/Skh_dXNbE?type=view) by [@richard](@3r4+IyB5NVl2in6QOZHIu9oSrZud+NuVgl2GX3x2WG8=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519",
+        "name": "Dylorb"
+      },
+      {
+        "link": "@3r4+IyB5NVl2in6QOZHIu9oSrZud+NuVgl2GX3x2WG8=.ed25519",
+        "name": "richard"
+      }
+    ]
   },
-  "signature": "3JoplEly9KUGkD0AJ9S6lLigxK3sKvpDaX/4RplWPllRyF+3XfoydrgpEIIZgnDM3txra4qxt3WrK79mem78CA==.sig.ed25519"
+  "signature": "hBP5YbIEfaRnZlA9voYvIawTYTcqLVcTsurcvJUEaI3rBBLYaIPcLvAaGMhjSJFTV7GR3MLJrvlCKpHLBbETBQ==.sig.ed25519"
 }
