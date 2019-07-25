@@ -1,21 +1,16 @@
 {
-  "previous": "%htzezpmIK2vZwYq4Qb65PVF0qz1cBRG2i/tcudVp74c=.sha256",
-  "sequence": 11463,
+  "previous": "%YNbd9iw0fbKbgUq154fGxOs5F0HY0KfpVRhT47hXzTs=.sha256",
+  "sequence": 11464,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564024422404,
+  "timestamp": 1564024467824,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
-    "fork": "%FdV4M+gExxe46O45+XKB9UomrN/zWkdjkB72TELR25M=.sha256",
-    "branch": "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256",
-    "reply": {
-      "%KW6k+F1EgXbxMA1pTd7T/95TrqPpCGp8MDVdGNfiyMk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "I've been thinking about this a lot since I posted it. I think my main point is that I'm curious about looking at Dat and Scuttlebutt as **append-only log providers** rather than full-stack development environments coupled with database systems and message schemas. I'm imagining something like [leveldown stores](https://github.com/Level/awesome#stores), which let you use the same [levelup API](https://github.com/Level/levelup) regardless of which provider you use.\n\nApplications like Patchwork and Beaker don't need to know whether they're running on Scuttlebutt or Dat, and if we could agree on some simple levelup-like API for our append-only logs then everything we build on top of that (storage, replication, queries, interfaces, etc) could be portable between our implementations.\n\nI should probably be clear that I don't think Patchwork or Beaker *should* do this, I'm only using the application names as examples because they're well-known and make my point more concrete. To be even more concrete, I'm imagining:\n\n```javascript\nconst foo = require('bar')\n  .use(require('dat'))\n  .use(require('ssb-server'))\n  .use(require('social'))\n\nconst alice = foo.open('alice')\nconst bob = foo.open('bob')\n\nconst identifier = alice.append({ type: 'test' })\n\nbob.social.follow(alice)\nbob.get(identifier) // => { actor: 'alice', object: { type: 'test' } }\n```\n\nIn this system the replication could either be handled above or below *foo*, depending on whether the replication was specific to some underlying provider (like ssb-ebt). In the beginning I'm sure we'd just use the built-in systems, manipulating them with `alice.ssb.gossip.reconnect()` and such, but on a long enough timeline I could see these sorts of improvements working for *all* append-only logs rather than being coupled to a specific implementation.\n\nOr maybe I'm being overly optimistic about collaboration and *code as commons*. 🤷",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%m37IleY+c4YTvh0VVhie8TM/1QnXevzwDLbn6BjdRRI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "AZyFsV6K4bJEjwc0+3zauGSuMAhgXqxHanf3VSXTKWA/a/lXcuFbhnBjQq1AnunYKWepF9le40XV09VqFmrXAA==.sig.ed25519"
+  "signature": "q907iVNhdpiqLTgof93gTNKfUOHjbSAdbxGPQiHAIf49GHMtJ2f6jYzkqmYer8Adp2HZH3aOnhOtPKd+ls5XCg==.sig.ed25519"
 }
