@@ -1,16 +1,30 @@
 {
-  "previous": "%5N5moz3tjnC9LDbj8+77iUQu6cX2dT64y/hzyLfugh0=.sha256",
-  "sequence": 11461,
+  "previous": "%wu49aoNsmbrV4dGd1XPcEzNLZ16FY4JzC8nlz6WRztU=.sha256",
+  "sequence": 11462,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564018564442,
+  "timestamp": 1564020641627,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3ni5jmCrwa+TENPWk7Nzf7kTRYeg2i1RAYcz9AwYcbM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%wqSr67eznU6uTGjpWJQCcZIXRYmAD7amJexpS4ddIp8=.sha256",
+    "branch": "%mnVneuj+/RqFiltYUabWs19nIv8enoRpXzJ4x1p8zJ0=.sha256",
+    "reply": {
+      "%wqSr67eznU6uTGjpWJQCcZIXRYmAD7amJexpS4ddIp8=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+      "%mnVneuj+/RqFiltYUabWs19nIv8enoRpXzJ4x1p8zJ0=.sha256": "@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "- **Tell us something unexpected that was awesome!** Butts everywhere. I couldn't find a room that didn't already have Scuttlebutt folks which made for a really friendly and fun environment where there was always a friend around. \n- **Did you drink tea? What was the flavour?** Does coffee count? I had black coffee and I tried some coffee on nitro (which was frothy because it's full of nitrogen) and I found out that I strongly prefer black coffee.\n- **Are you new to SSB, how do you find it so far?** 🙃\n- **Did you discover some new project there that excited you? Tell us more!** I'm much more interested and curious about Dat and LibreMesh and much *less* interested and curious about \"decentralized identity at Microsoft\".\n- **Did you meet someone for the first time that you’d wanted to meet?** So many scuttle-friends! I'd like to tag a bunch of people but I'm afraid I'll accidentally leave someone out.\n- **What made you laugh?** I don't remember anything specific, but I remember lots of hearty laughing throughout the weekend. Also: a disproportionate number of laughs were [@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519)-induced, he's funny as hell.\n- **How were the chilly summer evenings on the tents?** They weren't too bad, but I was taking advantage of sleeping pad and a 30 degree (F) sleeping bag. There were a couple times where I woke up chilly, but that only happened when I didn't zip up my bag all the way.\n- **Was it your first time camping? Did you like it?** It wasn't my first time camping, but I loved it. On the other hand, it *was* the first time using a handful of features on my tent that [@jordan](@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519) pointed out. The downside of \"DIY all the things\" is that you rarely learn The Right Way to do things, so I definitely learned a few best practices when using my tent.",
+    "mentions": [
+      {
+        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+        "name": "sean"
+      },
+      {
+        "link": "@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519",
+        "name": "jordan"
+      }
+    ]
   },
-  "signature": "6gnh8ce61zWEN9+hV5d7tkAApnTlmnquQwJmBwj2WOO+sboGvjeUnEWSE1vzUgzl81VkhiFn6QuCmwVMbw/PAw==.sig.ed25519"
+  "signature": "hOpsCxHpvPq3d9NRH5C5KN/vhwS+629W3HGqP2oL77QrVg+rWvYcm9u9fpohsfobpeguTciST8oQO4xRmvDdAA==.sig.ed25519"
 }
