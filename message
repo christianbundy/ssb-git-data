@@ -1,25 +1,17 @@
 {
-  "previous": "%sTzNP6GwhulnIkd79IdqwIOj9nBj50Stsx4nhWw9sCY=.sha256",
-  "sequence": 11465,
+  "previous": "%bwW4X6TIOXHdyLlwChk4YVySS+iOO/nGAi8kWiX+2yE=.sha256",
+  "sequence": 11466,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564025505257,
+  "timestamp": 1564026737263,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%XfaRskCXgJGwmLKAudaeIOXAVV2De6q3ycowFjfkNv8=.sha256",
-    "branch": "%XfaRskCXgJGwmLKAudaeIOXAVV2De6q3ycowFjfkNv8=.sha256",
-    "reply": {
-      "%XfaRskCXgJGwmLKAudaeIOXAVV2De6q3ycowFjfkNv8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Context: I want to build a [pub factory](%sSt9HIg6kqWxaBD/3TBIguWZDMRKTgzSVVLdSyrTvtQ=.sha256). The first iteration should wait for an HTTP request and then:\n\n1. Create an identity with ssb-identities\n2. Create a bunch of invites with ssb-invite\n3. Create an HTTP response with the above invites\n\nThe person who opened the website could use the first invite and then send the rest of the invites people they want to meet on SSB, which basically gives them a [micropub](https://en.wikipedia.org/wiki/Micropub) without setting anything up themselves.",
-    "mentions": [
-      {
-        "link": "%sSt9HIg6kqWxaBD/3TBIguWZDMRKTgzSVVLdSyrTvtQ=.sha256",
-        "name": "pub factory"
-      }
-    ]
+    "type": "vote",
+    "channel": "dweb-camp",
+    "vote": {
+      "link": "%nSHK2GAJGDwTa6GpAP1FxlRf4chmWtByEcmElhyaQkw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "X2i0/4hq/K893TL4rwB5Tv6arl394YxgFIrjmxbrEOfsxJaeJb0DV4p4PZHextjq1JkCvl5/c3REjdMlaoScAA==.sig.ed25519"
+  "signature": "H6dixEF8SFhoDrk6127YtGb07BLtGprBu4fJuu7WIgKhEWz/0wn1d2bPuFPR7GAaYTYW+CpsNGqvCCsbh4qoBA==.sig.ed25519"
 }
