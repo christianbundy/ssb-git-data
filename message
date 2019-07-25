@@ -1,17 +1,26 @@
 {
-  "previous": "%A+Km7vDActwNmEyW3hqGkuUpYasRuTihyVPbAgJaU50=.sha256",
-  "sequence": 11472,
+  "previous": "%iVs2ji5ArTsc08eLYV+AYyMBzqW9l3o2GFtQolKB3i8=.sha256",
+  "sequence": 11473,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564067058608,
+  "timestamp": 1564067235120,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%6vISnE3KXtxmnCx7bOTgk567x9cQNBYC/JxXBzXp1Ww=.sha256",
+    "branch": "%nwS6ixQqT+dv2NVskSxbD7LQY1M5lL1Uhk48C+eQUZo=.sha256",
+    "reply": {
+      "%6vISnE3KXtxmnCx7bOTgk567x9cQNBYC/JxXBzXp1Ww=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+      "%nwS6ixQqT+dv2NVskSxbD7LQY1M5lL1Uhk48C+eQUZo=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%nwS6ixQqT+dv2NVskSxbD7LQY1M5lL1Uhk48C+eQUZo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519)\n\n> From this point on, you are obligated to instantly recognize me.\n\nNow I want to pretend like I have absolutely no idea who you are. ",
+    "mentions": [
+      {
+        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+        "name": "sean"
+      }
+    ]
   },
-  "signature": "Emm3kNWAyjsZAGyFRyQC2kgItmJr0FNantOIcNhGzbPilPIbA93keDy8TkyP6EZoMzaJca/2wXJT4NHcG0CnBw==.sig.ed25519"
+  "signature": "5T9zOelvVhHj+qw3GlEZsfGqueq4/XOP6BZGxIh81y35Qwc5X3ohuEWqzlL1ZOJFxGako7O51EH8BqXNEcVZCw==.sig.ed25519"
 }
