@@ -1,17 +1,25 @@
 {
-  "previous": "%jKUUSWUmWs0tKJSfzmyk+sCj9sU55OyY+NlgLw85yPA=.sha256",
-  "sequence": 11508,
+  "previous": "%e0tfqFxcUAv1lVHxCCpZ5/fY9OHiUGr2quGndkGDhlg=.sha256",
+  "sequence": 11509,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564104287969,
+  "timestamp": 1564106185621,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%jLLSDo2n2dzPgPH+OCA26k92iFSBQQP47JvswNtVp+0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256",
+    "branch": "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256",
+    "reply": {
+      "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+    },
+    "channel": "ssbc",
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nDone! You've contributed [lots](https://github.com/issues?utf8=%E2%9C%93&q=user%3Assbc+involves%3Adangerousbeans) and *even if you weren't already a member* you definitely should be.",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "VveUutHce85xOKIpHoIPGrTXkwKOHwW8KMvfrH3DCqEax6+sLxp7fJatt9OuU3RH6E6VFFS89Bmtdphy95QtBw==.sig.ed25519"
+  "signature": "d5n8DKNhE8FX2Xhzvj6MidEvuIP17DHkFUAatFF9OpyP+M1D0bXySyy43yt7TyG1LUltymT7qrsgJN0UAqX4CA==.sig.ed25519"
 }
