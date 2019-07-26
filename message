@@ -1,25 +1,26 @@
 {
-  "previous": "%e0tfqFxcUAv1lVHxCCpZ5/fY9OHiUGr2quGndkGDhlg=.sha256",
-  "sequence": 11509,
+  "previous": "%0GXq3BLVRrViTi0FzBmusjpqHXARiFt5Lqhs9De/YsI=.sha256",
+  "sequence": 11510,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564106185621,
+  "timestamp": 1564153746558,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256",
-    "branch": "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256",
+    "root": "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256",
+    "fork": "%PliAKkouC5Jy93vOLTeDxOiG8YMq73H9NxvlV8SuJlo=.sha256",
+    "branch": "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256",
     "reply": {
-      "%Nukt0mZiIshyaoFNwMv8+sYzU3wKAVkivNg1m+BWieE=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+      "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
     },
-    "channel": "ssbc",
+    "channel": null,
     "recps": null,
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519) \n\nDone! You've contributed [lots](https://github.com/issues?utf8=%E2%9C%93&q=user%3Assbc+involves%3Adangerousbeans) and *even if you weren't already a member* you definitely should be.",
+    "text": "Yeah, we only use content-addressable images here so you have to attach the file or reference another image that was already created. For example, in Patchwork I've right-clicked the image above and selected \"copy embed Markdown\" to get:\n\n\n```markdown\n![pattern languages.semi_lattice.png](&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256)\n```\n\n![pattern languages.semi_lattice.png](&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256)\n\n",
     "mentions": [
       {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
+        "link": "&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256",
+        "name": "pattern languages.semi_lattice.png"
       }
     ]
   },
-  "signature": "d5n8DKNhE8FX2Xhzvj6MidEvuIP17DHkFUAatFF9OpyP+M1D0bXySyy43yt7TyG1LUltymT7qrsgJN0UAqX4CA==.sig.ed25519"
+  "signature": "6FnZ+ittwru4PFk1MaxfBNAdA2lWdzNRlg+51rV3u4oVjhJmZLFtijtVkLV25q/+d3SfLiMcAJr+TTrqOMnOCw==.sig.ed25519"
 }
