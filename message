@@ -1,17 +1,27 @@
 {
-  "previous": "%8BPiKhZ4XcgRpfQ3S0K1a3m/CsCtmO7FzjzrvTvHDkw=.sha256",
-  "sequence": 11536,
+  "previous": "%4zzbJbwKfxve6WrioS/kYftExB8qBM8AyMbF9d5Sdoo=.sha256",
+  "sequence": 11537,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564243866546,
+  "timestamp": 1564252304915,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
+    "fork": "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256",
+    "branch": "%xGOq2kGym6g6DJEFt6zDny4kl67RDvExdpJBTnNaX0U=.sha256",
+    "reply": {
+      "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%xGOq2kGym6g6DJEFt6zDny4kl67RDvExdpJBTnNaX0U=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%xGOq2kGym6g6DJEFt6zDny4kl67RDvExdpJBTnNaX0U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nYou're right, it's pretty unreasonable to migrate everything to strict mode but [I couldn't help myself](https://github.com/ssbc/ssb-server/issues/683). I don't think we'll get *everything* running in strict mode, but since I've been interested in JS subsets like [Jessie](https://github.com/Agoric/jessie) I thought it might be nice to try and migrate everything to be valid ES-strict. Although judging by the response from one maintainer it looks like I should probably be more considerate about the language I'm using to avoid bruising coming off as a dick.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "P2vLB9a1Lqz+3dSlODBJQooCpY1evCGYXJa0ImHdnn7R8mB+ZmR5fU4FCS9aY29FC2fMfHltzbav5mgVKKLKAQ==.sig.ed25519"
+  "signature": "Q9uaIVo4MgAc28mMwf8OPui3tncGxMYyE8c4g1Tf4EwyCyV73QPNXeAUh1cbIqvSw6WWuBW/wulBJujD35SnBw==.sig.ed25519"
 }
