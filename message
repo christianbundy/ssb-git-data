@@ -1,28 +1,17 @@
 {
-  "previous": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
-  "sequence": 11535,
+  "previous": "%8BPiKhZ4XcgRpfQ3S0K1a3m/CsCtmO7FzjzrvTvHDkw=.sha256",
+  "sequence": 11536,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564240346361,
+  "timestamp": 1564243866546,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
-    "fork": "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256",
-    "branch": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
-    "reply": {
-      "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "I've only checked ssb-server, but it looks like there are only ~30 files with problems and many of them seem to be in tests rather than actual production files. Maybe this wouldn't be impossible to solve? Here are the problem files: \n\n- **bash-color**/color.js\n- **bash-color**/index.js\n- **bl/test**/test.js\n- **chloride**/small.js\n- **compatibility**/pretest.js\n- **compatibility**/test.js\n- **flumedb/test**/memlog.js\n- **has-symbols/test/shams**/core-js.js\n- **has-symbols/test/shams**/get-own-property-symbols.js\n- **hexpp**/bin.js\n- **level-sublevel/node_modules/ltgt**/index.js\n- **map-filter-reduce**/util.js\n- **mkdirp/bin**/cmd.js\n- **multiserver/plugins**/unix-socket.js\n- **muxrpcli**/index.js\n- **nyc/node_modules/mkdirp/bin**/cmd.js\n- **object-inspect/test**/lowbyte.js\n- **obv**/first.js\n- **on-change-network**/index.js\n- **pull-box-stream/test**/index.js\n- **pull-file/test**/terminate-read.js\n- **pull-fs/node_modules/pull-file/test**/terminate-read.js\n- **pull-reader**/example.js\n- **pull-write-file**/index.js\n- **push-stream-to-pull-stream**/index.js\n- **push-stream/sources**/values.js\n- **push-stream/throughs**/flatten.js\n- **secret-handshake/test**/secret-handshake.js\n- **ssb-config/tests**/server-startup.test.js\n- **strip-indent**/cli.js\n\nThe SSBC and flumedb fixes should be super easy, and even though I'm not in the pull-stream org I'm sure we could get those fixed too, but there might be some modules in here that are a pain to get PRs merged for. Even so, I was expecting *hundreds* of problems, not just thirty. \n\n[raw-eslint-output.txt](&qqY/cq0vphX7AFIhI31rKeJaeTPs7UQzWQHRYW1Prd0=.sha256) ",
-    "mentions": [
-      {
-        "link": "&qqY/cq0vphX7AFIhI31rKeJaeTPs7UQzWQHRYW1Prd0=.sha256",
-        "name": "raw-eslint-output.txt",
-        "type": "text/plain",
-        "size": 4317
-      }
-    ]
+    "vote": {
+      "link": "%xGOq2kGym6g6DJEFt6zDny4kl67RDvExdpJBTnNaX0U=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Epp/dwBWkLP51plypc10nALZ2+653PQ5yT5DXFI8AIWVwcXPNGIbfsTO2EK1P1k6sUud4Rh82Z0gEDL+kpFhDw==.sig.ed25519"
+  "signature": "P2vLB9a1Lqz+3dSlODBJQooCpY1evCGYXJa0ImHdnn7R8mB+ZmR5fU4FCS9aY29FC2fMfHltzbav5mgVKKLKAQ==.sig.ed25519"
 }
