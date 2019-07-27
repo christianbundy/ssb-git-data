@@ -1,26 +1,28 @@
 {
-  "previous": "%tEJ9lgUalXoBPmbaDmRii6q8w6OErXW9qS9jmDf9QpE=.sha256",
-  "sequence": 11534,
+  "previous": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
+  "sequence": 11535,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564239498515,
+  "timestamp": 1564240346361,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256",
-    "branch": "%NHF68aayb2C6AtQkt63Sf6ENJJAmf4JbOqt7P8+Sjo0=.sha256",
+    "root": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
+    "fork": "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256",
+    "branch": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
     "reply": {
-      "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-      "%NHF68aayb2C6AtQkt63Sf6ENJJAmf4JbOqt7P8+Sjo0=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+      "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\n> we know we won’t go refactoring the shit of our gazillion modules and dependencies to please the gods of strict mode JS\n\nThis piqued my curiosity and I spent a few minutes playing around with ESLint to investigate. I *think* this command-line script can identify all of the places where we violate strict mode:\n\n```bash\neslint \\\n  --ignore-pattern '!**/*' \\\n  --no-eslintrc \\\n  --no-inline-config \\\n  --parser-options \\\n    '{ ecmaVersion: 8, sourceType: \"module\" }' \\\n  --rule '' \\\n  **/*.js\n```\n\nWhich roughly translates to:\n\n- lint my JavaScript!\n- don't ignore any JS files\n- but definitely ignore all ESLint configs\n- yes, also ignore inline ESLint configs\n- parse as modern JS with implicit strict mode\n- don't apply any rules, just validate syntax\n- please look at all files\n\nI can't fork your top-level post, so I'm going to fork *this* post with my results.",
+    "text": "I've only checked ssb-server, but it looks like there are only ~30 files with problems and many of them seem to be in tests rather than actual production files. Maybe this wouldn't be impossible to solve? Here are the problem files: \n\n- **bash-color**/color.js\n- **bash-color**/index.js\n- **bl/test**/test.js\n- **chloride**/small.js\n- **compatibility**/pretest.js\n- **compatibility**/test.js\n- **flumedb/test**/memlog.js\n- **has-symbols/test/shams**/core-js.js\n- **has-symbols/test/shams**/get-own-property-symbols.js\n- **hexpp**/bin.js\n- **level-sublevel/node_modules/ltgt**/index.js\n- **map-filter-reduce**/util.js\n- **mkdirp/bin**/cmd.js\n- **multiserver/plugins**/unix-socket.js\n- **muxrpcli**/index.js\n- **nyc/node_modules/mkdirp/bin**/cmd.js\n- **object-inspect/test**/lowbyte.js\n- **obv**/first.js\n- **on-change-network**/index.js\n- **pull-box-stream/test**/index.js\n- **pull-file/test**/terminate-read.js\n- **pull-fs/node_modules/pull-file/test**/terminate-read.js\n- **pull-reader**/example.js\n- **pull-write-file**/index.js\n- **push-stream-to-pull-stream**/index.js\n- **push-stream/sources**/values.js\n- **push-stream/throughs**/flatten.js\n- **secret-handshake/test**/secret-handshake.js\n- **ssb-config/tests**/server-startup.test.js\n- **strip-indent**/cli.js\n\nThe SSBC and flumedb fixes should be super easy, and even though I'm not in the pull-stream org I'm sure we could get those fixed too, but there might be some modules in here that are a pain to get PRs merged for. Even so, I was expecting *hundreds* of problems, not just thirty. \n\n[raw-eslint-output.txt](&qqY/cq0vphX7AFIhI31rKeJaeTPs7UQzWQHRYW1Prd0=.sha256) ",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "&qqY/cq0vphX7AFIhI31rKeJaeTPs7UQzWQHRYW1Prd0=.sha256",
+        "name": "raw-eslint-output.txt",
+        "type": "text/plain",
+        "size": 4317
       }
     ]
   },
-  "signature": "5ECyv/9vkrW4aGrCHegFMM2nVOoXBT6x97uDX2HiCwnf85DX4R67wxrnXXwkx8i6DMwq2cusva8f15fHOX3tBQ==.sig.ed25519"
+  "signature": "Epp/dwBWkLP51plypc10nALZ2+653PQ5yT5DXFI8AIWVwcXPNGIbfsTO2EK1P1k6sUud4Rh82Z0gEDL+kpFhDw==.sig.ed25519"
 }
