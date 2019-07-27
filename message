@@ -1,15 +1,26 @@
 {
-  "previous": "%E6NadKVLcvFKL4bcIHtrYVtRVi/tdfJhhhxLM3FAac4=.sha256",
-  "sequence": 11533,
+  "previous": "%tEJ9lgUalXoBPmbaDmRii6q8w6OErXW9qS9jmDf9QpE=.sha256",
+  "sequence": 11534,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564236124180,
+  "timestamp": 1564239498515,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NHF68aayb2C6AtQkt63Sf6ENJJAmf4JbOqt7P8+Sjo0=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256",
+    "branch": "%NHF68aayb2C6AtQkt63Sf6ENJJAmf4JbOqt7P8+Sjo0=.sha256",
+    "reply": {
+      "%zu760OG4kpQhsfAU63vgZAw+OpUxJPBobyzkeylmdRg=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%NHF68aayb2C6AtQkt63Sf6ENJJAmf4JbOqt7P8+Sjo0=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\n> we know we won’t go refactoring the shit of our gazillion modules and dependencies to please the gods of strict mode JS\n\nThis piqued my curiosity and I spent a few minutes playing around with ESLint to investigate. I *think* this command-line script can identify all of the places where we violate strict mode:\n\n```bash\neslint \\\n  --ignore-pattern '!**/*' \\\n  --no-eslintrc \\\n  --no-inline-config \\\n  --parser-options \\\n    '{ ecmaVersion: 8, sourceType: \"module\" }' \\\n  --rule '' \\\n  **/*.js\n```\n\nWhich roughly translates to:\n\n- lint my JavaScript!\n- don't ignore any JS files\n- but definitely ignore all ESLint configs\n- yes, also ignore inline ESLint configs\n- parse as modern JS with implicit strict mode\n- don't apply any rules, just validate syntax\n- please look at all files\n\nI can't fork your top-level post, so I'm going to fork *this* post with my results.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "eIJOXqGrW9NfjSp5rzWqByOY/85Q0DWXHSDmdWfvEakm5qyNiEd9MtnoawIGMKKoitJsXkGjkBnQtcscORYsBA==.sig.ed25519"
+  "signature": "5ECyv/9vkrW4aGrCHegFMM2nVOoXBT6x97uDX2HiCwnf85DX4R67wxrnXXwkx8i6DMwq2cusva8f15fHOX3tBQ==.sig.ed25519"
 }
