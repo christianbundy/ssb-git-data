@@ -1,17 +1,22 @@
 {
-  "previous": "%PqxPtq4HybCtThQ+gaPCIFLCrvM23JocQseWXeWVAg0=.sha256",
-  "sequence": 11528,
+  "previous": "%4NJLjYpZxtEWFgWEsBLplhFfvSnmtnQHM4F6zm5S/oU=.sha256",
+  "sequence": 11529,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564187242849,
+  "timestamp": 1564187291883,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Mr+ReXo4nwpbmEiutN2Fs9lKaz7dU80+qN5A3qnGa6M=.sha256",
+    "fork": "%AjHzzECLyvOLJLXsINBznJA650QxSAKF0FSC247ykHM=.sha256",
+    "branch": "%q2sNFta6UAESoGr+xTvK8iNlchuzYkHuLWTWhHEnX8Q=.sha256",
+    "reply": {
+      "%Mr+ReXo4nwpbmEiutN2Fs9lKaz7dU80+qN5A3qnGa6M=.sha256": "@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519",
+      "%q2sNFta6UAESoGr+xTvK8iNlchuzYkHuLWTWhHEnX8Q=.sha256": "@W1o0EvTFWz6rOxHl0QYuhWnCYpJ3/lnm1ZuSgUy2kQo=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%GWQB5ZQ4DfmbDA6qU/y2pS2abuwF5F1V4/sugeZm5eM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": ">  At least among the people I spoke to, technology was not the most important part of the conversation. It was the people, their communities and their needs that came first.\n\n!!!",
+    "mentions": []
   },
-  "signature": "CerhEzWptE5DkJ1P+wUsiAYEeXZLPVnh5YFUR0FD3YXPcj1GeYgH+EXOxG1VbHl+/fHk/bYHUC1cZ/OvhWC7BQ==.sig.ed25519"
+  "signature": "XvQrUXVBByAYQEpwEcvpskejnn5LJLu/xBPm9LtfGZEbVwKp7OjIChSSNaXOy665TzB89qhC6AC6y+hx1jlyDg==.sig.ed25519"
 }
