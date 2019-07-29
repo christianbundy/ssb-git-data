@@ -1,15 +1,25 @@
 {
-  "previous": "%yyBkqIZuv5CAaLY73iRcy0DBmPZJ+Zrd+Q947WuGJyE=.sha256",
-  "sequence": 11571,
+  "previous": "%hcAnvZw3+IZ/5VZknDnGC9qSBeH76Fn5f0yUZbuDqAs=.sha256",
+  "sequence": 11572,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564438606970,
+  "timestamp": 1564438703947,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zIlj+IO43xWwp6mtaRmS/sr99+fLnnuRN6XFHlZ9uag=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%zw0mrfwyMvVM7dYMWOLzOuDPmte1AoAa+2fB4e1go98=.sha256",
+    "branch": "%zw0mrfwyMvVM7dYMWOLzOuDPmte1AoAa+2fB4e1go98=.sha256",
+    "reply": {
+      "%zw0mrfwyMvVM7dYMWOLzOuDPmte1AoAa+2fB4e1go98=.sha256": "@cvXLBBAqjaIkr/ftuaO7sLh3WMhU8SWk48OWGlvM4DY=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "Hey [@tom](@cvXLBBAqjaIkr/ftuaO7sLh3WMhU8SWk48OWGlvM4DY=.ed25519), welcome!\n\nI'm not familiar with \"gon-wannabe\" is, but I think we can all agree on \"family dogs summer freedom peace\". :rocket: ",
+    "mentions": [
+      {
+        "link": "@cvXLBBAqjaIkr/ftuaO7sLh3WMhU8SWk48OWGlvM4DY=.ed25519",
+        "name": "tom"
+      }
+    ]
   },
-  "signature": "xZvl2oyFIdRj/QKALQVa8JoR1i4qT/R7QRaB+yBxnL/XAqDySMMRQQy/8Y7z7bjUVLoycu7zaX/P9POjeqYaDg==.sig.ed25519"
+  "signature": "I3Uj7MYTh1QRIEhnmRMVAO5qpqn9Iexy11xuyiPHYbU8wbVi+6Ey8kYqImZulaynm2AbTPrjefv9gCWi3kCqCg==.sig.ed25519"
 }
