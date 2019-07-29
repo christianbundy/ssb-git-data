@@ -1,26 +1,17 @@
 {
-  "previous": "%Q/ZfVldqwI99hjE5g9JZTl63JlMCqSbJtzI3YvZVeRo=.sha256",
-  "sequence": 11554,
+  "previous": "%JQCxJY26cQtbOOS35xWBZWiOg2JydFX8Cj1RQCvGHLQ=.sha256",
+  "sequence": 11555,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564408066194,
+  "timestamp": 1564408081639,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
-    "branch": "%Bbuj1tXNh9MExbUWIngF5QBK118INNjDaQAh6BVAb04=.sha256",
-    "reply": {
-      "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Bbuj1tXNh9MExbUWIngF5QBK118INNjDaQAh6BVAb04=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nYep! Source available here: https://github.com/fraction/reasonable-typography/blob/master/index.js",
-    "mentions": [
-      {
-        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-        "name": "SoapDog (Macbook)"
-      }
-    ]
+    "vote": {
+      "link": "%Bbuj1tXNh9MExbUWIngF5QBK118INNjDaQAh6BVAb04=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Vh99x3zAn1Ip4DOrBSrkwQ7fSFTZyWuuhxu0/sU8d52X5JSN15t4EuW58eYg/qnB76VnbL7bFJ5eeDNQ8tbaAw==.sig.ed25519"
+  "signature": "lnMp+Q85bttUF56e2qQT//sT1hmXLw8Obkc+viVVrbFYxBRU5Ahp3bHV7K4KcsWiI95ZoT6x02Rad2+DS+aFDA==.sig.ed25519"
 }
