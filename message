@@ -1,16 +1,26 @@
 {
-  "previous": "%cWpE54RkJDUO5TxricDmLbTdzRNtubAyoby2Cub0UQA=.sha256",
-  "sequence": 11564,
+  "previous": "%7QVVnUaKoBSzCyNPTSyuvb0KDvyhbDFOIB7Qpr49o3g=.sha256",
+  "sequence": 11565,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564430351333,
+  "timestamp": 1564430847975,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%KcTDvADpQ1hR3xI368TtYj0MDZt01SvvDtq/o1cAjg8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%/SA1nh9WLfRAlf5fm8Fu65TZJQczY5G4etVlbWLA8YU=.sha256",
+    "branch": "%cCgXm1++l8P1NeHUMrlVmsyB6hdDTMzIWoFv2JFJn4Q=.sha256",
+    "reply": {
+      "%/SA1nh9WLfRAlf5fm8Fu65TZJQczY5G4etVlbWLA8YU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%cCgXm1++l8P1NeHUMrlVmsyB6hdDTMzIWoFv2JFJn4Q=.sha256": "@ZYYIdnc55PRWr4Ztzjewbd64mfUWQTyw2wy6zPwcK3k=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nI think that's wise, I think the important part is having something to start iterating on. Without a testable hypothesis it can be hard to tell whether we're moving in the right direction. I'm reminded of this [software-centric] quote:\n\n> Without requirements or design, programming is the art of adding bugs to an empty text file.\n> \n> -- Louis Srygley\n\nI think there's probably a happy medium somewhere and I'm currently feeling like I'd like *more* planning rather than less.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "SlEbvPQ3ZaLK8wse2VcmYm6IRwLZ45utA3z18RcWeElKNyvqUv6MLSqEzWS1gYsDgljexZ8pD+RAQDkG0saGCg==.sig.ed25519"
+  "signature": "Ayhn3jb9NvUOvXwjKJTYFr0DJWIeHNWnJ4Nq/tUO0u2ZdZGSOFusUzIM9r34T0KcnmTSNvcAu6pPeA5EQ9yoDg==.sig.ed25519"
 }
