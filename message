@@ -1,17 +1,25 @@
 {
-  "previous": "%9qEbynJTvRaCYUqZEmYF1m5MCid6DTV6VBBRYvI34hQ=.sha256",
-  "sequence": 11562,
+  "previous": "%y3LQ4Cx64zH7TDhPRcHEi2+S0FUwLb0m8TDEeb6Sc6M=.sha256",
+  "sequence": 11563,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564427882915,
+  "timestamp": 1564430306480,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%1l1gUlNFB0Hau38lSF+TEVyLZ53V0UscoYFMcSAXGSQ=.sha256",
+    "branch": "%1l1gUlNFB0Hau38lSF+TEVyLZ53V0UscoYFMcSAXGSQ=.sha256",
+    "reply": {
+      "%1l1gUlNFB0Hau38lSF+TEVyLZ53V0UscoYFMcSAXGSQ=.sha256": "@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%cCgXm1++l8P1NeHUMrlVmsyB6hdDTMzIWoFv2JFJn4Q=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@paul](@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519) \n\nThis is really neat! Have there been any unexpected pain points? I was originally thinking that you were going to use `contenteditable` but a sidebar with markup seems like a great tool.",
+    "mentions": [
+      {
+        "link": "@hxGxqPrplLjRG2vtjQL87abX4QKqeLgCwQpS730nNwE=.ed25519",
+        "name": "paul"
+      }
+    ]
   },
-  "signature": "7JCKW+eSMD0AyJTZp8o7CG1yPJO2stYyOKacglCbWZTrWR+aRCBsw1gn0g1s9yXwar0eSbCMgIzckq3z2gl1DA==.sig.ed25519"
+  "signature": "nqxbLoxJk5Ji6g9cXA/uFKiB9pPFe2YlFim2HpvMPIFC7CjCfF9JkXSAKSxFphkMpMzhP3TOWilITbvLOB+cCA==.sig.ed25519"
 }
