@@ -1,17 +1,32 @@
 {
-  "previous": "%dYp9yrf5JBvJ88ROozG96glXEkKWQ74tZlvhYLs3g8c=.sha256",
-  "sequence": 11558,
+  "previous": "%peYKJOvwUfk9Qwu1CKfidhcTbolF8oRXEpOq2ul0CeY=.sha256",
+  "sequence": 11559,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564409684599,
+  "timestamp": 1564413887091,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
+    "branch": "%eGdnyac23zbtOBGyc48O4CM77+Pzh+mnxrFbQkCQmsc=.sha256",
+    "reply": {
+      "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%eGdnyac23zbtOBGyc48O4CM77+Pzh+mnxrFbQkCQmsc=.sha256": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%4BguWFpV5b+kFkkFfL0s6W8bWC3XbKWwACjD5btFQWg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519) \n\nThat looks great! Do you think you could check whether a page has any `<style>` tags or `style=\"\"` attributes and add them that way? My main gripe is that currently my extension doesn't try to center text (because I want to avoid breaking layouts), but if there's no CSS then I think that should be safe.\n\nMy other grips is that some HTML authors are inconsistent about when they use `<p>` tags, so websites like Hacker News have comments like:\n\n```html\nThe first paragraph isn't a semantic paragraph for some reason.\n<p>But the second paragraph is?</p>\n<p>I don't understand if this was intentional or a mistake.</p>\n```\n\nWhich leads to weird UI problems like:\n\n![Screenshot of Hacker News with weird and inconsistent paragraph line lengths](&AEtdf8iWICflOPF23IBad7ogtsP3nn98yH3ZKY6t4sk=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+        "name": "kemitchell"
+      },
+      {
+        "link": "&AEtdf8iWICflOPF23IBad7ogtsP3nn98yH3ZKY6t4sk=.sha256",
+        "name": "Screenshot of Hacker News with weird and inconsistent paragraph line lengths",
+        "type": "image/png",
+        "size": 187374
+      }
+    ]
   },
-  "signature": "Jn5THVzAA01mkTT0Hm5RlOSYMvT7GkUfUi/AJEVG5SrOc8jyZIJzKo7pxwwLCb5wc5LhW7DCo11+1kBs54JfDA==.sig.ed25519"
+  "signature": "qCsLz3DZnnMWnPRvBBnI2y64m2ip0U/SbS4tP4+aCvNe/kWrm0O9N2Mi+VbArZc4tmlTeXHiUJVhGazKDIqjBA==.sig.ed25519"
 }
