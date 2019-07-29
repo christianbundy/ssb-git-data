@@ -1,17 +1,25 @@
 {
-  "previous": "%2iA/E0NJCRuTodUVmlTp80O5BZLW8RM6wGh3bpfjLVk=.sha256",
-  "sequence": 11550,
+  "previous": "%RJPHL0UrHekP8/mUC3ThB6vr1bSuWHi0gkxfVVyxLBQ=.sha256",
+  "sequence": 11551,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564332905347,
+  "timestamp": 1564364474653,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
+    "branch": "%SdXoNxLQUTJ01d8E8ug3cQRSTdajfJm3xC0Yh5QaTto=.sha256",
+    "reply": {
+      "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%SdXoNxLQUTJ01d8E8ug3cQRSTdajfJm3xC0Yh5QaTto=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%tPqOk0VDOpwAdwQQeO1QqSXi+RSHjGgc3XH0eAtsf2k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "This actually made it into a #firefox extension if anyone wants to try it out: [Reasonable Typography](https://addons.mozilla.org/en-US/firefox/addon/reasonable-typography/)\n\nHere's what it does:\n\n```css\n\naddress, blockquote, dd, dt, fieldset, figcaption, h1, h2, h3, h4, h5, h6, li, p {\n  line-height: 1.5;\n  max-width: 40em;\n}\n/* https://www.desmos.com/calculator/3elcf5cwhn */\nh1 { font-size: 150%; }\nh2 { font-size: 127%; }\nh3 { font-size: 119%; }\nh4 { font-size: 115%; }\nh5 { font-size: 112%; }\nh6 { font-size: 110%; }\n```",
+    "mentions": [
+      {
+        "link": "#firefox"
+      }
+    ]
   },
-  "signature": "ZdpUGSwFLIlWO8VY/1vv0ydRnDrf1+rvSg2Fg87Y9eLzycOZ3qIz7ydGGBSmZOBHNnyKPJigE1zQenX0dlJsCg==.sig.ed25519"
+  "signature": "uFV4N/rkQOhLCHmwUzPkCOPPhNEi/vpLUgTbonHCTa9F8GFkV8L/kbwHMzMjXZ6od1aos4seW2fUt6nGTbL/DA==.sig.ed25519"
 }
