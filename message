@@ -1,17 +1,25 @@
 {
-  "previous": "%JQCxJY26cQtbOOS35xWBZWiOg2JydFX8Cj1RQCvGHLQ=.sha256",
-  "sequence": 11555,
+  "previous": "%wzaMpZfM6u5cFG68HsBZhCM2SHN43F4hBTYyUvYuYBo=.sha256",
+  "sequence": 11556,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564408081639,
+  "timestamp": 1564409046330,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%0D/YYQKcv86q3a4PR6GJLdN8GLbsqAMaHCVB+GAzkcE=.sha256",
+    "branch": "%0D/YYQKcv86q3a4PR6GJLdN8GLbsqAMaHCVB+GAzkcE=.sha256",
+    "reply": {
+      "%0D/YYQKcv86q3a4PR6GJLdN8GLbsqAMaHCVB+GAzkcE=.sha256": "@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%Bbuj1tXNh9MExbUWIngF5QBK118INNjDaQAh6BVAb04=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@NHonigdachsWhonix](@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519) \n\nI don't think so because Tor doesn't support UDP (which is how we do the local discovery).",
+    "mentions": [
+      {
+        "link": "@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519",
+        "name": "NHonigdachsWhonix"
+      }
+    ]
   },
-  "signature": "lnMp+Q85bttUF56e2qQT//sT1hmXLw8Obkc+viVVrbFYxBRU5Ahp3bHV7K4KcsWiI95ZoT6x02Rad2+DS+aFDA==.sig.ed25519"
+  "signature": "qrRqxDPMOqPRWw2DlaHuzzReMfngF+3o8NS4Jo8itBEQ9oUWf5suWKgL4HyBvqoV5iRQQEHYWcDR3gGNvlFdBA==.sig.ed25519"
 }
