@@ -1,26 +1,16 @@
 {
-  "previous": "%QIkRqRLG+X8CUdURk6dlH9M9SiqEPLmdoi6hN5NV/xo=.sha256",
-  "sequence": 11560,
+  "previous": "%wxx9oOiaau6cLwjv8avwBbUtrrPdIbCWDBkEw/7qMYM=.sha256",
+  "sequence": 11561,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564420512857,
+  "timestamp": 1564424159696,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256",
-    "branch": "%A7mGGCoJHXE3i1uRUPV62NkjUosiMAAfOBhYCgNcbgM=.sha256",
-    "reply": {
-      "%tAKP5f1vnkAPdjYzGCjkg02+lhGqCKvUdxS7Mz7WW8I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%A7mGGCoJHXE3i1uRUPV62NkjUosiMAAfOBhYCgNcbgM=.sha256": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519) \n\n> If you want to affect the whole unstyled web, you might consider editing the user-agent style sheet for your browser profile.\n\nI've done this with a few browsers, but the latest Firefox made it harder so I've just written a Firefox add-on to take care of it instead. I've tried to keep the changes pretty minimal, and so far I've only seen a few cosmetic issues.\n\nAre your CSS styles under copyright or is there a license somewhere in the repo?",
-    "mentions": [
-      {
-        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
-        "name": "kemitchell"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%1dpjmx95ajP3SxnWz2U6V+I+pgCXQ0EG6lmv0kgDdaQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "xyXynWvewnIU5zNDgJMppztE+Df9tUrB4TcPCsY7CUrWKcQcU4A5LqddATFzXtOOWNijKjJ6rA7vnR7xLcewCA==.sig.ed25519"
+  "signature": "pVB6GoItax0pRAYinDP9PwaFrD5RK4htPEuffttF1DULjGDG+IfIKFyfldds/I6vKWdxWmEC5d8VPz/vxeEoDA==.sig.ed25519"
 }
