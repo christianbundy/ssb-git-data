@@ -1,15 +1,26 @@
 {
-  "previous": "%oRsA5VcxoiLU6nuI6SuWsT6uqdP/xvj0LEiG1tpLxFs=.sha256",
-  "sequence": 11581,
+  "previous": "%A1u5bkOQSNHPrlOxxtelEdhpNOgOk5AAY88G25V8DqY=.sha256",
+  "sequence": 11582,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564498472163,
+  "timestamp": 1564499277881,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5qCxGzqPtM7bNOHFBMUYLwKqRz68+72T0x2Zpj/fgb0=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%Tjin0RVcoFgokT3fsy3lxxBqqadni/pCEz17I8x/VRg=.sha256",
+    "fork": "%Cns3Scaa/0zmDD82BbKsCy/UXq4k+3nP2/7DS1eBzu8=.sha256",
+    "branch": "%Tjin0RVcoFgokT3fsy3lxxBqqadni/pCEz17I8x/VRg=.sha256",
+    "reply": {
+      "%Tjin0RVcoFgokT3fsy3lxxBqqadni/pCEz17I8x/VRg=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\n> I’m worried that they’ll think it’s a private group for the neighborhood when it’s actually public. \n\nTrue, this is my biggest concern. It would be great if each client handled this user education before letting them post anything, but maybe I could just ensure that the captive portal discusses privacy before giving them any installer links.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "AWInZBbHjO/us7vqgQwVVUFHuLLOoZPhWwlIUZoIFE8rRuYGO9MOuueGZ7wbJuypzInAES78218yIw7IOYzQDg==.sig.ed25519"
+  "signature": "gkpecooCCrQhOjtuyp3oVvSo6Fpwb+vAWOmnxZvbj4vpRo3dY62k5TiWPqzOxKFEPDWXQQ4xQ+hGatE6qRe+Bg==.sig.ed25519"
 }
