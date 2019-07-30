@@ -1,18 +1,17 @@
 {
-  "previous": "%D+55mnBmDlFDoPmRrRsQLoo39IQHROU5ZMjsGb1zf80=.sha256",
-  "sequence": 11576,
+  "previous": "%Cns3Scaa/0zmDD82BbKsCy/UXq4k+3nP2/7DS1eBzu8=.sha256",
+  "sequence": 11577,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564456875927,
+  "timestamp": 1564456994236,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Local Cypherspace\n\nMaybe ridiculous but I think it would be neat to have my neighbors on Scuttlebutt. Here's my plan:\n\n1. Put a [clingy](%ZHIOCobHeQkEM3+Q5pc4qvuOInQjTkewYiRKDVjr67A=.sha256) pub on a Raspberry Pi.\n2. Hook up a wireless router to the Pi and configure a [captive portal](https://en.wikipedia.org/wiki/Captive_portal) with SSB installers.\n3. Put up some posters with network details and some interesting prompt.\n\nI can think of a few problems but I think it might be a fun experiment to provide an way to connect with neighbors in local cypherspace. **I'd love suggestions on how to improve this idea, suggestions for interesting prompts, or both!**\n\nObligatory: you're right, it'd probably be better to meet them afk, but there are four (!) apartment buildings next to me and I've only really met people from my floor. Plus I like the idea of having something like [Nextdoor](https://en.wikipedia.org/wiki/Nextdoor) collectively hosted by the community.",
-    "mentions": [
-      {
-        "link": "%ZHIOCobHeQkEM3+Q5pc4qvuOInQjTkewYiRKDVjr67A=.sha256",
-        "name": "clingy"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%bbeCstQFIE/1X2hvyXa4GxPRd7Cp8uvmaPyXO7AdSCo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "BrcBms5CHB7W7kQ6dzflwj0fSODCgOpCdaKnLhBuraY+SnM1i6njNhsXz+MvVyH5asLqqzZZtc2VwLU0lUdaDQ==.sig.ed25519"
+  "signature": "LJXvfxAoH7DKhdEq+IORYeCbSfV0rVl7zcV+8P+8/ei6HUjBZwQNrOD/CgA0NSxrC65x4wByJ1vxSkYD2VBDAg==.sig.ed25519"
 }
