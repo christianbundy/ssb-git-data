@@ -1,15 +1,27 @@
 {
-  "previous": "%M8ADzCidypZR5mLekcvw0/uAZDbv+406QdY7DCt3poU=.sha256",
-  "sequence": 11587,
+  "previous": "%qunpy8it6e0fE1flGxLm6nmvkaaclb0EwWph/4iPukI=.sha256",
+  "sequence": 11588,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564511420262,
+  "timestamp": 1564519171513,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iCVLeL6zpYi/8JTNa9WhNxm3cww/PNqwd3OutyyQrfQ=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%tPqOk0VDOpwAdwQQeO1QqSXi+RSHjGgc3XH0eAtsf2k=.sha256",
+    "fork": "%3AK0ByIn1KWt6KCISMjm71OLONu/r5uV4M4oPEwPZRk=.sha256",
+    "branch": "%R0DJz2xt+GMNk2QnrwxtkIKcS9jmYUCAfPfObwhW6ag=.sha256",
+    "reply": {
+      "%tPqOk0VDOpwAdwQQeO1QqSXi+RSHjGgc3XH0eAtsf2k=.sha256": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+      "%R0DJz2xt+GMNk2QnrwxtkIKcS9jmYUCAfPfObwhW6ag=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nI'm not sure there are that many modules that have those problems though -- the thirty above was a liberal estimate, and when parsing *only* the files that ssb-server directly `require()`s I can only find four (!) files that can't be parsed in strict mode:\n\n```bash\neslint \\\n  --no-eslintrc \\\n  --no-inline-config \\\n  --ignore-pattern '!*' \\\n  --rule '' \\\n  --parser-options \\\n    '{ ecmaVersion: 8, ecmaFeatures: { impliedStrict: true } }' \\\n  $(dependency-tree \\\n    --directory . \\\n    --list-form \\\n    ./bin.js  \\\n    | grep -v '.json$' \\\n  )\n```\n\nOne already has a fix merged (awaiting version bump) and the other three have pull requests open (although the maintainer of two of them has indicated that he's ignoring my PRs). I agree that we don't want to fork and maintain a bunch of modules, but out of the 505 files we `require()` only a few of them require non-strict parsing.\n\nFrom my perspective it seems like expressing modules in non-strict JavaScript would be like expressing JSON data as JavaScript. Sure, you can `module.exports = { \"foo\": \"bar\" }`, but it adds an unnecessary layer of complexity that I'd love to avoid. 🤷",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
+      }
+    ]
   },
-  "signature": "1zIYoxc4V0vWkSr+/xZz5rJ10XMCMpqrID6UFDuRIBOcvGhJOWKO7nBQvCRKQh3z/LA2ixdE7we8pucgXikyBQ==.sig.ed25519"
+  "signature": "77FAg6gCQK7kXL9aAK2eCmy+0TPL/nHf+dYDO3Zbb8cV3IE8GqYdkBR/L76YXVtuXHMlmPS9Sdu1qurGdNCkAQ==.sig.ed25519"
 }
