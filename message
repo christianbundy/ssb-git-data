@@ -1,17 +1,21 @@
 {
-  "previous": "%xTHJ8DC5O4X2owQuIVVfAiwVPdY/qID1hQvDUPtilgE=.sha256",
-  "sequence": 11592,
+  "previous": "%3JZtqiV65toadFBWfTvWAqQEu4fpDI1JFmfCnKr9wL4=.sha256",
+  "sequence": 11593,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564577855910,
+  "timestamp": 1564577865901,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%fBOoDL9tHjNNjsfVMmum75JDn987zzqBaE9TnPi7auA=.sha256",
+    "fork": "%i++D1fjIiZFNznzFmrGTZ/voaRQO3Ytmjz+hXedGlwg=.sha256",
+    "branch": "%fBOoDL9tHjNNjsfVMmum75JDn987zzqBaE9TnPi7auA=.sha256",
+    "reply": {
+      "%fBOoDL9tHjNNjsfVMmum75JDn987zzqBaE9TnPi7auA=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%fBOoDL9tHjNNjsfVMmum75JDn987zzqBaE9TnPi7auA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "this is canon now",
+    "mentions": []
   },
-  "signature": "zOqyqhmrgUHztqeNvnbGKRmuSfjj1/ylDjm8gLg1/rPAw7uT0BKNJ1MHHCy/6bvLJBrv5aBT3fIgwYI4vT+MAQ==.sig.ed25519"
+  "signature": "NWYIneB3l280QF8zdzzIv1synFKeZ4nuLo9eeLezN2vshBbTswfUHaa5Jzb+t/gg2bjsCg6L6JmzGd6MVvzjDw==.sig.ed25519"
 }
