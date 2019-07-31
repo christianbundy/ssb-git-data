@@ -1,16 +1,26 @@
 {
-  "previous": "%ApyCep12BpH+ble6hdfqio9KnF3UyA5iuI4nQOrBzr4=.sha256",
-  "sequence": 11602,
+  "previous": "%eJK3AziB1HMCiMRrd9hqwNe3y59/MR9FoT6ZDNAKb9E=.sha256",
+  "sequence": 11603,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564594541272,
+  "timestamp": 1564595624042,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kE+NcCsv0wZLMTsjQV8hi2VZkBcPCjPb/OnIIir/3K4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%CsOQpFWQGEJtOhH9ttfhQd0DDc023xC05UkKOKvlNyw=.sha256",
+    "fork": "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256",
+    "branch": "%CsOQpFWQGEJtOhH9ttfhQd0DDc023xC05UkKOKvlNyw=.sha256",
+    "reply": {
+      "%CsOQpFWQGEJtOhH9ttfhQd0DDc023xC05UkKOKvlNyw=.sha256": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519) \n\nIt's worth noting that there's a bug in multiserver that means that local sync is often broken for people with more than one network interface on a device. Both Patchwork and Oasis have fixes, but I don't think Patchbay has the fixes yet. What you've described *should* work though.",
+    "mentions": [
+      {
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
+      }
+    ]
   },
-  "signature": "9yD17rULwpX9Ytf/89t77lhr3dqdMqdiK3eRSgrncU3DAgMGNzFaewJ+m7Djhjfnr55SHE9VStN3t1HEvC2rCw==.sig.ed25519"
+  "signature": "ay9NfhC4zMTmwnnHOOt9rjcsMQWLX3kZEGm1eQS+ADiefuzAhm60JvhPgmVEuPU9hV3WjN0zwrO1H8n1VuBkDA==.sig.ed25519"
 }
