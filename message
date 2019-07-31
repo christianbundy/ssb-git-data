@@ -1,21 +1,16 @@
 {
-  "previous": "%+UyAJuxMJXoaDCxa2bU43AJwfjHA4OHSgwvkcr6RitU=.sha256",
-  "sequence": 11604,
+  "previous": "%UraSDOZ9iRknyryW0ua7zAZ4xgntzOR73rXoDHiOxCo=.sha256",
+  "sequence": 11605,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564595746943,
+  "timestamp": 1564596117872,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256",
-    "branch": "%J1I0JGcuDWCaVFoUR8hBliwCzvx1RHxBIDaAv3uFZHA=.sha256",
-    "reply": {
-      "%V/VYv5hFFejemwbik88zg4JTg6urSpBM8iE2JvuuwDc=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
-      "%J1I0JGcuDWCaVFoUR8hBliwCzvx1RHxBIDaAv3uFZHA=.sha256": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "> I guess I’m not sure what the difference between people with public IP addresses and a pub is. Can someone be ssb-connectable at a public IP without acting as a pub?\n\nYep! The main difference is that a pub's main purpose is creating and redeeming invites, whereas a feed with a public IP would usually be an Actual Person that just happens to have a public IP. I think it's just a semantics thing, but maybe there's an actual definition?",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%+yCaWxpqVJ+k2Mlm6+gAWgni1xEVXyQSRZoYHI7QqtQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Jl1HJoKcHcglcFKVNx0dm/X1ZmzYJ55Mq0cmT1g+AgDd1R3JVP2c3F2RfDMMZjMdayn9XPM6eqtfGt3zmAa1CQ==.sig.ed25519"
+  "signature": "QCRY4dI5yN7Co4Xv0EpoptR2jDdSj2Em6/2K1UqyoaUoHGGDKznCza4eZvuFY0VTq49mKF/14ozSAQnr+2f0AA==.sig.ed25519"
 }
