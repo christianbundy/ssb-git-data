@@ -1,16 +1,26 @@
 {
-  "previous": "%0S2x8i8V54UqaL5ANTlbUjaWv5fOfEOnc8M1L6T0lyI=.sha256",
-  "sequence": 11606,
+  "previous": "%9u+YdsTpkZUAVFLgL6hqOtwQa0+XGxDTZjJNIun/JmE=.sha256",
+  "sequence": 11607,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564596286835,
+  "timestamp": 1564599258245,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mHkZ7HqMY3dEuRlk/N6pz9/kTmgpW4TRjyyCZNChpow=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%H0pXnHL7pJePpOCewQeNR/aJTvpYBZLQSHU7zyj8F4Q=.sha256",
+    "fork": "%Tv3E+NdVN9U0L8FOQ2IlpewZfuTLprCHlN/OApQBOh8=.sha256",
+    "branch": "%H0pXnHL7pJePpOCewQeNR/aJTvpYBZLQSHU7zyj8F4Q=.sha256",
+    "reply": {
+      "%H0pXnHL7pJePpOCewQeNR/aJTvpYBZLQSHU7zyj8F4Q=.sha256": "@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@NHonigdachsWhonix](@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519) \n\nUnfortunately it's just an auto-complete, so you have to type stuff like `:face` to get a list of all the faces. I don't know how it's ordering them when you just type `:` but it only shows like 100 suggestions at a time and for some reason they're mostly flags (???).",
+    "mentions": [
+      {
+        "link": "@fiGpDf9g/FfbEJNTwj2A8F5p03g1RTa7s9lcUHr6WOQ=.ed25519",
+        "name": "NHonigdachsWhonix"
+      }
+    ]
   },
-  "signature": "hgerzU1gD8NXoac3BbU2NVqNGkQSDhFqOIoKfHgwLBHmnZJjASli17cRDHBau3dCj0zbfh1F1dEsUZ/2HXi8Dw==.sig.ed25519"
+  "signature": "GzD7+Ju7VErCSl2SYx3tx3e729HNM75XD1Wo+4m1g9fU4J6JvZDuGF1Wo+AjgV6WaMVSax4GCeC4Cv1c+IZ+Cw==.sig.ed25519"
 }
