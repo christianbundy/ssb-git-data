@@ -1,26 +1,23 @@
 {
-  "previous": "%kcIEDSoXwXAigMTjV2IryFGLjYHJ6JRQJ7e2ZD3VRJE=.sha256",
-  "sequence": 11618,
+  "previous": "%wXJwUJg7oo1GvNMnH97rK+baUVRudlcFVxEGHHjwEcs=.sha256",
+  "sequence": 11619,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564698131665,
+  "timestamp": 1564707372972,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%B/c1LtUBDOTlSCjupkCVxv9WhoN91bQeEp4vtdnIgRI=.sha256",
-    "fork": "%2QSrnPxTiafhZwbUkFSt4uzvyNcu0eUrcKk4c+ewprk=.sha256",
-    "branch": "%B/c1LtUBDOTlSCjupkCVxv9WhoN91bQeEp4vtdnIgRI=.sha256",
-    "reply": {
-      "%B/c1LtUBDOTlSCjupkCVxv9WhoN91bQeEp4vtdnIgRI=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "woahdude",
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks! I read it a few years ago and forgot most of it, so after sending the link I read through the series (four parts, each better than the previous IMO) and had to put effort into *not thinking about it* and getting on with my day. The whole thing is a trip and I'm  tempted to jump down the rabbit hole and read the book(s).\n\nAny easy sci-fi you could recommend? I've been grinding on [Cryptonomicon](https://en.wikipedia.org/wiki/Cryptonomicon) for months (years maybe?!?) and I'm barely a quarter of the way through.",
+    "text": "Scattered thoughts:\n\n- At one point I was decently interested in #soylent and [quantified self](https://en.wikipedia.org/wiki/Quantified_self) stuff and I tried a bunch of apps.\n- One of the apps I tried was a sleep habit website where you post what time you need to wake up. When you wake up in the morning you log into the website and it displays your rank in the \"who wakes up on time consistently\" competition and I really like it.\n  - I think the thing I enjoyed was that the community was small and you'd feel good seeing that all of your virtual peers are accomplishing their goals with you.\n  - It could be fun to build a small and experimental app on Scuttlebutt.\n  - Stretch goal: build a social todo list app for supporting your friends in their (maybe private?) accomplishments.\n- The competition wasn't really important, but while thinking about timing I considered the pain point in Scuttlebutt where that we can't determine the order of messages across the network. It could be fun to try to solve the problem.\n  - Maybe each message could reference the latest message from each of the feeds it has new messages from?\n  - I should probably do the math to see how many feed references we could fit in a message.\n\n![Flow chart showing messages from feeds A-D referencing each other as described above.](&6jwXXAONvtaoTj4x0e29P9lRy5ixc4QLotYoM039OO8=.sha256)\n",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "#soylent"
+      },
+      {
+        "link": "&6jwXXAONvtaoTj4x0e29P9lRy5ixc4QLotYoM039OO8=.sha256",
+        "name": "Flow chart showing messages from feeds A-D referencing each other as described above.",
+        "type": "image/png",
+        "size": 44687
       }
     ]
   },
-  "signature": "/2F2hvORl+BR1B+N8aQLUekv3WpHZPPnQm3LkWl3ngLS/Ck3tB3V0lslb8vxU6HZ0yWi9qv3kCYvz8onmk99DA==.sig.ed25519"
+  "signature": "e0f2P/0k5GkeeZ1scd4vMBi0sJk6+XPfoxqxqR37/B1Mp9ZEZ7j4tnh1hs8PS9rf4PLGwvZlP2ICu6aZkJJRAQ==.sig.ed25519"
 }
