@@ -1,20 +1,21 @@
 {
-  "previous": "%ZaENXwkR1K9emvSJPv/lD0F/ZrJABRdW1URLlcG5uDU=.sha256",
-  "sequence": 11624,
+  "previous": "%JxxFgfd33sktqlXuEHaXrIuRD4/QBFRL7+KrdXt8LBs=.sha256",
+  "sequence": 11625,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564773570486,
+  "timestamp": 1564774154330,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256",
-    "branch": "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256",
+    "branch": "%JxxFgfd33sktqlXuEHaXrIuRD4/QBFRL7+KrdXt8LBs=.sha256",
     "reply": {
-      "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%JxxFgfd33sktqlXuEHaXrIuRD4/QBFRL7+KrdXt8LBs=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "I think this system might also be able to solve fork detection. If Alice references a message from Bob that Carol doesn't have then Carol can request the message from Alice. If it's a new message then Carol and Alice replicate and if it's a fork then Carol will broadcast the earliest known fork message when she publishes her next message.\n\nUnfortunately I don't think that this would be compatible with the current implementation of private messages, so you'd only be publishing this feed list on public messages. Maybe in the future we could have partially encrypted objects? Doesn't seem completely necessary right now, but it would be nice.",
+    "text": "Ignoring encoding details and using 32 bytes to store the feed type (!) it looks like we could store at least a few feed references in each public message.\n\n```javascript\nconst sizeOfPublicKey = 32\nconst sizeOfFeedType = 32 // ???\nconst sizeOfHash = 32\nconst sizeOfEntry = sizeOfPublicKey + sizeOfFeedType + sizeOfHash\n\nconst maxMessageSize = 4 * 1024\nconst maxMessageFeeds = maxMessageSize / sizeOfEntry\n\nconsole.log(maxMessageFeeds) // => 42.666\n```\n\nThis got me thinking: maybe instead of storing the key in the metadata of the message we should be setting all of that in the \"genesis block\" of the feed? If feed types are permanent then it seems like we should just declare our constants at the beginning of the chain rather than in each link.",
     "mentions": []
   },
-  "signature": "0Q2/M1rqkPPkTrd5CP/nqY4j78fEeMZqPwfVbrD18T12H1lzHZW14lHZvnwDNcC5J+Qoi/2dfIXEOq4N3hxdCg==.sig.ed25519"
+  "signature": "nw+9PgL5HBydICGmbJNw4yXEGC/lQPSBVRhDrH1K88yAoH4FFEotiNDLIj1oIqipOBEAEJu8hEwDYJOW/GQ5Dg==.sig.ed25519"
 }
