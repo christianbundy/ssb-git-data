@@ -1,13 +1,20 @@
 {
-  "previous": "%8N42pvpVtJVpDI4pVfXVcO6ZGfpbd1Om4yCUabJ36DY=.sha256",
-  "sequence": 11623,
+  "previous": "%ZaENXwkR1K9emvSJPv/lD0F/ZrJABRdW1URLlcG5uDU=.sha256",
+  "sequence": 11624,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564770824061,
+  "timestamp": 1564773570486,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "The worst feeling: when you're writing with a pen and you write the wrong character so you try to write the correct character in the same place *except much bolder* and then you realize the character you just write was wrong *again* but you can't possibly make it any bolder.",
+    "root": "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256",
+    "branch": "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256",
+    "reply": {
+      "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I think this system might also be able to solve fork detection. If Alice references a message from Bob that Carol doesn't have then Carol can request the message from Alice. If it's a new message then Carol and Alice replicate and if it's a fork then Carol will broadcast the earliest known fork message when she publishes her next message.\n\nUnfortunately I don't think that this would be compatible with the current implementation of private messages, so you'd only be publishing this feed list on public messages. Maybe in the future we could have partially encrypted objects? Doesn't seem completely necessary right now, but it would be nice.",
     "mentions": []
   },
-  "signature": "v2ym/WpUUmM0IHeMf8PNgl1t6oVzBlZfR+O9gA3zFJD030lyk+/avdlZZlLxWWzzGNxs9EcRZd3W4bxVvBg3Aw==.sig.ed25519"
+  "signature": "0Q2/M1rqkPPkTrd5CP/nqY4j78fEeMZqPwfVbrD18T12H1lzHZW14lHZvnwDNcC5J+Qoi/2dfIXEOq4N3hxdCg==.sig.ed25519"
 }
