@@ -1,17 +1,29 @@
 {
-  "previous": "%dOUOopKZQCzcYtCW1sBKu7C4a9ZpHd+aEHA/B0hM1qg=.sha256",
-  "sequence": 11620,
+  "previous": "%4D61e0tRpbQlcQe2J5+PZd84iaVSLmPKOlGxSEdJEU8=.sha256",
+  "sequence": 11621,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564707389325,
+  "timestamp": 1564763420002,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "woahdude",
-    "vote": {
-      "link": "%+F+XiFLHkzkFXa+pcunOpEvzkLAJy39kEPeAHsjW1tY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%2mzRpUkjf7I4hESb5lZgs5pGpGm/sRNI6kz9bPZy354=.sha256",
+    "branch": [
+      "%n619CfAH/Djtauu8O6VuoDs8FnFUEt9fWn3XefQk6qU=.sha256",
+      "%whG8jIBR19PXBlrZNgzbCXsIEreb1u1ArUhigpPuaW8=.sha256"
+    ],
+    "reply": {
+      "%2mzRpUkjf7I4hESb5lZgs5pGpGm/sRNI6kz9bPZy354=.sha256": "@5fX6QTmue/udf7tLwW25vQ63wZSENrksghBt6vfL4/I=.ed25519",
+      "%n619CfAH/Djtauu8O6VuoDs8FnFUEt9fWn3XefQk6qU=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I'm not sure whether [@jimpick](@XdApp72tocY2mRvkyzt/C1nDKT/3lAS0ZK6Hw6GKxnY=.ed25519) is still working on it, but at one point he was working on a tool called [pipette](https://pipette-dev-blog-jimpick.hashbase.io/) that used [Netlify CMS](https://www.netlifycms.org/) to make a user-friendly interface for editing. I've got some clients using WordPress websites and I've been strongly considering moving them to something similar.",
+    "mentions": [
+      {
+        "link": "@XdApp72tocY2mRvkyzt/C1nDKT/3lAS0ZK6Hw6GKxnY=.ed25519",
+        "name": "jimpick"
+      }
+    ]
   },
-  "signature": "vwWvqRgYX/TJDXcEK6+/D0EwYqQsVbl71eaKeUlGfi1yQD8QinPtbUKUUQnps6QF7JJNSnXHpqFfTTQgUZb3Bg==.sig.ed25519"
+  "signature": "0Rcg0ljNLVdOYDRZuMsQeUTnIW8djzaHxDQ7xVHJV0BY5OshpAnxGMXJkALP7aO1Vl9ozG3AJv02kb0m+iefBA==.sig.ed25519"
 }
