@@ -1,16 +1,33 @@
 {
-  "previous": "%FSVyFqt1q/4F9AXoLev1INWw6G8+oAw7e5iD6hmbBZM=.sha256",
-  "sequence": 11630,
+  "previous": "%PPl9a1srPlCyN9LdhinNMEx+2kDBaB32yYLE+YP8SJY=.sha256",
+  "sequence": 11631,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564848972156,
+  "timestamp": 1564849433701,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%++uBwd+x0YOo1DMayQl2DIx3fIN/lJv3Fb8/Z3Zpczg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%++uBwd+x0YOo1DMayQl2DIx3fIN/lJv3Fb8/Z3Zpczg=.sha256",
+    "branch": "%3Tq1gM1/9oYuJtowWJ/h8/u4N5EyP1spyh0l6lIAFuw=.sha256",
+    "reply": {
+      "%++uBwd+x0YOo1DMayQl2DIx3fIN/lJv3Fb8/Z3Zpczg=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
+      "%3Tq1gM1/9oYuJtowWJ/h8/u4N5EyP1spyh0l6lIAFuw=.sha256": "@DrX0cR0jdh6lx0gLMjjyMzlEZpxTY8UGYsT4iEvELf0=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@frankie](@DrX0cR0jdh6lx0gLMjjyMzlEZpxTY8UGYsT4iEvELf0=.ed25519), welcome!\n\nBased on the bulbasaur in your bio and the deerling in your profile photo I really wish you were at #dweb-camp for [@Angelica](@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519)'s silly drawing session. We tried to draw pokemon from memory and it went exactly like you'd expect. 🥴",
+    "mentions": [
+      {
+        "link": "@DrX0cR0jdh6lx0gLMjjyMzlEZpxTY8UGYsT4iEvELf0=.ed25519",
+        "name": "frankie"
+      },
+      {
+        "link": "#dweb-camp"
+      },
+      {
+        "link": "@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519",
+        "name": "Angelica"
+      }
+    ]
   },
-  "signature": "RDIaXg71Nca64YSd8uuklDnZa632P7SZgeh36+75d8/W4emf3TmV6GHZGxkIJpnezXX8mc2KX9mTlJ8UGkagAg==.sig.ed25519"
+  "signature": "6J9r7lBgMCCqPYQ15fp8vgExFazFGKnvUXA+zhK7OdINNsoJ9nmug0wRx6F02KuFSn9Tii7CllnREMUT4cffCA==.sig.ed25519"
 }
