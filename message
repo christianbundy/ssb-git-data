@@ -1,23 +1,24 @@
 {
-  "previous": "%hPiIQGGeT2wrxLlc7SHqQzQWdVvMIeBmZ5C9gSBG9fk=.sha256",
-  "sequence": 11638,
+  "previous": "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256",
+  "sequence": 11639,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1564947351683,
+  "timestamp": 1564947905892,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Clean your air conditioner. #sundiy \n\n![Photo of opened air conditioner with cobwebs and dust and nastiness.](&6YAgGezYemZHenSe39kUTiTmyp30uMrjYWkfOad1jqM=.sha256)\n\nThis hasn't actually been cleaned before so this is about twenty years of buildup and I think it's honestly beyond repair. I cleaned as much as I could, but there's mildew in the insulation and dirty components I can't disassemble and I can't find any parts online. Maybe it's because it's so old, maybe it's because it runs on [R-22](https://en.wikipedia.org/wiki/Chlorodifluoromethane), but I think we should probably just buy a new air conditioner.\n\nOn the other hand, cleaning this old air conditioner was great at driving home the fact that *I should regularly clean my next air conditioner* so that it never looks like this. We'll see whether that's as simple in practice as it is in theory.",
+    "root": "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256",
+    "branch": "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256",
+    "reply": {
+      "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Aside: it would be cool to have a distributed changelog for shared resources like cars and air conditioners and operating systems and all sorts of thing that we transform and improve. I'd imagine that this problem space would have all of the same problems as #same-as and other quirks of \"who controls what\" in distributed systems.",
     "mentions": [
       {
-        "link": "#sundiy"
-      },
-      {
-        "link": "&6YAgGezYemZHenSe39kUTiTmyp30uMrjYWkfOad1jqM=.sha256",
-        "name": "Photo of opened air conditioner with cobwebs and dust and nastiness.",
-        "type": "image/jpeg",
-        "size": 2196944
+        "link": "#same-as"
       }
     ]
   },
-  "signature": "YzRCrtXto0bZq/RkP6fIoGmN7VtnmYT1v9LKIjZOxf5mwchkXau91WlFxpm8rcuwD0EIoeikZCEZVDcHxQ31BA==.sig.ed25519"
+  "signature": "BA72TWLlcZdxigA05bXEyZ8Bi2piDh7hBQilDdRl/WsDnTfDM9JluSENd7fgQl+FHiCrF6D1CrXVrk1nfj2kBg==.sig.ed25519"
 }
