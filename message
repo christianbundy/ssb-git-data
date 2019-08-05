@@ -1,17 +1,21 @@
 {
-  "previous": "%kzCXDqwedwIgJYR7NqbdlamLiCvcWrBWI6HqmUFdMbA=.sha256",
-  "sequence": 11657,
+  "previous": "%gjPnaihVRUYC6Hu3qtsDmrMe5GYpLpmMnxyyep97Wm0=.sha256",
+  "sequence": 11658,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565030325057,
+  "timestamp": 1565030733184,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256",
+    "branch": "%lA5vPyMyXQoMssMCI6Unci5t3oF/QvUzu1/E4orm/YA=.sha256",
+    "reply": {
+      "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%lA5vPyMyXQoMssMCI6Unci5t3oF/QvUzu1/E4orm/YA=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%AjZKadDFUtJsfXwbMw2zU/DAhfKh9JEjq87A9WaQ8OQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "> the transition to heat when leaving the cooled area felt much more natural with a fan\n\nYeah, this might be part of it. In our apartment the *hallways* are air-conditioned but the units only get heat. We tried to siphon AC from the hallway two summers ago but couldn't figure it out. I think if we had a powerful fan pointing out one of the windows we could probably generate enough suction to pull the cool air in through the hallway, but my parents offered their old AC before I started experimenting.",
+    "mentions": []
   },
-  "signature": "9a4NguC94HPKosvrrwc1msqHQ2y6RtyLXLqQlnmdsJHZWzOS2fFHl7fr5y887nQauxIm8vG+C9B0u3On5MgRCg==.sig.ed25519"
+  "signature": "1Gs1JRf3szh4UInM2ked6eCWlVvGi+4H927FHtl/W45KYb3HnkUHO/36ymQaPZDFZ9Xhtz6O/JsxMytMqQrABw==.sig.ed25519"
 }
