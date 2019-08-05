@@ -1,16 +1,29 @@
 {
-  "previous": "%LCxlt7I2EIw3St3PSH+hB7CGlXRimKTuGLb8RMZ+WC4=.sha256",
-  "sequence": 11666,
+  "previous": "%QYZcjIbPDo++dFbsY/kysYgjcdZT6djVBaDc/70vUOI=.sha256",
+  "sequence": 11667,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565048361308,
+  "timestamp": 1565049387344,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Wj6bp0qW7eCpcFud3wup3xPdm7QKMRyevfPLBD4krds=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256",
+    "fork": "%ZSGJ7dM1uReP3IxjYPWN00oS5CKl0ThEKKwI4LtBUsQ=.sha256",
+    "branch": "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256",
+    "reply": {
+      "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI feel a tension between \"this app doesn't use any JavaScript so you can use any browser\" and \"this JavaScript app runs from a static HTML file\". Do you feel strongly toward one or the other? I'm making #oasis so that it's just an HTTP server that responds with HTML and CSS, but sometimes I wonder whether it should be a client-side JavaScript app (like mvd) that doesn't run over HTTP at all.\n\nI suppose maybe that would make for an interesting project: a tool that takes your JavaScript app and produces *both* a flat-file JavaScript app and an HTTP server depending on whether the end-user wants to run JavaScript in their browser.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "#oasis"
+      }
+    ]
   },
-  "signature": "5jPJoN2GNmgF4nG6A9jMElX9bjUnj67oKAGgIfnohQU73hruimHY9DS2a0QIt2dgBHgDYJKUsxs1UTrMq1z8Aw==.sig.ed25519"
+  "signature": "72OjBq/NqPHULIuC0pXHKnKuVlKZ5oxUU+cmFfoRxyRiVFuf5hyYbqwE01oUdoYByth3TSHdnJpHkG/xASW3BQ==.sig.ed25519"
 }
