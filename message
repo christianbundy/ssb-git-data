@@ -1,21 +1,17 @@
 {
-  "previous": "%/k35ch+HMFyp0lvJcPm179t3axNI7kIZgF4sFgqs3co=.sha256",
-  "sequence": 11668,
+  "previous": "%1RLr5omK1pi/vPcyDBaScUF+joF0uShtnIov3suxRHw=.sha256",
+  "sequence": 11669,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565052560601,
+  "timestamp": 1565056903481,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%q9yFoPLqVfDKkKcBcUg+a2w5IaSfKkh9uF5fp5+SIVA=.sha256",
-    "branch": "%2tzQux8kTf8Zw7QgD66LRnsbwp0wvHNNoTI72s54N2M=.sha256",
-    "reply": {
-      "%q9yFoPLqVfDKkKcBcUg+a2w5IaSfKkh9uF5fp5+SIVA=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-      "%2tzQux8kTf8Zw7QgD66LRnsbwp0wvHNNoTI72s54N2M=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
-    },
-    "channel": "faerie-rings",
-    "recps": null,
-    "text": "- **Past:** have done online faerie rings twice before\n- **Timezone**: UTC-08:00, I'm usually around from 16:00Z to 04:00Z\n- **Motivations:** I like butts and I'd like more of them in my life. I really get a lot out of connecting with you all over text and I'd love to spend some time in higher-bandwidth mediums to connect better.\n- **Requests**: `null`",
-    "mentions": []
+    "text": "I don't know how I've never thought ot this.\n\n#javascript \n\n## before\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map((entry) => {\n  //                     ^^^^^\n  const [key, value] = entry\n  console.log(key, value)\n})\n```\n\n## after\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map(([key, value]) => {\n  //                     ^^^^^^^^^^^^\n  console.log(key, value)\n})\n```",
+    "mentions": [
+      {
+        "link": "#javascript"
+      }
+    ]
   },
-  "signature": "3eJPq9jc6QOESwg4hFoMOD0YhlfYQVBxHLF29BLEwbPCZe22yAEsEshHFOPB2WRLh8CV9HNiv13x9OMp/f2ICA==.sig.ed25519"
+  "signature": "M9RXv03mF+l8Iwo3vjx8RfYdrq/544Qo+V1jwJyckX8zOK/jkfhfj5p4qHd1G1loOpnKP6VCmT/+5JkrWFBXBw==.sig.ed25519"
 }
