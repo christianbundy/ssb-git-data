@@ -1,16 +1,26 @@
 {
-  "previous": "%k1L4S+HjruzIdUQ/WhwHM6IMlnkaklrCooyNFBLobsQ=.sha256",
-  "sequence": 11673,
+  "previous": "%RtiGyW5mAYcvUwXkJ7b4xt9g+2G0mqdVyOqWdeO31XA=.sha256",
+  "sequence": 11674,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565102779615,
+  "timestamp": 1565102807973,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Ks5bRAxYybOKIoGFZZeSoOnvSpJYeGm6KId1seFMMEA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Ks5bRAxYybOKIoGFZZeSoOnvSpJYeGm6KId1seFMMEA=.sha256",
+    "branch": "%Ym+fDD/nXami4nxPMXbOuTJzsvbvSglw4Ij/ERXdhMk=.sha256",
+    "reply": {
+      "%Ks5bRAxYybOKIoGFZZeSoOnvSpJYeGm6KId1seFMMEA=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+      "%Ym+fDD/nXami4nxPMXbOuTJzsvbvSglw4Ij/ERXdhMk=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\n\nIt's beautiful! Did you use a recipe? ",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "alex"
+      }
+    ]
   },
-  "signature": "eK96TWTwQsxKnFr1SmCIedYvvpzugsSZpd20bLZXGlfUGYa0ICteiRL/yVWmvt3WClfbDY2fQHKnYemtyVE3AQ==.sig.ed25519"
+  "signature": "NgnDS5QTwwjoIFjWDA7KrC5zKRAAq32WxtWtgMJdLdaw/TQm/ckA4YhIuYRhyQAkmWryr/qb/pGvEHtK7dJ/CQ==.sig.ed25519"
 }
