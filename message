@@ -1,17 +1,30 @@
 {
-  "previous": "%1RLr5omK1pi/vPcyDBaScUF+joF0uShtnIov3suxRHw=.sha256",
-  "sequence": 11669,
+  "previous": "%ZI4TQXaHSzKqz/eNiJiTJMEtf+cPzbzGzyO/494nwrg=.sha256",
+  "sequence": 11670,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565056903481,
+  "timestamp": 1565101666161,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I don't know how I've never thought ot this.\n\n#javascript \n\n## before\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map((entry) => {\n  //                     ^^^^^\n  const [key, value] = entry\n  console.log(key, value)\n})\n```\n\n## after\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map(([key, value]) => {\n  //                     ^^^^^^^^^^^^\n  console.log(key, value)\n})\n```",
+    "root": "%DAgzkV6l/H1SOnV70Zy/GwOGMyIXCvnuMnBl8Y7ZSMQ=.sha256",
+    "branch": "%oxgF7qWrIgoW4ql0i9ybTNRefM5Oq0pGiNoagmFkQc4=.sha256",
+    "reply": {
+      "%DAgzkV6l/H1SOnV70Zy/GwOGMyIXCvnuMnBl8Y7ZSMQ=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+      "%oxgF7qWrIgoW4ql0i9ybTNRefM5Oq0pGiNoagmFkQc4=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519) \n\nHappy to help!\n\nI think [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) will probably know a lot more about the npm-ssb and git-ssb, but I think \"stream ended with:X but wanted:Y\" is fine, it just means you've disconnected from a peer.\n\nI don't know what the \"Cannot read property 'commands'\" thing means though, maybe Patchwork isn't running the right plugins?",
     "mentions": [
       {
-        "link": "#javascript"
+        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+        "name": "VI"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ]
   },
-  "signature": "M9RXv03mF+l8Iwo3vjx8RfYdrq/544Qo+V1jwJyckX8zOK/jkfhfj5p4qHd1G1loOpnKP6VCmT/+5JkrWFBXBw==.sig.ed25519"
+  "signature": "JadAn89nDjm3hNZjRSIm1yUXjDpbXh46YjoLbn38Jh2ckj7QubWntyboxXMpMKSHrsyAS0zH8C8wU4094JjuDw==.sig.ed25519"
 }
