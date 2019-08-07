@@ -1,17 +1,27 @@
 {
-  "previous": "%ufJNSPlJv10dwh9Ne6nwkw1nkh6jNouzyHh+xNZg+Pk=.sha256",
-  "sequence": 11680,
+  "previous": "%bVl9lEWHDgSMx1q4lDZCgMaI7xKrHrkygHYx3Suin8w=.sha256",
+  "sequence": 11681,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565139414270,
+  "timestamp": 1565140066552,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%mAucoyAHc2bpfdNzpyuhUFpPbSKcKb9H0PexPteam/g=.sha256",
+    "fork": "%+ts437AFVSvkzcUvSTdnxjQo0YhPdKxR2ewxRBOvpGM=.sha256",
+    "branch": "%PSIGb0Q3swZSIXQET1xjiaLr+hr3tjhZFjy6DzvDWqM=.sha256",
+    "reply": {
+      "%mAucoyAHc2bpfdNzpyuhUFpPbSKcKb9H0PexPteam/g=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%PSIGb0Q3swZSIXQET1xjiaLr+hr3tjhZFjy6DzvDWqM=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%Vpp4S2SxC4PSKG90aVsxepoGnpqMqGsvpuiArXY7OGE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nZubat, hands down. I've spent *way* too many hours under Mt. Moon and in Rock Tunnel just getting swarmed endlessly by zubats. I captured one and evolved them into a golbat and then I disliked them a bit less, but I'm still really not crazy about them.\n\nDid / do you have a main pokemon you can't stop using? I had a really hard time using anything other than my blastoise, I loved that little dude.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "X8qTWr6a6du2K/waJJJyMSF7gsqRd0IgH05P6vuS1WVpz2mlgx1ScgXbAJYB6zWKYo8RjFcTzCpycSZbizXAAA==.sig.ed25519"
+  "signature": "RsZPnPFXCT6VI+lxFnifqZt/rpO1R6+4pW+X52d/JRQ5GNayTcCKApQexy4K/sph/5gF0CRdtb2/yLNmI0ufCg==.sig.ed25519"
 }
