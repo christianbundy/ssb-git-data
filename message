@@ -1,26 +1,17 @@
 {
-  "previous": "%/miJRLLkb6ylUrBb2GDwuDcVhDT9nF9ygxaj4baztqQ=.sha256",
-  "sequence": 11721,
+  "previous": "%KmoIbjQCqmsOs91FwhPknwlfyweYUtZF9QP9d5IrVQc=.sha256",
+  "sequence": 11722,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565280602767,
+  "timestamp": 1565280607791,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256",
-    "branch": "%eH0L5/sgfkBrgCjaciGrncVPsdw3QzZA0BLKbSweeAw=.sha256",
-    "reply": {
-      "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-      "%eH0L5/sgfkBrgCjaciGrncVPsdw3QzZA0BLKbSweeAw=.sha256": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519"
-    },
+    "type": "vote",
     "channel": "feature-request",
-    "recps": null,
-    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nI can't think of a straightforward way to do this with current clients, but this is important to me and I'll continue thinking about it. Thanks for sharing the pain point. :rocket: ",
-    "mentions": [
-      {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bob"
-      }
-    ]
+    "vote": {
+      "link": "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "wA6PIKZXyzZQXuTmKyCrKIpVWGaz6lKl4b6po7SUMd3LXWO188sT8ymg8ven0vyNqH7mqV7IpQ1ZO8FhmBtDDQ==.sig.ed25519"
+  "signature": "XMHU3rPi7dptvJzW+U+VCEMrXwT2YL7zPiMAhircMPU/jwXe2OkzlWW13H6Wi3LPurtY8fqYV2nDy0pmELlsBQ==.sig.ed25519"
 }
