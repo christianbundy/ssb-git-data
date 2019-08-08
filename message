@@ -1,17 +1,26 @@
 {
-  "previous": "%KmoIbjQCqmsOs91FwhPknwlfyweYUtZF9QP9d5IrVQc=.sha256",
-  "sequence": 11722,
+  "previous": "%gf6/YaytuwRMVF902ha4+wh/yZKaxBoBcBiUa+4TQm8=.sha256",
+  "sequence": 11723,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565280607791,
+  "timestamp": 1565288663559,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "feature-request",
-    "vote": {
-      "link": "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%UdsSh7lz5jnOUSGWGC2HlttpoZncG+yUmO0X4F9g2TA=.sha256",
+    "branch": "%sCRfQ7SMZSICbjGxxsHiNWSf5NmwQ48xQEaStR8VNGI=.sha256",
+    "reply": {
+      "%UdsSh7lz5jnOUSGWGC2HlttpoZncG+yUmO0X4F9g2TA=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+      "%sCRfQ7SMZSICbjGxxsHiNWSf5NmwQ48xQEaStR8VNGI=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nWhat's a VN? I googled around a bit and found [visual novels](https://en.wikipedia.org/wiki/Visual_novel) but I wasn't sure whether that's what you meant.",
+    "mentions": [
+      {
+        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+        "name": "enkiv2"
+      }
+    ]
   },
-  "signature": "XMHU3rPi7dptvJzW+U+VCEMrXwT2YL7zPiMAhircMPU/jwXe2OkzlWW13H6Wi3LPurtY8fqYV2nDy0pmELlsBQ==.sig.ed25519"
+  "signature": "301TzYhWoKVCnMn4xD5xTaIqYqDhyXCtIPaA88/lPNppDlhUt/Iv1Nsmafw8ZGsJjo1NDJR6X+wxhJUrbxK7Ag==.sig.ed25519"
 }
