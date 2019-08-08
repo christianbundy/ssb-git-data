@@ -1,15 +1,26 @@
 {
-  "previous": "%AsKUK/5ZNbNBvWIbke1DpnPdJc75V0v8wNJehF+lmzA=.sha256",
-  "sequence": 11720,
+  "previous": "%/miJRLLkb6ylUrBb2GDwuDcVhDT9nF9ygxaj4baztqQ=.sha256",
+  "sequence": 11721,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565280490147,
+  "timestamp": 1565280602767,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%HkZE4U9UIBrf/w4HBlqTtbAhcwx+EqFMVc2uBZDVGUU=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256",
+    "branch": "%eH0L5/sgfkBrgCjaciGrncVPsdw3QzZA0BLKbSweeAw=.sha256",
+    "reply": {
+      "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%eH0L5/sgfkBrgCjaciGrncVPsdw3QzZA0BLKbSweeAw=.sha256": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519"
+    },
+    "channel": "feature-request",
+    "recps": null,
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nI can't think of a straightforward way to do this with current clients, but this is important to me and I'll continue thinking about it. Thanks for sharing the pain point. :rocket: ",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      }
+    ]
   },
-  "signature": "QqEXDqoxABRsLn73jsb1Vhq7xVkxxz1BeMiIA4bdd0fUtcZjwe0qcQcgwNp24H89+wDuTEXjubtZOGBoB3+yAA==.sig.ed25519"
+  "signature": "wA6PIKZXyzZQXuTmKyCrKIpVWGaz6lKl4b6po7SUMd3LXWO188sT8ymg8ven0vyNqH7mqV7IpQ1ZO8FhmBtDDQ==.sig.ed25519"
 }
