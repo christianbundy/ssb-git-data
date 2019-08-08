@@ -1,20 +1,17 @@
 {
-  "previous": "%2ayv2kkpYdaYeVzVl/OytGjKL5nb5zfzawznZJY+PbE=.sha256",
-  "sequence": 11730,
+  "previous": "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256",
+  "sequence": 11731,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565305671858,
+  "timestamp": 1565307589536,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Composing Scuttlebutt messages without JavaScript\n\nI've *finally* got some basic message replies working in #oasis, which is cool, but I'm realizing that composing messages without JavaScript means **no autocomplete**. Anyone have suggestions for an elegant solution to this problem?\n\nI know that #patchfoo has the same problem, and I think the rough algorithm is:\n\n1. Parse the message for `@${name}` where `${name}` is a string without whitespace\n2. Compare the string to profile names set by `{ type: 'about' }` messages\n3. Cross your fingers that there aren't any duplicate names across the network (?!?)\n4. Create a key-value pair in `msg.value.content.mentions` to express the relationship\n\nI've got a few questions:\n\n- Is this the best way to do it?\n- Are there ways to express names with whitespace? `<@>${name}</@>`? 🤣\n- What are the best ways to handle duplicate names?",
-    "mentions": [
-      {
-        "link": "#oasis"
-      },
-      {
-        "link": "#patchfoo"
-      }
-    ]
+    "type": "vote",
+    "channel": null,
+    "vote": {
+      "link": "%1BRWWwpD+r+4IeQDxzZd7mp929juv8tEjeo4BzA5gYw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Jab5DVK1QWVvpl3AvzSGc3XeZC4zjttxgp+S7tUQofHZxypXB1WGEMOPmMo/7HCCubV7HqwDq4OCtzgAXLsEDg==.sig.ed25519"
+  "signature": "pf0YoALGILEASl8WaS8GkEjS/9nGfBRGFKRF8IE1pQy001bjmYYY5CfexzifCqD5zTQCncPLdH3LFA4Rj1QNDg==.sig.ed25519"
 }
