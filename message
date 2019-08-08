@@ -1,17 +1,26 @@
 {
-  "previous": "%mzyD550p37/62PO/yC/3NEjHZPFa+0q5D6dETkeDQPU=.sha256",
-  "sequence": 11714,
+  "previous": "%UC9ArGE0ZnRbCAN/uDImpeB6pTxhgcOy2qSa9b2VIFE=.sha256",
+  "sequence": 11715,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565279223348,
+  "timestamp": 1565279332185,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jcQVKOXcbpdldn5XgGjFHe5Tpo/4Rya35+26Vt5cNL0=.sha256",
+    "fork": "%GyOYoxYckE4aX7luObFulnpcZ6r/FeTwvoC0RHScPKQ=.sha256",
+    "branch": "%jcQVKOXcbpdldn5XgGjFHe5Tpo/4Rya35+26Vt5cNL0=.sha256",
+    "reply": {
+      "%jcQVKOXcbpdldn5XgGjFHe5Tpo/4Rya35+26Vt5cNL0=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": "patchfox",
-    "vote": {
-      "link": "%sYcxGLGNhSLmYWCFXUNG9Jj+v1aVE/2EzIKHQb5QOT0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nDo you know which modules are assuming that they have access to `localStorage`?",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "4NqjVcdw5PALiKq8klXcsMQzApgb2+91+d3CocTEyUT0Bpg2qQGtyrfCSu8FQYOkXjK52uWIgxsDo1fTbz8FBg==.sig.ed25519"
+  "signature": "4pZOBAtY7ZB8XtCBCrwFMQFFGkQz/dNepT4+IfjU2beeU5p5A/aoVIzMh4rKLcwN3iLHHInUAh2AtfvYnjWXDw==.sig.ed25519"
 }
