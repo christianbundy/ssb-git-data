@@ -1,16 +1,20 @@
 {
-  "previous": "%ID4DYMq5tSbX1Z7T6y3uuv6tw4fPn9142hZq43ypll4=.sha256",
-  "sequence": 11729,
+  "previous": "%2ayv2kkpYdaYeVzVl/OytGjKL5nb5zfzawznZJY+PbE=.sha256",
+  "sequence": 11730,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565298643371,
+  "timestamp": 1565305671858,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Cl1eeKuo6qHtQesNr8yA582aOHRVzaJV5Oh9fE/sxSE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "# Composing Scuttlebutt messages without JavaScript\n\nI've *finally* got some basic message replies working in #oasis, which is cool, but I'm realizing that composing messages without JavaScript means **no autocomplete**. Anyone have suggestions for an elegant solution to this problem?\n\nI know that #patchfoo has the same problem, and I think the rough algorithm is:\n\n1. Parse the message for `@${name}` where `${name}` is a string without whitespace\n2. Compare the string to profile names set by `{ type: 'about' }` messages\n3. Cross your fingers that there aren't any duplicate names across the network (?!?)\n4. Create a key-value pair in `msg.value.content.mentions` to express the relationship\n\nI've got a few questions:\n\n- Is this the best way to do it?\n- Are there ways to express names with whitespace? `<@>${name}</@>`? 🤣\n- What are the best ways to handle duplicate names?",
+    "mentions": [
+      {
+        "link": "#oasis"
+      },
+      {
+        "link": "#patchfoo"
+      }
+    ]
   },
-  "signature": "Prs651Q7V2ftm0wbsprRLWvmbdcQycJz6uzm9AWqZ9JesuZI87c1LswpyhSQir3hVVPnjIOhgyxGRuWxaAHgBg==.sig.ed25519"
+  "signature": "Jab5DVK1QWVvpl3AvzSGc3XeZC4zjttxgp+S7tUQofHZxypXB1WGEMOPmMo/7HCCubV7HqwDq4OCtzgAXLsEDg==.sig.ed25519"
 }
