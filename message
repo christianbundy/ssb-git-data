@@ -1,26 +1,27 @@
 {
-  "previous": "%ud7FR88bzDFJis6/hyu9Lxvm29/ZAe+dZVX/vnKe0VU=.sha256",
-  "sequence": 11732,
+  "previous": "%0CgVnXYUUrBlcapWn0ZEzo4lxToQL1Wmda8aEgWKccA=.sha256",
+  "sequence": 11733,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565309540166,
+  "timestamp": 1565310309999,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256",
-    "branch": "%WYgJ79TQKJ1uFEfsNoeD4S9pkXfAv9JgrrMdfZjQ9N0=.sha256",
+    "root": "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256",
+    "fork": "%ZSGJ7dM1uReP3IxjYPWN00oS5CKl0ThEKKwI4LtBUsQ=.sha256",
+    "branch": "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256",
     "reply": {
-      "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%WYgJ79TQKJ1uFEfsNoeD4S9pkXfAv9JgrrMdfZjQ9N0=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+      "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+      "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nRight, impersonation attacks and duplicates are both very frustrating problems. One [maybe silly] option would be to assign a unique nickname when you follow someone, and if you haven't assigned someone a nickname then you can only mention them by their full feed ID.\n\nWhile we're at it, it seems to me that we could just remove the nickname from the message posted to your feed *in general*, that way when I'm reading a friend's post I can't get confused by the nicknames that they're using for our mutual friends. Instead we'd just publish their feed ID, and each client could substitute that with a nickname *or* the referenced person's preferred nickname (probably with a big question mark or something).\n\n> The compose page could have a tall scrolling sidebar of people you most often mention so you can copy and paste their names into the compose box\n\nI think this would probably work -- if messages and feeds had easily accessible identifiers then you could just copy and paste those. Or maybe this whole no-JS thing is silly as hell. I don't know.",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI'm really not sure, recently I've been thinking about how HTML/CSS/JS just keep growing and how it might be useful to decide on subsets (like [Jessie](https://github.com/Agoric/jessie)) that are both useful and minimal, but it's unclear to me where you'd draw the lines for HTML and CSS. In my mind it seems obvious that we probably shouldn't be using non-strict mode in JavaScript, there aren't any obvious collections of features that we should prune from HTML or CSS.\n\nFor example, I've been using flexbox because it makes layouts ultra-simple in Chromium/Firefox/etc, but it doesn't look like there's any support for that in IE/Dillo/lynx/etc. This means that you have to choose between compatibility and ergonomics, which is a zero-sum trade-off that nobody really wants to make.",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
       }
     ]
   },
-  "signature": "nZaq4rQZ78JKIGjLsKBBg3+J7jakwgq077IxI37C9uuKct9xQmJyM7dxQW33peiWpwslVwEMUqYQ3x52MUTdCg==.sig.ed25519"
+  "signature": "3zd9ARmvBq4E0kblNKs09rv/GgmeGtxS3E/4iZLDGwbG/flj4lr6bLyChe6qDeeaEKPGZHjn5iF4SLxML5rGDA==.sig.ed25519"
 }
