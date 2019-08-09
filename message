@@ -1,27 +1,9 @@
 {
-  "previous": "%0CgVnXYUUrBlcapWn0ZEzo4lxToQL1Wmda8aEgWKccA=.sha256",
-  "sequence": 11733,
+  "previous": "%ceCsijY63Sux742P8pZiCdD4vWg5gqxWbaJLpWgFpDo=.sha256",
+  "sequence": 11734,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565310309999,
+  "timestamp": 1565310883475,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256",
-    "fork": "%ZSGJ7dM1uReP3IxjYPWN00oS5CKl0ThEKKwI4LtBUsQ=.sha256",
-    "branch": "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256",
-    "reply": {
-      "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-      "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI'm really not sure, recently I've been thinking about how HTML/CSS/JS just keep growing and how it might be useful to decide on subsets (like [Jessie](https://github.com/Agoric/jessie)) that are both useful and minimal, but it's unclear to me where you'd draw the lines for HTML and CSS. In my mind it seems obvious that we probably shouldn't be using non-strict mode in JavaScript, there aren't any obvious collections of features that we should prune from HTML or CSS.\n\nFor example, I've been using flexbox because it makes layouts ultra-simple in Chromium/Firefox/etc, but it doesn't look like there's any support for that in IE/Dillo/lynx/etc. This means that you have to choose between compatibility and ergonomics, which is a zero-sum trade-off that nobody really wants to make.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ]
-  },
-  "signature": "3zd9ARmvBq4E0kblNKs09rv/GgmeGtxS3E/4iZLDGwbG/flj4lr6bLyChe6qDeeaEKPGZHjn5iF4SLxML5rGDA==.sig.ed25519"
+  "content": "nab479sap3GDs0Z5ETRA+QweTCHuKR6V2ue/h/MvHX4Z12VhYVBqyws5J+0CYQNCYNII79luF0YhGYXenx58qagOu/UY2qAUfur9EUwFxaYsEX1yAdeNyipVIqkiVwQ18OhBWGeiN9kv3mWUAG6KufZCHhXpFEN2TVjnK0h1vBpmRAX/fLebxmq8AJ0f+g5UFtGF+fWAiW8Ph2W8FOFHIn0QkpBSTq5V9DVMDGerg1IYhzpev2AFDFBDK2JfzQeG85yVEpoQ9PNnu7Twejq9seQKu4tpNzOVr0sAcSgnRNa1mVsRkNUI3sBGW20BfVb1cAYb6VxH62QOzQ9pF1wrRGbhUOyKhsUh1ruYz/f+60/yR+9sZ7Zr9hJSlyGToBxBEC0C56D8FeShxMTgKyqMkg6ym71IalcApHF85IVJJHRUEQghqG450COnttFaVqBPBSfgHC3I+09i4XF2QrbDdvPwvE62ZqKFTKUxPpysLo/JcALTxIvZatKOaUItqFQJgdJ1uFaYbF5yOxn+6Si64V87PqpW7SOe4eHt86Hhs7cLDeH9Sx/FJVL14+94xH76iZSwdEzu0BrYxASWJs3HtZmNLfd4ckb0bIOrp+LWaRhH8THEuJRHQjv8kYuDUiyqwb+dYUBf6JEwPbONx9k1GBelY8Oo/Wf4ZdtIRYwA7UjfYl8uQnVJC/TGZYd5j4Sl2olKo8i7B/qFt3pY+rIQcDApj6zZvWjatuUsW87ZJ98XXLffuP5gY56xHxt4UK9yAj5TRCBuLEYy+zasVSin6gnYJTlsKcmeAjfbP+elFmp4pPou8Cojrx2Cmz4+mz6ioyqE64jatIs3umcrHSsKElhFeWM6y2hu7iXevWefwYHGOXS/+Uw7hjonQk51Z91vFCsqetYbFjlaRV16PlyPt4QRNh4UZkt/yo7zzXl8E0ABigUEhzmMI3PF9yBe8FVNg5SKCGsqtTXJ3o9bu7y1+HZFGZdrRfyuQprbXkTtd0neUuafwgVZ0SsEmZ4hR5sUA6SgHRUafjyE7zBHkjhBhVuQuxjesJkfoJDAjbzW9chhgWybLDQTkUAVJJEuBFZcsFb72zJO0vSB2Hs4P03FBL42h2DDWQVOiEm+ZdEpkTOLHFhbOWYoDWIXcmyXBkjn111mTJuskS7mAWCQTamrRJTYQmXcLPpUqRpRWKNSs+cDgae19NG6fpmC7D/O+Ysm7+HucU0XbXwhMexLcPCgWqx4yVwjdmmT2C26Al2DSUrAMgRHuja0xaleZXihPiS3GygRH4AmuutDmirBGh7myo6FvS84hr5yT0jUPtW749TdlNYAvq+QT5E99F94pDXVANyHqg4r8cNdi3snKtpHCmCwueDEBfE1pmJ0IeR6tYT312NhayU8P96Ee0pOBdbnlSDFsFYRj/VoRBo9RUZmOBbEzxbgzEUEMkirlwysvRSlXm5ciKzwoJEbxdELOfqSqZQ5KdIgpSA3Ivcb6zdfdRcixpOwKrt1eflqQtqXZW6rtg2L8Vd7BoNeh0cjOmkedOmrJOSwdV5xmcn4nnQdWgIaEpcmYa4wjBIM8eXUSk15NWgL6tdkHE1m37IxV7WhVd5rnDqKkzVauX7yHan7s00X8kkKkIB2R1imBFZUe7sBGP9Kc4Tq2PNeIUNVZR+WdD4LBA2rWj2eWtKq6lmzYQCP3nDXwFxebbddxyiyLBiMjFmmEZ2w7KwE6Ya7xeSe4EVC21rBLmu6URRykvm0CCOk8Lcbmg==.box",
+  "signature": "nT3QZ+SQpm4MbWfk9gl3MDJjMLGLV2rV6hs7+EuP2ZM6rGW+Hngb90xpsNUS6Nd9j0XX9WBb2v8ep4BX4IagCg==.sig.ed25519"
 }
