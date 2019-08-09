@@ -1,26 +1,17 @@
 {
-  "previous": "%xb9Zzc/q3oQV2syEma7PpPQE7jyBkhJdM44ummLNwN8=.sha256",
-  "sequence": 11752,
+  "previous": "%5w/47GfDclrvPDXOtyZ9qtTceQA74vtiUK7AJg48gu0=.sha256",
+  "sequence": 11753,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565374243070,
+  "timestamp": 1565374310160,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%NnyKbv6Mtbq9bojH7xyXAIdf6MC/032EUTSz/WxWa0Q=.sha256",
-    "branch": "%TGa2W+B0EHlQ7lpv14VNbn3wGVJVf04v6BS0RSPZUc0=.sha256",
-    "reply": {
-      "%NnyKbv6Mtbq9bojH7xyXAIdf6MC/032EUTSz/WxWa0Q=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-      "%TGa2W+B0EHlQ7lpv14VNbn3wGVJVf04v6BS0RSPZUc0=.sha256": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519) \n\nHere's mine:\n\n```bash\ntar -cvf ~/.ssb.tgz ~/.ssb/\n```\n\nAnd I *think* you restore with:\n\n```bash\ntar -xvf ~/.ssb.tgz\n```",
-    "mentions": [
-      {
-        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
-        "name": "gozala"
-      }
-    ]
+    "vote": {
+      "link": "%dtsj+rroh88q197xfhvA2SCGsCEO22c/WhzTo39S9Qo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "+kgaYItlD/xBsNaEEgNFbsuaLi1G86MyGl2ojokAjOzRUOPxViGZy/AlefEm1dd6sKc/IDumuzbuIwzHjuycBw==.sig.ed25519"
+  "signature": "3t0PqT1m0opB9L9jxBCP+XpXP61OwdRssZMg00+ARFdGVi+s2AUZ9jh6WuRzvEVADVEMA4ecAUv++bXoXBd5BQ==.sig.ed25519"
 }
