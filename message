@@ -1,17 +1,26 @@
 {
-  "previous": "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256",
-  "sequence": 11731,
+  "previous": "%ud7FR88bzDFJis6/hyu9Lxvm29/ZAe+dZVX/vnKe0VU=.sha256",
+  "sequence": 11732,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565307589536,
+  "timestamp": 1565309540166,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256",
+    "branch": "%WYgJ79TQKJ1uFEfsNoeD4S9pkXfAv9JgrrMdfZjQ9N0=.sha256",
+    "reply": {
+      "%bkeQUNRu8wiBIszt+jBDH9Ufze/9OBm1l00HPF7mn2M=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%WYgJ79TQKJ1uFEfsNoeD4S9pkXfAv9JgrrMdfZjQ9N0=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%1BRWWwpD+r+4IeQDxzZd7mp929juv8tEjeo4BzA5gYw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nRight, impersonation attacks and duplicates are both very frustrating problems. One [maybe silly] option would be to assign a unique nickname when you follow someone, and if you haven't assigned someone a nickname then you can only mention them by their full feed ID.\n\nWhile we're at it, it seems to me that we could just remove the nickname from the message posted to your feed *in general*, that way when I'm reading a friend's post I can't get confused by the nicknames that they're using for our mutual friends. Instead we'd just publish their feed ID, and each client could substitute that with a nickname *or* the referenced person's preferred nickname (probably with a big question mark or something).\n\n> The compose page could have a tall scrolling sidebar of people you most often mention so you can copy and paste their names into the compose box\n\nI think this would probably work -- if messages and feeds had easily accessible identifiers then you could just copy and paste those. Or maybe this whole no-JS thing is silly as hell. I don't know.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "pf0YoALGILEASl8WaS8GkEjS/9nGfBRGFKRF8IE1pQy001bjmYYY5CfexzifCqD5zTQCncPLdH3LFA4Rj1QNDg==.sig.ed25519"
+  "signature": "nZaq4rQZ78JKIGjLsKBBg3+J7jakwgq077IxI37C9uuKct9xQmJyM7dxQW33peiWpwslVwEMUqYQ3x52MUTdCg==.sig.ed25519"
 }
