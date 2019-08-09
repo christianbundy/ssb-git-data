@@ -1,17 +1,30 @@
 {
-  "previous": "%w+9s7EaeZSngOqmjixmyEr4/MqVK5+imVoqEa4ggUns=.sha256",
-  "sequence": 11737,
+  "previous": "%XXiui3SxK6fQfFISHyLpzpWwF3DDEtX9W1y5SAv0OtQ=.sha256",
+  "sequence": 11738,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565362496963,
+  "timestamp": 1565365468854,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchfox",
-    "vote": {
-      "link": "%tMLBC6Zim4iCbj2raucg4wHbb7Z6gJ+rMzkfwxVVeks=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RZ1O17H8D+45p1qAyylycwUl1dgF3RRy813Y1L8rdmA=.sha256",
+    "fork": "%/SA1nh9WLfRAlf5fm8Fu65TZJQczY5G4etVlbWLA8YU=.sha256",
+    "branch": "%RZ1O17H8D+45p1qAyylycwUl1dgF3RRy813Y1L8rdmA=.sha256",
+    "reply": {
+      "%RZ1O17H8D+45p1qAyylycwUl1dgF3RRy813Y1L8rdmA=.sha256": "@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Lex Tenebris](@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519) \n\nI'm not sure whether you care, but your message([s](%bOjla+yueGoa8ytRpPthKMgF1UYFZHDRClhvzKVOdv0=.sha256)) come off as condescending and harsh. It feels like you're interested in sharing your perspective, but I think that might be more effective if you were a bit nicer to the people you're talking to.\n\n> The idea that there are people who disagree with you is not a technological problem. The idea that there are people who disagree with you who can also make use of the technology you enjoy to improve their lives is not a technological problem.\n\nThere's a big difference between \"people who disagree with you\" and \"terrorists who want to hurt my friends\". I'm comfortable sharing a space with people who pretend to be grossed out by pineapple on pizza (it's objectively delicious), but I don't want 4chan's /pol/ board migrating to Scuttlebutt. I'm not concerned with people improving their lives, I'm concerned about anti-social actors using the technology that we build to recruit, organize, and execute anti-social behavior.\n\n> If you really believed that community health could be measured by a relative assessment of edge weight versus nodes, and you believed that your social preferences were inherently superior, what you should be doing is campaigning aggressively to get people who disagree with you involved in Scuttlebutt, increasing the number of edges that they have in common with your social group.\n\nThe problem is that you can't build edges with people who want to remove nodes from the system.\n\nSee also: <https://en.wikipedia.org/wiki/Paradox_of_tolerance>",
+    "mentions": [
+      {
+        "link": "@1xmN5aBHmPhMePeyhb13DHfOqK9j1VKl2qOudlQWUoM=.ed25519",
+        "name": "Lex Tenebris"
+      },
+      {
+        "link": "%bOjla+yueGoa8ytRpPthKMgF1UYFZHDRClhvzKVOdv0=.sha256",
+        "name": "s"
+      }
+    ]
   },
-  "signature": "0FfQRitR9nSMVtz8uwGTHdRcTBy0OpDOgZ5jKdnbUC9eSFyH9IO1GMvh9NuZ+uUEZrgfYlq47SjzOcQWW5J2Ag==.sig.ed25519"
+  "signature": "O7qPu1za6TK+jy045O9309JXs81dNq2aRgmxr9ZIGOIuPUuCM5ft7w74z3/YcY8+g4+3/zkcOX0WTnWnl+LdCA==.sig.ed25519"
 }
