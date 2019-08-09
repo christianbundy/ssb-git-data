@@ -1,25 +1,16 @@
 {
-  "previous": "%CIRRWFaYf//IgME5JFrzXHWvXFUwmLMiPJwNPL0JTWE=.sha256",
-  "sequence": 11749,
+  "previous": "%D3hMW+jnvh350dQtbQQxCHdMB85SXUa9SULEZlYdme8=.sha256",
+  "sequence": 11750,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565373356041,
+  "timestamp": 1565373413576,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%yLQxDfDrskLU0DTVfkoIV6xlcLQnqRQn9PLx2Ev3x64=.sha256",
-    "branch": "%yLQxDfDrskLU0DTVfkoIV6xlcLQnqRQn9PLx2Ev3x64=.sha256",
-    "reply": {
-      "%yLQxDfDrskLU0DTVfkoIV6xlcLQnqRQn9PLx2Ev3x64=.sha256": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519) \n\nI *think* listen and ignore are private follows and blocks, which let you follow/block people without broadcasting it publicly.",
-    "mentions": [
-      {
-        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
-        "name": "ike"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%hb3ESc+OW4MehUNrdOSq+eyPYjPnGe6Ok5SzLlnL+i4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YpNHcjHITpXqT3x/2kacrzRCpoeaN55X2wQp+HyxhJiP2mm4VHCe8IOZ5R6pPULcPco8hcJVaYaBHNvY3aeFAg==.sig.ed25519"
+  "signature": "i7EfJ124xc6VTG+ncFjnzsjvWl0NtiwxslM1ycq+u0rh7Ki1bUKmbfk1+BQwuxYTmN1Ftvd4XcdGVRxWACtKBQ==.sig.ed25519"
 }
