@@ -1,17 +1,26 @@
 {
-  "previous": "%5w/47GfDclrvPDXOtyZ9qtTceQA74vtiUK7AJg48gu0=.sha256",
-  "sequence": 11753,
+  "previous": "%bQOSPhJTJIgGTExjolA7GDodPNxyOAsRGjFMr3FfgmE=.sha256",
+  "sequence": 11754,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565374310160,
+  "timestamp": 1565374343404,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%dtsj+rroh88q197xfhvA2SCGsCEO22c/WhzTo39S9Qo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%uO4Be73eDabkYn5xHICJoOy+XoAp8KBKMxmfDkrJOzU=.sha256",
+    "fork": "%q9yFoPLqVfDKkKcBcUg+a2w5IaSfKkh9uF5fp5+SIVA=.sha256",
+    "branch": "%uO4Be73eDabkYn5xHICJoOy+XoAp8KBKMxmfDkrJOzU=.sha256",
+    "reply": {
+      "%uO4Be73eDabkYn5xHICJoOy+XoAp8KBKMxmfDkrJOzU=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
+    "channel": "faerie-rings",
+    "recps": null,
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nI'm down!",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "3t0PqT1m0opB9L9jxBCP+XpXP61OwdRssZMg00+ARFdGVi+s2AUZ9jh6WuRzvEVADVEMA4ecAUv++bXoXBd5BQ==.sig.ed25519"
+  "signature": "mcVDemp+cft9051uijgOCsXs+rKIPYVr5j2NxAdci6VCTF1oMRfNgypRuAO2IUiq+7HkOUyeHTk+GCb65yIIDw==.sig.ed25519"
 }
