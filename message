@@ -1,17 +1,26 @@
 {
-  "previous": "%5JHoA4dlRiU6WiLYgAoZHCGok/KgdJJVA2fJD6sdyZE=.sha256",
-  "sequence": 11771,
+  "previous": "%PaZ1/bOVf9aOHEfjNrVlgLCPMvA36I9WV62neasHVqc=.sha256",
+  "sequence": 11772,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565459235191,
+  "timestamp": 1565464895331,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "bamboo",
-    "vote": {
-      "link": "%KfDGYK40uREDiNgs/31nHbC+uGQ1wD0iqy1+Bd+k5OU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256",
+    "fork": "%5fsCSBJqazIVdM0Y0pIVUmwW3ot/i6/z5/ySLIni904=.sha256",
+    "branch": "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256",
+    "reply": {
+      "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@CustomDesigned](@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519)\n\n> The Swiss government addresses guns by requiring all able bodied citizens to both own one and receive certified training. That would not be Constitutional in the US, but is certainly in the spirit of upholding self-defense.\n\nI've often wondered whether there would be any utility in some voluntary network of firearm owners who were comfortable with more accountability. For example, someone could commit to some safety rules (storage, proficiency, mental health, sobriety, etc) and ask their friends to help if they ever break their rules. Resolutions could range from gentle reminders to family interventions to using [red flag laws](https://en.wikipedia.org/wiki/Red_flag_law) to resolve the safety concern, all depending on the decisions of the people you trust.",
+    "mentions": [
+      {
+        "link": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519",
+        "name": "CustomDesigned"
+      }
+    ]
   },
-  "signature": "WIE340CENI+Ac+7/QBihkkoHp81Q1W3MRrVNQ4pDGUicGlG3/w2jB+lMme9z1Ds4IL5lTcrgf9W0E0db9Tx0Cw==.sig.ed25519"
+  "signature": "uPh+2ZNWLTVhZLW3usywHUEmndyxxk+cmrrYibapk+WoYN3qjtBUo/0Z5Jh+qIEG+AT5U2FIEGtBVBI1fhYBDA==.sig.ed25519"
 }
