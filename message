@@ -1,34 +1,17 @@
 {
-  "previous": "%G47SinXbzbRpJ0PCmTRBp2RMPT/97QrlAnVj1WD2ask=.sha256",
-  "sequence": 11762,
+  "previous": "%Kh1koOltJL81XoXQ0nkAe6mIZLbBfdCRd1IIcvuUdXE=.sha256",
+  "sequence": 11763,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565405618797,
+  "timestamp": 1565407396872,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%9isL/Xlqsb7WYHkXotz7+4/QLNH96Rl0Of0f6gil24k=.sha256",
-    "fork": "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256",
-    "branch": "%9isL/Xlqsb7WYHkXotz7+4/QLNH96Rl0Of0f6gil24k=.sha256",
-    "reply": {
-      "%9isL/Xlqsb7WYHkXotz7+4/QLNH96Rl0Of0f6gil24k=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\nIt might be useful to use the same spec as the ActivityStreams here. They use the [`summary`](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-summary) property for this, and it's been widely adopted throughout Fediverse applications (Mastodon, Pleroma, etc).\n\nFor example, here's some rendered HTML and the corresponding JSON on a random toot from Mastodon:\n\n- **HTML:** <https://mastodon.social/@amylsacks/100448787612872188>\n- **JSON:** <https://mastodon.social/@amylsacks/100448787612872188.json>   ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ]
+    "type": "vote",
+    "channel": "bamboo",
+    "vote": {
+      "link": "%8l4RVAV6Sc1CgDNGB3z0WF4db5TNcvHjpuSbEsbt06E=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "g/mTz1HOCbsjiEijFU1ivpvalvdkjHKP76XsXXJArdKIMXmKFaf1m7BUKi5EZtYIoMaj7OBb6d8kHIrs+gizDQ==.sig.ed25519"
+  "signature": "23fTDXb//r0oE7C27U2BMMD66lbyppx1D8LyIqJprolY93Rjify8xasCbCL2X2Rbod7XUbZKBfgq9wASFlPVDg==.sig.ed25519"
 }
