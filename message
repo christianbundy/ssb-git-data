@@ -1,26 +1,17 @@
 {
-  "previous": "%G4h1+UzceoK7nnoMStubOwggh7GLmd9qhKYgF1lF3BY=.sha256",
-  "sequence": 11773,
+  "previous": "%wNaSD2jzPTfC9py1NKpm985xmh3amSkNjRwJwgzXWb0=.sha256",
+  "sequence": 11774,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565490983135,
+  "timestamp": 1565494823783,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256",
-    "branch": "%eF6hw4cKN7QHXk9jAiL3HclcJgsYviSEzL7rmei6+HI=.sha256",
-    "reply": {
-      "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%eF6hw4cKN7QHXk9jAiL3HclcJgsYviSEzL7rmei6+HI=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> The ActivityStreams standard says the summary field contains HTML and we’re using Markdown, is that a problem? Is similarity to ActivityStreams valuable without going all the way and matching it exactly? I could be convinced of that.\n>\n> I like warning more than summary because it matches this use case more specifically but that’s not a huge deal.\n\nI don't think it's a problem since Markdown could be parsed as plaintext *or* rendered as HTML. I think that converging on a standard is a net positive even if we've got our own quirks, plus I'd really love to use it as a summary for non-warnings (e.g. \"browser javascript rant\" or \"ssbc governance\" or similar). Currently Scuttlebutt is dominated by a few topics and I'd love to share a summary so that people don't have to read about things they don't care about. \n\nEither way, I think this is a solid win. 👍 ",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ]
+    "type": "vote",
+    "channel": "art",
+    "vote": {
+      "link": "%hWJ51k0bvt36s+wt45cxHe7v17Kvhr8sz6VatDG8UfE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "nd3hIHZLz2l+CLjPOGzpGochLgxc5qDafzVQif0NsuoC7zIJ/DVat632T9H7MCVgUdtoPpak6LdYnxCV6L9MCA==.sig.ed25519"
+  "signature": "S28tXotTVO+Gyz97MBi6SkXP40SbDdX4642nnuTOn45RYQxKe+aPjM1PJ1t47cboz25TzIoH+m0Mu2rrpn4YAw==.sig.ed25519"
 }
