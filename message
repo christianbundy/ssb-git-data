@@ -1,26 +1,26 @@
 {
-  "previous": "%PaZ1/bOVf9aOHEfjNrVlgLCPMvA36I9WV62neasHVqc=.sha256",
-  "sequence": 11772,
+  "previous": "%G4h1+UzceoK7nnoMStubOwggh7GLmd9qhKYgF1lF3BY=.sha256",
+  "sequence": 11773,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565464895331,
+  "timestamp": 1565490983135,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256",
-    "fork": "%5fsCSBJqazIVdM0Y0pIVUmwW3ot/i6/z5/ySLIni904=.sha256",
-    "branch": "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256",
+    "root": "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256",
+    "branch": "%eF6hw4cKN7QHXk9jAiL3HclcJgsYviSEzL7rmei6+HI=.sha256",
     "reply": {
-      "%4BUUl9IJuVmZSC2yvEOtg9xqGVO4P+gUe8vqI8NZ0Rg=.sha256": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519"
+      "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%eF6hw4cKN7QHXk9jAiL3HclcJgsYviSEzL7rmei6+HI=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@CustomDesigned](@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519)\n\n> The Swiss government addresses guns by requiring all able bodied citizens to both own one and receive certified training. That would not be Constitutional in the US, but is certainly in the spirit of upholding self-defense.\n\nI've often wondered whether there would be any utility in some voluntary network of firearm owners who were comfortable with more accountability. For example, someone could commit to some safety rules (storage, proficiency, mental health, sobriety, etc) and ask their friends to help if they ever break their rules. Resolutions could range from gentle reminders to family interventions to using [red flag laws](https://en.wikipedia.org/wiki/Red_flag_law) to resolve the safety concern, all depending on the decisions of the people you trust.",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> The ActivityStreams standard says the summary field contains HTML and we’re using Markdown, is that a problem? Is similarity to ActivityStreams valuable without going all the way and matching it exactly? I could be convinced of that.\n>\n> I like warning more than summary because it matches this use case more specifically but that’s not a huge deal.\n\nI don't think it's a problem since Markdown could be parsed as plaintext *or* rendered as HTML. I think that converging on a standard is a net positive even if we've got our own quirks, plus I'd really love to use it as a summary for non-warnings (e.g. \"browser javascript rant\" or \"ssbc governance\" or similar). Currently Scuttlebutt is dominated by a few topics and I'd love to share a summary so that people don't have to read about things they don't care about. \n\nEither way, I think this is a solid win. 👍 ",
     "mentions": [
       {
-        "link": "@iOyfRmje5LFAErH7M3faTLNMQUTXCnjECbLtniVJ478=.ed25519",
-        "name": "CustomDesigned"
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
     ]
   },
-  "signature": "uPh+2ZNWLTVhZLW3usywHUEmndyxxk+cmrrYibapk+WoYN3qjtBUo/0Z5Jh+qIEG+AT5U2FIEGtBVBI1fhYBDA==.sig.ed25519"
+  "signature": "nd3hIHZLz2l+CLjPOGzpGochLgxc5qDafzVQif0NsuoC7zIJ/DVat632T9H7MCVgUdtoPpak6LdYnxCV6L9MCA==.sig.ed25519"
 }
