@@ -1,16 +1,25 @@
 {
-  "previous": "%IPYNign2jSbH78SZyd3WStuIdw/ntBkuyNrWQ/zCykU=.sha256",
-  "sequence": 11779,
+  "previous": "%SE8KIsaBtoBw8vyjyEzbx4OBoFb8Cr3Vn0Lw4UCbdSU=.sha256",
+  "sequence": 11780,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565534953993,
+  "timestamp": 1565535103139,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5qhvy8TSEjKOtN9mn3yn/9zZVDITgmqvCsJRPLmbLik=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%08DNQBJAzj+tXsSZG0l7dZhY72R23Zcsjf9uGP0Kkw4=.sha256",
+    "branch": "%08DNQBJAzj+tXsSZG0l7dZhY72R23Zcsjf9uGP0Kkw4=.sha256",
+    "reply": {
+      "%08DNQBJAzj+tXsSZG0l7dZhY72R23Zcsjf9uGP0Kkw4=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519) \n\nThis is really cool, my brain keeps switching between \"face with headpiece\" and \"body with halos around head\". Thanks for sharing this!",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ]
   },
-  "signature": "O7dggL71h7B3JcvhFCOwQOWYdG+HBesFIB432K8wcAvTOaOSnNBv5/N4SZJnwe2tZUeeayCwiaXLSMG4xCFZBw==.sig.ed25519"
+  "signature": "6De4LnSu+pZxCklhpoMADgT/0vGQkNVKkRmf7+z8D1nwTd2aRtVZ295XLmuSqmrxd0XKoks2Tk7hcoJxz4JPCQ==.sig.ed25519"
 }
