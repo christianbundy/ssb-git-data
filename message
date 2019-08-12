@@ -1,17 +1,26 @@
 {
-  "previous": "%GjTRL81FFdfCWxtsdlcdR1wVXAF6DY1nAnZxm/+KxI4=.sha256",
-  "sequence": 11781,
+  "previous": "%6BXGEDv2/mnCgBv2A2+o1FP7wTvWqwl9Hen5dX7gaRw=.sha256",
+  "sequence": 11782,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565541431775,
+  "timestamp": 1565627052242,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%W/1/zHikfonSmyWZGEJku4ab8FhmTwKLxqlNx3bVh60=.sha256",
+    "branch": "%YZxK0YwuLsWsKWASv9W01VGlcwM9lGjVvBDKRWmcS2g=.sha256",
+    "reply": {
+      "%W/1/zHikfonSmyWZGEJku4ab8FhmTwKLxqlNx3bVh60=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+      "%YZxK0YwuLsWsKWASv9W01VGlcwM9lGjVvBDKRWmcS2g=.sha256": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%YB9zuOnQu+dy4wvJwXEm6/EOO+9PPeDwdEixgySIvPM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\n\n> I’ve researched a little around JP and my understanding (and I’m open to being corrected) of JP and trans issues is focused around his pushback against the legal changes around language use, [...]\n\nI'd respectfully challenge you to research this a bit further. At least [read the bill](https://www.parl.ca/DocumentViewer/en/42-1/bill/C-16/royal-assent), which adds gender identity/expression to the prohibited grounds for discrimination. This means that trans people would have the right to [use locker rooms](http://www.ohrc.on.ca/en/access-locker-rooms-trans-amateur-hockey-players-jt-v-hockey-canada-et-al) and [be treated with respect by law enforcement](http://www.ohrc.on.ca/en/summary-waterman-v-toronto-police), not that the secret police are going to nab you for accidentally misgendering someone.\n\n> [...] which he felt was the state crossing a never before, dangerous line to force people to speak a certain way.\n\nI'm unaware of any new lines crossed by this legislation. It's just affording the same consideration to gender identity/expression that Canada already gives to:\n\n- race\n- national or ethnic origin\n- colour\n- religion\n- age\n- sex\n- sexual orientation\n- marital status\n- family status\n- disability\n- conviction for an offence for which a pardon has been granted or in respect of which a record suspension has been ordered\n\nRegarding pronouns, **intentionally using the wrong pronouns is treated the same way that it's always been treated: as discrimination**. It doesn't matter whether you're using \"it\" pronouns to address people of some ethnicity or using \"she\" pronouns to address gay men or using \"he\" pronouns to address trans women. It's nothing new, and unless you're prohibited from discrimination (e.g. you're a landlord or a public servant) this doesn't even apply to you.\n\nWorst-case scenario cops and landlords have to use your first name rather than pronouns based on their assumptions about your gender. Best case scenario trans people get treated with dignity and respect and are protected from discrimination. I think most well-informed people would agree that the benefits outweigh the costs, but when the facts get twisted (through either negligence or malice) then it's hard to see eye-to-eye.",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      }
+    ]
   },
-  "signature": "8yCEnhMOHPAcRQFes2RJRTb6P83SXQOzk7jMr7MEIdKVvqRU9GV+8MFmEvIKROhuzYnOxZaoHdtqhHSbB7D2AA==.sig.ed25519"
+  "signature": "drdSGE54Uc7NtlvEUpciSV9kr9cb9RGhcsHe/VtT9ApqCHmNAyWEiHWvJTctJHl3ibGhsqaafSdrfy8VH5WzAA==.sig.ed25519"
 }
