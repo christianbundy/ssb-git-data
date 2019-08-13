@@ -1,20 +1,20 @@
 {
-  "previous": "%KK0jB4PC+GjylTU7E//Q6wESeUC4NwrGea0IWKFTRps=.sha256",
-  "sequence": 11797,
+  "previous": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
+  "sequence": 11798,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565669345744,
+  "timestamp": 1565669472297,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Security notice: a privacy bug in Oasis\n\nI made a mistake implementing `{ type: 'vote' }` messages in Oasis and if you liked a private message with the app then **the message key of the message you liked was probably leaked**. These like messages should have been encrypted to recipients of the message you're liking, but I didn't consider that when I started implementing them. I'm not sure whether anyone has been using #oasis, but I wanted to make a very loud security notice just in case.\n\nIf anyone was affected by this (i.e. you opened Oasis and liked a private message) then you should know two things:\n\n- The only thing leaked was the key of the message you liked, not the content of the message. Peers who are aware of the message can also determine who the message belongs to.\n- You have plausible deniability. Lots of people randomly like private messages for no reason at all, which makes it impossible to tell whether you could even read the message in question.\n\nSorry that this bug made it into a post-1.0.0 version, I should've spent some more time double-checking for privacy problems before releasing. If anyone would like to help me put together a brief \"pre-flight checklist\" for basic SSB apps I think then I think it might help future client authors, but I'm open to other suggestions if anyone has good ideas.\n\nHappy to discuss in public or private.\n\n#ssb-oops\n\n---\n\nObligatory: this bug does not effect any other clients that I'm aware of. The only client with this bug was my tiny experimental one with ~zero? users.",
-    "mentions": [
-      {
-        "link": "#oasis"
-      },
-      {
-        "link": "#ssb-oops"
-      }
-    ]
+    "root": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
+    "branch": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
+    "reply": {
+      "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Worth noting that this is fixed in 1.15.1. Install / upgrade instructions:\n\n\nWith [npm](https://npmjs.org/):\n\n```shell\nnpm -g install @fraction/oasis@1.15.1\n```\n\nWith [yarn](https://yarnpkg.com/en/):\n\n```shell\nyarn global add @fraction/oasis@1.15.1\n```\n\nAnd of course, more info in the [readme](https://github.com/fraction/oasis/blob/master/README.md).",
+    "mentions": []
   },
-  "signature": "6xnoglLgEacHDjKa3TwMYurEsJL5RGPRfxd4oAStBha6O2OevSSMk3EAvEOGLl1b2ccAcFYybi1oPI5rCdP5CA==.sig.ed25519"
+  "signature": "4N8e2Mcg9GRjfADJJcRht68/Jel3a7WOqQRL7PPMtbf69ngqOI+T9bTfYArCakX2Ii1MysYvDxSStvMcN58jBQ==.sig.ed25519"
 }
