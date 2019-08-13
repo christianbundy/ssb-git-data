@@ -1,17 +1,26 @@
 {
-  "previous": "%fKh4D+E77jKIpHtaEhuVTk0gJ9D9PdLOYtcPfMvvGWk=.sha256",
-  "sequence": 11821,
+  "previous": "%m7MeXsxRyFhX1FjvgZhf8STWTZBTu3wZtz2XgMdMxLk=.sha256",
+  "sequence": 11822,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565737534055,
+  "timestamp": 1565739350445,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "",
-    "vote": {
-      "link": "%d852bBjvuXmVfeRz+kPdkoPs4qN6bUCZzyuo6ARRZmU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256",
+    "branch": "%cR6qvr+s5Yf4gDcLhShhwsH9j5bMpEwqZknJlF5iQpM=.sha256",
+    "reply": {
+      "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+      "%cR6qvr+s5Yf4gDcLhShhwsH9j5bMpEwqZknJlF5iQpM=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519) \n\nI don't know, honestly. I just searched them on archive.is and they were already there. I thought those came from the Wayback machine but I think I might be wrong/confused.",
+    "mentions": [
+      {
+        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+        "name": "enkiv2"
+      }
+    ]
   },
-  "signature": "GLtmf2MRwi7SvvIj4CqJEGAX3VMQz2aUUZ3AmGAPyj+zdp/185Np8fcUQkprveLN67LFh0vM8kdtgt7PQUZrAQ==.sig.ed25519"
+  "signature": "zTjbTyNVomai45/q90ak3bnU0B66gKYnkhTstQ4XS2pg88HNaYL+OSLuI4SKBbMcHG6iVJooLMYx7eOnmlTEDA==.sig.ed25519"
 }
