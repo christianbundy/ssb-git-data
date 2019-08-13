@@ -1,41 +1,15 @@
 {
-  "previous": "%55MMFD9mw7VlhP5HTE060JukBa1j5J2nE0EwCnUF+/g=.sha256",
-  "sequence": 11813,
+  "previous": "%mbRQqh6FwDVOiA5xy/JbC0pKUBgyRHQfmNHm1/bU8MY=.sha256",
+  "sequence": 11814,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565729920352,
+  "timestamp": 1565730057690,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%04fTk7Hthg43Kvo8uwyLWYGtG3iNc1BjLaNo/tFO4yo=.sha256",
-    "fork": "%Yt5AoIM0GC7shfQXLSMtOlFX4Wc3NAB7zhz3Uwc4b2c=.sha256",
-    "branch": "%04fTk7Hthg43Kvo8uwyLWYGtG3iNc1BjLaNo/tFO4yo=.sha256",
-    "reply": {
-      "%04fTk7Hthg43Kvo8uwyLWYGtG3iNc1BjLaNo/tFO4yo=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nThanks for this roadmap! Just implemented the second one in #oasis, here's how it looks:\n\n![Screenshot of content warning in Oasis](&gt6KFz3h4DbuIBZSW5SFRtO0yv9VkGQFv9BZ4qyoFmU=.sha256)\n\n![Screenshot of expanded content warning in Oasis](&fH2sd63M0rfPpPInbo7fEtzMLKZLkNy+RlRl6hPm9tA=.sha256)\n\nThis isn't a great example because the content warning text is \"contains content warning\", but you get the idea.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "#oasis"
-      },
-      {
-        "link": "&gt6KFz3h4DbuIBZSW5SFRtO0yv9VkGQFv9BZ4qyoFmU=.sha256",
-        "name": "Screenshot of content warning in Oasis",
-        "type": "image/png",
-        "size": 10373
-      },
-      {
-        "link": "&fH2sd63M0rfPpPInbo7fEtzMLKZLkNy+RlRl6hPm9tA=.sha256",
-        "name": "Screenshot of expanded content warning in Oasis",
-        "type": "image/png",
-        "size": 12877
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%gC3iEYrA+zwRCuyHMSnbcMuwj0qqHmFAbNiqrPDpv/A=.sha256",
+      "value": 1
+    }
   },
-  "signature": "7lhR4V4LRskHY+f9/etYIKg/UEFYFKeCHFGRSlDtpjS23Wa7WKdz+MFrQrO9HqUrIzqL8312VOKzIcdjiPgUBg==.sig.ed25519"
+  "signature": "h1DfM227txcWvc6Abib4NCp1yWq/TVvFxIu0oAtI3wxWcUZEVu5bamSmGbO1J4jYQCSYkLSF5lTEVgkvy4S8CQ==.sig.ed25519"
 }
