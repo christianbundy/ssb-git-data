@@ -1,31 +1,17 @@
 {
-  "previous": "%wXFzf5b9LrQjMoLKFV6WqhDSDd5pnIeU+bO6i60swqU=.sha256",
-  "sequence": 11819,
+  "previous": "%K0S+hMP3MuGouADmDYx0F1Bl0DgjxuwjQ71ifoOWeB4=.sha256",
+  "sequence": 11820,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565737524496,
+  "timestamp": 1565737532927,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%04fTk7Hthg43Kvo8uwyLWYGtG3iNc1BjLaNo/tFO4yo=.sha256",
-    "fork": "%Yt5AoIM0GC7shfQXLSMtOlFX4Wc3NAB7zhz3Uwc4b2c=.sha256",
-    "branch": "%crVN/90JZfWRXMg3eJWLphk9DUuYl8ayzrTL+IVXu30=.sha256",
-    "reply": {
-      "%04fTk7Hthg43Kvo8uwyLWYGtG3iNc1BjLaNo/tFO4yo=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%crVN/90JZfWRXMg3eJWLphk9DUuYl8ayzrTL+IVXu30=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@SoapDog charming friend](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nCurrently it only supports strings, but I'm planning to support arrays as well.  I've shared some thoughts [here](%fq3eWMLr7yb2cDgjDb/FtWeON2Dqr7+6NLBPa/CaI5E=.sha256). I may have missed it, is there a standardized recommendation on how to render an array of content warnings? I could pop them into a `<ul>` but I don't want to make up my own standard. 🙃 ",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog charming friend"
-      },
-      {
-        "link": "%fq3eWMLr7yb2cDgjDb/FtWeON2Dqr7+6NLBPa/CaI5E=.sha256",
-        "name": "here"
-      }
-    ]
+    "type": "vote",
+    "channel": "",
+    "vote": {
+      "link": "%1eZUF7kgiuX7JPdabTtYnFv8L5tRpS+PEIt8HIQ/KaE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ZgXjrr09pqWnolvpCqHQFJYtLKlNHC06kXm6DcUq2Vi4WdDAgbMAg6xt0c/jJAgpSnyWBymPtan6IFuJVwNuDA==.sig.ed25519"
+  "signature": "DpugqXZF/ndU51/YGBOOuPB4EQJZunHlZroCNJmHQVyz/VoVKNof4RH+XSitfFFQzQU2jtmHjpmTE9nz7NBdBQ==.sig.ed25519"
 }
