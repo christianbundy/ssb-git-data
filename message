@@ -1,24 +1,17 @@
 {
-  "previous": "%R5xHrRygElI5VJgS4Fpq6MmqyxlNA+W8P39ryaQqJU8=.sha256",
-  "sequence": 11817,
+  "previous": "%fq3eWMLr7yb2cDgjDb/FtWeON2Dqr7+6NLBPa/CaI5E=.sha256",
+  "sequence": 11818,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565737378309,
+  "timestamp": 1565737412669,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256",
-    "branch": [
-      "%Ofwx0CPO3g9PeR7ILzu9wTy/a5yM9uZyXn66wgshEx4=.sha256",
-      "%gC3iEYrA+zwRCuyHMSnbcMuwj0qqHmFAbNiqrPDpv/A=.sha256"
-    ],
-    "reply": {
-      "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-      "%Ofwx0CPO3g9PeR7ILzu9wTy/a5yM9uZyXn66wgshEx4=.sha256": "@7A2ZxHX+WyIVezulnt0FogzeUVWLq3YHmtX3r7ja4Fw=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "I've been continuing to read through other content warning implementations, mostly Fediverse stuff, and I've got two perspectives I'd like to share:\n\n## \"content warning\" vs \"summary\" vs \"sensitive\"\n\nThe \"content warning\" versus \"summary\" thing might be best handled as described [here](https://github.com/w3c/activitypub/issues/231#issuecomment-310134363):\n  \n> Should `sensitive` be used alongside `summary` then? Like, `summary` takes on the Mastodon-esque \"content warning\" connotation when the object is marked as `sensitive`?\n\nThis would give us the ability to summarize content regardless of whether it's sensitive, and depending on whether `{ sensitive: true }` we could display as a simply informational `<summary>` **or** indicate that the content is sensitive with warning indicators (icons, colors, etc). I'm imagining simple summaries as neutral colors and ℹ️ icons whereas warning should have warn-y colors (orange?) and ⚠️ icons.\n\n## strings vs arrays of strings\n\nI hate to be the JSON-LD guy again, but in that context `{ foo: 'bar' }` is just the compacted form of `{ foo: [ 'bar' ] }` (or even `{ foo: [{ @value: 'bar' }] }`). It makes sense to publish data in a compact form, but I don't think there's a semantic difference between publishing a string and publishing a one-item list of strings. I wish there was a way to use the JSON-LD format without RDF because it makes wrangling data *so* much easier.\n\nEither way, I think we should aim to **publish strings** unless there are multiple strings, in which case **publish arrays**. I don't think there's a benefit to publishing the expanded version to the log, it just wastes bytes and clients will have to normalize the data anyway.",
-    "mentions": []
+    "vote": {
+      "link": "%crVN/90JZfWRXMg3eJWLphk9DUuYl8ayzrTL+IVXu30=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "vdAJZRc34LyoOvdeP/WVHxlDR+JaJBQwlP+pQuHa/nr4DEtIua4KWkgMOdUjL/hFh6GuhnhQXvmmae4GvFxqBA==.sig.ed25519"
+  "signature": "Et7nhbidQ8JSJiNHmg+OzTDXJI0fT12HB9Y7gtofsABnv8l8+FFF0JbfDGO0tCIJPehAbtyX38Qnl7lDBI8iDA==.sig.ed25519"
 }
