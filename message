@@ -1,17 +1,21 @@
 {
-  "previous": "%6MAwndZ2OLU8I/mCaIDkXDAXs6YdHg22l+OMW82oJxk=.sha256",
-  "sequence": 11802,
+  "previous": "%G0aWsJeYuIyt1iicC5uohg8/gRsG+5j1xCaXgBa6raA=.sha256",
+  "sequence": 11803,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565706817055,
+  "timestamp": 1565707573222,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "dweb-camp",
-    "vote": {
-      "link": "%y8/2brkg6fl3n0I3HFSzOCkSKGLDB8lKyse81VbyFsE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4fbY7wIRU9bhs5FMJ66WMqiObXCE6ajZYPTocLlniIs=.sha256",
+    "branch": "%hIfmjn9R5a3GZ3PyqoPncFkfsAlzF3X5X0YpJwcPlVw=.sha256",
+    "reply": {
+      "%4fbY7wIRU9bhs5FMJ66WMqiObXCE6ajZYPTocLlniIs=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%hIfmjn9R5a3GZ3PyqoPncFkfsAlzF3X5X0YpJwcPlVw=.sha256": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "How should this policy interact with *reasons for blocking*? When we do block people it's nice to be able to share why we've blocked them with our friends, and currently the easiest way to do that is to rename someone. I strongly agree that these shouldn't be inflammatory, but blocking without renaming means:\n\n- I have no way to know why I've blocked them after I delete their messages\n- My friends have no way to know why I've blocked them unless they download the feed\n\nTo give an example, I've named a feed \"narcissistic rants about gender and sexuality\" because that's what the feed was about. Is that an anti-pattern? I don't want to participate in name-calling, but I do want to label blocked feeds so that myself and others can have some insight about who they are.",
+    "mentions": []
   },
-  "signature": "cFfQDnP+dflgAIMu4K77ibLR2+YhNzG/rMagDL1SOfCF7OAnn5gFafQX9lxrC9+ryhsNsefuvtwZeYSc7DTwDQ==.sig.ed25519"
+  "signature": "hcJz8EVe+ZpaKGJq63gXY/Zw2QJPVebzxdsCgbtdv8BBzQyqJfukqGYML7kiWWNsYr4lSf3B5DwJBvCOlmFiAg==.sig.ed25519"
 }
