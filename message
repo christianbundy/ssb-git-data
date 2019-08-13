@@ -1,20 +1,16 @@
 {
-  "previous": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
-  "sequence": 11798,
+  "previous": "%/QoJge1E4FQ8Lh/+Oy4LFA8GjB1k5tnBEQMCSyoTxEo=.sha256",
+  "sequence": 11799,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565669472297,
+  "timestamp": 1565670097868,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
-    "branch": "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256",
-    "reply": {
-      "%IIqEr+2Zo3g9LyBo3FygerMsZm17Z4MoYG8YkiWN3bg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Worth noting that this is fixed in 1.15.1. Install / upgrade instructions:\n\n\nWith [npm](https://npmjs.org/):\n\n```shell\nnpm -g install @fraction/oasis@1.15.1\n```\n\nWith [yarn](https://yarnpkg.com/en/):\n\n```shell\nyarn global add @fraction/oasis@1.15.1\n```\n\nAnd of course, more info in the [readme](https://github.com/fraction/oasis/blob/master/README.md).",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%q+PyJLa6v0l1d4St3yl4t/TiN2ZAN6/fPH33rwyZrpc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "4N8e2Mcg9GRjfADJJcRht68/Jel3a7WOqQRL7PPMtbf69ngqOI+T9bTfYArCakX2Ii1MysYvDxSStvMcN58jBQ==.sig.ed25519"
+  "signature": "xolpzRD47AsX8eTKh8AnqmttbjyyOPFZjqqxk/rU+DYv9OKgCtPnGeXmHvZJI2N42Tt6ETawUEBI6GKTRNxoAQ==.sig.ed25519"
 }
