@@ -1,15 +1,21 @@
 {
-  "previous": "%LVkb2L4QMOhOSwaniz7YpfarFkhY85zcL55w+exK5Jw=.sha256",
-  "sequence": 11834,
+  "previous": "%NRQWJbAQ9z2ruVKt/GoNOUfV6EU4mceQpcib0tWxvp0=.sha256",
+  "sequence": 11835,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565803540657,
+  "timestamp": 1565806356145,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VQWNzOtEMQFpBEERfn7+2K1EWvarKvCI0pPp367X40c=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "About a year ago I found an online tool that let you generate permission labels / stickers for equipment in hackerspaces. I think it gave you the option of adding an owner, whether training was required, \"do not hack\", etc., but I can't find it anymore. It was like [this template](https://wiki.pumpingstationone.org/Template:EquipmentPage) except you could just generate it with a web form. I think Labitrack does something similar, but it's tied into Postgres/etc.\n\nAnyone know which tool I'm thinking of? I'd love to print out some stickers for stuff I'm down to share at my coworking space\n\ncc: [@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\n\n#hackerspaces  ",
+    "mentions": [
+      {
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
+      },
+      {
+        "link": "#hackerspaces"
+      }
+    ]
   },
-  "signature": "/gPgv9IG70gHPD+bjf6xgkAXwpHwScD6bND8QMVev1euIx5Xvd93oj+oiDwuVgWed7i6myYNMcO8X7fHkZk1BQ==.sig.ed25519"
+  "signature": "W1zt+WA90gkVisksFEIxG62J9uHs6yDnw5bV0yph/tyAl+sSDJ+rdHsZv6P2LcqblBFSe2tsq730ovrl9Rc2Aw==.sig.ed25519"
 }
