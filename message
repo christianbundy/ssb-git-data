@@ -1,21 +1,20 @@
 {
-  "previous": "%NRQWJbAQ9z2ruVKt/GoNOUfV6EU4mceQpcib0tWxvp0=.sha256",
-  "sequence": 11835,
+  "previous": "%FHJg984wh414oc33+UyvRWiY4AF4/h54jD+SCU1wu1M=.sha256",
+  "sequence": 11836,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565806356145,
+  "timestamp": 1565806561904,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "About a year ago I found an online tool that let you generate permission labels / stickers for equipment in hackerspaces. I think it gave you the option of adding an owner, whether training was required, \"do not hack\", etc., but I can't find it anymore. It was like [this template](https://wiki.pumpingstationone.org/Template:EquipmentPage) except you could just generate it with a web form. I think Labitrack does something similar, but it's tied into Postgres/etc.\n\nAnyone know which tool I'm thinking of? I'd love to print out some stickers for stuff I'm down to share at my coworking space\n\ncc: [@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\n\n#hackerspaces  ",
-    "mentions": [
-      {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
-      },
-      {
-        "link": "#hackerspaces"
-      }
-    ]
+    "root": "%FHJg984wh414oc33+UyvRWiY4AF4/h54jD+SCU1wu1M=.sha256",
+    "branch": "%FHJg984wh414oc33+UyvRWiY4AF4/h54jD+SCU1wu1M=.sha256",
+    "reply": {
+      "%FHJg984wh414oc33+UyvRWiY4AF4/h54jD+SCU1wu1M=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I spent 20 minutes trying to find this and *as soon as I posted about it* I thought to check the [hackerspace software](https://wiki.hackerspaces.org/Hackerspace_Software) list and *of course* it's there: http://metalab.github.io/labelz/\n\nSorry for the noise.",
+    "mentions": []
   },
-  "signature": "W1zt+WA90gkVisksFEIxG62J9uHs6yDnw5bV0yph/tyAl+sSDJ+rdHsZv6P2LcqblBFSe2tsq730ovrl9Rc2Aw==.sig.ed25519"
+  "signature": "ie98uqcPqOC8nKu0m3pnYA6rmRGcki8p3mmziHOrJAQz5gGYzc9AMZLIPdqyb4ecPs1VYSmLt5CoIWsiSCrMDw==.sig.ed25519"
 }
