@@ -1,26 +1,17 @@
 {
-  "previous": "%eVeCMAYNJEySG9LgB4c6AUnHx8G6mWbfy4T7ppBIxlc=.sha256",
-  "sequence": 11873,
+  "previous": "%R3LE7n39tgtqn1ntBQukCvwGzY47lOuy46G20TC7/KI=.sha256",
+  "sequence": 11874,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565882510415,
+  "timestamp": 1565882524458,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256",
-    "branch": "%4rkFU7pZYCYYR8VopF2fhrQfFXVoaQeY7SvTrASruJU=.sha256",
-    "reply": {
-      "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-      "%4rkFU7pZYCYYR8VopF2fhrQfFXVoaQeY7SvTrASruJU=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@SoapDog charming friend](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\n\n> I’ve been captioning my images by writing an italicized paragraph below them. I don’t know if this is the correct way to do it.\n\nIt's way better than nothing, but if possible I think it's best to use the alt text area when composing in Markdown:\n\n```markdown\n![alt text](uri)\n```\n\n> Regarding accessibility and SSB, does anyone knows what is the story behind screen readers and electron apps?\n\nMy understanding is that they *can* be accessible, but last time I checked both Patchwork and Patchbay were completely inaccessible to screen readers. I don't know whether it's a Mutant thing or a hypertabs thing or just a shared quirk, but my intuition is that we'd need some deep changes to unbreak screen readers in either app.",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog charming friend"
-      }
-    ]
+    "vote": {
+      "link": "%xF7t38F692qyETkitqWnxQJfefKkXls/1N40n/Ctbig=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "eZvDUTcFQ880E7QIK5n8pUcjKaAB+eQopXYIQuv7zLa0aR8Kcvs4L21BibzYe5EMpA6UKbIfE1L464nL8tAMBg==.sig.ed25519"
+  "signature": "eGLdB2G068r+772gK9ARkWDu7zGZVpk8ZYaNsD3oEc4QYmiMXDlJ/bYYtyuS/4f6A02UbsNC6Ual3fRpx6DiCw==.sig.ed25519"
 }
