@@ -1,13 +1,34 @@
 {
-  "previous": "%KWbsIEzZyXy4vWzCckOODl7+6Eh4SR8fH+syxnY0DSU=.sha256",
-  "sequence": 11880,
+  "previous": "%doca9MOuN3/AdOuCzoXMFTiwe9Z2/UVOYFWRFvNvIMc=.sha256",
+  "sequence": 11881,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565886098208,
+  "timestamp": 1565888821140,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@6hwStvpVIQkziTyk2iK0o8lWSU1OdUXzvIl1SdXx6N4=.ed25519",
-    "image": "&lg1Og1TP+6iEICb78yvb3hbw+baY8KGhkJ4OMwmBW5Y=.sha256"
+    "type": "post",
+    "root": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
+    "branch": "%lYnQ9wlACwSlr/7VYhdkixlFtR53RWqJTarG/RM+hu0=.sha256",
+    "reply": {
+      "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%lYnQ9wlACwSlr/7VYhdkixlFtR53RWqJTarG/RM+hu0=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519) \n\nWow, thanks! I was trying to use ` { assets: ['**/*'] }` but it looks like I needed more specificity? That seemed to do the trick, now I'm just [fighting](https://github.com/sindresorhus/open/issues/147) the module I use to open the browser. Bundling things is hard.\n\nI'll probably end up implementing something similar to `package.sh`, although I'm not using AGPL right now so I probably can't copy anything. I'm [conflicted](%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256) about licenses. Licenses are hard too.\n\nThanks again!\n\n---\n\n[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nYeah, there are *tons* of similar issues on both repos. I think the trick might be some surgical `node_modules/foo/**` extraction? Not sure, but I'm closer now!",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "alex"
+      },
+      {
+        "link": "%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256",
+        "name": "conflicted"
+      },
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
   },
-  "signature": "vAn/21N5bn7r+YfmEgGbh5U5S78Bkm0fxvyOHix66NGsLiGglLVwTkenfi7dboxvsg9dfNcrSaLJ6MgsfYlwDg==.sig.ed25519"
+  "signature": "4F1kY6W23MNb0+Ic7+QPdImz0HvTQJ6anuM97c/mckqxgTnUohiJB5bbFi8eDNci2hLmQUkdzQj9aGCvBqG5BQ==.sig.ed25519"
 }
