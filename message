@@ -1,21 +1,17 @@
 {
-  "previous": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
-  "sequence": 11860,
+  "previous": "%mcAB0G5/rRu20UyhmklQNu1sDqbmhHWiScN+r2qA4R4=.sha256",
+  "sequence": 11861,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565878987976,
+  "timestamp": 1565879021927,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256",
-    "branch": "%Za0pyHjw6yRiMZ9kpNe7blFBtA3DLclhbgx1FNbhdiU=.sha256",
-    "reply": {
-      "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-      "%Za0pyHjw6yRiMZ9kpNe7blFBtA3DLclhbgx1FNbhdiU=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "You may be interested in: https://github.com/ssbc/patchwork/pull/1116",
-    "mentions": []
+    "vote": {
+      "link": "%Za0pyHjw6yRiMZ9kpNe7blFBtA3DLclhbgx1FNbhdiU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RRd26p6N+Nr+0CUC11EBoF+B/aCWsIsv7zqD+XCJ29/TiigcBxmtortSjcZtK7UHBi4/vj/fKgVfBUglKMVuDA==.sig.ed25519"
+  "signature": "j4B4a+7/EXQ0/dnNom14GIaHvckUL8Rmqsrt4rqTotS5OJmgVOq+qcjqLOrksDuCsVrRhSLkat0IubETZe5vBg==.sig.ed25519"
 }
