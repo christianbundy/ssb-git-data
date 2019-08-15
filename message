@@ -1,17 +1,30 @@
 {
-  "previous": "%TfM2Hkq0HZJ3YwuJ6mYu+maGd4S/5pySMHOp/9K4+1c=.sha256",
-  "sequence": 11866,
+  "previous": "%/ZhOMLbaSbcoctADmgzDvziTE/w84sPlIhX4aq4D4Ug=.sha256",
+  "sequence": 11867,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565879575048,
+  "timestamp": 1565879849685,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%QNWDzcZUJzW8VoszMy233v3NybQ1ucwZXgY+dGVfunQ=.sha256",
+    "fork": "%m4kD05IVXaLvtKbx/ACrxKTIQwMxXdFJt7e27ILIb1w=.sha256",
+    "branch": "%BSGi7+8t/xnA1H1RhWl50j1m67I1TPnTcEZATsgvh38=.sha256",
+    "reply": {
+      "%QNWDzcZUJzW8VoszMy233v3NybQ1ucwZXgY+dGVfunQ=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+      "%BSGi7+8t/xnA1H1RhWl50j1m67I1TPnTcEZATsgvh38=.sha256": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%WNos+ZMl2/weNSHYQGlSree0FXeXo5L9N4134OO2E6U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Mia Gooper](@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519) \n\n#ssb-gift 1 beverage (beer, tea, etc)",
+    "mentions": [
+      {
+        "link": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519",
+        "name": "Mia Gooper"
+      },
+      {
+        "link": "#ssb-gift"
+      }
+    ]
   },
-  "signature": "efumkhzzu5jRmOSkp/pn/otRgClz+v95LBUxMyU8L3eARtKuCU3gWcOtTlPF6/T7WwcdaWddoyeO2phxsrNICw==.sig.ed25519"
+  "signature": "6iOcXIMujeYZpcmGFO/MjNsdQYmNSdqaWyH7mqiTxPJpgc6ArciGplsUxpbz3MWEtcvfJ6Ze889UpDOd1tDDDw==.sig.ed25519"
 }
