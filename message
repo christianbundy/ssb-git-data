@@ -1,30 +1,17 @@
 {
-  "previous": "%uqURwkMp3pUZ/PTwNxc7x18FSfZ7XdbTPwZU3F2U/Nc=.sha256",
-  "sequence": 11864,
+  "previous": "%UszySZpBMJSlk22qjU0opdW23anCmUJwe3Cl61Pbsbs=.sha256",
+  "sequence": 11865,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565879269894,
+  "timestamp": 1565879573942,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%QNWDzcZUJzW8VoszMy233v3NybQ1ucwZXgY+dGVfunQ=.sha256",
-    "fork": "%m4kD05IVXaLvtKbx/ACrxKTIQwMxXdFJt7e27ILIb1w=.sha256",
-    "branch": "%v/VljZjmqylKw25H8ueqSfkshD54GLUcbtJT11fBlYs=.sha256",
-    "reply": {
-      "%QNWDzcZUJzW8VoszMy233v3NybQ1ucwZXgY+dGVfunQ=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-      "%v/VljZjmqylKw25H8ueqSfkshD54GLUcbtJT11fBlYs=.sha256": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\n\n> umbrella bone\n\nI'm choosing to believe that this is a technical term and I'll use it for the rest of my life. \n\n#head-canon",
-    "mentions": [
-      {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "alex"
-      },
-      {
-        "link": "#head-canon"
-      }
-    ]
+    "vote": {
+      "link": "%YcW606D+ThTng8m9CjpWT2kQ95sR4ff1GeDRBB/4QuI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "QTSJWklKhLH3tRHFPFbXqTcynViHbws5cnn/MMWaJZ4juezELB4/dUu2HyzTRgnuM0jlUYk9TTFXbORu5MJMCA==.sig.ed25519"
+  "signature": "np+QZae1c2LURrl1+mFIKuYRGSypYDWtWwSIiOjgt8hcN/vHuc7tisq5oUyMpmHXP1LX5O+9vCWxLP+Voe/+CQ==.sig.ed25519"
 }
