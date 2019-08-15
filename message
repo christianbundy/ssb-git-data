@@ -1,29 +1,16 @@
 {
-  "previous": "%Tag5B6gb1PRyjdEkGi3py1HPAvrwDr0ZiyouZTFvRSo=.sha256",
-  "sequence": 11875,
+  "previous": "%6Y8TGGV0RpzyXkpC6jjJItGrZy0gBwYGYz8WwbD1s8Q=.sha256",
+  "sequence": 11876,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565883607049,
+  "timestamp": 1565883630976,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256",
-    "branch": "%yQbdNqAyw0N7Ijs0MwFabsV06KXVC1ASx8TLv2PEEN8=.sha256",
-    "reply": {
-      "%w1RzUUeAVytnxl4nSdEmSAwofKrgYerxExVHn7gm/+4=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-      "%yQbdNqAyw0N7Ijs0MwFabsV06KXVC1ASx8TLv2PEEN8=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
-    },
-    "channel": "feature-request",
-    "recps": null,
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\nI think I might have a solution.\n\nOne thing that's always bothered me is how we're using full-size blobs everywhere. Instead of using small profile images, we're making the client download the full-size profile image (up to 5 MB in size) in the original file format and then resize it  in the browser. This means a *lot* of extra data is sent over the wire, and the web browser has to hold a bunch of gigantic images in memory just to render some 16-by-16 pixel profile photos.\n\nRecently I've added a features to #oasis where you can make an HTTP request to `/image/16/:blobId` and it will resize the image to a 16-pixel square *before* sending it over HTTP. It also converts all images to PNG, and in the future I'm planning to run optipng and then caching the image somewhere on the filesystem so we don't have to repeatedly transform the same blob.\n\nAnyway, I think we can apply a simillar transform to GIFs, converting them to a video format like WebM that would give people the ability to pause/play/etc. To create the full GIF experience we'd want to make sure the `<video>` tag had both `autoplay` and `loop` attributes, but `autoplay` could be disabled depending on user preferences (🎉). The hard part would be figuring out when to use `<img>` and `<video>` tags, since the Markdown treats GIFs as images, but otherwise I think this would solve a handful of problems.\n\nMaybe? I'd be curious to hear what you think.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "#oasis"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Pzcuq5Aewow2vWnWsngg14Fl3RMECMjjYSX15PwTGbBSIHITNunOJwytSOPjPmFV+1z4pvyH7ivJV964B6oKBg==.sig.ed25519"
+  "signature": "McXXXONTGWpRzPB3/VWt3TDXyDMA0O6H9z9KKRowfNdyM8Tbf71+F2GnhZurTHymcoCVEzMhqEUnUpuNk5GqDg==.sig.ed25519"
 }
