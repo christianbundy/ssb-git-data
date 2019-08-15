@@ -1,26 +1,16 @@
 {
-  "previous": "%9j+mCIIpU0hcfiFq71cZxIySs7O7w4NTG5acXFhjRtg=.sha256",
-  "sequence": 11878,
+  "previous": "%re6LgybFFu0dAwKjJqBR0QcgYYCM9ONHqaBYbmVKu10=.sha256",
+  "sequence": 11879,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565885619385,
+  "timestamp": 1565886091125,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
-    "branch": "%ndYlxmLoH05qQkE6vmKljGuEh6UXAfTXXGA/oIOS6tA=.sha256",
-    "reply": {
-      "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%ndYlxmLoH05qQkE6vmKljGuEh6UXAfTXXGA/oIOS6tA=.sha256": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519) \n\nYeah, here's what I'm seeing:\n\n```console\n$ pkg .\n> pkg@4.4.0\n> Targets not specified. Assuming:\n  node10-linux-x64, node10-macos-x64, node10-win-x64\n> Warning Cannot include directory %1 into executable.\n  The directory must be distributed with executable as %2.\n  node_modules/sharp/build/Release\n  path-to-executable/sharp/build/Release\n> Warning Cannot include directory %1 into executable.\n  The directory must be distributed with executable as %2.\n  node_modules/sharp/vendor/lib\n  path-to-executable/sharp/vendor/lib\n$ ./oasis-linux\nerror loading sodium bindings: Cannot find module 'sodium-native'\n1) If you want to compile the package/file into executable, please pay attention to compilation warnings and specify a literal in 'require' call. 2) If you don't want to compile the package/file into executable and want to 'require' it from filesystem (likely plugin), specify an absolute path in 'require' call using process.cwd() or process.execPath.\nfalling back to javascript version.\npkg/prelude/bootstrap.js:1185\n      throw error;\n      ^\n\nError: No native build was found for platform=linux arch=x64 runtime=node abi=64 uv=1 libc=glibc\n    at Function.load.path (/snapshot/oasis/node_modules/node-gyp-build/index.js:56:9)\n    at load (/snapshot/oasis/node_modules/node-gyp-build/index.js:20:30)\n    at Object.<anonymous> (/snapshot/oasis/node_modules/leveldown/binding.js:1:105)\n    at Module._compile (pkg/prelude/bootstrap.js:1261:22)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:710:10)\n    at Module.load (internal/modules/cjs/loader.js:598:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:529:3)\n    at Module.require (internal/modules/cjs/loader.js:635:17)\n    at Module.require (pkg/prelude/bootstrap.js:1166:31)\n```\n\nLooks like the actual error is coming from an error with Level bindings, but sodium-native isn't being included and my guess is that Sharp is broken too. There are *tons* of issues about this sort of thing in the pkg repo, and it looks like there are similar problems on nexe.",
-    "mentions": [
-      {
-        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
-        "name": "Cameron Leslie"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%EUDnbRwB+dsxVmvdroM+if3kohZJ8ULS4AaI3I3x0LA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "VycP70YfnACVC/Z28Rh+VhF/JMPTcaDXWg7JxfzOsTEQx1fdcHRAvZuAWFw/+umEZj+OMtEbMt6h7Cbziy8NCw==.sig.ed25519"
+  "signature": "vH+8BfwwcEkgmGyoRofZkJtI/aYY0ScmAPDXF1WTI3y/8Lwm1FGoJsATDSPC6gZiVLKKwi0MioY96QWHIOVTDA==.sig.ed25519"
 }
