@@ -1,20 +1,21 @@
 {
-  "previous": "%OJPeJnbVIYuT1i1iqaWP+SOpMK3D7N9ev7vPfQ/B2zc=.sha256",
-  "sequence": 11859,
+  "previous": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
+  "sequence": 11860,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565878400723,
+  "timestamp": 1565878987976,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Anyone have experience compiling Node apps to executables (pkg, nexe, etc)?\n\nI've been trying to get #oasis into an executable but I keep getting arcane errors about the native modules. Both projects have open issues about native modules not working, but there haven't been any solutions shared (yet?). Would love some guidance.\n\n#javascript ",
-    "mentions": [
-      {
-        "link": "#oasis"
-      },
-      {
-        "link": "#javascript"
-      }
-    ]
+    "root": "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256",
+    "branch": "%Za0pyHjw6yRiMZ9kpNe7blFBtA3DLclhbgx1FNbhdiU=.sha256",
+    "reply": {
+      "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+      "%Za0pyHjw6yRiMZ9kpNe7blFBtA3DLclhbgx1FNbhdiU=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "You may be interested in: https://github.com/ssbc/patchwork/pull/1116",
+    "mentions": []
   },
-  "signature": "0ctQBuEE+hAKtO+4fyOj/gzMSMXSVZOwQ6PMnaaoi7G8xW4jfRebhGXfYuxuIDdKh5UQB4j/uLDVzvXHPMmnDg==.sig.ed25519"
+  "signature": "RRd26p6N+Nr+0CUC11EBoF+B/aCWsIsv7zqD+XCJ29/TiigcBxmtortSjcZtK7UHBi4/vj/fKgVfBUglKMVuDA==.sig.ed25519"
 }
