@@ -1,16 +1,20 @@
 {
-  "previous": "%6Y8TGGV0RpzyXkpC6jjJItGrZy0gBwYGYz8WwbD1s8Q=.sha256",
-  "sequence": 11876,
+  "previous": "%pXcHr31nf4C4sHXVkm4qHuyQbHpnqz3CdWIwMorqkBw=.sha256",
+  "sequence": 11877,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565883630976,
+  "timestamp": 1565883693107,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256",
+    "branch": "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256",
+    "reply": {
+      "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[🍞](https://thebreadbook.org/) ",
+    "mentions": []
   },
-  "signature": "McXXXONTGWpRzPB3/VWt3TDXyDMA0O6H9z9KKRowfNdyM8Tbf71+F2GnhZurTHymcoCVEzMhqEUnUpuNk5GqDg==.sig.ed25519"
+  "signature": "PH6R+3/wbJfRbmTIZG27z+V8l9gjTjhR0vLpk0pU5xIJDAG6uWEqx+qUWK32dfBUDZ4x/FpX5yITVDxhs6K9Dw==.sig.ed25519"
 }
