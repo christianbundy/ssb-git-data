@@ -1,15 +1,31 @@
 {
-  "previous": "%CXY6/9MvPK3BZ85krYRb7XVZE0XCIu5Iy8l0IYaX0zU=.sha256",
-  "sequence": 11889,
+  "previous": "%7W0tU9Rvbs/LcC/eeXuMW8pt+s8/rM9798PUjL7KhaA=.sha256",
+  "sequence": 11890,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1565929204838,
+  "timestamp": 1565970324767,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%W/E0XhQ+Kxft7ouMMxDyK8E7xfN9OJcwvLh1T3yfIRU=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%1KF+/CICsxGEJojnmMnTQFijiTBHfoDKU+sDEzlPAaw=.sha256",
+    "fork": "%q9yFoPLqVfDKkKcBcUg+a2w5IaSfKkh9uF5fp5+SIVA=.sha256",
+    "branch": "%0qiEf70BWcBjK8xDWN6YAuC7t46q+uxb+iWHqYR0iWE=.sha256",
+    "reply": {
+      "%1KF+/CICsxGEJojnmMnTQFijiTBHfoDKU+sDEzlPAaw=.sha256": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
+      "%0qiEf70BWcBjK8xDWN6YAuC7t46q+uxb+iWHqYR0iWE=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
+    },
+    "channel": "faerie-rings",
+    "recps": null,
+    "text": "[@ike](@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519) \n\nYes! Looks like  [@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519) is in too? I can start a PM.",
+    "mentions": [
+      {
+        "link": "@+aQL1YGSyeEIhPRMcw96/ztOy41RoKSGD7la7BUZVmA=.ed25519",
+        "name": "ike"
+      },
+      {
+        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
+        "name": "Verinaut-01"
+      }
+    ]
   },
-  "signature": "UBxuh7Ktrvfp6/f9Ghh3CBFxxjF9ABX+JPUKgw3Gm9xraLPfzxRRZUOyCCPBFFpbFM+IgBbs2RWl2vROqjJdDA==.sig.ed25519"
+  "signature": "YaHC9ciqjpYwB3kSQad7mYjrGZeh/I+bJwk1KZJLxVHh27+n0R8KP59Csuf+5yFK2mmL3EEsOiAQvUjcDAnbAg==.sig.ed25519"
 }
