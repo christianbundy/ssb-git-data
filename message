@@ -1,25 +1,13 @@
 {
-  "previous": "%X7sNDFP75+M8pEvlVqt+Mrumh5KNuos7QUlawpYTrho=.sha256",
-  "sequence": 11946,
+  "previous": "%7a+UWcRoPLtka1ufPPETn0WjxbcMF1mnie1lsDQeIf8=.sha256",
+  "sequence": 11947,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566253127283,
+  "timestamp": 1566253143552,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256",
-    "branch": "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256",
-    "reply": {
-      "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
-    "channel": "ssb-clients",
-    "recps": null,
-    "text": "[@SoapDog charming friend](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nHi friend. The ssb-ws server that serves media at `http://localhost:8989/blobs/get/:blobKey` *should* be setting a content type IIRC, and ssb-markdown *should* be rendering either an `<audio>` or `<video>` tag depending on what kind of content it is. Do you have an example of a message or blob that's rendering unexpectedly?",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog charming friend"
-      }
-    ]
+    "type": "about",
+    "about": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+    "name": "SoapDog"
   },
-  "signature": "qYLp1F1J11PBUBTvGL9GaFeVatzWRJ+POnt0i9txQEM6VbEa+ujG2HIYTUCmxOnmzI7l1Jc1AP0fLOP8WTT1DQ==.sig.ed25519"
+  "signature": "xaS7cCbV/NJQQmfgEfMrCHvKnfWCvY9IDEBFsqlzWxCbjBJvI5x6MVPZPg50eikuxHHuH1gPU/MT/7uy0OzlCg==.sig.ed25519"
 }
