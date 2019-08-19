@@ -1,17 +1,25 @@
 {
-  "previous": "%Iv/IrkEPQNtpSNrqzqlorhjXHhNGvrr3fa+cUqkLsQk=.sha256",
-  "sequence": 11943,
+  "previous": "%qVgvAJOTMjW6/m9ZqvBub0EKfzijV2ilDZG32Lgc5fU=.sha256",
+  "sequence": 11944,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566251458710,
+  "timestamp": 1566251631395,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "pavo-lang",
-    "vote": {
-      "link": "%tg1VYE3mo5NfGpi4Nn6HzoG9Pyt1N79NgqcyVN1mqoE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Fbshab/4Bn/8mDxVHMf/FRUZ3sMo5fwvi2hAeq7GNqI=.sha256",
+    "branch": "%Fbshab/4Bn/8mDxVHMf/FRUZ3sMo5fwvi2hAeq7GNqI=.sha256",
+    "reply": {
+      "%Fbshab/4Bn/8mDxVHMf/FRUZ3sMo5fwvi2hAeq7GNqI=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nThis is way cool, thanks! Right now I'm just adding friendly folks as repo contributors but it might be useful to add people to a issue maintainer list. I'll probably at least mention this on the inevitable SSBC call, if/when that happens.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
   },
-  "signature": "oEQe7r683mk5Vvub1tBWT9V5gAZ+62Q5Biq5sR3Lf9LigHl1j8fBTYkhtEb/vVRQwpz6uAoM+qxgoRHq8ySiCg==.sig.ed25519"
+  "signature": "otnPewH2fqVok8HMGQ8Y0wNLc0qlwiWkgT7PTpUBBj4J4iQo0vlSa1Pp4v4xfvY+swWosSZyUh8LxC4YGs5IBg==.sig.ed25519"
 }
