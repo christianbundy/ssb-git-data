@@ -1,16 +1,32 @@
 {
-  "previous": "%9i5v95u2FjiSFmhFwiTXU4/dKKMULfDeWeXrjzsdZHY=.sha256",
-  "sequence": 11924,
+  "previous": "%LaGej6f8qSzq/PXnfrG6LY75+ddLJV+j4hwGgRNpiMU=.sha256",
+  "sequence": 11925,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566185321615,
+  "timestamp": 1566233236797,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%TD7g0gltxtPQGeRI0OUfPXw4/Q2CPc363tgdycTmtBE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+fBXl12aV1wpAdD62RMl1WRhwthDMuAuHH4iNWgB7jA=.sha256",
+    "branch": [
+      "%7eKVDOUjBL7ZuOKCGbKNOzCtECTyKKMFzekBhafVIbo=.sha256",
+      "%ZxjfTAgzkcpWuWzRwxejHGfjWJBhV21RYdgcvKOmm6o=.sha256",
+      "%ddOGX0FUczVIUtwPEsXqgrY1TMVxoU7vQ9MKxqCSxXc=.sha256",
+      "%dluNjo8W7WJCtiSmbtAeHA2pM4EgfefHlMeSABBrbrw=.sha256",
+      "%knPA6mNCO48jpjXEXSL7U7+xnlr2tf3lsnmpWyokzAw=.sha256"
+    ],
+    "reply": {
+      "%+fBXl12aV1wpAdD62RMl1WRhwthDMuAuHH4iNWgB7jA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%ddOGX0FUczVIUtwPEsXqgrY1TMVxoU7vQ9MKxqCSxXc=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": "scuttlebutt",
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI think you're right, I've always been confused by those semantics, but I twisted it to make sense as:\n\n- `root` points at the new thread root\n- `fork` points at the root of the thread that you're forking\n\nI think I copied Patchwork's nesting style in Oasis, but it's probably easy to fix? I remember you mentioned that Patchbay was having trouble rendering Patchwork nested replies, maybe this is why?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "wRBrC2ZQ2Ul441heuab/Nwp01zec7zwTjxNXewjKEcpmVM1Knlrw3+fkpEgTxEVtIH09itOSc6UK6ylyUPMqBw==.sig.ed25519"
+  "signature": "LblS5ilFORo3SQLhj37+FHO58BKXd5n6+7yoLRj/ax9oYYyfCuq1CMeFiiGIiJEb1fE5fV/+xYMESFUE1iYODA==.sig.ed25519"
 }
