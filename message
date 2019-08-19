@@ -1,21 +1,17 @@
 {
-  "previous": "%Z7mea/ANaWk1ds6KcrL/qx8UjWF626nHUOiSpDoehHo=.sha256",
-  "sequence": 11933,
+  "previous": "%Rjd3Wj58GZuzDJB6WEpqhAsCav8Mbx1lUBmcDCoOz7U=.sha256",
+  "sequence": 11934,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566241272639,
+  "timestamp": 1566242286456,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256",
-    "branch": "%Z7mea/ANaWk1ds6KcrL/qx8UjWF626nHUOiSpDoehHo=.sha256",
-    "reply": {
-      "%0V8ONuuirc2mqVcGmbIzJw7Aup+GbOUVmN8Wd9cEst4=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-      "%Z7mea/ANaWk1ds6KcrL/qx8UjWF626nHUOiSpDoehHo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Wait, no, that's not helpful. I think maybe we're just failing at title text? I thought there were tests for it, I don't think I would've [implemented it](https://github.com/ssbc/ssb-markdown/blob/8c317ba7840aff26e9a16dc006e409e51c7a1302/lib/block.js#L149-L168) unless there were tests that required it...",
-    "mentions": []
+    "type": "vote",
+    "channel": "",
+    "vote": {
+      "link": "%sMSyzsbZ+SOhg/tuKtfYpaaoXP0Xdx1bYetBKqyvdXU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "x9JiVxDTi1T8SMeFW6tcJNoVxC7Zf9YQdjfBgSnYO7vG4WmFNsTXV2bE4LVrs1t9dzOVFpKeKYPAKCxk0/4VDQ==.sig.ed25519"
+  "signature": "ThXoZ+vmOjgirvU6zMeai1jLpii5m+7ywjncxuZpCNEicK1SMz9M5ao7nxgYJE8/as0hQ7pLE692JoaRY0W9AQ==.sig.ed25519"
 }
