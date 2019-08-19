@@ -1,30 +1,16 @@
 {
-  "previous": "%GGxT9PLwRal0YiK41aPb9NB/21a9/NaTjRH1faoatvQ=.sha256",
-  "sequence": 11907,
+  "previous": "%HjQCZl62CXTDCT/p6g3s/rbzW+2E6P05o+lwcphneo4=.sha256",
+  "sequence": 11908,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566176867715,
+  "timestamp": 1566179970163,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256",
-    "branch": "%dg21sVecOE6kg6+cGpvj/w5pTHv2WpoXQ++NEOhfQTg=.sha256",
-    "reply": {
-      "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-      "%dg21sVecOE6kg6+cGpvj/w5pTHv2WpoXQ++NEOhfQTg=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519)\n\nCould you post the output of ` env | grep -iE '(node|npm)'` and `npm version` please? Alternatively if you post build errors to the AUR package lots of people (including me) who use the package will get a notification that you're looking for help with it. :~)\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nYeah, Arch has maintainers create their own repo for *only* the Arch-package-specific stuff, so it's a different git repo. I've considered pushing the repos to ssbc/aur-patchbay or something but wasn't sure if anyone would find it helpful. Maybe that would be a good move?",
-    "mentions": [
-      {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%L2ura1FGObCH6nqvquQydQghgduU1g6mnb+D1dlsW50=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LVwqoz58O9dRrDvEZ7EheFIN53oGPTJiywnfp0dxqxPFKOURCrjXCOUr+2x3Kyfjz2dm8QMZ2B/cjsRy77OqAw==.sig.ed25519"
+  "signature": "mYyevyETziUMmeewiytP2igWx+0WfZICEST9a6OeEBzLLheOMdf99wsUTMhaAEMVan3Nomavkid9Ph9NGSqMAA==.sig.ed25519"
 }
