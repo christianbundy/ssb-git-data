@@ -1,28 +1,20 @@
 {
-  "previous": "%NvM24NhhARMM+nwyoXMtQmGFHPa75lG1QgdrtK/9b3k=.sha256",
-  "sequence": 11955,
+  "previous": "%WFpJhBlbjjHQGstQ/qfdBVI1an65E+M+oY9QJMmhYK4=.sha256",
+  "sequence": 11956,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566254298315,
+  "timestamp": 1566254554618,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256",
-    "branch": "%rtkFQxMINSiBPidGFHjhKVKOU0InUOYjqfeThRWOuyM=.sha256",
-    "reply": {
-      "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-      "%rtkFQxMINSiBPidGFHjhKVKOU0InUOYjqfeThRWOuyM=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
-    "channel": "ssb-clients",
-    "recps": null,
-    "text": "- Video: %zxK+POIuodIWdY/TFfPj2fWJYBcYNdjXhB9McgoEJso=.sha256\n- Audio: %bUTtf/K322wskowPiWZVfU2bWIR4rxDTOeZ5ghl1rhI=.sha256",
+    "root": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
+    "branch": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\nNo, I'm still living in Arch-land for now. I realized that one of the things I was interested in was using the same VCS as the upstream module, but it seems like many/most/all operating systems and package managers have a separate \"downstream\" VCS for managing the package.\r\n\r\nWanting to integrate more closely with upstreams *might* be very silly, so I'm not really throwing any effort at it, but I think it was one of the drivers behind wanting to try out Gentoo.\r\n\r\nStream of consciousness thoughts about package managers: right now we have a Git repo for Patchwork and a Git repo for the Arch version of Patchwork, which basically just has the build instructions and patches and whatever else we need. I'm thinking that it would be cool to have a package manager that branches off of Patchwork's `master` and adds a `.foo` directory for all of those build files, so we do version control *with the original version control system* rather than having a secondary repo with hash links to download from GitHub (!) over HTTP (!!). I'm a bit surprised this isn't a thing, but maybe it's because it's a bad idea.",
     "mentions": [
       {
-        "link": "%zxK+POIuodIWdY/TFfPj2fWJYBcYNdjXhB9McgoEJso=.sha256"
-      },
-      {
-        "link": "%bUTtf/K322wskowPiWZVfU2bWIR4rxDTOeZ5ghl1rhI=.sha256"
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
       }
     ]
   },
-  "signature": "jEh1yNDGGfwDs5/6Q6V2gIkEhnmSQSWoWrfPFXGg+yA2SnM0hN0S4BoB1IrqfjK0wjy9wpQsgu1huSKxpsXfAQ==.sig.ed25519"
+  "signature": "cMh4lYLuadkbnlE/W1dR8UpmM/COKWinHUoFsDvgNc+V7u327xKQfj2Po6GkVFWjVdGtHQtG+91wwLuKGReKDg==.sig.ed25519"
 }
