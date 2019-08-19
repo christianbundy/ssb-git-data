@@ -1,17 +1,21 @@
 {
-  "previous": "%XM60WQ/95UBsEvvCEJPSKaJHFVCxa7FRocFG3bHFAQE=.sha256",
-  "sequence": 11930,
+  "previous": "%krK8z4lKPGt7Boef2iRlwLoxFV9ljZ/TQ24vkDCf7wY=.sha256",
+  "sequence": 11931,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566240270478,
+  "timestamp": 1566240499979,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256",
+    "branch": "%gnTBnTbSra7Gh4vSO1/L3aaN5ycz24+e/lawdsXiJ2c=.sha256",
+    "reply": {
+      "%ApyrMMJp1jhFIh4g9kye8ozqJ/Kzjvi3/xeFcQjfsQU=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+      "%gnTBnTbSra7Gh4vSO1/L3aaN5ycz24+e/lawdsXiJ2c=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%gnTBnTbSra7Gh4vSO1/L3aaN5ycz24+e/lawdsXiJ2c=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "I've got nothing of value to add but I'm *stoked* to see Kropotkin in my feed. In case you're wondering \"should I keep posting more summaries of interesting ideas\" the answer is **hell yes**. 🍞 🍞 🍞 ",
+    "mentions": []
   },
-  "signature": "ZO+q9mahFKc2Owo/uNeSy2DWuVw/fbEWhWwCg/w3jx1ZPg4S5FWSCCki89aV5qkMG7cETp1C+2iuIY9I2PF9Cg==.sig.ed25519"
+  "signature": "V05nLEc6MAT47NOll6tNw8wmiSnNXthPSXwVZyBDjN5Uinpo8qHRJNpUUd4CmfpZ5F3V4nzCNdreYjHHzQQHCg==.sig.ed25519"
 }
