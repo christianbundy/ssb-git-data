@@ -1,26 +1,25 @@
 {
-  "previous": "%TkrqEgWPIrvAs2K0eErIAyX5/VoTGTA/pYUD7kKGaEs=.sha256",
-  "sequence": 11945,
+  "previous": "%X7sNDFP75+M8pEvlVqt+Mrumh5KNuos7QUlawpYTrho=.sha256",
+  "sequence": 11946,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566252804999,
+  "timestamp": 1566253127283,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256",
-    "branch": "%dxJq068DmF34KL0PJhKTFf2W07PyL3BsuXbZxLEs7uY=.sha256",
+    "root": "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256",
+    "branch": "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256",
     "reply": {
-      "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-      "%dxJq068DmF34KL0PJhKTFf2W07PyL3BsuXbZxLEs7uY=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519"
+      "%tMaqmrDFh24MDY0Nb97YUjKJatkoOQugOFO16JvZLWA=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
     },
-    "channel": null,
+    "channel": "ssb-clients",
     "recps": null,
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nHmm. I wish I knew what the issue might be. I've just pushed a new commit for Patchbay 8.1.0, could you try that and see if you get the same errors? I haven't changed anything except for the version number.",
+    "text": "[@SoapDog charming friend](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nHi friend. The ssb-ws server that serves media at `http://localhost:8989/blobs/get/:blobKey` *should* be setting a content type IIRC, and ssb-markdown *should* be rendering either an `<audio>` or `<video>` tag depending on what kind of content it is. Do you have an example of a message or blob that's rendering unexpectedly?",
     "mentions": [
       {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog charming friend"
       }
     ]
   },
-  "signature": "PWPMaK8saU0pWSa7AaWpdtR9LY/2xWY3P2moOAmRazODBq7VJ1w6K/T6+8OEmmeNOIMNeFBG8UD/+7TWTV+xDw==.sig.ed25519"
+  "signature": "qYLp1F1J11PBUBTvGL9GaFeVatzWRJ+POnt0i9txQEM6VbEa+ujG2HIYTUCmxOnmzI7l1Jc1AP0fLOP8WTT1DQ==.sig.ed25519"
 }
