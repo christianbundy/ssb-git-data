@@ -1,17 +1,25 @@
 {
-  "previous": "%BB8bJIHkSdj8aZeiSv2Bvj8ElnmqUDB+HnvDNtYpFas=.sha256",
-  "sequence": 11928,
+  "previous": "%kKUDq0EV3GrvGYZf/lH9AEFSgTp5WJq+hLzivTyXgXI=.sha256",
+  "sequence": 11929,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566239703800,
+  "timestamp": 1566240254816,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "",
-    "vote": {
-      "link": "%kkO+VHXploYZZGu7g7P35VAXDX/rgmGdvYNTVi+/0vA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%o7V2aPeodW9BvoDWG5BAQQsVf+M2eJRAsja7+dmcPmc=.sha256",
+    "branch": "%o7V2aPeodW9BvoDWG5BAQQsVf+M2eJRAsja7+dmcPmc=.sha256",
+    "reply": {
+      "%o7V2aPeodW9BvoDWG5BAQQsVf+M2eJRAsja7+dmcPmc=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519)\n\n> Is there a way to add someone to a private gathering after it’s creation?\n\nI mentioned this in a private message as well, but it doesn’t look like you can add people to gatherings after they’re created (at least in Patchwork (?)). Really appreciate you trying to make the gathering! In my experience private gathering are hard because clients support is very poor. \n\nMost of the time if you have to run a command-line utility to do something on Scuttlebutt you can expect that clients are usually going to have a hard time understanding it. These utilities are *awesome* for trying out weird and experimental stuff but their compatibility isn't going to be too great. We'll probably need to make a new gathering in the future since this one is still encrypted for me. ",
+    "mentions": [
+      {
+        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
+        "name": "Verinaut-01"
+      }
+    ]
   },
-  "signature": "c9AaPdZ83wH3La4kIehBR8V7R761FETJsL6m66C2UlIqy7SuWkI5PcFEzvdNi9Ao5UspSyhWBWHmjaf74BLhDA==.sig.ed25519"
+  "signature": "DPHbRs/ZnH/SFH7cDxrhozmetz7kM2pTURExgK3hnbV0eAEALkXPV+es9BsXtfLBnLvotrSnD1v7LSjWCx81Ag==.sig.ed25519"
 }
