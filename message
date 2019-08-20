@@ -1,17 +1,26 @@
 {
-  "previous": "%n+Qpsh0a2e7d3ltmKGEh3G91vAXvBWQWLiF/GsMPhaA=.sha256",
-  "sequence": 11958,
+  "previous": "%qAIGSkafrJeGKKz3T7de8Ehht+YYxAa168hKqCd6ihA=.sha256",
+  "sequence": 11959,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566260319274,
+  "timestamp": 1566260776818,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256",
+    "branch": "%GXAuUgB6oXjIGfSUUOzebnlm4U7hbibQDuWmNcl1+f0=.sha256",
+    "reply": {
+      "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+      "%GXAuUgB6oXjIGfSUUOzebnlm4U7hbibQDuWmNcl1+f0=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%UynpNCnEwGwGRYjhyjD2qG07o6YYNZKnny8I8eshSVU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nThanks for helping me understand that better!\n\nAside: I was playing around with the archive.org web extension and found some fun template URLs:\n\n- First version of a page: https://web.archive.org/web/0/http://example.com/\n- Latest version of a page: https://web.archive.org/web/2/http://example.com/\n\nIt turns out that both `0` and `1` take you to the oldest version, `2` through `99` take you to the latest version, and numbers above that are... confusing. I'm not really sure how it works, although I'd imagine it's probably open source? ",
+    "mentions": [
+      {
+        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+        "name": "enkiv2"
+      }
+    ]
   },
-  "signature": "hYd+F/7ikGpBPg+ZnztA1IjvZIoAa4tTzeq7gWQ96bwCEEUvaXWz1Y4WMzrbykVQA13ZHnACweqzwM3H3f/BDQ==.sig.ed25519"
+  "signature": "T0Tygk0otXtoOvxmyBjWKNF2HQyO6kA/oaJaiXLISNhS/EWjRlMeslzy4t47eBC2MjFRw8z5bbn9ue1ozYYtAw==.sig.ed25519"
 }
