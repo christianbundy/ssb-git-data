@@ -1,26 +1,16 @@
 {
-  "previous": "%qAIGSkafrJeGKKz3T7de8Ehht+YYxAa168hKqCd6ihA=.sha256",
-  "sequence": 11959,
+  "previous": "%FQOu4qIkuHfKoUNyUkK2LLYO5zPNSViz4eRpdEtCCCY=.sha256",
+  "sequence": 11960,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566260776818,
+  "timestamp": 1566261285737,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256",
-    "branch": "%GXAuUgB6oXjIGfSUUOzebnlm4U7hbibQDuWmNcl1+f0=.sha256",
-    "reply": {
-      "%zIav8COlkxryw2Ykn5RSLKAmj1zMazErGH0OxqmGOaM=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
-      "%GXAuUgB6oXjIGfSUUOzebnlm4U7hbibQDuWmNcl1+f0=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nThanks for helping me understand that better!\n\nAside: I was playing around with the archive.org web extension and found some fun template URLs:\n\n- First version of a page: https://web.archive.org/web/0/http://example.com/\n- Latest version of a page: https://web.archive.org/web/2/http://example.com/\n\nIt turns out that both `0` and `1` take you to the oldest version, `2` through `99` take you to the latest version, and numbers above that are... confusing. I'm not really sure how it works, although I'd imagine it's probably open source? ",
-    "mentions": [
-      {
-        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
-        "name": "enkiv2"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%lWuiuFzor++Gw0XQx13aAVjPNOfN1RTRd0yimu5e7Oo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "T0Tygk0otXtoOvxmyBjWKNF2HQyO6kA/oaJaiXLISNhS/EWjRlMeslzy4t47eBC2MjFRw8z5bbn9ue1ozYYtAw==.sig.ed25519"
+  "signature": "4vAuAx9unNDRu68LbLKrla5n9tVeuepW52DWqnJA8hRPcXgyFXlBPO3SjiPRqVTE4IYDmUnid/8cgKDZ4UriDg==.sig.ed25519"
 }
