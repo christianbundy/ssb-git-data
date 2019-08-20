@@ -1,21 +1,45 @@
 {
-  "previous": "%EuJCXr3dP6lOJP7k2TRvu/VDWXxKmddVPjhGFOrUWTc=.sha256",
-  "sequence": 11972,
+  "previous": "%AyJV+53GFEa4KN4tMQqm6xtPdutSQahSOeYGCuD4m78=.sha256",
+  "sequence": 11973,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566325213338,
+  "timestamp": 1566325318883,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "%EuJCXr3dP6lOJP7k2TRvu/VDWXxKmddVPjhGFOrUWTc=.sha256",
-    "image": null,
-    "startDateTime": {
-      "epoch": 1567022400000,
-      "tz": "america/los_angeles",
-      "silent": true,
-      "_weekStart": 1
+    "type": "post",
+    "root": "%EuJCXr3dP6lOJP7k2TRvu/VDWXxKmddVPjhGFOrUWTc=.sha256",
+    "branch": [
+      "%AyJV+53GFEa4KN4tMQqm6xtPdutSQahSOeYGCuD4m78=.sha256",
+      "%EuJCXr3dP6lOJP7k2TRvu/VDWXxKmddVPjhGFOrUWTc=.sha256"
+    ],
+    "reply": {
+      "%EuJCXr3dP6lOJP7k2TRvu/VDWXxKmddVPjhGFOrUWTc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%AyJV+53GFEa4KN4tMQqm6xtPdutSQahSOeYGCuD4m78=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
-    "title": "Patchwork Party",
-    "description": "Previously: %s+ayg2ZJxJilWp8t8yh1gb+1moDqVOHGQhOVI8PmZ94=.sha256"
+    "channel": null,
+    "recps": null,
+    "text": "cc:\n\n- [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n- [@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n- [@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\n- [@mary](@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519)\n- [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)\n",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      },
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      },
+      {
+        "link": "@SXVoA/7CuMRS5IDTNsO8HU2PvCIVq8HKUUx/k+idDiQ=.ed25519",
+        "name": "mary"
+      },
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "D9CZ0J3LPIf/uSKwDQb+Ttn4v41IwCxsXVo2pVjN1i35fvM0ZDMYbpWba/JxS7wNjF/TuszSqp/jIko9jbpzBA==.sig.ed25519"
+  "signature": "szXsFKT9fhdpX2zHxtqgXyxNF3HbdcDYfQhgSKobom3IbZlXN9luBhT8otPG0Inx7h2xpqn3+QX2HT9mKUPWDg==.sig.ed25519"
 }
