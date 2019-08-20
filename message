@@ -1,17 +1,33 @@
 {
-  "previous": "%o9MeRJ7rcG9vrBTwkWMazc6lyEmNMawLOiCri1L68Vo=.sha256",
-  "sequence": 11963,
+  "previous": "%GApFIFacB/4Ct0F7dk52tnChwRFv91uoY2lqKnXqKrs=.sha256",
+  "sequence": 11964,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566261602891,
+  "timestamp": 1566261708552,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%lWuiuFzor++Gw0XQx13aAVjPNOfN1RTRd0yimu5e7Oo=.sha256",
+    "branch": [
+      "%H67mYTscMiBLVqjlBzqfcLNkJfJnmZGcjXjQFfTQ6O8=.sha256",
+      "%wUeHuzH0z6UVv+F2Uf/Td1JFNnU2OVAuy2rQcUK1anE=.sha256"
+    ],
+    "reply": {
+      "%lWuiuFzor++Gw0XQx13aAVjPNOfN1RTRd0yimu5e7Oo=.sha256": "@ctLmxhUiEPou/jxfKyGxs+nVh6XcM6uCCg0ldePkLGc=.ed25519",
+      "%H67mYTscMiBLVqjlBzqfcLNkJfJnmZGcjXjQFfTQ6O8=.sha256": "@ctLmxhUiEPou/jxfKyGxs+nVh6XcM6uCCg0ldePkLGc=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%eyYdrHyLJu3652gJIVvvG3eb4j+0pEG3NX1tzhrgJx8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@rjkip](@ctLmxhUiEPou/jxfKyGxs+nVh6XcM6uCCg0ldePkLGc=.ed25519)  /  [@rjkip Ⓜ️](@9lx49s9tig9q5wCSkUps1fhMzRfc/JofzBCGPLzeQec=.ed25519)\n\nMy kombucha scoby has been sitting dormant for a few months and when I went out of town for a few days I came back to a pile of mold. Boo. I looked around the web for other fermented beverages I could experiment with and found this weird \"ginger bug\" idea, and I was *so excited* to search SSB and find that your post was **already on my computer**. Scuttlebutt magic!\n\nI see you haven't been on in a few months, but if you have any thoughts from recent attempts. Especially:\n\n> I might try even preparing the the mix like this, stir it throughout the day, and then put it in a vessel, no bug. Wouldn’t surprise me if that would work very well 👌\n\nThanks for posting this! I'm excited to try to make a ginger bug. ",
+    "mentions": [
+      {
+        "link": "@ctLmxhUiEPou/jxfKyGxs+nVh6XcM6uCCg0ldePkLGc=.ed25519",
+        "name": "rjkip"
+      },
+      {
+        "link": "@9lx49s9tig9q5wCSkUps1fhMzRfc/JofzBCGPLzeQec=.ed25519",
+        "name": "rjkip Ⓜ️"
+      }
+    ]
   },
-  "signature": "1ZDzNo/OE3Ho1+RrAUQeoRRCzHXs3D1MXo0lvYP+hMurPafjQCoWFA5haAT236aAnzQoXd4P+mOKoKhCKFBzAw==.sig.ed25519"
+  "signature": "U2/Ncl0WuIxBD0ubiwNFdHMwnYqKWe4w5cC0OwfMMubqHsMRnAsDOSrsi/zn3x29DNoPa7DzebMD3+PV1GRDDQ==.sig.ed25519"
 }
