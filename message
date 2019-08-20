@@ -1,20 +1,29 @@
 {
-  "previous": "%WFpJhBlbjjHQGstQ/qfdBVI1an65E+M+oY9QJMmhYK4=.sha256",
-  "sequence": 11956,
+  "previous": "%MyZvRuEr7ZMYSJIhddWzwHXD79bj7iYH5G0iNA27utg=.sha256",
+  "sequence": 11957,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566254554618,
+  "timestamp": 1566260227862,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
-    "branch": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
-    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\nNo, I'm still living in Arch-land for now. I realized that one of the things I was interested in was using the same VCS as the upstream module, but it seems like many/most/all operating systems and package managers have a separate \"downstream\" VCS for managing the package.\r\n\r\nWanting to integrate more closely with upstreams *might* be very silly, so I'm not really throwing any effort at it, but I think it was one of the drivers behind wanting to try out Gentoo.\r\n\r\nStream of consciousness thoughts about package managers: right now we have a Git repo for Patchwork and a Git repo for the Arch version of Patchwork, which basically just has the build instructions and patches and whatever else we need. I'm thinking that it would be cool to have a package manager that branches off of Patchwork's `master` and adds a `.foo` directory for all of those build files, so we do version control *with the original version control system* rather than having a secondary repo with hash links to download from GitHub (!) over HTTP (!!). I'm a bit surprised this isn't a thing, but maybe it's because it's a bad idea.",
+    "root": "%YScgk7EnrCX7af1/J19N3SGC/F+3zWYL61wqEpXkgrw=.sha256",
+    "branch": "%YScgk7EnrCX7af1/J19N3SGC/F+3zWYL61wqEpXkgrw=.sha256",
+    "reply": {
+      "%YScgk7EnrCX7af1/J19N3SGC/F+3zWYL61wqEpXkgrw=.sha256": "@ped5H5Bs/p27lGbnVGALuamUUl1L5hrPDKBqTFqPcLY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@zandy](@ped5H5Bs/p27lGbnVGALuamUUl1L5hrPDKBqTFqPcLY=.ed25519) \n\nSome resources:\n\n- [@uids](@UIDs8oWKQBK8QTSAGV6SZiE80jwQlHTuEjhEaNRV8Zw=.ed25519) \n- https://ssb.celehner.com/stats/daily.html\n",
     "mentions": [
       {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
+        "link": "@ped5H5Bs/p27lGbnVGALuamUUl1L5hrPDKBqTFqPcLY=.ed25519",
+        "name": "zandy"
+      },
+      {
+        "link": "@UIDs8oWKQBK8QTSAGV6SZiE80jwQlHTuEjhEaNRV8Zw=.ed25519",
+        "name": "uids"
       }
     ]
   },
-  "signature": "cMh4lYLuadkbnlE/W1dR8UpmM/COKWinHUoFsDvgNc+V7u327xKQfj2Po6GkVFWjVdGtHQtG+91wwLuKGReKDg==.sig.ed25519"
+  "signature": "RwqRfwkIhBO7UJFdtVX++W3TRr/niBINh3gjZiNkgeWsHgCB72IdfwKXTmFPPwyYMsdl0B8mv8B0ynynuzD3Cg==.sig.ed25519"
 }
