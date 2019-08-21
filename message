@@ -1,21 +1,16 @@
 {
-  "previous": "%tzWM47y7XI4o/+CHy3TJIS3QZp/pv0Qx+fKhFLTiUnU=.sha256",
-  "sequence": 11990,
+  "previous": "%G//yt6mHLh/TJNRXBozPhw5sN4cKDJW5jmrx/9p8UDM=.sha256",
+  "sequence": 11991,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566345226972,
+  "timestamp": 1566350532350,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%+fBXl12aV1wpAdD62RMl1WRhwthDMuAuHH4iNWgB7jA=.sha256",
-    "branch": "%Wfcmm/ovBFA1bdoliDwsmuck/nv+1+wfKTqAFd83c0w=.sha256",
-    "reply": {
-      "%+fBXl12aV1wpAdD62RMl1WRhwthDMuAuHH4iNWgB7jA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%Wfcmm/ovBFA1bdoliDwsmuck/nv+1+wfKTqAFd83c0w=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
-    },
-    "channel": "scuttlebutt",
-    "recps": null,
-    "text": "> forking and nested replies are different things… at least according to the spec above.\n\nOh, I hadn't read the spec, I was just basing that off of how Patchwork says \"write a public reply in a sub-thread (fork)\".\n\nHmm.",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%qy+Ma3AqXE5WIsMk4VvAlI5W/ULa/2pHQR5iSw+sDJM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "STJI6f5sjz3waMOOnt7zHliEW+b09HBtiDGf5HJhu5RWO1KFPHNzTTdH0E92NrJcjuMer1ApDH7BI5lL81efCg==.sig.ed25519"
+  "signature": "WY36PppkSw4UUZi0/sxO1eYRITEVCmNiuuBSHOik7y+W7N6oVruqrFSdM5Q1FJBhTA5F5q9xhnLjY0gYOeOYCQ==.sig.ed25519"
 }
