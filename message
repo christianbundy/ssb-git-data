@@ -1,17 +1,24 @@
 {
-  "previous": "%maai5DX4eipNlCtgjSu1Nfd2Tbe5M4jbf+Yukh3D2oc=.sha256",
-  "sequence": 12017,
+  "previous": "%ZtQ0a3Wd0asfUK7TrRUuidCjRwLYaqXItumkiGlHEEQ=.sha256",
+  "sequence": 12018,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566420795648,
+  "timestamp": 1566420977971,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "patchwork-dev",
-    "vote": {
-      "link": "%UiBGe49fVzbTUazaIlmg2fymLWgPInilDIKZ54P9lHg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%giTqpERSUHZULvg4Ukd1nRMiD7zfp7oruzqemUc0uDg=.sha256",
+    "branch": "%giTqpERSUHZULvg4Ukd1nRMiD7zfp7oruzqemUc0uDg=.sha256",
+    "reply": {
+      "%giTqpERSUHZULvg4Ukd1nRMiD7zfp7oruzqemUc0uDg=.sha256": "@wNmXqk80DL4FrBjzZcYqbKs/SpsPv6MVX6BLICabPfI=.ed25519"
+    },
+    "channel": "current-events",
+    "recps": null,
+    "text": "> After fifteen days of raging fires in the Amazon Forest in Rondônia, thick smoke clouds cover the Brazilian city of São Paulo in darkness. Street lamps had to be lit in the city around 2PM. The fires, suspected to be intentional, are still burning the forest. (G1)\n\n\n?!?!?\n\nHow my #brazil friends doing?",
+    "mentions": [
+      {
+        "link": "#brazil"
+      }
+    ]
   },
-  "signature": "svkPxDjoet4a9VuTEwUi0u7HhsTttPJJC9zgSusMMSKOrKsxyyoDZB7rdJ8oafdxj+LAIzvL9fLZqvbYtUqODQ==.sig.ed25519"
+  "signature": "But7r2PbQ4DTNWWCKXodpy8+oO3fSNXqqpApwJIj+EVgdxez1NJoXWoh2XZsw+1fX6TVUZ/0VXpo6FiZXcmfDg==.sig.ed25519"
 }
