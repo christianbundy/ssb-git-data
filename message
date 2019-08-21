@@ -1,17 +1,33 @@
 {
-  "previous": "%HyDxPkuD/bj3W4Qysqtq78IRKFf6Bl9x0xzVSVtytRo=.sha256",
-  "sequence": 11996,
+  "previous": "%gjAs+Mq+5UR83jpdmApS/Cfgm6oKc4m+oeRK/e/+K+4=.sha256",
+  "sequence": 11997,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566353284629,
+  "timestamp": 1566353622203,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
+    "branch": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
+    "reply": {
+      "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%9aNIfXHAlzYXW0rjKfESE5gQZLM58iZ4HVzPOcEdE4A=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Also:\n\n- #👨🏾‍🎤\n- #轻拿轻放\n- #a+b-c_d\n- #MötleyCrüe",
+    "mentions": [
+      {
+        "link": "#👨🏾‍🎤"
+      },
+      {
+        "link": "#轻拿轻放"
+      },
+      {
+        "link": "#a+b-c_d"
+      },
+      {
+        "link": "#MötleyCrüe"
+      }
+    ]
   },
-  "signature": "gMLegDwZtsUi6y1xSWxKCKhCzWJZ42TRtapUuI809Y/OXhbl5QNHu8n3UQ9Nzky9ZwNzZd/8fFChj3cLAlehDA==.sig.ed25519"
+  "signature": "izdgrySIQ4Zj72xnLcQ9Ny6Sp4RZ+HRdmEp9e7tsYA6mi0AaisLyOfBEqj+fRR/t45OGyANIr7LwjwDEbWDfCA==.sig.ed25519"
 }
