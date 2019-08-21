@@ -1,17 +1,25 @@
 {
-  "previous": "%dhbNDh+Tl7jJpSAwivsbrSWfu8e1IsOfoayJNYouFgs=.sha256",
-  "sequence": 12015,
+  "previous": "%dSdw5/XvfmYfoY8QinEhtgQsBkwTY9k11lkzinMcwt4=.sha256",
+  "sequence": 12016,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566420515536,
+  "timestamp": 1566420684441,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%TVcEvO8BmJGwdjF8RgQzpuKdsAT/SXLiPBcewGWIB0g=.sha256",
+    "branch": "%TVcEvO8BmJGwdjF8RgQzpuKdsAT/SXLiPBcewGWIB0g=.sha256",
+    "reply": {
+      "%TVcEvO8BmJGwdjF8RgQzpuKdsAT/SXLiPBcewGWIB0g=.sha256": "@xZW2KkcSiM1cSjGdW+1nfZ4v3UHWlQ4OcB9rDj6mQn4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%kJNE7THVJVs7zJ+BgAUDTW2DwIF9Lf8Lf+pNQ854DTU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@dandelion (virtual device)](@xZW2KkcSiM1cSjGdW+1nfZ4v3UHWlQ4OcB9rDj6mQn4=.ed25519) \n\nNegative, Patchwork is a jealous lover and demands port 8008. I think Patchfox and Patchfoo work if you have an external server and Oasis works either way.",
+    "mentions": [
+      {
+        "link": "@xZW2KkcSiM1cSjGdW+1nfZ4v3UHWlQ4OcB9rDj6mQn4=.ed25519",
+        "name": "dandelion (virtual device)"
+      }
+    ]
   },
-  "signature": "acL8wSXwjaiNSeL2f6gqLw3c+fflnGQ+wsOI0FDAxcwCafcv9XS49ByiQ6vnJ0kJlyJUYGGiPlyoOr9Oqx6WDg==.sig.ed25519"
+  "signature": "yopmT0U1xx+OzLDMfR/8QFNFhLxkAL0CqNWcb4M+70l9ixZA0YzcqLu9RrE46ERXRoTo+NzVkeNg8bMs5h3VAw==.sig.ed25519"
 }
