@@ -1,17 +1,26 @@
 {
-  "previous": "%ZLZoJ8a7WBSwofqNeo0RTHcB38vxt/9x5O5r9022zv4=.sha256",
-  "sequence": 12024,
+  "previous": "%8j5l9YXzOzjiUTCCCX1BbHdmsKI9iqHJTq6ieBN3VWI=.sha256",
+  "sequence": 12025,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566423725689,
+  "timestamp": 1566425623993,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%x1fNA8UFdbTX7icGJ345x5uhaKKofMVxarQp/cmNg9g=.sha256",
+    "branch": "%XYGlxgyId1YRXCv3ppJ8zznD7plg+7YV0hHkhJ1HhpA=.sha256",
+    "reply": {
+      "%x1fNA8UFdbTX7icGJ345x5uhaKKofMVxarQp/cmNg9g=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+      "%XYGlxgyId1YRXCv3ppJ8zznD7plg+7YV0hHkhJ1HhpA=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%WKUkfnMVxnEjr8PGXNKu6IeOFCS0VfUjjBXGX8UK/I8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "no *you all* are cute! 💓💗💓 \n\n[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519) TIL that \"bird of paradise\" is a type of plant (!), I asked Kathleen because I had no idea",
+    "mentions": [
+      {
+        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
+        "name": "dan"
+      }
+    ]
   },
-  "signature": "nC0FkvZB2KcSG4P7HzaLmSjhSvqAvPonHtuC7/kdwlgTu9yWdFbaKh+d/Dk4VupBtNa0MlQelD8PFHL5SyBvAQ==.sig.ed25519"
+  "signature": "fNFvitYEu/PnwzIoXt169NRx8h6ijiiXplVOXUq1r9PTPI8Un5zY64jUTzDxuewl60bCmc27CnbsGBOncGmBCQ==.sig.ed25519"
 }
