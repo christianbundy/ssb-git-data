@@ -1,26 +1,22 @@
 {
-  "previous": "%4Cm5hhHmU9A1L0BpQJkpe2BtVEBhOYAqiWcazP4iFr4=.sha256",
-  "sequence": 12005,
+  "previous": "%fTWPCDrbwOVgGejNtrOf+vEmcHH1dlZJ0tOP9LI2Ugs=.sha256",
+  "sequence": 12006,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566398352362,
+  "timestamp": 1566398422022,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
-    "branch": "%oHBeqthRquy77DWnu57Jf7Wm9DcgW0B9ORAaY7td9e4=.sha256",
+    "root": "%l4fiVftJ/liZALBH2dmy0ipB5iHyKgJnX+pYuv8uoLI=.sha256",
+    "fork": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
+    "branch": "%waqAsD5ka3NvsZrfHBJMCVcho/jTx/SxtoUEggyQ5/I=.sha256",
     "reply": {
-      "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%oHBeqthRquy77DWnu57Jf7Wm9DcgW0B9ORAaY7td9e4=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+      "%l4fiVftJ/liZALBH2dmy0ipB5iHyKgJnX+pYuv8uoLI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%waqAsD5ka3NvsZrfHBJMCVcho/jTx/SxtoUEggyQ5/I=.sha256": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nIt looks like you're on [`ssb-markdown@^4.0.1`](https://github.com/soapdog/patchfox/blob/3f76283df741f93cbf1062f97971d62d53827981/package.json#L69), so `npm update` only updates you to other versions under 4.x.x.\n\nCould you try `npm install --save ssb-markdown@5.1.3` and see if that updates you? The backward-incompatible change is that now capturing both emoji (`☕`) and emoji shortcodes (`:coffee:`) whereas previously we were only parsing the shortcodes. More details [here](https://github.com/ssbc/ssb-markdown/pull/37).",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ]
+    "text": "trespassing 😞",
+    "mentions": []
   },
-  "signature": "57pD0PdNMyUeHp7JsjarqDa8wcTAnG2iOsBXOwau7uKOw1grrfLfyvDctaugM5scBK8905eWSUVEnySoZw1WCA==.sig.ed25519"
+  "signature": "QJa3EFxT+RsfFV6Q9xLrUIy8wRTMsXRP3i38EmzuH1Pm+u9+jcUJn8jWr1Vn7hyfSNwq/iG0lduPEMd3+NglAQ==.sig.ed25519"
 }
