@@ -1,26 +1,17 @@
 {
-  "previous": "%7ArPDcE4WFjmWl9EvFZftQXZsxG5aDH3hzH30f2lguk=.sha256",
-  "sequence": 11995,
+  "previous": "%HyDxPkuD/bj3W4Qysqtq78IRKFf6Bl9x0xzVSVtytRo=.sha256",
+  "sequence": 11996,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566353272369,
+  "timestamp": 1566353284629,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256",
-    "branch": "%WqNXUgBo1p4DK7TVWVSu9ket825sKowQWVcjJDwRdH4=.sha256",
-    "reply": {
-      "%05qGpFyxz+Ai10iv89u3Al1AtizhLZx1o/sGk4rdroU=.sha256": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-      "%WqNXUgBo1p4DK7TVWVSu9ket825sKowQWVcjJDwRdH4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@PinkMoff](@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519) \n\nI tried to build a new version of patchbay-git but also ran into some confusing errors. 😕 Might be best to continue to use the regular patchbay AUR package for now. Sorry for the trouble.",
-    "mentions": [
-      {
-        "link": "@LMkiSqWlqiGPsGErLq5PphsduuN4d5tkmUO0+lcgBlM=.ed25519",
-        "name": "PinkMoff"
-      }
-    ]
+    "vote": {
+      "link": "%9aNIfXHAlzYXW0rjKfESE5gQZLM58iZ4HVzPOcEdE4A=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "C4CddJJtGCrS8IyrOGzcD+ti0Tv0FSuNDa1iAQlPwsaQ1hRq1r9XXXRBSwl84OVBIwEtCVSOrHwqnh+yTFawCw==.sig.ed25519"
+  "signature": "gMLegDwZtsUi6y1xSWxKCKhCzWJZ42TRtapUuI809Y/OXhbl5QNHu8n3UQ9Nzky9ZwNzZd/8fFChj3cLAlehDA==.sig.ed25519"
 }
