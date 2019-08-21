@@ -1,17 +1,21 @@
 {
-  "previous": "%2H3oVbXjeAmRLiLrIJk7xgINTODlVbwkkFfQtm9ve/k=.sha256",
-  "sequence": 12008,
+  "previous": "%9Aj0vnRc8nOMR7dE36P/hvGPNin1rp0IjJB9D98G0nI=.sha256",
+  "sequence": 12009,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566400714230,
+  "timestamp": 1566401288136,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%5vROCmRIazGl7QCEKfFomiXstPJsysU7QI/6b9Lbay0=.sha256",
+    "fork": "%QAlURSHD1JyfqDwHpb8sudYxa/l9IxqrZfooK5YWTe0=.sha256",
+    "branch": "%5vROCmRIazGl7QCEKfFomiXstPJsysU7QI/6b9Lbay0=.sha256",
+    "reply": {
+      "%5vROCmRIazGl7QCEKfFomiXstPJsysU7QI/6b9Lbay0=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%wItAjCeyw4H/c/+v3HadAFTU78im1deQePVeKans7h0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "> You must be a member of this group to view and participate in it. Membership is by invitation only.\n>\n> This group is invite only, so you may not apply for membership.",
+    "mentions": []
   },
-  "signature": "Vb+o1TWPxcXzFA5Y7C2iGwE+dVjq0zk8bqlcgS+u/PEMuEYc+d/xU4+UTW9HdzUZnJP9AjT+i67kXYN5EHxCDw==.sig.ed25519"
+  "signature": "m61TtyLnWD5cu+doeaMEysr2KVWO2kv1cCQ+nrSFmzwla1UDxTk9n4xBWIGS00osAoe2YiMHajYGdXus5RKmCQ==.sig.ed25519"
 }
