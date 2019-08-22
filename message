@@ -1,20 +1,17 @@
 {
-  "previous": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-  "sequence": 12064,
+  "previous": "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256",
+  "sequence": 12065,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566515811155,
+  "timestamp": 1566516428352,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "reply": {
-      "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "One family of solutions I'd like to highlight is a system of **deciding how much money a project needs to remain sustainable**. It's never going to be a perfect estimate, but I think it might be useful to communicate to users how much energy you're putting into the project and how much you value your time. For example, tiers for funding (per month) might look like:\n\n- **$100:** We're running on fumes but we're okay for now. Sometimes volunteer might pay maintenance costs with personal stress, but usually we can hold things together. This is okay for short periods of time but hurts maintainers when it lasts more than a few weeks.\n- **$1,000:** We're comfortable maintaining this project and feel supported by our community. Sometimes we might work on shiny new features in our free time but most of our time is spent talking with the community, triaging issues, fixing problems, and improving accessibility.\n- **$10,000:** We're sustainable. Our team is working six-hour days, four-day weeks, and making a living wage doing what they love. We pass lots of money to our dependencies and are able to help our upstream friends take care of their needs. The project is happy and healthy and every week we do weekly community calls to make sure we're meeting your needs.\n\nThe big decision is **how do we communicate our needs to the people who support us?** The conservative approach would be to add some postinstall text when funding is becoming unsustainable. Maybe something like:\n\n> ⚠ Foo maintenance is not sustainable.\n>\n> Foo is maintained with only $3 per month, which adds lots of personal stress to our team. If you'd like for Foo to continue, please consider supporting us at http://example.com. We can't support Foo with under $100 per month, so if we can't reach that then **[fill in the blank]**.\n\nWe might fill in the blank with advertisements a la `funding`, but I'd like to propose an alternative: [*Speed* (1994 film)](https://en.wikipedia.org/wiki/Speed_(1994_film)).\n\n> The film tells the story of an LAPD police officer who tries to rescue civilians on a city bus rigged with a bomb programmed to explode if the bus slows down below 50 mph.\n\nWhat do we do if funding drops below our absolute bare minimum? Go on strike. Publish a patch to get user attention and explain what's going on. Examples:\n\n- Yank all versions of your module from npm and replace with a `console.log()` explaining why\n- Make a pre-/post-install script that never ends\n  - Or maybe you have to manually set some random env variable like `3ecc3020e=f5159307ed`\n  - Or maybe it only dies if it detects that it's running in a VM or a CI \n  - Or maybe it just takes a long time\n  - Or maybe make it install fine but run incredibly slowly\n\n    ```javascript\n    module.exports = () => setTimeout(() => {\n      console.log('support open source'); main()\n    }, 10000)\n    ```\n\nOne fun benefit is that since we depend on each others packages **an injury to one is an injury to all**. If Foo goes on strike, every module that uses Foo will go on a solidarity strike, which gives upstream modules lots of leverage to take care of their own needs. I don't want any of my code to depend on unsustainable labor from my friends, and I think this might make it easy to highlight these needs. I'd love feedback.\n\n---\n\nSome of these ideas are not my own. 🙃 If you'd like to identify yourself as a co-conspirator, please feel free. ❤️ ",
-    "mentions": []
+    "type": "vote",
+    "channel": "foss",
+    "vote": {
+      "link": "%H51z6NsqcfbcTT1pHbhKKZ8UgLAbzkXAhMR1lacKCpA=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "pTJt9BwDKxbhH3+qXr/YdtmsltxqMOSLFrdotfHCGjOqS5/0A83KfvrqI2Iwn4WdtFUzNfwI292NViYWgcqaDg==.sig.ed25519"
+  "signature": "O8a4Tg5AS+ujwsK9PcwuLxEVmksBCv/FjnqD+arUUQ+tuQ04w9Dc1JTrHhbEop5iPG4OSJfaSQJQSU8vtGFQBA==.sig.ed25519"
 }
