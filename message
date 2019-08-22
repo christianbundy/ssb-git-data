@@ -1,21 +1,13 @@
 {
-  "previous": "%go3y/z+ECg9cAoWdSFzBc1809LTnWL2ydMfNtp+mAbU=.sha256",
-  "sequence": 12035,
+  "previous": "%VBg2uaM92JnLPdh9IenY/D9ApMGRf/s4X2YrTN2tZFU=.sha256",
+  "sequence": 12036,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566485748240,
+  "timestamp": 1566489541162,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%5o4F/I4zd/cxe+og0UmSPBQ613occaoL8w2JPZ8uCKE=.sha256",
-    "branch": "%jW3mH5KuCWSknj5xxBc/fcjsCoE841s1h4XILcwjVW0=.sha256",
-    "reply": {
-      "%5o4F/I4zd/cxe+og0UmSPBQ613occaoL8w2JPZ8uCKE=.sha256": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519",
-      "%jW3mH5KuCWSknj5xxBc/fcjsCoE841s1h4XILcwjVW0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "- Yep, I just edited it to a maximum of 80 characters locally and the long hashtag works. I wonder why there's a maximum.\n- Also yep: I can confirm that the `mentions` array doesn't include `#Ü`, since ssb-mentions is using ssb-marked rather than ssb-markdown. Lots of historical context [here](https://github.com/ssbc/ssb-markdown/pull/24) for future scuttle-archaeologists.",
-    "mentions": []
+    "type": "contact",
+    "contact": "@QB7qI3zWEjMxLddqbh+47z5HVjqozKRJMOnpRxtLq4Q=.ed25519",
+    "following": true
   },
-  "signature": "+OBQvAfrUfJry7eWXC28fhQH1lVou6p5g5icTr9k7vEExWhe4NLnqx3lx7BgaT9r+YMZuIwfjp/7rPvycWxlDw==.sig.ed25519"
+  "signature": "vqFPUkH2T/twgoIygG5swKsyu4DtAm1SeUNSKWFRVYyJKRZA6HS4GymbcMmKgI7FWY3ociJoJKE06Cdsr50qDw==.sig.ed25519"
 }
