@@ -1,21 +1,17 @@
 {
-  "previous": "%g87Co2dgwa8V1RkPykDQNe/Ewj8ukuK2tumrvb8BtGw=.sha256",
-  "sequence": 12033,
+  "previous": "%jW3mH5KuCWSknj5xxBc/fcjsCoE841s1h4XILcwjVW0=.sha256",
+  "sequence": 12034,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566484563567,
+  "timestamp": 1566484593887,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%5o4F/I4zd/cxe+og0UmSPBQ613occaoL8w2JPZ8uCKE=.sha256",
-    "branch": "%ZYrZ0jypYsod6oq35a7YJUxRAnu1Gpx8/e9Wzb6CkJg=.sha256",
-    "reply": {
-      "%5o4F/I4zd/cxe+og0UmSPBQ613occaoL8w2JPZ8uCKE=.sha256": "@EZArijiRCJQLZAnpcZOTYzu8IVaUMyqQPGGDLFS2klk=.ed25519",
-      "%ZYrZ0jypYsod6oq35a7YJUxRAnu1Gpx8/e9Wzb6CkJg=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Maybe it's ssb-ref's [maximum hashtag length](https://github.com/ssbc/ssb-ref/blob/8ccaba0e160f6b39cf7b7d8689cbec6349de8c53/index.js#L82-L89)?\n\nI think there's some [shenanigans with ssb-mentions](https://github.com/ssbc/ssb-mentions/issues/13) too...",
-    "mentions": []
+    "type": "vote",
+    "channel": "sdf",
+    "vote": {
+      "link": "%70KqpuicPfqtnRSJSa9r92ZYelm7GEt/XHZzMs60CAw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "3WhLK9r+q6VMTMImCJ2MTdA+KW9S5QHEwcwyHUwEa9PIH3Wg30ohKOTlTdIqhEAkUn5bs89XWTJujtZb/WKnCA==.sig.ed25519"
+  "signature": "817PK5p21IL3QXAhCWqx4DybMMMzIJyafT2wkGDUuN+UdXSWp0bZFmlRDXOAZlTig606JI2cL6XpnODMUUz1Bw==.sig.ed25519"
 }
