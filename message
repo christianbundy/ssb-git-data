@@ -1,26 +1,17 @@
 {
-  "previous": "%UJ3J0L/nmh1nkwAqcavYPR7ny+iKI+xlDPuYsqAlN70=.sha256",
-  "sequence": 12052,
+  "previous": "%IIuolWMbm5NESl3NOeLt0CRHQMcoUaQVUTapalQQiF8=.sha256",
+  "sequence": 12053,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566498759827,
+  "timestamp": 1566500657736,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
-    "branch": "%stefrIE2sbm7zDANy/P6fpwv/RpKBwioSYfyn74P9N0=.sha256",
-    "reply": {
-      "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%stefrIE2sbm7zDANy/P6fpwv/RpKBwioSYfyn74P9N0=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\n- super excited to have an excuse to play around with scheme\n- hella curious about what I might be able to do with this (!)\n  - but having a hard time thinking things right now?\n  - I wonder what the API is and which functions are available\n  - which dialect of Scheme is this?!\n- wondering how tightly coupled this is to patchfox -- does it work on the CLI too?\n- mind-blown that you just casually added a Scheme interpreter to a Scuttlebutt client",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ]
+    "vote": {
+      "link": "%FF4KRQ8jlQpx41m8NzbwQtfCB3GAkYBPA5FNxIbyfA0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Npx/lJKo1xpH6rR6owQTZrYalI0BmH9XFLkiyoy5iqC96NdhnLJx8QGbzQTYY8j0vsIz6ZnrEyUIWLZMXJKBCQ==.sig.ed25519"
+  "signature": "zg6XfaYiGvsG/bi9Frc3+PueCZP4PS/yB8ApFwLXCxbkS77kSTL9bDcRA7S/Zt1kKyPYHT2JZ1eFAFddvFoAAw==.sig.ed25519"
 }
