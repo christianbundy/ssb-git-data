@@ -1,17 +1,21 @@
 {
-  "previous": "%P3QUJ2Z7lKOkWvaNMACWZuCkXsm3HobTj6BQ22M/bZg=.sha256",
-  "sequence": 12050,
+  "previous": "%0hUHboInpOtTuRmwbCjaFCPRFxQ8CetJf8i2jGx3J80=.sha256",
+  "sequence": 12051,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566497787977,
+  "timestamp": 1566498266057,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "cooking",
-    "vote": {
-      "link": "%CxQIH4mZPHjfpjmV15YQi7TJMCL/rMxN8kLMbag6skA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4sZn+jv9xrnBuv1vnQyEjrbnfjJGVJbGlYXrvrIdovc=.sha256",
+    "fork": "%FWwFYWPFAgQWh0fStot08GoDkK9c/HPYZvpE36vTKjs=.sha256",
+    "branch": "%4sZn+jv9xrnBuv1vnQyEjrbnfjJGVJbGlYXrvrIdovc=.sha256",
+    "reply": {
+      "%4sZn+jv9xrnBuv1vnQyEjrbnfjJGVJbGlYXrvrIdovc=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": "foss",
+    "recps": null,
+    "text": "Maybe relevant: https://github.com/feross/funding/issues/4",
+    "mentions": []
   },
-  "signature": "0149vrCRK+mzVCwzU1bPT3OndxyIg+1fHLhD0Wt+X6WGyJZ34+DW3a2Wnez6BSdqycp16Woe/RvHjF2X6YQECg==.sig.ed25519"
+  "signature": "4/v/77+QXge7ewSwo0PZnKPyurLLcGFQ4T5For9jDGlMk/B4j4+hSOSfDkj8DvJXxwiHfoK49kvCa1nRnAo3DQ==.sig.ed25519"
 }
