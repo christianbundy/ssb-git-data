@@ -1,13 +1,26 @@
 {
-  "previous": "%VBg2uaM92JnLPdh9IenY/D9ApMGRf/s4X2YrTN2tZFU=.sha256",
-  "sequence": 12036,
+  "previous": "%j5Dis7y4xjQ2AOsE4tZBiv9ktqr3ZBErjzZOXVFY+Jo=.sha256",
+  "sequence": 12037,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566489541162,
+  "timestamp": 1566490979662,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@QB7qI3zWEjMxLddqbh+47z5HVjqozKRJMOnpRxtLq4Q=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%FWwFYWPFAgQWh0fStot08GoDkK9c/HPYZvpE36vTKjs=.sha256",
+    "branch": "%5wpl9QgcQI9QBzkyQacQFojn2TYzgeshAawZ7DRKCB8=.sha256",
+    "reply": {
+      "%FWwFYWPFAgQWh0fStot08GoDkK9c/HPYZvpE36vTKjs=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%5wpl9QgcQI9QBzkyQacQFojn2TYzgeshAawZ7DRKCB8=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": "foss",
+    "recps": null,
+    "text": "I haven't spent much time thinking about this, but I'll share some of my early thoughts:\n\n- I think most of us would be against adding commercial advertisements to Scuttlebutt clients, and I'm not sure how that's different from adding them to the install process for Scuttlebutt clients (and their libraries). I don't think that there's a big difference between putting ads in the installer and putting ads in the application itself.\n- I don't think I'd be comfortable adding advertisements to the installers until we've already exhausted our other options for sustainable funding. We have lots of unspent funds in our ecosystem that I think we should start spending before asking for more money. When we *do* want to ask for more money, I think we should start by asking for support from our peers rather than adding advertisements.\n  - Maybe we could try LevelDB's approach of adding an OpenCollective link to the postinstall notes? I'd imagine that this would increase our funding without adding any advertisements.\n  - My estimate of $$$ in our current OpenCollective ecosystem: **$53,697**\n    - [Patchwork](https://opencollective.com/patchwork/): $5,278\n    - [Patchbay](https://opencollective.com/patchbay): $3,325\n    - [Sunrise Choir](https://opencollective.com/sunrise-choir): $5,619\n    - [Peachcloud](https://opencollective.com/peachcloud): $3,572\n    - [SSBC](https://opencollective.com/secure-scuttlebutt-consortium): $2,457\n    - [SSB Maintenance](https://opencollective.com/scuttlebutt-maintenance): NZ$42,867\n    - [Patchfox](https://opencollective.com/patchfox): €44\n    - [Manyverse](https://opencollective.com/manyverse): €5,463\n  - Aside: I feel lots of ambiguity about the SSBC funds and I can't imagine spending them because I don't know what they're for. I see lots of people add money to the SSBC pool and I see a few people take money out of it but I don't feel like I understand the rules well enough to ever spend any money. Maybe worth discussing on an [SSBC call](%AWG2LlNATJkoteIMi3YFhGQCZUjU09vi/BrhNPPATus=.sha256).\n  - I'd like to have an idea of what our sustainable budget might look like before we start asking for money. I like how the Manyverse OpenCollective is very specific about budget goals, which helps set the expectation for the work that we'll be doing with that money. I'd feel uncomfortable asking for money without telling our friends what we'll be able to do with that money.\n- I want to put some weight behind Feross and show him support, and I'd be happy to do that by continuing to use his modules, which now have advertisements **or** supporting him financially. I don't think it's necessary to add the funding module to our modules to support him, but I'm open to changing my mind.\n- I think ssb-keys is our most popular module, IIRC it has ~double the downloads as ssb-config.",
+    "mentions": [
+      {
+        "link": "%AWG2LlNATJkoteIMi3YFhGQCZUjU09vi/BrhNPPATus=.sha256",
+        "name": "SSBC call"
+      }
+    ]
   },
-  "signature": "vqFPUkH2T/twgoIygG5swKsyu4DtAm1SeUNSKWFRVYyJKRZA6HS4GymbcMmKgI7FWY3ociJoJKE06Cdsr50qDw==.sig.ed25519"
+  "signature": "h9M5l1skPnSDAaMG9vSi/avrWk3AVvFdKoojFQAAp7THy4TfbTK3RkHqG7OHgi4swZbIn0qZ8tpKP73dvb34AQ==.sig.ed25519"
 }
