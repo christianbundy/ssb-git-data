@@ -1,25 +1,17 @@
 {
-  "previous": "%uMxiADpyfSKN4JBbZCfl4DUv5yT+avfpGvXmGx4Fp3I=.sha256",
-  "sequence": 12055,
+  "previous": "%jHYdr0bfXDkfc4IbJhEHXqVMt6brxrSzPDigguvQCkQ=.sha256",
+  "sequence": 12056,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566502866273,
+  "timestamp": 1566504672464,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%FGczoT7d44IUQ23HilfjPsV1IiQ/KwIwufwqNdxXjHk=.sha256",
-    "branch": "%FGczoT7d44IUQ23HilfjPsV1IiQ/KwIwufwqNdxXjHk=.sha256",
-    "reply": {
-      "%FGczoT7d44IUQ23HilfjPsV1IiQ/KwIwufwqNdxXjHk=.sha256": "@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Hey [@JonTheNiceGuy](@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519)!\n\nI honestly have no idea how to install it, our build tool just generated it. I think I tried to add it to the Snapcraft store but they wanted me to install `snap` on my local machine and I couldn't get it working so I gave up. 🤷 ",
-    "mentions": [
-      {
-        "link": "@p3gu8eLHxXC0cuvZ0yXSC05ZROB4X7dpxGCEydIHZ0o=.ed25519",
-        "name": "JonTheNiceGuy"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssb-show-and-tell",
+    "vote": {
+      "link": "%fFX43YJKlRgQXrSgk8liTlI3fQwpxRanIHE/rAuQLK0=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "yJRf5swdiYG1rmS5zq/PWKxcaHmxhD2ZcSexJO1f9vorYeHnTbOtY3RzL9eQwfUnYGXosNFmNJLY0R47MJFaDw==.sig.ed25519"
+  "signature": "wGC/JRv/aBSGWC5ra0PxOKQqOFP9csSdy1JCH9+6WvRGgDFk65ugrvcJ6I21fJgyHq7is4Sh4m9IERXRIUWtDw==.sig.ed25519"
 }
