@@ -1,17 +1,21 @@
 {
-  "previous": "%+CtT8LLkfUBgUFweKI0rWxjfUHnZGaEjwCuxEm908+Q=.sha256",
-  "sequence": 12042,
+  "previous": "%YVZb6x3plO65nO4TLglEsvwtJoHyZaMzMnUk81hRixE=.sha256",
+  "sequence": 12043,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566494034819,
+  "timestamp": 1566494101910,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%YQIdBHL3jGgK3xu9UHc0dtuufW5szwkRyQq4EfPL3zA=.sha256",
+    "branch": "%Krb03ZgUv61s5PlpH31rYLQTypwcY99xBClZMGrcDng=.sha256",
+    "reply": {
+      "%YQIdBHL3jGgK3xu9UHc0dtuufW5szwkRyQq4EfPL3zA=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+      "%Krb03ZgUv61s5PlpH31rYLQTypwcY99xBClZMGrcDng=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%Krb03ZgUv61s5PlpH31rYLQTypwcY99xBClZMGrcDng=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "> oh fuck you need to actually click on the ads? fuck that, i’ll just donate some more instead\n\nI was *just* typing a response to let you know that. 😬 I was so confused about their funding model until I saw that.",
+    "mentions": []
   },
-  "signature": "boRmoYLWrzbaOod6rHf8j3ueTFJjZTnixcCn6YszAcREWx/T6T0klNzYpabDYbG7ve4vqan9f4fSa3ixphSZBA==.sig.ed25519"
+  "signature": "wAYVuwwWitChh1V/BAAzDcUxHTkhSz5soceM2DpGv7SmPfcRYv3wsDNpoEuymlJdb4Ti8rFTZHX6TZxo6MooBQ==.sig.ed25519"
 }
