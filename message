@@ -1,17 +1,26 @@
 {
-  "previous": "%FEWIcVXlhdEnkLcIvrIrLSpi4bUKHPjXxTdpAhky1xA=.sha256",
-  "sequence": 12026,
+  "previous": "%22nYacnfKDg7UQKZpCBxto3WI2sUNRa8b650TiUlkWM=.sha256",
+  "sequence": 12027,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566425661426,
+  "timestamp": 1566445368549,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "solarpunk",
-    "vote": {
-      "link": "%yXDLpOcar25aqLIhyFAGuL2CyPsWRDl+WJFgUW9vSeA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256",
+    "branch": "%zVAQocwL6Mvz8E+/g3bejAxFTGLyH1OHaLSecJhIjWg=.sha256",
+    "reply": {
+      "%x4WfvINf8alAD+kIrF4DravFy9SaghjaPT6Q8lK/ZSk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%zVAQocwL6Mvz8E+/g3bejAxFTGLyH1OHaLSecJhIjWg=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nYeah, Unicode categorizes those as `Grapheme_Base` along with ` !@#$'\"()` and friends, but they *do* make a special case for `-`, `_`, and `+`. Maybe they'll make an exception for `~` in the future?",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "y6XIFXeIQv+mmXh3h4tn91Zq56rS3CDaRCgqn35bN8RB6kUQ6EkmP4U2C2S7jncQWAlT6kfrm0RDjC6fmdGQDQ==.sig.ed25519"
+  "signature": "3cLsphE9Epa6K6co57Vzw7xQWyxyn+s2GtFElRbH24QAM3UrZaUihreaWHlUNRHBO5tKW7yVc6C5MxnSn4HoCg==.sig.ed25519"
 }
