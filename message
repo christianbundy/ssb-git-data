@@ -1,17 +1,34 @@
 {
-  "previous": "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256",
-  "sequence": 12065,
+  "previous": "%roB02GV5/27dbysYrgIQDEqNYbsS2ocG68Nt3MAsC7g=.sha256",
+  "sequence": 12066,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566516428352,
+  "timestamp": 1566516496787,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%H51z6NsqcfbcTT1pHbhKKZ8UgLAbzkXAhMR1lacKCpA=.sha256",
+    "fork": "%FWwFYWPFAgQWh0fStot08GoDkK9c/HPYZvpE36vTKjs=.sha256",
+    "branch": "%H51z6NsqcfbcTT1pHbhKKZ8UgLAbzkXAhMR1lacKCpA=.sha256",
+    "reply": {
+      "%H51z6NsqcfbcTT1pHbhKKZ8UgLAbzkXAhMR1lacKCpA=.sha256": "@QB7qI3zWEjMxLddqbh+47z5HVjqozKRJMOnpRxtLq4Q=.ed25519"
+    },
     "channel": "foss",
-    "vote": {
-      "link": "%H51z6NsqcfbcTT1pHbhKKZ8UgLAbzkXAhMR1lacKCpA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@Feross](@QB7qI3zWEjMxLddqbh+47z5HVjqozKRJMOnpRxtLq4Q=.ed25519) \n\n> I think it’s about time that we start to try new approaches. This is just the first of hopefully many more experiments to come.\n\nI don't want to derail this thread, so I've started [another thread](%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256) to start enumerating other options.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@QB7qI3zWEjMxLddqbh+47z5HVjqozKRJMOnpRxtLq4Q=.ed25519",
+        "name": "Feross"
+      },
+      {
+        "link": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
+        "name": "another thread"
+      }
+    ]
   },
-  "signature": "O8a4Tg5AS+ujwsK9PcwuLxEVmksBCv/FjnqD+arUUQ+tuQ04w9Dc1JTrHhbEop5iPG4OSJfaSQJQSU8vtGFQBA==.sig.ed25519"
+  "signature": "FXPE8xIdnwpcVsLky+9vimj4cjpHmql0v/A3i7w9lZrYns76Oh6SB+3J+raZthr483MTJ+7JGl3qZIS6XKROCA==.sig.ed25519"
 }
