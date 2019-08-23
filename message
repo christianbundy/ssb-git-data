@@ -1,25 +1,31 @@
 {
-  "previous": "%wCztkjB2M1LIuiDu1SYbqiKQkwESrHL0x9euLD46p9Y=.sha256",
-  "sequence": 12080,
+  "previous": "%f2xEsyHqFcvelGpDTp9xrXocqsuOCvCO7TDiSSVe7yk=.sha256",
+  "sequence": 12081,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566584920698,
+  "timestamp": 1566588822385,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256",
-    "branch": "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256",
+    "root": "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256",
+    "fork": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
+    "branch": "%PkjJVE2MMpVqEPufcuoqCUeVb1VIGCbiDsBOR/QtKAU=.sha256",
     "reply": {
-      "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256": "@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519"
+      "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%PkjJVE2MMpVqEPufcuoqCUeVb1VIGCbiDsBOR/QtKAU=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
     },
-    "channel": "rust",
+    "channel": null,
     "recps": null,
-    "text": "[@maackle](@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519) \n\nDidn't know that was a thing. I'm in Portland, but I'm not at RustConf.",
+    "text": "[@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519) \n\nYeah, I added some more thoughts [here](%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256) but I'm on the same page. Maybe it would be best to just loudly deprecate a package that's under-funded? At least in the npm ecosystem deprecated packages output a custom deprecation warning from the developer, which might be a good place to explain \"this package is under-funded and should not be used for production; this project is frozen until we can crowdfund a maintenance budget\".\n\nIf the developers are asking for some unreasonable funding then I think it makes sense to fork the project, but otherwise I'd imagine that it would be very expensive. Hiring a team to maintain an unfamiliar codebase is hard, and solidarity-minded folks in our community would hopefully refuse to work on projects with a reasonable maintenance budget.",
     "mentions": [
       {
-        "link": "@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519",
-        "name": "maackle"
+        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
+        "name": "Verinaut-01"
+      },
+      {
+        "link": "%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256",
+        "name": "here"
       }
     ]
   },
-  "signature": "205zY7HRHXjhhwFORK+b89c5fp8b0PSJEpbfbyyhAxEH4GL64/u2qDV7yjzlryx00vKYC3SGg0MlY9V8uCU9AQ==.sig.ed25519"
+  "signature": "n2DFnk4l9fhZLMdmjdyBoAxzUM3mRYI/dLsS/MuAmP1/Tg3r07gI+NiCoHUOH4+sbERHRVNr+njE4T4pUIKzAA==.sig.ed25519"
 }
