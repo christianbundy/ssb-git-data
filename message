@@ -1,16 +1,25 @@
 {
-  "previous": "%aHJUsH9Fci9pAFdR5yrPoZINrsNGHG10T5bv7kaNhqw=.sha256",
-  "sequence": 12079,
+  "previous": "%wCztkjB2M1LIuiDu1SYbqiKQkwESrHL0x9euLD46p9Y=.sha256",
+  "sequence": 12080,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566584826615,
+  "timestamp": 1566584920698,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Ci6XW0vVSjh+LsupRzFZKat5XtLzlQKo6UdbY99lWyc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256",
+    "branch": "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256",
+    "reply": {
+      "%7wDab3XVMCjtNmLx+uUtT1DT15ohly15Z1rGjEt7jc8=.sha256": "@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519"
+    },
+    "channel": "rust",
+    "recps": null,
+    "text": "[@maackle](@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519) \n\nDidn't know that was a thing. I'm in Portland, but I'm not at RustConf.",
+    "mentions": [
+      {
+        "link": "@70mCOxEUBDup8sP1ec7XjCQqJmN6/XQDVf7wRKyjEvQ=.ed25519",
+        "name": "maackle"
+      }
+    ]
   },
-  "signature": "kplzDo6i3xy5p0yh84j6JgEY0mcqwg+0dUoPFT2edFAWTjrAF8n0HjAU5/gHwj+KI6372ZyeWlCsI1OECdUbDg==.sig.ed25519"
+  "signature": "205zY7HRHXjhhwFORK+b89c5fp8b0PSJEpbfbyyhAxEH4GL64/u2qDV7yjzlryx00vKYC3SGg0MlY9V8uCU9AQ==.sig.ed25519"
 }
