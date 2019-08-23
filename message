@@ -1,26 +1,30 @@
 {
-  "previous": "%KLNLLSVRAc9GtxffFUhjyslFYorNMJuBrwfkHb+HOF8=.sha256",
-  "sequence": 12071,
+  "previous": "%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256",
+  "sequence": 12072,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566523316794,
+  "timestamp": 1566524717733,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%Po0w2+H9fDCSdiiLC6Y2M8/CBLcQWdrhlja51q2ERRM=.sha256",
+    "branch": "%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256",
     "reply": {
       "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Po0w2+H9fDCSdiiLC6Y2M8/CBLcQWdrhlja51q2ERRM=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
+      "%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) \n\n> (See also: Shareware, crippleware, nagware, ransomware.)\n\nI'd really like to avoid shipping any of these, and the more I think about it the more I'm leaning toward a position that strikes should probably not affect the source code. \n\n> Since people can only hold so much of that in their heads, and might not even know about some kinds of software that they rely on, it’s got its own limitations and perverse incentives too.\n\nMy concern is that as a downstream developer I won't often know what upstream folks need, and I'm interested in building systems that can help make sure that our reciprocal transactions are fair. For example, we have some money to maintain Patchwork, but it's unclear to me how much of that should be spent maintaining upstream modules. It would be great for upstream developers to say \"I need $X to keep the lights on\" and help me align those incentives. It'd be best to form personal relationships with everyone, but when time is short I wouldn't mind relying on a market-style approach where they say \"if I don't get $X then I can't afford to maintain Y and I'm going to disable the bug tracker\".\n\n🤷 ",
+    "text": "[@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519) \n\nThere are licenses like that -- you might like the [PPL](https://wiki.p2pfoundation.net/Peer_Production_License) and [License Zero](https://licensezero.com/). Both are solid, and there are a handful of discussions about both around SSB.\n\nMy personal feelings: I'm [conflicted about copyright](%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256), and I'm very hesitant to add the US legal system as an upstream dependency.",
     "mentions": [
       {
-        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
-        "name": "joey"
+        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
+        "name": "Verinaut-01"
+      },
+      {
+        "link": "%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256",
+        "name": "conflicted about copyright"
       }
     ]
   },
-  "signature": "5MtYNgTjSjer0f6ZPAUCID3I0pnGFD7xPlIzxleuMv0EIY+2BD26XEX5Ch/pMGFKNBlRd5fH8u2EYgp0luXbAA==.sig.ed25519"
+  "signature": "WzROZRjFnIEMpAsUB7NgboLs9B2Wc5f36SpfywCtKQZb4WxE7Kku5jJHabIvBEMlgZ4W9J8jHWUauHfCrw/0Ag==.sig.ed25519"
 }
