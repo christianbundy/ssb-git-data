@@ -1,17 +1,26 @@
 {
-  "previous": "%Awfd8VY3ymJ7O29k15zXzcng6mKUnvvolB8WUh0PwU8=.sha256",
-  "sequence": 12094,
+  "previous": "%YlOrwTNLQw4eqBASXEdC+iklm0p3e6Bw4nMHT7IIK+Q=.sha256",
+  "sequence": 12095,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566602432017,
+  "timestamp": 1566603003843,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%JTy7z118HFDN5i4K5SvS1vll1u0WD82Qm5HuCMoav9Q=.sha256",
+    "fork": "%XhN2KVMyShKXi4gS0919oJqEpgHuviGSiZRYwFfM9xk=.sha256",
+    "branch": "%JTy7z118HFDN5i4K5SvS1vll1u0WD82Qm5HuCMoav9Q=.sha256",
+    "reply": {
+      "%JTy7z118HFDN5i4K5SvS1vll1u0WD82Qm5HuCMoav9Q=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": "foss",
-    "vote": {
-      "link": "%JTy7z118HFDN5i4K5SvS1vll1u0WD82Qm5HuCMoav9Q=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\n\n> I wonder though – why not charge directly by selling licenses to each company?\n\nMaybe you could do both? I'm spitballing, but I'm thinking something like:\n\n- This code is always available to individuals and cooperatives via the PPL (or similar).\n- Need an open source license? If we reach $1000/mo in donations we'll release under the AGPL too.\n- Donate $100/mo to be listed as a sponsor and receive a commercial license to use this project.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "iSc8LcFUTLIeuxaTMPsmDhwz+lQ1kBuKS3yHBiulFh/V6gf0kg36ziWSgYPmSSv8OhulTJI3cwPiRxRMMC67Bw==.sig.ed25519"
+  "signature": "oPPlOP2lpGtehrNbZtQ8xoJMyKVmRC0anr0h+33ILiUs6SBhXfZ+9rA8k6T2/d6xX8EJHvDVK6Gvwycq9JsTDA==.sig.ed25519"
 }
