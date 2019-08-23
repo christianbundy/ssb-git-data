@@ -1,13 +1,27 @@
 {
-  "previous": "%njD9EOtj6IihkjxRR0T13fNh+rAisOvC9Q69isVS4E0=.sha256",
-  "sequence": 12089,
+  "previous": "%lvfqFBA2MNAgGrTBFHThCpLhCLL4hanhiPeA4ly78pk=.sha256",
+  "sequence": 12090,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566594778227,
+  "timestamp": 1566595426487,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@pHdR5dGFMJPFwlhaRD1AM/TVSKttjyLo+n1Oig79YmI=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
+    "fork": "%m40Fz0NOy2b4O0p9mmCrfTio38s5lD/cFtSsXb9Pq+U=.sha256",
+    "branch": "%IelTQjmeAcS3cTAkwEpYlFQTayu2r+0yU2k2DRLUvyw=.sha256",
+    "reply": {
+      "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+      "%IelTQjmeAcS3cTAkwEpYlFQTayu2r+0yU2k2DRLUvyw=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": "linux",
+    "recps": null,
+    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\n> As for putting the distro build stuff right in the project VCS, wouldn’t that mean every project you want in your distro would need to accept your patches to maintain that build?\n\nI was thinking that this would give them the *option* of accepting patches upstream but otherwise you'd just maintain a \"fork\" that only diverged on your changes to `.foo`. The repo *may* enforce some other requirements, like an `.editorconfig` or a mandatory readme or something similar, but ideally these changes would be super minimal.\n\n🤷 ",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "noffle"
+      }
+    ]
   },
-  "signature": "lDi5oeVGpTjyvk19zaqse/e5qxSU5OlKMRDVTOshEBo6oLNSCc1p30C+hv24ttX4rUmmENB8Oqmel4zyOcHEAw==.sig.ed25519"
+  "signature": "XfEaq67GtlBw6vIq/TayjJkFC3pQPE6gQp8MIZWgjABfCT94QqGcxE73r8pFi1suTUm1AMwLa3UnCSiZxBV5AA==.sig.ed25519"
 }
