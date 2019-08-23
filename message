@@ -1,26 +1,17 @@
 {
-  "previous": "%KrlSBKr3/IPSgeFKE+mkb+T0o9Gj6pLoUbaM6lfpUho=.sha256",
-  "sequence": 12093,
+  "previous": "%Awfd8VY3ymJ7O29k15zXzcng6mKUnvvolB8WUh0PwU8=.sha256",
+  "sequence": 12094,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566602400774,
+  "timestamp": 1566602432017,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%BUtTcuwu8fZ+FJiScjoLR39gpHZTb4KjLU4s0LzmcUw=.sha256",
-    "fork": "%Po0w2+H9fDCSdiiLC6Y2M8/CBLcQWdrhlja51q2ERRM=.sha256",
-    "branch": "%BUtTcuwu8fZ+FJiScjoLR39gpHZTb4KjLU4s0LzmcUw=.sha256",
-    "reply": {
-      "%BUtTcuwu8fZ+FJiScjoLR39gpHZTb4KjLU4s0LzmcUw=.sha256": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nWoo! Do you have any ideas on how you'll scale governance in the future? Your linked post mentions that right now you're being trusted as a copyright steward (👍) but I found myself navel-gazing about ways to manage the copyright ownership democratically.\n\nMy first thought was that maybe contributors could cooperatively own the legal entity that owns the copyright, but it seems like you'd have to spin up one co-op per team -- otherwise you'd have people making license decisions about code they didn't contribute to. That would also have a weird side-effect where a bunch of people could make small patches to become co-owners and brigade the democratic processes, so you might need to be selective about who you invite (or how long they join (or maybe even their politics (?!))).\n\nAnyway, it's a thing I'm interested in so I'm curious if there are solutions you dig.\n\nObligatory: I'm hoping this comes across as \"you're cool and I want to hear your ideas\" rather than \"I'm skeptical about you as a steward\" or anything funky. I assume you know that, but sometimes I feel better if I'm super explicit. ❤️ ",
-    "mentions": [
-      {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
-      }
-    ]
+    "type": "vote",
+    "channel": "foss",
+    "vote": {
+      "link": "%JTy7z118HFDN5i4K5SvS1vll1u0WD82Qm5HuCMoav9Q=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "NdDbA2sUG+QPrAhqnqQmqAQp0VNvp+Xqn1xwkCku+mjye7NyofExQx3w8uYSF8C21Cb2eVqXl2WIWu/K1u2aCw==.sig.ed25519"
+  "signature": "iSc8LcFUTLIeuxaTMPsmDhwz+lQ1kBuKS3yHBiulFh/V6gf0kg36ziWSgYPmSSv8OhulTJI3cwPiRxRMMC67Bw==.sig.ed25519"
 }
