@@ -1,31 +1,16 @@
 {
-  "previous": "%f2xEsyHqFcvelGpDTp9xrXocqsuOCvCO7TDiSSVe7yk=.sha256",
-  "sequence": 12081,
+  "previous": "%tNinra1olyUypGfeqC0fWrKwPSSmZPxZ9FIt67ObbWY=.sha256",
+  "sequence": 12082,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566588822385,
+  "timestamp": 1566589227236,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256",
-    "fork": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%PkjJVE2MMpVqEPufcuoqCUeVb1VIGCbiDsBOR/QtKAU=.sha256",
-    "reply": {
-      "%jfXqhuIM+DAHK/nd4hI4J3e8tlGqY8WaQWIS3z6d7yI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%PkjJVE2MMpVqEPufcuoqCUeVb1VIGCbiDsBOR/QtKAU=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519) \n\nYeah, I added some more thoughts [here](%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256) but I'm on the same page. Maybe it would be best to just loudly deprecate a package that's under-funded? At least in the npm ecosystem deprecated packages output a custom deprecation warning from the developer, which might be a good place to explain \"this package is under-funded and should not be used for production; this project is frozen until we can crowdfund a maintenance budget\".\n\nIf the developers are asking for some unreasonable funding then I think it makes sense to fork the project, but otherwise I'd imagine that it would be very expensive. Hiring a team to maintain an unfamiliar codebase is hard, and solidarity-minded folks in our community would hopefully refuse to work on projects with a reasonable maintenance budget.",
-    "mentions": [
-      {
-        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
-        "name": "Verinaut-01"
-      },
-      {
-        "link": "%8JMletGiwE+qX1Z4TqT9/YjdOfJx1quOVyqk/SdrV80=.sha256",
-        "name": "here"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%4KGF4E7WY989gxrvnCbkftM63Ly/e6A9BQ/GJVYksI4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "n2DFnk4l9fhZLMdmjdyBoAxzUM3mRYI/dLsS/MuAmP1/Tg3r07gI+NiCoHUOH4+sbERHRVNr+njE4T4pUIKzAA==.sig.ed25519"
+  "signature": "0F3a6uyPur1jCsExvQ0CU3mHCTpmrHokR56V8tHfxYc84cKVAfKkV+fAWt72ZF8ibeUv3x8aOHW9nc+g/WG6Dw==.sig.ed25519"
 }
