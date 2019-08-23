@@ -1,17 +1,26 @@
 {
-  "previous": "%cyaGcE/WlxxglVt8Acgen3bqB7h8fooqMDh4KNu9S1U=.sha256",
-  "sequence": 12069,
+  "previous": "%fMxTVGasRlAHmgY8ixfQNeHbfFeAfmEyW9hikIvDXdU=.sha256",
+  "sequence": 12070,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566521545080,
+  "timestamp": 1566521553723,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
+    "branch": "%HSTZFoc7Jp69JZmmQusCU3lMHTClmmRWEW0547LSjh8=.sha256",
+    "reply": {
+      "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%HSTZFoc7Jp69JZmmQusCU3lMHTClmmRWEW0547LSjh8=.sha256": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%sKEZvPy5JV37EXQVhrGXT5JLs56qvvgieNYWoZ87MXw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\n\nHappy you dig it! I'm about 99% sure it wasn't originally my idea, but I like it too. I think it'll need some iteration though.",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
   },
-  "signature": "DsZQtIAr0nglD36d0qs0l9hDUhQBMQFo3LmLpRufFubRKdNDOCePfv0BwYyPLcNUMikW17bGggwYjwl+INmUAA==.sig.ed25519"
+  "signature": "WtV6xcACfNqiNnNvrFY2wsoNbw+aPLfDAhxArVAyZ3iTvCEeRKVvDmNTWFKXhIQ7Ck95T12SCiG/e0AHbP5VAA==.sig.ed25519"
 }
