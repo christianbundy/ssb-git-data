@@ -1,27 +1,17 @@
 {
-  "previous": "%lvfqFBA2MNAgGrTBFHThCpLhCLL4hanhiPeA4ly78pk=.sha256",
-  "sequence": 12090,
+  "previous": "%t7bc4UACn2eRiW1S9Y4YsghJUg1rsSULqQMQ3ODNcT8=.sha256",
+  "sequence": 12091,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566595426487,
+  "timestamp": 1566596752042,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256",
-    "fork": "%m40Fz0NOy2b4O0p9mmCrfTio38s5lD/cFtSsXb9Pq+U=.sha256",
-    "branch": "%IelTQjmeAcS3cTAkwEpYlFQTayu2r+0yU2k2DRLUvyw=.sha256",
-    "reply": {
-      "%gXhjCeDVfkxczQhLlRlSljzDtrB73wTpk5D+RIo3b4A=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-      "%IelTQjmeAcS3cTAkwEpYlFQTayu2r+0yU2k2DRLUvyw=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
-    },
-    "channel": "linux",
-    "recps": null,
-    "text": "[@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\n> As for putting the distro build stuff right in the project VCS, wouldn’t that mean every project you want in your distro would need to accept your patches to maintain that build?\n\nI was thinking that this would give them the *option* of accepting patches upstream but otherwise you'd just maintain a \"fork\" that only diverged on your changes to `.foo`. The repo *may* enforce some other requirements, like an `.editorconfig` or a mandatory readme or something similar, but ideally these changes would be super minimal.\n\n🤷 ",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "noffle"
-      }
-    ]
+    "type": "vote",
+    "channel": "foss",
+    "vote": {
+      "link": "%tR4n7amFsbTpOANoNrRdV2woSEgoKX7RK8qOlTDrLIY=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "XfEaq67GtlBw6vIq/TayjJkFC3pQPE6gQp8MIZWgjABfCT94QqGcxE73r8pFi1suTUm1AMwLa3UnCSiZxBV5AA==.sig.ed25519"
+  "signature": "brkqZZtjiBcDk1Lig3FK6KFp531DLx2MFDx+RrehJnYmy0ZfeDV5LK458WjLca3ZbjsFaafScCPF9k2lkdGnBg==.sig.ed25519"
 }
