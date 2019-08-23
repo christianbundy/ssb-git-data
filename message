@@ -1,17 +1,26 @@
 {
-  "previous": "%heT35GVLrJtaG7vZr/KvCiFOM9bDayL6NdAxa59qkkk=.sha256",
-  "sequence": 12097,
+  "previous": "%/nN6xFIFZDQILvCeq21wOeB9NYLDTLUZDnL3bIoQpj4=.sha256",
+  "sequence": 12098,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566603654457,
+  "timestamp": 1566603722295,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%KFlokCY6RZ80LSFIuWuI0MaA+xzGufFzh2c6qu7GB90=.sha256",
+    "branch": "%M/NCb0+Q71geJN7vv1EBJHndnHGIZMC79zPtP2jm+Ds=.sha256",
+    "reply": {
+      "%KFlokCY6RZ80LSFIuWuI0MaA+xzGufFzh2c6qu7GB90=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%M/NCb0+Q71geJN7vv1EBJHndnHGIZMC79zPtP2jm+Ds=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%M/NCb0+Q71geJN7vv1EBJHndnHGIZMC79zPtP2jm+Ds=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) \n\nYes! I'm so happy to see this in `master`. It works well and I'm super hyped on it.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ]
   },
-  "signature": "wnp5iNtJO0VDHmARqGccTGpCqYxlnyFvSiAq8Kc1/UDOvhbuJwsx9dx3bh8YIFGmELCG0kwsUTo39pyfjos4AA==.sig.ed25519"
+  "signature": "VzH4Bl5yMsmPa+SbvtmgSAbvzqbUnqB9SWV1J+10mbLtBAFbww+UWRbU3veU39Ju/h6kXVANhV1BHLyBXNKmBQ==.sig.ed25519"
 }
