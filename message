@@ -1,16 +1,30 @@
 {
-  "previous": "%hncvzKN9SYd+rZET6oPgMthBcoV3ZdJz2d7TGdZECYY=.sha256",
-  "sequence": 12083,
+  "previous": "%l8O9bkGkTpKjysV2s36rRbwSlZLZ3R1eE82t5V58kEw=.sha256",
+  "sequence": 12084,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566589228073,
+  "timestamp": 1566589518220,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%z1cd9GQUkRJsDCj0GjU6DbzgUPfGFZgHA1S3QM07ua8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256",
+    "fork": "%Ekq64XsH15TGCi//Ol2L9PQnDd8U4RRkRobBOW7OnLc=.sha256",
+    "branch": [
+      "%CIjgFRwyvwBBZe6/mw8pcF5jwe8x9LeiMGnmfaIqD2s=.sha256",
+      "%Rct9KT7Gf1yUPQ1gCW5SQHKZweVs3UZQNyIykAPJCZ0=.sha256"
+    ],
+    "reply": {
+      "%PwgA1DZgBNDmgWMFaQ0JThmvhgXiWHzrWvA43txtHxI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%CIjgFRwyvwBBZe6/mw8pcF5jwe8x9LeiMGnmfaIqD2s=.sha256": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Verinaut-01](@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519) \n\n> So. The “state violence” in this case is utilizing the legal system to extract punitive damages from a corporation that ignored the terms of a license?\n\nI don't feel bad about it, but I don't really want to have to add the legal system as a dependency. I'm fine using the legal system as a last resort, but I'd like to try other reasonable solutions before appealing to the state to solve our problems.",
+    "mentions": [
+      {
+        "link": "@nj2Jn+MbEwGxJXYKlr6ZsQs4TuAaXdUXScIziecH0Rc=.ed25519",
+        "name": "Verinaut-01"
+      }
+    ]
   },
-  "signature": "nGWkUYUw/CepRtUndnSi7gcIWSv8R+SwkDm8mSuY6eo6LVhMxLs3bsGkjBAhuVa8Y4iKfYI1hMIKtOlWzlcOAA==.sig.ed25519"
+  "signature": "dEZnsBEhf9VIYGZoRASvYk0CP7lBEIBDzhruAUigdc3pZQzJvHCSgBCpIvo1Dm3GYjgck5J4jNGc/huXhbCPCA==.sig.ed25519"
 }
