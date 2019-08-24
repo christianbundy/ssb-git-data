@@ -1,17 +1,26 @@
 {
-  "previous": "%4jpoJNehrsfRrT+aXuz+2I0H7Eyr5rE7gGPuNxSw83I=.sha256",
-  "sequence": 12102,
+  "previous": "%OqJVGZywygXf1KfeL9ycbxJtSuB0hVvbmyqVV7PMM0Y=.sha256",
+  "sequence": 12103,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566623475877,
+  "timestamp": 1566623536325,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%jBunGLvF8ggWOCt2O6hOc+DtP90ZWBdji+yUshi+m4o=.sha256",
+    "fork": "%FWwFYWPFAgQWh0fStot08GoDkK9c/HPYZvpE36vTKjs=.sha256",
+    "branch": "%jBunGLvF8ggWOCt2O6hOc+DtP90ZWBdji+yUshi+m4o=.sha256",
+    "reply": {
+      "%jBunGLvF8ggWOCt2O6hOc+DtP90ZWBdji+yUshi+m4o=.sha256": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519"
+    },
     "channel": "foss",
-    "vote": {
-      "link": "%jBunGLvF8ggWOCt2O6hOc+DtP90ZWBdji+yUshi+m4o=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) \n\nthis but unironically\n\n🌞😎 ",
+    "mentions": [
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      }
+    ]
   },
-  "signature": "KGh7Ne/6JQw3qyFD6iX/rMsfM3hNSAYK/4Hrr7YjGTJMychLkQ6R70LSgt0paSU32m3oTlrL6+xcVnvQfLphAg==.sig.ed25519"
+  "signature": "HusJQ/NRlL0VPuh2dOaRgcKRcGugM7KmQQLRhmRhrw3jZhww2bzQIHROrPmYDxngYZsKWiQYJPDhpBgi8FsQBQ==.sig.ed25519"
 }
