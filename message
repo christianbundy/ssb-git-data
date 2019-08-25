@@ -1,26 +1,18 @@
 {
-  "previous": "%5T6ro8N5kL2Cg3g+9MAjIk/3+fBpZgbCFnju6fPYIqA=.sha256",
-  "sequence": 12108,
+  "previous": "%m/FK/i5P+8H4nE6vD0cuYqh8+zKAtQBq/tgzboZOYx8=.sha256",
+  "sequence": 12109,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566745717174,
+  "timestamp": 1566745969749,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256",
-    "fork": "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256",
-    "branch": "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256",
-    "reply": {
-      "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519"
-    },
-    "channel": "ssb",
-    "recps": null,
-    "text": "[@NinjaTrappeur](@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519) \n\nI think that's a reference to [ssb-ooo](https://github.com/ssbc/ssb-ooo/), which can retrieve messages out-of-order if the client uses the plugin. The benefit is that you can ask your peers for a specific message without knowing the author, but the downside is that you can't prove the entire chain of messages from the author's root post.",
+    "text": "[@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519) \n\nI'm getting increasingly interested in L0 as we discuss ideas for sustainable funding. I love how well the website is put together and I especially enjoy the [developer guide](https://guide.licensezero.com/). I remember that last year there was a \"Consensus on L0-R\" thread that didn't seem very fun, but I haven't seen any threads about the Prosperity/Parity/Charity licenses after the rename (and refactor(?)).\n\nI don't see any of your licenses in the OSI or FSF license lists, and I can only see the [Parity license on SPDX](https://spdx.org/licenses/Parity-6.0.0.html). I know you've had some frustrating experiences with the OSI mailing list, but I'm curious what your plans are for third-party license approval.\n\nFrom a quick read I'm much more fond of the Parity and Charity licenses over the AGPL and ISC licenses, but [as of right this second] I'd really love to be able to point at OSI/FSF if people ask me whether they're open source or free software. No obligation to put more stuff on your plate, just thought I'd ask in case you've already given it some thought.",
     "mentions": [
       {
-        "link": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519",
-        "name": "NinjaTrappeur"
+        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+        "name": "kemitchell"
       }
     ]
   },
-  "signature": "myapZPV/gMyd4HI1bbFrSrUhrN+XOzkfWgp8rgPBAwiRbL83wa3sFkUkzqKms78B12ktDJjeg4/dQ2db19YODg==.sig.ed25519"
+  "signature": "NQWfagyecADBVhDIzhsfkpE+dc4QI21L8V5C+z+IeqdwM8xA0X9P+IG2TBzaJTKaMAxd1DqrflBdI09k7Y2QCA==.sig.ed25519"
 }
