@@ -1,26 +1,26 @@
 {
-  "previous": "%Npjvd12zPU3Nqq6ocpOcDk0frp7LOo3DCay0MRrTZ/U=.sha256",
-  "sequence": 12107,
+  "previous": "%5T6ro8N5kL2Cg3g+9MAjIk/3+fBpZgbCFnju6fPYIqA=.sha256",
+  "sequence": 12108,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566745162602,
+  "timestamp": 1566745717174,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256",
-    "branch": "%tUGovpI4LLqAQAryGlrTYflSqNXv01Z7RXsfPKp5qTc=.sha256",
+    "root": "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256",
+    "fork": "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256",
+    "branch": "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256",
     "reply": {
-      "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-      "%tUGovpI4LLqAQAryGlrTYflSqNXv01Z7RXsfPKp5qTc=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+      "%JsAFzGPfrXh7r+A0Y4wR3J11DpktgEqoZ0j4Fwv4OL0=.sha256": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519"
     },
     "channel": "ssb",
     "recps": null,
-    "text": "I know that [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) had some interesting ideas on squashing a feed every so often, I'm not sure whether he's written about it online but I was very interested in the approach.",
+    "text": "[@NinjaTrappeur](@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519) \n\nI think that's a reference to [ssb-ooo](https://github.com/ssbc/ssb-ooo/), which can retrieve messages out-of-order if the client uses the plugin. The benefit is that you can ask your peers for a specific message without knowing the author, but the downside is that you can't prove the entire chain of messages from the author's root post.",
     "mentions": [
       {
-        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
-        "name": "cft"
+        "link": "@rGGlF9/6AAMuxpEhznHTpG8XTS0TJHGJ1k4qfgfJCwM=.ed25519",
+        "name": "NinjaTrappeur"
       }
     ]
   },
-  "signature": "f2CzzpDw7TozDG+OYKPA8R4cZ6NYXK7udnxXLWETgRfAK78ZHx/2ye6J4TEGeTtPbGoOsdFAFef46R3ArJM3Bw==.sig.ed25519"
+  "signature": "myapZPV/gMyd4HI1bbFrSrUhrN+XOzkfWgp8rgPBAwiRbL83wa3sFkUkzqKms78B12ktDJjeg4/dQ2db19YODg==.sig.ed25519"
 }
