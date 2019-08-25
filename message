@@ -1,17 +1,26 @@
 {
-  "previous": "%ffoe//d/44wWB7zuHLeRhCw6RNC/JCOzvnyycLmWis0=.sha256",
-  "sequence": 12106,
+  "previous": "%Npjvd12zPU3Nqq6ocpOcDk0frp7LOo3DCay0MRrTZ/U=.sha256",
+  "sequence": 12107,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566745077525,
+  "timestamp": 1566745162602,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "foss",
-    "vote": {
-      "link": "%ckRx/gmlfHVmeJ4k3rrzbRapidL8kfVmrxfwCicUQIw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256",
+    "branch": "%tUGovpI4LLqAQAryGlrTYflSqNXv01Z7RXsfPKp5qTc=.sha256",
+    "reply": {
+      "%92ooDLhlC4QSJRpGkSdrvQnL4HnpGZRt8uom10hYA4M=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+      "%tUGovpI4LLqAQAryGlrTYflSqNXv01Z7RXsfPKp5qTc=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "I know that [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) had some interesting ideas on squashing a feed every so often, I'm not sure whether he's written about it online but I was very interested in the approach.",
+    "mentions": [
+      {
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
+      }
+    ]
   },
-  "signature": "18IiV08xu6RHLAIOMRcK0EiwECm0ocS3IYWs47rzUPM/XwwssoDZk4kuN3R20gJgaIfynqPgrWlnGh75XqOnDA==.sig.ed25519"
+  "signature": "f2CzzpDw7TozDG+OYKPA8R4cZ6NYXK7udnxXLWETgRfAK78ZHx/2ye6J4TEGeTtPbGoOsdFAFef46R3ArJM3Bw==.sig.ed25519"
 }
