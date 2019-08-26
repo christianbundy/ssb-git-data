@@ -1,9 +1,26 @@
 {
-  "previous": "%S49ZS+epF6Rsu1dcdshU8ZAs1KLk9Ro3KpqD6myhIIk=.sha256",
-  "sequence": 12116,
+  "previous": "%RaBoy/aBaadN1qda+e2mPF2KT5g39Bpd4vKmdbJ+IWI=.sha256",
+  "sequence": 12117,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566853351550,
+  "timestamp": 1566856805015,
   "hash": "sha256",
-  "content": "1tA4ltMoyA5UP0F8nN0CunZcdA5LkstJoRXtOknYVEozbmvfGUJ5TGnOgA+/h8gIvnAoRX1UTDknCCPiqF+TedA+6ntDnAsTeVgTiNCkkP5Au8N8P7DH4RAFA+pFF+n3I5mZTlulNuIdQeCLLIaO4k2ctkOqbl4gzjyMcBsGFZOzpJBGZGiiAzhIrriSposVx/ZKlcjvFb9iKx0mHJEMjCBTkNmWNB+lhuTOEBAh3gvz4oJESF6GCvN8zQMVor8OUH/Ox87N3jeskgVAwJLv58C2K45CbPjk8TCTJib/GvXY1fCsWULS7ZGIPt0EF/5C6sV037lwbGYrjJYGREQPQOKYnxJ/cOiykThvOZVX3yaB/oZhBOvBjpGiEVcFm+74fhmrfTR+lWaj19lRmjSAg3O1DyxoFNJKJfsnACdG+RG5lQ2UUlSYSOYLDeyI+FXh+y5fyX58Qg00zBulm0Um1e2zlp146U0yPTx6h/tJKLJ4ZbWd+s/N5gYeY4xSIyL0lEjpLK8X0T9vNdJiSrZc7Bv2ZOAb/3r3UT3KdV09GUR0gv1xHXvQ633DePPHL23oH1oDOs6yiFdgHeOpawbtvCy+2ycZj5TyeWDr++J7uBS3HXBDG6IvK5/V1C7QyGTvIy6KfdI05wtxpRb6Jyic6HDfugqdkYkQOwwc5KBvlC4Krn/HLuvlsi62R2W8d0sWh57qRnHo2zYKw45JeSuuI2ru27nWcfEg0mxVdT7JRsI/97Ic0RpLRX1b3OBeJ7MgKl7+yBQqIuT0/IrMBJb9IMr/auViHFUQn3DcpXzqxt2mcjPItsVfmXd0Z5ip1UD7rkLM15nHZDGHlizrBolIQwG8LKIh+Vkt16ZhIlxXFOXH2p1aJm6/KJKpnvshv2JnEGGPrxCCf97HSA9bIJgHY9OhL/ExafbYZECfTWD4spdYNFK1vHzRWiWdiCq1blNB0Fp/RZ/Cd9R7b1XO3o4eMKoYR1jcdOfqK4qqvRLvmMg5z3Muj2n0i1xiwMq1no4SOHMe0TxW0Asf6oyzPdsqeZZC9ubCCohsTimeXzaREJ5tKUgkcTw=.box",
-  "signature": "BOSM3C59eylN7IcW6LSQHg2Q+3A8JNZEqz4tBKyH8hrEE2enOzvd+MOjDA3xQDYl44ETyUGpurAHnpx7DonAAw==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
+    "branch": "%RtHL6f5cebl7Lm1frxm1ZVj64zmujJimgTdTJWtIRME=.sha256",
+    "reply": {
+      "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%RtHL6f5cebl7Lm1frxm1ZVj64zmujJimgTdTJWtIRME=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I've been thinking about this problem almost non-stop over the past few days, and I'm realizing that I hold a few opinions that might be make for an interesting synthesis:\n\n- Maintaining software is expensive.\n- The biggest costs are, in my experience:\n  - **Supporting:** Answering questions, troubleshooting problems, and helping people use your project\n  - **Guiding:** Accepting patches, writing code reviews, and helping people contribute to your project\n  - **Improving:** Writing patches, asking for peer review, and improving the project for users and contributors\n- Maybe we could charge people directly for the things that cost us the most time/money?\n\nLots of projects get more GitHub issues than they can handle and less funding than they need. Maybe we could fix that? There are lots of problems with the [wide open net](%k6z0o+likJa2dU7toAzUmObB0qiewkdsKbc20u/hMr8=.sha256), maybe we should be hosting important discussions and collaborative to-do lists somewhere else? I'm thinking something that looks like:\n\n- GitHub is literally just a Git mirror, no issues or wikis (...but maybe releases?)\n- discussions and bug tracker stuff goes on a dedicated forum (...Loomio? SSB? idk)\n- the forum is restricted to only project members, no randos or internet strangers\n  - it costs $6 to start a membership, and membership renews for $1 per month (e.g. first year is $18)\n  - members can participate in issues and pull request and everything they'd usually do on GitHub\n  - maybe we can improve life for both maintainers and users? I don't think GitHub is an ideal\n    - on the other hand, idk how much time we should invest in these experiments\n\n**Bottom line:** I'd love to continue giving away code for free without giving away support for free. I think GitHub's UI encourages people to help internet strangers for free, which is cool, but draining as hell and probably counter-~~revolutionary~~productive.",
+    "mentions": [
+      {
+        "link": "%k6z0o+likJa2dU7toAzUmObB0qiewkdsKbc20u/hMr8=.sha256",
+        "name": "wide open net"
+      }
+    ]
+  },
+  "signature": "WY1IUCxA51iuG/RjB7STos8tDUb/k4WAeiUUYjcnLYjlX6r63LXFZckVr4Xbs3B6qj1W1G2Ee6kpyFtpgZYtCA==.sig.ed25519"
 }
