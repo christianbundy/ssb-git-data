@@ -1,30 +1,17 @@
 {
-  "previous": "%lsHQlYTzveraHkmVhDp54lA0G8epQyLzMH7RmAwqlJI=.sha256",
-  "sequence": 12120,
+  "previous": "%/526lhEX7uYs8XGEgl+btw3C4Lap6QQrxEyDxJ//Czg=.sha256",
+  "sequence": 12121,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566857122859,
+  "timestamp": 1566860338291,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
-    "reply": {
-      "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "(ℹ️ The [above post](%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256) has been forked into a sub-topic, [here](%lsHQlYTzveraHkmVhDp54lA0G8epQyLzMH7RmAwqlJI=.sha256).)",
-    "mentions": [
-      {
-        "link": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
-        "name": "above post"
-      },
-      {
-        "link": "%lsHQlYTzveraHkmVhDp54lA0G8epQyLzMH7RmAwqlJI=.sha256",
-        "name": "here"
-      }
-    ]
+    "type": "vote",
+    "channel": "foss",
+    "vote": {
+      "link": "%yrpYxoUPOBnuw2+IHv6VJfYdUsAsdXdeUcJmdoftmZQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "h1qnKFkhnZmXAcK//X/JwYgo8N4OBWgDeIl3e68cwTjHeT4DuK2lihbN8wxYlkzJ7NhlFk6bEznvVyCJF4L3Dw==.sig.ed25519"
+  "signature": "SCRzeGd1wcwP846+W25ljvkMCTNTzcbMjwIT+FXp8eGAVlW9vX7NOCH7BEtfV26uurTsovdhNJt52PueWhOJBw==.sig.ed25519"
 }
