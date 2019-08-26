@@ -1,26 +1,17 @@
 {
-  "previous": "%RaBoy/aBaadN1qda+e2mPF2KT5g39Bpd4vKmdbJ+IWI=.sha256",
-  "sequence": 12117,
+  "previous": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
+  "sequence": 12118,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566856805015,
+  "timestamp": 1566856810142,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%RtHL6f5cebl7Lm1frxm1ZVj64zmujJimgTdTJWtIRME=.sha256",
-    "reply": {
-      "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%RtHL6f5cebl7Lm1frxm1ZVj64zmujJimgTdTJWtIRME=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "I've been thinking about this problem almost non-stop over the past few days, and I'm realizing that I hold a few opinions that might be make for an interesting synthesis:\n\n- Maintaining software is expensive.\n- The biggest costs are, in my experience:\n  - **Supporting:** Answering questions, troubleshooting problems, and helping people use your project\n  - **Guiding:** Accepting patches, writing code reviews, and helping people contribute to your project\n  - **Improving:** Writing patches, asking for peer review, and improving the project for users and contributors\n- Maybe we could charge people directly for the things that cost us the most time/money?\n\nLots of projects get more GitHub issues than they can handle and less funding than they need. Maybe we could fix that? There are lots of problems with the [wide open net](%k6z0o+likJa2dU7toAzUmObB0qiewkdsKbc20u/hMr8=.sha256), maybe we should be hosting important discussions and collaborative to-do lists somewhere else? I'm thinking something that looks like:\n\n- GitHub is literally just a Git mirror, no issues or wikis (...but maybe releases?)\n- discussions and bug tracker stuff goes on a dedicated forum (...Loomio? SSB? idk)\n- the forum is restricted to only project members, no randos or internet strangers\n  - it costs $6 to start a membership, and membership renews for $1 per month (e.g. first year is $18)\n  - members can participate in issues and pull request and everything they'd usually do on GitHub\n  - maybe we can improve life for both maintainers and users? I don't think GitHub is an ideal\n    - on the other hand, idk how much time we should invest in these experiments\n\n**Bottom line:** I'd love to continue giving away code for free without giving away support for free. I think GitHub's UI encourages people to help internet strangers for free, which is cool, but draining as hell and probably counter-~~revolutionary~~productive.",
-    "mentions": [
-      {
-        "link": "%k6z0o+likJa2dU7toAzUmObB0qiewkdsKbc20u/hMr8=.sha256",
-        "name": "wide open net"
-      }
-    ]
+    "vote": {
+      "link": "%8FiTs1JKYEeRC891anMV4JFMPPdpT6+VZjxpx1RP5YI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "WY1IUCxA51iuG/RjB7STos8tDUb/k4WAeiUUYjcnLYjlX6r63LXFZckVr4Xbs3B6qj1W1G2Ee6kpyFtpgZYtCA==.sig.ed25519"
+  "signature": "cC0cgjYjU+Vc36ef/V3AAgpr6RVogfewn8ehy/0VefQhEtPaaGfEn9O0RPV68dGiCsF9pxUYCK159/80wiL+Dw==.sig.ed25519"
 }
