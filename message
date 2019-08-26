@@ -1,17 +1,26 @@
 {
-  "previous": "%sElWm1EP2YP6cE9lci6uym9eIqv+TLsIeg6QLvut5GA=.sha256",
-  "sequence": 12112,
+  "previous": "%Z8qEGXI72qUOBNZI4kWUS7ht/PwNXMbzIfj+ifkZmxI=.sha256",
+  "sequence": 12113,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566845341428,
+  "timestamp": 1566845788550,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%hRk2V8AAyzcayHJIQWBpIg5gG8wjBUMh5AeZTSJxj24=.sha256",
+    "branch": "%NWu3HvzQ52rpoyFCF7zeSSAWqBQomebi5N5AqyKBtVU=.sha256",
+    "reply": {
+      "%hRk2V8AAyzcayHJIQWBpIg5gG8wjBUMh5AeZTSJxj24=.sha256": "@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519",
+      "%NWu3HvzQ52rpoyFCF7zeSSAWqBQomebi5N5AqyKBtVU=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%cc7ij9z4WrUE5haX/zrcyIn810p2RHeeYgmDiOpX9/k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Dylorb](@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519) \n\nDon't remember whether I've recommended this to you before, but I love:\n\nhttp://www.musicforprogramming.net/",
+    "mentions": [
+      {
+        "link": "@0ERFW4smS9/m4jQIDD1TNqa1tnh1H2bHnVPjw/Lfv0s=.ed25519",
+        "name": "Dylorb"
+      }
+    ]
   },
-  "signature": "YU9dEW8BnDzyLpGgc9shnyHUHPXw9mg91BacuSIhQ8k1UYmWTpHn6IqWuNbq4V7eWqb5vZVboQAwp69JBe93Dg==.sig.ed25519"
+  "signature": "pCTewrUeadXojRoBxiHcgFT1MgSIV0Rnf4mSiNxrRuftbJC+Puy8otBDgW8HjfgQqdkCsPg0l/P5pLLbGLJLCw==.sig.ed25519"
 }
