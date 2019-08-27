@@ -1,17 +1,25 @@
 {
-  "previous": "%r5GeW8ssES5oaYJjXVXStftjur+oSpa68ItWZ+1gE6U=.sha256",
-  "sequence": 12131,
+  "previous": "%1A8N58Pc9xI8U3dqEl9QoH9GJ6rkjmxfamVmW7YsH9w=.sha256",
+  "sequence": 12132,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566878618560,
+  "timestamp": 1566915522192,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%cvEfawjnO+HAhCRzIhjosOtbzhka+QfCtbFaqQRfA2w=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%RK0AL7mT+OF9yLrrVSI/l4XlVydHQPmylUht5QxVVZ8=.sha256",
+    "branch": "%RK0AL7mT+OF9yLrrVSI/l4XlVydHQPmylUht5QxVVZ8=.sha256",
+    "reply": {
+      "%RK0AL7mT+OF9yLrrVSI/l4XlVydHQPmylUht5QxVVZ8=.sha256": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@gmarcos87](@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519) \n\nThis is way cool! As far as solutions go, I think I'd build it very similarly. There's tooling like [ssb-identities](https://github.com/ssbc/ssb-identities), but I'm fairly confident that it requires the keys being stored on the server rather than in the browser.\n\n> (using bip39 word keys)\n\n👀 🚀 ",
+    "mentions": [
+      {
+        "link": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519",
+        "name": "gmarcos87"
+      }
+    ]
   },
-  "signature": "0SO8ICBAybQ9biItlxpzs5RiDINorwmzF3ZG4dglzQp8/4puC3cVfDHQhfd1k14grm5XTuszbp6tnxPhMky6Dw==.sig.ed25519"
+  "signature": "bGyV+TrdMinsAIq2bCstnZ08izkQak+jX9ealJnaImRTrs/GBwBpQVUrzt9+cjLTrhdJoyMnBwJgb6hhmMVACw==.sig.ed25519"
 }
