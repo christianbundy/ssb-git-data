@@ -1,16 +1,25 @@
 {
-  "previous": "%s6vjw+K/ISb7ScHRTFJyvSJYBdBYcZBhBbo45AvkU7U=.sha256",
-  "sequence": 12129,
+  "previous": "%t/cGSkISVZAG0sw/eCBgQRPnZqDlo+HoS8b/s2okJFc=.sha256",
+  "sequence": 12130,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566878358629,
+  "timestamp": 1566878599684,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JKeUC0ifCAAYBTvdSjA/a/ZRpBe8XzvtzyGyNiVtv+U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%JKeUC0ifCAAYBTvdSjA/a/ZRpBe8XzvtzyGyNiVtv+U=.sha256",
+    "branch": "%JKeUC0ifCAAYBTvdSjA/a/ZRpBe8XzvtzyGyNiVtv+U=.sha256",
+    "reply": {
+      "%JKeUC0ifCAAYBTvdSjA/a/ZRpBe8XzvtzyGyNiVtv+U=.sha256": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@will](@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519) \n\nThis looks so rad! I don't think I realized how simple mead is. Is there a name for a beverage made the same way with some other type of sugar? I've made cider before but I guess I don't know the name for \"generic beverage fermented with wild yeasts\".",
+    "mentions": [
+      {
+        "link": "@gQ83w3hAacjlREmbndJN8qoXcZSCcwZxzA/gdRvYnws=.ed25519",
+        "name": "will"
+      }
+    ]
   },
-  "signature": "qPSdRpP0PknIrTKY/uAb4Ovaq/qr5PiBGwcSeOERoA1fVd8JNJ7K2OLYnqVm+1Vwjn3po1r/ZjzzJF2ClE+8Bg==.sig.ed25519"
+  "signature": "8PMq5BEj8LlTXB4CDNpubyAEKucF5dY7B8d9yoQpL94NQS3rxpeOnM/Os7zA/LgW6DKzc5U7yeKVnZjiVlcIDg==.sig.ed25519"
 }
