@@ -1,17 +1,21 @@
 {
-  "previous": "%Z1RKonF2VNMpNpWH3AIMSyRAVVjg+zqVIxgfpbnnNQU=.sha256",
-  "sequence": 12139,
+  "previous": "%3WL2MH04K15XRCE13Gj4SQ5MBAcHBT45R1FrP7DILtw=.sha256",
+  "sequence": 12140,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566928930214,
+  "timestamp": 1566929060103,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Zot41pVDzqKMM5HEyiferi1Z0yHMlEdp63aRREpPM2w=.sha256",
+    "branch": "%jI9badotcqhqZ1tgx/J+uSqM/WHsxnGI9CPddHZPqgo=.sha256",
+    "reply": {
+      "%Zot41pVDzqKMM5HEyiferi1Z0yHMlEdp63aRREpPM2w=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+      "%jI9badotcqhqZ1tgx/J+uSqM/WHsxnGI9CPddHZPqgo=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%dZ4aM4BejRoh2xSyQQ5zK1Ur1yOjEPuWTIlsn9MC39s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Relevant: https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers",
+    "mentions": []
   },
-  "signature": "OrUrBKD8vqhLbiu0g0Rq4iyd+CbcIWZMAXX3yaa3dVHj1Mau1cNXpPpCQ+mZP1AthDiJ4skpKZLcST1uZWQkAg==.sig.ed25519"
+  "signature": "dEuI0tbfj6D5xnXd3fxjttiZvH/VJm5O2lIaXm2Vi0odvgYzUYa3+8E2B5zmC7lz7i+4ozxiBfGb+ofxg4SRAA==.sig.ed25519"
 }
