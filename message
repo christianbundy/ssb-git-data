@@ -1,21 +1,17 @@
 {
-  "previous": "%3WL2MH04K15XRCE13Gj4SQ5MBAcHBT45R1FrP7DILtw=.sha256",
-  "sequence": 12140,
+  "previous": "%tkYmvFKqMi3AJHdZLMLoWXl8cQtswmHzVQ7jzKgRew8=.sha256",
+  "sequence": 12141,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566929060103,
+  "timestamp": 1566929709047,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Zot41pVDzqKMM5HEyiferi1Z0yHMlEdp63aRREpPM2w=.sha256",
-    "branch": "%jI9badotcqhqZ1tgx/J+uSqM/WHsxnGI9CPddHZPqgo=.sha256",
-    "reply": {
-      "%Zot41pVDzqKMM5HEyiferi1Z0yHMlEdp63aRREpPM2w=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-      "%jI9badotcqhqZ1tgx/J+uSqM/WHsxnGI9CPddHZPqgo=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "Relevant: https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers",
-    "mentions": []
+    "vote": {
+      "link": "%2ZNwHjzreb3HdeKRerLVSNqBF5H1yndg9lUyu6L5mYo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "dEuI0tbfj6D5xnXd3fxjttiZvH/VJm5O2lIaXm2Vi0odvgYzUYa3+8E2B5zmC7lz7i+4ozxiBfGb+ofxg4SRAA==.sig.ed25519"
+  "signature": "RaJJPsiBAq4bxkBB2npklpUEpqLMS/EQ9Dgjc92aHf1gcP0vzsVUPJpkUYS3kct1zr+aVMwWZnQc0B12nmzvDg==.sig.ed25519"
 }
