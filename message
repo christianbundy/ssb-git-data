@@ -1,17 +1,29 @@
 {
-  "previous": "%6aK4Yxh2fjL7NhqAXvFTTh5plRXSu7jtqZC/QsCrKr4=.sha256",
-  "sequence": 12137,
+  "previous": "%ocjspVKCAS9fwtQOuTQS+AOMcegBr/NaqMfTi3zpo/U=.sha256",
+  "sequence": 12138,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566926208421,
+  "timestamp": 1566928906951,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "opensource",
-    "vote": {
-      "link": "%N1+dmqMseNPR5ww+bCGAaPZifLiEPHFRYyGDVOXiDjE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%J8NyJgOq1HOxfqrSQXv6sygZTatHjxANuPvgkolf2rg=.sha256",
+    "branch": "%J8NyJgOq1HOxfqrSQXv6sygZTatHjxANuPvgkolf2rg=.sha256",
+    "reply": {
+      "%J8NyJgOq1HOxfqrSQXv6sygZTatHjxANuPvgkolf2rg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kemitchell](@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519)\n\nOops. It looks like maybe we [already talked about this](%xakLWuDosJChcdZeL5iW94fHQV4c+Of1v7UJkVsH5Fo=.sha256):\n\nI had some other questions, but given your super-speedy response time on GitHub I'll just open a discussion in [an issue](https://github.com/licensezero/parity-public-license/issues/52).",
+    "mentions": [
+      {
+        "link": "@TqlPr31FOOCjuupH0L9HCJdLjWYySyibbKscNhgLoCo=.ed25519",
+        "name": "kemitchell"
+      },
+      {
+        "link": "%xakLWuDosJChcdZeL5iW94fHQV4c+Of1v7UJkVsH5Fo=.sha256",
+        "name": "already talked about this"
+      }
+    ]
   },
-  "signature": "SeATXbB/ziI0d8KuvIlrYbrfMaqKPsDWwF6OzelkRCbvBNr7XMlYYi83G1tEo6MLT61oejc2RZWuZVnRPPsECw==.sig.ed25519"
+  "signature": "+0dbTPGziC7NN5ZmeQOKS5qPGUEuovdC9a1Pd+cmWbrh1Aqod7A4h79iisUdidt2xuhpjeSEfAAmI+1b/MvZDA==.sig.ed25519"
 }
