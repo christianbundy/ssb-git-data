@@ -1,26 +1,17 @@
 {
-  "previous": "%Kcqma5qe+yfgrdenMN6ASDFxQABxXP5q8JehLNvivG0=.sha256",
-  "sequence": 12136,
+  "previous": "%6aK4Yxh2fjL7NhqAXvFTTh5plRXSu7jtqZC/QsCrKr4=.sha256",
+  "sequence": 12137,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566919024806,
+  "timestamp": 1566926208421,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%p6GrJ8ZSlp4oim/1aVZELYdSZRUOl6iv5P2+rKbNYbw=.sha256",
-    "fork": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%p6GrJ8ZSlp4oim/1aVZELYdSZRUOl6iv5P2+rKbNYbw=.sha256",
-    "reply": {
-      "%p6GrJ8ZSlp4oim/1aVZELYdSZRUOl6iv5P2+rKbNYbw=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@ktorn](@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519) \n\n[!!!](https://github.com/macausource/subsatoshi/blob/hackathon/examples/hackathon-prize.yml)\n\nThis exact sort of thing has been on my mind, but I hadn't considered using crypto-currencies for payments.\n\n> So why not ditch those payment methods, adopt low-free crypto and donate the same 2-3% to the FLOSS stack that enabled that transaction in the first place?\n\nI'm a bit skeptical about using revenue as a metric because it's so hard to measure, but I *do* think that any tool we use for this should eat its own dogfood and receive sustainable funding for... enabling sustainable funding.\n\n(My skepticism is mostly that revenue varies wildly and we'd have to ask companies to self-report. I think payment processing companies can do this because it doesn't require self-reporting, but I *personally* wouldn't tell a company \"hey every month we need to report our revenue to an open source project and pay them\". Maybe I'm the minority though.)\n\nI like the ideas behind [`licensezero quote`](https://licensezero.com/) to figure out how much licensing relevant open source projects would cost, and I'd imagine that having the option to use crypto-currencies would be very popular.",
-    "mentions": [
-      {
-        "link": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519",
-        "name": "ktorn"
-      }
-    ]
+    "type": "vote",
+    "channel": "opensource",
+    "vote": {
+      "link": "%N1+dmqMseNPR5ww+bCGAaPZifLiEPHFRYyGDVOXiDjE=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "EZ2OP9dclDNgtXJkKXUxgVgI1Mr7FQZBbP0LCqZdUj4Crd/5zXFCQ1yBDuKf3wlQ6Aq3noGwPg237JWVPruiCA==.sig.ed25519"
+  "signature": "SeATXbB/ziI0d8KuvIlrYbrfMaqKPsDWwF6OzelkRCbvBNr7XMlYYi83G1tEo6MLT61oejc2RZWuZVnRPPsECw==.sig.ed25519"
 }
