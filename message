@@ -1,17 +1,26 @@
 {
-  "previous": "%X59sm6b1HuSFE5n6o74ASmQfOvEgQ7WuUZtH1uGp0H8=.sha256",
-  "sequence": 12148,
+  "previous": "%hG/KQmmTuOHpBjVUsqcMWmHIhgEfdR3dKZDEzokPIMc=.sha256",
+  "sequence": 12149,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1566955072264,
+  "timestamp": 1566955805419,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%/lv5VaPGfI4F1LbZYpXc6ncy2pPXSe/dfX+FDZx3Yu8=.sha256",
+    "fork": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
+    "branch": "%/lv5VaPGfI4F1LbZYpXc6ncy2pPXSe/dfX+FDZx3Yu8=.sha256",
+    "reply": {
+      "%/lv5VaPGfI4F1LbZYpXc6ncy2pPXSe/dfX+FDZx3Yu8=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%P+24nr0kCdLRQAu/WQYSYtlk+Wy89FC1faoLpnzPqq8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nYeah, I really dig this. I was originally going to suggest FOAF but I'm following too many people for that to be useful. 😅 \n\nMaybe [opencollective-bot](https://github.com/opencollective/opencollective-bot) might be relevant?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "+6GRfTqGUXTRe5PTxEojcAI0FUaRpyB17/zFF00XX9ewuyYxgIs06kGuXU6DMJWuJJ6uE3OtAhkbYeS1Pc37Ag==.sig.ed25519"
+  "signature": "aKRcjOmg9+f/40t5Zed4krivOuppmTHeiffZhsc8o78VDbGwlJ+LBS4lz3CyCkLiVfKPghE6NyclK8YSMVfKBg==.sig.ed25519"
 }
