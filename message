@@ -1,17 +1,27 @@
 {
-  "previous": "%XJNGlBjw3gyRpoGx/6P1ZCKo6GxviZgU9E43y//DNSI=.sha256",
-  "sequence": 12165,
+  "previous": "%oTC5//ALqZh4otggnCX3tzaiJlY/1QdXXSD8Y02ptlw=.sha256",
+  "sequence": 12166,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567116863940,
+  "timestamp": 1567117303931,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssbc",
-    "vote": {
-      "link": "%rj6rM03tLsEj4i7+9ztnx5HyfhuURMfVsQ7x4zKIie0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%JZCLZJWij/Y6LonNdaPOIJDMhPQ+vSwZW7uC47WPg+E=.sha256",
+    "fork": "%mkFM7QSZmQp5GLNzfCv58W5+mZwWA+7Rd8HvHkqb8BE=.sha256",
+    "branch": "%qcZSyM6euBh5nC0e5NoK8rbN+VQe8R+7xWTIVPTPrjM=.sha256",
+    "reply": {
+      "%JZCLZJWij/Y6LonNdaPOIJDMhPQ+vSwZW7uC47WPg+E=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%qcZSyM6euBh5nC0e5NoK8rbN+VQe8R+7xWTIVPTPrjM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "It's alive! 🐙\n\nThis is now available in [ssb-schema-definitions](https://github.com/ssbc/ssb-schema-definitions/blob/170c16476421591ce93b7ab0d0333a81da7b6756/index.js#L104-L107) and ssb-[thread](https://github.com/ssbc/ssb-thread-schema/blob/1fdcc35d99bc99acd3cf38ce83677fd47c3577fd/post/reply/schema.js#L18)-[schema](https://github.com/ssbc/ssb-thread-schema/blob/1fdcc35d99bc99acd3cf38ce83677fd47c3577fd/post/root/schema.js#L15), although I *think* we need to add `hasContentWarning()` or similar (?).\n\n[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nThanks for pairing on this with me! After our call I've been spending a few minutes reading [Understanding JSON Schema](https://json-schema.org/understanding-json-schema/index.html) and I'm really happy that you chose this spec for codifying our schemas. I'm really pumped to use this more often now that I'm more familiar.\n\nAlso when you have a chance I'd love to be able to publish the latest ssb-thread-schema change to npm. I've made [an issue](https://github.com/ssbc/ssb-thread-schema/issues/2) if that's helpful. 👍 ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "wkxpu4dNfntFsCyScalxSvVtbrMav106baUh/OPKM6yisxuiTnRpnUSgOhe0nv0I+TYA8e7sG8iL2JAoHGhADw==.sig.ed25519"
+  "signature": "f+KPGKN/t9za6EdsZAKB7yw6/AWuuRHEX5KK/r9F5b5d+YGrnGsf8o+LTT1KZoStq5HiZ0leiMqd7VbbE1JjAg==.sig.ed25519"
 }
