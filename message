@@ -1,16 +1,22 @@
 {
-  "previous": "%403crDTPpaz7jkNOMpzo8HpzCsnLmnS9hjYaLfR/bWA=.sha256",
-  "sequence": 12174,
+  "previous": "%m9XzPpfoH2MvCPfs+7wT6w2qe/2j69pRBNyeryykL8g=.sha256",
+  "sequence": 12175,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567289783167,
+  "timestamp": 1567295505430,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UzXsnkK2LogDm5C0jDKbfZFpQpUFt46Bn34k03MBWcY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
+    "fork": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
+    "branch": "%tbZV0T9tyB/j17varFGV0D6/Z/Hoz440ROS+0sfI170=.sha256",
+    "reply": {
+      "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%tbZV0T9tyB/j17varFGV0D6/Z/Hoz440ROS+0sfI170=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "> - discussions and bug tracker stuff goes on a dedicated forum (…Loomio? SSB? idk)\n\nI just remembered that npm uses Discourse for this and it [seems to work well](https://npm.community/). I'm going to read their [meta discussions](https://npm.community/c/meta) and see if I can glean any useful info, but this looks like it might be a reasonable way for the SSBC to coordinate discussion/development/maintenance/support with the community without requiring a working SSB installation *or* depending on GitHub. It's worth noting that they still use GitHub for [pull requests](https://github.com/npm/cli/pulls), but other discussions happen on Discourse.",
+    "mentions": []
   },
-  "signature": "qlNq13UMipffo9EOvUnXk2fOGgiupwhOWG5jmQ5IHkRWEu5VHgeMxfH2bTuAd3xWvWceullMnLJY0Zvml0mqDg==.sig.ed25519"
+  "signature": "Pkmvvgo/Xq6+RTtkzJwTuHKHp+P0ecG+4iYnrKnEhbVFNY+bxR3mPBhVyz4SAktPuHhgA+89AD2gSsI09DF1Dg==.sig.ed25519"
 }
