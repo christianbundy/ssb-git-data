@@ -1,26 +1,25 @@
 {
-  "previous": "%FxPmXapdB0G2xgJWrA5YfQFqCYac3WRv62tDBma+kxo=.sha256",
-  "sequence": 12172,
+  "previous": "%QJM5tcU9ZswEMtqx64epwBuZV1m162FqMYxSPLnWYMM=.sha256",
+  "sequence": 12173,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567282815486,
+  "timestamp": 1567289774130,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%IOr4NJ3oXH2IRHCkKqxptQLMLMkxnLiiP1NgunZ2Xmk=.sha256",
-    "fork": "%uVKa6kS3/RqDpX8cFzceqnIC9tH9v+YdzYChhb1086A=.sha256",
-    "branch": "%IOr4NJ3oXH2IRHCkKqxptQLMLMkxnLiiP1NgunZ2Xmk=.sha256",
+    "root": "%VcgjweW+6UHDCROsrd7NfEUMJoplmPZzHoZE//gPzbc=.sha256",
+    "branch": "%VcgjweW+6UHDCROsrd7NfEUMJoplmPZzHoZE//gPzbc=.sha256",
     "reply": {
-      "%IOr4NJ3oXH2IRHCkKqxptQLMLMkxnLiiP1NgunZ2Xmk=.sha256": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519"
+      "%VcgjweW+6UHDCROsrd7NfEUMJoplmPZzHoZE//gPzbc=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@RangerMauve](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519)\n\nTotal tangent, but this comment got me thinking a bunch and I wanted to throw my thoughts into cypherspace in case anyone finds them useful. 👨‍💻\n\nI haven't heard a convincing argument for intellectual property rights, and I'm a bit annoyed that all of my work is protected by copyright by default. This problem can be solved by free and open source software licenses, the more permissive the better, but unfortunately it doesn't seem to have any leverage to make change at a systems level. There are two big problems that both \"free software\" and \"open source\" leave unresolved:\n\n- Unless you use a copyleft license, others can remix your work and make a derivative work that's now protected under *their* copyright (!). Sort of like the [bullshit asymmetry principle](https://en.wikipedia.org/wiki/Bullshit#Bullshit_asymmetry_principle), the amount of energy needed to disown intellectual property is an order of magnitude bigger than to produce it.\n- Unless you charge money for your work (development, maintenance, support, etc), your software is a charitable donation to people and companies everywhere. This may even produce an [asshole filter](https://siderea.livejournal.com/1230660.html), where polite people use your software quietly and less-polite people feel entitled to demand your attention. (I should mention that most of my experiences, especially around P2P technology, have been Very Good.)\n\nIt seems to me that both of these problems can be generalized as a single problem: they produce a one-sided relationship that lacks reciprocity. I'm not particularly sold on the merits of \"free software\" or \"open source\" by themselves (or the ensuing flamewars), and I'm slowly starting to think that \"copyleft developer\" or similar might be better than \"free and open source software developer\". 🤷\n\nMore thoughts to echo the above bullet points with a focus on the future:\n\n- If we think copyright is bullshit, then it makes sense to remove copyright protection from our work. If we care enough to remove copyright protection from our work, then it makes sense to use copyleft to ensure that others can't simply re-add copyright protection to derivative works.\n- I don't like charging people money for things, but if your boss is paying you $1000 to fix a bug and your \"fix\" is just creating a GitHub issue and hoping someone volunteers to fix it for free... maybe your boss should be paying for that? My main hesitation with any \"pay for support\" deal is that I don't want to create a pay-to-play environment where you need investor funding just to get maintainer attention.\n\n**TL;DR:** The \"free software\" versus \"open source\" debate makes me feel *bleh* and I think maybe we should be aiming to raise the bar to mutual/reciprocal relationships instead of just \"I won't personally sue you for downloading my ~~car~~ software\". ",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nThere's a CLI if you're into that sort of thing, but it doesn't support any Beaker-specific API stuff. I think of Dat as \"torrents that the author can modify later\", so while the Beaker features are *awesome* I don't think they'll have support in other Dat utilities. Maybe a Beaker for Firefox is possible?",
     "mentions": [
       {
-        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-        "name": "RangerMauve"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
     ]
   },
-  "signature": "0pva09paWSknBMfxhOeTX048tpdM0ZY9Lb3G1DvlgHRsctjOgHOKd2pzKjeEDPRRWibJMgII/mVwhxfwW921Bw==.sig.ed25519"
+  "signature": "XZwollK4Xjf+JVIlamRDXvs74Q2EV9Dh6hSOygtGw/gmd8wkOyOCj8gxsSuvrJSghx6PR21LIoJoOnwLRoQKCw==.sig.ed25519"
 }
