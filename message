@@ -1,22 +1,26 @@
 {
-  "previous": "%m9XzPpfoH2MvCPfs+7wT6w2qe/2j69pRBNyeryykL8g=.sha256",
-  "sequence": 12175,
+  "previous": "%4aLpjo4JVWis/cbn7xca0R8Bxy1Dmz3Kh43kBfD2Va8=.sha256",
+  "sequence": 12176,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567295505430,
+  "timestamp": 1567295802036,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
-    "fork": "%7r01XYmVDtzl277uYHAocGfC0InEd7PHhLc9UIbfT0I=.sha256",
-    "branch": "%tbZV0T9tyB/j17varFGV0D6/Z/Hoz440ROS+0sfI170=.sha256",
+    "root": "%b42LP+ut0MORiu6mClO11WBheOZeoTdwlXMrLWLSasQ=.sha256",
+    "branch": "%d668E0LbosfF4kYfUQNisqizR48rWCty0my95UYFOnk=.sha256",
     "reply": {
-      "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%tbZV0T9tyB/j17varFGV0D6/Z/Hoz440ROS+0sfI170=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+      "%b42LP+ut0MORiu6mClO11WBheOZeoTdwlXMrLWLSasQ=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+      "%d668E0LbosfF4kYfUQNisqizR48rWCty0my95UYFOnk=.sha256": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "> - discussions and bug tracker stuff goes on a dedicated forum (…Loomio? SSB? idk)\n\nI just remembered that npm uses Discourse for this and it [seems to work well](https://npm.community/). I'm going to read their [meta discussions](https://npm.community/c/meta) and see if I can glean any useful info, but this looks like it might be a reasonable way for the SSBC to coordinate discussion/development/maintenance/support with the community without requiring a working SSB installation *or* depending on GitHub. It's worth noting that they still use GitHub for [pull requests](https://github.com/npm/cli/pulls), but other discussions happen on Discourse.",
-    "mentions": []
+    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519) \n\nyou may dig: http://unmaintained.tech/",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "alex"
+      }
+    ]
   },
-  "signature": "Pkmvvgo/Xq6+RTtkzJwTuHKHp+P0ecG+4iYnrKnEhbVFNY+bxR3mPBhVyz4SAktPuHhgA+89AD2gSsI09DF1Dg==.sig.ed25519"
+  "signature": "Jb6IXHPHlgufPoY8h51wZvV515Vi8fnPNhqWOAOmQM/C06pWCMJODEfBteqpEk3rEFZv8RdQIG7Zrq8DRY8MDw==.sig.ed25519"
 }
