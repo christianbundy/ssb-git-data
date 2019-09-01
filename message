@@ -1,26 +1,17 @@
 {
-  "previous": "%4aLpjo4JVWis/cbn7xca0R8Bxy1Dmz3Kh43kBfD2Va8=.sha256",
-  "sequence": 12176,
+  "previous": "%D0dFDAhoBjn70ErXLTk9zXHBLBBXnYwGOLmZ103+Nn8=.sha256",
+  "sequence": 12177,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567295802036,
+  "timestamp": 1567358879863,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%b42LP+ut0MORiu6mClO11WBheOZeoTdwlXMrLWLSasQ=.sha256",
-    "branch": "%d668E0LbosfF4kYfUQNisqizR48rWCty0my95UYFOnk=.sha256",
-    "reply": {
-      "%b42LP+ut0MORiu6mClO11WBheOZeoTdwlXMrLWLSasQ=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-      "%d668E0LbosfF4kYfUQNisqizR48rWCty0my95UYFOnk=.sha256": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519) \n\nyou may dig: http://unmaintained.tech/",
-    "mentions": [
-      {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "alex"
-      }
-    ]
+    "vote": {
+      "link": "%xpfz4IIgzxJVIYANm0ffRogdxxE9qoQm0TYjWqgXP7o=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Jb6IXHPHlgufPoY8h51wZvV515Vi8fnPNhqWOAOmQM/C06pWCMJODEfBteqpEk3rEFZv8RdQIG7Zrq8DRY8MDw==.sig.ed25519"
+  "signature": "IFWVyg/Q3W19Ug62lyttSmTYDFjKjnN22AwRKfN57eESLfOo4kNYpj14DDumg2wYpjxSHKnydH4JrhJtAEsgBw==.sig.ed25519"
 }
