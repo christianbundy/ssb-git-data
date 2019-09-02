@@ -1,17 +1,37 @@
 {
-  "previous": "%h/5UWprKi8eA0U/2zyALK/2kcL5a9udopeqITCQ+h0g=.sha256",
-  "sequence": 12189,
+  "previous": "%tq9FjdncKX7yOdKVufit3ubP8TXsVTBWqaS2is3WNBQ=.sha256",
+  "sequence": 12190,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567440661880,
+  "timestamp": 1567440806057,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256",
+    "fork": "%ooEVxd4LE+pomo6XtB7kEwS13b9wlXASCvFGASJqS6w=.sha256",
+    "branch": "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256",
+    "reply": {
+      "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
     "channel": "tags",
-    "vote": {
-      "link": "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "According to the [hashtag spec](http://unicode.org/reports/tr31/#hashtag_identifiers):\n\n- same\n  - #new-zealand \n  - #new-zealand:\n- same\n  - #newzealand\n  - #NewZealand\n- #new_zealand",
+    "mentions": [
+      {
+        "link": "#new-zealand"
+      },
+      {
+        "link": "#new-zealand:"
+      },
+      {
+        "link": "#newzealand"
+      },
+      {
+        "link": "#NewZealand"
+      },
+      {
+        "link": "#new_zealand"
+      }
+    ]
   },
-  "signature": "NV1rPv8mSDnaz69hAXsTja9iDsDrt715pv6//PPfGSBCCH21VkApJXwdfwnWfRM2mplYRTLZ8H9fjmhI3aF0Aw==.sig.ed25519"
+  "signature": "cdabtiGEtkfZS4kiy7ll7mUJGKlhcbuOR20rDEFr7o1fOOjLSRoqyYOev54bBr05oAVkQM7uvdrJUjQnhSETBw==.sig.ed25519"
 }
