@@ -1,26 +1,17 @@
 {
-  "previous": "%lME0HLxsLV4/y9Js10hidhsvJuPlNXc2LuDaZB8e13I=.sha256",
-  "sequence": 12185,
+  "previous": "%I4fSZS2q3eQEj26aFK3gP1kJDbybwaGSrgGsmxdiJWU=.sha256",
+  "sequence": 12186,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567440565377,
+  "timestamp": 1567440609566,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%WryQPVuK9rNSQ4Wc/mpodPfkoy4qwktU3n33nvAn9Zs=.sha256",
-    "fork": "%IRfuu6iADMFm7yvU4/YFX56d1E+LbDcagifzX9TBk4g=.sha256",
-    "branch": "%WryQPVuK9rNSQ4Wc/mpodPfkoy4qwktU3n33nvAn9Zs=.sha256",
-    "reply": {
-      "%WryQPVuK9rNSQ4Wc/mpodPfkoy4qwktU3n33nvAn9Zs=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\n+1\n\nI think the log should go in `~/.local/share/` and the views should go in `~/.cache/`, but I'm a sucker for a nice [specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html).",
-    "mentions": [
-      {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
-      }
-    ]
+    "vote": {
+      "link": "%pOTgU2vF7IckUt9wkmo1THDaMsrcv51nwBgxHjyTfSU=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "YlaNjYfNM5XG7si7B2hkIOWARGI5IxjI7UqbpeyD45esk/Iew8RqBvoSuAvn/ehy0Kw5TbRVwtZaSlilfDr7Bg==.sig.ed25519"
+  "signature": "8Zea4TCO6rJ9VHNyBFbMEMLezDG9ppuCenZAShvrZ/ualHOgadmdnH8tqiTEGheuncB+HOY+/23V65Jn2qJXAA==.sig.ed25519"
 }
