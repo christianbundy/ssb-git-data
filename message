@@ -1,37 +1,16 @@
 {
-  "previous": "%tq9FjdncKX7yOdKVufit3ubP8TXsVTBWqaS2is3WNBQ=.sha256",
-  "sequence": 12190,
+  "previous": "%LVUSIvujESWuyLCCSklzuyCvnJrPyGN5Niv64HImljY=.sha256",
+  "sequence": 12191,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567440806057,
+  "timestamp": 1567464155568,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256",
-    "fork": "%ooEVxd4LE+pomo6XtB7kEwS13b9wlXASCvFGASJqS6w=.sha256",
-    "branch": "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256",
-    "reply": {
-      "%/B8MImj82kOf37aEpNJ6xIvZguQaga8J9c8yFiCNQ1U=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "tags",
-    "recps": null,
-    "text": "According to the [hashtag spec](http://unicode.org/reports/tr31/#hashtag_identifiers):\n\n- same\n  - #new-zealand \n  - #new-zealand:\n- same\n  - #newzealand\n  - #NewZealand\n- #new_zealand",
-    "mentions": [
-      {
-        "link": "#new-zealand"
-      },
-      {
-        "link": "#new-zealand:"
-      },
-      {
-        "link": "#newzealand"
-      },
-      {
-        "link": "#NewZealand"
-      },
-      {
-        "link": "#new_zealand"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%iEDLwo5o2KQ+LDcvdFOR9SgZ4LljnXMsakbdZTx9QAc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "cdabtiGEtkfZS4kiy7ll7mUJGKlhcbuOR20rDEFr7o1fOOjLSRoqyYOev54bBr05oAVkQM7uvdrJUjQnhSETBw==.sig.ed25519"
+  "signature": "tYFZXE0HQNtV00j1c/SCYNpj9AcOsw0oN8LizdHN/b0JuUeCFxdyoDMxxU1aH/uESDJd/lZ2FWznvP1ikKcrBQ==.sig.ed25519"
 }
