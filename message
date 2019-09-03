@@ -1,20 +1,15 @@
 {
-  "previous": "%UyQohHnMEVo548eejk4T3XPvVVXFw0WD4zZbVHxqv9g=.sha256",
-  "sequence": 12198,
+  "previous": "%rCQcrcCim1CxiidoIPH8TzdP6p1hnRTwr1oIu7LTPPU=.sha256",
+  "sequence": 12199,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567546419480,
+  "timestamp": 1567546445687,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%5kb8RltO59nTOMM9P8jExUgedlEDF5FmfcFmZgQEbNY=.sha256",
-    "branch": "%5kb8RltO59nTOMM9P8jExUgedlEDF5FmfcFmZgQEbNY=.sha256",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nI'm also confused by this. The paper mentions that the authenticated key exchanges requires a \"2-RTT synchronous protocol\" but I'm unclear where they concluded that we only need 1 round trip. ",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%zbC0apitrecDm2HEsnccrgeSZcPyGDlkJwuvbty2s1o=.sha256",
+      "value": 1
+    }
   },
-  "signature": "8C0yWTI3t7rHBkN6nwBjAElcb2PMWtgNmBx6fK6CKGKUQKTjJhKusUEjAyKu8dLojNn//iBagwFCxQ8Zu3VDCQ==.sig.ed25519"
+  "signature": "TVB0osLs6H5y4nVMvvEfpOEVF3fTz1cTrFV8azSVcPrmdEJ1rU0R/rKOUymQctdbTy5GI5Uv9Jd5lO3wZ0+6AA==.sig.ed25519"
 }
