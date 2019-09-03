@@ -1,16 +1,30 @@
 {
-  "previous": "%LVUSIvujESWuyLCCSklzuyCvnJrPyGN5Niv64HImljY=.sha256",
-  "sequence": 12191,
+  "previous": "%EYHCCpMcKuh14eHX8J6F0ZLzFbqyDRbRlyd8nSIAemI=.sha256",
+  "sequence": 12192,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567464155568,
+  "timestamp": 1567524831102,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iEDLwo5o2KQ+LDcvdFOR9SgZ4LljnXMsakbdZTx9QAc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%I4fSZS2q3eQEj26aFK3gP1kJDbybwaGSrgGsmxdiJWU=.sha256",
+    "fork": "%WryQPVuK9rNSQ4Wc/mpodPfkoy4qwktU3n33nvAn9Zs=.sha256",
+    "branch": "%cBsC/5V2RR2lpkP9H+onlVObuOCMBLlcYte+2F/CbH0=.sha256",
+    "reply": {
+      "%I4fSZS2q3eQEj26aFK3gP1kJDbybwaGSrgGsmxdiJWU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%cBsC/5V2RR2lpkP9H+onlVObuOCMBLlcYte+2F/CbH0=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519) \n\nI agree! The `~/.local/share`, `~/.cache`, and `~/.config` directories are the defaults on Unix, but we can use [Windows equivalents](https://github.com/haskell/directory/blob/ab9d0810ce0172e10ff1ca437ad7f723d6648f0d/System/Directory.hs#L1186-L1203) so we integrate with the operating system rather than throwing everything in a shared `~/.ssb` directory.\n\nPrevious thread here: %GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256",
+    "mentions": [
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
+      },
+      {
+        "link": "%GYRV3ubdT0awysbiIO5SpVUehiFxhHxg9QHq9r68qf0=.sha256"
+      }
+    ]
   },
-  "signature": "tYFZXE0HQNtV00j1c/SCYNpj9AcOsw0oN8LizdHN/b0JuUeCFxdyoDMxxU1aH/uESDJd/lZ2FWznvP1ikKcrBQ==.sig.ed25519"
+  "signature": "vq47BA6AdOpnjcTj8Y8GPM7GSibdXZSuGB6/DdLDI4IkgTZfCwoS1wJDK6XLPnKpE4VO3TvQR8vkBNBcrlBpCg==.sig.ed25519"
 }
