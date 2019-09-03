@@ -1,17 +1,26 @@
 {
-  "previous": "%jIU8+JDZDB09+nMBhm8fssu5C+d6VJGcm6EqxUnXxjA=.sha256",
-  "sequence": 12194,
+  "previous": "%Cn5DAlv9soo5aYGmH8Hd724D+iNne8F7zviHKK1Goac=.sha256",
+  "sequence": 12195,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567524867800,
+  "timestamp": 1567524889696,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%K/bWWUHiG8aQfTNGH9wTQB7VdppHsVqA0taeqLlG+7k=.sha256",
+    "fork": "%FygTVBelDLaYuXeDuMNpfYR+wnM8MUn/uOvkywJLNtw=.sha256",
+    "branch": "%K/bWWUHiG8aQfTNGH9wTQB7VdppHsVqA0taeqLlG+7k=.sha256",
+    "reply": {
+      "%K/bWWUHiG8aQfTNGH9wTQB7VdppHsVqA0taeqLlG+7k=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%aSl1/freJNshxXoHYPFr9Cz7bcGFFT7NZMYzOnk5lq8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\nI'd love to at least check it out!",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ]
   },
-  "signature": "fi4jYt2Dcag36Br237F+uBB63SW8BxLM4zvw+g627wP3wztESdlHZca0zEaujyMg262s/yh5EX/++sBYRMSYDQ==.sig.ed25519"
+  "signature": "LmQRArYyJIdBZDfaUstAPYLoU/O5mNVz+T6QpnQBb+7Su6+L2FYHDS1d2L+GaLxOScWfef82xgG6EE0Mu+xsDw==.sig.ed25519"
 }
