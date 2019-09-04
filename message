@@ -1,20 +1,20 @@
 {
-  "previous": "%9vKSnXWLjycNvuLYwVBVuLhiJOP6zPdepdtUsNl4VZ0=.sha256",
-  "sequence": 12203,
+  "previous": "%Sm7waKYWGBliqritDaXktMFlryzX1uymdtkh4XgP2o0=.sha256",
+  "sequence": 12204,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567608655100,
+  "timestamp": 1567609112868,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I've been playing around with a silly experiment that I want to share: https://thin-manchego.glitch.me/\n\nIt's super hacky and terribly written, but that's what happens when you start coding before you know what you want to work on. Right now I've got:\n\n- square tiles on a donut-shaped world\n- random map generation with water, ocean, land, forest, mountains, settlements, units\n- arrow keys to move around the donut world\n- settlements create units that walk around until they die\n\nAgain, the code is *really bad*, but if you want you can click around [here](https://glitch.com/edit/#!/thin-manchego?path=script.js:0:0). I'll probably rewrite it (probably with [hexagonal tiles](https://glitch.com/edit/#!/thin-manchego?path=script.js:0:0)) or just completely forget about it, but I've sunk a few hours into it and I like sharing weird experiments.\n\n![Screenshot of green, blue, and white tiles forming a randomly generated map of continents and islands and such. Some small yellow dots form settlements, which spawn little red dots that are units who walk around.](&Uu5jRE0+JsCqNA45sRkX8bjE5+O9IIpU1ujP72LyAgw=.sha256)\n",
-    "mentions": [
-      {
-        "link": "&Uu5jRE0+JsCqNA45sRkX8bjE5+O9IIpU1ujP72LyAgw=.sha256",
-        "name": "Screenshot of green, blue, and white tiles forming a randomly generated map of continents and islands and such. Some small yellow dots form settlements, which spawn little red dots that are units who walk around.",
-        "type": "image/png",
-        "size": 705896
-      }
-    ]
+    "root": "%Sm7waKYWGBliqritDaXktMFlryzX1uymdtkh4XgP2o0=.sha256",
+    "branch": "%Sm7waKYWGBliqritDaXktMFlryzX1uymdtkh4XgP2o0=.sha256",
+    "reply": {
+      "%Sm7waKYWGBliqritDaXktMFlryzX1uymdtkh4XgP2o0=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Also: the world is \"donut-shaped\" because the top and bottom of the map are stitched together *and* the left and right sides of the map are stitched together. This forms a [torus](https://en.wikipedia.org/wiki/Torus), which actually seems sort of interesting? I skimmed a [worldbuilding video about donut planets](https://www.youtube.com/watch?v=1J4iIBKJHLA) and it sounds like they might have some interesting climate, geography, and even gravity (!), which could be fun to generate and simulate.\n\n🤷 ",
+    "mentions": []
   },
-  "signature": "Z+8ckqt7Qh8QRFxVN6y+0N4Yr7e5Xa+V68GP1DnujLl1Qexr5ZYD/TuvN2cI6yLtl4GcfxHIPBszOq0UNma6Dw==.sig.ed25519"
+  "signature": "TeOWdpdhnxB4uN9sVBHvZDdeXVs+FQslD8WeMKR7C7AntEqvCV7DcRIQXPYIfu4/l9IkMci5Rb6rSFbTTqwsCA==.sig.ed25519"
 }
