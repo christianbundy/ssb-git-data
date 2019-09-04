@@ -1,16 +1,20 @@
 {
-  "previous": "%W+rkv3fRSoeslGVRFr+LscCOR1FbLirY1Q0gYrWxgBA=.sha256",
-  "sequence": 12202,
+  "previous": "%9vKSnXWLjycNvuLYwVBVuLhiJOP6zPdepdtUsNl4VZ0=.sha256",
+  "sequence": 12203,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567607967269,
+  "timestamp": 1567608655100,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Qv/ZI+P3tbX+NiKlixakOeO30/OeyatBHs58o4ekN6E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "I've been playing around with a silly experiment that I want to share: https://thin-manchego.glitch.me/\n\nIt's super hacky and terribly written, but that's what happens when you start coding before you know what you want to work on. Right now I've got:\n\n- square tiles on a donut-shaped world\n- random map generation with water, ocean, land, forest, mountains, settlements, units\n- arrow keys to move around the donut world\n- settlements create units that walk around until they die\n\nAgain, the code is *really bad*, but if you want you can click around [here](https://glitch.com/edit/#!/thin-manchego?path=script.js:0:0). I'll probably rewrite it (probably with [hexagonal tiles](https://glitch.com/edit/#!/thin-manchego?path=script.js:0:0)) or just completely forget about it, but I've sunk a few hours into it and I like sharing weird experiments.\n\n![Screenshot of green, blue, and white tiles forming a randomly generated map of continents and islands and such. Some small yellow dots form settlements, which spawn little red dots that are units who walk around.](&Uu5jRE0+JsCqNA45sRkX8bjE5+O9IIpU1ujP72LyAgw=.sha256)\n",
+    "mentions": [
+      {
+        "link": "&Uu5jRE0+JsCqNA45sRkX8bjE5+O9IIpU1ujP72LyAgw=.sha256",
+        "name": "Screenshot of green, blue, and white tiles forming a randomly generated map of continents and islands and such. Some small yellow dots form settlements, which spawn little red dots that are units who walk around.",
+        "type": "image/png",
+        "size": 705896
+      }
+    ]
   },
-  "signature": "WzzXfs4ksMujPsIdT332zYJJJ5V5GKFwz3c2Os0iSiW4SJ2d2G+LZvp1/f17e59idW5aSr/cmdKAtkxTNsrzAg==.sig.ed25519"
+  "signature": "Z+8ckqt7Qh8QRFxVN6y+0N4Yr7e5Xa+V68GP1DnujLl1Qexr5ZYD/TuvN2cI6yLtl4GcfxHIPBszOq0UNma6Dw==.sig.ed25519"
 }
