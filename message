@@ -1,26 +1,9 @@
 {
-  "previous": "%Wfzq4cyfmsP/QPJwkMZvD/lJbLTj2nG0Bi6hmjRNQb4=.sha256",
-  "sequence": 12205,
+  "previous": "%Rmc7KHXDpQ07POH4j/MigsqbogzBgqeEx9rzBmW0rGU=.sha256",
+  "sequence": 12206,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567614105601,
+  "timestamp": 1567617223868,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "root": "%GxqWv6YYATE1Xa7W+kYs51uiEfU7qFjawuDkSts3m+w=.sha256",
-    "fork": "%Sm7waKYWGBliqritDaXktMFlryzX1uymdtkh4XgP2o0=.sha256",
-    "branch": "%GxqWv6YYATE1Xa7W+kYs51uiEfU7qFjawuDkSts3m+w=.sha256",
-    "reply": {
-      "%GxqWv6YYATE1Xa7W+kYs51uiEfU7qFjawuDkSts3m+w=.sha256": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@trav](@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519) \n\nThanks! I actually *just* saw some of your Sim City 2000 videos on Vimeo after watching your dweb camp video. I never played it but I like base building games so I'd imagine it might be cool? I'm super inspired by [mapgen4](https://www.redblobgames.com/maps/mapgen4/) too, all the good map generators are use fancy gradient noise for elevation but mine just goes to each tile and does a sequence of steps:\n\n- flip a weighted coin to determine whether it should be land -- the coin *heavily* favors water, so there are only a few random islands around the map\n- if the tile is water near land, flip a weighted coin to determine whether it should become land as well -- this lets islands expand and sprawl and connect to each other\n- if the tile is a land tile with 3 water neighbors, delete it -- this minimizes thin sprawling peninsulas\n- if the tile is a water tile and land is > 2 tiles away, mark it as ocean\n- if the tile is land and surrounded by land, flip a coin to determine whether it should become a mountain -- this coin is weighted toward *not* becoming a mountain unless there are other mountains nearby, which is how it makes small mountain ranges\n- if the tile is a mountain tile with too few mountain neighbors or too many mountain neighbors, delete it (similar to the peninsula deletion)\n- if the tile is a land tile with no other settlements nearby, flip a weighted coin to determine if it becomes a settlement\n- if the tile is a land tile surrounded by land tiles, flip a weighted coin to determine if it becomes a forest -- forests are more likely to spawn near other forests *and* near mountains\n\nThe probabilities were a pain in the ass to tune because I tried to get them to work regardless of the board size, so most of them are like `1 / squareRoot(boardWidth)` or something silly.",
-    "mentions": [
-      {
-        "link": "@Gs0Rz7yEabDd1GyrnjZ1acPrcHL+rx8irnLl4ys/sU4=.ed25519",
-        "name": "trav"
-      }
-    ]
-  },
-  "signature": "w9BzFuts8/uEswOq2Ehf81H6nmVRjFN4Bb4lK+A8NexC3I/+ImKU9PzX/poKkG69tGsd6PBkr5otC0xqdUWBAw==.sig.ed25519"
+  "content": "kgjCf1lKc0vw1fyP53mIHKBsoxxkhTLIDyl48jehtdBsTlAR7y8f+OlfYhQkcyfUG2LQGfaC/Df9tn1bFdBTSlTlPY/bvFE5QcdKYk++pamqXoOGA4eGIJQK/5X4EjcdRXNsL9ElR41P8PrUcOGudJe3AzWUjm/nHf8tC9Hh2a71CcGEp0naH1ATg01jcFj+NKpwq1Cxza9tXOoORawqRhUeozomSAlpDTtavnN1EL6jkoyvIzfXwdoqjVmZtHddmaEAuac1vvKiTXUsh0PwM2cz4cPDgePS5tZnBoP2EnJU4lRt1n0C+r4e8l33jHCPf0Xk7BzG7V6BpbMBTm0jbulioS1DsJ5G7d/AOsCVNR/xy335rH/ID7JhiGZ10CPd9jpYKyR2BsauM3rF4KLAQpDnmyFWOu7P1KKMTMkTkubtOE/RBCj2UNOGymhxFu07fXXLJaxW1PqCLbdestI05qU4hl778f1PdzRwFZUDugOb5SwY0EM1V3jLvfF+w/vUIUyIg3OjA1ZF/aEAuSWFQ3q6MU5MuWvNAJXw5haGawOHdsizQ/g35AOexiqJ1uul8Wjv0pob/dki0lv829kRvX4qMo3FlWo4HNsazVxQiX9Ns87iRqxuENKo664/22AjVBXlugvLS6e/jQyZVUQFf5HRfquhPjAQh/YyYzoqJxxlG+F8tyI/I7GQgnKE1Qaue7mnZC7IRiI7xjc/UegBXZO8PczqXLLrK+N8InuilSMcgww5moS731kmYChKYF/Q6kh4alzqslkrr56ZAodUIoMPokpFjc1SZ4lBqFaFkaErAufuYITar/Kgp6aK1o3cD3qDFbqb4yEPr3jLCJGzKBvY4URdAlEyNFdX4MUe4Rl4EZj2kbsdd9aT57CqV7JIeOudfJWyCfDwR1Jmb1Sy+aCaiCHT9kc8sVw8nuscvHbXAIoBv2pZXdIsnydAwcMp5wQ1dY2g3Qv1RFBcef7rXDElH73bJhHEj7q8KvLAlVeM4RLSiEVX2qgwCQs++5aqzvhQ96D4lMo=.box",
+  "signature": "1C04UN7HBTeZJm0eT8yBt7+togoQESvVwmHvm6srKzWD3s5vkA5mjfRAWntjgXdZM5MFXipamk5uM6DhZgIMAA==.sig.ed25519"
 }
