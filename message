@@ -1,16 +1,29 @@
 {
-  "previous": "%7kk8ic79ZvqP4BjGTXvnCxOCP9XtyQ8Qs1OaAmlVAJI=.sha256",
-  "sequence": 12215,
+  "previous": "%w2X9ZfC4POyslED+bSYcZOwbbXpen4WJMetWWN44tCQ=.sha256",
+  "sequence": 12216,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567695141184,
+  "timestamp": 1567695227614,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%cMA1u56HALJZRfVStdTZk9684V43rcIJzFHkb0yvcpU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%o3GyBVIH4Hp+g6xADTavMIamCsHXmDIZ97xd28MUJ5M=.sha256",
+    "branch": "%BKAXAdVo1ypfXIgpvkOpkz2AmhCTyuAbPMlTD7zByAw=.sha256",
+    "reply": {
+      "%o3GyBVIH4Hp+g6xADTavMIamCsHXmDIZ97xd28MUJ5M=.sha256": "@lkJY27pfP1xK8sU2b97ULEfFF/X0IRFcLc7/Q/wNMRw=.ed25519",
+      "%BKAXAdVo1ypfXIgpvkOpkz2AmhCTyuAbPMlTD7zByAw=.sha256": "@YtKbCLteE2BbMG0G6nyAsSYECOpE/Iz6XsNyohOCbic=.ed25519"
+    },
+    "channel": "animation",
+    "recps": null,
+    "text": "[@Musickiller's work PC](@YtKbCLteE2BbMG0G6nyAsSYECOpE/Iz6XsNyohOCbic=.ed25519) \n\nMaybe relevant: %6Y8TGGV0RpzyXkpC6jjJItGrZy0gBwYGYz8WwbD1s8Q=.sha256",
+    "mentions": [
+      {
+        "link": "@YtKbCLteE2BbMG0G6nyAsSYECOpE/Iz6XsNyohOCbic=.ed25519",
+        "name": "Musickiller&#39;s work PC"
+      },
+      {
+        "link": "%6Y8TGGV0RpzyXkpC6jjJItGrZy0gBwYGYz8WwbD1s8Q=.sha256"
+      }
+    ]
   },
-  "signature": "guS61npoN62soJ7onygcWHDkEPh06LDZ4E13Ly/WEBLguhDqLeLeGPkX/YHujKrNbDtfgIbbma+RJxiupo47BQ==.sig.ed25519"
+  "signature": "SG42rpcz1eMIbLZMapu/gW3LtsebsANDzmSpY/l4z6Ew5X7A6WAc4NDXNVQ2KqkW0oKTliQcNwfJjLtQ7xlhCQ==.sig.ed25519"
 }
