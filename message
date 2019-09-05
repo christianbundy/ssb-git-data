@@ -1,20 +1,17 @@
 {
-  "previous": "%WKZhvxo3vmPXl2NECABUkspZjCWPkoZSOj6Mp+q0WGY=.sha256",
-  "sequence": 12218,
+  "previous": "%TN6AaEOEgrk0isAXeOdWMUC8bh2ymqcWOLuE2knQSLQ=.sha256",
+  "sequence": 12219,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567695386581,
+  "timestamp": 1567697615717,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%5VitwckHDJOqQMlskllxU4ZE3F1vc2RBnUK0kpb0qA8=.sha256",
-    "branch": "%5VitwckHDJOqQMlskllxU4ZE3F1vc2RBnUK0kpb0qA8=.sha256",
-    "reply": {
-      "%5VitwckHDJOqQMlskllxU4ZE3F1vc2RBnUK0kpb0qA8=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "This is way more reasonable than my usual `find ~/ -name node_modules -exec rm -rf {} \\;`...",
-    "mentions": []
+    "type": "vote",
+    "channel": "fridge0",
+    "vote": {
+      "link": "%T8sMMdwFZYoW5iHptEKiG2LZzSi9kZVcNyAS18u+1sI=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "ECRTZX7maeo/ww/WaoIQfVTcBv8AFLkaeQNZItMT8b8nl5T9bI3nS17bN4iBuhNVN68eWhseUqAPInPRI5zGBA==.sig.ed25519"
+  "signature": "NlaTnwZRqIgCyTwxeSUb8fZoA/BU5QFnvxzntQIfNUfFbzEJojvG0gpjz+twQhAz+8xTOK50xal3a3XDNkOVCA==.sig.ed25519"
 }
