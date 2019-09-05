@@ -1,17 +1,32 @@
 {
-  "previous": "%TN6AaEOEgrk0isAXeOdWMUC8bh2ymqcWOLuE2knQSLQ=.sha256",
-  "sequence": 12219,
+  "previous": "%5SZY4lWrB30ri3I/dMFhh0hHuoj4qbMF7a+g4l3TYN4=.sha256",
+  "sequence": 12220,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567697615717,
+  "timestamp": 1567698167712,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%T8sMMdwFZYoW5iHptEKiG2LZzSi9kZVcNyAS18u+1sI=.sha256",
+    "fork": "%/zfNxVRPJrH+8LxswgfTvwrUbzZkzTIiXEbwXU/+gKg=.sha256",
+    "branch": "%T8sMMdwFZYoW5iHptEKiG2LZzSi9kZVcNyAS18u+1sI=.sha256",
+    "reply": {
+      "%T8sMMdwFZYoW5iHptEKiG2LZzSi9kZVcNyAS18u+1sI=.sha256": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519"
+    },
     "channel": "fridge0",
-    "vote": {
-      "link": "%T8sMMdwFZYoW5iHptEKiG2LZzSi9kZVcNyAS18u+1sI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@joey](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519) \n\nI found a handful of websites advertising that 23% NaCl solution lowers the freeze point to around -21 F, which makes sense to me. I'll be curious if your experiment shows the same thing. I looked around for a salt brine phase diagram and found this:\n\n![diagram showing the freeze point of salt brine which has the lowest freeze point at 23.3% NaCl](&0rlekQzEG+RtaYBHHlDYJ0MxlFIi1n7IGWYoJ8xPkeg=.sha256)\n",
+    "mentions": [
+      {
+        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
+        "name": "joey"
+      },
+      {
+        "link": "&0rlekQzEG+RtaYBHHlDYJ0MxlFIi1n7IGWYoJ8xPkeg=.sha256",
+        "name": "diagram showing the freeze point of salt brine which has the lowest freeze point at 23.3% NaCl",
+        "type": "image/jpeg",
+        "size": 163181
+      }
+    ]
   },
-  "signature": "NlaTnwZRqIgCyTwxeSUb8fZoA/BU5QFnvxzntQIfNUfFbzEJojvG0gpjz+twQhAz+8xTOK50xal3a3XDNkOVCA==.sig.ed25519"
+  "signature": "WaR42YRQx0G5vhRsbTAPQN1BthrSj6+goEdI3aJ6GFfzTPqxJ9ikMLK70RkB/r0l/fYwgPUsCcLq4XN76HF5Cg==.sig.ed25519"
 }
