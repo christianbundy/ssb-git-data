@@ -1,21 +1,17 @@
 {
-  "previous": "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256",
-  "sequence": 12238,
+  "previous": "%08B7DusLOMldttgT3LQBjU8CcUetK4zLzJSFoaW1qIA=.sha256",
+  "sequence": 12239,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567786088954,
+  "timestamp": 1567790868461,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256",
-    "branch": "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256",
-    "reply": {
-      "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-      "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "links!\n\n- https://cr.yp.to/immhf/thread.html\n- https://tools.ietf.org/html/rfc822#section-4.6.1\n- https://tools.ietf.org/html/rfc822#section-4.6.2",
-    "mentions": []
+    "type": "vote",
+    "channel": "music-discovery",
+    "vote": {
+      "link": "%Jnepiou6sZhcik7f+PyiArpi4Mu8B6UDsoWuUwjp6wc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "APQIFrzLLFcOgHLpYQOUENzng+ciWEZyKA4MphrPaoW3c/VyseoBM5WDN1iFkCDpzJL8sJs557bslEDmJ/KcAw==.sig.ed25519"
+  "signature": "JsWgdmoqEzx/vIW6iF2Tg92aLkyw2XZHKgeicud8UcQrrW5jSYCdwV2L5clXmY0X5aolZGuwtAUAcESeneLCDQ==.sig.ed25519"
 }
