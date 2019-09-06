@@ -1,25 +1,21 @@
 {
-  "previous": "%4Ot712D91QF4Qy+NtIJ6FbIYJIj3R8RZNQbPBQO5zfs=.sha256",
-  "sequence": 12237,
+  "previous": "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256",
+  "sequence": 12238,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567785925790,
+  "timestamp": 1567786088954,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256",
-    "branch": "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256",
+    "branch": "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256",
     "reply": {
-      "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+      "%ySMMj3+OZQZn7hoH37B+DOVz9CsO0C5YRGq3dgdChyc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+      "%q5HS2Q1woVK1b8UHAIDFB/m7rKn1wzR3EJMkZcDTeYE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\n\nI'm not an expert, but I think the envelope can have `Message-ID:` and `In-Reply-To:` properties that you use to identify a which message you're replying to. For example:\n\n```\nIn-Reply-To: <d4436bce-fd8b-484d-8aaf-a8a219818006@www.fastmail.com>\nSubject: RE: Research Invitation: Testing Research Software\nDate: Tue, 27 Aug 2019 22:58:17 +0200\nMessage-ID: <006d01d55d1c$eb922a70$c2b67f50$@icon.co.za>\n```",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ]
+    "text": "links!\n\n- https://cr.yp.to/immhf/thread.html\n- https://tools.ietf.org/html/rfc822#section-4.6.1\n- https://tools.ietf.org/html/rfc822#section-4.6.2",
+    "mentions": []
   },
-  "signature": "8AICZ3xBnvGQKyYHXl6l92EP9MPTIO3kk9u0tYZhOv6bKOIu9+6QoFdcKsXApGi1QmUq7c27z63E2PiNL/j0AQ==.sig.ed25519"
+  "signature": "APQIFrzLLFcOgHLpYQOUENzng+ciWEZyKA4MphrPaoW3c/VyseoBM5WDN1iFkCDpzJL8sJs557bslEDmJ/KcAw==.sig.ed25519"
 }
