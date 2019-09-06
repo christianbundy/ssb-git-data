@@ -1,16 +1,26 @@
 {
-  "previous": "%G8nQajKHjzYLFh+2Jyk1x3QxesQhBGCbzei0g0gHb2I=.sha256",
-  "sequence": 12232,
+  "previous": "%FiexzX/SAboJujP/I0Q86oEGSAgFzFXzC9HDxdiDoNc=.sha256",
+  "sequence": 12233,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567782681498,
+  "timestamp": 1567784852656,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%OdN+ilFuE+UeNb/Dn8Vb3eo+YfTonB/j6ynE7xB0Kxc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%twV0F6W7602sliyWtB7mQ1Oy0rE2T1UQwa58uq5B3WY=.sha256",
+    "fork": "%OdN+ilFuE+UeNb/Dn8Vb3eo+YfTonB/j6ynE7xB0Kxc=.sha256",
+    "branch": "%twV0F6W7602sliyWtB7mQ1Oy0rE2T1UQwa58uq5B3WY=.sha256",
+    "reply": {
+      "%twV0F6W7602sliyWtB7mQ1Oy0rE2T1UQwa58uq5B3WY=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nDo you host issues and such on sourcehut as well? I always try to click builds/todo/lists but it always asks me to log in first. I might just be spoiled by having everything public on GitHub/GitLab, but I've had a hard time wrapping my head around how I can check out bug reports and discussions for a sourcehut project.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "zWU0aaZz36YiRPanKvTSkj+3/Fvp6gbYSOU0uuqUJs6FxeRLouYkQ2mqoKVtOHrg+TWnFuV/4jB9xoNMNQtHBw==.sig.ed25519"
+  "signature": "JqO5T+PMay7SxCE5l+EBO2fIz3lGts7FESGwDKL32gGpz6UlLwgoH8HMWEEmfqMda/6rUyZIYJ6W4b+b1R7PBQ==.sig.ed25519"
 }
