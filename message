@@ -1,17 +1,21 @@
 {
-  "previous": "%aggFh+er3QRFN6muC0XtCsNLEXwj2vDEDr+uP10AwHw=.sha256",
-  "sequence": 12229,
+  "previous": "%Kez6ArZQ8B5mQ+fFy+MdIRdtK3vVgIzfdtGGvs7y0qw=.sha256",
+  "sequence": 12230,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567733403924,
+  "timestamp": 1567742793947,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "am-i-forked",
-    "vote": {
-      "link": "%+jQ7CrpeAecoewoUSI0xrpALlpfsiKucHiWQdXB6rhI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%4aLpjo4JVWis/cbn7xca0R8Bxy1Dmz3Kh43kBfD2Va8=.sha256",
+    "fork": "%6a2FQ4J1aCwVGyU2ROQPXfsyrZQhsa2tQ9nJYg262Qk=.sha256",
+    "branch": "%4aLpjo4JVWis/cbn7xca0R8Bxy1Dmz3Kh43kBfD2Va8=.sha256",
+    "reply": {
+      "%4aLpjo4JVWis/cbn7xca0R8Bxy1Dmz3Kh43kBfD2Va8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "...or maybe [email](https://begriffs.com/posts/2018-06-05-mailing-list-vs-github.html)?",
+    "mentions": []
   },
-  "signature": "D9/3dpJ3DDlP5suXxvLad74Kamez3pzD6hhTY1RkIlKiwTip+PtufrEKmHuL7ZJgKUFPgKqfN7/MvRBhA5c3CA==.sig.ed25519"
+  "signature": "dxTRxDFgFzHAM0Rp5awSmwzrRmrSVbDC3C+vmmShjONfstXoJfQf+jEtZ+yszGIrCpk2K4qZO8BUbu4jiGNCDw==.sig.ed25519"
 }
