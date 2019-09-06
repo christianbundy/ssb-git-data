@@ -1,17 +1,25 @@
 {
-  "previous": "%08B7DusLOMldttgT3LQBjU8CcUetK4zLzJSFoaW1qIA=.sha256",
-  "sequence": 12239,
+  "previous": "%rt1G40jfImhnAGngIIA4OcVeFRg9L8aYOldsjlan6sU=.sha256",
+  "sequence": 12240,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567790868461,
+  "timestamp": 1567790888739,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%Jnepiou6sZhcik7f+PyiArpi4Mu8B6UDsoWuUwjp6wc=.sha256",
+    "branch": "%Jnepiou6sZhcik7f+PyiArpi4Mu8B6UDsoWuUwjp6wc=.sha256",
+    "reply": {
+      "%Jnepiou6sZhcik7f+PyiArpi4Mu8B6UDsoWuUwjp6wc=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
     "channel": "music-discovery",
-    "vote": {
-      "link": "%Jnepiou6sZhcik7f+PyiArpi4Mu8B6UDsoWuUwjp6wc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "cc: [@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "kathleen"
+      }
+    ]
   },
-  "signature": "JsWgdmoqEzx/vIW6iF2Tg92aLkyw2XZHKgeicud8UcQrrW5jSYCdwV2L5clXmY0X5aolZGuwtAUAcESeneLCDQ==.sig.ed25519"
+  "signature": "jo4k6/cu8cbKD9DwRc/ILzeQDVmLDN0KlSuuSctcM5hO9ZrJP6Z9+ucUE3C/rXvOked750Q+nDmfVkVLDp7FAw==.sig.ed25519"
 }
