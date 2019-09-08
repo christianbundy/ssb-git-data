@@ -1,16 +1,26 @@
 {
-  "previous": "%x3GIIO8QF5yLNj/5502YF0zir/UEHZQkO2Qb4xnK/r0=.sha256",
-  "sequence": 12248,
+  "previous": "%kVjxwsiqK9lzzQi9+vCt1huNmfED6EUREJ6+1rNazy0=.sha256",
+  "sequence": 12249,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567907902441,
+  "timestamp": 1567957297350,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XApPNDaLOtvF+FnMHJzgnnFdMFg61rZ3llcTrTruxCQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%1YUZUSjXS0swDW3jrVAUgG1gbyCKynascHkpMRGJJHM=.sha256",
+    "branch": "%Rt2/tgDxM0I+tvykyVOoxWtlrkIN/s8gOXKLDCQt0Ko=.sha256",
+    "reply": {
+      "%1YUZUSjXS0swDW3jrVAUgG1gbyCKynascHkpMRGJJHM=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+      "%Rt2/tgDxM0I+tvykyVOoxWtlrkIN/s8gOXKLDCQt0Ko=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nAre there any errors? In the past it usually says *something* when a view gets corrupted.\n\nI'd disable all SSB servers and then run:\n\n```shell\nfind ~/.ssb/flume/ -mindepth 1 -maxdepth 1 -not -name 'log.offset' -ok rm -rf {} \\;\n```\n\nThis will prompt you to delete each file in `~/.ssb/`, if you type `y` it will delete and if you type `n` it will leave it alone. It will *not* delete `log.offset`, only the views. When you start a client (Patchwork?) it should start indexing and recreating all of the views again.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
   },
-  "signature": "EVxD5bUaIHschLxYiiwNXpkLzyKlcffhYMPVtH0jxyrWR1n5f8MmfpgpnJWW4Kfkc3yONb5S/l0A4yfUJkibBg==.sig.ed25519"
+  "signature": "KvSbHvtSgs2LjYy3vmZk5y8FZgX1I+uQR6zSo28sw+9jDOcUr8He31QuZJdjioWr9cl3iH5DoBDqM/+hSjMyDg==.sig.ed25519"
 }
