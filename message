@@ -1,16 +1,25 @@
 {
-  "previous": "%oeSvHDmoXw1/PxOVAfLk5HmlG/U5JT7QNb+fueVF5VA=.sha256",
-  "sequence": 12250,
+  "previous": "%QbBKzmNO3N1vbRwfdnsiY1i6p9VnwtmOWifRIwJbWfo=.sha256",
+  "sequence": 12251,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567959523451,
+  "timestamp": 1567959551269,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ysGngaNhL52xLACo+9JWlujTZnY5wguxe7GGbvZGxQI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ysGngaNhL52xLACo+9JWlujTZnY5wguxe7GGbvZGxQI=.sha256",
+    "branch": "%ysGngaNhL52xLACo+9JWlujTZnY5wguxe7GGbvZGxQI=.sha256",
+    "reply": {
+      "%ysGngaNhL52xLACo+9JWlujTZnY5wguxe7GGbvZGxQI=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nthis is cool! I've been meaning to upgrade my email setup as well. Do you a mobile phone for email as well?",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
   },
-  "signature": "TTIWLgZSd5950IUeIcxeI8R3i9Kmg6cplVtVskyYi+Gi4rW5aeh+qqwX8Fps9brhZj2CwMYbWj8zFV4mwkPUBA==.sig.ed25519"
+  "signature": "qvKkVGgRsEP+n8kRW/MriqYq4Lq13CMxV5oIGHM7U3IbI1GegVL84+LHI8CqTfji0cGi+s16ExZc88eFSzf6Dg==.sig.ed25519"
 }
