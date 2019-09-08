@@ -1,26 +1,17 @@
 {
-  "previous": "%+jZ99W5avXbQhi+QWz8Ib+LqcPJfaSUcpLf5yhxKKfM=.sha256",
-  "sequence": 12245,
+  "previous": "%Zluc15RWMryS9Z87igbHznP3zBu+BQq+JbIRe+5VC4w=.sha256",
+  "sequence": 12246,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567798880016,
+  "timestamp": 1567901052694,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%bf9aVnAkkuqmF1qyFQmYzqfHSXr9LxFEg4Z7Huy3PUU=.sha256",
-    "fork": "%vSojj6ls3UbrvLfusMq9wGuPtvDqj8DKWl4z8MCwrOY=.sha256",
-    "branch": "%bf9aVnAkkuqmF1qyFQmYzqfHSXr9LxFEg4Z7Huy3PUU=.sha256",
-    "reply": {
-      "%bf9aVnAkkuqmF1qyFQmYzqfHSXr9LxFEg4Z7Huy3PUU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nAssuming yes:\n\n> doesn’t that encourage a company that wants to build sth using ssb to buy one version, then keep that version fixed?\n\nI'd like to align incentives so that companies fund maintenance and development on an ongoing basis rather than buying a new version every time there's a feature or bugfix they care about. Selling *only* individual versions means that companies have old software and are often behind on their updates, and selling *only* subscriptions means that companies can just subscribe when there's a new release and then immediately unsubscribe.\n\nMaybe a better way to do it: companies can buy a permissive license, which costs $100 / month for *minimum* 1 year and includes all of the new releases while your subscription is active. At the end of the year you still retain the licenses, but you don't have access to new releases unless you renew for another year.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ]
+    "type": "vote",
+    "channel": "cabal",
+    "vote": {
+      "link": "%8R+HK6yk6NOSAXWzKNMME8ZvRedsuwxZsSzwpJAElfs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RYG81BgqR6XH8st8zw7SdPnsT/tClwdM9Ue9PV4BZ2MoEpv/tDGVskhPkS2gjLR6QPO1w9MKXbkF1jv2eRKzDA==.sig.ed25519"
+  "signature": "Xm2U74T+bQzuRPIEdzM5+NoXnufNaniRrqXaJyfvEbEL8QOjBRANTCSiBVzPasJz20+LPXs+D2l3fzbWKNb9Cg==.sig.ed25519"
 }
