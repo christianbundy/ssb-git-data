@@ -1,17 +1,26 @@
 {
-  "previous": "%hA/SuNveQxijqe8o4s5s0kFdnIsjiDgH/ez90+p6TaU=.sha256",
-  "sequence": 12262,
+  "previous": "%KqlSi0ySTQLXBX7BKxqJ5+nJSYDze2Rkw8NL3oFPCjE=.sha256",
+  "sequence": 12263,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568063622757,
+  "timestamp": 1568064025427,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%CywUtRL9bk6Tbg5+dcwjql1lkfy3YC8DtUE8jxfPyho=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%GsVa9a/pkfmAR6FYda72rJ4xTaATtSAf8C/Du6P3Wcc=.sha256",
+    "fork": "%B7YPWDSUq3+0Z98mAvNiUmpIEB8FU2dLG1113HrKpEc=.sha256",
+    "branch": "%GsVa9a/pkfmAR6FYda72rJ4xTaATtSAf8C/Du6P3Wcc=.sha256",
+    "reply": {
+      "%GsVa9a/pkfmAR6FYda72rJ4xTaATtSAf8C/Du6P3Wcc=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": "react-native",
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nAny chance you did this in an automated fashion? Patchwork has [lots of depject](https://github.com/ssbc/patchwork/tree/master/lib/depject) and I've been struggling hard trying to rip it out and replace it with `require()`.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "+NJLWSIMAHTZq5LK08MDpHNrp/hDr0t3wiNOdrkoHV3NHrTGdXYaoTsboQk1bhG/0B0Vx5gvE79z+/Voy+d4DQ==.sig.ed25519"
+  "signature": "PLlmD0IhR3vcDjOFLVtysCXwpFbrldyCR+EpV/xkbZWcLHeOoL3ghEVhUlDgq0dvhkitRh7Ji+nde2B9v32fCg==.sig.ed25519"
 }
