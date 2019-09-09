@@ -1,27 +1,17 @@
 {
-  "previous": "%JTt9MxmeYodJK9qRA1ObpPLmM7ytf4g2RxGmU5KUlC0=.sha256",
-  "sequence": 12253,
+  "previous": "%zX+vFLe2GHra929JBvLraQ5zWnaIZW0NS8jRNKy9RHo=.sha256",
+  "sequence": 12254,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1567984603612,
+  "timestamp": 1568045376543,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%4RBSY5tZPt8nCgIvjL03N3uzYBR8NbCVwnMn3YPu0yM=.sha256",
-    "fork": "%MjquRpkMa7bNmkEbZfV9UU0k2CpOt8WINSR63AejQPY=.sha256",
-    "branch": "%sVe7B+ll2x7NumFUVOqRCLd47j8BOS+6Kkc8CFyfs4g=.sha256",
-    "reply": {
-      "%4RBSY5tZPt8nCgIvjL03N3uzYBR8NbCVwnMn3YPu0yM=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-      "%sVe7B+ll2x7NumFUVOqRCLd47j8BOS+6Kkc8CFyfs4g=.sha256": "@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519"
-    },
-    "channel": "unix",
-    "recps": null,
-    "text": "[@martin ➬](@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519)\n\nAside: how does that work with pipes?\n\nFor example, I know that `exec echo hello`  will print hello and then kill the shell process that started it, but I'm not sure how that works with `exec echo hello | grep h' or `exec echo hello | exec h`. I've tried a few combinations of `exec` with pipes in a few different shells and I can't seem to get it to end the shell process. I can't find any documentation on sh/bash/zsh, but the fish manpage says:\n\n> exec replaces the currently running shell with a new command. On successful completion, exec never returns. exec cannot be used inside a pipeline.\n\nI learned a thing!",
-    "mentions": [
-      {
-        "link": "@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519",
-        "name": "martin ➬"
-      }
-    ]
+    "type": "vote",
+    "channel": "funding",
+    "vote": {
+      "link": "%MC8+JdDVijmVPwcHG6wrvyBjeRkPbT3ZjFZ5GMZb8Us=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "zrFD37tbVwsOSQ3BAm+flomQ7U4ThihAwlMIMq46X//6FfpKhfno8lCBFDKY3/MIdl1EV+scrBoZY0JUniH7Aw==.sig.ed25519"
+  "signature": "C9uZxyiyMbMYBlQAr0EXG/C9512Do7n/Z2dj6qmh+ppUqzrZlusasw5QhAULVIOWykAsh9ZGSqDNObeCThI5Aw==.sig.ed25519"
 }
