@@ -1,26 +1,17 @@
 {
-  "previous": "%LrQ6d/wlbGziKYzah4jmjuxaeWnChKpuxxmkkt1Ci5o=.sha256",
-  "sequence": 12269,
+  "previous": "%6wiDQsxhnICzCt+dHPC2Hf+Z0FjNMykaIUaWtelP+S8=.sha256",
+  "sequence": 12270,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568134245824,
+  "timestamp": 1568134267108,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%Xo+aqGVfCC/DRTE5kfNAHCiFPdN4G6dpfZ1ppfNBsPM=.sha256",
-    "branch": "%JmTZ65cO3QToHzbIoECXcZAUtCLoU69KwyVgO4OwdUM=.sha256",
-    "reply": {
-      "%Xo+aqGVfCC/DRTE5kfNAHCiFPdN4G6dpfZ1ppfNBsPM=.sha256": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
-      "%JmTZ65cO3QToHzbIoECXcZAUtCLoU69KwyVgO4OwdUM=.sha256": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519) \n\nNo problem! If you get bored and want to explain what happened, it might be useful to get some other eyes on the problem. I'm still *very* confused at the behavior that we saw and would love to come up with an explanation.",
-    "mentions": [
-      {
-        "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
-        "name": "squicc"
-      }
-    ]
+    "type": "vote",
+    "channel": "new-people",
+    "vote": {
+      "link": "%BpEZ5XFYKH1ByUAEW9hkTpVjbFBSO/dqHEoJP1xCo0k=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "s9ty62fQMGZSQRJFyUQbDI4K3HOJKOoV0cbwonwGiUSHs4+pye54qdAKzDRN6Bfvn5KKLDQie/Yd2CLS4WD/DA==.sig.ed25519"
+  "signature": "nZFlT2kKqY+6a+d4uhN2iR+OIQwob1vFvMBryYMlloImNmXmq0rsDNcf/g+an7fWetTiE6VrV10nP3KWFcXjCA==.sig.ed25519"
 }
