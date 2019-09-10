@@ -1,20 +1,21 @@
 {
-  "previous": "%Vvb2pvOVoX+/elrdfwkU9wz5auYTYXiXBDmhlhU5cpA=.sha256",
-  "sequence": 12275,
+  "previous": "%hnlDDgK1HB7zT39caj1PqFZWfCOTqvi9IJXwmQjkI2s=.sha256",
+  "sequence": 12276,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568144246631,
+  "timestamp": 1568145084879,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256",
-    "branch": "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256",
+    "branch": "%I6VS+MUZ7D9o8s9HElTWV2aJNQ8FNNGqygWwl6MSxV0=.sha256",
     "reply": {
-      "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+      "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+      "%I6VS+MUZ7D9o8s9HElTWV2aJNQ8FNNGqygWwl6MSxV0=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "I'd imagine that this is probably a security thing so that you can't connect to `localhost` or `database.local` or something, but *still*, that's a very silly error.",
+    "text": "It's more common than you'd think. Even big projects like OpenSSL fall behind the latest standards. The Diffie-Hellman params had been out-of-date for 18 years (!?) before [this PR](https://github.com/openssl/openssl/pull/775). I can't even imagine how much outdated \"standards compliant\" code exists in proprietary codebases. 😱 Trying to stay up-to-date on all of the relevant standards is a full-time job.",
     "mentions": []
   },
-  "signature": "bZBmjjvY2ZVTzg71pwZyBIHgon4ylnKqFXRvceR+W+rgGjyiVHz4gT5N5VwF2oS0o137zkd/579XLqtIYXu7Bw==.sig.ed25519"
+  "signature": "2ouYTyt6qUAOv44azRZ3/Gd6LJ1dOXVDh+L2r0wYJ/zjjjYD4aCKpx2WQHJ5jWZorJ1r7mNGfIPaTAZT2j1lBg==.sig.ed25519"
 }
