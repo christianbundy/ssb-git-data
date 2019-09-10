@@ -1,35 +1,17 @@
 {
-  "previous": "%wMh3it708okL6iPhaRBAkjngJyh9kOZkTFBEl1nJ4oU=.sha256",
-  "sequence": 12272,
+  "previous": "%8Ews2tGZ2IjXnrdqXEJx4iCHvSh8fgwVoY2Y+RdDe78=.sha256",
+  "sequence": 12273,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568134326425,
+  "timestamp": 1568136946566,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%DYaEPb+UyaCrfTLwjHLp3kns+r3ucfvkGczOLw1qPkk=.sha256",
-    "branch": "%DYaEPb+UyaCrfTLwjHLp3kns+r3ucfvkGczOLw1qPkk=.sha256",
-    "reply": {
-      "%DYaEPb+UyaCrfTLwjHLp3kns+r3ucfvkGczOLw1qPkk=.sha256": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519"
-    },
+    "type": "vote",
     "channel": "communitycurrency",
-    "recps": null,
-    "text": "Hey [@gmarcos87](@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519)!\n\nHave you seen #mutual-credit or #ssb-gift? I think [@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) was also working on a ledger on SSB (maybe?).",
-    "mentions": [
-      {
-        "link": "@RmClT86x/o66QdW1dqAfj5Jek4qxUf8rtmvAlhZeZFg=.ed25519",
-        "name": "gmarcos87"
-      },
-      {
-        "link": "#mutual-credit"
-      },
-      {
-        "link": "#ssb-gift"
-      },
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ]
+    "vote": {
+      "link": "%fJvI1Shax6qcoy9ypJokDflQHe+wUm7aMmNhFl8H+PQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "JzOfMXSkUkqW0mAk/hTA7FQGRJCMob5Cpe5lSg0VNostb2KXPEnAox0/Q5VqLagtDT5UBxRxIkTyfUT+R1V7BQ==.sig.ed25519"
+  "signature": "KzXTuGpe4RKHIa150CsfiXS43p8kGwQqnt8vngS7ZImXWIMZnm2TARCDDmbWyDof+rI2XOB8LzJOe61u6svaAA==.sig.ed25519"
 }
