@@ -1,16 +1,26 @@
 {
-  "previous": "%smRbu4Y+VEArNA+v7xrMMJaMrga2pjEQPz0jq1Cg1RM=.sha256",
-  "sequence": 12267,
+  "previous": "%EB0mC6qiXiCWRDA6v2Ctet8CNKVQUlDfKzD2Wnr6e0c=.sha256",
+  "sequence": 12268,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568082357475,
+  "timestamp": 1568134129759,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eu0bYypCBG2DH7da62SmkLVyavtRwVbMtk4ngGkFhoQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%hh1CLh0BT6XjO91uMxVqoLoAAPdfMPGbdKVU7VAl+1w=.sha256",
+    "branch": "%Df+nVsWhUiUZHyuDYrTaFUWRkKDEhS/trjnmpvHGo3k=.sha256",
+    "reply": {
+      "%hh1CLh0BT6XjO91uMxVqoLoAAPdfMPGbdKVU7VAl+1w=.sha256": "@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519",
+      "%Df+nVsWhUiUZHyuDYrTaFUWRkKDEhS/trjnmpvHGo3k=.sha256": "@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519"
+    },
+    "channel": "keybase",
+    "recps": null,
+    "text": "[@sentamalin 🖥️](@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519) \n\nYep. Stellar uses a global ledger that requires internet access, and spam is prevented by requiring XLM (the token minted by Stellar) to make transactions. A similar system in SSB would use our feeds as ledgers, and spam would be prevented by only following people that you trust.\n\nThe BEER token, for example, would only be redeemable by the person who minted it *or* by:\n\n- someone who has a BEER debt to the person who minted it\n- someone who is comfortable lending BEER to the person who minted it",
+    "mentions": [
+      {
+        "link": "@ONFJa2sEtv9lHgH9LhwnfAr+JX9nUK0JuIzjnCVFRH0=.ed25519",
+        "name": "sentamalin 🖥️"
+      }
+    ]
   },
-  "signature": "a1wYFqJMbDRPdjr2k/mvVWBEt7dw03H39y9IRQcr90r2jCL3utWAM1IxgYL/njxdxDcEqsX0ML18Ms5xJcxjCw==.sig.ed25519"
+  "signature": "DcVy2FaR4LAHCkmQdYqw+CxPrRV/vLMETcpSSHu8p7I6ZRXnKk9DCCj7HCNnwMpMctvyshXkR0Z6YMJBTCczAA==.sig.ed25519"
 }
