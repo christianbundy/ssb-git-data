@@ -1,16 +1,20 @@
 {
-  "previous": "%0PNhkHluUuhXrxbBMKBr7nqcZ0TkkWYPSubfpNHwsV4=.sha256",
-  "sequence": 12274,
+  "previous": "%Vvb2pvOVoX+/elrdfwkU9wz5auYTYXiXBDmhlhU5cpA=.sha256",
+  "sequence": 12275,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568144004072,
+  "timestamp": 1568144246631,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256",
+    "branch": "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256",
+    "reply": {
+      "%rkuZ4TOvESAECetAbYXcJNDaC4mvV2B1uMjdDTyEodQ=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I'd imagine that this is probably a security thing so that you can't connect to `localhost` or `database.local` or something, but *still*, that's a very silly error.",
+    "mentions": []
   },
-  "signature": "2Emp4+sBUD+bzSEiyn3chEdE+pKkBIm/CJ0Dz0kI8IAE/RhFicIcaxluuDfe7vW8ZfUntkf7ATPGche2Gn4nBQ==.sig.ed25519"
+  "signature": "bZBmjjvY2ZVTzg71pwZyBIHgon4ylnKqFXRvceR+W+rgGjyiVHz4gT5N5VwF2oS0o137zkd/579XLqtIYXu7Bw==.sig.ed25519"
 }
