@@ -1,17 +1,21 @@
 {
-  "previous": "%Q+9NOxsGqkT1DztrNt4MzJXPyNFdZSup7QqvaoO35hI=.sha256",
-  "sequence": 12305,
+  "previous": "%EkljqNdO59cx2DSPIgPr5h669P3qtCNCbhzOfhadsVs=.sha256",
+  "sequence": 12306,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568244035621,
+  "timestamp": 1568244044421,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%af6piQxnnfEKDegzNqb+Ka/q3DmpndZn3sDpWOsq1ug=.sha256",
+    "branch": "%1/wlkz/AIb9FQNyRx9xi6Le90l+GwSmCLg9xEqHx1rA=.sha256",
+    "reply": {
+      "%af6piQxnnfEKDegzNqb+Ka/q3DmpndZn3sDpWOsq1ug=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+      "%1/wlkz/AIb9FQNyRx9xi6Le90l+GwSmCLg9xEqHx1rA=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
     "channel": "patchfox",
-    "vote": {
-      "link": "%1/wlkz/AIb9FQNyRx9xi6Le90l+GwSmCLg9xEqHx1rA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "very augmented",
+    "mentions": []
   },
-  "signature": "9BTEB7qNFFpMe0257RVmeZf7LZS8acNfoM5bsxO6PMiVToTlOMoZCEdJ7tVLUWZg4BegeRgUdNegUEtAxQGcCA==.sig.ed25519"
+  "signature": "+SzyYceLIvB0+/o+AV3iR72FXqAnn1g54l7wpMZmrmXgPylm6wA5E0+DdnBGx62I31H+LUvqILQ830nARZZkAg==.sig.ed25519"
 }
