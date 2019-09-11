@@ -1,17 +1,26 @@
 {
-  "previous": "%hWZuC030Auhu9TSGQtca6Z3Kt3dz2amBgqkewl6kcVE=.sha256",
-  "sequence": 12282,
+  "previous": "%Fg8uhdpl76u3CV+q9VBk1W5o1ANrSZ0oAUHUwPlRK4I=.sha256",
+  "sequence": 12283,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568221675620,
+  "timestamp": 1568221749780,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "unix",
-    "vote": {
-      "link": "%iaQ9lVorpdNGBn3UOAZlMa5hFY7LCq9RpCmM8St3Y04=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
+    "branch": "%872XLKHSjuDxvTEjvllmdATtgwCxt97PJ/9fIQlzDu0=.sha256",
+    "reply": {
+      "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%872XLKHSjuDxvTEjvllmdATtgwCxt97PJ/9fIQlzDu0=.sha256": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "cc: [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519), would love help using `pkg` on the SSB stack if you know the magic recipe",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "XxXXlUV1RTknM1yyYuUKMlO/b3dvUnugIM/Njd9zuAsvyjNHXtiDQSKHe/ep4+xP24ZNgex9GguZjN2R9jvVAQ==.sig.ed25519"
+  "signature": "omg8Xw3KpivZqLUJw4Mk+2sjcacD4131aMeqruW8Aw+CZUfmiH32/eEq3e/hrG3g211s/0c4Kai7ghZgjgVPCw==.sig.ed25519"
 }
