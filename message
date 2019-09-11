@@ -1,16 +1,26 @@
 {
-  "previous": "%n41McJDeVkDwuVbzf+1NybokYPuojglTxhDJc5bhKOs=.sha256",
-  "sequence": 12286,
+  "previous": "%t5ZlvDdcXq5LyxVgXSEkpm+OZkbjbYwunQofwPqu0ZA=.sha256",
+  "sequence": 12287,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568221772322,
+  "timestamp": 1568221799545,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kquOpAfJEdEYg+W2lXWrRntazk8FQpEB4DmwhYTWqbQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%ebfKMZQkvv3FHx5W/BG5ARCmN3OSzn1mvQbuHDvhnQQ=.sha256",
+    "branch": "%uL10TFj4io1qS08jsOqJOXrQUvXi1N5uUIEMJIGOXCA=.sha256",
+    "reply": {
+      "%ebfKMZQkvv3FHx5W/BG5ARCmN3OSzn1mvQbuHDvhnQQ=.sha256": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
+      "%uL10TFj4io1qS08jsOqJOXrQUvXi1N5uUIEMJIGOXCA=.sha256": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Matt Lorentz](@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519)\n\nThis is a beautiful thread, thanks for posting these photos! ",
+    "mentions": [
+      {
+        "link": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
+        "name": "Matt Lorentz"
+      }
+    ]
   },
-  "signature": "9XUFFxSFNeGnWrb9pFI1HiSPaU5rzqGBGth1DchHW2ETIh1Leid3O/OXoAHVkhLaWhJ7WABDvre4ORfG1QRPDA==.sig.ed25519"
+  "signature": "u+4hW/CWTpsu/A1E4AJFAw9B2ZzR7lR2paDgbUy2BGz7OKaSWdh6qDmzxLIyTO2ivxfl8+TRv2UsqSvCYU8cAQ==.sig.ed25519"
 }
