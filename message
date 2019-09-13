@@ -1,16 +1,21 @@
 {
-  "previous": "%ttViyt2RTB1NJpDzpdIxL2Y5NI7BVDGWZDpPslYRj/s=.sha256",
-  "sequence": 12316,
+  "previous": "%imDtPXmWsBslfoeJdSUFjPvg9PKbG3H9zx+RPL5agGc=.sha256",
+  "sequence": 12317,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568394734346,
+  "timestamp": 1568397757332,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YU++vcAVFlQeNWfhxCaGFoZw5nitpsxWASf7MUC9Xak=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%5wudeffjNNyrQCsgT5DDYZnzbwkNpzZ6WqsqInWOSg8=.sha256",
+    "branch": "%vvnc8/SJl0AUswAM8JnIDKmZUvPSUZufZ7enwtz5WiM=.sha256",
+    "reply": {
+      "%5wudeffjNNyrQCsgT5DDYZnzbwkNpzZ6WqsqInWOSg8=.sha256": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+      "%vvnc8/SJl0AUswAM8JnIDKmZUvPSUZufZ7enwtz5WiM=.sha256": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "^ I agree, FWIW. I'm comfortable changing the default but I don't think that we should disable the option to change it.",
+    "mentions": []
   },
-  "signature": "LwExajIn67E8BX1oyvumUlSrsk7ax1RiDgz+fSuBEzTfDNfH13cmKmTqhlWkMR2EzW5FgPo8pNcMvpohZQ6rAw==.sig.ed25519"
+  "signature": "V0rsXw+MZnzbI6PaiAH45yYd1Y/+WjCEwQ6dZFbGptAESm7HxJNy5HaAGsMch8NLBOfXyUalr1RGPmWWpVJGCQ==.sig.ed25519"
 }
