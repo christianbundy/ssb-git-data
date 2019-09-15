@@ -1,17 +1,26 @@
 {
-  "previous": "%xOdV3Lprtq1/lMlX9mI7rIbuBmO9qOqNRjKRa0ze7qc=.sha256",
-  "sequence": 12326,
+  "previous": "%lQmn71JIhJbrF4/dR1ZQCJBQWbpG4cKCfPoxk6BxsT8=.sha256",
+  "sequence": 12327,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568586790521,
+  "timestamp": 1568586838335,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%KkkofMLK/5Uywao+//mgqHJQXCxKLX8z1AuzWU+HCW8=.sha256",
+    "fork": "%vGkHO1UwuJgS24IC0tWF8ijBr5diG2mvqSfcCJ/mIjk=.sha256",
+    "branch": "%KkkofMLK/5Uywao+//mgqHJQXCxKLX8z1AuzWU+HCW8=.sha256",
+    "reply": {
+      "%KkkofMLK/5Uywao+//mgqHJQXCxKLX8z1AuzWU+HCW8=.sha256": "@cnLKkzXHWFfPa2c4N74pMKCpw6Gmp1vnydEF4qlZsTE=.ed25519"
+    },
     "channel": "current-events",
-    "vote": {
-      "link": "%lnoHOEvNpkK6WT6Hbe4avRZeI1wEAu3HBEpA0ftxjzQ=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Lando](@cnLKkzXHWFfPa2c4N74pMKCpw6Gmp1vnydEF4qlZsTE=.ed25519) \n\nYep! It's straight from [here](https://en.wikipedia.org/wiki/Portal:Current_events). Code available [here](https://gitlab.com/fraction/ssb-current-events).",
+    "mentions": [
+      {
+        "link": "@cnLKkzXHWFfPa2c4N74pMKCpw6Gmp1vnydEF4qlZsTE=.ed25519",
+        "name": "Lando"
+      }
+    ]
   },
-  "signature": "VNPtrjYFxyi+G0JeRsEpFu8FwKa5Z+JVjYohdz7geI7766oUzN5C1N5hRobHevPaMOQEMAJ93hjCRsBJp6aTBw==.sig.ed25519"
+  "signature": "zsz3WsTt60OHijeaBBwxQtWUr2H1evWGTL61qNf/H+wBhptYQHu+A3m0mBWu/FtLgsP3HCexaL6fafaSl6Q2Bg==.sig.ed25519"
 }
