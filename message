@@ -1,26 +1,17 @@
 {
-  "previous": "%oO6HVDR72CwkOZdbgaCZxziSllrylOdr9qDhTkKTLsI=.sha256",
-  "sequence": 12329,
+  "previous": "%MLY8Qhtwa0laUYfTXM07FIq6hkZDS0vVIJB93jzlGhg=.sha256",
+  "sequence": 12330,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568595933913,
+  "timestamp": 1568595936025,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%SIU7qPlHxt2nCa/E/P2PZzTkGJgkcKqpiKh/Y06dlwg=.sha256",
-    "branch": "%gKksxrnw692VcWIe/88iKIxx10xyaoycKPN9PoRc8g4=.sha256",
-    "reply": {
-      "%SIU7qPlHxt2nCa/E/P2PZzTkGJgkcKqpiKh/Y06dlwg=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%gKksxrnw692VcWIe/88iKIxx10xyaoycKPN9PoRc8g4=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
+    "type": "vote",
     "channel": "maintenance",
-    "recps": null,
-    "text": "I've actually been meaning to work on something like this, I've started adding little things (indexing progress) to Oasis but it's clear to me that we need more sophisticated tools for debugging *at least* the JavaScript stack. I'd love to see someone else take on this work, but if there isn't any interest I could probably help with this.\n\nRegarding requirements, building non-Electron and non-npm installers might be its own little subproject. I've sunk a decent amount of time into [solving this problem](%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256) and can't find many good solutions. \n\n> e.g. Vue.js (this would be my current strong preference)\n\nAny thoughts on just using HTTP and static HTML? 🙃",
-    "mentions": [
-      {
-        "link": "%MzQCXqyPXXyTr84/+utU4UXkWCsufpT48lcEgV89wYM=.sha256",
-        "name": "solving this problem"
-      }
-    ]
+    "vote": {
+      "link": "%SIU7qPlHxt2nCa/E/P2PZzTkGJgkcKqpiKh/Y06dlwg=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "LWY1X0b8jDBBZ1CJ6pihmCscPH4YEZNPBntyqbn/Inxz4gRpB5OZI85MRz0rOXRdI953oGrcMXdeWCJH/1LLDA==.sig.ed25519"
+  "signature": "rMyw4CjXSIVpHRaLsvIU9bMlslf401zWtvztmkbK8yzSVJUxEZKQ7ZGJjYL1VI9lJl/0Ui7aHOmTF+GDtq9QAw==.sig.ed25519"
 }
