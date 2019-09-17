@@ -1,15 +1,27 @@
 {
-  "previous": "%dXBnuRSjDwY8qqU0BrNNsTEg0M5j93GWs6m6o8urQhU=.sha256",
-  "sequence": 12333,
+  "previous": "%LhTma1A4kAaL46LiRFH8uZjKz8+NZ2Bn7piwH9AtHTs=.sha256",
+  "sequence": 12334,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568666017017,
+  "timestamp": 1568682257289,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%lnkzgu1h71h4a7zrU/BsrfDSjS3pgeVuEabuIcWcp8s=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%HtmwmQM53acObHBSUN8jD0OAjJLPwXHJQ0lUQlKa51A=.sha256",
+    "fork": "%SIU7qPlHxt2nCa/E/P2PZzTkGJgkcKqpiKh/Y06dlwg=.sha256",
+    "branch": "%pceA38rqIGn2PncmQbt7OdQdg0BlYXv1D90GIOMyUos=.sha256",
+    "reply": {
+      "%HtmwmQM53acObHBSUN8jD0OAjJLPwXHJQ0lUQlKa51A=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%pceA38rqIGn2PncmQbt7OdQdg0BlYXv1D90GIOMyUos=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": "maintenance",
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\n> I guess I’m experimenting with being more vanilla\n\nSame. I've been trying to explicitly list out any experiments that I'm doing [here](https://github.com/fraction/oasis/blob/master/docs/contributing.md). I've tried Swig, EJS, and finally Hyperaxe (basically hyperscript + hyperscript-helpers, though [you know that](https://twitter.com/whimful/status/964990550922248193)), but I'd also like to stay as close to vanilla JS as possible -- at least the good parts. 🙃\n\nAnyway, big +1 on having a nice diagnostic tool, regardless of the framework / template syntax.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "1MS5ZIK6QZ1gKozZjw/iSRqvT4ih5lB/qDfrDQEFybq6PlOiWR25xnXdc0D4YAjoy8s/FigAVRf8v/dD24XNCg==.sig.ed25519"
+  "signature": "ykTsUAgVu70efNxxwI/LKdv7WShpGdXg9GYAd4J9taItaoFyo4RbSRuhG0bl4HAKwG3//GdCOH3XIRFcKUXUAQ==.sig.ed25519"
 }
