@@ -1,17 +1,33 @@
 {
-  "previous": "%IuNFG7ulY3yu/BzO1uN9TKidAAdO5E3iJ5Jy49IVU64=.sha256",
-  "sequence": 12340,
+  "previous": "%+5y9VfRKCXNusBtzEc1oPuh8BPw3MobN9spktsyV9z8=.sha256",
+  "sequence": 12341,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568737311980,
+  "timestamp": 1568740198860,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "new-people",
-    "vote": {
-      "link": "%6/VTJrmDXzLD86BJf/CUjV6WCoyHom1aXNTbTjmlfLo=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%8vZrVM4h4X2690J2oBFyEIRvOb3oY9bfLqe6/Jnb2hE=.sha256",
+    "fork": "%vFQ9rIZi2YrYg1/coCcx4EnBZ2FF5jKMQU23rO65zAI=.sha256",
+    "branch": "%8vZrVM4h4X2690J2oBFyEIRvOb3oY9bfLqe6/Jnb2hE=.sha256",
+    "reply": {
+      "%8vZrVM4h4X2690J2oBFyEIRvOb3oY9bfLqe6/Jnb2hE=.sha256": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519"
+    },
+    "channel": "maintenance",
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\n\nICYMI, you might dig [Hell.js](https://www.youtube.com/watch?v=Yx6k6WR8GRs)\n\npreviously: %EGRzh3EoA9uW8KxBNN8n2qP4VCq1XE7NwMgvottM/5g=.sha256  ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
+      },
+      {
+        "link": "%EGRzh3EoA9uW8KxBNN8n2qP4VCq1XE7NwMgvottM/5g=.sha256"
+      }
+    ]
   },
-  "signature": "V0/WwvZSVI7hS2AhLmasUcxFDpexxrOhNd1I+M0LXiPTrkVCf21B+EuS90/O28ZnVMuheGn4vteheb4KIiOWCg==.sig.ed25519"
+  "signature": "5QxTK6OSzB1F8meUWvb9wGxUl3xYwBVMq34K0w0UvXFf2Nh80YCIeCm/M0euAPd6HrO98Pd10X2TQUza1IGPCQ==.sig.ed25519"
 }
