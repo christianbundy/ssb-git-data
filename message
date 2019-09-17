@@ -1,15 +1,27 @@
 {
-  "previous": "%D/ARxqg9DNWccE8lZTK107osotED0NjACqg6S4X8wso=.sha256",
-  "sequence": 12344,
+  "previous": "%JQqxeoHQe84FB+hi4c32OTaENH6exf9HkKxtP679mxU=.sha256",
+  "sequence": 12345,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568742238627,
+  "timestamp": 1568747231552,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uTxlPbrZpVmOa7b9wJFLeiI8OYRW2fTLmaaHrLW2MSQ=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%HtmwmQM53acObHBSUN8jD0OAjJLPwXHJQ0lUQlKa51A=.sha256",
+    "fork": "%SIU7qPlHxt2nCa/E/P2PZzTkGJgkcKqpiKh/Y06dlwg=.sha256",
+    "branch": "%vFQ9rIZi2YrYg1/coCcx4EnBZ2FF5jKMQU23rO65zAI=.sha256",
+    "reply": {
+      "%HtmwmQM53acObHBSUN8jD0OAjJLPwXHJQ0lUQlKa51A=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%vFQ9rIZi2YrYg1/coCcx4EnBZ2FF5jKMQU23rO65zAI=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
+    "channel": "maintenance",
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nARE YOU READY FOR SOME **OPINIONS**?! HERE WE GO.\n\nNote: opinions in mirror are stronger than they appear. I'm artificially increasing my opinions to 11.\n\n## Framework hot take\n\n**Managing state in the browser should be avoided unless database access has a prohibitive constraint.**\n\nI'm only like 60% serious, but I'm a bit skeptical about how many hundreds of hours I've spent negotiating state between the database and the browser, *especially* when they're both running on the same machine under the same user.\n\nWhen the database is 2000 milliseconds away or your network speed is 1 KB/s *or* you have to pay for compute/networking then it makes sense to manage your state in the browser to minimize database access, but for local-first applications I'm beginning to wonder whether managing browser state is worth it.\n\n## Template hot take\n\n**HyperAxe is the best we've got for managing HTML in JavaScript.**\n\n```javascript\nconst { blink } = require('hyperaxe')\nblink('👀') // => <blink>👀</blink>\n```\n\nIt's ticks all the boxes:\n\n- ✔ valid JavaScript\n- ✔ only allows valid HTML\n- ✔ no unnecessary characters\n- ✔ you don't have to know any non-JS syntax\n\nMy only gripes:\n\n- ✘ If you use lots of tags then sometimes your imports start looking ugly.\n- ✘ The name \"hyperaxe\" isn't an English word (maybe hard for accessibility)\n- ✘ Not super battle-tested, but you could also do:\n\n    ```javascript\n    const { blink } = require('hyperscript-helpers')(require('hyperscript'))\n    ```\n\n## Wanted: more hot takes\n\nDo you have a hot take? Or a warm take that you can heat up? Please share your spicy brain thoughts with the class for ultimate yak-shedding and bike-painting. Minimum 10 years experience in Rust and fluency in both English and Lojban.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "iAftKae3sL4JiJWNn9cY6oLD/8Q3o6mS5c+qORO+PNd7MmydHh7HXOeFkwE6ONj7i/AbrLpuNJH/Y0zq7XsZBA==.sig.ed25519"
+  "signature": "83TFgKAcbtAIGBI6MelgBG3HtdnU0coMJ03YPq2uX5fu9hz9C1ptWo4uXGi5PRqnv9GjbdeQP230pcj/90wYBg==.sig.ed25519"
 }
