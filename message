@@ -1,20 +1,26 @@
 {
-  "previous": "%kWBeosn2KInJYOmGzS8rmtO7B5HxZndTX+mkQrwivs4=.sha256",
-  "sequence": 12364,
+  "previous": "%mJXvJIB/g3q2mdso2DuLMOHiQkXUJ/MRfJR+4mNfEKQ=.sha256",
+  "sequence": 12365,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568930102279,
+  "timestamp": 1568931752493,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%oZJyC4Hxh1lPHK3xd1ThKDjRcFrGXrtfX7tXbopxzFM=.sha256",
-    "branch": "%oZJyC4Hxh1lPHK3xd1ThKDjRcFrGXrtfX7tXbopxzFM=.sha256",
-    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nThere's [ssb-identities](https://github.com/ssbc/ssb-identities), but it's very new and not used a ton [yet]. Is that the sort of thing you're looking for?",
+    "root": "%tYuhpWz3BCWIGdY0I5/yluBVQRVkp6kbRX1/looWNOs=.sha256",
+    "branch": "%tYuhpWz3BCWIGdY0I5/yluBVQRVkp6kbRX1/looWNOs=.sha256",
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nYeah, you may be interested in [scuttle-shell](https://github.com/ssbc/scuttle-shell) / #scuttle-shell. I don't think it manages identities, but the goal was / is to get it running in the system tray (assuming your OS has one).\r\n\r\nAlternatively, I'd be super open to doing this sort of thing in #oasis. If we went that direction it'd need to run in a web browser, but I don't [personally] think that's a bad thing.\r\n\r\nI think there are two major problems we'll run into:\r\n\r\n- If we go the ssb-identities route then it only works with software that's programmed to understand and use ssb-identities.\r\n- If we go deeper then we can switch out files and restart the server so that client software doesn't have to know about ssb-identities, but I think we'll have problems with unboxers and transforms since one identity might receive messages encrypted for another identity. There's a long post about this somewhere, but my search functionality isn't working very well. :~)",
     "mentions": [
       {
         "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
         "name": "Cameron Leslie"
+      },
+      {
+        "link": "#scuttle-shell"
+      },
+      {
+        "link": "#oasis"
       }
     ]
   },
-  "signature": "7MHfu2d9Dl6MUfBS57H61vKvvHnfW3kG9aEw7bm/K1xG0smKOnwLFdTBtS96ty+tP20bG1CcBRvbK8pW1aALDg==.sig.ed25519"
+  "signature": "Vp80GclVDte3oB0lsrTA8lu3zcI7n91AzLtYU0HnciPez48awq44cLKymeM5Td3f9CnDSMibTm6J2pJHBkfmCw==.sig.ed25519"
 }
