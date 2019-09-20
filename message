@@ -1,26 +1,15 @@
 {
-  "previous": "%mJXvJIB/g3q2mdso2DuLMOHiQkXUJ/MRfJR+4mNfEKQ=.sha256",
-  "sequence": 12365,
+  "previous": "%yzIkK8WD26XKxfWgVlSFB/hJapCaA8Mz0d6kcc6Dm1U=.sha256",
+  "sequence": 12366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1568931752493,
+  "timestamp": 1568994108297,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%tYuhpWz3BCWIGdY0I5/yluBVQRVkp6kbRX1/looWNOs=.sha256",
-    "branch": "%tYuhpWz3BCWIGdY0I5/yluBVQRVkp6kbRX1/looWNOs=.sha256",
-    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nYeah, you may be interested in [scuttle-shell](https://github.com/ssbc/scuttle-shell) / #scuttle-shell. I don't think it manages identities, but the goal was / is to get it running in the system tray (assuming your OS has one).\r\n\r\nAlternatively, I'd be super open to doing this sort of thing in #oasis. If we went that direction it'd need to run in a web browser, but I don't [personally] think that's a bad thing.\r\n\r\nI think there are two major problems we'll run into:\r\n\r\n- If we go the ssb-identities route then it only works with software that's programmed to understand and use ssb-identities.\r\n- If we go deeper then we can switch out files and restart the server so that client software doesn't have to know about ssb-identities, but I think we'll have problems with unboxers and transforms since one identity might receive messages encrypted for another identity. There's a long post about this somewhere, but my search functionality isn't working very well. :~)",
-    "mentions": [
-      {
-        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
-        "name": "Cameron Leslie"
-      },
-      {
-        "link": "#scuttle-shell"
-      },
-      {
-        "link": "#oasis"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%zRMi+HqiLlbDXs3VsCGb2iENngon8sWMqemDkN/0JzI=.sha256",
+      "value": 1
+    }
   },
-  "signature": "Vp80GclVDte3oB0lsrTA8lu3zcI7n91AzLtYU0HnciPez48awq44cLKymeM5Td3f9CnDSMibTm6J2pJHBkfmCw==.sig.ed25519"
+  "signature": "ieh0Vc7A4U5mq0CVanyO0iZP1WWBVpQD0DgMCczUe+3O0FMomQ5e4Ma/uu/OBh4/b5ZktplYswamKdiViJ6NAg==.sig.ed25519"
 }
