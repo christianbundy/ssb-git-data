@@ -1,16 +1,21 @@
 {
-  "previous": "%L8Npuj24tz3yky6niWQ02E6kMm0ElGk7XvVjcQY1H54=.sha256",
-  "sequence": 12375,
+  "previous": "%ppWezJbPFMY0cSJfnKEK4jMCn310qcC7o30KBLzTpQ8=.sha256",
+  "sequence": 12376,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569022962740,
+  "timestamp": 1569024152982,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0GE5lIBwbiTEIs8NSmr1ocV239z3sdczJBcukEmmke0=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PvTB9rS66giIFpylFA50xpu157Z8jBv1TbP+RD3fjMg=.sha256",
+    "branch": "%L8Npuj24tz3yky6niWQ02E6kMm0ElGk7XvVjcQY1H54=.sha256",
+    "reply": {
+      "%PvTB9rS66giIFpylFA50xpu157Z8jBv1TbP+RD3fjMg=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%L8Npuj24tz3yky6niWQ02E6kMm0ElGk7XvVjcQY1H54=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "(I just wrote a very bad time lapse of this. Warning, flashy colors: https://rough-vanilla.glitch.me/)",
+    "mentions": []
   },
-  "signature": "+aUnqBHD1C8m9kEtWwGAOTW7W2CTaMynKFTzwAhUfLJEXk3BjVS/c5jwzlpNgfhY7arA95VSNORxOo9NiSYNAg==.sig.ed25519"
+  "signature": "+6dAyQhwYaGKPagGSq4tTDmbXUFWaMpOAIPe/BdkH75E5JSkhRerD2jQ0mhmNSs1Lc7klM+tPA6CQBsbnVZpBQ==.sig.ed25519"
 }
