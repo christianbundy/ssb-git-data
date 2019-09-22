@@ -1,26 +1,16 @@
 {
-  "previous": "%gsX0vi31llV4NzPWeAuQVYT7ekrn9CFm17z8FqcwCUg=.sha256",
-  "sequence": 12382,
+  "previous": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
+  "sequence": 12383,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569094457612,
+  "timestamp": 1569116373056,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Has anyone investigated building something like Dat or SSB on top of Git?\n\nI've been spending lots of time thinking about tools like [git-bug](https://github.com/MichaelMure/git-bug), which just uses Git as a decentralized database, and while reading about the [data model](https://github.com/MichaelMure/git-bug/blob/master/doc/model.md) I realized that we could probably represent an SSB or Dat feed in a plain old Git repository.\n\nWe'd just need a few missing pieces:\n\n- **Data model:** The git-bug data might not be the best way to implement what we're all working on, but I like what I'm seeing so far. Maybe each feed would have its own branch, like `.git/refs/branch/<feed ID>`? Pulling new messages for a feed would be as simple as `git pull --all <feedId>`.\n- **Transport:** It's cool that HTTP(S), SSH, and FTP are options, but we'd probably like to use [git-remote-gittorrent](https://github.com/cjb/GitTorrent) / [git-remote-ipfs](https://github.com/cryptix/git-remote-ipfs/) / git-remote-muxrpc.\n- **Verification:** It's easy to verify signatures during a merge, but we'd probably want to verify signatures during a fetch instead. We might be able to squeeze this into the transport layer, but there's probably a not-totally-awful way to do this without any layer violations. Assuming the above data model, we'd probably like to enforce that each branch should only accept signatures from the corresponding public key. Maybe we add some rules to `git-verify-{pack,head,tag}`?\n- **Compatibility:** It'd be really nice for this to continue working with existing tools. I was able to get SSB-in-Dat working, where SSB messages were published in Dat archives (yay, double-signatures), and I'd imagine that Git support would work the same way. The SSB message JSON would be a ref, which would be referenced by a tree, which is referenced by a [signed] commit, but this is currently just hypothetical. The problem with doing SSB messages in Dat/Git is that you now have *two* opportunities to fork your feed.\n\nI'm sure I'm not the first to think about this, so I'd love thoughts and feelings about using Git rather than supporting our own stack. FWIW, I understand that this is absolutely ridiculous.\n\ncc: [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@Verinaut-00](@6vOf5g8NxePOF36E3XHJQOi23gA/pIBHbkDZ6t3fWZU=.ed25519)",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "@6vOf5g8NxePOF36E3XHJQOi23gA/pIBHbkDZ6t3fWZU=.ed25519",
-        "name": "Verinaut-00"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%Tn3PkMVjenLqGVPkbTcv5/Bvt5qc+pNI1KbQZhlF3fc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "MJ1bPzskqRXlOZE3H6iARwhLSO/fkbY3w7D1dxcIBPbntyeUKX52olrkc6+UIKJxkfcWL5mMaAgyKcn9WadgDA==.sig.ed25519"
+  "signature": "rx1f/1suz1VpCxzux6vme+HL+JDzFJC+u+7/nTTYq9pXtoOufuXldILN74x+XhxJ4/PU4d7jyHITg/cNq2VfAw==.sig.ed25519"
 }
