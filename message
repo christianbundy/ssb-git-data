@@ -1,17 +1,20 @@
 {
-  "previous": "%3DNw2WUTQU+8X+D+Y3NHbhYlXfNeYLR3XCnYYx6UiYs=.sha256",
-  "sequence": 12413,
+  "previous": "%ugCIEn3lSXIU+NkmTJpUNBCv1qZIDhXfAQJF4Yi3ces=.sha256",
+  "sequence": 12414,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569273924946,
+  "timestamp": 1569275052796,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# oasis-demo\r\n\r\nI did a thing and made a read-only [Oasis demo](http://oasis-demo.fraction.io/). There are a few bugs (e.g. inline blobs aren't working), but otherwise it seems like an easy way for SSB friends to see how Oasis looks right now. I should mention that it's very experimental and very much a work-in-progress.\r\n\r\nThe messages you'll see are the same public messages you'd see if you downloaded a client like Patchwork and followed me, but I've politely asked search engines to avoid indexing any of the content with [`.htaccess`](http://oasis-demo.fraction.io/.htaccess).\r\n\r\nI'd love feedback, if anyone has thoughts or feels they'd like to share.\r\n\r\n#oasis",
+    "root": "%zSCYMq3S9OMX3iKo10SU/bfLdxmdEsxocNgF1/fpJdk=.sha256",
+    "branch": "%zSCYMq3S9OMX3iKo10SU/bfLdxmdEsxocNgF1/fpJdk=.sha256",
+    "text": "[@Murilo Polese](@NcgzCoOPLjSkj9Y+GIMFbhxbqIzJCOwYBn/QQDYAOmk=.ed25519)\r\n\r\n> Is there anything else I should try before going down the line of “how hard can it be to develop my own”?\r\n\r\nNone that I know of, unfortunately. If you have thoughts on what should be prioritized in Oasis, I'd be keen to get your feedback, but I'd also love to see what sort of client you might come up with instead!",
     "mentions": [
       {
-        "link": "#oasis"
+        "link": "@NcgzCoOPLjSkj9Y+GIMFbhxbqIzJCOwYBn/QQDYAOmk=.ed25519",
+        "name": "Murilo Polese"
       }
     ]
   },
-  "signature": "+56pBn0w2XUi+O0EzvtCbly+GG+7N2OG40DxT9w3448pDOv7jNKQBansVz/q3Kn1lYxl7/XfCWUYB6KV6BsSAw==.sig.ed25519"
+  "signature": "XJ6+GD0ZDzDdJT9WqeCMuf+wR5uPuV+zr03ENRWhuD/2eiEj7E32IgFPQCjgapQbwXVagNicU+34fYgbbFt3BA==.sig.ed25519"
 }
