@@ -1,17 +1,15 @@
 {
-  "previous": "%+vEIQtDLclfFOGsEcUSPTQz26QT+Kmcim2iJNuI+oaw=.sha256",
-  "sequence": 12386,
+  "previous": "%5vuDqlVf6ynrU2dvOn11f9nYQ+z7iIwik6GWfzMX4fA=.sha256",
+  "sequence": 12387,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569178598888,
+  "timestamp": 1569211936172,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ideas",
-    "vote": {
-      "link": "%PbHMd+g7GmoLatF4Bb7vyblxlBBy/ogovBuAp1K1cQY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
+    "branch": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
+    "text": "I wrote a *terrible* prototype that takes an SSB feed and creates a Git repository with all of your messages. Each commit references a tree with one file, `message`, which contains the pretty-printed JSON that's hashed to create a message key.\r\n\r\n```shell\r\ngit clone git@github.com:christianbundy/ssb-git-data.git\r\n```\r\n\r\nCongratulations, you have all of my Scuttlebutt data.\r\n\r\nWe can implement `createHistoryStream` CLI output by calling `git show` on `message` for each commit in `git log`, which we can pipe to `ssb-server add .` for some very slow replication straight between a Git repository and flumedb.\r\n\r\n```shell\r\ngit log --reverse --format='%h' \\\r\n  | xargs -I % git --no-pager show %:message \\\r\n    | ssb-server add .\r\n```\r\n\r\nTODO: Implement `--skip`-like behavior that doesn't throw a bunch of [harmless] errors because it's trying to add *all* of my messages to your database.\r\n\r\nThis is *very much* an experiment, so please expect lots of changes. Things I've been thinking about:\r\n\r\n- I'd really love for Git to support SHA256. I wanted to make sure that the correct objects were being added to the tree, but Git still uses SHA1 so I had to spend time on manual verification.\r\n- I don't think I need a commit message. Or an author. Or a timestamp, really. If we can do validation some other way, then I'd like to remove my Git signature too.\r\n- It's kind of interesting, if we removed all my user-specific information and made the commits deterministic (I think this is possible) then if we all exported our database to a Git repo we'd all end up with the same commits. 🤯\r\n- With off-chain content we might want to differentiate the metadata, the content, and the signature, so having a tree with files like `content`, `metadata`, and `signature` might be helpful, but right now it's just a small waste of space.\r\n- I was surprised at how quickly `git clone` works. I'd be interested to benchmark HTTP/SSH/FTP/etc against muxrpc to see how slow Git is.\r\n- I was also surprised that \"git commits per second\" didn't return any relevant search results. There are lots of Git implementations and I'm sure they run benchmark suites, but I gave up before finding what I was looking for.\r\n- Speaking of which, the [current code](https://github.com/christianbundy/ssb-git-data/issues/1) spawns a new `git` process (!) for each message (!!) and it should probably be replaced with a library call. It should also be stored in a bare repository, since we're interfacing directly with the database instead of the filesystem checkout.",
+    "mentions": []
   },
-  "signature": "Wcp8eGUMsuznaciSlP5jsVpEKBBMw5IodsQLBkaBs//jMG7oozSVKBEMAbHAmkOxyNrYfsXLmvaq1c6djUcmBg==.sig.ed25519"
+  "signature": "PvmL8k84TimmHyhwcd03/Z1po4AZdxaWEUy7hlEnVQrqMd+tR1rg18fNkpWdjuJeRMXH00E+ySWpQIdZO5HLCA==.sig.ed25519"
 }
