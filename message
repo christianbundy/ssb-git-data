@@ -1,15 +1,20 @@
 {
-  "previous": "%SxvGhbwVcUePUYTpMUowMPOLNrTDQF2HoM+Z9ycXdAI=.sha256",
-  "sequence": 12397,
+  "previous": "%fCArKCH6nFdxnKK6yHm62eM8X2/gX98ZLFqvXZN5ohw=.sha256",
+  "sequence": 12398,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569252943954,
+  "timestamp": 1569253014000,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
-    "branch": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
-    "text": "Downside: If we move our blobs to Git, like how git-bug has a `media` directory, Git won't let us delete these blobs without corrupting the repository. The chain itself won't be broken, but the pack operations crash and burn if your tree references a deleted blob.",
-    "mentions": []
+    "root": "%4nRqvZOxe5AQJpt1iwoWASQAfyvH8j+SXsBw7vX3ZGg=.sha256",
+    "branch": "%4nRqvZOxe5AQJpt1iwoWASQAfyvH8j+SXsBw7vX3ZGg=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nI'm actually really into that too. I wonder why.\r\n\r\nAny chance you have a link?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "kOTjlO/lSNJlCnekQCFa6L6JKnD2huqu8woDuau0ftuXu6gi3dzlQtTTCV5p2eB8RFO+tFbbMTP1oTayFXMWCQ==.sig.ed25519"
+  "signature": "LkujvacYSjiB653Ufl4ZI6CdH6TpbzHYXYvPCDkxbd/6SGgyrzbtYxU+eOQn22XNMcjdjvTs13F/H0VskrffBw==.sig.ed25519"
 }
