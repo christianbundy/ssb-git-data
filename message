@@ -1,20 +1,15 @@
 {
-  "previous": "%5kF9fm8OF+yM3Tdhl+FK8/as51A0Mr0JaftezSmQpW4=.sha256",
-  "sequence": 12406,
+  "previous": "%2ED8lAhqf2y8fbdDnadNTwRL7Z8p8Ca+1vdvIAhymBk=.sha256",
+  "sequence": 12407,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569261137685,
+  "timestamp": 1569261237616,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%J3NeC6VoXLT+SCbeRy0KgBaslxaEHG7HAJzvbO/sS5s=.sha256",
-    "branch": "%J3NeC6VoXLT+SCbeRy0KgBaslxaEHG7HAJzvbO/sS5s=.sha256",
-    "text": "[@andrew](@1U65GGx/QOUu6sVSgx8FeGDAZWUeNKSYBvrv8FXXINY=.ed25519)\r\n\r\nI'm magnifying my opinions \r\n\r\n> I guess my question is what problem is this use of git potentially going to solve?\r\n\r\nI think that's always a great question to ask, thanks! I'm interested in solving two problems:\r\n\r\n- **Git needs dedicated hosting.** This is great if you've got lots of time and money and technical knowledge, but bad if you want Git to be accessible and resilient. I'd like to have permission systems, bug trackers, and test services all integrated into Git, and I'm super inspired by *[Patches carved into developer sigchains](https://people.kernel.org/monsieuricon/patches-carved-into-developer-sigchains)*.\r\n- **SSB needs more boring technology.** This is probably controversial, but it's been discussed many times before: having a solid foundation makes lots of things easier. I love to experiment, but when it's experiments all the way down it's sometimes hard to get things done. I'd like to use more widely-adopted tools so that we can reduce both churn and fragmentation, hopefully creating more time to work on critical components.\r\n\r\nI think that both Scuttlebutt and Git are meant to solve similar problems, and once we can support multiple feed types I don't think it would be impossible to have native support for Git commits in Scuttlebutt.",
-    "mentions": [
-      {
-        "link": "@1U65GGx/QOUu6sVSgx8FeGDAZWUeNKSYBvrv8FXXINY=.ed25519",
-        "name": "andrew"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%j6zaqm11Od2txwAehTak9SAfcgDzAaaw20SBkMyy2oc=.sha256",
+      "value": 1
+    }
   },
-  "signature": "IwHS5Xm/5JNgr5mzfGSqGKJemBKmVjY3FHMfOkwYucD0EHNrbuVYz7c5j1ALzr1nQvDeLY9/0zkXWgBMoSV5CA==.sig.ed25519"
+  "signature": "EOnYk3iFukfBxviIkq8iYv27oIkZ9RvLiIzi86hU+bjzYFO6rkA4yvLb17G8G3POIYjJYYzfCVW1Q9/sObyPBA==.sig.ed25519"
 }
