@@ -1,20 +1,15 @@
 {
-  "previous": "%Q1P2wVph9Fl2mmmHIdphzVvX7xWJ9o8ONqaskEOvKk8=.sha256",
-  "sequence": 12393,
+  "previous": "%bbnYRAAjD0PSEX2RfuWiyUk+3pMCorcGswd0QaQrpi0=.sha256",
+  "sequence": 12394,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569250246903,
+  "timestamp": 1569250809208,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%3nRN93xqQHzPG8E7fa8skyDFDvLj7D33jh+6QXJ5Np8=.sha256",
-    "branch": "%3nRN93xqQHzPG8E7fa8skyDFDvLj7D33jh+6QXJ5Np8=.sha256",
-    "text": "[@cryPhone📱](@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519)\r\n\r\n> Sorry to be so blunt but why?\r\n\r\nBlunt is fine! I was really hoping for your feedback, especially because you worked on git-remote-ipfs, so I appreciate you taking the time to read through and give some thoughts.\r\n\r\nI've been feeling bummed about GitHub but a bit disenchanted by the current options. It's like Gmail: you can use another provider or you can self-host your email, both of which are improvements, but I'd rather have a P2P system than a federated system. We can host Git on our distributed networks, but it doesn't give us discussions or permission systems.\r\n\r\nI got interested in git-bug, and while reading the [data model](https://github.com/MichaelMure/git-bug/blob/master/doc/model.md) I started thinking that it might be easier to add a few cherries on top of Git rather than try to implement Git inside a distributed system like Dat/SSB -- especially if our P2P networks don't play nicely together.\r\n\r\n> If you throw everything into a single file you have to retransmit it every time\r\n\r\nI might be misunderstanding, but I don't think that should be happening here. There isn't one huge JSON file with all of your messages, there's just one file called `message` that gets modified once per commit with the new message. For example, my [latest message, as of 11 hours ago or something](https://github.com/christianbundy/ssb-git-data/blob/%40%2BoaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU%3D.ed25519/message).\r\n\r\n> Also, I think git comes with a billion assumptions and features that ssb has zero use for. What is a rebase or revert meaning to ssb?\r\n\r\nYeah, but SQL and HTTP and HTML and all sorts of other good standards are going to have stuff we don't use. There's a tension between \"standard tool with too many features\" and \"bespoke tool that hopefully maybe fits us better\".\r\n\r\n> Lastly, how do you index this?\r\n\r\nIn my mind Git would handle storage and compression (zlib!) and packfiles and such, whereas you'd probably to build some views from the messages just like we're doing now (via flumedb or SQL). Git probably isn't going to be lightning-fast or give us a sleek query engine, but I think it could provide a really strong foundation for storing and replicating data -- especially data like GitHub issues or repository permissions that might make GitHub less attractive for friendly people.",
-    "mentions": [
-      {
-        "link": "@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519",
-        "name": "cryPhone📱"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%fhyywOIzi0PWdIop/+PgHgpTDg23nvD+xQFeFcOz960=.sha256",
+      "value": 1
+    }
   },
-  "signature": "ZvJvnsSUlF9tP/GW7979ReKJYjBWaFfeXUM7z5IByAONPA3qj5Cq+mZuuQqrL9h817Kw3NVGgjYqCr7dtNjyBw==.sig.ed25519"
+  "signature": "DX57wnTetuRjGd1G0UZi5L3K3CI9KanBLD2bn1gaJAWY/4c3waMBXq7y8V/k2s7Q/iIG5qa+rRU+rMfnjB9aCA==.sig.ed25519"
 }
