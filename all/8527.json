@@ -1,0 +1,20 @@
+{
+  "previous": "%WpjV9uYbJOAJ2Li9GXSjl86bl4N9P+SH8q4GUxfwjEQ=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8527,
+  "timestamp": 1547234254833,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%F3cWaxsj9yZ6Yc0/0d7xEWr6iMrWuJijREsmUaTdAGM=.sha256",
+    "branch": "%8PetZgCnU2YGnjJ2exmv25eBcBZOJOouI2pO0J7//QA=.sha256",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) \n\nDo you have any opinions on Scuttlebutt-flavored Markdown versus something like HTML? I haven't done much thinking about it, but HTML seems to work well enough on the rest of the web. I'm imagining a system where you can write in Markdown, RST, or whatever you'd like, but the end result is posted to your feed as HTML. When viewing messages you'd need to [sanitize](https://www.npmjs.com/package/sanitize-html#what-are-the-default-options), but I think every implementation is rending as HTML anyway.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
+  },
+  "signature": "6leDpxGkC5EQttomzbYlT1DMrklbyFG4PV8/aeAm/l1N8+a9pE5H+ZL4kGoU3Lpj6SYJ6NFRqdy7kVaQoQR1Bg==.sig.ed25519"
+}

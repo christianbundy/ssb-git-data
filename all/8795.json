@@ -1,0 +1,30 @@
+{
+  "previous": "%LtteWevppo7PU9dsueWn6T+xlpVF7B4cO3fj12/joNs=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8795,
+  "timestamp": 1549143486402,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256",
+    "branch": "%QEO2CyDKtOJoGCfRhYiuByKz+NYknK3AQjJ63cwJtWI=.sha256",
+    "reply": {
+      "%OoBqCtaYm6ayBQqCVlHi66vsWfvaK5+t98aqsXlRyZU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%QEO2CyDKtOJoGCfRhYiuByKz+NYknK3AQjJ63cwJtWI=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519"
+    },
+    "channel": "ssb-server",
+    "recps": null,
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) \n\n>  You could hack flumelog-offset to add a field of bits per message (e.g. 1-8 bytes) and use one of these bits to say \"this message was deleted\".\n\nDo you think that would remain backward-compatible with the current flumelog, or would that require a migration between the old format and the new format? I was a bit surprised by some behavior that I found which I *think* is the current implementation, where if you request an incorrect offset (e.g. 42, if the valid ones are 30 and 48) then it will return a message without validating that it also has the same length appended after the message ends.\n\nI'm having the same feelings about the fact that a list of *operations* rather than data might be useful. It's true that [Scuttlebutt](%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256) has that semantic, where each message is a type, but it might be really nice for flumedb items to have this capability. I'm still bummed that we don't have rebuilds on all flumeviews, but I suppose that will come with time.",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "%p++m9rdfZekCzz3sN2X8tu+MeYRzbP1CkVc63qyJyWw=.sha256",
+        "name": "Scuttlebutt"
+      }
+    ]
+  },
+  "signature": "mo6/VDGrwlnXpRLWp8m76d8EKwSZBkv8ELhdy7FdoH6W6gDcrUR2znJxh8iqVOZqCjVRQxBhqtGuEd0r94nUDQ==.sig.ed25519"
+}

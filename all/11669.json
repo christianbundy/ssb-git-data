@@ -1,0 +1,17 @@
+{
+  "previous": "%1RLr5omK1pi/vPcyDBaScUF+joF0uShtnIov3suxRHw=.sha256",
+  "sequence": 11669,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1565056903481,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "text": "I don't know how I've never thought ot this.\n\n#javascript \n\n## before\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map((entry) => {\n  //                     ^^^^^\n  const [key, value] = entry\n  console.log(key, value)\n})\n```\n\n## after\n\n```javascript\nconst foo = { bar: 42 }\n\nObject.entries(foo).map(([key, value]) => {\n  //                     ^^^^^^^^^^^^\n  console.log(key, value)\n})\n```",
+    "mentions": [
+      {
+        "link": "#javascript"
+      }
+    ]
+  },
+  "signature": "M9RXv03mF+l8Iwo3vjx8RfYdrq/544Qo+V1jwJyckX8zOK/jkfhfj5p4qHd1G1loOpnKP6VCmT/+5JkrWFBXBw==.sig.ed25519"
+}

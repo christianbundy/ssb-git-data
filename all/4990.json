@@ -1,0 +1,21 @@
+{
+  "previous": "%ZNBjyp941mu+lY15w6BO01vff8ZkvS1y+L8i3EANy8U=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 4990,
+  "timestamp": 1537457448622,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%IEQ/wAVnoi0GK05FHxAknqwbe4i+3OExB717i6XgnfI=.sha256",
+    "channel": "linux",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nThanks for the response! I just opened a tmux session under root with `journalctl -f`, I'll check it the next time it crashes. I spent a few weeks (months, maybe?) without a login manager but when I switched to Wayland I just \"upgraded\" to using a login manager.\n\nMy intuition is that there *has* to be a log somewhere, I'm just not looking in the right place(s), but I'll run with tmux logging journalctl for a while and hopefully we'll catch something there. Thanks for the help!",
+    "mentions": [
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
+  },
+  "signature": "yjuT21UetCHBSrCaiUWQ9yDss98gw04O+nRGlKqP6TaEKmlhXx79/sWTsNmZ8JoPnlGGoaAfLfYgt2GkbbpIAg==.sig.ed25519"
+}

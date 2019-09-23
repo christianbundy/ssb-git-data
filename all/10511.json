@@ -1,0 +1,21 @@
+{
+  "previous": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
+  "sequence": 10511,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1559932569850,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256",
+    "branch": "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256",
+    "reply": {
+      "%Sv2DRcGmHb+YnxPFGGj2t7uoZ887JkNKWFn8/Yg/PmY=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%bXT1g7pIVGZgJ4oKztHXmhQTPNMFZj+jNmcNIsheeTU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "One last addition!\n\n> I think the big changes here are:\n\n- when a view is depended on by another view, a rebuild should only pass the diff between the previous state and the new state\n  - this means that adding a new decryption key doesn't mean you re-stream all messages to other views\n  - this also means that views need to maintain their own state, which means that transforms should act like real views",
+    "mentions": []
+  },
+  "signature": "UGaZq4V8TYS/mouBn0FZg8oDIS8cG7X10f9JbCgytOAnB+8jqK8wz55fs14TMobcqqNsv4+gcNbcnIdk3o1YBw==.sig.ed25519"
+}

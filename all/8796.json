@@ -1,0 +1,17 @@
+{
+  "previous": "%D+Zyr32df9TUiGr1no1Eqi1eBvENCusGekqTZqHk4sc=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8796,
+  "timestamp": 1549143567604,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "text": "Recording some thoughts adjacent to %D+Zyr32df9TUiGr1no1Eqi1eBvENCusGekqTZqHk4sc=.sha256:\n\nI wonder what would happen if we allocated one level instance per feed [with subleveldown](https://github.com/Level/subleveldown) and parsed `msg.value.content` as [level operations](https://github.com/level/levelup#dbbatcharray-options-callback-array-form).\n\nLegacy message types would be assumed to be `type: 'put', key: msg.key, value: msg.value`, but this would give us both deletion *and* batch operations where one message could create multiple items in a feed-specific database.\n\n🤷",
+    "mentions": [
+      {
+        "link": "%D+Zyr32df9TUiGr1no1Eqi1eBvENCusGekqTZqHk4sc=.sha256"
+      }
+    ]
+  },
+  "signature": "w446Q89jMamJP1Aurdhf1yUKk8vHsA2d6NgdFOZ/tviEoo7KYLY5hEA6t7H+A3dyEq0BSEXJTZjQsBB0GZzmDA==.sig.ed25519"
+}

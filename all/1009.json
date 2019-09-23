@@ -1,0 +1,23 @@
+{
+  "previous": "%+WwBjD6qxvaHW86CP1/HbLBDnK9o4bwn+kEKciA4Rf4=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 1009,
+  "timestamp": 1532988478092,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%KY353LlSAP/wCLJzAqCnYxqrnWlDvbntoDRamtde1ks=.sha256",
+    "branch": [
+      "%KeB4ezn323cHnBlI/CsKB8lWPhQ2TqYmzlnNscPds4c=.sha256",
+      "%fpEpqMgdPhKMqlEzoZtBjBw27YnrPE5vPJ3FswaHfwE=.sha256"
+    ],
+    "text": "[@kas](@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519)\n\nI tried setting `config.host` to the address on my fc00/8 address but it just made Patchbay freeze up with no visible errors. I used `bmon` but couldn't see any traffic going through my cjdns interface though, so maybe I just broke something subtle. It seems like it should be trivial, but I think it might require screwing with Scuttlebot rather than just changing a setting in the client. Maybe?",
+    "mentions": [
+      {
+        "link": "@dBQlwh9Gtr3i5YMOGtIOKtGNVepeu+nyb6KGl1vtOcM=.ed25519",
+        "name": "kas"
+      }
+    ]
+  },
+  "signature": "ec6jEwNjXyLrkFf88Dd/eR2j7hTAmALxqKojKcnPCuQ4SA4GjTXlX3rovMZOZNMafWKNP05no9vgaDEJzlGfAA==.sig.ed25519"
+}

@@ -1,0 +1,24 @@
+{
+  "previous": "%ATSOHf+zZomndm/JkoPkioQKwWgjQrNRhnXvA0aGRgA=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8926,
+  "timestamp": 1550081918773,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "text": "# Should we be paying attention to ActivityStreams?\n\nI'd never given ActivityStreams a real look before, but I've been browsing [the spec](https://www.w3.org/ns/activitystreams) for the last few minutes and I'm really loving what I see. As far as I can tell it looks like a well-specified and well-documented JSON message format, which gives us schemas for all types of messages:\n\n- activities\n- article\n- audio\n- relationship\n- document\n- event\n- group\n- image\n- note (like a post)\n- organization\n- page\n- person\n- profile\n- question\n- tombstone (!)\n- video\n\n...and a few more that I haven't looked into. As we're working on new features (e.g. tombstone feeds), I wonder whether it'd make sense to pay attention to the ActivityStreams spec and follow along where it's easy. I found an [old thread about this](%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256) but I didn't find any clear answers there.\n\n**Anyone else have feelings about this?**\n\n#activitystreams #scuttlebutt",
+    "mentions": [
+      {
+        "link": "%eI1IGY0T+BEGfG2KOt3x4yohQWEXXMBLtimJ/MC487U=.sha256",
+        "name": "old thread about this"
+      },
+      {
+        "link": "#activitystreams"
+      },
+      {
+        "link": "#scuttlebutt"
+      }
+    ]
+  },
+  "signature": "7zSKbJttcWkBH/GCNlG4ScoJg+dFFysXiPQ7dqZbaDsakB0EHua5IoCrnpB30Im8y3mGr8thpdVGTPc8/FOmAg==.sig.ed25519"
+}

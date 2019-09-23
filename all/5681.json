@@ -1,0 +1,19 @@
+{
+  "previous": "%5mIwMkLjN/m/T1wI4Q9RCh6AT0AGW1/n5fpSTjLyh0I=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 5681,
+  "timestamp": 1538611211316,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) I'm poking around some of the Patchbay theme code and noticed `app/styles/css/global.js`, which doesn't seem to respect `var(--variables)`. Is there a workaround to get variables working in that code, or does it need to be changed somehow? I noticed that `app/styles/mcss/lightbox.mcss` wasn't respecting variables either, so maybe that's related? Thanks! 🧠",
+    "channel": "patchbay",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
+  },
+  "signature": "CBxiHxzesaQYBfga4Vf0CFT7ZgdaVtKzdz/Yl+A9VCudmJfVX0c+mJ+i8D1DZE2a6313dGRgOaGYxNiGUGeyDg==.sig.ed25519"
+}

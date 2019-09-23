@@ -1,0 +1,21 @@
+{
+  "previous": "%OSgg24SKrqS/M0I4q2T0d0oAJCxRPiJhYLZYszcFppk=.sha256",
+  "sequence": 9343,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1553047031462,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256",
+    "branch": "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256",
+    "reply": {
+      "%PRh6SaoRN4at2RKQ207tTvTRiyJUVAXZjmcB8brip7c=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%A6Lf4Wqqq6vW4eHjBSIQYr0SjVr2AvcV+NqyWeingoA=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Oops, it looks like that should be `feeds` rather than `feeds.json` -- I think it exports a directory, not a file. My only experience with this has been my [one pull request](https://github.com/arj03/ssb-exporter/pull/2).",
+    "mentions": []
+  },
+  "signature": "Ovgy37lSUsDeIjoquDX+6beHKNiOElrEckwpZZbxQ7X1Uqj2XoH6EmIj48aN4RJa5er1/1xcU8nmODh225ZIBA==.sig.ed25519"
+}

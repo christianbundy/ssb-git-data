@@ -1,0 +1,26 @@
+{
+  "previous": "%NqJbCabaB/PMdshFHvgm7vFBS2YhbhzUX0jWHxjgNLY=.sha256",
+  "sequence": 11007,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1562010041383,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%wyXvqEo49nHMYKTLcDDyIIllmQcg+Xch72H3Y+KagTU=.sha256",
+    "branch": "%gl8aeBsw76qMT9zQMkm8bffKRviN4QC+bhnCEJMzSIo=.sha256",
+    "reply": {
+      "%wyXvqEo49nHMYKTLcDDyIIllmQcg+Xch72H3Y+KagTU=.sha256": "@9hl0g6iMzu7U4vXUdSJtFJ1v+E5WJkYVX90C1kt/7Ks=.ed25519",
+      "%gl8aeBsw76qMT9zQMkm8bffKRviN4QC+bhnCEJMzSIo=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nYeah, everything that I found was super enterprisey. I *did* find an interesting Python package, [import linter](https://import-linter.readthedocs.io/en/latest/readme.html#overview), which seems to  enforce rules about the dependency graph. It looks like the author wrote about [dependency graph constraints](https://seddonym.me/2018/09/16/rocky-river-pattern/) a bit, which points to [a book](https://www.wiley.com/en-us/Pattern+Oriented+Software+Architecture,+Volume+1,+A+System+of+Patterns-p-9780471958697) that I'll have to my Never Ending List of Doom.\n\nI'll keep clicking links, thanks for sharing those links! I hadn't heard of connascence before.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
+  },
+  "signature": "rrGLlWYlid245rvcYo9wGzveREAYoPE7W61yqhdmTvvemNCY1tYv72xZ6/YQHK5BjIfCeosPcTcHHZicNn5tBQ==.sig.ed25519"
+}

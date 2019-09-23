@@ -1,0 +1,26 @@
+{
+  "previous": "%H7GLP3SgBBAjKqEGtlu2fbHIAMzycW1i9xte2CkXTjo=.sha256",
+  "sequence": 10154,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1558366929027,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256",
+    "branch": "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256",
+    "reply": {
+      "%AhVsYcrVL4+BTuAntRqD7mjLIHsbYrCu7xJ72R8mmiY=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+      "%Ul8BOJRh7M2raqAY9SsvSutfbeaMg1TCo3g3tObabnk=.sha256": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519"
+    },
+    "channel": "patchbay",
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) \n\nIf you run `rm -rf node_modules && npm install` instead of `npm ci` does it all install correctly? I wonder whether this is an `npm ci` problem. What a bummer, I hate when simple stuff doesn't work.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ]
+  },
+  "signature": "5Q5APo5ptKWff1/beaz40TvB6Cbf94iMBPxGm5xJPDE9C4W5hpy5X8YwDBRAKTdXfPzUjOi2fGcK0Pl6puj3Dg==.sig.ed25519"
+}

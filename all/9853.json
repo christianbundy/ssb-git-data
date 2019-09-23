@@ -1,0 +1,26 @@
+{
+  "previous": "%NEvad9TXGUgzMB/zwXqRjOFM9H99T9CoQhr3AhcO56E=.sha256",
+  "sequence": 9853,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1556636723955,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
+    "branch": "%hhen1XrEXu105re2Q8sBrHmCivWS+HH6Hw2nh2X2Op8=.sha256",
+    "reply": {
+      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%hhen1XrEXu105re2Q8sBrHmCivWS+HH6Hw2nh2X2Op8=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nThat's strange though, because the default of `::` should bind to all addresses. If you set `{ \"host\": \"::\" }` does it go back to breaking again? Super curious why `::` doesn't bind to all addresses on your machine...",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
+  },
+  "signature": "EG9KwpgJ8AtWkye/+d6ZwuMotPpASnOxb7uQoiyPp6wLtVy83bhHiBGiRN5SevqnrZlUOsBMpVgY9pE57ytiAA==.sig.ed25519"
+}

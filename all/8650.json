@@ -1,0 +1,14 @@
+{
+  "previous": "%ZC45pt47hHsr4r5lzV7KPIhAiSwJwxi74JLoywTsEUw=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8650,
+  "timestamp": 1547656052469,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+    "branch": "%5N8TABTl05nC8cYfzLhg0nzrzsnJohrWsk9QYcwquW4=.sha256",
+    "text": "Oh, duh: the inner function can't access the variable name until the expression is finished, so the robust solution looks something like:\n\n```js\nconst Obv = require('./')\n\nconst since = Obv().set(-1)\n\nconst rm = since(() => {\n  setImmediate(() => rm())\n})\n```\n\nThis way `rm()` isn't executed until the next tick, because that's when the function is actually added to the scope. I'm not sure whether this is a bug in obv or in flumedb's usage, but I've opened a [PR](https://github.com/flumedb/flumedb/pull/29) to resolve the issue in flumedb. Another alternative would be to always `setImmediate` when an observable is unset, but I'm leaning toward the simple solution since I have a better grasp on flumedb."
+  },
+  "signature": "gD+APhiYHOLD2zEVCUaUylroVezaExzZJsR2u59hu1K09TFEPiE+Xg5hq3uC8Ec7M4BRnjCIg2A3S5fxdIF+Bg==.sig.ed25519"
+}

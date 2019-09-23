@@ -1,0 +1,23 @@
+{
+  "previous": "%hsCeV3pzUgdsZeZN2huxYuiCojSrgvYYQP2CEYyE9iE=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 7103,
+  "timestamp": 1541608862154,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%KA9PGsW9uXvPLfUh3ySPDycyFCgZ86+WeZMd1wovsU0=.sha256",
+    "branch": "%wKEMWaWDHO+KaNrexpYnn5Xg845LBpCqjBVpL5zFKdo=.sha256",
+    "channel": "privacy",
+    "text": "True! The best thing we have is #offchain-content, where we move the things you're saying *away* from your feed where it will be archived forever. Specifically, I've spent a lot of time on #blob-content, where the message on your feed just points to a hash of the message, and it's up to your peers whether they give you that message. This makes deletion easier, but not bulletproof.\n\nIt's similar to real life: if you say something silly then you can ask your friends not to repeat it to others, but you don't have any cryptographic guarantees that they won't do it. At the end of the day, [the analog hole](https://en.wikipedia.org/wiki/Analog_hole) will always win, so IMO deletion is something we have to resolve *socially*.",
+    "mentions": [
+      {
+        "link": "#offchain-content"
+      },
+      {
+        "link": "#blob-content"
+      }
+    ]
+  },
+  "signature": "VMMj0ItlItspbY2pvNfCIr8kYiJE7Fze6/IvEObWfse0rnVl8ZurtZ5z+96E2ZoKAUqdHQuOnu3UlT9cegjFDw==.sig.ed25519"
+}

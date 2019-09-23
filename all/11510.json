@@ -1,0 +1,26 @@
+{
+  "previous": "%0GXq3BLVRrViTi0FzBmusjpqHXARiFt5Lqhs9De/YsI=.sha256",
+  "sequence": 11510,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1564153746558,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256",
+    "fork": "%PliAKkouC5Jy93vOLTeDxOiG8YMq73H9NxvlV8SuJlo=.sha256",
+    "branch": "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256",
+    "reply": {
+      "%4dXyOMnfX41ObUDRCI35uI3OHEi0vZhqd2A4trPWFOE=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Yeah, we only use content-addressable images here so you have to attach the file or reference another image that was already created. For example, in Patchwork I've right-clicked the image above and selected \"copy embed Markdown\" to get:\n\n\n```markdown\n![pattern languages.semi_lattice.png](&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256)\n```\n\n![pattern languages.semi_lattice.png](&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256)\n\n",
+    "mentions": [
+      {
+        "link": "&cOtQs9Td+OOcrXf9oXwLO9wuacBnV3Dzc0uikNalN+0=.sha256",
+        "name": "pattern languages.semi_lattice.png"
+      }
+    ]
+  },
+  "signature": "6FnZ+ittwru4PFk1MaxfBNAdA2lWdzNRlg+51rV3u4oVjhJmZLFtijtVkLV25q/+d3SfLiMcAJr+TTrqOMnOCw==.sig.ed25519"
+}

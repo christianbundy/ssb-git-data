@@ -1,0 +1,25 @@
+{
+  "previous": "%+ja4yz8137zwzPuaB9g0PywjdAvWtbkUeXUMgMdVGhY=.sha256",
+  "sequence": 9671,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1554999689087,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256",
+    "branch": "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256",
+    "reply": {
+      "%1hz6Ir61Z2S6KPIrg1uHofhAs4inCHpzxhD1fQZLf38=.sha256": "@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Martin Heidegger](@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519) \n\nCan you run `close()` in another context without issues? You're passing `SIGTERM` to `this.proc`, so I'm curious whether `this.proc` is somehow the PID of the GUI session rather than the PID of your script.",
+    "mentions": [
+      {
+        "link": "@AiEFGEv8t+W6Elf2NVf7xtlyO4lryJ3jXs/DImoD608=.ed25519",
+        "name": "Martin Heidegger"
+      }
+    ]
+  },
+  "signature": "tFq+jSfdyhtv1fczjPN4ZBtqNpYqGuB6v3AzCNSWbt2iMGpgWe9tJG/gbaVkIxkQDDBHK4zvq66z8tYFRaDlBw==.sig.ed25519"
+}

@@ -1,0 +1,27 @@
+{
+  "previous": "%MB16Dge3Hg5cVdZpLTe01eo9i+5jwYzi+wUjRSlJ9D8=.sha256",
+  "sequence": 10446,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1559582659738,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256",
+    "fork": "%lcm7HgPjZlZcZCu1yWpCfnz6Li3dFgyIbZj+pLeLG3A=.sha256",
+    "branch": "%sf8V6Gux1Z6m8mYw+FcGVEQQ1V89c+TYQmuX7Uzcosk=.sha256",
+    "reply": {
+      "%UMXL0RsnyEIbJHwFvNEqc4CfQOxLmGe/EzsvNDgl5Qk=.sha256": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+      "%sf8V6Gux1Z6m8mYw+FcGVEQQ1V89c+TYQmuX7Uzcosk=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": "help",
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nWow, that's exactly what I was looking for! I assumed that module *only* did DHT whereas discovery-swarm uses mDNS too. Have you hooked this up to the rest of the SSB stack so that nodes gossip with peers they find via discovery-swarm?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
+  },
+  "signature": "vMlrkQO7/JI2IocOem1X3z7N8cVKHzwFBrCznadEb0pA/MNpHeJwyrUmrBOfd5w+W6cU/iA7+6uRi53cgTiwBw==.sig.ed25519"
+}

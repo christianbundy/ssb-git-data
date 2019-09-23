@@ -1,0 +1,26 @@
+{
+  "previous": "%FEzHpnc/jTBgaP2CB/9KT4zcBJCwGygh/rsj2W1Xssc=.sha256",
+  "sequence": 9797,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1556204162669,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256",
+    "branch": "%XBcsLSWjBjL6hd99H5bomAGTKnRcZAhCBbY2rWE5RQ4=.sha256",
+    "reply": {
+      "%39Oyf1TBQoiMUPP81Ha1bfThMFP7rpOihOK8icZgIkw=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%XBcsLSWjBjL6hd99H5bomAGTKnRcZAhCBbY2rWE5RQ4=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519) \n\nAny chance you're getting [this error](https://github.com/ssbc/ssb-ws/issues/19) in your terminal console output? Instead of `rm -rf node_modules && npm i` I'd recomment `npm ci`, which removes `node_modules` and installs a known-good dependency tree from the lockfile.",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
+  },
+  "signature": "KJgvvV2hBdrjiA3wEkToFt1fubqGqLTT5Tm70UsQc/7M6Bkzz64Ue2gfJv3AfoviiW0q5g4eInB3KMotDI0kBA==.sig.ed25519"
+}

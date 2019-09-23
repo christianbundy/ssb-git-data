@@ -1,0 +1,26 @@
+{
+  "previous": "%5SRpURU21i917glLstEllnNs8IoOt5cdWYjNrLvxEz4=.sha256",
+  "sequence": 11664,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1565045934257,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%DAgzkV6l/H1SOnV70Zy/GwOGMyIXCvnuMnBl8Y7ZSMQ=.sha256",
+    "branch": "%Mabjzsfwa0LElCqMhJ+ZpS4QNMombp15aOkuOwop8kM=.sha256",
+    "reply": {
+      "%DAgzkV6l/H1SOnV70Zy/GwOGMyIXCvnuMnBl8Y7ZSMQ=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+      "%Mabjzsfwa0LElCqMhJ+ZpS4QNMombp15aOkuOwop8kM=.sha256": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519) \n\nOh, that looks to me like your database has been corrupted, specifically `~/.ssb/flume/contacts2.json`. Could you try stopping ssb-server, deleting that file, and then restarting ssb-server?",
+    "mentions": [
+      {
+        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+        "name": "VI"
+      }
+    ]
+  },
+  "signature": "c8XpfI7tpUeBWBWmBTQjuHVDEjd71NNsECLp2kVzcn/DmSIpr/O9jNM9NGZozdqGO9TyN3LwdR8tCevcfgjGBA==.sig.ed25519"
+}

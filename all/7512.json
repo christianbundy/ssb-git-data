@@ -1,0 +1,14 @@
+{
+  "previous": "%T1alNERaq85Tl4R1YyWkfrPuL8Mu47n56t4xsTMI+j4=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 7512,
+  "timestamp": 1542743564005,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "branch": "%vH9WeZn6XzsvOKW5e0WUB/ysRAw/bA/FxmR26go3kQ8=.sha256",
+    "text": "FWIW, here's a simple Ohm grammar for the current sigil links:\n\n```ohm\nssbSigilLink {\n\n  sigilLink = sigil base64 \".\" commonAlgorithm\n  \n  sigil = \"@\" | \"%\" | \"&\" \n \n  commonAlgorithm = \"sha256\" | \"ed25519\"\n  \n  base64\n    = (\n      alnum\n      | \"+\"\n      | \"/\"\n      | \"=\"\n    )*\n}\n```\n\nI think this should make it pretty simple to convert between one and the other."
+  },
+  "signature": "1RAS+zM7662dKEdmMuCHrmmzEl80k8MCT9qOs7d8MmJHB9yiJUxppfdGbWSLDSXjrFxxomHfAlS2XoFpneAMAw==.sig.ed25519"
+}

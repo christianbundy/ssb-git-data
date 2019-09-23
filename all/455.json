@@ -1,0 +1,21 @@
+{
+  "previous": "%Onnk8tvnpEzXGCftoX+HPxGkQ1Q2POC7DwLgF9DSvWc=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 455,
+  "timestamp": 1525800844613,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256",
+    "branch": "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256",
+    "reply": {
+      "%+JOXuDsv2OGSK0m4Mbxvj8POt2lsc8Mtl0RmIUIWRI8=.sha256": "@8eknhbALZv4xn31LfIWJ4iBoR/shQFkqVENbprVIRYM=.ed25519",
+      "%9VfdLNQ7JcxfBoWw+F2DE+MUDnNkjTVvOLwFILKKiGw=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Just to make things a bit more complex: how does this handle manual changes suggested by `npm audit`?\n\nI spend a lot of time trying to merge fixes upstream, but it's often easier to just `npm update foo --depth 6` when a dependency of a dependency of a dependency of a dependency of a dependency of a dependency is depending on a buggy package with an update available.\n\nCascading pull requests are a pain in the ass for everyone, so being able to manually edit `package-lock.json` can actually be monumentally helpful for fixing material problems.",
+    "mentions": []
+  },
+  "signature": "aV5dxrjXaCAhKDJV+mT1G8VfTK8troDjETrpGwy0hyyxLqWvwpxVFq4TxJCRB7DlCEZm9jUBJLGovdny/gedBQ==.sig.ed25519"
+}

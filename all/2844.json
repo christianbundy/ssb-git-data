@@ -1,0 +1,21 @@
+{
+  "previous": "%ws8Ozt84nVpLpgBRdUagD4ZGO+9lZjeD8aYBolGnFPg=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 2844,
+  "timestamp": 1535485883991,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%QhLDRGATkeKa2NMEMHLXD2EXw3k9ZzJhl3bZ7sEOToc=.sha256",
+    "branch": "%Z3povBC7J+s+ktLzI10ADS185PDh6hmoWL1l53PLFBo=.sha256",
+    "channel": "ssb-webify",
+    "text": "[@austin](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nThat's my understanding as well. My original goal was to create a platform for cryptography tools (like a Bitcoin wallet generator) that wouldn't actually use any local storage, but I suppose you could encrypt the storage with a key (maybe passed via a query parameter?). I suppose you probably don't want your private key in your web history, but the only alternative I can think of is manually copy and pasting your key each time you load the app. That sucks too.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "austin"
+      }
+    ]
+  },
+  "signature": "LMTNuwmKVmP6EotrUmbjI6wRVDfgfOcXhtilvIPO5EvmsOr58CvcmLojZabKNoz7yrJm5ODCKdOCr9QszfPKDA==.sig.ed25519"
+}

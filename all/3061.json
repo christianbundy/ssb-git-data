@@ -1,0 +1,20 @@
+{
+  "previous": "%PAccqdMJ5/mla6DFSUHXlq8gUFjXxWhqYp0ZFNCR07A=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 3061,
+  "timestamp": 1535733116672,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%InBU14c7KpZ0f7P78mXDd4yKAzSFZwJ/usNI6e1YEds=.sha256",
+    "branch": "%4VkM8TsIhGakLaC0m3RidEAdvzs2CHxmRNroOHEMWeU=.sha256",
+    "text": "Thanks for the tip [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)! Here's what I've got so far:\n\n```sh\nsbot createHistoryStream --id @+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519 \\\n  | jq '.value?.content?.mentions?[]?.size' \\\n  | grep -v null \\\n  | paste -sd+ \\\n  | bc\n```\n\nThere may be a more elegant way to do this, but right now it's returning `100830346` bytes (96 MB) and that doesn't seem *too* surprising since it's counting the size of every blob I've ever mentioned (and I imagine there's quite a bit of overlap between feeds).",
+    "mentions": [
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
+  },
+  "signature": "PIdbrctVhZX+szswsYvrRtuo8DLb4YlOL1Xj2J77585yNef8dyN2BKvIHT/DjVg5Lsi8ci1dagmlxSHd2zh3Aw==.sig.ed25519"
+}

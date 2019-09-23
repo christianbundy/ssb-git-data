@@ -1,0 +1,15 @@
+{
+  "previous": "%dkche9C3uV0DedX57yHm1eW3ekyyP51xkHkv1BNn4QI=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 6722,
+  "timestamp": 1540925698782,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%nR/STn8wvsh83kkaHNwl8ByON/VD9IcBunpXGanfP/g=.sha256",
+    "branch": "%IeSjudO90Kzi7lN1oqX7dJMHEbRw86Pfh/jNappYDZc=.sha256",
+    "channel": "scuttlebot",
+    "text": "I'd put it right above that `msg.unbox` expression, maybe something like:\n\n```\nif (!key) {\n  console.trace('key does not exist')\n}\n```\n\nYou *may* need to do `const console = require('console')` at the top of `minimal.js`, I'm not 100% sure."
+  },
+  "signature": "RHKLlvgxqSPfvNRNCq2XwP2FFQOjEWttLhJx/rPouSTUhlQTnp0nLlg+jyoXSDVMcI7g3hzKI5go6vPycdIdCg==.sig.ed25519"
+}

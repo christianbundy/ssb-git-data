@@ -1,0 +1,15 @@
+{
+  "previous": "%k6JBEA+OdtdsodDwS5qMMrY5Pi/1PHHBkMDk5YJ3/W8=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 5822,
+  "timestamp": 1539016478983,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
+    "branch": "%GGgfsL/UcnDbKQOGr80/cHGCMsQHvInetXCOMDe3rYo=.sha256",
+    "channel": "ssb-client",
+    "text": "Solution: https://gitlab.com/christianbundy/ssb-current-events/commit/be013ac68fe9aec9fbce95ba7816d69a04c18da3\n\nTurns out `ssbClient` was being called *way* before it was necessary, and I think this meant that it was trying to connect to an old socket or something."
+  },
+  "signature": "158ksm8smEXQzJQLqDoiQ4lE657rJKUAw78FTNlf2LroMmHWGueOmwuPgKK3ent2BrQF/PvjQoax1fciCz75Ag==.sig.ed25519"
+}

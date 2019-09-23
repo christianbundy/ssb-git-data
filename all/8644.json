@@ -1,0 +1,14 @@
+{
+  "previous": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8644,
+  "timestamp": 1547588775271,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+    "branch": "%/9eWjHC8txoDMFneS71ASlgj8K0eWOy1Wh90Hp9rafQ=.sha256",
+    "text": "Maybe something has changed in the obv library?\n\n```js\nconst Obv = require('obv')\nconst since = Obv().set(-1)\n\nlet rm = since(() => {\n  rm()\n})\n```\n\n```\n/home/christianbundy/src/obv/sanity-check.js:6\n\trm()\n\t^\n\nReferenceError: rm is not defined\n    at since (/home/christianbundy/src/obv/sanity-check.js:6:2)\n    at many (/home/christianbundy/src/obv/index.js:23:49)\n    at Object.<anonymous> (/home/christianbundy/src/obv/sanity-check.js:5:10)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Function.Module.runMain (module.js:694:10)\n    at startup (bootstrap_node.js:204:16)\n```"
+  },
+  "signature": "OzCGXhinF45KUi8mUHu3ozb0jPrh317D9ckIlEvMauVDkhx0pJwOa6FnDUgFcUM40neCPLL32ZM+ChCbacoCDw==.sig.ed25519"
+}

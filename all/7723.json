@@ -1,0 +1,21 @@
+{
+  "previous": "%UjFTz/mIYJ4GZO57T3GdO3ZQAiFIczn8q9yoRONtFrQ=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 7723,
+  "timestamp": 1543595480147,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%M0Cveu/Kbl3yLG3gonrY2r1YCRCXvekMKRRXKbmxKek=.sha256",
+    "branch": "%JymNUllfUHSMjX4Tc5fZm83+ncDORbguBzTC4+VBYuI=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nThanks, I'll take a look at that. Is that still something you'd like to see merged?\n\n---\n\nI've got some debug statements set up and I can see that the gossip scheduler is calling `connect()` repeatedly, but no messages are coming in. I'm not really sure why that is, but I'll continue debugging. Here's what I'm seeing (over and over and over again):\n\n```\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +1ms\n  ssb-server connecting: friends +0ms\n  ssb-server connecting: attemptFriend +0ms\n  ssb-server connecting: retryFriends +0ms\n  ssb-server connecting: longterm +0ms\n  ssb-server connecting: retry +1ms\n  ssb-server connecting: legacy +0ms\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +0ms\n  ssb-server connecting: friends +1ms\n  ssb-server connecting: attemptFriend +1ms\n  ssb-server connecting: retryFriends +0ms\n  ssb-server connecting: longterm +1ms\n  ssb-server connecting: retry +1ms\n  ssb-server connecting: legacy +1ms\n  ssb-server connecting: seeds +2s\n  ssb-server connecting: local +0ms\n  ssb-server connecting: friends +1ms\n  ssb-server connecting: attemptFriend +0ms\n  ssb-server connecting: retryFriends +1ms\n  ssb-server connecting: longterm +0ms\n  ssb-server connecting: retry +2ms\n  ssb-server connecting: legacy +1ms\n```",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
+  },
+  "signature": "eBbaAupx40LB2KdhYE6WqPon0ymJwjh9C89Cq2FjtqbvYzl4mQXsHrgJRSkymTRFDNbgWLHhafwSghCd+2BPCQ==.sig.ed25519"
+}

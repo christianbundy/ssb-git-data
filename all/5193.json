@@ -1,0 +1,21 @@
+{
+  "previous": "%PvNloAq5+LaCMg7GsnuT0u31NTyNXinzSW2idk9yF3w=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 5193,
+  "timestamp": 1537899618802,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Ukyh8+C2oWi7LWe3CIeS9KnxZH+ciQWpcXHMzas7coc=.sha256",
+    "branch": "%QaKh6dTE6jWOxXnbe+GP3tVmakTeOnWf6p7PGbIv9yw=.sha256",
+    "channel": "linux",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) \n\nFun, sounds like we're having some of the same issues! I'm not having touchpad/touchscreen issues (other than the dmesg log), but sometimes the backlight on one half of my screen will go dark. Gotta love Google products. Anyway, I used [this script](https://mrchromebox.tech/#fwscript with option 1 to update the BIOS, but it sounds like eventually option 3 is the way to go. Unfortunately, I think option 3 means you have to reinstall your OS.\n\nI'm still getting some crashes, but not as many, which makes me wonder whether my \"fix\" actually worked at all. Hell, this could be some sort of Wayland bug caused by the CPU being clocked down. Probably not, but I'm having a hard time debugging.",
+    "mentions": [
+      {
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
+      }
+    ]
+  },
+  "signature": "4UCgYpCiWgjzk1Qbj6SFA+9k/ouCJkmO0HrKYsTCsXXmBwfOlnCdsu1WEudeJrpn9fpsLuVzVD0u3VNpbxSfDA==.sig.ed25519"
+}

@@ -1,0 +1,27 @@
+{
+  "previous": "%0CgVnXYUUrBlcapWn0ZEzo4lxToQL1Wmda8aEgWKccA=.sha256",
+  "sequence": 11733,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1565310309999,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256",
+    "fork": "%ZSGJ7dM1uReP3IxjYPWN00oS5CKl0ThEKKwI4LtBUsQ=.sha256",
+    "branch": "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256",
+    "reply": {
+      "%odnjl1AkS7QKqetPBBLRc1kA8ZpQgvh8Qkd73LZJdlc=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+      "%bJgYOcrcCtYyDoFkrho1W2v1RaWPbgt5SD3XtKTkcHg=.sha256": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) \n\nI'm really not sure, recently I've been thinking about how HTML/CSS/JS just keep growing and how it might be useful to decide on subsets (like [Jessie](https://github.com/Agoric/jessie)) that are both useful and minimal, but it's unclear to me where you'd draw the lines for HTML and CSS. In my mind it seems obvious that we probably shouldn't be using non-strict mode in JavaScript, there aren't any obvious collections of features that we should prune from HTML or CSS.\n\nFor example, I've been using flexbox because it makes layouts ultra-simple in Chromium/Firefox/etc, but it doesn't look like there's any support for that in IE/Dillo/lynx/etc. This means that you have to choose between compatibility and ergonomics, which is a zero-sum trade-off that nobody really wants to make.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ]
+  },
+  "signature": "3zd9ARmvBq4E0kblNKs09rv/GgmeGtxS3E/4iZLDGwbG/flj4lr6bLyChe6qDeeaEKPGZHjn5iF4SLxML5rGDA==.sig.ed25519"
+}

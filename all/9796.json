@@ -1,0 +1,26 @@
+{
+  "previous": "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256",
+  "sequence": 9796,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1556123003141,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256",
+    "branch": "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256",
+    "reply": {
+      "%EVYUhYwoQabLfLWL533dKpRnB0aVm2LI3aUZTpiudTo=.sha256": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+      "%M4UgjiDzLBkM+McIQ1Mqtowbsa0yfJkftjgLT28Z6L8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": "patchwork",
+    "recps": null,
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\n\nClarification: if you're adding this to Patchwork it would be:\n\n```js\n.use(require('ssb-server/plugins/plugins'))\n```  ",
+    "mentions": [
+      {
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
+      }
+    ]
+  },
+  "signature": "q57i3hK8BduuDpkOr9qFopgBFApcXELhFX5ZcMYCWnt3vfQTR/nUd1W8rsyXjKd6btCWJ1wJpBk/bHDsnvU5CQ==.sig.ed25519"
+}

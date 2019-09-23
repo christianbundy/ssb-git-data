@@ -1,0 +1,26 @@
+{
+  "previous": "%OuE5bJgYFq6MtrhwqobYgI86m37Xg9rVL0zU57T9Eq8=.sha256",
+  "sequence": 12315,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1568392913004,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%1YUZUSjXS0swDW3jrVAUgG1gbyCKynascHkpMRGJJHM=.sha256",
+    "branch": "%DtmROyRfA2D0tB/1Ie8npJl98fr3WPtVQa5rWCqgrGo=.sha256",
+    "reply": {
+      "%1YUZUSjXS0swDW3jrVAUgG1gbyCKynascHkpMRGJJHM=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+      "%DtmROyRfA2D0tB/1Ie8npJl98fr3WPtVQa5rWCqgrGo=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nAt this point I'd recommend the solution they mentioned at the bottom:\n\n> I’m thinking of re-downloading everything so I’d move ~/.ssb out of the way (move, not delete!) and then just copy (not move! :P ) the files ~/.ssb/[config, gossip.json, and secret] to a new ~/.ssb, and restart.\n\n1. Turn off all SSB clients.\n2. `mv ~/.ssb ~/.ssb.bak`\n3. `mkdir -p ~/.ssb/`\n4. `cp ~/.ssb.bak/secret ~/.ssb/` \n5. `cp ~/.ssb.bak/gossip.json ~/.ssb/\n6. Start an SSB server.\n\nAs an aside, I think flumedb should probably be fixed so that it throws an error rather than retrying until the stack blows up.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
+  },
+  "signature": "EgoA/jjalcwEmEF5KHNOzy3DQWNckCGt1gx3GqJG2VJfZw4WbdhBNWrlKvoFEDwPRqofptK3/GTikh9xCsJ3BA==.sig.ed25519"
+}

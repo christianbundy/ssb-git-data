@@ -1,0 +1,21 @@
+{
+  "previous": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 2840,
+  "timestamp": 1535483639845,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256",
+    "branch": "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256",
+    "reply": {
+      "%Yxvu9/LzJYHDmB5vxnCeP5+7sfqK5iUJu9DlTye9N2g=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%1ATWmWRCOyuGYvl7ndLFx34pZ8gVCkf3gTpP1bXSxj4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Fixed the image width issue by making sure we respect `(deep)` styles, but I'm not sure what the serializer is doing that's breaking those two backgrounds. I'm a bit shocked that this is actually working so well, maybe it'll end up being useful after all!",
+    "mentions": []
+  },
+  "signature": "jPnkko+opZwz/o17tTmkBG7yUmVdyfwbwSOFnRyQ/BX6ZbwMZKXeD/gmXNTJkasl3cesTkpZq8iO+KmgnolRDw==.sig.ed25519"
+}

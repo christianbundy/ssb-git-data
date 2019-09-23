@@ -1,0 +1,14 @@
+{
+  "previous": "%OqcXZa996dGPUcpm9EzT7ov/ynaj99FQOsSjAEn4mG0=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 7838,
+  "timestamp": 1543980702908,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%kdITpkkQlNDQ/IgeLf8MCvaESls0L72U0qS168R3UA8=.sha256",
+    "branch": "%Gwx6tOkuoMQIBKhUNwJMRNsQN0jRQKqZqVyrgKNTIJA=.sha256",
+    "text": "> include a pre-populated gossip.json file that has all of the known pubs included.\n\nI think we could just put this in the gossip plugin of ssb-server/sbot, right? Pub addresses are considered public, so I don't think there would be any harm in including a sample `gossip.json` to bootstrap the node on the network."
+  },
+  "signature": "IqPhooWlV6t4w2ZbL0SS9jzmB8Nc7YTXs7klNDoJrjZ+MPN4oTXK340ZM2JiFMjgs65diHQSlVWdyXLj8X17Ag==.sig.ed25519"
+}

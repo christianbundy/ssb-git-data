@@ -1,0 +1,30 @@
+{
+  "previous": "%CxnP4tldtrKDoWaSqEVm9UsHIeFsROTKz878gYB6pB4=.sha256",
+  "sequence": 9581,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1554323833546,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Bbu6q874/3OvmCmkMPiDMLmL2j+0eg5NwwfWRs2Y0Ps=.sha256",
+    "branch": "%8uEyj1kaCdfhMqwKVgWh/cwAk9ZtJ1b1Bw0S4v8Zo9E=.sha256",
+    "reply": {
+      "%Bbu6q874/3OvmCmkMPiDMLmL2j+0eg5NwwfWRs2Y0Ps=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%8uEyj1kaCdfhMqwKVgWh/cwAk9ZtJ1b1Bw0S4v8Zo9E=.sha256": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\n\nYeah, I don't *think* I'd mind the width but that's a good observation. I'd love to see photos with other objects for scale.\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\n\n> but can it form a mesh network and gossip text messages between other wiphones?-\n\nI'd imagine so -- [their website](hkd.wiphone.io) advertises a [LoRa](https://en.wikipedia.org/wiki/LoRa) daughterboard, I think the trick would be implementing Scuttlebutt in Arduino/MicroPython.  ",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
+  },
+  "signature": "/P2Qw67U7cTLtZ3CkuqpoBT3I0XGGMaOJpSM9hle8TUhRrCbrl0aPX3gmkBmpqmN6tMe1LpBH4s66djU3RwwDA==.sig.ed25519"
+}

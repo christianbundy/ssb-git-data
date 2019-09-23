@@ -1,0 +1,21 @@
+{
+  "previous": "%3unt785z2RUI14DbujwROWyPTtwhEawf5BP5lkKo7ys=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 6065,
+  "timestamp": 1539380893072,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%Loxh4za33xpU9+YsYaCcpLrGhplMZt8Hy/Ulh0B5QQY=.sha256",
+    "branch": "%9QMA4+JLF2oemPYYBnw6oFDDUov3nZZ1VCAtAbLtn08=.sha256",
+    "channel": "scuttlebot",
+    "text": "[@SandyG](@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519) \n\nI think I've had this issue before! If you just want a single invite you can do:\n\n```\nsbot invite.create --external example.com\n```\n\nIf you want to specify the number of invites, you'll have to use `-n` (or `--n`, I think). Definitely not intuitive, and the error doesn't help much either! I think this is what you want:\n\n```\nsbot invite.create -n 1 --external example.com\n```\n\nI've opened an issue [here](https://github.com/ssbc/scuttlebot/issues/553) for more helpful error messages in this case. Let me know if this gives you any trouble!",
+    "mentions": [
+      {
+        "link": "@+McycRyGFiTqEL/mBlu0/RkdBOebqdOFySqCOEjwKx0=.ed25519",
+        "name": "SandyG"
+      }
+    ]
+  },
+  "signature": "27TkJ15rc/oe6Ll/++BbevI4cJfVWiL9yn1HAhl88rvhlFzqEOlfMtL7wHfd+58wjzV3XRm6cNZSwlabmAZPDw==.sig.ed25519"
+}

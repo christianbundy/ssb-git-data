@@ -1,0 +1,24 @@
+{
+  "previous": "%psae9v5xyatAYpVSq7oJYvap7RZ1OtY5pok57+khuC8=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 5931,
+  "timestamp": 1539196775964,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%K71cvcnjp8N5gRjgryP1Y3VqfhYSCI3vHpvpGcILeqY=.sha256",
+    "branch": "%SqnBnQH4Ko6cuHkDGYzXO4fgSIazhIHWY71Il6/8Kcc=.sha256",
+    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\n\nTotally, I'm a fan of [splitting the \"block\" semantics](%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256) into an on-chain \"flag\" or an off-chain \"mute\", similar to how you mentioned.\n\n> All message types that aren't specifically blacklisted from replication get replicated by default, right?\n\nMy understanding is that when Alice blocks Bob, that *nobody* should replicate *any* of Bob's message to Alice. If Bob is receiving Alice's messages my intuition is that you're peering with somebody who's running an old, buggy, or \"malicious\" instance of Scuttlebot that's still sharing messages with you from people who have blocked you. If you click one of those profiles are you able to see their latest posts?",
+    "mentions": [
+      {
+        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+        "name": "enkiv2"
+      },
+      {
+        "link": "%OC9pGptOBh+bZkFScWjmVfWoUU1AGsHTM4W31GdTLy4=.sha256",
+        "name": "splitting the &quot;block&quot; semantics"
+      }
+    ]
+  },
+  "signature": "ByxNe7KPTWFrlWJu09kdAqvHG8CG3Jl63OILtWD3fey/XiGKuyS0Pdd3mpV9SpvWqWMbpAknPzn64XGUOq0ECw==.sig.ed25519"
+}

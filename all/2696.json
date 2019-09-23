@@ -1,0 +1,15 @@
+{
+  "previous": "%2iY4lwc7SHMRLh1mhS4HJodKGer8NrJlb4M139kLays=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 2696,
+  "timestamp": 1535153615201,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%oipawmga0ofBWXvs43ZNdhpweSnzHJP4F1ahMEdPPdw=.sha256",
+    "branch": "%2iY4lwc7SHMRLh1mhS4HJodKGer8NrJlb4M139kLays=.sha256",
+    "channel": "patchbay-dev",
+    "text": "I just looked at the JSON and there's a `value.content.reply` object... does that mean I can only get reply notifications without mentions from clients that specify the `value.content.reply`?"
+  },
+  "signature": "c57OlZJkgGNbGlwSrao2BLbdgly0cnfnp1UOt9+nr02oSOos1B0A+wyeomkzhu2M871FjFsQQlLbq0O1LKMnCA==.sig.ed25519"
+}

@@ -1,0 +1,20 @@
+{
+  "previous": "%szqYxRJHmzM8A+zZ68MJOOFeVApad6WrNx6hRQcl+yw=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 8134,
+  "timestamp": 1545156478358,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%oaEAIxi7De1pEYzMIvQbcGqWmMqBUJ7/VEjMExooV1o=.sha256",
+    "branch": "%6IY3tGcjinFapRSM/39DaR9G82yc+bki1Va01MYJamg=.sha256",
+    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519) \n\nYou did the thing! That's actually super cool, are there any clients that accept input like that and open a specific message? I might try and get this working on the web -- I think all I'd need is a way to start/stop services and then a URI handler that proxies from https://localhost/ssb:message:sha256:abcdef to the correct service:\n\n```json\n{\n  \"services\": {\n    \"patchfoo\": \"http://localhost:8027/%s\",\n    \"git-ssb-web\": \"http://localhost:7718/%s\",\n    \"some-dat-proxy-maybe\": \"http://localhost:1234/%s\"\n  },\n  \"handlers\": {\n    \"ssb\": \"patchfoo\",\n    \"ssb?type=git\": \"git-ssb-web\",\n    \"dat\": \"some-dat-proxy-maybe\"\n  }\n}\n```\n\nSuper excited to try out your spike!",
+    "mentions": [
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ]
+  },
+  "signature": "OlfubJSqhSNGmqQXNxrD2ZI/sgCF9sI2WBCvz60t8uqsDKe9d9G9PthupUXse0C1c1Krg7q4V4ZGNZ84XVH5Bw==.sig.ed25519"
+}

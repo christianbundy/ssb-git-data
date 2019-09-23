@@ -1,0 +1,25 @@
+{
+  "previous": "%zAhw+UlbHtU0NlQedWuJohsZSwxwK6sJDzf4DV959nM=.sha256",
+  "sequence": 9501,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1553807634066,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
+    "branch": "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256",
+    "reply": {
+      "%/YYabosshnnDCif2d0lpNkgNreRETzEu2rWeClyxD9o=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
+    "channel": "ssb-markdown",
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\nI think that function is only called when you have a raw sigil, _not_ when it's wrapped in a Markdown link:\n\n```md\n- This **will not** get passed to `toUrl()`: [@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\n- This **will** get passed to `toUrl()`: %4YgCw65KkFlRmryWPusvgWGHY69AEFN4AqXkwVSPV24=.sha256\n```\n\nAre you just tinkering or is there something I can help you fix/build/etc?",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
+  },
+  "signature": "OVCUMXuJ+TVVqsZEcaloW4RseSwmdK488aWmm/n9sppzTn6xKZDD8nrkSkzsMxpq5ME5hlmOHTrmbLqq/VLFCA==.sig.ed25519"
+}

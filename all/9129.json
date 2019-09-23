@@ -1,0 +1,28 @@
+{
+  "previous": "%xKS4S1aUm4IrLNNB5KFv5IXyMk1nLKtIxObtBUMLtDs=.sha256",
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "sequence": 9129,
+  "timestamp": 1551634212332,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%zy1rB14YAwIfL1wtpVCbcStkiGV3BICpShbMwxCVjlM=.sha256",
+    "branch": [
+      "%/k8jqw6Ix4SCXgqr7qJeP2VCzoUzYldskMpqd1iptOc=.sha256",
+      "%4bGZbuRIv1xe7lG0aYLMhdU01roIt0vcxDznFdeutpA=.sha256",
+      "%vzQRXQHmyR2cJy/0ukpJF10k34TItZLq+q69WyJlqGA=.sha256"
+    ],
+    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519)\n\nInteresting, thanks! In this model do you think that \"data structures\" should be built on top of \"storage\"? My goal is to be able to write about the state of Scuttlebutt on each of these components, but I'm unsure how I'd review the state of Scuttlebutt data structures. Is there a better way to organize them into this taxonomy?\n\n---\n\n[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) \n\nYeah, and it's also specific to the JavaScript implementation. I included it to give an example of a stack diagram, but the bit I'm looking to iterate on is the list below with the general Scuttlebutt components. ",
+    "mentions": [
+      {
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
+      },
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ]
+  },
+  "signature": "jLCGtvsy1sr178RdJzku0gOLneTyD6zS4O3vwCcWEXktZTxoU/T94eqkzHdeZQ6tImHs76AAWG53yADBkcqgBw==.sig.ed25519"
+}

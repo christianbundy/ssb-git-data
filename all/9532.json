@@ -1,0 +1,29 @@
+{
+  "previous": "%Oqx7n0Ug/21mCzuQUWv8lo7tg8voTvLhVs03ewvO2BE=.sha256",
+  "sequence": 9532,
+  "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+  "timestamp": 1553966119544,
+  "hash": "sha256",
+  "content": {
+    "type": "post",
+    "root": "%B/sE0bd2lfRPGxEnZTxto5UNSIpTWi2AMV7wbF/0UIE=.sha256",
+    "branch": "%+kE3Q3ZazoBXZHBq2KUeCmFTxi+ASaw+Va3XJPu5A1o=.sha256",
+    "reply": {
+      "%B/sE0bd2lfRPGxEnZTxto5UNSIpTWi2AMV7wbF/0UIE=.sha256": "@D1I40a73EVSAGs8njO+P2A65m/D/CIfQIV95Tt9m22c=.ed25519",
+      "%+kE3Q3ZazoBXZHBq2KUeCmFTxi+ASaw+Va3XJPu5A1o=.sha256": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519"
+    },
+    "channel": "hamradio",
+    "recps": null,
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519) \n\n> SSB should be legal over ham radio in the US as long as you don't transmit someone's feed that contains private messages\n\nThat's my understanding as well. This made me realize how useful it would be to have all of my private messages on a separate feed:\n\n- my public feed would be legal to broadcast over amateur radio\n- peers can choose whether they trust me enough to replicate my encrypted content\n- removing timestamp data from the private feed would make time correlation harder\n  - we could already do this, but our public messages hint at when the private message was sent\n\nI'm super excited for all the possibilities once #same-as is rolled out.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "#same-as"
+      }
+    ]
+  },
+  "signature": "TZPHWbZ3DICIAFRHz7WrEFfkJF9W9Ieru3nPoYR3OA/sAV8xQC9cMge5gdJOBQSkYMA8v+Qhu2N0OQiiLjqNCQ==.sig.ed25519"
+}
