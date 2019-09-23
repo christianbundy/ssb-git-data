@@ -1,20 +1,15 @@
 {
-  "previous": "%BLhuFvs1/F9gDDVWdHfpjkFBJvGFTH8W6BZ4Cfc8hM0=.sha256",
-  "sequence": 12391,
+  "previous": "%00i6E2z3m74Mi9g8Bc425aTgzKGLCP4NBBRZ8l592fI=.sha256",
+  "sequence": 12392,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569246426182,
+  "timestamp": 1569248677921,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%gGX6yFjrA6sFzdUJo2X6ywy1UtaPP9WMULD4zXXaJDQ=.sha256",
-    "branch": "%gGX6yFjrA6sFzdUJo2X6ywy1UtaPP9WMULD4zXXaJDQ=.sha256",
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> couldn’t we potentially have this happen in a way that each message is one file, and each ref just adds one new file for the latest message?\r\n\r\nAbsolutely, and since the message objects are already known by Git then it should be super simple to create a working directory that has all of the messages from a feed *or* from all feeds.\r\n\r\nHere's one super hacky and slow way of doing it:\r\n\r\n```shell\r\nmkdir -p all\r\ncount=$(git rev-list --count HEAD)\r\nfor n in {1..$count}; do\r\n  id=$(git rev-list --reverse HEAD | sed -n -e \"$n\"p)\r\n  git show $id:message > all/$n.json\r\ndone\r\n```\r\n\r\nI didn't commit them this way because I was afraid that it would make unreasonably large [tree objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects#_tree_objects), but I might just be copying the [git-bug data model](https://github.com/MichaelMure/git-bug/blob/master/doc/model.md) unnecessarily. Eventually this would probably be worth discussing on the Git mailing list, since my Git knowledge is very shallow.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ]
+    "root": "%00i6E2z3m74Mi9g8Bc425aTgzKGLCP4NBBRZ8l592fI=.sha256",
+    "branch": "%00i6E2z3m74Mi9g8Bc425aTgzKGLCP4NBBRZ8l592fI=.sha256",
+    "text": "Example here: https://github.com/christianbundy/ssb-git-data/tree/all-%40%2BoaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU%3D.ed25519/all",
+    "mentions": []
   },
-  "signature": "Ayi+0n/7EdHcYNGOKQgILPQQLwebGP59eTV2xwPWEnQfvtzaVnduuoM/mi21VQOE1T3GNbfYMidLYKtk6ZgoAQ==.sig.ed25519"
+  "signature": "Sc0Y9RAxXcjvkWb2XNuZPf/fN8JlH0mNUahAdRxesBtriP/acelsyuyXpWJYapj4XPL31CjIhOT6x+thxjUVDQ==.sig.ed25519"
 }
