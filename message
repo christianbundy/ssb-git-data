@@ -1,15 +1,20 @@
 {
-  "previous": "%7E+9Znj6lkezm28FDki2GwfomD6I52lo/ZHWjYAfzi4=.sha256",
-  "sequence": 12402,
+  "previous": "%pp8uZVNewxGrsL2Is5R2wsHTW3GYxBlNbcjvN6VwoZY=.sha256",
+  "sequence": 12403,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569255332834,
+  "timestamp": 1569259570125,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%T/IfoqI3PKYBcfH5fGPptMHYsnTVZssyGqwbK7XPBIY=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "branch": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI'm using [Oasis](https://github.com/fraction/oasis), where all of the replies target a specific message rather than the usual *reply all* that targets only the root of the thread.\r\n\r\nMy brain might be warped by the internet, but I'm actually super happy with divergent threads rather than trying to organize all of the messages into a linear conversation -- especially when trying to reply to multiple people.\r\n\r\nHow are my replies from your perspective? Useful? Confusing? Meh?",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
   },
-  "signature": "VlE9j9qw2U6Z+GKEDCdE8HaTOnRNggfbQlSH0R+RTKgW8ECiOurHrK33hB6beZ9Xbxvubmj+HU9XuRDD3WOOBQ==.sig.ed25519"
+  "signature": "bmyI3QwSWAKMO8tdIprusPD+VUe8u564QK9KA5hAxCEqAstoEMIb7VhQZvQgsHpA/REMbhIs5q/LxpyCTBqnDw==.sig.ed25519"
 }
