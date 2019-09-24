@@ -1,17 +1,24 @@
 {
-  "previous": "%7ogKAgeo/7Hf4qvdtMLbb7k5W7icTQvzf+vtLj2jcB8=.sha256",
-  "sequence": 12423,
+  "previous": "%FYFO8Egq2SGGYId1JBwt7+ZBu55HfX9a+4S16ym/+CQ=.sha256",
+  "sequence": 12424,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569334100761,
+  "timestamp": 1569345983248,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-backup-tool",
-    "vote": {
-      "link": "%ZyLx/Y+6oVhNida7t4CYyH9c94RxMvMiTncc88i4+xM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
+    "branch": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThanks, I'll prioritize the *reply all* functionality as the next feature I work on. Admittedly I've been avoiding it because it's complicated, but it's probably worth the complexity.\r\n\r\ncc: [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519), if I remember correctly haven't you written a library to set the `branch` property correctly?",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "Zbw7vhKsNWfzRHF9THkXcTjxA6I1Wly5h7fa5pwY3lcQW/JWvd6nBnwvyAqIiAkwcyOk/hPg5xhKz7o6PCGgCQ==.sig.ed25519"
+  "signature": "mbMDv+nIEYkeulTerPslHvkrdLLm5q6EE4TmhRJfLFP+5rpnYiAkZKtjHceIJ9rN5Kac4mLDsDx1NPNjlj8TBA==.sig.ed25519"
 }
