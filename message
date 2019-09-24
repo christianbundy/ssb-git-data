@@ -1,15 +1,20 @@
 {
-  "previous": "%AIpk26HBd66ToypmA2hxT9WqbXF1rXcgTYA98ZAJIBs=.sha256",
-  "sequence": 12430,
+  "previous": "%U/Du/EW2RsvRbn1+USkKhtjzx5PWVSlEQ6Vj89Age6c=.sha256",
+  "sequence": 12431,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569352320694,
+  "timestamp": 1569352904750,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xmAXrk4iqbHifKTTQ9/Nx2zt7HzXREymRphlXyMV4P8=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%xmAXrk4iqbHifKTTQ9/Nx2zt7HzXREymRphlXyMV4P8=.sha256",
+    "branch": "%xmAXrk4iqbHifKTTQ9/Nx2zt7HzXREymRphlXyMV4P8=.sha256",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nI **love** this, thanks for sharing! I've just tried it out, and noticed three small bugs:\r\n\r\n- In *Settings* I can select *sync data*, but it tells me that I need to input an onboard blob URL first. If I select one of the inputs and press *enter*, it works, so I'm guessing that there's something wrong with the form submission maybe?\r\n- When I hit *enter* I can confirm that the network request works perfectly, but unfortunately I get a `window.alert()` saying \"Timeout requesting blob\". It looks like the request is taking about 990 milliseconds.\r\n- Trying to publish a private message to myself throws \"`this.recipients.value` is undefined\", although I'm putting my ID in the recipient input field.\r\n\r\nAnyway, this is way cool, and I'm really excited to see how this development goes!",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "ZDNzZh3dw85056yF/T1rZ4yEPhsUq9DA08U2IqJOZQGXIBUx2S/HvzNQka/tmqAxrJMtzV7g4NzQAwUUNknCDg==.sig.ed25519"
+  "signature": "1NRrAXM2eGh7UDbePDhjsXzjYHUz/8uetH++Gnxy89cegqV24Oy4a2Mma2zD+Nb/WUsbK7QSecQk1ZY6lbHMBg==.sig.ed25519"
 }
