@@ -1,23 +1,28 @@
 {
-  "previous": "%kvwawlDFAnfKWRGJp5FtdGEivM6DtpUTpqlNScXqRBQ=.sha256",
-  "sequence": 12447,
+  "previous": "%3xqUVa49PlF90Nw2ylQjj6cabIxugc137qrcn9XDI0Q=.sha256",
+  "sequence": 12448,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569443509332,
+  "timestamp": 1569449737954,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%mbTkomttzbqntzNzvckLOAN8vI3wSs8QzleWKuYySps=.sha256",
-    "branch": "%mbTkomttzbqntzNzvckLOAN8vI3wSs8QzleWKuYySps=.sha256",
-    "text": "[@Alberto](@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519)\r\n\r\nI've been working on a new client! There's lots of missing functionality, but I've been using it as my daily driver for the past week or two.\r\n\r\nI've been posting about it under the hashtag #oasis, and there's a demo available [here](http://oasis-demo.fraction.io/) if you want to see what it looks like.",
+    "root": "%vYbeRqTU+ORTAsVesLwpBnucO7N0xcrMS8t80sNad8M=.sha256",
+    "branch": "%vYbeRqTU+ORTAsVesLwpBnucO7N0xcrMS8t80sNad8M=.sha256",
+    "text": "[@zenna](@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519)\r\n\r\nIt sounds fancier than it is, but my understanding (pending correction from [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519))is that [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting) would let us sort messages based on their references to each other.\r\n\r\n- **Sorting messages by the time that they're received** sucks because old messages often arrive in the wrong order. You'll often receive all of the messages from one person before receiving any messages from someone else, so the order is all messed up.\r\n- **Sorting messages by the timestamp asserted by the author** sucks because sometimes people fabricate their timestamp (\\*cough\\* [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \\*cough\\* 🙃) and sometimes their computer clocks are incorrect and the honor system is not a cryptographic primitive.\r\n- **Sorting messages based on their references to each other** sucks less, because if message B references message A then it *must* have been published afterward. We use this sorting in threads, but it would be great to use everywhere.\r\n\r\n[Here's my favorite visualization](https://public-rdsdavdrpd.now.sh/) of the concept, using a system where each message references two previous messages. In Scuttlebutt each of our messages reference *at least* the previous message that we published, and when we reference another message (like my reply to you!) we gain a data point to sort our messages better.",
     "mentions": [
       {
-        "link": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
-        "name": "Alberto"
+        "link": "@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519",
+        "name": "zenna"
       },
       {
-        "link": "#oasis"
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ]
   },
-  "signature": "g38tk6mzkbjYEcdqkw7z+LMTrnwOFT4xRXjZMw5tdX6CJIrlpkl5ncbrMAsB0qOTwVrgJtiNOzGsLYjOlUrfBA==.sig.ed25519"
+  "signature": "dokGUbj7Q+p9DfnirD5IcgmKdrh1SNyD/lD1jT+I5q54JxXn5KokTkPK1usVOKnFdOXaga0FD/GQvxba7eWKBw==.sig.ed25519"
 }
