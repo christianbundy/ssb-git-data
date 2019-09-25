@@ -1,15 +1,23 @@
 {
-  "previous": "%XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256",
-  "sequence": 12446,
+  "previous": "%kvwawlDFAnfKWRGJp5FtdGEivM6DtpUTpqlNScXqRBQ=.sha256",
+  "sequence": 12447,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569442650836,
+  "timestamp": 1569443509332,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%dVujhj9Vmrk1sUV/IOw2rzqy8L/Eg9SXFYuwJL+W+tE=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%mbTkomttzbqntzNzvckLOAN8vI3wSs8QzleWKuYySps=.sha256",
+    "branch": "%mbTkomttzbqntzNzvckLOAN8vI3wSs8QzleWKuYySps=.sha256",
+    "text": "[@Alberto](@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519)\r\n\r\nI've been working on a new client! There's lots of missing functionality, but I've been using it as my daily driver for the past week or two.\r\n\r\nI've been posting about it under the hashtag #oasis, and there's a demo available [here](http://oasis-demo.fraction.io/) if you want to see what it looks like.",
+    "mentions": [
+      {
+        "link": "@+ISTRPn8o7Sx667rj1EPtQ9ZPiGLLZMGI7qcJjBoA+8=.ed25519",
+        "name": "Alberto"
+      },
+      {
+        "link": "#oasis"
+      }
+    ]
   },
-  "signature": "8+fuTG/LuvbITYtahx0rGcLrrr/JJSUsxwmg1c92jDRTbZ5ARzn0p9coMuMrxd1w1oldQqCrO5H3PxhYk1sGBw==.sig.ed25519"
+  "signature": "g38tk6mzkbjYEcdqkw7z+LMTrnwOFT4xRXjZMw5tdX6CJIrlpkl5ncbrMAsB0qOTwVrgJtiNOzGsLYjOlUrfBA==.sig.ed25519"
 }
