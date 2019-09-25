@@ -1,15 +1,20 @@
 {
-  "previous": "%DH3FypNOsNVAiD8dsu3e88eSpSghGQO3c+c5FWXrG7k=.sha256",
-  "sequence": 12436,
+  "previous": "%FyyECoqTxI6h+d/GYdDQaTuiEPmfApiYwlns/zy6dTM=.sha256",
+  "sequence": 12437,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569389531800,
+  "timestamp": 1569432641872,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%TRY7+hadcpHpWs9tTgx+QTFbgBoSy03lOowCiEVbDI0=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%9Gi+wNCbfAHjM7yIqli8OQwUfMCBDB/wFC7OoC4uMVY=.sha256",
+    "branch": "%9Gi+wNCbfAHjM7yIqli8OQwUfMCBDB/wFC7OoC4uMVY=.sha256",
+    "text": "[@Ladislas Téléphone](@wFyBqd3Gik2KoFlOI/gkng2UlXZohUImwnyJwmRzKKU=.ed25519)\r\n\r\nThat looks to me like you have an invalid JSON file somewhere. Can you check `~/.ssb/config` and ensure that it's valid JSON? If that isn't it, there are a [few other places you can check](https://github.com/dominictarr/rc#standards), where `${appname}` is `ssb`.",
+    "mentions": [
+      {
+        "link": "@wFyBqd3Gik2KoFlOI/gkng2UlXZohUImwnyJwmRzKKU=.ed25519",
+        "name": "Ladislas Téléphone"
+      }
+    ]
   },
-  "signature": "WSHxI4eeQJsmRdZ2njJWanvbev9+iKk366kuHJjmkSXCcBKRNLXJ1eFaPfmCiN+1j31sQK3bZwsI+UH84D7eCA==.sig.ed25519"
+  "signature": "JetdZRmN3/5ogEKuQRXlsJjZjfyg/E1lgSXc74/FVSmQkSkKcA3N5D4u5QeuFu+8BQR8TVkt3+v39ghdigEoCw==.sig.ed25519"
 }
