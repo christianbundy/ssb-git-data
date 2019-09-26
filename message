@@ -1,15 +1,20 @@
 {
-  "previous": "%6eolIDjjIf14Zmp0fX2dwOjIXu/C8Ba0glo+53MeYR8=.sha256",
-  "sequence": 12472,
+  "previous": "%eDLc5tTKjpMlu+C8/LQQY8q7bxegK+FhlcDa8UmRKwQ=.sha256",
+  "sequence": 12473,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569530493221,
+  "timestamp": 1569534980631,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%m0SX8CET/6vDmq8+Ghn1bst+O2MjSKPI43tDNjw3t6g=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%RyNN/VX86gXD4xME6/m6WgJSsNI92HijyZeWpaoWTzo=.sha256",
+    "branch": "%RyNN/VX86gXD4xME6/m6WgJSsNI92HijyZeWpaoWTzo=.sha256",
+    "text": "[@khimaros](@54Ty4Or83kQxOyUYndMwfOFu4HwZqFRBAW7IpVyB62k=.ed25519)\r\n\r\nThanks a lot! I really appreciate the feedback.\r\n\r\n- 🎉\r\n- 😱 You're absolutely right, thanks for the correction. I *knew* it was weird that I was getting `mod_rewrite` results but it didn't click that I was looking up documentation for the wrong file. Fixed!\r\n- 👍 I feel deeply conflicted about pretending that public posts aren't public, but I've changed the demo so that only replicates my posts until we can build some consensus on The Right Way to do this. I'm worried that Scuttlebutt posts are about as public as you can possibly get, and that hiding them will give a false sense of privacy, but I'd like to discuss rather than make any unilateral decisions.\r\n- 🤔 Not yet, but I'd love to support that once the todo list is a bit smaller. It'd probably be either a self-signed or LetsEncrypt certificate since I don't want to manage it manually. My main use-case is `localhost` hosting, but in the future I'd like to implement some basic authentication so you could host the UI on a trusted [hopefully self-hosted] server.",
+    "mentions": [
+      {
+        "link": "@54Ty4Or83kQxOyUYndMwfOFu4HwZqFRBAW7IpVyB62k=.ed25519",
+        "name": "khimaros"
+      }
+    ]
   },
-  "signature": "JWz4yMe5QKmYu2QDQ3qhqOr8Tz+AmbNS9a1kQIv6go93b61eqe4A1w57ndxo5cEw8IpWAgI31Gh9bUSJY/MWBw==.sig.ed25519"
+  "signature": "1dMY2kDicCg0azBpKfbNC7rxEngKPPBTbELvq/QM3fTgHo9RDNp7YmChTxt4OGkq3EjNTyUAz+UrRTYw9TQzCQ==.sig.ed25519"
 }
