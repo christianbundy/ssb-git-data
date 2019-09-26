@@ -1,15 +1,20 @@
 {
-  "previous": "%tXeC7yjsIR5h3hkL8aWUbQwMYDxCfkv/mv0eUIcuwUE=.sha256",
-  "sequence": 12462,
+  "previous": "%MvdOF+d9sDKuoAI4JEzugz+mf/h4USiOuppIHxn4yUI=.sha256",
+  "sequence": 12463,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569464646488,
+  "timestamp": 1569512825674,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VJNLVxcwUWtAlePSphSympJgg/22QjUaGH0MFspu1tc=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%OXoX8k/0dgxiBWegX1DFHD8bs31zfKDMfCXpuoKAQTI=.sha256",
+    "branch": "%OXoX8k/0dgxiBWegX1DFHD8bs31zfKDMfCXpuoKAQTI=.sha256",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nThank you! I appreciate you taking the time to school me in the basics of topsorting SSB messages.\r\n\r\nOne thing I've been considering, and that I'd love to be corrected on, is that asserted timestamps might give us a foothold to make this easier. Instead of a raw topsort based on *only* message references, I have this nagging feeling that we could do something naive for each message, like:\r\n\r\n```javascript\r\n// Look for all messages referenced by this message.\r\nconst references = message.getReferences()\r\n\r\n// Ensure that references have lower timestamps.\r\nconst hasValidTimestamp = references.every((reference) {\r\n  reference.correctedTimestamp < message.timestamp\r\n})\r\n\r\nif (hasValidTimestamp) {\r\n  // Woo! No topsort needed, assume the timestamp is valid.\r\n  // We don't need to correct the timestamp.\r\n  message.correctedTimestamp = message.timestamp\r\n  messageList.append(message)\r\n} else {\r\n  // Ancestor has a higher `correctedTimestamp`.\r\n  // We have to topsort() and guess new `correctedTimestamp` values.\r\n  messageList = correctTimestamps([...messageList, message])\r\n  // Not sure how the imaginary `correctTimestamps()` should work.\r\n  // Maybe: evenly distribute corrected timestamps between trusted timestamps?\r\n}\r\n```\r\n\r\nIt's worth noting that this would only get us *message timestamps are in a valid topological order*, not  *every server arrives at the exact same ordering of messages*, but we'd only need to do a full topsort when we find a message with an invalid timestamp (and maybe we could even avoid that? I think we'd only have to recompute messages *after* the message we just added to the list).\r\n\r\nAre there any pitfalls you can imagine, or deep sea monsters I'd be wise to avoid? When timestamps are in a valid order I think the compute time scales linearly with the number of edges, but I've only thought about this for a short period of time.\r\n\r\nSuper pumped to check out those links, thanks again!",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "h1HodJj1G5Y3Q27QQCNc3TUbCzI3rDxfALZjiacwMKPxUcf+Ej2vWuJMWJAue2/YBNh33DTqG0K49ZFUW6e4AQ==.sig.ed25519"
+  "signature": "rxnm55joRO8f37sy3aZCMwz4cwUD8ISLx4INU19RJXjRQsWyFkgp5DI5VylwcptvipTdKr8ipRaf9U/BAPThAQ==.sig.ed25519"
 }
