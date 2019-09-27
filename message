@@ -1,20 +1,20 @@
 {
-  "previous": "%NKZPDwtrzFlgLmi5f3RQYkdaYrU3cgmXVD84kfOZeag=.sha256",
-  "sequence": 12511,
+  "previous": "%GL9mgRw8URoKdabnmpMDIR4An7e/j76z/URlHon9nOs=.sha256",
+  "sequence": 12512,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569618243276,
+  "timestamp": 1569620894623,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\r\n\r\nFeeds are only *totally broken* when the network has a divergent view of your feed. This is a bit hard to do, since you'd have to do something like:\r\n\r\n- copy your key to multiple devices\r\n- publish different [valid] messages at the same time\r\n- replicate those messages to different servers\r\n\r\nNow when some server with fork A connects to a server with fork B they won't replicate your messages, but *usually* what happens is:\r\n\r\n- copy your key to multiple devices\r\n- publish a valid message with one device\r\n- replicate that message across the network\r\n- publish a different message on the other device\r\n- try to replicate that message, but fail because they already have the first message\r\n- keep publishing messages and be confused why people can't see you\r\n- re-download your feed from the network\r\n- congrats your fork is gone!\r\n\r\n",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nAre there people who can't see you?\r\n\r\nFWIW I've had problems when using ssb-conn with Oasis where I couldn't get *any* new messages to download, so I'm still using ssb-gossip and ssb-local.\r\n\r\nAre you using ssb-lan on your local? I don't remember what the state of those branches is.",
     "mentions": [
       {
-        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
-        "name": "dangerousbeans"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
     ],
     "root": "%ZnrEWhj5flKD+ts/vVksvvSvTXEoNz3WnOThgdtH4a8=.sha256",
     "branch": []
   },
-  "signature": "9FbOpUYdGoIUoRZfR2eMB2/JdeGn8hLhWORnP83v53rR4yjJNA3jfMkPKCy5nnT0agqg6wL0YjTYOPfNQd1dCg==.sig.ed25519"
+  "signature": "z0b+zbfmaoTfr3eZWtBHYn1aHPv3x+1yWpN6ups9a1ixe76kBFu9FNWQUpbTMuXmwcd7eH6IY8fVVLEAOas5Ag==.sig.ed25519"
 }
