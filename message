@@ -1,25 +1,20 @@
 {
-  "previous": "%CiK2nRXTNdOBdM0PLkUA3PR/n8i5n20F2rsT7Iq71gg=.sha256",
-  "sequence": 12510,
+  "previous": "%NKZPDwtrzFlgLmi5f3RQYkdaYrU3cgmXVD84kfOZeag=.sha256",
+  "sequence": 12511,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569616173593,
+  "timestamp": 1569618243276,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%OobDuE4Q9jaWQhy213RGww9aP13jo7UzA0wVAgqsVNU=.sha256",
-    "branch": "%OobDuE4Q9jaWQhy213RGww9aP13jo7UzA0wVAgqsVNU=.sha256",
-    "reply": {
-      "%OobDuE4Q9jaWQhy213RGww9aP13jo7UzA0wVAgqsVNU=.sha256": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@【﻿Ｎｅｔｓｃａｐｅ Navigator™】](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519) \n\nMaybe: https://www.meltingasphalt.com/interactive/going-critical/",
+    "text": "[@dangerousbeans](@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519)\r\n\r\nFeeds are only *totally broken* when the network has a divergent view of your feed. This is a bit hard to do, since you'd have to do something like:\r\n\r\n- copy your key to multiple devices\r\n- publish different [valid] messages at the same time\r\n- replicate those messages to different servers\r\n\r\nNow when some server with fork A connects to a server with fork B they won't replicate your messages, but *usually* what happens is:\r\n\r\n- copy your key to multiple devices\r\n- publish a valid message with one device\r\n- replicate that message across the network\r\n- publish a different message on the other device\r\n- try to replicate that message, but fail because they already have the first message\r\n- keep publishing messages and be confused why people can't see you\r\n- re-download your feed from the network\r\n- congrats your fork is gone!\r\n\r\n",
     "mentions": [
       {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "【﻿Ｎｅｔｓｃａｐｅ Navigator™】"
+        "link": "@TXKFQehlyoSn8UJAIVP/k2BjFINC591MlBC2e2d24mA=.ed25519",
+        "name": "dangerousbeans"
       }
-    ]
+    ],
+    "root": "%ZnrEWhj5flKD+ts/vVksvvSvTXEoNz3WnOThgdtH4a8=.sha256",
+    "branch": []
   },
-  "signature": "3E7u6sLy+d4bvui+rXLom6ZdDYl2KoLbeqbwW3INVjuydmZFfcFD+Xl8y+AfO0rBbcauMWqMnA07tQ6jVDTmDw==.sig.ed25519"
+  "signature": "9FbOpUYdGoIUoRZfR2eMB2/JdeGn8hLhWORnP83v53rR4yjJNA3jfMkPKCy5nnT0agqg6wL0YjTYOPfNQd1dCg==.sig.ed25519"
 }
