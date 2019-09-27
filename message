@@ -1,20 +1,20 @@
 {
-  "previous": "%JXtWtbyiQOQk/CE96DyEQr2XqTQ0Rn0492w+zqSkP9M=.sha256",
-  "sequence": 12516,
+  "previous": "%2x01bNeI4ju5Tb/2lP2faEs/SbQBWiDNPr01SIjDvY8=.sha256",
+  "sequence": 12517,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569621364093,
+  "timestamp": 1569621444643,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\r\n\r\n[Yeah](https://github.com/staltz/ssb-lan), it's the ssb-conn equivalent of ssb-lcoal with some fun privacy improvements.\r\n\r\n> I don’t see that now that they’re both running the same ID again. Maybe that’s a special case?\r\n\r\nTotally could be, I don't think *same key on multiple devices* is a use-case that developers had (or have) in mind, so it wouldn't surprise me to see some funky behavior.",
+    "text": "[@agentofuser](@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519)\r\n\r\nI think it's because \"query for messages that reference my ID\" are simpler than \"query for messages that references any message that I've posted\", FWIW. 😎",
     "mentions": [
       {
-        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
-        "name": "daan2"
+        "link": "@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519",
+        "name": "agentofuser"
       }
     ],
-    "root": "%ZnrEWhj5flKD+ts/vVksvvSvTXEoNz3WnOThgdtH4a8=.sha256",
+    "root": "%WKrKjDoohSzO9cnVbytzaDmlcGpBwb8o09DXr4266wE=.sha256",
     "branch": []
   },
-  "signature": "c55/QQWNfPgs/dh2IC3Hj/fJVimZoBKRbr2ZgfLF2vT9FFSqpCf87KA5/GLhXlcVu8zyWPgRqkY1NSa03ZqqAg==.sig.ed25519"
+  "signature": "SesZkbYBFixa8LFU8IrZvnG9oyLTsVLb8kKxnrUo1hNcdwgJtD+qeNPq/PPefdYyRrq85gjK1yLRahufEWBHBw==.sig.ed25519"
 }
