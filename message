@@ -1,20 +1,20 @@
 {
-  "previous": "%6q7SX9zHY6Fv0pLpCt10Of0JtaBeUJepguzjYpPS97s=.sha256",
-  "sequence": 12515,
+  "previous": "%JXtWtbyiQOQk/CE96DyEQr2XqTQ0Rn0492w+zqSkP9M=.sha256",
+  "sequence": 12516,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569621129613,
+  "timestamp": 1569621364093,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nThat looks really neat! Do you manage it with a plaintext editor, or is there a CMS component? Any fun tweaks you could point out? I really like the gitbook-ish style, but I'm sure there are upgrades worth making.",
+    "text": "[@daan2](@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519)\r\n\r\n[Yeah](https://github.com/staltz/ssb-lan), it's the ssb-conn equivalent of ssb-lcoal with some fun privacy improvements.\r\n\r\n> I don’t see that now that they’re both running the same ID again. Maybe that’s a special case?\r\n\r\nTotally could be, I don't think *same key on multiple devices* is a use-case that developers had (or have) in mind, so it wouldn't surprise me to see some funky behavior.",
     "mentions": [
       {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "alex"
+        "link": "@Bk5uzkFxdMJnJR+rKVd+X4LO/u+8VV+lA14e+XLabXQ=.ed25519",
+        "name": "daan2"
       }
     ],
-    "root": "%DVhNfqNMhvgbIODccu45jhy+Af8NeAl1TolHhoJ/SeI=.sha256",
+    "root": "%ZnrEWhj5flKD+ts/vVksvvSvTXEoNz3WnOThgdtH4a8=.sha256",
     "branch": []
   },
-  "signature": "K+WX8U2EZAEfNIc8w5T1L7N8FhkOJcUMdxwXO/M/B3+HnBrtL+fkji+Iy6q52o212S7CTZH/qlJuEuxUJI8KCA==.sig.ed25519"
+  "signature": "c55/QQWNfPgs/dh2IC3Hj/fJVimZoBKRbr2ZgfLF2vT9FFSqpCf87KA5/GLhXlcVu8zyWPgRqkY1NSa03ZqqAg==.sig.ed25519"
 }
