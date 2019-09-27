@@ -1,20 +1,15 @@
 {
-  "previous": "%v8rnl+oyo/tAxG7QzVAQvfvdthFZSL+6kbhWmeqovR8=.sha256",
-  "sequence": 12521,
+  "previous": "%0BNeDqRZ09MMgUtNQCfHz00Yvx0/9iQ/HXokBks4/GY=.sha256",
+  "sequence": 12522,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569622765893,
+  "timestamp": 1569626791309,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@agentofuser](@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519)\r\n\r\nThis is so cool! Excited to dig into this, thanks for sharing.\r\n\r\nHere's what I'm seeing right now:\r\n\r\n\r\n```console\r\n$ git clone tor::http://3lytcgmoe2j75c6t.onion/ logit\r\nCloning into 'logit'...\r\nthread 'main' panicked at 'Error proxying to git-remote-http: Os { code: 2, kind: NotFound, message: \"No such file or directory\" }', src/libcore/result.rs:999:5\r\nstack backtrace:\r\n   0:     0x557a3db5786b - std::panicking::default_hook::{{closure}}::hb50c1be487d5e83b\r\n   1:     0x557a3db57547 - std::panicking::default_hook::h22162fa7b1026bf3\r\n   2:     0x557a3db57f30 - std::panicking::rust_panic_with_hook::h4e663330759b90e1\r\n   3:     0x557a3db57ab2 - std::panicking::continue_panic_fmt::hea2c5ffb8af99faf\r\n   4:     0x557a3db57996 - rust_begin_unwind\r\n   5:     0x557a3db6cb5d - core::panicking::panic_fmt::ha8e419005b06d9fa\r\n   6:     0x557a3db4d01e - core::result::unwrap_failed::h87fcbdeb8e1cf12f\r\n   7:     0x557a3db4cdbe - git_remote_tor::main::heed6867a6159cb1b\r\n   8:     0x557a3db4b193 - std::rt::lang_start::{{closure}}::hf2abaf3d5820cc95\r\n   9:     0x557a3db57983 - std::panicking::try::do_call::hb2e93d09483d8e75\r\n  10:     0x557a3db5da4a - __rust_maybe_catch_panic\r\n  11:     0x557a3db5843d - std::rt::lang_start_internal::hf9d5ceedc8e59823\r\n  12:     0x557a3db4cf12 - main\r\n  13:     0x7f27fca84ee3 - __libc_start_main\r\n  14:     0x557a3db4b0ae - _start\r\n  15:                0x0 - <unknown>\r\n```\r\n\r\nI probably did something silly, FWIW. I'll debug more later, just wanted to note the error I saw in case it wasn't just me.",
-    "mentions": [
-      {
-        "link": "@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519",
-        "name": "agentofuser"
-      }
-    ],
-    "root": "%mn2UbfIFvw8IPNgk/tLo2gzm+EE1KIoca9ONzxnEMIg=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%dslRgrS5hh0od1RXqLyVxQCEBVx1I+2YWBAmMUR5nhY=.sha256",
+      "value": 1
+    }
   },
-  "signature": "BfDBLhcDgJ+BXJE8HDGNgrzjEiZebNXor3iAA6VKt6rk7adgLtliNHr5sNThIycjaj8jOIZ03S6dGy2g1KD4Dg==.sig.ed25519"
+  "signature": "uKDOudN3rwtozotWsgrk7USP2AD81hCOYbow9ftqPuBKVik2y8p8iNEfOkECEfMhYnUp+DHjkCp5kKvTwoWZCA==.sig.ed25519"
 }
