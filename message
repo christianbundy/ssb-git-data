@@ -1,20 +1,24 @@
 {
-  "previous": "%EiyUF6ylVqfK8iLZgAq8HeJtH+4cv7HMOvAc6adTDUU=.sha256",
-  "sequence": 12498,
+  "previous": "%GSPiY4r3PgcBBwvPRUpDAbOORmlwkJehzeRPsWpToHc=.sha256",
+  "sequence": 12499,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569607447615,
+  "timestamp": 1569607772305,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\nI've been thinking about using Git as a wiki system, but really need it to be accessible for non-devs. Are there any systems you've found that you could recommend? I've been eyeing [Netlify CMS](https://www.netlifycms.org/) and heard good things, but haven't heard of anyone using it as a wiki.",
+    "text": "# GitBook (?!)\r\n\r\nI've noticed that lots of people in my social network have used GitBook in the past, but when I looked at the open source project I saw a [deprecation warning](https://github.com/GitbookIO/gitbook#%EF%B8%8F-deprecation-warning). I tried using their website, which looks sweet, but I don't think it's compatible with their [deprecated] open source implementation.\r\n\r\nWhat's everyone using these days instead of GitBook? I want to build a small [wiki-like system](%GSPiY4r3PgcBBwvPRUpDAbOORmlwkJehzeRPsWpToHc=.sha256) and was planning to use GitBook, but it's important to me that it's open source. Any ideas?\r\n\r\n#gitbook #wiki",
     "mentions": [
       {
-        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
-        "name": "af"
+        "link": "%GSPiY4r3PgcBBwvPRUpDAbOORmlwkJehzeRPsWpToHc=.sha256",
+        "name": "wiki-like system"
+      },
+      {
+        "link": "#gitbook"
+      },
+      {
+        "link": "#wiki"
       }
-    ],
-    "root": "%O2v4//2ohG9F6GT5PVlCjkjtj1onjhkCETHB1uie+EU=.sha256",
-    "branch": "%O2v4//2ohG9F6GT5PVlCjkjtj1onjhkCETHB1uie+EU=.sha256"
+    ]
   },
-  "signature": "I+h3qIxLhli0bvl+lknXvwMK2Pk3t6dNkYtjfx7ZQZZkFgdU0bA0dG96tPkD/2SOILQSf8CMIjk2/JXnIMyhCw==.sig.ed25519"
+  "signature": "8jQORPNkgguLPiUdSdX82XeRQcXwGKeNT/K+UiwDzXpHjYZrE0GiyBuogzKG+lvrZTN8gpPxOBA/R6ZpV0V4CQ==.sig.ed25519"
 }
