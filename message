@@ -1,30 +1,9 @@
 {
-  "previous": "%qfWW6vwc2MA+im6QFRiuesgnlHb+PGFIKDCSsbq2wD4=.sha256",
-  "sequence": 12480,
+  "previous": "%DfNPkN1bOlAKfSSe0sRgTYgwXY5A9SsENmT5auPgLng=.sha256",
+  "sequence": 12481,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569549399123,
+  "timestamp": 1569549404036,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "text": "[@agentofuser](@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519)\r\n\r\nThis is *so* great to read, I'm loving the ideas behind logit.\r\n\r\nI'd love to hear if you have thoughts about [compression and performance and such](%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256). I copied logit and published a *smol* branch with JSON in the commit messages [here](%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256), but I'm a bit bummed that we have duplicate fields:\r\n\r\n- commit ID == message key\r\n- parent == previous\r\n- author == author + timestamp\r\n- signature == gpgsig\r\n- git has committer\r\n- ssb has sequence number and hash algorithm\r\n\r\nIf we had a git [feed type](https://github.com/ssbc/ssb-keys/pull/61) we could probably reuse these fields, it feels a bit backward since I imagine they don't compress well? Especially since the SSB ecosystem seems to be moving toward CBOR / etc.\r\n\r\nAnyway, I'd love to think and talk more about it, this is fun!",
-    "mentions": [
-      {
-        "link": "@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519",
-        "name": "agentofuser"
-      },
-      {
-        "link": "%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256",
-        "name": "compression and performance and such"
-      },
-      {
-        "link": "%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256",
-        "name": "here"
-      }
-    ],
-    "root": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
-    "branch": [
-      "%QYDBWd1IrmyilTCrTE4okkzSGiafhBgxpJXpBoM+2nc=.sha256"
-    ]
-  },
-  "signature": "XtiPAYrgiFIQp+f7hKldRVFwVMbkLloZ6APiwpudHhLeanDmZyajh9rNHxRMAN3LXfBF9U/KVv2N51sKylOgAQ==.sig.ed25519"
+  "content": "WljRKBUHpOXm/yw25yOoQj9Z7mp0Xemw4b6chZyyWrNV5UqYgvRHJTHSMkXRoyXFNF/58bkTlGVUV0BX8Ykj4UW8hXTR2focJmMJlclBySppXP69PyUV4JTX1TAM3LC792EmCGKj33WFs4FVgKyrLebQH9fi1mUHwGr/WHzhIyWu/I9iEgjMg4Z/clgMl686X2hKDK2BqfolNYEd4VpuktRf3w6GXsByCIBVWBcb25Zd5CwoWb3BWLems5e+HKLLtGOLm0fUXFICrq62K/Kwkr/4U+aZfvGRxtVpZFxsvtaR0c7FnaRdsenSBB3LeDGYJOssO/WYljpSu9/dHreBqn80HRtf5mzVO4SDvS0sHE2R7+eBT5Iub9KUB1eqoycyQEzjY8boClwTJCXsdCQAN7BwEcHbGqEN2203SvTX5fwQ5WdbRoEpSVr6efOEhnsjYQwN80Chxjseof+edJhXR37viS3V+ugCErd8CfZtARDYXkkjMUPRa+rzKyjU9JGXzLHMcQ==.box",
+  "signature": "g2C9rBd/Lkko9K7x/8CJe1AuxFnF/r+w7w8yUwnAcTUkBAEr6hI7P214hBJg1wcgQG+oA5kJ4xoXFQjfQ8ufAg==.sig.ed25519"
 }
