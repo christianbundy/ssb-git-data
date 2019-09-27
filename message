@@ -1,15 +1,30 @@
 {
-  "previous": "%ZFC2k45Y62YF5URWJbNAmQe82YJ7/4/8fUJHkaBYVDQ=.sha256",
-  "sequence": 12479,
+  "previous": "%qfWW6vwc2MA+im6QFRiuesgnlHb+PGFIKDCSsbq2wD4=.sha256",
+  "sequence": 12480,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569548714363,
+  "timestamp": 1569549399123,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%KIW1WJ1wMQX4Jl7CkkZR3mtk9F+kWaYvBAT0JfdOt14=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@agentofuser](@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519)\r\n\r\nThis is *so* great to read, I'm loving the ideas behind logit.\r\n\r\nI'd love to hear if you have thoughts about [compression and performance and such](%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256). I copied logit and published a *smol* branch with JSON in the commit messages [here](%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256), but I'm a bit bummed that we have duplicate fields:\r\n\r\n- commit ID == message key\r\n- parent == previous\r\n- author == author + timestamp\r\n- signature == gpgsig\r\n- git has committer\r\n- ssb has sequence number and hash algorithm\r\n\r\nIf we had a git [feed type](https://github.com/ssbc/ssb-keys/pull/61) we could probably reuse these fields, it feels a bit backward since I imagine they don't compress well? Especially since the SSB ecosystem seems to be moving toward CBOR / etc.\r\n\r\nAnyway, I'd love to think and talk more about it, this is fun!",
+    "mentions": [
+      {
+        "link": "@/6Xvv3L7eYrQDsJQQkhcxf1G8xaP9HIj4LDqAJmYXyw=.ed25519",
+        "name": "agentofuser"
+      },
+      {
+        "link": "%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256",
+        "name": "compression and performance and such"
+      },
+      {
+        "link": "%fn7fVTN5P+ZEl4/pa1IylPrww4bK4JqIaJ5YalLXCjk=.sha256",
+        "name": "here"
+      }
+    ],
+    "root": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
+    "branch": [
+      "%QYDBWd1IrmyilTCrTE4okkzSGiafhBgxpJXpBoM+2nc=.sha256"
+    ]
   },
-  "signature": "Itb0ABy/ELR/95fxtcQZKmxgEMo9XnVW4N1HyBhDUHdMuc2TK9XkxAqldgMknHC+AuAUQzO0GayhyXyL13A5AA==.sig.ed25519"
+  "signature": "XtiPAYrgiFIQp+f7hKldRVFwVMbkLloZ6APiwpudHhLeanDmZyajh9rNHxRMAN3LXfBF9U/KVv2N51sKylOgAQ==.sig.ed25519"
 }
