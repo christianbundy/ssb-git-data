@@ -1,15 +1,31 @@
 {
-  "previous": "%8KppruoUdcoWW5kRsuMB4Qkk+k0MmrqYoBzbtBOOQGk=.sha256",
-  "sequence": 12529,
+  "previous": "%6l5QGt4tYWI/8W3VT6l76X4MnXJIERgGaYiEIr0p9Q0=.sha256",
+  "sequence": 12530,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569682542735,
+  "timestamp": 1569702399573,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%923iWiL7E+1fDiErxvI0ji0SfcQ3rYxWqPMBP4gxj3M=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "# Scuttlebutt and copyright\r\n\r\nI've been thinking lots about copyright over the past few years, mostly in the context of software and its source code, but I've just realized that I don't understand how Scuttlebutt (the social system) handles copyright. **Can someone point me in the right direction?**\r\n\r\nI've been operating under an implicit [magical] copyright license what gives our peers the right to re-broadcast our feed, but I don't remember actually giving consent for that. Is this the case, or are we just trusting our friends not to sue us for copyright infringement? I remember some discussion between [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) and [@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519) a while ago but I don't remember think there was a conclusion.\r\n\r\nWould it be wise to avoid replicating content we don't have an explicit copyright for? Or has this problem already been solved through some hand-wavey legal magic?\r\n\r\n#copyright #copyleft #ssb",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      },
+      {
+        "link": "#copyright"
+      },
+      {
+        "link": "#copyleft"
+      },
+      {
+        "link": "#ssb"
+      }
+    ]
   },
-  "signature": "qNXwbFotGzuku/tKWk8YN/nKQWu5mOvfco/i6jev6hngcc/xe/I4Wi6Dtvy1WWPik3rGlPhy2WQqAkQg24ruBQ==.sig.ed25519"
+  "signature": "q+1pd2/qEU6Vv3liY/hI7O5dDUd2LjMNh+M2bkOObblDKfYoUFhQNqK+B/k/AvACXGl2hWaStcpwRZFb33q8Cg==.sig.ed25519"
 }
