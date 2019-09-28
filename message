@@ -1,26 +1,24 @@
 {
-  "previous": "%ltv437h0pK2dlUwppGHn3xMkZIf4z1hY1piYtwLEDvk=.sha256",
-  "sequence": 12539,
+  "previous": "%YVBOKSsYwbGczxm2s5ZaHQEe/uLvJJ+T3xGFitLbl9I=.sha256",
+  "sequence": 12540,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569713908231,
+  "timestamp": 1569714502920,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nHmm, that's really strange -- I think those messages are passing `isReply()` and `isNestedReply()` from ssb-thread-schema, are there other tests I should be doing to ensure that I'm not posting broken replies?\r\n\r\n> Did you grok what I was warning you about that you cannot build a tree like Reddit / HN with your schema?\r\n\r\nI don't, but maybe I've made an implementation mistake while trying to copy Patchwork's schema? Using the nodes from your graphs:\r\n\r\n## reply all\r\n\r\nI have an on-topic reply to `root` and everyone else who subscribes to `root` should see it. Record of current thread topology stored in `branch` is a string/array of unreferenced messages.\r\n\r\n```json\r\n{\r\n  \"key\": \"C\",\r\n  \"value\": {\r\n    \"root\": \"A\"\r\n    \"branch\": \"B\"\r\n  }\r\n}\r\n```\r\n\r\n\r\n## [nested] reply\r\n\r\nI have an off-topic reply (or \"tangent\") to a specific message which I'll treat as the `root`, which is a fork from a parent called `fork`. No `branch` property because I'm starting a new topic.\r\n\r\n```json\r\n{\r\n  \"key\": \"m\",\r\n  \"value\": {\r\n    \"root\": \"A\"\r\n    \"fork\": \"C\"\r\n  }\r\n}\r\n```\r\n\r\n## reply all to [nested] reply (same as reply all)\r\n\r\nI have an on-topic reply to `root` and everyone else who subscribes to `root` should see it. Record of current thread topology stored in `branch` is a string/array of unreferenced messages. Our `root`'s property called `fork` is not referenced because we don't want to notify people who have subscribed to the thread we're forking off of.\r\n\r\n```json\r\n{\r\n  \"key\": \"n\",\r\n  \"value\": {\r\n    \"root\": \"m\"\r\n    \"branch\": \"m\"\r\n  }\r\n}\r\n```\r\n\r\n## `n` and `Y`\r\n\r\nIt's unclear to me whether `n` and `Y` are meant to be on-topic replies or off-topic tangents, but I'll provide both examples:\r\n\r\n### reply all\r\n\r\n```json\r\n{\r\n  \"key\": \"n\",\r\n  \"value\": {\r\n    \"root\": \"m\",\r\n    \"branch\": \"m\"\r\n  }\r\n}\r\n```\r\n\r\n### [nested] reply\r\n\r\n```json\r\n{\r\n  \"key\": \"n\",\r\n  \"value\": {\r\n    \"root\": \"m\",\r\n    \"fork\": C\"\r\n  }\r\n}\r\n```\r\n\r\nHopefully this is helpful and not way more confusing?\r\n\r\n> If you’re talking about branch being able to have multiple keys in it then I’m worried and we should talk.\r\n\r\nI was talking about my `root` (your `fork`) having multiple keys in it, like how Git has merge commits with multiple parents. Sometimes we're having the same conversations in multiple places and it'd be cool to reply to multiple comments and consolidate into one thread.\r\n\r\nJust so I know I'm not losing it: branch *does* get multiple keys, right? For example, if `B` and `C` are replies to `A` that happen at the same time (unaware of each other), then `D` might have `{ \"branch\": [\"B\", \"C\"] }`?\r\n\r\n> Do you have more / different energy for this now you’re building Oasis?\r\n\r\nYeah, I'm feeling much more empowered and excited now that I'm working on code that I'm more familiar with. It feels less #somebody-should and more #me-can.",
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519)\r\n\r\n> Umm, I think some of the pubs mirror ssb pages into web pages\r\n\r\nYeah, I started thinking about it in [this context](%XmCVkyxAjN/9aJnZxtkB7/J22HreSMOYp9GLGu4Nvkk=.sha256), but realized that even opting into `publicWebHosting` might not prevent someone from suing you.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
       },
       {
-        "link": "#somebody-should"
-      },
-      {
-        "link": "#me-can"
+        "link": "%XmCVkyxAjN/9aJnZxtkB7/J22HreSMOYp9GLGu4Nvkk=.sha256",
+        "name": "this context"
       }
     ],
-    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "root": "%MTl0lWMR8ALjKbUVnRCQkwQ+446F5h9PSxPhp/Sxo5w=.sha256",
     "branch": []
   },
-  "signature": "qYfobPAkyAl9hBFuTtYzCvp/SL3QkXpv3Uj8I1Xlm2KSGrgnhn7FYgXu9/EqoN0K+8wqGU/brDWvPUWAljD3Bw==.sig.ed25519"
+  "signature": "c765ZjUkgRILZwbbhr33Go33NAXBvofar3f2ApMDS4Jt7bg8gowyF8ATb9MV1LZtYu6/GhNB1KPGPdM9PEhCBQ==.sig.ed25519"
 }
