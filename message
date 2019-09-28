@@ -1,15 +1,20 @@
 {
-  "previous": "%44ZcPkppmlKpWwYCWgUCY4Mw7F0dVpveFm2gaA305sI=.sha256",
-  "sequence": 12526,
+  "previous": "%zWofeUe4av52LZIbEtH5CPsT9omCGyvV5OHpGPd0U7E=.sha256",
+  "sequence": 12527,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569642223737,
+  "timestamp": 1569644196923,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Prc3SyXFtoaOGQ1V118mhIqiDanfBjwI6zBcePGJ5yY=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nYeah, I've been thinking about this in the context of email, calling them *reply* and *reply all*, which I'm presenting in the UI as a sub-thread / nested reply like Hacker News or Reddit or blogs with nested comments.\r\n\r\n[This message](http://localhost:3000/raw/%25wJhRKV7WyfwusYliKuoyM7os0tuTz4LpmeJcWgMulEw%3D.sha256) was meant to be a **reply all** that shows up at the end of the linear on-topic conversation.\r\n\r\n[This message](http://localhost:3000/raw/%25wJhRKV7WyfwusYliKuoyM7os0tuTz4LpmeJcWgMulEw%3D.sha256) was meant to be a **reply** that shows up under the message you're replying to in order to start an off-topic conversation.\r\n\r\nAre those showing up all broken on your side? 😕\r\n\r\n> My current feeling is that it would be good to sit down and talk about what actual properties we want for conversations and then design a spec which meets those needs.\r\n\r\nI'd love to do this when you have time, maybe next week or the week after? Bugs are inevitable but I'd love to nail down exactly what the current spec is so that I can be sure I'm not breaking anything. Talk about the future would be great too, I can't decide whether multi-parent replies are a great idea or absolutely terrible.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "branch": []
   },
-  "signature": "jN/naP81epUXn8L2SnGF8zt8lzo8hp0NhXMGl/h87W8UfKbO/8ZLpqcvhTUn+EHPlLrlRieeJKMbYURmXMMtAA==.sig.ed25519"
+  "signature": "HuW+nZfFPdO2bDPq6aNVzNG60PVbA+aFTWvDpi9X/6T7CBaak3D4rMOmf+S+lyZIpKs0rNOLy+zmTgyEOHTmAg==.sig.ed25519"
 }
