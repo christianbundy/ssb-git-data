@@ -1,15 +1,20 @@
 {
-  "previous": "%9zshM8JDWAbptC22t0itGBQo9cjFSLJJhfMd4Sp4fuw=.sha256",
-  "sequence": 12549,
+  "previous": "%Gcfu0bUQXGnhTMaXSmNHSuUUMya2rb+iieVSXbKsYU8=.sha256",
+  "sequence": 12550,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569771467765,
+  "timestamp": 1569772961530,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%s2nB+4isSdzBT0/cbcvzuPSUdA3nGGHNKIS7y3mqc4M=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nRight, I think there are two problems:\r\n\r\n- variations we know about when publishing\r\n- variations we learn about later\r\n\r\nPublishing `{ \"flipped\": true }` is great when you know you're publishing a distinct message flavor that other clients might have trouble understanding. Publishing `{ \"userAgent\": \"oasis@2.1.3\" is great when you realize, months later, that you were accidentally publishing buggy messages and you want to be able to retroactively declare that messages posted with a client use some variation like `{ \"upsideDown\": true }`.\r\n\r\nPersonally, I'd be happy to support both of these.\r\n\r\nI'd love a shared [multiformats-style table](https://github.com/multiformats/multiaddr/blob/master/protocols.csv) where we share well-known semantics. For example:\r\n\r\n```json\r\n{\r\n  \"patchbay\": {\r\n    \"version\": \"*\",\r\n    \"flavors\": {\r\n      \"flipped\": false\r\n    }\r\n  },\r\n  \"oasis\": {\r\n    \"version\": \"*\",\r\n    \"flavors\": {\r\n      \"flipped\": true\r\n    }\r\n  }\r\n}\r\n```",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ],
+    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
+    "branch": []
   },
-  "signature": "IRNEV/xFhvsu1wRMUZBYLI1jWryh8X/Z+Uo/vv6t+zkzUNuuMMfB+neZ7Prpartve5EwMvZ7uWPbs6tlPX90Cg==.sig.ed25519"
+  "signature": "L2jWtpNDtzEGuNzyp8r1w+DgMHbpbwEfU6NoNKWuG5w2kG1NpOa1cnt0sN9M6U3ITbbbcZ1+4Z7VAU83mWtVDg==.sig.ed25519"
 }
