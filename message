@@ -1,20 +1,15 @@
 {
-  "previous": "%YI/IP+zyvNdAnh66czGZOoW23mv/Y7kNQMRy55tIgNQ=.sha256",
-  "sequence": 12561,
+  "previous": "%tCBJo4+2fmLVO/ylEF+M1f/9vVCquCkaV1yFpzvUXZ4=.sha256",
+  "sequence": 12562,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569783786800,
+  "timestamp": 1569785073081,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519)\r\n\r\n> From my perspective it wold make sense to have a message-type to add/remove contributors so clients can safely ignore all other feeds when assembling a repository. \r\n\r\nYeah, which in the context of Git would be a commit would probably be either a [trailer](https://git-scm.com/docs/git-interpret-trailers) or a file in the repository. Either way, we'd need to validate each message and ensure that it's signed by a key that's authorized to commit to that branch.\r\n\r\nMaybe there's some method of using a custom signature check with Git's `--verify-signatures` option?",
-    "mentions": [
-      {
-        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-        "name": "VI"
-      }
-    ],
+    "text": "> Maybe there’s some method of using a custom signature check with Git’s `--verify-signatures` option?\r\n\r\nI found [how GitHub supports S/MIME signatures](https://github.com/github/smimesign) and it's actually beautiful:\r\n\r\n```console\r\n$ git config --local gpg.x509.program smimesign\r\n$ git config --local gpg.format x509\r\n```\r\n\r\nEven just a simple implementation that enforces a rule like \"gpg signature is valid and key exists in HEAD's `AUTHORS.gpg`\" would solve the problem. I'm a bit surprised that there aren't already tools that do this. ",
+    "mentions": [],
     "root": "%K72sSk9yIc7gAPcvt2CMR0N7rrTkp0V3UHa/bpo5rSI=.sha256",
     "branch": []
   },
-  "signature": "raXLfsEZSOf+LhxinQP2ZvudCxDfZYujzq89O/i5ltZhHaktoswQ/P+L4SkGTNlBOVM6HGvbfUU37cqVi8kIDA==.sig.ed25519"
+  "signature": "vqQNSrPYCdsGlUD7V1X3o7XJja63MGvxSxEoZN5M5404RL3947CkzbV/XUjmUUBG4LBSsNaVn7Lo+peiJS4OAg==.sig.ed25519"
 }
