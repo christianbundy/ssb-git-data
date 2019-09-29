@@ -1,15 +1,20 @@
 {
-  "previous": "%tCBJo4+2fmLVO/ylEF+M1f/9vVCquCkaV1yFpzvUXZ4=.sha256",
-  "sequence": 12562,
+  "previous": "%hqafUuCeU84fltSnYLnqzsXY5cU1iGgscyZAS5pbAP8=.sha256",
+  "sequence": 12563,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569785073081,
+  "timestamp": 1569785652000,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> Maybe there’s some method of using a custom signature check with Git’s `--verify-signatures` option?\r\n\r\nI found [how GitHub supports S/MIME signatures](https://github.com/github/smimesign) and it's actually beautiful:\r\n\r\n```console\r\n$ git config --local gpg.x509.program smimesign\r\n$ git config --local gpg.format x509\r\n```\r\n\r\nEven just a simple implementation that enforces a rule like \"gpg signature is valid and key exists in HEAD's `AUTHORS.gpg`\" would solve the problem. I'm a bit surprised that there aren't already tools that do this. ",
-    "mentions": [],
-    "root": "%K72sSk9yIc7gAPcvt2CMR0N7rrTkp0V3UHa/bpo5rSI=.sha256",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nFun! I'll be interested to see their source.\r\n\r\nI just did some digging, and it looks like the licenses are:\r\n\r\n- AGPL-3.0 since [June 2017](https://github.com/ssbc/patchwork/commit/47ec0958bdfe477219b584cedda2d6090c92ba64) (commit 442)\r\n- GPL since [October 2016](https://github.com/ssbc/patchwork/blob/0405c2c6e56360eb92b2acbfa5f6ea97ddc20475/package.json) (commit 16)",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ],
+    "root": "%5PYA8HMAuCyauHkcFuozC0FX7jH7kLxYzM/ywZPyt9k=.sha256",
     "branch": []
   },
-  "signature": "vqQNSrPYCdsGlUD7V1X3o7XJja63MGvxSxEoZN5M5404RL3947CkzbV/XUjmUUBG4LBSsNaVn7Lo+peiJS4OAg==.sig.ed25519"
+  "signature": "mxX85GGBs5Q5oUMmD3/fR13FSlJZxiFJksCTvUhrJQVZ74Ml6vcIhq35LOW2lu0Bi0nwY3ahCiMVZZjndf4QBQ==.sig.ed25519"
 }
