@@ -1,15 +1,20 @@
 {
-  "previous": "%9QXYT//uGy3EKCNha/TIiEvMXmr4OkmSFy5bTz/Eans=.sha256",
-  "sequence": 12560,
+  "previous": "%YI/IP+zyvNdAnh66czGZOoW23mv/Y7kNQMRy55tIgNQ=.sha256",
+  "sequence": 12561,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569781863339,
+  "timestamp": 1569783786800,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%PODl+rEWMnegi76g79EEO3X+rZS2RE1ly3klkIWXqhU=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519)\r\n\r\n> From my perspective it wold make sense to have a message-type to add/remove contributors so clients can safely ignore all other feeds when assembling a repository. \r\n\r\nYeah, which in the context of Git would be a commit would probably be either a [trailer](https://git-scm.com/docs/git-interpret-trailers) or a file in the repository. Either way, we'd need to validate each message and ensure that it's signed by a key that's authorized to commit to that branch.\r\n\r\nMaybe there's some method of using a custom signature check with Git's `--verify-signatures` option?",
+    "mentions": [
+      {
+        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
+        "name": "VI"
+      }
+    ],
+    "root": "%K72sSk9yIc7gAPcvt2CMR0N7rrTkp0V3UHa/bpo5rSI=.sha256",
+    "branch": []
   },
-  "signature": "9TSDpdHkNSgBt6K2PkEZ3WhevOrL9tZZ0HldkeKAKVAPRBAy/J35qnDp0FIgUUXT7HXxhyfc/phFZF98XKZ8Dg==.sig.ed25519"
+  "signature": "raXLfsEZSOf+LhxinQP2ZvudCxDfZYujzq89O/i5ltZhHaktoswQ/P+L4SkGTNlBOVM6HGvbfUU37cqVi8kIDA==.sig.ed25519"
 }
