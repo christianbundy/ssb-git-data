@@ -1,20 +1,24 @@
 {
-  "previous": "%bFzLFm8VRCncYIZoIBmfSt8Ai5rHnJu9zwwkgIyp7pQ=.sha256",
-  "sequence": 12558,
+  "previous": "%AizDcvs3H3eSo4nd5WEeYTncLEYBYyfRjdwlPpJtito=.sha256",
+  "sequence": 12559,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569781538241,
+  "timestamp": 1569781858551,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Norddeutscher Honigdachs](@RAserlXFEyOZko7/wNxtSHbdrynNdpMhSMzWLyPFCLQ=.ed25519)\r\n\r\nIt's up to the client, but the default for the popular SSB clients is 5 MB.",
+    "text": "[@VI (phone)](@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519)\r\n\r\nI don't think that this is a solved problem yet -- unless the end-user is verifying Git signatures from a known-good list of contributors then the repository is only as good as the person you got it from.\r\n\r\nI'd like to build a [Git feed type](%DfNPkN1bOlAKfSSe0sRgTYgwXY5A9SsENmT5auPgLng=.sha256) where a single linear Git branch is its own SSB feed, and would dig any thoughts you have on specifying the authorized contributors in the Git repo. Is there a well-known way to specify \"here are the Git contributors, only trust commits signed by these keys\" in a Git repository? ",
     "mentions": [
       {
-        "link": "@RAserlXFEyOZko7/wNxtSHbdrynNdpMhSMzWLyPFCLQ=.ed25519",
-        "name": "Norddeutscher Honigdachs"
+        "link": "@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519",
+        "name": "VI (phone)"
+      },
+      {
+        "link": "%DfNPkN1bOlAKfSSe0sRgTYgwXY5A9SsENmT5auPgLng=.sha256",
+        "name": "Git feed type"
       }
     ],
-    "root": "%9/vQLQfUMEr5wQwgHZA54eIiXNBG3IbZfLwx3ij0TRw=.sha256",
+    "root": "%K72sSk9yIc7gAPcvt2CMR0N7rrTkp0V3UHa/bpo5rSI=.sha256",
     "branch": []
   },
-  "signature": "xdRG4JLIXySOnqgCJg74408tI41V1VUDIpn13ykJ4hFVBTsJbcinef98RLaFzbLjxpSxPtXN8VljRu6YikukBQ==.sig.ed25519"
+  "signature": "itgzjfBki7cG1wdn7ruVUne8n2ClvBG/3KGVH8tIutCreMe7FRiIqLMN8lqqOZEzm2zhfcMMudjJb5RdGWyeBg==.sig.ed25519"
 }
