@@ -1,18 +1,15 @@
 {
-  "previous": "%39zsY+Pm/pfr/hsuI8F/69NczlAjI0RmqkKwfy1oBZA=.sha256",
-  "sequence": 12551,
+  "previous": "%U+/gAjOHA82+Gp1JZT6stjl3OxB9d9b2HFrQDpex1Uw=.sha256",
+  "sequence": 12552,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569774545690,
+  "timestamp": 1569774559189,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Collaborative Translation\r\n\r\nI've been thinking about translating Oasis to other locales and I'm considering creating an interface to add and modify translations from within the app. Ignoring the [copyright](%MTl0lWMR8ALjKbUVnRCQkwQ+446F5h9PSxPhp/Sxo5w=.sha256) thing, maybe people could publish these to the network to create a collaborative translation system? I'm imagining:\r\n\r\n|  language |  expression         |\r\n|-----------|---------------------|\r\n|    en     |  Hello, my friend.  |\r\n|  es       |  Hola, mi amigo.    |\r\n|  de       | Hallo, mein Freund. |\r\n\r\nMy intuition is that people more knowledgeable than myself have already thought about P2P translation systems. I've been trying to avoid thinking about it, but it might be worthwhile to use region subtags like `en-US` or `es-MX`. Anyway, that's one more idea out of my head and onto the butt.",
-    "mentions": [
-      {
-        "link": "%MTl0lWMR8ALjKbUVnRCQkwQ+446F5h9PSxPhp/Sxo5w=.sha256",
-        "name": "copyright"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%Pmhf/jkV/E1vo0LZxQsHM+jme34YwBdqV1khqAfuSDw=.sha256",
+      "value": 1
+    }
   },
-  "signature": "a6dsKITdSR7Zpz8oQgp5jp8cv8p9Xkx4IoLvpJ9C++sVkpl3XIkbDcHxYG4zJdScEbgxpjWcyurVvS+qXX8SDA==.sig.ed25519"
+  "signature": "nvsol3BELvkgygZ8ImPYQ3Wq2Vg23IFORdlRycmZyqZR6m3ikCQWlnXoKzaO6ZmgqDOBvKoBkNhhJO7k1AgwAg==.sig.ed25519"
 }
