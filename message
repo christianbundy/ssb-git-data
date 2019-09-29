@@ -1,15 +1,27 @@
 {
-  "previous": "%RBDkZZE8TMJr5/4RLz4Srf4Gf0wIMs8LXlcIn7Y3l5c=.sha256",
-  "sequence": 12570,
+  "previous": "%wmZ5YdDyZTJzNT0uhJ36D/ZgDA/f3bLE2mzKnJJwHnw=.sha256",
+  "sequence": 12571,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569788096239,
+  "timestamp": 1569790463421,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%IOn2BhrE+yMccjHnB3wyK+49wdNImjJ1bI1UkeJ49P0=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nThanks! I want to make sure I'm aware of your boundaries in the future, could you help me understand your expectations around `publicWebHosting` and our expectation of privacy?\r\n\r\nIn case it's helpful, my model of SSB is that posts are meant to be shared with anyone who will download them. I think we should be mindful about what we download (e.g. #free-listening) but I've been assuming that our default stance is *please replicate my feed*.\r\n\r\nMy sense is that you're feeling more like *please replicate my feed to any SSB node or trusted friend, but no strangers*, is that right? I guess I'm looking for more information on how to interpret `publicWebHosting`, too.\r\n\r\nTo be explicit, I'm happy to respect `publicWebHosting`, but I'm not sure what the default should be. Do you feel strongly that we should assume `false` by default? Or just that we should respect it when it's `true`?",
+    "mentions": [
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "#free-listening"
+      }
+    ],
+    "root": "%ugCIEn3lSXIU+NkmTJpUNBCv1qZIDhXfAQJF4Yi3ces=.sha256",
+    "branch": []
   },
-  "signature": "YprzGe2Nvt87u4KD+UrPmkFHWk7ekwSxQ1meBrWa+vhqZm+761LvrBldaHqsITfZnLBQXr9kP67bMjYQkmcQDA==.sig.ed25519"
+  "signature": "QeAfklWtW/6Dxu2PczvuLv5KX1g0qcGjZVwiPo2NZ7reFVRne8LCjNn9gp25PlDL6HNG1IWL3NfGba/FAje/Aw==.sig.ed25519"
 }
