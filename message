@@ -1,20 +1,15 @@
 {
-  "previous": "%J/GNdXmuQZx1W3zEcypEUPJzL+0gLsITZeIdgYOj4tI=.sha256",
-  "sequence": 12569,
+  "previous": "%RBDkZZE8TMJr5/4RLz4Srf4Gf0wIMs8LXlcIn7Y3l5c=.sha256",
+  "sequence": 12570,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569788075671,
+  "timestamp": 1569788096239,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Emmi Bevensee](@5fX6QTmue/udf7tLwW25vQ63wZSENrksghBt6vfL4/I=.ed25519)\r\n\r\nOh, I hadn't even considered adding a layer of clever code on top, I was just imagining a naive relationship between phrases that could let people implement a simple translation.\r\n\r\nFor example, the client currently has text like \"public\", \"reply all\", \"profile\", \"like\", \"parent\", etc., and it'd be cool to let people translate these to their preferred languages (and contribute those translations to the commons).",
-    "mentions": [
-      {
-        "link": "@5fX6QTmue/udf7tLwW25vQ63wZSENrksghBt6vfL4/I=.ed25519",
-        "name": "Emmi Bevensee"
-      }
-    ],
-    "root": "%U+/gAjOHA82+Gp1JZT6stjl3OxB9d9b2HFrQDpex1Uw=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%IOn2BhrE+yMccjHnB3wyK+49wdNImjJ1bI1UkeJ49P0=.sha256",
+      "value": 1
+    }
   },
-  "signature": "tkENFAq4MF+CQi67FOGvxU8HJpVdV+HaTviLTZxu/LGWd1+YyGbQawB1uvCBEQNBEspkTRKF+WmtFQPdV9qkBw==.sig.ed25519"
+  "signature": "YprzGe2Nvt87u4KD+UrPmkFHWk7ekwSxQ1meBrWa+vhqZm+761LvrBldaHqsITfZnLBQXr9kP67bMjYQkmcQDA==.sig.ed25519"
 }
