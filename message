@@ -1,20 +1,15 @@
 {
-  "previous": "%hqafUuCeU84fltSnYLnqzsXY5cU1iGgscyZAS5pbAP8=.sha256",
-  "sequence": 12563,
+  "previous": "%FSEZOVzhWyAODxH+OIWiKv9l9C97BcPLCgXWWhbBEDI=.sha256",
+  "sequence": 12564,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569785652000,
+  "timestamp": 1569785659999,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nFun! I'll be interested to see their source.\r\n\r\nI just did some digging, and it looks like the licenses are:\r\n\r\n- AGPL-3.0 since [June 2017](https://github.com/ssbc/patchwork/commit/47ec0958bdfe477219b584cedda2d6090c92ba64) (commit 442)\r\n- GPL since [October 2016](https://github.com/ssbc/patchwork/blob/0405c2c6e56360eb92b2acbfa5f6ea97ddc20475/package.json) (commit 16)",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      }
-    ],
-    "root": "%5PYA8HMAuCyauHkcFuozC0FX7jH7kLxYzM/ywZPyt9k=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%EBLXG1RnT2gRfkU8yH3xX1ojd79imRUJMNrsMu/++k4=.sha256",
+      "value": 1
+    }
   },
-  "signature": "mxX85GGBs5Q5oUMmD3/fR13FSlJZxiFJksCTvUhrJQVZ74Ml6vcIhq35LOW2lu0Bi0nwY3ahCiMVZZjndf4QBQ==.sig.ed25519"
+  "signature": "TzocCmy75rvBjg8yxYuIkVbcct/WWBZx7qqZslowIy6w8VXllatcN2HqX99hS2CRZj4e/5NsaDjUP64iX0/aDg==.sig.ed25519"
 }
