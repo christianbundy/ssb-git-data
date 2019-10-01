@@ -1,15 +1,15 @@
 {
-  "previous": "%y84Gq8CK0D0tH5QMvRauETxlgodsw7Kw0HfTuKevrko=.sha256",
-  "sequence": 12616,
+  "previous": "%zIwep6LkT2xf5uU0envL5fvAkrmYn6JS3OL4e+cIadI=.sha256",
+  "sequence": 12617,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569938771926,
+  "timestamp": 1569939424728,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hjCPb7X7WREa3jeZxeyYHu/ceW1zs2rtKgfIt2e054Q=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "> They’d not be in the list of authorized authors, and thus wouldn’t be seen as authorized to edit the authorization list to include themselves…\r\n\r\nI think this is good. I think you should probably be able to authorize your own key (in case of a fork / development) or authorize your friends keys (in case of a fork they maintain). I think that the really important bit is that HEAD is signed by someone we trust, that way there can be intermediate commits signed by an untrusted contributor without problems.",
+    "mentions": [],
+    "root": "%K72sSk9yIc7gAPcvt2CMR0N7rrTkp0V3UHa/bpo5rSI=.sha256",
+    "branch": []
   },
-  "signature": "d6M/pwCyFlYFJCKYSdEF9AOw3+Uzxwu/IGDoMV7QX4TJzkZaZH/H6uIaDwtxcM08SjPBwvhh6/qks+vWtXbVDw==.sig.ed25519"
+  "signature": "zvSQkI2NGluiGgh6mXVp4WDziTTbjYH3QhEOebKTlzDhSJYuDNXhcwZ3BYcf5gRt4qPXWy/nLM/KnVKRquFYCw==.sig.ed25519"
 }
