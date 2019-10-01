@@ -1,15 +1,20 @@
 {
-  "previous": "%S2puOagMbjmvaCnPIeUPq4H1SxqadXdhexs137wPD8I=.sha256",
-  "sequence": 12638,
+  "previous": "%B9stwj7MyXfqMPdh6ny0IX3CSJvUN1bjL2yDi3IaNjQ=.sha256",
+  "sequence": 12639,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569956138161,
+  "timestamp": 1569961069790,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RMHRsON38zkPspysKAcAUwAC4HV6CxbjGww0Pe7FNE0=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@Murilo Polese](@NcgzCoOPLjSkj9Y+GIMFbhxbqIzJCOwYBn/QQDYAOmk=.ed25519)\r\n\r\nThanks for the kind words!\r\n\r\n> I had some issue with the installation process that people helped me on IRC (was it you, maybe? I’m burrilove hahaha).\r\n\r\nThat wasn't me, but if you remember the problems I'd love to help resolve them or add notes somewhere so others have an easier time.\r\n\r\n> On “mentions” I can also see my own posts, this is a bit weird I think hahaha I have that on my profile already.\r\n\r\nYeah, that *is* weird. That should be fixed now though, please let me know if you experience this problem in the latest version (2.5.3). Unfortunately my fix *also* removed the ability to see your own posts when browsing a hashtag, but [it's on my to-do list](https://github.com/fraction/oasis/issues/15).\r\n\r\n> I don’t know how to follow other people\r\n\r\nYeah, this is very high on my to-do list as well. I've created a [roadmap](https://github.com/fraction/oasis/blob/master/docs/roadmap.md) of the features I'm working on right now, and once those are done I think Oasis should be a full-featured client.\r\n\r\n> Then maybe the most obvious one: I can’t create a post?\r\n\r\nThis should be fixed in the latest version too! 🤞\r\n\r\nThanks for all this great feedback, I'd love to hear if you have any pain points or suggestions after upgrading to the latest versions.",
+    "mentions": [
+      {
+        "link": "@NcgzCoOPLjSkj9Y+GIMFbhxbqIzJCOwYBn/QQDYAOmk=.ed25519",
+        "name": "Murilo Polese"
+      }
+    ],
+    "root": "%zSCYMq3S9OMX3iKo10SU/bfLdxmdEsxocNgF1/fpJdk=.sha256",
+    "branch": []
   },
-  "signature": "IH40hTqZ0cgAP1ZPSNjFc3S607PSKh/Wh4T3UYgQoZQRQnu+zQ/umqEFxPBwUfRSLXqgZLJmXxM+EKVvUapXCA==.sig.ed25519"
+  "signature": "3HKHPZjQW7oOPOr5oEBkb6m9NwCRBnIwaMPeX6sChzuLvG6vph3uJcnYcMw9bEzJKBK0WV/HGfIy5ZyCPQi4CQ==.sig.ed25519"
 }
