@@ -1,20 +1,20 @@
 {
-  "previous": "%ikdv+cAE6FMJtV2bsdtJNoQhTlYmdGrYr+DULLQdOuU=.sha256",
-  "sequence": 12641,
+  "previous": "%H9YvhqN+Sbpc/EG5Jlg3jgDh3A6w0Tp2xgC7LSZ2H7s=.sha256",
+  "sequence": 12642,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1569961408521,
+  "timestamp": 1569968601487,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@user](@nNxGFzKwJHkRzXmFktoZsf1hw8mi4kMhN+Ci68B2LKU=.ed25519)\r\n\r\nThis isn't currently supported, but it's being worked on [here](https://github.com/ssbc/patchwork/pull/1068) if you'd like to follow its progress.",
+    "text": "[@Arthur](@RenYBCtJFw02LEJoeXIwYC2/kg/JU7aRu3r+dkH5jPA=.ed25519)\r\n\r\n> concept of a repo hash/head/branch\r\n\r\nI think this is an important distinction to make. My understanding is that git-ssb implements a *repository*, but once we have multiple SSB feed types we could implement a Git branch as a Scuttlebutt feed that gets gossiped throughout the network rather than implementing repositories in our personal feeds.",
     "mentions": [
       {
-        "link": "@nNxGFzKwJHkRzXmFktoZsf1hw8mi4kMhN+Ci68B2LKU=.ed25519",
-        "name": "user"
+        "link": "@RenYBCtJFw02LEJoeXIwYC2/kg/JU7aRu3r+dkH5jPA=.ed25519",
+        "name": "Arthur"
       }
     ],
-    "root": "%Xwk+Aj/vsmQ7lWkopCYepuAplvhvnJiu2057yeulhSw=.sha256",
+    "root": "%RMHRsON38zkPspysKAcAUwAC4HV6CxbjGww0Pe7FNE0=.sha256",
     "branch": []
   },
-  "signature": "WqmmNZPxZmQP3XqNgHMl6UZTO7Qxepn6PRmsLvM1KGe5MVB1L4fDTSHr40n/E1bJRT5qHDQXpYPAF+BAvC6kAw==.sig.ed25519"
+  "signature": "tpYPiFcxFSTa/5mtHVFzm79Xc9dXfvoH1Bpj/3gmvO5+WU+SORJvLEYdLhVgd3jH3lFiqhFSAaVrGy/WLhxaCg==.sig.ed25519"
 }
