@@ -1,17 +1,26 @@
 {
-  "previous": "%95/aUsEPjLE7NenNaJeCxmkmkHUj4NFZlYw6uojYwew=.sha256",
-  "sequence": 12653,
+  "previous": "%MUSU3ZdHQFgMAseMpAAfYWixz2qeNjGuGIUsBn41r2g=.sha256",
+  "sequence": 12654,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570058827756,
+  "timestamp": 1570058855366,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%lxdU6/U4cXEl829RkyNv4Tjo5DdBTscvPjkbj4Ojf2I=.sha256",
+    "branch": "%IYWxEzQYcpEvnXgq0wA+AvTyLRLHwIpdTXzctIBk8Jg=.sha256",
+    "reply": {
+      "%lxdU6/U4cXEl829RkyNv4Tjo5DdBTscvPjkbj4Ojf2I=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%IYWxEzQYcpEvnXgq0wA+AvTyLRLHwIpdTXzctIBk8Jg=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+    },
     "channel": "the-local-gossip",
-    "vote": {
-      "link": "%IYWxEzQYcpEvnXgq0wA+AvTyLRLHwIpdTXzctIBk8Jg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nthanks for the cc!",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ]
   },
-  "signature": "YdnBU8HforOHCqF/F1NjCeXZJQtHdJVsHlxuJPKEUhl8wOU8uEEZEIgo06Zg3uM7v0y7ee31tHTSksgEk3oWCg==.sig.ed25519"
+  "signature": "aWjr+IZAc9S5NzVuLOloBDFsylnhdxDne+KPDEetCRfA6mi8U7E2G37PeExgld84Lz8dT2UWfejyuRs4WQiRBQ==.sig.ed25519"
 }
