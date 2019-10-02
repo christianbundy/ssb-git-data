@@ -1,15 +1,25 @@
 {
-  "previous": "%VCpFXgDOOF7s+tKJa4W51kCWWwxVm38xQpGNzEDrrNo=.sha256",
-  "sequence": 12645,
+  "previous": "%SmuZyewIXeHaAGeyQqaBMuhpex1s4NSZNbCvLK8oQUs=.sha256",
+  "sequence": 12646,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570031099567,
+  "timestamp": 1570031492311,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%d/aIzHQ8CambWmTqZQrEPM2rm9XFhgsslXPiusR/Wt8=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@ktorn](@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519)\r\n\r\nI wonder whether there are any security problems caused by HTML blobs, especially for browser clients.\r\n\r\ncc: [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519), any chance this is something you've considered? I'd imagine you don't have to worry about this if you're running Dillo, but I'm wondering whether browser SSB clients need CSRF protection?",
+    "mentions": [
+      {
+        "link": "@z8aJVHJTc6MM8FwaNE2GIS3AYYt2HYFNWQUO8/iydNw=.ed25519",
+        "name": "ktorn"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%d/aIzHQ8CambWmTqZQrEPM2rm9XFhgsslXPiusR/Wt8=.sha256",
+    "fork": "%WfN8T6m+9CJzak6So3vhXLHHKMINIEUc4Ctqb2vY9ro=.sha256",
+    "branch": []
   },
-  "signature": "oWOEjN1zq4dQpRk8Du8oWDDMjRWW8CIPmh/woH4of7+u5nw9e8zk2lqEfDuNp12SVtiOWnFFImtXtkI9UtUPBw==.sig.ed25519"
+  "signature": "vNH35pv+EByJkGMUmLSdu4sG1NeIma7GF53d/W1aqftUxhyuScvoUfn2rFDvU9MTS9rrbaV1KyIyP72Wh4f2Dg==.sig.ed25519"
 }
