@@ -1,21 +1,15 @@
 {
-  "previous": "%hNcTE23+gAjZ1sXSmVUeXxjLGfriSVEap1P2RMkla5o=.sha256",
-  "sequence": 12655,
+  "previous": "%TzqLuexrTU0A4N1sU1EBpOXS7SakEOuBd7l8mptC9n0=.sha256",
+  "sequence": 12656,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570063874918,
+  "timestamp": 1570064322239,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, here's how I'm doing it in Oasis with an HTTP response header:\r\n\r\n```\r\nCache-Control: public,max-age=31536000,immutable\r\n```",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ],
-    "root": "%2UZn+TOa4j16FZ1+SCQYuQpPx5rA7rs4uM+crW8KBVU=.sha256",
-    "fork": "%lqEZUk6diGK8mL9NKCtlvK8Pivn40IaxglbI1MegVGA=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%HfS/L6y1zn2yY86TjDDklkfBwyMgcepFTxqZ+1ql+b4=.sha256",
+      "value": 1
+    }
   },
-  "signature": "gGXkVYyUZ05cigXJt0iT1Z0/ZcaRiRcWRzzalLmKyPRzXUS8Bcsne7fh72QVl8olh2L2XQa6cpghfaC15k+ADA==.sig.ed25519"
+  "signature": "KWdTYkkQoxN0YSY6tT2IsqGOI4JfYT7Uxdt6MTmcVP2VOYguqjr194SFvW+7wXfJATqPsLjw6Xc/T07sdh4UAA==.sig.ed25519"
 }
