@@ -1,15 +1,20 @@
 {
-  "previous": "%uk9L3ucDkUE+DP681q7tHDWOtENyIDpREi5pC83NjLc=.sha256",
-  "sequence": 12679,
+  "previous": "%eovXXkcrY35AukaTJp4BHQY38LNzbevJdf2Jb7WsWq8=.sha256",
+  "sequence": 12680,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570145835396,
+  "timestamp": 1570146464377,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%OoZ8HeAYWTMs6bN4ag6panN8Ge3u+NP4CvlOpJuknDY=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\nCool! I've always wondered what the intended `npm-version` and `npm-publish` workflow was supposed to be, and it makes sense to me to just do them together. Are you aware of any opposition to the \"do them both at the same time\" camp?\r\n\r\nAlso, I was *so* happy to see that this was a configurable option:\r\n\r\n```sh\r\ngit config --global push.followTags true\r\n```",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      }
+    ],
+    "root": "%OoZ8HeAYWTMs6bN4ag6panN8Ge3u+NP4CvlOpJuknDY=.sha256",
+    "branch": []
   },
-  "signature": "5fV/2QlBVGzruBPhp4LE3F9UYjcLZvHl2lhlLLj3NlUqiFkuQtbl3A8V+rEQHxXg22FmkxptxSQAC4hGSN1cCw==.sig.ed25519"
+  "signature": "X7P2poWCq/6vjO3Z91UQ4ZChJjhWhdmpLoZjDWeUCCSzZFvJeA7o7rYwQH0s0J82SOQHkk6x/3e9s8ercFkmCg==.sig.ed25519"
 }
