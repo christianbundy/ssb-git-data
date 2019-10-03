@@ -1,26 +1,21 @@
 {
-  "previous": "%MUSU3ZdHQFgMAseMpAAfYWixz2qeNjGuGIUsBn41r2g=.sha256",
-  "sequence": 12654,
+  "previous": "%hNcTE23+gAjZ1sXSmVUeXxjLGfriSVEap1P2RMkla5o=.sha256",
+  "sequence": 12655,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570058855366,
+  "timestamp": 1570063874918,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%lxdU6/U4cXEl829RkyNv4Tjo5DdBTscvPjkbj4Ojf2I=.sha256",
-    "branch": "%IYWxEzQYcpEvnXgq0wA+AvTyLRLHwIpdTXzctIBk8Jg=.sha256",
-    "reply": {
-      "%lxdU6/U4cXEl829RkyNv4Tjo5DdBTscvPjkbj4Ojf2I=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%IYWxEzQYcpEvnXgq0wA+AvTyLRLHwIpdTXzctIBk8Jg=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "the-local-gossip",
-    "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nthanks for the cc!",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, here's how I'm doing it in Oasis with an HTTP response header:\r\n\r\n```\r\nCache-Control: public,max-age=31536000,immutable\r\n```",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
-    ]
+    ],
+    "root": "%2UZn+TOa4j16FZ1+SCQYuQpPx5rA7rs4uM+crW8KBVU=.sha256",
+    "fork": "%lqEZUk6diGK8mL9NKCtlvK8Pivn40IaxglbI1MegVGA=.sha256",
+    "branch": []
   },
-  "signature": "aWjr+IZAc9S5NzVuLOloBDFsylnhdxDne+KPDEetCRfA6mi8U7E2G37PeExgld84Lz8dT2UWfejyuRs4WQiRBQ==.sig.ed25519"
+  "signature": "gGXkVYyUZ05cigXJt0iT1Z0/ZcaRiRcWRzzalLmKyPRzXUS8Bcsne7fh72QVl8olh2L2XQa6cpghfaC15k+ADA==.sig.ed25519"
 }
