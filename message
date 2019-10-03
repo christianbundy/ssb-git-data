@@ -1,20 +1,15 @@
 {
-  "previous": "%4o/sFsfZVFbgkDDu7xuRCthjzCI4XFBdd6+8908nY6M=.sha256",
-  "sequence": 12672,
+  "previous": "%UfW+oTkIJmUf8BYb6Oe2io+cjC+NV7hlydplsq5IGf0=.sha256",
+  "sequence": 12673,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570134044743,
+  "timestamp": 1570135241123,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dandelion (virtual device)](@xZW2KkcSiM1cSjGdW+1nfZ4v3UHWlQ4OcB9rDj6mQn4=.ed25519)\r\n\r\nI'll have to try it! 🍎🥞",
-    "mentions": [
-      {
-        "link": "@xZW2KkcSiM1cSjGdW+1nfZ4v3UHWlQ4OcB9rDj6mQn4=.ed25519",
-        "name": "dandelion (virtual device)"
-      }
-    ],
-    "root": "%98rdwVLnQxFPyGKDOYyrb6hD0vbhYz+8Ml5v/JwlQjs=.sha256",
+    "text": "I'm bummed to report that all of the off-the-shelf topsort solutions I tried were [as expected] impossibly slow. It's possible to sort a few thousand messages, but complexity is unforgiving when you're trying to sort hundreds of thousands of messages.\r\n\r\nThe problem that I'd *really* like to solve is that if you have to regenerate `log.offset` then sorting by the time you received a message isn't very helpful at all. I've been working on a small module that fixes common flumelog-offset issues (yay database corruption) and while \"full topsort\" is out-of-reach I think we can at least have \"received time is asserted time unless it's a damn lie\".\r\n\r\nI'm thinking something simple like:\r\n\r\n- get a list of all feed\r\n- for each feed, iterate through each message\r\n  - if the timestamp of the message is lower than the previous message or higher than right now, mark it as a **damn lie**\r\n- for each feed, iterate through each damn like\r\n  - set the received timestamp to the timestamp of the closest descendant message that isn't a damn lie\r\n- sort all messages by their corrected *received* timestamp and recreate all database indexes\r\n\r\nThis isn't perfect, but I think it'd be more accurate than treating very old messages like they happened the moment they actually arrived on your computer. The most obvious problem is that if you see a message with the following properties:\r\n\r\n- actually posted 1 year ago (\r\n- asserted timestamp was 6 months ago\r\n- all descendant messages had \"correct\" timestamps\r\n\r\nIn this scenario all messages posted between 6 and 12 months ago would have received timestamps from 6 months ago, since they would be determined to be **damn lies**, but this is still better than \"all messages have received timestamps from right now\" when downloading old messages.",
+    "mentions": [],
+    "root": "%XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256",
     "branch": []
   },
-  "signature": "GeEECQQysWRBLILJd8j9GbtvvJr4YyopyB64LhQgfbg3wf9AHJNWSnW2VZpLnMrCqjJrCrOIXpeDeeLez/F5AQ==.sig.ed25519"
+  "signature": "prE4lRnv39tLL8h3aYjEpaQB4tejZ0joWpA/r+kVApGs3AleefekAiLR+jq8sDV8AtNi/LFPhRd4i3+qHYNoAg==.sig.ed25519"
 }
