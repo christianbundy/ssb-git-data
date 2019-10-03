@@ -1,15 +1,21 @@
 {
-  "previous": "%r66Era6OhOMqzXOLVYX49UpuM5wuHRDb4jOHof4/pdY=.sha256",
-  "sequence": 12662,
+  "previous": "%rgbR4E2zdIHClCJDZzyhbAeJixFMmN+yTM1rjG3YsbA=.sha256",
+  "sequence": 12663,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570064785499,
+  "timestamp": 1570113667888,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7J1MwB/ig0KFC0iB2wahbE9DT72YpboalRUL7L9c+HY=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI think that's a bug that happens where:\r\n\r\n- Patchwork doesn't have the blob\r\n- It instead uses a loading image with a size constraint\r\n- The image loads!\r\n- The size constraint isn't removed until you refresh or view the post again\r\n",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ],
+    "root": "%t4f868Nr8IiVX9wb6OJ4N4WsrQuyymNVR1r20/bVqrc=.sha256",
+    "fork": "%D392SIrhwjX/DJn3mbjjxUUKdcbkc7fV46Abu9RRkeU=.sha256",
+    "branch": []
   },
-  "signature": "HRK+xYm2lZSF7K+oOeZ4aMmJS82KDaImFqzI0gytvsg1nykUteyNuqiBGI75ABBoink7jcIYjcXTG+BwuoFKAg==.sig.ed25519"
+  "signature": "CT46/Mczu4ajLZqCQckkaLWyHjgIqXjaG8ElNZ5LsxFvFk/msSmyRmd1dCBOCDDGs9WC1l7RbGRcGBLGodDfCg==.sig.ed25519"
 }
