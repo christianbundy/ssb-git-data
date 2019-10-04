@@ -1,20 +1,16 @@
 {
-  "previous": "%UjOhGJmAhg5JbOqzedJeSpFu/N+B3h1/EujUcq7pI4g=.sha256",
-  "sequence": 12694,
+  "previous": "%czQoDMZ8Cv6ckarFnpHpMM2EZHAJfSRgy8SEFQgMAhY=.sha256",
+  "sequence": 12695,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570209290347,
+  "timestamp": 1570209448898,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\r\n\r\nSweet! If you have any favorites I'd love to read them, I'm still exploring and getting oriented.",
-    "mentions": [
-      {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bob"
-      }
-    ],
-    "root": "%hIu/xluExQOf0vZqf8Vy9v+1SaQqTVbpkKR9dzDS+CY=.sha256",
+    "text": "Maybe instead I should be doing:\r\n\r\n```sh\r\n# create commit and tag\r\nnpm version <whatever>\r\n\r\n# push to release branch\r\ngit push origin master:release-$(jq -r .version < package.json)\r\n\r\n# keep attempting to push to master until it succeeds\r\n# this should only happen if the CI passes on the release branch\r\nuntil git push origin master\r\ndo\r\n  sleep 10\r\ndone\r\n\r\n# finally publish to npm\r\nnpm publish\r\n```",
+    "mentions": [],
+    "root": "%u9bSQRjVoKfOpstXUiska2s1z6CYk/cY4it48tetfGY=.sha256",
+    "fork": "%OoZ8HeAYWTMs6bN4ag6panN8Ge3u+NP4CvlOpJuknDY=.sha256",
     "branch": []
   },
-  "signature": "r7a18WzJ3tYuaeYWZTOa/TNKHp2OuMZ6SDdPR/sEt1mFKUbTBHhdsI84UogFMmX6zLJ4mi2wg+IWpqdj5rp8CQ==.sig.ed25519"
+  "signature": "Alkq7dKKbB5ztPwIlUi6rXg/0i4j0Ss74DhDfb+KpO7HMM3ynDFYIg6RobDq/8MhGccvUamFLmPDaqEGA81vBA==.sig.ed25519"
 }
