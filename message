@@ -1,21 +1,28 @@
 {
-  "previous": "%rpByP2puRg1aSrf4ZVNa+5Z8Ozsw/rqnn4JoZGwRz8M=.sha256",
-  "sequence": 12709,
+  "previous": "%+PRBjemv3VWKYcqstUg+79+ezMiQRmkpXIKe8OYpNbk=.sha256",
+  "sequence": 12710,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570223798198,
+  "timestamp": 1570224463951,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nTwo random notes: `npx ssb-blob-prune` will delete all blobs that haven't been referenced by feeds that you follow, and [this PR](https://github.com/ssbc/ssb-db/pull/266) should make it easier to delete entire feeds at once. Would love input if you have any on either.",
+    "root": "%WSfA/V7CUhQ9tHxRKjU/pqbcJSnozww3pPGuOOfYZd4=.sha256",
+    "fork": "%u9bSQRjVoKfOpstXUiska2s1z6CYk/cY4it48tetfGY=.sha256",
+    "branch": "%WSfA/V7CUhQ9tHxRKjU/pqbcJSnozww3pPGuOOfYZd4=.sha256",
+    "reply": {
+      "%WSfA/V7CUhQ9tHxRKjU/pqbcJSnozww3pPGuOOfYZd4=.sha256": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "![audio:dogbark.wav](&QZTeoIjMd/4ERUIPxNYn//ov+AWSEoBT+gody2ta6NY=.sha256)\n",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "&QZTeoIjMd/4ERUIPxNYn//ov+AWSEoBT+gody2ta6NY=.sha256",
+        "name": "audio:dogbark.wav",
+        "type": "audio/x-wav",
+        "size": 20702
       }
-    ],
-    "root": "%4fuiJW94afbpsehYoRfHwzTzLXAYgFD9422kg7BOsgw=.sha256",
-    "fork": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
-    "branch": []
+    ]
   },
-  "signature": "gNFHviihz7lilh2PFbAoLKxSYGurQKzpMKXFNmqUj/Kp5h7MoRvPSjX8oESVTH2HuRNLlCh/6gM+U4X3kaeVAA==.sig.ed25519"
+  "signature": "FJBGkzSOrSrsBFJKXrvUzxK6RlnFYYlL6dmY1i3KzWCzONV6Mox7Xp+FLZFEC+oiDut2KSCJbHVvU9G/w2LvDA==.sig.ed25519"
 }
