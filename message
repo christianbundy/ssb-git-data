@@ -1,16 +1,15 @@
 {
-  "previous": "%czQoDMZ8Cv6ckarFnpHpMM2EZHAJfSRgy8SEFQgMAhY=.sha256",
-  "sequence": 12695,
+  "previous": "%Pz+DmipK+FfACxqzzc26kFzF/qimP70UOKy1aN/W9T0=.sha256",
+  "sequence": 12696,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570209448898,
+  "timestamp": 1570209525967,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Maybe instead I should be doing:\r\n\r\n```sh\r\n# create commit and tag\r\nnpm version <whatever>\r\n\r\n# push to release branch\r\ngit push origin master:release-$(jq -r .version < package.json)\r\n\r\n# keep attempting to push to master until it succeeds\r\n# this should only happen if the CI passes on the release branch\r\nuntil git push origin master\r\ndo\r\n  sleep 10\r\ndone\r\n\r\n# finally publish to npm\r\nnpm publish\r\n```",
-    "mentions": [],
-    "root": "%u9bSQRjVoKfOpstXUiska2s1z6CYk/cY4it48tetfGY=.sha256",
-    "fork": "%OoZ8HeAYWTMs6bN4ag6panN8Ge3u+NP4CvlOpJuknDY=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%PnEt2WJK0VhjvAyIcBDMvK9GMG11od4MBZWFPrdXwEY=.sha256",
+      "value": 1
+    }
   },
-  "signature": "Alkq7dKKbB5ztPwIlUi6rXg/0i4j0Ss74DhDfb+KpO7HMM3ynDFYIg6RobDq/8MhGccvUamFLmPDaqEGA81vBA==.sig.ed25519"
+  "signature": "V01wt8O7tdx1hDrKZWndbi4GGxqiGn+s9BS/uFqOdJJM0532Xp4nOsl55kWlI3SYzWX8h5di4Ac9cGRXL3fhDA==.sig.ed25519"
 }
