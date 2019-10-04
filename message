@@ -1,15 +1,15 @@
 {
-  "previous": "%u9bSQRjVoKfOpstXUiska2s1z6CYk/cY4it48tetfGY=.sha256",
-  "sequence": 12686,
+  "previous": "%0XAkTE01L8dDWnhGw5/WT5jbwRcTsonyVI+XGuxc1ys=.sha256",
+  "sequence": 12687,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570151552366,
+  "timestamp": 1570158140965,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%p6Q/s2pEn5YqxMfFzAONy3sAxuqhgVJL6Ze8a0o+MW4=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[It works!](https://github.com/fraction/fix-flumelog-offset/tree/fix-timestamps)\r\n\r\nI used a slightly different algorithm than above, which you can see [here](https://github.com/fraction/fix-flumelog-offset/blob/fix-timestamps/index.js#L66-L93), but the ordering is *so* much less screwed up now!\r\n\r\nAnyone have a link to the first SSB message? I know I've seen it before but I didn't save it anywhere, and I'm sure someone has it easily accessible.",
+    "mentions": [],
+    "root": "%XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256",
+    "branch": []
   },
-  "signature": "dUbBo8RS8cpPaHy84iAHz/Bf9li1lNAc3NpM7O2nLwUcYIVWvbnBzIBgAlhaTMOD1nMhACKEk2p+18C5QuNZBw==.sig.ed25519"
+  "signature": "mzNwFqoaLRFzVvRvKqG5pUOZS+2HRcGL2afkBnaKsWPUCgebmDtHMywNXMEM8lAMErIsWFauH/i+310KOwG7BA==.sig.ed25519"
 }
