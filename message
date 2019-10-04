@@ -1,15 +1,21 @@
 {
-  "previous": "%AXndIBQ6Yq6JFpWZujEnuuGBmRIbzbAW7Q+JKI828NY=.sha256",
-  "sequence": 12708,
+  "previous": "%rpByP2puRg1aSrf4ZVNa+5Z8Ozsw/rqnn4JoZGwRz8M=.sha256",
+  "sequence": 12709,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570221248577,
+  "timestamp": 1570223798198,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%MeXggDt6kPCxQuoGoPVFbJuspgRVU62ok+MPfUBIo5Y=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nTwo random notes: `npx ssb-blob-prune` will delete all blobs that haven't been referenced by feeds that you follow, and [this PR](https://github.com/ssbc/ssb-db/pull/266) should make it easier to delete entire feeds at once. Would love input if you have any on either.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%4fuiJW94afbpsehYoRfHwzTzLXAYgFD9422kg7BOsgw=.sha256",
+    "fork": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
+    "branch": []
   },
-  "signature": "yvQo7DQt68O/qcDWdGA1iMsseOqNJXSWDITqr+FfS48EE6NvrcAq3WP8xQaEH3La0ikk1SYdrv7c9+dE9OjYAQ==.sig.ed25519"
+  "signature": "gNFHviihz7lilh2PFbAoLKxSYGurQKzpMKXFNmqUj/Kp5h7MoRvPSjX8oESVTH2HuRNLlCh/6gM+U4X3kaeVAA==.sig.ed25519"
 }
