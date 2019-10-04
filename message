@@ -1,15 +1,23 @@
 {
-  "previous": "%ekJ0xFfRcS3FAsvxdJ3QA3Q3XbaN945wzcFxBt4KsN4=.sha256",
-  "sequence": 12684,
+  "previous": "%75fzYKkQEHRayQyZBslwDXnWjPKVCZbx7eAAwiNY/BQ=.sha256",
+  "sequence": 12685,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570148947177,
+  "timestamp": 1570151534427,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zgmpKrSAtk8FFIuBS1JKv8uDRPUYZS3lKn8EyJZI+/Q=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\nYeah, my workflow is usually:\r\n\r\n1. `npm version <whatever>`\r\n2. `git push origin master:release-$(jq -r .version < package.json)`\r\n3. wait for the CI to pass\r\n4. `npm publish && git push origin master`\r\n\r\nSince the tag references the commit (and the commit is shared between branches) it doesn't result in any duplication, plus it lets me prevent anyone from *ever* pushing commits straight to `master` before CI runs.\r\n\r\nI wish I could have my CI run as a pre-version script, but maybe I'll have to wait until #ssb-ci is a thing. 🌱",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      },
+      {
+        "link": "#ssb-ci"
+      }
+    ],
+    "root": "%OoZ8HeAYWTMs6bN4ag6panN8Ge3u+NP4CvlOpJuknDY=.sha256",
+    "branch": []
   },
-  "signature": "LYYqfdCppXJIAimFx98cq8w7hpijEEyycU5MQN1gew47cCLR8Q8DA9+TOgPIzaL8nmyRv26wrsQl1OUhSYP1DQ==.sig.ed25519"
+  "signature": "wZsco0jGWvgBYe766xgVLfJcmqUYvkgdZKD6vh6+hcZMsq6V7ZuORfdHJCKCb5+QCKkQyoV9i7TtQPZ3TkltBg==.sig.ed25519"
 }
