@@ -1,24 +1,23 @@
 {
-  "previous": "%kERwpMcaAwoL4M1nLetiEOByqcTvpzwpw3KXC+vu4U0=.sha256",
-  "sequence": 12723,
+  "previous": "%NGvbFfUNY2nEV1hLGiGwXupQGB5d+dE8iowjufF/OEQ=.sha256",
+  "sequence": 12724,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570310343582,
+  "timestamp": 1570314275005,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@VI](@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519)\r\n\r\nNot perfect, but in case you haven't already seen it: #ssb-uri",
+    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519)\r\n\r\n> I guess that the last item is natural. AFAIK, if a blob is not referenced in a feed, there is no way in the GUI to see it. Why keep it?\r\n\r\n> Is it true that any computer in the world can ask my computer to download any blob, and then my computer will keep that blob?\r\n\r\nMy understanding is yes, any Scuttlebutt peer you directly connect to can, by default, send you data you don't want. This is something I've been recently investigating a bunch and discussing through some side-channels, and I'd like to disregard all sympathetic wants.\r\n\r\nI *think* their intended purpose was for dealing with blobs referenced in private messages. If Alice is sending Carol a private message with a blob and they need to use Bob as a relay, Bob won't know which blobs are referenced in the private message and so we use sympathy to persuade Bob to download those blobs. In the future with #offchain-content I'd like to have encrypted blobs referenced in the public message and disable sympathy entirely.",
     "mentions": [
       {
-        "link": "@enYnrAbM4s4BVadGY7VC0suQ48QitTkE4PlQYTtNT+4=.ed25519",
-        "name": "VI"
+        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
+        "name": "beroal"
       },
       {
-        "link": "#ssb-uri"
+        "link": "#offchain-content"
       }
     ],
-    "root": "%dq0j/weDEMwGVqfd0HQg/VCvSXRD2Ib6yVJh+DY156c=.sha256",
-    "fork": "%WfN8T6m+9CJzak6So3vhXLHHKMINIEUc4Ctqb2vY9ro=.sha256",
+    "root": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
     "branch": []
   },
-  "signature": "XPyHwnf+41A9Y4doDafzK1tLa7Wr/11RZepIrF+zjK2cdWKGDysPqxj65E+77O3l3harP9ug1ZjdKv+K0C1kDA==.sig.ed25519"
+  "signature": "bjuZY6+znb6sLD7Ichdt9tpsw2PX6a2cU8ssDt3xtmwsbLfK/bRqNHmgdpE8fxV2ZoL32OyCHrm3os3aslhnAg==.sig.ed25519"
 }
