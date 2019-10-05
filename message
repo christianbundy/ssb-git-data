@@ -1,20 +1,15 @@
 {
-  "previous": "%HV2tVvyA5Aw1qNB9w4nU5aqFUelDarEr5yPtOoDf2rI=.sha256",
-  "sequence": 12719,
+  "previous": "%e+6QSdMxuH6lUME1n+6G+jhhEpQI2DwS/EApafIBMtc=.sha256",
+  "sequence": 12720,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570289116724,
+  "timestamp": 1570293495622,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519)\r\n\r\nTo clarify, is it correct that you're looking for a few different things?\r\n\r\n- a tool to show the size of all of the blobs referenced by each feed, probably in descending order\r\n  - how should this operate if two feeds reference the same blob?\r\n- a tool to easily delete unwanted feeds\r\n- a tool to easily delete unreferenced blobs once those feeds are deleted",
-    "mentions": [
-      {
-        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
-        "name": "beroal"
-      }
-    ],
-    "root": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%7zjAO3z9W5/C0tBPSxnINN//3zHkpjTUC2FyQWK6r4M=.sha256",
+      "value": 1
+    }
   },
-  "signature": "2zqZPQ+5AHBJiwGUESTWiPyT1x4SOOOzOzDQDsiYWOLT1D1ycLzyo0oJILYmLDfH2RIbTnfiHsOFdtzQannvBw==.sig.ed25519"
+  "signature": "omFxnIJltx9I/sIdG5tPuOtka5ii6QYWKGol2VCr8F2/t2mnzDrFusqfWRWtBWZATEvLk2BNpOYYzW3J/CiUCg==.sig.ed25519"
 }
