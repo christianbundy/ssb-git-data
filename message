@@ -1,23 +1,15 @@
 {
-  "previous": "%NGvbFfUNY2nEV1hLGiGwXupQGB5d+dE8iowjufF/OEQ=.sha256",
-  "sequence": 12724,
+  "previous": "%BTAAFH5BTWP0njmkwT2NhaTtqTqLtYKrXVXhrp3qGtU=.sha256",
+  "sequence": 12725,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570314275005,
+  "timestamp": 1570314288033,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519)\r\n\r\n> I guess that the last item is natural. AFAIK, if a blob is not referenced in a feed, there is no way in the GUI to see it. Why keep it?\r\n\r\n> Is it true that any computer in the world can ask my computer to download any blob, and then my computer will keep that blob?\r\n\r\nMy understanding is yes, any Scuttlebutt peer you directly connect to can, by default, send you data you don't want. This is something I've been recently investigating a bunch and discussing through some side-channels, and I'd like to disregard all sympathetic wants.\r\n\r\nI *think* their intended purpose was for dealing with blobs referenced in private messages. If Alice is sending Carol a private message with a blob and they need to use Bob as a relay, Bob won't know which blobs are referenced in the private message and so we use sympathy to persuade Bob to download those blobs. In the future with #offchain-content I'd like to have encrypted blobs referenced in the public message and disable sympathy entirely.",
-    "mentions": [
-      {
-        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
-        "name": "beroal"
-      },
-      {
-        "link": "#offchain-content"
-      }
-    ],
-    "root": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%buTt9xP6SavSlqCrsmD0sollw7b/vIrIN5t4xw/Fw1I=.sha256",
+      "value": 1
+    }
   },
-  "signature": "bjuZY6+znb6sLD7Ichdt9tpsw2PX6a2cU8ssDt3xtmwsbLfK/bRqNHmgdpE8fxV2ZoL32OyCHrm3os3aslhnAg==.sig.ed25519"
+  "signature": "IzyYrD6hPaL/1M9KdnZe8aPds1LFGmic43LH0PT+Zd3aS2hSzQF4lOLsm1Ly+nHFhggh9OS1B3p4DuAbYbN1CA==.sig.ed25519"
 }
