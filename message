@@ -1,24 +1,20 @@
 {
-  "previous": "%8tDwpMAXFV/9ZpGN44XcqYpUB9JFUXDE+jcxkS4bIqc=.sha256",
-  "sequence": 12718,
+  "previous": "%HV2tVvyA5Aw1qNB9w4nU5aqFUelDarEr5yPtOoDf2rI=.sha256",
+  "sequence": 12719,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570288386533,
+  "timestamp": 1570289116724,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nI'd give it a shot, _or_ if you're feeling like experimenting I might try [kappa-core](https://github.com/kappa-db/kappa-core) from [@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) and friends.",
+    "text": "[@beroal](@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519)\r\n\r\nTo clarify, is it correct that you're looking for a few different things?\r\n\r\n- a tool to show the size of all of the blobs referenced by each feed, probably in descending order\r\n  - how should this operate if two feeds reference the same blob?\r\n- a tool to easily delete unwanted feeds\r\n- a tool to easily delete unreferenced blobs once those feeds are deleted",
     "mentions": [
       {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      },
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "kira"
+        "link": "@47jWRSNW16VeUAeklLdvMWt1Ql4+vLxgaOYXhwHXBwM=.ed25519",
+        "name": "beroal"
       }
     ],
-    "root": "%rmzJRD6Z32ZTNpP+1PkDfGPx8rgkS563+8Ro15YNhyw=.sha256",
+    "root": "%Y4hVS75nenv7zd6Sf2UgFSmGEtfwyU+quva0vXo9EPk=.sha256",
     "branch": []
   },
-  "signature": "a2ffnWVtVjlCNk69y9jaQdzdNUJ+T/O6sLLMgFZK2wKWMzj2nyL4J1omNvsNuQgSybRmUE2vNvw//x9Y4anQCw==.sig.ed25519"
+  "signature": "2zqZPQ+5AHBJiwGUESTWiPyT1x4SOOOzOzDQDsiYWOLT1D1ycLzyo0oJILYmLDfH2RIbTnfiHsOFdtzQannvBw==.sig.ed25519"
 }
