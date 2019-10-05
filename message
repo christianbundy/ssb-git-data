@@ -1,15 +1,20 @@
 {
-  "previous": "%e+6QSdMxuH6lUME1n+6G+jhhEpQI2DwS/EApafIBMtc=.sha256",
-  "sequence": 12720,
+  "previous": "%RrkQSR5DYiV8PBMHvye3MfNQGd0KmOl2zMZsLjf+FRc=.sha256",
+  "sequence": 12721,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570293495622,
+  "timestamp": 1570310172352,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7zjAO3z9W5/C0tBPSxnINN//3zHkpjTUC2FyQWK6r4M=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)\r\n\r\nI won't speak for others, but I spent a bunch of time fixing up Patchwork 3.11.6 and still spend lots of time contributing code and advice in the Patchwork bug tracker. Changes _are_ very conservative, and almost all of our time is spent fixing bugs rather than adding features, but I think we're doing really great job of keeping everything running smoothly while avoiding burnout.\r\n\r\n> Doubly weird is that there actually is some money still available to fund work on this. What else is missing, aside from having defined the design principles?\r\n\r\nI don't think we have a model of how money should be used to fund maintenance. So far we've all just been contributing code and discussion and taking care of maintenance tasks on our own, so introducing money as an incentive hasn't come up. When development was picking up speed we were meeting more regularly and discussing paying ourselves for mandatory maintenance tasks, but I haven't noticed lots of activity so I haven't scheduled another Patchwork party to discuss maintenance. To be candid, I'm very hesitant to schedule a Patchwork party around \"let's pay me to do maintenance\", so I've been waiting for activity to pick up so I can start a \"let's pay you for your maintenance\" party. 🙃\r\n\r\nI *think* we're all on the same page that Patchwork is difficult and un-fun to maintain, but since it's important to the community we're providing life support rather than making structural changes or more extensions. To be explicit, I really _do_ want to support that work with money, but I'm trying really hard not to burn out on Patchwork maintenance.\r\n\r\nHappy to discuss answer any questions you have or support any work maintaining Patchwork. ❤",
+    "mentions": [
+      {
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      }
+    ],
+    "root": "%b/9Nz7L6epu+I5nXix4duEWPUyj1PhZW62joKxSJ9Ek=.sha256",
+    "branch": []
   },
-  "signature": "omFxnIJltx9I/sIdG5tPuOtka5ii6QYWKGol2VCr8F2/t2mnzDrFusqfWRWtBWZATEvLk2BNpOYYzW3J/CiUCg==.sig.ed25519"
+  "signature": "5TfjGDherFF3lKHNNj+gQSW4TXXS4MOIWLI2Dtvbjok+f+cZKYordEo0umLM7N0R8TRprBkvMgXno3viin+DCQ==.sig.ed25519"
 }
