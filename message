@@ -1,15 +1,20 @@
 {
-  "previous": "%BTAAFH5BTWP0njmkwT2NhaTtqTqLtYKrXVXhrp3qGtU=.sha256",
-  "sequence": 12725,
+  "previous": "%YvksKbYhkJLonGL5AqDeWYAADaKz79DyueYecKzmmW8=.sha256",
+  "sequence": 12726,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570314288033,
+  "timestamp": 1570314401994,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%buTt9xP6SavSlqCrsmD0sollw7b/vIrIN5t4xw/Fw1I=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@VI (phone)](@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519)\r\n\r\nI've got no idea, unfortunately. Patchwork just uses the `electron-builder` library to build binaries, and even with that automation it's one of the most painful bits of our system.",
+    "mentions": [
+      {
+        "link": "@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519",
+        "name": "VI (phone)"
+      }
+    ],
+    "root": "%+y1u5FKu/H3NeRr8PTxZ38RwGseuiJ/kmrfoqovPxck=.sha256",
+    "branch": []
   },
-  "signature": "IzyYrD6hPaL/1M9KdnZe8aPds1LFGmic43LH0PT+Zd3aS2hSzQF4lOLsm1Ly+nHFhggh9OS1B3p4DuAbYbN1CA==.sig.ed25519"
+  "signature": "sdR5VTs32ejLkMXf9IGWVax9Te7X++HCo6FceuRzfFkb0f+ztRRGCOHYtvaHW85T/grtyBUoefRZh2f5jNVGAg==.sig.ed25519"
 }
