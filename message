@@ -1,12 +1,12 @@
 {
-  "previous": "%czq5HiuRVfGf6fPPMXjpc6U8s3YnAL8AFfO5/9d1ZJw=.sha256",
-  "sequence": 12742,
+  "previous": "%Wlz0fDwH1/7FY0dJWxWD9Ixx7qt12IFqBOAnGYnxnD0=.sha256",
+  "sequence": 12743,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570472997307,
+  "timestamp": 1570474609318,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\r\n\r\nCould you post the config? And are you using the default ssb-config, or [this one](https://github.com/ssbc/ssb-config/pull/53)?",
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\r\n\r\nI could be wrong, but my intuition is that maybe it's a scoped IPv6 address, which [does not play nicely with Node.js](https://github.com/ssbc/multiserver/pull/49/files#diff-3deb3f32958bb937ae05c6f3e4abbdf5R21). I'll put some more energy into that PR and hopefully it will fix a bunch of problems so I don't have to keep advocating for that funky ssb-config branch. 😅\r\n\r\nYou can try the ssb-config branch workaround in the meantime, and if so I'd love to know whether that fixes the problem for you.",
     "mentions": [
       {
         "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
@@ -16,5 +16,5 @@
     "root": "%qvY/l7ONvZBxp2OF+QqnEUZYqHWR+SAfOp2Vx5WJcYI=.sha256",
     "branch": []
   },
-  "signature": "zJNASHiBxxHxfBOrvAduRDHp56Ok+msZVwFU5FylL8JDl2cFTnJc8SgALfjIoL+QaNAaktFn5ElrHHWP94anDA==.sig.ed25519"
+  "signature": "Bchl0Ejk50/xQ0RQOhbkQxRHDZ0hI9PpE502Iu8hbpsaixJf36tz5+3FqFMdHqKMCJxXVycuaM9J1L9QemdhDw==.sig.ed25519"
 }
