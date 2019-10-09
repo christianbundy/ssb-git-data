@@ -1,21 +1,20 @@
 {
-  "previous": "%M1d6v09fi55PjW7SRDjKjgqKNqrfynheB8Puy0pvMXs=.sha256",
-  "sequence": 12768,
+  "previous": "%rEz0wHBJ21sK+FZkTRSKasChDCq2ELwu4PS+xSAT4zg=.sha256",
+  "sequence": 12769,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570645197886,
+  "timestamp": 1570645592576,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nWould that just mean removing author data? And if so, is that something that people are comfortable with? I don't really know what `true` or `false` mean in the context of \"public web hosting\". Very blurry boundaries.",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, I suppose the server would need to translate SHA256 hashes into their corresponding content. Maybe that might be another way to do it: reference the exact SHA256 hash of the content you're referencing and don't let the viewer display any content that hasn't been referenced.\r\n\r\nThat way you can share a message (or a sequence of messages) with a friend over a public viewer, but they can't crawl the social graph by looking at irrelevant messages in the thread or traversing a hashtag or anything like that.",
     "mentions": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
     ],
-    "root": "%tCdZBCXOqbrWKoMUWB4dsxUkZ+kkY4tJvrP3cM+d/dw=.sha256",
-    "fork": "%QVPO8+mllxa2HzrjWjxuVjYCFM78VXgz31t+6YV1p60=.sha256",
+    "root": "%QVPO8+mllxa2HzrjWjxuVjYCFM78VXgz31t+6YV1p60=.sha256",
     "branch": []
   },
-  "signature": "xy27N3Lci0oGcGkjlSpt5e2RmZ2f63MNsCHnFVpJ1G6YtQt8wFERMg0rRE45ZdRomeGAtxdGMv8C7GEIjpHMDg==.sig.ed25519"
+  "signature": "o624yiq8bHP5Nia0sbwR0/WLPMxxsUemp/SUq4zdcJA6uqBRoevtZxl4CVKw9EtUYI3TNRs4mzNZav8uEs9lCg==.sig.ed25519"
 }
