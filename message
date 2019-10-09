@@ -1,20 +1,15 @@
 {
-  "previous": "%Hh7lkTARy+R1oyWKD0tNkrWGdhPuSx8JdRtZ/D+fQ9g=.sha256",
-  "sequence": 12764,
+  "previous": "%NHNFCVn3LhsXIbZG3tSINh/Sko7PX7R8Hx+xninycek=.sha256",
+  "sequence": 12765,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570633020960,
+  "timestamp": 1570633590220,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\r\n\r\nwhat the fuck II",
-    "mentions": [
-      {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
-      }
-    ],
-    "root": "%sbBw43qiWAuOGE9boHPaKdlv2Zg4uixGztEYA1dlTXM=.sha256",
+    "text": "A similar idea that I've had is to have a viewer that can display any thread, and all of the thread data is passed through a URL parameter.\r\n\r\n```javascript\r\nconst messages = [\r\n  { key: '%abc', value: { /* ... */ } },\r\n  { key: '%def', value: { /* ... */ } },\r\n  { key: '%ghi', value: { /* ... */ } }\r\n]\r\n\r\nconst data = encodeURIComponent(JSON.stringify(messages))\r\nconst baseUrl = 'https://ssb.example.com/?'\r\nconsole.log(`${baseUrl}${data}`)\r\n```\r\n\r\nhttps://ssb.example.com/?%5B%7B%22key%22%3A%22%25abc%22%2C%22value%22%3A%7B%7D%7D%2C%7B%22key%22%3A%22%25def%22%2C%22value%22%3A%7B%7D%7D%2C%7B%22key%22%3A%22%25ghi%22%2C%22value%22%3A%7B%7D%7D%5D\r\n\r\nBonus points for making the viewer ensure that all the signatures are valid and such so that nothing can be faked, but it'd give us the \"have a public URL for some data\" without actually hosting that data on a public server. The URL could, of course, be shared, but we can't stop people from copying and pasting JSON.",
+    "mentions": [],
+    "root": "%QVPO8+mllxa2HzrjWjxuVjYCFM78VXgz31t+6YV1p60=.sha256",
     "branch": []
   },
-  "signature": "MU6deEnI0xuYaNkb6Xfy6qbekKQbTAryKot5KJEWK76GgtD58sxbjVunzVlBylZOlJmhNdpOltz8JzMi3WA5Ag==.sig.ed25519"
+  "signature": "+3eta1PE0qSaCc930SIQ2mQI74JlvaniSEcjGeyRRAaVdPeRR7kC+ydPYUzutn9VvHFrHFAAs+2qmSpmUJqPDQ==.sig.ed25519"
 }
