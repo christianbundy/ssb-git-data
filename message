@@ -1,13 +1,15 @@
 {
-  "previous": "%5Wt05jYIDVLk/qkg8JPbXj8jnx5LnYeRWw/gNkvV9Qg=.sha256",
-  "sequence": 12775,
+  "previous": "%u0stB0niZPTMHJ6x5P+hvm3YP01lBeViKCrnSuAbL2c=.sha256",
+  "sequence": 12776,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570744240516,
+  "timestamp": 1570749979932,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# base16: Good and Bad\r\n\r\nI've been playing with the [base16 theme architecture](http://chriskempson.com/projects/base16/) in my terminal for _years_ and have recently added it to Oasis (see themes [here](http://oasis-demo.fraction.io/status)). It's mostly great, but has a few quirks that seem like a great opportunity for a future theme architecture.\r\n\r\n## Good\r\n\r\nFirst off, it's awesome to be able to support dozens of themes with only a few CSS variables. A gradient of eight shades from the background color to the foreground color plus eight colors. It's wonderful and simple and works really well most of the time.\r\n\r\n## Bad\r\n\r\nLet's pretend we're using a light theme: the background is white-ish, the foreground (text) is black-ish. **How close should colors be?** Some themes make the second-lightest color an incredibly light gray, whereas others make super dark. This leads to super questionable contrast, especially in themes like *cupcake* where everything is basically the same color.\r\n\r\nSpeaking of colors, **base16 is agnostic about colors**. Instead of saying \"color `n` should have a hue of `n / 360`\" they just refer to the semantics of the thing it's highlighting:\r\n\r\n> - base08 - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted\r\n> - base09 - Integers, Boolean, Constants, XML Attributes, Markup Link Url\r\n> - base0A - Classes, Markup Bold, Search Text Background\r\n\r\nSure, themes like *green-screen* should probably make everything a different shade of green, but it would be great if every other theme could at least agree on which variable is red. Even worse, some themes use **the same color for multiple color names**, so which highlights the fact that this is meant for syntax highlighting rather than general interface colors.\r\n\r\n## Future\r\n\r\nI don't know whether I'll ever have time for this, but *really* I'd love something similar to base16 with:\r\n\r\n- accessible contrast between shades\r\n- consensus on which color has which hue (except for background and foreground)\r\n- different shades of colors, for elements like a yellow info box that should have a border that's a *different* shade of yellow\r\n- maybe reuse the same colors for both light mode and dark mode, like how [Solarized](https://ethanschoonover.com/solarized/) does it\r\n- maybe a theme generator that lets you define color points and curves between them, like [colorbox](https://www.colorbox.io/)",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%G2Lw9lJ+CLAWOHeqk3Jo7Yd8y2Px6enbYEyPqIydd88=.sha256",
+      "value": 1
+    }
   },
-  "signature": "eHQsU8la4dzUMGzaZSaUI2wh6OzwVLdyLtEsbrChuL3uv01c5kHcDKIbEQ9IAG3w0Ke1Qup8TOkpTmG1HE/fAg==.sig.ed25519"
+  "signature": "QDObJ63Wpi4ncCXfGKB+HcPxhWRD2AVf/dwDj088BgRaxpNgrdQ68n0CgZiNIJTFiwZKjn7OsYqlzgQAb3+uBw==.sig.ed25519"
 }
