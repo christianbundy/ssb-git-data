@@ -1,20 +1,15 @@
 {
-  "previous": "%z1yOwf3EQU6uFvcmjy2z3w/ulI8LrPAIM4g4ldSFP5s=.sha256",
-  "sequence": 12770,
+  "previous": "%D5DtVs1Zx3TMg1u4dzWi7+WAlT+1Lo/sohz+jhvh6ac=.sha256",
+  "sequence": 12771,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570668653747,
+  "timestamp": 1570719476783,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan p20 📟](@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519)\r\n\r\nYeah, but I'm still unsure whether that would conform to our community expectations because there isn't an explicit consensus yet. Personally, I think \"available over HTTP but not indexed by search engines\" is very similar privacy-wise to \"available over SSB but not available over HTTP\", but what I think really isn't important here.",
-    "mentions": [
-      {
-        "link": "@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519",
-        "name": "Daan p20 📟"
-      }
-    ],
-    "root": "%QVPO8+mllxa2HzrjWjxuVjYCFM78VXgz31t+6YV1p60=.sha256",
+    "text": "Yeah, I've been thinking that I'd really like for Oasis to work on both the JS and Golang implementations, which means that I'll probably need to build my views locally rather than keeping them in the database. I think I can do this by streaming `createLogStream()` into an Oasis-specific flumedb instance, but I haven't had the time to investigate yet.",
+    "mentions": [],
+    "root": "%CJDB9PYEyVgfPrTD8n+YfH5TKFzvui1lQZOrPkHgHp4=.sha256",
     "branch": []
   },
-  "signature": "3eb4/baP+Yxkkb6E6bGkytKOoqzysmV8YDmipAjQBWzIfOJzuSJHDA+UZJSxu+WSmW+itA+SC9rRnOsvlqfECg==.sig.ed25519"
+  "signature": "998ZLu9MUCxMgbHe3ySS9emuKEiEtO2v0XSpjcx2wS4zdPw95RILjxeCX7qYes2Gr9Y4sVwuKy7c8hsMqLXNBg==.sig.ed25519"
 }
