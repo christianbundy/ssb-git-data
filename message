@@ -1,20 +1,20 @@
 {
-  "previous": "%rEz0wHBJ21sK+FZkTRSKasChDCq2ELwu4PS+xSAT4zg=.sha256",
-  "sequence": 12769,
+  "previous": "%z1yOwf3EQU6uFvcmjy2z3w/ulI8LrPAIM4g4ldSFP5s=.sha256",
+  "sequence": 12770,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570645592576,
+  "timestamp": 1570668653747,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, I suppose the server would need to translate SHA256 hashes into their corresponding content. Maybe that might be another way to do it: reference the exact SHA256 hash of the content you're referencing and don't let the viewer display any content that hasn't been referenced.\r\n\r\nThat way you can share a message (or a sequence of messages) with a friend over a public viewer, but they can't crawl the social graph by looking at irrelevant messages in the thread or traversing a hashtag or anything like that.",
+    "text": "[@Daan p20 📟](@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519)\r\n\r\nYeah, but I'm still unsure whether that would conform to our community expectations because there isn't an explicit consensus yet. Personally, I think \"available over HTTP but not indexed by search engines\" is very similar privacy-wise to \"available over SSB but not available over HTTP\", but what I think really isn't important here.",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
+        "link": "@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519",
+        "name": "Daan p20 📟"
       }
     ],
     "root": "%QVPO8+mllxa2HzrjWjxuVjYCFM78VXgz31t+6YV1p60=.sha256",
     "branch": []
   },
-  "signature": "o624yiq8bHP5Nia0sbwR0/WLPMxxsUemp/SUq4zdcJA6uqBRoevtZxl4CVKw9EtUYI3TNRs4mzNZav8uEs9lCg==.sig.ed25519"
+  "signature": "3eb4/baP+Yxkkb6E6bGkytKOoqzysmV8YDmipAjQBWzIfOJzuSJHDA+UZJSxu+WSmW+itA+SC9rRnOsvlqfECg==.sig.ed25519"
 }
