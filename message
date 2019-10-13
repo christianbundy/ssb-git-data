@@ -1,20 +1,15 @@
 {
-  "previous": "%lklNfzypRWSh2LjqDTt90jOvyxN6gtCOwxMtqqtAdBA=.sha256",
-  "sequence": 12788,
+  "previous": "%Z+fBGj9riRPEOEAXbMEO8U/KRQauh6NOdqlTV6rHCdI=.sha256",
+  "sequence": 12789,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1570903565345,
+  "timestamp": 1570979617810,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@VI (phone)](@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519)\r\n\r\nIf you're running Patchwork from the command-line, I'd recommend checking the configuration JSON that gets output to see which addresses Patchwork is listening on. Patchwork and ssb-server have different defaults, so the best way to see what's happening is to look at the configuration.\r\n\r\nI know that in ssb-server, the default is to listen on `127.0.0.1`, which is fine for lots of configs but breaks if you want to listen on IPv6 or some other network interface.",
-    "mentions": [
-      {
-        "link": "@62eqgNkaSGTlKT9GIL/txMO5td3HVFsrlWaiwnS28ZI=.ed25519",
-        "name": "VI (phone)"
-      }
-    ],
-    "root": "%A+GSgdelbT5QBqrVpFqM4pdDeE/vC2zxTHeyJ28v5yM=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%SkdTVqnAzLtTDBOMv+UJbr/dthKx6f/gXIsI98wRrjQ=.sha256",
+      "value": 1
+    }
   },
-  "signature": "iBCXm7XIHLv4yG917SDEqlo6RSMzEev+NtDNnK/nhwl3wVAH6VsRBEVkDTx6/vOlHvZJAvr1u08a/EkDqV/BBg==.sig.ed25519"
+  "signature": "98nCRMPsu8/J/Hl5C8PG+9eE/WSSbSo0dNoYpHu0qQ4IRDE8jkFG0ypKuc3YSwP2JtnvTVGhAx/Ds9UyqTmUAw==.sig.ed25519"
 }
