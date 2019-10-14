@@ -1,15 +1,33 @@
 {
-  "previous": "%rls3ur6Tdkz1QYbXT8vwScErFSPGIm6nrnFc9hJS2h0=.sha256",
-  "sequence": 12798,
+  "previous": "%nJYmgh9lFoMkjaXHXC8eoUkTXu4ItLDgN/FhGhmhFEw=.sha256",
+  "sequence": 12799,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571074144906,
+  "timestamp": 1571077995926,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4C9tnqvckaQBXXUdqqeYusYIrO/ZbSe28th4hkP0eRQ=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "root": "%4C9tnqvckaQBXXUdqqeYusYIrO/ZbSe28th4hkP0eRQ=.sha256",
+    "branch": "%4C9tnqvckaQBXXUdqqeYusYIrO/ZbSe28th4hkP0eRQ=.sha256",
+    "reply": {
+      "%4C9tnqvckaQBXXUdqqeYusYIrO/ZbSe28th4hkP0eRQ=.sha256": "@JernZnOilteOW0A9FAuRUArfWOaUyYWCPOEEL4H3XUk=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "[@anita](@JernZnOilteOW0A9FAuRUArfWOaUyYWCPOEEL4H3XUk=.ed25519) \n\nHey, welcome! I've been meaning to read *How to Do Nothing*, how do you like it? I really dig the [cover art](%gI8Eyl2G6qrrv29feNoO7p4TCiUnhTE40rlQ/WFk/3w=.sha256). I was going to play D&D this weekend with [@bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519) but some friends dropped out -- someday!",
+    "mentions": [
+      {
+        "link": "@JernZnOilteOW0A9FAuRUArfWOaUyYWCPOEEL4H3XUk=.ed25519",
+        "name": "anita"
+      },
+      {
+        "link": "%gI8Eyl2G6qrrv29feNoO7p4TCiUnhTE40rlQ/WFk/3w=.sha256",
+        "name": "cover art"
+      },
+      {
+        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
+        "name": "bram"
+      }
+    ]
   },
-  "signature": "IwLedv/RPCW/cD8J4b1dD4S6fRVKrviVZTlAs9ZMmeNS4LuYl++5JeXWhbpMsQJArNHspzOE2ilIP4PVnSuLCQ==.sig.ed25519"
+  "signature": "q4egg4BkkwcFl9eC6IjFbhQ1TB/lG3Ymwk+UfCHh0lPW2RESeiW+x9TUPp8Z1Wx8Dou+oFtm/eoIlCg5XeB6Bg==.sig.ed25519"
 }
