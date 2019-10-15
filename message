@@ -1,15 +1,24 @@
 {
-  "previous": "%4CPZv0+5AnVXGblMTug+W2zJsk/G0UAV5l69XD74u7M=.sha256",
-  "sequence": 12801,
+  "previous": "%hwFPgrFaPFNqbrPGOZqyBs4svAW7WafaHVKqp6lagLI=.sha256",
+  "sequence": 12802,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571150709293,
+  "timestamp": 1571155578087,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Are you all seeing this in the Play Store app or somewhere else? The version of Play Store that I'm running doesn't seem to have any recommendations for other apps.",
-    "mentions": [],
-    "root": "%9yUGOh0Uwl591se5h8Nl7pyQBeIZxwni3yzcvXlhP+0=.sha256",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nHere's my understanding of where we're at:\r\n\r\n|             |   sigil-link |  ssb:<sigil-link> |  ssb-uri |\r\n|-------------|--------------|-------------------|----------|\r\n|  patchwork  | ✔            |                   | ✔        |\r\n|  patchbay   | ✔            |                   | ✔        |\r\n|  patchfox   | ✔            | ✔                 |          |\r\n|  ssb-viewer | ✔            | ✔                 |          |\r\n\r\nI'm obviously biased, but my preference would be to continue using the ssb-uri module and add support for the schemes we want to support. It should be *super* easy to add support for `ssb:<sigil-link>`, and I'd be happy to improve the spec if we have other ideas on how to encode URIs with a non-`null` origin. FWIW, I think we're all just using these URIs to catch links rather than run code on that URI, but I'm not attached to the current spec and would be happy to improve if we know how.\r\n\r\nHappy to have a call on this if you'd like, although I should probably mention that I'm *still* feeling a bit burnt out from trying to build URI consensus in [the discussion you linked](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256). I agree that ssb-uri was a baby step and that there are lots of improvements to be made, but it felt like taking a bigger step in any direction was stepping on someone's toes.\r\n\r\nThanks for starting this discussion, I love seeing your thoughts in my mentions. ❤",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+        "name": "the discussion you linked"
+      }
+    ],
+    "root": "%Epck+Xt399/tyc7HzIK38WH4QHu9ilEvd3gBVwxFR3g=.sha256",
     "branch": []
   },
-  "signature": "Lg/XWOmKtRcD1XVhQO6+6P4KIOIf4RDWyAPI0DDhQgt4KjNbN1+m89p1y0enHzT5XLD5z5BVVyBxFNhwKiJACQ==.sig.ed25519"
+  "signature": "Aa5eqWgM10DEz3ZUVh1lZ9PXz9kqUclPSArnRtX3w9N9Jk84a41JRho3z9jHXpvyI70ETvJECUO5McSb+WN8Dg==.sig.ed25519"
 }
