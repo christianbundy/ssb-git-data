@@ -1,15 +1,21 @@
 {
-  "previous": "%qT9a8XTaF2K8/YTghxl6mqLEt3tSpc0Wa8fnOjD5nL4=.sha256",
-  "sequence": 12809,
+  "previous": "%bLD6Bm/jDqVz6r3neMxFR7jc5yDUJSfiI4DFxIBxDis=.sha256",
+  "sequence": 12810,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571164598338,
+  "timestamp": 1571164998959,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%06gSgrAQjeQ9JJKv4YO4q5r1wYZNK3E/5DNHexA8+T4=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nCurrently it's [URL-safe base64](https://tools.ietf.org/html/rfc4648#section-5), because it's the only thing we could build consensus around. I don't think anyone is in love with the encoding, but we had trouble finding a clear winner among the alternatives. We have the option of allowing lots of types of encodings, but that means that non-JS implementations of SSB will have more stuff to implement.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ],
+    "root": "%glsamMe2L2RwVe6AxqBtUk0gV3Wi5jS5OnVjzJDqAww=.sha256",
+    "fork": "%Epck+Xt399/tyc7HzIK38WH4QHu9ilEvd3gBVwxFR3g=.sha256",
+    "branch": []
   },
-  "signature": "4nhs70LcXezM8L0kulFK+lbSQg7Jak7gimdpErxB3ucAtQU/CGsFDzeicKX1a1Xg2co05W2QTmH4I77VKjd6Aw==.sig.ed25519"
+  "signature": "5dpPXb+i3dOTjh7btEM0LWFZxz2I+uvkIUiimAmq/zCbOtY7cMXia2vfmFwy9XxJgVYN2CBy51ZWAsdh29pKAw==.sig.ed25519"
 }
