@@ -1,17 +1,20 @@
 {
-  "previous": "%0cZUHk20ioLOL5++L+ok8rgmWPWUge8cBeew4h3cEJ0=.sha256",
-  "sequence": 12846,
+  "previous": "%Mc0NwNa8aqNwfmuVcojKS/6PR8pC2pZjSjT7GBmM1Fk=.sha256",
+  "sequence": 12847,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571437634283,
+  "timestamp": 1571437641697,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%47drdibEae85Bo1+qKYKbH2Hlkb+CV6afDioPAe/QiE=.sha256",
+    "branch": "%47drdibEae85Bo1+qKYKbH2Hlkb+CV6afDioPAe/QiE=.sha256",
+    "reply": {
+      "%47drdibEae85Bo1+qKYKbH2Hlkb+CV6afDioPAe/QiE=.sha256": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519"
+    },
     "channel": "ssb-learning",
-    "vote": {
-      "link": "%47drdibEae85Bo1+qKYKbH2Hlkb+CV6afDioPAe/QiE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "Really happy to see this.",
+    "mentions": []
   },
-  "signature": "Goj95gFynP52C9DQ0yy2eBNG+Ws1DC/NQGRtYPgVNyC/Pm2ACs001W2M3lIvZswq3NIhyfpIT4GgUHJi9wceCg==.sig.ed25519"
+  "signature": "mWgI39eqCYqK43rbNoSO+QFQEWnrcnYTdr16h87FpkeMrlvDOSs1JCuADO3d/tTntv+Rciqmgk+A1zr4IwLJAA==.sig.ed25519"
 }
