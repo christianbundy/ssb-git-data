@@ -1,24 +1,16 @@
 {
-  "previous": "%fmEdDMcqjxHFYa3wjfwPZztPv8PODC1yUnPQ2i9BQj0=.sha256",
-  "sequence": 12841,
+  "previous": "%HYq6Bk2IwBJRAVKU1SOvj1p9oJBTVBMc4gTYMjEmIlM=.sha256",
+  "sequence": 12842,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571334865547,
+  "timestamp": 1571362024075,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nICYMI, I wrote a comment [here](%VPG5y+fUWTxPmGBwhiIIctBUDySy4/ICejOjvbgd4hk=.sha256) comparing encodings, and keks linked to a base32 discussion on IPFS [here](https://github.com/ipfs/go-ipfs/issues/4143) in that thread as well.\r\n\r\nTL;DR: Base64 is more common and available in most standard libraries. It's URI-unsafe by default, but there's an IETF standard to fix that (which can be implemented with a quick string substitution). Encoding integers with base32 results in a longer string with URI-safe characters, although it's less common to find in standard libraries (and there's some controversy about The Best Base32, since there are a few).",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      },
-      {
-        "link": "%VPG5y+fUWTxPmGBwhiIIctBUDySy4/ICejOjvbgd4hk=.sha256",
-        "name": "here"
-      }
-    ],
-    "root": "%Epck+Xt399/tyc7HzIK38WH4QHu9ilEvd3gBVwxFR3g=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%4nAEeofS6zbeuaoxZAQksTw6F7NUL6tIccDIRLrtfUw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "RHdbNQ/5xWdDkGnoFqUkJkW8JtfzgpO/gGxro5Lei8tALWek8Q2jvYGM4ZVQCweEVMyh9aFLsDHJRq6d1+mdDA==.sig.ed25519"
+  "signature": "VvCu7HxOHgKasUZVUNPdgCD5tQXw/sI1sjSeKEy0ny4dBwh41jRW+pGrUWIopR3IBd7AexVYDTH0IepZ9xBDBQ==.sig.ed25519"
 }
