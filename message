@@ -1,24 +1,17 @@
 {
-  "previous": "%ykf7Oro+EplOrq9QFQThAR3q07A5v98KQ92YzNZlKcc=.sha256",
-  "sequence": 12852,
+  "previous": "%ZAA2llGy9e73rYDrobBkTwcBSugyUDLNKD69/NxTn1E=.sha256",
+  "sequence": 12853,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571514757464,
+  "timestamp": 1571514760754,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%1atRyfdkE7M9IDIxhVw4CvYUu+xlKd6d1DuN3RdC+Tg=.sha256",
-    "branch": [
-      "%PX0XM5LHOZd0SUDTfYYrTDBBQh6c9RKvMAi41mYVLMo=.sha256",
-      "%ubQtraFaKdSxG0Ur3tslUPkKj/ACMYQBjG0qFNuydLU=.sha256"
-    ],
-    "reply": {
-      "%1atRyfdkE7M9IDIxhVw4CvYUu+xlKd6d1DuN3RdC+Tg=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-      "%ubQtraFaKdSxG0Ur3tslUPkKj/ACMYQBjG0qFNuydLU=.sha256": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "It's great! I made a gallon a few months ago and really enjoyed it. Looking forward to seeing how your batch goes.",
-    "mentions": []
+    "vote": {
+      "link": "%PX0XM5LHOZd0SUDTfYYrTDBBQh6c9RKvMAi41mYVLMo=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "mChlbZL/8YlLMFPSFd46QxVPZwPSm0Y3PTocx/YBzSPudmM2pEdrEpvERW07nNaPjqeEeQC9HF0AfxjI+oVGDQ==.sig.ed25519"
+  "signature": "kfsfJOZ8+rVTzNp5v/t4EVAL4m3T9mGPdZmvlYaUndvVh9sbcdls9j+w2QKHuDTzsxVqi9zO/UAzCnF8qYdkDw==.sig.ed25519"
 }
