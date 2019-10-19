@@ -1,16 +1,24 @@
 {
-  "previous": "%HfJOFt5xJlhrKEtx5lKmbIJiU5deFBZ/A/jplvEi9vY=.sha256",
-  "sequence": 12850,
+  "previous": "%sz3HZsQE/esGU0I4kjF2zfyO+SfXlk4jaJxuuKC+ah4=.sha256",
+  "sequence": 12851,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571506006107,
+  "timestamp": 1571514469336,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%1atRyfdkE7M9IDIxhVw4CvYUu+xlKd6d1DuN3RdC+Tg=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%mB2azXu4Ds1TRQpqFg+TX1Dm8V1Ao8kLWJexh/BepgE=.sha256",
+    "branch": [
+      "%1l0k3/wAqyk0r0xchrxk7/krhEHZIO6TgBlQ5InWhrM=.sha256",
+      "%wRSpMnKhcbMK4Nedal3MllhQNHO2UUqh8AnzQvOFMbc=.sha256"
+    ],
+    "reply": {
+      "%mB2azXu4Ds1TRQpqFg+TX1Dm8V1Ao8kLWJexh/BepgE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%wRSpMnKhcbMK4Nedal3MllhQNHO2UUqh8AnzQvOFMbc=.sha256": "@3SEA7qNZQPiYFCzY6K57f0LTc9l+Bk6cewQc6lbs/Ek=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "Related: today I hooked up a Raspberry Pi (3B+) to my speakers with an aux cord and installed [bt-speaker](https://github.com/lukasjapan/bt-speaker) and it works well enough. I think it'd be simple to add another [wired] speaker, and in the future maybe even a wireless speaker. This means that I'd be able to use a common protocol like Bluetooth between my handheld or laptop computer and then some less-common-but-more-better protocol to sync the audio between a few small computers.\n\nFrom what I've read, the Raspberry Pi is both sub-par *and* overkill for something as simple as streaming audio over bluetooth, but that's what you get with non-specialized hardware that's Good Enough for lots of use-cases.",
+    "mentions": []
   },
-  "signature": "2YEKv9ddkp2qzmtkAXyEcsFMnk6k7GsdXakD/sgTHavFwt2QQ+wukIeXuohWodmSZtBwuwx8VeLr1DqCJeZaAw==.sig.ed25519"
+  "signature": "QfxpeZFkSs1qSnGKjbgmQMVyf+10obFbmHKndEMD+3WKkLW5ZEJbOwotPZkW4qbbMZixghH9A5eU/ukHsOabCA==.sig.ed25519"
 }
