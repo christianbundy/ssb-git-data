@@ -1,29 +1,17 @@
 {
-  "previous": "%75+fyUYH+luZ95KM5aRXejlQ62Fr5u5Yfv6HQ5e9YM4=.sha256",
-  "sequence": 12855,
+  "previous": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+  "sequence": 12856,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571525712522,
+  "timestamp": 1571529400394,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "JS-SSB thought: I want to write a secret-stack plugin that gets loaded after ssb-db and replaces `_flumeUse()` with a function that implements a client-side flumeview with `createLogStream()`. I think this would make it easy for lots of clients to use the same database at the same time without having to agree on flume views. Has anyone tried this, or does anyone have thoughts on how it should be done? It feels too simple to be true.\n\ncc: [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) #lessbot ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      },
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      },
-      {
-        "link": "#lessbot"
-      }
-    ]
+    "type": "vote",
+    "channel": "scuttlebutt",
+    "vote": {
+      "link": "%OTHxI0oCaEW00ni+feGWa9Y+RTCCf5t+VDaeujxKWe4=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "hEFopvJdC1n1PwHa3cyRTEVTn/p70apwqVUVP+25gv1LIma9Wtm875Ut4U8KkHMbBtrts0qVusawIBAxNwsvDA==.sig.ed25519"
+  "signature": "lqvKMFwB+ppvELWuIMyWHbJLi9r6GKqErg170z7ruXdYX7jGxLdIzgwcsiKXdGHHzFEYsja9KGyC5Ys5CUQhBQ==.sig.ed25519"
 }
