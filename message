@@ -1,21 +1,29 @@
 {
-  "previous": "%uEf4N/D460sV9jq9QQktSBubWqhxACYsCWYtxnq0BWA=.sha256",
-  "sequence": 12854,
+  "previous": "%75+fyUYH+luZ95KM5aRXejlQ62Fr5u5Yfv6HQ5e9YM4=.sha256",
+  "sequence": 12855,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571524963101,
+  "timestamp": 1571525712522,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%1sRoyN9dlLeWwES5417Z2RtIJN+aHRzD2m1hyFEdM64=.sha256",
-    "fork": "%47drdibEae85Bo1+qKYKbH2Hlkb+CV6afDioPAe/QiE=.sha256",
-    "branch": "%1sRoyN9dlLeWwES5417Z2RtIJN+aHRzD2m1hyFEdM64=.sha256",
-    "reply": {
-      "%1sRoyN9dlLeWwES5417Z2RtIJN+aHRzD2m1hyFEdM64=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
-    },
-    "channel": "ssb-learning",
-    "recps": null,
-    "text": "> we talked about making a wrapper `scuttle-friends` which figures out what is accessible on your server and uses what it can\n\nwould love this for ssb-gossip and ssb-conn",
-    "mentions": []
+    "text": "JS-SSB thought: I want to write a secret-stack plugin that gets loaded after ssb-db and replaces `_flumeUse()` with a function that implements a client-side flumeview with `createLogStream()`. I think this would make it easy for lots of clients to use the same database at the same time without having to agree on flume views. Has anyone tried this, or does anyone have thoughts on how it should be done? It feels too simple to be true.\n\ncc: [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519) #lessbot ",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
+        "name": "matt"
+      },
+      {
+        "link": "#lessbot"
+      }
+    ]
   },
-  "signature": "Mo9uqb24/zcTXKSsyeB6fdNrBExWMSqKT40GmxCE+y7cf3d6hanAK15GEDPXlRtN4dD9/Q7ZOKP9QBEAGMyVBw==.sig.ed25519"
+  "signature": "hEFopvJdC1n1PwHa3cyRTEVTn/p70apwqVUVP+25gv1LIma9Wtm875Ut4U8KkHMbBtrts0qVusawIBAxNwsvDA==.sig.ed25519"
 }
