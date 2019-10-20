@@ -1,17 +1,26 @@
 {
-  "previous": "%j6GwnpXyajWUr1K2Ykotq5XLj21u2hc+NTwKllMPoQw=.sha256",
-  "sequence": 12857,
+  "previous": "%Tr56rfk2UHCx0EaJZpWEXI+Dw8eG7SMVAdKqvzT1bYo=.sha256",
+  "sequence": 12858,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571532653369,
+  "timestamp": 1571533655194,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-show-and-tell",
-    "vote": {
-      "link": "%0o2zFUP5C0PaYJV3ZnTVaFQafn3QOLNVB54SKBaWUiM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%vsmE4YINWhMLvelBi5SzEAYrlPNOW96kMHnGToPZj7E=.sha256",
+    "branch": "%OWtjwJGrnBq3Yr8ENbQpynQ/3mJLAfRbIqIEygSDCyY=.sha256",
+    "reply": {
+      "%vsmE4YINWhMLvelBi5SzEAYrlPNOW96kMHnGToPZj7E=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
+      "%OWtjwJGrnBq3Yr8ENbQpynQ/3mJLAfRbIqIEygSDCyY=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nI don't think I understood the Halloween video but the music reminded me of the RL Grime annual Halloween mix.\n\n🔊🔊🔊",
+    "mentions": [
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      }
+    ]
   },
-  "signature": "wCPxJyPMoueXFdd8vEu2T/dg/kD3cailtgS4KF+yTZBlC/h3qA50kX6anRMTMHRyhKtsgn21dBPh2+JFsoxwAQ==.sig.ed25519"
+  "signature": "wbaJl5xkdvKXjHB0aBuU+ItW1uDw3PKRoF8giITntodiyHOlRvaViKG4IfDqU2h53MAukccZBX5UVqR6afzsAg==.sig.ed25519"
 }
