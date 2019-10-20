@@ -1,26 +1,26 @@
 {
-  "previous": "%Tr56rfk2UHCx0EaJZpWEXI+Dw8eG7SMVAdKqvzT1bYo=.sha256",
-  "sequence": 12858,
+  "previous": "%p6Mqt/JTyB+KHubo0p4u0nnuXInbMEwzlBfewJkO/PU=.sha256",
+  "sequence": 12859,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571533655194,
+  "timestamp": 1571533866494,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%vsmE4YINWhMLvelBi5SzEAYrlPNOW96kMHnGToPZj7E=.sha256",
-    "branch": "%OWtjwJGrnBq3Yr8ENbQpynQ/3mJLAfRbIqIEygSDCyY=.sha256",
+    "root": "%0o2zFUP5C0PaYJV3ZnTVaFQafn3QOLNVB54SKBaWUiM=.sha256",
+    "branch": "%2PD5tD7uQ8h4M2cOJ1LgciyieqKJEF3J0EN0NXoeP9s=.sha256",
     "reply": {
-      "%vsmE4YINWhMLvelBi5SzEAYrlPNOW96kMHnGToPZj7E=.sha256": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
-      "%OWtjwJGrnBq3Yr8ENbQpynQ/3mJLAfRbIqIEygSDCyY=.sha256": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519"
+      "%0o2zFUP5C0PaYJV3ZnTVaFQafn3QOLNVB54SKBaWUiM=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+      "%2PD5tD7uQ8h4M2cOJ1LgciyieqKJEF3J0EN0NXoeP9s=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
     },
-    "channel": null,
+    "channel": "ssb-show-and-tell",
     "recps": null,
-    "text": "[@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) \n\nI don't think I understood the Halloween video but the music reminded me of the RL Grime annual Halloween mix.\n\n🔊🔊🔊",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\n> Shall we just use `lodash.clone`?\n\nIf it's just JSON data, the fast and easy way to do deep object clones:\n\n```javascript\nconst obj = { foo: 42 }\n\nmodue.exports = JSON.parse(JSON.stringify(obj))\n``` ",
     "mentions": [
       {
-        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
-        "name": "nanomonkey"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ]
   },
-  "signature": "wbaJl5xkdvKXjHB0aBuU+ItW1uDw3PKRoF8giITntodiyHOlRvaViKG4IfDqU2h53MAukccZBX5UVqR6afzsAg==.sig.ed25519"
+  "signature": "PRZuAAMUIB4OvOhJRcrmhNxXBKSRk5Q2WhdDhOWC8SIth6r4GJ7rUAXHoAlPydjMKeuiQ41ZQe2xJWthP3iKBw==.sig.ed25519"
 }
