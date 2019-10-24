@@ -1,21 +1,15 @@
 {
-  "previous": "%MEK9VwriOZJ9mztTi+/D3mjq/w0R8JOcVaQt1+0zEVQ=.sha256",
-  "sequence": 12877,
+  "previous": "%Ql29NMhJrwliPEmdUAywexuurUkVYWaEkNFYYxKCnKQ=.sha256",
+  "sequence": 12878,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571931890453,
+  "timestamp": 1571931964463,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nHmm, I don't think I know the answer to this question. IIRC the config is created when the server starts, so it isn't dynamic, but I'm actually not sure how this works. I think I remember seeing hooks for network changes, but I'm not sure where that was.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ],
+    "text": "(I'm moderately confident that this is one of the things fixed by making this change in multiserver instead, which currently only outputs one address at a time.)",
+    "mentions": [],
     "root": "%QzZYwFD/WS3sYYfsa5w+18LmQmp5FQbjgnxZ65Uysks=.sha256",
-    "fork": "%TR33K6AtKDYY9XIwK3dmkV3B5PlSMuiirYiI/6N755g=.sha256",
     "branch": []
   },
-  "signature": "PDJrGss+i30UrdobO4ja3nVKB94LyakHOtKStaZmV5Z2Ie2dSYbz4uEVwZJaDW76RQyB61KLDAx/BXcl8X5fDQ==.sig.ed25519"
+  "signature": "IGqNQEGV1a6+8CmGfodovFOkhgpgrL7hJkPni60fCfskbWErNCdWpcm5g5kXcmQTLfYJnAZBB3TseQ0VSCcgAg==.sig.ed25519"
 }
