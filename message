@@ -1,15 +1,13 @@
 {
-  "previous": "%wVjKp3sJuC7JUiyecgtjNqBZAM7GYET/O4ExpuFCVwQ=.sha256",
-  "sequence": 12886,
+  "previous": "%tcxfld3CdJICw4ISjruzlYZJ3CS7//qWLFVOHefa2P0=.sha256",
+  "sequence": 12887,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1571967481397,
+  "timestamp": 1571967812545,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UOr3/6N6K0N9iEKaG+MOZ2rQOVBZorq1UcDMQYJGVfw=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "uBlock Origin tip: hide feeds from Reddit and Hacker news by adding these filters:\r\n\r\n```\r\nold.reddit.com###siteTable\r\nnews.ycombinator.com##.itemlist\r\n```\r\n\r\n(Pairs well with [Old Reddit Redirect](https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/))",
+    "mentions": []
   },
-  "signature": "l05zjmDGVOANPL5Ki8Ts1vKTTSIvjbHw3NEEfsMZhsGzuh6r92ipjaqCgRtcedIK+eVG53DihuSFpn48sLn/Cg==.sig.ed25519"
+  "signature": "5cCPDIUTBOA8BK4fLE6KpYDvsIBuPb926MrqOjjRu6hB48nm1E+BE3fPnCAfogE7+z/E4Tp8FB1Rk7AePzWuDQ==.sig.ed25519"
 }
