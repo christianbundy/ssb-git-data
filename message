@@ -1,15 +1,20 @@
 {
-  "previous": "%GAWQCnfE7GL0wleGt/wPFOiUbxi4ShWilDn3gml+GSQ=.sha256",
-  "sequence": 12890,
+  "previous": "%9dqSdLXwAzozxkBfN1ZOmQQAcyonwqiIBBMo3PPauUA=.sha256",
+  "sequence": 12891,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572014483127,
+  "timestamp": 1572103539457,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%tMLuyyNORmy8Q3yg0zhzw6gYu7TK+5h5swamPmezrlI=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@Oliver](@aumED1o4VyM2Vemd5UDhVqjqY4sJDZOhwumaNen0MkQ=.ed25519)\r\n\r\nHi! This is a good idea, and it's what we're currently doing, except that most people don't have a public IP address. This means that we need some intermediary servers on the internet _or_ some overlay network (yggdrasil, cjdns, tor, etc). I'm hopeful that we can use tools like discovery-swarm to create ad-hoc overlay networks for peering, but it's not finished yet.\r\n\r\nI like where you're head's at though, this is a move in the right direction.",
+    "mentions": [
+      {
+        "link": "@aumED1o4VyM2Vemd5UDhVqjqY4sJDZOhwumaNen0MkQ=.ed25519",
+        "name": "Oliver"
+      }
+    ],
+    "root": "%0oCizPe/POqfLSLjpVAehC+QGMvbSyyKzX7ezvtk6Ho=.sha256",
+    "branch": []
   },
-  "signature": "fXKMIGl7RGScK4yi1CB+GhVQIFv0fkpqZb5xn6ZA3ZGZIC9NMVaRZevEp7qEi1mC4KRN+j2gBPw1H2k7uv7PCA==.sig.ed25519"
+  "signature": "HOEIkotyhxhitqhrsaUFbaMxcIh4EDEXEOzzfa3+DE93NS3CoXMmYpQL0SZNmC5/G+wrtF7BxAEi2HXlmsFfDw==.sig.ed25519"
 }
