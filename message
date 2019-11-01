@@ -1,20 +1,20 @@
 {
-  "previous": "%/5zmmZ76+nbtJWFele0m5RjDX+e+4J1yRQ8vBc1Vw4k=.sha256",
-  "sequence": 12921,
+  "previous": "%EVojDw6IckfZoSLeCUALMX4yvwKX8gNyWubnM+cJbEY=.sha256",
+  "sequence": 12922,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572621914283,
+  "timestamp": 1572623603450,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Has anyone written a secret-stack plugin to automatically want all blobs?\r\n\r\nI want all the blobs!\r\n\r\n#ssb #ssb-learning",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nHi!\r\n\r\nI've added hermes-bot as a collaborator on your repo and added a `GH_TOKEN` to Travis CI -- I *think* this should fix it, so I've restarted your latest failing build, but I'll keep an eye out just in case it doesn't.\r\n\r\nFWIW, you _do_ have to give electron-builder a GH personal access token, but I've created hermes-bot so that we have a user with minimal authentication so that if/when the token is compromised it doesn't have admin access to our repos.",
     "mentions": [
       {
-        "link": "#ssb"
-      },
-      {
-        "link": "#ssb-learning"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
       }
-    ]
+    ],
+    "root": "%0xvL1d0Xwv2+8KLVBuczyGHqsv/TXu7hrmoLRDAl7I0=.sha256",
+    "branch": []
   },
-  "signature": "C8b3dHxG/YbVcrhuJguBCuOE3zzoMyEkOqrv+r6mAUx4Jfb7sHWDTxedxgl+yH0FMbO+4f9VbMYtD0NEySmBAw==.sig.ed25519"
+  "signature": "bpMzUvlJWwVqxVfYiHnevk28IabYuYbjxdmf+5WLHBEbpOdh8paYTjbf25Ox0w2tk/d47F43irAB4WkquGkbAQ==.sig.ed25519"
 }
