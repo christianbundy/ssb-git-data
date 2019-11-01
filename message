@@ -1,12 +1,12 @@
 {
-  "previous": "%EVojDw6IckfZoSLeCUALMX4yvwKX8gNyWubnM+cJbEY=.sha256",
-  "sequence": 12922,
+  "previous": "%3ghlOI9C7BXTrMIDY5Yiqvu941qyDoovFNoNWO6F8wM=.sha256",
+  "sequence": 12923,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572623603450,
+  "timestamp": 1572632751369,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nHi!\r\n\r\nI've added hermes-bot as a collaborator on your repo and added a `GH_TOKEN` to Travis CI -- I *think* this should fix it, so I've restarted your latest failing build, but I'll keep an eye out just in case it doesn't.\r\n\r\nFWIW, you _do_ have to give electron-builder a GH personal access token, but I've created hermes-bot so that we have a user with minimal authentication so that if/when the token is compromised it doesn't have admin access to our repos.",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nIt's working!\r\n\r\nhttps://travis-ci.com/ssbc/ssb-first-aid-kit/builds\r\n\r\n(Btw, this is only set up on the .com domain, not the old .org domain.)",
     "mentions": [
       {
         "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
@@ -16,5 +16,5 @@
     "root": "%0xvL1d0Xwv2+8KLVBuczyGHqsv/TXu7hrmoLRDAl7I0=.sha256",
     "branch": []
   },
-  "signature": "bpMzUvlJWwVqxVfYiHnevk28IabYuYbjxdmf+5WLHBEbpOdh8paYTjbf25Ox0w2tk/d47F43irAB4WkquGkbAQ==.sig.ed25519"
+  "signature": "106VsZALTnt9GqXsEf5dnJA1UeLcxfBCBpmTvq6x4UubIiTx78TXt7FBYZxLyvFiPHTTWdgMTuB1dEnzeNB0AA==.sig.ed25519"
 }
