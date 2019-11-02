@@ -1,13 +1,21 @@
 {
-  "previous": "%dGfyqXZQqHLW/Ue62q9kNl+TfRPtzwSc8lNb3NquRIc=.sha256",
-  "sequence": 12926,
+  "previous": "%pp0aBVJg3a6dWbL0eCnOL/FDWhf6F3TGQNvz2XuJuXo=.sha256",
+  "sequence": 12927,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572714224654,
+  "timestamp": 1572714380906,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Also on the agenda today: bisecting the Linux kernel. Fun! I have a problem where trying to suspend my laptop (example: closing the lid) actually *shuts down* my laptop, and this is less-than-ideal.\r\n\r\nThe silver lining is that a conversation while debugging this actually lead to my microphone getting fixed (!), so maybe I'll be able to squash two bugs with one... Saturday.",
-    "mentions": []
+    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\r\n\r\n🤔\r\n\r\nWould it be possible to print the server config somewhere before attempting a connection? I'd be curious to see which addresses it's failing on.\r\n\r\nIf you're using a unix socket it might be fixed by [this PR](https://github.com/ssbc/multiserver/pull/49). Maybe clone the current ssb-config and my PR to multiserver and ensure that they pass tests on your machine?",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      }
+    ],
+    "root": "%8Gb/t9rAJ0b8ESKQa/3VGfvC2CLsWCO//3yjU63uU1E=.sha256",
+    "fork": "%TR33K6AtKDYY9XIwK3dmkV3B5PlSMuiirYiI/6N755g=.sha256",
+    "branch": []
   },
-  "signature": "0ty0sobrmDAlfnw3rIsXQwIZ4BKh5REHOEZJMO8FpONuKMEYgCumaGS8yE5ff8YCkEyP5AU3i9l1CgmxP+7LAA==.sig.ed25519"
+  "signature": "l6CbAj5uHTGx3BliCHMaYjTbaqnrr0bk4kzi6iiyIcrB5ItMbezeF88oczTOzUCrA1MxwGb0ERmeJuH4KGB6CQ==.sig.ed25519"
 }
