@@ -1,21 +1,15 @@
 {
-  "previous": "%pp0aBVJg3a6dWbL0eCnOL/FDWhf6F3TGQNvz2XuJuXo=.sha256",
-  "sequence": 12927,
+  "previous": "%GYTBkgPuqe3qgtiWRQ6cvrB0MLHWcR+tZnJfQ7zvGJ8=.sha256",
+  "sequence": 12928,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572714380906,
+  "timestamp": 1572715328016,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\r\n\r\n🤔\r\n\r\nWould it be possible to print the server config somewhere before attempting a connection? I'd be curious to see which addresses it's failing on.\r\n\r\nIf you're using a unix socket it might be fixed by [this PR](https://github.com/ssbc/multiserver/pull/49). Maybe clone the current ssb-config and my PR to multiserver and ensure that they pass tests on your machine?",
-    "mentions": [
-      {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy"
-      }
-    ],
-    "root": "%8Gb/t9rAJ0b8ESKQa/3VGfvC2CLsWCO//3yjU63uU1E=.sha256",
-    "fork": "%TR33K6AtKDYY9XIwK3dmkV3B5PlSMuiirYiI/6N755g=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%UgxCCh+wKDENFVXWuvMJrh81AtFHyawEb998Ca9HtNU=.sha256",
+      "value": 1
+    }
   },
-  "signature": "l6CbAj5uHTGx3BliCHMaYjTbaqnrr0bk4kzi6iiyIcrB5ItMbezeF88oczTOzUCrA1MxwGb0ERmeJuH4KGB6CQ==.sig.ed25519"
+  "signature": "erzPsX9TcXnFtNmMeRNcY2OPL42oei6mMjpL7VSuMQNxT/at+97TZGk7buhwcuwrq9D4BIFrupJTc4FKp3c0Dg==.sig.ed25519"
 }
