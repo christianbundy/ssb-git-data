@@ -1,15 +1,20 @@
 {
-  "previous": "%+V0ES4AjwTtCPvmo6U8uXb3y5iEyWm0TJ0RTvKyh1GU=.sha256",
-  "sequence": 12932,
+  "previous": "%3I2ydwP1XYNsEjfyHJzwEowdsm729OVwjypmn8b/6Og=.sha256",
+  "sequence": 12933,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572729754748,
+  "timestamp": 1572742257894,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%IE8WG9tjnr59QFRpJyqfPvG9Y5A0sY3o61mlLe3sasQ=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@Oliver](@aumED1o4VyM2Vemd5UDhVqjqY4sJDZOhwumaNen0MkQ=.ed25519)\r\n\r\n>  My proposal is not requiring that people own a public IP.\r\n\r\nI think that it is, because:\r\n\r\n>  I know your IP and you know mine. As long as they don’t change we do stay in contact.\r\n\r\nIf my device is behind [NAT](https://en.m.wikipedia.org/wiki/Network_address_translation) then you don't have a way to start a new connection to it. If your device is *also* behind NAT, we need some third-party service without a NAT that we can both connect to.\r\n\r\nRight now, SSB uses pubs for this, but we could probably use some other system(s) like [STUN](https://en.m.wikipedia.org/wiki/STUN) instead. Either way, we'd need to have a server with a public IP address that isn't stuck behind a NAT *or* an overlay network to bridge our devices.",
+    "mentions": [
+      {
+        "link": "@aumED1o4VyM2Vemd5UDhVqjqY4sJDZOhwumaNen0MkQ=.ed25519",
+        "name": "Oliver"
+      }
+    ],
+    "root": "%0oCizPe/POqfLSLjpVAehC+QGMvbSyyKzX7ezvtk6Ho=.sha256",
+    "branch": []
   },
-  "signature": "UdxvdWRvT/PJk06c13FDSfhwV1kF7cTbMux0ed3s7CguVUUr7myJoAWlv77VFdKWjq6J30yI93BQHFyEqS5MDg==.sig.ed25519"
+  "signature": "K3dMOlwczpiPDfd0jEMby/++jKlLCEsXrYLNy6ZYBFCqtPj88pIqjcG0+RAuDNn4eDjj7pD4Q4ZawaYN57o9Cg==.sig.ed25519"
 }
