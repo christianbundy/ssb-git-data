@@ -1,21 +1,15 @@
 {
-  "previous": "%vw5rZOUNTpBAfQTlYrKB+Ex5Z7BT1OT6FeXeoK/gexI=.sha256",
-  "sequence": 12935,
+  "previous": "%8JdJqJVdTk1WlH9uW202426D9mN5o3NdXTYRnioA39U=.sha256",
+  "sequence": 12936,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572796016545,
+  "timestamp": 1572796051623,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\r\n\r\nKinda weird that you're getting `127.0.0.1` twice, but otherwise that seems reasonable. I suppose I'd be curious:\r\n\r\n- whether you have the same problem with Patchwork (with the new ssb-config)\r\n- whether those tests pass on your machine\r\n\r\nSorry to see you're running into trouble though, that's no fun. Happy to have a chat about it sometime, though I'm not sure I'd be very helpful here.",
-    "mentions": [
-      {
-        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
-        "name": "happy"
-      }
-    ],
-    "root": "%ZRoV58SVAnX3wVMCazjnuOZDQRHPzEDWrGyHY38OvYg=.sha256",
-    "fork": "%8Gb/t9rAJ0b8ESKQa/3VGfvC2CLsWCO//3yjU63uU1E=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%tSFG4QMBcsxF6Zbxh6vnNgYIZ98meIb00E1maW2tSBg=.sha256",
+      "value": 1
+    }
   },
-  "signature": "/ZDFKOpPYzJIbARn71Flxx822enFr+10pD+ibKy+U9lW5rDukIUMJ3VXjNCSxril1DecqnQExytx+Uxe/xuEDg==.sig.ed25519"
+  "signature": "HB1LKkzI2pYniqpzOiox+aFNU7G10qnMNOMFV94UEGkLHehVOubkioPuwQfZToI1ppR2Yke9aBfmBLYWESfWBA==.sig.ed25519"
 }
