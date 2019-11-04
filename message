@@ -1,20 +1,20 @@
 {
-  "previous": "%BEu96kLJqiblIYu0p+3brjgiCx+B/FD31pFnSbx4MEU=.sha256",
-  "sequence": 12939,
+  "previous": "%OPQ99Fr2dMsjjm4KsouI+0ut4edk+cPPeONdt61eQpc=.sha256",
+  "sequence": 12940,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572796383315,
+  "timestamp": 1572831431897,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\n> I can’t believe this is the best messenger app we have\r\n\r\nsame, I'm both bummed because it has issues and stoked that I don't have to use SMS\r\n\r\nI'd be curious to hear your thoughts on alternatives, if you have time / interest. Purism seems to be going all-in on Matrix for voice and messaging, but I wish we could use some P2P protocol instead.",
+    "text": "[@uniporn](@tzJDzwTbyOtt0jWWqD/3x1AjoZz+XTira5xlW8hxdYQ=.ed25519)\r\n\r\nThanks for the tip! That's a good idea.\r\n\r\nI'm using systemd, but this is also triggered by `systemd` suspend. I performed a `git bisect` on the kernel and identified [this commit](https://github.com/torvalds/linux/commit/a3fbfae82b4cb3ff9928e29f34c64d0507cad874) to the TPM driver as the culprit.\r\n\r\nI've added a ticket to the Linux bugzilla [here](https://bugzilla.kernel.org/show_bug.cgi?id=205409), if you have any thoughts I'd love your input!",
     "mentions": [
       {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "kira"
+        "link": "@tzJDzwTbyOtt0jWWqD/3x1AjoZz+XTira5xlW8hxdYQ=.ed25519",
+        "name": "uniporn"
       }
     ],
-    "root": "%/2m5FW+DJJgSmoAA3Hw2iQfdWnkrcCQ3XwUP58HoEOc=.sha256",
+    "root": "%pp0aBVJg3a6dWbL0eCnOL/FDWhf6F3TGQNvz2XuJuXo=.sha256",
     "branch": []
   },
-  "signature": "qW1wvVebwKBOhHRRtoBTtv1QZ7T/BLRwqiSrZQYFy/tKxjMRUP+mvlic04uR29UhyvIWui/gd0A4LnJGG8teDA==.sig.ed25519"
+  "signature": "VOxLW7MjqdKVrtXfcQLi57aygH+ib18sNJHYd4h7PNsg/YXpcQHnEu83M73L3ZVwV/kEB+O4MrJHCaRgha6gCA==.sig.ed25519"
 }
