@@ -1,20 +1,15 @@
 {
-  "previous": "%OPQ99Fr2dMsjjm4KsouI+0ut4edk+cPPeONdt61eQpc=.sha256",
-  "sequence": 12940,
+  "previous": "%CLqYgmuHiZhAPai/xjjtew/8FkKKskRHBrnWs5I21GM=.sha256",
+  "sequence": 12941,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572831431897,
+  "timestamp": 1572831458657,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@uniporn](@tzJDzwTbyOtt0jWWqD/3x1AjoZz+XTira5xlW8hxdYQ=.ed25519)\r\n\r\nThanks for the tip! That's a good idea.\r\n\r\nI'm using systemd, but this is also triggered by `systemd` suspend. I performed a `git bisect` on the kernel and identified [this commit](https://github.com/torvalds/linux/commit/a3fbfae82b4cb3ff9928e29f34c64d0507cad874) to the TPM driver as the culprit.\r\n\r\nI've added a ticket to the Linux bugzilla [here](https://bugzilla.kernel.org/show_bug.cgi?id=205409), if you have any thoughts I'd love your input!",
-    "mentions": [
-      {
-        "link": "@tzJDzwTbyOtt0jWWqD/3x1AjoZz+XTira5xlW8hxdYQ=.ed25519",
-        "name": "uniporn"
-      }
-    ],
+    "text": "> this is also trigged by `systemctl suspend`\r\n\r\nFTFM",
+    "mentions": [],
     "root": "%pp0aBVJg3a6dWbL0eCnOL/FDWhf6F3TGQNvz2XuJuXo=.sha256",
     "branch": []
   },
-  "signature": "VOxLW7MjqdKVrtXfcQLi57aygH+ib18sNJHYd4h7PNsg/YXpcQHnEu83M73L3ZVwV/kEB+O4MrJHCaRgha6gCA==.sig.ed25519"
+  "signature": "j75dnkcM6mHNayMatzJpiLKpgtNciOCD2G6ISzdSFZ6+VPb3sDfdWTIZAi07+AcvdyPTt237YigB5lKiCPxEAg==.sig.ed25519"
 }
