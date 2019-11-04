@@ -1,15 +1,21 @@
 {
-  "previous": "%gjYkfKWKSvwTT2n60LFlNR29NAayaYsG1HRjFjiDjJM=.sha256",
-  "sequence": 12943,
+  "previous": "%hcSnhap4JnRfPZjp3fKspn5IlxqbF55u9tuO6wQJRIc=.sha256",
+  "sequence": 12944,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1572877426837,
+  "timestamp": 1572898515237,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%enJdBrJjEuf8H80lsMla8Q2rv8/6l0LPEKoMbrQVQ2w=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@patrick](@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519)\r\n\r\n> It’s like a full power cycle as opposed to a ‘restart’.\r\n\r\nI don't think I've ever paid attention to whether a restart is calling *halt* or *shutdown* under the hood -- am I right to understand that a restart usually does *halt* but that somehow your halt is now doing a shutdown and restart? \r\n\r\nThat's... really weird. I think?",
+    "mentions": [
+      {
+        "link": "@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519",
+        "name": "patrick"
+      }
+    ],
+    "root": "%+0Z+tpF+Ev39T3nRqy1awZj1SDru5YKl8/twwk5uP/w=.sha256",
+    "fork": "%pp0aBVJg3a6dWbL0eCnOL/FDWhf6F3TGQNvz2XuJuXo=.sha256",
+    "branch": []
   },
-  "signature": "iph/MJO+kq2PvtZMjdNMRend0qoXAgQIseYqobhvvYh3jfhHULTWCMfg2TEs07PZIAtEsBIe9Z5YTvfOX01eDw==.sig.ed25519"
+  "signature": "tIJXjY5TRDe09RkKtx76kZBjvP1O4unzT23OTG3hMp4kkhRYeC0ZvnxPIMFmCsKbcNr1GkIs7Bd5Q9qvYabnCw==.sig.ed25519"
 }
