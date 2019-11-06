@@ -1,24 +1,15 @@
 {
-  "previous": "%3DGbrh4vFAZWwmzCeCmLUdWnH3+uX0kRykIzgAQtO8o=.sha256",
-  "sequence": 12961,
+  "previous": "%NuXAFn+c4iTm6IeI3xQ06rDuKWH85dmtbuPhSZfl2ak=.sha256",
+  "sequence": 12962,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573081589061,
+  "timestamp": 1573081726830,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\r\n\r\nThis is awesome, thanks for the CC!\r\n\r\nHow does this handle impossible timestamps (far past, future, etc)? I built [something very similar in JS](%73MkFRPzPcPBWJbD87mvJRS4+Ristf9NrQuHlH1wkI0=.sha256) and I couldn't find a great way to deal with incorrect timestamps.",
-    "mentions": [
-      {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
-      },
-      {
-        "link": "%73MkFRPzPcPBWJbD87mvJRS4+Ristf9NrQuHlH1wkI0=.sha256",
-        "name": "something very similar in JS"
-      }
-    ],
-    "root": "%omzSU2epqDGUn7fXDxbbYFzhu9fs7RHLTsoYes6kZmk=.sha256",
-    "branch": []
+    "type": "vote",
+    "vote": {
+      "link": "%AYWdyBA+lefWRMfyF+lQ60OJmU0ea+JF3Dj8jqoX2Y4=.sha256",
+      "value": 1
+    }
   },
-  "signature": "bBtnzmxBdA4TBd7Cm7003h24m1B+NoXDMdEPxV2P3Zs9nKSRoka7hF2KJD8jHF3yDlncvM5nLWVdrJxVmGsqCg==.sig.ed25519"
+  "signature": "lKaL26F0O2u0wQu2APCYFqO34gOQmPC+hnoQvYJyOrtCf5bRmmtso8q2D6uU54+MkP9WXT2r7btyARooGRgpBQ==.sig.ed25519"
 }
