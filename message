@@ -1,20 +1,19 @@
 {
-  "previous": "%pVAl4j96Ygi9QiomtW3e4ZeCWK8kaq/DvfRv8BmbU6g=.sha256",
-  "sequence": 12966,
+  "previous": "%eO8X87OqW7ZBztWnML9I8/HgqSc/1YFUpOmwkz+fuKM=.sha256",
+  "sequence": 12967,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573147640590,
+  "timestamp": 1573148321711,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nOh, *that*'s why my builds weren't running! I'll re-add Travis back to SSBC.\r\n\r\n(hermes-bot is meant to have minimal permissions because we have to share a personal access token with Travis -- it doesn't have full SSBC permissions because that's very scary. It was originally called patchwork-bot but I thought it might be useful for Patchbay as well. It'd probably be safer to have one bot per repo but convenience and security are usually opposites.)",
+    "text": "Also: #ssb-ci",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "#ssb-ci"
       }
     ],
     "root": "%0xvL1d0Xwv2+8KLVBuczyGHqsv/TXu7hrmoLRDAl7I0=.sha256",
     "branch": []
   },
-  "signature": "zUrrZPlWezLb3WFLjPhOI24103ZgVZnfGjx80YJKrxwxPlqzTQ2bxyJIecZavve3Q1BuNhmw+y/3+2V+nPKtBQ==.sig.ed25519"
+  "signature": "v3yUH9TciBL/50XWnhkBQ5GovsOe3bbLjNh0g+oVEJcPFAB7jT19Yama8VCEGzDlVXkkDL1e08Gcp19Xz2HoBw==.sig.ed25519"
 }
