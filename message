@@ -1,15 +1,28 @@
 {
-  "previous": "%bRmgaZ9sJdnObkaLGPDWx2HcRK2DYZQrEN49aQixzoI=.sha256",
-  "sequence": 12971,
+  "previous": "%Wkno4lH3El+n/JvzGpazxeSfaB5Gox2zTrtMGsE/l78=.sha256",
+  "sequence": 12972,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573173416434,
+  "timestamp": 1573175660934,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%bUTTrIJ/S7wyOxq5kBwE9O+ptaim7zs7VbtCIv6TLzg=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@IBob](@vkdMlsuBgzzo5eLS3LZLdqnBpZ26OauJOMIq9gQ2E7E=.ed25519)\r\n\r\n> A possible alternative would be to supply a drill bit, a simple clamp on jig which allowed the DIYer to accurately drill perpendicular holes, and a premarked measuring strip to get the spacing right.\r\n\r\nI'd be super into this.\r\n\r\nLike [@nanomonkey](@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519) said, most of the holes will never be used, and in my [very short] explorations I've only been drilling the holes I knew I'd use (usually eight holes per beam (four on each end (two in each dimension))).\r\n\r\n> I don’t really understand the appeal of Grid Beams [...] T-slotted extruded aluminum is just as easy to work with, and much more versatile\r\n\r\nFor me, the appeal is that it's a simple framework for building modular structures from materials that are unbelievably easy to find. I used a tape measure, a backpacking saw, a cordless drill, and some toggle bolts on some 2x2 to make a monitor stand with almost zero woodworking experience.\r\n\r\nMy intuition is that *assuming you already have access to a makerspace* it's probably just as easy to find and develop with metals, but as a guy with an apartment and an office space I'd be surprised if I have the tools to make my own aluminum beams.\r\n\r\nFWIW, the problems I've encountered so far:\r\n\r\n- My local department store doesn't have bolts longer than 3 inches (80 mm) and there aren't any hardware stores within ~1 mile. I'm using toggle bolts I found at my coworking space but there aren't even simple options on Amazon (which, of course, wouldn't be ideal anyway).\r\n- Clamps and a proper saw would probably go a long way. So far I've been holding things down with my hands and knees and just ignoring the shoddy cuts from a backpacking saw.\r\n- I don't have a rasp, which I think would be useful in cleaning up my crappy cuts. Coarse sandpaper would probably work fine, but I'd rather avoid buying disposable \"tools\" if possible.\r\n- **The biggest pain point is that I don't have a drill press**. When I get a hole that's straight and centered I'll often use it as a guide to make more holes, but the guide obscures my view of the point I'm drilling and makes it easy to drill off-center. I think a jig would go a long way but I'm not experienced enough to know what I need to build. Ideally a jig would:\r\n  - Keep my holes centered in the wood.\r\n  - Keep my holes evenly spaced.\r\n  - Hopefully be portable and usable **without taking the structure apart**. This may be unreasonable and I'd be happy with only the above.\r\n\r\nUnrelated: (cc: [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)) what's the intellectual property status of Grid Beam™? I didn't realize it was trademarked until today, which makes me wonder whether I should be evangelizing someone else's trademark. Would it be wise to develop an open standard to describe Grid Beam™ and OpenStructures™ and other modular building systems *without* invoking a commercial trademark? Or am I being paranoid about intellectual property rights?",
+    "mentions": [
+      {
+        "link": "@vkdMlsuBgzzo5eLS3LZLdqnBpZ26OauJOMIq9gQ2E7E=.ed25519",
+        "name": "IBob"
+      },
+      {
+        "link": "@+D0ku/LReK6kqd3PSrcVCfbLYbDtTmS4Bd21rqhpYNA=.ed25519",
+        "name": "nanomonkey"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      }
+    ],
+    "root": "%BuTtWmK0GE/LfGTu9BE/tTzO8BxJ1aQmTEXz+8y5Inw=.sha256",
+    "branch": []
   },
-  "signature": "ik+/l+qGFIDbiTUdbjzsPwQ+lVkSdnlY5QPY3XMnX9F+pvhq2Q6dS/y3BDjelXtWPA/uidLMmHqdXeh6uUyKBA==.sig.ed25519"
+  "signature": "mjSlm1glLWzSuTZEmYF2RKvhj/pJabXAl8mVaiKFgDPqzi9V+zyC+Uz/fC8dGwFNIOsXtuTdd2R1ZA9h8ohXAA==.sig.ed25519"
 }
