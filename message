@@ -1,15 +1,20 @@
 {
-  "previous": "%MyOEHzUJqMWHKoROTnsAOOza4ZqRsMIsRDLjDygarPM=.sha256",
-  "sequence": 12984,
+  "previous": "%YyH5h4biUO20FIISSGn6pW+ILQ/krLZcs9qzoCuFGuU=.sha256",
+  "sequence": 12985,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573247093266,
+  "timestamp": 1573404758170,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wcR3H38WfELYOFRno/PpKBqgo90Gk273ya+mRM4kDxQ=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nNo problem! It looks to me like the [ssb-first-aid-kit builds are succeeding](https://travis-ci.com/ssbc/ssb-first-aid-kit/builds), is that all working as expecting?\r\n\r\nIt looks like the [ssb-backup-tool](https://travis-ci.com/ssbc/ssb-backup-tool/jobs/254297816/config) is failing because of some changes to the `.travis.yml`, could you revert as many of those changes as possible? Specifically, it looks like it's running `npm run release-ci`, which targets *all* installers, whereas we want the default behavior where each OS builds an installer for itself. \r\n\r\nIf we do this, then we can avoid things like *building a Windows installer with Linux* so we can avoid Wine and all sorts of other pain points.\r\n\r\nIf you want I'd be down to keep troubleshooting asynchronously *or* we could do a synchronous text chat or call. Whatever works best. ❤",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%pnK+ZrNhembRYf1ZKALkGwk1uoHwLHauHmoLIVwfD30=.sha256",
+    "branch": []
   },
-  "signature": "mOSSjFy1JP7J5dA+ocdNl6rfVrdkqvUh5Hz2upvgsqX77zXKYQNsKCj0TVNkmmNgf2j60q3ia6U05W1D5VPACA==.sig.ed25519"
+  "signature": "Ncy+uff0EJfQbH632V+zggKDaUzRpf8wKegmOMgpqa1ZChVJh5cRUHACxW8ogOvikpnIyLdYeRy28QUoFo6kDw==.sig.ed25519"
 }
