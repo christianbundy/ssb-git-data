@@ -1,15 +1,20 @@
 {
-  "previous": "%ixT56gwKGMEn/8aZBa1lAkY4HvUdq5BM+0ZXhAalVB0=.sha256",
-  "sequence": 12996,
+  "previous": "%UmcZoBVz7snB/fKYvlLbhlmF1UXOOHBhp5Gyv3N6gm8=.sha256",
+  "sequence": 12997,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573510114852,
+  "timestamp": 1573510483410,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%aErhiXjd2HZlsOz7C6f4tdHlZqd/lMMNRxBE52lSw0c=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "Arch Linux protip: keep [`linux-lts`](https://www.archlinux.org/packages/core/x86_64/linux-lts/) installed so that when the bleeding-edge kernel stops booting you can just switch to the old kernel and keep chugging along.\r\n\r\nTwo is one, one is none.\r\n\r\n#arch-linux #linux",
+    "mentions": [
+      {
+        "link": "#arch-linux"
+      },
+      {
+        "link": "#linux"
+      }
+    ]
   },
-  "signature": "LBTcmhJ96WeSxn7en24KZ5jjbue+b2tg5m8u4F3fatsI7j2Bbrizy6w5+FAl9JqhEnY+TDHDIxRkx/RMNIQaDQ==.sig.ed25519"
+  "signature": "bgMmTC3Bk0p87hEaL6a8rvgJBhb+L9pZrP4eptslnOAd9W47oS+MnMfxumqmH3E/XkqOmCXMqJNdF6ifFfDxBA==.sig.ed25519"
 }
