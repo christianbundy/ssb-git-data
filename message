@@ -1,20 +1,21 @@
 {
-  "previous": "%mt65iv8IpJC0Mx4nteVHFtno6qnU/2pzXqOqH5yl9XM=.sha256",
-  "sequence": 13006,
+  "previous": "%Z0xRoQcRfTPdhGsqdqyfTY/Cn1jFNViC/ZBDt1srAS8=.sha256",
+  "sequence": 13007,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573572090961,
+  "timestamp": 1573572276389,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> Another path that I might explore is to remove all the native modules from scuttle-shell.\r\n\r\nI might be misunderstanding, but won't you still need the native modules for libsodium / leveldb / etc?\r\n\r\nI'd also really like to avoid Electron, and I'm going to make sure that Oasis installed via package managers (including npm) doesn't contain Electron, but I think most macOS and Windows users need standalone binaries. :(",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThis would be really cool! I'm going to experiment with some of the things we talked about and then maybe chat about my ~~failures~~  opportunities for improvement on a call. :~)",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ],
-    "root": "%1VzWr4gnRA3LHOcrVs9itt9n2cYG4alnIvuLPh1QSjU=.sha256",
+    "root": "%zN4KDiJSgBXJGqSGk+xWu2YwDU6WMsLczaQWO1P/rrk=.sha256",
+    "fork": "%wzKZtZtMcj5oqIRMnoOUn6rIACu5+wvzG+HtNfz/fNk=.sha256",
     "branch": []
   },
-  "signature": "0j5srgECrtRMpODqCajGE4yuFUFFgcSYT7DHQNtZa0R56xmSCjStWGwSaVqCscfDqqZzNAP7VbKux/u/vkesCQ==.sig.ed25519"
+  "signature": "lQ8U207U/dlimf/qrwa2WdNOtO+rlet3PLo2td3/WUCcaR3KZc/nEIeNAa0KTWUvwDdBhbB7JgNsqKnDYHw/Aw==.sig.ed25519"
 }
