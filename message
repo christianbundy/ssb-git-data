@@ -1,22 +1,17 @@
 {
-  "previous": "%ZkExHBKQmhSAJS6vV4HKcGR7kG01qtsQ9SpXaVGdNVY=.sha256",
-  "sequence": 13013,
+  "previous": "%r+wFtR+ljLTwNCkaYHC3dfEIQ2uDWfrF71lRkcTSZ6s=.sha256",
+  "sequence": 13014,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573576756255,
+  "timestamp": 1573585830982,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%pnK+ZrNhembRYf1ZKALkGwk1uoHwLHauHmoLIVwfD30=.sha256",
-    "fork": "%0xvL1d0Xwv2+8KLVBuczyGHqsv/TXu7hrmoLRDAl7I0=.sha256",
-    "branch": "%UmtPjqSH7uJu+kHeDmykPcjkppCBvlkfNJePYJN4fTg=.sha256",
-    "reply": {
-      "%pnK+ZrNhembRYf1ZKALkGwk1uoHwLHauHmoLIVwfD30=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-      "%UmtPjqSH7uJu+kHeDmykPcjkppCBvlkfNJePYJN4fTg=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "It looks like the repo wasn't activated, not sure what happened.\n\nI went to my settings, granted SSBC permissions, went to the Travis page for the repo, and hit \"activate\". Looks like it's building now, let me know if it gies you any more trouble.",
-    "mentions": []
+    "vote": {
+      "link": "%5dgePAJbDa3NDuYc5a+9ba3Shtjog15yS5PtKirbz7Y=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "6LojXcUYHX5iYWj/j59hEXG+AvsSt3CUfpcMCjuPE1loQdBu3z6kxgykVcMUlWidM+usqO4lKeU4IiGEzobcAA==.sig.ed25519"
+  "signature": "2JxEyjZfsrc8SnjrHgOZruY/Q51vwKCo4bQ1f4KKQN05iwrnJvAmf65xXvPaAtvjb3S9dBxJSBmR9dgPvmVVBA==.sig.ed25519"
 }
