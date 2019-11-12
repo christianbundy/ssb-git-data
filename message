@@ -1,15 +1,20 @@
 {
-  "previous": "%E6YOETYknCYpgONS8tR9FJZlOZ8w1r2Fe4mZU46Q5Ug=.sha256",
-  "sequence": 13004,
+  "previous": "%ZfZCw3lve/lEct8xt1R9K4yxPViPRPj3MuFFssMjVJA=.sha256",
+  "sequence": 13005,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573525911238,
+  "timestamp": 1573570794970,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UFgnRc2t7FDEmdv2ns3xr0WQzucn3YQqO4IL+gY8IHA=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nI've been struggling with this. I've tried both nexe and pkg but neither are working for me. At this point I think I might use Electron just for the native module support. It feels ridiculous to bundle Chromium and not use the browser, but I'm running out of options.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%1VzWr4gnRA3LHOcrVs9itt9n2cYG4alnIvuLPh1QSjU=.sha256",
+    "branch": []
   },
-  "signature": "h11AbUhh+Am8y0mocJYCTAsW/SVsIo78al525TqdKyCmr7bXXJ6NnEfvif8GZSig8WhgFwG2JimwNuTlVuRKCg==.sig.ed25519"
+  "signature": "IaM8lov5TSbIIygpyJmkVlfyhnWwh9iVAsskZnUar+lrgp38ou+WfCpNXu/fqQAR+xmbMb+W9aTKD8+kIfWgDQ==.sig.ed25519"
 }
