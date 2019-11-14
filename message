@@ -1,13 +1,31 @@
 {
-  "previous": "%OXiLWvWvcX26NWcUlvpiSV8W/hyFJ6E0V2T6hc4F9pw=.sha256",
-  "sequence": 13036,
+  "previous": "%9dHs3VHrvoiiRG7qI/F2BfFTPrSbsKQYNxQqn5vnZSA=.sha256",
+  "sequence": 13037,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573768133027,
+  "timestamp": 1573768291586,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@1DJDUwuYO9OEsyoEljdTSPDhL4BN1bexZ6OESzSzWFs=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%l3QaMgiL50NR7FsnhufW/7y2FJSt7e/paDxaKDtgf9M=.sha256",
+    "branch": "%l3QaMgiL50NR7FsnhufW/7y2FJSt7e/paDxaKDtgf9M=.sha256",
+    "reply": {
+      "%l3QaMgiL50NR7FsnhufW/7y2FJSt7e/paDxaKDtgf9M=.sha256": "@1DJDUwuYO9OEsyoEljdTSPDhL4BN1bexZ6OESzSzWFs=.ed25519"
+    },
+    "channel": "new-people",
+    "recps": null,
+    "text": "Hey [@Nolan (PC)](@1DJDUwuYO9OEsyoEljdTSPDhL4BN1bexZ6OESzSzWFs=.ed25519), happy to see you on here!\n\n> Wish this thing was at least partially centralized with a good web-based client, or easier in-roads for folks getting started.\n\nIt's not feature-complete, but I've been working on a web-based client called #oasis that might be worth checking out in a few months.\n\nDon't worry about the git-ssb thing, that's supposed to be an informational thing but it definitely looks like a warning. Maybe #somebody-should rip that code out... 🙃 \n\nLooking forward to seeing you around, cheers.",
+    "mentions": [
+      {
+        "link": "@1DJDUwuYO9OEsyoEljdTSPDhL4BN1bexZ6OESzSzWFs=.ed25519",
+        "name": "Nolan (PC)"
+      },
+      {
+        "link": "#oasis"
+      },
+      {
+        "link": "#somebody-should"
+      }
+    ]
   },
-  "signature": "uOOnivkzFzZ6y6E+RRr48TX7MeTT4FDYcBDkOziZES0Tg0AmGHJ3WjiyCLmaIhDSK0wtbNRtgLnv3w2TuTl7Ag==.sig.ed25519"
+  "signature": "zSxVsuix08npM21/CcjI64q/JGwp2ep3BUV0oCKGOe7e4Y+boAeQvX1rLFn8pvKpir5amBBqcyXqwIgUwGemCw==.sig.ed25519"
 }
