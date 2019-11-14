@@ -1,25 +1,17 @@
 {
-  "previous": "%hOWYOcWhr13L079wvrPYsx4Yk6o3IkMBYP77HuP67FE=.sha256",
-  "sequence": 13033,
+  "previous": "%E/0pC3WlBWoyUuU9vwUjXCLASwYgTodT7g5kJsTJiB4=.sha256",
+  "sequence": 13034,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573762283768,
+  "timestamp": 1573763682596,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%uFYpIKXAZlW3ZeqBxtoD15d7L4Wm62LWaDnk+kMYn0A=.sha256",
-    "branch": "%uFYpIKXAZlW3ZeqBxtoD15d7L4Wm62LWaDnk+kMYn0A=.sha256",
-    "reply": {
-      "%uFYpIKXAZlW3ZeqBxtoD15d7L4Wm62LWaDnk+kMYn0A=.sha256": "@jnA0/zkHb0TYLheAhmzNxK6MlOWqHlsk+xxMdy/pRDY=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@Dave Potts](@jnA0/zkHb0TYLheAhmzNxK6MlOWqHlsk+xxMdy/pRDY=.ed25519) \n\nI think the green circles should show the state of synchronization -- when the circle is full, you're up-to-date!",
-    "mentions": [
-      {
-        "link": "@jnA0/zkHb0TYLheAhmzNxK6MlOWqHlsk+xxMdy/pRDY=.ed25519",
-        "name": "Dave Potts"
-      }
-    ]
+    "vote": {
+      "link": "%2N0RmLbgAKkhLkLqhmd+nJnk441dwoEfHF/TVr40jY8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "UbJaMWgy0OOiQSoQs7J0fIErwhy1frlqIWyMkuSvbcQSCASPJ9n9Rna4YNMi2Bc0klcf5KShpBjfwl9Q7Mt9DQ==.sig.ed25519"
+  "signature": "qR4fM5aS4rRILsm48XW8utTa3hAi8ck3L8X/CWM9GVjNcAhAzRMj+DqQQP03FdTO+p8pM/iB/QEfO6zyNrzxAw==.sig.ed25519"
 }
