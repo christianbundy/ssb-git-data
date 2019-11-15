@@ -1,15 +1,20 @@
 {
-  "previous": "%7G/3rxrpkDOG9ts94GXScR4+ij35buL2GeXh7aXZSjw=.sha256",
-  "sequence": 13049,
+  "previous": "%LVMYaVCFzTigxDf7pH0syqBa7fGVOlW25YlP+AmQIpU=.sha256",
+  "sequence": 13050,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573831593413,
+  "timestamp": 1573831726004,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ddEbRTr6DcRFb3X29TG0/riFqvh3lCXrCUzF4//e33E=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@Arne Bolen](@UK199ZsOvzmv8cytkUHEDchqDi56D4G73HyZiAyYGKs=.ed25519)\r\n\r\nThe version number looks right, looks like it's maintained here? https://github.com/afterconnery/ssb-patchwork\r\n\r\nI'm not super familiar with Snapcraft though -- I tried to get Patchwork set up with auto-publishing but it wanted me to install things on my machine (and I couldn't get the install working).",
+    "mentions": [
+      {
+        "link": "@UK199ZsOvzmv8cytkUHEDchqDi56D4G73HyZiAyYGKs=.ed25519",
+        "name": "Arne Bolen"
+      }
+    ],
+    "root": "%6xUWG4w4qIexyHduHlxhgdvAUnoQIejUfiHO0mzXpCs=.sha256",
+    "branch": []
   },
-  "signature": "PpLnnUngmsHezWf8CkJg0XExlVsTlXQHuhh59x//DoWfMom+GrNK20CxukjYheWiRDUTBNfPuq2oX+HbksSBAw==.sig.ed25519"
+  "signature": "O5AASkKCycF8Pq7F+Vt/u05Fv4mUaoyYjDmHfmj8MS3UoBscYRCkXJbfhuphJHiVgHo0BM5xNmG9gQSyQdLVAw==.sig.ed25519"
 }
