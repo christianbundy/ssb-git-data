@@ -1,18 +1,27 @@
 {
-  "previous": "%hUu+GqPawfzgaBqhWUEYSmCz4yNyKfwlMZWGvXyzfFA=.sha256",
-  "sequence": 13083,
+  "previous": "%ULDllItrgA2SioXksHMMtc0/8ZI8AxlVCms45GhWEk4=.sha256",
+  "sequence": 13084,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573851701374,
+  "timestamp": 1573853575012,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%CKJmBmTx9I5iHQYNQedUTo8SiMGBlCHJKQfo/dRNcvc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@duncan](@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThis got me thinking that it might be useful to have a table that indicates which modules and systems are used by each interface.\r\n\r\nI made a quick table here, feel free to improve it:\r\n\r\nhttps://hackmd.io/@uo10RQ8HQbyhwmPihO8VJg/ssb-comparison",
+    "mentions": [
+      {
+        "link": "@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519",
+        "name": "duncan"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%RXR3TvkogDVDWfRs48kQr9hVPdEWByeIIuQRicEyFXk=.sha256",
+    "fork": "%z4bA3ix77rovI+FZOjMG8j1bgpGdJQ1lLabMjmcPTgU=.sha256",
     "branch": [
-      "%CKJmBmTx9I5iHQYNQedUTo8SiMGBlCHJKQfo/dRNcvc=.sha256"
+      "%RXR3TvkogDVDWfRs48kQr9hVPdEWByeIIuQRicEyFXk=.sha256"
     ]
   },
-  "signature": "A8Z3h/NiSFoDrXiK6m0+qli6iPhlrWKQiesP5t1Tl1q7RHayJlOjfOgllh12gNZ4OFvPCaZ16/1HBYwhsWpsBg==.sig.ed25519"
+  "signature": "ED7UJ4tnLKNFFZX6hqReGdqC+SRSmXReRvCY5GhLTP+XLfZWaChNpNtLQqk6X4vF+v4nnrVurRbVCkmN3O4wCQ==.sig.ed25519"
 }
