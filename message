@@ -1,27 +1,18 @@
 {
-  "previous": "%ULDllItrgA2SioXksHMMtc0/8ZI8AxlVCms45GhWEk4=.sha256",
-  "sequence": 13084,
+  "previous": "%E3kRfGtjKb3WoaH+cBRnknnRJcPI6H6zTfnI+Q8sdGM=.sha256",
+  "sequence": 13085,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573853575012,
+  "timestamp": 1573853653454,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@duncan](@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThis got me thinking that it might be useful to have a table that indicates which modules and systems are used by each interface.\r\n\r\nI made a quick table here, feel free to improve it:\r\n\r\nhttps://hackmd.io/@uo10RQ8HQbyhwmPihO8VJg/ssb-comparison",
-    "mentions": [
-      {
-        "link": "@Wbmkx0zKN/zFC1Li7Mz3IEQlcnHT7gAQ38i3hRCqyp4=.ed25519",
-        "name": "duncan"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%RXR3TvkogDVDWfRs48kQr9hVPdEWByeIIuQRicEyFXk=.sha256",
-    "fork": "%z4bA3ix77rovI+FZOjMG8j1bgpGdJQ1lLabMjmcPTgU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%doUxWIVvUytZnWH90tep5sqeq0OnKAqqqlW7JAo7BfE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%RXR3TvkogDVDWfRs48kQr9hVPdEWByeIIuQRicEyFXk=.sha256"
+      "%doUxWIVvUytZnWH90tep5sqeq0OnKAqqqlW7JAo7BfE=.sha256"
     ]
   },
-  "signature": "ED7UJ4tnLKNFFZX6hqReGdqC+SRSmXReRvCY5GhLTP+XLfZWaChNpNtLQqk6X4vF+v4nnrVurRbVCkmN3O4wCQ==.sig.ed25519"
+  "signature": "E1Ur3T9nRa9CeA0chfVyzq8lnhl7N38+3zgNl2b07uAfks3vvgPLcTUStyHTBJXik1C3mhtA7Uj+jtxPgbulDg==.sig.ed25519"
 }
