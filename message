@@ -1,15 +1,21 @@
 {
-  "previous": "%Qip++SwA0RZxydN96fGsG5+Rj9sh38pBNQx/6Zn0rTo=.sha256",
-  "sequence": 13072,
+  "previous": "%eYI1MpAlTD5dQ5PvKi6sSp59OAzX0Ij0VPXEoocZOqo=.sha256",
+  "sequence": 13073,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573839491783,
+  "timestamp": 1573839579243,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%e0RK693k4w729J+7wnGAFahz96+9XM2CS/qbidbciRM=.sha256",
-      "value": 1
-    }
+    "type": "post",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\n```sh\r\ngit config --global push.followTags true\r\n```\r\n\r\n[follow tags](https://git-scm.com/docs/git-push#Documentation/git-push.txt---follow-tags) ftw",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ],
+    "root": "%e0RK693k4w729J+7wnGAFahz96+9XM2CS/qbidbciRM=.sha256",
+    "fork": "%iKexEVgUz/tEKYpfKsGqde7NMfqvdAjNB60cPQTDo/c=.sha256",
+    "branch": []
   },
-  "signature": "i1L7lcKB7IobUeBWTXhKSGElj9CHrR36n9cAtJnb2AxS0OyT+8dJyOeEUexMURs4guEMFsHKmhHuzJACElTpCQ==.sig.ed25519"
+  "signature": "K/wPsl66AmDDanZJkJ4FiHuQ9kUjSVeSEHEYnZrea+v3cYZxYMCcIsYOy9+ugdR29M+X0HwIZNvAm0dPKWnQAA==.sig.ed25519"
 }
