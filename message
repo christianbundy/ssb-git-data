@@ -1,24 +1,22 @@
 {
-  "previous": "%TejSc+e+N8XPJHqGQQ9opUP9IXUH0LzhthuSZxVUH3w=.sha256",
-  "sequence": 13127,
+  "previous": "%vaXZReDFCV09hnLGqgYxmacst8jboVM2kFwgMW4PK1s=.sha256",
+  "sequence": 13128,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573934563662,
+  "timestamp": 1573936801406,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256",
-    "branch": [
-      "%8E1ASe/zhP2j8R/IagQJEFZbvuNYQ1ovFmorOAiKwFk=.sha256",
-      "%gjw5S+TWf4loVFmJZi3+b/TydHVtvYCB9/svu0ey+Kk=.sha256"
+    "text": "[@micro](@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519)\r\n\r\nCool! Are there any instructions on how to use this (or things I should know)? I've used Wireshark but haven't installed any plugins.",
+    "mentions": [
+      {
+        "link": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
+        "name": "micro"
+      }
     ],
-    "reply": {
-      "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-      "%8E1ASe/zhP2j8R/IagQJEFZbvuNYQ1ovFmorOAiKwFk=.sha256": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "You may already know, but the big difference between the two:\n\n- `createHistoryStream()` does not decrypt private messages and you can safely share its output\n- `createUserStream()` *does* decrypt private messages and **you should not share its output** unless you want to share private messages",
-    "mentions": []
+    "root": "%W4cHMXizTTN/9M9kVcI4/jKhNTV3eitpIl5fCpoGcE4=.sha256",
+    "branch": [
+      "%W4cHMXizTTN/9M9kVcI4/jKhNTV3eitpIl5fCpoGcE4=.sha256"
+    ]
   },
-  "signature": "Dbw/+8DM2L9wS6LUlMeVv0LMKLI1YAz2pY4NDQ6KIes3crSaCQ/omCm1NGeMnqbsK3UjTzxTfYM2DJiTYhQ4CA==.sig.ed25519"
+  "signature": "iEmReeBFenEXy0+E/LgrM8JFk1smJju7OAxSVFXu3CJsceie+9BhAC3pR0PV3I+AA/cXfOC1bh9IlfjA1T8aBw==.sig.ed25519"
 }
