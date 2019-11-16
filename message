@@ -1,22 +1,26 @@
 {
-  "previous": "%l0/trJP+/UQWBBwj5xdNQ3DNRBshadSpc7PHVNxirJA=.sha256",
-  "sequence": 13125,
+  "previous": "%gjw5S+TWf4loVFmJZi3+b/TydHVtvYCB9/svu0ey+Kk=.sha256",
+  "sequence": 13126,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573933556965,
+  "timestamp": 1573934423509,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@【﻿Ｎｅｔｓｃａｐｅ Navigator™】](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nI'd start with something like:\r\n\r\n```sh\r\nssb-server createHistoryStream --id @z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519 | jq 'select(.value?.content?.type? == \"post\")'\r\n```\r\n\r\nUse `jq -c` to get one JSON object per line, btw.",
+    "text": "![video:River rocks sparkling very subtly with bright colors](&YC+JF6PZutKP7C5XsdUsqjt0TpXRxP4a2HvpeGjlVZ8=.sha256)\n\nFrom [/r/replications](https://old.reddit.com/r/replications/comments/dsk4gn/electrical_colors_patterning/), resized to fit in a blob. \n\n#art #replications",
     "mentions": [
       {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "【﻿Ｎｅｔｓｃａｐｅ Navigator™】"
+        "link": "&YC+JF6PZutKP7C5XsdUsqjt0TpXRxP4a2HvpeGjlVZ8=.sha256",
+        "name": "video:River rocks sparkling very subtly with bright colors",
+        "type": "video/mp4",
+        "size": 4083953
+      },
+      {
+        "link": "#art"
+      },
+      {
+        "link": "#replications"
       }
-    ],
-    "root": "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256",
-    "branch": [
-      "%ybLH+fT6Se3AAqhohTxKWjTt+A2kUe4StEt/16RIrSQ=.sha256"
     ]
   },
-  "signature": "UACRK9nBMZgtMCufKzGdNozJyGy+3R0S/hUSi9mFjDYuyHrjHl/NUWvorn0oyxaXjSLcSfOUkG8/TQat54P6Aw==.sig.ed25519"
+  "signature": "cqxiDjmaLqQVEMCypOHGbOHNkfmj9hmaXNzOeaPkt/zogmji9ShJJ2A/eCcejJzEhGp3NrDiTGT6GSXkr2AMBA==.sig.ed25519"
 }
