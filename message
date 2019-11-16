@@ -1,26 +1,24 @@
 {
-  "previous": "%gjw5S+TWf4loVFmJZi3+b/TydHVtvYCB9/svu0ey+Kk=.sha256",
-  "sequence": 13126,
+  "previous": "%TejSc+e+N8XPJHqGQQ9opUP9IXUH0LzhthuSZxVUH3w=.sha256",
+  "sequence": 13127,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573934423509,
+  "timestamp": 1573934563662,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "![video:River rocks sparkling very subtly with bright colors](&YC+JF6PZutKP7C5XsdUsqjt0TpXRxP4a2HvpeGjlVZ8=.sha256)\n\nFrom [/r/replications](https://old.reddit.com/r/replications/comments/dsk4gn/electrical_colors_patterning/), resized to fit in a blob. \n\n#art #replications",
-    "mentions": [
-      {
-        "link": "&YC+JF6PZutKP7C5XsdUsqjt0TpXRxP4a2HvpeGjlVZ8=.sha256",
-        "name": "video:River rocks sparkling very subtly with bright colors",
-        "type": "video/mp4",
-        "size": 4083953
-      },
-      {
-        "link": "#art"
-      },
-      {
-        "link": "#replications"
-      }
-    ]
+    "root": "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256",
+    "branch": [
+      "%8E1ASe/zhP2j8R/IagQJEFZbvuNYQ1ovFmorOAiKwFk=.sha256",
+      "%gjw5S+TWf4loVFmJZi3+b/TydHVtvYCB9/svu0ey+Kk=.sha256"
+    ],
+    "reply": {
+      "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
+      "%8E1ASe/zhP2j8R/IagQJEFZbvuNYQ1ovFmorOAiKwFk=.sha256": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "You may already know, but the big difference between the two:\n\n- `createHistoryStream()` does not decrypt private messages and you can safely share its output\n- `createUserStream()` *does* decrypt private messages and **you should not share its output** unless you want to share private messages",
+    "mentions": []
   },
-  "signature": "cqxiDjmaLqQVEMCypOHGbOHNkfmj9hmaXNzOeaPkt/zogmji9ShJJ2A/eCcejJzEhGp3NrDiTGT6GSXkr2AMBA==.sig.ed25519"
+  "signature": "Dbw/+8DM2L9wS6LUlMeVv0LMKLI1YAz2pY4NDQ6KIes3crSaCQ/omCm1NGeMnqbsK3UjTzxTfYM2DJiTYhQ4CA==.sig.ed25519"
 }
