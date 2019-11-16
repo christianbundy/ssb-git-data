@@ -1,22 +1,18 @@
 {
-  "previous": "%J3jXmR/T4rNgillbrB7lmTrkYSgeAJIZUeDahAi6fIk=.sha256",
-  "sequence": 13117,
+  "previous": "%gb1pVgq1mskLc59HpJNBqgeUmJxnpC0qkq4RAnltspg=.sha256",
+  "sequence": 13118,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573923572055,
+  "timestamp": 1573923583245,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Syndikalista](@MwnJFr1vrAbuYhkXC9a0Sv05LXHYRVxSe107oGp1HOU=.ed25519)\r\n\r\nThis is because most clients generate the mentions page with a query like \"show me all messages that reference my ID\". It's more resource-intensive to say \"show me all messages that reference any message that I've posted\", although I agree that it would be super useful.",
-    "mentions": [
-      {
-        "link": "@MwnJFr1vrAbuYhkXC9a0Sv05LXHYRVxSe107oGp1HOU=.ed25519",
-        "name": "Syndikalista"
-      }
-    ],
-    "root": "%NMGcLv6cC7ZQRoo73EJVcLSlDuFpEqBVTXbfxKKSCmk=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%9l39OAlabKr8Ga+szNbN9nmQyl0/sZeTa/KL1jQ5JS8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%NMGcLv6cC7ZQRoo73EJVcLSlDuFpEqBVTXbfxKKSCmk=.sha256"
+      "%9l39OAlabKr8Ga+szNbN9nmQyl0/sZeTa/KL1jQ5JS8=.sha256"
     ]
   },
-  "signature": "TVltD+xNHlAffQrCATZZE/xqQxGn9LaoFn/IJGlRiscl0m0/WS81hQMK0o8/McpN/csoCo8k3BLX9YAjR8JDAA==.sig.ed25519"
+  "signature": "F/jeYwMN+xpbRNSuv28ayZF8OtMqxaGPmMtwvC9Zd200KKdRtoWW2IBSAWJDo/qxyCXiNMdMrdCHga1e2naaCg==.sig.ed25519"
 }
