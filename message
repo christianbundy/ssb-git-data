@@ -1,22 +1,26 @@
 {
-  "previous": "%26LYQlO91cnrxQP7sgsgXYWRs2yUFEKFza4z3pnLPJA=.sha256",
-  "sequence": 13109,
+  "previous": "%B6ODav77O2sWgvF2DqAcK8Lm54myf/Vo9ZQv9Kt8KsI=.sha256",
+  "sequence": 13110,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573918389967,
+  "timestamp": 1573919291617,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n🤷\r\n\r\nIt looks to me like it's still both secure and private:\r\n\r\n> We’re going to fix this on the registry side, however the risk is reduced based on some information the cli team provided me; The npm cli will always use HTTPS when talking to the registry for tarballs even though it says HTTP.\r\n>\r\n> -- Adam Baldwin (@npm)\r\n\r\n> Everything is complete. Please note that npm will still download over https if your configured registry is https. [...] Additionally, you can replace all instances of http: with https: by hand and have it work just fine.\r\n>\r\n> -- zcat (@npm)\r\n\r\nI'd probably:\r\n\r\n- Ensure that npm is up-to-date.\r\n- Try to ignore it.\r\n- If it bothers you, edit by hand.\r\n\r\nFWIW, I'm also frustrated about how buggy and unpredictable npm is.",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\n![Grimace emoji from Samsung phones, which looks ridiculous](&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256)\r\n\r\nThanks, I'll make an issue for that. There was another styling regression in the sidebar that I fixed, maybe this one will be easy. Or maybe this regression was caused by my fix...",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256",
+        "name": "Grimace emoji from Samsung phones, which looks ridiculous"
       }
     ],
-    "root": "%N1oL0CHRibiMc8qmkF8v9lnQRY1+j7SpmroNd21uOvQ=.sha256",
+    "root": "%e42yO6J2/2np6q//oCKhejoaWAwnQaaZU81HpHSbkBQ=.sha256",
     "branch": [
-      "%tnOfnobEuaJ0XOTAKsxNGTXC0xZK48yENgKMbhELaEY=.sha256"
+      "%e42yO6J2/2np6q//oCKhejoaWAwnQaaZU81HpHSbkBQ=.sha256"
     ]
   },
-  "signature": "Eh+ZekeRsNo3INFmbD5WjhZoupHUQ84UlyxwFjvJ7bdQrPGXhYNfENbnXAvru+4k6U2XDnth7svMLfZnjtmjCQ==.sig.ed25519"
+  "signature": "AWlYkF8Xv/C5erkkUV9cGBmsytAzdUkzsPNagkmuwi3lLmyQZ6it6XrA0wCOMuGr9eSt3aZwNUXrKoIDTqAfCw==.sig.ed25519"
 }
