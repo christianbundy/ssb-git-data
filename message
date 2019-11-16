@@ -1,18 +1,22 @@
 {
-  "previous": "%2k/zxoreDwWJAM1U78SORreZHHdcC8Cq/6YluzXVKJU=.sha256",
-  "sequence": 13108,
+  "previous": "%26LYQlO91cnrxQP7sgsgXYWRs2yUFEKFza4z3pnLPJA=.sha256",
+  "sequence": 13109,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573917449167,
+  "timestamp": 1573918389967,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%vaz3FIXuSte+ctzW/eEVjyKZtGpCWPFL/6d4WgGRPoI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n🤷\r\n\r\nIt looks to me like it's still both secure and private:\r\n\r\n> We’re going to fix this on the registry side, however the risk is reduced based on some information the cli team provided me; The npm cli will always use HTTPS when talking to the registry for tarballs even though it says HTTP.\r\n>\r\n> -- Adam Baldwin (@npm)\r\n\r\n> Everything is complete. Please note that npm will still download over https if your configured registry is https. [...] Additionally, you can replace all instances of http: with https: by hand and have it work just fine.\r\n>\r\n> -- zcat (@npm)\r\n\r\nI'd probably:\r\n\r\n- Ensure that npm is up-to-date.\r\n- Try to ignore it.\r\n- If it bothers you, edit by hand.\r\n\r\nFWIW, I'm also frustrated about how buggy and unpredictable npm is.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ],
+    "root": "%N1oL0CHRibiMc8qmkF8v9lnQRY1+j7SpmroNd21uOvQ=.sha256",
     "branch": [
-      "%vaz3FIXuSte+ctzW/eEVjyKZtGpCWPFL/6d4WgGRPoI=.sha256"
+      "%tnOfnobEuaJ0XOTAKsxNGTXC0xZK48yENgKMbhELaEY=.sha256"
     ]
   },
-  "signature": "bWNt/6bpBAv2dM3+l79raxe6h/OCdmqxIqwjeCTPgBZ0R5Qb8K9CkcoAGMuLuS5tKYvocsqqbhoJ15UEPmcdDQ==.sig.ed25519"
+  "signature": "Eh+ZekeRsNo3INFmbD5WjhZoupHUQ84UlyxwFjvJ7bdQrPGXhYNfENbnXAvru+4k6U2XDnth7svMLfZnjtmjCQ==.sig.ed25519"
 }
