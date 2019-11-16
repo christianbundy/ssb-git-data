@@ -1,19 +1,40 @@
 {
-  "previous": "%joS7FadE//kuOzeJsRmgOYskI95PiN2QBfNPzbVTLQY=.sha256",
-  "sequence": 13105,
+  "previous": "%rzf3rIYL3Px5qiDc+HoLVVG/VSaoJqDrq2t+EY+MPPs=.sha256",
+  "sequence": 13106,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573872062157,
+  "timestamp": 1573880534350,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RJn+WJB4faSmIhF7xESsfKEqHEQLuuv7SBTWqOG4i5M=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "root": "%ugCIEn3lSXIU+NkmTJpUNBCv1qZIDhXfAQJF4Yi3ces=.sha256",
     "branch": [
-      "%ETd8GKPqqTvoEVyLdXc2whlbDJ7zts7ManabPNwa8W8=.sha256",
-      "%eElP52hZ4jLphCm/sknIx5ffk9RAuC2GBsQ0M+eaMZo=.sha256"
+      "%5SpWGMchnWuOcjKI87C0lokfzRZv/Tu1EB9n+DhH+4A=.sha256",
+      "%m1PeNp80JrL4TKMz68K4tg/ejpdTcoaWoP2VlofPhg8=.sha256"
+    ],
+    "reply": {
+      "%ugCIEn3lSXIU+NkmTJpUNBCv1qZIDhXfAQJF4Yi3ces=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%5SpWGMchnWuOcjKI87C0lokfzRZv/Tu1EB9n+DhH+4A=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "I thought of a simple-ish way to add `publicWebHosting` support to [the Oasis demo](http://oasis-demo.fraction.io/public/threads), and [it seems to be working great](http://oasis-demo.fraction.io/). Please note that this makes it **inconvenient, not impossible** to see your public content. I've redacted profile names, profile images, profile descriptions, the text content of posts, and the raw JSON messages. This change only affects the Oasis demo, not [Oasis](http://oasis-demo.fraction.io/public/threads), so **as always: assume every public post you make will be on the web forever**.\n\n![Screenshot of Oasis demo showing redacted content.](&tjln+OQ2VItDQHfRQ5eCdBBIiUiJMfu8jEPiQErDvjE=.sha256)\n\nAside: I used an experimental branch of `fix-flumelog-offset` to many of the timestamps after synchronizing the new content. Most messages should be in a reasonable order most of the time.\n\n![Screenshot of Oasis demo indexing](&Db5alv+itJrROq2VRRo/YMC1S0lSvrCHWH5A41Qds1Y=.sha256)\n\n#oasis ",
+    "mentions": [
+      {
+        "link": "&tjln+OQ2VItDQHfRQ5eCdBBIiUiJMfu8jEPiQErDvjE=.sha256",
+        "name": "Screenshot of Oasis demo showing redacted content.",
+        "type": "image/png",
+        "size": 149154
+      },
+      {
+        "link": "&Db5alv+itJrROq2VRRo/YMC1S0lSvrCHWH5A41Qds1Y=.sha256",
+        "name": "Screenshot of Oasis demo indexing",
+        "type": "image/png",
+        "size": 110647
+      },
+      {
+        "link": "#oasis"
+      }
     ]
   },
-  "signature": "wYawkXtBlHfP5dQHPTAP4DXRrt0bRpYRdkVF51IuqWJN8cc2RYsfoucS4V74l9kAtRFKuuw3ezKX7oIrRz+tAw==.sig.ed25519"
+  "signature": "au5RSXVm5+tnREgL6GMT0mbONCR/y7H/lCg7lofjAakqa8EaSVBmSIVoN6DsyQ44VG6iZfOziWhD9R8WsgovCA==.sig.ed25519"
 }
