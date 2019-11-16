@@ -1,18 +1,22 @@
 {
-  "previous": "%m6VZB/tUkdA9BJfSC4dtsWho80QukwRhStVa93gOxfU=.sha256",
-  "sequence": 13124,
+  "previous": "%l0/trJP+/UQWBBwj5xdNQ3DNRBshadSpc7PHVNxirJA=.sha256",
+  "sequence": 13125,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573929429516,
+  "timestamp": 1573933556965,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wODRveHo+YseDjn9wtPg4vtOZx3LKYsQHMYyEG18Iag=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@【﻿Ｎｅｔｓｃａｐｅ Navigator™】](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nI'd start with something like:\r\n\r\n```sh\r\nssb-server createHistoryStream --id @z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519 | jq 'select(.value?.content?.type? == \"post\")'\r\n```\r\n\r\nUse `jq -c` to get one JSON object per line, btw.",
+    "mentions": [
+      {
+        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
+        "name": "【﻿Ｎｅｔｓｃａｐｅ Navigator™】"
+      }
+    ],
+    "root": "%GWIbb/L/R60nOmQCBJSwzSL8E5TAk9LuJ7VibGru6OE=.sha256",
     "branch": [
-      "%wODRveHo+YseDjn9wtPg4vtOZx3LKYsQHMYyEG18Iag=.sha256"
+      "%ybLH+fT6Se3AAqhohTxKWjTt+A2kUe4StEt/16RIrSQ=.sha256"
     ]
   },
-  "signature": "OF1/OoOmnxEh33KXoizJ2LzjUPRdD4IrXdvfx49XHYSGoNBZkE2+kXOtqwT6+xvbFvH6D/HTGs9/xCGM3TuKDw==.sig.ed25519"
+  "signature": "UACRK9nBMZgtMCufKzGdNozJyGy+3R0S/hUSi9mFjDYuyHrjHl/NUWvorn0oyxaXjSLcSfOUkG8/TQat54P6Aw==.sig.ed25519"
 }
