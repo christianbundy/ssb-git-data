@@ -1,18 +1,22 @@
 {
-  "previous": "%1uIT9kDn6GA7ju9K0ll7J9PNmtpxC8szyVOfdQa0/wc=.sha256",
-  "sequence": 13136,
+  "previous": "%CvSu+6X6RasEfDS0oEvytqjIc2W2IvywHRneWE5xHAE=.sha256",
+  "sequence": 13137,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574010628267,
+  "timestamp": 1574016483337,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%tX6Bx61iTHBT/qV2MI4zzesqLR9NZvHHJYtCy/c5LRY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Connor](@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519)\r\n\r\nYeah, there's documentation for those methods [in ssb-db](https://github.com/ssbc/ssb-db) but it's not very easy to skim.",
+    "mentions": [
+      {
+        "link": "@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519",
+        "name": "Connor"
+      }
+    ],
+    "root": "%vaXZReDFCV09hnLGqgYxmacst8jboVM2kFwgMW4PK1s=.sha256",
     "branch": [
-      "%tX6Bx61iTHBT/qV2MI4zzesqLR9NZvHHJYtCy/c5LRY=.sha256"
+      "%FngtNVAhZ9h/T70csL4XIXDg7RC/q7HZxjLu0m5CPxU=.sha256"
     ]
   },
-  "signature": "k3Z1I0SeLjsVGcdz7sd2aSzU7AUZ2a6GS3MkOjd6khT1zSc0vtuqXHvdlOoe2IynVWHihpRrC+8nA9xGeLP7Aw==.sig.ed25519"
+  "signature": "0/u9pIzY4noMENskl9vPrC0xTs6bDjcuKuBblpUYDaiigQzzttFxZYlCTU+IFLIUo0/3S9vqSLDiRY2Y6MjgDQ==.sig.ed25519"
 }
