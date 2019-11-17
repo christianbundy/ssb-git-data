@@ -1,17 +1,22 @@
 {
-  "previous": "%muKRbOeyoLqOpr3z7mzRFyWBC7+Dp9N4O4RjGb3+fW8=.sha256",
-  "sequence": 13141,
+  "previous": "%WBB+X6Mo9UJE1vln9mA7WtpJWG1ohEcN8L6dim2wyL4=.sha256",
+  "sequence": 13142,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574027720307,
+  "timestamp": 1574028161247,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Built a [working prototype](https://github.com/ssbc/ssb-db/blob/local-flume-use/test/use.js)! There are three components:\r\n\r\nFirst, ssb-db needs to export a read-only copy of the log that our views can subscribe to. I haven't tested over muxrpc yet, but I'm guessing that we'll probably need a small compatibility layer for the `since` observable.\r\n\r\n```diff\r\ndiff --git a/index.js b/index.js\r\nindex 7be3093..b9610f8 100644\r\n--- a/index.js\r\n+++ b/index.js\r\n@@ -117,12 +117,7 @@ module.exports = {\r\n         return pkg.version\r\n       },\r\n \r\n-      //temporary!\r\n-      _flumeUse                :\r\n-        function (name, flumeview) {\r\n-          ssb.use(name, flumeview)\r\n-          return ssb[name]\r\n-        },\r\n+      log: ssb.log,\r\n \r\n   //    usage                    : valid.sync(usage, 'string?|boolean?'),\r\n       close                    : close,\r\ndiff --git a/minimal.js b/minimal.js\r\nindex 052aefe..d52ab26 100644\r\n--- a/minimal.js\r\n+++ b/minimal.js\r\n@@ -231,6 +231,12 @@ module.exports = function (dirname, keys, opts) {\r\n   db.addMap = function (fn) {\r\n     maps.push(fn)\r\n   }\r\n+  db.log = {\r\n+    get: log.get,\r\n+    stream: log.stream,\r\n+    since: log.since,\r\n+    filename: log.filename\r\n+  }\r\n \r\n   return db\r\n }\r\n```\r\n\r\nNext, we need a small function that spawns a local instance of flumedb that depends on the above log. This gives us the ability to proxy our `get()` and `stream()` to the log without having to maintain one ourselves. This function takes a remote log as input and returns a `use()` function that creates a local view. **This means that ssb-client can choose its own flumeviews that are maintained and persisted in the client, not the server**.\r\n\r\n```javascript\r\nconst flume = require('flumedb')\r\n\r\nconst localFlumeUse = (remoteLog) => {\r\n  // Create local instance of flumedb that depends on the remote log.\r\n  // Views will be created locally but the log will remain remote.\r\n  const localFlume = flume(remoteLog)\r\n\r\n  // Name could probably be removed, but it makes for better error messages.\r\n  const use = (name, createView) => {\r\n    localFlume.use(name, createView)\r\n    return localFlume.views[name]\r\n  }\r\n\r\n  return use\r\n}\r\n```\r\n\r\nLastly, let's use it! I've only tested in [flumeview-array](https://github.com/fraction/flumeview-array) and [flumeview-level](https://github.com/flumedb/flumeview-level/), but they both seem to be working great. This view is only accessible locally, and other clients that connect to the server won't see it.\r\n\r\n```javascript\r\nconst view = require('flumeview-level')\r\nconst ssb = require('ssb-db/').init()\r\n\r\n// Use the remote log to create a `use()` function that makes local views.\r\n// This means you can create views from ssb-client, not just the server config!\r\nconst use = localFlumeUse(ssb.log)\r\n\r\n// Use a simple view that lets us look up messages by their key.\r\nconst findByKey = use('caps-lock', view(1, ({ key}) => [key]))\r\n\r\nssb.publish({type: 'test', text: 'hello world'}, (err, publishedMessage) => {\r\n  if (err) throw err\r\n  const key = publishedMessage.key\r\n\r\n  findByKey.get(key, (findErr,foundMessage) => {\r\n    if (findErr) throw findErr\r\n    console.log(foundMessage.value.content) // => { type: 'test', text: 'hello world' }\r\n  })\r\n})\r\n```\r\n\r\nI'd really love to hear feedback or experiments on this. I'm hopeful that this is actually as simple and useful as it seems.\r\n\r\nFuture work:\r\n\r\n- Make sure this works over muxrpc\r\n- Add a `_flumeUse()` compatibility layer for secret-stack plugins\r\n  - Server-side plugins should probably export the view to be shared with any client that connects to the server\r\n  - Client-side plugins should probably export the view to be shared with other plugins that are looking for it\r\n- ???",
-    "mentions": [],
-    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nLooks like a bug to me! I'm assuming you're using Patchwork?",
+    "mentions": [
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      }
+    ],
+    "root": "%/s94FcpBdBkRHBxaJg1q1dTPwEuQTyl4Tyu2kqi6oKs=.sha256",
     "branch": [
-      "%euGFpSEX8dcfL1m78eJh/2H5/bIAy+a7E/ZwQ0D3hwM=.sha256"
+      "%tjEdZGXA9Ajz/tcWHdSdghXl6bwkZMyjHhjAIKLTfjA=.sha256"
     ]
   },
-  "signature": "XQKqlSBWh1I3VhKJ6C75Q2OUZ2pPo+h5zDMkCIXwzSX4PqPoECLuZ+LmeLl+8NcGWvuTr4WPG2YgayiI7tU6Ag==.sig.ed25519"
+  "signature": "2RzJfLn58CroPB7fDvrU+WhGHZT/udrJ+39x7HMKEsdrhEx4AJ7xdWOwqwaF9RKmpSY4e9qGuJJbHWKUD0qeAQ==.sig.ed25519"
 }
