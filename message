@@ -1,13 +1,25 @@
 {
-  "previous": "%M/S5UPwuuIVdjL/l56Wtb0yrOsoKx//IldhuMXjkD60=.sha256",
-  "sequence": 13132,
+  "previous": "%hq/s6AK1ObAYHfwL6TzHpGCp1Hc7ePGpnQPb+c5iOAY=.sha256",
+  "sequence": 13133,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1573949708693,
+  "timestamp": 1573949767462,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%BpccWoqI+vMSQQymjssjK4zQ79WUd118+Urf4Sa82SY=.sha256",
+    "branch": "%BpccWoqI+vMSQQymjssjK4zQ79WUd118+Urf4Sa82SY=.sha256",
+    "reply": {
+      "%BpccWoqI+vMSQQymjssjK4zQ79WUd118+Urf4Sa82SY=.sha256": "@5fX6QTmue/udf7tLwW25vQ63wZSENrksghBt6vfL4/I=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "cc: [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519) ",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ]
   },
-  "signature": "X83q5XCZ3FNRnzT52QiZ7Q13EuFzJ8HXyPyjhIn/wO7WB/xi1juEas1Wtdl/wuw5F4rz1nnPNY7AHrzXKrNQDA==.sig.ed25519"
+  "signature": "r9qdmDkKQhBmZnp2QCwpPV3O1DqXZGJ8XN9IZ8gh2HG8EfHJWLO5tL137ikwTg2PTWGgCQ4NQ2SGjhQg5p9bAw==.sig.ed25519"
 }
