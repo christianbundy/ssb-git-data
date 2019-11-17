@@ -1,22 +1,22 @@
 {
-  "previous": "%WBB+X6Mo9UJE1vln9mA7WtpJWG1ohEcN8L6dim2wyL4=.sha256",
-  "sequence": 13142,
+  "previous": "%KXPQg2TS+CaTelQ1sj2sghW+aE4WjH4sXGB+cqMPqY8=.sha256",
+  "sequence": 13143,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574028161247,
+  "timestamp": 1574031834558,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nLooks like a bug to me! I'm assuming you're using Patchwork?",
+    "text": "[@martin ➬](@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519)\r\n\r\nWe're using the [Unicode hashtag specification](https://www.unicode.org/reports/tr31/#R8), which only allows [XID_Continue](http://www.unicode.org/Public/12.1.0/ucd/DerivedCoreProperties.txt) characters in the hashtag (plus `_`, `-`, and `+` and emoji).\r\n\r\nIf you have Node.js, you can test with the hashtag-regex package:\r\n\r\n```javascript\r\nconst hashtagRegex = require('hashtag-regex')()\r\n\r\nconst string = '#a #b-b #c_c #d:d #e# #f➬ #g🚀'\r\n\r\nstring.match(hashtagRegex)\r\n// => [\"#a\", \"#b-b\" , \"#c_c\" , \"#d\", \"#e\", \"#f\", \"#g🚀\" ]\r\n```",
     "mentions": [
       {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
+        "link": "@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519",
+        "name": "martin ➬"
       }
     ],
     "root": "%/s94FcpBdBkRHBxaJg1q1dTPwEuQTyl4Tyu2kqi6oKs=.sha256",
     "branch": [
-      "%tjEdZGXA9Ajz/tcWHdSdghXl6bwkZMyjHhjAIKLTfjA=.sha256"
+      "%yUXV2WuqAiPB9K3o89X1MaeI7DS/RK3dsf4n45FWG/Q=.sha256"
     ]
   },
-  "signature": "2RzJfLn58CroPB7fDvrU+WhGHZT/udrJ+39x7HMKEsdrhEx4AJ7xdWOwqwaF9RKmpSY4e9qGuJJbHWKUD0qeAQ==.sig.ed25519"
+  "signature": "/1OiSDW3CAF2B6iEpTwpA+07XNJrm/cmuoBXGdv8PFDr8bKzZ1E+/lVRaaWfT2mJNuEXUbQ8e7FlbqvDeAtPAQ==.sig.ed25519"
 }
