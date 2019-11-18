@@ -1,22 +1,23 @@
 {
-  "previous": "%4DG590gIyGe7z7A16J2xGquy+oteNxtPDZIKVOzIRBE=.sha256",
-  "sequence": 13158,
+  "previous": "%OLwFDGyNJL5s15VsqWbvA25gUPeEURo7PoVzLV+hktk=.sha256",
+  "sequence": 13159,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574107571056,
+  "timestamp": 1574107723248,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\r\n\r\nThis might be super silly, but could you use the hash of the *decrypted content* as an identifier for an encrypted message? People with the decrypted content would be able to tell which message it came from, but nobody else would be able to tell which message it referred to.\r\n\r\nI'm imagining you'd need a local lookup table like:\r\n\r\n| message id | sha256(unbox(message.value.content))     |\r\n|------------|------------------------------------------|\r\n| %abc       | 62fb9609befa19b14c522c311b4dc25b30c827c5 |\r\n| %def       | 48d3d8ee2ff3750e147645c36b95ce7311a19455 |\r\n| %ghi       | d5b05a2aac4c80866e58e6d3ba03b3bded4e1962 |\r\n| %jkl       | 48f7a4ad6b2436e5fc17cd20e0070bf6da672b93 |\r\n\r\nMy guess is that since you didn't do this there's probably a problem with it, but I'd love to learn more about what it is. Or maybe I'm misunderstanding one of the problem constraints?",
+    "text": "[@namatoj](@INEnIrARKfJUGo1QSc9P+8yPyFn5jLNxyNbSAubhPT0=.ed25519)\r\n\r\nHey, welcome! I'd love to see any geospatial visualizations you're working on. My GIS work is *super* limited, and mostly constrained to banging my head against PostGIS.",
     "mentions": [
       {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
+        "link": "@INEnIrARKfJUGo1QSc9P+8yPyFn5jLNxyNbSAubhPT0=.ed25519",
+        "name": "namatoj"
       }
     ],
-    "root": "%1qQJ2szfWa/PerVSVPLlwpl8SlyhGsorrwp6jLW+zfA=.sha256",
+    "root": "%mNWA0MD36uHJRbPxzTQ4FVSyWWRZm+Xw2Mbq81pQ6c4=.sha256",
     "branch": [
-      "%w6Y/w3TtmqAI/MekdVsiPbgHjGcRbbKxMwuSqoeeDcE=.sha256"
+      "%6vCbNyb4TdnpIu5Ptj100SO8TmwrTMlbEO7Hg7XYp7M=.sha256",
+      "%unN++PjqwJ+HtP3adSrjPzIlhqWJBHbIplIb2aN01X0=.sha256"
     ]
   },
-  "signature": "H2lMF9E3rTWQdyaEUaoZ+yrcz7EwyJVRDv/MW1Vik7ahitC7xBHjcMpPUlYXd9j2E1I+kUTfw7VJdMiYC+w4AQ==.sig.ed25519"
+  "signature": "7MMl/lPPsw3o7wplwUNDLYrgFNNQ//+0StQkt392DhdwAsVdXp8QWC4yFlQfG85BAHRp83ggSrYnBPa1IlLkCQ==.sig.ed25519"
 }
