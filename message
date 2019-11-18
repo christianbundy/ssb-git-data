@@ -1,22 +1,22 @@
 {
-  "previous": "%O7YSB9DOR/4m14nt1s2awonvmvXoQC2zN0Pc0qhDwCQ=.sha256",
-  "sequence": 13157,
+  "previous": "%4DG590gIyGe7z7A16J2xGquy+oteNxtPDZIKVOzIRBE=.sha256",
+  "sequence": 13158,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574107181516,
+  "timestamp": 1574107571056,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Miccaman](@IKx+KM5Uf+dqMEmulTXyU7FiXVZHACijNbLTelDGJzA=.ed25519)\r\n\r\n>  Or is this idea of authenticated single edition digital artworks just the opposite of opensource and not all compatible with free to modify or copyleft licences.\r\n\r\nThis. I'd like to see artists paid for their work, but if possible it would be really cool to avoid copyright and \"ownership\" over information that costs nothing to copy and share. I understand that creating software and creating art are likely very different, but my hope is that there's enough money in commissions, live shows, subscriber-only content, etc., that we don't need to chain ourselves to the copyright system.\r\n\r\nOn the other hand, I'm not trying to pay my groceries by selling art, so please feel free experiment with any and all funding systems that decrease the amount of suck in the world.",
+    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\r\n\r\nThis might be super silly, but could you use the hash of the *decrypted content* as an identifier for an encrypted message? People with the decrypted content would be able to tell which message it came from, but nobody else would be able to tell which message it referred to.\r\n\r\nI'm imagining you'd need a local lookup table like:\r\n\r\n| message id | sha256(unbox(message.value.content))     |\r\n|------------|------------------------------------------|\r\n| %abc       | 62fb9609befa19b14c522c311b4dc25b30c827c5 |\r\n| %def       | 48d3d8ee2ff3750e147645c36b95ce7311a19455 |\r\n| %ghi       | d5b05a2aac4c80866e58e6d3ba03b3bded4e1962 |\r\n| %jkl       | 48f7a4ad6b2436e5fc17cd20e0070bf6da672b93 |\r\n\r\nMy guess is that since you didn't do this there's probably a problem with it, but I'd love to learn more about what it is. Or maybe I'm misunderstanding one of the problem constraints?",
     "mentions": [
       {
-        "link": "@IKx+KM5Uf+dqMEmulTXyU7FiXVZHACijNbLTelDGJzA=.ed25519",
-        "name": "Miccaman"
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
       }
     ],
-    "root": "%44Ax2DzXGZN8lHrZeeA3BIjy5j6bvIYkXL2U5i/vlp4=.sha256",
+    "root": "%1qQJ2szfWa/PerVSVPLlwpl8SlyhGsorrwp6jLW+zfA=.sha256",
     "branch": [
-      "%44Ax2DzXGZN8lHrZeeA3BIjy5j6bvIYkXL2U5i/vlp4=.sha256"
+      "%w6Y/w3TtmqAI/MekdVsiPbgHjGcRbbKxMwuSqoeeDcE=.sha256"
     ]
   },
-  "signature": "QRhWTbi8ec14QDl4EFR9IHxoTP9J1OcggH668MQ56CknbtRNEEU0AgzULK+asQSzllI1JyIa+5SM+aWueFLeCA==.sig.ed25519"
+  "signature": "H2lMF9E3rTWQdyaEUaoZ+yrcz7EwyJVRDv/MW1Vik7ahitC7xBHjcMpPUlYXd9j2E1I+kUTfw7VJdMiYC+w4AQ==.sig.ed25519"
 }
