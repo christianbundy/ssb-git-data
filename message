@@ -1,32 +1,22 @@
 {
-  "previous": "%pkaj2PNqJ/IuHiO1Gq8Zr7fiYO7CKIWOxfD9dar6bCQ=.sha256",
-  "sequence": 13184,
+  "previous": "%jy0mJWdbN/ZB7WXVRDU/a8DhsEKgKtlbaFrpC9ISKnw=.sha256",
+  "sequence": 13185,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574115659781,
+  "timestamp": 1574116068567,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%QbHduxPwXciJKkgXetjshFDpCJ45rUrfCemG6GI9JTo=.sha256",
-    "fork": "%HDu21t7bS6Jti2At52cB+uRYNYSolBnoUzTSzKU8/0o=.sha256",
-    "branch": "%QbHduxPwXciJKkgXetjshFDpCJ45rUrfCemG6GI9JTo=.sha256",
-    "reply": {
-      "%QbHduxPwXciJKkgXetjshFDpCJ45rUrfCemG6GI9JTo=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nNice! I took this and hacked together some counting, sorting, and filtering:\n\n```javascript\nconst pull = require('pull-stream')\nconst ssbClient = require('ssb-client')\n\nssbClient((err, ssb) => {\n    if (err) throw err\n\n    pull(\n      ssb.createLogStream(),\n      pull.reduce((acc, message) => {\n        const type = message.value.content.type\n        if (type !== undefined) {\n          if (acc[type] === undefined) {\n            acc[type] = 1\n          } else {\n            acc[type] += 1\n          }\n        }\n\n        return acc\n      }, {}, (err, res) => {\n        if (err) throw err\n\n        const final = Object.entries(res)\n          .filter(([type, count]) =>\n            // Remove post types with < 2 messages.\n            count >= 2\n          )\n          .sort(([aType, aCount], [bType, bCount]) => \n            // Sort by message count, descending.\n            bCount - aCount\n          )\n          .reduce((acc, [type, count]) => {\n            // Put it all back into a pretty array\n            acc[type] = count\n            return acc\n          }, {})\n\n        console.log(JSON.stringify(final, null, 2))\n        ssb.close()\n      }),\n    )\n})\n```\n\nResults available here: [results.json](&/Z1vW2/SRUXdaz9/zWG8s7tyx4/be51rNcMydnU1h5s=.sha256) ",
+    "text": "[@Rumblestiltskin](@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519)\r\n\r\nAssuming you're asking about Patchwork (?), I think the *who to follow* is just a list of people who have recently posted that you haven't followed.",
     "mentions": [
       {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      },
-      {
-        "link": "&/Z1vW2/SRUXdaz9/zWG8s7tyx4/be51rNcMydnU1h5s=.sha256",
-        "name": "results.json",
-        "type": "application/json",
-        "size": 3998
+        "link": "@blUlV/JyCTqr054ptPgMaMJWCF94q4WyRup4HdgmVCw=.ed25519",
+        "name": "Rumblestiltskin"
       }
+    ],
+    "root": "%r/IeUWutZYCk7NNx2vgUjMkjrwARMVc3+AMsiWO665I=.sha256",
+    "branch": [
+      "%r/IeUWutZYCk7NNx2vgUjMkjrwARMVc3+AMsiWO665I=.sha256"
     ]
   },
-  "signature": "Ad9WsNvzp2hglCuw+5/Vt1Mov5ereU64vkNp4Y5aPelSeDDIZY/3tA/42dG9zolcDNrE23b3bKhi8jBLuzyKDw==.sig.ed25519"
+  "signature": "wP+7YdiFMu0zfBkLsehY9iv/4NMY4vnpu6taazwrENA5lV4zq+XM5zeRLH3tTIarBySKyB8U1R3dzU3m1tmtCg==.sig.ed25519"
 }
