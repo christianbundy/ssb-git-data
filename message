@@ -1,22 +1,18 @@
 {
-  "previous": "%tqHQd8/peJfqVUSqplGTgGbtysaKyfKRGcvme3A3AvI=.sha256",
-  "sequence": 13166,
+  "previous": "%bHOZts2MlrLnUDZwclGe59F1gT819AkBKnTLxYYnWuk=.sha256",
+  "sequence": 13167,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574110338842,
+  "timestamp": 1574110362577,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@MonsieurIcon](@e7dzwv5WppRYym7Pb3KFGBHf4btBm/oB34MBXg4x3SY=.ed25519)\r\n\r\nI don't think there's a schema for publishing patches yet. If you're sharing a patch with current applications I'd recommend just using Markdown with `patch` as the language:\r\n\r\n```patch\r\nFrom 4cfff06fc33f9ef475ade81f837bf4a9225422b1 Mon Sep 17 00:00:00 2001\r\nFrom: Christian Bundy <christianbundy@fraction.io>\r\nDate: Fri, 15 Nov 2019 12:16:53 -0800\r\nSubject: [PATCH] 2.7.1\r\n\r\n---\r\n package.json | 2 +-\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n\r\ndiff --git a/package.json b/package.json\r\nindex 218dc64..b394892 100644\r\n--- a/package.json\r\n+++ b/package.json\r\n@@ -1,6 +1,6 @@\r\n {\r\n   \"name\": \"@fraction/oasis\",\r\n-  \"version\": \"2.7.0\",\r\n+  \"version\": \"2.7.1\",\r\n   \"main\": \"index.js\",\r\n   \"author\": \"Christian Bundy <christianbundy@fraction.io>\",\r\n   \"license\": \"AGPL-3.0\",\r\n-- \r\n2.24.0\r\n```\r\n\r\nOtherwise, we could make a new post type to fit your needs better.",
-    "mentions": [
-      {
-        "link": "@e7dzwv5WppRYym7Pb3KFGBHf4btBm/oB34MBXg4x3SY=.ed25519",
-        "name": "MonsieurIcon"
-      }
-    ],
-    "root": "%a+utNcqpD4e9fvTpQpxEWUlqDNEWdZOb8IG7Pa0hlis=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%DgYxyK4E5qNFT8sM0T/sWvSCjpdGN3Q0hoeod/KtmRQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%cERb174L7m+w9eZUjpHyIHMcQ7KSpxPkZKr8K3ARiB8=.sha256"
+      "%db/eZGKzIVA9o8QMvPkXCcpNQ2DTiKBLRhuK0KfbnZ8=.sha256"
     ]
   },
-  "signature": "8lGhzrw6DmQPgiXhx08dsQu3yUMXVE05FI7JZUY9k3+AAg77gKUN+1M8GrnTJha7dr3/LUSKMgFqexEKpNgNCg==.sig.ed25519"
+  "signature": "sPr7Jpg6VO4jlNr3tbtU+jwhZgtvbA7OEiIr+6MeTQQsUCIZo+VIQftfbvNf3UA7Nt1nCgX1wqZG4IOQDFAbDg==.sig.ed25519"
 }
