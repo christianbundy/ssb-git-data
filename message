@@ -1,23 +1,26 @@
 {
-  "previous": "%u84YnoIC0W987j8rbZgKcTAseRiHT2V0yonxX7gE4oI=.sha256",
-  "sequence": 13149,
+  "previous": "%v7ozYgv8FENvrYW66B+Ka2KfxcxWJXeDPr/kO7jzuOw=.sha256",
+  "sequence": 13150,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574094621876,
+  "timestamp": 1574101824250,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519)\r\n\r\nThanks! I saw that and only read the comments, but I should probably read the actual article 😬",
+    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThanks for the quick feedback! I'm also concerned about the size of the views, which is part of a bigger problem: **where do we put these?** The log exports a `filename` property that the views use, but we probably don't want our client(s) to put their views next to the server's log. The [current code](https://github.com/ssbc/ssb-db/blob/5322ef8f4738b2e5d0d42d62fa601a56d59b422f/test/lib/flume-proxy.js#L24-L30) is faking the log filename as `/tmp/ssb-db-XXXXXX/log.flumeproxy` so that the views get placed in a temporary file (for testing), but that's probably not what we want in production.\r\n\r\nAlso: **muxrpc integration works**! Here are my two test files:\r\n\r\n- **[`use.js`](https://github.com/ssbc/ssb-db/blob/local-flume-use/test/use.js):** server-side views via Node.js\r\n- **[`use-muxrpc.js`](https://github.com/ssbc/ssb-db/blob/local-flume-use/test/use-muxrpc.js):** client-side views via muxrpc\r\n\r\nI made some small changes, but the usage is still pretty simple:\r\n\r\n```javascript\r\nconst view = require('flumeview-level')\r\nconst flumeProxy = require('./lib/flume-proxy')\r\n\r\nssbClient((err, ssb) => {\r\n  if (err) throw err\r\n  const proxy = flumeProxy(ssb.log)\r\n  const messageType = proxy.use('message-type', view(1, ({ value }) => [value.content.type])\r\n\r\n  messageType.get('%abc', (err, value) => {\r\n    if (err) throw err\r\n    console.log(value) // => \"post\"\r\n  })\r\n})\r\n```\r\n\r\nBack to the view size thing: maybe our client library (ssb-client or similar) could add a client-side `use()` for adding secret stack plugins which also implemented a `_flumeUse()` so that our views can't tell that they're running on the client? Then the usage would be even simpler:\r\n\r\n```\r\nconst view = require('flumeview-level')\r\n\r\nssbClient((err, ssb) => {\r\n  if (err) throw err\r\n\r\n  const messageType = ssb.use('message-type', view(1, ({ value }) => [value.content.type])\r\n\r\n  messageType.get('%abc', (err, value) => {\r\n    if (err) throw err\r\n    console.log(value) // => \"post\"\r\n  })\r\n})\r\n```\r\n\r\n🤯😱🤯😱🤯",
     "mentions": [
       {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%egDPC9WsXHU445ZJfQT8ryyZeCeOopk1MJEKNw9oQf4=.sha256",
-    "fork": "%qc8rP/fiKGELwh2NW/Pbo2OJF/ZZwbBp0FYm/bsKZHQ=.sha256",
+    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
     "branch": [
-      "%egDPC9WsXHU445ZJfQT8ryyZeCeOopk1MJEKNw9oQf4=.sha256"
+      "%ckl79vKkYrf7XeRex7Uvw5CzE4BF2EzSozdAlLhZDDQ=.sha256"
     ]
   },
-  "signature": "xaydnRwcVPTXM25gkq6o1qeZy4tD76FFtteLEBzOeC/0VEwwuUESWYSMV8rt27zrjOstRujIpjduFhClKrqWAA==.sig.ed25519"
+  "signature": "HJLY6thjsAvWNEC+KHxqnVt7GVhVE6xCfbIGm8cqjifwARaEia3Ae1gxluT+xjdHq5MgWtjJ3fvP0EOGM/slCA==.sig.ed25519"
 }
