@@ -1,13 +1,22 @@
 {
-  "previous": "%c2M4pXnKg9RDLcSXKNZyaZR7FzLT7s6IXKIXM9kf368=.sha256",
-  "sequence": 13165,
+  "previous": "%tqHQd8/peJfqVUSqplGTgGbtysaKyfKRGcvme3A3AvI=.sha256",
+  "sequence": 13166,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574110004347,
+  "timestamp": 1574110338842,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Ask SSB: If you woke up tomorrow with a billion dollars in your bank account, how would you spend it?\r\n\r\nThis is purely a thought experiment, but I've been thinking about *moral ways to infuse money into a community*. Specifically, money that you don't deserve any more than your peers deserve it.\r\n\r\nThe most recent idea that I've got: keep 1% and donate 99% to some recipients, on the condition that they recursively do the same. You'd probably need some rules, like:\r\n\r\n- Your recipients can never know it came from you.\r\n- At some point the process should probably stop, maybe when 1% of the money you have is <= $100.\r\n\r\nTo be candid, this is a thought experiment about **p2p community budgeting**, which has been swirling around in my head for the last year or so. Money is hard, so I've been thinking about different implementations of giving and receiving ([and having and sharing](https://www.youtube.com/watch?v=HTjqz0_wsZo)).\r\n\r\nI'd love to hear any thoughts or ridiculous implementations you can think of.",
-    "mentions": []
+    "text": "[@MonsieurIcon](@e7dzwv5WppRYym7Pb3KFGBHf4btBm/oB34MBXg4x3SY=.ed25519)\r\n\r\nI don't think there's a schema for publishing patches yet. If you're sharing a patch with current applications I'd recommend just using Markdown with `patch` as the language:\r\n\r\n```patch\r\nFrom 4cfff06fc33f9ef475ade81f837bf4a9225422b1 Mon Sep 17 00:00:00 2001\r\nFrom: Christian Bundy <christianbundy@fraction.io>\r\nDate: Fri, 15 Nov 2019 12:16:53 -0800\r\nSubject: [PATCH] 2.7.1\r\n\r\n---\r\n package.json | 2 +-\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n\r\ndiff --git a/package.json b/package.json\r\nindex 218dc64..b394892 100644\r\n--- a/package.json\r\n+++ b/package.json\r\n@@ -1,6 +1,6 @@\r\n {\r\n   \"name\": \"@fraction/oasis\",\r\n-  \"version\": \"2.7.0\",\r\n+  \"version\": \"2.7.1\",\r\n   \"main\": \"index.js\",\r\n   \"author\": \"Christian Bundy <christianbundy@fraction.io>\",\r\n   \"license\": \"AGPL-3.0\",\r\n-- \r\n2.24.0\r\n```\r\n\r\nOtherwise, we could make a new post type to fit your needs better.",
+    "mentions": [
+      {
+        "link": "@e7dzwv5WppRYym7Pb3KFGBHf4btBm/oB34MBXg4x3SY=.ed25519",
+        "name": "MonsieurIcon"
+      }
+    ],
+    "root": "%a+utNcqpD4e9fvTpQpxEWUlqDNEWdZOb8IG7Pa0hlis=.sha256",
+    "branch": [
+      "%cERb174L7m+w9eZUjpHyIHMcQ7KSpxPkZKr8K3ARiB8=.sha256"
+    ]
   },
-  "signature": "Hfe0W+1609zLwST8PxCB1QZxmJ3BBpxbhOD7bQzF0tHpKhWHlLYTcIYq7n7HPC3rMxKZtJvSyuU3FHgbK9ZqCw==.sig.ed25519"
+  "signature": "8lGhzrw6DmQPgiXhx08dsQu3yUMXVE05FI7JZUY9k3+AAg77gKUN+1M8GrnTJha7dr3/LUSKMgFqexEKpNgNCg==.sig.ed25519"
 }
