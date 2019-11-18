@@ -1,18 +1,23 @@
 {
-  "previous": "%MXfQ3sDBw0Lk9HOiYfq2AhmmBnFOsWV1S3++q5GtNVs=.sha256",
-  "sequence": 13172,
+  "previous": "%IajDwJf8oRXAuh3R5LTR9+/9DLuhiUV9rYFexXUN8BA=.sha256",
+  "sequence": 13173,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574112810206,
+  "timestamp": 1574113449447,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%OSGwREvWde1SEF5KKrmoD0KrqfMMYvTLZ0N3YnmJYOM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@miles](@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519)\r\n\r\nYep, I think the first step in the right direction here is transitioning to a feed format that separates metadata and data (#offchain-content). That way you only *have* to download metadata, but you only download the content of the messages you want to read. Right now the big blocker is that the JS implementation doesn't support multiple feed types. I've put lots of work into fixing this, but the changes are still in review (which makes sense, because none of them seem fun to review).",
+    "mentions": [
+      {
+        "link": "@11eoGBzqo+79IbzXDNFmF3LTgpb3F9Vkxh6g0USRxHo=.ed25519",
+        "name": "miles"
+      }
+    ],
+    "root": "%s6CAHsFwcAnAFsJOd5YBRLPkGCDFNqh8ACxuRj8SZLs=.sha256",
+    "fork": "%E3SHO9QajBoCKDQ5/9+LIGdeIkVwigyyIJaN6xAgH8o=.sha256",
     "branch": [
-      "%OSGwREvWde1SEF5KKrmoD0KrqfMMYvTLZ0N3YnmJYOM=.sha256"
+      "%s6CAHsFwcAnAFsJOd5YBRLPkGCDFNqh8ACxuRj8SZLs=.sha256"
     ]
   },
-  "signature": "ozV2JLdUBVlvKe/s04QTV1Uue4ANIbC2JSM+ih97JuzNR+c1r8pRsNzHtTtVutCtaKID+TPE8lauNYii7EVlBA==.sig.ed25519"
+  "signature": "aZ7AZO8XwxAAUK+CN/5bU7bAihGJJQYGM4tliFVWHKOz45GwhZvarlpb9knj/g6QleoYi94CYnriF+fejPFsDg==.sig.ed25519"
 }
