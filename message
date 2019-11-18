@@ -1,18 +1,26 @@
 {
-  "previous": "%rAv3REaUS5m88hzfsjEeqj4Zry+MKK2cSHB2bLXhuCw=.sha256",
-  "sequence": 13163,
+  "previous": "%0k2kwSrNNTa0eZDFMXhM2vEAi63Pj8F2cmg4sN3mN5o=.sha256",
+  "sequence": 13164,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574108469547,
+  "timestamp": 1574108722736,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%n/hAHVDJevZ92Nteu0CKlx9YKDDxqejPsPB/jw49llc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\nThe above thread made me wonder: how's your experience with Coherence been? Any pain points or interesting notes to report? It seems super ideal to write an HTTP interface and have it magically pull component updates without writing any front-end state management.\r\n\r\n#coherence",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      },
+      {
+        "link": "#coherence"
+      }
+    ],
+    "root": "%uBmqXJxl1S9x85WosRv/TyQKDJAgz3d/OTR8AQJAJZE=.sha256",
+    "fork": "%BpccWoqI+vMSQQymjssjK4zQ79WUd118+Urf4Sa82SY=.sha256",
     "branch": [
-      "%n/hAHVDJevZ92Nteu0CKlx9YKDDxqejPsPB/jw49llc=.sha256"
+      "%uBmqXJxl1S9x85WosRv/TyQKDJAgz3d/OTR8AQJAJZE=.sha256"
     ]
   },
-  "signature": "cUiIthS5y7OhNV9vU9vXUkCMUwq+aBd9pDwd9JL93DEGcR3TEl39Nybep0lYddXEpWSENZIhD7mcxn5bnttJCQ==.sig.ed25519"
+  "signature": "wDFedeUV6z1zTALcxhm3PKuOfOdbBVMpnNNyRd04dVBcJcTLvkAgbrbsEy8U/r70tREnRWvLsSipCZoeRW8lAA==.sig.ed25519"
 }
