@@ -1,17 +1,18 @@
 {
-  "previous": "%sPUWSuSlGnOc4PNHyUk5KqNOk5nCsVOvhzPBrLZik6o=.sha256",
-  "sequence": 13151,
+  "previous": "%bnUNo3xJPHrbvYYOa3sCVvuaxq4c+J4IEuHLpXsVmU0=.sha256",
+  "sequence": 13152,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574102185967,
+  "timestamp": 1574103268857,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Actually, that last still uses the `use()` from flumedb rather than  from secret-stack (super conf`use()`ing). Here's a better example:\r\n\r\n```javascript\r\nssbClient((err, ssb) => {\r\n  if (err) throw err\r\n\r\n  ssb.use(require('ssb-about'))\r\n\r\n  ssb.about.get({ key: 'name', dest: '@xyz' }, (err, value) => {\r\n    if (err) throw err\r\n    console.log(value) // => \"Xander\"\r\n  })\r\n})\r\n```",
-    "mentions": [],
-    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%mcs2pQ+uDph77Qsn2O/lTvNeqFAnZfsuYZXX8mmKnRk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%sPUWSuSlGnOc4PNHyUk5KqNOk5nCsVOvhzPBrLZik6o=.sha256"
+      "%vWRhkf/v2tI4MyQ7Xv9aLStGByioVYAcbdRDRgi7yH4=.sha256"
     ]
   },
-  "signature": "Gtv9xtuoCdf6ri9Cgiah7eH/AiglSePnsrYZ46nEJd0SSQkz/1rwkDngNIpxYco2VdSH6TQVxHMrN1Gae6p2BA==.sig.ed25519"
+  "signature": "wK+Eaah6MPXhNIRnRvdCkhL1SovQWOVMG9kby+VcngM/dI5y/wkv3r3RIGR4bPsRPNeBaQ8n5b4Fon26hT0IAw==.sig.ed25519"
 }
