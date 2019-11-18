@@ -1,22 +1,18 @@
 {
-  "previous": "%KXPQg2TS+CaTelQ1sj2sghW+aE4WjH4sXGB+cqMPqY8=.sha256",
-  "sequence": 13143,
+  "previous": "%+gwl8woVauS8m7Wir9QmBBf5EFLfIHDrfah9Q6ILByM=.sha256",
+  "sequence": 13144,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574031834558,
+  "timestamp": 1574094296597,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@martin ➬](@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519)\r\n\r\nWe're using the [Unicode hashtag specification](https://www.unicode.org/reports/tr31/#R8), which only allows [XID_Continue](http://www.unicode.org/Public/12.1.0/ucd/DerivedCoreProperties.txt) characters in the hashtag (plus `_`, `-`, and `+` and emoji).\r\n\r\nIf you have Node.js, you can test with the hashtag-regex package:\r\n\r\n```javascript\r\nconst hashtagRegex = require('hashtag-regex')()\r\n\r\nconst string = '#a #b-b #c_c #d:d #e# #f➬ #g🚀'\r\n\r\nstring.match(hashtagRegex)\r\n// => [\"#a\", \"#b-b\" , \"#c_c\" , \"#d\", \"#e\", \"#f\", \"#g🚀\" ]\r\n```",
-    "mentions": [
-      {
-        "link": "@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519",
-        "name": "martin ➬"
-      }
-    ],
-    "root": "%/s94FcpBdBkRHBxaJg1q1dTPwEuQTyl4Tyu2kqi6oKs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%tzfoOKSqKy3RShgY67saA7V+sYRBGUkSaBR9QJg6DL4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%yUXV2WuqAiPB9K3o89X1MaeI7DS/RK3dsf4n45FWG/Q=.sha256"
+      "%tzfoOKSqKy3RShgY67saA7V+sYRBGUkSaBR9QJg6DL4=.sha256"
     ]
   },
-  "signature": "/1OiSDW3CAF2B6iEpTwpA+07XNJrm/cmuoBXGdv8PFDr8bKzZ1E+/lVRaaWfT2mJNuEXUbQ8e7FlbqvDeAtPAQ==.sig.ed25519"
+  "signature": "8mHiJaXNo4bfobuR3V7Iv6cFfuy02gvSHM1c6zi6P0oNzoehzfvCT+ldsfugzcTus6IOfYFz36KjJJuRNwfLDQ==.sig.ed25519"
 }
