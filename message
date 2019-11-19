@@ -1,18 +1,17 @@
 {
-  "previous": "%pN6c1EbgOjG8WxQE7jRjnhOLmpnbdBrn0gLS00Vtlnw=.sha256",
-  "sequence": 13191,
+  "previous": "%6675lPP4vjkd8GlwtBVRDZWu7c0MDTUwokj3Y3VxvzA=.sha256",
+  "sequence": 13192,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574135978547,
+  "timestamp": 1574138526927,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%I0w2qDG+snkAwrgAxsPSqh4nuPYfoDMQhiTByE5BS2o=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "I'm running into a problem where I can't test my code more than once per file, so I'm suspicious that there's some accidental state being left over between instances of flumedb / secret-stack / *something*, but I've actually got client-side secret-stack plugins working reasonably well (?!):\r\n\r\n```javascript\r\nclient((err, ssb) => {\r\n  const local = magic(ssb)\r\n    .use(require('ssb-backlinks'))\r\n    .use(require('ssb-about'))()\r\n\r\n  // Basic 'about' message.\r\n  const content = {\r\n    type: 'about',\r\n    about: '@xyz',\r\n    name: 'Xander'\r\n  }\r\n\r\n  ssb.publish(content, () => {\r\n    // Sometimes there's a race condition here.\r\n    // Maybe we should change `publish()` so it doesn't callback immediately.\r\n    local.about.socialValue({ key: 'name', dest: '@xyz' }, (err, foundName) => {\r\n      console.log(foundName) // => \"Xander\"\r\n    })\r\n  })\r\n})\r\n```",
+    "mentions": [],
+    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
     "branch": [
-      "%I0w2qDG+snkAwrgAxsPSqh4nuPYfoDMQhiTByE5BS2o=.sha256"
+      "%bnUNo3xJPHrbvYYOa3sCVvuaxq4c+J4IEuHLpXsVmU0=.sha256"
     ]
   },
-  "signature": "SSsiapcN1aM9hQ9J3g9FeRVokjSiLYzirYQo8rXxL8Hy9Qz9gtPTuxFZppGbR8uKnUPFbqNopKHSZwKqaaT7BQ==.sig.ed25519"
+  "signature": "cUmJiHvgEyefTUtkqv+3kqP5Jn/vAMRq8VSemZqLEbVPzjq6JeoTvQog9rF452+KdWytsEfAv+VbA+tzqu9vCw==.sig.ed25519"
 }
