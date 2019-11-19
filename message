@@ -1,18 +1,28 @@
 {
-  "previous": "%RktOInREJAGch/p+N8hjQjpGJCXtZ/y2EKG+urqvs/c=.sha256",
-  "sequence": 13196,
+  "previous": "%WyrmeoRvqFD66ptpLYSsxVv3WGgSkIo+k6eEEelj2II=.sha256",
+  "sequence": 13197,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574189634387,
+  "timestamp": 1574191284942,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rasJB9kmU8R3DVy7KIfnXVVa6bztYOsz6UpntRtowaU=.sha256",
-      "value": 1
+    "type": "post",
+    "root": "%uvuert8Y2MoSiIx36JJelrVLT/yb136nNHtYB02OJRI=.sha256",
+    "branch": "%uvuert8Y2MoSiIx36JJelrVLT/yb136nNHtYB02OJRI=.sha256",
+    "reply": {
+      "%uvuert8Y2MoSiIx36JJelrVLT/yb136nNHtYB02OJRI=.sha256": "@kEfkso8s0TkVTv71qzi2g08lpFBC+Ci/VSPcdrh1MqQ=.ed25519"
     },
-    "branch": [
-      "%KNog2ky3a0DCezcsbJZDDrW+WDtHcIiPcueiWl19WrU=.sha256"
+    "channel": null,
+    "recps": null,
+    "text": "[@Anna Bolica](@kEfkso8s0TkVTv71qzi2g08lpFBC+Ci/VSPcdrh1MqQ=.ed25519)\n\nHi!\n\nHere's your old feed, I think: @1PTtF/BnkfDFdyEyKpdolbJjs/VrAHIe1RO6vTQ3q2c=.ed25519\n ",
+    "mentions": [
+      {
+        "link": "@kEfkso8s0TkVTv71qzi2g08lpFBC+Ci/VSPcdrh1MqQ=.ed25519",
+        "name": "Anna Bolica"
+      },
+      {
+        "link": "@1PTtF/BnkfDFdyEyKpdolbJjs/VrAHIe1RO6vTQ3q2c=.ed25519"
+      }
     ]
   },
-  "signature": "uM7y4v3hY1tyDDy0GioaPXTEYckA0xA9dcyFUkCMOFB2m1e8hWg/hqKyKK2D9hdZ1iQuOJ+XupDVdbzHvS8ACQ==.sig.ed25519"
+  "signature": "7useoY0lPYSSJ2EsJvy9iTzbLgITY6RhH0yNETigTyShW9KLtQiLW/y9DcgthCpejWayG+X1EtdxljPUeJ/6Dw==.sig.ed25519"
 }
