@@ -1,17 +1,22 @@
 {
-  "previous": "%6675lPP4vjkd8GlwtBVRDZWu7c0MDTUwokj3Y3VxvzA=.sha256",
-  "sequence": 13192,
+  "previous": "%p2pQbjaNYrKYNhQOXTjhjdQLoDZPcQpEMtOpwJjn1/A=.sha256",
+  "sequence": 13193,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574138526927,
+  "timestamp": 1574139678366,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I'm running into a problem where I can't test my code more than once per file, so I'm suspicious that there's some accidental state being left over between instances of flumedb / secret-stack / *something*, but I've actually got client-side secret-stack plugins working reasonably well (?!):\r\n\r\n```javascript\r\nclient((err, ssb) => {\r\n  const local = magic(ssb)\r\n    .use(require('ssb-backlinks'))\r\n    .use(require('ssb-about'))()\r\n\r\n  // Basic 'about' message.\r\n  const content = {\r\n    type: 'about',\r\n    about: '@xyz',\r\n    name: 'Xander'\r\n  }\r\n\r\n  ssb.publish(content, () => {\r\n    // Sometimes there's a race condition here.\r\n    // Maybe we should change `publish()` so it doesn't callback immediately.\r\n    local.about.socialValue({ key: 'name', dest: '@xyz' }, (err, foundName) => {\r\n      console.log(foundName) // => \"Xander\"\r\n    })\r\n  })\r\n})\r\n```",
-    "mentions": [],
-    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nYeah, it's encrypted in the database and auto-decrypted when we stream from the database, and it would be great to default to that transformed data. There's lots of history about `{ private }` [here](https://github.com/ssbc/ssb-db/pull/228), especially [this comment](https://github.com/ssbc/ssb-db/pull/228#issuecomment-435385788).",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%RouG6IVwpEQhfYLpyFkjyJrj9uhR6GlQDH+4Ngt/6Bg=.sha256",
     "branch": [
-      "%bnUNo3xJPHrbvYYOa3sCVvuaxq4c+J4IEuHLpXsVmU0=.sha256"
+      "%Hvg6e6KBR74/oY5N7p4pHuvEwbsT7506XheCDfZyGAY=.sha256"
     ]
   },
-  "signature": "cUmJiHvgEyefTUtkqv+3kqP5Jn/vAMRq8VSemZqLEbVPzjq6JeoTvQog9rF452+KdWytsEfAv+VbA+tzqu9vCw==.sig.ed25519"
+  "signature": "eVxzXGBiBaua87GkXTye3uLs5gO85y+HAYWrTi1u3LURzKspMACvZW0nr8jEX7RpFJXZumvElyUswzfXK5g6Bg==.sig.ed25519"
 }
