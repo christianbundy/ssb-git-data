@@ -1,16 +1,23 @@
 {
-  "previous": "%pNxUkDdWx+aMErDKZNoyEHbd7kK5XvaMORMiKHFsQos=.sha256",
-  "sequence": 13198,
+  "previous": "%rXFAKpyGghgse9MryWCOncBQUBLejwmSk9mCdb7Uu8U=.sha256",
+  "sequence": 13199,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574191316995,
+  "timestamp": 1574199465408,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%f4glGNY6D//WoH5gJK/BH22rZbtGBMYtPdAA57VS7j4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nHey do you remember which client you posted this from? I think your `mentions` array might be different than what other clients expect.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ],
+    "root": "%y9B7LOra+cAAJqJtlSMvUJRBB6Hqk3vtzmIZp2JFUZ4=.sha256",
+    "fork": "%QbHduxPwXciJKkgXetjshFDpCJ45rUrfCemG6GI9JTo=.sha256",
+    "branch": [
+      "%y9B7LOra+cAAJqJtlSMvUJRBB6Hqk3vtzmIZp2JFUZ4=.sha256"
+    ]
   },
-  "signature": "042CvXxns7o0lpCbbyvxFgMwYbJqVvKA6FXzaw098KYHTZ7181GdtHEsfb1cNZ0s5+Ei2v11qDLUzqfUsRslDw==.sig.ed25519"
+  "signature": "Jj+d34RfhshCNqgw34XoOCQzf94VOh9IwzU+dsU3rgSF8cAS7FfUzwT1YAgm6ojMje34E5sKdKAWfjj2kfbJDg==.sig.ed25519"
 }
