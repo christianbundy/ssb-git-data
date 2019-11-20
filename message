@@ -1,18 +1,32 @@
 {
-  "previous": "%sIj5SCdD4vbhQrePmwf1qIjoBcuf1RBeNUvcTmpPyVM=.sha256",
-  "sequence": 13225,
+  "previous": "%qfAfnMmLiIJp+wYH11ANpJfRpp6Bj1NOL5fREhmp/bM=.sha256",
+  "sequence": 13226,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574278941252,
+  "timestamp": 1574280864461,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%+qVIMzRYzmtHCDTK7JETQgTRk8kNNioAzAT0u9wRMrQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@corlock](@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519)\r\n\r\nInteresting! I guess it makes sense, since nothing is signed. I wonder whether this is resolved in #ssb-conn (specifically #ssb-lan)?\r\n\r\ncc: [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)",
+    "mentions": [
+      {
+        "link": "@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519",
+        "name": "corlock"
+      },
+      {
+        "link": "#ssb-conn"
+      },
+      {
+        "link": "#ssb-lan"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ],
+    "root": "%itxbdOh3sCW1YLIDCWzA7UlssaAWXNRi9Jf8ZxebTXY=.sha256",
     "branch": [
-      "%+qVIMzRYzmtHCDTK7JETQgTRk8kNNioAzAT0u9wRMrQ=.sha256"
+      "%9XU2KFeJGxAZVr82/OZ4qCURoMyjpHT1MwImr2mxhc4=.sha256"
     ]
   },
-  "signature": "OPCOpCguaNETmiMkGEdW7jmZF+VUYSIh94pWSE/3Lp2JoerqsOdBoMa06yJVtpkD7QrILNu/wnnJyoKZyJchCw==.sig.ed25519"
+  "signature": "zvBDBgwbjbskFb61eveZu7qHvt3hqbYAAbnNxncQ6G9bIM+78TaSW9a7HwtxzvvJq1c9NN6atlAqFvdcDl1sAg==.sig.ed25519"
 }
