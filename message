@@ -1,18 +1,22 @@
 {
-  "previous": "%YAqG94gG3wOvpZavP/DMGG5vD88oERlrQqJj6AgOgZ4=.sha256",
-  "sequence": 13209,
+  "previous": "%Ga4/fvJuckWa6Nl8bdooelTdDkEK16FwzaKdCIRHivk=.sha256",
+  "sequence": 13210,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574214435310,
+  "timestamp": 1574215084099,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uXNTHuUu6Jbx9WWZjGR5Nw9+lMvVMWzbyGgBK/JoICA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nOops! Looks like it's probably a thing in all clients: https://github.com/ssbc/ssb-schema-definitions/issues/5",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ],
+    "root": "%y9B7LOra+cAAJqJtlSMvUJRBB6Hqk3vtzmIZp2JFUZ4=.sha256",
     "branch": [
-      "%uXNTHuUu6Jbx9WWZjGR5Nw9+lMvVMWzbyGgBK/JoICA=.sha256"
+      "%rRgaP7tMCKI+0fQG8O3uVKAH5DLY5YVIY0bprm83LBI=.sha256"
     ]
   },
-  "signature": "OKybMojinBB0rIptw+84kR2P8Y+BD5LsjVIwmXR8F7qzSwiJRlnySbXvN/3s1cO8Dl091E6vEgnlWhujVkI6AQ==.sig.ed25519"
+  "signature": "bniaTyc2uev0xdqK0H6FomLOs47ZIfZustbAfvwGQNWIu25768gksvdv2OTtmeqbczh2xhEW4AI2JJ2rZaJZAg==.sig.ed25519"
 }
