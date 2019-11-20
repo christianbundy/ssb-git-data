@@ -1,18 +1,22 @@
 {
-  "previous": "%JIDXxV2elVlL4nAyilVEcWhexXk3UKeB0BAjEXG5+7E=.sha256",
-  "sequence": 13220,
+  "previous": "%j6CAnlo3VOEryFESRjp8/fSsjU89EIZl6PjYna0QDFg=.sha256",
+  "sequence": 13221,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574263668547,
+  "timestamp": 1574264027419,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uCdVd/iLXU4Z88aJnTkkbYBqsIw82LJ551DhoSfiaOU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nSame! I think it might be simple to prototype some sort of simple \"<works/doesn't work> on my machine\" message that references some Git commit and runs tests or something manually, but setting up an automatic service would definitely require lots of trust.",
+    "mentions": [
+      {
+        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
+        "name": "zozs"
+      }
+    ],
+    "root": "%YS4GFHL6sllmcpObDrJ0FSj9+XXiawLdqWFpDwPQTRQ=.sha256",
     "branch": [
-      "%uCdVd/iLXU4Z88aJnTkkbYBqsIw82LJ551DhoSfiaOU=.sha256"
+      "%2tvMcx8OGPM+soiT6VMg+1toeN+1v09gc8JR5CWzoxM=.sha256"
     ]
   },
-  "signature": "bCbHujV8Wm24O8Q4rp0kKUEDjFJLfyOUoHIjyxU1B0+TD8lHJJLotJ03KVBae0MIhoLKlolSnx2WZkGwhOt5AQ==.sig.ed25519"
+  "signature": "1slFObcHXtwEWSv3VoVyipItYam4M2LVl0bWFSkRv1fXE8BBUtMfNFntJ8nbXEurfDS4yvoRX2eBe4jVfNGYAA==.sig.ed25519"
 }
