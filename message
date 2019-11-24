@@ -1,23 +1,18 @@
 {
-  "previous": "%ICaM0EaCXIiWzjBds0KWLIL2MsAfbqv5T9iQhxBeVO0=.sha256",
-  "sequence": 13255,
+  "previous": "%iTA05/oE86Hb/hELy5VE2kYevY59zZX1agLQuqiiX8s=.sha256",
+  "sequence": 13256,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574564171857,
+  "timestamp": 1574564203466,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@snailest](@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519)\r\n\r\nThanks for the feedback!\r\n\r\n> Please give me a sign if oasis - and of course ssb-cli - is/are really ready to be used by users.\r\n\r\nIs there anything specific I can answer here? The [Oasis road-map](https://github.com/fraction/oasis/blob/master/docs/roadmap.md) is up-to-date, and the only SSB-CLI bugs I'm aware of are just stuff like [ssb-db giving incorrect info about the methods available](https://github.com/ssbc/ssb-db/pull/273). Both are working great for me, it's just that I've only been implementing the things that I've been personally using.\r\n\r\nIf there are gaps you'd like filled, I'd love to help! Features are basically being implemented as they become important to someone. 🙃",
-    "mentions": [
-      {
-        "link": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
-        "name": "snailest"
-      }
-    ],
-    "root": "%6pxbLOAchu54tBGHwMNV0UVZ6a3skG93I3u81Aze6TE=.sha256",
-    "fork": "%7p73Zaxq/UnCbqVsIgTNPBhpWD4pUYPLe8rnprfkJUo=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%6pxbLOAchu54tBGHwMNV0UVZ6a3skG93I3u81Aze6TE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ICaM0EaCXIiWzjBds0KWLIL2MsAfbqv5T9iQhxBeVO0=.sha256"
+      "%iTA05/oE86Hb/hELy5VE2kYevY59zZX1agLQuqiiX8s=.sha256"
     ]
   },
-  "signature": "6cTlJGqVp+OyVibFcCUV550g39hc10tW/JxQw5ioZifBhT+f4/xsnqoHK7Qdh7uGVxARu5XWE5KML3xociOIDg==.sig.ed25519"
+  "signature": "Hi2obY1u+TrxWluQ455keuzpDwapklSkBcDUrkMPdwglnrSoj6f0flOhnXSYYBlMg4OsaUt9bNaHZS+XEfcuCg==.sig.ed25519"
 }
