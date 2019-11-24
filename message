@@ -1,22 +1,18 @@
 {
-  "previous": "%w3P+HorKksMD902diMIRDXAMV9QnMfRjLsMushtFTyk=.sha256",
-  "sequence": 13249,
+  "previous": "%RF74GhJ/QtAKk4985ag6b+/asy3Aq71LJkyjDRmuZtU=.sha256",
+  "sequence": 13250,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574563267676,
+  "timestamp": 1574563320936,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nDo you mean from the CLI? I think you can close a connection from JS like this:\r\n\r\n```javascript\r\nssbClient((error, api) => {\r\n  if (error) throw error\r\n\r\n  // This could be any method:\r\n  api.whoami((error, value) => {\r\n    if (error) throw error\r\n\r\n    // Manually close MuxRPC connection.\r\n    api.close()\r\n  })\r\n})\r\n```",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%xjQowfrk/Tq9braVSa3Cr8DjzGivzhlyqE+tPQWS3+g=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%OBXvUTxL2UBxrdZLp1YxaxVjNDEzaQCYDkVyMpRArHI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%xjQowfrk/Tq9braVSa3Cr8DjzGivzhlyqE+tPQWS3+g=.sha256"
+      "%OBXvUTxL2UBxrdZLp1YxaxVjNDEzaQCYDkVyMpRArHI=.sha256"
     ]
   },
-  "signature": "iq1/dTzKxupzIvY3DA/pnlWfj6seWYvWOr0ivOTQMoRKJ/PuhRG/d5gQJfXXFt5tU+BvILY0qySkmbJBGmEcAQ==.sig.ed25519"
+  "signature": "/RUAOPqi/g8qi4ftqIJzGiJddGDNURzO+RJrPSbpvmrfNE2uSgzCc/NAIXp7gumyRol/+YYSmXJPoD/U3W2eCw==.sig.ed25519"
 }
