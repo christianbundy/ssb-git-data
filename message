@@ -1,19 +1,27 @@
 {
-  "previous": "%KVBHyC5czt9LRXx6rEcH9ha+A4V0VjqwLx10pwjG540=.sha256",
-  "sequence": 13246,
+  "previous": "%+nFikfYONCT9/1fzqUL/LOBxjGITZ5DZCFLC9MDh95A=.sha256",
+  "sequence": 13247,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574537552554,
+  "timestamp": 1574560612917,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Wj63FXe4qn3nQvJtt6FytOdF3/2yMVTjnrkj5gTWUk0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Brian Gianforcaro](@PssA5T/wHatca8USjfS2mTsBUXnl4qNDDpwsz+wZqQo=.ed25519)\r\n\r\nPatchwork is just a cherry on top of the JS-SSB stack, so it's probably not feasible to switch out the database, but there have been lots of discussions about databases.\r\n\r\nRight now we take a stream and construct a bunch of LevelDB views that can be queried, which is flexible and stream-friendly but unfortunately also resource-heavy. If you aren't already familiar with FlumeDB, I learned a lot from [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) here:\r\n\r\nhttps://www.youtube.com/watch?v=f_baWUW4R8Y",
+    "mentions": [
+      {
+        "link": "@PssA5T/wHatca8USjfS2mTsBUXnl4qNDDpwsz+wZqQo=.ed25519",
+        "name": "Brian Gianforcaro"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%YI3TcM0AXWi8+R+WaNAFFaDIGoAKP/hcbDjcwO96n3Y=.sha256",
+    "fork": "%wC7HEYKwrcRkwYsGwysa5XOR6sHvvPxs4r6hRO2h0zk=.sha256",
     "branch": [
-      "%WrU9U/Dc8Qj1YUFLptiuLLdI5hEW6a+6D3wgDcCpWPM=.sha256",
-      "%qjK/JEzRjB3xgJFscyJgGh3rEAqsnFic9S11sukt/nE=.sha256"
+      "%YI3TcM0AXWi8+R+WaNAFFaDIGoAKP/hcbDjcwO96n3Y=.sha256"
     ]
   },
-  "signature": "QQBJRL3RHQaIcBDnaeJ4L0ayY2BLMQ4tGxGTQDWa3YSdcoywN5OSw1bHvrxv9P/7WmScHXBF+/l0dYqn3M0UAQ==.sig.ed25519"
+  "signature": "Io3ODrPuCdAXkLb+4winNg1xQhwWcEL3MtdnWBtwz/FRLz8VA/dpjFs+Mf/4hnwBAly+yiFN8BjjbG2NOabYCg==.sig.ed25519"
 }
