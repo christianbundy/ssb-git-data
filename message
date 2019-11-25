@@ -1,22 +1,22 @@
 {
-  "previous": "%LJ6nHt/6q11sV7YksvLmP9UtxNIs0OlhCJb+s2D9LqU=.sha256",
-  "sequence": 13277,
+  "previous": "%/AqqcH7JNNYgW7CzqLbtw37u4rejpD/5I2ks3ht/QjI=.sha256",
+  "sequence": 13278,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574647693095,
+  "timestamp": 1574649301759,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@MeT](@5/Wn0jeBTj1YRNCpt4YKaALrNLgoD58QCfGKkCOW6eQ=.ed25519)\r\n\r\nHi and welcome. I'm happy to answer any questions you have, but I think this is the important part:\r\n\r\n> Cuz what I have seen so far…it seems we still need a PUB to get ppl connected together but what I myself have in my own mind is that something like bittorrent protocol would be more helpful\r\n\r\nThe pub helps us connect over the internet, but SSB works great if you share a LAN with other users (or can share your posts with a USB stick or something). When two follow each other and they're on the same LAN, they download all of their friend's messages *and* the messages of their friend's friends, which means they can gossip widely.\r\n\r\nConnecting to a pub is helpful for real-time internet for friends around the world, but if you're comfortable with some delay in your messages (which is the time taken from the gossip to spread through friends who share LAN / Bluetooth / USB / etc) then SSB is very hard to take down.\r\n\r\nPlease let me know if there's anything I can help with. Solidarity.",
+    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519)\r\n\r\nIs that out tonight? I just watched the latest one last night, but I don't remember when they come out.",
     "mentions": [
       {
-        "link": "@5/Wn0jeBTj1YRNCpt4YKaALrNLgoD58QCfGKkCOW6eQ=.ed25519",
-        "name": "MeT"
+        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
+        "name": "Kaotisk Hund"
       }
     ],
-    "root": "%7OoyV8eQCEa0ejIUqksSO6uw7Jt/S8sYo+B2nnTnqKw=.sha256",
+    "root": "%oPKgqRbtHj4RaeaLqGwXNdiXcCJDszKNMeA5QgxOKiU=.sha256",
     "branch": [
-      "%7OoyV8eQCEa0ejIUqksSO6uw7Jt/S8sYo+B2nnTnqKw=.sha256"
+      "%U+UAXcVuFu5sYkJdB7ohrbKSSP57QhEA+57LjE8I5HY=.sha256"
     ]
   },
-  "signature": "3D+tW/Z2PwY1+l9Ri9yiJeRjfN4NkvQlppTHSRasdb7z+WnJ8WspmiGP6mAxaQuyYSKslgNeNPxO/Maekm5xBw==.sig.ed25519"
+  "signature": "B4lq2Jr1kDSSHYtTLC6Tq5N688gbRYhtdOjQ9twA9sIzsfPcjWoIbMPA6Ro26/uSaiRH6g4ztnoLr8LaqjcQBQ==.sig.ed25519"
 }
