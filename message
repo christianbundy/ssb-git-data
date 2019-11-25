@@ -1,12 +1,12 @@
 {
-  "previous": "%QAAYRyR6mw14l9goYkmisrWlFP5x+z2XScVNF0TvF7s=.sha256",
-  "sequence": 13293,
+  "previous": "%4/2O9Hf/1rICUXrccyTIt2HsuqggLq9IxXRhXsZU/W8=.sha256",
+  "sequence": 13294,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574707688365,
+  "timestamp": 1574710148972,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Dave Lee (thelovebug) Laptop](@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519)\r\n\r\nYou have to use a command-line interface, I'd recommend [SSB-CLI](https://github.com/fraction/ssb-cli) or [SSB-Server](https://github.com/ssbc/ssb-server).\r\n\r\n```shell\r\nssb publish --type about --about @CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519 --publicWebHosting\r\n```\r\n\r\nReplace `ssb` with `ssb-server` if you've installed that instead.",
+    "text": "[@Dave Lee (thelovebug) Laptop](@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519)\r\n\r\nThanks for asking! It's something you'll do locally, it's just that it isn't baked into any clients that I'm aware of yet (except maybe Patchbay?). Tools like SSB-CLI are like an *advanced mode* that lets you publish custom messages and make queries and stuff that isn't available in your client, so you can think of them as a sort of admin interface to Patchwork/etc.\r\n\r\nEventually I'm sure we'll have clients that implement this \"opt into public web hosting\" message, but right now I think we're limited to the command-line interface.",
     "mentions": [
       {
         "link": "@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%AyjagT938m7SWR8LpkugqFkf0+UisYwd4hzp+ww71fE=.sha256",
     "branch": [
-      "%AyjagT938m7SWR8LpkugqFkf0+UisYwd4hzp+ww71fE=.sha256"
+      "%62LqxdUN2R1FVcKiqiiks1SprCNsnqYReQ6lElVxutI=.sha256"
     ]
   },
-  "signature": "SoXK39I5wBMSmefClTf/ejB4ZQdv9VGabE/Cmvu/A2n/9j3c3cZJR5QF7T1p9ket80tpqQFpi9eVgojpi2BLAQ==.sig.ed25519"
+  "signature": "cUOESL1iC8qZHmPNYhiFM5JG1dsIyCLAHDs3F2cdoBaXxd/ONLEAvjtgo1ccZuj92hH724N7B7+tNdlyDUBYCg==.sig.ed25519"
 }
