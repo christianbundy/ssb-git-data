@@ -1,26 +1,18 @@
 {
-  "previous": "%P7x/lG/GN86DXELmuuKCbUc2cLhGwlbpXI63ZSACTtQ=.sha256",
-  "sequence": 13298,
+  "previous": "%17+8mnCKf+AcPaKX0Or9ot08kvN+JPlfPx7tLzlBa10=.sha256",
+  "sequence": 13299,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574715710718,
+  "timestamp": 1574715735646,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\r\n\r\n\r\n> What is the name / address of your pub?\r\n\r\nhttps://oasis-demo.fraction.io\r\n\r\n> Is the pub local or cloud-based?\r\n\r\nCloud.\r\n\r\n> When was the pub created?\r\n\r\nSeptember 2019.\r\n\r\n> Why was the pub created? (i.e. public service, private service for friends, second device)\r\n\r\nPublic demo for #oasis and better replication for my friends. :)\r\n\r\n> What are the specifications of the the host machine\r\n\r\nGoogle Cloud n1-standard-1 (1 vCPU and 3.75 GB of memory) with  64 GB of storage.\r\n\r\n> Which implementation of ssb-server are you running? (Go or JS)\r\n\r\nOasis (JS), no ssb-server.\r\n\r\n> Which version of ssb-server / sbot are you running?\r\n\r\nOasis v2.71, which uses [these plugins](https://github.com/fraction/flotilla/blob/master/package.json).\r\n\r\n> How do you manage processes? (i.e. Shell scripts, Systemd, Docker, PM2, etc.)\r\n\r\nsystemd\r\n\r\n> Do you have monitoring enabled for the server?\r\n\r\nYes.\r\n\r\n> How do you manage blobs? (manual pruning, shell scripts, etc.)\r\n\r\n[`ssb-blob-prune`](https://github.com/fraction/ssb-blob-prune)\r\n\r\n> What is the size of the .ssb directory?\r\n\r\n3.1 GB.\r\n\r\n> What is the size of the .ssb/blobs directory?\r\n\r\n1.4 GB.\r\n\r\n> What plugins are being used / available? (git-ssb, ssb-npm, ssb-viewer, etc.)\r\n\r\nOasis, using [these plugins](https://github.com/fraction/flotilla/blob/master/package.json) (same link as above).\r\n\r\n> How many followers does the pub have?\r\n\r\n1? I don't remember if I actually follow the pub.\r\n\r\n> How many feeds does the pub follow?\r\n\r\n1\r\n\r\n> How many friends (both parties follow each other) does the pub have?\r\n\r\n1 if I follow the pub, otherwise 0.\r\n\r\n> Does the pub server use an HTML landing page?\r\n\r\n> Are there other services running on the machine? (Dat, IPFS, cjdns, tor, mumble, jitsi, etc.)\r\n\r\nNot right now, but I've experimented with cjdns on my other pub.",
-    "mentions": [
-      {
-        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-        "name": "glyph"
-      },
-      {
-        "link": "#oasis"
-      }
-    ],
-    "root": "%HlX1hSm9+5msba1UurGTXRfPzU5kGO5kkcbgLronwi0=.sha256",
+    "text": "> Does the pub server use an HTML landing page?\r\n\r\nVery much yes. :~)",
+    "mentions": [],
+    "root": "%17+8mnCKf+AcPaKX0Or9ot08kvN+JPlfPx7tLzlBa10=.sha256",
+    "fork": "%HlX1hSm9+5msba1UurGTXRfPzU5kGO5kkcbgLronwi0=.sha256",
     "branch": [
-      "%VF85dDw9XPQ3kfwGL7CcmJLIttQxDTu9rjcKg2vu07k=.sha256",
-      "%g7a87I1DkwwUx7Y9SxeqppUT6rVW0fLLh3yYq1LnBj4=.sha256"
+      "%17+8mnCKf+AcPaKX0Or9ot08kvN+JPlfPx7tLzlBa10=.sha256"
     ]
   },
-  "signature": "BEqeZNlaILS2i7QdCKcDP3kBlsli7XG5kDy2CqYwh8KctAaVaKweydhFCcYZojEskgZmNyhKicmNTyK1k2g7CQ==.sig.ed25519"
+  "signature": "/VYN/DRuAXaeniFNrL/Cz+VGuDY2utzG6pY7Toww3AsdT+aO+gNFhoB69Srya47SFDSqIMoaIm1DGqVkaDXiAg==.sig.ed25519"
 }
