@@ -1,23 +1,22 @@
 {
-  "previous": "%JMEvG3lQTa6nvhmwscJiBIx+z5IPVCgLCSLMpYM4fcw=.sha256",
-  "sequence": 13292,
+  "previous": "%QAAYRyR6mw14l9goYkmisrWlFP5x+z2XScVNF0TvF7s=.sha256",
+  "sequence": 13293,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574700575856,
+  "timestamp": 1574707688365,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nYep, the technical stuff is *very* well done. It's one of my favorite shows, and I could rant about all of the things I love, but two things that bother me are:\r\n\r\n- **Timeline:** The technical details are mostly accurate but *damn* are the timelines off. Maybe I just suck with computers, but I can't imagine writing a useful virus in less than an hour or attack some target that I just learned about. Every time it happens I want someone to say \"yeah sure, give me 9 months\" but it never happens.\r\n- **Symbolism:** I think this was mostly a season 1 thing, but there was lots of \"are you a 1 or a 0\" kind of stuff that made me cringe. Maybe those feelings were intentional?\r\n",
+    "text": "[@Dave Lee (thelovebug) Laptop](@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519)\r\n\r\nYou have to use a command-line interface, I'd recommend [SSB-CLI](https://github.com/fraction/ssb-cli) or [SSB-Server](https://github.com/ssbc/ssb-server).\r\n\r\n```shell\r\nssb publish --type about --about @CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519 --publicWebHosting\r\n```\r\n\r\nReplace `ssb` with `ssb-server` if you've installed that instead.",
     "mentions": [
       {
-        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
-        "name": "zozs"
+        "link": "@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519",
+        "name": "Dave Lee (thelovebug) Laptop"
       }
     ],
-    "root": "%oPKgqRbtHj4RaeaLqGwXNdiXcCJDszKNMeA5QgxOKiU=.sha256",
+    "root": "%AyjagT938m7SWR8LpkugqFkf0+UisYwd4hzp+ww71fE=.sha256",
     "branch": [
-      "%S1LmTTql1n46z9s9wdME4Hyz2NOLNruroluLc6WQsZ8=.sha256",
-      "%Tw0so1ldFDzMb5hfb1FbK2+3dvsLyCIq0SfNQr+oD3s=.sha256"
+      "%AyjagT938m7SWR8LpkugqFkf0+UisYwd4hzp+ww71fE=.sha256"
     ]
   },
-  "signature": "o9Gxx88DNzrPZitGe4Jh6rL+mOIz/P5OlxIJFeC2EypHte62J45ieJIT08a6Rq8SbK8jmPJHwyQyyLh2yglPDg==.sig.ed25519"
+  "signature": "SoXK39I5wBMSmefClTf/ejB4ZQdv9VGabE/Cmvu/A2n/9j3c3cZJR5QF7T1p9ket80tpqQFpi9eVgojpi2BLAQ==.sig.ed25519"
 }
