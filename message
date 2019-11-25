@@ -1,22 +1,18 @@
 {
-  "previous": "%4/2O9Hf/1rICUXrccyTIt2HsuqggLq9IxXRhXsZU/W8=.sha256",
-  "sequence": 13294,
+  "previous": "%KhaVC+0KDGMnbNe/jU0fNCxtpiDy2D1W56mBcRWsKYA=.sha256",
+  "sequence": 13295,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574710148972,
+  "timestamp": 1574711603008,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Dave Lee (thelovebug) Laptop](@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519)\r\n\r\nThanks for asking! It's something you'll do locally, it's just that it isn't baked into any clients that I'm aware of yet (except maybe Patchbay?). Tools like SSB-CLI are like an *advanced mode* that lets you publish custom messages and make queries and stuff that isn't available in your client, so you can think of them as a sort of admin interface to Patchwork/etc.\r\n\r\nEventually I'm sure we'll have clients that implement this \"opt into public web hosting\" message, but right now I think we're limited to the command-line interface.",
-    "mentions": [
-      {
-        "link": "@CM04SQ5QYiYJcifXIEDxzRIwKMe+6phg9kyNaO0AM2U=.ed25519",
-        "name": "Dave Lee (thelovebug) Laptop"
-      }
-    ],
-    "root": "%AyjagT938m7SWR8LpkugqFkf0+UisYwd4hzp+ww71fE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%i/As7ookB7++y46wewClsXfjdfRcePZ3RnRVr8gHF8g=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%62LqxdUN2R1FVcKiqiiks1SprCNsnqYReQ6lElVxutI=.sha256"
+      "%i/As7ookB7++y46wewClsXfjdfRcePZ3RnRVr8gHF8g=.sha256"
     ]
   },
-  "signature": "cUOESL1iC8qZHmPNYhiFM5JG1dsIyCLAHDs3F2cdoBaXxd/ONLEAvjtgo1ccZuj92hH724N7B7+tNdlyDUBYCg==.sig.ed25519"
+  "signature": "yCDTMyP2f1n+/wokvfRlyZa5ysMCQj5zOlIsssKE3UdPIxUt4DGm9kdgr4eLjyDd/8Hx5o51JeS/Mrwj6tA/CA==.sig.ed25519"
 }
