@@ -1,22 +1,19 @@
 {
-  "previous": "%LAh4NhVvkwweFf+3oHV5X3rIdkF0FZ88cC3Ek8+XjTw=.sha256",
-  "sequence": 13310,
+  "previous": "%BdEMnP9I5ugbcGWEMzu4t1G5lpdk63Vq5taTY7z5bPE=.sha256",
+  "sequence": 13311,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574780982150,
+  "timestamp": 1574780992577,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Futurist](@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519)\r\n\r\n> Is there an SSB plugin for downloading all blobs it can find?\r\n\r\nNot yet, but I'm interested in building something like this.\r\n\r\n> Also are there any tools / plugins for exploring blobs you have saved to disk?\r\n\r\nI've built a basic viewer but didn't release it because it was slow and just showed all of the blobs on one page. What sort of tooling are you looking for?",
-    "mentions": [
-      {
-        "link": "@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519",
-        "name": "Futurist"
-      }
-    ],
-    "root": "%spx/ZtTY3nHL9J24YgB2Z2YYW/Iawbg+mYw7V0W/qqI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%n9N8P5i+mXHX9FXz4Bm+i+5WAjylHeArWeqXGD4GFCI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%spx/ZtTY3nHL9J24YgB2Z2YYW/Iawbg+mYw7V0W/qqI=.sha256"
+      "%G+XnG/wxi5+qLha1NqdFZN9gi4IlZJ3Cey0pNF8KicA=.sha256",
+      "%iuBo8b3AApcJxz+W+2cm7wn9H1u/GdzOVdNxrOeRRuQ=.sha256"
     ]
   },
-  "signature": "1koasMXALpCk9LARfLw47FYrpregVw/bZeQyzkqKKIHGD2pLNECygthx2JMtYuQH+gr5oa39QJbLzKIupWw6BQ==.sig.ed25519"
+  "signature": "4QiGY5ssVlfb7mEXFLcmQ71b7dL2b6pi/M/3jr8FgGJa2m3O4OB5Ca/fwPqxoFrznfR50TK0ITFaa/XNYN+rDg==.sig.ed25519"
 }
