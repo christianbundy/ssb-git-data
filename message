@@ -1,16 +1,29 @@
 {
-  "previous": "%eJ4YONgJINfTE6OX7Gv/FqWXO7r3PpVLEflSzX5Sy4A=.sha256",
-  "sequence": 13320,
+  "previous": "%oxKAe2v3hvGkL3mgcnAv/vih0LLfn7O7ptsbnYk0mpw=.sha256",
+  "sequence": 13321,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574799321926,
+  "timestamp": 1574807179828,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JSrMj1jTz/GTUbAUP8VTzAYrW7jA/20GF2Rqkgs6JQk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256",
+    "branch": [
+      "%dUuo5zH0ZVNlqFz7YYlU1c29KmNpegL2OOYc/4QKB1c=.sha256",
+      "%uRESqKu/UcHjrRPxur+FjV0IVoqNlI1j9+qSz/PNjYg=.sha256"
+    ],
+    "reply": {
+      "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
+      "%uRESqKu/UcHjrRPxur+FjV0IVoqNlI1j9+qSz/PNjYg=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@snailest](@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519) \n\nCould you try running the AppImage with `--no-sandbox`? Or maybe `-- --no-sandbox`, I'm not sure.\n\nMore info and links in here: https://github.com/ssbc/patchwork/issues/1213",
+    "mentions": [
+      {
+        "link": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
+        "name": "snailest"
+      }
+    ]
   },
-  "signature": "oTXIkOoAZsH7n817aSwjSEtWjutShtEZ4AHEB1Q+L0iZuqcMDWfzUT5s+ZwZcOqSwN9GPNzAH+Rl2Lztu8CLAQ==.sig.ed25519"
+  "signature": "wQ62XGtaEQ9Xl4J05n+Mnxp/EnE4kjus/pXRJdHGtrN1K7r7Y++TLOjReeReKJAXEDX3DgqUv1CM/V2vh5BGAw==.sig.ed25519"
 }
