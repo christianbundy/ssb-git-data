@@ -1,22 +1,26 @@
 {
-  "previous": "%8g3HEM7I8YzER7w2ASKfZ4P8+zoFrJnmEIhn6LlPlVA=.sha256",
-  "sequence": 13322,
+  "previous": "%Iuvr1q0bPVMlG71go7cKPvP82ZltGee8sdQpkDk9vwE=.sha256",
+  "sequence": 13323,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574807800761,
+  "timestamp": 1574871278472,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Bifilarcoil](@hrmQJ1MVM1DHELoebf3ZzEV8H/mjifg5gOjstNotqkY=.ed25519)\r\n\r\nHave you already downloaded and installed the new version? If so, it's probably in your downloads folder? Sorry I can't be more helpful.",
+    "root": "%W74kPF3KlZy9fwVUNC6TY2oSWaYao7jbzs1gzgaMSGA=.sha256",
+    "branch": "%jBnJIIwWk0cIi+bBDnapCVzCHKH2159GRdW/iq3q5qw=.sha256",
+    "reply": {
+      "%W74kPF3KlZy9fwVUNC6TY2oSWaYao7jbzs1gzgaMSGA=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%jBnJIIwWk0cIi+bBDnapCVzCHKH2159GRdW/iq3q5qw=.sha256": "@1U65GGx/QOUu6sVSgx8FeGDAZWUeNKSYBvrv8FXXINY=.ed25519"
+    },
+    "channel": "scuttlebutt",
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThanks for putting this together! As you mentioned, I think that lots of these dependencies happen at run-time, but I'd be extra curious about which dependencies are required during `init()` (because that's when you'll have race conditions that determine plugin load order). Did you come up with any fun tricks to find this, or did you manually go through all the modules?",
     "mentions": [
       {
-        "link": "@hrmQJ1MVM1DHELoebf3ZzEV8H/mjifg5gOjstNotqkY=.ed25519",
-        "name": "Bifilarcoil"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
-    ],
-    "root": "%+BWChttrNMn06vQTf87FTVfWta3OUylcDf/BxW/hczA=.sha256",
-    "branch": [
-      "%+BWChttrNMn06vQTf87FTVfWta3OUylcDf/BxW/hczA=.sha256"
     ]
   },
-  "signature": "t4FWpZ3YZt9DgQPTSTJyookpD3hgINnflDUxz4E/ysHBAYEB+UKrZ/xrcEduMeqF7Rdm84CF9UQAyuSQqtoECg==.sig.ed25519"
+  "signature": "5rNj0uwUyorjPGZtnYEBDzJ52h8eNeARfGQF3Ehk/0uvAfeSvakV+578VmiIQbw4arWxrfzrBbxAu1YU+Oa6Aw==.sig.ed25519"
 }
