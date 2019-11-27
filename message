@@ -1,25 +1,26 @@
 {
-  "previous": "%NfgSwV0USwBdocGwAO5j4THW34TJ6OpPTCBKfihzoVs=.sha256",
-  "sequence": 13325,
+  "previous": "%XQ6O5q5ksIu+MA+yMaE7o2Qy53t5HI/F89y88EYcZFM=.sha256",
+  "sequence": 13326,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574872128560,
+  "timestamp": 1574873004145,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
-    "branch": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
+    "root": "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256",
+    "branch": "%4RY9WshLBjOPYxok6SSscE2tbFLxlQ7posPkMBGjq4k=.sha256",
     "reply": {
-      "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
+      "%4RY9WshLBjOPYxok6SSscE2tbFLxlQ7posPkMBGjq4k=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519"
     },
-    "channel": "manyverse",
+    "channel": null,
     "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nCongrats on the release! Excited to try this out.",
+    "text": "[@snailest](@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519) \n\nI'm doing the best I can. Electron made a big breaking change and gave us three options:\n\n- Ask users to `setuid` on the `chrome-sandbox` binary so that it runs as root.\n- Ask users to enable a kernel option via `sysctl`.\n- Add the `--no-sandbox` flag, which doesn't seem to be compatible with AppImage (or our build pipeline).\n\nThe best recommendation I've seen is something [like this](https://github.com/electron-userland/electron-builder/issues/4278), but it would add complexity *plus* I'm not sure that it'd even work with AppImage.\n\n> Please fix it in a new release. Thanks.\n\nDo you have any suggestions on how you'd like to see this fixed? I understand that it's inconvenient (trust me, [I'm the person who opened the original Electron issue](https://github.com/electron/electron/issues/17972)), but I don't see a way to resolve the problem.\n\nAside: it looks like [the `.deb` release can have `--no-sandbox` appended](https://github.com/electron-userland/electron-builder/pull/4364), but that doesn't work via AppImage (and I'm not even sure that disabling the sandbox is the right move).",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
+        "link": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
+        "name": "snailest"
       }
     ]
   },
-  "signature": "BoNJK4lzYBE3RUjeWouH2+eb6s6EJ0KdtvKtkCoCqi20kBTKKO/XSJENyPTCoHbFyGd1jMJ9ycGeCVnRwjGyDA==.sig.ed25519"
+  "signature": "XCXNC1EZNJe78OFM6/BWNE+oEWoek+wAWXTL0NlckCIOqLd7+GBT5aoXGVdBM1EWZ+iuamJmhjsANHeMcAVECg==.sig.ed25519"
 }
