@@ -1,26 +1,17 @@
 {
-  "previous": "%XQ6O5q5ksIu+MA+yMaE7o2Qy53t5HI/F89y88EYcZFM=.sha256",
-  "sequence": 13326,
+  "previous": "%slk7ESN+dFQziaX2CJr2tiEmfTRBFzTrxLTA9exL/BU=.sha256",
+  "sequence": 13327,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574873004145,
+  "timestamp": 1574873081330,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256",
-    "branch": "%4RY9WshLBjOPYxok6SSscE2tbFLxlQ7posPkMBGjq4k=.sha256",
-    "reply": {
-      "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
-      "%4RY9WshLBjOPYxok6SSscE2tbFLxlQ7posPkMBGjq4k=.sha256": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@snailest](@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519) \n\nI'm doing the best I can. Electron made a big breaking change and gave us three options:\n\n- Ask users to `setuid` on the `chrome-sandbox` binary so that it runs as root.\n- Ask users to enable a kernel option via `sysctl`.\n- Add the `--no-sandbox` flag, which doesn't seem to be compatible with AppImage (or our build pipeline).\n\nThe best recommendation I've seen is something [like this](https://github.com/electron-userland/electron-builder/issues/4278), but it would add complexity *plus* I'm not sure that it'd even work with AppImage.\n\n> Please fix it in a new release. Thanks.\n\nDo you have any suggestions on how you'd like to see this fixed? I understand that it's inconvenient (trust me, [I'm the person who opened the original Electron issue](https://github.com/electron/electron/issues/17972)), but I don't see a way to resolve the problem.\n\nAside: it looks like [the `.deb` release can have `--no-sandbox` appended](https://github.com/electron-userland/electron-builder/pull/4364), but that doesn't work via AppImage (and I'm not even sure that disabling the sandbox is the right move).",
-    "mentions": [
-      {
-        "link": "@adhP5Hfd/Ir3ToqbK3stvgwH7zPntZcFqmzQ6Dvbm9E=.ed25519",
-        "name": "snailest"
-      }
-    ]
+    "type": "vote",
+    "channel": "birthdays",
+    "vote": {
+      "link": "%v+AOHxrW5ctxBQSFFaBF3JuMRG/D5xIQtWsPL72B4rw=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "XCXNC1EZNJe78OFM6/BWNE+oEWoek+wAWXTL0NlckCIOqLd7+GBT5aoXGVdBM1EWZ+iuamJmhjsANHeMcAVECg==.sig.ed25519"
+  "signature": "saFA2OScdu4SZrEs0Ugm5UIGDJjEKRx5zHvDI4ARyM/Z6CsH8Vd0KGXY2Tg5XA6e+wuxhtH3bY4bntyNukjgBQ==.sig.ed25519"
 }
