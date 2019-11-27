@@ -1,17 +1,26 @@
 {
-  "previous": "%slk7ESN+dFQziaX2CJr2tiEmfTRBFzTrxLTA9exL/BU=.sha256",
-  "sequence": 13327,
+  "previous": "%Pgb8ZhFCmC7m3M/VFNnt0cWSeM+Y61Y88NBQ2hpFx4M=.sha256",
+  "sequence": 13328,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574873081330,
+  "timestamp": 1574873129579,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%v+AOHxrW5ctxBQSFFaBF3JuMRG/D5xIQtWsPL72B4rw=.sha256",
+    "branch": "%ZNh31O/WhsmN09cy6ohRuxKOqEPM7PNRXoRH3TBt5ZQ=.sha256",
+    "reply": {
+      "%v+AOHxrW5ctxBQSFFaBF3JuMRG/D5xIQtWsPL72B4rw=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+      "%QDxK4cJ66JdstblbIsN2twnoZqxD7xOA2Qg9RUUhUWI=.sha256": "@eANNuLfzX/9rlGODXHYV8WJb+zw2h+d7YsT4vpYPvD0=.ed25519"
+    },
     "channel": "birthdays",
-    "vote": {
-      "link": "%v+AOHxrW5ctxBQSFFaBF3JuMRG/D5xIQtWsPL72B4rw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nHappy birthday!!! Looking forward to pinkified-hair pics!\n\n🍰 🎂 🍰 🎂 ",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      }
+    ]
   },
-  "signature": "saFA2OScdu4SZrEs0Ugm5UIGDJjEKRx5zHvDI4ARyM/Z6CsH8Vd0KGXY2Tg5XA6e+wuxhtH3bY4bntyNukjgBQ==.sig.ed25519"
+  "signature": "HPT3MuZM/MDGyQm98R7/bXdVEXHJGwkevRdbh19Gjydk+I0AbtaRcCsrVDwPxQP3jZ/ibGROcQCU3FWiW7/lBQ==.sig.ed25519"
 }
