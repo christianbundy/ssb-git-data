@@ -1,17 +1,25 @@
 {
-  "previous": "%Nq6Mra81oe4sBITCgV1Kfkc15sQVUvjrYw5D89gMOPs=.sha256",
-  "sequence": 13324,
+  "previous": "%NfgSwV0USwBdocGwAO5j4THW34TJ6OpPTCBKfihzoVs=.sha256",
+  "sequence": 13325,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574872114297,
+  "timestamp": 1574872128560,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
+    "branch": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
+    "reply": {
+      "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
     "channel": "manyverse",
-    "vote": {
-      "link": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nCongrats on the release! Excited to try this out.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "bG4C4MD1GPOzJuVtpJF1gQl9BWIbtarqdoufha8Fly4IYKXonvVc3KQHqTlzmOpQz58C6W/z7om86Iza5JfzCQ==.sig.ed25519"
+  "signature": "BoNJK4lzYBE3RUjeWouH2+eb6s6EJ0KdtvKtkCoCqi20kBTKKO/XSJENyPTCoHbFyGd1jMJ9ycGeCVnRwjGyDA==.sig.ed25519"
 }
