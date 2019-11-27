@@ -1,26 +1,17 @@
 {
-  "previous": "%Iuvr1q0bPVMlG71go7cKPvP82ZltGee8sdQpkDk9vwE=.sha256",
-  "sequence": 13323,
+  "previous": "%Nq6Mra81oe4sBITCgV1Kfkc15sQVUvjrYw5D89gMOPs=.sha256",
+  "sequence": 13324,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574871278472,
+  "timestamp": 1574872114297,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%W74kPF3KlZy9fwVUNC6TY2oSWaYao7jbzs1gzgaMSGA=.sha256",
-    "branch": "%jBnJIIwWk0cIi+bBDnapCVzCHKH2159GRdW/iq3q5qw=.sha256",
-    "reply": {
-      "%W74kPF3KlZy9fwVUNC6TY2oSWaYao7jbzs1gzgaMSGA=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-      "%jBnJIIwWk0cIi+bBDnapCVzCHKH2159GRdW/iq3q5qw=.sha256": "@1U65GGx/QOUu6sVSgx8FeGDAZWUeNKSYBvrv8FXXINY=.ed25519"
-    },
-    "channel": "scuttlebutt",
-    "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nThanks for putting this together! As you mentioned, I think that lots of these dependencies happen at run-time, but I'd be extra curious about which dependencies are required during `init()` (because that's when you'll have race conditions that determine plugin load order). Did you come up with any fun tricks to find this, or did you manually go through all the modules?",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ]
+    "type": "vote",
+    "channel": "manyverse",
+    "vote": {
+      "link": "%OJTtHbbHqlL4315DUcoQzj10XfOZ8fUQph1utQG003E=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "5rNj0uwUyorjPGZtnYEBDzJ52h8eNeARfGQF3Ehk/0uvAfeSvakV+578VmiIQbw4arWxrfzrBbxAu1YU+Oa6Aw==.sig.ed25519"
+  "signature": "bG4C4MD1GPOzJuVtpJF1gQl9BWIbtarqdoufha8Fly4IYKXonvVc3KQHqTlzmOpQz58C6W/z7om86Iza5JfzCQ==.sig.ed25519"
 }
