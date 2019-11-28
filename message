@@ -1,22 +1,18 @@
 {
-  "previous": "%Z20OIjEx/3L758bVv2hflc1zB/h0sLLHDYlze3/Sqok=.sha256",
-  "sequence": 13335,
+  "previous": "%gveD+fkZrxsiyNgH99ba0cfQkNWYVREhj+3Sc0WBTkw=.sha256",
+  "sequence": 13336,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574917162417,
+  "timestamp": 1574917218588,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI think it's very important to point out that that solution is specific to `.deb` releases, so I don't think it works with our AppImage deployment. I *also* want to ensure that `.deb` and Snapcraft releases work, but since AppImage has been the main target for such a long time I think that's my main priority when it comes to the fix.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ],
-    "root": "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%V++gigmCD0VvRA6eo/FDiKZQ+FWuWnj2FYkTPDGJOec=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%wXuTuf8NX2ZhEEMeXv1gFof6Kv14qmTZtaitMsKSNyc=.sha256"
+      "%V++gigmCD0VvRA6eo/FDiKZQ+FWuWnj2FYkTPDGJOec=.sha256"
     ]
   },
-  "signature": "4PJOTV+BeUZ91q5Gl1KWqUp/+R8XV1HCmX5T+IoO9qlwpNNY3kuoMKuzD6LhcTZz8eAm8WWF+HfDgPVBNWwVCw==.sig.ed25519"
+  "signature": "ApXbbwLrzrvD1m09qQw/xQEkAx7vDM3lajjm2jzJ33A5Sl4VTY1B7EqnBBE6BHOBhqHxf6gPwXgi/KX189FLDA==.sig.ed25519"
 }
