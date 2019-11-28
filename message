@@ -1,22 +1,22 @@
 {
-  "previous": "%2W0z4LXv7guTd7s04tAaNFwDMpgbpHYbNWTLTa+MYLg=.sha256",
-  "sequence": 13334,
+  "previous": "%Z20OIjEx/3L758bVv2hflc1zB/h0sLLHDYlze3/Sqok=.sha256",
+  "sequence": 13335,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1574878453928,
+  "timestamp": 1574917162417,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nAwesome, I'll look around and see if I can find a similar way to test for init dependencies. I think I've linked you this before, but right now I'm loading ssb-db, ssb-replicate, and then [everything else](https://github.com/fraction/flotilla/blob/ed5e7d6d4197fcc08743ae30ee5dc797123c096e/index.js#L5-L29), in a random order to try to identify incompatibilities where they exist.",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI think it's very important to point out that that solution is specific to `.deb` releases, so I don't think it works with our AppImage deployment. I *also* want to ensure that `.deb` and Snapcraft releases work, but since AppImage has been the main target for such a long time I think that's my main priority when it comes to the fix.",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
       }
     ],
-    "root": "%W74kPF3KlZy9fwVUNC6TY2oSWaYao7jbzs1gzgaMSGA=.sha256",
+    "root": "%PV0VxwCUvFWAo+JdroShEwgRTIj14FRK7Q7KEIBDp+8=.sha256",
     "branch": [
-      "%fbuNfvPEDyws1SzOPOcZeFZ0ustDqslhgzAEDPDRl20=.sha256"
+      "%wXuTuf8NX2ZhEEMeXv1gFof6Kv14qmTZtaitMsKSNyc=.sha256"
     ]
   },
-  "signature": "fiV6P+DfMOl6LZBJO4ykXslepz8OuBr44LEvcodKZqmWV6lM8N4KmhoMRX+r88K181kglsHP0N3ffi7VURf4Bw==.sig.ed25519"
+  "signature": "4PJOTV+BeUZ91q5Gl1KWqUp/+R8XV1HCmX5T+IoO9qlwpNNY3kuoMKuzD6LhcTZz8eAm8WWF+HfDgPVBNWwVCw==.sig.ed25519"
 }
