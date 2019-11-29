@@ -1,18 +1,41 @@
 {
-  "previous": "%onWjFpF17mpVsTsWjTvZKsDMTfG+Lk7J/DACm/+NhnA=.sha256",
-  "sequence": 13345,
+  "previous": "%kqkteP4FxYvzQ076jfxVfc3G7rrUtlTkrKZkHWq5SEY=.sha256",
+  "sequence": 13346,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575004658217,
+  "timestamp": 1575006543492,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rFKrXs+7Us2jcECdunYk2GaOVc5CLciqLPb31RUiIUk=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%O+4OB9VzKxZqOv92pLsv+n0GPp+L/4R2Y9yJ1rpddcw=.sha256"
+    "type": "post",
+    "text": "Has anyone else integrated with muxrpc-usage (the `help()` methods)? I'd like to improve the ergonomics but would love more experienced eyeballs on the problem since it affects everyone learning secret-stack / muxrpc.\r\n\r\nhttps://github.com/ssbc/secret-stack/issues/49\r\n\r\ncc: [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n#ssbc",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "name": "keks"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "#ssbc"
+      }
     ]
   },
-  "signature": "KZ3ApHtGnnBW04HfSdl++8xi/VLW4UiVUxLIBQNRLsPudNw+dYtKoIE0thRZYx9JVdXfHUNZlobwt5DNChm2BQ==.sig.ed25519"
+  "signature": "e7wPrAln60Uu74JB3muvt9MfsbC8AezuY43MOQ4NggM7d5DZxqMeeOteRe6E3muuquNc/xLi0Lfeq5PQJVSrDw==.sig.ed25519"
 }
