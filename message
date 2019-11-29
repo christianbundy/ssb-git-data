@@ -1,26 +1,38 @@
 {
-  "previous": "%A3ac28J3knv7IixOugKjqUkhBdXwU7kprabJ43TK4ko=.sha256",
-  "sequence": 13352,
+  "previous": "%U1oYXCq56eNu1pw9q5hF36fcAvMp7fm80jIOYIp0nmo=.sha256",
+  "sequence": 13353,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575049496801,
+  "timestamp": 1575057021261,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256",
-    "branch": "%U40vClm8RJ2Wya9s+mZVquIuv7bD0K3q0pibcT8wGBY=.sha256",
+    "root": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
+    "branch": "%SPMp3KQiKKxQIrCd9RD3AH0ay9M0jBhj1+SPUl2pDr4=.sha256",
     "reply": {
-      "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-      "%U40vClm8RJ2Wya9s+mZVquIuv7bD0K3q0pibcT8wGBY=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
+      "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+      "%SPMp3KQiKKxQIrCd9RD3AH0ay9M0jBhj1+SPUl2pDr4=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519"
     },
-    "channel": "patchbay",
+    "channel": null,
     "recps": null,
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nConfirmed, when I open that feed in Patchbay the app freezes. Can't reproduce in other clients. 🤔 \n\nHere's the `base.html` diff compared to Patchwork, maybe there's an infinite loop here?\n\n```diff\n- console.error(e.error.stack || 'Uncaught ' + e.error)\n+ if (e.error && e.error.stack) console.error(e.error.stack)\n+ else if (e.error) console.error('Uncaught ' + e.error)\n+ else console.error(e) // e.g. some ResizeObserver errors have e.error = null !\n```",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nIt runs! I can click between the pages on the bottom navigation bar and even open the message compose view.\n\n![Screenshot of Sunrise Social home page](&ZfkbK7fDlNHCFBg7Hyxi4h6GoSue+eiXJCWELNX/7/I=.sha256)\n\n![Screenshot of Sunrise Social message compose view](&aJn/2HqeMiTIyKhBARrL0mYOnyA8OddH/8DhrSpUr0o=.sha256)\n\nAnything else I should try out? Awesome that it's running. I'm using [`app-universal-release.apk`](https://github.com/sunrise-choir/sunrise-social-android-app/releases/download/0.0.1.pre.1/app-universal-release.apk), if that's useful or relevant to anyone.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      },
+      {
+        "link": "&ZfkbK7fDlNHCFBg7Hyxi4h6GoSue+eiXJCWELNX/7/I=.sha256",
+        "name": "Screenshot of Sunrise Social home page",
+        "type": "image/png",
+        "size": 48139
+      },
+      {
+        "link": "&aJn/2HqeMiTIyKhBARrL0mYOnyA8OddH/8DhrSpUr0o=.sha256",
+        "name": "Screenshot of Sunrise Social message compose view",
+        "type": "image/png",
+        "size": 48278
       }
     ]
   },
-  "signature": "psy52S1pc7tmleq69Y3teN1uM4n19H5P33vWIKAGor9Jb+jECXTbdwTAjdAWx4iTHePLnRX359suv9t9UAAnCQ==.sig.ed25519"
+  "signature": "IIWLf+ZUqbQA/0Kwj0OVCYOEKX8j4QY89mTE2x8guV7rcg9UrVItqmx1CA5VVYpaJ8hLmY4q77PbYasR0kaPAg==.sig.ed25519"
 }
