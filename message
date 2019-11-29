@@ -1,30 +1,16 @@
 {
-  "previous": "%B4aJH8r67aIanlnuo58PYDqkHRTRd9bq27Se1Ig2eYw=.sha256",
-  "sequence": 13349,
+  "previous": "%N7XmMeLu3EaTcGI1ORTdMrgkCAhe3+9sz76TR0zYYqk=.sha256",
+  "sequence": 13350,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575044915451,
+  "timestamp": 1575049120197,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%puiicE1aowP2GLCVQGt7hCfghRpXL8BMZ2wy2YeBGDk=.sha256",
-    "branch": [
-      "%4/got7tfaukAFx/jyVnORE8rZh2m5dR8d1Bnw1O+tR8=.sha256",
-      "%8sk5jRf6asXml1uNukW+DX0CRrMqAckk9vVvv36ImKQ=.sha256",
-      "%pdADrzO5Y8yLGRNMn3S+GGlA9kG0EabVRK2IQrXJ6Og=.sha256"
-    ],
-    "reply": {
-      "%puiicE1aowP2GLCVQGt7hCfghRpXL8BMZ2wy2YeBGDk=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-      "%8sk5jRf6asXml1uNukW+DX0CRrMqAckk9vVvv36ImKQ=.sha256": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@SoapDog (SPX/win32)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) \n\nI thought that this was fixed when my SSB-Config pull request was merged, maybe there's a new problem that just cropped up? If you're having a problem specifically on Windows, and it happened very recently, it's possible [this PR](https://github.com/ssbc/multiserver/pull/57) is related?\n\nReally though, we're just treating symptoms until [multiserver#49](https://github.com/ssbc/multiserver/pull/49) is merged. Once that happens then multiserver should support `::` without any hacks or workarounds.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX/win32)"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "9Xl7Y5z5aqqVjUN2WjLFzcBcRY8bChw0coNsuDvWJW0zH4RVL3o2xZoNmXRqhO0YlRQL6gct2gP66Jdr4DhbCg==.sig.ed25519"
+  "signature": "8kMnB/qbvDr7sya2PYE8sfGAObxSJPd7CQ5pT0vW5HcioAbupDK3sK1NTjc95WtY5C8udgzxt8bSAYS5j5HVBA==.sig.ed25519"
 }
