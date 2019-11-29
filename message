@@ -1,41 +1,26 @@
 {
-  "previous": "%kqkteP4FxYvzQ076jfxVfc3G7rrUtlTkrKZkHWq5SEY=.sha256",
-  "sequence": 13346,
+  "previous": "%y7mGwf1fbvgrVgpzJwwGILBQ4zS1gW+YUhmO3MHvHHc=.sha256",
+  "sequence": 13347,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575006543492,
+  "timestamp": 1575043825511,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Has anyone else integrated with muxrpc-usage (the `help()` methods)? I'd like to improve the ergonomics but would love more experienced eyeballs on the problem since it affects everyone learning secret-stack / muxrpc.\r\n\r\nhttps://github.com/ssbc/secret-stack/issues/49\r\n\r\ncc: [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@keks](@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n#ssbc",
+    "root": "%ZPb0ThWt3d8u4l0W9QCXSf2Xg53jXDBnXFxOr5idylc=.sha256",
+    "branch": "%hmC73VjXj4uzhmZAbHcdKGLRSkWBKjQPHgklsPoysyU=.sha256",
+    "reply": {
+      "%ZPb0ThWt3d8u4l0W9QCXSf2Xg53jXDBnXFxOr5idylc=.sha256": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+      "%hmC73VjXj4uzhmZAbHcdKGLRSkWBKjQPHgklsPoysyU=.sha256": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519"
+    },
+    "channel": "ssb-learning",
+    "recps": null,
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519) \n\n> how does patchwork get the list of public peers?\n\nWhen you redeem a pub invite you post a message to your profile saying \"I'm following a pub, its address is X\", so any time someone uses a pub invite it shares the pub's address with the rest of the network.",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
-        "name": "keks"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      },
-      {
-        "link": "#ssbc"
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
       }
     ]
   },
-  "signature": "e7wPrAln60Uu74JB3muvt9MfsbC8AezuY43MOQ4NggM7d5DZxqMeeOteRe6E3muuquNc/xLi0Lfeq5PQJVSrDw==.sig.ed25519"
+  "signature": "Ot4zybo8kDjISsBhskvtUWoTnxaylt7efrig3US8r3m3Wn/hHAcLX5jo4RpTY3JxVfdqlA7h+9Y7F8ZTaghqCA==.sig.ed25519"
 }
