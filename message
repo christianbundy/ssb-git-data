@@ -1,16 +1,26 @@
 {
-  "previous": "%N7XmMeLu3EaTcGI1ORTdMrgkCAhe3+9sz76TR0zYYqk=.sha256",
-  "sequence": 13350,
+  "previous": "%NJJuic0BEYxAImY8oRvSaY1ButX3E2ZMRPn3n4MQ34c=.sha256",
+  "sequence": 13351,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575049120197,
+  "timestamp": 1575049144529,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
+    "branch": "%9FotNP+3abWshAI4W5W/mCrgB+0+HaCIgsLV0DylX8U=.sha256",
+    "reply": {
+      "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+      "%9FotNP+3abWshAI4W5W/mCrgB+0+HaCIgsLV0DylX8U=.sha256": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\n\nSo cool, congrats on the prerelease! I'm going to try installing this today.",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
+      }
+    ]
   },
-  "signature": "8kMnB/qbvDr7sya2PYE8sfGAObxSJPd7CQ5pT0vW5HcioAbupDK3sK1NTjc95WtY5C8udgzxt8bSAYS5j5HVBA==.sig.ed25519"
+  "signature": "eGOxVcsLe7j2eJ+iRxzfrR26Xq33Uud/CRgr71bglh14Glk0DNyWfvvEbYLevjTSO7/ZQ6x0XDYBUYddWKC/Aw==.sig.ed25519"
 }
