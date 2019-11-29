@@ -1,38 +1,26 @@
 {
-  "previous": "%U1oYXCq56eNu1pw9q5hF36fcAvMp7fm80jIOYIp0nmo=.sha256",
-  "sequence": 13353,
+  "previous": "%JFtrGli32q1Xm+kTT87G5bdfvbdCQ2Lgyx6+7yA1Uoo=.sha256",
+  "sequence": 13354,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575057021261,
+  "timestamp": 1575057207102,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
-    "branch": "%SPMp3KQiKKxQIrCd9RD3AH0ay9M0jBhj1+SPUl2pDr4=.sha256",
+    "root": "%JFtrGli32q1Xm+kTT87G5bdfvbdCQ2Lgyx6+7yA1Uoo=.sha256",
+    "fork": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
+    "branch": "%JFtrGli32q1Xm+kTT87G5bdfvbdCQ2Lgyx6+7yA1Uoo=.sha256",
     "reply": {
-      "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-      "%SPMp3KQiKKxQIrCd9RD3AH0ay9M0jBhj1+SPUl2pDr4=.sha256": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519"
+      "%JFtrGli32q1Xm+kTT87G5bdfvbdCQ2Lgyx6+7yA1Uoo=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nIt runs! I can click between the pages on the bottom navigation bar and even open the message compose view.\n\n![Screenshot of Sunrise Social home page](&ZfkbK7fDlNHCFBg7Hyxi4h6GoSue+eiXJCWELNX/7/I=.sha256)\n\n![Screenshot of Sunrise Social message compose view](&aJn/2HqeMiTIyKhBARrL0mYOnyA8OddH/8DhrSpUr0o=.sha256)\n\nAnything else I should try out? Awesome that it's running. I'm using [`app-universal-release.apk`](https://github.com/sunrise-choir/sunrise-social-android-app/releases/download/0.0.1.pre.1/app-universal-release.apk), if that's useful or relevant to anyone.",
+    "text": "[@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) \n\nI think I can also see my identity locally in Patchwork (!). I don't think that I can publish anything from the app yet (can't reach any submit button), but it's cool to see the local broadcast working.",
     "mentions": [
       {
         "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
         "name": "piet"
-      },
-      {
-        "link": "&ZfkbK7fDlNHCFBg7Hyxi4h6GoSue+eiXJCWELNX/7/I=.sha256",
-        "name": "Screenshot of Sunrise Social home page",
-        "type": "image/png",
-        "size": 48139
-      },
-      {
-        "link": "&aJn/2HqeMiTIyKhBARrL0mYOnyA8OddH/8DhrSpUr0o=.sha256",
-        "name": "Screenshot of Sunrise Social message compose view",
-        "type": "image/png",
-        "size": 48278
       }
     ]
   },
-  "signature": "IIWLf+ZUqbQA/0Kwj0OVCYOEKX8j4QY89mTE2x8guV7rcg9UrVItqmx1CA5VVYpaJ8hLmY4q77PbYasR0kaPAg==.sig.ed25519"
+  "signature": "GAuK6UnH7qJeB340ENKwRbmcuHCwdsVukDtNLfEcmttvXwNjj8bpaEl641cH9Utv5UuedVt9x1VGNi3/dUclCg==.sig.ed25519"
 }
