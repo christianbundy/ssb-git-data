@@ -1,23 +1,22 @@
 {
-  "previous": "%F8IF3d3g+HSRwJDALQ0sZyRDZNWUyDH8Mg4aLoLMnrs=.sha256",
-  "sequence": 13365,
+  "previous": "%Ch6EEKFhtu8EaAM0gAujCRwJhzLbawqGxaa7SNPSFCA=.sha256",
+  "sequence": 13366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575064580767,
+  "timestamp": 1575072943007,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@flpvsk](@RP01FOdcs/QABLmMxTGe1U9myUfSLN/5ItlXQcp7oWQ=.ed25519)\r\n\r\nDoes that change at all if you swipe from the left side of the screen? I had to read the readme to learn about it, but it lets you edit your profile and, more importantly, connect to local peers.",
+    "text": "[@Futurist](@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519)\r\n\r\n> I’m running a few pubs and am worried about mirroring illegal content and so am interested in finding or building a tool that allows you to view all blobs on the server and delete / block illegal content as well as whoever is sharing it.\r\n\r\nTotally, I have the same use-case, it's just that I haven't been able to find a good way to show all of the data. My first implementation just showed all of the blobs on one HTML page with an `<img>` element pointing to each of them, but that takes forever a few seconds to load and doesn't show non-image blobs.\r\n\r\nI think we need some way to display / filter the blobs better, but I couldn't think of any good filters that would show the blobs I'd like to see. Maybe:\r\n\r\n- Blobs only referenced by one feed?\r\n- Biggest blobs?\r\n- Blobs referenced by no feeds (your own blobs + [sympathy blobs](https://github.com/ssbc/ssb-blobs/issues/23)\r\n\r\nContent rating would be goo, and I'd imagine that collaboratively we could label / annotate a *ton* of blobs.",
     "mentions": [
       {
-        "link": "@RP01FOdcs/QABLmMxTGe1U9myUfSLN/5ItlXQcp7oWQ=.ed25519",
-        "name": "flpvsk"
+        "link": "@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519",
+        "name": "Futurist"
       }
     ],
-    "root": "%H/ghsQqTjN8DvEWfi+HQs3DD05AeDcjz/luJ1qHPtEs=.sha256",
-    "fork": "%6Iotjcb2cJQQ+Iu+HwzTPr2QrxGLIWkl6c+1zRO4zsc=.sha256",
+    "root": "%BdEMnP9I5ugbcGWEMzu4t1G5lpdk63Vq5taTY7z5bPE=.sha256",
     "branch": [
-      "%H/ghsQqTjN8DvEWfi+HQs3DD05AeDcjz/luJ1qHPtEs=.sha256"
+      "%sElX1zAY25/twC01ou0OGvzMcb2Y4qfimRTHUDfgTE0=.sha256"
     ]
   },
-  "signature": "yRMtKFQ6Wlx/3OUTOpy+lsHYpJYbQwJ6L9tp/GqTwWGJTUVM+CkLgEKiAV0o01Tem5CWWnu2IkFpBi57YGLEAA==.sig.ed25519"
+  "signature": "XtA6l/hHWvg+0vqnxMLXCpsyU/CzSzU74TZlwBwCoN7EM1AHIdQJXE7f1izA2jvp0nOhp/YQmNPQl2FpvGShDQ==.sig.ed25519"
 }
