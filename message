@@ -1,22 +1,18 @@
 {
-  "previous": "%tCDp4i00t90SdFVeKDP978S7IdMnOLc+gAPozNlhSYQ=.sha256",
-  "sequence": 13380,
+  "previous": "%h+5A+XV4+U4GNYjNAhIXsChnmOIw0f+NYw3AVD+vCQk=.sha256",
+  "sequence": 13381,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575088761695,
+  "timestamp": 1575127659561,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nMajor version bump was from [this PR](https://github.com/ssbc/ssb-markdown/pull/37) where we normalize emoji, I don't think it should be causing problems but maybe there's something else? My hunch is the Electron version.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%OYH5nu6y2h+qoXv+iass8k0n1JyTcDYatH9ZFm+sNPQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fkj5cBUBihZb8Y+0CZTNFXMN/erE+IchijpKiDSkqfU=.sha256"
+      "%OYH5nu6y2h+qoXv+iass8k0n1JyTcDYatH9ZFm+sNPQ=.sha256"
     ]
   },
-  "signature": "oyuQTZeTX9vocTO35kui5R1oUBEFwcrPQ7MKiWEBvI93i3vL0vvzzLooxh1FAGGkv4VT/LUdSGEn2IEg1oqSCg==.sig.ed25519"
+  "signature": "9pvauyYPecXCC2eKbw6tC2PV+5m5NRrSuTN7/MrsJnbpjBzoxt/9PhT6TfRaEDAFcynMtMgR4q1TYef5UmPSAw==.sig.ed25519"
 }
