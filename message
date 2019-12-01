@@ -1,18 +1,22 @@
 {
-  "previous": "%LW/geuW+45+1u8prEriZ+c494eHWNVV6SAbPCGEdaqQ=.sha256",
-  "sequence": 13386,
+  "previous": "%sFig1iQB5SSZlNPfvBZd7N2X6rzy9nwaSeCgt9wN/4Y=.sha256",
+  "sequence": 13387,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575145393606,
+  "timestamp": 1575223898697,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XC7mrgD36RNSXvfDvy+A1exOUSqjUJDIqniRtN4Augk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nYeah, I think the two things you'll need to change:\r\n\r\nCreate a file at `~/.ssb/config` with the contents:\r\n\r\n```json\r\n{\r\n  \"friends\": {\r\n    \"hops\": 1\r\n  },\r\n  \"blobs\": {\r\n    \"sympathy\": 0\r\n  }\r\n}\r\n```\r\n\r\nThe `friends.blobs` property means that you only download and replicate the content from people that you directly follow. I like to set my hops to `2` so that I replicate friends of friends, but it's a personal preference thing. More info about the default config is available [here](https://github.com/ssbc/ssb-config#configuration.\r\n\r\nThe `blobs.sympathy` option keeps you from downloading [unknown blobs](https://github.com/ssbc/ssb-blobs/issues/23) from network peers. By default, if a network peer asks you for a blob and you don't have it, you'll ask other network peers for that blob, but unfortunately this means that any network peer can make you download a blob just by telling you that they want it. This is useful for encrypted blobs sent via private messages, because people who can't see the decrypted reference to the encrypted blob aren't aware that the blob exists, but since all of the major pubs are using `blobs.sympathy = 3` it won't hurt replication if everyone's personal devices disable sympathy.",
+    "mentions": [
+      {
+        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
+        "name": "jackyalcine"
+      }
+    ],
+    "root": "%jhqkPVDa6yBZvc3tcwU3aMwmEqYfku3AsLXgckoNmgI=.sha256",
     "branch": [
-      "%XC7mrgD36RNSXvfDvy+A1exOUSqjUJDIqniRtN4Augk=.sha256"
+      "%jhqkPVDa6yBZvc3tcwU3aMwmEqYfku3AsLXgckoNmgI=.sha256"
     ]
   },
-  "signature": "MPgbzGTRPAwxBmWymZDtp3wLyJPKACFKClAyGLhOeeeoVsb1mzepCl6CivxHJac9ARY4vHzoNgEL6M4Fh7bfDA==.sig.ed25519"
+  "signature": "9ZWYywe7/1LGme2UxKk8UG63QUPsIq+YYLarltL892SEfMmIXMxcgPqTtvCtNQyBanBCXpNPM5u6Jo4XEDL9BA==.sig.ed25519"
 }
