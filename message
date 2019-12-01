@@ -1,21 +1,23 @@
 {
-  "previous": "%+mjY01tKLqyKgSqsekSzbzh7UXlVTGXGt81Pyv0E63c=.sha256",
+  "previous": "%1aR979JHiNk1b17szUdt8dUWNwYqTu6NMHLrNqXIP/k=.sha256",
+  "sequence": 13395,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "sequence": 13394,
-  "timestamp": 1575242837381,
+  "timestamp": 1575243476877,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256",
-    "branch": "%+mjY01tKLqyKgSqsekSzbzh7UXlVTGXGt81Pyv0E63c=.sha256",
-    "channel": "patchbay",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) \n\nGot a fix for you! It's a bit hacky and it only treats the symptom, but this needs to be added to the top of the error event handler in **both Patchwork and ssb-ahoy**:\n\n```diff\ndiff --git a/electron/assets/base.html b/electron/assets/base.html\nindex e4858b8..284d0aa 100644\n--- a/electron/assets/base.html\n+++ b/electron/assets/base.html\n@@ -24,6 +24,12 @@\n       // redirect errors to stderr\n       window.addEventListener('error', function (e) {\n         e.preventDefault()\n+\n+        // HACK: Fix for ResizeObserver freeze / crash.\n+        if (ev.message && ev.message.startsWith('ResizeObserver')) {\n+          return\n+        }\n+\n         if (e.error && e.error.stack) console.error(e.error.stack)\n         else if (e.error) console.error('Uncaught ' + e.error)\n         else console.error(e) // e.g. some ResizeObserver errors have e.error = null !\n```\n\n```diff\ndiff --git a/app/sync/initialise/error-catcher.js b/app/sync/initialise/error-catcher.js\nindex c0af20f..2745d17 100644\n--- a/app/sync/initialise/error-catcher.js\n+++ b/app/sync/initialise/error-catcher.js\n@@ -15,6 +15,11 @@ exports.create = function (api) {\n \n     var { container: errorPage, addError } = api.router.sync.router('/errors')\n     window.addEventListener('error', ev => {\n+      // HACK: Fix for ResizeObserver errors that are probably benign.\n+      if (ev.message && ev.message.startsWith('ResizeObserver')) {\n+        return\n+      }\n+\n       if (!tabs.has('/errors')) tabs.add(errorPage, true)\n \n       addError(ev.error || ev)\n```",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nShameless plug for the [Oasis \"meta\" page](https://oasis-demo.fraction.io/meta) getting indexing info from Patchwork/etc, plus an almost-fully-functional client. 😬",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
       }
+    ],
+    "root": "%vQGNlbKO0GoQzYYueC7FNiJsC2ojllxACkZbG3N9+S8=.sha256",
+    "fork": "%GbVmq3jLZd4nw7PcuPUh1/GEIkxZKsOpmT9svWw3KsI=.sha256",
+    "branch": [
+      "%u7txAS6z2OGC+Meoc0VZoYzD67dliT1zcjWrOOXJ0AM=.sha256"
     ]
   },
-  "signature": "Q27EU3LBx8s7NX7MzeGyU3yBoWt7V5Aif/n2t6g0Xs3n736jRQjD1rS47I8UTsDmHXaq5v58R3XfTFnq+znhBg==.sig.ed25519"
+  "signature": "gGSJITt9NxcVbJJJB3TZBfqW4sjykERjhC0x7EN9HxhmNYNkPwD9yEqivqCAHe0NPL4Bln4mailinqFq6WLfBQ==.sig.ed25519"
 }
