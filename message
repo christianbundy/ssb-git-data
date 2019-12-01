@@ -1,22 +1,23 @@
 {
-  "previous": "%sFig1iQB5SSZlNPfvBZd7N2X6rzy9nwaSeCgt9wN/4Y=.sha256",
-  "sequence": 13387,
+  "previous": "%y/XshKM65breacMT6IjCmu7upsjs65BGdKKBVTe6PLw=.sha256",
+  "sequence": 13388,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575223898697,
+  "timestamp": 1575224677687,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nYeah, I think the two things you'll need to change:\r\n\r\nCreate a file at `~/.ssb/config` with the contents:\r\n\r\n```json\r\n{\r\n  \"friends\": {\r\n    \"hops\": 1\r\n  },\r\n  \"blobs\": {\r\n    \"sympathy\": 0\r\n  }\r\n}\r\n```\r\n\r\nThe `friends.blobs` property means that you only download and replicate the content from people that you directly follow. I like to set my hops to `2` so that I replicate friends of friends, but it's a personal preference thing. More info about the default config is available [here](https://github.com/ssbc/ssb-config#configuration.\r\n\r\nThe `blobs.sympathy` option keeps you from downloading [unknown blobs](https://github.com/ssbc/ssb-blobs/issues/23) from network peers. By default, if a network peer asks you for a blob and you don't have it, you'll ask other network peers for that blob, but unfortunately this means that any network peer can make you download a blob just by telling you that they want it. This is useful for encrypted blobs sent via private messages, because people who can't see the decrypted reference to the encrypted blob aren't aware that the blob exists, but since all of the major pubs are using `blobs.sympathy = 3` it won't hurt replication if everyone's personal devices disable sympathy.",
+    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nActually I did the math and I'm pretty sure I joined SSB before I was doing search and rescue stuff. Maybe it was when I was interested in municipal mesh networks? Now I'm curious how I got started on SSB too...\r\n\r\n> I can only imagine how y’all handle setting up mesh networks out there.\r\n\r\nI think there's a bunch of opportunity there, but the group I was with just used VHF radios, relaying messages manually if groups couldn't reach each other *or* using an [inReach](https://en.wikipedia.org/wiki/Satellite_emergency_notification_device#inReach) if we really needed to chat with someone.\r\n\r\nYou might dig [disaster.radio](https://disaster.radio/), if you haven't already seen it.",
     "mentions": [
       {
         "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
         "name": "jackyalcine"
       }
     ],
-    "root": "%jhqkPVDa6yBZvc3tcwU3aMwmEqYfku3AsLXgckoNmgI=.sha256",
+    "root": "%vugq4QtJLV76Zbwf0HdiBumOUF+0rvpZBHoNGxVOYUE=.sha256",
+    "fork": "%DPBeVvYJiRZcjXFyI/es7GRh9l8MUv0lya0Hb2LqgTg=.sha256",
     "branch": [
-      "%jhqkPVDa6yBZvc3tcwU3aMwmEqYfku3AsLXgckoNmgI=.sha256"
+      "%vugq4QtJLV76Zbwf0HdiBumOUF+0rvpZBHoNGxVOYUE=.sha256"
     ]
   },
-  "signature": "9ZWYywe7/1LGme2UxKk8UG63QUPsIq+YYLarltL892SEfMmIXMxcgPqTtvCtNQyBanBCXpNPM5u6Jo4XEDL9BA==.sig.ed25519"
+  "signature": "ircPEJaK+WzbG2NL0yPnYuusvepf5s7hplZiEpdyxgZyShJYCNmjWWSD3VntCsAV0kwppp6dgxIRWNIwm3PPCw==.sig.ed25519"
 }
