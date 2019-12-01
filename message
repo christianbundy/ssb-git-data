@@ -1,22 +1,14 @@
 {
-  "previous": "%Ch3zrAkkdUeIx1IDLnnHFy2hDaV7QLSx7IkUU0a0hP0=.sha256",
-  "sequence": 13389,
+  "previous": "%+RWmvYnKIQWLEO3+sCsx5vSHqV5kt9ZSNQwl+4e1FZc=.sha256",
+  "sequence": 13390,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575239495087,
+  "timestamp": 1575239733950,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\n> how does that pub then “trust” then next client that didnt redeem the code?\r\n\r\nIf a random person reaches out to a pub for replication, the pub won't download any of their messages because they aren't within the [follow graph](https://ssbc.github.io/scuttlebutt-protocol-guide/#following). It's less about \"trust\" and more about \"interest\".\r\n\r\n> How do these other pubs “trust” my patchwork client?\r\n\r\nThey only download messages that they're interested in, so when you reach out to do replication each party only downloads messages from feeds that they want. If you're within their follow distance, they'll download your messages, but if you don't have any intersections in your social network then no messages will be transferred.",
-    "mentions": [
-      {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
-      }
-    ],
-    "root": "%ZPb0ThWt3d8u4l0W9QCXSf2Xg53jXDBnXFxOr5idylc=.sha256",
-    "branch": [
-      "%1PtT14zQvjJocSIpzq+E9g0Bqv+eLpvMvJQF73XFtTo=.sha256"
-    ]
+    "type": "contact",
+    "following": true,
+    "autofollow": true,
+    "contact": "@samhAxb0x+iykkzoUCsuEBQfFUuYQrVFyNBuMpibidc=.ed25519"
   },
-  "signature": "7ymCr1FtWT71rnlCkz87TX6f6l60vlu7nWptKZR7RGqzJq1Idkyqbl1N6ZV64gagp4c056Q8YVMhFMjxa4m5Cw==.sig.ed25519"
+  "signature": "u2Sl0x1sgH9c6YgYfrQNFjATYiMVV/wgLbwSK/f81xhIJJ29V298uIADd/v6iCgAnjG8DFSwEAxC/OcP57fEDQ==.sig.ed25519"
 }
