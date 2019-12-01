@@ -1,22 +1,33 @@
 {
-  "previous": "%vWoBYzMzJqPT+bXC7UqK4W+Lpqq7rLowH708n3xOuKU=.sha256",
-  "sequence": 13392,
+  "previous": "%YU3SDgk0VXQo0n8BiU7dz3VzYwdMyUn9dTscq/2Xzxk=.sha256",
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575239868457,
+  "sequence": 13393,
+  "timestamp": 1575242243082,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (PatchWork Linux)](@wQws/cZT5SqZH80efqrUYQQHyHwi99NyjZdvU+piI+k=.ed25519)\r\n\r\nI think you may need to downgrade your Node.js, I think I had to downgrade to nodejs-lts-dubnium.",
+    "root": "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256",
+    "branch": "%N9fBgRyQd9r4LvVJl3INtruugPdkgqOmJsscm9sQwLU=.sha256",
+    "channel": "patchbay",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI'm feeling much more confident that `base.html` is involved. I removed everything inside the `<script>` tag in that file, and now two things are happening:\n\n\nLots of errors:\n\n![Screenshot of errors page complaining about ResizeObserver errors](&2O6I6+OPHj6abMngck5KnQ6mMcYBgeiCyixVP06AoEo=.sha256)\n\nBut the video works fine! No app freezing.\n\n![Screenshot of trouble-making video working in Patchbay](&pN0/WyUnppEqh/ulbMs+bYaYDJK5sFNbn4aFJpvqR+M=.sha256)\n \nIf the ResizeObserver error is benign then we can probably write some code to keep it from opening the error tab, in which case the problem is \"solved\", but it's bothering me that there are specific posts that trigger the problem.\n\nIf I had to guess, my intuition is that the freeze has something to do with serializing the client-side ResizeObserver error (maybe it's circular JSON?) so when we try to send it to the server-side stdout it gets caught in an infinite loop or something. 🤷",
     "mentions": [
       {
-        "link": "@wQws/cZT5SqZH80efqrUYQQHyHwi99NyjZdvU+piI+k=.ed25519",
-        "name": "Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (PatchWork Linux)"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "&2O6I6+OPHj6abMngck5KnQ6mMcYBgeiCyixVP06AoEo=.sha256",
+        "name": "Screenshot of errors page complaining about ResizeObserver errors",
+        "type": "image/png",
+        "size": 81318
+      },
+      {
+        "link": "&pN0/WyUnppEqh/ulbMs+bYaYDJK5sFNbn4aFJpvqR+M=.sha256",
+        "name": "Screenshot of trouble-making video working in Patchbay",
+        "type": "image/png",
+        "size": 1002603
       }
-    ],
-    "root": "%tYLkASuJe7Cs1gkXwjEV4rijuknW0Zlmr4idY7/B0XU=.sha256",
-    "branch": [
-      "%tYLkASuJe7Cs1gkXwjEV4rijuknW0Zlmr4idY7/B0XU=.sha256"
     ]
   },
-  "signature": "k6VhsRquIOUzXZ0Id5fBEsnYA+GLOoy43RwUjTTsZkQeZ18Qg8dx3cVgwa4VQlspt3WOGPUVBGpMWeD2Kk0CCg==.sig.ed25519"
+  "signature": "gFNtDDngonp4dw9kck1x13AXgearVO2WmPZ3hpZ4c9PPEv9FRcOfS3U7tjlDHBEW6l7bvipL1DrfQgTRYc4vBQ==.sig.ed25519"
 }
