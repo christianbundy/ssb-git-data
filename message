@@ -1,23 +1,22 @@
 {
-  "previous": "%y/XshKM65breacMT6IjCmu7upsjs65BGdKKBVTe6PLw=.sha256",
-  "sequence": 13388,
+  "previous": "%Ch3zrAkkdUeIx1IDLnnHFy2hDaV7QLSx7IkUU0a0hP0=.sha256",
+  "sequence": 13389,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575224677687,
+  "timestamp": 1575239495087,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nActually I did the math and I'm pretty sure I joined SSB before I was doing search and rescue stuff. Maybe it was when I was interested in municipal mesh networks? Now I'm curious how I got started on SSB too...\r\n\r\n> I can only imagine how y’all handle setting up mesh networks out there.\r\n\r\nI think there's a bunch of opportunity there, but the group I was with just used VHF radios, relaying messages manually if groups couldn't reach each other *or* using an [inReach](https://en.wikipedia.org/wiki/Satellite_emergency_notification_device#inReach) if we really needed to chat with someone.\r\n\r\nYou might dig [disaster.radio](https://disaster.radio/), if you haven't already seen it.",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\n> how does that pub then “trust” then next client that didnt redeem the code?\r\n\r\nIf a random person reaches out to a pub for replication, the pub won't download any of their messages because they aren't within the [follow graph](https://ssbc.github.io/scuttlebutt-protocol-guide/#following). It's less about \"trust\" and more about \"interest\".\r\n\r\n> How do these other pubs “trust” my patchwork client?\r\n\r\nThey only download messages that they're interested in, so when you reach out to do replication each party only downloads messages from feeds that they want. If you're within their follow distance, they'll download your messages, but if you don't have any intersections in your social network then no messages will be transferred.",
     "mentions": [
       {
-        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
-        "name": "jackyalcine"
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
       }
     ],
-    "root": "%vugq4QtJLV76Zbwf0HdiBumOUF+0rvpZBHoNGxVOYUE=.sha256",
-    "fork": "%DPBeVvYJiRZcjXFyI/es7GRh9l8MUv0lya0Hb2LqgTg=.sha256",
+    "root": "%ZPb0ThWt3d8u4l0W9QCXSf2Xg53jXDBnXFxOr5idylc=.sha256",
     "branch": [
-      "%vugq4QtJLV76Zbwf0HdiBumOUF+0rvpZBHoNGxVOYUE=.sha256"
+      "%1PtT14zQvjJocSIpzq+E9g0Bqv+eLpvMvJQF73XFtTo=.sha256"
     ]
   },
-  "signature": "ircPEJaK+WzbG2NL0yPnYuusvepf5s7hplZiEpdyxgZyShJYCNmjWWSD3VntCsAV0kwppp6dgxIRWNIwm3PPCw==.sig.ed25519"
+  "signature": "7ymCr1FtWT71rnlCkz87TX6f6l60vlu7nWptKZR7RGqzJq1Idkyqbl1N6ZV64gagp4c056Q8YVMhFMjxa4m5Cw==.sig.ed25519"
 }
