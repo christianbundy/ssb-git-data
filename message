@@ -1,22 +1,23 @@
 {
-  "previous": "%K8BlSfQ7zF6rCfKJC91RHJw46p0Vt84c3fUsJFBX290=.sha256",
-  "sequence": 13408,
+  "previous": "%RHyQbOENWDIDbRHYpnbErn6DAJmoFOamcCwmLPU77TU=.sha256",
+  "sequence": 13409,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575304296146,
+  "timestamp": 1575304407377,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\n> I kind of think we should just pick one then.\r\n\r\nWe used to only have AppImage, but then I got requests for `.deb` and `.snap` so we added those, but I don't have a way of testing them on my system (Snap is broken on Arch Linux).\r\n\r\nFWIW, I use (and maintain) the version that comes from the Arch Linux package manager, and generally the version that comes with your OS package manager is going to be smoother than a \"universal\" version like AppImage/Snap/etc.",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThank you! That's very generous. 🙇",
     "mentions": [
       {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ],
-    "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
+    "root": "%mhiYxFKuVIdxeeZ6Ch6IUytnASGbEJcdgTY/f51oODE=.sha256",
+    "fork": "%vfgrjr8i27SRLyu1Pu3dbBHl4Ano3SUscnlepKzdhIs=.sha256",
     "branch": [
-      "%fnObEhhKZFosgw+QlSqI3ijXg80Y0jhf8Ah7SwBOQVA=.sha256"
+      "%mhiYxFKuVIdxeeZ6Ch6IUytnASGbEJcdgTY/f51oODE=.sha256"
     ]
   },
-  "signature": "gvJlDtNgM3/ajDcrG0cFDx+T+Jv6/BA2AI453lOU65HGD0zf6S7TnTd1zzP21II/sXib7B3t9hzNbgEUvc35BQ==.sig.ed25519"
+  "signature": "gEFEnGurTYThHx+At7r7n7NU08/9lkldpHm9ti+d9Q/TOg/5J7hANs5Haf0lOY068yG4G1UmBLMpLNtHQD2GBg==.sig.ed25519"
 }
