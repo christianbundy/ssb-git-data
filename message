@@ -1,22 +1,18 @@
 {
-  "previous": "%sihCh0QbCp//bJ9zcj/sYcbGJhTMDiYppRyG2T707mo=.sha256",
-  "sequence": 13397,
+  "previous": "%ta86ORBZElgpr5MfVKBV9Oi77NVbCnD6AKtW860CDPU=.sha256",
+  "sequence": 13398,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575246088579,
+  "timestamp": 1575246103538,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nSo happy it works for you too, thanks for the quick feedback. 🚀\r\n\r\nBtw, I totally made a mistake in the first diff -- I think it references `ev` when that event handler calls it `e`. Oops!",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%6fGnijyQlI0suPHIfJNN2v9e7A2HOs/tMmJFZnmRAIA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%JD2dDZ6/pkmCoubr/r7KHIIg5mrqrg0DnchzF9oqmCk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fn2i/IBDWDbKuoRZ3f6FoaUx5havrpGJlGi+0cGe9NE=.sha256"
+      "%JD2dDZ6/pkmCoubr/r7KHIIg5mrqrg0DnchzF9oqmCk=.sha256"
     ]
   },
-  "signature": "5b55C4FwaYi/ebqtOYpMkis5qr8p2MlmOh5RwxKpb2udwe8QWhJGikXk16xmPvFkK69QOGwtffxv3fHacRSXAQ==.sig.ed25519"
+  "signature": "Mxfq1JDohy/cCrGaYMxGNOFhH712wL0SO0g2dTQgkZ40uozL/zpCxmdDUIm6S68r4Qtr8epeZYMqC2YUZimZDA==.sig.ed25519"
 }
