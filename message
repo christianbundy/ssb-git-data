@@ -1,26 +1,18 @@
 {
-  "previous": "%2VT53GOtYD6aFqNIkHIkhnarMS4BF7kE2i4HBCNU3kI=.sha256",
-  "sequence": 13421,
+  "previous": "%8qde+6dkr/tlqU3ImyP5NrXIU9gzuVhkaouvPpzEeAg=.sha256",
+  "sequence": 13422,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575321790638,
+  "timestamp": 1575321911288,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nWANTED: A way to display latency info in a way that doesn't suck. I think maybe Patchbay had a good way to do it? I don't remember but I gave up after making this.\r\n\r\n![Screenshot of Oasis showing latency information](&YMXpRQCCPAWqN7JdbLMI1D676htHA3wfOQMre4dcVBQ=.sha256)\r\n\r\nX-axis is the number of seconds since the message, Y-axis is the number of seconds between when the message was sent and when it was received.",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      },
-      {
-        "link": "&YMXpRQCCPAWqN7JdbLMI1D676htHA3wfOQMre4dcVBQ=.sha256",
-        "name": "Screenshot of Oasis showing latency information"
-      }
-    ],
-    "root": "%vQGNlbKO0GoQzYYueC7FNiJsC2ojllxACkZbG3N9+S8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%xMZqQFNHbhrdcyPbqnvUOLt8CSU3CSU1heAyep3vRUk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%M7LW1W+F/L1BwE4Kx7OX7SYnsLw4++TTcOvUdmUCg5Y=.sha256"
+      "%d77XsqST3BGrlFYeVpU8+gD4/AZ0LmgJ3iXwhHlvcDo=.sha256"
     ]
   },
-  "signature": "7ld9KH5xUUdJsSIAjW26JK4gVG+9YrxIYnUU4PJnckc5nkuSLETS7aN8rH/9dos8eftgrigtC8tgjpnleQpiAQ==.sig.ed25519"
+  "signature": "0fNPOf/f9wTVX7pHVjIPxfmMY2L79/qz+QbRfNCE34zunstXSRku/bZs0kujVaTk5uuMaziDk3hlaYKuKbJRAQ==.sig.ed25519"
 }
