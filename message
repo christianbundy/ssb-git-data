@@ -1,12 +1,12 @@
 {
-  "previous": "%fWJHkp8zMehnoMBs/SJbMJgsHiF4sxEVtl455ByPH1U=.sha256",
-  "sequence": 13407,
+  "previous": "%K8BlSfQ7zF6rCfKJC91RHJw46p0Vt84c3fUsJFBX290=.sha256",
+  "sequence": 13408,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575303737977,
+  "timestamp": 1575304296146,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nWe have a Snap available, but the tool we're using (electron-builder) doesn't produce FlatPak files. To be honest, I'm also sort of hesitant to add any more output formats, since we're already having enough [trouble](https://github.com/ssbc/patchwork/issues/1217) with the current ones.",
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\n> I kind of think we should just pick one then.\r\n\r\nWe used to only have AppImage, but then I got requests for `.deb` and `.snap` so we added those, but I don't have a way of testing them on my system (Snap is broken on Arch Linux).\r\n\r\nFWIW, I use (and maintain) the version that comes from the Arch Linux package manager, and generally the version that comes with your OS package manager is going to be smoother than a \"universal\" version like AppImage/Snap/etc.",
     "mentions": [
       {
         "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
     "branch": [
-      "%qetG/SWHt6CPpSZH/gQ9a7XH7+MYIYN1SljgEm5EcBo=.sha256"
+      "%fnObEhhKZFosgw+QlSqI3ijXg80Y0jhf8Ah7SwBOQVA=.sha256"
     ]
   },
-  "signature": "toTMeYtCVgoCxD9XMo3lwnbUrLQegQ0TEpMLz83iCIP5uBupDZ+q4KRHtkJZSQVDE3uq3D1n2MIkVnzBh8kXCg==.sig.ed25519"
+  "signature": "gvJlDtNgM3/ajDcrG0cFDx+T+Jv6/BA2AI453lOU65HGD0zf6S7TnTd1zzP21II/sXib7B3t9hzNbgEUvc35BQ==.sig.ed25519"
 }
