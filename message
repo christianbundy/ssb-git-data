@@ -1,23 +1,18 @@
 {
-  "previous": "%M7LW1W+F/L1BwE4Kx7OX7SYnsLw4++TTcOvUdmUCg5Y=.sha256",
-  "sequence": 13417,
+  "previous": "%aSX9X1yzUMXVRlhjBtM66mg8hK7WiK6YC5z/V1wNMmA=.sha256",
+  "sequence": 13418,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575318782278,
+  "timestamp": 1575320990138,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nThanks for the feedback! I think the main pain point with the AppImage release is that lots of Linux users have [this bug](https://github.com/ssbc/patchwork/issues/1217), and [the workarounds](https://github.com/ssbc/patchwork/blob/add-sandbox-docs/docs/INSTALL.md) are both janky and scary for beginners. I'd really like to get it working the way it used to, but it's hard when Linux is such a diverse ecosystem.",
-    "mentions": [
-      {
-        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
-        "name": "jackyalcine"
-      }
-    ],
-    "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%ydBRUe+KsrFz9C1+y8m3us3bCjumgYt6obWyPT81Cro=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%c1GY5r5u+xFWekrJdpCbfwF9jI2V8WOwMb5Led3begM=.sha256",
-      "%oMydp0LJEqxcnEjfQrw85J1JucqLfmbZ/5ChhHBeTEo=.sha256"
+      "%ydBRUe+KsrFz9C1+y8m3us3bCjumgYt6obWyPT81Cro=.sha256"
     ]
   },
-  "signature": "rFuqbYShgEaYO3UqF+I9QtJZguK2zQygOaPT0QAdCyBqAoE3Ijm4QeD1xdzxkdJJJyN5/DRLJGiTk2fOvpXSAg==.sig.ed25519"
+  "signature": "3t4EOg7lSA4RaWt/KFifcA2VXLET58jJx9iKcmcCrEahGXh3ffQadoX6vwviDSM27reFybwpBX+s0fTgB5tEDA==.sig.ed25519"
 }
