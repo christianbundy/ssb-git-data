@@ -1,22 +1,17 @@
 {
-  "previous": "%zC3Nl8y2xEg3x45auOwhn2Kgz67iPCsxrEhCOn+wrLE=.sha256",
-  "sequence": 13403,
+  "previous": "%zd6L7IaORrByWtt0RvoZzdHw6Yc/XPfb7qA7xqPBR+w=.sha256",
+  "sequence": 13404,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575256631415,
+  "timestamp": 1575297784817,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\n```sh\r\nssb-server publish --type contact --contact @abc.somefeed.id --blocking\r\n```\r\n\r\nFound some docs here: http://scuttlebot.io/docs/message-types/contact.html\r\n\r\nWarning: the scuttlebot.io site is old and maybe unmaintained? so lots of stuff is outdated, but it has lots of info. I'd love to kill off all of the outdated documentation sites ASAP.",
-    "mentions": [
-      {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
-      }
-    ],
-    "root": "%0D5rQy0RxTxx0qTZqZ7hHMfuaOBAjaakQWubXfKU6zA=.sha256",
-    "branch": [
-      "%0D5rQy0RxTxx0qTZqZ7hHMfuaOBAjaakQWubXfKU6zA=.sha256"
-    ]
+    "type": "vote",
+    "channel": "manyverse",
+    "vote": {
+      "link": "%n8hMMDsNQXVTuCFknHVySXu/5NBfP+Xgv0oEvvRpLnQ=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "aJX0vgloYL6wffALJtpNd6R36EZWs2tDrO5+pedHiHdQocVnLtvrga8GzkLAfF+O6v/tHXPUJXAgO69oMkAPCA==.sig.ed25519"
+  "signature": "xtWZEgWw1JGiR0AH9HZHDy+Kiatqos7lAxnQkR3snDiD/npAwCx4frr789Dydn0b2OAMysNRoLy9h/nVMYkRBQ==.sig.ed25519"
 }
