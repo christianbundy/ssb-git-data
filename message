@@ -1,22 +1,22 @@
 {
-  "previous": "%dxM2jRftf3ocBmCI8tzX/ESLilGkydo/zD+Qba2lo9g=.sha256",
-  "sequence": 13406,
+  "previous": "%fWJHkp8zMehnoMBs/SJbMJgsHiF4sxEVtl455ByPH1U=.sha256",
+  "sequence": 13407,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575300303877,
+  "timestamp": 1575303737977,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nOops, that was an upstream change from electron-builder. They recommended using [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), but I'm not sure whether that's something Patchwork has to do or something that users can do.",
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nWe have a Snap available, but the tool we're using (electron-builder) doesn't produce FlatPak files. To be honest, I'm also sort of hesitant to add any more output formats, since we're already having enough [trouble](https://github.com/ssbc/patchwork/issues/1217) with the current ones.",
     "mentions": [
       {
         "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
         "name": "kp"
       }
     ],
-    "root": "%AsJ9OZhPFWCU6ie/ToB8nS2SI10TT1FxRUGe5gfhG28=.sha256",
+    "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
     "branch": [
-      "%AsJ9OZhPFWCU6ie/ToB8nS2SI10TT1FxRUGe5gfhG28=.sha256"
+      "%qetG/SWHt6CPpSZH/gQ9a7XH7+MYIYN1SljgEm5EcBo=.sha256"
     ]
   },
-  "signature": "6m+3Eg5Bum8+R6BLUtI9KxDcgMIdIn7tkaiGbXSYIIAM06mz4RNdJ6MKimhNf4n+2yApRvcV0gf7BGCt2W/kDQ==.sig.ed25519"
+  "signature": "toTMeYtCVgoCxD9XMo3lwnbUrLQegQ0TEpMLz83iCIP5uBupDZ+q4KRHtkJZSQVDE3uq3D1n2MIkVnzBh8kXCg==.sig.ed25519"
 }
