@@ -1,18 +1,26 @@
 {
-  "previous": "%FzYP3Zcku9McpTIQaEgbkr4FiDna2s5c3j7RRECzKJs=.sha256",
-  "sequence": 13411,
+  "previous": "%fnDfZBDSW8AdDXMSL6ZhTQUeP4croJ5pdHetNYLKjKs=.sha256",
+  "sequence": 13412,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575305926726,
+  "timestamp": 1575310484333,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%O/FAsI6DlOIe7/aNQ2LSjjdox/j03cHvZVMQNn7mTeE=.sha256",
-      "value": 1
+    "type": "post",
+    "root": "%NJfdIY15h5g/McZXglMx2gcAJpdrfgrbOs1DKmIEfpk=.sha256",
+    "fork": "%AsJ9OZhPFWCU6ie/ToB8nS2SI10TT1FxRUGe5gfhG28=.sha256",
+    "branch": "%NJfdIY15h5g/McZXglMx2gcAJpdrfgrbOs1DKmIEfpk=.sha256",
+    "reply": {
+      "%NJfdIY15h5g/McZXglMx2gcAJpdrfgrbOs1DKmIEfpk=.sha256": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519"
     },
-    "branch": [
-      "%O/FAsI6DlOIe7/aNQ2LSjjdox/j03cHvZVMQNn7mTeE=.sha256"
+    "channel": null,
+    "recps": null,
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) \n\nI think you have to do `snap install --dangerous` because it's only signed by us, not the registry. Not 100% sure about this though, since I can't test snaps. :/",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      }
     ]
   },
-  "signature": "MY4Ofs+Ig2u1MGZdJ4cC3Zg4WU5iQHVfjrC5/kwDm22bQgN21uP20Xob5ys8zYGRvoKF0ALWzhGamZQFyeNXCg==.sig.ed25519"
+  "signature": "mZ4cso/g9jLI1/tL0c2KWY4mf9qFydJ6X54vnc95I3aTeF6zxHZKcPcI3cXMobWoRoFfyXzm5ihFcdc0DGdADQ==.sig.ed25519"
 }
