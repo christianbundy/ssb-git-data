@@ -1,22 +1,23 @@
 {
-  "previous": "%r2ZIRsRYRrR7f59Sh4CiKc1zs8olMFjqsp5KruLhVYY=.sha256",
-  "sequence": 13416,
+  "previous": "%M7LW1W+F/L1BwE4Kx7OX7SYnsLw4++TTcOvUdmUCg5Y=.sha256",
+  "sequence": 13417,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575318411018,
+  "timestamp": 1575318782278,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nOops! I was experimenting with that pub while investigating [this issue](https://github.com/ssbc/ssb-invite/pull/10), I forgot that I left it in a broken state. Should be fixed now!",
+    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nThanks for the feedback! I think the main pain point with the AppImage release is that lots of Linux users have [this bug](https://github.com/ssbc/patchwork/issues/1217), and [the workarounds](https://github.com/ssbc/patchwork/blob/add-sandbox-docs/docs/INSTALL.md) are both janky and scary for beginners. I'd really like to get it working the way it used to, but it's hard when Linux is such a diverse ecosystem.",
     "mentions": [
       {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
+        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
+        "name": "jackyalcine"
       }
     ],
-    "root": "%vQGNlbKO0GoQzYYueC7FNiJsC2ojllxACkZbG3N9+S8=.sha256",
+    "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
     "branch": [
-      "%e0vt6TzQfCdcIqvscu2qo7AdDf54ionyDpeGC7WVpMk=.sha256"
+      "%c1GY5r5u+xFWekrJdpCbfwF9jI2V8WOwMb5Led3begM=.sha256",
+      "%oMydp0LJEqxcnEjfQrw85J1JucqLfmbZ/5ChhHBeTEo=.sha256"
     ]
   },
-  "signature": "g94RjbWZuONQnf64VG/KfcYCHZbZHJAYRLrUekkuuJf3tXjrN9flWyIOtSZ9SAAzKIvpUuMOiUZQVM1aBjTPAg==.sig.ed25519"
+  "signature": "rFuqbYShgEaYO3UqF+I9QtJZguK2zQygOaPT0QAdCyBqAoE3Ijm4QeD1xdzxkdJJJyN5/DRLJGiTk2fOvpXSAg==.sig.ed25519"
 }
