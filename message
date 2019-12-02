@@ -1,18 +1,22 @@
 {
-  "previous": "%hR/D1qSga8bLZJpoIY2Z8zmQfDNxGSOyVAEqzZe6+jA=.sha256",
-  "sequence": 13419,
+  "previous": "%st0PEYPa5VuDY6Q2F5N7bAN3G3NAckReWHbSn/DDyzY=.sha256",
+  "sequence": 13420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575321020368,
+  "timestamp": 1575321028838,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%i5kCwVesAG569i4SJGT/0epXhQgMqrXa+YxULOsFbOo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@steev](@s+y+PZn+jUdf6h6XxHs3q3TaoVTnTvpY9jLPaig1V4E=.ed25519)\r\n\r\nHi! Welcome to Scuttlebutt.",
+    "mentions": [
+      {
+        "link": "@s+y+PZn+jUdf6h6XxHs3q3TaoVTnTvpY9jLPaig1V4E=.ed25519",
+        "name": "steev"
+      }
+    ],
+    "root": "%i5kCwVesAG569i4SJGT/0epXhQgMqrXa+YxULOsFbOo=.sha256",
     "branch": [
       "%i5kCwVesAG569i4SJGT/0epXhQgMqrXa+YxULOsFbOo=.sha256"
     ]
   },
-  "signature": "+SvEIC4Kyfk9CwNOV74Hv0p6VXdgPJJxWeANf71Q4yKieSTqEZWqiSdRbUdml2hxu+fY0Wy5pHnQKe6I6iFDAQ==.sig.ed25519"
+  "signature": "UABECAat3KBbfa6sFywzK4/A+PHGNlJyUkz/tPbdas4LOqCTXHQHwGegE1JOixuhx++Iy07taIwcA8gGlNfSAA==.sig.ed25519"
 }
