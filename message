@@ -1,22 +1,18 @@
 {
-  "previous": "%dWnwF+3CC5tTFS9UVDyXTz7A2ypoTrr9J3JYyFhl0hY=.sha256",
-  "sequence": 13413,
+  "previous": "%yX2aEMTYlAi+tTaAcsqw+dZufAXljQLkVrBYj8itgAw=.sha256",
+  "sequence": 13414,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575313950973,
+  "timestamp": 1575314137507,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nYes, *and* I think we need more people maintaining. I'm stretched very thin between the source code, the npm package, the Arch Linux packages (stable and `-git`), and the AppImage, and I don't even have a way to test the deb/exe/dmg/brew/snap packages.\r\n\r\nI'm doing my best to take care of all of the things I can reliably test, but the rest are provided on a best-effort basis -- hopefully maintained by the people who use them.\r\n\r\nFor what it's worth, my feel is (and has been) that Patchwork is a Great Client For Right Now but since nobody really wants to continue developing Patchwork I'm just keeping it on life support until one of the next-gen SSB clients is ready for general usage from beginners. My stab at this is Oasis, but there are lots of other great folks working on the problem.",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
-      }
-    ],
-    "root": "%gLpHtOELfRw6uf3WbMq8UW/wG1wdSFIaNNFeORmlJEI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%6pRUA4yRVvHF5Nomh/ad4jkb9qSnXQoMO4YhDxkN+9U=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%f5cJppveTkrPTQ6TZL+m20+2Z7VQ6YhX/9aqQ6Hv2qY=.sha256"
+      "%6pRUA4yRVvHF5Nomh/ad4jkb9qSnXQoMO4YhDxkN+9U=.sha256"
     ]
   },
-  "signature": "Gc9VB/MZ4Pzhud3C2sy8gQgin7MCFbarNC0A7HnaGJ0NeLM1c1Va0aSUt0s03EgR82214jfgj5sqaDQVQK8LCw==.sig.ed25519"
+  "signature": "uAjuOAnvZk/JkZ5sYocp9qOZrTh0lBAwUt0Rn7uaNt8reWRX2LNBgL7JklWFupapAwcHTjun+4DCMpBa5uqBCg==.sig.ed25519"
 }
