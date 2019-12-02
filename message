@@ -1,17 +1,22 @@
 {
-  "previous": "%/t2Pp6ZAWcgx58iovzvORk8v2EbzfaEFcpwvDjYltqw=.sha256",
-  "sequence": 13405,
+  "previous": "%dxM2jRftf3ocBmCI8tzX/ESLilGkydo/zD+Qba2lo9g=.sha256",
+  "sequence": 13406,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575297864869,
+  "timestamp": 1575300303877,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "ssb-learning",
-    "vote": {
-      "link": "%kDlzggsv5Q9799B7zE7FDmDEwUcjzpghGblS4i5hWxc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nOops, that was an upstream change from electron-builder. They recommended using [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), but I'm not sure whether that's something Patchwork has to do or something that users can do.",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      }
+    ],
+    "root": "%AsJ9OZhPFWCU6ie/ToB8nS2SI10TT1FxRUGe5gfhG28=.sha256",
+    "branch": [
+      "%AsJ9OZhPFWCU6ie/ToB8nS2SI10TT1FxRUGe5gfhG28=.sha256"
+    ]
   },
-  "signature": "F3gLPGnWPOVILJ7Yd7ZL37r0WD4F8ssHWUsA85LDUiPBEtbEd37U2XCAkENeUZmJVZCCx6GIBq/9rbNIx72CCQ==.sig.ed25519"
+  "signature": "6m+3Eg5Bum8+R6BLUtI9KxDcgMIdIn7tkaiGbXSYIIAM06mz4RNdJ6MKimhNf4n+2yApRvcV0gf7BGCt2W/kDQ==.sig.ed25519"
 }
