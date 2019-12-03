@@ -1,20 +1,20 @@
 {
-  "previous": "%glC8dDWPCOxKsFQPsC/agMdmTZzyZNzRu2MJlrmRgWg=.sha256",
-  "sequence": 13443,
+  "previous": "%3Ne8mqYePdIIE6KWhaW0AZNfkKUPCSZiWovzL4tYvA4=.sha256",
+  "sequence": 13444,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575387837960,
+  "timestamp": 1575391311105,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
-    "branch": "%Ir9J3h7p5XEt7fSMrkG1PF/9lV8cIbpdkRC/bDA61ng=.sha256",
+    "root": "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256",
+    "branch": "%cEU82jLn0aunlMmbNpBgDEVt9+oOpI0xDkXo3nWpfbo=.sha256",
     "reply": {
-      "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%Ir9J3h7p5XEt7fSMrkG1PF/9lV8cIbpdkRC/bDA61ng=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%cEU82jLn0aunlMmbNpBgDEVt9+oOpI0xDkXo3nWpfbo=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\n!!!\n\nI suppose maybe `_flumeUse()` is the only big difference, right? Like right now if you load ssb-backlinks or something it'll try to run `ssb._flumeUse()` to add its own flumeview, which I had to hack together [here](https://github.com/ssbc/ssb-db/pull/275/files#diff-df433c2cde77e7fffc9325af9fda9827R49-R52).",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nHow does promisify-tuple compare to [`util.promisify()`](https://nodejs.org/api/util.html#util_util_promisify_original)?\n\n> Did you know you can await pull-streams?\n\nThat's awesome, I've been doing something like:\n\n```javascript\nconst collect = (source) => new Promise((resolve, reject) => {\n  pull(\n    source,\n    pull.collect((err, val) => {\n      if (err) {\n        reject(err)\n      } else {\n        resolve(val)\n      }\n    })\n  )\n})\n```\n\nWhich is *fine*, but a bit much for something so simple.\n\nI suppose maybe it'd be useful to separate two different needs:\n\n1. An SSB-Client-like interface with full support for secret-stack plugins and promises.\n2. A simple method that aggregates all of the possibilities from ssb-db into one method with a few options.",
     "mentions": [
       {
         "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
@@ -22,5 +22,5 @@
       }
     ]
   },
-  "signature": "cvIrO+G5wAVZDOYhpkuTnSbQrJ7jm2bzPa7v//0E1pWc+GN0Bn1Oqrcxq0zzZISV+BqDGhkpz2R+wasT2VB6Ag==.sig.ed25519"
+  "signature": "zzzKaKfcCO/0JmZHvFPbFLPSS21AwuIp1/+K93PMFyIWEUt5U8pNIrfU6IQRNRgbKN03Z7+JL5rHj9udoDkZCw==.sig.ed25519"
 }
