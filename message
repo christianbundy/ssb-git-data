@@ -1,18 +1,18 @@
 {
-  "previous": "%KKZxnaJklAXyMtyBD0hDokPkjrwDJKcjo64nPykRuCw=.sha256",
-  "sequence": 13435,
+  "previous": "%pfB9iFmqXgq/oJGrBmBs7H5Cpw9ZhbmXCeC00+o7GDg=.sha256",
+  "sequence": 13436,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575343587345,
+  "timestamp": 1575345290863,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NRRITEOqSLOmQNm0aU0nX3061eAzUHJNnVCatOc7RTE=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%NRRITEOqSLOmQNm0aU0nX3061eAzUHJNnVCatOc7RTE=.sha256"
+    "type": "post",
+    "text": "# Cooler: A hypothetical JS-SSB API\r\n\r\nI had to learn lots of stuff before I started to *really* understand the JS-SSB interface, and lately I've been thinking about a hypothetical wrapper that gives a minimalist interface into the most useful bits of our API.\r\n\r\nIt feels like the first step should probably be sketching out what the API looks like, so here's a really quick first stab to see if anyone has immediate thoughts:\r\n\r\n```javascript\r\n// Connect to SSB service or start new one.\r\nconst ssb = await cooler.open()\r\n\r\nconst { id } = await ssb.whoami()\r\n\r\n// Get my first 100 posts as an array\r\nconst myPosts = await ssb.get({\r\n  id,\r\n  limit: 100,\r\n  type: 'post',\r\n  reverse: true\r\n})\r\n\r\nawait cooler.close()\r\n\r\nconsole.log('Done!')\r\n\r\n// `ssb.get()`: sync/async functions + collected streams\r\n// `ssb.stream()`: Node.js stream \r\n// `ssb.pull()`: Pull-Stream-style stream\r\n```\r\n\r\nI don't think it'd be particularly simple to *make* this consistent API, but I think this might go a long way in simplifying the developer experience for new folks.\r\n\r\nWould love thoughts.\r\n\r\ncc: [@Connor](@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519)",
+    "mentions": [
+      {
+        "link": "@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519",
+        "name": "Connor"
+      }
     ]
   },
-  "signature": "889VE1zNcuG12olrAXsIwvEtuc/+G6b2TZpe2El57hF7DxqGr6XWTHjMNvuOoyJ8jX4EzPA0rXqC+ksD9KWUDw==.sig.ed25519"
+  "signature": "60nKmU/iemSa4iCTT6NHuObZPwHRiXNfqH9ZAJbM75I7xVDWFVRkpvEyZlcGkrpMlQoG2SwvKvGFy277IFSoCg==.sig.ed25519"
 }
