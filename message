@@ -1,20 +1,20 @@
 {
-  "previous": "%3Ne8mqYePdIIE6KWhaW0AZNfkKUPCSZiWovzL4tYvA4=.sha256",
-  "sequence": 13444,
+  "previous": "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256",
+  "sequence": 13445,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575391311105,
+  "timestamp": 1575391395142,
   "hash": "sha256",
   "content": {
     "type": "post",
     "root": "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256",
-    "branch": "%cEU82jLn0aunlMmbNpBgDEVt9+oOpI0xDkXo3nWpfbo=.sha256",
+    "branch": "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256",
     "reply": {
       "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%cEU82jLn0aunlMmbNpBgDEVt9+oOpI0xDkXo3nWpfbo=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\nHow does promisify-tuple compare to [`util.promisify()`](https://nodejs.org/api/util.html#util_util_promisify_original)?\n\n> Did you know you can await pull-streams?\n\nThat's awesome, I've been doing something like:\n\n```javascript\nconst collect = (source) => new Promise((resolve, reject) => {\n  pull(\n    source,\n    pull.collect((err, val) => {\n      if (err) {\n        reject(err)\n      } else {\n        resolve(val)\n      }\n    })\n  )\n})\n```\n\nWhich is *fine*, but a bit much for something so simple.\n\nI suppose maybe it'd be useful to separate two different needs:\n\n1. An SSB-Client-like interface with full support for secret-stack plugins and promises.\n2. A simple method that aggregates all of the possibilities from ssb-db into one method with a few options.",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\n> How does promisify-tuple compare to `util.promisify()`?\n\nOh, nevermind, it looks like the `util.promisify()` method turns it into a conventional promise (so you should `try...catch`) whereas yours returns the error and value as a tuple (I think similar to how golang does it?).",
     "mentions": [
       {
         "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
@@ -22,5 +22,5 @@
       }
     ]
   },
-  "signature": "zzzKaKfcCO/0JmZHvFPbFLPSS21AwuIp1/+K93PMFyIWEUt5U8pNIrfU6IQRNRgbKN03Z7+JL5rHj9udoDkZCw==.sig.ed25519"
+  "signature": "goyJldb6QOCFT+PBaSD/UMkcdMDTJXN3WqKiEy58prUxUdRLYLbXtiNkjfnGlARqHC1oqckBUKUo41cmtwOeDQ==.sig.ed25519"
 }
