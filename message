@@ -1,23 +1,22 @@
 {
-  "previous": "%PFq2Xj9Aw/rtkqHoE9QxsXh4RnD+NG4wQY+R1zzxUxA=.sha256",
-  "sequence": 13449,
+  "previous": "%vwbCA++OIHknBxoS80aH/kRwPmzFDd3mhix3nOBssiw=.sha256",
+  "sequence": 13450,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575410636537,
+  "timestamp": 1575411101431,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nYeah, I think the default client views should probably have an option to mute/unmute messages that mention:\r\n\r\n- SSB\r\n- SSB(C)\r\n- secret-stack\r\n- secret-handshake\r\n- muxrpc\r\n- multiserver\r\n- pull-stream\r\n- node(.js)\r\n- javascript\r\n- patchwork\r\n- patchbay\r\n- any message that includes code\r\n- etc",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nI've only tried ssb-backlinks and ssb-about, but they seem to be working great when loaded as client-side plugins. I've only conducted one test, but the indexing via `unix~noauth` takes only 15% longer than indexing with server-side plugins.\r\n\r\nBy the way, I copied your `ssb[name] = plugin.init(ssb)` pattern so I didn't have to create a local instance of secret-stack, thanks for pointing me toward that code!",
     "mentions": [
       {
-        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
-        "name": "emile"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ],
-    "root": "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256",
-    "fork": "%i1Xcs0vB9/ARAJPclLRHLEXk/bDjuZpXlle/ZqNNiw0=.sha256",
+    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
     "branch": [
-      "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256"
+      "%DMGNIeFeZ6qw5mwT1y/4hyvGw9U/tD1Up6HSpiDRyiQ=.sha256"
     ]
   },
-  "signature": "Do9KwWmpYF4wmpG5rZHvMKwARmdXvcCjVXrXB7DOV0gvl9F9YVJCNLjEWztcWJiTUYbs84jhf5MgZuYttX4jAg==.sig.ed25519"
+  "signature": "Fva2Av+8cjOXday383dM692CpTYpxyEOJZepUWJhkydoFLInkQfpWbcuyqyK39SjcR9JBNBdkW8qE4jAX1EcCw==.sig.ed25519"
 }
