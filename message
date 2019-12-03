@@ -1,23 +1,23 @@
 {
-  "previous": "%V3Khr/WIHE08BUOf8R2CEn7MTF6vfdSoHFk0LSELy1A=.sha256",
-  "sequence": 13448,
+  "previous": "%PFq2Xj9Aw/rtkqHoE9QxsXh4RnD+NG4wQY+R1zzxUxA=.sha256",
+  "sequence": 13449,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575410372212,
+  "timestamp": 1575410636537,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\r\n\r\nI appreciate the irony that I'm opening a tangent to talk about Scuttlebutt dev, but I've found it impossible to use any feeds that are sorted by *most recently commented on* (e.g. Patchwork). It makes SSB feel small and claustrophobic when we're all looking at the same three threads, and when we don't find those threads interesting it makes the entire network feel stale.\r\n\r\nDrinking from the firehose makes this a bit better, because the content is more varied, but it doesn't solve the problem. I'm wondering whether something like [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) or something similar would help?",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nYeah, I think the default client views should probably have an option to mute/unmute messages that mention:\r\n\r\n- SSB\r\n- SSB(C)\r\n- secret-stack\r\n- secret-handshake\r\n- muxrpc\r\n- multiserver\r\n- pull-stream\r\n- node(.js)\r\n- javascript\r\n- patchwork\r\n- patchbay\r\n- any message that includes code\r\n- etc",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "mikey"
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
       }
     ],
-    "root": "%buttQn4CDrSXu+VUMOvO/U/0WXVI0a0RS34g22YIsdE=.sha256",
+    "root": "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256",
     "fork": "%i1Xcs0vB9/ARAJPclLRHLEXk/bDjuZpXlle/ZqNNiw0=.sha256",
     "branch": [
-      "%buttQn4CDrSXu+VUMOvO/U/0WXVI0a0RS34g22YIsdE=.sha256"
+      "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256"
     ]
   },
-  "signature": "XXOG7HqZnXB+f8/es6Q45/3n1C+wEatoYNGORYu6GhA0aTK8/AzDkVXI8nVYfIVlJ3B5guNlaz/bQQXtdoniCQ==.sig.ed25519"
+  "signature": "Do9KwWmpYF4wmpG5rZHvMKwARmdXvcCjVXrXB7DOV0gvl9F9YVJCNLjEWztcWJiTUYbs84jhf5MgZuYttX4jAg==.sig.ed25519"
 }
