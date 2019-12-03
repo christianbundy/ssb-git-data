@@ -1,22 +1,18 @@
 {
-  "previous": "%vwbCA++OIHknBxoS80aH/kRwPmzFDd3mhix3nOBssiw=.sha256",
-  "sequence": 13450,
+  "previous": "%ki9vkAQY41SwSy4Py7EV1i8Qbnpm4VjXnex9NjWJ1ws=.sha256",
+  "sequence": 13451,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575411101431,
+  "timestamp": 1575411130482,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nI've only tried ssb-backlinks and ssb-about, but they seem to be working great when loaded as client-side plugins. I've only conducted one test, but the indexing via `unix~noauth` takes only 15% longer than indexing with server-side plugins.\r\n\r\nBy the way, I copied your `ssb[name] = plugin.init(ssb)` pattern so I didn't have to create a local instance of secret-stack, thanks for pointing me toward that code!",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ],
-    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%zhgHQeR+gbmBp10H+LM1YrxJdgCTHfMgcKUGNb/mGyE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DMGNIeFeZ6qw5mwT1y/4hyvGw9U/tD1Up6HSpiDRyiQ=.sha256"
+      "%zhgHQeR+gbmBp10H+LM1YrxJdgCTHfMgcKUGNb/mGyE=.sha256"
     ]
   },
-  "signature": "Fva2Av+8cjOXday383dM692CpTYpxyEOJZepUWJhkydoFLInkQfpWbcuyqyK39SjcR9JBNBdkW8qE4jAX1EcCw==.sig.ed25519"
+  "signature": "BdMH/l40S2eK8yQZQufJeIeuMc+8dLaEgPEbyqhzF9YTP9dHTvWzifMN8HIpMHdWzYKhlvanImhGh3XMu1odCw==.sig.ed25519"
 }
