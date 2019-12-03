@@ -1,26 +1,18 @@
 {
-  "previous": "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256",
-  "sequence": 13445,
+  "previous": "%NK/hS4DUmSJm3LIKJCiQWLlav9Rq3YDFNjKbI0V5YrQ=.sha256",
+  "sequence": 13446,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575391395142,
+  "timestamp": 1575408763116,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256",
-    "branch": "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256",
-    "reply": {
-      "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%q8jA4znk/RLB6OiTeJCNANrTfqk1eMyTfZKeQjQjjb8=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    "type": "vote",
+    "vote": {
+      "link": "%TL34NIX8JpMJN+ubHWx6cRhIwEal8VqHdKVg2t6lFcg=.sha256",
+      "value": 1
     },
-    "channel": null,
-    "recps": null,
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\n\n> How does promisify-tuple compare to `util.promisify()`?\n\nOh, nevermind, it looks like the `util.promisify()` method turns it into a conventional promise (so you should `try...catch`) whereas yours returns the error and value as a tuple (I think similar to how golang does it?).",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
+    "branch": [
+      "%TL34NIX8JpMJN+ubHWx6cRhIwEal8VqHdKVg2t6lFcg=.sha256"
     ]
   },
-  "signature": "goyJldb6QOCFT+PBaSD/UMkcdMDTJXN3WqKiEy58prUxUdRLYLbXtiNkjfnGlARqHC1oqckBUKUo41cmtwOeDQ==.sig.ed25519"
+  "signature": "YAr/HRAic7siUA4s3iiKMRGdEenzp8vPCMFKFarUO7I58xsJpRGsXhIIyC6G0hQ9PrpJb8AptieSTpjZaU3zCA==.sig.ed25519"
 }
