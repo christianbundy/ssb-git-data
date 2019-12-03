@@ -1,18 +1,22 @@
 {
-  "previous": "%ki9vkAQY41SwSy4Py7EV1i8Qbnpm4VjXnex9NjWJ1ws=.sha256",
-  "sequence": 13451,
+  "previous": "%koYSGfxGY/bI5kaWsWiIhBIHdxAApbismKqQMoboyD8=.sha256",
+  "sequence": 13452,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575411130482,
+  "timestamp": 1575414191955,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zhgHQeR+gbmBp10H+LM1YrxJdgCTHfMgcKUGNb/mGyE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI think that's a good idea.\r\n\r\nZooming out a bit, I think that the Big Problem we have is that we don't have a simple client that's easy to do these experiments with, which means that we're stuck talking about ideas instead of tinkering with implementations. I've tried hacking on both Patchwork and Patchbay and had a really hard time with both.\r\n\r\nI've taken the approach of \"I'll just make my own and make sure it's ultra-simple for others to hack on, how hard could it be?\", but most bright and shiny new clients seem to be abandoned after a few months. I guess we'll see how it pans out?",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ],
+    "root": "%buttQn4CDrSXu+VUMOvO/U/0WXVI0a0RS34g22YIsdE=.sha256",
     "branch": [
-      "%zhgHQeR+gbmBp10H+LM1YrxJdgCTHfMgcKUGNb/mGyE=.sha256"
+      "%WmdWJp6aFTzYYvbDPSCpR+D5cuLWGTjRoXS46LhCblc=.sha256"
     ]
   },
-  "signature": "BdMH/l40S2eK8yQZQufJeIeuMc+8dLaEgPEbyqhzF9YTP9dHTvWzifMN8HIpMHdWzYKhlvanImhGh3XMu1odCw==.sig.ed25519"
+  "signature": "luzVDFG9tAACX+vbGSKVED3kShcfmuOGLHtCMgd3H1uHkDR26k8gDqeQonz9I3LSsq4a9Y0v/cCDA8Vu1vg4Aw==.sig.ed25519"
 }
