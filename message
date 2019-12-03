@@ -1,18 +1,22 @@
 {
-  "previous": "%pfB9iFmqXgq/oJGrBmBs7H5Cpw9ZhbmXCeC00+o7GDg=.sha256",
-  "sequence": 13436,
+  "previous": "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256",
+  "sequence": 13437,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575345290863,
+  "timestamp": 1575345333394,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Cooler: A hypothetical JS-SSB API\r\n\r\nI had to learn lots of stuff before I started to *really* understand the JS-SSB interface, and lately I've been thinking about a hypothetical wrapper that gives a minimalist interface into the most useful bits of our API.\r\n\r\nIt feels like the first step should probably be sketching out what the API looks like, so here's a really quick first stab to see if anyone has immediate thoughts:\r\n\r\n```javascript\r\n// Connect to SSB service or start new one.\r\nconst ssb = await cooler.open()\r\n\r\nconst { id } = await ssb.whoami()\r\n\r\n// Get my first 100 posts as an array\r\nconst myPosts = await ssb.get({\r\n  id,\r\n  limit: 100,\r\n  type: 'post',\r\n  reverse: true\r\n})\r\n\r\nawait cooler.close()\r\n\r\nconsole.log('Done!')\r\n\r\n// `ssb.get()`: sync/async functions + collected streams\r\n// `ssb.stream()`: Node.js stream \r\n// `ssb.pull()`: Pull-Stream-style stream\r\n```\r\n\r\nI don't think it'd be particularly simple to *make* this consistent API, but I think this might go a long way in simplifying the developer experience for new folks.\r\n\r\nWould love thoughts.\r\n\r\ncc: [@Connor](@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519)",
+    "text": "[@ja](@gFvbER2z57/uTyLJjna0u8P+gxEoDrBbgfiK19/SxPw=.ed25519)\r\n\r\nblock incoming",
     "mentions": [
       {
-        "link": "@MA5jQ21EOeAesHw3ytpqrEjp3vYFv/9p7lQ4x63IFYw=.ed25519",
-        "name": "Connor"
+        "link": "@gFvbER2z57/uTyLJjna0u8P+gxEoDrBbgfiK19/SxPw=.ed25519",
+        "name": "ja"
       }
+    ],
+    "root": "%6vJNyJT66efD/PgpK+HQCjmsuG/RUHWqATF0RPTdLUY=.sha256",
+    "branch": [
+      "%M6fTXVWPTUA9++hVAqa9++HEffQYO6bWy0ZrXZTK0Tg=.sha256"
     ]
   },
-  "signature": "60nKmU/iemSa4iCTT6NHuObZPwHRiXNfqH9ZAJbM75I7xVDWFVRkpvEyZlcGkrpMlQoG2SwvKvGFy277IFSoCg==.sig.ed25519"
+  "signature": "Klwg92A9g54Yfa2n7gG/bWvXtZXGom66Ye4By9UYYLmFjmmZPAqBQpJiayFltomDSMCYiQ38OMTLMCs1PNpZBQ==.sig.ed25519"
 }
