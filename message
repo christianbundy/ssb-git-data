@@ -1,14 +1,26 @@
 {
-  "previous": "%1PxQVl+79iOtuYJWIIrKBjT6pmf+X0S/zZJCxFxzeow=.sha256",
-  "sequence": 13442,
+  "previous": "%glC8dDWPCOxKsFQPsC/agMdmTZzyZNzRu2MJlrmRgWg=.sha256",
+  "sequence": 13443,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575383674123,
+  "timestamp": 1575387837960,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@GotIdBWNL0FyjwXixX7jPXRxC+crbw2qjSyfBCaP2HM=.ed25519",
-    "following": true,
-    "autofollow": true
+    "type": "post",
+    "root": "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256",
+    "branch": "%Ir9J3h7p5XEt7fSMrkG1PF/9lV8cIbpdkRC/bDA61ng=.sha256",
+    "reply": {
+      "%LiQ89SmUZJU7gRZfTLJzLUrsCO2jMyXeWcMufSqq50Q=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%Ir9J3h7p5XEt7fSMrkG1PF/9lV8cIbpdkRC/bDA61ng=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\n!!!\n\nI suppose maybe `_flumeUse()` is the only big difference, right? Like right now if you load ssb-backlinks or something it'll try to run `ssb._flumeUse()` to add its own flumeview, which I had to hack together [here](https://github.com/ssbc/ssb-db/pull/275/files#diff-df433c2cde77e7fffc9325af9fda9827R49-R52).",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "OJmy/yI9FhVFdK3ZWyRj8+BkUmdL+WxUMSLdDwKslgLiKu3DqYAehlaLFETnqeddz2tRMwsN8wH5V3GbjwoRAQ==.sig.ed25519"
+  "signature": "cvIrO+G5wAVZDOYhpkuTnSbQrJ7jm2bzPa7v//0E1pWc+GN0Bn1Oqrcxq0zzZISV+BqDGhkpz2R+wasT2VB6Ag==.sig.ed25519"
 }
