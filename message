@@ -1,16 +1,25 @@
 {
-  "previous": "%iFWh2n0vFNWlsbTky9QFZWsTyrRkj8k2iY+GSXD9bqg=.sha256",
-  "sequence": 13456,
+  "previous": "%CH90viNkpGIdH2xi6NAf99bxPssLpemofXOqZHyV6Tg=.sha256",
+  "sequence": 13457,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575432827471,
+  "timestamp": 1575433305435,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%1GqbVgDtYU6j3n4VhrBa7ZzTd2PBBXutlu5LkQUaOSI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%UV4o9IynvQcUHAJKbODrSy+6VLypePWXMLIsTE9DiPY=.sha256",
+    "branch": "%UV4o9IynvQcUHAJKbODrSy+6VLypePWXMLIsTE9DiPY=.sha256",
+    "reply": {
+      "%UV4o9IynvQcUHAJKbODrSy+6VLypePWXMLIsTE9DiPY=.sha256": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519) \n\nI know there's a guide somewhere, but I don't remember where. Patchwork search isn't finding anything either.\n\nAssuming you're on the latest Patchwork, the files you care about:\n\n- `~/.ssb/secret` -- your keypair, don't share or lose it!\n- `~/.ssb/conn.json` -- list of peers you know about (old version was called `gossip.json`)\n- `~/.ssb/flume/log.offset` -- optional, all of the posts you've already downloaded\n\nTransferring to a new machine:\n\n1. Make sure you're never in a scenario where your keypair is used by two machines. Your feed has to be a sequential list of messages, so if you have your keypair on multiple machines it's easy to accidentally fork your feed.\n2. Copy the above files to a safe place.\n3. On the target machine:\n\n```shell\nmkdir -p ~/.ssb/flume/\ncp /path/to/backup/secret ~/.ssb/secret\ncp /path/to/backup/conn.json ~/.ssb/conn.json\n\n# optional\ncp /path/to/backup/log.offset ~/.ssb/flume/log.offset\n```\n\nStart your client of choice, grab some tea while you wait for it to finish indexing, and confirm that all of your posts are there. If you didn't copy your `log.offset` you'll receive messages out of order, and you should double-check that all of your messages are on your profile before publishing any messages.\n\n**A common problem to avoid:** If you only copy `~/.ssb/secret` and try to use a pub invite instead of backing up `conn.json`, you're going to have a bad time. Using an invite publishes a message to your feed, which means that everything you do on that account will occur on a fork (where nobody can see you). If you even have this happen, reach out to someone (anyone!) via a side-channel and we'll work with you to fix you up.",
+    "mentions": [
+      {
+        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
+        "name": "jackyalcine"
+      }
+    ]
   },
-  "signature": "jTOTJaG13lUEPnTEWtxq0DS8jSmDlRbAgSKAIb84+3QJ+Y6vNFhcRxT4jJovhROKrd+grBNV6kb0PRpHhGmzCg==.sig.ed25519"
+  "signature": "fzBRMNLwkM8dllvXUDGyYWQRFnCkh3REJW5Z+DmcD7FJO+W8xpu+mOeetlnpszZ7zLd8Cus7Ozwd3omFanh6BA==.sig.ed25519"
 }
