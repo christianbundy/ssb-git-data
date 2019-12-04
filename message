@@ -1,18 +1,22 @@
 {
-  "previous": "%nzZLiaBtvl1cCHg9/1mEwWrpY1i9jMcn1V15dEv7c3U=.sha256",
-  "sequence": 13463,
+  "previous": "%mYEN81S3e9gwcgNoZd/FJJyzwMiHiFKYaW3VaPP175M=.sha256",
+  "sequence": 13464,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575488389904,
+  "timestamp": 1575488544875,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SKbm/cyZI2tU6gJAP2/4C4hIkfcS8ZhYVJXNSbQS8WE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nThis is now in the `develop` branch of Oasis, btw.\r\n\r\nThe default view shows no \"dogfood\", but you can temporarily enable the dogfood if you want to see it.",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      }
+    ],
+    "root": "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256",
     "branch": [
-      "%EeIUqTrcmnL56Sg3d5lfxCmYtcDOVlTNqMSbG0nRQcQ=.sha256"
+      "%vwbCA++OIHknBxoS80aH/kRwPmzFDd3mhix3nOBssiw=.sha256"
     ]
   },
-  "signature": "lpYKI0mAeVZ99/Bils00YBtS4yUoPX6P0xJCAbgrrLOoWVLWeKUl71GJ2KV4IYckpOs/Q3Wj2eVRjMU/0tuyDA==.sig.ed25519"
+  "signature": "tHjwkXPve8zPuiCL+rkduFs2GffpHSBCqUKYBLIInh1XEevnyyBkHyCOCW3GsNRxly6ffUtpnlCiIjBUYP+MCw==.sig.ed25519"
 }
