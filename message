@@ -1,17 +1,27 @@
 {
-  "previous": "%1i1+8ZwNwQPutJddT/EYLBwlaqvOKgbDBlJZlmDz52A=.sha256",
-  "sequence": 13497,
+  "previous": "%lUXMQI0VW6Ce1VkVjK4g4n10ycJbbDU1esDMU0RaV3c=.sha256",
+  "sequence": 13498,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575577102395,
+  "timestamp": 1575577207979,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%cKn9NHq3emtwT+l1gp5KD24/A38lfEi7O2nYoVX+Hlk=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Or7G/AG8E6CoybweDhtyLE3yCvjhJFmCXiVByekeX9c=.sha256",
+    "fork": "%tcyxpshgz2mCD+aB6JbvIBsXhRORkrrnmTOnyLf/N6E=.sha256",
+    "branch": "%U0JeiY+4PigIqKrrg3rVf1f03ityen2cX1285fLYJtg=.sha256",
+    "reply": {
+      "%Or7G/AG8E6CoybweDhtyLE3yCvjhJFmCXiVByekeX9c=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%U0JeiY+4PigIqKrrg3rVf1f03ityen2cX1285fLYJtg=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": "poorly-thought-through-signs",
+    "recps": null,
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nOops, that should be \"eat the threatened native plants\".\n\nI'm assuming they're endangered or something and that it'd be bad for people to eat them? Dunno.",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      }
+    ]
   },
-  "signature": "VqWX1D5wbx0rOuOZgzwcBfQQHhTLuzkpUeZlDdQFKEpYQBZT7gr1+WY3QsNWPFL6jQ+g+CRBda2/5X//K24kBQ==.sig.ed25519"
+  "signature": "YJ1lkFs+4+C9348fKRxV694jJP7R1VeYaJcf0FFAeFaEwd47KkZ8eiDNZWP3va9FM8/G4vb0y0XhHaMOBO9RBg==.sig.ed25519"
 }
