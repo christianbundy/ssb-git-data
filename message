@@ -1,16 +1,26 @@
 {
-  "previous": "%3YihR9P/lz4v73Ez35xBHGDhaO9nPhsDvsAStDZqbVQ=.sha256",
-  "sequence": 13492,
+  "previous": "%r1A+hzDRT2jSM3HO4k16K27Ig4KQwMgMPpJgGpRseNs=.sha256",
+  "sequence": 13493,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575569326456,
+  "timestamp": 1575573921544,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jLQzxs52tu0VdxuHMOZkH4wiYm0hLLTNZo+pUpj+p3s=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Or7G/AG8E6CoybweDhtyLE3yCvjhJFmCXiVByekeX9c=.sha256",
+    "fork": "%tcyxpshgz2mCD+aB6JbvIBsXhRORkrrnmTOnyLf/N6E=.sha256",
+    "branch": "%Or7G/AG8E6CoybweDhtyLE3yCvjhJFmCXiVByekeX9c=.sha256",
+    "reply": {
+      "%Or7G/AG8E6CoybweDhtyLE3yCvjhJFmCXiVByekeX9c=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519"
+    },
+    "channel": "poorly-thought-through-signs",
+    "recps": null,
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nI'm not sure, but I'm guessing it's because people might eat the native plants?",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      }
+    ]
   },
-  "signature": "1PKcql9/Axg8AhCjjWpiO3FByMpeOw/OUIE4fMupH/qydE75bH8ON1djOeTj5fy7ivLrydHtOvXW/uia9niADA==.sig.ed25519"
+  "signature": "FjS+fpT1Kwm6H3Qa0qAl5o/PRHf9k8zqpXxjedMD8od94H+ibPHvfggguhBNDvs5z34kHtyWOEda32vvcCiXAw==.sig.ed25519"
 }
