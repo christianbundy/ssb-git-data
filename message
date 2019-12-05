@@ -1,17 +1,26 @@
 {
-  "previous": "%M5LxRfwIUKn9WlH4me5mp194SxZH0ODL4+dmSxPfBg4=.sha256",
-  "sequence": 13478,
+  "previous": "%zaOLOsf3FhlTJZ6QplxreMh1BP1fvXfYGZcXLOBoV3A=.sha256",
+  "sequence": 13479,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575507671894,
+  "timestamp": 1575507740819,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%M5LxRfwIUKn9WlH4me5mp194SxZH0ODL4+dmSxPfBg4=.sha256",
+    "branch": "%FES0p/E5CQnAw3WVDBx7iuDYYGHIixy0O+qELisZxtA=.sha256",
+    "reply": {
+      "%M5LxRfwIUKn9WlH4me5mp194SxZH0ODL4+dmSxPfBg4=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%FES0p/E5CQnAw3WVDBx7iuDYYGHIixy0O+qELisZxtA=.sha256": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%gvaNvMSWxwgM4Hu+bpw3BvObqj8niq43F49D4rfgGXM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@kathleen](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519) I AGREE, YOU LOOK GREAT",
+    "mentions": [
+      {
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "kathleen"
+      }
+    ]
   },
-  "signature": "oF6uotJYDmDKVeMygMuRG8nFpVtgeSwGAlLlBNaX+RO+P4eIbV181vyUT2sZ1iil4n7PWGonYXLTCUs2SXLsAg==.sig.ed25519"
+  "signature": "ttawMGQ7euo1rbpg9DSUd/kFARXO8S3wwPdqW9xVRJPXAwv0G0yKM9XJuOX/qTblR2DaPY7NNuWg0qa3uzJ2BQ==.sig.ed25519"
 }
