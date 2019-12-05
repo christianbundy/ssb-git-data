@@ -1,17 +1,30 @@
 {
-  "previous": "%Vr8koXehOfPla61orttQhhLdBdFRlxAoqVwxwDH9l8s=.sha256",
-  "sequence": 13475,
+  "previous": "%1M37m9Et0CTkmZS3iZyLd5xl/EJRM/8YF+Zqk7zVfFo=.sha256",
+  "sequence": 13476,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575505989059,
+  "timestamp": 1575506047630,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%bVbhG4pC3DvJ5IId82nTb5+K/2Sf18pRexQ++Yk8Oo4=.sha256",
+    "branch": "%gQrWYaXzI1Y5HmWqjR6boIcG7Bu3iekbvBV7SoyN3/k=.sha256",
+    "reply": {
+      "%bVbhG4pC3DvJ5IId82nTb5+K/2Sf18pRexQ++Yk8Oo4=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+      "%gQrWYaXzI1Y5HmWqjR6boIcG7Bu3iekbvBV7SoyN3/k=.sha256": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519"
+    },
     "channel": "books",
-    "vote": {
-      "link": "%gQrWYaXzI1Y5HmWqjR6boIcG7Bu3iekbvBV7SoyN3/k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@polylith](@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519)\n\nThis is cool, and that house looks very cozy. Are you working on gardening / homesteading / etc?\n\ncc: [@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519) you have lots of half-acres ",
+    "mentions": [
+      {
+        "link": "@0nakXtVIodBfdHwRQLVb64p54jTWS+DFHRqg58ky4CI=.ed25519",
+        "name": "polylith"
+      },
+      {
+        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+        "name": "sean"
+      }
+    ]
   },
-  "signature": "y99lH0f55eZFkKstAJcGxRZYiF2zED2pWKTpLYgXf/abqTLqgqFrQRn9qsN0QVhy9fbWIi99ocSdB9npl/qJCg==.sig.ed25519"
+  "signature": "oVYm8Al7M/fpHf9eYM5DlO+RuZHgG2NBUwiKk4LVVoPQvTskuD6KWRCwDaZFfz3YfGS3CFNnIVYkPc39m1w4AA==.sig.ed25519"
 }
