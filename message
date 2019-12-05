@@ -1,17 +1,26 @@
 {
-  "previous": "%QiC+tLn/CP81L6d25NQ3NJa4I5NAN0ztju0F3gXEvRM=.sha256",
-  "sequence": 13481,
+  "previous": "%D5hv1l1Z97MmBYmzLMbggM4LoCg1+RniFaj0Wga1CrY=.sha256",
+  "sequence": 13482,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575507774564,
+  "timestamp": 1575507839301,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%G3Ka7Oi+xm93Rtod7Gbrius9MDBxJ9gA6MMR5ZPr7ew=.sha256",
+    "fork": "%M5LxRfwIUKn9WlH4me5mp194SxZH0ODL4+dmSxPfBg4=.sha256",
+    "branch": "%G3Ka7Oi+xm93Rtod7Gbrius9MDBxJ9gA6MMR5ZPr7ew=.sha256",
+    "reply": {
+      "%G3Ka7Oi+xm93Rtod7Gbrius9MDBxJ9gA6MMR5ZPr7ew=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%G3Ka7Oi+xm93Rtod7Gbrius9MDBxJ9gA6MMR5ZPr7ew=.sha256",
-      "value": 0,
-      "expression": "Unlike"
-    }
+    "recps": null,
+    "text": "[Ah, the old SSB switcheroo...](%SQo6QFGd5Jej5vBQ0ngUBZDePusPmIOkAvNR1CwWBqI=.sha256)",
+    "mentions": [
+      {
+        "link": "%SQo6QFGd5Jej5vBQ0ngUBZDePusPmIOkAvNR1CwWBqI=.sha256",
+        "name": "Ah, the old SSB switcheroo..."
+      }
+    ]
   },
-  "signature": "nDZJBMglkkt3hb7P0B1RFCFFs+8embwxnJJibJlxLIiCYWuDZNQBkWg/xZwPpQMtOM7XYMoY0l4yPk61hFHfDw==.sig.ed25519"
+  "signature": "2KxfQWkuGH5jOYQ2+PTTSVoOuPhBxrUOS+MkBEDFCaRJ+bYUpRW5phP4JfosCioOaJNJdRIyrfe2XtOSXO9tAw==.sig.ed25519"
 }
