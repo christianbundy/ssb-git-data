@@ -1,17 +1,26 @@
 {
-  "previous": "%uVVh9cKLhaoUblLS2ZKg9cA7wI2mo5KTs/b7OUBHc4U=.sha256",
-  "sequence": 13495,
+  "previous": "%UBG+P1VMSuzuNdl5ezXQFrlIw5cuY/a2hP6mWuE8tbo=.sha256",
+  "sequence": 13496,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575574148236,
+  "timestamp": 1575574483650,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%nCb5rQmqUoHVdkqyY+AMb+fmkxDBaO+hd4GSRamcRSI=.sha256",
+    "branch": "%vc78Bs8ebDuVOLKclfVl5L/ZHUDC92vM10ZTpZyH8dU=.sha256",
+    "reply": {
+      "%nCb5rQmqUoHVdkqyY+AMb+fmkxDBaO+hd4GSRamcRSI=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%vc78Bs8ebDuVOLKclfVl5L/ZHUDC92vM10ZTpZyH8dU=.sha256": "@jL0ALPNOLX5CKMifzGFW+sQoWUx6fSLOW9O/yNomPU4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%N8xMMyMG1rGp6g1CMtjidsp/WA2ljh1ND21w5GokxBU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@Stian](@jL0ALPNOLX5CKMifzGFW+sQoWUx6fSLOW9O/yNomPU4=.ed25519) \n\n> Definitely go for a high CRI setup from a reputable manufacturer.\n\nAny chance you could recommend a reputable manufacturer? I know Adaffruit, but I've heard that they're often overpriced for what you're buying.",
+    "mentions": [
+      {
+        "link": "@jL0ALPNOLX5CKMifzGFW+sQoWUx6fSLOW9O/yNomPU4=.ed25519",
+        "name": "Stian"
+      }
+    ]
   },
-  "signature": "7gxAldCuD1REM3aSqrZHSGgBJ+t3rQ99rZ3iTis5IfkiZnP1ELkIVLwGSmKlAgvYF2cpvB9SY0fj4rHEsOA7CA==.sig.ed25519"
+  "signature": "9TXGv0mDRvle1cU9PO5K8AwaEo6DxV1cswDJ1i4A5n8oerNeryu7023ITcm/TDw2NszZ0ZNkxlD9w4sfYOUjCA==.sig.ed25519"
 }
