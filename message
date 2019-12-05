@@ -1,22 +1,17 @@
 {
-  "previous": "%j4+PLulSaWvc2Bfbuv5qZKCE5lLBKYJdUMsSnAOEoYc=.sha256",
-  "sequence": 13474,
+  "previous": "%Vr8koXehOfPla61orttQhhLdBdFRlxAoqVwxwDH9l8s=.sha256",
+  "sequence": 13475,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575505439857,
+  "timestamp": 1575505989059,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256",
-    "fork": "%i1Xcs0vB9/ARAJPclLRHLEXk/bDjuZpXlle/ZqNNiw0=.sha256",
-    "branch": "%JD0QYN2UClwOyYB4Aj5rFeuEbw+Rj2wPEkMGMYYZggU=.sha256",
-    "reply": {
-      "%zGVSNbVsPtC0ZCKhPSK/632ZD1bXnORckFGzyQVWdH0=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
-      "%JD0QYN2UClwOyYB4Aj5rFeuEbw+Rj2wPEkMGMYYZggU=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "Demo:\n\n- **Default:** https://oasis-demo.fraction.io/public/threads/\n- **Dogfood:** https://oasis-demo.fraction.io/public/threads/dogfood",
-    "mentions": []
+    "type": "vote",
+    "channel": "books",
+    "vote": {
+      "link": "%gQrWYaXzI1Y5HmWqjR6boIcG7Bu3iekbvBV7SoyN3/k=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "rikFnGtqijI8811c91zGQ/ry8aor8XN7h8YN+1jCdPojh9+GeMTyQ+Ur1FYbE7J7iXpdT6LFkpbZfMAlyQXtAw==.sig.ed25519"
+  "signature": "y99lH0f55eZFkKstAJcGxRZYiF2zED2pWKTpLYgXf/abqTLqgqFrQRn9qsN0QVhy9fbWIi99ocSdB9npl/qJCg==.sig.ed25519"
 }
