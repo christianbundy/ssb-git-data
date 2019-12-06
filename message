@@ -1,18 +1,17 @@
 {
-  "previous": "%kVglIKN7ijOI9d8jNYYBxm8hZgy4y3hhLro9N9MhqOA=.sha256",
-  "sequence": 13528,
+  "previous": "%xQWPc2jY7ZGoUAg5HdYhgnYf52EkQikMgA/TCIP42Dg=.sha256",
+  "sequence": 13529,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575667321588,
+  "timestamp": 1575668997319,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%P2NP9wc93VQollFX0zhvHpFLLAMuwGg2tDUEXR2jUBk=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%P2NP9wc93VQollFX0zhvHpFLLAMuwGg2tDUEXR2jUBk=.sha256"
+    "type": "post",
+    "text": "# Oasis 2.8.0\r\n\r\nI'm happy to announce the latest release of Oasis, the **friendly scuttlebutt interface** that works in your favorite web browser. There are a handful of small changes and fixes and such, but there's one change I'm very excited about: **popular posts**.\r\n\r\nThis view shows you the posts that your friends have been liking the most in the past 24 hours, which is full of fun goodies you may have missed if you're sorting by the latest posts. I've only been experimenting with this view for an hour or so but I'm absolutely loving it and couldn't wait to share. Check it out!\r\n\r\nWith [npm](https://npmjs.org/):\r\n\r\n```shell\r\nnpm -g install @fraction/oasis@latest\r\n```\r\n\r\nWith [yarn](https://yarnpkg.com/en/):\r\n\r\n```shell\r\nyarn global add @fraction/oasis@latest\r\n```\r\n\r\nThere's also a [web demo](https://oasis-demo.fraction.io/) and [GitHub repo](https://github.com/fraction/oasis).\r\n\r\nNote: Oasis is still in heavy development and may have bugs. Please let me know if you have any trouble!\r\n\r\n#oasis",
+    "mentions": [
+      {
+        "link": "#oasis"
+      }
     ]
   },
-  "signature": "vWVEsH8ntZFE55HZDmrRhG0yHOeaPHNCmf2Hq3pV5e3WF67T6bO79clGQDLNVRhBvkDWzB2kZ1pa1qZL8eV0AA==.sig.ed25519"
+  "signature": "8UAtnJJCZZk6ZwBv6fOuYnAd8m0qcg+Cqf+eyXWIagSHAL+EwmKilO9ezjNbpQHTG5/QLoHQbZUxI6M1ol6zAQ==.sig.ed25519"
 }
