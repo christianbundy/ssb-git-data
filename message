@@ -1,20 +1,30 @@
 {
-  "previous": "%F1HH4rAIehcBbAlGpvyz3mdQFUKqo9v+pYqOxzHSCts=.sha256",
-  "sequence": 13508,
+  "previous": "%vhhp+VLDWBpQ4ke+L3Emk71XHjXCTcJ3GJww3Al6iKI=.sha256",
+  "sequence": 13509,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575604364417,
+  "timestamp": 1575606654453,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%NhVqldgbXyStDK477PcWVlNiCeoG+28c5myDq9vOmfE=.sha256",
-    "branch": "%NhVqldgbXyStDK477PcWVlNiCeoG+28c5myDq9vOmfE=.sha256",
+    "root": "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256",
+    "branch": "%hsaEJerpbbwJB5S3eYvF8vqYuyHRa+3PJ/ZaB2CWvWA=.sha256",
     "reply": {
-      "%NhVqldgbXyStDK477PcWVlNiCeoG+28c5myDq9vOmfE=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519"
+      "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+      "%hsaEJerpbbwJB5S3eYvF8vqYuyHRa+3PJ/ZaB2CWvWA=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": "Now listening to *[Baby Talk: Decoding The Secret Language Of Babies](https://www.npr.org/2019/09/30/765855335/baby-talk-decoding-the-secret-language-of-babies)*. I love Hidden Brain.",
-    "mentions": []
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nI think I've prototyped it but haven't deployed it yet. I sketched out a [potential deletion request type](https://github.com/fraction/ssb-content-stream/issues/2) but I think it might be too explicit. Not sure what [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)'s status on it is, but I think he's pushed further than I have.",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ]
   },
-  "signature": "v0BLlfPeFzo6bXU5difZqyZFtUpZNExnjlEx92RPsA0sV7WYG6hbKj0fPtHd4rB5H/ifg+gZw2u26V9g05+SAg==.sig.ed25519"
+  "signature": "KJbONHuTElqd8ph6LqBqK6peFCPdbk5mBR+eXO5EhqJMd/1YwoP55tLz/dmtxSmL0cz3L3AgnIin15lJiEpLDw==.sig.ed25519"
 }
