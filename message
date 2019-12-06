@@ -1,23 +1,16 @@
 {
-  "previous": "%JeUjVGnNf/vRnvKEYBb25m/ySnjLINWJJtATVaL3w68=.sha256",
-  "sequence": 13512,
+  "previous": "%Rfnnhb5sJYN5fTLCB3sDNpmBdyvsdJzS56YlEBGvEW4=.sha256",
+  "sequence": 13513,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575649183682,
+  "timestamp": 1575650427723,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "If anyone is bored and looking for code to review, I'd really love to get [ssbc/multiserver#49](https://github.com/ssbc/multiserver/pull/49) reviewed and hopefully merged. Right now all of the apps are using a workaround and it's causing mystery bugs like [this one](https://github.com/ssbc/patchwork/issues/1222) that I'd really love to resolve.\n\nAlternatively, we can treat only the symptom: [ssbc/ssb-config#67](https://github.com/ssbc/ssb-config/pull/67)\n\n#ssb-dev #multiserver #ssb-config ",
-    "mentions": [
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#multiserver"
-      },
-      {
-        "link": "#ssb-config"
-      }
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%QVlzQ2Y9f3LFxFedW0Wszh8/PYGgXOpFXXN//4P1OQc=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "xn3A10WfFFIb64jQEz0947aNKhTpABkklfdfdAPwwQdIm0UI+5Hu1OruNfH2b6HL/m5toYapazdy04uC6ZllCA==.sig.ed25519"
+  "signature": "5azKOl006RK5OY5GRMWxuCjIJvpf1shYLQQ46uoaWxXfOUKGlts2v9jzNgcV4ItC3KMPQbwoDiv93osD8xQlCw==.sig.ed25519"
 }
