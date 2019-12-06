@@ -1,32 +1,21 @@
 {
-  "previous": "%zDuBpjB7TmsL1iKXEPOV+ttvJpBvXesIMt589ELL8UE=.sha256",
-  "sequence": 13504,
+  "previous": "%Ylj+g9FnWQlZqxchbtJktIWH6OZqyd5qKuj88OMgCkQ=.sha256",
+  "sequence": 13505,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575602557325,
+  "timestamp": 1575602664540,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256",
-    "branch": "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256",
+    "root": "%FxkQRDw/d3zI/BbWHSalKki2L9o+EGAQN67YpDYvF2M=.sha256",
+    "fork": "%JDMlMAPDbD7fNz1vV+JLtaPIw92cp1oqLcmhkGXShNA=.sha256",
+    "branch": "%FxkQRDw/d3zI/BbWHSalKki2L9o+EGAQN67YpDYvF2M=.sha256",
     "reply": {
-      "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
+      "%FxkQRDw/d3zI/BbWHSalKki2L9o+EGAQN67YpDYvF2M=.sha256": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519"
     },
-    "channel": null,
+    "channel": "ssbc",
     "recps": null,
-    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nCurrently you can delete messages and blobs from your local database, but you can't [yet] request that other people delete your content. The downside of deleting messages is that you can no longer verify the entire feed (since you lack the data), but the database doesn't try to re-validate feeds so it doesn't cause problems.\n\n[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) has been doing tons of great work on an alternative feed format that lets us delete messages without breaking feed verification, but the JS-SSB stack doesn't support other feed types yet (although PRs are open and moving in that direction).\n\n#ssb-dev",
-    "mentions": [
-      {
-        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
-        "name": "kira"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "#ssb-dev"
-      }
-    ]
+    "text": "> The Mac things another thread. That’s also hideous.\n\nIt's true: https://kilianvalkhof.com/2019/electron/notarizing-your-electron-application/",
+    "mentions": []
   },
-  "signature": "gaTr9J1AFyxytrqOGRzyT6lT3toZkcOTyXUPe9E1HYqyKn+flWl8k1u8WlTLznGX+kubUvYZVeRnJPSTuumkBQ==.sig.ed25519"
+  "signature": "Drcw1o6Rfhpc4o0G/MqBa9ES9xSpWsKTzfLbgUcZ2wsi6JAG0bBkATTcx+dStsZrjiQMMY3m5Et5wFEMx38mAQ==.sig.ed25519"
 }
