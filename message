@@ -1,16 +1,23 @@
 {
-  "previous": "%tmYUgbxDsCeU7SQ5NaKzOqXpNp1lLtSE4IbbrREhltk=.sha256",
-  "sequence": 13511,
+  "previous": "%JeUjVGnNf/vRnvKEYBb25m/ySnjLINWJJtATVaL3w68=.sha256",
+  "sequence": 13512,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575645208213,
+  "timestamp": 1575649183682,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%25p20vLjFfqQdrqaQgjeMKAsC/LmsnqJchDomI7/Jqc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "If anyone is bored and looking for code to review, I'd really love to get [ssbc/multiserver#49](https://github.com/ssbc/multiserver/pull/49) reviewed and hopefully merged. Right now all of the apps are using a workaround and it's causing mystery bugs like [this one](https://github.com/ssbc/patchwork/issues/1222) that I'd really love to resolve.\n\nAlternatively, we can treat only the symptom: [ssbc/ssb-config#67](https://github.com/ssbc/ssb-config/pull/67)\n\n#ssb-dev #multiserver #ssb-config ",
+    "mentions": [
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#multiserver"
+      },
+      {
+        "link": "#ssb-config"
+      }
+    ]
   },
-  "signature": "PEINPegC45sNozY1l/IJnJoqXSS4r1cQvSxAkA3/Cu7kDPeyWO3F9oSZBde8pHuAkLmAPSTr9Uv9by5DIMXfBw==.sig.ed25519"
+  "signature": "xn3A10WfFFIb64jQEz0947aNKhTpABkklfdfdAPwwQdIm0UI+5Hu1OruNfH2b6HL/m5toYapazdy04uC6ZllCA==.sig.ed25519"
 }
