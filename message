@@ -1,20 +1,32 @@
 {
-  "previous": "%Q1RyKmBLp0VU22wbp8u1VmvGXnF9s+ew7qZVDkr3dIs=.sha256",
-  "sequence": 13503,
+  "previous": "%zDuBpjB7TmsL1iKXEPOV+ttvJpBvXesIMt589ELL8UE=.sha256",
+  "sequence": 13504,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575581739618,
+  "timestamp": 1575602557325,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%W6cKksd4jJmCHZ3gvxTAIuCgqKSmeN8uQP7Rx0Zofks=.sha256",
-    "branch": "%W6cKksd4jJmCHZ3gvxTAIuCgqKSmeN8uQP7Rx0Zofks=.sha256",
+    "root": "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256",
+    "branch": "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256",
     "reply": {
-      "%W6cKksd4jJmCHZ3gvxTAIuCgqKSmeN8uQP7Rx0Zofks=.sha256": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519"
+      "%2su/z6wb3aYE8Bj5BXusVTzL1e+x1GvYwPKx/r3fRpI=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
     },
     "channel": null,
     "recps": null,
-    "text": ": /",
-    "mentions": []
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) \n\nCurrently you can delete messages and blobs from your local database, but you can't [yet] request that other people delete your content. The downside of deleting messages is that you can no longer verify the entire feed (since you lack the data), but the database doesn't try to re-validate feeds so it doesn't cause problems.\n\n[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) has been doing tons of great work on an alternative feed format that lets us delete messages without breaking feed verification, but the JS-SSB stack doesn't support other feed types yet (although PRs are open and moving in that direction).\n\n#ssb-dev",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "#ssb-dev"
+      }
+    ]
   },
-  "signature": "Q+QAGisx8QgMT6pyRIUO/XORAKcTYIRvSo8e/puYRT1lBohRh/1AdlF/jsF+oOSLjdbSdj6b/AJ2Dv2zMxMlDA==.sig.ed25519"
+  "signature": "gaTr9J1AFyxytrqOGRzyT6lT3toZkcOTyXUPe9E1HYqyKn+flWl8k1u8WlTLznGX+kubUvYZVeRnJPSTuumkBQ==.sig.ed25519"
 }
