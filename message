@@ -1,17 +1,19 @@
 {
-  "previous": "%Or55B9otaCF63S5CjwBhDRWXJoVvbhKqmb2v3TIlUOQ=.sha256",
-  "sequence": 13569,
+  "previous": "%i5VXzjWI+JaDIjoHOac357UqTy0+gkha1KD5MpImmrs=.sha256",
+  "sequence": 13570,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575762157115,
+  "timestamp": 1575762326445,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Oops. I got carried away and added sorting by the most-liked posts in the past:\r\n\r\n- [day](https://oasis-demo.fraction.io/public/popular/day)\r\n- [week](https://oasis-demo.fraction.io/public/popular/week)\r\n- [month](https://oasis-demo.fraction.io/public/popular/month)\r\n- [year](https://oasis-demo.fraction.io/public/popular/year)\r\n\r\nI also added some basic search functionality (e.g. [\"jerome and sunshine\"](https://oasis-demo.fraction.io/search?query=jerome+and+sunshine)) and some minimal info about your relationship with people when you view their profile. Anyway, that's now released as 2.9.0.\r\n\r\n😬",
-    "mentions": [],
-    "root": "%r9nMaZHNBQ5ysnIU5m/N3oUk37MLz+EFjnqKZW0EiEw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%TRJOW4vXPwL4zesLJpS9/IXnwDkZo31aqlUzNbsinTc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%r9nMaZHNBQ5ysnIU5m/N3oUk37MLz+EFjnqKZW0EiEw=.sha256"
+      "%DuEJ7+4IAm7wWk6AlUHoNcSkza7f50lWkyL6jzdNXwc=.sha256",
+      "%K0LWMRhE9KNwAt27twZeemMBSjHeQaiODVr4Vo05a3M=.sha256"
     ]
   },
-  "signature": "JVeKE7hozA2HwemMiTr1K5e4BLkYfiCJtK10UYsocFLiHjS4J86wRXoGKx0jXeSBmWMMTqubvDE+Ua3kXbneCg==.sig.ed25519"
+  "signature": "O5G0xo0dKf7osONGaRuj+Ho8+ymDp8yOlcTMS7FBYVYlqWTunU/5xqcaGcgN5/mIDOz8hrfP6U4vkYC/hm3GCw==.sig.ed25519"
 }
