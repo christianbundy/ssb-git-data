@@ -1,17 +1,25 @@
 {
-  "previous": "%1hsqbfxGuR0BPZg57ImyPiHK4qH0LghWVK9ejTGRy+c=.sha256",
-  "sequence": 13584,
+  "previous": "%DnQZRFYYDZXF2RqXuzuC07cz4UO/Kt8fXSVOPOE3XPY=.sha256",
+  "sequence": 13585,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575771678401,
+  "timestamp": 1575771705017,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%g/MIQ+6xrOtZVQ3KjhW5fNB3iSSBu1ctpFTrI8Zs5E4=.sha256",
+    "branch": "%g/MIQ+6xrOtZVQ3KjhW5fNB3iSSBu1ctpFTrI8Zs5E4=.sha256",
+    "reply": {
+      "%g/MIQ+6xrOtZVQ3KjhW5fNB3iSSBu1ctpFTrI8Zs5E4=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+    },
     "channel": "36c3",
-    "vote": {
-      "link": "%g/MIQ+6xrOtZVQ3KjhW5fNB3iSSBu1ctpFTrI8Zs5E4=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) \n\n> Would enough of you be interested in listening to me rambling about API design for working with sequences of data (iterators, streams, sinks, observables, etc) for ca 45 minutes?\n\nYes! Whether I'll be there, however, is another story.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ]
   },
-  "signature": "MwUae37OJqN7B+nMRbyILKYJij8xk7SqLk5xgA6X1mlQ+SZT3AhhCAAVIeWUYnBgq4IbmEPPHVXgRxluqPUwCw==.sig.ed25519"
+  "signature": "8J56eH/2YskOdHRKpcQxZdtg2FixiJ9ITH74y4Y2sK0Lga32anHfTYzo32oVhOaciyWwCMEDWiR1xxIa0VYHDA==.sig.ed25519"
 }
