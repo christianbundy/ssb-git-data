@@ -1,22 +1,31 @@
 {
-  "previous": "%jafLrvG6djpgKybcLj6kV1m6ktB2gqBWciFlmehZ3a0=.sha256",
-  "sequence": 13593,
+  "previous": "%C9l5j0EvioiLGCW6KnASP5/YdTWn6FuZUReTWsD3+Fc=.sha256",
+  "sequence": 13594,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575844095496,
+  "timestamp": 1575844839263,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nThat's a really interesting idea. Would you sign the concatenated hashes, or the hash of the hashes? Reminds me of how Git manages this with the 'tree' abstraction.",
+    "text": "[@LWFlouisa](@29XgtQcls58yzswaXhe8bMm1AYokKOnTXAwKk/yAmZ4=.ed25519)\r\n\r\nHi! Which command are you trying to run? If you're just looking to connect to an existing SSB service (Patcwork, Patchbay, `ssb-server start`, etc.) you might dig [ssb-cli](https://github.com/fraction/ssb-cli).\r\n\r\n#ssb-dev #muxrpcli #ssb-cli",
     "mentions": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
+        "link": "@29XgtQcls58yzswaXhe8bMm1AYokKOnTXAwKk/yAmZ4=.ed25519",
+        "name": "LWFlouisa"
+      },
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#muxrpcli"
+      },
+      {
+        "link": "#ssb-cli"
       }
     ],
-    "root": "%e50LHcvh5YZzER1PVMSYNb+ljnyAV567KpFQt7nCdRs=.sha256",
+    "root": "%CUaaMUdgYfuwNaQRpp1bJKOHKS1ecEkeg9GrdnOJYHI=.sha256",
     "branch": [
-      "%c1gYd5PZCviX9xfYjfifNQ8WlfoIV2uysv48csgdcjg=.sha256"
+      "%CUaaMUdgYfuwNaQRpp1bJKOHKS1ecEkeg9GrdnOJYHI=.sha256"
     ]
   },
-  "signature": "mQ5Gjv4tnpd7ypJKUQYzT0tL4LMNZpLGHT5eSeNmFraKyYwbdXqDNG5rsF8FHL+OdVYahDWGh8jmfCgavXVuCg==.sig.ed25519"
+  "signature": "0rZ2WAPZcQrx/yy8H83Tqt0vG7T5AD12RvHxfDmPNNdAYD84VCA96qKSm/UrXBE2pklJXQcVUV7e/yvgy2OCCg==.sig.ed25519"
 }
