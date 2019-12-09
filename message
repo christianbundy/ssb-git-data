@@ -1,16 +1,35 @@
 {
-  "previous": "%+R4pBtEv2XTS46A2WZ+Xzj2VwYr+Vt8UUYj8Dtq172I=.sha256",
-  "sequence": 13602,
+  "previous": "%jppRXMUIbpf8jRorDJo517w/yTpSt0D+rkU372Z3tv0=.sha256",
+  "sequence": 13603,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575905676111,
+  "timestamp": 1575905806136,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%PnQCzcOKkdGQJnvAfiKOXu2PICXSu0DQ10u3x1bIj4k=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%PnQCzcOKkdGQJnvAfiKOXu2PICXSu0DQ10u3x1bIj4k=.sha256",
+    "branch": [
+      "%IubQTOTcvqpX2ViiUJYg394+lJ9Dn2Ut3VKjnvT3a0U=.sha256",
+      "%KQkpYuihe96DhMLnT0h/XJ+69eHUUnoifnOpsF7Rbyw=.sha256",
+      "%RNp0Nq1E8SEVSs6iS21BeD+7I5RABz9jPRM3BRKVHE4=.sha256",
+      "%ui0XkBUwf7t6M14jsLWPfkpoJuHuC8/CboHJ972Yj6k=.sha256"
+    ],
+    "reply": {
+      "%PnQCzcOKkdGQJnvAfiKOXu2PICXSu0DQ10u3x1bIj4k=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%KQkpYuihe96DhMLnT0h/XJ+69eHUUnoifnOpsF7Rbyw=.sha256": "@gOMUs3NPHVCk504aa9lmXpGx+bcenDNokOO++Ss4VMI=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nBeen thinking about this a lot lately. I know that [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) has decided against them in SSB-Browser, and apparently I've doubled-down on them by adding a \"popular\" page. Although I could probably sort by comment activity instead of like activity...\n\nI'm about 90% sure that I remember Manyverse having likes now. How are you feeling about it?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ]
   },
-  "signature": "gEalsrAS6FhST4TBAxixOrrCS0BzvGLvJMuQVwzcdBAQlxvXJRv2OTQZlaujss+Zu1BviWcui/cUhrfUR2duAQ==.sig.ed25519"
+  "signature": "ffUiCIW7htz8wxd0ZlvwANrgSVqby3ZYwKSryuprP1ZFf4rQDFb1tlqBoOihIpzuHusZfjx6ZjXOocQqIK6YDQ==.sig.ed25519"
 }
