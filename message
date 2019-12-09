@@ -1,38 +1,17 @@
 {
-  "previous": "%rYsKuxHZh+tHpzzzYDHGY4zP2NvTgko6Yvg/6DdBXfs=.sha256",
-  "sequence": 13604,
+  "previous": "%0lwqT3NZk7zTlATBHWuoN30KMrrga9BCtr097czYsnE=.sha256",
+  "sequence": 13605,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575906135742,
+  "timestamp": 1575906168607,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%r9nMaZHNBQ5ysnIU5m/N3oUk37MLz+EFjnqKZW0EiEw=.sha256",
-    "branch": "%chKO8POSknY/8NzgdfZd36p7iQAZTBpBmafDV83uPHc=.sha256",
-    "reply": {
-      "%r9nMaZHNBQ5ysnIU5m/N3oUk37MLz+EFjnqKZW0EiEw=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%chKO8POSknY/8NzgdfZd36p7iQAZTBpBmafDV83uPHc=.sha256": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) \n\nThank you! I think [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) has been working on something very similar, though I can't find a link, and Patchbay has a `/posts` page (which I think can be customized via `/postrank` or similar (cc: [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) (?)). Actually, I remember I built [something similar on top of Patchbay](%33duDpTudjd5MOQ217ZMmQ98rUHSJWsYLy2sNdTt9X0=.sha256), but it wasn't very fun to use.",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "%33duDpTudjd5MOQ217ZMmQ98rUHSJWsYLy2sNdTt9X0=.sha256",
-        "name": "something similar on top of Patchbay"
-      }
-    ]
+    "vote": {
+      "link": "%iR1Lop1lCKmv9z+4WhgNxTggh+nGGNylgFlmrfBBWcs=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Vc/7ab3aGcrjgImCmh/F7yjBH9XuovcQcjUl4eaNgIqCHDOt6nHhZnjM2Sr+kBeLmN1s7ckNdPbbgN2eKGtDCA==.sig.ed25519"
+  "signature": "6z9K8gkD5D40FG0OqqLy/xd/M3/YY+VIon5N9+hYw7R4z4j4ZGzL7m3xuz98d7aiwm6uRUCUOAVTFjsQsNwuDA==.sig.ed25519"
 }
