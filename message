@@ -1,16 +1,27 @@
 {
-  "previous": "%5RdYU4e5h3uXgQZNXVs4ez35OIzHdewDNyHbF+4RbFQ=.sha256",
-  "sequence": 13614,
+  "previous": "%LHf3tcPTSxuWhI4Ic6L1YvysTPqBn6Qj05kcUOBebkE=.sha256",
+  "sequence": 13615,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575909511657,
+  "timestamp": 1575923433787,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3Q4CoTA0xt8Mj0zFtPxf4kiBV1c2Mq4NNED5sGpLNRM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%iwUQFXDLgIN2N8+HLlxZnAb7Aj9hKHNAwPfxS2jPSus=.sha256",
+    "fork": "%oeSxTi9Mfzd0DUz9btTeSSzx50fayvbLVnOcDgQqd9c=.sha256",
+    "branch": "%AxbvtAl30mvmLBAkRaG3Rlnm8yEpKndLnVEX2BOHgsI=.sha256",
+    "reply": {
+      "%iwUQFXDLgIN2N8+HLlxZnAb7Aj9hKHNAwPfxS2jPSus=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+      "%AxbvtAl30mvmLBAkRaG3Rlnm8yEpKndLnVEX2BOHgsI=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nYep, all of them have been on purpose since we talked (and I added the \"reply all\" to Oasis). I forked this one because I didn't think ssb-wiki was central the the parent topic, but it *is* a tangent I want to explore.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ]
   },
-  "signature": "zqOWQ1jZF4bfI4SDe/Yz6iZvRMJEbUooOQEnv8sqWAS1cEFY6w+uEiLHuXzj0Eq20bCqW6Hy1fR+GYnC0A+LCA==.sig.ed25519"
+  "signature": "s0eOAnn1U+3tYz7F4mThOu2GkkMBklZdfAqJ7fVLD12v2qJeGENuuKH9q+hQLKYJ6dkhGosoEva/n+bgLuljAw==.sig.ed25519"
 }
