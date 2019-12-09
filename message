@@ -1,17 +1,26 @@
 {
-  "previous": "%iRDTEkpJpDpcF36QpEKvuQojjSIxPgilYSZQNfxC36E=.sha256",
-  "sequence": 13611,
+  "previous": "%bqpvo7gxUYKepRP0AvXBOTvMFc+tFMALVbBKbA6pzEQ=.sha256",
+  "sequence": 13612,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575909195286,
+  "timestamp": 1575909497834,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%PnQCzcOKkdGQJnvAfiKOXu2PICXSu0DQ10u3x1bIj4k=.sha256",
+    "branch": "%M40gy3rd9bQlojgRXnMxxv3/nCQdHoqEyz4tv/lomFM=.sha256",
+    "reply": {
+      "%PnQCzcOKkdGQJnvAfiKOXu2PICXSu0DQ10u3x1bIj4k=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+      "%M40gy3rd9bQlojgRXnMxxv3/nCQdHoqEyz4tv/lomFM=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%M40gy3rd9bQlojgRXnMxxv3/nCQdHoqEyz4tv/lomFM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) \n\nI think that's a good idea. I wonder whether there's a way to trigger an emoji-only input box on the web...\n\nIt might also be really nice to be able to add reactions to things over time. Lately I've been seeing lots of great older posts that have come up and it's a bummer that I can't re-like them and codify that I'm *still* excited about them. The *no duplicate reactions* constraint makes for a simple implementation, but there are some posts that make me want to mash the like button no matter how many times I see them.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ]
   },
-  "signature": "lFYCoVi9vdwAjS6jEuflj0jwJ+Y6oTGiT7iMtxDFoZu4eLnXy/nXBqGXC1DgihdpC7th5bpqLY+qerxaVQuQAw==.sig.ed25519"
+  "signature": "MlDe+lzJQTeLhqz/eSxaULIdFX5IaR4JhUq4A5RpWeYvsQoLTZShXdnl3y9hNxeTQe/RLCML7qDG8yPHb8DAAw==.sig.ed25519"
 }
