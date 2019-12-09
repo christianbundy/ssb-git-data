@@ -1,27 +1,17 @@
 {
-  "previous": "%LHf3tcPTSxuWhI4Ic6L1YvysTPqBn6Qj05kcUOBebkE=.sha256",
-  "sequence": 13615,
+  "previous": "%QvPNp7DuR1Ya1EU2RUr3JOF92VvBHX9PyRWTOPZvOCI=.sha256",
+  "sequence": 13616,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575923433787,
+  "timestamp": 1575923480680,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%iwUQFXDLgIN2N8+HLlxZnAb7Aj9hKHNAwPfxS2jPSus=.sha256",
-    "fork": "%oeSxTi9Mfzd0DUz9btTeSSzx50fayvbLVnOcDgQqd9c=.sha256",
-    "branch": "%AxbvtAl30mvmLBAkRaG3Rlnm8yEpKndLnVEX2BOHgsI=.sha256",
-    "reply": {
-      "%iwUQFXDLgIN2N8+HLlxZnAb7Aj9hKHNAwPfxS2jPSus=.sha256": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-      "%AxbvtAl30mvmLBAkRaG3Rlnm8yEpKndLnVEX2BOHgsI=.sha256": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519"
-    },
-    "channel": null,
-    "recps": null,
-    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) \n\nYep, all of them have been on purpose since we talked (and I added the \"reply all\" to Oasis). I forked this one because I didn't think ssb-wiki was central the the parent topic, but it *is* a tangent I want to explore.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "daan"
-      }
-    ]
+    "type": "vote",
+    "channel": "ssbc",
+    "vote": {
+      "link": "%ZNGyZ1wK5Y3vab0J8LLzOvLfLifs33ll4VfKVpsO8ww=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "s0eOAnn1U+3tYz7F4mThOu2GkkMBklZdfAqJ7fVLD12v2qJeGENuuKH9q+hQLKYJ6dkhGosoEva/n+bgLuljAw==.sig.ed25519"
+  "signature": "JiAc9JRvnFSHtdidn5aPF1aGiXyaDRTnrLtUhrlcoj374AwY0/XoWyoYMJhGsqkkcDUOKkiloFQggQqAIR6vDw==.sig.ed25519"
 }
