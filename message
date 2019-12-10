@@ -1,25 +1,30 @@
 {
-  "previous": "%YI5y8brcS3i2CEZ9NyLqqlrAa9ffMvxTrW0tkkr82Qc=.sha256",
-  "sequence": 13643,
+  "previous": "%tl5Z+oci0OUkRgN34O3fPWk2pVKGJWkKlhzE+R9SMDY=.sha256",
+  "sequence": 13644,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575989798265,
+  "timestamp": 1575990521814,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
-    "branch": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "root": "%ZIlGRLl3fDmJZ8JIE0ENPzDoWcOx0Q3SyuRLlap8wIs=.sha256",
+    "branch": "%c9HtlU8n4FC8X+xf1MwXRKkTq8Sc31Lqz+ExUmWq7kQ=.sha256",
     "reply": {
-      "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+      "%ZIlGRLl3fDmJZ8JIE0ENPzDoWcOx0Q3SyuRLlap8wIs=.sha256": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+      "%c9HtlU8n4FC8X+xf1MwXRKkTq8Sc31Lqz+ExUmWq7kQ=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519"
     },
     "channel": "ssb-learning",
     "recps": null,
-    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519) \n\nIt's possible that this will omit some secret-stack plugins, since those don't necessarily export any methods that we can see, but you could use [ssb-cli](https://github.com/fraction/ssb-cli) and look at only the ones that say `(group)`. Here's a hacky command:\n\n```console\n$ ssb  --help | grep -v '(async)' | grep -v '(sync)' | grep -v '(source)' | grep '  ssb ' | awk '{ print $2}' | sort\nabout\nbacklinks\nblobs\nconn\nconnScheduler\ncreateLogStream\nebt\nfriends\ngossip\ninvite\nlan\nmultiserver\npatchwork\nprivate\nquery\nreplicate\nsearch\ntags\n```\n\nWhat's the problem you're trying to solve? Maybe there's a better way to get this info for you.",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519) \n\nWhat [@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) said! My preference is [ssb-cli](https://github.com/fraction/ssb-cli), using [jq](https://stedolan.github.io/jq/) for post-processing. \n\nGetting all of your messages looks like this:\n\n```sh\nssb createUserStream --id $(ssb whoami | jq .id)\n```\n\nGetting only block messages:\n\n```sh\nssb createUserStream --id $(ssb whoami | jq .id) | \\\n  jq 'select((.value.content | type == \"object\") and (.value.content.blocking == true))'\n```",
     "mentions": [
       {
-        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-        "name": "glyph"
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      },
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
       }
     ]
   },
-  "signature": "AYjH0JPm0YE+PB1PbzZOrUb2FYAXgKfnMGZ56Pd7z7hwpTtBB5FbA7hd5IVTdCX4JCm9ZSjtTmLQpvqM8jX4BQ==.sig.ed25519"
+  "signature": "FEh4o2XQz2FKK/LrOjHbyO/9c6HYmNAWhU8R5TiJxs5YQp1GTmU7awi1sI8hKdrh2+xYvm592k8IepdnbOIyAg==.sig.ed25519"
 }
