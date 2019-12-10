@@ -1,18 +1,23 @@
 {
-  "previous": "%ktq3WztnhYMhMyY7onB3GblARWhpshD+wAj82Y52ABs=.sha256",
-  "sequence": 13681,
+  "previous": "%XaYudb5nUfn/QI2FuhD7/0AF7LDHoQauZBWSR94ht14=.sha256",
+  "sequence": 13682,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576018072396,
+  "timestamp": 1576018297256,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%V1W87mWBgqRg5PHxMQKHJqDToAhFGA5oAsm6NVU7T28=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nCool! Did you ever settle on a reasonable weight for likes vs comments that you liked? My current implementation reduces the weight of likes so that each like has a weight of `1 / Math.log(numberOfLikesByAuthor)` ([more info here](https://github.com/fraction/oasis/commit/dbdf5c847f1449893db1791cd4844e451952992f)), but I'm super open to improvements (and adding weight for comments).",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ],
+    "root": "%+ilMKVoNh8H62CdGbByPIGmwQX/Hl7luRzJMCCiOXSA=.sha256",
+    "fork": "%r9nMaZHNBQ5ysnIU5m/N3oUk37MLz+EFjnqKZW0EiEw=.sha256",
     "branch": [
-      "%ZSB3yAcRahsVzg4i++a8SvtB+uNAtfVW4JfXOCbdW3U=.sha256"
+      "%+ilMKVoNh8H62CdGbByPIGmwQX/Hl7luRzJMCCiOXSA=.sha256"
     ]
   },
-  "signature": "8Te5U0QpffQ9ZoPKPRC/2fwyEncfpvd0/aIxHCRON1AHQADqYFPkoCkQMm19Zkhg+r70tyqdcm1I+W2TzTzZDw==.sig.ed25519"
+  "signature": "X7dwzgpAOaMCrk9t/uH9X74r9R08GcyXc0ko/t6BOE62Ca+QntGSbPvmOa41UIF978yTPTkp+TOu9AsyBGQdDA==.sig.ed25519"
 }
