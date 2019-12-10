@@ -1,30 +1,26 @@
 {
-  "previous": "%ImGm+7NeN4tsvT6q6+FlWUrcJIA6AR/90WTtRiMmdak=.sha256",
-  "sequence": 13686,
+  "previous": "%M0oh9lTLKw9Qv40PqvDqp5Kbj3HF2RaE1VqwTU4WEoo=.sha256",
+  "sequence": 13687,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576020211223,
+  "timestamp": 1576021147786,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) [@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) [@Eb4890](@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519)\r\n\r\nMaybe [peek](https://en.wikipedia.org/wiki/Peek_(data_type_operation))? These all make sense.",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\n![Ridiculous Samsung grimace emoji](&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256)\r\n\r\nMaybe the thing I'm trying to point at is that the stream has already been reduced? For example, if we want to sum a bunch of numbers we can't omit any items from a stream like:\r\n\r\n```\r\n1 0 1 1 0 1 0 1 0 1 1 0\r\n```\r\n\r\nBut if the sum operation is happening *before* items are appended to the stream, we can ignore all but the latest value:\r\n\r\n```\r\n1 1 2 3 3 4 4 5 5 6 7 7\r\n                      ^\r\n```\r\n\r\nMaybe the common property is that the stream publisher is doing a [fold/reduce/accumulate/aggregate](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) for us?",
     "mentions": [
       {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
       },
       {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
-      },
-      {
-        "link": "@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519",
-        "name": "Eb4890"
+        "link": "&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256",
+        "name": "Ridiculous Samsung grimace emoji"
       }
     ],
     "root": "%V1W87mWBgqRg5PHxMQKHJqDToAhFGA5oAsm6NVU7T28=.sha256",
     "branch": [
-      "%ZSB3yAcRahsVzg4i++a8SvtB+uNAtfVW4JfXOCbdW3U=.sha256"
+      "%H1FX4kO71XfC9enqRRBsmH25579iay4xRjUW11NPmlI=.sha256"
     ]
   },
-  "signature": "uu89i5dS+Iq6TqjNGtf307b7AafPlGbLWdT3qlqYAyoueSuOKUJ5dF3SlepwPxQGEFoA7HWBcg1MgaHx7p7LBg==.sig.ed25519"
+  "signature": "H8XmSImMcZvbd/59322iM3fyhdJi9H6IFzHDCliUWAWiRgs3IblapywuTOVB39zVJIwS5IeTBhBudPkOTUcAAQ==.sig.ed25519"
 }
