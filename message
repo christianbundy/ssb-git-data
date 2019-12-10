@@ -1,17 +1,26 @@
 {
-  "previous": "%R7RXnwiDvxzYDZD8FoLlxjTAyobMGfCqchfWax+WIaI=.sha256",
-  "sequence": 13645,
+  "previous": "%BsqijMlUHEn9vKBIMjqEnJBm6o2QEf/qj+2v3hdUexQ=.sha256",
+  "sequence": 13646,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575990557676,
+  "timestamp": 1575990981126,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": "myco",
-    "vote": {
-      "link": "%EYN8/H7Ena5/20bl6uWCgBHhaoDD04Czh9hECFPyOuM=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%HZQcLUxaI2hwHqfPhuXTsSIugQuCs62cVVXIjKe7s+A=.sha256",
+    "fork": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "branch": "%HZQcLUxaI2hwHqfPhuXTsSIugQuCs62cVVXIjKe7s+A=.sha256",
+    "reply": {
+      "%HZQcLUxaI2hwHqfPhuXTsSIugQuCs62cVVXIjKe7s+A=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
+    "channel": "ssb-learning",
+    "recps": null,
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\n\n> I just tried the ssb-cli command but I get an error (couldn’t connect to SSB). ssb-server v19.2.0; node v9.8.0; npm v5.6.0. ssb-server is running and responds to `ssb-server whoami`.\n\nOh no! Any chance you're listening on a non-default host/port or something? I suppose I should probably be checking `~/.ssb/config` for any non-standard configuration. ",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ]
   },
-  "signature": "bWdaJbuJWXSM7giXWBDaBh41OIK6Ad0Xgq/NXFYl1JUsFGICW7ntT7XStPG1qo0SLtLO+jyrxsNiyJF/+VR1Cg==.sig.ed25519"
+  "signature": "bNiHHCQ8aw+aHcsrdCdvz0XYpPfNsm0uAAz97ANEehshqabeaTQmhe8vc6eqTodhqpK2SxNSbGmUfjd3EcA2BA==.sig.ed25519"
 }
