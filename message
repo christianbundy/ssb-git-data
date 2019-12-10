@@ -1,17 +1,29 @@
 {
-  "previous": "%KB998DQffat7NJqWMJo+R750F8veLTim84OIe9nK9+U=.sha256",
-  "sequence": 13648,
+  "previous": "%7Xwab7Bgn6kioRxttYdaQsWDSgBSV9DZeeaCNmE7T9g=.sha256",
+  "sequence": 13649,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575991264623,
+  "timestamp": 1575991632338,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256",
+    "branch": "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256",
+    "reply": {
+      "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%LUb9+ClZVpHfKhgNEqw6jyFmKB/BtRoCLnAjpPMy9rU=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519) \n\nFun! I used to drive down from Portland to Davis pretty often and lived there for a few months. Davis is great, and I've never been in a city with more bikes and paths. The localwiki claims [2.1 bikes per person](https://localwiki.org/davis/Bicycle_Census), which doesn't surprise me at all. If you're looking for things to do, the arboretum is great and [Raja's Tandoor](http://www.rajastandoor.com/) is very cheap and tasty.\n\ncc: [@bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519)",
+    "mentions": [
+      {
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
+      },
+      {
+        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
+        "name": "bram"
+      }
+    ]
   },
-  "signature": "oAERjIx7oi+tugvMdQHEd9qPk5lrdSS68VDAVNAa6v4vxpdinjwTBHtca4OyRzGOC8p/rR+9xH1Y2xqEJs8EAQ==.sig.ed25519"
+  "signature": "FkCJC7qhlur76nWjBt9SJ3s5FfNEzwoOVPS7sUkC/YPRUJKIewMrfFVGSi+mu/dsddUwgK+xCzy3pDL5sdjuDw==.sig.ed25519"
 }
