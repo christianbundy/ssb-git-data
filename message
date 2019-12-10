@@ -1,26 +1,18 @@
 {
-  "previous": "%M0oh9lTLKw9Qv40PqvDqp5Kbj3HF2RaE1VqwTU4WEoo=.sha256",
-  "sequence": 13687,
+  "previous": "%NPdbSTcFVI/eazFuixApiEaFGMypnamXTFYvcFlPFLQ=.sha256",
+  "sequence": 13688,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576021147786,
+  "timestamp": 1576021155806,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\n![Ridiculous Samsung grimace emoji](&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256)\r\n\r\nMaybe the thing I'm trying to point at is that the stream has already been reduced? For example, if we want to sum a bunch of numbers we can't omit any items from a stream like:\r\n\r\n```\r\n1 0 1 1 0 1 0 1 0 1 1 0\r\n```\r\n\r\nBut if the sum operation is happening *before* items are appended to the stream, we can ignore all but the latest value:\r\n\r\n```\r\n1 1 2 3 3 4 4 5 5 6 7 7\r\n                      ^\r\n```\r\n\r\nMaybe the common property is that the stream publisher is doing a [fold/reduce/accumulate/aggregate](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) for us?",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      },
-      {
-        "link": "&m5ueSGFvpgYo6SJSIkGMXbQA/1d8uXwm0mQJyittgXU=.sha256",
-        "name": "Ridiculous Samsung grimace emoji"
-      }
-    ],
-    "root": "%V1W87mWBgqRg5PHxMQKHJqDToAhFGA5oAsm6NVU7T28=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%H1FX4kO71XfC9enqRRBsmH25579iay4xRjUW11NPmlI=.sha256",
+      "value": 1
+    },
     "branch": [
       "%H1FX4kO71XfC9enqRRBsmH25579iay4xRjUW11NPmlI=.sha256"
     ]
   },
-  "signature": "H8XmSImMcZvbd/59322iM3fyhdJi9H6IFzHDCliUWAWiRgs3IblapywuTOVB39zVJIwS5IeTBhBudPkOTUcAAQ==.sig.ed25519"
+  "signature": "w3vDWfXpYCqYJQMmU+IogHhqNwxoqWb3J0G12/Akc4BjL8EJNCaUpjznsAQD23BQRLRf3gL5x1zNg8CIo/DVBA==.sig.ed25519"
 }
