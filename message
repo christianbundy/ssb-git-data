@@ -1,17 +1,26 @@
 {
-  "previous": "%06rEQnYEqCFFpc8MddCY1wjSbgN7oDQSO7DfAbItyYE=.sha256",
-  "sequence": 13630,
+  "previous": "%XZV47GB1fE+qOToj4FJ9uKcS7YSvt3psxA5vFq7ecNY=.sha256",
+  "sequence": 13631,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575942551334,
+  "timestamp": 1575942664706,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%9YdoWHTFW2CF0whbTsn3Q6KEMpBVmWfFevahAyX9fcI=.sha256",
+    "fork": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
+    "branch": "%9YdoWHTFW2CF0whbTsn3Q6KEMpBVmWfFevahAyX9fcI=.sha256",
+    "reply": {
+      "%9YdoWHTFW2CF0whbTsn3Q6KEMpBVmWfFevahAyX9fcI=.sha256": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%9YdoWHTFW2CF0whbTsn3Q6KEMpBVmWfFevahAyX9fcI=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@xj9.2](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519) \n\nThanks! This is really neat, I dig it.\n\nAside: are there lots of folks that use [Sunshine Gardens](https://sunshinegardens.org/)? I've been meaning to make my infrastructure more useful for other friendly people, and it's inspiring to see you doing the same!",
+    "mentions": [
+      {
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9.2"
+      }
+    ]
   },
-  "signature": "7shlmkJSfg0n5gpvAL8H989MnpK4oJc7hDT42tdzo+K6rCAPZGtwYQTeuGmfKBC+zFwrYo90ygC3ZebDF6PgAA==.sig.ed25519"
+  "signature": "CRwJ5rX5smRIBeq7AYnh93ZFCiDm39xlWK90WucV+4Q7beuhwjLLFiodkDfVNiPEBclPNHT1lvtX5UUsEyPSAg==.sig.ed25519"
 }
