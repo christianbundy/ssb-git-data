@@ -1,16 +1,26 @@
 {
-  "previous": "%x2NQF1hiqEdZOPYKC9alS/xnY2fWaye89uwNkqMNXOo=.sha256",
-  "sequence": 13652,
+  "previous": "%9nhbmfF1CyeYm6SN5WNgCrxr5ghF/F2SGubwcy4qoqY=.sha256",
+  "sequence": 13653,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575992234593,
+  "timestamp": 1575999527335,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iJc4HwLIWzv4++BBkuoU0sQZP3JvFjMog6qHpoocrCc=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "branch": "%8paKRBYiilybkTQwS17y1mCzXrYd1QQ7FjY5UdgP65A=.sha256",
+    "reply": {
+      "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+      "%8paKRBYiilybkTQwS17y1mCzXrYd1QQ7FjY5UdgP65A=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519"
+    },
+    "channel": "ssb-learning",
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) \n\nThat's true of muxrpcli, but ssb-cli shows all possible commands in `--help`, regardless of muxrpc-usage info.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ]
   },
-  "signature": "mbCgIl/m0thhU2Hz5AO/+NpZKtq3bdbzSPAqFMKKhb97R+cVFSfgGOqSaLq4G3QBcJGlPbDRqB5MZ/8taSvNCA==.sig.ed25519"
+  "signature": "GS1ZYkQLxWie4ukQ/NOqvp5sqrGNV/5B3briuARCVotN7wZ9mNhK+kBWIzIeY9ySWW0OyQtLaJkzkNiAUNABAA==.sig.ed25519"
 }
