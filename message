@@ -1,18 +1,18 @@
 {
-  "previous": "%i0Piqf8BAJKwzijgkc69XVDxiL8aFzzwv44F42Z86vw=.sha256",
-  "sequence": 13675,
+  "previous": "%Egy24Vg5VtNXtsbuVJ9wpwXmuYsdvikwWjXGDGz01A0=.sha256",
+  "sequence": 13676,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576015447496,
+  "timestamp": 1576016049798,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wfIgmYBaq6ax9AMytVUiXoHgVF68MANHuPGgFJB5OJg=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%GwrXYGv+8boMceGuJBEqqLYsYi6lTUfTRrWo62tl1xM=.sha256"
+    "type": "post",
+    "text": "# Ask SSB: How should Oasis show posts by default?\r\n\r\nAs many of you know, I've been working on a friendly SSB interface called Oasis, and I'd like to improve how it feels to scroll through the feed. Most SSB interfaces show posts in full, maybe adding a \"read more\" if it gets *way* too long, but I think it's still too hard to skim the list of messages.\r\n\r\nLately I've been experimenting with a summarized view, which only shows the first line of the message. If you select it, it expands to let you view the full message. Should this be the default? Here's a screenshot of how it looks when only one message is expanded:\r\n\r\n![Screenshot of Oasis posts with a few messages summarized to a one-line description and one expanded](&rxIqoK11dF1zrMSy3u8yu3W5S8YtMj4838V0cWtXNDs=.sha256)\r\n\r\nI'd love to get feedback on how to make SSB more ergonomic. Our network is filled with so much wonderful content, but I want to empower people to easily skip things that they don't want to read. To be explicit, I'm considering summarizing content in the popular and latest views, but I think we should probably keep the expanded messages in the thread view.\r\n\r\n**Note:** I agree that \"make it optional\" is a nice way to side-step the problem, but there's great power in setting reasonable defaults.",
+    "mentions": [
+      {
+        "link": "&rxIqoK11dF1zrMSy3u8yu3W5S8YtMj4838V0cWtXNDs=.sha256",
+        "name": "Screenshot of Oasis posts with a few messages summarized to a one-line description and one expanded"
+      }
     ]
   },
-  "signature": "5EgVaSsNC+Rfm7iVxBwUbga5rBCYGLYP4Kmu+lraMuO6jZUvzOV6yrFUg6TS3TUXSxyEELyvZPfoRH5xI6R6Cg==.sig.ed25519"
+  "signature": "VpzynnhgKpdgiLKF1SkTJ73ZvNtxu0Tohv4vRwzrVxmYmH/YIm1uJwb4d34FO0PDc3sQCh4R9Zajy3hmLKWJDA==.sig.ed25519"
 }
