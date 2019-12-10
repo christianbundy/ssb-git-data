@@ -1,17 +1,26 @@
 {
-  "previous": "%5zTxp/9rRMKSFOwILHLPAMdQnw1Lv0WImlx5hq5VzTc=.sha256",
-  "sequence": 13636,
+  "previous": "%eLLYYIdd5WvUJsVyAe9+/zpgqGDHLHxRfbasRPjFccs=.sha256",
+  "sequence": 13637,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575948885758,
+  "timestamp": 1575949025064,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%7aA5g0hb+GtNSRDhnPw5zG87753itxzjLObUOUJOFSs=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%01/Bgbl0l5/j/+Sp/y/YMKV5vDimd15LMJesKOiyUY0=.sha256",
+    "branch": "%EwuY8HQB13xJ9asx1wOCxSVrEIvw6mlSrJFewnTRY3I=.sha256",
+    "reply": {
+      "%01/Bgbl0l5/j/+Sp/y/YMKV5vDimd15LMJesKOiyUY0=.sha256": "@PBlCUzg9Qze4vE1Rmji0EnQ9tw3NC/jdktb+IdpggNM=.ed25519",
+      "%EwuY8HQB13xJ9asx1wOCxSVrEIvw6mlSrJFewnTRY3I=.sha256": "@PBlCUzg9Qze4vE1Rmji0EnQ9tw3NC/jdktb+IdpggNM=.ed25519"
+    },
+    "channel": "ssb-help",
+    "recps": null,
+    "text": "[@emag3m](@PBlCUzg9Qze4vE1Rmji0EnQ9tw3NC/jdktb+IdpggNM=.ed25519) \n\nHi! I think those are the authors of posts you've recently seen who you don't follow. I've made [an issue](https://github.com/ssbc/patchwork/issues/1224) to document this in a FAQ somewhere, thanks!",
+    "mentions": [
+      {
+        "link": "@PBlCUzg9Qze4vE1Rmji0EnQ9tw3NC/jdktb+IdpggNM=.ed25519",
+        "name": "emag3m"
+      }
+    ]
   },
-  "signature": "9nJKrMC8ISi5RyQ+YNgJsvThShfafltafMBGj/55QFzjD7rdp8Ul3Z18SX5hEUZzxVgSMpWKPwQwr0zpJr/HAQ==.sig.ed25519"
+  "signature": "NpHuGxDygmTPl9YG8sWbiKfPmmqkMWh5pnDHlcxW1YfzN4aDeqg3Z1s/V81ATX9LR7iLnjVDBBQZoQfXtp64Aw==.sig.ed25519"
 }
