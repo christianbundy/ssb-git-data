@@ -1,30 +1,17 @@
 {
-  "previous": "%tl5Z+oci0OUkRgN34O3fPWk2pVKGJWkKlhzE+R9SMDY=.sha256",
-  "sequence": 13644,
+  "previous": "%R7RXnwiDvxzYDZD8FoLlxjTAyobMGfCqchfWax+WIaI=.sha256",
+  "sequence": 13645,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575990521814,
+  "timestamp": 1575990557676,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%ZIlGRLl3fDmJZ8JIE0ENPzDoWcOx0Q3SyuRLlap8wIs=.sha256",
-    "branch": "%c9HtlU8n4FC8X+xf1MwXRKkTq8Sc31Lqz+ExUmWq7kQ=.sha256",
-    "reply": {
-      "%ZIlGRLl3fDmJZ8JIE0ENPzDoWcOx0Q3SyuRLlap8wIs=.sha256": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-      "%c9HtlU8n4FC8X+xf1MwXRKkTq8Sc31Lqz+ExUmWq7kQ=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519"
-    },
-    "channel": "ssb-learning",
-    "recps": null,
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519) \n\nWhat [@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) said! My preference is [ssb-cli](https://github.com/fraction/ssb-cli), using [jq](https://stedolan.github.io/jq/) for post-processing. \n\nGetting all of your messages looks like this:\n\n```sh\nssb createUserStream --id $(ssb whoami | jq .id)\n```\n\nGetting only block messages:\n\n```sh\nssb createUserStream --id $(ssb whoami | jq .id) | \\\n  jq 'select((.value.content | type == \"object\") and (.value.content.blocking == true))'\n```",
-    "mentions": [
-      {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
-      },
-      {
-        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
-        "name": "emile"
-      }
-    ]
+    "type": "vote",
+    "channel": "myco",
+    "vote": {
+      "link": "%EYN8/H7Ena5/20bl6uWCgBHhaoDD04Czh9hECFPyOuM=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "FEh4o2XQz2FKK/LrOjHbyO/9c6HYmNAWhU8R5TiJxs5YQp1GTmU7awi1sI8hKdrh2+xYvm592k8IepdnbOIyAg==.sig.ed25519"
+  "signature": "bWdaJbuJWXSM7giXWBDaBh41OIK6Ad0Xgq/NXFYl1JUsFGICW7ntT7XStPG1qo0SLtLO+jyrxsNiyJF/+VR1Cg==.sig.ed25519"
 }
