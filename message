@@ -1,18 +1,23 @@
 {
-  "previous": "%yE6pUIuas9rrkjLijI06M0vjAWsMV7uHDFzcneZEfm4=.sha256",
-  "sequence": 13665,
+  "previous": "%Y1XHoVeCFosKbGy2gVOCqIvUKsf3rZI1Nb918oOhxVw=.sha256",
+  "sequence": 13666,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576013744616,
+  "timestamp": 1576014454326,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%22LIXw1zJ8RurfQ9HfEsHPNd5umGTVXaLSW20CIarc4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\n> For instance, suppose the feed is “Is Corlock still alive” and it’s a bot that only posts a yes/no answer. You can easily consume only the latest messages, and it won’t matter that you missed two consecutive “yes”, or two consecutive “no”.\r\n\r\nThis reminds me of a parallel thread in [this SSB-DB pull request](https://github.com/ssbc/ssb-db/pull/275#issuecomment-562236232)\r\n\r\n> I'm tempted to suggest that muxrpc could resolve this by supporting a special \"debounce-able source\" or something, since the debounce timing is based on the round-trip latency, but I don't think we need to optimize it yet.\r\n\r\nIs there a name for streams where only the latest value matters? I'm confident this is an established pattern with a name, but I can't remember what it might be.",
+    "mentions": [
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
+      }
+    ],
+    "root": "%22LIXw1zJ8RurfQ9HfEsHPNd5umGTVXaLSW20CIarc4=.sha256",
+    "fork": "%F8Vyn73wTxdOM/xVn+9xa6r4ivR3+UzFu/szLeZ2Jrs=.sha256",
     "branch": [
       "%22LIXw1zJ8RurfQ9HfEsHPNd5umGTVXaLSW20CIarc4=.sha256"
     ]
   },
-  "signature": "qEuhqwGAUE52OmVTXshydryvUIeT2yMnkOaqgiuRQm6PGO9GpZhEfE+JD2VaRRd/Hit192uIK6sggvRXmahkDQ==.sig.ed25519"
+  "signature": "t/Iwr2lflvlGFmHd8X0kQwOVGQHWFHRycpNM3XPKEcGmoi2NqBKfSKctNeVvEbWKtpmK9Ju9VHekx5+6W3ldAA==.sig.ed25519"
 }
