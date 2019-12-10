@@ -1,23 +1,26 @@
 {
-  "previous": "%Y1XHoVeCFosKbGy2gVOCqIvUKsf3rZI1Nb918oOhxVw=.sha256",
-  "sequence": 13666,
+  "previous": "%qF5gb0KY339ZWeoUbDI9sFLQkVnAd29TrT+Xfc0Lp3s=.sha256",
+  "sequence": 13667,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576014454326,
+  "timestamp": 1576014917226,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\n> For instance, suppose the feed is “Is Corlock still alive” and it’s a bot that only posts a yes/no answer. You can easily consume only the latest messages, and it won’t matter that you missed two consecutive “yes”, or two consecutive “no”.\r\n\r\nThis reminds me of a parallel thread in [this SSB-DB pull request](https://github.com/ssbc/ssb-db/pull/275#issuecomment-562236232)\r\n\r\n> I'm tempted to suggest that muxrpc could resolve this by supporting a special \"debounce-able source\" or something, since the debounce timing is based on the round-trip latency, but I don't think we need to optimize it yet.\r\n\r\nIs there a name for streams where only the latest value matters? I'm confident this is an established pattern with a name, but I can't remember what it might be.",
+    "text": "[@corlock](@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519)\r\n\r\nThis is great! I was able to talk to myself. :~)\r\n\r\n![Screenshot of scuttle-chat where I'm sending and receiving short nonsense messages to myself](&AFwjxwCLp5DIaxcbjFUay9UlpUYJM+0jewRRXVfxOts=.sha256)",
     "mentions": [
       {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
+        "link": "@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519",
+        "name": "corlock"
+      },
+      {
+        "link": "&AFwjxwCLp5DIaxcbjFUay9UlpUYJM+0jewRRXVfxOts=.sha256",
+        "name": "Screenshot of scuttle-chat where I&#39;m sending and receiving short nonsense messages to myself"
       }
     ],
-    "root": "%22LIXw1zJ8RurfQ9HfEsHPNd5umGTVXaLSW20CIarc4=.sha256",
-    "fork": "%F8Vyn73wTxdOM/xVn+9xa6r4ivR3+UzFu/szLeZ2Jrs=.sha256",
+    "root": "%F8Vyn73wTxdOM/xVn+9xa6r4ivR3+UzFu/szLeZ2Jrs=.sha256",
     "branch": [
-      "%22LIXw1zJ8RurfQ9HfEsHPNd5umGTVXaLSW20CIarc4=.sha256"
+      "%kNuzp1d4rWnoGpN3+MXxKD7svkg9wuBnvu7E/iQ2cPM=.sha256"
     ]
   },
-  "signature": "t/Iwr2lflvlGFmHd8X0kQwOVGQHWFHRycpNM3XPKEcGmoi2NqBKfSKctNeVvEbWKtpmK9Ju9VHekx5+6W3ldAA==.sig.ed25519"
+  "signature": "XZbOfhVfRt3UtWXZOLBauRNagQ4q1wflpZsYErNfSb2HFfWHdt0G93hZhnRnaN9DRX0D3yp3BcTQC6jt1B8+BA==.sig.ed25519"
 }
