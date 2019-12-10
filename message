@@ -1,16 +1,25 @@
 {
-  "previous": "%8kMetb8VD0hzrqg+tln4+EENJBvAL+S3P6LKp/j1hGs=.sha256",
-  "sequence": 13655,
+  "previous": "%gFcvwEqXU30OjGexHUZHVW5GaR73DpN55QU2FRnCDJE=.sha256",
+  "sequence": 13656,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576006955591,
+  "timestamp": 1576009112010,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WdJtS21Aij93txT37DC/R+1UOXBG+NrbCGOAsewgAGE=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%Tb4c7MLEqzgaRedqWm5XMCX69e7GBOTlNexbdxUupGo=.sha256",
+    "branch": "%Tb4c7MLEqzgaRedqWm5XMCX69e7GBOTlNexbdxUupGo=.sha256",
+    "reply": {
+      "%Tb4c7MLEqzgaRedqWm5XMCX69e7GBOTlNexbdxUupGo=.sha256": "@cZ9x0KVNaYyO0G98cczOeHyXPVLqOOZnqPoUvv+QYKQ=.ed25519"
+    },
+    "channel": "diy",
+    "recps": null,
+    "text": "[@rosealibi](@cZ9x0KVNaYyO0G98cczOeHyXPVLqOOZnqPoUvv+QYKQ=.ed25519) \n\nFun! What sort of properties do you want it to have? I use Syncthing and I like it a bunch, but I mostly just use it for syncing photos from my phone to a Pi (with a 1 TB hard drive).",
+    "mentions": [
+      {
+        "link": "@cZ9x0KVNaYyO0G98cczOeHyXPVLqOOZnqPoUvv+QYKQ=.ed25519",
+        "name": "rosealibi"
+      }
+    ]
   },
-  "signature": "e7YXsgg+VD589rg8MErUzs+9qWYm5qXZfPE3g/c2jWV2qAI+RS8T+9OBaAfI++o89XrXcr5uUdI/EkDVSDzmDw==.sig.ed25519"
+  "signature": "LWj7NZjAmU4XsL8mxCiPvtE2nszdLH4B2oGo+vlmXlmHSxfNDSIki1UE5mlw60Wdjv1Y+6EiXpsq+L2bpIP8Ag==.sig.ed25519"
 }
