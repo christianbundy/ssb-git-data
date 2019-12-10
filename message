@@ -1,17 +1,34 @@
 {
-  "previous": "%QiyjjPIzCsNbLW77KonHrmTWYQdDoeeJnPtlA8Zq9RM=.sha256",
-  "sequence": 13625,
+  "previous": "%ydIXEt3zOZBYGF33jzg14x6OBJ/Y7qtLA5b7QoLcB5k=.sha256",
+  "sequence": 13626,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575934412952,
+  "timestamp": 1575940263143,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%iH6k9KTFv5vPcNAK3UWxKMZn/mrH8Y4DHwlty5gUBcw=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
+    "branch": "%CSUHs2ofs3Gxn1eCkcG67cqMX1liHHgnLpIa1tv26Gs=.sha256",
+    "reply": {
+      "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+      "%CSUHs2ofs3Gxn1eCkcG67cqMX1liHHgnLpIa1tv26Gs=.sha256": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519"
+    },
+    "channel": "ssb",
+    "recps": null,
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\n\nI'd love to give feedback on this, but I don't think I have any of the context on what problem this is meant to solve. If possible, I'd love a way-zoomed-out intro to the problem, maybe which solutions we've tried so far, and some background on the solution. \n\nIf we're just talking about translating URLs to blobs, my first inclination would be:\n\n- Publish <https://example.com/install.sh>\n- Server does 301 permanent redirect to blob URL\n- Server responds with immutable cache control [like this](https://oasis-demo.fraction.io/blob/%26qNy5xZ4bhu61z4k%2BXenbtDnt1IJp0b%2FgLJ%2Fvdzd5vxM%3D.sha256)\n\nI suspect I'm not grokking the problem we're solving? Hope this was helpful to explain my understanding so far.\n\ncc: [@RangerMauve](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519), this reminds me of your latest blog post and you may have some great feedback",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve"
+      }
+    ]
   },
-  "signature": "yZShNt0DS2/uJEgP6ToW2WoyXDjIRZ1b1EQvXZ239xFtt/aAA3m6dNMKRDoIBRg4sHDL5dS0OEa2vSdbmvtRDw==.sig.ed25519"
+  "signature": "LkAA872XoyhNZsRg0jVXajKAtGhourfpZfpqw/h8G2zr8oxzKuwfjnbOXanNFc2/5TjL6RH0fLVANSSXgDnxBA==.sig.ed25519"
 }
