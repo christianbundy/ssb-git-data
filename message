@@ -1,18 +1,29 @@
 {
-  "previous": "%Egy24Vg5VtNXtsbuVJ9wpwXmuYsdvikwWjXGDGz01A0=.sha256",
-  "sequence": 13676,
+  "previous": "%8r9O7185djNXP2XHn2Rv6l9krmxos8iQu9IavDBA0UE=.sha256",
+  "sequence": 13677,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576016049798,
+  "timestamp": 1576016276966,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Ask SSB: How should Oasis show posts by default?\r\n\r\nAs many of you know, I've been working on a friendly SSB interface called Oasis, and I'd like to improve how it feels to scroll through the feed. Most SSB interfaces show posts in full, maybe adding a \"read more\" if it gets *way* too long, but I think it's still too hard to skim the list of messages.\r\n\r\nLately I've been experimenting with a summarized view, which only shows the first line of the message. If you select it, it expands to let you view the full message. Should this be the default? Here's a screenshot of how it looks when only one message is expanded:\r\n\r\n![Screenshot of Oasis posts with a few messages summarized to a one-line description and one expanded](&rxIqoK11dF1zrMSy3u8yu3W5S8YtMj4838V0cWtXNDs=.sha256)\r\n\r\nI'd love to get feedback on how to make SSB more ergonomic. Our network is filled with so much wonderful content, but I want to empower people to easily skip things that they don't want to read. To be explicit, I'm considering summarizing content in the popular and latest views, but I think we should probably keep the expanded messages in the thread view.\r\n\r\n**Note:** I agree that \"make it optional\" is a nice way to side-step the problem, but there's great power in setting reasonable defaults.",
+    "text": "Screenshots of the above post, summarized and expanded (with different themes!):\r\n\r\n![Screenshot showing \"Ask SSB\" header](&w+O/nnhiaj7kbJMNW6w+mOjUrzRFi5jxpdpLpfNgIi0=.sha256)\r\n\r\n![Screenshot showing full post from above](&G1lu+aLSUC2lv1zGAHpjq9BR9VurqOoRZcQSoAb0Ytg=.sha256)\r\n\r\n#oasis",
     "mentions": [
       {
-        "link": "&rxIqoK11dF1zrMSy3u8yu3W5S8YtMj4838V0cWtXNDs=.sha256",
-        "name": "Screenshot of Oasis posts with a few messages summarized to a one-line description and one expanded"
+        "link": "&w+O/nnhiaj7kbJMNW6w+mOjUrzRFi5jxpdpLpfNgIi0=.sha256",
+        "name": "Screenshot showing &quot;Ask SSB&quot; header"
+      },
+      {
+        "link": "&G1lu+aLSUC2lv1zGAHpjq9BR9VurqOoRZcQSoAb0Ytg=.sha256",
+        "name": "Screenshot showing full post from above"
+      },
+      {
+        "link": "#oasis"
       }
+    ],
+    "root": "%8r9O7185djNXP2XHn2Rv6l9krmxos8iQu9IavDBA0UE=.sha256",
+    "branch": [
+      "%8r9O7185djNXP2XHn2Rv6l9krmxos8iQu9IavDBA0UE=.sha256"
     ]
   },
-  "signature": "VpzynnhgKpdgiLKF1SkTJ73ZvNtxu0Tohv4vRwzrVxmYmH/YIm1uJwb4d34FO0PDc3sQCh4R9Zajy3hmLKWJDA==.sig.ed25519"
+  "signature": "OP4G4AAiCEafkDyyfQ/kItCGFPNceTOdSNmrf2SG5h7L25OO0RbsUbarztzx8b3GtcY6+aux8x5hjWBk1uPZBw==.sig.ed25519"
 }
