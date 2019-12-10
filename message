@@ -1,17 +1,25 @@
 {
-  "previous": "%irott6PuHxpHh+lZ6+xKk0ZqmhoEfRgcGFyRujGvjpg=.sha256",
-  "sequence": 13642,
+  "previous": "%YI5y8brcS3i2CEZ9NyLqqlrAa9ffMvxTrW0tkkr82Qc=.sha256",
+  "sequence": 13643,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575988506856,
+  "timestamp": 1575989798265,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "channel": null,
-    "vote": {
-      "link": "%6msCIBOff5JHN0HkIv46ML5YHwFjoVUc+YAv/AZEzyA=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "root": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "branch": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "reply": {
+      "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
+    },
+    "channel": "ssb-learning",
+    "recps": null,
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519) \n\nIt's possible that this will omit some secret-stack plugins, since those don't necessarily export any methods that we can see, but you could use [ssb-cli](https://github.com/fraction/ssb-cli) and look at only the ones that say `(group)`. Here's a hacky command:\n\n```console\n$ ssb  --help | grep -v '(async)' | grep -v '(sync)' | grep -v '(source)' | grep '  ssb ' | awk '{ print $2}' | sort\nabout\nbacklinks\nblobs\nconn\nconnScheduler\ncreateLogStream\nebt\nfriends\ngossip\ninvite\nlan\nmultiserver\npatchwork\nprivate\nquery\nreplicate\nsearch\ntags\n```\n\nWhat's the problem you're trying to solve? Maybe there's a better way to get this info for you.",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ]
   },
-  "signature": "BT/wPS6i6amiN/WSfmdBe0rPq7ybwxXf1igeLNXdaYTqqVtEURWFeKBOnu3bsB/lGweJ/fIagWJemZntzmVfBw==.sig.ed25519"
+  "signature": "AYjH0JPm0YE+PB1PbzZOrUb2FYAXgKfnMGZ56Pd7z7hwpTtBB5FbA7hd5IVTdCX4JCm9ZSjtTmLQpvqM8jX4BQ==.sig.ed25519"
 }
