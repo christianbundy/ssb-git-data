@@ -1,29 +1,27 @@
 {
-  "previous": "%7Xwab7Bgn6kioRxttYdaQsWDSgBSV9DZeeaCNmE7T9g=.sha256",
-  "sequence": 13649,
+  "previous": "%2zNh0DF2tj975Z4hGil4LxNJ1f7fHmFitXq2na+mItA=.sha256",
+  "sequence": 13650,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1575991632338,
+  "timestamp": 1575991732491,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256",
-    "branch": "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256",
+    "root": "%HZQcLUxaI2hwHqfPhuXTsSIugQuCs62cVVXIjKe7s+A=.sha256",
+    "fork": "%+CwsgdHkzO+ZPntA8PoATiUbQNqd2LqVTG29rirwdZk=.sha256",
+    "branch": "%//GfluPa3DWoQ1YUW1AQ//7n/j7F9377dQ7s6cICPpE=.sha256",
     "reply": {
-      "%FroZs/nEzbxKAjytc00zKX8ZsZTmvV9RAG9vLaU5jzE=.sha256": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519"
+      "%HZQcLUxaI2hwHqfPhuXTsSIugQuCs62cVVXIjKe7s+A=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+      "%//GfluPa3DWoQ1YUW1AQ//7n/j7F9377dQ7s6cICPpE=.sha256": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519"
     },
-    "channel": null,
+    "channel": "ssb-learning",
     "recps": null,
-    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519) \n\nFun! I used to drive down from Portland to Davis pretty often and lived there for a few months. Davis is great, and I've never been in a city with more bikes and paths. The localwiki claims [2.1 bikes per person](https://localwiki.org/davis/Bicycle_Census), which doesn't surprise me at all. If you're looking for things to do, the arboretum is great and [Raja's Tandoor](http://www.rajastandoor.com/) is very cheap and tasty.\n\ncc: [@bram](@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519)",
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519) \n\nOh, and I'd imagine that `solarpunk.network` probably isn't `localhost`? 😅 Well, if you run a plain old `ssb-server start` for a moment it should let you snag all of the top-level plugin groups, but I'll work on adding `--host` and `--port` support too!",
     "mentions": [
       {
-        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
-        "name": "elavoie"
-      },
-      {
-        "link": "@eWOvcKppzZfzr04jpftrvwOUCzF847PQZ942hI3FCsI=.ed25519",
-        "name": "bram"
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
       }
     ]
   },
-  "signature": "FkCJC7qhlur76nWjBt9SJ3s5FfNEzwoOVPS7sUkC/YPRUJKIewMrfFVGSi+mu/dsddUwgK+xCzy3pDL5sdjuDw==.sig.ed25519"
+  "signature": "SCJO9cF9eUthveWDpxw2qsDdMhIZbHqozpm5ZOsfIEzoveY70FKL3LWOeEaIfe4GDwqC4cR9sv8whXWdk2jqDA==.sig.ed25519"
 }
