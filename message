@@ -1,25 +1,17 @@
 {
-  "previous": "%GKWYJu5KnI9LR8maiaEgdlrLvm4mmRo7YTLjcYX0DxM=.sha256",
-  "sequence": 13692,
+  "previous": "%KfYJ/b/ySNawIxtRDQKjF2RLu7zFidlydtj28jSvqYs=.sha256",
+  "sequence": 13693,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576024704676,
+  "timestamp": 1576028380802,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks for the explanation! Reading between the lines, am I correct to assume that the main problem is that we want the same `install.sh` file to point to different blobs over time?\r\n\r\nThis problem space feels like it has a big overlap with the #ssb-wiki problem, maybe there's one solution that would work for both? For example:\r\n\r\n```json\r\n{\r\n  \"type\": \"wiki\",\r\n  \"path\": \"install.sh\",\r\n  \"link\": \"&qNy5xZ4bhu61z4k+XenbtDnt1IJp0b/gLJ/vdzd5vxM=.sha256\"\r\n}\r\n```\r\n\r\nIf you had a button to give my feed a subdomain, maybe that blob would be served at either:\r\n\r\n- https://christianbundy.wiki.scuttlebot.io/install.sh, or\r\n- https://<my-feed-id>.wiki.scuttlebot.io/install.sh\r\n\r\n>  How does the network decide what this (sub)domain serves? (Can this be generalized to other domain names?)\r\n\r\nThe simplest way would to make one subdomain per public key, like how Dat does it. I'd love to have a big distributed wiki where my content is distributed to a bunch of different SSB-related domains.",
+    "text": "SSB daemon thought\r\n\r\nMaybe we should make it easier to run SSB as a daemon? I might just be describing Scuttle-Shell, but I wonder how it would feel to have SSB always running instead of only when we're viewing it.\r\n\r\nJust published an Oasis [systemd service file](https://github.com/fraction/oasis/blob/develop/contrib/oasis.service) that I'll be experimenting with.\r\n\r\n#scuttle-shell",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "#ssb-wiki"
+        "link": "#scuttle-shell"
       }
-    ],
-    "root": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
-    "branch": [
-      "%+Ae2g7S2bfTFBOvglXE7lhp+PVA0ENRm/1bgW6+wLww=.sha256"
     ]
   },
-  "signature": "RCtKEmoEqc3AfwbGUU5q8+zvmr799JQuHu2L3qcJFjltfb27fnsgiZTo4p2euic5DzPxKEOOevqxJ612RpHLAg==.sig.ed25519"
+  "signature": "LyDevq0bNYBvlybRRS7t/oz7zm8gsmV4c1q71wi1VVr7cAZsU5U3NVutPPG3XmPF8Q81MSRtMxYVTIPI9T1nBA==.sig.ed25519"
 }
