@@ -1,18 +1,25 @@
 {
-  "previous": "%GJNC4Q+k8MiE85IfpQkpLSbk/uvFc5CKZFRw1EJgOfQ=.sha256",
-  "sequence": 13691,
+  "previous": "%GKWYJu5KnI9LR8maiaEgdlrLvm4mmRo7YTLjcYX0DxM=.sha256",
+  "sequence": 13692,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576021776970,
+  "timestamp": 1576024704676,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%vU91jDVpNa3m4equTmBfQoDG0oaj+ZtreWMPgkUAx54=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks for the explanation! Reading between the lines, am I correct to assume that the main problem is that we want the same `install.sh` file to point to different blobs over time?\r\n\r\nThis problem space feels like it has a big overlap with the #ssb-wiki problem, maybe there's one solution that would work for both? For example:\r\n\r\n```json\r\n{\r\n  \"type\": \"wiki\",\r\n  \"path\": \"install.sh\",\r\n  \"link\": \"&qNy5xZ4bhu61z4k+XenbtDnt1IJp0b/gLJ/vdzd5vxM=.sha256\"\r\n}\r\n```\r\n\r\nIf you had a button to give my feed a subdomain, maybe that blob would be served at either:\r\n\r\n- https://christianbundy.wiki.scuttlebot.io/install.sh, or\r\n- https://<my-feed-id>.wiki.scuttlebot.io/install.sh\r\n\r\n>  How does the network decide what this (sub)domain serves? (Can this be generalized to other domain names?)\r\n\r\nThe simplest way would to make one subdomain per public key, like how Dat does it. I'd love to have a big distributed wiki where my content is distributed to a bunch of different SSB-related domains.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "#ssb-wiki"
+      }
+    ],
+    "root": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
     "branch": [
-      "%vU91jDVpNa3m4equTmBfQoDG0oaj+ZtreWMPgkUAx54=.sha256"
+      "%+Ae2g7S2bfTFBOvglXE7lhp+PVA0ENRm/1bgW6+wLww=.sha256"
     ]
   },
-  "signature": "i8jdzgeDE2HgwwYRh9lRmfcS3oCmns5Sjhae5dOje4lX+fV6cjCArJ3PKqDCD1ijWXPO2zrHp+O/b+cnQPb2BQ==.sig.ed25519"
+  "signature": "RCtKEmoEqc3AfwbGUU5q8+zvmr799JQuHu2L3qcJFjltfb27fnsgiZTo4p2euic5DzPxKEOOevqxJ612RpHLAg==.sig.ed25519"
 }
