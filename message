@@ -1,22 +1,18 @@
 {
-  "previous": "%OWaWsMR6veRxTcDgtoCCxoVbpvycX7i+EVBnbmdN8lY=.sha256",
-  "sequence": 13712,
+  "previous": "%c+aJvn8P4ldyj6UCUnKIx1llhkuvqUJkEVuJwYJFuZM=.sha256",
+  "sequence": 13713,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576105228606,
+  "timestamp": 1576105234686,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@zach](@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519)\r\n\r\nCool! That's what I've been doing so far, I'm just getting to the point where I'm building lots of things from scratch and trying to determine whether it'd be more friendly to use a framework with lots of already-existing documentation.\r\n\r\nI've got flexbox, CSS variables for all the colors (134 themes!), reasonable font support, and consistent vertical/horizontal rhythm, all of which are going great... but it's being thrown into a single [`style.css`](https://github.com/fraction/oasis/blob/master/src/assets/style.css) that's accruing technical debt. Before I start to fix it up I'd just like to make sure I'm not missing out on anything fun. :~)",
-    "mentions": [
-      {
-        "link": "@ZqH7Mctu/7DNInxuwl12ECjfrAKUX2tBLq1rOldNhg0=.ed25519",
-        "name": "zach"
-      }
-    ],
-    "root": "%OWaWsMR6veRxTcDgtoCCxoVbpvycX7i+EVBnbmdN8lY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%HpsRjDiLgMyI+K/l5FWGS9TvoCVRQHoFP7v6Xn4wXio=.sha256",
+      "value": 1
+    },
     "branch": [
       "%HpsRjDiLgMyI+K/l5FWGS9TvoCVRQHoFP7v6Xn4wXio=.sha256"
     ]
   },
-  "signature": "NVZTOief5ALRKiGF9t8+OMnh4lXHRF7fCSByb68/o2pySmfNvDDMmxX2BSRiiaUGudWOGnRKglLqOaGB0/tdAg==.sig.ed25519"
+  "signature": "aSwiqgP9mR+GGTJZBCVm6TbfD6+oHQJXxQ/lBoNm/C34L5sIYK6SAYC8q9AYYZcuHxvuVz9sncbdN8r67g4uAQ==.sig.ed25519"
 }
