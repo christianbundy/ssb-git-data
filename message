@@ -1,18 +1,22 @@
 {
-  "previous": "%lYJ5pdFmfV1Yj1U70ZJ9thzvblpk47Cuwreus4V3lqw=.sha256",
-  "sequence": 13695,
+  "previous": "%3VfVmue63uTJVG4z1PvxH1fnQGPi7d9vkNUvUzdbrO0=.sha256",
+  "sequence": 13696,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576036492396,
+  "timestamp": 1576039371136,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wGHx16+Rs7d7ez3AbxYD2KvvVTnb/23uliCmuX7Iinw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\n...or maybe this would be a better task for git-ssb? I think the biggest win at the smallest cost is giving everyone a feed-specific branch that only they can write to. ",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
     "branch": [
-      "%wGHx16+Rs7d7ez3AbxYD2KvvVTnb/23uliCmuX7Iinw=.sha256"
+      "%KfYJ/b/ySNawIxtRDQKjF2RLu7zFidlydtj28jSvqYs=.sha256"
     ]
   },
-  "signature": "s6hZPBdq1DvO9CPrUrQKCmnYjFBFJoFHe0XeZ/QPNTjCUVHobGvpJn41nF83/RVNTX7CSuoVFHAPmMdCqAMUBA==.sig.ed25519"
+  "signature": "409oVeRR5xfYiBRWuSsoikgLm6ythaV26DBjCWorCIPPLfaa4P/BgCGd6sQWIL7i3moES6wzmmyeZ7VadkqwDw==.sig.ed25519"
 }
