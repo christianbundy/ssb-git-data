@@ -1,25 +1,18 @@
 {
-  "previous": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
-  "sequence": 13694,
+  "previous": "%lYJ5pdFmfV1Yj1U70ZJ9thzvblpk47Cuwreus4V3lqw=.sha256",
+  "sequence": 13695,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576028529126,
+  "timestamp": 1576036492396,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@combinatorist](@kLfHifi5qtK/UYJceR+yRCbtSp4G3CriQSgfWJYrtwg=.ed25519)\r\n\r\n> Is it possible to undo a message you’ve confirmed if you haven’t gotten online since writing it? ;)\r\n\r\nYes! You can use [`del()`](https://github.com/ssbc/ssb-db/blob/master/api.md#del-async) for that, but you may need to recreate your indexes afterward.\r\n\r\n> Do private channels allow you to add others over time (like in Slack)?\r\n\r\nNo! I think that's an important consideration for the future. I think others are working on this as #private-groups.",
-    "mentions": [
-      {
-        "link": "@kLfHifi5qtK/UYJceR+yRCbtSp4G3CriQSgfWJYrtwg=.ed25519",
-        "name": "combinatorist"
-      },
-      {
-        "link": "#private-groups"
-      }
-    ],
-    "root": "%V/MovSJwLmb7ziWHEN5E6zpfF0nudZM++MFTEhHB4TY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%wGHx16+Rs7d7ez3AbxYD2KvvVTnb/23uliCmuX7Iinw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%M5GjqgGgEQy6N79GmbWekWaypQUCLjREbxX6NtcSFy0=.sha256"
+      "%wGHx16+Rs7d7ez3AbxYD2KvvVTnb/23uliCmuX7Iinw=.sha256"
     ]
   },
-  "signature": "hezqvnWX0NphK4EQcLTCT8llpBryp4gErYT3PR7zt73V74n9yYlsdIf+fAUkDY19Rc3sZHdwbWYTeNcinNjfCw==.sig.ed25519"
+  "signature": "s6hZPBdq1DvO9CPrUrQKCmnYjFBFJoFHe0XeZ/QPNTjCUVHobGvpJn41nF83/RVNTX7CSuoVFHAPmMdCqAMUBA==.sig.ed25519"
 }
