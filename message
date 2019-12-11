@@ -1,23 +1,22 @@
 {
-  "previous": "%bURAFFAfZpPpzhr5e2QIzvdjN13roDNoPb36dLYQBpE=.sha256",
-  "sequence": 13701,
+  "previous": "%8R4DF49lgqWZvD9Yx5NXKd/NMtEDcAw9tOF/o6ZZ+sM=.sha256",
+  "sequence": 13702,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576085152277,
+  "timestamp": 1576087956086,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\r\n\r\nThis is great info! Do you have an idea of how much RAM these devices have? It might be nice to constrain our tests so that they fail if they use > 1 GB (or similar).",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\n> maybe this would be a better task for git-ssb?\r\n\r\nI think I should be more explicit. Git is a great system for managing the state of a filesystem with an append-only log. Git-SSB is a great system for using Git via SSB, the only problem is that we don't have any protected branches.\r\n\r\nWe now want to manage a filesystem via SSB with protected branches, and are discussing different ways to do that, but I'm wondering whether this might be The Perfect Opportunity to add protected branches to git-ssb and solve both use-cases.\r\n\r\nEven a simple policy like \"commits to branches that start with `git-ssb-protected-*` will be ignored unless you're pushing to `git-ssb-protected-<your-feed-id>`\" would work fine, although it's a bit verbose. So if you checkout `git-ssb-protected-@alice.ed25519` you can be 100% sure that it was pushed by @alice.ed25519.\r\n\r\n> What would the different domains be? The same system hosted on different pubs? Or different applications/variations/structures?\r\n\r\nYeah, I was thinking the same system on different servers, although you could have a handful of different software systems implementing the same behavior.\r\n\r\n> Unless that feed can grant access to others.\r\n\r\nI think we're going to have to resolve the multi-writer problem in SSB as a whole before we'll be able to solve multi-writer in subsystems. I'd love to be wrong, but I think that any solution we could implement within the scope of a message type would probably work just fine *in general* and maybe should just be deployed to SSB.",
     "mentions": [
       {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "luandro"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ],
-    "root": "%BeEG0YgtNIZauqfraZT2pqoc6PrFIFTA1a3oV71EPHg=.sha256",
-    "fork": "%Hcn8YwJoHTXxmJd9vp9sfHrg2AZbUUBBSQUbRgHB1YM=.sha256",
+    "root": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
     "branch": [
-      "%o1VYJ8sXCZZNrf6q8AgQM0chPnbIfTxll6tGm9BHnWI=.sha256"
+      "%1ioFH4S7CBuPeJqHVu0EZdYW2ahf3fXojwEg6zmRmS8=.sha256"
     ]
   },
-  "signature": "fcClLNTKmklC0pMDSDVRtjV2WIC6twBqB2n5uop4aWvwkVAE/JqwwkF2+LVz0HAm+kHqlqV+6W/WJut+x4wjDg==.sig.ed25519"
+  "signature": "jM2anQYvBfFzxs9ys3tFX3DyClWC/VhF7d5ApkAuAlmR+TSmpnsdsKR+ajo9mQZS22faXw/4IGtC3H/Yaa5qCg==.sig.ed25519"
 }
