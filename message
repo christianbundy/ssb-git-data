@@ -1,17 +1,25 @@
 {
-  "previous": "%KfYJ/b/ySNawIxtRDQKjF2RLu7zFidlydtj28jSvqYs=.sha256",
-  "sequence": 13693,
+  "previous": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
+  "sequence": 13694,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576028380802,
+  "timestamp": 1576028529126,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "SSB daemon thought\r\n\r\nMaybe we should make it easier to run SSB as a daemon? I might just be describing Scuttle-Shell, but I wonder how it would feel to have SSB always running instead of only when we're viewing it.\r\n\r\nJust published an Oasis [systemd service file](https://github.com/fraction/oasis/blob/develop/contrib/oasis.service) that I'll be experimenting with.\r\n\r\n#scuttle-shell",
+    "text": "[@combinatorist](@kLfHifi5qtK/UYJceR+yRCbtSp4G3CriQSgfWJYrtwg=.ed25519)\r\n\r\n> Is it possible to undo a message you’ve confirmed if you haven’t gotten online since writing it? ;)\r\n\r\nYes! You can use [`del()`](https://github.com/ssbc/ssb-db/blob/master/api.md#del-async) for that, but you may need to recreate your indexes afterward.\r\n\r\n> Do private channels allow you to add others over time (like in Slack)?\r\n\r\nNo! I think that's an important consideration for the future. I think others are working on this as #private-groups.",
     "mentions": [
       {
-        "link": "#scuttle-shell"
+        "link": "@kLfHifi5qtK/UYJceR+yRCbtSp4G3CriQSgfWJYrtwg=.ed25519",
+        "name": "combinatorist"
+      },
+      {
+        "link": "#private-groups"
       }
+    ],
+    "root": "%V/MovSJwLmb7ziWHEN5E6zpfF0nudZM++MFTEhHB4TY=.sha256",
+    "branch": [
+      "%M5GjqgGgEQy6N79GmbWekWaypQUCLjREbxX6NtcSFy0=.sha256"
     ]
   },
-  "signature": "LyDevq0bNYBvlybRRS7t/oz7zm8gsmV4c1q71wi1VVr7cAZsU5U3NVutPPG3XmPF8Q81MSRtMxYVTIPI9T1nBA==.sig.ed25519"
+  "signature": "hezqvnWX0NphK4EQcLTCT8llpBryp4gErYT3PR7zt73V74n9yYlsdIf+fAUkDY19Rc3sZHdwbWYTeNcinNjfCw==.sig.ed25519"
 }
