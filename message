@@ -1,22 +1,18 @@
 {
-  "previous": "%nHT4bbeWnlmsNfxjUjZEOtCF9iS7KAM40px4Vn9kmdE=.sha256",
-  "sequence": 13704,
+  "previous": "%7SPtAVPczwXmMu2V+aXMKVjYLGRKqcL5mmBHwOJ6uUo=.sha256",
+  "sequence": 13705,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576088182896,
+  "timestamp": 1576089013196,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fenwick](@Q4rYvVUlbC0wdOhl0tmisTeJhTR/Y3PIu8yfXiMYXxY=.ed25519)\r\n\r\nTrue. I think there's an enormous difference between \"everyone maintains their own append-only log\" and \"everyone is forced to share consensus on a global append-only log\", and it's unclear which one they're pointing at.",
-    "mentions": [
-      {
-        "link": "@Q4rYvVUlbC0wdOhl0tmisTeJhTR/Y3PIu8yfXiMYXxY=.ed25519",
-        "name": "Fenwick"
-      }
-    ],
-    "root": "%zoS6GhrkYwCWXd1bR3j6dXkCjluTHIS77udaTxfizsI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7DRQ1qfFfORRm+o/RfChqF3yXn/XdXzDPNxUfS4Ke48=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%KAogMX7+ZD4Zn+4IBv6u7G1DtSoAdEsbk/4kjd5o7BM=.sha256"
+      "%7DRQ1qfFfORRm+o/RfChqF3yXn/XdXzDPNxUfS4Ke48=.sha256"
     ]
   },
-  "signature": "yeYegxCCxdQVg/oa0chPhpyWflHQdHRxmyJgVmJRbLgaA8/3heOx7VK4qo7lBn6OGTy7oQRXRdDWoutgAH7ICw==.sig.ed25519"
+  "signature": "ffa+8b/6suE9hnZmyEjLnVtYVQMKlUElw7n0diovrEQVV6vZRle2tX1pV/hG/01MGBQcPSsleEeB6HPF/CpmBQ==.sig.ed25519"
 }
