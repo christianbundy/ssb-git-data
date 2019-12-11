@@ -1,18 +1,23 @@
 {
-  "previous": "%T29r4ugXuQZ0RZX5V2pTYLjpcSMwFoG1xMEVO+ieLD0=.sha256",
-  "sequence": 13700,
+  "previous": "%bURAFFAfZpPpzhr5e2QIzvdjN13roDNoPb36dLYQBpE=.sha256",
+  "sequence": 13701,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576081943875,
+  "timestamp": 1576085152277,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JBQi0SGJtPWuroEsBVo3K2qwO2+LCLzAGdamTsfeoF0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519)\r\n\r\nThis is great info! Do you have an idea of how much RAM these devices have? It might be nice to constrain our tests so that they fail if they use > 1 GB (or similar).",
+    "mentions": [
+      {
+        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
+        "name": "luandro"
+      }
+    ],
+    "root": "%BeEG0YgtNIZauqfraZT2pqoc6PrFIFTA1a3oV71EPHg=.sha256",
+    "fork": "%Hcn8YwJoHTXxmJd9vp9sfHrg2AZbUUBBSQUbRgHB1YM=.sha256",
     "branch": [
-      "%JBQi0SGJtPWuroEsBVo3K2qwO2+LCLzAGdamTsfeoF0=.sha256"
+      "%o1VYJ8sXCZZNrf6q8AgQM0chPnbIfTxll6tGm9BHnWI=.sha256"
     ]
   },
-  "signature": "v9Blb/gvjkzUWCVLhRz+g5vodHb+I5BBshR3tHy8OO+C5FOVp+bKfa76XIsY0asA9dGPMUxPCd9ZWBv4GJgOAg==.sig.ed25519"
+  "signature": "fcClLNTKmklC0pMDSDVRtjV2WIC6twBqB2n5uop4aWvwkVAE/JqwwkF2+LVz0HAm+kHqlqV+6W/WJut+x4wjDg==.sig.ed25519"
 }
