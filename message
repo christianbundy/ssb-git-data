@@ -1,22 +1,22 @@
 {
-  "previous": "%dPSsI260pw5z8oForvekd3IuP77rBKK38V9Wd+rnGhA=.sha256",
-  "sequence": 13789,
+  "previous": "%f640RIMHBQ0aX/P7VA2D9YfwdjO5VtFvTxn0vxXmYUE=.sha256",
+  "sequence": 13790,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576175411290,
+  "timestamp": 1576175577111,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@ａｄｉｄａｌ](@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519)\r\n\r\nYou've gotta use two separate accounts for now. The SSB magic requires that each account has a **single linear list of messages**, so if you have your private key in two places you might accidentally break that constraint. For example, if your computer and phone post a message at the same time, your feed will become broken (because people might disagree on the state of your feed).",
+    "text": "[@ａｄｉｄａｌ](@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519)\r\n\r\nI'm not a lawyer and can't content on how a court would deal with this, but *yes*, this means that when you follow someone you're downloading their content. You're always able to block people and delete the things that you downloaded from them, and [obviously] if someone ever uploads bad stuff then you should block them immediately.",
     "mentions": [
       {
         "link": "@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519",
         "name": "ａｄｉｄａｌ"
       }
     ],
-    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
+    "root": "%50uBB9Bh17wZK2vpNqGbokBqP5RDDD1/FATUxCb3eW0=.sha256",
     "branch": [
-      "%qnMei2gi+BmNGBaiMTPWbPWfxZ+OnqWQAfEXVERX1uQ=.sha256"
+      "%50uBB9Bh17wZK2vpNqGbokBqP5RDDD1/FATUxCb3eW0=.sha256"
     ]
   },
-  "signature": "PofHmHrovw4Ygq0sfMOGE34CgYtdzYM0fpwM3EfL/x14plkxsOsINM1MnR5fY44Sjt3nmaBjNrDFGqeoZAw3AA==.sig.ed25519"
+  "signature": "CbyX4AyAJgFblXIlWWPWO8boJJokYTgNK8MIDrC35WutnamXlVw0vSpEiq+zPNcHm30CqltNfuMzWACHqxCRCA==.sig.ed25519"
 }
