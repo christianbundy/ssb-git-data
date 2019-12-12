@@ -1,18 +1,26 @@
 {
-  "previous": "%hp7Wa3gbw6od5CTnGaTrtWxJhi4e2HB85FGUhfzQFPU=.sha256",
-  "sequence": 13796,
+  "previous": "%0HED3pQCHYRZzzdArH5H2ZDzuUIcy2ofQcGJWiyO2pc=.sha256",
+  "sequence": 13797,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576182076423,
+  "timestamp": 1576182768033,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%6W0/RWBnJA9DwU2E7xSAJLnEcqzfP5mCPDJs2GRdBTY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nI just want to note: checking against ssb-schema-definitions is great as a pre-publish check to ensure you aren't creating any funky messagess, but they're very strict so lots of common messages will fail them.\r\n\r\nFor example, I think that you sometimes set `{ fork: false }` on your messages ([example](%sDXj7XEHxEHfWIMlz/CzfCXAvTEnZt4XdWjzdsXuGUE=.sha256)), which doesn't parse as a valid message if you ask ssb-schema-definitions.\r\n\r\nThere's an open discussion [here](https://github.com/ssbc/ssb-schema-definitions/issues/4#issuecomment-555702016), if you're interested.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "%sDXj7XEHxEHfWIMlz/CzfCXAvTEnZt4XdWjzdsXuGUE=.sha256",
+        "name": "example"
+      }
+    ],
+    "root": "%EXOpB5tLTR7/2SUzJyDL5r0RUbVrAInPJgpqvbpb1rQ=.sha256",
     "branch": [
-      "%6W0/RWBnJA9DwU2E7xSAJLnEcqzfP5mCPDJs2GRdBTY=.sha256"
+      "%g1mU4/JDKpRbGm0EqwJdMfv6bw6+3ebWJp0f7vEs4JI=.sha256"
     ]
   },
-  "signature": "vPJoMgpNikAjDNCVNPQasX6dOwa5N+DdFQSCyjEVuc6Q/VHuyZ53Cv06TdkuG+dGiuwgoG1bbNf0uei5oUGpBQ==.sig.ed25519"
+  "signature": "+Ecpy7ajOyzwTzGZ7uhFtWzesaGBFujEYf7Ort8qXbkN4mZzNRYjm3vyQyIh1ThN+7Q1yVO2X5oAg/sxDY62Aw==.sig.ed25519"
 }
