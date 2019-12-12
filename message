@@ -1,18 +1,23 @@
 {
-  "previous": "%iKWUP7fYPGCEZ9gh52/Px4UkNIc/rct1DMC1dhcE1wM=.sha256",
-  "sequence": 13738,
+  "previous": "%S87+H86UoZNdr95nZGgzxh4wfKfkkGuFMZJ4BlKwrbU=.sha256",
+  "sequence": 13739,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576164033747,
+  "timestamp": 1576164715610,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VnLiCXFkOrk06FK9HIzWBJu/kaVSvSvn0wuoQo5kXRE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519)\r\n\r\nI agree, and I'm way more excited about package managers than the `curl | sh` method, but most people don't already have a package manager installed. How do I get hashpipe installed on their machine without a package manager?\r\n\r\nI suppose I could add hashpipe to the downloaded script that gets executed, but that doesn't seem like it would provide much security.",
+    "mentions": [
+      {
+        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
+        "name": "Gergely Polonkai"
+      }
+    ],
+    "root": "%7Dx/qb1R0Y6x4M2HxEndOE0d1akTg7axAoddWhPZB9U=.sha256",
+    "fork": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
     "branch": [
-      "%VnLiCXFkOrk06FK9HIzWBJu/kaVSvSvn0wuoQo5kXRE=.sha256"
+      "%7Dx/qb1R0Y6x4M2HxEndOE0d1akTg7axAoddWhPZB9U=.sha256"
     ]
   },
-  "signature": "51GRaVUVP1q9or5lS+XgzfASzloPIu/H4cC5TNEiXLRL+9nSVTklYyx35JP/6ojd9CqEkXqSbr66y0pijtobDQ==.sig.ed25519"
+  "signature": "5YoMaiPKOVlsr2kgozHpQdcnzZuNXmmxX+sZgUZ8SAWUAyhEjDFB2xiyl0S0eoHSpUZ+Oi0T0cvxLzHSynIJCw==.sig.ed25519"
 }
