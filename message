@@ -1,22 +1,17 @@
 {
-  "previous": "%ec0Cx600iEHSs5ImEptleR+mD8cjBLV/a1+2KjNVW4Y=.sha256",
-  "sequence": 13727,
+  "previous": "%VsE2FXnwP0NpF9/cNw96i00vn2ErhEI0hGjGJ2A88ug=.sha256",
+  "sequence": 13728,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576115631334,
+  "timestamp": 1576120021524,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dan](@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519)\r\n\r\nI don't have any good advice, but I hope you find someone who you feel comfortable and compatible with. I tried a few different therapists but didn't find any that I really clicked with. Anti-depressants, however, worked like a charm for the period of time that I needed them.",
-    "mentions": [
-      {
-        "link": "@NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519",
-        "name": "dan"
-      }
-    ],
-    "root": "%Hm5moJpKPxqXNaRN1amtm9oH8PkK/lqv7ttpLRKLNis=.sha256",
+    "text": "Crazy idea: don't worry about desktop integration (which requires buying certificates (!!!) on macOS and Windows). Just build an install script that integrates with launchd, the Windows services manager, and three hundred styles of Linux init daemons.\r\n\r\n1. Copy this text\r\n2. Open Terminal.app or Start -> Run\r\n3. Paste the text\r\n4. Type your password when prompted (don't be surprised if the password characters are invisible)\r\n5. Click this link: http://localhost:3000\r\n\r\nI'm thinking something like the [homebrew install page](https://brew.sh/). Of course people with package managers should install software with their package manager, but a `curl | sh` might be easier than buying certs and building binaries.",
+    "mentions": [],
+    "root": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
     "branch": [
-      "%Hm5moJpKPxqXNaRN1amtm9oH8PkK/lqv7ttpLRKLNis=.sha256"
+      "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256"
     ]
   },
-  "signature": "SOWwE/C9A7bf1fClGJ0cBynCp21LU+h9d1kzwKmyAc9knWUKDvgsxnA0+CevE6LodfjRkhYJlFBCsunRJJ60Dg==.sig.ed25519"
+  "signature": "wcBgaoyD+wV63ioHrmyboKLKSQHM8Xtszh470BZo8chvtUgDjW+V2fGGow3rB6HzVZ+rmjzF9kc3u64voZtBBw==.sig.ed25519"
 }
