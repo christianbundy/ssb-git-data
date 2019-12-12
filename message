@@ -1,17 +1,17 @@
 {
-  "previous": "%VsE2FXnwP0NpF9/cNw96i00vn2ErhEI0hGjGJ2A88ug=.sha256",
-  "sequence": 13728,
+  "previous": "%NPAYFHGFy8qnsoF3ywgv/ToBOmMT7cS+AcvX2M1PY/0=.sha256",
+  "sequence": 13729,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576120021524,
+  "timestamp": 1576120274174,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Crazy idea: don't worry about desktop integration (which requires buying certificates (!!!) on macOS and Windows). Just build an install script that integrates with launchd, the Windows services manager, and three hundred styles of Linux init daemons.\r\n\r\n1. Copy this text\r\n2. Open Terminal.app or Start -> Run\r\n3. Paste the text\r\n4. Type your password when prompted (don't be surprised if the password characters are invisible)\r\n5. Click this link: http://localhost:3000\r\n\r\nI'm thinking something like the [homebrew install page](https://brew.sh/). Of course people with package managers should install software with their package manager, but a `curl | sh` might be easier than buying certs and building binaries.",
+    "text": "> Of course people with package managers should install software with their package manager\r\n\r\nYou have the right to a package manager. If you cannot afford a package manager, one will be appointed to you before installation if you wish.\r\n\r\n👏 install 👏 package 👏 managers 👏  \r\n👏  hack   👏   the   👏  planet  👏",
     "mentions": [],
     "root": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
     "branch": [
-      "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256"
+      "%NPAYFHGFy8qnsoF3ywgv/ToBOmMT7cS+AcvX2M1PY/0=.sha256"
     ]
   },
-  "signature": "wcBgaoyD+wV63ioHrmyboKLKSQHM8Xtszh470BZo8chvtUgDjW+V2fGGow3rB6HzVZ+rmjzF9kc3u64voZtBBw==.sig.ed25519"
+  "signature": "Oi7/0lmTx/Ifv/KLZr6+IEaqrQvjBQrBQcJyUBtZI3KPr0zvyBZEnuMKsgOkiUaqLZ5tmLEgUO5QaCbYTSXhCg==.sig.ed25519"
 }
