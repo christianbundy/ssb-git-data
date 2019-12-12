@@ -1,22 +1,13 @@
 {
-  "previous": "%fYySrhd2ccnC8XS2nUvsM8NHLw3WEC2rSAVfjsPV+Nw=.sha256",
-  "sequence": 13779,
+  "previous": "%891LD39f7qkC9rxsK2GzEZMtxeg/F3jQvZiZd6agFJw=.sha256",
+  "sequence": 13780,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576173166400,
+  "timestamp": 1576173201169,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@RangerMauve](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519)\r\n\r\nProbably something like:\r\n\r\n```sh\r\nssb-server invite.accept \"ssb.dweb.tools:8008:@eFg4A4PYVdzu6fwzP0Xl1Iuv7FIhqyaaVWUlIOFkAZo=.ed25519~s5Cf3t0UzqcHwKXBhQ4/Kd2cmHMxjSSjrZyVTlS/uwc=\"\r\n```\r\n\r\nYou may need do run `docker exec -it <container_id> <command_here>` if you're running from outside of Docker.",
-    "mentions": [
-      {
-        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
-        "name": "RangerMauve"
-      }
-    ],
-    "root": "%L5cqXNqqYjCDoww4PUpO/yzAipRB0uvKVFICCrHaQp4=.sha256",
-    "branch": [
-      "%L5cqXNqqYjCDoww4PUpO/yzAipRB0uvKVFICCrHaQp4=.sha256"
-    ]
+    "text": "I have a cat on my lap and everything is good.",
+    "mentions": []
   },
-  "signature": "AyMUxD/jS3iwdL8BdAnu2gjCSonngrAJt1wiPWoEWXqoZ/LIVC0NLiyBFmEyidc2CPIkS/Ac5Vvng03gh0vdBA==.sig.ed25519"
+  "signature": "BtSR/euTSelY1rPkmx/ny83lEHhBMUwUYG6wr97sLLmjlww5FIMKNrpma2aKd1OqTw/EfW3p5SKmRdrLSA9qCA==.sig.ed25519"
 }
