@@ -1,18 +1,22 @@
 {
-  "previous": "%QCYdb+u7Ryd/UG1O2BPEYeQKBJkRARK1Q0H8UoKW02o=.sha256",
-  "sequence": 13788,
+  "previous": "%dPSsI260pw5z8oForvekd3IuP77rBKK38V9Wd+rnGhA=.sha256",
+  "sequence": 13789,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576175193420,
+  "timestamp": 1576175411290,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%FazGhlDx+tF3aHOEip60fdHsfZVGr2SklIF1a+hxDhY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@ａｄｉｄａｌ](@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519)\r\n\r\nYou've gotta use two separate accounts for now. The SSB magic requires that each account has a **single linear list of messages**, so if you have your private key in two places you might accidentally break that constraint. For example, if your computer and phone post a message at the same time, your feed will become broken (because people might disagree on the state of your feed).",
+    "mentions": [
+      {
+        "link": "@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519",
+        "name": "ａｄｉｄａｌ"
+      }
+    ],
+    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
     "branch": [
-      "%FazGhlDx+tF3aHOEip60fdHsfZVGr2SklIF1a+hxDhY=.sha256"
+      "%qnMei2gi+BmNGBaiMTPWbPWfxZ+OnqWQAfEXVERX1uQ=.sha256"
     ]
   },
-  "signature": "aufNyf+L3rTLqWXTTpgvEegCQuyqIe5wSVdGYzpRKmNhMkiayly4EI2F8XUmQfQXqQ4PkvDMfuasJg1Ba0SzDQ==.sig.ed25519"
+  "signature": "PofHmHrovw4Ygq0sfMOGE34CgYtdzYM0fpwM3EfL/x14plkxsOsINM1MnR5fY44Sjt3nmaBjNrDFGqeoZAw3AA==.sig.ed25519"
 }
