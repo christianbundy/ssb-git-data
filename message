@@ -1,22 +1,27 @@
 {
-  "previous": "%6EEeb9ahfPVh5TQm83CoIP/BpuSpuwbss8sdn8ivWIU=.sha256",
-  "sequence": 13812,
+  "previous": "%prCsLCR0orSxU5Wx7KLdctH9oo5PTcySGhBVrZLDfRM=.sha256",
+  "sequence": 13813,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576192199080,
+  "timestamp": 1576193336650,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@ａｄｉｄａｌ](@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519)\r\n\r\nBy default you get content from the people you follow and the people they follow, so I do all of my real following on my laptop and then my mobile follows my laptop.",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nI'd like to encode some Objective Truth, but I'm lazy. Do you think encoding a user-agent would be a bad idea, or maybe useful in the future? Two variants I have in mind:\r\n\r\n## String\r\n\r\n```json\r\n{\r\n  \"userAgent\": \"foo@1.2.3\"\r\n}\r\n```\r\n\r\n## Object\r\n\r\n```json\r\n{\r\n  \"userAgent\": {\r\n    \"name: \"foo\",\r\n    \"version\": \"1.2.3\"\r\n  }\r\n}\r\n```\r\n\r\nThe object form is a bit more verbose, but at least it doesn't require parsing a version string. Especially if we do [scopes](https://docs.npmjs.com/misc/scope), like `@christianbundy/patchbay@latest`.",
     "mentions": [
       {
-        "link": "@A+NcCwRM0oFkZncytGDjD6dpX/KcxHAehvaq2vwy66c=.ed25519",
-        "name": "ａｄｉｄａｌ"
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ],
-    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
+    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
     "branch": [
-      "%dDEFojKWfGHzci8XC7NKjtrPur2FJznCuhGlM/YrOMA=.sha256"
+      "%39zsY+Pm/pfr/hsuI8F/69NczlAjI0RmqkKwfy1oBZA=.sha256",
+      "%s2nB+4isSdzBT0/cbcvzuPSUdA3nGGHNKIS7y3mqc4M=.sha256"
     ]
   },
-  "signature": "il/qFrOmOdpW6neoG5/AQhnS0MJY/pvJTFiQRXTmcBfT08TKdfRWjiKQ6OP26+INJ3YUK7WoN2FB0py+640nAw==.sig.ed25519"
+  "signature": "M1bpNhNLHcSZCqA/JjDsZVcMe8ieGUxVllj7tXy0RPBwbO5b13oErsLMK/aIEDP6T8qzsJQwhOo8FmJgCMRnCg==.sig.ed25519"
 }
