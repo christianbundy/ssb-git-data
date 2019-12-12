@@ -1,23 +1,18 @@
 {
-  "previous": "%NI9x8eTpL9kGLX8CelohkPd1qO52LzWYyJlAg1MKjcg=.sha256",
-  "sequence": 13733,
+  "previous": "%yjnFPwrawrQyxY7e4hu8f1tFSBQJdED6+rmbhJmplVU=.sha256",
+  "sequence": 13734,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576121144534,
+  "timestamp": 1576121894914,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@gozala](@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519)\r\n\r\nThinking about this tonight. The http://ipld.io domain seems to be down, but I'd be curious to see an feed type like Gabby Grove/Bamboo/etc based on IPLD. I've been working on this problem lots lately and quickly becoming optimistic about a future with a variety of feed types.",
-    "mentions": [
-      {
-        "link": "@B/Pg4xaGbgy2CFrza9g5kGZurAILCk+NapOcTXah98I=.ed25519",
-        "name": "gozala"
-      }
-    ],
-    "root": "%LwSUSNx8p/r3FH3K7QQ/wEzLoCT6WlbQptB/PhFVpDI=.sha256",
-    "fork": "%+FhzR6IlcFfiSs70k7fTYq2IhVKyUNZgmamKHETLhwI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%ETD+jOztPNGGoRQXXIw0SybIoJ/s36G9fgjiziamNUU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%LwSUSNx8p/r3FH3K7QQ/wEzLoCT6WlbQptB/PhFVpDI=.sha256"
+      "%ETD+jOztPNGGoRQXXIw0SybIoJ/s36G9fgjiziamNUU=.sha256"
     ]
   },
-  "signature": "OaXJOVusbiVFuf9vQUpAlCDzrHXVTMYFxl4lJpSwskgbmkUQW4tGL1gzl/f1hy5murY1320nBL3NJXqdwZElCQ==.sig.ed25519"
+  "signature": "TpT6hjtK5jFdhMpDjKx5y4UPnnKbDfKwo6Hrjp06tVmStsvqpKLek6AIcx/mVSmrkJTbbFgKMRbVnGohCulEBw==.sig.ed25519"
 }
