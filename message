@@ -1,13 +1,22 @@
 {
-  "previous": "%hdT60Fxcmt1MxOcg48ev3pk6rf30dloyr0oLwEC62Xo=.sha256",
-  "sequence": 13778,
+  "previous": "%fYySrhd2ccnC8XS2nUvsM8NHLw3WEC2rSAVfjsPV+Nw=.sha256",
+  "sequence": 13779,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576173088250,
+  "timestamp": 1576173166400,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@eFg4A4PYVdzu6fwzP0Xl1Iuv7FIhqyaaVWUlIOFkAZo=.ed25519",
-    "following": false
+    "type": "post",
+    "text": "[@RangerMauve](@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519)\r\n\r\nProbably something like:\r\n\r\n```sh\r\nssb-server invite.accept \"ssb.dweb.tools:8008:@eFg4A4PYVdzu6fwzP0Xl1Iuv7FIhqyaaVWUlIOFkAZo=.ed25519~s5Cf3t0UzqcHwKXBhQ4/Kd2cmHMxjSSjrZyVTlS/uwc=\"\r\n```\r\n\r\nYou may need do run `docker exec -it <container_id> <command_here>` if you're running from outside of Docker.",
+    "mentions": [
+      {
+        "link": "@tdeT1cU3xUQaD2Ne5Ox0Dndly50qS+c5+//Fl7tyPqg=.ed25519",
+        "name": "RangerMauve"
+      }
+    ],
+    "root": "%L5cqXNqqYjCDoww4PUpO/yzAipRB0uvKVFICCrHaQp4=.sha256",
+    "branch": [
+      "%L5cqXNqqYjCDoww4PUpO/yzAipRB0uvKVFICCrHaQp4=.sha256"
+    ]
   },
-  "signature": "3TRXx9jn8Pt1Mepqrpn0t41Ifc5KPzaZhcqk0eD9P9m+4RFgL6gI59AIr4ODio5mIB2J9Z6twt/zn7gnEX5+DQ==.sig.ed25519"
+  "signature": "AyMUxD/jS3iwdL8BdAnu2gjCSonngrAJt1wiPWoEWXqoZ/LIVC0NLiyBFmEyidc2CPIkS/Ac5Vvng03gh0vdBA==.sig.ed25519"
 }
