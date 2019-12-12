@@ -1,27 +1,18 @@
 {
-  "previous": "%prCsLCR0orSxU5Wx7KLdctH9oo5PTcySGhBVrZLDfRM=.sha256",
-  "sequence": 13813,
+  "previous": "%QEoLHUfNOEVJRtAlX+WJDX3+0ljTMoDUXXlket58oa8=.sha256",
+  "sequence": 13814,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576193336650,
+  "timestamp": 1576194174981,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) [@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nI'd like to encode some Objective Truth, but I'm lazy. Do you think encoding a user-agent would be a bad idea, or maybe useful in the future? Two variants I have in mind:\r\n\r\n## String\r\n\r\n```json\r\n{\r\n  \"userAgent\": \"foo@1.2.3\"\r\n}\r\n```\r\n\r\n## Object\r\n\r\n```json\r\n{\r\n  \"userAgent\": {\r\n    \"name: \"foo\",\r\n    \"version\": \"1.2.3\"\r\n  }\r\n}\r\n```\r\n\r\nThe object form is a bit more verbose, but at least it doesn't require parsing a version string. Especially if we do [scopes](https://docs.npmjs.com/misc/scope), like `@christianbundy/patchbay@latest`.",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%LhuZ7ZdYV9+Uv926JKe9HKO+OHYBoGZA7gc6WuK9EAE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%39zsY+Pm/pfr/hsuI8F/69NczlAjI0RmqkKwfy1oBZA=.sha256",
-      "%s2nB+4isSdzBT0/cbcvzuPSUdA3nGGHNKIS7y3mqc4M=.sha256"
+      "%LhuZ7ZdYV9+Uv926JKe9HKO+OHYBoGZA7gc6WuK9EAE=.sha256"
     ]
   },
-  "signature": "M1bpNhNLHcSZCqA/JjDsZVcMe8ieGUxVllj7tXy0RPBwbO5b13oErsLMK/aIEDP6T8qzsJQwhOo8FmJgCMRnCg==.sig.ed25519"
+  "signature": "V8G+Ls8qFSQ1LX4uhXntywrpEXpFNmfDFLRxC4HSZFkgInkckvX8dN2h58KgDUJwcv/J8CFsLBonoiDBdDybDQ==.sig.ed25519"
 }
