@@ -1,18 +1,25 @@
 {
-  "previous": "%jrNlejtovjbCqf8CX9pN4Iv5gdSNRpJSKoA77ev9qLA=.sha256",
-  "sequence": 13833,
+  "previous": "%QIShoLywxKnM2AEj3G6ynHOexeW9rUAuZNedMEpggJU=.sha256",
+  "sequence": 13834,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576213595206,
+  "timestamp": 1576233418146,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AOb9NT/01X09FFjBTb8mVzYy6PPTJM5NPvw+CXpi11c=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@katzmeowski](@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519)\r\n\r\nThat's true, you could have a system where some server just listens for messages from your device feeds and then re-publishes the message as its own. That would make for a great experiment! It might take lots of work to make the interface look good, because when you're offline you'd want to show the device's posts but once you sync you'd want to hide them in favor of the main identity's posts... and I think it'd make linking harder too, since you couldn't link to a post until it was posted by the main identity. 🤔\r\n\r\nIn summary: Yeah! That's very possible, but would probably require writing a new SSB interface, so it might be worthwhile to just implement #same-as in a P2P fashion instead.",
+    "mentions": [
+      {
+        "link": "@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519",
+        "name": "katzmeowski"
+      },
+      {
+        "link": "#same-as"
+      }
+    ],
+    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
     "branch": [
-      "%AOb9NT/01X09FFjBTb8mVzYy6PPTJM5NPvw+CXpi11c=.sha256"
+      "%kCoH9TTlMDy0mWDZoSDlDbAxy79mW/DPE7aw6JewWpA=.sha256"
     ]
   },
-  "signature": "tupvI0wQsr4t4ypagFzYkg7rXg5D5qd8LFhGEJO2Rm9x++vUl8Q2YL8tvtqMpjzY0RAN13AE4XWptWrB7p8IAQ==.sig.ed25519"
+  "signature": "+K5B8+eYYWq+9BPpzjhZ4Bg1BVyYPiyuNcSm4Bx3lb3x8RKZB4dGN4pY/rWePGIGM7IvMmddz6qBgrookD0yAA==.sig.ed25519"
 }
