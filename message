@@ -1,26 +1,22 @@
 {
-  "previous": "%8LptRWZfaLRANgMtTay49yL+CwnTkS0Vr804gjtaQkk=.sha256",
-  "sequence": 13818,
+  "previous": "%IhlbM5+8NM5A+J3V437Tj0qcXEFGsI78rIAae+BSVzo=.sha256",
+  "sequence": 13819,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576199680759,
+  "timestamp": 1576199904476,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nI'm going to make a sub-topic because I'm not sure that this is relevant to the thread, but have there been any discussions about a git-ssb where each feed is treated as a remote?\r\n\r\nBeing able to push straight to `master` doesn't seem like a problem as long as it's *your* master. When I want your changes, I might:\r\n\r\n```sh\r\ngit remote set-url cel @f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519\r\ngit pull cel master\r\n```\r\n\r\n#git-ssb",
+    "text": "[@@enkiv2📱](@3unGC6faO/7rwS/bAzdCcKE45ePiK3lx6aev9IjGzNM=.ed25519)\r\n\r\nTell me about it!\r\n\r\n(Like, actually, please tell me more information about it. I don't know what this is.)",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "#git-ssb"
+        "link": "@3unGC6faO/7rwS/bAzdCcKE45ePiK3lx6aev9IjGzNM=.ed25519",
+        "name": "@enkiv2📱"
       }
     ],
-    "root": "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256",
-    "fork": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
+    "root": "%6ArsE4ocb+GduZx0nhVFJbUsgRy44AAvwFmacTqc5uM=.sha256",
     "branch": [
-      "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256"
+      "%6ArsE4ocb+GduZx0nhVFJbUsgRy44AAvwFmacTqc5uM=.sha256"
     ]
   },
-  "signature": "+/FB65WYTViiU4FuvUtipKxKdyaF9shDV4wv5E3J06nehLkP94adjx+rNfShMsKVOETbfKjok6oRAmcEzb9PCQ==.sig.ed25519"
+  "signature": "jQ6YnPB7bom7vXerNgrc/W3H4Xwv8me4B/Ueqd/1DfgHogelu/xUM67/zomEIuDIfQVRU1k0QVmVel+rZiFwDg==.sig.ed25519"
 }
