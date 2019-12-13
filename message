@@ -1,22 +1,18 @@
 {
-  "previous": "%sZG2AIoLsPV9quLOpVdFWoN1An7MYqYM5MVI6uq1zTQ=.sha256",
-  "sequence": 13851,
+  "previous": "%FtqpMOI0K+ue2oPmzuGPFCyAFxaV+vVholK9wQLDj1g=.sha256",
+  "sequence": 13852,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576273379583,
+  "timestamp": 1576273388203,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@patrick](@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519)\r\n\r\nI really appreciate the feedback, thanks a bunch.\r\n\r\nThe really hard part is that most SSB messages don't provide a summary, so trying to generate one is a hard problem to solve. My prototype just does the first line of Markdown, but often people do things that mess that up. Examples:\r\n\r\n- starting messages with recipients (like this one!)\r\n- starting messages with images\r\n- starting messages with a gigantic paragraph\r\n\r\n> I do really enjoy being able to toggle between the two modes\r\n\r\nI think this is probably the answer. Maybe I'll just continue defaulting to the expanded view (maybe with some \"read more\" when after a while?) and add a compact view option? If you have any ideas on how you'd like this to look, let me know!",
-    "mentions": [
-      {
-        "link": "@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519",
-        "name": "patrick"
-      }
-    ],
-    "root": "%8r9O7185djNXP2XHn2Rv6l9krmxos8iQu9IavDBA0UE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%qtC8tF5RIbRFBGZf7dGJCaZlr8eT59i9trcGTTjtzqU=.sha256",
+      "value": 1
+    },
     "branch": [
       "%qtC8tF5RIbRFBGZf7dGJCaZlr8eT59i9trcGTTjtzqU=.sha256"
     ]
   },
-  "signature": "EPPZsMdFtM7e1aNuM9SSiYPhYLJE2ee+a15ExzakBPiuxfhLMRJrrGu3hvvqJFmPY1fSrQZOuhyBeoJ9FaGZAg==.sig.ed25519"
+  "signature": "LhkQuWNlP9ahD0QZl+7oDKYYguH231R2drLfNyck3gekhTr087WAk3iy7/3psfao9m4n3H91RScQbGTvkiM5DQ==.sig.ed25519"
 }
