@@ -1,18 +1,26 @@
 {
-  "previous": "%dQN/g1LXQl5UltfhXsHCePXXUtspPQS6AVa6bgXjB28=.sha256",
-  "sequence": 13817,
+  "previous": "%8LptRWZfaLRANgMtTay49yL+CwnTkS0Vr804gjtaQkk=.sha256",
+  "sequence": 13818,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576199291858,
+  "timestamp": 1576199680759,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4pyb7h1Awfl5VgvO7tMqOHr6P9T8+dcMMTj6kYhT/8g=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nI'm going to make a sub-topic because I'm not sure that this is relevant to the thread, but have there been any discussions about a git-ssb where each feed is treated as a remote?\r\n\r\nBeing able to push straight to `master` doesn't seem like a problem as long as it's *your* master. When I want your changes, I might:\r\n\r\n```sh\r\ngit remote set-url cel @f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519\r\ngit pull cel master\r\n```\r\n\r\n#git-ssb",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "#git-ssb"
+      }
+    ],
+    "root": "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256",
+    "fork": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
     "branch": [
-      "%4pyb7h1Awfl5VgvO7tMqOHr6P9T8+dcMMTj6kYhT/8g=.sha256"
+      "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256"
     ]
   },
-  "signature": "awRi2+NU83LvqcUmD0zU/FZYOhf4BNqT+QwSaCHRN+tlHV5s0vfUw2aSapJJKXy58WNxg7LsRmCxUXQSH9+dCg==.sig.ed25519"
+  "signature": "+/FB65WYTViiU4FuvUtipKxKdyaF9shDV4wv5E3J06nehLkP94adjx+rNfShMsKVOETbfKjok6oRAmcEzb9PCQ==.sig.ed25519"
 }
