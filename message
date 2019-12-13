@@ -1,18 +1,22 @@
 {
-  "previous": "%FtqpMOI0K+ue2oPmzuGPFCyAFxaV+vVholK9wQLDj1g=.sha256",
-  "sequence": 13852,
+  "previous": "%JiEq+9bbegZ1xkdRVGRigOl8M91Kx6yziNoLEgL0Bnc=.sha256",
+  "sequence": 13853,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576273388203,
+  "timestamp": 1576275741063,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%qtC8tF5RIbRFBGZf7dGJCaZlr8eT59i9trcGTTjtzqU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "True, although there are tons of old posts we need to continue rendering. Maybe the algorithm should be 1% smarter and skip the image/@mentions/etc on the first line?\r\n\r\n\r\n[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
+      }
+    ],
+    "root": "%8r9O7185djNXP2XHn2Rv6l9krmxos8iQu9IavDBA0UE=.sha256",
     "branch": [
-      "%qtC8tF5RIbRFBGZf7dGJCaZlr8eT59i9trcGTTjtzqU=.sha256"
+      "%oMGGbBAbtRxEOurVs6jjYWQ1lI5Fdyn/MA93U0L45Cc=.sha256"
     ]
   },
-  "signature": "LhkQuWNlP9ahD0QZl+7oDKYYguH231R2drLfNyck3gekhTr087WAk3iy7/3psfao9m4n3H91RScQbGTvkiM5DQ==.sig.ed25519"
+  "signature": "6x5FJ39JqMd4B+hhDIJbBdcuh6zEMv/j0+2X87+S6OoYcD5Q0gazxEYTAV3D6mw6beX8ypLZzPHjlQOZDMy6Cg==.sig.ed25519"
 }
