@@ -1,22 +1,28 @@
 {
-  "previous": "%IhlbM5+8NM5A+J3V437Tj0qcXEFGsI78rIAae+BSVzo=.sha256",
-  "sequence": 13819,
+  "previous": "%FdGkjhR5jlJJMziIVTO6udJyEozhs9/MXGo+3GqCLIk=.sha256",
+  "sequence": 13820,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576199904476,
+  "timestamp": 1576200633296,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@@enkiv2📱](@3unGC6faO/7rwS/bAzdCcKE45ePiK3lx6aev9IjGzNM=.ed25519)\r\n\r\nTell me about it!\r\n\r\n(Like, actually, please tell me more information about it. I don't know what this is.)",
+    "text": "[@katzmeowski](@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519)\r\n\r\nI think that's a good idea, that way you don't have to share your public key with the server, you just sign the messages.\r\n\r\nIf you're comfortable putting your private key on a server, or using one of your existing devices as a server, you could look into one of the web-based clients like #patchfoo or #oasis. (Disclaimer: I'm biased toward Oasis because I'm working on it!)\r\n\r\nThinking about your suggestion more, I think it makes sense if you're willing to trade some resilience for multi-writer convenience. You'd have to pick a server for all of your devices to send stuff to, and if your connection fails you wouldn't be able to publish, but otherwise the only hard part would be replacing `publish()` with a function that sent your message to your preferred server. 🤔\r\n\r\nI don't want to make that trade-off, but maybe I could add a feature to Oasis where you could host Oasis on your laptop and connect to it with your other devices when you're on the same LAN? I think the only change would be adding an option for password-based auth (and probably HTTPS to guard against local HTTP snooping).",
     "mentions": [
       {
-        "link": "@3unGC6faO/7rwS/bAzdCcKE45ePiK3lx6aev9IjGzNM=.ed25519",
-        "name": "@enkiv2📱"
+        "link": "@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519",
+        "name": "katzmeowski"
+      },
+      {
+        "link": "#patchfoo"
+      },
+      {
+        "link": "#oasis"
       }
     ],
-    "root": "%6ArsE4ocb+GduZx0nhVFJbUsgRy44AAvwFmacTqc5uM=.sha256",
+    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
     "branch": [
-      "%6ArsE4ocb+GduZx0nhVFJbUsgRy44AAvwFmacTqc5uM=.sha256"
+      "%Kx2tXvS8Rt44Fswwwsq6Wmg5+hH/2BtUvahZanL/sgQ=.sha256"
     ]
   },
-  "signature": "jQ6YnPB7bom7vXerNgrc/W3H4Xwv8me4B/Ueqd/1DfgHogelu/xUM67/zomEIuDIfQVRU1k0QVmVel+rZiFwDg==.sig.ed25519"
+  "signature": "CtQQSZHdQt3n0b9/Giu/qM9XmeIXt7V15A6LVtT/tLP0mwmHjC1YfLzxLknB/mv4UKLeyl+lfMGp9I+f4vsICQ==.sig.ed25519"
 }
