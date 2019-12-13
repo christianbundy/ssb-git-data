@@ -1,25 +1,22 @@
 {
-  "previous": "%QIShoLywxKnM2AEj3G6ynHOexeW9rUAuZNedMEpggJU=.sha256",
-  "sequence": 13834,
+  "previous": "%Iv2YVnKz8fheu3RHje0YcPPdiuEah9zOzSaRAQxxFG8=.sha256",
+  "sequence": 13835,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576233418146,
+  "timestamp": 1576253500427,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@katzmeowski](@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519)\r\n\r\nThat's true, you could have a system where some server just listens for messages from your device feeds and then re-publishes the message as its own. That would make for a great experiment! It might take lots of work to make the interface look good, because when you're offline you'd want to show the device's posts but once you sync you'd want to hide them in favor of the main identity's posts... and I think it'd make linking harder too, since you couldn't link to a post until it was posted by the main identity. 🤔\r\n\r\nIn summary: Yeah! That's very possible, but would probably require writing a new SSB interface, so it might be worthwhile to just implement #same-as in a P2P fashion instead.",
+    "text": "[@Ubuntourist](@1zD7AHJo6nzoqZ7AlRYqgt1jZIVTcczFGrc7ZZLjNvY=.ed25519)\r\n\r\nThanks for the bug report. I've checked the Git history and can confirm that I'm the only person who has made changes, and the [PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ssb-patchwork) doesn't seem to be doing any chmod shenanigans.\r\n\r\nWhich files are 777? I've checked /opt/ssb-patchwork/ and all of my files look correct, so I'm curious which files have been changed.",
     "mentions": [
       {
-        "link": "@SDT/YSzfFZC4K+SO83piNoi2/76lWBicBIcnMQLJjkI=.ed25519",
-        "name": "katzmeowski"
-      },
-      {
-        "link": "#same-as"
+        "link": "@1zD7AHJo6nzoqZ7AlRYqgt1jZIVTcczFGrc7ZZLjNvY=.ed25519",
+        "name": "Ubuntourist"
       }
     ],
-    "root": "%PWImPK0dSQd/6gnAYYlatkhbhYC8Z/jbSoj74HeX1QI=.sha256",
+    "root": "%QBXFW+7D+91iS/CRYn/9UbFlZ7+j73N7WwGXdLhVfWo=.sha256",
     "branch": [
-      "%kCoH9TTlMDy0mWDZoSDlDbAxy79mW/DPE7aw6JewWpA=.sha256"
+      "%QBXFW+7D+91iS/CRYn/9UbFlZ7+j73N7WwGXdLhVfWo=.sha256"
     ]
   },
-  "signature": "+K5B8+eYYWq+9BPpzjhZ4Bg1BVyYPiyuNcSm4Bx3lb3x8RKZB4dGN4pY/rWePGIGM7IvMmddz6qBgrookD0yAA==.sig.ed25519"
+  "signature": "vfGp0EgTfKLz3hEz2VS/e07xIAV89WluWc5kbM2nt4sbyHEEr5zFs15lULOagRdJf6Oq+RBq+qqfQ+K4ueGNDQ==.sig.ed25519"
 }
