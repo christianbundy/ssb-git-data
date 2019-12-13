@@ -1,24 +1,18 @@
 {
-  "previous": "%LKV6sqOYM4Et69tvx4jD3DS1TxmA2RFkku3oRrwI3Us=.sha256",
-  "sequence": 13828,
+  "previous": "%YwcFBCIZbC5kyMi8TGfYaQsf3GC3yP+B2qSErYLd4/g=.sha256",
+  "sequence": 13829,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576204396236,
+  "timestamp": 1576205485776,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nHmm. I'm trying this locally and it seems to be returning the results in order of their received timestamp. Maybe try running it from the CLI and see if you get any funky behavior?\r\n\r\n```sh\r\nssb query read --query \\\r\n  '[{\"$filter\":{\"value\":{\"content\":{\"channel\":\"solarpunk\",\"type\":{\"$in\":[\"post\",\"blog\"]}}}}}]' --reverse \\\r\n  | jq .timestamp\r\n```\r\n\r\nI'm seeing output like:\r\n\r\n```\r\n1576193634613\r\n1576189900151\r\n1576189627291\r\n1576164068250.002\r\n1576090906308\r\n1570055895033\r\n1570036824877\r\n1570035300681\r\n1570030718266\r\n1570030467248\r\n```\r\n\r\nMaybe it's sorting by received timestamp when you're expecting asserted timestamp sorting? If so, there are [docs on how to do sorting](https://github.com/ssbc/ssb-query#channels-with-count-and-sort) but my experience has been that it's incredibly slow. \r\n\r\nMaybe this is the query you're looking for?\r\n\r\n```json\r\n[\r\n  {\r\n    \"$filter\": {\r\n      \"value\": {\r\n        \"content\": {\r\n          \"channel\": \"solarpunk\",\r\n          \"type\": {\r\n            \"$in\": [\r\n              \"post\",\r\n              \"blog\"\r\n            ]\r\n          }\r\n        }\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"$sort\": [\r\n      [\r\n        \"value\",\r\n        \"timestamp\"\r\n      ]\r\n    ]\r\n  }\r\n]\r\n```\r\n\r\nThe downside is that this query took 25 seconds on my machine.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%SKbm/cyZI2tU6gJAP2/4C4hIkfcS8ZhYVJXNSbQS8WE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%4wrMMWTIBzFG6sAbfk8Gs+xm9Abto6r/GY+0uWAJ5CU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%5CahxxCpWz0+xWO3miZvb7jLt9yzduKd7NP79qbH+Y0=.sha256",
-      "%8sAFlheL8yu8m4Y/Xb7oaaRQuLD3cLiYBJ421nYF0ak=.sha256",
-      "%MKqTv2OtFKT/DSvtwdxBEIPNA0YPqBI+BsHQnOJevzw=.sha256"
+      "%2jSeq7fq7vs5NYGwTqLIdmVBO6Spj5ZpDFpk8558ksE=.sha256"
     ]
   },
-  "signature": "OGG/08BmyTPz64lro5tWnIuNUa+dCIWCmqvPDToBaZjdhhXNXhGmvGxYq2bwprSbggF1O5J+bWyvhrpHn9dADQ==.sig.ed25519"
+  "signature": "vQTZaNORvf6nvyquXewkrbNi0bCaan2FiS1g+b1X8aTfaJi30qCXQJQo9V+S9gISf969SAiikcCE/IjMPcznBw==.sig.ed25519"
 }
