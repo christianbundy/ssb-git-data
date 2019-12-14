@@ -1,26 +1,22 @@
 {
-  "previous": "%1UNh2WM+y3biGVvXzsJRmT4YbZUgLWnYP82YQt87uAg=.sha256",
-  "sequence": 13877,
+  "previous": "%UOup5XCQ32PjnhWbS8eVDb9iy7Q88p+lsUhq1F/mL8g=.sha256",
+  "sequence": 13878,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576291052596,
+  "timestamp": 1576291725907,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI'd love to support this! I think SSB-CONN gives us lots of fine-grain controls over this. I *think* `ssb conn stop` should stop all connections, but I haven't tested at all.\r\n\r\ncc: [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nLooks like we just have to set [a config option](https://github.com/staltz/ssb-conn/blob/fb1711adaf5124aa37128614e7c6caf47756fd97/src/gossip.ts#L75)! Awesome.\r\n\r\nI've just pushed an [`offline-mode`](https://github.com/fraction/oasis/tree/offline-mode) branch if you'd like to test, but I've only tested for 2 minutes (yay no network connections (that I noticed)) so please don't trust it yet. 🙃\r\n\r\nOnce we confirm it works I'll make sure to wire it up to a command-line flag and we should be good to go!",
     "mentions": [
       {
         "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
         "name": "cinnamon"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
       }
     ],
     "root": "%smr+B3tYOqM9nvfhq2ZijNjhykwkwvAqp7YVI2DvyrA=.sha256",
     "branch": [
-      "%smr+B3tYOqM9nvfhq2ZijNjhykwkwvAqp7YVI2DvyrA=.sha256"
+      "%UOup5XCQ32PjnhWbS8eVDb9iy7Q88p+lsUhq1F/mL8g=.sha256"
     ]
   },
-  "signature": "GdtGkTdNrvaYWst+x7BEzWCvDNO0a9d0kAiFzJK8SYO/FW33A1LS7QLDSpv0EXtNbZT1yAxjuRLN2X/kLD7PBg==.sig.ed25519"
+  "signature": "xc8TPtom4+HQaYL1UAseCeC3XjQIsFiHEdXMKM9K160KD0cdGlAmmOVzIUgLZPHv97cffaHRUGZtkOOxOf1oBQ==.sig.ed25519"
 }
