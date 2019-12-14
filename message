@@ -1,18 +1,22 @@
 {
-  "previous": "%3S9m3OS/TdiOdjwXU3BeU3h9RUQyyOFJts9ARt56RLs=.sha256",
-  "sequence": 13873,
+  "previous": "%OM0CB+X7H6AGhAy73vtwDI2R5pzarrlNB2AiYaqAN3s=.sha256",
+  "sequence": 13874,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576288372296,
+  "timestamp": 1576288689246,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zUyiNqkbgNIrLq5AjlBM1flZ/6aLZIlJpA5tbGWq79Q=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThanks for the feedback!\r\n\r\n> I wonder – this has a side effect of reducing visibility for people who have used SSB a long time, and boosting newcomer visibility. I don’t know if that’s a good or a bad thing.\r\n\r\nTo be explicit, this gathers all of the likes for a period (e.g. 1 day) and *then* adjusted the weight, so \"N likes in the past 24 hours\" should have the same weight regardless of your long-time like history.\r\n\r\n> I wish it could be “number of likes in the last 3 months” instead of since the beginning of time, but we don’t have reliable timestamps.\r\n\r\nI'm using the received timestamps, which isn't perfect, but it seems to be working fine. Although I've also adjusted my log so that old messages have a fake received timestamp that just matches their asserted timestamp.\r\n\r\n> Similarly, could it boost posts from authors who rarely post, so they don’t get drowned out by prolific posters?\r\n\r\nYes! I'm thinking the simplest next step is to also count replies in addition to likes, but I'm not sure how to weight them. 1 like and 1 comment seems like it's more popular than 2 likes and 0 comments, but I'm not sure how '36 likes and 12 comments' should compare to '14 likes and 42 comments'.",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      }
+    ],
+    "root": "%GYzM4AzE/Wu0vZ4uvtg8SLBNQ58VNHmWngmNd6RwLxI=.sha256",
     "branch": [
-      "%zUyiNqkbgNIrLq5AjlBM1flZ/6aLZIlJpA5tbGWq79Q=.sha256"
+      "%8qqfAGFGVs6ndEYKMPdG1+Ahh4U45Sygph2cF4BYodU=.sha256"
     ]
   },
-  "signature": "znYkwJ/MVd6MJk4YV+XJ+lxaohyTjDlMw1ymwDva0KYnG/x1Xz0AWfWJlGHksJW3DBV2Qr/K3gj8E8+yNoQdDw==.sig.ed25519"
+  "signature": "MSXfQmmncoIevs8hwMq5/zgmbr6Z4ELi0NgpBBzuBuwlRtHDY2orsOrg/7oNEy3EC9WIKic+zpa+9/lGeBDOCQ==.sig.ed25519"
 }
