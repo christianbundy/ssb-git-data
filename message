@@ -1,23 +1,22 @@
 {
-  "previous": "%IyEzasLziFmVKrGOwFplPCn6Td4hWVGUpaLWTqnry+M=.sha256",
-  "sequence": 13915,
+  "previous": "%oOzc1GEfzIMbDa7meZpJyvNRna9NfsdFivI8BdWm0cQ=.sha256",
+  "sequence": 13916,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576451726977,
+  "timestamp": 1576452071327,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThought about this again today and I think I was wrong. We *could* use the `branch` property to pull threads together but I don't think it's well-specified and it's super hacky. I think the reality is that the number of topics `<=` the number of messages.\r\n\r\nHere's what the spec looks like in my brain:\r\n\r\n- New topic\r\n  - no `root`\r\n  - no `fork`\r\n- Reply to topic\r\n  - `root` = key of topic message\r\n  - should appear as sibling to other replies to topic\r\n  - should appear as descendant of topic\r\n- Reply to reply (sub-topic)\r\n  - `root` = key of reply \r\n  - `fork` = `root` of reply\r\n  - should appear as sibling to other replies to this reply\r\n    - i.e. only 1 sub-topic per message, so the number of topics is <= the number of messages\r\n  - should appear as descendant of message\r\n  - should appear as deep descendant of message's topic\r\n\r\nSome UI thoughts:\r\n\r\n- messages probably shouldn't have \"thread reply\" buttons, the thread reply should probably just exist at the bottom of the thread\r\n- if a message already has sub-topic replies, you probably shouldn't be nudged toward a message reply until you've seen the thread already (maybe the discussion is already active)\r\n\r\n> you CANNOT do this (two different nested reply conversations starting off of C):\r\n\r\nI think you can, but it requires that `n` and `y` are *message replies* to `m` and `x` respectively. I think this might actually be a good thing for discussion cohesion, as it takes 2 message replies to actually break off from the original post.\r\n\r\n`</brain-dump>`",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThank you!\r\n\r\nI really like harmonic16-light, I think maybe I'll try to get that one working. They do a clever thing where they rotate the hue of the colors, which is unfortunate because we use those colors for semantics (blue = link, yellow = info, violet = private, etc), so there are a bunch of really great themes I've been avoiding.\r\n\r\nI'm a bit hesitant to open that can of worms, since I'd probably feel obligated to fix contrast ratios too, but maybe just the hue fixes is reasonable.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
     ],
-    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "root": "%cekwz71fu5t+Sub6BrfMObTJc8cfUvu/8Hv7Zfso3jI=.sha256",
     "branch": [
-      "%Oj15o1/l3tdLRc8uP0f6iQyoK536hw08WRGf0d8y4WE=.sha256",
-      "%pA/qivtvHqddqKp05zsK5Xdi92WSqQEaJkA182TFXAI=.sha256"
+      "%3eVdnqLGKHIr0v0BWDg07GyznkgSJ/mUoN/N3Mzs5xE=.sha256"
     ]
   },
-  "signature": "egxaHmxlYaqbioWK2/jHL9fGQVAbWFHhvRO7lDNagMh9YhtI9h9z/h8H+I0le6XulgQiySEOlOYaPYiMcMHGDg==.sig.ed25519"
+  "signature": "4HVVeR0n0ECEXfdmZ+qGkvA5vDHVsN7Ci9hBnn+KyE4OvHdIekLiL1SDf89yBpgsvYTAwxJQDdQzKSU2ELv6AQ==.sig.ed25519"
 }
