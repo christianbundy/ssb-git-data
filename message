@@ -1,26 +1,18 @@
 {
-  "previous": "%lxe2XSWjQv9bgPF++F1miPPiFwFjZwCMLTruav5kkWQ=.sha256",
-  "sequence": 13891,
+  "previous": "%1DJ7l4hN8W9QTU6nsfXKH5JnixdEO/8LiHAjlYh3lSE=.sha256",
+  "sequence": 13892,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576425001160,
+  "timestamp": 1576425308970,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nCareful Aljoscha, that's getting very close to *clear guide* territory. 😱\r\n\r\n> To help with the current situation of post thread rendering\r\n\r\nFor this particular issue, are there any not-backward implementations? I think specifying a user agent might be helpful for the future, but I agree with you that it isn't useful now.\r\n\r\n> In that vein, please make the `version` component optional so that paranoid anti-fingerprinters can skip it.\r\n\r\nThat's a good point, any user-agent ~~string~~ object should definitely be optional. ",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      }
-    ],
-    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%C/RSfhoJXeOOtO5Wc3189tCxN9mBOsINdOb4mQ0kA4U=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%VWc8zL/C8Ny3FObXzOt4A18LcOLHZL7ZVwZSvsMwjKU=.sha256"
+      "%C/RSfhoJXeOOtO5Wc3189tCxN9mBOsINdOb4mQ0kA4U=.sha256"
     ]
   },
-  "signature": "FM8sSTiMyexBfzXYyISaxOFhapBj+J+bnk/VHo76MGZvT4+2frUbSjCnSQeKiwuSWmbJW3Z7l1HG886J9sIwBw==.sig.ed25519"
+  "signature": "NWzlrv2WWI1ALUsVXP/XSiw+i8EnsqB9+79XJ+6xTSP8oUi7ZXSSX3cMYCu5w1PnOWz1CIj5aqu8gZRX6cEzAg==.sig.ed25519"
 }
