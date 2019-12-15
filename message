@@ -1,22 +1,26 @@
 {
-  "previous": "%tBxRWMkym79dUtGc93qGIH8U/6bDGn3VQc+GPyZpFq4=.sha256",
-  "sequence": 13890,
+  "previous": "%lxe2XSWjQv9bgPF++F1miPPiFwFjZwCMLTruav5kkWQ=.sha256",
+  "sequence": 13891,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576423221559,
+  "timestamp": 1576425001160,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nHappy to hear it! A friend reminded me so I though tI'd pass along the favor.",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nCareful Aljoscha, that's getting very close to *clear guide* territory. 😱\r\n\r\n> To help with the current situation of post thread rendering\r\n\r\nFor this particular issue, are there any not-backward implementations? I think specifying a user agent might be helpful for the future, but I agree with you that it isn't useful now.\r\n\r\n> In that vein, please make the `version` component optional so that paranoid anti-fingerprinters can skip it.\r\n\r\nThat's a good point, any user-agent ~~string~~ object should definitely be optional. ",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
       }
     ],
-    "root": "%2k+BPuFdXQfuardTBLFlW9n7mLoyYtE2xWFQarii1tg=.sha256",
+    "root": "%aOTVu3DNEMi+pT7V81dQYSv0tBhTrHAgV2Gs1hvwYi4=.sha256",
     "branch": [
-      "%tbgyqDmlWmw6aoxPqTggLT6iXdz+hrQ79qhKdO1x1vw=.sha256"
+      "%VWc8zL/C8Ny3FObXzOt4A18LcOLHZL7ZVwZSvsMwjKU=.sha256"
     ]
   },
-  "signature": "nzS8Us9fE/5/bFauilkXRi3WltRb6qr5AdZ/vGFcRwau0/vXqycgTwm458U9mKUjn5Nq/nNKE2eqST+LKt+3CQ==.sig.ed25519"
+  "signature": "FM8sSTiMyexBfzXYyISaxOFhapBj+J+bnk/VHo76MGZvT4+2frUbSjCnSQeKiwuSWmbJW3Z7l1HG886J9sIwBw==.sig.ed25519"
 }
