@@ -1,18 +1,25 @@
 {
-  "previous": "%dvk9oja329d4Nr+h51AZ4EQhjhV+GVrbuEZZI+sCSSQ=.sha256",
-  "sequence": 13901,
+  "previous": "%DNPLHl+ovlCPWH3Y1+xuhAcptQn+3qRUJmKDlcgy0r4=.sha256",
+  "sequence": 13902,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576426844549,
+  "timestamp": 1576427098029,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%bqmNATemf3HPLbk9gZ6a/EuG5FxlsdsXIhf5sWgcDFA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@null](@t7LHrGvboMbVbHEJpJRrOdWnrbcsJfr3XEe+DUPqj/o=.ed25519)\r\n\r\nHi! The problem with this is that your list of messages needs to be a single linear list, so if your devices get out of sync the system will stop working. It's best to just keep one private key on each device for now.\r\n\r\nThis is being worked on as #same-as.",
+    "mentions": [
+      {
+        "link": "@t7LHrGvboMbVbHEJpJRrOdWnrbcsJfr3XEe+DUPqj/o=.ed25519",
+        "name": "null"
+      },
+      {
+        "link": "#same-as"
+      }
+    ],
+    "root": "%BStmCXEvudSqoD0erEBwbBfAl8bUDN4sPKdOi/kfW+I=.sha256",
     "branch": [
-      "%bqmNATemf3HPLbk9gZ6a/EuG5FxlsdsXIhf5sWgcDFA=.sha256"
+      "%BStmCXEvudSqoD0erEBwbBfAl8bUDN4sPKdOi/kfW+I=.sha256"
     ]
   },
-  "signature": "VFmZ5p7EXkZ07EVi+RPOQA0sxvumCosFoW5CW6GF+L5M94UxUiJ3qDyFw+TbQwAQkUOOQ1Y5iIyQwL7VHxKfCA==.sig.ed25519"
+  "signature": "P5jV5GKk+eHKBtublyHg1qUHnkcyDnWcd1c0fHAv6e5hZI2YFp8z83Rn3AM8WakUqcRYX3Vgvs0N1j6ISNzNDA==.sig.ed25519"
 }
