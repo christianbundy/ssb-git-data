@@ -1,18 +1,23 @@
 {
-  "previous": "%PgtVpYUxGNrGxau8ObyjDI+HYvO0XKQHnlWIT79umAU=.sha256",
-  "sequence": 13914,
+  "previous": "%IyEzasLziFmVKrGOwFplPCn6Td4hWVGUpaLWTqnry+M=.sha256",
+  "sequence": 13915,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576446564197,
+  "timestamp": 1576451726977,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%V1hk0IYGBOoAUI7YWxFrl83yvSc+4lE69xFW+k1oPR0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThought about this again today and I think I was wrong. We *could* use the `branch` property to pull threads together but I don't think it's well-specified and it's super hacky. I think the reality is that the number of topics `<=` the number of messages.\r\n\r\nHere's what the spec looks like in my brain:\r\n\r\n- New topic\r\n  - no `root`\r\n  - no `fork`\r\n- Reply to topic\r\n  - `root` = key of topic message\r\n  - should appear as sibling to other replies to topic\r\n  - should appear as descendant of topic\r\n- Reply to reply (sub-topic)\r\n  - `root` = key of reply \r\n  - `fork` = `root` of reply\r\n  - should appear as sibling to other replies to this reply\r\n    - i.e. only 1 sub-topic per message, so the number of topics is <= the number of messages\r\n  - should appear as descendant of message\r\n  - should appear as deep descendant of message's topic\r\n\r\nSome UI thoughts:\r\n\r\n- messages probably shouldn't have \"thread reply\" buttons, the thread reply should probably just exist at the bottom of the thread\r\n- if a message already has sub-topic replies, you probably shouldn't be nudged toward a message reply until you've seen the thread already (maybe the discussion is already active)\r\n\r\n> you CANNOT do this (two different nested reply conversations starting off of C):\r\n\r\nI think you can, but it requires that `n` and `y` are *message replies* to `m` and `x` respectively. I think this might actually be a good thing for discussion cohesion, as it takes 2 message replies to actually break off from the original post.\r\n\r\n`</brain-dump>`",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
     "branch": [
-      "%V1hk0IYGBOoAUI7YWxFrl83yvSc+4lE69xFW+k1oPR0=.sha256"
+      "%Oj15o1/l3tdLRc8uP0f6iQyoK536hw08WRGf0d8y4WE=.sha256",
+      "%pA/qivtvHqddqKp05zsK5Xdi92WSqQEaJkA182TFXAI=.sha256"
     ]
   },
-  "signature": "acxJHh5/YdtKbly3uLZLu6Rzp3y3awblCbFskJyao0GKXSN4yKUCZThmYS+K+d00IWn6QAKvURhTbnlIaqFVDQ==.sig.ed25519"
+  "signature": "egxaHmxlYaqbioWK2/jHL9fGQVAbWFHhvRO7lDNagMh9YhtI9h9z/h8H+I0le6XulgQiySEOlOYaPYiMcMHGDg==.sig.ed25519"
 }
