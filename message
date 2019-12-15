@@ -1,23 +1,23 @@
 {
-  "previous": "%xdjHvda6OUNyaiCOVF56nxjPzN6E8o49ml/D9BG+tGk=.sha256",
-  "sequence": 13907,
+  "previous": "%f0M8rJPuX+S9X0c2M7zBOsuXIhO2lTo/hnh1oZjQrAQ=.sha256",
+  "sequence": 13908,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576432192946,
+  "timestamp": 1576433595107,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThank you! I'm really inspired by Shellogram, and all of the work you've done really highlighted the fact that we need interfaces that are easier to improve over time.\r\n\r\nTangent: Any chance you have opinions on what the default theme should be? I've been trying to find a light theme that feels familiar for people who use the modern web, but the modern web often gives a sterile vibe that I'd like to avoid.\r\n\r\nThe themes I've been considering lately:\r\n\r\n- atelier-forest-light\r\n- atelier-sulphurpool-light\r\n- default-light\r\n- google-light\r\n- harmonic16-light\r\n- horizon-light\r\n- material\r\n- one-light\r\n- solarized-light\r\n- tomorrow\r\n\r\nNo worries if you don't have the time/energy/interest, but I want to ask for your feedback either way. ",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\n> I have been thinking of a similar idea for blobs that contain the latest state of a number of feeds for the browser system I’m working on.\r\n\r\nWould love if you could expand on this. I've been thinking that it would be nice if we posted a `branch`-like list of the latest messages from each feed we're aware of. This would make it easier to sort messages based on the order that they propagated around the network without relying on timestamps.\r\n\r\nIs that what you're talking about, or something different?",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
       }
     ],
-    "root": "%cekwz71fu5t+Sub6BrfMObTJc8cfUvu/8Hv7Zfso3jI=.sha256",
-    "fork": "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256",
+    "root": "%y/uXoRDFU1nOWylss0+1xSFT0UAklRGJbfOzNwGuLxE=.sha256",
+    "fork": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
     "branch": [
-      "%cekwz71fu5t+Sub6BrfMObTJc8cfUvu/8Hv7Zfso3jI=.sha256"
+      "%y/uXoRDFU1nOWylss0+1xSFT0UAklRGJbfOzNwGuLxE=.sha256"
     ]
   },
-  "signature": "8vxg0Eml9V8tB3G2r63LQlQBOoIMHhV3MYecDNJpNgLzfJ7RIRDLgGRLuGP0kJtGUoav7j/MTOnDq6uTA7zzDw==.sig.ed25519"
+  "signature": "Y8OPJjiSDxEXEkI+1OfqOVYx8HpnJ/7Qe40lp4OaTJFwfDOS8RwRuIHOJg49ntmgEf2hdXcuHdOlAJx/SorWDQ==.sig.ed25519"
 }
