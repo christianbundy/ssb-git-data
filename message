@@ -1,23 +1,18 @@
 {
-  "previous": "%f0M8rJPuX+S9X0c2M7zBOsuXIhO2lTo/hnh1oZjQrAQ=.sha256",
-  "sequence": 13908,
+  "previous": "%g4r20MlQO6CHm2qGfNkLcKp8Tzi9/gdkY4ecbct/kzY=.sha256",
+  "sequence": 13909,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576433595107,
+  "timestamp": 1576435252477,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\n> I have been thinking of a similar idea for blobs that contain the latest state of a number of feeds for the browser system I’m working on.\r\n\r\nWould love if you could expand on this. I've been thinking that it would be nice if we posted a `branch`-like list of the latest messages from each feed we're aware of. This would make it easier to sort messages based on the order that they propagated around the network without relying on timestamps.\r\n\r\nIs that what you're talking about, or something different?",
-    "mentions": [
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ],
-    "root": "%y/uXoRDFU1nOWylss0+1xSFT0UAklRGJbfOzNwGuLxE=.sha256",
-    "fork": "%07VekPqfjZf5QWeok8Fu7ast8qkF5KEN1i1YpKUXctc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%V3RfuuNG8G5Rc2YMMFITGz3gDr4UIOMxQvitHwb7qco=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%y/uXoRDFU1nOWylss0+1xSFT0UAklRGJbfOzNwGuLxE=.sha256"
+      "%rcxmU4AqegJr1A0pRl3/vg2P/grsOFtM3SNEKyvfxak=.sha256"
     ]
   },
-  "signature": "Y8OPJjiSDxEXEkI+1OfqOVYx8HpnJ/7Qe40lp4OaTJFwfDOS8RwRuIHOJg49ntmgEf2hdXcuHdOlAJx/SorWDQ==.sig.ed25519"
+  "signature": "VsnDXsPA7sUWIJkzGoz63ebxdfG6jJXtmKCpqfu0c0CB+X7ngwyOX8hxMcYuASj16/iv+j1eLh3/ji339EoZAg==.sig.ed25519"
 }
