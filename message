@@ -1,22 +1,18 @@
 {
-  "previous": "%oOzc1GEfzIMbDa7meZpJyvNRna9NfsdFivI8BdWm0cQ=.sha256",
-  "sequence": 13916,
+  "previous": "%2enEGJR0h7ZuvwZ8Qq/HjSNSPOTa/+6LQ6bJTwjMSZw=.sha256",
+  "sequence": 13917,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576452071327,
+  "timestamp": 1576452131697,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThank you!\r\n\r\nI really like harmonic16-light, I think maybe I'll try to get that one working. They do a clever thing where they rotate the hue of the colors, which is unfortunate because we use those colors for semantics (blue = link, yellow = info, violet = private, etc), so there are a bunch of really great themes I've been avoiding.\r\n\r\nI'm a bit hesitant to open that can of worms, since I'd probably feel obligated to fix contrast ratios too, but maybe just the hue fixes is reasonable.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
-    "root": "%cekwz71fu5t+Sub6BrfMObTJc8cfUvu/8Hv7Zfso3jI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%imoXJLjFiBboODCrRstcuIg+SpOTG39ZNFUvQ68zEKs=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%3eVdnqLGKHIr0v0BWDg07GyznkgSJ/mUoN/N3Mzs5xE=.sha256"
+      "%imoXJLjFiBboODCrRstcuIg+SpOTG39ZNFUvQ68zEKs=.sha256"
     ]
   },
-  "signature": "4HVVeR0n0ECEXfdmZ+qGkvA5vDHVsN7Ci9hBnn+KyE4OvHdIekLiL1SDf89yBpgsvYTAwxJQDdQzKSU2ELv6AQ==.sig.ed25519"
+  "signature": "U0/eqwoJcWEEHnQzDq2hXcr2MOVuJsJtXrs6WKC4egS1nlXlT0CqO/uGmoGYEK8XMUgla9RQ5FscKBNaWv9uBg==.sig.ed25519"
 }
