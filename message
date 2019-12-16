@@ -1,13 +1,18 @@
 {
-  "previous": "%xoL0XSGi4LDRhXQGUts5aMg93PzgRtNBUczaYR+hij4=.sha256",
-  "sequence": 13961,
+  "previous": "%yVyT/3ArJwpsrj3z/xVOPwjD+3hq6Nm8y8f6W5P8oj4=.sha256",
+  "sequence": 13962,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576514515561,
+  "timestamp": 1576515100567,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Wow. One of my clients just received a very interesting email:\r\n\r\n> **Update In My DD Details**\r\n>\r\n> Hi <name>,\r\n>\r\n> I need an update to be done on my DD information, can i email the new bank details to you to make the changes for me right away?\r\n>\r\n> I would be glad if the changes can be effective with the coming payroll date so I can have my pay in the account\r\n>\r\n> Regards,\r\n>\r\n> Christian Bundy\r\n\r\nIt's actually sort of clever, although they should have spent a few bucks on a domain name instead of sending from their earthlink.net account.\r\n\r\nMy best guess at their steps:\r\n\r\n- Find company with a *team* page\r\n- Find the billing contact\r\n- Find a random team member (me!)\r\n- Send an email to the billing contact impersonating the team member asking for a change to direct deposit details\r\n- ???\r\n- Profit\r\n\r\nThankfully the billing contact on this team is awesome and sent me this immediately, but I'm sure that others haven't been so lucky (or attentive).\r\n\r\nStay safe!",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%9oMKqjBPI4COi9AZwtu+atfF1uAGmoSUx+YHNf1dWh8=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%9oMKqjBPI4COi9AZwtu+atfF1uAGmoSUx+YHNf1dWh8=.sha256"
+    ]
   },
-  "signature": "eRQsC0V0TLA8kOsTYtYmJ2ZbV9Uq3xy2Vli0mKbcL9j6q9LgBsuNpyN0TbF+fAX+bfguaMAIJq2ErGCNE33nDA==.sig.ed25519"
+  "signature": "4QMCTA/DxKkLHwh0SXlro2CIRFiBjCLiIN05vPk+NORvLNSlSYuKBtmySKLPsWjrNSc/TuwkMPE6pHo/RjMOAQ==.sig.ed25519"
 }
