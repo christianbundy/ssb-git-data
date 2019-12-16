@@ -1,18 +1,26 @@
 {
-  "previous": "%hVA2b1Bup8JwT/qUjFAeJMW8jNbbWxVu/5cqrJlzT5o=.sha256",
-  "sequence": 13975,
+  "previous": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
+  "sequence": 13976,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576538559971,
+  "timestamp": 1576538840907,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nI was sharing a link to [a section of your Bamboo readme](https://github.com/aljoschameyer/bamboo#links-and-entry-verification) today and I realized I've had a question I've been forgetting to ask you!\r\n\r\nI notice that you have a recursion on the interval `(3^n - 1) / 2` for `n` as an integer, which gives us three nesting dolls before we zoom out. Is there a reason for choosing three?\r\n\r\nI've spent too much time around computers and usually default to binary. Is something like `2^n - 1` an option, or was that inefficient in some way? My guess is that you've already ruled this out, but I'd be curious to learn why anyway.",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThat was quick! And it looks like it works as both a Pull-Stream source *and* an async-iterable, right? [The future](%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256) is now!",
     "mentions": [
       {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      },
+      {
+        "link": "%JKCZOHDsD9uBfmdnPN9vKaPwFkEvJuF5OXNUzn5JTwM=.sha256",
+        "name": "The future"
       }
+    ],
+    "root": "%kf/LA2Y08nuOMjr7cTg++s9bFPeAY1aEd6m/B63t2Js=.sha256",
+    "branch": [
+      "%sxN+zV9SdiMPnuWHS9CFDnOI4FaRfuFdteVB5aggeiA=.sha256"
     ]
   },
-  "signature": "u37R2Z/PllQDbMZLlUPfC+uNsrJQs4L9zowBHzZw28zcOcH6AU+a9SyPjKudc95S4PNpwVGJvoYR8styU0yjBw==.sig.ed25519"
+  "signature": "hP3diSTxZDVnN6hUv1BuKCRGfRDHDJSi09lQAnejppXaTlylnsTV+vQCl8O52xDx4GXF8ej5sUx/NUsoQK4OAw==.sig.ed25519"
 }
