@@ -1,18 +1,23 @@
 {
-  "previous": "%YeD49HM6O71E+Fa9eJMsqoZ6JBvp87PRHNJ+zwCP7DM=.sha256",
-  "sequence": 13945,
+  "previous": "%/+u1LHfVwUVnOYUIIwCoa+PkjX0qAFBY9U3t9GVAVZE=.sha256",
+  "sequence": 13946,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576510947917,
+  "timestamp": 1576511104617,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%+otRK5V9zNMwL3KuSRApaKLKGHNLq0rEoscwvhbdlNs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nI think I really like the promisify-tuple syntax -- any idea why the official promise syntax decided to depend on a `try...catch` pattern instead?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ],
+    "root": "%kf/LA2Y08nuOMjr7cTg++s9bFPeAY1aEd6m/B63t2Js=.sha256",
     "branch": [
-      "%+otRK5V9zNMwL3KuSRApaKLKGHNLq0rEoscwvhbdlNs=.sha256"
+      "%+otRK5V9zNMwL3KuSRApaKLKGHNLq0rEoscwvhbdlNs=.sha256",
+      "%fpyAzfKarWNuia2fYtx59V7tjuEupytlLEEm17yrxA8=.sha256"
     ]
   },
-  "signature": "3SzgfMjOnYW6vKe3zU3XRyK4g5yaq0JDQo3ItmO5kXOq25K997KZvCseKN3nrWotCq/SUEa9k3kKCzSCdcuyBA==.sig.ed25519"
+  "signature": "YFGY8DV0UqohlMRechnEfVIBWpsVeegvSmL/lh3u6aZqDvfKo1vumZTNKqlI+gfIYhm3O1D7klMwv2vJdOcVBQ==.sig.ed25519"
 }
