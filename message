@@ -1,22 +1,22 @@
 {
-  "previous": "%1cipjb0D4dJ3FBPZTtov15jLuhUyJZtIjP1Fy2kFHoM=.sha256",
-  "sequence": 13973,
+  "previous": "%0xgCTWFZ2Sxn52+BpL+uKz4tz5YqX2HpO1gy6U3DQc0=.sha256",
+  "sequence": 13974,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576528722467,
+  "timestamp": 1576532880367,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519)\r\n\r\nI'm really not sure, sorry to hear you're bumping into this problem. Would you mind trying again the next time you're on wifi?",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThat's true, I didn't consider that errors bubbling up was intended -- usually when that happens it's because I've forgotten to `try...catch` something. 😅\r\n\r\nI *do* like the fact that we can avoid `if (err) throw err`, it's easy to forget if your editor isn't integrated with your linter. \r\n\r\n> We’re probably very few people who like pull-streams, and “drain” comes naturally to us, but when a beginner sets their eyes on “drain”, they are uncomfortable with that.\r\n\r\nAbsolutely. I think it's important to remember that Pull-Stream is a framework *on top* of JavaScript, which increases the number of things that beginners have to learn. I like Pull-Stream, but I'd like for it to be optional.\r\n\r\nOnce [this pull request](https://github.com/ssbc/ssb-client/pull/52) is merged I'd like to make a change so that if you call a sync or async method without a callback, then it should return a promise by default. So we could have both:\r\n\r\n\r\n```javascript\r\nssb.whoami((err, val) => {\r\n  console.log(val.id)\r\n})\r\n\r\n// and\r\n\r\nconst { id } = await ssb.whoami()\r\nconsole.log(id)\r\n```\r\n\r\nI'd like to do the same with streams, but I haven't given it enough thought. Is it possible for a stream to tell whether it's being consumed via Pull-Stream or async-iterables? It's easy to tell whether or not you have a callback, but I haven't thought about how to do the same with streams.",
     "mentions": [
       {
-        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
-        "name": "jasongreen"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ],
-    "root": "%uEyVYcGiU3/nGXn9UZLeVf9aKHgzuhCTYTvxdSz4zwg=.sha256",
+    "root": "%kf/LA2Y08nuOMjr7cTg++s9bFPeAY1aEd6m/B63t2Js=.sha256",
     "branch": [
-      "%GO9rQMkXQFN8vQFqj9BCg26sdjrrzcHwObmEoLlNnXg=.sha256"
+      "%GtNsbp960bgChjof7pNFW0+CiycYYK36GE52+0ik1d0=.sha256"
     ]
   },
-  "signature": "+7zBPiokSUCa9MhWzyMuq1fL5I0GB+kSWa5Dvy5h9Rsvt1NM1ZqXtbTXTQxWJYOuvH/uGb1GUWlNSSOvoxGKBw==.sig.ed25519"
+  "signature": "VYimwbmq+pcL95AkLB24OGKK01t8w/KA4w4xrahzfZtLMGKfSCJYs0atCagq9SMU88Cxi6VQU6jLesUVUIDuDQ==.sig.ed25519"
 }
