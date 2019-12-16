@@ -1,23 +1,18 @@
 {
-  "previous": "%fiiK9LGobda20i3nxgder6k+aNyut4L+zj4oOlhyK+o=.sha256",
-  "sequence": 13939,
+  "previous": "%fRBYwopDeFz3HjtDQR5HuQ/hQfFEw0mFShLm126G5eQ=.sha256",
+  "sequence": 13940,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576510404597,
+  "timestamp": 1576510473627,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Many Gordons](@CM6JFyFGTYwNZ171/0OB56/V0MOYtJI3ifXopIM+M3w=.ed25519)\r\n\r\nThat looks like a corrupt flumelog to me. Could you make a backup of `~/.ssb/flume/log.offset` and then run `npx fix-flumelog-offset`?\r\n\r\nMore info here: https://github.com/fraction/fix-flumelog-offset",
-    "mentions": [
-      {
-        "link": "@CM6JFyFGTYwNZ171/0OB56/V0MOYtJI3ifXopIM+M3w=.ed25519",
-        "name": "Many Gordons"
-      }
-    ],
-    "root": "%BdSwakix781jRBnkB3e8ez4615mNNgWNxp+uYzCwnG0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%k+4oh6+aHRZ36CS3x2APX0BXuCXm7qNMggWfmXP8foI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%SIUZgmh71CWw/vQXB6lG+p1UZhxa3ClQC9oZDAxPZhg=.sha256",
-      "%U+URgOThaG+ja7UWCtvoYe8d9cUGnS5SKcsn7GLlvQ8=.sha256"
+      "%k+4oh6+aHRZ36CS3x2APX0BXuCXm7qNMggWfmXP8foI=.sha256"
     ]
   },
-  "signature": "/dSm/zPuy5B8plUx/Hm/R/MolSTUlJF6kpSOPa1VNyQIx4WzP9wyuxyiGttMMarZF5rhvAFoXcgqiDj8VrcTCw==.sig.ed25519"
+  "signature": "IMePZvDFqVQtS5kF+efuWiLpfQYFf7rguDNzNcIZRpqQk43pRkBSbH/FCfLVHMAXLajIvVBWgOHcaMacaav/DQ==.sig.ed25519"
 }
