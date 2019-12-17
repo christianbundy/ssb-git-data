@@ -1,18 +1,22 @@
 {
-  "previous": "%VPZQR4MXFP1FHS2zISObWYVMnaozxiC4X6lTZGNyNgA=.sha256",
-  "sequence": 13997,
+  "previous": "%7gMnR1rxVQtXMA2jNRFau6hQHQuT1QlJOOC5pJoIE8Q=.sha256",
+  "sequence": 13998,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576597526182,
+  "timestamp": 1576598319612,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%6zBjRZ0SFhYMoKydthmOmaVlyieSY/mliYPlXl2JErs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nThanks for the link! The blobs haven't propagated yet, but I'll look forward to checking those out.\r\n\r\n> In case you didn’t know already, you might be surprised that three has better radix economy than two\r\n\r\nI think when I was originally learning about dozenalism a few years ago I read about the most optimal base and was surprised to learn that it's E, which is closer to 3 than 2. It makes sense, but it's still wild.",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ],
+    "root": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
     "branch": [
-      "%6zBjRZ0SFhYMoKydthmOmaVlyieSY/mliYPlXl2JErs=.sha256"
+      "%0VRFrvIQZ9SvzuVvdJ7RmDI0XE3PEQN4ZZHeLQWuDn4=.sha256"
     ]
   },
-  "signature": "6+8Rm8WFqwH4zmt9fErUtBI/Zt534K1OvzEtFzLIKK+pXa+BC90KqbDjNqQZgPsb7WCFFjq+2ueO0ijANBDHAg==.sig.ed25519"
+  "signature": "uW9htATUiu+yTNevnvQUvdVFBRPcJzoemPMDs6XC6Za2lHhySgvj4U7gEVrUe8FtrIooLJmtVcIBYLVQV50yCg==.sig.ed25519"
 }
