@@ -1,17 +1,18 @@
 {
-  "previous": "%7m/lGALQUr2B3h0UyCvHcqUxgkoGM16Fka8y8AJEj0o=.sha256",
-  "sequence": 13980,
+  "previous": "%/IDvl5y9iAF+35644SmBrAE0ZJvcksHLL16MoGTnpfc=.sha256",
+  "sequence": 13981,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576542775876,
+  "timestamp": 1576544248098,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Had another thought about this today. One thing that might reduce rebuild times would be storing the state of each feed independently. This would have a few benefits:\r\n\r\n- Index the important things first\r\n  - Index your messages first\r\n  - Index only the people that you follow\r\n- Lazy-load everything else\r\n  - Friends of friends get indexed when you need it\r\n  - Or, more likely, *very* slowly in the background\r\n- Rebuild indexes for one feed only\r\n  - Did Alice delete a message? Rebuild her index\r\n  - Is Bob's index corrupt again? Rebuild it now\r\n\r\nThere are probably indexes that won't be able to save each feed's state separately, but my guess is most of them could do this just fine. I think the only universal constraint that we can't ignore is the number of file descriptors we have available.",
-    "mentions": [],
-    "root": "%A4807Ky0Usu2VIL2J3BczoNMiJooJyiD3V/9YdO1vMQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%HKjK0y7H96uGHU7lebKWSGw8YIO4a7o5HwIMzaX9tmo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%1sVYSgSb3D739aAwcrzRc2RpvR31ow80ylErCShpcLM=.sha256"
+      "%HKjK0y7H96uGHU7lebKWSGw8YIO4a7o5HwIMzaX9tmo=.sha256"
     ]
   },
-  "signature": "31AQdSne8OBsiA7j/6sEXBDoGgXu+mKByn54HvIRDWQ6zJXKeHd8IHLSYoqwFcyzdSUAeo3vAGMHLcdKJMxUBg==.sig.ed25519"
+  "signature": "dCv8T8KT9YV2aVat6eqIpsqJnT6F19kRogYDPKHTmgYfFfLCXOpOOn+NWmcGKCWT8M7mOuoxUhHWgrTCOOKLCQ==.sig.ed25519"
 }
