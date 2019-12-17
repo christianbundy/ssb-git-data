@@ -1,23 +1,18 @@
 {
-  "previous": "%gLuMEQFexppPERg6VRWfo4spiguaTSa7ShR5koozOTk=.sha256",
-  "sequence": 13983,
+  "previous": "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256",
+  "sequence": 13984,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576546746496,
+  "timestamp": 1576546752165,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\nDo you think it would be useful to create an overlay network like cjdns to connect peers directly via ssb-tunnel? I was just reading this about [how cjdns does address allocation](https://github.com/cjdelisle/cjdns/tree/master/doc#address-allocation):\r\n\r\n> ### Address Allocation\r\n>\r\n> The ipv6 assigned to the TUN interface is composed of the first 16 bytes of the SHA512 hash of the SHA512 hash of your public key. Keypairs are generated via a brute force method until a corresponding address is found with a starting byte FC. The FC00::/8 address space has been allocated as a Unique Local Address space, and so these addresses should not conflict with ICANN assigned IPv6 addresses or any other conventional internet operation.\r\n\r\nMaybe it would be fun to join the fc00 cyber-squat?",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ],
-    "root": "%iqXoP//+WnBt3UhTKK2uKjlV4EojMn8IjY5/rSLKdPY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%iqXoP//+WnBt3UhTKK2uKjlV4EojMn8IjY5/rSLKdPY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%HkPDQKQpW4e550n7h4h+FHcZB+KtI1cg9XWgcghOwWQ=.sha256",
-      "%PNlIHRlyt2fU2eOoAtjw3xn0B5M5+CYPrHRp+qLot4w=.sha256"
+      "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256"
     ]
   },
-  "signature": "WzH1NoEucnq1LRvSc1hmnMTOhstkux0Ecdx8hgfzObiKbJDrDw636yEgFaNiDsrAb24BNfGRM4O2QFa4LGDlBQ==.sig.ed25519"
+  "signature": "/CwKoM8Qcff5y9Z3nw+a4RwOBBArWHlRbFxrV2A8IWvZdfQggQMI1jzz1TmYE9IErbxu916FO1WwghG3+ZNNBg==.sig.ed25519"
 }
