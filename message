@@ -1,22 +1,23 @@
 {
-  "previous": "%mt1futIAU+X2VWiC9o4j0xXHsTa8dzQOINaWz+OVoek=.sha256",
-  "sequence": 13982,
+  "previous": "%gLuMEQFexppPERg6VRWfo4spiguaTSa7ShR5koozOTk=.sha256",
+  "sequence": 13983,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576544311326,
+  "timestamp": 1576546746496,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Marlon](@crbVSVKHkgEazu4loUi2j2DLbGMo0K444aAXUzKyMaQ=.ed25519)\r\n\r\nHey, welcome! Any notes you could share on what was going on with Patchwork? I've noticed that the latest release has sparked a handful of problems but I'm not sure why.",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\nDo you think it would be useful to create an overlay network like cjdns to connect peers directly via ssb-tunnel? I was just reading this about [how cjdns does address allocation](https://github.com/cjdelisle/cjdns/tree/master/doc#address-allocation):\r\n\r\n> ### Address Allocation\r\n>\r\n> The ipv6 assigned to the TUN interface is composed of the first 16 bytes of the SHA512 hash of the SHA512 hash of your public key. Keypairs are generated via a brute force method until a corresponding address is found with a starting byte FC. The FC00::/8 address space has been allocated as a Unique Local Address space, and so these addresses should not conflict with ICANN assigned IPv6 addresses or any other conventional internet operation.\r\n\r\nMaybe it would be fun to join the fc00 cyber-squat?",
     "mentions": [
       {
-        "link": "@crbVSVKHkgEazu4loUi2j2DLbGMo0K444aAXUzKyMaQ=.ed25519",
-        "name": "Marlon"
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
       }
     ],
-    "root": "%ILE6rCWOGkoxrwtGe0TXRVXOiDleFdteiQZP1Wo1nGQ=.sha256",
+    "root": "%iqXoP//+WnBt3UhTKK2uKjlV4EojMn8IjY5/rSLKdPY=.sha256",
     "branch": [
-      "%ILE6rCWOGkoxrwtGe0TXRVXOiDleFdteiQZP1Wo1nGQ=.sha256"
+      "%HkPDQKQpW4e550n7h4h+FHcZB+KtI1cg9XWgcghOwWQ=.sha256",
+      "%PNlIHRlyt2fU2eOoAtjw3xn0B5M5+CYPrHRp+qLot4w=.sha256"
     ]
   },
-  "signature": "wj+06nptW/+ohOcdMDTrbWD1nsJxXy9Jeyq93eL00lRsok/Nrpc/Zd+F0ybMiPY3BDA0II53oWlOEkVXpdc6Dw==.sig.ed25519"
+  "signature": "WzH1NoEucnq1LRvSc1hmnMTOhstkux0Ecdx8hgfzObiKbJDrDw636yEgFaNiDsrAb24BNfGRM4O2QFa4LGDlBQ==.sig.ed25519"
 }
