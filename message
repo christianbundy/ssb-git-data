@@ -1,18 +1,22 @@
 {
-  "previous": "%z00vn++nDnhRf7kyq0Suutt9vzqXUZhu8f2mo4Yr68w=.sha256",
-  "sequence": 14007,
+  "previous": "%h/NjhidQY8yUvLAY7Y4fQRrxmSRj1jtE1iQA4zttcYg=.sha256",
+  "sequence": 14008,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576612707712,
+  "timestamp": 1576613785082,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ZfDc/t2wVC6x79LgGq45JTvr2BMxI7PeGkWypSetZ30=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Thomas Renkert](@5e3FkSr1OEVb2TEMAYJYIgfT4KC9xpdLdIeDwjZQip4=.ed25519)\r\n\r\nI think the problem is that Patchwork calls both of these \"reply\", so the  same button takes you to two different places depending on context. 😱\r\n\r\nIn Oasis I'm using \"reply\" to mean \"message reply\" and \"reply all\" to mean \"thread reply\", but I'm not sure if that's the best way to describe what's happening. Do you think \"fork\" and \"reply\" would be less ambiguous?",
+    "mentions": [
+      {
+        "link": "@5e3FkSr1OEVb2TEMAYJYIgfT4KC9xpdLdIeDwjZQip4=.ed25519",
+        "name": "Thomas Renkert"
+      }
+    ],
+    "root": "%5rS+FXl4iHKAnYTQjGNvk1Y04LBdFZkNp2q9BBWW5XI=.sha256",
     "branch": [
-      "%KzylDKYSomLSgFnlxVuPyujjpZ/8hld5EiFYAE15bZU=.sha256"
+      "%PFiGZ+VmDRvX5kpR9EJTGUezHtSfqPeZAhHQIegWRYo=.sha256"
     ]
   },
-  "signature": "iGMsIHaekM3hWm/+VEnJJFywDLu+85ZHO2xIRQChUShDXhrHcpAclhh0y7ukI61Un9sR0XOaMv/iqPRpp80hDQ==.sig.ed25519"
+  "signature": "SS0AlhaZAnNluWg1SjEiNMvaZdXVc5RdNq5TqtGxbvdTDUnOwPEegpf/2GPT95hzGHD6/dd2BAMcYvb/i4z0Bw==.sig.ed25519"
 }
