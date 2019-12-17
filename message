@@ -1,18 +1,18 @@
 {
-  "previous": "%dUlSjp2ty/cEcByJUf4px9CpManxT+60PGp+MKRlZ7M=.sha256",
-  "sequence": 13999,
+  "previous": "%Qo36ssuvYzPjcFVLqRkmeICvR1LqJvUrAkVgPrLo7pU=.sha256",
+  "sequence": 14000,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576599427352,
+  "timestamp": 1576600586462,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I made an unreasonably hacky baby step.\r\n\r\n```javascript\r\nconst crypto = require('crypto')\r\nconst ssbKeys = require('ssb-keys')\r\n\r\nlet addr = ''\r\nlet keys = null\r\n\r\nwhile (addr.startsWith('fc') === false) {\r\n  keys = ssbKeys.generate()\r\n  const { public } = keys\r\n\r\n  addr = crypto\r\n    .createHash('sha512')\r\n    .update(public)\r\n    .digest('hex')\r\n    .slice(0, 32)\r\n    .match(/.{1,4}/g)\r\n    .join(':')\r\n}\r\n\r\nconsole.log(keys)\r\nconsole.log(addr)\r\n```\r\n\r\n```\r\n{ curve: 'ed25519',\r\n  public: 'UoiIIO4uFUZMfE4svS0uY2ZZqyixAaafVbc+8nNq71U=.ed25519',\r\n  private:\r\n   'redacted',\r\n  id: '@UoiIIO4uFUZMfE4svS0uY2ZZqyixAaafVbc+8nNq71U=.ed25519' }\r\nfcdf:a047:9ab0:c779:1a9d:6846:0628:bba9\r\n```",
-    "mentions": [],
-    "root": "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256",
-    "fork": "%iqXoP//+WnBt3UhTKK2uKjlV4EojMn8IjY5/rSLKdPY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%T7qHLY8PGRGHIQfSoacVCm2wVKCGml6Sls/i0aCtMVo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256"
+      "%T7qHLY8PGRGHIQfSoacVCm2wVKCGml6Sls/i0aCtMVo=.sha256"
     ]
   },
-  "signature": "ue3WEsYmwRd2Fluju6cVPeiAOzE7uShhdewDvwjKVzVGOt3m8RjedKhLRjjvk+N2x5i5cQ7/rxsdRiB+weDJCw==.sig.ed25519"
+  "signature": "WYnmTfgagnWHFmmDtD3gKnPmyaHyZHEzPAa0B2PsRBCsdMOWpyo9gWp+6yg8kg7dHwX7guDz3zCV6b2/vxJBCQ==.sig.ed25519"
 }
