@@ -1,22 +1,18 @@
 {
-  "previous": "%7gMnR1rxVQtXMA2jNRFau6hQHQuT1QlJOOC5pJoIE8Q=.sha256",
-  "sequence": 13998,
+  "previous": "%dUlSjp2ty/cEcByJUf4px9CpManxT+60PGp+MKRlZ7M=.sha256",
+  "sequence": 13999,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576598319612,
+  "timestamp": 1576599427352,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nThanks for the link! The blobs haven't propagated yet, but I'll look forward to checking those out.\r\n\r\n> In case you didn’t know already, you might be surprised that three has better radix economy than two\r\n\r\nI think when I was originally learning about dozenalism a few years ago I read about the most optimal base and was surprised to learn that it's E, which is closer to 3 than 2. It makes sense, but it's still wild.",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      }
-    ],
-    "root": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
+    "text": "I made an unreasonably hacky baby step.\r\n\r\n```javascript\r\nconst crypto = require('crypto')\r\nconst ssbKeys = require('ssb-keys')\r\n\r\nlet addr = ''\r\nlet keys = null\r\n\r\nwhile (addr.startsWith('fc') === false) {\r\n  keys = ssbKeys.generate()\r\n  const { public } = keys\r\n\r\n  addr = crypto\r\n    .createHash('sha512')\r\n    .update(public)\r\n    .digest('hex')\r\n    .slice(0, 32)\r\n    .match(/.{1,4}/g)\r\n    .join(':')\r\n}\r\n\r\nconsole.log(keys)\r\nconsole.log(addr)\r\n```\r\n\r\n```\r\n{ curve: 'ed25519',\r\n  public: 'UoiIIO4uFUZMfE4svS0uY2ZZqyixAaafVbc+8nNq71U=.ed25519',\r\n  private:\r\n   'redacted',\r\n  id: '@UoiIIO4uFUZMfE4svS0uY2ZZqyixAaafVbc+8nNq71U=.ed25519' }\r\nfcdf:a047:9ab0:c779:1a9d:6846:0628:bba9\r\n```",
+    "mentions": [],
+    "root": "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256",
+    "fork": "%iqXoP//+WnBt3UhTKK2uKjlV4EojMn8IjY5/rSLKdPY=.sha256",
     "branch": [
-      "%0VRFrvIQZ9SvzuVvdJ7RmDI0XE3PEQN4ZZHeLQWuDn4=.sha256"
+      "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256"
     ]
   },
-  "signature": "uW9htATUiu+yTNevnvQUvdVFBRPcJzoemPMDs6XC6Za2lHhySgvj4U7gEVrUe8FtrIooLJmtVcIBYLVQV50yCg==.sig.ed25519"
+  "signature": "ue3WEsYmwRd2Fluju6cVPeiAOzE7uShhdewDvwjKVzVGOt3m8RjedKhLRjjvk+N2x5i5cQ7/rxsdRiB+weDJCw==.sig.ed25519"
 }
