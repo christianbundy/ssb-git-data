@@ -1,22 +1,18 @@
 {
-  "previous": "%pBPpdsxuYh0LbJEABXLDsHGTGnKYPSDNj7UDBmPFr/o=.sha256",
-  "sequence": 13986,
+  "previous": "%lztf/I74tbnnSVsUt5TLIJCRscMlQn55O0/9NeseB6U=.sha256",
+  "sequence": 13987,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576547896425,
+  "timestamp": 1576553013455,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@LWFlouisa](@29XgtQcls58yzswaXhe8bMm1AYokKOnTXAwKk/yAmZ4=.ed25519)\r\n\r\nIt looks like it's installed to me, could you try running `ssb-server start`? Or if you already have an SSB service running, `ssb-server whoami`?",
-    "mentions": [
-      {
-        "link": "@29XgtQcls58yzswaXhe8bMm1AYokKOnTXAwKk/yAmZ4=.ed25519",
-        "name": "LWFlouisa"
-      }
-    ],
-    "root": "%CUaaMUdgYfuwNaQRpp1bJKOHKS1ecEkeg9GrdnOJYHI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%xGv6Q03D1UWDEUZPsebzxW1QDSl0PI8jJcOtPSIY/GA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%7/8uWyyBVjBr84Yqkyk1n4CTgpDxznPKlQShchxCBBA=.sha256"
+      "%B4NPVWbL5GVkNNgYk+bgvcACD3LFUV0CDyUjz0tsQXA=.sha256"
     ]
   },
-  "signature": "ZIj9s4SB4z9yJ0vPXTPwyPMxD+fRBUEyQsSlHpZFLmFnPCXdOo7uh8hhjvvJ/GGPtBQiY/VYOJhF1yUelLsVDA==.sig.ed25519"
+  "signature": "2vUhvhNOBVEm3MNg+SdKjCRgIrctl0qkJ8u7AJDB5EkvkXgI83T1O9OemZYDXBy5tEbg61J7e+9zmNSuwfVsAQ==.sig.ed25519"
 }
