@@ -1,22 +1,18 @@
 {
-  "previous": "%dBAU832phe5Un9DqjOlq1XKjMfRaXBY3jChcZF2x/Gs=.sha256",
-  "sequence": 14021,
+  "previous": "%nC/mKCt/MIcO7o1ojV5P2z03dFyd4cxijwoubPJUcJ4=.sha256",
+  "sequence": 14022,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576650620698,
+  "timestamp": 1576650650596,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@corlock](@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519)\r\n\r\n> My question: Is there anyway to perform a manual re-index / sorting where you explicitly say “order by timestamp from the post” ? How does patchwork handle this on a fresh install ?\r\n\r\nYeah! I use a branch of my `fix-flumelog-offset` module that fixes the timestamps, but Piet wrote a cool solution in Rust too!\r\n\r\n> Any ideas of what is going on here, and how to possibly replicate it ?\r\n\r\nI have a hunch that [this problem](https://github.com/ssbc/ssb-ooo/issues/9) might be related. Messages downloaded out-of-order were being passed incorrectly which caused tons of errors in Oasis. Patchwork throws fewer errors, but I think it still has side-effects from the underlying bugs.\r\n\r\nI'd be curious to see if this happens with the latest version of ssb-ooo installed. Maybe we'll see during the next Patchwork update?",
-    "mentions": [
-      {
-        "link": "@sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519",
-        "name": "corlock"
-      }
-    ],
-    "root": "%gb7eAhD0gbsSKaPs6gHL2Sd15sETo53/gJroYhKpba4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%fLMH171vbCbKAJ+NYyDwnWw+x73b3esla8rcnbWZY58=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256"
+      "%fLMH171vbCbKAJ+NYyDwnWw+x73b3esla8rcnbWZY58=.sha256"
     ]
   },
-  "signature": "lruaIP1g837lCYiiMy/a2bACI2U55v6ZMjO8MjNUn+cjH2fRArSWmT64Swz7kcXe5tHUo+3uoFmTc5VqrY5JAw==.sig.ed25519"
+  "signature": "GmOWrOpUM1LSPAMgGqUIJGb437uhJR0RERBtkgp3PCVuP7UwsTV/EJN86fVM8pr0XvG9YCz7lNaBtqs+0wH5CA==.sig.ed25519"
 }
