@@ -1,18 +1,22 @@
 {
-  "previous": "%kzrPYgqlgpuaQjlL2kE1cQwM5ErKnlgj6G/qNZffDig=.sha256",
-  "sequence": 14030,
+  "previous": "%oZoNMNp9V7u6uPrrgmItGf/ZCvn7OjVxI/4f7U4T9JQ=.sha256",
+  "sequence": 14031,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576678938906,
+  "timestamp": 1576679184137,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sZll34j9d0iSl+a37qRkr0jFWN/RmmvVex5ggCudggw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@happy](@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519)\r\n\r\nYeah, IIRC that \"maximum call stack exceeded\" comes from [here](https://github.com/flumedb/flumedb/blob/6008c03ad637607a236180e78f897cf0fea4fbde/index.js#L136-L142), which could maybe destroy the view if it gets a \"view stream error\"? I wish I knew what was causing all of these problems.",
+    "mentions": [
+      {
+        "link": "@RJ09Kfs3neEZPrbpbWVDxkN92x9moe3aPusOMOc4S2I=.ed25519",
+        "name": "happy"
+      }
+    ],
+    "root": "%BdSwakix781jRBnkB3e8ez4615mNNgWNxp+uYzCwnG0=.sha256",
     "branch": [
-      "%sZll34j9d0iSl+a37qRkr0jFWN/RmmvVex5ggCudggw=.sha256"
+      "%q1rW9AdcSP3bhLVpdSchVhZ5irjCiuDQqTutau/u+BI=.sha256"
     ]
   },
-  "signature": "W2yTassnkJpqwl26O7H7VlSAINDWhQ/sH0C3WlAy62YUXltqB1pDf9kSFSQtjM8GH/tuR5mAalOOLTHsakhDDQ==.sig.ed25519"
+  "signature": "U8kv1E0bRGFs1rzaxg1S0NwbDwj/R1KADD8bM43ZGn4mvOCPl/fhPdvbSKq4kWaVObE4X74PkUZlgC6WAuRfAw==.sig.ed25519"
 }
