@@ -1,18 +1,22 @@
 {
-  "previous": "%vQyIR+8Z1NrBV9Ir/tNM7c7GGmG/QDtskZEJmO3ncHw=.sha256",
-  "sequence": 14040,
+  "previous": "%lMW41pGl1Cnqsf855AFBqqURLXQgq8RQqB4zr1lFvYU=.sha256",
+  "sequence": 14041,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576711886383,
+  "timestamp": 1576712286263,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rSCUEgUbkINvFtH8Hwo7yAOV2b78s4DwKPoEygQT7XM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nPLEASE IGNORE UNLESS YOU'RE INTERESTED but is it completely ridiculous to switch between groups of 2 and 3 to try to get the average group size approach E? Would this even be a good idea? For example, here's 3-2-3:\r\n\r\n```\r\n                                             19\r\n                9                         18\r\n      4       8            13          17\r\n1 2 3   5 6 7     10 11 12    14 15 16\r\n```\r\n\r\nA plain `(3 + 2 + 3) / 3 = 2.67`, but my intuition is that the calculation is probably more nuanced than that. Do you have to calculate the average group size weighted by the number of items in that group?",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "aljoscha"
+      }
+    ],
+    "root": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
     "branch": [
-      "%rSCUEgUbkINvFtH8Hwo7yAOV2b78s4DwKPoEygQT7XM=.sha256"
+      "%mu87XT/U9XnV1EbLoRjbmIgDlWD7M++0Q0fkukdxoAM=.sha256"
     ]
   },
-  "signature": "zGV16nHVoLRRFWYyH/L0LLszpX8T9Uasp1FWLqAIdb/Pk7vZw5idtmaqMOMFgshMlkCHR2QozmtKiwsDzH41Dg==.sig.ed25519"
+  "signature": "wSjmdsJHBvZVi30yOL96MbXFxVpjOZgg9aDo9jnPdHzAAl5eKTBA1lxu+p/rpquEndyHtJgzp4lQYgdsR3v7CQ==.sig.ed25519"
 }
