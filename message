@@ -1,18 +1,23 @@
 {
-  "previous": "%TdvAqh+pHWqib94UkSOSrkXsGKJjELMtw/jIYVFkBPM=.sha256",
-  "sequence": 14019,
+  "previous": "%i1y2MyFq5QpA8DikL+tC33FJipzbrLuR+Pdfx+6MUS4=.sha256",
+  "sequence": 14020,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576649982087,
+  "timestamp": 1576650358427,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256",
-      "value": 0
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nFWIW I'm using a whitelist approach like this: https://github.com/ssbc/patchwork/issues/1192#issuecomment-540863309\r\n\r\nNot sure if useful to you, but I thought I'd share anyway. The downside is that it assumes that nobody will use that code in a future where other files should be ignored too.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256",
+    "fork": "%gb7eAhD0gbsSKaPs6gHL2Sd15sETo53/gJroYhKpba4=.sha256",
     "branch": [
       "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256"
     ]
   },
-  "signature": "t8sblTIJeHo4stHG2spD4n4JxNg94bgWi6qBe5QPRvp2iZ2eCsyCRiBgQBXqmZNsuDdI4I8KNU02gcP/S8zuCg==.sig.ed25519"
+  "signature": "ft2j4Z06sirMsOaPZ1ev9F/EqWkp2VTBEaeIExuzZifCzvWTQaZJurk/jiVTToT91EaJpSn4Wx0+xrBjTs/eDA==.sig.ed25519"
 }
