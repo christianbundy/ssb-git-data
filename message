@@ -1,22 +1,18 @@
 {
-  "previous": "%ep6xOgbLTEMMUqt4/IIsm1VHooICqIgFCixrLqcs4f0=.sha256",
-  "sequence": 14038,
+  "previous": "%mu87XT/U9XnV1EbLoRjbmIgDlWD7M++0Q0fkukdxoAM=.sha256",
+  "sequence": 14039,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576711642113,
+  "timestamp": 1576711703934,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519)\r\n\r\nBtw, I noticed that when drawing this out I found it much more visually intuitive as when the number line was preserved instead of stacking directly on top of each other. For example:\r\n\r\n```\r\n                                15\r\n           7                 14\r\n    3     6      10       13\r\n1 2   4 5    8 9    11 12\r\n```\r\n\r\nInstead of:\r\n\r\n```\r\n             15\r\n             14\r\n      7      13\r\n  3   6   10 12\r\n1 2 4 5 8  9 11\r\n```\r\n\r\nThis *might* be more intuitive to me because I'm familiar with binary counting, but I thought I should share my experience in case it's useful to you. 🤷",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "aljoscha"
-      }
-    ],
-    "root": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%BUtt06LWvhAyiHVUy90ZM4XCI45YZ5iaSjswa6C7hXo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%dUlSjp2ty/cEcByJUf4px9CpManxT+60PGp+MKRlZ7M=.sha256"
+      "%BUtt06LWvhAyiHVUy90ZM4XCI45YZ5iaSjswa6C7hXo=.sha256"
     ]
   },
-  "signature": "NIddvwsWTGe3E3b4V29soioSoVriKEB8Xr03PFocimVhO4vLJXbLcRoJBJ3G3Q8Uv5y+4PO8yI4pOz1hOaCiDg==.sig.ed25519"
+  "signature": "OP23PldPxau9qaKTU/md4vbo+VTaRMoHYdGY7pPQRi9zuZnHZ4oWSGLLd0gOOPTtt7tEyIoy4hjA1SOLin2YDQ==.sig.ed25519"
 }
