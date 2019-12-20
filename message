@@ -1,22 +1,22 @@
 {
-  "previous": "%0qOb90vwt2J+dERPgwFGeAvPHrMvglhPflc6vmBwEhs=.sha256",
-  "sequence": 14073,
+  "previous": "%us2+Axh7NAGWsjUzOvkzEBkwS70XfZBAq3ZCiR2n9AY=.sha256",
+  "sequence": 14074,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576857812817,
+  "timestamp": 1576872663173,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Rômulo Alves](@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519)\r\n\r\nI think ssb-identities does four things:\r\n\r\n- creates keys\r\n- lists keys its created\r\n- lets you publish with those keys\r\n- lets you decrypt with those keys\r\n\r\nI don't think that the other plugins have any concept of ssb-identities though, so if one of your identities follows someone I don't think any of the replication code will download content from the person you followed. I *think* they only care about the main identity.\r\n\r\nI think a cleaner solution would be to restart the SSB service when you change identities, but there are two problems:\r\n\r\n- I don't think Patchwork or Patchbay can even connect to SSB running as a daemon (?)\r\n- Even if they could, I don't think that they could handle the SSB service restarting with a new identity\r\n\r\n> Could it be too much megabytes to copy between the daemon and the .ssb folder?\r\n\r\nIf this was a problem, you could probably use a symbolic link instead of actually moving files around in the filesystem.",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nIn my implementation I set `.timestamp` to `message.value.timestamp` according to [some rules](https://github.com/fraction/fix-flumelog-offset/blob/2d058439760235f72ec5c71aa1c8c54407968725/index.js#L69-L96.\r\n\r\n(Also please not: if you use this experimental branch, **please** make a backup of your flumelog first!)\r\n\r\nFor client-side flumeview we actually only need a [`createSequenceStream()`](https://github.com/ssbc/ssb-db/pull/275), you can actually just get the raw flumelog with [`createLogStream({ raw: true })`](https://github.com/ssbc/ssb-db#dbcreatelogstreamltltegtgte-timestamp-reverseoldliveraw-boolean-limit-number--pullsource).",
     "mentions": [
       {
-        "link": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519",
-        "name": "Rômulo Alves"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ],
-    "root": "%LixFd71+r+Lf8DzvGYN4NxYsFzTd+P9xmFeoD3/QA10=.sha256",
+    "root": "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256",
     "branch": [
-      "%TmfaN12fPMwukt+c5gAC/OtECiOOLOWbF7/TQ1pvKaI=.sha256"
+      "%lBuTLmgJnI/5AKY4QN/SMJ/jlgSM1KsXnO3NkdiE1jI=.sha256"
     ]
   },
-  "signature": "osx50xrLyCmH2Bzegbx+QrBymQ2RyeVJZ1FTUzOt5cK0JHXd1nY8kQ4Y8vPEd47Soi5K/sREDjOSADErqWESAQ==.sig.ed25519"
+  "signature": "huWeoLz52CwmlRyne0o5yI4q8mLRpwuELfuJe6x0S7A/gBlYgiHTuK7gW3SyxEJZegzaEMNdzQTcFXe0PgdPCw==.sig.ed25519"
 }
