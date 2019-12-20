@@ -1,22 +1,23 @@
 {
-  "previous": "%us2+Axh7NAGWsjUzOvkzEBkwS70XfZBAq3ZCiR2n9AY=.sha256",
-  "sequence": 14074,
+  "previous": "%RJuy2BBjWpzZlmId9TUEnCk0nVmzOxCys6G4fxdvztE=.sha256",
+  "sequence": 14075,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576872663173,
+  "timestamp": 1576875119874,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nIn my implementation I set `.timestamp` to `message.value.timestamp` according to [some rules](https://github.com/fraction/fix-flumelog-offset/blob/2d058439760235f72ec5c71aa1c8c54407968725/index.js#L69-L96.\r\n\r\n(Also please not: if you use this experimental branch, **please** make a backup of your flumelog first!)\r\n\r\nFor client-side flumeview we actually only need a [`createSequenceStream()`](https://github.com/ssbc/ssb-db/pull/275), you can actually just get the raw flumelog with [`createLogStream({ raw: true })`](https://github.com/ssbc/ssb-db#dbcreatelogstreamltltegtgte-timestamp-reverseoldliveraw-boolean-limit-number--pullsource).",
+    "text": "SSB dev question: do I need all of these?\r\n\r\n- links: 336 MB (ssb-db)\r\n- links2: 371 MB (ssb-links)\r\n- ssb-backlinks: 230 MB\r\n- ssb-query: 166 MB\r\n\r\nI've only ever used ssb-backlinks and ssb-query, but I've had a nagging feeling that I should be using links1 or links2 instead. I already know about the [\"incomplete intentions\"](https://hackmd.io/IM5_tWIfSFuNoe3jtrjrtQ?view#incomplete-intentions) but it doesn't give me a clear picture of how ssb-backlinks and ssb-links are related. \r\n\r\n#ssb-dev #ssb-learning #ssb-help",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#ssb-learning"
+      },
+      {
+        "link": "#ssb-help"
       }
-    ],
-    "root": "%Tg5DSkeVwx69sEUANRzbN5oJGS0Bew089CdxFVv+/2w=.sha256",
-    "branch": [
-      "%lBuTLmgJnI/5AKY4QN/SMJ/jlgSM1KsXnO3NkdiE1jI=.sha256"
     ]
   },
-  "signature": "huWeoLz52CwmlRyne0o5yI4q8mLRpwuELfuJe6x0S7A/gBlYgiHTuK7gW3SyxEJZegzaEMNdzQTcFXe0PgdPCw==.sig.ed25519"
+  "signature": "MbxDZdW5bf27edXIDnp1IaPPmbHuff8keTnPIrhA5VCcMQZqdh+MwrsIUKzFwKDpJ2R+NnygSPsf6RG4iAt3Ag==.sig.ed25519"
 }
