@@ -1,23 +1,18 @@
 {
-  "previous": "%RJuy2BBjWpzZlmId9TUEnCk0nVmzOxCys6G4fxdvztE=.sha256",
-  "sequence": 14075,
+  "previous": "%49X1n1MOoDo1gZRS4sgsa9pDL5wKCnIevgwMy8SISo4=.sha256",
+  "sequence": 14076,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576875119874,
+  "timestamp": 1576875148782,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "SSB dev question: do I need all of these?\r\n\r\n- links: 336 MB (ssb-db)\r\n- links2: 371 MB (ssb-links)\r\n- ssb-backlinks: 230 MB\r\n- ssb-query: 166 MB\r\n\r\nI've only ever used ssb-backlinks and ssb-query, but I've had a nagging feeling that I should be using links1 or links2 instead. I already know about the [\"incomplete intentions\"](https://hackmd.io/IM5_tWIfSFuNoe3jtrjrtQ?view#incomplete-intentions) but it doesn't give me a clear picture of how ssb-backlinks and ssb-links are related. \r\n\r\n#ssb-dev #ssb-learning #ssb-help",
-    "mentions": [
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#ssb-learning"
-      },
-      {
-        "link": "#ssb-help"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%RmbmPaF2BH/UAM5w+6ODaEd8yEDIoHp23YKBd5n1y0k=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%RmbmPaF2BH/UAM5w+6ODaEd8yEDIoHp23YKBd5n1y0k=.sha256"
     ]
   },
-  "signature": "MbxDZdW5bf27edXIDnp1IaPPmbHuff8keTnPIrhA5VCcMQZqdh+MwrsIUKzFwKDpJ2R+NnygSPsf6RG4iAt3Ag==.sig.ed25519"
+  "signature": "b42/a7WlccSHPB3rOdy1YFJ+Hxi7+PEWexTSxyLE3PeRaEaxSX8HBXurpSyDvAMRD+lmX5Mkc5nt/kwhwn6JBA==.sig.ed25519"
 }
