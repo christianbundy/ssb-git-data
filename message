@@ -1,18 +1,22 @@
 {
-  "previous": "%jHqlJt36Mi4jb6rxomc5SFRMiK3eQdPqn9KoGIpyDMs=.sha256",
-  "sequence": 14072,
+  "previous": "%0qOb90vwt2J+dERPgwFGeAvPHrMvglhPflc6vmBwEhs=.sha256",
+  "sequence": 14073,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576856367687,
+  "timestamp": 1576857812817,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%cm3SDY5OLuqWLIWX6umqKqeoRlNnxnNLcURAonFNfPQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Rômulo Alves](@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519)\r\n\r\nI think ssb-identities does four things:\r\n\r\n- creates keys\r\n- lists keys its created\r\n- lets you publish with those keys\r\n- lets you decrypt with those keys\r\n\r\nI don't think that the other plugins have any concept of ssb-identities though, so if one of your identities follows someone I don't think any of the replication code will download content from the person you followed. I *think* they only care about the main identity.\r\n\r\nI think a cleaner solution would be to restart the SSB service when you change identities, but there are two problems:\r\n\r\n- I don't think Patchwork or Patchbay can even connect to SSB running as a daemon (?)\r\n- Even if they could, I don't think that they could handle the SSB service restarting with a new identity\r\n\r\n> Could it be too much megabytes to copy between the daemon and the .ssb folder?\r\n\r\nIf this was a problem, you could probably use a symbolic link instead of actually moving files around in the filesystem.",
+    "mentions": [
+      {
+        "link": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519",
+        "name": "Rômulo Alves"
+      }
+    ],
+    "root": "%LixFd71+r+Lf8DzvGYN4NxYsFzTd+P9xmFeoD3/QA10=.sha256",
     "branch": [
-      "%cm3SDY5OLuqWLIWX6umqKqeoRlNnxnNLcURAonFNfPQ=.sha256"
+      "%TmfaN12fPMwukt+c5gAC/OtECiOOLOWbF7/TQ1pvKaI=.sha256"
     ]
   },
-  "signature": "o0nd9drgOg0/W9H1DfjldSF6Qzo+EWSecV49PYbTAo/5H+C4cN9UjLhQwKXzk4XQujRJm37adX/UhUzhzyiGDQ==.sig.ed25519"
+  "signature": "osx50xrLyCmH2Bzegbx+QrBymQ2RyeVJZ1FTUzOt5cK0JHXd1nY8kQ4Y8vPEd47Soi5K/sREDjOSADErqWESAQ==.sig.ed25519"
 }
