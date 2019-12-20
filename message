@@ -1,26 +1,17 @@
 {
-  "previous": "%cYyfRIyU33PKWhwE7bIWzA048UG60xsD9Q9GHh1Wmxk=.sha256",
-  "sequence": 14079,
+  "previous": "%3KhJ06qYWrIYSMK+U3Yv0RFitZ16jvrTAKp0Rp9+GeY=.sha256",
+  "sequence": 14080,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576875606662,
+  "timestamp": 1576876134763,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nIn case you haven't already seen it:\r\n\r\n[bullet-journal.html](&Cm38CZBgQpcdJZGacLaR88u0ekeGPns81tWPvWVbMjQ=.sha256)\r\n\r\nYou can save as a local HTML file and IIRC it saves your state in localstorage.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "&Cm38CZBgQpcdJZGacLaR88u0ekeGPns81tWPvWVbMjQ=.sha256",
-        "name": "bullet-journal.html"
-      }
-    ],
-    "root": "%4lztSiaUNsvHjF9TYPQoqDamUAuSbdA8+iePG/p9Wvo=.sha256",
+    "text": "My gut feeling is that a solution like ssb-query might be best for most cases, falling back to links() when we *actually* care about which messages point at something, but I don't understand the space well enough to have a hot take.",
+    "mentions": [],
+    "root": "%49X1n1MOoDo1gZRS4sgsa9pDL5wKCnIevgwMy8SISo4=.sha256",
     "branch": [
-      "%FwunsgPzYRROpFa+YF9fSFIQQEQ+w60arWA7/EV6ZXc=.sha256"
+      "%49X1n1MOoDo1gZRS4sgsa9pDL5wKCnIevgwMy8SISo4=.sha256"
     ]
   },
-  "signature": "YvvZbULNHe2ZsWaRXPYi28yYiUprTnBtFVX72C1AXMM+vVi84Zp+EmET5HdYmKW1T0iCJV2xVHFcrRJd8SbqAw==.sig.ed25519"
+  "signature": "uycaIAxlH3mKu1qglTVI5e0bF6anFIlPOTVmuV8NGNAp5ebNCudOqT/cn+3rGLbYyRjKPNrJTyO79g1y7QqqCA==.sig.ed25519"
 }
