@@ -1,29 +1,18 @@
 {
-  "previous": "%XM0h7Law+k28qmAHsyr5odyt7NhZrcNmzOVQm39Bq+k=.sha256",
-  "sequence": 14065,
+  "previous": "%5oTGk+k87m+w11JbAOZXYkyjvA0adZvGdDWWN+mIMa4=.sha256",
+  "sequence": 14066,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576805829034,
+  "timestamp": 1576805868655,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "> There's also work that [@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) and [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) have been doing around switching the feed to be a merkel tree instead of just a straight append log which will help verifying and syncing partial feeds. \r\n\r\nFor anyone who's not familiar, some info on Lipmaa links here: https://github.com/aljoschameyer/bamboo#links-and-entry-verification\r\n\r\nCurrently being discussed in: %YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
-    "mentions": [
-      {
-        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
-        "name": "Aljoscha"
-      },
-      {
-        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
-        "name": "cft"
-      },
-      {
-        "link": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256"
-      }
-    ],
-    "root": "%ZUbY+KDd6tv8v+QoBk0pgBht287h0AbtK8fRX3RhAXg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%CXGHsAdmx63Tv2MmFUzCv/fwek+rETem9MAW/FEAvuU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%CXGHsAdmx63Tv2MmFUzCv/fwek+rETem9MAW/FEAvuU=.sha256"
+      "%CVhw2YwR9eFIi/yS2waMvB3ruE/l3SoA4gLMQ07Nh2g=.sha256"
     ]
   },
-  "signature": "PL0LsfTK1K/7eTdKpGu6/2MALsi7+Wc1mHgAmV7knJb6m4S3YVwSzUzKGvRd/Lu8kNE29ZGrSC2pkiryUdNiAQ==.sig.ed25519"
+  "signature": "ndhjve2lE+53PDXVkUubYRBgbVJ7Gv4vRPXVz/uM5l4fywm26U81aaYg0trW//FR5T0vwOKl4c8xVTKQ31/NDw==.sig.ed25519"
 }
