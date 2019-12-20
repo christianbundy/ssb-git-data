@@ -1,18 +1,29 @@
 {
-  "previous": "%61l0nXeeQ+u8C7A3K0m8bpHj0+iuGvwEeyYz3LBvUNk=.sha256",
-  "sequence": 14064,
+  "previous": "%XM0h7Law+k28qmAHsyr5odyt7NhZrcNmzOVQm39Bq+k=.sha256",
+  "sequence": 14065,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576805789245,
+  "timestamp": 1576805829034,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%DY2cNzQ7704YDW0/IMMAfn78sL98JpQ5cV16D49JgrI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "> There's also work that [@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) and [@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519) have been doing around switching the feed to be a merkel tree instead of just a straight append log which will help verifying and syncing partial feeds. \r\n\r\nFor anyone who's not familiar, some info on Lipmaa links here: https://github.com/aljoschameyer/bamboo#links-and-entry-verification\r\n\r\nCurrently being discussed in: %YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256",
+    "mentions": [
+      {
+        "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+        "name": "Aljoscha"
+      },
+      {
+        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
+        "name": "cft"
+      },
+      {
+        "link": "%YuDWLrh6g+5TXdbLJXryStrprBpAaoO2N7R3X3BgHx4=.sha256"
+      }
+    ],
+    "root": "%ZUbY+KDd6tv8v+QoBk0pgBht287h0AbtK8fRX3RhAXg=.sha256",
     "branch": [
-      "%I5J3NSKInm7dcsewPXas4iGPCBND/Xttszo2HskQzIs=.sha256"
+      "%CXGHsAdmx63Tv2MmFUzCv/fwek+rETem9MAW/FEAvuU=.sha256"
     ]
   },
-  "signature": "dPfEoBAJHWl3yjJO4lZJC++R2Ajl2oaM2h3Aqqf0fhrG+Rh64CaVZPOXkPpipj3NYTawcQhfglgmC7C5to1hBg==.sig.ed25519"
+  "signature": "PL0LsfTK1K/7eTdKpGu6/2MALsi7+Wc1mHgAmV7knJb6m4S3YVwSzUzKGvRd/Lu8kNE29ZGrSC2pkiryUdNiAQ==.sig.ed25519"
 }
