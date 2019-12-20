@@ -1,17 +1,18 @@
 {
-  "previous": "%3KhJ06qYWrIYSMK+U3Yv0RFitZ16jvrTAKp0Rp9+GeY=.sha256",
-  "sequence": 14080,
+  "previous": "%7FEUDPEY5ToDkr82Bm1ECHnKScsv3fwBFcXSEVbozKE=.sha256",
+  "sequence": 14081,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576876134763,
+  "timestamp": 1576876369353,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "My gut feeling is that a solution like ssb-query might be best for most cases, falling back to links() when we *actually* care about which messages point at something, but I don't understand the space well enough to have a hot take.",
-    "mentions": [],
-    "root": "%49X1n1MOoDo1gZRS4sgsa9pDL5wKCnIevgwMy8SISo4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%ox9oiuiGikO3XX1hCsr2yWQGC6ZaoR4jjya8Q+EZgm0=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%49X1n1MOoDo1gZRS4sgsa9pDL5wKCnIevgwMy8SISo4=.sha256"
+      "%ox9oiuiGikO3XX1hCsr2yWQGC6ZaoR4jjya8Q+EZgm0=.sha256"
     ]
   },
-  "signature": "uycaIAxlH3mKu1qglTVI5e0bF6anFIlPOTVmuV8NGNAp5ebNCudOqT/cn+3rGLbYyRjKPNrJTyO79g1y7QqqCA==.sig.ed25519"
+  "signature": "aWjgGQenUvYv0tkAlFCT0O/McPJRcmq72HtvWtG/xd59laaF+nmJgGUN91DpDQ/SuPPOktystrH/HhAprsiCDQ==.sig.ed25519"
 }
