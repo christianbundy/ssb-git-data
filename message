@@ -1,18 +1,22 @@
 {
-  "previous": "%ArRpOFrtq4IGR4xSMFL4KK18SrlGcUDYXPdnFyKK70Y=.sha256",
-  "sequence": 14090,
+  "previous": "%Yg7r679o6fF7y2W5CSHEmT0kNuSOQ/nX2FDkZBxkGGA=.sha256",
+  "sequence": 14091,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576906455017,
+  "timestamp": 1576944411638,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0FX2BiyXfawFv45Ned3J8oVQ0NHJzje9KbL0GQ0RO5Q=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nMaybe a silly question: what's a \"link rel\"? I saw that the documentation has `rel` as a string, but doesn't go into any detail on what that is or how to use it.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%6fgjIkZJpxprkoej+v4f/jjma3bXJTHgxbBswMREIpw=.sha256",
     "branch": [
-      "%0FX2BiyXfawFv45Ned3J8oVQ0NHJzje9KbL0GQ0RO5Q=.sha256"
+      "%DSKkC5gE4LWcB5dbo1oW6YsjA+D+5AEzyeSdpXuYQBU=.sha256"
     ]
   },
-  "signature": "okiqzINYjUa4eDdama2t/O32WCojs9obSee1qxY2VvCVY9dMBKECaenA1n2Ld+AEFKWRbBr9hbjeNitNJpO4Aw==.sig.ed25519"
+  "signature": "nMZLUaDSOvhQNb+A+YalJ9KCL4fAQ6ENJ+vM8J5R+ALVPeGlP3tbSABOUJIYPXkargrfevaMcz4rBF4+6KwACg==.sig.ed25519"
 }
