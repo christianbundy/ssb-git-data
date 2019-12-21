@@ -1,22 +1,18 @@
 {
-  "previous": "%1NYwZFcWeGrbJHjZTCxoKqxWmKMBeWjCQPmL6fsfvB8=.sha256",
-  "sequence": 14087,
+  "previous": "%YLNELV13NbALr+DJHuA6F58yxmSL3dxLClXmrzUvbaM=.sha256",
+  "sequence": 14088,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576892283177,
+  "timestamp": 1576894925577,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\n> This was a reaction to couchdb - which had a replication feature, but it didn’t work really great because it allowed you to update messages and choose your own keys. couchdb replication would work for a federated application, or redundant servers, or a central hub + mirrors, but not a truely decentralized design.\r\n\r\nWould this be resolved with a [validation function](http://guide.couchdb.org/draft/validation.html)? I'm not sure when it was added to the API but the [method docs](https://docs.couchdb.org/en/stable/ddocs/ddocs.html#validate-document-update-functions) seem promising.",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ],
-    "root": "%pYmFr6d0QwLP+YG0VNoo75PP7eYNZ1Y8C2MC9IjF5aw=.sha256",
+    "text": "I was curious about sparse replication so I tested it and couldn't get it to work. Tonight, a few weeks later, I found info about sparse replication on the web: https://www.spinics.net/lists/git/msg342006.html\r\n\r\nGit already supports sparse replication. 🤯",
+    "mentions": [],
+    "root": "%utuVSHMoayceJVEYM+xc7Rfys6fttvJP+XNd17V5+L8=.sha256",
     "branch": [
-      "%3APik4uhJfu6zl3pAWGtrR1yzDWs6/d33wVj91vvQEU=.sha256"
+      "%9YdoWHTFW2CF0whbTsn3Q6KEMpBVmWfFevahAyX9fcI=.sha256",
+      "%BjP6bcq8CLKiG/Ae3o9Dz2xuXQWAk7G8cEk5wlj3q/8=.sha256"
     ]
   },
-  "signature": "pMkt7OkY0hdF33kmmedB6ep7/Iylkgpw16SVi+feltm3c8UiwsDRK1hQPbhERMT/KsgLuLbcClt20gabUpR2AA==.sig.ed25519"
+  "signature": "XOTSzVqpq+JMkFB0AGIwVrXdFoydJ5n9wcGEGnj9N8REm7vZfHAzXcShEd8kjNfUz3BHCy81MMj1PgDRhAwRDQ==.sig.ed25519"
 }
