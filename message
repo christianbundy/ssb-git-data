@@ -1,18 +1,22 @@
 {
-  "previous": "%g3Xca1pT+fitDrYAdgpeFAk99B8goaYJyj3BiEaPgbw=.sha256",
-  "sequence": 14086,
+  "previous": "%1NYwZFcWeGrbJHjZTCxoKqxWmKMBeWjCQPmL6fsfvB8=.sha256",
+  "sequence": 14087,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1576890879407,
+  "timestamp": 1576892283177,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4g9V+CGcUPt/6bFAtt/GAjPcycz8U5a8YMO0O/SFOi0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\n> This was a reaction to couchdb - which had a replication feature, but it didn’t work really great because it allowed you to update messages and choose your own keys. couchdb replication would work for a federated application, or redundant servers, or a central hub + mirrors, but not a truely decentralized design.\r\n\r\nWould this be resolved with a [validation function](http://guide.couchdb.org/draft/validation.html)? I'm not sure when it was added to the API but the [method docs](https://docs.couchdb.org/en/stable/ddocs/ddocs.html#validate-document-update-functions) seem promising.",
+    "mentions": [
+      {
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
+      }
+    ],
+    "root": "%pYmFr6d0QwLP+YG0VNoo75PP7eYNZ1Y8C2MC9IjF5aw=.sha256",
     "branch": [
-      "%4g9V+CGcUPt/6bFAtt/GAjPcycz8U5a8YMO0O/SFOi0=.sha256"
+      "%3APik4uhJfu6zl3pAWGtrR1yzDWs6/d33wVj91vvQEU=.sha256"
     ]
   },
-  "signature": "Lu9gpOisz7G693LLiyOgurutkTtLpnmWWTvlB8tm7cGVXi0iOBjUCWj1ShuP1p0NYZiQaRTF9hT5lfBIfqe7Bw==.sig.ed25519"
+  "signature": "pMkt7OkY0hdF33kmmedB6ep7/Iylkgpw16SVi+feltm3c8UiwsDRK1hQPbhERMT/KsgLuLbcClt20gabUpR2AA==.sig.ed25519"
 }
