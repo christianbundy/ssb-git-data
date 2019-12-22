@@ -1,18 +1,22 @@
 {
-  "previous": "%0SnkFSmG7KxQULKtEpMiSyOBKf1FoArcdBxuH4RCpAY=.sha256",
-  "sequence": 14096,
+  "previous": "%KS/HspoShNPYXbHYEee1QKeyJErbvwWaqVpN9pzBqiM=.sha256",
+  "sequence": 14097,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577043993791,
+  "timestamp": 1577044743751,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Ib2Yo+XADfzT9ggzQs0vTSWvX5btLaNDy9zOLbqHbI8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nCool! How have you liked NextCloud so far? I set it up on a server using [this script](https://docs.hanssonit.se/s/bj0vl1ihv0jgrmfm08j0/build-your-own/d/bj0vl4ahv0jgrmfm0950/nextcloud-vm) and there were way more moving parts than I'd expected. There were lots of optional plugins, but even some of the most common tools didn't have the features I'd expect. I really wanted to self-host my email instead of using FastMail, but I was bummed to see that the web mail interface didn't have a way for me to archive emails (I think the options were \"move to folder\" or \"delete\").\r\n\r\n> Let’s face it: sometimes DuckDuckGo will not find what I’m looking for, I then have to cheat and turn to Google for help :(\r\n\r\nI wouldn't sweat this. :) Google is going to exist whether you use them or not, and I think think it's great that you're using alternatives when it's practical.\r\n\r\n(Feel free to replace \"Google\" with \"Amazon\", \"animal products\", or other things that many of us would like to boycott entirely. It's better to have lots of people reducing their usage by 99% than a few people reducing their usage by 100%. You're doing great!)",
+    "mentions": [
+      {
+        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
+        "name": "zozs"
+      }
+    ],
+    "root": "%nKPjokdvilZogkszHA1uBpV3Bqumu53c5gTDYCxHRTo=.sha256",
     "branch": [
       "%Ib2Yo+XADfzT9ggzQs0vTSWvX5btLaNDy9zOLbqHbI8=.sha256"
     ]
   },
-  "signature": "JfnbWBkauXf8jio4zcyb41KA0HIpRX3SIO3x4ru/hDQRxWUaxKwGLcshIiOg4GW0mJca/R97sBIUiwuXy1zhBQ==.sig.ed25519"
+  "signature": "GvUmR4lm3waYoSggsfisGddNtp9WVGi/Pm/4Qbf8n85Jaq11LrbWGVPewZLTAN0EbbHc+hyGUoFsNAiJc81zDQ==.sig.ed25519"
 }
