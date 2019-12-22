@@ -1,18 +1,32 @@
 {
-  "previous": "%y3Gzemr4IAtumzxlIlx4rL0QclwyXvOsO1W24jS7d60=.sha256",
-  "sequence": 14099,
+  "previous": "%gS9JfWD1QHzd8FpcKpkx1n3hz962IPKAssBcxuNUHQ4=.sha256",
+  "sequence": 14100,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577049533696,
+  "timestamp": 1577049735104,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%DaWyzi216sn0Pu3ktW/oSdZnK/VveGsOCY0CGhykDTE=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%DaWyzi216sn0Pu3ktW/oSdZnK/VveGsOCY0CGhykDTE=.sha256"
+    "type": "post",
+    "text": "Geeky question about hashtags: does anyone have a system for encoding arbitrary strings to their respective hashtags? I think we're all just making it up on the fly but that gives us stuff like:\r\n\r\n- #FooBar\r\n- #foo-bar\r\n- #foo_bar\r\n- etc\r\n\r\nThese probably shouldn't be treated as the same hashtag (e.g. #nowhere could be either #no-where or #now-here) but I think the status quo should be improved.",
+    "mentions": [
+      {
+        "link": "#FooBar"
+      },
+      {
+        "link": "#foo-bar"
+      },
+      {
+        "link": "#foo_bar"
+      },
+      {
+        "link": "#nowhere"
+      },
+      {
+        "link": "#no-where"
+      },
+      {
+        "link": "#now-here"
+      }
     ]
   },
-  "signature": "ZsEIe/Qfq1b2X/JSW7deXJNyZ2wmSotfuR4XvKvbwUhPx739h2/HSiGj7velXonNe/PPjFL+2apUD4n+sn2BCw==.sig.ed25519"
+  "signature": "P9a6FS6NZB67fTDHZYTTX3ALwrhEiIuKPPBljxpoaI8zI26M6MAw+mBN64KurZXUDIXr1DFKX0fkZGdBvtfzBQ==.sig.ed25519"
 }
