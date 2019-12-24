@@ -1,17 +1,18 @@
 {
-  "previous": "%SFwObb0Z5jEaa4uISaOUYm7RlBz3zT+cMxDsefDEmNE=.sha256",
-  "sequence": 14114,
+  "previous": "%qwqTsYY60zDhXL4nvH/UXCduDC+ZW5UCkmlLrAo/tcQ=.sha256",
+  "sequence": 14115,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577144190624,
+  "timestamp": 1577148973205,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Decided to spin this out into its own micro-module: [SSB-Vanity](https://github.com/fraction/ssb-vanity).\r\n\r\nI've included examples for:\r\n\r\n- fc00 compatibility\r\n- case-sensitive prefix (e.g. `SSB`)\r\n- case-insensitive prefix (e.g. `bUtT` and `BUtT`)",
-    "mentions": [],
-    "root": "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%09dEGPmfJz5RUx/gb+t8BuMoKyybV9k79wOG5tp89q4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Qo36ssuvYzPjcFVLqRkmeICvR1LqJvUrAkVgPrLo7pU=.sha256"
+      "%09dEGPmfJz5RUx/gb+t8BuMoKyybV9k79wOG5tp89q4=.sha256"
     ]
   },
-  "signature": "t1Hj/ZY+wY1B6p/Wx/7XusLMpEGgiHaRTijn9eSRGXMaMKbia4Avy1UN/QGdctJyzpl7ogpRTL1tdO2GlX7tAA==.sig.ed25519"
+  "signature": "5S2a+DUeKLnpZzzD3OUiC5AsPgVGwwsCxEsm98qP0jx7UTvFbJVRvo0fv7k7KFxx/2PLa8JG12USGHZ9gKUgBg==.sig.ed25519"
 }
