@@ -1,18 +1,23 @@
 {
-  "previous": "%SNrkbk0+RgEEilW8lFwfwzfJBP+xi0WCRDid+r0xlWE=.sha256",
-  "sequence": 14122,
+  "previous": "%AFjBgbCWrAmN8fyQEWuG8oCaDKXSW5V+8HLFZMXfDDk=.sha256",
+  "sequence": 14123,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577201145266,
+  "timestamp": 1577201460727,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WV+3ZaWQ8jBquUgtiKJ9QssM63WB1g4JJb7oS6H0oNE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@namatoj](@INEnIrARKfJUGo1QSc9P+8yPyFn5jLNxyNbSAubhPT0=.ed25519)\r\n\r\nThanks for the link! The talk from Rich Harris was really great. I've wandered around the Svelte website a few times before but I learned lots of new things from the talk. I've spent lots of my professional life improving build pipelines and lately I've been experimenting with avoiding those pipelines entirely, but this has me feeling a bit more optimistic about JavaScript build tools.\r\n\r\nI'll check out Jonathan Blow's talk too, thanks.",
+    "mentions": [
+      {
+        "link": "@INEnIrARKfJUGo1QSc9P+8yPyFn5jLNxyNbSAubhPT0=.ed25519",
+        "name": "namatoj"
+      }
+    ],
+    "root": "%wva281onL2u1igmimwWnenzx3uFFn4bKRB75aRtzNXA=.sha256",
     "branch": [
-      "%vkX7wOxMW03gRp0vN7SFJuHcu8+6qCbKUMjq8FQyBFk=.sha256"
+      "%+5Y0NMM+WLOUyfZHCE9Sts13motJh97DtUHqzHkF4yc=.sha256",
+      "%dukmByN8VgexBIGi0pZGXt2E8BDkhCmJ0zNpz6rpKzs=.sha256"
     ]
   },
-  "signature": "6NOF3zqngwSxDYZyqmGpSx8TFnn5SisPyNESwPB9XltTj6eaF3bHp9JSvA5oqXilm6WazupKZC9XC64HmbgRDw==.sig.ed25519"
+  "signature": "i9IfES+MQUfHNv8QDd/m/Cv82p3Jblxt1vXxpbaQqocrOFuB/6yv+3UuMDwXXqhCRyJZsOr1D4jpwz/n48ByCw==.sig.ed25519"
 }
