@@ -1,18 +1,28 @@
 {
-  "previous": "%4oQQ3qHhvrsUtlchVlLpulVvesQpbqiwthYl468FcSs=.sha256",
-  "sequence": 14132,
+  "previous": "%IIhEVedmVtsfJg9JLXH7x8ckSbwOD8sjc40ZXl055hg=.sha256",
+  "sequence": 14133,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577377669894,
+  "timestamp": 1577378411114,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%t/AMD0aWfpCvMOYBV46t9l1qBe2YyhLV3euXuhrar2w=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Many Gordons](@CM6JFyFGTYwNZ171/0OB56/V0MOYtJI3ifXopIM+M3w=.ed25519)\r\n\r\nI don't think so, that looks like a view error to me. I've gotta run, but I think Cel recently posted a view deletion script that I liked more than mine. Maybe someone can dig it up?\r\n\r\n---\r\n\r\n[@Ryan](@ZyEhmdegsw1Lu14VfZK0wHQ9aTXHXQ/xmGf55/CjuvU=.ed25519)\r\n\r\nAny chance you had enabled \"delete messages from blocked authors\" in Patchwork settings? Or opened both apps at the same time? I've seen lots of bugs like this in the past few months and I can't figure out what's causing them, but I'm suspicious that Patchwork and Patchbay aren't playing nicely with their shared database.",
+    "mentions": [
+      {
+        "link": "@CM6JFyFGTYwNZ171/0OB56/V0MOYtJI3ifXopIM+M3w=.ed25519",
+        "name": "Many Gordons"
+      },
+      {
+        "link": "@ZyEhmdegsw1Lu14VfZK0wHQ9aTXHXQ/xmGf55/CjuvU=.ed25519",
+        "name": "Ryan"
+      }
+    ],
+    "root": "%+ROyJZCHAIZkO/xN80JMj+brR0674nRplzSa50ctDt4=.sha256",
     "branch": [
-      "%t/AMD0aWfpCvMOYBV46t9l1qBe2YyhLV3euXuhrar2w=.sha256"
+      "%F5vdfTkRRsyMMtcANeS7NOvkdCuU8uXWunLrQu+/eyM=.sha256",
+      "%LYXNloZXicuOuGPVUT92vs1ZeXLP/oSZu7FbqJP1fhI=.sha256",
+      "%UZ+SdrrJKoy7D94Puo3Po7LRatHB9ncVJ7ZeJsdh6kw=.sha256"
     ]
   },
-  "signature": "4RfiBa2gxIUHBzNY6E9DXWzEqFLVJoBN0SCIZYOZnxL5+/F8Wj9WSZXYEAJ4FBfPvEY9MT3WXaC3ZWfnhB0cBw==.sig.ed25519"
+  "signature": "gIEMatRWTDonneitvrZP+NcFAIojxtzg8S7lqAz8cftJelrKVzjNw0Mfl6pZQYlitvpmrkyQ0UaAXcZMhCR0Cw==.sig.ed25519"
 }
