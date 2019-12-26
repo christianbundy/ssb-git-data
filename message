@@ -1,17 +1,30 @@
 {
-  "previous": "%4mBcMf/X6kX1acB1MDTTNjkmAQlRvo2nV4BQkVqlhU4=.sha256",
-  "sequence": 14136,
+  "previous": "%hygV803mLCmyozIe9ZbwLKgzCcsAR4CS+iF3DVBUWBE=.sha256",
+  "sequence": 14137,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577389997776,
+  "timestamp": 1577396228356,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "This bug has haunted me for way too long. I spent a few hours investigating and I think I've made some progress. \r\n\r\nIf anyone wants to follow along: https://github.com/flumedb/flumedb/issues/32",
-    "mentions": [],
-    "root": "%+ROyJZCHAIZkO/xN80JMj+brR0674nRplzSa50ctDt4=.sha256",
+    "text": "[@micro](@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519)\r\n\r\nThat's really cool! I've never compiled Rust code into a JavaScript module, any chance you know of any resources I should check out? If not, I can just search the web.\r\n\r\nI was thinking that this might also make for an interesting Secret-Stack plugin that hooks into the `publish()` function. That's how I imagine  [@mikey](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)  mines for [butts](%BuTTpCyzvqR/78rbDZhrA85MvQNm6N0SZ5AmJ0dN8eM=.sha256), anyway.",
+    "mentions": [
+      {
+        "link": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
+        "name": "micro"
+      },
+      {
+        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
+        "name": "mikey"
+      },
+      {
+        "link": "%BuTTpCyzvqR/78rbDZhrA85MvQNm6N0SZ5AmJ0dN8eM=.sha256",
+        "name": "butts"
+      }
+    ],
+    "root": "%bbauJpE+d+nGb2haLOfkbdAcqsWSlJL8CfKeedgwT4w=.sha256",
     "branch": [
-      "%k2Cvc7FihKBmJz++nYzCxEb4VtiB3+iCuPJauWpfH0M=.sha256"
+      "%wRZ2Wj/OwXs09s7t5WSo0nXxU5Z6am8pPbofSoG16dE=.sha256"
     ]
   },
-  "signature": "6eiTr2rqr6Ji9ZcM2/ASPy80nLXZjxbcB0CsxoQPfsTd8wyWIPfCCxW7QPsxG4ee0Ev/h0z4oQGyKO2yAWLlCQ==.sig.ed25519"
+  "signature": "tP4/GvibtwItN44Tt2Ryq71iMStV8XfOWZVXPFEbG7kRUHzsZfBhoGp/HEJdA5l5rNMZm5SyLkWZvbeCm5osCg==.sig.ed25519"
 }
