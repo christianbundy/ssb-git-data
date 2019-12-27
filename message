@@ -1,22 +1,26 @@
 {
-  "previous": "%bI3RRZOm0MCXKkY8KJnU623djPe/Dnh0jJZLirbF5xo=.sha256",
-  "sequence": 14155,
+  "previous": "%q9vow20ESE/6Y8KDFwiRQhTdrjWwonf6uhs51qD1kRY=.sha256",
+  "sequence": 14156,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577471088999,
+  "timestamp": 1577478052137,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\nDon't know whether you saw this, but it might be related: https://github.com/ssbc/patchwork/issues/1215",
+    "root": "%t1TccD4qsZudNYfKiAdaxmCPg4IXYQNcGWUHzLrLAEk=.sha256",
+    "branch": "%VqszRy77zofI4TgBMqb9RQILvghOHVeJAP7XhBcVakI=.sha256",
+    "reply": {
+      "%t1TccD4qsZudNYfKiAdaxmCPg4IXYQNcGWUHzLrLAEk=.sha256": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+      "%VqszRy77zofI4TgBMqb9RQILvghOHVeJAP7XhBcVakI=.sha256": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519"
+    },
+    "channel": "patchwork-help",
+    "recps": null,
+    "text": "[@bob](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519) \n\nThanks for pointing this out, I'd like to fix it immediately.\n\nThe simplest solution is to throttle how quickly we update the UI after the underlying data has changed. Do you think that would work? I've got a version that sets a maximum of 1 change per second, but I wanted to ask for your feedback to make sure that would help.",
     "mentions": [
       {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bob"
       }
-    ],
-    "root": "%t1TccD4qsZudNYfKiAdaxmCPg4IXYQNcGWUHzLrLAEk=.sha256",
-    "branch": [
-      "%bmuCjjVGUe0BTyvQGsyVmFsciNeJ/Z29ePU+maPfvqE=.sha256"
     ]
   },
-  "signature": "JzzbmIHuGaFb2HhXZnM6DdA/CjozaF+cSwOY0SvIS59vFrMV1uHVMCiZPZHHQlNXvwP7WD1qEuQJpTssLVnRCQ==.sig.ed25519"
+  "signature": "hHS6oAe94/t2P7YmW6Xa/XChWgAADzU4nU8hm2BbUI7P5voFgYMV8w01SSQIbJkl0iIN1suf8hP1N2gLA642Aw==.sig.ed25519"
 }
