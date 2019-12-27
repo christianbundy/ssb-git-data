@@ -1,30 +1,18 @@
 {
-  "previous": "%ktHGl0vokx0nXVuoqGyruhLDh0C6n+p161nMisajoys=.sha256",
-  "sequence": 14152,
+  "previous": "%Xi3euNl5zWumlm7CqH5TuyE2OqTWakrdN8kZsHLGDK0=.sha256",
+  "sequence": 14153,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577469431037,
+  "timestamp": 1577469440467,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nThanks for posting this, I've been bumping into the same class of problems over the years and I'm unclear about how exactly it should be resolved.\r\n\r\nAside: does Svelte have [`<template>` tags](%p4TpIl5Je9z0z/QpYLdmk/FrWaALSpIE0nKz7u3Yz68=.sha256) too? It seems like that might resolve the problem where they're encapsulating your slots with `<div>`s (weird!), but maybe not.\r\n\r\nWhile working on Oasis I tried [Swig and EJS](%A6mVvjGYEVxzgulJpcUnu4ktF2hKwvC/wP0g/fhWobI=.sha256), but came to the conclusion that plain old JavaScript is more ergonomic than HTML with a templating language stapled on top.\r\n\r\n> So each message renderer ended up reimplementing likes because there is no inheritance and composition doesn’t play well with nesting components.\r\n\r\n:/ ",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "%p4TpIl5Je9z0z/QpYLdmk/FrWaALSpIE0nKz7u3Yz68=.sha256",
-        "name": "&lt;template&gt; tags"
-      },
-      {
-        "link": "%A6mVvjGYEVxzgulJpcUnu4ktF2hKwvC/wP0g/fhWobI=.sha256",
-        "name": "Swig and EJS"
-      }
-    ],
-    "root": "%PY7CeNmH190OvwjPoMHvG4mRkHbxU01WbrgebDdelko=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%oqKxT9GtJ19t3iJOgfywi4NuvwHvSaKheDM+PCt7HmY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ahPm6PIs6BTxvz11J+3+cuDHZN84oDhaOMBOzQG2eZQ=.sha256"
+      "%oqKxT9GtJ19t3iJOgfywi4NuvwHvSaKheDM+PCt7HmY=.sha256"
     ]
   },
-  "signature": "y2CZ10aIOj0rMGADp5Qb3Gg3JWQwiEk0JYvtQE4vUIcQuwztbu4cADmRtYpnU73TnaUQTF5BLG2nRhU7GrXkCw==.sig.ed25519"
+  "signature": "+fo/cmbfTvbTmmYm6y6llaKmYPx0iFhen7PkkcCQb3Fyze/L76E1zDSUi220WRYfut/Okgw39uKFjB2h58j3CA==.sig.ed25519"
 }
