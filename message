@@ -1,18 +1,22 @@
 {
-  "previous": "%Xi3euNl5zWumlm7CqH5TuyE2OqTWakrdN8kZsHLGDK0=.sha256",
-  "sequence": 14153,
+  "previous": "%OL0L2Zr/tFf5akyhMsDkI0IHw0gAW8bHkBd3Y8P8iEU=.sha256",
+  "sequence": 14154,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577469440467,
+  "timestamp": 1577470987467,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%oqKxT9GtJ19t3iJOgfywi4NuvwHvSaKheDM+PCt7HmY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nI've also noticed this but I'm not sure what the cause is. Every time I try to investigate it magically resolves itself. It's a [Heisenbug](https://en.wikipedia.org/wiki/Heisenbug)! ",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      }
+    ],
+    "root": "%+D5Fwf4lzHficnQO2Cc8B8jMhxnf6gcs8/da1SSSRb0=.sha256",
     "branch": [
-      "%oqKxT9GtJ19t3iJOgfywi4NuvwHvSaKheDM+PCt7HmY=.sha256"
+      "%+D5Fwf4lzHficnQO2Cc8B8jMhxnf6gcs8/da1SSSRb0=.sha256"
     ]
   },
-  "signature": "+fo/cmbfTvbTmmYm6y6llaKmYPx0iFhen7PkkcCQb3Fyze/L76E1zDSUi220WRYfut/Okgw39uKFjB2h58j3CA==.sig.ed25519"
+  "signature": "vbMjVMtA+qr2yanHYs633VfmER7aYaFWQDniMprAYvZoNxYqU831uCUkYI0/xVsM3hZId5lZPPEdddEqi9GEBg==.sig.ed25519"
 }
