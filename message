@@ -1,21 +1,16 @@
 {
-  "previous": "%JGeovJiZro9qVMOQjqxxNIs2HH7SXSGKZbBQnw1Ha2Y=.sha256",
-  "sequence": 14167,
+  "previous": "%rrT937WpWzvWLazs09s+B5Xzs372Ob4UuEfgSYg93eQ=.sha256",
+  "sequence": 14168,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577510037146,
+  "timestamp": 1577549659180,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I asked #git on freenode IRC and someone suggested using git hooks. They also mentioned that you can do signed pushes (!), but I don't think we need that.\r\n\r\nMaybe each public keyIn should have its own branch instead of its own remote. The Git hook would validate the author's signature before you'd be allowed to push to a branch, so you could be confident that each branch is valid.\r\n\r\nWe could use named branch aliases to pull the latest code from our friend's primary branch:\r\n\r\n```sh\r\ngit symbolic-ref refs/heads/@cel refs/heads/ @f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519\r\ngit merge @cel\r\n```",
-    "mentions": [
-      {
-        "link": "#git"
-      }
-    ],
-    "root": "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256",
-    "branch": [
-      "%IhlbM5+8NM5A+J3V437Tj0qcXEFGsI78rIAae+BSVzo=.sha256"
-    ]
+    "type": "vote",
+    "vote": {
+      "link": "%I//yRhRW9Dd2Px3OLjBgK+z2/yFKQPb3jIOKiLfXyc8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "PverlATitcho2BOGtKECPFaMoo+uF1igaWCgHztnWU16AYbTOxiuCoqeAepV8HGqPz31frDKMqeHr+HZTNUaCg==.sig.ed25519"
+  "signature": "AwVE6p0Li74KQPKUphnXySRzi5LRiozqkRYHlRNAZqh1HOeaFYok9dwu+CO/X3qqs/Vqd0imzr8b+ZHC5V71AQ==.sig.ed25519"
 }
