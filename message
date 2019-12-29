@@ -1,18 +1,23 @@
 {
-  "previous": "%6IKi55US8IFO9lETR1gmC5t1yn4GlP31f3Cm1plymPk=.sha256",
-  "sequence": 14205,
+  "previous": "%y87FxPbnW57LjOpZwtD57Cj7t02atXSf4UBW3KUaKPM=.sha256",
+  "sequence": 14206,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577583109027,
+  "timestamp": 1577589694473,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%qsH6DGpeeIDF+Kgct5c6y/pHla7LqL7NnfrO4Yk/5KY=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%qsH6DGpeeIDF+Kgct5c6y/pHla7LqL7NnfrO4Yk/5KY=.sha256"
+    "type": "post",
+    "text": "Software thoughts about Prettier.\r\n\r\nI've been using Prettier lately and really enjoying it. Anyone else have experience to share? I like that it auto-formats code from different languages in popular and accessible style dialects (stylects?). Some of these don't match my *personal* code style, but I think that's the point.\r\n\r\nHell, for code style enthusiasts it'd probably be trivial to create dialect-specific branches so you can develop on your favorite tree. As long as everyone converges on the same `master` it doesn't really matter whether anyone writes software in the same style.\r\n\r\n#prettier #software #style",
+    "mentions": [
+      {
+        "link": "#prettier"
+      },
+      {
+        "link": "#software"
+      },
+      {
+        "link": "#style"
+      }
     ]
   },
-  "signature": "MmxFrz5RdLyUZr9ETDqnt4cHmqsC/MzxH8bMWt3sS8HlelEf2sI6MUTjw1ICFV67fhaLfgFmisIVK6Q2qoWlDQ==.sig.ed25519"
+  "signature": "noS9LnAgX/7bQc/HwSt+YGgyFNFxdSQrWFs2L6+MzOfF50mgXOjaLIXINkfEYg1SZU3PY3vjCMNUHcdhowgHBQ==.sig.ed25519"
 }
