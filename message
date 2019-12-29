@@ -1,18 +1,22 @@
 {
-  "previous": "%TvLVydSkEH9OGExKdYMiZ0CNXHGYmlBCP578Rpb97dU=.sha256",
-  "sequence": 14218,
+  "previous": "%U3ruLEbTzwujgokDOeS+bF/RsgmKY9WnE4ikXw5nQ4M=.sha256",
+  "sequence": 14219,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577641881472,
+  "timestamp": 1577654134141,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Trgs+wlBfRNUifVqvnt+N0T9dDjaGcmGAdKI+2iHVK8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nTags are a great idea: they're basically labels or bookmarks that people can add to posts. Unfortunately the implementation hasn't been touched by anyone in a long time, and so it's currently unmaintained. You should expect bugs and weird behavior. :/",
+    "mentions": [
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      }
+    ],
+    "root": "%9hn2wy5aqRh+vIDMQuziV/EAx5rG6jrFz9UiZszsSDA=.sha256",
     "branch": [
-      "%Trgs+wlBfRNUifVqvnt+N0T9dDjaGcmGAdKI+2iHVK8=.sha256"
+      "%9hn2wy5aqRh+vIDMQuziV/EAx5rG6jrFz9UiZszsSDA=.sha256"
     ]
   },
-  "signature": "5bG7HKvGEUyY3vUu2ABCyrhf0lLtn/n8gLKTOpo09As/yQRYElOsvEAf24AYDOTPT6RSA4wx5IsQ9ScIVCenBQ==.sig.ed25519"
+  "signature": "KnlicqDQHsYP4WpQNZ7fv8DWQxp9MA3deAL0q7urWAYQ+8/0DQOGXm7ob7rAvMo/Yz+3h1uh/6/B+/BVIx/mCg==.sig.ed25519"
 }
