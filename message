@@ -1,23 +1,22 @@
 {
-  "previous": "%y87FxPbnW57LjOpZwtD57Cj7t02atXSf4UBW3KUaKPM=.sha256",
-  "sequence": 14206,
+  "previous": "%WZAh9viuDgKVm/ddpDToEPltlsRa8akMDwdErFE7Oi8=.sha256",
+  "sequence": 14207,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577589694473,
+  "timestamp": 1577592735758,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Software thoughts about Prettier.\r\n\r\nI've been using Prettier lately and really enjoying it. Anyone else have experience to share? I like that it auto-formats code from different languages in popular and accessible style dialects (stylects?). Some of these don't match my *personal* code style, but I think that's the point.\r\n\r\nHell, for code style enthusiasts it'd probably be trivial to create dialect-specific branches so you can develop on your favorite tree. As long as everyone converges on the same `master` it doesn't really matter whether anyone writes software in the same style.\r\n\r\n#prettier #software #style",
+    "text": "[@groxx](@Nwr4xSNjJ88U7kP6tzyVMx72VXuNDQvSFkGzRpycLyg=.ed25519)\r\n\r\nI'm totally with you. I'd love to live in a future where everyone could use their personal style without having to compromise on accessibility. I think the AST approach is the most elegant solution, but it would be a pain point for most people.\r\n\r\nWe'd lose a bit of purity, but I think we'd get the same benefits from pretty-printing the tokens in a familiar dialect, like the [NPR voice](https://www.youtube.com/watch?v=YsufMtUOXtI) of code. Maybe that's Prettier? Or maybe there's something else?",
     "mentions": [
       {
-        "link": "#prettier"
-      },
-      {
-        "link": "#software"
-      },
-      {
-        "link": "#style"
+        "link": "@Nwr4xSNjJ88U7kP6tzyVMx72VXuNDQvSFkGzRpycLyg=.ed25519",
+        "name": "groxx"
       }
+    ],
+    "root": "%WZAh9viuDgKVm/ddpDToEPltlsRa8akMDwdErFE7Oi8=.sha256",
+    "branch": [
+      "%UuIlA/Hr1AiqChA/6WgT6DV80vqj3Unns0D+x1OEFPA=.sha256"
     ]
   },
-  "signature": "noS9LnAgX/7bQc/HwSt+YGgyFNFxdSQrWFs2L6+MzOfF50mgXOjaLIXINkfEYg1SZU3PY3vjCMNUHcdhowgHBQ==.sig.ed25519"
+  "signature": "JobI0rzOQD4577dDiV7rYdWiTEiC6bVBYehd+CoVjwGKwfpo0DYc15e8DDvd/8qjkrk5OhFpoa/4wvuTs8ZBAg==.sig.ed25519"
 }
