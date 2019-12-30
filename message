@@ -1,22 +1,22 @@
 {
-  "previous": "%tvwLR51HLwSmeFqkgqCVrBHfigoHUKB+3VxvgG69M8Y=.sha256",
-  "sequence": 14253,
+  "previous": "%NRw9x4W96jkZipZlaintvfUvcbAZUpeA2tFzg5X1UEU=.sha256",
+  "sequence": 14254,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577723797177,
+  "timestamp": 1577723986767,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "> Thought about this again today and I think I was wrong.\r\n\r\nIncoming brain dump, feel free to ignore: I've got this working in Oasis now and I think it's right. Here's a shoddy network graph of the `root` and `fork` pointers:\r\n\r\n![Graph of thread that Mix described above with root and fork annotations to show how it would work.](&D1GJf6rJBVyGedoPldVQY7Dy9h8ThpoQniH5ApkX1rI=.sha256)\r\n\r\nCode:\r\n\r\n```\r\ndigraph G {\r\n  subgraph cluster_a {\r\n    label=\"thread A\"\r\n    E -> D -> C -> B -> A\r\n    E -> A[label=root,color=red]\r\n    D -> A[label=root,color=red]\r\n    C -> A[label=root,color=red]\r\n    B -> A[label=root,color=red]\r\n  }\r\n\r\n  subgraph cluster_m {\r\n    label=\"thread m\"\r\n    n -> m [label=root, color=red]\r\n  }\r\n\r\n  subgraph cluster_x {\r\n    label=\"thread x\"\r\n    y -> x [label=root, color=red]\r\n  }\r\n\r\n  m -> C[label=root, color=red]\r\n  x -> C[label=root, color=red]\r\n\r\n  m -> A[label=fork, color=blue]\r\n  x -> A[label=fork, color=blue]\r\n}\r\n```",
+    "text": "In case the SVG isn't rendering correctly, here's a PNG:\r\n\r\n![Same image as above but as a PNG instead of SVG](&Vjel6hl6ivdCzdcBm6iZdeAYLcD+2LkxcfjuuWlZEQU=.sha256)",
     "mentions": [
       {
-        "link": "&D1GJf6rJBVyGedoPldVQY7Dy9h8ThpoQniH5ApkX1rI=.sha256",
-        "name": "Graph of thread that Mix described above with root and fork annotations to show how it would work."
+        "link": "&Vjel6hl6ivdCzdcBm6iZdeAYLcD+2LkxcfjuuWlZEQU=.sha256",
+        "name": "Same image as above but as a PNG instead of SVG"
       }
     ],
     "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
     "branch": [
-      "%eONvEQ0xcrSFg6PgT36xC60L2M9OqJz2qDF6wvmzOVM=.sha256"
+      "%NRw9x4W96jkZipZlaintvfUvcbAZUpeA2tFzg5X1UEU=.sha256"
     ]
   },
-  "signature": "RGgCYLgY43lRNLsshvsOj9Uma85aOUP8e4COOt6bU6f8/OKFl+9iWjuzD+FxTYiSyZrHWdHaIY6MtxpJRmtOAQ==.sig.ed25519"
+  "signature": "VDc6rd9KWu6T+EMGB8D9F+tVfsmJDnUSUiD8bwW5Tpb+gnYy/2dVuMdxlaSZTDvurePcwLPlYL0YcWSB4gT8CA==.sig.ed25519"
 }
