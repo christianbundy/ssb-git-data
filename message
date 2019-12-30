@@ -1,18 +1,22 @@
 {
-  "previous": "%p7VadAYCW+aTKMM8fdSrKlwNr2ghE5oOP0OIUVAP5Sw=.sha256",
-  "sequence": 14243,
+  "previous": "%UjS+kOjV++TG6umc1llrGH64Qb+efkhP11S0GuGCkgI=.sha256",
+  "sequence": 14244,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577721047727,
+  "timestamp": 1577721176416,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JzjFBMPIz/AocQktHFeLjKiKxCJb/oADQh5eex6Pv+4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nYeah, it looks like we just need to add the [ia32 target](https://www.electron.build/cli.html), right? I'm happy to build Patchwork for any and all targets that Electron-Builder supports.",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
     "branch": [
-      "%JzjFBMPIz/AocQktHFeLjKiKxCJb/oADQh5eex6Pv+4=.sha256"
+      "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256"
     ]
   },
-  "signature": "9QwjvyA8ekgqMUCEytiKPUk6ovY7iJjwv03FJWBIDWGxQh6C71S2YS+0IJnnXnNvyNpY+NyEQQPmt/xrtaocBg==.sig.ed25519"
+  "signature": "g36eyNEolRU0dN4HsEOTdiOaS/7Ugr9QLP6TWCBnrsKkdrMPmVeVUEad41dfmk0UKpesAXYRaIm1b/jbn5vmAw==.sig.ed25519"
 }
