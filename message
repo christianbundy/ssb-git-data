@@ -1,13 +1,25 @@
 {
-  "previous": "%iMZa3WkbccAEDmGUMn437vuDh310ImwAFwx+ryflppk=.sha256",
-  "sequence": 14237,
+  "previous": "%ujK0hBjbAuVlkOYrg7MryX5oPWCjf5YcjuyDNw+R32E=.sha256",
+  "sequence": 14238,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577674576671,
+  "timestamp": 1577674664284,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
-    "following": true
+    "type": "post",
+    "root": "%42tChB2BTv77L0ljd1486gEWX4kw1oOd3tVOtWFjgX4=.sha256",
+    "branch": "%42tChB2BTv77L0ljd1486gEWX4kw1oOd3tVOtWFjgX4=.sha256",
+    "reply": {
+      "%42tChB2BTv77L0ljd1486gEWX4kw1oOd3tVOtWFjgX4=.sha256": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519"
+    },
+    "channel": null,
+    "recps": null,
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519) \n\nThis looks really cool, thanks for sharing! Have you published the source somewhere? Would love to see what this looks like.",
+    "mentions": [
+      {
+        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
+        "name": "Stephen"
+      }
+    ]
   },
-  "signature": "LyrzGituAf0Vsap3YI5M0CdKbpD5gP8AnduV0yXta+DXlGjE46BAdfbDn9dZpEuXqe0yB0DW/dW2cXUqeWrsCw==.sig.ed25519"
+  "signature": "WMR+FbTrut86aX4g3cAzAVLjBRDernS2LSIvqbyHdAUuMwBtTqCXe24cgsSbGLPBPy8QP+uU+zgQ+RG68l6zCA==.sig.ed25519"
 }
