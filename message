@@ -1,12 +1,12 @@
 {
-  "previous": "%UjS+kOjV++TG6umc1llrGH64Qb+efkhP11S0GuGCkgI=.sha256",
-  "sequence": 14244,
+  "previous": "%G215eSfNShjbfSgfaG7TsRNVHBbrHgW4+qWDo6w4rUk=.sha256",
+  "sequence": 14245,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577721176416,
+  "timestamp": 1577721997086,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nYeah, it looks like we just need to add the [ia32 target](https://www.electron.build/cli.html), right? I'm happy to build Patchwork for any and all targets that Electron-Builder supports.",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nStarted a PR here: https://github.com/ssbc/patchwork/pull/1229\r\n\r\nIf that passes, feel free to add more commits with more options. I think you're supposed to add them the config JSON but I think the CLI flags will make it apply to all relevant build targets which is nice.",
     "mentions": [
       {
         "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
     "branch": [
-      "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256"
+      "%YIQsf8i5n5butjmUhWm2gvfghlvUE5kdVW09mQHOizg=.sha256"
     ]
   },
-  "signature": "g36eyNEolRU0dN4HsEOTdiOaS/7Ugr9QLP6TWCBnrsKkdrMPmVeVUEad41dfmk0UKpesAXYRaIm1b/jbn5vmAw==.sig.ed25519"
+  "signature": "c/x3gUHdCRlNIWNorGp6LqciXo6r3EPGJNulJIhdHMArnmhEad9V07Vy7VTmFp317CC1QrSvmaNnCdrwmOtvAw==.sig.ed25519"
 }
