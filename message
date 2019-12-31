@@ -1,22 +1,18 @@
 {
-  "previous": "%HZqMTiYGZghBkQIu53BVjEqaIz6t4tyDLk3rAZg6lQU=.sha256",
-  "sequence": 14281,
+  "previous": "%awinorIRx8v22T77K6Q0t7TlMGnfyI/rJaTXWF59fFw=.sha256",
+  "sequence": 14282,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577823667150,
+  "timestamp": 1577826188449,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nThe interface I've been building is Oasis, which returns HTML and a link to the JSON ([demo](https://oasis-demo.fraction.io/public/popular/day)).\r\n\r\nIt would be simple for me to add some sort of query that returns JSON -- what should that query be? Messages per hashtag in the past hour?\r\n\r\n```json\r\n{\r\n  \"#foo\": 39,\r\n  \"#bar\": 389,\r\n  \"#beep\": 9,\r\n  \"#boop\": 98\r\n}\r\n```\r\n\r\n?",
-    "mentions": [
-      {
-        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
-        "name": "Stephen"
-      }
-    ],
-    "root": "%fD5Vg0jZ7Y0OlbU042HWXwAasCWyqmlYmzbc/pFX8dA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%psHQ8ICgZnPo4UgAKTl5EdTgqCbdkRoCbOyZDukkoCs=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%w96xI8rSLM8g5g0uYDgOEutk+7p2Z+rDonRXf8qfxKc=.sha256"
+      "%psHQ8ICgZnPo4UgAKTl5EdTgqCbdkRoCbOyZDukkoCs=.sha256"
     ]
   },
-  "signature": "q8J3i9IOievzNW/aHc+YbxwQThQgF0lp63Zf7vDYQnBClHYebZ4c4jFjznYQS6ha61d0ADSr+aAX62afbgRwCA==.sig.ed25519"
+  "signature": "4iI/gxo82nwjFxr2PvZTjN0i2CbuCmmSBJ3Rd/iH04KOgRAeoy8CICEVgIhUiI81tc+PVRRoh8LLb8mNYUBcBw==.sig.ed25519"
 }
