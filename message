@@ -1,23 +1,22 @@
 {
-  "previous": "%CsQjVsP77e8LYrxpY4HUXRhvGSo1LtCpwvX9FOTygZ4=.sha256",
-  "sequence": 14268,
+  "previous": "%CnSbiOYfMxiFtszTKxjGpMQJ/y28XfA7ClF4wAjF0FU=.sha256",
+  "sequence": 14269,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577808670067,
+  "timestamp": 1577808733830,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "One of the things I'd really like for Oasis is a Twitter-like card selection pattern where clicking anywhere on the message takes you to the message, *without* breaking any of the links in a message.\r\n\r\nMost sites do this with front-end JavaScript, which I've been avoiding, but I noticed that the Twitter viewer [Nitter](https://nitter.net/christian_bundy) does this without HTML or CSS.\r\n\r\nI got a [small reproduction](https://proximal-colony.glitch.me/) working, and while doing further research to fine-tune my implementation I found something really cool:\r\n\r\n> # [Inclusive Components](https://inclusive-components.design/)\r\n>\r\n> A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.\r\n\r\nHis name doesn't sound familiar, but based on his [self-description](https://hire.heydonworks.com/) he sounds like he's someone I should be paying attention to. I'm going to work through the rest of his blog and see if I can't learn a few things, but I wanted to share the link since I know lots of us are building interfaces. :~)\r\n\r\n#html #css #a11y",
+    "text": "[@epk](@mfY4X9Gob0w2oVfFv+CpX56PfL0GZ2RNQkc51SJlMvc=.ed25519)\r\n\r\nIf you (or anyone) wants to prune your blobs:\r\n\r\n```sh\r\nnpx ssb-blob-prune\r\n```\r\n\r\nIt'll delete any blobs that you have that haven't been referenced by the feeds in your log.",
     "mentions": [
       {
-        "link": "#html"
-      },
-      {
-        "link": "#css"
-      },
-      {
-        "link": "#a11y"
+        "link": "@mfY4X9Gob0w2oVfFv+CpX56PfL0GZ2RNQkc51SJlMvc=.ed25519",
+        "name": "epk"
       }
+    ],
+    "root": "%VqtYUKNKvAj3Su0XqZlVvHEv2ZLBwmnI2FEvUg+pusI=.sha256",
+    "branch": [
+      "%Wi06os0uyjxCjN2nMr/+VQs9clK3zWfnXjBx8MMbCtE=.sha256"
     ]
   },
-  "signature": "WC+ElM5sZMqYuuoI3Rw5Pe+9gEfKnFan1VXbUIT6oEgQZ31ylY2k52RYTXC+B5q4FP1djxFvrWRjes6eu/e+AA==.sig.ed25519"
+  "signature": "j0dGGRPVkqR02501z+BcmT38wNZcWMa98zLbztm1c4M7snSNzwT39tC+jn0jRiEQaLhdC2fI4PQRA+lZc5YiAg==.sig.ed25519"
 }
