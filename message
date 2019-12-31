@@ -1,22 +1,18 @@
 {
-  "previous": "%9oobm89oNlWOubS9iIzGMNWaurWexzPk1u9GCPpsO1c=.sha256",
-  "sequence": 14272,
+  "previous": "%RBks0v1wDHkOvuRZ+tk45Nis269/2cMxIHoGbsoXxi0=.sha256",
+  "sequence": 14273,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577809885121,
+  "timestamp": 1577811349061,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nYeah, I'm thinking I must have typed out the message but not published? All of my messages look right on the viewers:\r\n\r\n- [oasis](https://oasis-demo.fraction.io/author/%40%2BoaWWDs8g73EZFUMfW37R%2FULtFEjwKN%2FDczvdYihjbU%3D.ed25519)\r\n- [ssb-viewer](http://viewer.scuttlebot.io/@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519)\r\n\r\nAside: I forgot that a few months ago I set a minimum font size in my Firefox settings, which explains why `font-size: 50%` was showing up the same as `font-size: 75%`. I only used it once in Oasis, to make the copy-and-paste Markdown link smaller, but never realized how tiny it was. 😱 I've gotta fix that.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ],
-    "root": "%zbYRG6l0+fxy64zTPDOa+b2L3bIxPXKalxeyzZ8LuSA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%eiU79AU8Cbm9IwI2fsv+Uau3fiHhsBOEwO4Vkroop5Y=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ajwxxw8mCikjJyy7aMaeJkbRiQewXzZIspF6pwF9GSA=.sha256"
+      "%eiU79AU8Cbm9IwI2fsv+Uau3fiHhsBOEwO4Vkroop5Y=.sha256"
     ]
   },
-  "signature": "N8rmYMUXo4jW5lU5ZGwhQvGZeZwAOdSynP+xaRiz+kbSDP4c/KII9ESTK3tTTtzVYMaT3DwjktdtjiWYe+syAQ==.sig.ed25519"
+  "signature": "lffjVR9PqyaIpgimN7bBuc08foF2+rE9ulCb4hGyNdK9J++7JBB2VdAP0dFiCkvp7WcV0DsITYy+224wf8zdDg==.sig.ed25519"
 }
