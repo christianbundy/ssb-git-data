@@ -1,18 +1,26 @@
 {
-  "previous": "%RBks0v1wDHkOvuRZ+tk45Nis269/2cMxIHoGbsoXxi0=.sha256",
-  "sequence": 14273,
+  "previous": "%MgRVrBuHg6jTcnEIzGG0NLMKcHyksML9uubBR07a7SE=.sha256",
+  "sequence": 14274,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577811349061,
+  "timestamp": 1577813443682,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eiU79AU8Cbm9IwI2fsv+Uau3fiHhsBOEwO4Vkroop5Y=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@ahaproudowl](@cP1iqUv8WYGL0s/5S8Rgx4gaJYxDErKIHVqw4/aB0K4=.ed25519)\r\n\r\n> I am a UX professional and I can see many opportunities to revise the Patchwork interface.\r\n>\r\n> [...]\r\n>\r\n> I’m happy to do some mocks of any specification people come up with.\r\n\r\nPatchwork is being maintained by isn't really being actively developed, and I'd be very surprised if we had the bandwidth to make big UI changes. Most of the work is just keeping Patchwork compatible with all of the lower-level improvements being made.\r\n\r\nThere are a handful of next-gen interfaces being developed, but I don't think that any of us are professional designers these days. If you have thoughts on what A Good Interface might look like, I'd love to hear your opinions.\r\n\r\nSee also: [Shellogram](%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256)",
+    "mentions": [
+      {
+        "link": "@cP1iqUv8WYGL0s/5S8Rgx4gaJYxDErKIHVqw4/aB0K4=.ed25519",
+        "name": "ahaproudowl"
+      },
+      {
+        "link": "%sjJA4Ii6N5nPz3xSdAqjKsYG8sBrZnMKgloKL8EOyAM=.sha256",
+        "name": "Shellogram"
+      }
+    ],
+    "root": "%UgxCCh+wKDENFVXWuvMJrh81AtFHyawEb998Ca9HtNU=.sha256",
     "branch": [
-      "%eiU79AU8Cbm9IwI2fsv+Uau3fiHhsBOEwO4Vkroop5Y=.sha256"
+      "%Y2eK0CXIbj58Vs5dpq4OO+iDf/ds799f1k0l3pD5PqQ=.sha256"
     ]
   },
-  "signature": "lffjVR9PqyaIpgimN7bBuc08foF2+rE9ulCb4hGyNdK9J++7JBB2VdAP0dFiCkvp7WcV0DsITYy+224wf8zdDg==.sig.ed25519"
+  "signature": "l/Nn7a3lAAZR5SwniTryuKjxlE+wh5s1Xp7gqdu685rVKzsqyW8kVDV7ELyprOVAwBgQT0lPoOFwVrfAzPnlAA==.sig.ed25519"
 }
