@@ -1,9 +1,22 @@
 {
-  "previous": "%g/epHnsFgXu/cIcV9hDFfffDk8A3C541kx7d2MeljxY=.sha256",
-  "sequence": 14280,
+  "previous": "%HZqMTiYGZghBkQIu53BVjEqaIz6t4tyDLk3rAZg6lQU=.sha256",
+  "sequence": 14281,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577820461657,
+  "timestamp": 1577823667150,
   "hash": "sha256",
-  "content": "zxKba0IjASS8WQhuAPFnGgn51vFLU5KosOdNV9m8EoM8EvKpSsJTCfubmuMhu54xizkaBwj8E2Tc9j2G2JYcOexJgHoXsKsVwXstPJG2oUzPIKnGFtlNYd7p12bRJVvVynkdSyOeQ/5lMAJpAKKiujnr3zuamn5kphlOSWrEufUS+AMPSh5B33O23YGyzbSsvVQOlVs3VdQjqN8d8POV/ETZTFlTcFWl+AttzBOFQs3BumQUR2rAyEBhrbi4fKXs292JhiRrh732QJ9YcRBHSM/+o16rro8ksuc/1+B5V7gydrD9wG5CUCi0bAjoZm0Pwr1JhfW/9/1muu5RKAhzD9WGcuYiarO4uFnR9k6Kxjih6/ugjNPJz8EofNBmPv93LPw9Ue88UgCCJGxWZOxcU/OEK/IvOg6+GVVcl6VsRyIicBkKH/foN5lojp7tQaStKpLdgzVcghG5+phOGkULBKeJXF6FBMswqGL5+1HaaOY4YMVRZ+ldg19ufda1RCXIRYEKSBXWouPSv5c1CP77XVUGcIyjHwsXxb4qu2z8iFjNz+wSaOnuH+WJ0FPg/sddRQ+/oWK4fL4X2lESVVfGsQiUOV7aIoEeOshoZvTBBbDdbrDi6n+q9kjXE+f43l5tmVlvaSiqQiIGRS4pwr4JuSjJpbUVxlMFvyKeRTuL+vod3YbV1wH4XCuCZoF2atzGBfofSBSnogRyrVpQ4PaP8Ilki1SUrydW2qD/1qVGep/NBeghxb75xC0qLQUcKAzeqEymidRiKuigJCvVjNHC/yWG/JVQg6I4w1LPOsgmPJsc3bzy9iphkeRXSakboZNbdr42xOKXnqG1HtNxVZ8kx27zpdVzAuXlqIpZrdr1yQ432x9xocv4F/+7PrIbV4JzsP58YTU34a9UIsQINm4wVUMLt4hBxS/qPOsSTHx/q+2NYlPNbMUbiO9ctpuhHvNS8KKYqcESvZxJTtrrACJUcch2wyK14xz/EW/uR6/t2lZxQv+C/af19yOJT1Gj8fYx4fTVDiI4GwpZXd66l5sDTqCkDz2OcuR9epK8qwlodOZrk3bQ9QRiTRZp0dRekXsfYN0BIYR3fyUv3w==.box",
-  "signature": "NIlvxzHVyaSq+oTiskNqJtaR5n2RqQF5OViyubzQeSHq1LJAIC5fIDlU9m1uBKafIr2rn1LE02/LJLdRWxe0BA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nThe interface I've been building is Oasis, which returns HTML and a link to the JSON ([demo](https://oasis-demo.fraction.io/public/popular/day)).\r\n\r\nIt would be simple for me to add some sort of query that returns JSON -- what should that query be? Messages per hashtag in the past hour?\r\n\r\n```json\r\n{\r\n  \"#foo\": 39,\r\n  \"#bar\": 389,\r\n  \"#beep\": 9,\r\n  \"#boop\": 98\r\n}\r\n```\r\n\r\n?",
+    "mentions": [
+      {
+        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
+        "name": "Stephen"
+      }
+    ],
+    "root": "%fD5Vg0jZ7Y0OlbU042HWXwAasCWyqmlYmzbc/pFX8dA=.sha256",
+    "branch": [
+      "%w96xI8rSLM8g5g0uYDgOEutk+7p2Z+rDonRXf8qfxKc=.sha256"
+    ]
+  },
+  "signature": "q8J3i9IOievzNW/aHc+YbxwQThQgF0lp63Zf7vDYQnBClHYebZ4c4jFjznYQS6ha61d0ADSr+aAX62afbgRwCA==.sig.ed25519"
 }
