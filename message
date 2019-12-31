@@ -1,18 +1,25 @@
 {
-  "previous": "%aVwGzgox/iL4CzgXSMLsC9ghJK4nn9/a9/gdvETasKg=.sha256",
-  "sequence": 14266,
+  "previous": "%IkWvIRvLHhdYK4gtJ/sDDWfR4y8zTu7HTN+0Nz0/MmI=.sha256",
+  "sequence": 14267,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577768399087,
+  "timestamp": 1577805981367,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%fD5Vg0jZ7Y0OlbU042HWXwAasCWyqmlYmzbc/pFX8dA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\n> I could aggregate #scuttlebutt content in the same feed.\r\n\r\nIf this is something you're interested in, I'd be happy to be a resource.",
+    "mentions": [
+      {
+        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
+        "name": "Stephen"
+      },
+      {
+        "link": "#scuttlebutt"
+      }
+    ],
+    "root": "%fD5Vg0jZ7Y0OlbU042HWXwAasCWyqmlYmzbc/pFX8dA=.sha256",
     "branch": [
       "%fD5Vg0jZ7Y0OlbU042HWXwAasCWyqmlYmzbc/pFX8dA=.sha256"
     ]
   },
-  "signature": "BqV1aesLVKSjSMtSFKIDiitIDnNtTphGloYbXaMN4mQIwX3dBJBqenC1tyclLCbpfC5011MSEZyvuQLPYMlSAQ==.sig.ed25519"
+  "signature": "Y1usgRIzNMYnnYkG30eDQW1z764Pn6ObBkjUuZQVlXmF8+lDOYApNoTRoKc2lmfZN6WYNt61T/B/jjQeHSokDA==.sig.ed25519"
 }
