@@ -1,18 +1,22 @@
 {
-  "previous": "%65QxnGsQd4sMLP5EnsPxmR6frATSBwsObhgee9Kv5Q0=.sha256",
-  "sequence": 14304,
+  "previous": "%qUMYJ3IMd0kclDtLTNZj4Np9PeJOm4Rr/9DWb95xwMs=.sha256",
+  "sequence": 14305,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577904362340,
+  "timestamp": 1577904669407,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nThis is awesome, thanks so much for the PR.\r\n\r\nI have a fix for the manifest in [this PR](https://github.com/ssbc/ssb-client/pull/52), so once that's merged we should be good to go. Also, I might recommend [SSB-CLI](https://github.com/fraction/ssb-cli) if you haven't already messed around with it.  I'm tempted to make SSB-CLI just depend on my PR branch since I've been using it for a month without issues, but that always feels so janky.\r\n\r\nYou should also probably be aware of [this bug](https://github.com/ssbc/ssb-invite/pull/10#issuecomment-561939051), if you ever bump into the \"use is not in list of accepted methods\" error.",
+    "mentions": [
+      {
+        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
+        "name": "Stephen"
+      }
+    ],
+    "root": "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256",
     "branch": [
       "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256"
     ]
   },
-  "signature": "pcR/a/7ikZmp6dr8QI9VqxsLW2JmSdIzR8UzHUgMv/HuTaTgp0oI5tb8i/zxAPy5vMxGKhRoajDfotHyckdDBQ==.sig.ed25519"
+  "signature": "2BCKtNADTR9jaresAZ9f70w077tS+wu0kca4XXvNikh7dwEUJZv9wUqIOnU/S3sUNd3Wlr+Sdi/Bqcg0oQzRBQ==.sig.ed25519"
 }
