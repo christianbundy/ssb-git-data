@@ -1,22 +1,18 @@
 {
-  "previous": "%Lsr6AMhzRaN+qa5VNeVEkdnRt3ODfHQlTmzozkRynj0=.sha256",
-  "sequence": 14306,
+  "previous": "%1ALLg3mKCQvUFteCfHznU1Knqw97XYLAOeBLA9IlKVI=.sha256",
+  "sequence": 14307,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577905116344,
+  "timestamp": 1577905894058,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\n> ill make a pr to update the documentation explaining how to accept a pub.\r\n\r\n🎉\r\n\r\nI should probably add that to the roadmap too, since pub invites are a necessity. I was considering adding a page where you could run arbitrary SSB-CLI commands, but that might just be my developer brain trying to make it easier to say \"just paste this into localhost:3000/cli\" instead of building a friendly UI for things. 😬",
-    "mentions": [
-      {
-        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
-        "name": "Stephen"
-      }
-    ],
-    "root": "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Ik60jkfEOEBvyxz5nuhNQ7vNu10Rx0qXlEt+3hOWbBo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%66yY11fkMZEB04ahr3hG4QI5Npf+34buGB1pDg650YE=.sha256"
+      "%Ik60jkfEOEBvyxz5nuhNQ7vNu10Rx0qXlEt+3hOWbBo=.sha256"
     ]
   },
-  "signature": "dXJSGhqNiyrczS1YgoSf9ydPbYPgQZIPGlXEcgvWf5LHyf4xbCEVuXt/t6L0K+3u9SiFce0RrDDq0auTNUQqDw==.sig.ed25519"
+  "signature": "CNkrfhaM7IB/igRYQn+0EC5L80zU+j4kdp6otM3/8xmXzOIFrxMExT7YDTMAt4+OaZqF4NNySoW0CPpDTQDLDw==.sig.ed25519"
 }
