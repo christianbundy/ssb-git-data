@@ -1,12 +1,12 @@
 {
-  "previous": "%qUMYJ3IMd0kclDtLTNZj4Np9PeJOm4Rr/9DWb95xwMs=.sha256",
-  "sequence": 14305,
+  "previous": "%Lsr6AMhzRaN+qa5VNeVEkdnRt3ODfHQlTmzozkRynj0=.sha256",
+  "sequence": 14306,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577904669407,
+  "timestamp": 1577905116344,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nThis is awesome, thanks so much for the PR.\r\n\r\nI have a fix for the manifest in [this PR](https://github.com/ssbc/ssb-client/pull/52), so once that's merged we should be good to go. Also, I might recommend [SSB-CLI](https://github.com/fraction/ssb-cli) if you haven't already messed around with it.  I'm tempted to make SSB-CLI just depend on my PR branch since I've been using it for a month without issues, but that always feels so janky.\r\n\r\nYou should also probably be aware of [this bug](https://github.com/ssbc/ssb-invite/pull/10#issuecomment-561939051), if you ever bump into the \"use is not in list of accepted methods\" error.",
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\n> ill make a pr to update the documentation explaining how to accept a pub.\r\n\r\n🎉\r\n\r\nI should probably add that to the roadmap too, since pub invites are a necessity. I was considering adding a page where you could run arbitrary SSB-CLI commands, but that might just be my developer brain trying to make it easier to say \"just paste this into localhost:3000/cli\" instead of building a friendly UI for things. 😬",
     "mentions": [
       {
         "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256",
     "branch": [
-      "%xWsV58h4vmQZY8kP17d25bSxJLnOD107XigcHCQtJcg=.sha256"
+      "%66yY11fkMZEB04ahr3hG4QI5Npf+34buGB1pDg650YE=.sha256"
     ]
   },
-  "signature": "2BCKtNADTR9jaresAZ9f70w077tS+wu0kca4XXvNikh7dwEUJZv9wUqIOnU/S3sUNd3Wlr+Sdi/Bqcg0oQzRBQ==.sig.ed25519"
+  "signature": "dXJSGhqNiyrczS1YgoSf9ydPbYPgQZIPGlXEcgvWf5LHyf4xbCEVuXt/t6L0K+3u9SiFce0RrDDq0auTNUQqDw==.sig.ed25519"
 }
