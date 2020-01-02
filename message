@@ -1,22 +1,18 @@
 {
-  "previous": "%MIz5UQ/lmj/HLQa6nbi9R35w3/fKfj/kutZ3IV8MZmU=.sha256",
-  "sequence": 14316,
+  "previous": "%Ot5PXey8LQicRKGZX5hSjl4TUZZnhvwUfPsCdbueSjs=.sha256",
+  "sequence": 14317,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577980440799,
+  "timestamp": 1577983396835,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI don't have a Windows machine to build the Windows binaries, so I have to get Travis to do it. I'll push up a beta release now, which should trigger a build for you to test. It should show up here in the next ~15 minutes:\r\n\r\nhttps://github.com/ssbc/patchwork/releases",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%SDG/uPhBXCFECiigLydzeOEo27LcA7HwPNeHcz/LF3s=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%qrYCeSgACFrLI1VbzvsAe8CCVxsiSqzL0hZ+mVg8KgM=.sha256"
+      "%SDG/uPhBXCFECiigLydzeOEo27LcA7HwPNeHcz/LF3s=.sha256"
     ]
   },
-  "signature": "SXbztTJ2hg5STJwvu7dJxZmPIdWBqGzWuoDdaG71/fRvzTzovKC4LC2G2KHWM5cj9XWwP6TukWVLetQIL49oBw==.sig.ed25519"
+  "signature": "+6jL9NwnA08U4efCvCOLIleTJ9OStU2nQQ6R8H2vzpLOURmy1/vpDKwIfud7jBhVwXBPqcIbXZQyPZRbIXm1Ag==.sig.ed25519"
 }
