@@ -1,29 +1,22 @@
 {
-  "previous": "%aF0QTehX+aQetlXoKuizB5UsAauc3kJHb7HHHwfbujE=.sha256",
-  "sequence": 14324,
+  "previous": "%HwTOUGiIPMB0Z7/N6TMAZITiP/zbfydphgtn+lxN+Pw=.sha256",
+  "sequence": 14325,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577986964776,
+  "timestamp": 1577990686353,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Henk@Mini](@KC3U+gkJ9y36spVeyd51S3e/98hjps64HXUS046Wz9I=.ed25519)\r\n\r\nMaybe useful context:\r\n\r\n- %O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256\r\n- %IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256",
+    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\nThis is a great idea, I've used it a bit with Oasis but I've had some minor annoyances. Here's my command:\r\n\r\n```sh\r\nwget --spider --recursive http://localhost:3000\r\nrm -rf localhost:3000\r\n```\r\n\r\nI can't figure out how to keep wget from creating a directory with the structure of the site, but it's tiny enough that I don't really mind just deleting it afterward. I've tried `--output-document /dev/null` but wget won't play along.\r\n\r\nUsually I just have Oasis running in another process and I watch stdout for errors, but there are lots of random \"error replicating with @abc\" errors that keep me from enforcing a rule like \"any output means there's a regression\".",
     "mentions": [
       {
-        "link": "@KC3U+gkJ9y36spVeyd51S3e/98hjps64HXUS046Wz9I=.ed25519",
-        "name": "Henk@Mini"
-      },
-      {
-        "link": "%O8KbkRi4BfB/bnBHqhu9HDL775Al/rMa8vI3ikgNpng=.sha256"
-      },
-      {
-        "link": "%IO6G84Tz7zocMTWX3wQqFtUfOV8BYtVqWfm9zuhWWLU=.sha256"
+        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
+        "name": "dominic"
       }
     ],
-    "root": "%8d2P8qjoEnbddyZ9kR8OBEXXi/WNdYcl0kfuCr7bGRk=.sha256",
+    "root": "%BhLhKzEiy63GXr16F3X/bE63tPiylShg8dgcplXOP/g=.sha256",
     "branch": [
-      "%79aZifHZZLNO8M4J+hlXKwmESo484uIFjbs3TKOCudE=.sha256",
-      "%w3VFdcKaNGpvKmaDAbV1h6L6BfG70VcjMxmf2q71oxs=.sha256"
+      "%Ix/sZqKQGvWbZQm052KgcnQWiH3xD9yY2ItlAGjW9jQ=.sha256"
     ]
   },
-  "signature": "naBihrPLRH2v54bZHiMZcMJ6uDgW7ohsCWfBSZR+AbRqegpkllHRZUR4NMtEUnQ4D96oH8gTmtJUsYI1uNLJBQ==.sig.ed25519"
+  "signature": "yR4FrhMM+a9by3O41+GsGG/Ys3YHNNy5ANCSdr445xScWOH8abN1JtlM12GKPWLxzQf0g8WL9Bn0a5ovb9amCg==.sig.ed25519"
 }
