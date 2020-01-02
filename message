@@ -1,27 +1,26 @@
 {
-  "previous": "%GBvaMi+MpFvO/iAgWrfiy04G/ebesyZnxaaWOYQfl1U=.sha256",
-  "sequence": 14318,
+  "previous": "%3V4yQ5onUzFdHQz8/FTBCBvF6Vjhdr5PT44MiIr/SKM=.sha256",
+  "sequence": 14319,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577983818191,
+  "timestamp": 1577984284690,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@gwil](@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519)\r\n\r\n> What if we could somehow make design a common resource for all client developers to pull from? Something like a pattern library? State the common problem, and the proposed pattern to solve it. With a simple reference implementation as an example.\r\n\r\nI'd really love this and would be happy to help however I can.\r\n\r\n---\r\n\r\n[@ahaproudowl](@cP1iqUv8WYGL0s/5S8Rgx4gaJYxDErKIHVqw4/aB0K4=.ed25519)\r\n\r\nI'd love to work with you on these problems, and I don't want to discourage you from Patchwork contributions in general, but since Patchwork isn't being actively developed I'd be very hesitant to have you learn all of the Patchwork-specific tooling.\r\n\r\nEven basic changes require learning *at least* the basics of [Mutant](https://github.com/mmckegg/mutant), [Micro CSS](https://github.com/mmckegg/micro-css), [Depject](https://github.com/depject/depject), and [HyperScript](https://github.com/hyperhype/hyperscript), whereas **general UI patterns/guidelines** would be helpful to all SSB interfaces. I'd be really happy to merge patches into Patchwork, but I'm hesitant to ask new contributors to learn technology that's specific to Patchwork-derived SSB interfaces.",
+    "text": "[@crabmusket](@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519)\r\n\r\nI feel you. I've added some more info [here](%3V4yQ5onUzFdHQz8/FTBCBvF6Vjhdr5PT44MiIr/SKM=.sha256) that you might find useful. ",
     "mentions": [
       {
-        "link": "@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519",
-        "name": "gwil"
+        "link": "@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519",
+        "name": "crabmusket"
       },
       {
-        "link": "@cP1iqUv8WYGL0s/5S8Rgx4gaJYxDErKIHVqw4/aB0K4=.ed25519",
-        "name": "ahaproudowl"
+        "link": "%3V4yQ5onUzFdHQz8/FTBCBvF6Vjhdr5PT44MiIr/SKM=.sha256",
+        "name": "here"
       }
     ],
-    "root": "%UgxCCh+wKDENFVXWuvMJrh81AtFHyawEb998Ca9HtNU=.sha256",
+    "root": "%ZrMkUtH49jP3weSyELvQgKr58RhV79B/y7ErolYXuxw=.sha256",
     "branch": [
-      "%EGlb4dZUejhJNhYCOYrBUwjwP3/scdV/eLKLH/VHRjA=.sha256",
-      "%ykxE+H3pF2S2lv6lYpLFa+RQknXVgxIPqGLBLDQAm1c=.sha256"
+      "%ZrMkUtH49jP3weSyELvQgKr58RhV79B/y7ErolYXuxw=.sha256"
     ]
   },
-  "signature": "BdY/MpqWMcxe5Q9/q2wnf5M0rsyVC9+54oBzt3cdnyK1MzTzmvd0pyrPcqpjTmSFttpjnh6DDsRY3l/09laoCw==.sig.ed25519"
+  "signature": "tlLKzPRtp0Iuw919/ykcfKQ0jsRrfLUYXk3tBfmI770z9nNIZ5srodG4wu4+W4KMv5C0KACiDrhf/yiqFXHVCw==.sig.ed25519"
 }
