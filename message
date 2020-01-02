@@ -1,22 +1,22 @@
 {
-  "previous": "%dzuBQERz4athy1z29AOll4ec1HUXHYmO4rANrP/fNpo=.sha256",
-  "sequence": 14315,
+  "previous": "%MIz5UQ/lmj/HLQa6nbi9R35w3/fKfj/kutZ3IV8MZmU=.sha256",
+  "sequence": 14316,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577939826617,
+  "timestamp": 1577980440799,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks! The main difference is that Patchwork does `y -> x` and `n -> m` as `{ root: C, fork: A }` just like `m` and `x`. Because of Patchwork's current behavior it would be wise to display `[x, m]` as a thread if they don't have any replies, so I've made the decision to nest `y` and `n` one level deeper than `m` and `x` just to be safe.",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI don't have a Windows machine to build the Windows binaries, so I have to get Travis to do it. I'll push up a beta release now, which should trigger a build for you to test. It should show up here in the next ~15 minutes:\r\n\r\nhttps://github.com/ssbc/patchwork/releases",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
       }
     ],
-    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
+    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
     "branch": [
-      "%A8zthYhFOrR0ToGp8UGAOYrjlOmfWJ3TZsrp/y+1S5k=.sha256"
+      "%qrYCeSgACFrLI1VbzvsAe8CCVxsiSqzL0hZ+mVg8KgM=.sha256"
     ]
   },
-  "signature": "2ma9CEx1CmAkvDEBAbc3OxFYjo8lJP2HXAlBCX/yfedsBs151MSiEXjgBsnBqijy7taj2kmgSiB/VesedO/zAw==.sig.ed25519"
+  "signature": "SXbztTJ2hg5STJwvu7dJxZmPIdWBqGzWuoDdaG71/fRvzTzovKC4LC2G2KHWM5cj9XWwP6TukWVLetQIL49oBw==.sig.ed25519"
 }
