@@ -1,19 +1,22 @@
 {
-  "previous": "%khdB5I6JQV0iEvGgpbxgkrmmCH3GBLDDynl1jMYrmFU=.sha256",
-  "sequence": 14320,
+  "previous": "%IGTkSWt9XeHJqpyDUOABawtsyEDntS3XeLgyspYA+ns=.sha256",
+  "sequence": 14321,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577984330084,
+  "timestamp": 1577984570219,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%f44JVRWUU8q8EjOeenysryVs3BjnE1tIXEWK6YIHdZ0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI'm a little bit confused, can you look at the list of assets generated [here](https://github.com/ssbc/patchwork/releases/tag/untagged-4d26b2c3bb32073c2259)? I was expecting a new binary to be generated, but it looks like there's just a single .exe. Does that seem right to you? I haven't used a Windows machine for about a decade, so I don't trust my memory.\r\n\r\nThe logs say:\r\n\r\n```\r\n  • packaging       platform=win32 arch=x64 electron=6.1.4 appOutDir=dist\\win-unpacked\r\n\r\n  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.5.0/winCodeSign-2.5.0.7z size=5.6 MB parts=1\r\n\r\n  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.5.0/winCodeSign-2.5.0.7z duration=466ms\r\n\r\n  • rebuilding native dependencies  dependencies=@felixrieseberg/spellchecker@4.0.12, cld@2.5.1, keyboard-layout@2.0.16, leveldown@5.3.0, sodium-native@2.4.6 platform=win32 arch=ia32\r\n\r\n  • packaging       platform=win32 arch=ia32 electron=6.1.4 appOutDir=dist\\win-ia32-unpacked\r\n\r\n  • downloading     url=https://github.com/electron/electron/releases/download/v6.1.4/electron-v6.1.4-win32-ia32.zip size=58 MB parts=4\r\n\r\n  • downloaded      url=https://github.com/electron/electron/releases/download/v6.1.4/electron-v6.1.4-win32-ia32.zip duration=1.261s\r\n\r\n  • building        target=nsis file=dist\\Patchwork Setup 3.17.3-beta.0.exe archs=x64, ia32 oneClick=true perMachine=false\r\n\r\n  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4/nsis-3.0.4.7z size=1.3 MB parts=1\r\n\r\n  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4/nsis-3.0.4.7z duration=486ms\r\n\r\n  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z size=731 kB parts=1\r\n\r\n  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z duration=437ms\r\n\r\n  • building block map  blockMapFile=dist\\Patchwork Setup 3.17.3-beta.0.exe.blockmap\r\n\r\n  • publishing      publisher=Github (owner: ssbc, project: patchwork, version: 3.17.3-beta.0)\r\n\r\n  • uploading       file=Patchwork-Setup-3.17.3-beta.0.exe.blockmap provider=GitHub\r\n\r\n  • uploading       file=Patchwork-Setup-3.17.3-beta.0.exe provider=GitHub\r\n```",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
     "branch": [
-      "%fZ1WO+1laNNz8vGrNJnwum2js6OEUqZfVBw+6mMzG1c=.sha256",
-      "%lJukq1m1SBsZsBR8xUUREudAzyD2TuuUAwkguC+bJ4I=.sha256"
+      "%Ot5PXey8LQicRKGZX5hSjl4TUZZnhvwUfPsCdbueSjs=.sha256"
     ]
   },
-  "signature": "X9O4P3WIas6CExWbtSsJSvxF5JPTdD4CDmhdUCn+5V8OUAP0ZhIZggiB/fEC+iLm2tHeyr9eHUIkEVXavsdYDg==.sig.ed25519"
+  "signature": "qk9CzG66C+Fk2g0gJBJE/2zpNBYo9q1eZd1N+LV9JFWr2538EP2/5YtkfTWMMETxapNPhGvHxCFnl4VhYHG7AQ==.sig.ed25519"
 }
