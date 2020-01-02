@@ -1,22 +1,18 @@
 {
-  "previous": "%AwteFNBzagAJpdVMd/ifdLYfJ4OaIE+iHVXkH2KEw3Y=.sha256",
-  "sequence": 14322,
+  "previous": "%8xW4Ky6a9uIFXbuln0AGc0sMwmT0JquxgvzPQLazfTI=.sha256",
+  "sequence": 14323,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577985214212,
+  "timestamp": 1577986719007,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nIt looks like the exe has doubled in size. Hmm.\r\n\r\n\r\nI found [an electron-builder issue about separating the binaries](https://github.com/electron-userland/electron-builder/issues/2554) but I'm not sure if it's worth the complexity. Maybe we should just enable [nsis-web](https://www.electron.build/configuration/nsis#web-installer)? That way we'd have:\r\n\r\nAside: spending time building installers makes me wonder whether it'd be better to say \"binaries suck, use a package manager -- install Homebrew and run `brew cask install patchwork`\". Package managers are empowering but also intimidating. I wonder whether the user empowerment and developer convenience is worth the intimidation curve of learning basic package management.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
+    "text": "thinking about this again today",
+    "mentions": [],
+    "root": "%9SGmE11EU+BlPzch4aUJYga/EFCuMFL4akQqBWUn9sk=.sha256",
+    "fork": "%X3J63owf4Mo/unBxNY90gS5C4g9lB0cp/JIb30PFrzI=.sha256",
     "branch": [
-      "%AwteFNBzagAJpdVMd/ifdLYfJ4OaIE+iHVXkH2KEw3Y=.sha256"
+      "%9SGmE11EU+BlPzch4aUJYga/EFCuMFL4akQqBWUn9sk=.sha256"
     ]
   },
-  "signature": "021cJF5HOLEWWZG0tBQiHZp/f0HxZx75q4qIfJGeLQXjnio4swM20dbvHIoU+f9tDN7+muWlUzeTEXeJ525yBw==.sig.ed25519"
+  "signature": "ke1UNI8mWxXyeY2A88hYVJQ4hgpSZ8q3atumvhV3ofjSBEIarIBoL8d6nv0YneW9/HiFxkGCFn8M1/tzWwvzDQ==.sig.ed25519"
 }
