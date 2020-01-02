@@ -1,26 +1,22 @@
 {
-  "previous": "%wvkZIU/kFz1pMG6o3qFlhaNt6fqhusnJy2nIm/72m74=.sha256",
-  "sequence": 14314,
+  "previous": "%dzuBQERz4athy1z29AOll4ec1HUXHYmO4rANrP/fNpo=.sha256",
+  "sequence": 14315,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577939211779,
+  "timestamp": 1577939826617,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nYep, I think that's a great point. I ran into that [here](%nn5nKvFIZXhP5HAngT2F0L3kg9VrutrtZ3N9MOiXquw=.sha256) because I wanted to do something like `@cel/master`.",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks! The main difference is that Patchwork does `y -> x` and `n -> m` as `{ root: C, fork: A }` just like `m` and `x`. Because of Patchwork's current behavior it would be wise to display `[x, m]` as a thread if they don't have any replies, so I've made the decision to nest `y` and `n` one level deeper than `m` and `x` just to be safe.",
     "mentions": [
       {
         "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
         "name": "cel"
-      },
-      {
-        "link": "%nn5nKvFIZXhP5HAngT2F0L3kg9VrutrtZ3N9MOiXquw=.sha256",
-        "name": "here"
       }
     ],
-    "root": "%rUIW1jUW2eBGny+NnxVPrF0mv6f6gGrZ1GmkFUNE494=.sha256",
+    "root": "%7CL497qkq09F8cEc8MNoH3dGuzIraAWWhciRtczEzuc=.sha256",
     "branch": [
-      "%mUVpl44rM9Ks3gEfQc2gq9V6rwnvV+wtSEeV4+wJ3dA=.sha256"
+      "%A8zthYhFOrR0ToGp8UGAOYrjlOmfWJ3TZsrp/y+1S5k=.sha256"
     ]
   },
-  "signature": "S56TZF2+0zYOxFdjpkqiMA1lKsmKtT5UOKmAJ/cmcs567WyTtS0HZJlgEOAaLdkQkC3IjPaV2R7N+rIryQlbCQ==.sig.ed25519"
+  "signature": "2ma9CEx1CmAkvDEBAbc3OxFYjo8lJP2HXAlBCX/yfedsBs151MSiEXjgBsnBqijy7taj2kmgSiB/VesedO/zAw==.sig.ed25519"
 }
