@@ -1,18 +1,22 @@
 {
-  "previous": "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256",
-  "sequence": 14333,
+  "previous": "%kXvr5TUrtaF6WU5vevu7nIU18ZaqhG/Ev5pCXIY+6dw=.sha256",
+  "sequence": 14334,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577994800457,
+  "timestamp": 1578008853269,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Example: https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ssb-patchwork",
-    "mentions": [],
-    "root": "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256",
-    "fork": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
+    "text": "[@kr1sp1n](@CdbxtxeHwET1HRU5naALgGaX5Q7BdzpyTCf78ZgIaEM=.ed25519)\r\n\r\nYeah, there's lots going on -- the pros and cons of distributed systems. 🙃 That uses [SSB-Gossip `connect()`](https://github.com/ssbc/ssb-gossip#connect-async), which starts a connection to the remote address. If you're following the feed, you get their messages, but otherwise you just gossip about the feeds that you mutually care about.",
+    "mentions": [
+      {
+        "link": "@CdbxtxeHwET1HRU5naALgGaX5Q7BdzpyTCf78ZgIaEM=.ed25519",
+        "name": "kr1sp1n"
+      }
+    ],
+    "root": "%EmpdCPxrPYesLmuDAh1PT+MmPWixGS6CvGMeKXjy1xo=.sha256",
     "branch": [
-      "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256"
+      "%YQwKYZJMcp2eiVgx063HH4Y3sFCfezE70J6V/ZGaZCI=.sha256"
     ]
   },
-  "signature": "xRIWjxHI6YMbGKimTCYciBM1zgPgjMMpuV/NUcwB4W1KwGeexg7WavucIA2QqGRRSGnzZPqvl+53ODG3MTbsDw==.sig.ed25519"
+  "signature": "EtW8e/WRFREA00iK2M6mUx5DElZ0/4EmjvqwN+bz8UoZus4lu1KcQgvU0CwIqHpqbEChjTHiWTqUTtV1CC/MAw==.sig.ed25519"
 }
