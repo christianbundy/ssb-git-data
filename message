@@ -1,22 +1,18 @@
 {
-  "previous": "%HwTOUGiIPMB0Z7/N6TMAZITiP/zbfydphgtn+lxN+Pw=.sha256",
-  "sequence": 14325,
+  "previous": "%rF7TGnG4fq3N4HKTuQQFXp5uYVy3/7KRDOW6fF8JCpI=.sha256",
+  "sequence": 14326,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577990686353,
+  "timestamp": 1577990742139,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519)\r\n\r\nThis is a great idea, I've used it a bit with Oasis but I've had some minor annoyances. Here's my command:\r\n\r\n```sh\r\nwget --spider --recursive http://localhost:3000\r\nrm -rf localhost:3000\r\n```\r\n\r\nI can't figure out how to keep wget from creating a directory with the structure of the site, but it's tiny enough that I don't really mind just deleting it afterward. I've tried `--output-document /dev/null` but wget won't play along.\r\n\r\nUsually I just have Oasis running in another process and I watch stdout for errors, but there are lots of random \"error replicating with @abc\" errors that keep me from enforcing a rule like \"any output means there's a regression\".",
-    "mentions": [
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "dominic"
-      }
-    ],
-    "root": "%BhLhKzEiy63GXr16F3X/bE63tPiylShg8dgcplXOP/g=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%BhLhKzEiy63GXr16F3X/bE63tPiylShg8dgcplXOP/g=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Ix/sZqKQGvWbZQm052KgcnQWiH3xD9yY2ItlAGjW9jQ=.sha256"
+      "%rF7TGnG4fq3N4HKTuQQFXp5uYVy3/7KRDOW6fF8JCpI=.sha256"
     ]
   },
-  "signature": "yR4FrhMM+a9by3O41+GsGG/Ys3YHNNy5ANCSdr445xScWOH8abN1JtlM12GKPWLxzQf0g8WL9Bn0a5ovb9amCg==.sig.ed25519"
+  "signature": "vcTSzxNZF7/hSlbQhdt//4zp3j7YJp94BCkkafDiTptIwcYdxNyqJxLsV+dOhJ0qksiub/+CwwBYy/O7mUJ0Bw==.sig.ed25519"
 }
