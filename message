@@ -1,16 +1,22 @@
 {
-  "previous": "%X3olfV10lGZp2tbY5KlgTh22nyi3pB/EwdXWFyDjOyE=.sha256",
-  "sequence": 14331,
+  "previous": "%8C55hYm50e1fevV0KJs7K1ge1qMGdlwqGbLxo/mgysM=.sha256",
+  "sequence": 14332,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577993788425,
+  "timestamp": 1577994509614,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7M14RkGM1osJXXo/U2GfpSIwiDwv9H8BLuskWJEb8dY=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nYeah, see the electron-builder issue I linked for a workaround -- it just seems like extra jank. Maybe worthwhile jank though?\r\n\r\n> As for package managers, in the case of windows one, we’d still need to generate the binaries anyway.\r\n\r\nOh, this is surprising. I've been spoiled by how Arch Linux packages can literally just be:\r\n\r\n1. `git clone`\r\n2. `npm install`\r\n3. copy files to `/opt`\r\n4. add executable to `/usr/bin/`\r\n\r\nDoes Chocolately/etc not let you build from source? That would be a big bummer.",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
+    "branch": [
+      "%4BvR/hRtYHAnu1EN62c3tZTFfuRXPs7c+OHHpmzJksA=.sha256"
+    ]
   },
-  "signature": "vUZc9+/1cRnVUrKcSt4O3oCundKVJl5CfjsK2mu9oS0puMOhBzcMbY1fwKe3GiMsbJvifREitke3xuzaN0hRAQ==.sig.ed25519"
+  "signature": "+oxSG9HFzr50hq6wgFhAwZF/Awv856W+HYeelixjAhPPnwGaTHS5pwG7gEqP4BTl5NFM8fnUkavdqMCPafpJDQ==.sig.ed25519"
 }
