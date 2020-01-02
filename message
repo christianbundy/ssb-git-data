@@ -1,22 +1,18 @@
 {
-  "previous": "%8C55hYm50e1fevV0KJs7K1ge1qMGdlwqGbLxo/mgysM=.sha256",
-  "sequence": 14332,
+  "previous": "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256",
+  "sequence": 14333,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1577994509614,
+  "timestamp": 1577994800457,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nYeah, see the electron-builder issue I linked for a workaround -- it just seems like extra jank. Maybe worthwhile jank though?\r\n\r\n> As for package managers, in the case of windows one, we’d still need to generate the binaries anyway.\r\n\r\nOh, this is surprising. I've been spoiled by how Arch Linux packages can literally just be:\r\n\r\n1. `git clone`\r\n2. `npm install`\r\n3. copy files to `/opt`\r\n4. add executable to `/usr/bin/`\r\n\r\nDoes Chocolately/etc not let you build from source? That would be a big bummer.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
+    "text": "Example: https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ssb-patchwork",
+    "mentions": [],
+    "root": "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256",
+    "fork": "%9oMcU11DLSZW6oNZIJT1f2G7iiPKxrKzW5BAbm3ZZvg=.sha256",
     "branch": [
-      "%4BvR/hRtYHAnu1EN62c3tZTFfuRXPs7c+OHHpmzJksA=.sha256"
+      "%5j9XGM2gzbWD8Wsu3q79JBhIM0Cl3gfxYShfesxViag=.sha256"
     ]
   },
-  "signature": "+oxSG9HFzr50hq6wgFhAwZF/Awv856W+HYeelixjAhPPnwGaTHS5pwG7gEqP4BTl5NFM8fnUkavdqMCPafpJDQ==.sig.ed25519"
+  "signature": "xRIWjxHI6YMbGKimTCYciBM1zgPgjMMpuV/NUcwB4W1KwGeexg7WavucIA2QqGRRSGnzZPqvl+53ODG3MTbsDw==.sig.ed25519"
 }
