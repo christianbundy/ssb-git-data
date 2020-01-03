@@ -1,18 +1,22 @@
 {
-  "previous": "%PeVg1LqQ1t9rfP12L2AADe4WZJajwSydFrs6wPyfFw4=.sha256",
-  "sequence": 14338,
+  "previous": "%Tc7mLIvbFUzGTsJbaoUzSC9tPoGX1vcAPQWP7WoGgXw=.sha256",
+  "sequence": 14339,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578009177990,
+  "timestamp": 1578012539854,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7f0eMiE9MTdNXkwtslWk7scLbIxPYW+6/pRPU0Sh+vU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nYes, I think Patchwork is still the most beginner-friendly desktop interface and it's still being actively maintained (dependencies are up-to-date, major bugs fixed, installers working on many platforms, etc), but contributions don't seem to be trending upward ([link](https://github.com/ssbc/patchwork/graphs/contributors)).\r\n\r\nI'm happy to continue maintaining Patchwork (and I think we should still recommend it) until another interface is as beginner-friendly and feature-complete as Patchwork, but I wouldn't recommend Patchwork as a starting point for people who want to contribute to SSB.",
+    "mentions": [
+      {
+        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
+        "name": "Tim Makarios"
+      }
+    ],
+    "root": "%8d2P8qjoEnbddyZ9kR8OBEXXi/WNdYcl0kfuCr7bGRk=.sha256",
     "branch": [
-      "%7f0eMiE9MTdNXkwtslWk7scLbIxPYW+6/pRPU0Sh+vU=.sha256"
+      "%Oa24NG6MYRPSWDkmgm/1UdPYVX+DhSVQYHijptRNIoE=.sha256"
     ]
   },
-  "signature": "3RsulRsek5RfpXkZ3kk41wddxCy5zip8lCFxco19a13iK5NWtikQkDpOG4La/mH5lIf3Jlxm2SLW9B2KWlwNBg==.sig.ed25519"
+  "signature": "mSKP8/X08Wy/CRys7VO7N4m+jEcLxLVuAjiLcvhtCmRufK54wuHCjmb04wrNgiJHOcz3RhOazB4lBJuQyEvJAA==.sig.ed25519"
 }
