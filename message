@@ -1,18 +1,22 @@
 {
-  "previous": "%gnYxr8JZwhoo4l50o0Ly5xrhJak3dY+pzbWq55jjWak=.sha256",
-  "sequence": 14354,
+  "previous": "%UsQWfqDnGKOcfFvcxsqerEhbMIi28NUzquVRQT4LQXM=.sha256",
+  "sequence": 14355,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578171646946,
+  "timestamp": 1578171691994,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%BpXgSzC85NMAcriqROsmaIGIWKX/0aHjdH+OstD6Efw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@VictorBjelkholm](@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519)\r\n\r\nYeah, [this issue](https://github.com/ssbc/patchwork/issues/906) was something that Matt had marked as \"blocking release\" and so I resolved it when I started taking care of Patchwork maintenance.\r\n\r\nThe issue highlights some options, but I took the easy approach when I fixed it in [this pull request](https://github.com/ssbc/patchwork/pull/974). I'm not invested in this implementation, happy to merge any improvements.",
+    "mentions": [
+      {
+        "link": "@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519",
+        "name": "VictorBjelkholm"
+      }
+    ],
+    "root": "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256",
     "branch": [
       "%BpXgSzC85NMAcriqROsmaIGIWKX/0aHjdH+OstD6Efw=.sha256"
     ]
   },
-  "signature": "PpODj0wvKZX5QIXImJpAlXvrAPacZdfwfncBMB+vXJJRSpyYye+RjIOMzw56Zbr/sKSU3OwwXlRsCGAPTDKKAw==.sig.ed25519"
+  "signature": "+64Nytkpr8MSCX743NybQoWz5DY5A+HdlkLjnt/5NEFTioYjxSRN8lAmjYG1pp+JadBIWuM3rxrD2MIoPod8CA==.sig.ed25519"
 }
