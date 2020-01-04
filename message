@@ -1,30 +1,18 @@
 {
-  "previous": "%pysaG6Soc01KZLPLjgV5bh9AaKhD/0wicHAUOEGXoPo=.sha256",
-  "sequence": 14356,
+  "previous": "%XgR5saytK7HYL79E48YcIInOPN2TScd9UDHkyrM7Zqo=.sha256",
+  "sequence": 14357,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578171957040,
+  "timestamp": 1578172559042,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@lorianne](@qt4AjccJlQsNzGWoDLU667mVLt7bYVxZ0sho8oiFzT8=.ed25519) [@Baguette](@8fkTaj74fINGbG2uQGzHSXcFcpuisOF7Ra4DfVA/HBM=.ed25519)\r\n\r\nSSB doesn't support remote images like that, you can only reference messages by their fingerprint (SHA256). The way you attach an image depends on which interface you're using (Patchwork, Manyverse, etc), but it should end up looking like:\r\n\r\n```markdown\r\n![Up-close photo of Jerome the cat's face looking at the ceiling](&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256)\r\n```\r\n\r\n![Up-close photo of Jerome the cat's face looking at the ceiling](&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256)",
-    "mentions": [
-      {
-        "link": "@qt4AjccJlQsNzGWoDLU667mVLt7bYVxZ0sho8oiFzT8=.ed25519",
-        "name": "lorianne"
-      },
-      {
-        "link": "@8fkTaj74fINGbG2uQGzHSXcFcpuisOF7Ra4DfVA/HBM=.ed25519",
-        "name": "Baguette"
-      },
-      {
-        "link": "&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256",
-        "name": "Up-close photo of Jerome the cat&#39;s face looking at the ceiling"
-      }
-    ],
-    "root": "%HpW/CJ7p/rbt5sO3851eFnKYazPDlvhc4fcpvkIyr2I=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%XxgM0n6+tG+bKPCUe7svGQuCp68ZCba6741gQOxwmUo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%HpW/CJ7p/rbt5sO3851eFnKYazPDlvhc4fcpvkIyr2I=.sha256"
+      "%XxgM0n6+tG+bKPCUe7svGQuCp68ZCba6741gQOxwmUo=.sha256"
     ]
   },
-  "signature": "HXjQYdJd6tUUqAifQ9lEGTzQ5wNwbt0hzQAqncg5EZO1oOBbDjq1AEjKVW4JpXhehJA9PaeW11SXivSNMZ2eDg==.sig.ed25519"
+  "signature": "JM/yS6ymh5hcdilwAm6pjkhsDlujPZzXnX1jLs5nwXWKfWRBlEo4JcLtV2l8nr/PXrnE5oUUME7PnctoVHmEAg==.sig.ed25519"
 }
