@@ -1,26 +1,23 @@
 {
-  "previous": "%zQiWv4zNRWC4JdVTMlPVZ/uLOkl6qm+QGOKgbJwRKxs=.sha256",
-  "sequence": 14361,
+  "previous": "%0E/GUpl4yb5boVjGAuOGQn0494/3ZFlJMGjIClPxT3c=.sha256",
+  "sequence": 14362,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578172974427,
+  "timestamp": 1578175944533,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Offray](@QRttJgVouWhDWpnZHo2BoT5LkGA1irFA+fY+HkGSksc=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nAside: what would the ideal error message here look like? I think SSB-CLI is better, but probably not perfect:\r\n\r\n```console\r\n$ ssb publish --type about @abc --name \"Offray Luna\" \r\n\r\nError: You must provide positional arguments or --flag arguments, not both.\r\n    at Object.handler (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/index.js:116:27)\r\n    at Object.runCommand (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/node_modules/yargs/lib/command.js:240:40)\r\n    at Object.parseArgs [as _parseArgs] (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/node_modules/yargs/yargs.js:1107:41)\r\n    at Object.runCommand (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/node_modules/yargs/lib/command.js:198:30)\r\n    at Object.parseArgs [as _parseArgs] (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/node_modules/yargs/yargs.js:1117:39)\r\n    at Function.get [as argv] (/home/christianbundy/.node_modules/lib/node_modules/ssb-cli/node_modules/yargs/yargs.js:1041:21)\r\n    at /home/christianbundy/.node_modules/lib/node_modules/ssb-cli/index.js:167:11\r\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\r\n```\r\n\r\nMaybe something about an \"unmatched argument @abc\"?",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\n> Despite my love of Perl, Sun spent millions getting everyone excited about Java, and it worked.\r\n\r\n[Money well spent](https://www.youtube.com/watch?v=NVuTBL09Dn4F).",
     "mentions": [
       {
-        "link": "@QRttJgVouWhDWpnZHo2BoT5LkGA1irFA+fY+HkGSksc=.ed25519",
-        "name": "Offray"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
       }
     ],
-    "root": "%/uGJFcmIEPDAszip79DqxBHYQI2ONUKbYNaPNRVU/sU=.sha256",
+    "root": "%wHlaRYCo3jnzKWqqz57EVHyHf/gnzU/9FMZjc2Xsn6I=.sha256",
     "branch": [
-      "%dudnf2T6toxrgIOWrYqvIEOLfzYeozkdbiGsTiCbWI4=.sha256"
+      "%m0Djlxqt6mgR8155cXsT+5Pxy8pTPMbLWG2A7M0ptm4=.sha256",
+      "%uaurD9eDSQk016WwuNtG9SOvJ+Qd8QdjwD+49ZNGCHY=.sha256"
     ]
   },
-  "signature": "vC9v2ng2MtULPf36z9nvjfSHUT2k/mlw0B9Mz/WpAD6SmxPzQItNGOra+EMHNXw91SreurIVR7gT/ALZ+nlnBg==.sig.ed25519"
+  "signature": "ZlFqGq+IglkHpkl1xXn/4c8cHz/Bkpl0iNS6r4zLuNjbqsUuzbgHASPWhrI6IEQ/e8Mp162iYi2AF8WcjgbCCw==.sig.ed25519"
 }
