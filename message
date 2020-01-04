@@ -1,22 +1,30 @@
 {
-  "previous": "%UsQWfqDnGKOcfFvcxsqerEhbMIi28NUzquVRQT4LQXM=.sha256",
-  "sequence": 14355,
+  "previous": "%pysaG6Soc01KZLPLjgV5bh9AaKhD/0wicHAUOEGXoPo=.sha256",
+  "sequence": 14356,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578171691994,
+  "timestamp": 1578171957040,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@VictorBjelkholm](@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519)\r\n\r\nYeah, [this issue](https://github.com/ssbc/patchwork/issues/906) was something that Matt had marked as \"blocking release\" and so I resolved it when I started taking care of Patchwork maintenance.\r\n\r\nThe issue highlights some options, but I took the easy approach when I fixed it in [this pull request](https://github.com/ssbc/patchwork/pull/974). I'm not invested in this implementation, happy to merge any improvements.",
+    "text": "[@lorianne](@qt4AjccJlQsNzGWoDLU667mVLt7bYVxZ0sho8oiFzT8=.ed25519) [@Baguette](@8fkTaj74fINGbG2uQGzHSXcFcpuisOF7Ra4DfVA/HBM=.ed25519)\r\n\r\nSSB doesn't support remote images like that, you can only reference messages by their fingerprint (SHA256). The way you attach an image depends on which interface you're using (Patchwork, Manyverse, etc), but it should end up looking like:\r\n\r\n```markdown\r\n![Up-close photo of Jerome the cat's face looking at the ceiling](&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256)\r\n```\r\n\r\n![Up-close photo of Jerome the cat's face looking at the ceiling](&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256)",
     "mentions": [
       {
-        "link": "@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519",
-        "name": "VictorBjelkholm"
+        "link": "@qt4AjccJlQsNzGWoDLU667mVLt7bYVxZ0sho8oiFzT8=.ed25519",
+        "name": "lorianne"
+      },
+      {
+        "link": "@8fkTaj74fINGbG2uQGzHSXcFcpuisOF7Ra4DfVA/HBM=.ed25519",
+        "name": "Baguette"
+      },
+      {
+        "link": "&16aaZoEimHmpn+HcX3uedjJQmh4USQHEogoaf85bMe8=.sha256",
+        "name": "Up-close photo of Jerome the cat&#39;s face looking at the ceiling"
       }
     ],
-    "root": "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256",
+    "root": "%HpW/CJ7p/rbt5sO3851eFnKYazPDlvhc4fcpvkIyr2I=.sha256",
     "branch": [
-      "%BpXgSzC85NMAcriqROsmaIGIWKX/0aHjdH+OstD6Efw=.sha256"
+      "%HpW/CJ7p/rbt5sO3851eFnKYazPDlvhc4fcpvkIyr2I=.sha256"
     ]
   },
-  "signature": "+64Nytkpr8MSCX743NybQoWz5DY5A+HdlkLjnt/5NEFTioYjxSRN8lAmjYG1pp+JadBIWuM3rxrD2MIoPod8CA==.sig.ed25519"
+  "signature": "HXjQYdJd6tUUqAifQ9lEGTzQ5wNwbt0hzQAqncg5EZO1oOBbDjq1AEjKVW4JpXhehJA9PaeW11SXivSNMZ2eDg==.sig.ed25519"
 }
