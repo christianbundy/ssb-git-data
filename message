@@ -1,38 +1,18 @@
 {
-  "previous": "%AJB1Xfax8iRE43ilHfYDSP4Z4Oghf3TcGEZKccGsxUI=.sha256",
-  "sequence": 14404,
+  "previous": "%N4G+iskozCSnLYgzMCPozu7xuU2Sh+cM3gzGbcgsU+k=.sha256",
+  "sequence": 14405,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578259717178,
+  "timestamp": 1578259749336,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "**Is anyone familiar with patterns that can help with the code review process for volunteer open source software projects?**\r\n\r\nOne of the biggest pain points I've been having with SSB development is that [my pull requests](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Achristianbundy+archived%3Afalse+sort%3Acreated-asc+user%3Assbc+user%3Aflumedb) often stay open for a long time without any activity, and holding all of those pending branches in my head makes it harder to make more improvements. My options seem to be:\r\n\r\n- **Merge without review.** I'd be comfortable with this if we had a policy like \"please merge if you don't get pushback and your PR has been open for 2 weeks\", but the SSBC doesn't have *any* explicit policies.\r\n- **Bump the thread.** I've done this a few times, asking for input and offering to host synchronous sessions where we walk through the code, but haven't had much response. This also feels bad, because reviewing code isn't fun and I don't want to pressure my friends into the less-fun bits of software development.\r\n- **Temporarily fork.** This has been happening more recently, where I need to deploy an improvement but it doesn't seem like my branch will be looked at soon. The fragmentation feels bad and I'm unhappy with this solution, but it's better than the other options.\r\n\r\nNone of these seem great.\r\n\r\nI've been trying really hard to lighten the load by working through the backlog of [pull requests](%WxCINaUHdiHgYSLcnH6XvKIGX+x+QsKOR4HcK5Njo1s=.sha256) and [issues](%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256), plus trying to [prune inactive issues](%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256), but it feels like a systems problem that can't be solved with individual actions.\r\n\r\nOn the flip side, my guess is that maintainers with lots of responsibilities probably feel the same pain point from the other side, and it's important that we can lower stress for them too. It's easy for me to point to my pull requests because I'm familiar with them, but the real problem is how to share code as commons.\r\n\r\n#ssbc #software #commons #github",
-    "mentions": [
-      {
-        "link": "%WxCINaUHdiHgYSLcnH6XvKIGX+x+QsKOR4HcK5Njo1s=.sha256",
-        "name": "pull requests"
-      },
-      {
-        "link": "%oAza5M/RtzmTWxqZoww4Jdwzatf5+zb1AHNmvYljv84=.sha256",
-        "name": "issues"
-      },
-      {
-        "link": "%jn8ZQC3f6gCyuZFpA3uBNF5Nw6/LtXVYwpzV1sko6OA=.sha256",
-        "name": "prune inactive issues"
-      },
-      {
-        "link": "#ssbc"
-      },
-      {
-        "link": "#software"
-      },
-      {
-        "link": "#commons"
-      },
-      {
-        "link": "#github"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%6TZlz0Igr8IeyNXVD96Jnk+vVaV8kVnagZNo2aK9Szg=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%6TZlz0Igr8IeyNXVD96Jnk+vVaV8kVnagZNo2aK9Szg=.sha256"
     ]
   },
-  "signature": "8Ri8rYkMIVwRHGwHbOM/EvKq6QUwf6C2Nb7fBKfoJJ+WsuvOjxvxVlGmpg22JnLnurqY1GQffZosBp05BaLiAg==.sig.ed25519"
+  "signature": "ermNVu4ueYPPzKT0LohfBs7PFUJ+HWiFh3PU2dgdBm3hAjR+IZc8d6oHpCZtaC77lTdGfHOaC226P24ycZpLAw==.sig.ed25519"
 }
