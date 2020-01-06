@@ -1,18 +1,22 @@
 {
-  "previous": "%rlIUcDAFgfFFUrxg3JC9amnYOOcYzZ5z/yZuq2pjxyE=.sha256",
-  "sequence": 14446,
+  "previous": "%JX2e5TR/6GsqXX4ZqcWI4xWtPgCI0tjIz4t2oapWoMQ=.sha256",
+  "sequence": 14447,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578347926909,
+  "timestamp": 1578349635996,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%o2NOgGLyEzbEjkDEoz9rlbmGAg1mG6ht7QAXDcJuXDc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@movonw](@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519)\r\n\r\nI'm not sure what the solution is, but that isn't normal. How are your server's resources? Maybe SSB-Server needs more CPU/memory/something?\r\n\r\nAlso, I'd imagine you've already used a pub invite to make sure your device is peering with the server directly?",
+    "mentions": [
+      {
+        "link": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
+        "name": "movonw"
+      }
+    ],
+    "root": "%lSbDzOh34dNujafE/gEuOfbsrEsc1eNVdStlfeofsFQ=.sha256",
     "branch": [
-      "%o2NOgGLyEzbEjkDEoz9rlbmGAg1mG6ht7QAXDcJuXDc=.sha256"
+      "%lSbDzOh34dNujafE/gEuOfbsrEsc1eNVdStlfeofsFQ=.sha256"
     ]
   },
-  "signature": "Kmo/jrafuh9IPVQ60i8sXThAO4YM2mRe1/Awp9ZU5Erg8RQBSJrvpPXdueisAcX8vwY9Hgwej8ehFx56hhtTBg==.sig.ed25519"
+  "signature": "W90nER9OweuMwdI9NWLpig8dz/11wnimHz4W9rJ7uS5Teceg6hbx2T3hmfFphHyzFQB2FA2eayL0kKqxFqdiCg==.sig.ed25519"
 }
