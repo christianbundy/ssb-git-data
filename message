@@ -1,18 +1,23 @@
 {
-  "previous": "%4l7rInzJMnciVdumGB4oGaDMvytt1wjHjBUYk6ox+dE=.sha256",
-  "sequence": 14452,
+  "previous": "%6vOtTHcHx28BOWmzORFzNBlXHP0JUerg/INzPaE7q2w=.sha256",
+  "sequence": 14453,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578351747007,
+  "timestamp": 1578354363783,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XLiu8iFE8VlWmwq52fkgOkWzJmm+nrhqdtkmezzXNRE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Miikka](@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519)\r\n\r\nWow, this is unreasonably interesting and [well-specified](https://rfc.zeromq.org/spec:42/C4/). Thank you for sharing!\r\n\r\nThe only thing that jumped out at me: what happens if a troll recommends code that does something harmful (like deleting all of your files)? This sounds dangerous to include in the Git history because a `git bisect` might automatically run the code.",
+    "mentions": [
+      {
+        "link": "@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519",
+        "name": "Miikka"
+      }
+    ],
+    "root": "%o2NOgGLyEzbEjkDEoz9rlbmGAg1mG6ht7QAXDcJuXDc=.sha256",
+    "fork": "%N4G+iskozCSnLYgzMCPozu7xuU2Sh+cM3gzGbcgsU+k=.sha256",
     "branch": [
-      "%XLiu8iFE8VlWmwq52fkgOkWzJmm+nrhqdtkmezzXNRE=.sha256"
+      "%o2NOgGLyEzbEjkDEoz9rlbmGAg1mG6ht7QAXDcJuXDc=.sha256"
     ]
   },
-  "signature": "PW8YRn0u6AgVLe4ATt6yaH5iF7b3wF1dFEN6gzvP+l8rSNs/tdurQ2x3EP9e0YVPene4rLqDCf7p1vVpb1boBg==.sig.ed25519"
+  "signature": "2NVrZxBTHanWpG1/Ov4/JaxV/2I1P6A5ntgmC0qxKQ6lfvaekyvu8dR1lN8ZaSa31b/pW3OfwYSFEx7eSogOBQ==.sig.ed25519"
 }
