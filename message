@@ -1,29 +1,17 @@
 {
-  "previous": "%yFbxtL/Sp3cn31cvheh1As7RtAwN4qMOsDxeHkiz6Lo=.sha256",
-  "sequence": 14439,
+  "previous": "%RiuvniqrrVu5Pi0YMkmT/8bq116Zq0wNjF10X9MEQe0=.sha256",
+  "sequence": 14440,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578336940815,
+  "timestamp": 1578336955978,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%V9nR5aE1AtPtEu7h3jlz9koNH6NaTNf4P5CDqt+ZY1g=.sha256",
-    "branch": [
-      "%XMWa0qEJa/CngHHIUY6QszfcYRFqNc7RFphbjbDxlGg=.sha256",
-      "%bQtHHEKs2r9Wp9kRSBxBqVL26/6KjWwPzF4Dut1vqxA=.sha256"
-    ],
-    "reply": {
-      "%V9nR5aE1AtPtEu7h3jlz9koNH6NaTNf4P5CDqt+ZY1g=.sha256": "@YcULoiCt35mq9njrahmXFONqX/gGEVN1ffdMt20pzgE=.ed25519",
-      "%bQtHHEKs2r9Wp9kRSBxBqVL26/6KjWwPzF4Dut1vqxA=.sha256": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519"
-    },
+    "type": "vote",
     "channel": null,
-    "recps": null,
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) \n\nMaybe the solution would be to expand blob references somehow? That way you could just paste a blob reference but when someone looks at the message with their SSB interface it shows the message similar to a quote retweet.",
-    "mentions": [
-      {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
-      }
-    ]
+    "vote": {
+      "link": "%02f9BMSvEgpJqIp+c5K8okxJAXLZ63Z6c6H9hhnaGS8=.sha256",
+      "value": 1,
+      "expression": "Like"
+    }
   },
-  "signature": "Dqx7IUZBzlQPTlImAdoSmhvINOJwFokUdlExobYgn8Vc/2Oa9Tn7QCBvWkJtzv1W0sJeBBhysjqYz0LZxUZjDw==.sig.ed25519"
+  "signature": "NqX91WRzsDXsriw3jKrGr83LabItvwj+jAit2HILa7g13ZXUKNBeJuqOMjdNY3BYNF2YZlGN4xP4rLI+TaMbDg==.sig.ed25519"
 }
