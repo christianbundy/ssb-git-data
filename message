@@ -1,18 +1,22 @@
 {
-  "previous": "%PYFwXzLMSgY0FJrM2k/RD2fWYZGw+yEW++rdRJ64OwU=.sha256",
-  "sequence": 14419,
+  "previous": "%ebgzT7r7bGnRRTXCO76i2zq4w0H6Ir8Wtpoy9FiRbI4=.sha256",
+  "sequence": 14420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578323864305,
+  "timestamp": 1578324248446,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VBWS8mb8T42ZKWpumUIwXVEnci6MMOgcd+D8Hgmwhig=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThanks for the tip! I skimmed that list but none of those modules jumped out at me -- what should I be looking for? I think I want something like this:\r\n\r\n- New messages are filtered by time and added to a list.\r\n- Each time a new message is added, we check the oldest item in the list.\r\n  - If the oldest message is too old, remove it and check the next-oldest item.\r\n  - If the oldest message is not too old, `yield` or `cb()` the list.\r\n\r\nSo given the messages:\r\n\r\n```\r\n{ \"time\": 1, \"text\": \"a\" }\r\n{ \"time\": 2, \"text\": \"b\" }\r\n{ \"time\": 12, \"text\": \"c\" }\r\n{ \"time\": 30, \"text\": \"d\" }\r\n```\r\n\r\nI'd expect to see the `text` outputs:\r\n\r\n```\r\na\r\na b\r\nb c\r\nd\r\n```",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ],
+    "root": "%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256",
     "branch": [
-      "%VBWS8mb8T42ZKWpumUIwXVEnci6MMOgcd+D8Hgmwhig=.sha256"
+      "%EbnjUojwHmLWMdUpoqj3ErE8yi2imXaDIBIe1trqBKA=.sha256"
     ]
   },
-  "signature": "Kk9somNtWZn88cVZeYIEnj3ZT7TQh+bPS8Myv3dPnlT1V9eZnGsOwRw1iZ18WsN4RwMXyWC/mqf/xjm0Ur94BQ==.sig.ed25519"
+  "signature": "7xRMxoT8BS9P7vaaJ4CIW/ZRwMry9MNbqaU1HlDTVWAGxxaV8WOAyR8rpHQyzHCiFi7Q+tr9dWcmSFwVBcBkDw==.sig.ed25519"
 }
