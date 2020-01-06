@@ -1,17 +1,45 @@
 {
-  "previous": "%RiuvniqrrVu5Pi0YMkmT/8bq116Zq0wNjF10X9MEQe0=.sha256",
-  "sequence": 14440,
+  "previous": "%kGT16xYumXDfvT7fag6g5cXKL/xEGVnXk936WRPMY8I=.sha256",
+  "sequence": 14441,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578336955978,
+  "timestamp": 1578342304971,
   "hash": "sha256",
   "content": {
-    "type": "vote",
+    "type": "post",
+    "root": "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256",
+    "branch": [
+      "%gUq2HpKqR4+FXskBNI6q/M8ObYL4g68EkCE7C7vnnmo=.sha256",
+      "%wxm4/G+1uEXRfwBzEqw2iVKixsySY1cNZxTZLHcQLfA=.sha256"
+    ],
+    "reply": {
+      "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256": "@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519",
+      "%wxm4/G+1uEXRfwBzEqw2iVKixsySY1cNZxTZLHcQLfA=.sha256": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519"
+    },
     "channel": null,
-    "vote": {
-      "link": "%02f9BMSvEgpJqIp+c5K8okxJAXLZ63Z6c6H9hhnaGS8=.sha256",
-      "value": 1,
-      "expression": "Like"
-    }
+    "recps": null,
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519) \n\n> Don’t waste too much time on it, you’ve enough going on as is, I’m happy with this version.\n\nMy main concern is just making sure you're up-to-date on all of our security patches. Patchwork has about 10,000 Node.js dependencies that are constantly being updated, and Chromium (from Electron) is an unreasonably popular attack surface that needs to be updated ASAP.\n\n> I’m also wondering, as others have expressed, about having Patchwork in maintenance mode. Is it that bad?\n\nIt's really not bad at all, but Patchwork is full of experiments and inventions (on top of SSB's experiments and inventions) that aren't widely used or understood. I mentioned a few of those technologies in [this message](%3V4yQ5onUzFdHQz8/FTBCBvF6Vjhdr5PT44MiIr/SKM=.sha256), but the important thing is that I don't know anyone who has worked on Patchwork and wants to continue working on Patchwork. I know that both Matt and I have both burned out while trying to unravel Depject, which is one of the three dependency systems that Patchwork uses. [Patchwork's Depject dependency graph looks like this](&MxkDqO1fDyO1nS02J6/DoCEJhyLnEIBQCUafV8JvFVM=.sha256), plus we use [Secret-Stack](https://github.com/ssbc/secret-stack/) and the default [Node.js modules](https://nodejs.org/api/modules.html).\n\n(Maybe someone could generate a more charitable graph? [`patchwork-depject.dot`](&Th6BajRJQU0/PzvHX7nM86n3OLpMB42PrL1ma8wD4UQ=.sha256))\n\n> More importantly, since it’s the main tool people use, are there other clients being developed with any kind of roadmap, other than Manyverse and Planetary?\n\nI'm working on [Oasis](https://github.com/fraction/oasis#oasis), which I'm using in place of Patchwork, but as [the roadmap](https://github.com/fraction/oasis/blob/master/docs/roadmap.md) suggests it's still got a few important pieces missing. My goal is to build a simple and maintainable alternative to Patchwork, using as many boring technologies as possible, but I'm only doing it in my free time so it isn't moving as fast as I'd like.\n\n> This is the beauty of open source, no one owns anything\n\n🌟 ",
+    "mentions": [
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      },
+      {
+        "link": "%3V4yQ5onUzFdHQz8/FTBCBvF6Vjhdr5PT44MiIr/SKM=.sha256",
+        "name": "this message"
+      },
+      {
+        "link": "&MxkDqO1fDyO1nS02J6/DoCEJhyLnEIBQCUafV8JvFVM=.sha256",
+        "name": "Patchwork&#39;s Depject dependency graph looks like this",
+        "type": "image/svg+xml",
+        "size": 320050
+      },
+      {
+        "link": "&Th6BajRJQU0/PzvHX7nM86n3OLpMB42PrL1ma8wD4UQ=.sha256",
+        "name": "patchwork-depject.dot",
+        "type": "application/msword",
+        "size": 25924
+      }
+    ]
   },
-  "signature": "NqX91WRzsDXsriw3jKrGr83LabItvwj+jAit2HILa7g13ZXUKNBeJuqOMjdNY3BYNF2YZlGN4xP4rLI+TaMbDg==.sig.ed25519"
+  "signature": "fh7o2J7pj8tutkHhgCp7bUDJHYnGxQhLpoROLRn60AJaET6+VEn/AcpV+GOZi2FnCwMaM1LuY2PPqwDxeQZzAw==.sig.ed25519"
 }
