@@ -1,18 +1,25 @@
 {
-  "previous": "%hg6dW5PI/PJ0UnIFkYZdlfeFVdExShSeDUUyRCjCEjI=.sha256",
-  "sequence": 14437,
+  "previous": "%w0myiJSahfyxbWCQsET5Gkj5xSIRaq6bKsZvWrT1Fbc=.sha256",
+  "sequence": 14438,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578330770065,
+  "timestamp": 1578336838367,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256",
-      "value": 1
+    "type": "post",
+    "root": "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256",
+    "branch": "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256",
+    "reply": {
+      "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519"
     },
-    "branch": [
-      "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256"
+    "channel": "golang",
+    "recps": null,
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nThanks for writing this up!\n\nOne adjacent problem that I think we'll also need to solve: I'd imagine that most of us only want known blobs, but since private messages don't publicly announce their encrypted blobs then those blobs don't get replicated around the network. I think it might be wise to reference those encrypted blobs, that way we can replicate encrypted blobs without having to  use `blobs.sympathy` (which lets network peers upload blobs to your computer (!)).",
+    "mentions": [
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
     ]
   },
-  "signature": "QPWJZ7PYA7rk6AGhOtr1OmcYJQgdjta5DmkL8cWV+oxLX6xxU7kdWhBoOcqSj/JiJYZIwENFC5leo/rTchubCA==.sig.ed25519"
+  "signature": "1rglPea9HPc5vFSe5iRvlwitNrnlasBZkIGrkqtGomDJkRkDW16uonavl/W1fm72t5iTRB5m/EPxLzE5ZC15Aw==.sig.ed25519"
 }
