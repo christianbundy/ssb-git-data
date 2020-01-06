@@ -1,18 +1,26 @@
 {
-  "previous": "%JE4oXikUHgwrK8p+JT0hB9Ps/XqjMu3SaLp/AZkWsYA=.sha256",
-  "sequence": 14415,
+  "previous": "%wYUaKBcXB2hGJoWQ8q/wG251WazrpcAfSxbDKWuT84g=.sha256",
+  "sequence": 14416,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578323130963,
+  "timestamp": 1578323720312,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5Vk/s8g6YOw9OgOLhsliE9bsMwX85MgR035jMTR231I=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nThanks for the feedback, I didn't notice the performance change. I'd really love to get everyone on the latest, for security updates if nothing else, so I'll try to see what's going on with the performance.\r\n\r\nIs it mostly the \"scuttling\", or are there other performance changes?\r\n\r\ncc: [@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)",
+    "mentions": [
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
+      }
+    ],
+    "root": "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256",
     "branch": [
-      "%5Vk/s8g6YOw9OgOLhsliE9bsMwX85MgR035jMTR231I=.sha256"
+      "%hFgLTuhi4+WdmZ5wnMvAy8+g08LFCgk5miGPPsmLv7I=.sha256"
     ]
   },
-  "signature": "YdpkSvMZmCnhgO5GRAU0WCkg0Io42Ylqnl/ivoI0BmXGoye0mOMKe7GTq0UnARWi6xmhmnH/tlhFDg+Tt+PsBg==.sig.ed25519"
+  "signature": "1paqu9QSfUCSRH5t6o3roFIDaJ0nAvWJ49UTMnUhvLXtLOmBT4h6lwogIBPQuL8iUmfvIvQqKFVUgK8u2bH1DQ==.sig.ed25519"
 }
