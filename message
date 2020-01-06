@@ -1,18 +1,26 @@
 {
-  "previous": "%3eMhKnwGIvqQX5WG3SIgJOhkqV/o+UjOZPyDGr+uLBM=.sha256",
-  "sequence": 14424,
+  "previous": "%8unpcPW94jcPVJZSMbO1TuqPCx2PiX2/NN0D1cuTTXc=.sha256",
+  "sequence": 14425,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578325072455,
+  "timestamp": 1578325492022,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ZfHz7VwCiUCr0o+AZl/r5lgvGBI6sYV3hCb7C+csUvY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nI'm super down to explore these ideas, although hesitant to try to make non-trivial non-maintenance changes to Patchwork. Maybe it would be useful to build an [SSB interface guideline](%lZUttSqoiDr6TmFUTWS0pZKVDTinvDqodIRHA3Fzp3c=.sha256) that's useful for all interfaces?",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      },
+      {
+        "link": "%lZUttSqoiDr6TmFUTWS0pZKVDTinvDqodIRHA3Fzp3c=.sha256",
+        "name": "SSB interface guideline"
+      }
+    ],
+    "root": "%DiPrWOTFEN+1dXpxu/xW2mDV/HhdIs9Kp1un8d3/cc4=.sha256",
     "branch": [
-      "%ZfHz7VwCiUCr0o+AZl/r5lgvGBI6sYV3hCb7C+csUvY=.sha256"
+      "%DiPrWOTFEN+1dXpxu/xW2mDV/HhdIs9Kp1un8d3/cc4=.sha256"
     ]
   },
-  "signature": "EN5dob2/qOyZJlklXAt11TnG9tSkEX1BOrFgSRcirKWjTHjvl/Jyi0v6gTQBMnrC3OP97XSRV5zl2zUvr2ArDQ==.sig.ed25519"
+  "signature": "w8Naim7TAmavdyQPpF/GEIoyZ6nSuc740o0pX9S8hB8lRPUsTcTuayztOmC0mZ2i1hRMUemhdjCDTPoiyK5dAw==.sig.ed25519"
 }
