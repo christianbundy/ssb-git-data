@@ -1,25 +1,29 @@
 {
-  "previous": "%w0myiJSahfyxbWCQsET5Gkj5xSIRaq6bKsZvWrT1Fbc=.sha256",
-  "sequence": 14438,
+  "previous": "%yFbxtL/Sp3cn31cvheh1As7RtAwN4qMOsDxeHkiz6Lo=.sha256",
+  "sequence": 14439,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578336838367,
+  "timestamp": 1578336940815,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256",
-    "branch": "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256",
+    "root": "%V9nR5aE1AtPtEu7h3jlz9koNH6NaTNf4P5CDqt+ZY1g=.sha256",
+    "branch": [
+      "%XMWa0qEJa/CngHHIUY6QszfcYRFqNc7RFphbjbDxlGg=.sha256",
+      "%bQtHHEKs2r9Wp9kRSBxBqVL26/6KjWwPzF4Dut1vqxA=.sha256"
+    ],
     "reply": {
-      "%Lg961jDYZAIbk7QBg5vMCjOueG0Fgn12OP+61z5+Jok=.sha256": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519"
+      "%V9nR5aE1AtPtEu7h3jlz9koNH6NaTNf4P5CDqt+ZY1g=.sha256": "@YcULoiCt35mq9njrahmXFONqX/gGEVN1ffdMt20pzgE=.ed25519",
+      "%bQtHHEKs2r9Wp9kRSBxBqVL26/6KjWwPzF4Dut1vqxA=.sha256": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519"
     },
-    "channel": "golang",
+    "channel": null,
     "recps": null,
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) \n\nThanks for writing this up!\n\nOne adjacent problem that I think we'll also need to solve: I'd imagine that most of us only want known blobs, but since private messages don't publicly announce their encrypted blobs then those blobs don't get replicated around the network. I think it might be wise to reference those encrypted blobs, that way we can replicate encrypted blobs without having to  use `blobs.sympathy` (which lets network peers upload blobs to your computer (!)).",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519) \n\nMaybe the solution would be to expand blob references somehow? That way you could just paste a blob reference but when someone looks at the message with their SSB interface it shows the message similar to a quote retweet.",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
       }
     ]
   },
-  "signature": "1rglPea9HPc5vFSe5iRvlwitNrnlasBZkIGrkqtGomDJkRkDW16uonavl/W1fm72t5iTRB5m/EPxLzE5ZC15Aw==.sig.ed25519"
+  "signature": "Dqx7IUZBzlQPTlImAdoSmhvINOJwFokUdlExobYgn8Vc/2Oa9Tn7QCBvWkJtzv1W0sJeBBhysjqYz0LZxUZjDw==.sig.ed25519"
 }
