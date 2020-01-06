@@ -1,18 +1,22 @@
 {
-  "previous": "%s6diQ2YW2rFxaidXP/cDb1Gt5QL0RUDQ02Jd5zRUCyY=.sha256",
-  "sequence": 14411,
+  "previous": "%UsWrH35yc5pq78PzWjVEvYzIPpjZz14oER3Kwv7EBLs=.sha256",
+  "sequence": 14412,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578271656567,
+  "timestamp": 1578271814570,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VRKhjUfoQnFdGYEOiFeW2ifE6YyVLk7ST0nWZ+RcgKk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nJust tried the AppImage and I'm bumping into this:\r\n\r\n```\r\n/tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/mithril/api/mount-redraw.js:15 Error: could not load manifest file\r\n    at /tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/ssb-client/index.js:50:13\r\n    at /tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/mithril/render/render.js:971:50\r\n    at sync (/tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/mithril/api/mount-redraw.js:14:10)\r\n    at /tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/mithril/api/mount-redraw.js:25:5\r\n  Error: ENOENT: no such file or directory, open '/home/christianbundy/.ssb/manifest.json'\r\n    at Object.openSync (fs.js:447:3)\r\n    at Object.func (electron/js2c/asar.js:140:31)\r\n    at Object.func [as openSync] (electron/js2c/asar.js:140:31)\r\n    at Object.readFileSync (fs.js:349:35)\r\n    at Object.fs.readFileSync (electron/js2c/asar.js:542:40)\r\n    at Object.fs.readFileSync (electron/js2c/asar.js:542:40)\r\n    at /tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/ssb-client/index.js:46:28\r\n    at module.exports (/tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/ssb-client/index.js:52:5)\r\n    at Object.oncreate (/tmp/.mount_SSB-BaFge9xn/resources/app.asar/backup.js:178:9)\r\n    at Function.callHook (/tmp/.mount_SSB-BaFge9xn/resources/app.asar/node_modules/mithril/render/render.js:30:16)\r\n```\r\n\r\nHere's the solution from about a month ago: https://github.com/ssbc/ssb-client/pull/52",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%i64uUO3W0DVaH/gNAkWeGs1VbPblqQrD2u4ybOqrdFM=.sha256",
     "branch": [
-      "%VRKhjUfoQnFdGYEOiFeW2ifE6YyVLk7ST0nWZ+RcgKk=.sha256"
+      "%i64uUO3W0DVaH/gNAkWeGs1VbPblqQrD2u4ybOqrdFM=.sha256"
     ]
   },
-  "signature": "HHbmPK64CGpGdqsf4ODjltgvQGTpAk1teWVp2p+xx1dBKvfZ87BwXaD35MaN6E7WKYYL27FTuGGSWneubTQfAg==.sig.ed25519"
+  "signature": "nVCYDDdbHnJR0SR7/Exu/Y+WRaQOiyUb4b+XRHXDIRI3Bn5SbPBUy23fMoLRTqaf3+ryKhKBrase8w6/mKf/Bg==.sig.ed25519"
 }
