@@ -1,20 +1,18 @@
 {
-  "previous": "%imqItKRaFh8RL8hpko5jtnsY9k0hTrtCVs8s1LaRWiA=.sha256",
-  "sequence": 14413,
+  "previous": "%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256",
+  "sequence": 14414,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578272085057,
+  "timestamp": 1578280892417,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Pull-stream question: I want to subscribe to a stream of events and whenever a new one is added I want to get a list of all of the events in the past 10 seconds. Is there already a module that does this?\r\n\r\nMy real use-case is that I want to subscribe to a stream of SSB messages and get a list of messages published within the last hour. I could write it from scratch but I'd rather stand on some shoulders and use a common pattern.\r\n\r\n#pull-stream #software-dev",
-    "mentions": [
-      {
-        "link": "#pull-stream"
-      },
-      {
-        "link": "#software-dev"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%zIayHVoWam0nQoUqK5iNTeAXVaTAZOTOwwXvBFFGvAs=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%zIayHVoWam0nQoUqK5iNTeAXVaTAZOTOwwXvBFFGvAs=.sha256"
     ]
   },
-  "signature": "evKBtcU4al7IsvHH0GXPfmkAy698/Q4BvxUtzE4GmaoPvocF8cBCi3FxDNgW0ursmlZSwAecCGr6W11l/9mRBg==.sig.ed25519"
+  "signature": "D+0A2DMKhMrftNBiqLVyREI65UH5qgP2933L7b1+h2MPBJLY6Czv3EiCDaCls4cq/cfIRDtmcuXmZbzv+XWECQ==.sig.ed25519"
 }
