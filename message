@@ -1,22 +1,18 @@
 {
-  "previous": "%jODHa5ZvPfuXbQzT5evu6JzAVTfLjA0l0OrLEjRdsBM=.sha256",
-  "sequence": 14477,
+  "previous": "%YQ51YR6VFvrz5Dcbjttb3gF8NEK8b4QiZIAQwf7VOu4=.sha256",
+  "sequence": 14478,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578410753480,
+  "timestamp": 1578410852778,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\n> Oasis [...] failed on `sharp`.\r\n\r\nWe use Sharp for resizing profile images to reduce browser memory, but it *should* be optional. If it refuses to install because of the optional dependency (!), you may be able to append `--no-optional` to your `npm install` command.\r\n\r\nAlternatively, I'm building [Electron installers](https://github.com/fraction/oasis/pull/42) for drag-and-drop installations. It doesn't actually use Electron for anything, but it's the only way I've learned to reliably build cross-platform installers.\r\n\r\n> Thanks for all you do! I’d send you some awesome vegan chocolate cookies but I think you have access to a very skilled baker.\r\n\r\nThanks! It's the thought that counts. The next time Kathleen makes cookies I can pretend that you had some part in making them. 😬",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      }
-    ],
-    "root": "%HwsisCOOrbjOuvXV7wgFLrVH5niYqlsRRV5ezRYq2OE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%+1IdHp2IoEoEAvEV9C5KiKLQoTPjZPskxZdIWFWWXO8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%iKaArstP92arp3QIwsi0JeXSWEdDzDZAqaoWh7EeFvI=.sha256"
+      "%+1IdHp2IoEoEAvEV9C5KiKLQoTPjZPskxZdIWFWWXO8=.sha256"
     ]
   },
-  "signature": "yENz4SVYpr62x4Stl25hEZvzO1cgbFQTrmZCJXZtBsneBoTsh/RialPWnXGpWEH6wgS9WBdiUu8tfmJxUeobDg==.sig.ed25519"
+  "signature": "Hw33/FxSRhN+LQpT2bWH3ZA7q+TBWjvt/up4rF53og14uLOAApkoimob8QLhmh/bYELNmK5WC4sBG9EdkEB2Dg==.sig.ed25519"
 }
