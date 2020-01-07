@@ -1,22 +1,18 @@
 {
-  "previous": "%FeTZk+PsR1C+1cn8BfKdt3EtXYDGGMNC6cmWhyFz3Lk=.sha256",
-  "sequence": 14492,
+  "previous": "%rs8cjH3BfUmwt/3cc2wB5Bwb+z8NTJRc7YfblWbG/LA=.sha256",
+  "sequence": 14493,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578438893496,
+  "timestamp": 1578440552974,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@movonw](@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519)\r\n\r\nYeah, your peer list in `conn.json` (or maybe `gossip.json`) probably has the wrong public key.\r\n\r\nAlso: did you redact the public key from that log? the `~shs:` should have a key after it.",
-    "mentions": [
-      {
-        "link": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
-        "name": "movonw"
-      }
-    ],
-    "root": "%lSbDzOh34dNujafE/gEuOfbsrEsc1eNVdStlfeofsFQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%48ICYyzlmzaRluyjScWuW0SqyFSJ6lef9sUx8bgNMXE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%j1oznZQ2jNPPHxpOgFDdWCnklk3v3ZB+VkKUc4owTcU=.sha256"
+      "%48ICYyzlmzaRluyjScWuW0SqyFSJ6lef9sUx8bgNMXE=.sha256"
     ]
   },
-  "signature": "NH8Wm6ayWjLajHKaldyg1ugeDAourhoGnYYa/tFh/tfXqP9CX/Jf0gnppSUfYPBSsyP9itG5PD30KvAMgFTkCg==.sig.ed25519"
+  "signature": "Me/AFa+csWInSkzum61AMJ7ob2ELlUcqYCQxOlfCAE3CW30Bk/LnDZYaysVe5izkB8Y4QDycG+qnFOHLXgSLAw==.sig.ed25519"
 }
