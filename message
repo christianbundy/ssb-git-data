@@ -1,22 +1,17 @@
 {
-  "previous": "%pc13QYui/qnQ//hWkE5d8CTNk2vJkvfiscDIWvCpiyg=.sha256",
-  "sequence": 14501,
+  "previous": "%Far1Rz3fvKasmSAyDa1KFX42doeWJr6/XbNPfN7N0p0=.sha256",
+  "sequence": 14502,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578496272001,
+  "timestamp": 1578496411978,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\r\n\r\nSSB-Server is actually two completely separate modules:\r\n\r\n- An SSB service that runs in the background.\r\n- An instance of [MuxRPCLI] for command-line MuxRPC calls.\r\n\r\nMost of the calls you do are going to be like `gossip.connect` or `replicate.request`, because the SSB-Gossip and SSB-Replicate plugins place all of their behavior in an object. Unfortunately we aren't consistent and SSB-DB just puts all of its methods at the top-level, which is why we have `createHistoryStream` instead of `db.createHistoryStream`.\r\n\r\nThat `version` you're seeing is actually a method from SSB-DB, so it's actually returning SSB-DB's version.\r\n\r\nAnother confusing thing though:\r\n\r\n```\r\nssb version\r\n\r\nShow version numbers (sync)\r\n\r\nOptions:\r\n  --help     Show help                                                 [boolean]\r\n  --version  Show version number                                       [boolean]\r\n```\r\n\r\nUsing [SSB-CLI](https://github.com/fraction/ssb-cli) (alternative to MuxRPCLI) I can see the usage info, which shows me a `--version` flag. The really weird part:\r\n\r\n```console\r\n$ ssb version --version\r\n1.6.0\r\n```\r\n\r\nwat",
-    "mentions": [
-      {
-        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-        "name": "glyph"
-      }
-    ],
+    "text": "lmao I forgot that `--version` was a global flag that returned the SSB-CLI version number. I need coffee.",
+    "mentions": [],
     "root": "%/+BipmLYhpxzdB1bZEDMQg+slT7oIaw7RPdJCPoJc3Y=.sha256",
     "branch": [
-      "%jnKsftT6NfNSR3G0eub4FpqMW9gdM0KfYlJhxHNE6Dc=.sha256"
+      "%Far1Rz3fvKasmSAyDa1KFX42doeWJr6/XbNPfN7N0p0=.sha256"
     ]
   },
-  "signature": "O7H+olzuRMEO84+SGpXeIpDKz9je5Ple85E3c4RTE1TutjaI4/Wg7dvNO2m4ZfrCFyudHTHuYTLcoHwAf11cAQ==.sig.ed25519"
+  "signature": "blaZ0ZkNXySTimwJYU/HJCIpNSOg1/U/HEozD2oGDDwhe9y3xjbzVpdQu1FKs/qfKQyAlkodJACvzadH+GbVAA==.sig.ed25519"
 }
