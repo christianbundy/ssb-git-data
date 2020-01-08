@@ -1,18 +1,22 @@
 {
-  "previous": "%WVx+STyeWiqoxHj4oRImDTS+/EL7598hmHRL0gHouxs=.sha256",
-  "sequence": 14505,
+  "previous": "%tI9rxQOQkNBu7W6eDsyWBqoXlTPECl2Ixe+OPl9uqRI=.sha256",
+  "sequence": 14506,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578496485651,
+  "timestamp": 1578498539772,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VxjUIkmRUb7XyJCWwud7M6PTX1jSghabst/UN3OC39E=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\r\n\r\nThat's my understanding, yeah. There's an issue about that [here](https://github.com/ssbc/ssb-server/issues/649). I don't think that we [currently] have a way to get all of the versions of all of the plugins, although MuxRPCLI should have access to that info.\r\n\r\nWorth noting though: lots of plugins don't actually update the version that they export via the Secret-Stack plugin ([example](https://github.com/ssbc/ssb-friends/blob/95a2bebb761ef899f66ecd272e646c3605f0e7f9/index.js#L10)) so it's hard to trust anyway.\r\n\r\nDependency management systems are hard and the more I think about Secret-Stack I wonder whether it would be better to just `require()` modules instead of using a plugin system.",
+    "mentions": [
+      {
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
+      }
+    ],
+    "root": "%Kn9bOMxHIL7nzHnwZau5eDP2ynHMtb0uKQTSEajIO0w=.sha256",
     "branch": [
-      "%VxjUIkmRUb7XyJCWwud7M6PTX1jSghabst/UN3OC39E=.sha256"
+      "%Kn9bOMxHIL7nzHnwZau5eDP2ynHMtb0uKQTSEajIO0w=.sha256"
     ]
   },
-  "signature": "dbUA/k0GoCCqgZoqh+Rkj7E1+LkVX6EQ9CYgnivdhf6hiSckPIrfD9AuyTxFPHWOIr1LXH7EXA8g1ABpYebSAA==.sig.ed25519"
+  "signature": "rrTwktm+Jl6Y9NUojyWkDXNLFdtITF8q7/wCzW4z1KheCqBB+QjoREqqHkUks4DW+2s6TnSS1wfqD9o3XkzZDg==.sig.ed25519"
 }
