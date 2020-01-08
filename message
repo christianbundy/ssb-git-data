@@ -1,22 +1,22 @@
 {
-  "previous": "%tI9rxQOQkNBu7W6eDsyWBqoXlTPECl2Ixe+OPl9uqRI=.sha256",
-  "sequence": 14506,
+  "previous": "%VxoRVepXuaSgdzPxrar/MfYNA3h6j0v6Wcl64w4boDs=.sha256",
+  "sequence": 14507,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578498539772,
+  "timestamp": 1578498837327,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\r\n\r\nThat's my understanding, yeah. There's an issue about that [here](https://github.com/ssbc/ssb-server/issues/649). I don't think that we [currently] have a way to get all of the versions of all of the plugins, although MuxRPCLI should have access to that info.\r\n\r\nWorth noting though: lots of plugins don't actually update the version that they export via the Secret-Stack plugin ([example](https://github.com/ssbc/ssb-friends/blob/95a2bebb761ef899f66ecd272e646c3605f0e7f9/index.js#L10)) so it's hard to trust anyway.\r\n\r\nDependency management systems are hard and the more I think about Secret-Stack I wonder whether it would be better to just `require()` modules instead of using a plugin system.",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nYou've saved my life, thank you. What do I owe you?",
     "mentions": [
       {
-        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
-        "name": "glyph"
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
       }
     ],
-    "root": "%Kn9bOMxHIL7nzHnwZau5eDP2ynHMtb0uKQTSEajIO0w=.sha256",
+    "root": "%/+BipmLYhpxzdB1bZEDMQg+slT7oIaw7RPdJCPoJc3Y=.sha256",
     "branch": [
-      "%Kn9bOMxHIL7nzHnwZau5eDP2ynHMtb0uKQTSEajIO0w=.sha256"
+      "%1vDx6Ov+q215S14YeDcutYOXX/mTvNIJiDw9frYsUtM=.sha256"
     ]
   },
-  "signature": "rrTwktm+Jl6Y9NUojyWkDXNLFdtITF8q7/wCzW4z1KheCqBB+QjoREqqHkUks4DW+2s6TnSS1wfqD9o3XkzZDg==.sig.ed25519"
+  "signature": "WKxq8VGw+6NZhG8+xuMVh148T+gwnAZqZ2Nd24Rl+r9IYg7Ls5n6hVnrx3YJn3ircNt/L1/2599RcjIw3gjKBQ==.sig.ed25519"
 }
