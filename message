@@ -1,12 +1,12 @@
 {
-  "previous": "%iyntjAsODqZDFFKNomq7iXMDOoHzr+jKACh5pE33aaA=.sha256",
-  "sequence": 14593,
+  "previous": "%73ZOsRk5USJo+StGFJnLtMBlgUKFS4ONjS7FWcXPs5Q=.sha256",
+  "sequence": 14594,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578602341836,
+  "timestamp": 1578603512496,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nI'm on Node 12, I'll test for you now.",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nReproduced the UTP-Native build problem. I think what's happening is that `optionalDependency` allows the install to fail but since UTP-Native is running the `prebuild-install || node-gyp rebuild` as a postinstall that isn't allowed to fail. \r\n\r\nTo be honest the whole \"install and rebuild\" pattern is a major pain point because it means that the stack has to build for **both**:\r\n\r\n- your native Node version\r\n- your chosen Electron version\r\n\r\nWe can bypass the Node step and just build straight for Electron with:\r\n\r\n```shell\r\n./node_modules/.bin/electron-builder install-app-deps\r\n```\r\n\r\n(If you don't already have electron-builder installed, try `npm install --only=dev`.)",
     "mentions": [
       {
         "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256",
     "branch": [
-      "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256"
+      "%73ZOsRk5USJo+StGFJnLtMBlgUKFS4ONjS7FWcXPs5Q=.sha256"
     ]
   },
-  "signature": "Xzxq4rhZFIjGmNos4NV0SJV2q/Hx1fcdwgC4WPLrYI7CC1gq9NrM18dsCd7NaEoWpWr5eIXOQl+K063+s5jIBA==.sig.ed25519"
+  "signature": "AMe1J1PFZBRuzUPpaMOzVpWHFv2eMbpN6IKBjw/8mjZkLnmhM0i9jUbsJN0F7ugClyyIk1tkQRrGNh5xsTuuCQ==.sig.ed25519"
 }
