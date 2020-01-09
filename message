@@ -1,12 +1,12 @@
 {
-  "previous": "%0jDi6dDiAzUvTMKRdUQByhIJ+SvXGpKg/+lh4WDLiPo=.sha256",
-  "sequence": 14574,
+  "previous": "%xVsiZP6flJDrTIJAhpJl+fphK5wZZHzhqN3guB+wWGk=.sha256",
+  "sequence": 14575,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578598434819,
+  "timestamp": 1578599298127,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nCool! Please ping me if you run into any trouble, I'm happy to help.",
+    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nSweet, happy to hear that that works. The navigation is a pain on mobile, if you want to weigh in there's an active discussion on how to resolve that [here](https://github.com/fraction/oasis/issues/28).\r\n\r\nYou probably already know this, but I'd rather err on the safe side -- Oasis doesn't have any authentication between the server and the browser, so if you've changed the `--host` then anyone who can access that IP can access Oasis.",
     "mentions": [
       {
         "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
@@ -15,8 +15,9 @@
     ],
     "root": "%9+C0lQ0q1onlCq1yApBuuuok6rwy0hBFzngYZlWWMFo=.sha256",
     "branch": [
-      "%9+C0lQ0q1onlCq1yApBuuuok6rwy0hBFzngYZlWWMFo=.sha256"
+      "%4Mx/DIRSnxUo6MGVL5nlv6VjGdiuF6ayXpRYMr0p6Q0=.sha256",
+      "%gVpp/Vir2q6rEV6bf4z58k87XEMQyN4PeR3+Z0ibbm8=.sha256"
     ]
   },
-  "signature": "dpX8Sjh5KX6DBmppGY2ELuYvPsQqBDdOoZ07eQ66iMMqXlyqDfAGxa4TkDbSEAq3sDY/SPkE+BFTkiFz2KRgCw==.sig.ed25519"
+  "signature": "jRtrJ2HutNpMwxSTNiDvqBbFLFm7oXnwja6ZH9RQCP9sNDo6rtMdU21YRwJla7nQ+Uy5OH/QmOYHEZmQOIoWCQ==.sig.ed25519"
 }
