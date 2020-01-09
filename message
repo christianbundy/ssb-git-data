@@ -1,22 +1,18 @@
 {
-  "previous": "%S+NkQDrGE1CuSWirAJXux9J6TAq8ViBqKHY3xr0t3Qg=.sha256",
-  "sequence": 14578,
+  "previous": "%pGQDEskInkKUyrcMzTSF4gEYHtTkm+HLgVJE/tjlbho=.sha256",
+  "sequence": 14579,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578599456619,
+  "timestamp": 1578599511317,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nAdd me to the \"random documents on the hard drive\" club!\r\n\r\nI reinstalled Arch last week and I'm excited that my list of weirdness is actually pretty small:\r\n\r\n```markdown\r\n- format efi partition as fat32\r\n- mount efi partition at /boot, not /efi\r\n  - this is because the linux kernel needs to be compiled with custom flags if you put it to /efi\r\n- you need grub\r\n- you should probably have linux-lts just in case, but the coreboot fixed the tpm bug\r\n- YOU NEED SAMUS-SCRIPTS\r\n  - fix touchpad with enable-touch\r\n  - get speaker audio with enable-audio and use-speaker-output\r\n  - get speaker audio with enable-audio and use-speaker-output\r\n- change grub to use previous entry in `/etc/default/grub` with:\r\n  - `GRUB_SAVEDEFAULT=true`\r\n  - `GRUB_DEFAULT=saved`\r\n- had some network problems at Hatch and had to try dhclient\r\n  - to undo:\r\n    - `sudo rm /etc/NetworkManager/conf.d/dhcp-client.conf`\r\n    - `sudo pacman -R dhclient`\r\n    - `sudo systemctl restart NetworkManager`\r\n```\r\n\r\nMakes me want to try something like [NixOS](https://nixos.org/)...",
-    "mentions": [
-      {
-        "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
-        "name": "Andrei Cociuba"
-      }
-    ],
-    "root": "%OiUaL2P6Ipu/ofANy1RLDrh+nEls20m5xbUF2tEF0aU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%886P4t2UHDD6h1dKceB/zTMQSnf7ZMSmV/raGTCdn5E=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%BhezZHmTn7kw5ww5fppxVXUcbjSE84QPqBYUNKra7uc=.sha256"
+      "%886P4t2UHDD6h1dKceB/zTMQSnf7ZMSmV/raGTCdn5E=.sha256"
     ]
   },
-  "signature": "Xgd+ckdXOOhwOSrZAOz0/9XWtt45klfSIce8Y1n3/4lW1AtbosUIS+9RxT4wt2q7rIR/Zp3QeKZpK0Lo6AEgBg==.sig.ed25519"
+  "signature": "nef2bN5gbJl94NUI0cqeCUD5LACz8/2eWl5Luiq39SHfVQzls57lraSUitABKKLuZdXTiIG1/O8b8J4t4HijAA==.sig.ed25519"
 }
