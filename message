@@ -1,23 +1,22 @@
 {
-  "previous": "%PkBMmoZB0i1DZ6o0uCIrjQ61pn0iboQAKihr9uElp5I=.sha256",
-  "sequence": 14554,
+  "previous": "%6zoRVn+AOT7jF1yoGqVw76VW7aBB7hZkSZh5m8jpNew=.sha256",
+  "sequence": 14555,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578586778178,
+  "timestamp": 1578587171705,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nFWIW, I just checked my resource usage and Oasis is using 0% CPU and 310 MiB of memory. I'm sure those numbers will fluctuate when I'm sending and receiving messages, but for me Patchwork idles at 5% CPU and 660 MiB of memory.",
+    "text": "[@Z](@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519)\r\n\r\nSummary: not yet, but soon hopefully.\r\n\r\nNo, that's still a pie-in-the-sky sort of thing. Traditionally all of the SSB interfaces have used the same plugins, which are written in JavaScript and loaded onto the JS-SSB server, but that won't work for other implementations.\r\n\r\nI've been experimenting with how to load these super-useful plugins in the SSB client, without integrating with the server, and I have it working in the JS-SSB implementation, but [the code is still in review](https://github.com/ssbc/ssb-db/pull/275). Assuming it keeps working, I'll start using that code in Oasis and anyone that wants to support Oasis just needs to implement this one tiny new method.",
     "mentions": [
       {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
+        "link": "@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519",
+        "name": "Z"
       }
     ],
-    "root": "%PJLKhlx7MMMFT/jRI82LoGq2AH6USo3CVC8anb85STo=.sha256",
-    "fork": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
+    "root": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
     "branch": [
-      "%PJLKhlx7MMMFT/jRI82LoGq2AH6USo3CVC8anb85STo=.sha256"
+      "%XJv89R3DC3xCH7V74dMyZxXx5+1SabAddhAWeSQv+Rs=.sha256"
     ]
   },
-  "signature": "icZSlejqs9e7GQvkYgeX6v8cHJN/VBwqYRHp3+4X1/CJjGoypKCgCpY12UOklaSOHnl36VSriJmAceu5IDVzBw==.sig.ed25519"
+  "signature": "Vn0jAy+HfBLg1HW4e3qTxqF1vdPmetdQ1ZPvgtdWo6WQoUEPhGMTLCzOeIg3aQhe6hTnHMHL8/Kb78BnKa71Dw==.sig.ed25519"
 }
