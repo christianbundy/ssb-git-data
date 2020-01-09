@@ -1,22 +1,22 @@
 {
-  "previous": "%6zoRVn+AOT7jF1yoGqVw76VW7aBB7hZkSZh5m8jpNew=.sha256",
-  "sequence": 14555,
+  "previous": "%k2JreQbcsJzDOsUqeDwrj+61pQsLt51o8PYZEB2cEMs=.sha256",
+  "sequence": 14556,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578587171705,
+  "timestamp": 1578587275605,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Z](@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519)\r\n\r\nSummary: not yet, but soon hopefully.\r\n\r\nNo, that's still a pie-in-the-sky sort of thing. Traditionally all of the SSB interfaces have used the same plugins, which are written in JavaScript and loaded onto the JS-SSB server, but that won't work for other implementations.\r\n\r\nI've been experimenting with how to load these super-useful plugins in the SSB client, without integrating with the server, and I have it working in the JS-SSB implementation, but [the code is still in review](https://github.com/ssbc/ssb-db/pull/275). Assuming it keeps working, I'll start using that code in Oasis and anyone that wants to support Oasis just needs to implement this one tiny new method.",
+    "text": "[@seequ](@qulbv1fLQuqGc7qM58P09GPF/H4wQBki5Ks7AQy5EQU=.ed25519)\r\n\r\nhey that's how [oasis-demo](https://oasis-demo.fraction.io/) works!",
     "mentions": [
       {
-        "link": "@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519",
-        "name": "Z"
+        "link": "@qulbv1fLQuqGc7qM58P09GPF/H4wQBki5Ks7AQy5EQU=.ed25519",
+        "name": "seequ"
       }
     ],
-    "root": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
+    "root": "%HRFykln6NHea/VsbjKdJ6QgMpJHJbI56qrEadb8yEPc=.sha256",
     "branch": [
-      "%XJv89R3DC3xCH7V74dMyZxXx5+1SabAddhAWeSQv+Rs=.sha256"
+      "%HRFykln6NHea/VsbjKdJ6QgMpJHJbI56qrEadb8yEPc=.sha256"
     ]
   },
-  "signature": "Vn0jAy+HfBLg1HW4e3qTxqF1vdPmetdQ1ZPvgtdWo6WQoUEPhGMTLCzOeIg3aQhe6hTnHMHL8/Kb78BnKa71Dw==.sig.ed25519"
+  "signature": "NutLRfGx/77BRmgU2QM0729hFDNWpLLf58fObCwXF+NMfSGfGEiSj0MycOrvc8wLfwl0KahGaVj9PHMbqmcqCg==.sig.ed25519"
 }
