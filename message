@@ -1,25 +1,26 @@
 {
-  "previous": "%HvP5gOTQOecLL9quUx8rTUYycKMgB6rK4XL3N6rENsU=.sha256",
-  "sequence": 14584,
+  "previous": "%GI1oVKT92ia6qz3gzlo4FDotKFLrMumH0tVsk6CJbik=.sha256",
+  "sequence": 14585,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578599722876,
+  "timestamp": 1578600360781,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nIf you decide to take the plunge: %qwqTsYY60zDhXL4nvH/UXCduDC+ZW5UCkmlLrAo/tcQ=.sha256",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOh, is that [this kind of thing](https://github.com/ssbc/patchbay/blob/35256379a90c9db93ff7a99b003f65fb3e6c3e74/app/html/filter.js#L102-L109) where you can filter by message type? IIRC [@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)'s Android app has `AND` and `NOT` and stuff, which I'd imagine is super useful. There's gotta be an existing query language for this sort of thing, right?\r\n\r\nI've been keeping an eye on [`rq`](https://github.com/dflemstr/rq), which is like `jq` but for JSON/CBOR/YAML/ProtoBuf/etc, and since they dropped their internal query language I've been waiting to see people chime in on [this issue](https://github.com/dflemstr/rq/issues/208) with thoughts on One Truse Query Language.\r\n\r\nNothing yet, just crickets.",
     "mentions": [
       {
-        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
-        "name": "zozs"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       },
       {
-        "link": "%qwqTsYY60zDhXL4nvH/UXCduDC+ZW5UCkmlLrAo/tcQ=.sha256"
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "piet"
       }
     ],
-    "root": "%HOsus7Dg7v1kOOiLTrSkWaJcmfOKx8nkBeqBIAqeTpQ=.sha256",
+    "root": "%44PGb43OO6ebW1NU39wLvwzQUb46nogT2HjhSDYTDDE=.sha256",
     "branch": [
-      "%+bwjsSAB3YYE4uPtlk4emnhpEZAQ1K0gGivfLWb0oA0=.sha256"
+      "%44PGb43OO6ebW1NU39wLvwzQUb46nogT2HjhSDYTDDE=.sha256"
     ]
   },
-  "signature": "VH6HLjiWZC0rb4E7Vlp3o+g1kOInUbIJiD8LKYa6j0NxHXRxcO5SjNxwZBEkvXBxBrlIYEpgj5Z7qAbKV5g8Bw==.sig.ed25519"
+  "signature": "ug3iaxZ2MjgpzhFZtDl43/iPjIg089Jp3IvqprhDumcCcNIygYy0UNuBxLa8etMjmQhN6rOX24dSL+DIb3CtCA==.sig.ed25519"
 }
