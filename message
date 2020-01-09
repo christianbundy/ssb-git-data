@@ -1,23 +1,18 @@
 {
-  "previous": "%GwRvVaw9Ka9A7DAUI7XhTaMqRb2FdsMzR30KUsILZoQ=.sha256",
-  "sequence": 14602,
+  "previous": "%RfNISGuvRYVgAP0ujMKVAma/OM3U/QWIrEiNiJ0QtxU=.sha256",
+  "sequence": 14603,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578613223061,
+  "timestamp": 1578613241288,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nMight be worth URL-encoding it too. 😬\r\n\r\nOn my server that forward-slash makes the route get parsed as:\r\n\r\n```\r\n/blobs/get/:a/:b\r\n```",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%VU1C/HpB04Sr9+D3M6JABTCddQSz3Abm2QBBd4MTmZw=.sha256",
-    "fork": "%9/2M5lUETpt7uVbbf+PocNHqtwWpPyIkQP3TPoELPBc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%USir76ERmP4hxVzC3/N4PznNUaKZVtFxNgiha/BuCpM=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%VU1C/HpB04Sr9+D3M6JABTCddQSz3Abm2QBBd4MTmZw=.sha256"
+      "%QQPrN6rqxOgJbs+PGqMzhPGzH8va5jaI8hd5cPY/fXc=.sha256"
     ]
   },
-  "signature": "gHjgWrHZHHUaKXKPTRObvA/e2Yk1Qd4152j2yo1nint5kuPnpCvUt19xqKlVlfx9gzBYxBvCeBx4ukpSPZjGBg==.sig.ed25519"
+  "signature": "svIKzdpsJ9rZTyVWKPI02nM1TsbJX3R2ixySpqy362Cx6864tHQgy3+5MmROFSMdPXhqUxhkJIlSAxbBOAXuBg==.sig.ed25519"
 }
