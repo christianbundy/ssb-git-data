@@ -1,23 +1,22 @@
 {
-  "previous": "%j9rWxKC6ESEmTsp/p4GTGEjfwLVnwY6wIfZL7ukiPiI=.sha256",
-  "sequence": 14577,
+  "previous": "%S+NkQDrGE1CuSWirAJXux9J6TAq8ViBqKHY3xr0t3Qg=.sha256",
+  "sequence": 14578,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578599375218,
+  "timestamp": 1578599456619,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nDo you know how Patchbay does search? I'm using SSB-Search in Oasis and it's *fine*, but I'm optimistic that we can do better.",
+    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nAdd me to the \"random documents on the hard drive\" club!\r\n\r\nI reinstalled Arch last week and I'm excited that my list of weirdness is actually pretty small:\r\n\r\n```markdown\r\n- format efi partition as fat32\r\n- mount efi partition at /boot, not /efi\r\n  - this is because the linux kernel needs to be compiled with custom flags if you put it to /efi\r\n- you need grub\r\n- you should probably have linux-lts just in case, but the coreboot fixed the tpm bug\r\n- YOU NEED SAMUS-SCRIPTS\r\n  - fix touchpad with enable-touch\r\n  - get speaker audio with enable-audio and use-speaker-output\r\n  - get speaker audio with enable-audio and use-speaker-output\r\n- change grub to use previous entry in `/etc/default/grub` with:\r\n  - `GRUB_SAVEDEFAULT=true`\r\n  - `GRUB_DEFAULT=saved`\r\n- had some network problems at Hatch and had to try dhclient\r\n  - to undo:\r\n    - `sudo rm /etc/NetworkManager/conf.d/dhcp-client.conf`\r\n    - `sudo pacman -R dhclient`\r\n    - `sudo systemctl restart NetworkManager`\r\n```\r\n\r\nMakes me want to try something like [NixOS](https://nixos.org/)...",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
+        "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
+        "name": "Andrei Cociuba"
       }
     ],
-    "root": "%5mRE+MfkpT5N2XW8vAzo+fnIYAZj4PiaV/eIaUnAYKk=.sha256",
-    "fork": "%OiUaL2P6Ipu/ofANy1RLDrh+nEls20m5xbUF2tEF0aU=.sha256",
+    "root": "%OiUaL2P6Ipu/ofANy1RLDrh+nEls20m5xbUF2tEF0aU=.sha256",
     "branch": [
-      "%5mRE+MfkpT5N2XW8vAzo+fnIYAZj4PiaV/eIaUnAYKk=.sha256"
+      "%BhezZHmTn7kw5ww5fppxVXUcbjSE84QPqBYUNKra7uc=.sha256"
     ]
   },
-  "signature": "HicwOJIEY8H3GcoEyNCP4R8ZB03O8Hw2gBB2OB3GiMN3KfwQLa+lK1ENMueUgzOf6bmk0Brj8BPfI5frIcg/DQ==.sig.ed25519"
+  "signature": "Xgd+ckdXOOhwOSrZAOz0/9XWtt45klfSIce8Y1n3/4lW1AtbosUIS+9RxT4wt2q7rIR/Zp3QeKZpK0Lo6AEgBg==.sig.ed25519"
 }
