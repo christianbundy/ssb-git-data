@@ -1,22 +1,18 @@
 {
-  "previous": "%pO5iFw6puMT6OAl8fIHU2M2MWW4IWFt+TJLBULXQQrY=.sha256",
-  "sequence": 14595,
+  "previous": "%nsDsdJTQgEA1TRNtg2zRw6Ps5Pt1IUedG1mRoyNzWag=.sha256",
+  "sequence": 14596,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578603705332,
+  "timestamp": 1578607592009,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nIf you want to get fancy, this is the closest to The Right Way I've seen Electron apps built (and it's how I package them for Arch):\r\n\r\n```shell\r\n# Remove postinstall script that rebuilds for Electron\r\n# Instead we just build correctly the first time\r\nsed -i '/postinstall/d' package.json\r\n\r\n# Native Electron's version from your package manager).\r\nexport npm_config_target=$(electron4 -v)\r\n# The architecture of Electron, can be ia32 or x64.\r\nexport npm_config_arch=x64\r\nexport npm_config_target_arch=x64\r\n# Download headers for Electron.\r\nexport npm_config_disturl=https://atom.io/download/electron\r\n# Tell node-pre-gyp that we are building for Electron.\r\nexport npm_config_runtime=electron\r\n# Install all dependencies, and store cache to ~/.electron-gyp.\r\nHOME=~/.electron-gyp npm install --only=production\r\n```",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ],
-    "root": "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%ZwBc2nRkNGbQjKQh7M7He51zUzgu+SbDpeTAPEg3/Bg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%pO5iFw6puMT6OAl8fIHU2M2MWW4IWFt+TJLBULXQQrY=.sha256"
+      "%ZwBc2nRkNGbQjKQh7M7He51zUzgu+SbDpeTAPEg3/Bg=.sha256"
     ]
   },
-  "signature": "Q6tT+pYGRrIZFWSu5whfABPLUWzj1JncE/XEkMsMq/94e+R0GPHUli6Tg9iH6IA9LfT/ZJVqtwrLaAZvS/tJAA==.sig.ed25519"
+  "signature": "Kfx8hNqW1Lmj62oQz8DTVg/j7eom8rRhxs1V66kFIvg10ALuwH+eiFvOrRkSrm0t2XDMB5rlvGUDGFWDjco1DA==.sig.ed25519"
 }
