@@ -1,26 +1,22 @@
 {
-  "previous": "%GI1oVKT92ia6qz3gzlo4FDotKFLrMumH0tVsk6CJbik=.sha256",
-  "sequence": 14585,
+  "previous": "%tqU0vg2V51zeC6gwLymXavw6bVawwu8emt8Zg7Gedos=.sha256",
+  "sequence": 14586,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578600360781,
+  "timestamp": 1578600457044,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOh, is that [this kind of thing](https://github.com/ssbc/patchbay/blob/35256379a90c9db93ff7a99b003f65fb3e6c3e74/app/html/filter.js#L102-L109) where you can filter by message type? IIRC [@piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)'s Android app has `AND` and `NOT` and stuff, which I'd imagine is super useful. There's gotta be an existing query language for this sort of thing, right?\r\n\r\nI've been keeping an eye on [`rq`](https://github.com/dflemstr/rq), which is like `jq` but for JSON/CBOR/YAML/ProtoBuf/etc, and since they dropped their internal query language I've been waiting to see people chime in on [this issue](https://github.com/dflemstr/rq/issues/208) with thoughts on One Truse Query Language.\r\n\r\nNothing yet, just crickets.",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nObligatory: [`jql`](https://github.com/cube2222/jql) looks interesting, but I'd rather ship something more mature and well-understood.",
     "mentions": [
       {
         "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
         "name": "cryptix"
-      },
-      {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "piet"
       }
     ],
     "root": "%44PGb43OO6ebW1NU39wLvwzQUb46nogT2HjhSDYTDDE=.sha256",
     "branch": [
-      "%44PGb43OO6ebW1NU39wLvwzQUb46nogT2HjhSDYTDDE=.sha256"
+      "%tqU0vg2V51zeC6gwLymXavw6bVawwu8emt8Zg7Gedos=.sha256"
     ]
   },
-  "signature": "ug3iaxZ2MjgpzhFZtDl43/iPjIg089Jp3IvqprhDumcCcNIygYy0UNuBxLa8etMjmQhN6rOX24dSL+DIb3CtCA==.sig.ed25519"
+  "signature": "K8XF0LqfYDObGwZhkkAsKUt+FQSIxvhvmuE0nwfAYNOT/cwgI/0Mw8a3jW7lG55zF2BShsdSoevd5QO9ibilBg==.sig.ed25519"
 }
