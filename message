@@ -1,18 +1,22 @@
 {
-  "previous": "%YvUQKJ+nfG4AX3CxH65aQNIwoz/ufGNbMBv9kbhamqc=.sha256",
-  "sequence": 14552,
+  "previous": "%tEd7wYSoPMsqDk3bVr3/tSJMn8ADlccsQxK0fgDqqz0=.sha256",
+  "sequence": 14553,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578585438862,
+  "timestamp": 1578585673955,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XmyKGXdAXXK92WmJ0cO2TntCKUYREYmkrxytvJuHEk4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Z](@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519)\r\n\r\nI think that would be Patchfoo / Patchfox / Oasis (disclaimer: I work on Oasis). Both Patchfoo and Patchfox are more feature-complete than Oasis. Patchfoo only integrates with Firefox, and Patchfoo requires git-ssb + ssb-npm.\r\n\r\nWe all still use JavaScript, but my super secret plan is to make sure that Oasis can use any SSB implementation (JS / Go / Rust).",
+    "mentions": [
+      {
+        "link": "@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519",
+        "name": "Z"
+      }
+    ],
+    "root": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
     "branch": [
-      "%XmyKGXdAXXK92WmJ0cO2TntCKUYREYmkrxytvJuHEk4=.sha256"
+      "%PJLKhlx7MMMFT/jRI82LoGq2AH6USo3CVC8anb85STo=.sha256"
     ]
   },
-  "signature": "pSX3DxUaXplUFMFfr0auJjlAIgysrYy89pp5B/RG3ueyqAh1BgC4s8Zz0hS0k6X3R5mdfjSqXX4SSJNWa+yBBg==.sig.ed25519"
+  "signature": "ppnMeFDvmu/4AK+u0mfC507/1I3NcRnRpD6RmnEEQuD7gYiDzsyb7nIFPh+fhOxGjlu3lso7vM5Sr5lDRCKSAA==.sig.ed25519"
 }
