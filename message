@@ -1,22 +1,23 @@
 {
-  "previous": "%tEd7wYSoPMsqDk3bVr3/tSJMn8ADlccsQxK0fgDqqz0=.sha256",
-  "sequence": 14553,
+  "previous": "%PkBMmoZB0i1DZ6o0uCIrjQ61pn0iboQAKihr9uElp5I=.sha256",
+  "sequence": 14554,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578585673955,
+  "timestamp": 1578586778178,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Z](@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519)\r\n\r\nI think that would be Patchfoo / Patchfox / Oasis (disclaimer: I work on Oasis). Both Patchfoo and Patchfox are more feature-complete than Oasis. Patchfoo only integrates with Firefox, and Patchfoo requires git-ssb + ssb-npm.\r\n\r\nWe all still use JavaScript, but my super secret plan is to make sure that Oasis can use any SSB implementation (JS / Go / Rust).",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nFWIW, I just checked my resource usage and Oasis is using 0% CPU and 310 MiB of memory. I'm sure those numbers will fluctuate when I'm sending and receiving messages, but for me Patchwork idles at 5% CPU and 660 MiB of memory.",
     "mentions": [
       {
-        "link": "@lHQjsXrCrjjAEKFkLVQ8LK6/sn4xDdYEiBy3Z62xvfM=.ed25519",
-        "name": "Z"
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
       }
     ],
-    "root": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
+    "root": "%PJLKhlx7MMMFT/jRI82LoGq2AH6USo3CVC8anb85STo=.sha256",
+    "fork": "%9zVRv8k+MTQvLi0aRkMJbjLMA57X/W9xB6OHEHuhqCY=.sha256",
     "branch": [
       "%PJLKhlx7MMMFT/jRI82LoGq2AH6USo3CVC8anb85STo=.sha256"
     ]
   },
-  "signature": "ppnMeFDvmu/4AK+u0mfC507/1I3NcRnRpD6RmnEEQuD7gYiDzsyb7nIFPh+fhOxGjlu3lso7vM5Sr5lDRCKSAA==.sig.ed25519"
+  "signature": "icZSlejqs9e7GQvkYgeX6v8cHJN/VBwqYRHp3+4X1/CJjGoypKCgCpY12UOklaSOHnl36VSriJmAceu5IDVzBw==.sig.ed25519"
 }
