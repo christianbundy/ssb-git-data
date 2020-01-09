@@ -1,22 +1,18 @@
 {
-  "previous": "%ZFys0+Wzcn7lK+lMAPj8BH2DqA6OINmvNxpiM8AbSRw=.sha256",
-  "sequence": 14532,
+  "previous": "%YnQpzSKf+wERIpiC8e3VuJc1O4d4tBhFRMfH3myb9Es=.sha256",
+  "sequence": 14533,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578545632086,
+  "timestamp": 1578545649622,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@movonw](@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519)\r\n\r\nThis is a cool idea, if you take this on I'd love to keep up-to-date on how your experience is.\r\n\r\n> Does a new ssb-server implementation need to implement the legacy protocol? Or is it safe to leave it behind?\r\n\r\nThe \"legacy\" replication protocol is still a good target -- the JS implementation has EBT, but I don't think that the Go or Rust implementations are tackling that work yet. I'd be happy to be a resource, although I may need to point you to other folks for more specific info.",
-    "mentions": [
-      {
-        "link": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
-        "name": "movonw"
-      }
-    ],
-    "root": "%ZtdAvx/KLBpmlrrUG6BKRylh2pfDMHVofUaS1ybjvkY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%FAaC0ZQw7EaFINAys+lkJ54aXN8PYwULSOEcbw2RnMY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ZtdAvx/KLBpmlrrUG6BKRylh2pfDMHVofUaS1ybjvkY=.sha256"
+      "%FAaC0ZQw7EaFINAys+lkJ54aXN8PYwULSOEcbw2RnMY=.sha256"
     ]
   },
-  "signature": "7PyGZhlzcfJ8jD2Oagha3lH88mY0vhvGft/20McGkPAs/fIGdUnFHjbh4G+qoJyemwHBWJ6hADzfM0iA6bX4BQ==.sig.ed25519"
+  "signature": "dZ6RmwOLMubadBKTXVaLv3hQ3dAgJAp1h3uubXxB4l84G4vZmg+w8J5qFNzjE4gquUDybjxNLCscBCPDfGb4BQ==.sig.ed25519"
 }
