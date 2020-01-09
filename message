@@ -1,18 +1,22 @@
 {
-  "previous": "%pGQDEskInkKUyrcMzTSF4gEYHtTkm+HLgVJE/tjlbho=.sha256",
-  "sequence": 14579,
+  "previous": "%SZ1VzizQw7xih+s6ATy1cN0SWrtSydWvc8ouy0DLeHk=.sha256",
+  "sequence": 14580,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578599511317,
+  "timestamp": 1578599577499,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%886P4t2UHDD6h1dKceB/zTMQSnf7ZMSmV/raGTCdn5E=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nYep, then you're good to go. My fear is that I make it too friendly and someone throws Oasis on a public IP without realizing that they're exposing their authenticated interface to the internet. :~)",
+    "mentions": [
+      {
+        "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
+        "name": "Andrei Cociuba"
+      }
+    ],
+    "root": "%9+C0lQ0q1onlCq1yApBuuuok6rwy0hBFzngYZlWWMFo=.sha256",
     "branch": [
       "%886P4t2UHDD6h1dKceB/zTMQSnf7ZMSmV/raGTCdn5E=.sha256"
     ]
   },
-  "signature": "nef2bN5gbJl94NUI0cqeCUD5LACz8/2eWl5Luiq39SHfVQzls57lraSUitABKKLuZdXTiIG1/O8b8J4t4HijAA==.sig.ed25519"
+  "signature": "L+gBYVCvcRWPK28g5vzmxFgeufHuUxXg/ZHTf6qARkdZqg4EOQEVm8oI2siPaxC9EMM2EiJkfi3znLqk4qNcCQ==.sig.ed25519"
 }
