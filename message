@@ -1,12 +1,12 @@
 {
-  "previous": "%73ZOsRk5USJo+StGFJnLtMBlgUKFS4ONjS7FWcXPs5Q=.sha256",
-  "sequence": 14594,
+  "previous": "%pO5iFw6puMT6OAl8fIHU2M2MWW4IWFt+TJLBULXQQrY=.sha256",
+  "sequence": 14595,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578603512496,
+  "timestamp": 1578603705332,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nReproduced the UTP-Native build problem. I think what's happening is that `optionalDependency` allows the install to fail but since UTP-Native is running the `prebuild-install || node-gyp rebuild` as a postinstall that isn't allowed to fail. \r\n\r\nTo be honest the whole \"install and rebuild\" pattern is a major pain point because it means that the stack has to build for **both**:\r\n\r\n- your native Node version\r\n- your chosen Electron version\r\n\r\nWe can bypass the Node step and just build straight for Electron with:\r\n\r\n```shell\r\n./node_modules/.bin/electron-builder install-app-deps\r\n```\r\n\r\n(If you don't already have electron-builder installed, try `npm install --only=dev`.)",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nIf you want to get fancy, this is the closest to The Right Way I've seen Electron apps built (and it's how I package them for Arch):\r\n\r\n```shell\r\n# Remove postinstall script that rebuilds for Electron\r\n# Instead we just build correctly the first time\r\nsed -i '/postinstall/d' package.json\r\n\r\n# Native Electron's version from your package manager).\r\nexport npm_config_target=$(electron4 -v)\r\n# The architecture of Electron, can be ia32 or x64.\r\nexport npm_config_arch=x64\r\nexport npm_config_target_arch=x64\r\n# Download headers for Electron.\r\nexport npm_config_disturl=https://atom.io/download/electron\r\n# Tell node-pre-gyp that we are building for Electron.\r\nexport npm_config_runtime=electron\r\n# Install all dependencies, and store cache to ~/.electron-gyp.\r\nHOME=~/.electron-gyp npm install --only=production\r\n```",
     "mentions": [
       {
         "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256",
     "branch": [
-      "%73ZOsRk5USJo+StGFJnLtMBlgUKFS4ONjS7FWcXPs5Q=.sha256"
+      "%pO5iFw6puMT6OAl8fIHU2M2MWW4IWFt+TJLBULXQQrY=.sha256"
     ]
   },
-  "signature": "AMe1J1PFZBRuzUPpaMOzVpWHFv2eMbpN6IKBjw/8mjZkLnmhM0i9jUbsJN0F7ugClyyIk1tkQRrGNh5xsTuuCQ==.sig.ed25519"
+  "signature": "Q6tT+pYGRrIZFWSu5whfABPLUWzj1JncE/XEkMsMq/94e+R0GPHUli6Tg9iH6IA9LfT/ZJVqtwrLaAZvS/tJAA==.sig.ed25519"
 }
