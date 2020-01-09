@@ -1,27 +1,19 @@
 {
-  "previous": "%Q3FJdrGYRQ5ilvc7ZZgTuoNfC3BniDbvk01YHZsBUJ4=.sha256",
-  "sequence": 14545,
+  "previous": "%STZaVIHSMeRg0lrtp0S4Q12seW28lnvDxC35Bpzgr+g=.sha256",
+  "sequence": 14546,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578583408012,
+  "timestamp": 1578583520709,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Distribute](@VIuhBgr9wnjXWui1JPv0Tz2Oxds8DflzaLouM6QB3do=.ed25519)\r\n\r\nI really like this idea, but I think that means that we need to either:\r\n\r\n- ship all of the binaries with each release, so Linux users have the Windows binaries\r\n- ship the source with each release and force everyone to use a [package manager](%8xW4Ky6a9uIFXbuln0AGc0sMwmT0JquxgvzPQLazfTI=.sha256) to snag dependencies and build from source\r\n  - one downside is that macOS users have to install Xcode and Windows folks have to install Visual Studio stuff ",
-    "mentions": [
-      {
-        "link": "@VIuhBgr9wnjXWui1JPv0Tz2Oxds8DflzaLouM6QB3do=.ed25519",
-        "name": "Distribute"
-      },
-      {
-        "link": "%8xW4Ky6a9uIFXbuln0AGc0sMwmT0JquxgvzPQLazfTI=.sha256",
-        "name": "package manager"
-      }
-    ],
-    "root": "%5Ior5GnYjzDgVZn0aHxtuHgMdT7s50DUAO/5UAefIJ8=.sha256",
-    "fork": "%E2DqrGdTVpEut/NProGCZA4QvFi+jlDWkoXRV0jm05c=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%BX6n3h3YW26k1BgUoL7ZXYvJ4YWzmLFxujlVVsJ1kw8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%5Ior5GnYjzDgVZn0aHxtuHgMdT7s50DUAO/5UAefIJ8=.sha256"
+      "%/NsX6dQx6p801wP1roIk/TZfn69ry+REeqAG+HQSwmc=.sha256",
+      "%pnCABTND/Q/+0xcrZA3kEFK3ktsHndDQPZyAYXThbVM=.sha256"
     ]
   },
-  "signature": "OeIEW9nc5iKumgHdKYIiXy+Mc6TMXvmeHDlm0XI/oTXpJ+Ghmb2jBkhuVSCLLbnl6ayFCOHhEFUJBZPF/T9mAA==.sig.ed25519"
+  "signature": "Jf06RjoldMxzRIIJygdZbwbKFcLE+yX1NbnZ7rYX3x81CaFYNqyvoWmOdHjocQchggc3zcb7vy79qJFE7YKyBA==.sig.ed25519"
 }
