@@ -1,18 +1,26 @@
 {
-  "previous": "%x4xBfwRwFjEFggkW551b10CRhuqF9FI8et1MGxazjNM=.sha256",
-  "sequence": 14631,
+  "previous": "%/RN529MxwiFD4sinh35EC6CEshFa/S6NddUUtnk8MDc=.sha256",
+  "sequence": 14632,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578674745827,
+  "timestamp": 1578679285827,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%+/x5fGglSN+XR32HMjMamjzLD9gVZ6jFMsTcIBwdU60=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nYeah, Unix sockets on Windows are resolved as part of [this pull request](https://github.com/ssbc/multiserver/pull/49), but it's still in review. The Windows-specific commits were cherry-picked and merged separately to make my PR easier to review, but I was really hoping to release both of them at the same time.\r\n\r\nIt looks to me like that PR is going to remain open for a while longer, so maybe the best move is making a new patch release of what's in `master`?",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      }
+    ],
+    "root": "%wUVuCcU4NtrBMGI2KIE3cHBwVZzg5Z00Dibi9uxOwiY=.sha256",
     "branch": [
-      "%+/x5fGglSN+XR32HMjMamjzLD9gVZ6jFMsTcIBwdU60=.sha256"
+      "%+72wR2/tToJ/YFdvLZ35M63Ako5xqqBOcurAV0EERc0=.sha256"
     ]
   },
-  "signature": "0VfwWyLg9DpQi2JSPz3jHNNx4ws3akYJXXFon2+PUSSRAhKJ2sITSHRXKbpbmZpaqb99kJF+oVwlRRdV7XqbCg==.sig.ed25519"
+  "signature": "Ssihb8EhRQ4+/39NL07O/LvTHVWUSe5gP3ln+RVqcTiLiesgYjutms3QfmH+vDCjX/XbeYPR2oG15xrravppDg==.sig.ed25519"
 }
