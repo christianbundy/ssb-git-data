@@ -1,22 +1,23 @@
 {
-  "previous": "%lsRBguVzmefoZlP8HwT6Jjcqv1ol5i/xN1WueRJdtU0=.sha256",
-  "sequence": 14616,
+  "previous": "%5yF5cIjLJlj9KQytrO9tRbTJsg+MPvW9bEyaVSXEfwo=.sha256",
+  "sequence": 14617,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578671359591,
+  "timestamp": 1578671920586,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI know this is a pain, but if they're SSB projects could you name them? Node 12 has been out since April and it's an LTS release, so I think it's important for us to support.\r\n\r\n(FWIW, I've been setting up my Travis config so that it tests on the latest release (13) and the latest LTS (12) and haven't had any problems.)",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n\r\nI just tried `npm install` and it failed with:\r\n\r\n```\r\nHello, sorry you had to see this...\r\n\r\nFailed to fetch pre-built systrayhelper.\r\n  Most likely the combination of OS and Architecture isn't currently supported.\r\n  \r\n  To still get this working you will have to do some console-magic...\r\n  \r\n  1) Install Go - See https://golang.org/doc/install\r\n  1.5) On linux: you need two libraries, listed here: https://github.com/getlantern/systray#platform-specific-concerns\r\n  2) run this command: go get github.com/ssbc/systrayhelper\r\n  3) sudo mv $HOME/go/bin/systrayhelper /usr/local/bin (or any other folder, as long as it's in your $PATH)\r\n  \r\n  TODO: evaluate falling back to https://github.com/chemdrew/npm-golang\r\n  TODO: brew.sh and windows snoop templates installing the helper\r\n```\r\n\r\n\r\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
     "mentions": [
       {
         "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
         "name": "SoapDog (SPX)"
       }
     ],
-    "root": "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256",
+    "root": "%cDFtQeVcciFv9FZTEfwvC2UpeWEX2RyCiYihRx5k+nc=.sha256",
+    "fork": "%YYnto5RlbzXkRq9KfwQtjYwfKXoF6YcbK4S3XdtLe3g=.sha256",
     "branch": [
-      "%E+bObxx+Hkrbc1eTY65DpFdoo8kYWC1iy9eS+MU5v+w=.sha256"
+      "%cDFtQeVcciFv9FZTEfwvC2UpeWEX2RyCiYihRx5k+nc=.sha256"
     ]
   },
-  "signature": "tpuy8rLsar95WvqQw74vf2VxNH++GmS8lt2pXmbpCm1qc/cssAOjm8/ClMn9uOzpDoGRxp7cUuYP/OHDObBOCQ==.sig.ed25519"
+  "signature": "jjzYYWJX+5rvO4Zpc55lX/G9tBCL8y4SHHvGL4tK6aJ1GVhO5bBgEuf4eSvxtvbEwdAn//MK7FTJhkGQ62koBw==.sig.ed25519"
 }
