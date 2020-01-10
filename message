@@ -1,22 +1,23 @@
 {
-  "previous": "%/Do0Wu7MexwDURr4qAKcmBf5rydAG15axzZDI89v4Cw=.sha256",
-  "sequence": 14606,
+  "previous": "%Aq2j1+ynY+72iDDZ/aj+q8dedDQII2KrZR+quo5Zdzc=.sha256",
+  "sequence": 14607,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578624929709,
+  "timestamp": 1578629252021,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nNot ignorant or a fool, I'd imagine we probably agree about most of JS.\r\n\r\nI think of JavaScript like I think of English -- many parts of the language are complicated and confusing and hard to learn, and you **definitely** wouldn't design it this way from scratch. On the other hand, it's a common language for beginners, so if you want a really low barrier to entry it's not a bad choice.\r\n\r\nI think the *really* important think is declaring that you're going to use a subset of the language, like [English for specific purposes](https://en.wikipedia.org/wiki/English_for_specific_purposes), and choosing what that subset is. IMO there's nothing wrong with:\r\n\r\n```javascript\r\nconst list = [1, 2, 3]\r\nconst result = list\r\n  .map((item) => item + 1)\r\n  .filter((item) => item > 2)\r\nconsole.log(result) // => [3, 4]\r\n```\r\n\r\nBut this way lies madness:\r\n\r\n```javascript\r\nconsole.log((function (y) {\r\n  var x = [], i, j\r\n  for (i = 1; i < 5; i++) {\r\n    x.push(i)\r\n    for (j = 0; j < i; ++j) {\r\n      if (j < 2) {\r\n        delete x[j]\r\n      }\r\n    }\r\n  }\r\n  j = []\r\n  for (i = 0; i < 10; i ++) {\r\n    if (!!!!x[i]) j.push(x[i])\r\n  }\r\n  return j\r\n})(42))\r\n```\r\n\r\nAs long as you've got a linter and a few senior people on the team I think you can usually turn the latter into a learning experience, which is awesome, but the language *does* lend itself to abuse and jank unless you're very careful.",
+    "text": "[@martin ➬](@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519)\r\n\r\nJust to confirm, are you saying that the public key on your profile page is different than the public key you see in `~/.ssb`? I'm sure that it's possible under some very strange edge-case, but it's still very surprising.",
     "mentions": [
       {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
+        "link": "@pJsYrTaEjm5XW5Qe0W9JW2c+RpYNqJHPMZ0qGFFYXfI=.ed25519",
+        "name": "martin ➬"
       }
     ],
-    "root": "%t5immx7ikVGmNvQsk1jrZGQbZ2rc5UbR8+1DM8Gichw=.sha256",
+    "root": "%EcKh0jYphwnIScZ+DKMJ2eTRG9Ph7RuONNPTTxkaW5E=.sha256",
     "branch": [
-      "%t5immx7ikVGmNvQsk1jrZGQbZ2rc5UbR8+1DM8Gichw=.sha256"
+      "%3plN+qbiXAYQ1D1nG5dRQZkx3Wa3nnbxQePgD/mrQQU=.sha256",
+      "%XzkdfB9ml+LVaKPvHNqHS4WiMS3t0YSpZHk2zZWIDzA=.sha256"
     ]
   },
-  "signature": "HOnHHwiSuHwEjh/GHI/X/iMgxQWOW6NOdqsXIzrvn/z+HxhBNX0blfEbHeR29Aluz/xHmC2lpgxILFTmg8mkCw==.sig.ed25519"
+  "signature": "L1Vjf5dp3JxJ220no87DqncMGXg1y86haoWGs5skpP14pBfACP8Pwlyu2P3QVCHf2Y0M7/lHfVcztbIYYXY1CA==.sig.ed25519"
 }
