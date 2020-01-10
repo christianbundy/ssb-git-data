@@ -1,18 +1,22 @@
 {
-  "previous": "%174rFYqdmKxWGhAGlzdWCzwHCtmNqA6Xd1EX+YSa60U=.sha256",
-  "sequence": 14633,
+  "previous": "%D/7Fno5Qn/aYTPkeEnzDZTGQCNW/Zj3ohzwLkuF0O1A=.sha256",
+  "sequence": 14634,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578681453110,
+  "timestamp": 1578690466169,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nTwjztgiWOmkxXKLs/SRWymbGMD+v6QAvYqxWJ3Oclg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519)\r\n\r\n>  In such a circumstance, the mobile device doesn’t really see that much of a p2p network, and instead uses the desktop instance it follows in a server like role, that is as a singular gateway to the rest of the network.\r\n\r\nI think there's a small but important difference. The \"only follow your main feed\" trick does two things:\r\n\r\n- Unifies your social graph so that you aren't following different people on each feed.\r\n- Hacks around the \"2 hops\" default by using your first hop on your main feed, that way you only download content from your main feed and the feeds that it follows.\r\n\r\nOtherwise, the experience is the same: your device should work like any other node on the P2P network and will exchange messages with remote servers, regardless of whether your main feed is available. Your social graph will be centered around your main feed, but it doesn't create a client-server relationship between the two.",
+    "mentions": [
+      {
+        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
+        "name": "jasongreen"
+      }
+    ],
+    "root": "%EsfbY88sg3obbNbwuzOsy+WC3g7/nmAJQGjmRlK9Udk=.sha256",
     "branch": [
-      "%nTwjztgiWOmkxXKLs/SRWymbGMD+v6QAvYqxWJ3Oclg=.sha256"
+      "%IJyHsAJAild/QO++absQLPvo574UxAjZ3xJWOashj6w=.sha256"
     ]
   },
-  "signature": "IzBtnNf4JP4JpFuRs2U87u+MIOPmrzcJK6dLn6sA23U/iBbAhE0jdGeY8ekTJ74AxgbvVIzrW/qhK88PsHLFDQ==.sig.ed25519"
+  "signature": "jGFdW6g7bY9X+3CZwa3rfXjfJn+ShXIxPhINKRxjeExhcfiZw3ficOVG+m1sriFPB3g9hHbUvDUE4tOXjDSNCg==.sig.ed25519"
 }
