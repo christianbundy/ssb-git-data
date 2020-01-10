@@ -1,26 +1,18 @@
 {
-  "previous": "%/RN529MxwiFD4sinh35EC6CEshFa/S6NddUUtnk8MDc=.sha256",
-  "sequence": 14632,
+  "previous": "%174rFYqdmKxWGhAGlzdWCzwHCtmNqA6Xd1EX+YSa60U=.sha256",
+  "sequence": 14633,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578679285827,
+  "timestamp": 1578681453110,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nYeah, Unix sockets on Windows are resolved as part of [this pull request](https://github.com/ssbc/multiserver/pull/49), but it's still in review. The Windows-specific commits were cherry-picked and merged separately to make my PR easier to review, but I was really hoping to release both of them at the same time.\r\n\r\nIt looks to me like that PR is going to remain open for a while longer, so maybe the best move is making a new patch release of what's in `master`?",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
-      }
-    ],
-    "root": "%wUVuCcU4NtrBMGI2KIE3cHBwVZzg5Z00Dibi9uxOwiY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%nTwjztgiWOmkxXKLs/SRWymbGMD+v6QAvYqxWJ3Oclg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%+72wR2/tToJ/YFdvLZ35M63Ako5xqqBOcurAV0EERc0=.sha256"
+      "%nTwjztgiWOmkxXKLs/SRWymbGMD+v6QAvYqxWJ3Oclg=.sha256"
     ]
   },
-  "signature": "Ssihb8EhRQ4+/39NL07O/LvTHVWUSe5gP3ln+RVqcTiLiesgYjutms3QfmH+vDCjX/XbeYPR2oG15xrravppDg==.sig.ed25519"
+  "signature": "IzBtnNf4JP4JpFuRs2U87u+MIOPmrzcJK6dLn6sA23U/iBbAhE0jdGeY8ekTJ74AxgbvVIzrW/qhK88PsHLFDQ==.sig.ed25519"
 }
