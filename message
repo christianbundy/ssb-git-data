@@ -1,22 +1,22 @@
 {
-  "previous": "%mD1XoNNyzce0C3gLZBmO+9NQfjeFPvKTVgYJTy3VQr8=.sha256",
-  "sequence": 14605,
+  "previous": "%/Do0Wu7MexwDURr4qAKcmBf5rydAG15axzZDI89v4Cw=.sha256",
+  "sequence": 14606,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578623395525,
+  "timestamp": 1578624929709,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\n> I knead the dough and roll out the wrappers, Mrs. Moid does the skilled work.\r\n\r\nIs that easy to do? I've never made them from scratch before. I went to a friend's house to celebrate Chinese New Year but I think they had pre-made the wrapper? Or bought them at the store, I don't remember. Kathleen and I struggled to wrap the filling and do all the folds, but it was fun.\r\n\r\nAside: my friend's girlfriend is from the Midwest US and they recently tried to come up with some Chinese + Midwest fusion. I didn't try any of them, but they told me about their [bao](https://en.wikipedia.org/wiki/Baozi) [sloppy joes](https://en.wikipedia.org/wiki/Sloppy_joe) and I can't stop thinking about how ridiculous but good that sounds. Founds some [photos](http://www.cookingwithcocktailrings.com/mains/2017/sloppy-bao-buns) from someone else who made something similar.",
+    "text": "[@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nNot ignorant or a fool, I'd imagine we probably agree about most of JS.\r\n\r\nI think of JavaScript like I think of English -- many parts of the language are complicated and confusing and hard to learn, and you **definitely** wouldn't design it this way from scratch. On the other hand, it's a common language for beginners, so if you want a really low barrier to entry it's not a bad choice.\r\n\r\nI think the *really* important think is declaring that you're going to use a subset of the language, like [English for specific purposes](https://en.wikipedia.org/wiki/English_for_specific_purposes), and choosing what that subset is. IMO there's nothing wrong with:\r\n\r\n```javascript\r\nconst list = [1, 2, 3]\r\nconst result = list\r\n  .map((item) => item + 1)\r\n  .filter((item) => item > 2)\r\nconsole.log(result) // => [3, 4]\r\n```\r\n\r\nBut this way lies madness:\r\n\r\n```javascript\r\nconsole.log((function (y) {\r\n  var x = [], i, j\r\n  for (i = 1; i < 5; i++) {\r\n    x.push(i)\r\n    for (j = 0; j < i; ++j) {\r\n      if (j < 2) {\r\n        delete x[j]\r\n      }\r\n    }\r\n  }\r\n  j = []\r\n  for (i = 0; i < 10; i ++) {\r\n    if (!!!!x[i]) j.push(x[i])\r\n  }\r\n  return j\r\n})(42))\r\n```\r\n\r\nAs long as you've got a linter and a few senior people on the team I think you can usually turn the latter into a learning experience, which is awesome, but the language *does* lend itself to abuse and jank unless you're very careful.",
     "mentions": [
       {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
       }
     ],
-    "root": "%+kZelMfEKuHyPSEcE2670P48waccfuBrOxZ5d1WlgWo=.sha256",
+    "root": "%t5immx7ikVGmNvQsk1jrZGQbZ2rc5UbR8+1DM8Gichw=.sha256",
     "branch": [
-      "%/Nrzdak+uKEwvD9VlkVxhkCURPswlY7AbV+0Hb8QzfE=.sha256"
+      "%t5immx7ikVGmNvQsk1jrZGQbZ2rc5UbR8+1DM8Gichw=.sha256"
     ]
   },
-  "signature": "6q7X4dPpwt52f4ec7ag/Iy23ArHMe1BX2420NCCwAgagX8NtfvGNworShnWMM+NVEiNUiEOUbcqlgtsYDEXbBg==.sig.ed25519"
+  "signature": "HOnHHwiSuHwEjh/GHI/X/iMgxQWOW6NOdqsXIzrvn/z+HxhBNX0blfEbHeR29Aluz/xHmC2lpgxILFTmg8mkCw==.sig.ed25519"
 }
