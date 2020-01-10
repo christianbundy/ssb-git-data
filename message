@@ -1,22 +1,18 @@
 {
-  "previous": "%OSHcL2Us9ChDzCGOx+xdbxiAcektbflSc3rPP9HknYQ=.sha256",
-  "sequence": 14630,
+  "previous": "%x4xBfwRwFjEFggkW551b10CRhuqF9FI8et1MGxazjNM=.sha256",
+  "sequence": 14631,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578674284567,
+  "timestamp": 1578674745827,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Andrei Cociuba](@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519)\r\n\r\nYeah, the 'popular' pages are especially bad because they don't cache at all. If you do 'popular this year' it's going through every like from the past year and counting them up, which is unreasonably resource-intensive.\r\n\r\nOnce all the basics are nailed down I'll start caching and optimizing, but right now there are a few pages with lots of room for improvement.",
-    "mentions": [
-      {
-        "link": "@TE5ys+3qLb9oZrMsQrg+pjfGKUV/ZJSIdHmRxc4AsoM=.ed25519",
-        "name": "Andrei Cociuba"
-      }
-    ],
-    "root": "%QM7LSW6XwrVMQaDxglU1l69AdkFx3wXdgKdu4/HDy9Y=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%+/x5fGglSN+XR32HMjMamjzLD9gVZ6jFMsTcIBwdU60=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%QM7LSW6XwrVMQaDxglU1l69AdkFx3wXdgKdu4/HDy9Y=.sha256"
+      "%+/x5fGglSN+XR32HMjMamjzLD9gVZ6jFMsTcIBwdU60=.sha256"
     ]
   },
-  "signature": "exdvluFmn3smbG/lNokFpSP1yUvejmFSVP2SxtwOt+7u+noxAr+W6TCAaWTWWwfA/ENhHGNFW9rBNLsAPKgwBg==.sig.ed25519"
+  "signature": "0VfwWyLg9DpQi2JSPz3jHNNx4ws3akYJXXFon2+PUSSRAhKJ2sITSHRXKbpbmZpaqb99kJF+oVwlRRdV7XqbCg==.sig.ed25519"
 }
