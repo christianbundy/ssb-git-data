@@ -1,18 +1,23 @@
 {
-  "previous": "%M7Fx+krJBHJnEEtEwoqsRrwQx3VYze0eyFiS7nObtwk=.sha256",
-  "sequence": 14639,
+  "previous": "%Yh8NPtJAMehrtwQ+tR/CJv2tlDYXOt8a2RI6fk+rjn8=.sha256",
+  "sequence": 14640,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578779046909,
+  "timestamp": 1578779358356,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gNFJsna9VCXKmnLf4WYCUUoGWWkP8319NkWYVX/zLAY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\nYep, I'm still super interested in DHT-based rooms, especially with the possibility of using `shs.caps` as your DHT key. Every peer becomes available instantly.\r\n\r\nThe most obvious problem is that your IP address will be exposed to the world, which makes me think that sooner or later we're going to use an overlay network or just build our own. Honestly I think the hardest part is going to be trying to mine vanity public keys that valid [IPv6 fc00 addresses](%bbauJpE+d+nGb2haLOfkbdA…lJL8CfKeedgwT4w=.sha256) and *of course* make sure that they start with `@butt`.",
+    "mentions": [
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
+      }
+    ],
+    "root": "%LlLQMSlLCnb48QUAZsOU1HyMdFnwm4ZEEIuJ0+2et9I=.sha256",
     "branch": [
+      "%6zc46bDgTBTVxiuqrKkW1sQaNZ/1cjGhAu3by910lTg=.sha256",
       "%gNFJsna9VCXKmnLf4WYCUUoGWWkP8319NkWYVX/zLAY=.sha256"
     ]
   },
-  "signature": "HaCkc7l/COVIxcgF9daugS8a0Va4JRtkNjebZaIwiA0PF86vHc8njT1jveUYpsCaSR3ah8NMlrce9n1iluqcCg==.sig.ed25519"
+  "signature": "GxsxrsJ7htJj8fjRqrwY/zitM5kXkH8T0mOp6MeAMk/TYasbMf3hqmlG8yuWEmDmw1PEqGwjeSQRHoOsAwW+DQ==.sig.ed25519"
 }
