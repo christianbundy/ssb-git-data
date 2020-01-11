@@ -1,23 +1,25 @@
 {
-  "previous": "%8SmSQUZMMW5v+r/GZ876oQU4PnMwqgqNHclEvDpFnYc=.sha256",
-  "sequence": 14635,
+  "previous": "%9Ohyi4eJSWD2NLSgVpzV5kpuqn1nYvIWU/Mq2Ix81sw=.sha256",
+  "sequence": 14636,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578756669110,
+  "timestamp": 1578761914285,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOops! Thanks.",
+    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519)\r\n\r\nI'm not sure, but I *think* that Manyverse has made the decision to only connect with peers that you follow directly unless you explicitly give consent for wider connections.\r\n\r\n> As Jay pointed out in the article, one of the key contributors to the success of Mastodon was the decision to make the interface as twitter like as possible. I wonder how the very different approach ssb has to identity management will affect adoption by those less technically inclined.\r\n\r\nI think about this a lot. At the protocol level, the only thing that's important is that each device has a linear list of messages, but most of the apps conflate feeds with identities.\r\n\r\nI think most of us are interested in solving the problem of identities that span multiple feeds, and identity management is super important, but it's a much harder to solve in a P2P system than a federated system, *especially* when you need to keep backward-compatibility with the rest of the applications.\r\n\r\nI have a few ideas for simple #same-as that I'd like to experiment with in Oasis, but the main blocker is trying to avoid screwing up the experience for people using Patchwork/etc.",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
+        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
+        "name": "jasongreen"
+      },
+      {
+        "link": "#same-as"
       }
     ],
-    "root": "%dhNqnNf24LThMI/Y3xPfSLLXIFf2nWup3YGdC3E0NmU=.sha256",
-    "fork": "%wUVuCcU4NtrBMGI2KIE3cHBwVZzg5Z00Dibi9uxOwiY=.sha256",
+    "root": "%baeMgilkEx0ycbkRWAP0/UwpMu55jzUFsgmf2bQ4ItY=.sha256",
     "branch": [
-      "%dhNqnNf24LThMI/Y3xPfSLLXIFf2nWup3YGdC3E0NmU=.sha256"
+      "%baeMgilkEx0ycbkRWAP0/UwpMu55jzUFsgmf2bQ4ItY=.sha256"
     ]
   },
-  "signature": "fPgW/nn1QHTDU5ckXkp3sVj5a6LdMFSOFX25ezIWAWzNsBwhfbyoP7QDKpWJ8PGmVWrsR74lO1BCJLVeZ+8ACA==.sig.ed25519"
+  "signature": "0Hml12FbwAma9VmpThhfT3eGHgkIRv3Hzz2XQ9M+9pwCnjY0x256kNSJzXBpMznADxMnhRBNA2ZUmbx7v2UyCQ==.sig.ed25519"
 }
