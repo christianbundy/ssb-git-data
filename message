@@ -1,22 +1,23 @@
 {
-  "previous": "%D/7Fno5Qn/aYTPkeEnzDZTGQCNW/Zj3ohzwLkuF0O1A=.sha256",
-  "sequence": 14634,
+  "previous": "%8SmSQUZMMW5v+r/GZ876oQU4PnMwqgqNHclEvDpFnYc=.sha256",
+  "sequence": 14635,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578690466169,
+  "timestamp": 1578756669110,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jasongreen](@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519)\r\n\r\n>  In such a circumstance, the mobile device doesn’t really see that much of a p2p network, and instead uses the desktop instance it follows in a server like role, that is as a singular gateway to the rest of the network.\r\n\r\nI think there's a small but important difference. The \"only follow your main feed\" trick does two things:\r\n\r\n- Unifies your social graph so that you aren't following different people on each feed.\r\n- Hacks around the \"2 hops\" default by using your first hop on your main feed, that way you only download content from your main feed and the feeds that it follows.\r\n\r\nOtherwise, the experience is the same: your device should work like any other node on the P2P network and will exchange messages with remote servers, regardless of whether your main feed is available. Your social graph will be centered around your main feed, but it doesn't create a client-server relationship between the two.",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOops! Thanks.",
     "mentions": [
       {
-        "link": "@V7p40XpTI3ZzyjR7r8Rzx2utkaVrBOesZ6fjwkZ0VQg=.ed25519",
-        "name": "jasongreen"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ],
-    "root": "%EsfbY88sg3obbNbwuzOsy+WC3g7/nmAJQGjmRlK9Udk=.sha256",
+    "root": "%dhNqnNf24LThMI/Y3xPfSLLXIFf2nWup3YGdC3E0NmU=.sha256",
+    "fork": "%wUVuCcU4NtrBMGI2KIE3cHBwVZzg5Z00Dibi9uxOwiY=.sha256",
     "branch": [
-      "%IJyHsAJAild/QO++absQLPvo574UxAjZ3xJWOashj6w=.sha256"
+      "%dhNqnNf24LThMI/Y3xPfSLLXIFf2nWup3YGdC3E0NmU=.sha256"
     ]
   },
-  "signature": "jGFdW6g7bY9X+3CZwa3rfXjfJn+ShXIxPhINKRxjeExhcfiZw3ficOVG+m1sriFPB3g9hHbUvDUE4tOXjDSNCg==.sig.ed25519"
+  "signature": "fPgW/nn1QHTDU5ckXkp3sVj5a6LdMFSOFX25ezIWAWzNsBwhfbyoP7QDKpWJ8PGmVWrsR74lO1BCJLVeZ+8ACA==.sig.ed25519"
 }
