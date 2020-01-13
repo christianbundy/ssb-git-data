@@ -1,18 +1,23 @@
 {
-  "previous": "%t0esKFZOexApQ4ar1Z2xJQ+2AYCXL7CLhztS6af7Cpc=.sha256",
-  "sequence": 14655,
+  "previous": "%SkEjuR5T4u6fmWrFltIW/7yTVOoIbCk8FOmMh+frOrA=.sha256",
+  "sequence": 14656,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578877611824,
+  "timestamp": 1578878021984,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kWm4gPjOQd688E2zf2B6sgutRbtrU0Ky2Xqh/9kjCfY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix.exe](@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519)\r\n\r\nThis might actually be super easy though:\r\n\r\n- Get the list of feeds within your hops\r\n- Get the list of feeds you have data for\r\n- For each feed you have data for that's not within hops:\r\n  - [`del(feedKey}`](https://github.com/ssbc/ssb-db/blob/master/api.md#del-async)",
+    "mentions": [
+      {
+        "link": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519",
+        "name": "mix.exe"
+      }
+    ],
+    "root": "%KrAqBpW9lT8RtQN4Wo7+PJO545MjwqmRqqJ45BaSF2Q=.sha256",
+    "fork": "%wS5bNRa39VUAm1z6eIFtx3y22o5ym5HShcuALpQyTMc=.sha256",
     "branch": [
-      "%kWm4gPjOQd688E2zf2B6sgutRbtrU0Ky2Xqh/9kjCfY=.sha256"
+      "%KrAqBpW9lT8RtQN4Wo7+PJO545MjwqmRqqJ45BaSF2Q=.sha256"
     ]
   },
-  "signature": "ZFaAOrnlqcPR7xGLaU9DVzoVvdHJI40YEq3GdUrKEY8CC2X2fwtrgFHF/doCD2ue35YBze36RLatXJWLPLgtDA==.sig.ed25519"
+  "signature": "RVWXAcWg0j4z1UpiSsQchX7SGUZntCOXLRca84WS8jFub+xfvmTZJLYGnGpRwW5fAUKUQq9a7FMLcujclmRqDQ==.sig.ed25519"
 }
