@@ -1,23 +1,23 @@
 {
-  "previous": "%SkEjuR5T4u6fmWrFltIW/7yTVOoIbCk8FOmMh+frOrA=.sha256",
-  "sequence": 14656,
+  "previous": "%GRCVtDXkux6iQ9IDPMn79WGJzKuU1Eye5Jk5E5n4NNw=.sha256",
+  "sequence": 14657,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578878021984,
+  "timestamp": 1578931727255,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix.exe](@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519)\r\n\r\nThis might actually be super easy though:\r\n\r\n- Get the list of feeds within your hops\r\n- Get the list of feeds you have data for\r\n- For each feed you have data for that's not within hops:\r\n  - [`del(feedKey}`](https://github.com/ssbc/ssb-db/blob/master/api.md#del-async)",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\n> [...] I feel guilty. That’s not the right vibe.\r\n\r\nYeah, that isn't good. I had been staying on top of my notifications at the cost of stress (/probably mental health) and recently decided to unwatch all but a few repos when I realized that these really weren't urgent. My current strategy is to receive notifications when I'm @mentioned (or there's activity on a repo I care about and feel like I can actually change things) but otherwise I just sort all SSBC + FlumeDB + DominicTarr + etc tickets by 'least recently updated' and resolve as many issues as possible.\r\n\r\n> Guess there’s a question about what it might be like for this to be “joyful”.\r\n\r\nDon't know if you saw this, but the [C4 process](https://hintjens.gitbooks.io/social-architecture/content/chapter4.html) actually seems like it might be a good fit ([actual \"contract\" here](https://rfc.zeromq.org/spec:42/C4/)). Having explicit maintainers might be helpful to understand how much care a module has, and having expectations makes contributing much easier. I'm *still* confused about what the SSBC developer protocol is sometimes, and I've been doing this for a while.\r\n\r\nI'm down for rainbow hermes stickers, and if possible it might even be fun to print stickers for maintainers  / contributors / etc. [\"I wrote a patch and all I got was this lousy sticker\"](https://tvtropes.org/pmwiki/pmwiki.php/Main/AndAllIGotWasThisLousyTShirt)",
     "mentions": [
       {
-        "link": "@DIoOBMaI1f0mJg+5tUzZ7vgzCeeHh8+zGta4pOjc+k0=.ed25519",
-        "name": "mix.exe"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ],
-    "root": "%KrAqBpW9lT8RtQN4Wo7+PJO545MjwqmRqqJ45BaSF2Q=.sha256",
-    "fork": "%wS5bNRa39VUAm1z6eIFtx3y22o5ym5HShcuALpQyTMc=.sha256",
+    "root": "%N4G+iskozCSnLYgzMCPozu7xuU2Sh+cM3gzGbcgsU+k=.sha256",
     "branch": [
-      "%KrAqBpW9lT8RtQN4Wo7+PJO545MjwqmRqqJ45BaSF2Q=.sha256"
+      "%PD1pvKOs/UZUrTRL2BTdzl6WPiLXzU49ccGqfC5RjdQ=.sha256",
+      "%uDSyCtqGwLNrKHDf21TtfeLngIULRILLY1KL7dosgnA=.sha256"
     ]
   },
-  "signature": "RVWXAcWg0j4z1UpiSsQchX7SGUZntCOXLRca84WS8jFub+xfvmTZJLYGnGpRwW5fAUKUQq9a7FMLcujclmRqDQ==.sig.ed25519"
+  "signature": "mbSDlZo/B9FDbXmecUL2KnJYxYsID1KWbxg0JRD0i3AlQjpqfPbFwX5ZXoM4UojrgRETZEDrvvnCY9v7OWbmBg==.sig.ed25519"
 }
