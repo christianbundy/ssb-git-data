@@ -1,22 +1,18 @@
 {
-  "previous": "%FI7xPx613NsF5kD+ITJrgN9k8mCvaqCrFYNHmcWU3jM=.sha256",
-  "sequence": 14696,
+  "previous": "%qRdKS5/4O5czot0xRQpMwtrAN4iaF1L/BPKvcZIAWKg=.sha256",
+  "sequence": 14697,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579035597636,
+  "timestamp": 1579036361476,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\n> But is there any way (I don’t think so) to tell patchwork to use a temporary .ssb dir in /tmp\r\n\r\nI think that's the `--path` flag, the default is `--path ~/.ssb/`.\r\n\r\n> and to not gossip(different network key?)?\r\n\r\nWith SSB conn we just have to set the config option:\r\n\r\n```json\r\n{\r\n  \"conn\": {\r\n    \"autostart\": false\r\n  }\r\n}\r\n```\r\n\r\nSee the `--offline` flag in Oasis for implementation details, but I think that's it.",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nI'm trying to `git clone --depth 1` on git.scuttlebot.io, but keep seeing this:\r\n\r\n> dumb http transport does not support shallow capabilities\r\n\r\nAny chance you know what the problem might be? Looks like it's lacking the [\"smart transport\" protocol](https://git-scm.com/book/en/v2/Git-Internals-Transfer-Protocols)?",
     "mentions": [
       {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "jacob"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
-    ],
-    "root": "%VmSd/+sZlkj7uj0oQEwc6pfK+c/bU0Os6/4M7ZxvlIo=.sha256",
-    "branch": [
-      "%VmSd/+sZlkj7uj0oQEwc6pfK+c/bU0Os6/4M7ZxvlIo=.sha256"
     ]
   },
-  "signature": "hatHkVM5iRQGB46F94/S5DyH+ilyCbDsgmFP2Z3XECe3TOzNbVRaHmnNmWarJRFqd65e/ydx7XuGRJ/spsEXAQ==.sig.ed25519"
+  "signature": "1/UpFwUjY1C0OJLev442ar7rP754t+J/rF0jTCUnQWAVdCjDAjyRExU34ZLCp33e+ZokLpKmITAjFMvtpRpRBg==.sig.ed25519"
 }
