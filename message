@@ -1,18 +1,24 @@
 {
-  "previous": "%N3irn0cdIfimoVrmnJSWCEIbRRz+7w3CWW0j8xCQwrw=.sha256",
-  "sequence": 14671,
+  "previous": "%/dg8eCX84ehfZL81SiIexZ8bDGEfzPY4099amy2CzJo=.sha256",
+  "sequence": 14672,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1578970131241,
+  "timestamp": 1578970432096,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%1MBEdXkjAlTsZQct4nYbz9w5T5BD4rHuGPOJh4Kjsgg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "It worked!\r\n\r\n- %g6ZFQcux3Y+u+RccMQZCltZXLW/w0T9UiOlXw9xss54=.sha256\r\n- %1MBEdXkjAlTsZQct4nYbz9w5T5BD4rHuGPOJh4Kjsgg=.sha256\r\n\r\nIt's not much, but it looks like we can create and sign a valid SSB message with only a few lines of JavaScript and basic Node.js cryptography.",
+    "mentions": [
+      {
+        "link": "%g6ZFQcux3Y+u+RccMQZCltZXLW/w0T9UiOlXw9xss54=.sha256"
+      },
+      {
+        "link": "%1MBEdXkjAlTsZQct4nYbz9w5T5BD4rHuGPOJh4Kjsgg=.sha256"
+      }
+    ],
+    "root": "%dfPav3qcl2Y0yRV4+J5sDifiFMgrQV7CeehaL/r4Iug=.sha256",
     "branch": [
-      "%1MBEdXkjAlTsZQct4nYbz9w5T5BD4rHuGPOJh4Kjsgg=.sha256"
+      "%mCbeIH7NpI2iE/RJRSBL/Gb3C6zMiDH7yuS1cJuI4Hc=.sha256"
     ]
   },
-  "signature": "ZSQpiwoXMrYZIx8cnt9kdEvmIR/VQ9G+SgDG0XqMtLG0P7eVLa47bKtkHD7W5qy/Yf4owIMNDxl7gL01Pi8EAw==.sig.ed25519"
+  "signature": "7vbUq3Yow52yKo30U80NseaHFBxecfKVDagSw268IPf6Xovqql/OCUM2jG2QPJsAtLTng/4TZRUFfk6mPKHWBA==.sig.ed25519"
 }
