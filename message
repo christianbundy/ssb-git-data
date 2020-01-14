@@ -1,22 +1,17 @@
 {
-  "previous": "%hM4IylftEsbxccySgsV+CTOTk0atm3NzR1BHs1oxygo=.sha256",
-  "sequence": 14710,
+  "previous": "%N+BTMFRtJtUrQ35B4folj5eP8XzvCLGQcU6xFaNO64o=.sha256",
+  "sequence": 14711,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579044768100,
+  "timestamp": 1579045246133,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@movonw](@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519)\r\n\r\nYeah, check out \"opinions built into the default scheduler\" here: https://github.com/staltz/ssb-conn",
-    "mentions": [
-      {
-        "link": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
-        "name": "movonw"
-      }
-    ],
-    "root": "%lSbDzOh34dNujafE/gEuOfbsrEsc1eNVdStlfeofsFQ=.sha256",
+    "text": "I'm using Oasis as my test subject here, and all of the dev + prod dependencies plus all of their source code seems to weigh about 1.7 GB. 😅 For the record, just `node_modules` without Git info is about 230 MB. I wonder whether a bare repo would save me some space?\r\n\r\nI'm tempted to add the dev dependencies for my dependencies, but part of me doesn't want to know.\r\n\r\nI wonder whether it'd be more optimal to share one big Git repository for all of these blobs?",
+    "mentions": [],
+    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
-      "%b8GkHj63e2szZtPVChgVnnp6FXVvnU2i4/WuTJB/zA8=.sha256"
+      "%3PiNvNOtmOuElOWw2fMErXlSqbb6DBP1ue3XNDM9szY=.sha256"
     ]
   },
-  "signature": "1x/EcvhHzrmkPQ310E/fMI0/io9w+ekNpNUhBDnhmHPPYFbEDSbn9ATLdp1G1BYkpliYBkGEnrFG5dXq7FkZAQ==.sig.ed25519"
+  "signature": "77MZgH0jGlkPXnqqbB/LcOuRGoiv8Vf1s1Q1YchBd+oX9Gp+0aI4gUjKra9WWdS86twcQsSDW1u4QHTmQtCQDQ==.sig.ed25519"
 }
