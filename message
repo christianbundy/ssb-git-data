@@ -1,18 +1,18 @@
 {
-  "previous": "%qRdKS5/4O5czot0xRQpMwtrAN4iaF1L/BPKvcZIAWKg=.sha256",
-  "sequence": 14697,
+  "previous": "%7PU+ujPAas3odks02mzJAm/f+donde8MDuX7wabkj8Q=.sha256",
+  "sequence": 14698,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579036361476,
+  "timestamp": 1579036379947,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nI'm trying to `git clone --depth 1` on git.scuttlebot.io, but keep seeing this:\r\n\r\n> dumb http transport does not support shallow capabilities\r\n\r\nAny chance you know what the problem might be? Looks like it's lacking the [\"smart transport\" protocol](https://git-scm.com/book/en/v2/Git-Internals-Transfer-Protocols)?",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%5z1ncQs3wHyHRIv6DF4uFcXhmbSD0iNmn3Apw5E4ako=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%5z1ncQs3wHyHRIv6DF4uFcXhmbSD0iNmn3Apw5E4ako=.sha256"
     ]
   },
-  "signature": "1/UpFwUjY1C0OJLev442ar7rP754t+J/rF0jTCUnQWAVdCjDAjyRExU34ZLCp33e+ZokLpKmITAjFMvtpRpRBg==.sig.ed25519"
+  "signature": "lKanqadzD/1mF3RANx0j7Gvk9zSVoShd7Z0Ltp0vH9lt6Glk5baZjB2KFhy6o6ueWi+pIhm2YeQ3OccbSMAcAA==.sig.ed25519"
 }
