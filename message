@@ -1,13 +1,22 @@
 {
-  "previous": "%D0aCSAFp86cpRDRcQKvWW4hq2EGw05CwAFFpz+eeU/o=.sha256",
-  "sequence": 14684,
+  "previous": "%v2RWZfc2X3jrSrEPaBNmgx3ROLrQ4W12R4ndMejLJCA=.sha256",
+  "sequence": 14685,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579011726210,
+  "timestamp": 1579020689877,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "need coffee",
-    "mentions": []
+    "text": "[@Léo [desktop]](@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519)\r\n\r\nThat's a good point, I suppose I was thinking about more abstract languages that might provide bindings to ed25519 / HTTP / CBOR / etc, but it *is* a beast. Can you staple Node.js bindings to smaller JavaScript engines like QuickJS? I think most of us only really need a few bindings.",
+    "mentions": [
+      {
+        "link": "@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519",
+        "name": "Léo [desktop]"
+      }
+    ],
+    "root": "%oxoCxlp2eZO4MFe8/boYGkVoDBLpE5GrE8Osk0kTjrc=.sha256",
+    "branch": [
+      "%oxoCxlp2eZO4MFe8/boYGkVoDBLpE5GrE8Osk0kTjrc=.sha256"
+    ]
   },
-  "signature": "RKEoltkrdvO8xFwqbs7nbSzEKvaSA5UIQn+s2g9/uEdvaqZybyRMUmesGjzyQ3g6wNAdrsSMkO4DWKH7heW4AQ==.sig.ed25519"
+  "signature": "ZwcW+JYFJ4QXTcdyJHkKbcjX6pgWVK27wmBsw8XYDfAFIYBNyuRUHentNX02ZjcCT0xTl0EHiWlczBFbiJF9CQ==.sig.ed25519"
 }
