@@ -1,18 +1,22 @@
 {
-  "previous": "%hIz6ZCIfynH4g0JBQZ4wAHxYSSD/W+8RH8zvV0IaPRI=.sha256",
-  "sequence": 14695,
+  "previous": "%FI7xPx613NsF5kD+ITJrgN9k8mCvaqCrFYNHmcWU3jM=.sha256",
+  "sequence": 14696,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579029836640,
+  "timestamp": 1579035597636,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%pOWVQwSo1Y1xyQT5bBIv2zCV+hb7AbjgS1gGBs+Qerc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\n> But is there any way (I don’t think so) to tell patchwork to use a temporary .ssb dir in /tmp\r\n\r\nI think that's the `--path` flag, the default is `--path ~/.ssb/`.\r\n\r\n> and to not gossip(different network key?)?\r\n\r\nWith SSB conn we just have to set the config option:\r\n\r\n```json\r\n{\r\n  \"conn\": {\r\n    \"autostart\": false\r\n  }\r\n}\r\n```\r\n\r\nSee the `--offline` flag in Oasis for implementation details, but I think that's it.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      }
+    ],
+    "root": "%VmSd/+sZlkj7uj0oQEwc6pfK+c/bU0Os6/4M7ZxvlIo=.sha256",
     "branch": [
-      "%pOWVQwSo1Y1xyQT5bBIv2zCV+hb7AbjgS1gGBs+Qerc=.sha256"
+      "%VmSd/+sZlkj7uj0oQEwc6pfK+c/bU0Os6/4M7ZxvlIo=.sha256"
     ]
   },
-  "signature": "2Q51GaV2Cts8OLrDdwglpRYmFpRk1lxrQJiNIPUYnstF69Yff0j4Srk1RQOicyeDIO52R1YpEQ3uPZdUkGRrDA==.sig.ed25519"
+  "signature": "hatHkVM5iRQGB46F94/S5DyH+ilyCbDsgmFP2Z3XECe3TOzNbVRaHmnNmWarJRFqd65e/ydx7XuGRJ/spsEXAQ==.sig.ed25519"
 }
