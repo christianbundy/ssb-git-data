@@ -1,18 +1,17 @@
 {
-  "previous": "%L4w4To83j5SSVmDZCDkl9epr125sqD4bB3vqSaiZP1w=.sha256",
-  "sequence": 14732,
+  "previous": "%JPkxkP6trcfQ79zvVLg7jVjVPKYbuLpczcX/j5lUxaw=.sha256",
+  "sequence": 14733,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579119004143,
+  "timestamp": 1579119456070,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%neuZin/sZ4cxF5T7T9swM2q8W/V7MyT7Iw4q/SuMS64=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "Alternatively, we could start from Jan 1 1970 and count upward:\r\n\r\n```javascript\r\nconst goldenRatio = (1 + Math.sqrt(5))/2\r\nconst dayDuration = 1000 * 86400.002\r\nconst timeBetween = goldenRatio * dayDuration\r\n\r\nconst nth = (n) => new Date(n * timeBetween)\r\n\r\nnth(11296) // => Wed Jan 15 2020 23:29:47 GMT-0800\r\n```\r\n\r\nThis is probably better because it doesn't use the magic number from the last time we all chatted. What should it be called though?",
+    "mentions": [],
+    "root": "%VXFhaGWyjBPDG0QhXXnhyD4iCN8F/99OlRrwA8nh7/A=.sha256",
     "branch": [
-      "%neuZin/sZ4cxF5T7T9swM2q8W/V7MyT7Iw4q/SuMS64=.sha256"
+      "%wrRvMFdx2aOksjmIqmg1E494r4cfq3HvRozg9lb23RA=.sha256"
     ]
   },
-  "signature": "FexWo0Lgs3Uuy0kFIozFGzHVdqNOMAZhARBV5hZqe4fCQjJDYKtcMU1kWS/sL9SYxn2edyCUbk0QulQhJB4cCw==.sig.ed25519"
+  "signature": "wAFRQP4iEpcGuatCvgFu9nAe+lBNUHEUmJe2FUUF1d3uULvMBLL5oNTlyrqGI6JPXz8cWoMoE3s9RslVGf42DQ==.sig.ed25519"
 }
