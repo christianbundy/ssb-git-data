@@ -1,22 +1,17 @@
 {
-  "previous": "%FfkfrzLh1HDfhBfZNvRxMqDCfquvMFqAouESbCuNLLE=.sha256",
-  "sequence": 14721,
+  "previous": "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256",
+  "sequence": 14722,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579105534025,
+  "timestamp": 1579105576983,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks! I was thinking of just skipping the registry server and using the Git repository instead (maybe with submodules?). For example:\r\n\r\n```sh\r\ngit clone git@github.com:christianbundy/git-npm-example.git\r\ngit submodule update --init\r\nnode index.js\r\n```\r\n\r\nThis is especially easy because pull-stream doesn't have dependencies or build steps, but I think both of those problems could be solved programmatically. I'm imagining a small tool that:\r\n\r\n- takes `package.json` and recursively\r\n  - finds the Git repository for each dependency\r\n  - finds the Git tag for the matching version\r\n- saves the dependency info in the top-level `.gitmodules`\r\n- creates a `node_modules` directory that satisfies the dependency graph\r\n  - maybe use symlinks (or 'junctions' on Windows) when we need nested `node_modules`.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ],
+    "text": "*when nested `node_modules` are needed",
+    "mentions": [],
     "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
-      "%FklQ7vxE4kM5Q3Oi57G05PL9xJVaNk2Eo+mFJG0edkQ=.sha256"
+      "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256"
     ]
   },
-  "signature": "IPZSTM9IGN+B5sXz03auEeAjzjUu+T1E5akB5XJ5EKBAK92yPwbbPNBZ6fKQ7A+PgbvUL4+e5dsVkaYxj2SBBA==.sig.ed25519"
+  "signature": "rDPz/bMnzkKMg/HdgniNNy1pmLiHimWpL4mwOYYn9sHvdvUJ2yA5Lek5e6sKw/uQ2MFAZ0hcxMNCT7A97BByDw==.sig.ed25519"
 }
