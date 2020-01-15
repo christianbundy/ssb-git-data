@@ -1,18 +1,17 @@
 {
-  "previous": "%UCAByJbFhrwGQi/G/QdkCWU+PrkwuCVOuzXp8bwx/VY=.sha256",
-  "sequence": 14724,
+  "previous": "%Tv63oz7qPxCMUxto7e5HnVM58u7HFy2sBbLk5qD7NFg=.sha256",
+  "sequence": 14725,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579106438995,
+  "timestamp": 1579107155484,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%FgoebdQES5fRN5zjXRH6jkD2a4UaRivezus4OBLaebE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "thinking through something like:\r\n\r\n```shell\r\ngit-npm install pull-stream@^3.6.0\r\n```\r\n\r\nFirst, get the repository:\r\n\r\n```console\r\n$ npm view pull-stream .repository.url\r\ngit://github.com/pull-stream/pull-stream.git\r\n```\r\n\r\nNormalize the URL and add as a submodule:\r\n\r\n```\r\ngit submodule add https://github.com/pull-stream/pull-stream.git node_modules/pull-stream\r\n```\r\n\r\nFind the right tag and check it out:\r\n\r\n```\r\ncd node_modules/pull-stream\r\nversion=\"$(git tag | xargs semver -r '^v3.6.0' | tail -n 1)\"\r\ngit checkout \"v$(version)\"\r\ncd -\r\n```",
+    "mentions": [],
+    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
-      "%PONh+Aw9JZrsf1SRLHPKlXtW6Uk8iydyj+Djdd8+/II=.sha256"
+      "%8yD4B33MWtdAT4WZsg75PQmo5u2gBVwBg9dCqfOIJBo=.sha256"
     ]
   },
-  "signature": "ASvuQuoKY+jWDC9PhPQSFZiulU+JGcgodKV6vphBKgzCton2Hmm2LRghBDC6PjZbrxahFm/pfUCUKdDeQJUYAg==.sig.ed25519"
+  "signature": "S3la/OSf6ek6UvcmoE3+veitR4S0Igkp4FUMNoUdLgJPWcvwZiFnzmGqUBFhLUO+yvLZf22N/gqerz4Z2/oRAQ==.sig.ed25519"
 }
