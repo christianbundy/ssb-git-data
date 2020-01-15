@@ -1,22 +1,18 @@
 {
-  "previous": "%lhjT1cYkacrXJi1R08Hz34at4f+5CiMfTGipBXyQOKc=.sha256",
-  "sequence": 14742,
+  "previous": "%q+Q8n/Lhsd6URqf1fFutPdVyRk7DEETx1RcXvIVNXPA=.sha256",
+  "sequence": 14743,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579131593978,
+  "timestamp": 1579131793645,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nWhat are you using to load Mithril? I'll check out snowpack, thanks for the tip.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
+    "text": "Two notes: \r\n\r\n- I forgot to add `cd` to this command, I'll add it below.\r\n- I JUST ADDED RECURSION AND IT ACTUALLY SEEMS TO WORK.\r\n\r\n```\r\ngit clone git@github.com:christianbundy/git-npm-example.git\r\ncd git-npm-example\r\ngit submodule update --init\r\nnode index.js\r\n```\r\n\r\nIf you run `node git-npm.js` it'll parse your `package.json` and build a `node_modules` directory for you, which is persisted to `.gitmodules` (like a lockfile!). It's still a terrible hack but it's *my* terrible hack and I love it dearly.",
+    "mentions": [],
+    "root": "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256",
+    "fork": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
-      "%FjV8lFzgg3saZ/V9k3WcBuiX3zjMShsJCPoo+wAIoCg=.sha256"
+      "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256"
     ]
   },
-  "signature": "G7fyNkPqSm3V+PE61WfLFf/6gbVmXmk3WTShEjXRh5RunK01nDQBF28T4/ZAjuPzBcVV4UykHO426nKZQhTyAw==.sig.ed25519"
+  "signature": "NGC0pH6b/QLhlm9l+aCYyOSKxBXjAlhBCE+BdsANmhL3SCbYRcTiwIoWCpfGZ4X/cJdLG5FJvZ1sU2/BqKIEBg==.sig.ed25519"
 }
