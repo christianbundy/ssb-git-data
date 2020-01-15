@@ -1,22 +1,22 @@
 {
-  "previous": "%K7QEZ5H6mjONcLjITsioYvXVPnp1HFDuDFTBr6Vdork=.sha256",
-  "sequence": 14718,
+  "previous": "%/S/aPuPD158G05xcV86z3d9MbsqWIGW6+/NPBmkKkNI=.sha256",
+  "sequence": 14719,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579051848835,
+  "timestamp": 1579052503165,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@movonw](@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519)\r\n\r\nIn Patchwork there's a `--path` flag where you give the directory, like `~/.ssb/`, but I don't think TickTack has that.\r\n\r\nI also think that TickTack is unmaintained, FWIW.",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nAlso, since you wrote ssb-npm, how feasible do you think it would be to write something like 'git-npm', where we just store the Git repository for each module and checkout the appropriate tag?\r\n\r\nFor example, I might install `npm install pull-stream^3.6.9` and it would build directly from `~/src/pull-stream` with the tag `v3.6.14`. Bonus points for managing the repo with git-ssb.",
     "mentions": [
       {
-        "link": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
-        "name": "movonw"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ],
-    "root": "%S4ZB4Z7TFYk1q07yW+Uo2MVXm92ImaCaztuih+eeYwY=.sha256",
+    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
-      "%S4ZB4Z7TFYk1q07yW+Uo2MVXm92ImaCaztuih+eeYwY=.sha256"
+      "%dBZFkpxvTNFzcC26QXEkX/t8QzEBZQgeJ91SWQ5GbNo=.sha256"
     ]
   },
-  "signature": "tQDUUiy/ysOMP5y33gfPXx9vmWmtifqJEP4lcwZUZNPPtQlJ5HmS4KRVbuFFHudGnHWUh69YfhqyDoGVcpsMDg==.sig.ed25519"
+  "signature": "jS6UY257sd5md4b595pTcsJgNBgYUzTj6zLyAEswktze4zSyCltpiJEoYjcjB6t/26f85ND+VA/J3d45Kk7bCw==.sig.ed25519"
 }
