@@ -1,17 +1,23 @@
 {
-  "previous": "%Tv63oz7qPxCMUxto7e5HnVM58u7HFy2sBbLk5qD7NFg=.sha256",
-  "sequence": 14725,
+  "previous": "%WpPepTvwdfEt6LpdeNYzwypFZ6k7oi0jnvE+KTluK7k=.sha256",
+  "sequence": 14726,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579107155484,
+  "timestamp": 1579110606739,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "thinking through something like:\r\n\r\n```shell\r\ngit-npm install pull-stream@^3.6.0\r\n```\r\n\r\nFirst, get the repository:\r\n\r\n```console\r\n$ npm view pull-stream .repository.url\r\ngit://github.com/pull-stream/pull-stream.git\r\n```\r\n\r\nNormalize the URL and add as a submodule:\r\n\r\n```\r\ngit submodule add https://github.com/pull-stream/pull-stream.git node_modules/pull-stream\r\n```\r\n\r\nFind the right tag and check it out:\r\n\r\n```\r\ncd node_modules/pull-stream\r\nversion=\"$(git tag | xargs semver -r '^v3.6.0' | tail -n 1)\"\r\ngit checkout \"v$(version)\"\r\ncd -\r\n```",
-    "mentions": [],
-    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
+    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\n> Another way of doing this that occurred to me was that you could take a whole number of days (for example, 7), and divide (or multiply) it by the golden ratio, and have a call that often.\r\n\r\nI can't get over how unreasonably fun this is. Since these are evenly distributed through timezones we'll only be awake for ~2/3 of them, and with scheduling conflicts my I'm guessing I'd only be able to make ~half of those. What do you think about 1 solar day multiplied by the golden ratio?\r\n\r\n```javascript\r\nconst goldenRatio = (1 + Math.sqrt(5))/2\r\nconst dayDuration = 1000 * 86400.002\r\nconst timeBetween = goldenRatio * dayDuration\r\nconst firstMeeting = 1578521107255\r\n\r\nconst nth = (n) => new Date(firstMeeting + (n * timeBetween))\r\n```\r\n\r\nIf we did that, the next ones would be:\r\n\r\n- 🌇 Thu Jan 16 2020 16:14:57 GMT-0800\r\n- 🌅 Sat Jan 18 2020 07:04:56 GMT-0800\r\n- 🌃 Sun Jan 19 2020 21:54:54 GMT-0800\r\n- 🏙️ Tue Jan 21 2020 12:44:52 GMT-0800\r\n- 🌃 Thu Jan 23 2020 03:34:50 GMT-0800\r\n- 🌆 Fri Jan 24 2020 18:24:48 GMT-0800",
+    "mentions": [
+      {
+        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
+        "name": "Tim Makarios"
+      }
+    ],
+    "root": "%VXFhaGWyjBPDG0QhXXnhyD4iCN8F/99OlRrwA8nh7/A=.sha256",
     "branch": [
-      "%8yD4B33MWtdAT4WZsg75PQmo5u2gBVwBg9dCqfOIJBo=.sha256"
+      "%LEmmIqBAFTzRueI9o5IhNTSF2pqaKdy+JwH4rzvbmyk=.sha256",
+      "%p1FWXmFfT9Z60B7v5lRLBWof6nU4+HmEjTQ/A0xOd1A=.sha256"
     ]
   },
-  "signature": "S3la/OSf6ek6UvcmoE3+veitR4S0Igkp4FUMNoUdLgJPWcvwZiFnzmGqUBFhLUO+yvLZf22N/gqerz4Z2/oRAQ==.sig.ed25519"
+  "signature": "QajXjqMaVRdcdq6v9Nbu/bsipdJyKxfPmaUKG41imhzVkBr5P0Yu252ftdFiW3d0chtWGyZ9rzSv9h77SROQCA==.sig.ed25519"
 }
