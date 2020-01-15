@@ -1,22 +1,18 @@
 {
-  "previous": "%/S/aPuPD158G05xcV86z3d9MbsqWIGW6+/NPBmkKkNI=.sha256",
-  "sequence": 14719,
+  "previous": "%IhY0MHBm7NPQXv+liTA3h0vP07TN0Zkfmva9CrvVrwE=.sha256",
+  "sequence": 14720,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579052503165,
+  "timestamp": 1579097612415,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nAlso, since you wrote ssb-npm, how feasible do you think it would be to write something like 'git-npm', where we just store the Git repository for each module and checkout the appropriate tag?\r\n\r\nFor example, I might install `npm install pull-stream^3.6.9` and it would build directly from `~/src/pull-stream` with the tag `v3.6.14`. Bonus points for managing the repo with git-ssb.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ],
-    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%KxcCwyTFfkEIh7vAUcKbLtoLpRkOMFcPi60Y0kz17H8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%dBZFkpxvTNFzcC26QXEkX/t8QzEBZQgeJ91SWQ5GbNo=.sha256"
+      "%KxcCwyTFfkEIh7vAUcKbLtoLpRkOMFcPi60Y0kz17H8=.sha256"
     ]
   },
-  "signature": "jS6UY257sd5md4b595pTcsJgNBgYUzTj6zLyAEswktze4zSyCltpiJEoYjcjB6t/26f85ND+VA/J3d45Kk7bCw==.sig.ed25519"
+  "signature": "LR98QaWzD1s1/OwlvH9h8q3rOzVYiaCOOolIEgAMdGNNyEflKk6sJ/qKOBlqk+0d8NVhSFcNgzOg24rq6x+lCw==.sig.ed25519"
 }
