@@ -1,18 +1,22 @@
 {
-  "previous": "%qWT0sfnk0wSWPrBxXe7i387OKaH0mgsoPrJJfoA5z+0=.sha256",
-  "sequence": 14729,
+  "previous": "%u8FgmCYpu6nFh/HQ97dPZBWhSemG1kz24WdgqN/HuOY=.sha256",
+  "sequence": 14730,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579110730264,
+  "timestamp": 1579111093016,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Rsgb4jxZpjdwKqRf0HW0itFSRxxzJNQDkifFlPr/fNs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nAwesome! I'm excited to hear how that goes. Are you going to copy any third-party code or just write *everything* from scratch?\r\n\r\nI love how easy it is to pull in dependencies and stand on the shoulders of giants, but I **hate** that there are registries getting between open source friends. It feels very silly that I can't:\r\n\r\n```shell\r\ncd node_modules/ssb-db\r\ngit checkout -b fix-thing\r\nvim index.js\r\ngit commit\r\ngit push origin fix-thing\r\n```",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
     "branch": [
       "%Rsgb4jxZpjdwKqRf0HW0itFSRxxzJNQDkifFlPr/fNs=.sha256"
     ]
   },
-  "signature": "1CEQs4tsg+sXjsKwrbfBuHxeI4twO+qHkUf1DZ0RjcwDoJ4V3m+6FqaO0oIKOIAZZewM7tQQDJZSCxb2xu90Aw==.sig.ed25519"
+  "signature": "D73PxfoJUaGiFqRXVhuuvQEbMYL5xKAr34f0z9Vpc3JZo9v+GflRFDD9uKq4Ixc+5d3azaLnXM8s2X30VTEDAw==.sig.ed25519"
 }
