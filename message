@@ -1,18 +1,17 @@
 {
-  "previous": "%q+Q8n/Lhsd6URqf1fFutPdVyRk7DEETx1RcXvIVNXPA=.sha256",
-  "sequence": 14743,
+  "previous": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
+  "sequence": 14744,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579131793645,
+  "timestamp": 1579132040883,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Two notes: \r\n\r\n- I forgot to add `cd` to this command, I'll add it below.\r\n- I JUST ADDED RECURSION AND IT ACTUALLY SEEMS TO WORK.\r\n\r\n```\r\ngit clone git@github.com:christianbundy/git-npm-example.git\r\ncd git-npm-example\r\ngit submodule update --init\r\nnode index.js\r\n```\r\n\r\nIf you run `node git-npm.js` it'll parse your `package.json` and build a `node_modules` directory for you, which is persisted to `.gitmodules` (like a lockfile!). It's still a terrible hack but it's *my* terrible hack and I love it dearly.",
+    "text": "This took about an hour, and my biggest implementation pain point was trying to reconcile npm-style version strings (like `^1.2.3` or `4.5.x` or `~7.8.9`) with Git tags. It would be nice to use a library here, but I can't just `npm install semver` because I'm trying to bootstrap a basic package manager.\r\n\r\nRight now my approach is to coerce `^1.2.3` to `1.2.3`, but that's not right (and I've already bumped into modules that don't push their Git tags 😠).",
     "mentions": [],
-    "root": "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256",
-    "fork": "%5/h0HRVaAFpi9dI1SPHBDxiVkNznWd5SUwlo7gStJss=.sha256",
+    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
     "branch": [
-      "%QPO2aIbqt6xKxGJ9IGNmWiZsi1lxCxxr0RVF4ovrjRk=.sha256"
+      "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256"
     ]
   },
-  "signature": "NGC0pH6b/QLhlm9l+aCYyOSKxBXjAlhBCE+BdsANmhL3SCbYRcTiwIoWCpfGZ4X/cJdLG5FJvZ1sU2/BqKIEBg==.sig.ed25519"
+  "signature": "szgFzGxzYPturGTqLQtKzHCP9MJ8cCkQMoV8XpdYAPw6oGruAYX1a7YSES3ySAr7mafAEya5KN1OmzgNQ6pBCg==.sig.ed25519"
 }
