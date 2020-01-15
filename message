@@ -1,17 +1,51 @@
 {
-  "previous": "%JPkxkP6trcfQ79zvVLg7jVjVPKYbuLpczcX/j5lUxaw=.sha256",
-  "sequence": 14733,
+  "previous": "%wtjo7IPHF0ruP1AQvZb48EzQf0uZK3eiEzBIKJzwGZE=.sha256",
+  "sequence": 14734,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579119456070,
+  "timestamp": 1579120170445,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Alternatively, we could start from Jan 1 1970 and count upward:\r\n\r\n```javascript\r\nconst goldenRatio = (1 + Math.sqrt(5))/2\r\nconst dayDuration = 1000 * 86400.002\r\nconst timeBetween = goldenRatio * dayDuration\r\n\r\nconst nth = (n) => new Date(n * timeBetween)\r\n\r\nnth(11296) // => Wed Jan 15 2020 23:29:47 GMT-0800\r\n```\r\n\r\nThis is probably better because it doesn't use the magic number from the last time we all chatted. What should it be called though?",
-    "mentions": [],
-    "root": "%VXFhaGWyjBPDG0QhXXnhyD4iCN8F/99OlRrwA8nh7/A=.sha256",
+    "text": "Unless someone talks me out of it, I'll re-join that same Jitsi room on Friday. If anyone wants to say hi or chat or ask for help with anything I'd love for you to join.\r\n\r\n**Fri Jan 17 2020 14:19:46 GMT-0800 (Pacific Standard Time)**\r\n\r\nI'll probably join around 14:00 and leave sometime after 15:00. The last call lasted for a couple hours, but no promises.\r\n\r\ncc: [@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519) [@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519) [@jaccarmac](@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519) [@John](@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519) [@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)  [@Rômulo Alves](@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519)[@Agustin Haro](@JMIbfsr2i/DRm+esw+bv0MkxsKuaXgc3rMAje4bhwwk=.ed25519)",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      },
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "kp"
+      },
+      {
+        "link": "@oW3ngfR0LsYHH45UHoWion1660/SM3Cs5YM50RUkz5w=.ed25519",
+        "name": "jaccarmac"
+      },
+      {
+        "link": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519",
+        "name": "John"
+      },
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      },
+      {
+        "link": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519",
+        "name": "Rômulo Alves"
+      },
+      {
+        "link": "@JMIbfsr2i/DRm+esw+bv0MkxsKuaXgc3rMAje4bhwwk=.ed25519",
+        "name": "Agustin Haro"
+      }
+    ],
+    "root": "%t1YlZZ7hbwqIaG6zK05XQqerju0Doe8Dah90suXb5oo=.sha256",
     "branch": [
-      "%wrRvMFdx2aOksjmIqmg1E494r4cfq3HvRozg9lb23RA=.sha256"
+      "%d4zgBDeP33UqQQfGKQZKcnc+fctpVMXY8rU7Sxf6iHA=.sha256",
+      "%sxaEk3Kdu9EiNxoZKbe/Gn1yp6Zi6Ta4je/M/f6nqmg=.sha256"
     ]
   },
-  "signature": "wAFRQP4iEpcGuatCvgFu9nAe+lBNUHEUmJe2FUUF1d3uULvMBLL5oNTlyrqGI6JPXz8cWoMoE3s9RslVGf42DQ==.sig.ed25519"
+  "signature": "O54FsO1Fs0nX9y8Rnmi4JTdlKz9mYgE5Wg/LsAUllwSfOoMvhH0chq6FgidijNFkzvjPBI5sckx435BZP0lSBg==.sig.ed25519"
 }
