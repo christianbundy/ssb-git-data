@@ -1,18 +1,22 @@
 {
-  "previous": "%TrDSLXhWyfYjWnja7wk410GOACtEG8lTdEAgwFCuvns=.sha256",
-  "sequence": 14716,
+  "previous": "%03/aadBhIebhAM/CNoweX6KbOiNfCJYGAtKRmqs5kCM=.sha256",
+  "sequence": 14717,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579051736761,
+  "timestamp": 1579051781447,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%F//fcJEY6hQIYfZre1TN/0d41fO7njqkEwSG75w5kFc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nNow the important one is `conn.json`, btw, although `gossip.json` is still helpful (if it exists).",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%0xTZ703I/zKfrTjsi2qf6fr/8CYI5nEfckB1gurQSkE=.sha256",
     "branch": [
-      "%F//fcJEY6hQIYfZre1TN/0d41fO7njqkEwSG75w5kFc=.sha256"
+      "%1lgGdFvysxX9epbekLWWqyxCUM/a/UkAG2VLipnS9Fw=.sha256"
     ]
   },
-  "signature": "iNn+XXSrFmNdBJ95QZEIVcUf/c+eMp9GjHCf7OtuOdv5BceEwFtVZ8pTtQfOEyjmsLrM4XndWzJWGAUznREzBg==.sig.ed25519"
+  "signature": "cRFVuqNqqgJA756OOS+vg6rgvmG+DzNStVipwWIHTjqftKh0bUjX8kyWFuNbkRRRd8etLOvJlV9e577FpCjrCg==.sig.ed25519"
 }
