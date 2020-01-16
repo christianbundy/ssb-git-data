@@ -1,22 +1,18 @@
 {
-  "previous": "%Ivl3SXxf1b0D2ZGvgWyeE61OCGAMuN+bwscKG10QyVw=.sha256",
-  "sequence": 14760,
+  "previous": "%TIdTOTNFr1WNacwdPsLFeO9lWb3690QzzyQlhiKn4CQ=.sha256",
+  "sequence": 14761,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579206025700,
+  "timestamp": 1579207028329,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kp](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nI am unreasonably excited about how cool Oasis-over-Tor would be. I'd hate to make people mess around with `~/.ssb/config`, maybe we should have a `--tor` flag that disables the default networking and routes everything through your local SOCKS proxy?",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "kp"
-      }
-    ],
-    "root": "%ln9EHC+3OjnF8cqata0AWnt58clkeC96eSwqHVAD/dM=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7uFkKGEgymqDEVxnt4K7StV5KJEuKLrhTZ50TvWKsig=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DUbS20f4tPySsDdu6bN5lMtwPhdc6H6ODwX/0dJWeE4=.sha256"
+      "%7uFkKGEgymqDEVxnt4K7StV5KJEuKLrhTZ50TvWKsig=.sha256"
     ]
   },
-  "signature": "z3m+XeRAad8bDsfAUT210tuNzfpYOd7bur9KBUmwZT0P8g8mkFjeOHyDoCYllRORB+pW4zr7lNKrrg9uRvzxCg==.sig.ed25519"
+  "signature": "uVxld+a98Ba7aVXrPHH4GcwANB8kvCpN0812WfE9jex5VeKJgTgysE2M7D2oo8Z0erjCr9Q21xfhZ28PfetnBw==.sig.ed25519"
 }
