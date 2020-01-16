@@ -1,21 +1,18 @@
 {
-  "previous": "%g7pRLDD+z+Dx7Zh3+X1yvVeewMWMqiWUMAC178q572E=.sha256",
-  "sequence": 14751,
+  "previous": "%VZRfWk/2eA5fxjyTG0Dc3SIF+9ikmH9xBI9kWDn308g=.sha256",
+  "sequence": 14752,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579191421950,
+  "timestamp": 1579191444069,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I bumped into the Gentoo handbook today and found a page called [Java/Why build from source](https://wiki.gentoo.org/wiki/Project:Java/Why_build_from_source). Lots of it is specific to Java, but I saw a few bits I liked:\r\n\r\n> - Building from source ensures that the source exists and compiles properly, which is the basis of regular open-source development.\r\n> - Bugs may be found and fixed between upstream releases. By compiling from source, we are able to isolate patches to address such problems, without having to wait for upstream.\r\n> - When security flaws are found, we want to be able to issue fix as soon as possible. It is not always feasible to wait for the upstream project to make a new release. With binary-only packages, the only fix we can offer is disabling the software entirely by masking it.\r\n> - End-users may want to manually patch or tweak the sources between [unpacking] and [compiling].\r\n> - It is common that we need to apply [custom] tweaks and intermediary patches when upstream takes a long time to issue a new release, which is almost always only possible when we compile from sources.\r\n\r\n**How can we trust software that we can't even build from the original source repository?** I don't want a tarball of build artifacts, I want commit messages and diffs and changing package versions without touching the internet. Hell, I *really* want #git-bug or similar so I can keep track of all the relevant work going on in my upstream modules. Open source consumerism is super convenient but I think we're making trade-offs that aren't in our interests.",
-    "mentions": [
-      {
-        "link": "#git-bug"
-      }
-    ],
-    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%i4H6MenZr88dAzJjl5Pnz96q8qmHaiCh202nI93Fd7I=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%JTevW8AyUpVXz4p4a7+xkUW9qAGQ3eMOcGWYYYOugM4=.sha256"
+      "%i4H6MenZr88dAzJjl5Pnz96q8qmHaiCh202nI93Fd7I=.sha256"
     ]
   },
-  "signature": "6Wj8PF5n6QSlX8kwXSChmAL7WXAO9+PFMiLNjo5af/WkvPt54OxRFAaukeGzQSR55N7fuzMltPiC7DG7G5jSBA==.sig.ed25519"
+  "signature": "BrpD5iWzIl1d1MyGWcne14EuVya2jqHq1DvT8UwYehI4OqE31UAIDTREvV19zX00KW1Ieu5aL9pQpo/BEiTQBQ==.sig.ed25519"
 }
