@@ -1,13 +1,22 @@
 {
-  "previous": "%P6eMXS3qtzGu0p2CWr05RoCZnBOZwvYeu1Bg9vLsOX8=.sha256",
-  "sequence": 14798,
+  "previous": "%mZe0qNU+/9AITrAD2Rtz5Uk9lyXY5HS/R3uqzOu2aUI=.sha256",
+  "sequence": 14799,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579274969209,
+  "timestamp": 1579276713943,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519",
-    "following": true
+    "type": "post",
+    "text": "[@Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Phone) ](@FA3N+f4vfUMYG2Gj0hWB32kHxOySVxrqNHGBOPLUjqY=.ed25519)\r\n\r\n> I’m the only one that Hadn’t bought totally the idea of JS as a general programming language?\r\n\r\nNo, I think this is a common sentiment. Especially if you're talking about Node.js, [you're in good company.](https://github.com/nodejs/roadmap/issues/1)\r\n\r\n> the Promises VS Async problem\r\n\r\nCould this possibly be 'promises vs callbacks'? My feel is that promises add a layer of predictability to callbacks, at the cost of some performance. The real power is here:\r\n\r\n```javascript\r\n// callback style\r\ndb.get(42, (err, person) => {\r\n  db.getOneFriend(person, (err, friend) => {\r\n    db.getOneParent(friend, (err, parent) => {\r\n      console.log(parent) // parent of friend\r\n    })\r\n  })\r\n})\r\n\r\n// promise style\r\ndb.get(42)\r\n  .then(db.getOneFriend)\r\n  .then(db.getOneParent)\r\n  .then(console.log)\r\n```\r\n\r\n> async development turns debug code a nightmare, as there’s nothing ensure that A will run before B\r\n\r\nTrue! Async software is really hard, but it can also be really fast. You can use `await` if you'd like some predictability at the cost of speed.\r\n\r\n> Locking problem\r\n\r\nIf you bump into this with any small pieces of software you've written, feel free to ping me! I know that JS has a bad reputation, but it shouldn't be freezing or locking or anything silly. 🤔\r\n\r\n>  Maybe I’m the stupid one that can’t see how magical is JS.\r\n\r\nNot at all! JS isn't a simple language, it's just a super common language. I think that over time lots of JS devs learn where the footguns are and we end up using a subset of the language, which isn't super visible if you don't know what to look for.",
+    "mentions": [
+      {
+        "link": "@FA3N+f4vfUMYG2Gj0hWB32kHxOySVxrqNHGBOPLUjqY=.ed25519",
+        "name": "Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Phone) "
+      }
+    ],
+    "root": "%K70Fysc8t0PDTJJmFiqzBe0S4GcVl6KRUqHQmk0a6PI=.sha256",
+    "branch": [
+      "%K70Fysc8t0PDTJJmFiqzBe0S4GcVl6KRUqHQmk0a6PI=.sha256"
+    ]
   },
-  "signature": "lMlAZ55gOOsfTTZZ6hmEGuKT+8nRccwyDfZVgpvkLsYLIpbSspbe5la49n74aLW1jQrDosuU8yWWUUSkmswuAQ==.sig.ed25519"
+  "signature": "0ygZYFnOeud3E9tT7SpcPcXM7VZZFJdpvCp0F/yOfuUrowEGSfV7bu2D5XgeLQm0/FzLxe+BKA6HhHQqzIWBDQ==.sig.ed25519"
 }
