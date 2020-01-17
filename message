@@ -1,18 +1,22 @@
 {
-  "previous": "%w7Dg5/m36l0pB4yxwYbxur/SSbxxdmv3K7HslopgzsU=.sha256",
-  "sequence": 14792,
+  "previous": "%wdXjygPJqT0j4mfISVszAGSUjJbJjAetzd/SPuIecPg=.sha256",
+  "sequence": 14793,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579273792612,
+  "timestamp": 1579274615094,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uUqQz5zG7+q6Gl7xKkY+cdt9gvHMsqx3rWbcA+Uzlkk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n> I already had Chocolatey installed and already had Python 2.7 installed and on path (but not from chocolatey).\r\n\r\n🤦\r\n\r\nI mean, *I get it*, package managers have dependency graphs that usually try to avoid checking `$PATH` to see if they need to get a dependency, but that still sucks. I've been thinking lots about dependency management for the past few days and while **it's a super hard problem** it's surprising how many problems we inherit from the existing solutions.\r\n\r\n(FWIW, while working on my hack of a Git-based package manager I realized that Windows doesn't support 'simple' stuff like Unix-style symlinks. Software is hard.)\r\n\r\nTHINKPAD WHEN?!?!",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%uUqQz5zG7+q6Gl7xKkY+cdt9gvHMsqx3rWbcA+Uzlkk=.sha256",
     "branch": [
-      "%uUqQz5zG7+q6Gl7xKkY+cdt9gvHMsqx3rWbcA+Uzlkk=.sha256"
+      "%PwniNzdlQnZcPVj8jvpydv/qhYkdbKRNYAVRayAUhBI=.sha256"
     ]
   },
-  "signature": "0SGkOMsfWEOTRutOnpBS0SCfRSLGUMHT6YasUpJgBaNIHaAEwOWc/XpGAKvkFR69uZSZt7NYvxL/dTVU9bAZCw==.sig.ed25519"
+  "signature": "kKHQ6BQoPkDWT3uK5OYPFBb/NUBWdGViJBuLdYlVhswKg/nJXYfrUMRthOpQ2VvJUCcPf9TsFXGaqrLHRL5QBQ==.sig.ed25519"
 }
