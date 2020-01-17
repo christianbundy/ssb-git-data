@@ -1,20 +1,18 @@
 {
-  "previous": "%0+O/LCafR5AZITV1K4J3AGddjTzRJGMhVngAQUPoygE=.sha256",
-  "sequence": 14804,
+  "previous": "%kGtv5JlQBEDeHWO+uk2CziR4j61alz3WDa0bUDxnv7U=.sha256",
+  "sequence": 14805,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579294394950,
+  "timestamp": 1579294449027,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I am unreasonably proud of this terrible hack: **[Hex-GIF](https://github.com/christianbundy/hex-gif)**\r\n\r\nCreate a tiny 1x1 pixel GIF from a hexadecimal color with no native dependencies. \r\n\r\n```javascript\r\n// This is a tiny white GIF encoded with base64.\r\nconst magicBytes = \"R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=\"\r\nconst whiteGif = Buffer.from(magicBytes, \"base64\")\r\n\r\n// We need to insert our color at offset 13 to replace bytes 13, 14, and 15.\r\nconst colorOffset = 13\r\nconst colorLength = 3\r\n\r\n// The start and end of the GIF never change, so we can repeatedly copy them.\r\nconst gifStart = whiteGif.slice(0, colorOffset)\r\nconst gifEnd = whiteGif.slice(colorOffset + colorLength)\r\n\r\nmodule.exports = (input) => {\r\n  // Only convert last 6 characters, so `ffffff` and `#ffffff` are equivalent.\r\n  const hexColor = input.slice(-6)\r\n  const colorBytes = Buffer.from(hexColor, \"hex\")\r\n  return Buffer.concat([gifStart, colorBytes, gifEnd])\r\n}\r\n```\r\n\r\n#javascript #nodejs",
-    "mentions": [
-      {
-        "link": "#javascript"
-      },
-      {
-        "link": "#nodejs"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%7mLxDzrUkxAbp1uqoY37Ay5Rlk34ltsJ6lEFbvry9+g=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%7mLxDzrUkxAbp1uqoY37Ay5Rlk34ltsJ6lEFbvry9+g=.sha256"
     ]
   },
-  "signature": "5UU01DOFOLGIYrg8mYqCGN0G7/PVUj67HLJL3HvC95cXRoEjMSUC7uAYGKQ41Pf9pL/safyRT0LZihMfu/8rBQ==.sig.ed25519"
+  "signature": "ilEPbFhCDDG2VA//ZmF6sEO2Wn8g66rq1CMJCb4GQ1Ej3CDDvmu9tvAKkmhg6r3VaWQJqzUnfItAiCd1lzRGCw==.sig.ed25519"
 }
