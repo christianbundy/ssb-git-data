@@ -1,25 +1,20 @@
 {
-  "previous": "%vfwDxYwQ0eyd1uHGm0exjXfFmGOBvSxaYGc856neTO0=.sha256",
-  "sequence": 14803,
+  "previous": "%0+O/LCafR5AZITV1K4J3AGddjTzRJGMhVngAQUPoygE=.sha256",
+  "sequence": 14804,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579278663858,
+  "timestamp": 1579294394950,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@isvarahparamahkrsnah](@MQtxamNAFmZgIxbHK9mXnrrkmoa92yRBbi8aVuwO62c=.ed25519)\r\n\r\nHi, sorry to hear you're having indexing troubles as well. There are a few lightweight clients (I'm working on #oasis) that you might want to try, but the indexing thing is a known problem.\r\n\r\n> Also, my .ssb folder size is currently 2.2Gb. Any tips on how to trim it down?\r\n\r\nI'm not sure that you'll be able to trim it down much further, since you're caching all of the content from the network. Here's my `~/.ssb/` directory:\r\n\r\n```console\r\n$ du -sh ~/.ssb/*\r\n4.2G\t/home/christianbundy/.ssb/blobs\r\n40K\t/home/christianbundy/.ssb/blobs_push\r\n388K\t/home/christianbundy/.ssb/conn.json\r\n20K\t/home/christianbundy/.ssb/db\r\n81M\t/home/christianbundy/.ssb/ebt\r\n2.3G\t/home/christianbundy/.ssb/flume\r\n4.0M\t/home/christianbundy/.ssb/ooo\r\n4.0K\t/home/christianbundy/.ssb/secret\r\n0\t/home/christianbundy/.ssb/socket\r\n```",
+    "text": "I am unreasonably proud of this terrible hack: **[Hex-GIF](https://github.com/christianbundy/hex-gif)**\r\n\r\nCreate a tiny 1x1 pixel GIF from a hexadecimal color with no native dependencies. \r\n\r\n```javascript\r\n// This is a tiny white GIF encoded with base64.\r\nconst magicBytes = \"R0lGODlhAQABAIABAP///wAAACwAAAAAAQABAAACAkQBADs=\"\r\nconst whiteGif = Buffer.from(magicBytes, \"base64\")\r\n\r\n// We need to insert our color at offset 13 to replace bytes 13, 14, and 15.\r\nconst colorOffset = 13\r\nconst colorLength = 3\r\n\r\n// The start and end of the GIF never change, so we can repeatedly copy them.\r\nconst gifStart = whiteGif.slice(0, colorOffset)\r\nconst gifEnd = whiteGif.slice(colorOffset + colorLength)\r\n\r\nmodule.exports = (input) => {\r\n  // Only convert last 6 characters, so `ffffff` and `#ffffff` are equivalent.\r\n  const hexColor = input.slice(-6)\r\n  const colorBytes = Buffer.from(hexColor, \"hex\")\r\n  return Buffer.concat([gifStart, colorBytes, gifEnd])\r\n}\r\n```\r\n\r\n#javascript #nodejs",
     "mentions": [
       {
-        "link": "@MQtxamNAFmZgIxbHK9mXnrrkmoa92yRBbi8aVuwO62c=.ed25519",
-        "name": "isvarahparamahkrsnah"
+        "link": "#javascript"
       },
       {
-        "link": "#oasis"
+        "link": "#nodejs"
       }
-    ],
-    "root": "%GxDYQ3WLHyMblgB8Z5Q0ZRO6LIfnjRjICjOLKY1rp5Y=.sha256",
-    "branch": [
-      "%GxDYQ3WLHyMblgB8Z5Q0ZRO6LIfnjRjICjOLKY1rp5Y=.sha256"
     ]
   },
-  "signature": "+BHYtFpksly5xfDfOD+UUlGosAbVjesdokMYoEEVAn8AomF5LcXTX1oepFvRcFny9W6pQPld34Fs4MQI6eOnBQ==.sig.ed25519"
+  "signature": "5UU01DOFOLGIYrg8mYqCGN0G7/PVUj67HLJL3HvC95cXRoEjMSUC7uAYGKQ41Pf9pL/safyRT0LZihMfu/8rBQ==.sig.ed25519"
 }
