@@ -1,13 +1,27 @@
 {
-  "previous": "%WZ3hf4neO9ZrMXjB9rO8W4UHpAMrLETNgq2NgDiyO4E=.sha256",
-  "sequence": 14773,
+  "previous": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
+  "sequence": 14774,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579226511521,
+  "timestamp": 1579226538780,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**Help me find a magical software framework!**\r\n\r\nI have a Node.js application that literally just serves data over HTTP. (It's Oasis.) I'm using Koa, similar to Express, and I'm dreaming of a way to make it work in the browser for people who only have a web browser (not Node.js or HTTP). I'm looking for a **small library that serves HTTP from Node.js or serves a JavaScript web app from the browser**, depending on the environment that it's run on.\r\n\r\nI used to think that [Choo](https://choo.io/) could do this, but I'm not sure anymore. I know that the big front-end frameworks (React, Vue, etc) can do server-side rendering, but it's important to me that my application layer only knows about HTTP. **Can anyone recommend a tool I should use?**",
-    "mentions": []
+    "text": "^ #javascript #nodejs #npm",
+    "mentions": [
+      {
+        "link": "#javascript"
+      },
+      {
+        "link": "#nodejs"
+      },
+      {
+        "link": "#npm"
+      }
+    ],
+    "root": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
+    "branch": [
+      "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256"
+    ]
   },
-  "signature": "G6FmOeSjdTYxiur5LTTLd9b+cUWP0zbtSxNG1hYRewsOsUt4T04fajb1ELQadhuinHVFhHw/29DQasCgJnonBA==.sig.ed25519"
+  "signature": "MXpMmAZbgoKolBNO2U0/Gj97vDb4MjB9A2r37fnbE8//DKEWBnCab9XLqlAWWLhwBlIVMcMR2r7StrJPKYbxDw==.sig.ed25519"
 }
