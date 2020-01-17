@@ -1,18 +1,22 @@
 {
-  "previous": "%a8Op3+uI31ZoYWt2pUf3J2xhEWg8xrCV8Yz9Zx9/ZI8=.sha256",
-  "sequence": 14790,
+  "previous": "%jABe6g+phrf3zE3GCDjSAPyRx4MFXuJhPllJZ24GCzY=.sha256",
+  "sequence": 14791,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579273407440,
+  "timestamp": 1579273497768,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jwGnRXpei0l8UZ7lbuwJ2GM+5DjcEs9ZtoCru4ShJkw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nYou rock! Does it makes the most sense to disable other networking interfaces (and the local UDP broadcast) while using Tor? I can think of lots of use-cases but I want to make sure that when this happens I'm shipping reasonable defaults.",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ],
+    "root": "%ln9EHC+3OjnF8cqata0AWnt58clkeC96eSwqHVAD/dM=.sha256",
     "branch": [
       "%jwGnRXpei0l8UZ7lbuwJ2GM+5DjcEs9ZtoCru4ShJkw=.sha256"
     ]
   },
-  "signature": "YCaSDh4d/subTtMzaOA+cmqjIIwVPR1T/0BExOsU63dULZ6fbABxS9QPS3IXOatI3QEK4+r/xptGxi3vTK6ADA==.sig.ed25519"
+  "signature": "z+sRlRWhfYSIiGUMcD+LntAajwmL2vtJBy/FLjWbcvhyK/5J/nuFf2qqs/XsBcVxk7SF5xBT26CjLCkErqcVAA==.sig.ed25519"
 }
