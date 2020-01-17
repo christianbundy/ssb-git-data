@@ -1,23 +1,25 @@
 {
-  "previous": "%eZmbtlrnmKMjwI8/lfccb/3V1kl+C2jWs4q4JCHfJ8w=.sha256",
-  "sequence": 14802,
+  "previous": "%vfwDxYwQ0eyd1uHGm0exjXfFmGOBvSxaYGc856neTO0=.sha256",
+  "sequence": 14803,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579277214896,
+  "timestamp": 1579278663858,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Ladislas phone](@ldZUKjIVUde2EQ6Qdv+/vTt3o20Ov1cfNBZ8pcIMCnY=.ed25519)\r\n\r\n> You should consider drinking mate\r\n\r\nhomographs are fun",
+    "text": "[@isvarahparamahkrsnah](@MQtxamNAFmZgIxbHK9mXnrrkmoa92yRBbi8aVuwO62c=.ed25519)\r\n\r\nHi, sorry to hear you're having indexing troubles as well. There are a few lightweight clients (I'm working on #oasis) that you might want to try, but the indexing thing is a known problem.\r\n\r\n> Also, my .ssb folder size is currently 2.2Gb. Any tips on how to trim it down?\r\n\r\nI'm not sure that you'll be able to trim it down much further, since you're caching all of the content from the network. Here's my `~/.ssb/` directory:\r\n\r\n```console\r\n$ du -sh ~/.ssb/*\r\n4.2G\t/home/christianbundy/.ssb/blobs\r\n40K\t/home/christianbundy/.ssb/blobs_push\r\n388K\t/home/christianbundy/.ssb/conn.json\r\n20K\t/home/christianbundy/.ssb/db\r\n81M\t/home/christianbundy/.ssb/ebt\r\n2.3G\t/home/christianbundy/.ssb/flume\r\n4.0M\t/home/christianbundy/.ssb/ooo\r\n4.0K\t/home/christianbundy/.ssb/secret\r\n0\t/home/christianbundy/.ssb/socket\r\n```",
     "mentions": [
       {
-        "link": "@ldZUKjIVUde2EQ6Qdv+/vTt3o20Ov1cfNBZ8pcIMCnY=.ed25519",
-        "name": "Ladislas phone"
+        "link": "@MQtxamNAFmZgIxbHK9mXnrrkmoa92yRBbi8aVuwO62c=.ed25519",
+        "name": "isvarahparamahkrsnah"
+      },
+      {
+        "link": "#oasis"
       }
     ],
-    "root": "%0Cts0MGXCcmPInh6JuJvAEtmSdI4IFMTtvAyeyh3ssI=.sha256",
+    "root": "%GxDYQ3WLHyMblgB8Z5Q0ZRO6LIfnjRjICjOLKY1rp5Y=.sha256",
     "branch": [
-      "%QvWMiKT717teIJttlIzQeGlX04PbN3xuaEQz88hbIpU=.sha256",
-      "%snjhm1LEoyFjVinnk8GKpm+DSK+wmndb6ortBBZDziQ=.sha256"
+      "%GxDYQ3WLHyMblgB8Z5Q0ZRO6LIfnjRjICjOLKY1rp5Y=.sha256"
     ]
   },
-  "signature": "CZyRNBLy+ueqSdez6C0+5lVk73xj8UFiMwysmU+goreAy+p/FgkNXaRomhNYIPxqJKAzUCfoXTIUZdE61b3nBw==.sig.ed25519"
+  "signature": "+BHYtFpksly5xfDfOD+UUlGosAbVjesdokMYoEEVAn8AomF5LcXTX1oepFvRcFny9W6pQPld34Fs4MQI6eOnBQ==.sig.ed25519"
 }
