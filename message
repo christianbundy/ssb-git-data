@@ -1,18 +1,22 @@
 {
-  "previous": "%u5j7cg0aKuwpzaCD+njHQAnRmzpsz7+pKtmqnsFis94=.sha256",
-  "sequence": 14821,
+  "previous": "%9GAhaUzr25BgKloepyka13hIg/gWDW9qyXMrNPCtVKU=.sha256",
+  "sequence": 14822,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579364446385,
+  "timestamp": 1579364646506,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Wu62SWMo9RDw+9KEVag9tyrGKrtLfn/49zU9PCqmA6A=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@nick](@UsqL/7R9b4qRjC9jM0xyNPamIFC4JFNoT0GgThdNfAk=.ed25519)\r\n\r\nYup! You'd need to trust that server with your private keys, but otherwise you'd just want HTTPS and some basic authentication. I use [Caddy](https://caddyserver.com/v1/) for HTTPS, but it looks like they do [auth](https://caddyserver.com/v1/docs/basicauth) too.",
+    "mentions": [
+      {
+        "link": "@UsqL/7R9b4qRjC9jM0xyNPamIFC4JFNoT0GgThdNfAk=.ed25519",
+        "name": "nick"
+      }
+    ],
+    "root": "%fSyKyX8dGKO3QZgbwSpYVfaOH0sVlIQvIKaGNYQYb5w=.sha256",
     "branch": [
-      "%Wu62SWMo9RDw+9KEVag9tyrGKrtLfn/49zU9PCqmA6A=.sha256"
+      "%fSyKyX8dGKO3QZgbwSpYVfaOH0sVlIQvIKaGNYQYb5w=.sha256"
     ]
   },
-  "signature": "uxt59nNYaLt5Pmd6F4SuFJVj/rDAcQwcUevntYW0bfepvGxMVQ6ufKlwC7ASX4UOOAi9ahk2jbXk5Ja0HhYpAg==.sig.ed25519"
+  "signature": "FtPxSabahsiqKoxfO9wsSNd+oO/VkK34vb/xvUvCXou7UmqMo1P5akl7svKjm5X4KHH031UN7OTxUCW8anYWAA==.sig.ed25519"
 }
