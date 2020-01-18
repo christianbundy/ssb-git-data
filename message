@@ -1,17 +1,18 @@
 {
-  "previous": "%zx822+jqJSRCkoiMkd8GX4AslRyGCVu3GENMXWoF3Ec=.sha256",
-  "sequence": 14820,
+  "previous": "%u5j7cg0aKuwpzaCD+njHQAnRmzpsz7+pKtmqnsFis94=.sha256",
+  "sequence": 14821,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579313952817,
+  "timestamp": 1579364446385,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Seems to me that there's probably a continuum where 'convenience' is on one side and 'security + predictability + improvement' on the other:\r\n\r\n1. download binaries from a registry\r\n2. build from source from a registry\r\n3. build from source from a centralized Git repository\r\n4. build from source from a P2P Git repository\r\n\r\nIt's really easy to do the first, but I'd really like to see a system where you can do the last **just as easily**, even if it takes a bit longer. Most of us literally can't even build from the actual Git source, not even considering how boned we'd be if our relationship with GitHub became degraded (technically or politically). **We're building an awesome P2P future, and I'd argue that npm and GitHub aren't necessary to get us there.**\r\n\r\nMy one quick point: both npm and GitHub are still Where The People Are, and I think they make for fine *mirrors*, but I'd be very hesitant to continue using them as a source of truth for our activities and artifacts.",
-    "mentions": [],
-    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Wu62SWMo9RDw+9KEVag9tyrGKrtLfn/49zU9PCqmA6A=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%KRloRl/Pa2nKwAKCLw58DmrIdi/mSldY3gjj2LyD57g=.sha256"
+      "%Wu62SWMo9RDw+9KEVag9tyrGKrtLfn/49zU9PCqmA6A=.sha256"
     ]
   },
-  "signature": "XWuoHZ52HNjDS2E2bckReuM1H0KIyKsLBqtpPuGM8ravHgTa22Wbfz81GUQSfSvQDlPjnlCIo3+KOCcS77LlDg==.sig.ed25519"
+  "signature": "uxt59nNYaLt5Pmd6F4SuFJVj/rDAcQwcUevntYW0bfepvGxMVQ6ufKlwC7ASX4UOOAi9ahk2jbXk5Ja0HhYpAg==.sig.ed25519"
 }
