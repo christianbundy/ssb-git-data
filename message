@@ -1,26 +1,18 @@
 {
-  "previous": "%sxWzyPrNnKWxvD1sawb6BZ15MXAdfXxKBHqZVs8n8To=.sha256",
-  "sequence": 14813,
+  "previous": "%oIYBLwOXrYJG1JK6D8BkXuECRhzlzzNGH4tcMqoZsdw=.sha256",
+  "sequence": 14814,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579312655490,
+  "timestamp": 1579312673304,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Offray](@QRttJgVouWhDWpnZHo2BoT5LkGA1irFA+fY+HkGSksc=.ed25519)\r\n\r\n> truly decentralized DVCS\r\n\r\nJust to make sure I understand correctly, is this \"truly decentralized\" because it bundles tickets and patches in the repository, or does it have some other P2P magic I haven't learned about?\r\n\r\nPut another way: if you used #git-bug or similar to add tickets and patches to Git, would it be similarly 'decentralized'?\r\n\r\nI think there's enormous power in pre-installed tools, like Git on macOS and Linux, so I'm super interested in [leveraging those tools for other applications](https://github.com/christianbundy/git-npm), but there are also tools that are *totally worth installing* and maybe Fossil is one of those.",
-    "mentions": [
-      {
-        "link": "@QRttJgVouWhDWpnZHo2BoT5LkGA1irFA+fY+HkGSksc=.ed25519",
-        "name": "Offray"
-      },
-      {
-        "link": "#git-bug"
-      }
-    ],
-    "root": "%bFJ1aNPJ1mNj3U+aEjlLTToLsWlGHCrHxHxcgoAWi/o=.sha256",
-    "fork": "%C437yiAprcNm60jHAUBFlemMBhWEeopObiz5Z/UXy3U=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%oR6sgGIeAZwSP/grpri00tnHs6PAxJbaNWaA3PMqyKo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%bFJ1aNPJ1mNj3U+aEjlLTToLsWlGHCrHxHxcgoAWi/o=.sha256"
+      "%oR6sgGIeAZwSP/grpri00tnHs6PAxJbaNWaA3PMqyKo=.sha256"
     ]
   },
-  "signature": "Q3S7kBuXO6qoFtT+YgWpxLsK595qFdlWSqekMwcsJlWfGqPDQSRHfG1uMS0xlnhH4rjMJn5FQ0OH4qBA7T9gDw==.sig.ed25519"
+  "signature": "WIV+w19OGiBS89rOfOs/73g9QVUfMcqKppFh4P5SHPrGcb/dtBVFU03Uuo2J2hDIOP1lh4Blh0Un1W6+fzddDA==.sig.ed25519"
 }
