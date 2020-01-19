@@ -1,18 +1,17 @@
 {
-  "previous": "%+PfX2LLeizEJ/S4MT+aLQozI8IkfmYOmXhk158Yj1sk=.sha256",
-  "sequence": 14842,
+  "previous": "%lNL0pKOfZe8gZeBUcWa3C5Bt409Oug9is5EPjwqI02g=.sha256",
+  "sequence": 14843,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579457226426,
+  "timestamp": 1579468685096,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rJU5icn9UOPFznaIGIOZI6M5AyJtia6ltaqtcDSPZTw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "I sketched out a small example of what I'm looking for here:\r\n\r\nhttps://github.com/christianbundy/http-spa\r\n\r\nI'd start with the README, or check out `index.js` for the super tiny router code I wrote. If you're running with Node.js you get an HTTP server, if you're running in a web browser you get a single page app. The important thing is that the application code doesn't know (or care) about which interface you're using.\r\n\r\nThe SPA code fixes links, so `href=\"/foo\" is changed to `href=\"#/foo` (which probably breaks non-relative links), and I need to implement some form capturing for HTTP POST support, but otherwise this little example implements most of the behavior I'm looking for. My problem is that I'm 99.999% sure I'm not the only person who has thought about this and I'd rather contribute to an existing project than starting my own little invention.",
+    "mentions": [],
+    "root": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
     "branch": [
-      "%rJU5icn9UOPFznaIGIOZI6M5AyJtia6ltaqtcDSPZTw=.sha256"
+      "%iaLVS0ZAqL7sAr4QXGkJBnGT3k6kF776b6hlvTd9LOQ=.sha256"
     ]
   },
-  "signature": "LLxXQEDoEEKGb70Y/kSr7mi6/8vXkKCOonxgkloTvpQkO8yoA4qKC+dL6WYSMu92A8sgyociUYg4/YusYxniAQ==.sig.ed25519"
+  "signature": "KCK9TvoT9AhpvsBaIu6CU1WDnh5amn7xyCsQVv2YbeUShKvXexBEj/aoY4FpjrPhN9pxXc8HXKfcxjhef+x3Bg==.sig.ed25519"
 }
