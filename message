@@ -1,17 +1,30 @@
 {
-  "previous": "%lNL0pKOfZe8gZeBUcWa3C5Bt409Oug9is5EPjwqI02g=.sha256",
-  "sequence": 14843,
+  "previous": "%yma9UWx2AOb9RC28fka68hVjzc3iXljrHpzcBDQ2gLE=.sha256",
+  "sequence": 14844,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579468685096,
+  "timestamp": 1579469310995,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I sketched out a small example of what I'm looking for here:\r\n\r\nhttps://github.com/christianbundy/http-spa\r\n\r\nI'd start with the README, or check out `index.js` for the super tiny router code I wrote. If you're running with Node.js you get an HTTP server, if you're running in a web browser you get a single page app. The important thing is that the application code doesn't know (or care) about which interface you're using.\r\n\r\nThe SPA code fixes links, so `href=\"/foo\" is changed to `href=\"#/foo` (which probably breaks non-relative links), and I need to implement some form capturing for HTTP POST support, but otherwise this little example implements most of the behavior I'm looking for. My problem is that I'm 99.999% sure I'm not the only person who has thought about this and I'd rather contribute to an existing project than starting my own little invention.",
-    "mentions": [],
-    "root": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
+    "text": "[@VictorBjelkholm (lasoa)](@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519) [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nFWIW once I figure out which tool I can use to solve [this problem](%yma9UWx2AOb9RC28fka68hVjzc3iXljrHpzcBDQ2gLE=.sha256) I'm planning on trying to get Oasis running in the browser too. My only Big Concern is how to save data to the browser securely when you're opening `file:///index.html` or similar.",
+    "mentions": [
+      {
+        "link": "@FlzOOyrhTG+Cl6YND5tReJtd2ufUj3++F0ZsfcPalRc=.ed25519",
+        "name": "VictorBjelkholm (lasoa)"
+      },
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "%yma9UWx2AOb9RC28fka68hVjzc3iXljrHpzcBDQ2gLE=.sha256",
+        "name": "this problem"
+      }
+    ],
+    "root": "%TgxMKhSBuyZhOyQHTOO12SXg5Z1ifDDYGpNC64HmAjc=.sha256",
     "branch": [
-      "%iaLVS0ZAqL7sAr4QXGkJBnGT3k6kF776b6hlvTd9LOQ=.sha256"
+      "%pdiZFGPkizNH0dZFg3lTBDRl1cMkh9UfhbOELYZQQOI=.sha256"
     ]
   },
-  "signature": "KCK9TvoT9AhpvsBaIu6CU1WDnh5amn7xyCsQVv2YbeUShKvXexBEj/aoY4FpjrPhN9pxXc8HXKfcxjhef+x3Bg==.sig.ed25519"
+  "signature": "lIUNjsjQw7K+STQZsZCSvD97Ky99QRLXCI7lBByQKBK02gSE3ckcr1oz9tTnwX68HjLCb5KLvg6brRXJ1RhcBA==.sig.ed25519"
 }
