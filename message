@@ -1,23 +1,27 @@
 {
-  "previous": "%VPgUjVHjQRy4hx39QT/cmLr8NNFie8Ito/LeiP41npU=.sha256",
-  "sequence": 14834,
+  "previous": "%AiERoXqbodAls0Ix0/KyKAcZxk2hKyceMYjHWRVET2w=.sha256",
+  "sequence": 14835,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579453539578,
+  "timestamp": 1579454046033,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@manutopik](@4p5fruty/Y5CSpG9b7Yf8y0HtIWvahCJwCaN0Tn3x+k=.ed25519)\r\n\r\nI haven't, does Nuxt support what I want? My concern with SSR is that it seems to give you some initial data but doesn't continue to work flawlessly if you have JavaScript disabled.",
+    "text": "[@Dave Potts](@jnA0/zkHb0TYLheAhmzNxK6MlOWqHlsk+xxMdy/pRDY=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nI mean that I'd like to server the application over HTTP (with no front-end JS), *or* I can just give someone a `.html` file and they can run it with *only* front-end JS. So the URL could be either:\r\n\r\n- http://localhost/over/the/rainbow\r\n- file:///home/unicorn/index.html#/over/the/rainbow\r\n\r\nI could write this as two applications, but I'd rather write **one application** using a unified interface (literally just basic router stuff) that works on either the Node.js API or the Web API.",
     "mentions": [
       {
-        "link": "@4p5fruty/Y5CSpG9b7Yf8y0HtIWvahCJwCaN0Tn3x+k=.ed25519",
-        "name": "manutopik"
+        "link": "@jnA0/zkHb0TYLheAhmzNxK6MlOWqHlsk+xxMdy/pRDY=.ed25519",
+        "name": "Dave Potts"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%CuV5QDZN6980jKc6a5D5p8rbL2IgCAOxf+9WkreBnSE=.sha256",
-    "fork": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
+    "root": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
     "branch": [
+      "%8bZzs6d15L8jmkeT5SCHWp3jEi/1GxopRKyJZH3+lUU=.sha256",
       "%CuV5QDZN6980jKc6a5D5p8rbL2IgCAOxf+9WkreBnSE=.sha256"
     ]
   },
-  "signature": "fMSKSHJfUMrk3N9sKGVPGiYD3uqZmp/5ju6mS7Ya468CC1aUez67SHtHvo+yCSyeJVhBrPN8non6VIj5KSmgAg==.sig.ed25519"
+  "signature": "TX9J7rcwBOP1td3uVqD31EYd/MS7rzN1JigODZx/3jfdj29ce4sgb8USyOinT5PuSktPbejtX2NtpCg3Pdt4Bg==.sig.ed25519"
 }
