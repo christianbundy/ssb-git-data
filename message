@@ -1,13 +1,19 @@
 {
-  "previous": "%WjGCoJg9xgoay5AX84EL0pThUFIDYTI/+7wvp2jm7O4=.sha256",
-  "sequence": 14858,
+  "previous": "%um/nkETCdpjw96DzRNzTFS0SHzk3aGkGp9eIpE49HTc=.sha256",
+  "sequence": 14859,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579558074578,
+  "timestamp": 1579558086369,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Terrible idea: write some code to make `./configure && make` work on arbitrary npm modules. Worst case scenario we compile a few things from source, but that's way nicer than adding \"you must have Node >= 10\" in the readme and kicking the problem back to the user.",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%u5I++lKLeuOoMjy3m20MzAYllPfWaOFJpghrEeBiYfc=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%/B8A85vo2Y/WYxWl57x2M1dLcm0N1zErUuQzfO9cCnU=.sha256",
+      "%QD9m6lUTUgfVYClS3utBBeCEXMdz9/0fxlq7Lm7Vq+U=.sha256"
+    ]
   },
-  "signature": "NZsxcFTTvK5m7h2ruEbRdvPJxdSvjaZpFB2acyfCFJj+7Ya/pDwUvVxWipI9VVaWqwONVzpHzRWv6sWPJIVRBA==.sig.ed25519"
+  "signature": "d7I3FgE7dPzqQR83fYe7QtQTkbQeb73zeqJo0ChrNgYzmPrf282j0st26RCK/jJXjFy8ZAMxeJBxYPlfCK2KCg==.sig.ed25519"
 }
