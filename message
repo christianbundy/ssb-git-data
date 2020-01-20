@@ -1,22 +1,18 @@
 {
-  "previous": "%YKbtEDy6Ar/FedDpn7vFnqhTlQxNg7ZBasIHyeeOEAs=.sha256",
-  "sequence": 14850,
+  "previous": "%5gXHCqVpcVsKWm/b3dl7Jpulgc23oQt0t0BkbqRCRRs=.sha256",
+  "sequence": 14851,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579488673004,
+  "timestamp": 1579492881836,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\n> I would have to remove various uses of fs and child_process.\r\n\r\nAre these in Patchfoo as well? This sparked my curiouity and now I'm wondering what fun stuff Patchfoo might be doing behind the scenes.\r\n\r\n> Also I would want to make a streaming interface for responses, like using document.write, so that content can be displayed before the page is done loading.\r\n\r\nYeah, +1 over here. Most of the pages of Oasis are fine but pages like the search take *forever* when usually you just want the first result anyway. ]",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      }
-    ],
-    "root": "%lE1YI7wz2xlBfP8TG7BwgZp7PAHQq/K/l+oKMdQp8p8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%XgqERlqJmyeeBnsQnYS+7mn6TPBs3y1TB30d6oORvvA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%kJQcIfyT5c6CGreHxmiCztv8C9tOj9VEimDumQWH5H4=.sha256"
+      "%ieH5ovMcu/6Fx7wXpNsLU+9ZHGtvG2V0hZByyMoB/p4=.sha256"
     ]
   },
-  "signature": "aG+UGj3bGs1feRPKq2BBubA2ywk2BRrfgCuAaqqR21QsvQNJSmPSLt0Ew2gBXlPisK2RZ3Ff/9PkU00x/R5UAA==.sig.ed25519"
+  "signature": "cGdYPoOxEsk0mTNpdDEsXlnKAxn1sPVArrGFBYVoz0b4eI6O41Mj0y6EZehnBs8CURZSA4LbuleKrO4FBd7bCw==.sig.ed25519"
 }
