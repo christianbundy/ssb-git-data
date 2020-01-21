@@ -1,22 +1,22 @@
 {
-  "previous": "%0ybSReyaRx2QVvgGaGNdooSzBsNZ5B7rPu9UP3hKFoU=.sha256",
-  "sequence": 14866,
+  "previous": "%cQ4zo75nrERHcoLsLZHhV1/Vb6cnTNtCHW3pwayeyfs=.sha256",
+  "sequence": 14867,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579633443648,
+  "timestamp": 1579643985390,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@sokx](@X8RK757hw9VR8WGseIu6S8UB0o1FMFjmVCu9L0l7a8k=.ed25519)\r\n\r\nlooks like a bug to me",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nI think about this message every time that I tweak configs or do static analysis and I'm finally going to try to throw it all into one module. Here's a super quick sketch: [common-good](https://github.com/christianbundy/common-good).\r\n\r\nI think the only tool that *needs* a config is ESLint, but in the future I think it'd be great to just set it up with eslint-config-recommended and call it a day. I'm going to try this out in a few of my modules and figure out where the bugs are. The only glaring problems right now:\r\n\r\n- it depends on the `npm_package_main` environment variable so you can only run it via npm\r\n- I think my [janky] `execSync` is removing colors, IIRC I can actually parallelize the commands and *also* avoid the oops-I-broke-console-color problem",
     "mentions": [
       {
-        "link": "@X8RK757hw9VR8WGseIu6S8UB0o1FMFjmVCu9L0l7a8k=.ed25519",
-        "name": "sokx"
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
       }
     ],
-    "root": "%f2Z8089kCKmNBpJRnRTpS8sAw6oulz82Uq9yvSHacgo=.sha256",
+    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
     "branch": [
-      "%f2Z8089kCKmNBpJRnRTpS8sAw6oulz82Uq9yvSHacgo=.sha256"
+      "%BH/1dRyvTSaPXnQYOhMkoxQTx/rKqNOwytAXmsCv8Og=.sha256"
     ]
   },
-  "signature": "pf9R2Dyaz2NO9iHPyNVgDRjWZKxhAN4LmoXPbYpDjSsJPX1LoQqBerzzfirirRdzf3q5ogw/C0g0BNL9eS2+Dg==.sig.ed25519"
+  "signature": "l0rsDS+yB2v4p2ZAaNhoc4axa75EWmpy7+thozbXhDWitnSsICuo3k1rXHibRQ9FGtETcEWk1CZZ+M7rbjH7Dg==.sig.ed25519"
 }
