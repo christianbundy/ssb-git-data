@@ -1,22 +1,22 @@
 {
-  "previous": "%a6XxRr3Iqxb7ue6QXArsWePyjog53zEVhLFbRDWx6ag=.sha256",
-  "sequence": 14882,
+  "previous": "%yyZM3vdSrwv56sPiW04fcr5kDUn02UFdqNDkRKe5Gb8=.sha256",
+  "sequence": 14883,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579712838386,
+  "timestamp": 1579713886262,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\n> Did I do something wrong, or is my code perfect and this `common-good` is just really well configured already?\r\n\r\nYour code is probably perfect. 😇\r\n\r\nBut really though, the expected behavior is:\r\n\r\n- Your indentation should be fixed with `common-good fix` or reported with `common-good check`.\r\n- Your snake_case should be fine because ESLint isn't enforcing style and Prettier refuses to modify code. I'm not sure whether fixing this is within scope (because I've been trying not to inject my own opinions) but maybe?\r\n\r\nI just investigated a bit and I think I found a bug or three on my side. Just pushed a fix. I made a small screen recording of SSB-Keys if you want to check it out: https://asciinema.org/a/KJv84LT2p7ZjIbxkXrGqXmAWk\r\n\r\n(I was going to fix all of the errors, but then I remembered that we're doing [this](https://github.com/ssbc/ssb-keys/blob/588846380f0982c01de884b1c2409ee4f3c51ae0/index.js#L73-L75) which I didn't have time to untangle during the recording.)\r\n\r\nThe diff is available here: https://github.com/ssbc/ssb-keys/commit/c53a75b3269264785ad82a46f076e3e4aefe35d3",
+    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519)\r\n\r\nOh man, I didn't think that through.\r\n\r\n> However, the bug was in the removed fix, so you can’t really backport it to version 1. Then you add a new feature. What will you call it? Will it be 1.3.5? 😄\r\n\r\nI think if you did a new feature then that would be 1.4.3, or if you did a bugfix it would be 1.3.4, right? So you'd end up with:\r\n\r\n\r\n- 1.3.3 (breaking change)\r\n- 0.3.4 (backport bugfix)\r\n- 1.4.3 / 1.3.4 (new feature / fix)\r\n",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
+        "name": "Gergely Polonkai"
       }
     ],
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "root": "%patSIPS3O+6coagFuCkHieJHWDBl4hcQwBTtdNEmTRY=.sha256",
     "branch": [
-      "%4Gk5sF4x15wbu8hF2v0h+lyKHe0eLa40ZAnyUTKLsGU=.sha256"
+      "%TbyLYspPzKC5OyTOMYPBZWd7PnbWbr5yelS4pVEa0Es=.sha256"
     ]
   },
-  "signature": "Z5e8lmxsZb5xHpDog7qJmF17Ma5UZ6KjSyXmZ0Asiw/sL/pY7aH82CpvlBUexnR6JQ+WL763uMG8+6NQo6VdDw==.sig.ed25519"
+  "signature": "EYZPhglRrV0EQXDxLlBo2+/DBxXoKmdnBq5dk125McAAJofffjv4dBoIa+EonQszrCrbqz0Sj5IFuPuoCgdRCQ==.sig.ed25519"
 }
