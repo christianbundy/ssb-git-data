@@ -1,18 +1,22 @@
 {
-  "previous": "%6uabsHWHZz42RDZ1qT5IYt4PXAihr0UOUf0iS5UFO9w=.sha256",
-  "sequence": 14895,
+  "previous": "%r6R0Hy7Glpx39RQH0igsYFBNxMnbfwWkCY3HhvvM/mc=.sha256",
+  "sequence": 14896,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579722327559,
+  "timestamp": 1579728688397,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Aside: I love/hate veg-words like \"chick'n\".",
-    "mentions": [],
-    "root": "%6uabsHWHZz42RDZ1qT5IYt4PXAihr0UOUf0iS5UFO9w=.sha256",
-    "fork": "%EXgNaN5ER2o2Vc6CTX+GAfyVIHIiwQ+up3trw7myfYw=.sha256",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nHmm. If `common-good fix` is behaving correctly, the expected behavior would be that that those lines would look like:\r\n\r\n```javascript\r\n  const read_key = derive(msg_key, labels.read_key)\r\n  const header_key = derive(read_key, labels.header_key) // I want this indentation because it helps understand key derivation\r\n  const body_key = derive(read_key, labels.body_key)\r\n```\r\n\r\nYou could have [Prettier ignore](https://prettier.io/docs/en/ignore.html) that code if you wanted, but the default expectation would be that those lines are formatted predictably.\r\n\r\n> you ran `common-good` with no args. That’s not documented / what do?\r\n\r\nOh, that's the same as `common-good check`. I'm not sure if that's a helpful shortcut or just plain confusing.\r\n\r\n> I thought the point was to provide an opinion not have to generate one?\r\n\r\nYeah, that's one of two frustrations I have right now:\r\n\r\n- TypeScript won't let me install `@types/node` in common-good, they want it installed directly in the project we're linting. Boo.\r\n- ESLint doesn't have a default config, it has a 'recommended' config, and it's not straightforward to use.\r\n\r\nI'll see if I can fix the ESLint thing and avoid having you install Yet Another Thing.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
     "branch": [
-      "%6uabsHWHZz42RDZ1qT5IYt4PXAihr0UOUf0iS5UFO9w=.sha256"
+      "%ZacNo8iMCXPq6ODzl9X+cPOWnKFkwnzHtst4rAlyoI8=.sha256"
     ]
   },
-  "signature": "y4qT8HJX+BjvYyxl00kZ0Is2CVTT32y8sGVaVe87gSYguNKrjGKZc9sSpjT75d8EaXPvSGj1jrkQ/8ghEI9vDA==.sig.ed25519"
+  "signature": "5CrUGulz753HceyZgNWgys5JuzzjW1leCPMTGV+VlEiRdWZHS3E3M4tJ/9DFS/0lfRiL0nqgFckoa58QOQJNBw==.sig.ed25519"
 }
