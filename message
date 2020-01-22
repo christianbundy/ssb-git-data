@@ -1,22 +1,18 @@
 {
-  "previous": "%r6R0Hy7Glpx39RQH0igsYFBNxMnbfwWkCY3HhvvM/mc=.sha256",
-  "sequence": 14896,
+  "previous": "%q34PFF0WqNv7ICVEVcUT4rRgYvMbZusQZwLGgD/QQU8=.sha256",
+  "sequence": 14897,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579728688397,
+  "timestamp": 1579731360601,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nHmm. If `common-good fix` is behaving correctly, the expected behavior would be that that those lines would look like:\r\n\r\n```javascript\r\n  const read_key = derive(msg_key, labels.read_key)\r\n  const header_key = derive(read_key, labels.header_key) // I want this indentation because it helps understand key derivation\r\n  const body_key = derive(read_key, labels.body_key)\r\n```\r\n\r\nYou could have [Prettier ignore](https://prettier.io/docs/en/ignore.html) that code if you wanted, but the default expectation would be that those lines are formatted predictably.\r\n\r\n> you ran `common-good` with no args. That’s not documented / what do?\r\n\r\nOh, that's the same as `common-good check`. I'm not sure if that's a helpful shortcut or just plain confusing.\r\n\r\n> I thought the point was to provide an opinion not have to generate one?\r\n\r\nYeah, that's one of two frustrations I have right now:\r\n\r\n- TypeScript won't let me install `@types/node` in common-good, they want it installed directly in the project we're linting. Boo.\r\n- ESLint doesn't have a default config, it has a 'recommended' config, and it's not straightforward to use.\r\n\r\nI'll see if I can fix the ESLint thing and avoid having you install Yet Another Thing.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%n2wXBFtFd2kHm9K9ipWfsxgiRSdy3d9xfJLKBuehcP0=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ZacNo8iMCXPq6ODzl9X+cPOWnKFkwnzHtst4rAlyoI8=.sha256"
+      "%jR2gNizzH+J7fhWThgrJdTCazF6AvUFW8SMiPlpav7U=.sha256"
     ]
   },
-  "signature": "5CrUGulz753HceyZgNWgys5JuzzjW1leCPMTGV+VlEiRdWZHS3E3M4tJ/9DFS/0lfRiL0nqgFckoa58QOQJNBw==.sig.ed25519"
+  "signature": "mPezObJqEWUMPp+xFsyVgwZbb9Fgs1EMw7/ZuqXMIti93KilzgKxHkO4MgXONCwQvy0YFzXeo5EJmXCOYtiVAQ==.sig.ed25519"
 }
