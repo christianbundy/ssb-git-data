@@ -1,22 +1,18 @@
 {
-  "previous": "%cQ4zo75nrERHcoLsLZHhV1/Vb6cnTNtCHW3pwayeyfs=.sha256",
-  "sequence": 14867,
+  "previous": "%1dBA/UkETir7THIwQj1XEvOk9/MZRkHRyfAiZB8Jrn0=.sha256",
+  "sequence": 14868,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579643985390,
+  "timestamp": 1579659813160,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nI think about this message every time that I tweak configs or do static analysis and I'm finally going to try to throw it all into one module. Here's a super quick sketch: [common-good](https://github.com/christianbundy/common-good).\r\n\r\nI think the only tool that *needs* a config is ESLint, but in the future I think it'd be great to just set it up with eslint-config-recommended and call it a day. I'm going to try this out in a few of my modules and figure out where the bugs are. The only glaring problems right now:\r\n\r\n- it depends on the `npm_package_main` environment variable so you can only run it via npm\r\n- I think my [janky] `execSync` is removing colors, IIRC I can actually parallelize the commands and *also* avoid the oops-I-broke-console-color problem",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%rEfE2Ys8TFirhlRdUlB1EVfAmlwT92EIaq9dDNS87YU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%BH/1dRyvTSaPXnQYOhMkoxQTx/rKqNOwytAXmsCv8Og=.sha256"
+      "%rEfE2Ys8TFirhlRdUlB1EVfAmlwT92EIaq9dDNS87YU=.sha256"
     ]
   },
-  "signature": "l0rsDS+yB2v4p2ZAaNhoc4axa75EWmpy7+thozbXhDWitnSsICuo3k1rXHibRQ9FGtETcEWk1CZZ+M7rbjH7Dg==.sig.ed25519"
+  "signature": "3ViU1avhoDB4qae6+x8hio8y7/CVXg4rsuiYddMd9Au082MBUTy/JN9HVcba51GjPDrVKHZ6vRWTYrOc5aQWBA==.sig.ed25519"
 }
