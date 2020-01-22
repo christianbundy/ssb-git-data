@@ -1,22 +1,23 @@
 {
-  "previous": "%yyZM3vdSrwv56sPiW04fcr5kDUn02UFdqNDkRKe5Gb8=.sha256",
-  "sequence": 14883,
+  "previous": "%FyzbSbN3njUvD1ZHCfQ5VFJwGiyxtArixPWlplTWMLI=.sha256",
+  "sequence": 14884,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579713886262,
+  "timestamp": 1579715471642,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519)\r\n\r\nOh man, I didn't think that through.\r\n\r\n> However, the bug was in the removed fix, so you can’t really backport it to version 1. Then you add a new feature. What will you call it? Will it be 1.3.5? 😄\r\n\r\nI think if you did a new feature then that would be 1.4.3, or if you did a bugfix it would be 1.3.4, right? So you'd end up with:\r\n\r\n\r\n- 1.3.3 (breaking change)\r\n- 0.3.4 (backport bugfix)\r\n- 1.4.3 / 1.3.4 (new feature / fix)\r\n",
+    "text": "[@micro](@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519)\r\n\r\nI hadn't seen KISS, that looks really interesting. I love how small it is, although [obviously] I'd imagine it leaves a few conveniences to be desired.",
     "mentions": [
       {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
+        "link": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
+        "name": "micro"
       }
     ],
-    "root": "%patSIPS3O+6coagFuCkHieJHWDBl4hcQwBTtdNEmTRY=.sha256",
+    "root": "%jqXxZd1tIVqjJVWimUC18wZT8XfXCl8m5P774FRJvmw=.sha256",
     "branch": [
-      "%TbyLYspPzKC5OyTOMYPBZWd7PnbWbr5yelS4pVEa0Es=.sha256"
+      "%GKZc1raWBZjqDYe5pJ5qKLRtvY7QOAqFEB86Tunrhng=.sha256",
+      "%e7zXvktt18x+WPfq3YdBlH/wp42Hvuf/LIPVPvBBLso=.sha256"
     ]
   },
-  "signature": "EYZPhglRrV0EQXDxLlBo2+/DBxXoKmdnBq5dk125McAAJofffjv4dBoIa+EonQszrCrbqz0Sj5IFuPuoCgdRCQ==.sig.ed25519"
+  "signature": "6Datj3Fd7x17KizQ5mlk/TAWJbrlxH55k1qaOTPh5JHPdandImnWzn5BtIUKD4tueO6YAQNdPTxJO+dWQlZdDQ==.sig.ed25519"
 }
