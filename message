@@ -1,13 +1,22 @@
 {
-  "previous": "%c82EuIUWQpuszyaC99q5jh61KrHUIQqgagn0jt9oytU=.sha256",
-  "sequence": 14881,
+  "previous": "%a6XxRr3Iqxb7ue6QXArsWePyjog53zEVhLFbRDWx6ag=.sha256",
+  "sequence": 14882,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579669713399,
+  "timestamp": 1579712838386,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "feeling very appreciative for neck wraps right now",
-    "mentions": []
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\n> Did I do something wrong, or is my code perfect and this `common-good` is just really well configured already?\r\n\r\nYour code is probably perfect. 😇\r\n\r\nBut really though, the expected behavior is:\r\n\r\n- Your indentation should be fixed with `common-good fix` or reported with `common-good check`.\r\n- Your snake_case should be fine because ESLint isn't enforcing style and Prettier refuses to modify code. I'm not sure whether fixing this is within scope (because I've been trying not to inject my own opinions) but maybe?\r\n\r\nI just investigated a bit and I think I found a bug or three on my side. Just pushed a fix. I made a small screen recording of SSB-Keys if you want to check it out: https://asciinema.org/a/KJv84LT2p7ZjIbxkXrGqXmAWk\r\n\r\n(I was going to fix all of the errors, but then I remembered that we're doing [this](https://github.com/ssbc/ssb-keys/blob/588846380f0982c01de884b1c2409ee4f3c51ae0/index.js#L73-L75) which I didn't have time to untangle during the recording.)\r\n\r\nThe diff is available here: https://github.com/ssbc/ssb-keys/commit/c53a75b3269264785ad82a46f076e3e4aefe35d3",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "branch": [
+      "%4Gk5sF4x15wbu8hF2v0h+lyKHe0eLa40ZAnyUTKLsGU=.sha256"
+    ]
   },
-  "signature": "yP2QcvOJPDS/wFhVbvLOpqdrebfC8/mALOP2x84qMaf49UVOCHaOCDc9woA0jxbNimUVVVQuj7aelZA9gLFvCQ==.sig.ed25519"
+  "signature": "Z5e8lmxsZb5xHpDog7qJmF17Ma5UZ6KjSyXmZ0Asiw/sL/pY7aH82CpvlBUexnR6JQ+WL763uMG8+6NQo6VdDw==.sig.ed25519"
 }
