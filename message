@@ -1,13 +1,17 @@
 {
-  "previous": "%6TLWwKS3zC6xhIJkAYFT+05QtcbsSLzbrDEiIAHNE6k=.sha256",
-  "sequence": 14879,
+  "previous": "%patSIPS3O+6coagFuCkHieJHWDBl4hcQwBTtdNEmTRY=.sha256",
+  "sequence": 14880,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579667636666,
+  "timestamp": 1579669152404,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Semver thought: it would be weird if we just incremented the version numbers instead of resetting to zero. Like:\r\n\r\n- first version 0.0.0\r\n- new feature 0.1.0\r\n- new patch 0.1.1\r\n- new feature 0.2.1\r\n- new patch 0.2.2\r\n- new patch 0.2.3\r\n- new feature 0.3.3\r\n- breaking change 1.3.3\r\n\r\nI have a gut feeling that this would more clearly communicate what kind of development has been going on without breaking compatibility with semver.\r\n\r\n🤷",
-    "mentions": []
+    "text": "I got a fun error message today.\r\n\r\n> error: Server does not allow request for unadvertised object\r\n\r\nAll I want are unadvertised objects. :(",
+    "mentions": [],
+    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
+    "branch": [
+      "%u5j7cg0aKuwpzaCD+njHQAnRmzpsz7+pKtmqnsFis94=.sha256"
+    ]
   },
-  "signature": "oEy34lAZdq8cKfOTku6jqls3YlmiJM3iBf4fQrS6t2PiCZhgqnbtQy3owZW9+Cy4n8TrE1PmJOERYMZzsG64Bw==.sig.ed25519"
+  "signature": "XvruFWou0Rv0c0Cm+pDpAuYVMJWoDlA2TCTlOaQye42kWURZT3+49Uv3XwsTM1HqN/HXxKxZPf8sn6fm6wkMAQ==.sig.ed25519"
 }
