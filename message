@@ -1,23 +1,17 @@
 {
-  "previous": "%lyV6MlTFH1UvgYjvLJ676KeaF5gMOCfAOALNoootGlE=.sha256",
-  "sequence": 14888,
+  "previous": "%hZjJlZpd2yoIYsH1B3QjEtOP1E1OlZEn9Bc3KLIzQIc=.sha256",
+  "sequence": 14889,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579716294972,
+  "timestamp": 1579718529920,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@sokx](@X8RK757hw9VR8WGseIu6S8UB0o1FMFjmVCu9L0l7a8k=.ed25519)\r\n\r\nI *do* like that, thank you. Some of my favorite resources are just 'hey I did a thing, here are my notes' and I'll add this to the list. A few years ago I wrote some [related notes](https://gist.github.com/christianbundy/ba62890a7c2f8128bcbb) and I'm always happy to see that other people got something from my scribbles.",
-    "mentions": [
-      {
-        "link": "@X8RK757hw9VR8WGseIu6S8UB0o1FMFjmVCu9L0l7a8k=.ed25519",
-        "name": "sokx"
-      }
-    ],
-    "root": "%GKZc1raWBZjqDYe5pJ5qKLRtvY7QOAqFEB86Tunrhng=.sha256",
-    "fork": "%jqXxZd1tIVqjJVWimUC18wZT8XfXCl8m5P774FRJvmw=.sha256",
+    "text": "So I think I'm getting close to a Master Plan.\r\n\r\n- replace npm with git submodules\r\n- git submodules URL uses git-remote-helper\r\n- helper implements three behaviors:\r\n  - download packfile\r\n    - join swarm\r\n    - report HEAD and request packfile\r\n    - someone else will generate packfile for you\r\n  - show branches\r\n    - signed Git branches from upstream and friends\r\n    - merge whichever patches you want\r\n    - everyone is running closely related software\r\n  - seed in the background for others\r\n\r\nOnce we have that we've solved 90% of package management, now we'd just need to run `./configure && make` and we should be able to build our entire stack from source. Bonus points for specifying the hash of pre-built binaries (REPRODUCIBLE BUILDS) and skipping builds if the dependency is pre-installed.",
+    "mentions": [],
+    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
     "branch": [
-      "%GKZc1raWBZjqDYe5pJ5qKLRtvY7QOAqFEB86Tunrhng=.sha256"
+      "%c82EuIUWQpuszyaC99q5jh61KrHUIQqgagn0jt9oytU=.sha256"
     ]
   },
-  "signature": "1FOSwrGG7XCLAZK88SjiubLIzpHvZmJfdbFuqhHOhg5DuSmbMBIupQ1V4jDMh2JNlFUKWh4EcVCjWkAa3pWSCQ==.sig.ed25519"
+  "signature": "8LWIFhb6qfmJuPGJolafMQRB0wt5a2YV1gNmnYAArguRqQEb2QzEWFUzZ5s06HRLcBZhDXNKnZBRhHDFzydgBg==.sig.ed25519"
 }
