@@ -1,18 +1,22 @@
 {
-  "previous": "%aeVZX00aiZ9PoK6Yy223ZVreBLN6sSuL77xItF3M3WU=.sha256",
-  "sequence": 14886,
+  "previous": "%yT564ZE398thCjOPOAvWyrpNWv5tpr1nb4252fPDp/4=.sha256",
+  "sequence": 14887,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579715651447,
+  "timestamp": 1579716128032,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%cUgF1cxbCeBLdqK2CLUR8TnVkSCnOEwi/RSi0KjK++s=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@abbeyskywalker](@wOofE/n8uHDN0SFKRtU+TTja9JDERSXJBPSE3KEXD9s=.ed25519)\r\n\r\nThanks for sharing this! I've been aware of Radicle but didn't realize that you were going forward with using Git. I've been spending lots of time thinking about how we can leverage Git, like [exporting an SSB feed to Git](https://github.com/christianbundy/ssb-git-data) or replacing npm with [Git as a package manager](https://github.com/christianbundy/git-npm), so I'm really excited to see where you're heading.\r\n\r\nCould you point me to a Git repo that implements Radicle so that I could check it out? I'm fine if I'm missing out on some features, I just want to make sure I can understand where everything is stored in Git.\r\n\r\nLooking forward to learning more!",
+    "mentions": [
+      {
+        "link": "@wOofE/n8uHDN0SFKRtU+TTja9JDERSXJBPSE3KEXD9s=.ed25519",
+        "name": "abbeyskywalker"
+      }
+    ],
+    "root": "%cUgF1cxbCeBLdqK2CLUR8TnVkSCnOEwi/RSi0KjK++s=.sha256",
     "branch": [
       "%cUgF1cxbCeBLdqK2CLUR8TnVkSCnOEwi/RSi0KjK++s=.sha256"
     ]
   },
-  "signature": "UYpiJCILSAKKz+JsynhXDoQ2cfwmlyB3D8m02NodrV9LVaC2JSxBU9xj+QB5AzHHX7N9hlyCbJ0rNPI81nV0BA==.sig.ed25519"
+  "signature": "3ApnOWXf3QGXTkwi8DpU5NGetl6qk75mkBpZIT+MZqlygcAxl7WrgZF+6P4UjOrirjoQZdXMbCDmCOvBTEnEBQ==.sig.ed25519"
 }
