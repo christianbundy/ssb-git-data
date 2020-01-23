@@ -1,22 +1,30 @@
 {
-  "previous": "%xW7CL/TGnXIYdOwjXg7jd+WoMzY35BzE6c+u8Q5M9pY=.sha256",
-  "sequence": 14904,
+  "previous": "%oD3/PK8+u9oSjQVF9YuGUSXLrOwR/ZO11Pph6PShh5o=.sha256",
+  "sequence": 14905,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579799388356,
+  "timestamp": 1579800136877,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n>  Maybe instead of a `configure`, a `configure.js` run with `node configure.js`\r\n\r\n\r\nIs it easier to install Node than it is to install sh/make? My recent thinking is that downloading only binaries is like going out to eat at a restaurant -- it's convenient, but unless you can make something yourself it's impossible to know what's in it (or make changes to the recipe). Having the option to build from source seems important, and I'm curious how hard Windows makes it. :/",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks, that's really great information to know. I'd like to experiment with [this](%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256), but it seems like I should try another approach. I'm actually super jealous of how great Git is at this problem, it's exciting that you can `git fetch` and it magically downloads everything you need from a remote.\r\n\r\n[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> I’m a little bit concerned about following your account from my phone (not an issue on my desktop) if you’re going to put tons of big repos in git-ssb…\r\n\r\nYep, me too -- I'm trying to make my feed smaller (via private follows), not bigger. I'd be very hesitant to add anything big, and was hoping that it'd just post something like:\r\n\r\n- type: git-push\r\n- root: X (first commit in repo)\r\n- HEAD: Y (latest commit in repo)\r\n\r\nFrom there it seems like it'd be possible to negotiate a packfile over MuxRPC or something instead of publishing blobs to the log, but if we use the blob sub-protocol that's a non-starter.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      },
+      {
+        "link": "%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256",
+        "name": "this"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andré"
       }
     ],
-    "root": "%0kU5FKpuSseOwDUuO2DKe+p5XxlzNHFnba+5Vg2IMAg=.sha256",
+    "root": "%xW7CL/TGnXIYdOwjXg7jd+WoMzY35BzE6c+u8Q5M9pY=.sha256",
     "branch": [
-      "%0kU5FKpuSseOwDUuO2DKe+p5XxlzNHFnba+5Vg2IMAg=.sha256"
+      "%q6SwAGojvEqRqSai8yDCod2T3Z2DQQtdi34iIUW+b8Q=.sha256"
     ]
   },
-  "signature": "qQjoRu41JAVGU57G8Sjx+LMwjcumXoKY9KDvlDXhKdOv5GD5RWWWhr3JxZRhRJF/Gh+aTbBCxlp2uv4AnGF5Cw==.sig.ed25519"
+  "signature": "jDj79BibfxB6aRI6O2MV75/cu0pyitz9+p1dEhhfNe1anUYTnOcNx8myHfWRLvZ1oY8x0jik/prYawYZqypxAQ==.sig.ed25519"
 }
