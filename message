@@ -1,18 +1,23 @@
 {
-  "previous": "%Gk+yj7z6JKrzMhpQMk50iEzOrHG65uVfZco0pO1R55U=.sha256",
-  "sequence": 14917,
+  "previous": "%S14fdjbPXJDgL+UFVJn/eN0PrJBMph1L5jSAuWUcdHY=.sha256",
+  "sequence": 14918,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579816449234,
+  "timestamp": 1579816798248,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Q/0lArZKHNWhrt6xgIeV4aZmQzvpQmy/gWDiOeWxl2M=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nFWIW the existing readme discourages that one. My fav, and the one I think we should recommend:\r\n\r\n```javascript\r\nssbClient((err, api) => {})\r\n// look ma, no manifest! (ssb-client@4.8.0)\r\n```\r\n\r\nOr if you need custom shenanigans:\r\n\r\n```javascript\r\ncreateCustomClient(\r\n  {keys, config, manifest, remote},\r\n  (err, api) => {}\r\n)\r\n```",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%dka5LyifpeWotdE1LxNGmbk1Jtwme0RUlA0LhfM0blQ=.sha256",
     "branch": [
-      "%Q/0lArZKHNWhrt6xgIeV4aZmQzvpQmy/gWDiOeWxl2M=.sha256"
+      "%NdOdIC98fmu8Ht5YfiQDK1u3uZJFuyWjh3TxuHwT5uY=.sha256",
+      "%q2zl5vvYkxiEeXKL6GmtIMjjdGceOrDeSei6slgHHC4=.sha256"
     ]
   },
-  "signature": "RuVhzyErPDK6EvI5fogg4mdV7Dl5WR6//E9p/UYGxzVF9A38mg/E1wUp+kWgrn6VHx1LX/0jjibJ0Cub2XQgAQ==.sig.ed25519"
+  "signature": "yZ0jODiGEOPAs79oiREKfDw3fwEZZiajn/z9DR0fvzLMDFkILce5l81Nxhr0RKq31saJgTUPAvJchRzUbZM3BA==.sig.ed25519"
 }
