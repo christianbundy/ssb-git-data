@@ -1,17 +1,18 @@
 {
-  "previous": "%Mkj8qSeVNMM5f2Ng5hzKfUnvOXVmno7gyvGg6cTcbJA=.sha256",
-  "sequence": 14900,
+  "previous": "%9WZHqO+Kw7tvEod2gPdDwmIue0xvDx3WxsM0xATrDA0=.sha256",
+  "sequence": 14901,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579756894216,
+  "timestamp": 1579757315619,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "npm is truly haunted\r\n\r\n```console\r\n$ npm --global update --latest\r\nnpm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning EAI_AGAIN: request to https://registry.npmjs.org/cabal-cli failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\nnpm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.\r\nnpm ERR! code EAI_AGAIN\r\nnpm ERR! errno EAI_AGAIN\r\nnpm ERR! request to https://registry.npmjs.org/common-good failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\n\r\nnpm ERR! A complete log of this run can be found in:\r\nnpm ERR!     /home/christianbundy/.npm/_logs/2020-01-23T05_17_07_967Z-debug.log\r\n$ npm --global update --latest\r\nnpm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning EAI_AGAIN: request to https://registry.npmjs.org/cabal-cli failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\nnpm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.\r\nnpm WARN deprecated json-parser@1.1.5: `json-parser` is deprecated. Please use `comment-json` instead\r\n[..................] / fetchMetadata: sill resolveWithNewModule is-number@7.0.0 checking installable status\r\n```",
-    "mentions": [],
-    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Fu0PDKxrHfo94VKYCH2IDhKCej2n9xxwd5fXkio4JVo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256"
+      "%Fu0PDKxrHfo94VKYCH2IDhKCej2n9xxwd5fXkio4JVo=.sha256"
     ]
   },
-  "signature": "s5UKeQ62y8MU3Pac3xXGT1SV3Dvq7U/3QqnTTfwOi5c4O348MO6okiwh5e65Bg+9dnJ2WNh803jddMDOPRaoAQ==.sig.ed25519"
+  "signature": "cJmYQJsJfdIa4xhutQB1rQrUF4PZ7TL6+5+5BqWA6cQ+oRQbjUZhaV3EGovDNNLGLqAaoGvVisJEDrao8Ip7DQ==.sig.ed25519"
 }
