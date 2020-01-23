@@ -1,18 +1,26 @@
 {
-  "previous": "%hZylHPQrm50C2s6ZZ2XHjgqNL8W8ivE07vKA0jL9UtI=.sha256",
-  "sequence": 14925,
+  "previous": "%lQFbGMna2hjg4uz9WwUNc+zeX/IM0I54JaIBrUX/EmE=.sha256",
+  "sequence": 14926,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579822391338,
+  "timestamp": 1579823865679,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%fbRoQwaVmr8LebsPKjJeVpDudqz2QKr5Cl5giNgV19Q=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nSorry, I know I have like 4 different Git experiments swirling around right now. Hard for me to keep them straight too. 😬\r\n\r\nTotally unrelated: I've noticed that we're forking a bunch -- using the graph from [this message](%d6YLxDcLgHvhpoZx2K5uZig6ht8lTAtbACKFRty7q6Y=.sha256), I think I'm posting messages like `n` and `y` (comments on your fork) but your client is replying with messages like `m` and `x` (forking my comments). If you're interested, I'd love to work with you on getting Patchfox supporting these less-forky messages.\r\n\r\n(FWIW, I think Oasis is the only one doing them now, but it displays as-expected in Patchwork/Patchbay/etc.)",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "%d6YLxDcLgHvhpoZx2K5uZig6ht8lTAtbACKFRty7q6Y=.sha256",
+        "name": "this message"
+      }
+    ],
+    "root": "%LEN2lqEPcN0HVo2iV5mLGl2MwMDHXmgHBLGU4uN8ffU=.sha256",
     "branch": [
-      "%hqNtqLP/40m3EurwgrQ+rcw5T1S/InJJs11lSaTsdgM=.sha256"
+      "%LEN2lqEPcN0HVo2iV5mLGl2MwMDHXmgHBLGU4uN8ffU=.sha256"
     ]
   },
-  "signature": "GT1ekP9D7wT/++sglJyGPhEbSOL+aA4xkpAIVQ1aE1DhVHcPB3kdJ9ZsKlD/wXnQYr+lzbrQj48FnV4Eb71CCg==.sig.ed25519"
+  "signature": "mp/QxuwM0S1OS3im3WptZK1Dfh2eA28GxJIkQJQCDXTH4mE/kNDtlKeFJjXRa+6DnUWLmFwXt76L3SAyt4loAA==.sig.ed25519"
 }
