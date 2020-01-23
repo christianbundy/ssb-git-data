@@ -1,30 +1,18 @@
 {
-  "previous": "%oD3/PK8+u9oSjQVF9YuGUSXLrOwR/ZO11Pph6PShh5o=.sha256",
-  "sequence": 14905,
+  "previous": "%jTvghCeY/3gy88alhprSrDyPc5UuEfPuoxWC5QQlGQM=.sha256",
+  "sequence": 14906,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579800136877,
+  "timestamp": 1579800590240,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThanks, that's really great information to know. I'd like to experiment with [this](%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256), but it seems like I should try another approach. I'm actually super jealous of how great Git is at this problem, it's exciting that you can `git fetch` and it magically downloads everything you need from a remote.\r\n\r\n[@andré](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> I’m a little bit concerned about following your account from my phone (not an issue on my desktop) if you’re going to put tons of big repos in git-ssb…\r\n\r\nYep, me too -- I'm trying to make my feed smaller (via private follows), not bigger. I'd be very hesitant to add anything big, and was hoping that it'd just post something like:\r\n\r\n- type: git-push\r\n- root: X (first commit in repo)\r\n- HEAD: Y (latest commit in repo)\r\n\r\nFrom there it seems like it'd be possible to negotiate a packfile over MuxRPC or something instead of publishing blobs to the log, but if we use the blob sub-protocol that's a non-starter.",
-    "mentions": [
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256",
-        "name": "this"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andré"
-      }
-    ],
-    "root": "%xW7CL/TGnXIYdOwjXg7jd+WoMzY35BzE6c+u8Q5M9pY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%hb+E/GD0LZ+K9uBRZGKQ0ak3h8wogQP9oDGZ4SX2Pq4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%q6SwAGojvEqRqSai8yDCod2T3Z2DQQtdi34iIUW+b8Q=.sha256"
+      "%hb+E/GD0LZ+K9uBRZGKQ0ak3h8wogQP9oDGZ4SX2Pq4=.sha256"
     ]
   },
-  "signature": "jDj79BibfxB6aRI6O2MV75/cu0pyitz9+p1dEhhfNe1anUYTnOcNx8myHfWRLvZ1oY8x0jik/prYawYZqypxAQ==.sig.ed25519"
+  "signature": "FHHzej94Nvp6pXQ4q3UWoPVFA2j3I+4cnNtIbuRvX1koOeQL/+aAxl6My3w2xLbOtbdm+p+g092+mpHNPb/EBQ==.sig.ed25519"
 }
