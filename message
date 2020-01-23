@@ -1,18 +1,22 @@
 {
-  "previous": "%Sx7zTO6NOhU7QNGphCdklf7+GDGfDgQioDWTa0Dl6MI=.sha256",
-  "sequence": 14898,
+  "previous": "%aP4v26st/KKXt19XA0Ei5Rgy0m2dBdmOlxgBUapunQY=.sha256",
+  "sequence": 14899,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579740738728,
+  "timestamp": 1579742205577,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NO8y8WByHTdvmOWvDZS7ENv5Yq/EGRUcFzG5Aoy8xIA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nFIXED\r\n\r\nhttps://asciinema.org/a/NosTxLzmMmuM29WdjKYsjsm2V\r\n\r\nThe only succ is that if you do Node.js-specific stuff you need to run:\r\n\r\n```sh\r\nnpm install --save-dev @types/node\r\n```\r\n\r\nMaybe there's a way to get TS to use the types from common-good instead of making people install their own type modules. Still an improvement I think.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
     "branch": [
-      "%NO8y8WByHTdvmOWvDZS7ENv5Yq/EGRUcFzG5Aoy8xIA=.sha256"
+      "%q34PFF0WqNv7ICVEVcUT4rRgYvMbZusQZwLGgD/QQU8=.sha256"
     ]
   },
-  "signature": "UlFqjvpfJzcxrCQmBqENNgtm5npF9TVXtwRPUT5NYllPbDrJlDgwx5mq/yv+J2fPOsquGOduEkY86PLcDEnEDQ==.sig.ed25519"
+  "signature": "pGpz5f+iFoSD4b4C29X75C4zaVM77W71DB5EsdZcBHTIf8O8J+wKmBrBxfRlQrHPxvT8ju+0KfXJeJR644meBg==.sig.ed25519"
 }
