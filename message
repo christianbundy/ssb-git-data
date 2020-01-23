@@ -1,22 +1,17 @@
 {
-  "previous": "%aP4v26st/KKXt19XA0Ei5Rgy0m2dBdmOlxgBUapunQY=.sha256",
-  "sequence": 14899,
+  "previous": "%Mkj8qSeVNMM5f2Ng5hzKfUnvOXVmno7gyvGg6cTcbJA=.sha256",
+  "sequence": 14900,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579742205577,
+  "timestamp": 1579756894216,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nFIXED\r\n\r\nhttps://asciinema.org/a/NosTxLzmMmuM29WdjKYsjsm2V\r\n\r\nThe only succ is that if you do Node.js-specific stuff you need to run:\r\n\r\n```sh\r\nnpm install --save-dev @types/node\r\n```\r\n\r\nMaybe there's a way to get TS to use the types from common-good instead of making people install their own type modules. Still an improvement I think.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      }
-    ],
-    "root": "%0u+xMFCZORNnhWHjx0O+eHU2An2WMCLDznru/Z/gJvc=.sha256",
+    "text": "npm is truly haunted\r\n\r\n```console\r\n$ npm --global update --latest\r\nnpm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning EAI_AGAIN: request to https://registry.npmjs.org/cabal-cli failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\nnpm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.\r\nnpm ERR! code EAI_AGAIN\r\nnpm ERR! errno EAI_AGAIN\r\nnpm ERR! request to https://registry.npmjs.org/common-good failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\n\r\nnpm ERR! A complete log of this run can be found in:\r\nnpm ERR!     /home/christianbundy/.npm/_logs/2020-01-23T05_17_07_967Z-debug.log\r\n$ npm --global update --latest\r\nnpm WARN registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning EAI_AGAIN: request to https://registry.npmjs.org/cabal-cli failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\r\nnpm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.\r\nnpm WARN deprecated json-parser@1.1.5: `json-parser` is deprecated. Please use `comment-json` instead\r\n[..................] / fetchMetadata: sill resolveWithNewModule is-number@7.0.0 checking installable status\r\n```",
+    "mentions": [],
+    "root": "%AmWF2AEBUaE8oe3PyANu81UAoDXWnpckKaLZpO2MLqs=.sha256",
     "branch": [
-      "%q34PFF0WqNv7ICVEVcUT4rRgYvMbZusQZwLGgD/QQU8=.sha256"
+      "%UEdB/Ya8+QjmowLt7idgBXNF4Ij1del8Ot5Q8jrTj0Y=.sha256"
     ]
   },
-  "signature": "pGpz5f+iFoSD4b4C29X75C4zaVM77W71DB5EsdZcBHTIf8O8J+wKmBrBxfRlQrHPxvT8ju+0KfXJeJR644meBg==.sig.ed25519"
+  "signature": "s5UKeQ62y8MU3Pac3xXGT1SV3Dvq7U/3QqnTTfwOi5c4O348MO6okiwh5e65Bg+9dnJ2WNh803jddMDOPRaoAQ==.sig.ed25519"
 }
