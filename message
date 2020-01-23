@@ -1,22 +1,22 @@
 {
-  "previous": "%i1iUx6MzeXRHQqLEsH7LOY8Ox3NCtak57mg2yQprmuY=.sha256",
-  "sequence": 14921,
+  "previous": "%kDn4MrRWCWfEHxOsiedstoUGksTeyhU2wlkcg8LmMYY=.sha256",
+  "sequence": 14922,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579821225396,
+  "timestamp": 1579821623038,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\n> does it not magically go looking for one at `~/.ssb/manifest.json`?\r\n\r\nNope, it connects and calls the `manifest()` method over MuxRPC to download the server's manifest -- slightly slower, so you wouldn't want to do it if you have lots of round-trip latency, but for local connections it's totally fine.\r\n\r\n> The reason I don’t like that is it assumes a lot and locks you into using the same ssb identity.\r\n\r\nTotally. We could also:\r\n\r\n```javascript\r\nssbClient({ keys }, (err, api) => {})\r\n```\r\n\r\nI'm open to changing the recommendation in the readme, just wanted to point out that there was a conflict. I think any of them could be justified and I don't feel super strongly either way.\r\n\r\nMy dream API:\r\n\r\n```javascript\r\nconst ssb = await ssbClient();\r\n\r\n// or \r\n\r\nconst ssbAgain = await ssbClient({ keys: config.keys });\r\n```",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> if the software will need nodejs anyway, then why not using nodejs to configure and build stuff.\r\n\r\nI think the context is that this Master Plan isn't really specific to Node development -- I'd really like to get rid of prerequisites like \"you must install Node.js 8\" or \"install Cargo\" or whatever *in general*, so the only things that are required are the tools to build a C compiler.\r\n\r\nAs long as a system can compile a compiler, we can build the rest of the toolchain from source (or download binaries, if we have internet access). To be explicit, I don't *want* to compile a bunch of stuff from source, but if you *can't* compile your application from source then you lose out on lots of the benefits of having the source code in the first place.\r\n\r\nAfter trying to download the Git repos for all of my npm modules I'm realizing that most of us couldn't possibly hope to build our applications from source, which both bums me out and freaks me out.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%dka5LyifpeWotdE1LxNGmbk1Jtwme0RUlA0LhfM0blQ=.sha256",
+    "root": "%DofuiFKlTkJ7/8+jihSrXzc43V2JfLZFu2NkQK9dXJM=.sha256",
     "branch": [
-      "%xuLqEl9LfI9zNYiq2tgP0YyUKc4RZkadgwf6pr+lOsM=.sha256"
+      "%DofuiFKlTkJ7/8+jihSrXzc43V2JfLZFu2NkQK9dXJM=.sha256"
     ]
   },
-  "signature": "OrlGxNd9Hd7wzcs+5SkAeqQ1L1XjenIVFJKm+1tOvt8Kw930WTxj1FB4wuG3FgywbydhvOa8D8cH7DbBhIYDDA==.sig.ed25519"
+  "signature": "ZhputDiOrXAnkOpZAn9qm8J7Swa3FwuNa2VnAMc/447gOw/p23hc/uhQkFHVHADZFzMFtfH0J/u+KvazDgVGDA==.sig.ed25519"
 }
