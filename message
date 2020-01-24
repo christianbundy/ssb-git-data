@@ -1,13 +1,17 @@
 {
-  "previous": "%McSZhtTmh47aK8knBekz7W/PX+yQyVNBdieAf8XWmJc=.sha256",
-  "sequence": 14928,
+  "previous": "%iMihQMO2802toRp7HoJFeKe7XHenVnq7zKOz9ZRLIK8=.sha256",
+  "sequence": 14929,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579834401769,
+  "timestamp": 1579834417622,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**Another reason I run TypeScript on my JS files:** when testing [Common-Good](https://github.com/christianbundy/common-good) on Windows I realized that `npm` is actually called `npm.cmd` -- at least in Travis CI. To resolve this, I wrote a small piece of code:\r\n\r\n```javascript\r\nonst npmCommand = process.platform !== \"win\" ? \"npm\" : \"npm.cmd\";\r\n```\r\n\r\nI tried to commit the change, but TypeScript yelled at me. What did I do wrong?!\r\n\r\n> index.js(7,20): error TS2367: This condition will always return 'true' since the types 'Platform' and '\"win\"' have no overlap.\r\n\r\n🤯\r\n\r\nTurns out I should've compared against `\"win32\"`, not `\"win\"`, and TypeScript just saved me at least 10 minutes of debugging. Anyway, using TypeScript to debug JavaScript is awesome, thanks for coming to my TED talk.",
-    "mentions": []
+    "text": "*const\r\n\r\nfml",
+    "mentions": [],
+    "root": "%iMihQMO2802toRp7HoJFeKe7XHenVnq7zKOz9ZRLIK8=.sha256",
+    "branch": [
+      "%iMihQMO2802toRp7HoJFeKe7XHenVnq7zKOz9ZRLIK8=.sha256"
+    ]
   },
-  "signature": "+PiL70Yx2vrPxmPB+xI2Jpkfu0qRxahmoyEhObP7np1/FUMYCy5Tuqd1fVp1RLI7yqdJ4UgBujtrnKx7fiQhAg==.sig.ed25519"
+  "signature": "ic9L8mFhMBGerqX2zozS62ckRg8T4JP/kMwthD3HCiNfAbyfzfihAXgKgHEIoOG9DoKvRfB7/FGlyN06j1SYAw==.sig.ed25519"
 }
