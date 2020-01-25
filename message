@@ -1,18 +1,22 @@
 {
-  "previous": "%uy/1vwtA8hdcc3Q+ttYd6ferfkumIiqD0oioBBcBRtA=.sha256",
-  "sequence": 14942,
+  "previous": "%OsnTdNkjmwzWEnOCklCIJyMRnFak6cw4rlQD3Pem3JM=.sha256",
+  "sequence": 14943,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579941759695,
+  "timestamp": 1579942550082,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UugrKc2T/9C/kGfIqlh0sVrSxWYRaqZBV5mB0SH1OqY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nmentioning you here because you told me to ping both on GH and SSB: I've proposed a [fix](https://github.com/ssbc/ssb-markdown/pull/52), and *also* maybe in the next week do you want to patch Patchwork and Patchbay to make sure they have a basic CSP? Oasis has a [super strict config](https://github.com/fraction/oasis/blob/57702c7b44137fd5cc4524f2ab3ec37d2f60e1ad/src/http.js#L26-L35) but we could do most of those configs in the Electron apps.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      }
+    ],
+    "root": "%noUIXcmrKClBMNi8OhiBH5acWD9qOy+craXuBcneLhw=.sha256",
     "branch": [
-      "%UugrKc2T/9C/kGfIqlh0sVrSxWYRaqZBV5mB0SH1OqY=.sha256"
+      "%noUIXcmrKClBMNi8OhiBH5acWD9qOy+craXuBcneLhw=.sha256"
     ]
   },
-  "signature": "06XEWTHEg1HEYnlRyQ63nHSsBNu6lW2Wb6G2mszYFPgd8xo9l8pPVRS8VqQ6dnppa2NUFJvHZfGdXyS7Ot93Cg==.sig.ed25519"
+  "signature": "9zmpWRZNMRqfPKr6+jSHUMIo7GBGRu4mQ0mDpcd30EgFlxzvf8d8u3X6+UBVGWoqq8K6tJDXjzejEnyNt27UBg==.sig.ed25519"
 }
