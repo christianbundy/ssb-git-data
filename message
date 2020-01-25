@@ -1,18 +1,25 @@
 {
-  "previous": "%NR5YEdIgFKBBqtsHEjUqkceZ2jgw8lnmE2oDNbJSgEE=.sha256",
-  "sequence": 14952,
+  "previous": "%iGvU5fwviU29bxfY8RhJQE1v0tUnxF8GPhfSBA5RBkI=.sha256",
+  "sequence": 14953,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579975759961,
+  "timestamp": 1579975837055,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nIs there a library that you could recommend for SSB gatherings? I saw your [schema library](https://github.com/ssbc/ssb-gathering-schema), which is **fantastic**, but I figured I should ask before reinventing the wheel.\r\n\r\nI think I want a way to take a gathering by its message key and run a reduce function that incorporates all of the latest updates. Maybe there's already a view for this?",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nBitTorrent is great, but I think it's primarily used for #piracy, which *generally* isn't something you want on a public append-only log.",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "#piracy"
       }
+    ],
+    "root": "%tXgQ88FqpPT4Qhc2cjIRtehSlSDW4bknhTsySl9sD0s=.sha256",
+    "branch": [
+      "%xIGvMi869T4AOWnnvRnc8xI5TcRluemAA++icAaiaIA=.sha256"
     ]
   },
-  "signature": "Lh5BinmcvnSpOmpvzAMrOSm+IoNXF3V3NOxcXbyLWfOpqzF4wqqwDKB8o9HXisi2D9M9naEBgzS3AsER5/PtAw==.sig.ed25519"
+  "signature": "CISeH4THefuyOCVPrxNPEMa5tbrx33BeZg4ycIzw8gmnZ3EkSd3Cne5ud5SJIZnTq+WEoNAGrT9H2OmtzKTQDw==.sig.ed25519"
 }
