@@ -1,18 +1,18 @@
 {
-  "previous": "%B3+MVwGF7G46hP3I+F7faiGI1NvJbJ/QzIwRUioaQtI=.sha256",
-  "sequence": 14960,
+  "previous": "%EiAKRx+MHaJlsXeBvqCC1YzmYebaFZs01tAfQ9I2OIw=.sha256",
+  "sequence": 14961,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579978754668,
+  "timestamp": 1579981035891,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "```javascript\r\nconst goldenRatio = (1 + Math.sqrt(5))/2\r\nconst dayDuration = 1000 * 86400\r\nconst timeBetween = goldenRatio * dayDuration\r\n\r\nconst nth = (n) => new Date(n * timeBetween)\r\nconst next = () => nth(Math.ceil(Date.now() / timeBetween))\r\n\r\nnext() // => Sat Jan 25 2020 16:29:00 GMT-0800\r\n```",
-    "mentions": [],
-    "root": "%wtjo7IPHF0ruP1AQvZb48EzQf0uZK3eiEzBIKJzwGZE=.sha256",
-    "fork": "%VXFhaGWyjBPDG0QhXXnhyD4iCN8F/99OlRrwA8nh7/A=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%5MFauXt+HQMDoqber3FU/AU/7BRgjAmQbZ/0Kc1wQRs=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%wtjo7IPHF0ruP1AQvZb48EzQf0uZK3eiEzBIKJzwGZE=.sha256"
+      "%fpn1ethjwefHElr8L50n3w4eL/t2Aa+Ag5qzZyYMMsk=.sha256"
     ]
   },
-  "signature": "eMmU57sU7h+fl1H143U9g0xdC24erIaFhaAcfeHU2KC8bN1JqL/ZAIcDFtqxI6vE+ByKnVjJIRa/Ob+BhyOADA==.sig.ed25519"
+  "signature": "KywOikFRGhQtK68mGfPZbgjNlHWSr1FFbBMs3StcNwgS8WrfRpOMrlkYsGuSA9cA7Z7nWQoIBfYPtOCGo5lkDg==.sig.ed25519"
 }
