@@ -1,22 +1,18 @@
 {
-  "previous": "%25ScDG9hpiBRV0RTiAOU6WvuoS2QlHpeOZW49awpjEM=.sha256",
-  "sequence": 14949,
+  "previous": "%2GVYMASKRQ108ncnR9MA4GBOhoPRK6YwSNdnzPBYi6E=.sha256",
+  "sequence": 14950,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1579970097850,
+  "timestamp": 1579970143307,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@stíobhart](@HRhwtIicvrZYXq/FEqUIWnYevIiCHlWmMan3imqx1Rc=.ed25519)\r\n\r\n> so I could use SSB from mobile and laptop with the same identity.\r\n\r\nDanger! Just so you know, this is a good way to break your feed. SSB relies on a linear list of messages per key, so if you have the key in two places you can have problems. Specifically, if devices A and B post a message at the same time, and A hits the network faster, then none of the messages from device B will be seen as valid.",
-    "mentions": [
-      {
-        "link": "@HRhwtIicvrZYXq/FEqUIWnYevIiCHlWmMan3imqx1Rc=.ed25519",
-        "name": "stíobhart"
-      }
-    ],
-    "root": "%BNUDsh5uirSfQKIFNMKx50YEmUC6V+W6YSqxPcK+1mg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%0T6krRDwl2xPAKpolu/cXctpyFGnDo9UnXLAI1RlhXk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%puJIofL+8+f4Ce7lM2VyKavUnuDe70NWUcwhzUj23GY=.sha256"
+      "%0T6krRDwl2xPAKpolu/cXctpyFGnDo9UnXLAI1RlhXk=.sha256"
     ]
   },
-  "signature": "KAWQvMZy3ufI/nByW3O3uy4WaxPkATW/grXuAlUCDvgoAP9EqeVjuv9E2zoUAl0o/KOjDuz6pr2CjSiHgQlZBg==.sig.ed25519"
+  "signature": "9Fl9V49YUkNghG5OisfW7i4Yb3phs1B7F78Uyl3MPWHhWs5oHpphI3HXcbyeElnuBrHSdN0rTU5+k1EVcF+/Aw==.sig.ed25519"
 }
