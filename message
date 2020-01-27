@@ -1,13 +1,22 @@
 {
-  "previous": "%4VLuX7bUU6ds86F2h9Z01Cjl9Vu84+AUYwlbjbdZTMQ=.sha256",
-  "sequence": 14979,
+  "previous": "%JvVx0a7E2GaMOfLHEJ+KfNY0i1oOHQYfbzFuByaUTbc=.sha256",
+  "sequence": 14980,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580087381646,
+  "timestamp": 1580090397789,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I also love Kurzgesagt.\r\n\r\nNow watching: [Milk. White Poison or Healthy Drink](https://www.youtube.com/watch?v=oakWgLqCwUc)\r\n\r\nI'm only like 30 seconds in but I'm really hoping that this goes the direction I think it will.",
-    "mentions": []
+    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\nDo you just mean the `ws://` bit? That part is the protocol, [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API). There's also `net:`, which is TCP. These are close to being URLs, but [not quite](https://github.com/ssbc/multiserver/issues/24).\r\n\r\nI think [this repo](https://github.com/ssbc/multiserver-address) implements the spec. ",
+    "mentions": [
+      {
+        "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
+        "name": "Borja"
+      }
+    ],
+    "root": "%Ks6nRgKCZdvRBOB7SE1aZToWDrM5xKX8c7cLslyEB+s=.sha256",
+    "branch": [
+      "%Ks6nRgKCZdvRBOB7SE1aZToWDrM5xKX8c7cLslyEB+s=.sha256"
+    ]
   },
-  "signature": "NIledDJBEnoQnAzhMZ4a8tur58jDHlxytSfHpDD9Lguoh+0KtImSa3OFjxo3UMP5Un/Ffr1xAAsS6ybDTrD7Dw==.sig.ed25519"
+  "signature": "TVP0SD3I9oONAkCLdJoSN11tAfMf7jvF3aTRndCGuqbBDcUR9Yo6eufn1t3fX6wDr4S9XzGOLICQEXqyKatQCQ==.sig.ed25519"
 }
