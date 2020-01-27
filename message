@@ -1,18 +1,22 @@
 {
-  "previous": "%xsBqVEb/lmpObFgxRMO1G9MaXghC4gWr2BCU8L0Y7JY=.sha256",
-  "sequence": 14983,
+  "previous": "%HpVO7DPktWqb0JdyXS8foJ29pkHX8o5+s92pzhIy+aM=.sha256",
+  "sequence": 14984,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580103853154,
+  "timestamp": 1580154701047,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%2RfaFBAYyZt5XjFITC3ZKQEbB76r0EQdC1vM54DsNaI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Roeckoe](@k4jPEvDmya+vDq31F7L+GiD5yolHytEAABqOe8QWtPA=.ed25519)\r\n\r\nYour data is stored locally, but it's also stored by everyone who follows you. Your data won't go away, but you *do* want to back up `~/.ssb/secret`, which is your authentication key (and lets you publish messages as yourself).",
+    "mentions": [
+      {
+        "link": "@k4jPEvDmya+vDq31F7L+GiD5yolHytEAABqOe8QWtPA=.ed25519",
+        "name": "Roeckoe"
+      }
+    ],
+    "root": "%86NWr95h/nC81/ejfzighwoQRQdAyf9Ws0AzppPyo6o=.sha256",
     "branch": [
-      "%2RfaFBAYyZt5XjFITC3ZKQEbB76r0EQdC1vM54DsNaI=.sha256"
+      "%zU8rj8RRM0G7mpqaRXL9JYoSWTohInQljLRe7EfSUXc=.sha256"
     ]
   },
-  "signature": "fd6tdnkGxga7vUtvOPZBS6Mh05DHjYEtOLhEGnGhvBWqfaam0uHs2B88qCNyPVB1JfXP8H4hgRjuB2n1EXZBCA==.sig.ed25519"
+  "signature": "/fIsFYIW39YsCNmDUCMFkeJyDguhxPP5M6pevuQWOZZISYS1Ay4DST9AMaWAcILYcxEf9GztfcrplP8h9x2XDw==.sig.ed25519"
 }
