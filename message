@@ -1,18 +1,22 @@
 {
-  "previous": "%XJFysDT76e/VNV16NWsi/ruN7fJc9ntWoKxsyL2HeSk=.sha256",
-  "sequence": 15010,
+  "previous": "%mxiMdhtCRHz8mb6CcaOU0+/yEB/Ff1Y1AAGRUYxpfz8=.sha256",
+  "sequence": 15011,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580245329207,
+  "timestamp": 1580245543913,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%EDYfH1zGVmqlQm6k2BWSJbbdTkIDuXo6CjJuH0aV/Qg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI could be wrong, but isn't that resolved by only accepting patches contributed under the same license as the project?\r\n\r\n> All contributions to the project source code (\"patches\") SHALL use the same license as the project.\r\n\r\nI would be very surprised to learn that someone could irrevocably license their code to the public and then revoke the license later. 😱",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%sh4AhdTw1XjQjOuOOFO36xs0OwK6nlxqHLj2y6ByNTU=.sha256",
     "branch": [
-      "%EDYfH1zGVmqlQm6k2BWSJbbdTkIDuXo6CjJuH0aV/Qg=.sha256"
+      "%sh4AhdTw1XjQjOuOOFO36xs0OwK6nlxqHLj2y6ByNTU=.sha256"
     ]
   },
-  "signature": "qhVpcZ5h7cFU/wrUpmYXtpR8V48o3Ea/v8dBkotdTtuXycQUocJHqdFutkwG3R+oGl6WOXTIkhbSCd6PkjAoBg==.sig.ed25519"
+  "signature": "1uhDCDxFUhTt82KfbeTe+y0/7STqmsmVwTpVxLz0ycgGzeofW5rPJcUQzmKMiQBVIvHwQlM5R8E5z+nXGf8QAA==.sig.ed25519"
 }
