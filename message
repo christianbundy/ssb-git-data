@@ -1,19 +1,31 @@
 {
-  "previous": "%M4oZYnKLYECp51Nt+d+Vx92N2lJXj2JA98+GxbB7hLI=.sha256",
-  "sequence": 15008,
+  "previous": "%9unT2rnRz6/cuYbokzESyJkBvE2epdThpfoet1B6r2s=.sha256",
+  "sequence": 15009,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580244210867,
+  "timestamp": 1580245309720,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YiBecWPnG9iaftO6xRbzsUYxjYOBuZCBI5IEVnH/Uc4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@jacob](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nThanks for the thoughtful feedback! Oasis uses the same threading as Patchwork\\*, it just displays sub-threads (\"forks\") with indentation instead of making you click \"Christian forked this thread\" or whatever Patchwork's current text said. Here's a screenshot that probably explains it better:\r\n\r\n![Screenshot of sub-thread being displayed with indentation](&6vuVBDWE5+xiemqer0LKYoJGbrA5UuVf4wIFhPWFqsI=.sha256)\r\n\r\n\\* One small difference is that Oasis supports commenting on a sub-thread. Patchwork publishes these messages as sibling sub-threads, which *usually* looks fine but sometimes you have two separate sub-threads resulting from the same message. This is rare, but it happens. Here's a screenshot of one of those cases, where I've started two *completely separate* conversations as replies to the same message:\r\n\r\n![Screenshot of two replies to the same message, one asking a technical question and the other where I was discussing the fact that the author had recently died](&c5etPbvX2B0RgY7M2RF/vB/N/t37Mw0Z9ms7+XHq8Ag=.sha256)",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "jacob"
+      },
+      {
+        "link": "&6vuVBDWE5+xiemqer0LKYoJGbrA5UuVf4wIFhPWFqsI=.sha256",
+        "name": "Screenshot of sub-thread being displayed with indentation"
+      },
+      {
+        "link": "&c5etPbvX2B0RgY7M2RF/vB/N/t37Mw0Z9ms7+XHq8Ag=.sha256",
+        "name": "Screenshot of two replies to the same message, one asking a technical question and the other where I was discussing the fact that the author had recently died"
+      }
+    ],
+    "root": "%YiBecWPnG9iaftO6xRbzsUYxjYOBuZCBI5IEVnH/Uc4=.sha256",
     "branch": [
       "%h7KM3YPDnQxRs8eCiN/bkIpwyeVk93BxY/C6oMKccfg=.sha256",
       "%wPogSfCFFdAPvRCoI3Ffz5StPdkOvffnCYCHZbYdhYQ=.sha256"
     ]
   },
-  "signature": "fTdj6SKPLVoPFTqMZFdDia9tloYrIqksZPERZk3b28k0/IfE5HUoWUkMNtD0+wLIzvSmNXj9az9GMiP8hvCPDg==.sig.ed25519"
+  "signature": "U6TiuDoc2f3nUscWw/gO4WBTQVhAJOuJ/hp9WaV1ePec6viuAPUgU1xTPO/qGnD2p0kiVQbGgk5QsZNxFgMgAA==.sig.ed25519"
 }
