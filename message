@@ -1,23 +1,19 @@
 {
-  "previous": "%VivQym4hIHH3NukTHg2mvorQOoD1Pdwak6BLpR/UJFM=.sha256",
-  "sequence": 15007,
+  "previous": "%M4oZYnKLYECp51Nt+d+Vx92N2lJXj2JA98+GxbB7hLI=.sha256",
+  "sequence": 15008,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580243962055,
+  "timestamp": 1580244210867,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nThanks for sharing that link, I hadn't seen that before, and I didn't even know that Richard was working on copyleft-next. I'll take a look at that.\r\n\r\nI like that the C4 process adds some licensing constraints that explicitly disallow proprietary dual-licensing and such:\r\n\r\n> The project SHALL use a share-alike license such as the MPLv2, or a GPLv3 variant thereof (GPL, LGPL, AGPL).\r\n\r\n> All patches are owned by their authors. There SHALL NOT be any copyright assignment process.\r\n\r\nSeems reasonable to me: you can get a proprietary license as long as you get consent from every contributors, but otherwise you need to use the same license as everyone else. 🤷",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      }
-    ],
-    "root": "%FA1javnsJDMWyBVO4jtLdm9binE1jJKjNV4EOI0NARk=.sha256",
-    "fork": "%fKP7N/0+Kv64CC8kkfpqqqCvv0zTnjk8WM13tvI54nw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%YiBecWPnG9iaftO6xRbzsUYxjYOBuZCBI5IEVnH/Uc4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%FA1javnsJDMWyBVO4jtLdm9binE1jJKjNV4EOI0NARk=.sha256"
+      "%h7KM3YPDnQxRs8eCiN/bkIpwyeVk93BxY/C6oMKccfg=.sha256",
+      "%wPogSfCFFdAPvRCoI3Ffz5StPdkOvffnCYCHZbYdhYQ=.sha256"
     ]
   },
-  "signature": "WIO458MAjSAOgtbrIFDqfrmerCfQGlwPvqKA4TMHEVFsrr0TOvGAtWNqAfqdZED1BSKSR5u3bIi+GzQddfRICA==.sig.ed25519"
+  "signature": "fTdj6SKPLVoPFTqMZFdDia9tloYrIqksZPERZk3b28k0/IfE5HUoWUkMNtD0+wLIzvSmNXj9az9GMiP8hvCPDg==.sig.ed25519"
 }
