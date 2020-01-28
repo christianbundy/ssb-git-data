@@ -1,18 +1,23 @@
 {
-  "previous": "%ydptw7EvYRp1KJk0oYHqIFQePUOPYjYAftGTN64ZDfU=.sha256",
-  "sequence": 15006,
+  "previous": "%VivQym4hIHH3NukTHg2mvorQOoD1Pdwak6BLpR/UJFM=.sha256",
+  "sequence": 15007,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580242783818,
+  "timestamp": 1580243962055,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ffhFLjrzXm6XxE7OK6WBcCN0njfcT5Gr55pt9VOCF9w=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nThanks for sharing that link, I hadn't seen that before, and I didn't even know that Richard was working on copyleft-next. I'll take a look at that.\r\n\r\nI like that the C4 process adds some licensing constraints that explicitly disallow proprietary dual-licensing and such:\r\n\r\n> The project SHALL use a share-alike license such as the MPLv2, or a GPLv3 variant thereof (GPL, LGPL, AGPL).\r\n\r\n> All patches are owned by their authors. There SHALL NOT be any copyright assignment process.\r\n\r\nSeems reasonable to me: you can get a proprietary license as long as you get consent from every contributors, but otherwise you need to use the same license as everyone else. 🤷",
+    "mentions": [
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      }
+    ],
+    "root": "%FA1javnsJDMWyBVO4jtLdm9binE1jJKjNV4EOI0NARk=.sha256",
+    "fork": "%fKP7N/0+Kv64CC8kkfpqqqCvv0zTnjk8WM13tvI54nw=.sha256",
     "branch": [
-      "%ffhFLjrzXm6XxE7OK6WBcCN0njfcT5Gr55pt9VOCF9w=.sha256"
+      "%FA1javnsJDMWyBVO4jtLdm9binE1jJKjNV4EOI0NARk=.sha256"
     ]
   },
-  "signature": "k1ICAFb7rz46j30WzaPoP6lYxLKGrndFBBCuArv9C0TDgCShGfWP62Lf4KE1Bk3/uPR7xIUDhYxS32UEl8oqDw==.sig.ed25519"
+  "signature": "WIO458MAjSAOgtbrIFDqfrmerCfQGlwPvqKA4TMHEVFsrr0TOvGAtWNqAfqdZED1BSKSR5u3bIi+GzQddfRICA==.sig.ed25519"
 }
