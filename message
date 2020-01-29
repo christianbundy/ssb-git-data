@@ -1,18 +1,22 @@
 {
-  "previous": "%nnu+IE0FkWR6l85W3zU4YLuQ33YPgm3AEj3Pp7cOt14=.sha256",
-  "sequence": 15038,
+  "previous": "%XfOngaWEY89Rl8OqZFD5EoV8sGr6GEPupqSm8IDf8+o=.sha256",
+  "sequence": 15039,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580281338044,
+  "timestamp": 1580283157364,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%l+sGtx5fWQ+ISZEleTzgpR8Rea9VcH+2vlg3yH/ud/Y=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Kim Hawtin](@6PBpMUBulZlAQIqMc+snD03SREW3jtdTLyPiJVL48ew=.ed25519)\r\n\r\nYou can generate invites without a public IP, but they're only available to people who can reach your computer directly. If you're onboarding friends over LAN, that's fine, but if you're trying to connect over the Internet then that's unfortunately not going to work.\r\n\r\nWe have support for using an overlay network like Tor, but it takes some config. More info here: https://github.com/ssbc/ssb-config/#connections",
+    "mentions": [
+      {
+        "link": "@6PBpMUBulZlAQIqMc+snD03SREW3jtdTLyPiJVL48ew=.ed25519",
+        "name": "Kim Hawtin"
+      }
+    ],
+    "root": "%6w41Ay1Zv1ITesf0ia1twe1ACXj1ZZlQ0QEyOGg9CgI=.sha256",
     "branch": [
-      "%l+sGtx5fWQ+ISZEleTzgpR8Rea9VcH+2vlg3yH/ud/Y=.sha256"
+      "%mOJHOeFCLpchW04JmSHqevjNCcHx4xHiqaGcQUux5LI=.sha256"
     ]
   },
-  "signature": "Ehji/gxMxOYNPjh7lUpSd3NC7UZsefP2lQp0blCDJpCw7Vo958G9ythmztCWpT58lMWULiMAM7X3ljjwUEbKBw==.sig.ed25519"
+  "signature": "Si2QP/loJ1jCm/Pxp0xFz9CRa+JeIjcCeVtWf2TIbTYZ1dqfolJ/f+SBS7jb56AqoVCfbjGJ7kMZDpDDC7CPDA==.sig.ed25519"
 }
