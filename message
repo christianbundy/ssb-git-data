@@ -1,18 +1,22 @@
 {
-  "previous": "%x6R4kiyV0xy6Zz1VHEQM2u+bIRJBqo6CYn/PO+3dnwY=.sha256",
-  "sequence": 15092,
+  "previous": "%gfTEMCt/DwABek14Ye7++eau6aa7oM2gJyGK4nHIB90=.sha256",
+  "sequence": 15093,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580497759283,
+  "timestamp": 1580498656187,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%G8UFdJtLf4KK4yHqzFaakENfjJhCjBDBwtci1M7NxVk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kira](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519)\r\n\r\nOh, bummer! Some of our dependencies (like ESLint) don't support EOL releases and I wanted to avoid future footguns, but maybe that was the wrong move? If you have any trouble updating please let me know and I can either help out or look into supporting Node 8.",
+    "mentions": [
+      {
+        "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+        "name": "kira"
+      }
+    ],
+    "root": "%loflJmtPzAE3k/tofxrhH86+qPxnHaY1bN7Vr+egjzA=.sha256",
     "branch": [
-      "%DLvacoSJMdCVujD/nQdWvLGTtKD0Pw6r2628Q8tpOFU=.sha256"
+      "%eKuuOrjlaCtMANmU8t79FPWloMYm9pPANP0hftzLoOY=.sha256"
     ]
   },
-  "signature": "eipHEqV1Lh7gl4PZSftEU8LobRBjS+KeS3On2z1+tXVLP35QywaXK/IrBbRCG2ES8PjBXyRHdsRi3CRcCySJBw==.sig.ed25519"
+  "signature": "GE3ruAMCa1/DUVAHRkiiGvQTidYSMOYZ60s8gyQpcTatDx9IQSRGkoMJnC7jVe+2bCQ7b91S56SRClAjAYg+AQ==.sig.ed25519"
 }
