@@ -1,18 +1,25 @@
 {
-  "previous": "%lnz3szCmxf3Ja4oIm9xl+FSZjb8Py+2+WpWPigB1zqQ=.sha256",
-  "sequence": 15100,
+  "previous": "%p4CK6BPggfF6tEV7Zu5i5TvsjtLvyA1FR/g+RZQ5zuY=.sha256",
+  "sequence": 15101,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580504411178,
+  "timestamp": 1580508030438,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%t1xKLQTh8itQgQYp8lWRhzFFnBa4MEfnXjMtBaLKBwE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519)\r\n\r\nSorry, I should've been less ambiguous. I don't think that it works that way. If you remember where you read that I might be able to reconcile what the author said vs my understanding. I think this should be true for any client that uses the JS implementation.\r\n\r\nI don't think there's an #ssb-faq, but I know that there's been lots of interest in building one.",
+    "mentions": [
+      {
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
+      },
+      {
+        "link": "#ssb-faq"
+      }
+    ],
+    "root": "%S8zYqOuWkhaWe0ybAp+czAct0tGpGqM0+oDbJ79ZS9c=.sha256",
     "branch": [
-      "%t1xKLQTh8itQgQYp8lWRhzFFnBa4MEfnXjMtBaLKBwE=.sha256"
+      "%ZkdvbyfgisG5qIyAeAVt295WAp6/TqytaZneINQ+Zhw=.sha256"
     ]
   },
-  "signature": "zeGbO4i2U9J1YvkppSjA0TJoCTWjnJwnKbbZYP4V8Qv8qCovWxu73o/91fmNPILIKtITohk5iAQG1CTEh/8jBg==.sig.ed25519"
+  "signature": "QRhsNivqA6Ie7NLiuYg4w6Pu5VSLUEGr/IxxQL46m495vrwLPWUUnu0kx+tY5B+jBEy2i0ex+9T/usR8wxI+AQ==.sig.ed25519"
 }
