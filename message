@@ -1,22 +1,22 @@
 {
-  "previous": "%PzAxfSNlW7Fg8kLZuLEh5BahHlJ6BC6nYfyxlS4eiws=.sha256",
-  "sequence": 15096,
+  "previous": "%4r+vVUxfmZlVjHUvN/WZ8dlsLX9fhmhu/aRmeFYKV6I=.sha256",
+  "sequence": 15097,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580502224628,
+  "timestamp": 1580502468061,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nOh, I didn't see the text of the original post! \r\n\r\n> Would it be ok to send a PR to make sharp an optional dependency and change the code that uses it to accommodate for it not being present? \r\n\r\nI think this is already the case, but if you can improve it further I'd merge any improvements. It should be \r\n\r\n- [optional in `package.json`](https://github.com/fraction/oasis/blob/16d242446991771a53469f7673e3fb103a56aa41/package.json#L60-L62)\r\n- [optionally required in `src/index.js`](https://github.com/fraction/oasis/blob/eca2309769e253ea86a88e04ca38a55ad3742224/src/index.js#L58-L62)",
+    "text": "[@Linas](@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519)\r\n\r\nI don't think it should work that way. If you only have one connection to the network and that person blocks you, you'll become separated from the people that the blocker was connecting you to, but that's it. As long as you're followed by multiple people with social centrality then blocking shouldn't have any big [technical] effect.\r\n\r\nPatchwork has a mute button, I think it's called 'ignore', and it's just a private block.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "@KswLLKHtpKd0Nay95TEmH4vKLYbOMkS6Co716pddmWI=.ed25519",
+        "name": "Linas"
       }
     ],
-    "root": "%2tCZp+OdekzZu9+7W1flCjZZ6EeiORtJfUXyiYmIncM=.sha256",
+    "root": "%S8zYqOuWkhaWe0ybAp+czAct0tGpGqM0+oDbJ79ZS9c=.sha256",
     "branch": [
-      "%PzAxfSNlW7Fg8kLZuLEh5BahHlJ6BC6nYfyxlS4eiws=.sha256"
+      "%eEOiv4nt+h+QQWDh6g8NHV9GoY72xOecAQO6dZmwnpM=.sha256"
     ]
   },
-  "signature": "23RilaWcKiTpyFlbYRjJCFeVG56P3gqZr3WuZlkkiNFImYxwr1RC5eVQNMw3Wz8ee22pjdUgFNCiVxPfGDwVDg==.sig.ed25519"
+  "signature": "d/eSoF/JduHKw0PIE1DlR4ndHfucGFyqOubwt+9V7mH/EPAyA3VvwEUi/gLSwvU+vYaeq5BzwJxy1rlFeeNiAQ==.sig.ed25519"
 }
