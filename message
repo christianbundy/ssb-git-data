@@ -1,22 +1,18 @@
 {
-  "previous": "%UJXsgbiWNfNdPG3kb6wAeOvHiIZe22+zW7ODERg9w0o=.sha256",
-  "sequence": 15108,
+  "previous": "%geHZfjR1toJwAJah/gbm8oCDDos6f7qm0rpO+qOqWjM=.sha256",
+  "sequence": 15109,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580513015680,
+  "timestamp": 1580513019570,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n> Is [Sharp] for image resizing on blob upload?\r\n\r\nIt's only used for resizing images before passing them to the browser. I was curious about memory usage and realized that lots of people upload gigantic high-resolution blobs as profile images, which is *great* until you're showing 100 of them in a tab and IIRC they get duplicated in memory.\r\n\r\nSharp just does a super-quick resize ([example](https://oasis-demo.fraction.io/image/64/%26jqp3ImUpZZ4QD%2FAcST54J24aGaB3lJg5IDG82TeBmN4%3D.sha256)) for thumbnail images so that browsers don't have to hold the full-size image in memory. It's 100% optional and if you don't have it then Oasis just has the same behavior as all of the existing clients: the browser is responsible for the resize.",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%gFLICTFkfLflbzOzxZsh1zWDMpyaMuxKt0yp9q8YSq0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Q3iqbjVCaFELs4QJB8UaLTeJioPpZrCZWr93uJ7HWk0=.sha256",
+      "value": 1
+    },
     "branch": [
       "%Q3iqbjVCaFELs4QJB8UaLTeJioPpZrCZWr93uJ7HWk0=.sha256"
     ]
   },
-  "signature": "DDsV+hkYLvx84+2Uxro7Sj2BEggLhwPt9SZIxa3Hw67Hs6cvR2gv86qW16ygFHvlfomjn7XUUkCMbyR0oB7MDw==.sig.ed25519"
+  "signature": "dwgu/GFf/y+HGVKYwRUaHEatI8JEHu/iMubDoYtMIiZNKjYvfEHlSWaq1b1rTP8W9R1DkHalvs7hv+eE5yi8AQ==.sig.ed25519"
 }
