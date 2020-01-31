@@ -1,22 +1,18 @@
 {
-  "previous": "%TrMVDuqUmG1Pr7RxyRfq6ItOlOJDCTrIMyGYT9LIOLI=.sha256",
-  "sequence": 15104,
+  "previous": "%14LEN3xoD/uzE8dI6NVstM9C3IrMT0DoqzFFEKexPOA=.sha256",
+  "sequence": 15105,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580512559770,
+  "timestamp": 1580512692078,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nConsider this followgraph:\r\n\r\n```\r\nA → B → C\r\n```\r\n\r\nAlice sees Carol through Bob, so if Bob blocks Carol then Alice will no longer see Carol either. In practice, it's usually something like:\r\n\r\n```\r\n┌ → B → ┐\r\n|       ↓\r\nA       C\r\n|       ↑\r\n└ → D → ┘\r\n```\r\n\r\nIf Bob blocks Carol, Alice still has a route to Carol through Dan. If *all* routes to Carol are blocked, then Alice will no longer see Carol, but as long as there's  a path between them and Carol is within Alice's replication distance then the intermediary blocks don't matter in a technical sense.\r\n\r\nSocially, Alice might distance herself from Carol when she notices that Carol is getting blocked for various reasons, but that's another story.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%giBHEHjm/1eUnQyyFZOygoZa2sGGJxM73kWm61oteY8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%VyknnJE4Ez/yoFvjgG9qp1WJVbP8970w+ZmVbfXmKJE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%giBHEHjm/1eUnQyyFZOygoZa2sGGJxM73kWm61oteY8=.sha256"
+      "%oC6xYwz2rE4/qyaMG321CgsHojTQrRplfD6ZB43Ns7k=.sha256"
     ]
   },
-  "signature": "3Kkw28kiGOSN8BMxoLtyxStehnDeY8mojBT0SNu3s36CsoCs6kMywplZOLLZ+VdudEOnTLbtKL2NRcmBD9fQAA==.sig.ed25519"
+  "signature": "N8xqS0PDki/8JANGgM+nVatpaKw7uJWY0mPtjbQZ0N+je5YyI+0qL6oA6aE8aCOE2bKOPG3M+/gh8FZ9cO6oBA==.sig.ed25519"
 }
