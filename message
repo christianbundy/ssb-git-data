@@ -1,9 +1,22 @@
 {
-  "previous": "%axj5CcSuWlEyGkEV52r+kCKgcOu0/wIbbXSBcnup/pE=.sha256",
-  "sequence": 15103,
+  "previous": "%TrMVDuqUmG1Pr7RxyRfq6ItOlOJDCTrIMyGYT9LIOLI=.sha256",
+  "sequence": 15104,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580508459231,
+  "timestamp": 1580512559770,
   "hash": "sha256",
-  "content": "W3QOcUB4Pk7p23zP5mUvtDGX/837na9WsJHoB5WOsGPhPSLfXT1COViTL24jCrjzapkKHv9LqQAZfOogImhLkFb+ytj2p1wsLsHxvwoabKfSGNU7yuG4pZkERKIu6/nA63jza3E2WgoGI9Rs1dEh0OX0noRVjeuJkH/Z+oWMlRiX56UWBI/wOoI6XBD88JuNE50rrRdnE15te2t+HXwcSnzg1F5pJfAZbARphBcQn3t8Lr51YaC6w/0sgVjtfUQ0g250+2lCEc9kLnLqZ/DQGcM59jnbJPrYJprnMhhY6o7O4I5FkuxRVrJuG44J4YY1duyvFukI846ZU0RZJyRTrNym3sZr5SGTCMEGwRcCWWc1UdsEe219FW3gjuHEfogU8mZ/SUNopkf3PfCPhE0appze/7rYZ/3w1kBWuujJhDd0acDOET4hfgFsAN/tIIm/Bq6bvJYsDa0NpOQ1iIkFz+/lfExuxvjhQ6XdFp1NbxcKwQF3ItlV9oPhfunzA5l7cQogrWNkvE8Wc2c0URQ9ULmhwC2pU8eYDhBK/+jPKnmRM15lvA3jVutF14mvt7UDjz1oA/HhuwoO9Uj1yTnIdKE7gepPQMyXDLmTmDklRvlKpF9xG8KHW02utRlJKN3mkIPwfjGOUdDnemF8GayiNQY+8ijljVS8WdXp9Ra1p3B0vGFFUntP9KWjJkzEcUtrijeLWPOQGOcFiX9jjNqDvC9unsRT0rHEVVm9LR0WdyajyG913HNS8Tf6YyzvysRm8+hGgFQNqDr/tFGSObUmc3UIRJdEsuseD59fPoQcAFyIQB2db02OJ1xfATSiVYvxVsWTLIer+Y3KCKG7JDfm26v2flVZKO6lWA/hhii2rgC+kLA=.box",
-  "signature": "afkBRycxjLriPxTNeN6GJoUaQXw5tljT/UgA/G0jTZtOcfl77B9CiE0COeEiIbic/Iwaz86D06HOf+ojcUP/DA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nConsider this followgraph:\r\n\r\n```\r\nA → B → C\r\n```\r\n\r\nAlice sees Carol through Bob, so if Bob blocks Carol then Alice will no longer see Carol either. In practice, it's usually something like:\r\n\r\n```\r\n┌ → B → ┐\r\n|       ↓\r\nA       C\r\n|       ↑\r\n└ → D → ┘\r\n```\r\n\r\nIf Bob blocks Carol, Alice still has a route to Carol through Dan. If *all* routes to Carol are blocked, then Alice will no longer see Carol, but as long as there's  a path between them and Carol is within Alice's replication distance then the intermediary blocks don't matter in a technical sense.\r\n\r\nSocially, Alice might distance herself from Carol when she notices that Carol is getting blocked for various reasons, but that's another story.",
+    "mentions": [
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      }
+    ],
+    "root": "%giBHEHjm/1eUnQyyFZOygoZa2sGGJxM73kWm61oteY8=.sha256",
+    "branch": [
+      "%giBHEHjm/1eUnQyyFZOygoZa2sGGJxM73kWm61oteY8=.sha256"
+    ]
+  },
+  "signature": "3Kkw28kiGOSN8BMxoLtyxStehnDeY8mojBT0SNu3s36CsoCs6kMywplZOLLZ+VdudEOnTLbtKL2NRcmBD9fQAA==.sig.ed25519"
 }
