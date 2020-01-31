@@ -1,12 +1,12 @@
 {
-  "previous": "%VfSvBz0BI0bilAb6/zVBVm8tciXcymWkGwNWKOjii34=.sha256",
-  "sequence": 15095,
+  "previous": "%PzAxfSNlW7Fg8kLZuLEh5BahHlJ6BC6nYfyxlS4eiws=.sha256",
+  "sequence": 15096,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580502068347,
+  "timestamp": 1580502224628,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nDamn, that's really frustrating. If you run `npm start` after that does it not work? My understanding is that it will fail the build loudly but should still work flawlessly.\r\n\r\nYou could also try `npm install --ignore-optional` maybe?",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nOh, I didn't see the text of the original post! \r\n\r\n> Would it be ok to send a PR to make sharp an optional dependency and change the code that uses it to accommodate for it not being present? \r\n\r\nI think this is already the case, but if you can improve it further I'd merge any improvements. It should be \r\n\r\n- [optional in `package.json`](https://github.com/fraction/oasis/blob/16d242446991771a53469f7673e3fb103a56aa41/package.json#L60-L62)\r\n- [optionally required in `src/index.js`](https://github.com/fraction/oasis/blob/eca2309769e253ea86a88e04ca38a55ad3742224/src/index.js#L58-L62)",
     "mentions": [
       {
         "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%2tCZp+OdekzZu9+7W1flCjZZ6EeiORtJfUXyiYmIncM=.sha256",
     "branch": [
-      "%UulcJGyw1o3BtHZ5xim+nM4sAAhkczzYq7KPf1tdQQw=.sha256"
+      "%PzAxfSNlW7Fg8kLZuLEh5BahHlJ6BC6nYfyxlS4eiws=.sha256"
     ]
   },
-  "signature": "avtdaAyI/SweDd3jEa4dzE6+fXs99xwF6jZjHwmoMNQeWkIWIVAHzFxebV0UN3x4UuJXkcMhEPY6bUYn/aX8Bg==.sig.ed25519"
+  "signature": "23RilaWcKiTpyFlbYRjJCFeVG56P3gqZr3WuZlkkiNFImYxwr1RC5eVQNMw3Wz8ee22pjdUgFNCiVxPfGDwVDg==.sig.ed25519"
 }
