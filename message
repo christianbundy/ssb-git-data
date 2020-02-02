@@ -1,22 +1,9 @@
 {
-  "previous": "%XB0NIA6FgO75ZyOHzhLWShqh1UtDe0wT0IK9Odz3OEc=.sha256",
-  "sequence": 15122,
+  "previous": "%oHqEqMi1/RnZ9AMiOUts5pna2Dg045CP9c7zsdoLS8o=.sha256",
+  "sequence": 15123,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580604622503,
+  "timestamp": 1580605192717,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nFlumeviews are basically just `createLogStream({ raw: true })` with a few obligatory methods. I wrote an [in-memory flumeview](https://github.com/fraction/flumeview-array/blob/master/index.js) that scaffolds out the basic structure you have to use.\r\n\r\n> so i don’t really need to `view` any kind of state\r\n\r\nWhen you restart the server do you want your view to reprocess all messages? If not, you'd want to make sure you persist your `since` observable so you can tell FlumeDB which message was the last one you've seen.\r\n\r\nMaking it as a Flumeview is great if you like the [Flumeview API](https://github.com/flumedb/flumedb#flumeview-api) and also want your module to be available to other database connections via `flume[viewName]`, but otherwise you can safely just do your own thing.\r\n\r\nPersonally, I only use Flumeviews because lots of modules depend on Secret-Stack-style dependency injection and they want to access the view at `api[viewName]`, but in projects where I don't use Secret-Stack I really don't miss it.\r\n\r\nFor what it's worth, having multiple dependency systems (Flumeviews, Secret-Stack, Depject, etc) is a pain point for me, so I try to just use the default Node.js dependency system (~CommonJS), but if you enjoy the different trade-offs then you might like Flumeviews for some use-cases.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%rSEltcBQ9MVuR71foKXnbTj5p/MMvlXlwPBMWkmjnfA=.sha256",
-    "branch": [
-      "%rSEltcBQ9MVuR71foKXnbTj5p/MMvlXlwPBMWkmjnfA=.sha256"
-    ]
-  },
-  "signature": "BdxQ/a4Mz+DwURFgHNmUSMDNLQEymWHkTst+6S6fo+rTHFOt5cVRhsjajkUid9fNairKh3NL7ehnJ8lEP/W8Aw==.sig.ed25519"
+  "content": "J0uu9pW/RuGUk3wOdE4yEzMyHVmFtZQCHKusvl32sr45Ks+/aGryolPX2yjTevWd2bh/cN72cHlEMEWD7Td13beUmzYXLDQ+l5bW83pRW0Rye7giFmk/3H+A8qexvh088s1D+H4U4cPiIykncf+KJBZXMTNr5AX4nlzBED2Wnot+I254AATH9CQchtlZmSt/xTZrYJ+mCKbrKbLPH5MmUZOKzeQX40D/Db3l3rAfPMsn5C2Eh04p77vI7ee1dp3fye/wkCgLRt4sdP5Lp0Xrt4scLZJAanp652ED4eFqFnjNFI2mQWsvIu+WUTa7Ei9cdMbQj1YwfCVcOgu9Uih1GNTn3t6hjm4sUoqJYbQLLBC9yoZi3iyX9nl6n/V6IIvA9KVGPfUiq0XgcdyH+k01w7lDREorS7syB1Tu4IB96fKmnkw49rCb6uY/g/TH7d9QBHbTzaLjOMIlWDVGCUSpRNHGZDCLSsGCtE7AfaHTXtdMdcrhwCbpr59BN1rP9Sw2QLkymlg3fZVxT10fCXaynKQ7bz/h/KxYwET2qKEDF6P7Ipp36gL1NpgJn1baZ0IR4xUyW5FmW7qyIN6wjQW1ZIUjv5DsfpxMV+MCK48Mc61h2GmHFP6+C7QowJ82mqTAGXh3tHYG9pvkRlXXIUdcfSWT+ejRK2qxiLJAAARvByNuBWBBoC49hEHfEkYiGuHzz/VK5e4S39Qmw64uKHYRs/7RF6RMOxTAX/BJp0WKMw==.box",
+  "signature": "+SL/3T5UTU70ZkKJZ0oPjXbIH9uLKVe834gevE13q/6jegS2SxrJtkRetRyCnoDVN5+6efvstg0R+8JWUaWrCw==.sig.ed25519"
 }
