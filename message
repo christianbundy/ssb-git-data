@@ -1,18 +1,22 @@
 {
-  "previous": "%Vcts/MDiE+cfaijmzHrUGTeSP0QKgeRM65dOyXrAciI=.sha256",
-  "sequence": 15137,
+  "previous": "%s5ahqibH+9qPlpGpKa1xO+VGGh6wfO6H10h53b/PuH0=.sha256",
+  "sequence": 15138,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580668306969,
+  "timestamp": 1580675318036,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%EdIigUF1lzzXDlFXXmaJL2xux0tIi7ojKOcUg4w7u8k=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@adz](@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519)\r\n\r\n> As I understand all of these implementations are not really “browser only” as they require to have a server running somewhere which knows my keys? Is this correct?\r\n\r\nYep, SSB-Browser is the only one I'm aware of that runs a full SSB node in your browser. It's awesome! With something like [HTTP-SPA](https://github.com/christianbundy/http-spa) Oasis should run fine in the browser too, but we'd need to browserify a bunch of dependencies. I'm looking forward to learning more about the changes that Arj has made during our call tomorrow. I'd love to make sure that the JS to run an SSB node is platform agnostic. Browser, Node.js, etc.",
+    "mentions": [
+      {
+        "link": "@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519",
+        "name": "adz"
+      }
+    ],
+    "root": "%3cZzSLQBeF97sYIkPjFMqhE7sSLF5cy5KyKW3THtX+o=.sha256",
     "branch": [
-      "%EdIigUF1lzzXDlFXXmaJL2xux0tIi7ojKOcUg4w7u8k=.sha256"
+      "%EBV83+O2Xxmeh4mRtTqjBveuML8WDH4fLkTuoFnSJJI=.sha256"
     ]
   },
-  "signature": "71b1P3XSg+8JQeD0ymzVnB0aHeqtqYR6xhzBt0oIPd0BL7DcVDbkqnNIawNIPJpGNBrBgTHLhzbdYyXrZ1Q0AQ==.sig.ed25519"
+  "signature": "Ech67lVYE8udORO1+wkO5KVQ7W+zxhq5qNUIBnahCKL3f56s6OfF9m2k8aCUc+PP48589YQxm6MNmrWGLQC0DA==.sig.ed25519"
 }
