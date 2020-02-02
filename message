@@ -1,12 +1,12 @@
 {
-  "previous": "%s5ahqibH+9qPlpGpKa1xO+VGGh6wfO6H10h53b/PuH0=.sha256",
-  "sequence": 15138,
+  "previous": "%HeahV4Q5+y6djv2WfROuuv4BAHwi6HgqJ3IHmDIxPX4=.sha256",
+  "sequence": 15139,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580675318036,
+  "timestamp": 1580675378254,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@adz](@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519)\r\n\r\n> As I understand all of these implementations are not really “browser only” as they require to have a server running somewhere which knows my keys? Is this correct?\r\n\r\nYep, SSB-Browser is the only one I'm aware of that runs a full SSB node in your browser. It's awesome! With something like [HTTP-SPA](https://github.com/christianbundy/http-spa) Oasis should run fine in the browser too, but we'd need to browserify a bunch of dependencies. I'm looking forward to learning more about the changes that Arj has made during our call tomorrow. I'd love to make sure that the JS to run an SSB node is platform agnostic. Browser, Node.js, etc.",
+    "text": "[@adz](@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519)\r\n\r\nAlso: cool! I didn't read the top of your post, I just saw Arj's quote, but I'll be interested to hear how this experiment goes. Good luck! Looks like fun.",
     "mentions": [
       {
         "link": "@3u2quSQ8qX1fTx4HQKthYPDavQI4Wm88kThExFXemYo=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%3cZzSLQBeF97sYIkPjFMqhE7sSLF5cy5KyKW3THtX+o=.sha256",
     "branch": [
-      "%EBV83+O2Xxmeh4mRtTqjBveuML8WDH4fLkTuoFnSJJI=.sha256"
+      "%HeahV4Q5+y6djv2WfROuuv4BAHwi6HgqJ3IHmDIxPX4=.sha256"
     ]
   },
-  "signature": "Ech67lVYE8udORO1+wkO5KVQ7W+zxhq5qNUIBnahCKL3f56s6OfF9m2k8aCUc+PP48589YQxm6MNmrWGLQC0DA==.sig.ed25519"
+  "signature": "PjhPg9qd22dGt7o7EFMoIv34h62ICu2Ubq/Cafm0zemRdlGYPye7WTb+E9vYVV481ItXzUwoc+8egdLuEmURAw==.sig.ed25519"
 }
