@@ -1,22 +1,26 @@
 {
-  "previous": "%Bm4beEhZEJN0N6PgaZWbt5QKK5P64shsaMTimBh6l5M=.sha256",
-  "sequence": 15163,
+  "previous": "%bJteu67hUqe9hlqJRQjFHmDB1+snA8H1do9qJUgBfwg=.sha256",
+  "sequence": 15164,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580756878591,
+  "timestamp": 1580758162880,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nWe have a [basic Dockerfile](https://github.com/fraction/oasis/blob/master/contrib/Dockerfile) if that helps, feel free to use it as a base and/or improve it!",
+    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nHi! Sorry I didn't see this. Oasis should **absolutely not** include any proprietary software. I feel very strongly that anyone should be able to download the entire dependency graph from source and build / fork it without any binary blobs or copyright infringement.\r\n\r\nThe only sketchy part of Oasis (in my opinion) is that it uses the [centralized] npm registry just like every other Node.js application. I've been experimenting with [replacing npm with Git submodules](%VZRfWk/2eA5fxjyTG0Dc3SIF+9ikmH9xBI9kWDn308g=.sha256), but it's currently too rough to deploy and I don't want Oasis to be hard to install.\r\n\r\nIf you use software to double-check all of the licenses in the stack the only ones that come back as \"proprietary\" are [multicb](https://github.com/pfrazee/multicb) and [stack](https://github.com/creationix/stack), both of which now have free software licenses on GitHub (although their authors haven't updated their npm registry metadata).",
     "mentions": [
       {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
+        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
+        "name": "Tim Makarios"
+      },
+      {
+        "link": "%VZRfWk/2eA5fxjyTG0Dc3SIF+9ikmH9xBI9kWDn308g=.sha256",
+        "name": "replacing npm with Git submodules"
       }
     ],
-    "root": "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256",
+    "root": "%r2ta8ZaMpQ51vIH/OR7TS8O9cyms6OngokYX5LMAW6g=.sha256",
     "branch": [
-      "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256"
+      "%r2ta8ZaMpQ51vIH/OR7TS8O9cyms6OngokYX5LMAW6g=.sha256"
     ]
   },
-  "signature": "zH3oYNtBoGGzCtfD2SkzXW0BKO5Ju5k049w6pVGZLR4L9IAwHXH8X1uf474ZsB7gMBbTDHpjW6WZN5RmBC3CCA==.sig.ed25519"
+  "signature": "iXSROtFM3PehCQvVjtSdnhnDECQDisuyOWCR79LvSIKtdw315Ki8Z5GDQ5YBt8/xjc5/1Tge3d6KeS+ffKj9CA==.sig.ed25519"
 }
