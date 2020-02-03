@@ -1,18 +1,27 @@
 {
-  "previous": "%Q96G/zDHE8cKC/3RoiXXkTQQKeUlRCXFWKeiFz2peBY=.sha256",
-  "sequence": 15149,
+  "previous": "%KAlMoEQJ9qbQYtzasGZhtraOicL0/9rynkYdoC6g97w=.sha256",
+  "sequence": 15150,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580747187692,
+  "timestamp": 1580747588559,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Ckv72DGHPMb5PdGAmZpN6ON+Rv2PH77UJd0JUvh2Tgs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nIf you ever want to be somewhere between 'running in tmux' and 'deploying with docker', using your operating system's service manager (systemd, launchd, etc) works pretty well. The [service file](https://github.com/fraction/oasis/blob/master/contrib/oasis.service) is pretty tiny and you can even install/enable it [programatically with JS](https://github.com/fraction/oasis/blob/master/contrib/install-systemd-service.js).",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mix"
+      },
+      {
+        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
+        "name": "Ace"
+      }
+    ],
+    "root": "%ORsJ5PiQgIvPuXmSFRALtdQgd3UNxHu81ze41b7ImxE=.sha256",
     "branch": [
-      "%Ckv72DGHPMb5PdGAmZpN6ON+Rv2PH77UJd0JUvh2Tgs=.sha256"
+      "%Ckv72DGHPMb5PdGAmZpN6ON+Rv2PH77UJd0JUvh2Tgs=.sha256",
+      "%htsCWsaf7j9CA/jVRYiVqOKm+GwexdH2cxUoBOSNXKw=.sha256"
     ]
   },
-  "signature": "wEjFahDB6+dO60OoqPeXexa8dhzX6NfdRMw4PBn5CTM2r2aytMhSQMCu47q82KTC/oWPjRC6N8n2o2uK7/PUCg==.sig.ed25519"
+  "signature": "6hjw+PzBpwq8GXvXDJ82PHgejcLgsBoToFrKxAotv6cBUe+wp5ForG/WUU7ojSu41dL9eqgMJqNf8X69TN24CA==.sig.ed25519"
 }
