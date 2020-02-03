@@ -1,26 +1,18 @@
 {
-  "previous": "%bJteu67hUqe9hlqJRQjFHmDB1+snA8H1do9qJUgBfwg=.sha256",
-  "sequence": 15164,
+  "previous": "%kGA0IWZL41cEtVFIgNbA7wXdVyi14Q0kCmz6LrkBA48=.sha256",
+  "sequence": 15165,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580758162880,
+  "timestamp": 1580758240924,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nHi! Sorry I didn't see this. Oasis should **absolutely not** include any proprietary software. I feel very strongly that anyone should be able to download the entire dependency graph from source and build / fork it without any binary blobs or copyright infringement.\r\n\r\nThe only sketchy part of Oasis (in my opinion) is that it uses the [centralized] npm registry just like every other Node.js application. I've been experimenting with [replacing npm with Git submodules](%VZRfWk/2eA5fxjyTG0Dc3SIF+9ikmH9xBI9kWDn308g=.sha256), but it's currently too rough to deploy and I don't want Oasis to be hard to install.\r\n\r\nIf you use software to double-check all of the licenses in the stack the only ones that come back as \"proprietary\" are [multicb](https://github.com/pfrazee/multicb) and [stack](https://github.com/creationix/stack), both of which now have free software licenses on GitHub (although their authors haven't updated their npm registry metadata).",
-    "mentions": [
-      {
-        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
-        "name": "Tim Makarios"
-      },
-      {
-        "link": "%VZRfWk/2eA5fxjyTG0Dc3SIF+9ikmH9xBI9kWDn308g=.sha256",
-        "name": "replacing npm with Git submodules"
-      }
-    ],
-    "root": "%r2ta8ZaMpQ51vIH/OR7TS8O9cyms6OngokYX5LMAW6g=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%qatdc04NAAYO7vikBl9WBzkzTisYmHqdr4nh0ndn9eI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%r2ta8ZaMpQ51vIH/OR7TS8O9cyms6OngokYX5LMAW6g=.sha256"
+      "%qatdc04NAAYO7vikBl9WBzkzTisYmHqdr4nh0ndn9eI=.sha256"
     ]
   },
-  "signature": "iXSROtFM3PehCQvVjtSdnhnDECQDisuyOWCR79LvSIKtdw315Ki8Z5GDQ5YBt8/xjc5/1Tge3d6KeS+ffKj9CA==.sig.ed25519"
+  "signature": "zgOIPVqaPGqx1PUb1O1TUw5It3Cf8E+rAGAaMLfEMhjY1IOhkyA75tNmriZpjX+TgSHVBIDGvzSvsw5NIJMEAg==.sig.ed25519"
 }
