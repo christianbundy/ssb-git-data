@@ -1,13 +1,26 @@
 {
-  "previous": "%BcnNkxPH9to3Yp6i4QScR67ZGDPpXKV2QBBFmXjpu08=.sha256",
-  "sequence": 15144,
+  "previous": "%mdFR+fyxgDjw9Z39C6NvcsYLsYHhh5Q2vdsuP57ROYQ=.sha256",
+  "sequence": 15145,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580687759340,
+  "timestamp": 1580691629505,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "fuck trump btw",
-    "mentions": []
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\n> As a general statement I like the idea of being able to see *only* stuff from people i follow as a default\r\n\r\nCool, I just put together an Oasis PR to set that as the default on all of the public feeds. I think this was literally discussed [yesterday or the day before](%loflJmtPzAE3k/tofxrhH86+qPxnHaY1bN7Vr+egjzA=.sha256) too.\r\n\r\nIf you're interested, I just put together [a bit of code](https://github.com/fraction/oasis/pull/148) to add a 'Topics' page to Oasis. I haven't really got to use it much yet, but I'm looking forward to seeing this slice of the network more often.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      },
+      {
+        "link": "%loflJmtPzAE3k/tofxrhH86+qPxnHaY1bN7Vr+egjzA=.sha256",
+        "name": "yesterday or the day before"
+      }
+    ],
+    "root": "%hbxsk6kJx4Y5mNZMO1o8cEAD14IfgVJ5CudMyZ0RWTc=.sha256",
+    "branch": [
+      "%hbxsk6kJx4Y5mNZMO1o8cEAD14IfgVJ5CudMyZ0RWTc=.sha256"
+    ]
   },
-  "signature": "2p8rUUs7roDpOSEKRAi0ypTZ73dUpZ31Izay6v7ygFpdvJAFKMsdGipune1PVCN2UaeqJKNwUtbkT/GxMb5tDQ==.sig.ed25519"
+  "signature": "8EPsvUgSIGai3KiFBKeGexoms4aIgKszd/L74AZisRzwiDTGrOCRM7572RNRVH1j7OKmNXRvSjRSMJjPo18eCQ==.sig.ed25519"
 }
