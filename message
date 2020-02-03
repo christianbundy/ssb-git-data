@@ -1,22 +1,18 @@
 {
-  "previous": "%+Nw7x56gbTwizUbi83WsQ5kjBrvWNFllA8OXO6fOcl4=.sha256",
-  "sequence": 15160,
+  "previous": "%9ORr6k5qcJUTAC0h2VpC5qq7iBj2VBIRHLRCsEMXzzQ=.sha256",
+  "sequence": 15161,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580756603025,
+  "timestamp": 1580756662323,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nIf you're trying to run MuxRPC commands (e.g. `ssb-server whoami`) I'd highly recommend [SSB-CLI](https://github.com/fraction/ssb-cli) instead. I don't know why SSB-Server's MuxRPC integration doesn't connect sometimes, but if that's what you're talking about then I've seen that too.",
-    "mentions": [
-      {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
-      }
-    ],
-    "root": "%ZIcfJC8Divg8pUVhWfXniQvXZVHw7bsSkP6qTY/c0/w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%+Nw7x56gbTwizUbi83WsQ5kjBrvWNFllA8OXO6fOcl4=.sha256"
+      "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256"
     ]
   },
-  "signature": "XzRCJILDNdVh9iTYWXGpfnIkoPyOiIqj6+uaPwAT/L7S3RuDeKCw57FV27FkPn/Dblak4Ud7DMCyiMXJK7ZWAA==.sig.ed25519"
+  "signature": "6DJ7yHS6QZMLLR2Pe/En7SlHJDQRtUouyLNeH0KHK+uIS2TztA5RwpeB96jIh7wo/2hSYjH1sFF6bHgXjLSkDg==.sig.ed25519"
 }
