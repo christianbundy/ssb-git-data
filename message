@@ -1,27 +1,23 @@
 {
-  "previous": "%KAlMoEQJ9qbQYtzasGZhtraOicL0/9rynkYdoC6g97w=.sha256",
-  "sequence": 15150,
+  "previous": "%yfnn0przg4vjBIS6C7YH/9+SLbjmDpFclSqOntSshHA=.sha256",
+  "sequence": 15151,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580747588559,
+  "timestamp": 1580747806107,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@Ace](@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519)\r\n\r\nIf you ever want to be somewhere between 'running in tmux' and 'deploying with docker', using your operating system's service manager (systemd, launchd, etc) works pretty well. The [service file](https://github.com/fraction/oasis/blob/master/contrib/oasis.service) is pretty tiny and you can even install/enable it [programatically with JS](https://github.com/fraction/oasis/blob/master/contrib/install-systemd-service.js).",
+    "text": "[@gwil](@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519)\r\n\r\nThanks for the ping, I'm interested in experimenting with this. I'd merge a patch to add a page like this to Oasis, I think the only big question I have is about the 'mark as read'. We have an [SSB-Unread](https://github.com/ssbc/ssb-unread/) plugin, but it persists your read/unread database to your filesystem instead of your log. I think that's because Patchbay automatically marks stuff as you scroll over it, but I'd *personally* be very bummed if I went to a new computer and lost my yes-I-pressed-a-button-because-Ireally-read-this database. What do you think?",
     "mentions": [
       {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mix"
-      },
-      {
-        "link": "@rUntanbH1/pIEpkuTGVokZIl+8u7jBuroTVraNpu1cE=.ed25519",
-        "name": "Ace"
+        "link": "@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519",
+        "name": "gwil"
       }
     ],
-    "root": "%ORsJ5PiQgIvPuXmSFRALtdQgd3UNxHu81ze41b7ImxE=.sha256",
+    "root": "%4UHRF/xbCaeyk/Jgw92LBWXrfGm9SCo3YIfAVXwtNzw=.sha256",
     "branch": [
-      "%Ckv72DGHPMb5PdGAmZpN6ON+Rv2PH77UJd0JUvh2Tgs=.sha256",
-      "%htsCWsaf7j9CA/jVRYiVqOKm+GwexdH2cxUoBOSNXKw=.sha256"
+      "%kUipe/x1CBo/GssgDBDN22SiQuduQjwI6zqoUjLmKxg=.sha256",
+      "%kfO/zoSvEFEiiNrv1yvwfzgr1ezjjCUfjYJFz3SEq1k=.sha256"
     ]
   },
-  "signature": "6hjw+PzBpwq8GXvXDJ82PHgejcLgsBoToFrKxAotv6cBUe+wp5ForG/WUU7ojSu41dL9eqgMJqNf8X69TN24CA==.sig.ed25519"
+  "signature": "Ds1R6K3nXkw8jqaHSgMZkyOXZ0X+60K2SNUGrqn7dl30fba3EXuAOYzxyZxHcJKjrqcleI1Ha6kunVEPld+LCg==.sig.ed25519"
 }
