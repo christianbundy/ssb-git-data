@@ -1,22 +1,18 @@
 {
-  "previous": "%u6LDsb1uYbojq588xiE1A/pn/GUs6eE3BvI9/Yw1sp8=.sha256",
-  "sequence": 15178,
+  "previous": "%5lGU5j6ajbPSJvr/FlWOecfIN7y1OFQqTxTL6AcrHRs=.sha256",
+  "sequence": 15179,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580771213796,
+  "timestamp": 1580771255563,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nSweet. I've just put together some basic invites with [this commit](https://github.com/fraction/oasis/pull/154/commits/b5b010852da97c8d171236d21c0743426c213909), but it depends on some other PRs that add internationalization stuff, so those need to get merged first.\r\n\r\n> The other item I’m not sure on (but also havent dug into) was setting up my profile fully.\r\n\r\nMy guess is that this is also a quick thing where someone makes an 'Edit profile' link, a simple view, handlers for both GET and POST, and a model that writes the message. Should be pretty simple, I'll hop on that soon. Thanks for the feedback!",
-    "mentions": [
-      {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
-      }
-    ],
-    "root": "%ZIcfJC8Divg8pUVhWfXniQvXZVHw7bsSkP6qTY/c0/w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%xwd/m/sft5leR8jg1o3nNM/bWwINM9Xwsr9n76taNrQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%nVV9MS3U4OqWJ/Wl/E9MRa0DiPn2BeVCBJ7ulXUSrwY=.sha256"
+      "%xwd/m/sft5leR8jg1o3nNM/bWwINM9Xwsr9n76taNrQ=.sha256"
     ]
   },
-  "signature": "T5E3s46fLJ8Ayq6Clr/WfUIwG0kanUlWWgKt91XvJP/k0SfPT7YcDL0HUIZVvxw5fwHZDPna1AKiVl9nBiIxCQ==.sig.ed25519"
+  "signature": "JFyUmTi54vT+FzlHyIVH7rglsegTGmHu+oXqVG5zxxIRdxmX2Lz/XQM6+UueTQcavUIrbnlMbg0+TjtZIQRWAQ==.sig.ed25519"
 }
