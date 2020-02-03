@@ -1,22 +1,22 @@
 {
-  "previous": "%33CLWdK2FQ6rqwFiZ7Rns04uZRLqr/b6mWKO4QHgE9s=.sha256",
-  "sequence": 15162,
+  "previous": "%Bm4beEhZEJN0N6PgaZWbt5QKK5P64shsaMTimBh6l5M=.sha256",
+  "sequence": 15163,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580756738865,
+  "timestamp": 1580756878591,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nIt doesn't, I use Caddy to add HTTPS + auth. If you're using auth because you're serving Oasis on a public endpoint, please make sure you add HTTPS so that others can't see your private messages being broadcast over HTTP in plain text. :~)",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nWe have a [basic Dockerfile](https://github.com/fraction/oasis/blob/master/contrib/Dockerfile) if that helps, feel free to use it as a base and/or improve it!",
     "mentions": [
       {
         "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
         "name": "KemoNine"
       }
     ],
-    "root": "%oTEysjRSbdXIZfIG6ONKtSfsAtPOiZkTr0EGp/9ZIpc=.sha256",
+    "root": "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256",
     "branch": [
-      "%oTEysjRSbdXIZfIG6ONKtSfsAtPOiZkTr0EGp/9ZIpc=.sha256"
+      "%7ZCge+Hk68fBlPVPluDHTKWgHm95y7XhRv3EIk+ydSQ=.sha256"
     ]
   },
-  "signature": "xKcAd5+nogZ9zb91mXwtkhDn9TjgkGhmkKpqAA1cQ57odO7I3dSM2H72IdF0/C6hl2fNdbtTrJW/YL8+XwTLAg==.sig.ed25519"
+  "signature": "zH3oYNtBoGGzCtfD2SkzXW0BKO5Ju5k049w6pVGZLR4L9IAwHXH8X1uf474ZsB7gMBbTDHpjW6WZN5RmBC3CCA==.sig.ed25519"
 }
