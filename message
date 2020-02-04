@@ -1,20 +1,18 @@
 {
-  "previous": "%Qas1DjRpX/woZAvUqoiqByY3navTCE62Gts44oeprUM=.sha256",
-  "sequence": 15199,
+  "previous": "%JmkJkew8JAd6Hh8ozQuXxLEWSgUKyko8eUBvcnmOPaI=.sha256",
+  "sequence": 15200,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580841689268,
+  "timestamp": 1580842210522,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Software question: Is there a name or well-known justification for schemas like:\r\n\r\n```json\r\n[\r\n  { \"name\": \"alice\", \"age\": 42 },\r\n  { \"name\": \"bob\", \"age\": 420 }\r\n]\r\n```\r\n\r\nInstead of:\r\n\r\n```json\r\n{\r\n  \"alice\": 42,\r\n  \"bob\": 420\r\n}\r\n```\r\n\r\nI have this strong feeling that property names should always be static, and that variable data should never be stored in them, but I don't know if that's Just A Me Thing or if that's a well-known principle with a name and such.\r\n\r\n#software #typescript",
-    "mentions": [
-      {
-        "link": "#software"
-      },
-      {
-        "link": "#typescript"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%fGtzyrmt9QIfi1o5PMbCw1odL5jPtTTI3/9QSk53s6U=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%hoxW71P5znUwK9F54fu6FN4WbETD1n4WSYqEL0W2y+A=.sha256"
     ]
   },
-  "signature": "00dymbuYByXZZ7FvWhpPcf9ncrJ9mttTQ7JIZPVIvb0Xl3eccbe+cvhJrmerZTCXgDrZVyHdnO0f5iZnAmTHAQ==.sig.ed25519"
+  "signature": "Qd7JrD57lkJhRnkaTEpYmN8v+Rvvo/Wv86YFVe4SKE54gKW3GdsU+6uXGYhjsIbPsNlPHsi/4UzB/LwgtHdLAg==.sig.ed25519"
 }
