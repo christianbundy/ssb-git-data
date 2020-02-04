@@ -1,30 +1,17 @@
 {
-  "previous": "%i9M9G5Jc334Lspm9VEuObBo9RfMBRft+X24cU0DKsLA=.sha256",
-  "sequence": 15188,
+  "previous": "%VvJ/uKXS9FlNendoA7ZeOJ25e65Ut3EYZ+SMFgZd50E=.sha256",
+  "sequence": 15189,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580836543362,
+  "timestamp": 1580836574904,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@pat](@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519)\r\n\r\nThanks for taking a look! I'll answer why things are the way they are, but please know that it's a very young project with lots of room to grow and I'd be happy to merge any improvements.\r\n\r\n> what is your reasoning for not using HTML classes throughout the app?\r\n\r\nMy approach to styling has been to apply CSS to the structure of the HTML, mostly using element names, and only adding classes when I need to disambiguate. For example, `main > section` are the \"card\" things we use for pages and messages and such. I'm probably influenced by [@matt](@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519)'s work on [Micro-CSS](https://github.com/mmckegg/micro-css#example), but it's a continuum of trade-offs and between \"use shape unless you need classes\" and \"use classes instead of shape\".\r\n\r\n> do you have specific styling conventions you want to stick with?\r\n\r\nNope, if you see a problem please make an issue or a pull request describing the problem. Small patches are easy to review and experiment with, so I'd prefer to avoid \"rewrite everything in new paradigm\"-style patches, but maybe that's what we need? I'd like to make sure the code is accessible and maintainable, and generally the person who wrote the code can't see the problems until they forget it and [come back later](https://github.com/fraction/oasis/issues/100).\r\n\r\n> but the flex columns / margins are a bit confusing and conflicting in some cases\r\n\r\nPlease point them out! Confusion and conflict is not good, and if that's something you experience then That's A Bug. ❤\r\n\r\n> Something like setting the sidebar as a set width could solve the emoji/title line break issue, but would require you to change the structure of a few different items.\r\n\r\nIn my experience setting fixed widths for text causes problems when you change the text or start [translating to other languages](https://github.com/fraction/oasis/pull/139). Are there problems with the [non-breaking space](https://github.com/fraction/oasis/issues/150)? Generally I've tried to set a `max-width` to make sure we have a good [line length](%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256), but otherwise I think it's best to remain responsive and leave the rest to the browser.",
-    "mentions": [
-      {
-        "link": "@JUBGIPQ3KzZEqc03FX53bZucL9i/UqgHQgpPyJHPzpw=.ed25519",
-        "name": "pat"
-      },
-      {
-        "link": "@FbGoHeEcePDG3Evemrc+hm+S77cXKf8BRQgkYinJggg=.ed25519",
-        "name": "matt"
-      },
-      {
-        "link": "%/dyC6QfS7BZ55s4ISqvPIZCtsMCpPTDid33q/6ky7n0=.sha256",
-        "name": "line length"
-      }
-    ],
+    "text": "> trade-offs ~~and~~ between \r\n\r\n\\*",
+    "mentions": [],
     "root": "%P/Fb+aHzqEASsFMV0fkJohNfVUTqkLFnXVISbimOfaY=.sha256",
     "branch": [
-      "%8GlF6jcl4GkWqlEK8jROr4+6jWHg1HCy5nWUtlspEmM=.sha256"
+      "%VvJ/uKXS9FlNendoA7ZeOJ25e65Ut3EYZ+SMFgZd50E=.sha256"
     ]
   },
-  "signature": "2OqMy4TQfOFgAi/WouvuQPTaRqtzvDTdkIJx7kWxFU1r9xHnTCpjWEmJYf4zi1WeSs+OAoJEKlu0/ii630POAg==.sig.ed25519"
+  "signature": "qZKFdSd72lZpW2gxnimffDO+VCA5WurR4XP6Rjfu2cwb4zTEx8ZWvmyowWie6fc3sexZbgDH78ZDh2qZYheFBA==.sig.ed25519"
 }
