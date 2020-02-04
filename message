@@ -1,22 +1,22 @@
 {
-  "previous": "%j3AekeRgIkLDZcgo/QIIyrYkzPoj5q2vv/sedN1aTmw=.sha256",
-  "sequence": 15192,
+  "previous": "%PYSft+sQs/ATisx1BMYnIcMnc87aL8qB8NeY+AaEWr4=.sha256",
+  "sequence": 15193,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580838415064,
+  "timestamp": 1580838549261,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nYep, you can respond to private messages, but it doesn't [show the recipients](https://github.com/fraction/oasis/issues/126) or let you see a [post preview](https://github.com/fraction/oasis/issues/67) which both seem important for writing private messages. Most clients just encrypt the message for whoever you @mention, which can be bad if you send a message like:\r\n\r\n> hey @alice, please don't tell @bob about the surprise birthday party.\r\n\r\nThis is one of those things where the UX is critical to get right the first time, so I've been hesitant to make it happen. If you want to start a new thread from the CLI:\r\n\r\n```\r\nssb publish \\\r\n  --type post \\\r\n  --text \"hi\" \\\r\n  --recps \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\" \\\r\n  --recps \"@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519\"\r\n```\r\n\r\nI just sent you that message, you should see it on the 'Private' page if you're running from `master`. Previously it was called 'Inbox'.",
+    "text": "[@alex](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nfew minutes here and there -- I just got a sync though! I had it open for about ~10 minutes and all the messages just came through. Maybe nobody else was online when I originally opened it?",
     "mentions": [
       {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "alex"
       }
     ],
-    "root": "%ZIcfJC8Divg8pUVhWfXniQvXZVHw7bsSkP6qTY/c0/w=.sha256",
+    "root": "%qOS12zn8qgmJjkxnAXE9Nko+UnuUoDnaJFSsuHmiauY=.sha256",
     "branch": [
-      "%x84IRFq0GISBCaP8ZW+M3Yhus26e7M7PGBpjhVzEcNc=.sha256"
+      "%9CJkyQmTYXErKaL5EY8tA/Asr15UU239PIjWkcmLZvk=.sha256"
     ]
   },
-  "signature": "sTt/WelG7/NXNZXbbZA5WSlspKFc2KGaUUiZuAJjTpV6DLbRisZFH2V9T80CDafnQtAQeICOANK5juKDW7HbBw==.sig.ed25519"
+  "signature": "zS7Q6m3febiZHkY35jmbmpv4PCbLr6SQRiHqjMon54p7kDm/PVhol8vkCwS1Vhjt3bfxiZIt072kwVvi8lVDCA==.sig.ed25519"
 }
