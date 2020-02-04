@@ -1,26 +1,20 @@
 {
-  "previous": "%myK7OyqsTHf/O878MREyTxrRMDdR3f0Y/eHVljzZSrg=.sha256",
-  "sequence": 15198,
+  "previous": "%Qas1DjRpX/woZAvUqoiqByY3navTCE62Gts44oeprUM=.sha256",
+  "sequence": 15199,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1580841438141,
+  "timestamp": 1580841689268,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nIf you pull the trigger on one of these I'd love if you could ping me with the model you got. I've been wanting one for a while but it'd be especially fun to have a buddy with the same hardware (like how [@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519) and I have the same laptop right now).",
+    "text": "Software question: Is there a name or well-known justification for schemas like:\r\n\r\n```json\r\n[\r\n  { \"name\": \"alice\", \"age\": 42 },\r\n  { \"name\": \"bob\", \"age\": 420 }\r\n]\r\n```\r\n\r\nInstead of:\r\n\r\n```json\r\n{\r\n  \"alice\": 42,\r\n  \"bob\": 420\r\n}\r\n```\r\n\r\nI have this strong feeling that property names should always be static, and that variable data should never be stored in them, but I don't know if that's Just A Me Thing or if that's a well-known principle with a name and such.\r\n\r\n#software #typescript",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "#software"
       },
       {
-        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
-        "name": "myf"
+        "link": "#typescript"
       }
-    ],
-    "root": "%Nhgk0gnFqPi9gXIlzUhDdiyCOn20mQkKi2TLKJ1YYZs=.sha256",
-    "branch": [
-      "%k6pb4pEKW69yvVJ0U6LCzfLSXcDpWVmk+w8FEKOhgV4=.sha256"
     ]
   },
-  "signature": "fkFzYP7Hf3eVx7NUmiDF5lyhrNnzzfQ+Mpcnlh0sIjpQHdibY29ThvUB42+4vgA1TaPIKIPbeUrsU98tBVSZBw==.sig.ed25519"
+  "signature": "00dymbuYByXZZ7FvWhpPcf9ncrJ9mttTQ7JIZPVIvb0Xl3eccbe+cvhJrmerZTCXgDrZVyHdnO0f5iZnAmTHAQ==.sig.ed25519"
 }
