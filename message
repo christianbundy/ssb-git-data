@@ -1,18 +1,23 @@
 {
-  "previous": "%qHhMwDjXNwNKnx18C6Pq5KfyCipgWLLTpt0f3E7AufY=.sha256",
-  "sequence": 15234,
+  "previous": "%B4NFW0Vs+5z71kUpuSCgC/Dy92O5qWNquiZfOL17CNg=.sha256",
+  "sequence": 15235,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581200031868,
+  "timestamp": 1581200078870,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rK8GBFw3W3AuGMMmrxnuvy9qZpE4HtYPapvbjekAfrI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Matt Lorentz](@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519)\r\n\r\nI just have my Manyverse feed follow my main feed. It ends up wasting 1 hop, but I get the same follow list on both.",
+    "mentions": [
+      {
+        "link": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
+        "name": "Matt Lorentz"
+      }
+    ],
+    "root": "%5Ue73DuXcQb9vY9W0b6cAyCKugtFSClIZTqI7wrbRmg=.sha256",
     "branch": [
-      "%Xy/vcIx1NEKuEf+HST/LmtGk9tAmSwwdaB5a5WrWY4A=.sha256"
+      "%OA/+wmp6k0xrJ8CrSGptFSxan1q7SNu8wzi4CxWNaho=.sha256",
+      "%gnQ7HshNq0LXUJq4cQ2sr6RrSrrtIPpCM/svD+M9dNA=.sha256"
     ]
   },
-  "signature": "Ao+EmLW5XzzNeL/oUhSmBKAiH/7EpGvYk8cTl8xJz2FSgldVrAp7kamnUYLPmxHldcggTo9aBKZRUm62bdxDDg==.sig.ed25519"
+  "signature": "SGjWG5zg+G+XPcWQ53Fq4sjKv9KUmi3bNmoaycEGlkibFRQp68GhJV8iRPipucQB84TrpKvTk3jw7Uo932iRAQ==.sig.ed25519"
 }
