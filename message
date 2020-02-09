@@ -1,22 +1,22 @@
 {
-  "previous": "%NSPefaQZC91bxAsIjzoSxJwNnTg75z3/4dU7nnPLsvY=.sha256",
-  "sequence": 15251,
+  "previous": "%sFbN+d8LIw08GOixE2PiYdvKzYUq+lAAmT2rL/tcPCU=.sha256",
+  "sequence": 15252,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581267604424,
+  "timestamp": 1581267716424,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\nInteresting, I hadn't seen that before. Thanks for the link.\r\n\r\nThe problem I'd like to solve is that forking modules is hard, and once you fork there doesn't seem to be an obvious way to bump your version. If you fork v1.2.3 and add a feature, your v1.3.0 will be totally uncorrelated with the previous project's v1.3.0 that may contain a completely different feature. Reading the changelog would be helpful for humans, but ideally I'd like to tell my computer \"find me maintained forks of this module with at least these features\" and have the simplicity of semver or something. 🤷",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\nIf you open Patchwork from the CLI, is there any error output? Patchwork has lots of custom code and moving parts that I really don't understand, so this sort of thing is a mystery to me too, but hopefully there's an error being thrown somewhere?",
     "mentions": [
       {
         "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
         "name": "masukomi"
       }
     ],
-    "root": "%gbim0q/jFeb28zyrB1Om2lrYoDWwPG6DAdxevTba39g=.sha256",
+    "root": "%IZSyAQ7Gc7TyrFlmNdpdcSKFhGd/bHeveaWjNMb1/x0=.sha256",
     "branch": [
-      "%mWQpr7+sPYDOKkE+WT989Sp6HQDTj/n29mOZNaQI5PY=.sha256"
+      "%IZSyAQ7Gc7TyrFlmNdpdcSKFhGd/bHeveaWjNMb1/x0=.sha256"
     ]
   },
-  "signature": "LCCvzKvjY93xJGSGZMQkJvrA3r7CVU5ObOSueUThwAsmcsFt7KM3Len98IxK23Mw+I4o34lifg4HJsJ3ST7eCQ==.sig.ed25519"
+  "signature": "PX6fiwFQSIhMGYjKKkRrhHdl1QDaLeki5SlUC1qJElqcJPPbIFJMJKA8zrRNJFZa78XzSKNTNt4mF6GWEZ9ABw==.sig.ed25519"
 }
