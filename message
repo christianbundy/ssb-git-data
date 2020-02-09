@@ -1,18 +1,29 @@
 {
-  "previous": "%n1mtBaiHP5YG1fqHEgM2dOgD+ODQSWwPTcCXkPskego=.sha256",
-  "sequence": 15262,
+  "previous": "%yRLbNUOkUaGMI9oUixc7dpUA1tf26oviXo5t/Wsg1Bk=.sha256",
+  "sequence": 15263,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581289135492,
+  "timestamp": 1581292721526,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rLivI9UIjm+l3Ud+az5EXfhwGXp+QB95NxDO/xtyEdQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nI think [@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519) got #scuttlefs working, but I didn't actually test it.",
+    "mentions": [
+      {
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
+      },
+      {
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
+      },
+      {
+        "link": "#scuttlefs"
+      }
+    ],
+    "root": "%9WtK2FXkhqT3FsviJ/3iT8ijHFRZ8bi4E9SEpfbHJ1U=.sha256",
     "branch": [
-      "%rLivI9UIjm+l3Ud+az5EXfhwGXp+QB95NxDO/xtyEdQ=.sha256"
+      "%9WtK2FXkhqT3FsviJ/3iT8ijHFRZ8bi4E9SEpfbHJ1U=.sha256"
     ]
   },
-  "signature": "3/ZgDTx3n8nlf8eggxLLZB53zXgjOqNHzo26i+eIjAo+73FBg9iSR3vRQa4iXxdwECUo993InGgZ6fKrC4SsCA==.sig.ed25519"
+  "signature": "K2u9WioI05CHL466KPejbx2AESTePglXnvpyf4k6MAOEKA2NGaI6bk2R/QTP7USCoTcCZLVqzgE4E6yqkbx0BQ==.sig.ed25519"
 }
