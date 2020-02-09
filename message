@@ -1,13 +1,22 @@
 {
-  "previous": "%WT0nEYYrP3DR85vQHsMx4FptVXLV7pxy3n97Y3pekk8=.sha256",
-  "sequence": 15246,
+  "previous": "%qXpG2kcigEAVxfvmRt7Iz5gZ7BCWmJ+0EqTN4et9Z/g=.sha256",
+  "sequence": 15247,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581216772670,
+  "timestamp": 1581218219375,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-    "publicWebHosting": true
+    "type": "post",
+    "text": "[@daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nOh that's really cool! Do you know if the message ID gets URL-encoded? If so, I think Oasis might be compatible with this too. It'd just be `example.com/thread/<messageKey>`",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "daan"
+      }
+    ],
+    "root": "%916QB5dRWnZp8pA5sCG6mxuwLJAC4JYIRY2oQtApWMQ=.sha256",
+    "branch": [
+      "%nmdnLT/q7O4wqJK3HlmJNQZQFhkr532RUmFx12HKyqg=.sha256"
+    ]
   },
-  "signature": "0Ata/ygZyoqbze7O8jYaJfcyPgE2l+FMaPFLhoXXgrltgFtHZokZvJltR87+nEccBSYkWw+fEiOt23j3qCplBw==.sig.ed25519"
+  "signature": "IFQSVeA1zsrWFIO7tyG12cLL41Xw/hBPWCSYb4X7pIYyMe9AtKTWkGrEXAiOBgewCYaVZCrgTb8kvFQh0EBfDA==.sig.ed25519"
 }
