@@ -1,18 +1,22 @@
 {
-  "previous": "%G1z09jkg1cRYubEGPlVECgJ1/7gFMR60CKXs5k9r3q8=.sha256",
-  "sequence": 15257,
+  "previous": "%n/wM0BgBCg5L66h8BT/cZPLAakEMoQ7T+IFZpzhdZL0=.sha256",
+  "sequence": 15258,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581269123637,
+  "timestamp": 1581282415073,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%EPcVLr8SI0EVR/O5VkSqrHgZ8lhLwmV8TxjjuowSNcA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\n> I can’t run patchwork from the command line.\r\n\r\nSorry, I mean just running your current Patchwork from the command-line, not installing a new one. Like on Windows it'd be running `patchwork.exe` or on Linux I just run `ssb-patchwork`, I don't remember which OS you have but unfortunately Patchwork dumps all of the useful information to stdout.",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ],
+    "root": "%IZSyAQ7Gc7TyrFlmNdpdcSKFhGd/bHeveaWjNMb1/x0=.sha256",
     "branch": [
-      "%EPcVLr8SI0EVR/O5VkSqrHgZ8lhLwmV8TxjjuowSNcA=.sha256"
+      "%XGK8sRI2avvhVVwpY87QEJj5RP0RLe33fl32Cm6ZOwk=.sha256"
     ]
   },
-  "signature": "w4UDc7UG0c1J0x4fbRBxUig2VzDHYAFqASNbgoKSfg3XVuCCQq560rXOXGdN7Dh3pt5M+0gzjm+7/QYdll8+BA==.sig.ed25519"
+  "signature": "R4AAgjaHHsCPcTZ2fArCAyWVTT7li8VRD54hOIYemKpm7318rmagRqWxPqb7+gG+tCnyXKNQ96jA6q28V+RHBQ==.sig.ed25519"
 }
