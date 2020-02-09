@@ -1,26 +1,22 @@
 {
-  "previous": "%vOwyVtglsnO+IlfQkHWjFMSzUyRDwf5oyDEK2rVD9Bs=.sha256",
-  "sequence": 15250,
+  "previous": "%NSPefaQZC91bxAsIjzoSxJwNnTg75z3/4dU7nnPLsvY=.sha256",
+  "sequence": 15251,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581222039628,
+  "timestamp": 1581267604424,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nIt's true! I've been so impressed by you and I'm really enjoying getting to work with you. ![small hermes dance.gif](&MICw//Vc1LOa+UDZdW1gbvLShjfRHULT4Bvp6fHelnc=.sha256)",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\nInteresting, I hadn't seen that before. Thanks for the link.\r\n\r\nThe problem I'd like to solve is that forking modules is hard, and once you fork there doesn't seem to be an obvious way to bump your version. If you fork v1.2.3 and add a feature, your v1.3.0 will be totally uncorrelated with the previous project's v1.3.0 that may contain a completely different feature. Reading the changelog would be helpful for humans, but ideally I'd like to tell my computer \"find me maintained forks of this module with at least these features\" and have the simplicity of semver or something. 🤷",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "&MICw//Vc1LOa+UDZdW1gbvLShjfRHULT4Bvp6fHelnc=.sha256",
-        "name": "small hermes dance.gif"
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
       }
     ],
-    "root": "%xJOYYf/oU7ifdOFnXQqKAMBw5mYxX0s2ytvmdgWBrlw=.sha256",
+    "root": "%gbim0q/jFeb28zyrB1Om2lrYoDWwPG6DAdxevTba39g=.sha256",
     "branch": [
-      "%3yTnC9wizJ+kobLB+lZDbGmqYP8CRMkJ5C1FgigLC2E=.sha256"
+      "%mWQpr7+sPYDOKkE+WT989Sp6HQDTj/n29mOZNaQI5PY=.sha256"
     ]
   },
-  "signature": "2W7thQwEIGeLKBOZOFoBmEWFKrXHV44N/pOtQ4l8XOrfwW2lfyIm773Dd88wUMi3yli3va1QkogoWXNg0woqDw==.sig.ed25519"
+  "signature": "LCCvzKvjY93xJGSGZMQkJvrA3r7CVU5ObOSueUThwAsmcsFt7KM3Len98IxK23Mw+I4o34lifg4HJsJ3ST7eCQ==.sig.ed25519"
 }
