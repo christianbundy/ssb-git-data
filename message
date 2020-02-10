@@ -1,18 +1,23 @@
 {
-  "previous": "%QIIzs15h7hC6yU+41t05Odz68HEx4f3VxoWWOVCZJWA=.sha256",
-  "sequence": 15284,
+  "previous": "%mt3hmzkk9h7dCvd3y1QmYFfDa2kjHPJT+LjuyFQCue4=.sha256",
+  "sequence": 15285,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581360285986,
+  "timestamp": 1581369556419,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Tn7sdB33FHD+kh2WVUv8JXiI4QZmb+MV6lYaougvFjY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nYou've understood perfectly! Your messages **are public**, it's just that the SSB-Viewer project has set the precedent that it won't show your public messages over public HTTP unless you've specifically opted in.\r\n\r\nHere's how this looks on the Oasis viewer: https://oasis-demo.fraction.io/thread/%252g4FtRpm5GFTT%2Bu2Ppw3M0Ywl40A06j27jVAv91iEVg%3D.sha256\r\n\r\nPresenting your public messages as private seems very dangerous to me, but I'm not sure how to balance that with the current convention.",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      }
+    ],
+    "root": "%mHcOmxVYPtJJuVXp63ljsoy3kGGUYhh8VBEj0hvkG5E=.sha256",
+    "fork": "%916QB5dRWnZp8pA5sCG6mxuwLJAC4JYIRY2oQtApWMQ=.sha256",
     "branch": [
-      "%Tn7sdB33FHD+kh2WVUv8JXiI4QZmb+MV6lYaougvFjY=.sha256"
+      "%mHcOmxVYPtJJuVXp63ljsoy3kGGUYhh8VBEj0hvkG5E=.sha256"
     ]
   },
-  "signature": "1mLzNlkrBLctJaR+CpW0gYW/3INBXPkWDTLQRFy0k+d7ROXGozvraG514m6qs2sH9P6b4IPQdJlYzYDU3SWbBg==.sig.ed25519"
+  "signature": "4SOQh2XIKb8FQ4IHmGowms9t146balNwQuULXGIb6n0UUEM1X6eyh6hGTMqWYpIWMVAp331PaYePol5YGhzECw==.sig.ed25519"
 }
