@@ -1,18 +1,22 @@
 {
-  "previous": "%lgpTHO/bjHpvKIA0GFzxqVyCNhFvfQsrf08uNZ8pu/w=.sha256",
-  "sequence": 15270,
+  "previous": "%MA2DY4JOytDU///O9RaXiSsk2+gc9pJQwL4FfDJIJwM=.sha256",
+  "sequence": 15271,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581349556371,
+  "timestamp": 1581350157072,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%vekklo9pMviDzJlPjfALjyrFk1iVecTne3K0HepA19g=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nSounds like you already figured out how to do this with `pull.apply`, but in general you could do this with the spread operator (`...`):\r\n\r\n```javascript\r\nvar pull = require(\"pull-stream\")\r\n\r\nconst maps = [\r\n  pull.map((x) => `${x}a`),\r\n  pull.map((x) => `${x}b`),\r\n  pull.map((x) => `${x}c`),\r\n]\r\n\r\npull(\r\n  pull.values(['x', 'y', 'z']),\r\n  ...maps,\r\n  pull.collect(console.log)\r\n)\r\n```\r\n\r\n```json\r\n[\"xabc\", \"yabc\", \"zabc\"]\r\n```",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      }
+    ],
+    "root": "%4Rq3mIvq/enR6rIHdVbIqD4zvpjMLt1dqmmOVrOt5Dg=.sha256",
     "branch": [
-      "%vekklo9pMviDzJlPjfALjyrFk1iVecTne3K0HepA19g=.sha256"
+      "%3MQKS73mKMog4Lfk066XHxiXzPZB31BcrJl/MOhvc/4=.sha256"
     ]
   },
-  "signature": "TI3jJJnb4JqpotB8qxQ6Vmg5Z2MdbEuTTJYz0U870qsexsXslH40gcIbilqvdld2l+YJC4V8ysK4UvFD4vjiBg==.sig.ed25519"
+  "signature": "dPWzBY5nI8kpiI0fWFVcOxwWFuFtl0ygnhV0MsrogbtP0b+6/ewUgPQhMrOdLBJyEXS2fP8vdeCzrya3oKd+CA==.sig.ed25519"
 }
