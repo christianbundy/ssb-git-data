@@ -1,22 +1,18 @@
 {
-  "previous": "%MA2DY4JOytDU///O9RaXiSsk2+gc9pJQwL4FfDJIJwM=.sha256",
-  "sequence": 15271,
+  "previous": "%H0kDUyxzhqduHk6PIV1qz2GQoVQFSbFqKOC8ajUUDC4=.sha256",
+  "sequence": 15272,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581350157072,
+  "timestamp": 1581351036365,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nSounds like you already figured out how to do this with `pull.apply`, but in general you could do this with the spread operator (`...`):\r\n\r\n```javascript\r\nvar pull = require(\"pull-stream\")\r\n\r\nconst maps = [\r\n  pull.map((x) => `${x}a`),\r\n  pull.map((x) => `${x}b`),\r\n  pull.map((x) => `${x}c`),\r\n]\r\n\r\npull(\r\n  pull.values(['x', 'y', 'z']),\r\n  ...maps,\r\n  pull.collect(console.log)\r\n)\r\n```\r\n\r\n```json\r\n[\"xabc\", \"yabc\", \"zabc\"]\r\n```",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%4Rq3mIvq/enR6rIHdVbIqD4zvpjMLt1dqmmOVrOt5Dg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%/P3lphrjBvhUy68HOjLnP7g7RZqjatgHZp5nLKS7BtQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%3MQKS73mKMog4Lfk066XHxiXzPZB31BcrJl/MOhvc/4=.sha256"
+      "%/P3lphrjBvhUy68HOjLnP7g7RZqjatgHZp5nLKS7BtQ=.sha256"
     ]
   },
-  "signature": "dPWzBY5nI8kpiI0fWFVcOxwWFuFtl0ygnhV0MsrogbtP0b+6/ewUgPQhMrOdLBJyEXS2fP8vdeCzrya3oKd+CA==.sig.ed25519"
+  "signature": "aIu06lCfO+lGyTas5mS0zQraz4+vS/caAXBsE3NMkKNPk++5oeJRGvZySyMw3lq5kUVy1IsA5jMjTH1PHD2kDw==.sig.ed25519"
 }
