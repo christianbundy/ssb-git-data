@@ -1,23 +1,22 @@
 {
-  "previous": "%6rNCCB+BZ7GKDFhOXC1HOA98zcKPSF5uTt8IdbshNC4=.sha256",
-  "sequence": 15296,
+  "previous": "%fS/XcSsfOKCFad3Bjd/F2o41QCc/idOlznAK/cvFXv0=.sha256",
+  "sequence": 15297,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581375321795,
+  "timestamp": 1581375447269,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\n> When I go to the profile page it’s only showing messages since I fired up oasis with this identity.\r\n\r\nOh, that sounds to me like you started publishing before your feed was 100% synced. If you're syncing without `~/.ssb/flume/log.offset` you have to wait until you have all of your old messages before you publish *anything*, otherwise you fork your feed.\r\n\r\nSorry. If you published any messages before you had downloaded all of the old messages, you'll need to start from scratch and try again. :/",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\n> I also sub’d to another pub from within oasis. After that it snapped free and started syncing posts\r\n\r\nIf you used the invite in the settings, this may have been the problem. The invite publishes a message, which you can't do until you've downloaded all of your old messages already. Highly recommend either copying over `conn.json` or using `ssb conn connect '<address>'` here.",
     "mentions": [
       {
         "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
         "name": "KemoNine"
       }
     ],
-    "root": "%1bONAE1gdKHdb75Z0r/gvtbjm1GGBVMU8PlHFtaG+qU=.sha256",
+    "root": "%goHm6cJUHs4o8W0OveOCWX+RHMEzcraZmmPBpJgB/gw=.sha256",
     "branch": [
-      "%IW3SELRMDAEKDMTj+22s0UP+q9vni/sjClwEI4AnmrQ=.sha256",
-      "%ZY0sNN5vthU5b8qg6KvjQwJSiz5bLEFdahevMbBtJyw=.sha256"
+      "%goHm6cJUHs4o8W0OveOCWX+RHMEzcraZmmPBpJgB/gw=.sha256"
     ]
   },
-  "signature": "qN6fg45iwYCIxaxnTQJkUawwMZ0KbMepUMBogprE4IokFSTSMfmYcgAnhVRq1OH9gBV6sk8ZS5bk3VHzwhQzDQ==.sig.ed25519"
+  "signature": "Z2rzD4hVX/MiVAuP5B5BAwUU1jWzEGEzCapqQ39CuwMoQvnnuI7EO716F9GPGgY8JfGoB5xVkgzXkl8gSF/cAA==.sig.ed25519"
 }
