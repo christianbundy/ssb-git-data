@@ -1,18 +1,22 @@
 {
-  "previous": "%/TDL3wMA3sVcvM/BSfItZq/uxnn6owx98WGR7C7ZCAY=.sha256",
-  "sequence": 15289,
+  "previous": "%ZZTlJU88P1STfMfRVkmxMAr6HBpaaZVLh7TQs5BR+xk=.sha256",
+  "sequence": 15290,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581373283108,
+  "timestamp": 1581373721032,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RaWC2lXE/ujgAyVP8iiOUFfGan0R5qVfgKACFBpNb4s=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nHmm, what does your migration look like? For most people switching from Patchwork, you just close Patchwork and open Oasis and it should use all the same data from `~/.ssb/`.\r\n\r\nIf you're initializing from scratch, you should copy over the `~/.ssb/` directory or *at least*:\r\n\r\n- `~/.ssb/secret` -- your keypair\r\n- `~/.ssb/conn.json` -- your peer list\r\n- `~/.ssb/flume/log.offset` -- your messages (optional, but very convenient)\r\n\r\nCould you add more info on how you migrated?",
+    "mentions": [
+      {
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
+      }
+    ],
+    "root": "%1bONAE1gdKHdb75Z0r/gvtbjm1GGBVMU8PlHFtaG+qU=.sha256",
     "branch": [
-      "%/TDL3wMA3sVcvM/BSfItZq/uxnn6owx98WGR7C7ZCAY=.sha256"
+      "%1bONAE1gdKHdb75Z0r/gvtbjm1GGBVMU8PlHFtaG+qU=.sha256"
     ]
   },
-  "signature": "qt3QvKghEd1HkhHbDqaye6Vntk66yLOQmDHyol30TUPUGVvmgxZrVEG+cYajHssNX71P8G4/TtpHl6eF6rMtCg==.sig.ed25519"
+  "signature": "Ucjfw4DOVXWWnkUqDAktlALCqbNoqsrybkOkvpa2h8sZAFgi3zDGoU0kzkBAh+rathqZwmAgE33ASudGXe6kCw==.sig.ed25519"
 }
