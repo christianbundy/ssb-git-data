@@ -1,22 +1,18 @@
 {
-  "previous": "%fS/XcSsfOKCFad3Bjd/F2o41QCc/idOlznAK/cvFXv0=.sha256",
-  "sequence": 15297,
+  "previous": "%ZJpUmvJgUKPr/dCKPZdBTgkyV3JWk/PFZ/E2BtfWs/k=.sha256",
+  "sequence": 15298,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581375447269,
+  "timestamp": 1581375697644,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\n> I also sub’d to another pub from within oasis. After that it snapped free and started syncing posts\r\n\r\nIf you used the invite in the settings, this may have been the problem. The invite publishes a message, which you can't do until you've downloaded all of your old messages already. Highly recommend either copying over `conn.json` or using `ssb conn connect '<address>'` here.",
-    "mentions": [
-      {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
-      }
-    ],
-    "root": "%goHm6cJUHs4o8W0OveOCWX+RHMEzcraZmmPBpJgB/gw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Wwl7+4Fo50ZGwwlKesMGh+ico+M/tAGR8CJvUvHWOl8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%goHm6cJUHs4o8W0OveOCWX+RHMEzcraZmmPBpJgB/gw=.sha256"
+      "%Wwl7+4Fo50ZGwwlKesMGh+ico+M/tAGR8CJvUvHWOl8=.sha256"
     ]
   },
-  "signature": "Z2rzD4hVX/MiVAuP5B5BAwUU1jWzEGEzCapqQ39CuwMoQvnnuI7EO716F9GPGgY8JfGoB5xVkgzXkl8gSF/cAA==.sig.ed25519"
+  "signature": "f2Jhv+E3lbqs75i/xeeNsXu0cQuExngKYKrCn5bm8GX3DB7er97nBSVWcXESI1udJ0BegALx8p65dt9SjbDTDA==.sig.ed25519"
 }
