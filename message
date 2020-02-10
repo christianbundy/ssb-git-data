@@ -1,18 +1,17 @@
 {
-  "previous": "%JB1GC9narboDAs1J6yzvHwxSwP9Mq/90v4ea5FpYVFs=.sha256",
-  "sequence": 15281,
+  "previous": "%iihXfmmXJ14upZlZeKOSTGTFxsYmK4nBKmnbHP/SlqI=.sha256",
+  "sequence": 15282,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581355444393,
+  "timestamp": 1581358613216,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AxevMhI+ktH5vWvjXmoUMy0OQa9K4IxFLWNwuCMwj0I=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%AxevMhI+ktH5vWvjXmoUMy0OQa9K4IxFLWNwuCMwj0I=.sha256"
+    "type": "post",
+    "text": "# Oasis 2.13.1\r\n\r\nOops. I don't think I've posted any releases since 2.8.0, but there have been tons of improvements to the app since then. Off the top of my head:\r\n\r\n- Follow, unfollow, block, unblock\r\n- More networking info and actions (including offline mode)\r\n- Way faster private message rendering\r\n- Works with Patchwork running in background (!)\r\n- Sidebar navigation with cute emoji\r\n- Very very basic internationalization (need help translating!)\r\n- Removed strangers from main feed\r\n- Add Extended and Topics views\r\n- Add public viewer mode\r\n- Fix 8 trillion bugs\r\n\r\nIf anyone wants to check it out, I'll include the install instructions below. There's also a [public demo](http://oasis-demo.fraction.io/) and a [GitHub repository](https://github.com/fraction/oasis) if you like.\r\n\r\n## Installation\r\n\r\nMost people should install stable releases with [npm](https://npmjs.org/).\r\n\r\n```shell\r\nnpm --global install @fraction/oasis@latest\r\n```\r\n\r\nPlease make sure that your Node.js version is the [**current** or **active LTS** release](https://nodejs.org/en/about/releases/).\r\n\r\nFor faster updates and less stability, install from GitHub and upgrade often.\r\n\r\n```shell\r\nnpm --global install github:fraction/oasis\r\n```\r\n\r\nWant more? Check out [`install.md`](https://github.com/fraction/oasis/blob/master/docs/install.md).\r\n\r\n---\r\n\r\n#oasis",
+    "mentions": [
+      {
+        "link": "#oasis"
+      }
     ]
   },
-  "signature": "9TYqZ2+O6LnMSO7YDQWgB7CYirL3ExG8KplscO3iRpSmXeAQpcOzR+SX2jrwEN52d3pm0YYDU21/vWzJjqtDAQ==.sig.ed25519"
+  "signature": "+x1W/J+8X5hqXkbsZE+nt9ojCCprU7yExU2K+OQbNaqjEXLy1iFfB9bA1PEDvvb1nYC2kG1cdXqMXQP9iixHCw==.sig.ed25519"
 }
