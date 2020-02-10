@@ -1,23 +1,22 @@
 {
-  "previous": "%QWG+JF2KYzXOkDIz1doNoTFfrzlhtOr5NCLctiFnqH4=.sha256",
-  "sequence": 15279,
+  "previous": "%Bd2swae6gyBSzHERGD7DJ8TvyWPooNzIyBw0Kpm+8d0=.sha256",
+  "sequence": 15280,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581353689382,
+  "timestamp": 1581353801206,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@singer of the lols](@fIu7pmr3kTCq2GaRAKrXQFPrwheCrbVfPX9d9h7q+zw=.ed25519)\r\n\r\n> Is it saying that the content is referenced rather than being embedded, and so the reference can be dangling and the message itself won’t change hash? \r\n\r\nYep, exactly. The signature of the message doesn't require that you have the content, just the reference, so you can delete messages without breaking the signed chain of messages.\r\n\r\n> Where is the content stored in this scheme? Is it a blob?\r\n\r\nThings like storage are left up to the SSB implementation, but generally this should be seen as separate from the blob subprotocol. You could advertise these messages as blobs, but the blob protocol isn't a very efficient way to move data. I think the right way would be to share the message content in the stream, adjacent to the messages (but not embedded inside them).",
+    "text": "[@Agora Probe](@QQBDEYgWig8n7/ivDRJAaLBuGbP3hMuafAlH1TqoueY=.ed25519)\r\n\r\nFun! Could you share the source / demo?",
     "mentions": [
       {
-        "link": "@fIu7pmr3kTCq2GaRAKrXQFPrwheCrbVfPX9d9h7q+zw=.ed25519",
-        "name": "singer of the lols"
+        "link": "@QQBDEYgWig8n7/ivDRJAaLBuGbP3hMuafAlH1TqoueY=.ed25519",
+        "name": "Agora Probe"
       }
     ],
-    "root": "%IPD12gMs2l4iGfk/5/wT1uWIr7sfDt7pJ/XpKGlbqG0=.sha256",
-    "fork": "%mlfKesidvLZXJAwgfFGp4OZKy5qpAbweWryRTnRE0c4=.sha256",
+    "root": "%eRUNbSoBLo9Ei/7hbAVlwsymitdWTZyEexT80cV5MSQ=.sha256",
     "branch": [
-      "%IPD12gMs2l4iGfk/5/wT1uWIr7sfDt7pJ/XpKGlbqG0=.sha256"
+      "%eRUNbSoBLo9Ei/7hbAVlwsymitdWTZyEexT80cV5MSQ=.sha256"
     ]
   },
-  "signature": "zoOKVZO1JLv8qAU4jw4EZEhU5uMO69XdIzqQ9LB0HYr/zUhWSQ7udrh9qw8q6ikF8joicXSRmvEzMQ4IoVn1AA==.sig.ed25519"
+  "signature": "RxTPM8cVZYYdVSb4NMPFJyGejzCSWZBqphDbV3b3fkZr64U6RRmfzwfEnmMYbqA4zy6tCmE3KqiZoK62IB/1Bw==.sig.ed25519"
 }
