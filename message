@@ -1,22 +1,23 @@
 {
-  "previous": "%NQbUnGeLwQopaiMdcgjGRYOynCBc8mC1X7BrG5xqjkk=.sha256",
-  "sequence": 15294,
+  "previous": "%e8Io2W65nURnwIHvhG+8D3huYcfp21rmEEZmh6/gXNw=.sha256",
+  "sequence": 15295,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581374488152,
+  "timestamp": 1581375140885,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nThanks, that's super useful. Does it have all the latest posts? If so, you should be sync'd. SSB doesn't let you skip any posts, so if you have the most recent post(s) then you should have all the old ones too.\r\n\r\nOne thing to note: Oasis just shows 64 messages in each view and doesn't (yet) do any pagination. If you're only seeing 64 posts on your profile page, that's expected, but you shouldn't be \"missing some previous self-identification and follow posts\". Could you add more details about that problem?",
+    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\nI've done nothing! I just used the [SSB-Search](https://github.com/ssbc/ssb-search) plugin, which was written by Dominic. 🏎 🏎 🏎\r\n\r\n> any ETA for adding gathering-type messages? (:\r\n\r\nI'd like for Oasis to be accessible enough that anyone could add a page for gatherings ([here's a good library](https://github.com/ssbc/scuttle-gathering)), and I'd be down to pair on something like this, but if left to my own devices it'll probably be a few months. This is a nights and weekends project for me, so development is pretty slow.\r\n\r\nOnce the post views are polished up (filters and pagination, mostly) and you can edit your profile (name + description + image) then I'd really like to improve the composer (content warning, attach blob, add mention, *maybe* add emoji), but after that I think gatherings would probably be my next priority.\r\n\r\nYou can see my [original roadmap](https://github.com/fraction/oasis/blob/master/docs/roadmap.md), which is mostly accurate, and mostly done, but I've still got a few more boxes I'd like to check off.",
     "mentions": [
       {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
+        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
+        "name": "af"
       }
     ],
-    "root": "%1bONAE1gdKHdb75Z0r/gvtbjm1GGBVMU8PlHFtaG+qU=.sha256",
+    "root": "%rVnQe3+vwRsdSFKYxGngpVQljzOZZoPyit2kxFE9lR4=.sha256",
     "branch": [
-      "%Y6wc6pv4AdM5oLphlHi5BWAFDvIOPg4Inswa7jmpfYs=.sha256"
+      "%WDaEAZSDJmM8XjOZ9xiTioVFF8vc94ruzT3wPKcUK3A=.sha256",
+      "%wbBP4Vq4PQlSgw27aGEeoemZpils0nl9OJ/fohDZz/Y=.sha256"
     ]
   },
-  "signature": "9WSgkmOQTBXTpDLXiOpkBKIIb+NoI4l7rRwZIlTC+Vg00reW5icV78yGNj0rkBhOAIxuG/p21ntBs+2LVdhhAg==.sig.ed25519"
+  "signature": "VfAatIN7QdYm6C6SdObHuxeswZ7rhP5q4hoAzxHoglBMTIRdSKyGLMlLL9iGt6txQsSoY8n+ZqcxNptEK2/3Cg==.sig.ed25519"
 }
