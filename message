@@ -1,17 +1,22 @@
 {
-  "previous": "%iihXfmmXJ14upZlZeKOSTGTFxsYmK4nBKmnbHP/SlqI=.sha256",
-  "sequence": 15282,
+  "previous": "%rVnQe3+vwRsdSFKYxGngpVQljzOZZoPyit2kxFE9lR4=.sha256",
+  "sequence": 15283,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581358613216,
+  "timestamp": 1581358789161,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Oasis 2.13.1\r\n\r\nOops. I don't think I've posted any releases since 2.8.0, but there have been tons of improvements to the app since then. Off the top of my head:\r\n\r\n- Follow, unfollow, block, unblock\r\n- More networking info and actions (including offline mode)\r\n- Way faster private message rendering\r\n- Works with Patchwork running in background (!)\r\n- Sidebar navigation with cute emoji\r\n- Very very basic internationalization (need help translating!)\r\n- Removed strangers from main feed\r\n- Add Extended and Topics views\r\n- Add public viewer mode\r\n- Fix 8 trillion bugs\r\n\r\nIf anyone wants to check it out, I'll include the install instructions below. There's also a [public demo](http://oasis-demo.fraction.io/) and a [GitHub repository](https://github.com/fraction/oasis) if you like.\r\n\r\n## Installation\r\n\r\nMost people should install stable releases with [npm](https://npmjs.org/).\r\n\r\n```shell\r\nnpm --global install @fraction/oasis@latest\r\n```\r\n\r\nPlease make sure that your Node.js version is the [**current** or **active LTS** release](https://nodejs.org/en/about/releases/).\r\n\r\nFor faster updates and less stability, install from GitHub and upgrade often.\r\n\r\n```shell\r\nnpm --global install github:fraction/oasis\r\n```\r\n\r\nWant more? Check out [`install.md`](https://github.com/fraction/oasis/blob/master/docs/install.md).\r\n\r\n---\r\n\r\n#oasis",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nInteresting, are you thinking of making like a big decentralized archive?",
     "mentions": [
       {
-        "link": "#oasis"
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
+    ],
+    "root": "%qpeuXvQf/N97CfDXDtm9bSnmCPeMcai/ZGqgMxxYt7o=.sha256",
+    "branch": [
+      "%qpeuXvQf/N97CfDXDtm9bSnmCPeMcai/ZGqgMxxYt7o=.sha256"
     ]
   },
-  "signature": "+x1W/J+8X5hqXkbsZE+nt9ojCCprU7yExU2K+OQbNaqjEXLy1iFfB9bA1PEDvvb1nYC2kG1cdXqMXQP9iixHCw==.sig.ed25519"
+  "signature": "j9ThBUYKzxOrYQpr+0svKxBYtd8VYqY3Io3Ah5SdGzQzZrMGTGcxAzu6eNm/8HCpf5v1NUgXSjejeHjzwjL1Aw==.sig.ed25519"
 }
