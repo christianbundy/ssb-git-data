@@ -1,22 +1,18 @@
 {
-  "previous": "%RuT9xipOAu0TrMKV3JNY32jnUj+4spzcUwLcPryVjw4=.sha256",
-  "sequence": 15309,
+  "previous": "%PaJl6HgQSe/qc1tdZD3JstVOt1wbP/L3R7y2CiYicqM=.sha256",
+  "sequence": 15310,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581391402709,
+  "timestamp": 1581392825734,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nThat's correct, it looks for a message like:\r\n\r\n```json\r\n{\r\n  \"type\": \"about\",\r\n  \"about\": \"@YourFeedIdGoesHere\",\r\n  \"publicWebHosting\": true\r\n}\r\n```\r\n\r\n>  Is there a way to distribute message privately to a group of users?\r\n\r\nYou can encrypt the contents of the message so that it can only be understood by a few people, but there's no way to publish message that can only be seen by a few people. Does that make sense? You can publish a message that can only be read by the intended recipients, but anyone could see \"Fred published an encrypted message\".",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
-    "root": "%s5UNBcyLr0qUFgPaMwbGe3vGAiqv1khVAWVRsE4HqhA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%u+Mnq1AFB2w7BV3F27jfi2EcZiyPc7YCnK1mEf+9Z9U=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%s5UNBcyLr0qUFgPaMwbGe3vGAiqv1khVAWVRsE4HqhA=.sha256"
+      "%u+Mnq1AFB2w7BV3F27jfi2EcZiyPc7YCnK1mEf+9Z9U=.sha256"
     ]
   },
-  "signature": "0bIdJeOhHbDGWUyVHCaLPnxuVJJadsLGh/p9Z1RrmYQw26lwMe1ESDuS0pCn3iXby085/Nk1Nr7ayD8kjvMFBQ==.sig.ed25519"
+  "signature": "/Uq0WbbyFyoVUBEd75pzfhB4/UOdw+kL+L/N5+FrRaIMUgnfKCmpB0VBDcThs6ZRwhWXBylHRbJ2T/M3uR3sCQ==.sig.ed25519"
 }
