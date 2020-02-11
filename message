@@ -1,25 +1,18 @@
 {
-  "previous": "%naPwDKQ0j7SaN++9CjgSnyEm9YvaoNOUhcKixEUQ17A=.sha256",
-  "sequence": 15304,
+  "previous": "%d2NkzCcSaXohwHNIaKnHrshMbv4P4EYM8DcdPCiCISk=.sha256",
+  "sequence": 15305,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581381492896,
+  "timestamp": 1581381568004,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\n> I believe we probably need to find a way of merging those forks, even if it’s a manner of ignoring the smallest branch and electing the longest branch the primary.\r\n\r\nI think we should talk more about this sometime, maybe on a call. A big part of me thinks that keys should be device-specific and ephemeral, and that instead of backing up your keys you should just put a key somewhere else and do #same-as. Like a recovery code.\r\n\r\nAlternatively, maybe we need a new feed format that allows multiple parent messages like how Git allows merge commits from multiple branches. We'd need some way for someone to say \"this key is compromised, end of log\", to disable this, but I can't help but thinking that key backup is a mistake. Ideally, it would be really nice if the act of *using* a key somehow melted it into your hardware so that it couldn't be copied or viewed ever again.",
-    "mentions": [
-      {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
-      },
-      {
-        "link": "#same-as"
-      }
-    ],
-    "root": "%wfqjgJU9rHSYyZJE95hPc0YobN7I8A4UfoKNXJIk0qw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Odvv3Lo237JEwB3U9yxKfC/jvCDtZGSdk2l3sJ5ARXI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%R+vI3MBCp/nSBrvUMz4nxky2BqB70xv977de898uVI8=.sha256"
+      "%Odvv3Lo237JEwB3U9yxKfC/jvCDtZGSdk2l3sJ5ARXI=.sha256"
     ]
   },
-  "signature": "ui71Yqf/CxuSRPDMOE0lddQ35fppCdbYutYyttnI1DMm9uUYD+RftFnczuDntFQ2ZohSUnY5RmZIEuaqvzcnDQ==.sig.ed25519"
+  "signature": "wmsB25idnZLMVvbAkhpO6uijlrAt5/U+YcHDrQdvZrL1bj2jSwalRjPBrVA7DyA8926uE/XyQhwGH0peQ4N8CQ==.sig.ed25519"
 }
