@@ -1,26 +1,22 @@
 {
-  "previous": "%Vc5VzwbNPsWSv6yfOY7WD8RuOHMUjEvkGLFm5PNdOsM=.sha256",
-  "sequence": 15311,
+  "previous": "%4O/TRnj8Wif8PC6vURq+YVmiJlanCp0SPMdPDE9fHvU=.sha256",
+  "sequence": 15312,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581442976496,
+  "timestamp": 1581443753859,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\nYes, you'd need to do a #same-as to create backup keys before you remove that feed from the device. That's the exact same as any backup -- you can't create a backup once you've wiped the original data.\r\n\r\nForking is caused by using a key in two places at once. Avoiding this solves the problem, but means that we need to resolve #same-as so that losing a key doesn't mean losing your social profile.",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nPatchwork takes a `--path` flag that points to the directory you want to use. The default is `~/.ssb/`. If you move that directory, you can start Patchwork with the `--path` flag and it should work fine.",
     "mentions": [
       {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
-      },
-      {
-        "link": "#same-as"
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
       }
     ],
-    "root": "%UmI5G9qy5J5a5iTZTEeOVyJm2NQ1Oand99GioP29qj8=.sha256",
-    "fork": "%wfqjgJU9rHSYyZJE95hPc0YobN7I8A4UfoKNXJIk0qw=.sha256",
+    "root": "%7m0hACT+nA9OWDp54nNYwpHEQnkcOivdCCsvpI8994w=.sha256",
     "branch": [
-      "%UmI5G9qy5J5a5iTZTEeOVyJm2NQ1Oand99GioP29qj8=.sha256"
+      "%jZkon7iO9uKmtphxAOwZaIUirkKZcIWtZ4QED1fXo7c=.sha256"
     ]
   },
-  "signature": "Gs9G8DqXu62WUKpkTjWp/YgK6d0rauFtXsN5y3ghOl1KIazzBGU4OtLalgTy8VqwGqCho6xYBAJ7ym67CCiXCg==.sig.ed25519"
+  "signature": "3oVIJH8Kt4ylSVu9OqEYzE76LIP4RAZTgwuoXPqAuva2rQlUifp9TpJEuV+OI4FsqpC0KaZXyzlJxxY9Awi/CA==.sig.ed25519"
 }
