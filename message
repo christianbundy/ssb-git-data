@@ -1,23 +1,22 @@
 {
-  "previous": "%FoDYSDEFApuOFk2Z0OMgYFTemiN91qM3oszq3eRtyD0=.sha256",
-  "sequence": 15308,
+  "previous": "%RuT9xipOAu0TrMKV3JNY32jnUj+4spzcUwLcPryVjw4=.sha256",
+  "sequence": 15309,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581391202789,
+  "timestamp": 1581391402709,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nUh oh, it looks like it's connecting to an SSB-Server or something running in the background? But whatever is running doesn't seem to have the SSB-Backlinks plugin, so it doesn't work.\r\n\r\nI think your best best would be to either install [these plugins](https://github.com/fraction/flotilla/blob/928e5df4d5e5788ec91950b4d2e3219db0164edb/index.js#L5-L35) into whichever server is running, or stop the background server and let Oasis just run its own server.",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nThat's correct, it looks for a message like:\r\n\r\n```json\r\n{\r\n  \"type\": \"about\",\r\n  \"about\": \"@YourFeedIdGoesHere\",\r\n  \"publicWebHosting\": true\r\n}\r\n```\r\n\r\n>  Is there a way to distribute message privately to a group of users?\r\n\r\nYou can encrypt the contents of the message so that it can only be understood by a few people, but there's no way to publish message that can only be seen by a few people. Does that make sense? You can publish a message that can only be read by the intended recipients, but anyone could see \"Fred published an encrypted message\".",
     "mentions": [
       {
         "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
         "name": "Fred"
       }
     ],
-    "root": "%rVnQe3+vwRsdSFKYxGngpVQljzOZZoPyit2kxFE9lR4=.sha256",
+    "root": "%s5UNBcyLr0qUFgPaMwbGe3vGAiqv1khVAWVRsE4HqhA=.sha256",
     "branch": [
-      "%6rNCCB+BZ7GKDFhOXC1HOA98zcKPSF5uTt8IdbshNC4=.sha256",
-      "%BatgnR+VSTEGTSC9aK8wVZH1hhV3s77DXTaQ4+WcMFo=.sha256"
+      "%s5UNBcyLr0qUFgPaMwbGe3vGAiqv1khVAWVRsE4HqhA=.sha256"
     ]
   },
-  "signature": "yoEiZuYansFnCSyF1uMisIisbk39OX7AfV1oG4x6CQD01XbN/fh8yNBAgMVQDBpdQYMaP7q8yYqKSaWU3Hh6DQ==.sig.ed25519"
+  "signature": "0bIdJeOhHbDGWUyVHCaLPnxuVJJadsLGh/p9Z1RrmYQw26lwMe1ESDuS0pCn3iXby085/Nk1Nr7ayD8kjvMFBQ==.sig.ed25519"
 }
