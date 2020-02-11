@@ -1,27 +1,18 @@
 {
-  "previous": "%yQGT5/7ie9yim3zatmez26AGWzRBfL9ZAOPZmPa7rOg=.sha256",
-  "sequence": 15300,
+  "previous": "%vBRkB6SEvEARm5UlchaBxAdz0T7OqHEryat8d9rZZbM=.sha256",
+  "sequence": 15301,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581376048864,
+  "timestamp": 1581380510581,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@micro](@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519) [@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI'm curious and not sure whether I understand -- what are the benefits of Deno rolling their own APIs to replace the common Node APIs? Are they aiming to be much smaller? Or is there a big distinction I'm not understanding?\r\n\r\nI've been really interested in Deno but haven't really understood why it's compelling (yet).",
-    "mentions": [
-      {
-        "link": "@wsoeSOhEE3yAIEF1gTVMeStUWnoejIz1P6a3lnvjaOM=.ed25519",
-        "name": "micro"
-      },
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%/P3lphrjBvhUy68HOjLnP7g7RZqjatgHZp5nLKS7BtQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%igSZ1dmAqJOxafu7ZWTY76nVMZaLmrSg5t1RMhCkPHE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%AnANa6NdbbQGNpnMNAbzU7luebCz9r8hNo8twlgNmgQ=.sha256",
-      "%PYl1xa9BbgFVB12a9PmuYgCzqDOeuOWIhXZ4SZDdshc=.sha256"
+      "%igSZ1dmAqJOxafu7ZWTY76nVMZaLmrSg5t1RMhCkPHE=.sha256"
     ]
   },
-  "signature": "S0dK4QblSOKnK3esd2MNCR8yd+I3h/C1hvXTCJ2MokrzhI2z/gCD4Fep3Nf+fzUEHQ9u82385IBH5qMgLd1fDA==.sig.ed25519"
+  "signature": "ipV4AXD1s/qkwFP1cfafYo4fEYC99pdT9lKPhV6HVgKZYVxtftX7514UsqESiXUVd8uVuVanUgQ8IjNdVlpZBA==.sig.ed25519"
 }
