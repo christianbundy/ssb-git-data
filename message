@@ -1,22 +1,22 @@
 {
-  "previous": "%lHXDsIpghlYtiB5prrX3+GF7ogCjW7D8AdDArq+bxk0=.sha256",
-  "sequence": 15306,
+  "previous": "%6eh6jUbD6vTyl+bS3fIZ5ojOHbpct1n873pcitsuaqY=.sha256",
+  "sequence": 15307,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581382055332,
+  "timestamp": 1581391026396,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nThanks! I think I was mostly talking about the non-browser-compatible stuff, like the HTTP server, but reading through the rest of that page it makes lots of sense to me.\r\n\r\n> - Deno does not use npm\r\n>   - It uses modules referenced as URLs or file paths\r\n\r\nTo be honest, this is pretty killer. I've been wondering **why do we even publish on npm**, and after googling around for a few days I literally can't find a single answer. I think I started publishing my modules on npm because that's what was expected by everyone else, but I think that just benefits npm as a company.\r\n\r\nWhy not just:\r\n\r\n\r\n```sh\r\nnpm install https://example.com/package.git\r\n```\r\n\r\nEspecially after the kik + left-pad fiasco, it seems like publishing on npm is *at best* a waste of time.",
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\n> I will try Miyokos next. Super stoked on this.\r\n\r\nI don't know what city you're in, but Portland has an annual vegfest at the convention center that's *wonderful* for trying all of the state of the art vegan cheeses. I've only gone twice but I've spent 90% of my time trying cheeses. If your city has a vegfest or similar, it might be worth your time.\r\n\r\n> ON that note; I need to make a site dedicated to rating how close something is to it’s vegan equivalent.\r\n\r\nI would cherish this resource and treat it as my own personal bible.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
       }
     ],
-    "root": "%/P3lphrjBvhUy68HOjLnP7g7RZqjatgHZp5nLKS7BtQ=.sha256",
+    "root": "%RaWC2lXE/ujgAyVP8iiOUFfGan0R5qVfgKACFBpNb4s=.sha256",
     "branch": [
-      "%Odvv3Lo237JEwB3U9yxKfC/jvCDtZGSdk2l3sJ5ARXI=.sha256"
+      "%zuzH5huvnVF9Kq//s2KMvyGjexO6XN3ZOVLMvFDvalk=.sha256"
     ]
   },
-  "signature": "p0dFdCFkP0KQNQ1TGe5n4N+eF84YzT2CakxW261fglSPGUOB1UFqD2QTZSNL9UFBc1stxN1cfveJ7bHI/PW0AA==.sig.ed25519"
+  "signature": "UCycYLC980ecCsTCVTTqaxK/Iwo0c/pYZaoH2E0loChLHi4AuCjJcA8EKPnjCrwzkwHFEmekRAiWtWf8JeCTDQ==.sig.ed25519"
 }
