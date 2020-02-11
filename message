@@ -1,18 +1,22 @@
 {
-  "previous": "%FNluCqG4zCXEMqRaBQ97tKAa6u1jZXbXaY6QqH2sdlQ=.sha256",
-  "sequence": 15324,
+  "previous": "%q3YdQEEU/hvyvc+D0/DGHKjFLdpJQtD9Q1Edt4jfc48=.sha256",
+  "sequence": 15325,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581451074412,
+  "timestamp": 1581451228092,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@josh](@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519)\r\n\r\nWoah, we've gone full circle! Was this mostly an experiment or does it fit your use-case better than the browser? Super curious to hear your thoughts.\r\n\r\n> it feels really approachable without knowing so much about the internals of SSB or the rabbit hole of dependencies in the server\r\n\r\nWOOOOOOOOOOOOOOO. If you notice anything that doesn't feel approachable, That's A Bug, and I'd love to fix it with you. As someone taking a look at the project for the first time you have the most valuable perspective, and I'd love your help fixing pain points when you find them. I promise you won't hurt my feelings. :)",
+    "mentions": [
+      {
+        "link": "@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519",
+        "name": "josh"
+      }
+    ],
+    "root": "%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256",
     "branch": [
       "%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256"
     ]
   },
-  "signature": "YREKuEsHZcgVxAXC37saalz//pWlrQshrZ96aI/R7syIpk4nt06xuaPcb2awmYaXtX+dt8uhxFVT4QAH4qhGCA==.sig.ed25519"
+  "signature": "MDJk8Is4Eo/2PkgPbLSo+wyRn+TO9vppMG0+8FKER0LAFeQkxP1VPMGAmKxUZnswZbf486n9oiTCiIXsBWsKBA==.sig.ed25519"
 }
