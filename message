@@ -1,22 +1,18 @@
 {
-  "previous": "%tXcoc62sByZodmYzEEaOrr8dxds+cHo3kxiRlGOETyU=.sha256",
-  "sequence": 15316,
+  "previous": "%5+XbH8O0XMO+EJ8XFZtbfsQg6BNQlUCnk18lep+LPXY=.sha256",
+  "sequence": 15317,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581449341183,
+  "timestamp": 1581449500259,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nSo happy you dig it! It's really reduced my stress trying to keep up with the SSB firehose, I'm glad you like it too. It's implemented [here, in `src/models.js`](https://github.com/fraction/oasis/blob/ca16413ad01cd907fda0e6b63cf7b0df55b92f1a/src/models.js#L806-L927). Things to know:\r\n\r\n- `cooler.read()` and `cooler.get()` are just promise wrappers around muxrpc calls, which I'll soon refactor away now that [this](https://github.com/ssbc/muxrpc/pull/58) is merged (thanks!).\r\n- `socialFilter({ following: true })` returns a `pull.filter()` that only allows messages from you and the people you directly follow\r\n- The implementation gets all votes that pass the `socialFilter`, does a `pull.reduce()` to remove duplicates likes/unlikes from the same person\r\n- It normalizes the value to a number between `-1` and `1`, although I'm not sure anyone does dislikes or fractional likes.\r\n- It then adjusts the value of the likes from each person so that if you did 10 likes in the period then each like has a value of .1. This is meant to democratize the popular page so that each person has one vote that they get to spread across everything they like.\r\n- Once you do that, you have a list of all of the liked messages and their overall score, so it's just a simple sort.\r\n\r\nIf you have any thoughts on how to improve the implementation I'd really love to do so. Specifically, I think I'm looking for a way to turn `pull.reduce()` into a through rather than a sink, but maybe you know a better way to do some of these operations and I'm just stuck in a local maxima. :~)",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ],
-    "root": "%2VwX3Brx7l4YxJrBOvvEiVZp22U81RSrfRCgAgxbqvk=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%2VwX3Brx7l4YxJrBOvvEiVZp22U81RSrfRCgAgxbqvk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%EIsIQILsDCBMYwHrCbKEkn+VtZFBLI7DfzmQ7xElrKs=.sha256"
+      "%5+XbH8O0XMO+EJ8XFZtbfsQg6BNQlUCnk18lep+LPXY=.sha256"
     ]
   },
-  "signature": "UY4pt6jVSibIKWbEWJdbeJ2SlTsHYUYxLv9G0dIHaF0fKUmQ58IbwuZzhJR3/5tPWxdneZ0msFOLgAdsD8AoDQ==.sig.ed25519"
+  "signature": "jbrFmASsyfctGhb8hBKSbxug1rP2JXZgOHzzSOKUks8ANd4t10SIiR9D5PLpMYP+foNA0vjEm85O2rfiHKwzBA==.sig.ed25519"
 }
