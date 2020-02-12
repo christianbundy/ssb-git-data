@@ -1,18 +1,22 @@
 {
-  "previous": "%zoyocpKz005YxFmAomKtwSv/NIywsZsklIRMQbsO2R8=.sha256",
-  "sequence": 15353,
+  "previous": "%3ZUii/n7xn7ocpVHWfevYnrRM0j6rmnnCKeo8ATL4JY=.sha256",
+  "sequence": 15354,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581522923580,
+  "timestamp": 1581535037279,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9+4bdDNqy1kTtPxSjAgrMvw2BYVAOugOXaKnb5VDLWE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nIf the milestone is well-specified somewhere else, like how I mentioned WCAG accessibility levels, then I think it'd make sense to treat them as milestones, but if we're just using them to organize things in lists then I think labels are simple and easy (and something we're already doing).\r\n\r\nWould you be interested in using labels for this? Maybe 'safety' or whatever makes the most sense to you? I think I'm a bit hesitant to deeply integrate with GitHub or start using lots of their different project management features -- I've seen lots of repos turn into project management salad with labels + milestones + projects + actions + wikis + etc and I'm already feeling over-stimulated as is. 😬",
+    "mentions": [
+      {
+        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
+        "name": "KawaiiPunk"
+      }
+    ],
+    "root": "%ELmahYdg1CTmdRKrn2hMf+EAJ9vMQTa9mOK/3c9Mkvg=.sha256",
     "branch": [
-      "%9+4bdDNqy1kTtPxSjAgrMvw2BYVAOugOXaKnb5VDLWE=.sha256"
+      "%ELmahYdg1CTmdRKrn2hMf+EAJ9vMQTa9mOK/3c9Mkvg=.sha256"
     ]
   },
-  "signature": "1k2KCYItZ4gr5wS1PHVOV/aNc9gfMIwI6JB2EX/Sk4qCgwHZzl+kN5Nic2fxdhmQ+caFOOJZq9iVzrbDlxJpAQ==.sig.ed25519"
+  "signature": "Vg4lzJmbFcKB2YgI2H8ZFslAThxUpZxKucoxoX/91iGXkVVO46CgsR7AmslfCDSOd6ifWn44+WbaD17Xpoq8Bw==.sig.ed25519"
 }
