@@ -1,18 +1,22 @@
 {
-  "previous": "%TtNxpdtAtiuhL33yUMCNQu5+ULBZsmUb0INvFmpmzy0=.sha256",
-  "sequence": 15356,
+  "previous": "%i7qHHi6V/5uSMkaAUxoU8v9JMdicwpDV4KlIeWlTpoA=.sha256",
+  "sequence": 15357,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581535299198,
+  "timestamp": 1581535610931,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%8zqZzAAzs34R3/P/ceSTKGJsGfvRLoeeBNaUhwzHtAc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nupdates: `cooler.read()` and `cooler.get()` are dead, and the `socialFilter()` got moved down the pipeline from [this PR](https://github.com/fraction/oasis/pull/206)",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%2VwX3Brx7l4YxJrBOvvEiVZp22U81RSrfRCgAgxbqvk=.sha256",
     "branch": [
-      "%l74SZ4Fe7nUQmVDmOClY10kuIZAnepXN9mxHIyXlaSo=.sha256"
+      "%5+XbH8O0XMO+EJ8XFZtbfsQg6BNQlUCnk18lep+LPXY=.sha256"
     ]
   },
-  "signature": "5aK/jhVVhTEy+yztq8JA65C7ak1+jWVqsBGssgfmPZUJsCPiD2cPpXLMC9fmCSG0GNXsmCKmbb+mVZDvUnQ/BA==.sig.ed25519"
+  "signature": "tSEV2tRR1Dbp+Z5W6USCwZbQ+LrAc8ojngkK/PNVnFq1TCo94accyFF1aVReXiW77A+b+0fno8v/HZCsY0dZBA==.sig.ed25519"
 }
