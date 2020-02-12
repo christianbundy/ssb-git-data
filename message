@@ -1,18 +1,22 @@
 {
-  "previous": "%F5lT4Bqs0VjxSF9FLVTM/tZt86A8JrGPmIVjeIo8+Sw=.sha256",
-  "sequence": 15364,
+  "previous": "%REJWbqm+ulNEctE9V8kzKr3mVbxt4W83Sfb+2PjUIcw=.sha256",
+  "sequence": 15365,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581540701659,
+  "timestamp": 1581542550954,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Jt74eUtI42UWgEDSJnk2WoLwy7yEqUsK/L5QxlaO+YU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@antperson](@79RBg7gz9XB6fWp7vLXceAu+QmqEwuRbjHJat2zi4iQ=.ed25519)\r\n\r\nSorry, I don't know who is maintaining the flatpak release but that looks abandoned to me. Please switch to one of the supported distribution formats from the Patchwork GitHub repo!",
+    "mentions": [
+      {
+        "link": "@79RBg7gz9XB6fWp7vLXceAu+QmqEwuRbjHJat2zi4iQ=.ed25519",
+        "name": "antperson"
+      }
+    ],
+    "root": "%Plcm3/I2LsiIduXwQf/T5jk3v9RUZIYnSA4JIZcAwf4=.sha256",
     "branch": [
-      "%Jt74eUtI42UWgEDSJnk2WoLwy7yEqUsK/L5QxlaO+YU=.sha256"
+      "%lwb03hLXeA1AdzZ8qKmSpyMTEnu63g4f1i8072xHers=.sha256"
     ]
   },
-  "signature": "0w08kKPnigYtqAcuvnaZN/FIvMsR5044x7D5dVA78EGfkvKBFrNnQo1gI1oSAcAXXHtIaxwEP1rz1Ed1vrAzDA==.sig.ed25519"
+  "signature": "P8yreoc1tDDHRtlowPv0JUXGgVe/8OYNuhj58W0Teny2lgrbURgR5F4mDxyldQ6tt1zpUK7rCzmhZ5sDVr0jDw==.sig.ed25519"
 }
