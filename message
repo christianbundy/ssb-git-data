@@ -1,22 +1,23 @@
 {
-  "previous": "%3ZUii/n7xn7ocpVHWfevYnrRM0j6rmnnCKeo8ATL4JY=.sha256",
-  "sequence": 15354,
+  "previous": "%UFEOKpx7BNcO0VTdXstw/YAOMSIvE46We7wfU/D2mDA=.sha256",
+  "sequence": 15355,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581535037279,
+  "timestamp": 1581535286223,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nIf the milestone is well-specified somewhere else, like how I mentioned WCAG accessibility levels, then I think it'd make sense to treat them as milestones, but if we're just using them to organize things in lists then I think labels are simple and easy (and something we're already doing).\r\n\r\nWould you be interested in using labels for this? Maybe 'safety' or whatever makes the most sense to you? I think I'm a bit hesitant to deeply integrate with GitHub or start using lots of their different project management features -- I've seen lots of repos turn into project management salad with labels + milestones + projects + actions + wikis + etc and I'm already feeling over-stimulated as is. 😬",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nFor a while I've really wanted to implement a thing where each message contains links to the latest messages from a few of the feeds you're aware of. It would be super easy to implement and would give us a really simple way to do a topological sort of the entire network since everyone would be linking to everyone.\r\n\r\nThe most naive implementation would force you to link to the latest message from every feed you're aware of, which would make for gigantic messages, but if you filtered out messages that your friends had already linked to then my guess (ha!) is that it would only be a few links per message.",
     "mentions": [
       {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "KawaiiPunk"
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
       }
     ],
-    "root": "%ELmahYdg1CTmdRKrn2hMf+EAJ9vMQTa9mOK/3c9Mkvg=.sha256",
+    "root": "%T1h0FZs+Nm3sDKISWqA1Xr7kBx/QH/Epho0eBTCdzWE=.sha256",
+    "fork": "%wfqjgJU9rHSYyZJE95hPc0YobN7I8A4UfoKNXJIk0qw=.sha256",
     "branch": [
-      "%ELmahYdg1CTmdRKrn2hMf+EAJ9vMQTa9mOK/3c9Mkvg=.sha256"
+      "%T1h0FZs+Nm3sDKISWqA1Xr7kBx/QH/Epho0eBTCdzWE=.sha256"
     ]
   },
-  "signature": "Vg4lzJmbFcKB2YgI2H8ZFslAThxUpZxKucoxoX/91iGXkVVO46CgsR7AmslfCDSOd6ifWn44+WbaD17Xpoq8Bw==.sig.ed25519"
+  "signature": "/d9zIA7cCT9y7Ez+dMRRPaZEGkq7ms8Bx+0Iz5A3sA6+3a5hDS7cOJZ6ldRoujCpUaZUHEvskRQA6Hc7dGTFCQ==.sig.ed25519"
 }
