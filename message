@@ -1,23 +1,18 @@
 {
-  "previous": "%UFEOKpx7BNcO0VTdXstw/YAOMSIvE46We7wfU/D2mDA=.sha256",
-  "sequence": 15355,
+  "previous": "%TtNxpdtAtiuhL33yUMCNQu5+ULBZsmUb0INvFmpmzy0=.sha256",
+  "sequence": 15356,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581535286223,
+  "timestamp": 1581535299198,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nFor a while I've really wanted to implement a thing where each message contains links to the latest messages from a few of the feeds you're aware of. It would be super easy to implement and would give us a really simple way to do a topological sort of the entire network since everyone would be linking to everyone.\r\n\r\nThe most naive implementation would force you to link to the latest message from every feed you're aware of, which would make for gigantic messages, but if you filtered out messages that your friends had already linked to then my guess (ha!) is that it would only be a few links per message.",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      }
-    ],
-    "root": "%T1h0FZs+Nm3sDKISWqA1Xr7kBx/QH/Epho0eBTCdzWE=.sha256",
-    "fork": "%wfqjgJU9rHSYyZJE95hPc0YobN7I8A4UfoKNXJIk0qw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%8zqZzAAzs34R3/P/ceSTKGJsGfvRLoeeBNaUhwzHtAc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%T1h0FZs+Nm3sDKISWqA1Xr7kBx/QH/Epho0eBTCdzWE=.sha256"
+      "%l74SZ4Fe7nUQmVDmOClY10kuIZAnepXN9mxHIyXlaSo=.sha256"
     ]
   },
-  "signature": "/d9zIA7cCT9y7Ez+dMRRPaZEGkq7ms8Bx+0Iz5A3sA6+3a5hDS7cOJZ6ldRoujCpUaZUHEvskRQA6Hc7dGTFCQ==.sig.ed25519"
+  "signature": "5aK/jhVVhTEy+yztq8JA65C7ak1+jWVqsBGssgfmPZUJsCPiD2cPpXLMC9fmCSG0GNXsmCKmbb+mVZDvUnQ/BA==.sig.ed25519"
 }
