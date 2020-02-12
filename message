@@ -1,38 +1,18 @@
 {
-  "previous": "%3B4wWynvxbIUHblG0wTscg1rkA0v3OJmRtW+UXlSNSQ=.sha256",
-  "sequence": 15326,
+  "previous": "%JFoyBQf+EEqVxNB8FwfVngkcOjoM+yDiOxQrbIbKUqM=.sha256",
+  "sequence": 15327,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581452077899,
+  "timestamp": 1581467336602,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@josh](@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519)\r\n\r\nHey Josh, welcome! \r\n\r\n> We have to reconcile with living in a world with heterogenous networks, where network breakage is the norm, and no global routes exist. Instead, we’ll have corporate and state-policed highways, with tollbooths and borders, and little backwater passage ways, and sneakernets, and undergrounds.\r\n\r\nI want this tattooed on my forehead forever. Thank you.\r\n\r\n1. There's some discussion in [this thread](%d2NkzCcSaXohwHNIaKnHrshMbv4P4EYM8DcdPCiCISk=.sha256), but I'm not convinced that the trade-offs are worth it. Over the past few weeks I've been coming around to the idea that keys should be ephemeral and device-specific, that they should never be duplicated, and that we need a #same-as solution to bridge identities across many devices.\r\n2. Unfortunately most of us don't have public IP addresses, so we either need to use an overlay network (#tor, #cjdns, #yggdrasil) or build our own with public SSB nodes that can act as introducers (like how DHT announcers works with Bittorrent). Public nodes (\"pubs\") will remain useful for a while IMO, but unfortunately they also come with the historical baggage of the follow-back invites, which completely ruin the social graph. Pubs good, follow-back invites bad.\r\n3. There's a new feed format, #GabbyGrove, that works with the Go-SSB implementation, but it doesn't have support in the JS implementation yet. It uses CBOR instead of JSON and signs the hash of the message content instead of the actual message, so you can delete message content without losing signature integrity, but it's not widely deployed yet.\r\n4. I loved your Oasis PR, and would love to help you work on Oasis / SSB stuff if you have time/energy/interest. ❤",
-    "mentions": [
-      {
-        "link": "@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519",
-        "name": "josh"
-      },
-      {
-        "link": "%d2NkzCcSaXohwHNIaKnHrshMbv4P4EYM8DcdPCiCISk=.sha256",
-        "name": "this thread"
-      },
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "#cjdns"
-      },
-      {
-        "link": "#yggdrasil"
-      },
-      {
-        "link": "#GabbyGrove"
-      }
-    ],
-    "root": "%KpUKxq4fY309WTSCjXuAcnb6rLKXjGYAATkdiwhDUQs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%xKkZf8cbGPLcyVwPIBxcJainneS8pOkGcNvK+UuE/Vc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%KpUKxq4fY309WTSCjXuAcnb6rLKXjGYAATkdiwhDUQs=.sha256"
+      "%xKkZf8cbGPLcyVwPIBxcJainneS8pOkGcNvK+UuE/Vc=.sha256"
     ]
   },
-  "signature": "NcsCkKN5jDjtXXLu7KDbcinbbGadqyHW5nLcfTomi/x5j/w1u4sUsOsUVpwwwaBKY4lgj2etJiLMqyIihlnMCw==.sig.ed25519"
+  "signature": "H/10vHgPlWoSryu8hezHMBtpjHH8onIHunB44wEJjCMlyldtwX5DUw5jbswXamec072kB+mUDUN2lxdYTwfSDQ==.sig.ed25519"
 }
