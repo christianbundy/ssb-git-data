@@ -1,22 +1,18 @@
 {
-  "previous": "%C2fExRJYZzr5vGjJEsueSPNS5BJto6G0oaYtDIxWmhs=.sha256",
-  "sequence": 15372,
+  "previous": "%eiNwXdJIdd7i5CU2Nec/hqqrMpCWI1qaYxjuvv//0ls=.sha256",
+  "sequence": 15373,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581613856941,
+  "timestamp": 1581619032700,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nYep, I think that's a great explanation of it. Relying on asserted timestamps sucks because people can lie, relying on received timestamps sucks because everything that happened when you're offline seems to happen at the same time, but if you have context then you can set some bounds around how out-of-order messages can be.\r\n\r\nWe're already using this *within* threads, using the `branch` property to describe all of the unreferenced messages in a thread, but I think it'd be really useful to do this on *all* messages instead of scoping them to threads.",
-    "mentions": [
-      {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
-      }
-    ],
-    "root": "%OuU4U0GYGHu0Vb7LRZjriWjDN/i6Xf4bRwBQCucRgvc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%mNu8h662Uhu880wgatn1oFSnf0elb0Ex8vXahPazb88=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%OuU4U0GYGHu0Vb7LRZjriWjDN/i6Xf4bRwBQCucRgvc=.sha256"
+      "%mNu8h662Uhu880wgatn1oFSnf0elb0Ex8vXahPazb88=.sha256"
     ]
   },
-  "signature": "Gvi/MCDZp4M4V7xr6O6aBUStbWl0uqS774MVMQUrYPQPO5TbFECSW7RJYvDuXlAZOMtgxQmdWIUKBsAAFxwWBg==.sig.ed25519"
+  "signature": "/jiBSUVaHcjA8NCgSPk0oQJv5bwJzJx+HYsSDIaJR1JKZK169fU0S3NV3K0f9aaIZqRmxD68spZjAHSEBIQ5AA==.sig.ed25519"
 }
