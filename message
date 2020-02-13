@@ -1,18 +1,22 @@
 {
-  "previous": "%+nthfKk6hGDi29xXQwVJ2dxOuBlDh4ACDPsDSIc5wgo=.sha256",
-  "sequence": 15376,
+  "previous": "%Se8gAqJj45hrFqb6ryLdoB45G4Tbh3n4oqtsMiGtIb0=.sha256",
+  "sequence": 15377,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581624398776,
+  "timestamp": 1581624523489,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%n8lOwPrn9bfY4jokyfK+o/0lBnElHdmFo2dfN5SRzNk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@masukomi](@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519)\r\n\r\nI agree very strongly. I've tried to install those tools a half-dozen times and I always spend an hour banging my head against errors until I quit. I think I've gotten them working twice, but ssb-npm breaks `npm --global update` so I've just uninstalled. :/",
+    "mentions": [
+      {
+        "link": "@LzTjF5eAVC6xprPMGeNzqEP/EEBIGpM6hDaaY10hrz8=.ed25519",
+        "name": "masukomi"
+      }
+    ],
+    "root": "%EoFKqsV2KK2x2NR3Id1i7DnBmV5A34QLxft1d5145OM=.sha256",
     "branch": [
-      "%n8lOwPrn9bfY4jokyfK+o/0lBnElHdmFo2dfN5SRzNk=.sha256"
+      "%lOLHKiu8aTnrQ+POkXbljXL1ZIBRFe7nCsebBv5pvww=.sha256"
     ]
   },
-  "signature": "ZxDk+e9dgDmi11UaUgz7xM5sHxxDpspSAFOOefAM3SEQUv1DT1/tuZ3j8YEStmh7Tsw+pmy3QN6h02nwx7SoDg==.sig.ed25519"
+  "signature": "dqNZEzNZ7mslM88WjY8KTrw2LpKyUd/Sz+PngoejX/S/UfHloNPtDjp+FhQZtxOMfNk024ZF7c09Y/ZhDcL7Ag==.sig.ed25519"
 }
