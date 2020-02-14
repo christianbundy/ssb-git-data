@@ -1,19 +1,18 @@
 {
-  "previous": "%00K5vqbhqvqa2HSJzYoLqFftTvEqOAkSVupPhu6EeR0=.sha256",
-  "sequence": 15380,
+  "previous": "%XZZBc2OYWE1auzvF6qnowAT3HZTETirIz4CKHkypelE=.sha256",
+  "sequence": 15381,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581631056802,
+  "timestamp": 1581638958555,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I don't know why, but I just looked at the `node` binary and found some weird strings. Can anyone help me understand what these might be?\r\n\r\nhttps://asciinema.org/a/04sssZmud2Bas2j4IdRGdgPU8\r\n\r\nHere's some of the data, the format is from `strings`: [wat.txt](&091jV9LwJrwW1a7Rr3eM+UJ0MrfkWvvKFETnC20wok0=.sha256)",
-    "mentions": [
-      {
-        "link": "&091jV9LwJrwW1a7Rr3eM+UJ0MrfkWvvKFETnC20wok0=.sha256",
-        "name": "wat.txt"
-      }
-    ],
-    "contentWarning": "binary weirdness"
+    "type": "vote",
+    "vote": {
+      "link": "%gVoNeu3K7bAivqw+wYeOGJwQex2no9ONIe5PbigtP3M=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%gVoNeu3K7bAivqw+wYeOGJwQex2no9ONIe5PbigtP3M=.sha256"
+    ]
   },
-  "signature": "MS1Urq4gpp7yqSb1KKWtzxZ1jdp0TmS8IaOMse+LlssCHYcRTdUFwhxM1oU3Tn58wZr6izr0gAdZwBKlqz+gBw==.sig.ed25519"
+  "signature": "9sZDWV4H7Bf5dIf02ffHx553QoEwLqpi6XGC+ofGfrgJoLatDyW1SGeJUgrKpzsxtpJLnl3bWSv5/N+3NxE+Dg==.sig.ed25519"
 }
