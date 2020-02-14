@@ -1,22 +1,22 @@
 {
-  "previous": "%xRfFJ3e2zg677JEUpfRwc0psa87zuSZs9cBtn15KEBM=.sha256",
-  "sequence": 15392,
+  "previous": "%PydzLrhZKlCZMNc25oz2Ha1qF4sQ0N3umqlUA3nk808=.sha256",
+  "sequence": 15393,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581640568175,
+  "timestamp": 1581640739507,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@? (Nitayo)](@Ehtr5Hqf4kmqzPpoQr1zTaDsBdINhWHo5DYG32x5wJE=.ed25519)\r\n\r\nDepends on your needs! People who sniff your traffic and people can you connect with will likely be able to tell that you're using Tor, but the people you connect to won't have any way of identifying which Tor user you are. We all look alike. :) As long as you're okay with your network administrator / ISP being able to tell that you're using Tor, I'd give it a shot and see if it fits your needs.",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, that's pretty high on my todo list. I'd be surprised if it isn't implemented in the next week. Issue about it is [here](https://github.com/fraction/oasis/issues/208).\r\n\r\n> But I’m having real trouble running either sbot or sbotc against oasis. is that expected?\r\n\r\nIt's not expected. I've had it happen when it says \"can't connect to server\" or whatever, but I've never had that problem with SSB-CLI. I wish I knew what the problem was. 🤔\r\n\r\n> Btw it would be really cool if there were an oasis page that’s just a textfield where I could insert arbitrary json, and if it’s valid it gets posted.\r\n\r\nThat'd be really cool. I've also been considering just embedding SSB-CLI so that you can run *any* MuxRPC command, because why not?",
     "mentions": [
       {
-        "link": "@Ehtr5Hqf4kmqzPpoQr1zTaDsBdINhWHo5DYG32x5wJE=.ed25519",
-        "name": "? (Nitayo)"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%K0+3Z/j574bI0bycLZIm3kAuynLuST39rm01bAfrY5c=.sha256",
+    "root": "%DojsYEdEDPPp5arhBbSqCygdu5e4iyv3urpklao/n7w=.sha256",
     "branch": [
-      "%K0+3Z/j574bI0bycLZIm3kAuynLuST39rm01bAfrY5c=.sha256"
+      "%75Mz1r6HZe+0X8RZOMSSWfrU30Rk9/5v8RU6NlF1p3Q=.sha256"
     ]
   },
-  "signature": "sBuCQIixOsEb6GK26dydye0JLrxKrt3uOrHY/1gd/Z+1OIqv2QvvI08k5KlBqWFpUvvaDlJ7HfnIt7PRnKPvAQ==.sig.ed25519"
+  "signature": "BARlGkbTwqGbaVuoS0hzFEGvJEU5uZwxEIo2GyXi8WnBzHrtbrN+bO2YCZEY9aZXJLsuAzRNlfcZ+4Ft7opbAg==.sig.ed25519"
 }
