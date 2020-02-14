@@ -1,18 +1,22 @@
 {
-  "previous": "%VZRuT1kEPiDQqDtrqkG/DWthHQEL6OExLmypTkmVuBg=.sha256",
-  "sequence": 15413,
+  "previous": "%B+ACTuRnaCa1CUvN5xdygbmxt12BC61WlpiuVEE8BL0=.sha256",
+  "sequence": 15414,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581708986064,
+  "timestamp": 1581709117006,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%7fUyM9igSmMXjzv3pgq/FfHV7I5T0NKjDJO0K8BGPNY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Miikka](@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519)\r\n\r\nYup, that's it! I think we were investigating around the same time -- I pulled in a friend from my coworking space and we've been ripgrepping around the Node source until we found Brotli. Any idea how that file was generated? It's really interesting how tiny it is.",
+    "mentions": [
+      {
+        "link": "@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519",
+        "name": "Miikka"
+      }
+    ],
+    "root": "%XZZBc2OYWE1auzvF6qnowAT3HZTETirIz4CKHkypelE=.sha256",
     "branch": [
-      "%7fUyM9igSmMXjzv3pgq/FfHV7I5T0NKjDJO0K8BGPNY=.sha256"
+      "%R1hCy4N27/NPjvgZevwdmsC0Ruigcxg22rZdGHRy4xA=.sha256"
     ]
   },
-  "signature": "7G4E6gJFRkSS9zC2ca4zueUwBgtWAK8TPQ5Qw/m7yxPdK7v+XpvqGZmmYhDHfnT055bfciIN34VRAogdPnzjBA==.sig.ed25519"
+  "signature": "vUSw/2m4IvbPOo7lcfkeztymVlGJR+PU+TonZMO1Bqmz/ca/P8hTmOyuw4y69LetgCodXddrpO5begKZI1uyDg==.sig.ed25519"
 }
