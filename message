@@ -1,18 +1,25 @@
 {
-  "previous": "%Jhfu8+S/4HnO1qBw6KBg8oC9s2aP37qbbiDRjg/JvBU=.sha256",
-  "sequence": 15451,
+  "previous": "%R+2l+DQcVtXQz37jbxJIXV3ulz3NyX8lP7VC0LwEi1A=.sha256",
+  "sequence": 15452,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581803993323,
+  "timestamp": 1581804118050,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JdYW2INlWW5BcSub3caOr4mNmUul4Hw+m0ul7egjsFc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Léo [desktop]](@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519)\r\n\r\n> Considering how current ssb pub and rooms servers are maintained, even if the #gabbygrove format made it into ssb-server, I don’t see the network switching over.\r\n\r\nAll we need is one pub supporting the new standard and you're good to go. :) Support will likely never be 100%, but the important thing is that the people you want to talk to can understand the message format that you want to send.",
+    "mentions": [
+      {
+        "link": "@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519",
+        "name": "Léo [desktop]"
+      },
+      {
+        "link": "#gabbygrove"
+      }
+    ],
+    "root": "%2C+iVAK7nAONWE2lykfR26i6jCdoTV2b3vHMq18mHSA=.sha256",
     "branch": [
-      "%qDTT1C8sH4n5JwGSceSjmswsaHjAKjvLLrjr5xU7Xag=.sha256"
+      "%L1RcA308ok+sv40dZfW5+mA7izXdyga/ZJRjcWLlJ+k=.sha256"
     ]
   },
-  "signature": "qdwclkTuWZOCC7koWWNVw0d+QAxuHx52iPJib82Ls24H21qtpLX5BFcVWOK0rqtmEm4tv2OLhRsVDqwJ1uLDBg==.sig.ed25519"
+  "signature": "BIENqzJdplVIB1LkbC7o0WBxCfXUXxxRccINMTiPKh9wz4D0A4ID/lVm5Er4U50I+NV4brJUbk3+8UHOhe5WBQ==.sig.ed25519"
 }
