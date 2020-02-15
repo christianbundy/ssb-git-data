@@ -1,13 +1,22 @@
 {
-  "previous": "%8bjH3xem+oaAwveCksufaU61c4XNWdCN2yBPzMHFHgI=.sha256",
-  "sequence": 15433,
+  "previous": "%5GpzKGcw2PwupRlDt9ynCc1R2dgZ/9EPrcjl1CRCfNU=.sha256",
+  "sequence": 15434,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581733236454,
+  "timestamp": 1581733492685,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Happy Valentine's day to all my butts. ❤🍑❤",
-    "mentions": []
+    "text": "[@M](@mCJCqQQwyYikqXqrYjjrj8VNuiixBhEtei15GNi4SSY=.ed25519)\r\n\r\nDoes Tor enable the control port by default? I'd like to enable `--tor` for Oasis, which I'd hope would spin up its own `.onion` address (unless one exists), but it seems like I'd need to edit the torrc to enable the control server + use a control library to set up a hidden service.",
+    "mentions": [
+      {
+        "link": "@mCJCqQQwyYikqXqrYjjrj8VNuiixBhEtei15GNi4SSY=.ed25519",
+        "name": "M"
+      }
+    ],
+    "root": "%UZwFDf5MiMsG07rGRR0re00nnWSPgaswzKOe9+UdQfE=.sha256",
+    "branch": [
+      "%UZwFDf5MiMsG07rGRR0re00nnWSPgaswzKOe9+UdQfE=.sha256"
+    ]
   },
-  "signature": "ChPGA1iJsVjiSjDEpsRu0XHgbd8LEPtXArtyc1xWFSec/xfLF/rVUwdVCdzudVAmwUhvMNSYyPbQ/2vVHGXrCQ==.sig.ed25519"
+  "signature": "hMi31CoGCm9064DtLr874qRHN4ig8imCi7mYn7aDF/DLzMxMidf36yomg/00pKgjomR+oHXRHXNiYnnoLx59BA==.sig.ed25519"
 }
