@@ -1,18 +1,22 @@
 {
-  "previous": "%a9SEKCVrDq6miv5jDrJt5M9OKGVi6ah4sOtK66Bxfds=.sha256",
-  "sequence": 15455,
+  "previous": "%OwEk5dk4ixgwnyQVCLgcRvbAccGHU7nNL+Chzz1mFNo=.sha256",
+  "sequence": 15456,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581804159280,
+  "timestamp": 1581804166302,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mBmiOfCSoQzykgKTKaUqS2IOXWBooVzH3AuzXsKt8zU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "hello [@thinktrav](@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519)!",
+    "mentions": [
+      {
+        "link": "@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519",
+        "name": "thinktrav"
+      }
+    ],
+    "root": "%mBmiOfCSoQzykgKTKaUqS2IOXWBooVzH3AuzXsKt8zU=.sha256",
     "branch": [
       "%mBmiOfCSoQzykgKTKaUqS2IOXWBooVzH3AuzXsKt8zU=.sha256"
     ]
   },
-  "signature": "he7+Vzz1XybUhXEkkuci6z/q7gEHhfQN9gG2G4tiNskH1Es7Wy3XnPJ/p3wPXdCcmQAb5wZQBEwK3VVFgHdvDg==.sig.ed25519"
+  "signature": "y4lZa3kDPRjEc6Oqfs5jnze3dg54BZRk3l2DJEiW0FCYgliqf8EL6HK80TNH6jVapB5x839xZzLAqvmtrRLGDA==.sig.ed25519"
 }
