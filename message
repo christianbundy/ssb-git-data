@@ -1,22 +1,22 @@
 {
-  "previous": "%paQPo2oklLdo0CAwyL4Ta1fi4f6KlTbiaGcUs59HHV4=.sha256",
-  "sequence": 15441,
+  "previous": "%lbC20x9chfl0rCSmVY1A8USE3dyb0piaH7npjSWBl0Q=.sha256",
+  "sequence": 15442,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581787793220,
+  "timestamp": 1581787938882,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@LMZKnsyW](@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519)\r\n\r\nHi! Sorry to hear you're having a hard time with the speed right now. Most of the views have really naive implementations, and the popular pages are no exception. They stream every `{ \"type\": \"vote\" }` message from a given period and sum them, and it doesn't cache any info between reloads. It would be super trivial to improve, but there's lots of other missing functionality (e.g. edit your name) that I'm working on right now.\r\n\r\nI used hyperfine to run a quick benchmark, here's what I'm seeing:\r\n\r\n| Command | Mean [s] | Min [s] | Max [s] | Relative |\r\n|:---|---:|---:|---:|---:|\r\n| `curl http://localhost:4515/public/popular/day` | 1.377 ± 0.134 | 1.251 | 1.518 | 1.00 |\r\n| `curl http://localhost:4515/public/popular/week` | 1.495 ± 0.061 | 1.459 | 1.566 | 1.09 ± 0.11 |\r\n| `curl http://localhost:4515/public/popular/month` | 2.066 ± 0.081 | 1.997 | 2.156 | 1.50 ± 0.16 |\r\n| `curl http://localhost:4515/public/popular/year` | 12.406 ± 0.191 | 12.246 | 12.617 | 9.01 ± 0.89 |\r\n\r\nHow long are the popular pages taking for you?",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\noh, I thought you were working on that project! My font renders that character as 7A7A, which is fun too. :) It's at least very dis-ambiguous.",
     "mentions": [
       {
-        "link": "@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519",
-        "name": "LMZKnsyW"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
       }
     ],
-    "root": "%nTOiZiVPalBSglcQ/q1W9AmC/IUT+Lfah9vChHOWNEo=.sha256",
+    "root": "%R2bpeN0ooXRg4edaB1H81QnnDYs9eQS+CGMVh2osyec=.sha256",
     "branch": [
-      "%nTOiZiVPalBSglcQ/q1W9AmC/IUT+Lfah9vChHOWNEo=.sha256"
+      "%dlp4YN1XuPCbL2Roja+hUjKLrZU64hOVfuAL0GrSUgU=.sha256"
     ]
   },
-  "signature": "P1NXHhuR1Zywol7jcDVb5E8twHVHIUppkV0zXzuvqLM/aJqseFVMqPDbMB/uCDaTVTTk5C1X46080lM4WfbSDA==.sig.ed25519"
+  "signature": "zEjDK8rwRZAx5hPE+7VZ9WfRx0ZwdVCm8dYgXMw5t8/TfPxlD2D/ICb9OdqX3j6v7ROhiU2R8ZJUtw5yiPL3Dw==.sig.ed25519"
 }
