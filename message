@@ -1,18 +1,23 @@
 {
-  "previous": "%fsKC951uopG2efp6gjzFKsCDAhH43KWVHOC1dZU/mbk=.sha256",
-  "sequence": 15478,
+  "previous": "%RVEU/F9N0udYMpPa+gd3eytMIuGRrLOF86k2+iraH98=.sha256",
+  "sequence": 15479,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581878341384,
+  "timestamp": 1581879299825,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%+0nHM7qoH3wGm4bb6G7H0Q3Hs0Rr314Z7ORbgmzxqAs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nnet is plain TCP, but SSB-WS does websockets (among other things, like hosting blobs and emoji images)",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "Powersource"
+      }
+    ],
+    "root": "%dueeVEYbKGvFZht+dMh9ThpHGzFPOx3/4vmj2HAT2I0=.sha256",
     "branch": [
-      "%+0nHM7qoH3wGm4bb6G7H0Q3Hs0Rr314Z7ORbgmzxqAs=.sha256"
+      "%P+AtlfepwtnXsw1qELFtIb93wEkIrz8CW4/aiikfImA=.sha256",
+      "%v6v3srr/n+8kpRgY2rr1qZVxHgHzVR6pp6jtqvx9X2g=.sha256"
     ]
   },
-  "signature": "+hYt9lkJp+dbJ1v132iuDA37xcltp03znVq0tVSKgwt93/jLQ2mro4o/ZvC6E3r2gGQd6BNGdKHXE6jl7sr4Aw==.sig.ed25519"
+  "signature": "vXx4G4EdSfVeqZFQ9poPGeWwpeENi1rEuZiPg4iHj6UYAf6vrb00/qHye3d/xG6zFoJxm+070v6NftBNU+RqBQ==.sig.ed25519"
 }
