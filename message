@@ -1,18 +1,22 @@
 {
-  "previous": "%7uwuYdNuG25O6I8nzGJkeYv4gnyJyFXQBUSi9M54byI=.sha256",
-  "sequence": 15532,
+  "previous": "%9pcO8vBrcnF8LttMa9Mkpc35IfnLwY/OOr8ZUn6pdyA=.sha256",
+  "sequence": 15533,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581980952276,
+  "timestamp": 1581981680856,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%p4IInlbVaRQDCoigHDHbzH/M1yxOniiIOP4qbU6qgbs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@tKyHI72G](@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519)\r\n\r\nThat's correct. The problem this solves is one where you run `apt-get update` as one command and `apt-get install` as another, and someday you change the `apt-get install` line and it uses your super old cache of `apt-get update` instead.",
+    "mentions": [
+      {
+        "link": "@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519",
+        "name": "tKyHI72G"
+      }
+    ],
+    "root": "%l46wApG40syHMG2RoC73lagGiCvq9MID9v16GF6Dl2M=.sha256",
     "branch": [
-      "%p4IInlbVaRQDCoigHDHbzH/M1yxOniiIOP4qbU6qgbs=.sha256"
+      "%BzWw2ePyd5AyqmZ1FP8JUV4HUztn9JlL9LUA3ZtjTCc=.sha256"
     ]
   },
-  "signature": "FtUoQwZtyYEfK3WIOScfB9bHz5SKdvOEGEn2+KD//I+PmIMtXYbbr2lLgLp7o0SrXjyNOe2XlRUnamGUTNUmDg==.sig.ed25519"
+  "signature": "AR+0ZYaVEaTl6hSRRdjJMMWNrVPP4iA3ap7+ZOZUR8ztcHgkDm/7MpMqEsXcpLYBB2KFw4XCwVEE2zQVbVoBCA==.sig.ed25519"
 }
