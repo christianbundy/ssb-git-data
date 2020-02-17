@@ -1,22 +1,17 @@
 {
-  "previous": "%MRvwFBg7ycCOgfxTlfRQty4sJUQy90Gx5E91s81jrck=.sha256",
-  "sequence": 15517,
+  "previous": "%Z0NrmvutXtcCfuSVSL2OtGCdyryO/uZt2hpupsgunAg=.sha256",
+  "sequence": 15518,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581967682202,
+  "timestamp": 1581968640904,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nI'm happy to hear that, thanks! Let me know if the unfork gives you any trouble -- it *should* be pretty simple.",
-    "mentions": [
-      {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
-      }
-    ],
-    "root": "%zEJ52wGfxw6f/eZr0OZ79J+Uxip2E5c+xEDCEI9qoYQ=.sha256",
+    "text": "Improved script:\r\n\r\n```javascript\r\nconst GitHub = require(\"github-api\");\r\n\r\nconst token = \"redacted\";\r\nconst gh = new GitHub({ token });\r\nconst i = gh.getIssues(\"fraction\", \"oasis\");\r\n\r\ni.listIssues().then(issues =>\r\n  Promise.all(issues.data.map(issue => i.listIssueComments(issue.number))).then(\r\n    issues => {\r\n      const users = issues.reduce((acc, cur) => {\r\n        cur.data.forEach(comment => {\r\n          const user = comment.user.login;\r\n          if (acc.includes(user) === false) {\r\n            acc.push(user);\r\n          }\r\n        });\r\n\r\n        return acc;\r\n      }, []);\r\n\r\n      const markdownList = users\r\n        .sort()\r\n        .map(name => `- ${name}`)\r\n        .join(\"\\n\");\r\n\r\n      console.log(markdownList);\r\n    }\r\n  )\r\n);\r\n```\r\n\r\nIn the future this should also snag comments on pull requests...",
+    "mentions": [],
+    "root": "%Mk8vXj+idX+aoexbp+YfDjSYsyvpKV2OATAhku5in5w=.sha256",
     "branch": [
-      "%X0Rqi+U2dnnUox/Lggqg0QdXl4Q3uqz4dROpjUSZGHo=.sha256"
+      "%Mk8vXj+idX+aoexbp+YfDjSYsyvpKV2OATAhku5in5w=.sha256"
     ]
   },
-  "signature": "dkidbkgOSRWaIZw2fy5c/JKVqwMpwiJ2BjSX4HfTA+S584jiDux/5nB4cWOCOiu1xZJ2w+//v6iiaeI053q0BA==.sig.ed25519"
+  "signature": "kjqZITgi8/r4lHHshAKOSyR40lSCeZATCkntzw3F/ipeNdt4JOLj/R1XeqDCbiuvdYn7mUjF78+6eW6fWoioAw==.sig.ed25519"
 }
