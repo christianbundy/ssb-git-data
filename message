@@ -1,18 +1,22 @@
 {
-  "previous": "%HO/h5r3xyaUXrnREmLvcQD13DCpJNSCSLtD3j+R7vmw=.sha256",
-  "sequence": 15507,
+  "previous": "%vHLssHmJCyf1cOoQdlIV1XEpGYS/G5Rkh5wRFCgJ7Nc=.sha256",
+  "sequence": 15508,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581953302109,
+  "timestamp": 1581956454095,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%edtPc16znYdkAsK2ETd+kJx+CQ1EOinBhzbIjREdJ4Q=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@wakest (on NixOS)](@VUXqH/zofAP4WYNnUFjfc8gBU6kJ6jlBe2I9VC6NVTk=.ed25519)\r\n\r\nNope, just internal images so that you can't track people via HTTP requests. There was a short period of time where you could publish external images via Markdown, but that was a bug.",
+    "mentions": [
+      {
+        "link": "@VUXqH/zofAP4WYNnUFjfc8gBU6kJ6jlBe2I9VC6NVTk=.ed25519",
+        "name": "wakest (on NixOS)"
+      }
+    ],
+    "root": "%dIQP7vugvLLqnqBQQFv2qKCoLfS4oFz14sCy6u5qO+E=.sha256",
     "branch": [
-      "%edtPc16znYdkAsK2ETd+kJx+CQ1EOinBhzbIjREdJ4Q=.sha256"
+      "%G+fHMnFu/KsRmlKYxizxadyPeOWKg5kDrKz8F5ge330=.sha256"
     ]
   },
-  "signature": "vlsGFhqkof8bkRGUR4w7/YJRgLdkUSr++EGGsLw7MP+6CW0dW/idMRoqlZAwsYI5ekl0Phf22PVhfQE+XqacCQ==.sig.ed25519"
+  "signature": "j/RE/a5498KacwP6opu6IEZeMQLG2QHxjAXSNwIkTcJuFkimpmbe3Thk8JrUXbLeSEgIzfl8MF3K76yIEIuwCQ==.sig.ed25519"
 }
