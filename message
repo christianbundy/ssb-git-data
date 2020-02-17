@@ -1,22 +1,19 @@
 {
-  "previous": "%mhNkPkE2PCPLyn0wjkIIeHKZ69+tNTheNxIMpLyGdeg=.sha256",
-  "sequence": 15514,
+  "previous": "%HUy8+SAXux2JuPx2mganzR8jXbdoHG5gskgIJsYNDUM=.sha256",
+  "sequence": 15515,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581963970528,
+  "timestamp": 1581963989505,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nSuper benign, if you delete all the posts and load both `~/.ssb/secret` and `~/.ssb/conn.json` then it should download all of your non-forked posts from the network. Just make sure that if you care about any of the stuff you've published on a fork that you've saved it somewhere.",
-    "mentions": [
-      {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
-      }
-    ],
-    "root": "%zEJ52wGfxw6f/eZr0OZ79J+Uxip2E5c+xEDCEI9qoYQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%JMRBeNJWcYsrX5yHtads3lLW3/TNNe9SduEB4iAAgFk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%zEJ52wGfxw6f/eZr0OZ79J+Uxip2E5c+xEDCEI9qoYQ=.sha256"
+      "%2/wVBECnqJ3vRon1KTqVsOb1+5kowDu7z7hFq7GXpBA=.sha256",
+      "%ZRqSqGKRghA4u11osZrePLphaD/Wq85vW9Fk09eX8Jc=.sha256"
     ]
   },
-  "signature": "FhEcGiXEJLwfOI5z4OBQ/vUIiqYd9EVKYvki2yUxBojtKnhpoxNMz0+NdNUnuP3eFXUhsIH9jh71Uf1zQbviBQ==.sig.ed25519"
+  "signature": "ZQz0WNsuc5Q6qOyTbXBeMypcpt/Ay0erQima/Jkr6lfUuNpi2crWXIjSz7BEbyaQSX/6hQUb0HLsjirEb9Q9Cw==.sig.ed25519"
 }
