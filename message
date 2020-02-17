@@ -1,19 +1,23 @@
 {
-  "previous": "%Vk0vvhrDlzSDNChVeGFw5O07JD4anUrrpbC7y69oQC0=.sha256",
-  "sequence": 15497,
+  "previous": "%a+/1Do+OAAK9AyNuv6VCL88Ix4IIvw8G8WIB+pK2rS0=.sha256",
+  "sequence": 15498,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581899112156,
+  "timestamp": 1581899420840,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AVBVEqRxSsG9G+WCSCZcLVW2vjfqk8ViUnk31YI8elE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Powersource (addon)](@PoiO9Abkhc4LUcON39i2PfVOCAgcIx1rPfltQ4Y4tPY=.ed25519)\r\n\r\nDo you have a link for that? I don't think I've seen it. I think it's interesting that SHS keeps randos from discovering your pubkey but also it means we have to broadcast our pubkey instead so I don't think most of us use that security property. 🤷 I'm curious what SSB would look like if we just took the 'boring technology' approach of HTTP + TLS + JSON-RPC instead of Multiserver + SHS + Box-Stream + MuxRPC + etc.",
+    "mentions": [
+      {
+        "link": "@PoiO9Abkhc4LUcON39i2PfVOCAgcIx1rPfltQ4Y4tPY=.ed25519",
+        "name": "Powersource (addon)"
+      }
+    ],
+    "root": "%AVBVEqRxSsG9G+WCSCZcLVW2vjfqk8ViUnk31YI8elE=.sha256",
     "branch": [
       "%RdIO3klyIj5u69sqE33vaCeN7cqisPjeRVqtNFBTjXA=.sha256",
       "%qXEQ8mg6foCAnL6oI+I6ZgTJ84ChJX9HZo/zc7JujaA=.sha256"
     ]
   },
-  "signature": "S9Z3JUZqEm34ziSX1ShThe5w0fQtEgvcgvCeLctbeoTnp65VG8IHVAYzDpkSBq/CKZ8CXHULNQU9QeCMjmwjAQ==.sig.ed25519"
+  "signature": "hPzua//m0fzCL9BGa0uB0w9RDeiYm0MP6LCeaFY9GjE9fUjVPULKrIxnkFNX6PwVvDJL45+hUghHeQsawGTtAg==.sig.ed25519"
 }
