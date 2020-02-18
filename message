@@ -1,12 +1,12 @@
 {
-  "previous": "%/LUyMkfI6AMjNn5G8oWc+cnMmB6zQBTCEplF2lFI6SY=.sha256",
-  "sequence": 15543,
+  "previous": "%dAGZoVFvEXllnrH1s5Qoitq1bAWE0Kc+J87RcbW3NK4=.sha256",
+  "sequence": 15544,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581984681232,
+  "timestamp": 1581984757494,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nHey, I was just thinking about this yesterday! I was thinking that if you exposed a way to get JSON for a feed (with a configurable starting sequence number) then you could bootstrap your own SSB node with just HTTP. It's like `createHistoryStream()` without any of the SHS + Box-Stream + etc, you just download the JSON and verify the signatures.",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nSide thought: I've also been thinking that maybe debugging would be easier if we could download the JSON for any of the threads before it's passed to the view. Not sure if this would actually be useful though. 🤷",
     "mentions": [
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256",
     "branch": [
-      "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256"
+      "%dAGZoVFvEXllnrH1s5Qoitq1bAWE0Kc+J87RcbW3NK4=.sha256"
     ]
   },
-  "signature": "XD4BscXSNVemGiiRxUe/ykUwGP9b7Uag+KaKpNshp42vphtF2xnzxYsMtmYyw4w2gYsS67nw9Gb68VkM+ByMBQ==.sig.ed25519"
+  "signature": "CzRYTpRjIE73NYSwDQDJ+RSUOu36nkcI2t4hLPgjwQVT7e9BQeck5AU6FVAPs2l6vUf0P8+c/ejuKmW8xnBpAw==.sig.ed25519"
 }
