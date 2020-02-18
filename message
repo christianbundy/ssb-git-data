@@ -1,22 +1,22 @@
 {
-  "previous": "%JJNtHgfzmfWCLXiInpiYzjF8vZK2YQTg0sFYs+pdWt4=.sha256",
-  "sequence": 15600,
+  "previous": "%G45DrSu8MwAMNwnSoKkBxlGoMW7EfHbqy/kDY6+9XXI=.sha256",
+  "sequence": 15601,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582049127299,
+  "timestamp": 1582049200840,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@null](@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519)\r\n\r\nThey're great if you're writing software that's meant to scale infinitely, but they add lots of complexity for small-scale computing and distributed networks where each person is only running one node.\r\n\r\nI think there's lots of utility in being able to write configs as if your program is the only one running on the machine (VM / Docker use-case), but I haven't spent much time doing k8s or lambda-style programming for p2p software.",
+    "text": "[@wakest (on NixOS)](@VUXqH/zofAP4WYNnUFjfc8gBU6kJ6jlBe2I9VC6NVTk=.ed25519)\r\n\r\nGood luck! Let me know if I can help. (I'm on Arch, not NixOS, but I can still try.)",
     "mentions": [
       {
-        "link": "@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519",
-        "name": "null"
+        "link": "@VUXqH/zofAP4WYNnUFjfc8gBU6kJ6jlBe2I9VC6NVTk=.ed25519",
+        "name": "wakest (on NixOS)"
       }
     ],
-    "root": "%7uyedbXCUaBTHyd0G9XMDLHkVak01rnDbH4s6twESDk=.sha256",
+    "root": "%3WysuqZSZsEmu+IB25+oD5+EysN9T/btSAK7/yzXEFo=.sha256",
     "branch": [
-      "%7uyedbXCUaBTHyd0G9XMDLHkVak01rnDbH4s6twESDk=.sha256"
+      "%3WysuqZSZsEmu+IB25+oD5+EysN9T/btSAK7/yzXEFo=.sha256"
     ]
   },
-  "signature": "/+9Yh3W08zW7QmnE9RoR4O/DLUTibbsWNxUQtqE1XkGVASfZ+oXCXn6/2iN/3Gwkbc9tWo4wcYfCf9svCSXkBA==.sig.ed25519"
+  "signature": "FNzipmC3VLE6NebhFyYfWHJGZ2f6Dc67+tyZ/VTIA4WyPoTCVRiTJbixwbrNH3/Q10Ahyf1YVrrYQNWEk8ipDQ==.sig.ed25519"
 }
