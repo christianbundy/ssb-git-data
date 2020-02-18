@@ -1,18 +1,22 @@
 {
-  "previous": "%FPo/0gcE7gTRaA8kXgEdp2NSmcEFHBxxOAhUPa79ZO4=.sha256",
-  "sequence": 15568,
+  "previous": "%ZLnuR2bajIHKL7GYmgFghroVt0ar8VdCzjamRkOBYlg=.sha256",
+  "sequence": 15569,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581999239544,
+  "timestamp": 1581999407151,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%m+mt3h6CaLNabSLjkcabeQGNSxaYURZEnpiPoM+Mwoo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@zac_siegel](@9K8bl2jQB4KZHHcJB3egb61ybEXyWlvjfrCRgH/hq1k=.ed25519)\r\n\r\nHey Zac, welcome! I'll be interested to hear how your experience implementing SSB in Kotlin goes. What are you hoping for your client to support? The usual SSB social schemas, or something else? I'm looking forward to seeing you around!",
+    "mentions": [
+      {
+        "link": "@9K8bl2jQB4KZHHcJB3egb61ybEXyWlvjfrCRgH/hq1k=.ed25519",
+        "name": "zac_siegel"
+      }
+    ],
+    "root": "%yFkSNEvilci8wvCBXfZU4Y+nI+C6P7uAnbvlIu0Ahps=.sha256",
     "branch": [
-      "%m+mt3h6CaLNabSLjkcabeQGNSxaYURZEnpiPoM+Mwoo=.sha256"
+      "%yFkSNEvilci8wvCBXfZU4Y+nI+C6P7uAnbvlIu0Ahps=.sha256"
     ]
   },
-  "signature": "NME7V4KlYj3Vc6ksvbI6i6psLi0BYea+tUrEm17EY09dbcQydfs15YHgKnOAcjcrQpew8xrADyjjYB9n6IiZAg==.sig.ed25519"
+  "signature": "Y0RyfqF+PcecjY+16uGIAEwvMorLPKZNVt2XpdofNTu3T1xhPo/Cy5ZZ1Kn+GnLKHT8a2c4oVQK5sabLyn0PCA==.sig.ed25519"
 }
