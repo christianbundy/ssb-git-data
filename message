@@ -1,18 +1,22 @@
 {
-  "previous": "%KPLQB7y27JbqzhHHX0yotg92tWHt8jY/JyoY7q6bQiA=.sha256",
-  "sequence": 15542,
+  "previous": "%/LUyMkfI6AMjNn5G8oWc+cnMmB6zQBTCEplF2lFI6SY=.sha256",
+  "sequence": 15543,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581984438214,
+  "timestamp": 1581984681232,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nHey, I was just thinking about this yesterday! I was thinking that if you exposed a way to get JSON for a feed (with a configurable starting sequence number) then you could bootstrap your own SSB node with just HTTP. It's like `createHistoryStream()` without any of the SHS + Box-Stream + etc, you just download the JSON and verify the signatures.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256",
     "branch": [
       "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256"
     ]
   },
-  "signature": "vKzQ5Zh+bhb1aCYHoDeIXe2ZhP4M2ZZ/dmV3ZyO3or/UdxiXfJbKms/izQ8DWuhP5gNO/mYkrquHQoTLaDfgAw==.sig.ed25519"
+  "signature": "XD4BscXSNVemGiiRxUe/ykUwGP9b7Uag+KaKpNshp42vphtF2xnzxYsMtmYyw4w2gYsS67nw9Gb68VkM+ByMBQ==.sig.ed25519"
 }
