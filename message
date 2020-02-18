@@ -1,18 +1,22 @@
 {
-  "previous": "%cyVaOqD5pE7HpmS/Lu09E/7nmhq6r9+RD6Uit3Vnxx0=.sha256",
-  "sequence": 15597,
+  "previous": "%bfxaMVUGZz/30ySKghIJjoSwWwbN9s6bVzZ8wITaZ8w=.sha256",
+  "sequence": 15598,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582042241239,
+  "timestamp": 1582048340551,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%R1ZTHQVLSsfW7aqOZvvGWhVGL6ByC/amew5JrhDUIdg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nSorry, I mean \"download the JSON for any of the pages before it's passed to the view\". Like maybe you could do `/author/:feed/json` and it'd return [this JSON](https://github.com/fraction/oasis/blob/8237e08d738f87f707957fcd711a5cab91f3f0ed/src/index.js#L162-L169) instead of the HTML that gets created when you pass the JSON to the view.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%af4B+sZdUVuff3+NU6P1Yo4y8vkVVYLlyZm06jF23RM=.sha256",
     "branch": [
-      "%R1ZTHQVLSsfW7aqOZvvGWhVGL6ByC/amew5JrhDUIdg=.sha256"
+      "%5FBVCwbrPfThL1TMCbF28DQmFZ9XibgHvAB3HVNdvr4=.sha256"
     ]
   },
-  "signature": "vgFnMSgIdA+1dcWCeGVx9bigGXH/S4DV3r17X36qYqexrFGT/G11SId0eOB7pQDi4W3MugA99wVn2xbn6OPhCw==.sig.ed25519"
+  "signature": "cpwF/fVMJltYhGwQJnI0JpVAKsNmtZdi8qgeZ3ocJhLiEyYCU3jv4YR3jOxdX58Jf50TqrlXAwUAhRzI0vJzBQ==.sig.ed25519"
 }
