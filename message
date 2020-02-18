@@ -1,22 +1,18 @@
 {
-  "previous": "%cjmDotz4KNIG6P0iIUAw3WzRxW+WQSLfdx7PqNKuW20=.sha256",
-  "sequence": 15575,
+  "previous": "%PrptIjTFKjkU3bHTunAyfSpxEfLrHPLQfmcQDzkFONM=.sha256",
+  "sequence": 15576,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1581999820121,
+  "timestamp": 1581999841010,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nDepends on which part of the install took the longest. Did it compile any npm dependencies from source, or were there prebuilds available? Ideally we could make sure all of those dependencies are cross-compiled for your architecture so that you aren't compiling anything from scratch on a Pi Zero.",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
-    "root": "%xy00pwQ2Sp5iYJ03A/BH9RajCrKFfwbxjvk8T85/S20=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%kxiuxUt1lU6e5EddcMSB0HxkFhE2Wo4JW9d35lkv5fU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%xy00pwQ2Sp5iYJ03A/BH9RajCrKFfwbxjvk8T85/S20=.sha256"
+      "%kxiuxUt1lU6e5EddcMSB0HxkFhE2Wo4JW9d35lkv5fU=.sha256"
     ]
   },
-  "signature": "C5W50ijCJrCj350mgwkbmwWfBcSpShiFxeaSEl5KFRwITCBXyTetl5NYlteGRoWGUKFLCJ1vNMDYEmXfzxWwCQ==.sig.ed25519"
+  "signature": "46F1spduF2JG4IoOIBvZQZ9Nl9gLXS9gi/2GBrwslzgrC9Ug8ROe11us672C3155bpwwbpIqINPDi1PcPJXCCw==.sig.ed25519"
 }
