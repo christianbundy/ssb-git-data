@@ -1,23 +1,22 @@
 {
-  "previous": "%TgUF2e8LcdOonfbqRELccBDTAUcMOzTgztHPujiqawA=.sha256",
-  "sequence": 15675,
+  "previous": "%HhhDtTMt53ROuh+4DpYCmyEbhqXib18W9xR4HUGxDCc=.sha256",
+  "sequence": 15676,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582142088739,
+  "timestamp": 1582142128353,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "There's a bug in SSB-Mentions that's breaking Patchwork and I'd love for someone to merge this ASAP.\r\n\r\nhttps://github.com/ssbc/ssb-mentions/pull/17\r\n\r\n#ssbc #ssb-mentions #patchwork",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nOh dang, that's not great at all. Looks like I'll need to move to jank-streams to make that lots faster.",
     "mentions": [
       {
-        "link": "#ssbc"
-      },
-      {
-        "link": "#ssb-mentions"
-      },
-      {
-        "link": "#patchwork"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
+    ],
+    "root": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
+    "branch": [
+      "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256"
     ]
   },
-  "signature": "17C4tlvGDwYBJn9qyQpmy+kvkJQliKQUHdcZG0NfBmxjx0FhQfDMW461xj4saImjsFJ+ckDMJ6Cv75AtQVY+Dw==.sig.ed25519"
+  "signature": "0MLfa55/TJlKhYzcbngEtUhjSorioPuc32RnQ6i0Ob7OeEVSWztsZpXPlcY1DDuBza24JSBP9JLvgiw608Y2Dw==.sig.ed25519"
 }
