@@ -1,23 +1,22 @@
 {
-  "previous": "%+5LlC7GCNuqCERGfYQvnO81Gt/ChVKJoGTBKOtkxsiY=.sha256",
-  "sequence": 15634,
+  "previous": "%KPdNZ+0FF1T7pp5vYQsAhRayovmaKw/aQi8isnF6V/M=.sha256",
+  "sequence": 15635,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582070692929,
+  "timestamp": 1582071034621,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\n> interesting note: at least in patchfoo i can’t fork a thread unless there is at least one reply.\r\n\r\nDidn't realize that Patchfoo did this, but this is how I implemented it in Oasis as well. It was partially a UI decision, where it was unclear how to show the difference between \"I'm responding to the thread with 1 message\" and \"I'm responding to a message, which *happens* to be the first message in a thread with 1 message\".",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nPatchwork has a feature where if the author of a thread blocks someone, then the blocked person's messages in a thread are hidden. I understand the benefits, but my first reaction is that it feels a bit weird and confusing. Maybe just because it's unfamiliar? Biases are hard.\r\n\r\nThis also creates a problem where you can have years of positive conversations with someone, and then you block them, and now when your friends look at old threads they can only see one of you talking to yourself (depending on who started the thread). I like feeling like my messages are mine, and that you blocking me wouldn't hide my messages from my friends, but maybe that's a trade-off that's worthwhile for the gains in safety and moderation.\r\n\r\nI guess it's a problem of whether messages belong to their author or whether they belong to the author of the thread.\r\n\r\nFWIW, I've not clicked your link because I don't want to compromise my perspective and relegate myself to a fork. :)",
     "mentions": [
       {
-        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
-        "name": "xj9"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%P00Jg5qRkK+e9pMWtNXPFSTBsPsfgaI6OWwjYYy7aww=.sha256",
-    "fork": "%5q+cpVbAPKp6sS3ZEu+hDGi8YgtTtKNA8GQnc7QtmBk=.sha256",
+    "root": "%5q+cpVbAPKp6sS3ZEu+hDGi8YgtTtKNA8GQnc7QtmBk=.sha256",
     "branch": [
-      "%P00Jg5qRkK+e9pMWtNXPFSTBsPsfgaI6OWwjYYy7aww=.sha256"
+      "%08OKiozzovAHnYUW6rD7bTdgZIONe5r8ZHI0JbKcJY0=.sha256"
     ]
   },
-  "signature": "ynKgZPwZs/sC69It6jBTuYWW4AhNO5ZcPNhLDbLhbzBg4LJbJgfrQ6RJZ/kPsDkQb6yxvS3Drf3BF08pJd6qDQ==.sig.ed25519"
+  "signature": "wB8dH1ICshbT4de8waWK3cI8IVi1DwAMWWeZa0J9d7i6nez1STjKHm0FzzKThv/+ErpvbXfrGhgSVg0H05E5Cg==.sig.ed25519"
 }
