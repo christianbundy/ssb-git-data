@@ -1,22 +1,18 @@
 {
-  "previous": "%Zz+Inkte70Qz1UVKUHIhOgo16Oj/n37PfgmIzLDBgZw=.sha256",
-  "sequence": 15700,
+  "previous": "%yQ1GQQAlrQtgTlmNNzRuVxGTlKy8qK80fY53bGPwsbA=.sha256",
+  "sequence": 15701,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582149635515,
+  "timestamp": 1582149759772,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nSSB-CLI is different than SSB-Server, I'd recommend unlinking `/usr/local/bin/ssb` and installing SSB-CLI instead (which provides the `ssb` binary). ",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
-    "root": "%8IBxN8f5Yy4iZXA7CaNryCdafM6ROj16czLC8FkXSKY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7Z07lQNBIchMco4lbxYmpqjF4iLFKbNrUyCpsur8uxk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DntZkguZJ0QZGmzp3oNyrAbKb/qbYFoxkshKAf+BMEg=.sha256"
+      "%7Z07lQNBIchMco4lbxYmpqjF4iLFKbNrUyCpsur8uxk=.sha256"
     ]
   },
-  "signature": "8HdQuGiYWeq+J8fTFGG/WxMaWv81EHsOQSaYV/MkmbUNyuoDr936/0gZZbebIfWHwCgCMIzUise/S3TXkayxCg==.sig.ed25519"
+  "signature": "32tqE6f4C1tViFKm1zUCBVxahaydR6PYD5RWxbMxrLBYre490hB8g4P0tCZaENLFH985gZi8ZNrJC0jaW4ryAA==.sig.ed25519"
 }
