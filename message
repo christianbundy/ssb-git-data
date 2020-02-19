@@ -1,17 +1,22 @@
 {
-  "previous": "%l4QvRUukq3rftkjOL6QSFmOY4w+ihTfGrv9HzbraTOM=.sha256",
-  "sequence": 15639,
+  "previous": "%LfDT4cRkYgam7mNSjCXXF04QmaS1mFRSIj3SetsU9Co=.sha256",
+  "sequence": 15640,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582073846780,
+  "timestamp": 1582074027684,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I have an implementation but it's super ugly...",
-    "mentions": [],
-    "root": "%vlTFH5qXDmW5q6YoXwLHqKsOhncG2McnV1njDCtaGe8=.sha256",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nDid you ever end up figuring this out? Just realized that Oasis could be about 16 times faster if I held the streams open instead of starting a new stream on each page load, but it doesn't feel very ergonomic to program.",
+    "mentions": [
+      {
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
+      }
+    ],
+    "root": "%HUrRZsLGVcmE8xp2ahfDSNf0j32P8Jqr7a6e+ex59Uk=.sha256",
     "branch": [
-      "%I4cP/p6TP7cYkSULO031qmidg/mudEH/+r930xuDuM0=.sha256"
+      "%S9TtwFUeWbamq6l+DzbxivolsEZ4HUmOEtWopxywCkw=.sha256"
     ]
   },
-  "signature": "ZorPqJo06AVvObdiDqqsDtBpm5g74avzdwsjYAU5jYClkIYeWAWHu4OVClQyXhz5eWTTt0ETvE4T8JPGUDngBA==.sig.ed25519"
+  "signature": "nqZ3nAyyLsUkCPWf0qA36PpQPvl620aSKv+DNO5LUF0kWjw9nAmtJjwkaElCMILeEQDE6j8jsejZ8obYZu1yAw==.sig.ed25519"
 }
