@@ -1,18 +1,25 @@
 {
-  "previous": "%lGeM3gmxktBZymhsCV1LqLrUJbGNwEsXtsJk3WrnicY=.sha256",
-  "sequence": 15657,
+  "previous": "%7nFJNcyZ0dJWMLb+W6+FHDjrOwe8TJfPkcA1lPn9Blc=.sha256",
+  "sequence": 15658,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582130842857,
+  "timestamp": 1582132547225,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%00pcLX4Yycku1xTeO8AITqD8WolUjEDzzJIyoV1lueY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@heechee](@Dd6pVeXBVWF5IrqZl7noG92N2N4QLs3cLC8019CAEXQ=.ed25519)\r\n\r\nHi, welcome!\r\n\r\n> Is it enough to just type a hashtag anywhere in a message?\r\n\r\nYep!\r\n\r\n> Is that final, or is it something in the works?\r\n\r\nIt's a thing that lots of people want, but I don't know if anyone currently is currently working on it right now.\r\n\r\n> I frequently hop from my phone to my iPad or desktop, and having different identities on each of the devices would not really work for me.\r\n\r\nYep, it's inconvenient. You could use a web-based client like Oasis on your desktop and connect to it from your phone/iPad, but it's still not super convenient. If you'd like to find more info about the multi identity problem, check out #same-as",
+    "mentions": [
+      {
+        "link": "@Dd6pVeXBVWF5IrqZl7noG92N2N4QLs3cLC8019CAEXQ=.ed25519",
+        "name": "heechee"
+      },
+      {
+        "link": "#same-as"
+      }
+    ],
+    "root": "%AfNBbbOgcAbG9/MR8ZWc15mCbyB9ZyE9WXwNtVaIFwY=.sha256",
     "branch": [
-      "%00pcLX4Yycku1xTeO8AITqD8WolUjEDzzJIyoV1lueY=.sha256"
+      "%AfNBbbOgcAbG9/MR8ZWc15mCbyB9ZyE9WXwNtVaIFwY=.sha256"
     ]
   },
-  "signature": "cCtY7yaw8OTCSwri/LJS8nMFEoj2iiRB80XDg/L0aVrnH2A9+dLjCRmhsowtiGV/wZDOreAySnbIbIluV+XiCw==.sig.ed25519"
+  "signature": "IEjXlLtyNhLIr3R5cpQWaNa9f3buiNlznzasVJJNCcu0INd87tI1QdcVDNwf7q9vWjG0cal0FfC7XyViTW4sAQ==.sig.ed25519"
 }
