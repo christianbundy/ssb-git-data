@@ -1,26 +1,22 @@
 {
-  "previous": "%1OXMY6XgwQmUGTln+hXnQbojo/hvc5snk8oMBtISQLU=.sha256",
-  "sequence": 15637,
+  "previous": "%I4cP/p6TP7cYkSULO031qmidg/mudEH/+r930xuDuM0=.sha256",
+  "sequence": 15638,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582072614006,
+  "timestamp": 1582073392682,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Soapy van Dogh](@Ivlr9ztMGBn5IECnLV0l0WJzvlg0DUR76+SKyfFsHk8=.ed25519)\r\n\r\n> Sometimes it feels the navigation is not working at all.\r\n\r\nMaybe it's time to start optimizing some queries... I'm still just struggling with [this](%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256). I want to have a function that always returns the latest 64 messages without having to create a new stream every time, but I'm not sure how. Maybe \"tail\" describes what I need to do better?\r\n\r\nRight now I'm doing a full \"create a new stream and `pull.take(64)` but ideally I'd just create the stream once and have it always keep the 64 latest messages available.",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nDo you have screenshots?! Super curious what that looks like, and which client(s) support them.",
     "mentions": [
       {
-        "link": "@Ivlr9ztMGBn5IECnLV0l0WJzvlg0DUR76+SKyfFsHk8=.ed25519",
-        "name": "Soapy van Dogh"
-      },
-      {
-        "link": "%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256",
-        "name": "this"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
       }
     ],
-    "root": "%vlTFH5qXDmW5q6YoXwLHqKsOhncG2McnV1njDCtaGe8=.sha256",
+    "root": "%iZAaqkZn05MSNfq8FTkLSsTlNualC9Mqg0RpmGdBbXA=.sha256",
     "branch": [
-      "%Bpvfq3k+pq3xfwDuPxpxPNY7kZz1ofHIBhP0H+auCyc=.sha256"
+      "%ZuK+a7rbQFNWmwlKi9tGAGIGweuDFXdYhfDj7Cy8/bo=.sha256"
     ]
   },
-  "signature": "PBP19BNZ44If2qO0a2jshTgUDg6O+dXBBihLuy7mcl7ElRfBB1j27VeVr8WMthKFFPbf/gJ5RZeFT3zfQYfyAQ==.sig.ed25519"
+  "signature": "UqS8pxMKL9ST2CBss65a/xn8wCv4Jq4bdmbMRb/m4Aw2DsUDWNWgmcTMsgeSbnENnbYmjOdcqsyJt8q/WXT5CA==.sig.ed25519"
 }
