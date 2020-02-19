@@ -1,13 +1,22 @@
 {
-  "previous": "%Ojkk0IhW4CccgZAw2az/HPBApOONK6JHxSX6Y+R3ywQ=.sha256",
-  "sequence": 15650,
+  "previous": "%r3GaY+QNtFokMAWu6OB5uBbXhSZTvo8zMFreLLY+uCU=.sha256",
+  "sequence": 15651,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582126249584,
+  "timestamp": 1582126452421,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "yay github is down again https://www.githubstatus.com/incidents/fxbbtd7mhz1c",
-    "mentions": []
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nIt depends on what you want to do, but I'm sure we could put something together. For example, here's a small script I just wrote for you that displays the name of the person who posted the most recent message:\r\n\r\n```shell\r\nwatch 'ssb about latestValue --key name --dest $(ssb createLogStream --reverse --limit 1 | jq .value.author)'\r\n```\r\n\r\n(Requires [jq](https://stedolan.github.io/jq/) and [SSB-CLI].)",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      }
+    ],
+    "root": "%8IBxN8f5Yy4iZXA7CaNryCdafM6ROj16czLC8FkXSKY=.sha256",
+    "branch": [
+      "%8IBxN8f5Yy4iZXA7CaNryCdafM6ROj16czLC8FkXSKY=.sha256"
+    ]
   },
-  "signature": "+i/9JXFlXfJ0489YAB7jvM25NegK14Hs9kGpZ0DtPw/lNNnUNBiFByyi2qNcmVA89eRaEJXk4UNleduBINgVCg==.sig.ed25519"
+  "signature": "SIveUXnHHsTQ+5HV/sQOJKV4vzBTSo9hmAEB71KpN3y+ZaMd6o7PKFR0wDm1s7KjcyA0UJ+KOHRfCyNxhkfEAw==.sig.ed25519"
 }
