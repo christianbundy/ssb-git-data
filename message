@@ -1,18 +1,22 @@
 {
-  "previous": "%xN9mqX2avoJ4/W1W6ve5sAnYAqoapwTOW8ssYWcm3+k=.sha256",
-  "sequence": 15690,
+  "previous": "%p8+mxp4k0QBHlTd7DzQVAnArPshq+F+tcCIWX52c9MU=.sha256",
+  "sequence": 15691,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582145618717,
+  "timestamp": 1582145723873,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rxzh76MF6fpbwQv1BkYMmVITMpx6FSTvpfFPL+15Ol0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Thomas Renkert](@5e3FkSr1OEVb2TEMAYJYIgfT4KC9xpdLdIeDwjZQip4=.ed25519)\r\n\r\nOh, you're totally right, there haven't been any indicators added to Mentions or Private yet. Here's the GitHub issue for that change if you'd like to follow along or contribute: https://github.com/fraction/oasis/issues/167",
+    "mentions": [
+      {
+        "link": "@5e3FkSr1OEVb2TEMAYJYIgfT4KC9xpdLdIeDwjZQip4=.ed25519",
+        "name": "Thomas Renkert"
+      }
+    ],
+    "root": "%kpwclGDZU98NgFcxGnDYkYBE4fbtBo4fqvpPyjatxxc=.sha256",
     "branch": [
-      "%rxzh76MF6fpbwQv1BkYMmVITMpx6FSTvpfFPL+15Ol0=.sha256"
+      "%kpwclGDZU98NgFcxGnDYkYBE4fbtBo4fqvpPyjatxxc=.sha256"
     ]
   },
-  "signature": "E5IlY+FYVQMYYqUU1XqjwlbnrRWTXo9K2jybtUSqnZyFPRt3FD/B3eYl0ydO/zrl897IoDwwu21RXOzEqSD5Bg==.sig.ed25519"
+  "signature": "jAY4+ltuPSyVYuYa+lLl07BNIib5FYTMUPxLH3gDhTW9G9OeiRbQAz36GH1KI75Yk/lPDlDUVuUwaRKa5bmeCA==.sig.ed25519"
 }
