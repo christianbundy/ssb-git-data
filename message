@@ -1,22 +1,25 @@
 {
-  "previous": "%2wAMdBY65hGyMVWrOggbXXKnWkIA3GXE2yHYpdcdMlI=.sha256",
-  "sequence": 15673,
+  "previous": "%W7OD5DYND9r4qQAKeWo33rdsXeTE7tr8p9Wq89abp/4=.sha256",
+  "sequence": 15674,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582139634444,
+  "timestamp": 1582140474923,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Malte](@DCpD6Y59W7a+A8T4MroCK81/547ddkFySz8fDOL3Fm4=.ed25519)\r\n\r\nIf you still have them, could you post the errors that you bumped into? I don't think you should have to install with `sudo npm`, and I'd like to make sure there's more info about xcode and such documented if that's a thing you have to do.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nHow long are queries taking on your machine? I like using #hyperfine for benchmarks, here's an example:\r\n\r\n| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |\r\n|:---|---:|---:|---:|---:|\r\n| `curl http://localhost:4515/public/latest` | 581.2 ± 57.3 | 530.1 | 716.0 | 1.00 |\r\n\r\nThe only one that should be taking a long time is the \"popular posts this year\" because it has to pore through tons of messages, but my point is that if we just do all these queries when Oasis starts then it should take no time because the data is already queued in the background. The problems is that when we get new data from the stream, we might need to remove old data from the previously cached value, and there doesn't seem to be an easy way to do that.\r\n\r\nThe best I've got is:\r\n\r\n- Start a stream of the old messages and add them to a list.\r\n- Start a stream of new messages, and when one comes in put it on top of the list and remove the oldest message from the list.\r\n\r\nIt's super performant, but it's ugly and not very ergonomic for developers who have to work with it. It also gets pretty hairy when you're looking at complex queries like the popular page that have to count votes and sort and do all sorts of nonsense.",
     "mentions": [
       {
-        "link": "@DCpD6Y59W7a+A8T4MroCK81/547ddkFySz8fDOL3Fm4=.ed25519",
-        "name": "Malte"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      },
+      {
+        "link": "#hyperfine"
       }
     ],
-    "root": "%6YUKYMXeAZmtdB2kfNxgYryGqKGXRkq+YwVTSsX5NVg=.sha256",
+    "root": "%vlTFH5qXDmW5q6YoXwLHqKsOhncG2McnV1njDCtaGe8=.sha256",
     "branch": [
-      "%6YUKYMXeAZmtdB2kfNxgYryGqKGXRkq+YwVTSsX5NVg=.sha256"
+      "%42wSlG0LA1oc9KoLv4cavciMwhrORMmirD6DVAMHCaY=.sha256"
     ]
   },
-  "signature": "IZGWUsiO9kabLodTkMlWXZGGJuOV/Fyquvvh7LcGjcPwCHXRWWfbt81YPa9S8vRgdV10virLuP1BXpVhM7NnCQ==.sig.ed25519"
+  "signature": "51Ab15RqIwIl3mir+8sE14mMwEsU7tecW1w7SEJv0tVudSVIh0YPpKwCALQIA5HKBqhLYFidO2++CklLANc2Bw==.sig.ed25519"
 }
