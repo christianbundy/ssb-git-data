@@ -1,22 +1,17 @@
 {
-  "previous": "%r3GaY+QNtFokMAWu6OB5uBbXhSZTvo8zMFreLLY+uCU=.sha256",
-  "sequence": 15651,
+  "previous": "%M0SSfHn216EQSig/iUTvpAKuLzZw/tT5PYid0Wp33fc=.sha256",
+  "sequence": 15652,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582126452421,
+  "timestamp": 1582126469513,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nIt depends on what you want to do, but I'm sure we could put something together. For example, here's a small script I just wrote for you that displays the name of the person who posted the most recent message:\r\n\r\n```shell\r\nwatch 'ssb about latestValue --key name --dest $(ssb createLogStream --reverse --limit 1 | jq .value.author)'\r\n```\r\n\r\n(Requires [jq](https://stedolan.github.io/jq/) and [SSB-CLI].)",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
+    "text": "[SSB-CLI](https://github.com/fraction/ssb-cli)*",
+    "mentions": [],
     "root": "%8IBxN8f5Yy4iZXA7CaNryCdafM6ROj16czLC8FkXSKY=.sha256",
     "branch": [
-      "%8IBxN8f5Yy4iZXA7CaNryCdafM6ROj16czLC8FkXSKY=.sha256"
+      "%M0SSfHn216EQSig/iUTvpAKuLzZw/tT5PYid0Wp33fc=.sha256"
     ]
   },
-  "signature": "SIveUXnHHsTQ+5HV/sQOJKV4vzBTSo9hmAEB71KpN3y+ZaMd6o7PKFR0wDm1s7KjcyA0UJ+KOHRfCyNxhkfEAw==.sig.ed25519"
+  "signature": "UdqQ9YfcDRyOCpre9L26xwyffj3t6ZP5jyV4/IFvWT0GvlFArU3pQajX4cEsqZQexERUgNA6yzYFbeFAwxftBA==.sig.ed25519"
 }
