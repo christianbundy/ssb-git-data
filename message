@@ -1,22 +1,26 @@
 {
-  "previous": "%pZoMEYwdIEaJPGiBP2PSRqp5XHUQYBcpvJKKRqnL4sg=.sha256",
-  "sequence": 15636,
+  "previous": "%1OXMY6XgwQmUGTln+hXnQbojo/hvc5snk8oMBtISQLU=.sha256",
+  "sequence": 15637,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582072152031,
+  "timestamp": 1582072614006,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nOh, thanks for helping me understand that better! I think Twitter has been doing something similar lately where you can choose to hide specific replies that you don't want in your thread. Here's a link I found: https://thenextweb.com/basics/2019/11/22/you-can-now-hide-replies-to-your-tweets-heres-how/",
+    "text": "[@Soapy van Dogh](@Ivlr9ztMGBn5IECnLV0l0WJzvlg0DUR76+SKyfFsHk8=.ed25519)\r\n\r\n> Sometimes it feels the navigation is not working at all.\r\n\r\nMaybe it's time to start optimizing some queries... I'm still just struggling with [this](%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256). I want to have a function that always returns the latest 64 messages without having to create a new stream every time, but I'm not sure how. Maybe \"tail\" describes what I need to do better?\r\n\r\nRight now I'm doing a full \"create a new stream and `pull.take(64)` but ideally I'd just create the stream once and have it always keep the 64 latest messages available.",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@Ivlr9ztMGBn5IECnLV0l0WJzvlg0DUR76+SKyfFsHk8=.ed25519",
+        "name": "Soapy van Dogh"
+      },
+      {
+        "link": "%0zK8uZhwMESGFkkf3svywT5cGe6V+9qIqHKW5ufLG00=.sha256",
+        "name": "this"
       }
     ],
-    "root": "%5q+cpVbAPKp6sS3ZEu+hDGi8YgtTtKNA8GQnc7QtmBk=.sha256",
+    "root": "%vlTFH5qXDmW5q6YoXwLHqKsOhncG2McnV1njDCtaGe8=.sha256",
     "branch": [
-      "%N9BX/Rq2Oyp71gQDNLvu21VGfEU+W8Ewu+fCLPOvn3Q=.sha256"
+      "%Bpvfq3k+pq3xfwDuPxpxPNY7kZz1ofHIBhP0H+auCyc=.sha256"
     ]
   },
-  "signature": "ud2Dcsy6hXRv43uwRTTBhwSLWddMsjYHQZS8WVUiw1G0SYILTk+JG1zMEMzuuKCxOAw2HRlgDCnsN1+w/3wDBQ==.sig.ed25519"
+  "signature": "PBP19BNZ44If2qO0a2jshTgUDg6O+dXBBihLuy7mcl7ElRfBB1j27VeVr8WMthKFFPbf/gJ5RZeFT3zfQYfyAQ==.sig.ed25519"
 }
