@@ -1,18 +1,23 @@
 {
-  "previous": "%jaoufcb8qZ8CwZf3QF2RdJg/3KDweW8AFZkm+FxFD+M=.sha256",
-  "sequence": 15633,
+  "previous": "%+5LlC7GCNuqCERGfYQvnO81Gt/ChVKJoGTBKOtkxsiY=.sha256",
+  "sequence": 15634,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582068158214,
+  "timestamp": 1582070692929,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sBLngEIYGM0KQMVFQw9S5GeC9kvO3MlXFy76Wiag1Xg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\n> interesting note: at least in patchfoo i can’t fork a thread unless there is at least one reply.\r\n\r\nDidn't realize that Patchfoo did this, but this is how I implemented it in Oasis as well. It was partially a UI decision, where it was unclear how to show the difference between \"I'm responding to the thread with 1 message\" and \"I'm responding to a message, which *happens* to be the first message in a thread with 1 message\".",
+    "mentions": [
+      {
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
+      }
+    ],
+    "root": "%P00Jg5qRkK+e9pMWtNXPFSTBsPsfgaI6OWwjYYy7aww=.sha256",
+    "fork": "%5q+cpVbAPKp6sS3ZEu+hDGi8YgtTtKNA8GQnc7QtmBk=.sha256",
     "branch": [
-      "%sBLngEIYGM0KQMVFQw9S5GeC9kvO3MlXFy76Wiag1Xg=.sha256"
+      "%P00Jg5qRkK+e9pMWtNXPFSTBsPsfgaI6OWwjYYy7aww=.sha256"
     ]
   },
-  "signature": "hVgPQ7rp4N2QwZ/rHeTsiGNaVNVJNNQkWSDBOyADs+Qa47HfV7JOEWhGvQ5YdnBerkApTizrSU2vcpescO3BBg==.sig.ed25519"
+  "signature": "ynKgZPwZs/sC69It6jBTuYWW4AhNO5ZcPNhLDbLhbzBg4LJbJgfrQ6RJZ/kPsDkQb6yxvS3Drf3BF08pJd6qDQ==.sig.ed25519"
 }
