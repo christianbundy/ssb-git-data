@@ -1,18 +1,22 @@
 {
-  "previous": "%hkBkF1qo4KOKP31ZYXwnQTqIcQxYB4sCaLTLcUVdySs=.sha256",
-  "sequence": 15723,
+  "previous": "%A9iPXOnpKxgCpewnYa6FF+51KPcbLUV+T5jMbLS+7NA=.sha256",
+  "sequence": 15724,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582224109370,
+  "timestamp": 1582224585670,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%onDYxSjsIb4d3KhgHC7g5wdHLWw/7zygIBvZEx7v6KU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThis is really clever, thanks for sharing! I can imagine this being useful for streams, I think I've had to implement something similar with pull-tee but now I can't remember the details.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      }
+    ],
+    "root": "%onDYxSjsIb4d3KhgHC7g5wdHLWw/7zygIBvZEx7v6KU=.sha256",
     "branch": [
       "%YbeGyYswXqeRp6vnJKcocqrpUegbAvKnyMB7tx2Go2k=.sha256"
     ]
   },
-  "signature": "GridCiaH7g7dXe1I8fUVYU3+OazMqgHZ21aMJTOTP3CRN7occfCw7I9tHYM2GUjJ7nrSf3arhVQx9TGU+PweDA==.sig.ed25519"
+  "signature": "iSxP6J9Sy7A+18MjP4iHKIsVns8DMyfTzOJKneUDV47N2+fWhCo3r20zZ94n+HbZp0wriocTIuwE8HueP2v3Dw==.sig.ed25519"
 }
