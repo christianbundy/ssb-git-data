@@ -1,18 +1,23 @@
 {
-  "previous": "%25tFUNctIBm9ZRse4z2PoE881LohRQXVpQRjzAQ4QGQ=.sha256",
-  "sequence": 15717,
+  "previous": "%aH9ISKP2Get44i3jhtIP9LINdtH7507jhrFoPok/yEA=.sha256",
+  "sequence": 15718,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582218255838,
+  "timestamp": 1582219025258,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SMBbUsIAGbWUBXpWalxq78OA79Ei5QlTUK3Uqyxc/Q4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nYour comment got me thinking about syntax highlighting and different ways to avoid having to count parens. Are there designs you've seen that make paren counting obsolete?\r\n\r\nI'm imagining something like a syntax highlighter where it gives matching parens the same hue, like:\r\n\r\n```\r\nHello (world)\r\n      ^red  ^red\r\n```\r\n\r\nOr:\r\n\r\n```\r\nHello (world (friends))\r\n      ^      ^       ^^\r\n      red    |       |red\r\n             cyan    cyan\r\n```\r\n\r\n\r\nI'm imagining the hue as `n/(360/total)` degrees, so if you have two parens they're red and cyan but seven will give you ROYGBIV. Dunno, I'm sure I'm not the first person to think about this. Maybe someone has built something cool? I was really impressed by [semantic highlighting](https://medium.com/@evnbr/coding-in-color-3a6db2743a1e) (warning: Medium.com) and I bet that Lisp hackers have come up with cool solutions for this problem.",
+    "mentions": [
+      {
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
+      }
+    ],
+    "root": "%wQ3t5QP530rCFMPw+y7VcJSqHKboKJHX7r6hV4EMwEc=.sha256",
+    "fork": "%wb0Nbjo7pUb7GO8RW9MQS584lChpG5W3Hz1LGBCmeqs=.sha256",
     "branch": [
-      "%SMBbUsIAGbWUBXpWalxq78OA79Ei5QlTUK3Uqyxc/Q4=.sha256"
+      "%wQ3t5QP530rCFMPw+y7VcJSqHKboKJHX7r6hV4EMwEc=.sha256"
     ]
   },
-  "signature": "0LnDb09bNQceb9oimo/sAwfu1eHy4NgqxOQ/nxumpkQOGSr511SqvnE69wrJw8LmFl6rUI6yYT/jA0tmWB55Aw==.sig.ed25519"
+  "signature": "9+sLtZptxlF246s5LQyi4ZX7nkHKRx2mBOs8SMqc2E/Bhd6zxKzJdiferrZoYeIAEmMOtJycGtWaM47Y/opQDg==.sig.ed25519"
 }
