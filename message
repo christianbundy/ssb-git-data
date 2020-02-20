@@ -1,18 +1,22 @@
 {
-  "previous": "%rtIhzbE2YAMOLn5Z0gpJYniy5gZ3sDd4NB6D2Sq2K7Y=.sha256",
-  "sequence": 15727,
+  "previous": "%CmiGT60aqCLJ0v6OfUF7jWtSd9F6/B7ni/QC7wFlykg=.sha256",
+  "sequence": 15728,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582227467381,
+  "timestamp": 1582227535781,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ogqbGyTVyuCyYK1VKl6TZLsxNIKuaOx5N1cSSptiGto=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cokernel](@VwRNeVzziTM8Vvl3iX6ds7scl1QMsrKyTzIHsHLEyHY=.ed25519)\r\n\r\nI was showing SSB to a friend and turned off my wifi to show that it works offline, but after a minute I went to show them something else was confused at why the blobs weren't loading. I kept refreshing and then they reminded me \"didn't you turn your wifi off\" and I realized that I'm a big dummy.\r\n\r\nIt's hard to remember whether you're online when most things Just Work regardless of your connectivity.",
+    "mentions": [
+      {
+        "link": "@VwRNeVzziTM8Vvl3iX6ds7scl1QMsrKyTzIHsHLEyHY=.ed25519",
+        "name": "cokernel"
+      }
+    ],
+    "root": "%ogqbGyTVyuCyYK1VKl6TZLsxNIKuaOx5N1cSSptiGto=.sha256",
     "branch": [
       "%ogqbGyTVyuCyYK1VKl6TZLsxNIKuaOx5N1cSSptiGto=.sha256"
     ]
   },
-  "signature": "OWvlP2+VPPxDCK6TR6x1Kx6+dz3Lc/ljXK0eF/C4ZGu1sguG15dh8l/AcwVtOqqkl8uStQFy03eI2J5CvwJOAw==.sig.ed25519"
+  "signature": "EYE3/eY/2rCtjpbFVjuZmhisxunGuG6/q44ph4ASV8p7HaG1mDEdsSoKyLvnJCtRmj4M3ZKTw5uNWuy2lWQUDQ==.sig.ed25519"
 }
