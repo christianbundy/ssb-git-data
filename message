@@ -1,18 +1,22 @@
 {
-  "previous": "%ETsElb4bOf5c8RvW44k4U9aGncCCXIMgu/wuJ9U0Iv8=.sha256",
-  "sequence": 15737,
+  "previous": "%HA5z1lbc8twuDkefTAFYTRR+1LR061ysTgl/yB+4Fzw=.sha256",
+  "sequence": 15738,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582230099246,
+  "timestamp": 1582230297542,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rPUcswT4fYEAF0rvVAOpBktMe9IFm3AR2OaC2rRZoJo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nHighly recommend `docker system prune -af`. It removes:\r\n\r\n>  - all stopped containers\r\n>  - all networks not used by at least one container\r\n>  - all images without at least one container associated to them\r\n>  - all build cache\r\n\r\nSO GOOD.",
+    "mentions": [
+      {
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
+      }
+    ],
+    "root": "%9wzpGTSeLrH3UEKm2VrL9kGaWgCLhsrs7IHbX4WtpzU=.sha256",
     "branch": [
-      "%rPUcswT4fYEAF0rvVAOpBktMe9IFm3AR2OaC2rRZoJo=.sha256"
+      "%9wzpGTSeLrH3UEKm2VrL9kGaWgCLhsrs7IHbX4WtpzU=.sha256"
     ]
   },
-  "signature": "4qTkVg9yjNWaGcODJEOega88cjNwTa4zutFS/F/JLQZGym8EPd0tgC/VKmHd8q1eIudo6MhuHdPMkFUFLifACg==.sig.ed25519"
+  "signature": "JYIuJ1mBcmjbe36huapDEWsLbXNQ+gC5j8ctHvo8sofoQkKxRPcC+cpZu0wLOLgvDLMQ6zv5UaZOhF3G0XnpAg==.sig.ed25519"
 }
