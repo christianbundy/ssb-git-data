@@ -1,18 +1,22 @@
 {
-  "previous": "%Ql3w3abxmU+IGwRmqXAyptn413VNPpge2SJBWOV415E=.sha256",
-  "sequence": 15785,
+  "previous": "%ZRGssVt181j6EjrXZeDBEj34mZS92EUVipf1G1FU4jg=.sha256",
+  "sequence": 15786,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582306010263,
+  "timestamp": 1582306678490,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%dO6rXI8B3SHYK/O3+6/K6eIAP4w8mlzZHGI+LkzUM/8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@LMZKnsyW](@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519)\r\n\r\nThat's not good at all. Do you know whether sodium-native is compiling correctly? If it has problems you should see some \"falling back to JavaScript cryptography\" output in your terminal, which usually *very* slow.\r\n\r\nOasis is super slow on my phone, so I put together [this pull request](https://github.com/fraction/oasis/pull/250) to vastly reduce the amount of crypto I have to do -- could you try out that branch and see if it helps at all? Alternatively, you can wait for it to land in `master` if/when it's merged. Hopefully that solves the problem, but we can keep debugging if not!\r\n\r\nThanks for pointing out that it's super slow, that's really good info to have.",
+    "mentions": [
+      {
+        "link": "@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519",
+        "name": "LMZKnsyW"
+      }
+    ],
+    "root": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
     "branch": [
-      "%dO6rXI8B3SHYK/O3+6/K6eIAP4w8mlzZHGI+LkzUM/8=.sha256"
+      "%lSHlUdtLYOYQ6Y8UKVvb9xRJKpgB9zLAukb63M99ot0=.sha256"
     ]
   },
-  "signature": "wvPd2aZodnrI1ZlQWwGHDuhLTjxaqt+rSLZZz6eTLcgeCFvWgznrrARDqjqNeWEVCiIw44Jh5h2ni+pAtR6sDg==.sig.ed25519"
+  "signature": "SzbONxy1gLPwlTJdhX5DhIwh6YEDmmNAtESvsLPDv67o2vdAHiWOYr7+gHQwxk/woA2+7hNLJzPA76TdocBYBw==.sig.ed25519"
 }
