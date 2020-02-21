@@ -1,22 +1,33 @@
 {
-  "previous": "%013p4n9lhUGXYzisNrHsTq5T16G8iOVx8U12XlcNUPU=.sha256",
-  "sequence": 15756,
+  "previous": "%KnkudvM6i/jaYg+KZH3WDMOtLZjevGYb78u+9orbKng=.sha256",
+  "sequence": 15757,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582255634833,
+  "timestamp": 1582255899188,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@zac_siegel](@9K8bl2jQB4KZHHcJB3egb61ybEXyWlvjfrCRgH/hq1k=.ed25519)\r\n\r\nThis is super cool, I'm especially excited to check out [your YouTube video](https://www.youtube.com/watch?v=aBwNUX6BmNo) implementing peer discovery. I just skimmed the video, but this is the UDP multicast of multiserver addresses, yeah? SO RAD.",
+    "text": "Hi friends!\r\n\r\nI have a bunch of queries, mostly SSB-Query and SSB-Backlinks queries, that I'm running in Oasis. I'm bumping into a problem where these queries don't return until the indexes are 100% up-to-date, whereas I really just want the indexes to return whatever they have right now.\r\n\r\nI could've sworn there was a way to do this, but I can't find it anymore. Anyone know how I might do it?\r\n\r\n#ssbc #ssb-learning #ssb-dev #ssb-query #ssb-backlinks #ssb-help",
     "mentions": [
       {
-        "link": "@9K8bl2jQB4KZHHcJB3egb61ybEXyWlvjfrCRgH/hq1k=.ed25519",
-        "name": "zac_siegel"
+        "link": "#ssbc"
+      },
+      {
+        "link": "#ssb-learning"
+      },
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#ssb-query"
+      },
+      {
+        "link": "#ssb-backlinks"
+      },
+      {
+        "link": "#ssb-help"
       }
     ],
-    "root": "%lvSJavmciDsCfQ3LqqLZUTW/JzHu4vWA+MSrf4SJB7E=.sha256",
-    "branch": [
-      "%lvSJavmciDsCfQ3LqqLZUTW/JzHu4vWA+MSrf4SJB7E=.sha256"
-    ]
+    "contentWarning": "asking for help with ssb dev"
   },
-  "signature": "Ps88H3HaClQbDiiLDi138etcCgctHoJdehLMPLaQsY8Hvs8HHjj/sfKS71vXrX4ekw+ebBY9Nbe76ZFApZf4BA==.sig.ed25519"
+  "signature": "udC65X6kTDpcKNs/IrStNJzmH+WMxk0EZJK7YI1qNMzPimXVbD24oGE/KSU2pIBTZZby9LieY0cPMHHA4DM0Cw==.sig.ed25519"
 }
