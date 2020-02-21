@@ -1,18 +1,22 @@
 {
-  "previous": "%9OHBH6KzRPryC9kEHBJfavd5rbzgUMQURHlvhbxPjug=.sha256",
-  "sequence": 15790,
+  "previous": "%Im2rDvKy8JsADjXAMBd2jSSPrX4ieKjYHaqMtoAE9ys=.sha256",
+  "sequence": 15791,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582307235732,
+  "timestamp": 1582311958746,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ehussyWjxYRy4g/6Np1E/UTTvJxqovdfkIhGQ4AYs1c=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Patchwork-Requeriment Room)](@UaDd69LROKdpgNokDjdyxgxmXH0J/HD1eK7KEb98/+g=.ed25519)\r\n\r\nCould you confirm that the server is running on port 8989 and not throwing errors? That looks to me like something is wrong and it's failing very fast (6.5 milliseconds per HTTP request).",
+    "mentions": [
+      {
+        "link": "@UaDd69LROKdpgNokDjdyxgxmXH0J/HD1eK7KEb98/+g=.ed25519",
+        "name": "Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Patchwork-Requeriment Room)"
+      }
+    ],
+    "root": "%dZBx622GggrK9etwHGK+J9jxBq3I3d0ivkGJdqVV/20=.sha256",
     "branch": [
-      "%/zZencKoPi4TD4DWPqBki/IRfYSa+VmuFZgNMUPLjtY=.sha256"
+      "%dZBx622GggrK9etwHGK+J9jxBq3I3d0ivkGJdqVV/20=.sha256"
     ]
   },
-  "signature": "sx7zLRRiOsDws+f8UzjhGMOLYJeOBLkqKR5UuhRjdBEVC7h9HWMmlOoxM3yVr7hkEMm5pmVUvdA2Aif4FfM0Ag==.sig.ed25519"
+  "signature": "32E7dP/6pKaefFQAIhaiTk3JAQDizPUDBF0pKU/JhJpYVX8sWejHMv3RUTTFFjc/2FM/o46TkCVL12YdIklbCQ==.sig.ed25519"
 }
