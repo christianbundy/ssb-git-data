@@ -1,18 +1,22 @@
 {
-  "previous": "%nfGSyLQFISL6KsoiQHkblwAZBseLaUGsVI0yhS/R5eM=.sha256",
-  "sequence": 15748,
+  "previous": "%+u40DlnCIjScEH5zyXFRDiXANZhmQLCjYgnjgwMfH5w=.sha256",
+  "sequence": 15749,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582245911252,
+  "timestamp": 1582246220147,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RqPJkE0dn08j7rMorlm9670u+n7q6ptv3UNIIG7SnWI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@elektron](@hTXM9yV6EZ6nXcT3QopcwhSWrC008EnaGhoo/UNzX3g=.ed25519)\r\n\r\nYeah, this has been a bug since May I think -- https://github.com/ssbc/ssb-server/issues/675\r\n\r\n:/",
+    "mentions": [
+      {
+        "link": "@hTXM9yV6EZ6nXcT3QopcwhSWrC008EnaGhoo/UNzX3g=.ed25519",
+        "name": "elektron"
+      }
+    ],
+    "root": "%GUiIChI32QJLp4Voi45MUQS2uX0Zyb3g1V0R5pcp7xA=.sha256",
     "branch": [
-      "%RqPJkE0dn08j7rMorlm9670u+n7q6ptv3UNIIG7SnWI=.sha256"
+      "%89tuHB1Ql2j6xl+wuS21UFmG4v/7rJ6F8/B/OdT0Jzs=.sha256"
     ]
   },
-  "signature": "4UflAo0M1+BHCm7nK3VWHYPl70VN2nDYQje85by7czXT4BtzZnHsDX3LvZBNAXavDLHak5XXjAmpqNPN5Qz1Dg==.sig.ed25519"
+  "signature": "Z4dtwKv6GDAIdoRgErqzdo+SgI8cNBpZaYx8HtsgNUd7UrOU6GRBglvm4t4IL3ZhozGD47xeXc19islSDGdZCA==.sig.ed25519"
 }
