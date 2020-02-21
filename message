@@ -1,18 +1,25 @@
 {
-  "previous": "%eG9DPXNmCtBQLylZz1v3hFrxtasukP4gUtFiF0+I+dU=.sha256",
-  "sequence": 15792,
+  "previous": "%W14VI/FkvO44/3DH+mWFvpX3tyenWztGJjvJ6uLdtqk=.sha256",
+  "sequence": 15793,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582314749245,
+  "timestamp": 1582314827648,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%TK/yqdLfRRj2d6oRpVteuwQpss7vuoylqtRVsMicW48=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Miikka](@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519)\r\n\r\nI think there was a regression in #ssb-conn, currently discussing here: https://github.com/ssbc/patchwork/pull/1242",
+    "mentions": [
+      {
+        "link": "@VeuM0SzKG4o0x7Zw/8VxV7R8mn+6yyYMooPNOBfebik=.ed25519",
+        "name": "Miikka"
+      },
+      {
+        "link": "#ssb-conn"
+      }
+    ],
+    "root": "%OyX7RiDutdTQO4VxKhLWBC7jRZNWDE3s7A8FszrGVGc=.sha256",
     "branch": [
-      "%zZ32nYJ3XhCQjhqlm6moS/ILHZhiBZ1Zg3sb7zbNrSg=.sha256"
+      "%OyX7RiDutdTQO4VxKhLWBC7jRZNWDE3s7A8FszrGVGc=.sha256"
     ]
   },
-  "signature": "7aezTOos9F15Z9prgeeJ7oBhfXPqLjXcft05r7JnnmwWepzXI6IaW+L19Cdp4EcvrfjPJgH/RSpU3blgz6VOCA==.sig.ed25519"
+  "signature": "3ArJg6eOHXHX2LOUqmPtdxKCsRJ3CxiiK9i0cZYvNuqbhPKdxS1zjrNB2KZUOr2nvIppX5msb270xTFF7RjVDg==.sig.ed25519"
 }
