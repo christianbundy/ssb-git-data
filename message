@@ -1,22 +1,23 @@
 {
-  "previous": "%ZRGssVt181j6EjrXZeDBEj34mZS92EUVipf1G1FU4jg=.sha256",
-  "sequence": 15786,
+  "previous": "%thDORMbkYzzLYxNpgxu74S9h6MaahS6kdqe2nOAGcRM=.sha256",
+  "sequence": 15787,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582306678490,
+  "timestamp": 1582306768741,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@LMZKnsyW](@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519)\r\n\r\nThat's not good at all. Do you know whether sodium-native is compiling correctly? If it has problems you should see some \"falling back to JavaScript cryptography\" output in your terminal, which usually *very* slow.\r\n\r\nOasis is super slow on my phone, so I put together [this pull request](https://github.com/fraction/oasis/pull/250) to vastly reduce the amount of crypto I have to do -- could you try out that branch and see if it helps at all? Alternatively, you can wait for it to land in `master` if/when it's merged. Hopefully that solves the problem, but we can keep debugging if not!\r\n\r\nThanks for pointing out that it's super slow, that's really good info to have.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nYeah, the JavaScript cryptography is *very* slow, so it'd be cool to see if we can get you a prebuild or something. Also, Oasis currently uses the conventional encrypted TCP stream for communication with the SSB service. I've just published [this PR](https://github.com/fraction/oasis/pull/250) that should hopefully make Oasis quite a bit faster for everyone.",
     "mentions": [
       {
-        "link": "@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519",
-        "name": "LMZKnsyW"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
+    "root": "%Bpvfq3k+pq3xfwDuPxpxPNY7kZz1ofHIBhP0H+auCyc=.sha256",
+    "fork": "%vlTFH5qXDmW5q6YoXwLHqKsOhncG2McnV1njDCtaGe8=.sha256",
     "branch": [
-      "%lSHlUdtLYOYQ6Y8UKVvb9xRJKpgB9zLAukb63M99ot0=.sha256"
+      "%Bpvfq3k+pq3xfwDuPxpxPNY7kZz1ofHIBhP0H+auCyc=.sha256"
     ]
   },
-  "signature": "SzbONxy1gLPwlTJdhX5DhIwh6YEDmmNAtESvsLPDv67o2vdAHiWOYr7+gHQwxk/woA2+7hNLJzPA76TdocBYBw==.sig.ed25519"
+  "signature": "6QdeOr1wXSD9fxaaVbLXu0hmO9DpMLtFRZpEyAsLfSK+wytPlg5RcbdBWUd/YkFY6rJ+uyGTYOOxGlaQVDVXBQ==.sig.ed25519"
 }
