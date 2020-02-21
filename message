@@ -1,22 +1,22 @@
 {
-  "previous": "%X6Y1LunOY3lU0iy4mtTrjGE/9XouiAwA2ywIZp+v5IM=.sha256",
-  "sequence": 15782,
+  "previous": "%OEKgnrD3GlBCR2w+/rtp2YkIHC+q5z3KvPGC9YaSYIk=.sha256",
+  "sequence": 15783,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582303362999,
+  "timestamp": 1582303399671,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@xj9 (miku)](@+9a+1CC6xUrsjDRqsOqA5oSgI5OenaxuhnTheQsT8hQ=.ed25519)\r\n\r\nYep, I've been wanting to explore something like SQLite for a long time but haven't had the energy. I think the only thing that would be hard would be plugins like SSB-Backlinks, which need to walk the entire JSON object looking for references that it understands.\r\n\r\nIf we can avoid that, you could even just have a table like:\r\n\r\n| value.author |  value.timestamp | value.content.type | value.content.text |\r\n|--------------|------------------|--------------------|--------------------|\r\n|  abc.ed25519 | 42               |  post              | hello world        |",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nDamn, and I'm over here using constellations. I've gotta boost my grim name game.",
     "mentions": [
       {
-        "link": "@+9a+1CC6xUrsjDRqsOqA5oSgI5OenaxuhnTheQsT8hQ=.ed25519",
-        "name": "xj9 (miku)"
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
       }
     ],
-    "root": "%oxWAF2Nrg36s3j1BX1F2JilW4wnTHzeSe7YLsNR+FAQ=.sha256",
+    "root": "%jfz82uxC/icZYuS6D/kQC9thDTD3Jjijq1oaP3GX8RA=.sha256",
     "branch": [
-      "%oxWAF2Nrg36s3j1BX1F2JilW4wnTHzeSe7YLsNR+FAQ=.sha256"
+      "%+Nxq3A4yi5LihBNWxT0DA4a6TdQ0QHeiB9Mk729C1Qg=.sha256"
     ]
   },
-  "signature": "zWps9sv7KuXP2MjQ3qGRjh4XNZy2Pr+M8EuXEI1TuWN5HfvDucenqIhliwBsjP1ZgfdAgxCsunybGOZlWtrLAw==.sig.ed25519"
+  "signature": "Hws8U43jbOrA5XPuTENtdaWTWI6VREBflH82cjqjR8vOibmiJ5V8iCt3u3bGHpCHGbQ+hlVL7tyrygHajfUBCg==.sig.ed25519"
 }
