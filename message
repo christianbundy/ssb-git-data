@@ -1,33 +1,26 @@
 {
-  "previous": "%KnkudvM6i/jaYg+KZH3WDMOtLZjevGYb78u+9orbKng=.sha256",
-  "sequence": 15757,
+  "previous": "%v5Gu1qJI1Pmj0/SbIL4L0Yb9rwqyWRvBvV5X7zqiXko=.sha256",
+  "sequence": 15758,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582255899188,
+  "timestamp": 1582259635104,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Hi friends!\r\n\r\nI have a bunch of queries, mostly SSB-Query and SSB-Backlinks queries, that I'm running in Oasis. I'm bumping into a problem where these queries don't return until the indexes are 100% up-to-date, whereas I really just want the indexes to return whatever they have right now.\r\n\r\nI could've sworn there was a way to do this, but I can't find it anymore. Anyone know how I might do it?\r\n\r\n#ssbc #ssb-learning #ssb-dev #ssb-query #ssb-backlinks #ssb-help",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThat makes sense to me, I'm not excited about the trade-off between statefulness and performance.\r\n\r\n> What streams are you holding open or starting on page load for which you are seeing the speed difference?\r\n\r\nI'm not sure where the performance bottleneck is, but even simple views like \"the latest 64 posts\" take [1.6 to 2.2 seconds](%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256) on some machines. The current implementation makes a new stream for each HTTP query, streams 64 messages, and then returns them as an HTTP response.\r\n\r\nIt seems like the more performant way to do this would be to make two streams for each view:\r\n\r\n- One stream with `{ limit: 64 }` that just grabs the current values that should be in the stream, caches them to a FIFO queue, and closes the stream.\r\n- Another stream with `{ live: true, old: false }` that removes the oldest message from the queue and adds the new message on the top of the queue.\r\n\r\nInstead of making one stream per HTTP request, you would just grab the current value of the queue (cached in memory) and return those values. On my machine this takes 1/16th of the time, but there are probably other bottlenecks that I could look at (e.g. noauth muxrpc, especially on mobile where I can't compile sodium-native).\r\n\r\nPros:\r\n\r\n- Faster, it's just one stream that's independent of HTTP requests.\r\n\r\nCons:\r\n\r\n- More plumbing, duplication of stream management.\r\n- More stateful, now we need to manage the message array.\r\n- More memory because we need to cache the state.\r\n- More complexity, especially with complex queries like sorting by popular or grabbing summaries of the last few comments on each thread (especially when new comments are added).",
     "mentions": [
       {
-        "link": "#ssbc"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       },
       {
-        "link": "#ssb-learning"
-      },
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#ssb-query"
-      },
-      {
-        "link": "#ssb-backlinks"
-      },
-      {
-        "link": "#ssb-help"
+        "link": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
+        "name": "1.6 to 2.2 seconds"
       }
     ],
-    "contentWarning": "asking for help with ssb dev"
+    "root": "%HUrRZsLGVcmE8xp2ahfDSNf0j32P8Jqr7a6e+ex59Uk=.sha256",
+    "branch": [
+      "%6MKsiL8I0qZQNvdaLOkKP2u6Udx4S+IvuT/gwCib8WY=.sha256"
+    ]
   },
-  "signature": "udC65X6kTDpcKNs/IrStNJzmH+WMxk0EZJK7YI1qNMzPimXVbD24oGE/KSU2pIBTZZby9LieY0cPMHHA4DM0Cw==.sig.ed25519"
+  "signature": "Z4GEFvL0y2fdIVlNrRuInRw5dHvIj9fmsxLwRmdFL2Y9MlGdQ7LZgUsHLgk2LzhUwsWyjuBoitvzalc/GJ1JCw==.sig.ed25519"
 }
