@@ -1,14 +1,18 @@
 {
-  "previous": "%OPe6NJy9qmgnSE+RT6oizXxwosxOZw9P5ejByzFt6cM=.sha256",
-  "sequence": 15778,
+  "previous": "%FZZ3wllL/RwcDpJncjLJqbx7/p/sbNyplLxYCGx9cIY=.sha256",
+  "sequence": 15779,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582302785929,
+  "timestamp": 1582302797528,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I had a weird dream last night.\r\n\r\nI think I was in my apartment and I noticed these small orange holographic orbs flying around my apartment. I caught one, and realized that the outside was a weird filmy membrane, which I could tear apart.\r\n\r\nAfter removing the film, they grew a bit in size and I realized that they were small electronic surveillance drones -- powered by a Raspberyy Pi or something, but with sensors like a microphone and camera.\r\n\r\nI popped open the case and realized that the board inside wasn't a Raspberry Pi or a chip like you'd usually find, but it was instead it was a Game Boy Color. Weird, but okay. The really interesting part is that the device had an adapter that let you plug in a MicroSD card that was wired into the usual Game Boy cartridge slot, so the Game Boy was booting to the MicroSD card just like you'd usually boot to a game.\r\n\r\nI was super curious, so I took each of the orbs and pulled out the MicroSD cards, plugged them into my computer (NOOOO), and made a copy of the images. I kept trying to remember how to use `binwalk`, but couldn't remember what it was called, so I kept searching the web for \"sd card forensic software\" and finding weird marketing pages pandering to law enforcement.\r\n\r\nEventually the cops showed up, because the surveillance devices had been found all over the apartment complex, and I realized that I probably shouldn't have imaged the cards, so I put them back in the device and lied to the cops and said I found them like this.\r\n\r\nUnfortunately I didn't consider that my fingerprints would be all over the insides of the devices, pointing to me as the suspect, especially considering that I had copies of the operating system on my computers. Fun.\r\n\r\nI think I started being interrogated and I tried to explain myself, but then I smelled coffee and Kathleen started saying human words to me and I woke up. I had a weird dream last night.",
-    "mentions": [],
-    "contentWarning": "I had a weird dream last night"
+    "type": "vote",
+    "vote": {
+      "link": "%+8yeGxrMZWaV7nzp1dynH9V6XRYvsjr6lM3oRhZsH6M=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%+8yeGxrMZWaV7nzp1dynH9V6XRYvsjr6lM3oRhZsH6M=.sha256"
+    ]
   },
-  "signature": "Vhuvrs04VUBa/GGUOXiagXur1brXIJlg4qTeJFri2XT16gCQDEusGAwVp6eTxS322j9YcfCqMumGd+8Eaa1KDQ==.sig.ed25519"
+  "signature": "K1oGq0gtc9uy2KYHWN9bv715zdx7g/Hp5LFaVWoB7/yA75klIhZaXSm8Ue5Is7NFJalODWeeij54KnMYYdXaCg==.sig.ed25519"
 }
