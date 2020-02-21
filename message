@@ -1,23 +1,22 @@
 {
-  "previous": "%iaUaLriuQ218zv5r7pm/M0RbBxXpJ9FQu9Bi2iIsIIY=.sha256",
-  "sequence": 15781,
+  "previous": "%X6Y1LunOY3lU0iy4mtTrjGE/9XouiAwA2ywIZp+v5IM=.sha256",
+  "sequence": 15782,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582302956138,
+  "timestamp": 1582303362999,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@thinktrav](@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519)\r\n\r\nI'm not really organizing them right now. :/ I keep the FLAC files on an external hard drive, and then sync some MP3s or something to my laptop and phone so that I have the music available wherever. It works great, but it doesn't help me organize it into playlists or anything fun. To be honest, I mostly just listen to albums, but playlists would be sweet.\r\n\r\nIs there some open format for describing playlists of audio files? It seems super reasonable, I'd be surprised if it didn't exist.",
+    "text": "[@xj9 (miku)](@+9a+1CC6xUrsjDRqsOqA5oSgI5OenaxuhnTheQsT8hQ=.ed25519)\r\n\r\nYep, I've been wanting to explore something like SQLite for a long time but haven't had the energy. I think the only thing that would be hard would be plugins like SSB-Backlinks, which need to walk the entire JSON object looking for references that it understands.\r\n\r\nIf we can avoid that, you could even just have a table like:\r\n\r\n| value.author |  value.timestamp | value.content.type | value.content.text |\r\n|--------------|------------------|--------------------|--------------------|\r\n|  abc.ed25519 | 42               |  post              | hello world        |",
     "mentions": [
       {
-        "link": "@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519",
-        "name": "thinktrav"
+        "link": "@+9a+1CC6xUrsjDRqsOqA5oSgI5OenaxuhnTheQsT8hQ=.ed25519",
+        "name": "xj9 (miku)"
       }
     ],
-    "root": "%Ha7FZTmHCszf8Bsegk0Pa4NeUD17OFIPVxHd1lSf3oo=.sha256",
-    "fork": "%UeWrtUynHXAY+XFZhQ6lNA/nSSjapmiSwQS83pba4EU=.sha256",
+    "root": "%oxWAF2Nrg36s3j1BX1F2JilW4wnTHzeSe7YLsNR+FAQ=.sha256",
     "branch": [
-      "%Ha7FZTmHCszf8Bsegk0Pa4NeUD17OFIPVxHd1lSf3oo=.sha256"
+      "%oxWAF2Nrg36s3j1BX1F2JilW4wnTHzeSe7YLsNR+FAQ=.sha256"
     ]
   },
-  "signature": "Rj3kZudLXDIICGPOKuWw9Ad0Dtkb2Y4Gk2E94Mtve2BHEpNzwlFUParpjYz3s7vjZcxVhlClzl2fRygckBRPAA==.sig.ed25519"
+  "signature": "zWps9sv7KuXP2MjQ3qGRjh4XNZy2Pr+M8EuXEI1TuWN5HfvDucenqIhliwBsjP1ZgfdAgxCsunybGOZlWtrLAw==.sig.ed25519"
 }
