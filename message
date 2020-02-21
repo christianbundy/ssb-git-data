@@ -1,18 +1,25 @@
 {
-  "previous": "%up6rAjb29OE4PcXjEe7/3BMmwGzPOe0Uwar6DdYsr+o=.sha256",
-  "sequence": 15794,
+  "previous": "%aExGLJf/q+qIHwetoIyXYhJ4wHMHwwjBn+dLToWkDek=.sha256",
+  "sequence": 15795,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582316288537,
+  "timestamp": 1582316598284,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WpF9SHoBgbLazMfd0jopCGy5R3rvEceOEApl0TjJ6OM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Patchwork-Requeriment Room)](@UaDd69LROKdpgNokDjdyxgxmXH0J/HD1eK7KEb98/+g=.ed25519)\r\n\r\nOh -- the `curl` commands are testing the #oasis SSB client, those won't work if you're running Patchwork. Unfortunately Patchwork doesn't provide an HTTP interface, the server on 8008 is for replication and 8989 is for displaying blobs.",
+    "mentions": [
+      {
+        "link": "@UaDd69LROKdpgNokDjdyxgxmXH0J/HD1eK7KEb98/+g=.ed25519",
+        "name": "Fábio Emilio Costa 🇧🇷🐇🕐🎩☕✅ (Patchwork-Requeriment Room)"
+      },
+      {
+        "link": "#oasis"
+      }
+    ],
+    "root": "%amZv7BayXGIZGJfOs3djf0P+GnK+4WHf56kmydm+XVg=.sha256",
     "branch": [
-      "%WpF9SHoBgbLazMfd0jopCGy5R3rvEceOEApl0TjJ6OM=.sha256"
+      "%amZv7BayXGIZGJfOs3djf0P+GnK+4WHf56kmydm+XVg=.sha256"
     ]
   },
-  "signature": "OMrGm3c+KFiiJ/Ikwo0T6UbMDCdS4/n7X0kR1CQud/pmn3HphHlff7r+5VAExtwQY72awT9CvGl+5iEoxU60Dw==.sig.ed25519"
+  "signature": "SeEylMdowh4lfSqG0OCXwY/4LDoyH72BlHPEcq37rQ4No3bWjOi/33nfqCWsxeFhkZ816du29gItjHXs093VBw==.sig.ed25519"
 }
