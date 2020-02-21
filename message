@@ -1,26 +1,22 @@
 {
-  "previous": "%v5Gu1qJI1Pmj0/SbIL4L0Yb9rwqyWRvBvV5X7zqiXko=.sha256",
-  "sequence": 15758,
+  "previous": "%K1eAgvzludnouwwDfjSQbC3aYQ8wdCVZ8DpUkImrW48=.sha256",
+  "sequence": 15759,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582259635104,
+  "timestamp": 1582259799327,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThat makes sense to me, I'm not excited about the trade-off between statefulness and performance.\r\n\r\n> What streams are you holding open or starting on page load for which you are seeing the speed difference?\r\n\r\nI'm not sure where the performance bottleneck is, but even simple views like \"the latest 64 posts\" take [1.6 to 2.2 seconds](%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256) on some machines. The current implementation makes a new stream for each HTTP query, streams 64 messages, and then returns them as an HTTP response.\r\n\r\nIt seems like the more performant way to do this would be to make two streams for each view:\r\n\r\n- One stream with `{ limit: 64 }` that just grabs the current values that should be in the stream, caches them to a FIFO queue, and closes the stream.\r\n- Another stream with `{ live: true, old: false }` that removes the oldest message from the queue and adds the new message on the top of the queue.\r\n\r\nInstead of making one stream per HTTP request, you would just grab the current value of the queue (cached in memory) and return those values. On my machine this takes 1/16th of the time, but there are probably other bottlenecks that I could look at (e.g. noauth muxrpc, especially on mobile where I can't compile sodium-native).\r\n\r\nPros:\r\n\r\n- Faster, it's just one stream that's independent of HTTP requests.\r\n\r\nCons:\r\n\r\n- More plumbing, duplication of stream management.\r\n- More stateful, now we need to manage the message array.\r\n- More memory because we need to cache the state.\r\n- More complexity, especially with complex queries like sorting by popular or grabbing summaries of the last few comments on each thread (especially when new comments are added).",
+    "text": "[@📱👨‍💻 Christian Bundy](@lOGP65bhxnk7No13MGWcbyjfUZosDbWBsOtp5du8lM8=.ed25519)\r\n\r\nRemember to investigate noauth, there's probably tons of overhead because MuxRPC is doing encryption between the services. When sodium-native doesn't compile this is probably a million times worse because JavaScript cryptography is...",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
-        "name": "1.6 to 2.2 seconds"
+        "link": "@lOGP65bhxnk7No13MGWcbyjfUZosDbWBsOtp5du8lM8=.ed25519",
+        "name": "📱👨‍💻 Christian Bundy"
       }
     ],
-    "root": "%HUrRZsLGVcmE8xp2ahfDSNf0j32P8Jqr7a6e+ex59Uk=.sha256",
+    "root": "%wb0Nbjo7pUb7GO8RW9MQS584lChpG5W3Hz1LGBCmeqs=.sha256",
     "branch": [
-      "%6MKsiL8I0qZQNvdaLOkKP2u6Udx4S+IvuT/gwCib8WY=.sha256"
+      "%e/W4BJPnV/UoLeWReXSLaUpIqKzI6+YVQo8F8T47KaQ=.sha256"
     ]
   },
-  "signature": "Z4GEFvL0y2fdIVlNrRuInRw5dHvIj9fmsxLwRmdFL2Y9MlGdQ7LZgUsHLgk2LzhUwsWyjuBoitvzalc/GJ1JCw==.sig.ed25519"
+  "signature": "qR8Pzf7BG5LIKP/ZuVDBAEshsALZXEsyYm4UCPp4UT6Z5cjpbbjGqy7ecH1rlcgO+WBrMj2pgmfFCXvLT9sOCw==.sig.ed25519"
 }
