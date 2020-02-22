@@ -1,22 +1,18 @@
 {
-  "previous": "%hi3Uaonfz8BTIWWWFHtBncGXq2MVHqHmBmCGKxvM77E=.sha256",
-  "sequence": 15812,
+  "previous": "%QR+CF3liexEdv5Bqdo3Nbeah5r4UOiWn5t0vPZphjog=.sha256",
+  "sequence": 15813,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582386995872,
+  "timestamp": 1582387022638,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nThanks for testing that! Are you using Gnome Shell? I wish Linux desktop enviroments would still let us double-click executable scripts, and I'm a bit surprised that it's available on macOS but not Linux.\r\n\r\nThe \"installers\" I uploaded just bundled `node` and `npm` and then they run `npm start || npm install && npm start`, and weren't really meant to be full CLI programs, but if you're into that sort of thing I'd recommend installing node with your package manager and then installing from the instructions in the readme: https://github.com/fraction/oasis#installation\r\n\r\nI can add a commit that passes through your command-line options to Oasis so that you can run `oasis --version`, if that's helpful.",
-    "mentions": [
-      {
-        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
-        "name": "Danie"
-      }
-    ],
-    "root": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%RxNVJZPVA+Up3WOwGvyN34tGo+slsPxQwr8I17VhkKA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%4pQedegQDYEDG2asv/Aeea1W5bmfttqxvGm6o3i6X4o=.sha256"
+      "%RxNVJZPVA+Up3WOwGvyN34tGo+slsPxQwr8I17VhkKA=.sha256"
     ]
   },
-  "signature": "NyiNIyw2I4QhotiW9ewcAiveoKu1jrpbrs3DHBeLkE4pyZpBHgq328d8esVl6ltPuDZk5VOMvmpVjYJZRpEFDg==.sig.ed25519"
+  "signature": "CldxkD1zsELRXPTMNdnB+o/ai3a16q08xqCgnDa2q//n8Po14O/mtLkDJq0iaFNxPyxbkZYt31DC5glNvhuOBQ==.sig.ed25519"
 }
