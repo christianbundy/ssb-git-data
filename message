@@ -1,23 +1,22 @@
 {
-  "previous": "%ILdFFMAgYfR8eibtBcHimnufYL2Ynnl7ireTJc2fRYY=.sha256",
-  "sequence": 15815,
+  "previous": "%gVOLyUudoba8ayF7F9yFCkhq1B28otvFDMCKSMbAbJQ=.sha256",
+  "sequence": 15816,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582392283006,
+  "timestamp": 1582397518891,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@LMZKnsyW](@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519)\r\n\r\nHELL YEAH. I'm surprised but happy that it works. Do you know if it's doing the \"falling back to JavaScript cryptography\" thing on your device? I just got the Leveldown prebuild working on my device (https://github.com/Level/leveldown/pull/706), now I'm hoping to get Sodium-Native working too (https://github.com/sodium-friends/sodium-native/issues/119).",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nDo you want to turn a Pull-Stream into a Node.js stream or the other way around? Based on what you said I think you want [this](https://github.com/pull-stream/stream-to-pull-stream):\r\n\r\n```sh\r\nnpm install pull-stream stream-to-pull-stream\r\n```\r\n\r\n```javascript\r\nconst fs = require('fs')\r\nconst pull = require('pull-stream')\r\nconst streamToPullStream = require('stream-to-pull-stream')\r\n\r\npull(\r\n  streamToPullStream.source(fs.createReadStream('/dev/random')),\r\n  pull.drain((chunk) => {\r\n    process.stdout.write(chunk)\r\n  })\r\n)\r\n```\r\n",
     "mentions": [
       {
-        "link": "@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519",
-        "name": "LMZKnsyW"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
+    "root": "%9xGCtRyoRd2vp9iG/i1aZbZgaEPGe7DHMVu46mIPAmc=.sha256",
     "branch": [
-      "%HTkQPonmETazh5KRnDWe4a7mq/Lk3N6ZHuCNwbzMVZ4=.sha256",
-      "%dZBx622GggrK9etwHGK+J9jxBq3I3d0ivkGJdqVV/20=.sha256"
+      "%mnYTS5MKFEZEM7mdk4gr7kOnhwGRZvu8uEI5zeqey0U=.sha256"
     ]
   },
-  "signature": "sTaLO1enN5rZNOo84GdwYG7fFklg7BORYTfPmiL3f6Kr9k6I0pFHE8pMehhakCPJz+6q0d8tE9BLJH+/puP6Aw==.sig.ed25519"
+  "signature": "dUlJvf+wJWil+C0rHnB8IH+NGPLjhIdmXVWJ2jLsN83JKkI5ppUwOTkDKggqf32iONGfMB4gz0J7J2/CmGfgBA==.sig.ed25519"
 }
