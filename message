@@ -1,22 +1,27 @@
 {
-  "previous": "%0kfLxTrbep4YbXzBIDFls3gNKq4OQhmVTFFr0Hl3qaI=.sha256",
-  "sequence": 15803,
+  "previous": "%Lf6rsm+rQNQTOkOMGqM4zs9oZgt+PY4YBZlcTwICfvc=.sha256",
+  "sequence": 15804,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582335394471,
+  "timestamp": 1582335814275,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nThis is really great info to have, thank you. I'll re-read this again the next time I'm taking a look at performance and will probably have an interesting reply at some point in the future. :) Thanks!",
+    "text": "**Does anyone know how to easily `npm install` for other platforms and architectures?**\r\n\r\nI've had lots of luck with `npm install`, but I want to be able to produce a zip file that I can give to someone on a different platform (macOS, Windows) or architectures (ia32, arm64, etc). Is there an easy way to do this with npm?\r\n\r\nI think I'd like something like:\r\n\r\n```\r\nnpm install --platform=darwin\r\n```\r\n\r\nBut I can't figure it out. It seems like `node-gyp` or `node-gyp-build` or `prebuild` might give me a way to do this, but I can't figure it out.\r\n\r\nHere's my best attempt: https://github.com/fraction/oasis/pull/251\r\n\r\nUnfortunately it just packages `node` and `npm` for a given platform, which means that they have to unzip the archive and run a script that runs `npm install` for them with the bundles binaries, but that's less than ideal. It also means that I have to ship `npm`, which I'd really prefer to avoid if possible.\r\n\r\n#node #nodejs #npm #dev",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "#node"
+      },
+      {
+        "link": "#nodejs"
+      },
+      {
+        "link": "#npm"
+      },
+      {
+        "link": "#dev"
       }
     ],
-    "root": "%HUrRZsLGVcmE8xp2ahfDSNf0j32P8Jqr7a6e+ex59Uk=.sha256",
-    "branch": [
-      "%YdC/puYV3Uzn8EkIWILuXJHexWigxHTPVkmgKJTA5go=.sha256"
-    ]
+    "contentWarning": "software dev: question about cross-compiling nodejs"
   },
-  "signature": "Q+6BdqWtMUnTee7XjQyRJzXufwQfPP5CAcwET3XU6gQ2e/erpqmiG69Z+/QcGYkMJkibyL3/j68yig83FdznCw==.sig.ed25519"
+  "signature": "omA4zxilQtFrYcqYXio0thQmt+K8qFOm4a7O1bgk7u3U5l5urXyI7UUtT6f/tHJaH6OATBHEEycuW62nc6rvAQ==.sig.ed25519"
 }
