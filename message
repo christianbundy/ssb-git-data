@@ -1,22 +1,18 @@
 {
-  "previous": "%gVOLyUudoba8ayF7F9yFCkhq1B28otvFDMCKSMbAbJQ=.sha256",
-  "sequence": 15816,
+  "previous": "%uBRZ3MM1yVk184jtiATaOfRyadA3g9yd7OLuUSigSeE=.sha256",
+  "sequence": 15817,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582397518891,
+  "timestamp": 1582397525734,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nDo you want to turn a Pull-Stream into a Node.js stream or the other way around? Based on what you said I think you want [this](https://github.com/pull-stream/stream-to-pull-stream):\r\n\r\n```sh\r\nnpm install pull-stream stream-to-pull-stream\r\n```\r\n\r\n```javascript\r\nconst fs = require('fs')\r\nconst pull = require('pull-stream')\r\nconst streamToPullStream = require('stream-to-pull-stream')\r\n\r\npull(\r\n  streamToPullStream.source(fs.createReadStream('/dev/random')),\r\n  pull.drain((chunk) => {\r\n    process.stdout.write(chunk)\r\n  })\r\n)\r\n```\r\n",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%9xGCtRyoRd2vp9iG/i1aZbZgaEPGe7DHMVu46mIPAmc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%mnYTS5MKFEZEM7mdk4gr7kOnhwGRZvu8uEI5zeqey0U=.sha256",
+      "value": 1
+    },
     "branch": [
       "%mnYTS5MKFEZEM7mdk4gr7kOnhwGRZvu8uEI5zeqey0U=.sha256"
     ]
   },
-  "signature": "dUlJvf+wJWil+C0rHnB8IH+NGPLjhIdmXVWJ2jLsN83JKkI5ppUwOTkDKggqf32iONGfMB4gz0J7J2/CmGfgBA==.sig.ed25519"
+  "signature": "cBYSD6WQYG4uhUMVLmQtRluyj7/kelQwujlh9LsBQ/2inwkcYNBqNaa5Anwrfm0EFHFC1iA1CT4EmHu5QqCeDQ==.sig.ed25519"
 }
