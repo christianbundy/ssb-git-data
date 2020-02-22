@@ -1,27 +1,22 @@
 {
-  "previous": "%Lf6rsm+rQNQTOkOMGqM4zs9oZgt+PY4YBZlcTwICfvc=.sha256",
-  "sequence": 15804,
+  "previous": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
+  "sequence": 15805,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582335814275,
+  "timestamp": 1582335852616,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "**Does anyone know how to easily `npm install` for other platforms and architectures?**\r\n\r\nI've had lots of luck with `npm install`, but I want to be able to produce a zip file that I can give to someone on a different platform (macOS, Windows) or architectures (ia32, arm64, etc). Is there an easy way to do this with npm?\r\n\r\nI think I'd like something like:\r\n\r\n```\r\nnpm install --platform=darwin\r\n```\r\n\r\nBut I can't figure it out. It seems like `node-gyp` or `node-gyp-build` or `prebuild` might give me a way to do this, but I can't figure it out.\r\n\r\nHere's my best attempt: https://github.com/fraction/oasis/pull/251\r\n\r\nUnfortunately it just packages `node` and `npm` for a given platform, which means that they have to unzip the archive and run a script that runs `npm install` for them with the bundles binaries, but that's less than ideal. It also means that I have to ship `npm`, which I'd really prefer to avoid if possible.\r\n\r\n#node #nodejs #npm #dev",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> Okay, the issue went away when I stopped the (patchwork) ssb-server and used the oasis one. Is that expected?\r\n\r\nDepends, what's the issue?!",
     "mentions": [
       {
-        "link": "#node"
-      },
-      {
-        "link": "#nodejs"
-      },
-      {
-        "link": "#npm"
-      },
-      {
-        "link": "#dev"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "contentWarning": "software dev: question about cross-compiling nodejs"
+    "root": "%rUjfW7TDeFoO2IHrtUwgAC7oEe1+Um0q53ZxXYOUHPY=.sha256",
+    "branch": [
+      "%7II0wj4FQLCadAkTc9CoLfTlMa9YpKvZXzwvMGiDVTk=.sha256"
+    ]
   },
-  "signature": "omA4zxilQtFrYcqYXio0thQmt+K8qFOm4a7O1bgk7u3U5l5urXyI7UUtT6f/tHJaH6OATBHEEycuW62nc6rvAQ==.sig.ed25519"
+  "signature": "2mfWU17qbPJc3472TOdXukkZoNGl9+8o0ub9p0d6N3Eo6XUc4xZ6kP8EwbbNgTDdC7pQUxjb4/9U2vfJF3HmDQ==.sig.ed25519"
 }
