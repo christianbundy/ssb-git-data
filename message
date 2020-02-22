@@ -1,18 +1,22 @@
 {
-  "previous": "%QR+CF3liexEdv5Bqdo3Nbeah5r4UOiWn5t0vPZphjog=.sha256",
-  "sequence": 15813,
+  "previous": "%8Jli9n9km87kcMessv8JpXE7hOFScuS6KF/X7ufyAGU=.sha256",
+  "sequence": 15814,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582387022638,
+  "timestamp": 1582388083218,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RxNVJZPVA+Up3WOwGvyN34tGo+slsPxQwr8I17VhkKA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "Moving this from my PR to GitHub, since my PR wasn't 1:1 matched to this discussion.\r\n\r\n---\r\n\r\n[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) said:\r\n\r\n> I don't know too well how to do this, sorry. Maybe node-gyp may use the env var ARCH, and the way of setting might be via npm global variables: https://github.com/nodejs/node-gyp/#configuration e.g. npm_config_arch=arm64\r\n\r\nThanks for the tip, no problem if it isn't something you know off the top of my head. I've tried that, but my concern is that prebuilds look at both the platform and arch, so I'm guessing that Darwin x64 and Windows x64 have different needs.\r\n\r\n> What about https://github.com/zeit/pkg or https://github.com/zeit/ncc ?\r\n\r\n`pkg` just warns \"cannot include directory/addon into executable\" and doesn't package assets or native modules, `ncc` doesn't do native modules at all, `nexe` had the same problems, `node-packer` is unmaintained, and the other few options I've tried have all failed for various reasons.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
     "branch": [
-      "%RxNVJZPVA+Up3WOwGvyN34tGo+slsPxQwr8I17VhkKA=.sha256"
+      "%QR+CF3liexEdv5Bqdo3Nbeah5r4UOiWn5t0vPZphjog=.sha256"
     ]
   },
-  "signature": "CldxkD1zsELRXPTMNdnB+o/ai3a16q08xqCgnDa2q//n8Po14O/mtLkDJq0iaFNxPyxbkZYt31DC5glNvhuOBQ==.sig.ed25519"
+  "signature": "MtgdnDTIf3MfFdB2JQDkweWNwuUUMf473DxIL0SIhzAxe6/UqE+DYk5pYoKvWIQNnNCRl7Xxn6/CffJcEVlYCg==.sig.ed25519"
 }
