@@ -1,22 +1,23 @@
 {
-  "previous": "%8Jli9n9km87kcMessv8JpXE7hOFScuS6KF/X7ufyAGU=.sha256",
-  "sequence": 15814,
+  "previous": "%ILdFFMAgYfR8eibtBcHimnufYL2Ynnl7ireTJc2fRYY=.sha256",
+  "sequence": 15815,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582388083218,
+  "timestamp": 1582392283006,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Moving this from my PR to GitHub, since my PR wasn't 1:1 matched to this discussion.\r\n\r\n---\r\n\r\n[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) said:\r\n\r\n> I don't know too well how to do this, sorry. Maybe node-gyp may use the env var ARCH, and the way of setting might be via npm global variables: https://github.com/nodejs/node-gyp/#configuration e.g. npm_config_arch=arm64\r\n\r\nThanks for the tip, no problem if it isn't something you know off the top of my head. I've tried that, but my concern is that prebuilds look at both the platform and arch, so I'm guessing that Darwin x64 and Windows x64 have different needs.\r\n\r\n> What about https://github.com/zeit/pkg or https://github.com/zeit/ncc ?\r\n\r\n`pkg` just warns \"cannot include directory/addon into executable\" and doesn't package assets or native modules, `ncc` doesn't do native modules at all, `nexe` had the same problems, `node-packer` is unmaintained, and the other few options I've tried have all failed for various reasons.",
+    "text": "[@LMZKnsyW](@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519)\r\n\r\nHELL YEAH. I'm surprised but happy that it works. Do you know if it's doing the \"falling back to JavaScript cryptography\" thing on your device? I just got the Leveldown prebuild working on my device (https://github.com/Level/leveldown/pull/706), now I'm hoping to get Sodium-Native working too (https://github.com/sodium-friends/sodium-native/issues/119).",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
+        "link": "@LMZKnsyWfkE7RMPEvNAfvB8QWgGVRTjj0EJ5/0CJqyA=.ed25519",
+        "name": "LMZKnsyW"
       }
     ],
-    "root": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
+    "root": "%3K6f39gDZRVnEj+4JMeScS44U2CauZXLBHFLmQ9/ILc=.sha256",
     "branch": [
-      "%QR+CF3liexEdv5Bqdo3Nbeah5r4UOiWn5t0vPZphjog=.sha256"
+      "%HTkQPonmETazh5KRnDWe4a7mq/Lk3N6ZHuCNwbzMVZ4=.sha256",
+      "%dZBx622GggrK9etwHGK+J9jxBq3I3d0ivkGJdqVV/20=.sha256"
     ]
   },
-  "signature": "MtgdnDTIf3MfFdB2JQDkweWNwuUUMf473DxIL0SIhzAxe6/UqE+DYk5pYoKvWIQNnNCRl7Xxn6/CffJcEVlYCg==.sig.ed25519"
+  "signature": "sTaLO1enN5rZNOo84GdwYG7fFklg7BORYTfPmiL3f6Kr9k6I0pFHE8pMehhakCPJz+6q0d8tE9BLJH+/puP6Aw==.sig.ed25519"
 }
