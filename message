@@ -1,22 +1,18 @@
 {
-  "previous": "%n7IqlFN7++NDZajI4YlwZkfP9WpV+oHb+lVrpjFkHGk=.sha256",
-  "sequence": 15818,
+  "previous": "%k3oehvoXpgAb8SA5HyfIaJ+N/apbDJw1pInmxnJjCS8=.sha256",
+  "sequence": 15819,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582401745369,
+  "timestamp": 1582401797201,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\n> Although Linux users are generally more savvy I was thinking of it from a plain and simple point of view. \r\n\r\nMe too, but unfortunately it doesn't seem like there's an easy way to make it so that double-clicking a binary works on Linux -- WAIT, what if we just lie? I just renamed the file `oasis.AppImage` and it executes perfectly without any problems. 🤦‍♂️ It's not an AppImage, but at least on Gnome this lets us run shell scripts without the pain.\r\n\r\nWhat a silly hack.",
-    "mentions": [
-      {
-        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
-        "name": "Danie"
-      }
-    ],
-    "root": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%X3ipq3bIMkvP5dMU9xsiIdfLVUD1VnMHEwosyQHxqF0=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%d2Xa0FBFLEAAbzBA2zze1rIDchpqPfuDhKa69fvpoXk=.sha256"
+      "%X3ipq3bIMkvP5dMU9xsiIdfLVUD1VnMHEwosyQHxqF0=.sha256"
     ]
   },
-  "signature": "aEMbEtkneY8CP+WYiEb38K4S+7foeGcyHSsFGW5KYLQ9pGvwFGz07MFCiRHHtN52u4hznOl2OQNMa95HAzTdAg==.sig.ed25519"
+  "signature": "O2LGVkS4oRN6C0557vw4FfxgtDO34I0XjiLzbuRrFeb8zTc7Q12XkIKw6+Lv5bvoiGDW4RbDjg62zT8U6FrPDw==.sig.ed25519"
 }
