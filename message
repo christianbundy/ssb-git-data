@@ -1,18 +1,30 @@
 {
-  "previous": "%Fb7a9Q4ksn1L3wjm5I/PqvJWp4hVnwJooX0sXeAjwSo=.sha256",
-  "sequence": 15861,
+  "previous": "%xg0drCli4hm69RREGsjMR1s3PB1TvqzNQVpA6UMf+ak=.sha256",
+  "sequence": 15862,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582490344933,
+  "timestamp": 1582497646887,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3BeK5gjfmXj1Kf9ysYbvTHisotLBFvoSlOFTl3CHSf8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nI think you want to avoid running `ssb-server start` and Patchwork at the same time. Could you see if that \"past end\" error is happening in Patchwork? I \r\n\r\ncc: [@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)  would any of you have time to take a look at https://github.com/flumedb/flumedb/pull/39? 🚀",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      },
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      },
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ],
+    "root": "%pw3pNtxCwUXXIBt2Tntx4bjLq0TN1RLKO4BB1Cc9AW0=.sha256",
     "branch": [
-      "%3BeK5gjfmXj1Kf9ysYbvTHisotLBFvoSlOFTl3CHSf8=.sha256"
+      "%pw3pNtxCwUXXIBt2Tntx4bjLq0TN1RLKO4BB1Cc9AW0=.sha256"
     ]
   },
-  "signature": "dcaM1aHqK8izIgF4C5walYJgAK+RNoVNzoJvAZYbj/Xejli28GB0c8oVl9BCrBnk53sCKV221vXFhAbyrK/xCw==.sig.ed25519"
+  "signature": "ey2FTeWKmHukbdD3PQnSdpM3cLTBhfKzPHQwc8qW7iRrdYYH2D36PPhQMyR34stWGfbX6dElWqcfT/32Dq71Cg==.sig.ed25519"
 }
