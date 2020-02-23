@@ -1,18 +1,17 @@
 {
-  "previous": "%T0QqCSrY7Nwyjc0Ere4mKX85/Zy8L63XIc960iOQhK0=.sha256",
-  "sequence": 15857,
+  "previous": "%CBO5BDnqniQl8evV/O+6HdAawx+IcZvmfaEF/xuKlm0=.sha256",
+  "sequence": 15858,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582487912630,
+  "timestamp": 1582488117356,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "Now with stream support!\r\n\r\n```\r\nnpx fraction/ssb-cli createLogStream --limit 5 | npx christianbundy/http-alert -\r\n```",
+    "mentions": [],
+    "root": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
     "branch": [
-      "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256"
+      "%XvqR7lS15n0yx/DUoaEs1d41qLqsFO3pRMWye4RQAd8=.sha256"
     ]
   },
-  "signature": "c2O4hGujFPyAAH0mWziQSpEh122b0mqw4gAZPCsWBaD6UqLYGUJM3e/AHuREkbDkoXGWtIzA5ix6ELkyPv7tCg==.sig.ed25519"
+  "signature": "AtSfwKIp2G++XzlTAsWzQuGZ+NhZrotTz8HQXR1bgVzTAr/kCf1KBnOSluFGV3mClYyPsHyjX2HCp4ncSAzTBA==.sig.ed25519"
 }
