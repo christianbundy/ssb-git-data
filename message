@@ -1,17 +1,23 @@
 {
-  "previous": "%CBO5BDnqniQl8evV/O+6HdAawx+IcZvmfaEF/xuKlm0=.sha256",
-  "sequence": 15858,
+  "previous": "%Ld0r8Aic0X7DFKrDdp3Ai/HJ28p4FivOutWzQPCkOHU=.sha256",
+  "sequence": 15859,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582488117356,
+  "timestamp": 1582488370372,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Now with stream support!\r\n\r\n```\r\nnpx fraction/ssb-cli createLogStream --limit 5 | npx christianbundy/http-alert -\r\n```",
-    "mentions": [],
-    "root": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI love/hate that so much. :~)\r\n\r\nI'm honestly super conflicted about whether this has any valid applications. This started as a solution to [this problem](https://github.com/fraction/oasis/issues/172#issuecomment-590061369).\r\n\r\nIf Oasis is being run from an executable (i.e. no terminal emulator), nothing we print to the CLI is visible. If we can't print errors to stdout, how can we throw errors like \"port 3000 is taken\" or \"error installing dependency\"? Usually we'd need to dive into Gtk/Qt, but since we have a web browser...\r\n\r\nI can't tell whether this is sort of clever or completely awful.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256",
+    "fork": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
     "branch": [
-      "%XvqR7lS15n0yx/DUoaEs1d41qLqsFO3pRMWye4RQAd8=.sha256"
+      "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256"
     ]
   },
-  "signature": "AtSfwKIp2G++XzlTAsWzQuGZ+NhZrotTz8HQXR1bgVzTAr/kCf1KBnOSluFGV3mClYyPsHyjX2HCp4ncSAzTBA==.sig.ed25519"
+  "signature": "xuOsEXT7xPHpRnxItqo9FwOJnTGuzPFIYfiPFC0K6VwW0WUBaepvoVeoE0215gb3biKVDxudw1bBoTPJ9kZdDg==.sig.ed25519"
 }
