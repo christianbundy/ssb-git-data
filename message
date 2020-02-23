@@ -1,23 +1,17 @@
 {
-  "previous": "%Ld0r8Aic0X7DFKrDdp3Ai/HJ28p4FivOutWzQPCkOHU=.sha256",
-  "sequence": 15859,
+  "previous": "%S64XJMxSuUN7ff+VyIdZilnWPYeOs7QpRZiKWIKMUOM=.sha256",
+  "sequence": 15860,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582488370372,
+  "timestamp": 1582488507315,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI love/hate that so much. :~)\r\n\r\nI'm honestly super conflicted about whether this has any valid applications. This started as a solution to [this problem](https://github.com/fraction/oasis/issues/172#issuecomment-590061369).\r\n\r\nIf Oasis is being run from an executable (i.e. no terminal emulator), nothing we print to the CLI is visible. If we can't print errors to stdout, how can we throw errors like \"port 3000 is taken\" or \"error installing dependency\"? Usually we'd need to dive into Gtk/Qt, but since we have a web browser...\r\n\r\nI can't tell whether this is sort of clever or completely awful.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256",
-    "fork": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
+    "text": "What have I done...\r\n\r\n```\r\nstrings /dev/urandom | npx christianbundy/http-alert -\r\n```",
+    "mentions": [],
+    "root": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
     "branch": [
-      "%ZWmvlEkiB5UFqtgtNFRZavfBlDPIfNzJqz0w192JeCE=.sha256"
+      "%Ld0r8Aic0X7DFKrDdp3Ai/HJ28p4FivOutWzQPCkOHU=.sha256"
     ]
   },
-  "signature": "xuOsEXT7xPHpRnxItqo9FwOJnTGuzPFIYfiPFC0K6VwW0WUBaepvoVeoE0215gb3biKVDxudw1bBoTPJ9kZdDg==.sig.ed25519"
+  "signature": "w5Kv3RQ9fMUl2w55FCnwpJeXkuokmD56p2XW6y7wlFmP4EiAa1g+ZfBMG2dzJYNRzv+ejoJb5EfEqqnNbR/JAA==.sig.ed25519"
 }
