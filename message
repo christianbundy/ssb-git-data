@@ -1,30 +1,18 @@
 {
-  "previous": "%xg0drCli4hm69RREGsjMR1s3PB1TvqzNQVpA6UMf+ak=.sha256",
-  "sequence": 15862,
+  "previous": "%WEie5qLrbI3qhRzna7RjwDEhyNBzhRYgqsi4F6Tt7gE=.sha256",
+  "sequence": 15863,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582497646887,
+  "timestamp": 1582497702924,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nI think you want to avoid running `ssb-server start` and Patchwork at the same time. Could you see if that \"past end\" error is happening in Patchwork? I \r\n\r\ncc: [@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)  would any of you have time to take a look at https://github.com/flumedb/flumedb/pull/39? 🚀",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mixmix"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ],
-    "root": "%pw3pNtxCwUXXIBt2Tntx4bjLq0TN1RLKO4BB1Cc9AW0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%/pQaVzL+OLZiKMyie8SpEAAr1weaeOmZg7Gx5quDdzw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%pw3pNtxCwUXXIBt2Tntx4bjLq0TN1RLKO4BB1Cc9AW0=.sha256"
+      "%/pQaVzL+OLZiKMyie8SpEAAr1weaeOmZg7Gx5quDdzw=.sha256"
     ]
   },
-  "signature": "ey2FTeWKmHukbdD3PQnSdpM3cLTBhfKzPHQwc8qW7iRrdYYH2D36PPhQMyR34stWGfbX6dElWqcfT/32Dq71Cg==.sig.ed25519"
+  "signature": "DoKN8fySVPh/iisb9j0EVVlW16ClJZ4+KDlysPxCz4sHu05l0o2Xo1UlLcipRKe2JVBxsO+Ik81chZ9GgSUjAg==.sig.ed25519"
 }
