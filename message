@@ -1,17 +1,18 @@
 {
-  "previous": "%S64XJMxSuUN7ff+VyIdZilnWPYeOs7QpRZiKWIKMUOM=.sha256",
-  "sequence": 15860,
+  "previous": "%Fb7a9Q4ksn1L3wjm5I/PqvJWp4hVnwJooX0sXeAjwSo=.sha256",
+  "sequence": 15861,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582488507315,
+  "timestamp": 1582490344933,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "What have I done...\r\n\r\n```\r\nstrings /dev/urandom | npx christianbundy/http-alert -\r\n```",
-    "mentions": [],
-    "root": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%3BeK5gjfmXj1Kf9ysYbvTHisotLBFvoSlOFTl3CHSf8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Ld0r8Aic0X7DFKrDdp3Ai/HJ28p4FivOutWzQPCkOHU=.sha256"
+      "%3BeK5gjfmXj1Kf9ysYbvTHisotLBFvoSlOFTl3CHSf8=.sha256"
     ]
   },
-  "signature": "w5Kv3RQ9fMUl2w55FCnwpJeXkuokmD56p2XW6y7wlFmP4EiAa1g+ZfBMG2dzJYNRzv+ejoJb5EfEqqnNbR/JAA==.sig.ed25519"
+  "signature": "dcaM1aHqK8izIgF4C5walYJgAK+RNoVNzoJvAZYbj/Xejli28GB0c8oVl9BCrBnk53sCKV221vXFhAbyrK/xCw==.sig.ed25519"
 }
