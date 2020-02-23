@@ -1,20 +1,22 @@
 {
-  "previous": "%ZQWU/QwO/0forUXa1iTYK2x8Kfwhmbp0U35WR/S7GaU=.sha256",
-  "sequence": 15850,
+  "previous": "%CeWX8SQnK1AS8HndnVbLfn176Y3mC7x7oMpPlJq6Oow=.sha256",
+  "sequence": 15851,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582480116932,
+  "timestamp": 1582480271004,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iAuYhV5rAs+t/+gyWVilPOTSnmnEl9SJdj6bZlSnRRA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nHot take: SSB-Invite shouldn't follow pubs, it should just make pubs follow you. We could add an \"is this a pub or a real person\" prompt so that we can still follow friends with public IP addresses, but I don't think that's super common.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%XH0ZKJq1CHA7DkTxtWiRi5WkqYwDYgJErcmuvKOu2I8=.sha256",
     "branch": [
-      "%RJV1G3wlalTcdFn9g0tEtISw7hgZ17Z0kEYU2CaQp9k=.sha256",
-      "%SDNg6PeiY6mAmlJxYXeOHdWvCSQIVlaGiuwenTZp56c=.sha256",
-      "%jGUHaFu/ivH6o0EulIMM3C0aTj9dFsXcXLGjPleM45o=.sha256"
+      "%XH0ZKJq1CHA7DkTxtWiRi5WkqYwDYgJErcmuvKOu2I8=.sha256"
     ]
   },
-  "signature": "/CyzLDM6DVbvCi9DmAqbaeASUOEZBEMIZETtgDsI+m2ewB1ilATvnfv5StcCby9/I9yKItnJhmG2L+CQe8h1DQ==.sig.ed25519"
+  "signature": "41bxecdDUWGqQvmLVL4570R5le0+8ifNjVf+NNUwM0P0ZCMRIqeiDX5LOQ30d72AdcMy5NC3bqkVsfaOOGNLBg==.sig.ed25519"
 }
