@@ -1,19 +1,23 @@
 {
-  "previous": "%fXBATewkGGu7ibiZwqW3LMj6NRfJnSbGHhS1TmV2UxM=.sha256",
-  "sequence": 15848,
+  "previous": "%QqNwLoaP52ZQad7Xk2MSnt1udqbBsGV6lz/n+ct1oDc=.sha256",
+  "sequence": 15849,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582474640897,
+  "timestamp": 1582479941407,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Bpo9UV7ackp60F8XsWRDl5tD+hyKuE1lDIQ7fC3eAZE=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%2MQ/iqnpUtjoWtMtk2aMf+w8CnxchKczuz/bT59kMwk=.sha256",
-      "%TBoEMtvyVY9aKOCDiIIMTy7Hnc1tqK5qKB9PGHOAE7o=.sha256"
+    "type": "post",
+    "text": "I ported the worst part of browser JavaScript to Node.js: `alert()`\r\n\r\nhttps://github.com/christianbundy/http-alert\r\n\r\n#javascript #node #nodejs",
+    "mentions": [
+      {
+        "link": "#javascript"
+      },
+      {
+        "link": "#node"
+      },
+      {
+        "link": "#nodejs"
+      }
     ]
   },
-  "signature": "5hqa9+VTcO5dBAWuooiNgosj8sjJQnMgJsxrcKlxVsKSZh5987MZjAzacBf5jJ6aLqUqM1N57fzu0P38Kq+UDw==.sig.ed25519"
+  "signature": "sPX5SH3YoK1i3Gv7qHFoj0ojQ98glImrbEaKcZ4Iet+3eBqgHqhD3ecNa6BDORhnWQRn0T2XKEdljuLLNuA1CA==.sig.ed25519"
 }
