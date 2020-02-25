@@ -1,22 +1,18 @@
 {
-  "previous": "%ZFsyVyta0lfaUVWT00Yc2toXDagesL5mR0IUcEVVF44=.sha256",
-  "sequence": 15940,
+  "previous": "%7t3O58+Asqo7cQq+zbp5wb2aAkX6nSHCgwbYMi8g97c=.sha256",
+  "sequence": 15941,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582672151419,
+  "timestamp": 1582673136980,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nMaybe the views should be their own modules with no extra API, and the API should reference the view instead of bundling them together? 🤷\r\n\r\n> By the way, why don’t we shuffle the module names and then do sth like `map(n => require(n))`?\r\n\r\nWhat would the benefit be? The big downside is that it adds complexity for static analysis, so it's easy to parse `require('foo')` and be sure that we're using that dependency but harder to see that from `const x = 'foo'; require(x)`.\r\n\r\nFlotilla *should* be using [Common-Good](https://github.com/christianbundy/common-good), which bundles [Dependency-Check](https://github.com/dependency-check-team/dependency-check), but it looks like it's missing (like the readme 😉).",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%aGNPbwkvp3+C2dtFV7q9lg6//t78/cJkHHY+sFm8kN8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%9SndD74054erxupNNtMLVzc6tBNkELn0PjoQw7fUmNA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%aGNPbwkvp3+C2dtFV7q9lg6//t78/cJkHHY+sFm8kN8=.sha256"
+      "%9SndD74054erxupNNtMLVzc6tBNkELn0PjoQw7fUmNA=.sha256"
     ]
   },
-  "signature": "TSlMPqFesz3QHB+Ls++KD2Y8+IEuKqaygRWSkfKXCtW38uG91HHKGVVWbX3PP7uGZRl1bLR4ergPhyX6Kf7dCQ==.sig.ed25519"
+  "signature": "qSL9OsMNtTCTct1DPc0GqKXGB9fgZe6ZWiu4GRokcF4sgyVRISdXx68Y6x4bH0QeBjP5aPT34X95GadmThhgDw==.sig.ed25519"
 }
