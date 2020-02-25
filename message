@@ -1,22 +1,18 @@
 {
-  "previous": "%zbXYijlItiYW9z2s6rYrP9eRfB1qMG95uWH7YhsVRvE=.sha256",
-  "sequence": 15905,
+  "previous": "%WyADd8nzKnTD25VpOSjGMKeXTe1KybbakNE3QkunJwU=.sha256",
+  "sequence": 15906,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582645869569,
+  "timestamp": 1582646042329,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nI bundled that hack into the installer and it should be working better now, if you'd like to test it:\r\n\r\nhttps://send.firefox.com/download/b323fb14827d8ddc/#CX11M-KpwxMfTZtQxsyVpw\r\n\r\nI've noticed two UX problems when running as an AppImage, which I've documented [here](https://github.com/fraction/oasis/pull/251#issuecomment-590935225), but this should be an improvement over the previous binaries (and it's smaller too!).",
-    "mentions": [
-      {
-        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
-        "name": "Danie"
-      }
-    ],
-    "root": "%KrxU6GJdxhWMTBFxJYNasuVeroBijWvr/eCK6pr07WQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%FRFeRjzqIii8HLqg+9BEn32zpzdwWTkP0VW+zOo7soQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fXiiIEh6RGBsaJUGgbMfHO177KRfSfhqKnA3YHGaG+8=.sha256"
+      "%FRFeRjzqIii8HLqg+9BEn32zpzdwWTkP0VW+zOo7soQ=.sha256"
     ]
   },
-  "signature": "ZPqkeC1RMe0geReBMKAhqNEhZ4xJpgMIiqCXW7bI5aK2Znq+nv5QEcpQouRcmGz50kgYWRqaKALftaJviUuCBw==.sig.ed25519"
+  "signature": "s+T7xbMl53zPDt0BiBiVIV/up5066DPH9vDdj6fpTLWD3nLoyYRSnvZUzJ/mzEHBaT0ILHM1e4qgHt2WyH6ECg==.sig.ed25519"
 }
