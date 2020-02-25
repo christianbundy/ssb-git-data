@@ -1,22 +1,22 @@
 {
-  "previous": "%HPPcpYnkVrD+K/B2it4vgE9aC5qU4FOSvqmYJrAGk/8=.sha256",
-  "sequence": 15939,
+  "previous": "%ZFsyVyta0lfaUVWT00Yc2toXDagesL5mR0IUcEVVF44=.sha256",
+  "sequence": 15940,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582671050912,
+  "timestamp": 1582672151419,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, with regular JS modules you can run conflicting entries without any problems. I think Secret-Stack keeps you from having the same name, but I don't think it protects you from overwriting different APIs.\r\n\r\nActually, I think it *explicitly* lets you overwrite different APIs, because that's how we use \"hooks\" to change the behavior of other plugins running on the API.\r\n\r\n> Because if that third plugin tries to write e.g. flume views in slightly differing ways per version, that should generate some serious problems?\r\n\r\nIf the two version of the module are backward-compatible, they could be de-duplicated and use a singleton to ensure that only one process is managing the filesystem state. If they aren't backward-compatible, my feel is that they shouldn't be editing the same file as the previous version.\r\n\r\nExample: SSB-Backlinks@42 would modify `~/.ssb/flume/backlinks-42`, and if it's `require()`'d multiple times it should share its state between all instances rather than trying to open one file descriptor per `require()`.",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nMaybe the views should be their own modules with no extra API, and the API should reference the view instead of bundling them together? 🤷\r\n\r\n> By the way, why don’t we shuffle the module names and then do sth like `map(n => require(n))`?\r\n\r\nWhat would the benefit be? The big downside is that it adds complexity for static analysis, so it's easy to parse `require('foo')` and be sure that we're using that dependency but harder to see that from `const x = 'foo'; require(x)`.\r\n\r\nFlotilla *should* be using [Common-Good](https://github.com/christianbundy/common-good), which bundles [Dependency-Check](https://github.com/dependency-check-team/dependency-check), but it looks like it's missing (like the readme 😉).",
     "mentions": [
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
         "name": "Daan"
       }
     ],
-    "root": "%fuvAX+fAlMtXcOT9Cyn9vkJgEzc27PD4tbDEGVL7tIs=.sha256",
+    "root": "%aGNPbwkvp3+C2dtFV7q9lg6//t78/cJkHHY+sFm8kN8=.sha256",
     "branch": [
-      "%fuvAX+fAlMtXcOT9Cyn9vkJgEzc27PD4tbDEGVL7tIs=.sha256"
+      "%aGNPbwkvp3+C2dtFV7q9lg6//t78/cJkHHY+sFm8kN8=.sha256"
     ]
   },
-  "signature": "iU7SKJEEIoB/0RNFesf2S3iZCTKH38/Rfj/gRpdgc/3m93uy0HQsxSHxflHWdoTRFc7wiEva2gwHibiZnB0XCQ==.sig.ed25519"
+  "signature": "TSlMPqFesz3QHB+Ls++KD2Y8+IEuKqaygRWSkfKXCtW38uG91HHKGVVWbX3PP7uGZRl1bLR4ergPhyX6Kf7dCQ==.sig.ed25519"
 }
