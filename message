@@ -1,22 +1,22 @@
 {
-  "previous": "%/9F0mn0ex3IWRZQKUofF31YVRSeicY1w9lpkmUaw8aQ=.sha256",
-  "sequence": 15886,
+  "previous": "%QRfpTrY+wN+xiQOxQ+ZLozEd8G0k3YuxDV+mmztty98=.sha256",
+  "sequence": 15887,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582602046009,
+  "timestamp": 1582602471337,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@heechee o](@OTJBzlzGahSeZ9/0Jck99DEVQMVcYyVjsgnj4bvUJAY=.ed25519)\r\n\r\nIt would be a lot more user-friendly to not make users jump through this hoop, but my understanding is that you have to pay Apple *and* you need to sign the application on an Apple product.\r\n\r\nThere seems to be at least one open source alternative, [zsign](https://github.com/zhlynn/zsign#usage), but its usage looks confusing at first glance and it doesn't support [notarization](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution), which seems to be the New Hotness. It feels to me like Apple doesn't want DIY software running on their devices.",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nLooks like they should be added when your software is updated to the latest version of Leveldown: https://github.com/Level/leveldown/issues/703",
     "mentions": [
       {
-        "link": "@OTJBzlzGahSeZ9/0Jck99DEVQMVcYyVjsgnj4bvUJAY=.ed25519",
-        "name": "heechee o"
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
       }
     ],
-    "root": "%ZDxx2mH+2/0OLxoU5bQZ6R7fYzSoZlWnHzopawynpe4=.sha256",
+    "root": "%DJrsskkEtET3TvVnOocJzcMSjCNbq0yksj0vc7Gar00=.sha256",
     "branch": [
-      "%Stclv9WQd5oFRvXzEDeKm6TK8C1l6X2TApOklr7v2qA=.sha256"
+      "%DJrsskkEtET3TvVnOocJzcMSjCNbq0yksj0vc7Gar00=.sha256"
     ]
   },
-  "signature": "IZHbMWSHsg86cqfP5LUevozrosV5by3kIZGbFBf4zuGUgupQSzKS4zJ+4jpJPg/Ves5k8VcrH5S3KMG+kDdLBw==.sig.ed25519"
+  "signature": "YO2ErvNUx4LUJssp9un3hjaCTWbcUGmMZn5dHyllJsNYdM2RW1luHkk0ZdxyEuQ5zPV8ZkA/Vh7oPYuAiu3WAQ==.sig.ed25519"
 }
