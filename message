@@ -1,29 +1,18 @@
 {
-  "previous": "%TiLxcdOkAtKL5RhRLIQO+Vkt8V1IcfG+mKZEAs1e+0Q=.sha256",
-  "sequence": 15913,
+  "previous": "%nsI1eHHwMVFIM6gybGvLPDB9bCqoeKKzW1BSlXqh9iw=.sha256",
+  "sequence": 15914,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582659004014,
+  "timestamp": 1582659021679,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cft](@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519)\r\n\r\nI've been thinking about this lots lately in the context of #same-as -- I mentioned it [here](%d2NkzCcSaXohwHNIaKnHrshMbv4P4EYM8DcdPCiCISk=.sha256), but I'd really like to store my secret in the TPM of my device so that it can't be extracted from the device at all. Using a hardware key would be rad too.",
-    "mentions": [
-      {
-        "link": "@AiBJDta+4boyh2USNGwIagH/wKjeruTcDX2Aj1r/haM=.ed25519",
-        "name": "cft"
-      },
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "%d2NkzCcSaXohwHNIaKnHrshMbv4P4EYM8DcdPCiCISk=.sha256",
-        "name": "here"
-      }
-    ],
-    "root": "%4vOgepXoOXyqGtJItA2zqK6RN52skvJZgOXKgmQ90tg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%jfpnv8e+rcn7ZrqCO+iELrz92bQeOhb2yWIyPaGgb8A=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%PxS+XRXr7Or3WxrpdkXMmJFryJYJSPHY+FlJ6Th18jM=.sha256"
+      "%jfpnv8e+rcn7ZrqCO+iELrz92bQeOhb2yWIyPaGgb8A=.sha256"
     ]
   },
-  "signature": "2DckmutnW9oYiRQ2QAmMJO68PKuSfaPFv5UScjuJ2ZFIoQECkLyVYzcY6v9SjlO0VmPJSn+rfZAaOs1/ZhIYCg==.sig.ed25519"
+  "signature": "uCrqCDtrHuddhlCgfRzovbtBPkm62KgAFDkLGG5QIM19UnO/PcKBpOrVsAmESLzKjQOIPnFQvkg7blaOXo9CBg==.sig.ed25519"
 }
