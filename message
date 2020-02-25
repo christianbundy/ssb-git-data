@@ -1,18 +1,26 @@
 {
-  "previous": "%yTphUqUNv1ll9P0jqOlC0okvzWFiEFhs8UiudW0nIKg=.sha256",
-  "sequence": 15925,
+  "previous": "%BZQl977boYkkqxnnOs5KPAg0bR/Zax3Y0DI2dfDXFsQ=.sha256",
+  "sequence": 15926,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582665597431,
+  "timestamp": 1582667116510,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%butTW14ohhif12x9oHtrvpiHnbNuyt6rlUwQH2TUk3Q=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nYeah, there's a problem that I documented in the PR where it doesn't have a way to return errors, so if you launch it once and then try to launch it again it'll complain \"port 3000 is already taken\" to stdout, but that's not visible if you're launching from an AppImage.\r\n\r\nCould you confirm that you're not seeing this? I downloaded Dolphin 19.12.2 to test your error but it's giving me the option to execute when I double-click:\r\n\r\n![Screenshot of Dolphin offering to open the AppImage](&yV6zU05udL13JyJKqlCEHkoBUtnUJulGLLnN4wcMT2A=.sha256)",
+    "mentions": [
+      {
+        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
+        "name": "Danie"
+      },
+      {
+        "link": "&yV6zU05udL13JyJKqlCEHkoBUtnUJulGLLnN4wcMT2A=.sha256",
+        "name": "Screenshot of Dolphin offering to open the AppImage"
+      }
+    ],
+    "root": "%KBnNNoM8eUdnSuJXjwpyb1qpMLt/BksFzpBPSoawv3o=.sha256",
     "branch": [
-      "%butTW14ohhif12x9oHtrvpiHnbNuyt6rlUwQH2TUk3Q=.sha256"
+      "%KBnNNoM8eUdnSuJXjwpyb1qpMLt/BksFzpBPSoawv3o=.sha256"
     ]
   },
-  "signature": "a979fL+JmJ0MmD1O2QCQKMwgu11LpbECEdINPT/R4yiiz1uKint1EvheWw5ky2vIWwpjyEGVmZKPuHdQqWDQAg==.sig.ed25519"
+  "signature": "rfA/YBErbipzxBh+UnFKbe57+XS2LaUTTXwxnQNaAOLexrqU8NnGBwh9r42JnO7q1DNPOH8qnm31sYmrylvHCw==.sig.ed25519"
 }
