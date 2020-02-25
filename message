@@ -1,22 +1,22 @@
 {
-  "previous": "%P+UPKib1dPLcqTzAt/tw9TspuNA8DwccZ9wBzC2tZOI=.sha256",
-  "sequence": 15938,
+  "previous": "%HPPcpYnkVrD+K/B2it4vgE9aC5qU4FOSvqmYJrAGk/8=.sha256",
+  "sequence": 15939,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582668768463,
+  "timestamp": 1582671050912,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Mel (hamnox)](@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519)\r\n\r\n5:57 and I'm more anxious than I've ever been in my life",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, with regular JS modules you can run conflicting entries without any problems. I think Secret-Stack keeps you from having the same name, but I don't think it protects you from overwriting different APIs.\r\n\r\nActually, I think it *explicitly* lets you overwrite different APIs, because that's how we use \"hooks\" to change the behavior of other plugins running on the API.\r\n\r\n> Because if that third plugin tries to write e.g. flume views in slightly differing ways per version, that should generate some serious problems?\r\n\r\nIf the two version of the module are backward-compatible, they could be de-duplicated and use a singleton to ensure that only one process is managing the filesystem state. If they aren't backward-compatible, my feel is that they shouldn't be editing the same file as the previous version.\r\n\r\nExample: SSB-Backlinks@42 would modify `~/.ssb/flume/backlinks-42`, and if it's `require()`'d multiple times it should share its state between all instances rather than trying to open one file descriptor per `require()`.",
     "mentions": [
       {
-        "link": "@1slPYzIKV2LSlvYm71sIXvpHmlWtQj2g1a5ylsDCMf8=.ed25519",
-        "name": "Mel (hamnox)"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%z1qmabASVDUfNjpTlgMOlGxF1Rq/fLTwSqSv5y2KJBs=.sha256",
+    "root": "%fuvAX+fAlMtXcOT9Cyn9vkJgEzc27PD4tbDEGVL7tIs=.sha256",
     "branch": [
-      "%z1qmabASVDUfNjpTlgMOlGxF1Rq/fLTwSqSv5y2KJBs=.sha256"
+      "%fuvAX+fAlMtXcOT9Cyn9vkJgEzc27PD4tbDEGVL7tIs=.sha256"
     ]
   },
-  "signature": "8MWLMQCJYfoca1pTfS4jH8VcQNMUMNfXKzHh/p4zD+FzQd0/rHFhT/1+yRClqU//i0ZhN3zL7vgV51P+caybBg==.sig.ed25519"
+  "signature": "iU7SKJEEIoB/0RNFesf2S3iZCTKH38/Rfj/gRpdgc/3m93uy0HQsxSHxflHWdoTRFc7wiEva2gwHibiZnB0XCQ==.sig.ed25519"
 }
