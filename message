@@ -1,22 +1,18 @@
 {
-  "previous": "%V/oi21j5HLa2AMHSUUyPp57kG/8BDxoyYHu4qTleqxE=.sha256",
-  "sequence": 15924,
+  "previous": "%yTphUqUNv1ll9P0jqOlC0okvzWFiEFhs8UiudW0nIKg=.sha256",
+  "sequence": 15925,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582665584600,
+  "timestamp": 1582665597431,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, I really wanted to make sure I was being super explicit about which dependencies actually needed to be loaded in a certain order, so anything that doesn't depend on order is shuffled to constantly sanity-check and make sure it's working as expected.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%y7ysNWr12RLLN8NGhZyPAYJY84BQ5WalGiBuHq6r3HE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%butTW14ohhif12x9oHtrvpiHnbNuyt6rlUwQH2TUk3Q=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%y7ysNWr12RLLN8NGhZyPAYJY84BQ5WalGiBuHq6r3HE=.sha256"
+      "%butTW14ohhif12x9oHtrvpiHnbNuyt6rlUwQH2TUk3Q=.sha256"
     ]
   },
-  "signature": "s8v79O1T1KJ9MxsEsrFgQb7TIdLnKD6KRrnAEkFQsnexzIgUPLtdiFGFdEH9Oe6EUuCfNiOSkGBGvYnsGa3iAQ==.sig.ed25519"
+  "signature": "a979fL+JmJ0MmD1O2QCQKMwgu11LpbECEdINPT/R4yiiz1uKint1EvheWw5ky2vIWwpjyEGVmZKPuHdQqWDQAg==.sig.ed25519"
 }
