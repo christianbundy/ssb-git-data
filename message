@@ -1,26 +1,22 @@
 {
-  "previous": "%BZQl977boYkkqxnnOs5KPAg0bR/Zax3Y0DI2dfDXFsQ=.sha256",
-  "sequence": 15926,
+  "previous": "%HECXp9raYETa98xUitT5m551PsyNJJuK7JP8aHlokQc=.sha256",
+  "sequence": 15927,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582667116510,
+  "timestamp": 1582667186420,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nYeah, there's a problem that I documented in the PR where it doesn't have a way to return errors, so if you launch it once and then try to launch it again it'll complain \"port 3000 is already taken\" to stdout, but that's not visible if you're launching from an AppImage.\r\n\r\nCould you confirm that you're not seeing this? I downloaded Dolphin 19.12.2 to test your error but it's giving me the option to execute when I double-click:\r\n\r\n![Screenshot of Dolphin offering to open the AppImage](&yV6zU05udL13JyJKqlCEHkoBUtnUJulGLLnN4wcMT2A=.sha256)",
+    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nIt's important to note: this file is not an appimage, the `.appimage` suffix is only to get the double-click execution working since Nautilus and Dolphin don't let you double-click bash scripts.",
     "mentions": [
       {
         "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
         "name": "Danie"
-      },
-      {
-        "link": "&yV6zU05udL13JyJKqlCEHkoBUtnUJulGLLnN4wcMT2A=.sha256",
-        "name": "Screenshot of Dolphin offering to open the AppImage"
       }
     ],
     "root": "%KBnNNoM8eUdnSuJXjwpyb1qpMLt/BksFzpBPSoawv3o=.sha256",
     "branch": [
-      "%KBnNNoM8eUdnSuJXjwpyb1qpMLt/BksFzpBPSoawv3o=.sha256"
+      "%HECXp9raYETa98xUitT5m551PsyNJJuK7JP8aHlokQc=.sha256"
     ]
   },
-  "signature": "rfA/YBErbipzxBh+UnFKbe57+XS2LaUTTXwxnQNaAOLexrqU8NnGBwh9r42JnO7q1DNPOH8qnm31sYmrylvHCw==.sig.ed25519"
+  "signature": "f8eOzr9B53EhGv94mePUmQbScjT30IpyOgW6ZvRNlM7PpKTqPTf2/kO7MCGhA9rmlaspSx8WYW2zILVRT8fuCg==.sig.ed25519"
 }
