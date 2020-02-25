@@ -1,23 +1,22 @@
 {
-  "previous": "%CJfoYbM8auvAxjRkgimTjLaJzC5Z3BFEkFXrMzXKv7o=.sha256",
-  "sequence": 15923,
+  "previous": "%V/oi21j5HLa2AMHSUUyPp57kG/8BDxoyYHu4qTleqxE=.sha256",
+  "sequence": 15924,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582664199910,
+  "timestamp": 1582665584600,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\n> How could I remove that “non-information” from output?\r\n\r\nWhat's the behavior that you'd like to see? My concern is that if we just hide those messages then lots of threads will look like people talking to themselves, which is confusing (albeit less annoying).",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYeah, I really wanted to make sure I was being super explicit about which dependencies actually needed to be loaded in a certain order, so anything that doesn't depend on order is shuffled to constantly sanity-check and make sure it's working as expected.",
     "mentions": [
       {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%PIpL1BYNQHKNhVdiAlSFGSKrTDL/SZi1C2sLgwhx5KI=.sha256",
-    "fork": "%zgy2aT39BV0X9nftASbPHrCbR0u7Ip8yZS1lq5MF0zM=.sha256",
+    "root": "%y7ysNWr12RLLN8NGhZyPAYJY84BQ5WalGiBuHq6r3HE=.sha256",
     "branch": [
-      "%PIpL1BYNQHKNhVdiAlSFGSKrTDL/SZi1C2sLgwhx5KI=.sha256"
+      "%y7ysNWr12RLLN8NGhZyPAYJY84BQ5WalGiBuHq6r3HE=.sha256"
     ]
   },
-  "signature": "KvWTBhFw/UkioJgjO7MWYDzxhZ8pAFYxbAvKbrIvnF16lkqehqgFUaA6kSU33TqP2xd998vnbdp6MGcJhEhhDQ==.sig.ed25519"
+  "signature": "s8v79O1T1KJ9MxsEsrFgQb7TIdLnKD6KRrnAEkFQsnexzIgUPLtdiFGFdEH9Oe6EUuCfNiOSkGBGvYnsGa3iAQ==.sig.ed25519"
 }
