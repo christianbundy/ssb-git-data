@@ -1,18 +1,18 @@
 {
-  "previous": "%l9HqhLi9ZZedA5vYJPFbh5gqMYFTTZmdNwJ+2PGU0IE=.sha256",
-  "sequence": 15930,
+  "previous": "%3WeqeEhVnIBQ4mnNmOjBIJKtycPVnJAxm2kjz2Gdi4g=.sha256",
+  "sequence": 15931,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582668014916,
+  "timestamp": 1582668194739,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Aside: I'd really love to just use one dependency system, `require()`, rather than using Depject or Secret-Stack for their dependency injection.\r\n\r\nDependency injection is very clever but adding methods to a global `api` object creates shared mutable state that's impossible to reason about. Unspecified dependencies are confusing and scary to work with, and I'd love to use explicit dependencies everywhere.",
-    "mentions": [],
-    "root": "%l9HqhLi9ZZedA5vYJPFbh5gqMYFTTZmdNwJ+2PGU0IE=.sha256",
-    "fork": "%y7ysNWr12RLLN8NGhZyPAYJY84BQ5WalGiBuHq6r3HE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Xs01tRpiGVn3WTdtm5+CnLgYQ1jHbFmAbfjH92gFgpU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%l9HqhLi9ZZedA5vYJPFbh5gqMYFTTZmdNwJ+2PGU0IE=.sha256"
+      "%NrHiel7WuzzSSL6t6Jt6Q2388WoW6pBLYJ3j5brYIlc=.sha256"
     ]
   },
-  "signature": "GXyM872eG9DXBCAxULluN4bKh/bomrFuMK+aqQp5t0IFpQGAcoxE2skBkVidAI+gmdFmBjEdWouX9WHOZmzpCA==.sig.ed25519"
+  "signature": "Uakw4MC6TFpkz0SCaTk2xWGuaRnYBaQjgOethzO6xeQx4QpQtpVAG/Y/XAkNS7LhaA2YMN1sLZ4/ojY/5d9eBQ==.sig.ed25519"
 }
