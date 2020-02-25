@@ -1,22 +1,18 @@
 {
-  "previous": "%9Uor0OQYbPf1hPNFKs4W1LH4KYqLjbX9KaOx9xS+fIs=.sha256",
-  "sequence": 15920,
+  "previous": "%l1I8VgwXDB8nSCh8fw+1tIzsZYe2947gAlUzbVaj6IM=.sha256",
+  "sequence": 15921,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582663783495,
+  "timestamp": 1582663818055,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\n> If trying to double-click and execute oasis.appimage the OS does still report error not anm appimage file so something is probably missing in the packaging of the appimage.\r\n\r\nOh, I didn't see that you'd reported that error. It looks like Nautilus doesn't check if it's an AppImage but maybe Dolphin/Krusader does?\r\n\r\n> Running from terminal gives this\r\n\r\nThat's weird, would you mind posting the output of:\r\n\r\n\r\n```shell\r\n./vendor/node-v12.16.1-linux-x64/bin/node -e \"require('sodium-native')\"\r\n```",
-    "mentions": [
-      {
-        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
-        "name": "Danie"
-      }
-    ],
-    "root": "%frZHtlWusB2DuOQ0uLafmN8svsJrk0f6Tg3fTvT3Iys=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%bDrbhEwCb5pgk9u/iX8P2/++S6m90xCzJFF61IalJwo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%35hxAl1oth/8Zl7lQkDqFl5k+m1+tX+P7GwnC98K2J8=.sha256"
+      "%bDrbhEwCb5pgk9u/iX8P2/++S6m90xCzJFF61IalJwo=.sha256"
     ]
   },
-  "signature": "MOOW3XjrluUpqIswvTTnFJimTOHg1RooMCLJWEFZKrRXUu7v5htp//s6QnHFbepGmTiomI717kS8hlTpK4umCw==.sig.ed25519"
+  "signature": "uYWEe4aLF/UNmCzW03Py9tRRGrxQRn7k/F4cky/GkQvljZj6ShrNz7CTlrnLWwrg+THnpylMkT09LjqabbTTBQ==.sig.ed25519"
 }
