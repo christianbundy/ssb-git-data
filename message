@@ -1,18 +1,22 @@
 {
-  "previous": "%ZeQfjbLeJV7ev59UOuxCx1TM2qMV8hDqgFdBZhDm1FI=.sha256",
-  "sequence": 15919,
+  "previous": "%9Uor0OQYbPf1hPNFKs4W1LH4KYqLjbX9KaOx9xS+fIs=.sha256",
+  "sequence": 15920,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582659451568,
+  "timestamp": 1582663783495,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4F8Y9jm/uQpr+ZuJackODqJ1Q0k3yDX8yyLXgXM2l3s=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\n> If trying to double-click and execute oasis.appimage the OS does still report error not anm appimage file so something is probably missing in the packaging of the appimage.\r\n\r\nOh, I didn't see that you'd reported that error. It looks like Nautilus doesn't check if it's an AppImage but maybe Dolphin/Krusader does?\r\n\r\n> Running from terminal gives this\r\n\r\nThat's weird, would you mind posting the output of:\r\n\r\n\r\n```shell\r\n./vendor/node-v12.16.1-linux-x64/bin/node -e \"require('sodium-native')\"\r\n```",
+    "mentions": [
+      {
+        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
+        "name": "Danie"
+      }
+    ],
+    "root": "%frZHtlWusB2DuOQ0uLafmN8svsJrk0f6Tg3fTvT3Iys=.sha256",
     "branch": [
-      "%ay47SWcNiixdwlq/EBkHURmTM20lWwsQqth902NEaIY=.sha256"
+      "%35hxAl1oth/8Zl7lQkDqFl5k+m1+tX+P7GwnC98K2J8=.sha256"
     ]
   },
-  "signature": "+Uv/FING/1ukm8JKfO4/nBLXtbbGM4rwkw9MAjDzF7hbXQPsSVl/6vtcZD8MH+cnLDdbJ1oaZEjEXwuMtQjNDQ==.sig.ed25519"
+  "signature": "MOOW3XjrluUpqIswvTTnFJimTOHg1RooMCLJWEFZKrRXUu7v5htp//s6QnHFbepGmTiomI717kS8hlTpK4umCw==.sig.ed25519"
 }
