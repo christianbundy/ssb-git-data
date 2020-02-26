@@ -1,17 +1,18 @@
 {
-  "previous": "%F4+YClReCTgjSWHSZfj8JLgbTWMcZJDz1rI2prdPpEU=.sha256",
-  "sequence": 15973,
+  "previous": "%4dk9st/bJTS1IqFo5VNPGsX8aNOsrfPvdLQeKnfMVt0=.sha256",
+  "sequence": 15974,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582745395771,
+  "timestamp": 1582745448642,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I'm very confused at why this doesn't work:\r\n\r\n```sh\r\nssb query read --query '[{ \"$sort\": [[\"rts\"]] }]'\r\n```\r\n\r\nNo results after 30 seconds, although `query.explain` shows an index being used:\r\n\r\n```json\r\n{\r\n  \"gte\": [\r\n    null\r\n  ],\r\n  \"lte\": [\r\n    null\r\n  ],\r\n  \"reverse\": false,\r\n  \"old\": true,\r\n  \"live\": false,\r\n  \"index\": \"lor\",\r\n  \"scores\": {}\r\n}\r\n```\r\n\r\nI don't get it.",
+    "text": "TIL if you press \"submit\" twice really fast it submits the message twice. Who'd have thunk it.",
     "mentions": [],
-    "root": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
+    "root": "%F4+YClReCTgjSWHSZfj8JLgbTWMcZJDz1rI2prdPpEU=.sha256",
+    "fork": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
     "branch": [
       "%F4+YClReCTgjSWHSZfj8JLgbTWMcZJDz1rI2prdPpEU=.sha256"
     ]
   },
-  "signature": "VRRwPm7n2RKFjoPvcsTsPa8wsaSmoYAfIE1iTBpIITF0vahfiRCijVeo+mkxswHxpc5OTCZ0ISqhoJWOEgrIAA==.sig.ed25519"
+  "signature": "Wa4ttxsz8oZzY9V+eHqTMt613nnZNg2qV4e2qoQH0yDLLgU6sEZiBCXOwGTjQhLCrWRviwiC6mdus1taAVWlDA==.sig.ed25519"
 }
