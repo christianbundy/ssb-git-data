@@ -1,27 +1,17 @@
 {
-  "previous": "%L9LQf7PY3fI/3aAwNpgisGVlt8OZaMcCTGd/lPdmm1s=.sha256",
-  "sequence": 15971,
+  "previous": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
+  "sequence": 15972,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582743749263,
+  "timestamp": 1582745395596,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "This feels *so* silly, but I can't get SSB-Query running in any sort of reasonable time. I want to get `.value.content.type === \"post\"` messages in order of their asserted timestamp (`.value.timestamp'). From what I've read, SSB-Query has an index for this:\r\n\r\n```js\r\n{key: 'tya', value: [['value', 'content', 'type'], ['value', 'timestamp']] }\r\n```\r\n\r\nBut when I try to write a query, it takes like 10 seconds to get the first result. What am I doing wrong?\r\n\r\n```json\r\n[\r\n  {\r\n    \"$filter\": {\r\n      \"value\": {\r\n        \"content\": {\r\n          \"type\": \"post\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"$sort\": {\r\n      \"$reverse\": [\r\n        [\r\n          \"value\",\r\n          \"timestamp\"\r\n        ]\r\n      ]\r\n    }\r\n  }\r\n]\r\n```\r\n\r\nTimes like these make me *really* wish we were using SQLite or something with tons of documentation and examples.\r\n\r\n#ssb-learning #ssb-query #help #ssb-dev",
-    "mentions": [
-      {
-        "link": "#ssb-learning"
-      },
-      {
-        "link": "#ssb-query"
-      },
-      {
-        "link": "#help"
-      },
-      {
-        "link": "#ssb-dev"
-      }
-    ],
-    "contentWarning": "ssb-query help"
+    "text": "I'm very confused at why this doesn't work:\r\n\r\n```sh\r\nssb query read --query '[{ \"$sort\": [[\"rts\"]] }]'\r\n```\r\n\r\nNo results after 30 seconds, although `query.explain` shows an index being used:\r\n\r\n```json\r\n{\r\n  \"gte\": [\r\n    null\r\n  ],\r\n  \"lte\": [\r\n    null\r\n  ],\r\n  \"reverse\": false,\r\n  \"old\": true,\r\n  \"live\": false,\r\n  \"index\": \"lor\",\r\n  \"scores\": {}\r\n}\r\n```\r\n\r\nI don't get it.",
+    "mentions": [],
+    "root": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
+    "branch": [
+      "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256"
+    ]
   },
-  "signature": "S87cgD19MjHrMfgVtp3/fsNmBA5i8dhRStOlUBvDaJ/8pJmx9KKvNCvXaO9eqZRLCYr8M6JKlCLBPb4FrIkIDA==.sig.ed25519"
+  "signature": "qpd2WpWlHNexeUI69xs6pdznfeFtSINnEP8FaPoVH+Ir0zDbaqLJZhbHe+j4F39C5CtaPkQMis/IS6OHnxTLCw==.sig.ed25519"
 }
