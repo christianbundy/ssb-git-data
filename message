@@ -1,22 +1,22 @@
 {
-  "previous": "%43QnlRMXfSK6pMic3WfaM1EWxT3DJ5/NXQOUwDjI8Hc=.sha256",
-  "sequence": 15984,
+  "previous": "%4xf82DX/j2w7yhx//OU/DkHUrtJHF7CqdstcGCCmAig=.sha256",
+  "sequence": 15985,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582756471509,
+  "timestamp": 1582760541207,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThis is interesting, thanks for sharing.\r\n\r\nObligatory: I'm still very skeptical of `publicWebHosting`'s lack of specification (what is \"public web\"?) and very uncomfortable hiding public posts, but I think opening these up is a move in the right direction (unless someone makes a rogue viewer and publishes everything, in which case it doesn't matter).",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nFixed! [Maybe](https://github.com/fraction/oasis/pull/251/commits/dd81f0877ae041805923bb42cfc4f9522175cf94).\r\n\r\nIf you have energy/interest, could you try [this one](https://send.firefox.com/download/0ad04290c4095425/#BbmivyLxhxpylrwKIUhVwg) instead? I can confirm that it's a text file with the contents:\r\n\r\n```batch\r\nvendor\\node-v12.16.1-win-x64\\bin\\node src %*\r\n```",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%bYZx4SpKerJGtg3bI5u+pbk+sZZfXG+WxxPxkjRvnro=.sha256",
+    "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
     "branch": [
-      "%/sEqGJwCG8Fc7jBucytDAoBAXrwaslRuZcrxPT4m9Q8=.sha256"
+      "%DsRuTQRt5A2SQa2jCS69r3N7vg7jELVtt9TIFo1Snto=.sha256"
     ]
   },
-  "signature": "PvDjwawKBDT9QRd1FmG413s8/R7u2jiZ1FGNiC1h9rVd1IqmC8tAhY9WUOtIEdS093Iyze2Zdxe5yu+dp+jMDw==.sig.ed25519"
+  "signature": "ZhzE5QP9eYHXDr4XXWYifekSUsQpj+fRM02N2ePLFlLFs7GZyHFgNscCda3lIhAW0ZWM5tutUEOIFveRou+bDw==.sig.ed25519"
 }
