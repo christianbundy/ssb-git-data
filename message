@@ -1,18 +1,22 @@
 {
-  "previous": "%2PcUfzBA/nOgdWmaZ98Un4M2XGDfYv6mWqD4SZYRI1E=.sha256",
-  "sequence": 15955,
+  "previous": "%sVhxmmXU7WRpZIaKlkJt3ytOo3ma2y+fELwkevL9CUA=.sha256",
+  "sequence": 15956,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582732046053,
+  "timestamp": 1582732154903,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%P6dihMIJo821l5z+PMJ9dda3fL3Q1C0NjHTeKqRDUZA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\n> Is it even possible to limit a connection to a pub to only authorized identities?\r\n\r\nI'm sure it's possible, but I don't think I've seen it done. I'd imagine they're just charging for invites, not peering?",
+    "mentions": [
+      {
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
+      }
+    ],
+    "root": "%5SM1ZgbVrKe2isWGlScA55lNtm0K9LF5sXGXDdTeK3g=.sha256",
     "branch": [
-      "%P6dihMIJo821l5z+PMJ9dda3fL3Q1C0NjHTeKqRDUZA=.sha256"
+      "%5SM1ZgbVrKe2isWGlScA55lNtm0K9LF5sXGXDdTeK3g=.sha256"
     ]
   },
-  "signature": "cTO4VOM/j6R1pNFqSL+4P9mDUXqAeTS1HGPEm9caAfvN4LuFTpzSjVy0QraB78E84RKK8lYrQ//7H2H1zK+5Aw==.sig.ed25519"
+  "signature": "q128fPtVEckcUlCb1d2VylMkbQvTr09zsHomimKQRiXeV5OKayh++vefqPk9c2Tw3da6cbz66IBcVZ0rI9hFBw==.sig.ed25519"
 }
