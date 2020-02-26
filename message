@@ -1,18 +1,27 @@
 {
-  "previous": "%TpQxTGuYuOIFP0eH54pYrSFpbzUhQ9NAd6gBskEj8s4=.sha256",
-  "sequence": 15970,
+  "previous": "%L9LQf7PY3fI/3aAwNpgisGVlt8OZaMcCTGd/lPdmm1s=.sha256",
+  "sequence": 15971,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582741385798,
+  "timestamp": 1582743749263,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%D7f4mzFpY3qqLfDWIIRbg+i30Lfb0WBIMjzrsDChQEY=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%D7f4mzFpY3qqLfDWIIRbg+i30Lfb0WBIMjzrsDChQEY=.sha256"
-    ]
+    "type": "post",
+    "text": "This feels *so* silly, but I can't get SSB-Query running in any sort of reasonable time. I want to get `.value.content.type === \"post\"` messages in order of their asserted timestamp (`.value.timestamp'). From what I've read, SSB-Query has an index for this:\r\n\r\n```js\r\n{key: 'tya', value: [['value', 'content', 'type'], ['value', 'timestamp']] }\r\n```\r\n\r\nBut when I try to write a query, it takes like 10 seconds to get the first result. What am I doing wrong?\r\n\r\n```json\r\n[\r\n  {\r\n    \"$filter\": {\r\n      \"value\": {\r\n        \"content\": {\r\n          \"type\": \"post\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"$sort\": {\r\n      \"$reverse\": [\r\n        [\r\n          \"value\",\r\n          \"timestamp\"\r\n        ]\r\n      ]\r\n    }\r\n  }\r\n]\r\n```\r\n\r\nTimes like these make me *really* wish we were using SQLite or something with tons of documentation and examples.\r\n\r\n#ssb-learning #ssb-query #help #ssb-dev",
+    "mentions": [
+      {
+        "link": "#ssb-learning"
+      },
+      {
+        "link": "#ssb-query"
+      },
+      {
+        "link": "#help"
+      },
+      {
+        "link": "#ssb-dev"
+      }
+    ],
+    "contentWarning": "ssb-query help"
   },
-  "signature": "LfaJlEH4wejTx2oJDepar57mF6COQZKaovtmK4vMwCyJM8+c+dbUwKJMwpQ9QB8+6LmzyJZ94DuiTNMqUBtpDQ==.sig.ed25519"
+  "signature": "S87cgD19MjHrMfgVtp3/fsNmBA5i8dhRStOlUBvDaJ/8pJmx9KKvNCvXaO9eqZRLCYr8M6JKlCLBPb4FrIkIDA==.sig.ed25519"
 }
