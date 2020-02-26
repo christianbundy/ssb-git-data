@@ -1,22 +1,22 @@
 {
-  "previous": "%U5RjovWdnkls7Njl89g1DQ6clJy7/D4Ee2G4wU9YJ/A=.sha256",
-  "sequence": 15975,
+  "previous": "%mQxZpktysv/+L4yOWK+oh81TO0jhgMHAb5rItckuYqU=.sha256",
+  "sequence": 15976,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582746444830,
+  "timestamp": 1582747634056,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\n`npm run dist` in the repo should do the trick! It uses electron-builder under the hood just like Patchwork.",
+    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nWow, I never would've figured that out. Thanks for the help, this works at getting the latest message by assorted timestamp:\r\n\r\n```sh\r\nssb query read --limit 1 --reverse --query  \"[{ \\\"\\$filter\\\": { \\\"value\\\": { \\\"content\\\": { \\\"type\\\": \\\"post\\\" }, \\\"timestamp\\\": { \\\"\\$lte\\\": $(node -p 'Date.now()') }}}}]\r\n```\r\n\r\nTHIS IS WHAT FUN LOOKS LIKE\r\n\r\nAre there any query languages on the horizon that you've been interested in or excited about lately? Building good queries is a big part of SSB development and I'm curious if there are better tools for arbitrary JSON.",
     "mentions": [
       {
-        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
-        "name": "KemoNine"
+        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
+        "name": "cel"
       }
     ],
-    "root": "%K5zUmmXtOPMbklZue1EU28poDhR/z/a95zcNRURV3dM=.sha256",
+    "root": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
     "branch": [
-      "%K5zUmmXtOPMbklZue1EU28poDhR/z/a95zcNRURV3dM=.sha256"
+      "%uJTFotDgBfVytLgchzEldVFLWVstDgXvi3vt9+M8CvI=.sha256"
     ]
   },
-  "signature": "Ue3pZdKkqNpL3QjVoPvBP1wCqFbUVmVufCXizXlQ9XFyhzNmmKS4UfWDJCPRiHpprgvppn6iQuqyiP7iUKDSCQ==.sig.ed25519"
+  "signature": "Q67o1yYJGmx9dDYAWcXcIubb4JQJaRr8Stfm20ZoZVCMWNzci4e0jMHwjOFzUj57RS+xM23a9QKpEne7NuZjCg==.sig.ed25519"
 }
