@@ -1,18 +1,22 @@
 {
-  "previous": "%7t3O58+Asqo7cQq+zbp5wb2aAkX6nSHCgwbYMi8g97c=.sha256",
-  "sequence": 15941,
+  "previous": "%4K6mUwCoFzBQelLZrjiaQU3edFuPW7Xvo8R9CK9HR0I=.sha256",
+  "sequence": 15942,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582673136980,
+  "timestamp": 1582676408266,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9SndD74054erxupNNtMLVzc6tBNkELn0PjoQw7fUmNA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThey can, but they're completely isolated from each other (in the Secret-Stack sense) until we call `server.use()` and let them touch the shared `api` object.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%2T9UuzNE8nP+c/fghtsoZxnGAo927qpqsS2BF2cCXDQ=.sha256",
     "branch": [
-      "%9SndD74054erxupNNtMLVzc6tBNkELn0PjoQw7fUmNA=.sha256"
+      "%2T9UuzNE8nP+c/fghtsoZxnGAo927qpqsS2BF2cCXDQ=.sha256"
     ]
   },
-  "signature": "qSL9OsMNtTCTct1DPc0GqKXGB9fgZe6ZWiu4GRokcF4sgyVRISdXx68Y6x4bH0QeBjP5aPT34X95GadmThhgDw==.sig.ed25519"
+  "signature": "nYXWovX4wyTZ9XfTlPFGpvcOKHm+W4TAnkmat928l5FrdfYy3hYLrmwNUF7YtBz/7R3rASFMFaLuT6b0eohtDA==.sig.ed25519"
 }
