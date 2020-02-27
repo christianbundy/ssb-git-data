@@ -1,22 +1,18 @@
 {
-  "previous": "%MCGzNox/VsWdgdiWYGUhSXC/aZ9igNSpdrlbHO9jnXo=.sha256",
-  "sequence": 15993,
+  "previous": "%68jwrtdcZHZLsvi4rGiXLeEgq0f0zHCThpekP23iNAc=.sha256",
+  "sequence": 15994,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582776369608,
+  "timestamp": 1582776462028,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nHTML should display fine, but Oasis has strong security settings that prevent any JavaScript from running on the domain. More info [here](https://github.com/fraction/oasis/blob/master/docs/blob-security.md).\r\n\r\nIf you want to run front-end JavaScript, you can open the page, right-click the background, Save As, and then Ctrl+O to open the file via `file:///` instead of `http://localhost`.",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "KawaiiPunk"
-      }
-    ],
-    "root": "%tUZBeoFp5fjxUGP6y+ropTHZxOKDW3EjHmTKlAW4RKM=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%8wddQe8EBXicNUi21phkMPs27lxToDVu7KGWOPH88ec=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%3IbOWa+C0HxZDsTUkk1pcmpMuagTU3/3Isp5vpY7PrQ=.sha256"
+      "%8wddQe8EBXicNUi21phkMPs27lxToDVu7KGWOPH88ec=.sha256"
     ]
   },
-  "signature": "bAiZgOaNeIVLR7zO4LNkMZUihdgGuofRIDGqAqEeReYSSzjyfcxdmsog0uEeoXJMTQ2l6vNYgKzieGeZNcqYCw==.sig.ed25519"
+  "signature": "Iar3un9WXPDJ/ndLYaT9yu9c3WceneeQZyA3BWzpLnte4WmG333nwn/LpH8tYVq1C3HRcYxeZ2AnwGS6KN/tBA==.sig.ed25519"
 }
