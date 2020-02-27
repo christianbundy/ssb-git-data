@@ -1,25 +1,22 @@
 {
-  "previous": "%i1Wazseii51gQo7tvRq2xB+0HGbtUHhMDhj/wTbyyUA=.sha256",
-  "sequence": 15995,
+  "previous": "%Tjqni4WpRzSeDoKjotgln7s9vmyiyjjWr35tNwY0ZvU=.sha256",
+  "sequence": 15996,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582776508164,
+  "timestamp": 1582813977433,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@thinktrav](@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519)\r\n\r\njamming with you, I love it. #lofi",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThanks for all this feedback! I can see the problem with my batch file -- the Node.js binary is in `node.exe` instead of `/bin/node` on macOS and Linux.\r\n\r\n> It took it 10 minutes to extract the files. Still, there are 13.596 files in that zip, thats quite a lot. 😺\r\n\r\nOh no, ten minutes is really bad. Are there other archive formats that Windows has better support for? I chose `.zip` because it seems *fine* for all of the platforms, but maybe there's a better alternative? I could go back to my one-zip-per-platform distribution to make it a bit smaller, but since most of the `node_modules` are shared between them it feels silly.\r\n\r\n> There was no error, nothing, the thing just closed while I was using Patchfox at the same time. Very strange.\r\n\r\nThat *is* very strange, I wouldn't expect that at all. I recently compiled [new binaries](https://send.firefox.com/download/d48632da162c54df/#au0CZafnP_Nu1ExWu_VPpw) that avoid the batch file by instead using a small Go program to run Node -- do you think that would help?",
     "mentions": [
       {
-        "link": "@rrHauUFCv83JGuts1BeNmxif/7JZ74zDMwgyx9Xz+sg=.ed25519",
-        "name": "thinktrav"
-      },
-      {
-        "link": "#lofi"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%b7YKrFKLZ4oRqyM2upw9uCTZJFPXrPdEggpNWGa8gSQ=.sha256",
+    "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
     "branch": [
-      "%SEFs6Hgv4k4iRYWQmWgxOH8TgeygKAul6gYscQxctD4=.sha256"
+      "%xTf2ex1PlE7xP5TRHtbhmGEq93JQeQBjLoVyLdnqY2c=.sha256"
     ]
   },
-  "signature": "A6qfmthXKhAJ4Dgr60ty8cgrvwRhPJ++6VgpFkucHq2VGdP54tVbFblVFUxZjrna3+ZY3ufjjgU6VSDmDvQWAg==.sig.ed25519"
+  "signature": "O6vkHOy9+/oNkbYpHRjfWTUMfzl5U3F11AHa4WnozJ/P5nG694MQIyFAwzbYZLY0T455fiKYP3fV32T+oqWxDw==.sig.ed25519"
 }
