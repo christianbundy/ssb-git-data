@@ -1,22 +1,22 @@
 {
-  "previous": "%ntBGxxH1gDlCMOE1mPHGxWfTF+Y4EqzLaeHoJIMZkMU=.sha256",
-  "sequence": 16003,
+  "previous": "%Q437FpmpuN5Hg8Fp9dPeh84HjSHYPVCiR8iD5+sBdhc=.sha256",
+  "sequence": 16004,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582819052206,
+  "timestamp": 1582824503293,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> It took it 10 minutes to extract the files. Still, there are 13.596 files in that zip, thats quite a lot. 😺\r\n\r\nI've been thinking about this in circles but I think I need more info: do you know what the bottleneck is? If it's literally just the Windows unzip utility then I can add the Golang unzip utility, if it's the file count then I can try a bundler (but all of them break from our native modules), or maybe it's the zip compression? I can disable the compression if that's the bottleneck, but it's hard to say. I've never had to debug a `.zip` before!",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n> For example, you’re saying you have a go-based `.exe` to use? That’s way better because depending on how it was compiled, running it will not launch a cmd window.\r\n\r\nYeah, you can either get the zip [here](https://send.firefox.com/download/d48632da162c54df/#au0CZafnP_Nu1ExWu_VPpw) or [just the `.exe`](https://send.firefox.com/download/9facca13f89488d4/#qIptn_Ma9DlAab02sl9SPw), but if you download the latter (much smaller, no zip!) then you'd need to put it in the top-level of the directory next to the old `.bat`.",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
       }
     ],
     "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
     "branch": [
-      "%yoHknTNJ67fLw+5AGrDMf527nMAsjOA0f+OGzKNEr6I=.sha256"
+      "%Alhu3QhCgEEH9qCiVJNSodSUwCbElCTTkT9wJD7MvRk=.sha256"
     ]
   },
-  "signature": "4ebRCB1yAXXVc69cGOe5XdXBFSKc9iDsbj+vJPQ/LOOOYCjZ53ps8i4T/yGTOlEBqpGujKMoLLPI7Wa7pV7oAw==.sig.ed25519"
+  "signature": "hdaGQhPRr2Ri3apxn4YgCUnHoXmUsHFb+QLbrs/gRIlPg6UsgO0Q8OH4tSW2XfMb8vuLkgLb+6hOHrl19sp1Cw==.sig.ed25519"
 }
