@@ -1,19 +1,22 @@
 {
-  "previous": "%BolQRzJyaiiMpbsUDALAopUG3s8dz6D1r9XjDo1nVpg=.sha256",
-  "sequence": 15991,
+  "previous": "%d0G26A0x2yiRiQkUGC6qI4KiuujzmkMgY0HtQSIX1ts=.sha256",
+  "sequence": 15992,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582770764858,
+  "timestamp": 1582770790883,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ldsNvoNuHXuZtkG0L3JdZZ1aDHZJSNNRsf9a07GXHMg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@josh](@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519)\r\n\r\nOh, I think if you just `require('@fraction/oasis')` it should start the server, yeah?",
+    "mentions": [
+      {
+        "link": "@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519",
+        "name": "josh"
+      }
+    ],
+    "root": "%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256",
     "branch": [
-      "%0fMQ75+tTq3vDnFRUahPu5nqnc5Nz0Ndw+haQkYi/fo=.sha256",
-      "%hmVg/btJmHIycNmWy51FFrSsLUGWBvVXAa0/RyDqUbU=.sha256"
+      "%b3NQpWrZi/ROxhuoTB2QWKTMfRG8vUWFsFh3pl6FC1w=.sha256"
     ]
   },
-  "signature": "thwSz0UGMqUgkSfj8RDH5AmwRx8dGe+G8oe7DZDmYhUgOnma9lDck1EyTRvok4jI4g+PBInqhesAeABD2XVrCw==.sig.ed25519"
+  "signature": "muzOd/3gRp3vl1v60XwA5D18WEmSdkYD7nS21+HXm3FX+wmyJX+Oe0dkrZ+g0h94mzLPlDJXiOKdofTr+lvzCA==.sig.ed25519"
 }
