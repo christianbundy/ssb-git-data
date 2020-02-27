@@ -1,22 +1,22 @@
 {
-  "previous": "%4xf82DX/j2w7yhx//OU/DkHUrtJHF7CqdstcGCCmAig=.sha256",
-  "sequence": 15985,
+  "previous": "%tpI1XcQkXwps1Ri+2yFhFsa5w+aT2dm3kRqoAzMWUqU=.sha256",
+  "sequence": 15986,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582760541207,
+  "timestamp": 1582769997915,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nFixed! [Maybe](https://github.com/fraction/oasis/pull/251/commits/dd81f0877ae041805923bb42cfc4f9522175cf94).\r\n\r\nIf you have energy/interest, could you try [this one](https://send.firefox.com/download/0ad04290c4095425/#BbmivyLxhxpylrwKIUhVwg) instead? I can confirm that it's a text file with the contents:\r\n\r\n```batch\r\nvendor\\node-v12.16.1-win-x64\\bin\\node src %*\r\n```",
+    "text": "[@Rabble](@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519)\r\n\r\nHmm, maybe a shell script is a bad idea. I couldn't get the C launcher to work on macOS and Windows, so I rewrote it in Go. Maybe this will work?\r\n\r\nhttps://send.firefox.com/download/d48632da162c54df/#au0CZafnP_Nu1ExWu_VPpw\r\n\r\nAnd yeah, since it's unsigned you need to right-click and Open With -> Terminal. Hopefully this one doesn't give you multiple errors though? That's weird, I've only ever seen one.",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
+        "name": "Rabble"
       }
     ],
     "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
     "branch": [
-      "%DsRuTQRt5A2SQa2jCS69r3N7vg7jELVtt9TIFo1Snto=.sha256"
+      "%cVUuB+1s35CX28ij6wro6GeSDxOrGmQdxEGTuhMeNIc=.sha256"
     ]
   },
-  "signature": "ZhzE5QP9eYHXDr4XXWYifekSUsQpj+fRM02N2ePLFlLFs7GZyHFgNscCda3lIhAW0ZWM5tutUEOIFveRou+bDw==.sig.ed25519"
+  "signature": "gBUzCrzAUPBgbM6f680itJb6fTv5BlduHLeMLV7SPABMbekNP22aZbv9NRcRVMjSIGGu897Hry++ThEr58dYBg==.sig.ed25519"
 }
