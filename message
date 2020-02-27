@@ -1,22 +1,22 @@
 {
-  "previous": "%Z7SlZMye3xajQT3G9WkIGelyzX9yvyZHeogY/rWKwxU=.sha256",
-  "sequence": 16002,
+  "previous": "%ntBGxxH1gDlCMOE1mPHGxWfTF+Y4EqzLaeHoJIMZkMU=.sha256",
+  "sequence": 16003,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582815864961,
+  "timestamp": 1582819052206,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@hoodownr](@YND2Cb9uk3ZdFyzXpaXDH5HZ9udu+qjg4MhNcynK2RE=.ed25519)\r\n\r\nThis is great, thanks for the recommendation!",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> It took it 10 minutes to extract the files. Still, there are 13.596 files in that zip, thats quite a lot. 😺\r\n\r\nI've been thinking about this in circles but I think I need more info: do you know what the bottleneck is? If it's literally just the Windows unzip utility then I can add the Golang unzip utility, if it's the file count then I can try a bundler (but all of them break from our native modules), or maybe it's the zip compression? I can disable the compression if that's the bottleneck, but it's hard to say. I've never had to debug a `.zip` before!",
     "mentions": [
       {
-        "link": "@YND2Cb9uk3ZdFyzXpaXDH5HZ9udu+qjg4MhNcynK2RE=.ed25519",
-        "name": "hoodownr"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%5Xg2hJTUWG4W+wx/c3u5mVafbhYtCY6lJkTqDpUVcc4=.sha256",
+    "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
     "branch": [
-      "%5Xg2hJTUWG4W+wx/c3u5mVafbhYtCY6lJkTqDpUVcc4=.sha256"
+      "%yoHknTNJ67fLw+5AGrDMf527nMAsjOA0f+OGzKNEr6I=.sha256"
     ]
   },
-  "signature": "+iFXM4GuW8/z3qsXpbwEdjW945MSC1y2JSeUYAUNegS5EN9fAq/IHEwuDfUMndUBCVnSWI8gHtQEMfcM9XvNBg==.sig.ed25519"
+  "signature": "4ebRCB1yAXXVc69cGOe5XdXBFSKc9iDsbj+vJPQ/LOOOYCjZ53ps8i4T/yGTOlEBqpGujKMoLLPI7Wa7pV7oAw==.sig.ed25519"
 }
