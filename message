@@ -1,22 +1,18 @@
 {
-  "previous": "%tpI1XcQkXwps1Ri+2yFhFsa5w+aT2dm3kRqoAzMWUqU=.sha256",
-  "sequence": 15986,
+  "previous": "%nZmfGCL0ZKpe3eKsU+bGpKuWnjHlTsn4GruRw2YmCPk=.sha256",
+  "sequence": 15987,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582769997915,
+  "timestamp": 1582770104374,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Rabble](@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519)\r\n\r\nHmm, maybe a shell script is a bad idea. I couldn't get the C launcher to work on macOS and Windows, so I rewrote it in Go. Maybe this will work?\r\n\r\nhttps://send.firefox.com/download/d48632da162c54df/#au0CZafnP_Nu1ExWu_VPpw\r\n\r\nAnd yeah, since it's unsigned you need to right-click and Open With -> Terminal. Hopefully this one doesn't give you multiple errors though? That's weird, I've only ever seen one.",
-    "mentions": [
-      {
-        "link": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
-        "name": "Rabble"
-      }
-    ],
-    "root": "%KLjMVu0E/FBE36mq7+uKp9fSBuBCdNlyWx5Al1osxKU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%VEVTiYrZ5Uz87l7dVw28DVmPAIjunf9hNc8fpA5FlOY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%cVUuB+1s35CX28ij6wro6GeSDxOrGmQdxEGTuhMeNIc=.sha256"
+      "%VEVTiYrZ5Uz87l7dVw28DVmPAIjunf9hNc8fpA5FlOY=.sha256"
     ]
   },
-  "signature": "gBUzCrzAUPBgbM6f680itJb6fTv5BlduHLeMLV7SPABMbekNP22aZbv9NRcRVMjSIGGu897Hry++ThEr58dYBg==.sig.ed25519"
+  "signature": "nTByEVnwZddX51kXjTUKn6P65OilWLhtP51LzSpfgpMWhzWHDJnwnaXFB1DoH9GTOGeJVJvv7BUtvQFeLNilBg==.sig.ed25519"
 }
