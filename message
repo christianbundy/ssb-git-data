@@ -1,18 +1,22 @@
 {
-  "previous": "%MnYV6zsJDBtJHYwGTe6KG57s6fLs7jOuJWiW80Qv4L0=.sha256",
-  "sequence": 16043,
+  "previous": "%6TlorKIDQxAJFRlHN5Ft7BKIo9/H0HRsWvGgR8e86OU=.sha256",
+  "sequence": 16044,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582908600046,
+  "timestamp": 1582908830509,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%dU0LdEM74dQ9QNHP/RInvpMZiVynH3vfW+xPkDhZHRs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nI try *very* hard to avoid negative margins, with the exception of centering anchor links with:\r\n\r\n```css\r\n#foo {\r\n    padding-top: 50vh;\r\n    margin-top: -50vh;\r\n}\r\n```\r\n\r\nSo when you go to `index.html#foo` the top of the element ends up being perfectly centered on your screen. It's super hacky, but it's also the only way I know how to change the scroll position of anchor links.",
+    "mentions": [
+      {
+        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
+        "name": "Stephen"
+      }
+    ],
+    "root": "%LrHbRg1AUdktc6fS3OghaktIvYsiefjeRq9QfCWdwqI=.sha256",
     "branch": [
-      "%nwhiX9Hw/Qqrt6B39r6jRlua8B/cK8UfM0JyN2yKMq8=.sha256"
+      "%Qp5kXhy6n/aH1nrI/osEgcBeCBuLR6Ao4JgyHeAYRWQ=.sha256"
     ]
   },
-  "signature": "bu+EYe2eYbGCl6BaM6tr0tqclADSjO+Bx1Ais/pxqoZ5daigV0fMORWkwhR2NhbqMr/YuVP86/4uzNew2EhCCQ==.sig.ed25519"
+  "signature": "XI4iqOAlaf51Brb2z4SamnuXXgsQJrIAdA9LmFHBlhan4i1HUsWXVWakzo8Hg86ca4kVPqkoSLYUIkoOEHhVCA==.sig.ed25519"
 }
