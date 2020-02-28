@@ -1,22 +1,17 @@
 {
-  "previous": "%6TlorKIDQxAJFRlHN5Ft7BKIo9/H0HRsWvGgR8e86OU=.sha256",
-  "sequence": 16044,
+  "previous": "%nj2kI2gGHhtLmg96GTJzimvaZMihxOOjDUJdXCI4arw=.sha256",
+  "sequence": 16045,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1582908830509,
+  "timestamp": 1582908871003,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Stephen](@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519)\r\n\r\nI try *very* hard to avoid negative margins, with the exception of centering anchor links with:\r\n\r\n```css\r\n#foo {\r\n    padding-top: 50vh;\r\n    margin-top: -50vh;\r\n}\r\n```\r\n\r\nSo when you go to `index.html#foo` the top of the element ends up being perfectly centered on your screen. It's super hacky, but it's also the only way I know how to change the scroll position of anchor links.",
-    "mentions": [
-      {
-        "link": "@YRtB3WcY1zqGAeUx4OWv+p3+hvS7IvrDdUnmlkrz6ZM=.ed25519",
-        "name": "Stephen"
-      }
-    ],
+    "text": "Worth noting: `pointer-events: none;` is also mandatory, and I really only do this with empty divs. It's hacky, but that's why it's in the dark arts section.",
+    "mentions": [],
     "root": "%LrHbRg1AUdktc6fS3OghaktIvYsiefjeRq9QfCWdwqI=.sha256",
     "branch": [
-      "%Qp5kXhy6n/aH1nrI/osEgcBeCBuLR6Ao4JgyHeAYRWQ=.sha256"
+      "%nj2kI2gGHhtLmg96GTJzimvaZMihxOOjDUJdXCI4arw=.sha256"
     ]
   },
-  "signature": "XI4iqOAlaf51Brb2z4SamnuXXgsQJrIAdA9LmFHBlhan4i1HUsWXVWakzo8Hg86ca4kVPqkoSLYUIkoOEHhVCA==.sig.ed25519"
+  "signature": "Wj7AMMxA7IMsYQ3DCB6Q3dZelDkJbjj6GY+pZuJUnvGoPlugVlahWiGUw1MrAW6QDLZBMalvFpzvhw+mpVQrBQ==.sig.ed25519"
 }
