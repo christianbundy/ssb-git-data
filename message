@@ -1,18 +1,22 @@
 {
-  "previous": "%cLgTtVoDS+17GS8xLzqnqW8AN6+MnchbfguDngRgPdU=.sha256",
-  "sequence": 16077,
+  "previous": "%yh5nX8NOunBCw6kx5Kiic1eeznyANQRYET3EgE/yXOw=.sha256",
+  "sequence": 16078,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583017439880,
+  "timestamp": 1583019793724,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%JqC86+9C2NjCHbMzjlxnzfGfk0n9hs13LrVavmKatww=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@umhi](@7x+lsDrIbLkiub2LVN3YHMYZOGY1ZvaJBcxax9qD854=.ed25519)\r\n\r\nThis is really great. I'm really enjoying listening to the mix, thanks for sharing. The webpage kept freezing my browser, but I found a workaround:\r\n\r\n```sh\r\nyoutube-dl https://www.mixcloud.com/umhi/120723-ibm1/\r\n```",
+    "mentions": [
+      {
+        "link": "@7x+lsDrIbLkiub2LVN3YHMYZOGY1ZvaJBcxax9qD854=.ed25519",
+        "name": "umhi"
+      }
+    ],
+    "root": "%JqC86+9C2NjCHbMzjlxnzfGfk0n9hs13LrVavmKatww=.sha256",
     "branch": [
       "%JqC86+9C2NjCHbMzjlxnzfGfk0n9hs13LrVavmKatww=.sha256"
     ]
   },
-  "signature": "mT4OBON0u5ipuL/6KR5I+8J4LDem07qJbby+9zbhuA0Dnf/T7WBuioTZ7JUPgVdB0p37oDXd3dIStJy/IcdNAA==.sig.ed25519"
+  "signature": "3w7HaddsjIUqV+1lIBsTLTjbbO9Rp0q7gu/xEW0PtEd11u7iST7F88DGLHswWbmGKIgbRllsLXJbzBjnx7xzDQ==.sig.ed25519"
 }
