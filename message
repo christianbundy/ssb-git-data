@@ -1,15 +1,18 @@
 {
-  "previous": "%Ogk7BH6PBXmHFen1IerwsZaTFdPs2eeDY2pU4GjeDEU=.sha256",
-  "sequence": 16093,
+  "previous": "%YAx8XHL57Cp5/6yXEtJiW4vU05QgWwQ1LfWpd6F/tq4=.sha256",
+  "sequence": 16094,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583093580243,
+  "timestamp": 1583093597887,
   "hash": "sha256",
   "content": {
-    "type": "about",
-    "about": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-    "name": "Christian Bundy",
-    "description": "👋",
-    "image": "&afTnZ5syTwWJqSlN8W5x1aFHdQdjWoYLeRbeLg7L92s=.sha256"
+    "type": "vote",
+    "vote": {
+      "link": "%cd6BpZx+AWHtJmp+XRQvjlKRB4PDiUa++uXeUO67zqo=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%cd6BpZx+AWHtJmp+XRQvjlKRB4PDiUa++uXeUO67zqo=.sha256"
+    ]
   },
-  "signature": "uCRiTEADFsPxw3cGb4UIFpAvTcb7V7tE1jKSjqWTmXpjM9zVl/AnMt8aBnkGlJM4KmNTy87dnmGKmRDhPoRZDQ==.sig.ed25519"
+  "signature": "cXpkFczXqeblS59DoqtlSl+18Z3kWOkiyxMBhKgVf39sQF0hNxUkYwID1aeoE+80myY2PdZm7tPQxGUMfacyBQ==.sig.ed25519"
 }
