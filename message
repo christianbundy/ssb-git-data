@@ -1,23 +1,18 @@
 {
-  "previous": "%r6FlL4Fh994KqTiOb6f4IdjhD7yKCmayMo7FNuNxgZQ=.sha256",
-  "sequence": 16087,
+  "previous": "%nMnuctulpO8aXTMw0Un2lq9Ix9Tin2IQTVSnHHN9Ahw=.sha256",
+  "sequence": 16088,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583082543546,
+  "timestamp": 1583082732270,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nThanks! Since we don't have channels it felt right to not write the `channel` property, but I appreciate the tip. A spec would be really cool. I swear I'm not obsessed with ZeroMQ but I'm feeling very inspired by their [list of specs](https://rfc.zeromq.org/).",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mixmix"
-      }
-    ],
-    "root": "%lCMayWKKzB/hsk2yHduE1Ki8ATrLbmN6ak4m86mjhIk=.sha256",
-    "fork": "%QXdVyQu8Cu3lD+DGQhiTUUr21DvtyFNkZV8oHunzd2w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Ez8FyYZb4RGiNELKKpHNsAcLHTJ5VNU0vcbp1rLcmx4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%lCMayWKKzB/hsk2yHduE1Ki8ATrLbmN6ak4m86mjhIk=.sha256"
+      "%Ez8FyYZb4RGiNELKKpHNsAcLHTJ5VNU0vcbp1rLcmx4=.sha256"
     ]
   },
-  "signature": "OsvonIlWh7oztY/+f25+jyvP6w4rAtcZV83OoFze1Vq9XuJm9skLDW50wJckdk5NW9BX1Yn9PA5CmUjjZ3x5Dw==.sig.ed25519"
+  "signature": "cqmnvTfMyJkRINCv6AgDFTJCkoVV4sRGvvtpjH8TvRtG+BqR7u8gZJVIrilA2ADzd6gXdBDzGqipoD1x+wtLBw==.sig.ed25519"
 }
