@@ -1,22 +1,18 @@
 {
-  "previous": "%GfM+rReNoJf65RCH/UvuLNkpIf3nVDuHfEb6ByRWylU=.sha256",
-  "sequence": 16095,
+  "previous": "%qdM14PMvznDf4FxzkzX0mnHbAhsTS4TSD0NDUoqVr8w=.sha256",
+  "sequence": 16096,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583093763887,
+  "timestamp": 1583093796615,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nBEST BRANCH NAME EVER. And I'm so excited to see the popular view there!\r\n\r\nI've been thinking, would it be useful to export the methods so that you can do stuff like?\r\n\r\n```js\r\nconst messages = await oasis.models.popular({\r\n  period: 'week'\r\n});\r\n```",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%cd6BpZx+AWHtJmp+XRQvjlKRB4PDiUa++uXeUO67zqo=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%rXuLqGRoo3XAlW9z2ksp76vJlyGesz2WeuKZpiiMb54=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%cd6BpZx+AWHtJmp+XRQvjlKRB4PDiUa++uXeUO67zqo=.sha256"
+      "%rXuLqGRoo3XAlW9z2ksp76vJlyGesz2WeuKZpiiMb54=.sha256"
     ]
   },
-  "signature": "Qh+R2Q0d6tg0iKwPD/dk6t+fG50poQKF5seuuE2yLBn7JNbuQ6vXC7OIOohtGtZYMszyO2sDJCC2gZ7FFs7MBA==.sig.ed25519"
+  "signature": "kVlAjXi3WPOs91rMSTMaLcRZ8VXtMrsN3+A0bcy6GvOZnNTcpmlPOyRDplisF1Beoq+ujM0bZ37k+keB/U4SDg==.sig.ed25519"
 }
