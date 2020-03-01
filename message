@@ -1,18 +1,22 @@
 {
-  "previous": "%9GV4WZobJyKk2o9b7c+DsXwJNE6zn8TGpkk/3fyOvcc=.sha256",
-  "sequence": 16119,
+  "previous": "%G7KftbTBAe1GOkzZnJ1nDpkAaFpRVY9+VDVJkeQAiAc=.sha256",
+  "sequence": 16120,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583106473843,
+  "timestamp": 1583106911831,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%LAqlbzeyVGX4ZSHL/9/+fqLSjUOBtRNKeQay+fq94ps=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nFound it! Apparently there's an SSBC GitLab too?\r\n\r\nhttps://gitlab.com/ssbc/scuttlebutt.nz/-/blob/master/content/docs/introduction/detailed-start.md",
+    "mentions": [
+      {
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
+      }
+    ],
+    "root": "%DabGHQ5e2tPjPqPEDJtJ7f58LsIci5CB7nJxV9Ckplo=.sha256",
     "branch": [
-      "%LAqlbzeyVGX4ZSHL/9/+fqLSjUOBtRNKeQay+fq94ps=.sha256"
+      "%DabGHQ5e2tPjPqPEDJtJ7f58LsIci5CB7nJxV9Ckplo=.sha256"
     ]
   },
-  "signature": "3opuz+Ltiau6o80gDWW8Xl2JokzXOssGwOYAL01Vyp0BpwUewnGtY+iDWx118vO1EhWa/+ZDGcYl1yDUosxjBA==.sig.ed25519"
+  "signature": "/93rXlfaRE36MNrA1oEddsXgY221bZBTiaqs5OpgxzwnQ9h2MBLsk6xSsCFwHPn6WniHkiefwqgHhZuhQyetBA==.sig.ed25519"
 }
