@@ -1,18 +1,22 @@
 {
-  "previous": "%1YsgC5x4IuGx4ptUk2haFVbfiaoof0qLatvdTRCGP10=.sha256",
-  "sequence": 16165,
+  "previous": "%RRpuj2q2CdoqMm2uK2zWrbx46X+RN3GJbX9ZZGUx77M=.sha256",
+  "sequence": 16166,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583192231202,
+  "timestamp": 1583192489162,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%Te0gDvl4encJ+aIfWb5IQR33qqEt59E6hAsO0wQL10c=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nYeah, maybe just adding `object-fit: cover;` in those two spots would solve it? I'd merge that for sure. 👍",
+    "mentions": [
+      {
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
+      }
+    ],
+    "root": "%m1/VR8PhIRWIOLlX/LStyxtNX/gE2gz9Ed1ltWXL7o0=.sha256",
     "branch": [
-      "%Te0gDvl4encJ+aIfWb5IQR33qqEt59E6hAsO0wQL10c=.sha256"
+      "%m1/VR8PhIRWIOLlX/LStyxtNX/gE2gz9Ed1ltWXL7o0=.sha256"
     ]
   },
-  "signature": "qUWxlccckltL89yIapQldr7MtY49DArY0md6VIrin7TRVlHREHVKyExLkYAKvDAD8IR/XHwyj68rolvPia5EBw==.sig.ed25519"
+  "signature": "RAzfq9ohWCrwihhHLQy1NJ2f/V5jHkl19DD6O0428F6ggBLaJCfQvsYi4UOQrvP9PnEJy+a92mX9PhYwID/pBg==.sig.ed25519"
 }
