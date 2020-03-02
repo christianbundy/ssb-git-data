@@ -1,13 +1,26 @@
 {
-  "previous": "%dY4RVz6IpdZo+TO0mKolYWMTqcFx8S6wRMXS+oSs74g=.sha256",
-  "sequence": 16126,
+  "previous": "%0fvLQm2S81qd/2PakTgak3EwVywcsvUu2xTiTCBuFZo=.sha256",
+  "sequence": 16127,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583159282116,
+  "timestamp": 1583159618683,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@EKD0r8MjseRPTmNk2ehZLUNdhljALJeIiJOOTOjnkjc=.ed25519",
-    "following": true
+    "type": "post",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n1. fucking lol, this is beautifully written\r\n2. I think this seems like a reasonable way to do it -- pagination is also a [todo](https://github.com/fraction/oasis/issues/205) for me.\r\n\r\nThe big optimization that would make this faster would be to [cache the streams](%K1eAgvzludnouwwDfjSQbC3aYQ8wdCVZ8DpUkImrW48=.sha256), but it's basically a trade-off between memory + complexity vs performance. I'm not sure that it's worth it for our use-cases.",
+    "mentions": [
+      {
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "%K1eAgvzludnouwwDfjSQbC3aYQ8wdCVZ8DpUkImrW48=.sha256",
+        "name": "cache the streams"
+      }
+    ],
+    "root": "%RXd+h7+nHkhzyrGcb853l2uDIX/y0JO9d+7+X1NNMGs=.sha256",
+    "branch": [
+      "%RXd+h7+nHkhzyrGcb853l2uDIX/y0JO9d+7+X1NNMGs=.sha256"
+    ]
   },
-  "signature": "ktazJxghC8qduS0d/vrchL2Hi+uJggEAlmUIpy7puPjZ8YgWmlYub42cofbbwJKbF102NU9O94aBHCrP894VCA==.sig.ed25519"
+  "signature": "Ezes7jx4qJ886W3YjqBMCvBoHe5h1qYF1EkNhM47ajc3SICxsF/mZOyNKZngZ0dTCM52c9AC3ppWdHWPsPl1DA==.sig.ed25519"
 }
