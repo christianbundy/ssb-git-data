@@ -1,22 +1,18 @@
 {
-  "previous": "%IBROw+strQdFSC01gT0gW0JtOHTCj2KCivoqC5Xw1zg=.sha256",
-  "sequence": 16164,
+  "previous": "%1YsgC5x4IuGx4ptUk2haFVbfiaoof0qLatvdTRCGP10=.sha256",
+  "sequence": 16165,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583191012048,
+  "timestamp": 1583192231202,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nTry replacing `jq -rc .value \"$file\"` with:\r\n\r\n```sh\r\njq -rc '.value | {previous: .previous, author: .author, sequence: .sequence, timestamp: .timestamp, hash: .hash, content: .content, signature: .signature}' \"$file\"\r\n```\r\n\r\nThat *should* reconstruct an object with the keys in the right order, although it's a bit verbose.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%yyKANzMUyRYasSNuIg2eG9pZKoR0yZxzvss+8tSFplc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Te0gDvl4encJ+aIfWb5IQR33qqEt59E6hAsO0wQL10c=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%5HBUHc+Rqvh32QUxDc1iXh+vugb5KZOs5/IXHtv+RaA=.sha256"
+      "%Te0gDvl4encJ+aIfWb5IQR33qqEt59E6hAsO0wQL10c=.sha256"
     ]
   },
-  "signature": "n3zwJNqWUgOXa7I4MwtpCeDpvPRpyPI8tawF4kAS4Fmja+e4eUJ+XupFOJ1ubS39+UGDAPgyGPAlUCiExkp1BA==.sig.ed25519"
+  "signature": "qUWxlccckltL89yIapQldr7MtY49DArY0md6VIrin7TRVlHREHVKyExLkYAKvDAD8IR/XHwyj68rolvPia5EBw==.sig.ed25519"
 }
