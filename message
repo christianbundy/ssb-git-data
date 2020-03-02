@@ -1,27 +1,22 @@
 {
-  "previous": "%Xy2MzKep0Y2KMHsciysUj8kmV/WwgetXh1l4ZD7nB/g=.sha256",
-  "sequence": 16163,
+  "previous": "%IBROw+strQdFSC01gT0gW0JtOHTCj2KCivoqC5Xw1zg=.sha256",
+  "sequence": 16164,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583183660177,
+  "timestamp": 1583191012048,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@󠁪󠁯󠁥󠁹Joey Hess](@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519)\r\n\r\nThanks for that link, I've been reading /r/covid19 a bit but that report looks really informative. I've copied it to SSB [here](&sXdmqF1HiIh4wMLoSG3ENDmARJ9J4KGlgb3lMgk/Z1A=.sha256).",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nTry replacing `jq -rc .value \"$file\"` with:\r\n\r\n```sh\r\njq -rc '.value | {previous: .previous, author: .author, sequence: .sequence, timestamp: .timestamp, hash: .hash, content: .content, signature: .signature}' \"$file\"\r\n```\r\n\r\nThat *should* reconstruct an object with the keys in the right order, although it's a bit verbose.",
     "mentions": [
       {
-        "link": "@BCM6DHYJvWzwWi1lFl2tjDXjaqyZAEmJH5ZONSpXhtc=.ed25519",
-        "name": "󠁪󠁯󠁥󠁹Joey Hess"
-      },
-      {
-        "link": "&sXdmqF1HiIh4wMLoSG3ENDmARJ9J4KGlgb3lMgk/Z1A=.sha256",
-        "name": "here"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%DqXKZJdBpIP1FO9TSuU5I+i7SoHzPpLJ81ZbYzTHKg8=.sha256",
-    "fork": "%wOVS9dKIYYB3PePigcUnsiHKcHmFGyeIhhjgkUEHUCY=.sha256",
+    "root": "%yyKANzMUyRYasSNuIg2eG9pZKoR0yZxzvss+8tSFplc=.sha256",
     "branch": [
-      "%DqXKZJdBpIP1FO9TSuU5I+i7SoHzPpLJ81ZbYzTHKg8=.sha256"
+      "%5HBUHc+Rqvh32QUxDc1iXh+vugb5KZOs5/IXHtv+RaA=.sha256"
     ]
   },
-  "signature": "mm+BA268tsuYlhpAu3Dnd70akKMcxILzgkHlrhomU1N0mUyhBNWnN37rd6WiarvlIWAAJk4Om8XvLelZYLThAA==.sig.ed25519"
+  "signature": "n3zwJNqWUgOXa7I4MwtpCeDpvPRpyPI8tawF4kAS4Fmja+e4eUJ+XupFOJ1ubS39+UGDAPgyGPAlUCiExkp1BA==.sig.ed25519"
 }
