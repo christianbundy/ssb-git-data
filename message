@@ -1,22 +1,18 @@
 {
-  "previous": "%uZ44VYvNwFtZ+iqNyQ47tVHhaD8F867qVBr0+6NwGko=.sha256",
-  "sequence": 16172,
+  "previous": "%Bz+aGwd6L1LOAZvzABnfJFnqMHW36lbv5Z9PsA4HVd4=.sha256",
+  "sequence": 16173,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583247185532,
+  "timestamp": 1583259670154,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan (@ava)](@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519)\r\n\r\n> This would fail if a file contains messages for both orderings, right?\r\n\r\nI don't think so. It reorganizes the fields before passing the JSON through the pipe, so once your JSON is processed by `jq` it should always have the correct ordering.",
-    "mentions": [
-      {
-        "link": "@tKyHI72GfrSh1jnj9DWRQmFLcY/kQY5V6oipac52T2w=.ed25519",
-        "name": "Daan (@ava)"
-      }
-    ],
-    "root": "%yyKANzMUyRYasSNuIg2eG9pZKoR0yZxzvss+8tSFplc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%eL5vSE8cd9L0QUvV852LXpshwnd5rSQ2z4hP4oQ1mWE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%hqxNm5qO2bmPPakrB5FzgFO0AkZrD/7MVur/8hyz7vE=.sha256"
+      "%eL5vSE8cd9L0QUvV852LXpshwnd5rSQ2z4hP4oQ1mWE=.sha256"
     ]
   },
-  "signature": "NNFoj1K7wJb/55oxwgvFsJ/PfMNhTFRxl2WJmBx0lRfCDp1wRHcJWEG7R8hUbgPRzsm/zy2rzqKe9BhRzuCrBg==.sig.ed25519"
+  "signature": "KhQLb/iGe0l6pMlSJPuNMazXNym2tLtZbG4NA+Rs5qlRtjaI1sZZCzX/RM7KX2wSebQ9TgfpZoHQ5OvxrHg+Bg==.sig.ed25519"
 }
