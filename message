@@ -1,23 +1,9 @@
 {
-  "previous": "%g9otrvDgKHveZY6nKAKsqdNt66RddGb8IHF1z4UWWus=.sha256",
-  "sequence": 16216,
+  "previous": "%2ovideijwEbleozk960FrCznVD1Cr2UvjgD2ohmTm10=.sha256",
+  "sequence": 16217,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583362103271,
+  "timestamp": 1583362759312,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\nThis is really cool, thanks! I'm particularly excited about deleting blobs. I wrote ssb-blob-prune to solve this problem, but it's a one-off action that doesn't run over time.\r\n\r\nOne thing I've been thinking about lately is how it'd be nice to know where blobs came from, so that when we block an author we can also delete all of their blobs. Right now this requires reading through the entire feed to check who mentioned the blob, and that feels bad.\r\n\r\nThanks for taking care of this!",
-    "mentions": [
-      {
-        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
-        "name": "andrestaltz_phone"
-      }
-    ],
-    "root": "%Q4u5UtABXjnYZOjoFUr+lM5orOKrn1s79WC2V97wU7k=.sha256",
-    "branch": [
-      "%9YvnSPANpaRQX1buniGNKbEi8nz2OjVxf8alR0D+bTQ=.sha256",
-      "%XS38HbEuLmwuc91mmZp0Nxgy6Jyx4HbUOwX9Ns8sm60=.sha256"
-    ]
-  },
-  "signature": "9GNG2WdIiPEZcvLUtvcQtMaCt+Myv6qnsoeq31hqcH7yISeUlFOlw+EfUpexX5G4u/MquT8O59iU2wzeIesEDA==.sig.ed25519"
+  "content": "WLF4o/dV4xhZ+M12Xh1eeZfUeGLwKkHQAog0E6HWw5G1ovJMhQ1rVjIW7o/Hx3gx1bHtzCLjCgtvAS1C6nsotVMwlob/7NNQjl10bEI4xUL25R63PMcNItfMcamhHEAuyegDoYY/Z6WsUA9ymG4wUCqXIGZDJel4sEwu61dKPn/9oaP6NKE3DE7Oci4USIzdX34i02KHa4P14IDEcN88uVg/OSm0Cacva4HiR+1s9gzEvPYWyt4gaoxXgVyUhi7Wkycrtui2bDrD4VX4rqWS6RLc2vFU/FdVedIVavBoArxTI80abfW0jkKmndoaSoWyaXaIZsXhFsnio8kvlNyZY1g5vGbB+t8zDHoW8rzBTrh/YBT8OCvqtq5YOWg3Fs5SoqFXKN48HnSf1N3PEthhFKiXdr1S2ESRrOWq80wqeFcOb6bE26K0lSOsdvAbLjJVaAv2jPiMc3x+wtMhkTIE2K0arfedTWKP9EZ+28rt1IAEfYDl0ByGauonqZ+2I1tMdUTY/LhPZlzHYOrhUx8hfIFd6ytF7Gz+cNq4WbxtytHhhkqehvRdBMXB356vj8iaOUhmJAGReYRqLEdH+vyG7m6yv1K2WKoj2RjiF/neC9ad/qfErvE72qiPSeTirhdQWYcIfAjBvWwIGwP7Hr7H7xwMQAVklXI2V17yFhP99W6vtUlr7DpWna8AywnNZV8Nzd2VAjc1Lj2WJCfZf9xBh6UxQHKXn0rLawGIqmwq3RacisevsqyP27wKxhugZcZo0vMpv2kWxlQ7J2/mjS4MKNlY9DTJMVkxjTjZQJW2xuv6mbmuYKetaqgAmD8jbDM6fYMDtBhqvyekEYQcSKcPoghVgDuZoLuQn4s2wTKrhqOlaCKcKcdGfBUXVMpznMrHVS0hcP8tty5P2LKdOfQJFKkit/joujW4Yj33c5oBD8CBUxbPuv7gz4Kr/KFH/UbTXzFoGlbGMJCc1bgC8vaCnIREztyiQK1LphrsQf8WxGBHKAir1KtuSGnsDPUZ7LslypYShK1ifL1V0p3/7YLisEpqo7/OgTPmJNiWsv2Mp2XPrIFbWjpcw4Ms4TAFxxnhSbWCj5Y2DB00R+nwYxbgRxR1EJh4gKIFCKq7iBhO3Uv3yBpBXxiq7b8ei9P0+cTNvbgDdP2NAX1COM7GoyCTCawNrF5FrmCPGJSxlP4rtg0qzswa/KLkdQoG39RrU8XYjlZPvIIfxD7kD63uMTToWuutX4Ccy/pODL+dVw0xd1ln/J75pby77TXYEPYDE8E6NPekrM36c4SlBKeDGroDpsylM0xwfwxc4ZAYd81XcoE/YSs/STkDUT4pq6+QBTya9NnZoIlFahOG7B2aK6GNxOR3X/lfEMTrmvN6zqPIFxZGqNz7Cg0Dh7flDPGa0zvw6P6YVkRuM+ZEi16kWSpl09IAOwO8rmTUMGlyZmI0w9GdOlOmY5lfPxktCNHXiZEbxU5JwmZSjAd1GfWXFC9+mb3T+NSb1VTprTJzxsxunwKXg7J9cgogeciScWZ3qVHhuPF38EW1gSDzVGmcdzmoNgmr6PVvJIQLbsZSsNa/UP44FIST1aVd9FtZQim1Iy9vBpx6h3En1MyGKQSHqtjUY80JC/Ft58dqvv6jpFJEr+D5fpMJAP7I2L4zuWlT07jtgXp+wBBXvcBf18ZdbUJLzlzH7t+I4zcQnaVUG7R8DukXh/ONRkf84uFyEVYiE/+Hqgs0Llb2OZiD/AIWjQh0jnqMK5M6l+RxPFjqqI8hZ9sGVuk9Z0gebFU/SGKG+RWSBy4ULw==.box",
+  "signature": "46dwX21O6UGv9JbH5hyoCWVNeKjuuUrUMuY/gyXywpBgwbvuIAHAKbPRCvKGB3mN2hTpk/Izz+PA69NU4Ny+AQ==.sig.ed25519"
 }
