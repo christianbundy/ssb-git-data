@@ -1,18 +1,23 @@
 {
-  "previous": "%cNeYM9TiD4COVyisN3RIynEJLM+te4yv4o56gAtSNTo=.sha256",
-  "sequence": 16215,
+  "previous": "%g9otrvDgKHveZY6nKAKsqdNt66RddGb8IHF1z4UWWus=.sha256",
+  "sequence": 16216,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583355042544,
+  "timestamp": 1583362103271,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zOSVnrrMB5rY2nsynQGziJJSjcrUkyHMBjl1NhE8S0M=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\nThis is really cool, thanks! I'm particularly excited about deleting blobs. I wrote ssb-blob-prune to solve this problem, but it's a one-off action that doesn't run over time.\r\n\r\nOne thing I've been thinking about lately is how it'd be nice to know where blobs came from, so that when we block an author we can also delete all of their blobs. Right now this requires reading through the entire feed to check who mentioned the blob, and that feels bad.\r\n\r\nThanks for taking care of this!",
+    "mentions": [
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
+      }
+    ],
+    "root": "%Q4u5UtABXjnYZOjoFUr+lM5orOKrn1s79WC2V97wU7k=.sha256",
     "branch": [
-      "%zOSVnrrMB5rY2nsynQGziJJSjcrUkyHMBjl1NhE8S0M=.sha256"
+      "%9YvnSPANpaRQX1buniGNKbEi8nz2OjVxf8alR0D+bTQ=.sha256",
+      "%XS38HbEuLmwuc91mmZp0Nxgy6Jyx4HbUOwX9Ns8sm60=.sha256"
     ]
   },
-  "signature": "bjoNPhG5aY0O2/oIgyRviPYDy908+HTYc3WRJkwKGmQjeXnzrmZXMbslLVW8Esn0iqS+VaGb88WJ9nnMkHqbDw==.sig.ed25519"
+  "signature": "9GNG2WdIiPEZcvLUtvcQtMaCt+Myv6qnsoeq31hqcH7yISeUlFOlw+EfUpexX5G4u/MquT8O59iU2wzeIesEDA==.sig.ed25519"
 }
