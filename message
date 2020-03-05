@@ -1,22 +1,23 @@
 {
-  "previous": "%Psxe8g+uUSfg0GD6F2kQkeZPp03sMmYqrjwNcxUf2Ks=.sha256",
-  "sequence": 16229,
+  "previous": "%nKOKPWOufLgP4xmZP9Dhe8eDuRHUATj3hHTy9CR5LCU=.sha256",
+  "sequence": 16230,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583421294305,
+  "timestamp": 1583421383230,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nMuxRPC is great, and fills the needs of an RPC system, but it's just that there are lots of alternatives that work well in many languages *and* have huge communities around them. The problems I've bumped into are things like: there's now a [usage](https://github.com/ssbc/muxrpc-usage) spec that lets you define arguments to methods, but they have SSB-specific types like `feedId` and bespoke types like `jsonString` that are hard to write software for. [SSB-CLI](https://github.com/fraction/ssb-cli) is my best attempt at presenting MuxRPC methods in a user-friendly way, but it's still a pain. Others are implementation-specific, like how the JS implementation doesn't have a way to detect latency, or how sometimes it's unclear whether you're calling a method with plain JS or whether it's running over MuxRPC (which have different method signatures for `sync` methods).\r\n\r\n> Architecturally FlumeDB seems like the right approach since we’re dealing with log management not databases.\r\n\r\nTotally, I've mostly been dreaming about abusing SQLite's JSON and streaming support to make something similar to FlumeDB, but there are also technologies like Kafka and CouchDB that are aimed at this problem as well. FlumeDB is great because it's very small and all you need is Node/npm, but when we have problems like database corruption it's painful to only have a few people who understand the database.",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> ssb-backlinks already fulfills that purpose\r\n\r\nOh, good point! I suppose the only place it doesn't work is when you've received a blob that wasn't referenced in anyone's feed. 😱\r\n\r\nIf you have sympathy enabled (❤🤖❤) then your device will download blobs from peers when they announce \"I want blob X\" via the blob subprotocol, which is unfortunately useful for two things:\r\n\r\n- If your friend wants a blob and you don't have it, sympathy automatically asks for it from other peers, who may have it.\r\n- Since blobs from private messages aren't referenced on the public feed, if everyone turned off sympathy then you wouldn't receive blobs in private messages except if you're directly connected with another recipient of the blob.\r\n\r\nMaybe some future message format will specify the hashes of both the message content *and* the blobs, and we'll be able to just remove the blobs subprotocol entirely, but until then I think we're stuck with sympathy.",
     "mentions": [
       {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
       }
     ],
-    "root": "%D87a2BSVE0Jal9wW/4SEMMbr9z0YFXabRH7w2YgIhwA=.sha256",
+    "root": "%E5K05uF9cL1kPshsA32FCnLlhfQKUe1Thaq43wJNtsE=.sha256",
+    "fork": "%Q4u5UtABXjnYZOjoFUr+lM5orOKrn1s79WC2V97wU7k=.sha256",
     "branch": [
-      "%D87a2BSVE0Jal9wW/4SEMMbr9z0YFXabRH7w2YgIhwA=.sha256"
+      "%E5K05uF9cL1kPshsA32FCnLlhfQKUe1Thaq43wJNtsE=.sha256"
     ]
   },
-  "signature": "2vUv3wHu3AXTiOTgwUUyaV/WpKqalRlXfOytCm7tNZg47GDxIhIUCyFhCGSE52Wf3yn4dqjEzBtnO95W+y73Ag==.sig.ed25519"
+  "signature": "Q43eNns3ii07QHzyCp/q8csrKfWPXRubj3tinxpRFwtgvOuW5XjrRzqBm6U7EFtnV70GlL9vnKZC5YzdqLWTDg==.sig.ed25519"
 }
