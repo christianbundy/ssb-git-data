@@ -1,22 +1,22 @@
 {
-  "previous": "%5OspJC9VrerUWfyxguppUDwrRsAgfpg3NnsqfzgkEVQ=.sha256",
-  "sequence": 16228,
+  "previous": "%Psxe8g+uUSfg0GD6F2kQkeZPp03sMmYqrjwNcxUf2Ks=.sha256",
+  "sequence": 16229,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583382256054,
+  "timestamp": 1583421294305,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519)\r\n\r\nLooks great! Do you know whether there will be audio/video available afterward? I'd love to see you present SSB.",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nMuxRPC is great, and fills the needs of an RPC system, but it's just that there are lots of alternatives that work well in many languages *and* have huge communities around them. The problems I've bumped into are things like: there's now a [usage](https://github.com/ssbc/muxrpc-usage) spec that lets you define arguments to methods, but they have SSB-specific types like `feedId` and bespoke types like `jsonString` that are hard to write software for. [SSB-CLI](https://github.com/fraction/ssb-cli) is my best attempt at presenting MuxRPC methods in a user-friendly way, but it's still a pain. Others are implementation-specific, like how the JS implementation doesn't have a way to detect latency, or how sometimes it's unclear whether you're calling a method with plain JS or whether it's running over MuxRPC (which have different method signatures for `sync` methods).\r\n\r\n> Architecturally FlumeDB seems like the right approach since we’re dealing with log management not databases.\r\n\r\nTotally, I've mostly been dreaming about abusing SQLite's JSON and streaming support to make something similar to FlumeDB, but there are also technologies like Kafka and CouchDB that are aimed at this problem as well. FlumeDB is great because it's very small and all you need is Node/npm, but when we have problems like database corruption it's painful to only have a few people who understand the database.",
     "mentions": [
       {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
       }
     ],
-    "root": "%2ZCvorgSzqss5wTRdUHCLMRSR80NBQGVTnvE4//rWbM=.sha256",
+    "root": "%D87a2BSVE0Jal9wW/4SEMMbr9z0YFXabRH7w2YgIhwA=.sha256",
     "branch": [
-      "%mpwuss7rA8+dNNEs0KVk+D5KZ4eFjXeS40rmoMGkNkU=.sha256"
+      "%D87a2BSVE0Jal9wW/4SEMMbr9z0YFXabRH7w2YgIhwA=.sha256"
     ]
   },
-  "signature": "KzTwmtyYWAYqq0wCsxDx0+NSRMrAv7d2bqTPFTtzZ2CV6S5SHfidSSp1TQuaj5eSdzSRgTkhVSciNTgOFEXWBQ==.sig.ed25519"
+  "signature": "2vUv3wHu3AXTiOTgwUUyaV/WpKqalRlXfOytCm7tNZg47GDxIhIUCyFhCGSE52Wf3yn4dqjEzBtnO95W+y73Ag==.sig.ed25519"
 }
