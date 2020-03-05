@@ -1,22 +1,22 @@
 {
-  "previous": "%yPA36LwzXbRXwpWWBAy84UuFADgzCMO2znB29nOnl/Y=.sha256",
-  "sequence": 16222,
+  "previous": "%w/pGBdjXb0R/4+6Y6upV/3B/TKIoanLAu1wcLi65HPc=.sha256",
+  "sequence": 16223,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583370269188,
+  "timestamp": 1583375460520,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nReminds me [*Have You considered the alternative?*](https://homebrewserver.club/have-you-considered-the-alternative.html):\r\n\r\n> \"Remember, when advertising is involved you the user are the product. […] When people ask us why we charge for WhatsApp, we say ‘Have you considered the alternative?’\"",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nWhat's the feed ID you're trying to go to? When I try to run that through `decodeURIComponent()` it's telling me that it's an invalid URI sequence.\r\n\r\nFWIW there's a bug in SSB-Markdown that I just found that can mess with some SSB references, I've reported it in Oasis and SSB-Markdown and started a fix, but I ran out of steam and just posted my diff as a comment.\r\n\r\nhttps://github.com/fraction/oasis/issues/242\r\n\r\n(It's wild how fast I can run out of energy when working on a problem. On one hand it's annoying, but on the other hand there's no mistaking when my programming time is over for the day.)",
     "mentions": [
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
         "name": "Daan"
       }
     ],
-    "root": "%ZbLkITTSHeIcrhdCoOa9XgZxdAAbXGoDKLz/O3x2CJA=.sha256",
+    "root": "%DQe4UHYzhwOyVS0Xy041K0gEup1L2K4fiT/F6jZILRw=.sha256",
     "branch": [
-      "%Y5bYj5OSU3+O6n1pShWDL3/XJc4s554O0s9B7yL9ltI=.sha256"
+      "%E097ffPlKQj5YcnNYOH46HW5ky44V2hiIAb+BB64NQY=.sha256"
     ]
   },
-  "signature": "1sWjv0MNLtV8HsZEecwu4q1u/2uR5/rGKpNSk16VnPDUhDLxWOM+gAONVd/cuEdt48dM/g7WNCmwQUtr9CLwBQ==.sig.ed25519"
+  "signature": "kDgk430kzhL/OpnosRrdvlgNcqHDezoCiKz33BK7ZyJQNMkwWQ7/QRsvHfEHuEOywStxuustUbz3SbFpbzJYCg==.sig.ed25519"
 }
