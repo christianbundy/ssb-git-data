@@ -1,23 +1,18 @@
 {
-  "previous": "%nKOKPWOufLgP4xmZP9Dhe8eDuRHUATj3hHTy9CR5LCU=.sha256",
-  "sequence": 16230,
+  "previous": "%fcpxrKdiM4fLZe1U2ZawQmdxsYFu7FNv7IdcI+Frad8=.sha256",
+  "sequence": 16231,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583421383230,
+  "timestamp": 1583424735746,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> ssb-backlinks already fulfills that purpose\r\n\r\nOh, good point! I suppose the only place it doesn't work is when you've received a blob that wasn't referenced in anyone's feed. 😱\r\n\r\nIf you have sympathy enabled (❤🤖❤) then your device will download blobs from peers when they announce \"I want blob X\" via the blob subprotocol, which is unfortunately useful for two things:\r\n\r\n- If your friend wants a blob and you don't have it, sympathy automatically asks for it from other peers, who may have it.\r\n- Since blobs from private messages aren't referenced on the public feed, if everyone turned off sympathy then you wouldn't receive blobs in private messages except if you're directly connected with another recipient of the blob.\r\n\r\nMaybe some future message format will specify the hashes of both the message content *and* the blobs, and we'll be able to just remove the blobs subprotocol entirely, but until then I think we're stuck with sympathy.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ],
-    "root": "%E5K05uF9cL1kPshsA32FCnLlhfQKUe1Thaq43wJNtsE=.sha256",
-    "fork": "%Q4u5UtABXjnYZOjoFUr+lM5orOKrn1s79WC2V97wU7k=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%D7pXTo8wpVSdYit13TLC/2ijtq7LTi0+iI7r7HQ54HM=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%E5K05uF9cL1kPshsA32FCnLlhfQKUe1Thaq43wJNtsE=.sha256"
+      "%D7pXTo8wpVSdYit13TLC/2ijtq7LTi0+iI7r7HQ54HM=.sha256"
     ]
   },
-  "signature": "Q43eNns3ii07QHzyCp/q8csrKfWPXRubj3tinxpRFwtgvOuW5XjrRzqBm6U7EFtnV70GlL9vnKZC5YzdqLWTDg==.sig.ed25519"
+  "signature": "sI9LjQ1O23+YfXyWaIuohD5Zo0ceDroO3D769oFXxUdIBhpMIpdGbOjJrMPk/Do1r1qfPNskc+xL1nz8BB9dCA==.sig.ed25519"
 }
