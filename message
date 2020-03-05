@@ -1,13 +1,23 @@
 {
-  "previous": "%AvBWEBrNUKBzjUlg5nIonykLUQ6Mv7VfLL4laylROr8=.sha256",
-  "sequence": 16236,
+  "previous": "%kYfULmGzwNeKbY29DZJfilekmRXbWSMmJazZvCWWZgo=.sha256",
+  "sequence": 16237,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583425419390,
+  "timestamp": 1583428150027,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@PHoNsp6pTRObS5D8x2GchK64AXCPHQfcysH9cdBrAlo=.ed25519",
-    "following": true
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nbtw how are you persisting replication hops? Is that being written to the feed, `~/.ssb/config`, or some Manyverse-specific config somewhere?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%Q4u5UtABXjnYZOjoFUr+lM5orOKrn1s79WC2V97wU7k=.sha256",
+    "branch": [
+      "%OsYt4vEiOgoyd33ntTeMS3c7XG798XyVTk+3CxWAUBo=.sha256",
+      "%fwjyaknzWB3dxPPPKShu3jmjzix9LryJrN4qx98purw=.sha256"
+    ]
   },
-  "signature": "28yk4Fdo+OPp0p2Uu8+KdrInqUlWq8ckYypubYUPDHQsW7IGEAUIC0VVsYwstnuy/ScvnM1m4nz6QSFApkM4Dg==.sig.ed25519"
+  "signature": "cef6guPSUvE8u2WCOI2LwwZ6/F2uIeprYle9u3RLkF7rH65ZbIZiO2Q6ETmFT0g+6BeKJ06hDkNCMxzKKsDsDQ==.sig.ed25519"
 }
