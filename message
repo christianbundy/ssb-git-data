@@ -1,18 +1,23 @@
 {
-  "previous": "%PQHby3trYrhxz35rJse3jkr1o2xPCUEhvpZ5iOhKaXY=.sha256",
-  "sequence": 16253,
+  "previous": "%8QaKZlX0EKWi58kqKkwsiWpueRxaW1s4OVZzQdeQEuQ=.sha256",
+  "sequence": 16254,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583453136407,
+  "timestamp": 1583453229237,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%AMSgpjHTU65k14En+du37qu2K80jImmVWMY8w1dV1eE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@todrobbins](@xoZhX54UG1U4Sk1hpoQyblVMrGuCA4G5kXf9gR7M2yc=.ed25519)\r\n\r\nmy understanding is that we're following the Unicode hashtag spec, which requires whitespace before a hashtag I think -- but if that's wrong, I blame https://github.com/mathiasbynens/hashtag-regex :~)",
+    "mentions": [
+      {
+        "link": "@xoZhX54UG1U4Sk1hpoQyblVMrGuCA4G5kXf9gR7M2yc=.ed25519",
+        "name": "todrobbins"
+      }
+    ],
+    "root": "%kLWt1wMVpPqCh9yiyDxkE8r6yn1uihARl7z7StPw8QU=.sha256",
+    "fork": "%8NfvzCr0inAEo7TP90bfq32a5NTZvW+0yZheoMloPCg=.sha256",
     "branch": [
-      "%AMSgpjHTU65k14En+du37qu2K80jImmVWMY8w1dV1eE=.sha256"
+      "%kLWt1wMVpPqCh9yiyDxkE8r6yn1uihARl7z7StPw8QU=.sha256"
     ]
   },
-  "signature": "Jk4PRBvSRPXWkbhVBMLWeEo8t++u1gAhaRQyLfqAxfvPwSWyRIwBvWftSriWz3B7wrELWaWII1C095jKVni/Dg==.sig.ed25519"
+  "signature": "DeSFhgyXmS0lEw4SMDfEdtCijZlTEoCBmdFvqnZIZMHcK+Pll3jAgEJ69dVdfxb6PZorij6KiFk45PBrcyOlBg==.sig.ed25519"
 }
