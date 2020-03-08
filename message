@@ -1,18 +1,22 @@
 {
-  "previous": "%4lrXdFe/blHY9BX1bx8UVjzlevXMAkroBzptMueV9eI=.sha256",
-  "sequence": 16296,
+  "previous": "%/hIaA74H84B42WVC5ee75zzt8GKF85frS0gXW4ojNrU=.sha256",
+  "sequence": 16297,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583632014449,
+  "timestamp": 1583686894028,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%HYGLZGirTSl8Uqns/mgRDpy3YbW6+mRyNl4iWLBxsWY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nIt depends on their configuration, but if someone doesn't follow you it's safe to assume they can't see you. Many/most of us replicate 2 hops -- both the people we follow *and* the people that they follow, but the only thing you can count on is that they can see who they follow.",
+    "mentions": [
+      {
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
+      }
+    ],
+    "root": "%kAyK9ucsXEWt3T86bUEKehdYxeuAgVw4GPTYu+QUitM=.sha256",
     "branch": [
-      "%HYGLZGirTSl8Uqns/mgRDpy3YbW6+mRyNl4iWLBxsWY=.sha256"
+      "%kAyK9ucsXEWt3T86bUEKehdYxeuAgVw4GPTYu+QUitM=.sha256"
     ]
   },
-  "signature": "cL18M2v5HnNg+ctM7xkgpJSOVU7izitaqmD+ka1Pj3DgUCx+bOGhg9qcW5N/LttNRL2Z5dlfWh9825houaCXAQ==.sig.ed25519"
+  "signature": "RUtNpQU2uEO3qvjt+PUrUfnUJzWJbaMkkFxZ8/mDzUH6w/V+w9xgH+FpXtGuf34k5jfLEf7H3I9Kbls6uP8+AA==.sig.ed25519"
 }
