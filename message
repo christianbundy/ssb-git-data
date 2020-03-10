@@ -1,18 +1,22 @@
 {
-  "previous": "%iJpLJ14OpGTHzmIYkp1G5nHgUHUP1+j5o8EuuR6auto=.sha256",
-  "sequence": 16378,
+  "previous": "%2G1BORzQb9xYLSKygZCXzDridhZ/+nYrLwXmDNduO+w=.sha256",
+  "sequence": 16379,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583863255960,
+  "timestamp": 1583863758215,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mSwrw4y5Ip4ke/K+b+UMud92MXzFp5ZrD2WgH0QIccE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Nick Wynja](@7HtudS5zCKJJjt54mbZHHAu6l8cGD47KTYbh8FboJKk=.ed25519)\r\n\r\nHey, welcome back! It's so rad to see how everyone experiences SSB differently and hearing what you like. I'm really happy that you were able to hack your own view into Oasis and would be excited about a PR!\r\n\r\nMaybe useful context: I'd really like to replace the heaps of different pages with [view options](https://github.com/fraction/oasis/issues/170#issuecomment-583126856) instead, because otherwise we get a [combinatorial explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion) and need 1 page for each combination of options! If you have thoughts or feels on how to do this, I'd love your input.\r\n\r\nAlso please reach out if you have any pain points hacking on Oasis -- I have lots of random todos in my head but if I know it's a pain point for another human I can prioritize it. 🚀",
+    "mentions": [
+      {
+        "link": "@7HtudS5zCKJJjt54mbZHHAu6l8cGD47KTYbh8FboJKk=.ed25519",
+        "name": "Nick Wynja"
+      }
+    ],
+    "root": "%mSwrw4y5Ip4ke/K+b+UMud92MXzFp5ZrD2WgH0QIccE=.sha256",
     "branch": [
       "%bHRmpdSUprWfgT0btbAeuP1sjjgzVTm6dwbuYB+S+IM=.sha256"
     ]
   },
-  "signature": "ixFBIXrV9kXPlZPEAvvs+ANIWe0QQG6sgZEPmdN4/0IWF1NJqrVq/ZnOesjG3rjjush1n+S8bVMbcpwnyKvgBg==.sig.ed25519"
+  "signature": "5wtVZMFoyJuiN2TCANraSUga2wYFrHXZUPIVBtJAd51xiCrZ1hWMHZEI2cAfGlrumPGne1QYvm4a/UyvUlp9Ag==.sig.ed25519"
 }
