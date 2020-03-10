@@ -1,22 +1,13 @@
 {
-  "previous": "%+TUsviOVKgGG0ir0ZxeNTqvLV4EdZq6wfvPMhgPBrQA=.sha256",
-  "sequence": 16341,
+  "previous": "%tBcczoUzLnG43QrS1uKSzAMP2pIQ3/r00cyXCwtshbg=.sha256",
+  "sequence": 16342,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583804453113,
+  "timestamp": 1583810571026,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@garbados](@rd8HSzITTKIJIe6LwZu6z1hCtjTuoMhsGbw34Y82SjM=.ed25519)\r\n\r\nAlso, info on CPU chugging: Patchwork downloads every post from the people you follow **and the people that they follow**, which means that each time you follow a new person you're getting more than just their posts. It's super useful for reading threads and seeing the extended network but makes your first follow *very* painful.\r\n\r\nThe cool thing about small world networks like SSB is that we often follow the same people, so the second person you follow is probably following lots of the same people as the first person you followed, but it's totally an initiation ritual that sucks and we're all trying to fix. Onboarding should be much faster the next time I release a version of Patchwork.\r\n\r\n> i see projects treat protocols as foundations rather than syndication methods and it leads to bizarre arguments like “dat vs ssb” rather than “syndicating social over dat and ssb (and …)”\r\n\r\nYES. I've been wanting to ignore SSB-specific metadata or Dat-specific metadata and just use these protocols as containers instead of foundations for other message types. I'd imagine it wouldn't be very hard to craft messages that are valid for both protocols, plus probably a bunch of others? The medium should not be part of the message.",
-    "mentions": [
-      {
-        "link": "@rd8HSzITTKIJIe6LwZu6z1hCtjTuoMhsGbw34Y82SjM=.ed25519",
-        "name": "garbados"
-      }
-    ],
-    "root": "%R1QDaBTQq7avAr2axTwBpx3ckngkEmW/8ufxBi7DFrc=.sha256",
-    "branch": [
-      "%Bdo+uEAEuGVql2nL+7Sl/rc14I6G5P9VIdK4AGX067M=.sha256"
-    ]
+    "type": "contact",
+    "contact": "@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519",
+    "following": true
   },
-  "signature": "Gi8NUyNScr8qhkkLZZFrws0PLqVi3FEbR+XX4FJrb6BNmG2SAQ2uJLpI9r0PxXG1TALPYdC8+GsgiEZC/Ph6BQ==.sig.ed25519"
+  "signature": "6/Jt4gYd46NAiKASTaPFZ6BAJgEhEkXu+IziWptZkcaTP/e4/pjWn2zmVZbfvjKsMzcaI9VZDSE8RIA8TTSpAw==.sig.ed25519"
 }
