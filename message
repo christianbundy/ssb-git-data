@@ -1,18 +1,22 @@
 {
-  "previous": "%PfvCtGYyXD5EBfOyNI8UxOUVlAqtCIuMHhzWq7HG6k8=.sha256",
-  "sequence": 16392,
+  "previous": "%ouUtiKUR/E3on305QwQCVvtv89gGh9fuZ6d+PIr7fJ8=.sha256",
+  "sequence": 16393,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583876821070,
+  "timestamp": 1583877876111,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%/ahN7+wkheNOpN46fswCieT4+djuMryC6uksGQQYi70=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nAre you using Patchwork on both devices? When you send a blob through a private message it ends up being encrypted so that others on the network can't see your blob, but Patchwork *should* be taking care of this special syntax for you.",
+    "mentions": [
+      {
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
+      }
+    ],
+    "root": "%mZsqnvLX7O208jWnvCQEAEpSB4rHW/8NrtSKJVT4iXI=.sha256",
     "branch": [
-      "%/ahN7+wkheNOpN46fswCieT4+djuMryC6uksGQQYi70=.sha256"
+      "%mZsqnvLX7O208jWnvCQEAEpSB4rHW/8NrtSKJVT4iXI=.sha256"
     ]
   },
-  "signature": "5cFzyLI3IFxyGSUtsrJlvSOHzi+TYQJROZ6WY7t4F35ua9s0+r2Sm3V3WOEhLs9N6w/1ERv4k4oHtiyIcG/+DQ==.sig.ed25519"
+  "signature": "/XyvyjuzE6zGQ6dBFGkK3POSJfsC6yXPMOyGcFiy4sS8Yxpx/DhCsokVIBRdF5WoMqPPQkK23ATp8lST7zpdAA==.sig.ed25519"
 }
