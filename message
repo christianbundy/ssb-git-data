@@ -1,18 +1,22 @@
 {
-  "previous": "%0UFynuF2cNrfBdrVlowKkHFh7B22Vg6I5lyR4NCwuSc=.sha256",
-  "sequence": 16359,
+  "previous": "%6K0X+WOCXPCUTatB+BNUYX/di4Sh2REXZEPbXSWLgAs=.sha256",
+  "sequence": 16360,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583850784589,
+  "timestamp": 1583850891824,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%LP5Udtv2UyUyNNR2Fo6he9rQrG4UW/i3a0HP+yf/qP8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Mario](@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519)\r\n\r\nThat's great, I've been meaning to spend more time working on that use-case. Are you using passwords / HTTPS / etc to make sure that nobody else can get in? You might find [this issue](https://github.com/fraction/oasis/issues/296) or [this toot](https://social.coop/@christianbundy/103796501431845445) useful.",
+    "mentions": [
+      {
+        "link": "@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519",
+        "name": "Mario"
+      }
+    ],
+    "root": "%D4jMk676epSTTMkZ+7oawAPb3fLGVkZU6ZAiygCXrwg=.sha256",
     "branch": [
-      "%LP5Udtv2UyUyNNR2Fo6he9rQrG4UW/i3a0HP+yf/qP8=.sha256"
+      "%D4jMk676epSTTMkZ+7oawAPb3fLGVkZU6ZAiygCXrwg=.sha256"
     ]
   },
-  "signature": "8QLWUJ0kZMyTvuARGeZ66AS8i4F4KYollESuVrnDVp7TR8xlS2iEp3bE7OWpmVKArRzHmr9+1DPfvlbju5zWBQ==.sig.ed25519"
+  "signature": "m/E0AdTa1vCKK6KghWKEPTt6NsygYBF8IhtKGNX/W+wXMWIohoflGS7ERUQZpBqK0ygy88IZvjGY7v7O7X78DA==.sig.ed25519"
 }
