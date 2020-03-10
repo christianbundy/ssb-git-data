@@ -1,22 +1,22 @@
 {
-  "previous": "%3xVcgC+QktIdrj/z7pbO9gshBFqB3h9J7HSdK6+CpFc=.sha256",
-  "sequence": 16371,
+  "previous": "%O5dLfr0svi1ltpU8mxY1lVcjWTwZVr9YfljVlLUYkeA=.sha256",
+  "sequence": 16372,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583859300863,
+  "timestamp": 1583863038527,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Mario](@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519)\r\n\r\nYeah, I thought you opened [this issue](https://github.com/fraction/oasis/issues/300)!\r\n\r\nCaddy should be taking care of HTTPS for you, but you can add this line to your caddyfile for some basic username/password auth:\r\n\r\n```\r\nbasicauth / yourname yourpassword\r\n```",
+    "text": "[@Freakazoid](@/nFwoHBpg/owmCMIfxVa91TDf+c/gUsRxYmw0Xmknso=.ed25519)\r\n\r\nYou'll need to connect to *someone* for your messages to leave your computer, and the connection scheduler should choose them semi-randomly based on a handful of heuristics. Details [here](https://github.com/staltz/ssb-conn#learn-more) at the bottom of the page (\"opinions built into the default scheduler\").\r\n\r\nYour messages seem to be coming in fine now, for what it's worth. 🤷",
     "mentions": [
       {
-        "link": "@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519",
-        "name": "Mario"
+        "link": "@/nFwoHBpg/owmCMIfxVa91TDf+c/gUsRxYmw0Xmknso=.ed25519",
+        "name": "Freakazoid"
       }
     ],
-    "root": "%qYVTgrO4IbF9c3Xdwh8Qy77iMbhA+vXHW/7Bd6HSCPw=.sha256",
+    "root": "%Esno17715h8An3xe4csf6uzA2cgiaorgJ8dtv50mmjM=.sha256",
     "branch": [
-      "%qYVTgrO4IbF9c3Xdwh8Qy77iMbhA+vXHW/7Bd6HSCPw=.sha256"
+      "%eKTI+s1VU1cM3BK6ZxKVmllXhGPgNCAGn6JQCXfHr9o=.sha256"
     ]
   },
-  "signature": "JA200/9983u1oEgjwJje5QNNa/qozwO7fVj0DFUwDDlUm5vl9ewZtqZ9Dq585Cki0vxynKt36Ut5KVoErEITAQ==.sig.ed25519"
+  "signature": "DBBGDMrh7By6Ng/Ncl1H5iu1m/cpC2E7iiDgFRKQBNMLqC1MaJAv17QOrVuWEsYMrQJpiNqUkqdv8cihOsrOCQ==.sig.ed25519"
 }
