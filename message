@@ -1,18 +1,22 @@
 {
-  "previous": "%QuVr9ZlUwTumdzMLSJD1ntD4ttCGoFgxTvYdhQ+zTck=.sha256",
-  "sequence": 16370,
+  "previous": "%3xVcgC+QktIdrj/z7pbO9gshBFqB3h9J7HSdK6+CpFc=.sha256",
+  "sequence": 16371,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583859129742,
+  "timestamp": 1583859300863,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%MDPEdPxfu/bzaryIAhn/dpTDbNagoD9A2xshDmIQsxA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Mario](@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519)\r\n\r\nYeah, I thought you opened [this issue](https://github.com/fraction/oasis/issues/300)!\r\n\r\nCaddy should be taking care of HTTPS for you, but you can add this line to your caddyfile for some basic username/password auth:\r\n\r\n```\r\nbasicauth / yourname yourpassword\r\n```",
+    "mentions": [
+      {
+        "link": "@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519",
+        "name": "Mario"
+      }
+    ],
+    "root": "%qYVTgrO4IbF9c3Xdwh8Qy77iMbhA+vXHW/7Bd6HSCPw=.sha256",
     "branch": [
-      "%6+Q+wiWXqTDk8KZYklhjWXjy3uPmnv0E+DPAfgrCX8A=.sha256"
+      "%qYVTgrO4IbF9c3Xdwh8Qy77iMbhA+vXHW/7Bd6HSCPw=.sha256"
     ]
   },
-  "signature": "eqjmuFcefIFFzKup+DAlkrvlF92aLm8DmlCIhd4fN8dYPpx/AO4fkp1bUsts2YgGUPmZfygjynQXUkyAPtnFAw==.sig.ed25519"
+  "signature": "JA200/9983u1oEgjwJje5QNNa/qozwO7fVj0DFUwDDlUm5vl9ewZtqZ9Dq585Cki0vxynKt36Ut5KVoErEITAQ==.sig.ed25519"
 }
