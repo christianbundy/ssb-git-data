@@ -1,18 +1,25 @@
 {
-  "previous": "%oYPx+Y0q7acY0q5SZpMPizlFMYuSXeEOssThal0NhUI=.sha256",
-  "sequence": 16347,
+  "previous": "%cOBEc53FszV/Br2aR7sHCY+3Z+DT0LOtQQMbJEhlpsw=.sha256",
+  "sequence": 16348,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583811444695,
+  "timestamp": 1583811543356,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%V2wYk3YYtVQ2IGCsewnESyv80zzXURbaWNuaffpsdtM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@nicolas](@zObdUHavDd/quFscj18eCnDK3qZWuLTkxHD+Cx7PoMs=.ed25519)\r\n\r\nThis is usually called #same-as and hasn't been implemented yet. We all just have multiple feeds, one per device. I'd like to add this to Oasis, more info [here](https://github.com/fraction/oasis/issues/267).",
+    "mentions": [
+      {
+        "link": "@zObdUHavDd/quFscj18eCnDK3qZWuLTkxHD+Cx7PoMs=.ed25519",
+        "name": "nicolas"
+      },
+      {
+        "link": "#same-as"
+      }
+    ],
+    "root": "%TTWKvfcUXFXKoWJBN0izZjpuZ9kfTecue7aQyCLCdt4=.sha256",
     "branch": [
-      "%V2wYk3YYtVQ2IGCsewnESyv80zzXURbaWNuaffpsdtM=.sha256"
+      "%u3ZzXkFJPtZQUL8Ra9+APIf6gVtLoHctumgPE/nIxEQ=.sha256"
     ]
   },
-  "signature": "OMBmNsncYsAwoQ3hh3QbZdVxERdo/mua58xTCfNKGvX1hL2rmpmTXPlXSwlAubhDLFVcoItXFVOEDT/pGLscDQ==.sig.ed25519"
+  "signature": "7lTURXk+FW0Grom36SikEy7XiEqvZPZYypZ6OCHSoQjmlnB5lbLVuQ/WmviYG48KrOPAjDGKIDs7GiNVo69/Cw==.sig.ed25519"
 }
