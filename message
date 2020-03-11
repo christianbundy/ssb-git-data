@@ -1,30 +1,18 @@
 {
-  "previous": "%vDXzI9ttx/UMm6HxBEvrRNgp42oxOmtTjXqKR6om1Uo=.sha256",
-  "sequence": 16419,
+  "previous": "%Shyg0WpdzRfsnxILHPvD3jTqt2zaP7hWb9SIqErYG0s=.sha256",
+  "sequence": 16420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583938236999,
+  "timestamp": 1583938462630,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "root": "%mZsqnvLX7O208jWnvCQEAEpSB4rHW/8NrtSKJVT4iXI=.sha256",
-    "branch": "%uKPi1gHq44byeE/Ek7RdW0zWWm6lv33eNPs72BYRlUc=.sha256",
-    "reply": {
-      "%mZsqnvLX7O208jWnvCQEAEpSB4rHW/8NrtSKJVT4iXI=.sha256": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
-      "%uKPi1gHq44byeE/Ek7RdW0zWWm6lv33eNPs72BYRlUc=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+    "type": "vote",
+    "vote": {
+      "link": "%n46X3RT3ph0IIUFdPeyffgBDAdDtnEjT6qJn02WVZWQ=.sha256",
+      "value": 1
     },
-    "channel": null,
-    "recps": null,
-    "text": "![Image with the text \"If you're reading this, your SSB interface supports encrypted blobs\". If you're reading this alternative text, your SSB interface probably doesn't support encrypted blobs.](&no4hxi2DVuVL47yW3M+ZbAckB1d/96nkAfaYRucG6gM=.sha256?unbox=ejaXAI0F2YGYdUvAK2OVJWUCLkXqi110YkkFPf1IGgs=.boxs)",
-    "mentions": [
-      {
-        "link": "&no4hxi2DVuVL47yW3M+ZbAckB1d/96nkAfaYRucG6gM=.sha256",
-        "query": {
-          "unbox": "ejaXAI0F2YGYdUvAK2OVJWUCLkXqi110YkkFPf1IGgs=.boxs"
-        },
-        "name": "Image with the text &quot;If you&#39;re reading this, your SSB interface supports encrypted blobs&quot;. If you&#39;re reading this alternative text, your SSB interface probably doesn&#39;t support encrypted blobs."
-      }
-    ],
-    "contentWarning": "Private blob test post"
+    "branch": [
+      "%z2ZDEnZmDsxeA9RaK7wD0u3qm0bstmUqaXCySyFvfrQ=.sha256"
+    ]
   },
-  "signature": "G+Awa6zsAHbflrtWbGpf4X/ji7fd0WBSo5HKu5Ac9YR48N+Lzt/5K0CoUT1SvG5US5GdqhL7MpBI4G1LeG4eAw==.sig.ed25519"
+  "signature": "gcuZZddt+sdyOFL5SOimyumJfd1CP2HOxd/5M0sWIg8YRkrRGke9v8C1GFeRoHRTzKrqeqcHAGP8rbxdDZ12Aw==.sig.ed25519"
 }
