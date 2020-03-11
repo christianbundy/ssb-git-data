@@ -1,22 +1,18 @@
 {
-  "previous": "%O2TLJAzwZV5Ki3ZKBUtDo6vrqFsJgvjWHpxZWNBtlX8=.sha256",
-  "sequence": 16431,
+  "previous": "%FoqWCmNT5ycSq269+tpUNeQxor+TNtnhcJy/02miW/o=.sha256",
+  "sequence": 16432,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583954903525,
+  "timestamp": 1583954953075,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@samebchase](@B1ZOjF6edoKiPRtbiCnXPXqSw/4AezJCSN/u9OG+w3M=.ed25519)\r\n\r\nYou've done nothing wrong! That happens when you're trying to look at a message outside of your replication range. By default Oasis and Patchwork download posts from the people you follow and the people that they follow, so there's lots of people you can't see. You can either edit `~/.ssb/config` to be:\r\n\r\n```json\r\n{ \"friends\": { \"hops\": 3 } }\r\n````\r\n\r\nWhich will make you replicate 1 more degree, or you can follow more people and cross your fingers that you'll download the post. Alternatively, if you paste a link to the post I can probably click it and tell you who you need to follow to get it.",
-    "mentions": [
-      {
-        "link": "@B1ZOjF6edoKiPRtbiCnXPXqSw/4AezJCSN/u9OG+w3M=.ed25519",
-        "name": "samebchase"
-      }
-    ],
-    "root": "%jdH6WymsIqJnm/dBPznyyTubCk3J097yg5qp1UXNGdY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%pUFOpxxxf2PcIxWrwP1hB6T+Tc2wcOkHgunz6PJvOpo=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%hjKjEhJfu01eMFKbxitpxJh+HM+2SoENCZ2oSvdeiwg=.sha256"
+      "%pUFOpxxxf2PcIxWrwP1hB6T+Tc2wcOkHgunz6PJvOpo=.sha256"
     ]
   },
-  "signature": "UHWmxGHS/LdXw+B+r7p5uo7slARYF6Grnsb/93m9WEjoJTh5ATt+b18yMrik5mDxze4defm4k0x6aXMXCRcLCw==.sig.ed25519"
+  "signature": "OuWrTQfPLgYuvb8iCumFYTCRKJKUbKhUCKBpEIh/5HkbOyBx/PHxCwNvgOFcpyP/3HrS/LsBguivcRaOGR1ODQ==.sig.ed25519"
 }
