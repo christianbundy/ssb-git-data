@@ -1,13 +1,22 @@
 {
-  "previous": "%CW44Umm/fx72xWKLs921T5siLqByADm4rVmO/Yxf6Gc=.sha256",
-  "sequence": 16402,
+  "previous": "%JOGbJ31mPBYk8mVknGrqzOrPVMMS+UA1Wd/B8Yzw7OA=.sha256",
+  "sequence": 16403,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583890473811,
+  "timestamp": 1583890789580,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@e3wDU7w7JCjhcIV6CAXVMWAqWce29ujg5Sn354/6j+E=.ed25519",
-    "following": true
+    "type": "post",
+    "text": "[@alexbayleaf](@e3wDU7w7JCjhcIV6CAXVMWAqWce29ujg5Sn354/6j+E=.ed25519)\r\n\r\n1. You install SSB on another device to make a new identity, and you can have each of your identities follow eachother.\r\n2. You can't, but it's being worked on in Oasis [here](https://github.com/fraction/oasis/issues/267).\r\n3. Yeah! Are you thinking of importing and exporting a single feed via USB? Or something else? \r\n4. Yeah! You can use something like [SSB-CLI](https://github.com/fraction/ssb-cli) and run `ssb createLogStream` for all of your data. More commands with `ssb --help`.\r\n5. Yep! The important thing is that you don't post until all of your messages have been downloaded, otherwise you can create a fork.",
+    "mentions": [
+      {
+        "link": "@e3wDU7w7JCjhcIV6CAXVMWAqWce29ujg5Sn354/6j+E=.ed25519",
+        "name": "alexbayleaf"
+      }
+    ],
+    "root": "%XgVQGanNyvYkbnxJSsy2V33FtcjC2mNTgeLOE60YP90=.sha256",
+    "branch": [
+      "%XgVQGanNyvYkbnxJSsy2V33FtcjC2mNTgeLOE60YP90=.sha256"
+    ]
   },
-  "signature": "vilomYEqziWkTzIwoVDolCGjYJLMLLDdrAPdFcdanMs9GvobDNaRID8NOU8S22NQ9n7nXSPxdlJV8juTa0alCg==.sig.ed25519"
+  "signature": "QzSN3QgRZUOcozUofn8CyXyvVano1eh7tOVCgS+6xz+Dd17QX5x1dwDzjqgAOBouWtnaI9BXgYqqBoBCL0pNDQ==.sig.ed25519"
 }
