@@ -1,20 +1,18 @@
 {
-  "previous": "%YxYRy/1IzeZNXY+gPU+p6ekM25rv1xRWof789k/6AEU=.sha256",
-  "sequence": 16423,
+  "previous": "%bptEc8OnWVXpcQEfG63xEGsz+8xfYmdr140UYSIGq/w=.sha256",
+  "sequence": 16424,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583940623273,
+  "timestamp": 1583942352615,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "New versions of Patchwork and Oasis, btw.\r\n\r\n- [Patchwork install](https://github.com/ssbc/patchwork#installation)\r\n- [Oasis install](https://github.com/fraction/oasis#installation)\r\n\r\nNote: If you installed Oasis from npm you'll need to follow the install instructions instead of just `npm -g update`. We dropped npm and are just using Git instead of a centralized registry.\r\n\r\n#patchwork #oasis",
-    "mentions": [
-      {
-        "link": "#patchwork"
-      },
-      {
-        "link": "#oasis"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%OLUfGTA6sk16X9Kpd6iPWzMbtBUv95bZFq9+CPGjkiY=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%OLUfGTA6sk16X9Kpd6iPWzMbtBUv95bZFq9+CPGjkiY=.sha256"
     ]
   },
-  "signature": "gJhftysZ5N012ukU4gXXiTP72j4f6vzd8WSIwpPqovlHyapSRDwJbgUKqui3BmV59oIzCB0+Yp66OVzXo6vnBg==.sig.ed25519"
+  "signature": "wsId5n5xtwDITR8OU5SDLvysgtuAFDUE20Yh9kxDj3wOBoNYGg2qPczyD0gWIf1R23f9xLRBpeAUh3tqQCZgAQ==.sig.ed25519"
 }
