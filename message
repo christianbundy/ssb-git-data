@@ -1,27 +1,18 @@
 {
-  "previous": "%VksYFB1thhx4PYRmA1svC4qFZxTWEUY83mqAbXSAolM=.sha256",
-  "sequence": 16428,
+  "previous": "%/w5BKSLbSOvZZbpfAToCHZXKj28F6fK21x6RG9Zxak4=.sha256",
+  "sequence": 16429,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583953067499,
+  "timestamp": 1583953095733,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Community software and maintenance\r\n\r\nLately I've been thinking a lot about how we work together, and which pain points I've experienced working with free and open source software.\r\n\r\nI want to highlight that I'm very optimistic: I think the world of you all and it's that optimism that makes me think we could be doing better. There are tons of pain points that we've all experienced, and since each one of them is an infinite rabbit hole I'll just limit myself to the pull request experience.\r\n\r\n##  Contributing patches\r\n\r\nLearning a new project is hard. Diving into the code to make changes is even harder. But somehow the biggest challenge I've had over the past couple of years is getting my pull requests merged. Not because there are changes requested, but because maintainers aren't available (or are maybe suffering from [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect)). I'm one of the SSBC maintainers and I'm guilty of this too, but **when everyone is responsible, no one is**.\r\n\r\nThis also creates an environment where people who contribute to these projects end up having to merge their own pull requests, making themselves the de facto maintainers of the project. Working in isolation like this burns us out and makes it even harder for new contributors to work on the project. If the project has money for maintenance, it often won't be spent because nobody likes to write themselves checks.\r\n\r\n## Fixing the problem\r\n\r\nI've been evangelizing a bit about [C4](https://hintjens.gitbooks.io/social-architecture/content/chapter4.html), but instead of recommending it as a development process I'd like to just point out the biggest difference I've experienced so far: **nobody merges their own patches**.\r\n\r\nThis implies two things:\r\n\r\n- There's always at least one maintainer who is around to merge pull requests and make new releases.\r\n- If that maintainer wants to contribute patches, you need at least one other maintainer to merge them.\r\n\r\nThat seems... really good? I'd love to have one or two explicit maintainers on each of our most critical modules, and I think it would make for a more friendly experience for everyone contributing to our projects.\r\n\r\n## $$$\r\n\r\nI've noticed that one of the hard things about giving money to maintainers is that most of the hard work isn't done on the clock. You might only spend an hour per week merging code, but you're constantly checking the pull requests and answering issues and all sorts of little stuff that piles up.\r\n\r\nAs recommended in a message I can't find, maybe we could have maintainers work for some predefined term, and then just pay them a fixed rate for their maintenance? Lots of our projects have lots of money, **what if we insisted that each module had an active maintainer and that each maintainer was compensated?** I don't think we can pay fair market rate, but even a small gesture is a step in the right direction.\r\n\r\nIs anyone interested in experimenting with having explicit maintainers and trying to pay them a few dollars per month? Thoughts and feedback are very welcome. ❤\r\n\r\n\r\n#foss #open-source #ssbc #maintanence",
-    "mentions": [
-      {
-        "link": "#foss"
-      },
-      {
-        "link": "#open-source"
-      },
-      {
-        "link": "#ssbc"
-      },
-      {
-        "link": "#maintanence"
-      }
-    ],
-    "contentWarning": "Community software and maintenance"
+    "type": "vote",
+    "vote": {
+      "link": "%gPi3lipb4ndV7T0oLzfBsZ1T+cLo5YLh0Kml9vv85lI=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%gPi3lipb4ndV7T0oLzfBsZ1T+cLo5YLh0Kml9vv85lI=.sha256"
+    ]
   },
-  "signature": "DGFHdHdbi50Sxlc7di8p95n4i9q9jRl2QGNbDbZ2mJelYsHpeSFgkL0rVeOSxJY7kWBnVGB2bNcnfWnd6IbpBQ==.sig.ed25519"
+  "signature": "NKenyC5AGbh4a2+rLC0byeJ1KL9/zI+6My1IfoVa5MbpNbEQFf2vRf8rKPqEcsKNhOvYr0K7hqVDBHFufxNlDw==.sig.ed25519"
 }
