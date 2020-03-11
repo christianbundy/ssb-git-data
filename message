@@ -1,22 +1,18 @@
 {
-  "previous": "%OZWPH3Ct/pnMKXvwNzYFvJLFxXsOlz1ySk8GxlNj/Tk=.sha256",
-  "sequence": 16434,
+  "previous": "%tAltKX3+HBi9sc1zaMZegJFJzKSjnmTVv3oKGD6rr2Q=.sha256",
+  "sequence": 16435,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1583955349463,
+  "timestamp": 1583957591343,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nBecause:\r\n\r\n```javascript\r\nconst data = { x: null };\r\nconst f = \"x\"\r\n\r\ndata[f].length // => TypeError: data[f] is null\r\n```",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%7ySVPnmmdTI2/EpO+rXzYULLlyffV0iHLeP0w9UUreM=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%HEGpUHw4rO68BTTVfFAGMtuRf+DYlKTu+URiGkAlvx4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%OZWPH3Ct/pnMKXvwNzYFvJLFxXsOlz1ySk8GxlNj/Tk=.sha256"
+      "%HEGpUHw4rO68BTTVfFAGMtuRf+DYlKTu+URiGkAlvx4=.sha256"
     ]
   },
-  "signature": "6qccmdtGzfhhXNwd4KC/bzFtlKDeWXeCP75Q3wutIdgeZ9uBVyxV+drdR5h0/9/foi0IWTjcg3sRESmTEsRqDQ==.sig.ed25519"
+  "signature": "f+FhyLGmVmAgFj3fz+fjqhAQnELnjKuPn6Aer15NYPBA2R9FJCmAnn5AZp0+cKHc8siICeXhUR4QV4I6b00lDQ==.sig.ed25519"
 }
