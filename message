@@ -1,23 +1,23 @@
 {
-  "previous": "%fM4WLd+RwVfSHzc8JwHNQHvp97ATKx6t6QnmbW02+Zs=.sha256",
-  "sequence": 16450,
+  "previous": "%Fhi+S1Dvu/QvLtnamFkIHU4zXKAvcax9PyMak0E7qo8=.sha256",
+  "sequence": 16451,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584061014990,
+  "timestamp": 1584061107671,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\r\n\r\nYeah, previously I was publishing to `@fraction/oasis` on the npm registry but then I remembered that you can just download directly from a Git URL instead of using a centralized registry.\r\n\r\nUsing a registry is great if you need to distribute build artifacts, but since Oasis is just JavaScript then we can distribute it directly from the Git repo. Now we just have to give maintainers permission on GitHub instead of also on npm, *plus* we can switch off of GitHub whenever and we just change the URL.",
+    "text": "[@KemoNine](@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519)\r\n\r\nSSB-Client won't, but I haven't considered any other projects. Do you have any preferences?",
     "mentions": [
       {
-        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-        "name": "SoapDog (Macbook)"
+        "link": "@2JMza/WpInn3c0N2bw4QfRRLhrb2h17eNBKpDshBk1o=.ed25519",
+        "name": "KemoNine"
       }
     ],
-    "root": "%4KRCcou9hxMD3X+XDd+39sRSkS4VBAhdVOEK1ivBMRI=.sha256",
+    "root": "%VyCf1I0ra08PgSail7PBNDdC+n7uODyVWDtjlzHOYmE=.sha256",
     "fork": "%bptEc8OnWVXpcQEfG63xEGsz+8xfYmdr140UYSIGq/w=.sha256",
     "branch": [
-      "%4KRCcou9hxMD3X+XDd+39sRSkS4VBAhdVOEK1ivBMRI=.sha256"
+      "%VyCf1I0ra08PgSail7PBNDdC+n7uODyVWDtjlzHOYmE=.sha256"
     ]
   },
-  "signature": "sydkHL/iNVac4NyhSoPX+AXhaE+qmfw+A2N+Ex+OxcMI4QyN2W3JseLFhiyCbUzYQ4TQjEO3H0H9MkXnlSWwCQ==.sig.ed25519"
+  "signature": "M6GIhlAAENX+jSfoQhqgDxL2uZazGDp9g5un3OTzs5MdxtCKh7ed7Rwsz/fhK+W8/2Re0dyKUHyS4DtT0tvjBg==.sig.ed25519"
 }
