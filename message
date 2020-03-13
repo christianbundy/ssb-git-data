@@ -1,27 +1,18 @@
 {
-  "previous": "%/RLe49rL/IuBBgN8RSDbdoQC5OMvipsKWM7OogfCbfw=.sha256",
-  "sequence": 16452,
+  "previous": "%Leq/vRfyZ2yZJ8K6JccETwWyJ8AFZomkqx3KRAToAaY=.sha256",
+  "sequence": 16453,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584061700640,
+  "timestamp": 1584063201937,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Nick Wynja](@7HtudS5zCKJJjt54mbZHHAu6l8cGD47KTYbh8FboJKk=.ed25519)\r\n\r\nSweet! Feel free to open an issue, even just to chat through what's going on, if you experience any problems or are trying to solve something. As I'm sure you've seen, SSB is a good place to chat about the general stuff too.\r\n\r\nCel taught me a bunch in [this thread](%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256) a couple weeks ago, that *might* be helpful. \r\n\r\n>  In general, it seems like this workflow of “start things up, connect to peers, sync gossip and blobs, and then exit” could be useful enough that I might take a look at what it would take to build into Oasis, since I’m replicating a lot of what Oasis does now but just manually (and worse).\r\n\r\nPlease! If you post an issue describing the problem and how you might like to see it in Oasis I'm happy to brainstorm solutions with you. I've also been working on [SSB-Daemon](https://github.com/fraction/ssb-daemon), it might be a better fit there depending on the behavior and whether you want CLI or a web UI.",
-    "mentions": [
-      {
-        "link": "@7HtudS5zCKJJjt54mbZHHAu6l8cGD47KTYbh8FboJKk=.ed25519",
-        "name": "Nick Wynja"
-      },
-      {
-        "link": "%t43TW8Yhp/0DLnb9++FeFtKjnTIzov1aP/buJFEP7kc=.sha256",
-        "name": "this thread"
-      }
-    ],
-    "root": "%6Zpp3XXoAEwZUB5o5ekpYcBx+t3mwFVueX1ObXhSjZM=.sha256",
-    "fork": "%mSwrw4y5Ip4ke/K+b+UMud92MXzFp5ZrD2WgH0QIccE=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%9voh+vd4Z969BbSzD5xzG1uUvze2VO6ikYz6eEXZMno=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%6Zpp3XXoAEwZUB5o5ekpYcBx+t3mwFVueX1ObXhSjZM=.sha256"
+      "%9voh+vd4Z969BbSzD5xzG1uUvze2VO6ikYz6eEXZMno=.sha256"
     ]
   },
-  "signature": "xDNTBZlvleb3g7MCVj/QFP/SHx5PSkaAgG/2ihopGQYVlfLQh5Z1+A+F1p7ZGMT+pArUvbSN4KthaYye/rJaBw==.sig.ed25519"
+  "signature": "TKJWKbodFVrp7xKI799dc6wOStAgLtsUObURMQ9X+NJRP6blmhqVnGBn1FMmxIzh3ZEq6MTWZvx4H2vSxNm6AA==.sig.ed25519"
 }
