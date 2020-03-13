@@ -1,22 +1,23 @@
 {
-  "previous": "%aJxA4r0sxbevjH/gS7OOkzYQo5+l6l3i1J5XQFzmBuM=.sha256",
-  "sequence": 16449,
+  "previous": "%fM4WLd+RwVfSHzc8JwHNQHvp97ATKx6t6QnmbW02+Zs=.sha256",
+  "sequence": 16450,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584024400287,
+  "timestamp": 1584061014990,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Kim Hawtin](@6PBpMUBulZlAQIqMc+snD03SREW3jtdTLyPiJVL48ew=.ed25519)\r\n\r\nI think it might be. Anything I can help with?",
+    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\r\n\r\nYeah, previously I was publishing to `@fraction/oasis` on the npm registry but then I remembered that you can just download directly from a Git URL instead of using a centralized registry.\r\n\r\nUsing a registry is great if you need to distribute build artifacts, but since Oasis is just JavaScript then we can distribute it directly from the Git repo. Now we just have to give maintainers permission on GitHub instead of also on npm, *plus* we can switch off of GitHub whenever and we just change the URL.",
     "mentions": [
       {
-        "link": "@6PBpMUBulZlAQIqMc+snD03SREW3jtdTLyPiJVL48ew=.ed25519",
-        "name": "Kim Hawtin"
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
       }
     ],
-    "root": "%yX8mmHRV8zOe3qfjst1ziQFsmlLRlXm2HpC8XVaBdUc=.sha256",
+    "root": "%4KRCcou9hxMD3X+XDd+39sRSkS4VBAhdVOEK1ivBMRI=.sha256",
+    "fork": "%bptEc8OnWVXpcQEfG63xEGsz+8xfYmdr140UYSIGq/w=.sha256",
     "branch": [
-      "%yX8mmHRV8zOe3qfjst1ziQFsmlLRlXm2HpC8XVaBdUc=.sha256"
+      "%4KRCcou9hxMD3X+XDd+39sRSkS4VBAhdVOEK1ivBMRI=.sha256"
     ]
   },
-  "signature": "3Y9gF+2lCJAbISEYaeei/3/rSE5Kr1Dwxo6U42+Cjkj7KOiE+YJ9/It3e9AjHTh+FESbw5gnxmvCQ78+Dt+DBw==.sig.ed25519"
+  "signature": "sydkHL/iNVac4NyhSoPX+AXhaE+qmfw+A2N+Ex+OxcMI4QyN2W3JseLFhiyCbUzYQ4TQjEO3H0H9MkXnlSWwCQ==.sig.ed25519"
 }
