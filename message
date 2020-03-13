@@ -1,18 +1,30 @@
 {
-  "previous": "%sjUPr53eGXHbt4Tso1V5TXhOH6kA2WydX2PAM2jRZRk=.sha256",
-  "sequence": 16463,
+  "previous": "%eCP/jbQ1vfIxn0ASzPDyBIoMMNDX24cZRaM/oaxrZMs=.sha256",
+  "sequence": 16464,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584120915520,
+  "timestamp": 1584124371044,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%cqaxS6kXdM0ciHFodAgRXL9lBlw+wHdOQYnVBxy1Mis=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519)\r\n\r\nHmm, any chance you were trying to run Patchwork and Oasis at the same time? It works if you start Patchwork first, but Patchwork doesn't like to be picked last. If that's the case, there's more info in the [Oasis FAQ](https://github.com/fraction/oasis#can-i-run-this-at-the-same-time-as-patchwork-and-other-ssb-apps).\r\n\r\nRe: Oasis as an Electron app, I know that [@josh](@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519) started some work on that [here](%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256), and I've just packaged it up with Electron-Builder so that we can iterate on it together:\r\n\r\nhttps://github.com/fraction/oasis-desktop",
+    "mentions": [
+      {
+        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
+        "name": "Kaotisk Hund"
+      },
+      {
+        "link": "@HaYp1REDTDv9Su7XIz8WNDyCIbv5/TkbUJpTdJuQuwI=.ed25519",
+        "name": "josh"
+      },
+      {
+        "link": "%1pDgo29fURD+lY/WxbKPdQZG0oHwD0Hao8xV4T222M8=.sha256",
+        "name": "here"
+      }
+    ],
+    "root": "%bptEc8OnWVXpcQEfG63xEGsz+8xfYmdr140UYSIGq/w=.sha256",
     "branch": [
-      "%cqaxS6kXdM0ciHFodAgRXL9lBlw+wHdOQYnVBxy1Mis=.sha256"
+      "%5LeJs4qU31RWnHBKDmUV9G4qg+ZaYDx0ifJhH0aqX/0=.sha256"
     ]
   },
-  "signature": "+xOnhIH4Q8vhJMUWfSU2cHPCImg4gnQ3o5znv9PFg7iG8KrtqSET32rBId2pryNQ0pt4DojWuuyimbfnOQqcCg==.sig.ed25519"
+  "signature": "vY/zGcpMMEwQsITDae36aEVjGY8z9VuPiEiMKdfOXjoFCiV+1ku3LMXoiZWBL+/kIoG1EFDib2DLSGtmnQl4Ag==.sig.ed25519"
 }
