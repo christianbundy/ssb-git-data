@@ -1,20 +1,26 @@
 {
-  "previous": "%m0oznywFPk+MC9UIfm+mwK9dUXNs7D9N2UWZI4eYL0M=.sha256",
-  "sequence": 16475,
+  "previous": "%/ic2ndUJdunADl94HJyav9y7t4tyjPGWiF6sop3XNdc=.sha256",
+  "sequence": 16476,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584131307199,
+  "timestamp": 1584131521328,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Small note: I've built a very shoddy wrapper around Oasis so that friends can run it without any developer tools. You can check out the installers [here](https://github.com/fraction/oasis-desktop/releases/latest).\r\n\r\nAgain, this is *very* shoddy, and probably has tons of bugs, but when it's open you can always use your web browser to open http://localhost:3000 and get the same experience **plus** all of the conveniences of your web browser (back button, etc).\r\n\r\n#oasis #oasis-desktop",
+    "text": "Maybe instead of running Oasis in its own window it'd be wiser to do [a small graphical launcher](https://github.com/fraction/oasis/issues/172#issuecomment-583136508) instead? If anyone has strong preferences I'd love to hear them.\r\n\r\n[Illustration of a small graphical launcher with a little \"open oasis in browser\" button and some basic settings](&a7wuEY3Xc3FtTMT2S9Ls57B9SOUSy2MRqjMphuwawYw=.sha256)\r\n\r\n^ Mockup by [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)!",
     "mentions": [
       {
-        "link": "#oasis"
+        "link": "&a7wuEY3Xc3FtTMT2S9Ls57B9SOUSy2MRqjMphuwawYw=.sha256",
+        "name": "Illustration of a small graphical launcher with a little &quot;open oasis in browser&quot; button and some basic settings"
       },
       {
-        "link": "#oasis-desktop"
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
+    ],
+    "root": "%/ic2ndUJdunADl94HJyav9y7t4tyjPGWiF6sop3XNdc=.sha256",
+    "branch": [
+      "%/ic2ndUJdunADl94HJyav9y7t4tyjPGWiF6sop3XNdc=.sha256"
     ]
   },
-  "signature": "atWbI3F+snxh2JT+La6pw5+rvTkFhcC7c4CphK5TMqgnCKV81sqkfsTKtWi442a3x2xxaiNpIVPfbsb3tNEjBw==.sig.ed25519"
+  "signature": "4HPE4D7GWuT9Fe1u0pd6Xh6ySn/2GRZW1T7OY3hANqWX2enUgNBJvZcGoY1V4EfW1d549Bv1NnVuxjst2czhBA==.sig.ed25519"
 }
