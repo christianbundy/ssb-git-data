@@ -1,22 +1,22 @@
 {
-  "previous": "%a6HK1J6g31OENR6YWMN5Y9bINrj3ZDCEK8Mqep8AFxY=.sha256",
-  "sequence": 16485,
+  "previous": "%KROx7e3r9cN9KhS7EcjZzHEzfyIbl33zW/0Q2YsnrIs=.sha256",
+  "sequence": 16486,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584136649636,
+  "timestamp": 1584150246399,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Kaotisk Hund](@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519)\r\n\r\nYUS. I've tried with lynx but lots of stuff looks super weird. If there's anything that stands out as Super Bad please let me know and we can fix it! My brain has been warped by GUI browsers and so I'm sure we're doing thing sub-optimally. 😬",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI took a few minutes to put together a very rough prototype, is this helpful at all?\r\n\r\nhttps://github.com/fraction/oasis-desktop/tree/add-open-button\r\n\r\nQuick overview of the JS:\r\n\r\n- `index.js` handles the window and opening the URL\r\n- `preload.js` makes the URL opener available to the renderer via `window.openOasis()`\r\n- `index.html` triggers `window.openOasis()` on form submission\r\n  - I think form submission is better than `onclick` because it works with keyboards and touchscreens but 🤷",
     "mentions": [
       {
-        "link": "@mRfbxGwMTH1vU29/WPhdBxcyVvSwgV4MlrVjyRt1V40=.ed25519",
-        "name": "Kaotisk Hund"
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
     ],
-    "root": "%yZ79YfUC45LMwGlHBC+9pdz4jR8k6tYLxtOlTUeyIX8=.sha256",
+    "root": "%/ic2ndUJdunADl94HJyav9y7t4tyjPGWiF6sop3XNdc=.sha256",
     "branch": [
-      "%yZ79YfUC45LMwGlHBC+9pdz4jR8k6tYLxtOlTUeyIX8=.sha256"
+      "%8MIhuqcGJOkfUN8d0hBAxpdRXBC5wrlg9hR9RgfsYq0=.sha256"
     ]
   },
-  "signature": "gkfS2WTcxpLVYkp+TMJPj6SDDTT0q1vCOjpoDSTa9tUo7vZsYh+uSlCePFRw3NpyjFS6Q+7ZE0RIjp8T1W6fAg==.sig.ed25519"
+  "signature": "swOv+QemFGzV2XOqARpVJs0fx+RXDnADjSPgnnVQR13QuIAqq2jVGwIvbE43LZpkFlrbxhdxPZwDGIg5zWQqAQ==.sig.ed25519"
 }
