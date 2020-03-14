@@ -1,22 +1,22 @@
 {
-  "previous": "%r2wSBoPEeq2gBtE62qhKbd5ZuZSVfKndVv+/duWA/z4=.sha256",
-  "sequence": 16495,
+  "previous": "%jVx88ETuLo+aIASA86eynOfPjsH+WJtA3a6ZsOj36/Q=.sha256",
+  "sequence": 16496,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584203665866,
+  "timestamp": 1584205567932,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@C.Su](@9wO9k5smoggal0IbWd/m6OmT+Si6gmtSeowayqA/o9A=.ed25519)\r\n\r\nCool! In case you haven't seen it, there's an RFC repository [here](https://github.com/ssbc/ssb-spec-drafts) but I don't think I know how it's meant to be used. For example, do we just merge all pull requests or is there some criteria for adding a draft?",
+    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)\r\n\r\nAwesome. Do you have any thoughts on how we should start this off? The simplest thing I can think of is to make a list of SSB modules that are widely used and then asking developers if there's one that they want to offer to maintain for a period. Big variables:\r\n\r\n- How much money do we offer for this? My gut is like $60/mo, which isn't much, but we also don't have a ton.  If Patchwork supported 6 modules then we'd only have 13 months until we run out of cash. Maybe that's okay?\r\n- How long should the periods be? My gut is like ~3 months.\r\n- How many modules do we try to support? I'm imagining that we can make a dependency graph and then prioritize the modules that are most used and have the least coverage by other maintainers.",
     "mentions": [
       {
-        "link": "@9wO9k5smoggal0IbWd/m6OmT+Si6gmtSeowayqA/o9A=.ed25519",
-        "name": "C.Su"
+        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
+        "name": "elavoie"
       }
     ],
     "root": "%/w5BKSLbSOvZZbpfAToCHZXKj28F6fK21x6RG9Zxak4=.sha256",
     "branch": [
-      "%LUh7ADEOt6w0hHKdC3Xw0WgWJi+zZtvXicyyYbXi88o=.sha256"
+      "%jVx88ETuLo+aIASA86eynOfPjsH+WJtA3a6ZsOj36/Q=.sha256"
     ]
   },
-  "signature": "G+teUzAVl5UU6efgmIC6yYO2rM+kDD6tub+P5veyxYn0CYgs1wmq3EiaOfT7nqrr/9LmP39ruL62XjpUaZcZAg==.sig.ed25519"
+  "signature": "bS66BGw4OCxPeAZE3WGALWg8zxx3A5Dnzu8t+N6YrHpHCPEOWWHblcmaai1Nrd+kRlRoKkfTSRDZ+IVFiXaqAw==.sig.ed25519"
 }
