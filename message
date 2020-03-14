@@ -1,18 +1,22 @@
 {
-  "previous": "%GhqoJ7xwgdIREGy+AkP1KPpP9kzYUk0hUfY9lHs0YUg=.sha256",
-  "sequence": 16490,
+  "previous": "%43NsJYAqdGrNq4rS85WHDeR1cXZ7+pIrI40BPO2kx7g=.sha256",
+  "sequence": 16491,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584195809169,
+  "timestamp": 1584196033684,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VU2K+D96u7HESArFoRxpH0RwnWxlw38y3LIIrB64yEA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Hamiller](@LZSw/izhW0O1VA1ptApOEQovM2U1//8ThdJNsfDqePQ=.ed25519)\r\n\r\nWhichever app you start first gets exclusive access to the database, so as long as other apps you use can act as a secondary app (Oasis, Patchfox, Patchfoo, etc) then you're good. The problem is when you try to start two apps that need to be the primary app (because they don't have any fallback code to work as a secondary app) at the same time.",
+    "mentions": [
+      {
+        "link": "@LZSw/izhW0O1VA1ptApOEQovM2U1//8ThdJNsfDqePQ=.ed25519",
+        "name": "Hamiller"
+      }
+    ],
+    "root": "%bptEc8OnWVXpcQEfG63xEGsz+8xfYmdr140UYSIGq/w=.sha256",
     "branch": [
-      "%VU2K+D96u7HESArFoRxpH0RwnWxlw38y3LIIrB64yEA=.sha256"
+      "%VDeEIXdC842gvAIszBU/+DbgEyXATc+DnaTlQmpJXug=.sha256"
     ]
   },
-  "signature": "CsdIV+p/85GSBb9WVSfUj33PdBVuC9e9EUFr7QnaCDcmlWgEwvZx6GzYRgYkLw/cNWg379AxTa9b4Bsq7c8UDw==.sig.ed25519"
+  "signature": "ji1iOmzGkR8scl8nxSK+62hDVMEa2Dss6QkPXq1C8h5ojFQcLcIUc+czojihjd9BW410kg3rV0ufqqyiUY2bDA==.sig.ed25519"
 }
