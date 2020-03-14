@@ -1,22 +1,22 @@
 {
-  "previous": "%KROx7e3r9cN9KhS7EcjZzHEzfyIbl33zW/0Q2YsnrIs=.sha256",
-  "sequence": 16486,
+  "previous": "%G+NashiCtGc9Yjr3MiRa9fHmojY9L4e/7fUmpV/q9Cc=.sha256",
+  "sequence": 16487,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584150246399,
+  "timestamp": 1584150368583,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI took a few minutes to put together a very rough prototype, is this helpful at all?\r\n\r\nhttps://github.com/fraction/oasis-desktop/tree/add-open-button\r\n\r\nQuick overview of the JS:\r\n\r\n- `index.js` handles the window and opening the URL\r\n- `preload.js` makes the URL opener available to the renderer via `window.openOasis()`\r\n- `index.html` triggers `window.openOasis()` on form submission\r\n  - I think form submission is better than `onclick` because it works with keyboards and touchscreens but 🤷",
+    "text": "smol preview\r\n\r\n![Screenshot of small Oasis Desktop launcher hovering over the browser, showing Oasis](&sRs7kxQgdr/5iErJmfUniYGd3zeSbbbWZhjTP9O6KxM=.sha256)",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "&sRs7kxQgdr/5iErJmfUniYGd3zeSbbbWZhjTP9O6KxM=.sha256",
+        "name": "Screenshot of small Oasis Desktop launcher hovering over the browser, showing Oasis"
       }
     ],
     "root": "%/ic2ndUJdunADl94HJyav9y7t4tyjPGWiF6sop3XNdc=.sha256",
     "branch": [
-      "%8MIhuqcGJOkfUN8d0hBAxpdRXBC5wrlg9hR9RgfsYq0=.sha256"
+      "%G+NashiCtGc9Yjr3MiRa9fHmojY9L4e/7fUmpV/q9Cc=.sha256"
     ]
   },
-  "signature": "swOv+QemFGzV2XOqARpVJs0fx+RXDnADjSPgnnVQR13QuIAqq2jVGwIvbE43LZpkFlrbxhdxPZwDGIg5zWQqAQ==.sig.ed25519"
+  "signature": "7+6drX02JZ8FN7R3hGJgJmz/Jxv27oZtAa65uiKJ6T9sJbyk0aWzXeTuiPSxkHc8Lh9ljQuVgrIAej6hO1WCAw==.sig.ed25519"
 }
