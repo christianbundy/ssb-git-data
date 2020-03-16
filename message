@@ -1,27 +1,22 @@
 {
-  "previous": "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256",
-  "sequence": 16505,
+  "previous": "%LawTSlrQi5f2z1xPl3iZ19QN8oX0lPQqDClaGT7yLhY=.sha256",
+  "sequence": 16506,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584380568435,
+  "timestamp": 1584393441408,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOn second thought, that wasn't super clear:\r\n\r\n## Current\r\n\r\nInstall registry module from registry.\r\n\r\n```sh\r\nnpm install foo\r\n```\r\n\r\n## Git-npm\r\n\r\nInstall registry module from Git.\r\n\r\n```sh\r\ngit-npm install foo\r\n```\r\n\r\n## My favorite potential future\r\n\r\nInstall Git repostitory from URL.\r\n\r\n```sh\r\nnpm install https://gitlab.com/example/foo.git\r\n```",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nWhen you install a Node.js module from a Git repository apparently npm doesn't like to give you any useful information. Fun! Unfortunately both \"Wanted\" and \"Latest\" are always just \"git\", so `npm -g update` is the only way that you can reliably update.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
       }
     ],
-    "root": "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256",
-    "fork": "%+lIKSJC5RPSrWwf2/IHY6f0X+I6grc8G/ejy43BSBeU=.sha256",
+    "root": "%zjWDjmCiAQ0xtr3lqIADwP/VsTzDzVQ9JFUZ0VUl1ps=.sha256",
     "branch": [
-      "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256"
+      "%zjWDjmCiAQ0xtr3lqIADwP/VsTzDzVQ9JFUZ0VUl1ps=.sha256"
     ]
   },
-  "signature": "GGk3nGLe9D0yglfemilhWbDfyxPOCijQXdt1pKC9Bzq5sP332xG3WGiiq76iOttAVUxhIwIKDF7lzRZP2NCmBw==.sig.ed25519"
+  "signature": "qeK7ECpHuY0UoqHqgCG6xi7sfI9cersFVNlgzrCql6nyEJqlco0Uvm/OU20hHg0JTmD7J3Z65r3LzEMNJEX6AA==.sig.ed25519"
 }
