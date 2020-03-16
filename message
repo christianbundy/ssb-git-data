@@ -1,22 +1,27 @@
 {
-  "previous": "%pZopBjRb7T3o1WIo/7/x2AQrBzU2aDgkWqECG6bhdHs=.sha256",
-  "sequence": 16504,
+  "previous": "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256",
+  "sequence": 16505,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584380388014,
+  "timestamp": 1584380568435,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nAlternatively: JavaScript is an interpreted language, so let's just ditch the \"registry\" thing and depend on Git repositories instead. Npm already supports this, we just need to fix our `package.json` files. [Shameless plug: **git-npm**](https://github.com/christianbundy/git-npm).\r\n\r\n(This is an early prototype, but if I could hack this together out for my own research I'm sure we could build a more polished solution out of necessity.)",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nOn second thought, that wasn't super clear:\r\n\r\n## Current\r\n\r\nInstall registry module from registry.\r\n\r\n```sh\r\nnpm install foo\r\n```\r\n\r\n## Git-npm\r\n\r\nInstall registry module from Git.\r\n\r\n```sh\r\ngit-npm install foo\r\n```\r\n\r\n## My favorite potential future\r\n\r\nInstall Git repostitory from URL.\r\n\r\n```sh\r\nnpm install https://gitlab.com/example/foo.git\r\n```",
     "mentions": [
       {
         "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
         "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ],
-    "root": "%+lIKSJC5RPSrWwf2/IHY6f0X+I6grc8G/ejy43BSBeU=.sha256",
+    "root": "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256",
+    "fork": "%+lIKSJC5RPSrWwf2/IHY6f0X+I6grc8G/ejy43BSBeU=.sha256",
     "branch": [
-      "%NwvssC7E2/ywWi0z3DmKwlmc6B4LyJefn5FEmTIT4Gk=.sha256"
+      "%ANwQ6GzAUPoEdp61YDityt7omE6crn7eBfvtHvTnTNc=.sha256"
     ]
   },
-  "signature": "Y1MiizNlH9YMK5RE9wyob/AA+s0C/yLHpI5IH+ycxa4cWc5p0GgGpDBhfweia94+dZOD3+H165gv6v80KD7WDQ==.sig.ed25519"
+  "signature": "GGk3nGLe9D0yglfemilhWbDfyxPOCijQXdt1pKC9Bzq5sP332xG3WGiiq76iOttAVUxhIwIKDF7lzRZP2NCmBw==.sig.ed25519"
 }
