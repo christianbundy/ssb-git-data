@@ -1,22 +1,22 @@
 {
-  "previous": "%qjsLM70G5R16p+6N1g4v17jZi0t7oEerOOytMnTLGBo=.sha256",
-  "sequence": 16516,
+  "previous": "%R//b0pqne6zbXBAI2pMG01+zzoQzgzqVPLFlV/egt0s=.sha256",
+  "sequence": 16517,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584473426320,
+  "timestamp": 1584473517260,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@elavoie](@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519)\r\n\r\nSSB-Server and other SSB services that implement MuxRPC are very comfortable connecting to peers with different keys, which is the basis of replication.\r\n\r\nWhen you use SSB-Client to connect to your local SSB service, the peers do a [secret handshake](https://secret-handshake.club/) to determine the identity of the other peer. If you use your own keys to connect to your own SSB service (like how Patchwork, Oasis, Patchfox, etc do it) then it'll let you run any command over MuxRPC. (You can add other trusted keys with [SSB-Master](https://github.com/ssbc/ssb-master), which are treated as \"masters\" with full access to all commands). If you're connecting to an SSB service with newly generated keys, you can only call `createHistoryStream()` and sometimes other basic public methods.\r\n\r\nIs that helpful, or did I get off-track?",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nWhat are you going to bridge with? I've wanted to set up Slack bridges but you need admin privs IIRC.",
     "mentions": [
       {
-        "link": "@IgYpd+tCtXnlE2tYX/8rR2AGt+P8svC98WH3MdYAa8Y=.ed25519",
-        "name": "elavoie"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
       }
     ],
-    "root": "%0fPly4Y6vOmx6l5E4ZozP6A/8pv0zgQOSiOTl/zvPEw=.sha256",
+    "root": "%pZopBjRb7T3o1WIo/7/x2AQrBzU2aDgkWqECG6bhdHs=.sha256",
     "branch": [
-      "%YoJ9Xs1Sw/+yNC5JNEtzQPzfk1hObH6fUX8Xku8P8Ao=.sha256"
+      "%lfWckVFJuRSykOnMG+mlBZ8o8PyStoPEucwvJPytY5I=.sha256"
     ]
   },
-  "signature": "9wvugO8fJnd5ysT936FG9vPopfIyn4HtD7S2PAtJSuBdCe+DzHR+V0bXL7o+BGLPyKvNaju5N9NPJECzbt9uBw==.sig.ed25519"
+  "signature": "4xRmF6wnh/0vexvbZLmKMRDNv08fskcug5xLSa30qGf0V/7BXA7poxxXemPJL0gzNdH7hbOH+cU6NID2nnHlDQ==.sig.ed25519"
 }
