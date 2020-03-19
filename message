@@ -1,22 +1,18 @@
 {
-  "previous": "%TeFzWuDFkXOs60krl+c6Uv7/Ui0kcCI/cgtVNp9E8qc=.sha256",
-  "sequence": 16534,
+  "previous": "%7pIW3ZHDPudH0fPokOU0lMeUVIXeZbLHGJpYpnSD9eo=.sha256",
+  "sequence": 16535,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584630306665,
+  "timestamp": 1584630583327,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cryPhone📱](@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519)\r\n\r\nYeah, SSB-CONN has the same `autostart` config property as SSB-Gossip, so Oasis already has `--offline` if you want to be 100% offline. We have full-bandwidth mode and no-bandwidth mode, but it's not clear to me what \"low bandwidth\" would be.\r\n\r\nI think we need testing to see how much bandwidth we save with each tactic, but hypothetically we could disable new blob wants pretty easily if that's the most useful thing. The hard part would be to keep the blob subprotocol from uploading blobs if someone else sent a want.",
-    "mentions": [
-      {
-        "link": "@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519",
-        "name": "cryPhone📱"
-      }
-    ],
-    "root": "%/JBV2eL02b5xHH47Qyq/GneQroE808KYaw7LFWuQLiQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%LJmLG0QBDrqKmHB1ejet62RwrgMOZVQHJYTZmVmkdnE=.sha256",
+      "value": 1
+    },
     "branch": [
       "%LJmLG0QBDrqKmHB1ejet62RwrgMOZVQHJYTZmVmkdnE=.sha256"
     ]
   },
-  "signature": "GwuGsKn6uq0FiKFLaQYav5IA4kgDHICYQRwp/ylbRKAk8lZ2bPwVZeekFLRNblTqAwq8UxKnToSyqQdBohbXCA==.sig.ed25519"
+  "signature": "cQJhmCg8MtOyXc50RVqsgDtcQs/FL0Cw9IzsLLg+qJAiKmieB4mGmO4igQkCZHS9f7NA896V+yqFBNG0OGQxAQ==.sig.ed25519"
 }
