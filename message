@@ -1,18 +1,23 @@
 {
-  "previous": "%7pIW3ZHDPudH0fPokOU0lMeUVIXeZbLHGJpYpnSD9eo=.sha256",
-  "sequence": 16535,
+  "previous": "%tkOBjlXx/GbOO7sHYZOzuWeSnMWpmnSK5rfsk/jlGxQ=.sha256",
+  "sequence": 16536,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584630583327,
+  "timestamp": 1584630729520,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%LJmLG0QBDrqKmHB1ejet62RwrgMOZVQHJYTZmVmkdnE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nYep, or you could do:\r\n\r\n- Just before closing your SSB client, check your latest `sequence`.\r\n- When opening another client, don't publish until you've downloaded the latest message from the other client.\r\n\r\nThe problem is that this is super fraught and dangerous, and I'd strongly recommend against it. I think we should just solve this problem in our applications. :)",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      }
+    ],
+    "root": "%BNUDsh5uirSfQKIFNMKx50YEmUC6V+W6YSqxPcK+1mg=.sha256",
     "branch": [
-      "%LJmLG0QBDrqKmHB1ejet62RwrgMOZVQHJYTZmVmkdnE=.sha256"
+      "%TUW8N8yIGduLrD5GTDdRDxCx0Q2rbSIlegvq94Zl4VQ=.sha256",
+      "%yK/8KHVziV1z5EkMEogqKkwdRA8qQMKZSVmUMWqWum8=.sha256"
     ]
   },
-  "signature": "cQJhmCg8MtOyXc50RVqsgDtcQs/FL0Cw9IzsLLg+qJAiKmieB4mGmO4igQkCZHS9f7NA896V+yqFBNG0OGQxAQ==.sig.ed25519"
+  "signature": "77nspnYIkUfwwbtNwqcJkcsPYkLU8lrUwwziyma6XbL+x2xZFaODvlQGs5/KjKHnJDDzGJtdeZy7dRhLYR49DQ==.sig.ed25519"
 }
