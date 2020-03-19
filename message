@@ -1,13 +1,17 @@
 {
-  "previous": "%KmXUGXPGYdtEzh6/NTtSgQ0oncolEQD1K+hA9K4FC8M=.sha256",
-  "sequence": 16552,
+  "previous": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+  "sequence": 16553,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584640629482,
+  "timestamp": 1584640740293,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "After spending lots more time on Mastodon recently I find myself wishing that Scuttlebutt had a maximum message size, or at least *some* way to distinguish between ~chat messages and ~blog messages.",
-    "mentions": []
+    "text": "(I know that we have `{ type: \"blog\" }`, but that's just a way to bypass the hard limit on message sizes. I'm looking for more casual and lightweight conversations instead of monologuing paragraphs at each other.)",
+    "mentions": [],
+    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "branch": [
+      "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256"
+    ]
   },
-  "signature": "x1Nkg82SRU1XJ/HINPOX3gg9nSDPCiQwVK2brLgkFec9cL4yHl0LuB885cYYZp8VIklTqe0YF0Bwsj2fwznRBw==.sig.ed25519"
+  "signature": "LXVqEb+zYIjSwOP4hoaX0UtD5zRHpQgYTYz3/Qh4l3VXRhRA7KJxYNC8EJEi+NIcp8R15Z7WuU9m2PtQhZ4lBg==.sig.ed25519"
 }
