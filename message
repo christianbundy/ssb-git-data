@@ -1,22 +1,22 @@
 {
-  "previous": "%lIVPCwVUu02k9UdCHxyt6z549MSnTrSgScWt6LGAHVw=.sha256",
-  "sequence": 16533,
+  "previous": "%TeFzWuDFkXOs60krl+c6Uv7/Ui0kcCI/cgtVNp9E8qc=.sha256",
+  "sequence": 16534,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584629266096,
+  "timestamp": 1584630306665,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cblgh macbook](@Nimne370pzdfql7dXir1lNte7a1A0GRA1JLg0ssnu6A=.ed25519)\r\n\r\nI think that's just a graph, but if there's a word for this I'd love to learn it.",
+    "text": "[@cryPhone📱](@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519)\r\n\r\nYeah, SSB-CONN has the same `autostart` config property as SSB-Gossip, so Oasis already has `--offline` if you want to be 100% offline. We have full-bandwidth mode and no-bandwidth mode, but it's not clear to me what \"low bandwidth\" would be.\r\n\r\nI think we need testing to see how much bandwidth we save with each tactic, but hypothetically we could disable new blob wants pretty easily if that's the most useful thing. The hard part would be to keep the blob subprotocol from uploading blobs if someone else sent a want.",
     "mentions": [
       {
-        "link": "@Nimne370pzdfql7dXir1lNte7a1A0GRA1JLg0ssnu6A=.ed25519",
-        "name": "cblgh macbook"
+        "link": "@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519",
+        "name": "cryPhone📱"
       }
     ],
-    "root": "%bP+soh/7VtkChdSnFDCv24kgduSC7e56E8FLexotkeM=.sha256",
+    "root": "%/JBV2eL02b5xHH47Qyq/GneQroE808KYaw7LFWuQLiQ=.sha256",
     "branch": [
-      "%bP+soh/7VtkChdSnFDCv24kgduSC7e56E8FLexotkeM=.sha256"
+      "%LJmLG0QBDrqKmHB1ejet62RwrgMOZVQHJYTZmVmkdnE=.sha256"
     ]
   },
-  "signature": "cFxHONQHfomyYqS3IstqlejIB+cesp+ttcbgw7rJAtsqlOjm4O/MY9uf8ILlwLBeYmINdxx4zL8e4Da7UETABg==.sig.ed25519"
+  "signature": "GwuGsKn6uq0FiKFLaQYav5IA4kgDHICYQRwp/ylbRKAk8lZ2bPwVZeekFLRNblTqAwq8UxKnToSyqQdBohbXCA==.sig.ed25519"
 }
