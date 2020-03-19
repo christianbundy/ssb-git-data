@@ -1,23 +1,18 @@
 {
-  "previous": "%WkZG3yfBuO2g7UsvfXlMIdErDDyaVYlK9a07X25lHJw=.sha256",
-  "sequence": 16561,
+  "previous": "%yhRoWwM6XZYjMZNa7aNzRraT7bwUrcaxP/rj69i6iNY=.sha256",
+  "sequence": 16562,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584653301244,
+  "timestamp": 1584653337035,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nYeah, my preference was to copy ActivityStreams and call it `summary` instead of `contentWarning`, but it's unlikely that we'll change it now. I'd be comfortable calling it \"summary\" or something in the UI instead.\r\n\r\nI know that Patchwork has a maximum size in pixels, and I've been considering doing the same in Oasis as well. My main concern is making sure that our \"show more\" doesn't add problems for people using Lynx/etc. Title only would be *sweet*, I've hacked on this a few times but haven't shipped anything.",
-    "mentions": [
-      {
-        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
-        "name": "Johan"
-      }
-    ],
-    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%npE9Zx1Ztn+n4d7ELJ/DSmVffkgpvW355N818tLJMls=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%X8nQL7ncFl8Zv1lPYDzJwqN8LTOyHcbXwFBQq4kP3no=.sha256",
-      "%bOph08mFGT7XjMWiRAepbeWKKO3eu+RbV52Ux7yiCns=.sha256"
+      "%npE9Zx1Ztn+n4d7ELJ/DSmVffkgpvW355N818tLJMls=.sha256"
     ]
   },
-  "signature": "GEQIFhsM0h+7PVEZPz5YGKFc2PPXsbbatYi1GRfI+Equs9TvAGVHZ09SMIHxptwcscTZRTnaVao/39MMx9jBBA==.sig.ed25519"
+  "signature": "wB39wPOr7xi9Jk8kuCpkdbcUfJ6Bcz7bQPiEJRMkeqJjh12GXDkboMc43qs+ki4RxpCEntst4cj1gvBudGBqBA==.sig.ed25519"
 }
