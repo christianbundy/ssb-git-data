@@ -1,22 +1,18 @@
 {
-  "previous": "%BKijr9dNSHfkY6A/k7316vkkuaNOsZLE+G8GBBoZWmI=.sha256",
-  "sequence": 16568,
+  "previous": "%2bdeFgvAzhz7FDFSsOS4Fjy4znNsX0XF8Ym+15B6JCY=.sha256",
+  "sequence": 16569,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584724966225,
+  "timestamp": 1584725980248,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@crabmusket](@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519)\r\n\r\nYeah! I actually had some code that would only show the first paragraph until you opened the `<details>`, but there were a few funky bits:\r\n\r\n- Lots of people (like me!) use the first line of comments to address recipients, so you'd want some way to detect that? Or maybe that's not a good practice? I'm not sure. It works well in my brain but it might be a personal thing.\r\n- Some people post one super-long paragraph, so you'd be showing all of that. Maybe you take only the first sentence? I'm tempted to point out that periods aren't universal sentence delimiters, but I'm sure *someone* has a list of sentence delimiters somewhere (`/[.?!]/` maybe).\r\n- I swear there was another issue but I can't remember what it is. 🤔 Guess I'll have to implement it again to find out!",
-    "mentions": [
-      {
-        "link": "@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519",
-        "name": "crabmusket"
-      }
-    ],
-    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%9M3KSMrxigeIxJDIdVgm9HmBL7dg71eHMVnGYwDbByI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%iCZdDYazaO7kIoXVXQV6GhtZwQOH29LSWbWc9w9pfn0=.sha256"
+      "%9M3KSMrxigeIxJDIdVgm9HmBL7dg71eHMVnGYwDbByI=.sha256"
     ]
   },
-  "signature": "HmzsI1TNkq1Ac5ZNrGzGUAaFym9URP30JlcX78w5+xmCUqNT/L4IN7eqiU3tu+xx0Ooq7QWqgvYwUzMveUCwAQ==.sig.ed25519"
+  "signature": "Aesmsoe0aUCJFpjcvp9LWEyCfsniQbiEKl/5tUJXMJtFodHxuHRHEDUfk9otFwW1DH0rqVa+2rU72uZjdoA8AQ==.sig.ed25519"
 }
