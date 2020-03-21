@@ -1,13 +1,24 @@
 {
-  "previous": "%0lKYh+Aa9xorcBerX6rAnoXKj3tzdxp4dAB+5ZyTWoA=.sha256",
-  "sequence": 16587,
+  "previous": "%j/mS66aET5iQtbEuTqEHMLTwyBehOxju0KK01vWgoUQ=.sha256",
+  "sequence": 16588,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584754041018,
+  "timestamp": 1584760198061,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "All Day I Dream About Git",
-    "mentions": []
+    "text": "I had a terrible thought and then I wrote some terrible code. It worked!\r\n\r\nBasically I've used an `<iframe>` that points a page called `/messages` which streams the messages over HTTP as they're published. Instead of doing the JavaScript thing where we poll the API every second, we just have a never-ending HTTP response that we can embed in the page.\r\n\r\nYou can see the [crappy source code](https://github.com/christianbundy/html-chat), but I'll keep up a [crappy web demo](http://35.223.151.20:3301/) for a few hours if anyone wants to play with it. You can stream the `<iframe>` source [here](http://35.223.151.20:3301/messages) to see what's happening behind the scenes. Please note that this has very little security (just a CSP), and messages can be written by anyone with the URL, so please consider whether your security model allows you to use random prototype chat software where anyone can publish messages.\r\n\r\nP.S. I used [Filigree](https://cinnamon-bun.github.io/filigree-website/) and it was very fun. Highly recommend.\r\n\r\n#hacks #filigree",
+    "mentions": [
+      {
+        "link": "#hacks"
+      },
+      {
+        "link": "#filigree"
+      }
+    ],
+    "root": "%ODU+O1jaEIUs1mT3DDE1jqjDEec1law65kkaeGd3lT4=.sha256",
+    "branch": [
+      "%0lKYh+Aa9xorcBerX6rAnoXKj3tzdxp4dAB+5ZyTWoA=.sha256"
+    ]
   },
-  "signature": "TOMEjlmlGdtooIGF0in/ksL09GqJChRRxtVG1s4OLNfn09HlzoxX3iEG79DPvRgpCgenBbkO0N2VH4eT+uq3BA==.sig.ed25519"
+  "signature": "mShbBWKB4UgSxgD896vItroEup4yxSK0t+0VeYlDw7M8NKMhxL+Xdeg4JwJGb6dF1Yak+smVeg0YpXPcz691AQ==.sig.ed25519"
 }
