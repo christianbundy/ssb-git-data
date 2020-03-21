@@ -1,23 +1,17 @@
 {
-  "previous": "%vS3wmWNNUvHLCzLSuusB2O5IeAXt0Q7bfp/MMSQ5FoU=.sha256",
-  "sequence": 16584,
+  "previous": "%ODU+O1jaEIUs1mT3DDE1jqjDEec1law65kkaeGd3lT4=.sha256",
+  "sequence": 16585,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584753290216,
+  "timestamp": 1584753419879,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Can anyone point me to a good example of a chat app that just uses HTML and CSS, no JavaScript?\r\n\r\n#html #chat #ssb-dev",
-    "mentions": [
-      {
-        "link": "#html"
-      },
-      {
-        "link": "#chat"
-      },
-      {
-        "link": "#ssb-dev"
-      }
+    "text": "I know that I can just refresh the page with a `<meta>` tag, but I think that clears the `<input>` so if you're typing a message it gets lost. I could also use a frame/iframe and only refresh that, but I'm afraid that it would reset your scroll buffer and mess with people trying to highlight or copy messages with their cursor.",
+    "mentions": [],
+    "root": "%ODU+O1jaEIUs1mT3DDE1jqjDEec1law65kkaeGd3lT4=.sha256",
+    "branch": [
+      "%ODU+O1jaEIUs1mT3DDE1jqjDEec1law65kkaeGd3lT4=.sha256"
     ]
   },
-  "signature": "YnV54TviSFvVXy9XUCZ667QMYAzur44cemNWPXgAiBIPkglKn0d/M4rZ3sWh7O142lPUQA8TwrbJTmNwlDjtCg==.sig.ed25519"
+  "signature": "6CrlAZjryoDWPKmFQzgleSTktsSf+FXiovzmiDx/cVaAMThOpB1M8T3J45D/6mJM3jHHOL0QFpueTIGqsTx+BQ==.sig.ed25519"
 }
