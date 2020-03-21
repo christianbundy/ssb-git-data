@@ -1,23 +1,18 @@
 {
-  "previous": "%k3fHVeI0XYD1SYTsldEf2AYCqrntJNlUe+UFJTz+N+k=.sha256",
-  "sequence": 16602,
+  "previous": "%WLU9hNdK7oxMU1b7Omm0znYbZsblc4YNPuM0SAh8F2A=.sha256",
+  "sequence": 16603,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584826607016,
+  "timestamp": 1584826668126,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\nHonestly the only thing missing is content-addressable networking. If I could say \"hey I'd like commit a6e3b2c\" and receive a Git packfile I'd be so happy.",
-    "mentions": [
-      {
-        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
-        "name": "af"
-      }
-    ],
-    "root": "%hOLNynGWvDFmk7wqvBVLI8TG91LL0xRmtnK0TRSME+M=.sha256",
-    "fork": "%j/mS66aET5iQtbEuTqEHMLTwyBehOxju0KK01vWgoUQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%J0cgDJXqHDGcIdv4Ggn1HT8WwhKTbGMmIbDLiqHLSaE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%hOLNynGWvDFmk7wqvBVLI8TG91LL0xRmtnK0TRSME+M=.sha256"
+      "%J0cgDJXqHDGcIdv4Ggn1HT8WwhKTbGMmIbDLiqHLSaE=.sha256"
     ]
   },
-  "signature": "ze99rLFX4iVgxPGqxXwZ6g/mbVzVls6ohzXXmYtDNcjIZ5vJGgPEh3z/KS+1YAU95iDnqtxzxNJwNuj3dBwVDg==.sig.ed25519"
+  "signature": "/FngLcYq13FFh3crD+FMMNB+v5HW/NT3+5uxb5Q1WdquU8mRJK4fvWS46vj93aOcxZV7sp7poZAnBQfliq7uCQ==.sig.ed25519"
 }
