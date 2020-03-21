@@ -1,18 +1,22 @@
 {
-  "previous": "%NKippuCkN/n0RWfDfa5zumcn8+OpKvOKAnOd7hOUUXU=.sha256",
-  "sequence": 16596,
+  "previous": "%mevVlqVfC/L9pa/2EStnrK2uioS4+ODAlWZMRr47Qwk=.sha256",
+  "sequence": 16597,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584825274284,
+  "timestamp": 1584826429643,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hxtT+R3QIRYLphwE6EOm/InZO1rbgq6AsNNsQZVeUx0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@gwil](@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519)\r\n\r\nIt's mostly just security and sanity -- once you have a content security policy that forbids browser JS then you can cross off lots of exploit vectors *and* you can be sure that you can do introspection with boring tooling like `curl`.\r\n\r\nI'm not super opinionated about it, I've just been experimenting with it for a bit with Oasis and it's made debugging lots easier, so I'm trying to see where the limits are.\r\n\r\nTo be honest, I also like the idea of my web browser being a renderer rather than an interpreter. It'd be weird if images or videos had their own programming languages that could get stuck in infinite loops, and I like the idea of avoiding JS whenever it's convenient.\r\n\r\nI don't really have strong feelings on it, but I'd love to hear if you do! Do you have thoughts / feels about browser JS stuff?",
+    "mentions": [
+      {
+        "link": "@PEqxT8YRvrkf2fyjAgTl8pmdo8aR4KVsKLyh0b5JyOE=.ed25519",
+        "name": "gwil"
+      }
+    ],
+    "root": "%ODU+O1jaEIUs1mT3DDE1jqjDEec1law65kkaeGd3lT4=.sha256",
     "branch": [
-      "%hxtT+R3QIRYLphwE6EOm/InZO1rbgq6AsNNsQZVeUx0=.sha256"
+      "%ylPxQ7u5mjOVv7MuGmI//WRtDQwf1ax7XfnSJ8uhbEk=.sha256"
     ]
   },
-  "signature": "v72jmvQwboP7oo+2H2x32KpqJO7234d4eOsXDEA1T8muOmTFk8u6jRkcBT+45+VliyiweY21hpW+d1IB2k+PBg==.sig.ed25519"
+  "signature": "8bfGMvJWVzkgBjCV4tU+ffDHvOUAD1uXPj+6W5SkMVRjIqAHFHoYR/9eP6celSqvpSd1sWvtc7uTKbpVofrbCg==.sig.ed25519"
 }
