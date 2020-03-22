@@ -1,18 +1,22 @@
 {
-  "previous": "%/xiHhkJysrOheOWQCWIne7M3S3lpn/zTaWIE1oagNs4=.sha256",
-  "sequence": 16606,
+  "previous": "%HVZZnxshbgPN1bEenPz4frFm5q+3hYc4DLv8IDaK6fY=.sha256",
+  "sequence": 16607,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1584831367089,
+  "timestamp": 1584837348336,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%cboRHFFGQuDBCjVmEdiUtejWyWFh6iWOh2MNpj/e+kI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nYeah, it's just that unfortunately I can't get the code to build on any recent versions of Node. I worked on [this branch](https://github.com/cjb/GitTorrent/pull/86) just trying to use the project's linter and figure out what might need to be fixed, but I lost some interest after working through the code.",
+    "mentions": [
+      {
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
+      }
+    ],
+    "root": "%j/mS66aET5iQtbEuTqEHMLTwyBehOxju0KK01vWgoUQ=.sha256",
     "branch": [
-      "%fh9tdxOcte/bsFp7R96LpqdeZnyLvGublx+I+qG5Mq8=.sha256"
+      "%aeMlq3S2N+BqZ4N0DIZsiLcDB114cO8jzeSaWiaYRDo=.sha256"
     ]
   },
-  "signature": "iLRG+EBl7G8yRmM+ag5jcyS0388WxSadFq9i7anEUAWFMMtqwm6gsE6dRtp/nr/swXLgxmaEfaqpuvWwThujAQ==.sig.ed25519"
+  "signature": "HLMV3c1td8rY2K2N9O11KHtrwFdNGqg4Pt60pmXMoD3qODrv0lMpm4RvwAKR2PaaVkDzze2HFZvzA+J3mKQuBA==.sig.ed25519"
 }
