@@ -1,22 +1,18 @@
 {
-  "previous": "%kd4ITaGOqo8J25sWcNyeJbBqhJ+f6XIFYLEWXuchslI=.sha256",
-  "sequence": 16619,
+  "previous": "%QMBkQLxna2eOrJY2xpvqbHw46BbNm+kljlFERa0Xis0=.sha256",
+  "sequence": 16620,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585018868933,
+  "timestamp": 1585019658197,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Mario (☁️cloud)](@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519)\r\n\r\n1. Yes!\r\n2. No, it's only your list of network peers. Your follow list is backed up in your feed, which you need `~/.ssb/secret` to recover.\r\n3. Yes, as long as you bring both `~/.ssb/secret` and `~/.ssb/conn.json`. Bonus points for backing up `~/.ssb/flume/log.offset`.",
-    "mentions": [
-      {
-        "link": "@7nrftNhrzRtAhjpLqY1wiUq000t3ZNEq6RLGlJQtYdo=.ed25519",
-        "name": "Mario (☁️cloud)"
-      }
-    ],
-    "root": "%/0KpTVGpaue0VNuKHPFeakT59Ka8yKaUfts315yMrGI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%dn4FJ2w7cJ2ZRshGRqr+5ZNBzluxNynBGqt4I9uCU98=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%/0KpTVGpaue0VNuKHPFeakT59Ka8yKaUfts315yMrGI=.sha256"
+      "%dn4FJ2w7cJ2ZRshGRqr+5ZNBzluxNynBGqt4I9uCU98=.sha256"
     ]
   },
-  "signature": "AyGitUkjH9afh6dNVdeHUGQ4cwySwLoGxmK8rbwe610oOEiX+W+AhAnGYi2UDJyGFsBRUMurr5yReNu9MJ+SDQ==.sig.ed25519"
+  "signature": "sHIgZL57Q6KVCJQuj8fUG0hNF0EBN8X4vpYWzsxo58hsSH0ykKcM4ZZhL/Sm6yEfdwjFGyzM/ugge1WHuZ1zCg==.sig.ed25519"
 }
