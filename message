@@ -1,23 +1,18 @@
 {
-  "previous": "%t10q/LJ68T40FJGroKD4uFqdjdzBnGlSoL6VEZxdNTY=.sha256",
-  "sequence": 16632,
+  "previous": "%0nQ3dRRO/8DJmxKPr77j6WQN5gVk3Kf2oPmUCARZe/8=.sha256",
+  "sequence": 16633,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585087552030,
+  "timestamp": 1585087648421,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@RhymingPumpkins](@C3HC4X2YxDReA8BBErd8LNisaic5r2XLjBt+AEIGgBo=.ed25519)\r\n\r\nI bumped into [Ratman](https://docs.rs/ratman/0.1.0/ratman/), which seems to be under the Qual umbrella, and it looks interesting. It seems to create an overlay network for people with ed25519 keys (like SSB users!), so that you can *automagically* connect to peers based with only their public key.",
-    "mentions": [
-      {
-        "link": "@C3HC4X2YxDReA8BBErd8LNisaic5r2XLjBt+AEIGgBo=.ed25519",
-        "name": "RhymingPumpkins"
-      }
-    ],
-    "root": "%6ligxbr4DgHxlTjCCQNQaH/F3xOSmv7AQsBiLymfEcY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%WNNHLGFC2ky1sHaH5HI89Q3TwsEvvEQyVqLOEorD7H8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DFLFLa6jKoc+5pAo8rGYeHZfdRPKMB2Qqa7YHiFzETM=.sha256",
-      "%mPMrtGN/88vPKHvGzJX/koJVjhHez2f650yOKGcHryU=.sha256"
+      "%WNNHLGFC2ky1sHaH5HI89Q3TwsEvvEQyVqLOEorD7H8=.sha256"
     ]
   },
-  "signature": "Ty40lil7C4t7y4cIlWvEIESjgiOVLGVGFx44s/a6MLU7Bi4ICWmr2kfM0Rpd/ahTKRaJrr/mJq80BKwI4ZeXBw==.sig.ed25519"
+  "signature": "dnNMJ8RcLBxRp+lXAbYsykmVODX0QDW6VeWXfIQ4JEZHdefNXy/lpa5+yHAk8k2FSy7r96vNNlxttgj537pHCA==.sig.ed25519"
 }
