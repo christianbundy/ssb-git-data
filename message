@@ -1,19 +1,23 @@
 {
-  "previous": "%KV5n6oZd4b8v4WSn/wxK6ZkzAOZz7SzXmntr36cv4qQ=.sha256",
-  "sequence": 16629,
+  "previous": "%+6oqmdmtH+DYKoWGw1JfSapc5kuaWjaujvmlPNjqMCY=.sha256",
+  "sequence": 16630,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585072568107,
+  "timestamp": 1585073152172,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sYINtHQgXbWbMXvjpg5QbWEupkQaqks9HfMWCew2pYQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@zelf](@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519)\r\n\r\nBig hmm. These words got me:\r\n\r\n> It has the fastest, most secure encryption algorithm of any chat app.\r\n\r\nTheir [\"how it works\" page](https://beechat.network/how-beechats-encryption-works/) seems to double down on this claim:\r\n\r\n> [...] BeeChat uses the most advanced yet simple encryption of any chat application.\r\n\r\nI'll look at their code when it's released (on Dominic's birthday, right?), but I have to admit that I'm super skeptical. Clicking around the website took me to the forum, which has 1 member and 1 post, but when looking at their profile another menu item popped into the nav bar: [Artificial Intelligence](https://beechat.network/artificial-intelligence/).\r\n\r\nLast note: I did a quick web search and the only thing that came up was [their announcement post... on 4chan](http://boards.4channel.org/g/thread/75148547/beechat-network-p2p-encrypted-comms-april-release). I am very very very very very very skeptical of this project.",
+    "mentions": [
+      {
+        "link": "@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519",
+        "name": "zelf"
+      }
+    ],
+    "root": "%sYINtHQgXbWbMXvjpg5QbWEupkQaqks9HfMWCew2pYQ=.sha256",
     "branch": [
       "%2GG05zjVZWzGFKLAIqhjW5acsVPW0XLgEUgC9R5dk68=.sha256",
       "%CFtKC5jFXfqkfteftJQSjpvY/pVgXxG2bFzd+ZScvt8=.sha256"
     ]
   },
-  "signature": "7NCqsXbce1wj/Hk2ZwMndYUGPIk+r4/cFz3R1ae6zYQdLMz8/eyv/1yF7Tnvs9SuUn0GB4tOLy79Mf4er0hHDw==.sig.ed25519"
+  "signature": "thgckjTPc76tjXyQEl+NB0Ld8RDdd4/eULySOG4NgVy4u2ZHM3/yhfko4Zf1E8zLygZ2gY8cyl6ByVPXG5PLBA==.sig.ed25519"
 }
