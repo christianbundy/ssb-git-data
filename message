@@ -1,23 +1,18 @@
 {
-  "previous": "%Fv01furarr5nRh6ItgqI1G5eRQcupX+ZRlUdRo1tvTs=.sha256",
-  "sequence": 16661,
+  "previous": "%pmzEH+62Gnqm+fix4dYDUJxJcT0KkQoL0a7X/tqlzMA=.sha256",
+  "sequence": 16662,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585241875785,
+  "timestamp": 1585242119515,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nYeah, that's the `{ type: 'blog' }` message -- it lets you bypass the post limit restriction by putting the text in a blob (maximum 5 MB), but its support is very spotty and it doesn't get indexed like messages (so its content doesn't show up in search/etc).",
-    "mentions": [
-      {
-        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
-        "name": "Johan"
-      }
-    ],
-    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%WCzn4NEcsG2yY/5F6tFN3ti5O/Klmb1EyWInqkCtitY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%LKT/VsAafeTPEAA0n8QOKtHQbTcaSNmkHNCncXw311w=.sha256",
-      "%TrXb1f9zIWABfzMbUTWBqNpGNHi7qVGR4WLNhuurqT4=.sha256"
+      "%WCzn4NEcsG2yY/5F6tFN3ti5O/Klmb1EyWInqkCtitY=.sha256"
     ]
   },
-  "signature": "umbhB3EvY9d+tL9BzI4Yk4PhtEPBoGWGoMkibvTDqOTFrUsnUCTDaD/CYdsgIltwfQZ2LNUlz8+E8OTkNq30CA==.sig.ed25519"
+  "signature": "xJ5CeqDcyc32iRPeewHUEZ4V4lhujvcqS35dNxpH+5RxUUkKrEqItwoctLnc5uSjSgiGSKfX8iqv9D4EQ46nBg==.sig.ed25519"
 }
