@@ -1,23 +1,22 @@
 {
-  "previous": "%Yy7G0q0MiQyW61ZzRIEU/cDK/7PwZTI6OQswDJuRV+E=.sha256",
-  "sequence": 16703,
+  "previous": "%UXm01pB3eMQVzcNJqOm+/nu+Ui5LqUjFhIWoOyFW/X0=.sha256",
+  "sequence": 16704,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585325730171,
+  "timestamp": 1585328482604,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Francis](@aFLy2SG1AbOJKCHuIDbKPT1Cw6dYllH6NMd9GCXB7Fc=.ed25519)\r\n\r\nWow, thanks for showing me this -- I had no idea!",
+    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nI think this might be [a bug in the JS implementation](https://github.com/ssbc/ssb-invite/pull/10#issuecomment-560520032). There's a bunch of inter-process magic going on where some functions are modifying the behavior of other functions, and it sounds like there's a problem with the order in which plugins are loaded.\r\n\r\nMy understanding is that SSB-Master, the plugin which decides which public keys can run which methods, has a bug where it only authenticates plugins that are loaded after it. The SSB-DB plugin provides `whoami`, but it looks like [Patchwork loads that before SSB-Master](https://github.com/ssbc/patchwork/blob/e0870c4c3935888c009c46ba549bdb3598460ac1/lib/server-process.js#L23-L27), which would trigger this bug.\r\n\r\n(Note: This bug only happens when connecting over MuxRPC, and since lots of the JS stuff runs in the same process lots of code breaks when you run it over MuxRPC. For example, SSB-CONN's db / hub / staging / query methods [don't work over MuxRPC at all because they return JavaScript objects](https://github.com/staltz/ssb-conn/issues/9#issuecomment-554491720).\r\n\r\nIn my code I've started [aggressively shuffling plugins](https://github.com/fraction/flotilla/blob/6c16f217a557681eaa4c6fa5b7990d966d1996ca/index.js#L6-L36) to try and suss out any weird order-dependent bugs, and it might be worthwhile to start doing that in Patchwork as well.\r\n\r\nLong-term, I think the JavaScript implementation should probably drop Secret-Stack the same way that we dropped Depject and just use the boring default module loader without any clever dependency injection. For now, if I make a branch of Patchwork that tries this fix would you be interested in testing it out?",
     "mentions": [
       {
-        "link": "@aFLy2SG1AbOJKCHuIDbKPT1Cw6dYllH6NMd9GCXB7Fc=.ed25519",
-        "name": "Francis"
+        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
+        "name": "moid"
       }
     ],
-    "root": "%zVOl6K1Lb3PPfM5rpyt2h7C6AENYe8TUEvtoL0K8vjk=.sha256",
-    "fork": "%KOr+BhPLlVJWIny3wH4/QNLohkJcMutO/1rjysVxSU8=.sha256",
+    "root": "%WxmQHlNUqjukj6DklAt98mZMgW4rnpOuI+C9WqFPm60=.sha256",
     "branch": [
-      "%zVOl6K1Lb3PPfM5rpyt2h7C6AENYe8TUEvtoL0K8vjk=.sha256"
+      "%WxmQHlNUqjukj6DklAt98mZMgW4rnpOuI+C9WqFPm60=.sha256"
     ]
   },
-  "signature": "KahM8tu0Bhuisn3mB/i17i/0jC16HxTHPN4aUBozbmihiZnCF/vl8FIdfxIo4FhpHBBknPZwI0jlgmJmHbNIAw==.sig.ed25519"
+  "signature": "HEmkf45+mrl+zszFX/DnJQSC1wA7zeb9UTWxoUmWu4QYDwpkdbc+O3YomMZnFSivspBdrrd0Uae+8n0lNxiuBw==.sig.ed25519"
 }
