@@ -1,23 +1,18 @@
 {
-  "previous": "%G4EHLjJECMCZUUgC6mpUJmF2M+BfD4PIfkYwbp0dsLw=.sha256",
-  "sequence": 16688,
+  "previous": "%6jNWXf1Dzc/Z06817FJU7GRbBATJ97issoZ8sZYy/OI=.sha256",
+  "sequence": 16689,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585316615443,
+  "timestamp": 1585316625153,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nThe \"type\" property is mandatory on all SSB messages, it's just that the ones we're using now are `{\"type\":\"post\"}`. I'm not sure whether Patchwork supports reading blog posts (I think yes?) but I'm pretty sure that it doesn't write blog posts. I don't think anyone has included this yet.\r\n\r\nThere's some discussion about this [here](https://github.com/ssbc/patchwork/issues/1121), if you're interested.",
-    "mentions": [
-      {
-        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
-        "name": "Johan"
-      }
-    ],
-    "root": "%Pgl9GDzfLxoUbwAgGphnMs7Px+LNzl4a8w8HwZOHJnM=.sha256",
-    "fork": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%eg7iFKtYhq6fJc5E1Zp+bO/TijEg18DumRoNb8qEI6M=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Pgl9GDzfLxoUbwAgGphnMs7Px+LNzl4a8w8HwZOHJnM=.sha256"
+      "%eg7iFKtYhq6fJc5E1Zp+bO/TijEg18DumRoNb8qEI6M=.sha256"
     ]
   },
-  "signature": "uZGg1LnRUtZghFTuqUA5pFdvzEOARbq5+Lh+aYYNhSo5mW9fB4ybwsQ4UnM7AFljtplgON6zia4FMzXrT/+NAA==.sig.ed25519"
+  "signature": "QywEtBLTfJl5H9nMC/rxYitgWuGkqvuInFQh/CgaXtnaLPxb7VWaU2HL2tqNRSX77WDG6N0atnAtcdsCNfuiAw==.sig.ed25519"
 }
