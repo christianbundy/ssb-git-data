@@ -1,9 +1,23 @@
 {
-  "previous": "%p42H3ZTsbD2RzrJnoSK+JFf1CN9dgMvK5dh1q4BFFnk=.sha256",
-  "sequence": 16687,
+  "previous": "%G4EHLjJECMCZUUgC6mpUJmF2M+BfD4PIfkYwbp0dsLw=.sha256",
+  "sequence": 16688,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585270159297,
+  "timestamp": 1585316615443,
   "hash": "sha256",
-  "content": "xfYEEcXycgdC3Q47r5nfRH+05XY6soBhV1qjYYnMU+btrir1y07RTXV2TFpAvEuh4jvVB+lyQ0T8jdRzyD7GFRJm5zt/q4k1/tM6Y8vliVsZNjQTdXM7RalmpmQLwQSjyn99h6vlzZHUj+L/7khExKKVyTlVQ4H1Rray2APBrL9E05XYnfxZsZHfw6rjOV3oXlvQaDRCh8ZcFywZEjKhh8t5d3RMdap56l44ajKQHK/pJSqX+2VvWnbt2oyVBPE+05SX7603mzFoeU1oWe48/kPxS1VBXeSf2wavXecDUv0YO3fYriCK9JVWIAR7Vgtrmq+UmTpN5Zp/d0A9unqNsRZIMhZHn4RyIoOUs0PGbiCc7a5QYdivAApTDeGi/K6fGLhpUqXikvrsIZv9futV7yPavCRWhCI6r20HTp6Shc1Ch9HrQI+L81bNFBa5q6g0d6Avx+WsB8nLWs45S04JNceJgUmnSkqvvfo6xOyZCaLTXHjzzgXyvkditoK2MqR4PQK305rOk+5fM3lu0KpqTEFeWWTZtbZv4T6PkDTrA/2V62H1XFCKJZo0mlq+EBdF1Fgu.box",
-  "signature": "CLcfH+1wE9DP+Euc4ia423roBPpty4IQoewTjluUymouVqp/H2RSJgPAXtiZFjAL88PX1tzEeKj41ftmpYRvCA==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nThe \"type\" property is mandatory on all SSB messages, it's just that the ones we're using now are `{\"type\":\"post\"}`. I'm not sure whether Patchwork supports reading blog posts (I think yes?) but I'm pretty sure that it doesn't write blog posts. I don't think anyone has included this yet.\r\n\r\nThere's some discussion about this [here](https://github.com/ssbc/patchwork/issues/1121), if you're interested.",
+    "mentions": [
+      {
+        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
+        "name": "Johan"
+      }
+    ],
+    "root": "%Pgl9GDzfLxoUbwAgGphnMs7Px+LNzl4a8w8HwZOHJnM=.sha256",
+    "fork": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "branch": [
+      "%Pgl9GDzfLxoUbwAgGphnMs7Px+LNzl4a8w8HwZOHJnM=.sha256"
+    ]
+  },
+  "signature": "uZGg1LnRUtZghFTuqUA5pFdvzEOARbq5+Lh+aYYNhSo5mW9fB4ybwsQ4UnM7AFljtplgON6zia4FMzXrT/+NAA==.sig.ed25519"
 }
