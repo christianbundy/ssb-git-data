@@ -1,26 +1,23 @@
 {
-  "previous": "%QLgmVCoIFvfAohTlyNZLE68v0587JK6WR1+YIV/4F3Y=.sha256",
-  "sequence": 16766,
+  "previous": "%LYjDrscYhgPqpbv9lTQQBFaV3Cj8fbsKAd5M+lyZGKw=.sha256",
+  "sequence": 16767,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585515483424,
+  "timestamp": 1585515637189,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\r\n\r\n> Well, learning how to do all the async stuff in actix was pretty hard [...] I feel like I mostly get it now.\r\n\r\nDo you think it'd be fun/useful to record a call where you explain how it works? You're really great at explaining things, and I'm great at not knowing how things work (especially in Rust!), and I'd imagine that future SSB + Rust developers might hit the same snags that you do.\r\n\r\nI'm sure I'll regret this sentence, but: building a small parser in Rust sounds fun! Plus since you have a good-enough implementation, it sounds like it's something I could tinker on for a while without any rush. Maybe I could talk [@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519) into helping me suck less at Rust while I'm at it.",
+    "text": "[@glyph](@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519)\r\n\r\nThank you! That looks surprisingly reasonable, I've just bookmarked that tutorial. Is there a library that's already emerged as The Library For Building Command-line Interfaces, or do most people just write them from scratch?",
     "mentions": [
       {
-        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
-        "name": "Piet"
-      },
-      {
-        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
-        "name": "sean"
+        "link": "@HEqy940T6uB+T+d9Jaa58aNfRzLx9eRWqkZljBmnkmk=.ed25519",
+        "name": "glyph"
       }
     ],
-    "root": "%4e+2bOA2V87aZO9+lguxRKsB0h5Ung5EGVfRXYI8kmM=.sha256",
+    "root": "%NkepmESeVeSmiw8AOOJmG8vZZDuPBhXlLlubQCdBBY4=.sha256",
+    "fork": "%DzMX7Fr5tmmzd59Up2SmDIXSE+BFDTBVs9Tke+Et3Sw=.sha256",
     "branch": [
-      "%4e+2bOA2V87aZO9+lguxRKsB0h5Ung5EGVfRXYI8kmM=.sha256"
+      "%NkepmESeVeSmiw8AOOJmG8vZZDuPBhXlLlubQCdBBY4=.sha256"
     ]
   },
-  "signature": "ZXkMX/v14ejD44d7vc9p4A7gwetLqCtlLA/1Y4Jrcm4JLaOUW0EjomLtPgy49vu7GhliOxEMOR8+4bhxIor1Aw==.sig.ed25519"
+  "signature": "iE03zKxdT/nGNbkl55A0a4WTQPrnxRX6uMro/Y1YHjalAwAo1/LAexmE6QtdTMWQmUhy2co0f1HoRf2SY0blAQ==.sig.ed25519"
 }
