@@ -1,9 +1,26 @@
 {
-  "previous": "%syPZKAfLIdkRWX/JnI/yJgi9R5PsmrqU5drmCm3GlmE=.sha256",
-  "sequence": 16765,
+  "previous": "%QLgmVCoIFvfAohTlyNZLE68v0587JK6WR1+YIV/4F3Y=.sha256",
+  "sequence": 16766,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585514888452,
+  "timestamp": 1585515483424,
   "hash": "sha256",
-  "content": "6n3cemKtLrEUh8iN+S1MUJLYqBhef2Pt4MKF+YQXw5Q9X2AFYfG0xXVRer0zIQfjgJrtcJ0uyQKsHXo6+ve8MhDCi1WmmsL3k9wYl/uxDwjswc23vbn26E6gq/2b3L95X7uIeHIWAr/ckZQ2akxMNGPY4DXoWBSRlwAIlcvE7tjREPyj+h3KLH51+Pp+ZUHWn3EYWbX1k2ZaHfKHP8O0epmy6VEWXvTcFiiURS1Gdd/A3jt3Kd89qdWK1CNSJYFsyxOLyFJSIz5XhW3J1DlCTSq7QS8GLdRpF55CZsR+t3iN6n0u2cZMCVtxhLPk4chBvt7QN5zHegr2DNpBiKfMy3MkMQt7EVaoMsI3Rww/utfmNTMuGYZ2Tf67RPTmNLHyGKMfpyCDqHVX5Ep9XTYOYgQBJ6yv3tjkNik8AsFygZD7l4YlZq4sKo7Tc0jNXDaWHiSNVRhTE8Iegu0uXBsqIPH6sQ7M2y0HayQ3jDN+HRNdLw9XeFPhHpYfMJ6PDqgaaufnS1w3PeorwK1ASkwzTPr3Ksd88GX3tS4s/ENh/UWflhq1TaHwPCXh+Bb4r6xEXK3xE/zVXSQ0Mit7+NszeHXh9gEwuSq/cvAb/7A6H4wuLNh6NSf9yqQQ/x92wml5aSHqr/2DVJha8Wblfhg+jmXXWSKsxI6EAVSXaLutoW1mN0lJ7wolMcQe9gpio675KCu3OqjZrgaBfMaCnyOgHUyg3T8M+19ZIIgBqwyTz2PhV9ZmiznwMxaMvLGQkmWoqxDJd+8b7WtX1zJinXVYFAL7STbipoJB9DIJf8YPGDgLYBza3c1zem1CiyPzNnqd046WLCY5peApz1vhDtWC3yL8hjE8fziiU4l9T93cxplqYVabupC/Kb27idx1mAM76GKybCzzmTNFVijo9ASXbJ5yzj0FFVYkTzoXONqcFfGpfIlWTkOcQ8Ki7PPBjotcimwoJisfBwGhkX1MczEVDrV5+KFZ8lm2XsR552wnMiCWKgnolgx2oLybMWrPInWCnuTYmux2KA1R5t0zaSvJkckH5MUJJphxSWBG0t/2iRc6I6jDigCVFqTe9yf+2/AKjtvL0oz+lT7LT1zt+JjcK79VSNux34ItxeN5cmHHlixQun6TyfnYB5PpWZZXX9SxEtqjeOYo5eUoFUK1gxz3b4kPjgMl6K8CjOOKwWHj+l5oBbZvNTtIPwIugZOBw+JIlZk2monvjqYDw6M1wKlGLLe12tutiajS/gwDuSn1LRBH1j7hWRQIV1wUeOSHrusx+MWhFJuPspXTFxOpbrRH9vPmXp3MbZMW+NcsJMLt/9qIWtOPKTJQFRqwVWh57fmREVbZkBqOyeYCCV5VEgroGqSRl2OIw+hfQBhyZ98xmQPvw3FDB0AoUZzqhe0i2PSOhW4TIjQjXk1hnE4vZpPio6iXjbWdJvGG5xvl9QQl2vdd/PaCZWIBqh2vvrcBxS3xgw==.box",
-  "signature": "f+CgWWy3xufM0152zpKXFMwr+Du59YDoOkFFqYRlEXDgEjRKk96/KUzkR3ALpEonPpu4oj8PNe8O6SSdgmiCCQ==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@Piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\r\n\r\n> Well, learning how to do all the async stuff in actix was pretty hard [...] I feel like I mostly get it now.\r\n\r\nDo you think it'd be fun/useful to record a call where you explain how it works? You're really great at explaining things, and I'm great at not knowing how things work (especially in Rust!), and I'd imagine that future SSB + Rust developers might hit the same snags that you do.\r\n\r\nI'm sure I'll regret this sentence, but: building a small parser in Rust sounds fun! Plus since you have a good-enough implementation, it sounds like it's something I could tinker on for a while without any rush. Maybe I could talk [@sean](@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519) into helping me suck less at Rust while I'm at it.",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "Piet"
+      },
+      {
+        "link": "@N/vWpVVdD1e8IbACUQE4EVGL6+aodQfbQZ8ByC+k79s=.ed25519",
+        "name": "sean"
+      }
+    ],
+    "root": "%4e+2bOA2V87aZO9+lguxRKsB0h5Ung5EGVfRXYI8kmM=.sha256",
+    "branch": [
+      "%4e+2bOA2V87aZO9+lguxRKsB0h5Ung5EGVfRXYI8kmM=.sha256"
+    ]
+  },
+  "signature": "ZXkMX/v14ejD44d7vc9p4A7gwetLqCtlLA/1Y4Jrcm4JLaOUW0EjomLtPgy49vu7GhliOxEMOR8+4bhxIor1Aw==.sig.ed25519"
 }
