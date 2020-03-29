@@ -1,18 +1,22 @@
 {
-  "previous": "%IY5+UeJNqbjQersGaQ1ans5F5XG49zCWFCn2lixnOe0=.sha256",
-  "sequence": 16759,
+  "previous": "%4g808Gyt3tCIXXghvKNhX6JB957b2npwevVDubjKjh8=.sha256",
+  "sequence": 16760,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585500949159,
+  "timestamp": 1585503443620,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WaOh+W697bMlcKe+jMP7nvZ/CHoVM3c58COHwN7ciO8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "Now learning Rust...\r\n\r\n\r\n```rust\r\nuse std::fmt::{self, Display, Formatter};\r\n\r\nstruct Color {\r\n    red: u8,\r\n    green: u8,\r\n    blue: u8,\r\n}\r\n\r\nimpl Display for Color {\r\n    fn fmt(&self, f: &mut Formatter) -> fmt::Result {\r\n        write!(\r\n            f,\r\n            \"RGB ({0}, {1}, {2}) 0x{0:02X}{1:02X}{2:02X}\",\r\n            self.red, self.green, self.blue\r\n        )\r\n    }\r\n}\r\n\r\nfn main() {\r\n    for color in [\r\n        Color {\r\n            red: 128,\r\n            green: 255,\r\n            blue: 90,\r\n        },\r\n        Color {\r\n            red: 0,\r\n            green: 3,\r\n            blue: 254,\r\n        },\r\n        Color {\r\n            red: 0,\r\n            green: 0,\r\n            blue: 0,\r\n        },\r\n    ]\r\n    .iter()\r\n    {\r\n        println!(\"{}\", *color);\r\n    }\r\n}\r\n```\r\n\r\nCurrently working through [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/hello/print/fmt.html) and so far it seems pretty simple. Would love suggestions for small projects.\r\n\r\n#rust",
+    "mentions": [
+      {
+        "link": "#rust"
+      }
+    ],
+    "root": "%DzMX7Fr5tmmzd59Up2SmDIXSE+BFDTBVs9Tke+Et3Sw=.sha256",
+    "fork": "%p4pgluY5zdTMkoaLKF0W/RSlTYneTpiR5mGWmrNZyGE=.sha256",
     "branch": [
-      "%i+W7INHGHFqg9w1bSn2+ayHaVGnlbEwc/4BB+qLSRPY=.sha256"
+      "%DzMX7Fr5tmmzd59Up2SmDIXSE+BFDTBVs9Tke+Et3Sw=.sha256"
     ]
   },
-  "signature": "WCdwx3NdLJfTX8Ujrvd/dDObOJBTAOEWGOHsQIQh8rnx/ub2ozJgREf2zcb1ZfWzZxXp+mci5zQ8fdmh5HXqCw==.sig.ed25519"
+  "signature": "WNsqC4rPDw01JQFi4OwWjKxUVD9neH60X2jk6Odzt0vV5Y06IFpybDuA3q1S2/MZcoMGyvl72cPAu+jr1kSvDA==.sig.ed25519"
 }
