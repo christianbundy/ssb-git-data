@@ -1,18 +1,22 @@
 {
-  "previous": "%fcz/hdT7jRMyKClbkkXaIVBMtdUYB12liVqgHsjYe28=.sha256",
-  "sequence": 16774,
+  "previous": "%zgR3EMW3j8PrRiO3fT7HvIIHj8YbszkWDW+3Dsg+/74=.sha256",
+  "sequence": 16775,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585583294651,
+  "timestamp": 1585584133340,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eatLzZX43e3w44ZjnjKvLZNCcPO8i+baIUEMncfyv3o=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519)\r\n\r\nBeautiful, thanks! This was a great opportunity to figure out a simple Cargo config and I've got `cargo test` passing now (with your code, I've done nothing). I've pushed to a personal repo [here](https://github.com/christianbundy/multiserver-address.rs), please let me know if you'd like me to take it down.",
+    "mentions": [
+      {
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "Piet"
+      }
+    ],
+    "root": "%m6W4fHMiK/3Br1a9iBLhEFTSwiH2sY969xpFpncTfRQ=.sha256",
     "branch": [
-      "%eatLzZX43e3w44ZjnjKvLZNCcPO8i+baIUEMncfyv3o=.sha256"
+      "%m6W4fHMiK/3Br1a9iBLhEFTSwiH2sY969xpFpncTfRQ=.sha256"
     ]
   },
-  "signature": "y9aNSVI5mLskeDbMGmOCPbazKCbI//sIZ5eprkN9aQR8l58qadBIwgD+xhxuYZHe7NdoNtE/udtuazR3owUKAg==.sig.ed25519"
+  "signature": "lKvzfkNc/Qn07xfG33XFVSWIwdPj8AOpX02nwJNiH5NgJ/mUn/RaOcvAmRp8uDqljGfID8kKAdwMc3i3KaPDBw==.sig.ed25519"
 }
