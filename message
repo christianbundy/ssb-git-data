@@ -1,18 +1,22 @@
 {
-  "previous": "%g1UFu3Mk7En96IxoT/PZm32YGn75vhy7TcuqYEaXTys=.sha256",
-  "sequence": 16787,
+  "previous": "%FKMtDIwNWHbjp0VOQchGgTldtdjah9Wh5p8pcc9mKI4=.sha256",
+  "sequence": 16788,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585697391158,
+  "timestamp": 1585698109530,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%IF4c25YLGIxF8cDVVHpmJhd1YUzfblaXjlHS1icjkSw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@aatu](@mnc7f994mclLDNqOoQdU3JDBVbGru8TPVGojzVQZaOE=.ed25519)\r\n\r\nIt shouldn't be. Could you confirm that it's actually 500 MB? It should be [under 150 MB at most](https://github.com/ssbc/patchwork/releases/tag/v3.17.6).",
+    "mentions": [
+      {
+        "link": "@mnc7f994mclLDNqOoQdU3JDBVbGru8TPVGojzVQZaOE=.ed25519",
+        "name": "aatu"
+      }
+    ],
+    "root": "%xvBR2USaQAOhW6uWkF66jfYlY8Bp30skKbY5WwEkukk=.sha256",
     "branch": [
-      "%bo9KBb1UZ2S5F9r9gRtu4Jk8UCilBiu5BEIlZlaq/0c=.sha256"
+      "%xvBR2USaQAOhW6uWkF66jfYlY8Bp30skKbY5WwEkukk=.sha256"
     ]
   },
-  "signature": "b3yDpuv+DLwUQt5PoLDE8imXAT0oOKD5MfdiIOHSZcux53JlpbsjeXuZ0mLVL2vUuxQ7WV8JD1ojOmILNwFcCw==.sig.ed25519"
+  "signature": "sbdC/ezibsR63DZ5WH5p6jQBzgUqzeMVB13/qagPlRfh1yYL0ffWRGK37A6OyovVJQGzuZj+nh5CDjNnR7GnAA==.sig.ed25519"
 }
