@@ -1,22 +1,26 @@
 {
-  "previous": "%N7cOr4eXf1ZsMJJfboDMKNsJ/VWwrzcS8WcFf+Zhs64=.sha256",
-  "sequence": 16801,
+  "previous": "%BHVs2LOt9YNEZzjsAJAMfnRGENvwVMaGuIzmSd08QDY=.sha256",
+  "sequence": 16802,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585754341154,
+  "timestamp": 1585757918093,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "![Photo of a barely inflated load and a small slice of bread on a cutting board](&AMLii68zWJMBS6Fwf9h2o1ElAwKyWZGq5GLVM7x97EU=.sha256)\r\n\r\nIt worked! It's still a bit dense, but that's because I was impatient and only let it proof for a couple of hours before cooking it last night. I added 1 tbsp of flax seed meal and a bit of rosemary and the taste isn't bad at all.",
+    "root": "%o60Yv7Xu6PAnGkNrduAsa31rTHy8fEDXd7T8Z1Ojzx0=.sha256",
+    "branch": "%Y+Rv6sUpLQLoY4xAeZCZHeiBwFM+UgTkTC8/jfFfhMI=.sha256",
+    "reply": {
+      "%o60Yv7Xu6PAnGkNrduAsa31rTHy8fEDXd7T8Z1Ojzx0=.sha256": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+      "%Y+Rv6sUpLQLoY4xAeZCZHeiBwFM+UgTkTC8/jfFfhMI=.sha256": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519"
+    },
+    "channel": "oasis",
+    "recps": null,
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\n\nThanks! It looks like it's starting an SSB service in the background, but then the connection attempt seems to be failing. Do you have an `~/.ssb/config` that might modify any connection info or remotes?\n\nMaybe relevant, if you have a custom `connections` config: https://github.com/fraction/oasis/pull/352\n\n(If you'd prefer to discuss on GitHub, please open an issue.)  ",
     "mentions": [
       {
-        "link": "&AMLii68zWJMBS6Fwf9h2o1ElAwKyWZGq5GLVM7x97EU=.sha256",
-        "name": "Photo of a barely inflated load and a small slice of bread on a cutting board"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
       }
-    ],
-    "root": "%cTT1XHBk7TRSN7PLQ+wey5/L42hhls2TN9CtkdW/Aw0=.sha256",
-    "branch": [
-      "%hZC5Cgg38l5MKXBjz4QBAwMAJ6TGjzE5DR4YEn2la9s=.sha256"
     ]
   },
-  "signature": "1ico71gsL894OCwt9nhecePK/0vyg6kMpsQJ6TvYqZPZPwya4VuvdOg5PdWBkNR+R1mLLX+rQomIFeB09vf7CA==.sig.ed25519"
+  "signature": "HHVY4PXeQ19HYbD0q5ZjAVK9x5cGDhmozueSxvapiCUdumDdq7mBhvqQkqCZr0+wphVl/H1NQ5uuqK0WZKT8DA==.sig.ed25519"
 }
