@@ -1,26 +1,27 @@
 {
-  "previous": "%BHVs2LOt9YNEZzjsAJAMfnRGENvwVMaGuIzmSd08QDY=.sha256",
-  "sequence": 16802,
+  "previous": "%uJlOHgc1WkuY4PmJ229vXaVHdD64KvHuLccP7a7aHCI=.sha256",
+  "sequence": 16803,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585757918093,
+  "timestamp": 1585758848678,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "root": "%o60Yv7Xu6PAnGkNrduAsa31rTHy8fEDXd7T8Z1Ojzx0=.sha256",
-    "branch": "%Y+Rv6sUpLQLoY4xAeZCZHeiBwFM+UgTkTC8/jfFfhMI=.sha256",
+    "root": "%Mt1vHslYJJJ/ob8LepYtzp28EG/Izws1XnFpApdlH20=.sha256",
+    "fork": "%/F+eqw4Nt+54PfEzgvA5P3v25GnFiwtJiPmbtiOWS78=.sha256",
+    "branch": "%mKtOVVGLoghw8hvRj+BbdMv7FrPPvOTBKZJsgUZfbTI=.sha256",
     "reply": {
-      "%o60Yv7Xu6PAnGkNrduAsa31rTHy8fEDXd7T8Z1Ojzx0=.sha256": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-      "%Y+Rv6sUpLQLoY4xAeZCZHeiBwFM+UgTkTC8/jfFfhMI=.sha256": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519"
+      "%Mt1vHslYJJJ/ob8LepYtzp28EG/Izws1XnFpApdlH20=.sha256": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+      "%mKtOVVGLoghw8hvRj+BbdMv7FrPPvOTBKZJsgUZfbTI=.sha256": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519"
     },
-    "channel": "oasis",
+    "channel": null,
     "recps": null,
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\n\nThanks! It looks like it's starting an SSB service in the background, but then the connection attempt seems to be failing. Do you have an `~/.ssb/config` that might modify any connection info or remotes?\n\nMaybe relevant, if you have a custom `connections` config: https://github.com/fraction/oasis/pull/352\n\n(If you'd prefer to discuss on GitHub, please open an issue.)  ",
+    "text": "[@xj9.2](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519) \n\nI felt very similarly, and even put an ultra-minimal license together which was approved by the OSI ([link](https://opensource.org/licenses/0BSD)), but over the past few years I've become increasingly concerned about permissive licenses. The relationship between the author and the recipient is great, but there's nothing to dissuade the recipient from re-adding copyright protections and then weaponizing them against third parties. \n\nExample:\n\n- Antelope makes a tool under a permissive license.\n- Bobcat downloads the tool, makes a few changes, and puts it online without a license.\n- Capybara downloads the tool and starts using it.\n- Bobcat sues Capybara for copyright infringement.\n\nI also feel morally uncomfortable using copyright (and the implicit threat of state violence to enforce it), but it seems to me that \"if you use copyright against someone else then I can use it against you\" is the lesser of the two evils. I'd be really interested to hear what you think, or what other schemes we might have available to stop permissively licensed software from being privatized.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9.2"
       }
     ]
   },
-  "signature": "HHVY4PXeQ19HYbD0q5ZjAVK9x5cGDhmozueSxvapiCUdumDdq7mBhvqQkqCZr0+wphVl/H1NQ5uuqK0WZKT8DA==.sig.ed25519"
+  "signature": "1ZP1z9VLhZ5V3cy50jVmy8Knes4O8WaOVdsqQl5n6Gy8/eVz8hA6piQC4KoCaIBPVQEwVPcEJ2fLXn+AjJb6Bg==.sig.ed25519"
 }
