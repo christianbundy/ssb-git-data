@@ -1,18 +1,22 @@
 {
-  "previous": "%CCtFNYOBShibEYGrbC5vYc0TFbXhd4qRsJMhWAnXgbg=.sha256",
-  "sequence": 16839,
+  "previous": "%Zj7sddgxU35TuCxBIYEsNX5k26XU2ABxQiUQTLKDCXI=.sha256",
+  "sequence": 16840,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585840939205,
+  "timestamp": 1585842370649,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nSumhbFwVGoIqS+5ATyaS8F3yAz1z1eKA7+hcd/qXoo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@John Colagioia](@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519)\r\n\r\nI tested Riot's video calls yesterday, and it looks it's just running Jitsi Meet from https://jitsi.riot.im/ and embedding it in the window. It might resolve the problem anyway, it's worth a shot. 🤷",
+    "mentions": [
+      {
+        "link": "@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519",
+        "name": "John Colagioia"
+      }
+    ],
+    "root": "%qRGfY1Dc4KmBFqNZDtofak0ffUZLwsrJDgtZ7H7GyOA=.sha256",
     "branch": [
-      "%nSumhbFwVGoIqS+5ATyaS8F3yAz1z1eKA7+hcd/qXoo=.sha256"
+      "%mf2Si5b8YUY/zR3lk0T5xbuf7iv9QISmO6SMpMZCFVs=.sha256"
     ]
   },
-  "signature": "Cy6fDSS93hcU1Aa1psY15HzOJXn4CLt3tUgSVxxVTRIoym9Gz8+wX+kMPRpFbH+owoNAxartdMXbCdWU8KfEDQ==.sig.ed25519"
+  "signature": "23+2E6tJ74U5NhKCMiTHIYKe0eO8SHwoao0Ibe86NAEEPZQUIBMo7mKSexs+9v5cxddi7TMPK1CKEdYKd5ewAg==.sig.ed25519"
 }
