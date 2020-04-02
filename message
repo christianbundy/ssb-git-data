@@ -1,18 +1,22 @@
 {
-  "previous": "%09JGvO2yrltv42ChhUMX3fGOmtsZW5pS1C3E7BzOetQ=.sha256",
-  "sequence": 16841,
+  "previous": "%dgnMslRg3AmdxWScHjrbI55rWfWo08t+WoUiV4YXdFk=.sha256",
+  "sequence": 16842,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585842916422,
+  "timestamp": 1585843582389,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nndehmJ5NbOhxc+WLUhAY0gRSmHhWmXTSkeplMXLw5k=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nDo you have any more info on that? I see some links to binaries but otherwise I'm not 100% sure what I'm looking at. Looks like an S3 bucket? Or is the whole point \"I put my binaries on a bucket and people need to figure it out themselves\"?",
+    "mentions": [
+      {
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
+      }
+    ],
+    "root": "%5ptoQiSPdj5UlnFpgshJZimHKW7Qstl6kGT5Lwm2jAM=.sha256",
     "branch": [
-      "%nndehmJ5NbOhxc+WLUhAY0gRSmHhWmXTSkeplMXLw5k=.sha256"
+      "%ogbu4v5Jvz3UZ7Cl+lyr0hpPambwHDuOKXltPMnh/VA=.sha256"
     ]
   },
-  "signature": "480myhRGAJHPqrHSwfrg7R3wOVPB99i1aazcjZUrfkSyvW8G1G17iGCdBGf0UNR3OzVwVXQU3YxLGyghQXrvAw==.sig.ed25519"
+  "signature": "tFyUmxeShh9UGXCcwp/Vk6vo7/1jQw4wKIsWjqdbKOEmQsqgk8O+6fq0xfle8/AE3pF+LDYYSGIALrLIFF2/CQ==.sig.ed25519"
 }
