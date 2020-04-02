@@ -1,18 +1,22 @@
 {
-  "previous": "%X0BiLCBVgRI5KTP85TWnmO3xWG2eaOryQAf8JN3Lx14=.sha256",
-  "sequence": 16855,
+  "previous": "%EdxQYc7KLHZcZ1u/eunNIWfrnAGoQCU93SVkboL9Y4s=.sha256",
+  "sequence": 16856,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585853601300,
+  "timestamp": 1585855161395,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%gG0sJYWCT4trBs0J08e+fYamZAs8oC8vprGlXSgJqL0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@John](@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519)\r\n\r\nI think that it would make a lot more sense to have one feed per message type schema (e.g. posts) so that unrelated feeds don't have access to each other.",
+    "mentions": [
+      {
+        "link": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519",
+        "name": "John"
+      }
+    ],
+    "root": "%x7PgPklsRiBboUyBotoDfO3a/BaNQBfrp85imKj0+Yg=.sha256",
     "branch": [
-      "%UMgdIVzLPavT9akmdmRNv6xMpyo4AJ/lf/kA5aa6vLU=.sha256"
+      "%x7PgPklsRiBboUyBotoDfO3a/BaNQBfrp85imKj0+Yg=.sha256"
     ]
   },
-  "signature": "I58sZdp/EYeumsa3dEh1k4CTIsfT5Urc/LakljG9jjy6ohdpX9tk4zfSEqrHm9SSD5KRDrfO18/clXKSXbhIAw==.sig.ed25519"
+  "signature": "mzpQVbRzjZTZt/8TMp7NSKHT76HrBrjjagVr27BTi1EEUOxu/24ev8hgYbcRPbzeRSoIfNEPpyMPr9v7bQMZDQ==.sig.ed25519"
 }
