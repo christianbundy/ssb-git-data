@@ -1,18 +1,31 @@
 {
-  "previous": "%tF/udi7UqF0++6hN37PVISzk/c5PN9WrMOD8Ko+FF7Q=.sha256",
-  "sequence": 16877,
+  "previous": "%3hnZiV9cDZXBuIMvojRY/d8VQlu51uF7eH8/q9S868g=.sha256",
+  "sequence": 16878,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585937318166,
+  "timestamp": 1585938162645,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%f+0meQX/ofcgzzjRh2yHUdgEv+W0Sc21hTT8V27pdLE=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%f+0meQX/ofcgzzjRh2yHUdgEv+W0Sc21hTT8V27pdLE=.sha256"
+    "type": "post",
+    "text": "I have a terrible CSS question. Can I make an element that changes its color each time that you hover it? For example, a button that's green the first time you hover, red the second time, green the third time, etc., repeating each time?\r\n\r\nMy real use-case is that I'd like to fix Oasis like buttons so that they don't reload the page, which seems possible if the server returns an HTTP 304 (thanks [@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)!), but I want to make the `<button>` operate more like a checkbox using the `:active` pseudo-class.\r\n\r\n#css #hacks #help \r\n\r\ncc: [@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)",
+    "mentions": [
+      {
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
+      },
+      {
+        "link": "#css"
+      },
+      {
+        "link": "#hacks"
+      },
+      {
+        "link": "#help"
+      },
+      {
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
+      }
     ]
   },
-  "signature": "LIbzyDKFt5zGtKelYZhuncapqQ7V7CTM+EtAfTlCzzkrCVWASoI1CbLW5aN34hCNXTqZ7w0mwf/KXgU4Obl4Bw==.sig.ed25519"
+  "signature": "KPMAc+15lcfa4ubEVvfEzq5nJFYAHX20ojn7w+LJnu4Rjk0+b1/tY9sz1SJ8hMnqI0i5csJJuVocXB8VhaY4Bw==.sig.ed25519"
 }
