@@ -1,18 +1,22 @@
 {
-  "previous": "%iMvctLNthntysbI5YhD1a00lfYWs20XDO3hi86alh+4=.sha256",
-  "sequence": 16863,
+  "previous": "%tXO6KgBHt6QXrBF1bb1mYUY0Lue1ksLTs0qQ6KA1cV8=.sha256",
+  "sequence": 16864,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585920523406,
+  "timestamp": 1585920818981,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ujSZ4ElPWTbZB2d8M03zmM7b+DbTvXOEeM/SfxoPj9A=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@VikingKong](@s39fm4J9OJtiGUGHibI17oGY1BxB0NozJut52cgpROA=.ed25519)\r\n\r\nYep, you can also add links to your other profiles in your profile description. FWIW this is a problem we're trying to solve in Oasis, if you'd like to check out the issue there's some good discussion going on: https://github.com/fraction/oasis/issues/267",
+    "mentions": [
+      {
+        "link": "@s39fm4J9OJtiGUGHibI17oGY1BxB0NozJut52cgpROA=.ed25519",
+        "name": "VikingKong"
+      }
+    ],
+    "root": "%v5cv+etqXOx6Z73U36TsYT5oFyM1Kw5lNVBRoeSoDtw=.sha256",
     "branch": [
-      "%ujSZ4ElPWTbZB2d8M03zmM7b+DbTvXOEeM/SfxoPj9A=.sha256"
+      "%Q16LWcuO/KdnxpC8QWpRpdK487kCzaCMhKLOhKU2PZ0=.sha256"
     ]
   },
-  "signature": "k3G8fH5jqFqVLEYe5DMlqVGnHru2c7qVy2Ov8s7f92oQYY/T3EZHaFqpHeDjivOGvKCfvbBzefI2Rb8DtozVBA==.sig.ed25519"
+  "signature": "W20E8p9dsmbIzt6FOlSzHweaykhzVwYlQV/ejA3wPCqS7VGMZ6wWPW1VD5aMXUHz19ubHEXkuDqFnqd1RzymCQ==.sig.ed25519"
 }
