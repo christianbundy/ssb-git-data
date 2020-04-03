@@ -1,17 +1,22 @@
 {
-  "previous": "%HusIEfF2pyJGnp7sfq6YU3vcEYsWBDMHmh+/NSxFO+I=.sha256",
-  "sequence": 16880,
+  "previous": "%I/faUM3X2c+GP9jLuA+png2Lh8A1r2iU4G3sGWFQWh4=.sha256",
+  "sequence": 16881,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1585939714087,
+  "timestamp": 1585950508938,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Maybe a better way to do this would be to have two buttons, **like** and **unlike**, with one of them hidden by default. When you click the visible one, it would trigger an `:active` animation that would make it disappear, and its sibling would appear in its place.\r\n\r\n🤔",
-    "mentions": [],
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nYep, that's exactly right, except that it needs to submit a form -- so it needs to be a submit button rather than an checkbox `<input>`, I think. Maybe there's a way to trick browsers into rendering submit buttons as checkboxes, the same way you can do `list-style-type` for non-list elements?",
+    "mentions": [
+      {
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
+      }
+    ],
     "root": "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256",
     "branch": [
-      "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256"
+      "%EsE78X6T5thURRO4KEs+/g69qwXlQlyc12PoSxpz88w=.sha256"
     ]
   },
-  "signature": "jqjHO0e7Ces/61qaaBvp5+nTCLniUSy4fOB5ri8kcgFEpShQGHoPs5p/Dn7bGKu7ZHateNxlpWMvHHXNwqEODA==.sig.ed25519"
+  "signature": "3prxKvsI2xJFt3QDoz8h4K/pNj8fHi8Fc5ebF01cDffmWXTNNoX/M+AvoMQRMk8xqUyeAHuG4eD9Fffq0kzIDw==.sig.ed25519"
 }
