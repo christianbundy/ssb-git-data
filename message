@@ -1,18 +1,26 @@
 {
-  "previous": "%CsFb/jfViecKVWs0Y3/CeuQwBlEHfKT+lx5yEuqb7pA=.sha256",
-  "sequence": 16899,
+  "previous": "%3xbyZzIefyDAfdHtlgHn41Tp2AlakTz39xoUCFDqoeE=.sha256",
+  "sequence": 16900,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586105348072,
+  "timestamp": 1586108002019,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%hr8cy2Jxmu/cGcGO8bYVnlNcoX4+1eEl/IcSLr5zpMk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nCould you tell what ended up taking more time? That should install from the Git repository rather than the npm module, but I'm not sure why that would be so much slower. In my testing it was about the same amount of time (and reduced our dependency on npm).\r\n\r\n---\r\n\r\n[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nThere should be some info [here](https://github.com/fraction/oasis/blob/master/docs/install.md#install-globally) if you bump into EACCESS errors. Alternatively, `npx fraction/oasis` will let you run it once without installing, but you can't re-run the command when you're offline. :/ I'm not sure why npm makes it so hard to install scripts for people. Maybe I should prioritize building installers?",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
+        "name": "Danie"
+      }
+    ],
+    "root": "%rVnQe3+vwRsdSFKYxGngpVQljzOZZoPyit2kxFE9lR4=.sha256",
     "branch": [
-      "%hr8cy2Jxmu/cGcGO8bYVnlNcoX4+1eEl/IcSLr5zpMk=.sha256"
+      "%BJz3iwd76vJVUyFKJVjcLiIviLNx/zlsvIgqhQQ6FXc=.sha256"
     ]
   },
-  "signature": "3s0UG5Vp7OFFMLPBdfZEvc32JVi0Jst2NzW1Bbc+++c1Zx06yTjLsSRTJMX5Qn0ESCgiyrQEo+IJu4ClC6QqBg==.sig.ed25519"
+  "signature": "+07y6Co/H2sLJsNPPZsT6oZlqauF6TnA6h6N85oqEP7U3nubPhT9kdS+XOfc+2L6Wy8tv4XzzoJtDdVgqhJFBg==.sig.ed25519"
 }
