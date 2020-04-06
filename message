@@ -1,22 +1,18 @@
 {
-  "previous": "%y0q9yNkr7+AH/7zkcicIExZUsoJPkunXX0qbECB9VEs=.sha256",
-  "sequence": 16902,
+  "previous": "%YvhopiHa4kjgJjC6w2O6omlYw0qUDdowjNDceADPmWI=.sha256",
+  "sequence": 16903,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586216238895,
+  "timestamp": 1586216309647,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nYep, MVD took the \"last edit wins\" approach. I wrote a Secret-Stack plugin that implements edits [here](https://github.com/fraction/ssb-edit), but Patchwork/Patchbay had a few weird compatibility problems when I tested. It might Just Work in Oasis but I'm not sure.\r\n\r\nI'd love to discuss this with you sometime. One really simple approach to merges is to have an \"steward\" of each resource, and the state of the resource is whichever edits the steward has merged. (Basically how Git remotes work.) Anyone could fork a resource to become the steward of the fork, and even pull in edits from upstream, but being able to say \"this wiki page is managed by powersource's append-only log\" lets us retain lots of sanity.\r\n\r\nOr not. 🤷🙂",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      }
-    ],
-    "root": "%L5cSXcNIFWdPuGc8hF7HIaagAvsWYpCAvbIXOW3CPoU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%87pAnbksWEeyVA3i+/VU+/um9U0cWIRxeajiT4+HbQI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%aXRH042g1/HNXFdI+OP+fVAIPaVvgWqGsZ7vyjZ+rPA=.sha256"
+      "%87pAnbksWEeyVA3i+/VU+/um9U0cWIRxeajiT4+HbQI=.sha256"
     ]
   },
-  "signature": "j/+RAqFpouqVzz7XurOpefbQMvMuimmzi250ydGT3DWH4p9MYODq3ygtI55vN+n1vvs21Y10UJD+RyKio1V7CQ==.sig.ed25519"
+  "signature": "mC/5rE0askoMRPAbm7eIAPi+OlS435hnDgJAzRwY5Tyw4IyJNTCGQ7V9GT1dnfcUGTzU6gP3lpsAlFJTGxW9BQ==.sig.ed25519"
 }
