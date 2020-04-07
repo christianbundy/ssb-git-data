@@ -1,18 +1,22 @@
 {
-  "previous": "%5MM7LCJ0ApdZ2QQmL1mLvkauu9kpqJUCYq6ZxEKDSB4=.sha256",
-  "sequence": 16913,
+  "previous": "%m89o7TNIhJSfxYRJ8A4Gk/Q2Re4z1SowCrZxLcdsus8=.sha256",
+  "sequence": 16914,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586278373060,
+  "timestamp": 1586282866445,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mxBPazgcorAjvGMYW44qWbxwDD/JbMaWSKKFeSB/snY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\n> if you aren’t the interface to the metal, you aren’t an OS.\r\n\r\nIf we're being pedantic (I think we are?), then couldn't someone make the case that only [microcode](https://en.wikipedia.org/wiki/Microcode) and [firmware](https://en.wikipedia.org/wiki/Firmware) can provide an operating system? I understand the point you're making, but it feels like \"bare metal\" is starting to become a myth (unless you build a mechanical computer...).",
+    "mentions": [
+      {
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
+      }
+    ],
+    "root": "%1MPabKZT8cVwOQ7wkxyijEcZ80gLnG5kzPFPtSQSa14=.sha256",
     "branch": [
-      "%mxBPazgcorAjvGMYW44qWbxwDD/JbMaWSKKFeSB/snY=.sha256"
+      "%G5OyjQjfAhLWpfSSASssOpqH4tiDIG1FUqPKu/qee94=.sha256"
     ]
   },
-  "signature": "mBJvtpIdn3xQDCdLfFVyRdc6WtM8bNAu70FbqsIvQUQvWyHa92tTdDDo7jp3dGUSrfkp2AeM1PHhC1pbuHw4BQ==.sig.ed25519"
+  "signature": "abl/u+CBB3WRH6IQR2AKXldMC+mbC1GMLeSuQrcfvkNhnAhQZ9HY+t80/YScsrrU7xLShzCLXHLlZK8jd909AQ==.sig.ed25519"
 }
