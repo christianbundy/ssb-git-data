@@ -1,20 +1,18 @@
 {
-  "previous": "%LX4tTeqCHDILx7U+POupzasEdgl1zY/40ZaASSKYAsE=.sha256",
-  "sequence": 16933,
+  "previous": "%E4ZpJY1kXfsxXKR9m0t4EwBDevytoBVd1ClcnmLf8Mo=.sha256",
+  "sequence": 16934,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586293285909,
+  "timestamp": 1586294769218,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "PSA: I've seen lots of GitHub phishing attempts referenced on social media over the past few days, and just received one myself. Please be vigilant and double-check before clicking links!\r\n\r\nMine was:\r\n\r\n> **RV:BV:Api used for download file in your private repository**\r\n>\r\n> GltHub api used for download file in your private repository\r\n>\r\n> Be careful,\r\n> \r\n> Our systems have detected a unauthorized request > from the api to edit a file from one of your\r\nprivate repository.\r\n> click on the link below to process the verification\r\n> \r\n> http://github.com\r\n>\r\n>\r\n> Thanks,#\r\n> The GltHub Team\r\n\r\nThe links actually point at `glt-hub.com` and were sent from `livewatch.com`, but it'd be an easy mistake to make.\r\n\r\n#github #psa",
-    "mentions": [
-      {
-        "link": "#github"
-      },
-      {
-        "link": "#psa"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%KQ2xFVm6UscXHkTzob1Hjs1REBg4n7Ku5FwByq+umag=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%KQ2xFVm6UscXHkTzob1Hjs1REBg4n7Ku5FwByq+umag=.sha256"
     ]
   },
-  "signature": "wQjzAHtvIgyujETkUU8sWQaWt6DHDU0KuYNFa50G8D9rbOHQ0U5HJx1HKosYlTf8SM14b2I10pGnTEwlyhu2Dw==.sig.ed25519"
+  "signature": "bpnw/bn5+13FxMqQEPUknUe0KYrTxetWolIway0e8EfhIcVWaFOm+Bxwu+K7VegpKDhrQiHHpBpCge12H549Ag==.sig.ed25519"
 }
