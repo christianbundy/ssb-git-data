@@ -1,23 +1,17 @@
 {
-  "previous": "%soLF2/UcxA4k8dxIDXXvZdP56JYF18rWYk8nsKLiSCY=.sha256",
-  "sequence": 16963,
+  "previous": "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256",
+  "sequence": 16964,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586378178333,
+  "timestamp": 1586378626667,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I was thinking about signature chains today and I just thought of a fun structure that I haven't seen before. Maybe someone knows what it's called?\r\n\r\nI was thinking about how [private groups](https://github.com/dominictarr/private-groups-paper) in SSB compare with private groups in real life, and the problems of repudiation. If your partner leaks a sensitive message, your signature (and the chain of previous signatures) makes it impossible to say \"I didn't write that\".\r\n\r\nIs it possible to build an append-only cryptographic system that still gives us repudiation? Maybe!\r\n\r\n\r\n#crypto #ssb #private-groups",
-    "mentions": [
-      {
-        "link": "#crypto"
-      },
-      {
-        "link": "#ssb"
-      },
-      {
-        "link": "#private-groups"
-      }
+    "text": "Even if we rotate our keys often, your partner still has a chain of messages where you say with key **N** \"let's switch to key **N+1**\". This means that the entire conversation needs to be recorded to be able to prove that you wrote the last message in the conversation, but it's still super trivial.\r\n\r\nInstead, could we say \"I'm going to send you a message with secret **S**\" and then have our recipient wait for that message? This would provide a chain of trust for the recipients of the thread, but would *also* be trivial for anyone to forge. This would have a sort of intrinsic trust, where participants could know the truth but would be unable to convince anyone else.\r\n\r\nI'm sure I'm not the first person to think about this, and I'd be surprised if there weren't some big shortcomings -- anyone know what this might be called so that I can read more about it?",
+    "mentions": [],
+    "root": "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256",
+    "branch": [
+      "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256"
     ]
   },
-  "signature": "I4MGgKwQzPqfJkYOUNeWYiqA7mhDpF9UxPW9WilRty2RL51ZubRG7uR2A1TtUDliqRMX2CzawnToLR+n5XC6DQ==.sig.ed25519"
+  "signature": "wcddOjVVsniLqGPvUJYaqpJNWpra+5Ez2Pd/D9VJYbiH2rp/ROSuahiuPBOQsY+MrtooXYeD5tbofrR/EUvVAA==.sig.ed25519"
 }
