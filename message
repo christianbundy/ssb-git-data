@@ -1,30 +1,22 @@
 {
-  "previous": "%X/0MEWEHE/PRzCWqeQyVvomUj9TB+Pg4g0MhWnNSV6M=.sha256",
-  "sequence": 16951,
+  "previous": "%0t5j92xEvUWE/mlNN+KcZEpZNUkDzX3KH/1mCy1C1UI=.sha256",
+  "sequence": 16952,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586361179273,
+  "timestamp": 1586361332530,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519) [@amandabee](@a9fJ2HzsGGq8lMsnag00cPRbhLWWtki3HIU9fegzGDg=.ed25519) [@Boris Paing](@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519)\r\n\r\nBreakthrough!\r\n\r\nhttps://jsfiddle.net/w0b9rk2p/1/\r\n\r\nThere's a lot going on there, but you can see a simpler version of the trick [here](https://jsfiddle.net/w0b9rk2p/). There aren't any combinators that let us target the previous sibling, but we *can* use a parent selector and select children with a filter.\r\n\r\nI haven't looked into it, but my guess is that we can't select previous siblings because it makes [recursive descent](https://en.wikipedia.org/wiki/Recursive_descent_parser) harder, so backtracking has to be done in the parent. Weird! I'll have to remember this heuristic for future CSS hackery.",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nYou may be interested to see [this issue](https://github.com/fraction/oasis/issues/267), where we're discussing incremental same-as support in Oasis. There are some hard problems, but there are also some really easy wins (e.g. the 'Mentions' page should check for messages that mention any of your feeds).",
     "mentions": [
       {
-        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
-        "name": "Cameron Leslie"
-      },
-      {
-        "link": "@a9fJ2HzsGGq8lMsnag00cPRbhLWWtki3HIU9fegzGDg=.ed25519",
-        "name": "amandabee"
-      },
-      {
-        "link": "@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519",
-        "name": "Boris Paing"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256",
+    "root": "%Nm7cYD8O1Gd0sqGJjAHz4h4m+Og1R9/FelnWR83lpSc=.sha256",
     "branch": [
-      "%lUiD1MlWjtB9QT59GcDEvXlnBhNZGR36r8ZV6XjByBg=.sha256"
+      "%WDC3Z/4nLctMI+EQirpstvR82RDjVgPO5lvolISDjAs=.sha256"
     ]
   },
-  "signature": "XF2L6333rGy5ClG/GxHmviBMLHj9O8Ktk4uc755twLhw3FxGBCW5gi2UE8Ue7X6oC95ky0XOxFZteoOzDgi1Bw==.sig.ed25519"
+  "signature": "OQ4/8b5nIX5BAVd+yCMupiuKax85vOG6B3OUFuQhLJfgWsKlEp5ey7mLZ+ZUqI4P5gTSA8ww5DFNDie+fT7MCw==.sig.ed25519"
 }
