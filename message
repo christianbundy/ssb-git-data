@@ -1,17 +1,22 @@
 {
-  "previous": "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256",
-  "sequence": 16964,
+  "previous": "%oZ1V2YXxRBz0l/UnMK5hBELDH/Y/3/6cDA/DiDGl1tk=.sha256",
+  "sequence": 16965,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586378626667,
+  "timestamp": 1586380781516,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Even if we rotate our keys often, your partner still has a chain of messages where you say with key **N** \"let's switch to key **N+1**\". This means that the entire conversation needs to be recorded to be able to prove that you wrote the last message in the conversation, but it's still super trivial.\r\n\r\nInstead, could we say \"I'm going to send you a message with secret **S**\" and then have our recipient wait for that message? This would provide a chain of trust for the recipients of the thread, but would *also* be trivial for anyone to forge. This would have a sort of intrinsic trust, where participants could know the truth but would be unable to convince anyone else.\r\n\r\nI'm sure I'm not the first person to think about this, and I'd be surprised if there weren't some big shortcomings -- anyone know what this might be called so that I can read more about it?",
-    "mentions": [],
-    "root": "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256",
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nUnfortunately it's slightly more complicated, since `:active` doesn't actually guarantee that the button was selected. If you hover a button, click your mouse, move it away from the button, and release your mouse, then `:active` is triggered during the click but the form doesn't get submitted. 🤦",
+    "mentions": [
+      {
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
+      }
+    ],
+    "root": "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256",
     "branch": [
-      "%ufSFEY7BL+TD7RJmivfET5ydC/p7+XPmOdKSbY9Gu+g=.sha256"
+      "%fAu6PkFxBQwqQbR7JQDc26yXB3PE17wxwjxj1iDTGQI=.sha256"
     ]
   },
-  "signature": "wcddOjVVsniLqGPvUJYaqpJNWpra+5Ez2Pd/D9VJYbiH2rp/ROSuahiuPBOQsY+MrtooXYeD5tbofrR/EUvVAA==.sig.ed25519"
+  "signature": "yZZh1zU2/g2Y1MxIxLleQkrrCH8Fkhqg3ibNB0qNzjx3xjd5UBGu5QRAh5DR5FV6ddDxXmAghsM3CKY+Gvj5Cg==.sig.ed25519"
 }
