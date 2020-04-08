@@ -1,22 +1,30 @@
 {
-  "previous": "%bPtE3SKghDqkh/JTloKJUicd/eba5tuaHRudwWHA8Hs=.sha256",
-  "sequence": 16950,
+  "previous": "%X/0MEWEHE/PRzCWqeQyVvomUj9TB+Pg4g0MhWnNSV6M=.sha256",
+  "sequence": 16951,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586357794904,
+  "timestamp": 1586361179273,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nYep, Patchwork does this with the `reply` property, but unfortunately that makes it difficult to tell when you're *actually* being mentioned. I think clients just need to be smarter about showing notifications in the discussions that you're a part of.",
+    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519) [@amandabee](@a9fJ2HzsGGq8lMsnag00cPRbhLWWtki3HIU9fegzGDg=.ed25519) [@Boris Paing](@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519)\r\n\r\nBreakthrough!\r\n\r\nhttps://jsfiddle.net/w0b9rk2p/1/\r\n\r\nThere's a lot going on there, but you can see a simpler version of the trick [here](https://jsfiddle.net/w0b9rk2p/). There aren't any combinators that let us target the previous sibling, but we *can* use a parent selector and select children with a filter.\r\n\r\nI haven't looked into it, but my guess is that we can't select previous siblings because it makes [recursive descent](https://en.wikipedia.org/wiki/Recursive_descent_parser) harder, so backtracking has to be done in the parent. Weird! I'll have to remember this heuristic for future CSS hackery.",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
+        "name": "Cameron Leslie"
+      },
+      {
+        "link": "@a9fJ2HzsGGq8lMsnag00cPRbhLWWtki3HIU9fegzGDg=.ed25519",
+        "name": "amandabee"
+      },
+      {
+        "link": "@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519",
+        "name": "Boris Paing"
       }
     ],
-    "root": "%Nm7cYD8O1Gd0sqGJjAHz4h4m+Og1R9/FelnWR83lpSc=.sha256",
+    "root": "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256",
     "branch": [
-      "%KOv81i1xBkRW3zR0l5CoS6q+4+beGYvrPlQuLFdwCiE=.sha256"
+      "%lUiD1MlWjtB9QT59GcDEvXlnBhNZGR36r8ZV6XjByBg=.sha256"
     ]
   },
-  "signature": "734y+auwZSo8FoBD4w2om/RtTkQ+ty1yPTayVEEHuqA8J5iOcH7t201wzwbXu2HJgJ03cojwOe8/sfYej97kBw==.sig.ed25519"
+  "signature": "XF2L6333rGy5ClG/GxHmviBMLHj9O8Ktk4uc755twLhw3FxGBCW5gi2UE8Ue7X6oC95ky0XOxFZteoOzDgi1Bw==.sig.ed25519"
 }
