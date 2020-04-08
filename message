@@ -1,18 +1,23 @@
 {
-  "previous": "%KTEdCDtw0wEyrFeT5fvdo8RJIvsBCfn3qFb6NPIWhyQ=.sha256",
-  "sequence": 16962,
+  "previous": "%soLF2/UcxA4k8dxIDXXvZdP56JYF18rWYk8nsKLiSCY=.sha256",
+  "sequence": 16963,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586370479607,
+  "timestamp": 1586378178333,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kdhZxLp4VaSjMMbFrGGwG1ihWF6SH7lmCMbwoO64rrM=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%kdhZxLp4VaSjMMbFrGGwG1ihWF6SH7lmCMbwoO64rrM=.sha256"
+    "type": "post",
+    "text": "I was thinking about signature chains today and I just thought of a fun structure that I haven't seen before. Maybe someone knows what it's called?\r\n\r\nI was thinking about how [private groups](https://github.com/dominictarr/private-groups-paper) in SSB compare with private groups in real life, and the problems of repudiation. If your partner leaks a sensitive message, your signature (and the chain of previous signatures) makes it impossible to say \"I didn't write that\".\r\n\r\nIs it possible to build an append-only cryptographic system that still gives us repudiation? Maybe!\r\n\r\n\r\n#crypto #ssb #private-groups",
+    "mentions": [
+      {
+        "link": "#crypto"
+      },
+      {
+        "link": "#ssb"
+      },
+      {
+        "link": "#private-groups"
+      }
     ]
   },
-  "signature": "JNHxZ+ogJLtX0pL8TGunJzCEqwUNnVFq8ERCYiBlJ4I+J+bZ3VNYYlUJPrUMxepbxdd1wxaUYsqgo9AZhcpEAQ==.sig.ed25519"
+  "signature": "I4MGgKwQzPqfJkYOUNeWYiqA7mhDpF9UxPW9WilRty2RL51ZubRG7uR2A1TtUDliqRMX2CzawnToLR+n5XC6DQ==.sig.ed25519"
 }
