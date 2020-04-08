@@ -1,18 +1,22 @@
 {
-  "previous": "%kYdXliiKWYcI21oWzxCP+lrkZImanzUtiPtwuWuZc9c=.sha256",
-  "sequence": 16949,
+  "previous": "%bPtE3SKghDqkh/JTloKJUicd/eba5tuaHRudwWHA8Hs=.sha256",
+  "sequence": 16950,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586357063661,
+  "timestamp": 1586357794904,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%kgs1v/hRxLEwxoLXDcfb+742LndqGrFkO1lo9qX/Rmk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nYep, Patchwork does this with the `reply` property, but unfortunately that makes it difficult to tell when you're *actually* being mentioned. I think clients just need to be smarter about showing notifications in the discussions that you're a part of.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%Nm7cYD8O1Gd0sqGJjAHz4h4m+Og1R9/FelnWR83lpSc=.sha256",
     "branch": [
-      "%/ihRAxq8rKQETYPHlAydodzGHTilF8b/k+HBA8kFwK8=.sha256"
+      "%KOv81i1xBkRW3zR0l5CoS6q+4+beGYvrPlQuLFdwCiE=.sha256"
     ]
   },
-  "signature": "QY3r5df5qwgbsL59WnhHllIrYmhwO0cDELSyxdMMUqCpEu2YGNbHqlGqdj4sYTQ2kE8M82nWBEqGHU3chSagBQ==.sig.ed25519"
+  "signature": "734y+auwZSo8FoBD4w2om/RtTkQ+ty1yPTayVEEHuqA8J5iOcH7t201wzwbXu2HJgJ03cojwOe8/sfYej97kBw==.sig.ed25519"
 }
