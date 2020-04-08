@@ -1,22 +1,19 @@
 {
-  "previous": "%oZ1V2YXxRBz0l/UnMK5hBELDH/Y/3/6cDA/DiDGl1tk=.sha256",
-  "sequence": 16965,
+  "previous": "%ZsPb99lRUJw6hxFiSSfNRgVlUybFgT3jvfGanE7Hg4o=.sha256",
+  "sequence": 16966,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586380781516,
+  "timestamp": 1586380863355,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Cameron Leslie](@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519)\r\n\r\nUnfortunately it's slightly more complicated, since `:active` doesn't actually guarantee that the button was selected. If you hover a button, click your mouse, move it away from the button, and release your mouse, then `:active` is triggered during the click but the form doesn't get submitted. 🤦",
-    "mentions": [
-      {
-        "link": "@2dtfbuH7XvPVNQvHcEIwwz89XbcobYceIQvvhpA5UZM=.ed25519",
-        "name": "Cameron Leslie"
-      }
-    ],
-    "root": "%+4q3slLxim9OSfQIBEFrrsNSBqb+cfzlnMYpAtxfPeQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%uNiM1jtP06wq8rEbt1i+15xIv/W5cV/1mO2mG+e8snw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fAu6PkFxBQwqQbR7JQDc26yXB3PE17wxwjxj1iDTGQI=.sha256"
+      "%6mSzdpiIV9ydBxlm+/f0biykE6Z1/nVkOoIpChuU+IU=.sha256",
+      "%IvWNzE1w4dk22cBiktxBr/FFOx3lK1J7jq2ye8h53oc=.sha256"
     ]
   },
-  "signature": "yZZh1zU2/g2Y1MxIxLleQkrrCH8Fkhqg3ibNB0qNzjx3xjd5UBGu5QRAh5DR5FV6ddDxXmAghsM3CKY+Gvj5Cg==.sig.ed25519"
+  "signature": "/m1VF8oBTsnbwCHpAPTUZG4u32a5bM3oRG3E0KIDfBCbRvDCc7ltcENtncZ/v9l60UOxkSRbz2Rdkl9+UurRBA==.sig.ed25519"
 }
