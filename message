@@ -1,20 +1,29 @@
 {
-  "previous": "%tvrEqdLxX2xFxTKY4z0o3DH9wHBeZvBng3xCIB0eGF4=.sha256",
-  "sequence": 16978,
+  "previous": "%2a34UvY6x9nUc8gnBDEiZ+muXx61mjif1GmQUGacB5A=.sha256",
+  "sequence": 16979,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586447015553,
+  "timestamp": 1586447551468,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Anyone have thoughts on [Unqlite](https://github.com/symisc/unqlite)? I've been looking around for embedded NoSQL databases and this looks kind of interesting.\r\n\r\n#unqlite #databases",
+    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519) [@JAM ☠️🐍](@xmHEUJF4a7z2V0OHH+5+Sai/1ew1SVJpRJ9vZQa6dtI=.ed25519)\r\n\r\nYep, the best we can do is a [topological sort](https://en.wikipedia.org/wiki/Topological_sorting), so we can order messages based on which messages they reference, but we can only translate that to an actual timestamp if we trust one of the feeds.\r\n\r\nFor example, if you set up a feed that publishes a message every minute with:\r\n\r\n- The current timestamp\r\n- A list of the latest messages from each feed\r\n\r\n...then you can know that the referenced messages were published sometime before the timestamp. Bonus points for multiple timestamp feeds that validate each other.\r\n\r\nThere's also an interesting thread on topo sorting here: %XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256",
     "mentions": [
       {
-        "link": "#unqlite"
+        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
+        "name": "Nｅｔｓｃａｐｅ Navigator™"
       },
       {
-        "link": "#databases"
+        "link": "@xmHEUJF4a7z2V0OHH+5+Sai/1ew1SVJpRJ9vZQa6dtI=.ed25519",
+        "name": "JAM ☠️🐍"
+      },
+      {
+        "link": "%XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256"
       }
+    ],
+    "root": "%KAjCgbV3wlYQPm/R3paDL5iVO4If0wecT+zuQAoirAk=.sha256",
+    "branch": [
+      "%hL5jeSNApYa9U/GMcmosjkKx1J2wlqPBohKOkuQghZI=.sha256"
     ]
   },
-  "signature": "uSA7+Kn03zaKUwR0rKzmQ1xNNq6NzasQndiBAWZQzPRoQXHoo0Gt06Ba7C+if4zFb9KfiKWIJyBCfHg6xT8fAg==.sig.ed25519"
+  "signature": "qF2ttLfk09p8MyKGmueBPQO6bHScAmJWXZO67hcOa0ZMhOoCsGrsdO3eMS8eIG5CBgezGktlM7jbYgRbymefAg==.sig.ed25519"
 }
