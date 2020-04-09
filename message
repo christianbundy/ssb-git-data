@@ -1,29 +1,22 @@
 {
-  "previous": "%2a34UvY6x9nUc8gnBDEiZ+muXx61mjif1GmQUGacB5A=.sha256",
-  "sequence": 16979,
+  "previous": "%9EcaUmt5b0h24IdnYr7JbSiuEycBxCi+6Aaz8U531Ds=.sha256",
+  "sequence": 16980,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586447551468,
+  "timestamp": 1586447602039,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519) [@JAM ☠️🐍](@xmHEUJF4a7z2V0OHH+5+Sai/1ew1SVJpRJ9vZQa6dtI=.ed25519)\r\n\r\nYep, the best we can do is a [topological sort](https://en.wikipedia.org/wiki/Topological_sorting), so we can order messages based on which messages they reference, but we can only translate that to an actual timestamp if we trust one of the feeds.\r\n\r\nFor example, if you set up a feed that publishes a message every minute with:\r\n\r\n- The current timestamp\r\n- A list of the latest messages from each feed\r\n\r\n...then you can know that the referenced messages were published sometime before the timestamp. Bonus points for multiple timestamp feeds that validate each other.\r\n\r\nThere's also an interesting thread on topo sorting here: %XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256",
+    "text": "[@Beni Grind](@i/gfWqlqxBq9JkYhWIT0whiczxDTySFr9KXVwZgVavw=.ed25519)\r\n\r\nWhich box?",
     "mentions": [
       {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "Nｅｔｓｃａｐｅ Navigator™"
-      },
-      {
-        "link": "@xmHEUJF4a7z2V0OHH+5+Sai/1ew1SVJpRJ9vZQa6dtI=.ed25519",
-        "name": "JAM ☠️🐍"
-      },
-      {
-        "link": "%XmoQjmHNYKNV/DBl2jR4X9G4Qp5D9cRtt/U9JAc5Jec=.sha256"
+        "link": "@i/gfWqlqxBq9JkYhWIT0whiczxDTySFr9KXVwZgVavw=.ed25519",
+        "name": "Beni Grind"
       }
     ],
-    "root": "%KAjCgbV3wlYQPm/R3paDL5iVO4If0wecT+zuQAoirAk=.sha256",
+    "root": "%dShk+KvTtBsjsU39zOi6p0vIPERn4vt5MIl9IKSwAbg=.sha256",
     "branch": [
-      "%hL5jeSNApYa9U/GMcmosjkKx1J2wlqPBohKOkuQghZI=.sha256"
+      "%dShk+KvTtBsjsU39zOi6p0vIPERn4vt5MIl9IKSwAbg=.sha256"
     ]
   },
-  "signature": "qF2ttLfk09p8MyKGmueBPQO6bHScAmJWXZO67hcOa0ZMhOoCsGrsdO3eMS8eIG5CBgezGktlM7jbYgRbymefAg==.sig.ed25519"
+  "signature": "HiJuiYGZp2vnLwacMtnorbiV01V/lpSUvf48n7fpK5kiKwaUchPq2utbyO2R1h/4HiEcX2vBcn3neGYY8NC3DA==.sig.ed25519"
 }
