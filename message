@@ -1,22 +1,23 @@
 {
-  "previous": "%UxXATo2nm2jVsWl7PdrsCXRqHNgFzQ724sFj6bnYTZQ=.sha256",
-  "sequence": 17000,
+  "previous": "%dlgCrHf8fdTXZVcN71KX/lcPBGx63qIn5IpiUm3whuo=.sha256",
+  "sequence": 17001,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586557619468,
+  "timestamp": 1586557661352,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nHey look, a regression! I recently refactored the SSB service management to be less of a mess and must have introduced that problem. Thanks for pointing it out, that's subtle enough that it would've taken me a while to notice.\r\n\r\nI've just opened [this pull request](https://github.com/fraction/oasis/pull/395) to resolve the problem, if you want to check it out. If you're using the global install method (?) you can snag it with:\r\n\r\n```sh\r\nnpx global-install christianbundy/oasis#start-ssb-immediately\r\n```",
+    "text": "[@Kathleen Marie](@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519)\r\n\r\nThank you for the hugs: digital, culinary, and otherwise. ❤",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@GSuGLzJa8t3aJCLvs66Ekn7MXdr3yqCSzsd6z2iUEBY=.ed25519",
+        "name": "Kathleen Marie"
       }
     ],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "root": "%oAgUUT/Pjb3DFz0wAHmW/Fn+9s9/XSDJdwbpnSl+I90=.sha256",
+    "fork": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
     "branch": [
-      "%feSvhuLLa8vA475+k1Z9ZWEAHvNhYTT1H4wlpcoGEYw=.sha256"
+      "%oAgUUT/Pjb3DFz0wAHmW/Fn+9s9/XSDJdwbpnSl+I90=.sha256"
     ]
   },
-  "signature": "45c3Xs7fyTD5p8sovFp1NyDg5bvYIYdYlFlx9xyEkv+aX9SJX4hiXQg7HGlgv5ql5HRXPJ/BCIFeeYxdZ6tODw==.sig.ed25519"
+  "signature": "53tPFSihhXlsbkdY6NQu7YnIuTU4xrBQkPgFvqOwSS42Bf+vptVQeRdFKnMxy8oacpXars221PmMQKf+JgKXCw==.sig.ed25519"
 }
