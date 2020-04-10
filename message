@@ -1,18 +1,22 @@
 {
-  "previous": "%x9AMGyhqVEeukLnzCNs4ORy/Oyh60803+1bwEu0Vg58=.sha256",
-  "sequence": 16999,
+  "previous": "%UxXATo2nm2jVsWl7PdrsCXRqHNgFzQ724sFj6bnYTZQ=.sha256",
+  "sequence": 17000,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586553129683,
+  "timestamp": 1586557619468,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%HptkrsZfNMqxy0ZX8SaHzXUwO/ZHuVKCrP5YlwoLWHc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nHey look, a regression! I recently refactored the SSB service management to be less of a mess and must have introduced that problem. Thanks for pointing it out, that's subtle enough that it would've taken me a while to notice.\r\n\r\nI've just opened [this pull request](https://github.com/fraction/oasis/pull/395) to resolve the problem, if you want to check it out. If you're using the global install method (?) you can snag it with:\r\n\r\n```sh\r\nnpx global-install christianbundy/oasis#start-ssb-immediately\r\n```",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
     "branch": [
-      "%HptkrsZfNMqxy0ZX8SaHzXUwO/ZHuVKCrP5YlwoLWHc=.sha256"
+      "%feSvhuLLa8vA475+k1Z9ZWEAHvNhYTT1H4wlpcoGEYw=.sha256"
     ]
   },
-  "signature": "eED53A+oZsEEMvokgHqiQoJnDRhouAtcfv0sFrRSDF03z9lD2+nVGXJ4SkPZ+GvbbHfTvX7UIIGCZuXVxe2/AA==.sig.ed25519"
+  "signature": "45c3Xs7fyTD5p8sovFp1NyDg5bvYIYdYlFlx9xyEkv+aX9SJX4hiXQg7HGlgv5ql5HRXPJ/BCIFeeYxdZ6tODw==.sig.ed25519"
 }
