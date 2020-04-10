@@ -1,33 +1,17 @@
 {
-  "previous": "%LtCmWOCgL6oDlMzICuQs1eYxqVB51ae3bVp4NgspcyU=.sha256",
-  "sequence": 16991,
+  "previous": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+  "sequence": 16992,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586549412969,
+  "timestamp": 1586549579152,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "# Oasis 2.15.0 -- Upgrade immediately\r\n\r\n- **Desktop:** [Oasis-Desktop](https://github.com/fraction/oasis-desktop/releases/latest) (New!)\r\n- **Terminal:** `npx global-install fraction/oasis#semver:`\r\n- **Terminal (unstable):** `npx global-install fraction/oasis`\r\n\r\nCheck out the [readme](https://github.com/fraction/oasis/blob/master/README.md) for more information and installation instructions.\r\n\r\n## Security\r\n\r\nThere's lots of fun stuff I want to talk about, but we need to get something out of the way first: **every version of Oasis before 2.15.0 has a security vulnerability and you need to upgrade immediately.** We don't have any reason to believe that this flaw was exploited in the wild, but we need to get everyone upgraded out of an abundance of caution. \r\n\r\nIf you're running a vulnerable application on your computer and an attacker can trick you into visiting a malicious website, they could use [DNS rebinding](https://en.wikipedia.org/wiki/DNS_rebinding) and [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks to read/write to vulnerable applications. \r\n\r\n- **March 24:** [@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519) suggests a security review and pings [@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519).\r\n- **March 25:** I receive an email from [@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519) disclosing these problems 🎉\r\n- **March 26:** I write a patch for Oasis and reach out to other SSB interface developers who might have the same vulnerability.\r\n- **April 9:** [@cel](@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519) indicates that patches are ready for Patchfoo and Git-SSB-Web and [@Dominic](@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519) indicates that we shouldn't wait for him to write a patch for Yap.\r\n- **April 10:** Public disclosure. (You are here.) **If you use Oasis, Patchfoo, or Git-SSB-Web, you need to upgrade as soon as possible.**\r\n\r\nHuge thanks to everyone involved (especially [@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)!) for finding and fixing these problems. I'd like to organize some time to hunt for more security vulnerabilities throughout the stack, if anyone is interested in that sort of thing. 🔨\r\n\r\n\r\n## Added\r\n\r\n- Spanish translation (#307)\r\n- Patchbay info to FAQ (#327)\r\n- Theme config with existing mechanisms (#343)\r\n- Sticky post header (#348, #379)\r\n- TCP socket fallback (#352)\r\n- Threads view (#353, #378)\r\n- Tests and types (#363)\r\n- Italian translation (#367)\r\n- Block and unblock (#372)\r\n- Show who liked post (#377, #382)\r\n\r\n## Fixed\r\n\r\n- 'Popular navigation link (#309)\r\n- Thread labels (#310)\r\n- Text and label clarity (#310, #316, #317)\r\n- mkdirp race condition (#322)\r\n- Indexing error message (#325)\r\n- Crash when linking directly to private message (#335)\r\n- Settings ordering (#311)\r\n- Shift cards rather than indent (#337)\r\n- Channel appearing in non-root posts (#341)\r\n- Only show connected peers in settings (#342)\r\n- Text-based browser spacing issues (#348)\r\n- Markdown link bug (#356)\r\n- UI inconsistencies (#357)\r\n- Follow button for non-English languages (#360)\r\n- Popular posts being processed twice (#366)\r\n\r\nPlease reach out if you have any questions or if you need help upgrading. About a dozen people have worked on this release and I'm super excited to be able to share this update.\r\n\r\n#oasis",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      },
-      {
-        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
-        "name": "zozs"
-      },
-      {
-        "link": "@f/6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU=.ed25519",
-        "name": "cel"
-      },
-      {
-        "link": "@EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519",
-        "name": "Dominic"
-      },
-      {
-        "link": "#oasis"
-      }
+    "text": "> they could use DNS rebinding and CSRF attacks to read/write to vulnerable applications.\r\n\r\nThis could be written better: \"Vulnerable applications\" means \"old versions of Oasis, Patchfoo, and Git-SSB-Web\". The patched version of Oasis is available now, and my understanding is that patched versions of Patchfoo + Git-SSB-Web will be available today.",
+    "mentions": [],
+    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "branch": [
+      "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256"
     ]
   },
-  "signature": "dwTnFGLzT266xLR4W/ZWkHStZ076KdmzF13TL6okqMWifpRokvCV4m+PjZFYktqMyFK3TNqmQ6v2zSqf0HAaCA==.sig.ed25519"
+  "signature": "6WzjIjyVXARGCT7DDbB4bPg5ebzn+YHg/uLkukD2Qe3ZykeBaCrx7tquYkLbGNnM5BQCBXjbFwZBWsylJ0ZoCA==.sig.ed25519"
 }
