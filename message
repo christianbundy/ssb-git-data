@@ -1,17 +1,19 @@
 {
-  "previous": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
-  "sequence": 16992,
+  "previous": "%U5leeziH4TG+LYG1olz7Zd5FVm1IgvWzPEsClZ9Rruo=.sha256",
+  "sequence": 16993,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586549579152,
+  "timestamp": 1586549625181,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "> they could use DNS rebinding and CSRF attacks to read/write to vulnerable applications.\r\n\r\nThis could be written better: \"Vulnerable applications\" means \"old versions of Oasis, Patchfoo, and Git-SSB-Web\". The patched version of Oasis is available now, and my understanding is that patched versions of Patchfoo + Git-SSB-Web will be available today.",
-    "mentions": [],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%FssWvMpbWWBXYRUb7ZPNfNhTkoUngfx81icCdVPfofI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256"
+      "%fkOVceMgYYB94sA8CU9FvDCsBxrxcv5xzlF2PKXxie4=.sha256",
+      "%wnGG6jBLlY3hJH7TQz04ynPorgH/pmWFU0BXUr4Po4I=.sha256"
     ]
   },
-  "signature": "6WzjIjyVXARGCT7DDbB4bPg5ebzn+YHg/uLkukD2Qe3ZykeBaCrx7tquYkLbGNnM5BQCBXjbFwZBWsylJ0ZoCA==.sig.ed25519"
+  "signature": "aKAM+n/PbEgHsCwZ8Qllf/uXZZJoH/XAkAqTUlvRPeZPzNwaQQ4qUE90URgJkanNq89wZLENjz7np40vOsn+Aw==.sig.ed25519"
 }
