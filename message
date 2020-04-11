@@ -1,22 +1,18 @@
 {
-  "previous": "%LzLhtFd3oNN3rP+jiHbE/hkIu+nBszFk2LQsXWKe4mU=.sha256",
-  "sequence": 17017,
+  "previous": "%x0udzOXuej5P/hxzCjBGJqAy+8pqGUjS0AYVNq7XOsA=.sha256",
+  "sequence": 17018,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586625191874,
+  "timestamp": 1586629565258,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThat's weird, the `--allow-host oasis-example.org` should make the hostname exempt from the referer hostname check. Could you just confirm that you're doing `--allow-host hostname.example.org` rather than `--allow-host http://hostname.example.org` or something? I suppose it might be smart to throw an error if it isn't a valid host, but I'm not sure whether that's the problem. 😕",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%OsiYi1D7hez3HfBBjPa8+uNfyLpM9LcNXUyehow13C8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%/+pgJaNTak+Z6OjDN2OTP9Fu3FGNgTUUFOJhXkEETt8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%OsiYi1D7hez3HfBBjPa8+uNfyLpM9LcNXUyehow13C8=.sha256"
+      "%/+pgJaNTak+Z6OjDN2OTP9Fu3FGNgTUUFOJhXkEETt8=.sha256"
     ]
   },
-  "signature": "dj2rmrsijjFNrhKJBGesuRTV+YRCLU6ZlXCzXTnLCSDevDd4itvG+mHm3THtadTp716QKC+YkGFMerng6VmDDQ==.sig.ed25519"
+  "signature": "So9lVdgzR9lIxssVHq2DaqkB3sUKL+7psflzf2x4Ky3Dz96WRGu4R6PhgjOfF7uFjq3NGF+siyyoqty1A519Aw==.sig.ed25519"
 }
