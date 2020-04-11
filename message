@@ -1,18 +1,22 @@
 {
-  "previous": "%SmUv/wKhoHQ+4xVnyKYDBgXVsg3IRGeAdGEOrViTazY=.sha256",
-  "sequence": 17014,
+  "previous": "%TUQg68sHWtX2y9gGrz7o6SKB6fsZzGAzRz9jl3xCffw=.sha256",
+  "sequence": 17015,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586620713590,
+  "timestamp": 1586624701712,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%GxQ3OgX+g5g/22u+BmGmHiYjdWLzbeEcqkGKAzT2GwY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nHmm. Do you have any stdout logging that suggests what the problem is? It should say \"No referer\" or \"Invalid referer hostname: ${hostname}\" or something useful.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%VK+IFpS7qZfsJNmlPMCdQBFY/pNM+4xixnKwgjFIUTE=.sha256",
     "branch": [
-      "%GxQ3OgX+g5g/22u+BmGmHiYjdWLzbeEcqkGKAzT2GwY=.sha256"
+      "%VK+IFpS7qZfsJNmlPMCdQBFY/pNM+4xixnKwgjFIUTE=.sha256"
     ]
   },
-  "signature": "uy6tzz1hutdRANm/t3bsSz/Gmvqgezn6wSX8joygPJbcbiec8qX8NJPr5UeBa2H8wlTJgy1lUkIN4zYDCqycBA==.sig.ed25519"
+  "signature": "ogj0a1ycSnQSlwn1jk9m0n/6feS0FANr7L1qnRA29Dn7sRsqunHbmQJWBfVeGNMt+MLt9jh/w3mojVszMLFqBQ==.sig.ed25519"
 }
