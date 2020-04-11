@@ -1,18 +1,27 @@
 {
-  "previous": "%Nqr8lwM+mxXVviHZd+pSR5xFFDzqx0/yeuyZsuWdpAU=.sha256",
-  "sequence": 17007,
+  "previous": "%sEiYkQtdDjaXent48h+zt1a1GCd8u7eZU4FN9dqs/bc=.sha256",
+  "sequence": 17008,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586617425112,
+  "timestamp": 1586617519282,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xSx9BZljTFOECToi0XpAovV3RZ4e3KCXB+nLa0CeDfs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nOh no, you've done nothing wrong. There's [a bug](https://github.com/fraction/oasis-desktop/issues/3) in Oasis-Desktop that breaks it, sorry for having you download and attempt just to bump into this error! I can ping you once it's fixed, sorry about that.\r\n\r\n---\r\n\r\n[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThe security issue only happens when you're providing an HTTP server on localhost, so Patchfox should be okay. Oops, just saw that this was discussed in a little subthread and you already have this info! I have nothing useful to add, but I still want to send this message because talking with friends is fun! My coffee tastes good. Too lazy for photo right now. 😴",
+    "mentions": [
+      {
+        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
+        "name": "Tim Makarios"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
     "branch": [
-      "%xSx9BZljTFOECToi0XpAovV3RZ4e3KCXB+nLa0CeDfs=.sha256"
+      "%W9DpOTzFYnfUeZWHuy1HS6i5qbxwkrCD4iSUWJpEF18=.sha256",
+      "%vCEURNV5WdzjntQ+zjlyZLU6aRst/JAo7W0NvL787YA=.sha256"
     ]
   },
-  "signature": "lhwWfjAIpkD7roz1P8VzKer9Ha42UIT8rvbX89t2rZvZmG45MR6b+RXCbG85A1wSRk//SkwB/fG02uNyMOWNDg==.sig.ed25519"
+  "signature": "lT/u7Y9k6/0krxX84rvI+dD8gzFwBMF8nu+c+ALk7P2yHekLC7AZvbB+HKD7A3t61jhD3Eo29X8m6UH0oUj0AQ==.sig.ed25519"
 }
