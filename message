@@ -1,22 +1,22 @@
 {
-  "previous": "%v4QECLtyukBz73KjhVir8qw4KFpQ7njf0b5d9229Qlg=.sha256",
-  "sequence": 17009,
+  "previous": "%mus/ktTy1DtpMg+YM6bhSkwY+iPvdm7frtQJPKsypJg=.sha256",
+  "sequence": 17010,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586617922798,
+  "timestamp": 1586618679099,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nOops, I forgot that when you redirect stdout it gets excited and erases the file before the command runs. \r\n\r\n```sh\r\nprintf '{\"manifest\":\"sync\"}' > ~/.ssb/manifest.json\r\nsbotc manifest > /tmp/manifest.json\r\nmv /tmp/manifest.json ~/.ssb/\r\n```\r\n\r\nI've actually tested the code this time and it works!",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\n> Btw, what is the difference between using npx and npm when installing?\r\n\r\n`npx` runs scripts from npm, so you could do `npx ssb-server` and it'd just run SSB-Server without installation. I was frustrated by the fact that `npm --global install` was [broken by default](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally), so I made a [small module](https://github.com/christianbundy/global-install) that just:\r\n\r\n- runs `npm --global install <module>`\r\n- if that fails and we're on a unix system, deploy the workaround that the documentation suggests\r\n- if the workaround succeeds, retry `npm --global install <module>`\r\n\r\nThere's a screencast of it [here](https://asciinema.org/a/erISoxaH5vLjtzFsvmaj0zzoz).\r\n\r\nRegarding the domains, you might be interested in this issue: https://github.com/fraction/oasis/issues/396\r\n\r\nTL;DR: sorry this broke stuff, there are a few ways to fix this problem (including `allowHosts`) with various trade-offs, but any of them would work just fine",
     "mentions": [
       {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%Xb0/V/NrKSPO34KNpvTv3LbX+pHt7/CbWDiYPAlEjoo=.sha256",
+    "root": "%bEtNA6QuUQX2Rds+sZf9HiIkIjLAdSM1RYGZ662aYy4=.sha256",
     "branch": [
-      "%Xb0/V/NrKSPO34KNpvTv3LbX+pHt7/CbWDiYPAlEjoo=.sha256"
+      "%bEtNA6QuUQX2Rds+sZf9HiIkIjLAdSM1RYGZ662aYy4=.sha256"
     ]
   },
-  "signature": "aGWIUyjefic2Gr/6gA79ubn5GxrB7nMrLlUL7qiT983yEnJFpD+oJPGQLT80ULpA/fQRC+rrXL79AJQJqVhoCQ==.sig.ed25519"
+  "signature": "HdzcnZzTSIDXQmVr71Ycci+XPkyf7U5aAvKYMoCY1kvTOxCHN4KJv2T81d/NQq6vYhQydgiiFy+GyU5Kj49hDg==.sig.ed25519"
 }
