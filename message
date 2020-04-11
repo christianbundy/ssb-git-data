@@ -1,27 +1,22 @@
 {
-  "previous": "%sEiYkQtdDjaXent48h+zt1a1GCd8u7eZU4FN9dqs/bc=.sha256",
-  "sequence": 17008,
+  "previous": "%v4QECLtyukBz73KjhVir8qw4KFpQ7njf0b5d9229Qlg=.sha256",
+  "sequence": 17009,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586617519282,
+  "timestamp": 1586617922798,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nOh no, you've done nothing wrong. There's [a bug](https://github.com/fraction/oasis-desktop/issues/3) in Oasis-Desktop that breaks it, sorry for having you download and attempt just to bump into this error! I can ping you once it's fixed, sorry about that.\r\n\r\n---\r\n\r\n[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThe security issue only happens when you're providing an HTTP server on localhost, so Patchfox should be okay. Oops, just saw that this was discussed in a little subthread and you already have this info! I have nothing useful to add, but I still want to send this message because talking with friends is fun! My coffee tastes good. Too lazy for photo right now. 😴",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nOops, I forgot that when you redirect stdout it gets excited and erases the file before the command runs. \r\n\r\n```sh\r\nprintf '{\"manifest\":\"sync\"}' > ~/.ssb/manifest.json\r\nsbotc manifest > /tmp/manifest.json\r\nmv /tmp/manifest.json ~/.ssb/\r\n```\r\n\r\nI've actually tested the code this time and it works!",
     "mentions": [
       {
-        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
-        "name": "Tim Makarios"
-      },
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
       }
     ],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "root": "%Xb0/V/NrKSPO34KNpvTv3LbX+pHt7/CbWDiYPAlEjoo=.sha256",
     "branch": [
-      "%W9DpOTzFYnfUeZWHuy1HS6i5qbxwkrCD4iSUWJpEF18=.sha256",
-      "%vCEURNV5WdzjntQ+zjlyZLU6aRst/JAo7W0NvL787YA=.sha256"
+      "%Xb0/V/NrKSPO34KNpvTv3LbX+pHt7/CbWDiYPAlEjoo=.sha256"
     ]
   },
-  "signature": "lT/u7Y9k6/0krxX84rvI+dD8gzFwBMF8nu+c+ALk7P2yHekLC7AZvbB+HKD7A3t61jhD3Eo29X8m6UH0oUj0AQ==.sig.ed25519"
+  "signature": "aGWIUyjefic2Gr/6gA79ubn5GxrB7nMrLlUL7qiT983yEnJFpD+oJPGQLT80ULpA/fQRC+rrXL79AJQJqVhoCQ==.sig.ed25519"
 }
