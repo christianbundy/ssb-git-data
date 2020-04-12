@@ -1,18 +1,22 @@
 {
-  "previous": "%TvJDyQzXCeQu7yj3DW2ulT44TjL8k172Ft8VLuaslRI=.sha256",
-  "sequence": 17025,
+  "previous": "%p76AKHoIs2TAVuZXcc5LkI9FLIEaOWK+bL9RMxJlUPw=.sha256",
+  "sequence": 17026,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586662288403,
+  "timestamp": 1586662517266,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%V8oxoOHKkkhzAQjPEEcTeJNMXG5LBHjRLWUR6SVzoiw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@crabmusket](@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519)\r\n\r\nThat's a good idea! My biggest concern with Markdown/HTML character counts is that you might have either:\r\n\r\n- `hey all, [this is my website](http://exampl`\r\n- `hey all, <a href=\"https://example.example.c`\r\n\r\nI'm sure someone else has solved the \"take some HTML and try to cut it down to X characters\", if you're familiar with any methods I'd love to leran more about them. \r\n\r\n> (I see that Oasis encourages the “mentions in the first paragraph” format by default ;))\r\n\r\nYeah, still not sure whether that's a good idea. 🙃",
+    "mentions": [
+      {
+        "link": "@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519",
+        "name": "crabmusket"
+      }
+    ],
+    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
     "branch": [
       "%V8oxoOHKkkhzAQjPEEcTeJNMXG5LBHjRLWUR6SVzoiw=.sha256"
     ]
   },
-  "signature": "St3YmHVSlanC6S0hgajNyVCKsZ+y5qUcFDUFUUueLEq4GpZZMkfkMDStqBLTmkJ8AopILt7Gl1BQ7NmX/5+oCg==.sig.ed25519"
+  "signature": "y5HzpYafEvWTHryVJUEp0o/T/hEH7Sn46styB0FgFzD97AF2g4oUiWwNMMKB4Qy6fmVYRIZPIgCLjgE9YiOpBg==.sig.ed25519"
 }
