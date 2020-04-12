@@ -1,23 +1,22 @@
 {
-  "previous": "%oIiuWvA5VGLSukxrNvXe0pMBfT/1vtPdPEGiKfdhYdg=.sha256",
-  "sequence": 17033,
+  "previous": "%9XbyfFjjVAu7I5BDRqool7D81CciMW3TIRWGHKkwOi0=.sha256",
+  "sequence": 17034,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586719699278,
+  "timestamp": 1586724083506,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nJust pushed out a [new release of Oasis-Desktop](https://github.com/fraction/oasis-desktop/releases/latest), please let me know if it gives you any trouble. Thanks for your patience!",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\n> When using the appimage, and you click on “Open oasis”, is oasis supposed to open inside the electron frame or in your default browser? I sort of expected the former because oasis is bundled with electron.\r\n\r\nWe have the option of opening Oasis in the Electron frame, but the problem is that then we have to follow Patchwork's example and basically implement a web browser (forward, back, ctrl+f, bookmarks, extensions, etc). I'm only using Electron because it makes it easy to bundle all of our native modules and build installers for each platform. In my mind the desktop UI is mostly meant for people who aren't familiar with the terminal.\r\n\r\n> [...] it complained that the host should be 127.0.0.1 [...]\r\n\r\nThat sounds like a bug to me. If you're using the default config then the server should start on `localhost` and it should connect on `localhost`. I'd be curious to hear what the logs are complaining about in the background, if you have any stdout.\r\n\r\n> I will be happy to open an issue [...]\r\n\r\nThat would be great!",
     "mentions": [
       {
-        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
-        "name": "Tim Makarios"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "root": "%gzVIid8UefGsIHKwijIMnVg/rbDe1fQc+i98c9w2IyQ=.sha256",
     "branch": [
-      "%9V5CTxehBgRuST/+bc7aPVcCHpdATGgMz96KgdwCt8c=.sha256",
-      "%pVdfORoon7OYaqNnQRxoMlaBDR9uwgR+mvBpfz/9evI=.sha256"
+      "%gzVIid8UefGsIHKwijIMnVg/rbDe1fQc+i98c9w2IyQ=.sha256"
     ]
   },
-  "signature": "FbME8gJMrbnxt4yqHIgPIQy1L6RIKT1HT2hC294vJe2JKYcaH9y9GvJBPdnBkmTO5MlCSlEvtKRY/bQTr7IiDQ==.sig.ed25519"
+  "signature": "o68A561Sw3A3o1w43hXACupGIULNVU3VRsb7HCGuPJ/e5s8GMuV2uDArbZp0BE1emcg3h5AnhUTKTh/K1CNxDg==.sig.ed25519"
 }
