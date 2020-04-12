@@ -1,22 +1,18 @@
 {
-  "previous": "%9BjUbRUmpq3Vo49DEXi/07pNBfOy96T2sabFgea8NSI=.sha256",
-  "sequence": 17027,
+  "previous": "%paA4nyi+rKRXcV6iRTbrwKD8Ow1Pb0bqysxnaXmQYYk=.sha256",
+  "sequence": 17028,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586664205735,
+  "timestamp": 1586664262420,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThe official project is `fraction/oasis` and my development is `christianbundy/oasis`, since we don't have any non-official branches in the project.\r\n\r\nWe're experimenting with a [weird development process that ZeroMQ started](https://hintjens.gitbooks.io/social-architecture/content/chapter4.html) and it seems to be working well, and one of the side-effects is that patches from maintainers are treated the same way as patches from everyone else (i.e. they go on a personal fork).\r\n\r\nIf you want, you could make a clone of the repo and merge my patches, then install the result as a global binary with:\r\n\r\n```\r\ngit pull origin pull/395/head\r\ngit pull origin pull/398/head\r\nnpx global-install .\r\n```",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%/0SKuTvQ3C5f6Fu2kb7szOq5cPifIrFuGXEuaWe7H/4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%agYA4KHhrHJa6zm+1BFZb5nhuar8QNm+khgcBvocpqM=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%/0SKuTvQ3C5f6Fu2kb7szOq5cPifIrFuGXEuaWe7H/4=.sha256"
+      "%agYA4KHhrHJa6zm+1BFZb5nhuar8QNm+khgcBvocpqM=.sha256"
     ]
   },
-  "signature": "g3CxXuw8jdbeTT9NIAMm8V4Cly3aoqIheEVGOR8igan+2j62N4wdy5Ie/FzR7NTKhCJAxSF2dVtgC6K542SoDQ==.sig.ed25519"
+  "signature": "ItO3vC4oC8Odd8OPWDpN8GzDvpxc8vQLEBEEI8mngsoBRQ8YlBuVkc9DvDCmp6NX+bP/qGA4oCWvxysXYSl3Dw==.sig.ed25519"
 }
