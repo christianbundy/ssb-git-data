@@ -1,22 +1,22 @@
 {
-  "previous": "%p76AKHoIs2TAVuZXcc5LkI9FLIEaOWK+bL9RMxJlUPw=.sha256",
-  "sequence": 17026,
+  "previous": "%9BjUbRUmpq3Vo49DEXi/07pNBfOy96T2sabFgea8NSI=.sha256",
+  "sequence": 17027,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586662517266,
+  "timestamp": 1586664205735,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@crabmusket](@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519)\r\n\r\nThat's a good idea! My biggest concern with Markdown/HTML character counts is that you might have either:\r\n\r\n- `hey all, [this is my website](http://exampl`\r\n- `hey all, <a href=\"https://example.example.c`\r\n\r\nI'm sure someone else has solved the \"take some HTML and try to cut it down to X characters\", if you're familiar with any methods I'd love to leran more about them. \r\n\r\n> (I see that Oasis encourages the “mentions in the first paragraph” format by default ;))\r\n\r\nYeah, still not sure whether that's a good idea. 🙃",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThe official project is `fraction/oasis` and my development is `christianbundy/oasis`, since we don't have any non-official branches in the project.\r\n\r\nWe're experimenting with a [weird development process that ZeroMQ started](https://hintjens.gitbooks.io/social-architecture/content/chapter4.html) and it seems to be working well, and one of the side-effects is that patches from maintainers are treated the same way as patches from everyone else (i.e. they go on a personal fork).\r\n\r\nIf you want, you could make a clone of the repo and merge my patches, then install the result as a global binary with:\r\n\r\n```\r\ngit pull origin pull/395/head\r\ngit pull origin pull/398/head\r\nnpx global-install .\r\n```",
     "mentions": [
       {
-        "link": "@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519",
-        "name": "crabmusket"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%9tRWrSJEaqShpfa7BX2xi4LgvoSuSYPUWGWlOzFQNRY=.sha256",
+    "root": "%/0SKuTvQ3C5f6Fu2kb7szOq5cPifIrFuGXEuaWe7H/4=.sha256",
     "branch": [
-      "%V8oxoOHKkkhzAQjPEEcTeJNMXG5LBHjRLWUR6SVzoiw=.sha256"
+      "%/0SKuTvQ3C5f6Fu2kb7szOq5cPifIrFuGXEuaWe7H/4=.sha256"
     ]
   },
-  "signature": "y5HzpYafEvWTHryVJUEp0o/T/hEH7Sn46styB0FgFzD97AF2g4oUiWwNMMKB4Qy6fmVYRIZPIgCLjgE9YiOpBg==.sig.ed25519"
+  "signature": "g3CxXuw8jdbeTT9NIAMm8V4Cly3aoqIheEVGOR8igan+2j62N4wdy5Ie/FzR7NTKhCJAxSF2dVtgC6K542SoDQ==.sig.ed25519"
 }
