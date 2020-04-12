@@ -1,22 +1,28 @@
 {
-  "previous": "%9XbyfFjjVAu7I5BDRqool7D81CciMW3TIRWGHKkwOi0=.sha256",
-  "sequence": 17034,
+  "previous": "%QGWxzpipORUugr2bYFSJc2RDdX1qrMPnXN1i2wpLS9Y=.sha256",
+  "sequence": 17035,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586724083506,
+  "timestamp": 1586724502274,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\n> When using the appimage, and you click on “Open oasis”, is oasis supposed to open inside the electron frame or in your default browser? I sort of expected the former because oasis is bundled with electron.\r\n\r\nWe have the option of opening Oasis in the Electron frame, but the problem is that then we have to follow Patchwork's example and basically implement a web browser (forward, back, ctrl+f, bookmarks, extensions, etc). I'm only using Electron because it makes it easy to bundle all of our native modules and build installers for each platform. In my mind the desktop UI is mostly meant for people who aren't familiar with the terminal.\r\n\r\n> [...] it complained that the host should be 127.0.0.1 [...]\r\n\r\nThat sounds like a bug to me. If you're using the default config then the server should start on `localhost` and it should connect on `localhost`. I'd be curious to hear what the logs are complaining about in the background, if you have any stdout.\r\n\r\n> I will be happy to open an issue [...]\r\n\r\nThat would be great!",
+    "text": "[@Trooper](@a9sYJKFmnK9aYP24vcsDB4ZVl6R7IKZfgMHlZLE7QJo=.ed25519)\r\n\r\nOh yeah! There's a handful of people here who run #yggdrasil and #cjdns, I used to run cjdns but haven't been using it very often lately. I should try yggdrasil again.\r\n\r\nI think I got into SSB when I was interested community mesh networks and started asking questions like \"what do social applications look like on mesh network?\". It turns out that when you start ruling out technologies that require internet access, there aren't tons of options, so I've been hanging around these cool p2p people ever since. \r\n\r\nI should get back into community mesh network stuff though, even just getting an amateur radio license would be a good first step.\r\n\r\nDo you run yggdrasil now? Maybe that'd be fun to set up. I'm embarrassed to admit that the name scared me away.",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@a9sYJKFmnK9aYP24vcsDB4ZVl6R7IKZfgMHlZLE7QJo=.ed25519",
+        "name": "Trooper"
+      },
+      {
+        "link": "#yggdrasil"
+      },
+      {
+        "link": "#cjdns"
       }
     ],
-    "root": "%gzVIid8UefGsIHKwijIMnVg/rbDe1fQc+i98c9w2IyQ=.sha256",
+    "root": "%1SDSRL7Tr6+Ts4w6tYVfWEdjfAWZfNgROLXkgLx8BLk=.sha256",
     "branch": [
-      "%gzVIid8UefGsIHKwijIMnVg/rbDe1fQc+i98c9w2IyQ=.sha256"
+      "%9iK6lBgsbQbQSoU1jOEhmPV2g5/GscA00+5Xi6wW1/c=.sha256"
     ]
   },
-  "signature": "o68A561Sw3A3o1w43hXACupGIULNVU3VRsb7HCGuPJ/e5s8GMuV2uDArbZp0BE1emcg3h5AnhUTKTh/K1CNxDg==.sig.ed25519"
+  "signature": "gFc2CpzmQqTOk8B3MOF9EnSgF6fP3FnuSZ9iGAi5p6on9DaE8pcPYFBh0eMTwFEyXL4CnRhn2LJsFrLdRLMDDA==.sig.ed25519"
 }
