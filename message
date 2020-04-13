@@ -1,22 +1,23 @@
 {
-  "previous": "%IMGSA/7Cje0jAnmXNoWlyo6zLvoKpP3OaoGOBFPAP/Q=.sha256",
-  "sequence": 17068,
+  "previous": "%V93NVEociZ0Z6PCfBu/dBoMOiohluvEXS6UJ3DFQtVw=.sha256",
+  "sequence": 17069,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586799600409,
+  "timestamp": 1586800304186,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Alex (Patchwork)](@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519)\r\n\r\nThat sounds like a bug to me. The expected behavior is:\r\n\r\n- Only connect to people you follow\r\n- Show people you don't follow with a 'Connect' button.\r\n- If you select 'Connect', then connect to those people (and remember them in the future).",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nPlease see: https://github.com/fraction/oasis/issues/396\r\n\r\nIf you're comfortable installing the unstable version (`npx global-install fraction/oasis`) you can do:\r\n\r\n```sh\r\noasis --allow-host example.com\r\n```",
     "mentions": [
       {
-        "link": "@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519",
-        "name": "Alex (Patchwork)"
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
       }
     ],
-    "root": "%dz18AwANdXH1ipV8LGziBNyLeIMjv/cTRe+mNCK73ss=.sha256",
+    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
     "branch": [
-      "%i4cZE75wbzsMb8mtt98aRHOSAH8aTm1L8gJV4wKgajc=.sha256"
+      "%ZSC+gIYP1ssRuQWjUncvg3y3uDQou5tDS9iqYiph588=.sha256",
+      "%v6A0RKoD/C3SM7IZfze/k8vFS/FPEjuFEQ2x5YXXWSw=.sha256"
     ]
   },
-  "signature": "4JOW0U4E989eRzaG8jonduRKa3OmpF+Z2VRjy0pqYMjvgZVhJg+DM38oO4YcY1kSkdjpxzJlGIoi2fhTDyOxDQ==.sig.ed25519"
+  "signature": "ZjnRqlhSpkaODvOjFgEKSwZ8444AoDiyPswxcFhazdQdian9S9aSvA3jdH3zBd+K82Tl6neyKFnloQQe2u+2DA==.sig.ed25519"
 }
