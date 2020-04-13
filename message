@@ -1,22 +1,18 @@
 {
-  "previous": "%q+RIIetqlgeBunC1pQvWm76WCdfghIk+qadRZbLFG7k=.sha256",
-  "sequence": 17060,
+  "previous": "%/wxEV2ZHqKaWOMhe97PCKp7lcX2G4RBPGt19rQtDEDg=.sha256",
+  "sequence": 17061,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586790003384,
+  "timestamp": 1586790246723,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Alex (Patchwork)](@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519)\r\n\r\n> Has Oasis been recently tested on Windows?\r\n\r\nYep, we test:\r\n\r\n- Node 10\r\n- Node 12\r\n- Node 13\r\n\r\nOn:\r\n\r\n- Linux\r\n- macOS\r\n- Windows\r\n\r\n> nothing happened after trying to run\r\n\r\nHmm, was this the [latest release](https://github.com/fraction/oasis-desktop/releases/tag/v1.1.1)? I just pushed a fix for a similar problem, but if you're still seeing that problem could you maybe start it from a terminal and look for console output? Sorry to have such a buggy experience!\r\n\r\n> I also tried running Oasis as node app, but it crashes at `setImmediate` in `src/http.js`, because server is still `null`.\r\n\r\nOh, I didn't realize that it could take more than 1 tick to start the server. I can loop `setTimeout()` or something maybe?\r\n\r\n> but there are further problems\r\n\r\nIf you post these I'd be happy to dig into them, thanks for the info! For what it's worth, I'm on Linux and my partner has a macOS device that Oasis-Desktop is running on, but I haven't seen it work on Windows. The Oasis CI service (Travis CI) says that it's passing tests on Windows, but I haven't seen this or been able to test Oasis-Desktop on Windows at all.",
-    "mentions": [
-      {
-        "link": "@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519",
-        "name": "Alex (Patchwork)"
-      }
-    ],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%aE7lShzMDfzkyLdPArPqTT+Wav6dbOSOjYj+N5LHl3M=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%M9mTfRHEXDRTuXr0XYB0lVuuY1xFlNS52Alin1bp7pg=.sha256"
+      "%aE7lShzMDfzkyLdPArPqTT+Wav6dbOSOjYj+N5LHl3M=.sha256"
     ]
   },
-  "signature": "BIgrvZOOFVNWG4LLvUxDDtoki8FklLu+6ZkkU7idPSupwjS0KXlWpOOAQnSjQpJme5Qs0QBbD/ZaG9i5v6wSAg==.sig.ed25519"
+  "signature": "h+mQhTo4DdIsOR679fC9UbmjbxItzQFbksyACDYRp96HLdjOdsp9JFqkAm7265ItGoi0IcnA5SuawzeJG0YLCw==.sig.ed25519"
 }
