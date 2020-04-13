@@ -1,23 +1,25 @@
 {
-  "previous": "%V93NVEociZ0Z6PCfBu/dBoMOiohluvEXS6UJ3DFQtVw=.sha256",
-  "sequence": 17069,
+  "previous": "%5MyBG/TEo2faZhbm3NV/yhDbd5ZWtu6rTFUzOxeHZEk=.sha256",
+  "sequence": 17070,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586800304186,
+  "timestamp": 1586800491139,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nPlease see: https://github.com/fraction/oasis/issues/396\r\n\r\nIf you're comfortable installing the unstable version (`npx global-install fraction/oasis`) you can do:\r\n\r\n```sh\r\noasis --allow-host example.com\r\n```",
+    "text": "[@Stardust](@P2lREv/l9EuyFCyNAcTjLV5T25yXKJ3D5GoPtoJQ3Tc=.ed25519)\r\n\r\nSorry about that, it's definitely a big pain point in Patchwork. You might like to try #oasis, which automatically starts all comments and replies with a @mention to the person you're talking to.",
     "mentions": [
       {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
+        "link": "@P2lREv/l9EuyFCyNAcTjLV5T25yXKJ3D5GoPtoJQ3Tc=.ed25519",
+        "name": "Stardust"
+      },
+      {
+        "link": "#oasis"
       }
     ],
-    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
+    "root": "%SKHYJ4i3UVIMgJHSg/yYGghww0uu2eGqiyA0O6k0Tz0=.sha256",
     "branch": [
-      "%ZSC+gIYP1ssRuQWjUncvg3y3uDQou5tDS9iqYiph588=.sha256",
-      "%v6A0RKoD/C3SM7IZfze/k8vFS/FPEjuFEQ2x5YXXWSw=.sha256"
+      "%JhTb5JQHVnSEiK9jVFOQ1jokyAS+HEJenIkQ8n1I8P8=.sha256"
     ]
   },
-  "signature": "ZjnRqlhSpkaODvOjFgEKSwZ8444AoDiyPswxcFhazdQdian9S9aSvA3jdH3zBd+K82Tl6neyKFnloQQe2u+2DA==.sig.ed25519"
+  "signature": "R0SVaWQNrqcubS2qNLPjbfZeaHYPNLNj2DaU01XeIAF/0KEZ1ctR3dUzSRz/6r3j942Q/hShsbjrIDPf5Fo4Ag==.sig.ed25519"
 }
