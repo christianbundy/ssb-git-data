@@ -1,22 +1,34 @@
 {
-  "previous": "%y8Dyz0CxcZHv4WgLywOiIJoTiT1/2TW0cWFIhlz2OzE=.sha256",
-  "sequence": 17081,
+  "previous": "%s9Xes9iSPO3bWyWMQD0GFlymf01vE0oVfcN/LGvy3aM=.sha256",
+  "sequence": 17082,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586816008844,
+  "timestamp": 1586816272054,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Alex (Patchwork)](@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519)\r\n\r\nOh sweet, I didn't see this!",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519) [@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519) [@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519) [@Alex (Patchwork)](@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519)\r\n\r\nJust released Oasis 2.16.0 and Oasis-Desktop 1.2.0 which should hopefully resolve the problems you've bumped into! Thanks again for reporting them.\r\n\r\nChanges include:\r\n\r\n- Fix 'like' hover in Thread view.\r\n- Add `--allow-how` CLI flag for proxy use-case\r\n- Add French translation\r\n- Fix documentation typo\r\n- Fix SSB service not starting until HTTP request\r\n- Fix warning message about offline mode",
     "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      },
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      },
+      {
+        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
+        "name": "Tim Makarios"
+      },
       {
         "link": "@r2VSGJQdGZgZwzKJbYtSosUW/PFb3T0Q1b8dH+RBbcg=.ed25519",
         "name": "Alex (Patchwork)"
       }
     ],
-    "root": "%STZJg+7yzpJ9TU5FAAJ7k9ube8MjebqtNS06e6UcYdo=.sha256",
+    "root": "%1249ZIXMBdHh2xVE3NuD2cJBgr2utlwg/B6wttfNmb4=.sha256",
     "branch": [
-      "%STZJg+7yzpJ9TU5FAAJ7k9ube8MjebqtNS06e6UcYdo=.sha256"
+      "%5MyBG/TEo2faZhbm3NV/yhDbd5ZWtu6rTFUzOxeHZEk=.sha256"
     ]
   },
-  "signature": "Ir0XOXn9KmRQnwDxLAUo0q2/E3G6fl6/WV2MyoMvd2P38BV2pVrtgkdRPup7EtCV2P1OI0QJWhOV+2Wo/kVcAQ==.sig.ed25519"
+  "signature": "CLkc87DKID2Rp4b+WzcE0/FsFoBZT7xfNkflat85805OoloH2ag/NwbYV0wSW2yTEN5e/FV0ycE9B0NA/65CBg==.sig.ed25519"
 }
