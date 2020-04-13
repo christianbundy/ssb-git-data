@@ -1,22 +1,18 @@
 {
-  "previous": "%wtKnDQNUg0Zb5waJ00IMItGoMVDC4Axy1HKTrEcb4VE=.sha256",
-  "sequence": 17085,
+  "previous": "%QpQyvOOHUFLZ0OM3FMk7Adk1uEw/pLSYGkuETmbgeHo=.sha256",
+  "sequence": 17086,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586816968624,
+  "timestamp": 1586817203431,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Johan](@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519)\r\n\r\nJust released!\r\n\r\n> The top navigation buttons are indeed a little fiddly - perhaps the active elements are a bit too small.\r\n\r\nI've had the same problem: https://github.com/fraction/oasis/issues/272\r\n\r\nLocally I've played around with the CSS rule. Would love to merge any improvements!\r\n\r\n```css\r\nnav > ul > li > a {\r\n /* increase of 1/8th */\r\n font-size: 112.5%;\r\n}\r\n```",
-    "mentions": [
-      {
-        "link": "@4XHLGF4UDOGiS5oqiDUjN97cKVBExloikIIGMiNjHq0=.ed25519",
-        "name": "Johan"
-      }
-    ],
-    "root": "%UQIxBWae3M2Hn4AhYpsrvXzCugVViPWUefqJ7lZ6FQA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%HaoOyop2/owJeAtCgIqy+9tAUeze2OAv4z6++oUShOU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%tArbvLtuwckRon0EGJGBDl11KGYV+FSJJXl8kQ77s1s=.sha256"
+      "%HaoOyop2/owJeAtCgIqy+9tAUeze2OAv4z6++oUShOU=.sha256"
     ]
   },
-  "signature": "o7FCfe35KJSHRCUgBvmzHGuY7voyXgIAVKYM5kgmv55P1dPGILyHEjWMUYdUqb1U8UpW9BX7hd/p0Ac+tlxXCA==.sig.ed25519"
+  "signature": "6D5cvbYRYs0tVykgJgfAbud4kNTbegHN4hU4UnhxBNtTop77knIZgvfzSaykcMaQ0IwGM8+07Xr+rwKZT0cDDw==.sig.ed25519"
 }
