@@ -1,22 +1,18 @@
 {
-  "previous": "%dTEybKq1CnxIsGrXdIeP9cP1p1RybfLBnrDargN6iEI=.sha256",
-  "sequence": 17105,
+  "previous": "%bf6ubuALhFr7fUxE/yvU41pEbAWPdBdL33xwDrUrC2E=.sha256",
+  "sequence": 17106,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586894931049,
+  "timestamp": 1586895025823,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@devNull](@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519)\r\n\r\nI'm not an expert, but my understanding is that you'd have to set up the SSB server listening on an IP that your device has access to (which it does by default), and then forward that port from your router to your SSB interface. In that case, your SSB service wouldn't require any config, you'd just have to proxy that port from your router to your computer.",
-    "mentions": [
-      {
-        "link": "@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519",
-        "name": "devNull"
-      }
-    ],
-    "root": "%Ky1JLhNWV1ByygOayTdUdxEWI6TAYK16ypSm0rsSNP8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%/E+3lIChJA5VQRnlxBdOimyVuZnoquS8TvjkSNiSJfI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%eThnBwFdUNKFg/AHDAFuzrbGTdRFuTfx3a8CS9Tm01A=.sha256"
+      "%/E+3lIChJA5VQRnlxBdOimyVuZnoquS8TvjkSNiSJfI=.sha256"
     ]
   },
-  "signature": "tny/HJrjdoILdFAtdfGAZjcT5Q0AhBy6LccdJ1MbluXI8NXxEXEYZhQ0UzXFLWO8eh3hqMmg/cwrztzzhfR3DA==.sig.ed25519"
+  "signature": "rNEOaOS7IWA3CIYJ89wjSjOm20fISXGjnjV+E9JDNgLzPrw8DfHoPhBRbAlrzmuUhaZOOQpIKl+mqiE+vlpcCA==.sig.ed25519"
 }
