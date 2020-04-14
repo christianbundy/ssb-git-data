@@ -1,22 +1,22 @@
 {
-  "previous": "%E5/aXPaB1g0aKs7yku4IgPYY4DuZ85AEDDvbcss6ZVM=.sha256",
-  "sequence": 17094,
+  "previous": "%FSF6it74Xb2k3jKipmr+LF7AtdwAAGAp9S1qh0SipDw=.sha256",
+  "sequence": 17095,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586833944985,
+  "timestamp": 1586870538679,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@crabmusket](@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519)\r\n\r\nThe joys of not having to implement an entire web browser!",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nOasis doesn't write to `manifest.json` (✨magic✨), but you can get the real manifest with [SSB-CLI](https://github.com/fraction/ssb-cli)'s `ssb manifest` or `ssb-server manifest` or `sbotc manifest` or whatever. You can pipe the output to `~/.ssb/manifest.json` if your CLI tool needs a manifest file, but Oasis comes with SSB-Plugins so it *should* respect your config.",
     "mentions": [
       {
-        "link": "@tDfQFmiOss1jkQzNUWao4p4fkeO0dHK1Cy0AhQmd0W0=.ed25519",
-        "name": "crabmusket"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%q7dLjgAxkUIK5MXxjTYE51LKpzbPuOWmINQBaBBK/Hw=.sha256",
+    "root": "%PuaAIzreTGqXbhvxso2izB4O8SEK8fuVB8MF/3+MTSY=.sha256",
     "branch": [
-      "%q7dLjgAxkUIK5MXxjTYE51LKpzbPuOWmINQBaBBK/Hw=.sha256"
+      "%PuaAIzreTGqXbhvxso2izB4O8SEK8fuVB8MF/3+MTSY=.sha256"
     ]
   },
-  "signature": "sHu6GecXrrPF7No2r/BCm+3ZqlKVPM5BKbcQG34WbTpBpNR4D3lpJ2/hPwSCjzxTDWrGnRZhe7mO44PIcMaPBA==.sig.ed25519"
+  "signature": "a2+dLI2VpUxRxi84W+P9k5dzG9qymSnR6KCqU6YVifZ9hQ8chL9wmrD1ULChulhjIGI1FkXWNHcOyu0BepqdDQ==.sig.ed25519"
 }
