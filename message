@@ -1,18 +1,22 @@
 {
-  "previous": "%EOIORSY3yGG44Lo2ZtLpkAIDAhPjLYCIxMJttDLlevQ=.sha256",
-  "sequence": 17100,
+  "previous": "%GepmTqXJKHC785DtehTODzEtw0Sd6WJz0V2E/gdLVsI=.sha256",
+  "sequence": 17101,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586870950785,
+  "timestamp": 1586874753241,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%qG5P2JhgxhC7ZL462n2/1uLM9bnoLoqtZGkJRHkSZjg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nMaybe [this line](https://github.com/ssbc/ssb-server/blob/607808d37d75f92002c25bd80aa28fea9052479a/bin.js#L65) is where the magic happens? I don't think I've ever realized that SSB-Plugins isn't plug-n-play.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%PuaAIzreTGqXbhvxso2izB4O8SEK8fuVB8MF/3+MTSY=.sha256",
     "branch": [
-      "%qG5P2JhgxhC7ZL462n2/1uLM9bnoLoqtZGkJRHkSZjg=.sha256"
+      "%z7eek3NUwpJnFUnWsjT8MEmG672TcCxdiEGjvmAwAcM=.sha256"
     ]
   },
-  "signature": "mbpX6tcK1L/ppDg1I6IHbsPrJMampKHWbvFQ2OL0G22En9qUxXGZBGKRxFB3pPJdRITWB/kNlAAw3Luq+HxcAw==.sig.ed25519"
+  "signature": "D3/9lOpOO579wEiVEdehOOLzvrhGX+gam+W1IVCNejV3pmSd1eCfrhBLekOfbGs1IO17llN+KESqyWa+idX0Dg==.sig.ed25519"
 }
