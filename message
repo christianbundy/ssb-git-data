@@ -1,18 +1,22 @@
 {
-  "previous": "%bf6ubuALhFr7fUxE/yvU41pEbAWPdBdL33xwDrUrC2E=.sha256",
-  "sequence": 17106,
+  "previous": "%LrGD/kwGcW3JKu/Wt5/aAQLujivjtV4kscF7UD1zkoI=.sha256",
+  "sequence": 17107,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586895025823,
+  "timestamp": 1586895557966,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%/E+3lIChJA5VQRnlxBdOimyVuZnoquS8TvjkSNiSJfI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@devNull](@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519)\r\n\r\nJust `ssb-server start` should do the trick. It listens on all network interfaces by default.",
+    "mentions": [
+      {
+        "link": "@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519",
+        "name": "devNull"
+      }
+    ],
+    "root": "%/uhiEakR/t2OuEpSiLWhoEGZF40kllaof9wYnSWtfwo=.sha256",
     "branch": [
-      "%/E+3lIChJA5VQRnlxBdOimyVuZnoquS8TvjkSNiSJfI=.sha256"
+      "%/uhiEakR/t2OuEpSiLWhoEGZF40kllaof9wYnSWtfwo=.sha256"
     ]
   },
-  "signature": "rNEOaOS7IWA3CIYJ89wjSjOm20fISXGjnjV+E9JDNgLzPrw8DfHoPhBRbAlrzmuUhaZOOQpIKl+mqiE+vlpcCA==.sig.ed25519"
+  "signature": "bzzAA5JBKWXEpoYMgWurmZhcAViRaDeOm/uXirK3uPQ5q9EkbI3ntA1pFKicSjVscHFa7cSD0BomeHeiDW6qAg==.sig.ed25519"
 }
