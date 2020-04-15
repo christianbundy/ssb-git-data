@@ -1,18 +1,23 @@
 {
-  "previous": "%DvYx383qcgfVM6fJzhXUkcy3zNlyG49IY9cQtKyoGjs=.sha256",
-  "sequence": 17124,
+  "previous": "%jg6E0OGciDBim3ERnlUjMnXsMhfp69uUqV7qYU8dvMY=.sha256",
+  "sequence": 17125,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586985530693,
+  "timestamp": 1586986541650,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%v308btW7dinh96/VTCgZIyOl1Bggw/YqiETDHKAnzv0=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%bDEv6F254sAP09uP1cJt8rBVzzY6NDNkwH6I6+bYrsw=.sha256"
+    "type": "post",
+    "text": "So uhh... would anyone be bummed about a super simple #same-as implementation in Oasis?\r\n\r\nI found an old module, [SSB-Same-As](https://github.com/ssb-junkyard/ssb-same-as), which I've been poking at since [last year](https://github.com/ssb-junkyard/ssb-same-as/issues/4), but implementing that spec doesn't seem easy.\r\n\r\nYou know what would be *really* easy? To define your other feeds when editing your profile, so you'd have:\r\n\r\n```json\r\n{\r\n  \"type\": \"about\",\r\n  \"about\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\r\n  \"sameAs\": [\r\n    \"@lOGP65bhxnk7No13MGWcbyjfUZosDbWBsOtp5du8lM8=.ed25519\"\r\n  ]\r\n}\r\n```\r\n\r\nI wrote an implementation of this in like 20 minutes and now I can see notifications from multiple feeds. Is this a really terrible idea, or should we just do it and improve iteratively?\r\n\r\nSee also: https://github.com/fraction/oasis/issues/267\r\n\r\n#ssb-dev #oasis",
+    "mentions": [
+      {
+        "link": "#same-as"
+      },
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#oasis"
+      }
     ]
   },
-  "signature": "kj59Y80tKb3duQGebCvyKF1GoZEqfPHnafoUwtLMFek0Nntdo+vGGrg6mfqeOrQSudIbANyRaKT8RTTU4omVBQ==.sig.ed25519"
+  "signature": "Do9rVlArl8Z6yBRaQa8f3pCy4PovY6qzRFm7p9xUQZZ7UOJ91w9nSXOUHehLzjsYfpnOYeVKptHIZ4xPQr2eDw==.sig.ed25519"
 }
