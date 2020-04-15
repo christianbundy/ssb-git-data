@@ -1,23 +1,15 @@
 {
-  "previous": "%jg6E0OGciDBim3ERnlUjMnXsMhfp69uUqV7qYU8dvMY=.sha256",
-  "sequence": 17125,
+  "previous": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
+  "sequence": 17126,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1586986541650,
+  "timestamp": 1586986586352,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "So uhh... would anyone be bummed about a super simple #same-as implementation in Oasis?\r\n\r\nI found an old module, [SSB-Same-As](https://github.com/ssb-junkyard/ssb-same-as), which I've been poking at since [last year](https://github.com/ssb-junkyard/ssb-same-as/issues/4), but implementing that spec doesn't seem easy.\r\n\r\nYou know what would be *really* easy? To define your other feeds when editing your profile, so you'd have:\r\n\r\n```json\r\n{\r\n  \"type\": \"about\",\r\n  \"about\": \"@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519\",\r\n  \"sameAs\": [\r\n    \"@lOGP65bhxnk7No13MGWcbyjfUZosDbWBsOtp5du8lM8=.ed25519\"\r\n  ]\r\n}\r\n```\r\n\r\nI wrote an implementation of this in like 20 minutes and now I can see notifications from multiple feeds. Is this a really terrible idea, or should we just do it and improve iteratively?\r\n\r\nSee also: https://github.com/fraction/oasis/issues/267\r\n\r\n#ssb-dev #oasis",
-    "mentions": [
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#oasis"
-      }
+    "type": "about",
+    "about": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
+    "sameAs": [
+      "@lOGP65bhxnk7No13MGWcbyjfUZosDbWBsOtp5du8lM8=.ed25519"
     ]
   },
-  "signature": "Do9rVlArl8Z6yBRaQa8f3pCy4PovY6qzRFm7p9xUQZZ7UOJ91w9nSXOUHehLzjsYfpnOYeVKptHIZ4xPQr2eDw==.sig.ed25519"
+  "signature": "TMAjC4+cFnh+f9yaIRoBkR9ypxWLYWhCBtKgADkNKpDWroLurCSeKFYouNEYhHU9dH6ViohTxi83yX4lsrWqCA==.sig.ed25519"
 }
