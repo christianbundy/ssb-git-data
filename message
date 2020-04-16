@@ -1,33 +1,23 @@
 {
-  "previous": "%18GsMnt3ZLXAL0PoTg/7VzEG5q+w+RMVL11R6qfHYVQ=.sha256",
-  "sequence": 17153,
+  "previous": "%dEVWfUFJby4rRiCPUPXIj98sEwLJNmGUoK1rD9MchVw=.sha256",
+  "sequence": 17154,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587056597520,
+  "timestamp": 1587059832763,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\n> as regards actually implementing the checking, it’s really simple\r\n\r\nAbsolutely, and this is **absolutely necessary** before we even consider displaying \"these two feeds agree to be the same person\". The problem I'm side-stepping is that not every client will implement this, but I'd still like to make sure I get notifications for those feeds. Or maybe I want to see notifications for a feed that's on a device I don't currently have access to. I understand that it could be used for creepy behavior, but don't we have the same problem any time we make search/backlinks available?\r\n\r\nThis is the same problem with [@Geoffrey](@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519)'s suggestion, which I also like, but it requires support in each of my feeds. I'd like to see the notifications for my Manyverse and Sunrise Social apps, and telling people \"you can't be notified for their [public] mentions until the developer implements this feature\" seems that it would tend toward centralization and making everyone use the One Interface to rule them all. (Aside: I'm very hesitant about encouraging people to export keys or share them between devices. I'd prefer that each device had a unique key and that we just had a #same-as for backups. More details [here](%4O/TRnj8Wif8PC6vURq+YVmiJlanCp0SPMdPDE9fHvU=.sha256).)",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nThanks for this bug report. Would you mind posting it on GitHub with the details you think might be relevant? Or even to the `#oasis` channel? I don't want to add Oasis bug reports to a same-as discussion.",
     "mentions": [
       {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "cblgh"
-      },
-      {
-        "link": "@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519",
-        "name": "Geoffrey"
-      },
-      {
-        "link": "#same-as"
-      },
-      {
-        "link": "%4O/TRnj8Wif8PC6vURq+YVmiJlanCp0SPMdPDE9fHvU=.sha256",
-        "name": "here"
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
       }
     ],
-    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
+    "root": "%fbe9A/Sw5y5xOlSPOn/bWENeDtDfeTLWC6R1iHa7Ms4=.sha256",
+    "fork": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%BoKKrKNogIjf0jfpKHMH+3gBPWvhxi/9HcvMRzh4OmI=.sha256"
+      "%fbe9A/Sw5y5xOlSPOn/bWENeDtDfeTLWC6R1iHa7Ms4=.sha256"
     ]
   },
-  "signature": "lur0thuKD8r4klZU2pdhuF0NLL7tZbn0LpONfkIaBAz9dNiMwLksAFD7xJ0D50SHVMySJymeYI9KLGw0RebuDQ==.sig.ed25519"
+  "signature": "LgMykxBi/W1z7/jrPLgy3EMPoCepe3eDT2LQPO1b6uBQLzxJEUkB+hVwaEbhT4JY6uQ7pvcGgnckeYgTh4tYBw==.sig.ed25519"
 }
