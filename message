@@ -1,31 +1,18 @@
 {
-  "previous": "%LHtHos18rqK+PMu46iM+VjPDro3mCPtUn91L48yo28o=.sha256",
-  "sequence": 17141,
+  "previous": "%NsyYUKmpyuTgHG/tWVUJy8hdW0zlvTe2uSCRgJWzqa4=.sha256",
+  "sequence": 17142,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587046022462,
+  "timestamp": 1587046530349,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@xj9](@GqsSW1pLJq5qUbJuDAtm7MwwOhpf+Ur6BfDH0kZKCJc=.ed25519) [@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nThanks for the feedback! Just to make sure I'm not missing anything, when does that become important? I was thinking that it became important any time that you were showing the same-as links to someone else (or deciding how to encrypt a private message), but this use-case is just \"show me notifications when someone mentions these feeds\", like [@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)'s group display. My gut feeling is that this one-way link is fine for the current use-case, but would obviously need to be treated as an unfinished link for any future features.",
-    "mentions": [
-      {
-        "link": "@GqsSW1pLJq5qUbJuDAtm7MwwOhpf+Ur6BfDH0kZKCJc=.ed25519",
-        "name": "xj9"
-      },
-      {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "cblgh"
-      },
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%20ta8QT1I0RL82mEIGvdGhEYmfFaSKr1sV/Q2wAEDKs=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fnOk6ZH14+J2c+HrHJz+oVv0mMg0hcpZE9HZAT/m3Pg=.sha256",
-      "%tyCdnLOxssEq8yK21Zg6GPqPSnIs5Ozit/d4jXH8ASE=.sha256"
+      "%20ta8QT1I0RL82mEIGvdGhEYmfFaSKr1sV/Q2wAEDKs=.sha256"
     ]
   },
-  "signature": "PuZhvIYRXzU0mcb+vNDuxBvESCCvBM1sxpRYmrZlXAqAfrYu5OCY85F5oLrl6T/SYa38Rcv2+XEIoaU2XWS2BQ==.sig.ed25519"
+  "signature": "yH2PZQ2dMuCqr/ty4SC/+YjKAbkw17s+Ou2EPK0hywaPPgDyu4v3g4rBRZR9tlWhGzvcGTkkWnP79kzrkL8/Dg==.sig.ed25519"
 }
