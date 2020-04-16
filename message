@@ -1,22 +1,18 @@
 {
-  "previous": "%T5LlMB6gJcAcN/LtFzV4BYu08AkDhXxL22q/PvEo7bE=.sha256",
-  "sequence": 17163,
+  "previous": "%V9BtlRVqLRnd3stqtS5Qc/9aL40YpMCDMfpTa1+okm4=.sha256",
+  "sequence": 17164,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587073056028,
+  "timestamp": 1587073114251,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nThat looks like two problems to me:\r\n\r\n- JSON needs quotes around the properties, but not the integers.\r\n- This is a syntax error: `:[{:{`\r\n\r\nIf you're trying to find a specific message:\r\n\r\n```shell\r\n./sbotc get '{\"id\":\"%W7j6VTDqzMyUc1z4HG+C5gny288CL9vmOPjt2qkFRCA=.sha256\"}'\r\n```",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
-    "root": "%YxWfmVL12RKNaQMYyv1vAl3QyLOz+4xq2qEhUWef07U=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%84FdI4fJ1vGfxHIH6OnEHGdalgop9q1DAFQ4y6IOz3I=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%W7j6VTDqzMyUc1z4HG+C5gny288CL9vmOPjt2qkFRCA=.sha256"
+      "%84FdI4fJ1vGfxHIH6OnEHGdalgop9q1DAFQ4y6IOz3I=.sha256"
     ]
   },
-  "signature": "LWovBaWdccnTbwk1vyYvugRab+eUAFVbD50Jdn3Y3SIgdkTGZ8RMUWii4K6PiUrO8isA6+uWt0YfUDVmct3CCg==.sig.ed25519"
+  "signature": "6o9G9X0wxMg0ueRMaMdTccOq1Euom5fBjnPzRx0WoupYN+OtiPgzKzNpAOtBxhAcGraymORbLMculch2woebDQ==.sig.ed25519"
 }
