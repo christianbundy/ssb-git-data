@@ -1,22 +1,13 @@
 {
-  "previous": "%7kFvcnBuHu/UudiS4n3AsHCiHwYf8DbkEztqS53r8PQ=.sha256",
-  "sequence": 17155,
+  "previous": "%ORp2mRjOdSh/3rgbZM9JdhVvJL3UO9pYx7A+guyaWTE=.sha256",
+  "sequence": 17156,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587060952723,
+  "timestamp": 1587062829570,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI've been thinking about this problem a lot lately, especially from [this perspective](https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html), and I've been wondering how far we could get with \"just\" rendering HTML and CSS for simple UIs without bundling an entire browser. Is that absolutely crazy? I love that LiveCode can produce cross-platform binaries, but I like the idea of static assets (layout, colors, images, videos, etc) to be able to be rendered by any other process (kinda like how PNGs can be rendered by any PNG renderer, they aren't binaries that give instructions directly to your GPU).",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%oWIIuTZRETcV4HCbLv5yHt4GMY+YIGK9A6UYIKUHZnc=.sha256",
-    "branch": [
-      "%8SlMcvkSpwZTruoEq3YnTXEdYvz0ZN8Xcfq71IfnR7c=.sha256"
-    ]
+    "text": "Terrible idea: a canonical sequence of brackets that are most visually similar to their neighbors. Inspired by [l6 syntax](https://github.com/dominictarr/l6#syntax). Here's my best attempt:\r\n\r\n\r\n```\r\n[({<>})]\r\n```",
+    "mentions": []
   },
-  "signature": "+pfVoUNzayHxTLDUuAKExgCx8d3bGqE2mwWuN1Yt8mzkgxMTnMntYlJUvqCahbHZrqlwlfPI8flwOxr7HMbhBg==.sig.ed25519"
+  "signature": "K8P6CXBk6cvNL/hZTDi2l5vY/BLepxQap9ipJ+kr6sxLdJLCt51u7gdtEwLY4UAQAWhuIqMQv4KXF9ZjLng+AA==.sig.ed25519"
 }
