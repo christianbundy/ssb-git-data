@@ -1,22 +1,33 @@
 {
-  "previous": "%gd5iWqaWJoxOitm2Jf36g1AcUQ3zHCCT1Wda7bynGq8=.sha256",
-  "sequence": 17152,
+  "previous": "%18GsMnt3ZLXAL0PoTg/7VzEG5q+w+RMVL11R6qfHYVQ=.sha256",
+  "sequence": 17153,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587053479101,
+  "timestamp": 1587056597520,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@xian](@92oqekAbvPBRK8BYipDccc5EGSZ03q4Y8nH5JD+3e1k=.ed25519)\r\n\r\nHi. How are you holding up so far?\r\n\r\nWe just made a grocery run yesterday, which was mildly stressful, but we came back in one piece. And now we have food (and some beer!).",
+    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\n> as regards actually implementing the checking, it’s really simple\r\n\r\nAbsolutely, and this is **absolutely necessary** before we even consider displaying \"these two feeds agree to be the same person\". The problem I'm side-stepping is that not every client will implement this, but I'd still like to make sure I get notifications for those feeds. Or maybe I want to see notifications for a feed that's on a device I don't currently have access to. I understand that it could be used for creepy behavior, but don't we have the same problem any time we make search/backlinks available?\r\n\r\nThis is the same problem with [@Geoffrey](@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519)'s suggestion, which I also like, but it requires support in each of my feeds. I'd like to see the notifications for my Manyverse and Sunrise Social apps, and telling people \"you can't be notified for their [public] mentions until the developer implements this feature\" seems that it would tend toward centralization and making everyone use the One Interface to rule them all. (Aside: I'm very hesitant about encouraging people to export keys or share them between devices. I'd prefer that each device had a unique key and that we just had a #same-as for backups. More details [here](%4O/TRnj8Wif8PC6vURq+YVmiJlanCp0SPMdPDE9fHvU=.sha256).)",
     "mentions": [
       {
-        "link": "@92oqekAbvPBRK8BYipDccc5EGSZ03q4Y8nH5JD+3e1k=.ed25519",
-        "name": "xian"
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "cblgh"
+      },
+      {
+        "link": "@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519",
+        "name": "Geoffrey"
+      },
+      {
+        "link": "#same-as"
+      },
+      {
+        "link": "%4O/TRnj8Wif8PC6vURq+YVmiJlanCp0SPMdPDE9fHvU=.sha256",
+        "name": "here"
       }
     ],
-    "root": "%e/KiM5P61vz6X20HZ6Q8SOGB9lH10nk/IVcEyqbGkgE=.sha256",
+    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%e/KiM5P61vz6X20HZ6Q8SOGB9lH10nk/IVcEyqbGkgE=.sha256"
+      "%BoKKrKNogIjf0jfpKHMH+3gBPWvhxi/9HcvMRzh4OmI=.sha256"
     ]
   },
-  "signature": "Td/DCp7U9DEiECeQ6ExO/aPg6e1Bx9NCx3TU+b96OKwnvH2jcZh9P1omIQfFTNzUezq+zpWbuuMQH/wkLjIFDA==.sig.ed25519"
+  "signature": "lur0thuKD8r4klZU2pdhuF0NLL7tZbn0LpONfkIaBAz9dNiMwLksAFD7xJ0D50SHVMySJymeYI9KLGw0RebuDQ==.sig.ed25519"
 }
