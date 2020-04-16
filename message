@@ -1,13 +1,22 @@
 {
-  "previous": "%eiLOi9+IuD6nLhsebBNxgz9m6+yZUk/IR0Zy1dxZrRM=.sha256",
-  "sequence": 17158,
+  "previous": "%uhwoBDK4EI6uWy3dfPj+oLCQwXGRwXmEDvNju3bS1Yc=.sha256",
+  "sequence": 17159,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587063596502,
+  "timestamp": 1587063715894,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Wanted: A NoSQL database with automatic index generation.\r\n\r\nI understand that this is semi-ridiculous, but the implementation can't be *that* hard, right? I'm imagining a system where you have no indexes by default, and each time you do a query then the amount of time spent indexing is recorded. Common lookups that take lots of time are cached, and rare lookups that are fast aren't.",
-    "mentions": []
+    "text": "[@devNull](@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519)\r\n\r\nWhen you send a private message, you need to add yourself as a recipient. Otherwise the message is only encrypted for the other party.",
+    "mentions": [
+      {
+        "link": "@FJxH29WOcGbN0SuoasQo/mAXybo0lrMKbZDjpFlSrYs=.ed25519",
+        "name": "devNull"
+      }
+    ],
+    "root": "%2KH3F53dWQwaFDafL6mz/UoM4J9HGOL8Cwn1bkDZJIM=.sha256",
+    "branch": [
+      "%2KH3F53dWQwaFDafL6mz/UoM4J9HGOL8Cwn1bkDZJIM=.sha256"
+    ]
   },
-  "signature": "zZks9WeAsYkn7PZxd1hMXF49Xpz414CdcoU2GS97TbGtmADFhCARwW4UM/R3EziFuwbHY1uWgQCktvqNkjotBw==.sig.ed25519"
+  "signature": "4m9Xq0RP+8i6SG3If5pyaMpE+gx3xRyF4isiVUPHM2Tk1g9vYv5DrJG9g2ueMWIXLbUzwRw58MNvTQ9FxjISAg==.sig.ed25519"
 }
