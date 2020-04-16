@@ -1,22 +1,22 @@
 {
-  "previous": "%PgwPO2LKup8L3zfjb/2KrodYh62pDPKjgX7XJ3OlPxo=.sha256",
-  "sequence": 17162,
+  "previous": "%T5LlMB6gJcAcN/LtFzV4BYu08AkDhXxL22q/PvEo7bE=.sha256",
+  "sequence": 17163,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587071382302,
+  "timestamp": 1587073056028,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Maleficient](@KpPLISvjzw8CkoWOJ3zKXBgPtNDuzUgfyGbJEfbJ4H8=.ed25519)\r\n\r\nHere's all I got: https://en.wikipedia.org/wiki/Category:Pyramids_in_Indonesia",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nThat looks like two problems to me:\r\n\r\n- JSON needs quotes around the properties, but not the integers.\r\n- This is a syntax error: `:[{:{`\r\n\r\nIf you're trying to find a specific message:\r\n\r\n```shell\r\n./sbotc get '{\"id\":\"%W7j6VTDqzMyUc1z4HG+C5gny288CL9vmOPjt2qkFRCA=.sha256\"}'\r\n```",
     "mentions": [
       {
-        "link": "@KpPLISvjzw8CkoWOJ3zKXBgPtNDuzUgfyGbJEfbJ4H8=.ed25519",
-        "name": "Maleficient"
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
       }
     ],
-    "root": "%n1vGhfUSMDcp8x6NQ1XLzUdtoPckQkwDa1MCG2kZkuU=.sha256",
+    "root": "%YxWfmVL12RKNaQMYyv1vAl3QyLOz+4xq2qEhUWef07U=.sha256",
     "branch": [
-      "%zSr3pU9rbL+8GoBvXCQ+aMzNsUnZgOx0HTlnHAWfJ5w=.sha256"
+      "%W7j6VTDqzMyUc1z4HG+C5gny288CL9vmOPjt2qkFRCA=.sha256"
     ]
   },
-  "signature": "0uimeoafZUqyhAZMgZzPsIvCpeTxO0tQ71q5ov3thwct7CgjrXyZGLcnZf55g8x8qkiwO7j7dL5b+wHThhH9CQ==.sig.ed25519"
+  "signature": "LWovBaWdccnTbwk1vyYvugRab+eUAFVbD50Jdn3Y3SIgdkTGZ8RMUWii4K6PiUrO8isA6+uWt0YfUDVmct3CCg==.sig.ed25519"
 }
