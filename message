@@ -1,18 +1,22 @@
 {
-  "previous": "%vXs7HwIHDUmNx1sG6Ji3DH7db2VM6+cyTqNE5SAscvw=.sha256",
-  "sequence": 17175,
+  "previous": "%jKmaMfjDZsGlab98hoGq5bh0E/sYPDi/TreHaWsq/rQ=.sha256",
+  "sequence": 17176,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587145553909,
+  "timestamp": 1587152782528,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%q0ahKfOUK7rtiA/s8dgqq94QWqQ17saoT3X4g6mapCU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nThat makes sense to me, I've pushed a commit to ensure that we're confirming the same-as assertion from both feeds. No negative feelings on my side either, I just want to make sure that I can fully understand what our user safety expectations are.\r\n\r\n(I might be bringing some baggage from the `publicWebHosting` thing, where I *still* don't understand what others expect.)\r\n\r\nIn general, I think I struggle with making trade-offs when it comes to the concealing public information. I'd be unhappy to find that someone was being creepy with any of the software I've worked on, but I'm not sure how to weigh the increase in inconvenience for users + developers versus malicious actors. Thanks for being patient and explaining this to me, this is exactly the result I was hoping for. ❤",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "cblgh"
+      }
+    ],
+    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%q0ahKfOUK7rtiA/s8dgqq94QWqQ17saoT3X4g6mapCU=.sha256"
+      "%n0adJysLp1xcRVrlmKAQtB4xgOW8M0oZjKmNE9YpbKQ=.sha256"
     ]
   },
-  "signature": "lI7gKvwRSAKodas14bcVoyIPQ7L+HIqNWOWkt58q7qOPdzy4Ilr+tsc6WBwXagsBzXi6SX4o7ObMP3sU1LzaDw==.sig.ed25519"
+  "signature": "3mhOGqdCORcmIFOHgfa7INVyNgY4yprsXJRaO6p0PEz3w33fw4TBYujHBBSqVus+P8TjcvplbIa/lTziGV2NBw==.sig.ed25519"
 }
