@@ -1,22 +1,27 @@
 {
-  "previous": "%xslDNvOnkrcjoNLPxGGR74PaYIzsMLW2KfiLjnbGThE=.sha256",
-  "sequence": 17178,
+  "previous": "%cx6h1QOSWWl7XOLfuWeDgRDPIa6hLlWc6gA/iWim9uY=.sha256",
+  "sequence": 17179,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587153147621,
+  "timestamp": 1587154065812,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\n> did you find a way to do it without including javascript in oasis interface ?\r\n\r\nYep, these should do image/audio/video capture on browsers that support it (currently it seems that mobile has the best support):\r\n\r\n```html\r\n<input type=\"file\" accept=\"image/*\" capture>\r\n<input type=\"file\" accept=\"audio/*\" capture>\r\n<input type=\"file\" accept=\"video/*\" capture>\r\n```\r\n\r\n> Stick to ssb-server/patchwork\r\n\r\nI don't think anyone is maintaining SSB-Server, and while I'm keeping Patchwork up-to-date and pushing regular releases, I don't think that anyone is actively working on it.\r\n\r\nIn my personal usage, I've replaced Patchwork with Oasis and replaced SSB-Server with [SSB-Daemon](https://github.com/fraction/ssb-daemon) and [SSB-CLI](https://github.com/fraction/ssb-cli).",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\n> We need more gringos :D\r\n\r\nGringos reporting in!\r\n\r\n![Photo of Kathleen and I sitting on a couch](&PpjBNhm9+a4Kh7Rm6XYiGvdgYxDqxOIxTJ96QYnK55k=.sha256)",
     "mentions": [
       {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
+      },
+      {
+        "link": "&PpjBNhm9+a4Kh7Rm6XYiGvdgYxDqxOIxTJ96QYnK55k=.sha256",
+        "name": "Photo of Kathleen and I sitting on a couch"
       }
     ],
-    "root": "%N4nKPVc515O7Lc/JUnF4OZDSR2Q9RKu1/V4/DEc6N3I=.sha256",
+    "root": "%WC0EWeqzK3cGQXtPYtV8DruIN1k4nIKSRerLeIAEdQA=.sha256",
     "branch": [
-      "%N4nKPVc515O7Lc/JUnF4OZDSR2Q9RKu1/V4/DEc6N3I=.sha256"
+      "%6+81ukQ8CtkW4DBoR2p3zspD3KPtwaCsMsCbvxJ/OmM=.sha256",
+      "%GWIj2kkfyXB/RivAVJsD7OVKg0fj1DGaLq69nVjlJ68=.sha256"
     ]
   },
-  "signature": "28hQ1aZ2O3QILLATOgbMDrO2BpLdKaCWrBShqp+85GKis4pG4gvm4HMxTF7JuAxe3V8pp6+K+0m4lNmUdvp6BA==.sig.ed25519"
+  "signature": "lA/O1eO430/SIHoFm23FzzBnCT+lSGAkuOkYkMa1ahrOrFmhkuK5+2DaxMRFWj7tvg1zAZgj4lMPpP3ric2zBQ==.sig.ed25519"
 }
