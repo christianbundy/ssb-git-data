@@ -1,18 +1,22 @@
 {
-  "previous": "%T4nUzXDoOM3gCCNYrpQP5w66GkBgqmRNkH48wRNt5eM=.sha256",
-  "sequence": 17184,
+  "previous": "%JdTAv5kz0WOi1KtIQuvj3rRyIE+0ADKfnUV+R0HD080=.sha256",
+  "sequence": 17185,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587156272723,
+  "timestamp": 1587158806146,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%uQRSbMoRsAdE4kArW+gO6688sx7oXzgVD2kjA8RlqVg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nI'd use `JSON.stringify()` for that:\r\n\r\n```console\r\n$ export raw=\"$(cat << EOF\r\na\r\nb\r\nc\r\nEOF\r\n)\"\r\n$ echo \"$raw\"\r\na\r\nb\r\nc\r\n$ node -p \"JSON.stringify(process.env.raw)\"\r\n\"a\\nb\\nc\r\n```",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      }
+    ],
+    "root": "%YxWfmVL12RKNaQMYyv1vAl3QyLOz+4xq2qEhUWef07U=.sha256",
     "branch": [
-      "%UTPhqRzIslkaKlXvLKweg9w2OZO2zlEOJ9ydEyVxdc4=.sha256"
+      "%fa5bhBpwJQzw5ffZT7LU1CkEZ+n9vopqgf487vCBfII=.sha256"
     ]
   },
-  "signature": "ROfz3ktYOVO/vxzYYopcRSWihFqrsPelZL+41jpragbjt9cRINyTmJslHQQgyw18EOF3EZox91bUiqU+N7UpDQ==.sig.ed25519"
+  "signature": "IUJTnJBEDZ66It5HyqfsujVF9tVTarJryX5tpD1kWntqlikdQIanxvXJnxw7jj0tMoSzT2sXbFZprC5JPfm3BA==.sig.ed25519"
 }
