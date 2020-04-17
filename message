@@ -1,18 +1,22 @@
 {
-  "previous": "%NRrr1xpm83jnTvVH8gY6JUSSUHiXyI05YeFvjC8tpXI=.sha256",
-  "sequence": 17168,
+  "previous": "%9dHd43xWlfT4xIJIjhw/jo5BkhEZ598wF2QAFt7Mseg=.sha256",
+  "sequence": 17169,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587130666616,
+  "timestamp": 1587131261758,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%UnSmkiYJjLcRRJGFI8HYdHemocBfzWg4jacefaOXY3g=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@bobhaugen](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\r\n\r\n> Ok, age check: how many of you have ever coded in Cobol?\r\n\r\nNever, until reading your comment!\r\n\r\n```cobol\r\n      * cobol lives!\r\n       identification division.\r\n       program-id. hello.\r\n\r\n       procedure division.\r\n       display \"Hello World!\".\r\n       stop run.\r\n```\r\n\r\nDoes this mean I'm an essential worker now?\r\n\r\n(Tip for future me: `cobc -x hello.cob`)",
+    "mentions": [
+      {
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bobhaugen"
+      }
+    ],
+    "root": "%miECHziyF20Mwh1ureTQDA6OXRXQFceuIb8WsI+Tgkw=.sha256",
     "branch": [
-      "%UnSmkiYJjLcRRJGFI8HYdHemocBfzWg4jacefaOXY3g=.sha256"
+      "%ln3XgahiylY9W4GzUl6i/z+QPYhwVR8bYUdyIYdyqmc=.sha256"
     ]
   },
-  "signature": "1CgEG2j6Jmf2bu2Ftn3fN+lUGWG3ucI6UpSoxuEEbggxHEZMvBqL4G9EhItfgHdgdmkwtB0Ff0Yl/3vnPXJEDw==.sig.ed25519"
+  "signature": "LSugvk5An8TlxhaHoE0bJ7j2fJ4mctsgpbxfrYx/Q2CUaxVBws1d5TgSsVa4bLFlL5k7jTdBNUI8CzXHm5r4Dg==.sig.ed25519"
 }
