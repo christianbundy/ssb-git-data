@@ -1,18 +1,22 @@
 {
-  "previous": "%eAjsHv7Lq8blayRVdp3/i1O9lQ7K/o4xwV8ona5IJlQ=.sha256",
-  "sequence": 17177,
+  "previous": "%xslDNvOnkrcjoNLPxGGR74PaYIzsMLW2KfiLjnbGThE=.sha256",
+  "sequence": 17178,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587152809760,
+  "timestamp": 1587153147621,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%3xycnGpK1QDrxFjhzZAnifXawG2xHyubR0xOmqFpPvE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\n> did you find a way to do it without including javascript in oasis interface ?\r\n\r\nYep, these should do image/audio/video capture on browsers that support it (currently it seems that mobile has the best support):\r\n\r\n```html\r\n<input type=\"file\" accept=\"image/*\" capture>\r\n<input type=\"file\" accept=\"audio/*\" capture>\r\n<input type=\"file\" accept=\"video/*\" capture>\r\n```\r\n\r\n> Stick to ssb-server/patchwork\r\n\r\nI don't think anyone is maintaining SSB-Server, and while I'm keeping Patchwork up-to-date and pushing regular releases, I don't think that anyone is actively working on it.\r\n\r\nIn my personal usage, I've replaced Patchwork with Oasis and replaced SSB-Server with [SSB-Daemon](https://github.com/fraction/ssb-daemon) and [SSB-CLI](https://github.com/fraction/ssb-cli).",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "Fred"
+      }
+    ],
+    "root": "%N4nKPVc515O7Lc/JUnF4OZDSR2Q9RKu1/V4/DEc6N3I=.sha256",
     "branch": [
-      "%3xycnGpK1QDrxFjhzZAnifXawG2xHyubR0xOmqFpPvE=.sha256"
+      "%N4nKPVc515O7Lc/JUnF4OZDSR2Q9RKu1/V4/DEc6N3I=.sha256"
     ]
   },
-  "signature": "iSL/aV1Gf0JcWrAN/5vYNNytFLBdQcCqmmR0wDrpw6NLtPygBjjlCiI180VSOChuosAkYBBLPtUGt8weonlmAg==.sig.ed25519"
+  "signature": "28hQ1aZ2O3QILLATOgbMDrO2BpLdKaCWrBShqp+85GKis4pG4gvm4HMxTF7JuAxe3V8pp6+K+0m4lNmUdvp6BA==.sig.ed25519"
 }
