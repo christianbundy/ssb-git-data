@@ -1,22 +1,18 @@
 {
-  "previous": "%JdTAv5kz0WOi1KtIQuvj3rRyIE+0ADKfnUV+R0HD080=.sha256",
-  "sequence": 17185,
+  "previous": "%8mwDaJDzdHQ/gGFXaW7OigPtCkfhS717X/T0CPqBxeY=.sha256",
+  "sequence": 17186,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587158806146,
+  "timestamp": 1587158899281,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Fred](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nI'd use `JSON.stringify()` for that:\r\n\r\n```console\r\n$ export raw=\"$(cat << EOF\r\na\r\nb\r\nc\r\nEOF\r\n)\"\r\n$ echo \"$raw\"\r\na\r\nb\r\nc\r\n$ node -p \"JSON.stringify(process.env.raw)\"\r\n\"a\\nb\\nc\r\n```",
-    "mentions": [
-      {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "Fred"
-      }
-    ],
-    "root": "%YxWfmVL12RKNaQMYyv1vAl3QyLOz+4xq2qEhUWef07U=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%ceWff7XHWONJ19/TmTD3CaCYl1oZ5e9j4rxZhIyCpUQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fa5bhBpwJQzw5ffZT7LU1CkEZ+n9vopqgf487vCBfII=.sha256"
+      "%ceWff7XHWONJ19/TmTD3CaCYl1oZ5e9j4rxZhIyCpUQ=.sha256"
     ]
   },
-  "signature": "IUJTnJBEDZ66It5HyqfsujVF9tVTarJryX5tpD1kWntqlikdQIanxvXJnxw7jj0tMoSzT2sXbFZprC5JPfm3BA==.sig.ed25519"
+  "signature": "KUMySjN8iXe2gGwf9R6ONthgscDronHxn7Eyns63UJa3PKhFJ1ib82wcJJ/pZjkhKs6s5fKNJpytPMbEVIJtDA==.sig.ed25519"
 }
