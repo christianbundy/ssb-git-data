@@ -1,17 +1,13 @@
 {
-  "previous": "%e7uApQDROJDshP3V8jOyOuOoqL0KHlLiuvg2KwmRBes=.sha256",
-  "sequence": 17200,
+  "previous": "%VV6ouC7IcRP09xIUi4xn0yggBi7N/xLOTbswHmxHAEw=.sha256",
+  "sequence": 17201,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587224963728,
+  "timestamp": 1587225149480,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Fun side-effect: if the group founder publishes to the group often (which makes sense, because it's encrypted to everyone they want to share it with), and the group uses a tangle, then peers just have to announce the last message they've seen in the group thread.\r\n\r\nBad side-effect: if you have a bad actor in your group, they may be able to join the swarm with thousands of instances, and program their node to say \"sorry, no new messages\". This would make it hard for other peers to find a legitimate connection that would offer them actual messages. (How does BitTorrent protect against this?)",
-    "mentions": [],
-    "root": "%ikJyd9oQ0KuqEnOs+0rk0TfO6YpqT1Bscm3U6tKTOnc=.sha256",
-    "branch": [
-      "%ikJyd9oQ0KuqEnOs+0rk0TfO6YpqT1Bscm3U6tKTOnc=.sha256"
-    ]
+    "text": "tired: me before coffee  \r\nwired: me after coffee",
+    "mentions": []
   },
-  "signature": "BlgTRKbC0SvglgFnAwtTG06aHeDz24AS9iaX6BRzTdrmkv3GfU14V3tILAmYkJdiRmUSPFQWcZ7h4hZ5X/IOCw==.sig.ed25519"
+  "signature": "/aUvuqZ6aupCsxjPtXVsfBbcvzZDTIfcJi1eFVXHZH63n+YQDflIZOpRJvxAj752yKKPE+ggtoGxNiNPcNMyBg==.sig.ed25519"
 }
