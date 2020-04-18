@@ -1,25 +1,18 @@
 {
-  "previous": "%fcwYdROWJ90UIQOf4rRjV/G+49/9sw5WHqMjCYU7JoA=.sha256",
-  "sequence": 17195,
+  "previous": "%mSUhwAom/4XbqCZTtMJ0I7oRh/fC65YGYJCiJCz0oLs=.sha256",
+  "sequence": 17196,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587179673304,
+  "timestamp": 1587179713932,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\n> I wish we could encrypt private messages to the **person** key instead of the **feed** keys.\r\n\r\nI was thinking that when we have a 'Send a private message' on someone's profile, we could offer to encrypt for all of your private keys and all of their private keys. The limit is unfortunately still 7, but maybe #private-groups can save us.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      },
-      {
-        "link": "#private-groups"
-      }
-    ],
-    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%iqyczGVK0eONytgfnQC44B8AiGG94hmazBijsRKD5jk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%I/+pkmKsOUTt/0jv49ShFfgVSdTm2O9kD69dAVW5uzk=.sha256"
+      "%iqyczGVK0eONytgfnQC44B8AiGG94hmazBijsRKD5jk=.sha256"
     ]
   },
-  "signature": "9Bh58AePxs7sPHx2oHzj5pM2aCDxCQNm3Qe0kWT5fE0BP0lWPpWJ4wmg2hVp8dy1l3Oy7r0j4/55yGb3FGnAAw==.sig.ed25519"
+  "signature": "SR64Lq5vSEFCFH1IDPS6vPlkZ+zcABusjc5hdLzmlvsQCgoAZaKvwZ2/zr88o299H2tsszqUWRoz6PScYEDbAA==.sig.ed25519"
 }
