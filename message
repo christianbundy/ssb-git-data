@@ -1,18 +1,14 @@
 {
-  "previous": "%mSUhwAom/4XbqCZTtMJ0I7oRh/fC65YGYJCiJCz0oLs=.sha256",
-  "sequence": 17196,
+  "previous": "%vmpNmAdhHqBqrXZZH2fsvXd5KJOMehvDD3UlAvTLg8c=.sha256",
+  "sequence": 17197,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587179713932,
+  "timestamp": 1587222759269,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iqyczGVK0eONytgfnQC44B8AiGG94hmazBijsRKD5jk=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%iqyczGVK0eONytgfnQC44B8AiGG94hmazBijsRKD5jk=.sha256"
-    ]
+    "type": "post",
+    "text": "I want to experiment with swarm-based peering in SSB, where most of us with internet access can just peer directly with each other (no pubs), and I've found an interesting privacy problem that's related to private groups.\r\n\r\nWhen you join a swarm (with something like [hyperswarm](https://github.com/hyperswarm/hyperswarm)) you get a duplex socket with each peer. If you're friends, you want to connect. If you're strangers, you don't want them to know who you are.\r\n\r\nThe problem with transport encryption protocols with TLS and SecretHandshake (and most other protocols) is that *someone* has to send their key first. It's like an inverse prisoner's dilemma, where you win regardless of whether:\r\n\r\n- neither of you confess your public key\r\n- both of you confess your public key to each other\r\n\r\nThe thing we want to avoid: one person announces their public key, and the other person terminates the connection (and maybe logs all of the relevant metadata). How do we ensure that bad actors can't join the swarm and record anyone's identity and metadata?\r\n\r\nOne idea: private groups. Once we remove the '7 people per private group' limit, each person can create a private group that includes everyone they're comfortable peering with. Since everyone is already in a private group, they have a shared key that they can use with others. If we join a DHT swarm local to the hash of the group's shared key, could we just encrypt the stream with the shared key **without identifying ourselves**? This would mean that asymmetric keys are used for signing messages and creating groups within the network, but that peering would use only the shared symmetric keys you get from your group.\r\n\r\nMy intuition is that this would create a handful of *different* problems, which may not be worth the trade-offs (e.g. a complete graph with `n` nodes has `n²` edges), but I wanted to at least write it down somewhere.",
+    "mentions": [],
+    "contentWarning": "Scuttlebutt meta (privacy, discovery protocol, secret handshake)"
   },
-  "signature": "SR64Lq5vSEFCFH1IDPS6vPlkZ+zcABusjc5hdLzmlvsQCgoAZaKvwZ2/zr88o299H2tsszqUWRoz6PScYEDbAA==.sig.ed25519"
+  "signature": "Nj2orVTy9AdZLdN3MoB5gB7kf59ql07Q/tvCcGfhA7gYirCK3dsgY20yMxVF2f/Nwmf4qIWR8xS/dWQh61a5Dg==.sig.ed25519"
 }
