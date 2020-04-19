@@ -1,18 +1,23 @@
 {
-  "previous": "%Kp+gM/OCumsoInMLLqSAOBnqj+M8MI3VPU/6hkqumC4=.sha256",
-  "sequence": 17216,
+  "previous": "%pIoxtchBP7p2zVG4rItPLTHtzHvfLuIqMzatjZVWm1c=.sha256",
+  "sequence": 17217,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587238753641,
+  "timestamp": 1587309175584,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%MJIX5+CjlJsjGk7RMKn7Z4/9UZt5Xw0q55hIt1roou0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nYour messages just came through on my end! It was good chatting with you on the phone last night though, I got some more more clarity around this.\r\n\r\n> here are a bunch of advantages in that path - it can be used straight away\r\n\r\nIn the docs, I see:\r\n\r\n- \"you can only create links between your feedId and profiles at the moment\"\r\n- \"TODO - in future add multiple authors. This will involve adding some Access Control options to the schema\"\r\n\r\nDoes this mean that you can create a profile, but only one feed can be added to it? Maybe a better question: can I replace [this implementation](https://github.com/fraction/oasis/pull/413/files) with SSB-Profile today, or do we need a bit more elbow grease before it's ready to be plug-n-play?\r\n\r\n> it will be easy to upgrade to use private-box-2 \r\n\r\nWhat's the difference between implementing this with the simple same-as vs SSB-Profile? My understanding is that the implementation I have would specifically work really well with private-box-2, but maybe not? I'd love more inf on this.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      }
+    ],
+    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%MJIX5+CjlJsjGk7RMKn7Z4/9UZt5Xw0q55hIt1roou0=.sha256"
+      "%jB2bVn/3rYf4JXQyPRIpQPXiYVQPHdW86svQA98bTIk=.sha256",
+      "%vqo3Stoq4cbO6ag3e7dp2huAYlAK5FiXZoET8rm6mcM=.sha256"
     ]
   },
-  "signature": "0YKr5tJ8anriDaZ0782tfi4+7jXsG87nPN1IPNAnIPvCZmT3CThsYuw7Z0eZ+zSeHn6JU39KjZSHzZmBY2IFCw==.sig.ed25519"
+  "signature": "RmSn88zbcqsywvxlTYFqyYKsYPWQzSBCWJv83W6KYFNQzR0rDStTljOsN7alkE2AxjNPDZ/RncJwTWKF7co9Bw==.sig.ed25519"
 }
