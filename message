@@ -1,22 +1,18 @@
 {
-  "previous": "%PzBKiOTva00tGpW/bM49ZP1rqJmOFAOPAh202NHw4D4=.sha256",
-  "sequence": 17234,
+  "previous": "%XyWDLUxopKmWx8W1JWAe1cPcEJOQkt9fhFPCPUVxXeI=.sha256",
+  "sequence": 17235,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587400894929,
+  "timestamp": 1587404045813,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nI think this is how private-box2 works, right? My understanding is that the participants in the tangle all get a shared key to encrypt/decrypt with?",
-    "mentions": [
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      }
-    ],
-    "root": "%yW5UH/MT+XDiq/xLuDs68CinvDjlU4nKuUDWDlEPybY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%6C8cNZq7MbgOsJCfMNNRDfak80AFyG8xHa+cWp2noeA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%yW5UH/MT+XDiq/xLuDs68CinvDjlU4nKuUDWDlEPybY=.sha256"
+      "%6C8cNZq7MbgOsJCfMNNRDfak80AFyG8xHa+cWp2noeA=.sha256"
     ]
   },
-  "signature": "btE1q8ktAvoPFG9cX6XnoerluETAGEZJ/7aE3MQYfvV1eM+upXPzyvKIOkDlYe6EdECLCygBcRW8YpAthDxLDg==.sig.ed25519"
+  "signature": "crWTusCYWkV/6H6/+IdX5GD0jhCdG87sWwcyY1IDNynn3c4fItNXO8gWG9xhv0yQu7D+IELJNUnMO+TAf9zCAQ==.sig.ed25519"
 }
