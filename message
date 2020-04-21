@@ -1,26 +1,17 @@
 {
-  "previous": "%cFGhHjaK9y20h6vUzhHUaowQHeoa7LU/TKFIXhJ49mw=.sha256",
-  "sequence": 17242,
+  "previous": "%WT+pnt6emtlz2GSn0eyw+pPWiXv8rZVw0G/djEh1KKQ=.sha256",
+  "sequence": 17243,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587442513128,
+  "timestamp": 1587442980204,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I did a thing.\r\n\r\n```javascript\r\nconst pullJq = require('./');\r\nconst pull = require('pull-stream');\r\n\r\npull(\r\n  pull.values([\r\n    { seq: 0, text: \"hello\" },\r\n    { seq: 1, text: \"world\" },\r\n    { seq: 2, text: \"!\" }\r\n  ]),\r\n  pullJq('.text'),\r\n  pull.drain(console.log)\r\n)\r\n```\r\n\r\n```\r\nhello\r\nworld\r\n!\r\n```\r\n\r\nAll the power of [jq](https://stedolan.github.io/jq/tutorial/) bolted onto pull-streams. Completely untested: performance.\r\n\r\n\r\n#pull-jq #pull-stream #javascript #nodejs",
-    "mentions": [
-      {
-        "link": "#pull-jq"
-      },
-      {
-        "link": "#pull-stream"
-      },
-      {
-        "link": "#javascript"
-      },
-      {
-        "link": "#nodejs"
-      }
+    "text": "(Unless node-jq supports streaming input/output, this might be more trouble than it's worth. Maybe we could `mkfifo` and use a temporary file instead?)",
+    "mentions": [],
+    "root": "%WT+pnt6emtlz2GSn0eyw+pPWiXv8rZVw0G/djEh1KKQ=.sha256",
+    "branch": [
+      "%WT+pnt6emtlz2GSn0eyw+pPWiXv8rZVw0G/djEh1KKQ=.sha256"
     ]
   },
-  "signature": "Gntd0Y4ylovj14vlxYk1DrCpdFyiqByBoOoVLasUY59tCKNpbRSgJB0Z+4GyLVqRT9Y5d54PI0qpZbVqQHQQCQ==.sig.ed25519"
+  "signature": "LqgwwwnuY2MjWvoMOuDTnFjIFT1oAbJMgwv9chkHum11T+9kTazG1jQTtMGyKn+mX0XVJUs7qs9+KhDiuFo7Dw==.sig.ed25519"
 }
