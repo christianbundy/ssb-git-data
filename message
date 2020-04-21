@@ -1,18 +1,26 @@
 {
-  "previous": "%h8os/Lh/MgJ9jaY0nDNuv38cW3mdO5Ph07av/RwPM48=.sha256",
-  "sequence": 17241,
+  "previous": "%cFGhHjaK9y20h6vUzhHUaowQHeoa7LU/TKFIXhJ49mw=.sha256",
+  "sequence": 17242,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587420833320,
+  "timestamp": 1587442513128,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%+lNwL2rvSov+yI610m+P9zpSGfHe2YiGKtW3SRlOkXw=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%+lNwL2rvSov+yI610m+P9zpSGfHe2YiGKtW3SRlOkXw=.sha256"
+    "type": "post",
+    "text": "I did a thing.\r\n\r\n```javascript\r\nconst pullJq = require('./');\r\nconst pull = require('pull-stream');\r\n\r\npull(\r\n  pull.values([\r\n    { seq: 0, text: \"hello\" },\r\n    { seq: 1, text: \"world\" },\r\n    { seq: 2, text: \"!\" }\r\n  ]),\r\n  pullJq('.text'),\r\n  pull.drain(console.log)\r\n)\r\n```\r\n\r\n```\r\nhello\r\nworld\r\n!\r\n```\r\n\r\nAll the power of [jq](https://stedolan.github.io/jq/tutorial/) bolted onto pull-streams. Completely untested: performance.\r\n\r\n\r\n#pull-jq #pull-stream #javascript #nodejs",
+    "mentions": [
+      {
+        "link": "#pull-jq"
+      },
+      {
+        "link": "#pull-stream"
+      },
+      {
+        "link": "#javascript"
+      },
+      {
+        "link": "#nodejs"
+      }
     ]
   },
-  "signature": "/xzh3hAq5cXfuqvEIPoLpJEaRQoYOF2ccBJ+nAISeGmCZAk4k9G9IsNj+0rvBuoaWUN8rCU+ujwPkmlytqL5Bg==.sig.ed25519"
+  "signature": "Gntd0Y4ylovj14vlxYk1DrCpdFyiqByBoOoVLasUY59tCKNpbRSgJB0Z+4GyLVqRT9Y5d54PI0qpZbVqQHQQCQ==.sig.ed25519"
 }
