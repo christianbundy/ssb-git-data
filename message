@@ -1,22 +1,23 @@
 {
-  "previous": "%v22gQ3ueTgdp3cC8HLwFCoX1HQ3t1wTY+oHZ26Zoec0=.sha256",
-  "sequence": 17265,
+  "previous": "%Damr3yXqMG+u78We93AlBbGaKZDIP5EONH/xE3QcXeU=.sha256",
+  "sequence": 17266,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587583236695,
+  "timestamp": 1587592314102,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I spent about an hour this morning integrating this with Oasis, and it seems to be working...\r\n\r\n![Screenshot of hyperfine, a benchmarking tool, reporting that the previous version of Oasis took 1 second per page load and that the new version takes 42 milliseconds](&ELLxkniYD0bxYXrHV4iinnol+6SjKR/hE1LdYoonEe0=.sha256)\r\n\r\nI can't put into words how much faster this feels. I don't remember the last time I've had a webpage load in  40 milliseconds but it feels **so good**.",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> compute once, reuse many times\r\n\r\nThose are good reflexes! I think it makes lots of sense to serialize the state somewhere. The big difference is:\r\n\r\n- Previously we had lots of plugins, each getting their own stream of messages, and managing their own state.\r\n- This has one function that sees each message and saves state somewhere, which is currently in memory (but could totally be persisted elsewhere). This means that applications save **only what they need**, and modifying your indexes is easy instead of scary.\r\n\r\n> how big is your offset log\r\n\r\nI think this is the right way to count?\r\n\r\n```console\r\n$ ssb createLogStream | jq -c | wc -l\r\n1165119\r\n```\r\n\r\nAssuming that's right, I have 1.16 million messages.\r\n\r\n> How does this compare\r\n\r\n🤷\r\n\r\nMy guess is that they can blow my implementation out of the water **and** keep a reasonable memory profile. This is more of an experiment about how we can lower the barrier to entry for building and understanding SSB interfaces with small programs and no dependencies.",
     "mentions": [
       {
-        "link": "&ELLxkniYD0bxYXrHV4iinnol+6SjKR/hE1LdYoonEe0=.sha256",
-        "name": "Screenshot of hyperfine, a benchmarking tool, reporting that the previous version of Oasis took 1 second per page load and that the new version takes 42 milliseconds"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
     "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
     "branch": [
-      "%OUYizR07WXHceQkJ1ocWn9aFMHQ2+EvvR7KJP8DMtus=.sha256"
+      "%+3ZvFvlky21xkkZOjIe2po+ICIlkHAOZcqY9Wt86Z7w=.sha256",
+      "%NEnTiMWjEEj6li1aW9eD48g66h4jOb8Joioz/HRkWPw=.sha256"
     ]
   },
-  "signature": "12QPQRwICPMGC9tnZOZjkDOr4vaaQznZ7UjT0mOHV31nrB7KIbE6UdgTp3lQtXAKopGjRQ/oPBxwDr0nqJrTCw==.sig.ed25519"
+  "signature": "/whDHzRgEJ3fUtfO6mVpSJOAnceHyV0VT5NnL1+Do8DPDu/sT5oJQX/eK3e6s9JY3Hz7JfPox0tEo2pRJtjkCA==.sig.ed25519"
 }
