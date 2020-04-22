@@ -1,22 +1,18 @@
 {
-  "previous": "%wt93s/GkaKnzMNNVbrIWTRLLFgleWAhv5p0JQ/4SkMg=.sha256",
-  "sequence": 17267,
+  "previous": "%Fj5GbUUqB5Di5HfgH1VcfemJ7LY1lsQPl3fKaho76PE=.sha256",
+  "sequence": 17268,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587592731470,
+  "timestamp": 1587592739790,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Tim Robinson (Laptop)](@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519)\r\n\r\nI just ran something like:\r\n\r\n```javascript\r\nconst pull = require(\"pull-stream\");\r\nconst ssbClient = require(\"ssb-client\");\r\n\r\nssbClient().then((ssb) => {\r\n  const onEach = () => {};\r\n  const onDone = () => {\r\n    console.log(\"Done!\");\r\n    ssb.close();\r\n  };\r\n\r\n  pull(ssb.createLogStream({ limit: 1000000 }), pull.drain(onEach, onDone));\r\n});\r\n```\r\n\r\nIf you check out my `slow-start-integrated` branch and run `node src/better` it'll process all of the messages in your database. Combine with hyperfine for bonus points. :~)",
-    "mentions": [
-      {
-        "link": "@Py8stqMfjhdc4Ln92R4Lg+3jITszP94G3P5BNuH+lWY=.ed25519",
-        "name": "Tim Robinson (Laptop)"
-      }
-    ],
-    "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%uBcgsZBv/xNRX30hFTG6jittvG2XtFgxWI9O+vTlkHw=.sha256",
+      "value": 1
+    },
     "branch": [
       "%uBcgsZBv/xNRX30hFTG6jittvG2XtFgxWI9O+vTlkHw=.sha256"
     ]
   },
-  "signature": "FSsgK48ITJSGsJZh1kKx3bqVFrQ+SRJUrVHG7IgGD8HQl8EH5BBH+bpjdQyP6Po7xS02yj8LGZNj5VbWSVcOCw==.sig.ed25519"
+  "signature": "tR43gPJv+9GYVxPY/+WRndifoCJF+8h4IDCnmjm8QKU0ALA7XgmGiyp7uFxGF+nxqv6SM9+sLPyxqTUVDa6tCQ==.sig.ed25519"
 }
