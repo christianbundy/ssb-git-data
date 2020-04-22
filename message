@@ -1,18 +1,22 @@
 {
-  "previous": "%U6XZ3KdftXxT8sh5DDSuL4sYgoTThBqSGvkMbi1SS20=.sha256",
-  "sequence": 17264,
+  "previous": "%v22gQ3ueTgdp3cC8HLwFCoX1HQ3t1wTY+oHZ26Zoec0=.sha256",
+  "sequence": 17265,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587566360167,
+  "timestamp": 1587583236695,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%ktVNCDQJZyM+YOF6SjBPMkbK3WIHd6OdGNzY9uKiwAA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "I spent about an hour this morning integrating this with Oasis, and it seems to be working...\r\n\r\n![Screenshot of hyperfine, a benchmarking tool, reporting that the previous version of Oasis took 1 second per page load and that the new version takes 42 milliseconds](&ELLxkniYD0bxYXrHV4iinnol+6SjKR/hE1LdYoonEe0=.sha256)\r\n\r\nI can't put into words how much faster this feels. I don't remember the last time I've had a webpage load in  40 milliseconds but it feels **so good**.",
+    "mentions": [
+      {
+        "link": "&ELLxkniYD0bxYXrHV4iinnol+6SjKR/hE1LdYoonEe0=.sha256",
+        "name": "Screenshot of hyperfine, a benchmarking tool, reporting that the previous version of Oasis took 1 second per page load and that the new version takes 42 milliseconds"
+      }
+    ],
+    "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
     "branch": [
-      "%ktVNCDQJZyM+YOF6SjBPMkbK3WIHd6OdGNzY9uKiwAA=.sha256"
+      "%OUYizR07WXHceQkJ1ocWn9aFMHQ2+EvvR7KJP8DMtus=.sha256"
     ]
   },
-  "signature": "Efa6w85TtOt75IJtt3vb8Ytdu0jyAVuac3IVVvFxqWDifrMNoF4U29SUdvTTU6RapabjbeY1wHTiVmv2inG1Aw==.sig.ed25519"
+  "signature": "12QPQRwICPMGC9tnZOZjkDOr4vaaQznZ7UjT0mOHV31nrB7KIbE6UdgTp3lQtXAKopGjRQ/oPBxwDr0nqJrTCw==.sig.ed25519"
 }
