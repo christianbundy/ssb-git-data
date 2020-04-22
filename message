@@ -1,22 +1,22 @@
 {
-  "previous": "%I3KXgsYDXDnPhHrfY64l21i5Xe/VPj081QvAgewkPN0=.sha256",
-  "sequence": 17257,
+  "previous": "%+5TiJxXcSiaBO4EzrJBK12+rABsePUhd/xM593yWOOc=.sha256",
+  "sequence": 17258,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587561443001,
+  "timestamp": 1587565442070,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@moid](@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519)\r\n\r\nThank you! This is going to be great coffee reading material.",
+    "text": "[@cryPhone📱](@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519)\r\n\r\n> This just uses createLogStream, right?\r\n\r\nYep, exactly. The two really wild things that I've noticed:\r\n\r\n- If you ignore persistence (...and memory constraints...) then lots of indexes are [very easy to implement](https://github.com/christianbundy/oasis/commit/31b49e304faeeed20f029bbd489ed7ab2ef7773c).\r\n- Just running `createLogStream()` takes about 60 seconds, but when you add **11 indexes** (including full text search with regex!) that time only increases to 70 seconds. Doing everything in a single pass is fast as hell.",
     "mentions": [
       {
-        "link": "@Sur8RwcDh6kBjub8pLZpHNWDfuuRpYVyCHrVo+TdA/4=.ed25519",
-        "name": "moid"
+        "link": "@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519",
+        "name": "cryPhone📱"
       }
     ],
     "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
     "branch": [
-      "%qHhd5hj6AfA/7cXTK4Ay96BSXTvus+frHFP3Myp9ZUE=.sha256"
+      "%+5TiJxXcSiaBO4EzrJBK12+rABsePUhd/xM593yWOOc=.sha256"
     ]
   },
-  "signature": "3eoeuq2N5F/gbVzdELE/dyPEM+Ytsz1YhQGYcR9C39Tl/EoO2IwcGrAEH3l2WfWBl56OAskcTJ+QQvA61FRtCA==.sig.ed25519"
+  "signature": "q+BoXIdIcCMNtz2WVzigb/hclPc1XRfTastBRrc6XNfggBSKJ1YylJMwLjknVZsd3sm4PI4VwEUegePLeqR4DA==.sig.ed25519"
 }
