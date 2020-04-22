@@ -1,18 +1,27 @@
 {
-  "previous": "%DPWj6crRW5+NN3VGCpZKcqoiRyObYaNHGsiCjvxNtQg=.sha256",
-  "sequence": 17252,
+  "previous": "%hpHKPCGwOKPT4bBLg/EqhuuBEY5mnCECaleAw1YPpmw=.sha256",
+  "sequence": 17253,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587506033529,
+  "timestamp": 1587524057605,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YDEYLcWFlMa98R8c7wdb24hP+gZxFet+OLUdp2y1MyU=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%m1mpVo94ODSl0pHKttosP5d4WQ71GCWKWhVUOjA9Bco=.sha256"
-    ]
+    "type": "post",
+    "text": "Just wrote a small alternative to flumeviews that I'm feeling quite good about: \r\n\r\nhttps://github.com/christianbundy/oasis/blob/slow-start/better.js\r\n\r\nIt's tiny, it stores all indexes in memory (!), and it's very fast (> 1 million messages per minute on my laptop). The big pro/con is that it doesn't persist indexes anywhere, so we avoid the pain points of backward compatibility and shared indexes (#against-consensus). The current indexes, which are **not optimized** but still fast enough:\r\n\r\n- Messages by type\r\n- Messages by author\r\n- Latest `seq` by author\r\n- Roots referenced by author (!!! very helpful for notifications !!!)\r\n- About messages by author\r\n  - Name\r\n  - Image\r\n  - Description\r\n- Notifications for author (mentions + new messages from thread author has posted in)\r\n- Full text search (lookups on all words with 3+ characters)\r\n\r\n**I cannot stress how easy this is**. I wrote like ~100 lines of actual code and I don't have to worry about plugins or flumeviews or compatibility with the JavaScript stack. Maybe this would make it simpler for Oasis/etc to run on Rust/Go/etc?\r\n\r\n#ssb #ssb-dev #databases #flumedb",
+    "mentions": [
+      {
+        "link": "#ssb"
+      },
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#databases"
+      },
+      {
+        "link": "#flumedb"
+      }
+    ],
+    "contentWarning": "Database navel-gazing (FlumeDB, SSB, compatibility, indexing)"
   },
-  "signature": "xFmh/69le0M5N6dquSGwMd35/1eqArFKDJT8hTK/xSAOLhi1wPcjr75faQJ6Gd1uNn5T+EnLV640tLeecssxDA==.sig.ed25519"
+  "signature": "3sQ6mHhjRip5+MV+Qy20QHdf+e+sjqkBPOhh+J72bUESWh64xXjBGsXgTe6nI6dsRs8nb7mc6N1cP6qNSQ4kDQ==.sig.ed25519"
 }
