@@ -1,27 +1,18 @@
 {
-  "previous": "%hpHKPCGwOKPT4bBLg/EqhuuBEY5mnCECaleAw1YPpmw=.sha256",
-  "sequence": 17253,
+  "previous": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
+  "sequence": 17254,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587524057605,
+  "timestamp": 1587526182618,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Just wrote a small alternative to flumeviews that I'm feeling quite good about: \r\n\r\nhttps://github.com/christianbundy/oasis/blob/slow-start/better.js\r\n\r\nIt's tiny, it stores all indexes in memory (!), and it's very fast (> 1 million messages per minute on my laptop). The big pro/con is that it doesn't persist indexes anywhere, so we avoid the pain points of backward compatibility and shared indexes (#against-consensus). The current indexes, which are **not optimized** but still fast enough:\r\n\r\n- Messages by type\r\n- Messages by author\r\n- Latest `seq` by author\r\n- Roots referenced by author (!!! very helpful for notifications !!!)\r\n- About messages by author\r\n  - Name\r\n  - Image\r\n  - Description\r\n- Notifications for author (mentions + new messages from thread author has posted in)\r\n- Full text search (lookups on all words with 3+ characters)\r\n\r\n**I cannot stress how easy this is**. I wrote like ~100 lines of actual code and I don't have to worry about plugins or flumeviews or compatibility with the JavaScript stack. Maybe this would make it simpler for Oasis/etc to run on Rust/Go/etc?\r\n\r\n#ssb #ssb-dev #databases #flumedb",
-    "mentions": [
-      {
-        "link": "#ssb"
-      },
-      {
-        "link": "#ssb-dev"
-      },
-      {
-        "link": "#databases"
-      },
-      {
-        "link": "#flumedb"
-      }
-    ],
-    "contentWarning": "Database navel-gazing (FlumeDB, SSB, compatibility, indexing)"
+    "type": "vote",
+    "vote": {
+      "link": "%VIKGISp2C93ZqZbrQeLQ7sYARatH0BE3fSEgSIK+Xio=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%VIKGISp2C93ZqZbrQeLQ7sYARatH0BE3fSEgSIK+Xio=.sha256"
+    ]
   },
-  "signature": "3sQ6mHhjRip5+MV+Qy20QHdf+e+sjqkBPOhh+J72bUESWh64xXjBGsXgTe6nI6dsRs8nb7mc6N1cP6qNSQ4kDQ==.sig.ed25519"
+  "signature": "vUWIR7ui6KeHb1W7w4VFDoRx52Gyg9ENarrAkvS3gRzkEsbYIWHKcum66BhRcM+od8bHPTN6IbPSoIC2paZpBA==.sig.ed25519"
 }
