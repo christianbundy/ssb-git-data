@@ -1,22 +1,18 @@
 {
-  "previous": "%vyU6EDCnD9rOFO/bC7sUxqSNJLBpu21ja8b9toVHh40=.sha256",
-  "sequence": 17274,
+  "previous": "%jr1AKoiJrhz7m8F1GLbkeF3Wq5twVea86kBhbpIz4vk=.sha256",
+  "sequence": 17275,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587657234379,
+  "timestamp": 1587681103483,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThere are a few moving parts here, so I'll just jot down the big pros and cons of each:\r\n\r\n**Single pass, one stream.** FlumeDB spawns one stream per view, but it seems to me that processing a single stream takes ~6x longer than all of the actual [in-memory] indexing combined. Assuming this improvement holds up when using persistent indexes (?!), we might be able to get this benefit by changing FlumeDB so that the views operate on one stream instead of one stream per view. **The downside:** if one view is a million messages behind and another view is 100 messages behind, they'll become up-to-date at the same time.\r\n\r\n**Index what you want, no query language (unless you want one).** Instead of using general-purpose plugins like SSB-Backlinks, this approach uses a state reducer that indexes *only* and *exactly* the data you want. I've really struggled trying to find simple and performant ways of doing common tasks, like finding which people have published a like/reaction on a message; with this approach, you just handle it in your state reducer:\r\n\r\n```javascript\r\nmessages[likedMessage].likes.push(thisMessageKey);\r\n```\r\n\r\nThe downside of this approach is that when your application needs new indexes then you need to implement them yourself and reindex the database. It *may* be possible to optimize this, so that \"I need to reindex votes\" uses something like `messagesByType`, but I haven't thought about it a lot.\r\n\r\n**State held in memory.** This makes the interface unreasonably fast, but only works if you have lots of memory to spare. The downside is that lots of devices have constrained memory and it's silly to keep a list of every topic I've ever posted on *plus* every message that's bumped one of those threads. Holding 10,000 notifications in memory feels a bit superfluous for most use-cases.\r\n\r\n**No persistence.** This makes developing indexes super easy because you don't have to worry about cached data, plus nothing is written to disk (great for my 64 GB hard drive), but it the startup time is bad. \r\n\r\nIn summary, this is a fun pattern if you're quickly writing an SSB interface from scratch and you don't want to learn about FlumeDB / SecretStack / etc, but in production we'd probably want to:\r\n\r\n- Persist the state to disk for faster startup time.\r\n- Find a balance between what we hold in memory and what we look up on the filesystem. Yay, trade-offs. 🙃\r\n\r\nThe plugins we're using already provide filesystem persistence and LRU caching and all sorts of other features, so we don't need to switch -- but if anyone is implementing an SSB interface in another language (or just doesn't want to deal with our scuttle-baggage) this seems like a pretty snazzy shortcut. ",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ],
-    "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%AeKeV7HXJ+efzAWqnFjg+lA0Sh4K3GFO/PPx0J8gn5k=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%izKofz8yfRXpM13SfukeI2pLPDpvnNFLmHpnTi1EqpQ=.sha256"
+      "%1rBNfRxZ4WBLCo3HRQyi2YKlWqZj+SYVTFGAv1uuUhw=.sha256"
     ]
   },
-  "signature": "cw9TlIK4lCCn8sI9j0LD1OaMx7M3+40fjMXuRze3kfAFkZqqrZtA3H9m5li1Sa4rRHiI0A8Jnt55Kbjs2C8OBg==.sig.ed25519"
+  "signature": "sgwnjPdVibHWToAIIUk4whR68O2b1msgre6lwWBYHMpNZikDSGiYUavGVczk9Xo2mD06Q7i7bPiqoa7z/s8zAQ==.sig.ed25519"
 }
