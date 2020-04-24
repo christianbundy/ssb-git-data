@@ -1,22 +1,18 @@
 {
-  "previous": "%uMtrl38wk60bnUYbv83q++dv04TZ5796qrYkZqNXWe8=.sha256",
-  "sequence": 17276,
+  "previous": "%h3jU1J3NQDF/S0t/CDcJV5J53F/Qtne+Vre4uTO4pIM=.sha256",
+  "sequence": 17277,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587683420568,
+  "timestamp": 1587744127039,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nyeah! I have a 2015 chromebook pixel, same as @myf, and I run Arch Linux. Using ChromeOS was cool at first but it ends up just feeling like Android on a computer. Very slick if you don't want to know what's going on behind the scenes, but I had to rent a VPS (on Google Cloud, of course) to get anything done.\r\n\r\nEventually I got tired of using the cloud to do my computing and when I switched to non-ChromeOS distros I realized that Google didn't actually mainline any of their Linux code so I had to compile my own kernel with patches from [this repo](https://github.com/raphael/linux-samus/) for years. Eventually their patches landed upstream (I think because other Chromebook Pixel users submitted patches?) and we can all use mainline Linux, but I consistently have fun glitches:\r\n\r\n- mic doesn't work\r\n- half of my screen goes dim randomly and I have to shut the lid and reopen (!)\r\n- the sound doesn't work normally or detect hotplugging, so I have to maintain [a handful of scripts](https://gitlab.com/christianbundy/samus-scripts) like `use-headphone-output` and `use-speaker-output` all the time\r\n\r\nThey look *so* clean, but I'd strongly recommend against this specific device unless you like fighting with your computer. It's totally possible that the newer models are better, but I'm going to try to avoid buying any more Google stuff. (FWIW I also have the Google Pixel XL, which they sent after my Nexus 6P's camera randomly stopped working).",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%S9LEW6HmelogWHJeQWnLb+cjhvrVnn76EJLoy746eZs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%HmjvUMpbdYedHY+uv7LT0Lkyy2PRFZ225oV/sgPy+14=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%S9LEW6HmelogWHJeQWnLb+cjhvrVnn76EJLoy746eZs=.sha256"
+      "%HmjvUMpbdYedHY+uv7LT0Lkyy2PRFZ225oV/sgPy+14=.sha256"
     ]
   },
-  "signature": "rdQ2DIQVolYswq9k6dEj/zXMXB0V1bdYxwzXzWxJf6kDtZOI0V6i8POtGYGDbg8Jzd3fLGo8i8e8iMVbph4rDQ==.sig.ed25519"
+  "signature": "L9cv/kxxSN/shcO9BnESZ18TsQ+MD0E06xi1MrrPn/QuE4XNwO/PID83Y9cQgTVCgXApcRl1vb5++8DutBrPDQ==.sig.ed25519"
 }
