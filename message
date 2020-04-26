@@ -1,19 +1,29 @@
 {
-  "previous": "%ASSEl8/x9rs8SJSGUttYETjTDFe5rXiGJZwUbdNos3w=.sha256",
-  "sequence": 17303,
+  "previous": "%12n+F1EYbNKLDYks3xRFfOeBgliTe74JRTh6pU54D/0=.sha256",
+  "sequence": 17304,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587942269414,
+  "timestamp": 1587942913352,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eLfakPuOmWOGj95PxmCDLpz6C7woHoJa6VtwJrhQQhw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Eric Dobbs](@pIylCyD2BHZ69CyrXGo+gGHmVLtCFWeVysi4+3brN7c=.ed25519)\r\n\r\nHey Eric, welcome!\r\n\r\nI'm really excited at the idea of wikis on something like ssb, and there's been some discussion under the #ssb-wiki hashtag that you might like. The big open questions in my mind are around capabilities (who can write? who can read?) and conflict management (how do we deal with two people writing to the same document while offline?).\r\n\r\nThere's a nice protocol guide here that goes over some of the relevant info: https://ssbc.github.io/scuttlebutt-protocol-guide/\r\n\r\nOne of the pain points of a hyper-subjective network is that there are lots of different documentation sites of varying up-to-date-ness. I think most of the stuff on that site is accurate, but I have no idea who maintains it or when it was last updated.\r\n\r\n> What would the development of a wiki thing look like to you? Is it a plugin that runs inside Patchwork? Would we create a different app running on the same laptop and talking to the ssb db to sync updates to the wiki pages?\r\n\r\nI'm maintaining Patchwork by keeping dependencies up-to-date and publishing releases every few weeks, but otherwise it isn't really being actively worked on. I think it would be great to add a wiki to one of the next-gen clients (I'm working on #oasis) or build it out as its own application, depending on how complex it is.\r\n\r\nHappy to chat or answer any questions you have, I'm looking forward to getting to know you better! I haven't been keeping up with the federated wiki project(s?) as well as I'd like to be -- how are things going? I'd love to hear what you've been working on.",
+    "mentions": [
+      {
+        "link": "@pIylCyD2BHZ69CyrXGo+gGHmVLtCFWeVysi4+3brN7c=.ed25519",
+        "name": "Eric Dobbs"
+      },
+      {
+        "link": "#ssb-wiki"
+      },
+      {
+        "link": "#oasis"
+      }
+    ],
+    "root": "%eLfakPuOmWOGj95PxmCDLpz6C7woHoJa6VtwJrhQQhw=.sha256",
     "branch": [
       "%DopyDdFqUwsWDxlzKADnumHZk3eHTEwTo58sZ+PEMOk=.sha256",
-      "%pkgEU1hytd4vW5FrgjpByIyg8SCiqVC6a1V1LNYILIo=.sha256"
+      "%MwPxfO5OBhiUkFgxjATN7hMNJ+R31Wdwp9OQOKUyybc=.sha256"
     ]
   },
-  "signature": "v3J0mi7rqUDnmHvhgNwO1aO9UYuW6Z8ZrEybgiklub11II0SFmDxKMeXEbWAn5bFwzD+q8NhyQsnff2AgJn1Cw==.sig.ed25519"
+  "signature": "8u3/v2116HiLzccnHjllMzCPHaBbttpfNsCcfWNOJYA6LjzsQoVKV0e3s2HaILHpU0RptyuSsxK1Q4piOV/TAA==.sig.ed25519"
 }
