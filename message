@@ -1,18 +1,18 @@
 {
-  "previous": "%EGhOZZb73VBde7BRb5ShhGvKnEsnBR77Lxl5ayiPks0=.sha256",
-  "sequence": 17295,
+  "previous": "%T+ojaLlt7cmt7vZRnlrmkJ0sOaxf5HiiU/4hVW6pn1Y=.sha256",
+  "sequence": 17296,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587847242539,
+  "timestamp": 1587929352576,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "The memory consumption was getting atrocious with plain JavaScript objects, so I started tinkering with little optimizations and ended up making a small in-memory relational database. Writing a database from scratch probably isn't a good use of my time, so I'm continuing this experiment here: https://github.com/christianbundy/ssb-sqlite",
-    "mentions": [],
-    "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%SlO4oBCkjlW/AHycay2lzIxdeRtw5XkQPM9O9byKD9c=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Y9a02H5wDy0i3Ps3I03Bs4d6pexuOQK/NW6K9zdyh2I=.sha256",
-      "%yWZToxqj0lgoJ6PdSr3eNpQJ2hoSfzhZnMTDxMw/dng=.sha256"
+      "%/mFepmZbA6NTVjATvOm/ZPOBT0DSdXgVTZS1fqJ3/Y8=.sha256"
     ]
   },
-  "signature": "YeGhHGsdo6FQeMi0FaodYEjCi5KEleK4P44FAE5IvpbpwTIQxqa57SLDsoppDYDw0yquIKxDL3zKtwl0z+yMAQ==.sig.ed25519"
+  "signature": "1MkoGRBgKCwZdZJU5vAnymrqsMkO1vYqObA5hQQnfb3DSpkPb/j3ZyjkSZ2hlbN38iC+2gBLLyjN896lh6kEBw==.sig.ed25519"
 }
