@@ -1,29 +1,25 @@
 {
-  "previous": "%12n+F1EYbNKLDYks3xRFfOeBgliTe74JRTh6pU54D/0=.sha256",
-  "sequence": 17304,
+  "previous": "%siPDSch05AW956Qp9kVZ5zEVm1oWucxrPqcdUbybWRo=.sha256",
+  "sequence": 17305,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587942913352,
+  "timestamp": 1587997445363,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Eric Dobbs](@pIylCyD2BHZ69CyrXGo+gGHmVLtCFWeVysi4+3brN7c=.ed25519)\r\n\r\nHey Eric, welcome!\r\n\r\nI'm really excited at the idea of wikis on something like ssb, and there's been some discussion under the #ssb-wiki hashtag that you might like. The big open questions in my mind are around capabilities (who can write? who can read?) and conflict management (how do we deal with two people writing to the same document while offline?).\r\n\r\nThere's a nice protocol guide here that goes over some of the relevant info: https://ssbc.github.io/scuttlebutt-protocol-guide/\r\n\r\nOne of the pain points of a hyper-subjective network is that there are lots of different documentation sites of varying up-to-date-ness. I think most of the stuff on that site is accurate, but I have no idea who maintains it or when it was last updated.\r\n\r\n> What would the development of a wiki thing look like to you? Is it a plugin that runs inside Patchwork? Would we create a different app running on the same laptop and talking to the ssb db to sync updates to the wiki pages?\r\n\r\nI'm maintaining Patchwork by keeping dependencies up-to-date and publishing releases every few weeks, but otherwise it isn't really being actively worked on. I think it would be great to add a wiki to one of the next-gen clients (I'm working on #oasis) or build it out as its own application, depending on how complex it is.\r\n\r\nHappy to chat or answer any questions you have, I'm looking forward to getting to know you better! I haven't been keeping up with the federated wiki project(s?) as well as I'd like to be -- how are things going? I'd love to hear what you've been working on.",
+    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\nThanks for pointing out those pull requests, I've just merged them. Lots of the modules under the SSBC are unmaintained or under-maintained.\r\n\r\n> Off topic: there should be a centralized documentation of the different kinds of messages, clear function names, args, and what the expected replies are.\r\n\r\n#somebody-should\r\n\r\n> sync, sink, and duplex\r\n\r\nIt's a bummer that we don't actually have lots of reliable protocol documentation -- it's scattered around on GitHub, but more info on manifest properties is available here: https://github.com/ssbc/muxrpc#manifest\r\n\r\n> the gossip protocol is not documented\r\n\r\nMy understanding is that it's just \"connect to peers and call `createHistoryStream()` for each feed you care about\". \r\n\r\n> from what I can see no real client implements [epidemic broadcast trees].\r\n\r\nThe code is [here](https://github.com/ssbc/ssb-ebt), which I think is used in all of the JavaScript clients. It's definitely in Patchwork and SSB-Server, and also in my attempts at replacing them (Oasis and SSB-Daemon).",
     "mentions": [
       {
-        "link": "@pIylCyD2BHZ69CyrXGo+gGHmVLtCFWeVysi4+3brN7c=.ed25519",
-        "name": "Eric Dobbs"
+        "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
+        "name": "Borja"
       },
       {
-        "link": "#ssb-wiki"
-      },
-      {
-        "link": "#oasis"
+        "link": "#somebody-should"
       }
     ],
-    "root": "%eLfakPuOmWOGj95PxmCDLpz6C7woHoJa6VtwJrhQQhw=.sha256",
+    "root": "%D4T0lda1pKTKjABolLBl4MoPbhbTWiDnLuM/GRe21JE=.sha256",
     "branch": [
-      "%DopyDdFqUwsWDxlzKADnumHZk3eHTEwTo58sZ+PEMOk=.sha256",
-      "%MwPxfO5OBhiUkFgxjATN7hMNJ+R31Wdwp9OQOKUyybc=.sha256"
+      "%D4T0lda1pKTKjABolLBl4MoPbhbTWiDnLuM/GRe21JE=.sha256"
     ]
   },
-  "signature": "8u3/v2116HiLzccnHjllMzCPHaBbttpfNsCcfWNOJYA6LjzsQoVKV0e3s2HaILHpU0RptyuSsxK1Q4piOV/TAA==.sig.ed25519"
+  "signature": "MrOSulwBbAvr8VEkpqX4lengEc3uGxGzsZdPKbyuJT+1cSoZz/ctfYDyDMO3zkjrts9Bf02VVJGzLo4V0TURDA==.sig.ed25519"
 }
