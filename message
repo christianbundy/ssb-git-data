@@ -1,25 +1,22 @@
 {
-  "previous": "%siPDSch05AW956Qp9kVZ5zEVm1oWucxrPqcdUbybWRo=.sha256",
-  "sequence": 17305,
+  "previous": "%h4tXv+hkiy5OeHVbc7SEC1udKBb59oRqem692R80z9U=.sha256",
+  "sequence": 17306,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1587997445363,
+  "timestamp": 1587999077891,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\nThanks for pointing out those pull requests, I've just merged them. Lots of the modules under the SSBC are unmaintained or under-maintained.\r\n\r\n> Off topic: there should be a centralized documentation of the different kinds of messages, clear function names, args, and what the expected replies are.\r\n\r\n#somebody-should\r\n\r\n> sync, sink, and duplex\r\n\r\nIt's a bummer that we don't actually have lots of reliable protocol documentation -- it's scattered around on GitHub, but more info on manifest properties is available here: https://github.com/ssbc/muxrpc#manifest\r\n\r\n> the gossip protocol is not documented\r\n\r\nMy understanding is that it's just \"connect to peers and call `createHistoryStream()` for each feed you care about\". \r\n\r\n> from what I can see no real client implements [epidemic broadcast trees].\r\n\r\nThe code is [here](https://github.com/ssbc/ssb-ebt), which I think is used in all of the JavaScript clients. It's definitely in Patchwork and SSB-Server, and also in my attempts at replacing them (Oasis and SSB-Daemon).",
+    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nLooks good to me, I'm excited to try this out!",
     "mentions": [
       {
-        "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
-        "name": "Borja"
-      },
-      {
-        "link": "#somebody-should"
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "Powersource"
       }
     ],
-    "root": "%D4T0lda1pKTKjABolLBl4MoPbhbTWiDnLuM/GRe21JE=.sha256",
+    "root": "%jK2xn0GE975NzHfAridPvdraqDx3dM60i9UVL7JRSiE=.sha256",
     "branch": [
-      "%D4T0lda1pKTKjABolLBl4MoPbhbTWiDnLuM/GRe21JE=.sha256"
+      "%L1qhQpuqZtMzl/AcGuTPuuRqEvu7+jb4y8yx9P47fhI=.sha256"
     ]
   },
-  "signature": "MrOSulwBbAvr8VEkpqX4lengEc3uGxGzsZdPKbyuJT+1cSoZz/ctfYDyDMO3zkjrts9Bf02VVJGzLo4V0TURDA==.sig.ed25519"
+  "signature": "y87BliiNr4A+GN+1Aw2ZXv/ufBL7PQAIrhgwFufKgguQeaRBVTNqW7Jmw/4TAqgKg4iJ5xEt4OBsNSz3vsfdBw==.sig.ed25519"
 }
