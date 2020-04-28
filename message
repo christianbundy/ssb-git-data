@@ -1,22 +1,25 @@
 {
-  "previous": "%/pDGLo2twK6eFCEaxvnTsaLKmM4z7zAD/KDmJnkvPpM=.sha256",
-  "sequence": 17315,
+  "previous": "%rBKUf1ohBbclqtBEXIG1niI2TJjaDx6dAIX8/iURyx0=.sha256",
+  "sequence": 17316,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588082680274,
+  "timestamp": 1588089134275,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nI love it. One of my biggest frustrations is that *really* all you need to implement the foundations of SSB are:\r\n\r\n- JSON\r\n- SHA256\r\n- Ed25519\r\n- `{ previous, author, sequence, timestamp, hash, content, signature }`\r\n\r\nThere aren't *easy* to implement, but they're a lot easier than the networking inventions:\r\n\r\n- Secret-Handshake\r\n- Box-Stream\r\n- MuxRPC\r\n- Multiserver\r\n- Private-Box\r\n- Blob replication\r\n- etc\r\n\r\nIt's cool to see that you're focusing on 'on-chain' bits rather than the networking problems, I'm excited to see how this works!",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n> Is #cabal in the same group?\r\n\r\nYup, my understanding is that Cabal is a chat app built on [kappa-core](https://github.com/kappa-db/kappa-core) (like flumedb + hypercore) with peer discovery / connections via [hyperswarm](https://github.com/hyperswarm/hyperswarm) (DHT + MDNS).\r\n\r\nActually this morning I built an small adapter to get Secret-Handshake working over Hyperswarm, and it seems to work pretty well. :)",
     "mentions": [
       {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "Nｅｔｓｃａｐｅ Navigator™"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
+      },
+      {
+        "link": "#cabal"
       }
     ],
-    "root": "%VTo37ZwdGjYJvSbH7n0GGYHY8mqxPB1J1nGWmaa+CdY=.sha256",
+    "root": "%pn9BlyEnErE5CFD9AGtCI5Np/nI/hfRGewS5nbhNsjE=.sha256",
     "branch": [
-      "%VTo37ZwdGjYJvSbH7n0GGYHY8mqxPB1J1nGWmaa+CdY=.sha256"
+      "%9EVJV8l2SMD1N6S2Fme/Rc6+qy6Mm+NgcFfCk+Ec4j4=.sha256"
     ]
   },
-  "signature": "fUUbnrrcA2X8hBNE7ZR5nxAq6N5cu5f6KmB/1x9RGhuZ0GA9ZX97Y4dbQDKIpcalN7fXhwFClzwLmJcwnNbWDQ==.sig.ed25519"
+  "signature": "eFjEDTwb7hZGFrboT5MTkyZkzOpXJE/vDsDGT/9KdjwUAdUDrUu0bF4yo1DNvEPkMe7l5K8VqYIoxo1Li078Aw==.sig.ed25519"
 }
