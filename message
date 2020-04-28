@@ -1,18 +1,26 @@
 {
-  "previous": "%295RTH++QtPa3dFp4HqBq3F35tlyycZO82B7aIDOERM=.sha256",
-  "sequence": 17329,
+  "previous": "%8ypDRtiutX4jtHCaopT6j7eUEaocJlsmw3WxdmJ2UVk=.sha256",
+  "sequence": 17330,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588116504065,
+  "timestamp": 1588117239820,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%diDDx6QOrL2tILo1MJbkWf/fcJUJhX9JStwciFz4swc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nDang, do these need to get posted on every message? I wonder whether at some point it would make sense to just note the head of each feed rather than trying to wrangle tangles. That'd give us topological sorting of **all messages**, too, so we wouldn't have to topo-sort each individual tangle.\r\n\r\nAnother question just popped into my head: are tangles going to go through some RFC / #sdf process, or are they already finalized and decided on?",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      },
+      {
+        "link": "#sdf"
+      }
+    ],
+    "root": "%oqy4rlfU9LAaUxqAFK1DVncT0ioHZ5ZZrYzfm+38s58=.sha256",
+    "fork": "%jK2xn0GE975NzHfAridPvdraqDx3dM60i9UVL7JRSiE=.sha256",
     "branch": [
-      "%diDDx6QOrL2tILo1MJbkWf/fcJUJhX9JStwciFz4swc=.sha256"
+      "%oqy4rlfU9LAaUxqAFK1DVncT0ioHZ5ZZrYzfm+38s58=.sha256"
     ]
   },
-  "signature": "3tWe0CzMkFMXoLD2cVp13OWGrQ8khvJE9DgoxHkYlqNm/cp8/StwJGtXwjw+wLdtT7d/MaylAxLO5jqxIfpwAQ==.sig.ed25519"
+  "signature": "wa03ISNt3Oz+4QoBcO25WNhA16BO3DxAZpPjftRPkYDNbkcKSpDwRqBtKGNai5xhuhjM2UwLGU1RSGDQDyuyDw==.sig.ed25519"
 }
