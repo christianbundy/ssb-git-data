@@ -1,13 +1,18 @@
 {
-  "previous": "%75C2OGd3Lfoesd394Ia62Twe1hdmC6rFmajcubAxAyU=.sha256",
-  "sequence": 17327,
+  "previous": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
+  "sequence": 17328,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588116489946,
+  "timestamp": 1588116500001,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "How important is IP address privacy in P2P?\r\n\r\nIt seems like it's really hard to get super resilient networking without either:\r\n\r\n- connecting to everyone and leaking your IP address\r\n- using tor/i2p, which (if I understand correctly) have to be installed and configured by the user (rather than embedded in some software)\r\n\r\np2p is hard but p2p with privacy is every harder",
-    "mentions": []
+    "type": "vote",
+    "vote": {
+      "link": "%F68f/jMfzwgOnC7NaRJzciNXOfiNWYgSSCFaHJQ6T7c=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%F68f/jMfzwgOnC7NaRJzciNXOfiNWYgSSCFaHJQ6T7c=.sha256"
+    ]
   },
-  "signature": "crkpNoIfPTaKfCnnF8fVTo3fc5b2sz35QmrxN0EpAaZplMaXF+XUwudxB/CVbL2HrWqhkkxSG/rz0kuseglCCg==.sig.ed25519"
+  "signature": "vCAYltvD13Y18Uc9pUdfIXSShysW+Q0bspiDRXOxAh+SmlkpA8eEqegiC+B8em1FfEtd5lTW+lQqnLxKJ72qAg==.sig.ed25519"
 }
