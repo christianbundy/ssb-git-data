@@ -1,22 +1,18 @@
 {
-  "previous": "%jfkZ0FyaiT2xAj2E9TcelKihJFlQvEa3E9KRnCUDTrM=.sha256",
-  "sequence": 17340,
+  "previous": "%WYTuyPaUYuQLQZCbxtZSlysKxvmv8V5TO7nvKzPOmjo=.sha256",
+  "sequence": 17341,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588121948772,
+  "timestamp": 1588125591484,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nI love the idea of an overlay network, but which peers are we okay with connecting to directly? We could connect directly to peers we trust, and I'd actually really like that, but if we used something like tor with onion services then we could connect to *anyone* without any privacy leaks (except the gigantic \"I'm using Tor that your ISP and intelligence agencies see).",
-    "mentions": [
-      {
-        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
-        "name": "xj9"
-      }
-    ],
-    "root": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%nxk1+IiP0WpRzG1BjODuChGwUVmEeDUtQlk7RJwXz2Q=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%FppCpTeT7MJYR6x3cbsv3skn2+Iwe07d6MPRwtSKyC8=.sha256"
+      "%nxk1+IiP0WpRzG1BjODuChGwUVmEeDUtQlk7RJwXz2Q=.sha256"
     ]
   },
-  "signature": "JszhOw1Z1Thj9jRvgYk6J+Ou9dHh3WkzLA5kR3CHX4Im3yGQ4FjSiXhnWRLtpNkOX2DKuXPRFzM/uyKPeRxeCg==.sig.ed25519"
+  "signature": "kpQA82ocArynYBYeSlnujTGBB1T/6i0rw5bYvzK9L3qU6FMrfAIKQxtyMfwl0ASsPxM8p0URpPejVqxXlIqvDw==.sig.ed25519"
 }
