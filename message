@@ -1,22 +1,18 @@
 {
-  "previous": "%zPqqAPTAZPWu988qT0ovI4N9Zthrue400rEzBwTYw6c=.sha256",
-  "sequence": 17354,
+  "previous": "%9TzViuF2QDLTttbrUdwDjalm6l3PX1026/DKXGXroJI=.sha256",
+  "sequence": 17355,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588193907235,
+  "timestamp": 1588202842647,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@rchaves](@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519)\r\n\r\n> Electron is used but doesn’t seem to be used for anything as the UI opens in the OS’s web browser.\r\n\r\nJust want to note that this is exactly what we do for [Oasis-Desktop](https://github.com/fraction/oasis-desktop). I've tried lots of alternatives (pkg, nexe, etc) and talked to friends and Electron is the only packaging method that seems to work correctly all the time. \r\n\r\nThe exception to this rule: I wrote a [terrible little script](https://github.com/fraction/oasis/blob/master/scripts/build.sh) that builds installers without Chromium, but it comes with a big directory and doesn't actually integrate with your OS. Packaging Node.js scripts is hard. 🤷",
-    "mentions": [
-      {
-        "link": "@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519",
-        "name": "rchaves"
-      }
-    ],
-    "root": "%YkshWJOtiKFFpSNgLH+MXViej3xjKSiK/kIMdyC/kM8=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%lzb8CYQUF0g1X41GlRhufB8Q1xwMJ5pigiiVzildojE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%YkshWJOtiKFFpSNgLH+MXViej3xjKSiK/kIMdyC/kM8=.sha256"
+      "%lzb8CYQUF0g1X41GlRhufB8Q1xwMJ5pigiiVzildojE=.sha256"
     ]
   },
-  "signature": "iAov/yeH1WorNrZgPHRdhzMUrz66/5RB4rqR6kYd6zjS5EZUMtXrxCxeTD7xZNttMOZoIUBYw/Q1nkorTetqDA==.sig.ed25519"
+  "signature": "LlPEUuuwjh1QgqIfG3CkOVFTWLAi7GV43nD3EMYFyigTplASTyd+X20Uy8eHx2OoBFi8gisb59zUk3zpGELFCg==.sig.ed25519"
 }
