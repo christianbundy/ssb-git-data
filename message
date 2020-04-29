@@ -1,22 +1,22 @@
 {
-  "previous": "%PfJhpgg5jrfSxjhUcdAJUwWDVoJIzIieOl8R30/XOaY=.sha256",
-  "sequence": 17334,
+  "previous": "%QkoIcUnI4jMtz16WT/fAp1AWq6Ef99trlj20RCAHcoI=.sha256",
+  "sequence": 17335,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588118879730,
+  "timestamp": 1588119641836,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nThis is lovely, thanks for sharing it.",
+    "text": "[@pospi](@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519)\r\n\r\nWe're still here! I haven't been able to figure out the social boundaries around SSB-Server and have been unable to resolve that friction, so I've just made my own alternatives to SSB-Server that work better for me:\r\n\r\n- [SSB-Daemon](https://github.com/fraction/ssb-daemon)\r\n- [SSB-CLI](https://github.com/fraction/ssb-cli)\r\n\r\nFWIW, if you ran that command via SSB-CLI you'd see:\r\n\r\n> Error: You must provide positional arguments or --flag arguments, not both.\r\n\r\nYou set `1000` as a positional argument (no flag) and then used `--host`, but unfortunately they can't be mixed and matched. Try settings the use count with the `--uses` flag:\r\n\r\n```sh\r\nssb-server invite.create --uses 1000 --external ssb.spadgos.com\r\n```\r\n\r\nMore docs here: https://github.com/ssbc/ssb-invite#create-uses-note-external-modern-cberr-invite_code",
     "mentions": [
       {
-        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
-        "name": "xj9"
+        "link": "@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519",
+        "name": "pospi"
       }
     ],
-    "root": "%ErGKt6/ME6KzQH+bAcYoFY88IRrG2Vu5s3qtM+Tv7bc=.sha256",
+    "root": "%xfaeGP6xK3d4wOThWbzhQ8izKDKXm1w1MjwqttjsDBQ=.sha256",
     "branch": [
-      "%ErGKt6/ME6KzQH+bAcYoFY88IRrG2Vu5s3qtM+Tv7bc=.sha256"
+      "%xfaeGP6xK3d4wOThWbzhQ8izKDKXm1w1MjwqttjsDBQ=.sha256"
     ]
   },
-  "signature": "3AT+3Yuud8/ET5BgwCQU+aPQ5Ii7K4aTqOgEvx3i6HsEYQJcLUdt99bLiJRPvWVicKr+1dwmkRY80mhXzORHCw==.sig.ed25519"
+  "signature": "T98UfPW6P1tU6R/E3QUVZNN3+9C9hQ9M/DGIl9w06dad8p3u3587mreiP5MBctKyFTQaB57QW0v3cx88u/QkCQ==.sig.ed25519"
 }
