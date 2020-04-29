@@ -1,22 +1,18 @@
 {
-  "previous": "%QkoIcUnI4jMtz16WT/fAp1AWq6Ef99trlj20RCAHcoI=.sha256",
-  "sequence": 17335,
+  "previous": "%obM+q/lVBaaetIDi9uERq+P1wx6HP01fFjklDDWsXwo=.sha256",
+  "sequence": 17336,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588119641836,
+  "timestamp": 1588119668908,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@pospi](@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519)\r\n\r\nWe're still here! I haven't been able to figure out the social boundaries around SSB-Server and have been unable to resolve that friction, so I've just made my own alternatives to SSB-Server that work better for me:\r\n\r\n- [SSB-Daemon](https://github.com/fraction/ssb-daemon)\r\n- [SSB-CLI](https://github.com/fraction/ssb-cli)\r\n\r\nFWIW, if you ran that command via SSB-CLI you'd see:\r\n\r\n> Error: You must provide positional arguments or --flag arguments, not both.\r\n\r\nYou set `1000` as a positional argument (no flag) and then used `--host`, but unfortunately they can't be mixed and matched. Try settings the use count with the `--uses` flag:\r\n\r\n```sh\r\nssb-server invite.create --uses 1000 --external ssb.spadgos.com\r\n```\r\n\r\nMore docs here: https://github.com/ssbc/ssb-invite#create-uses-note-external-modern-cberr-invite_code",
-    "mentions": [
-      {
-        "link": "@Oqa5JW8rwWIVLBu38KkIb1IYz6Ax0yHuwRvLEGR1mkY=.ed25519",
-        "name": "pospi"
-      }
-    ],
-    "root": "%xfaeGP6xK3d4wOThWbzhQ8izKDKXm1w1MjwqttjsDBQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7xCceVHr0Lg8t+TDOVfd0bepcTGe+Sl6AuYBiCXihCk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%xfaeGP6xK3d4wOThWbzhQ8izKDKXm1w1MjwqttjsDBQ=.sha256"
+      "%7xCceVHr0Lg8t+TDOVfd0bepcTGe+Sl6AuYBiCXihCk=.sha256"
     ]
   },
-  "signature": "T98UfPW6P1tU6R/E3QUVZNN3+9C9hQ9M/DGIl9w06dad8p3u3587mreiP5MBctKyFTQaB57QW0v3cx88u/QkCQ==.sig.ed25519"
+  "signature": "oCj6XnYjOdMpkAaZmNfxcvCx9p9XydJgJbGlzyu4yL0fEodOW5Ihd79AQiK3hAM0nHQDDUnlDQsP2o9Ty+GqCA==.sig.ed25519"
 }
