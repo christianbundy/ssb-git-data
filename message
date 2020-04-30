@@ -1,22 +1,22 @@
 {
-  "previous": "%EokzTixH7evWCtvHUQWW/ByI8FNaTipJskfwYpqvTwk=.sha256",
-  "sequence": 17364,
+  "previous": "%Xhp+YJ4fe/PC/GupbwYa4QmYpI6XJDJSdK9r6W8WTRg=.sha256",
+  "sequence": 17365,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588257814260,
+  "timestamp": 1588276063169,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Léo [desktop]](@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519)\r\n\r\nThat's a very shiny landing page. Could you link me to some information on privacy? It looks like they're using OrbitDB, an IPFS project, and I'm not aware of any libp2p transports meant to provide privacy.",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nOh, I mean that for macOS it doesn't provide a `.app` or or `.deb` or AppImage or Snap or Flatpak or whatever. It only includes:\r\n\r\n- Source code\r\n- Dependencies via `node_modules`\r\n- Node.js via `node` for your arch + platform\r\n- A tiny binary that calls the equivalent of `exec /path/to/node/node . $@` except with no Bash dependency.\r\n\r\nIt should work fine on all platforms, and it's much smaller than using Electron, but it doesn't end up in the macOS 'Application' directory or create a desktop icon or anything like that.",
     "mentions": [
       {
-        "link": "@V9CfLhJl1/3Dw6bx5Y9Cgz2hbsYG9UmHCfpQlAhpPcM=.ed25519",
-        "name": "Léo [desktop]"
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
       }
     ],
-    "root": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
+    "root": "%mxGfx+0+dyBBYlu2hjuSsANamARBdFCDsyEkYoYijJU=.sha256",
     "branch": [
-      "%cKCQSfHT+R1PESWmzZC1dL4PIG3ct4rBbQLaMUFboLQ=.sha256"
+      "%mxGfx+0+dyBBYlu2hjuSsANamARBdFCDsyEkYoYijJU=.sha256"
     ]
   },
-  "signature": "1es09mFePU7ciqa1DakRNyTUiSpv5KirWUVWO3TRfXHXQsSQIi1SfxftSbndqhDj7Ol2qAC0fpDq48Fv3TTaCA==.sig.ed25519"
+  "signature": "IMm7tl11RGowcb210VT1OEPfKvP9VWZnz9sYUKEUGWI2CBDvcmxzxeZWd15upqK4CQt0f8nuQHZ8MThvYR50Aw==.sig.ed25519"
 }
