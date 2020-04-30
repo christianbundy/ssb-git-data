@@ -1,29 +1,18 @@
 {
-  "previous": "%XD9tXh2W5gN8sXmIcpc75h1ta2pcBA0SSDDLzPEP+5M=.sha256",
-  "sequence": 17368,
+  "previous": "%pSo5sq9OqHqKseKZPkDshYHfBUbkNatP2xyCXZSifBE=.sha256",
+  "sequence": 17369,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588278415660,
+  "timestamp": 1588280820397,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I've been investigating P2P networking libraries recently and IPFS technologies keep popping up. OrbitDB and IPLD and Multiformats and libp2p all look interesting, and so I spent a few hours this morning trying to get more familiar.\r\n\r\nI found a forum post talking about [social media architecture with IPFS](https://discuss.ipfs.io/t/social-media-architecture-with-ipfs/4625), and was excited to see that the most recent post linked to Scuttlebutt. Cool!\r\n\r\nBut when I was scrolling through the conversation, I noticed [something weird](https://discuss.ipfs.io/t/social-media-architecture-with-ipfs/4625/53?u=christianbundy): a link to Gab where the author's profile photo was a Pepe wearing a MAGA hat. Not cool. I skimmed their posts, and it's all the usual boring 4chan / QAnon / Trump bullshit. Super not cool, and kind of lame that the conversation continued without missing a beat.\r\n\r\nI made an account and published [a comment](https://discuss.ipfs.io/t/off-topic-discussion-from-social-media-architecture-with-ipfs/7857):\r\n\r\n> I think it would be wise to look into the author of this thread before trying to help them build out infrastructure to meet their goals. Even just the Gab link they shared is a good start: https://gab.com/crockwave\r\n\r\nThey flagged my post and a moderator removed it, letting me know that it's a [\"friendly harassment-free space\"](https://github.com/ipfs/community/blob/master/code-of-conduct.md#friendly-harassment-free-space), which speaks for itself.\r\n\r\nIn case it's unclear: **technology is political**, and I think it's dangerous to censor messages like \"should we be helping this person? look at their history\" as if that constituted 'harassment'.\r\n\r\nI really tried to give IPFS a shot, but this is a pretty big red flag.\r\n\r\n#orbitdb #ipld #libp2p #ipfs #politics",
-    "mentions": [
-      {
-        "link": "#orbitdb"
-      },
-      {
-        "link": "#ipld"
-      },
-      {
-        "link": "#libp2p"
-      },
-      {
-        "link": "#ipfs"
-      },
-      {
-        "link": "#politics"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%jAWa0zHGpaKExS3mkR/s3sFNvNZL87QEwM0XrCXts3E=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%8nkFHg9S+l9LtiFG7UE21MqqzB4y8ls01OXeE2McLo4=.sha256"
     ]
   },
-  "signature": "mnMwcNx87YgShUcuzrVB+hN1Fe5qO+Dzb9DFkJwDSte4/SfF6HuItS68L0lUV7ciZtEEUWpMC96NjY5dOvOFCw==.sig.ed25519"
+  "signature": "ZrI7EVFyVqP7oArIjA+mWNCEGOrEzOsJYTC2aSUfr8xDvcmF+bDT2mff0KbFZCd1dxbQWVpwkFWOWhxf15bPBA==.sig.ed25519"
 }
