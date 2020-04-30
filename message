@@ -1,22 +1,18 @@
 {
-  "previous": "%Xhp+YJ4fe/PC/GupbwYa4QmYpI6XJDJSdK9r6W8WTRg=.sha256",
-  "sequence": 17365,
+  "previous": "%/4G8vi4EYVbJB0vC2zdQmILulPaPOML8Ky2cf5U7IC4=.sha256",
+  "sequence": 17366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588276063169,
+  "timestamp": 1588276085935,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nOh, I mean that for macOS it doesn't provide a `.app` or or `.deb` or AppImage or Snap or Flatpak or whatever. It only includes:\r\n\r\n- Source code\r\n- Dependencies via `node_modules`\r\n- Node.js via `node` for your arch + platform\r\n- A tiny binary that calls the equivalent of `exec /path/to/node/node . $@` except with no Bash dependency.\r\n\r\nIt should work fine on all platforms, and it's much smaller than using Electron, but it doesn't end up in the macOS 'Application' directory or create a desktop icon or anything like that.",
-    "mentions": [
-      {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
-      }
-    ],
-    "root": "%mxGfx+0+dyBBYlu2hjuSsANamARBdFCDsyEkYoYijJU=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%U5uQ23waW6VHS6OG+g9n9p3idrZt9W/chLAGky7XWLg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%mxGfx+0+dyBBYlu2hjuSsANamARBdFCDsyEkYoYijJU=.sha256"
+      "%U5uQ23waW6VHS6OG+g9n9p3idrZt9W/chLAGky7XWLg=.sha256"
     ]
   },
-  "signature": "IMm7tl11RGowcb210VT1OEPfKvP9VWZnz9sYUKEUGWI2CBDvcmxzxeZWd15upqK4CQt0f8nuQHZ8MThvYR50Aw==.sig.ed25519"
+  "signature": "iR+ejbTqrW4iw8iFlHt2HVg+yk3MbEQF58qBgvZFKx4/DIdmBCstNWs2Iy5K8KK4sBIJ/sBfnz7zLsMelif0Cw==.sig.ed25519"
 }
