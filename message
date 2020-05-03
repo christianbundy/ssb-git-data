@@ -1,18 +1,23 @@
 {
-  "previous": "%FWhyiX1aCnd7DJVLxw6t8bU8EpqG6zLFkVJd1aBEzHk=.sha256",
-  "sequence": 17383,
+  "previous": "%KlYtnEt6tnVzCdjVxkye/Yy+P2Tuu7/pORBjxqvpa4M=.sha256",
+  "sequence": 17384,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588431308055,
+  "timestamp": 1588466897752,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%xD/aUQGc1cOrniX/BpB7MZbBpfTM+l53UCOnswsmnvw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nIt depends on the implementation, but I'd expect that mentions won't work unless the client specifically supports your message type.",
+    "mentions": [
+      {
+        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
+        "name": "Powersource"
+      }
+    ],
+    "root": "%jK2xn0GE975NzHfAridPvdraqDx3dM60i9UVL7JRSiE=.sha256",
     "branch": [
-      "%xD/aUQGc1cOrniX/BpB7MZbBpfTM+l53UCOnswsmnvw=.sha256"
+      "%1O8ZJGxOnhZ624m1nMYM57xLv3LqPDCF/q9DedaPlRc=.sha256",
+      "%nrrnKl8YJQYHWmyEjTJevOJdb7/3wcNLKoLG+z2S00c=.sha256"
     ]
   },
-  "signature": "uLF9/st0RIW+H8y/3MaAnxqMOXG9w4YtXvBmAOLRpZBm/jctQzv4v3Rj2JvmkeCbzCzjTmbGpGql2LD7OWqeCA==.sig.ed25519"
+  "signature": "winljHJAxDLAvRa0uc0nYQvtDh3czkHCVvzKQ+eMH+tV07EGY16z947JZ2X+djctkI6baYpaWkpezXGXc87nAg==.sig.ed25519"
 }
