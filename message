@@ -1,12 +1,12 @@
 {
-  "previous": "%5ykFq6sW8WkFtwfOiSchq0e0D2TX4uFxnzeXjz/j4gU=.sha256",
-  "sequence": 17404,
+  "previous": "%0Q5i+7njNx0Opn16qjSVzSc4QQeaCwNa2whRd+S0Hic=.sha256",
+  "sequence": 17405,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588625233172,
+  "timestamp": 1588626608909,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nI fixed that *exact* problem when we're missing a blob, I didn't realize that we were sending that error in other parts of the stack too. Plugging holes is exhausting.",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThis is the one I remember fixing: https://github.com/ssbc/multiblob/pull/9\r\n\r\nMy guess is SSB-Replicate is passing along the error to the remote peer? But I'm really not sure. I'm increasingly tempted to replace a bunch of these pieces with more boring technology, but it takes lots of time (and it's hard to prioritize).",
     "mentions": [
       {
         "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
     "branch": [
-      "%zckdJl6fHvBIxdrV6MZ4GVjj7z62eW5jPvWV0Vq4KBI=.sha256"
+      "%geN1K/EjAkOY25PzDS+W2okFlybxH2Go9Iz4++yH0f8=.sha256"
     ]
   },
-  "signature": "O2Jk2uToXQsckZt/rjuhY+9X8PLc2c1tKGL1gs1sQyTyfqS2uybzpppIddJoL7L9ri4Th1OaK/15lBAavJ30Dw==.sig.ed25519"
+  "signature": "wdjAV/9csArc/o8EPz+otdfcD48wzfEDLfVUMUIx12dj+ifcEe+5AFJEl9LhkBkUzl9nCENqBg1aaw6h4FeyCw==.sig.ed25519"
 }
