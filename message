@@ -1,18 +1,22 @@
 {
-  "previous": "%Ixmj1xbQsOdO1zx8wjdX+PWucK0UuSbU8m7O64gBJlw=.sha256",
-  "sequence": 17403,
+  "previous": "%5ykFq6sW8WkFtwfOiSchq0e0D2TX4uFxnzeXjz/j4gU=.sha256",
+  "sequence": 17404,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588622689250,
+  "timestamp": 1588625233172,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%RNYQsApWqXZgmU1AbjN+SZbtElyBFcYQCZ3Sx5w7URI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nI fixed that *exact* problem when we're missing a blob, I didn't realize that we were sending that error in other parts of the stack too. Plugging holes is exhausting.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
     "branch": [
-      "%RNYQsApWqXZgmU1AbjN+SZbtElyBFcYQCZ3Sx5w7URI=.sha256"
+      "%zckdJl6fHvBIxdrV6MZ4GVjj7z62eW5jPvWV0Vq4KBI=.sha256"
     ]
   },
-  "signature": "1yTpLeZlqvgijRS+6oOrL3cEiYvzDEZ8xUGa2kB1mtjwld1eU0LyiKgxtWnj3eg6lyCz8h4u0WGyafE8AtmbBQ==.sig.ed25519"
+  "signature": "O2Jk2uToXQsckZt/rjuhY+9X8PLc2c1tKGL1gs1sQyTyfqS2uybzpppIddJoL7L9ri4Th1OaK/15lBAavJ30Dw==.sig.ed25519"
 }
