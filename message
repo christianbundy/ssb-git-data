@@ -1,22 +1,18 @@
 {
-  "previous": "%0Q5i+7njNx0Opn16qjSVzSc4QQeaCwNa2whRd+S0Hic=.sha256",
-  "sequence": 17405,
+  "previous": "%vofGbl3kTRrmpFc2efjBuzWmU+2ShM/6Gk5I9craTLs=.sha256",
+  "sequence": 17406,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588626608909,
+  "timestamp": 1588626673402,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThis is the one I remember fixing: https://github.com/ssbc/multiblob/pull/9\r\n\r\nMy guess is SSB-Replicate is passing along the error to the remote peer? But I'm really not sure. I'm increasingly tempted to replace a bunch of these pieces with more boring technology, but it takes lots of time (and it's hard to prioritize).",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%cDnRxU1rK9u387x1F16KI0GMn38M2i7pkg8jV3TTjZc=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%OBdsZXk1WVNLNWI8uBEtZD1JzkKgZ8Km71k2EceSsT8=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%geN1K/EjAkOY25PzDS+W2okFlybxH2Go9Iz4++yH0f8=.sha256"
+      "%OBdsZXk1WVNLNWI8uBEtZD1JzkKgZ8Km71k2EceSsT8=.sha256"
     ]
   },
-  "signature": "wdjAV/9csArc/o8EPz+otdfcD48wzfEDLfVUMUIx12dj+ifcEe+5AFJEl9LhkBkUzl9nCENqBg1aaw6h4FeyCw==.sig.ed25519"
+  "signature": "Ke/3QUzVcZRwtHXbYYgQQvDsNib2hAKZf5q78i36NZAGaws5ysSgx7xXUP4Oz8mE6FOiu2E93IRc7jfAyEIAAA==.sig.ed25519"
 }
