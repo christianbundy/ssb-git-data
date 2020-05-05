@@ -1,25 +1,18 @@
 {
-  "previous": "%URmsw65mOM6qsc+AwO5d2UDivTLmk+8uu+Y1cm1rWZE=.sha256",
-  "sequence": 17409,
+  "previous": "%v3KUZC0KJ42jM06tJzjUvYm/AlYYOJ1eVeOx69JJPKc=.sha256",
+  "sequence": 17410,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588688729379,
+  "timestamp": 1588707696108,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nHey! If you look at that filename and convert to base64 you get something like. `DamSuqwlgOC9czbF348EhUzCSHPIu14/YUXPren6/m8=`. If you search that (at least with Oasis, I think Patchwork's search is broken) you'll get this as the result: %YrRNX3m92nPLwUdWAPcECEgjcMRfFgN2aF3rRGZav5Y=.sha256",
-    "mentions": [
-      {
-        "link": "@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519",
-        "name": "Robert.Best/d 🖥️"
-      },
-      {
-        "link": "%YrRNX3m92nPLwUdWAPcECEgjcMRfFgN2aF3rRGZav5Y=.sha256"
-      }
-    ],
-    "root": "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Eu4+p8hnrNOVjO7Q97N2H+PauUKRjsdOZBLYA12WQZw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256"
+      "%Eu4+p8hnrNOVjO7Q97N2H+PauUKRjsdOZBLYA12WQZw=.sha256"
     ]
   },
-  "signature": "7ASOpk3VN31YIozwbP+e0HOuPIcLUj6CcexoUJUHAJU3w1gcNu/IN41Co3gRLqNUg+DLs1gEBYnAYfGOU8OcBA==.sig.ed25519"
+  "signature": "c8XYuIRfQ49mEei+K6msr7sf8oOAo+2rQCEmTM8t6BsH/hGzNh910qBllCq0pG7TdbUdk7rBVpxfQYo7zzanDQ==.sig.ed25519"
 }
