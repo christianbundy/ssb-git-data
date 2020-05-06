@@ -1,14 +1,18 @@
 {
-  "previous": "%I7SzkAuWhWI6/VjvV91IPf9PeHFqIN6JbhD4YKcC4p8=.sha256",
-  "sequence": 17419,
+  "previous": "%qUo7heiwzQgOqmp+ksUvdN0mt8hpxC+Yoe+Ei8aZ1gs=.sha256",
+  "sequence": 17420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588722062345,
+  "timestamp": 1588725529887,
   "hash": "sha256",
   "content": {
-    "type": "contact",
-    "contact": "@d3GHb5kswKhxdRZ18ZBfl1huUhUnxCHQ5v475orZdcQ=.ed25519",
-    "following": true,
-    "blocking": false
+    "type": "vote",
+    "vote": {
+      "link": "%9Ui2vlJxVivQgFcKK7UedTjYgx83B/I36NhxvOsCr2U=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%9Ui2vlJxVivQgFcKK7UedTjYgx83B/I36NhxvOsCr2U=.sha256"
+    ]
   },
-  "signature": "/KzIfHZ7b1hO2peiGC3VtkIA4DnJT1RCXpjklD5bmCdablR7jXlLkcjd4cAahVtvTBD4XYzVZw8/m44QTjjxBQ==.sig.ed25519"
+  "signature": "/9bbF8nDM8VGJ6IMeNEauGtrr+N++RBbaBB2t8mNZyiPZI7Rgkkq/mR1t0bRKVC0s/gvUByTW92diIJiVUexCA==.sig.ed25519"
 }
