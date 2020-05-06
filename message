@@ -1,18 +1,22 @@
 {
-  "previous": "%VF6PGsVhpwvvHWViN6/5mHGa6dR/gjurOKl0lKooE4w=.sha256",
-  "sequence": 17426,
+  "previous": "%gRhVGE+k0A+NX9opxRuD9ddsD/4GENOjs8Ull3E13fA=.sha256",
+  "sequence": 17427,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588782122317,
+  "timestamp": 1588784819460,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%buzY9n5v97dp3PbjemfaJSFh0RWtkkhnwAu4GS48ekg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nHey, just checking in on this -- I still have my pull request open (and am using it locally) but haven't merged because you said you'd be bummed out. Do you have an idea of when your proposed implementation might be ready to check out?\r\n\r\nI'm excited at the idea of building access control lists on top of a logical clock, and I think it's an elegant solution to the same-as problem, but I'm noticing that I don't have a feel for whether you're thinking that we should wait a week, month, year, etc., before having another option to consider.\r\n\r\n(We can totally talk about this privately, but I wanted to publish this here just to keep the conversation moving and try to avoid letting myself drop the ball. ❤)",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      }
+    ],
+    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%buzY9n5v97dp3PbjemfaJSFh0RWtkkhnwAu4GS48ekg=.sha256"
+      "%EZm/EYbwaEPF/o5kq7YmgrZdOCeLnx/LMYBKwd2/TTw=.sha256"
     ]
   },
-  "signature": "oxuf06aJl9p1VR3AgIVRvfI+IA9GYTXEpSKw3yZtz65Rz5GSiICBOchXC+//0GKZ/KglKrJMqoXMCriyMuBtDw==.sig.ed25519"
+  "signature": "bmb8/J0gAB267rEff7vOI+MYg7BsOX2LOOAg3YQHsdoTKxSc/4FbXHNEP8e9xIwzFJM6DIjkTmg5ggsoA6NaCw==.sig.ed25519"
 }
