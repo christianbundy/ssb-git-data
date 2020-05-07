@@ -1,25 +1,27 @@
 {
-  "previous": "%Bfuop6HpODho8OnDFM7E8fVIjBr0Y3OCp1VEZqVbGfA=.sha256",
-  "sequence": 17439,
+  "previous": "%yTiw+4IPLs5p2VtUdsnh1bRYj4r6x86IdgjeMklohMI=.sha256",
+  "sequence": 17440,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588879072570,
+  "timestamp": 1588882015960,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@\"Fred\" in \"Toulouse\"](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\n> So please consider this IPFS copy is a symbolic act against #censorship\r\n\r\nThere's nothing wrong with saving these files to your computer, but you're doing the equivalent of emailing all of these files to everyone in your contact list. \r\n\r\n> I understand if anybody wish to stop being my “ssb-friend” because of this dirty “development” period\r\n\r\nIf you could use another feed for your testing / development / \"deleted from youtube\" stuff then it would be easy to block that content. I'd prefer not to block your personal feed, but it's hard when you're using your personal feed for the other stuff too.",
+    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nYeah, I think there are two specs:\r\n\r\n- **[SSB-URI v0 (sigil-style)](https://github.com/fraction/ssb-uri/blob/master/lib/grammar/ssb-sigil-link.ohm)**\r\n  - **Author:** `ssb:@<base64-integer>.<algorithm>`\r\n  - **Message:** `ssb:%<base64-integer>.<algorithm>`\r\n  - **Blob:** `ssb:&<base64-integer>.<algorithm>`\r\n- **[SSB-URI v1 (URN-style)](https://github.com/fraction/ssb-uri/blob/master/lib/grammar/ssb-uri.ohm)**\r\n  - **Author:** `ssb:feed:<algorithm>:<safe-base64>`\r\n  - **Message:** `ssb:message:<algorithm>:<safe-base64>`\r\n  - **Blob:** `ssb:blob:<algorithm>:<safe-base64>`\r\n  - **Channel:** `ssb:channel:<safe-base64>`\r\n\r\nI think v0 was decided by Dominic when he started SSB, but v1 was discussed and agreed upon in [this thread](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256).  ",
     "mentions": [
       {
-        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
-        "name": "&quot;Fred&quot; in &quot;Toulouse&quot;"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
       },
       {
-        "link": "#censorship"
+        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+        "name": "this thread"
       }
     ],
-    "root": "%LqZoLf3uGamuDYprT3qJGQZqVzQvcHiwnL5AXkTH/hw=.sha256",
+    "root": "%wVElBZN8K/gN5FJXcOJCtQTwtEJPfA3wFFjg92gfkOg=.sha256",
     "branch": [
-      "%oaiFlK2pFhLy1Rhm+PXTPFcETLSakIFUfvGNl9leX2o=.sha256"
+      "%1QZvHooJB3M/CvxSuJW2UZOxziWJIGCymrjNkJZRjQk=.sha256",
+      "%4n6wSVSNCZHl+tz5xM6nrGLeUOi53W5AQ7mzbdLDtWk=.sha256"
     ]
   },
-  "signature": "wUHWFpEuRiM3aq7u1oxkfWqiKIImvv7t0x4jIfq9hgf9J2F1qsZ1zaT4vnTGNL63T0oifUE68oVZPLaeonZ8AA==.sig.ed25519"
+  "signature": "SwZ4ksy3C/wwbLhq3qKx5L5qOPEdAoCQz+A1zd5Hj9GNmxGLoCOsRdd5iY8B6HLYk5uCtk58yrQqAfuqEnkgDg==.sig.ed25519"
 }
