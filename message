@@ -1,23 +1,22 @@
 {
-  "previous": "%zUPthUObfjj3dAss456Oi2SrWGGzOX7PIjj5/nJbxBU=.sha256",
-  "sequence": 17446,
+  "previous": "%uYSxJNcXNyWgGgLBAw2/PhY+Mpnr9/p1wPEMwla7CVo=.sha256",
+  "sequence": 17447,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588884303350,
+  "timestamp": 1588888118758,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@bobhaugen](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\r\n\r\nI'm also very interested in this. I'd love to be able to support my addiction through gardening. :~)",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nRight, but the SSB-URI format doesn't have those:\r\n\r\n```\r\nssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n```\r\n\r\nBut SoapDog said:\r\n\r\n> The browser doesn’t recognize this as a valid URL and redirect to search instead of the custom protocol handler.\r\n\r\nTo me, the SSB-URI format above looks like it should meet all of the requirements of a URI, and in all of my testing it has worked ([example](https://dust-poised-exception.glitch.me/)), but if SoapDog is saying that the browser isn't letting him use it then it sounds like something is going wrong.",
     "mentions": [
       {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bobhaugen"
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
       }
     ],
-    "root": "%yHnTQENL4tSaitBud2UpzxRYbYr/P6y0w/VoTRu5mlo=.sha256",
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%0H/TBII07YBXqZpPaQpaHvDbv82jHNjI/mJBsMZ0hn8=.sha256",
-      "%b7Km3SuF9N8MskTnXq2ExN0EU+SY5QX9S3jd1SUDVsQ=.sha256"
+      "%vPlrT67mq+zs2ZUQ6uX3JvCA7iMOuTHAV0e+nCMopNI=.sha256"
     ]
   },
-  "signature": "l3xz1uNvAqdK6/s5eQggNdHLfIRoALPqq5IbeMWRDA7ACffiW4rOzzYjKDjrLNN5p+DQYQOxea7cHd5wrz8rDQ==.sig.ed25519"
+  "signature": "brdxKQHtQ5wyt/p+yaHTbElHELCxReHZMkdfry/6UUKekCYIEx4pdc9tEqx9s8yVlnHRTPDyuhMAA43tARljCA==.sig.ed25519"
 }
