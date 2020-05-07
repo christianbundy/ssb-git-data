@@ -1,27 +1,23 @@
 {
-  "previous": "%yTiw+4IPLs5p2VtUdsnh1bRYj4r6x86IdgjeMklohMI=.sha256",
-  "sequence": 17440,
+  "previous": "%6I0UG7C0ktEnUNZQQDD1YSjsqToIn4fLEA7pjBIrWls=.sha256",
+  "sequence": 17441,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588882015960,
+  "timestamp": 1588882299104,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519)\r\n\r\nYeah, I think there are two specs:\r\n\r\n- **[SSB-URI v0 (sigil-style)](https://github.com/fraction/ssb-uri/blob/master/lib/grammar/ssb-sigil-link.ohm)**\r\n  - **Author:** `ssb:@<base64-integer>.<algorithm>`\r\n  - **Message:** `ssb:%<base64-integer>.<algorithm>`\r\n  - **Blob:** `ssb:&<base64-integer>.<algorithm>`\r\n- **[SSB-URI v1 (URN-style)](https://github.com/fraction/ssb-uri/blob/master/lib/grammar/ssb-uri.ohm)**\r\n  - **Author:** `ssb:feed:<algorithm>:<safe-base64>`\r\n  - **Message:** `ssb:message:<algorithm>:<safe-base64>`\r\n  - **Blob:** `ssb:blob:<algorithm>:<safe-base64>`\r\n  - **Channel:** `ssb:channel:<safe-base64>`\r\n\r\nI think v0 was decided by Dominic when he started SSB, but v1 was discussed and agreed upon in [this thread](%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256).  ",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\n> Also doesn’t work. The browser doesn’t recognize this as a valid URL and redirect to search instead of the custom protocol handler.\r\n\r\nDo you know where browsers are getting hung up on this? I'm not sure whether there's a bug in the SSB-URI spec where we diverge from the URI spec or whether browsers have some sort of URI parsing bug that we need to try to circumvent. The JavaScript WHATWG parser seems to be fine with these URIs.",
     "mentions": [
       {
-        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
-        "name": "xj9"
-      },
-      {
-        "link": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
-        "name": "this thread"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
       }
     ],
-    "root": "%wVElBZN8K/gN5FJXcOJCtQTwtEJPfA3wFFjg92gfkOg=.sha256",
+    "root": "%3/SZO/FveQtHi+ZduwRge7d3hgKSy3ISPGhRCtBUwTM=.sha256",
+    "fork": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%1QZvHooJB3M/CvxSuJW2UZOxziWJIGCymrjNkJZRjQk=.sha256",
-      "%4n6wSVSNCZHl+tz5xM6nrGLeUOi53W5AQ7mzbdLDtWk=.sha256"
+      "%3/SZO/FveQtHi+ZduwRge7d3hgKSy3ISPGhRCtBUwTM=.sha256"
     ]
   },
-  "signature": "SwZ4ksy3C/wwbLhq3qKx5L5qOPEdAoCQz+A1zd5Hj9GNmxGLoCOsRdd5iY8B6HLYk5uCtk58yrQqAfuqEnkgDg==.sig.ed25519"
+  "signature": "P4O4+xXFan/ovIdGoxa7PR/GMWmscKq8pMZ/lWU+2IHhy+wkIvrsbUnnH+iU+Y1uXc2hkbYQgyvBLval400jBA==.sig.ed25519"
 }
