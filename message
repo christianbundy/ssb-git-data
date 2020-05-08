@@ -1,18 +1,22 @@
 {
-  "previous": "%00UG/gGlMm5LPXVhaotXHjEmACzbJp+k19XZYOkGDYE=.sha256",
-  "sequence": 17460,
+  "previous": "%20vCI5cZJ+51oNApq/kq35MfCeq5bDXUqFxSKFaih0c=.sha256",
+  "sequence": 17461,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588963872042,
+  "timestamp": 1588972484755,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5tmDz0x9xd/YjgKnGSSyGy8YDDPpGPKgzPZ+TDw+Tbc=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nOne of my goals is to reduce the amount of time that it takes to build a simple SSB interface, and so I'm looking at protocol changes through the lens of \"how long would this take me to implement in Python (or similar)\". I'm not *bad* at Python, but it'd probably take me a couple of minutes to remember how to hash a string.\r\n\r\nFrom this perspective, 'about' messages are *fine*: each author has a key-value store that starts out empty, and each time you see an 'about' message then you enumerate the entries and insert/replace the key with that value. Easy. You can add a \"same-as\" key where the value is an array of other feeds, and use those to calculate notifications (or maybe suggested name/description/relationship changes). Merge conflicts aren't a thing because append-only logs make for easy engineering.\r\n\r\nThe problem (please correct me if I'm wrong) is that if one device says \"my name is Christian\" and another says \"my name is Jeff\", then you have a divergence, because *even though you have an access control list* you don't have a logical clock to tell which is the most recent change.\r\n\r\nIt would be slightly more convenient to have a logical clock to merge these changes automatically, but I'm concerned about the complexity. My simple same-as is a net 40 lines to the Oasis codebase, whereas \"also automatic merging\" means that just to calculate a name (even if you only have one device!) requires:\r\n\r\n- Dependence on the [Secret-Stack plugin system](https://github.com/ssbc/secret-stack/blob/master/PLUGINS.md), [SSB-Backlinks](https://github.com/ssbc/ssb-backlinks/), [SSB-Tangle](https://github.com/ssbc/ssb-tangle), and [SSB-Profile](https://gitlab.com/ahau/ssb-profile/).\r\n- Or, for anyone building this in another language  or minimizing dependencies on the existing JavaScript implementation:\r\n  - Implement two new message types (one of which is a regex):\r\n    - [`link/identity-profile`](https://gitlab.com/ahau/ssb-profile/-/blob/master/spec/link-identity-profile/schema.js)\r\n    - [`^profile/.*$`](https://gitlab.com/ahau/ssb-profile/-/blob/master/spec/profile/schema.js)\r\n  - Implement a hardcoded [profile schema](https://gitlab.com/ahau/ssb-profile/-/blob/master/spec/profile/schema.js) with \"recognised properties\" that specifies squishy stuff like gender (male/female/other/unknown).\r\n  - Implement SSB tangles, which is currently optional for better 'post' sorting but would now be required for basic name changes.\r\n\r\nI love the idea of using logical clocks for progressive enhancement, but I'm concerned about breaking backward-compatibility and requiring that \"hey what's my name\" now requires graph traversal with topological sorts and new message types with very specific schemas.\r\n\r\nThe only problems I've encountered with my implementation are [UX problems](https://github.com/fraction/oasis/issues/267) that I think we'd also have with SSB-Profile, and I'd really like to bump my head against the limits of a simple implementation before adopting a spec that solves problems I don't have (yet?). I really want a boring SSB, but that's at odds with how neat I think tangles are.\r\n\r\nTo make this *more* complicated, I want to investigate weird ideas like 'one big tangle per network' before committing to this implementation, but I can't prioritize that work until our onboarding is more friendly. \r\n\r\nI think my only big bumout is that the last real movement on same-as was in [2017](https://github.com/ssb-junkyard/ssb-same-as), now in the \"junkyard\", and so I'd like to Just Do It and cross the logical clock bridge when we get there.",
+    "mentions": [
+      {
+        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
+        "name": "mixmix"
+      }
+    ],
+    "root": "%yiZqaIIO7puICdaqrAvuRyon+78ZhvrmGW7mnVjhOAs=.sha256",
     "branch": [
-      "%5tmDz0x9xd/YjgKnGSSyGy8YDDPpGPKgzPZ+TDw+Tbc=.sha256"
+      "%Cwkk4txJhZMxhRYIDUvmVRizem19DkjtQ9FoBn+uh7A=.sha256"
     ]
   },
-  "signature": "SpLgTBcLoZbfduUPDIexcyFKPlBVGaHEmk2A2DxslPGscXwdMC7h3gYUNIV3Y0VdOUzrqhM0lIBKckGJR2gCBg==.sig.ed25519"
+  "signature": "SjMHULDZwQH/invO/prBkMy1Qlx4klE9N1QuPJ59ubjAvosb970j82oj3lIkdeIgYj69CkADA2PSPgFPfIxjAw==.sig.ed25519"
 }
