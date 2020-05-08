@@ -1,18 +1,22 @@
 {
-  "previous": "%lqiJBfVyrbDnaxE8xZ9d+Ad7c/VgNU2hd3Qs/My/M+0=.sha256",
-  "sequence": 17451,
+  "previous": "%muNg/twkFX1sAtQUCNwM7qDGXcUmb1JAb96pahl7eLA=.sha256",
+  "sequence": 17452,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588896461425,
+  "timestamp": 1588897022533,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%imV9DLyRqRZTuJHQ3dT4sUrvkuOruU6t0bbPD5p6Ieo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@\"Fred\" in \"Toulouse\"](@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519)\r\n\r\nI think all you need:\r\n\r\n```\r\nsbotc -t async manifest > ~/.ssb/manifest.json\r\n```\r\n\r\nOr, just use SSB-CLI and forget about manifests. :~)",
+    "mentions": [
+      {
+        "link": "@9BbJwPDjcyIqrOUPNn0nJZBduWdIrpMk3Cjz5MP361s=.ed25519",
+        "name": "&quot;Fred&quot; in &quot;Toulouse&quot;"
+      }
+    ],
+    "root": "%LqZoLf3uGamuDYprT3qJGQZqVzQvcHiwnL5AXkTH/hw=.sha256",
     "branch": [
-      "%G/ZmZY+qq7kBorTNfpSvYUsdOvqgIE/ij82fow8L288=.sha256"
+      "%f0brrhi8PtwcaXy9Rmv++nOOr19I/OpRQK857k7mqjk=.sha256"
     ]
   },
-  "signature": "LbLjI1I1IHaDlrY8Dof4ph4QHvdTDSyAmTJkGXUq8CL20HIafDodmAQWrB2xHLyE1DzI4EPCQAYboBM3VO6zCw==.sig.ed25519"
+  "signature": "ZdvhrH+/NUar1NbxToCmPEwhlZpJsH20m9kXyko9zP19Xpapy0GcxzvtY6AbZdsm+dpZdUKQhGJZMCu68e5hBQ==.sig.ed25519"
 }
