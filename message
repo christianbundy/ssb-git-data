@@ -1,18 +1,22 @@
 {
-  "previous": "%tVwG+IBrhiVh37dwEajTTpewm2l33HOiT5vVlFnKKio=.sha256",
-  "sequence": 17455,
+  "previous": "%F7xr+XETmp7h7vvsH4g4nOQ7nU0dYu0rJ6winpMTsUk=.sha256",
+  "sequence": 17456,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588948459614,
+  "timestamp": 1588949170057,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%pgARkkOWuJjSaUSTuYwWN94bOgGs+8h6oRc9BaYvMpM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThanks for documenting what's going on. The thing that I'm really curious about is *why* this is happening. Would it be worthwhile to check whether [URN examples](https://en.wikipedia.org/wiki/Uniform_Resource_Name#Examples) work when you change `urn:` to `ssb:`? I can't think of any reason why the SSB-URI spec wouldn't be supported without *also* breaking support for URNs (which are valid URIs).",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%pgARkkOWuJjSaUSTuYwWN94bOgGs+8h6oRc9BaYvMpM=.sha256"
+      "%Y8jqtQSZrxJr67OF7wyR1gfXuDzNQF914n73x5b3elA=.sha256"
     ]
   },
-  "signature": "mpVG26n9BX6LUptr/TD4iGREqhdra5oDiNBMLLLnsAvvsFU6/YY2+Kp2ApkNRfjtyCoBDvk5+Vw2QozectPGCA==.sig.ed25519"
+  "signature": "p6TV9ekZY3pS4ozPAf0ImNOR1JwwJRlDyg1HwgtiEqiJUQsy30lZLjx/W7cz6bk+Y+PcnHuSQ4/yEEwzWBqlCw==.sig.ed25519"
 }
