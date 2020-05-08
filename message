@@ -1,18 +1,22 @@
 {
-  "previous": "%qsjge6Ovgn0LN8LM3D+KINOt7ORR/LBvehvWn/H7rR4=.sha256",
-  "sequence": 17457,
+  "previous": "%szBEOI/mrYzeDt+Iey+PD8wFIbH+e0pXbdjLYv1j6/Q=.sha256",
+  "sequence": 17458,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588949378720,
+  "timestamp": 1588959625098,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%9lmoQPFgFJT9Ma3OTL0XiDtFe89yAoXMTiNK5nvmEJg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nThat's... fun. Could we use the triple-slash (a la `file:///`) to turn our URN into a URL without converting the path to a[n invalid] host?\r\n\r\n```\r\nssb:///message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n```",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%9lmoQPFgFJT9Ma3OTL0XiDtFe89yAoXMTiNK5nvmEJg=.sha256"
+      "%cH831KjLabodaOLreHLIB3bIRvA0GTmNimBWeCY1Fo8=.sha256"
     ]
   },
-  "signature": "aJUg7lQcIGiKwaQw2fNfJzP2DaefgscJ6ljuap8BJh3TxPjTNclZEUrrfQVxKbcLdM5jDnsUlZuC+FtgEwL9Ag==.sig.ed25519"
+  "signature": "s2ePesdrMaX5Bvu+YbmD5ekDAO522z40Zv44LSL0e8p7LzhidmAMi0+LPR5kqgu17QzpFOlCwZ3sAvatZP3jDA==.sig.ed25519"
 }
