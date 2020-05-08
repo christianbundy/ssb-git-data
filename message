@@ -1,30 +1,22 @@
 {
-  "previous": "%GGnq6fY3EG/Awd8zii6CG+ckuYkO02V0mdyONOJLzes=.sha256",
-  "sequence": 17449,
+  "previous": "%Du7I7kRl8HwaWQsDpYLllz4LCZYdvJhapTpfRatHBqc=.sha256",
+  "sequence": 17450,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1588895339604,
+  "timestamp": 1588896455651,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "(Oops, that was supposed to be a reply to %vPlrT67mq+zs2ZUQ6uX3JvCA7iMOuTHAV0e+nCMopNI=.sha256)\r\n\r\ncc: [@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519) [@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)",
+    "text": "[@Geoffrey](@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519)\r\n\r\nGood idea! I didn't consider implementing the database with pure buffers, I bet that eliminates all sorts of the memory consumption problems (and adds lots of implementation flexibility). Do you have thoughts on how that might be serialized to a database most effectively?\r\n\r\nI've been playing around with SQLite more because it's super boring, but it's Boring As A Feature which is nice. Now that you have a database I wonder how difficult it'd be to implement a small SSB interface...\r\n\r\n(Btw, if this is something you'd like more feedback on I'd totally recommend making a new thread about it -- comments are easy for other people to miss, I only saw this because you @mentioned me!)",
     "mentions": [
       {
-        "link": "%vPlrT67mq+zs2ZUQ6uX3JvCA7iMOuTHAV0e+nCMopNI=.sha256"
-      },
-      {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
-      },
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
+        "link": "@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519",
+        "name": "Geoffrey"
       }
     ],
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "root": "%/P2Vsbhjh26fV0/B7cfo2IWtgbJFToQWbi6367HUehs=.sha256",
     "branch": [
-      "%SxpWfTxO8nRwzUE1qPxbLdD7VeWx+THZ9ru/Ykauhp0=.sha256",
-      "%UMy6I8twbXkUTXhnMBPkd6d7BCAUHu/RA83i3OHWmLM=.sha256"
+      "%imV9DLyRqRZTuJHQ3dT4sUrvkuOruU6t0bbPD5p6Ieo=.sha256"
     ]
   },
-  "signature": "1p/A6PZ1b0Srgn1VEmKlOM1ckoR6bwf6XmieMXtlfWse+Ny9vnPkYeAIv4zsUpsE65ydnF25NccZ9WaG5bIXBA==.sig.ed25519"
+  "signature": "qtyCS8ls+ZNrKaq03cbybinHoEN2WR2DKoewUNGS4u9Ezd3oq/Q1M2FxSl4yMrbc3fXkj9CYA+VFId1BXs2MCw==.sig.ed25519"
 }
