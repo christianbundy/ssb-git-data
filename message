@@ -1,22 +1,14 @@
 {
-  "previous": "%BNpojCBWeNjo16cNSNP6zxt8C/Iu/Q1cMUd/KubR+VA=.sha256",
-  "sequence": 17482,
+  "previous": "%fbIxTUoBJQdAEpHhtEtT62/EN0PHNq7mPcJap6gP0+o=.sha256",
+  "sequence": 17483,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589043532478,
+  "timestamp": 1589054861338,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nOops. Example: some random blob.\r\n\r\n```\r\n/home/christianbundy/.ssb/blobs/sha256/00/05a7c331bafafe81eef07dec2f76f87518ab12d1e1992483a87d520c9aa2db\r\n```\r\n\r\nSnag the hexadecimal (remove the slash):\r\n\r\n```\r\n0005a7c331bafafe81eef07dec2f76f87518ab12d1e1992483a87d520c9aa2db\r\n```\r\n\r\nConvert to base64:\r\n\r\n```\r\nAAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots=\r\n```\r\n\r\nIf you search, this one actually doesn't come up because the search only indexes images from posts. If you prepend `&` and append `.sha256` though you can see the blob link:\r\n\r\n```\r\n&AAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots=.sha256\r\n````\r\n\r\nThere's some way to query with SSB-Backlinks, but the syntax always bones me. I'm lazy and so I use SSB-CLI with `jq`. If you have SSB-Server instead of SSB-CLI, replace `ssb` with `ssb-server`:\r\n\r\n```sh\r\nssb createLogStream | jq -c | grep 'AAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots='",
-    "mentions": [
-      {
-        "link": "@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519",
-        "name": "Robert.Best/d 🖥️"
-      }
-    ],
-    "root": "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256",
-    "branch": [
-      "%BNpojCBWeNjo16cNSNP6zxt8C/Iu/Q1cMUd/KubR+VA=.sha256"
-    ]
+    "type": "contact",
+    "contact": "@NcgzCoOPLjSkj9Y+GIMFbhxbqIzJCOwYBn/QQDYAOmk=.ed25519",
+    "following": true,
+    "blocking": false
   },
-  "signature": "MzQGrwUvJ03hQNDUEMXlnRX5WtrdVvMO5GUNXUMzN8KXOEP3BJsNF8bsUymyzN/sBhMJAxbxM5bJkWOBUcm7CQ==.sig.ed25519"
+  "signature": "an/YVz+ovWJ1OlNoQVUP9CQHtXUpIb1/KGNmGIHcGWzXA6hm7R72PoO+s3xiOhfYjGBNveFiBe8LIc5XnfdCCA==.sig.ed25519"
 }
