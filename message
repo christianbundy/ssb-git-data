@@ -1,12 +1,12 @@
 {
-  "previous": "%/opVmprHF6CsQigc8IZQ02RUa/4CS4DF3w7d0n2Uy/s=.sha256",
-  "sequence": 17481,
+  "previous": "%BNpojCBWeNjo16cNSNP6zxt8C/Iu/Q1cMUd/KubR+VA=.sha256",
+  "sequence": 17482,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589043218350,
+  "timestamp": 1589043532478,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nWhat was the search query? If you give me the hexadecimal, the base64, or even just a link to the blob, then I can maybe help pinpoint what's going on.\r\n\r\ne.g. ",
+    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nOops. Example: some random blob.\r\n\r\n```\r\n/home/christianbundy/.ssb/blobs/sha256/00/05a7c331bafafe81eef07dec2f76f87518ab12d1e1992483a87d520c9aa2db\r\n```\r\n\r\nSnag the hexadecimal (remove the slash):\r\n\r\n```\r\n0005a7c331bafafe81eef07dec2f76f87518ab12d1e1992483a87d520c9aa2db\r\n```\r\n\r\nConvert to base64:\r\n\r\n```\r\nAAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots=\r\n```\r\n\r\nIf you search, this one actually doesn't come up because the search only indexes images from posts. If you prepend `&` and append `.sha256` though you can see the blob link:\r\n\r\n```\r\n&AAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots=.sha256\r\n````\r\n\r\nThere's some way to query with SSB-Backlinks, but the syntax always bones me. I'm lazy and so I use SSB-CLI with `jq`. If you have SSB-Server instead of SSB-CLI, replace `ssb` with `ssb-server`:\r\n\r\n```sh\r\nssb createLogStream | jq -c | grep 'AAWnwzG6+v6B7vB97C92+HUYqxLR4Zkkg6h9Ugyaots='",
     "mentions": [
       {
         "link": "@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256",
     "branch": [
-      "%hQPdGeDUunQe2yMoYlG+pTEpQqoc/R2Vg4qJDqI6DwE=.sha256"
+      "%BNpojCBWeNjo16cNSNP6zxt8C/Iu/Q1cMUd/KubR+VA=.sha256"
     ]
   },
-  "signature": "R3l4ZAGA87ZZ0E2WzgAr6sOiWvdf8YeKQbWEqaf1zQ6ko3RDUgm0jUMXXHG8T9d/jDtTp0vnH5bffhasOmjlBA==.sig.ed25519"
+  "signature": "MzQGrwUvJ03hQNDUEMXlnRX5WtrdVvMO5GUNXUMzN8KXOEP3BJsNF8bsUymyzN/sBhMJAxbxM5bJkWOBUcm7CQ==.sig.ed25519"
 }
