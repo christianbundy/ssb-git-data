@@ -1,12 +1,12 @@
 {
-  "previous": "%aChWKMTC1xtRFmeL9xPcjiP12WULRb5YWIJJ9ylki8A=.sha256",
-  "sequence": 17484,
+  "previous": "%kKEjxiwAhEBVHxFyPyCms/InO86xLF+vxNNb/AXc94o=.sha256",
+  "sequence": 17485,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589062861025,
+  "timestamp": 1589081770675,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nYep, operating system (human body) has some nice OCR capabilities that I got to use for that problem. :~) I just looked at `~/.ssb/blobs/sha256/0d/a9*` and there was only one image, so I figured that was probably the same one.",
+    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nYeah, the network is pretty small and when a blob gets published to the network it propagates pretty quickly. The upside is that you usually have the blobs that you need, but the downside is that we don't have a good policy for deleting old blobs yet. FWIW it looks like I have about 15,500 blobs on my system (`find ~/.ssb/blobs/sha256 -type f | wc -l).",
     "mentions": [
       {
         "link": "@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256",
     "branch": [
-      "%XcLSlX5v6cgBrUDHsX158L8JMj1/+8PsNXJU6Bp8vew=.sha256"
+      "%Z3rEBCwyvyERLnqZ5K6sKOTbjb+hkD5mHMQo3t0knDI=.sha256"
     ]
   },
-  "signature": "3Zj+SY78QQKe0/z34qo1tYRYg9k6Y6yxusPJKfTLL4lsLfd8FCyQ0aNRFRblYsUqEPVRkEgU23Td+t4Bls9JAw==.sig.ed25519"
+  "signature": "OR6iDfwnHqHgCUk0MTzIz/2F4LZUwQIsJ17zXTpB7csgx6fCwwLQulJk/nPku04swqGmWQzNQOIo1sKyIkLeDg==.sig.ed25519"
 }
