@@ -1,22 +1,23 @@
 {
-  "previous": "%kKEjxiwAhEBVHxFyPyCms/InO86xLF+vxNNb/AXc94o=.sha256",
-  "sequence": 17485,
+  "previous": "%O4XHYlMasnxWcgwsymnH0YIT4wf5Jp3LMDWOXGYiFEY=.sha256",
+  "sequence": 17486,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589081770675,
+  "timestamp": 1589127230205,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Robert.Best/d 🖥️](@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519)\r\n\r\nYeah, the network is pretty small and when a blob gets published to the network it propagates pretty quickly. The upside is that you usually have the blobs that you need, but the downside is that we don't have a good policy for deleting old blobs yet. FWIW it looks like I have about 15,500 blobs on my system (`find ~/.ssb/blobs/sha256 -type f | wc -l).",
+    "text": "[@Alex](@ujT9G7p4h1zeFiq7qX79eAQDyL2pTo0rLgIA7iA4VIY=.ed25519)\r\n\r\nHi! No aggression or condescension detected, but thanks for saying that. Text can be really ambiguous and it's sweet to see you address potential miscommunications before they arise.\r\n\r\n> For the discussion’s sake, I will temporarily assume that harmful beliefs need to be blocked from the network.\r\n\r\nI don't have the power to block anything from the network, and neither does anyone else -- we each get to choose which content we want on our computer, so we don't have a slippery slope of censorship on a technical level.\r\n\r\nOn a social level, we might notice a friend providing a platform for something we think is dangerous, and [unless we block our friend] the solution is to just have a conversation with our friend and try to work it out. I think this matches real life reasonably well: if you have the interest and energy to discuss with someone, do it, but you don't have the ability to force people to listen *or* the ability to stop someone from talking.\r\n\r\nI'm sure that you and I will want to draw the line in different places, but we don't have to have consensus. I probably draw the line differently today than I would've a year ago.\r\n\r\nThe question of 'where to draw the line' is subjective on SSB, but gets pretty hairy when we're talking about centralized forums like the instance of Discourse being run by IPFS. I'm not taking the position that they should ban all Gab users, but that if someone decides they want to link to Gab / 4chan / Stormfront in a technical thread that we should be able to ask \"is this someone we should be helping\" without having those comments removed (\"moved to an unlisted thread\").\r\n\r\nI have this nagging feeling that you know all of this, and that I've missed your point, so hopefully you can help me understand whether my answer was helpful or totally off-base. Thanks for asking, I'd be interested to hear what you think.",
     "mentions": [
       {
-        "link": "@Zh2Smed6SMinqugfEc/7lQlziJmRZNm+jzQFxmbNAjQ=.ed25519",
-        "name": "Robert.Best/d 🖥️"
+        "link": "@ujT9G7p4h1zeFiq7qX79eAQDyL2pTo0rLgIA7iA4VIY=.ed25519",
+        "name": "Alex"
       }
     ],
-    "root": "%A+ZwikFozcl8S8w3V9dQ00zf6yJoPf7J40tNWZ+vqvQ=.sha256",
+    "root": "%pSo5sq9OqHqKseKZPkDshYHfBUbkNatP2xyCXZSifBE=.sha256",
     "branch": [
-      "%Z3rEBCwyvyERLnqZ5K6sKOTbjb+hkD5mHMQo3t0knDI=.sha256"
+      "%GZg+ccvsB61cSJWxFuJZpthVnZy4Nw+08SeLdW2rxyo=.sha256",
+      "%gBRtqPL0Xx0D4gUWNiRxtyn0PEBV+lROebitFDI24MQ=.sha256"
     ]
   },
-  "signature": "OR6iDfwnHqHgCUk0MTzIz/2F4LZUwQIsJ17zXTpB7csgx6fCwwLQulJk/nPku04swqGmWQzNQOIo1sKyIkLeDg==.sig.ed25519"
+  "signature": "dZBdATcxEHph+ACwfC/GaWjE5t5x2AbeWlE/9TsOtbGbgBwxImPui3h+Ty5VZP0eFJD044CuyJ+i7JeUqRjWAA==.sig.ed25519"
 }
