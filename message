@@ -1,33 +1,34 @@
 {
-  "previous": "%TagSqduLRcbkjL6PUz9xKGlTQvygv7zxYpNJygsOk6o=.sha256",
-  "sequence": 17504,
+  "previous": "%aC3n44tHnZNkoMLgIbWNR+ufVnLqoFhm5XqS8KMTaXQ=.sha256",
+  "sequence": 17505,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589256462357,
+  "timestamp": 1589257283538,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I made a thing! I've been wondering how easy we can make SSB replication, and so I've built a small app that lets you GET and POST messages with HTTP.\r\n\r\nSource code: https://github.com/christianbundy/http-ssb\r\n\r\nGlitch demo: https://daily-alluring-robe.glitch.me/\r\n\r\n(The database isn't persistent, so if you find it empty, use the instructions in the readme to populate it!)\r\n\r\nFuture plans: Add **limit** and **offset** for more efficient downloads, and add **batch inserts** so you don't need one HTTP request per message.\r\n\r\nShout out to Firefox for a nice native JSON view. Also *huge* props to [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) for showing me how fun and easy SQLite is.\r\n\r\n#ssb-dev #http-ssb #http #ssb #curl",
+    "text": "cc butts recently talking about similar ideas: [@xj9](@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519) [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) [@Geoffrey](@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519)\r\n\r\n...and now that I've just seen that the gist is public, shout out to [@Piet](@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519) for [`bamboo-cli.md`](https://gist.github.com/pietgeursen/7fed64678ae0389411c3872c48ddb508), which is a big inspiration for this experiment. Bamboo and Rust though, even better!",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "@xuq5ATR6hDNt6/0q1RB+L1f0dyeVk1kG1JAXu4jo/GU=.ed25519",
+        "name": "xj9"
       },
       {
-        "link": "#ssb-dev"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       },
       {
-        "link": "#http-ssb"
+        "link": "@gBZQVjIukvbX8Bs22vdTfAHMiVfE9nR+NvXQYVaqeIg=.ed25519",
+        "name": "Geoffrey"
       },
       {
-        "link": "#http"
-      },
-      {
-        "link": "#ssb"
-      },
-      {
-        "link": "#curl"
+        "link": "@U5GvOKP/YUza9k53DSXxT0mk3PIrnyAmessvNfZl5E0=.ed25519",
+        "name": "Piet"
       }
+    ],
+    "root": "%aC3n44tHnZNkoMLgIbWNR+ufVnLqoFhm5XqS8KMTaXQ=.sha256",
+    "branch": [
+      "%aC3n44tHnZNkoMLgIbWNR+ufVnLqoFhm5XqS8KMTaXQ=.sha256"
     ]
   },
-  "signature": "QeXNKmb2Dp+kj434VQ99cQqJ/HuwZOyCOs0IamFwcbW+gV/psJN3iAJDSM50c5r/xiIiflIgMmVzQ0CZEBZiBg==.sig.ed25519"
+  "signature": "Lmt8YkycCw5oscgRjUKAuk77CEp5PEmEZqbQXjfexHsVQMfcOqS0tFXU+ui67U+2oKEg8MamGO0AMU7bvaXEDw==.sig.ed25519"
 }
