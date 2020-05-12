@@ -1,18 +1,22 @@
 {
-  "previous": "%b1R6j8bjo5xGKXvetKkCAx1scsvqQLWVWhNEsR9o7vc=.sha256",
-  "sequence": 17509,
+  "previous": "%6QkYUXyPNAkfrC2IF3Zq8dtDsxfnlyGlllCmbfHjzNE=.sha256",
+  "sequence": 17510,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589303102803,
+  "timestamp": 1589303180720,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%2pvVZoVKqTEVydOW2QbKtQHh4CzLjtdexwaQuFqnCHg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Matt Lorentz](@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519)\r\n\r\nWoo! I've heard that Caddy for HTTPS + Authentication works well, but I haven't tried it out yet. I'm happy to hear that you've got a working setup, looking forward to details!",
+    "mentions": [
+      {
+        "link": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
+        "name": "Matt Lorentz"
+      }
+    ],
+    "root": "%tmCOLLp2bQo9oL8wp1mi316lUAFk22XWxRupjac3FOs=.sha256",
     "branch": [
-      "%oH4o8jmP2cyZR4AJtQDCRC4euqxfzU5fhNkkYbW8seA=.sha256"
+      "%tmCOLLp2bQo9oL8wp1mi316lUAFk22XWxRupjac3FOs=.sha256"
     ]
   },
-  "signature": "O1G42b1MZ/3fjPSVPVvAw/8BsWyxS8kIez+v8/GkSZilQZp16mDdi1ClM1ACdOBLzpe1ojvLoB+oSQyqOsJmAw==.sig.ed25519"
+  "signature": "0zCBUi7LxPma7helLnmLwlRgOvF2EoyxUfpXL0aufEilWxSr+Zz/X9tNDJyMIOnYg5FUrK/39/0OVxv/MWpfCA==.sig.ed25519"
 }
