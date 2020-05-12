@@ -1,18 +1,33 @@
 {
-  "previous": "%AwQy13U8mC/6Jkf9B5mVwsN3nSZKSo1A56KP05Dg1m0=.sha256",
-  "sequence": 17503,
+  "previous": "%TagSqduLRcbkjL6PUz9xKGlTQvygv7zxYpNJygsOk6o=.sha256",
+  "sequence": 17504,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589226304474,
+  "timestamp": 1589256462357,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%KxIGlDHKyKts1G7VLc6JHW/wkbmFz0465FADJ0Av18Q=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%KxIGlDHKyKts1G7VLc6JHW/wkbmFz0465FADJ0Av18Q=.sha256"
+    "type": "post",
+    "text": "I made a thing! I've been wondering how easy we can make SSB replication, and so I've built a small app that lets you GET and POST messages with HTTP.\r\n\r\nSource code: https://github.com/christianbundy/http-ssb\r\n\r\nGlitch demo: https://daily-alluring-robe.glitch.me/\r\n\r\n(The database isn't persistent, so if you find it empty, use the instructions in the readme to populate it!)\r\n\r\nFuture plans: Add **limit** and **offset** for more efficient downloads, and add **batch inserts** so you don't need one HTTP request per message.\r\n\r\nShout out to Firefox for a nice native JSON view. Also *huge* props to [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) for showing me how fun and easy SQLite is.\r\n\r\n#ssb-dev #http-ssb #http #ssb #curl",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#http-ssb"
+      },
+      {
+        "link": "#http"
+      },
+      {
+        "link": "#ssb"
+      },
+      {
+        "link": "#curl"
+      }
     ]
   },
-  "signature": "LyfJ64EgZB+bmC/+ieEzgx37ABvNkJEM5cc4SBajR8+enAiVfhrdpSYWDoXNZAnXX2glcj8kltsI+OTButOXDQ==.sig.ed25519"
+  "signature": "QeXNKmb2Dp+kj434VQ99cQqJ/HuwZOyCOs0IamFwcbW+gV/psJN3iAJDSM50c5r/xiIiflIgMmVzQ0CZEBZiBg==.sig.ed25519"
 }
