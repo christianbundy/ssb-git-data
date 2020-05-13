@@ -1,18 +1,26 @@
 {
-  "previous": "%YC237m/LYzru695JnoRG67KF8B978XIauv5oP5Vy9cM=.sha256",
-  "sequence": 17517,
+  "previous": "%slux/RHcbTlHLgIe5RD4pvVv1WY2NsnJg6mW4Jyvh3Y=.sha256",
+  "sequence": 17518,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589384384914,
+  "timestamp": 1589392936305,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4uoAysMdSenfhb17blns2ATvZJc90PZKA/iTpDnD94g=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nIs there a specification for the `expression` property somewhere that I could look up? I need a rule for which reactions are displayed (not \"Like\" or \"yup\") but I can't think of a good heuristic. I *really* don't want to use [emoji-regex](https://github.com/mathiasbynens/emoji-regex) or [try to catch every non-emoji value](https://gitlab.com/staltz/manyverse/-/blob/ae7211b908584c8f723f2d807f5a75de86dddf38/src/frontend/ssb/utils/from-ssb.ts#L25-37), but that might be my best option?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%jsIQ9KqvQe/R8YtmVzTK/tbghAJNaPrXgMNRfwIdJhQ=.sha256",
     "branch": [
-      "%4uoAysMdSenfhb17blns2ATvZJc90PZKA/iTpDnD94g=.sha256"
+      "%aEqoo3UwCSxxKzlVyt/GcP5oMAMOukXUSZBj9NQrDqg=.sha256"
     ]
   },
-  "signature": "W3pXCSbytez3YPpFqq9bY1IkRPOnuJ3QpmCGiQxOu/Eh5/WEU3My+c3UJs+jmpG0eMUvAi0O2+9HWXzZJcr0Dw==.sig.ed25519"
+  "signature": "BhfnSIHS+q9NbdQcHhN4QDyfId0mctcvTVkmn6nD5AX0yZRtGZZd6RdEONm2TgTbw12bBDdFa+2BtI+IiWMkDg==.sig.ed25519"
 }
