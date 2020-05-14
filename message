@@ -1,22 +1,18 @@
 {
-  "previous": "%UmbfPUOOAK1OygWDzu+j5jB6EBqTlYJT7iRRj9X/kn8=.sha256",
-  "sequence": 17534,
+  "previous": "%u3ATQjdFidkVVpP0K/n3NUOGqZ8wTLZdLFqIYtQAVyI=.sha256",
+  "sequence": 17535,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589481555761,
+  "timestamp": 1589481727722,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nIt's an unreasonably good nerd snipe.\r\n\r\nSetting up the problem for others:\r\n\r\n- You have a piece of content with an encoding you can understand today.\r\n- That content is signed by the original author.\r\n- You want to change the encoding, but that would invalidate the signature.\r\n- You can't force the author to re-encode and re-sign the original content.\r\n- You use a content-addressable link system so that all of your links depend on the byte-for-byte encoding of the original content.\r\n\r\n\r\n**How do you change the underlying content encoding without losing your links or original author signatures?** The best I've got (which Cinnamon suggested) was to use some sort of nested envelope structure where you keep a new encoding with the old (signed) encoding for verification, which continues recursively until the inevitable heat death of the universe.",
-    "mentions": [
-      {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      }
-    ],
-    "root": "%dRP+5WeBQ//aVC3bdsZNDmqM+tGRM/I1s2nrokZwzoY=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%pVunYrA+S1fDyWN1T4txT1BN3OErYnhqbGBL8nBG5YY=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%zOXAxtp4HH0qr223MYI+fGi/F3VaRX/06Mt1o34y7HM=.sha256"
+      "%pVunYrA+S1fDyWN1T4txT1BN3OErYnhqbGBL8nBG5YY=.sha256"
     ]
   },
-  "signature": "O2XFt1RcnMVl+rKsvoHCI93qsh/d/gChkgdAdFcSCUJlniBz0CFmAqbuU39qXBaVfYN+JiiX3whEOFGEfE88BQ==.sig.ed25519"
+  "signature": "qsEMHhwEoc+WhG8McDBgmSvnvbJEMminHDs953eVMfynycAeGCtOz7GEwFke2cmWbGdm9nJznW41bvL922pIDA==.sig.ed25519"
 }
