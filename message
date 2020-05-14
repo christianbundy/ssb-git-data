@@ -1,22 +1,22 @@
 {
-  "previous": "%WPqv6o091/vpeLDekMtCgPtC/QsBBteIOIeUbUB9550=.sha256",
-  "sequence": 17533,
+  "previous": "%UmbfPUOOAK1OygWDzu+j5jB6EBqTlYJT7iRRj9X/kn8=.sha256",
+  "sequence": 17534,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589479481547,
+  "timestamp": 1589481555761,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1638069",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nIt's an unreasonably good nerd snipe.\r\n\r\nSetting up the problem for others:\r\n\r\n- You have a piece of content with an encoding you can understand today.\r\n- That content is signed by the original author.\r\n- You want to change the encoding, but that would invalidate the signature.\r\n- You can't force the author to re-encode and re-sign the original content.\r\n- You use a content-addressable link system so that all of your links depend on the byte-for-byte encoding of the original content.\r\n\r\n\r\n**How do you change the underlying content encoding without losing your links or original author signatures?** The best I've got (which Cinnamon suggested) was to use some sort of nested envelope structure where you keep a new encoding with the old (signed) encoding for verification, which continues recursively until the inevitable heat death of the universe.",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       }
     ],
-    "root": "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256",
+    "root": "%dRP+5WeBQ//aVC3bdsZNDmqM+tGRM/I1s2nrokZwzoY=.sha256",
     "branch": [
-      "%WPqv6o091/vpeLDekMtCgPtC/QsBBteIOIeUbUB9550=.sha256"
+      "%zOXAxtp4HH0qr223MYI+fGi/F3VaRX/06Mt1o34y7HM=.sha256"
     ]
   },
-  "signature": "fI6ylzLG20WsFu3LU8u8pOVWx7zjBehhb4rL6U5h3S0DxVNHhxqfcDl+OK7nrdYmJeB8isW/HTm2/j78hKxxAA==.sig.ed25519"
+  "signature": "O2XFt1RcnMVl+rKsvoHCI93qsh/d/gChkgdAdFcSCUJlniBz0CFmAqbuU39qXBaVfYN+JiiX3whEOFGEfE88BQ==.sig.ed25519"
 }
