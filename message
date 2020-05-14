@@ -1,23 +1,18 @@
 {
-  "previous": "%xq/GeCd3ihrk/QsNHoxQ95fw4Otyk4YsGvjCNQ2qnyU=.sha256",
-  "sequence": 17538,
+  "previous": "%sFJtD5thf+7I8dFUBUY4rmzo94Uz1jDBc6DRMGa1al8=.sha256",
+  "sequence": 17539,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589482555388,
+  "timestamp": 1589482790534,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nOops! The `master` branch is a few-months-old implementation of SSB written for Node.js, but I started the `deno` branch today and forgot to fix the readme. The messages *look* right, but the JS implementation complains that the signature is invalid. 😬",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      }
-    ],
-    "root": "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Flxw1dKXZ5fw9z8OxHORuBejq1ZdkRDx35oOGpzXlkk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Flxw1dKXZ5fw9z8OxHORuBejq1ZdkRDx35oOGpzXlkk=.sha256",
-      "%muTDAqOgVu6E06dTEiceWBCx7ISbn2iPxMQ94OCfs8M=.sha256"
+      "%Flxw1dKXZ5fw9z8OxHORuBejq1ZdkRDx35oOGpzXlkk=.sha256"
     ]
   },
-  "signature": "mH2pdxMgmwuUxeGOtkW4uZ6SO13VbiR0Z85RsdRMq7wSmlED0muwVr9xgFzaq4uhib4j+t5wThulz9mIe35TCw==.sig.ed25519"
+  "signature": "RKHVeDe25G1RTCZCD7r4Uin0JQ/HY8oTJ4HRSojwYNumT2rKzPe0ar/dV3HwQJd72jfwl85WV03QhK72GS+DDA==.sig.ed25519"
 }
