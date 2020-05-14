@@ -1,22 +1,18 @@
 {
-  "previous": "%Rck/TxMD61pwKVZt5QJ6zNLE8jugpPdXNgM+gGE+o0c=.sha256",
-  "sequence": 17542,
+  "previous": "%kG4XxbohBV02jt6Dxv0l9/ljJ9BECRybnM5v9ig9bMQ=.sha256",
+  "sequence": 17543,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589488109005,
+  "timestamp": 1589488618648,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nIf you want to be extra frustrated, Markdown doesn't actually include support for audio or video, so the existing audio only works because we're using an under-specified variant of Markdown (SSB-Flavored Markdown) with [fun quirks](https://github.com/fraction/oasis/issues/165#issuecomment-587677040).\r\n\r\nFWIW, `file` is great and I use it often, but it's not available on Windows/etc.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%31d7Cf8w4GPs7rBkB1t9Pyb5XlWrVgBjL/k17La+kIA=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%K4gk6Ay5wHNTogsdboaCVD+ukPcxk/wn+SlLwGnhb0Q=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%31d7Cf8w4GPs7rBkB1t9Pyb5XlWrVgBjL/k17La+kIA=.sha256"
+      "%iCuGl2q7WctP/F4GFgDmiTwEDfhSUVAzH5k3M+J0thw=.sha256"
     ]
   },
-  "signature": "/6u9KGZFtN5biXWC1T1Gn2NCMqoVQ+rkTsMMZ9tiVodPYx9gg382RRJJopH+vi7fIgaLevX2UhSxXKgQCsNTAg==.sig.ed25519"
+  "signature": "/Ibq5b/m09m1W/yKBWiB20nLhnwwaYJCcxPiLdijxeHRxoUK/e3Kx9CGtwFCknQrl2mgRgzwp2wjLEAxU7cxDA==.sig.ed25519"
 }
