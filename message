@@ -1,18 +1,22 @@
 {
-  "previous": "%dRP+5WeBQ//aVC3bdsZNDmqM+tGRM/I1s2nrokZwzoY=.sha256",
-  "sequence": 17520,
+  "previous": "%0qnIeR9FLZKykVyXif2H/ehj2DM81bov6XgyGihnzmo=.sha256",
+  "sequence": 17521,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589413694573,
+  "timestamp": 1589417282020,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5NGu6OYmpzWKdfj1R3+zahw+mLrKvQsKYgRAinRn044=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n\r\n> I haven’t tested this yet but IIRC browsers don’t like to do AJAX from `:///` places, which would make it bad for us.\r\n\r\nDoes that matter if we're just handling those URIs and redirecting to our preferred handler?\r\n\r\n> I even wrote a drop-in replacement library to help out people using `ssb-uri`\r\n\r\nI don't remember whether you already did an RFC for this (SSB-URI v2?), but I'm fine **adding** `/` as a delimiter if everyone else is. I didn't merge your patch because it wasn't backward-compatible, and I after spending tons of time and energy specifying a standard I don't want to break compatibility unless there's a reason to do it.\r\n\r\nI share your frustration that the URI specification we wrote doesn't work as a Firefox extension, but I'd like to understand what the problem is before choosing a solution.",
+    "mentions": [
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%5NGu6OYmpzWKdfj1R3+zahw+mLrKvQsKYgRAinRn044=.sha256"
+      "%/bhrJS3WyzSuk9/N+pTnVIrn3X8cFtOQhvMg0Rttv60=.sha256"
     ]
   },
-  "signature": "4Fh4fPmOdDllYuhWITBtpNlUWDJPXOPg9hkoMevTAegagI5dS4aBdOnawWKAMF2Hxj40i5iUOKqpoKpW7ksBCg==.sig.ed25519"
+  "signature": "F0GHRu8+n1SoppjznFBuhX60xLfdNQS+WHdPO/v4u8egYxosbDdx2JlR7BdWgPtJA4xwm6rkqJwvNl1tyLScDA==.sig.ed25519"
 }
