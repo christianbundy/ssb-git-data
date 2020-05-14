@@ -1,17 +1,23 @@
 {
-  "previous": "%kCJA3wZkUdU2s2HdsZlyGjqnSf3zbcQ7KmetcCmMOnc=.sha256",
-  "sequence": 17537,
+  "previous": "%xq/GeCd3ihrk/QsNHoxQ95fw4Otyk4YsGvjCNQ2qnyU=.sha256",
+  "sequence": 17538,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589482088388,
+  "timestamp": 1589482555388,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Oh, and an implicit assumption: at an arbitrary interval (between 1 day and 10 years) you'll find that some syntax or semantics you've encoded are a bad fit for your problem space and you'll want to make another change. Hence the recursion into infinity.\r\n\r\nMaking a breaking change isn't so hard, but building a system for breaking changes without incompatibility is one of my new omega projects.",
-    "mentions": [],
-    "root": "%dRP+5WeBQ//aVC3bdsZNDmqM+tGRM/I1s2nrokZwzoY=.sha256",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nOops! The `master` branch is a few-months-old implementation of SSB written for Node.js, but I started the `deno` branch today and forgot to fix the readme. The messages *look* right, but the JS implementation complains that the signature is invalid. 😬",
+    "mentions": [
+      {
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
+      }
+    ],
+    "root": "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256",
     "branch": [
-      "%u3ATQjdFidkVVpP0K/n3NUOGqZ8wTLZdLFqIYtQAVyI=.sha256"
+      "%Flxw1dKXZ5fw9z8OxHORuBejq1ZdkRDx35oOGpzXlkk=.sha256",
+      "%muTDAqOgVu6E06dTEiceWBCx7ISbn2iPxMQ94OCfs8M=.sha256"
     ]
   },
-  "signature": "BY3q/XLG1x9sGgLYkBvnrD4YHOMOkWkum4jQ0pwou3ydu0UVk030bgoycgwdjhvnqBE4GgBlfS9XHVraIqyKAw==.sig.ed25519"
+  "signature": "mH2pdxMgmwuUxeGOtkW4uZ6SO13VbiR0Z85RsdRMq7wSmlED0muwVr9xgFzaq4uhib4j+t5wThulz9mIe35TCw==.sig.ed25519"
 }
