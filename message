@@ -1,25 +1,22 @@
 {
-  "previous": "%X/iZxHkZUoz6xpAn0Hu3aYC18us3Nw7ERye0cN/yT7c=.sha256",
-  "sequence": 17530,
+  "previous": "%m3ilA9qxqkjuLnV+12BbmeWYys0ug20zLlSqBkKrTsk=.sha256",
+  "sequence": 17531,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589476857907,
+  "timestamp": 1589478293318,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@alanz-manyverse](@do5qikdhMrnTdmt5gELc699SUqIT6J54i1OJ7C1sPmk=.ed25519)\r\n\r\n> It might make a good base language for #ssb stuff.\r\n\r\nYes! I took a few minutes to write a small SSB implementation, but it took some hackery and the signatures aren't valid. Not sure why, but I don't have time to investigate further today.\r\n\r\nhttps://github.com/christianbundy/example-ssb/tree/deno\r\n\r\nNotes:\r\n\r\n- Deno is fun! I like how it feels.\r\n- Base64 isn't in the standard library\r\n- SHA512 isn't in the standard library\r\n- Ed25519 isn't in the standard library and the third-party modules [doesn't work](https://github.com/paulmillr/noble-ed25519/issues/7).\r\n- Decoding hexadecmial *was* in the standard library, but I couldn't find documentation so I had to read the source code to figure out the API.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> I don’t think that is a bug, it is by design IIRC.\r\n\r\nI probably shouldn't be, but I'd be shocked by this. My understanding is that the behavior of `new URL()` should be as browser-specific as `atob()`. I think you're right that it's using a safelist, but I think that's a bug. The specs don't mention a safelist and they don't use the safelist for some path patterns, which makes me think that the right move is to get the problem fixed upstream.",
     "mentions": [
       {
-        "link": "@do5qikdhMrnTdmt5gELc699SUqIT6J54i1OJ7C1sPmk=.ed25519",
-        "name": "alanz-manyverse"
-      },
-      {
-        "link": "#ssb"
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
       }
     ],
-    "root": "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256",
+    "root": "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256",
     "branch": [
-      "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256"
+      "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256"
     ]
   },
-  "signature": "ZgJs2qGtSHmE5ahYa0frlHOpTZDi+KGZB2unst4nDwmdMkU2aH6PAgidMYxqeelADX1b7DSMhhKZ+72m/ZDUDw==.sig.ed25519"
+  "signature": "t0dk5+EnQlHA1LHARarGfrddMg8PcpCZPOJl4dNAVjQo1Pa3Km689kRrSe71LLs0rUAr0e0I5gY3buA49tlDBA==.sig.ed25519"
 }
