@@ -1,22 +1,18 @@
 {
-  "previous": "%ipu4Rx7weFvmsL4NpiJHzC0oReCvyqL4LaFJg9IxRi8=.sha256",
-  "sequence": 17522,
+  "previous": "%BLqekh7oD1UQXc4z+T1HAvaqogmk8J6ne04BmxB38BM=.sha256",
+  "sequence": 17523,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589417455455,
+  "timestamp": 1589417855248,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nFor what it's worth, I understand that backward compatibility is frustrating, **especially when it comes to identifiers**, but I'd way rather see:\r\n\r\n```\r\ndelimiter = (\":\" \"/\")\r\n```\r\n\r\nInstead of breaking the existing identifiers with your proposed change to:\r\n\r\n```\r\ndelimiter = \"/\"\r\n```",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ],
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ipu4Rx7weFvmsL4NpiJHzC0oReCvyqL4LaFJg9IxRi8=.sha256"
+      "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256"
     ]
   },
-  "signature": "v4VeOJ7yG+8PCBnAvdQq4jUl6qQ8wwpZbWHBZQ0clOoVTiNFUfLfAk8alzkDQpDyyO/9ZBoWSHqikn7rCloEAA==.sig.ed25519"
+  "signature": "z3sK2BChDCnRw1+DrlMygQ4dANbmqa3F6l0b5FtbjKEAlIdmv3d2BVxZkIuVsrbN0RMaYkJ872PoXHi+HHUpCA==.sig.ed25519"
 }
