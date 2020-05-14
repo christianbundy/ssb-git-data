@@ -1,22 +1,18 @@
 {
-  "previous": "%7WCzSEg66h6ELY1sIVotY6Iu5bSRB0Y1hbjGuLFrNx8=.sha256",
-  "sequence": 17527,
+  "previous": "%yuxZG3pYuL+UM9pAsM+tUsOJi0yqDkCkOyrP6zbjvIY=.sha256",
+  "sequence": 17528,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589470670709,
+  "timestamp": 1589471315136,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nMaybe a breakthrough, when passing these URLs to `new URL()` with the same path (`message:sha256:[...]`) I can confirm that:\r\n\r\n- Firefox allows `web+ssb:`\r\n- Firefox allows `urn:`\r\n- Firefox fails on `ssb:`\r\n\r\n> TypeError: URL constructor: ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w= is not a valid URL.\r\n\r\nWeird, right? It gets weirder, because Chromium and Node have absolutely no problem with it:\r\n\r\n```javascript\r\nnew URL('ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=')\r\n\r\n/*\r\nURL {\r\n  href: 'ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=',\r\n  origin: 'null',\r\n  protocol: 'ssb:',\r\n  username: '',\r\n  password: '',\r\n  host: '',\r\n  hostname: '',\r\n  port: '',\r\n  pathname: 'message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=',\r\n  search: '',\r\n  searchParams: URLSearchParams {},\r\n  hash: ''\r\n}\r\n*/\r\n```\r\n\r\nI've also tested in Epiphany (like Safari) and can confirm that the `ssb:` URI scheme is parsed without any problems. Is [this](https://github.com/mozilla/gecko/tree/ec804b4e3ffba25b3c8b0e7b7b941a0181035b79/dom/url) the best place to start investigating?",
-    "mentions": [
-      {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
-      }
-    ],
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%RE8zWWJ0of1ap7DdlQAX6BhbyfYTeNZO5JUwHI1gLDE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%usKvHslELAPV3I8U7gn28nB6/xyVStE7CuZ6NinqihQ=.sha256"
+      "%PeuBePTWndMwqHW1BOLRJGE0doHy+ggIlHGwllLeYd8=.sha256"
     ]
   },
-  "signature": "ojuVu9Ytncij91Trph6RJmwWgYGP2rfDsz4wdpoSnbswUNE3t8XW/saj1OY7iXCBfuNSQvREUpDZ6Ik5er3TCA==.sig.ed25519"
+  "signature": "8SXQEFHQrF2nqVgT1dFntluGjE518hF6W0QUAc+h0QxmxBegk6s1rFjX0cE9ZiJmP6qmKa0k2Xr16ai5ZDkUBQ==.sig.ed25519"
 }
