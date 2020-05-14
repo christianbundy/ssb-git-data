@@ -1,22 +1,25 @@
 {
-  "previous": "%VWpjnk+EgCwsuj4v7cMwVEKbb27cmcxdw/EZyxMTYFo=.sha256",
-  "sequence": 17529,
+  "previous": "%X/iZxHkZUoz6xpAn0Hu3aYC18us3Nw7ERye0cN/yT7c=.sha256",
+  "sequence": 17530,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589471411992,
+  "timestamp": 1589476857907,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Gaffen](@zdpL3pz44do6ZK5V9wzuzrponmGlgcVyY7TEYVvkVeE=.ed25519)\r\n\r\nHow many people need to be able to write to the database?",
+    "text": "[@alanz-manyverse](@do5qikdhMrnTdmt5gELc699SUqIT6J54i1OJ7C1sPmk=.ed25519)\r\n\r\n> It might make a good base language for #ssb stuff.\r\n\r\nYes! I took a few minutes to write a small SSB implementation, but it took some hackery and the signatures aren't valid. Not sure why, but I don't have time to investigate further today.\r\n\r\nhttps://github.com/christianbundy/example-ssb/tree/deno\r\n\r\nNotes:\r\n\r\n- Deno is fun! I like how it feels.\r\n- Base64 isn't in the standard library\r\n- SHA512 isn't in the standard library\r\n- Ed25519 isn't in the standard library and the third-party modules [doesn't work](https://github.com/paulmillr/noble-ed25519/issues/7).\r\n- Decoding hexadecmial *was* in the standard library, but I couldn't find documentation so I had to read the source code to figure out the API.",
     "mentions": [
       {
-        "link": "@zdpL3pz44do6ZK5V9wzuzrponmGlgcVyY7TEYVvkVeE=.ed25519",
-        "name": "Gaffen"
+        "link": "@do5qikdhMrnTdmt5gELc699SUqIT6J54i1OJ7C1sPmk=.ed25519",
+        "name": "alanz-manyverse"
+      },
+      {
+        "link": "#ssb"
       }
     ],
-    "root": "%3dCKjhOMyIRb6XDnFcVgPvFzDDQy2dT2u/PG8eojLIQ=.sha256",
+    "root": "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256",
     "branch": [
-      "%3dCKjhOMyIRb6XDnFcVgPvFzDDQy2dT2u/PG8eojLIQ=.sha256"
+      "%X90K5B+ILcAmOIGh3qfhIF2T1sKAWFlsAG+/5x12Zxw=.sha256"
     ]
   },
-  "signature": "yw4Nay0CxheoIuhABCHFXqOpoaPGFpt8+/FggninDY4OZFMX8TtL2mrVBTPhWwLEKsGU0VERls6ra1G5pozcDg==.sig.ed25519"
+  "signature": "ZgJs2qGtSHmE5ahYa0frlHOpTZDi+KGZB2unst4nDwmdMkU2aH6PAgidMYxqeelADX1b7DSMhhKZ+72m/ZDUDw==.sig.ed25519"
 }
