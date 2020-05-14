@@ -1,12 +1,12 @@
 {
-  "previous": "%m3ilA9qxqkjuLnV+12BbmeWYys0ug20zLlSqBkKrTsk=.sha256",
-  "sequence": 17531,
+  "previous": "%+jCPs8qq5k8aGlnXrPQLONbKQUD82KG81A9oFYEufaE=.sha256",
+  "sequence": 17532,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589478293318,
+  "timestamp": 1589478981142,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> I don’t think that is a bug, it is by design IIRC.\r\n\r\nI probably shouldn't be, but I'd be shocked by this. My understanding is that the behavior of `new URL()` should be as browser-specific as `atob()`. I think you're right that it's using a safelist, but I think that's a bug. The specs don't mention a safelist and they don't use the safelist for some path patterns, which makes me think that the right move is to get the problem fixed upstream.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nI can't prove this yet, but I think I know what the problem is: Firefox has a list of URI schemes that **require a location**, like HTTP, and they enforce that constraint. Unfortunately SSB has been added to this list.\r\n\r\nIf you pass `http:abc` it says \"no, that needs to be a location\" and coerces it to `http://abc`, which is why your replace-delimiters-with-`/` hack works. When you do that, it coerces the URI to `ssb://message` and the slashes are totally valid in the path.\r\n\r\nIf you pass `http:abc:def` it errors out, because it **can't coerce it into a location**, which is exactly the problem you're experiencing with the SSB-URI scheme. My intuition is that when SSB was added as a known URI scheme, it was actually added to some list of HTTP-like URL schemes that require a location. BOOM.",
     "mentions": [
       {
         "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256",
     "branch": [
-      "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256"
+      "%+jCPs8qq5k8aGlnXrPQLONbKQUD82KG81A9oFYEufaE=.sha256"
     ]
   },
-  "signature": "t0dk5+EnQlHA1LHARarGfrddMg8PcpCZPOJl4dNAVjQo1Pa3Km689kRrSe71LLs0rUAr0e0I5gY3buA49tlDBA==.sig.ed25519"
+  "signature": "9CJI0sDlYCi/dFRsTxupW2FxK8E9oTg+LX0mJfiFJYzACRWAF06Xz6Z3cyVnaUs4lysoXi559FWG056XKozWDQ==.sig.ed25519"
 }
