@@ -1,22 +1,26 @@
 {
-  "previous": "%W5EGR6pB4l8Hq94H3PwOuqFFQXSeskUWPOXuz0DVGY0=.sha256",
-  "sequence": 17525,
+  "previous": "%/Gi0EayIsYssM4Rb1Z2EO8kFCErMOgyASc1kngHnP7k=.sha256",
+  "sequence": 17526,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589468706020,
+  "timestamp": 1589468856755,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> I wouldn’t think that Firefox URL handling was buggy as it would probably surface elsewhere and be fixed quickly, that is why I’m veering towards thinking that the spec with : might not actually be valid for such use case as custom URLs.\r\n\r\nI want to agree with you here, I'm just looking for evidence to try and understand what's going on. For example, I've just tested your extension repository and can confirm that these two work:\r\n\r\n- urn:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n- tel:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n\r\nThese don't work:\r\n\r\n- dat:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n- ssb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n- dweb:message:sha256:g3hPVPDEO1Aj_uPl0-J2NlhFB2bbFLIHlty-YuqFZ3w=\r\n\r\nTo me, this smells like a browser bug, and it feels bad to throw a bunch more effort into the URI standardization process before we have some idea of what the actual problem is.\r\n\r\nOn a meta note, I don't want to assume the role of 'gatekeeper for URI changes'. If you feel comfortable that you've followed some RFC process and gotten some kind of approval then you're welcome to announce a breaking change to the URI scheme. I'm just one stakeholder, and I'm waving the \"identify the problem before solving it\" flag, but I'm happy to be the minority and I don't want to stand in the way of improvements.",
+    "text": "[@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)\r\n\r\nThanks for the ping.\r\n\r\nThis is weird, because SSB-CONN is supposed to be *very* conservative about who it connects to. IIRC it should only be connecting to people that you directly follow unless you've manually approved someone else.\r\n\r\ncc: [@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)",
     "mentions": [
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
       }
     ],
-    "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
+    "root": "%id9denVCqJnBOOxL/10qr9HmngeP5AcdizZXaTT3ZsI=.sha256",
     "branch": [
-      "%mOnZcOrpdAPbMLkSH2eyRsae/KFjhlFJ+b8Mr4/Z7q8=.sha256"
+      "%2UbXGZywy5TPc55ZrH6AEx5f7qZWtzUPUg3YK8dE1uE=.sha256"
     ]
   },
-  "signature": "mUZid1ndDt/cBHj4+c0U81e15Cd4IbFaFNtxPxe5ymrsIA4/vDPldfNWwj5r7yfaAawjL2zMreUubm6f68M3DQ==.sig.ed25519"
+  "signature": "pl1IjJXHzFBjo9cIYlIEdA4hakSPH8HrQwI1CEiiKYif9ZlMC6BO/HvVn6Mj1CjeNzV51lj4EUzdUrEOWCIwBw==.sig.ed25519"
 }
