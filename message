@@ -1,12 +1,12 @@
 {
-  "previous": "%0qnIeR9FLZKykVyXif2H/ehj2DM81bov6XgyGihnzmo=.sha256",
-  "sequence": 17521,
+  "previous": "%ipu4Rx7weFvmsL4NpiJHzC0oReCvyqL4LaFJg9IxRi8=.sha256",
+  "sequence": 17522,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589417282020,
+  "timestamp": 1589417455455,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n\r\n> I haven’t tested this yet but IIRC browsers don’t like to do AJAX from `:///` places, which would make it bad for us.\r\n\r\nDoes that matter if we're just handling those URIs and redirecting to our preferred handler?\r\n\r\n> I even wrote a drop-in replacement library to help out people using `ssb-uri`\r\n\r\nI don't remember whether you already did an RFC for this (SSB-URI v2?), but I'm fine **adding** `/` as a delimiter if everyone else is. I didn't merge your patch because it wasn't backward-compatible, and I after spending tons of time and energy specifying a standard I don't want to break compatibility unless there's a reason to do it.\r\n\r\nI share your frustration that the URI specification we wrote doesn't work as a Firefox extension, but I'd like to understand what the problem is before choosing a solution.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nFor what it's worth, I understand that backward compatibility is frustrating, **especially when it comes to identifiers**, but I'd way rather see:\r\n\r\n```\r\ndelimiter = (\":\" \"/\")\r\n```\r\n\r\nInstead of breaking the existing identifiers with your proposed change to:\r\n\r\n```\r\ndelimiter = \"/\"\r\n```",
     "mentions": [
       {
         "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%g3hPVPDEO1Aj/uPl0+J2NlhFB2bbFLIHlty+YuqFZ3w=.sha256",
     "branch": [
-      "%/bhrJS3WyzSuk9/N+pTnVIrn3X8cFtOQhvMg0Rttv60=.sha256"
+      "%ipu4Rx7weFvmsL4NpiJHzC0oReCvyqL4LaFJg9IxRi8=.sha256"
     ]
   },
-  "signature": "F0GHRu8+n1SoppjznFBuhX60xLfdNQS+WHdPO/v4u8egYxosbDdx2JlR7BdWgPtJA4xwm6rkqJwvNl1tyLScDA==.sig.ed25519"
+  "signature": "v4VeOJ7yG+8PCBnAvdQq4jUl6qQ8wwpZbWHBZQ0clOoVTiNFUfLfAk8alzkDQpDyyO/9ZBoWSHqikn7rCloEAA==.sig.ed25519"
 }
