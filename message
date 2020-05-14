@@ -1,12 +1,12 @@
 {
-  "previous": "%+jCPs8qq5k8aGlnXrPQLONbKQUD82KG81A9oFYEufaE=.sha256",
-  "sequence": 17532,
+  "previous": "%WPqv6o091/vpeLDekMtCgPtC/QsBBteIOIeUbUB9550=.sha256",
+  "sequence": 17533,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589478981142,
+  "timestamp": 1589479481547,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nI can't prove this yet, but I think I know what the problem is: Firefox has a list of URI schemes that **require a location**, like HTTP, and they enforce that constraint. Unfortunately SSB has been added to this list.\r\n\r\nIf you pass `http:abc` it says \"no, that needs to be a location\" and coerces it to `http://abc`, which is why your replace-delimiters-with-`/` hack works. When you do that, it coerces the URI to `ssb://message` and the slashes are totally valid in the path.\r\n\r\nIf you pass `http:abc:def` it errors out, because it **can't coerce it into a location**, which is exactly the problem you're experiencing with the SSB-URI scheme. My intuition is that when SSB was added as a known URI scheme, it was actually added to some list of HTTP-like URL schemes that require a location. BOOM.",
+    "text": "[@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1638069",
     "mentions": [
       {
         "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%pVLZ34R9lDvb7ecwnUSsZ4t2hxxxuqXYLBDhy7MQ9jU=.sha256",
     "branch": [
-      "%+jCPs8qq5k8aGlnXrPQLONbKQUD82KG81A9oFYEufaE=.sha256"
+      "%WPqv6o091/vpeLDekMtCgPtC/QsBBteIOIeUbUB9550=.sha256"
     ]
   },
-  "signature": "9CJI0sDlYCi/dFRsTxupW2FxK8E9oTg+LX0mJfiFJYzACRWAF06Xz6Z3cyVnaUs4lysoXi559FWG056XKozWDQ==.sig.ed25519"
+  "signature": "fI6ylzLG20WsFu3LU8u8pOVWx7zjBehhb4rL6U5h3S0DxVNHhxqfcDl+OK7nrdYmJeB8isW/HTm2/j78hKxxAA==.sig.ed25519"
 }
