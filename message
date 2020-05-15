@@ -1,18 +1,26 @@
 {
-  "previous": "%uwBaFwnAbp3akKLjvT82s/okpfX7hQ3+3AHrNaiXANE=.sha256",
-  "sequence": 17548,
+  "previous": "%4uLMWglGiW98R99tR293uVS6KJx/LCqvJu5ns4hKNd8=.sha256",
+  "sequence": 17549,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589553479993,
+  "timestamp": 1589559227619,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%zFcL7GG5fEztsthilxjVV6zTVJe5i0P5sCHyqFjwY0w=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> this is up to each client\r\n\r\nRight, I understand that currently the behavior is unspecified but I'd like to understand what compatibility would require. Manyverse processes the `expression` [here](https://gitlab.com/staltz/manyverse/-/blob/ae7211b908584c8f723f2d807f5a75de86dddf38/src/frontend/ssb/utils/from-ssb.ts#L25-37), but I'm trying to understand which other values I can pass to have it displayed in Manyverse (and other clients that provide compatibility).\r\n\r\nDisplaying these reactions is new behavior, and I like it, but I can't make a compatible implementation unless we have a spec. If it's just a string then I'd expect that I can post an `expression` like \"lol this is really funny, thanks for posting this meme!\" and have it show up in Manyverse/etc, which I'm guessing (?) is not a promise we want to make.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
+        "name": "SoapDog"
+      }
+    ],
+    "root": "%jsIQ9KqvQe/R8YtmVzTK/tbghAJNaPrXgMNRfwIdJhQ=.sha256",
     "branch": [
-      "%zFcL7GG5fEztsthilxjVV6zTVJe5i0P5sCHyqFjwY0w=.sha256"
+      "%+aph+RFj+t6WzdQzJeoyXylsMWz7WkKq6vvDJFDxSXg=.sha256"
     ]
   },
-  "signature": "AGVC6r8UI0Lf9T9VxGkKdM2xDzMFXnHo1HmS0EYsXoGhUOIx8mG2xJTYShvzbaJRvedQG4H9F/XlV5idu01hCg==.sig.ed25519"
+  "signature": "dWawxfOUPEpkOgZcbmGzImcyoe3SXrdlndcje+b5QpoeYQWZTifiizqyr2eXIL/8Ku6YomM3N7o1RbMn0+WtBA==.sig.ed25519"
 }
