@@ -1,22 +1,18 @@
 {
-  "previous": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
-  "sequence": 17551,
+  "previous": "%K0wKFrkyYYjDne+PDGdByhpB8CI1oZnb6/5ke/e6uso=.sha256",
+  "sequence": 17552,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589566029128,
+  "timestamp": 1589566131339,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nI have a hard time reading lisp. I'm trying to practice though!\r\n\r\n```racket\r\n(define (has-suffix? filename suffix-key)\r\n  (string-suffix? filename (suffixes-ref suffix-key)))\r\n```\r\n\r\nI'd imagine this as something like:\r\n\r\n```javascript\r\nconst hasSuffix = (filename, suffixKey) => \r\n  stringSuffix(filename, suffixesRef(suffixKey))\r\n```\r\n\r\nThe syntax makes loads of sense, but I think my problem is that I don't know what `suffixesRef()` does. Maybe I just need to get familiar with the standard libraries that come with lisps? Skimming through the rest of the code, I don't know what any of the `-ref` functions are doing, so that's probably the first step in grokking the overall behavior.",
-    "mentions": [
-      {
-        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
-        "name": "alanz"
-      }
-    ],
-    "root": "%jSS8+iXADSAZUHMu9ma2HjY3oF1LSIRICH9XOEy09FQ=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%VpwzxHLUEft0J3wy5swo55xsGUiUTX4JNjTvKpffZuk=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Kdyndt1F/sDsZdCBjBvQAfwA6r4TTAMppSj6iLn/K40=.sha256"
+      "%SQDUXFP8G4arMsCLVXQQH3aROnQUXDus8dI7+XccYGU=.sha256"
     ]
   },
-  "signature": "RMO+bbkZu3+eaPNg5WjduqewuqXoEi80ku4BBzc9LxOWK8k9l5aXbncQP4NurrdvjHGcGPkSWNPjntL7Bk0aBA==.sig.ed25519"
+  "signature": "nbf/5lsIv33dNn6crkB03w0x5LXLGL7oIOnFWtnUwRyow0TMq7IFY6jtXpkuEkAv26k08SD6RbLx7GJcwa5dAg==.sig.ed25519"
 }
