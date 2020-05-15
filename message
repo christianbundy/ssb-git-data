@@ -1,33 +1,22 @@
 {
-  "previous": "%NA8e0OU/w2hNmwQKtevEzrsgSzLRHIiF3I1VDsTxTvk=.sha256",
-  "sequence": 17550,
+  "previous": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+  "sequence": 17551,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589565619330,
+  "timestamp": 1589566029128,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Making small SSB implementations from scratch is actually really fun. It's frustrating when the crypto doesn't work, but it's *so* satisfying when you see a new message replicate.\r\n\r\nI've made three implementations so far (two Node.js, one Deno) and it's kinda neat to mix and match the parts.\r\n\r\nIt's also been a great learning experience: I didn't realize that Ed25519 depends on SHA512, which means that we use **two** hash algorithms under the hood.\r\n\r\nI think my next implementation will probably follow advice from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) and to try libsodium next. It's convenient to be able to use either the standard library or a minimal implementation that does only what I need, but having a big toolbox with everything you need has its advantages too. :)\r\n\r\n#nodejs #deno #ssb #crypto #libsodium",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nI have a hard time reading lisp. I'm trying to practice though!\r\n\r\n```racket\r\n(define (has-suffix? filename suffix-key)\r\n  (string-suffix? filename (suffixes-ref suffix-key)))\r\n```\r\n\r\nI'd imagine this as something like:\r\n\r\n```javascript\r\nconst hasSuffix = (filename, suffixKey) => \r\n  stringSuffix(filename, suffixesRef(suffixKey))\r\n```\r\n\r\nThe syntax makes loads of sense, but I think my problem is that I don't know what `suffixesRef()` does. Maybe I just need to get familiar with the standard libraries that come with lisps? Skimming through the rest of the code, I don't know what any of the `-ref` functions are doing, so that's probably the first step in grokking the overall behavior.",
     "mentions": [
       {
-        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
-        "name": "cryptix"
-      },
-      {
-        "link": "#nodejs"
-      },
-      {
-        "link": "#deno"
-      },
-      {
-        "link": "#ssb"
-      },
-      {
-        "link": "#crypto"
-      },
-      {
-        "link": "#libsodium"
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
       }
+    ],
+    "root": "%jSS8+iXADSAZUHMu9ma2HjY3oF1LSIRICH9XOEy09FQ=.sha256",
+    "branch": [
+      "%Kdyndt1F/sDsZdCBjBvQAfwA6r4TTAMppSj6iLn/K40=.sha256"
     ]
   },
-  "signature": "QdNyDz0dsbRumqob0M7JDWEITCz02hN27K7RkGaFq8rNPvOs5v/mLjDBCjjZ7TTZn+atEsz5AtWOAyWewBuQAg==.sig.ed25519"
+  "signature": "RMO+bbkZu3+eaPNg5WjduqewuqXoEi80ku4BBzc9LxOWK8k9l5aXbncQP4NurrdvjHGcGPkSWNPjntL7Bk0aBA==.sig.ed25519"
 }
