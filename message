@@ -1,18 +1,22 @@
 {
-  "previous": "%98U4HuezFPh12Frv7+7b5KxjOOJmqzhy76EraaTUo2g=.sha256",
-  "sequence": 17546,
+  "previous": "%Et8ZuKjpPMLeKN24ReflnLthqsl4+C+DvFBddaoNYuM=.sha256",
+  "sequence": 17547,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589493042425,
+  "timestamp": 1589552187337,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%V2xGIqN8VOJZoB4wDNVn8a4Irg9DIy7qJU5nujwTk38=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nIs there a heuristic for which ones get displayed? I'm trying to write a specification for each of our social app message types and trying to narrow it down to which messages will actually be understood by others.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%jsIQ9KqvQe/R8YtmVzTK/tbghAJNaPrXgMNRfwIdJhQ=.sha256",
     "branch": [
-      "%V2xGIqN8VOJZoB4wDNVn8a4Irg9DIy7qJU5nujwTk38=.sha256"
+      "%5dH+fM2xWF0VihRSCrJdPtKEfbwC9k8Of1A/cKm9wu4=.sha256"
     ]
   },
-  "signature": "wiqlY/K59zzzecVsTOGhLE2wCUWG6t3NEQOc7zK423VoFBt1ugEfxF+ToVBRHSNdkwoQO0ewzfB0a6nvBZKHCw==.sig.ed25519"
+  "signature": "yFc1GWK6XanXYse5gS/+7zCM1bxOlp6+EqlaaZdA/VWR46sO/1Wa3sR2HXEt/ON66bdtqd3aWS5VjIkHiXlzBQ==.sig.ed25519"
 }
