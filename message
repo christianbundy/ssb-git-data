@@ -1,22 +1,22 @@
 {
-  "previous": "%LgqE0UWnL4BaBMDvx6HnzqMTOk8rKeLDa+Fo92uikL0=.sha256",
-  "sequence": 17555,
+  "previous": "%tImOksZDqnUPsJs+D9D1gFdBUVLrutY4S+Nh1JR0iO4=.sha256",
+  "sequence": 17556,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589567979655,
+  "timestamp": 1589585499719,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI have this nagging feeling that you want to keep all of the versions, but I don't actually know why I think that. Justifying it in my head, I think the problem that would solve it something like:\r\n\r\n- You migrate from encoding A to B.\r\n- You migrate from encoding B to C, but **you make a mistake and have data loss**.\r\n- You migrate from encoding C to E.\r\n- You realize your mistake!\r\n\r\nAssuming that your code only supports encoding E, and you *really* care about the missing data, you now need to add support for an old encoding. Assuming that it's more difficult to write migration scripts for older encodings (???) it would be better to have B so that you don't have to migrate all the way from the original.\r\n\r\nI guess this is a trade-off where you take a few positions:\r\n\r\n- Making a mistake during a migration is worth fixing.\r\n- The only way to fix this is to parse the old data and re-encode it in the new format.\r\n- Parsing recent encodings is easier than parsing older encodings.\r\n- The risk of a migration mistake (impact × probability) and the relative difficulty of parsing old encodings is worth the complexity and storage costs of keeping each encoding format.\r\n\r\nThis probably makes sense on archaeological timelines, where \"the original encoding\" may be an [undeciphered writing system](https://en.wikipedia.org/wiki/Undeciphered_writing_system), but might not be worthwhile for anything we're working on. 🤷",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> culturally universal\r\n\r\n* dozenalism intensifies *",
     "mentions": [
       {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
       }
     ],
-    "root": "%dRP+5WeBQ//aVC3bdsZNDmqM+tGRM/I1s2nrokZwzoY=.sha256",
+    "root": "%wFw3L/M1/f/iDKt8fKrC5rQa0eh6T541xuBjsFnxQOs=.sha256",
     "branch": [
-      "%AdIoB5BFiZsdAr7OBJMssRpOmMW+uxpyTUqiNGGZi9Y=.sha256"
+      "%wFw3L/M1/f/iDKt8fKrC5rQa0eh6T541xuBjsFnxQOs=.sha256"
     ]
   },
-  "signature": "sEvzMlR976LYrN7EkfQiHpgcTo5AqZ/gyjoThvX68F7UmovmAs2gDAuzFMnOYGRV/knuBR14nuM8n5m5oW0IAQ==.sig.ed25519"
+  "signature": "/nx4NlEe1m92+A/WD9JIQiYuWk8FtUXNlnSha5Ju1ILltnzLg20pXlFJH5kewYBePe7b1G7XrnHqFW1/OZTqCQ==.sig.ed25519"
 }
