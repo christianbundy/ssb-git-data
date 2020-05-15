@@ -1,26 +1,33 @@
 {
-  "previous": "%4uLMWglGiW98R99tR293uVS6KJx/LCqvJu5ns4hKNd8=.sha256",
-  "sequence": 17549,
+  "previous": "%NA8e0OU/w2hNmwQKtevEzrsgSzLRHIiF3I1VDsTxTvk=.sha256",
+  "sequence": 17550,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589559227619,
+  "timestamp": 1589565619330,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@SoapDog](@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519)\r\n\r\n> this is up to each client\r\n\r\nRight, I understand that currently the behavior is unspecified but I'd like to understand what compatibility would require. Manyverse processes the `expression` [here](https://gitlab.com/staltz/manyverse/-/blob/ae7211b908584c8f723f2d807f5a75de86dddf38/src/frontend/ssb/utils/from-ssb.ts#L25-37), but I'm trying to understand which other values I can pass to have it displayed in Manyverse (and other clients that provide compatibility).\r\n\r\nDisplaying these reactions is new behavior, and I like it, but I can't make a compatible implementation unless we have a spec. If it's just a string then I'd expect that I can post an `expression` like \"lol this is really funny, thanks for posting this meme!\" and have it show up in Manyverse/etc, which I'm guessing (?) is not a promise we want to make.",
+    "text": "Making small SSB implementations from scratch is actually really fun. It's frustrating when the crypto doesn't work, but it's *so* satisfying when you see a new message replicate.\r\n\r\nI've made three implementations so far (two Node.js, one Deno) and it's kinda neat to mix and match the parts.\r\n\r\nIt's also been a great learning experience: I didn't realize that Ed25519 depends on SHA512, which means that we use **two** hash algorithms under the hood.\r\n\r\nI think my next implementation will probably follow advice from [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) and to try libsodium next. It's convenient to be able to use either the standard library or a minimal implementation that does only what I need, but having a big toolbox with everything you need has its advantages too. :)\r\n\r\n#nodejs #deno #ssb #crypto #libsodium",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
       },
       {
-        "link": "@gaQw6z30GpfsW9k8V5ED4pHrg8zmrqku24zTSAINhRg=.ed25519",
-        "name": "SoapDog"
+        "link": "#nodejs"
+      },
+      {
+        "link": "#deno"
+      },
+      {
+        "link": "#ssb"
+      },
+      {
+        "link": "#crypto"
+      },
+      {
+        "link": "#libsodium"
       }
-    ],
-    "root": "%jsIQ9KqvQe/R8YtmVzTK/tbghAJNaPrXgMNRfwIdJhQ=.sha256",
-    "branch": [
-      "%+aph+RFj+t6WzdQzJeoyXylsMWz7WkKq6vvDJFDxSXg=.sha256"
     ]
   },
-  "signature": "dWawxfOUPEpkOgZcbmGzImcyoe3SXrdlndcje+b5QpoeYQWZTifiizqyr2eXIL/8Ku6YomM3N7o1RbMn0+WtBA==.sig.ed25519"
+  "signature": "QdNyDz0dsbRumqob0M7JDWEITCz02hN27K7RkGaFq8rNPvOs5v/mLjDBCjjZ7TTZn+atEsz5AtWOAyWewBuQAg==.sig.ed25519"
 }
