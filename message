@@ -1,18 +1,26 @@
 {
-  "previous": "%DeLVJz208BxgBuAIV8IGYqOzv1V1g8s+Slv6gqroKLQ=.sha256",
-  "sequence": 17564,
+  "previous": "%56vwTP5KBMYLbKABdbRKVhZg8qqqqz8p5i4Hrtu+JM0=.sha256",
+  "sequence": 17565,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589595857803,
+  "timestamp": 1589596715887,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%yyv5ZlE99AfDtk/d+lfng3PlTZd2aTPB/Uagmo+EmaQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI love it! I really hope you prototype this because I'd like to play with it.\r\n\r\nAssuming forks are allowed / encouraged, `sequence` would just basically just be *depth* in a big merkle tree. I think the hard problem is just replication, since `sequence` would no longer refer to the number of messages you have?\r\n\r\ncc: [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519)",
+    "mentions": [
+      {
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
+      },
+      {
+        "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+        "name": "cryptix"
+      }
+    ],
+    "root": "%yyv5ZlE99AfDtk/d+lfng3PlTZd2aTPB/Uagmo+EmaQ=.sha256",
     "branch": [
       "%CVS/EX8yDuT7e2h7ivqlV8whgsXaV9IVybEuwBwh1k8=.sha256"
     ]
   },
-  "signature": "z4QMOdbDmMoOKBNOfMkRQrqsP2YkcjPLTLZimDT/74ZHB2uXQeluZv4EBQETpeieUbJGiDqaJFD3ezqEwEGVBg==.sig.ed25519"
+  "signature": "WrPkzKftGey0l4GAt/2m8OCFKCT+TiP4Gn1fglQNPjzT5sBQhHHSUpNCjEqUkPSJmCSq/WZ7Sd6ScHK25rpeBw==.sig.ed25519"
 }
