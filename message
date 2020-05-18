@@ -1,22 +1,26 @@
 {
-  "previous": "%1aPZBVW5ofEI8SYIM1nnAon8QTBKikq0XxUUihWQnNY=.sha256",
-  "sequence": 17588,
+  "previous": "%MCYSfyD7hoqMvDkNT5nXnYTs0Ctcak/hNC05/A5KPrU=.sha256",
+  "sequence": 17589,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589830861596,
+  "timestamp": 1589833166573,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519)\r\n\r\nHmm. Everything I know is documented in the [Patchwork docs](https://github.com/ssbc/patchwork/blob/master/docs/INSTALL.md). Assuming you have libtool and automake, I'm not sure what else you'd need to do.\r\n\r\nI did a quick search though, and found this: https://github.com/JunSuzukiJapan/atom-keyboard-macros/issues/26\r\n\r\nMaybe that's useful?",
+    "text": "[@squicc](@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519)\r\n\r\nthank you! I'm happy you like them.\r\n\r\n>  would replication (or in other words “keeping the db up to date automatically”) be in scope for this experiment?\r\n\r\nyeah! I added some details on that in [this comment](%Ujpv89vIPsL8xW74f4SC6fES9h3vlmDdTJ/PH+MA2Oo=.sha256), but TL;DR \"hell yes\". I think replication should be simple, since there's an index with each:\r\n\r\n- author\r\n- latest sequence number\r\n- link to all messages\r\n\r\nIf your local sequence number for that author is lower than what the remote promises, HTTP GET the link to all messages! This will be more efficient when I add `?offset=12345` so you can skip the first 12345 messages (assuming you already have them locally), but even without that it's still 'fast enough' IMO.",
     "mentions": [
       {
         "link": "@k9xSaKW2kc+Ko8Vx+xvFmVC5gEi/tIA2TpV6EBQ7MPw=.ed25519",
         "name": "squicc"
+      },
+      {
+        "link": "%Ujpv89vIPsL8xW74f4SC6fES9h3vlmDdTJ/PH+MA2Oo=.sha256",
+        "name": "this comment"
       }
     ],
-    "root": "%Tz5X6lKmJPZfNacVceoa92GuHNS5HNb1BMUxtYEmE78=.sha256",
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%ysSHmCzMUFUttJ/twtzmcVxI2p3Fs6gjBzsEO/axlg4=.sha256"
+      "%jWw9siww0YPx8Rjxs2MdOKp7YxZvEKKV4bTOgAQcBMA=.sha256"
     ]
   },
-  "signature": "6+Noaxob0VOOhrSBXjRHa/gGqAi9WHyFB0Ts42cKM+S+dikFUtnrfedzxRGItA+2KcJXdTSzfyp1y8jcKnJiDQ==.sig.ed25519"
+  "signature": "FV8bw6fHyENtijABbicj+ljeGvNdyutHrue+38WykZvUH2Lh0fbIJO0cga4Yi2huiNyaOcwVE1ihz30PeXJwBw==.sig.ed25519"
 }
