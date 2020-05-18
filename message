@@ -1,23 +1,18 @@
 {
-  "previous": "%xk5wjVhJdkqig//NUhw/jjG+QPg3/rhDql2u3Qlg+JU=.sha256",
-  "sequence": 17580,
+  "previous": "%Ujpv89vIPsL8xW74f4SC6fES9h3vlmDdTJ/PH+MA2Oo=.sha256",
+  "sequence": 17581,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589826074694,
+  "timestamp": 1589826225775,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nRight now I have two projects:\r\n\r\n- [example-ssb](https://github.com/christianbundy/example-ssb/blob/master/index.js), which takes a JavaScript object as input and publishes a message\r\n- [http-ssb](https://github.com/christianbundy/http-ssb/blob/master/index.js), which ingests messages via HTTP POST, validates them, stores them in SQLite, and exposes data over HTTP GET ([demo](https://daily-alluring-robe.glitch.me/))\r\n\r\nMy next steps are just:\r\n\r\n- Combine these two small projects.\r\n- Add some validation for messages we want to ingest (maybe each server is centered on one person, and allows messages within N hops?)\r\n- Add some auto-replication where the app:\r\n  - Reaches out to known endpoints\r\n  - Compares our replication status with theirs\r\n  - HTTP GETs any messages that we want to download\r\n  - HTTP POSTs any messages that that we want to upload\r\n\r\nI'm hoping that's achievable in only a few hundred lines of code, and should (hopefully!) be easy to port directly to other high-level languages. \r\n\r\nThe main trade-off with replacing Multiserver + SHS + Box-Stream + MuxRPC and replacing it with HTTP is that a MITM can see which feeds you're requesting, but in my mind this is similar to your ISP being able to see which domain names you're accessing. It's not great, but I think there are lots of use-cases where the simplicity and developer ergonomics might be more useful than the transport encryption. \r\n\r\nPrivate messages, of course, would continue to be encrypted, and we'd have the option of adding TLS or SHS/etc, but for a 'minimal SSB implementation' that's a problem I'm kicking down the road a bit.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Pd4mrnivt00bTsyUs5l2DT7PV+EEs8PSxTtDxmJPd04=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%EBX64cz/DmKdGVwY9ujCph/EYad7RQvBJ2NVoTzX+Ps=.sha256",
-      "%YN0Xj8ww/C6JOAiQVpl4st85h7QzV12EzTOhmOCQqXY=.sha256"
+      "%Pd4mrnivt00bTsyUs5l2DT7PV+EEs8PSxTtDxmJPd04=.sha256"
     ]
   },
-  "signature": "uUgZG4mFJeHhUzSXKCLSU5S6rmoSNZRbmcQPl90U0fU42vK5klq/dK85vvXhBokzH2xhbvdpRZk5h9zRncRMDQ==.sig.ed25519"
+  "signature": "2hJzYL7FqM0QBtIZUMU00aXbLaxduKUIWC1DCzLoXYkM7mY92dSrLn2r2NFUYbyl6jYw71zfxc2VkK2CcEJ8Aw==.sig.ed25519"
 }
