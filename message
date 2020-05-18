@@ -1,22 +1,18 @@
 {
-  "previous": "%8mVj6GZ6crMGGWJdpRjF6FrZLu4pmuVLJhYe7KyMPx4=.sha256",
-  "sequence": 17583,
+  "previous": "%xBu5YAMJ+jgnZiS0RnbhnqjafyH9cSsmWwCmEYNdHE8=.sha256",
+  "sequence": 17584,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589828095460,
+  "timestamp": 1589828181164,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nOne of the things that I'm most excited about is how fast HTTP(S) is, even when you're downloading my entire feed from a cheap little glitch.com VM:\r\n\r\n```console\r\n$ hyperfine 'curl https://daily-alluring-robe.glitch.me/author/%40%2BoaWWDs8g73EZFUMfW37R%2FULtFEjwKN%2FDczvdYihjbU%3D.ed25519 > /dev/null'\r\nhyperfine 'curl https://daily-alluring-robe.glitch.me/author/%40%2BoaWWDs8g73EZFUMfW37R%2FULtFEjwKN%2FDczvdYihjbU%3D.ed25519 > /dev/null'\r\n  Time (mean ± σ):      3.131 s ±  0.466 s    [User: 62.0 ms, System: 41.3 ms]\r\n  Range (min … max):    2.498 s …  3.829 s    10 runs\r\n```\r\n\r\nThat's every message I've ever published (17.5k) in as little as 2.5 seconds, even *with* TLS and no compression, plus all of the moving parts are well-specified and widely implemented.\r\n\r\nI've learned a ton while developing on the bleeding edge, and I hope that people continue to research new and interesting network/crypto tooling, but I'd wager that HTTP/etc are 'good enough' for the vast majority of people who want to develop applications on top of SSB.",
-    "mentions": [
-      {
-        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
-        "name": "punkmonk"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%RyxvVkw4AqdBN0y1czpPjSTFgGo/uP0qQlFNjQUyvGw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%Ujpv89vIPsL8xW74f4SC6fES9h3vlmDdTJ/PH+MA2Oo=.sha256"
+      "%3qtjuxGYE6owLLDkppOXQqiyaRaFt1AntorHWPLCHic=.sha256"
     ]
   },
-  "signature": "WXJDItMELY8m027YyMG0N/2JaJEM1GrBNlBscnzBEHvvY/67xjfq8ZHyzkNasns/AOL+g3dCDV7cVM0jIJhZDg==.sig.ed25519"
+  "signature": "wD7n7hktgxvKcuEWo0jxSv9s/+vMb3i8oHt0n2Eeo4wNdlOMylS81Nl6ZseB4Sa9euuHDpVunU+oKAIcSzB+BA==.sig.ed25519"
 }
