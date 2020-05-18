@@ -1,22 +1,23 @@
 {
-  "previous": "%AjmVn2tQHHgGhtHwzxcCnzNsQH0v5SU64AhlnTGIXNo=.sha256",
-  "sequence": 17579,
+  "previous": "%xk5wjVhJdkqig//NUhw/jjG+QPg3/rhDql2u3Qlg+JU=.sha256",
+  "sequence": 17580,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589824533064,
+  "timestamp": 1589826074694,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Matt Lorentz](@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519)\r\n\r\nWe took the easy way out and just got a window air conditioner, specifically the Frigidaire FGRC084WA1 ([obligatory](https://thewirecutter.com/reviews/best-air-conditioner/). Window units aren't super attractive (or particularly convenient), but when trying to cool down a space it makes sense to keep the big hot appliance as close to outside as possible.",
+    "text": "[@punkmonk](@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519)\r\n\r\nRight now I have two projects:\r\n\r\n- [example-ssb](https://github.com/christianbundy/example-ssb/blob/master/index.js), which takes a JavaScript object as input and publishes a message\r\n- [http-ssb](https://github.com/christianbundy/http-ssb/blob/master/index.js), which ingests messages via HTTP POST, validates them, stores them in SQLite, and exposes data over HTTP GET ([demo](https://daily-alluring-robe.glitch.me/))\r\n\r\nMy next steps are just:\r\n\r\n- Combine these two small projects.\r\n- Add some validation for messages we want to ingest (maybe each server is centered on one person, and allows messages within N hops?)\r\n- Add some auto-replication where the app:\r\n  - Reaches out to known endpoints\r\n  - Compares our replication status with theirs\r\n  - HTTP GETs any messages that we want to download\r\n  - HTTP POSTs any messages that that we want to upload\r\n\r\nI'm hoping that's achievable in only a few hundred lines of code, and should (hopefully!) be easy to port directly to other high-level languages. \r\n\r\nThe main trade-off with replacing Multiserver + SHS + Box-Stream + MuxRPC and replacing it with HTTP is that a MITM can see which feeds you're requesting, but in my mind this is similar to your ISP being able to see which domain names you're accessing. It's not great, but I think there are lots of use-cases where the simplicity and developer ergonomics might be more useful than the transport encryption. \r\n\r\nPrivate messages, of course, would continue to be encrypted, and we'd have the option of adding TLS or SHS/etc, but for a 'minimal SSB implementation' that's a problem I'm kicking down the road a bit.",
     "mentions": [
       {
-        "link": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
-        "name": "Matt Lorentz"
+        "link": "@EaYYQo5nAQRabB9nxAn5i2uiIZ665b90Qk2U/WHNVE8=.ed25519",
+        "name": "punkmonk"
       }
     ],
-    "root": "%XcyJkJUtJ90uH1qZjA6PiSJGwoIcee/Qz3Y3fCA0Aag=.sha256",
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%W+XqP7kVboTlydUsuQR1JtPX13ly3EBks226d8F4g3o=.sha256"
+      "%EBX64cz/DmKdGVwY9ujCph/EYad7RQvBJ2NVoTzX+Ps=.sha256",
+      "%YN0Xj8ww/C6JOAiQVpl4st85h7QzV12EzTOhmOCQqXY=.sha256"
     ]
   },
-  "signature": "gLfI2hwqjNZP89v6FU7nfsnzSG/+UL0NosnNf4e2Oas79tdFkx7O2ghXi9HWjxzJeS7gAvy9ZWTRSKv+U6NKBg==.sig.ed25519"
+  "signature": "uUgZG4mFJeHhUzSXKCLSU5S6rmoSNZRbmcQPl90U0fU42vK5klq/dK85vvXhBokzH2xhbvdpRZk5h9zRncRMDQ==.sig.ed25519"
 }
