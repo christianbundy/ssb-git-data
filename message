@@ -1,22 +1,18 @@
 {
-  "previous": "%vHCphxhQ3ze58wUnjSOEmDM6dgPWxGkW2drijVyQViE=.sha256",
-  "sequence": 17574,
+  "previous": "%dqGccs6LGgvsx8lK+WoSjUQFcNqFLd3MbfU4dhrnX5c=.sha256",
+  "sequence": 17575,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589744741367,
+  "timestamp": 1589761180083,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Powersource](@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519)\r\n\r\nI'm imagining this project + [message publish code](https://github.com/christianbundy/example-ssb) and  we'd have a full SSB implementation that only a couple hundred lines of easy-to-read code.\r\n\r\nRight now the only dependencies are [ssb-validate](https://github.com/ssbc/ssb-validate), [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3/), and [express](https://github.com/expressjs/express), but honestly sqlite is the only dependency that I'd feel uncomfortable implementing myself from scratch. 🙃",
-    "mentions": [
-      {
-        "link": "@Vz6v3xKpzViiTM/GAe+hKkACZSqrErQQZgv4iqQxEn8=.ed25519",
-        "name": "Powersource"
-      }
-    ],
-    "root": "%vFpQ6DXQY1ZhN03qUeDpmKfDBHASqvHG3SrQThX6r6I=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%+gwNDFg1fKBYzqBdkWPihEfq5Y93wTDC2eFy26NpYiE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%vHCphxhQ3ze58wUnjSOEmDM6dgPWxGkW2drijVyQViE=.sha256"
+      "%+gwNDFg1fKBYzqBdkWPihEfq5Y93wTDC2eFy26NpYiE=.sha256"
     ]
   },
-  "signature": "kyHD/+QQokn3vMcUTaP9MSrBGTRmfQS9jGCMctukkY58DHdGdTG6z6G3m7+mKmVTPfeSm7oFMs8w/YVv6bxEDA==.sig.ed25519"
+  "signature": "zbXa1QyPyLBiIajgcfhuTtUeB6oe2VWsqDZRWjeNIDAhExkbe8F2ciyzKhRKYvz7ZF7ct451sR79BxCLT+ysBA==.sig.ed25519"
 }
