@@ -1,18 +1,22 @@
 {
-  "previous": "%WJv4vGd9qvjud2Fb+jLNHRES78GGBpKp8WrK/eNTZNU=.sha256",
-  "sequence": 17597,
+  "previous": "%L2kf/rGycIEMzaeyeWRVS6DDfiU3r7iBYWRBZrD+7EU=.sha256",
+  "sequence": 17598,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589901964705,
+  "timestamp": 1589902214004,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%aHrNEN80xQTuczurQ1NF8BEBV+p7e5tvVQlWyS80Xio=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\n> À propos nodejs, can oasis run on `deno`, @bundy?\r\n\r\nNot yet, but since I've been writing lots of SSB stuff from scratch in plain JavaScript I think this is very possible. The only big dependency missing is SQLite -- there's a Deno module but it isn't very mature.\r\n\r\nI really want Node.js + Deno + Browser, but I need a platform-agnostic router (e.g. [http-spa](http://github.com/christianbundy/http-spa)) for that to work.",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%EMxP8hxz1sXSzsGEERMtg/DXpT4BYLN4VABu+q1EatE=.sha256",
     "branch": [
       "%aHrNEN80xQTuczurQ1NF8BEBV+p7e5tvVQlWyS80Xio=.sha256"
     ]
   },
-  "signature": "hTVtpbpMCScC5ZygdULb1F72TNsxftT9F1fK2n03UhTxqPqli8vM6ExzNfuQkfBicZrnxoUjH/+gKPsrEnV2BQ==.sig.ed25519"
+  "signature": "20D8zXJvyGEbjpYkaHdRrq4tKp6J3YZPZT2DDihjc6QL1Eud04zCD8FMH1bQmnt+X6Pm6eWy6u8TwsxtUXSJBg==.sig.ed25519"
 }
