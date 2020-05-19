@@ -1,18 +1,22 @@
 {
-  "previous": "%/cC3qUHEpcONOQLLVJPaj+zQapXpnBUK9Ou0wyiBnbU=.sha256",
-  "sequence": 17592,
+  "previous": "%wT2jzOc0HiG2qPUlKmWWfGc4QTnzQoD0Rv490Xy/noU=.sha256",
+  "sequence": 17593,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589848500101,
+  "timestamp": 1589858369441,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%8EhwgqeNOzgHRpBrL2EMMQe2KuncD78DpZM0mAnuNPg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Spencer Dub Lite (📱)](@I3GjbZSNA7p9jmf8yWoVZmheSpJohCI1hKt42YtIWTo=.ed25519)\r\n\r\nHi! This should do the trick:\r\n\r\n```sh\r\nps ax | grep '[o]asis'  | awk '{ print $1 }' | xargs kill\r\n```\r\n\r\nAlthough *really*, it sounds like you have two problems, both of which would make for great GitHub issues if you'd like to document them:\r\n\r\n- Not being able to close Oasis -- known issue, although not documented anywhere. :)\r\n- 'I can't seem to edit my profile through Oasis' sounds like a bug I haven't heard. My profile has an 'Edit profile' link, maybe you're on an old version? `npx global-install fraction/oasis` should bring you up-to-date.",
+    "mentions": [
+      {
+        "link": "@I3GjbZSNA7p9jmf8yWoVZmheSpJohCI1hKt42YtIWTo=.ed25519",
+        "name": "Spencer Dub Lite (📱)"
+      }
+    ],
+    "root": "%EMxP8hxz1sXSzsGEERMtg/DXpT4BYLN4VABu+q1EatE=.sha256",
     "branch": [
-      "%8EhwgqeNOzgHRpBrL2EMMQe2KuncD78DpZM0mAnuNPg=.sha256"
+      "%EMxP8hxz1sXSzsGEERMtg/DXpT4BYLN4VABu+q1EatE=.sha256"
     ]
   },
-  "signature": "cHXpaZwQ1M06+NmI3PAUAgVAauPOwJUeIyw8+4hThwyUa6gm1/oziwgluAesKLgMWFdX0HYfmknE0A1Sz8EJBQ==.sig.ed25519"
+  "signature": "aDus/hHOu2oaUP/XEjVhkP4tn+71l8wlJqXrQETl0MfbT8Cr3Eogdh1xwTRIlpiQV4dB2nHh/4gjJtVw5df6Dw==.sig.ed25519"
 }
