@@ -1,22 +1,28 @@
 {
-  "previous": "%cE7IuFdOj2ASlPqx4VsMDu1dWI2Qgibj/mEEhpCB+mg=.sha256",
-  "sequence": 17603,
+  "previous": "%UUZ21TVroQy5G+BPwDMhcw+lQVHxtIxqFbyAcxcZzyo=.sha256",
+  "sequence": 17604,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589989257865,
+  "timestamp": 1589989407450,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Gergely Polonkai](@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519)\r\n\r\nUnfortunately not, there's a small table here: https://github.com/fraction/oasis#can-i-run-this-at-the-same-time-as-patchwork-and-other-ssb-apps",
+    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\r\n\r\n> doesn’t #sbotc and other #ssb-clients encrypt their connection to the ssb-server? I thought so… I might be mistaken.\r\n\r\nThey can, but at least Patchwork and Oasis use the `noauth` transform when connecting via a unix socket so that they don't have to do unnecessary crypto. If someone can access `~/.ssb/socket` then they can access `~/.ssb/secret`, so we can just trust the socket.\r\n\r\nExample code using unix~noauth: https://github.com/fraction/oasis/blob/master/src/ssb.js#L18",
     "mentions": [
       {
-        "link": "@I1JSeKes1DIBawiMok7WZ8w3Auo7CTq/VMRYId22+5A=.ed25519",
-        "name": "Gergely Polonkai"
+        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
+        "name": "SoapDog (Macbook)"
+      },
+      {
+        "link": "#sbotc"
+      },
+      {
+        "link": "#ssb-clients"
       }
     ],
-    "root": "%YV+wPZ3R8m5/SxGyensuyJ4iYcNaMGkZY9K0Am4P15M=.sha256",
+    "root": "%JGBH7nEgvU2jZtaQLivCLOMJxqYkd7xWoCmRICFS0NQ=.sha256",
     "branch": [
-      "%YV+wPZ3R8m5/SxGyensuyJ4iYcNaMGkZY9K0Am4P15M=.sha256"
+      "%JGBH7nEgvU2jZtaQLivCLOMJxqYkd7xWoCmRICFS0NQ=.sha256"
     ]
   },
-  "signature": "hvGhD+vfta0HesnXAhRB5Ay8s8EXnB4KEPBL/a5wdXGvBu1gxxQ1GU4JLCxk2eyiMKYGU9XUvjlLgmvOe5p4DA==.sig.ed25519"
+  "signature": "koPhX1i73QTzj/eo7Pw5rvTUGo6mw2MPxV0dTuE0DvMWyhR6wWkfNR+kvdmC4qYmlVYrTXe1p450tS3eNHBnBA==.sig.ed25519"
 }
