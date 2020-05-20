@@ -1,28 +1,22 @@
 {
-  "previous": "%UUZ21TVroQy5G+BPwDMhcw+lQVHxtIxqFbyAcxcZzyo=.sha256",
-  "sequence": 17604,
+  "previous": "%lTbasO6Iuyq6h5TfpKIKY9npRSi9yzvwqeqD30T/DGc=.sha256",
+  "sequence": 17605,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1589989407450,
+  "timestamp": 1590006185375,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (Macbook)](@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519)\r\n\r\n> doesn’t #sbotc and other #ssb-clients encrypt their connection to the ssb-server? I thought so… I might be mistaken.\r\n\r\nThey can, but at least Patchwork and Oasis use the `noauth` transform when connecting via a unix socket so that they don't have to do unnecessary crypto. If someone can access `~/.ssb/socket` then they can access `~/.ssb/secret`, so we can just trust the socket.\r\n\r\nExample code using unix~noauth: https://github.com/fraction/oasis/blob/master/src/ssb.js#L18",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nYes! Thank you, I'm excited to add a validator and add these to my db.",
     "mentions": [
       {
-        "link": "@qv10rF4IsmxRZb7g5ekJ33EakYBpdrmV/vtP1ij5BS4=.ed25519",
-        "name": "SoapDog (Macbook)"
-      },
-      {
-        "link": "#sbotc"
-      },
-      {
-        "link": "#ssb-clients"
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
       }
     ],
-    "root": "%JGBH7nEgvU2jZtaQLivCLOMJxqYkd7xWoCmRICFS0NQ=.sha256",
+    "root": "%GqShz/S3ii1l3mmV87mctqR08OXz8g4NxMOrIjvpcKE=.sha256",
     "branch": [
-      "%JGBH7nEgvU2jZtaQLivCLOMJxqYkd7xWoCmRICFS0NQ=.sha256"
+      "%oB+aeyYjMNFZUcS8LaXNUMnBXOF+Z3pYMwcU3C3RIZI=.sha256"
     ]
   },
-  "signature": "koPhX1i73QTzj/eo7Pw5rvTUGo6mw2MPxV0dTuE0DvMWyhR6wWkfNR+kvdmC4qYmlVYrTXe1p450tS3eNHBnBA==.sig.ed25519"
+  "signature": "di3qOVKVD4zNIjyTb9IZ0oEzMk57ro5Um3iW9yXfj8Mb6SnLitxhe+eEfm+4HsrfjL2QwVtMWNlwM7D8QAzMAA==.sig.ed25519"
 }
