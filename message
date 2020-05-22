@@ -1,22 +1,22 @@
 {
-  "previous": "%prXv6qs2WuSrFNoK01avsQsdWW9eaAjAIzDOKzW+xpQ=.sha256",
-  "sequence": 17618,
+  "previous": "%HpulWd5MIfs/0XPNMNNeIuWv4Z+zxoenMZ4ZcahJRaw=.sha256",
+  "sequence": 17619,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590166883094,
+  "timestamp": 1590167818497,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nThis is great! 🎉\r\n\r\nApologies in advance, but just to make things more complicated: another option would be to take a \"you only need one parser\" policy, where you don't have any prefixes or suffixes or anything that would require extra parsing:\r\n\r\nExample where you need a parser:\r\n\r\n```\r\nsignature: abc.sig.ed25519\r\n```\r\n\r\nExample where you don't:\r\n\r\n```\r\nsignature: abc\r\nsignature_type: ed25519\r\n```\r\n\r\nI don't know whether this fits in your goal, but it's something I've been thinking about a bunch lately and thought I'd throw it into the mix. Data has to be encoded somehow, but it's nice when you can base64-decode without having to spend any energy on string manipulation to wrangle prefixes/suffixes.",
+    "text": "[@cryPhone📱](@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519)\r\n\r\nPro-tip: Set your password to 9999 so that it takes the longest amount of time for a stackoverflow-style \"how do I brute force a password\".",
     "mentions": [
       {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "Nｅｔｓｃａｐｅ Navigator™"
+        "link": "@uOReuhnb9+mPi5RnTbKMKRr3r87cK+aOg8lFXV/SBPU=.ed25519",
+        "name": "cryPhone📱"
       }
     ],
-    "root": "%BXRqNCJsZutPKV5jzVeFywmpzNIEkeUJ7QfymjdSnhg=.sha256",
+    "root": "%Q0ORY4BMTJo+QzhS4VypYJrAGkB14Q0BZo611KVLANA=.sha256",
     "branch": [
-      "%BXRqNCJsZutPKV5jzVeFywmpzNIEkeUJ7QfymjdSnhg=.sha256"
+      "%6aDOlpz4cjaLrG0xYumbc4DqLOLfccwadHcBHsieoiw=.sha256"
     ]
   },
-  "signature": "ABMJHht16+4ID0gybf3B0B61DsADF/RUiZ0sykRfl0lS37aI27OUda1lHVxRvepGnnK3Jd6iJcXI/cQKlp/6BA==.sig.ed25519"
+  "signature": "9dBfOD1Xd03zq5KrmEY7at2+QOhEuFQlBv+F8gJWmegN2ttvJhHVx/fhETDzr+qblcAnwN7kkkfLeXa2F8i5DQ==.sig.ed25519"
 }
