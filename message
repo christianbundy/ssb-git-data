@@ -1,18 +1,26 @@
 {
-  "previous": "%yLc1SAY2RoEHDZv+r67XUET7u7bjiVbLPHHxh7LudwI=.sha256",
-  "sequence": 17616,
+  "previous": "%LI3F0Ly/MLirvfI1M7dKCagBy0Dw7PwZXHCcNcSPxJA=.sha256",
+  "sequence": 17617,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590164720248,
+  "timestamp": 1590166333265,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%XHXqCePwDwhBps9h63i9aT2SD3UUgiZ5RZ9HKpLxaRM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n[tru](%8pQKvzDg5t6UwgHqRUfw4MhAQ/UcEs+/HLjMwjLFsmo=.sha256)\r\n\r\nIt's using those messages to mean \"I'm posting on someone's wall\", which doesn't conform to our non-existent specification. :~)",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "%8pQKvzDg5t6UwgHqRUfw4MhAQ/UcEs+/HLjMwjLFsmo=.sha256",
+        "name": "tru"
+      }
+    ],
+    "root": "%j86Q8znVirxOvLeC3mQMucvrKB+zMuTMJLN1roXPO3k=.sha256",
     "branch": [
-      "%XHXqCePwDwhBps9h63i9aT2SD3UUgiZ5RZ9HKpLxaRM=.sha256"
+      "%WLggezS5O0WCxuT3tA+U7WrQO4r+uB4mt70F+gDgPwk=.sha256"
     ]
   },
-  "signature": "xqj8+jT80/t5bKHtokeROOeZnEJG0wmpgbkUMMM6FBra37k+qwiPgoUDqkE8Z0hSej0dSy4mu+aTH//1voqUCQ==.sig.ed25519"
+  "signature": "jPsZHyD5Yo+z0+/R6HM851ByhgOdp11wm4dpRF4egCpBzTKXcOgVwIhH+uojJO4kwtq6bEEzYyrFeh4J+KR6AQ==.sig.ed25519"
 }
