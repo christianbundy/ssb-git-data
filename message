@@ -1,22 +1,22 @@
 {
-  "previous": "%rxUFjvG1p92om9zV0p7TDH7E+zJFXq0oClr1vpHTr+c=.sha256",
-  "sequence": 17626,
+  "previous": "%KoYHx8i4IqIi1v2/Qx33TakGOoulXpAgJ4H9qCp8Q7s=.sha256",
+  "sequence": 17627,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590175266703,
+  "timestamp": 1590176463436,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Powersource (phone)](@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519)\r\n\r\nI know Signal runs their contact discovery via [SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions), maybe they have the PIN with rate-limiting implemented there too?\r\n\r\nAt the end of the day, hardware access should be considered root access, even though I'm sure they're doing the best that they can to avoid having access to our data. 🤷",
+    "text": "[@rchaves](@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519)\r\n\r\n🤷\r\n\r\nI don't think the invisible spec has a concept of walls, so it's hard to say. If it were me, I'd probably add my own property like `{ wall: feedId }`, otherwise you're going to conflict with `root` semantics (which usually point to the original message in a thread).",
     "mentions": [
       {
-        "link": "@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519",
-        "name": "Powersource (phone)"
+        "link": "@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519",
+        "name": "rchaves"
       }
     ],
-    "root": "%Q0ORY4BMTJo+QzhS4VypYJrAGkB14Q0BZo611KVLANA=.sha256",
+    "root": "%j86Q8znVirxOvLeC3mQMucvrKB+zMuTMJLN1roXPO3k=.sha256",
     "branch": [
-      "%11qbO7uu5VRVbYL0x1Tohou4p3u7xfiXqUveuTryWx0=.sha256"
+      "%KDELWWesejgqIizt3V0/gL8hMjQXwIGeODAfxRqx0AQ=.sha256"
     ]
   },
-  "signature": "aIpybbJ91mVfm0/ij02jokpgzmFq43wpB0FckaZVtB751JNXpNL1NmMungorG1n/ZaKNDhGL97lZNAt++46nAg==.sig.ed25519"
+  "signature": "WUsnQPWwHYdUxZh4fp4QPsXPgYQMcRfNWMk9FNkol+8yw76klSbujwF32gMcKry+FIjduVD38IYP6IYyOhQaAg==.sig.ed25519"
 }
