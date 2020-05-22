@@ -1,18 +1,23 @@
 {
-  "previous": "%ZgDoFDdRjgLrXvrY94Xib7SpY8z/KPjQa1n5e/RIxfA=.sha256",
-  "sequence": 17613,
+  "previous": "%oDo17e0L86EOJbyU39D9nBXYuXVd5Qpgx+FcZcyq0bg=.sha256",
+  "sequence": 17614,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590114606898,
+  "timestamp": 1590163998492,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%jSDVFKBs2X+Zk0wk1Kj63I6lxVyDn4bQA7y+wVWSWyA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Powersource (phone)](@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519)\r\n\r\n> If someone is e.g. still learning a lot and wants to get a thorough review, how do they mark this?\r\n\r\nIf you ask for suggestions I'm happy to give them, but my workflow for nitpicks are:\r\n\r\n- Merge the contributor's patch.\r\n- Write my own patch, using a nice commit message to describe the problem I saw and the solution I like.\r\n- Open a pull request and CC the original contributor.\r\n- Wait until another maintainer merges my patch.\r\n\r\nMaybe there's a better way to do this? IMO the benefit is that contributors don't even have to know about maintainer nitpicks unless the maintainer cares enough to write their own patch, **or** the contributor explicitly asks for feedback.\r\n\r\n> How do you know if you’re in the situation in 1. (and therefore need to ask to get a thorough review)?\r\n\r\nMy preference would be to have everyone use the same style, which I've done in Oasis, but is coordination that takes lots of effort in the SSBC org. If someone really wants to revive the SSBC then I'd suggest doing this, but right now it's a mix of junk modules and \"personal\" modules (!) and \"everyone is the maintainer\" modules and to be candid I'm trying to avoid SSBC modules in my dependency graph.",
+    "mentions": [
+      {
+        "link": "@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519",
+        "name": "Powersource (phone)"
+      }
+    ],
+    "root": "%ZgDoFDdRjgLrXvrY94Xib7SpY8z/KPjQa1n5e/RIxfA=.sha256",
     "branch": [
-      "%jSDVFKBs2X+Zk0wk1Kj63I6lxVyDn4bQA7y+wVWSWyA=.sha256"
+      "%JQNYo6xm9KoR/yAdTOadmJgvqQVJUNv+m5vHKQxbV3c=.sha256",
+      "%QyWeGnEGq/DoPbG+6jvv4BwOUNh5HiqyClNY8msWD78=.sha256"
     ]
   },
-  "signature": "gontmBYTRjBOcHPWnQOteBQKKAP8TY8jqChE75gUkXJGaV3MBqfsc92xBPfBpCfeptmAhIdKhoan1FemaXsoAw==.sig.ed25519"
+  "signature": "8cLsPpf70LnHWFcL4/TzqKKUyeo3QS7VlNlIXTT+QIbpd0qeFpAiVyPLNkYSe+3AJ9hjO/ms7PJFxTT+V87hCw==.sig.ed25519"
 }
