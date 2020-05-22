@@ -1,18 +1,22 @@
 {
-  "previous": "%rbGHRf0/jzpvJQalliiNu9LdAqd98tQOE9zjAFFMnWQ=.sha256",
-  "sequence": 17629,
+  "previous": "%MjvkPu/5haUnLSrp0EVXGz2I1msKX8Dtsqcp7MH8qo4=.sha256",
+  "sequence": 17630,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590179065578,
+  "timestamp": 1590179121743,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%/Q3c2trSYReKwt7tRZaBjHGMX7s6bu6DOtDAYNBRd8o=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@rchaves](@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519)\r\n\r\nSmart! Unfortunately lots of clients don't actually parse `text`, so you'll probably want to add a `mentions` array that describes who you're talking to. I think this message should have one when I publish it. :~)",
+    "mentions": [
+      {
+        "link": "@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519",
+        "name": "rchaves"
+      }
+    ],
+    "root": "%j86Q8znVirxOvLeC3mQMucvrKB+zMuTMJLN1roXPO3k=.sha256",
     "branch": [
       "%/Q3c2trSYReKwt7tRZaBjHGMX7s6bu6DOtDAYNBRd8o=.sha256"
     ]
   },
-  "signature": "rTx0VcBRhTXCTMLzqCQWYdYuJdUUmAdOhqRv0C0IREvk9CiLqHIsXlkjygIMaQJVd74PB+bVg4fv4KFnAFD7DA==.sig.ed25519"
+  "signature": "+V6+VQBID+C75A81DOiHUZbs+759HxZqnzN0e2Xe3viv7bu5PEsqwiEKl7YWRe4T0lbW5cOIth9/IFrEcKydBg==.sig.ed25519"
 }
