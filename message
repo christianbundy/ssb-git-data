@@ -1,22 +1,26 @@
 {
-  "previous": "%KoYHx8i4IqIi1v2/Qx33TakGOoulXpAgJ4H9qCp8Q7s=.sha256",
-  "sequence": 17627,
+  "previous": "%qN0qm4SY52vucJSw0e+LoRJfePO19q9uxHta4iQgy98=.sha256",
+  "sequence": 17628,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590176463436,
+  "timestamp": 1590178522995,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@rchaves](@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519)\r\n\r\n🤷\r\n\r\nI don't think the invisible spec has a concept of walls, so it's hard to say. If it were me, I'd probably add my own property like `{ wall: feedId }`, otherwise you're going to conflict with `root` semantics (which usually point to the original message in a thread).",
+    "text": "[Out-of-Sync 'Loners' May Secretly Protect Orderly Swarms](https://www.quantamagazine.org/out-of-sync-loners-may-secretly-protect-orderly-swarms-20200521/)\r\n\r\n#biology #cooperation #evolution #ecology",
     "mentions": [
       {
-        "link": "@VUgbo/ihmVWgh7szFJcG0Tg395T5/8JU0jijEVmyByU=.ed25519",
-        "name": "rchaves"
+        "link": "#biology"
+      },
+      {
+        "link": "#cooperation"
+      },
+      {
+        "link": "#evolution"
+      },
+      {
+        "link": "#ecology"
       }
-    ],
-    "root": "%j86Q8znVirxOvLeC3mQMucvrKB+zMuTMJLN1roXPO3k=.sha256",
-    "branch": [
-      "%KDELWWesejgqIizt3V0/gL8hMjQXwIGeODAfxRqx0AQ=.sha256"
     ]
   },
-  "signature": "WUsnQPWwHYdUxZh4fp4QPsXPgYQMcRfNWMk9FNkol+8yw76klSbujwF32gMcKry+FIjduVD38IYP6IYyOhQaAg==.sig.ed25519"
+  "signature": "H10T8wo9fOxq9DzzHZqV9YBybFrvej+U5bWTYh1zAEQ2tDeEHr2AniS6yiwu3gEcCJG+ZYIX+1mRj/PgoBk7Bw==.sig.ed25519"
 }
