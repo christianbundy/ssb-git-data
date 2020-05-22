@@ -1,22 +1,22 @@
 {
-  "previous": "%LTmrXe9CK3TRVD8/6uNAP2nbFfU5HF34Mb5k5gKsMi8=.sha256",
-  "sequence": 17625,
+  "previous": "%rxUFjvG1p92om9zV0p7TDH7E+zJFXq0oClr1vpHTr+c=.sha256",
+  "sequence": 17626,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590174950086,
+  "timestamp": 1590175266703,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> hyperdrive ssb transport\r\n\r\nI made [this](https://github.com/christianbundy/hyperswarm-secret-handshake) recently, but I don't remember making a hyperdrive SSB transport. Maybe I did? My memory is really really bad.\r\n\r\n> I think the big things missing then are still the big things missing now…\r\n\r\nThanks, I don't think I've seen that list before.\r\n\r\nMy feelings about this are getting stronger every day, and the trajectory seems to be \"I don't want an SSB implementation that takes more than a few days to write from scratch\". I'm feeling very optimistic that we only need a very very very small fraction of the existing code, if any.",
+    "text": "[@Powersource (phone)](@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519)\r\n\r\nI know Signal runs their contact discovery via [SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions), maybe they have the PIN with rate-limiting implemented there too?\r\n\r\nAt the end of the day, hardware access should be considered root access, even though I'm sure they're doing the best that they can to avoid having access to our data. 🤷",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519",
+        "name": "Powersource (phone)"
       }
     ],
-    "root": "%O4xZPRedEXUrE53g7L9v1YspaQDmqznS/mMrPmM+U6g=.sha256",
+    "root": "%Q0ORY4BMTJo+QzhS4VypYJrAGkB14Q0BZo611KVLANA=.sha256",
     "branch": [
-      "%O4xZPRedEXUrE53g7L9v1YspaQDmqznS/mMrPmM+U6g=.sha256"
+      "%11qbO7uu5VRVbYL0x1Tohou4p3u7xfiXqUveuTryWx0=.sha256"
     ]
   },
-  "signature": "fOICPVNgrD8lhaP85C40ITs2I5Gy41tTxDJKSmGkTQYf2XkiCqdPt3ZlswKrRJw1UeMfShhyNxXYaJTjncgtAA==.sig.ed25519"
+  "signature": "aIpybbJ91mVfm0/ij02jokpgzmFq43wpB0FckaZVtB751JNXpNL1NmMungorG1n/ZaKNDhGL97lZNAt++46nAg==.sig.ed25519"
 }
