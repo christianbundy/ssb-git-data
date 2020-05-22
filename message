@@ -1,18 +1,22 @@
 {
-  "previous": "%0/FTJWMz+duaDfQZ2nFPVT/iS8ofZIlnyDjPzt5X8yk=.sha256",
-  "sequence": 17624,
+  "previous": "%LTmrXe9CK3TRVD8/6uNAP2nbFfU5HF34Mb5k5gKsMi8=.sha256",
+  "sequence": 17625,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590174396562,
+  "timestamp": 1590174950086,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%O4xZPRedEXUrE53g7L9v1YspaQDmqznS/mMrPmM+U6g=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> hyperdrive ssb transport\r\n\r\nI made [this](https://github.com/christianbundy/hyperswarm-secret-handshake) recently, but I don't remember making a hyperdrive SSB transport. Maybe I did? My memory is really really bad.\r\n\r\n> I think the big things missing then are still the big things missing now…\r\n\r\nThanks, I don't think I've seen that list before.\r\n\r\nMy feelings about this are getting stronger every day, and the trajectory seems to be \"I don't want an SSB implementation that takes more than a few days to write from scratch\". I'm feeling very optimistic that we only need a very very very small fraction of the existing code, if any.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%O4xZPRedEXUrE53g7L9v1YspaQDmqznS/mMrPmM+U6g=.sha256",
     "branch": [
       "%O4xZPRedEXUrE53g7L9v1YspaQDmqznS/mMrPmM+U6g=.sha256"
     ]
   },
-  "signature": "ldZRFKXMyTUsoo71ThrspG1KzWaLXbtq0yOCpPFYnvOhj1tDZ3mUVR5QCPyFbNeXimdUcc1es1jPIuO/4GGXBQ==.sig.ed25519"
+  "signature": "fOICPVNgrD8lhaP85C40ITs2I5Gy41tTxDJKSmGkTQYf2XkiCqdPt3ZlswKrRJw1UeMfShhyNxXYaJTjncgtAA==.sig.ed25519"
 }
