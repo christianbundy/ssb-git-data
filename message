@@ -1,18 +1,27 @@
 {
-  "previous": "%WLH8xWE8rYgz3u0K5vUqW9oN3eRnbAgbG9KUxntBpis=.sha256",
-  "sequence": 17611,
+  "previous": "%ya9CuvgdQviGorWWE5WC4rF2/1a9izoNSM9xC53zIis=.sha256",
+  "sequence": 17612,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590105254468,
+  "timestamp": 1590106885155,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%mB66iVBEWt8DgoDtf1sY7l6Pu4mif0aoSnJi7LGiyws=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%mB66iVBEWt8DgoDtf1sY7l6Pu4mif0aoSnJi7LGiyws=.sha256"
-    ]
+    "type": "post",
+    "text": "Hi friends.\r\n\r\nI've had a really good experience using the [C4 development process](https://github.com/fraction/oasis/blob/master/docs/contract.md) with Oasis, and I've been slowly changing my posture on SSBC work to use the same sort of development style. It feels weird to change the way I'm working with friends without saying anything about it, so I'd like to be explicit about what I'm doing:\r\n\r\n**I want to make the contributor experience better, and so my new posture is that I'm merging pull requests unless they cause more problems than they solve.** No nitpicks or trivial \"hey this would be slightly more efficient if you\" baloney, just a \"thanks for this patch\" and probably an emoji or two. If we don't like something, we can revert it later.\r\n\r\nObviously this doesn't apply to cryptography modules, and it's important that we remain on the lookout for security-related problems, but I want to be explicit that my new position on most pull requests is going to be 'Just Merge It'. 🤷\r\n\r\nHappy to discuss if anyone thinks this is awful or wonderful. Mostly inspired by: https://hintjens.gitbooks.io/social-architecture/content/chapter4.html and https://felixge.de/2013/03/11/the-pull-request-hack.html\r\n\r\n#ssbc #ssb-js #governance #maintainers",
+    "mentions": [
+      {
+        "link": "#ssbc"
+      },
+      {
+        "link": "#ssb-js"
+      },
+      {
+        "link": "#governance"
+      },
+      {
+        "link": "#maintainers"
+      }
+    ],
+    "contentWarning": "ssbc meta, code reviews, etc"
   },
-  "signature": "vRYirxq/xnOZ8OCUu9kBU7PUwkffS7yaN1jJ65qEH7eMe7uD/UkkyRUJeZDYXM6hdeOz3uZi5TtnduBqQauUCA==.sig.ed25519"
+  "signature": "W0DtM83zHElQH3hRb6yZDXX95mtFtsY0qvhjJhWCI6HYoFE9LzqfttgssnnpJ2f96N08lWOGqN4ZqXn3Wjp3DA==.sig.ed25519"
 }
