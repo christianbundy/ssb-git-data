@@ -1,18 +1,22 @@
 {
-  "previous": "%KX8pbZK8TISoLtmGYeucbQqy94STfobeWYkLA193XUY=.sha256",
-  "sequence": 17620,
+  "previous": "%DS8CAWWa9U7tlzA+OSql3UAxzZCeQ8Xebu9T5F5FZpA=.sha256",
+  "sequence": 17621,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590168562678,
+  "timestamp": 1590169854899,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%FotoJl/bt7jlfooc7e10a6bEzx73X27gseirMBF5t9M=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cameralibre](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519)\r\n\r\nI spent a few minutes skimming the code and I think the problem is in `trackTime()` -- both animations seem to be using the same timer, `this.startTime`, which is being set to `null` when the first animation finishes. I think the problem is that `null` is **both** the magic value for \"the animation hasn't started\" and \"the animation just finished\", which means that setting it to `null` restarts the original animation.\r\n\r\nMy experience building toy animation projects is that my sanity rapidly decreases once I have more than one `requestAnimationFrame()` happening. I think the root problem is that independent animations share mutable state (e.g. `this.startTime`), maybe there's some way to scope the start time to the element /animation?\r\n\r\nSorry I can't be more helpful, I've been spending lots of time in plain old JS and don't really understand what Vue is doing under the hood for you here.",
+    "mentions": [
+      {
+        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
+        "name": "cameralibre"
+      }
+    ],
+    "root": "%reYWHAMzTY+zfdpZHFpimYdTGG2yXGlMjTLhAM/W1P4=.sha256",
     "branch": [
-      "%FotoJl/bt7jlfooc7e10a6bEzx73X27gseirMBF5t9M=.sha256"
+      "%h9KP/V1/rTOkaOTMG17Sb0rkhl8TfrPHkztwO7x24Fk=.sha256"
     ]
   },
-  "signature": "8gpt8O9jvlscjw15Bbvz3oveE6ExIQrdcWTCT4bI6rr520bJWGdrCtXI0RSAk2ieY4coBVrpVhJw5v1WiYu/DA==.sig.ed25519"
+  "signature": "u3vKqLfAEd1CW7XRVjATgXCPlrFk0tIaPBc7PuEJf5+tJuoxKi42eqWnXM/epKr9LCgx1hWD9on35jyNIlAgDw==.sig.ed25519"
 }
