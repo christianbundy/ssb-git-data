@@ -1,22 +1,18 @@
 {
-  "previous": "%q5UUmJ4PXAYLmCI8PyZO6dogiCyuS7yhLUYl2MSLUhI=.sha256",
-  "sequence": 17622,
+  "previous": "%get9qyyBR9V0fZMDwKd0pIk6P+bimxOaxzY4tR1bT+w=.sha256",
+  "sequence": 17623,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590170478598,
+  "timestamp": 1590174316042,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cameralibre](@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519)\r\n\r\nI'm sure there's a cleaner way to do this, but here's an example of a smol hack that fixes the problem. I turned `this.startTime` into an object where the keys are actions (enter, leave) and the values are the start times. It works, but it works *in spite* of Vue whereas I'm guessing you probably want to get this working *with* Vue. Maybe it'll spark an idea on how to do this cleanly.\r\n\r\n```diff\r\ndiff --git a/index.js b/index.js\r\nindex 506c51b..6b7fa49 100644\r\n--- a/index.js\r\n+++ b/index.js\r\n@@ -27,7 +27,7 @@ export default {\r\n       animateFrom: {\r\n         transformTranslate: [0, 0]\r\n       },\r\n-      startTime: null,\r\n+      startTime: {},\r\n       duration: 3000,\r\n       transforms: []\r\n     }\r\n@@ -58,7 +58,7 @@ export default {\r\n       console.log(element.id, 'entering')\r\n \r\n       const tick = () => { // main animation loop\r\n-        const progress = this.getProgress()\r\n+        const progress = this.getProgress('enter')\r\n         // the entering page's transform is offset 100vw from the leaving page\r\n         const offset = true\r\n         this.calculateCurrentValues(progress, offset)\r\n@@ -75,7 +75,7 @@ export default {\r\n     leave (element, done) {\r\n       console.log(element.id, 'leaving')\r\n       const tick = () => {\r\n-        const progress = this.getProgress()\r\n+        const progress = this.getProgress('leave')\r\n         this.calculateCurrentValues(progress)\r\n         this.applyTransformValues(element)\r\n         if (progress === 1) {\r\n@@ -87,15 +87,19 @@ export default {\r\n       tick()\r\n     },\r\n     // functions to calculate and apply animation, which are each called by the main requestAnimationFrame 'tick', within the 'enter' and 'leave' hooks\r\n-    trackTime () {\r\n+    trackTime (action) {\r\n       const now = performance.now()\r\n-      if (!this.startTime) this.startTime = now\r\n-      const elapsed = now - this.startTime\r\n-      if (this.duration != null && this.duration <= elapsed) this.startTime = null\r\n+      if (this.startTime[action] == null) {\r\n+        this.startTime[action] = now\r\n+      }\r\n+      const elapsed = now - this.startTime[action]\r\n+      if (this.duration != null && this.duration <= elapsed) {\r\n+        this.startTime[action] = null\r\n+      }\r\n       return elapsed\r\n     },\r\n-    getProgress () {\r\n-      return this.duration > 0 ? Math.min(this.trackTime() / this.duration, 1) : 1\r\n+    getProgress (action) {\r\n+      return this.duration > 0 ? Math.min(this.trackTime(action) / this.duration, 1) : 1\r\n     },\r\n     calculateCurrentValues (progress, offset) {\r\n       const attributeNames = Object.keys(this.animateTo)\r\n```",
-    "mentions": [
-      {
-        "link": "@UhORGzAhEE3gqy/pH5vK+EgbpZfnyYvdI46TVBJH6Mw=.ed25519",
-        "name": "cameralibre"
-      }
-    ],
-    "root": "%reYWHAMzTY+zfdpZHFpimYdTGG2yXGlMjTLhAM/W1P4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%nHlssNwaPpD17OfNS94eyyhzUAql0eu6Q9F4+ZXqvDw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%q5UUmJ4PXAYLmCI8PyZO6dogiCyuS7yhLUYl2MSLUhI=.sha256"
+      "%nHlssNwaPpD17OfNS94eyyhzUAql0eu6Q9F4+ZXqvDw=.sha256"
     ]
   },
-  "signature": "7hBUXSRWTKMfTjWfh4MZf80Q1iiKoynRpL6uoCcwSrBzY3ByQHFzRqw2uHl7kgM9nhKXcWnr5u9nIdv2ahoFCg==.sig.ed25519"
+  "signature": "1uc2u5OPg9rrbe3qB1PMP5yOj9XFZolqYV7/td95nI7FMnRkwYp6F9pEDJKCmMJpOwQj4CUNxB5Nznkvm884Aw==.sig.ed25519"
 }
