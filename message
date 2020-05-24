@@ -1,21 +1,18 @@
 {
-  "previous": "%Ab6MKHptQX8yj5tPrXcN4lu+IIZ6TgqeXskmEsCSr/s=.sha256",
-  "sequence": 17649,
+  "previous": "%OG1vBRlykaVxifB7wPMExw9PfKJah90SyLzoigV1EZU=.sha256",
+  "sequence": 17650,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590358249281,
+  "timestamp": 1590358394351,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Now in Python!\r\n\r\n```python\r\nimport base64\r\nimport json\r\nimport nacl.encoding\r\nimport nacl.signing\r\nimport time\r\n\r\nsigning_key = nacl.signing.SigningKey.generate()\r\n\r\ndef get_author(signing_key):\r\n    key_bytes = bytes(signing_key.verify_key)\r\n    key_base64 = base64.encodebytes(key_bytes).strip().decode()\r\n    return '@' + key_base64 + '.ed25519'\r\n\r\ndef get_signature(signing_key, unsigned_value):\r\n    unsigned_json = json.dumps(unsigned_value, indent=2)\r\n\r\n    signature_bytes = signing_key.sign(bytes(unsigned_json, 'utf8')).signature\r\n    signature_base64 = base64.encodebytes(signature_bytes).strip().decode()\r\n    return signature_base64 + '.sig.ed25519'\r\n\r\nvalue = {}\r\nvalue['previous'] = None\r\nvalue['author'] = get_author(signing_key)\r\nvalue['sequence'] = 1\r\nvalue['timestamp'] = round(time.time() * 1000)\r\nvalue['hash'] = 'sha256'\r\nvalue['content'] = {}\r\nvalue['content']['type'] = 'post'\r\nvalue['content']['text'] = 'hello world'\r\nvalue['signature'] = get_signature(signing_key, value)\r\n\r\nprint(json.dumps(value, indent=2))\r\n```\r\n\r\n#python",
-    "mentions": [
-      {
-        "link": "#python"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%znVCAfP6Pndx1NlRWAKItnD5GeIIBT3FbMs63vuukJc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%nMIMbl1AB2S3zUPN4s/7Qav7bV5uLX86pvUbNwRc0VA=.sha256"
+      "%znVCAfP6Pndx1NlRWAKItnD5GeIIBT3FbMs63vuukJc=.sha256"
     ]
   },
-  "signature": "+Nulc6x33JkA9gZexfkbrcZVrAdCfN76vG+b3p2Lvw+E7deA7Ah0goZusoOIHcV7QBcSOiZJN05VVEo+BP45Dw==.sig.ed25519"
+  "signature": "1xs17CxQ1VnH8P4THGtUFPalmrWBA9qlLRY3toREZa00mBF8H/7FkuXzRAcwJYT3cx8ySWQjVp5Xzl51ydjtAg==.sig.ed25519"
 }
