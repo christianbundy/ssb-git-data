@@ -1,22 +1,21 @@
 {
-  "previous": "%ccuZ4Zk3w0frOEwA8VyBhuARLy9VG0RgiVjOnVhcn3U=.sha256",
-  "sequence": 17648,
+  "previous": "%Ab6MKHptQX8yj5tPrXcN4lu+IIZ6TgqeXskmEsCSr/s=.sha256",
+  "sequence": 17649,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590358212411,
+  "timestamp": 1590358249281,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@fleeky](@ZOkYV+dBOF8KR12RF8j4yT2n9ajBWKXlFPCdlS+x0D4=.ed25519)\r\n\r\nIIRC Mastodon has its own client-server API that's meant to be used by interfaces, which is distinct from the actual ActivityPub federation code. I have a weird memory that Pleroma was going to eventually support the Mastodon client-server API, but I don't know if that's true. Assuming they don't, that would explain why it only works with Mastodon.",
+    "text": "Now in Python!\r\n\r\n```python\r\nimport base64\r\nimport json\r\nimport nacl.encoding\r\nimport nacl.signing\r\nimport time\r\n\r\nsigning_key = nacl.signing.SigningKey.generate()\r\n\r\ndef get_author(signing_key):\r\n    key_bytes = bytes(signing_key.verify_key)\r\n    key_base64 = base64.encodebytes(key_bytes).strip().decode()\r\n    return '@' + key_base64 + '.ed25519'\r\n\r\ndef get_signature(signing_key, unsigned_value):\r\n    unsigned_json = json.dumps(unsigned_value, indent=2)\r\n\r\n    signature_bytes = signing_key.sign(bytes(unsigned_json, 'utf8')).signature\r\n    signature_base64 = base64.encodebytes(signature_bytes).strip().decode()\r\n    return signature_base64 + '.sig.ed25519'\r\n\r\nvalue = {}\r\nvalue['previous'] = None\r\nvalue['author'] = get_author(signing_key)\r\nvalue['sequence'] = 1\r\nvalue['timestamp'] = round(time.time() * 1000)\r\nvalue['hash'] = 'sha256'\r\nvalue['content'] = {}\r\nvalue['content']['type'] = 'post'\r\nvalue['content']['text'] = 'hello world'\r\nvalue['signature'] = get_signature(signing_key, value)\r\n\r\nprint(json.dumps(value, indent=2))\r\n```\r\n\r\n#python",
     "mentions": [
       {
-        "link": "@ZOkYV+dBOF8KR12RF8j4yT2n9ajBWKXlFPCdlS+x0D4=.ed25519",
-        "name": "fleeky"
+        "link": "#python"
       }
     ],
-    "root": "%z61G76bkISSSUHqfjMQIEkrobV/GZYQ/TUFikP9OLPA=.sha256",
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%lSsUXQQ7g+Ijp//IsMWPygGT+I+Rg59iS3b0lU6+UDw=.sha256"
+      "%nMIMbl1AB2S3zUPN4s/7Qav7bV5uLX86pvUbNwRc0VA=.sha256"
     ]
   },
-  "signature": "hB+ibPNjPHQph5efKJzshY3Rdazrs1lwykLIp5ENxvsk00XrglTXYjZcxCp+6PbSw1CcKlgOWtx/Oo+UptUfAA==.sig.ed25519"
+  "signature": "+Nulc6x33JkA9gZexfkbrcZVrAdCfN76vG+b3p2Lvw+E7deA7Ah0goZusoOIHcV7QBcSOiZJN05VVEo+BP45Dw==.sig.ed25519"
 }
