@@ -1,22 +1,17 @@
 {
-  "previous": "%PTeVmLf15GRfW25RccfKu6p33tyZZwjW6oOKIvpsD0Y=.sha256",
-  "sequence": 17662,
+  "previous": "%2npxCbQexb+PiBnRVft5zNw1Z8SS7nLExyVvjP3cgsU=.sha256",
+  "sequence": 17663,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590423715326,
+  "timestamp": 1590430651469,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan p20 📟](@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519)\r\n\r\nYou probably already know this, but:\r\n\r\nInvites are a problem because they require that you're both online and can directly connect, so peer invites let you redeem an invite through a third party. On the implementation side this [unfortunately] requires some SSB-Friends trickery, which means that we've struggled to add it to Patchwork.\r\n\r\nI think Ratman is more like cjdns / yggdrasil, where you're forming a mesh overlay network to send arbitrary data. Basically like a distributed VPN. You could redeem an SSB invite through this, but you could also run HTTP or SSH or OpenRA or whatever you want.",
-    "mentions": [
-      {
-        "link": "@tUMwMvb+roaOJAyohpGUxgqYo4E7HfBlY0NkUzALqjY=.ed25519",
-        "name": "Daan p20 📟"
-      }
-    ],
-    "root": "%6ligxbr4DgHxlTjCCQNQaH/F3xOSmv7AQsBiLymfEcY=.sha256",
+    "text": "Just added persistence via SQLite! This is cleanly starting to separate into a multi-step process that I think anyone could follow.\r\n\r\n1. Publish one message, no persistence: ~40 lines of code\r\n  - Author ID (`@abc.ed25519)\r\n  - Timestamp\r\n  - JSON serialization\r\n  - Signature (`abc.sig.ed25519`)\r\n2. Publish two message, message persistence: ~100 lines of code\r\n  - Message ID (`%abc.sha256`)\r\n  - Record `sequence` and `previous` state per author\r\n3. TODO: Full message persistence\r\n4. TODO: Key persistence\r\n5. TODO: Validation\r\n6. TODO: HTTP replication (passive server)\r\n7. TODO: Follow/unfollow parsing\r\n8. TODO: HTTP replication (active client)\r\n\r\nSide-note: The reason for message persistence before key persistence is that we don't want to reuse a key before we've figured out the `previous` and `sequence` state. I'm using [http-ssb](https://github.com/christianbundy/http-ssb) for testing and if we try to publish two different root messages for an author it'll reject them.",
+    "mentions": [],
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%vKNSPKwu+fimi2UDHA19M2asGfYpxv6rP3VHiSMSov0=.sha256"
+      "%7xr22va7lMhtdZKj9XS9wFX41T3sRiifvw/kjZq+HKE=.sha256"
     ]
   },
-  "signature": "cYVo9jzYfolDcCoBNIODQP5W78SHtS9RJ/IcNwKvJ5WR4FP1+ubqFjoYTnfrcti+Hgi+XEGuTOSelUETPn2cBw==.sig.ed25519"
+  "signature": "j86NmZi3LmfDobgm3GlF51z6jM5Ssq6YJmwX5vexldVMsHIIYid2JvTUJiaHmpf844oM4OZ9Gr3TAz4E0ONsBQ==.sig.ed25519"
 }
