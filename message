@@ -1,22 +1,18 @@
 {
-  "previous": "%K0q8NMSAazV/2JZG7idQn4w2OvBeg3UfOQ7XSdFA2+E=.sha256",
-  "sequence": 17659,
+  "previous": "%Il7xyCjIc6jW6gPz2B5FQPup6GxvBDbZ/E692+F96gk=.sha256",
+  "sequence": 17660,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590423263501,
+  "timestamp": 1590423286015,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThank you! And thanks for pointing out the Python serialization order -- I haven't done any SSB coding in Python (can you tell? 🤣) but that's an important gotcha. I've added a Python 3.6+ assertion at the top of my code, does that solve it? Repo is here: https://github.com/christianbundy/python-ssb-example\r\n\r\nI know that `json.dumps` has a `sort_keys` option, which is disabled by default, but are there any other things I should be checking? I was surprised to learn that the base64 encoding returns a string that ends with a newline, but they pointed to a spec that seems to describe exactly that behavior. Nothing a little `.strip()` can't solve.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%JDPZ4QMYTTkkedbQ98cOrBz0H0CplLVL8JrNnV+w+WU=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%+Vw1u7JZUOpHi1AuKmNZpoAIfkUURRc7MsFKC4/zuuU=.sha256"
+      "%JDPZ4QMYTTkkedbQ98cOrBz0H0CplLVL8JrNnV+w+WU=.sha256"
     ]
   },
-  "signature": "3brZquKo3TJ6/QZ3L2e39dkMdOS5JUFVu3SUdOsROyTXO937ZrryVTR9f4ji8HXm1jcmcBrRAt7q89CMrZi0CA==.sig.ed25519"
+  "signature": "utrLKhsL5FPXvESwF7vjdJpQTUcHjMKjcEg3NruP43Kg9GwJ/O1XzKYeEwADjNzmA2PZnuS/Mf6R/iM1M2+7Aw==.sig.ed25519"
 }
