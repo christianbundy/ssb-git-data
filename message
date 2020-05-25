@@ -1,17 +1,22 @@
 {
-  "previous": "%2npxCbQexb+PiBnRVft5zNw1Z8SS7nLExyVvjP3cgsU=.sha256",
-  "sequence": 17663,
+  "previous": "%9dsBvzt0Jkskt2a4G6NmLVitdz1+xcV34+Qo7uNYBXw=.sha256",
+  "sequence": 17664,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590430651469,
+  "timestamp": 1590431173136,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Just added persistence via SQLite! This is cleanly starting to separate into a multi-step process that I think anyone could follow.\r\n\r\n1. Publish one message, no persistence: ~40 lines of code\r\n  - Author ID (`@abc.ed25519)\r\n  - Timestamp\r\n  - JSON serialization\r\n  - Signature (`abc.sig.ed25519`)\r\n2. Publish two message, message persistence: ~100 lines of code\r\n  - Message ID (`%abc.sha256`)\r\n  - Record `sequence` and `previous` state per author\r\n3. TODO: Full message persistence\r\n4. TODO: Key persistence\r\n5. TODO: Validation\r\n6. TODO: HTTP replication (passive server)\r\n7. TODO: Follow/unfollow parsing\r\n8. TODO: HTTP replication (active client)\r\n\r\nSide-note: The reason for message persistence before key persistence is that we don't want to reuse a key before we've figured out the `previous` and `sequence` state. I'm using [http-ssb](https://github.com/christianbundy/http-ssb) for testing and if we try to publish two different root messages for an author it'll reject them.",
-    "mentions": [],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nI'm totally using this, thank you. Handing off to libsodium here should make this code a bit more language-agnostic. Great suggestion!",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%PzMGqSLLQgQQ5zjYZ/P8UseyHdmSWz97zduUhfVlZxA=.sha256",
     "branch": [
-      "%7xr22va7lMhtdZKj9XS9wFX41T3sRiifvw/kjZq+HKE=.sha256"
+      "%PzMGqSLLQgQQ5zjYZ/P8UseyHdmSWz97zduUhfVlZxA=.sha256"
     ]
   },
-  "signature": "j86NmZi3LmfDobgm3GlF51z6jM5Ssq6YJmwX5vexldVMsHIIYid2JvTUJiaHmpf844oM4OZ9Gr3TAz4E0ONsBQ==.sig.ed25519"
+  "signature": "bjnuQqSYAqbSo+o+/8QVwe9Vz9JeS7k7VEdpDVrGNnWlj5TgDd+WSKzBMZFm1DwgFrUhG/YE8/Ld4xwj0fygCQ==.sig.ed25519"
 }
