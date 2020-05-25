@@ -1,26 +1,22 @@
 {
-  "previous": "%0PaMpZM9Och2bQHIwu8ViUxc21Ep9K8yOMmB4qjSnuU=.sha256",
-  "sequence": 17654,
+  "previous": "%6fTbQLhMdlv2NC76JNZk8/JTG45fCR0n/dmbtEvKvzw=.sha256",
+  "sequence": 17655,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590420567482,
+  "timestamp": 1590420784553,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nIt doesn't have to be ([example](%BuTTIM+MSPbmE6o6g5My5mpIcnAeVG26wNy4emtjv5k=.sha256)) but that's what I was going for. Looks like `round()` still leaves you with a float when running under Python 2. I'll replace `round()` with `int()`, thanks!",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nOh, that query parameter is only understood when SSB-WS is the blob handler, whereas Oasis just displays the actual blob. Hmm. The ever-expanding SSB specification!",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      },
-      {
-        "link": "%BuTTIM+MSPbmE6o6g5My5mpIcnAeVG26wNy4emtjv5k=.sha256",
-        "name": "example"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "root": "%H1Z9w2inv5YSaqD4UNwsfRy+vGfovkrK1kl6zhIQVz4=.sha256",
     "branch": [
-      "%DXnmU8eZySfpZjMJWDw/jvi2EMd9wolcXJRxA7A9YOg=.sha256"
+      "%6VEgH8fbVUbHC+6pxwvNyV5mOaHTBcl1v9CaJ2xEUe4=.sha256"
     ]
   },
-  "signature": "Xl4vK5JZn7h0d3llPpWjP6h/57voG41QGLMJicKRMAfbjO3z+sB6GahoiMIbknzwsADmkjA2q9+Zv5VGCpb0DQ==.sig.ed25519"
+  "signature": "F3scpV4yZiSO8IgWFD7iVU6RE9p355WBf6MfcKnj1u7bmtcjmldpRzIjxVnYV2tiOPrU6/CNvh0BpL0UUEnOAg==.sig.ed25519"
 }
