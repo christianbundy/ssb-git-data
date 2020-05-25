@@ -1,9 +1,22 @@
 {
-  "previous": "%2cBbwJB4i1DLMuJWujMVENZlTAOKEgItyFxBTWbIjsQ=.sha256",
-  "sequence": 17658,
+  "previous": "%K0q8NMSAazV/2JZG7idQn4w2OvBeg3UfOQ7XSdFA2+E=.sha256",
+  "sequence": 17659,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590421889061,
+  "timestamp": 1590423263501,
   "hash": "sha256",
-  "content": "JDIBdW818PxL+iwZSGSEWtNODTIOGoH/do9gTy19a4HXBVzp06WyoFyJyW7ZwqRBouUw0NnsESvSWny1Ia6cCYagFDrGVe2u5UKfF2NE8QcDCm6Ay2/DjxdLA+zH+2Es8bL4CxMJ3kOmqWCNKjozJfBaA0AvaaC1p6u9Q/V2p5jD64oXzkRH4roYYPVuVmnuBkQZlQPsTKPtIPu/KHqUGRNTSuveNSIJxjN+0o10kxBCI/L/AKQY1m9f32IR2dOuyHu2TkTWSImxze6iuNH/n/ruBjyeZ8TeiRhvOIewt6tFBxm6v6e9r2JKdD9m0FBWnU9zpKnHvkliYzRNfJ/t9uNQxURixEfH9Wg6CEaavckN4vz2oWNGY9XeJHjPWX8Q64WVkFvjMvtRwICRLZOsSot4qHO0IS94laXqTE5ppwq8VNkXqfwlmM7MUKM+HCUPWbyYA1Qm0kjvdxcZERPcnSI3otbIWfHbNuKTDuedgBtNgEEggNhpkzuC+iri430sY4yw7epwG0leew1g2FWgeHwvKDoS42XCS1usg2gdBuTZzgLGlWJb5SPwsqp5jI+ZhzLZ3jMumqahSQisLrkn1lWPCb48S8L0fEB0BP18B+7IIzl7XrphZuq8LHmFK9Zf/g2qqt+h9KTgRN/TTmwpK1U/oFPlf06B6aVh1HsBwG2booRJr8n/cx+zEqaPi6idZ7xFFALNedG7vjDgPf0bDTMK8mFxGgoim7dQHKHq94WXmQeGeQKhYGcaVNzGn4oA41niMZ6CivrswxNNEOtZo0CDAad2+SRjMBRPtCdD6kICRwXwVuNMLWI78Hp99nCDHIpO3N+CKs/uuN3lmvZhBKKb4ynURTxbLk0iNhKdhyY3EEZf58zIPfJ52YuyGXMs1Vu4l+LRHmkWskn7PWikMKTAqSUbudlwJvGrM+I2IuiXgiKTh3EibhxwJyBZlxiMR/nLm3Hy7+qFKT/KsaeN1pssPfoTly7Fdq69aWAhhunXdCuYptCWGrPK69ReBKM3Fg==.box",
-  "signature": "D4O0SN37Rmxibaiv1EHhcTdYJ5Z6RcmdA4VlBJrVaxKbtUhUmAjU0p9JS3L2Sqvlwiufc+xlN7LZRuKi2O01AQ==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThank you! And thanks for pointing out the Python serialization order -- I haven't done any SSB coding in Python (can you tell? 🤣) but that's an important gotcha. I've added a Python 3.6+ assertion at the top of my code, does that solve it? Repo is here: https://github.com/christianbundy/python-ssb-example\r\n\r\nI know that `json.dumps` has a `sort_keys` option, which is disabled by default, but are there any other things I should be checking? I was surprised to learn that the base64 encoding returns a string that ends with a newline, but they pointed to a spec that seems to describe exactly that behavior. Nothing a little `.strip()` can't solve.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "branch": [
+      "%+Vw1u7JZUOpHi1AuKmNZpoAIfkUURRc7MsFKC4/zuuU=.sha256"
+    ]
+  },
+  "signature": "3brZquKo3TJ6/QZ3L2e39dkMdOS5JUFVu3SUdOsROyTXO937ZrryVTR9f4ji8HXm1jcmcBrRAt7q89CMrZi0CA==.sig.ed25519"
 }
