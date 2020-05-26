@@ -1,22 +1,22 @@
 {
-  "previous": "%V1GStCrfli/+s+v2+EKO7OZNeI4GdkeOtxJFF8XApUo=.sha256",
-  "sequence": 17688,
+  "previous": "%h6Y9ZH6udOiQlzG5z8cIqgWKGpTInSuyyodN+o4gANM=.sha256",
+  "sequence": 17689,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590524272766,
+  "timestamp": 1590524339069,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nNote: I'm just throwing my opinions out here, please let me know if you disagree, and please don't take any of this as rock-solid decisions that I'm 100% sure about. I'm totally still experimenting and prototyping and I expect to say \"I was wrong!\" lots before this is fleshed out.\r\n\r\n>  Would we do a handshake, then speak http over that connection, with no multiplexing?\r\n\r\nOh, I understand what you mean. It's important to me that adversaries can't read my private messages, but in my original implementation I haven't bothered with transport encryption. This means that the NSA agent inside your internet cables can see which URLs you're downloading and even inject [invalid] messages into your streams, but it's super trivial to just add TLS if you care about that sort of thing. That means:\r\n\r\n- NSA agents can't see the URLs you're requesting, which would leak who you're following (public) or your replication progress (guessable).\r\n- NSA agents can't inject messages into your streams, which doesn't matter a ton anyway because nobody downloads invalid messages anyway.\r\n\r\nRegarding multiplexing, my preference is \"whatever HTTP specifies\". Older versions of HTTP are going to have one connection per request, which is fine IMO when you can download tens of thousands of messages in a fraction of a second. \r\n\r\n> Or announce `http-ssb:192.168.1.117:@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519` and somehow use the pubkey for https?\r\n\r\nI don't know what the multicast syntax should be, but I don't think I'd like to conform to the multiserver address spec. I'd really like to say \"my URL is http://192.168.0.42 and I speak SSB\". If we need to advertise our public key, I'd go the boring route and broadcast an HTTPS certificate.",
+    "text": "[@Lohn](@1yQLm+Ob67p38g6+wt1HURBTBVwwENd9xhdnV+E8ONY=.ed25519)\r\n\r\ntimestamps also lgtm, I think I'm missing something",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@1yQLm+Ob67p38g6+wt1HURBTBVwwENd9xhdnV+E8ONY=.ed25519",
+        "name": "Lohn"
       }
     ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "root": "%am5WmFciHftuxReFukeepBcp5UbJmccXykJk8MDAJJ8=.sha256",
     "branch": [
-      "%eIyFehFw5372xbKgwjLrmEjjmB7s/qxNHjPHcwAAh5o=.sha256"
+      "%xb0Ux5ygmc1pYJAVJdMjXtZt+dfSM6vVg5dzAFRGV00=.sha256"
     ]
   },
-  "signature": "u7aOxoEqqfsMPUr93nUG3dN1dmto5y9FEq8l1Q53VxnWARqhmt4NVSANl3DObO9vCj14oMX/TGu76tRlkqx/Bg==.sig.ed25519"
+  "signature": "J0h7Vo/XIExJArPJdGMbF35GN75bha+2eWlb8JVG7X5Nd9ZTfjuzRZRNPBTxjaIJoMgBvkOAXv5yS3CDCDPFDQ==.sig.ed25519"
 }
