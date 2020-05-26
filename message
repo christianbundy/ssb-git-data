@@ -1,22 +1,19 @@
 {
-  "previous": "%zfIcfkewovNih1IE/aRbq6aywBUP8Kr2fq/wRC91rmc=.sha256",
-  "sequence": 17672,
+  "previous": "%qVIUTQ21MygD33Vi1m/14PzOVYtk31aRBrF3bvDk4so=.sha256",
+  "sequence": 17673,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590463808560,
+  "timestamp": 1590463825476,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThanks for opening this thread. I'm very interested in seeing experiments in this space. My two opinions:\r\n\r\n- I haven't tested this enough to be completely sure, but my brief benchmarks have shown that performance decreases with the number of views, not the number of indexing code. If our goal is to reduce CPU usage, I'd probably start by making all flumeviews share one stream of messages (instead of starting one stream of messages per view).\r\n- Being able to download messages in arbitrary orders seems important, and I think that FlumeDB holds us back here. I'm very interested in dropping FlumeDB as a dependency and avoiding a situation where we need to implement + maintain our own bespoke database.\r\n\r\nI'd be super interested to brainstorm replication ideas that satisfy our constraints (TODO: document them) without taking more than an hour to implement in any high-level language.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ],
-    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%WvhhVKkHss1n+ms196lIne1y0nernpWlcee3YacZbuc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DGr2+rDTjLoQj4V8VQbWgH2GkeNCqxv0sJe64tshmlE=.sha256"
+      "%+T0lKPJMEy88keI6xeKtByH+zQ7Co6AiyK10CoPzZE0=.sha256",
+      "%qqtv4Q7rCuaJuJGVVVE1revYBvReMi0BbleBadRMaJY=.sha256"
     ]
   },
-  "signature": "pVVL2egjzO8Dzih2NUG+7HtcJNX/uwNsHCDRzxvgln1TFdPaUl4EoMYE2QX2GlKm2HhIrTijK9WkCAgD5EM7AQ==.sig.ed25519"
+  "signature": "UD6tjpvz7ZjHaHNEzV6XAFEjzeYmxKkZ/nQ4ly86RNAbOoyW6xxkP43Jc5w7AwfL5mt7F/qjCwyg426TOa/tBQ==.sig.ed25519"
 }
