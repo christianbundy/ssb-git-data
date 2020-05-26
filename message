@@ -1,18 +1,23 @@
 {
-  "previous": "%iaGRVH8t7C9xLUdXaDfvTLDehwetrhSaZq374VVZO4w=.sha256",
-  "sequence": 17683,
+  "previous": "%gFv9+nXMYftR2M1WYEKeN3fcuKtsN/MAh3Lss+KVRso=.sha256",
+  "sequence": 17684,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590506857249,
+  "timestamp": 1590507312950,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%nY7bqND5Kqym8MGu2zl2/dyvbaTvPt7jjuzKrNkbZHA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> 5 minutes, even though it’s much better than before, is not acceptable.\r\n\r\nBtw, I strongly agree. All of my indexing experiments have had the constraint that you can *always* query while indexing. Indexing in chronological order is semi-frustrating, because \"latest posts\" jumps by a few weeks each time you refresh the page, but reverse chronological order gives you the latest everything and slowly backfills history.\r\n\r\nThe downside, of course, is that FlumeDB doesn't like when you add messages in reverse order, but my preferred solution is to drop FlumeDB rather than to implement a second reversed flumelog. 🤷",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
     "branch": [
-      "%W0VbI8iKwir+fxuS9gOLAc+W+sNFG7NWf5tOodB7sIU=.sha256"
+      "%8h34pLu5aoSgx4Nw2c0UNvqZztvHtGcTx6erCAVMsmE=.sha256",
+      "%A/MZfYPYwnMsekalD4teDP41DvM/5aN4khlw/vvjwO0=.sha256"
     ]
   },
-  "signature": "CgyZiPk8J1Zi6U4lRs5dIqTMJNfAd02z1AIO62Z5C48k72aA75YVxPF+68K++m5w/5MxIt+Uh7uD/EqPRI9jBg==.sig.ed25519"
+  "signature": "H8e7F/JKe5A7pDFl4uYwWN1tLsiaxtWLY2uSLf3IgZRsSK2Ks7f2lKl4YxwMAB++GebCDBjh7+BgWtMNS32HBw==.sig.ed25519"
 }
