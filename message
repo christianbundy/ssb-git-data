@@ -1,30 +1,22 @@
 {
-  "previous": "%9Ef7lrckr6ixDICUJAru8O7kUi2T8KdoZvd4j+jo46w=.sha256",
-  "sequence": 17687,
+  "previous": "%V1GStCrfli/+s+v2+EKO7OZNeI4GdkeOtxJFF8XApUo=.sha256",
+  "sequence": 17688,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590522939133,
+  "timestamp": 1590524272766,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> We can’t assume everyone will suddenly migrate, because if they don’t, it’s essentially a hard fork (not only technical, but also of the community).\r\n\r\nI think there are three major layers of compatibility:\r\n\r\n1. **Signing:** JSON + Ed25519\r\n2. **Networking:** Secret-Stack (Multiserver + MuxRPC)\r\n3. **Database:** FlumeDB\r\n\r\nIf we drop database compatibility, then two apps can bridge their databases through the network layer. If we drop network compatibility, then two apps can bridge their networks through the signing protocol *or* the database protocol. For example, [@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) wrote [a few lines of Python](%+mAKpB87oaT18XaHtW+0Mg6/gPEtoM0y9XGz64h4E7Q=.sha256) and was able to bridge FlumeDB into a prototype of a new network protocol.\r\n\r\nI think we can replicate messages and ensure community continuity without making everyone run the exact same code. As long as we can build bridges, between database and network protocols, I think we have lots of great options that haven't been explored yet.",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nNote: I'm just throwing my opinions out here, please let me know if you disagree, and please don't take any of this as rock-solid decisions that I'm 100% sure about. I'm totally still experimenting and prototyping and I expect to say \"I was wrong!\" lots before this is fleshed out.\r\n\r\n>  Would we do a handshake, then speak http over that connection, with no multiplexing?\r\n\r\nOh, I understand what you mean. It's important to me that adversaries can't read my private messages, but in my original implementation I haven't bothered with transport encryption. This means that the NSA agent inside your internet cables can see which URLs you're downloading and even inject [invalid] messages into your streams, but it's super trivial to just add TLS if you care about that sort of thing. That means:\r\n\r\n- NSA agents can't see the URLs you're requesting, which would leak who you're following (public) or your replication progress (guessable).\r\n- NSA agents can't inject messages into your streams, which doesn't matter a ton anyway because nobody downloads invalid messages anyway.\r\n\r\nRegarding multiplexing, my preference is \"whatever HTTP specifies\". Older versions of HTTP are going to have one connection per request, which is fine IMO when you can download tens of thousands of messages in a fraction of a second. \r\n\r\n> Or announce `http-ssb:192.168.1.117:@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519` and somehow use the pubkey for https?\r\n\r\nI don't know what the multicast syntax should be, but I don't think I'd like to conform to the multiserver address spec. I'd really like to say \"my URL is http://192.168.0.42 and I speak SSB\". If we need to advertise our public key, I'd go the boring route and broadcast an HTTPS certificate.",
     "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      },
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
         "name": "Daan"
-      },
-      {
-        "link": "%+mAKpB87oaT18XaHtW+0Mg6/gPEtoM0y9XGz64h4E7Q=.sha256",
-        "name": "a few lines of Python"
       }
     ],
-    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%ZltAMtxjp21XI/SiDHCPdBEu73lfhXo4wK5fEYGJgpA=.sha256"
+      "%eIyFehFw5372xbKgwjLrmEjjmB7s/qxNHjPHcwAAh5o=.sha256"
     ]
   },
-  "signature": "/kJTaEtQukRUnW9dKX9yCXop1uVXO5i1SlyQCLYF+Al17OJAFpOe7HQPy0XcfGSZlQBIE2ktYCqEJwZff8kkDw==.sig.ed25519"
+  "signature": "u7aOxoEqqfsMPUr93nUG3dN1dmto5y9FEq8l1Q53VxnWARqhmt4NVSANl3DObO9vCj14oMX/TGu76tRlkqx/Bg==.sig.ed25519"
 }
