@@ -1,22 +1,18 @@
 {
-  "previous": "%tucCgb8FrC9d+MD/F7oAJih6/S8s4mAUwxGVSFRa1ko=.sha256",
-  "sequence": 17678,
+  "previous": "%vZhNOuO9CwOTXqhglWSxZYD1Zh6whbny5j1yJb/7vG8=.sha256",
+  "sequence": 17679,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590502885212,
+  "timestamp": 1590505248710,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> I am afraid that [without secret handshake (or a successor thereof], across-internet communication would become the default. I want local communication to keep the front seat in ssb.\r\n\r\nCould you expand on this a bit? In my mind, SHS in an authenticated key exchange, similar to a Diffie-Hellman, and I don't think my pre-coffee brain is connecting the dots on internet vs local.\r\n\r\nI also want local replication, I was thinking that would be as easy as listening on some localhost port and then doing a multicast like how we're currently doing it.",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%uprLsJKHUPBrO22IhaKTM63JH7GEEbAk5Ti0fCMYF6E=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fvB3WY9ntjsR/YSseddFpRHps4wRcVFjhL4lTLY7Ti0=.sha256"
+      "%e65A/jstlDzSq/n9BIiQfhbmjxEPzfM01yVZxNAqYqY=.sha256"
     ]
   },
-  "signature": "71MT7FSqplSlRvWAXAMRgdrycwq+47A1L2h7f8sRfc1bomMXJd3dnaRPDHydLCKj/So+WVKeM/EqlEBjrPe9Aw==.sig.ed25519"
+  "signature": "37eLBiHMYzTNDgX6Vi54iBE06WKU/su3osAAsDMtHaoQofHwlKY2IKrjuEPllr3WcvvGYbESgW0cfpaWW25zCg==.sig.ed25519"
 }
