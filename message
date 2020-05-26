@@ -1,22 +1,18 @@
 {
-  "previous": "%1jNn7PPjO+Rtt+iSJExOZtiSTlXRLdkw1sC7fQAUWvo=.sha256",
-  "sequence": 17693,
+  "previous": "%XTDjxtzjSzUmEY1ZOUrz7WHoN69ieTTum1wV8st+Wn0=.sha256",
+  "sequence": 17694,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590529612888,
+  "timestamp": 1590530202888,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\nOr maybe another way to put it: what do we need transport encryption for? We're leaking some metadata about which feeds we're requesting, but since our follow list is public I'm not sure whether transport encryption is always worth the implementation and maintenance cost.",
-    "mentions": [
-      {
-        "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
-        "name": "Borja"
-      }
-    ],
-    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%w328jO7mW9Zyd9/zIjsmayqzljBzZ3YBzgHg0D6NZH4=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%1jNn7PPjO+Rtt+iSJExOZtiSTlXRLdkw1sC7fQAUWvo=.sha256"
+      "%w328jO7mW9Zyd9/zIjsmayqzljBzZ3YBzgHg0D6NZH4=.sha256"
     ]
   },
-  "signature": "qzrKzqgHI1KiaokOZtfjkYxP2HbTBXlBsArxcYRl7g60kTUjpI8aUDcjIBSr4oV55jpjcTLgpEU8/ee7PgTGCw==.sig.ed25519"
+  "signature": "RPth77qVw0rSPjZiRPcfzkxBxNM2RO1gFFDQvDlkVvQVfNgRB/U5NfP8c+oBmSRCNrkbVbOEDDU30aJt4ao+Bg==.sig.ed25519"
 }
