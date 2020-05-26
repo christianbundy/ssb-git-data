@@ -1,22 +1,30 @@
 {
-  "previous": "%W6RanhAtaI2iZcZMbsIgqJ6IS4AFnc+7JuZSs1KWgT4=.sha256",
-  "sequence": 17686,
+  "previous": "%9Ef7lrckr6ixDICUJAru8O7kUi2T8KdoZvd4j+jo46w=.sha256",
+  "sequence": 17687,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590513774164,
+  "timestamp": 1590522939133,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Rabble](@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519)\r\n\r\nIt's a great step in the right direction. :)",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> We can’t assume everyone will suddenly migrate, because if they don’t, it’s essentially a hard fork (not only technical, but also of the community).\r\n\r\nI think there are three major layers of compatibility:\r\n\r\n1. **Signing:** JSON + Ed25519\r\n2. **Networking:** Secret-Stack (Multiserver + MuxRPC)\r\n3. **Database:** FlumeDB\r\n\r\nIf we drop database compatibility, then two apps can bridge their databases through the network layer. If we drop network compatibility, then two apps can bridge their networks through the signing protocol *or* the database protocol. For example, [@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519) wrote [a few lines of Python](%+mAKpB87oaT18XaHtW+0Mg6/gPEtoM0y9XGz64h4E7Q=.sha256) and was able to bridge FlumeDB into a prototype of a new network protocol.\r\n\r\nI think we can replicate messages and ensure community continuity without making everyone run the exact same code. As long as we can build bridges, between database and network protocols, I think we have lots of great options that haven't been explored yet.",
     "mentions": [
       {
-        "link": "@THUzexG1y6kWofwiN8Lix/jNH/P6roYdlCDgpAn2HSc=.ed25519",
-        "name": "Rabble"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      },
+      {
+        "link": "%+mAKpB87oaT18XaHtW+0Mg6/gPEtoM0y9XGz64h4E7Q=.sha256",
+        "name": "a few lines of Python"
       }
     ],
-    "root": "%4Dl9fX0vA4aolt1XCU5CmJr0t5I51HHw4gWw3yBFMME=.sha256",
+    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
     "branch": [
-      "%4Dl9fX0vA4aolt1XCU5CmJr0t5I51HHw4gWw3yBFMME=.sha256"
+      "%ZltAMtxjp21XI/SiDHCPdBEu73lfhXo4wK5fEYGJgpA=.sha256"
     ]
   },
-  "signature": "oRowQSsDw4d55ImpW3uqCrJMqzFsF9HcokcuGvc1pLPnwZGlrArPnOQXisVNqppnE067FkcYhWIFzneIc5VKAg==.sig.ed25519"
+  "signature": "/kJTaEtQukRUnW9dKX9yCXop1uVXO5i1SlyQCLYF+Al17OJAFpOe7HQPy0XcfGSZlQBIE2ktYCqEJwZff8kkDw==.sig.ed25519"
 }
