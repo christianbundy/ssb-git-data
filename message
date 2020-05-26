@@ -1,26 +1,19 @@
 {
-  "previous": "%7gzVonzlPblNnsBcGQIrXfsT3VVWPYKS4DbsVYJzOXE=.sha256",
-  "sequence": 17680,
+  "previous": "%8h34pLu5aoSgx4Nw2c0UNvqZztvHtGcTx6erCAVMsmE=.sha256",
+  "sequence": 17681,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590505749173,
+  "timestamp": 1590505996948,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> However, I think we still need to fundamentally have a flumelog (because it dictates how the RPC for replication/gossip protocol works, and we can’t force all peers to suddenly drop those conventions), and this limits the creativity we can have with the database.\r\n\r\nI'd like to continue supporting the current message encoding, but in the past few weeks I've been enjoying my [experiments](https://github.com/christianbundy/http-ssb) with replacing MuxRPC replication with REST via HTTP(S). I haven't made up my mind, but my preference right now would be to aim for compatibility with (dependencies in sub-lists):\r\n\r\n- Keys and identities\r\n- Feeds\r\n- Blobs (not blob replication)\r\n- Private messages\r\n\r\nThis probably means removing compatibility for:\r\n\r\n- FlumeDB\r\n- Multiserver\r\n- MuxRPC\r\n- Pull-Stream\r\n- Secret-Stack\r\n- Secret-Handshake\r\n\r\n*Anyway*, I think that supporting holes in an author's feed is a good change -- this is something  that [@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519) and I have discussed a lot, and they've convinced me that it's really Not That Bad. I don't think I have any more volunteer energy to pour into FlumeDB/MuxRPC/etc. I'm happy to cheer you on in your experiments though. 🌟",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      },
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
-    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%7tXzE22j7Cznlx6iN8WJpFn1D9G7nK/Ps0lC4lJq4ZI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%rc9VvAm91jKKy4RORMrS8XQOtOySn4Z/5AadP5o9sgs=.sha256"
+      "%/d4Ex2Qner3ZHb4y9VOHz1HYvk1TA16hG7eZeMcZib4=.sha256",
+      "%3o77dv5I4gDjUwNRotnIa6NLMFz57yHsVS+m6/P+yHM=.sha256"
     ]
   },
-  "signature": "sA17nQ3UROWnmEtJte10yEebgfTRCq4YV7u0UHXl9w7GXMdc3gZxAO8kt4oQqVJ77fV0bKTs3vWWLY1lToOBAw==.sig.ed25519"
+  "signature": "qi4CEcwHuNrF9aTE7EmQ2BP4sjDzWz10CN/teRke9zv8NUjyuElhUkzkSTxvUVR1xD+eN4BIvY+oawvZI2bLDw==.sig.ed25519"
 }
