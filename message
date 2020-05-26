@@ -1,18 +1,22 @@
 {
-  "previous": "%1y19eCfQ4LJ5YU/R02fQ+vFnQ6t3kmXZVoVFr1zKXj4=.sha256",
-  "sequence": 17671,
+  "previous": "%zfIcfkewovNih1IE/aRbq6aywBUP8Kr2fq/wRC91rmc=.sha256",
+  "sequence": 17672,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590463203141,
+  "timestamp": 1590463808560,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%vcgGsrPTtaIe/ov3ernhWjXTGrwON5HYS2ZAY4p5PB0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nThanks for opening this thread. I'm very interested in seeing experiments in this space. My two opinions:\r\n\r\n- I haven't tested this enough to be completely sure, but my brief benchmarks have shown that performance decreases with the number of views, not the number of indexing code. If our goal is to reduce CPU usage, I'd probably start by making all flumeviews share one stream of messages (instead of starting one stream of messages per view).\r\n- Being able to download messages in arbitrary orders seems important, and I think that FlumeDB holds us back here. I'm very interested in dropping FlumeDB as a dependency and avoiding a situation where we need to implement + maintain our own bespoke database.\r\n\r\nI'd be super interested to brainstorm replication ideas that satisfy our constraints (TODO: document them) without taking more than an hour to implement in any high-level language.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
     "branch": [
-      "%vcgGsrPTtaIe/ov3ernhWjXTGrwON5HYS2ZAY4p5PB0=.sha256"
+      "%DGr2+rDTjLoQj4V8VQbWgH2GkeNCqxv0sJe64tshmlE=.sha256"
     ]
   },
-  "signature": "xW4N1FWU3s2896ojdj22MR29pml8COxYJfSv/SU+VM6D/2yvkXvOXqI4f45DMaKOdQLoG2dEDoDQlAtvtiebAQ==.sig.ed25519"
+  "signature": "pVVL2egjzO8Dzih2NUG+7HtcJNX/uwNsHCDRzxvgln1TFdPaUl4EoMYE2QX2GlKm2HhIrTijK9WkCAgD5EM7AQ==.sig.ed25519"
 }
