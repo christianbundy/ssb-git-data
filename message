@@ -1,18 +1,22 @@
 {
-  "previous": "%D2kLkQAc8qTIfHEun7LAkm+wr2Y162WS0iFO9AVpH7Q=.sha256",
-  "sequence": 17691,
+  "previous": "%1k2UDlGpQQJzg+PNMezkZv5flr4kQxeUYMlmk4h2HbI=.sha256",
+  "sequence": 17692,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590524556095,
+  "timestamp": 1590528657474,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SEDFbnyBSk1KKmzvTzz9Z+tauNX/f3j1NjgdKiRWaQo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\n> The difference of going with http we need https at least\r\n\r\nI'm not sure I understand this, could you maybe rephrase?\r\n\r\n> [...] which moves away from having to only trust the public key to have to trust the public key + the whole certificate ecosystem\r\n\r\nWould you mind expanding on 'the whole certificate ecosystem'? Using TLS doesn't mean that you have to buy into the certificate authority system, you can easily use a self-signed certificate (or just use plain HTTP, since our messages are tamper-proof and private messages are already encrypted). TLS isn't sleek, but it's ubiquitous enough to be 'boring technology' IMO.",
+    "mentions": [
+      {
+        "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
+        "name": "Borja"
+      }
+    ],
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%SEDFbnyBSk1KKmzvTzz9Z+tauNX/f3j1NjgdKiRWaQo=.sha256"
+      "%GIthvktNGyM4GiJi4ruA9dANjMBKRU4QmVJpLFWuu+Y=.sha256"
     ]
   },
-  "signature": "J8gRBUKPz9iYNRZWPG9npHP6ObCWyGA5WIvwjM/5yH1meNUY5M1Zg+7A9dU9quxIQziwSxAwTYJu1WW0cMFsBA==.sig.ed25519"
+  "signature": "/K8wC/cqOlcjSFp3kvZKepLTm8fv8N5JsnvICEawlJ6luZl9woQny02U/f7KmUPKL74GkQJmaMRJU/gIsLMiBQ==.sig.ed25519"
 }
