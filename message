@@ -1,9 +1,22 @@
 {
-  "previous": "%nwhRr1zaZn8U1/fJU8gjIVvjuHP8RXsRdX8fIpYJlEs=.sha256",
-  "sequence": 17675,
+  "previous": "%yJzo6Z8/hx/YqXasi6FR/9ctYWqgeki4cBt5zs/vW3I=.sha256",
+  "sequence": 17676,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590464034063,
+  "timestamp": 1590464295265,
   "hash": "sha256",
-  "content": "G6kjPiLBfuRUCy/5kMJ1jucZ1Un7ACUH93wI64gHICgncl8l5yRXY76eIyuuRLMItxGetGID3VL6zVMkfsDY0qw3ZffZBzGx/uPd4gZwvMW3mv0cXTKbi6NkHuwLwJNIrNjtXh7KA7NtpmWjDlpAEtafRXzCFZ4jWViKjGpbIlZiBWf7aEh6muH/uVCosIW+lFI/9npRUVKuqGe3OVC+DZ09T2j6/ggoMdSBEA9Xh99v2CfaTkYoDsl5Ard/NFHfXC2tqolfhsuF3UgO8I5fhSar4uiL109+aBFrRguyBb9jusTrtpnlhgkhx7wrAT0qhTAw8XQtbEuHhvGUGWwYmWhWiicEpjGc1Yp6Q6QOJNSsCOpWWVi2sbeE8KLew9jFMkY+iH1VJmv6Jbag4E5fBIZ0cljdrmuTgh8AiWPWDYbKYan4j1u/jkB5uNBFTdpZ+yne56jFyKw4VsfsON0QTsR2uV50QT+9cB4rfIwT/CSIMjEI7bLfLECCuE1JYbm7OWlPDwhtco6gHgJ+Jpv8y5+6dR8etDRuDTZyRWjzAF/rvhsDL3LdJZW/4VXLiBiZcE7whydybS2MjidDjwbmarkeeSdPiaNH38XSkgBh1zNaO17axFZsnTkyz4ZWXqBllDLhdQbLCOQWKL2l4q5m9qdyC9d3fAOYpQArFx2VeE1dlo27ESU30RMjlx18UEMIDva2fcrUpkrr+zsA6sQTF+hgAfL0gW1ixIvoXuK4SQqaJxbrim+/MkIyhAQRXq9eZF+X1bnhs+73whPQCb8AFIAm6JP1uvfiQys8PcL+iEpc+FVH++BT+taj2jSVXE5fRcz2sMPFkro6NVXVEM/NJVWCpn5IH4NpdngY/GvhkEH/sGh5OiiysygQbRZdpw5JfG7s4e9VTFM+rTpLenbh9gJTZeXO7Y5+f0RT9t30lSi154YdV5QFesV3bu8vONPy9vZw6Aw9+iWLdgDPnmu6jXbRZ0blZeFiluQtQ0MXUWij2CBWcSpC1ZmFOWnGumzka0taDk/FtPLuTKZYR+YfUJzMfPov62whoQ==.box",
-  "signature": "5UB6fHZdIvbGVFCYjmm4xqFVmTcrfu3uHjjD6hMDsenUa+ghdhwTUi2YSgEHe+qKR4wGCfVL4g/5zKINSanJBg==.sig.ed25519"
+  "content": {
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYes! This is beautiful, thanks for writing code to export from FlumeDB! I'm unreasonably excited that you were able to write to HTTP-SSB. Hopefully it's easy to port that to Python too... 🙃 I should probably make a less crappy API first, the current one is pretty janky and under-specified.\r\n\r\nRE: Deletion -- tombstones would be great, but since FlumeDB supports arbitrary data we can't do \"THIS ENTRY HAS BEEN DELETED\" because that's a valid entry that could be in the database. Because there's no way to record metadata (!), an entry with all zeroes is the magical \"deleted\" value. It's a hack, but I couldn't figure out anything better without breaking backward-compat with the existing encoding format.\r\n\r\n",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
+    "branch": [
+      "%CSPRYYFBfBTGFn+rCRSZrr8rWi91anKEgdf9NOllLxY=.sha256"
+    ]
+  },
+  "signature": "0NvZzXVkZ80u9YK64xvYyusQvRN5WYjS4/PYMTGfnHBVefg3dBirsWsswpP0WlFLz1SWX8L6pvBFNEuuDvy7Aw==.sig.ed25519"
 }
