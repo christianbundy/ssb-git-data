@@ -1,23 +1,22 @@
 {
-  "previous": "%gFv9+nXMYftR2M1WYEKeN3fcuKtsN/MAh3Lss+KVRso=.sha256",
-  "sequence": 17684,
+  "previous": "%q8Xo/+2xeX07sO3OusYCTh+xosR/4+i3/64xI+bOGZw=.sha256",
+  "sequence": 17685,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590507312950,
+  "timestamp": 1590513716581,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> 5 minutes, even though it’s much better than before, is not acceptable.\r\n\r\nBtw, I strongly agree. All of my indexing experiments have had the constraint that you can *always* query while indexing. Indexing in chronological order is semi-frustrating, because \"latest posts\" jumps by a few weeks each time you refresh the page, but reverse chronological order gives you the latest everything and slowly backfills history.\r\n\r\nThe downside, of course, is that FlumeDB doesn't like when you add messages in reverse order, but my preferred solution is to drop FlumeDB rather than to implement a second reversed flumelog. 🤷",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nHuge +1. Files are slow and scary.\r\n\r\nI've enjoyed SQLite as \"an alternative to `fopen()`\", but I've also wanted to spend more time exploring [DBM](https://en.wikipedia.org/wiki/DBM_(computing)). It's super boring, in the best way possible.",
     "mentions": [
       {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
       }
     ],
-    "root": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
+    "root": "%H6KUoR1Vv5lMs1FIIYslEEfCHIdenQQsFf/aPP9qg14=.sha256",
     "branch": [
-      "%8h34pLu5aoSgx4Nw2c0UNvqZztvHtGcTx6erCAVMsmE=.sha256",
-      "%A/MZfYPYwnMsekalD4teDP41DvM/5aN4khlw/vvjwO0=.sha256"
+      "%H6KUoR1Vv5lMs1FIIYslEEfCHIdenQQsFf/aPP9qg14=.sha256"
     ]
   },
-  "signature": "H8e7F/JKe5A7pDFl4uYwWN1tLsiaxtWLY2uSLf3IgZRsSK2Ks7f2lKl4YxwMAB++GebCDBjh7+BgWtMNS32HBw==.sig.ed25519"
+  "signature": "cjEEcgAqgZZvy0JLQdkEdg6rek/6yqs0kSspFVrgq/75Qn4KPXAhjSnO8aPehXm9OGKmv9LDQTOepJdxCVzbBw==.sig.ed25519"
 }
