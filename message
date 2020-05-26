@@ -1,12 +1,12 @@
 {
-  "previous": "%1k2UDlGpQQJzg+PNMezkZv5flr4kQxeUYMlmk4h2HbI=.sha256",
-  "sequence": 17692,
+  "previous": "%1jNn7PPjO+Rtt+iSJExOZtiSTlXRLdkw1sC7fQAUWvo=.sha256",
+  "sequence": 17693,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590528657474,
+  "timestamp": 1590529612888,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\n> The difference of going with http we need https at least\r\n\r\nI'm not sure I understand this, could you maybe rephrase?\r\n\r\n> [...] which moves away from having to only trust the public key to have to trust the public key + the whole certificate ecosystem\r\n\r\nWould you mind expanding on 'the whole certificate ecosystem'? Using TLS doesn't mean that you have to buy into the certificate authority system, you can easily use a self-signed certificate (or just use plain HTTP, since our messages are tamper-proof and private messages are already encrypted). TLS isn't sleek, but it's ubiquitous enough to be 'boring technology' IMO.",
+    "text": "[@Borja](@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519)\r\n\r\nOr maybe another way to put it: what do we need transport encryption for? We're leaking some metadata about which feeds we're requesting, but since our follow list is public I'm not sure whether transport encryption is always worth the implementation and maintenance cost.",
     "mentions": [
       {
         "link": "@OKBBTbbpKs07tVSli6LV/R0LD5/u0KqpTXlFmBf0GPk=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%GIthvktNGyM4GiJi4ruA9dANjMBKRU4QmVJpLFWuu+Y=.sha256"
+      "%1jNn7PPjO+Rtt+iSJExOZtiSTlXRLdkw1sC7fQAUWvo=.sha256"
     ]
   },
-  "signature": "/K8wC/cqOlcjSFp3kvZKepLTm8fv8N5JsnvICEawlJ6luZl9woQny02U/f7KmUPKL74GkQJmaMRJU/gIsLMiBQ==.sig.ed25519"
+  "signature": "qzrKzqgHI1KiaokOZtfjkYxP2HbTBXlBsArxcYRl7g60kTUjpI8aUDcjIBSr4oV55jpjcTLgpEU8/ee7PgTGCw==.sig.ed25519"
 }
