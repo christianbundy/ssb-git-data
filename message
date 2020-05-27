@@ -1,18 +1,22 @@
 {
-  "previous": "%Y+XLPDY6DkEULmWczbKaeRcl9TtoZDgfq59O6+gR3A0=.sha256",
-  "sequence": 17699,
+  "previous": "%k/WmY8VOjexIYfUZyB05FP9zE+vGXaWrusxtvjPPiPw=.sha256",
+  "sequence": 17700,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590599196746,
+  "timestamp": 1590601315359,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%k/F+rVqE2wuVjbV6/VgXkwM6JuINzBGOfuDc98hLsts=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nThanks, I feel like I have a much better understanding of where you're coming from now. I think the three basic options are:\r\n\r\n- **No encryption.** I want as much encryption as possible, but sometimes we can live without it. Two apps on a trusted device, US amateur radio (where encryption is illegal), TLS-phobic corporate networks, or prototype implementations that are fine making requests without encryption. Just like the rest of the web, you're under no obligation to use plain HTTP.\r\n- **TLS with certificates.** If both peers want to depend on the certificate authority system, that's an option, but your best bet is to self-sign a certificate and send the public key to a friend over a trusted channel (just like Multiserver + SHS). Bonus points for TLS because you can use that root certificate to sign other certificates, so if someone breaks into your server and steals your TLS keys then you can revoke that specific cert without revoking your root key.\r\n\r\n> Seeing this post by @xj9 I’m also thinking that http transport without transport encryption would make alt-nets very hard, no? \r\n\r\nPartitioning via `network_identifier` is pretty brittle, because you can use network A to ingest a bunch of messages and then switch to network B and now the networks are bridged.\r\n\r\nInstead, I think we should use the [`HMAC key`](https://github.com/ssbc/ssb-validate) (default `null`), which is a shared secret that results in **completely different message signatures**. This provides a network partition that can't be bridged by malicious or misconfigured peers, since the messages are refused as 'invalid' unless you've configured your machine to accept signatures with that HMAC key.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%t3X1D+zI++QbdA7qWxUTsAoubLe5ExYtYDrEjZcHuF0=.sha256",
     "branch": [
-      "%k/F+rVqE2wuVjbV6/VgXkwM6JuINzBGOfuDc98hLsts=.sha256"
+      "%lv2R9Bmbnp89MjxLLFfVwqCejL+IQBgcRm2GMNozeBk=.sha256"
     ]
   },
-  "signature": "06FzO8tNfGupzN04oNawW1VIc2APHNiGPbIprGELV37tqx8dmkblUNEl/xNN6o7YIPQnVPw3URxl/gUcqUarCg==.sig.ed25519"
+  "signature": "xKMFyHESgudIgXjLhwy1SSNK9xJJkpnHJUwGItCxieBSrEwQxqMy7sQ+HOTd3Saeh+ir8fW8jHOIF/aoUZByDQ==.sig.ed25519"
 }
