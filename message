@@ -1,23 +1,18 @@
 {
-  "previous": "%f1L6qdqTd+xCIALcxsnKE+hr5Mqu3p6fHTc/HAPiUX4=.sha256",
-  "sequence": 17696,
+  "previous": "%P5bkzpVVt3ZfiIgD5SmGgb6q2npNsDR6ZM6E1fLf5HU=.sha256",
+  "sequence": 17697,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590598893780,
+  "timestamp": 1590598901055,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\nWeird metaphor: Imagine an ad-hoc distributed sneakernet where you and me and a bunch of our friends agree to store and forward messages for each other. The couriers have to talk to each other to transfer messages, and the messages are sealed in tamper-proof envelopes with crypto magic. In this kind of system, I think it's harmful to specify \"all couriers must speak [Dutton Speedwords](https://en.wikipedia.org/wiki/Dutton_Speedwords)\". Sure, that would be convenient, but I think the two things that really matter are:\r\n\r\n- Messages maintain integrity.\r\n- Some peers can communicate with each other.\r\n\r\nI don't think that \"every peer can communicate with every other peer\" is something that we should try to guarantee, as it only works if our network is a monoculture. I want a diverse ecosystem that can replicate over sneakernets, dead drops, HTTP, FTP, radio broadcasts, and any other medium that's available to us. If an implementation has time to implement multiple transport protocols, we should! But I'd like to avoid having a One True Transport Protocol that everyone has to implement just to join the network.\r\n\r\nAre there any big pieces that I'm missing here, or areas I should turn my attention to? It might be nice to have a call to discuss, I feel like text lends itself toward \"monologue at each other ad infinitum\" which is *way* less fun than chatting about hard problems with good friends.",
-    "mentions": [
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      }
-    ],
-    "root": "%orPvBd79NSrh0aYV4A23Dho5YH+ZjvCSn26ijzV0W1g=.sha256",
-    "fork": "%Hx3CHlRHLz8nhSnEpuIdHveyFvw5BtnazNMgBfLmrWI=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%I+7a5XBh8BgKcP286AyGs2wB9wHqh7zNnrV3ea9Q4Bg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%orPvBd79NSrh0aYV4A23Dho5YH+ZjvCSn26ijzV0W1g=.sha256"
+      "%I+7a5XBh8BgKcP286AyGs2wB9wHqh7zNnrV3ea9Q4Bg=.sha256"
     ]
   },
-  "signature": "Nu6EBUolp0h34D7BNuAUCFUbVJUKBprDJWibAuFmgSYap50Y4eHWbT8wCXEy083fBZRfwcWotb2K4M8TLtSPCA==.sig.ed25519"
+  "signature": "PJ/GCS6YpLiB9x2Zym86c103XxEyLQfis4H2cSTBRS1v7fzZC2IfR/ZJxw6hdHqJ2jUpYxjFDSfxgqTtUdzGBg==.sig.ed25519"
 }
