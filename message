@@ -1,18 +1,26 @@
 {
-  "previous": "%L48UmnRsx3hi3GbhKjle40R1kfh+syGydgVQX/bbuHM=.sha256",
-  "sequence": 17712,
+  "previous": "%nUoG6YQ8QNnHoqU/A7T3bCFMU+HOENKZVF32GqFNyeg=.sha256",
+  "sequence": 17713,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590610748577,
+  "timestamp": 1590615413468,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%4zBwtxlm4Dvp4oMqlZTLbfiYvpsmuEM7jiWvC8U/Jtk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> [...] it’s a dialogue.\r\n\r\nSweet! I think I worry too much about my tone when writing long text threads -- when I reread, it can feel unfriendly and sterile, which is exactly the opposite of the tone I want to convey.\r\n\r\n> So this means that “every peer can communicate with every other peer” is already guaranteed. [...] Even though it’s true today, it doesn’t mean we have a monoculture (or do we? can you explain what you meant with that?).\r\n\r\nThanks for asking me to explain this, \"[...] because owing to the courtesy of your taking a different point of view, I understand what I think and mean\". 🙃\r\n\r\nI think that one of my goals is minimizing our consensus requirements, and it seems to me that the only things we *need* are:\r\n\r\n- I can pass a message to a peer.\r\n- Intermediaries can pass the message to others.\r\n- When my recipient(s) receive the message, they can understand the semantics.\r\n\r\nThere are lots of ways to do this, but the \"monoculture\" is that we're all doing this the exact same way: SHS + MuxRPC. It only takes a few minutes to be able to write a valid SSB message with only libsodium and a standard library (I've used Node.js, Deno, and Python so far), and I'd imagine that most programmers could do it in a few hours, but the network protocol is a huge barrier that only a few people have been able to overcome. \r\n\r\n> [...] we can interoperate no matter what app they use. [...] Do we want to lose that? What do we gain instead, what’s the tradeoff? Is it worth it?\r\n\r\nI don't want to lose it, but I also wouldn't ask anyone to try to implement, debug, or improve it. It feels to me like we've hit a local maxima, and I feel inclined to continue hill-climbing in search of higher ground. The trade-off is the same with most breaking changes: reduced compatibility in favor of something that seems better. (Of course, 'better' is subjective.\"\r\n\r\n> Of course it doesn’t compare to the paramount achievement that HTTP implementations and specs are, but (mux)RPC and SHS has its merits\r\n\r\nAnother way I've been framing this in my head: given the option of leveraging the network effects of MuxRPC + SHS or the network effects of HTTP(S), I feel compelled to experiment with the latter.\r\n\r\n> We have encrypted channels without the certificate authority mess (which doesn’t play well with P2P), and RPC has more flexibility over conventional REST.\r\n\r\nOur current system is basically a system of self-signed certificates, which is also possible with TLS. Although I mentioned [here](%zFrI9U8ldF2z+2twjBqK4iFg7mVuv2dBHQ7iU7TcBGs=.sha256) that TLS gives us some better options for creating and using certificates.\r\n\r\nIt's true that REST is less flexible than an RPC protocol, but that's also the point. It's a [set of constraints](https://en.wikipedia.org/wiki/Representational_state_transfer#Architectural_constraints) that ensure that you *don't* end up with an RPC protocol that's difficult to understand or debug, where efficiency and flexibility are sacrificed in favor of human sanity.\r\n\r\nI guess the root of my experiments: what does the future of SSB networking look like? It seems like the number of people who understand the current stack is decreasing, and I'm not sure how much longer we can continue to sustainably maintain the dependency graph as it currently exists. After looking around, it feels like boring tech like HTTP solves 99% of our problems with 1% of the code, but maybe there are better alternatives that I haven't considered?",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      },
+      {
+        "link": "%zFrI9U8ldF2z+2twjBqK4iFg7mVuv2dBHQ7iU7TcBGs=.sha256",
+        "name": "here"
+      }
+    ],
+    "root": "%4zBwtxlm4Dvp4oMqlZTLbfiYvpsmuEM7jiWvC8U/Jtk=.sha256",
     "branch": [
-      "%4zBwtxlm4Dvp4oMqlZTLbfiYvpsmuEM7jiWvC8U/Jtk=.sha256"
+      "%gZsUluMssmv49Fi7DnqklQ+j4s9g5rnyFOAezFhCkNk=.sha256"
     ]
   },
-  "signature": "SAIrmzktfxkuxx7bedrhudWCD286QuJockFb9nirL3mJ8B7z1bdvD6mDU4+hFESAoVme2Xc8pU2wKsXK0FHEDg==.sig.ed25519"
+  "signature": "og8ReXgEM1fPMOnjszX0ZUmMsO6U7q4o1uDtBB/BMPzzNpafT0Ci9QtzCudEFOJqhnCyHaBNaFh9jXcjlHcqCg==.sig.ed25519"
 }
