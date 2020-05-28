@@ -1,18 +1,23 @@
 {
-  "previous": "%DgEz8NRKPhq57X4Wl8kZwmHQZvLRliEvvKHwggZR+gM=.sha256",
-  "sequence": 17725,
+  "previous": "%MnB3DPZKbohUQeAzqoZ6nyzLVIVMsk3al+CI/C3Ge5Y=.sha256",
+  "sequence": 17726,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590681562442,
+  "timestamp": 1590691948689,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%pZtbQGI3qUiNTqK7aEn5d1rOQV9B0tDE6B2CpojadbI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@m455](@v5McOmFdOeif/QWH0zYzg7sBU/ytoSImdY35uEKqaiE=.ed25519)\r\n\r\nfwiw you don't need patchwork in the background to boot oasis! It works best as its own server, but can use Patchwork's server for your convenience.",
+    "mentions": [
+      {
+        "link": "@v5McOmFdOeif/QWH0zYzg7sBU/ytoSImdY35uEKqaiE=.ed25519",
+        "name": "m455"
+      }
+    ],
+    "root": "%jU+nP/5RKD+VsRRXvVqdc17fs0jc0QcuCnLaZI1Tfxk=.sha256",
+    "fork": "%mGGmScScid+z93MIgI+GMmCfWxcpYzCrj3cwAAvROW8=.sha256",
     "branch": [
-      "%pZtbQGI3qUiNTqK7aEn5d1rOQV9B0tDE6B2CpojadbI=.sha256"
+      "%jU+nP/5RKD+VsRRXvVqdc17fs0jc0QcuCnLaZI1Tfxk=.sha256"
     ]
   },
-  "signature": "UuZzOoLiW19QmtqqPbwZCKCCUFM3sBNwslQRrK8A8veL98HMJaH9tiyJTwNDMP7ni4KjsvSntrxaGo8tW/QqDw==.sig.ed25519"
+  "signature": "+DUsrXXAXe1mzmrDVJ5trl6oG3TGKTgQl3vCTGHjR1+wG1SkYsOLegwgJ1rYmG59RBQNVEMA0/M0Vhao4YHaBg==.sig.ed25519"
 }
