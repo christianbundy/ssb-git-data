@@ -1,22 +1,22 @@
 {
-  "previous": "%Gy1EDkxq/NgAZgUKcgA1/hNdAsGb+I8K7JPTvgssM1A=.sha256",
-  "sequence": 17722,
+  "previous": "%E1vvN0noDQCEl8AONQk/qu9x+0BCkz+MI2rYuoxNmzY=.sha256",
+  "sequence": 17723,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590680945044,
+  "timestamp": 1590681372765,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@dinoƧ𝔸Ⓤᖇ](@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519)\r\n\r\nThanks! It's great to hear from you, I've missed you in buttspace. \r\n\r\nThere's a big trade-off involved, but lately I've been increasingly interested in following the constraints of REST rather than tossing everything into an RPC protocol. RPC protocols are super flexible, but I'm worried that we don't actually need that flexibility for anything we're doing, and that it actually makes our APIs more complicated and harder to maintain.\r\n\r\nThanks for the ZMQ guide link! I've been spending lots of time thinking about ZeroMQ, especially the development workflow, which formed the base of the [dev workflow for Oasis](https://github.com/fraction/oasis/blob/master/docs/contract.md).\r\n\r\nPulling both topics together, I saw [A Protocol for REST over ZeroMQ](http://hintjens.com/blog:86) which outlines some of my thinking:\r\n\r\n> While it's become easy to build RPC protocols using tools like protobufs and zproto, many of these protocols tend to be fragile and expensive to evolve across a distributed system. That becomes a problem at scale. The root cause is the lack of abstraction, so that every change to business semantics causes a break in the protocol, and a new version.\r\n>\r\n> One proven way to address this is to use a RESTful resource approach, instead of RPC. This provides equivalent semantics, yet is designed to handle change naturally, and cheaply.\r\n\r\nI could probably be convinced to avoid REST, but it's been an interesting idea to entertain so far. 🤷",
+    "text": "[@jackyalcine](@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519)\r\n\r\nDo you think an 'edit' would solve this? I'm worried that soft-deletes would have weird effects (what do we do with comments on deleted posts? links to it?) but an edit function would at least let you revise / retract what you've said.",
     "mentions": [
       {
-        "link": "@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519",
-        "name": "dinoƧ𝔸Ⓤᖇ"
+        "link": "@kWXMuIThNowm24q7sLYRXxE0l1NuevkFiOkLRmyDNHI=.ed25519",
+        "name": "jackyalcine"
       }
     ],
-    "root": "%94t/qpPao2kCiFOrWM2letdEwmjv0ZGK8wEMzvspk1U=.sha256",
+    "root": "%aAZyZ0z70lDsep6tKDGPg99u3d6a8dEyDIbxpX8pFXQ=.sha256",
     "branch": [
-      "%94t/qpPao2kCiFOrWM2letdEwmjv0ZGK8wEMzvspk1U=.sha256"
+      "%eivv46czPH7CeQ5ecXZp2/vacGCKqoeUCvH9FTESkdM=.sha256"
     ]
   },
-  "signature": "PTr57OwO2LX7TeMKPNIpxJK/bxddjZbiyLGB916/2UhRz0QJWuLnesVUYaoM9tl3Ytrx9mTOIH0ZzbHq2KtECw==.sig.ed25519"
+  "signature": "tsNvjvhXV/LW4Inn/ofYWBtHJMLlKXJ3vI7qq9QWvfV4cSzRQIQ3g2vJPPD8AxLy2tZXwOtg+j96nrELtaMWAg==.sig.ed25519"
 }
