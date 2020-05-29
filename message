@@ -1,18 +1,20 @@
 {
-  "previous": "%Iwr6NqzPdYoIVs5CjbHuHIdgh820Twz38gqyMOyXVks=.sha256",
-  "sequence": 17748,
+  "previous": "%eftDHRRDd7Ab+QAvAE6SN0W5aHKNrFG+WSYkMyklMoQ=.sha256",
+  "sequence": 17749,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590786279377,
+  "timestamp": 1590788150656,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%GQlL09NLpGJuClXtCVsZ72vaUwDRDYKcPY4BsFbEOCc=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%GQlL09NLpGJuClXtCVsZ72vaUwDRDYKcPY4BsFbEOCc=.sha256"
+    "type": "post",
+    "text": "Can anyone recommend a nice list of valid / invalid SSB messages? I put together a small SSB validator in two hours that passes the same tests as [this branch of SSB-Validate](https://github.com/ssbc/ssb-validate/pull/21), but those tests don't seem to cover `previous` or `sequence`, which makes me suspicious that there's lots of other untested behavior.\r\n\r\nI was originally trying to use the [legacy-value-testdata](https://github.com/sunrise-choir/legacy-value-testdata) repository, but there's lots of 'valid' data like [this](https://github.com/sunrise-choir/legacy-value-testdata/blob/master/yay/0225662813ad4a08490d828cec9f0abfc929df5e) which suggests that it's more focused on the encoding rather than the semantics.\r\n\r\n#ssb-dev #help",
+    "mentions": [
+      {
+        "link": "#ssb-dev"
+      },
+      {
+        "link": "#help"
+      }
     ]
   },
-  "signature": "Z8D5ICsqGI08pqfMgcAl2GF8HlL7mt2kRlZHI6UittxvVs193YjPpgkTsrETho7eLr/NPKSf7qDIua8aXTRYBA==.sig.ed25519"
+  "signature": "1PrJgSrMSqFohRtVGe7+C1y6LLJMpRLago74r8UsCSE2POmc+thflw6PW4smWAug8D2Yd9saxFghHMyDhcpcDg==.sig.ed25519"
 }
