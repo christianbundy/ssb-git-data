@@ -1,12 +1,12 @@
 {
-  "previous": "%QLrBKfXLHPcArZOYTtyBOSKMAaR2Ti0fr0ykcmvTKrw=.sha256",
-  "sequence": 17739,
+  "previous": "%mXO5NyfOVYmawpJX6sDd9u0+QkPdFjEOoSfP7GQ52WE=.sha256",
+  "sequence": 17740,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590768905668,
+  "timestamp": 1590769324933,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\n[sodium-universal](https://github.com/sodium-friends/sodium-universal)!\r\n\r\nIt's libsodium, using [sodium-native](https://github.com/sodium-friends/sodium-native) in Node.js and [sodium-javascript](https://github.com/sodium-friends/sodium-javascript) in the browser.",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI felt much more confident about my answer before clicking all of your links. It seems that sodium-universal and sodium-javascript haven't had any commits lately, and I'm not sure if there's a clear Right Answer here.\r\n\r\nFWIW, I've had fine experiences with:\r\n\r\n- noble-ed25519\r\n- sodium-native\r\n- tweetnacl\r\n\r\n(chloride is a wrapper around sodium-native and tweetnacl with some small API changes)",
     "mentions": [
       {
         "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
     "branch": [
-      "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256"
+      "%mXO5NyfOVYmawpJX6sDd9u0+QkPdFjEOoSfP7GQ52WE=.sha256"
     ]
   },
-  "signature": "hFr1B5Eg2TlYcDnxfAApbdO0ydcqoNO3sZQaJrWzR+gfcd0MeDIhy1Qn6Uicm6ssLQwAVL3Ep4sSDMu1BwOxAw==.sig.ed25519"
+  "signature": "snwDSMErWJfNd1p7LVdIRpEgoLlXPbPdf2aPD72YMn4BD+SDr4b6sjr0S/65M42sRayQ5h/C6cG451r7mIYADA==.sig.ed25519"
 }
