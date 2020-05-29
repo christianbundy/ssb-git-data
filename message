@@ -1,22 +1,18 @@
 {
-  "previous": "%mXO5NyfOVYmawpJX6sDd9u0+QkPdFjEOoSfP7GQ52WE=.sha256",
-  "sequence": 17740,
+  "previous": "%5LtEllJ8f0G+RHnZ7Rtk3L3HTMjfnBIwpZNjVxRW4/8=.sha256",
+  "sequence": 17741,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590769324933,
+  "timestamp": 1590770732118,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nI felt much more confident about my answer before clicking all of your links. It seems that sodium-universal and sodium-javascript haven't had any commits lately, and I'm not sure if there's a clear Right Answer here.\r\n\r\nFWIW, I've had fine experiences with:\r\n\r\n- noble-ed25519\r\n- sodium-native\r\n- tweetnacl\r\n\r\n(chloride is a wrapper around sodium-native and tweetnacl with some small API changes)",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
+    "text": "potentially useful context: ssb-keys uses chloride, which uses sodium-native on node.js and falls back to tweetnacl in the browser",
+    "mentions": [],
     "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
     "branch": [
-      "%mXO5NyfOVYmawpJX6sDd9u0+QkPdFjEOoSfP7GQ52WE=.sha256"
+      "%/by0a1VjDIqBtwZyyTjql2i/ZYWZXwe28bo2O16dPbY=.sha256",
+      "%5LtEllJ8f0G+RHnZ7Rtk3L3HTMjfnBIwpZNjVxRW4/8=.sha256"
     ]
   },
-  "signature": "snwDSMErWJfNd1p7LVdIRpEgoLlXPbPdf2aPD72YMn4BD+SDr4b6sjr0S/65M42sRayQ5h/C6cG451r7mIYADA==.sig.ed25519"
+  "signature": "xnp66mrG0PiGK8erQITsU0CFEn9pMgCF7kpH420ffEJJ6AXSdlf15UCG26J4vhT2puyitncYFjuHsXIgDTOrAw==.sig.ed25519"
 }
