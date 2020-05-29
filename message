@@ -1,12 +1,12 @@
 {
-  "previous": "%qa+AeS0plGBU0xOP+5u4WqUTeMRNc7x1yXCFTCRM5xw=.sha256",
-  "sequence": 17745,
+  "previous": "%+TRUtzz3BhJVFefWjKTvFYj/SYx8IU4hVWYBaTB7Wv0=.sha256",
+  "sequence": 17746,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590786075255,
+  "timestamp": 1590786092228,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\n> I wish I could use the pure JS `noble-ed25519` which has no dependencies, but it has async methods so I’d have to rearrange my entire codebase.\r\n\r\nHack it! I'm reasonably sure that those methods are only async because it's trying to support [SubtleCrypto.digest](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest), which is async, but if you patch it to use some synchronous SHA-512 then I don't think it needs to be async anymore.",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nP.S. I love your graphics, as usual.",
     "mentions": [
       {
         "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
     "branch": [
-      "%Ybrgev6Pkx0aKnMzaxv20c0QUOk7WXth/MnAthqp4Ws=.sha256"
+      "%+TRUtzz3BhJVFefWjKTvFYj/SYx8IU4hVWYBaTB7Wv0=.sha256"
     ]
   },
-  "signature": "K5LaN9rmpQUxRdarnu3StS7kjOER3DO+8uWrah/AVm3OJhVAp1K2gNhV+xHXacovISysU+5Zi/1KNZqGIcsgBQ==.sig.ed25519"
+  "signature": "HdJr9Vt/AnIk9S6yLavPq3mcAk3gNiJ7/yx6RfLrl4cLgiKDEor+y3wwXZ5tg9x2g5+8RZOWq38/AOJsrNRWDw==.sig.ed25519"
 }
