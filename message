@@ -1,22 +1,18 @@
 {
-  "previous": "%35gPWIBj0HT+iICpWTbyM+rDMjPQsiG2YleMOpBue04=.sha256",
-  "sequence": 17762,
+  "previous": "%LQ4oOBpWVhEw+tkmgaIIAsTngJKrFtkmKfPI/Z/Ghes=.sha256",
+  "sequence": 17763,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590806809090,
+  "timestamp": 1590808252432,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nYeah! I've added that in my PR, because I *think* it's the right behavior? But I think I just found a problem where we actually have two distinct serialization formats...\r\n\r\nWhen calculating the message ID, the [hash](https://github.com/ssbc/ssb-keys/blob/588846380f0982c01de884b1c2409ee4f3c51ae0/util.js#L7) function uses the latin1 encoding (using the 'binary' alias):\r\n\r\n```javascript\r\nsha256(Buffer.from(JSON.stringify(message, null, 2), 'latin1')\r\n```\r\n\r\nBut when signing a message, [we use the default encoding, 'utf8'](https://github.com/ssbc/ssb-keys/blob/588846380f0982c01de884b1c2409ee4f3c51ae0/index.js#L127):\r\n\r\n```javascript\r\nsign(Buffer.from(JSON.stringify(message, null, 2))\r\n```\r\n\r\nOr maybe I'm misunderstanding something? I'm surprised this hasn't been mentioned elsewhere.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
-    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%SJR3ZABEFZa4R6eiEbFnoDzIET3xt7lwzwp+pNqMaTE=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%F6eHcFwTbkz5wVcFVcDy3Q+PETmZ/+8Rwvd4bDUu10A=.sha256"
+      "%Q7kk6KbmrlKNQyXt0R4eIofbObPpwrke0FTwIH8SKDw=.sha256"
     ]
   },
-  "signature": "39Jsc85IZVyeAhNVXXJn5N4SW3NNB2QzatntEStErhcfFBGJWGAj0jPpWkQXYIMRTANhUXnCblRaDEqrc0jjAA==.sig.ed25519"
+  "signature": "5x1rVT/WwpFKwSXnH6g0p07rgeckPhiUIlWuU95z/TUcbrohFLOWMuEpQTzMzt4TcTsiBrF7u6QecE1JvNm5Dw==.sig.ed25519"
 }
