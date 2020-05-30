@@ -1,18 +1,22 @@
 {
-  "previous": "%LQ4oOBpWVhEw+tkmgaIIAsTngJKrFtkmKfPI/Z/Ghes=.sha256",
-  "sequence": 17763,
+  "previous": "%MevqrmG5TWl0cJFsxj5D46ylUptBBjkhVmm6bFoxImM=.sha256",
+  "sequence": 17764,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590808252432,
+  "timestamp": 1590808340276,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SJR3ZABEFZa4R6eiEbFnoDzIET3xt7lwzwp+pNqMaTE=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nOh wow, I tried searching my local database but was using the wrong terms. Thanks!\r\n\r\nAny chance you have the hookup on a big list of valid / invalid messages? Or maybe you have some ideas about [this PR and the failing test](https://github.com/ssbc/ssb-validate/pull/21)?",
+    "mentions": [
+      {
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
+      }
+    ],
+    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
     "branch": [
-      "%Q7kk6KbmrlKNQyXt0R4eIofbObPpwrke0FTwIH8SKDw=.sha256"
+      "%xZ/oLTwIu5tgXDm33hst2YJdrR7T0tUJ/zJkFnue3yE=.sha256"
     ]
   },
-  "signature": "5x1rVT/WwpFKwSXnH6g0p07rgeckPhiUIlWuU95z/TUcbrohFLOWMuEpQTzMzt4TcTsiBrF7u6QecE1JvNm5Dw==.sig.ed25519"
+  "signature": "MqoLaYbYZSRdui4RYY4JVNEGGy+VU7LD0rWwusn33kr9tWHvMjuslrJOercpOvDwPv1OeHhaqhF2guH6VJFvAg==.sig.ed25519"
 }
