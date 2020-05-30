@@ -1,22 +1,18 @@
 {
-  "previous": "%E58K7CCJcvUCZsAAQ4/HOBz2jOvAKnRhtS0SuhBHpJ4=.sha256",
-  "sequence": 17760,
+  "previous": "%KESvlwiu9uKj+j6Fawk+nT3byovOXQWQcy4WGD0KuJg=.sha256",
+  "sequence": 17761,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590798134802,
+  "timestamp": 1590804751820,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\n> I don’t have any recommendations except to say thanks for making this!\r\n\r\n❤\r\n\r\nI'm so inspired by Earthstar, it's super motivating to make the SSB stack more accessbile.\r\n\r\n> It’d be nice if each one had a comment about what was wrong with it\r\n\r\nTrue, I can't spot what's wrong with that `{ type: 'Buffer' }` one, it'd be great to know if it's actually invalid for some reason.\r\n\r\n> Is this validating the lower protocol level, or the inner app-schema level?\r\n\r\nThis is only the lower protocol, which [IMO [unfortunately]] is very specific about which messages are valid. Quirks I've noticed:\r\n\r\n- Signed payloads are `Buffer.from(JSON.stringify(message, null, 2), 'latin1')`, so they have both the JSON pretty-printing *and* a latin1 encoding. I'm slightly confused by this though, because [this](https://spec.scuttlebutt.nz/feed/datamodel.html) specifies UTF-16 rather than latin1.\r\n- Properties have a very specific order, but the order of `author` and `sequence` are apparently unspecified, so they can come in either order (!).\r\n- The maximum message size is meant to be 8192 bytes, but SSB-Validate actually enforces a constraint of 8192 **characters**. \r\n- If `content` is a string, it has to be base64 characters and then end in `.box.${something}`, I think?\r\n- If `content` is an object, then `content.type` needs to be a string between 3 and 52 characters (bytes(?!)).\r\n\r\nAnother weird thing, is that when you send a private message (i.e. `content` is a string) then there's no guarantee that the decrypted messages is an object (or that it has a `type` property). I really wish that `content` was just arbitrary JSON, I'm not sure I understand why its value is specified in the network protocol.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
-    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%EobxNX4Ig4p3t9oCEXdGPsf/sVzCkjT5qqV1HCo4rR0=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%OQHcShXGs2EnVruXJsc4SNAr5GGf2ihwVtzLFitihVc=.sha256"
+      "%EobxNX4Ig4p3t9oCEXdGPsf/sVzCkjT5qqV1HCo4rR0=.sha256"
     ]
   },
-  "signature": "t4tEMJmmoIT7HgnLsrreeg3zl9ksc1m1gHmD8nJU2yssFf5PKIq9gqbaebMvdRO6NAxLqvDFabBDAOD/NA74Cw==.sig.ed25519"
+  "signature": "yb4DHQmpT6LM4lkcUpbSq7dJ6LXdFXqnb7n9Sf8rc9dROe1XGYO2pHHqGKc07x+QV5mvPKQE/+BllgNsy/6vCw==.sig.ed25519"
 }
