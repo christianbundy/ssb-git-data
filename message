@@ -1,17 +1,18 @@
 {
-  "previous": "%gYmXPlmMukpYcWRZdyIuXFFQXFVXHuApnfEq/pJw94Q=.sha256",
-  "sequence": 17769,
+  "previous": "%QvsrS/Z0kHBxnfq/jzcZfDVmcwd0YiyQ498OPjmJMWc=.sha256",
+  "sequence": 17770,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1590879298659,
+  "timestamp": 1590887555177,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Quick note to try to save others some time: I've started using a fuzzer to ensure that my validator agrees with SSB-Validate, and it's been *very* fruitful. I'll update this thread soon.",
-    "mentions": [],
-    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%11CCnv9vrmEZ3PBh6f0oBNx6wP2iFe8w7VqIxUWZ58k=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%FfBkA6gyRyIloxIqP2AfOwXCSc4lfRCTFS/bT5LnjY4=.sha256"
+      "%11CCnv9vrmEZ3PBh6f0oBNx6wP2iFe8w7VqIxUWZ58k=.sha256"
     ]
   },
-  "signature": "lYNh5oPefaVIEoYF0LvxOXRXjC4omsk22cAKn/dwMHlOkBIfGsSSPsHU9r3VPKBQhVTW8oIWtBwxNhWjeTucDw==.sig.ed25519"
+  "signature": "o/ypi2GKksxMg9vUmQlu5A9jdkvpDKdLtdzY8m+WCUz4oRF0RGg/Z7jZ6Pin4pcerBtBm5oO6SECs8azEx5ABQ==.sig.ed25519"
 }
