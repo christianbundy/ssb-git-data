@@ -1,17 +1,17 @@
 {
-  "previous": "%wfIlCbfYIbx9ddoOuf1h579nfN4f3yIp/SjgYw4n6U8=.sha256",
-  "sequence": 17815,
+  "previous": "%LnMS1E0IPlY+5AEclgLLfB6sEAWANPt9bYDB/VxnQIs=.sha256",
+  "sequence": 17816,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591032294050,
+  "timestamp": 1591033801554,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I've now written two validators from scratch ([one](https://github.com/christianbundy/node-ssb-validate-example) and [two](https://github.com/christianbundy/node-ssb-validate-example-2)) and I'm feeling a lot better about this problem space.\r\n\r\nMy second validator took me ~90 minutes and ~200 lines of code to write from scratch, with the main pain point being \"wait why is this message supposed to be invalid? it looks fine to me\". I'll probably spend a few minutes and convert my `return false` statements into useful error messages which can be added to the test dataset, then I'll set the problem down for a bit.\r\n\r\nAssuming libsodium and SQLite are available everywhere, I think this means that I can comfortably implement an SSB peer with basic HTTP replication in about three hours (with plenty of time to flail around and `console.log('WHY IS THIS BROKEN')` and such).\r\n\r\nWhen I have some time, maybe it'd be fun to make a small screencast of the process? I don't know how many people are interested in writing small SSB implementations from scratch, but maybe someone would find it useful? 🤷",
+    "text": "Test dataset, now with errors!\r\n\r\nhttps://github.com/christianbundy/node-ssb-validate-example-2/blob/master/fixtures/messages.json",
     "mentions": [],
     "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
     "branch": [
-      "%QvsrS/Z0kHBxnfq/jzcZfDVmcwd0YiyQ498OPjmJMWc=.sha256"
+      "%LnMS1E0IPlY+5AEclgLLfB6sEAWANPt9bYDB/VxnQIs=.sha256"
     ]
   },
-  "signature": "SWTIHZqSQDHyj2q2RbvBISRCTVe68BvJQi2gHf4gXJkq1n8utNAlHRaOavEx9p0s4HPG4vFkMBUlG+aeWne4Bw==.sig.ed25519"
+  "signature": "d1bAr8QlfXbx+b82Aj76jyfSNiUWFLN7Zvq/E2f26vmkxCGad2VAT12Esh6D9/cZaC8rfqZDjWjTeHsgKALLDg==.sig.ed25519"
 }
