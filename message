@@ -1,18 +1,22 @@
 {
-  "previous": "%djrBBt8GV3CajgBhVrM5Bn7uPpGD6WzT1NRNZbPpSQc=.sha256",
-  "sequence": 17806,
+  "previous": "%fmSk/02bPrPCAy0lKW0mjtzLYGm5sjZvH+JzcV/INp4=.sha256",
+  "sequence": 17807,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591021468876,
+  "timestamp": 1591022035293,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%x5lgm9kKUz+m5nOUFMIb/ta9C8ZRtUZPXeVf8EtK8GM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nSmall note: I just cloned your repo and wow it's small, this is fantastic. I noticed you're validating the `key`, but it might save you a bit of trouble if you just derive that rather than accept and validate it.\r\n\r\nAnyway, I've been putting together a [big list of troublesome messages](https://github.com/christianbundy/node-ssb-validate-example/blob/76094bfcac9e6af73cc3099af4526cb83c0840d8/fixtures/messages.json) that you might find useful. Either way, please feel free to ping me if you bump into any other trouble -- I've got lots of this fresh in my head since I was working on it over the weekend.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%x5lgm9kKUz+m5nOUFMIb/ta9C8ZRtUZPXeVf8EtK8GM=.sha256"
+      "%djrBBt8GV3CajgBhVrM5Bn7uPpGD6WzT1NRNZbPpSQc=.sha256"
     ]
   },
-  "signature": "zhnJaSQ3AGAPeEeYs1ezozUoC7keqTC/ZWlgA2xboZKLE7fWjYoMuuUVahRAaDjk480Q5TYAvVBSBYWvtQqxCw==.sig.ed25519"
+  "signature": "HfaBwIAltBVt2XiiWJ8YU+ax2z2nPCEClN0oNHieW75Vx7KLizhfnWAIrN40hTrMTBIQj9HRZrZqvWb/OGMFAw==.sig.ed25519"
 }
