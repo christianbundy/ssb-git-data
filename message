@@ -1,12 +1,12 @@
 {
-  "previous": "%wwWe5B0swet099xm0MxYsN13tRcGLeIzbqBislvHOIY=.sha256",
-  "sequence": 17821,
+  "previous": "%SnEOPTXgwpbNsp7GPKalcI74rkVs0BjG8QW/fU2nZhQ=.sha256",
+  "sequence": 17822,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591050430219,
+  "timestamp": 1591051272669,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nI found this super useful: https://docs.python.org/3.9/library/exceptions.html#UnicodeError\r\n\r\nThe plumbing is sort of a headache, but the algorithm is pretty simple: when you hit a character that isn't valid in latin1, take its UTF-8 representation and flip the two left-most bits two zero.\r\n\r\nFor example, I think `—` is represented as three bytes in UTF-8, which we truncate into Latin-1:\r\n\r\n```\r\n  UTF-8: 11100010\r\nLatin-1:   100010\r\n\r\n  UTF-8: 10000000\r\nLatin-1:   000000\r\n\r\n  UTF-8: 10010100\r\nLatin-1:   010100\r\n```\r\n\r\nIt's hacky, but it works. 🤷",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nOh... that's not good. :/\r\n\r\nThis is a real pain, huh?",
     "mentions": [
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%N1NZ9a0wGkyHSz76h32EYS8Ip3p3phdXsM/ipH4gxUs=.sha256"
+      "%SnEOPTXgwpbNsp7GPKalcI74rkVs0BjG8QW/fU2nZhQ=.sha256"
     ]
   },
-  "signature": "xMR9Tiicqyk2eDzkx0clewWuA05v2HfQFTCbyzhdxfap1rtiSj+JIDypyLpWb1nE9FJsJc42zck/a8zwubNbBA==.sig.ed25519"
+  "signature": "LIZrCFMQme5m0wzV+3lKBbnpIDl3SLRrRfcAnrarz+ixKjCYZHAjPaB3luphYZLImIcsqtM4CLJRWC640kI9CA==.sig.ed25519"
 }
