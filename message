@@ -1,18 +1,22 @@
 {
-  "previous": "%61nNaioQLlil209nOMI7Oo8622ooANQBYgceDy5uL0s=.sha256",
-  "sequence": 17804,
+  "previous": "%Et6gyhC8ZDcaBi45ntMcWHCIROvj8/v4emqEB4qc+IY=.sha256",
+  "sequence": 17805,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591020856874,
+  "timestamp": 1591021438128,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nNice! I've been enjoying implementing this stuff from scratch, I'm super excited to see you doing it too!\r\n\r\nI think the trick here is to take the string and `.decode('utf-8').encode('latin1')`. Here's an example that looks right to me:\r\n\r\n```python\r\njson.dumps({ 'decription': \"friendly but very honest — i build pretty user interfaces and decentralized things — worker-member at #heropunch and #bbnet — wage-slave elsewhere\" },  indent=2, ensure_ascii=False).encode('utf-8').decode('latin1')\r\n```",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
       "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256"
     ]
   },
-  "signature": "oNBOMQLrrMQc3vNrW72oT809oTyohopl9TvI42Win3Ymg1ijQ5BBjG7Dlk60Q3uun9VBYJMiS+d/nT2+0cVHCA==.sig.ed25519"
+  "signature": "XqKwdk/PrT9axpGlBqBjKjDhHklc5xvnHN5rr5ZFml1Ezv9z7IAVWfQlyDGC4QljSswrPr6ExaC8SZ/NqYX2BA==.sig.ed25519"
 }
