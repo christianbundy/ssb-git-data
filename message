@@ -1,18 +1,17 @@
 {
-  "previous": "%1g5ZLQelQZycT0c/voLP+10SoQlCUjBf4VKt9aSqms4=.sha256",
-  "sequence": 17814,
+  "previous": "%wfIlCbfYIbx9ddoOuf1h579nfN4f3yIp/SjgYw4n6U8=.sha256",
+  "sequence": 17815,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591031414222,
+  "timestamp": 1591032294050,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%NXa4402CgazODrLzkR0c++UXw+6FyfhPVpVmEJbbXL0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "I've now written two validators from scratch ([one](https://github.com/christianbundy/node-ssb-validate-example) and [two](https://github.com/christianbundy/node-ssb-validate-example-2)) and I'm feeling a lot better about this problem space.\r\n\r\nMy second validator took me ~90 minutes and ~200 lines of code to write from scratch, with the main pain point being \"wait why is this message supposed to be invalid? it looks fine to me\". I'll probably spend a few minutes and convert my `return false` statements into useful error messages which can be added to the test dataset, then I'll set the problem down for a bit.\r\n\r\nAssuming libsodium and SQLite are available everywhere, I think this means that I can comfortably implement an SSB peer with basic HTTP replication in about three hours (with plenty of time to flail around and `console.log('WHY IS THIS BROKEN')` and such).\r\n\r\nWhen I have some time, maybe it'd be fun to make a small screencast of the process? I don't know how many people are interested in writing small SSB implementations from scratch, but maybe someone would find it useful? 🤷",
+    "mentions": [],
+    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
     "branch": [
-      "%4LyBPdt2W83JUYF2YkkQrOEkRUK70skBvMpCG1OAQf8=.sha256"
+      "%QvsrS/Z0kHBxnfq/jzcZfDVmcwd0YiyQ498OPjmJMWc=.sha256"
     ]
   },
-  "signature": "BQEEGJVX5N211rTDP8w9y+UPeQMFr7iB9UF3unr0laMRfdwFJAgu5cFn+pjXRbRbeZ8oluIMG6LZZmurrqarBA==.sig.ed25519"
+  "signature": "SWTIHZqSQDHyj2q2RbvBISRCTVe68BvJQi2gHf4gXJkq1n8utNAlHRaOavEx9p0s4HPG4vFkMBUlG+aeWne4Bw==.sig.ed25519"
 }
