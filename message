@@ -1,17 +1,18 @@
 {
-  "previous": "%LnMS1E0IPlY+5AEclgLLfB6sEAWANPt9bYDB/VxnQIs=.sha256",
-  "sequence": 17816,
+  "previous": "%5VfQ+PxpDJDxMGxWPzOjCeso3tLBsBvVyW6LoDLCezo=.sha256",
+  "sequence": 17817,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591033801554,
+  "timestamp": 1591035694528,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "Test dataset, now with errors!\r\n\r\nhttps://github.com/christianbundy/node-ssb-validate-example-2/blob/master/fixtures/messages.json",
-    "mentions": [],
-    "root": "%vXW+RcOri38xbX/Y55OPU/3E5CvKSzoF2cQDJf7waf0=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%LZ6hiADOLxIIxp86bqEN7/hWPuwOpx77vwZnikwm1fw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%LnMS1E0IPlY+5AEclgLLfB6sEAWANPt9bYDB/VxnQIs=.sha256"
+      "%LZ6hiADOLxIIxp86bqEN7/hWPuwOpx77vwZnikwm1fw=.sha256"
     ]
   },
-  "signature": "d1bAr8QlfXbx+b82Aj76jyfSNiUWFLN7Zvq/E2f26vmkxCGad2VAT12Esh6D9/cZaC8rfqZDjWjTeHsgKALLDg==.sig.ed25519"
+  "signature": "bni+7wbEaNVsbF03w/SGfjNHc9NrgOOkwOOkuL0pQElO1KbZotQdqx/hNp4hfNw7ffyn/f0b/ExNeeYDcKZUBw==.sig.ed25519"
 }
