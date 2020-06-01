@@ -1,18 +1,22 @@
 {
-  "previous": "%7kkzEsaS40ez0yweX+UMWNsmaubpGDx7zZz04+BAcqQ=.sha256",
-  "sequence": 17819,
+  "previous": "%brdnilD6Jxp7Ldjv6hO54i6jFJNXHwKTUvysRVsCEjg=.sha256",
+  "sequence": 17820,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591035772531,
+  "timestamp": 1591049179702,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%VaBbeFlLOdk+n9fB4JktBRmI10tqcJ6vXtQEBoBn014=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYou nerd sniped me!\r\n\r\n```python\r\nimport json\r\nimport nacl.hash\r\nimport codecs\r\n\r\n\r\ndef ssb(err):\r\n    problem = err.object[err.start:err.end]\r\n    last_byte = bytes(problem, 'utf8')[-1]\r\n    truncated = last_byte % 64\r\n    replacement = chr(truncated).encode('latin1')\r\n    return replacement, err.end\r\n\r\n\r\ncodecs.register_error('ssb', ssb)\r\n\r\n\r\ndef get_message_id(message_dict):\r\n    message_canonical = json.dumps(message_dict, indent=2, ensure_ascii=False)\r\n    encoded = message_canonical.encode('latin1', 'ssb')\r\n    digest = nacl.hash.sha256(encoded, nacl.encoding.Base64Encoder).decode()\r\n    return '%' + digest + '.sha256'\r\n\r\n\r\nmessage_string = \"\"\"\r\n{\r\n  \"previous\": null,\r\n  \"author\": \"@GqsSW1pLJq5qUbJuDAtm7MwwOhpf+Ur6BfDH0kZKCJc=.ed25519\",\r\n  \"sequence\": 1,\r\n  \"timestamp\": 1495427456018,\r\n  \"hash\": \"sha256\",\r\n  \"content\": {\r\n    \"type\": \"about\",\r\n    \"about\": \"@GqsSW1pLJq5qUbJuDAtm7MwwOhpf+Ur6BfDH0kZKCJc=.ed25519\",\r\n    \"image\": \"&0iphp2kheae0ryiDIEpGephiupxs9NVNgKMy/baXvs8=.sha256\",\r\n    \"name\": \"xj9\",\r\n    \"description\": \"friendly but very honest — i build pretty user interfaces and decentralized things — worker-member at #heropunch and #bbnet — wage-slave elsewhere\"\r\n  },\r\n  \"signature\": \"0rglxh4LKWep9Xcw8z513PX4RZDYme/oToLdwcD7gbGVI1rUMD6c18NfqOUkI3qzLaYq7Ah3qu/eo3yHyPY2CQ==.sig.ed25519\"\r\n}\r\n\"\"\"\r\n\r\nmessage = json.loads(message_string)\r\n\r\nprint(get_message_id(message))\r\n# %A+QgfXDx3zhods2t0fKvChQYbz1yhfi6oVa9ns79rxo=.sha256\r\n```",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%VaBbeFlLOdk+n9fB4JktBRmI10tqcJ6vXtQEBoBn014=.sha256"
+      "%S7bLiUSTTkdyXpqol69I7IHgHHVkiQdjDGL3iWXHXYQ=.sha256"
     ]
   },
-  "signature": "fDWwZHpt+rGWdq9wyFEerFpXPQaJ8apLXyNS3eseFN+nAXHqNVMToMiYRwaWDq8eVs2cXQc/t+nVn37LcgwqCQ==.sig.ed25519"
+  "signature": "pjJVtacJRpR+N7ySSmaxQLgT8+YRdrpUPXPpBn+CNnH0JQ2pGbwgQWK4RRU55l7ZoaK0XVMgzxY2TASm1eYyBQ==.sig.ed25519"
 }
