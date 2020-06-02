@@ -1,12 +1,12 @@
 {
-  "previous": "%hC0E/U2HzRvaG5Jntztz5R8D+rfDoJ5cRbNRcBt/U5s=.sha256",
-  "sequence": 17829,
+  "previous": "%rl7izVHY6A3svZgqXwrPPtpMGU/jKLzYggxUS9jGkmU=.sha256",
+  "sequence": 17830,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591075307468,
+  "timestamp": 1591105469142,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nBase64 because I'm paranoid about copying and pasting weird values. I think I had this solution working about an hour ago but my copy and paste was causing trouble.\r\n\r\n```shell\r\ncurl http://localhost:4515/json/%25g0cdFS7UGdX4y98vyrCFUEnkW0sER7y9QRp9t%2BxKzY0%3D.sha256 | jq .value -c | base64\r\n```",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYou might not be very excited about this, but would you feel comfortable just leaving `timestamp` as a number in the database? I don't think there's anything specifying that it has to be a valid date, so if you parse it as a date you're very likely to bump into problems.",
     "mentions": [
       {
         "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%hC0E/U2HzRvaG5Jntztz5R8D+rfDoJ5cRbNRcBt/U5s=.sha256"
+      "%YoG+kakSrUtf1TpjhSIDiitXJ0sIQk/YxLS9xr+MPaU=.sha256"
     ]
   },
-  "signature": "/7OvXVjZ5MlRa+OEaWanYIvbqQ2+SgxPcnBPEiRLNtItcuHUfBG01wGNNY8PYKT7b4ElAyQ7KPa6qEtG6vnbBA==.sig.ed25519"
+  "signature": "nJnkXtzEwZn4Fq5pEIRznJlyBmw/PhNY9PnJjpykHSzCwaz4f/AIMBWyu13YNRBQb+zA9Fv6J4KFuElDlBLKCA==.sig.ed25519"
 }
