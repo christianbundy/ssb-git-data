@@ -1,18 +1,22 @@
 {
-  "previous": "%SRSBp0wxPebWHG1btVW2r2cWTT9wMq96U5y0l9bOgGQ=.sha256",
-  "sequence": 17836,
+  "previous": "%WUEaDPSMxInp7qyCGGkkl77SuPDP8pbuP6hRN9S/EAY=.sha256",
+  "sequence": 17837,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591106895297,
+  "timestamp": 1591107224539,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nBeautiful!\r\n\r\nBy the way, I was just looking at the [message format](https://tildegit.org/PigeonProtocolConsortium/protocol_spec/src/branch/master/message_format.md) and realized that `key value` vs `key:value` isn't a reoccurring typo. 😬 I'm imagining that a space is for mandatory fields and the colon is for optional fields? This struck me as odd, is there somewhere I could learn more about the two parsing forms? (Apologies if I've missed it.)",
+    "mentions": [
+      {
+        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
+        "name": "Nｅｔｓｃａｐｅ Navigator™"
+      }
+    ],
+    "root": "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256",
     "branch": [
       "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256"
     ]
   },
-  "signature": "yJJMTcyPCpy1l5K49djogoQ6CgYj7cBPyWsGQprEEOMmSxp40elzIl5JGEuG5SB9KRPieDl0zVIamt+nYFHKBg==.sig.ed25519"
+  "signature": "SZfsQaT4bMrWHiFhtRvH3yHY2u/7uy77vDI8E8dVTUOGmrIrp8JPzKnQ16zpyXLtiln5L7iL2SNnHD/tFYJOBw==.sig.ed25519"
 }
