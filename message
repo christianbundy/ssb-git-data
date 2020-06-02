@@ -1,22 +1,22 @@
 {
-  "previous": "%39lwj2ndYGS4vbj0TcX2bTYgWQSeEyuXiMNiieQx2Jg=.sha256",
-  "sequence": 17827,
+  "previous": "%MEejaOGdgpNswcTsSvSexDzfUr7N8jdSSebvMHo+2Pc=.sha256",
+  "sequence": 17828,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591070582796,
+  "timestamp": 1591075168242,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Alanna](@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519)\r\n\r\nI love it, thanks so much! This makes OpenCollective 100x easier for me. 🎉",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nWE DID IT! The answer was [here](https://spec.scuttlebutt.nz/feed/datamodel.html#hash-computation): convert from UTF-8 to UTF-16 and then drop the most significant byte for each character.\r\n\r\nI've used UTF-16-LE and \"drop odd-numbered bytes\" feels easier for my brain.\r\n\r\n```python\r\nimport json\r\nimport nacl.hash\r\nimport codecs\r\nimport base64\r\n\r\n\r\ndef ssb_encode(s):\r\n    return [x for ind, x in enumerate(bytes(s, 'utf-16-le')) if ind % 2 == 0]\r\n\r\n\r\ndef get_message_id(message_dict):\r\n    message_canonical = json.dumps(message_dict, indent=2, ensure_ascii=False)\r\n    encoded = ssb_encode(message_canonical)\r\n    digest = nacl.hash.sha256(encoded, nacl.encoding.Base64Encoder).decode()\r\n    return '%' + digest + '.sha256'\r\n\r\n\r\nmessage_base64 = \"eyJwcmV2aW91cyI6IiVvZ29vdk9uaWJ1YkFWSXNTNU04SWFrckoveW8xSTZoU3dkRGFRQ08zVmM4PS5zaGEyNTYiLCJhdXRob3IiOiJAUTRyWXZWVWxiQzB3ZE9obDB0bWlzVGVKaFRSL1kzUEl1OHlm WGlNWVh4WT0uZWQyNTUxOSIsInNlcXVlbmNlIjo0MywidGltZXN0YW1wIjoxNTE0Njc4OTg5MzY3LCJoYXNoIjoic2hhMjU2IiwiY29udGVudCI6eyJ0eXBlIjoicG9zdCIsInJvb3QiOiIlT1FJaHNvc3N3bGxQa1N2S1cwSnFuMWsxUEQxaEZoUnZFamQraUY4NUIwQT0uc2hhMjU2IiwiYnJhbmNoIjoiJU9RSWhzb3Nzd2xsUGtTdktXMEpxbjFrMVBEMWhGaFJ2RWpkK2lGODVCMEE9LnNoYTI1NiIsInJlcGx5Ijp7IiVPUUloc29zc3dsbFBrU3ZLVzBKcW4xazFQRDFoRmhSdkVqZCtpRjg1QjBBPS5zaGEyNTYiOiJAaHVOa2g3Snk1aFFLWWF1UWx5Znk4TnZRaCtURk54ZmQzUWFVWGdZNDJaQT0uZWQyNTUxOSJ9LCJjaGFubmVsIjpudWxsLCJyZWNwcyI6bnVsbCwidGV4dCI6IlRoZSBjdXN0b20gbm9uLXVuaWNvZGUgb25lcyBhcmVuJ3QgaGVyZSBidXQgdGhhdCdzIGZpbmUgd2l0aCBtZSBJTU8sIHRoZXkgc3R1bmsgZm9yIGludGVyb3BlcmFiaWxpdHkuXG5cbvCfppXwn5KoICAg8J+mliBcbiIsIm1lbnRpb25zIjpbXX0sInNpZ25hdHVyZSI6IjZEakpIVzVyTHdNL2VPdVViQUY2VTF5TjgrTkVIUkNjeDdhNnpkYnJmV0JnUVpvM0J0NVN4aDhVWUJGYi9HYzZuR1ExY2VLTWNadnlaL1hSVTRSTERBPT0uc2lnLmVkMjU1MTkifQo=\"\r\nmessage_string = str(base64.b64decode(message_base64), 'utf8')\r\nmessage = json.loads(message_string)\r\n\r\nprint(get_message_id(message))\r\n# %g0cdFS7UGdX4y98vyrCFUEnkW0sER7y9QRp9t+xKzY0=.sha256\r\n```",
     "mentions": [
       {
-        "link": "@6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519",
-        "name": "Alanna"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
-    "root": "%FjXvEJUdMqa6F6QumJBHwgoXZe62Dd6k4rvVt3CW/Ow=.sha256",
+    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%FjXvEJUdMqa6F6QumJBHwgoXZe62Dd6k4rvVt3CW/Ow=.sha256"
+      "%QdVX3rqpnYV66fPWhaTQ4eI1GeKszxY2sHaBLtO90ac=.sha256"
     ]
   },
-  "signature": "gdEnzMJzx4mxOxEHQ31jS7FcTVEMzdVWKmKMqcPi7pez0QtRXzQIbGMGTNHuVBYRi8cYpKl9N2UGbO2p/RDZBw==.sig.ed25519"
+  "signature": "saVmyAZMm/uaVEoBjKrg5Y9sXZpA1YeeEWr9aTJyAYh3KDM5s3YcDpLzhxoILeGQ2v5KJBpEACt9ejXbpobVDw==.sig.ed25519"
 }
