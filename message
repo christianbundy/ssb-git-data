@@ -1,22 +1,18 @@
 {
-  "previous": "%WUEaDPSMxInp7qyCGGkkl77SuPDP8pbuP6hRN9S/EAY=.sha256",
-  "sequence": 17837,
+  "previous": "%fNNJ1WQepp0AHap5bJwKZe9m2XOKNGL0B1lAfwO5F68=.sha256",
+  "sequence": 17838,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591107224539,
+  "timestamp": 1591107240434,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nBeautiful!\r\n\r\nBy the way, I was just looking at the [message format](https://tildegit.org/PigeonProtocolConsortium/protocol_spec/src/branch/master/message_format.md) and realized that `key value` vs `key:value` isn't a reoccurring typo. 😬 I'm imagining that a space is for mandatory fields and the colon is for optional fields? This struck me as odd, is there somewhere I could learn more about the two parsing forms? (Apologies if I've missed it.)",
-    "mentions": [
-      {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "Nｅｔｓｃａｐｅ Navigator™"
-      }
-    ],
-    "root": "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%oaKQledapWSUkuo75Gc/WHgyOH/rdAWmWUo05fOifrA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256"
+      "%oaKQledapWSUkuo75Gc/WHgyOH/rdAWmWUo05fOifrA=.sha256"
     ]
   },
-  "signature": "SZfsQaT4bMrWHiFhtRvH3yHY2u/7uy77vDI8E8dVTUOGmrIrp8JPzKnQ16zpyXLtiln5L7iL2SNnHD/tFYJOBw==.sig.ed25519"
+  "signature": "b7lcMnLzNNNRG7Pw9BqTikOzvAFvDyC/vSIMuV/JBFYBA+X9NnKQY53FMm58+Dyxrv9r9BxalU3M/L+mQxA2AA==.sig.ed25519"
 }
