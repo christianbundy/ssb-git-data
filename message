@@ -1,22 +1,18 @@
 {
-  "previous": "%Wai+TYzYW1B509bRpfThmhIK/B1F50xhLy8O07GFmKo=.sha256",
-  "sequence": 17831,
+  "previous": "%1ZNFwBB72RVuqh6NWWJ6BU/IsoGhCkbiJeOpjqLJZto=.sha256",
+  "sequence": 17832,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591105702367,
+  "timestamp": 1591105751359,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nI think so! Unless I've copied and pasted something wrong.\r\n\r\n```python\r\nprint(bytes(ssb_encode(\"frække frølår…\")).hex())\r\n# 6672e66b6b65206672f86ce57226\r\n```\r\n\r\n```javascript\r\nBuffer\r\n  .from(\"frække frølår…\",'latin1')\r\n  .toString('hex') === '6672e66b6b65206672f86ce57226'\r\n# true\r\n```",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%7gIiaRuQus5UXGXM2/4IHESzZsLovd+aDbCzDCdovXs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%VXMsh4GPoWQjUdrpY5ifGddRZSvD8EBnV8xr1CRg3/w=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%7gIiaRuQus5UXGXM2/4IHESzZsLovd+aDbCzDCdovXs=.sha256"
+      "%VXMsh4GPoWQjUdrpY5ifGddRZSvD8EBnV8xr1CRg3/w=.sha256"
     ]
   },
-  "signature": "Pscu28CPbOZDXVvMz15lokhRN5gMGAxbgAAChc00FV+hq01F5ZmGtLe2PK7gbj0ZFtDKDfgSj3yLlg5zAIGCCw==.sig.ed25519"
+  "signature": "1sR3TftiwjLjf5AzPFF7avaaUBwBlB2XxTZLVCV0uaDz+4XUgP0e+zSQm1X1iK5mDHjKCC88HrD11lVArC3GBw==.sig.ed25519"
 }
