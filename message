@@ -1,22 +1,22 @@
 {
-  "previous": "%rl7izVHY6A3svZgqXwrPPtpMGU/jKLzYggxUS9jGkmU=.sha256",
-  "sequence": 17830,
+  "previous": "%Wai+TYzYW1B509bRpfThmhIK/B1F50xhLy8O07GFmKo=.sha256",
+  "sequence": 17831,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591105469142,
+  "timestamp": 1591105702367,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nYou might not be very excited about this, but would you feel comfortable just leaving `timestamp` as a number in the database? I don't think there's anything specifying that it has to be a valid date, so if you parse it as a date you're very likely to bump into problems.",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nI think so! Unless I've copied and pasted something wrong.\r\n\r\n```python\r\nprint(bytes(ssb_encode(\"frække frølår…\")).hex())\r\n# 6672e66b6b65206672f86ce57226\r\n```\r\n\r\n```javascript\r\nBuffer\r\n  .from(\"frække frølår…\",'latin1')\r\n  .toString('hex') === '6672e66b6b65206672f86ce57226'\r\n# true\r\n```",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
       }
     ],
-    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
+    "root": "%7gIiaRuQus5UXGXM2/4IHESzZsLovd+aDbCzDCdovXs=.sha256",
     "branch": [
-      "%YoG+kakSrUtf1TpjhSIDiitXJ0sIQk/YxLS9xr+MPaU=.sha256"
+      "%7gIiaRuQus5UXGXM2/4IHESzZsLovd+aDbCzDCdovXs=.sha256"
     ]
   },
-  "signature": "nJnkXtzEwZn4Fq5pEIRznJlyBmw/PhNY9PnJjpykHSzCwaz4f/AIMBWyu13YNRBQb+zA9Fv6J4KFuElDlBLKCA==.sig.ed25519"
+  "signature": "Pscu28CPbOZDXVvMz15lokhRN5gMGAxbgAAChc00FV+hq01F5ZmGtLe2PK7gbj0ZFtDKDfgSj3yLlg5zAIGCCw==.sig.ed25519"
 }
