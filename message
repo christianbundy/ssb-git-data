@@ -1,22 +1,18 @@
 {
-  "previous": "%68NWd/6NajzMF1l2xRbWHNX53SkKMazU1MCtg1AekJI=.sha256",
-  "sequence": 17841,
+  "previous": "%Gjh74MKfA1w5Q9PfzvMVSYuAABy6woh/f8A7EjcFAZ4=.sha256",
+  "sequence": 17842,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591114910642,
+  "timestamp": 1591115453147,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nRant incoming, please take with a huge grain of salt. I typed this out but I'm not sure how strongly I believe this, if at all.\r\n\r\nI'm an incredibly lazy programmer, so I'd love to minimize the number of parsers that I have to write. My preference would probably be to use some [strict subset](https://github.com/crdoconnor/strictyaml) of YAML/TOML/INI/etc, falling back to \"I have to write a parser but it's super simple\" when necessary.\r\n\r\nIf I have to write my own parser, I'd probably want something like:\r\n\r\n```yaml\r\nascii_key: <base32_value>\r\n```\r\n\r\nAnd I'd probably want to solve the header vs metadata problem by making them different files (with the same encoding):\r\n\r\n```yaml\r\nauthor: MF312A76JV8S1XWCHV1XR6ANRDMPAT2G5K8PZTGKWV354PR82CD0\r\nprevious: ZV85NQS8B1BWQN7YAME1GB0G6XS2AVN610RQTME507DN5ASP2S6G\r\nlipmaa: FV0FJ0YZADY7C5JTTFYPKDBHTZJ5JVVP5TCKP0605WWXYJG4VMRG\r\npayload: ZRBATX91C9DTAKX5KJP6X12PEYK6ZQFQZV4WP456AW1JXJ40VV50\r\nsignature: JSPJJQJRVBVGV52K2058AR2KFQCWSZ8M8W6Q6PB93R2T3SJ031AYX1X74KCW06HHVQ9Y6NDATGE6NH3W59QY35M58YDQC5WEA1ASW08\r\n```\r\n\r\nWhere `payload` is the hash of some file like:\r\n\r\n```yaml\r\nkind: EXJP2X38CNS5YWK5E1QQ4X0\r\ntemperature: 68S2WC23\r\nwebcam_photo:  FV0FJ0YZADY7C5JTTFYPKDBHTZJ5JVVP5TCKP0605WWXYJG4VMRG\r\nweather_reported_by: 0DC253VW8RP4KGTZP8K5G2TAPMDRNA6RX1VHCWX1S8VJ67A213FM\r\n```\r\n\r\n(Applications could use their own payload encoding, but this minimal YAML subset would be supported across all implementations.)",
-    "mentions": [
-      {
-        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
-        "name": "Nｅｔｓｃａｐｅ Navigator™"
-      }
-    ],
-    "root": "%8Pq+VSGNz/iaZvqTThWFOTIyuxi6YbUpY/cuJ4PsBoo=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%m3TCKVQuJbNmCLqOQ7s2uNXYLJR3CD+lts2ILgrvv98=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%c9cOyRAQIt+/Mxuwg/P9ZZJwc1lQ6uJLnAbBWxzZreo=.sha256"
+      "%m3TCKVQuJbNmCLqOQ7s2uNXYLJR3CD+lts2ILgrvv98=.sha256"
     ]
   },
-  "signature": "LA7BPZ6PsP/ycjN91j4y+mQ+qGaPSuCMfzQHPqS+prFnvL4lGNsYMxs1tbqpSxUUImtIVkg7ekaOsaMSqImRAQ==.sig.ed25519"
+  "signature": "Hwyd+PDivEJ36W+NSOqVTjJSzpDaoHLERgcsnelvc5PkJr5ooSvG5v2ZHGv1/Hu+WZPVrqwdHbAVCM1OYH1VBQ==.sig.ed25519"
 }
