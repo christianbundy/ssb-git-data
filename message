@@ -1,22 +1,22 @@
 {
-  "previous": "%yKaEKcvdLjKji9XjsPP8+5Paatmm3/2wU1vrYd7UG8Q=.sha256",
-  "sequence": 17897,
+  "previous": "%Zmp7h33s2zYa3qTTs28Y4VN6xrim1R7KIrS3gKW/zqc=.sha256",
+  "sequence": 17898,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591283245376,
+  "timestamp": 1591283597920,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nThat sounds familiar, but I don't remember the details. My understanding of this problem is that FlumeDB creates one stream per view, which is much slower than sharing one stream between all views, but *also* the unboxer runs once per stream. This means that apps like Patchwork have 14 concurrent indexing streams, each with their own unboxer, so each message is being allocated and unboxed 14 times. 🙃\r\n\r\nI think The Real Solution would be to refactor FlumeDB so that all views share a single stream, that way indexes don't receive messages until the most-outdated index has caught up, but it'd be a big refactor and we'd need to write some indexing benchmarks too.",
+    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nApologies because I'm pre-coffee, and my brain hasn't fully turned on, but could you explain the problem a bit further? Making a few leaps, I'm assuming the problem is \"I want to share SSB blog posts with friends who aren't on SSB\" and the solution is \"Add a new 'link to ye olde web' message type\"? I think I'm wrong, but maybe that's a helpful datapoint of how I'm parsing the problem.",
     "mentions": [
       {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
+        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
+        "name": "SoapDog (SPX)"
       }
     ],
-    "root": "%THxjTGPuXvvxnbnAV7xVuVXdhDcmoNtDDN0j3UTxcd8=.sha256",
+    "root": "%LUaEYaUZhsG7PryyT26byrVsJeXFtAH9URGgSzJAvRY=.sha256",
     "branch": [
-      "%TdEs9/kHrHmeOdjRXOv7fA79SDnWu77ZozN6Zmu46XM=.sha256"
+      "%LUaEYaUZhsG7PryyT26byrVsJeXFtAH9URGgSzJAvRY=.sha256"
     ]
   },
-  "signature": "Yu4ogGgjkrRe+ixGM4cEAr1wE4BHtctqfL+8jeO5HsIMNW+oJuh02bRDFuJnEtQbBs6UMdRSjPjTuuJMmNHUAw==.sig.ed25519"
+  "signature": "a7jYYQ5zUe/LN5Iur3+/lbujAdtwwGUT3YteF3znwfi5ufXQrsp0Eg+mrRqarqUtfL0FC87972N+UunvmAGPAg==.sig.ed25519"
 }
