@@ -1,22 +1,18 @@
 {
-  "previous": "%qGgwp8p9nsNtADeKY8d2Tj02UGN7S0QReVIJ6+NPqvQ=.sha256",
-  "sequence": 17911,
+  "previous": "%Zm3ms7B4c3KzPk2xA+1fuvopAcG22BL97FgoL8cfNQg=.sha256",
+  "sequence": 17912,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591292633362,
+  "timestamp": 1591292890475,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Tim Makarios](@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519)\r\n\r\nOh, interesting. So I suppose this new pool of money should have more limitations than the default money in the bank account of the recipient.\r\n\r\nIf I have $500 in my bank account and want to turn it into $1000, I could start a fundraiser for $1000 and then wait until it's halfway funded and then finish it off myself with a sybil attack. Even just \"all transactions with fundraiser money must make itemized receipts available to all fundraisers\", which means that I'd be spending $500 and some social capital to turn that into $1000 with lots of oversight. 🤔",
-    "mentions": [
-      {
-        "link": "@JrVM9RgoJwHcKPzCDZgCrrnZhbPODgm8JP8fDixW/mo=.ed25519",
-        "name": "Tim Makarios"
-      }
-    ],
-    "root": "%4DNXMBHmk/N1cwl+uiwjg57o3o6MaobZ8LVX3H65UH4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%voAqs+0pvcO1YJj0T9md4pU/ZaEu8LoKjhReuoSSGVA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%fOWNjHjSj6bpcJeTjxd+yAQXOjvdMNY1S1IrOz9ipT4=.sha256"
+      "%voAqs+0pvcO1YJj0T9md4pU/ZaEu8LoKjhReuoSSGVA=.sha256"
     ]
   },
-  "signature": "BmPh6sWtzL4D5k9k37F1hgs5TLx+0cdKLk+ADtkQPvBJVTeQVmXjYHJwwgBqYa0MmgalWXpzDtzpeJwXk8IeCg==.sig.ed25519"
+  "signature": "CC2mGNEL6wJi/8pTnyFjowr5qaSG3zVSBOrDDpL3KJMlnvKWZ2qjPTrTlOCSetovw8sZg/C0RzerLKf1uHl0AA==.sig.ed25519"
 }
