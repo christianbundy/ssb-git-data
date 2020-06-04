@@ -1,18 +1,22 @@
 {
-  "previous": "%gFi2oQE/w2BRDl7KnDv17ginfFIMfLwqVGKJLWAOXOk=.sha256",
-  "sequence": 17896,
+  "previous": "%yKaEKcvdLjKji9XjsPP8+5Paatmm3/2wU1vrYd7UG8Q=.sha256",
+  "sequence": 17897,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591282317858,
+  "timestamp": 1591283245376,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%OhQQ9unHLYrveZ9p0bYSVaxvXXInYJmJPJzkV7GvHQk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nThat sounds familiar, but I don't remember the details. My understanding of this problem is that FlumeDB creates one stream per view, which is much slower than sharing one stream between all views, but *also* the unboxer runs once per stream. This means that apps like Patchwork have 14 concurrent indexing streams, each with their own unboxer, so each message is being allocated and unboxed 14 times. 🙃\r\n\r\nI think The Real Solution would be to refactor FlumeDB so that all views share a single stream, that way indexes don't receive messages until the most-outdated index has caught up, but it'd be a big refactor and we'd need to write some indexing benchmarks too.",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ],
+    "root": "%THxjTGPuXvvxnbnAV7xVuVXdhDcmoNtDDN0j3UTxcd8=.sha256",
     "branch": [
-      "%OhQQ9unHLYrveZ9p0bYSVaxvXXInYJmJPJzkV7GvHQk=.sha256"
+      "%TdEs9/kHrHmeOdjRXOv7fA79SDnWu77ZozN6Zmu46XM=.sha256"
     ]
   },
-  "signature": "nFSomVcephG5NGe610PwE8KV9NrRIpDqml2eCtLHZxBIIv6FXQoBVpccMKuFb3CD5e3muRJnb6JVaLSR2iQEBg==.sig.ed25519"
+  "signature": "Yu4ogGgjkrRe+ixGM4cEAr1wE4BHtctqfL+8jeO5HsIMNW+oJuh02bRDFuJnEtQbBs6UMdRSjPjTuuJMmNHUAw==.sig.ed25519"
 }
