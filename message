@@ -1,22 +1,18 @@
 {
-  "previous": "%LKgFR+OJH+NxKGVNMDxz7PL/jbc+dgenE6IAXOfiy6Y=.sha256",
-  "sequence": 17934,
+  "previous": "%34Kakga8bgBNkzD/pGejb71y7JULB1YcRZFZPhcPEXs=.sha256",
+  "sequence": 17935,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591392760292,
+  "timestamp": 1591395023969,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nJust did a small sanity check and I can confirm that the hash function gives all of the correct IDs for all of my test data. 🎉\r\n\r\n```python\r\nimport json\r\nimport nacl.hash\r\nimport base64\r\n\r\n\r\ndef ssb_encode(s):\r\n    return [x for ind, x in enumerate(bytes(s, 'utf-16-le')) if ind % 2 == 0]\r\n\r\n\r\ndef get_message_id(message_dict):\r\n    message_canonical = json.dumps(message_dict, indent=2, ensure_ascii=False)\r\n    encoded = ssb_encode(message_canonical)\r\n    digest = nacl.hash.sha256(encoded, nacl.encoding.Base64Encoder).decode()\r\n    return '%' + digest + '.sha256'\r\n\r\n\r\nwith open('fixtures/messages.json', 'r') as json_file:\r\n    data = json.load(json_file)\r\n    print(all([get_message_id(x['message']) == x['id'] for x in data]))\r\n    # True\r\n```",
-    "mentions": [
-      {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
-      }
-    ],
-    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%Nfsb1tIQ+t3RpAsVh+IG/8d0rYrXkLNYnxRB3mPIfQM=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%y+QDCKl/ILD47E+sHaJhE1BvrCcg3OVZX2fOjCO9evE=.sha256"
+      "%Nfsb1tIQ+t3RpAsVh+IG/8d0rYrXkLNYnxRB3mPIfQM=.sha256"
     ]
   },
-  "signature": "EaKbogaAyseh+m6Axt0Qv6xC5kY810xHwk7qQClBSeqoEvLdPGkVpmZPegQuL/mcRtNXQaWAyDjLKtFCTyybCQ==.sig.ed25519"
+  "signature": "Z+27liDqB7S28x0QxHt09bSbVLbvk7rJ+drdK35j4Dt2mAKPliddnB2LnA8HhX0l3ahkE7Y3WVrWU9e/EfhgCQ==.sig.ed25519"
 }
