@@ -1,27 +1,18 @@
 {
-  "previous": "%YvO73o9aZyxTRGrdUKprjbQCVzv0rQsRfaCS4bKoMXc=.sha256",
-  "sequence": 17932,
+  "previous": "%sVGLiAiKnOvQGJ1WGQJQiXdGHc9vaIAMpam274BN+8A=.sha256",
+  "sequence": 17933,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591381165002,
+  "timestamp": 1591391457212,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@Stardust](@P2lREv/l9EuyFCyNAcTjLV5T25yXKJ3D5GoPtoJQ3Tc=.ed25519) [@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThis is a pain point for me too. One thing I've noticed is that as search engines become less useful (more SEO spam, fewer good results) that I've spent more time using crappy centralized search: usually on GitHub or the npm registry, which feels *very bad*.\r\n\r\nI wonder how hard it'd be find and spider the Git remotes, even just downloading their readme and adding it to some full-text search database. The closest I've seen is [grep.app](https://grep.app/) (I think that uses [livegrep](https://github.com/livegrep/livegrep)), but that's more greppy than I'd like.",
-    "mentions": [
-      {
-        "link": "@P2lREv/l9EuyFCyNAcTjLV5T25yXKJ3D5GoPtoJQ3Tc=.ed25519",
-        "name": "Stardust"
-      },
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%DVL4Z8FRlE9RtPH3Rerp8OVFuHw9gjoUHWdTnTvxa1U=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%L0qWcm7p/YNN5EK3NthiYv6WEbwCl8qISiaBSCATWWs=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%NLbNFytv6rbuI38w2aNgdctcrzynDDd4dTKUMzSR6qg=.sha256",
-      "%laJQgyX8VD5c635BG+NHW/DqGDxeeYKdE5vAkdwIezM=.sha256"
+      "%L0qWcm7p/YNN5EK3NthiYv6WEbwCl8qISiaBSCATWWs=.sha256"
     ]
   },
-  "signature": "+X6opON7rZ45yGfajmI+SF67zV4wjzb2TM1lyxFje1UWNKEnTkzMOVpjzcLNgSwWGcH/0PECWw+/2+ufVKq6AA==.sig.ed25519"
+  "signature": "K/hM7mK+cXjkYce/L3pGll2zGbZTRcRpYSakBy+foM2ycklBgWhzSaA9svHQrgCQzCkaEA53b/c0xtcDAhngBg==.sig.ed25519"
 }
