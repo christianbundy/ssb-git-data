@@ -1,18 +1,22 @@
 {
-  "previous": "%YnT1gN23eYq5Z3BwV6EWNrjSLuIKPJEkYBdvslwHLTc=.sha256",
-  "sequence": 17956,
+  "previous": "%nEe4wxTXofAY2jI9eZTKaSWxOtEpp5VjfgY7/xyZC0c=.sha256",
+  "sequence": 17957,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591482494990,
+  "timestamp": 1591547120479,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wnnl/bCNnBzFa7M33Sbwp9e3TsMf10Z636z8EB4T8s4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@John](@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519)\r\n\r\nWhere are you seeing those? Patchwork has `.travis.yml` to configure our CI but I don't think that should be user-facing.",
+    "mentions": [
+      {
+        "link": "@dFDZE1NsZmS2mwWNho80m1DZWZP9iGD/fWSXwPZr0vg=.ed25519",
+        "name": "John"
+      }
+    ],
+    "root": "%uGSV0AFmpZ4p07vKOkH7LdMoJupMpScFCZpop6PLurk=.sha256",
     "branch": [
-      "%wnnl/bCNnBzFa7M33Sbwp9e3TsMf10Z636z8EB4T8s4=.sha256"
+      "%ODZNznSqYbn6bdXXg2V5Qos1x7Gh3kIobUTytg6WOC4=.sha256"
     ]
   },
-  "signature": "M17LFcLF08xhIcwhP1Bh0tUvDh5H5S2fCxaXCQV/wLT4sT7LSbqP0J2o7Wj7oUKlhwN4EyMM3YijEEK8mhTuAA==.sig.ed25519"
+  "signature": "GSATNCgjz4VgI+uj9Tau4PCGQ/6j0duWqi5Rutz1idbOV5ufrbuDEzUdExYF8GONaNrboYy07t5k819RAUu5AQ==.sig.ed25519"
 }
