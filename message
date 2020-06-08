@@ -1,18 +1,23 @@
 {
-  "previous": "%vGcEfiYZgnK7ELhS1PS0nJH/78QnTjFjo050pQFfqCY=.sha256",
-  "sequence": 17962,
+  "previous": "%UL/7Uyr80Kr9ulq+cdIrcE1JfbZfNAwu+zpFZvncegM=.sha256",
+  "sequence": 17963,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591577519741,
+  "timestamp": 1591630991500,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%v/YqePYgRVZSrH0yZwRT70c6MhOA239J5QrthRD65w8=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\nNice! Does `executemany()` use a single transaction? What's your batch size look like? Cinnamon wrote up some benchmarks [here](https://github.com/cinnamon-bun/ssb-sqlite-index-experiment#benchmark) that show the effects of different transaction sizes. I think the fastest I got (on my machine, via Node.js) was 1.16 million messages in 2 minutes? I don't quite remember.",
+    "mentions": [
+      {
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
+      }
+    ],
+    "root": "%YQu/d5v0A0+v0oTlDF+LmNL07Pt1t+njwY7xTShhGLs=.sha256",
     "branch": [
-      "%v/YqePYgRVZSrH0yZwRT70c6MhOA239J5QrthRD65w8=.sha256"
+      "%FforBmpvO9JGD3VByaj/swE8z1UvU/h+QMQH2NDn1KM=.sha256",
+      "%nnpD5n/wprlpLvtOHPY5jwPtbJ+Fnc7EG0Fx/liiUiY=.sha256"
     ]
   },
-  "signature": "Jx3yEV36eDrcB4KNfoWG9zxEAJ40b8HTSBKwa1E2RLDz8cI8TcmtViiOD7ZgzsO8P4A1a826+iHBHut4ypRZBQ==.sig.ed25519"
+  "signature": "9rrIPiL0eqBLTcnGEmTKr6n4Am+g2az/0wPZs18KZzlB5Oo43/YMZYSNpUEmvP93lG+4ZoaqkdZ8U2OjFFghDg==.sig.ed25519"
 }
