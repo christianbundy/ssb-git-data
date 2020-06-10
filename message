@@ -1,18 +1,23 @@
 {
-  "previous": "%36R5W1b5X/4NLnxiGflMltrLjUD91qeWgr2heMFDK6w=.sha256",
-  "sequence": 18003,
+  "previous": "%23VgAJ26A/cqNY0SnZ0kvuEKWWIDvoXMU9hKJBjyPVQ=.sha256",
+  "sequence": 18004,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591806624362,
+  "timestamp": 1591810019947,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%LvNBADxtpH7UBXDT1cnB1fMnfD27Tik0VtAcN/QCQiY=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Eb4890](@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519)\r\n\r\n> oasis (doesn’t like post requests)\r\n\r\nOh, I didn't know you were having trouble with this! If you make an issue (or just post your problem on SSB) I can help debug. If the app is listening on localhost then you need to access it via localhost, if you're accessing it via example.com you need to run it with `--allow-host example.com`. Hopefully that helps?!",
+    "mentions": [
+      {
+        "link": "@iGLjxMHlCW94tu/lEB8woc7AG2dNCzLY0KsebX+x2Iw=.ed25519",
+        "name": "Eb4890"
+      }
+    ],
+    "root": "%8CRVEOwtrbS0Y8D6a/JNijTiw1PjrNYRQWQnYjbv+0g=.sha256",
     "branch": [
-      "%pFlq5ZB5+i7wQgDRhEJGF8s3hhm1U2fC/yTdP0ieer8=.sha256"
+      "%LZBVYw4/McLODMLn+Dd3tDPyrj4Njk8dY74ZYFPrKe8=.sha256",
+      "%Tb4AMpthzKJdeXd3DnFL2TrGa/ae3hQMMiTbCAGKIN4=.sha256"
     ]
   },
-  "signature": "AO/dtQiPEn3jdR4JcaPUJNsMyTFgRreTR0zcis7+kdA2FQryaG0Ac2tylQg0Sp15HlGYiKOchFQFDi78Eb34BQ==.sig.ed25519"
+  "signature": "ci+hrgylhL8IYE/PUpGUTjs8iSYtt+16dgJ4/VgBIwc6rhN8xEDfzMKyEo39X9FjSEJGXdGlucYwma+FEBw1BA==.sig.ed25519"
 }
