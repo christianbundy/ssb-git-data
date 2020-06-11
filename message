@@ -1,22 +1,20 @@
 {
-  "previous": "%cINHniZIrAUyBqC3hfAy457E6fs/pgw6qm6RQMSjmQE=.sha256",
-  "sequence": 18028,
+  "previous": "%rqwiS8iGILlj/mTb4c4544Ift36KiQ4icAdA1S5Jjlg=.sha256",
+  "sequence": 18029,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591904328000,
+  "timestamp": 1591906979351,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nThat means that you have SSB-Server 15.2.0, which is not vulnerable. The only problematic version is 16.0.0, so you're good to go.\r\n\r\nThe `ssb-server version` command, hilariously, gives you the version of SSB-DB, and SSB-DB 19.2.0 is also fine. 🚀",
-    "mentions": [
-      {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
-      }
-    ],
-    "root": "%7KFf3RLft24xnI6q08vQsO+7WA6e4jewSbEQeNCxm34=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%fXQeA6fIg0D/FwT83knSlmo8qu3IIzUjaxs9qmUz3G0=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%vbp/hgJuCY9Ymqm2NPtDu6eHdcIH2na/bUyViU9w4xU=.sha256"
+      "%TZnjJdvdYNGvKFmlN0+OtydHjm+uywe3uASmkjztYlM=.sha256",
+      "%aLGRtI5cg/vtpnTdYgz/oexQVs1GCz3U1/JvgN3Fg2M=.sha256",
+      "%pkwURSbauV8Cb/qCnPjHJ1/BdCEto4ktfPVkxcSC6rU=.sha256"
     ]
   },
-  "signature": "D58sAZMx1Eag4vY5j5XbaB5sTxE89r+ERr8+rh2FEOjbzgzfTv91V5rBeH4ifBUvb8b0Hu1H6SdxzEhZRhHECg==.sig.ed25519"
+  "signature": "1ETIv2+S/eX5EmLN5xi2zK+54PjGUHqNOODy3X1MUMLhmcN4s0cIfrnyJKEpbECcunalh/cSLlDwKEYrm1RoDg==.sig.ed25519"
 }
