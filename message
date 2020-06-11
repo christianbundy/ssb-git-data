@@ -1,23 +1,18 @@
 {
-  "previous": "%2M0VTgT3a5dNX83HWVDM4WrqFEId3VlqJu9QbWzgJ9Y=.sha256",
-  "sequence": 18015,
+  "previous": "%7KFf3RLft24xnI6q08vQsO+7WA6e4jewSbEQeNCxm34=.sha256",
+  "sequence": 18016,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591885496449,
+  "timestamp": 1591886049593,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "# Security: SSB-DB and SSB-Server\r\n\r\nHi all. If you're using SSB-Server v16.0.0 (released May 27) or SSB-DB v20.0.0 (released May 21) you should upgrade immediately to the patched versions.\r\n\r\nThe `get()` method had a bug where it attempted to decrypt every message that it could. If you have private messages and are using a plugin like SSB-OOO then a network peer could ask you for a message and your computer would give them the *decrypted* message. **There is no evidence that other SSB apps are vulnerable or that this problem has been exploited in the wild.**\r\n\r\nMore info here: https://github.com/ssbc/ssb-db/security/advisories/GHSA-mpgr-2cx9-327h\r\n\r\n#ssb-db #ssb-server #security",
-    "mentions": [
-      {
-        "link": "#ssb-db"
-      },
-      {
-        "link": "#ssb-server"
-      },
-      {
-        "link": "#security"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%oC/WCviKnqbWTNPMusOCIM1tAo0DFPxxNkKTuj2Amdw=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%oC/WCviKnqbWTNPMusOCIM1tAo0DFPxxNkKTuj2Amdw=.sha256"
     ]
   },
-  "signature": "5CxD/0X0Y+ooY9Q8iFNvKl9wgblQeJ5D20RO7ikYd/QpggFatstfFdCrKU4rXKSMa0qfCQPP+4DemNBz2PIiDQ==.sig.ed25519"
+  "signature": "A7vhoTqvHGwVDRfYT4MxjIZkDmHRB2LFuDdrz6ab4i5KDX3Ug1rr9Df5sJ2gANVe2zLgkLf0FTjHtAHF6IMiBQ==.sig.ed25519"
 }
