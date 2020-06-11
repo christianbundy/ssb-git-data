@@ -1,18 +1,22 @@
 {
-  "previous": "%pDiBlAF15yky/t2UjbrjgWwNTfpG+T8C8PT9lTgxieQ=.sha256",
-  "sequence": 18024,
+  "previous": "%1BwjbTZT7OJE/8QzXC5yGeo8OawTmInV5O9JHTTvb2U=.sha256",
+  "sequence": 18025,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591893596075,
+  "timestamp": 1591897287980,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%h8nRN52EEdnhAc+mwfG7i4jVgnfTmHaozOKoUG6qph4=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nHappy to help! For what it's worth, `get()` isn't available to anonymous peers but `ooo.get()` is. Since `get()` was returning decrypted messages, and `ooo.get()` was just calling `get()`, this means that `ooo.get()` was returning decrypted messages to anonymous peers. 😬",
+    "mentions": [
+      {
+        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
+        "name": "cel-desktop"
+      }
+    ],
+    "root": "%7KFf3RLft24xnI6q08vQsO+7WA6e4jewSbEQeNCxm34=.sha256",
     "branch": [
-      "%VEaUHeAO5xpnU5eO0DUArZ1gSHQc0mtYR8zY2n5zS50=.sha256"
+      "%emgK1gGRAR21m64qOn50JK8ggXU+uoauwwhQLZ3xQPk=.sha256"
     ]
   },
-  "signature": "+kMxpxZrDwQk6Vc1qf7pt9aQYGywGL8PfJVIFm2HshX1Am0fpDsFOmaKDpie8pHrnURPT/ueoZtycwReisKaAA==.sig.ed25519"
+  "signature": "Zq0Iwm9XcrSFNbQQqfkoLkzxyTdI4jRqk6EJteojlhZJ9eKe6glhszLf2n5hMYVBfV0/S0lrjR/KO2Fj5oEnBA==.sig.ed25519"
 }
