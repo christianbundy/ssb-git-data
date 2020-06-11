@@ -1,22 +1,26 @@
 {
-  "previous": "%1BwjbTZT7OJE/8QzXC5yGeo8OawTmInV5O9JHTTvb2U=.sha256",
-  "sequence": 18025,
+  "previous": "%3EwR9ua6H/7m50YTQdxP7XyeHwRUVI75AH5ZS4c9bGQ=.sha256",
+  "sequence": 18026,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1591897287980,
+  "timestamp": 1591900926342,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nHappy to help! For what it's worth, `get()` isn't available to anonymous peers but `ooo.get()` is. Since `get()` was returning decrypted messages, and `ooo.get()` was just calling `get()`, this means that `ooo.get()` was returning decrypted messages to anonymous peers. 😬",
+    "text": "[@bobhaugen](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\r\n\r\nYes! Don't know if you already saw [this message](%TsCssAZbIO1cWbycbhc6cwHDJbKWy/ExBJSNvfoQn5s=.sha256), but I've found Charles Cobb to be a great entry-point into this perspective. Thanks for the Twitter and Wikipedia links, I'll check those out too!",
     "mentions": [
       {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
+        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
+        "name": "bobhaugen"
+      },
+      {
+        "link": "%TsCssAZbIO1cWbycbhc6cwHDJbKWy/ExBJSNvfoQn5s=.sha256",
+        "name": "this message"
       }
     ],
-    "root": "%7KFf3RLft24xnI6q08vQsO+7WA6e4jewSbEQeNCxm34=.sha256",
+    "root": "%qFW6hoDMnNxB/Y1fJQA/pyxkUQYHdwoUwVHfJyatPs0=.sha256",
     "branch": [
-      "%emgK1gGRAR21m64qOn50JK8ggXU+uoauwwhQLZ3xQPk=.sha256"
+      "%qFW6hoDMnNxB/Y1fJQA/pyxkUQYHdwoUwVHfJyatPs0=.sha256"
     ]
   },
-  "signature": "Zq0Iwm9XcrSFNbQQqfkoLkzxyTdI4jRqk6EJteojlhZJ9eKe6glhszLf2n5hMYVBfV0/S0lrjR/KO2Fj5oEnBA==.sig.ed25519"
+  "signature": "StieEinOVue8jQItfYpT9CzuuCZbQ5NxdGrsezzpv56LiJmn2A9RJxm0w74wNFacjKNs+muMgk5z2s1Fp+JFDg==.sig.ed25519"
 }
