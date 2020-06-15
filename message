@@ -1,22 +1,18 @@
 {
-  "previous": "%qTo6KC60aBYh68QBvPHmFPkTG+AZkVfzYDTyzwaDEyc=.sha256",
-  "sequence": 18085,
+  "previous": "%1eSjLVigNFyMwo1JMQoZUw/AsDQgiEqTIdCLEph+vvE=.sha256",
+  "sequence": 18086,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592239074096,
+  "timestamp": 1592240795835,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@John Colagioia](@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519)\r\n\r\n[Same](http://lists.opensource.org/pipermail/license-review_lists.opensource.org/2015-August/002438.html).\r\n\r\n> Public domain dedications are attractive to anyone who needs something more permissive than traditional licenses like the MIT license, but they're inherently problematic <http://opensource.org/faq#public-domain>. Public license fallbacks in the CC0 and Unlicense were designed to solve this problem, but it seems like the best solution would be an ultimately permissive public\r\nlicense.\r\n\r\nI've realized that this 'ultimately permissive public license' strategy just yields your copyright to anyone with enough time to make a derivative work, but I'm conflicted about which strategy is best:\r\n\r\n- Do you only use your copyright to stop people from asserting their own copyright?\r\n- Or do you go 'full AGPL' and also ensure that any modifications to the code are also published publicly?\r\n\r\n🤷",
-    "mentions": [
-      {
-        "link": "@RoHPOaN65z8ZVYwPr19Ni4KgYCE05k+FAKMdDPyHbvs=.ed25519",
-        "name": "John Colagioia"
-      }
-    ],
-    "root": "%syvD77kNXXzuD4KrBFFo5YZY1SZutyoVMzb1AqpWGf4=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%0Am6dHfKKrlx4mfNjVEF4YlT9RKKvWCjoCScOutWpwc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%syvD77kNXXzuD4KrBFFo5YZY1SZutyoVMzb1AqpWGf4=.sha256"
+      "%0Am6dHfKKrlx4mfNjVEF4YlT9RKKvWCjoCScOutWpwc=.sha256"
     ]
   },
-  "signature": "eGIu37JDYfQtzdW2Mr+HchKpJJx2iqEeDxkaU3Yodt793iv9IJ6eWLCgMUG6x7lWs2dqR1uDlowTzfejk8lmAg==.sig.ed25519"
+  "signature": "lcNRTEoMn60iQpJ0twQsRUPLlD4mR+HbNq6nzclxTQuOdFDp1v9U0NGCqKUh+XgXI68wfyOXY5ZcXezJzvNBBA==.sig.ed25519"
 }
