@@ -1,17 +1,17 @@
 {
-  "previous": "%/JLpqEv+9Hl5KoDXcC4TOUgex6XZZ4/N2DB1P87nMAs=.sha256",
-  "sequence": 18152,
+  "previous": "%4SP+ThAnvQ3X9oUd6xWpGLVPy7Z4J4pTKL7+Gncw7EI=.sha256",
+  "sequence": 18153,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592591704869,
+  "timestamp": 1592599131837,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I guess maybe the way to do this would be to write your API as if all you had was a filesystem, and *then* write mappings to other protocols (HTTP, FTP, SSH, gRPC, etc) where you translate the various filesystem behavior to the new interface.\r\n\r\nI think the main pain point would be how you translate ambiguous behavior to a given protocol. For example, reading the contents of a directory is easy in FTP, but how do you do it in HTTP? Do you return an HTML page? How is it formatted? How do you do weird stuff like 'rename'?\r\n\r\nIt's interesting to notice that HTTP is pretty bare-bones, even compared to a filesystem, so you have to spend lots of time building *on top* of it rather than *with it*.",
-    "mentions": [],
-    "root": "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256",
-    "branch": [
-      "%/JLpqEv+9Hl5KoDXcC4TOUgex6XZZ4/N2DB1P87nMAs=.sha256"
+    "text": "Just tried to go to someone's profile but I don't have any messages from them. Instead, I saw this helpful text:\r\n\r\n> The local client has never seen posts from this account.\r\n\r\nThis is so much better than \"this feed doesn't have any messages\" or whatever I would've written. Who did this?! 🌟\r\n\r\n#oasis",
+    "mentions": [
+      {
+        "link": "#oasis"
+      }
     ]
   },
-  "signature": "AufO50YLTWzNg8jHQou+dplRyHRg0C4RKkp7gxdBh5c4IM0udZ6oE5vjOOQK7BIREBqobsFW0Cpt0MpihQqCDg==.sig.ed25519"
+  "signature": "t5D5bg8fRx2sjpGB2eqKAe5lqKGg9XsI/jbPlU3/svF0VtgxKiT4mzP1nKn4wJLBUc+aZagTFtAGnRUJKNXgDQ==.sig.ed25519"
 }
