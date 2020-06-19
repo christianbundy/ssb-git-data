@@ -1,17 +1,17 @@
 {
-  "previous": "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256",
-  "sequence": 18151,
+  "previous": "%/JLpqEv+9Hl5KoDXcC4TOUgex6XZZ4/N2DB1P87nMAs=.sha256",
+  "sequence": 18152,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592591169708,
+  "timestamp": 1592591704869,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "I suppose you could probably also map error to POSIX error codes. For example, `HTTP GET /foo` would return a 404, which is basically the equivalent of ENOENT",
+    "text": "I guess maybe the way to do this would be to write your API as if all you had was a filesystem, and *then* write mappings to other protocols (HTTP, FTP, SSH, gRPC, etc) where you translate the various filesystem behavior to the new interface.\r\n\r\nI think the main pain point would be how you translate ambiguous behavior to a given protocol. For example, reading the contents of a directory is easy in FTP, but how do you do it in HTTP? Do you return an HTML page? How is it formatted? How do you do weird stuff like 'rename'?\r\n\r\nIt's interesting to notice that HTTP is pretty bare-bones, even compared to a filesystem, so you have to spend lots of time building *on top* of it rather than *with it*.",
     "mentions": [],
     "root": "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256",
     "branch": [
-      "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256"
+      "%/JLpqEv+9Hl5KoDXcC4TOUgex6XZZ4/N2DB1P87nMAs=.sha256"
     ]
   },
-  "signature": "v7X7B5UFk2bEaDamwq7Aghs7GAhiW0yO6b/Si5jG4no6yMC5Wz2LkVRH7yH+4PZ/67g28Ziva2zPtH3s+6u6Cw==.sig.ed25519"
+  "signature": "AufO50YLTWzNg8jHQou+dplRyHRg0C4RKkp7gxdBh5c4IM0udZ6oE5vjOOQK7BIREBqobsFW0Cpt0MpihQqCDg==.sig.ed25519"
 }
