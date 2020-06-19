@@ -1,22 +1,18 @@
 {
-  "previous": "%wAxU0qKOO66YgeeJ7h/4UOT9MsfhzxQoyh3+EhO5XLA=.sha256",
-  "sequence": 18140,
+  "previous": "%8q6XBLAqJN1BUFoC7aSYhgVllaFdg/FXgZfSdadi4To=.sha256",
+  "sequence": 18141,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592586763218,
+  "timestamp": 1592586826299,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\nI think that call blocks because the index isn't up-to-date, which might be caused by an deadlock that Mix and I found a couple of days ago in SSB-DB. I've written a test that [I think] reproduces the problem, I'll comment here once the fix makes it into a new release of SSB-Server.",
-    "mentions": [
-      {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
-      }
-    ],
-    "root": "%xPim4b5fwQ+3YDWkJ34WS2dN61gteHuu9UDqCY3Ipxg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%fD2VJttwvy/qo35uvYURGHzX/jrHgZK+kY2NU43lDAQ=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%4FofHQmLfnimlR3jN7BBmzQ9hp1PIjFRswy+KKp3CjI=.sha256"
+      "%hCNLcDw4z52/zN/4BthkTfh7IYzvNqqOX7bSCw11vX8=.sha256"
     ]
   },
-  "signature": "qZmvWTd/ZwPGyUC9VdR3q5kOA9w1hE4Re+T6BuavePRDdv0IBFufMJGnB1ezBM2Cb6X2PHZoUDhgBY7gNcqjBg==.sig.ed25519"
+  "signature": "1metDYsHbUyRA03qu7Eko54mMcRa6P2MkrumVH6Pnh9kl+CQrqoqU3haKapBod5szlzk7gEdmjeNRUX6I3ejBA==.sig.ed25519"
 }
