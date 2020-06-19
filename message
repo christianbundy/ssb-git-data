@@ -1,22 +1,18 @@
 {
-  "previous": "%+ip7LhOw8uHDYbAPIFsrBqYYZITgTX3Jg/8B0ldAr0o=.sha256",
-  "sequence": 18135,
+  "previous": "%V7+xzxX0fRi7nms7vkqjmxJXAj8ueBBVYDXtT4Al/Kc=.sha256",
+  "sequence": 18136,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592581639848,
+  "timestamp": 1592581746571,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\nYup, everyone that's working on this kind of thing (that I'm talking to) understands this very well. I think of it like having a friend with an unflattering photo of you on their phone and saying \"hey could you delete that please\".\r\n\r\nThere isn't any cryptographic magic that can promise that it was deleted, but if you're in a network of trusted peers then you can ask nicely and the trust magic will take care of the rest. ✨\r\n\r\n(Usually.)",
-    "mentions": [
-      {
-        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
-        "name": "af"
-      }
-    ],
-    "root": "%ETQXZi8FOtDrKS62spYaZyTv/v+GqgkE5n9RzpJs0is=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%JptG/FQ0J4QotpuEsgWUPf756tgI+VLKAoZWf8+Atpg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%ETQXZi8FOtDrKS62spYaZyTv/v+GqgkE5n9RzpJs0is=.sha256"
+      "%JptG/FQ0J4QotpuEsgWUPf756tgI+VLKAoZWf8+Atpg=.sha256"
     ]
   },
-  "signature": "MUuFg6wyTX9uBxa/iMTJV9IghkQ5Z+/XoN+UuPgE4xkYKPhEkKLRq//jtCANTufRsFKmvc1KFqPJxyxq26VvAw==.sig.ed25519"
+  "signature": "IrOZVBJnJ7I9BWVGtNXGDCL8AW8upnqrbHldLpGIR7IyUhTJNbo+l1ptmyOo7hXB3LS+XcHYKHwm1lUO6Z9wDA==.sig.ed25519"
 }
