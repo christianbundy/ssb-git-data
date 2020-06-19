@@ -1,18 +1,26 @@
 {
-  "previous": "%TUjlW7dOa94/Bbg52JF5D238blqW32wBcevK3oRWY1I=.sha256",
-  "sequence": 18149,
+  "previous": "%jE8m1slYwbMHPdgwUs/cqAKHmwkZ0Z1AhmFe9i5V7Js=.sha256",
+  "sequence": 18150,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592587607232,
+  "timestamp": 1592590603202,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%SBcylYMUeAcZyE9GPOltN0xFY3ffLdYttTitlu6xWl0=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%wUiCEWp0n2qTGKZSF1mFs9Rml5eNptizWf/NWLKZc/k=.sha256"
+    "type": "post",
+    "text": "I like that REST is more constrained than arbitrary RPC protocols, and lately I've been thinking that we can go further.\r\n\r\nDream: An API that's **even more constrained than REST**, where you could FUSE-mount some website on your filesystem and all of the endpoints would cleanly map to files.\r\n\r\nIn other words: your HTTP endpoint isn't allowed to do any magic that you couldn't also express with a filesystem. For example, HTTP POST wouldn't be allowed by this constraint because it says \"I want to make a file but I don't know what its name should be\", which isn't a filesystem operation that I'm aware of. :~)\r\n\r\n#rest #http #fs #unix",
+    "mentions": [
+      {
+        "link": "#rest"
+      },
+      {
+        "link": "#http"
+      },
+      {
+        "link": "#fs"
+      },
+      {
+        "link": "#unix"
+      }
     ]
   },
-  "signature": "2ylEC5KriSnv6cntTN83bVB0d9IVZEfti/gAsJpj8dnaX6B+R2SBy57Y+uJpmpSJErGcfAjrPbiE2yA3gdyxDg==.sig.ed25519"
+  "signature": "r0xldlrHc5Nj4+v/GkdXw/OGlnwFTzqa/9aL5z53W1re7xd//hCWp6ZZX2WSaWdVG56yl0UhAVYulRgeI3YJCg==.sig.ed25519"
 }
