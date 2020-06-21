@@ -1,18 +1,22 @@
 {
-  "previous": "%y8Nbc7O4CKYz+9GKPud5x3UAcr5V42L6rMGnaivMDhg=.sha256",
-  "sequence": 18157,
+  "previous": "%yFanSfAqXr3v10fAdGsLcpB/0L5YrPQ+aPX7ipG6IsU=.sha256",
+  "sequence": 18158,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592695753562,
+  "timestamp": 1592757717862,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wienH/RP5Pzvk/0RyOmBQCQXBa2sL/TqeGy4UWsu5CI=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nOh, I think those just need an anchor tag added the the URL.\r\n\r\nBad: http://localhost:4515/thread/%25zwYgvloYfDECwVZ9tMCtLBvm6pQqW%2BRzvauY9yUYaOA%3D.sha256\r\n\r\nGood: http://localhost:4515/thread/%25zwYgvloYfDECwVZ9tMCtLBvm6pQqW%2BRzvauY9yUYaOA%3D.sha256#%zwYgvloYfDECwVZ9tMCtLBvm6pQqW+RzvauY9yUYaOA=.sha256\r\n\r\nIt might just be a one-line fix here: https://github.com/fraction/oasis/blob/7c8fb572f69562963e70b6fc7a8dc49d85cb7c0d/src/views/markdown.js#L35",
+    "mentions": [
+      {
+        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
+        "name": "kas"
+      }
+    ],
+    "root": "%sWE6j3N4N5MASHZsUd+ZL/VA8Kk7J2odHwqX7kTrweA=.sha256",
     "branch": [
-      "%wienH/RP5Pzvk/0RyOmBQCQXBa2sL/TqeGy4UWsu5CI=.sha256"
+      "%8ac5HE8erM22uLEubm6yJ7xZ3gbSLyOrSqmh4Rnb8Hk=.sha256"
     ]
   },
-  "signature": "vXR2Rp0le0iXhlk+Y8S6NtjpkfndXRS9KfWrdkUMgjCCCkwDcaZU8rPeWDboCXx7yEWFlKkRZv1PzYTTjh7vDA==.sig.ed25519"
+  "signature": "9YjSmHsWrpRgks585i3w37KKEbYyNRbRpdrsVUK+tZTkHBWVXt6bt/lu84kxnEBpV54pqk3kLfxCKMl3e/sUAw==.sig.ed25519"
 }
