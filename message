@@ -1,22 +1,22 @@
 {
-  "previous": "%yFanSfAqXr3v10fAdGsLcpB/0L5YrPQ+aPX7ipG6IsU=.sha256",
-  "sequence": 18158,
+  "previous": "%hRb2paCVZqTYYrN6+3bhi8fiTXZkSXhnvFEgdHPk2ME=.sha256",
+  "sequence": 18159,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592757717862,
+  "timestamp": 1592757994911,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@kas](@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519)\r\n\r\nOh, I think those just need an anchor tag added the the URL.\r\n\r\nBad: http://localhost:4515/thread/%25zwYgvloYfDECwVZ9tMCtLBvm6pQqW%2BRzvauY9yUYaOA%3D.sha256\r\n\r\nGood: http://localhost:4515/thread/%25zwYgvloYfDECwVZ9tMCtLBvm6pQqW%2BRzvauY9yUYaOA%3D.sha256#%zwYgvloYfDECwVZ9tMCtLBvm6pQqW+RzvauY9yUYaOA=.sha256\r\n\r\nIt might just be a one-line fix here: https://github.com/fraction/oasis/blob/7c8fb572f69562963e70b6fc7a8dc49d85cb7c0d/src/views/markdown.js#L35",
+    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\n> when did people began to talk about “white” as a thing, and who decided who is and who is not? eg, based on which canons? is this a changing process over time?\r\n\r\nYou may be interested in the podcast [Seeing White](http://www.sceneonradio.org/episode-31-turning-the-lens-seeing-white-part-1/), which goes over where/how/why 'whiteness' was invented, how it works, and who it benefits.\r\n\r\n\r\nhttp://podcast.cdsporch.org/episode-31-turning-the-lens-seeing-white-part-1/\r\n\r\nSmall trailer, if you want: https://www.youtube.com/watch?v=z-gTCeaY-6I",
     "mentions": [
       {
-        "link": "@RuNxm8SRujPcJx6GjtTQHp6hprAFv5voEkcvoAkB8Pk=.ed25519",
-        "name": "kas"
+        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
+        "name": "af"
       }
     ],
-    "root": "%sWE6j3N4N5MASHZsUd+ZL/VA8Kk7J2odHwqX7kTrweA=.sha256",
+    "root": "%YZjuEFbi3ZfFntqGvwUdA314S0QrynFot/k280QWX44=.sha256",
     "branch": [
-      "%8ac5HE8erM22uLEubm6yJ7xZ3gbSLyOrSqmh4Rnb8Hk=.sha256"
+      "%UVQGSqNQV4dhWEidGYhJ9wCHfaPnVMF33/XLhyqmyl8=.sha256"
     ]
   },
-  "signature": "9YjSmHsWrpRgks585i3w37KKEbYyNRbRpdrsVUK+tZTkHBWVXt6bt/lu84kxnEBpV54pqk3kLfxCKMl3e/sUAw==.sig.ed25519"
+  "signature": "LvzMvhCclF567GyVOsJ0Vkt6/KdF4xmxaqK+g0rdxOHvroZkMdSLnygZ1ERyfxy//ixqZ4QA+giEEccF9gSPDg==.sig.ed25519"
 }
