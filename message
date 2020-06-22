@@ -1,23 +1,18 @@
 {
-  "previous": "%YYGbctj827hhZ4PFLqP0x+3twSbyPm1Ie8jQhY9fgII=.sha256",
-  "sequence": 18164,
+  "previous": "%znl+dFqz/f0aWRGN5fSK5zAOEU1lSLzq2S0JohsoXoQ=.sha256",
+  "sequence": 18165,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592765623511,
+  "timestamp": 1592785175359,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@David Gómez [ iPhone ]](@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519)\r\n\r\nWhichever fork replicates first is the 'legit' one. Each message has a sequence number (e.g. 957) and once you get message 957 then you'll ignore all other messages that claim to have a sequence number of 957.",
-    "mentions": [
-      {
-        "link": "@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519",
-        "name": "David Gómez [ iPhone ]"
-      }
-    ],
-    "root": "%k+kSpNmMoxHd4u932XJq5Yo/oghGsCjwJdm8M+LJYbo=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%NxAwTWp89gkU527V4IfxErTHiMrkkBbLtFofP0bjP88=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%B1eXwJaWdYxH/WkpV9+L4Uivbfd4Zub7yS8PN3ILCAw=.sha256",
-      "%JDDBvdQws/asCPhjQq7+9gJAssJRvus2+oMnonm7oHk=.sha256"
+      "%NxAwTWp89gkU527V4IfxErTHiMrkkBbLtFofP0bjP88=.sha256"
     ]
   },
-  "signature": "JPPqz++Y9hkcgJpBSWwA/n607CGzHL2W19GdEkHBqfkHAU1QjA9X+RUOVGdsyjIh2sx9kQOcOflWMcxBtFhfCg==.sig.ed25519"
+  "signature": "fxFPkfqSVnbE6ldvJ8fs31EYhEIGM/VVsWGFhc8HJ1W71DzR/n7qk5OGAtmhlFCGxdjw4jfehoLhA0XZO+NiDg==.sig.ed25519"
 }
