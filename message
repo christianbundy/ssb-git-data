@@ -1,18 +1,22 @@
 {
-  "previous": "%3tFzSCKSrH7tcd5MMLGnsi8taBbIdZYnERRa86rqez0=.sha256",
-  "sequence": 18177,
+  "previous": "%a+UjuzbhunJcoxTt7fY5IJwOo9n3WEKQn5mUP5JFri0=.sha256",
+  "sequence": 18178,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592844346476,
+  "timestamp": 1592844530021,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%B8BHitoE5h8vsRQIvxNRaveU5mg7O91TCBITp59zZNQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@mark](@2uAvsruiAF9rFC20OUZWc/Da+6q1HqY0GQjwmyVUZ4w=.ed25519)\r\n\r\nInteresting! Is that like a FUSE mount, or do I have the wrong picture? Lately I've been thinking that given a distributed system, maybe idempotent operations are the way to go, plus the constraint removes tons of methods as options.\r\n\r\nIn HTTP space, you're basically left with HEAD (stat, basically), GET, PUT, and DELETE. I think you also get OPTIONS and TRACE, but I've never had a use-case for those.",
+    "mentions": [
+      {
+        "link": "@2uAvsruiAF9rFC20OUZWc/Da+6q1HqY0GQjwmyVUZ4w=.ed25519",
+        "name": "mark"
+      }
+    ],
+    "root": "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256",
     "branch": [
-      "%B8BHitoE5h8vsRQIvxNRaveU5mg7O91TCBITp59zZNQ=.sha256"
+      "%mpQ9VgLtEDzvVENQkbpANl9bdE38/NwCaaA4CV6e2jw=.sha256"
     ]
   },
-  "signature": "o+6K2FbGY88F+3ARfK5+E/BVJHID/3DMtzmBkcsdLusToMtIpArSWup/TwergHsedK2MqN0HWve+lDj0hu/UDg==.sig.ed25519"
+  "signature": "42eqi+hcEP+4/tiWmebJSIMhkE2eJ861KDpgWSKXviJs6620XdbvP0kfPMBXeL0j6QltxZsRDEj4fu6IL2oyBQ==.sig.ed25519"
 }
