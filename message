@@ -1,22 +1,17 @@
 {
-  "previous": "%a+UjuzbhunJcoxTt7fY5IJwOo9n3WEKQn5mUP5JFri0=.sha256",
-  "sequence": 18178,
+  "previous": "%7U2DK5kaYhwRagU0I3RZYRgaWVN11z05J41eLogCzdg=.sha256",
+  "sequence": 18179,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1592844530021,
+  "timestamp": 1592845243404,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@mark](@2uAvsruiAF9rFC20OUZWc/Da+6q1HqY0GQjwmyVUZ4w=.ed25519)\r\n\r\nInteresting! Is that like a FUSE mount, or do I have the wrong picture? Lately I've been thinking that given a distributed system, maybe idempotent operations are the way to go, plus the constraint removes tons of methods as options.\r\n\r\nIn HTTP space, you're basically left with HEAD (stat, basically), GET, PUT, and DELETE. I think you also get OPTIONS and TRACE, but I've never had a use-case for those.",
-    "mentions": [
-      {
-        "link": "@2uAvsruiAF9rFC20OUZWc/Da+6q1HqY0GQjwmyVUZ4w=.ed25519",
-        "name": "mark"
-      }
-    ],
+    "text": "I really wish that HTTP supported some kind of LIST method or similar for listing directory entries. (I understand that HTTP doesn't *technically* have a concept of directories.) Instead, we're stuck with XML [site maps](https://en.wikipedia.org/wiki/Site_map) and such.",
+    "mentions": [],
     "root": "%nGmxudQXGp1rZxBY3FqzAzCYzuvuudAXbWhLHS+2skA=.sha256",
     "branch": [
-      "%mpQ9VgLtEDzvVENQkbpANl9bdE38/NwCaaA4CV6e2jw=.sha256"
+      "%7U2DK5kaYhwRagU0I3RZYRgaWVN11z05J41eLogCzdg=.sha256"
     ]
   },
-  "signature": "42eqi+hcEP+4/tiWmebJSIMhkE2eJ861KDpgWSKXviJs6620XdbvP0kfPMBXeL0j6QltxZsRDEj4fu6IL2oyBQ==.sig.ed25519"
+  "signature": "WQRtyeNuRlPxevkqAArCyHBFpRavB5e8e9hd04o84ThMFmWlt+EfY2+u/eV6w4MivpxNWbrV6U+eP4a42ZDfDg==.sig.ed25519"
 }
