@@ -1,26 +1,18 @@
 {
-  "previous": "%+NDOefIfeaN7/ZI6V5owkEz4TwM0kKfXRgNFv5B33hE=.sha256",
-  "sequence": 18205,
+  "previous": "%+a+cMbhQug4j4meiGRXlUXaBvcBhQCxPNaS6BjXSMME=.sha256",
+  "sequence": 18206,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593035739232,
+  "timestamp": 1593040061342,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\n> For example, in git-ssb if you mention someone’s id in a pull request message text, if they are only using Patchwork or Oasis, they won’t see that at all.\r\n\r\nSome context: I've seen lots of threads like [this one](%J3A+wbtU6x0QBixY1GaHIBSx5aBQdgWnQOMdhpBFaJQ=.sha256), where the root doesn't make sense in Patchwork/Oasis, and the comments (even though they're `{ type: \"post\" }`!) don't make any sense either. I'm not really sure how to solve the problem where some messages in a thread work in both clients but the root of the thread only works in one. I'm leaning toward hiding the whole thread, but that sucks too.\r\n\r\n🤷",
-    "mentions": [
-      {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
-      },
-      {
-        "link": "%J3A+wbtU6x0QBixY1GaHIBSx5aBQdgWnQOMdhpBFaJQ=.sha256",
-        "name": "this one"
-      }
-    ],
-    "root": "%vl3JT1GHMmI0IyFwY+qFwtNKcMlOr66XVCql6N+HhMg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%SkUHRHPTrxmy8v9J6GlcwRKLxfCeTIKalrt5t8lvQzg=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%3EI7v7pNAqUHzcdoxbn6yEdmqt0TrFCdnZ+NmXZz6zE=.sha256"
+      "%SkUHRHPTrxmy8v9J6GlcwRKLxfCeTIKalrt5t8lvQzg=.sha256"
     ]
   },
-  "signature": "CLT2lAWeJEW1INejWLmDoFRKrHWhrjtpHbRl8WF4AT9M0l8GFYKQgNSS1xOxTeBbd8xSgPrC1aEyvqO4lirECg==.sig.ed25519"
+  "signature": "E8hcupxnXXGZ0FJLLuZfBDhERdUI8hd/G39ifd3UBH94/8LlffpVKWNinXqaP/oPPFtnkLk5lFqMqViz8/IiCA==.sig.ed25519"
 }
