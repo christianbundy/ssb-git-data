@@ -1,23 +1,18 @@
 {
-  "previous": "%Onzs8AdCQ8yC3kba203fnWF1azloOckxV61EpAc7UxY=.sha256",
-  "sequence": 18236,
+  "previous": "%JW1U7Uyyu2ulwId9MWJpr8PEXae0nHeeRF+28gENabo=.sha256",
+  "sequence": 18237,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593377327099,
+  "timestamp": 1593377552262,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "I've been using NoScript lately and [although the interface is really bad] it's been really improving my experience on the web.\r\n\r\nRandom article: https://www.washingtonpost.com/outlook/2020/06/26/when-police-kill-son/\r\n\r\n- **Default (no ad-blockers, JavaScript enabled)**\r\n  - 149 requests\r\n  - 6.09 MB / 2.32 MB transferred\r\n  - Finish: 1.36 min\r\n  - DOMContentLoaded: 1.65 s\r\n  - load: 9.04 s\r\n  - ✘ Can't read because paywall\r\n- **Ad-blocker (JavaScript enabled)**\r\n  - 78 requests\r\n  - 3.33 MB / 1.43 MB transferred\r\n  - Finish: 7.28 s\r\n  - DOMContentLoaded: 1.64 s\r\n  - load: 7.35 s\r\n  - ✘ Can't read because paywall\r\n- **Ad-blocker + NoScript\r\n  - 15 requests\r\n  - 536.55 KB / 270.20 KB transferred\r\n  - Finish: 1.98 s\r\n  - DOMContentLoaded: 864 ms\r\n  - load: 2.06 s\r\n  - ✅ Can read, no paywall\r\n\r\nOf course, it breaks some websites, but it's super easy to just disable NoScript whenever I want. I wish that websites just had to ask permission to run JavaScript (just like accessing your webcam, microphone, location, etc).\r\n\r\n#javascript #noscript #www",
-    "mentions": [
-      {
-        "link": "#javascript"
-      },
-      {
-        "link": "#noscript"
-      },
-      {
-        "link": "#www"
-      }
+    "type": "vote",
+    "vote": {
+      "link": "%hwPS7XogquEslXKP6uEAfVc7raRGyVkyxEahEPHnfP0=.sha256",
+      "value": 1
+    },
+    "branch": [
+      "%hwPS7XogquEslXKP6uEAfVc7raRGyVkyxEahEPHnfP0=.sha256"
     ]
   },
-  "signature": "OVyqAce4txXOfsBTz7BmvmKBTLnvEP/e2v+vdD88qHNB3IjVzjlN/GlKYgsPESG7rzZlA2mzIcJ5PP4WGr1ODA==.sig.ed25519"
+  "signature": "MkFPBJqiOGhvBGB/rVG4BphHuKjMSr8Fhbtjuja8IAuSbr7p/1hnxHNMWsxSNFzca4GOZiI6uhCS6kUzRoIRDg==.sig.ed25519"
 }
