@@ -1,26 +1,22 @@
 {
-  "previous": "%YnMCfkwPMAof6t+ozlxE05WaeGwx9yCbRW4j6adpOWo=.sha256",
-  "sequence": 18253,
+  "previous": "%LthkauJzakqtMHipW9wPR2C6nSJ5RClOwxjF9bzwNVI=.sha256",
+  "sequence": 18254,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593537753148,
+  "timestamp": 1593545674803,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519)\r\n\r\nYeah! Unfortunately the resolution is [super broken](&ZSFysBuLximTkDARqwPr/9z6/3rknIsUoVvd+/SDcYk=.sha256) on my desktop environment, although I've gotten it to work with Sway (~i3). It also makes everything monospace, emoji don't work, the 'custom CSS' instructions don't work for me, and it doesn't support more modern CSS (I don't blame them!) or any JS. \r\n\r\nIn my opinion, Oasis looks *way* better in lynx/elinks than it does in Dillo, although I'm hopeful that I can use Dillo more in the future!",
+    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> yeah I always figured that’s something to do with images that load a different resolution depending on the DPI?\r\n\r\nSort of -- in [this case](https://www.nytimes.com/wirecutter/) they've encoded the `<img srcset>` property as `<img data-srcset>` and then use JavaScript to fix their broken HTML. 🤦\r\n\r\nI think the goal is to make the page load with a low-res image first, and then swap it out for a high-res image when that's available (so you have to load both images), but their HTML and CSS just provides a blurry low-res image instead.",
     "mentions": [
       {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "&ZSFysBuLximTkDARqwPr/9z6/3rknIsUoVvd+/SDcYk=.sha256",
-        "name": "super broken"
+        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
+        "name": "Daan"
       }
     ],
     "root": "%JW1U7Uyyu2ulwId9MWJpr8PEXae0nHeeRF+28gENabo=.sha256",
     "branch": [
-      "%tVUBslU2rFnImpNWQi5xWnfGMNaNi81pT/BMr6VSfd0=.sha256"
+      "%LthkauJzakqtMHipW9wPR2C6nSJ5RClOwxjF9bzwNVI=.sha256"
     ]
   },
-  "signature": "JajKhtxN1/lyJe4o6K56sgUi8tDFyJ4pHOCFXCFoVYmmEXuiMu1kd3sC1BYEwju5RYQFuht+1tNm9lWoi+n3BA==.sig.ed25519"
+  "signature": "VsJnwDpyxcB5UPC6lHLgYICA3hVrkZzTV5SV+4Tw3bgyNJP2aKtg8Om9EPB4lLN8FTM6yQgn1baZdIRXXwbyCg==.sig.ed25519"
 }
