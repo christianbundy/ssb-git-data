@@ -1,22 +1,23 @@
 {
-  "previous": "%LthkauJzakqtMHipW9wPR2C6nSJ5RClOwxjF9bzwNVI=.sha256",
-  "sequence": 18254,
+  "previous": "%KGK9wEcTzSEqVuW1c+vqibMBTGSbyLBmjUX9IA+7hyo=.sha256",
+  "sequence": 18255,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593545674803,
+  "timestamp": 1593547779818,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> yeah I always figured that’s something to do with images that load a different resolution depending on the DPI?\r\n\r\nSort of -- in [this case](https://www.nytimes.com/wirecutter/) they've encoded the `<img srcset>` property as `<img data-srcset>` and then use JavaScript to fix their broken HTML. 🤦\r\n\r\nI think the goal is to make the page load with a low-res image first, and then swap it out for a high-res image when that's available (so you have to load both images), but their HTML and CSS just provides a blurry low-res image instead.",
+    "text": "[@Boris du 56](@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519)\r\n\r\nI don't find Brave very compelling, but generally I'm using Firefox over Chromium because I'd like to minimize my dependence on Google.\r\n\r\nMy understanding is that the vast majority of Mozilla's money comes from Google anyway, because they pay for google.com to be the default search engine, but I feel better about using Firefox than I do about using Chromium derivatives.",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@l5nYExWYIgDLV6BYHOJPoI97jIUyTdSm8CTLpQ0XeOg=.ed25519",
+        "name": "Boris du 56"
       }
     ],
     "root": "%JW1U7Uyyu2ulwId9MWJpr8PEXae0nHeeRF+28gENabo=.sha256",
     "branch": [
-      "%LthkauJzakqtMHipW9wPR2C6nSJ5RClOwxjF9bzwNVI=.sha256"
+      "%KGK9wEcTzSEqVuW1c+vqibMBTGSbyLBmjUX9IA+7hyo=.sha256",
+      "%Px9XB4Bt0i7j+1mIUlFqKmKeDXXGt5YGYLNGGuyMmuM=.sha256"
     ]
   },
-  "signature": "VsJnwDpyxcB5UPC6lHLgYICA3hVrkZzTV5SV+4Tw3bgyNJP2aKtg8Om9EPB4lLN8FTM6yQgn1baZdIRXXwbyCg==.sig.ed25519"
+  "signature": "rSD4D059E4kT/71bdurlvcsbXCcFVa57xTyD2cIvi4hHFpyP5ln22/jg5ld0g/Ly/ucIt00dQtuaB+CBsJ3aCA==.sig.ed25519"
 }
