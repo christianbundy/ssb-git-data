@@ -1,18 +1,22 @@
 {
-  "previous": "%DvxDY2LtXPOQF6F5VsSlmRI5vuq9y1PJNv2kZLwM/ds=.sha256",
-  "sequence": 18281,
+  "previous": "%CbRL6Fj7Hzae7MqdrDnT+pvZRaBNXPvM0S1P/J9drkk=.sha256",
+  "sequence": 18282,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593719098498,
+  "timestamp": 1593729165539,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%0h2Hc9tZCPs6hYvLrlv22s0/whBtbG5XK+H0T/1LJrM=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@David Gómez [ Desktop ]](@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519)\r\n\r\nThat should be in `~/.ssb/flume/log.offset`! It's in a weird format, but you can export it with a small Python program like:\r\n\r\n```python\r\nwith open(\"/home/christianbundy/.ssb/flume/log.offset\", \"rb\") as f:\r\n    # head\r\n    length_data = f.read(4)\r\n    offset = 4\r\n    f.seek(offset)\r\n\r\n    while length_data:\r\n        # body\r\n        length = int.from_bytes(length_data, 'big', signed=False)\r\n        data = str(f.read(length), 'utf8')\r\n        print(data)\r\n        offset += length\r\n        f.seek(offset)\r\n\r\n        # tail\r\n        length_data_again = f.read(4)\r\n        length_again = int.from_bytes(length_data_again, 'big', signed=False)\r\n        offset += 8\r\n        f.seek(offset)\r\n\r\n        # head\r\n        length_data = f.read(4)\r\n        offset += 4\r\n        f.seek(offset)\r\n```\r\n\r\nHighly recommend [jq](https://stedolan.github.io/jq/) for wrangling it!",
+    "mentions": [
+      {
+        "link": "@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519",
+        "name": "David Gómez [ Desktop ]"
+      }
+    ],
+    "root": "%ZdYg9Yn2viVaFKNPWROsjX9C9CkbB05j3WvfY/yfPik=.sha256",
     "branch": [
-      "%0h2Hc9tZCPs6hYvLrlv22s0/whBtbG5XK+H0T/1LJrM=.sha256"
+      "%ZdYg9Yn2viVaFKNPWROsjX9C9CkbB05j3WvfY/yfPik=.sha256"
     ]
   },
-  "signature": "iLZTU41vBnjj+/m9Q6EYk0qagERPO2JEYPU6ncJNF6vvovKOF6HbNjDEpiokA1JOMvhStITYxrko0LzTW5ZiBQ==.sig.ed25519"
+  "signature": "ZssU3HaLfFPbqIDGJV0pLcnmvYRu/M8vU61p7VFGcDSfD1laQskkh3MeIYxaduaC9Neq487ePIUEEE9M/eR0Dg==.sig.ed25519"
 }
