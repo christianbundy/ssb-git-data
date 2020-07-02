@@ -1,12 +1,12 @@
 {
-  "previous": "%NpiQCp42sp5N+a5aIzrb4Gs0rFENmbAc65lpLN8hW9A=.sha256",
-  "sequence": 18274,
+  "previous": "%gWU6ki8zfhFIs0+PC8AQWWS8YS0OemlkYPjvisx0RJY=.sha256",
+  "sequence": 18275,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593716949114,
+  "timestamp": 1593717006323,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nYeah, sometimes I wish there was a level of indirection where you could refer to the hash of the commit *without* the parent metadata -- that way it wouldn't change when you rebased the commit.\r\n\r\nRight now we have:\r\n\r\n- tree: state of all files with no author info\r\n- commit: tree with attached metadata\r\n\r\nInstead, I want:\r\n\r\n- tree: state of all files with no author info\r\n- bundle: tree with attached metadata\r\n- commit: link to bundle and parent commit(s)",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nOops, hit 'submit' too early. Anyway, in this system you'd be able to point to the bundle ID where the tree and metadata are static but the parent commit isn't specified.",
     "mentions": [
       {
         "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%8SEA+j+DD8srB86MMNH7lZMs4cyEFRJlFxZuFii8W9s=.sha256",
     "branch": [
-      "%up1beGiAhUz727zBlXU2BGDXih8NqAbCaf8zNl7/Io4=.sha256"
+      "%gWU6ki8zfhFIs0+PC8AQWWS8YS0OemlkYPjvisx0RJY=.sha256"
     ]
   },
-  "signature": "bJMeclcmG50xHjSgJ3eC18H+gC+FApuOkG/cmrHNPH4CqXr0JHA/r+0PTosu3ywGi9jSafeq6pEAHe3km02RDg==.sig.ed25519"
+  "signature": "2prpVFOQg2scXYbyr30HJg3o1y4U4bA2MUe1J4I74wZQYjHKN6Tlj/UVEduxO3fFZPojcgglU6Mb0uREho8dBQ==.sig.ed25519"
 }
