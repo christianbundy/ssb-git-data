@@ -1,22 +1,27 @@
 {
-  "previous": "%CFuOb9qkxAtEdHFxRHvlSKgeJ7oCAMkfwy02ehUp4Vk=.sha256",
-  "sequence": 18272,
+  "previous": "%Tp/6iNtHtwb1XhDFN/g4wcl6ijpw0kUxJTHxqPsswx8=.sha256",
+  "sequence": 18273,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593712439533,
+  "timestamp": 1593716732162,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@enkiv2](@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519)\r\n\r\nBig +1. This is one of the reasons I've been pushing for a 'just merge' policy for the repos I'm maintaining. I'd rather revert a commit every few months rather than make every contributor jump through flaming hoops. As long as it passes tests (including the linter) and solves more problems than it creates, merge it.",
+    "text": "Kind of a pain, but I used GitHub's GraphQL API to make a list of some repositories that I've contributed to. I think this counts forks (some have no changes) and doesn't count repositories that I've directly committed to (without a pull request).\r\n\r\n[repos.html](&i4QVd5/YjvuG++TfeBbMa9/zjh5DlxXGsB15JTyDs2A=.sha256)\r\n\r\nSomeday I'll `git clone` all of these and download their issue metadata with #git-bug or similar.\r\n\r\n#git #github",
     "mentions": [
       {
-        "link": "@Q6jeOaoJOdFq8/3oFaOYC6bKhaVCD3IIdpjG+7Fab2M=.ed25519",
-        "name": "enkiv2"
+        "link": "&i4QVd5/YjvuG++TfeBbMa9/zjh5DlxXGsB15JTyDs2A=.sha256",
+        "name": "repos.html"
+      },
+      {
+        "link": "#git-bug"
+      },
+      {
+        "link": "#git"
+      },
+      {
+        "link": "#github"
       }
-    ],
-    "root": "%8SEA+j+DD8srB86MMNH7lZMs4cyEFRJlFxZuFii8W9s=.sha256",
-    "branch": [
-      "%npjykHOmh5CYlAexjCzdGuaqFyUfbvTVWH+hJOS3Ucs=.sha256"
     ]
   },
-  "signature": "JUX2q7hY2figGsIQ752K0eHJ/m4x4DriP481gCm2vIpP7HHpgMadNM2vU7yGaz+HE8YkbgB/+3a2I38DlmUACw==.sig.ed25519"
+  "signature": "U7I7WNXIT0Ciw9tDkZngMm+ffvTjtynnc5bsM/GTJGbRSNkZNae9AThN8++wmX5BUPS0sp9nDUeqthoBOK5nDQ==.sig.ed25519"
 }
