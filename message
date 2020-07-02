@@ -1,27 +1,22 @@
 {
-  "previous": "%Tp/6iNtHtwb1XhDFN/g4wcl6ijpw0kUxJTHxqPsswx8=.sha256",
-  "sequence": 18273,
+  "previous": "%NpiQCp42sp5N+a5aIzrb4Gs0rFENmbAc65lpLN8hW9A=.sha256",
+  "sequence": 18274,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593716732162,
+  "timestamp": 1593716949114,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Kind of a pain, but I used GitHub's GraphQL API to make a list of some repositories that I've contributed to. I think this counts forks (some have no changes) and doesn't count repositories that I've directly committed to (without a pull request).\r\n\r\n[repos.html](&i4QVd5/YjvuG++TfeBbMa9/zjh5DlxXGsB15JTyDs2A=.sha256)\r\n\r\nSomeday I'll `git clone` all of these and download their issue metadata with #git-bug or similar.\r\n\r\n#git #github",
+    "text": "[@alanz](@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519)\r\n\r\nYeah, sometimes I wish there was a level of indirection where you could refer to the hash of the commit *without* the parent metadata -- that way it wouldn't change when you rebased the commit.\r\n\r\nRight now we have:\r\n\r\n- tree: state of all files with no author info\r\n- commit: tree with attached metadata\r\n\r\nInstead, I want:\r\n\r\n- tree: state of all files with no author info\r\n- bundle: tree with attached metadata\r\n- commit: link to bundle and parent commit(s)",
     "mentions": [
       {
-        "link": "&i4QVd5/YjvuG++TfeBbMa9/zjh5DlxXGsB15JTyDs2A=.sha256",
-        "name": "repos.html"
-      },
-      {
-        "link": "#git-bug"
-      },
-      {
-        "link": "#git"
-      },
-      {
-        "link": "#github"
+        "link": "@ZcjYF92reFjUtEYdoJ8ulOI6N6klwAAaIkghEEHdvSE=.ed25519",
+        "name": "alanz"
       }
+    ],
+    "root": "%8SEA+j+DD8srB86MMNH7lZMs4cyEFRJlFxZuFii8W9s=.sha256",
+    "branch": [
+      "%up1beGiAhUz727zBlXU2BGDXih8NqAbCaf8zNl7/Io4=.sha256"
     ]
   },
-  "signature": "U7I7WNXIT0Ciw9tDkZngMm+ffvTjtynnc5bsM/GTJGbRSNkZNae9AThN8++wmX5BUPS0sp9nDUeqthoBOK5nDQ==.sig.ed25519"
+  "signature": "bJMeclcmG50xHjSgJ3eC18H+gC+FApuOkG/cmrHNPH4CqXr0JHA/r+0PTosu3ywGi9jSafeq6pEAHe3km02RDg==.sig.ed25519"
 }
