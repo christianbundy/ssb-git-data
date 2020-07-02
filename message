@@ -1,12 +1,12 @@
 {
-  "previous": "%CbRL6Fj7Hzae7MqdrDnT+pvZRaBNXPvM0S1P/J9drkk=.sha256",
-  "sequence": 18282,
+  "previous": "%YfcB+LHYo9q9kavHoKIZP9IrToAZpSp0AG9zG3RthVw=.sha256",
+  "sequence": 18283,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593729165539,
+  "timestamp": 1593733097633,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@David Gómez [ Desktop ]](@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519)\r\n\r\nThat should be in `~/.ssb/flume/log.offset`! It's in a weird format, but you can export it with a small Python program like:\r\n\r\n```python\r\nwith open(\"/home/christianbundy/.ssb/flume/log.offset\", \"rb\") as f:\r\n    # head\r\n    length_data = f.read(4)\r\n    offset = 4\r\n    f.seek(offset)\r\n\r\n    while length_data:\r\n        # body\r\n        length = int.from_bytes(length_data, 'big', signed=False)\r\n        data = str(f.read(length), 'utf8')\r\n        print(data)\r\n        offset += length\r\n        f.seek(offset)\r\n\r\n        # tail\r\n        length_data_again = f.read(4)\r\n        length_again = int.from_bytes(length_data_again, 'big', signed=False)\r\n        offset += 8\r\n        f.seek(offset)\r\n\r\n        # head\r\n        length_data = f.read(4)\r\n        offset += 4\r\n        f.seek(offset)\r\n```\r\n\r\nHighly recommend [jq](https://stedolan.github.io/jq/) for wrangling it!",
+    "text": "[@David Gómez [ Desktop ]](@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519)\r\n\r\nNew and imporoved!\r\n\r\n```python\r\nimport os\r\n\r\ndb = os.path.expanduser('~/.ssb/flume/log.offset')\r\n\r\nwith open(db, \"rb\") as f:\r\n    while length_bytes := f.read(4):\r\n        length = int.from_bytes(length_bytes, 'big', signed=False)\r\n        print(str(f.read(length), 'utf8'))\r\n        f.seek(8, os.SEEK_CUR)\r\n```",
     "mentions": [
       {
         "link": "@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%ZdYg9Yn2viVaFKNPWROsjX9C9CkbB05j3WvfY/yfPik=.sha256",
     "branch": [
-      "%ZdYg9Yn2viVaFKNPWROsjX9C9CkbB05j3WvfY/yfPik=.sha256"
+      "%YfcB+LHYo9q9kavHoKIZP9IrToAZpSp0AG9zG3RthVw=.sha256"
     ]
   },
-  "signature": "ZssU3HaLfFPbqIDGJV0pLcnmvYRu/M8vU61p7VFGcDSfD1laQskkh3MeIYxaduaC9Neq487ePIUEEE9M/eR0Dg==.sig.ed25519"
+  "signature": "tzpDEDEpAooQkJOOY1eSW6mtbNxG/0v+t4rM/PN0aDOW+GryWXAuzTFO3rQfNWBWKg7DtHWE73ltX5gmh3rpBw==.sig.ed25519"
 }
