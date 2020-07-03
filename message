@@ -1,12 +1,12 @@
 {
-  "previous": "%YfcB+LHYo9q9kavHoKIZP9IrToAZpSp0AG9zG3RthVw=.sha256",
-  "sequence": 18283,
+  "previous": "%W4THpkzdRalUtpWyLZl+x9FOq/ZKVe+chNPD9aMLORQ=.sha256",
+  "sequence": 18284,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1593733097633,
+  "timestamp": 1593734949011,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@David Gómez [ Desktop ]](@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519)\r\n\r\nNew and imporoved!\r\n\r\n```python\r\nimport os\r\n\r\ndb = os.path.expanduser('~/.ssb/flume/log.offset')\r\n\r\nwith open(db, \"rb\") as f:\r\n    while length_bytes := f.read(4):\r\n        length = int.from_bytes(length_bytes, 'big', signed=False)\r\n        print(str(f.read(length), 'utf8'))\r\n        f.seek(8, os.SEEK_CUR)\r\n```",
+    "text": "[@David Gómez [ Desktop ]](@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519)\r\n\r\nIn case it's useful, and while it's still on my mind, the database format (OffsetDB? I don't know if it has an official name) looks like this:\r\n\r\n| data length (UInt32BE) | data  | data length (UInt32BE) | file length (UInt32BE) |\r\n|------------------------|-------|------------------------|------------------------|\r\n| 5                      | hello | 5                      | 13                     |\r\n| 5                      | world | 5                      | 30                     |\r\n| 1                      | !     | 1                      | 43                     |\r\n\r\nEach database entry has some data, and that data is sandwiched by the length of the data (4 bytes, UInt32BE) and then followed by the length of the entire file (4 bytes, UInt32BE). So each entry is 12 bytes plus whatever the length of the data is. You can read the metadata with code like:\r\n\r\n```python\r\nimport os\r\n\r\ndb = os.path.expanduser('~/.ssb/flume/log.offset')\r\nentry = 0\r\n\r\nwith open(db, \"rb\") as f:\r\n    while data_length_bytes := f.read(4):\r\n        entry += 1\r\n        print(\"Entry count: %i\" % entry)\r\n        data_length = int.from_bytes(data_length_bytes, 'big', signed=False)\r\n        print(\"Data length: %i\" % data_length)\r\n        f.seek(data_length + 4, os.SEEK_CUR)\r\n        file_length_bytes = f.read(4)\r\n        file_length = int.from_bytes(file_length_bytes, 'big', signed=False)\r\n        print(\"File length: %i\" % file_length)\r\n```\r\n\r\nAnyway, that's my rant! Now it's on my log forever, hopefully you or someone else finds it useful. :~)",
     "mentions": [
       {
         "link": "@S6ZNGvjgthblkI9OYMY+zB/9/bw8i19x2LCA1kcMpNw=.ed25519",
@@ -15,8 +15,8 @@
     ],
     "root": "%ZdYg9Yn2viVaFKNPWROsjX9C9CkbB05j3WvfY/yfPik=.sha256",
     "branch": [
-      "%YfcB+LHYo9q9kavHoKIZP9IrToAZpSp0AG9zG3RthVw=.sha256"
+      "%W4THpkzdRalUtpWyLZl+x9FOq/ZKVe+chNPD9aMLORQ=.sha256"
     ]
   },
-  "signature": "tzpDEDEpAooQkJOOY1eSW6mtbNxG/0v+t4rM/PN0aDOW+GryWXAuzTFO3rQfNWBWKg7DtHWE73ltX5gmh3rpBw==.sig.ed25519"
+  "signature": "gbLb2IwtRpGJMVKEIpQTQIbd8grKQh/hh06Crmh9uSABCvckPx6Zus7+okx8fXaQc9jE5es3GSE3fyAoNcE8Cg==.sig.ed25519"
 }
