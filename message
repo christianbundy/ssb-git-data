@@ -1,21 +1,26 @@
 {
-  "previous": "%0zl+EWy/ZmAYr4C05/zdOYDIdiV1JAzUmjykg1PC/UU=.sha256",
-  "sequence": 18306,
+  "previous": "%Ub2EZ9wiJUr15KELpgIc5K9jZaiP7RBwk3PPUK1MiAE=.sha256",
+  "sequence": 18307,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1594057988526,
+  "timestamp": 1594058188203,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Now I'm thinking about this in terms of Scuttlebutt, where it might be interesting to create a new identity per thread. You could use your root identity to privately publish \"here's a pseudonym I'm using\" to trusted friends, so they'd implicitly follow your pseudonym ( #same-as ?!? ), but the wider [untrusted] network wouldn't be able to correlate your root identity with any of your pseudonyms.",
+    "text": "Is Dat a type of Scuttebutt?\r\n\r\n> Scuttlebutt is the general idea or concept around all of this. It's definition is loose, and is often just meant to refer to this entire thing, in the way someone refers to \"the internet\" or \"this afternoon\". In this case, the thing is the idea of a network organized similar to an actual social graph, which communicates messages in a way similar to gossip.\r\n>\r\n> -- https://handbook.scuttlebutt.nz/faq/basics/patchwork-vs-scuttlebutt\r\n\r\n#dat #scuttlebutt #ssb #semantics",
     "mentions": [
       {
-        "link": "#same-as"
+        "link": "#dat"
+      },
+      {
+        "link": "#scuttlebutt"
+      },
+      {
+        "link": "#ssb"
+      },
+      {
+        "link": "#semantics"
       }
-    ],
-    "root": "%KxaweveCDHERF+iHD1HOdeKKe3oN/YStmnB880Usbs4=.sha256",
-    "branch": [
-      "%0zl+EWy/ZmAYr4C05/zdOYDIdiV1JAzUmjykg1PC/UU=.sha256"
     ]
   },
-  "signature": "kgpHlcJL8hIh4ju/SIitC1iYKSDsjMSyRm6qIx/LcttffdvSNK45p321hRmKUvUnOyboM/kXxvdGtEqm78HfCw==.sig.ed25519"
+  "signature": "OkNw2VdWVn2TPg/+v7F45BsgCwsTK183rt+fDclhVos+df8LAeQZOi+Kz3unS+tcKAa1jk2YIysVEkYUXuvVBg==.sig.ed25519"
 }
