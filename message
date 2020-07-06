@@ -1,18 +1,22 @@
 {
-  "previous": "%gKqw4qrwRT9pC0SQvFud+nn73iSOR9cYYe0ErNShalA=.sha256",
-  "sequence": 18303,
+  "previous": "%O2dDB7rFOm49m/r5IFrMXXzqIehNczXCYhhuE3IMksw=.sha256",
+  "sequence": 18304,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1594051285851,
+  "timestamp": 1594057270134,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%fsAu64F5Si4E9J1e0VN1un6dJ0icimtp2AwVfVcktvA=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@emile](@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519)\r\n\r\nInteresting! I haven't seen that done with a rope before, but I've done lots of the *wrap `n`, pull `n-1`* systems with webbing (I've always used `n=3`).",
+    "mentions": [
+      {
+        "link": "@2YVYXQclEJHVzCON5dsLRwf65b2S6HnvxpGS8/LwjwY=.ed25519",
+        "name": "emile"
+      }
+    ],
+    "root": "%GZtt0jgvPpvrkWOwpHz1XjBfxo8f6nNoodoUkrHc5XA=.sha256",
     "branch": [
-      "%fsAu64F5Si4E9J1e0VN1un6dJ0icimtp2AwVfVcktvA=.sha256"
+      "%GZtt0jgvPpvrkWOwpHz1XjBfxo8f6nNoodoUkrHc5XA=.sha256"
     ]
   },
-  "signature": "qS2s1TPyNak/GVDh5DpMJEzP+GbH4hkDef9xk03rzax3GvtXicTrbAJTR3/baUjvmkmgn82+NZ4Kvh9GD8XnAA==.sig.ed25519"
+  "signature": "7hefqhngWlDfZGpk23mgDOS0auh6kCZVezngs+AJfZaNhhqhqgSH9HD/iZoHyW3CrZwdqB1ofCaUWiXS1+2eBA==.sig.ed25519"
 }
