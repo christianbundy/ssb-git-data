@@ -1,17 +1,21 @@
 {
-  "previous": "%M2OROktLOa/lx76t1Skev/1ie6I7M5qbMQVi6fo221M=.sha256",
-  "sequence": 18305,
+  "previous": "%0zl+EWy/ZmAYr4C05/zdOYDIdiV1JAzUmjykg1PC/UU=.sha256",
+  "sequence": 18306,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1594057715582,
+  "timestamp": 1594057988526,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Thinking about this more: I'd like to contribute all of my improvements to the public, but I'd prefer that only people that I trust know exactly which contributions are mine. Also, if a discussion starts on any of my changes I think it'd be nice to be able to explain why I've made those changes, but I'd like to use a per-edit pseudonym rather than linking my real identity.\r\n\r\nThis feels like the principle of least privilege, maybe it's the *principle of least identity*? It's important to save the provenance of contributions, but maybe it'd be fine to only share partial provenance, sort of how each node in Tor only knows its neighbors but not the entire provenance chain.",
-    "mentions": [],
+    "text": "Now I'm thinking about this in terms of Scuttlebutt, where it might be interesting to create a new identity per thread. You could use your root identity to privately publish \"here's a pseudonym I'm using\" to trusted friends, so they'd implicitly follow your pseudonym ( #same-as ?!? ), but the wider [untrusted] network wouldn't be able to correlate your root identity with any of your pseudonyms.",
+    "mentions": [
+      {
+        "link": "#same-as"
+      }
+    ],
     "root": "%KxaweveCDHERF+iHD1HOdeKKe3oN/YStmnB880Usbs4=.sha256",
     "branch": [
-      "%sYMENLdZrpLu/gp1EhohxraYW4JNRxsnlfEHtKWoQpU=.sha256"
+      "%0zl+EWy/ZmAYr4C05/zdOYDIdiV1JAzUmjykg1PC/UU=.sha256"
     ]
   },
-  "signature": "3xV3UtmQhDIIe7n4ECOyfOuzSW9uGmxwi9fWinhsEGuD4fUOWtrKG7FxOgBeBWhLhFCOMfru58QpDFYHBgAXAg==.sig.ed25519"
+  "signature": "kgpHlcJL8hIh4ju/SIitC1iYKSDsjMSyRm6qIx/LcttffdvSNK45p321hRmKUvUnOyboM/kXxvdGtEqm78HfCw==.sig.ed25519"
 }
