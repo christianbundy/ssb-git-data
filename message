@@ -1,18 +1,22 @@
 {
-  "previous": "%h56mk3I38B5+q6Y+pyVy5+Zj6BLlHKXoUBLngirCKjA=.sha256",
-  "sequence": 18357,
+  "previous": "%4KhzYHyM/EIu6X5x9nnbkyt1tg1M3cqu1FSQo6CWGGk=.sha256",
+  "sequence": 18358,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595022438191,
+  "timestamp": 1595262277114,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%wmTudxyN33OW7ecTVH/EHQLVPe8VF9Xdo162Ih1rMnw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@David Gómez [ iPhone ]](@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519)\r\n\r\nYeah, the 'private' is both the public key and private key. I'm sure that it could be just the private key, but we'd only save 32 bytes of hard drive space (and have to change all of the implementations that depend on that format) so I don't think it's high on anyone's todo list.\r\n\r\nIs it causing any trouble on your end, or were you just curious about what other options we have?",
+    "mentions": [
+      {
+        "link": "@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519",
+        "name": "David Gómez [ iPhone ]"
+      }
+    ],
+    "root": "%D7J1SpArIrf4r3J554yNP8i5MrC3pKRN6q+B6H1GRgM=.sha256",
     "branch": [
-      "%wmTudxyN33OW7ecTVH/EHQLVPe8VF9Xdo162Ih1rMnw=.sha256"
+      "%nnEckhH/Q/wtN3r/FxavqESIGYZlDdL0NCGCKxbRndI=.sha256"
     ]
   },
-  "signature": "3cJhmRB1bxN2E3H3EBe6cW3Xk6xuHmlYQCFbhlq6hzIkNDKjqiuivAozPtEQ4JeZoKa/G1s+HnDu20uaMzXdBA==.sig.ed25519"
+  "signature": "h0yqLWxfd5YXcTIDMFBYk3PRQiajYnvvZIxAQCDZMGeXvBCZHZt5cngQ3INk/ujCYO1OfTfEuZTlE6aiS199AQ==.sig.ed25519"
 }
