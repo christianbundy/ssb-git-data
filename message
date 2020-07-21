@@ -1,22 +1,18 @@
 {
-  "previous": "%ZPDg5b89q07A+YUvxvkBqNOS7zwNZOlbJ5BGrYz4U1k=.sha256",
-  "sequence": 18359,
+  "previous": "%3y76cxIBczr16c6lKFEFiOJa+Y4CdIZU8AJQAn+T1uE=.sha256",
+  "sequence": 18360,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595262503035,
+  "timestamp": 1595348236062,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@bobhaugen](@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519)\r\n\r\nIf you have SSB-Server, I think this should do the trick:\r\n\r\n```\r\nssb-server publish --type contact --contact @abc.ed25519 --blocking\r\n```\r\n\r\n(Replace `@abc.ed25519` with the feed ID you want to block.)",
-    "mentions": [
-      {
-        "link": "@iL6NzQoOLFP18pCpprkbY80DMtiG4JFFtVSVUaoGsOQ=.ed25519",
-        "name": "bobhaugen"
-      }
-    ],
-    "root": "%Vm3otNdwKtfd4G/3LIk3q9BB2DPW6eDaK1hk42Y/i3c=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%bsOt429Q8JF0MiPecIO7mBIAU+tnqBdIxXvQCtYIszI=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%lIPGUib8n1fc+LvQGpZnlug/nPI+EVOF5jvcS8HQYMw=.sha256"
+      "%bsOt429Q8JF0MiPecIO7mBIAU+tnqBdIxXvQCtYIszI=.sha256"
     ]
   },
-  "signature": "2GJ4GepR8bw/nSVrOCcCEGIbrIrmz2cOZ1o5nZPH/lB0e8UYzqX/kh1vf+Xho+De7Qs0NNWVwq3WX1J8BTOTBQ==.sig.ed25519"
+  "signature": "9tn2ZU5oIQvup+CoOHra6lQFRxojRIdPPeKpTVGypWplq5iWhG0kmG4jqY3MQqOfGLi5nIK8mcYvxeIQH4gwBQ==.sig.ed25519"
 }
