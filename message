@@ -1,17 +1,22 @@
 {
-  "previous": "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256",
-  "sequence": 18366,
+  "previous": "%r3UKAs3yyx2Shn2HlioL8jDQTBAxS925iFpi4a7OAgA=.sha256",
+  "sequence": 18367,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595435220184,
+  "timestamp": 1595440262294,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "The problem, since I didn't actually explain that:\r\n\r\nYour software is only going to be called through its API, so if you cover all test-cases and still only have 80% code coverage then that means **you can delete 20% of your code**, probably. Writing tests for code that can never be reached through your API wastes time and ends up telling you when things **change** rather than when they **break**.\r\n\r\nThere's also another use-case, where you've written a module with an important API, but you've buried it three directories deep and haven't written any documentation for it. If you care enough to write an extensive test suite for some code, it should be treated as a first-class citizen and have that API exported for others to use.",
-    "mentions": [],
+    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519)\r\n\r\n> But to play the devil’s advocate, nothing makes a software project harder to understand than a dense tree of a million tiny dependencies. So exposing yet more API that no one will ever use isn’t the greatest thing.\r\n\r\nTrue, maybe if you've written a dependency with an API that isn't used by your module then you should delete the unused parts of the API. 🙃 And if you need to reuse that code in a second project then you should copy and paste it. And if you need to reuse that code in a [third](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)) project then maybe you can extract it into its own module.\r\n\r\n> That still doesn’t excuse software that has more tests than code.\r\n\r\nI understand that this *sucks*, but at the same time I'm appreciative that SQLite has hundreds of times more test code than it does source. Is there a better way for projects like SQLite?",
+    "mentions": [
+      {
+        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
+        "name": "Cy"
+      }
+    ],
     "root": "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256",
     "branch": [
-      "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256"
+      "%8svoWMQeT0KjuMXfvdSLj29geXgOKRwXKNIiOKI75H0=.sha256"
     ]
   },
-  "signature": "PdwUnMV8QGYEbjD26z3hi9az1WFdx53TF/84LBhss5zYaKepyqOZM0wq7vyydc58oMKYxDZZqwztsq8df4WvDw==.sig.ed25519"
+  "signature": "t0VYxyXtJVJv0GGr8H3EFK+cCdILLoXyzLqcsAnfa81Z9KfNyCGRvvdvnem4oKCCEqzJ5OSbZXhbfv/UpH2lAQ==.sig.ed25519"
 }
