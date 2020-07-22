@@ -1,22 +1,13 @@
 {
-  "previous": "%r3UKAs3yyx2Shn2HlioL8jDQTBAxS925iFpi4a7OAgA=.sha256",
-  "sequence": 18367,
+  "previous": "%eKPWGLk3bRr9H0zkFQxAp4BlKVlC/ZYiBdYT7rN55zE=.sha256",
+  "sequence": 18368,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595440262294,
+  "timestamp": 1595442052104,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Cy](@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519)\r\n\r\n> But to play the devil’s advocate, nothing makes a software project harder to understand than a dense tree of a million tiny dependencies. So exposing yet more API that no one will ever use isn’t the greatest thing.\r\n\r\nTrue, maybe if you've written a dependency with an API that isn't used by your module then you should delete the unused parts of the API. 🙃 And if you need to reuse that code in a second project then you should copy and paste it. And if you need to reuse that code in a [third](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)) project then maybe you can extract it into its own module.\r\n\r\n> That still doesn’t excuse software that has more tests than code.\r\n\r\nI understand that this *sucks*, but at the same time I'm appreciative that SQLite has hundreds of times more test code than it does source. Is there a better way for projects like SQLite?",
-    "mentions": [
-      {
-        "link": "@60jitr5ZbnEFQf0NjcZ6zi2NIAKL40lrFqo2SiiHn1I=.ed25519",
-        "name": "Cy"
-      }
-    ],
-    "root": "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256",
-    "branch": [
-      "%8svoWMQeT0KjuMXfvdSLj29geXgOKRwXKNIiOKI75H0=.sha256"
-    ]
+    "text": "Building software from source is a pain in the ass sometimes, but I've been building my OS software from source for the past few days and I've been impressed with the number of weird bugs I've been able to find and fix. Highly recommend, if you have the time + energy + interest.",
+    "mentions": []
   },
-  "signature": "t0VYxyXtJVJv0GGr8H3EFK+cCdILLoXyzLqcsAnfa81Z9KfNyCGRvvdvnem4oKCCEqzJ5OSbZXhbfv/UpH2lAQ==.sig.ed25519"
+  "signature": "kxFr02d8u68sWRzYboT0r+wPAmdfcfwhr0utkRpcfWz5DD1/4hyQwNk7xTPgPtmFk25Z2SUQGv8tHQwGi4QzBA==.sig.ed25519"
 }
