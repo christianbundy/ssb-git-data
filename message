@@ -1,22 +1,20 @@
 {
-  "previous": "%tmuTXYhwNeizDAiFJByhl8H1q3HnFEfKsAM33XjZ6r4=.sha256",
-  "sequence": 18364,
+  "previous": "%Z9NmSeMtqsL8RGUh7Uw8GdC1kkkaH5m4NTYDKfPmC9M=.sha256",
+  "sequence": 18365,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595363574278,
+  "timestamp": 1595434904392,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Matt Lorentz](@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519)\r\n\r\nI've spent way too many hours playing this btw",
+    "text": "Hot take that I'm not sure that I completely believe: **when writing software tests, only write tests for your actual API**.\r\n\r\nGood:\r\n\r\n```javascript\r\nconst api = require('../src');\r\n\r\nassert(api.randomInteger(0, 100), 42);\r\n````\r\n\r\nBad:\r\n\r\n```javascript\r\nconst range = require('../src/lib/range/')\r\n\r\nassert(range.createRange(0, 100)[0], 0);\r\nassert(range.createRange(0, 100).length, 100);\r\nassert(range.createRange(0, 100)[100], 99);\r\n```\r\n\r\nIf your `createRange()` function is so complicated that it needs its own specific tests, maybe it should be its own module with its own API.\r\n\r\n#software #tdd",
     "mentions": [
       {
-        "link": "@kS1GT34Sg+Kzjcqoehz//afmIQC5+CGo8O/KvMddVrM=.ed25519",
-        "name": "Matt Lorentz"
+        "link": "#software"
+      },
+      {
+        "link": "#tdd"
       }
-    ],
-    "root": "%nGWLQB53QOhKDSS+lJW/cTaMPE1KRWenBmdD0iqrEjY=.sha256",
-    "branch": [
-      "%nGWLQB53QOhKDSS+lJW/cTaMPE1KRWenBmdD0iqrEjY=.sha256"
     ]
   },
-  "signature": "2a7V1W9QuBmNk7lEjBi7Zkg2bSFeqjcA9Bicqq1KOSgKPL09I6PQsCM1Fu6m7NRMsB009JR87SiimFPHoHfuDw==.sig.ed25519"
+  "signature": "IOpJPQhSmxdpg+CKV2iI0a6oWAUOugExFlJPQ0iN9qixDXEH7SPIgW5kXbZrP06sSVdc0jpHS4QSJr4IfnPGDA==.sig.ed25519"
 }
