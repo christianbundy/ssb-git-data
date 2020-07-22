@@ -1,20 +1,17 @@
 {
-  "previous": "%Z9NmSeMtqsL8RGUh7Uw8GdC1kkkaH5m4NTYDKfPmC9M=.sha256",
-  "sequence": 18365,
+  "previous": "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256",
+  "sequence": 18366,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595434904392,
+  "timestamp": 1595435220184,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Hot take that I'm not sure that I completely believe: **when writing software tests, only write tests for your actual API**.\r\n\r\nGood:\r\n\r\n```javascript\r\nconst api = require('../src');\r\n\r\nassert(api.randomInteger(0, 100), 42);\r\n````\r\n\r\nBad:\r\n\r\n```javascript\r\nconst range = require('../src/lib/range/')\r\n\r\nassert(range.createRange(0, 100)[0], 0);\r\nassert(range.createRange(0, 100).length, 100);\r\nassert(range.createRange(0, 100)[100], 99);\r\n```\r\n\r\nIf your `createRange()` function is so complicated that it needs its own specific tests, maybe it should be its own module with its own API.\r\n\r\n#software #tdd",
-    "mentions": [
-      {
-        "link": "#software"
-      },
-      {
-        "link": "#tdd"
-      }
+    "text": "The problem, since I didn't actually explain that:\r\n\r\nYour software is only going to be called through its API, so if you cover all test-cases and still only have 80% code coverage then that means **you can delete 20% of your code**, probably. Writing tests for code that can never be reached through your API wastes time and ends up telling you when things **change** rather than when they **break**.\r\n\r\nThere's also another use-case, where you've written a module with an important API, but you've buried it three directories deep and haven't written any documentation for it. If you care enough to write an extensive test suite for some code, it should be treated as a first-class citizen and have that API exported for others to use.",
+    "mentions": [],
+    "root": "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256",
+    "branch": [
+      "%S1hbW9mgkNX9zPd5n1jjhehKGngztl64YhhuUYvM7nA=.sha256"
     ]
   },
-  "signature": "IOpJPQhSmxdpg+CKV2iI0a6oWAUOugExFlJPQ0iN9qixDXEH7SPIgW5kXbZrP06sSVdc0jpHS4QSJr4IfnPGDA==.sig.ed25519"
+  "signature": "PdwUnMV8QGYEbjD26z3hi9az1WFdx53TF/84LBhss5zYaKepyqOZM0wq7vyydc58oMKYxDZZqwztsq8df4WvDw==.sig.ed25519"
 }
