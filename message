@@ -1,18 +1,24 @@
 {
-  "previous": "%KqcFzBaerYfMTsnjbvSXi7E8fBusxQVhsXPaeyzZgxc=.sha256",
-  "sequence": 18371,
+  "previous": "%cS3/LliAWxri9EDQmyz27SFUUZYDzbW14w36086P85k=.sha256",
+  "sequence": 18372,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595449846401,
+  "timestamp": 1595524369232,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%TNvje7QgqrOM02UIzJQsTkAM9SzObj9fJJumc0WpNss=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Qusai Al Shidi](@FHp9i3V+4zZsqknXM4aECOADDMy5j1hQs6PCS6TsOtI=.ed25519)\r\n\r\nNothing super interesting, but:\r\n\r\n- I noticed that [AFL](https://github.com/google/AFL/) did a switcheroo on the v2.57b tag a few weeks ago, which was resolved by the Arch package being bumped and an AFL maintainer now knowing that quietly changing tags causes problems for people downstream.\r\n- I found that the [npm CLI](https://github.com/npm/cli/pull/1555) has a dependency that doesn't play nicely when you have libvips installed globally, so I've opened a [pull request](https://github.com/npm/cli/pull/1555) to update the dependency tree.\r\n- This morning I found that [Jasper](https://github.com/jasper-software/jasper)'s build checks whether you have a LaTeX environment and does a totally optional build -- but if you're missing any modules then the whole build fails. I have [an issue](https://github.com/jasper-software/jasper/issues/220) open that should hopefully help resolve that.",
+    "mentions": [
+      {
+        "link": "@FHp9i3V+4zZsqknXM4aECOADDMy5j1hQs6PCS6TsOtI=.ed25519",
+        "name": "Qusai Al Shidi"
+      }
+    ],
+    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
     "branch": [
-      "%TNvje7QgqrOM02UIzJQsTkAM9SzObj9fJJumc0WpNss=.sha256"
+      "%dzHaQvFVdDpayGdLtzruvwH5so9+J60WzUR8LSIUsDM=.sha256",
+      "%k3j71csQjts+F6wMbXjLvl2TpsE7KxJ5ScZvFRvp1Sg=.sha256",
+      "%nwCaRcaQvj98YBMtijukhTtHu0MMu4ciMrHo4rhK+iM=.sha256"
     ]
   },
-  "signature": "27VPPDytX33+syGaWEQzU01Jo+irthKj+ha6wlCeuyq2AqRe2iDIJxdo0ty1VfmdGgE6438CdIBeAkQhP5HbCg==.sig.ed25519"
+  "signature": "kRVnIiTRWJ6dlWZlAbbAwolMCp8/NGuJc8hpBDKODXVfldd1uXE5LUiWqXMhtHzTQIUXfciT8+CWAoJ+Ij4VBg==.sig.ed25519"
 }
