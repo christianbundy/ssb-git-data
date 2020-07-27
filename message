@@ -1,12 +1,12 @@
 {
-  "previous": "%LWGskKejq6XJPwK4aUZefYVPtvUOjfK3r9pZR3/OZ40=.sha256",
-  "sequence": 18388,
+  "previous": "%lfmvRGdBLRK0X9eY8M/wvEGW8z1F/u+Ll5fxgCbg6OU=.sha256",
+  "sequence": 18389,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595865315700,
+  "timestamp": 1595866739053,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Powersource (phone)](@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519)\r\n\r\n> so if you’re looking at stuff from the side and move your mouse to the horizon, stuff gets put very far away :P\r\n\r\n\r\nYeah, it seems like if you click 'x', 'y', or 'z' at the top right corner then any movement you do goes directly into the horizon. If you rotate slightly, it doesn't break at often.\r\n\r\n>  and not sure what you mean by “triangle joints”\r\n\r\nDid you see the link I posted? Here's a tri-joint: https://gridbeam.xyz/static/327e7dd0602053701054dd598d55ecab/426ce/tri-joint.jpg\r\n\r\nThe beams are joined by passing bolts through the holes, so if you line them up in a T with no overlap then you have to use glue or start drilling more holes!",
+    "text": "[@Powersource (phone)](@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519)\r\n\r\nFinished it! I found that if you select 'parts' then you can modify the length/x/y/z values directly. That was the only way that I could get the Z value to change without throwing things into infinity. I also went through the parts list and deleted all of the far-away boards: \r\n\r\nhttps://play.gridbeam.xyz/#1bdBRCgMhDATQkHZFgriplCUsIh6hn97_ZGvbsIjm9zHoTCh5SM4XPgUEKnyejelvaBouVgwDBjVsu9rBUZzmglpgFv8zaJsaGblqvCfdslpU84YFDssfwFmK2mvojJNR35a1C947LDsXI8PevYvTfo-h32yxG03GhiXD6nCDfdi2Wl72fnP3XRgu",
     "mentions": [
       {
         "link": "@WuIiSwHyJS9v8EZ8RUL8Jgft9GSOPd02EvAaT+3U8oM=.ed25519",
@@ -15,9 +15,8 @@
     ],
     "root": "%38z2yXdvo1TYONQcwK/PEsIx+HvLSBsCa20hV+qCMOA=.sha256",
     "branch": [
-      "%A9cnOOuL63cjuNhDeFej0LJs197/Davp2j7iVX9BqoU=.sha256",
-      "%csxE5gNYV56zkriEwAU6dYC9TPXDZguWPYu9NqRZ6Vw=.sha256"
+      "%lfmvRGdBLRK0X9eY8M/wvEGW8z1F/u+Ll5fxgCbg6OU=.sha256"
     ]
   },
-  "signature": "2k9YxO0YTAf3CnVmbsIc5CvgclksOOWCaOIyZjmuU6zoQt/iEq9r6Rcfy+Jpka1VpyMvZQpF1ehFgywMaXYdAA==.sig.ed25519"
+  "signature": "1NzTjX6ds9TGaN/DEmyzLsCHjhjD6vgtAIx+zIdxBNNg/jvEJnNUMzuya4GtZLm4UkrgWKAVbK+lki7zU98gCA==.sig.ed25519"
 }
