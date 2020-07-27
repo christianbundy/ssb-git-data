@@ -1,18 +1,17 @@
 {
-  "previous": "%8357g1tP/EbevL4SUp2+YSOSXvPeld/hfaS4qm8f/uU=.sha256",
-  "sequence": 18391,
+  "previous": "%IEiFjT3snwjLyteCyD3VIVXQ9zuAJIR1Ywln7KtYVqI=.sha256",
+  "sequence": 18392,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595868975844,
+  "timestamp": 1595883385997,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%rcauo57pWLTAhj0q4/fx/7t4fC9aAaeMAG81Wwx/oqU=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%rcauo57pWLTAhj0q4/fx/7t4fC9aAaeMAG81Wwx/oqU=.sha256"
+    "type": "post",
+    "text": "```\r\ngit config --global init.defaultBranch main\r\n```\r\n\r\n#git",
+    "mentions": [
+      {
+        "link": "#git"
+      }
     ]
   },
-  "signature": "Wp//WVR/6YbhLyhah1O4W4Osx8csCzxfOTLMRKRRBCS86KScsV15MK+1fqSK1tehUDMWyJ9xNctOHmTIVYJ7Cw==.sig.ed25519"
+  "signature": "OhDtJ6uevERJdzitSsC0yahnGbjRCovBpuHdruI4eRPk/Lj5MhdjHl97vcZkFx/o/MkbGGPXy/CceyeQx5QZDg==.sig.ed25519"
 }
