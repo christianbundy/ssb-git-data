@@ -1,17 +1,17 @@
 {
-  "previous": "%5nbrmnFFjts0GraVIw9UXfQqtYOrRiEvu9hg1c4f0I8=.sha256",
-  "sequence": 18403,
+  "previous": "%okC07hQsem1L05Rq2/9LxuCylQpQm8URj3dWV0kwdus=.sha256",
+  "sequence": 18404,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595967090679,
+  "timestamp": 1595967392991,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Update on my pacman-src adventures: I give up.\r\n\r\nHere's my terrible 'makesrc' hack:\r\n\r\n```shell\r\nfunction makesrc () {\r\n  BEFORE=\"$(pwd)\"\r\n  for p in $@; do\r\n    mydir=\"$(mktemp -d)\"\r\n    cd \"$mydir\" && asp checkout \"$p\" && cd */repos/*-(x86_64|any) && makepkg --noconfirm -si && rm -rf \"$mydir\"\r\n  done\r\n\r\n  cd \"$BEFORE\"\r\n}\r\n\r\nalias makesrc-update='makesrc $(sudo pacman -Sy > /dev/null && pacman -Quq | shuf)'\r\n```\r\n\r\nInstead of `pacman -S firefox` use `makesrc firefox`. Instead of `pacman -Syu` use `makesrc-update`. I'm sure I'll improve this in the future -- probably aiming for pacman argument compatibility.",
+    "text": "New policy: I'm going to try to avoid buying any products with batteries that are hard to replace.",
     "mentions": [],
-    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
+    "root": "%3P3PJNltdMVnETO8YyG9ld3LMIm2gsdtWIpGkeTznpI=.sha256",
     "branch": [
-      "%QNRuQC+0U+qQ4aPftmGK9XsQvAkHrAhYty3BF8kj3pQ=.sha256"
+      "%3P3PJNltdMVnETO8YyG9ld3LMIm2gsdtWIpGkeTznpI=.sha256"
     ]
   },
-  "signature": "r8L92U/xU6UL1I0zcTi2O5Q1QjS0gWlAK4mlcxvMOgSvQgRowSvcCWhoGCKdpD0jH3/BqwUwpyE9BWygjefQCQ==.sig.ed25519"
+  "signature": "pT2JkDKUt2NZqgV8HFYlODtlb6QPPqLQXLCZJX7PjjPAX4sWXkKORFfQ3AkHDbbNvlJFwYpiZfgDOhMlrnBWCw==.sig.ed25519"
 }
