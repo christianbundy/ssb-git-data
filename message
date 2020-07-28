@@ -1,18 +1,17 @@
 {
-  "previous": "%EfcJ44KSL87whgqHX75fX2siMVhIkcnhfHGQvCw2Ew8=.sha256",
-  "sequence": 18402,
+  "previous": "%5nbrmnFFjts0GraVIw9UXfQqtYOrRiEvu9hg1c4f0I8=.sha256",
+  "sequence": 18403,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1595959764893,
+  "timestamp": 1595967090679,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%5nijHG+WwovREAyQZqJmVaV2pU+XgzNgvf8ron3htNw=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "Update on my pacman-src adventures: I give up.\r\n\r\nHere's my terrible 'makesrc' hack:\r\n\r\n```shell\r\nfunction makesrc () {\r\n  BEFORE=\"$(pwd)\"\r\n  for p in $@; do\r\n    mydir=\"$(mktemp -d)\"\r\n    cd \"$mydir\" && asp checkout \"$p\" && cd */repos/*-(x86_64|any) && makepkg --noconfirm -si && rm -rf \"$mydir\"\r\n  done\r\n\r\n  cd \"$BEFORE\"\r\n}\r\n\r\nalias makesrc-update='makesrc $(sudo pacman -Sy > /dev/null && pacman -Quq | shuf)'\r\n```\r\n\r\nInstead of `pacman -S firefox` use `makesrc firefox`. Instead of `pacman -Syu` use `makesrc-update`. I'm sure I'll improve this in the future -- probably aiming for pacman argument compatibility.",
+    "mentions": [],
+    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
     "branch": [
-      "%5nijHG+WwovREAyQZqJmVaV2pU+XgzNgvf8ron3htNw=.sha256"
+      "%QNRuQC+0U+qQ4aPftmGK9XsQvAkHrAhYty3BF8kj3pQ=.sha256"
     ]
   },
-  "signature": "iv8lshhLcPHuhCDBFVPkXYf+SOZCG43A0XO3v0f7OyD7M8zRLTMH8vsrLyHsnD0oLn1wW8QkAJ01WGDm46OBAQ==.sig.ed25519"
+  "signature": "r8L92U/xU6UL1I0zcTi2O5Q1QjS0gWlAK4mlcxvMOgSvQgRowSvcCWhoGCKdpD0jH3/BqwUwpyE9BWygjefQCQ==.sig.ed25519"
 }
