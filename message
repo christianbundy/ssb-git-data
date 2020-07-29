@@ -1,22 +1,18 @@
 {
-  "previous": "%fLTnqHkRIvn9sV/eckKAzw9be0TLoZ3lUQ6FaYcUM50=.sha256",
-  "sequence": 18416,
+  "previous": "%+20rh+tawbeti9c7byL+Md5OIZUEPFaM96DnP1Vc5fQ=.sha256",
+  "sequence": 18417,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596046315984,
+  "timestamp": 1596046439613,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@KawaiiPunk](@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519)\r\n\r\nLet wget do the heavy lifting!\r\n\r\n```sh\r\nwget --recursive --level 1 --span-hosts --convert-links https://www.indianapolisunderground.com/pdf.htm\r\n```\r\n\r\nShort version:\r\n\r\n```\r\nwget -rHkl1 https://www.indianapolisunderground.com/pdf.htm\r\n```\r\n\r\nThis should download everything within 1 click of the webpage, *plus* it'll fix the HTML file afterward so that the links on the `pdf.htm` page point to your local PDF files!",
-    "mentions": [
-      {
-        "link": "@LVL4qjvmws3Cxavfi4iCQI6dSOqWqOyq5/5CHImILA8=.ed25519",
-        "name": "KawaiiPunk"
-      }
-    ],
-    "root": "%cbxAd3l9NsbHIfcXoQhTi6Y8JEjnZNOIx0/mlGtP+Mg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%FDdzZMBP+z9wPMyk2+vx6y2ZAEW61300pLAAMfF2vwA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%wslJkmn+SprJ/iJmiziwvAhvg7o5OEzIbRXiwyQVUEU=.sha256"
+      "%MGAZttOjqlwJTZ33xqDDAWgcCuG1w18UKVzK1rtC1Og=.sha256"
     ]
   },
-  "signature": "nSbepMKDD8qd1iZDZ4xW11iF40hO1M2eKrXxBVC6Vr1DmHw3AnmjY8/l2Ak1kZwKR8oA3uA2yKFQiCwQqZhyBg==.sig.ed25519"
+  "signature": "pqCYPzyi+RH/GaBQYpedC44jUzsW7LUxr8Xd8A5Oqwg0c26WrazSk/sBwx6AJlgeapq6irfv0751K0QYVeQRCQ==.sig.ed25519"
 }
