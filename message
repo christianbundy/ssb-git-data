@@ -1,22 +1,22 @@
 {
-  "previous": "%hk80H2Punf+ZcjYKya306EX/PO9fteRRzJUsDkYwDRU=.sha256",
-  "sequence": 18419,
+  "previous": "%S/+AcRGKQJzdvOMsvMBg/L4qXNtmCvtAmknCW5dSqgY=.sha256",
+  "sequence": 18420,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596052311184,
+  "timestamp": 1596055168494,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nThat looks really nice! There's lots of AUR helpers, which build AUR packages from source, but they don't build anything from the main repository from source since they just pass through to `pacman`.\r\n\r\nOn the other hand, I noticed that my favorite AUR helper (yay) has a `--pacman` flag, so I wrote a small Bash utility that pretends that it's pacman but actually just builds from source instead. So you can do `yay --save --pacman absman` and then all future calls will pass through to `absman` and build from source.\r\n\r\nI'm excited to have it working!\r\n\r\nUnfortunately I have two packages that I can't get to build:\r\n\r\n- python: it builds fine but the post-build test suite fails on the curses test. I think it'll be fixed once https://github.com/python/cpython/pull/17536 is merged\r\n- mesa: something about \"ERROR: C++ library 'clangCodeGen' not found\" in `meson.build`. I saw an environment variable that might fix it though.\r\n\r\nAnyway, do you have opinions about building in a chroot/jail versus just building normally? I'm sure I'll hit fewer errors if I'm compiling in a clean chroot, but I kinda like that I'm exposing these builds and tests to more surface area so that we can catch more bugs.",
+    "text": "[@Danie](@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519)\r\n\r\nI just clicked and the live video happened to be some right-winger trying to claim that Google is censoring Breitbart because they comply with US requests to censor illegal content. I'd have so much more respect for these people if they'd at least argue in good faith. :/",
     "mentions": [
       {
-        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
-        "name": "zozs"
+        "link": "@0Tv5f/opjv/m1ONAKl6S79HWbHdLaCtt/emdXl2MCO0=.ed25519",
+        "name": "Danie"
       }
     ],
-    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
+    "root": "%4LIlTiiBVO+8m8RUKPh3hCOhgNI3XKZo3ksiU4+5tSs=.sha256",
     "branch": [
-      "%yDypkGySZcag3tjWA3zo3E9Dock7lpDfqPXnQWcd634=.sha256"
+      "%4LIlTiiBVO+8m8RUKPh3hCOhgNI3XKZo3ksiU4+5tSs=.sha256"
     ]
   },
-  "signature": "F9h/4xtc6UVFlkAdy4cwMoIFvD999QV4x49HC7+g93dut/5riGxngeje9WS5uvalbLxzgEShZE2tlrSwanuCCA==.sig.ed25519"
+  "signature": "RkIeAmg4B0XLs8vfKDD3iFHDNw+6W2ubi4TCxbCIffSza72S+uxSHRohq32k9kXCDEghlgOAZkOhRH8Oax2PBg==.sig.ed25519"
 }
