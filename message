@@ -1,22 +1,22 @@
 {
-  "previous": "%Um7LQNxm/kjVhoNjG2y0LS9E0zVlp61MsM4z7OznfR0=.sha256",
-  "sequence": 18418,
+  "previous": "%hk80H2Punf+ZcjYKya306EX/PO9fteRRzJUsDkYwDRU=.sha256",
+  "sequence": 18419,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596048880038,
+  "timestamp": 1596052311184,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Daan](@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519)\r\n\r\n> [...] the tool used for translations does have a “save” button, but even when I didn’t click it, simply saved the changes anyway\r\n\r\n```\r\n ______________________________________\r\n/ It looks like you're trying to write!\\\r\n| I'll publish your changes on every   |\r\n\\ keystroke.                           /\r\n --------------------------------------\r\n \\\r\n  \\\r\n     __\r\n    /  \\\r\n    |  |\r\n    @  @\r\n    |  |\r\n    || |/\r\n    || ||\r\n    |\\_/|\r\n    \\___/\r\n```",
+    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\nThat looks really nice! There's lots of AUR helpers, which build AUR packages from source, but they don't build anything from the main repository from source since they just pass through to `pacman`.\r\n\r\nOn the other hand, I noticed that my favorite AUR helper (yay) has a `--pacman` flag, so I wrote a small Bash utility that pretends that it's pacman but actually just builds from source instead. So you can do `yay --save --pacman absman` and then all future calls will pass through to `absman` and build from source.\r\n\r\nI'm excited to have it working!\r\n\r\nUnfortunately I have two packages that I can't get to build:\r\n\r\n- python: it builds fine but the post-build test suite fails on the curses test. I think it'll be fixed once https://github.com/python/cpython/pull/17536 is merged\r\n- mesa: something about \"ERROR: C++ library 'clangCodeGen' not found\" in `meson.build`. I saw an environment variable that might fix it though.\r\n\r\nAnyway, do you have opinions about building in a chroot/jail versus just building normally? I'm sure I'll hit fewer errors if I'm compiling in a clean chroot, but I kinda like that I'm exposing these builds and tests to more surface area so that we can catch more bugs.",
     "mentions": [
       {
-        "link": "@MRiJ+CvDnD9ZjqunY1oy6tsk0IdbMDC4Q3tTC8riS3s=.ed25519",
-        "name": "Daan"
+        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
+        "name": "zozs"
       }
     ],
-    "root": "%KsPvjIbClnZxTZ9JC0/lplogmP+GnxEr43tCPUwJAfQ=.sha256",
+    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
     "branch": [
-      "%2Azp9nxcdifPoabVmd7oxuXRaBGbC4JhC9ber1dBM54=.sha256"
+      "%yDypkGySZcag3tjWA3zo3E9Dock7lpDfqPXnQWcd634=.sha256"
     ]
   },
-  "signature": "Km6jI1fVp1XFjjR+mqmjXiqvq1rV38xaAL9oR3G0txUA9qPeeTf4+t5YhkBCuOlIwK3bfyD0kLINTqh7szG8Dw==.sig.ed25519"
+  "signature": "F9h/4xtc6UVFlkAdy4cwMoIFvD999QV4x49HC7+g93dut/5riGxngeje9WS5uvalbLxzgEShZE2tlrSwanuCCA==.sig.ed25519"
 }
