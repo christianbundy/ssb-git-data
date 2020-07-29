@@ -1,18 +1,22 @@
 {
-  "previous": "%VkNohCpM9TBE/iuOCZ9E2vikX32bFyJ+YFfWWOIQ7ek=.sha256",
-  "sequence": 18410,
+  "previous": "%inT6a3PVvi3GHUJ2aB5VfO3eFrkdUd/sHIzJ+F5KzSk=.sha256",
+  "sequence": 18411,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596035076422,
+  "timestamp": 1596038087863,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%//JIQrRnJ+vYyHg/UXgCKsm5ecs1/VwtYV8Bm0gTmI0=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@samebchase](@B1ZOjF6edoKiPRtbiCnXPXqSw/4AezJCSN/u9OG+w3M=.ed25519)\r\n\r\nI remember reading about blurry fonts on macOS for the past few years, I looked it up and this is the recommended solution that's getting passed around:\r\n\r\nSystem Preferences -> General -> Use font smoothing when available\r\n\r\nAny chance that helps?\r\n\r\n(I'm also on Arch Linux, although I was on all-Apple-everything a few years ago).",
+    "mentions": [
+      {
+        "link": "@B1ZOjF6edoKiPRtbiCnXPXqSw/4AezJCSN/u9OG+w3M=.ed25519",
+        "name": "samebchase"
+      }
+    ],
+    "root": "%GcHNYG+W8o25j0Hp9nUZqacqlbD9KPoyqkPgcEqi9wY=.sha256",
     "branch": [
-      "%//JIQrRnJ+vYyHg/UXgCKsm5ecs1/VwtYV8Bm0gTmI0=.sha256"
+      "%GcHNYG+W8o25j0Hp9nUZqacqlbD9KPoyqkPgcEqi9wY=.sha256"
     ]
   },
-  "signature": "Ro8BelK4cuN+wfuhf8XfQh5RLtjwSscMlGEOb5PeCJCqpmUogNJCOQ1TeVoEfLRXFRbtUTVOIyDUot7yzacpCg==.sig.ed25519"
+  "signature": "nuNwaFMyb9u1joJxzy4U8klfmPMJNNJrL/8JK8iaGY1wgEqbxifEILPluQYBe06ESH0+MjoBNKXbp4W7v8luAA==.sig.ed25519"
 }
