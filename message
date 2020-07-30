@@ -1,25 +1,14 @@
 {
-  "previous": "%Qc0eflpTr/fgIHF8QZ5fttsiz8lhb9+pK2paiXd9tz8=.sha256",
-  "sequence": 18429,
+  "previous": "%IfGjj493RwsrofT9CqaIbEsq3uW3oYVRkCphmsM3h7E=.sha256",
+  "sequence": 18430,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596132711931,
+  "timestamp": 1596135403846,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@zozs](@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519)\r\n\r\n> I’m thinking things like the application picking up system-wide dependencies so that packages only build on the developers’ machines with the right environment etc.\r\n\r\nYUP. I asked in the #archlinux IRC channel and they gave a good example: the PKGBUILD for something like mpv has a few dependencies (not libx264), but when you compile it notices that you have libx264 installed and targets that library. Later on you upgrade your libx264, but since the mpv PKGBUILD didn't have an explicit dependency then it's targeting the wrong version of libx264 and breaks. If you compile it from scratch it'll [probably] start working again, but your whole system is going to be built pretty sketchy.\r\n\r\nSo now my goal is to... build my entire system from scratch, recursively, in chroots? On the upside if you type '!christianbundy' in the Arch Linux IRC there's now a pre-recorded response for the when I get another hare-brained idea.",
-    "mentions": [
-      {
-        "link": "@S1h5yat/vRFUJw7ft5+U661/AblIZsdDCA6ZGOb7814=.ed25519",
-        "name": "zozs"
-      },
-      {
-        "link": "#archlinux"
-      }
-    ],
-    "root": "%JF9oNYba9/g/YJ9ScpZgTseEIGWF8Rpg4Zr0hm/XAqM=.sha256",
-    "branch": [
-      "%hTmW+6y23/hlnJdrOr7g3JNfdy2qaZlUCNI+HhejFYU=.sha256"
-    ]
+    "type": "contact",
+    "contact": "@/gRUvMI81U+wJ14vlAIduZN75px1GhRTsfUBHI/TFpQ=.ed25519",
+    "following": false,
+    "blocking": true
   },
-  "signature": "3xCJEK03kWSRZz11oPOo8x6B4f37lZY6ZTSogX3j2GJgSeqXEgsrOK1SW1CNjLAxEWxzV6QEmAgeFATbiGo1AA==.sig.ed25519"
+  "signature": "HZ7Z4YflTd8ruy8sxPPB/W+vKPiHmS8bgFroWdYj8s6RAIJmI538tt1hK8TdnFv4jVahlTvMnG0nSijASqJXCg==.sig.ed25519"
 }
