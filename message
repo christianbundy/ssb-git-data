@@ -1,22 +1,18 @@
 {
-  "previous": "%DtHwKU/lRvfqpJ01iITkIwh3tLHGmYAk11TF0SYWgDI=.sha256",
-  "sequence": 18442,
+  "previous": "%+6dE359QdoiSNOTicpUQT9OzIwgjcm+vW4ZvWkjDiYQ=.sha256",
+  "sequence": 18443,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1596238003621,
+  "timestamp": 1596238017960,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@David Gómez [ iPhone ]](@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519)\r\n\r\nBtw, being able to implement the protocol from scratch is **very** important to me. Please ping me if you'd like. Bias disclaimer: I'm not happy with lots of the patterns in the SSBC implementation and will probably steer you toward less novelty.\r\n\r\nAlso, you may be interested in my [SSB validation dataset](https://github.com/fraction/ssb-validation-dataset), which you can use to write a validator that decides whether a message is valid or not. 🎉",
-    "mentions": [
-      {
-        "link": "@b0e9vLp8gLDnO2EZY90IpQ2s2srEm4RYYr7VbRkLmQw=.ed25519",
-        "name": "David Gómez [ iPhone ]"
-      }
-    ],
-    "root": "%PkMt5IVepAnG7HBe3G8MOKVouz+giOlhDLAUiLAknLw=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%0jyvQc69OG8nnzkAOYpbjQSJcVkkK4Q89W+lclnoElc=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%DtHwKU/lRvfqpJ01iITkIwh3tLHGmYAk11TF0SYWgDI=.sha256"
+      "%0jyvQc69OG8nnzkAOYpbjQSJcVkkK4Q89W+lclnoElc=.sha256"
     ]
   },
-  "signature": "EJMZCzgLtVfEIQCdHncSWxwgE+pgomWU9YWnxFs/bl95HlICFICw6SD5ZvNu3MfGbjNGw5HhCMoyNDEndXRNCQ==.sig.ed25519"
+  "signature": "+wLiCG+TktzrLzS/dfdhpm3FEuvhkeUwD0ag2EoLsy+AzIVk2kXpsfaJIlNF2hsMiUlOFob6oyhC7nCHd3ZRBg==.sig.ed25519"
 }
