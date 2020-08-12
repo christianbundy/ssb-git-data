@@ -1,58 +1,9 @@
 {
-  "previous": "%bnqwz2vyiTD4aKm/D+4UCG+T09k/jW80Yn4D3kySdcM=.sha256",
-  "sequence": 18499,
+  "previous": "%7825cJNlgYXz1zHeqSEdrMAiWE/bXP0fg6MzN4ujACw=.sha256",
+  "sequence": 18500,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1597260509205,
+  "timestamp": 1597260578549,
   "hash": "sha256",
-  "content": {
-    "type": "post",
-    "text": "# SSBC and its future\r\n\r\nI've been thinking about the SSBC a lot lately and I'd like to propose some changes. The SSBC has grown rapidly since [2015](https://web.archive.org/web/20150818105945/https://github.com/ssbc), and we've collected tons of code under the 'SSBC' banner, but I've noticed that decision-making within the \"organization\" is [structureless](https://www.jofreeman.com/joreen/tyranny.htm). We've watched thoughtful and intelligent people push for change, through the [Scuttlebutt Dialectic Framework](%ZfT6V+0eE9so1EIPxm8uQ852WFvio691JBAxs8QNqRQ=.sha256) and [SSB Specification Drafts](https://github.com/ssbc/ssb-spec-drafts), and while we've experimented with various tools for governance I haven't seen anyone commit to any particular governance model.\r\n\r\n> The nice thing about standards is that you have so many to choose from.\r\n>\r\n> -- Andrew S. Tanenbaum\r\n\r\nThe SSBC is an amorphous playground of people and ideas that we've poured lots of energy into, but it's a textbook example of a tragedy of the commons that burns out our friends and colleagues. Instead of trying to radically reform the SSBC, I'd like to propose a mitosis:\r\n\r\n- **Secure Scuttlebutt Consortium** -- Playground of software, specifications, and research.\r\n- **SSB-JS** -- Healthy commons of dependable JavaScript applications and libraries.\r\n\r\nTo be explicit, I don't want to continue pouring energy into the SSBC. I'd like to move our core JS modules into a smaller organization with clearly defined boundaries, explicit expectations, and collective decision-making that takes care of our needs. I'm tired of working alone together -- I want to collaborate on software as a team, and I think this is a step in the right direction.\r\n\r\nI'd like to see something like the C4 process ([example](&DOzbd61NN0h3d3QTgokuXnA3KsJMxabGm4U2Yvqfx6c=.sha256)), but the things that I'd be really interested to see:\r\n\r\n- Projects have consistent internal style.\r\n- Projects have automated tests that pass.\r\n- Projects have multiple active maintainers.\r\n- List of maintainers is public and accessible.\r\n- Contributor workflow is public, accessible, and **easy**.\r\n- Maintainer workflow is public, accessbile, and **consistent**.\r\n- Contributors have a clear and equitable path to become maintainers.\r\n- Maintainers who are inactive or fail to follow rules should be removed.\r\n- We have systems for collective decision-making to make and change policies.\r\n\r\nStakeholders (you know who you are): Please communicate whether this is something you'd like to participate in (👍) or something you'd be uncomfortable with (👎).\r\n\r\nCC: [@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519) [@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519) [@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519) [@Luandro](@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519) [@SoapDog (SPX)](@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519) [@cel-desktop](@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519)\r\n\r\n#ssbc #ssb-js #governance #maintainers",
-    "mentions": [
-      {
-        "link": "%ZfT6V+0eE9so1EIPxm8uQ852WFvio691JBAxs8QNqRQ=.sha256",
-        "name": "Scuttlebutt Dialectic Framework"
-      },
-      {
-        "link": "&DOzbd61NN0h3d3QTgokuXnA3KsJMxabGm4U2Yvqfx6c=.sha256",
-        "name": "example"
-      },
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mixmix"
-      },
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      },
-      {
-        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
-        "name": "andrestaltz"
-      },
-      {
-        "link": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519",
-        "name": "Luandro"
-      },
-      {
-        "link": "@0xkjAty6RSr5uhbAvi0rbVR2g9Bz+89qiKth48ECQBE=.ed25519",
-        "name": "SoapDog (SPX)"
-      },
-      {
-        "link": "@lOUVT+Phkvai9a/cCS/RKo+S9hnPAQdVixms/7ldpPA=.ed25519",
-        "name": "cel-desktop"
-      },
-      {
-        "link": "#ssbc"
-      },
-      {
-        "link": "#ssb-js"
-      },
-      {
-        "link": "#governance"
-      },
-      {
-        "link": "#maintainers"
-      }
-    ]
-  },
-  "signature": "R5p7E9+FQsYCsAgBIPjGl0ArXOGId38fr2z+y6AbygxvbjH0AZKi4q96ZrFSM7UzR8kYdbmbGDZl9S/S0skUCw==.sig.ed25519"
+  "content": "iPIhE+LjDUSgXF+H97KlOB1C4zuO5lXle69STOLFNYI5503zp9RXqCauz5nfxchi30rKy2lgjhwC1A4D0FKVb7PF0CoOABPD+5CAobms6WT0qsCaYciJUhaS5Knhsb7dLrjetF4B8xULUKQ8m7Qu3i8DEcERpxa6aV4fW7ADna4kcKTA1jTXK+eH1jIY0eNFDUsC/hNn/LBao3V1qMFC6aDUUa4Qf/HsHYmSmbBF1RCFHSEMrgM8K+H9HPPd08gvaGcgRqSbGK/4ekHxLute6opgSCWWD8OZ4Ba5VfjD09YrrxmDuRj1lKVwWlqll3Af3RQoETKcyLbj+a/ETnDxaRRhQbQSuJl7mk/OTcsmiDKB5FFl5ouHe4J491Ui9he1zpu7xK9PcAUpEui38CCc/A6xssupcurXKL3hvfVSWDIR6p386kw+pgHMgurTYRlMwP1Ik+F3Ss982FBVtZYx+Q6XkS7C2JMOLZyrIaqULqb/dzq/lRTuoCevbRgawa+nA8WtWKDmWSSLziiRRN266FVmc7TW5m84eltlNbHRyDzfK5/6b6rRxSPRHRYhTV5bP9znXgacCwAXDzY7dMCn2DkZSVXd2Eye0L+dPKPV13j/+hn4cCLq9vQ1Cg1Rh96J15sMXz6gLk7hf2k3L4gYSD3YzxyGfzjqv1kgl6msJ+M6u1c319cyA8Lbsa9d8bXX/0dANBJTkaJBx+TvgMTkS92KuhnIn4SStr2dyCNmLbokJi+Rhl4liZwOwA2slFXZLqY2NzsOcMg8h2hseN208O879yOxqQtu4g8YkIubocePnhk1CY8IIpxM1BgfvNvRInH+c68MUrprHafBvukWW1gfUisGIMX4CEdebAw3o8VTHWMz4nQsdlr5X344MmVqu5xcDvI2NY8csMMkj1HMVHTNdc+/TPDwwqQsRnCMGgyVzRMD5+drip6Pf31UW2a5jo8nWpLUXXCW1OTCD1279ZHiLIL84jMfQDuo9FdpI8y9YawhLHOKFT17snepq8FxYoif9gvZqZ2PFFLTJryLkg==.box",
+  "signature": "nKGAZPkjjVH+534TkjxIIWSwvllbF+LRJofFVTkBMB5QHnUHM0yOAZRIwlYn7rNBAmnwrdCJ9jlrGWSRWTAgCg==.sig.ed25519"
 }
