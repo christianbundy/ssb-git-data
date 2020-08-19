@@ -1,18 +1,22 @@
 {
-  "previous": "%sdqJzP5QkG5B+elY+0Nr9y0no7o0mfnsk9AxpzcUJv0=.sha256",
-  "sequence": 18523,
+  "previous": "%C5dRc/jq4vY9qhASL6DVufNqWb/9j78cjasam3KGXiM=.sha256",
+  "sequence": 18524,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1597853701136,
+  "timestamp": 1597877878891,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%sTBz/Das2eGjTSURY8ffG0jp2Bvj9zLPPIkQ2GtWTqo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "🌠\r\n\r\nThanks for the feedback everyone! I've been doing lots of spelunking through our stack and I have a proposal for which modules I think we should start with:\r\n\r\n- **Chloride** -- Cryptography for Node.js and browsers.\r\n- **Multiserver** -- Extensible network protocol framework.\r\n- **MuxRPC** -- Multiplexed remote procedure call framework.\r\n- **SSB-Keys** -- Cryptography helpers for signatures and encryption.\r\n- **SSB-Ref** -- Reference parsing helpers for SSB.\r\n\r\nI'm proposing these modules after taking our current stack and writing the smallest possible SSB implementation that conforms to the [the SSB protocol](https://ssbc.github.io/scuttlebutt-protocol-guide/). Looking at the dependency graph, I've kept only non-trivial dependencies that belong to the SSBC, Dominic Tarr, or Audit-Driven Crypto namespaces (i.e. not FlumeDB or Pull-Stream).\r\n\r\n![Dependency graph of SSB modules showing only five modules with multiple dependents](&r4bkliutUssBVIUPoikPfb1UFs603KfY/pI90uqBzx8=.sha256)\r\n\r\nThese five modules stand out to me as **modules with a variety of dependents**, which end up forming the foundation that the rest of the modules depend upon heavily. **I'm looking for feedback on how maintainers feel about starting with these.** I've been tempted to start with more modules, but I think it'll be easy to add more in the future as they become obvious. It's easy to make commitments and hard to get rid of them.\r\n\r\nSpeaking of commitments:\r\n\r\n> I think decision power should rest in the hands of those actively maintaining the stack.\r\n\r\nI think this is a great place to start. Assuming the modules I've suggested aren't too controversial, I think it would be wise to identify who the 'founding maintainers' should be and which processes they can use to add/remove modules/members. Even something like \"we have a repository with the member list and ground rules and patches don't get merged without 2/3 approval\" would be fine by me, but I'm open to suggestions on this front as well.\r\n",
+    "mentions": [
+      {
+        "link": "&r4bkliutUssBVIUPoikPfb1UFs603KfY/pI90uqBzx8=.sha256",
+        "name": "Dependency graph of SSB modules showing only five modules with multiple dependents"
+      }
+    ],
+    "root": "%7825cJNlgYXz1zHeqSEdrMAiWE/bXP0fg6MzN4ujACw=.sha256",
     "branch": [
-      "%sBtSdQ7W1cJ2Hf/ZoA3Bn4RkkCGdj8WNZMgO9P6uqpk=.sha256"
+      "%OOTbHDjTTGfqKmNxeQ+ts9PjxLttVV+Yp37XJgUaxTE=.sha256"
     ]
   },
-  "signature": "BIKZA+mA2/0kuEDFFMVIqxOrOIOqN0WCXVmwuKLdivosEA6aC3OTK6FBxIfLNjcrD1HGo44T4CDybJ70VS6pCw==.sig.ed25519"
+  "signature": "Rg2syuBGUy6GcUVOCKGXLMSLHtV79/I0ciX4wkAP5ffX6biFUR0hbL6E0qFkw9PRMpLXTzODKSg1/3h0pApyBw==.sig.ed25519"
 }
