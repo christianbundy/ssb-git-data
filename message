@@ -1,22 +1,26 @@
 {
-  "previous": "%C5dRc/jq4vY9qhASL6DVufNqWb/9j78cjasam3KGXiM=.sha256",
-  "sequence": 18524,
+  "previous": "%9xgAWR/zTKyH84dOqbZzVkFNcj4Y/KylWx6ETeZczQU=.sha256",
+  "sequence": 18525,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1597877878891,
+  "timestamp": 1597949181560,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "🌠\r\n\r\nThanks for the feedback everyone! I've been doing lots of spelunking through our stack and I have a proposal for which modules I think we should start with:\r\n\r\n- **Chloride** -- Cryptography for Node.js and browsers.\r\n- **Multiserver** -- Extensible network protocol framework.\r\n- **MuxRPC** -- Multiplexed remote procedure call framework.\r\n- **SSB-Keys** -- Cryptography helpers for signatures and encryption.\r\n- **SSB-Ref** -- Reference parsing helpers for SSB.\r\n\r\nI'm proposing these modules after taking our current stack and writing the smallest possible SSB implementation that conforms to the [the SSB protocol](https://ssbc.github.io/scuttlebutt-protocol-guide/). Looking at the dependency graph, I've kept only non-trivial dependencies that belong to the SSBC, Dominic Tarr, or Audit-Driven Crypto namespaces (i.e. not FlumeDB or Pull-Stream).\r\n\r\n![Dependency graph of SSB modules showing only five modules with multiple dependents](&r4bkliutUssBVIUPoikPfb1UFs603KfY/pI90uqBzx8=.sha256)\r\n\r\nThese five modules stand out to me as **modules with a variety of dependents**, which end up forming the foundation that the rest of the modules depend upon heavily. **I'm looking for feedback on how maintainers feel about starting with these.** I've been tempted to start with more modules, but I think it'll be easy to add more in the future as they become obvious. It's easy to make commitments and hard to get rid of them.\r\n\r\nSpeaking of commitments:\r\n\r\n> I think decision power should rest in the hands of those actively maintaining the stack.\r\n\r\nI think this is a great place to start. Assuming the modules I've suggested aren't too controversial, I think it would be wise to identify who the 'founding maintainers' should be and which processes they can use to add/remove modules/members. Even something like \"we have a repository with the member list and ground rules and patches don't get merged without 2/3 approval\" would be fine by me, but I'm open to suggestions on this front as well.\r\n",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nThose are great suggestions, I'll add them to the list.\r\n\r\n[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> What does “starting” mean? Just moving it to a GitHub org? Or more?\r\n\r\nPerfect question! Here's a hyper-specific proposal -- it's a draft that **will not go into effect** unless we have **public unanimous consent** from each proposed maintainer.\r\n\r\nhttps://github.com/ssb-js/ssb-js/pull/1\r\n\r\nTL;DR: Let's agree to maintain 7 projects between the 5 people who have contributed to those modules since 2019:\r\n\r\n- [multiserver](https://github.com/ssbc/multiserver/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @arj03, @christianbundy\r\n- [muxrpc](https://github.com/ssbc/muxrpc/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @christianbundy, @arj03\r\n- [chloride](https://github.com/dominictarr/chloride/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- 🦗🦗🦗\r\n- [ssb-ref](https://github.com/ssbc/ssb-ref/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @mixmix\r\n- [ssb-keys](https://github.com/ssbc/ssb-keys/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @christianbundy, @mixmix\r\n- [secret-stack](https://github.com/ssbc/secret-stack/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @staltz, @mixmix\r\n- [ssb-validate](https://github.com/ssbc/ssb-validate/graphs/contributors?from=2019-08-20&to=2020-08-20&type=c) -- @christianbundy, @arj03\r\n\r\nThe governance document is open to pull requests from anyone, which means that anyone can get involved in governance without being an active project contributor. On the other hand, people who *do* get consistently involved in these projects will be invited to become maintainers. This list of projects and maintainers is a seed that we can start with, but the entire point that it will grow and ensure its own succession.",
     "mentions": [
       {
-        "link": "&r4bkliutUssBVIUPoikPfb1UFs603KfY/pI90uqBzx8=.sha256",
-        "name": "Dependency graph of SSB modules showing only five modules with multiple dependents"
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      },
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
       }
     ],
     "root": "%7825cJNlgYXz1zHeqSEdrMAiWE/bXP0fg6MzN4ujACw=.sha256",
     "branch": [
-      "%OOTbHDjTTGfqKmNxeQ+ts9PjxLttVV+Yp37XJgUaxTE=.sha256"
+      "%pMLZwmXZTC2oikJtT24k2NNk+99NsYYYYNDnknf9CGI=.sha256"
     ]
   },
-  "signature": "Rg2syuBGUy6GcUVOCKGXLMSLHtV79/I0ciX4wkAP5ffX6biFUR0hbL6E0qFkw9PRMpLXTzODKSg1/3h0pApyBw==.sig.ed25519"
+  "signature": "btxh+pFfM6qgw0efq2jP/lIXi3ruFAwTsVWjYZLZ8+gZpZ2Fv8ryj14ynKVka+TZR2Q0qtMeO091Ron46jaSBQ==.sig.ed25519"
 }
