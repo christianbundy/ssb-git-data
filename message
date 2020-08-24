@@ -1,26 +1,17 @@
 {
-  "previous": "%t9sPPkj8LEuGV6XU3qxrFcmufBMTyq1YkcdmFDkRx7E=.sha256",
-  "sequence": 18530,
+  "previous": "%UmHLZuHLDjGgcXbrhJ3bFb08QfvReu7JOvYRRzA1x3c=.sha256",
+  "sequence": 18531,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598286051155,
+  "timestamp": 1598286094508,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nHey, great question!\r\n\r\nThose rules are basically an extension of:\r\n\r\n> Maintainers SHOULD NOT merge their own pull requests.\r\n\r\nThe 'maintainer' role is just a hat you wear while doing maintainer activities (e.g. code review), but any changes you propose should be reviewed and approved by someone else.\r\n\r\nIf there's a blocking concern during code review then a maintainer should explain why it can't be merged, but if you make suggestions about non-blocking changes you're basically circumventing the review process by asking someone to make changes for you and then approving them yourself. You might as well just push commits directly to their branch, in which case you might as well make your own branch and open a pull request. \r\n\r\nOpinion: This results in a friendly and accessible development process where expectations are clearly defined in automated tests. If you're solving problems and passing tests you should be reasonably confident that a maintainer will say \"thanks for the patch\" and merge it. This forces maintainers to encode their opinions in tests that you can see (and change!), instead of hitting the invisible wall of \"I would've done this differently\" with [lots of discussion](https://github.com/pulls?q=is%3Apr+user%3Assbc+sort%3Acomments-desc+).\r\n\r\nI feel very strongly that pull requests should focus on checking the code for blocking concerns -- maintainers who want to make improvements should open their own pull requests. Opening a pull request can often feel like a trip to the dentist, and I think we should keep them as quick and friendly as possible rather than making unnecessary suggestions (\"your teeth look fine but your haircut isn't very flattering -- here's what I would do...\").\r\n\r\nMaybe useful context: https://github.com/pulls?q=is%3Apr+user%3Assbc+sort%3Acomments-desc\r\n\r\n> PRs are basically the only time i ever get (remote) code review and grow from having gaps in my process or knowledge filled in by peers\r\n\r\nI touched on this a bit in %6D/LS4Ucs30W4fsyVmNCIBIRLnrHzMInGFNCzNwLgPI=.sha256, but I think it's polite and helpful to CC the original author when opening a PR to improve their work. If they're interested (!) they have the option of reading your improvements code and participating in the discussion, but you're opening the conversation as a peer contributor rather than as an authority while wearing your 'maintainer' hat.\r\n\r\nSuper happy to continue discussing this, thanks for opening the thread!",
-    "mentions": [
-      {
-        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
-        "name": "cblgh"
-      },
-      {
-        "link": "%6D/LS4Ucs30W4fsyVmNCIBIRLnrHzMInGFNCzNwLgPI=.sha256"
-      }
-    ],
+    "text": "oops, included the same link twice 🤦",
+    "mentions": [],
     "root": "%9TGNIbIqh4MUk7zQAhHETld5ynebiimHE3pdJgU/vWg=.sha256",
     "branch": [
-      "%28NWrbqZWFstQSZAruYvml+4HMGGLqeWlfL+/3mbXqA=.sha256",
-      "%a4B2QlGq8jhihalKbY61iecP/zCtlvnkjk8KXj52YlA=.sha256"
+      "%UmHLZuHLDjGgcXbrhJ3bFb08QfvReu7JOvYRRzA1x3c=.sha256"
     ]
   },
-  "signature": "f+UyWoOSqAelXC/YJQAu9/XbARma1tTogXcglYYprELzG9cdgWurikoR6p5ug0tsSO4ZntTJUACVm5rJXWNfCQ==.sig.ed25519"
+  "signature": "X//2a/0GT1f/HtEb/Sa8JcCITicgPIwtlssYuqlkybpzZ7QcHXhqnf7gzWscBUOolWR8EcOWh5UEFaKvuh9jCg==.sig.ed25519"
 }
