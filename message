@@ -1,22 +1,18 @@
 {
-  "previous": "%Ct9HuZfnnQLkrxC6GDAi+g0AE4/R7wUgyRBqnHJOeBw=.sha256",
-  "sequence": 18538,
+  "previous": "%ppika9NtRNqVZuscHcU9x1oxco03VR4Gy3bThtpOXJ4=.sha256",
+  "sequence": 18539,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598372932436,
+  "timestamp": 1598372936496,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@mixmix](@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519)\r\n\r\nYes! I'm especially excited to have this stuff written down because we can point to it and change it when we come up with a better idea.\r\n\r\n> after we’ve tried it for X months\r\n\r\nI think this is a really good idea, and I've been considering adding an expiration date to individual rules (and/or the entire agreement). I didn't do this because it added complexity to the original agreement, but I'd be interested to have language like:\r\n\r\n> All maintainers MUST have a cat profile photo through 2020.\r\n\r\nWhen 2021 gets close we could renew the rule or let it die off, which might be nice for experimental rules where I'm okay trying it but I don't want 2/3 support to remove it later. I love the number of switches and knobs you can add to agreements, but it's *so* easy to accidentally add heaps of complexity for questionable utility.",
-    "mentions": [
-      {
-        "link": "@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519",
-        "name": "mixmix"
-      }
-    ],
-    "root": "%9TGNIbIqh4MUk7zQAhHETld5ynebiimHE3pdJgU/vWg=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%+wLvzSzs474FgcyuWGI0YVkpMrsX6yACyWrSxjgNGN0=.sha256",
+      "value": 1
+    },
     "branch": [
       "%+wLvzSzs474FgcyuWGI0YVkpMrsX6yACyWrSxjgNGN0=.sha256"
     ]
   },
-  "signature": "UPb4M3QQHr6mfE3Lgr8UVY6sGFZ2gYlyLst+BC+63iSr6MhZvzZQD/NfI/sIoKq5Mw2svhKEk2zne67IfTCFDw==.sig.ed25519"
+  "signature": "CfouybgaPhuyKAj3weDtEIzDzIlDK5tOZW8guTgal3XV3FLFCt0SGT9zu/sAsNgRdmEijmpW75jp2LK9FwNmAw==.sig.ed25519"
 }
