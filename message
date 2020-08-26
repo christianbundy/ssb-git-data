@@ -1,22 +1,22 @@
 {
-  "previous": "%xCOW6zd6+meFDcGhePATfOeaqEyCin5NDSlA0X7DvF0=.sha256",
-  "sequence": 18545,
+  "previous": "%BdVhUSCzdiuIgFkWOP+aIYxxgSDfAu81sQf0caEIyEg=.sha256",
+  "sequence": 18546,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598477348258,
+  "timestamp": 1598482136579,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@Rabble](@0uOwBrHIeiRK7lcvpLwjSFkcS3UHSQb/jyN52zf+J6Y=.ed25519)\r\n\r\nYou might be pleasantly surprised by `oasis --public`.",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> [...] I would recommend not pushing for it universally across ssb-js, because it’s a more controversial opinion.\r\n\r\nI agree that the SSB-JS rules should be as uncontroversial as possible, that's why I proposed that rules require a super-majority of consent.\r\n\r\nAnyway, it's true that I let a \"this should never happen\" debug statement fall through the cracks and it made it into a pull request -- sorry about that. I agree that squashing it before making a pull request would've been the right move.\r\n\r\nOn the other hand, once a pull request has been opened I think we should decide between two options:\r\n\r\n- It's a net positive and we should merge it.\r\n- It's a net negative and we should request changes.\r\n\r\nSure, it's a fuzzy decision, but I think \"it's a net positive and we should request changes\" is an overwhelming drain on all participants, especially if we're applying rules that haven't previously been written down or applied.\r\n\r\nAside: I want to be explicit that I'm fine with local interactive rebase. The squashing I don't like is when maintainers hit \"squash and merge\" and nuke your commit history. My problem with \"rebase and merge\" is similar, I've spent too much of my life running `git bisect` and having a proper merge base makes my job easier. It also matches the reality (that these patches came in together) and lets you see who did the merge and in what context.\r\n\r\n> But IMO a reviewer should require that the PR does not do valid=>invalid transitions, not even valid=>invalid=>valid.\r\n\r\nThat would be an ideal commit history, but what does it cost? My experience is that many developers struggle with the basics of Git, and if they left in a \"this should never happen\" debug statement removed in a later commit I can't imagine them asking to do an Git gymnastics to fix it. Not to mention the maintainer responsibility of testing each individual commit...\r\n\r\nWe have to decide what our standards are and then apply them. I think \"it passes existing tests and is net positive\" is a good balance between simplicity and purity, but if you disagree *please* propose something else. The initial agreement isn't an immutable gospel, it's just the best I could come up with in the time I had. All of us are smarter than any of us, and I'm sure it will improve over time.\r\n\r\n> For instance, you say that the reviewer should only check whether the change would break tests, or break explicitly-defined expectations in general. What about an instance where, e.g., the PR changes the code style (from standard to something else) for all files?\r\n\r\nI wouldn't merge vast code style changes unless there was agreement that the previous style was a problem and that this solution was a net positive.",
     "mentions": [
       {
-        "link": "@0uOwBrHIeiRK7lcvpLwjSFkcS3UHSQb/jyN52zf+J6Y=.ed25519",
-        "name": "Rabble"
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
       }
     ],
-    "root": "%jQ3O99O1p9ozUqLj9BVA4lwLzYcFiamn/bAJSgaWEJk=.sha256",
+    "root": "%9TGNIbIqh4MUk7zQAhHETld5ynebiimHE3pdJgU/vWg=.sha256",
     "branch": [
-      "%DQBT8XKgVGy2oJU3mlO+y34potu8dslveE0c47YLvK0=.sha256"
+      "%YeZvdvUxmUSf9+Zh3h4rnrh+AFqWtqPClrc9YJOqlE4=.sha256"
     ]
   },
-  "signature": "tl7mJ1plhTJVrq16YjPsh2pYZdLDag45XZiOiSdh5D93G0UBiRdbIG2Nk6OV8erO08dP8y0fpUu3WbL0PlyfCQ==.sig.ed25519"
+  "signature": "GXlpBXnokgoXafCeqtyVzOTX5YxoPixzQBz8c4uUgxLUCtr+Rpl4RKsEb/SyG+l0+odIOT1LOMKVLB+lQgigBg==.sig.ed25519"
 }
