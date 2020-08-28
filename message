@@ -1,18 +1,17 @@
 {
-  "previous": "%UAGfs8DYsceHd5Oprbf+ASyBhr59qnX1aJID+iGkOG0=.sha256",
-  "sequence": 18568,
+  "previous": "%OBv7WTZxcSVfBPaaUfsDaGUIcONOZfYTkua3MHZsZA0=.sha256",
+  "sequence": 18569,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598633934170,
+  "timestamp": 1598638651873,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%eO/K0S9hmHcIMft4Sbp7s65P5NH12O5F+c0pDAii0EM=.sha256",
-      "value": 1
-    },
-    "branch": [
-      "%eO/K0S9hmHcIMft4Sbp7s65P5NH12O5F+c0pDAii0EM=.sha256"
+    "type": "post",
+    "text": "I've been having connection problems for a few days and I just took a look at `conn.json` -- only 3 peers, none of them online. Luckily I uploaded my `conn.json` [here](https://github.com/ssbc/patchwork/issues/1305) so I could download it and start peering again.\r\n\r\n#ssb-dev",
+    "mentions": [
+      {
+        "link": "#ssb-dev"
+      }
     ]
   },
-  "signature": "/TfET/7U4Y/K8oKexL/sGqhlYGwtNIlYNAKiHt/JUqIRpOp+TAcDo3YcmF6rkrHglY90RCliJlH3Mh4+UGldDQ==.sig.ed25519"
+  "signature": "7AsZsfkdfBQtPEg7yIHGnuqZMjuZ6o0MvdsESDrOJm7glOtatNgzrzDIL2pKZwf9R5AdQoi7HOQf1qdjW2RGCw==.sig.ed25519"
 }
