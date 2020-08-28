@@ -1,18 +1,22 @@
 {
-  "previous": "%emR0p5VXCoyUKu7Ue0EGE3QOn/FXBP/6EgxNa40B7Ac=.sha256",
-  "sequence": 18564,
+  "previous": "%XRewGfwVctPe8Hzbqim0OoViRnwm6O2msiIBsbTq1qk=.sha256",
+  "sequence": 18565,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598628564371,
+  "timestamp": 1598629095480,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%L2KLG0fI2FtIqLZVXvxxD/eMA4KwaloMUYfT5jcZ9lk=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nSo exciting! This is really awesome. I was just reading through your voting process and saw this part:\r\n\r\n> As soon as there is any ! vote, the current proposal is put on hold, and the counter-proposal in the ! vote should be listened to, and voted on like any other proposal. All proposals have the same voting process, so that it's possible to have a chain of !, and along this chain, the original proposal is refined until everyone is satisfied.\r\n\r\nTechnical question: what happens in a case like this?\r\n\r\n- **Proposal** -- The sky is blue.\r\n- **`!` Counter-proposal** -- The sky is red.\r\n\r\nIs there a way to just say 'no' to the counter-proposal, or would you have to counter-counter-propose that the sky is, in fact, blue? I know that in reality we're dealing with reasonable humans operating in good faith, but it tickled my brain and so here we are.",
+    "mentions": [
+      {
+        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
+        "name": "arj"
+      }
+    ],
+    "root": "%wBWXSq/+C0/iK7UCfpQH53KGdVngTkqWzebeb6dEi2Q=.sha256",
     "branch": [
-      "%L2KLG0fI2FtIqLZVXvxxD/eMA4KwaloMUYfT5jcZ9lk=.sha256"
+      "%hSA6iGZfOHkjpswhMd+1LqidithBcR9zJl2niOtpqEo=.sha256"
     ]
   },
-  "signature": "gx5LSPB2DQQ7dM0oRC4+ztEyvJytAJO7ktsqJZY3A8pPOHgkN5MT18XfG5YlTVkqj6taUFPXcue77QgFTEv4Cg==.sig.ed25519"
+  "signature": "9Op2LD5k55tQNDIDR35sTs6qFlje7uPsFxcbFqLfus018O9CibO1TSewdZyX199F2ddr+RycWolKdnywhSlBCA==.sig.ed25519"
 }
