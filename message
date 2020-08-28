@@ -1,22 +1,18 @@
 {
-  "previous": "%XRewGfwVctPe8Hzbqim0OoViRnwm6O2msiIBsbTq1qk=.sha256",
-  "sequence": 18565,
+  "previous": "%+8uoSHmfISIA1getRWoZSfKVKT2knaFKdTqjNs0CYyY=.sha256",
+  "sequence": 18566,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598629095480,
+  "timestamp": 1598632888693,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@arj](@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519)\r\n\r\nSo exciting! This is really awesome. I was just reading through your voting process and saw this part:\r\n\r\n> As soon as there is any ! vote, the current proposal is put on hold, and the counter-proposal in the ! vote should be listened to, and voted on like any other proposal. All proposals have the same voting process, so that it's possible to have a chain of !, and along this chain, the original proposal is refined until everyone is satisfied.\r\n\r\nTechnical question: what happens in a case like this?\r\n\r\n- **Proposal** -- The sky is blue.\r\n- **`!` Counter-proposal** -- The sky is red.\r\n\r\nIs there a way to just say 'no' to the counter-proposal, or would you have to counter-counter-propose that the sky is, in fact, blue? I know that in reality we're dealing with reasonable humans operating in good faith, but it tickled my brain and so here we are.",
-    "mentions": [
-      {
-        "link": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519",
-        "name": "arj"
-      }
-    ],
-    "root": "%wBWXSq/+C0/iK7UCfpQH53KGdVngTkqWzebeb6dEi2Q=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%d1QWPC8ObLUGRWFMxzOX8f1Yc/IL2qRgoN2K8swI9kA=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%hSA6iGZfOHkjpswhMd+1LqidithBcR9zJl2niOtpqEo=.sha256"
+      "%d1QWPC8ObLUGRWFMxzOX8f1Yc/IL2qRgoN2K8swI9kA=.sha256"
     ]
   },
-  "signature": "9Op2LD5k55tQNDIDR35sTs6qFlje7uPsFxcbFqLfus018O9CibO1TSewdZyX199F2ddr+RycWolKdnywhSlBCA==.sig.ed25519"
+  "signature": "leBSohCvnOomwFyBPWQ8Oawv3f8WQ7ms0DS2DuGW6/cs0P0eMYHfNletLxBcSjOVlqT+0r0BO8wxhM/Tz4fuAQ==.sig.ed25519"
 }
