@@ -1,22 +1,23 @@
 {
-  "previous": "%WAAa37e9rMW7LpEhdX4tsLU5h6vba1kwERxOfvx5Prc=.sha256",
-  "sequence": 18576,
+  "previous": "%8WECXfukLiP7jtsTggYD5P0i+UBa0eT3A3t1Pbjex8o=.sha256",
+  "sequence": 18577,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598895525213,
+  "timestamp": 1598911120306,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "🤦\r\n\r\n[&wWgnYdjVHvQA8EPfiBWwXuyo4M8CqPzlCslCAtI8l+I=.sha256](&wWgnYdjVHvQA8EPfiBWwXuyo4M8CqPzlCslCAtI8l+I=.sha256)",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\r\n\r\nAfter applying a workaround for the GCC bug I was able to bisect and found the buggy commit:\r\n\r\nhttps://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=8ec7d6043263ecf250b9b7c0dd8ade899487538a\r\n\r\nI've posted to https://mailman.alsa-project.org/pipermail/alsa-devel/ and CC'd the maintainers from Intel, hopefully they'll be able to help us come up with a fix (or merge a patch reverting the problematic refactor).",
     "mentions": [
       {
-        "link": "&wWgnYdjVHvQA8EPfiBWwXuyo4M8CqPzlCslCAtI8l+I=.sha256",
-        "name": "&amp;wWgnYdjVHvQA8EPfiBWwXuyo4M8CqPzlCslCAtI8l+I=.sha256"
+        "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
+        "name": "myf"
       }
     ],
     "root": "%uHtHKmeHDMvORsggPQS+QZzFW4VrsBznFTf3SfRAago=.sha256",
     "branch": [
-      "%+2lrxqFjExN4eQKd9ctlyBDxtuKizyDD7dqzNgNFaUw=.sha256"
+      "%6TsUKwK0mvOa6hAOjDUpMcLOXea+gIeD17D+P3mcGhc=.sha256",
+      "%8WECXfukLiP7jtsTggYD5P0i+UBa0eT3A3t1Pbjex8o=.sha256"
     ]
   },
-  "signature": "yRCRAluOTW35Vvit28eMWOJKAk0jRBW/Fro3535vpx3zEj+kXOyKCRuMgWj6ouSvriRou6TqOWBlx9Qqp3EDBw==.sig.ed25519"
+  "signature": "XH6/wJqJAbsN0Vi+/fzEujMvPVfzOUPSuqHwak5OgR5sFJmV7TtJcgE3OlYwwLcbQys5v4O97CiUjTHgJWU7DA==.sig.ed25519"
 }
