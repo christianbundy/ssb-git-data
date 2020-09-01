@@ -1,18 +1,22 @@
 {
-  "previous": "%TMkoI1VQ8zGkqcrLc81BxC1Iu0AH1jrmffy7r8akVq4=.sha256",
-  "sequence": 18586,
+  "previous": "%9ZPuQWM1rijLx66B7plqiDzqYi6n5RCpTYn2SV6L0yg=.sha256",
+  "sequence": 18587,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598985415642,
+  "timestamp": 1598985919075,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%WJh47zXlDwpj+IBiVIz8y1hl7BJs3/haJfyy9KzDSfQ=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "This was something that Cinnamon and I discussed *lots* while working on Oasis. It seems like there's a trade-off to be made between privacy and connectivity, which sucks. The solution I was most excited about was to use a DHT/relay/etc to only connect to your absolutely most trusted peers, relying on the magic of gossip to do the rest. To be honest I was inspired by how Animal Crossing has 'best friends', who have a few special privileges and are managed in a small private list. Opening a DHT with anyone you have a private message with seems dangerous, and I'd honestly be comfortable leaking my IP to very few people on here.\r\n\r\nPrevious similar thread: %MpMMb9pgSbhhUtsqGyXCssZx8XrAb3dlRHLtMhrvdb8=.sha256",
+    "mentions": [
+      {
+        "link": "%MpMMb9pgSbhhUtsqGyXCssZx8XrAb3dlRHLtMhrvdb8=.sha256"
+      }
+    ],
+    "root": "%O9lyJ8Lpfj8+earCxCsr+gpqfKgl73fr6/tIuW3Iid8=.sha256",
     "branch": [
-      "%WJh47zXlDwpj+IBiVIz8y1hl7BJs3/haJfyy9KzDSfQ=.sha256"
+      "%DQS7VKH0LckP53BfpxX1DWdrY2j8lpowucdpILyFURk=.sha256",
+      "%MnxLrde3QR6w0F3m0f0kJN4gldZYHKa3N4K1sg7FWo0=.sha256"
     ]
   },
-  "signature": "QJjMdTE9Y6ZiQLy5qFqCqqScsOgC2Jf/c2blPpJYPJH4R9NCzm/zdck5CtPj1c6ZOvHfqfkYxzcI4U9fOWw9Dg==.sig.ed25519"
+  "signature": "tICVUjGzk/MW3KDDRQN8u7tbbNlb+EWM8Y5bFzizrPb2QglXWsklNRQq1GTg9mlYHuePqFnmepNJq50HmW2zDw==.sig.ed25519"
 }
