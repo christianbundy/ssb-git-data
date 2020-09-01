@@ -1,12 +1,12 @@
 {
-  "previous": "%8WECXfukLiP7jtsTggYD5P0i+UBa0eT3A3t1Pbjex8o=.sha256",
-  "sequence": 18577,
+  "previous": "%Vj1X8TADrYyI8DT0G4BfjgrzhKKqTNqgY8+tsota+8E=.sha256",
+  "sequence": 18578,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598911120306,
+  "timestamp": 1598975929600,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\r\n\r\nAfter applying a workaround for the GCC bug I was able to bisect and found the buggy commit:\r\n\r\nhttps://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=8ec7d6043263ecf250b9b7c0dd8ade899487538a\r\n\r\nI've posted to https://mailman.alsa-project.org/pipermail/alsa-devel/ and CC'd the maintainers from Intel, hopefully they'll be able to help us come up with a fix (or merge a patch reverting the problematic refactor).",
+    "text": "[@myf](@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519)\r\n\r\nI think my email being caught in moderator review screwed up the thread representation, follow-ups are here: https://mailman.alsa-project.org/pipermail/alsa-devel/2020-September/173364.html\r\n\r\nIt looks like the commit is being reverted (🎉) and the fix will be back-ported to 5.8: https://mailman.alsa-project.org/pipermail/alsa-devel/2020-September/173391.html\r\n\r\nBisects are fun! The steps are generally:\r\n\r\n- `cd some-repo`\r\n- Tell Git you want to start a binary search for a problematic commit: `git bisect start`\r\n- Identify an old version of the code that doesn't have the bug: `git bisect good v5.7.12-arch1`\r\n- Identify a later version with a problem: `git bisect bad v5.8.1-arch1`\r\n- Git will tell you which commit is halfway between the two.\r\n- You should test that commit and then report back to Git with `git bisect good` (bug does not exist) or `git bisect bad` (this commit has the bug).\r\n- Eventually it'll narrow down the bug to a single commit and tell you what it was.\r\n\r\nThe 'test the commit' stuff was reasonably simple, I just got the PKGBUILD of linux (`asp export linux && cd linux`) and then edited the PKGBUILD so that I was testing whichever commit Git told me to. My PKGBUILD diff is just:\r\n\r\n```diff\r\ndiff --git a/trunk/PKGBUILD b/trunk/PKGBUILD\r\nindex f39cbf2e4..1de29b9aa 100644\r\n--- a/trunk/PKGBUILD\r\n+++ b/trunk/PKGBUILD\r\n@@ -1,10 +1,10 @@\r\n # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>\r\n \r\n pkgbase=linux\r\n-pkgver=5.8.5.arch1\r\n+pkgver=5.8.42.arch1\r\n pkgrel=1\r\n pkgdesc='Linux'\r\n-_srctag=v${pkgver%.*}-${pkgver##*.}\r\n+_srctag=8ec7d6043263ecf250b9b7c0dd8ade899487538a\r\n url=\"https://git.archlinux.org/linux.git/log/?h=$_srctag\"\r\n arch=(x86_64)\r\n license=(GPL2)\r\n@@ -52,6 +52,7 @@ prepare() {\r\n \r\n   echo \"Setting config...\"\r\n   cp ../config .config\r\n+  yes \"\" | make localmodconfig\r\n   make olddefconfig\r\n \r\n   make -s kernelrelease > version\r\n@@ -61,7 +62,6 @@ prepare() {\r\n build() {\r\n   cd $_srcname\r\n   make all\r\n-  make htmldocs\r\n }\r\n \r\n _package() {\r\n@@ -188,7 +188,7 @@ _package-docs() {\r\n   ln -sr \"$builddir/Documentation\" \"$pkgdir/usr/share/doc/$pkgbase\"\r\n }\r\n \r\n-pkgname=(\"$pkgbase\" \"$pkgbase-headers\" \"$pkgbase-docs\")\r\n+pkgname=(\"$pkgbase\" \"$pkgbase-headers\")\r\n for _p in \"${pkgname[@]}\"; do\r\n   eval \"package_$_p() {\r\n     $(declare -f \"_package${_p#$pkgbase}\")\r\n```\r\n\r\nThere are some nice guides on bisecting from a few different places:\r\n\r\n- Arch -- https://wiki.archlinux.org/index.php/Bisecting_bugs_with_Git\r\n- Gentoo -- https://wiki.gentoo.org/wiki/Kernel_git-bisect\r\n- Linux -- https://www.kernel.org/doc/html/latest/admin-guide/bug-bisect.html",
     "mentions": [
       {
         "link": "@GLH9VPzvvU2KcnnUu2n5oxOqaTUtzw+Rk6fd/Kb9Si0=.ed25519",
@@ -15,9 +15,8 @@
     ],
     "root": "%uHtHKmeHDMvORsggPQS+QZzFW4VrsBznFTf3SfRAago=.sha256",
     "branch": [
-      "%6TsUKwK0mvOa6hAOjDUpMcLOXea+gIeD17D+P3mcGhc=.sha256",
-      "%8WECXfukLiP7jtsTggYD5P0i+UBa0eT3A3t1Pbjex8o=.sha256"
+      "%u6gDzVjmymeFJyDE8DGjPDXZcYK6WJNIQKn1LNi/aHs=.sha256"
     ]
   },
-  "signature": "XH6/wJqJAbsN0Vi+/fzEujMvPVfzOUPSuqHwak5OgR5sFJmV7TtJcgE3OlYwwLcbQys5v4O97CiUjTHgJWU7DA==.sig.ed25519"
+  "signature": "u/atoZ9eLgGoj6Up4pSLDdFHoZN7NhxXz+7FoesMm8p0LBWSKrgkQOgZimR85IjcBA0Tp4KebDPOlcB/6eyPAg==.sig.ed25519"
 }
