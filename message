@@ -1,18 +1,22 @@
 {
-  "previous": "%AnUwMF3jfNQydIhJVVWXFof/9bCnss9QYqP0+usOyz4=.sha256",
-  "sequence": 18579,
+  "previous": "%epQaRW7bxWAxnFlfsUYxOWLbEfRMXPD17Vt4NMrOSw0=.sha256",
+  "sequence": 18580,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598976364983,
+  "timestamp": 1598980876123,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%D0f6bi5TlHkRsta4vqp2v8hnM1rENz0tcxFsV/zyXLg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz_phone](@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519)\r\n\r\n> But I’m surprised that those are practices you are against.\r\n\r\nI want to be very specific: I don't like them, but I'm not proposing governance that prevents *you* from doing it. The only rules that I've proposed were to say ~\"please don't ask contributors to make small changes about non-blocking issues\".\r\n\r\nMaintainers are welcome to squash contributor commits, or propose new patches, but I don't think that maintainers should ask that a contributor makes small changes to a patch that net improves the project.\r\n\r\n**Value**: I want contributing to be a fun and accessible experience, and I believe that people learn best through clearly defined expectations and positive experiences -- *not* through nit-picking and unpredictable goalposts.\r\n\r\n> because the commit history in GitHub (and GitLab) is linear, it doesn’t play well with merge commits, you have to do some guessing what commits where “inside” what merge commits\r\n\r\nThe 'commits' page is a linear representation, but the commit history for most projects is *not* linear. You can view the graph with `git log --oneline --graph` or just look at GitHub's 'graph' page for the repo (e.g. https://github.com/ssb-js/ssb-ref/network).\r\n\r\nImagine you do a `git bisect` and you find a commit that introduces a bug. The three scenarios:\r\n\r\n- **Merge** -- You know the entire chain of parent commits, provenance metadata, and the exact moment that it was merged into 'main' (and who did it). You can be sure that the tree you're seeing is the tree from the original commit.\r\n- **Squash-n-merge rebase** -- You know the parent commits, but have lost internal branch history. (Sometimes this is good, but often a patch is multiple independent changes.) If the original patch was 10 commits of equal size, then the commit you've identified has a diff that's 10x bigger than it needs to be. Finding the bug is *at least* 10x harder because you can't narrow it down using the original patches. Also commit IDs have all been changed.\r\n- **Rebase onto 'main'** -- The parent commits have been fabricated, your internal branch history has been fabricated (although the commit messages are still there), and you have no confidence that the tree you're seeing is the tree that was committed. Your diffs aren't bigger, but they're untrustworthy because of the nature of rebase merges.\r\n\r\nObligatory appeal to Linus, who has more Git experience than most/all people on Earth: https://yarchive.net/comp/linux/git_rebase.html\r\n\r\n(If you haven't seen this before, I'd read the top few  emails and then skip around the page if you feel like reading more.)\r\n\r\nI'm excited and optimistic about SSB-JS maintenance work, and don't really want to argue about the few things we disagree about unless they're causing friction. If you want to chat about Git and compare different strategies I'm *so* down, but I don't want to blur the line between casual conversation and formal SSB-JS policy proposals.",
+    "mentions": [
+      {
+        "link": "@+UMKhpbzXAII+2/7ZlsgkJwIsxdfeFi36Z5Rk1gCfY0=.ed25519",
+        "name": "andrestaltz_phone"
+      }
+    ],
+    "root": "%9TGNIbIqh4MUk7zQAhHETld5ynebiimHE3pdJgU/vWg=.sha256",
     "branch": [
-      "%KKPVPh0HbL31oNqMAiSbdDcE3IKu2NgyBxFm7jWvZcg=.sha256"
+      "%IyBd9ZpWayptYGMoKhYA9Pu+EljzKdxIqSizC2cj4eQ=.sha256"
     ]
   },
-  "signature": "qo3I7RI0WWZS7lkfkBRdkctFDAjSk2EIlyiVvwrEJChMin5fnKH+FdGgs0M5QQ+CSr3oWMhOsYF7quPjwEseCg==.sig.ed25519"
+  "signature": "LtooTOI5AOf2LLLZA0Qkwfkz9ztkd3VRdMYCt1ZELm2+Y8TpW1txwV+nMDKgAH91ljJye1Xg/AcMeAZAIjhQBQ==.sig.ed25519"
 }
