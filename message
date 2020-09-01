@@ -1,18 +1,22 @@
 {
-  "previous": "%G7wTAoJ7tcy+aYF/OWmgLtA7N/kP2I3YX0+FrEFwvig=.sha256",
-  "sequence": 18581,
+  "previous": "%3sv7vm3ta+QhKtOLkRfBUy1969maZyFfUzFvC7ZMYQY=.sha256",
+  "sequence": 18582,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1598982673066,
+  "timestamp": 1598984270639,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%50EtwI/zcNiUH+EVtjSiX0xlTGr6aPGI/qR7SX63uTo=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@cblgh](@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519)\r\n\r\nHi!\r\n\r\nThe project started as 'make Oasis actually usable' which quickly turned into Cinnamon and I spending dozens of hours inspecting and discussing both the SSB protocol and the reference implementation. I burned out on the 'Mozilla Spring Labs' thing, and Cinnamon poured their remaining energy into Earthstar, which I'm very excited about.\r\n\r\nI started Oasis with some skepticism of the reference implementation, FlumeDB, Secret-Stack, MuxRPC, etc., but after taking 8 weeks to deep-dive everything and look at the consequences for user onboarding and maintainability I'm optimistic that we'd be better off with a lot less. This has made it hard to get excited about improving Oasis, which is deeply intertwined with the conventional SSBC stack.\r\n\r\nA few days ago I tried to aggressively update all of the Oasis dependencies, but there seem to be problems where mentions and names don't work anymore. I wish I had the time to debug, but I've been staying off my computer during nights and weekends to try to save some mental health.\r\n\r\nI'm still using Oasis as my daily driver, and it's still taking care of most of my needs (TODO: blob upload), but given my limited time spent computing I'm probably going to prioritize \"how simple can SSB get\" experiments rather than adding more layers to the SSBC stack.\r\n\r\nThanks again for a great question -- I think this is something I've wanted to talk about, but didn't want to give it the gravity of an announcement post since I don't have much to announce.\r\n\r\n🖤🖤🖤\r\n\r\nP.S. I strongly agree that single clients are a huge anti-pattern. Recently I've been working on porting some cryptography methods from C to JavaScript and I'm blown away with how easy it is to port [libsodium code](https://github.com/jedisct1/libsodium/blob/master/src/libsodium/crypto_box/crypto_box_easy.c). I wish our P2P implementations were so simple that they could be ported to other languages without having to invent dozens of new interfaces and abstractions.",
+    "mentions": [
+      {
+        "link": "@C6fAmdXgqTDbmZGAohUaYuyKdz3m6GBoLLtml3fUn+o=.ed25519",
+        "name": "cblgh"
+      }
+    ],
+    "root": "%RZsLg9KMyP7MO48lB6xum6HW7BAWACfvY9Pfra9B9vU=.sha256",
     "branch": [
-      "%50EtwI/zcNiUH+EVtjSiX0xlTGr6aPGI/qR7SX63uTo=.sha256"
+      "%RZsLg9KMyP7MO48lB6xum6HW7BAWACfvY9Pfra9B9vU=.sha256"
     ]
   },
-  "signature": "9NiifgWMSn7jV0mgNDNoP11YdQWYXtSr/FWqRSzBP9/Z8N/AEQPAoqve65uzgPGtLmkKEb5SJjyvlwmCnyaNAQ==.sig.ed25519"
+  "signature": "H+KDcIF7lDslifD5YcPVAeQZGgdqmsJ2+OvmWFDJP40f+L5DwE5dIZda+YpRsfmB4iS9OP5mKi8mcUXk0/5QAA==.sig.ed25519"
 }
