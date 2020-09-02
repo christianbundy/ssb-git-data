@@ -1,22 +1,18 @@
 {
-  "previous": "%6mLf97upsN6WYkCTo8kyLWBsZYdHQ7BTVgdbN5XvlLQ=.sha256",
-  "sequence": 18598,
+  "previous": "%Z4aJyZLl7TBaWSFRmo8Bq+nGtf6WBujxXvZBw5oV5uM=.sha256",
+  "sequence": 18599,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1599088695421,
+  "timestamp": 1599088790669,
   "hash": "sha256",
   "content": {
-    "type": "post",
-    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThere's more info [here](https://github.com/ssb-js/chloride/issues/18), but right now Chloride provides bindings to **three** libsodium providers depending on your environment. This leads to [slightly different behavior](https://github.com/ssb-js/chloride/issues/3) and a bigger dependency tree than necessary.\r\n\r\nMy preference would be to have Chloride instead depend on Sodium-Universal, which uses Sodium-Native on Node.js and Sodium-JavaScript (a hand-written port of the libsodium C code) in the browser. I think that all the methods you mentioned are supported in Chloride, but there's an exhaustive list [here](https://github.com/ssb-js/chloride/issues/18#issuecomment-681112264).\r\n\r\nSo far I've ported:\r\n\r\n- crypto_box_MACBYTES\r\n- crypto_box_easy\r\n- crypto_box_open_easy\r\n\r\nAnd based on [this convo](https://github.com/sodium-friends/sodium-javascript/issues/19) it sounds like the rest are almost ready.\r\n\r\nTL;DR: The Chloride API is good, but I'm not excited about having three different libsodium providers. The Sodium-Friends team seems really great and I'm excited about having Sodium-Universal as a crypto dependency. TODO: Finish porting the rest of the methods that Chloride needs from C to JS.",
-    "mentions": [
-      {
-        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
-        "name": "cinnamon"
-      }
-    ],
-    "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
+    "type": "vote",
+    "vote": {
+      "link": "%p9++7C0NflPa8jsUHuwpr7bJNYKP8qpZXTOayBqFatw=.sha256",
+      "value": 1
+    },
     "branch": [
-      "%CCCqRpypz9x2OZs8lUWLkdfXKDK4f/LzRWlVVOEnB48=.sha256"
+      "%4OVg8CqjQFr8cfcR6nPXcLk44twpB1blVS51zbJOhT8=.sha256"
     ]
   },
-  "signature": "hZ22Q4A0QwQG0dCvRVzJdWLoj4IpHoz/xPm5++JiDD7xsR4VVyg26p7VTMgiz0F3UDXg/cHOPOwxkV2T8qKIDQ==.sig.ed25519"
+  "signature": "HgBCj1J1Di7RIcOrc77aFR8aiSAzHV1uzg4qzn+5u6uyWeZiBdMPmgsb/NhkyU+Y950Efd1l5NTnZb9l9li4Aw==.sig.ed25519"
 }
