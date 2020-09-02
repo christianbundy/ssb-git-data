@@ -1,18 +1,22 @@
 {
-  "previous": "%kQ7ntvtrWFHmFZg2/R71wNOKjaOtdb2Z6PO2ux1K+JY=.sha256",
-  "sequence": 18597,
+  "previous": "%6mLf97upsN6WYkCTo8kyLWBsZYdHQ7BTVgdbN5XvlLQ=.sha256",
+  "sequence": 18598,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1599083806479,
+  "timestamp": 1599088695421,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "![Photo of Kathleen and I standing in from of a pretty view of downtown Portland.](&idAGjGAS+cF2v2XJka8rF5GdnhzPNzBC3YLQ3rngTTU=.sha256)\r\n\r\nUPDATE: We left the house.",
+    "text": "[@cinnamon](@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519)\r\n\r\nThere's more info [here](https://github.com/ssb-js/chloride/issues/18), but right now Chloride provides bindings to **three** libsodium providers depending on your environment. This leads to [slightly different behavior](https://github.com/ssb-js/chloride/issues/3) and a bigger dependency tree than necessary.\r\n\r\nMy preference would be to have Chloride instead depend on Sodium-Universal, which uses Sodium-Native on Node.js and Sodium-JavaScript (a hand-written port of the libsodium C code) in the browser. I think that all the methods you mentioned are supported in Chloride, but there's an exhaustive list [here](https://github.com/ssb-js/chloride/issues/18#issuecomment-681112264).\r\n\r\nSo far I've ported:\r\n\r\n- crypto_box_MACBYTES\r\n- crypto_box_easy\r\n- crypto_box_open_easy\r\n\r\nAnd based on [this convo](https://github.com/sodium-friends/sodium-javascript/issues/19) it sounds like the rest are almost ready.\r\n\r\nTL;DR: The Chloride API is good, but I'm not excited about having three different libsodium providers. The Sodium-Friends team seems really great and I'm excited about having Sodium-Universal as a crypto dependency. TODO: Finish porting the rest of the methods that Chloride needs from C to JS.",
     "mentions": [
       {
-        "link": "&idAGjGAS+cF2v2XJka8rF5GdnhzPNzBC3YLQ3rngTTU=.sha256",
-        "name": "Photo of Kathleen and I standing in from of a pretty view of downtown Portland."
+        "link": "@fBS90Djngwl/SlCh/20G7piSC064Qz2hBBxbfnbyM+Y=.ed25519",
+        "name": "cinnamon"
       }
+    ],
+    "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
+    "branch": [
+      "%CCCqRpypz9x2OZs8lUWLkdfXKDK4f/LzRWlVVOEnB48=.sha256"
     ]
   },
-  "signature": "oIiTDmncEpSJ9TOqvsKjZ4cr5LL1V04ejQXY3S5ZhyTB8kMxbJiN6J5ThCK6OMdit7uvxbyNt9FRRktM+alrCg==.sig.ed25519"
+  "signature": "hZ22Q4A0QwQG0dCvRVzJdWLoj4IpHoz/xPm5++JiDD7xsR4VVyg26p7VTMgiz0F3UDXg/cHOPOwxkV2T8qKIDQ==.sig.ed25519"
 }
