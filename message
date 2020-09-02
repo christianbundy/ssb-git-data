@@ -1,18 +1,22 @@
 {
-  "previous": "%2gkFngiCQa+UxjhCVJ84tjhUwCmBj+20H0z5Le+i/UA=.sha256",
-  "sequence": 18593,
+  "previous": "%KLUh+mNoqWDEELpZhjW+xJ7poz6gwBf/fUOMplx/Qeo=.sha256",
+  "sequence": 18594,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1599063591126,
+  "timestamp": 1599073590807,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%bXsx8v8FHpvBEtm5KuO91XJ6JDFpWoCOfeZ6r6e1NIU=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@andrestaltz](@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519)\r\n\r\n> I thought that’s what we were talking about this entire thread\r\n\r\nOh, in my mind we bifurcated around Git merge strategies -- there are no SSB-JS rules saying that you have to do a conventional merge (you're welcome to squash the commits or rebase them onto 'main'), those were just my personal opinions from my experience with Git.\r\n\r\n> I think it’s a good time to get on an audio call to sync our thoughts in a less controversial medium.\r\n\r\nAlways down, I'll start putting some more energy into https://github.com/ssb-js/ssb-js/issues/14 to see if we can all get on a call together.",
+    "mentions": [
+      {
+        "link": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+        "name": "andrestaltz"
+      }
+    ],
+    "root": "%9TGNIbIqh4MUk7zQAhHETld5ynebiimHE3pdJgU/vWg=.sha256",
     "branch": [
-      "%bXsx8v8FHpvBEtm5KuO91XJ6JDFpWoCOfeZ6r6e1NIU=.sha256"
+      "%6CSOMMYcLrojyAbOYwPYf9BuFVkP/KKH8vrHSBNHVVM=.sha256"
     ]
   },
-  "signature": "H75r0rpIMlpkG+xHnVXNK8CoOoHu2DFZ/0/0T/6IwhbrU1qsVq9RMBp/aM3qgf6sSI/AIfhaEO0HwAV0DK1iDw==.sig.ed25519"
+  "signature": "d4YKlkbTwsMvsL2TserN5FyyLuz3h2/S8vUdbrguW+mOaeOctZAnaX4ypsnCt61PAuneLtb69Fg9owqmiUhiAw==.sig.ed25519"
 }
