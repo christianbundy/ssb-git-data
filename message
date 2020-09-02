@@ -1,17 +1,22 @@
 {
-  "previous": "%AEs3cVCADcmVqkuV0d5G71kgc6XtAjr+90As6X/JOMk=.sha256",
-  "sequence": 18595,
+  "previous": "%+tL71dT86Fzwj+aTipX24zBz7oKIP7wm0Nmt3PXL8xY=.sha256",
+  "sequence": 18596,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1599077575671,
+  "timestamp": 1599081638764,
   "hash": "sha256",
   "content": {
     "type": "post",
-    "text": "Update: Sodium-Universal is the answer to life, the universe, and everything. That's a small exaggeration, but I've been some hours into improving it and I've been very happy with how easy it is to work on. Both the code and the humans behind it are really great.\r\n\r\nIf the Sodium-JavaScript codebase is missing a method you need, ping me and I can try to help you port it.",
-    "mentions": [],
-    "root": "%p4yO5k4iHZUf0p8L1yax9Snlyo+ruatsMGy8bpLGaUk=.sha256",
+    "text": "[@af](@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519)\r\n\r\n> how do i move for picking the license?\r\n\r\nTake a look at your dependencies and see what their licenses are. If they have permissive licenses (e.g. Node.js uses the MIT license) then almost any license is compatible, if they have copyleft licenses (e.g. Git uses the GPL v2) then you'll have to choose a compatible license.\r\n\r\nLots more info here: https://en.wikipedia.org/wiki/License_compatibility",
+    "mentions": [
+      {
+        "link": "@UYyBSgcbRAlNxWZkuU0oCYLo2s2cV3yh4FDUv/OxVwQ=.ed25519",
+        "name": "af"
+      }
+    ],
+    "root": "%ygOi0hs/mj+CRUnmq27EDydJwD+uTWi/1Ft3Y1IlfIA=.sha256",
     "branch": [
-      "%5SSkvcy1pNiRht0u1jyKrXXrcId64b1KC5WQ24+3AyU=.sha256"
+      "%BBWq6zibHRspJZjOIsWBTs8niOjY523SVbpiqmPbDLU=.sha256"
     ]
   },
-  "signature": "KfzmU2Iw5dTGv1rj6GGWWtuGxv4yILyd3XM7IyKEMRIWMcWhHTlrEd2PpJ1KerU/ioR9jT3n0Nvwc4F+s5gVBQ==.sig.ed25519"
+  "signature": "kq5H7n2oDwYaqmHFpZvfZbz1YDLnoRzvTj/rCeQ4GrK+p2ov1lft83YsmtU4uRTfIfZ6W91cixX8YUxVgVofAg==.sig.ed25519"
 }
