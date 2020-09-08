@@ -1,18 +1,22 @@
 {
-  "previous": "%7r+RVDOfV27fRdIPiS/mdvrqUDYFL/lZ3afeKV7rCh8=.sha256",
-  "sequence": 18619,
+  "previous": "%o4Kd7VRffkZZ+9gJ43n0wi+MUztJMZ++jFR0syhEqqM=.sha256",
+  "sequence": 18620,
   "author": "@+oaWWDs8g73EZFUMfW37R/ULtFEjwKN/DczvdYihjbU=.ed25519",
-  "timestamp": 1599583941417,
+  "timestamp": 1599585427621,
   "hash": "sha256",
   "content": {
-    "type": "vote",
-    "vote": {
-      "link": "%iPVTRYCfbdnpfFYI71OhFdmhlRaiFHOHFq482aDSjCg=.sha256",
-      "value": 1
-    },
+    "type": "post",
+    "text": "[@Nｅｔｓｃａｐｅ Navigator™](@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519)\r\n\r\nTwo notes:\r\n\r\n- Yes, we use the SSB signing keys during the [secret handshake](https://secret-handshake.club/).\r\n- Keks is more knowledgeable but here's my current understanding: Yes, it's an anti-pattern. It's *usually* cryptographically safe, but it has a few downsides:\r\n  - If you use your SSB key for SSH, and there's some SSH exploit that [somehow] leaks your private key, then now the attacker has your SSB keys too.\r\n  - If you decide that you don't trust your phone for SSH, only SSB, then you can't say \"I'll keep my SSB key but not my SSH key\" if they're the same key.\r\n  - If you decide \"I want to host a persistent SSH server with my key\" then you have to take your private key and put it on some server with questionable safety.\r\n  - Signing and encryption are related, and there have previously been attacks where getting someone to encrypt message A might produce a valid signature for some message B. Modern crypto is usually safe against this, but having one key per operation (signing vs encryption) is even safer.\r\n\r\nMy understanding is that this is why lots of key systems have certificate chains: you have a master key that you use to sign (or revoke) sub-keys, which can recursively sign (or revoke) sub-keys. This makes it trivial to say \"I'm making a new key but it's only valid on dev.example.com\" and you don't have to secure it as well as your example.com keys.\r\n\r\nX.509 is a nightmare and ASN.1 makes me want to lie down on the floor for long periods of time, but at the end of the day TLS seems very attractive because of features like this (and *rampant* standardization). I expect that Keks will smack me in the back of the head for groveling at the feet of the TLS behemoth.",
+    "mentions": [
+      {
+        "link": "@z2M8msI2EUubNHnrEJncglDIy2/SUd+36jCyJnfeiHk=.ed25519",
+        "name": "Nｅｔｓｃａｐｅ Navigator™"
+      }
+    ],
+    "root": "%f7tojNPUfVnayono38kEi6jXz+R1Apxmm2wU/JrhzIs=.sha256",
     "branch": [
-      "%pUGSKJY5COqIcuqtFe6cUywT8g74LhQb2pEkJ3+h7BA=.sha256"
+      "%qQ9gRicXJLGPSMp9KkgfH58s3PWvcl2kOQ9Bs7tcT84=.sha256"
     ]
   },
-  "signature": "y3NrRUoZafmcn75EzWNbKjM+4+yWFFbbpDd2SzwiO/47gN4GpLsOFNKBn6vLMu49VWJqQNccQrd7mDXDgCTtAA==.sig.ed25519"
+  "signature": "j5tyGzu4psGfqPUR5adiLH5rDPSfQJRLBFM/USufyl4453d7Fj2KQnKRPhyhDy2Y5WcN08NoOrTroPYyUjYlAg==.sig.ed25519"
 }
